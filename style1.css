@@ -195,14 +195,20 @@ p:has(> font[size="4"] > strong) {
 
 /* ============================================
    Table Layout Fix - Even Column Distribution
+   Only applies to content tables (not menu tables)
    ============================================ */
-table {
+/* Main content area tables only */
+body>table,
+#main table,
+.content table {
     table-layout: fixed !important;
     width: 100% !important;
 }
 
 /* Index tables with 4 columns (title, period, description, publication) */
-table td {
+body>table td,
+#main table td,
+.content table td {
     word-wrap: break-word;
     overflow-wrap: break-word;
     padding: 8px 12px !important;
@@ -210,39 +216,30 @@ table td {
 }
 
 /* First column (Title) - wider */
-table td:first-child {
-    width: 20%;
-    min-width: 120px;
-}
-
-/* Second column (Period) */
-table td:nth-child(2) {
-    width: 15%;
-    min-width: 80px;
-    white-space: nowrap;
-}
-
-/* Third column (Description) - widest */
-table td:nth-child(3) {
-    width: 45%;
-}
-
-/* Fourth column (Publication) */
-table td:nth-child(4) {
+body>table td:first-child {
     width: 20%;
     min-width: 100px;
 }
 
-/* Header cells - same distribution */
-table th {
-    padding: 10px 12px !important;
-    text-align: left;
+/* Second column (Period) */
+body>table td:nth-child(2) {
+    width: 12%;
     white-space: nowrap;
 }
 
-/* Prevent horizontal overflow */
-table {
-    max-width: 100%;
-    overflow-x: auto;
-    display: block;
+/* Third column (Description) - widest */
+body>table td:nth-child(3) {
+    width: 48%;
+}
+
+/* Fourth column (Publication) */
+body>table td:nth-child(4) {
+    width: 20%;
+}
+
+/* Header cells - same distribution */
+body>table th {
+    padding: 10px 12px !important;
+    text-align: left;
+    white-space: nowrap;
 }
