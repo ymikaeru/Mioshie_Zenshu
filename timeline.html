@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca Interativa - Biblioteca Sagrada</title>
+    <link href="style4.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Inter:wght@300;400;500;600&family=Noto+Serif+JP:wght@400;700&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2c5e4f;
+            /* Deep Green */
+            --accent-color: #d4a373;
+            /* Gold/Earth */
+            --bg-color: #fcfbf9;
+            /* Warm Off-white */
+            --card-bg: #ffffff;
+            --text-main: #2c3e50;
+            --text-light: #7f8c8d;
+            --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.05);
+            --shadow-hover: 0 15px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(to right, #ffffff, #f8f9fa);
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .logo {
+            font-family: 'Cinzel', serif;
+            font-size: 1.5rem;
+            color: var(--primary-color);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+        }
+
+        .nav-btn {
+            padding: 10px 20px;
+            border-radius: 30px;
+            border: 1px solid #eee;
+            background: white;
+            color: var(--text-main);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .nav-btn:hover {
+            border-color: var(--primary-color);
+            color: var(--primary-color);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        /* Hero */
+        .hero {
+            text-align: center;
+            padding: 60px 20px 40px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .hero h1 {
+            font-family: 'Noto Serif JP', serif;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: var(--primary-color);
+        }
+
+        .hero p {
+            color: var(--text-light);
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        /* Stats Cards */
+        .stats-grid {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            max-width: 800px;
+            margin: 0 auto 50px;
+            padding: 0 20px;
+        }
+
+        .stat-card {
+            background: white;
+            padding: 25px 40px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: var(--shadow-soft);
+            border: 1px solid rgba(0, 0, 0, 0.03);
+            min-width: 200px;
+        }
+
+        .stat-value {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--accent-color);
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .stat-label {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-light);
+        }
+
+        /* Layout Grid */
+        .main-grid {
+            display: block;
+            max-width: 95%;
+            margin: 0 auto 60px;
+            padding: 0;
+        }
+
+        /* Timeline Container */
+        .timeline-container {
+            background: white;
+            border-radius: 16px;
+            box-shadow: var(--shadow-soft);
+            padding: 40px;
+            /* More breathing room */
+        }
+
+        .timeline-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .timeline-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--text-main);
+        }
+
+        .selected-year-display {
+            font-family: 'Noto Serif JP', serif;
+            font-size: 2rem;
+            color: var(--primary-color);
+        }
+
+        /* Scrollable Chart Area */
+        .chart-scroll-wrapper {
+            overflow-x: auto;
+            padding-bottom: 20px;
+            scrollbar-width: thin;
+            scrollbar-color: #ccc transparent;
+        }
+
+        .chart-scroll-wrapper::-webkit-scrollbar {
+            height: 8px;
+        }
+
+        .chart-scroll-wrapper::-webkit-scrollbar-thumb {
+            background-color: #ddd;
+            border-radius: 4px;
+        }
+
+        .bar-chart {
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-start;
+            gap: 8px;
+            height: 300px;
+            padding-top: 40px;
+            padding-left: 10px;
+            padding-right: 10px;
+            overflow-x: auto;
+        }
+
+        /* Bar Item */
+        .bar-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+            cursor: pointer;
+            width: 40px;
+            height: 100%;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+
+        .bar-group:hover .bar {
+            transform: scaleY(1.05);
+            /* Only scale Y to avoid width issues */
+            opacity: 1;
+            filter: brightness(1.1);
+        }
+
+        .bar-group.active .bar {
+            opacity: 1;
+            filter: brightness(1.2);
+            /* Highlight border or distinct color handled in JS */
+        }
+
+        .bar-group.active .year-label {
+            color: var(--primary-color);
+            font-weight: 700;
+            transform: scale(1.1);
+        }
+
+        .bar {
+            width: 100%;
+            border-radius: 6px 6px 0 0;
+            transition: height 1s cubic-bezier(0.2, 0.8, 0.2, 1), background 0.3s;
+            opacity: 0.8;
+            position: relative;
+        }
+
+        /* Tooltip */
+        .bar-group:hover::after {
+            content: attr(data-count) " items";
+            position: absolute;
+            top: -30px;
+            background: #333;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+            white-space: nowrap;
+            z-index: 10;
+            animation: fadeIn 0.2s ease;
+        }
+
+        .year-label {
+            margin-top: 10px;
+            font-size: 12px;
+            color: #999;
+            transition: all 0.3s;
+        }
+
+        /* Insight / Pie Chart Card */
+        .insight-card {
+            background: white;
+            border-radius: 16px;
+            box-shadow: var(--shadow-soft);
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .chart-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 30px;
+            width: 100%;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 15px;
+        }
+
+        .pie-chart-container {
+            position: relative;
+            width: 280px;
+            height: 280px;
+            flex-shrink: 0;
+            border-radius: 50%;
+            background: conic-gradient(var(--pie-gradient, #eee 0% 100%));
+            margin-bottom: 0;
+            transition: background 1s ease;
+        }
+
+        /* Donut hole */
+        .pie-chart-container::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 180px;
+            height: 180px;
+            background: #fafafa;
+            border-radius: 50%;
+        }
+
+        .pie-legend {
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            /* Two columns */
+            gap: 10px 20px;
+            /* Row Gap, Col Gap */
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 0.9rem;
+            color: #555;
+            padding: 5px 0;
+            border-bottom: 1px solid #f9f9f9;
+        }
+
+        .legend-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 10px;
+            display: inline-block;
+        }
+
+        .legend-count {
+            font-weight: 600;
+            color: #333;
+        }
+
+
+        /* Minimalist List Card */
+        .content-section {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 30px 100px;
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+            border-left: 4px solid var(--accent-color);
+            padding-left: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .count-badge {
+            font-size: 0.9rem;
+            background: #eee;
+            padding: 5px 12px;
+            border-radius: 20px;
+            color: #666;
+        }
+
+        /* Simplified List Grid */
+        .list-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 15px;
+        }
+
+        .mini-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #eee;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.02);
+            transition: all 0.2s ease;
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100px;
+            /* Uniform height */
+            position: relative;
+            overflow: hidden;
+        }
+
+        .mini-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            border-color: var(--accent-color);
+        }
+
+        /* Colored Strip on left */
+        .mini-card::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 4px;
+            background-color: var(--card-color, #ccc);
+        }
+
+        .mini-card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 10px;
+        }
+
+        .mini-card-title {
+            font-family: 'Noto Serif JP', serif;
+            font-size: 1rem;
+            color: var(--text-main);
+            font-weight: 600;
+            line-height: 1.4;
+            margin: 0;
+            padding-left: 10px;
+            /* Space for strip */
+        }
+
+        .mini-card-year {
+            font-size: 0.8rem;
+            color: var(--text-light);
+            background: #f5f5f5;
+            padding: 2px 6px;
+            border-radius: 4px;
+            white-space: nowrap;
+        }
+
+        .mini-card-footer {
+            display: flex;
+            justify-content: flex-end;
+            padding-left: 10px;
+        }
+
+        .mini-tag {
+            font-size: 0.75rem;
+            color: var(--card-color, #999);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(5px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .loading {
+            display: flex;
+            justify-content: center;
+            padding: 40px;
+            color: #999;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <a href="2.html" class="logo">
+            <span>Biblioteca Sagrada</span>
+        </a>
+        <nav>
+            <a href="2.html" class="nav-btn">← Voltar</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>Busca Interativa</h1>
+        <p>Explore a cronologia dos Ensinamentos Divinos. Visualize como a Sabedoria foi revelada ao longo dos anos.</p>
+    </div>
+
+    <!-- Summary Stats (Simplified) -->
+    <div class="stats-grid">
+        <div class="stat-card">
+            <span class="stat-value" id="total-teachings">-</span>
+            <span class="stat-label">Ensinamentos</span>
+        </div>
+        <div class="stat-card">
+            <span class="stat-value" id="unpublished-count">-</span>
+            <span class="stat-label">Não Publicados</span>
+        </div>
+    </div>
+
+    <!-- Main Grid: Timeline + Pie Chart -->
+    <div class="main-grid">
+
+        <!-- Timeline -->
+        <div class="timeline-container">
+            <div class="timeline-header">
+                <div class="timeline-title">Evolução Cronológica</div>
+                <div class="selected-year-display" id="display-selected-year">Todos</div>
+            </div>
+
+            <div class="chart-scroll-wrapper">
+                <div id="timeline-chart" class="bar-chart">
+                    <div class="loading">Carregando dados...</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- End Main Grid -->
+
+    <!-- Category Distribution Section (Nordic Redesign) -->
+    <div style="background-color: #f9fafb; padding: 80px 40px; margin-bottom: 60px;">
+        <div style="max-width: 1100px; margin: 0 auto;">
+            <h2
+                style="font-family: 'Noto Serif JP', serif; font-size: 2rem; color: var(--primary-color); margin-bottom: 16px; text-align: center;">
+                Distribuição por Categoria</h2>
+            <p style="color: #7f8c8d; max-width: 500px; margin: 0 auto 60px; text-align: center; font-size: 0.95rem;">
+                Clique em uma categoria para filtrar o acervo.</p>
+
+            <!-- Card Container -->
+            <div
+                style="background: white; border-radius: 20px; padding: 50px 60px; box-shadow: 0 4px 20px rgba(0,0,0,0.04); display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 80px;">
+
+                <!-- Pie Chart (Larger) -->
+                <div class="pie-chart-container" id="category-pie"
+                    style="width: 300px; height: 300px; cursor: pointer; transition: transform 0.3s; flex-shrink: 0;"
+                    title="Clique para resetar filtro"></div>
+
+                <!-- Legend (More Space) -->
+                <div class="pie-legend" id="category-legend"
+                    style="max-width: 550px; min-width: 400px; text-align: left; display: grid; grid-template-columns: 1fr 1fr; gap: 16px 40px;">
+                    <!-- Legend Items -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Content List (Simplified) -->
+    <div class="content-section">
+        <div class="section-title">
+            <span id="list-title">Acervo Completo</span>
+            <span class="count-badge" id="list-count">0</span>
+        </div>
+        <div id="content-grid" class="list-grid">
+            <!-- Cards will be injected here -->
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', async () => {
+            const chartContainer = document.getElementById('timeline-chart');
+            const gridContainer = document.getElementById('content-grid');
+            const displayYear = document.getElementById('display-selected-year');
+            const listTitle = document.getElementById('list-title');
+            const listCount = document.getElementById('list-count');
+
+            // Pie Elements
+            const pieChart = document.getElementById('category-pie');
+            const pieLegend = document.getElementById('category-legend');
+
+            // Stats Elements
+            const elTotal = document.getElementById('total-teachings');
+            const elRange = document.getElementById('year-range');
+
+            let allData = [];
+            let activeCategory = null;
+
+            // Category Colors (Natural/Earthy Palette)
+            const catColors = {
+                'Religião': '#2c5e4f', // Deep Green
+                'Filosofia': '#5b8c5a', // Med Green
+                'Sociedade': '#d4a373', // Earth Gold
+                'Saúde': '#e67e22', // Orange
+                'Arte': '#e74c3c', // Muted Red
+                'Ciência': '#3498db', // Blue
+                'Outros': '#95a5a6' // Grey
+            };
+            const defaultColor = '#95a5a6';
+
+            try {
+                // 1. Fetch Data
+                const response = await fetch('Data/advanced_search_index.json');
+                allData = await response.json();
+
+                const validData = allData.filter(d => d.year && !isNaN(parseInt(d.year)));
+
+                // 2. Process Data for Timeline
+                const yearCounts = {};
+                let years = [];
+
+                validData.forEach(item => {
+                    const y = parseInt(item.year);
+                    if (!yearCounts[y]) yearCounts[y] = 0;
+                    yearCounts[y]++;
+                    years.push(y);
+                });
+
+                years = [...new Set(years)].sort((a, b) => a - b);
+                const minYear = years[0];
+                const maxYear = years[years.length - 1];
+                // Find Peak & Unpublished
+                let maxCount = 0;
+                Object.values(yearCounts).forEach(c => { if (c > maxCount) maxCount = c; });
+
+                const unpublishedCount = allData.filter(d => d.unpublished === true || d.unpublished === "true").length;
+
+                // Update Stats UI
+                elTotal.textContent = allData.length.toLocaleString();
+                // elRange.textContent = `${minYear} - ${maxYear}`; // This element does not exist in the provided HTML
+                document.getElementById('unpublished-count').textContent = unpublishedCount.toLocaleString(); // State
+
+                // 3. Render Initial State
+                renderTimeline(yearCounts, years, maxCount);
+                renderPieChart(allData); // All data initially
+                renderCards(allData.slice(0, 50)); // Limit initial
+
+            } catch (err) {
+                console.error(err);
+                chartContainer.innerHTML = "Erro ao carregar.";
+            }
+
+            function renderTimeline(counts, sortedYears, maxValue) {
+                chartContainer.innerHTML = '';
+
+                sortedYears.forEach(year => {
+                    const count = counts[year];
+                    const percent = Math.max((count / maxValue) * 100, 5);
+
+                    const group = document.createElement('div');
+                    group.className = 'bar-group';
+                    group.dataset.year = year;
+                    group.dataset.count = count;
+                    group.onclick = () => selectYear(year);
+
+                    const bar = document.createElement('div');
+                    bar.className = 'bar';
+                    bar.style.height = '0%';
+                    setTimeout(() => bar.style.height = `${percent}%`, 100);
+
+                    // Gradient based on intensity
+                    // Green to Blue gradient
+                    const opacity = 0.5 + (count / maxValue) * 0.5;
+                    bar.style.background = `rgba(44, 94, 79, ${opacity})`;
+
+                    const label = document.createElement('div');
+                    label.className = 'year-label';
+                    label.textContent = year;
+
+                    group.appendChild(bar);
+                    group.appendChild(label);
+                    chartContainer.appendChild(group);
+                });
+            }
+
+            function selectYear(year) {
+                // UI Highlight
+                document.querySelectorAll('.bar-group').forEach(b => {
+                    b.classList.remove('active');
+                    b.querySelector('.bar').style.background = b.querySelector('.bar').style.background.replace('rgb', 'rgba').replace('1)', '0.8)'); // reset
+                });
+
+                const activeGroup = document.querySelector(`.bar-group[data-year="${year}"]`);
+                if (activeGroup) {
+                    activeGroup.classList.add('active');
+                    activeGroup.querySelector('.bar').style.background = '#d4a373'; // Highlight color (Gold)
+                }
+
+                displayYear.textContent = year;
+                listTitle.textContent = `Ensinamentos de ${year}`;
+
+                // Filter content
+                const filtered = allData.filter(d => parseInt(d.year) === year);
+
+                // Update views
+                renderCards(filtered);
+                renderPieChart(filtered); // Update pie to show dist FOR THAT YEAR
+            }
+
+
+
+            function renderPieChart(items) {
+                // Aggregation
+                const catCounts = {};
+                let total = 0;
+
+                items.forEach(item => {
+                    let cat = item.category || 'Outros';
+                    // Simplify category names
+                    if (cat.length < 3) cat = "Outros";
+                    if (!catCounts[cat]) catCounts[cat] = 0;
+                    catCounts[cat]++;
+                    total++;
+                });
+
+                // Build Conic Gradient
+                let gradientStr = [];
+                let currentDeg = 0;
+                const sortedCats = Object.entries(catCounts).sort((a, b) => b[1] - a[1]);
+                const legendHtml = [];
+
+                if (total === 0) {
+                    pieChart.style.setProperty('--pie-gradient', '#eee 0% 100%');
+                    pieLegend.innerHTML = '<div class="legend-item">Sem dados</div>';
+                    return;
+                }
+
+                sortedCats.forEach(([cat, count]) => {
+                    const percent = (count / total) * 100;
+                    const nextDeg = currentDeg + percent;
+
+                    // Resolve color
+                    let color = defaultColor;
+                    for (const key of Object.keys(catColors)) {
+                        if (cat.includes(key)) {
+                            color = catColors[key];
+                            break;
+                        }
+                    }
+                    if (color === defaultColor && sortedCats.length < 10) {
+                        const fallbackColors = ['#2c3e50', '#8e44ad', '#2980b9', '#27ae60', '#f1c40f'];
+                        color = fallbackColors[gradientStr.length % fallbackColors.length];
+                    }
+
+                    gradientStr.push(`${color} ${currentDeg}% ${nextDeg}%`);
+                    currentDeg = nextDeg;
+
+                    // Legend Item (Interactive)
+                    const isActive = activeCategory === cat;
+                    const opacity = activeCategory && !isActive ? '0.4' : '1';
+                    const weight = isActive ? 'bold' : 'normal';
+
+                    legendHtml.push(`
+                        <div class="legend-item" 
+                             style="cursor: pointer; opacity: ${opacity}; transition: all 0.2s;"
+                             onclick="filterByCategory('${cat}')">
+                            <div style="display:flex; align-items:center;">
+                                <span class="legend-dot" style="background:${color}"></span>
+                                <span style="font-weight: ${weight}">${cat}</span>
+                            </div>
+                            <span class="legend-count">${count}</span>
+                        </div>
+                    `);
+                });
+
+                pieChart.style.setProperty('--pie-gradient', gradientStr.join(', '));
+                pieLegend.innerHTML = legendHtml.join('');
+
+                // Allow resetting by clicking the chart itself
+                pieChart.onclick = () => {
+                    activeCategory = null;
+                    renderCards(items); // Reset view
+                    renderPieChart(items); // Re-render legend state
+                    listTitle.textContent = "Acervo Completo (Filtro Removido)";
+                };
+            }
+
+            // Expose to global scope for onclick attributes
+            window.filterByCategory = (cat) => {
+                activeCategory = cat;
+                const filtered = allData.filter(d => {
+                    const itemCat = d.category || 'Outros';
+                    return itemCat.includes(cat) || (cat === 'Outros' && itemCat.length < 3);
+                });
+                renderCards(filtered);
+                listTitle.textContent = `Categoria: ${cat}`;
+                // Re-render pie to show active state in legend
+                renderPieChart(allData);
+            };
+
+            function renderCards(items) {
+                listCount.textContent = items.length;
+                gridContainer.innerHTML = '';
+
+                if (items.length === 0) {
+                    gridContainer.innerHTML = '<div style="grid-column: 1/-1; text-align: center; color: #999;">Nenhum item.</div>';
+                    return;
+                }
+
+                items.forEach(item => {
+                    const card = document.createElement('a');
+                    card.href = `advanced_search.html?id=${item.id}`; // deep link
+                    card.className = 'mini-card';
+
+                    let cat = item.category || 'Geral';
+                    let color = defaultColor;
+                    for (const key of Object.keys(catColors)) {
+                        if (cat.includes(key)) {
+                            color = catColors[key];
+                            break;
+                        }
+                    }
+                    card.style.setProperty('--card-color', color);
+
+                    card.innerHTML = `
+                        <div class="mini-card-header">
+                            <h3 class="mini-card-title">${item.title}</h3>
+                            <span class="mini-card-year">${item.year || '?'}</span>
+                        </div>
+                        <div class="mini-card-footer">
+                            <span class="mini-tag">${cat}</span>
+                        </div>
+                    `;
+                    gridContainer.appendChild(card);
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>

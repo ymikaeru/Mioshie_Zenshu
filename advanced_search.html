@@ -283,6 +283,18 @@
             font-weight: 500;
         }
 
+        .card-tag:hover {
+            background: var(--primary-color);
+            color: white;
+            transform: scale(1.05);
+        }
+
+        .card-tag.active {
+            background: var(--primary-color);
+            color: white;
+            box-shadow: 0 2px 4px rgba(44, 119, 68, 0.3);
+        }
+
         /* Modal */
         .modal-overlay {
             position: fixed;
@@ -759,13 +771,104 @@
             });
 
             // Publications
+            // Publication Grouping & Mapping
+            // 1. Define Mappings (Japanese -> Romaji)
+            const romajiMap = {
+                '御教え': 'Gokowa',
+                '地上天国': 'Chijo Tengoku',
+                '天国の福音': 'Tengoku no Fukuin',
+                '光': 'Hikari',
+                '救世': 'Kyusei',
+                '栄光': 'Eiko',
+                '結核問題ト其解決策': 'Kekkaku Mondai to Sono Kaiketsusaku',
+                '自然農法解説': 'Shizen Noho Kaisetsu',
+                '奇蹟物語': 'Kiseki Monogatari',
+                '会報': 'Kaiho',
+                '法難手記': 'Honan Shuki',
+                'アメリカ巡教': 'America Junkyo',
+                '医療と健康': 'Iryo to Kenko',
+                '健康生活': 'Kenko Seikatsu',
+                '世界救世教奇蹟集': 'Sekai Kyuseikyo Kisekishu',
+                'メシヤ教批判': 'Meshiya Kyo Hihan',
+                '松風': 'Matsukaze',
+                '瑞光': 'Zuiko',
+                '浄霊法講座': 'Johrei Ho Koza',
+                '私物語': 'Watashi Monogatari',
+                '実生分会ニュース': 'Mise Bunkai News',
+                '岡田先生療病術講義録': 'Okada Sensei Ryobyojutsu Kogi Roku'
+            };
+
+            // 2. Normalization Function (Grouping)
+            const normalizePubName = (name) => {
+                if (!name) return 'Outros';
+                let norm = name;
+
+                // Apply Romaji Map first
+                if (romajiMap[norm]) norm = romajiMap[norm];
+
+                // Special Grouping Rules (Regex)
+                // Ashita no Ijutsu (grouping all volumes/editions)
+                if (norm.includes('Ashita no Ijutsu')) return 'Ashita no Ijutsu';
+                if (norm.includes('Asu no Ijutsu')) return 'Ashita no Ijutsu';
+
+                // Cleaning common suffixes/prefixes
+                norm = norm.replace(/（.*?）/g, '') // Remove parenthesis like (Shohan)
+                    .replace(/\(.*?\)/g, '')
+                    .replace(/Dai \d+ Hen/g, '') // Remove Vol numbers
+                    .replace(/Vol\. \d+/g, '')
+                    .trim();
+
+                return norm;
+            };
+
             dom.pubContainer.innerHTML = '';
-            const sortedPubs = Array.from(publications).sort();
-            sortedPubs.forEach(pub => {
+
+            // 3. Count by NORMALIZED name
+            const pubCounts = {};
+            const pubOriginals = {}; // Map normalized -> array of originals
+
+            searchData.forEach(item => {
+                if (item.publication_group) {
+                    const original = item.publication_group;
+                    const norm = normalizePubName(original);
+
+                    if (!pubCounts[norm]) {
+                        pubCounts[norm] = 0;
+                        pubOriginals[norm] = [];
+                    }
+                    pubCounts[norm]++;
+                    if (!pubOriginals[norm].includes(original)) {
+                        pubOriginals[norm].push(original);
+                    }
+                }
+            });
+
+            // 4. Render Sorted by Count
+            const sortedPubs = Object.entries(pubCounts).sort((a, b) => b[1] - a[1]);
+
+            sortedPubs.forEach(([normName, count]) => {
                 const span = document.createElement('span');
                 span.className = 'pub-chip';
-                span.textContent = pub;
-                span.onclick = () => togglePublication(pub, span);
+                // Check if currently selected (any of the originals)
+                const isSelected = pubOriginals[normName].some(orig => filters.selectedPublications.has(orig));
+                if (isSelected) span.classList.add('active');
+
+                span.textContent = `${normName} (${count})`;
+
+                span.onclick = () => {
+                    // When clicking a group, toggle ALL originals in that group
+                    const originals = pubOriginals[normName];
+                    const activating = !span.classList.contains('active');
+
+                    if (activating) {
+                        span.classList.add('active');
+                        originals.forEach(o => filters.selectedPublications.add(o));
+                    } else {
+                        span.classList.remove('active');
+                        originals.forEach(o => filters.selectedPublications.delete(o));
+                    }
+                    applyFilters();
+                };
                 dom.pubContainer.appendChild(span);
             });
 
@@ -793,16 +896,7 @@
             applyFilters();
         };
 
-        window.togglePublication = (pub, element) => {
-            if (filters.selectedPublications.has(pub)) {
-                filters.selectedPublications.delete(pub);
-                element.classList.remove('active');
-            } else {
-                filters.selectedPublications.add(pub);
-                element.classList.add('active');
-            }
-            applyFilters();
-        };
+
 
         window.toggleTag = (tag, element) => {
             if (filters.selectedTags.has(tag)) {
@@ -833,13 +927,12 @@
                 // Publication
                 if (filters.selectedPublications.size > 0 && !filters.selectedPublications.has(item.publication_group)) return false;
 
-                // Tags
+                // Tags (AND logic - must have ALL selected tags)
                 if (filters.selectedTags.size > 0) {
                     if (!item.tags) return false;
-                    // Must have at least one selected tag (OR logic) or ALL (AND logic)? Usually OR for checkboxes, AND for refined search.
-                    // Let's use OR logic (match any)
-                    const hasTag = item.tags.some(t => filters.selectedTags.has(t));
-                    if (!hasTag) return false;
+                    // Must have ALL selected tags
+                    const hasAllTags = [...filters.selectedTags].every(t => item.tags.includes(t));
+                    if (!hasAllTags) return false;
                 }
 
                 return true;
@@ -868,8 +961,29 @@
                 const pub = item.publication ? item.publication : '';
                 const unpubBadge = item.unpublished ? '<span style="color:red; font-size:0.75rem; border:1px solid red; padding:1px 3px; border-radius:3px;">Não Pub.</span>' : '';
 
-                // Card Tags (First 3)
-                const cardTags = item.tags ? item.tags.slice(0, 3).map(t => `<span class="tag-pill" style="font-size:0.7rem; padding: 1px 4px; margin-right:2px;">${t}</span>`).join('') : '';
+                // Card Tags (First 3) - Prioritize Selected
+                let cardTagsHtml = '';
+                if (item.tags) {
+                    let displayTags = [...item.tags];
+
+                    // If filtering, sort selected tags to front
+                    if (filters.selectedTags.size > 0) {
+                        displayTags.sort((a, b) => {
+                            const aSelected = filters.selectedTags.has(a);
+                            const bSelected = filters.selectedTags.has(b);
+                            return (bSelected === aSelected) ? 0 : aSelected ? -1 : 1;
+                        });
+                    }
+
+                    cardTagsHtml = displayTags.slice(0, 3).map(t => {
+                        const isActive = filters.selectedTags.has(t);
+                        const activeClass = isActive ? 'active' : '';
+                        return `<span class="tag-pill card-tag ${activeClass}" 
+                                      data-tag="${t}"
+                                      style="font-size:0.7rem; padding: 2px 6px; margin-right:3px; cursor:pointer; transition: all 0.2s;"
+                                      title="Clique para filtrar por '${t}'">${t}</span>`;
+                    }).join('');
+                }
 
                 card.innerHTML = `
             <div class="card-meta">
@@ -877,10 +991,33 @@
                 <span>${item.category.toUpperCase()}</span>
             </div>
             <div class="card-title">${item.title} ${unpubBadge}</div>
-            <div style="margin-bottom:0.5rem;">${cardTags}</div>
+            <div class="card-tags-container" style="margin-bottom:0.5rem;">${cardTagsHtml}</div>
             <div class="card-snippet">${item.content_snippet}</div>
             <div class="card-footer">${pub}</div>
         `;
+
+                // Add click handlers to tags AFTER card is created
+                card.querySelectorAll('.card-tag').forEach(tagEl => {
+                    tagEl.onclick = (e) => {
+                        e.stopPropagation(); // Prevent card click
+                        const tagName = tagEl.dataset.tag;
+
+                        // Toggle tag in sidebar as well
+                        const sidebarChip = [...document.querySelectorAll('#tagFilters .pub-chip')].find(c => c.textContent.startsWith(tagName));
+                        if (sidebarChip) {
+                            toggleTag(tagName, sidebarChip);
+                        } else {
+                            // Tag not in top 30, manually toggle
+                            if (filters.selectedTags.has(tagName)) {
+                                filters.selectedTags.delete(tagName);
+                            } else {
+                                filters.selectedTags.add(tagName);
+                            }
+                            applyFilters();
+                        }
+                    };
+                });
+
                 dom.grid.appendChild(card);
             });
 
