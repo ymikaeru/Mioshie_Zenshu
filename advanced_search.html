@@ -283,6 +283,18 @@
             font-weight: 500;
         }
 
+        .card-tag:hover {
+            background: var(--primary-color);
+            color: white;
+            transform: scale(1.05);
+        }
+
+        .card-tag.active {
+            background: var(--primary-color);
+            color: white;
+            box-shadow: 0 2px 4px rgba(44, 119, 68, 0.3);
+        }
+
         /* Modal */
         .modal-overlay {
             position: fixed;
@@ -915,13 +927,12 @@
                 // Publication
                 if (filters.selectedPublications.size > 0 && !filters.selectedPublications.has(item.publication_group)) return false;
 
-                // Tags
+                // Tags (AND logic - must have ALL selected tags)
                 if (filters.selectedTags.size > 0) {
                     if (!item.tags) return false;
-                    // Must have at least one selected tag (OR logic) or ALL (AND logic)? Usually OR for checkboxes, AND for refined search.
-                    // Let's use OR logic (match any)
-                    const hasTag = item.tags.some(t => filters.selectedTags.has(t));
-                    if (!hasTag) return false;
+                    // Must have ALL selected tags
+                    const hasAllTags = [...filters.selectedTags].every(t => item.tags.includes(t));
+                    if (!hasAllTags) return false;
                 }
 
                 return true;
@@ -950,8 +961,29 @@
                 const pub = item.publication ? item.publication : '';
                 const unpubBadge = item.unpublished ? '<span style="color:red; font-size:0.75rem; border:1px solid red; padding:1px 3px; border-radius:3px;">Não Pub.</span>' : '';
 
-                // Card Tags (First 3)
-                const cardTags = item.tags ? item.tags.slice(0, 3).map(t => `<span class="tag-pill" style="font-size:0.7rem; padding: 1px 4px; margin-right:2px;">${t}</span>`).join('') : '';
+                // Card Tags (First 3) - Prioritize Selected
+                let cardTagsHtml = '';
+                if (item.tags) {
+                    let displayTags = [...item.tags];
+
+                    // If filtering, sort selected tags to front
+                    if (filters.selectedTags.size > 0) {
+                        displayTags.sort((a, b) => {
+                            const aSelected = filters.selectedTags.has(a);
+                            const bSelected = filters.selectedTags.has(b);
+                            return (bSelected === aSelected) ? 0 : aSelected ? -1 : 1;
+                        });
+                    }
+
+                    cardTagsHtml = displayTags.slice(0, 3).map(t => {
+                        const isActive = filters.selectedTags.has(t);
+                        const activeClass = isActive ? 'active' : '';
+                        return `<span class="tag-pill card-tag ${activeClass}" 
+                                      data-tag="${t}"
+                                      style="font-size:0.7rem; padding: 2px 6px; margin-right:3px; cursor:pointer; transition: all 0.2s;"
+                                      title="Clique para filtrar por '${t}'">${t}</span>`;
+                    }).join('');
+                }
 
                 card.innerHTML = `
             <div class="card-meta">
@@ -959,10 +991,33 @@
                 <span>${item.category.toUpperCase()}</span>
             </div>
             <div class="card-title">${item.title} ${unpubBadge}</div>
-            <div style="margin-bottom:0.5rem;">${cardTags}</div>
+            <div class="card-tags-container" style="margin-bottom:0.5rem;">${cardTagsHtml}</div>
             <div class="card-snippet">${item.content_snippet}</div>
             <div class="card-footer">${pub}</div>
         `;
+
+                // Add click handlers to tags AFTER card is created
+                card.querySelectorAll('.card-tag').forEach(tagEl => {
+                    tagEl.onclick = (e) => {
+                        e.stopPropagation(); // Prevent card click
+                        const tagName = tagEl.dataset.tag;
+
+                        // Toggle tag in sidebar as well
+                        const sidebarChip = [...document.querySelectorAll('#tagFilters .pub-chip')].find(c => c.textContent.startsWith(tagName));
+                        if (sidebarChip) {
+                            toggleTag(tagName, sidebarChip);
+                        } else {
+                            // Tag not in top 30, manually toggle
+                            if (filters.selectedTags.has(tagName)) {
+                                filters.selectedTags.delete(tagName);
+                            } else {
+                                filters.selectedTags.add(tagName);
+                            }
+                            applyFilters();
+                        }
+                    };
+                });
+
                 dom.grid.appendChild(card);
             });
 

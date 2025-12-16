@@ -31,7 +31,7 @@
                 style="background-color: #2c7744; color: white; border: none; padding: 10px 24px; cursor: pointer; border-radius: 4px; font-family: 'Century Gothic', sans-serif; font-weight: bold; font-size: 1.1em; box-shadow: 0 2px 4px rgba(0,0,0,0.2);" />
         </form>
         <form action="timeline.html" style="display: inline-block; margin: 5px;">
-            <input type="submit" value="Jornada do Tempo"
+            <input type="submit" value="Busca Interativa"
                 style="background-color: #d4a373; color: white; border: none; padding: 10px 24px; cursor: pointer; border-radius: 4px; font-family: 'Century Gothic', sans-serif; font-weight: bold; font-size: 1.1em; box-shadow: 0 2px 4px rgba(0,0,0,0.2);" />
         </form>
         <br>
@@ -49,7 +49,7 @@
 
     <!-- Poem Section -->
     <div id="daily-poem-container"
-        style="max-width: 1100px; margin: 40px auto; padding: 60px 40px; background: #ffffff; border-radius: 4px; box-shadow: 0 10px 40px rgba(0,0,0,0.08); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; opacity: 0; transition: opacity 1s ease-in; position: relative; text-align: center;">
+        style="max-width: 1100px; margin: 40px auto; padding: 60px 40px; background: #ffffff; border-radius: 4px; box-shadow: 0 10px 40px rgba(0,0,0,0.08); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; position: relative; text-align: center;">
 
         <h3
             style="font-size: 13px; text-transform: uppercase; letter-spacing: 4px; color: #bdc3c7; margin-bottom: 50px; margin-top: 0;">
@@ -189,10 +189,9 @@
                     currentIndex = Math.floor(Math.random() * allPoems.length);
                     renderPoem(currentIndex);
 
-                    // Show container
+                    // Show container (no animation)
                     const container = document.getElementById('daily-poem-container');
                     container.style.display = 'block';
-                    setTimeout(() => container.style.opacity = '1', 100);
 
                     // Click Listeners
                     document.getElementById('next-poem').addEventListener('click', nextPoem);
