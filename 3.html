@@ -534,8 +534,25 @@
                                         </tr>
                                 </tbody>
                         </table>
-                </center>
         </div>
+
+        <!-- Logout Section -->
+        <div align="center" style="margin-top: 20px; padding: 10px;">
+                <a href="#" onclick="logout(); return false;"
+                        style="color: #999; font-size: 11px; text-decoration: none;">
+                        🚪 Sair
+                </a>
+        </div>
+
+        <script>
+                function logout() {
+                        if (confirm('Deseja realmente sair?')) {
+                                localStorage.removeItem('biblioteca_auth');
+                                localStorage.removeItem('biblioteca_auth_time');
+                                window.top.location.href = 'login.html';
+                        }
+                }
+        </script>
 
 </body>
 

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Sagrada - Acesso</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600&family=Inter:wght@300;400;500&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #e9feda 0%, #d4ecc4 50%, #c5e3b5 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .login-container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+            padding: 50px 40px;
+            max-width: 420px;
+            width: 90%;
+            text-align: center;
+        }
+
+        .logo {
+            font-family: 'Noto Serif JP', serif;
+            font-size: 2rem;
+            color: #2c5e4f;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #7f8c8d;
+            font-size: 0.95rem;
+            margin-bottom: 40px;
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        .input-group label {
+            display: block;
+            font-size: 0.85rem;
+            color: #555;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 14px 16px;
+            font-size: 1rem;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+            outline: none;
+        }
+
+        .input-group input:focus {
+            border-color: #2c5e4f;
+            box-shadow: 0 0 0 3px rgba(44, 94, 79, 0.1);
+        }
+
+        .login-btn {
+            width: 100%;
+            padding: 16px;
+            background: linear-gradient(135deg, #2c5e4f 0%, #3a7a66 100%);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 10px;
+        }
+
+        .login-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(44, 94, 79, 0.3);
+        }
+
+        .login-btn:active {
+            transform: translateY(0);
+        }
+
+        .error-message {
+            color: #e74c3c;
+            font-size: 0.9rem;
+            margin-top: 15px;
+            display: none;
+        }
+
+        .error-message.show {
+            display: block;
+            animation: shake 0.5s ease;
+        }
+
+        @keyframes shake {
+
+            0%,
+            100% {
+                transform: translateX(0);
+            }
+
+            25% {
+                transform: translateX(-5px);
+            }
+
+            75% {
+                transform: translateX(5px);
+            }
+        }
+
+        .footer-note {
+            margin-top: 30px;
+            font-size: 0.8rem;
+            color: #999;
+        }
+
+        /* Decorative elements */
+        .decoration {
+            position: fixed;
+            opacity: 0.03;
+            font-size: 15rem;
+            font-family: 'Noto Serif JP', serif;
+            color: #2c5e4f;
+            pointer-events: none;
+            user-select: none;
+        }
+
+        .decoration.top-left {
+            top: -50px;
+            left: -50px;
+        }
+
+        .decoration.bottom-right {
+            bottom: -50px;
+            right: -50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="decoration top-left">光</div>
+    <div class="decoration bottom-right">道</div>
+
+    <div class="login-container">
+        <h1 class="logo">Biblioteca Sagrada</h1>
+        <p class="subtitle">Acesso restrito aos estudiosos</p>
+
+        <form id="loginForm">
+            <div class="input-group">
+                <label for="password">Senha de Acesso</label>
+                <input type="password" id="password" placeholder="Digite a senha..." autocomplete="current-password"
+                    required>
+            </div>
+
+            <button type="submit" class="login-btn">Entrar</button>
+
+            <p class="error-message" id="errorMsg">Senha incorreta. Tente novamente.</p>
+        </form>
+
+        <p class="footer-note">Este conteúdo é para uso exclusivo de estudiosos autorizados.</p>
+    </div>
+
+    <script>
+        // Simple hash function for basic obfuscation (not cryptographically secure)
+        function simpleHash(str) {
+            let hash = 0;
+            for (let i = 0; i < str.length; i++) {
+                const char = str.charCodeAt(i);
+                hash = ((hash << 5) - hash) + char;
+                hash = hash & hash; // Convert to 32bit integer
+            }
+            return hash.toString();
+        }
+
+        // Hashed password (change this to set your password)
+        // Current password: "mioshie2024" -> hash: "-1087445449"
+        const VALID_HASH = "-1087445449";
+
+        // Check if already logged in
+        if (localStorage.getItem('biblioteca_auth') === 'true') {
+            window.location.href = 'index.html';
+        }
+
+        document.getElementById('loginForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            const password = document.getElementById('password').value;
+            const hashedInput = simpleHash(password);
+
+            if (hashedInput === VALID_HASH) {
+                // Login successful
+                localStorage.setItem('biblioteca_auth', 'true');
+                localStorage.setItem('biblioteca_auth_time', Date.now().toString());
+                window.location.href = 'index.html';
+            } else {
+                // Login failed
+                const errorMsg = document.getElementById('errorMsg');
+                errorMsg.classList.add('show');
+                document.getElementById('password').value = '';
+                document.getElementById('password').focus();
+
+                // Hide error after 3 seconds
+                setTimeout(() => {
+                    errorMsg.classList.remove('show');
+                }, 3000);
+            }
+        });
+
+        // Focus on password field
+        document.getElementById('password').focus();
+    </script>
+</body>
+
+</html>
