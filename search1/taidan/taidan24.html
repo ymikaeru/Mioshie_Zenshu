@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>taidan24</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 明主様と為郷恒淳氏との御対談 ◇ 秋風戦（そよ）ぐ十月四日箱根神山荘の応接間において◇ 『栄光』179号、昭和27(1952)年10月22日発行 ◎現代人の悩みはなに？ 為郷氏 私は科学部の次長をしておりますが、科学部といいましても、自然科学ばかりではなく、精神科学の哲学、宗教という面もやるように言われていますが、いまのところ紙面があまりありませんが、そのうち紙面ができたら宗教欄のようなものを作ろうと思っております。<br><br>またそのような読者の要望もありますし、世の中がそういう傾向でありますので……一度お目にかかって御挨拶を申し上げたいと思っておりましたところ、幸い新宗連の大石先生が私の大学の先輩でありますので、御無理をお願いして参上したわけです。<br><br> 大石氏 ご存じのようにいままで新聞があまり調査もしないで新宗教を悪く書いてきたので、こういう人たちが教団の教祖方に会って話し合い率直に理解してもらい、現場に当たる新聞記者を指導してもらいたいというのが狙いなのです。<br><br> 明主様 良いことですね。<br><br> 為郷氏 記者の指導もそうですが、若い記者は宗教というものは理解もないし興味もないので、大石さんのおっしゃるようにはなかなかうまくゆかないと思ってますが。<br><br> 明主様 われわれもいわゆる宗教にはあまり興味がありませんよ。<br><br>宗教家がこんなことをいうのはおかしいが、と言って科学でもしようがないのです。<br><br>特に現代の青年層などが、学校で科学を習って社会に出ると結局科学では駄目だということが分かって、やはり理屈通りに行きませんので、もっと深い大きななにかを欲しいという希望は必ず起るのです。<br><br>では宗教をと言ったところで、どうもいままでの宗教というものは、あまりに現実離れがして、やる気になれないという感じが……非常に多いと思います。<br><br>しかしそうかといって、マルクスのほうは感心できないので、フラフラしている者はたいへんな数でありましょう。<br><br>それでもなにかを目標にしなければならない、というわけですが、既成宗教はああいうふうに固まってしまって興味がないばかりか、もう内容根本が分かってますから、それを研究したところで理屈だけはうまくできてますが、それに心血をそそぐとか、大いに期待をかけるとかはできないのです。<br><br>そこで新宗教ということになりますが……新宗教はいままでの既成宗教にないものをそれぞれ持っています。<br><br>もちろん既成宗教と同じでは発展性もなにもないのですが……では、どのような理念が未来のそういった力になるかと言うと、それがまた難しいのです。<br><br>私なら大いに自信がありますが、そうかといって、だいたい新宗教というものは、そうとう長い間軽蔑されてますから、こうだと言ったところで、ただちにそれに飛びついたり呑み込むことは難しいですし、時代もそういう現状です。<br><br>私のほうではそれらを救う自信がありますから、それを一生懸命にやっているわけなのです。<br><br>いまは新宗教氾濫時代ですが、これが結局整理されます。<br><br>これは時の問題です。<br><br>本当に良いものだけが残るというわけでしょう。<br><br> ◎一厘の神様のお仕組みとは？ 為郷氏 明主様これはどんなものでしょうか。<br><br>だいぶ前から疑問に思っておりましたことですが、真理とか、正しい教えとかいうものは、世の中には一つしかないのではないでしょうか。<br><br> 明主様 無論そうです。<br><br>真理というのは一つしかないのです。<br><br> 為郷氏 そういたしますと昏迷してくることになりますが、これが外国のようにキリスト教一本でありますと、宗教は楽なのですが。<br><br> 明主様 そうです。<br><br>日本くらい多いのはないでしょう。<br><br>これはまったく……それが日本の特徴なのです。<br><br>その点を言いますと、とにかく日本は、世界のあらゆるものを総合して新しい文化を作るという使命があるのです。<br><br>ですから日本には宗教でも他のあらゆるものでも一番数多くあります。<br><br>それは芸術でも文学、美術、演芸でもそうですし、衣食住もそうです。<br><br>というのは、日本から総合したものができるのです。<br><br>ですから真理というのは全般にいくのです。<br><br>共産主義とか資本主義とかいうのは真理ではないのです。<br><br>それが含まれ最高道徳によって律せられるもの、それが真理です。<br><br>そこで宗教も、日本には世界中の宗教が総合されたようなものができるに違いないのです。<br><br>それで真の文化というのは宗教が中心です。<br><br>宗教から哲学、科学となっているのです。<br><br>ですからアメリカの文化は結局キリスト教が中心です。<br><br>最初ピューリタンがアメリカに渡ってそうして開拓したのです。<br><br>そうして宗教が中心なるがゆえにアメリカの文化というものは世界中に非常に共通性があると言いますか……それに対して共産主義というものがしきりにやってますが、あれも必要なのです。<br><br>あれも手伝ってやはり本当のものが生まれます。<br><br>そうして神様というのは結局善悪両方を作って、それを闘わせて本当に良いものを生んでいくのです。<br><br>いままでは、唯物文化が発展する時代だったので、唯物文化が善悪の争いによって生まれたのです。<br><br>原子科学も飛行機でもそうです。<br><br>ですから悪も必要だったのです。<br><br>この見方というのは主神の見方です。<br><br>主神は善悪両方とも造ったのです。<br><br>ところがいままでの宗教というのは、善のほうの神様だけなのです。<br><br>それで善のほうの神様だけでは物質文化はできないのです。<br><br>発達しないのです。<br><br>ところがそういうやり方は無限ではないのです。<br><br>ある時があるのです。<br><br>というのは、あまり物質文化が発達したためにそれを悪が利用して、人類を滅亡させるような時代にだんだんなってゆくのです。<br><br>そうでしょう、原子爆弾を悪が使ったら人類は滅亡してしまいます。<br><br>それでこの辺りで悪を止めるという時が来るのです。<br><br>それは独り戦争ばかりではありません。<br><br>あらゆる面がそうなるのです。<br><br>それで私のほうで九分九厘と一厘ということを言いますが、九分九厘まで悪が勝つのですが、一厘で掌を引っ繰り返すということですが、つまり一厘の力です。<br><br>一厘の力というのは物質面の力ではないので見えざる霊的の力です。<br><br>この力で悪を押し返して今後は善のほうが多くなるのです。<br><br>それで悪はぜんぜんなくなるということはないが、つまり善のほうが勝つのです。<br><br>そういう時期というものは、いまなのです。<br><br>それでキリストが言った「世の終わり」とか「最後の審判」とかいうのは、いままでの悪が勝っていた世が終わるということです。<br><br>それをいま私はすっかり書いているのです。<br><br>これは文明の創造という本です。<br><br>それを世界中へ配るのは勿論、ノーベル賞審査会にも出します。<br><br>各国の著名人にも読ませて批判をさせようと思っています。<br><br> ◎「アメリカを救う」とは？ 為郷氏 日光殿でお話を伺っていて感心したことは「アメリカを救う」という論文がありました。<br><br>それから美術関係のアレを伺って感じたことは、非常に文章が達意といいますか、われわれ新聞記者も、そう考えているのですが、非常にむつかしい言葉を使わないで思っていることをピタッと言って、それで野卑に流れないということが、よく表われていました。<br><br> 明主様 とにかく私の説はおそろしく飛躍的ですから聞きなれないと、ビックリしますが、実際に合ってきますから、それで判ってくるのですが、結局高遠な真理をできるだけ一般に分かりよく書くというのですから、書くのはなかなかやっかいです。<br><br>それで私の目的というものは、世界人類を救うのです。<br><br>日本だけを救うのではないのです。<br><br>アメリカを救うということは、実に身の程知らないと思うでしょうが、私は世界人類を救うとしたら、一番勢力のあるアメリカを救うということが一番効果的です。<br><br>それからまた、とにかくアメリカは宗教を根本として、そうして平和を維持するという点で、やはり救わなければならない国です。<br><br>どうも共産主義のほうを救うということはできません。<br><br>あのほうは無神主義が根本でぜんぜん反対ですから、やむを得ません。<br><br>それでアメリカはいま、非常な病人で年々殖えてます。<br><br>私は統計を見て驚いたのです。<br><br>その統計もすっかり出します。<br><br> 為郷氏 種類もそうなのでしょうか。<br><br> 明主様 種類もだんだん多くなってきたのです。<br><br>それで病気の原因というのは、薬なのです。<br><br>ですから薬のために病気が起るということは、単なる物理化学のためです。<br><br>そこで私がいま書いているのは、理論心霊学とそれを裏づけているのが、いま病気を治している奇蹟です。<br><br> 為郷氏 アメリカを救うという論文が出ますと、アメリカ人もそうとう救われますね。<br><br>われわれもアメリカ人とつき合っての経験ですが、ダメな奴はダメで、なかなか多いのですが、良い奴はコツンと頭を叩いてやると、「アアそうか」といって反省する……そういう点は、立派な所があります。<br><br> 明主様 そういう点がアメリカを発展させた重要な原因でしょう。<br><br>とにかく伝統にこだわらないで、良いものなら良い。<br><br>日本人だろうが中国人だろうが、良いものは良いという、非常に広い世界主義的なそれがやはりいいのです。<br><br>日本人にはそれが非常にないのです。<br><br>やはり島国根性でしょうね。<br><br> 大石氏 人が良くなるとすぐ攻撃しますからね。<br><br> ◎浄霊は信じなくてもできる？ 為郷氏 それから神様は悪人を造って、その悪人を救わないのでしょうか。<br><br> 明主様 いや救うのです。<br><br>神様は悪人を作っておいて救うのです。<br><br>救わなければならない必要があるのです。<br><br>というのは、悪人というのは、要するに、汚いものはきれいにしなければならないのです。<br><br>そこで、これは精神的にも言えますが、実におもしろいわけなのです。<br><br>これは私はいま書いていますが、ちょっと簡単な説明はできません。<br><br> 為郷氏 例えば悪人があって、悪人が悪人のままで死ぬ場合がありますが、これは救われないのですか。<br><br> 明主様 ところがそれは霊界を信じないからです。<br><br>霊界が判るということが必要なのです。<br><br>これでなければ問題の解決はできません。<br><br>私は最初、霊界の研究をウンとやりましたが、むしろそれが出発とみていいです。<br><br>ですから霊というものの根本を把握しなければならないです。<br><br>ですから、先刻ご覧になったでしょうが、病人の頭が痛いというと、こう（御浄霊）やれば良いのです。<br><br>先刻の集まりのとき、私がみんなをやっていたのをご覧になっていたでしょう。<br><br>あれで病気が治るということはたくさんあるのです。<br><br>私はふだんは別ですが、お祭りのときは大勢ですから時間もかかりますしこっちもやっかいですが、やってくれと言ってきかないのです。<br><br>それでやってやるのですが、中には病気が治るのがたくさんあるのです。<br><br>だいたい空間でなにもないのですが、中には熱くなる人がずいぶんあるのです。<br><br>こう（浄霊）やると汗をかく人もたくさんある。<br><br>そうかというと、スッと気持ちが良くなる人、ピリピリ電気のようなものを感じる人もありますし、人によっていろいろです。<br><br>とにかくそれによってみんな非常に具合が良くなるのです。<br><br>これはなにかと言うと、これが霊なのです。<br><br>見えざるものです。<br><br>こう（浄霊）やって、どうして病気が治るか、ということは理論科学的にも説明してありますが、私のほうの根本は病気を治すことです。<br><br>病気を治せば、あらゆる問題はみんな解決がつくのです。<br><br>思想問題でもなんでもそうです。<br><br>病気を治すといっても、健全な思想の人間になればいいのです。<br><br>健全でないということは、人間の霊が病気になっているのです。<br><br>人間というのは体ばかりではないのです。<br><br>これは科学というものは間抜けなもので、こういうものが人間としてあるのですから、人間が生きて働いて思想もあるということは、物質ばかりではないのです。<br><br>なにかがあるのです。<br><br>ただ目に見えないからないと言っているのです。<br><br>ちょうど野蛮人に空気の説明をしても、ないと言うのとおなじです。<br><br>だから霊のあるということを信じさせることが救いの根本です。<br><br>その霊を治せばいいのです。<br><br>そうすると体の病気は治ってしまうのです。<br><br>ですから輸血ということは私のほうでは笑ってますが、これ（御浄霊）が輸血です。<br><br>否輸血以上のものです。<br><br>なぜかと言うと、出血でいまにも死にそうなのが、こうやる（手を翳され）と生きかえるのです。<br><br> 為郷氏 そういたしますとお光をなさるということは、だれでもいいということではないのですか。<br><br> 明主様 やる人はだれでもいいのです。<br><br>熊公でも八公でも、人間であればいいのです。<br><br> 為郷氏 例えば私でもこうやればいいのでしょうか。<br><br> 明主様 そうです。<br><br>博士の見離したものでも治ります。<br><br> 為郷氏 しかし私が霊界というものを信じなければいけないのではないでしょうか。<br><br> 明主様 そんなことはありません。<br><br>ですからそこに価値があるのです。<br><br>自力というのは少しもないのです。<br><br>自分が一生懸命になるということは、自力が加わることです。<br><br>ですから人間の力は不必要です。<br><br>いらないのです。<br><br>六つか七つかの子供が、親をこうやって（浄霊）治るのですからすばらしいものです。<br><br> ◎無病息災の世は来る？ 為郷氏 お光りは向こうに行ってまた返ってくるのでしょうか。<br><br> 明主様 そんなことはありません。<br><br>透ったきりです。<br><br>私のお腹に光の玉があってそれから光りが出るのですから無限なのです。<br><br> 為郷氏 その玉というのは明主様だけがお持ちになっておられるのですか。<br><br> 明主様 そうです。<br><br> 為郷氏 そういたしますと仮に明主様が百年の後に霊界にお入りになりますとないことになりますが。<br><br> 明主様 しかし霊界から出しますから同じことです。<br><br>かえってよく出ます。<br><br>体があると邪魔になりますから。<br><br> 為郷氏 それで教団のほうも御安心なわけですね。<br><br> 明主様 それからその時分になると病気もずっと減ってきます。<br><br>病人が減ってしまうからほとんど必要ないくらいになるでしょう。<br><br>病気の原因というのは薬ですから、体から薬を抜けば病気は起らないのです。<br><br>薬を出す作用が病気です。<br><br>これで（御浄霊で）やっても、すっかり取りきるということはできませんが、だいたい取るには二、三十年かかります。<br><br>ふつうでは何十年かかるかわかりません。<br><br>ですからこうやる（浄霊）のは薬を取る方法です。<br><br>それを知らないで、いまみんな薬を服んでますが危ない話です。<br><br>そこで薬によって病人を作っているのですが、一面、薬ということもやはり必要があって神様が作ってあるのです。<br><br>これは今度の本（文明の創造）にみんな書きますからそれを読んでください。<br><br>ただ一遍の話ではなかなか分かりません。<br><br> ◎美は魂のレベルを高くする 為郷氏 美ということと明主様の御教えというものとは、どういう関係があるのでしょうか。<br><br> 明主様 つまり人間の魂のレベルを上げればいいのです。<br><br>要するに文明のレベルがまだ低いのです。<br><br>これをだんだん高くしなければならない。<br><br>それには耳からの教えを説く、それから目から美というものでとると魂のレベルが高くなる。<br><br>それから文字を読ませる、書いたものを読ませる、そういういろいろのことによって人間の魂を向上させる。<br><br>そのことからどうしても美というものが必要なのです。<br><br>しかし現在ある美というものは、魂を低くすることが多いのです。<br><br>それは人間は享楽も必要です。<br><br>しかしその享楽が目から受けるのがあまりにも魂を下げるのが多いのです。<br><br>ですからどうしても、こういった魂を向上させるのがなくてはならないのです。<br><br>これは必要なのです。<br><br>ですから世界の文明がだんだん発達するに従って、そういうことが非常に進歩して豊かになります。<br><br>いまはそういうような傾向がよほど出てきています。<br><br>アメリカなんかもヨーロッパでもそうですが、美術館というのもだいぶほうぼうにできています。<br><br>これで現実に美術の機関がはやってきました。<br><br>フランスの大家の画でも日本人なんかが片っ端から見られるのですから。<br><br>そこで日本美術の今度アメリカで展覧会をやりますが、私のほうでも少し出品しますが、そんなような具合で、美術による、こういう関係が濃くなってきます。<br><br>アメリカなどは美術館は非常に発展してます。<br><br>美術についても、そうとう関心を持つようになってます。<br><br> 為郷氏 私はどうも西洋の油絵とかマチスは少しは興味がありますが、ピカソはぜんぜんありません。<br><br> 明主様 あれはまったく行き過ぎですよ。<br><br> 為郷氏 日本画ですと、いいと思ったり、なんとなく清々しいのですが。<br><br> 明主様 私もそうなのです。<br><br>一般人が見ていいなと楽しめるのでなければ美術の目的はない、と言っていいのです。<br><br>とにかく美術の目的はできるだけ多くの人が楽しめる、というものです。<br><br>目の利いた人だけがわかるというのは駄目なのです。<br><br>目の利いた者も、目の利かない者も、理解ができる、そう深いものでなくても、とにかくいいなあと思われなければ駄目です。<br><br>ところがピカソの絵は考えなければ駄目です。<br><br>また考えてもわからないのです。<br><br>ですからいまフランスではピカソは狂人だという説が出ていると聞いたことがあります。<br><br>ああいうのは遠からずなくなります。<br><br>ピカソの絵についてはいつか論文を書いて新聞に出しました。<br><br> 為郷氏 それではお忙しいところをどうもありがとうございました。<br><br> （注）為郷(いさと)恒淳、読売新聞社科学部次長、後に編輯局長を経て取締役副社長をつとめた。<br><br>2003年89歳で死去。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Desígnio Divino para a Nova Era</h2>
 <p><em>Diálogo entre Meishu-Sama e o Sr. Isato Tsuneatsu, em 4 de outubro de 1952, no Shinsenkyo de Hakone.</em>
@@ -153,5 +305,48 @@ function toggleLang(lang) {
 <p><strong>Sr. Isato:</strong> Já a pintura japonesa me agrada e me transmite uma sensação de pureza e frescor.</p>
 <p><strong>Meishu-Sama:</strong> Sinto o mesmo. Pode-se dizer que a arte que não pode ser apreciada pelo público em geral falha em seu propósito. O objetivo da arte é proporcionar deleite ao maior número de pessoas possível. Uma arte que apenas os conhecedores compreendem é uma arte falha. Tanto o especialista quanto o leigo devem ser capazes de apreciá-la, de sentir "isto é belo", mesmo sem um entendimento profundo. Os quadros de Picasso, ao contrário, exigem reflexão, e mesmo refletindo, não se chega a uma compreensão. Ouvi dizer que, na França, já existe uma corrente que considera Picasso um louco. Obras como as dele desaparecerão em breve. Certa vez, escrevi um artigo sobre a arte de Picasso que foi publicado em um jornal.</p>
 <p><strong>Sr. Isato:</strong> Muito obrigado por seu tempo precioso. Foi uma conversa extremamente enriquecedora.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 明主様と為郷恒淳氏との御対談 ◇ 秋風戦（そよ）ぐ十月四日箱根神山荘の応接間において◇ 『栄光』179号、昭和27(1952)年10月22日発行 ◎現代人の悩みはなに？ 為郷氏 私は科学部の次長をしておりますが、科学部といいましても、自然科学ばかりではなく、精神科学の哲学、宗教という面もやるように言われていますが、いまのところ紙面があまりありませんが、そのうち紙面ができたら宗教欄のようなものを作ろうと思っております。<br/><br/>またそのような読者の要望もありますし、世の中がそういう傾向でありますので……一度お目にかかって御挨拶を申し上げたいと思っておりましたところ、幸い新宗連の大石先生が私の大学の先輩でありますので、御無理をお願いして参上したわけです。<br/><br/> 大石氏 ご存じのようにいままで新聞があまり調査もしないで新宗教を悪く書いてきたので、こういう人たちが教団の教祖方に会って話し合い率直に理解してもらい、現場に当たる新聞記者を指導してもらいたいというのが狙いなのです。<br/><br/> 明主様 良いことですね。<br/><br/> 為郷氏 記者の指導もそうですが、若い記者は宗教というものは理解もないし興味もないので、大石さんのおっしゃるようにはなかなかうまくゆかないと思ってますが。<br/><br/> 明主様 われわれもいわゆる宗教にはあまり興味がありませんよ。<br/><br/>宗教家がこんなことをいうのはおかしいが、と言って科学でもしようがないのです。<br/><br/>特に現代の青年層などが、学校で科学を習って社会に出ると結局科学では駄目だということが分かって、やはり理屈通りに行きませんので、もっと深い大きななにかを欲しいという希望は必ず起るのです。<br/><br/>では宗教をと言ったところで、どうもいままでの宗教というものは、あまりに現実離れがして、やる気になれないという感じが……非常に多いと思います。<br/><br/>しかしそうかといって、マルクスのほうは感心できないので、フラフラしている者はたいへんな数でありましょう。<br/><br/>それでもなにかを目標にしなければならない、というわけですが、既成宗教はああいうふうに固まってしまって興味がないばかりか、もう内容根本が分かってますから、それを研究したところで理屈だけはうまくできてますが、それに心血をそそぐとか、大いに期待をかけるとかはできないのです。<br/><br/>そこで新宗教ということになりますが……新宗教はいままでの既成宗教にないものをそれぞれ持っています。<br/><br/>もちろん既成宗教と同じでは発展性もなにもないのですが……では、どのような理念が未来のそういった力になるかと言うと、それがまた難しいのです。<br/><br/>私なら大いに自信がありますが、そうかといって、だいたい新宗教というものは、そうとう長い間軽蔑されてますから、こうだと言ったところで、ただちにそれに飛びついたり呑み込むことは難しいですし、時代もそういう現状です。<br/><br/>私のほうではそれらを救う自信がありますから、それを一生懸命にやっているわけなのです。<br/><br/>いまは新宗教氾濫時代ですが、これが結局整理されます。<br/><br/>これは時の問題です。<br/><br/>本当に良いものだけが残るというわけでしょう。<br/><br/> ◎一厘の神様のお仕組みとは？ 為郷氏 明主様これはどんなものでしょうか。<br/><br/>だいぶ前から疑問に思っておりましたことですが、真理とか、正しい教えとかいうものは、世の中には一つしかないのではないでしょうか。<br/><br/> 明主様 無論そうです。<br/><br/>真理というのは一つしかないのです。<br/><br/> 為郷氏 そういたしますと昏迷してくることになりますが、これが外国のようにキリスト教一本でありますと、宗教は楽なのですが。<br/><br/> 明主様 そうです。<br/><br/>日本くらい多いのはないでしょう。<br/><br/>これはまったく……それが日本の特徴なのです。<br/><br/>その点を言いますと、とにかく日本は、世界のあらゆるものを総合して新しい文化を作るという使命があるのです。<br/><br/>ですから日本には宗教でも他のあらゆるものでも一番数多くあります。<br/><br/>それは芸術でも文学、美術、演芸でもそうですし、衣食住もそうです。<br/><br/>というのは、日本から総合したものができるのです。<br/><br/>ですから真理というのは全般にいくのです。<br/><br/>共産主義とか資本主義とかいうのは真理ではないのです。<br/><br/>それが含まれ最高道徳によって律せられるもの、それが真理です。<br/><br/>そこで宗教も、日本には世界中の宗教が総合されたようなものができるに違いないのです。<br/><br/>それで真の文化というのは宗教が中心です。<br/><br/>宗教から哲学、科学となっているのです。<br/><br/>ですからアメリカの文化は結局キリスト教が中心です。<br/><br/>最初ピューリタンがアメリカに渡ってそうして開拓したのです。<br/><br/>そうして宗教が中心なるがゆえにアメリカの文化というものは世界中に非常に共通性があると言いますか……それに対して共産主義というものがしきりにやってますが、あれも必要なのです。<br/><br/>あれも手伝ってやはり本当のものが生まれます。<br/><br/>そうして神様というのは結局善悪両方を作って、それを闘わせて本当に良いものを生んでいくのです。<br/><br/>いままでは、唯物文化が発展する時代だったので、唯物文化が善悪の争いによって生まれたのです。<br/><br/>原子科学も飛行機でもそうです。<br/><br/>ですから悪も必要だったのです。<br/><br/>この見方というのは主神の見方です。<br/><br/>主神は善悪両方とも造ったのです。<br/><br/>ところがいままでの宗教というのは、善のほうの神様だけなのです。<br/><br/>それで善のほうの神様だけでは物質文化はできないのです。<br/><br/>発達しないのです。<br/><br/>ところがそういうやり方は無限ではないのです。<br/><br/>ある時があるのです。<br/><br/>というのは、あまり物質文化が発達したためにそれを悪が利用して、人類を滅亡させるような時代にだんだんなってゆくのです。<br/><br/>そうでしょう、原子爆弾を悪が使ったら人類は滅亡してしまいます。<br/><br/>それでこの辺りで悪を止めるという時が来るのです。<br/><br/>それは独り戦争ばかりではありません。<br/><br/>あらゆる面がそうなるのです。<br/><br/>それで私のほうで九分九厘と一厘ということを言いますが、九分九厘まで悪が勝つのですが、一厘で掌を引っ繰り返すということですが、つまり一厘の力です。<br/><br/>一厘の力というのは物質面の力ではないので見えざる霊的の力です。<br/><br/>この力で悪を押し返して今後は善のほうが多くなるのです。<br/><br/>それで悪はぜんぜんなくなるということはないが、つまり善のほうが勝つのです。<br/><br/>そういう時期というものは、いまなのです。<br/><br/>それでキリストが言った「世の終わり」とか「最後の審判」とかいうのは、いままでの悪が勝っていた世が終わるということです。<br/><br/>それをいま私はすっかり書いているのです。<br/><br/>これは文明の創造という本です。<br/><br/>それを世界中へ配るのは勿論、ノーベル賞審査会にも出します。<br/><br/>各国の著名人にも読ませて批判をさせようと思っています。<br/><br/> ◎「アメリカを救う」とは？ 為郷氏 日光殿でお話を伺っていて感心したことは「アメリカを救う」という論文がありました。<br/><br/>それから美術関係のアレを伺って感じたことは、非常に文章が達意といいますか、われわれ新聞記者も、そう考えているのですが、非常にむつかしい言葉を使わないで思っていることをピタッと言って、それで野卑に流れないということが、よく表われていました。<br/><br/> 明主様 とにかく私の説はおそろしく飛躍的ですから聞きなれないと、ビックリしますが、実際に合ってきますから、それで判ってくるのですが、結局高遠な真理をできるだけ一般に分かりよく書くというのですから、書くのはなかなかやっかいです。<br/><br/>それで私の目的というものは、世界人類を救うのです。<br/><br/>日本だけを救うのではないのです。<br/><br/>アメリカを救うということは、実に身の程知らないと思うでしょうが、私は世界人類を救うとしたら、一番勢力のあるアメリカを救うということが一番効果的です。<br/><br/>それからまた、とにかくアメリカは宗教を根本として、そうして平和を維持するという点で、やはり救わなければならない国です。<br/><br/>どうも共産主義のほうを救うということはできません。<br/><br/>あのほうは無神主義が根本でぜんぜん反対ですから、やむを得ません。<br/><br/>それでアメリカはいま、非常な病人で年々殖えてます。<br/><br/>私は統計を見て驚いたのです。<br/><br/>その統計もすっかり出します。<br/><br/> 為郷氏 種類もそうなのでしょうか。<br/><br/> 明主様 種類もだんだん多くなってきたのです。<br/><br/>それで病気の原因というのは、薬なのです。<br/><br/>ですから薬のために病気が起るということは、単なる物理化学のためです。<br/><br/>そこで私がいま書いているのは、理論心霊学とそれを裏づけているのが、いま病気を治している奇蹟です。<br/><br/> 為郷氏 アメリカを救うという論文が出ますと、アメリカ人もそうとう救われますね。<br/><br/>われわれもアメリカ人とつき合っての経験ですが、ダメな奴はダメで、なかなか多いのですが、良い奴はコツンと頭を叩いてやると、「アアそうか」といって反省する……そういう点は、立派な所があります。<br/><br/> 明主様 そういう点がアメリカを発展させた重要な原因でしょう。<br/><br/>とにかく伝統にこだわらないで、良いものなら良い。<br/><br/>日本人だろうが中国人だろうが、良いものは良いという、非常に広い世界主義的なそれがやはりいいのです。<br/><br/>日本人にはそれが非常にないのです。<br/><br/>やはり島国根性でしょうね。<br/><br/> 大石氏 人が良くなるとすぐ攻撃しますからね。<br/><br/> ◎浄霊は信じなくてもできる？ 為郷氏 それから神様は悪人を造って、その悪人を救わないのでしょうか。<br/><br/> 明主様 いや救うのです。<br/><br/>神様は悪人を作っておいて救うのです。<br/><br/>救わなければならない必要があるのです。<br/><br/>というのは、悪人というのは、要するに、汚いものはきれいにしなければならないのです。<br/><br/>そこで、これは精神的にも言えますが、実におもしろいわけなのです。<br/><br/>これは私はいま書いていますが、ちょっと簡単な説明はできません。<br/><br/> 為郷氏 例えば悪人があって、悪人が悪人のままで死ぬ場合がありますが、これは救われないのですか。<br/><br/> 明主様 ところがそれは霊界を信じないからです。<br/><br/>霊界が判るということが必要なのです。<br/><br/>これでなければ問題の解決はできません。<br/><br/>私は最初、霊界の研究をウンとやりましたが、むしろそれが出発とみていいです。<br/><br/>ですから霊というものの根本を把握しなければならないです。<br/><br/>ですから、先刻ご覧になったでしょうが、病人の頭が痛いというと、こう（御浄霊）やれば良いのです。<br/><br/>先刻の集まりのとき、私がみんなをやっていたのをご覧になっていたでしょう。<br/><br/>あれで病気が治るということはたくさんあるのです。<br/><br/>私はふだんは別ですが、お祭りのときは大勢ですから時間もかかりますしこっちもやっかいですが、やってくれと言ってきかないのです。<br/><br/>それでやってやるのですが、中には病気が治るのがたくさんあるのです。<br/><br/>だいたい空間でなにもないのですが、中には熱くなる人がずいぶんあるのです。<br/><br/>こう（浄霊）やると汗をかく人もたくさんある。<br/><br/>そうかというと、スッと気持ちが良くなる人、ピリピリ電気のようなものを感じる人もありますし、人によっていろいろです。<br/><br/>とにかくそれによってみんな非常に具合が良くなるのです。<br/><br/>これはなにかと言うと、これが霊なのです。<br/><br/>見えざるものです。<br/><br/>こう（浄霊）やって、どうして病気が治るか、ということは理論科学的にも説明してありますが、私のほうの根本は病気を治すことです。<br/><br/>病気を治せば、あらゆる問題はみんな解決がつくのです。<br/><br/>思想問題でもなんでもそうです。<br/><br/>病気を治すといっても、健全な思想の人間になればいいのです。<br/><br/>健全でないということは、人間の霊が病気になっているのです。<br/><br/>人間というのは体ばかりではないのです。<br/><br/>これは科学というものは間抜けなもので、こういうものが人間としてあるのですから、人間が生きて働いて思想もあるということは、物質ばかりではないのです。<br/><br/>なにかがあるのです。<br/><br/>ただ目に見えないからないと言っているのです。<br/><br/>ちょうど野蛮人に空気の説明をしても、ないと言うのとおなじです。<br/><br/>だから霊のあるということを信じさせることが救いの根本です。<br/><br/>その霊を治せばいいのです。<br/><br/>そうすると体の病気は治ってしまうのです。<br/><br/>ですから輸血ということは私のほうでは笑ってますが、これ（御浄霊）が輸血です。<br/><br/>否輸血以上のものです。<br/><br/>なぜかと言うと、出血でいまにも死にそうなのが、こうやる（手を翳され）と生きかえるのです。<br/><br/> 為郷氏 そういたしますとお光をなさるということは、だれでもいいということではないのですか。<br/><br/> 明主様 やる人はだれでもいいのです。<br/><br/>熊公でも八公でも、人間であればいいのです。<br/><br/> 為郷氏 例えば私でもこうやればいいのでしょうか。<br/><br/> 明主様 そうです。<br/><br/>博士の見離したものでも治ります。<br/><br/> 為郷氏 しかし私が霊界というものを信じなければいけないのではないでしょうか。<br/><br/> 明主様 そんなことはありません。<br/><br/>ですからそこに価値があるのです。<br/><br/>自力というのは少しもないのです。<br/><br/>自分が一生懸命になるということは、自力が加わることです。<br/><br/>ですから人間の力は不必要です。<br/><br/>いらないのです。<br/><br/>六つか七つかの子供が、親をこうやって（浄霊）治るのですからすばらしいものです。<br/><br/> ◎無病息災の世は来る？ 為郷氏 お光りは向こうに行ってまた返ってくるのでしょうか。<br/><br/> 明主様 そんなことはありません。<br/><br/>透ったきりです。<br/><br/>私のお腹に光の玉があってそれから光りが出るのですから無限なのです。<br/><br/> 為郷氏 その玉というのは明主様だけがお持ちになっておられるのですか。<br/><br/> 明主様 そうです。<br/><br/> 為郷氏 そういたしますと仮に明主様が百年の後に霊界にお入りになりますとないことになりますが。<br/><br/> 明主様 しかし霊界から出しますから同じことです。<br/><br/>かえってよく出ます。<br/><br/>体があると邪魔になりますから。<br/><br/> 為郷氏 それで教団のほうも御安心なわけですね。<br/><br/> 明主様 それからその時分になると病気もずっと減ってきます。<br/><br/>病人が減ってしまうからほとんど必要ないくらいになるでしょう。<br/><br/>病気の原因というのは薬ですから、体から薬を抜けば病気は起らないのです。<br/><br/>薬を出す作用が病気です。<br/><br/>これで（御浄霊で）やっても、すっかり取りきるということはできませんが、だいたい取るには二、三十年かかります。<br/><br/>ふつうでは何十年かかるかわかりません。<br/><br/>ですからこうやる（浄霊）のは薬を取る方法です。<br/><br/>それを知らないで、いまみんな薬を服んでますが危ない話です。<br/><br/>そこで薬によって病人を作っているのですが、一面、薬ということもやはり必要があって神様が作ってあるのです。<br/><br/>これは今度の本（文明の創造）にみんな書きますからそれを読んでください。<br/><br/>ただ一遍の話ではなかなか分かりません。<br/><br/> ◎美は魂のレベルを高くする 為郷氏 美ということと明主様の御教えというものとは、どういう関係があるのでしょうか。<br/><br/> 明主様 つまり人間の魂のレベルを上げればいいのです。<br/><br/>要するに文明のレベルがまだ低いのです。<br/><br/>これをだんだん高くしなければならない。<br/><br/>それには耳からの教えを説く、それから目から美というものでとると魂のレベルが高くなる。<br/><br/>それから文字を読ませる、書いたものを読ませる、そういういろいろのことによって人間の魂を向上させる。<br/><br/>そのことからどうしても美というものが必要なのです。<br/><br/>しかし現在ある美というものは、魂を低くすることが多いのです。<br/><br/>それは人間は享楽も必要です。<br/><br/>しかしその享楽が目から受けるのがあまりにも魂を下げるのが多いのです。<br/><br/>ですからどうしても、こういった魂を向上させるのがなくてはならないのです。<br/><br/>これは必要なのです。<br/><br/>ですから世界の文明がだんだん発達するに従って、そういうことが非常に進歩して豊かになります。<br/><br/>いまはそういうような傾向がよほど出てきています。<br/><br/>アメリカなんかもヨーロッパでもそうですが、美術館というのもだいぶほうぼうにできています。<br/><br/>これで現実に美術の機関がはやってきました。<br/><br/>フランスの大家の画でも日本人なんかが片っ端から見られるのですから。<br/><br/>そこで日本美術の今度アメリカで展覧会をやりますが、私のほうでも少し出品しますが、そんなような具合で、美術による、こういう関係が濃くなってきます。<br/><br/>アメリカなどは美術館は非常に発展してます。<br/><br/>美術についても、そうとう関心を持つようになってます。<br/><br/> 為郷氏 私はどうも西洋の油絵とかマチスは少しは興味がありますが、ピカソはぜんぜんありません。<br/><br/> 明主様 あれはまったく行き過ぎですよ。<br/><br/> 為郷氏 日本画ですと、いいと思ったり、なんとなく清々しいのですが。<br/><br/> 明主様 私もそうなのです。<br/><br/>一般人が見ていいなと楽しめるのでなければ美術の目的はない、と言っていいのです。<br/><br/>とにかく美術の目的はできるだけ多くの人が楽しめる、というものです。<br/><br/>目の利いた人だけがわかるというのは駄目なのです。<br/><br/>目の利いた者も、目の利かない者も、理解ができる、そう深いものでなくても、とにかくいいなあと思われなければ駄目です。<br/><br/>ところがピカソの絵は考えなければ駄目です。<br/><br/>また考えてもわからないのです。<br/><br/>ですからいまフランスではピカソは狂人だという説が出ていると聞いたことがあります。<br/><br/>ああいうのは遠からずなくなります。<br/><br/>ピカソの絵についてはいつか論文を書いて新聞に出しました。<br/><br/> 為郷氏 それではお忙しいところをどうもありがとうございました。<br/><br/> （注）為郷(いさと)恒淳、読売新聞社科学部次長、後に編輯局長を経て取締役副社長をつとめた。<br/><br/>2003年89歳で死去。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

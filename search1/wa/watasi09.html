@@ -4,8 +4,410 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>watasi09</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,59 +442,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 私の考え方 『栄光』162号、昭和27(1952)年6月25日発行 私は何事でも、非常に深く考える癖がある。<br><br>たとえばある計画を立てたとする、それが大抵の人は、なるべく早く着手しようと思ってジットしてはいられないばかりか、やり始めたらどうにかなるだろうくらいに運命に対する依頼心が強いが、さて始めてみると仲々そんな訳にはゆかないで、大抵はイスカの嘴（はし）と喰違い失敗するのである。<br><br>というように失敗の場合を考えないで、成功の場合のみを考えるから危険千万である。<br><br>ところが私は反対で最初から失敗を予想してかかる。<br><br>もし失敗したらこういうように建直すという案をあらかじめ立てておくから、よしんば失敗しても余り痛痒を感じない、暫く時を待つ、そうすれば致命どころではなく、容易に再起が出来るのである。<br><br> そうして金銭についてもそうである。<br><br>これを私は三段構えにしている。<br><br>第一の金を遣って足りなければ、第二の金を遣い、それでも足りなければ第三の金を遣う。<br><br>というようにすれば決してボロなど出す気遣はない。<br><br>というようにすべて準備を充分調べておき、何事も念には念を入れてやるから、これを上面から見ると間怠いようだが、失敗がないから案外早く進捗する。<br><br>そのため無駄な費用も、時間も、労力も省けるから、算盤（そろばん）上予想外な利益になる。<br><br>私は皆も知る通り、随分大胆な計画を次々立て、実行するが、不安がなく、気楽な気持でスラスラゆくのである。<br><br> 右のように最初から、準備万端整っても私は直ぐに掛る事はしないで、おもむろに時を待っている。<br><br>すると必ず好機会がやって来るからその時ここぞとばかり乗り出すのである。<br><br>そうして出来るだけ焦らないようにする。<br><br>人間は決して焦ってはいけない。<br><br>焦ると必ず無理が出る。<br><br>無理が出たらもうお仕舞だ。<br><br>世間の失敗者をみると、例外なく焦りと無理が原因となっている。<br><br>それについていつも想い起すのは、彼の太平洋戦争の時である。<br><br>初めの間はトントン拍子に旨く行ったので、いい気持になり慢心が出て来たので様子が大分変って形勢が悪くなって来ても、何糞とばかり頑張り、無理に無理を重ねたので、その結果ああいう惨めな結末になったのである。<br><br>その頃私はこう焦りが出た以上もう駄目だと考えたが、その頃は人にも言えないから、我慢してしまったのである。<br><br>という訳で最初から敗戦の場合を考慮していたなら今少し何とかなったに違いないと、実に残念に思ったものである。<br><br>全く当事者の浅慮が原因であったのは言うまでもない。<br><br> 右のような訳であるから、私を見たらある時はすこぶる短兵急（たんぺいきゅう）であり、また反対に悠々閑としている事もあるので、まず端倪（たんげい）すべからずであろう。<br><br>それもこれも神様の御守護の厚いためはもちろんだが、私のする事、なす事、実に迅速にはこんでゆくので、吃驚しない者はない。<br><br>本教の異例な発展の速度をみてもよく分るであろう。<br><br>次に注意したい事は、人間は精神転換をする事である。<br><br>それは無暗に一つ仕事に噛（かじ）り付いている人がよくあるが、こういう人は割合能率は上らないものである。<br><br>つまり飽きたり、嫌になったりしても我慢するからで、これがいけないのである。<br><br>むしろそういう時は遊び事でもいいから転換するに限る。<br><br>よく芸術家などで気の向かない時は、決して手を出さない話をよく聞くがなるほどと思うので、むしろある点はわがままなくらいが、反って能率が上るものである。<br><br>そのような意味で私は仕事に固着する事を嫌い、それからそれへと転換して行く、そうすると気持もよく、面白く仕事が出来るから頭脳の働きもいいのである。<br><br>とはいうもののその人の境遇によってはそうもゆかないから、右の理をよく弁えて、臨機応変に行ってゆけば、余程有利であるという事を教えたまでである。<br><br> (注) イスカの嘴（はし）と喰違い、イスカ。<br><br>鳥綱スズメ目アトリ科の鳥。<br><br>嘴（くちばし）の上下が食い違っていることから、 物事が食い違う事のたとえに使われる。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Minha Forma de Pensar</h2>
 <p>Publicado em 25 de junho de 1952, na revista Eikou, n.º 162</p>
@@ -104,5 +454,48 @@ function toggleLang(lang) {
 <p>Por agir dessa maneira, posso parecer, em certos momentos, extremamente decidido e rápido, enquanto, em outros, demonstro uma calma e uma serenidade absolutas. Isso talvez me torne uma figura inescrutável. Evidentemente, tudo se deve, em primeiro lugar, à profunda proteção de Deus. Contudo, o fato é que tudo o que realizo avança com uma rapidez que a todos surpreende. O desenvolvimento sem precedentes de nossa Igreja é uma clara demonstração disso.</p>
 <p>Gostaria, por fim, de ressaltar a importância da renovação mental. É comum vermos pessoas que se aferram a uma única tarefa de forma obstinada. Tal atitude, em geral, resulta em baixa produtividade. Elas insistem mesmo quando se sentem entediadas ou desinteressadas, e esse é o erro. Nesses momentos, o melhor a fazer é mudar de foco, mesmo que seja para uma atividade de lazer. Ouvimos com frequência relatos de artistas que jamais tocam em suas obras quando não se sentem inspirados. Creio que há uma grande verdade nisso. De fato, um certo grau de autonomia, que poderia ser visto como obstinação, acaba por elevar a produtividade.</p>
 <p>Nesse sentido, detesto me fixar em um único trabalho e prefiro alternar constantemente entre diferentes atividades. Dessa forma, mantenho o bom ânimo e o prazer em trabalhar, o que potencializa o funcionamento do meu cérebro. Sei, entretanto, que as circunstâncias de cada um nem sempre permitem tal flexibilidade. Meu objetivo, com estas palavras, foi apenas ensinar um princípio que, se bem compreendido e aplicado conforme a situação, pode trazer vantagens consideráveis.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 私の考え方 『栄光』162号、昭和27(1952)年6月25日発行 私は何事でも、非常に深く考える癖がある。<br/><br/>たとえばある計画を立てたとする、それが大抵の人は、なるべく早く着手しようと思ってジットしてはいられないばかりか、やり始めたらどうにかなるだろうくらいに運命に対する依頼心が強いが、さて始めてみると仲々そんな訳にはゆかないで、大抵はイスカの嘴（はし）と喰違い失敗するのである。<br/><br/>というように失敗の場合を考えないで、成功の場合のみを考えるから危険千万である。<br/><br/>ところが私は反対で最初から失敗を予想してかかる。<br/><br/>もし失敗したらこういうように建直すという案をあらかじめ立てておくから、よしんば失敗しても余り痛痒を感じない、暫く時を待つ、そうすれば致命どころではなく、容易に再起が出来るのである。<br/><br/> そうして金銭についてもそうである。<br/><br/>これを私は三段構えにしている。<br/><br/>第一の金を遣って足りなければ、第二の金を遣い、それでも足りなければ第三の金を遣う。<br/><br/>というようにすれば決してボロなど出す気遣はない。<br/><br/>というようにすべて準備を充分調べておき、何事も念には念を入れてやるから、これを上面から見ると間怠いようだが、失敗がないから案外早く進捗する。<br/><br/>そのため無駄な費用も、時間も、労力も省けるから、算盤（そろばん）上予想外な利益になる。<br/><br/>私は皆も知る通り、随分大胆な計画を次々立て、実行するが、不安がなく、気楽な気持でスラスラゆくのである。<br/><br/> 右のように最初から、準備万端整っても私は直ぐに掛る事はしないで、おもむろに時を待っている。<br/><br/>すると必ず好機会がやって来るからその時ここぞとばかり乗り出すのである。<br/><br/>そうして出来るだけ焦らないようにする。<br/><br/>人間は決して焦ってはいけない。<br/><br/>焦ると必ず無理が出る。<br/><br/>無理が出たらもうお仕舞だ。<br/><br/>世間の失敗者をみると、例外なく焦りと無理が原因となっている。<br/><br/>それについていつも想い起すのは、彼の太平洋戦争の時である。<br/><br/>初めの間はトントン拍子に旨く行ったので、いい気持になり慢心が出て来たので様子が大分変って形勢が悪くなって来ても、何糞とばかり頑張り、無理に無理を重ねたので、その結果ああいう惨めな結末になったのである。<br/><br/>その頃私はこう焦りが出た以上もう駄目だと考えたが、その頃は人にも言えないから、我慢してしまったのである。<br/><br/>という訳で最初から敗戦の場合を考慮していたなら今少し何とかなったに違いないと、実に残念に思ったものである。<br/><br/>全く当事者の浅慮が原因であったのは言うまでもない。<br/><br/> 右のような訳であるから、私を見たらある時はすこぶる短兵急（たんぺいきゅう）であり、また反対に悠々閑としている事もあるので、まず端倪（たんげい）すべからずであろう。<br/><br/>それもこれも神様の御守護の厚いためはもちろんだが、私のする事、なす事、実に迅速にはこんでゆくので、吃驚しない者はない。<br/><br/>本教の異例な発展の速度をみてもよく分るであろう。<br/><br/>次に注意したい事は、人間は精神転換をする事である。<br/><br/>それは無暗に一つ仕事に噛（かじ）り付いている人がよくあるが、こういう人は割合能率は上らないものである。<br/><br/>つまり飽きたり、嫌になったりしても我慢するからで、これがいけないのである。<br/><br/>むしろそういう時は遊び事でもいいから転換するに限る。<br/><br/>よく芸術家などで気の向かない時は、決して手を出さない話をよく聞くがなるほどと思うので、むしろある点はわがままなくらいが、反って能率が上るものである。<br/><br/>そのような意味で私は仕事に固着する事を嫌い、それからそれへと転換して行く、そうすると気持もよく、面白く仕事が出来るから頭脳の働きもいいのである。<br/><br/>とはいうもののその人の境遇によってはそうもゆかないから、右の理をよく弁えて、臨機応変に行ってゆけば、余程有利であるという事を教えたまでである。<br/><br/> (注) イスカの嘴（はし）と喰違い、イスカ。<br/><br/>鳥綱スズメ目アトリ科の鳥。<br/><br/>嘴（くちばし）の上下が食い違っていることから、 物事が食い違う事のたとえに使われる。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jorei14</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊と胃癌 『栄光』146号、昭和27(1952)年3月5日発行 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 胃癌という病気は、医学でも絶対治らないとしており、しいて医療を施すとしたら、手術以外にない事も、誰も知る通りである。<br><br>しかし手術で旨（うま）く成功しても、その後の食生活の面倒な事と、大抵は数年の生命しか保てない事もよく知られているが、左記の実例は胃癌に対する浄霊の効果が、いかに絶大であるかを示している。<br><br>ところがもし医学による効果としたら、世界的大問題となり、画期的発見として一大センセーションを起すであろうが、宗教なるがゆえに簡単に闇に葬り去られるのであるから、不思議な世の中である。<br><br>しかし神様の救いである以上、いずれは世界人類全体が平伏して拝むようになるのも、絶対間違いないのである。<br><br> 胃癌全治も念の入った御報告 （胃癌全治して二十カ月の今日） 体験談のみ『アメリカを救う』昭和28(1953)年1月1日発行に収録 佐賀県 帰一中教会 永吉範行（47） 昭和二十五年三月二十六日、突然の来客に応対して色々話を聞いておりましたところ、杵島郡北方町字久津具、原秀一様（58才）が実は胃癌との事、「ぜひ来て頂きたい」と申されましたので、行って見ましたが大分重態のようでした。<br><br>それに一回の浄霊で、「こんな事で良くなるものか」と本人が思われたのか、断られたため、入信者でもない人だし、もし万一の事があったら面白くないと思っていた私の事ホッとした気持で帰りました。<br><br>それから四日後の三十日の晩に再び秀一様の子供様二人連れで支部（当時の教導所）に参られ、「全く申し兼ねますが二十七日以来医者に御願いしておりますが、四日間での衰弱が急速なため、医師も驚いたのか、家族の者に「一度立会いをさしてくれ」との事で、「それは立会いされてもよいが、立会いしたらどうなりますか」と尋ねたら「当然入院して切開手術を致さねばなるまい」との事に「手術をしたら大丈夫ですか」と問えば、「手術しても保証は出来ない」との事、「それでは手術しても、せずにも、どうせ助る見込みがないようでしたら手術は見合わせます」と言って医師を断りましたので、死んでも思い残しはないから、今度だけはぜひ神様にお縋りすると本人から申しますので、誠にわがままですけれどお願い致します」と言って来ましたので三十一日に行き「三日間だけ来て上げますから、その後もぜひと思われるようでしたら申して下さい。<br><br>それでないと三日間で後は参りません」と言っておきましたら、三日目に「後も来て下さい」との事又三日間の日切りして行きましたが、その二日間は一日に牛乳五勺も咽喉を通らず、冷汗は絶え間なく出るので、今日は忌中の紙を戸口に貼ってあるのではなかろうか、又翌日も今日は貼ってないだろうかと家につくまでは気にしながら三日間行きましたが、三日目計六日目には大変楽になっておりましたので、どうやら安心致しまして、この様子では命を取り止めるのではないかと思いました。<br><br>と同時に明主様の御霊徳と言い、御浄霊の偉大さと言い、全く人智では計り知れないところがある事を痛感しました。<br><br>なお日増に元気が出て来られましたので、後は又四日間続けて合計十日間行ってやり、十日目に私は「明日から別府にお参りして来ますから、三日間は参られないけれど、今度別府より帰って御宅へ来る頃は、寝ていたくはない位の気持になっておられると思います」と申してその日は帰りました。<br><br>そして四月十三日再び行って見ましたところ、ちょうど私が家の前に近づいた時、本人は奥様に縋って、小便に立っておられましたので、想像通り大分良くなったなあーと自分の事のように喜びまして本人に会ってみますと本人はもとより家族の者の喜びは筆舌に尽されませんでした。<br><br>又ちょうどその日は隣家の○○という人が、同じ胃癌で、近所の噂では「原さんと○○様とどちらが先に死ぬか」とまで話に出ていたその人は、病院に行き手術を受けられたのが、その日（十三日）朝病院で死亡され、戸板に乗せられて自宅に帰られたとの事、誠に人間の一生というのは、どこで差がつくか判りません。<br><br>その後は時々浄霊に行っておりましたが、その年の秋の農繁期より発病前と変らぬ仕事をしておられ、全快後は一年八カ月の今日に至るも、何事なく元気で働いておられるのを見ましても、御浄霊により恢復したのは、再発の心配皆無の事が判ります。<br><br>なお全快直後に御報告申しあげるべきはずのところ、果して一年後にも何事もないかを確めて、との本人の意志により、約二十カ月後の今日まで御報告を延した事につきましては、重々御詫び申し上げますと共に、入信日浅きお方の御参考にもなる事と思い、ここに御報告さして頂きます。<br><br> 明主様有難うございました。<br><br> （昭和二十七年二月一日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Prova Irrefutável do Poder Divino sobre o Câncer Gástrico</h2>
 <p>O câncer gástrico é, para a medicina, uma doença de prognóstico invariavelmente fatal. O único recurso terapêutico que se cogita, como é de conhecimento geral, é a intervenção cirúrgica. Contudo, é notório que, mesmo em casos de sucesso, a convalescença impõe severas restrições alimentares e a sobrevida raramente ultrapassa alguns anos. O relato a seguir, todavia, demonstra o quão extraordinário é o efeito do Johrei sobre esta moléstia.</p>
@@ -109,5 +261,48 @@ Igreja Kiu-itsu Naka, Província de Saga</p>
 <p>Eu deveria ter apresentado este relatório logo após a sua recuperação. Contudo, a pedido do próprio senhor Hara, que desejava primeiro confirmar a solidez de sua cura após um ano, adiei o registro até o presente momento, quase vinte meses depois. Peço sinceras desculpas pelo atraso. Escrevo este relato com a esperança de que sirva como referência e inspiração para aqueles que têm pouca fé ou que ingressaram recentemente em nossa Igreja.</p>
 <p>Meishu-Sama, muito obrigado.</p>
 <p>(1º de fevereiro de 1952)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊と胃癌 『栄光』146号、昭和27(1952)年3月5日発行 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 胃癌という病気は、医学でも絶対治らないとしており、しいて医療を施すとしたら、手術以外にない事も、誰も知る通りである。<br/><br/>しかし手術で旨（うま）く成功しても、その後の食生活の面倒な事と、大抵は数年の生命しか保てない事もよく知られているが、左記の実例は胃癌に対する浄霊の効果が、いかに絶大であるかを示している。<br/><br/>ところがもし医学による効果としたら、世界的大問題となり、画期的発見として一大センセーションを起すであろうが、宗教なるがゆえに簡単に闇に葬り去られるのであるから、不思議な世の中である。<br/><br/>しかし神様の救いである以上、いずれは世界人類全体が平伏して拝むようになるのも、絶対間違いないのである。<br/><br/> 胃癌全治も念の入った御報告 （胃癌全治して二十カ月の今日） 体験談のみ『アメリカを救う』昭和28(1953)年1月1日発行に収録 佐賀県 帰一中教会 永吉範行（47） 昭和二十五年三月二十六日、突然の来客に応対して色々話を聞いておりましたところ、杵島郡北方町字久津具、原秀一様（58才）が実は胃癌との事、「ぜひ来て頂きたい」と申されましたので、行って見ましたが大分重態のようでした。<br/><br/>それに一回の浄霊で、「こんな事で良くなるものか」と本人が思われたのか、断られたため、入信者でもない人だし、もし万一の事があったら面白くないと思っていた私の事ホッとした気持で帰りました。<br/><br/>それから四日後の三十日の晩に再び秀一様の子供様二人連れで支部（当時の教導所）に参られ、「全く申し兼ねますが二十七日以来医者に御願いしておりますが、四日間での衰弱が急速なため、医師も驚いたのか、家族の者に「一度立会いをさしてくれ」との事で、「それは立会いされてもよいが、立会いしたらどうなりますか」と尋ねたら「当然入院して切開手術を致さねばなるまい」との事に「手術をしたら大丈夫ですか」と問えば、「手術しても保証は出来ない」との事、「それでは手術しても、せずにも、どうせ助る見込みがないようでしたら手術は見合わせます」と言って医師を断りましたので、死んでも思い残しはないから、今度だけはぜひ神様にお縋りすると本人から申しますので、誠にわがままですけれどお願い致します」と言って来ましたので三十一日に行き「三日間だけ来て上げますから、その後もぜひと思われるようでしたら申して下さい。<br/><br/>それでないと三日間で後は参りません」と言っておきましたら、三日目に「後も来て下さい」との事又三日間の日切りして行きましたが、その二日間は一日に牛乳五勺も咽喉を通らず、冷汗は絶え間なく出るので、今日は忌中の紙を戸口に貼ってあるのではなかろうか、又翌日も今日は貼ってないだろうかと家につくまでは気にしながら三日間行きましたが、三日目計六日目には大変楽になっておりましたので、どうやら安心致しまして、この様子では命を取り止めるのではないかと思いました。<br/><br/>と同時に明主様の御霊徳と言い、御浄霊の偉大さと言い、全く人智では計り知れないところがある事を痛感しました。<br/><br/>なお日増に元気が出て来られましたので、後は又四日間続けて合計十日間行ってやり、十日目に私は「明日から別府にお参りして来ますから、三日間は参られないけれど、今度別府より帰って御宅へ来る頃は、寝ていたくはない位の気持になっておられると思います」と申してその日は帰りました。<br/><br/>そして四月十三日再び行って見ましたところ、ちょうど私が家の前に近づいた時、本人は奥様に縋って、小便に立っておられましたので、想像通り大分良くなったなあーと自分の事のように喜びまして本人に会ってみますと本人はもとより家族の者の喜びは筆舌に尽されませんでした。<br/><br/>又ちょうどその日は隣家の○○という人が、同じ胃癌で、近所の噂では「原さんと○○様とどちらが先に死ぬか」とまで話に出ていたその人は、病院に行き手術を受けられたのが、その日（十三日）朝病院で死亡され、戸板に乗せられて自宅に帰られたとの事、誠に人間の一生というのは、どこで差がつくか判りません。<br/><br/>その後は時々浄霊に行っておりましたが、その年の秋の農繁期より発病前と変らぬ仕事をしておられ、全快後は一年八カ月の今日に至るも、何事なく元気で働いておられるのを見ましても、御浄霊により恢復したのは、再発の心配皆無の事が判ります。<br/><br/>なお全快直後に御報告申しあげるべきはずのところ、果して一年後にも何事もないかを確めて、との本人の意志により、約二十カ月後の今日まで御報告を延した事につきましては、重々御詫び申し上げますと共に、入信日浅きお方の御参考にもなる事と思い、ここに御報告さして頂きます。<br/><br/> 明主様有難うございました。<br/><br/> （昭和二十七年二月一日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

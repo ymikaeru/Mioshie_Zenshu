@@ -1,153 +1,302 @@
 ﻿<html>
-
 <head>
-    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-    <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR" />
-    <title>s270106</title>
-    <link href="../../style4.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body bgcolor="#E9FEDA">
-    <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
-        <input name="hint" type="hidden" value="ひらがな" />
-        <input name="index" type="hidden" value="" />
-        <input name="config" type="hidden" value="" />
-        <div align="right">
-            <table border="0" cellpadding="0" cellspacing="0" width="90%">
-                <tr>
-                    <td>
-                        <p align="right">
-                            <font face="ＭＳ ゴシック" size="2"><strong>――</strong></font>
-                            <font face="HG正楷書体-PRO" size="2"><strong> 岡田自観師の論文集 ――</strong>　</font>
-                            <font face="ＭＳ ゴシック" size="2"><strong>御教え検索</strong>：</font>
-                        </p>
-                    </td>
-                    <td align="center" bgcolor="#EFFFE6" width="150">
-                        <font size="2"><input name="query" size="25" type="text" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6">
-                        <font size="2"><input type="submit" value="検索" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6" width="35"><a href="../../../cgi/msearch.cgi">
-                            <font size="2">help</font>
-                        </a></td>
-                </tr>
-            </table>
-        </div>
-    </form>
-    <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
-        <input name="hint" type="hidden" value="ひらがな" />
-        <input name="index" type="hidden" value="shiryo" />
-        <input name="config" type="hidden" value="" />
-        <div align="right">
-            <table border="0" cellpadding="0" cellspacing="0" width="90%">
-                <tr>
-                    <td>
-                        <p align="right">
-                            <font face="ＭＳ ゴシック" size="2"><strong>　　　　　　　　　　　　　　　資料検索</strong>：</font>
-                        </p>
-                    </td>
-                    <td align="center" bgcolor="#EFFFE6" width="150">
-                        <font size="2"><input name="query" size="25" type="text" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6">
-                        <font size="2"><input type="submit" value="検索" /></font>
-                    </td>
-                    <td width="35">　</td>
-                </tr>
-            </table>
-        </div>
-    </form>
-    <blockquote>
-        
-
-
-
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
+<title>s270106</title>
+<link href="../../style4.css" rel="stylesheet" type="text/css"/>
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
+<form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
+<input name="hint" type="hidden" value="ひらがな"/>
+<input name="index" type="hidden" value=""/>
+<input name="config" type="hidden" value=""/>
+<div align="right">
+<table border="0" cellpadding="0" cellspacing="0" width="90%">
+<tr>
+<td>
+<p align="right">
+<font face="ＭＳ ゴシック" size="2"><strong>――</strong></font>
+<font face="HG正楷書体-PRO" size="2"><strong> 岡田自観師の論文集 ――</strong>　</font>
+<font face="ＭＳ ゴシック" size="2"><strong>御教え検索</strong>：</font>
+</p>
+</td>
+<td align="center" bgcolor="#EFFFE6" width="150">
+<font size="2"><input name="query" size="25" type="text"/></font>
+</td>
+<td bgcolor="#EFFFE6">
+<font size="2"><input type="submit" value="検索"/></font>
+</td>
+<td bgcolor="#EFFFE6" width="35"><a href="../../../cgi/msearch.cgi">
+<font size="2">help</font>
+</a></td>
+</tr>
+</table>
+</div>
+</form>
+<form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
+<input name="hint" type="hidden" value="ひらがな"/>
+<input name="index" type="hidden" value="shiryo"/>
+<input name="config" type="hidden" value=""/>
+<div align="right">
+<table border="0" cellpadding="0" cellspacing="0" width="90%">
+<tr>
+<td>
+<p align="right">
+<font face="ＭＳ ゴシック" size="2"><strong>　　　　　　　　　　　　　　　資料検索</strong>：</font>
+</p>
+</td>
+<td align="center" bgcolor="#EFFFE6" width="150">
+<font size="2"><input name="query" size="25" type="text"/></font>
+</td>
+<td bgcolor="#EFFFE6">
+<font size="2"><input type="submit" value="検索"/></font>
+</td>
+<td width="35">　</td>
+</tr>
+</table>
+</div>
+</form>
+<blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年1月6日） 『御教え集』6号、昭和27(1952)年2月25日発行 昭和二十七年一月六日 【御教え】 話をする前にちょっと、今車の中で気のついたことがあるので――あまり、滅多に話をしないことを――ちょっと為になる話と思うので、その話を先にしますが――私はよく映画を見ますが、その時に――アメリカ映画ですね。<br><br>その言葉が字幕に書いてありますね、あの言葉が、実に洗練されているんですよ。<br><br>日本人の言う言葉よりね。<br><br>いつも、私は感心するんですが、それを考えてみると、日本人の言葉がまことに洗練されていないんですね。<br><br>だから、信仰者として人に話をする場合も、洗練された言葉を使うように心掛けるんです。<br><br>これはある程度実現できるんです。<br><br>というのは、洗練されると言いますと、急所を言うんですね。<br><br>あまり無駄とか、ずれた事は言わないんです。<br><br>実際に事実によく合っている事柄の表現を、上手く言い現すという事ですね。<br><br>これは法なんです。<br><br>法に適うとか、法があるとかいうのは、言い換えれば道なんです。<br><br>道にはずれないように、道に合うようにというのは、それなんです。<br><br>これは、ひとり言葉だけではない。<br><br>挙動から態度、考え方、行う事が、みんなそれにはずれないようにいくんですね。<br><br>たとえて言えば、人の家に行って格子を開けて、玄関に上って挨拶をし、それから部屋に座って、そこの家によって――相手によって、座り方も話の仕方も、やはり違わなければいけない。<br><br>話でも、招かれた場合の態度と話もあるし、それから先方に、こっちの都合で行って話をするのと、それから話の内容ですね。<br><br>先方に対する言い方から、受け入れさせ方――そういうこともやはり法があって、でたらめではいけないですね。<br><br>一番困る事は、自分の言いたい事を言って、先方に喋らせない人がありますが、これがもっともいけないですね、話し上手より聞き上手――で、相手の話を充分聞いてやって、それに応じてこっちが話をする。<br><br>そうすると、先方は気持ち良く、話し合える。<br><br>それから大勢の話の場合に、人が話をしている時に、口を入れる――ひどいのになると、大きな声で、先方の話を打ち消すようにするんですね。<br><br>その代表的なものが、日本の議会ですよ。<br><br>喋っていると、打ち消すようにする。<br><br>それから、地位のある人の会合ですね。<br><br>大きな声で、喋っている人の話を打ち消す――ああいうのは悪いですね。<br><br>そういうのは、歩き方にも態度にも、一切法があり道がある。<br><br>そうして道も――相手によって色々違わなければならない。<br><br>女は女に、年寄りは年寄りに、インテリはインテリらしく、平凡な人は平凡に、と合わしていく。<br><br>合っていく――これが応身の働きです。<br><br>そういう事がちゃんと――そう理想的にはいきませんがね――中々ね。<br><br>幾分でもそういう風に、合っていくと、その人の運命に非常に良くなっていく。<br><br>人に好かれないとか、人が賛成しないというのは、相手の罪ばかりではない、こっちにもあるんですよ。<br><br>一番ひどい――いけないのは、嘘をつくことでしょうね。<br><br>嘘をつくのも、悪意でなく一時的に嘘をつくのがあります。<br><br>一時的に嘘をつくと、相手が喜んだり感心したりしますからね。<br><br>つい大げさに言ったり、大掛かりに言ったりする。<br><br>そうすると、あいつがああ言うんだから、実際はこの位だろうと割引される。<br><br>私なんか、割引しますよ。<br><br>だから、たまたま本当言っても、割引されちゃって、つまらないですよ。<br><br>嘘をつかないんですね。<br><br>あの人がああ言うんだから本当だ。<br><br>と、その信用が大変なものです。<br><br>どうも、人が信用しないとブツブツ言う人がありますが、独りよがりだから、〔他〕人でなく、自分にどこかやり方にいけないところがあるので、それを省みて発見しなければならないですね。<br><br>こんな事は、大して問題にする事もない――つまらないような事であるようで、肝腎な事ですね。<br><br>それから、愛嬌ですね。<br><br>空お世辞なんか言うが、あれもいけないですね。<br><br>信用に関わるんです。<br><br>あいつはああ言うが、腹の中はどうだか解らない、となる。<br><br>一つの臭味がつきますね。<br><br>正直に言う事は、少しは先方を非難するような事でも、良くとられるものです。<br><br>私なんかも、随分ひどい事をいう事がありますよ。<br><br>しかしどっちかというと、先方を気持ち良くさせたいという気持ちで言うから、滑稽（こっけい）に言う。<br><br>それで、先方がああといって反省する。<br><br>そういうことになると、難しくなりますが、結局相手を気持ち良くさせるという事が肝腎ですね。<br><br>だから大勢の場合は、中にはいやな事や変な事を言って一座を白けさせる人がありますが、ああいうのは、ごくいけないですね。<br><br>人に快感を与える。<br><br>つまり、わざとらしくない――また正直に言うと良いものなんです。<br><br>こういう話は滅多に話をしない事ですからね。<br><br>一つのお説教的な事ですがね。<br><br>しかし、ある事によって気がついたんです。<br><br>こういう話も一ぺん話して良いと思ってお話するんです。<br><br> それから一、二、三は――正月になってからの日の事ですがね。<br><br>教師とか――そういう資格者が多い話ですが――五、六、七は割合新しい人が多いというので、その意味のお話をしようと思ってます。<br><br>メシヤ教というのは、本当言うと宗教じゃないんです。<br><br>宗教じゃ、ないんでなくて、宗教はメシヤ教の一部になってますね。<br><br>というのは、今までの宗教というのは、教えですね。<br><br>宗の字というのは、つまり祖先とか先祖とか、またその家の総領とか、つまり中心とか、よく宗家とか宗匠とかいうような意味で、とにかく古い、大きな、支配者的なものですね。<br><br>そんなような具合の、その教えですね。<br><br>それが宗教ですからね。<br><br>教えだからして、どうしてもお説教になるんです。<br><br>仏教でも、キリスト教でも、大体お説教が中心になっている。<br><br>お説教が主になっている。<br><br>ただ、メシヤ教は病気を治す。<br><br>病気を治すと言うと、今言う教えじゃないんだからね。<br><br>これは救いなんだからね。<br><br>それから自然栽培で食糧問題を解決する。<br><br>それから、美術を奨励する為に、美術館を造る。<br><br>まだ色々あります。<br><br> 今『文明の創造』という本を書いてますが、その最後の天国篇というのは、一部は今度の新聞に出しましたがね。<br><br>政治に対して――政治というより、むしろ国際関係ですね。<br><br>国際関係は政治に関連してますがね。<br><br>今度は経済、社会組織、労働問題――そういう風に、段々書いていくんです。<br><br>従って宗教というものは、メシヤ教の一部なんです。<br><br>それを総合したものをまとめて一つにすれば、良い世界が作れる。<br><br>つまり五六七の世界を作る、本当の文明を作る。<br><br>そこで『文明の創造』という本を書いた。<br><br>それで、ただ――根本は人間の健康なんですから、現在は人間の病気ばかりでなく、世界全体が病人になっている。<br><br>共産主義という事は、あれは思想の病気ですね。<br><br>精神病じゃない。<br><br>精神的病気ですね。<br><br>その精神的病気の為に、考え方が取り違った。<br><br>健康な考え方じゃない。<br><br>病的考え方ですね。<br><br>思想が間違っているということは、要するに思想の病気なんです。<br><br>それから、不景気だ。<br><br>金詰りだ。<br><br>物資が足りない。<br><br>米が足りない、ということは、つまり農業の病気なんだからね。<br><br>それから金詰りということは、経済界の病気なんですね。<br><br>そうしてあらゆる病気は、結局人間が中心になってやっているんだから、人間の心と肉体が健全――健康なら、そのやる事が、やはり本当のことになるんですね。<br><br>病人がやっている仕事だからして、結局なんでも病気になっちゃうんですね。<br><br>だから何よりかにより、人間の病気をなくするという事が根本ですから、それで神様が、病気を治し健康にする、という事を主にしている。<br><br>だから、ああいう問題は個人個人が健康になれば、それで解決してしまいます。<br><br>あらゆる悩みでも不幸でも、結局人間の病気が根本です。<br><br>そこで、病気に一番重きを置いているんです。<br><br>色々、病気もありますが、差し当たって日本ですね。<br><br>手近な日本としては結核問題ですね。<br><br>これが一番厄介な病気です。<br><br>厄介なばかりでなく、段々増えている。<br><br>で、色々新聞、ラジオで言ってますが、近頃結核が減ったと言ってますが、あれは減ったんじゃなくて、外に出たものを、内に押し込めたんですね。<br><br>内向させたんですね。<br><br>だから、結核は外に出ただけ良いんです。<br><br>内向させると悪いんです。<br><br>そういうことは、今読ませますが『結核の信仰療法』という本を作って――今までは信者さんだけに読ませるというような意味でしたが。<br><br>今度はそういうことでは追っつかないから、社会的に――医科大学とか政府の大臣連とか国会議員、新聞社、各大病院、結核を扱っている療養所とか――そういう方面にばらまこうと思っている。<br><br>それで彼らに対して原子爆弾ですね。<br><br>それをぶっつけようと――こういう訳ですね。<br><br>この原子爆弾は生命には危険がないから安心ですけれどもね。<br><br>今まで思い切って書けなかったけれども、何か問題でも起こりそうな点があったので、なるべくぼかして、柔らかに書いたんです。<br><br>だから、先の『明日の医術』だとか『天国の福音』だとか、ああいうものは、思い切って書いてない。<br><br>ところがそんな事を言っておられなくなったのと、言論の自由になったので、思い切って書いても、別に問題が起こらないという事が分かりましたので、今度は思い切って――思い切ってと言ったところで、別に大げさに書くわけじゃないんですが、つまりありのままに書いて、それを今言ったように、最初に全国的に読ませるつもりですが、新聞広告なんかもして、呼び覚ます。<br><br>呼びかけるんじゃなくて、呼び覚まそうと思っている。<br><br>だから、相当センセーションを起こすだろうと思ってます。<br><br>どういう風に出るか、そいつは分かりません。<br><br>これは一般人も見ますからね。<br><br>相当な反響がないはずはないと思います。<br><br>それを今、序文とその次を読ませます。<br><br>これで、私の言いたい――思っている通りを書いてありますから、かなり思い切って書いてます。<br><br> （御論文「序文」「医学が結核を作る」） 今読んだ通り、お医者が結核を作っている、という事を根本的に書いたんです。<br><br>これを、お医者さんが読んだら、相当ビックリするだろうと思います。<br><br>それで、アメリカなんかが結核が減ったと喜んでいるが、あれがやっぱり浄化停止で、結核だけを起こさないようにしたから、その浄化が他の所に出た。<br><br>だから近頃米国なんかでは、悪性の色んな病気が出て来た――この後に書いてありますがね。<br><br>一つ一つ研究して苦しんでいるようですがね。<br><br>これを見れば解る訳ですね。<br><br> 時間がないけれども、ちょっと参考になる事だから―― （御論文「奇跡と宗教」）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content">
-            <h2>A Conduta do Crente e a Salvação pela Verdade</h2>
-            <p>Antes de iniciar minha explanação, gostaria de compartilhar algo que me ocorreu no carro há pouco, um
+<h2>A Conduta do Crente e a Salvação pela Verdade</h2>
+<p>Antes de iniciar minha explanação, gostaria de compartilhar algo que me ocorreu no carro há pouco, um
                 tema que raramente abordo, mas que julgo ser de grande valia.</p>
-            <p>Frequentemente assisto a filmes e sempre me impressiono com a linguagem utilizada nas legendas das
+<p>Frequentemente assisto a filmes e sempre me impressiono com a linguagem utilizada nas legendas das
                 produções americanas. Há nelas um esmero, um refinamento que, em minha opinião, supera em muito a forma
                 como os japoneses se expressam. Essa constatação me leva a refletir sobre a notável falta de apuro em
                 nossa própria comunicação. Portanto, como homens de fé, ao nos dirigirmos às pessoas, devemos nos
                 esmerar no uso de uma linguagem elevada.</p>
-            <p>Tal aprimoramento é perfeitamente alcançável. Ser refinado, nesse sentido, significa ir diretamente ao
+<p>Tal aprimoramento é perfeitamente alcançável. Ser refinado, nesse sentido, significa ir diretamente ao
                 ponto crucial, evitando digressões e palavras inúteis. Trata-se da habilidade de expressar a realidade
                 dos fatos com precisão e clareza. Este princípio é a própria Lei, ou o Caminho. Aderir ao Caminho, não
                 se desviar dele, é a essência de tudo. E isso não se restringe à palavra; abrange gestos, atitudes,
                 pensamentos e ações.</p>
-            <p>A título de exemplo, imaginemos uma visita à casa de alguém. Desde o ato de abrir o portão e adentrar o
+<p>A título de exemplo, imaginemos uma visita à casa de alguém. Desde o ato de abrir o portão e adentrar o
                 vestíbulo até a maneira de saudar, sentar-se e conversar, tudo deve ser adaptado ao anfitrião e às
                 circunstâncias. A postura e o diálogo quando somos convidados diferem daqueles de quando vamos ao
                 encontro de alguém por nossa própria conveniência. O conteúdo da conversa, a forma de nos dirigirmos ao
                 interlocutor e o modo como o fazemos aceitar nossas ideias, tudo isso obedece a uma Lei; nada deve ser
                 feito de maneira aleatória.</p>
-            <p>O mais lamentável é encontrar pessoas que, dominadas pelo desejo de expor suas próprias ideias, não
+<p>O mais lamentável é encontrar pessoas que, dominadas pelo desejo de expor suas próprias ideias, não
                 concedem ao interlocutor a oportunidade de se expressar. Essa é uma atitude sumamente incorreta. Mais
                 vale ser um bom ouvinte do que um bom orador. É preciso escutar atentamente o que o outro tem a dizer e,
                 com base nisso, apresentar nossas palavras. Desse modo, o diálogo transcorre de forma agradável para
                 ambas as partes.</p>
-            <p>Outro péssimo hábito, comum em conversas em grupo, é o de interromper quem está falando. Em casos mais
+<p>Outro péssimo hábito, comum em conversas em grupo, é o de interromper quem está falando. Em casos mais
                 graves, alguns chegam a levantar a voz para anular a fala do outro. O exemplo mais representativo dessa
                 má conduta pode ser observado no parlamento japonês, onde é comum tentarem abafar a voz do orador. Vemos
                 o mesmo em reuniões de pessoas de posição elevada. Tais atitudes são deploráveis.</p>
-            <p>Absolutamente tudo, desde a maneira de andar até a postura, possui uma Lei, um Caminho. E esse Caminho
+<p>Absolutamente tudo, desde a maneira de andar até a postura, possui uma Lei, um Caminho. E esse Caminho
                 deve se adaptar ao interlocutor: devemos nos dirigir a uma mulher como mulher, a um idoso como idoso, a
                 um intelectual com a devida deferência e a uma pessoa simples com simplicidade. A essa capacidade de
                 adaptação chamamos de manifestação do corpo que se adequa às circunstâncias.</p>
-            <p>Embora atingir esse ideal não seja fácil, empenhar-se, ainda que minimamente, para agir dessa forma trará
+<p>Embora atingir esse ideal não seja fácil, empenhar-se, ainda que minimamente, para agir dessa forma trará
                 melhorias significativas ao destino de uma pessoa. Se não somos apreciados ou se os outros não concordam
                 conosco, a culpa não reside apenas neles; parte dela está em nós.</p>
-            <p>O vício mais grave, contudo, é a mentira. Existem aquelas ditas sem má intenção, apenas para agradar ou
+<p>O vício mais grave, contudo, é a mentira. Existem aquelas ditas sem má intenção, apenas para agradar ou
                 impressionar momentaneamente. A pessoa exagera, engrandece os fatos, e o interlocutor, ao ouvir, logo
                 conclui que a realidade deve ser bem menor e aplica um desconto. Eu mesmo costumo fazer isso. O problema
                 é que, quando essa pessoa eventualmente diz a verdade, suas palavras também são recebidas com reservas,
@@ -155,9 +304,9 @@ function toggleLang(lang) {
                 disse, então é verdade". A credibilidade assim conquistada é um tesouro de valor inestimável. Vejo
                 pessoas se queixando de que ninguém confia nelas, mas isso ocorre porque são egocêntricas. Em vez de
                 culpar os outros, deveriam refletir sobre si mesmas para identificar e corrigir suas falhas.</p>
-            <p>Assuntos como este podem parecer triviais e indignos de atenção, mas, na verdade, são de fundamental
+<p>Assuntos como este podem parecer triviais e indignos de atenção, mas, na verdade, são de fundamental
                 importância.</p>
-            <p>Temos também a questão da afabilidade. Os elogios vãos, por exemplo, são prejudiciais, pois afetam a
+<p>Temos também a questão da afabilidade. Os elogios vãos, por exemplo, são prejudiciais, pois afetam a
                 credibilidade. Levam o outro a pensar: "Ele diz isso, mas quem sabe o que realmente se passa em seu
                 coração?". Cria-se uma má reputação. A honestidade, mesmo que implique uma crítica sutil, costuma ser
                 bem recebida. Eu mesmo, por vezes, digo coisas bastante duras. Contudo, como minha intenção é, de certa
@@ -166,74 +315,116 @@ function toggleLang(lang) {
                 sinta bem. Por isso, em um grupo, aquele que, com palavras desagradáveis ou descabidas, quebra a
                 harmonia do ambiente, comete um grande erro. É preciso proporcionar sensações prazerosas, e a melhor
                 forma de fazê-lo é com uma sinceridade desprovida de artifícios.</p>
-            <p>Raramente me detenho em temas assim, que se assemelham a uma explanação de natureza doutrinária. No
+<p>Raramente me detenho em temas assim, que se assemelham a uma explanação de natureza doutrinária. No
                 entanto, algo me inspirou a fazê-lo, e senti que seria benéfico compartilhar essas reflexões com vocês.
             </p>
-            <p>Agora, mudando de assunto, a composição da audiência nestes primeiros dias do ano varia. Nos dias um,
+<p>Agora, mudando de assunto, a composição da audiência nestes primeiros dias do ano varia. Nos dias um,
                 dois e três, tivemos a presença majoritária de instrutores e membros com mais tempo de casa. Nos dias
                 cinco, seis e sete, há um número maior de pessoas recém-chegadas. Assim, farei uma explanação adequada a
                 esse contexto.</p>
-            <p>A Sekaikyuseikyou, em sua verdadeira acepção, não é uma religião. Ou melhor, não é que não o seja, mas a
+<p>A Sekaikyuseikyou, em sua verdadeira acepção, não é uma religião. Ou melhor, não é que não o seja, mas a
                 religião constitui apenas uma parte da nossa Obra. As religiões até hoje existentes baseiam-se em
                 ensinamentos. O ideograma <em>shū</em> (宗) remete a conceitos como ancestral, linhagem, chefe da
                 família, ou seja, algo central e primordial, que remonta às origens, como nos termos <em>sōke</em> (宗家)
                 ou <em>sōshō</em> (宗匠). Por essa razão, as religiões tradicionais, sejam o Budismo ou o Cristianismo,
                 concentram-se em sermões e pregações.</p>
-            <p>A nossa Obra, entretanto, transcende esse escopo. Nós curamos doenças, o que não é um mero ensinamento,
+<p>A nossa Obra, entretanto, transcende esse escopo. Nós curamos doenças, o que não é um mero ensinamento,
                 mas a própria salvação. Solucionamos o problema alimentar por meio da Agricultura Natural. E, para
                 promover a elevação do espírito, construímos museus de arte. E há muito mais.</p>
-            <p>Atualmente, estou escrevendo o livro "A Criação da Civilização", cujo último capítulo, "O Paraíso
+<p>Atualmente, estou escrevendo o livro "A Criação da Civilização", cujo último capítulo, "O Paraíso
                 Terrestre", foi parcialmente publicado no jornal recente. Nele, abordo a política – ou melhor, as
                 relações internacionais, que estão a ela ligadas –, a economia, a organização social, as questões
                 trabalhistas, e assim por diante. Consequentemente, a religião é apenas um dos componentes da nossa
                 Obra. A união de todos esses elementos permitirá a criação de um mundo melhor, o Mundo de Miroku, uma
                 civilização verdadeiramente autêntica. Foi com esse propósito que escrevi "A Criação da Civilização".
             </p>
-            <p>O alicerce de tudo, no entanto, é a saúde do ser humano. O mundo inteiro está doente, não apenas os
+<p>O alicerce de tudo, no entanto, é a saúde do ser humano. O mundo inteiro está doente, não apenas os
                 indivíduos. O comunismo, por exemplo, é uma doença do pensamento. Não uma doença mental, mas uma
                 enfermidade de ordem espiritual, que levou a uma percepção distorcida da realidade. Não é um pensamento
                 sadio, mas patológico. Uma ideologia equivocada é, em essência, uma doença do pensamento. A recessão e a
                 escassez de capital são sintomas de uma economia enferma. A falta de alimentos é uma doença da
                 agricultura.</p>
-            <p>Visto que todas essas atividades são conduzidas por seres humanos, se suas mentes e seus corpos forem
+<p>Visto que todas essas atividades são conduzidas por seres humanos, se suas mentes e seus corpos forem
                 sadios, suas obras também o serão. O trabalho realizado por pessoas doentes resulta, invariavelmente, em
                 algo doentio. Por conseguinte, o ponto fundamental, acima de tudo, é eliminar a doença do ser humano. É
                 por isso que Deus prioriza a cura e a concessão da saúde. Resolvendo-se a doença de cada indivíduo,
                 todos os demais problemas se solucionarão. A raiz de todos os sofrimentos e infortúnios é, em última
                 análise, a doença humana. Eis por que damos a ela a máxima importância.</p>
-            <p>Dentre as várias enfermidades, a que mais aflige o Japão no momento é a tuberculose. É uma doença
+<p>Dentre as várias enfermidades, a que mais aflige o Japão no momento é a tuberculose. É uma doença
                 terrível, não apenas por sua gravidade, mas também por sua crescente disseminação. Jornais e rádios têm
                 anunciado uma diminuição no número de casos, mas isso é um engano. O que ocorre não é uma redução, mas
                 uma supressão dos sintomas, que são forçados a se interiorizar. A tuberculose, quando se manifesta
                 externamente, está em processo de eliminação. Interiorizá-la é extremamente prejudicial.</p>
-            <p>A esse respeito, preparei o livro "A Terapia da Tuberculose pela Fé", que até agora era destinado apenas
+<p>A esse respeito, preparei o livro "A Terapia da Tuberculose pela Fé", que até agora era destinado apenas
                 aos nossos membros. Contudo, diante da gravidade da situação, decidi que isso não é mais suficiente.
                 Pretendo distribuí-lo em larga escala na sociedade: em faculdades de medicina, entre ministros de
                 governo e parlamentares, em redações de jornais, nos grandes hospitais e nos sanatórios especializados.
                 Quero lançar sobre eles o que chamo de uma bomba atômica.</p>
-            <p>Contudo, fiquem tranquilos, pois esta bomba não representa perigo à vida. Em meus escritos anteriores,
+<p>Contudo, fiquem tranquilos, pois esta bomba não representa perigo à vida. Em meus escritos anteriores,
                 como "Ashita no Ijutsu" e "O Evangelho do Paraíso", não pude me expressar com total franqueza, pois
                 temia causar problemas. Procurei suavizar a linguagem, tornando-a mais velada. Agora, porém, a situação
                 mudou. Com a garantia da liberdade de expressão, compreendi que não há mais motivo para receios. Assim,
                 desta vez, escrevi abertamente. Não se trata de um exagero, mas de expor os fatos como eles são.</p>
-            <p>Como mencionei, pretendo divulgar esta obra em todo o país, inclusive com anúncios em jornais, não para
+<p>Como mencionei, pretendo divulgar esta obra em todo o país, inclusive com anúncios em jornais, não para
                 simplesmente chamar a atenção, mas para despertar as consciências. Estou convicto de que causará uma
                 grande comoção. Não sei ao certo qual será a reação, pois o público em geral também terá acesso ao
                 livro. Mas é impossível que não haja uma repercussão considerável.</p>
-            <p>A seguir, peço que leiam a introdução e o capítulo subsequente. Neles, expressei exatamente o que penso,
+<p>A seguir, peço que leiam a introdução e o capítulo subsequente. Neles, expressei exatamente o que penso,
                 de forma bastante incisiva.</p>
-            <p>(Leitura dos artigos "Introdução" e "A Medicina Cria a Tuberculose")</p>
-            <p>Como acabaram de ouvir, o ponto central que apresento é que os próprios médicos estão criando a
+<p>(Leitura dos artigos "Introdução" e "A Medicina Cria a Tuberculose")</p>
+<p>Como acabaram de ouvir, o ponto central que apresento é que os próprios médicos estão criando a
                 tuberculose. Imagino que, ao lerem isto, eles ficarão bastante surpresos. Os Estados Unidos, por
                 exemplo, comemoram a redução dos casos de tuberculose, mas o que fizeram foi apenas paralisar a
                 purificação, impedindo que a doença se manifestasse. Com isso, o processo purificador buscou outras
                 vias. É por isso que, recentemente, têm surgido lá diversas doenças malignas, como explico mais adiante
                 no livro. Eles pesquisam cada uma delas, aflitos, sem entender a causa. Ao lerem meu livro, a verdade
                 lhes será revelada.</p>
-            <p>Embora o tempo seja escasso, gostaria de acrescentar algo que lhes servirá de referência...</p>
-            <p>(Leitura do artigo "O Milagre e a Religião")</p>
-        </div>
-    </blockquote>
-</body>
+<p>Embora o tempo seja escasso, gostaria de acrescentar algo que lhes servirá de referência...</p>
+<p>(Leitura do artigo "O Milagre e a Religião")</p>
+</div>
+</blockquote>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年1月6日） 『御教え集』6号、昭和27(1952)年2月25日発行 昭和二十七年一月六日 【御教え】 話をする前にちょっと、今車の中で気のついたことがあるので――あまり、滅多に話をしないことを――ちょっと為になる話と思うので、その話を先にしますが――私はよく映画を見ますが、その時に――アメリカ映画ですね。<br/><br/>その言葉が字幕に書いてありますね、あの言葉が、実に洗練されているんですよ。<br/><br/>日本人の言う言葉よりね。<br/><br/>いつも、私は感心するんですが、それを考えてみると、日本人の言葉がまことに洗練されていないんですね。<br/><br/>だから、信仰者として人に話をする場合も、洗練された言葉を使うように心掛けるんです。<br/><br/>これはある程度実現できるんです。<br/><br/>というのは、洗練されると言いますと、急所を言うんですね。<br/><br/>あまり無駄とか、ずれた事は言わないんです。<br/><br/>実際に事実によく合っている事柄の表現を、上手く言い現すという事ですね。<br/><br/>これは法なんです。<br/><br/>法に適うとか、法があるとかいうのは、言い換えれば道なんです。<br/><br/>道にはずれないように、道に合うようにというのは、それなんです。<br/><br/>これは、ひとり言葉だけではない。<br/><br/>挙動から態度、考え方、行う事が、みんなそれにはずれないようにいくんですね。<br/><br/>たとえて言えば、人の家に行って格子を開けて、玄関に上って挨拶をし、それから部屋に座って、そこの家によって――相手によって、座り方も話の仕方も、やはり違わなければいけない。<br/><br/>話でも、招かれた場合の態度と話もあるし、それから先方に、こっちの都合で行って話をするのと、それから話の内容ですね。<br/><br/>先方に対する言い方から、受け入れさせ方――そういうこともやはり法があって、でたらめではいけないですね。<br/><br/>一番困る事は、自分の言いたい事を言って、先方に喋らせない人がありますが、これがもっともいけないですね、話し上手より聞き上手――で、相手の話を充分聞いてやって、それに応じてこっちが話をする。<br/><br/>そうすると、先方は気持ち良く、話し合える。<br/><br/>それから大勢の話の場合に、人が話をしている時に、口を入れる――ひどいのになると、大きな声で、先方の話を打ち消すようにするんですね。<br/><br/>その代表的なものが、日本の議会ですよ。<br/><br/>喋っていると、打ち消すようにする。<br/><br/>それから、地位のある人の会合ですね。<br/><br/>大きな声で、喋っている人の話を打ち消す――ああいうのは悪いですね。<br/><br/>そういうのは、歩き方にも態度にも、一切法があり道がある。<br/><br/>そうして道も――相手によって色々違わなければならない。<br/><br/>女は女に、年寄りは年寄りに、インテリはインテリらしく、平凡な人は平凡に、と合わしていく。<br/><br/>合っていく――これが応身の働きです。<br/><br/>そういう事がちゃんと――そう理想的にはいきませんがね――中々ね。<br/><br/>幾分でもそういう風に、合っていくと、その人の運命に非常に良くなっていく。<br/><br/>人に好かれないとか、人が賛成しないというのは、相手の罪ばかりではない、こっちにもあるんですよ。<br/><br/>一番ひどい――いけないのは、嘘をつくことでしょうね。<br/><br/>嘘をつくのも、悪意でなく一時的に嘘をつくのがあります。<br/><br/>一時的に嘘をつくと、相手が喜んだり感心したりしますからね。<br/><br/>つい大げさに言ったり、大掛かりに言ったりする。<br/><br/>そうすると、あいつがああ言うんだから、実際はこの位だろうと割引される。<br/><br/>私なんか、割引しますよ。<br/><br/>だから、たまたま本当言っても、割引されちゃって、つまらないですよ。<br/><br/>嘘をつかないんですね。<br/><br/>あの人がああ言うんだから本当だ。<br/><br/>と、その信用が大変なものです。<br/><br/>どうも、人が信用しないとブツブツ言う人がありますが、独りよがりだから、〔他〕人でなく、自分にどこかやり方にいけないところがあるので、それを省みて発見しなければならないですね。<br/><br/>こんな事は、大して問題にする事もない――つまらないような事であるようで、肝腎な事ですね。<br/><br/>それから、愛嬌ですね。<br/><br/>空お世辞なんか言うが、あれもいけないですね。<br/><br/>信用に関わるんです。<br/><br/>あいつはああ言うが、腹の中はどうだか解らない、となる。<br/><br/>一つの臭味がつきますね。<br/><br/>正直に言う事は、少しは先方を非難するような事でも、良くとられるものです。<br/><br/>私なんかも、随分ひどい事をいう事がありますよ。<br/><br/>しかしどっちかというと、先方を気持ち良くさせたいという気持ちで言うから、滑稽（こっけい）に言う。<br/><br/>それで、先方がああといって反省する。<br/><br/>そういうことになると、難しくなりますが、結局相手を気持ち良くさせるという事が肝腎ですね。<br/><br/>だから大勢の場合は、中にはいやな事や変な事を言って一座を白けさせる人がありますが、ああいうのは、ごくいけないですね。<br/><br/>人に快感を与える。<br/><br/>つまり、わざとらしくない――また正直に言うと良いものなんです。<br/><br/>こういう話は滅多に話をしない事ですからね。<br/><br/>一つのお説教的な事ですがね。<br/><br/>しかし、ある事によって気がついたんです。<br/><br/>こういう話も一ぺん話して良いと思ってお話するんです。<br/><br/> それから一、二、三は――正月になってからの日の事ですがね。<br/><br/>教師とか――そういう資格者が多い話ですが――五、六、七は割合新しい人が多いというので、その意味のお話をしようと思ってます。<br/><br/>メシヤ教というのは、本当言うと宗教じゃないんです。<br/><br/>宗教じゃ、ないんでなくて、宗教はメシヤ教の一部になってますね。<br/><br/>というのは、今までの宗教というのは、教えですね。<br/><br/>宗の字というのは、つまり祖先とか先祖とか、またその家の総領とか、つまり中心とか、よく宗家とか宗匠とかいうような意味で、とにかく古い、大きな、支配者的なものですね。<br/><br/>そんなような具合の、その教えですね。<br/><br/>それが宗教ですからね。<br/><br/>教えだからして、どうしてもお説教になるんです。<br/><br/>仏教でも、キリスト教でも、大体お説教が中心になっている。<br/><br/>お説教が主になっている。<br/><br/>ただ、メシヤ教は病気を治す。<br/><br/>病気を治すと言うと、今言う教えじゃないんだからね。<br/><br/>これは救いなんだからね。<br/><br/>それから自然栽培で食糧問題を解決する。<br/><br/>それから、美術を奨励する為に、美術館を造る。<br/><br/>まだ色々あります。<br/><br/> 今『文明の創造』という本を書いてますが、その最後の天国篇というのは、一部は今度の新聞に出しましたがね。<br/><br/>政治に対して――政治というより、むしろ国際関係ですね。<br/><br/>国際関係は政治に関連してますがね。<br/><br/>今度は経済、社会組織、労働問題――そういう風に、段々書いていくんです。<br/><br/>従って宗教というものは、メシヤ教の一部なんです。<br/><br/>それを総合したものをまとめて一つにすれば、良い世界が作れる。<br/><br/>つまり五六七の世界を作る、本当の文明を作る。<br/><br/>そこで『文明の創造』という本を書いた。<br/><br/>それで、ただ――根本は人間の健康なんですから、現在は人間の病気ばかりでなく、世界全体が病人になっている。<br/><br/>共産主義という事は、あれは思想の病気ですね。<br/><br/>精神病じゃない。<br/><br/>精神的病気ですね。<br/><br/>その精神的病気の為に、考え方が取り違った。<br/><br/>健康な考え方じゃない。<br/><br/>病的考え方ですね。<br/><br/>思想が間違っているということは、要するに思想の病気なんです。<br/><br/>それから、不景気だ。<br/><br/>金詰りだ。<br/><br/>物資が足りない。<br/><br/>米が足りない、ということは、つまり農業の病気なんだからね。<br/><br/>それから金詰りということは、経済界の病気なんですね。<br/><br/>そうしてあらゆる病気は、結局人間が中心になってやっているんだから、人間の心と肉体が健全――健康なら、そのやる事が、やはり本当のことになるんですね。<br/><br/>病人がやっている仕事だからして、結局なんでも病気になっちゃうんですね。<br/><br/>だから何よりかにより、人間の病気をなくするという事が根本ですから、それで神様が、病気を治し健康にする、という事を主にしている。<br/><br/>だから、ああいう問題は個人個人が健康になれば、それで解決してしまいます。<br/><br/>あらゆる悩みでも不幸でも、結局人間の病気が根本です。<br/><br/>そこで、病気に一番重きを置いているんです。<br/><br/>色々、病気もありますが、差し当たって日本ですね。<br/><br/>手近な日本としては結核問題ですね。<br/><br/>これが一番厄介な病気です。<br/><br/>厄介なばかりでなく、段々増えている。<br/><br/>で、色々新聞、ラジオで言ってますが、近頃結核が減ったと言ってますが、あれは減ったんじゃなくて、外に出たものを、内に押し込めたんですね。<br/><br/>内向させたんですね。<br/><br/>だから、結核は外に出ただけ良いんです。<br/><br/>内向させると悪いんです。<br/><br/>そういうことは、今読ませますが『結核の信仰療法』という本を作って――今までは信者さんだけに読ませるというような意味でしたが。<br/><br/>今度はそういうことでは追っつかないから、社会的に――医科大学とか政府の大臣連とか国会議員、新聞社、各大病院、結核を扱っている療養所とか――そういう方面にばらまこうと思っている。<br/><br/>それで彼らに対して原子爆弾ですね。<br/><br/>それをぶっつけようと――こういう訳ですね。<br/><br/>この原子爆弾は生命には危険がないから安心ですけれどもね。<br/><br/>今まで思い切って書けなかったけれども、何か問題でも起こりそうな点があったので、なるべくぼかして、柔らかに書いたんです。<br/><br/>だから、先の『明日の医術』だとか『天国の福音』だとか、ああいうものは、思い切って書いてない。<br/><br/>ところがそんな事を言っておられなくなったのと、言論の自由になったので、思い切って書いても、別に問題が起こらないという事が分かりましたので、今度は思い切って――思い切ってと言ったところで、別に大げさに書くわけじゃないんですが、つまりありのままに書いて、それを今言ったように、最初に全国的に読ませるつもりですが、新聞広告なんかもして、呼び覚ます。<br/><br/>呼びかけるんじゃなくて、呼び覚まそうと思っている。<br/><br/>だから、相当センセーションを起こすだろうと思ってます。<br/><br/>どういう風に出るか、そいつは分かりません。<br/><br/>これは一般人も見ますからね。<br/><br/>相当な反響がないはずはないと思います。<br/><br/>それを今、序文とその次を読ませます。<br/><br/>これで、私の言いたい――思っている通りを書いてありますから、かなり思い切って書いてます。<br/><br/> （御論文「序文」「医学が結核を作る」） 今読んだ通り、お医者が結核を作っている、という事を根本的に書いたんです。<br/><br/>これを、お医者さんが読んだら、相当ビックリするだろうと思います。<br/><br/>それで、アメリカなんかが結核が減ったと喜んでいるが、あれがやっぱり浄化停止で、結核だけを起こさないようにしたから、その浄化が他の所に出た。<br/><br/>だから近頃米国なんかでは、悪性の色んな病気が出て来た――この後に書いてありますがね。<br/><br/>一つ一つ研究して苦しんでいるようですがね。<br/><br/>これを見れば解る訳ですね。<br/><br/> 時間がないけれども、ちょっと参考になる事だから―― （御論文「奇跡と宗教」）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
 
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

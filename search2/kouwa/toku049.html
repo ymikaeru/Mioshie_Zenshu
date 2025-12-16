@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>toku049</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 信仰篇（特輯） ４ 049-063 修行要項 049 物の考え方 すべて物の考え方は――考察は徹底していなくてはいけない。<br><br>物事が起っても最悪の場合を考うべきである。<br><br>（S25.12.23以後） 050 本教信仰者の在り方の目標・心掛けの眼目、脅迫信仰（獅子身中の虫）、箴言、時下信仰上についての御注意、「本教によってのみ救わる」言い方、医療否定と他宗誹謗 脅迫信仰は強盗に等しき行為である。<br><br>信仰は、難病が治癒するとか一家が平和となって有難いという場合信仰するのが本当である。<br><br>脅迫信仰は必ず離れる。<br><br> 観音会の人が特別に助かるという事はない。<br><br>何宗の人でも善い人は助かる。<br><br>善徳を積んだ罪の少い人は必ず助かる。<br><br>ただ観音会へ入ると、人を助け徳を施す方法と力が観音会は非常にある。<br><br>他宗で十年かかるのが一年で出来るだけの違いさはある。<br><br> 観音会で間違った事をすればよけいに滅び易い。<br><br> 他宗の誹謗はいけない。<br><br>効能を述べる事となる。<br><br>誰も気持悪くせぬような話をする。<br><br>新しい信者の前でもそうである。<br><br>古い信者の前では差支えない。<br><br>それを智慧証覚によって適切に判断すべきである。<br><br> 医療を否定すると占領政策に反する事となる。<br><br>医療を否定するのはまずい。<br><br>先方が悪く言っても意趣返しせぬ方がよろしい。<br><br> 観音会を潰さんとする邪神は、獅子身中の虫である。<br><br> 大きくなるとちょっとした事が目立つ。<br><br>いずれは他宗教が邪魔する事となるから、どこからみても一点の非難の余地なきようせねばならぬ。<br><br> 追放になった因は、有名人の言動は社会的に影響が大なるが故にやられた。<br><br>有名ならざるごとく心掛くべきである。<br><br> 信仰は何を信仰しているか判らぬが立派な人だという風にアク抜けるのでなくてはならぬ。<br><br>アクが抜けるのである。<br><br>鼻の先へ信仰をブラ下げるのは極くわるい。<br><br> すべてチャンスをつかんでやればよい。<br><br>求めに応ずべし。<br><br>先方にいい気持にさす。<br><br>叡智である。<br><br>一生懸命にしても信者が出来ぬのがあり、焦らずにうまくゆくのとある。<br><br> 他宗に触るるなかれ――。<br><br> 寺崎事務官――通訳――。<br><br> rattail（注） 天皇とマッカーサーの通訳担当官。<br><br>外交官、寺崎英成氏のことか？ 051 医学否定に関する御戒告、「服薬治病不可説」医学到達主唱すべし 医薬否定の注意――進駐軍関係もあり――病気につき――厚生省も始終問合せがくる。<br><br> 注射後お浄めをすればよい。<br><br> 夜の期間では溶解放出が困難であった。<br><br>それで薬で止めた。<br><br>これは夜の期間における暫定的処置であった。<br><br>観音も薬師如来となられた。<br><br>東方薬師如来、西方阿弥陀如来といい、薬草喩品の経もある。<br><br>薬でなければ固まらなかったのである。<br><br>盤古神王――神農とす。<br><br> 今度は解消して出す。<br><br>固まり難くなるから、いずれ医学の方で「薬で治病するのは間違っている」という説が出てくる。<br><br> 自分の服まぬのは自由であり、他人に言うのは犯罪となる。<br><br> これは、医学が気づくのが本当である。<br><br>（S23か） 052 使い途になる人間になるには、脅迫信仰は不可――曲解的宣伝、入信の本義 使い途になる人間になる事で、それには本当の信仰をする。<br><br>そして霊的に浄まる事である。<br><br> 入信した人は実に運がよい。<br><br> 救世教へ入らぬと滅ぶ――という風な曲解的宣伝は極めて警戒せねばならぬ。<br><br>これは専売特許ではない。<br><br>ただ一番力が強いのである。<br><br> 「怖さ故の改心はホンマモノでないぞよ」とお筆先にあるが脅迫信仰はいけない。<br><br>一つの刑罰によって信仰する――という事になる。<br><br> 立派な人間になる――これが本当である。<br><br>（S25） 053 人を裁く事 とかく他人に迷惑をかけ、中々言い付けを守らない人を、つい感情に走り「彼奴は馬鹿だ」とか「悪魔だ」とか言うのは裁くと言う事になり、罪を構成しましょうか。<br><br> 自分が馬鹿である。<br><br>神の権限を犯すのは罪になる。<br><br>（S25. 3. 3） 054 咎める事 何か間違った事をした人に「なぜしたか」と言うのは咎める事になりましょうか。<br><br> 人を咎めるのは全部いけない。<br><br>限界などを考えるべきではない。<br><br>ちょっとは言うのはいい。<br><br>（教えるのである） 人間は全部咎められる方である。<br><br>咎めるのは自分が偉いと思うからである。<br><br>むしろ咎める方が下かもしれない。<br><br> 055 忠告する事 それは悪いことだからこうしなさい、と注意するのは宜しいでしょうか？ これは咎める事にはならぬ。<br><br>アッサリ注意するのは構わぬ。<br><br>（S25. 3. 3） 056 悪を憎む事と我、正直、（観山亭と東横問題、大本教脱退）怒り、新形式の経典の説き方 悪を憎む――憎むのは感情だからよいが、行為に表わしてはいけない。<br><br>憎むのはいけないが、その気持は起る。<br><br>ある程度で制えるとかなくするという事である。<br><br> 我がなくてはいけない。<br><br>「我があって我を出さないのがよいのであるぞよ」とある。<br><br>我を出すと失敗する。<br><br>故に出さぬのがよい。<br><br> 怨み憎みは出来るだけ早く忘れた方がよい、自分に返ってくる。<br><br>私など若い時はあったが、段々その感情がなくなった。<br><br>その時非常に憎く思い、太い奴と思っても、後になると非常に善い事したと感謝するような事もよくある。<br><br> 観山亭の資材もそうである。<br><br>富士見亭の隣へ建てるのを五島が止めた。<br><br>それで十五坪位の大きさの資材が間に合った。<br><br>五島は不必要な嫌がらせをしたが、彼は大した仕事をした。<br><br>今はこちらで詫びたい気持さえする。<br><br> 大本教の時、非常にヤッカミ、私を目の仇と迫害した。<br><br>それで脱退した。<br><br>それを“真如の光”にデカデカと出した。<br><br>そのため十年十二月八日の弾圧にも巻き添えを食はなかった。<br><br>でなかったら、私は木村、田口と比肩した位だから大変だった。<br><br>全く離反した事が――。<br><br> 怒る事を我慢出来なくては修行が出来たと言えぬ。<br><br>そのためにも怒らせる人がなくてはならない。<br><br>それは有難い事だ。<br><br>私は悪口を言われるのがおかしい。<br><br>人間にはおかしな人があり、人を怒らしたり興奮などするのを非常に面白がる人がある。<br><br>それ故なおさら興奮しない。<br><br> 嘘吐くのもいる。<br><br>日本人は特にそうである。<br><br>私は二十五歳の時独立して商売を始めた。<br><br>その創める前「お前なんか成功するか」と言う。<br><br>「きっと成功する」と言うと、「世の中で成功するのは皆三角流で行かなくてはならぬ」と言う。<br><br>それで、最初はいろいろ手段を使ったが、うまく行かず、正直にやったらうまくゆくし、信用された。<br><br>絶対正直に言えない事があり、止むを得ず嘘をいうと、それをまた信用する。<br><br> 正直が一番いい。<br><br>それを決して駆引きなく書いた。<br><br> アメリカがそうで――。<br><br> 政治でも何でも、どこまでも本人の納得する事でなくては決して言う事を聞かず、結果が悪い。<br><br>表面聞いてもいつかは必ず背く。<br><br> 既成宗教は非常に嘘が多い。<br><br>仏典でも聖書でもはっきりせぬ。<br><br>二つにも三つにも解釈出来るようにしか書かぬ。<br><br>そういう書き方をせぬのが新形式である。<br><br>（S23. 8. 4） rattail（注） 真如の光、当時の大本教の教内機関紙 057 憤慨の真理、巧妙な副守、愛と人の善悪 (一)、人間は青年期において壮年期にある者の言動を見聞きして青年特有の潔癖に照らして憤慨する事がありますが、この場合の本守護神の状態を御伺い申し上げます。<br><br> (二)、右の反対に壮年期にある者が青年特有の道徳上の潔癖を冷笑する場面をよく身受けますが、この場合の壮年者の本霊及び副霊の状態を御伺い申し上げます。<br><br> (一)、憤慨するのは副守護神で、世界の事、人類の事等を憤慨するのは本守護神である。<br><br> 個人的な小さい事を憤慨するのは悪の方で、小乗の善であるから間違っている。<br><br>人間は個人的に憤慨するなら、自分の言動を憤慨すべきである。<br><br>人間はそんな憤慨するのは間違っている。<br><br> 神様はそんな事はお嫌いで、神には全人類に対する事で、個人的怒りはない。<br><br>（故に人間のそんな憤慨は結果において碌な事はない） 人間は他人に対し怒る事も咎める事も出来ぬ。<br><br>自分をみれば人を怒ったり悪く思ったりは出来ない。<br><br> (二)、これも副守護神で、副守の巧妙なのは善の仮面を被る。<br><br>共産主義などそうで、邪霊がそれを善と思わせるのである。<br><br>そういう人は愛が足りない。<br><br>愛を通して物をみれば、憎むものも咎むるものもない。<br><br> 善は利他的観念、他人をよくする。<br><br>人良かれという事。<br><br>これは大乗も小乗もない。<br><br>他人良かれの人が集まればよい。<br><br>自分を善く見、他人を悪く見る観念から争いが起る。<br><br>神は愛なり、力なりで、愛をもってみれば人を咎める事はない。<br><br>人を善とか悪とか決めるのは僣越である。<br><br>人間が人間を見て分るものではない。<br><br>常識でみれば大体判るが、本当の事は判らぬ。<br><br>これは神の領分である。<br><br>要は人間が人間を裁く事は出来ぬ。<br><br>キリストは姦淫の罪を決めたが、これは自分自身がその気持があるからである。<br><br> これは作り話かもしれぬが、ある若い女が名僧の弟子になり、ある時イキナリ齧りついて試そうとした。<br><br>「私が齧りついたらあなたはどんな気持か」と質ねると「何ともない」（枯木寒厳之冬暖気なし）と答えた。<br><br>何の感じもしないというのは嘘で、実際は変な気持がした筈である。<br><br> 姦淫は許すべからざるものであるから制えた――と言うのなら本当である。<br><br> 058 修行の眼目、（怒らぬは本当でない） 神様の修行は山籠りや断食などではない。<br><br>怒るのを制える事――これが修行である。<br><br> 怒りたい時は修行と思うと楽になる。<br><br>怒らないのは本当のものじゃない。<br><br>怒るのも神の与えた感情であるから無くてはならぬ。<br><br>それを制える事に値打がある。<br><br>（S25） 059 怒る事多い理由 私は生来短気なので、それに修行も出来ていず、人一倍怒りっぽい性なのかも知れませんが、何かかにか絶えず怒らなければおられない事が出来てきます。<br><br>私のやり方が間違っているからと反省しても、中々反省して自分を慰めきれぬ時もあります。<br><br>これは私のやり方にまだまだ誠が足りないと神様が御訓（さと）し下されているものでしょうか。<br><br>それとも邪神が仕事を妨害しようとでもするのでしょうか。<br><br>爆発をして心を晴らすのと、堪忍するのといずれが勝利者になれましょうか。<br><br> 神様が修行をさせるので、怒るのを我慢するのが一番の修行である。<br><br>神様は一日のうちでも次々怒らす。<br><br>が、決して爆発さしてはいけない。<br><br>でないといつまでも続くであろう。<br><br> 怒らないような人間も駄目だし、怒る人間でも駄目である。<br><br>使命の大きい程怒る事も大きい。<br><br>怒っても我慢出来る人でなくてはいけない。<br><br> 怒る事があっても一方に大きい倖せを戴ける。<br><br>神様が邪神に邪魔をさせる。<br><br>邪神を働かさせるが、邪神のためにお蔭をもらう事はよくある。<br><br>段々よくなる。<br><br>気永に時節を待つのがよい。<br><br>焦るのはすでに地獄へ落つる。<br><br> 人間の智慧などは駄目で、人間は常識で考えてやればよい。<br><br>焦っては苦しくなる。<br><br>苦しみの元は執着である。<br><br> 060 神光の強弱と信仰想念、（霊界の曇りと虫発生）、勝つ勿れ、（悪口と罪）、殺人被害の真因 私の家の勝手や井戸端付近、なめくじや油虫がこの頃夜になると非常に沢山出て来ます。<br><br>いかなる訳でしょう。<br><br>霊的の原因御垂示戴きとうございます。<br><br> その辺の霊界が曇っているから、虫などが湧き易い。<br><br>霊界が綺麗ならこんなものは湧かぬ。<br><br>外へ湧く。<br><br>霊界が汚い。<br><br> どうすればよいか――というと、そこの家から光が強く出ると霊界が浄まる。<br><br>余計出るようにするには、光明如来様をお祭りして徳を施す。<br><br> お祭りして光が強くなったり弱かったりするのは――熱心に人間が拝むほど神様の光は強くなる。<br><br> 仮に下にお祭りすると、神様の光は出ぬ。<br><br>また、他の神と同列にすると光が薄くなる。<br><br>徳を施すと共に熱心に拝む事である。<br><br>また、大勢が拝むと違う。<br><br> 霊界は人間の想念でいろいろ違う。<br><br>あるものへ大勢が拝むと想念によりそこへ神様が出来る。<br><br>想念により形が作られる。<br><br>（邪魔者もある程度まで？） 悪い想念――大勢の怨みが集まると、悪魔のような恐ろしいもののような形が霊界に出来、周りを取巻く。<br><br>その人の霊は萎縮してどうにもならぬ。<br><br>少し位信仰しても御守護がゆかぬ。<br><br>そういう時、大勢の殺したい想念が代表して、選ばれて殺す。<br><br>今の強盗等はそうである。<br><br> 日本の国は、ゴミ捨て場のごとくで、そこへ蛆が沸く。<br><br>即ち殺人強盗のごときはそれである。<br><br> これは大乗の見方であるから、あまり言えない、説けない。<br><br>故に小乗に説く。<br><br>ただ知ってる事は必要である。<br><br> 悪口を言われた方はそれだけ罪が除れ、言った方は罪が殖える。<br><br> 故に何かやっても勝ってはいけない。<br><br>負けた方が罪がとれ、勝った方は殖える。<br><br>であるから、勝って天下を取ったのは駄目である。<br><br> 大乗的にみれば腹は立たぬ。<br><br> 仏を祀るだけではいけない。<br><br> 061 悪と戦う事、最後の勝利 悪と戦うという事と悪に負けないという事はいかなる心得を堅持しておれば間違いはないでしょうか。<br><br> 悪と闘うというが、戦わぬ方がよい。<br><br>一時は負けても最後に勝てばよい。<br><br>時を待つ。<br><br>（S25. 3. 3） 062 正を主張する態度、（口論と説明） 自分が正しい立場にあっても争いを好まぬ性質から自重して時期を待つ心と、正しい事は相手と口論してもその正否を決めねば収まらない心とはいずれをとるべきでしょうか。<br><br> 口論は不可である。<br><br>争いはいけない。<br><br>説明は差支えない。<br><br>そして判らなければ時を待つ。<br><br> 063 光が強いと霊衣が大きくなる―誠強まる、気持よくさすが肝要―身魂向上、身魂の高下と人格の差の一致、多くの人導く根本 身魂の高低と人格の差とは一致しているものでしょうか。<br><br>また、身魂の高い人程多くの人を導く事が出来るものでしょうか。<br><br>御伺い致します。<br><br> 人格の高いのは身魂も高い。<br><br>一致している。<br><br>多くの人を導く――無論そうである。<br><br> 求心的に人を引きつける働きが出る。<br><br> 大きさとは霊衣の光によるので、光が強いと霊衣が大きくなる。<br><br>それでその人の霊衣の範囲へ入ると気持が好いから、接近したくなる。<br><br> 気持よくさすのが一番肝腎である。<br><br>それには身魂が高くなる事である。<br><br> 曇りが減って光が増す。<br><br>そうすると誠が強くなる。<br><br>すると人が寄るし、信者も出来る。<br><br> 大乗的考えもなくてはならぬ。<br><br>世界大に大きくするのである。<br><br>（S25. 5. 7）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>049 O Modo de Pensar</h2>
 <p>Todo raciocínio — toda ponderação — deve ser levado às últimas consequências. Diante de qualquer acontecimento, cumpre-nos considerar a pior das hipóteses.</p>
@@ -187,5 +339,48 @@ function toggleLang(lang) {
 <p>Proporcionar bem-estar é o ponto mais crucial. Para isso, é necessário elevar o nível da alma.</p>
 <p>À medida que as nuvens espirituais diminuem, a luz aumenta. Com isso, a sinceridade se fortalece. Consequentemente, as pessoas se aproximam e o número de fiéis cresce.</p>
 <p>É preciso também ter um pensamento do Grande Veículo, ou seja, pensar em uma escala mundial, grandiosa.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 信仰篇（特輯） ４ 049-063 修行要項 049 物の考え方 すべて物の考え方は――考察は徹底していなくてはいけない。<br/><br/>物事が起っても最悪の場合を考うべきである。<br/><br/>（S25.12.23以後） 050 本教信仰者の在り方の目標・心掛けの眼目、脅迫信仰（獅子身中の虫）、箴言、時下信仰上についての御注意、「本教によってのみ救わる」言い方、医療否定と他宗誹謗 脅迫信仰は強盗に等しき行為である。<br/><br/>信仰は、難病が治癒するとか一家が平和となって有難いという場合信仰するのが本当である。<br/><br/>脅迫信仰は必ず離れる。<br/><br/> 観音会の人が特別に助かるという事はない。<br/><br/>何宗の人でも善い人は助かる。<br/><br/>善徳を積んだ罪の少い人は必ず助かる。<br/><br/>ただ観音会へ入ると、人を助け徳を施す方法と力が観音会は非常にある。<br/><br/>他宗で十年かかるのが一年で出来るだけの違いさはある。<br/><br/> 観音会で間違った事をすればよけいに滅び易い。<br/><br/> 他宗の誹謗はいけない。<br/><br/>効能を述べる事となる。<br/><br/>誰も気持悪くせぬような話をする。<br/><br/>新しい信者の前でもそうである。<br/><br/>古い信者の前では差支えない。<br/><br/>それを智慧証覚によって適切に判断すべきである。<br/><br/> 医療を否定すると占領政策に反する事となる。<br/><br/>医療を否定するのはまずい。<br/><br/>先方が悪く言っても意趣返しせぬ方がよろしい。<br/><br/> 観音会を潰さんとする邪神は、獅子身中の虫である。<br/><br/> 大きくなるとちょっとした事が目立つ。<br/><br/>いずれは他宗教が邪魔する事となるから、どこからみても一点の非難の余地なきようせねばならぬ。<br/><br/> 追放になった因は、有名人の言動は社会的に影響が大なるが故にやられた。<br/><br/>有名ならざるごとく心掛くべきである。<br/><br/> 信仰は何を信仰しているか判らぬが立派な人だという風にアク抜けるのでなくてはならぬ。<br/><br/>アクが抜けるのである。<br/><br/>鼻の先へ信仰をブラ下げるのは極くわるい。<br/><br/> すべてチャンスをつかんでやればよい。<br/><br/>求めに応ずべし。<br/><br/>先方にいい気持にさす。<br/><br/>叡智である。<br/><br/>一生懸命にしても信者が出来ぬのがあり、焦らずにうまくゆくのとある。<br/><br/> 他宗に触るるなかれ――。<br/><br/> 寺崎事務官――通訳――。<br/><br/> rattail（注） 天皇とマッカーサーの通訳担当官。<br/><br/>外交官、寺崎英成氏のことか？ 051 医学否定に関する御戒告、「服薬治病不可説」医学到達主唱すべし 医薬否定の注意――進駐軍関係もあり――病気につき――厚生省も始終問合せがくる。<br/><br/> 注射後お浄めをすればよい。<br/><br/> 夜の期間では溶解放出が困難であった。<br/><br/>それで薬で止めた。<br/><br/>これは夜の期間における暫定的処置であった。<br/><br/>観音も薬師如来となられた。<br/><br/>東方薬師如来、西方阿弥陀如来といい、薬草喩品の経もある。<br/><br/>薬でなければ固まらなかったのである。<br/><br/>盤古神王――神農とす。<br/><br/> 今度は解消して出す。<br/><br/>固まり難くなるから、いずれ医学の方で「薬で治病するのは間違っている」という説が出てくる。<br/><br/> 自分の服まぬのは自由であり、他人に言うのは犯罪となる。<br/><br/> これは、医学が気づくのが本当である。<br/><br/>（S23か） 052 使い途になる人間になるには、脅迫信仰は不可――曲解的宣伝、入信の本義 使い途になる人間になる事で、それには本当の信仰をする。<br/><br/>そして霊的に浄まる事である。<br/><br/> 入信した人は実に運がよい。<br/><br/> 救世教へ入らぬと滅ぶ――という風な曲解的宣伝は極めて警戒せねばならぬ。<br/><br/>これは専売特許ではない。<br/><br/>ただ一番力が強いのである。<br/><br/> 「怖さ故の改心はホンマモノでないぞよ」とお筆先にあるが脅迫信仰はいけない。<br/><br/>一つの刑罰によって信仰する――という事になる。<br/><br/> 立派な人間になる――これが本当である。<br/><br/>（S25） 053 人を裁く事 とかく他人に迷惑をかけ、中々言い付けを守らない人を、つい感情に走り「彼奴は馬鹿だ」とか「悪魔だ」とか言うのは裁くと言う事になり、罪を構成しましょうか。<br/><br/> 自分が馬鹿である。<br/><br/>神の権限を犯すのは罪になる。<br/><br/>（S25. 3. 3） 054 咎める事 何か間違った事をした人に「なぜしたか」と言うのは咎める事になりましょうか。<br/><br/> 人を咎めるのは全部いけない。<br/><br/>限界などを考えるべきではない。<br/><br/>ちょっとは言うのはいい。<br/><br/>（教えるのである） 人間は全部咎められる方である。<br/><br/>咎めるのは自分が偉いと思うからである。<br/><br/>むしろ咎める方が下かもしれない。<br/><br/> 055 忠告する事 それは悪いことだからこうしなさい、と注意するのは宜しいでしょうか？ これは咎める事にはならぬ。<br/><br/>アッサリ注意するのは構わぬ。<br/><br/>（S25. 3. 3） 056 悪を憎む事と我、正直、（観山亭と東横問題、大本教脱退）怒り、新形式の経典の説き方 悪を憎む――憎むのは感情だからよいが、行為に表わしてはいけない。<br/><br/>憎むのはいけないが、その気持は起る。<br/><br/>ある程度で制えるとかなくするという事である。<br/><br/> 我がなくてはいけない。<br/><br/>「我があって我を出さないのがよいのであるぞよ」とある。<br/><br/>我を出すと失敗する。<br/><br/>故に出さぬのがよい。<br/><br/> 怨み憎みは出来るだけ早く忘れた方がよい、自分に返ってくる。<br/><br/>私など若い時はあったが、段々その感情がなくなった。<br/><br/>その時非常に憎く思い、太い奴と思っても、後になると非常に善い事したと感謝するような事もよくある。<br/><br/> 観山亭の資材もそうである。<br/><br/>富士見亭の隣へ建てるのを五島が止めた。<br/><br/>それで十五坪位の大きさの資材が間に合った。<br/><br/>五島は不必要な嫌がらせをしたが、彼は大した仕事をした。<br/><br/>今はこちらで詫びたい気持さえする。<br/><br/> 大本教の時、非常にヤッカミ、私を目の仇と迫害した。<br/><br/>それで脱退した。<br/><br/>それを“真如の光”にデカデカと出した。<br/><br/>そのため十年十二月八日の弾圧にも巻き添えを食はなかった。<br/><br/>でなかったら、私は木村、田口と比肩した位だから大変だった。<br/><br/>全く離反した事が――。<br/><br/> 怒る事を我慢出来なくては修行が出来たと言えぬ。<br/><br/>そのためにも怒らせる人がなくてはならない。<br/><br/>それは有難い事だ。<br/><br/>私は悪口を言われるのがおかしい。<br/><br/>人間にはおかしな人があり、人を怒らしたり興奮などするのを非常に面白がる人がある。<br/><br/>それ故なおさら興奮しない。<br/><br/> 嘘吐くのもいる。<br/><br/>日本人は特にそうである。<br/><br/>私は二十五歳の時独立して商売を始めた。<br/><br/>その創める前「お前なんか成功するか」と言う。<br/><br/>「きっと成功する」と言うと、「世の中で成功するのは皆三角流で行かなくてはならぬ」と言う。<br/><br/>それで、最初はいろいろ手段を使ったが、うまく行かず、正直にやったらうまくゆくし、信用された。<br/><br/>絶対正直に言えない事があり、止むを得ず嘘をいうと、それをまた信用する。<br/><br/> 正直が一番いい。<br/><br/>それを決して駆引きなく書いた。<br/><br/> アメリカがそうで――。<br/><br/> 政治でも何でも、どこまでも本人の納得する事でなくては決して言う事を聞かず、結果が悪い。<br/><br/>表面聞いてもいつかは必ず背く。<br/><br/> 既成宗教は非常に嘘が多い。<br/><br/>仏典でも聖書でもはっきりせぬ。<br/><br/>二つにも三つにも解釈出来るようにしか書かぬ。<br/><br/>そういう書き方をせぬのが新形式である。<br/><br/>（S23. 8. 4） rattail（注） 真如の光、当時の大本教の教内機関紙 057 憤慨の真理、巧妙な副守、愛と人の善悪 (一)、人間は青年期において壮年期にある者の言動を見聞きして青年特有の潔癖に照らして憤慨する事がありますが、この場合の本守護神の状態を御伺い申し上げます。<br/><br/> (二)、右の反対に壮年期にある者が青年特有の道徳上の潔癖を冷笑する場面をよく身受けますが、この場合の壮年者の本霊及び副霊の状態を御伺い申し上げます。<br/><br/> (一)、憤慨するのは副守護神で、世界の事、人類の事等を憤慨するのは本守護神である。<br/><br/> 個人的な小さい事を憤慨するのは悪の方で、小乗の善であるから間違っている。<br/><br/>人間は個人的に憤慨するなら、自分の言動を憤慨すべきである。<br/><br/>人間はそんな憤慨するのは間違っている。<br/><br/> 神様はそんな事はお嫌いで、神には全人類に対する事で、個人的怒りはない。<br/><br/>（故に人間のそんな憤慨は結果において碌な事はない） 人間は他人に対し怒る事も咎める事も出来ぬ。<br/><br/>自分をみれば人を怒ったり悪く思ったりは出来ない。<br/><br/> (二)、これも副守護神で、副守の巧妙なのは善の仮面を被る。<br/><br/>共産主義などそうで、邪霊がそれを善と思わせるのである。<br/><br/>そういう人は愛が足りない。<br/><br/>愛を通して物をみれば、憎むものも咎むるものもない。<br/><br/> 善は利他的観念、他人をよくする。<br/><br/>人良かれという事。<br/><br/>これは大乗も小乗もない。<br/><br/>他人良かれの人が集まればよい。<br/><br/>自分を善く見、他人を悪く見る観念から争いが起る。<br/><br/>神は愛なり、力なりで、愛をもってみれば人を咎める事はない。<br/><br/>人を善とか悪とか決めるのは僣越である。<br/><br/>人間が人間を見て分るものではない。<br/><br/>常識でみれば大体判るが、本当の事は判らぬ。<br/><br/>これは神の領分である。<br/><br/>要は人間が人間を裁く事は出来ぬ。<br/><br/>キリストは姦淫の罪を決めたが、これは自分自身がその気持があるからである。<br/><br/> これは作り話かもしれぬが、ある若い女が名僧の弟子になり、ある時イキナリ齧りついて試そうとした。<br/><br/>「私が齧りついたらあなたはどんな気持か」と質ねると「何ともない」（枯木寒厳之冬暖気なし）と答えた。<br/><br/>何の感じもしないというのは嘘で、実際は変な気持がした筈である。<br/><br/> 姦淫は許すべからざるものであるから制えた――と言うのなら本当である。<br/><br/> 058 修行の眼目、（怒らぬは本当でない） 神様の修行は山籠りや断食などではない。<br/><br/>怒るのを制える事――これが修行である。<br/><br/> 怒りたい時は修行と思うと楽になる。<br/><br/>怒らないのは本当のものじゃない。<br/><br/>怒るのも神の与えた感情であるから無くてはならぬ。<br/><br/>それを制える事に値打がある。<br/><br/>（S25） 059 怒る事多い理由 私は生来短気なので、それに修行も出来ていず、人一倍怒りっぽい性なのかも知れませんが、何かかにか絶えず怒らなければおられない事が出来てきます。<br/><br/>私のやり方が間違っているからと反省しても、中々反省して自分を慰めきれぬ時もあります。<br/><br/>これは私のやり方にまだまだ誠が足りないと神様が御訓（さと）し下されているものでしょうか。<br/><br/>それとも邪神が仕事を妨害しようとでもするのでしょうか。<br/><br/>爆発をして心を晴らすのと、堪忍するのといずれが勝利者になれましょうか。<br/><br/> 神様が修行をさせるので、怒るのを我慢するのが一番の修行である。<br/><br/>神様は一日のうちでも次々怒らす。<br/><br/>が、決して爆発さしてはいけない。<br/><br/>でないといつまでも続くであろう。<br/><br/> 怒らないような人間も駄目だし、怒る人間でも駄目である。<br/><br/>使命の大きい程怒る事も大きい。<br/><br/>怒っても我慢出来る人でなくてはいけない。<br/><br/> 怒る事があっても一方に大きい倖せを戴ける。<br/><br/>神様が邪神に邪魔をさせる。<br/><br/>邪神を働かさせるが、邪神のためにお蔭をもらう事はよくある。<br/><br/>段々よくなる。<br/><br/>気永に時節を待つのがよい。<br/><br/>焦るのはすでに地獄へ落つる。<br/><br/> 人間の智慧などは駄目で、人間は常識で考えてやればよい。<br/><br/>焦っては苦しくなる。<br/><br/>苦しみの元は執着である。<br/><br/> 060 神光の強弱と信仰想念、（霊界の曇りと虫発生）、勝つ勿れ、（悪口と罪）、殺人被害の真因 私の家の勝手や井戸端付近、なめくじや油虫がこの頃夜になると非常に沢山出て来ます。<br/><br/>いかなる訳でしょう。<br/><br/>霊的の原因御垂示戴きとうございます。<br/><br/> その辺の霊界が曇っているから、虫などが湧き易い。<br/><br/>霊界が綺麗ならこんなものは湧かぬ。<br/><br/>外へ湧く。<br/><br/>霊界が汚い。<br/><br/> どうすればよいか――というと、そこの家から光が強く出ると霊界が浄まる。<br/><br/>余計出るようにするには、光明如来様をお祭りして徳を施す。<br/><br/> お祭りして光が強くなったり弱かったりするのは――熱心に人間が拝むほど神様の光は強くなる。<br/><br/> 仮に下にお祭りすると、神様の光は出ぬ。<br/><br/>また、他の神と同列にすると光が薄くなる。<br/><br/>徳を施すと共に熱心に拝む事である。<br/><br/>また、大勢が拝むと違う。<br/><br/> 霊界は人間の想念でいろいろ違う。<br/><br/>あるものへ大勢が拝むと想念によりそこへ神様が出来る。<br/><br/>想念により形が作られる。<br/><br/>（邪魔者もある程度まで？） 悪い想念――大勢の怨みが集まると、悪魔のような恐ろしいもののような形が霊界に出来、周りを取巻く。<br/><br/>その人の霊は萎縮してどうにもならぬ。<br/><br/>少し位信仰しても御守護がゆかぬ。<br/><br/>そういう時、大勢の殺したい想念が代表して、選ばれて殺す。<br/><br/>今の強盗等はそうである。<br/><br/> 日本の国は、ゴミ捨て場のごとくで、そこへ蛆が沸く。<br/><br/>即ち殺人強盗のごときはそれである。<br/><br/> これは大乗の見方であるから、あまり言えない、説けない。<br/><br/>故に小乗に説く。<br/><br/>ただ知ってる事は必要である。<br/><br/> 悪口を言われた方はそれだけ罪が除れ、言った方は罪が殖える。<br/><br/> 故に何かやっても勝ってはいけない。<br/><br/>負けた方が罪がとれ、勝った方は殖える。<br/><br/>であるから、勝って天下を取ったのは駄目である。<br/><br/> 大乗的にみれば腹は立たぬ。<br/><br/> 仏を祀るだけではいけない。<br/><br/> 061 悪と戦う事、最後の勝利 悪と戦うという事と悪に負けないという事はいかなる心得を堅持しておれば間違いはないでしょうか。<br/><br/> 悪と闘うというが、戦わぬ方がよい。<br/><br/>一時は負けても最後に勝てばよい。<br/><br/>時を待つ。<br/><br/>（S25. 3. 3） 062 正を主張する態度、（口論と説明） 自分が正しい立場にあっても争いを好まぬ性質から自重して時期を待つ心と、正しい事は相手と口論してもその正否を決めねば収まらない心とはいずれをとるべきでしょうか。<br/><br/> 口論は不可である。<br/><br/>争いはいけない。<br/><br/>説明は差支えない。<br/><br/>そして判らなければ時を待つ。<br/><br/> 063 光が強いと霊衣が大きくなる―誠強まる、気持よくさすが肝要―身魂向上、身魂の高下と人格の差の一致、多くの人導く根本 身魂の高低と人格の差とは一致しているものでしょうか。<br/><br/>また、身魂の高い人程多くの人を導く事が出来るものでしょうか。<br/><br/>御伺い致します。<br/><br/> 人格の高いのは身魂も高い。<br/><br/>一致している。<br/><br/>多くの人を導く――無論そうである。<br/><br/> 求心的に人を引きつける働きが出る。<br/><br/> 大きさとは霊衣の光によるので、光が強いと霊衣が大きくなる。<br/><br/>それでその人の霊衣の範囲へ入ると気持が好いから、接近したくなる。<br/><br/> 気持よくさすのが一番肝腎である。<br/><br/>それには身魂が高くなる事である。<br/><br/> 曇りが減って光が増す。<br/><br/>そうすると誠が強くなる。<br/><br/>すると人が寄るし、信者も出来る。<br/><br/> 大乗的考えもなくてはならぬ。<br/><br/>世界大に大きくするのである。<br/><br/>（S25. 5. 7）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

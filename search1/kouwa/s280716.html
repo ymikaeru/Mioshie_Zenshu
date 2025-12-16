@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s280716</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年7月16日） 『御教え集』24号、昭和28(1953)年8月15日発行 昭和二十八年七月十六日 浄霊の原理を分からせるために、黴菌から説くと一番分かりよいのです。<br><br>つまり霊の曇りというものは、黴菌の元ですから、黴菌の元というものをだんだん細かく考えるとよく分かります。<br><br>それを簡単に書きました。<br><br> （御論文『医学革命の書』「科学で病気は治らない」） 今の医学というものは顕微鏡医学です。<br><br>顕微鏡で微生物を発見し、それによって医学の一種の革命的のものになったわけです。<br><br>ところが微生物というものはどこまでも小さいのです。<br><br>私は昔から「黴菌というのは大きな物だ、大粒な物だ」とよく言いましたが、今顕微鏡で一生懸命になっているのは大粒の物で、まだまだ小さな物があります。<br><br>本当から言うと無限なので、教えられないものです。<br><br>ですから顕微鏡がこれから進歩して、今の二十万倍から三十万倍、五十万倍となるでしょうが、そういうことはごく手前のことです。<br><br>本当は無限なのです。<br><br>というのは、世界というものを考えてみると、大きく言えば大空がどこまで行っても限りがないのと同じなのです。<br><br>だから「至大無外（しだいそとなし）、至小無内（ししょううちなし）」という言葉がありますが、小さいのも無限なのです。<br><br>それが真理ですから、そう考えてみれば、顕微鏡などというのは、他のことには役に立ちますが、人間の生命を扱うべき病気に対しては、なんにもなりません。<br><br>なんとなれば無限を見ようとしてもそれはできないことです。<br><br>ちょうど大空の壁を見ようとするのと同じようなものです。<br><br>大空に塀がありやしないかと思って見るようなものです。<br><br>医学が顕微鏡を捨てるようになれば、少しは進歩するのですが、それをなんにもならない顕微鏡にこだわって、それをたいしたものと思ってますから、今読んだとおり滑稽なものです。<br><br>そこで、黴菌は粒子ですが、何億万倍、何十億万倍と、どこまで行っても分からないくらいなものですから無限ですが、その無限なるもの、一つの気体みたいなもので、空気は割に粗いものですが、空気よりもっと細かいもので、霊気です。<br><br>それで霊気というものは無限なものです。<br><br>そこで無限の病菌というものは、曇りで、悪いもので、毒素ですが、無限な毒素です。<br><br>そうするとこっちでそれを治すということは、ここ（掌）から出るやはり無限なる力をもっているもので焼くのです。<br><br>昨夜読んだお蔭話の中に、レントゲンがどうしても写らないのです。<br><br>空洞かなにかがあった人ですが、それがはっきりしないと勤務に困るので、はっきり写してもらおうと思って御守りをとって写してもらったらはっきり写ったのです。<br><br>御守りをかけている間はいくどやっても駄目なのです。<br><br>そうすると御守りから出る光はレントゲンより強いわけです。<br><br>この前にもそういうことがあって、今度は三度目ですが、御守りの光によって遮られるというわけですが、それはレントゲンから出る光よりか御守りから発する光の方が強いわけです。<br><br>ところがレントゲンはなんでも通すという強い光ですが、それが通さないということになると、御守りから出る光の方がずっと強いわけです。<br><br>そうすると無限の毒素を焼き尽くすということに不思議はありません。<br><br>これは科学的説明ですが、科学的といっても神霊科学ですから、今の科学よりずっと上の進んだ上等のものです。<br><br>ですからこの神霊科学が分かれば、今の科学というものは非常に幼稚なもので、幼稚園程度です。<br><br>神霊科学は無限なのですから、唯物医学はもっと低いことになります。<br><br>この原理がだんだん世界に知れたら、それはたいへんなセンセーションを起すわけです。<br><br> この次は「神霊の解剖」というのを書くつもりですが、「神霊の解剖」というのは、すなわち神様を解剖するわけです。<br><br>これは今までの宗教やなにかでは、そんなもったいないことをして、神様に対して恐れ多いと、テンデ手をつける者はないのです。<br><br>だから今までは神様を非常に恐れていたわけです。<br><br>神様に対する親しみというものがなかったのです。<br><br>ですから「恐れ多くも」ということを書きますが、これは本当ではありません。<br><br>もし恐れるとしたら、自分を恐れるのです。<br><br>それは人間くらい恐ろしいものはありません。<br><br>神様は善ですから少しも恐ろしいことはありませんが、人間は悪だから恐ろしいのです。<br><br>それは人間はなにをするか分かりません。<br><br>しかし神様はそういうことはないので、なにも悪いことはしません。<br><br>人間は悪の元だから、大いに恐れるというのは自分を恐れるということです。<br><br>ですから神様を解剖してもどんなにしても、決して恐れることはありません。<br><br>決して罰が当たることはありません。<br><br>罰を当てるということは、自分が自分に罰を当てるということです。<br><br>そういうこともだんだんに書きます。<br><br> それから台風については、前に書いたことがあるから分かってはいますが、また新しく書きましたからいくぶんかは違った点があるはずです。<br><br> （御論文「台風の霊的考察」）【栄光 二一九号】 こういうことも知っておかなければいけません。<br><br>いつも言うとおり、相応の理というものは、なんでも穢れれば自然にその穢れを浄化するという、そういうものが発生するのです。<br><br>ですから世の中に悪い奴が多いということは、悪い奴が必要なのです。<br><br>これは大乗的の見方ですが、人間がずるいことをして金を溜め、財産をつくる。<br><br>そうするとそういうずるいことをしたものは穢れてますから、どうしてもそれを掃除しなければならないのです。<br><br>そうすると泥坊が必要であり、巾着切も空き巣狙いも必要なのです。<br><br>必要というよりか、悪い奴がそういうものをつくるのです。<br><br>掃除をさせるようなものです。<br><br>ですから悪い黴菌が湧くということは、人間が間違ったことをして、毒素や膿のようなものを溜めるから、どうしてもそれを掃除するものが自然に発生するのです。<br><br>自然に発生して、それが伝染して伝染病やなにかになって、それによって掃除するのですから、つまり言うと、人間にそういった害を与えるようなものは、害を与えるようなものを人間がつくるのです。<br><br>だから人間の一切の災いというものは、みんな浄化作用の道具です。<br><br>己が汚いものを溜めるから、それを掃除するものがあるので、それが自然にできるのですが、本当は自然でなくて人間がつくるのです。<br><br>そこをよく知れば、いろんなそういった災いというものはしかたがなく、やむを得ないものです。<br><br>だから九州の大水害にしても、それは人間がそういった大水を出して洗わなければならないように汚すからです。<br><br>汚れを溜めるからです。<br><br>従って台風は天災ではなくて人災だということを前に書いたことがあります。<br><br>すべてそういった頭で見るとよく分かります。<br><br>自分が苦しみ、ナンテ不運だろうということを嘆く前に、そういった不運やそういうことをつくるということです。<br><br>自分がこしらえるのだからして、誰を恨むこともないので、まず己を恨むよりしようがありません。<br><br>今の人間はそれを知らないからして、自分の罪を棚に上げて、人が悪い、社会が悪い、教育が悪い、政治が悪い、制度が悪い、となんでもかんでも自分以外に原因があるように考えるのです。<br><br>それをまた偉い学者とか偉い人が（自分などもそう思うのですからしかたがないが）大いにそういうことを言いふらすのです。<br><br>だからみんながそう思い、そう思うからなんでもかんでも人を恨み世を恨み、始終不平満々としている。<br><br>そのために自分でまた罪をつくり、その罪を掃除しなければならないいろんな苦しみやなにかを起す。<br><br>そこでまた恨むというので、結局二進（にっち）も三進（さっち）も行かなくなって自殺するとか人を殺すとか、いろんなことになるのです。<br><br>人を殺すという罪は、自分が霊界に行っていろんな苦しみをするということになります。<br><br>ですから根本を間違えているために、どこまでも悪いことをするのです。<br><br>それと関係のあることで、もう一つ読ませます。<br><br> （御論文「世のインテリ族に物申す」）【栄光 二二〇号】 この前結核は衰弱をさせないことと、それには肩を柔らかくすることを話しましたが、無論肩を柔らかくすることが一番食欲が出ますから、胃病でも心臓病でも非常に結構なのです。<br><br>心臓病は左の肩が凝ってますから、この肩を柔らかくするとまず治ります。<br><br>それから他のいろいろな病気などもそれによってよくなります。<br><br>今どんな人をみても顕のまわりと頭にありますが、これはいつも言うとおり毒素が肩に溜まって固まり、それが頸を使うと頸のまわりから頭に移行してそこに固まるのですからして、ちょうど肩が頭の一つの入口です。<br><br>ですから入口をゴミだらけにするようなものです。<br><br>門の所をよく掃除しないから、風が吹いてゴミが室内にはいってくるようなものです。<br><br>それから肩は上半身と下半身のつなぎ目になっているわけです。<br><br>それで肩を柔らかくするということが一番肝腎なのです。<br><br>そうして男の場合は肛門ですが、女は前にもう一つ穴があります。<br><br>そこで頸から頭の毒が溶けると、下から出るのです。<br><br>だから女のコシケなども大体頭から下がるのです。<br><br>他からも下がりますが、それは少ないので、大部分は頭からです。<br><br>それから男の方は赤痢、痔ですが、痔はほとんど後頭部です。<br><br>それからもう一つ肝腎なことは、女というものは割合にヒステリーなどが起ります。<br><br>憂鬱的になるのです。<br><br>イライラするとか、頭が重いとか、頭が晴れ晴れしないということは、女は男よりか自由のないということもありますが、しかしイライラするということは、大体夫の仕向け方が大いに原因してますが、しかし夫の仕向け方というよりか、妻君が機嫌良く夫に尽くすということによって非常に違うわけです。<br><br>ところが妻君が不承不承に扱うとか、イヤイヤお役でやるようなことだと、亭主もおもしろくないということが、夫婦間のことについても大いに影響し、その原因はどこにあるかというと、そういう女の人は必ず前頭部に熱があります。<br><br>前頭部に熱があるとイライラするのです。<br><br>ところが前頭部に熱があるということは、そこに毒があるのですが、この毒というものはどこからかというと下からです。<br><br>ですから前頭部を浄霊するとともに、下の陰部も浄霊しなければならないのです。<br><br>陰部を浄霊すると前頭部の熱も冷めます。<br><br>そうすると気持ち良くなります。<br><br>しかしみんなここに気がつかないのです。<br><br>これは浄霊ですから離してやるのですからなんでもありません。<br><br>ですからそういう場合には、頭をやるとともに下の方もやるということを心得ておくのです。<br><br>そうすると効果が倍になります。<br><br> それから頭の中心に非常に毒が溜まりやすいのです。<br><br>いつも言うとおり、後頭部は感情、前頭部は理性ですが、ここはその真ん中になってます。<br><br>だからここをやるということは必要です。<br><br>それからよく頭の芯が痛いとか、芯が気持ちが悪いということを言う人がありますが、やっぱりこれです。<br><br>肺病などにもよくありますが、肺病でどうしても熱が冷めないということは、たいてい頭の熱です。<br><br>ですから肺病の原因は肺にはないのです。<br><br>肺は中間の機関です。<br><br>頭から頸のまわりで肺病はたいてい治ります。<br><br>ただ肺は溶けたものが痰になって咳で出るということになりますから、そこで衰弱しやすいのです。<br><br>衰弱ということは食欲がもっとも関係がありますから、食欲さえ多ければ百人が百人みんな治るわけです。<br><br>浄霊するだけは毒が減って行きますが、ただ衰弱でまいってしまうので、そこで肩ということになります。<br><br>そういうようなわけで、病気の原因というものは、たいていその部分の原因ということはありません。<br><br>ただオデキやなんかはその場所ですが、他の内臓の病気というものは、原因は病気の現われた所ではないのです。<br><br>これはなんでもそうですが、元があるのです。<br><br>ちょうど芝居みたいなもので、舞台にいろんなものが出るということは、原因は楽屋にあるのです。<br><br>楽屋で準備して、そうして舞台において、よい芝居とか悪い芝居ということになるのです。<br><br>ですからそこの楽屋を見つけて、そこをやるのです。<br><br>それは大体決まっているのです。<br><br>ただ肺だけはどこからでもいったん肺にはいって行くのです。<br><br>頭でも手でも足でも、どこの固まりでも溶ければいったん肺にはいって痰になって出るのです。<br><br>ですから肺病は胸の病と言いますが、表面に現われたのが胸だからそう思ってしまうのですが、そうではないので、体中の病と言ってもよいです。<br><br>それは頸から肩から腹から背中から、溶けた毒はみんないったん肺に行くのです。<br><br>ただその場合、多く溜まっている所と少なく溜まっている所の違いはあります。<br><br>そこで肺病で一番多いのは頸のまわりです。<br><br>ですから私は結核というものは、頸の病だと言った方がよいと思います。<br><br>また頸のまわりに溜まった毒というものは必ず熱が出ます。<br><br>それが溶けて痰になるのです。<br><br>だから人間、頸は非常に肝腎なものです。<br><br>借金も首、サラリーマンも首で心配してます。<br><br>よく「首ねっこを抑さえる、首が危ない、バッサリと首を切る」と言って首が一番肝腎なものです。<br><br>それで頸の中にも急所があります。<br><br>喉頭結核はここのが溶けて、溶けたものが肺にはいって行って、肺から出る場合に痰に毒があるから、その刺激で咽喉が痛んだりいろいろするのです。<br><br>それで物が呑み込めなかったり、声が枯れたりするのは、みんな咽喉〔喉頭〕結核と言いますが、これは頸のまわりの毒がいったん肺にはいって、その痰に毒があるというものです。<br><br>また頸自身の毒のために喉頭結核になるという人もあります。<br><br>それからロレツがまわらない人や舌にオデキのある人は、咽喉部の毒のためです。<br><br>その毒が、まわりくどい（肺を通らずに）ことをしなくて、すぐにここから出ようというのです。<br><br>その場合にここにそうとう固まったやつが舌に固まって、口がきけないというわけです。<br><br>ですからとにかく咽喉部です。<br><br>それから食欲は肩と心得ていればよいのです。<br><br>それから淋巴腺ですが、ここに熱が出ると前頭部にすぐ移ります。<br><br>この熱が前頭部に一番影響するのです。<br><br>それはここの毒が前頭部に始終行くのです。<br><br>だから頭の悪い人は、気がふさいだり、怒りっぽかったり、気持ちが悪いということは、みんなそれなのです。<br><br>ですから神経衰弱とよく言いますが、これはやっぱりその原因の一番は淋巴腺です。<br><br>それから中風も頸の横側の人と後頭部（延髄）の人と両方あります。<br><br>その固まりが溶けて脳溢血になるのですが、こういう人は中風になっている時はそうですが、ならないうちも棒みたいな固まりがありますからすぐ分かります。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Princípios da Salvação pela Ciência Divina</h2>
 <p>A forma mais clara de elucidar o princípio do Johrei é partir da explanação sobre os microrganismos. Afinal, a mácula espiritual é a origem primordial de tais germes, e ao analisarmos essa origem em suas partículas cada vez mais ínfimas, a compreensão se torna límpida. Foi sobre este tema que discorri de forma concisa no texto a seguir.</p>
@@ -105,5 +257,48 @@ function toggleLang(lang) {
 <p>Assim sendo, a causa das doenças raramente se encontra no local onde os sintomas se manifestam. Uma pústula, por exemplo, tem sua origem no próprio local, mas as doenças dos órgãos internos têm suas raízes em outras partes. Há sempre uma origem oculta. É como em uma peça de teatro: o palco exibe a performance, mas a sua origem, sua preparação, encontra-se nos bastidores. Nossa missão é identificar esses “bastidores” e atuar sobre eles. E esses pontos de origem são, em geral, bem definidos. Os pulmões, no entanto, são um caso especial: toxinas dissolvidas em qualquer parte do corpo — cabeça, mãos, pés — passam por eles para se transformarem em catarro e serem expelidas. Por isso, embora a tuberculose seja chamada de “doença do peito”, por ser ali que os sintomas se evidenciam, ela é, na verdade, uma doença do corpo inteiro. As toxinas liquefeitas do pescoço, ombros, abdômen e costas convergem para os pulmões, variando apenas a concentração de cada área. A região do pescoço é o maior foco na tuberculose. Por essa razão, afirmo que a tuberculose seria mais precisamente descrita como uma doença do pescoço. As toxinas acumuladas nessa área invariavelmente geram febre e, ao se dissolverem, viram catarro.</p>
 <p>O pescoço, portanto, é uma área de vital importância. Diversas expressões populares japonesas atestam sua centralidade. A tuberculose laríngea, por exemplo, ocorre quando as toxinas do pescoço se dissolvem, vão para os pulmões e o catarro tóxico, ao ser expelido, irrita a garganta, causando dor, dificuldade de deglutição e rouquidão. Em outros casos, as próprias toxinas do pescoço podem causar a doença diretamente na laringe. Dificuldades na fala ou pústulas na língua também são causadas por toxinas na garganta que tentam ser expelidas pelo caminho mais curto, sem passar pelos pulmões. Quando uma massa considerável de toxinas se solidifica na língua, pode até impedir a fala. O ponto-chave é sempre a região da garganta. Para o apetite, o segredo está nos ombros.</p>
 <p>Quanto às glândulas linfáticas, o calor gerado nelas se transmite imediatamente para a região frontal da cabeça, sendo esta a área mais afetada. A constante migração dessas toxinas para a fronte causa confusão mental, depressão, irritabilidade e mal-estar. A neurastenia, por exemplo, tem nas glândulas linfáticas uma de suas causas primordiais. Por fim, o derrame cerebral pode ter origem em solidificações na lateral do pescoço ou na região occipital (bulbo raquidiano). Quando essas massas se dissolvem, ocorre a hemorragia cerebral. Mesmo antes do derrame, é possível identificar essas solidificações, que se assemelham a um bastão rígido, por meio da palpação.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年7月16日） 『御教え集』24号、昭和28(1953)年8月15日発行 昭和二十八年七月十六日 浄霊の原理を分からせるために、黴菌から説くと一番分かりよいのです。<br/><br/>つまり霊の曇りというものは、黴菌の元ですから、黴菌の元というものをだんだん細かく考えるとよく分かります。<br/><br/>それを簡単に書きました。<br/><br/> （御論文『医学革命の書』「科学で病気は治らない」） 今の医学というものは顕微鏡医学です。<br/><br/>顕微鏡で微生物を発見し、それによって医学の一種の革命的のものになったわけです。<br/><br/>ところが微生物というものはどこまでも小さいのです。<br/><br/>私は昔から「黴菌というのは大きな物だ、大粒な物だ」とよく言いましたが、今顕微鏡で一生懸命になっているのは大粒の物で、まだまだ小さな物があります。<br/><br/>本当から言うと無限なので、教えられないものです。<br/><br/>ですから顕微鏡がこれから進歩して、今の二十万倍から三十万倍、五十万倍となるでしょうが、そういうことはごく手前のことです。<br/><br/>本当は無限なのです。<br/><br/>というのは、世界というものを考えてみると、大きく言えば大空がどこまで行っても限りがないのと同じなのです。<br/><br/>だから「至大無外（しだいそとなし）、至小無内（ししょううちなし）」という言葉がありますが、小さいのも無限なのです。<br/><br/>それが真理ですから、そう考えてみれば、顕微鏡などというのは、他のことには役に立ちますが、人間の生命を扱うべき病気に対しては、なんにもなりません。<br/><br/>なんとなれば無限を見ようとしてもそれはできないことです。<br/><br/>ちょうど大空の壁を見ようとするのと同じようなものです。<br/><br/>大空に塀がありやしないかと思って見るようなものです。<br/><br/>医学が顕微鏡を捨てるようになれば、少しは進歩するのですが、それをなんにもならない顕微鏡にこだわって、それをたいしたものと思ってますから、今読んだとおり滑稽なものです。<br/><br/>そこで、黴菌は粒子ですが、何億万倍、何十億万倍と、どこまで行っても分からないくらいなものですから無限ですが、その無限なるもの、一つの気体みたいなもので、空気は割に粗いものですが、空気よりもっと細かいもので、霊気です。<br/><br/>それで霊気というものは無限なものです。<br/><br/>そこで無限の病菌というものは、曇りで、悪いもので、毒素ですが、無限な毒素です。<br/><br/>そうするとこっちでそれを治すということは、ここ（掌）から出るやはり無限なる力をもっているもので焼くのです。<br/><br/>昨夜読んだお蔭話の中に、レントゲンがどうしても写らないのです。<br/><br/>空洞かなにかがあった人ですが、それがはっきりしないと勤務に困るので、はっきり写してもらおうと思って御守りをとって写してもらったらはっきり写ったのです。<br/><br/>御守りをかけている間はいくどやっても駄目なのです。<br/><br/>そうすると御守りから出る光はレントゲンより強いわけです。<br/><br/>この前にもそういうことがあって、今度は三度目ですが、御守りの光によって遮られるというわけですが、それはレントゲンから出る光よりか御守りから発する光の方が強いわけです。<br/><br/>ところがレントゲンはなんでも通すという強い光ですが、それが通さないということになると、御守りから出る光の方がずっと強いわけです。<br/><br/>そうすると無限の毒素を焼き尽くすということに不思議はありません。<br/><br/>これは科学的説明ですが、科学的といっても神霊科学ですから、今の科学よりずっと上の進んだ上等のものです。<br/><br/>ですからこの神霊科学が分かれば、今の科学というものは非常に幼稚なもので、幼稚園程度です。<br/><br/>神霊科学は無限なのですから、唯物医学はもっと低いことになります。<br/><br/>この原理がだんだん世界に知れたら、それはたいへんなセンセーションを起すわけです。<br/><br/> この次は「神霊の解剖」というのを書くつもりですが、「神霊の解剖」というのは、すなわち神様を解剖するわけです。<br/><br/>これは今までの宗教やなにかでは、そんなもったいないことをして、神様に対して恐れ多いと、テンデ手をつける者はないのです。<br/><br/>だから今までは神様を非常に恐れていたわけです。<br/><br/>神様に対する親しみというものがなかったのです。<br/><br/>ですから「恐れ多くも」ということを書きますが、これは本当ではありません。<br/><br/>もし恐れるとしたら、自分を恐れるのです。<br/><br/>それは人間くらい恐ろしいものはありません。<br/><br/>神様は善ですから少しも恐ろしいことはありませんが、人間は悪だから恐ろしいのです。<br/><br/>それは人間はなにをするか分かりません。<br/><br/>しかし神様はそういうことはないので、なにも悪いことはしません。<br/><br/>人間は悪の元だから、大いに恐れるというのは自分を恐れるということです。<br/><br/>ですから神様を解剖してもどんなにしても、決して恐れることはありません。<br/><br/>決して罰が当たることはありません。<br/><br/>罰を当てるということは、自分が自分に罰を当てるということです。<br/><br/>そういうこともだんだんに書きます。<br/><br/> それから台風については、前に書いたことがあるから分かってはいますが、また新しく書きましたからいくぶんかは違った点があるはずです。<br/><br/> （御論文「台風の霊的考察」）【栄光 二一九号】 こういうことも知っておかなければいけません。<br/><br/>いつも言うとおり、相応の理というものは、なんでも穢れれば自然にその穢れを浄化するという、そういうものが発生するのです。<br/><br/>ですから世の中に悪い奴が多いということは、悪い奴が必要なのです。<br/><br/>これは大乗的の見方ですが、人間がずるいことをして金を溜め、財産をつくる。<br/><br/>そうするとそういうずるいことをしたものは穢れてますから、どうしてもそれを掃除しなければならないのです。<br/><br/>そうすると泥坊が必要であり、巾着切も空き巣狙いも必要なのです。<br/><br/>必要というよりか、悪い奴がそういうものをつくるのです。<br/><br/>掃除をさせるようなものです。<br/><br/>ですから悪い黴菌が湧くということは、人間が間違ったことをして、毒素や膿のようなものを溜めるから、どうしてもそれを掃除するものが自然に発生するのです。<br/><br/>自然に発生して、それが伝染して伝染病やなにかになって、それによって掃除するのですから、つまり言うと、人間にそういった害を与えるようなものは、害を与えるようなものを人間がつくるのです。<br/><br/>だから人間の一切の災いというものは、みんな浄化作用の道具です。<br/><br/>己が汚いものを溜めるから、それを掃除するものがあるので、それが自然にできるのですが、本当は自然でなくて人間がつくるのです。<br/><br/>そこをよく知れば、いろんなそういった災いというものはしかたがなく、やむを得ないものです。<br/><br/>だから九州の大水害にしても、それは人間がそういった大水を出して洗わなければならないように汚すからです。<br/><br/>汚れを溜めるからです。<br/><br/>従って台風は天災ではなくて人災だということを前に書いたことがあります。<br/><br/>すべてそういった頭で見るとよく分かります。<br/><br/>自分が苦しみ、ナンテ不運だろうということを嘆く前に、そういった不運やそういうことをつくるということです。<br/><br/>自分がこしらえるのだからして、誰を恨むこともないので、まず己を恨むよりしようがありません。<br/><br/>今の人間はそれを知らないからして、自分の罪を棚に上げて、人が悪い、社会が悪い、教育が悪い、政治が悪い、制度が悪い、となんでもかんでも自分以外に原因があるように考えるのです。<br/><br/>それをまた偉い学者とか偉い人が（自分などもそう思うのですからしかたがないが）大いにそういうことを言いふらすのです。<br/><br/>だからみんながそう思い、そう思うからなんでもかんでも人を恨み世を恨み、始終不平満々としている。<br/><br/>そのために自分でまた罪をつくり、その罪を掃除しなければならないいろんな苦しみやなにかを起す。<br/><br/>そこでまた恨むというので、結局二進（にっち）も三進（さっち）も行かなくなって自殺するとか人を殺すとか、いろんなことになるのです。<br/><br/>人を殺すという罪は、自分が霊界に行っていろんな苦しみをするということになります。<br/><br/>ですから根本を間違えているために、どこまでも悪いことをするのです。<br/><br/>それと関係のあることで、もう一つ読ませます。<br/><br/> （御論文「世のインテリ族に物申す」）【栄光 二二〇号】 この前結核は衰弱をさせないことと、それには肩を柔らかくすることを話しましたが、無論肩を柔らかくすることが一番食欲が出ますから、胃病でも心臓病でも非常に結構なのです。<br/><br/>心臓病は左の肩が凝ってますから、この肩を柔らかくするとまず治ります。<br/><br/>それから他のいろいろな病気などもそれによってよくなります。<br/><br/>今どんな人をみても顕のまわりと頭にありますが、これはいつも言うとおり毒素が肩に溜まって固まり、それが頸を使うと頸のまわりから頭に移行してそこに固まるのですからして、ちょうど肩が頭の一つの入口です。<br/><br/>ですから入口をゴミだらけにするようなものです。<br/><br/>門の所をよく掃除しないから、風が吹いてゴミが室内にはいってくるようなものです。<br/><br/>それから肩は上半身と下半身のつなぎ目になっているわけです。<br/><br/>それで肩を柔らかくするということが一番肝腎なのです。<br/><br/>そうして男の場合は肛門ですが、女は前にもう一つ穴があります。<br/><br/>そこで頸から頭の毒が溶けると、下から出るのです。<br/><br/>だから女のコシケなども大体頭から下がるのです。<br/><br/>他からも下がりますが、それは少ないので、大部分は頭からです。<br/><br/>それから男の方は赤痢、痔ですが、痔はほとんど後頭部です。<br/><br/>それからもう一つ肝腎なことは、女というものは割合にヒステリーなどが起ります。<br/><br/>憂鬱的になるのです。<br/><br/>イライラするとか、頭が重いとか、頭が晴れ晴れしないということは、女は男よりか自由のないということもありますが、しかしイライラするということは、大体夫の仕向け方が大いに原因してますが、しかし夫の仕向け方というよりか、妻君が機嫌良く夫に尽くすということによって非常に違うわけです。<br/><br/>ところが妻君が不承不承に扱うとか、イヤイヤお役でやるようなことだと、亭主もおもしろくないということが、夫婦間のことについても大いに影響し、その原因はどこにあるかというと、そういう女の人は必ず前頭部に熱があります。<br/><br/>前頭部に熱があるとイライラするのです。<br/><br/>ところが前頭部に熱があるということは、そこに毒があるのですが、この毒というものはどこからかというと下からです。<br/><br/>ですから前頭部を浄霊するとともに、下の陰部も浄霊しなければならないのです。<br/><br/>陰部を浄霊すると前頭部の熱も冷めます。<br/><br/>そうすると気持ち良くなります。<br/><br/>しかしみんなここに気がつかないのです。<br/><br/>これは浄霊ですから離してやるのですからなんでもありません。<br/><br/>ですからそういう場合には、頭をやるとともに下の方もやるということを心得ておくのです。<br/><br/>そうすると効果が倍になります。<br/><br/> それから頭の中心に非常に毒が溜まりやすいのです。<br/><br/>いつも言うとおり、後頭部は感情、前頭部は理性ですが、ここはその真ん中になってます。<br/><br/>だからここをやるということは必要です。<br/><br/>それからよく頭の芯が痛いとか、芯が気持ちが悪いということを言う人がありますが、やっぱりこれです。<br/><br/>肺病などにもよくありますが、肺病でどうしても熱が冷めないということは、たいてい頭の熱です。<br/><br/>ですから肺病の原因は肺にはないのです。<br/><br/>肺は中間の機関です。<br/><br/>頭から頸のまわりで肺病はたいてい治ります。<br/><br/>ただ肺は溶けたものが痰になって咳で出るということになりますから、そこで衰弱しやすいのです。<br/><br/>衰弱ということは食欲がもっとも関係がありますから、食欲さえ多ければ百人が百人みんな治るわけです。<br/><br/>浄霊するだけは毒が減って行きますが、ただ衰弱でまいってしまうので、そこで肩ということになります。<br/><br/>そういうようなわけで、病気の原因というものは、たいていその部分の原因ということはありません。<br/><br/>ただオデキやなんかはその場所ですが、他の内臓の病気というものは、原因は病気の現われた所ではないのです。<br/><br/>これはなんでもそうですが、元があるのです。<br/><br/>ちょうど芝居みたいなもので、舞台にいろんなものが出るということは、原因は楽屋にあるのです。<br/><br/>楽屋で準備して、そうして舞台において、よい芝居とか悪い芝居ということになるのです。<br/><br/>ですからそこの楽屋を見つけて、そこをやるのです。<br/><br/>それは大体決まっているのです。<br/><br/>ただ肺だけはどこからでもいったん肺にはいって行くのです。<br/><br/>頭でも手でも足でも、どこの固まりでも溶ければいったん肺にはいって痰になって出るのです。<br/><br/>ですから肺病は胸の病と言いますが、表面に現われたのが胸だからそう思ってしまうのですが、そうではないので、体中の病と言ってもよいです。<br/><br/>それは頸から肩から腹から背中から、溶けた毒はみんないったん肺に行くのです。<br/><br/>ただその場合、多く溜まっている所と少なく溜まっている所の違いはあります。<br/><br/>そこで肺病で一番多いのは頸のまわりです。<br/><br/>ですから私は結核というものは、頸の病だと言った方がよいと思います。<br/><br/>また頸のまわりに溜まった毒というものは必ず熱が出ます。<br/><br/>それが溶けて痰になるのです。<br/><br/>だから人間、頸は非常に肝腎なものです。<br/><br/>借金も首、サラリーマンも首で心配してます。<br/><br/>よく「首ねっこを抑さえる、首が危ない、バッサリと首を切る」と言って首が一番肝腎なものです。<br/><br/>それで頸の中にも急所があります。<br/><br/>喉頭結核はここのが溶けて、溶けたものが肺にはいって行って、肺から出る場合に痰に毒があるから、その刺激で咽喉が痛んだりいろいろするのです。<br/><br/>それで物が呑み込めなかったり、声が枯れたりするのは、みんな咽喉〔喉頭〕結核と言いますが、これは頸のまわりの毒がいったん肺にはいって、その痰に毒があるというものです。<br/><br/>また頸自身の毒のために喉頭結核になるという人もあります。<br/><br/>それからロレツがまわらない人や舌にオデキのある人は、咽喉部の毒のためです。<br/><br/>その毒が、まわりくどい（肺を通らずに）ことをしなくて、すぐにここから出ようというのです。<br/><br/>その場合にここにそうとう固まったやつが舌に固まって、口がきけないというわけです。<br/><br/>ですからとにかく咽喉部です。<br/><br/>それから食欲は肩と心得ていればよいのです。<br/><br/>それから淋巴腺ですが、ここに熱が出ると前頭部にすぐ移ります。<br/><br/>この熱が前頭部に一番影響するのです。<br/><br/>それはここの毒が前頭部に始終行くのです。<br/><br/>だから頭の悪い人は、気がふさいだり、怒りっぽかったり、気持ちが悪いということは、みんなそれなのです。<br/><br/>ですから神経衰弱とよく言いますが、これはやっぱりその原因の一番は淋巴腺です。<br/><br/>それから中風も頸の横側の人と後頭部（延髄）の人と両方あります。<br/><br/>その固まりが溶けて脳溢血になるのですが、こういう人は中風になっている時はそうですが、ならないうちも棒みたいな固まりがありますからすぐ分かります。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

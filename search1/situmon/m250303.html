@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>M250303</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S25年3月3日） 『御光話録』19号、昭和25(1950)年6月13日発行 昭和二十五年三月三日 ――医学では絶対不治とされている心臓弁膜症の原因および浄霊箇所について御教示ください。<br><br> こんなのわけはない。<br><br>これは心臓の周りに毒があって固まろうとする、その固まるときに苦しむんです。<br><br>それともう一つの場合は、心臓の周りの毒が浄化して熱を出すため、その熱にあおられてなるんですよ。<br><br>それから、たまにはおなかの浄化によることもありますね。<br><br>だいたい臍の上下に固まりがあり、その浄化熱が心臓に影響するんです。<br><br>心臓の表裏とおなかと、おなかの元は腎臓だから腎臓もよくやることですね。<br><br>それから狭心症って病気がありますがね、あれは肩をやるときっと治りますよ。<br><br>肩の凝りから来るんですからね。<br><br> ――いままで神式で先祖を祀ってまいりました家で、御屏風観音様を御奉斎申し上げますにはいかがいたしたらよろしいでしょうか。<br><br> そのままお祀りして差し支えありませんよ。<br><br>観音様は神仏両方だから。<br><br> ――いままで戒名なんかも別にございませんが。<br><br> 戒名なんかなくたっていいですよ。<br><br> ――御位牌はいかがいたしたらよろしいでしょうか。<br><br> 神式だったら位牌なんかないでしょ。<br><br> ――何々の尊と書いたものでございますが。<br><br> ああ、あれはそのままでかまいませんよ。<br><br> ――床の間の天井が低い場合、御神体の上のほうをお巻きしてもよろしいでしょうか。<br><br> いけませんね、これは。<br><br>切ればいいでしょう、長ければ。<br><br>下のほうが引きずってるのはいけませんよ。<br><br>人間だって着物が引きずってたんじゃ気持ちが悪いでしょ。<br><br>（笑声） ――人を尤（とが）めることと注意することとの相違（限界）はいかような心得をもって当たれば、御神意を汚さないでしょうか。<br><br> これは限界もなにもありませんよ。<br><br>人を尤めるってことはぜんぜんいけませんよ。<br><br>それも警察官や裁判官ならいいですがね（笑声）。<br><br>まず自分を尤めることですよ。<br><br>どんなことでも人を尤めてはいけないんです。<br><br>どんなことでもね。<br><br>だから私は人を尤めませんよ。<br><br>たとえその人が間違ってることをやっててもうっちゃらかしておくんです。<br><br>勿論アッサリと教えることはありますよ。<br><br>「そんなことをすると、こうこうこういう結果になる」って言ってやることはあります。<br><br>けど、私の言ったことを用いるか否かはその人の自由であって、たとえ聞き入れなくたって、それ以上もうどうにもしかたがありませんよ。<br><br>何某だってそうですよ、私は以前注意したことがあるんです。<br><br>けど、あの人は私の言葉を守らなかったんですよ。<br><br>やはり、その人が腹からそう思うんじゃなくちゃいけない。<br><br>そうでなけりゃ駄目ですよ。<br><br>よく言うんですが、石の落っこちるのを坂の途中で抑えるのは駄目なんです。<br><br>下へ落っこちてから目が覚めて気がつく、それが本当なんです。<br><br> こう言うと、愛がないように聞こえるかもしれませんけどね、しかしこっちのほうが本当の愛なんですよ。<br><br>日本では子供が転ぶと、親がすぐ走って行って起してやるけど、西洋では子供が自分で起き上がるように言うってことですが、この西洋のやり方のほうが愛が大きいんです。<br><br>かわいがって親切にするってのは愛が小さいんです。<br><br>だから、その人の将来を本当によくしてやるのが本当の愛なんですよ。<br><br>例えば、金のない人に金をやったってそんなのは一時的で駄目なんです。<br><br>自分で苦しんで、たとえ破産したっていいから、そうやったあげく自分で覚るのが一番いいんです。<br><br>そしてそうするのが大乗なんですよ。<br><br> そこで、人を尤めるのは一番いけない。<br><br>人間が人間を尤めるのは神様の地位を犯すことになるんです。<br><br>人間なんてみんなポチポチなんだから（笑声）。<br><br>人を尤めるなんて慢心ですよ。<br><br>だから中には尤める人より尤められる人のほうが霊的に上位のことだってよくあるんですよ。<br><br>（笑声） ――なにか間違ったことをした人に「なぜそんなことをしたのか」と言うことは尤めることになりましょうか。<br><br> 「なぜしたか」って言うのは尤めるんじゃありませんね、聞くんだから。<br><br>（笑声） ――「それは悪いことだからこうしなさい」と注意することはよろしいでしょうか。<br><br> アッサリ話をして注意するんならいいですよ。<br><br>それからね、「こうしてはいけない」って言うのよりも、「こうしたほうがよい」とか「こうすべきと思う」って言ったほうがいいですよ。<br><br>「相成らぬ」って言うのはよくないですね。<br><br>そして尤めると人が怖がるようになるんです。<br><br>怖がらしておいて人を屈服せしめる……なんてのは最も愚かなことなんですよ。<br><br> ――とかく他人に迷惑をかけ、なかなか言いつけを守らぬ人を、つい感情に走り「きゃつは馬鹿だ」とか「悪魔だ」とか言うことは人を裁くことになり罪を構成しましょうか。<br><br> 構成しますね（笑声）。<br><br>こんなことを言うのは神の権限を冒すんですから。<br><br>こんな場合、本当に馬鹿なのは御自分様なんですよ。<br><br>つまり主観ですね。<br><br> ――「悪と戦う」ということと「悪に負けない」ということとは、いかなる心得を堅持していれば間違いはないでしょうか。<br><br> あのね、悪と戦うって言ってもね、本当は戦わないほうがいいんですよ。<br><br>けど、悪に負けちゃいけないんです。<br><br>勿論、一時は負けたっていいけど、最後には勝たなけりゃいけない。<br><br>だからそこに辛抱がいるんですよ。<br><br>私は悪に負けないから、ときにはこっちで裁判を起すこともあるんです。<br><br>中には昭和二十二年に裁判を始めてようやく今年になって勝ったのもありますよ。<br><br>しかもそれは一審で負け二審で負け、とうとう大審院で勝ったんです。<br><br>○○さん、あんた知ってるでしょ、あのＧの問題ね、今度示談になって私のほうであれを買うことになったんですよ。<br><br> ――ああそうで……、ずいぶんしつっこい奴で。<br><br> いや、先方もこっちをしつっこいって言ってますよ。<br><br>岡田くらいしつっこいのはいないってね（笑声）。<br><br>あれだって途中で先方から示談にしようって申し込んできたんです。<br><br>けど、私は嫌だって断ったんですよ。<br><br>そしたら、「いつまで経っても解決しないから」って言うんで「どっちか死ねばいい、そしたら解決する。<br><br>あとの人は面倒臭いからやめてしまうだろうから」と言ったら「いや、どうも……」って言ってましたがね。<br><br> 私は悪には絶対に負けない。<br><br>勿論、こっちにちょっとでも悪があっちゃ駄目ですよ。<br><br>去年も○○と戦ったけどこっちが勝ちましたよ。<br><br>あれはとてもおっかないんですよ。<br><br>だから「それは無茶だ、どんなことされるか判らない」って心配する人もありましたがね。<br><br>私は「無茶でもいい。<br><br>私は世界を相手にしたって悪には負けない」って言ったんです。<br><br>で、それもとうとう追放になって本国に帰されましたよ。<br><br>『読売新聞』のときだってそうですよ。<br><br>「あんな大新聞を相手に喧嘩しちゃあ損だ。<br><br>先方は一応力があるんだからどんなことされるか判らない」と言われたけど、そのときも私は「相手が大新聞であろうと、力があろうとかまわない。<br><br>たとえ日本中の新聞を相手にしたって、私は悪とは戦う」って言ったんです。<br><br>私は悪には絶対に負けませんよ。<br><br>一時負けても最後には必ず勝つ。<br><br>……信仰してる人はそうでなけりゃ嘘だ。<br><br>正しい神を信仰してるんなら必ず悪には勝つはずなんだから。<br><br>悪に負けるから悪が栄えるんです。<br><br> 以前、私が実業をしていたとき、三越と取引をしてたんですが、三越に不正があったんで、私は断然取引をやめてしまったんです。<br><br>ところがこっちはチッポケな店だったんですからね、向こうは呆れ返ってましたよ（笑声）。<br><br>しかし、最後にはとうとう頭を下げてきましたがね。<br><br> 人間はね、正しいことさえしてれば、なにも心配したり怖れたりすることはないんですよ。<br><br> ――悪に負けないということは、なにもせずに時を待つことでしょうか。<br><br> いや、なにもしないんじゃいけない。<br><br>やはりこれも時と場合によっていろいろなんですよ。<br><br>相手が訴えて裁判するって言うならこっちもそれに応じたらいいし、ときにはこっちから裁判することもあるんですよ。<br><br>この前もある土地を買ったところが、それからあとで先方がその土地の木を伐ったので、こっちから訴えて裁判をしたことがありますがね。<br><br>……なんでも極端はいけないんです。<br><br>時と場合によってね、うまくやってくことですよ。<br><br>先方が撲（なぐ）ってきたらよけりゃいいんです。<br><br>撲ってるのにわざわざ顔を突き出しちゃあ。<br><br>（笑声） （信者に閑し某教会と某教会の間で起ったいざこざについて） これは心得とくことですね。<br><br>自分のほうがいいって言うのは悪いんですよ。<br><br>なぜなら、自分を善いとし他人を悪いとする心が悪いから悪ですよ。<br><br>よく、先方の教会を悪く言う人がありますが、そんなのはアベコベに解釈することですよ、そのほうがたしかですね。<br><br> ――その場合、弁解いたしますことはいかがでしょうか。<br><br> いや、いま話したのは他人同士だから弁解じゃありませんね。<br><br>……もし自分が悪く言われたときには、一通りは事情を話したらいい。<br><br>そしてそれを信じる信じないは先方の勝手に任せたらいい。<br><br>だから、一応は弁明する。<br><br>そしてその先は神様にお任せしたらいいんです。<br><br>そのときだって一々弁明しなくたってかまやしませんがね。<br><br>正しいものは勝つに決まってるんだから。<br><br>けど、気持ちが悪いですからね、あんまり変なこと言われるとね（笑声）。<br><br>……白隠禅師の有名な話がありますね。<br><br>不仕末して子供のできてしまった女が禅師の所へ逃げ込んできたので、禅師はその女をかくまってやったうえ、その子を自分の子だと言ったんですね。<br><br>それを聞いてその女の親は怒って、生き仏のごとき白隠禅師がそんなことをするとは怪しからんってわけで、村人たちと一緒にみんなで禅師を村から追い出してしまったんです。<br><br>そのとき白隠禅師はなんとも言わなかったけど、何年かして本当のことが知れ、今度はたいした坊さんになったんですね。<br><br>だから言い訳なんかしなくたっていいんですよ。<br><br> ――某地方某町の烈風中の大火の折、十七軒消失の中一戸だけは焼け残りました。<br><br>そのときその家の人がマジナイとして婦人の赤い腰巻を屋敷稲荷にかぶせ、もう一枚を竿の先に結びつけ屋根の上で狂気のごとく振り回していました。<br><br>これは焼け残ったことと関係ありましょうか。<br><br>（爆笑） こういうことはよくあるんですよ。<br><br>けど、まあこれはちょっと判りませんね。<br><br>おそらく稲荷が手伝ったんでしょうね。<br><br>しかし、こういうのはあまり信じないことですよ。<br><br>チッポケな火事ならいいけど、すばらしい火事だったら腰巻くらいじゃあねえ。<br><br>（爆笑） マジナイってものは昔からいろいろありますがね、けど医学なんかよりたしかでしょうね（笑声）。<br><br>なぜって……効果のあるほうが科学ですからね。<br><br>（笑声）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Perguntas e Respostas sobre a Fé e a Conduta Humana</h2>
 <p><strong>P: Poderia nos instruir sobre a causa da valvulopatia cardíaca, considerada incurável pela medicina, e sobre os pontos para a ministração de Johrei?</strong></p>
@@ -134,5 +286,48 @@ function toggleLang(lang) {
 <p><strong>P: Durante um grande incêndio em uma cidade do interior, causado por ventos fortíssimos, dezessete casas foram destruídas, mas uma única permaneceu intacta. Na ocasião, como forma de simpatia, os moradores da casa cobriram o pequeno santuário doméstico de Inari com a anágua vermelha de uma mulher e amarraram outra na ponta de uma vara, agitando-a sobre o telhado como se estivessem enlouquecidos. Haveria alguma relação entre esse ato e o fato de a casa ter sido poupada? (gargalhadas)</strong></p>
 <p>Situações como essa são bastante comuns. Mas, neste caso específico, é difícil dizer. Provavelmente, o espírito-guardião Inari deu uma ajuda. No entanto, não devemos depositar fé excessiva em tais práticas. Talvez funcione para um incêndio pequeno, mas, em um de grandes proporções, apenas uma anágua não seria suficiente, não é mesmo? (gargalhadas)</p>
 <p>Existem diversas simpatias desde a antiguidade. Contudo, elas parecem ser mais confiáveis do que a medicina, não acham? (risos) Afinal de contas, aquilo que apresenta resultados é que pode ser considerado científico, não é verdade? (risos)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S25年3月3日） 『御光話録』19号、昭和25(1950)年6月13日発行 昭和二十五年三月三日 ――医学では絶対不治とされている心臓弁膜症の原因および浄霊箇所について御教示ください。<br/><br/> こんなのわけはない。<br/><br/>これは心臓の周りに毒があって固まろうとする、その固まるときに苦しむんです。<br/><br/>それともう一つの場合は、心臓の周りの毒が浄化して熱を出すため、その熱にあおられてなるんですよ。<br/><br/>それから、たまにはおなかの浄化によることもありますね。<br/><br/>だいたい臍の上下に固まりがあり、その浄化熱が心臓に影響するんです。<br/><br/>心臓の表裏とおなかと、おなかの元は腎臓だから腎臓もよくやることですね。<br/><br/>それから狭心症って病気がありますがね、あれは肩をやるときっと治りますよ。<br/><br/>肩の凝りから来るんですからね。<br/><br/> ――いままで神式で先祖を祀ってまいりました家で、御屏風観音様を御奉斎申し上げますにはいかがいたしたらよろしいでしょうか。<br/><br/> そのままお祀りして差し支えありませんよ。<br/><br/>観音様は神仏両方だから。<br/><br/> ――いままで戒名なんかも別にございませんが。<br/><br/> 戒名なんかなくたっていいですよ。<br/><br/> ――御位牌はいかがいたしたらよろしいでしょうか。<br/><br/> 神式だったら位牌なんかないでしょ。<br/><br/> ――何々の尊と書いたものでございますが。<br/><br/> ああ、あれはそのままでかまいませんよ。<br/><br/> ――床の間の天井が低い場合、御神体の上のほうをお巻きしてもよろしいでしょうか。<br/><br/> いけませんね、これは。<br/><br/>切ればいいでしょう、長ければ。<br/><br/>下のほうが引きずってるのはいけませんよ。<br/><br/>人間だって着物が引きずってたんじゃ気持ちが悪いでしょ。<br/><br/>（笑声） ――人を尤（とが）めることと注意することとの相違（限界）はいかような心得をもって当たれば、御神意を汚さないでしょうか。<br/><br/> これは限界もなにもありませんよ。<br/><br/>人を尤めるってことはぜんぜんいけませんよ。<br/><br/>それも警察官や裁判官ならいいですがね（笑声）。<br/><br/>まず自分を尤めることですよ。<br/><br/>どんなことでも人を尤めてはいけないんです。<br/><br/>どんなことでもね。<br/><br/>だから私は人を尤めませんよ。<br/><br/>たとえその人が間違ってることをやっててもうっちゃらかしておくんです。<br/><br/>勿論アッサリと教えることはありますよ。<br/><br/>「そんなことをすると、こうこうこういう結果になる」って言ってやることはあります。<br/><br/>けど、私の言ったことを用いるか否かはその人の自由であって、たとえ聞き入れなくたって、それ以上もうどうにもしかたがありませんよ。<br/><br/>何某だってそうですよ、私は以前注意したことがあるんです。<br/><br/>けど、あの人は私の言葉を守らなかったんですよ。<br/><br/>やはり、その人が腹からそう思うんじゃなくちゃいけない。<br/><br/>そうでなけりゃ駄目ですよ。<br/><br/>よく言うんですが、石の落っこちるのを坂の途中で抑えるのは駄目なんです。<br/><br/>下へ落っこちてから目が覚めて気がつく、それが本当なんです。<br/><br/> こう言うと、愛がないように聞こえるかもしれませんけどね、しかしこっちのほうが本当の愛なんですよ。<br/><br/>日本では子供が転ぶと、親がすぐ走って行って起してやるけど、西洋では子供が自分で起き上がるように言うってことですが、この西洋のやり方のほうが愛が大きいんです。<br/><br/>かわいがって親切にするってのは愛が小さいんです。<br/><br/>だから、その人の将来を本当によくしてやるのが本当の愛なんですよ。<br/><br/>例えば、金のない人に金をやったってそんなのは一時的で駄目なんです。<br/><br/>自分で苦しんで、たとえ破産したっていいから、そうやったあげく自分で覚るのが一番いいんです。<br/><br/>そしてそうするのが大乗なんですよ。<br/><br/> そこで、人を尤めるのは一番いけない。<br/><br/>人間が人間を尤めるのは神様の地位を犯すことになるんです。<br/><br/>人間なんてみんなポチポチなんだから（笑声）。<br/><br/>人を尤めるなんて慢心ですよ。<br/><br/>だから中には尤める人より尤められる人のほうが霊的に上位のことだってよくあるんですよ。<br/><br/>（笑声） ――なにか間違ったことをした人に「なぜそんなことをしたのか」と言うことは尤めることになりましょうか。<br/><br/> 「なぜしたか」って言うのは尤めるんじゃありませんね、聞くんだから。<br/><br/>（笑声） ――「それは悪いことだからこうしなさい」と注意することはよろしいでしょうか。<br/><br/> アッサリ話をして注意するんならいいですよ。<br/><br/>それからね、「こうしてはいけない」って言うのよりも、「こうしたほうがよい」とか「こうすべきと思う」って言ったほうがいいですよ。<br/><br/>「相成らぬ」って言うのはよくないですね。<br/><br/>そして尤めると人が怖がるようになるんです。<br/><br/>怖がらしておいて人を屈服せしめる……なんてのは最も愚かなことなんですよ。<br/><br/> ――とかく他人に迷惑をかけ、なかなか言いつけを守らぬ人を、つい感情に走り「きゃつは馬鹿だ」とか「悪魔だ」とか言うことは人を裁くことになり罪を構成しましょうか。<br/><br/> 構成しますね（笑声）。<br/><br/>こんなことを言うのは神の権限を冒すんですから。<br/><br/>こんな場合、本当に馬鹿なのは御自分様なんですよ。<br/><br/>つまり主観ですね。<br/><br/> ――「悪と戦う」ということと「悪に負けない」ということとは、いかなる心得を堅持していれば間違いはないでしょうか。<br/><br/> あのね、悪と戦うって言ってもね、本当は戦わないほうがいいんですよ。<br/><br/>けど、悪に負けちゃいけないんです。<br/><br/>勿論、一時は負けたっていいけど、最後には勝たなけりゃいけない。<br/><br/>だからそこに辛抱がいるんですよ。<br/><br/>私は悪に負けないから、ときにはこっちで裁判を起すこともあるんです。<br/><br/>中には昭和二十二年に裁判を始めてようやく今年になって勝ったのもありますよ。<br/><br/>しかもそれは一審で負け二審で負け、とうとう大審院で勝ったんです。<br/><br/>○○さん、あんた知ってるでしょ、あのＧの問題ね、今度示談になって私のほうであれを買うことになったんですよ。<br/><br/> ――ああそうで……、ずいぶんしつっこい奴で。<br/><br/> いや、先方もこっちをしつっこいって言ってますよ。<br/><br/>岡田くらいしつっこいのはいないってね（笑声）。<br/><br/>あれだって途中で先方から示談にしようって申し込んできたんです。<br/><br/>けど、私は嫌だって断ったんですよ。<br/><br/>そしたら、「いつまで経っても解決しないから」って言うんで「どっちか死ねばいい、そしたら解決する。<br/><br/>あとの人は面倒臭いからやめてしまうだろうから」と言ったら「いや、どうも……」って言ってましたがね。<br/><br/> 私は悪には絶対に負けない。<br/><br/>勿論、こっちにちょっとでも悪があっちゃ駄目ですよ。<br/><br/>去年も○○と戦ったけどこっちが勝ちましたよ。<br/><br/>あれはとてもおっかないんですよ。<br/><br/>だから「それは無茶だ、どんなことされるか判らない」って心配する人もありましたがね。<br/><br/>私は「無茶でもいい。<br/><br/>私は世界を相手にしたって悪には負けない」って言ったんです。<br/><br/>で、それもとうとう追放になって本国に帰されましたよ。<br/><br/>『読売新聞』のときだってそうですよ。<br/><br/>「あんな大新聞を相手に喧嘩しちゃあ損だ。<br/><br/>先方は一応力があるんだからどんなことされるか判らない」と言われたけど、そのときも私は「相手が大新聞であろうと、力があろうとかまわない。<br/><br/>たとえ日本中の新聞を相手にしたって、私は悪とは戦う」って言ったんです。<br/><br/>私は悪には絶対に負けませんよ。<br/><br/>一時負けても最後には必ず勝つ。<br/><br/>……信仰してる人はそうでなけりゃ嘘だ。<br/><br/>正しい神を信仰してるんなら必ず悪には勝つはずなんだから。<br/><br/>悪に負けるから悪が栄えるんです。<br/><br/> 以前、私が実業をしていたとき、三越と取引をしてたんですが、三越に不正があったんで、私は断然取引をやめてしまったんです。<br/><br/>ところがこっちはチッポケな店だったんですからね、向こうは呆れ返ってましたよ（笑声）。<br/><br/>しかし、最後にはとうとう頭を下げてきましたがね。<br/><br/> 人間はね、正しいことさえしてれば、なにも心配したり怖れたりすることはないんですよ。<br/><br/> ――悪に負けないということは、なにもせずに時を待つことでしょうか。<br/><br/> いや、なにもしないんじゃいけない。<br/><br/>やはりこれも時と場合によっていろいろなんですよ。<br/><br/>相手が訴えて裁判するって言うならこっちもそれに応じたらいいし、ときにはこっちから裁判することもあるんですよ。<br/><br/>この前もある土地を買ったところが、それからあとで先方がその土地の木を伐ったので、こっちから訴えて裁判をしたことがありますがね。<br/><br/>……なんでも極端はいけないんです。<br/><br/>時と場合によってね、うまくやってくことですよ。<br/><br/>先方が撲（なぐ）ってきたらよけりゃいいんです。<br/><br/>撲ってるのにわざわざ顔を突き出しちゃあ。<br/><br/>（笑声） （信者に閑し某教会と某教会の間で起ったいざこざについて） これは心得とくことですね。<br/><br/>自分のほうがいいって言うのは悪いんですよ。<br/><br/>なぜなら、自分を善いとし他人を悪いとする心が悪いから悪ですよ。<br/><br/>よく、先方の教会を悪く言う人がありますが、そんなのはアベコベに解釈することですよ、そのほうがたしかですね。<br/><br/> ――その場合、弁解いたしますことはいかがでしょうか。<br/><br/> いや、いま話したのは他人同士だから弁解じゃありませんね。<br/><br/>……もし自分が悪く言われたときには、一通りは事情を話したらいい。<br/><br/>そしてそれを信じる信じないは先方の勝手に任せたらいい。<br/><br/>だから、一応は弁明する。<br/><br/>そしてその先は神様にお任せしたらいいんです。<br/><br/>そのときだって一々弁明しなくたってかまやしませんがね。<br/><br/>正しいものは勝つに決まってるんだから。<br/><br/>けど、気持ちが悪いですからね、あんまり変なこと言われるとね（笑声）。<br/><br/>……白隠禅師の有名な話がありますね。<br/><br/>不仕末して子供のできてしまった女が禅師の所へ逃げ込んできたので、禅師はその女をかくまってやったうえ、その子を自分の子だと言ったんですね。<br/><br/>それを聞いてその女の親は怒って、生き仏のごとき白隠禅師がそんなことをするとは怪しからんってわけで、村人たちと一緒にみんなで禅師を村から追い出してしまったんです。<br/><br/>そのとき白隠禅師はなんとも言わなかったけど、何年かして本当のことが知れ、今度はたいした坊さんになったんですね。<br/><br/>だから言い訳なんかしなくたっていいんですよ。<br/><br/> ――某地方某町の烈風中の大火の折、十七軒消失の中一戸だけは焼け残りました。<br/><br/>そのときその家の人がマジナイとして婦人の赤い腰巻を屋敷稲荷にかぶせ、もう一枚を竿の先に結びつけ屋根の上で狂気のごとく振り回していました。<br/><br/>これは焼け残ったことと関係ありましょうか。<br/><br/>（爆笑） こういうことはよくあるんですよ。<br/><br/>けど、まあこれはちょっと判りませんね。<br/><br/>おそらく稲荷が手伝ったんでしょうね。<br/><br/>しかし、こういうのはあまり信じないことですよ。<br/><br/>チッポケな火事ならいいけど、すばらしい火事だったら腰巻くらいじゃあねえ。<br/><br/>（爆笑） マジナイってものは昔からいろいろありますがね、けど医学なんかよりたしかでしょうね（笑声）。<br/><br/>なぜって……効果のあるほうが科学ですからね。<br/><br/>（笑声）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

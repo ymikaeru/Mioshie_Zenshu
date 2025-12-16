@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s270301</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年3月1日） 『御垂示録』8号、昭和27(1952)年4月25日発行 昭和二十七年三月一日 最初参考のためにちょっと話しますけれども、私の後頭部に瘤（こぶ）がある。<br><br>原因は歯に薬をつけた、それがだんだん行って、ここ（後頭部）に固まった。<br><br>それで、どうも頭の具合が始終悪い。<br><br>一昨年から気がついて浄霊したところが、だんだん溶けて来て、今約半分くらいになりました。<br><br>まるで、骨みたいに固かった。<br><br>オヤ、こんなところに骨が――妙だなと思って、押しても痛くないですからね。<br><br>この頃半分くらい取れて来たのですがね。<br><br>そうすると、最近眩暈（めまい）がし始めたんです。<br><br>そうとうグラグラしてね。<br><br>これはおかしいな。<br><br>どこに原因があるかと思った。<br><br>ところが、ここ（後頭部）を溶かしたために、こっち（前頭部）に平均浄化が起った。<br><br>ははあこれだなと、ここ（前頭部）を溶かしたから、眩暈がたいへん良くなった。<br><br>そうしたら胸がムカムカして、今朝からここ（胸）をやった。<br><br>というのは、これ（前頭部）が溶けて、胃に入ってムカムカしたのです。<br><br>それで、今度はここ（胃）を浄霊した。<br><br>そうすると、出がけに便所に行きたくなって、それで良くなったんです。<br><br>これ（後頭部）を溶かす時分もムカムカしたが、今日のはここ（前頭部）だからね。<br><br>今度はここ（胃）に来て、それから便所に行った。<br><br>やっぱりそういった軟らかい、臭いものでした。<br><br>で、やっぱりこれ（後頭部）がこう（前頭部）来て、こう（胃）来ている。<br><br>ちょっとそういうことは誰でもありますから、ここらを溶かしてね。<br><br>そうすると胸が気持ち良くなる。<br><br>それは、これ（前頭部）が溶けていったんです。<br><br>今度は、一部溶かすと他の頭の部分に平均浄化が起る。<br><br>それが、こっちに行って、それが下に行く。<br><br>まあ便利にはできてます。<br><br>それで、これを溶かしてから、非常に食欲が出た。<br><br>だから、これ（前、後頭部）が食欲と関係があるということは、ずいぶん不思議なものですよ。<br><br> 「最近御浄化が強くございまして、押してみますとどこもかも痛くございます」 強くなるほど、治りも良くなるしね。<br><br>だから、よく自分でも、他人のいろんな病人でも、必ずどこかに原因があるから、それを発見すれば良い。<br><br>そうすれば楽になっていきます。<br><br>それを、急所を発見しないで――急所をはずれてやるから、それで、思うようにいかないんですね。<br><br> 「六々（六〇六号）の毒でございますが、これも一代では取れ切りませんので――」 六々は強いんだ。<br><br>強いのは、六々と消毒薬ですね。<br><br>それから漢方薬のゲンノショウコね。<br><br>これが一番強いですね。<br><br>六々（ろくろく）効きもしないのをね。<br><br>ゲンノショウコでなくて、現に証拠ですよ。<br><br> 「私の母でございますが、大浄化をいただき、命も危ないところを御守護いただきました。<br><br>医者もまいりまいたが、耳たぼが真っ赤に腫れ上がり、痛みました。<br><br>原因が分らず、最近元気になって聞きますと、三十五年前、耳に疵をいたし、そのときの御浄化ということが解りました。<br><br>紫色になり、膿が出ました」 薬毒は三十年や四十年くらいは何の変化もなく、体内にあるものですからね。<br><br>私が、今浄霊しているのは五十年前のですからね。<br><br>十八のときに服んだ肋膜のときの薬ですからね。<br><br>だいぶ良くなったですが、横腹と背中の間のところに固まりがある。<br><br>ここに穴をあけて水を取りましたからね。<br><br>今のここ（後頭部）の歯の薬というのは、今年で三十七年目ですからね。<br><br> 「一般では予防注射とかいたしておりますが、このことが一秒遅れますと、一秒間の損失でございますので――」 たいへんなものですね。<br><br>実に、今の人間はかわいそうなものですよ。<br><br>何でも医学の犠牲者ばかりですからね。<br><br>昨日のラジオで、アメリカで肺病の結核菌を殺す、すばらしいのができたですね。<br><br>結核菌は全部短期間に死んじゃうのです。<br><br>その薬は、日本にくるには半年か一年先だろうと言ってますが、それは菌が死んじゃうから、肺病なんかじき治っちゃうと、こう言っているけれどもね。<br><br>副作用があって――何んとかがあるので、それがいけないんだとか言ってましたがね。<br><br>ところが、結核菌を殺すことができても、菌は湧くんだからね。<br><br>わかないようにしなくては駄目だ。<br><br>そこが解らないのでね。<br><br>だから「○ヽ（ス、表示できないため代用）の文化」というのを、私は今書いてますがね。<br><br>今まではこれ（○）だけだった。<br><br>点が入ると○ヽの文化になる。<br><br>今までは結核菌を殺すのに一生懸命だった。<br><br>犯罪者が出ないように一生懸命だった。<br><br>これ（○）だけなんです。<br><br>これ（ヽ）は黴菌の元をやっつけちゃうんです。<br><br>だから黴菌は湧かない。<br><br>悪人とか不幸な人は、元をギュッとやっちゃうと、悪人は出なくなる。<br><br>それが○ヽの文化ですね。<br><br>中心の文化ですね。<br><br>今までは空っぽだった。<br><br>ただ形だけで点がなかった。<br><br>それでメシヤ教は、つまり中心だね。<br><br>ポチですね。<br><br>ポチで救うんだからね。<br><br>そこで日という字ですね。<br><br>日というのは、これ（ヽ）だからね。<br><br>これ（ヽ）を主にしたものだからね。<br><br>だから、昼の世界――昼の文化というのは、そういったような意味なんですね。<br><br>○ヽの文化――つまりこれ（○）が月の働きなんです。<br><br>これ（ヽ）が日の働きなんです。<br><br>つまり日月になるわけです。<br><br>これ（○）は緯の働きで、これ（ヽ）は経の働きです。<br><br>だから明主というのは、日月の主（す）になるわけです。<br><br>これは伊都能売（いづのめ）になるのです。<br><br>日がイズで、月がミズだから、火水で伊都能売ね。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Mecanismo da Purificação e a Cultura do Ponto Central</h2>
 <p>A título de referência, falarei primeiramente sobre algo pessoal. Tenho um nódulo na parte posterior da cabeça, cuja causa reside em um medicamento que apliquei em um dente; com o tempo, a toxina migrou e se solidificou nesta região da nuca. Em consequência disso, eu sentia um mal-estar constante na cabeça. Há dois anos, ao tomar consciência do problema, comecei a ministrar Johrei no local. O nódulo, que antes era duro como osso, gradualmente se dissolveu e hoje já se reduziu à metade. Era de uma rigidez tamanha que parecia um osso. Cheguei a pensar: “Que estranho, um osso nesta parte...”, pois, ao pressioná-lo, não sentia dor alguma.</p>
@@ -106,5 +258,48 @@ function toggleLang(lang) {
 <p>Contudo, mesmo que consigam eliminar os bacilos, eles simplesmente ressurgirão, pois a causa fundamental de seu surgimento não é tratada. É esse ponto que a ciência não compreende. Justamente sobre isso, estou escrevendo agora um artigo intitulado “A Cultura de Su (○ヽ)”. Até hoje, existia apenas o círculo (○). Ao acrescentarmos o ponto (ヽ) em seu centro, nasce a Cultura de Su (○ヽ). A ciência se esforça incessantemente para matar os bacilos da tuberculose, assim como a sociedade se empenha para evitar o surgimento de criminosos. Isso corresponde apenas ao círculo (○). O ponto (ヽ) representa a eliminação da causa primordial dos micróbios. Consequentemente, eles deixam de proliferar. Da mesma forma, ao se eliminar a raiz que gera pessoas más e infelizes, os malfeitores deixarão de existir. Essa é a Cultura de Su (○ヽ), a cultura do centro.</p>
 <p>Até agora, o círculo estava vazio. Havia apenas a forma, mas sem o ponto central. A Sekaikyuseikyou representa, precisamente, esse centro. É o ponto. É por meio desse ponto que a salvação se concretiza. Isso nos remete ao ideograma para “sol”, Hi (日). Ele é formado tendo o ponto (ヽ) como elemento principal. Por isso falamos do Mundo do Dia, da Cultura do Dia. A Cultura de Su (○ヽ) representa, portanto, a atuação da lua, que é o círculo (○), e a atuação do sol, que é o ponto (ヽ). Juntos, eles formam Sol e Lua. O círculo (○) corresponde à ação horizontal, enquanto o ponto (ヽ) representa a ação vertical.</p>
 <p>Por essa razão, Meishu (明主) significa o Mestre do Sol e da Lua. Isso se torna Izunome (伊都能売). O sol (Hi) é <em>Izu</em>, e a lua (Tsuki), que é água, é <em>Mizu</em>. Fogo (Hi) e Água (Mizu) formam Izunome.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年3月1日） 『御垂示録』8号、昭和27(1952)年4月25日発行 昭和二十七年三月一日 最初参考のためにちょっと話しますけれども、私の後頭部に瘤（こぶ）がある。<br/><br/>原因は歯に薬をつけた、それがだんだん行って、ここ（後頭部）に固まった。<br/><br/>それで、どうも頭の具合が始終悪い。<br/><br/>一昨年から気がついて浄霊したところが、だんだん溶けて来て、今約半分くらいになりました。<br/><br/>まるで、骨みたいに固かった。<br/><br/>オヤ、こんなところに骨が――妙だなと思って、押しても痛くないですからね。<br/><br/>この頃半分くらい取れて来たのですがね。<br/><br/>そうすると、最近眩暈（めまい）がし始めたんです。<br/><br/>そうとうグラグラしてね。<br/><br/>これはおかしいな。<br/><br/>どこに原因があるかと思った。<br/><br/>ところが、ここ（後頭部）を溶かしたために、こっち（前頭部）に平均浄化が起った。<br/><br/>ははあこれだなと、ここ（前頭部）を溶かしたから、眩暈がたいへん良くなった。<br/><br/>そうしたら胸がムカムカして、今朝からここ（胸）をやった。<br/><br/>というのは、これ（前頭部）が溶けて、胃に入ってムカムカしたのです。<br/><br/>それで、今度はここ（胃）を浄霊した。<br/><br/>そうすると、出がけに便所に行きたくなって、それで良くなったんです。<br/><br/>これ（後頭部）を溶かす時分もムカムカしたが、今日のはここ（前頭部）だからね。<br/><br/>今度はここ（胃）に来て、それから便所に行った。<br/><br/>やっぱりそういった軟らかい、臭いものでした。<br/><br/>で、やっぱりこれ（後頭部）がこう（前頭部）来て、こう（胃）来ている。<br/><br/>ちょっとそういうことは誰でもありますから、ここらを溶かしてね。<br/><br/>そうすると胸が気持ち良くなる。<br/><br/>それは、これ（前頭部）が溶けていったんです。<br/><br/>今度は、一部溶かすと他の頭の部分に平均浄化が起る。<br/><br/>それが、こっちに行って、それが下に行く。<br/><br/>まあ便利にはできてます。<br/><br/>それで、これを溶かしてから、非常に食欲が出た。<br/><br/>だから、これ（前、後頭部）が食欲と関係があるということは、ずいぶん不思議なものですよ。<br/><br/> 「最近御浄化が強くございまして、押してみますとどこもかも痛くございます」 強くなるほど、治りも良くなるしね。<br/><br/>だから、よく自分でも、他人のいろんな病人でも、必ずどこかに原因があるから、それを発見すれば良い。<br/><br/>そうすれば楽になっていきます。<br/><br/>それを、急所を発見しないで――急所をはずれてやるから、それで、思うようにいかないんですね。<br/><br/> 「六々（六〇六号）の毒でございますが、これも一代では取れ切りませんので――」 六々は強いんだ。<br/><br/>強いのは、六々と消毒薬ですね。<br/><br/>それから漢方薬のゲンノショウコね。<br/><br/>これが一番強いですね。<br/><br/>六々（ろくろく）効きもしないのをね。<br/><br/>ゲンノショウコでなくて、現に証拠ですよ。<br/><br/> 「私の母でございますが、大浄化をいただき、命も危ないところを御守護いただきました。<br/><br/>医者もまいりまいたが、耳たぼが真っ赤に腫れ上がり、痛みました。<br/><br/>原因が分らず、最近元気になって聞きますと、三十五年前、耳に疵をいたし、そのときの御浄化ということが解りました。<br/><br/>紫色になり、膿が出ました」 薬毒は三十年や四十年くらいは何の変化もなく、体内にあるものですからね。<br/><br/>私が、今浄霊しているのは五十年前のですからね。<br/><br/>十八のときに服んだ肋膜のときの薬ですからね。<br/><br/>だいぶ良くなったですが、横腹と背中の間のところに固まりがある。<br/><br/>ここに穴をあけて水を取りましたからね。<br/><br/>今のここ（後頭部）の歯の薬というのは、今年で三十七年目ですからね。<br/><br/> 「一般では予防注射とかいたしておりますが、このことが一秒遅れますと、一秒間の損失でございますので――」 たいへんなものですね。<br/><br/>実に、今の人間はかわいそうなものですよ。<br/><br/>何でも医学の犠牲者ばかりですからね。<br/><br/>昨日のラジオで、アメリカで肺病の結核菌を殺す、すばらしいのができたですね。<br/><br/>結核菌は全部短期間に死んじゃうのです。<br/><br/>その薬は、日本にくるには半年か一年先だろうと言ってますが、それは菌が死んじゃうから、肺病なんかじき治っちゃうと、こう言っているけれどもね。<br/><br/>副作用があって――何んとかがあるので、それがいけないんだとか言ってましたがね。<br/><br/>ところが、結核菌を殺すことができても、菌は湧くんだからね。<br/><br/>わかないようにしなくては駄目だ。<br/><br/>そこが解らないのでね。<br/><br/>だから「○ヽ（ス、表示できないため代用）の文化」というのを、私は今書いてますがね。<br/><br/>今まではこれ（○）だけだった。<br/><br/>点が入ると○ヽの文化になる。<br/><br/>今までは結核菌を殺すのに一生懸命だった。<br/><br/>犯罪者が出ないように一生懸命だった。<br/><br/>これ（○）だけなんです。<br/><br/>これ（ヽ）は黴菌の元をやっつけちゃうんです。<br/><br/>だから黴菌は湧かない。<br/><br/>悪人とか不幸な人は、元をギュッとやっちゃうと、悪人は出なくなる。<br/><br/>それが○ヽの文化ですね。<br/><br/>中心の文化ですね。<br/><br/>今までは空っぽだった。<br/><br/>ただ形だけで点がなかった。<br/><br/>それでメシヤ教は、つまり中心だね。<br/><br/>ポチですね。<br/><br/>ポチで救うんだからね。<br/><br/>そこで日という字ですね。<br/><br/>日というのは、これ（ヽ）だからね。<br/><br/>これ（ヽ）を主にしたものだからね。<br/><br/>だから、昼の世界――昼の文化というのは、そういったような意味なんですね。<br/><br/>○ヽの文化――つまりこれ（○）が月の働きなんです。<br/><br/>これ（ヽ）が日の働きなんです。<br/><br/>つまり日月になるわけです。<br/><br/>これ（○）は緯の働きで、これ（ヽ）は経の働きです。<br/><br/>だから明主というのは、日月の主（す）になるわけです。<br/><br/>これは伊都能売（いづのめ）になるのです。<br/><br/>日がイズで、月がミズだから、火水で伊都能売ね。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

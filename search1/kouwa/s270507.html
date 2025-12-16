@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s270507</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年5月7日） 『御教え集』10号、昭和27(1952)年6月15日発行 昭和二十七年五月七日 【御教え】 この間奈良、京都の方に旅行したそれを、今簡単に書いてみたんですが、今読ませます。<br><br> （御論文「奈良美術行脚」）【栄光 一五六号】 今度、ちょうど奈良の博物館で白鳳、天平展覧会というのが開催されていたんです。<br><br>三尊の弥陀――これは大きいんですね。<br><br>等身大くらいです。<br><br>それと金銅仏で誕生の釈迦ですね。<br><br>それがありましたが、どちらもすばらしいものですが、片っ方は大きすぎるので、とうてい東京とかこっちの方に移動することはできないものです。<br><br>その他、金銅仏が十数点と、経文とか仏器とか、そういうものもそうとうありますが、今の二点を除いたほかは私の美術館の方が上です。<br><br>で、私も大いに気を良くしたわけです。<br><br>数はなるほど博物館の方がありましたが、博物館にあるよりかもっと良いのが私の方にあります。<br><br>それから経文なんかも博物館のは、ほとんど天平時代のものばかりですが、私の方のは支那の唐時代のもありますし、それからいろいろな種類がありますからね。<br><br>それから仏器なんかも私の方が種類が多くありますから負けないつもりです。<br><br>その仏教美術の方も私の方は一部なんですからね。<br><br>一部で奈良博物館より大体上なんですからね。<br><br>引け目をとらないと思ってますね。<br><br>そんなわけで、今度見たいろいろな仏教なんか、千二、三百年前にそういうものができて、今日はその足下にも追いつかないのは実に不思議と思いますね。<br><br>いろいろなものが進歩しているにもかかわらず、そういうものは進歩どころか、かえって退歩しているくらいです。<br><br>それはどういうわけかと言いますと、これはちょっと一般の人は気がつかないんですが、やっぱり理由があるんです。<br><br>なぜというと、その時代の人は頭が非常に良いんです。<br><br>今の人は――美術家は勿論のことですが、頭がずっと悪くなっているんです。<br><br>なぜというと、ただそこに、単に頭が良いとか悪いとかいうことは、その時代の人の中身ですね。<br><br>中身が良かった。<br><br>今の人は中身がだんだん悪くなってきて、上っ側になってきた。<br><br>つまり表面が、頭が良くなってきたんですね――今の人はね。<br><br>それで中身が微弱になってきた。<br><br>そこの異いさですね。<br><br>私なんかもどっちかというと中身の方です。<br><br>そこで今の人の頭の悪さ加減が、実に驚いているんです。<br><br>実に頭が悪いんです。<br><br>なによりもメシヤ教がこれほど病気が治っても、解らないんだからね。<br><br>それをお医者さんなんか、よく見たり聞いたりして、ただ首をひねるだけで、それをさて研究しようとかいう考えは起らないんですね。<br><br>まあ、なにかの具合だろうと、ただ気休めみたいに理屈をつけて、それでおしまいになっているんですからね。<br><br>そういう具合に悪くなっているんです。<br><br>それから『栄光』新聞は厚生省に一年も前から送っています。<br><br>みんな見ているに違いないですが、一人もなにも言ってくる人はないんです。<br><br>ですから、それすら実に頭が悪いですね。<br><br>そういうことばかりでなく、あらゆる方面ですね。<br><br>政治でも経済でも実に頭が悪いですね。<br><br>だから政府の、なにか偉い――大臣や知識階級の人がいろいろ頭を集めて年中相談ばかりしています。<br><br>それでいて実にまずいですね――頭がね。<br><br>今度の共産党の暴れた問題なんかも、あれはなんですね。<br><br>片っ端から怪しい奴は逮捕するんですが、逮捕したところでそれを警視庁なら警視庁に運ぶことを忘れちゃったんです。<br><br>ですから、輸送の方ができないために、ふんづかまえた者に警官がついていなければならない。<br><br>そこで、もっとつかまえることができたのを、ついていては、あとつかまえることができないから、そこで能率が上がらなかった。<br><br>だからつかまえることは、よほど考えて準備したに違いないが、それを輸送することを忘れちゃった。<br><br>一事が万事で、なんでもそうなってます――頭が悪いのはね。<br><br>じゃ、日本人ばかりかというと、西洋の人が頭が悪い。<br><br>特にアメリカ人の頭が悪いのは恐ろしいです。<br><br>中共と停戦問題について交渉やってますが、あれでアメリカ人はいよいよ講和が成立するということを、よく偉い人が去年あたりから言ってますが、いつまで待っても駄目だ。<br><br>今度いよいよ駄目だということになった。<br><br>リッジウェイなんかも、この間の話ではいよいよできるということを言ってますが、駄目なんです。<br><br>最初から駄目なんです。<br><br>引き延ばしなんですからね。<br><br>私は先から言ってますがね。<br><br>ただ時を稼いでいるだけなんですからね。<br><br>それをいくらか信じていたんですね。<br><br>だからものの見通しができないですね。<br><br>上っ側の智慧だからね。<br><br>そういうように上っ側は非常に良くなってますから、小利巧に今の人は言ってますがね。<br><br>実に上っ面の、見え透いたことを、政治家なんか言ってますが、少し深いところや見通しなんかはぜんぜんないですね。<br><br>これは医学と同じで、対症療法と同じです。<br><br>事が起こってからあわてるとね。<br><br>だから共産党の大物ですね、今八人ですが、今もって潜って判らないですね。<br><br>まあこの点は共産党の方が頭が良いかもしれないが。<br><br> だから芸術方面もそういうふうになっていますね。<br><br>だから今の美術が良い物ができないのは、頭が悪いのと経済的関係ですね。<br><br>それで良い物ができない。<br><br>それから、今の人はどうして頭が悪いかというと薬のためです。<br><br>薬毒が頭に上がってますからね。<br><br>それは白鳳や天平時代よりか、今の人はよけい薬が入ってます。<br><br>しかもあの時分は草根木皮でしたが、今はもっと強い薬が入ってますからね。<br><br>それで今の人はあの時分より頭をよけい使いますからね。<br><br>使うといっても、良いことに使うのではない。<br><br>心配です。<br><br>心配というと、まあ税金でしょうね。<br><br>税金のためにどのくらい頭を使っているか分からない。<br><br>頭を使うから頭に毒血が上がっていきます。<br><br>どのくらい悪くなっているか分からない。<br><br>近来赤痢がはやるのは、薬毒と税金なんです。<br><br>赤痢は頭の毒血ですからね、赤痢の流行に税金が原因だと言っても、今の人間にはとうてい解りっこないですよ。<br><br>そんなようなわけですから、内容に目が届き、頭が働けば根本が分かるんです。<br><br> それから今度奈良で、非常に意味があったのは、法隆寺に夢殿という小さい祠がありますがね。<br><br>祠というか、まあ美術品が少しばかり入って、そうして中に観音様の像があるんです。<br><br>そこの扉は一年に何日か開くことになっている。<br><br>ちょうどその時開いていて、そこに行ってみますと、やっぱり等身大の観音様の仏像で、そこに救世観世音という札が出ているんです。<br><br>これは仏教の方では救世（ぐせ）観世音というんですがね。<br><br>これは文献には少しありますがね。<br><br>ただそれに「メシヤ」というように名をつけたのは、私がつけたんですがね。<br><br>救世観音と書いて救世観音ですね。<br><br>ところがジッと見てますと、なんとも言えない霊気がスーッと私の方に入ってきて、とても良い気持ちになってきて、なんだか嬉しくて涙がこぼれそうになってきた。<br><br>それは、観音様の霊が私に入ってきたんですよ。<br><br>それは非常に意味があるんです。<br><br>というのは、聖徳太子はつまり千手観音様が懸られたんです。<br><br>ですから千手観音のお働きですがね。<br><br>あの時には大体時代が時代ですから小さいお働きだったですね。<br><br>まあ、千手観音じゃなく百手観音様かもしれませんがね。<br><br>そこで仏教を観音様が、つまり日本に本当に御自分が出るまでの間、仏教を日本に弘めて、それで救わなければならないと、そうして聖徳太子を働かせて、とにかく仏教を始められたんですね。<br><br>ですから奈良は仏教発祥の地です。<br><br>そこで奈良という所は、何宗何宗というなにはないんです。<br><br>仏教には真宗とかいろいろありますが、それは後から寺をそういうふうにしたもので、本当から言うと奈良には開祖なんていうのはないんです。<br><br>だからあれは原始仏教ですね。<br><br>本当の原始仏教ですよ。<br><br>その後に至っては法然とか、空海、伝教、親鸞――そういう人たちが出て開祖になって、今のいろいろな宗門を作ったんですがね。<br><br>それから山岳仏教ですね。<br><br>高野山とか、比叡山ですね。<br><br>その時になって民間仏教ですね。<br><br>つまり在界〔家〕の仏教ですね。<br><br>ですから奈良は純然たる原始仏教であって、その発祥の地ですね。<br><br>で、仏教を始められたのは聖徳太子ですからね。<br><br>聖徳太子は千手観音様の働きをされたわけですね。<br><br>で、その後千二、三百年という間は法隆寺の夢殿におられたんですね。<br><br>聖徳太子という方は、仏教を始めるについては、やはり芸術によって弘めたんです。<br><br>そこで、つまりあの地を卜（ぼく）して七堂伽藍を造られたんです。<br><br>だからいろいろなことに精通されていたんですね。<br><br>で、ひとり芸術ばかりでなく、十七条の憲法なんか作ったんですね。<br><br>憲法といっても、日本における憲法の最初は聖徳太子ということになりますね。<br><br>ですから政治的知識も非常にあられたんですね。<br><br>ですけれども、とにかく仏教を美術によって開こうということになった。<br><br>そのためにあの時代の仏教美術というものは非常にさかんになって、まあ奈良の大仏なんて、ああいった驚くべき――あの時代にあのくらいの立派なものを作るということは、ほとんど人間業以上ですね。<br><br>ちょうど私はそれを世界的にしたようなものです。<br><br>で、私は芸術によってメシヤ教を開くということは、ちょうど聖徳太子がやられたことを、もっと大きくして――世界的にしてやるのと同じですね。<br><br>それで私が今やっていることは、つまり千手観音の働きになるわけなんです。<br><br>ですから私が一番最初に始めた時の観音会ですね。<br><br>観音会を作るに当たって――それが昭和九年の十月でしたね。<br><br>観音会を作ったんですが、その時に千手観音を画いたんです。<br><br>これから千手観音の働きというわけですね。<br><br>私はその時には気がつかないで、画きたいから画いたんですが、今日になってみると、そういう必要があってやらされたんですね。<br><br>ですから現在私がいろんなことに手を出して、なんでもやりますが、千手観音の働きですからいろんなことをやるわけですね。<br><br>で、千本の手にいろんなものを握りますがね。<br><br>握るといって、懐に入れちゃうわけじゃないんです。<br><br>あらゆるものを救われるんですね。<br><br>救うということは、それを自由にしなければ救えないから、つまり言うことを聞かなければね。<br><br>それで、握れば自由自在になりますから、それで思うように救えるわけですね。<br><br>そういうことは大体知ってましたが、今度夢殿に行って、そうしてなおはっきり分かったんです。<br><br>つまり聖徳太子がやられることがね。<br><br>私に懸ったわけですね。<br><br>だからやはりメシヤ教のために大いに働かれることになったんです。<br><br>ですからもう夢殿には霊がいられなくなったんですね。<br><br>だから、今に開けっ放しになるかもしれませんがね。<br><br>で、そういう神様のことというのはちゃんと、年限でも時でもすべて決まっているんですからね。<br><br>そんなら早くそうしたら良いだろうというが、そうはいかない。<br><br>やっぱり時期時期によってそうなっている。<br><br>やはり「神は順序なり」でね。<br><br>花が咲いて実がなるのと同じでね。<br><br>いくら神様がみんなにきれいなものを見せたいといって、正月に桜が咲くことはないんですからね。<br><br>そういった、時と順序それは厳然として動かすことはできない。<br><br>それで夢殿は聖徳太子が始終仕事をなさるのに、ちょうど夢殿がある所で仕事をなさったんです。<br><br>それを記念としてあそこに夢殿を作ったんですからね。<br><br>つまり奈良の中心は法隆寺で、法隆寺の中心は夢殿というんですから、仏教の中心は日本においては夢殿ですね。<br><br>あれが中心といっても良いですね。<br><br> 今度、その他に京都にいずれ地上天国を造らなければならない。<br><br>そういう適当な敷地があるというので、それを見てくれというから、それを見たんですが、これは大体条件はまず良いですね。<br><br>時期が来たら手に入るだろうと思ってます。<br><br>で、そんなわけで美術館なんかにしても、仏教美術――そういうものについて大いに知識を得たわけですね。<br><br>大体仏像やそういうものについてはあらかた分かったですから、いずれはそういったような美術館も京都に造りたいと思ってます。<br><br>旅行の話はそのくらいにして。<br><br> 今度『新宗教新聞』というのができて、それになにか原稿を書いてくれというので書いたところが、間に合わないので、一号には出なかったが二号に出るでしょう。<br><br>メシヤ教の記事も出てましたね。<br><br>良く書いてありました。<br><br>その原稿を――これは現在の宗教家に言うことなんで、参考になりますからね。<br><br> （御論文「今後吾等は如何にすべきや」〔新生日本への希望〕） これは良く知っていることですが、非常にはっきりしている結核問題ですが、はっきりしているお蔭話です。<br><br>説明をつけて書いたんです。<br><br> （「恐るべき医学迷信」）【栄光 一五七号】 こんなようなわけで、肺を取り巻いている膜と膜の間に空気を入れて、肺を圧迫するんですね。<br><br>だから肺が、こう（伸縮自由）なっていたのが、少ししかならなくなる。<br><br>つまり肺の絶対安静ですね。<br><br>それでだんだん萎びていくんです。<br><br>あれは人間でも、手など使わずにおくとだんだん萎びてきます。<br><br>あれと同じです。<br><br>萎びてくるから空洞が小さくなる。<br><br>あれで良いように思っているが、あれをふつうにするとまた空洞も大きくなる。<br><br>つまらないことなんですよ。<br><br>だから気胸というのは、一時的に症状が減るんですね。<br><br>それで治ると、こういうふうに間違えちゃったんです。<br><br>もう一つは、外科のお医者さんと内科のお医者さんが意見が違うんですが、外科のお医者さんは、町を歩いていても自動車事故がある。<br><br>だから請け負えないということに至っては、なんと言って良いか言い方がないですね。<br><br>あまりに馬鹿馬鹿しいです。<br><br>だから、医学なんていうのは、当たり外れなんです。<br><br>だから請け負えないんですね。<br><br>医学のいろんな――よくラジオなんかの質問に対する解答が、決してはっきり言わない。<br><br>「治るはずです」とか「治るわけです」とか「治ると思います」とか「治ることになっている」とか曖昧きわまるんです。<br><br>あんな馬鹿馬鹿しいことに命を任せるんですから、実に危ない世の中なんです。<br><br>これほど危険な時代はないでしょう。<br><br>いつも言ってますが、そんなような具合でありますけれども、だんだん浄化が強くなりますから、いずれは二進（にっち）も三進（さっち）も行かなくなって、それかちこっちの言うことが本当に解ってくるんですから、もう一息ですよ。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Degenerescência do Mundo Atual e a Missão Divina</h2>
 <p>Recentemente, realizei uma viagem às regiões de Nara e Kyoto. Gostaria de compartilhar, de forma sucinta, algumas reflexões que redigi a respeito, as quais serão lidas agora.</p>
@@ -111,5 +263,48 @@ function toggleLang(lang) {
 <p>Este é um relato de graça que, embora já conhecido por muitos, ilustra de forma inequívoca a questão da tuberculose. Escrevi-o com algumas explicações adicionais.</p>
 <p>O procedimento consiste em injetar ar no espaço entre as membranas que revestem o pulmão, a fim de comprimi-lo. Com isso, o pulmão, que antes se expandia e contraía livremente, passa a ter seu movimento bastante reduzido. É o que chamam de repouso absoluto do pulmão. A consequência é que ele vai atrofiando gradualmente. O mesmo acontece com qualquer parte do corpo; se uma mão, por exemplo, fica imobilizada, ela atrofia. O princípio é idêntico. Com a atrofia, a cavidade da tuberculose diminui. As pessoas pensam que isso é bom, mas se a pressão for retirada, a cavidade volta a se expandir. É um procedimento inútil. O pneumotórax apenas alivia temporariamente os sintomas, e é por isso que se cometeu o erro de acreditar que ele cura.</p>
 <p>Ademais, há uma divergência entre cirurgiões e clínicos. Quando um cirurgião chega a ponto de dizer que não pode dar garantias, pois até mesmo ao caminhar na rua se está sujeito a um acidente de carro, não há palavras para descrever tal absurdo. É simplesmente ridículo. A medicina, em essência, é uma questão de acerto e erro. É por isso que os médicos não podem dar garantias. Observe as respostas que dão a perguntas em programas de rádio: nunca são assertivas. Usam expressões como “deve curar”, “a tendência é curar”, “acredito que cure” ou “está previsto que cure”. É de uma imprecisão atroz. E as pessoas confiam suas vidas a algo tão insensato. Vivemos em um mundo perigoso, talvez a era mais perigosa da história. Contudo, como sempre digo, a purificação se intensificará cada vez mais. Em breve, eles chegarão a um beco sem saída e, então, começarão a compreender verdadeiramente o que dizemos. Falta apenas mais um pouco.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年5月7日） 『御教え集』10号、昭和27(1952)年6月15日発行 昭和二十七年五月七日 【御教え】 この間奈良、京都の方に旅行したそれを、今簡単に書いてみたんですが、今読ませます。<br/><br/> （御論文「奈良美術行脚」）【栄光 一五六号】 今度、ちょうど奈良の博物館で白鳳、天平展覧会というのが開催されていたんです。<br/><br/>三尊の弥陀――これは大きいんですね。<br/><br/>等身大くらいです。<br/><br/>それと金銅仏で誕生の釈迦ですね。<br/><br/>それがありましたが、どちらもすばらしいものですが、片っ方は大きすぎるので、とうてい東京とかこっちの方に移動することはできないものです。<br/><br/>その他、金銅仏が十数点と、経文とか仏器とか、そういうものもそうとうありますが、今の二点を除いたほかは私の美術館の方が上です。<br/><br/>で、私も大いに気を良くしたわけです。<br/><br/>数はなるほど博物館の方がありましたが、博物館にあるよりかもっと良いのが私の方にあります。<br/><br/>それから経文なんかも博物館のは、ほとんど天平時代のものばかりですが、私の方のは支那の唐時代のもありますし、それからいろいろな種類がありますからね。<br/><br/>それから仏器なんかも私の方が種類が多くありますから負けないつもりです。<br/><br/>その仏教美術の方も私の方は一部なんですからね。<br/><br/>一部で奈良博物館より大体上なんですからね。<br/><br/>引け目をとらないと思ってますね。<br/><br/>そんなわけで、今度見たいろいろな仏教なんか、千二、三百年前にそういうものができて、今日はその足下にも追いつかないのは実に不思議と思いますね。<br/><br/>いろいろなものが進歩しているにもかかわらず、そういうものは進歩どころか、かえって退歩しているくらいです。<br/><br/>それはどういうわけかと言いますと、これはちょっと一般の人は気がつかないんですが、やっぱり理由があるんです。<br/><br/>なぜというと、その時代の人は頭が非常に良いんです。<br/><br/>今の人は――美術家は勿論のことですが、頭がずっと悪くなっているんです。<br/><br/>なぜというと、ただそこに、単に頭が良いとか悪いとかいうことは、その時代の人の中身ですね。<br/><br/>中身が良かった。<br/><br/>今の人は中身がだんだん悪くなってきて、上っ側になってきた。<br/><br/>つまり表面が、頭が良くなってきたんですね――今の人はね。<br/><br/>それで中身が微弱になってきた。<br/><br/>そこの異いさですね。<br/><br/>私なんかもどっちかというと中身の方です。<br/><br/>そこで今の人の頭の悪さ加減が、実に驚いているんです。<br/><br/>実に頭が悪いんです。<br/><br/>なによりもメシヤ教がこれほど病気が治っても、解らないんだからね。<br/><br/>それをお医者さんなんか、よく見たり聞いたりして、ただ首をひねるだけで、それをさて研究しようとかいう考えは起らないんですね。<br/><br/>まあ、なにかの具合だろうと、ただ気休めみたいに理屈をつけて、それでおしまいになっているんですからね。<br/><br/>そういう具合に悪くなっているんです。<br/><br/>それから『栄光』新聞は厚生省に一年も前から送っています。<br/><br/>みんな見ているに違いないですが、一人もなにも言ってくる人はないんです。<br/><br/>ですから、それすら実に頭が悪いですね。<br/><br/>そういうことばかりでなく、あらゆる方面ですね。<br/><br/>政治でも経済でも実に頭が悪いですね。<br/><br/>だから政府の、なにか偉い――大臣や知識階級の人がいろいろ頭を集めて年中相談ばかりしています。<br/><br/>それでいて実にまずいですね――頭がね。<br/><br/>今度の共産党の暴れた問題なんかも、あれはなんですね。<br/><br/>片っ端から怪しい奴は逮捕するんですが、逮捕したところでそれを警視庁なら警視庁に運ぶことを忘れちゃったんです。<br/><br/>ですから、輸送の方ができないために、ふんづかまえた者に警官がついていなければならない。<br/><br/>そこで、もっとつかまえることができたのを、ついていては、あとつかまえることができないから、そこで能率が上がらなかった。<br/><br/>だからつかまえることは、よほど考えて準備したに違いないが、それを輸送することを忘れちゃった。<br/><br/>一事が万事で、なんでもそうなってます――頭が悪いのはね。<br/><br/>じゃ、日本人ばかりかというと、西洋の人が頭が悪い。<br/><br/>特にアメリカ人の頭が悪いのは恐ろしいです。<br/><br/>中共と停戦問題について交渉やってますが、あれでアメリカ人はいよいよ講和が成立するということを、よく偉い人が去年あたりから言ってますが、いつまで待っても駄目だ。<br/><br/>今度いよいよ駄目だということになった。<br/><br/>リッジウェイなんかも、この間の話ではいよいよできるということを言ってますが、駄目なんです。<br/><br/>最初から駄目なんです。<br/><br/>引き延ばしなんですからね。<br/><br/>私は先から言ってますがね。<br/><br/>ただ時を稼いでいるだけなんですからね。<br/><br/>それをいくらか信じていたんですね。<br/><br/>だからものの見通しができないですね。<br/><br/>上っ側の智慧だからね。<br/><br/>そういうように上っ側は非常に良くなってますから、小利巧に今の人は言ってますがね。<br/><br/>実に上っ面の、見え透いたことを、政治家なんか言ってますが、少し深いところや見通しなんかはぜんぜんないですね。<br/><br/>これは医学と同じで、対症療法と同じです。<br/><br/>事が起こってからあわてるとね。<br/><br/>だから共産党の大物ですね、今八人ですが、今もって潜って判らないですね。<br/><br/>まあこの点は共産党の方が頭が良いかもしれないが。<br/><br/> だから芸術方面もそういうふうになっていますね。<br/><br/>だから今の美術が良い物ができないのは、頭が悪いのと経済的関係ですね。<br/><br/>それで良い物ができない。<br/><br/>それから、今の人はどうして頭が悪いかというと薬のためです。<br/><br/>薬毒が頭に上がってますからね。<br/><br/>それは白鳳や天平時代よりか、今の人はよけい薬が入ってます。<br/><br/>しかもあの時分は草根木皮でしたが、今はもっと強い薬が入ってますからね。<br/><br/>それで今の人はあの時分より頭をよけい使いますからね。<br/><br/>使うといっても、良いことに使うのではない。<br/><br/>心配です。<br/><br/>心配というと、まあ税金でしょうね。<br/><br/>税金のためにどのくらい頭を使っているか分からない。<br/><br/>頭を使うから頭に毒血が上がっていきます。<br/><br/>どのくらい悪くなっているか分からない。<br/><br/>近来赤痢がはやるのは、薬毒と税金なんです。<br/><br/>赤痢は頭の毒血ですからね、赤痢の流行に税金が原因だと言っても、今の人間にはとうてい解りっこないですよ。<br/><br/>そんなようなわけですから、内容に目が届き、頭が働けば根本が分かるんです。<br/><br/> それから今度奈良で、非常に意味があったのは、法隆寺に夢殿という小さい祠がありますがね。<br/><br/>祠というか、まあ美術品が少しばかり入って、そうして中に観音様の像があるんです。<br/><br/>そこの扉は一年に何日か開くことになっている。<br/><br/>ちょうどその時開いていて、そこに行ってみますと、やっぱり等身大の観音様の仏像で、そこに救世観世音という札が出ているんです。<br/><br/>これは仏教の方では救世（ぐせ）観世音というんですがね。<br/><br/>これは文献には少しありますがね。<br/><br/>ただそれに「メシヤ」というように名をつけたのは、私がつけたんですがね。<br/><br/>救世観音と書いて救世観音ですね。<br/><br/>ところがジッと見てますと、なんとも言えない霊気がスーッと私の方に入ってきて、とても良い気持ちになってきて、なんだか嬉しくて涙がこぼれそうになってきた。<br/><br/>それは、観音様の霊が私に入ってきたんですよ。<br/><br/>それは非常に意味があるんです。<br/><br/>というのは、聖徳太子はつまり千手観音様が懸られたんです。<br/><br/>ですから千手観音のお働きですがね。<br/><br/>あの時には大体時代が時代ですから小さいお働きだったですね。<br/><br/>まあ、千手観音じゃなく百手観音様かもしれませんがね。<br/><br/>そこで仏教を観音様が、つまり日本に本当に御自分が出るまでの間、仏教を日本に弘めて、それで救わなければならないと、そうして聖徳太子を働かせて、とにかく仏教を始められたんですね。<br/><br/>ですから奈良は仏教発祥の地です。<br/><br/>そこで奈良という所は、何宗何宗というなにはないんです。<br/><br/>仏教には真宗とかいろいろありますが、それは後から寺をそういうふうにしたもので、本当から言うと奈良には開祖なんていうのはないんです。<br/><br/>だからあれは原始仏教ですね。<br/><br/>本当の原始仏教ですよ。<br/><br/>その後に至っては法然とか、空海、伝教、親鸞――そういう人たちが出て開祖になって、今のいろいろな宗門を作ったんですがね。<br/><br/>それから山岳仏教ですね。<br/><br/>高野山とか、比叡山ですね。<br/><br/>その時になって民間仏教ですね。<br/><br/>つまり在界〔家〕の仏教ですね。<br/><br/>ですから奈良は純然たる原始仏教であって、その発祥の地ですね。<br/><br/>で、仏教を始められたのは聖徳太子ですからね。<br/><br/>聖徳太子は千手観音様の働きをされたわけですね。<br/><br/>で、その後千二、三百年という間は法隆寺の夢殿におられたんですね。<br/><br/>聖徳太子という方は、仏教を始めるについては、やはり芸術によって弘めたんです。<br/><br/>そこで、つまりあの地を卜（ぼく）して七堂伽藍を造られたんです。<br/><br/>だからいろいろなことに精通されていたんですね。<br/><br/>で、ひとり芸術ばかりでなく、十七条の憲法なんか作ったんですね。<br/><br/>憲法といっても、日本における憲法の最初は聖徳太子ということになりますね。<br/><br/>ですから政治的知識も非常にあられたんですね。<br/><br/>ですけれども、とにかく仏教を美術によって開こうということになった。<br/><br/>そのためにあの時代の仏教美術というものは非常にさかんになって、まあ奈良の大仏なんて、ああいった驚くべき――あの時代にあのくらいの立派なものを作るということは、ほとんど人間業以上ですね。<br/><br/>ちょうど私はそれを世界的にしたようなものです。<br/><br/>で、私は芸術によってメシヤ教を開くということは、ちょうど聖徳太子がやられたことを、もっと大きくして――世界的にしてやるのと同じですね。<br/><br/>それで私が今やっていることは、つまり千手観音の働きになるわけなんです。<br/><br/>ですから私が一番最初に始めた時の観音会ですね。<br/><br/>観音会を作るに当たって――それが昭和九年の十月でしたね。<br/><br/>観音会を作ったんですが、その時に千手観音を画いたんです。<br/><br/>これから千手観音の働きというわけですね。<br/><br/>私はその時には気がつかないで、画きたいから画いたんですが、今日になってみると、そういう必要があってやらされたんですね。<br/><br/>ですから現在私がいろんなことに手を出して、なんでもやりますが、千手観音の働きですからいろんなことをやるわけですね。<br/><br/>で、千本の手にいろんなものを握りますがね。<br/><br/>握るといって、懐に入れちゃうわけじゃないんです。<br/><br/>あらゆるものを救われるんですね。<br/><br/>救うということは、それを自由にしなければ救えないから、つまり言うことを聞かなければね。<br/><br/>それで、握れば自由自在になりますから、それで思うように救えるわけですね。<br/><br/>そういうことは大体知ってましたが、今度夢殿に行って、そうしてなおはっきり分かったんです。<br/><br/>つまり聖徳太子がやられることがね。<br/><br/>私に懸ったわけですね。<br/><br/>だからやはりメシヤ教のために大いに働かれることになったんです。<br/><br/>ですからもう夢殿には霊がいられなくなったんですね。<br/><br/>だから、今に開けっ放しになるかもしれませんがね。<br/><br/>で、そういう神様のことというのはちゃんと、年限でも時でもすべて決まっているんですからね。<br/><br/>そんなら早くそうしたら良いだろうというが、そうはいかない。<br/><br/>やっぱり時期時期によってそうなっている。<br/><br/>やはり「神は順序なり」でね。<br/><br/>花が咲いて実がなるのと同じでね。<br/><br/>いくら神様がみんなにきれいなものを見せたいといって、正月に桜が咲くことはないんですからね。<br/><br/>そういった、時と順序それは厳然として動かすことはできない。<br/><br/>それで夢殿は聖徳太子が始終仕事をなさるのに、ちょうど夢殿がある所で仕事をなさったんです。<br/><br/>それを記念としてあそこに夢殿を作ったんですからね。<br/><br/>つまり奈良の中心は法隆寺で、法隆寺の中心は夢殿というんですから、仏教の中心は日本においては夢殿ですね。<br/><br/>あれが中心といっても良いですね。<br/><br/> 今度、その他に京都にいずれ地上天国を造らなければならない。<br/><br/>そういう適当な敷地があるというので、それを見てくれというから、それを見たんですが、これは大体条件はまず良いですね。<br/><br/>時期が来たら手に入るだろうと思ってます。<br/><br/>で、そんなわけで美術館なんかにしても、仏教美術――そういうものについて大いに知識を得たわけですね。<br/><br/>大体仏像やそういうものについてはあらかた分かったですから、いずれはそういったような美術館も京都に造りたいと思ってます。<br/><br/>旅行の話はそのくらいにして。<br/><br/> 今度『新宗教新聞』というのができて、それになにか原稿を書いてくれというので書いたところが、間に合わないので、一号には出なかったが二号に出るでしょう。<br/><br/>メシヤ教の記事も出てましたね。<br/><br/>良く書いてありました。<br/><br/>その原稿を――これは現在の宗教家に言うことなんで、参考になりますからね。<br/><br/> （御論文「今後吾等は如何にすべきや」〔新生日本への希望〕） これは良く知っていることですが、非常にはっきりしている結核問題ですが、はっきりしているお蔭話です。<br/><br/>説明をつけて書いたんです。<br/><br/> （「恐るべき医学迷信」）【栄光 一五七号】 こんなようなわけで、肺を取り巻いている膜と膜の間に空気を入れて、肺を圧迫するんですね。<br/><br/>だから肺が、こう（伸縮自由）なっていたのが、少ししかならなくなる。<br/><br/>つまり肺の絶対安静ですね。<br/><br/>それでだんだん萎びていくんです。<br/><br/>あれは人間でも、手など使わずにおくとだんだん萎びてきます。<br/><br/>あれと同じです。<br/><br/>萎びてくるから空洞が小さくなる。<br/><br/>あれで良いように思っているが、あれをふつうにするとまた空洞も大きくなる。<br/><br/>つまらないことなんですよ。<br/><br/>だから気胸というのは、一時的に症状が減るんですね。<br/><br/>それで治ると、こういうふうに間違えちゃったんです。<br/><br/>もう一つは、外科のお医者さんと内科のお医者さんが意見が違うんですが、外科のお医者さんは、町を歩いていても自動車事故がある。<br/><br/>だから請け負えないということに至っては、なんと言って良いか言い方がないですね。<br/><br/>あまりに馬鹿馬鹿しいです。<br/><br/>だから、医学なんていうのは、当たり外れなんです。<br/><br/>だから請け負えないんですね。<br/><br/>医学のいろんな――よくラジオなんかの質問に対する解答が、決してはっきり言わない。<br/><br/>「治るはずです」とか「治るわけです」とか「治ると思います」とか「治ることになっている」とか曖昧きわまるんです。<br/><br/>あんな馬鹿馬鹿しいことに命を任せるんですから、実に危ない世の中なんです。<br/><br/>これほど危険な時代はないでしょう。<br/><br/>いつも言ってますが、そんなような具合でありますけれども、だんだん浄化が強くなりますから、いずれは二進（にっち）も三進（さっち）も行かなくなって、それかちこっちの言うことが本当に解ってくるんですから、もう一息ですよ。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

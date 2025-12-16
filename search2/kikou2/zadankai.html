@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>zadankai</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 座談会巡りある記 （明主様の書と絵に及ぶ） 江川勝利 『地上天国』28号、昭和26(1951)年9月25日発行 耳の宣伝が初まってから、講演会、座談会が各地で盛んになった。<br><br>自然農法を別として、東京都内や近県の座談会によく出席を求められるが、未信者へや宣伝と云う意味より、信者の集会であり、何か、心に触れる話を聞きたい。<br><br>と云うのが、その目的であるらしい。<br><br>浄霊の有難さは絶対であり、身に泌みて知っているが、信仰を深める為に話を求める傾向が、近頃特に顕著である。<br><br>と私は見た。<br><br> 救世教の真髄を掴み、信仰を深めるには、御神書をよく読むことに尽きる。<br><br>と断言出来るが、これを、もっと砕いて、謬ちなく敷衍（ふえん）することは実際にやって見て実に難かしい仕事である。<br><br>難しく困難であるとしても、信者が求めるなら、矢張り与えて協力すべきである。<br><br>と思い、自分自身の修業のためにも努めて出席しているのである。<br><br>生長の家から転信したある信者は、例祭に行って、法話のようなお話が無いので物足りない。<br><br>と云ったが、なる程、生長の家は、話以外に何物もないので、勢い講話には熱心である。<br><br>ところが、その話は、基仏神の三教を谷口流に解釈総合したものだ、と私は思っているが、一般の人はその言葉に眩惑され、満足しているからまあーいいようなものの、ある会長は、私に、神を哲学的に説いて貰いたい。<br><br>と云った。<br><br>哲学的に、と云う意味は解らないが、そうした晦渋（かいじゅう）、難解を極めた哲学的用語を使えば、学問的造詣が深いように思えて、解らなくても満足するのかも知れない。<br><br>神が哲学で説けるなら、私は神を信じない。<br><br>と拒絶した事がある。<br><br>こうした座談会などの機会に、各教会を巡り歩いて見ると、いい点、悪いと思う事などが、いろいろと目に付く。<br><br>持ち前の無遠慮さで、歯に衣を着せずに、卒直に書いて、教えを乞いたい。<br><br> 例祭の日に呼ばれて、当惑する事がある。<br><br>それは礼拝の順序が、それぞれ違う事と、祝詞、善言讃詞の奏上も、言葉の遅速が甚だしく、肝要な、浄霊の方法もまた、甚だ違っているのは、どう云う訳であろうか。<br><br>道を信じる信者は非常に素直である。<br><br>勢い、直接指導する人の影響を受けるので、その人の癖でも、そのまま、真似るのではあるまいか。<br><br>総て、明主様の御教えに従い、本部のそれに倣うべきである。<br><br> 教会に依っての相違は、こう云う点にも現われている。<br><br>浄霊に主眼を置くところ、霊研究に異常に執心するところ、この折衷でゆくところなぞに大別出来そうである。<br><br>例祭日か、浄霊日か分明せぬところもある。<br><br>これらの問題は、決して軽視すべきではなく、乱れる根本である。<br><br>と考えるが如何がなものであろうか。<br><br> 厭なことを先にしたが、嬉しいこと、楽しい事はもっと沢山ある。<br><br>それは、信仰の篤い人に逢える事や、見るからに朴直な人の口から、誠の籠ったお蔭ばなしを聞いたり、指導者の並々ならぬ苦心を知って、頭下がったりする事である。<br><br> もっと楽しいのは、私の拙ない話であっても、疑問が釈（と）けたり、入信する決心が付いた。<br><br>などと、云われた時であり、その外に私個人の楽しみがある。<br><br>というのは、信者の家へ行って見ると、その人が入信したのは、何年前頃かが解るからで、それは、御書体の筆蹟と、その意味で判断が付くからであるが、古い信者は、春光、春暉、神風、金龍、金龍神、日月、五六七、救世、など、昨今はお書きにならない御書体が懸けてあるからだ。<br><br>そうした時代のものから、現今の大経綸、散花結実、短冊、色紙に至る迄、空間狭しと埋め尽す程懸けてあるのは中教会、やや少いのは教会と、熱心な信者の順であろう。<br><br> 御書体の歴史は、救世教の歴史であり、それと共に歩いて来た、信者の歴史を物語っていて、興味深く、有難く拝見するのである。<br><br> 床の間が、幾つもある恵まれた信者の家には、今は昔、明主様がお描きなされた、観音像の画幅が懸けてあったのも、私は、有難く拝ませて戴いた。<br><br>明主様の描がかれる画像は、粉本をどこにお求めになったのか、と思うことがある。<br><br>明主様の御画像は、日本の古来の画匠にもない独特の御創意であって、あの御神像をつつむ円光は（霊衣と云うべきか）日本の画家のものではなく、光背、光輪とも違うのであって、仏壇にお祀りしてある千手観音像と共に、明主様だけのもの、と拝察する。<br><br>余程以前、美術書で、求聞持虚空蔵菩薩像の一幅を見たが、それは筆者不明、時代は鎌倉中期と推定されるが、大白円光を描き、その中に端座する菩薩像。<br><br>その周囲は薄い墨で、明主様のお描きなされた円光が、描かれてあるのを見た記憶がある。<br><br>この虚空蔵菩薩像の粉本は支那伝来と伝えられているが、それ以外に例類のない、明主様独特の画像と拝察し、それを拝観出来た冥加は、座談会、出席の賜物である、と感謝している次第である。<br><br>座談会の記述が絵に及んだので、もう一つ明主様の御画像、巌上観音は、京都、大徳寺にある、南宋の画僧、牧谿の描いた、中観音、左右、猿鶴の珍らしい画材に、由来するのであろうか、などと、臆測を逞ましくしたり、又、御書体の総てが、右書きであるのはどのような意味を持つものであろうか、などと私らしい愚かな考をしたりするのである。<br><br> 要するに、明主様の御染筆の一つ一つが、いくら見ても珍らしく、有難く、そして、そうした古いものをお待ちの信者の方がうらやましく思い、何故、その古い時代に自分が教団に入れなかったか、後悔の臍を噛むのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Reflexões sobre os Encontros de Fé e a Arte Divina de Meishu-Sama</h2>
 <p>Desde que a difusão dos Ensinamentos por meio da palavra falada se intensificou, palestras e encontros de intercâmbio de fé têm florescido em diversas localidades. Com exceção dos compromissos relacionados à Agricultura Natural, sou frequentemente convidado para esses encontros em Tóquio e nas províncias vizinhas. Contudo, percebo que seu propósito raramente é a divulgação para não-membros; são, em essência, assembleias de fiéis que anseiam por ouvir algo que lhes toque o coração. A grandiosidade do Johrei é uma verdade absoluta, profundamente sentida por todos, mas notei que, recentemente, tornou-se especialmente proeminente a tendência de buscar a palavra como meio para aprofundar a fé.</p>
@@ -104,5 +256,48 @@ function toggleLang(lang) {
 <p>Na residência de um membro afortunado, com vários tokonoma, tive a graça de reverenciar um antigo kakemono com a imagem de Kannon (観音) pintada por Meishu-Sama. Isso me fez ponderar sobre a origem dos modelos que Ele utilizava. Suas representações possuem uma concepção única, que não se encontra nos antigos mestres da pintura japonesa. A auréola circular que envolve Suas imagens sacras – talvez fosse mais apropriado chamá-la de “manto espiritual” – não se assemelha às dos artistas nipônicos, sendo distinta tanto do halo de luz (kōhai) quanto da auréola (kōrin). É uma criação exclusiva de Meishu-Sama, assim como as estátuas de Senju Kannon que veneramos nos altares. Lembro-me de ter visto, há muito tempo, em um livro de arte, a imagem do Bodhisattva Gumonji Kokūzō, de autor desconhecido e datada do período Kamakura, que apresentava um grande círculo branco envolvendo a figura, com um sombreado ao redor que remetia à auréola pintada por Meishu-Sama. Embora se diga que o modelo para essa obra tenha vindo da China, não conheço nenhum outro exemplo similar. Por isso, considero o estilo de Meishu-Sama incomparável, e a oportunidade de contemplá-lo foi uma das maiores dádivas que recebi ao participar desses encontros de fé, pela qual sou imensamente grato.</p>
 <p>Já que meu relato sobre os encontros de fé derivou para a arte, permito-me mais um devaneio. Especulo se a pintura “Kannon sobre a Rocha” não teria sua origem na rara composição do monge-pintor chinês Mokkei, da dinastia Song do Sul, cujo tríptico, composto pela imagem central de Kannon e ladeado por um macaco e uma garça, se encontra no templo Daitoku-ji, em Quioto. Outra de minhas reflexões ingênuas é sobre o possível significado por trás do fato de todas as caligrafias de Meishu-Sama serem escritas da direita para a esquerda.</p>
 <p>Em suma, cada uma das Obras de Meishu-Sama é singular, maravilhosa e digna de infinita admiração. Sinto uma profunda admiração pelos membros que possuem exemplares tão antigos e lamento amargamente não ter ingressado em nossa Igreja naqueles tempos primevos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 座談会巡りある記 （明主様の書と絵に及ぶ） 江川勝利 『地上天国』28号、昭和26(1951)年9月25日発行 耳の宣伝が初まってから、講演会、座談会が各地で盛んになった。<br/><br/>自然農法を別として、東京都内や近県の座談会によく出席を求められるが、未信者へや宣伝と云う意味より、信者の集会であり、何か、心に触れる話を聞きたい。<br/><br/>と云うのが、その目的であるらしい。<br/><br/>浄霊の有難さは絶対であり、身に泌みて知っているが、信仰を深める為に話を求める傾向が、近頃特に顕著である。<br/><br/>と私は見た。<br/><br/> 救世教の真髄を掴み、信仰を深めるには、御神書をよく読むことに尽きる。<br/><br/>と断言出来るが、これを、もっと砕いて、謬ちなく敷衍（ふえん）することは実際にやって見て実に難かしい仕事である。<br/><br/>難しく困難であるとしても、信者が求めるなら、矢張り与えて協力すべきである。<br/><br/>と思い、自分自身の修業のためにも努めて出席しているのである。<br/><br/>生長の家から転信したある信者は、例祭に行って、法話のようなお話が無いので物足りない。<br/><br/>と云ったが、なる程、生長の家は、話以外に何物もないので、勢い講話には熱心である。<br/><br/>ところが、その話は、基仏神の三教を谷口流に解釈総合したものだ、と私は思っているが、一般の人はその言葉に眩惑され、満足しているからまあーいいようなものの、ある会長は、私に、神を哲学的に説いて貰いたい。<br/><br/>と云った。<br/><br/>哲学的に、と云う意味は解らないが、そうした晦渋（かいじゅう）、難解を極めた哲学的用語を使えば、学問的造詣が深いように思えて、解らなくても満足するのかも知れない。<br/><br/>神が哲学で説けるなら、私は神を信じない。<br/><br/>と拒絶した事がある。<br/><br/>こうした座談会などの機会に、各教会を巡り歩いて見ると、いい点、悪いと思う事などが、いろいろと目に付く。<br/><br/>持ち前の無遠慮さで、歯に衣を着せずに、卒直に書いて、教えを乞いたい。<br/><br/> 例祭の日に呼ばれて、当惑する事がある。<br/><br/>それは礼拝の順序が、それぞれ違う事と、祝詞、善言讃詞の奏上も、言葉の遅速が甚だしく、肝要な、浄霊の方法もまた、甚だ違っているのは、どう云う訳であろうか。<br/><br/>道を信じる信者は非常に素直である。<br/><br/>勢い、直接指導する人の影響を受けるので、その人の癖でも、そのまま、真似るのではあるまいか。<br/><br/>総て、明主様の御教えに従い、本部のそれに倣うべきである。<br/><br/> 教会に依っての相違は、こう云う点にも現われている。<br/><br/>浄霊に主眼を置くところ、霊研究に異常に執心するところ、この折衷でゆくところなぞに大別出来そうである。<br/><br/>例祭日か、浄霊日か分明せぬところもある。<br/><br/>これらの問題は、決して軽視すべきではなく、乱れる根本である。<br/><br/>と考えるが如何がなものであろうか。<br/><br/> 厭なことを先にしたが、嬉しいこと、楽しい事はもっと沢山ある。<br/><br/>それは、信仰の篤い人に逢える事や、見るからに朴直な人の口から、誠の籠ったお蔭ばなしを聞いたり、指導者の並々ならぬ苦心を知って、頭下がったりする事である。<br/><br/> もっと楽しいのは、私の拙ない話であっても、疑問が釈（と）けたり、入信する決心が付いた。<br/><br/>などと、云われた時であり、その外に私個人の楽しみがある。<br/><br/>というのは、信者の家へ行って見ると、その人が入信したのは、何年前頃かが解るからで、それは、御書体の筆蹟と、その意味で判断が付くからであるが、古い信者は、春光、春暉、神風、金龍、金龍神、日月、五六七、救世、など、昨今はお書きにならない御書体が懸けてあるからだ。<br/><br/>そうした時代のものから、現今の大経綸、散花結実、短冊、色紙に至る迄、空間狭しと埋め尽す程懸けてあるのは中教会、やや少いのは教会と、熱心な信者の順であろう。<br/><br/> 御書体の歴史は、救世教の歴史であり、それと共に歩いて来た、信者の歴史を物語っていて、興味深く、有難く拝見するのである。<br/><br/> 床の間が、幾つもある恵まれた信者の家には、今は昔、明主様がお描きなされた、観音像の画幅が懸けてあったのも、私は、有難く拝ませて戴いた。<br/><br/>明主様の描がかれる画像は、粉本をどこにお求めになったのか、と思うことがある。<br/><br/>明主様の御画像は、日本の古来の画匠にもない独特の御創意であって、あの御神像をつつむ円光は（霊衣と云うべきか）日本の画家のものではなく、光背、光輪とも違うのであって、仏壇にお祀りしてある千手観音像と共に、明主様だけのもの、と拝察する。<br/><br/>余程以前、美術書で、求聞持虚空蔵菩薩像の一幅を見たが、それは筆者不明、時代は鎌倉中期と推定されるが、大白円光を描き、その中に端座する菩薩像。<br/><br/>その周囲は薄い墨で、明主様のお描きなされた円光が、描かれてあるのを見た記憶がある。<br/><br/>この虚空蔵菩薩像の粉本は支那伝来と伝えられているが、それ以外に例類のない、明主様独特の画像と拝察し、それを拝観出来た冥加は、座談会、出席の賜物である、と感謝している次第である。<br/><br/>座談会の記述が絵に及んだので、もう一つ明主様の御画像、巌上観音は、京都、大徳寺にある、南宋の画僧、牧谿の描いた、中観音、左右、猿鶴の珍らしい画材に、由来するのであろうか、などと、臆測を逞ましくしたり、又、御書体の総てが、右書きであるのはどのような意味を持つものであろうか、などと私らしい愚かな考をしたりするのである。<br/><br/> 要するに、明主様の御染筆の一つ一つが、いくら見ても珍らしく、有難く、そして、そうした古いものをお待ちの信者の方がうらやましく思い、何故、その古い時代に自分が教団に入れなかったか、後悔の臍を噛むのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

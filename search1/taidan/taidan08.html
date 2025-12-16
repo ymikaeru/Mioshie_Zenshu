@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>taidan08</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ある客との対談 『光』27号、昭和24(1949)年9月17日発行 最近対談した客は、警察方面の重要な仕事を大規模にしている人である。<br><br> 客 「いま日本は防共に最も関心を持っている。<br><br>そのため警察力をもっと強化しなければならないが、警察官を増加することはちょっと困難な理由があるので、このままで現在の国警機能をもっと強化させなければならない。<br><br>万一の場合、最も迅速な連携的行動が必要である。<br><br>そのためもっか努力中である」 私 「なるほど、それも結構である。<br><br>当面の急を救うとしては、それ以外に手がないことはわれらも賛成である。<br><br>しかしそれだけでは一時的で、根本的恒久的ではない。<br><br>とすればどうしても物質的方法以外、精神的の対象が必要である。<br><br>それには勿論信仰である。<br><br>既成宗教では勿論力はない。<br><br>それは現実が示している。<br><br>どうしてもいままでにないような新しい強力な宗教でなくては駄目だ。<br><br>判りやすく言えばこうである。<br><br>今日の医学である。<br><br>医学の行なっている方法は、病原はなんでも黴菌としている。<br><br>それがため黴菌を恐れることはなはだしく、朝野（ちょうや）とも黴菌恐怖症に罹っていると言ってもいい。<br><br>と言うのは黴菌が体内に侵入すると発病するという危険があるからで、これも現在としてはやむを得ない手段である。<br><br> ところがいかに黴菌が侵入しても発病しないという健康体になれば、それで問題は解決だということと理屈は同じことである。<br><br>つまり共産主義にしろ何々主義にしろ、良いものなら採り入れる、悪いものは排撃するというように、その判別の力を民衆がもてばよいのである。<br><br>その判別の力こそ、黴菌に犯されない健康体と同様で、言わば思想の健康体である。<br><br>それには力ある宗教によるよりほかはない。<br><br>故に警察強化と宗教強化と相まって進むことこそ理想的である」 客 「よく判りました。<br><br>貴教も大いにやってもらいたい」 と言って帰った。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Diálogo sobre a Defesa da Nação</h2>
 <p>Recentemente, tive um diálogo com uma autoridade de alto escalão das forças policiais.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Permita-me ilustrar com uma analogia da medicina contemporânea. A medicina atual postula que a causa de todas as doenças reside nos micróbios. Consequentemente, o temor a esses micro-organismos tornou-se exacerbado, a ponto de se poder afirmar que toda a sociedade, das altas esferas ao povo, padece de uma verdadeira fobia de micróbios. Isso se deve ao risco de que a invasão do corpo por micróbios possa desencadear enfermidades, uma precaução que, no cenário atual, é compreensível.</p>
 <p>Todavia, o cerne da questão é que, se o indivíduo possuir um corpo saudável, imune ao desenvolvimento de doenças mesmo diante da invasão de micróbios, o problema estará fundamentalmente resolvido. O mesmo raciocínio se aplica às ideologias. Seja o comunismo ou qualquer outro 'ismo', o povo deve possuir a capacidade de discernimento para acolher o que é benéfico e repelir o que é nefasto. Essa capacidade de discernimento é análoga a um corpo saudável, imune aos micróbios; é, por assim dizer, a constituição de uma saúde ideológica. E tal saúde só pode ser alcançada por meio de uma religião verdadeiramente poderosa. Sendo assim, o ideal é que o fortalecimento das forças policiais e o fortalecimento espiritual por meio da religião avancem em conjunto, um complementando o outro."</p>
 <p>"Compreendi perfeitamente. Espero que sua religião se empenhe grandemente nessa missão", disse ele, ao se despedir.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ある客との対談 『光』27号、昭和24(1949)年9月17日発行 最近対談した客は、警察方面の重要な仕事を大規模にしている人である。<br/><br/> 客 「いま日本は防共に最も関心を持っている。<br/><br/>そのため警察力をもっと強化しなければならないが、警察官を増加することはちょっと困難な理由があるので、このままで現在の国警機能をもっと強化させなければならない。<br/><br/>万一の場合、最も迅速な連携的行動が必要である。<br/><br/>そのためもっか努力中である」 私 「なるほど、それも結構である。<br/><br/>当面の急を救うとしては、それ以外に手がないことはわれらも賛成である。<br/><br/>しかしそれだけでは一時的で、根本的恒久的ではない。<br/><br/>とすればどうしても物質的方法以外、精神的の対象が必要である。<br/><br/>それには勿論信仰である。<br/><br/>既成宗教では勿論力はない。<br/><br/>それは現実が示している。<br/><br/>どうしてもいままでにないような新しい強力な宗教でなくては駄目だ。<br/><br/>判りやすく言えばこうである。<br/><br/>今日の医学である。<br/><br/>医学の行なっている方法は、病原はなんでも黴菌としている。<br/><br/>それがため黴菌を恐れることはなはだしく、朝野（ちょうや）とも黴菌恐怖症に罹っていると言ってもいい。<br/><br/>と言うのは黴菌が体内に侵入すると発病するという危険があるからで、これも現在としてはやむを得ない手段である。<br/><br/> ところがいかに黴菌が侵入しても発病しないという健康体になれば、それで問題は解決だということと理屈は同じことである。<br/><br/>つまり共産主義にしろ何々主義にしろ、良いものなら採り入れる、悪いものは排撃するというように、その判別の力を民衆がもてばよいのである。<br/><br/>その判別の力こそ、黴菌に犯されない健康体と同様で、言わば思想の健康体である。<br/><br/>それには力ある宗教によるよりほかはない。<br/><br/>故に警察強化と宗教強化と相まって進むことこそ理想的である」 客 「よく判りました。<br/><br/>貴教も大いにやってもらいたい」 と言って帰った。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ganrik05</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 明主様の御眼力 （五） 神成大教会 岡庭真次郎 『地上天国』45号、昭和28(1953)年2月25日発行 昭和九年一月一日明主様よりの御命令に依り「御観音様を先に礼拝して大本教の神様の礼拝は後にする様に」と今迄とは逆になったのでありました。<br><br>いよいよ大本教脱退の御準備と拝察されまして何とも言えぬ明るい気持となりました。<br><br>なお本日より昭和の桃太郎は立ち上り東京の鬼ケ島を征服すべく人類愛善新聞を売り始めたのであります。<br><br>観音様が桃太郎であられるから、明主様こそは昭和の桃太郎であられる事は当然で、その御旗の下に御用させて戴く我々こそは犬猿雉である事も当然で、この一月一日より東京の御経綸が表面化されたためで、今迄新聞を売る信者の事を愛善隊と称しておりましたが、これもその日より観音隊と御命名下されました。<br><br>観音隊は奮い立ち遂に我大森支部は毎週一万四千部を売り尽し、遂に日本一となったのであります。<br><br>特に物凄いのは三日にして一万四千部を売切りレコードを作り、綾部大本教本部みろく大祭に参列、出口聖師、二代様、日出麿師の前にて宣伝使一級昇格の賞状を頂く始末、悪罵嘲笑の中でも実力あるためかくせざるを得なくての昇級は実に皮肉なものでした。<br><br>一月二日には明主様より一同に「今後は益々口を謹め、神様の御邪魔になる」と御諭しの御言葉を戴きましたが、これこそ余りの口惜しさの余りに、つい出る言葉の事でありました。<br><br>私達は余りに癪にさわるためつい強い言葉も飛び出したもので、誠に有難い御慈しみの余りの御言葉を感謝致した次第でありました。<br><br> 明主様から日頃神様に命を助けられたのにもかかわらず神様の御用をしないような者は必ず後になって御気付けがあると承っておりましたが、一月三日信者内山晴三郎氏は御神業のために何一つとして表さないため神様よりの御気付けにて足腰立たずいかんともする事が出来ぬために、明主様に御願いの使いが見えました。<br><br>御命令に依り私が御取次に行きましたが、非常な御蔭を頂き、一度の御取次で立つ事が出来るようになりました。<br><br>このように御用しない者は神様から御気付けを戴かねばなりません。<br><br>それも今後は一層厳しくなる事と存じます。<br><br>一月四日には明主様は御治療の終られた後御庭に御出になられて凧をお上げになられました。<br><br>明主様の凧は達磨の絵の大きな凧であります。<br><br>私は皆さんがお庭の草むしりをしているので御手伝いを致しますと、明主様が「岡庭さん大将が兵卒の仕事をしては困りますねえ」と御叱りを戴きましたので滅多にお庭には出ないのですが、この日はふとお庭に出て終いました。<br><br>明主様は盛んに凧の糸を繰り出されておられます。<br><br>ところがその凧を仰ぎ見ますと何という壮観、その大凧より紫色の大霊光が、威風あたりを払うと言う言葉は度々聞かされましたが、真に威風あたりを払って四方八方に吹き出すその有様は実に八方を吹き払うごとくで、その御霊光の厚さは、下から拝見して六尺巾位で、非常なる勢をもって吹き出す状態はちょうど花火が八方に吹き出しているような勢で、何とも申しようもなく荘厳に拝されました。<br><br>このため私は大声を出して一同を呼び、皆に拝見させたところ皆々同様に拝見させて頂きました。<br><br>その中明主様はお嬢様に向われて「いつきちゃんちょっと持ってておくれ、お父ちゃんおしっこして来るから」とお嬢様に御渡しになられますと流石の大霊光もパッと消えてしまいましたが、御帰りに成られて凧糸を御手に取られると、又パッと以前同様吹き出したので、私は余りの有難さに明主様に御伺い致しました。<br><br>「これは、一体どういう訳なんで御座いますか」と。<br><br>明主様は「いや何でもないですよ、ただ私の体から出た霊光が手から糸を伝わって行って凧迄行くと伝わるところが無いから凧の廻りから吹き出すだけなんだ」と誠に何でもないと言ったように甚だ簡単に御説明下されたのですが、実に大変な事で一同は恐れ入り感極まって涙さえ流れ出た次第でした。<br><br>明主様の御体からは絶えずこの通り御霊光が発せられておられるのですが、神様の御都合で一般に見えにくくしてあるのですが、この日ばかりは誰も彼も拝見させて戴けて誠に有難い次第でありました。<br><br> 一月七日明主様には奥様と御同伴にて私の家の月並祭に御いで下さいまして、祭典終了後にここから大黒天やエビス様をお祀りすれば福が来る事になるから、経済的に楽になるからとの御話あり、有難い事と私は早速この日第一番に大黒様とエビス様を御開眼戴きましたが、ちょうど七福神の花瓶がありましたので献上させて頂きました。<br><br>一月八日には夕方より明主様御講話の後第一回雄弁大会が催され、御命令により私が司会者とならせて頂き、各雄弁士非常な熱弁を奮われ、盛会を極めた事でした。<br><br>越えて一月十一日本部座談会の時大本神諭の中に「木に日が掛り小里の者がさわぎ出す」とのお筆先が出ました。<br><br>′明主様は早速この御解説をして下さいました。<br><br>「木に日が掛りとは、木に日をからめれば東となる。<br><br>小里の者とは者扁に[コザト]を加えると都となり、いよいよ明主様が御出現になられると東都がさわぎ出すと云う意味なのだ」と御教え賜わったのです。<br><br>一月十六日は文芸の発表会で笑和会笑冠句の発表に先立って、明主様創作の珍無顆滑稽文学、阿呆陀羅教を御始めになられました。<br><br>ちょっとその内容を少々拝借させて頂いて御目に掛ければ『まずはそんじょそこらに八宗九宗ある、信者を片端からこの阿呆、近頃検べ上げて見りゃ、恐れ入谷の鬼子母神、驚き桃の木山椒の木。<br><br>摺古木棒を見たように、後戻りしては又進み、進むと思えば後戻り、年が年中一所、行ったり来たりするような、信者がウヨウヨして御座る。<br><br>そりゃ又阿呆め怪しからぬ、事申すなとお腹立。<br><br>なさらず胸をおちつけて、阿呆の言う事一通り、開いて下され本当に。<br><br>判ったならばこんなにも、有難い信仰あったのかと、臍を噛まずにゃ居られない』と言った調子の面白さに一同は笑冠句と共に笑い転げたのでしたが、この御文章こそ笑の内にいとも深き御教えを頂戴出来る有難い御神諭でもあり、又アハハ、アハハと笑いによって悪気を吐き出して御浄めを戴ける実に有難い御神意によって御始め下された尊い文学であったのです。<br><br> （目下罪障消滅中として『光明世界』に発表） 次の 十七日は三五（あなない）荘の月並祭において明主様には日本対世界の大戦争の御予言を発表されました。<br><br>一々細かく例を引かれて御話し下されたのですが、型から御説明下されたので誠によく判らせて頂けました。<br><br>明主様が御発表なされる事は必ず実現されるので実に恐れ入るの外はありません。<br><br>型を一切書けば実に面白いのですが、色々の方面に差支を生じますので型抜きにして大体の御話を書かせて頂きますと、英米仏露支那等が同盟して日本を亡しに掛り、結局朝鮮、満洲、樺太、台湾、南洋等は取られる時が来るのだ。<br><br>そして日本は軍隊も無くなり、特に大名華族始め富豪等も大変な難儀な事になるのだ。<br><br>その内経済封鎖の挙に出るかも知れないし、いよいよ日本の危機は近づいて来たのだ。<br><br>日本対世界の大戦事大苦境が来るのだ。<br><br>孤立日本の重大危機だ、重大事件の起る事は確実だと御話があり、次に又神様の御用にも幸不幸が非常にあるが何故だ、同じ努力しても神様はそのような不公平にどうしてするのか。<br><br>と聞くだろうが、それがそれ大本にも日本と外国との型があり善と悪とがあるのだ。<br><br>大本の神様ですらこの通り二通りあるとすれば世間は推して知るべしだ。<br><br>日本にやはり日本と外国の型のあるように色々の因縁によって致し方が無いのだ。<br><br>私の御神業は大本中の大本なのだ。<br><br>日本の中の日本だ。<br><br>日本が良くなければ外国は傾くのだ。<br><br>日本が勝てば外国は負けるのだ。<br><br>私が発展すれば他の信仰はへコタレルのだ。<br><br>いよいよ大森が東京を統一すれば東京の信者は落ちるかこちらへ入信換えするより外に無いのだ。<br><br>その上日本の信者を統一すると始めて日本国内に大難が来る事となるのだ。<br><br>大国難世界対日本の大戦争となるのだ。<br><br>と御話し下さいましたが、御言葉通りの日本となってしまったのですが、この時代の我日本は、明主様のこのような御心配も上の空で、ただただ悪口ばかり吐いており、なお又軍部や官憲にこのような事が洩れたならば明主様はいかなる大難に遭遇なされたかは、あの軍部の横暴なりしをもっても想像される事であります。<br><br>昔から沢山例のある通りで、新しい説を称えたり、予言警告して国家を憂い国難を救わんとする偉人のいかに苦心惨憺されたかを思う時、我々はいかになさけなく口惜しい事でしょう。<br><br>しかし又我々は大救世主であられる明主様を戴いての御用なるため、一方実に楽しく嬉しく歓喜に満ち満ちて御用させて戴ける有難い御用で、この点実に幸であります。<br><br> 一月二十三日明主様のお供して中島左右彦氏の杉並支部新設の御祭に参拝させて頂きましたが、丁度この日に荒木陸相辞職して新たに林銑十郎大将が陸相に就任した事は非常に面白い型なのでありますが発表は遠慮させて頂きます。<br><br>越えて二月二十三日松久茂徳氏が西カ原方面に支部を新設する事となり明主様より東光支部と支部名を賜わりました。<br><br>是に関して明主様より御話を承りました。<br><br>それは「西カ原とは則ち西洋の型を作る事なのだ。<br><br>東光支部と名をつけたのは東方の光即ち神様の光が西洋へ照し始める意味であるからいよいよ西洋にも支部の出来得るようになる前ぶれなので、これが成長して行って西洋が大さわぎになるのだ」との御教えを賜わったのであります。<br><br>ちょうどこの後二月末日頃明主様は大森のお屋敷のお庭に火をお付けになり少しお庭をお焼きになられました。<br><br>すると三穂麿様がお庭の片すみへ極小さなバラックを作られました。<br><br>不思議な事をなさると思っていると約一カ月後に函館の大火となり、いよいよバラックを建てる事になったのであります。<br><br>三月三十一日明主様は三穂麿様と井上氏と三人にてお庭の枯木を引抜きて植換え、道を一本つけられました。<br><br>これで以前作られた道と共に二本の道が作られたのです。<br><br>これは前に作られた道は霊界への道で、今日作られた道は現界へ開ける道が作られた事であり、植木を引抜いて熊笹のあるところへ移した事は外国へ植換えられた事で、明主様はこのようになされて小さな型で世界の御経綸を遊ばされるので有ります。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Clarividência Divina de Meishu-Sama</h2>
 <p>Em 1º de janeiro de 1934, recebemos uma instrução divina de Meishu-Sama que alterava a ordem de nossa prática: a partir daquele dia, deveríamos reverenciar primeiramente Kannon (観音) e, somente depois, as deidades da Oomoto. Interpretamos este ato como o início dos preparativos para o desligamento da Oomoto, o que nos preencheu com uma indescritível sensação de clareza e otimismo. Naquele mesmo dia, o “Momotaro da era Showa” ergueu-se para iniciar a conquista da “Ilha dos Demônios de Tóquio”, por meio da distribuição do jornal <em>Jinrui Aizen Shinbun</em>. Sendo Kannon (観音) a personificação de Momotaro, era natural que Meishu-Sama fosse o Momotaro de nossa era e que nós, seus seguidores, atuássemos como o cão, o macaco e o faisão que o acompanhavam sob seu estandarte. Com o Plano Divino para Tóquio se manifestando abertamente, os distribuidores do jornal, até então chamados de <em>Aizen-tai</em> (Tropa do Amor e do Bem), foram renomeados por Meishu-Sama para <em>Kannon-tai</em> (Tropa de Kannon).</p>
@@ -107,5 +259,48 @@ function toggleLang(lang) {
 <p>Suas palavras descreveram exatamente o destino que aguardava nossa nação. Naquela época, contudo, o Japão ignorava tais preocupações, respondendo apenas com calúnias. Se essas palavras chegassem aos ouvidos dos militares ou das autoridades, é fácil imaginar a perseguição que Meishu-Sama teria sofrido, dada a prepotência do regime militar de então. A história está repleta de exemplos de grandes homens que, ao proporem novas ideias ou advertirem sobre o futuro para salvar sua nação, sofreram as mais amargas provações. Ao refletirmos sobre isso, sentimos uma mistura de vergonha e indignação. Por outro lado, nós, que temos o privilégio de servir ao Grande Messias, Meishu-Sama, sentimos uma alegria e um júbilo imensos em nosso servir. Nesse sentido, somos verdadeiramente afortunados.</p>
 <p>No dia 23 de janeiro, acompanhei Meishu-Sama à cerimônia de fundação do novo Ramo de Suginami, do senhor Sahiko Nakajima. Coincidentemente, naquele mesmo dia, o Ministro da Guerra Araki renunciou, sendo substituído pelo General Senjuro Hayashi, um acontecimento que constitui um protótipo de grande interesse, sobre o qual me abstenho de comentar. Mais tarde, em 23 de fevereiro, o senhor Shigetoku Matsuhisa estabeleceu um ramo na região de Nishigahara, que recebeu de Meishu-Sama o nome de Ramo Toko. A esse respeito, Meishu-Sama nos explicou: "Nishigahara, que significa ‘campo do oeste’, é um protótipo do Ocidente. O nome Toko significa ‘Luz do Leste’. Portanto, a Luz de Deus começa a brilhar sobre o Ocidente. Este é um prenúncio de que poderemos estabelecer ramos no exterior. Este protótipo crescerá e causará uma grande agitação no Ocidente."</p>
 <p>No final daquele mesmo mês de fevereiro, Meishu-Sama ateou fogo a uma pequena parte do jardim de sua residência em Omori. Pouco depois, seu filho, o senhor Mihomaro, construiu um minúsculo barraco naquele local. Achamos o ato curioso, mas cerca de um mês depois, ocorreu o grande incêndio de Hakodate, que exigiu a construção de inúmeros barracos. Em 31 de março, Meishu-Sama, juntamente com o senhor Mihomaro e o senhor Inoue, arrancou árvores secas do jardim, replantou-as e abriu um novo caminho. Com isso, passaram a existir dois caminhos no jardim. O primeiro, feito anteriormente, era o caminho para o Mundo Espiritual; o recém-criado era o caminho que se abria para o Mundo Material. O ato de remover as árvores e replantá-las em uma área onde havia bambus simbolizava o transplante para terras estrangeiras. É desta forma, por meio de pequenos protótipos, que Meishu-Sama conduz Seu Plano Divino para o mundo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 明主様の御眼力 （五） 神成大教会 岡庭真次郎 『地上天国』45号、昭和28(1953)年2月25日発行 昭和九年一月一日明主様よりの御命令に依り「御観音様を先に礼拝して大本教の神様の礼拝は後にする様に」と今迄とは逆になったのでありました。<br/><br/>いよいよ大本教脱退の御準備と拝察されまして何とも言えぬ明るい気持となりました。<br/><br/>なお本日より昭和の桃太郎は立ち上り東京の鬼ケ島を征服すべく人類愛善新聞を売り始めたのであります。<br/><br/>観音様が桃太郎であられるから、明主様こそは昭和の桃太郎であられる事は当然で、その御旗の下に御用させて戴く我々こそは犬猿雉である事も当然で、この一月一日より東京の御経綸が表面化されたためで、今迄新聞を売る信者の事を愛善隊と称しておりましたが、これもその日より観音隊と御命名下されました。<br/><br/>観音隊は奮い立ち遂に我大森支部は毎週一万四千部を売り尽し、遂に日本一となったのであります。<br/><br/>特に物凄いのは三日にして一万四千部を売切りレコードを作り、綾部大本教本部みろく大祭に参列、出口聖師、二代様、日出麿師の前にて宣伝使一級昇格の賞状を頂く始末、悪罵嘲笑の中でも実力あるためかくせざるを得なくての昇級は実に皮肉なものでした。<br/><br/>一月二日には明主様より一同に「今後は益々口を謹め、神様の御邪魔になる」と御諭しの御言葉を戴きましたが、これこそ余りの口惜しさの余りに、つい出る言葉の事でありました。<br/><br/>私達は余りに癪にさわるためつい強い言葉も飛び出したもので、誠に有難い御慈しみの余りの御言葉を感謝致した次第でありました。<br/><br/> 明主様から日頃神様に命を助けられたのにもかかわらず神様の御用をしないような者は必ず後になって御気付けがあると承っておりましたが、一月三日信者内山晴三郎氏は御神業のために何一つとして表さないため神様よりの御気付けにて足腰立たずいかんともする事が出来ぬために、明主様に御願いの使いが見えました。<br/><br/>御命令に依り私が御取次に行きましたが、非常な御蔭を頂き、一度の御取次で立つ事が出来るようになりました。<br/><br/>このように御用しない者は神様から御気付けを戴かねばなりません。<br/><br/>それも今後は一層厳しくなる事と存じます。<br/><br/>一月四日には明主様は御治療の終られた後御庭に御出になられて凧をお上げになられました。<br/><br/>明主様の凧は達磨の絵の大きな凧であります。<br/><br/>私は皆さんがお庭の草むしりをしているので御手伝いを致しますと、明主様が「岡庭さん大将が兵卒の仕事をしては困りますねえ」と御叱りを戴きましたので滅多にお庭には出ないのですが、この日はふとお庭に出て終いました。<br/><br/>明主様は盛んに凧の糸を繰り出されておられます。<br/><br/>ところがその凧を仰ぎ見ますと何という壮観、その大凧より紫色の大霊光が、威風あたりを払うと言う言葉は度々聞かされましたが、真に威風あたりを払って四方八方に吹き出すその有様は実に八方を吹き払うごとくで、その御霊光の厚さは、下から拝見して六尺巾位で、非常なる勢をもって吹き出す状態はちょうど花火が八方に吹き出しているような勢で、何とも申しようもなく荘厳に拝されました。<br/><br/>このため私は大声を出して一同を呼び、皆に拝見させたところ皆々同様に拝見させて頂きました。<br/><br/>その中明主様はお嬢様に向われて「いつきちゃんちょっと持ってておくれ、お父ちゃんおしっこして来るから」とお嬢様に御渡しになられますと流石の大霊光もパッと消えてしまいましたが、御帰りに成られて凧糸を御手に取られると、又パッと以前同様吹き出したので、私は余りの有難さに明主様に御伺い致しました。<br/><br/>「これは、一体どういう訳なんで御座いますか」と。<br/><br/>明主様は「いや何でもないですよ、ただ私の体から出た霊光が手から糸を伝わって行って凧迄行くと伝わるところが無いから凧の廻りから吹き出すだけなんだ」と誠に何でもないと言ったように甚だ簡単に御説明下されたのですが、実に大変な事で一同は恐れ入り感極まって涙さえ流れ出た次第でした。<br/><br/>明主様の御体からは絶えずこの通り御霊光が発せられておられるのですが、神様の御都合で一般に見えにくくしてあるのですが、この日ばかりは誰も彼も拝見させて戴けて誠に有難い次第でありました。<br/><br/> 一月七日明主様には奥様と御同伴にて私の家の月並祭に御いで下さいまして、祭典終了後にここから大黒天やエビス様をお祀りすれば福が来る事になるから、経済的に楽になるからとの御話あり、有難い事と私は早速この日第一番に大黒様とエビス様を御開眼戴きましたが、ちょうど七福神の花瓶がありましたので献上させて頂きました。<br/><br/>一月八日には夕方より明主様御講話の後第一回雄弁大会が催され、御命令により私が司会者とならせて頂き、各雄弁士非常な熱弁を奮われ、盛会を極めた事でした。<br/><br/>越えて一月十一日本部座談会の時大本神諭の中に「木に日が掛り小里の者がさわぎ出す」とのお筆先が出ました。<br/><br/>′明主様は早速この御解説をして下さいました。<br/><br/>「木に日が掛りとは、木に日をからめれば東となる。<br/><br/>小里の者とは者扁に[コザト]を加えると都となり、いよいよ明主様が御出現になられると東都がさわぎ出すと云う意味なのだ」と御教え賜わったのです。<br/><br/>一月十六日は文芸の発表会で笑和会笑冠句の発表に先立って、明主様創作の珍無顆滑稽文学、阿呆陀羅教を御始めになられました。<br/><br/>ちょっとその内容を少々拝借させて頂いて御目に掛ければ『まずはそんじょそこらに八宗九宗ある、信者を片端からこの阿呆、近頃検べ上げて見りゃ、恐れ入谷の鬼子母神、驚き桃の木山椒の木。<br/><br/>摺古木棒を見たように、後戻りしては又進み、進むと思えば後戻り、年が年中一所、行ったり来たりするような、信者がウヨウヨして御座る。<br/><br/>そりゃ又阿呆め怪しからぬ、事申すなとお腹立。<br/><br/>なさらず胸をおちつけて、阿呆の言う事一通り、開いて下され本当に。<br/><br/>判ったならばこんなにも、有難い信仰あったのかと、臍を噛まずにゃ居られない』と言った調子の面白さに一同は笑冠句と共に笑い転げたのでしたが、この御文章こそ笑の内にいとも深き御教えを頂戴出来る有難い御神諭でもあり、又アハハ、アハハと笑いによって悪気を吐き出して御浄めを戴ける実に有難い御神意によって御始め下された尊い文学であったのです。<br/><br/> （目下罪障消滅中として『光明世界』に発表） 次の 十七日は三五（あなない）荘の月並祭において明主様には日本対世界の大戦争の御予言を発表されました。<br/><br/>一々細かく例を引かれて御話し下されたのですが、型から御説明下されたので誠によく判らせて頂けました。<br/><br/>明主様が御発表なされる事は必ず実現されるので実に恐れ入るの外はありません。<br/><br/>型を一切書けば実に面白いのですが、色々の方面に差支を生じますので型抜きにして大体の御話を書かせて頂きますと、英米仏露支那等が同盟して日本を亡しに掛り、結局朝鮮、満洲、樺太、台湾、南洋等は取られる時が来るのだ。<br/><br/>そして日本は軍隊も無くなり、特に大名華族始め富豪等も大変な難儀な事になるのだ。<br/><br/>その内経済封鎖の挙に出るかも知れないし、いよいよ日本の危機は近づいて来たのだ。<br/><br/>日本対世界の大戦事大苦境が来るのだ。<br/><br/>孤立日本の重大危機だ、重大事件の起る事は確実だと御話があり、次に又神様の御用にも幸不幸が非常にあるが何故だ、同じ努力しても神様はそのような不公平にどうしてするのか。<br/><br/>と聞くだろうが、それがそれ大本にも日本と外国との型があり善と悪とがあるのだ。<br/><br/>大本の神様ですらこの通り二通りあるとすれば世間は推して知るべしだ。<br/><br/>日本にやはり日本と外国の型のあるように色々の因縁によって致し方が無いのだ。<br/><br/>私の御神業は大本中の大本なのだ。<br/><br/>日本の中の日本だ。<br/><br/>日本が良くなければ外国は傾くのだ。<br/><br/>日本が勝てば外国は負けるのだ。<br/><br/>私が発展すれば他の信仰はへコタレルのだ。<br/><br/>いよいよ大森が東京を統一すれば東京の信者は落ちるかこちらへ入信換えするより外に無いのだ。<br/><br/>その上日本の信者を統一すると始めて日本国内に大難が来る事となるのだ。<br/><br/>大国難世界対日本の大戦争となるのだ。<br/><br/>と御話し下さいましたが、御言葉通りの日本となってしまったのですが、この時代の我日本は、明主様のこのような御心配も上の空で、ただただ悪口ばかり吐いており、なお又軍部や官憲にこのような事が洩れたならば明主様はいかなる大難に遭遇なされたかは、あの軍部の横暴なりしをもっても想像される事であります。<br/><br/>昔から沢山例のある通りで、新しい説を称えたり、予言警告して国家を憂い国難を救わんとする偉人のいかに苦心惨憺されたかを思う時、我々はいかになさけなく口惜しい事でしょう。<br/><br/>しかし又我々は大救世主であられる明主様を戴いての御用なるため、一方実に楽しく嬉しく歓喜に満ち満ちて御用させて戴ける有難い御用で、この点実に幸であります。<br/><br/> 一月二十三日明主様のお供して中島左右彦氏の杉並支部新設の御祭に参拝させて頂きましたが、丁度この日に荒木陸相辞職して新たに林銑十郎大将が陸相に就任した事は非常に面白い型なのでありますが発表は遠慮させて頂きます。<br/><br/>越えて二月二十三日松久茂徳氏が西カ原方面に支部を新設する事となり明主様より東光支部と支部名を賜わりました。<br/><br/>是に関して明主様より御話を承りました。<br/><br/>それは「西カ原とは則ち西洋の型を作る事なのだ。<br/><br/>東光支部と名をつけたのは東方の光即ち神様の光が西洋へ照し始める意味であるからいよいよ西洋にも支部の出来得るようになる前ぶれなので、これが成長して行って西洋が大さわぎになるのだ」との御教えを賜わったのであります。<br/><br/>ちょうどこの後二月末日頃明主様は大森のお屋敷のお庭に火をお付けになり少しお庭をお焼きになられました。<br/><br/>すると三穂麿様がお庭の片すみへ極小さなバラックを作られました。<br/><br/>不思議な事をなさると思っていると約一カ月後に函館の大火となり、いよいよバラックを建てる事になったのであります。<br/><br/>三月三十一日明主様は三穂麿様と井上氏と三人にてお庭の枯木を引抜きて植換え、道を一本つけられました。<br/><br/>これで以前作られた道と共に二本の道が作られたのです。<br/><br/>これは前に作られた道は霊界への道で、今日作られた道は現界へ開ける道が作られた事であり、植木を引抜いて熊笹のあるところへ移した事は外国へ植換えられた事で、明主様はこのようになされて小さな型で世界の御経綸を遊ばされるので有ります。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

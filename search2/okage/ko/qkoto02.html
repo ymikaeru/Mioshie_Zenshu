@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qkoto02</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 喉頭結核より救われた私 『結核の革命的療法』昭和26(1951)年8月15日発行 大分県 如意輪中教会 阿南智実子（22） 私は重症の肺結核のため、世の中のすべての希望を失った者でございます。<br><br>入信以後日々快方に向い、五カ月を経た今日ではほとんど全快に近いまでに治して頂き今日では心から光明如来様の御慈悲に感謝して暮している者でございます。<br><br> 顧みますれば昭和二十一年二月頃より頭が痛く足がだるくて、自分は妊娠のため「つわり」とばかり思い気にもとめませんでしたが、四月になって二、三回の喀血に驚き、四月二十五日入院しました。<br><br>医師は胎児をとらねば母体が危いからとの事で、早速胎児をとりました。<br><br>又結核には気胸療法が一番良いとの事で、五、六回施しましたがはかばかしくなく、二週間位で退院しました。<br><br>その後近所の医師で養生しました。<br><br>カルシウムやいろいろと注射をしましたが、なんの効果なく、ただ悪化するばかりでした。<br><br>今度は阿弥陀様の灸が良いとの事で、早速その療法を続けてみましたが、元のような身体にはなれず、今度はストレプトマイシンが良い事を聞き、何回も注射しましたが効果なく悪化するばかりで、ついには喉頭結核にまで進み、声は出なく室内で話す事さえ出来ず、ただ死のどん底に落ち、又再びこの世に生きる事の出来ぬ悲しい淋しい気持は、言葉で言い表わすことの出来ない程でした。<br><br>これが光明如来様のお蔭で、再びこの世に生きさして頂き、ただただ毎日、喜びと感謝の念でいっぱいでございます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Minha Salvação da Tuberculose Laríngea</h2>
 <p><em>De "A Terapia Revolucionária da Tuberculose", publicado em 15 de agosto de 1951</em></p>
@@ -96,5 +251,48 @@ function toggleLang(lang) {
 <p>Recordo-me que, por volta de fevereiro de 1946, comecei a sentir dores de cabeça e um grande cansaço nas pernas, sintomas que, por estar grávida, atribuí unicamente aos enjoos matinais, não lhes dando a devida atenção. Em abril, todavia, fui surpreendida por dois ou três episódios de hemoptise, o que me levou a ser internada no dia vinte e cinco daquele mês. A equipe médica, alegando que a vida da mãe corria perigo, recomendou a interrupção da gravidez, procedimento que foi realizado imediatamente. Adicionalmente, foi-me indicado o pneumotórax como o tratamento mais eficaz para a tuberculose. Submeti-me a essa terapia por cinco ou seis vezes, mas, sem apresentar melhora significativa, recebi alta hospitalar após aproximadamente duas semanas.</p>
 <p>Posteriormente, prossegui com o tratamento sob os cuidados de um médico local. Recebi injeções de cálcio e diversas outras substâncias, porém, não obtive qualquer efeito; ao contrário, meu estado de saúde apenas se agravava. Em seguida, por recomendação, recorri a um tratamento de moxabustão de cunho espiritual, mas tampouco consegui recuperar minha saúde de outrora. Ouvi dizer, então, que a estreptomicina seria eficaz e me submeti a inúmeras injeções, mas o resultado foi o mesmo: a doença continuava a progredir. Por fim, o mal evoluiu para uma tuberculose laríngea que me privou da voz, a ponto de eu não conseguir sequer conversar dentro de casa. Mergulhei no mais profundo abismo do desespero. A angústia e a solidão de sentir que jamais voltaria a viver neste mundo eram de uma magnitude indescritível.</p>
 <p>E foi graças à misericórdia de Deus que me foi permitido viver novamente. Hoje, meus dias transbordam unicamente de alegria e gratidão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 喉頭結核より救われた私 『結核の革命的療法』昭和26(1951)年8月15日発行 大分県 如意輪中教会 阿南智実子（22） 私は重症の肺結核のため、世の中のすべての希望を失った者でございます。<br/><br/>入信以後日々快方に向い、五カ月を経た今日ではほとんど全快に近いまでに治して頂き今日では心から光明如来様の御慈悲に感謝して暮している者でございます。<br/><br/> 顧みますれば昭和二十一年二月頃より頭が痛く足がだるくて、自分は妊娠のため「つわり」とばかり思い気にもとめませんでしたが、四月になって二、三回の喀血に驚き、四月二十五日入院しました。<br/><br/>医師は胎児をとらねば母体が危いからとの事で、早速胎児をとりました。<br/><br/>又結核には気胸療法が一番良いとの事で、五、六回施しましたがはかばかしくなく、二週間位で退院しました。<br/><br/>その後近所の医師で養生しました。<br/><br/>カルシウムやいろいろと注射をしましたが、なんの効果なく、ただ悪化するばかりでした。<br/><br/>今度は阿弥陀様の灸が良いとの事で、早速その療法を続けてみましたが、元のような身体にはなれず、今度はストレプトマイシンが良い事を聞き、何回も注射しましたが効果なく悪化するばかりで、ついには喉頭結核にまで進み、声は出なく室内で話す事さえ出来ず、ただ死のどん底に落ち、又再びこの世に生きる事の出来ぬ悲しい淋しい気持は、言葉で言い表わすことの出来ない程でした。<br/><br/>これが光明如来様のお蔭で、再びこの世に生きさして頂き、ただただ毎日、喜びと感謝の念でいっぱいでございます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

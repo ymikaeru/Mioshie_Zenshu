@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>gentori2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 現当利益 『病貧争絶無の世界を造る観音運動とは何？』昭和10(1935)年9月15日発行 この現当利益という事を、低級信仰として解釈する多くの人があるが、それは大いに誤っている。<br><br>その点を述べてみよう。<br><br> 世に、現当利益が、心から嫌いだという人は、実は一人もあるまい、もし、有るとしたら、その人は狂人である。<br><br>病気が治るのは、嫌いだという人はあるまい。<br><br>金が欲しくないと拒絶する人も、一人もあるまい。<br><br>俺は、不幸が好きで、幸福は真平だと逃げる人は、恐らくこの娑婆には、絶対に無い事を保証する。<br><br> 宗教界において、錚々（そうそう）たる人達が、口を開けば現当利益は低級である。<br><br>須（すべか）らく、病気や不幸に超越して、心の安心立命を得るのが、真の信仰であると言うのである。<br><br>私は言う、病気で悩み、不幸災厄に囲まれながらなお安心立命の出来る人が、世に有るとしたら、恐らく、六千万人中十人とはあるまい。<br><br>そんな理論だけの信仰で以て、大衆を救えるはずは、断じてない。<br><br>大衆の救えない、一部少数の人より、救えない宗教であるならば、それは、無用の存在でしかない。<br><br> 現当利益を不可とする宗教は、実は、現当利益を与えるだけの、力即ち奇蹟が無い為の詭弁である。<br><br>それは、その宗教に最早、生命が無くなっている証拠である。<br><br>そういう宗教に限って、社会事業に依って、漸（ようや）く、その存在を、理由づけている有様である。<br><br>いかなる宗教といえども、その創（はじ）めは、相当の現当利益が有ったであろう事は、史実も物語っているし、又そうでなかったなら、その時すでに滅びているはずである。<br><br>では何故に、開教時と異って今日は、その力が無くなったかというと、その真相はこうなのだ。<br><br>いずれの開祖も真面目で、真剣で、神仏の代行者として恥しからぬ人達ではあったが、惜い哉、世は夜の時代であったが為、年を経るに従い、邪神の為に、力をそがれて終（しま）った為であって、遂に、今日見るごとき生命の無い状態となったのである。<br><br> 又現世においての悩みは、免れ得られないが、未来は天国浄土に救われると言うのが、彼らの説き方である。<br><br>これもおかしな話である。<br><br>現在を救えないものが、何で未来を救う事が出来ようか、未来というものは、死んでから先の、幽界であるから、万一、天国浄土へ行けなかったとしても、幽冥所を異にしては、苦情も持って来られないから、まことに説く方にとっては、安全至極の説き方である。<br><br> 本来、現幽は表しているのが実相である。<br><br>彼らは、そんな事には無智である。<br><br>で、幽界は、現界の延長であるから、現界において、無病息災にして、幸福の生涯を終った者は、そのまま、極楽浄土へ行くのであるが、病患に苦しみつつ死んだ者は、その苦しみがそのまま、継続するのであるから、無論、地獄界へ行くのである。<br><br>病気やその他の不幸で苦しみつつも、教誨師などの言を信じて天国へ救われると、思い込んで居る人がよく在るが、実に可愛相な者である。<br><br>顕幽神（けんゆうしん）三界の実相を、知らない宗教家が、独断的に言う説こそは、実に危険千万であって、その罪は、軽からぬ事である。<br><br> しかも釈尊にしろ、キリストや日蓮にしろ明確に、天国、極楽、地獄の真相を開示して居るに係わらず末世の僧侶牧師が、否定するにおいては、その開祖に対して不徳の罪の大なるものである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdadeira Natureza dos Benefícios na Fé</h2>
 <p>Muitas pessoas interpretam o conceito de benefícios imediatos como uma forma de fé inferior; contudo, tal interpretação incorre em grave erro. Gostaria de discorrer sobre este ponto.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Ademais, sua pregação se baseia na ideia de que os sofrimentos na vida terrena são inevitáveis, mas que a salvação virá no futuro, no Paraíso Celestial. Trata-se de um argumento igualmente falacioso. Como poderia algo incapaz de salvar o ser humano no presente ser capaz de salvá-lo no futuro? O porvir a que se referem é o Mundo Espiritual após a morte. Assim, na eventualidade de alguém não alcançar o Paraíso, não teria como retornar de outra dimensão para apresentar queixas. É, portanto, uma forma de pregação extremamente conveniente para quem a profere.</p>
 <p>Na realidade, os Mundos Material e Espiritual são as duas faces de uma mesma moeda, constituindo uma unidade inseparável. Eles, contudo, ignoram essa verdade. O Mundo Espiritual é uma extensão direta do Mundo Material. Sendo assim, aquele que conclui sua existência terrena em estado de saúde e felicidade segue diretamente para o Paraíso. Em contrapartida, quem morre atormentado por enfermidades tem seu sofrimento perpetuado e, invariavelmente, ingressa no mundo infernal. É comum encontrarmos pessoas que, mesmo em meio à agonia de doenças e outros infortúnios, se apegam à crença de que serão salvas, fiando-se nas palavras de conselheiros espirituais. São, de fato, dignas de compaixão. As pregações dogmáticas de religiosos que desconhecem a realidade dos três mundos – Material, Espiritual e Divino – são de uma periculosidade extrema, e o pecado que cometem não é, de forma alguma, insignificante.</p>
 <p>Ademais, figuras como Shakyamuni, Cristo e Nichiren revelaram com clareza a verdade sobre o Céu, o Paraíso e o Inferno. O fato de clérigos e pastores dos últimos tempos negarem tais ensinamentos constitui uma grave ofensa e um grande pecado de deslealdade para com seus respectivos fundadores.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 現当利益 『病貧争絶無の世界を造る観音運動とは何？』昭和10(1935)年9月15日発行 この現当利益という事を、低級信仰として解釈する多くの人があるが、それは大いに誤っている。<br/><br/>その点を述べてみよう。<br/><br/> 世に、現当利益が、心から嫌いだという人は、実は一人もあるまい、もし、有るとしたら、その人は狂人である。<br/><br/>病気が治るのは、嫌いだという人はあるまい。<br/><br/>金が欲しくないと拒絶する人も、一人もあるまい。<br/><br/>俺は、不幸が好きで、幸福は真平だと逃げる人は、恐らくこの娑婆には、絶対に無い事を保証する。<br/><br/> 宗教界において、錚々（そうそう）たる人達が、口を開けば現当利益は低級である。<br/><br/>須（すべか）らく、病気や不幸に超越して、心の安心立命を得るのが、真の信仰であると言うのである。<br/><br/>私は言う、病気で悩み、不幸災厄に囲まれながらなお安心立命の出来る人が、世に有るとしたら、恐らく、六千万人中十人とはあるまい。<br/><br/>そんな理論だけの信仰で以て、大衆を救えるはずは、断じてない。<br/><br/>大衆の救えない、一部少数の人より、救えない宗教であるならば、それは、無用の存在でしかない。<br/><br/> 現当利益を不可とする宗教は、実は、現当利益を与えるだけの、力即ち奇蹟が無い為の詭弁である。<br/><br/>それは、その宗教に最早、生命が無くなっている証拠である。<br/><br/>そういう宗教に限って、社会事業に依って、漸（ようや）く、その存在を、理由づけている有様である。<br/><br/>いかなる宗教といえども、その創（はじ）めは、相当の現当利益が有ったであろう事は、史実も物語っているし、又そうでなかったなら、その時すでに滅びているはずである。<br/><br/>では何故に、開教時と異って今日は、その力が無くなったかというと、その真相はこうなのだ。<br/><br/>いずれの開祖も真面目で、真剣で、神仏の代行者として恥しからぬ人達ではあったが、惜い哉、世は夜の時代であったが為、年を経るに従い、邪神の為に、力をそがれて終（しま）った為であって、遂に、今日見るごとき生命の無い状態となったのである。<br/><br/> 又現世においての悩みは、免れ得られないが、未来は天国浄土に救われると言うのが、彼らの説き方である。<br/><br/>これもおかしな話である。<br/><br/>現在を救えないものが、何で未来を救う事が出来ようか、未来というものは、死んでから先の、幽界であるから、万一、天国浄土へ行けなかったとしても、幽冥所を異にしては、苦情も持って来られないから、まことに説く方にとっては、安全至極の説き方である。<br/><br/> 本来、現幽は表しているのが実相である。<br/><br/>彼らは、そんな事には無智である。<br/><br/>で、幽界は、現界の延長であるから、現界において、無病息災にして、幸福の生涯を終った者は、そのまま、極楽浄土へ行くのであるが、病患に苦しみつつ死んだ者は、その苦しみがそのまま、継続するのであるから、無論、地獄界へ行くのである。<br/><br/>病気やその他の不幸で苦しみつつも、教誨師などの言を信じて天国へ救われると、思い込んで居る人がよく在るが、実に可愛相な者である。<br/><br/>顕幽神（けんゆうしん）三界の実相を、知らない宗教家が、独断的に言う説こそは、実に危険千万であって、その罪は、軽からぬ事である。<br/><br/> しかも釈尊にしろ、キリストや日蓮にしろ明確に、天国、極楽、地獄の真相を開示して居るに係わらず末世の僧侶牧師が、否定するにおいては、その開祖に対して不徳の罪の大なるものである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

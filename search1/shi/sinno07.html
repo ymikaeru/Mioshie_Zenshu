@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sinno07</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 真の健康と擬健康 自観叢書10編『神示の健康法』昭和25(1950)年4月20日発行 前述のごとく、誤謬から出発した医学は、全然病気の真因も健康の要諦も未知であるから、病理の説明などは全然コジツケとしか思えない。<br><br>すなわち漢方医学においては、病気とは五臓六腑の不調和からといい、西洋医学は「黴菌の侵犯である」とされている。<br><br>これを吾らからいえば、前者は反対である。<br><br>五臓六腑が不調和としたら、浄化作用発生の力が出ないから、発病はしない訳である。<br><br>また後者は微生物の侵犯というが、それも一面の理はあるが、微生物の侵犯のみが病原ではない、黴菌に関係のない病原も沢山ある。<br><br>また黴菌が侵入するや、発病するという事は、健康体ではないからで、真の健康体なら黴菌が侵入しても病気発生はないはずである。<br><br>近来非常に黴菌を恐れ、黴菌防止に苦慮し、あらゆる方法を施行しているのは、真の健康体が少なく、黴菌侵犯による発病者が大多数であるからである。<br><br>吾らはこれを別けて、前者を真健康といい、後者を擬健康というのである。<br><br>しからば、いかなる原因によって真健康と擬健康との区別が生ずるかを説明してみよう。<br><br> 前項に述べたごとく、せっかく自然浄化作用発生するや、医学はこれを反対に解釈するため、極力鎮圧する事を可とし、あらゆる方法を行う。<br><br>元来浄化発生という事は人間が健康であるからで、弱体であれば浄化力発生はないのである。<br><br>たとえば、人家に塵芥（じんかい）が溜るとする、家人が健康であれば掃除が出来るが病人ばかりでは掃除が出来ないのと同様である。<br><br>もちろん浄化作用は苦痛が伴うので、それを間違って解釈し大病の発端（ほったん）のように恐怖し、一刻も速く止めようとする。<br><br>それには浄化力を微弱にする事で、それには弱体化しなくてはならない。<br><br>すなわちまず薬剤を用いる。<br><br>元来薬なるものは一つもない。<br><br>全部毒である。<br><br>これは薬物学者はよく知っている。<br><br>すなわちまず毒によって衰弱させようとする。<br><br>近来注射が流行するのはそのためである。<br><br>これは毒が強烈であるから呑むと中毒を起すので皮膚から注入するのである。<br><br>その他絶対安静も氷冷も湿布もことごとく衰弱法である。<br><br>光線放射はせっかく溶解し初めた毒結を元通り否それ以上に固める。<br><br>このようにあらゆる衰弱方法のため注文通り、浄化は微弱となり、毒素は浄化発生以前の固結状態に還元するから一時的苦痛がなくなる。<br><br>これを病気治癒と錯覚するのである。<br><br>しかし治癒でない証拠にはしばらく経つと再発する。<br><br>これはせっかく固まった毒素が、健康快復によって再び浄化作用が発生するからである。<br><br>するとまたしても衰弱法を行う。<br><br>すなわち薬毒使用であるから漸次、薬毒は累加する。<br><br>ここで薬毒について概略説明してみるが前述のごとく、病気の原因が固結毒素の浄化作用であるとすれば、その毒素は一体何であるかというと、これがほとんど薬毒であるから驚くのである。<br><br>すなわち先天性毒素とは、祖先や両親からの薬毒遺伝であり、後天性毒素とは生れてから入れた薬剤である。<br><br>この事実によって先天性毒素に後天性毒素が加わるにつれて漸次毒素の量は増し、多量の毒素保有者となる結果、一時に大浄化が起る。<br><br>これが肺炎、脳炎や一切の腫物初め、あらゆる重難病の原因となる。<br><br>しかるに医療は相変らず浄化停止を可とし衰弱法を行うが、そうなるとよほど強力な衰弱法でなくては効目がない。<br><br>この点医学はよく証明している。<br><br>それは肺炎の特効薬などそうである。<br><br>その際医家のいう言葉は非常によく効く薬でうまくゆくと短期間に治るが、まずくゆくと生命がないといわれるのはそのためである。<br><br>言うまでもなく猛烈な浄化を停止するには生命に係わる程の猛毒性薬剤でなければ効かないからである。<br><br> 以上によって、病気は浄化作用である事、医療とは浄化停止方法である事は判ったであろう。<br><br>ゆえに一言にしていえば、医療とは病気を治さない方法で、医学進歩とは治さない方法の進歩である。<br><br>ゆえに医家は病気を治すとはいわない、固めるというにみて明らかである。<br><br>もちろん固めるためには前述のごとく衰弱法を行う。<br><br>それが無理をしない事、風邪を引かない事、大切にする事、睡眠を充分にとる事、薬剤をなるべく用うる事等々である。<br><br>これが消極的健康で浄化微弱の結果、病気発生が少なくなるので、これを健康法と誤認したのが今日の予防医学である。<br><br> 以上のごとく消極的健康者を吾らは擬健康といい、今日の青白いインテリや、腺病質の小児などこの種の代表的人間である。<br><br>何よりも今日の医学衛生を忠実に守る者程この種の擬健康者が多い事である。<br><br>こういう擬健康者に一度黴菌が侵入するや、必ず発病し、生命の危険に及ぼすのである。<br><br>これが今日黴菌を極端に恐れる原因でもある。<br><br>右に対し吾らの発見した神霊医学は全然右とは反対で病気発生するや浄化をより旺盛にし不純物を出来るだけ速に体外へ排泄する、従って真の全治であるから予後は罹病以前より健康は増すのであるから、黴菌が侵入しても発生しない健康体になる事はもちろんで、これが真健康である。<br><br>何よりの証拠は本教入信後数年を経たものは全然黴菌など問題にしなくなる。<br><br>何となれば伝染の恐れがないからである。<br><br>かような幸福こそ吾らのみに与えられたる神の賜（たまもの）というの外はない。<br><br> 以上のごとき真医術の発見こそ人類救済の根本義たる事を知るであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Saúde Verdadeira e a Pseudosaúde</h2>
 <p>A medicina, por partir de um equívoco fundamental, desconhece por completo tanto a verdadeira causa das doenças quanto a essência da saúde. Consequentemente, suas explanações patológicas não passam de meros pretextos. A medicina oriental, por exemplo, atribui as enfermidades a uma desarmonia dos órgãos vitais, ao passo que a ocidental aponta para a invasão microbiana.</p>
@@ -103,5 +255,48 @@ function toggleLang(lang) {
 <p>A esses indivíduos de saúde passiva, nós denominamos portadores de uma pseudosaúde. Intelectuais de compleição pálida e crianças de constituição linfática são exemplos representativos dessa categoria. Quanto mais fielmente uma pessoa segue os preceitos da medicina e da higiene modernas, maior a probabilidade de que ela se enquadre nesse perfil. Quando um portador de pseudosaúde é invadido por micróbios, o adoecimento é inevitável, e sua vida corre perigo. Eis a verdadeira causa do pavor extremo que se tem dos micro-organismos em nossos dias.</p>
 <p>Em contrapartida, a Medicina Espiritual Divina por nós descoberta adota um princípio diametralmente oposto. Diante da manifestação de uma doença, ela intensifica o processo de purificação, a fim de que as impurezas sejam expelidas do corpo com a máxima celeridade. O resultado é uma cura genuína e completa, após a qual a pessoa se torna ainda mais saudável do que era antes da enfermidade. Ela passa a possuir um corpo verdadeiramente são, que não adoece mesmo sob a invasão de micróbios. A maior prova disso é que, após alguns anos de fé, os membros de nossa Igreja deixam de se preocupar com germes, pois para eles o risco de contágio desaparece. Tal felicidade não pode ser descrita senão como uma dádiva divina, concedida unicamente a nós.</p>
 <p>Compreender-se-á, portanto, que a descoberta desta autêntica arte de curar constitui o alicerce para a salvação da humanidade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 真の健康と擬健康 自観叢書10編『神示の健康法』昭和25(1950)年4月20日発行 前述のごとく、誤謬から出発した医学は、全然病気の真因も健康の要諦も未知であるから、病理の説明などは全然コジツケとしか思えない。<br/><br/>すなわち漢方医学においては、病気とは五臓六腑の不調和からといい、西洋医学は「黴菌の侵犯である」とされている。<br/><br/>これを吾らからいえば、前者は反対である。<br/><br/>五臓六腑が不調和としたら、浄化作用発生の力が出ないから、発病はしない訳である。<br/><br/>また後者は微生物の侵犯というが、それも一面の理はあるが、微生物の侵犯のみが病原ではない、黴菌に関係のない病原も沢山ある。<br/><br/>また黴菌が侵入するや、発病するという事は、健康体ではないからで、真の健康体なら黴菌が侵入しても病気発生はないはずである。<br/><br/>近来非常に黴菌を恐れ、黴菌防止に苦慮し、あらゆる方法を施行しているのは、真の健康体が少なく、黴菌侵犯による発病者が大多数であるからである。<br/><br/>吾らはこれを別けて、前者を真健康といい、後者を擬健康というのである。<br/><br/>しからば、いかなる原因によって真健康と擬健康との区別が生ずるかを説明してみよう。<br/><br/> 前項に述べたごとく、せっかく自然浄化作用発生するや、医学はこれを反対に解釈するため、極力鎮圧する事を可とし、あらゆる方法を行う。<br/><br/>元来浄化発生という事は人間が健康であるからで、弱体であれば浄化力発生はないのである。<br/><br/>たとえば、人家に塵芥（じんかい）が溜るとする、家人が健康であれば掃除が出来るが病人ばかりでは掃除が出来ないのと同様である。<br/><br/>もちろん浄化作用は苦痛が伴うので、それを間違って解釈し大病の発端（ほったん）のように恐怖し、一刻も速く止めようとする。<br/><br/>それには浄化力を微弱にする事で、それには弱体化しなくてはならない。<br/><br/>すなわちまず薬剤を用いる。<br/><br/>元来薬なるものは一つもない。<br/><br/>全部毒である。<br/><br/>これは薬物学者はよく知っている。<br/><br/>すなわちまず毒によって衰弱させようとする。<br/><br/>近来注射が流行するのはそのためである。<br/><br/>これは毒が強烈であるから呑むと中毒を起すので皮膚から注入するのである。<br/><br/>その他絶対安静も氷冷も湿布もことごとく衰弱法である。<br/><br/>光線放射はせっかく溶解し初めた毒結を元通り否それ以上に固める。<br/><br/>このようにあらゆる衰弱方法のため注文通り、浄化は微弱となり、毒素は浄化発生以前の固結状態に還元するから一時的苦痛がなくなる。<br/><br/>これを病気治癒と錯覚するのである。<br/><br/>しかし治癒でない証拠にはしばらく経つと再発する。<br/><br/>これはせっかく固まった毒素が、健康快復によって再び浄化作用が発生するからである。<br/><br/>するとまたしても衰弱法を行う。<br/><br/>すなわち薬毒使用であるから漸次、薬毒は累加する。<br/><br/>ここで薬毒について概略説明してみるが前述のごとく、病気の原因が固結毒素の浄化作用であるとすれば、その毒素は一体何であるかというと、これがほとんど薬毒であるから驚くのである。<br/><br/>すなわち先天性毒素とは、祖先や両親からの薬毒遺伝であり、後天性毒素とは生れてから入れた薬剤である。<br/><br/>この事実によって先天性毒素に後天性毒素が加わるにつれて漸次毒素の量は増し、多量の毒素保有者となる結果、一時に大浄化が起る。<br/><br/>これが肺炎、脳炎や一切の腫物初め、あらゆる重難病の原因となる。<br/><br/>しかるに医療は相変らず浄化停止を可とし衰弱法を行うが、そうなるとよほど強力な衰弱法でなくては効目がない。<br/><br/>この点医学はよく証明している。<br/><br/>それは肺炎の特効薬などそうである。<br/><br/>その際医家のいう言葉は非常によく効く薬でうまくゆくと短期間に治るが、まずくゆくと生命がないといわれるのはそのためである。<br/><br/>言うまでもなく猛烈な浄化を停止するには生命に係わる程の猛毒性薬剤でなければ効かないからである。<br/><br/> 以上によって、病気は浄化作用である事、医療とは浄化停止方法である事は判ったであろう。<br/><br/>ゆえに一言にしていえば、医療とは病気を治さない方法で、医学進歩とは治さない方法の進歩である。<br/><br/>ゆえに医家は病気を治すとはいわない、固めるというにみて明らかである。<br/><br/>もちろん固めるためには前述のごとく衰弱法を行う。<br/><br/>それが無理をしない事、風邪を引かない事、大切にする事、睡眠を充分にとる事、薬剤をなるべく用うる事等々である。<br/><br/>これが消極的健康で浄化微弱の結果、病気発生が少なくなるので、これを健康法と誤認したのが今日の予防医学である。<br/><br/> 以上のごとく消極的健康者を吾らは擬健康といい、今日の青白いインテリや、腺病質の小児などこの種の代表的人間である。<br/><br/>何よりも今日の医学衛生を忠実に守る者程この種の擬健康者が多い事である。<br/><br/>こういう擬健康者に一度黴菌が侵入するや、必ず発病し、生命の危険に及ぼすのである。<br/><br/>これが今日黴菌を極端に恐れる原因でもある。<br/><br/>右に対し吾らの発見した神霊医学は全然右とは反対で病気発生するや浄化をより旺盛にし不純物を出来るだけ速に体外へ排泄する、従って真の全治であるから予後は罹病以前より健康は増すのであるから、黴菌が侵入しても発生しない健康体になる事はもちろんで、これが真健康である。<br/><br/>何よりの証拠は本教入信後数年を経たものは全然黴菌など問題にしなくなる。<br/><br/>何となれば伝染の恐れがないからである。<br/><br/>かような幸福こそ吾らのみに与えられたる神の賜（たまもの）というの外はない。<br/><br/> 以上のごとき真医術の発見こそ人類救済の根本義たる事を知るであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

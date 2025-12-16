@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>mukikara</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 無機から有機へ 『結核の革命的療法』昭和26(1951)年8月15日発行 前項に述べたごとく、病気の本体は霊の曇りであり、この曇りから黴菌は発生するという、その順序を詳しくかいてみるが、初め透明体である人霊に曇りが発生するか、または濁血の移写によって曇りが出来る訳は、既にかいた通りであるが、しからば曇りからなぜ病菌が発生するかというと、曇りの濃度化がある程度に達するや、自然に超微粒子が発生する。<br><br>この原理こそ最高科学であって、一層判り易くするため、反対に考えてみる。<br><br>すなわち天空の広さを仰ぎ見る時、これは無限大である。<br><br>としたら今度は小さく考えて見ると、地上の一切は無限小である。<br><br>というように積極即消極である。<br><br>としたらこの理は人体にも当はまる。<br><br>すなわち霊の曇りといえども超極微粒子から成立っている。<br><br>すなわち不断の浄化作用によって濃度化し、個体化した霊に植物性超微粒子が発生するのである。<br><br>これは何がためかというと、元来曇りとは水素の集合である以上、植物発生には都合がいいからである。<br><br>そうしてこれが漸次成育し、ついに有機化してしまう。<br><br>すなわちこれが黴菌の卵子であって、この卵子が成育して最初の黴菌となるが、この程度ではもちろん顕微鏡では視る事は出来ない。<br><br>しかし最早生物となった黴菌は、食物が必要となり、互に食い合いを始める。<br><br>すなわち弱肉強食的生物の自然原則である。<br><br>言うまでもなく生存競争である。<br><br>もちろん黴菌群中にも強者が現われ、弱者は淘汰され、強者は益々太るという訳で、この強者こそ顕微鏡で捕捉されるまでになった黴菌であって、この点人間社会と酷似している。<br><br> 右のごとくであるから、病原とは全く最初に発生した霊の曇りであるとすれば、この曇りを解消する以外、根本的治病の方法はあり得ないのである。<br><br>ところが現代医学は再三説明した通り、病原である曇りの発見までには到達していない以上、真の医学とは言えないのである。<br><br> 最後に、結論として言いたい事は、右の曇りを解消するその方法である。<br><br>これが可能でなくては、いかに病理の根本が判ったとしても、何ら意味をなさないのはもちろんであるが、私はこの方法を発見したのである。<br><br>すなわち、浄霊法と言って、現に絶大なる効果を挙げつつあるのである。<br><br>しからば浄霊によって、なぜ曇りが解消されるかというと、実はこの原理こそ最高の科学と言うよりも、最高の宗教原理であって、これを追求すれば神霊の実体にまで到達するのであるが、この著は第三者に読ませるのが目的である以上、出来るだけ科学的に解き、宗教的解説を避けたので、読者は諒せられたいのである。<br><br> 右のような訳であるから、どうしても徹底しなければ、満足出来ないという人は、本教の信者になって実地に当るのが何よりであるが、それを勧める事は宗教宣伝となるからあえてかかないのである。<br><br>しかしこういえばやはり巧妙な宣伝と思うかも知れないが、それは止むを得ないのである。<br><br>だがなぜこうまで断らなければならないかというと、一般人は新宗教へ対して非常に疑惑をもっている。<br><br>もちろん原因は新聞雑誌等のデマによるのであろうがそれも無理はない。<br><br>何しろいかがわしい新宗教が、簇出（そうしゅつ）するからで、これもまた致し方ないのである。<br><br>しかし次に載せてある百に上る実例をみたなら、何人といえども私の唱える説が、いささかの誤りない事を知るであろう。<br><br>〔以下略〕 (注) 簇出（そうしゅつ）むらがり出ること。<br><br>ぞくしゅつ。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Gênese Espiritual dos Micróbios</h2>
 <p>Conforme já foi elucidado, a verdadeira natureza da doença é a mácula que obscurece o espírito, e é a partir dessa mácula que os micróbios se originam. Descreverei agora, em detalhe, a sequência desse processo. A razão pela qual uma nuvem surge no espírito humano, originalmente translúcido, ou se forma pela transferência do sangue impuro, já foi devidamente esclarecida. Resta, portanto, a questão: de que maneira os micróbios surgem a partir dessa nuvem? Quando a densidade da mácula atinge um determinado nível, partículas ultramicroscópicas emergem espontaneamente. Este princípio constitui a ciência em seu mais elevado grau.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Por essa razão, àqueles que não se sentem satisfeitos e desejam um entendimento verdadeiramente profundo, o melhor caminho seria tornarem-se membros de nossa Igreja e vivenciar estes princípios na prática. Contudo, fazer tal recomendação configuraria proselitismo religioso, razão pela qual me abstenho de fazê-lo. Sei que, ao expressar-me desta forma, alguns poderão interpretar minhas palavras como uma forma sutil de propaganda; todavia, isso é inevitável.</p>
 <p>Mas por que me sinto na obrigação de fazer tantas ressalvas? A verdade é que o público em geral nutre grande desconfiança em relação às novas religiões. A causa, certamente, reside nos boatos infundados disseminados por jornais e revistas, o que, de certo modo, é compreensível. Afinal, inúmeras religiões de caráter duvidoso têm surgido em profusão, tornando tal cautela uma consequência natural.</p>
 <p>No entanto, ao examinarem as centenas de exemplos verídicos que se seguem, quem quer que seja compreenderá que a doutrina que apregoo não contém o mais ínfimo erro.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 無機から有機へ 『結核の革命的療法』昭和26(1951)年8月15日発行 前項に述べたごとく、病気の本体は霊の曇りであり、この曇りから黴菌は発生するという、その順序を詳しくかいてみるが、初め透明体である人霊に曇りが発生するか、または濁血の移写によって曇りが出来る訳は、既にかいた通りであるが、しからば曇りからなぜ病菌が発生するかというと、曇りの濃度化がある程度に達するや、自然に超微粒子が発生する。<br/><br/>この原理こそ最高科学であって、一層判り易くするため、反対に考えてみる。<br/><br/>すなわち天空の広さを仰ぎ見る時、これは無限大である。<br/><br/>としたら今度は小さく考えて見ると、地上の一切は無限小である。<br/><br/>というように積極即消極である。<br/><br/>としたらこの理は人体にも当はまる。<br/><br/>すなわち霊の曇りといえども超極微粒子から成立っている。<br/><br/>すなわち不断の浄化作用によって濃度化し、個体化した霊に植物性超微粒子が発生するのである。<br/><br/>これは何がためかというと、元来曇りとは水素の集合である以上、植物発生には都合がいいからである。<br/><br/>そうしてこれが漸次成育し、ついに有機化してしまう。<br/><br/>すなわちこれが黴菌の卵子であって、この卵子が成育して最初の黴菌となるが、この程度ではもちろん顕微鏡では視る事は出来ない。<br/><br/>しかし最早生物となった黴菌は、食物が必要となり、互に食い合いを始める。<br/><br/>すなわち弱肉強食的生物の自然原則である。<br/><br/>言うまでもなく生存競争である。<br/><br/>もちろん黴菌群中にも強者が現われ、弱者は淘汰され、強者は益々太るという訳で、この強者こそ顕微鏡で捕捉されるまでになった黴菌であって、この点人間社会と酷似している。<br/><br/> 右のごとくであるから、病原とは全く最初に発生した霊の曇りであるとすれば、この曇りを解消する以外、根本的治病の方法はあり得ないのである。<br/><br/>ところが現代医学は再三説明した通り、病原である曇りの発見までには到達していない以上、真の医学とは言えないのである。<br/><br/> 最後に、結論として言いたい事は、右の曇りを解消するその方法である。<br/><br/>これが可能でなくては、いかに病理の根本が判ったとしても、何ら意味をなさないのはもちろんであるが、私はこの方法を発見したのである。<br/><br/>すなわち、浄霊法と言って、現に絶大なる効果を挙げつつあるのである。<br/><br/>しからば浄霊によって、なぜ曇りが解消されるかというと、実はこの原理こそ最高の科学と言うよりも、最高の宗教原理であって、これを追求すれば神霊の実体にまで到達するのであるが、この著は第三者に読ませるのが目的である以上、出来るだけ科学的に解き、宗教的解説を避けたので、読者は諒せられたいのである。<br/><br/> 右のような訳であるから、どうしても徹底しなければ、満足出来ないという人は、本教の信者になって実地に当るのが何よりであるが、それを勧める事は宗教宣伝となるからあえてかかないのである。<br/><br/>しかしこういえばやはり巧妙な宣伝と思うかも知れないが、それは止むを得ないのである。<br/><br/>だがなぜこうまで断らなければならないかというと、一般人は新宗教へ対して非常に疑惑をもっている。<br/><br/>もちろん原因は新聞雑誌等のデマによるのであろうがそれも無理はない。<br/><br/>何しろいかがわしい新宗教が、簇出（そうしゅつ）するからで、これもまた致し方ないのである。<br/><br/>しかし次に載せてある百に上る実例をみたなら、何人といえども私の唱える説が、いささかの誤りない事を知るであろう。<br/><br/>〔以下略〕 (注) 簇出（そうしゅつ）むらがり出ること。<br/><br/>ぞくしゅつ。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

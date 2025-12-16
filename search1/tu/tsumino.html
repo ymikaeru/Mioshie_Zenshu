@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>tsumino</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 罪の因は薬 『栄光』142号、昭和27(1952)年2月6日発行 この題を見た誰もは、大いに驚くであろう。<br><br>罪と薬と関係あるなどとは、テンデ夢にも思えないからである。<br><br>ところが事実大いにあるのだから、不思議も不思議、奇想天外といってもいい。<br><br>それを今かいてみるが、私がいつもいう通り薬は毒で、身体へ入れると血が濁る。<br><br>血が濁れば霊が曇る、霊が曇ると人間は不快感が起る。<br><br>この不快感こそ曲者で、この結果どうなるかというと気が焦々（いらいら）し、怒り易くなるから、どうしても争う事になる。<br><br>何よりも人間は気持のいい時は、少々変な事を言われても笑って済ませるが、こっちが気持の悪い時は、僅かな事でもつい腹が立つ、というように人間は気持次第で明るくもなれば暗くもなる。<br><br>ところがこの気持という奴運不運にも大いに関係があるのだから、軽くは見られない。<br><br>というのは人間生活上、感情くらい重要なものはない。<br><br>例えば夫婦が別れるのも、親子兄弟の争いも、友人同士のいざこざも、酷いのになると失業の原因となる事さえある。<br><br> 言うまでもなく官公吏や会社員など、上役から愛され、信任されるのも、同僚との交際や商人が御得意から引立てられるのも、技術家の成績も、学生の勉強も、全く感情が大いに影響するのは誰も知るところである。<br><br>以上は普通ありふれた事だが、これが発展するとエライ事になる。<br><br> それは余程修業が出来ていない限り、普通人では、不快感を紛らそうとして、刺戟を求めようとする。<br><br>そのため一番多いのが酒で、次が賭事であろう。<br><br>近来競輪やパチンコなどの流行もそれである。<br><br>中には少し懐が温くなり、地位や身分が出来ると、贅沢な暮しや、女遊び等の刺戟を求める。<br><br>それにはもちろん金がかかるから、つい良からぬ手段で得ようとする。<br><br>遣い込み、誤魔化し、汚職などもそのためであるが、恐ろしいのは近頃僅かばかりの金が欲しさに人殺しさえする奴がよくある。<br><br>こうみてくると犯罪の蔭には女ありと言われるが、私はその奥に薬ありと言いたいのである。<br><br>以上のごとく、近頃は心を紛らわそうとして、益々強い刺戟を求めるので悪質の娯楽機関は益々増え、しかも昔と違って交通の発達と相まって、至極手軽に出来るし、また階級制度の撤廃もあり、真面目な生活は馬鹿馬鹿しくなるというのが現在の世相である。<br><br> 以下は明るい面のみをかいたのであるが、では暗い面はどうかというとこれがまた大変である。<br><br>もちろん病気の原因がそのほとんどであり、しかも近代人は矢鱈（やたら）に薬を服んだり注射をしたりするので、益々病気が殖え、不快感の人間が多くなる。<br><br>そんな訳で医療費や仕事を休むための収入減等で、懐は苦しくなるから借金はする、人に迷惑を掛ける事になるので、世の中が益々面白くなくなると共に、病気に対して医療は一時抑えで根本的に治らないから長引き、二進（にっち）も三進（さっち）もゆかなくなり、切羽詰った揚句、人の物を盗むとか、気の弱いのは自殺や一家心中を企てる事になる。<br><br>このような悲劇は日々の新聞を賑しているが、特に多いのが結核のための悲劇である。<br><br>このようにみてくると犯罪の原因は人間の不快感であり、そのまた原因が薬剤である。<br><br>としたら標題の意味も分ったであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Origem do Pecado é o Remédio</h2>
 <p>O título deste artigo certamente causará grande espanto em quem o ler. Afinal, a ideia de que o pecado e os remédios possuam qualquer relação parece, à primeira vista, inconcebível. Contudo, a verdade é que essa relação existe e é profunda, a ponto de soar fantástica e extraordinária.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Assim, na ânsia de aplacar o mal-estar, as pessoas procuram estímulos cada vez mais intensos, o que fomenta a proliferação de centros de entretenimento de natureza corruptora. Somam-se a isso o desenvolvimento dos meios de transporte, que tornam o acesso a esses locais extremamente fácil, e o colapso das antigas estruturas sociais. O resultado é a mentalidade que hoje prevalece em nossa sociedade: a de que levar uma vida íntegra é tolice.</p>
 <p>Até aqui, descrevi apenas um dos aspectos do problema. Vejamos agora o seu lado mais sombrio, que é igualmente grave. A causa principal, evidentemente, é a doença. O homem moderno, ao consumir remédios e aplicar injeções de forma indiscriminada, apenas agrava seu estado, multiplicando as enfermidades e, consequentemente, o número de pessoas que vivem em constante mal-estar. Surgem então as dificuldades financeiras, decorrentes das despesas médicas e da perda de renda pelos dias de trabalho perdidos. Para contorná-las, a pessoa contrai dívidas e acaba por causar transtornos a terceiros. A vida torna-se cada vez mais amarga e desinteressante. Além disso, como a medicina convencional apenas suprime temporariamente os sintomas sem jamais curar a raiz do mal, as doenças se prolongam indefinidamente. Encurralada, sem ver qualquer saída, a pessoa desesperada pode recorrer ao roubo. As de índole mais fraca chegam a atentar contra a própria vida ou a cometer o suicídio familiar.</p>
 <p>Tragédias como essas estampam diariamente as páginas dos jornais, sendo particularmente numerosas aquelas relacionadas à tuberculose. Analisando a questão sob essa perspectiva, compreende-se que a causa dos crimes é o mal-estar que aflige o ser humano e que a causa desse mal-estar, por sua vez, é o remédio. Creio que, assim, o significado do título deste artigo se tornou perfeitamente claro.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 罪の因は薬 『栄光』142号、昭和27(1952)年2月6日発行 この題を見た誰もは、大いに驚くであろう。<br/><br/>罪と薬と関係あるなどとは、テンデ夢にも思えないからである。<br/><br/>ところが事実大いにあるのだから、不思議も不思議、奇想天外といってもいい。<br/><br/>それを今かいてみるが、私がいつもいう通り薬は毒で、身体へ入れると血が濁る。<br/><br/>血が濁れば霊が曇る、霊が曇ると人間は不快感が起る。<br/><br/>この不快感こそ曲者で、この結果どうなるかというと気が焦々（いらいら）し、怒り易くなるから、どうしても争う事になる。<br/><br/>何よりも人間は気持のいい時は、少々変な事を言われても笑って済ませるが、こっちが気持の悪い時は、僅かな事でもつい腹が立つ、というように人間は気持次第で明るくもなれば暗くもなる。<br/><br/>ところがこの気持という奴運不運にも大いに関係があるのだから、軽くは見られない。<br/><br/>というのは人間生活上、感情くらい重要なものはない。<br/><br/>例えば夫婦が別れるのも、親子兄弟の争いも、友人同士のいざこざも、酷いのになると失業の原因となる事さえある。<br/><br/> 言うまでもなく官公吏や会社員など、上役から愛され、信任されるのも、同僚との交際や商人が御得意から引立てられるのも、技術家の成績も、学生の勉強も、全く感情が大いに影響するのは誰も知るところである。<br/><br/>以上は普通ありふれた事だが、これが発展するとエライ事になる。<br/><br/> それは余程修業が出来ていない限り、普通人では、不快感を紛らそうとして、刺戟を求めようとする。<br/><br/>そのため一番多いのが酒で、次が賭事であろう。<br/><br/>近来競輪やパチンコなどの流行もそれである。<br/><br/>中には少し懐が温くなり、地位や身分が出来ると、贅沢な暮しや、女遊び等の刺戟を求める。<br/><br/>それにはもちろん金がかかるから、つい良からぬ手段で得ようとする。<br/><br/>遣い込み、誤魔化し、汚職などもそのためであるが、恐ろしいのは近頃僅かばかりの金が欲しさに人殺しさえする奴がよくある。<br/><br/>こうみてくると犯罪の蔭には女ありと言われるが、私はその奥に薬ありと言いたいのである。<br/><br/>以上のごとく、近頃は心を紛らわそうとして、益々強い刺戟を求めるので悪質の娯楽機関は益々増え、しかも昔と違って交通の発達と相まって、至極手軽に出来るし、また階級制度の撤廃もあり、真面目な生活は馬鹿馬鹿しくなるというのが現在の世相である。<br/><br/> 以下は明るい面のみをかいたのであるが、では暗い面はどうかというとこれがまた大変である。<br/><br/>もちろん病気の原因がそのほとんどであり、しかも近代人は矢鱈（やたら）に薬を服んだり注射をしたりするので、益々病気が殖え、不快感の人間が多くなる。<br/><br/>そんな訳で医療費や仕事を休むための収入減等で、懐は苦しくなるから借金はする、人に迷惑を掛ける事になるので、世の中が益々面白くなくなると共に、病気に対して医療は一時抑えで根本的に治らないから長引き、二進（にっち）も三進（さっち）もゆかなくなり、切羽詰った揚句、人の物を盗むとか、気の弱いのは自殺や一家心中を企てる事になる。<br/><br/>このような悲劇は日々の新聞を賑しているが、特に多いのが結核のための悲劇である。<br/><br/>このようにみてくると犯罪の原因は人間の不快感であり、そのまた原因が薬剤である。<br/><br/>としたら標題の意味も分ったであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

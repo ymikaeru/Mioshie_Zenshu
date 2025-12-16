@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qmuhi05</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 無肥料耕作の実践 自観叢書第2篇『無肥料栽培法』昭和24(1949)年7月1日発行 三重県 日本五六七教光栄会 神谷徳次郎（53） 私は終戦の年に海軍農耕隊の開墾した畑を借りて素人百姓をやっております。<br><br>土地は強酸性土壌で付近の五十年六十年の古畑でも小麦反収二俵程度、甘藷二〇〇－三〇〇貫の程度です。<br><br>このように畑ではホウレン草、蓮華草などは生育しない程の悪土です。<br><br>土地の人でも捨てたい位の悪土を素人が、しかも新畑を作ったって何が出来るものかとてんで問題にしなかった。<br><br>しかし私は強引に畑の中に小屋を作って住み二十年からいわゆる素人百姓をはじめました。<br><br>作物は小麦と甘藷の外見込がないので秋より小麦を作りましたが、四月頃には畑中一本も残らぬ迄に消えてしまいました。<br><br>二十一年秋には二反歩まいて五斗位とれました。<br><br>勿論人肥を主とし、多少硫安、硝安を使用したのであります。<br><br>二十二年にまいたのも相当努力したが六、七斗の収穫でした。<br><br>昨年三月入信以来種々と無肥料耕作のことを承り早速昨年の大豆作より実施しましたところ、意外の御利益を頂き喜んでおります。<br><br> 昨秋の播種には無肥料耕作を非常に不安に思ったというのは僅かの麦とて闇買の力のない私共家族に取っては命の親とも思われる程大事なものであり、万一とれなかった場合金で買うことを考えると、なかなか決断がつかなかった。<br><br>今一つは農事試験場の試験成績その他農業雑誌類で見ると無肥料耕作では水稲は七割、麦は三割程度よりとれないのが原則だということを読んでおり、これが非常な邪魔をした次第です。<br><br> 結局一反歩を普通耕作、一反歩を無肥料耕作ということに落着した訳です。<br><br>以下昨年来の無肥料耕作の結果を順次簡単に記します。<br><br> 昭和二十三年度 一、白大豆 二割五分増収 大豆五十本ずつの比較 （イ）無肥料無浄霊区 四合三勺 粒不揃虫喰 （ロ）同 浄霊区 五合四勺 粒大虫喰少し 右のごとく浄霊のみにて二割五分増収 二、陸稲 発育の遅れたのが浄霊にて追付く 前記のごとく新畑にて土地に甚だしき肥痩あり約三十坪の発育が甚しく遅れ他は黄金色に変じているにこの部分は未だ穂が出かけた程度です。<br><br>一生懸命御願して五、六度浄霊をした結果刈入れ迄にはぐんぐん追付き他と見分けがつかぬようになり稔りの状態も他と変りなく、付近の人も不思議不思議の一点張りでした。<br><br> 三、大根 収穫時に急速肥大す 普通畑と異った点は収穫近くなっても下葉の枯れない事、最も不思議に思ったことは収穫十日程前より急に肥大しその為畦が五分も六分もひび割れた事です。<br><br>漬物にして食べましたが味のよいことは生れてから初めてと大喜びです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Prática da Agricultura sem Adubos (Coletânea Jikan, Volume 2: “O Método de Cultivo sem Adubos”, publicado em 1º de julho de 1949)</h2>
 <p>Tokujiro Kamiya (53 anos)
@@ -107,5 +262,48 @@ Igreja Koeikai de Mie, Nippon Miroku Kyo</p>
 <p>Conforme mencionei, por ser um campo novo, a fertilidade do solo era extremamente irregular. Havia uma área de aproximadamente trinta <em>tsubo</em> cujo desenvolvimento estava muito atrasado; enquanto o restante da plantação já se encontrava em um tom dourado, essa parte mal começava a espigar. Passei a orar com fervor e a ministrar Johrei nessa área por cinco ou seis vezes. Como resultado, até a época da colheita, as plantas se desenvolveram vigorosamente, alcançando as demais a ponto de não ser mais possível distingui-las. O estado de maturação dos grãos também se tornou idêntico ao do resto do campo, o que deixou os vizinhos absolutamente maravilhados, repetindo sem cessar que era um verdadeiro prodígio.</p>
 <p><strong>3. Nabo: Crescimento acelerado no período da colheita</strong></p>
 <p>O cultivo dos nabos apresentou particularidades notáveis em comparação com as lavouras convencionais. Primeiramente, as folhas inferiores não secavam, mesmo com a proximidade da colheita. O mais surpreendente, contudo, foi o súbito e vigoroso crescimento que apresentaram cerca de dez dias antes de serem colhidos. Engrossaram tanto que chegaram a rachar os canteiros em fendas de cinco a seis <em>bu</em>. Após prepará-los em conserva, fomos presenteados com um sabor extraordinário. Minha família e eu nos rejubilamos, pois jamais havíamos provado algo tão delicioso em toda a nossa vida.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 無肥料耕作の実践 自観叢書第2篇『無肥料栽培法』昭和24(1949)年7月1日発行 三重県 日本五六七教光栄会 神谷徳次郎（53） 私は終戦の年に海軍農耕隊の開墾した畑を借りて素人百姓をやっております。<br/><br/>土地は強酸性土壌で付近の五十年六十年の古畑でも小麦反収二俵程度、甘藷二〇〇－三〇〇貫の程度です。<br/><br/>このように畑ではホウレン草、蓮華草などは生育しない程の悪土です。<br/><br/>土地の人でも捨てたい位の悪土を素人が、しかも新畑を作ったって何が出来るものかとてんで問題にしなかった。<br/><br/>しかし私は強引に畑の中に小屋を作って住み二十年からいわゆる素人百姓をはじめました。<br/><br/>作物は小麦と甘藷の外見込がないので秋より小麦を作りましたが、四月頃には畑中一本も残らぬ迄に消えてしまいました。<br/><br/>二十一年秋には二反歩まいて五斗位とれました。<br/><br/>勿論人肥を主とし、多少硫安、硝安を使用したのであります。<br/><br/>二十二年にまいたのも相当努力したが六、七斗の収穫でした。<br/><br/>昨年三月入信以来種々と無肥料耕作のことを承り早速昨年の大豆作より実施しましたところ、意外の御利益を頂き喜んでおります。<br/><br/> 昨秋の播種には無肥料耕作を非常に不安に思ったというのは僅かの麦とて闇買の力のない私共家族に取っては命の親とも思われる程大事なものであり、万一とれなかった場合金で買うことを考えると、なかなか決断がつかなかった。<br/><br/>今一つは農事試験場の試験成績その他農業雑誌類で見ると無肥料耕作では水稲は七割、麦は三割程度よりとれないのが原則だということを読んでおり、これが非常な邪魔をした次第です。<br/><br/> 結局一反歩を普通耕作、一反歩を無肥料耕作ということに落着した訳です。<br/><br/>以下昨年来の無肥料耕作の結果を順次簡単に記します。<br/><br/> 昭和二十三年度 一、白大豆 二割五分増収 大豆五十本ずつの比較 （イ）無肥料無浄霊区 四合三勺 粒不揃虫喰 （ロ）同 浄霊区 五合四勺 粒大虫喰少し 右のごとく浄霊のみにて二割五分増収 二、陸稲 発育の遅れたのが浄霊にて追付く 前記のごとく新畑にて土地に甚だしき肥痩あり約三十坪の発育が甚しく遅れ他は黄金色に変じているにこの部分は未だ穂が出かけた程度です。<br/><br/>一生懸命御願して五、六度浄霊をした結果刈入れ迄にはぐんぐん追付き他と見分けがつかぬようになり稔りの状態も他と変りなく、付近の人も不思議不思議の一点張りでした。<br/><br/> 三、大根 収穫時に急速肥大す 普通畑と異った点は収穫近くなっても下葉の枯れない事、最も不思議に思ったことは収穫十日程前より急に肥大しその為畦が五分も六分もひび割れた事です。<br/><br/>漬物にして食べましたが味のよいことは生れてから初めてと大喜びです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

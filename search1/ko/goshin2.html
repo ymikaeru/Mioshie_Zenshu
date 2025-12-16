@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>goshin2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 誤診誤療の実例 『新日本医術書』昭和11(1936)年4月13日執筆 一 これは実際、私が手掛けた患者であったが、それは本年正月四日に、三十二歳の婦人が来たのであった。<br><br>その話によれば、今度の月経が例月よりも日数が多く掛ったので、心配の余り某医師に診断を乞うた所「これは大変である。<br><br>子宮外妊娠であるから、急いで手術をしなければ、生命に係わる」との事を言渡されたのであるが、念の為と、ともかく私の所へ来たのであった。<br><br>私が査べた所、全然、外妊娠などの徴候はない。<br><br>ただ僅かに、腎臓の下部に、些（いささ）かの水膿溜結があったばかりであった。<br><br>それも二回の施術によって、痕方もなく治癒されたので、その夫人の喜びは一通りではない。<br><br>正月早々大手術をされ、入院もし、その苦痛と費用と日数を無益に費消し、傷痕まで付けられなければならなかったのを、僅か二回で済んだのであるから、喜ぶのも無理はないのである。<br><br>これらの事実を検討する時、外妊娠すべき位置より、三寸以上隔っている皮下に膿結があったばかりで、専門家として誤るはずが無い訳であるに係わらず、右の様な事実があったと言う事は、どうしても不可解と今も思っているのである。<br><br> 二 本年三十七歳になる某上流婦人が私の所へ来たのである。<br><br>その婦人のいわく、肩の疑りと頭痛が持病であった所、最近、月経がいつもより日数が多かったので、某博士の診断を受けた所、「右側の卵巣が、左側のよりも三倍もの大きさに腫れている。<br><br>それが原因であるから、早速切開して剔出（てきしゅつ）しなければならない。<br><br>頭痛や肩の凝りもその為である」と言うのである。<br><br>しかし、手術が嫌さに躊躇（ちゅうちょ）している所へ、私の所を聞いて来たのである。<br><br>私は入念に査べてみた所、卵巣は左右共異状なく、全然、腫れている形跡はないのである。<br><br>又、頭痛や肩の凝りは、卵巣とは無関係で、別箇の病気である。<br><br>何となれば、卵巣部へ手を触れない内に、肩を治療した所、頭痛、肩の凝りは即座に軽快になったのを見ても瞭（あきら）かである。<br><br>そうして、四回の治療によって全治したのでその驚きと喜びは想像に余りあるのである。<br><br>右の事実によって考うる時、異常なき卵巣を腫れてると言い、卵巣と関係のない肩の凝りを関係あるという、その誤診のはなはだしいのに至っては、実に驚くべきである。<br><br>もし、その患者が私の所へ来なかったとしたら、健全である卵巣を剔出され、一生不具にならなければならなかったのである。<br><br>私は実に慄然（りつぜん）として膚（はだえ）に粟（あわ）を生じたのである。<br><br> 三、松田文相の死 西洋医学における健康診断は、未だ不完全であるという事を断言したいのである。<br><br> 最近におけるそれは松田文相の死である。<br><br>新聞紙の報道によれば、医学界の権威として帝大の古参教授として、令名の高い真鍋博士が死の三時間前に健康診断をしたという事である。<br><br>これは軽々に看過出来ない重大問題である。<br><br>三時間後に死ぬという事を予知出来得ない健康診断なるものは果して何の価値があるであろうか。<br><br>健康診断を受けようとする目的は、病気の前兆を知る事であり、病気の前兆を知ろうとする事は、万一の事態を免れんとする意図である事は言うまでもない。<br><br> しかるに、その最後の目的である死そのものが、三時間前に予知出来得ないとしたら、それは、健康診断などをしないのと同じ結果である。<br><br>これによってみれば西洋医学は、もっともっと進歩しない限り、その健康診断は未だ信頼するに足りないと言う事が出来る。<br><br> 又これらの問題に対して、当局も世人も余りに冷淡ではなかろうか。<br><br>他方面における割合小さい問題にも必要以上に神経を尖らす現在の社会が、事医学上に関する一切は、不思議な程寛大であるのは、どうした事であろうか。<br><br>この余りの覚大さに蔽（おお）われての為かは知らないが、赦すべからざる程の誤診誤療が頗（すこぶ）る多いという事である事は想像され得るのである。<br><br>帝大の権威でさえが、今回のごとき不明である以上、一般医師の診断のいかなる程度であるかは予想し得るであろう。<br><br>しかしこれは、医師を責むるのは当らないかも知れない。<br><br>実は、罪は西洋医学にあるので、それは世人が想像する程に進歩していないと見るのが本当ではなかろうか。<br><br>要するに、西洋医学過信の罪が種々の形となって現われ、それをどうする事も出来ないのが現在である。<br><br> 注射の誤りや手術の誤りに因る急死、その他の確かに医師の過失と認むべき事実に対し、死者の家族の憤慨談や又、訴訟事件等の新聞記事をよく見るのであるが、この場合、何故か、医師の方が有利な結果となるようで、その為かどうか知らないが、大抵は泣寝入りとなる場合が多いようである。<br><br>もっとも医療に干渉し過ぎる事は、医師の治療における支障ともなるのであるから、一概には言われないが、何事も程度があり、程度を越えれば、弊害を醸（かも）すのは当然である。<br><br>しかも事は人命に関するという重大事においておやである。<br><br> 医術で不具になった話 これは某看護婦の話である。<br><br>七歳の女児、右頬に腫物が出来たので、入院して手術をしたのである。<br><br>しかるに、手術時期が早期の為、眼瞼下（がんけんした）に、又別に腫物が出来たので、早速それをも手術したところ、結果不良で悪化し、ついに最初の箇所と次の箇所と連絡してしまったのである。<br><br>その手術によって、自然排除を防止された膿は、眼からも、鼻孔からも、絶えず溢出するという苦痛をさえ、加重せられたのである。<br><br>そうして、漸（ようや）く数ケ月にして、治癒された結果はどうであったろう。<br><br>大きな引吊りの為に、俗にいう「べッカンコウ」の様な醜くさの顔になってしまったのである。<br><br>それが為に、その母親が歎（なげ）いて医師に訴えたところ、医師は「いずれ整形外科へ行って、治して貰ったらいいだろう」との事であった。<br><br> これについて批判を加えればこうである。<br><br>その腫物の原因としては、自然浄化によって、膿が頬から排除されようとして腫物が出来たのであるから、何らの治療を加えず、そのまま放置しておけば良かったのである。<br><br>そうすれば、腫れるだけ腫れて小さい穴があいて、そこから膿が全部排泄され、完全に治癒されて、痕跡も留（とど）めないようになるのであって、その期間も長くて一ケ月位で済むのである。<br><br>それに何ぞや、多額の費用と日数と、より痛苦を与えてついに生れもつかぬ不具者たらしむるという医学は実に恐るべきものである。<br><br> 誤れる医術の弊害を、世人に知らしむる事が、刻下（こっか）何よりの急務である事を痛感するのである。<br><br> （昭和十一年四月十三日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Exemplos Concretos de Erro Médico e Iatrogenia</h2>
 <p>Relato aqui o caso verídico de uma paciente que tratei pessoalmente. No dia quatro de janeiro deste ano, recebi uma senhora de trinta e dois anos. Segundo seu relato, sua última menstruação havia se prolongado por mais dias que o habitual e, preocupada, buscou o diagnóstico de um médico. Após examiná-la, ele lhe comunicara, em tom de urgência: “Trata-se de um quadro gravíssimo. É uma gravidez ectópica e, caso não se submeta a uma cirurgia imediata, sua vida correrá perigo”. Contudo, por cautela, ela decidiu procurar-me antes de tomar uma decisão. Ao examiná-la, não encontrei o menor indício de tal condição. Havia apenas um pequeno acúmulo de secreção purulenta na parte inferior do rim. Bastaram duas sessões de tratamento para que o problema desaparecesse sem deixar vestígios, para a imensa alegria daquela senhora. É natural que se sentisse assim, pois, no início do ano, esteve prestes a enfrentar uma cirurgia de grande porte, com hospitalização, dor, despesas e tempo despendidos em vão, além de uma cicatriz permanente. Tudo foi resolvido em apenas duas sessões. Refletindo sobre tais fatos, ainda hoje considero inexplicável que um especialista tenha cometido um erro tão grosseiro. Afinal, o acúmulo purulento encontrava-se a mais de nove centímetros de distância do local onde ocorreria uma gravidez ectópica, uma localização que jamais deveria induzir a um equívoco.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>O relato a seguir me foi contado por uma enfermeira. Uma menina de sete anos desenvolveu um abscesso na bochecha direita e foi internada para uma cirurgia. Entretanto, como a intervenção foi prematura, um segundo abscesso surgiu, desta vez sob a pálpebra inferior. Imediatamente, este também foi operado, mas o resultado foi desastroso: o quadro se agravou e, por fim, as duas lesões se uniram. O pus, impedido de ser expelido naturalmente, passou a vazar incessantemente pelos olhos e narinas, agravando ainda mais seu sofrimento. Após vários meses, a ferida finalmente cicatrizou. Mas qual foi o resultado? Uma grande cicatriz repuxava sua pele, deixando-a com o rosto desfigurado, com uma aparência grotesca. Quando a mãe, desolada, queixou-se ao médico, ele respondeu displicentemente: “Leve-a a um cirurgião plástico para consertar”.</p>
 <p>Permitam-me tecer uma crítica a este procedimento. Aquele abscesso era um processo de purificação natural do corpo, que buscava expelir o pus através da bochecha. Se simplesmente o tivessem deixado evoluir, o problema teria se resolvido por si só. O inchaço aumentaria até que um pequeno orifício se abrisse, permitindo a drenagem completa do pus. A cura seria total, sem deixar cicatrizes, e todo o processo não levaria mais que um mês. Em vez disso, o que a medicina ofereceu? Custos elevados, tempo perdido, sofrimento intensificado e, por fim, a criação de uma deformidade permanente em uma criança saudável. Uma medicina que produz tais resultados é, de fato, aterradora.</p>
 <p>Sinto profundamente que a tarefa mais urgente do momento é conscientizar a sociedade sobre os malefícios gerados por práticas médicas equivocadas.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 誤診誤療の実例 『新日本医術書』昭和11(1936)年4月13日執筆 一 これは実際、私が手掛けた患者であったが、それは本年正月四日に、三十二歳の婦人が来たのであった。<br/><br/>その話によれば、今度の月経が例月よりも日数が多く掛ったので、心配の余り某医師に診断を乞うた所「これは大変である。<br/><br/>子宮外妊娠であるから、急いで手術をしなければ、生命に係わる」との事を言渡されたのであるが、念の為と、ともかく私の所へ来たのであった。<br/><br/>私が査べた所、全然、外妊娠などの徴候はない。<br/><br/>ただ僅かに、腎臓の下部に、些（いささ）かの水膿溜結があったばかりであった。<br/><br/>それも二回の施術によって、痕方もなく治癒されたので、その夫人の喜びは一通りではない。<br/><br/>正月早々大手術をされ、入院もし、その苦痛と費用と日数を無益に費消し、傷痕まで付けられなければならなかったのを、僅か二回で済んだのであるから、喜ぶのも無理はないのである。<br/><br/>これらの事実を検討する時、外妊娠すべき位置より、三寸以上隔っている皮下に膿結があったばかりで、専門家として誤るはずが無い訳であるに係わらず、右の様な事実があったと言う事は、どうしても不可解と今も思っているのである。<br/><br/> 二 本年三十七歳になる某上流婦人が私の所へ来たのである。<br/><br/>その婦人のいわく、肩の疑りと頭痛が持病であった所、最近、月経がいつもより日数が多かったので、某博士の診断を受けた所、「右側の卵巣が、左側のよりも三倍もの大きさに腫れている。<br/><br/>それが原因であるから、早速切開して剔出（てきしゅつ）しなければならない。<br/><br/>頭痛や肩の凝りもその為である」と言うのである。<br/><br/>しかし、手術が嫌さに躊躇（ちゅうちょ）している所へ、私の所を聞いて来たのである。<br/><br/>私は入念に査べてみた所、卵巣は左右共異状なく、全然、腫れている形跡はないのである。<br/><br/>又、頭痛や肩の凝りは、卵巣とは無関係で、別箇の病気である。<br/><br/>何となれば、卵巣部へ手を触れない内に、肩を治療した所、頭痛、肩の凝りは即座に軽快になったのを見ても瞭（あきら）かである。<br/><br/>そうして、四回の治療によって全治したのでその驚きと喜びは想像に余りあるのである。<br/><br/>右の事実によって考うる時、異常なき卵巣を腫れてると言い、卵巣と関係のない肩の凝りを関係あるという、その誤診のはなはだしいのに至っては、実に驚くべきである。<br/><br/>もし、その患者が私の所へ来なかったとしたら、健全である卵巣を剔出され、一生不具にならなければならなかったのである。<br/><br/>私は実に慄然（りつぜん）として膚（はだえ）に粟（あわ）を生じたのである。<br/><br/> 三、松田文相の死 西洋医学における健康診断は、未だ不完全であるという事を断言したいのである。<br/><br/> 最近におけるそれは松田文相の死である。<br/><br/>新聞紙の報道によれば、医学界の権威として帝大の古参教授として、令名の高い真鍋博士が死の三時間前に健康診断をしたという事である。<br/><br/>これは軽々に看過出来ない重大問題である。<br/><br/>三時間後に死ぬという事を予知出来得ない健康診断なるものは果して何の価値があるであろうか。<br/><br/>健康診断を受けようとする目的は、病気の前兆を知る事であり、病気の前兆を知ろうとする事は、万一の事態を免れんとする意図である事は言うまでもない。<br/><br/> しかるに、その最後の目的である死そのものが、三時間前に予知出来得ないとしたら、それは、健康診断などをしないのと同じ結果である。<br/><br/>これによってみれば西洋医学は、もっともっと進歩しない限り、その健康診断は未だ信頼するに足りないと言う事が出来る。<br/><br/> 又これらの問題に対して、当局も世人も余りに冷淡ではなかろうか。<br/><br/>他方面における割合小さい問題にも必要以上に神経を尖らす現在の社会が、事医学上に関する一切は、不思議な程寛大であるのは、どうした事であろうか。<br/><br/>この余りの覚大さに蔽（おお）われての為かは知らないが、赦すべからざる程の誤診誤療が頗（すこぶ）る多いという事である事は想像され得るのである。<br/><br/>帝大の権威でさえが、今回のごとき不明である以上、一般医師の診断のいかなる程度であるかは予想し得るであろう。<br/><br/>しかしこれは、医師を責むるのは当らないかも知れない。<br/><br/>実は、罪は西洋医学にあるので、それは世人が想像する程に進歩していないと見るのが本当ではなかろうか。<br/><br/>要するに、西洋医学過信の罪が種々の形となって現われ、それをどうする事も出来ないのが現在である。<br/><br/> 注射の誤りや手術の誤りに因る急死、その他の確かに医師の過失と認むべき事実に対し、死者の家族の憤慨談や又、訴訟事件等の新聞記事をよく見るのであるが、この場合、何故か、医師の方が有利な結果となるようで、その為かどうか知らないが、大抵は泣寝入りとなる場合が多いようである。<br/><br/>もっとも医療に干渉し過ぎる事は、医師の治療における支障ともなるのであるから、一概には言われないが、何事も程度があり、程度を越えれば、弊害を醸（かも）すのは当然である。<br/><br/>しかも事は人命に関するという重大事においておやである。<br/><br/> 医術で不具になった話 これは某看護婦の話である。<br/><br/>七歳の女児、右頬に腫物が出来たので、入院して手術をしたのである。<br/><br/>しかるに、手術時期が早期の為、眼瞼下（がんけんした）に、又別に腫物が出来たので、早速それをも手術したところ、結果不良で悪化し、ついに最初の箇所と次の箇所と連絡してしまったのである。<br/><br/>その手術によって、自然排除を防止された膿は、眼からも、鼻孔からも、絶えず溢出するという苦痛をさえ、加重せられたのである。<br/><br/>そうして、漸（ようや）く数ケ月にして、治癒された結果はどうであったろう。<br/><br/>大きな引吊りの為に、俗にいう「べッカンコウ」の様な醜くさの顔になってしまったのである。<br/><br/>それが為に、その母親が歎（なげ）いて医師に訴えたところ、医師は「いずれ整形外科へ行って、治して貰ったらいいだろう」との事であった。<br/><br/> これについて批判を加えればこうである。<br/><br/>その腫物の原因としては、自然浄化によって、膿が頬から排除されようとして腫物が出来たのであるから、何らの治療を加えず、そのまま放置しておけば良かったのである。<br/><br/>そうすれば、腫れるだけ腫れて小さい穴があいて、そこから膿が全部排泄され、完全に治癒されて、痕跡も留（とど）めないようになるのであって、その期間も長くて一ケ月位で済むのである。<br/><br/>それに何ぞや、多額の費用と日数と、より痛苦を与えてついに生れもつかぬ不具者たらしむるという医学は実に恐るべきものである。<br/><br/> 誤れる医術の弊害を、世人に知らしむる事が、刻下（こっか）何よりの急務である事を痛感するのである。<br/><br/> （昭和十一年四月十三日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

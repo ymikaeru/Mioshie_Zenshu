@@ -1,152 +1,339 @@
 ﻿<html>
-
 <head>
-<meta http-equiv="Content-Type"
-content="text/html; charset=UTF-8">
-<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>tengoku2</title>
-<link rel="stylesheet" type="text/css" href="../../style4.css">
-</head>
-
-<body bgcolor="#EFFFE6">
-
-<form action="../../../cgi/msearch.cgi" accept-charset="utf-8">
-    <input type="hidden" name="hint" value="ひらがな">
-    <input type="hidden" name="index" value="">
-    <input type="hidden" name="config" value="">
-    <div align="right">
-    <table border="0" cellpadding="0" cellspacing="0" width="90%">
-        <tr>
-            <td><p align="right"><font size="2" face="ＭＳ ゴシック"><strong>――</strong></font>
-            <font size="2" face="HG正楷書体-PRO"><strong> 岡田自観師の論文集 ――</strong>　</font>
-            <font size="2" face="ＭＳ ゴシック"><strong>御教え検索</strong>：</font></p>
-            </td>
-            <td align="center" width="150" bgcolor="#EFFFE6"><font size="2"><input type="text" size="25" name="query"></font></td>
-            <td bgcolor="#EFFFE6"><font size="2"><input type="submit" value="検索"></font></td>
-            <td width="35" bgcolor="#EFFFE6"><a href="../../../cgi/msearch.cgi"><font size="2">help</font></a></td>
-        </tr>
-    </table>
-    </div>
+<link href="../../style4.css" rel="stylesheet" type="text/css"/>
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
+<form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
+<input name="hint" type="hidden" value="ひらがな"/>
+<input name="index" type="hidden" value=""/>
+<input name="config" type="hidden" value=""/>
+<div align="right">
+<table border="0" cellpadding="0" cellspacing="0" width="90%">
+<tr>
+<td><p align="right"><font face="ＭＳ ゴシック" size="2"><strong>――</strong></font>
+<font face="HG正楷書体-PRO" size="2"><strong> 岡田自観師の論文集 ――</strong>　</font>
+<font face="ＭＳ ゴシック" size="2"><strong>御教え検索</strong>：</font></p>
+</td>
+<td align="center" bgcolor="#EFFFE6" width="150"><font size="2"><input name="query" size="25" type="text"/></font></td>
+<td bgcolor="#EFFFE6"><font size="2"><input type="submit" value="検索"/></font></td>
+<td bgcolor="#EFFFE6" width="35"><a href="../../../cgi/msearch.cgi"><font size="2">help</font></a></td>
+</tr>
+</table>
+</div>
 </form>
-
-<form action="../../../cgi/msearch.cgi" accept-charset="utf-8">
-    <input type="hidden" name="hint" value="ひらがな">
-    <input type="hidden" name="index" value="shiryo">
-    <input type="hidden" name="config" value="">
-    <div align="right">
-    <table border="0" cellpadding="0" cellspacing="0" width="90%">
-        <tr>
-            <td><p align="right"><font size="2" face="ＭＳ ゴシック"><strong>　　　　　　　　　　　　　　　資料検索</strong>：</font></p></td>
-            <td align="center" width="150" bgcolor="#EFFFE6"><font size="2"><input type="text" size="25" name="query"></font></td>
-            <td bgcolor="#EFFFE6"><font size="2"><input type="submit" value="検索"></font></td>
-            <td width="35">　</td>
-        </tr>
-    </table>
-    </div>
+<form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
+<input name="hint" type="hidden" value="ひらがな"/>
+<input name="index" type="hidden" value="shiryo"/>
+<input name="config" type="hidden" value=""/>
+<div align="right">
+<table border="0" cellpadding="0" cellspacing="0" width="90%">
+<tr>
+<td><p align="right"><font face="ＭＳ ゴシック" size="2"><strong>　　　　　　　　　　　　　　　資料検索</strong>：</font></p></td>
+<td align="center" bgcolor="#EFFFE6" width="150"><font size="2"><input name="query" size="25" type="text"/></font></td>
+<td bgcolor="#EFFFE6"><font size="2"><input type="submit" value="検索"/></font></td>
+<td width="35">　</td>
+</tr>
+</table>
+</div>
 </form>
-
-
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 「天国の苑」完成す ――近く巡回上映の計画―― 枕流記者 『地上天国』39号、昭和27(1952)年8月25日発行 昭和二十七年六月十五日、この日こそはメシヤ教信徒にとって一生涯忘れる事が出来ない歓喜渇仰の日であるのみならず、新世界誕生の輝かしき記念日であります。<br><br> 美術館の落成によってここに名実共に地上天国の型としての神仙郷は完成し、救世の大神業の基柱は磐石の巌の上に築かれたのであります。<br><br> この日、祝典に参列された信徒の方々の感懐や如何に――天国の礎石にお使い戴いたその感激、勤労奉仕に聖汗を捧げさせて戴いたその思い出が各自の胸ぬちにあやなして、生きて甲斐ある今日のよろこびに小踊りしたい様な衝動を禁じ得なかったでありましょう。<br><br> 又、参列出来なかった信徒の方々は、家々の御神体の御前に額突いて感謝の黙祷を捧げ、遥かに思いを天国の苑に馳せ、誠に生きる誓をされた事でありましょう。<br><br> ―― 目 的 ―― 折しも毎日ニュース社の方から美術館開館のニュース映画を撮らせて貰いたいと申し出があり、これを好機に、教団本部においては参列出来なかった人々のために、又、永遠にこの日の感激を記録するために、明主様の御許を得て“天国の苑”の記録映画製作の企画を樹つるに到ったのであります。<br><br>六月の初めに決定し、製作を新理研教育映画部に一任、祝典の六月十六日を期して撮影開始、六月三十日の招待会をクライマックスに七月二日には撮影を完了、明主様御臨席の下に試写会が開催されたのは七月二十三日であった。<br><br>ニュースの方はそれより前七月十一日全国一斉に封切られ、観衆をアッと言わせたのであります。<br><br> ―― スタッフ ―― 映画製作に当ったのは前回同様、本部側阿部執事の監修水取本部員の指導によって新理研教育映画部が全力を挙げてこれに当ったのであります。<br><br>脚本並びに演出の島内利男氏は三十代の若々しい、どことなくすっきりした方で、映画界に入って十数年の修行時代を経て、いよいよこれから快腕をふるうというところで、部内でもセンスの新しさを以て謳われている人だとの事である。<br><br>カメラの福井健二氏については今更御紹介する迄もなく、大建設の記録映画でシナリオからカメラまで一手に引受けて敏腕をふるった方であり、その成功は約束されていた感があった。<br><br>この外鈴木助手をはじめ録音係三名、ライトマン三名、ライト五台（十二ＫＷｈ）という大掛りなスタッフであった。<br><br> アナウンサーはＮＨＫのど自慢でお馴染の高橋アナウンサーである事もつけ加えておきましょう。<br><br> さてまずシナリオでありますが、六月十二日慌しく駈けつけた島内氏は事務所において色々救世教の沿革とか、地上天国建設の意義等について詳しく質問し、宿に帰っては御神書の拝読に忙しく、その間あちこちと跋渉して、どの位置から、どの様に、どの位の長さ写すとか、このカットにどんなアナウンス（説明）を入れるかという様な事や、更に画面の転換、撮影効果の点に到るまで全般に亘って精細に熟考を重ね、それによってシナリオが書下され、それを阿部執事が監修され、いよいよ六月十六日に撮影は開始された。<br><br>以下順を追って簡単にその感想を叙べさせていただきましょう。<br><br> ―― 内 容 ―― 第一番に「アッ」と歓声をあげたのはタイトルの“天国の苑”とそのバックである。<br><br>紅葉の葉蔭もれる陽光が紅葉の葉に反映し合って“天国の苑”の題名にふさわしい感じを漂わせていた。<br><br>“天国の苑”――何んとピッタリした題名だろうと感歎している間に、視界がパッと展けて、明神、明星と続く箱根の連峰遥かに聳ゆる金時山と、大渓谷が現われる。<br><br>次いでカメラは観山亭及び神仙郷のお庭に移り、更にカメラはクローズアップして神山荘の神の間に転じ、そこに明主様の御聖姿を仰ぐ、ハッとして思わず膝を直す。<br><br>明主様は羽織袴を召され右手をテーブルにお掛けになって徐ろに次の如き御高話を揚わった。<br><br> 「私はメシヤ教々主岡田茂吉であります。<br><br>本教のモットーとするところは、病気、貧乏、争い、これをなくして、この世に天国を造る事であります。<br><br> 天国とは勿論、真善美、全き世界でありまして、真と善は形にあらわせないが、美だけは形にあらわせるというわけで、今度箱根の山の上に地上天国の模型を造ったのであります。<br><br> この美術館でありますが、近頃大分美術館ばやりで方々に出来ましたが、どうも支那、西洋かあるいは仏教美術と言うようなもので、完全な日本の美を主とした美術館はないのであります。<br><br> それで私は非常に遺憾と思って日本美術館を造りたのでありまして、箱根の自然の美と人工美とを出来るだけタイアップさしたものを造ったのであります。<br><br>」 この御言葉の間に美術館の全景が幻の如くうつし出されては消え、更に舞台はめぐって観山亭から日光殿のお庭に、それから祝賀式典にとめぐってゆく。<br><br> 芽出度くも 神仙郷はやうやくに 成りてことほぐ今日の御祭 の御讃歌が奉唱される。<br><br>その間に画面は、日光殿の御池に遊ぶ鯉に転じ、更に紅葉谷の紅葉の林を逍遥するが如くに移動してゆく。<br><br>全国の信徒の方々から献上された苔に葉蔭洩れる陽先がちらちらとゆらめく妙味に感心していると、どこともなく琴の清らかな調べが流れて来る。<br><br>続いて茶室の山月庵の御文字と屋根がクローズアップされる。<br><br>庭内に入って空鉢石に落ちる筧の水音にその妙を尽し、琴の調べと調和して夢幻の境に誘われる。<br><br>「ウムー」と讃歎の溜息がもれてくる。<br><br> 次いで画面は美術館内部に転じ、現代彫刻界の名匠佐藤玄々の観世音像、蒼鷹、に次いで、飛鳥時代の名作国宝級の金銅如意輪観音の柔和な得も言われぬ御容姿に驚歎させられる。<br><br>次は天下に有名な天平因果経。<br><br>ただその色彩が写らないのがいかにも残念であったが、これは白黒映画のもつ宿命で致し方ないところとあきらめる外なかった。<br><br>一字千金のいわれを秘むる無準禅師の『帰雲』の書は墨蹟淋漓（りんり）として今に万人を魅了して止まないものがあった。<br><br>次は、宋元画の圧巻牧谿の双幅、（かわせみとせきれい）次の宋青磁の香炉の美しい曲線が瞼にしみる。<br><br>先頃見せていただいた時のしぶい柔らかな色が見える様であった。<br><br>次の相阿弥筆の寒山拾得、更に雪舟の備陽雪景のクローズアップに至っては陶然として夢幻の幽邃境（ゆうすいきょう）に誘われる如き錯覚にとらわれる。<br><br>長次郎の傑作のあやめ茶碗、とカメラは次々に世界的美術品を紹介してゆくので、息を殺して見入る自分が画面に吸いこまれてゆくのをどうする事も出来ない。<br><br>武蔵の「だるま」の剣の如き鋭さと、光琳の「だるま」の円満豊熟しきった姿との対比がまことに面白い。<br><br>次は光琳の力作として有名な「水鳥」の屏風、光琳波とまで言われた波の模様は、素人目にも明主様が度々前後印象派の祖は光琳であると仰言せられているのはこれだと明確にわからせて戴く程である。<br><br>次いで、江戸時代の日暮の蒔絵の手筥の精巧さに一驚する。<br><br>何時もは美術館のケースの中でその説明書と対比して、“ふたをあければあの水車が廻るのだな”と独り合点していたものが、そこは映画の有難味といおうか、実際に水車が回転して観る人を「アッ」といわせる。<br><br> 画面は一転して六月三十日、各界の知名士招待の美術館開きの盛況が写し出される。<br><br>女流文士の吉屋信子女史をはじめ、川端康成氏、高見順氏、文学博士長与善郎氏、舞踊研究の大家伊藤道郎氏、往年の名将宇垣一成氏等々の外多士済々、小雨そぼ降る中を傘をさして来館、明主様に導かれて館内の観覧に移れば、天下の名品の前に佇んで喰い入る様に覗きこんでいる。<br><br>顔と顔。<br><br>カメラも足並そろえて再び美術品に向う。<br><br>精巧緻密を誇る鎌倉時代の切金細工の阿弥陀如来像。<br><br>次に曲線の美しさと表情の面白さで世界的に有名な浮世絵の圧巻「湯女」のクローズアップ。<br><br>次は明主様がその図案の感覚の新鮮さを絶讃遊ばされる仁清の重ね茶碗、白山松哉作沈箱、とまことに息づまる様な数分であった。<br><br> ―― 感 謝 ―― それはとても長い期間の様であったが、初めから終りまで僅か十一分半であった。<br><br>フィルムの長さにして千百五十フィート（普通の一巻半位である）しかし、長い様で短いこのフィルム一巻の中に地上天国の型を表現し尽して余りありとの満足感に浸る事が出来た。<br><br>これ偏に明主様の御守護と御指導、美術品の御指図御出演の賜物に外ならずとの感激を深くさせて戴くと共に、映画もて天国に魂誘い給う明主様の大御心に感涙胸に迫るを覚えたのでありました。<br><br> なお、今度の映画製作に当った人々にも賞讃の拍手を贈ってやりたく思った。<br><br>それは監修指導に当った阿部執事、水取本部員、製作者側の世話人根本氏の心労もさる事ながら、映画芸術の中に没入している人々の芸術に対する熱誠に対してである。<br><br>そこには信仰者の誠心と相通じる、神聖なる何物かがある様に思われてならない。<br><br>更に一歩進んでこれらの人々が入信して清々しき身魂にて一層の霊感的神技を発揮されたなら、映画芸術の向上にも如何に役立つであろうかと思いつつ、その日の一日も早からん事を祈って止まない次第であります。<br><br> これを似て“天国の苑”の映画撮影の梗概とその感想記を終らせて戴きます。<br><br>信徒の皆様どうか御期待の程を。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <blockquote>
-    <p><font size="4" face="ＭＳ ゴシック"><strong>「天国の苑」完成す</strong></font><font
-    face="ＭＳ ゴシック"><strong>――近く巡回上映の計画――<br>
-    　　　　　　　　　枕流記者<br>
-    </strong><br>
-    『地上天国』39号、昭和27(1952)年8月25日発行<br>
-    <br>
-    　昭和二十七年六月十五日、この日こそはメシヤ教信徒にとって一生涯忘れる事が出来ない歓喜渇仰の日であるのみならず、新世界誕生の輝かしき記念日であります。<br>
-    　美術館の落成によってここに名実共に地上天国の型としての神仙郷は完成し、救世の大神業の基柱は磐石の巌の上に築かれたのであります。<br>
-    　この日、祝典に参列された信徒の方々の感懐や如何に――天国の礎石にお使い戴いたその感激、勤労奉仕に聖汗を捧げさせて戴いたその思い出が各自の胸ぬちにあやなして、生きて甲斐ある今日のよろこびに小踊りしたい様な衝動を禁じ得なかったでありましょう。<br>
-    　又、参列出来なかった信徒の方々は、家々の御神体の御前に額突いて感謝の黙祷を捧げ、遥かに思いを天国の苑に馳せ、誠に生きる誓をされた事でありましょう。<br>
-    <br>
-    <strong>　　　――　目　　的　――<br>
-    </strong><br>
-    　折しも毎日ニュース社の方から美術館開館のニュース映画を撮らせて貰いたいと申し出があり、これを好機に、教団本部においては参列出来なかった人々のために、又、永遠にこの日の感激を記録するために、明主様の御許を得て“天国の苑”の記録映画製作の企画を樹つるに到ったのであります。六月の初めに決定し、製作を新理研教育映画部に一任、祝典の六月十六日を期して撮影開始、六月三十日の招待会をクライマックスに七月二日には撮影を完了、明主様御臨席の下に試写会が開催されたのは七月二十三日であった。ニュースの方はそれより前七月十一日全国一斉に封切られ、観衆をアッと言わせたのであります。<br>
-    <br>
-    <strong>　　　――　スタッフ　――<br>
-    </strong><br>
-    　映画製作に当ったのは前回同様、本部側阿部執事の監修水取本部員の指導によって新理研教育映画部が全力を挙げてこれに当ったのであります。脚本並びに演出の島内利男氏は三十代の若々しい、どことなくすっきりした方で、映画界に入って十数年の修行時代を経て、いよいよこれから快腕をふるうというところで、部内でもセンスの新しさを以て謳われている人だとの事である。カメラの福井健二氏については今更御紹介する迄もなく、大建設の記録映画でシナリオからカメラまで一手に引受けて敏腕をふるった方であり、その成功は約束されていた感があった。この外鈴木助手をはじめ録音係三名、ライトマン三名、ライト五台（十二ＫＷｈ）という大掛りなスタッフであった。<br>
-    　アナウンサーはＮＨＫのど自慢でお馴染の高橋アナウンサーである事もつけ加えておきましょう。<br>
-    　さてまずシナリオでありますが、六月十二日慌しく駈けつけた島内氏は事務所において色々救世教の沿革とか、地上天国建設の意義等について詳しく質問し、宿に帰っては御神書の拝読に忙しく、その間あちこちと跋渉して、どの位置から、どの様に、どの位の長さ写すとか、このカットにどんなアナウンス（説明）を入れるかという様な事や、更に画面の転換、撮影効果の点に到るまで全般に亘って精細に熟考を重ね、それによってシナリオが書下され、それを阿部執事が監修され、いよいよ六月十六日に撮影は開始された。以下順を追って簡単にその感想を叙べさせていただきましょう。<br>
-    <br>
-    <strong>　　　――　内　　容　――<br>
-    </strong><br>
-    　第一番に「アッ」と歓声をあげたのはタイトルの“天国の苑”とそのバックである。紅葉の葉蔭もれる陽光が紅葉の葉に反映し合って“天国の苑”の題名にふさわしい感じを漂わせていた。“天国の苑”――何んとピッタリした題名だろうと感歎している間に、視界がパッと展けて、明神、明星と続く箱根の連峰遥かに聳ゆる金時山と、大渓谷が現われる。次いでカメラは観山亭及び神仙郷のお庭に移り、更にカメラはクローズアップして神山荘の神の間に転じ、そこに明主様の御聖姿を仰ぐ、ハッとして思わず膝を直す。明主様は羽織袴を召され右手をテーブルにお掛けになって徐ろに次の如き御高話を揚わった。<br>
-    <br>
-    「私はメシヤ教々主岡田茂吉であります。本教のモットーとするところは、病気、貧乏、争い、これをなくして、この世に天国を造る事であります。<br>
-    　天国とは勿論、真善美、全き世界でありまして、真と善は形にあらわせないが、美だけは形にあらわせるというわけで、今度箱根の山の上に地上天国の模型を造ったのであります。<br>
-    　この美術館でありますが、近頃大分美術館ばやりで方々に出来ましたが、どうも支那、西洋かあるいは仏教美術と言うようなもので、完全な日本の美を主とした美術館はないのであります。<br>
-    　それで私は非常に遺憾と思って日本美術館を造りたのでありまして、箱根の自然の美と人工美とを出来るだけタイアップさしたものを造ったのであります。」<br>
-    <br>
-    　この御言葉の間に美術館の全景が幻の如くうつし出されては消え、更に舞台はめぐって観山亭から日光殿のお庭に、それから祝賀式典にとめぐってゆく。<br>
-    <br>
-    　　芽出度くも　神仙郷はやうやくに<br>
-    　　　　　　成りてことほぐ今日の御祭<br>
-    <br>
-    　の御讃歌が奉唱される。その間に画面は、日光殿の御池に遊ぶ鯉に転じ、更に紅葉谷の紅葉の林を逍遥するが如くに移動してゆく。全国の信徒の方々から献上された苔に葉蔭洩れる陽先がちらちらとゆらめく妙味に感心していると、どこともなく琴の清らかな調べが流れて来る。続いて茶室の山月庵の御文字と屋根がクローズアップされる。庭内に入って空鉢石に落ちる筧の水音にその妙を尽し、琴の調べと調和して夢幻の境に誘われる。「ウムー」と讃歎の溜息がもれてくる。<br>
-    　次いで画面は美術館内部に転じ、現代彫刻界の名匠佐藤玄々の観世音像、蒼鷹、に次いで、飛鳥時代の名作国宝級の金銅如意輪観音の柔和な得も言われぬ御容姿に驚歎させられる。次は天下に有名な天平因果経。ただその色彩が写らないのがいかにも残念であったが、これは白黒映画のもつ宿命で致し方ないところとあきらめる外なかった。一字千金のいわれを秘むる無準禅師の『帰雲』の書は墨蹟淋漓（りんり）として今に万人を魅了して止まないものがあった。次は、宋元画の圧巻牧谿の双幅、（かわせみとせきれい）次の宋青磁の香炉の美しい曲線が瞼にしみる。先頃見せていただいた時のしぶい柔らかな色が見える様であった。次の相阿弥筆の寒山拾得、更に雪舟の備陽雪景のクローズアップに至っては陶然として夢幻の幽邃境（ゆうすいきょう）に誘われる如き錯覚にとらわれる。長次郎の傑作のあやめ茶碗、とカメラは次々に世界的美術品を紹介してゆくので、息を殺して見入る自分が画面に吸いこまれてゆくのをどうする事も出来ない。武蔵の「だるま」の剣の如き鋭さと、光琳の「だるま」の円満豊熟しきった姿との対比がまことに面白い。次は光琳の力作として有名な「水鳥」の屏風、光琳波とまで言われた波の模様は、素人目にも明主様が度々前後印象派の祖は光琳であると仰言せられているのはこれだと明確にわからせて戴く程である。次いで、江戸時代の日暮の蒔絵の手筥の精巧さに一驚する。何時もは美術館のケースの中でその説明書と対比して、“ふたをあければあの水車が廻るのだな”と独り合点していたものが、そこは映画の有難味といおうか、実際に水車が回転して観る人を「アッ」といわせる。<br>
-    　画面は一転して六月三十日、各界の知名士招待の美術館開きの盛況が写し出される。女流文士の吉屋信子女史をはじめ、川端康成氏、高見順氏、文学博士長与善郎氏、舞踊研究の大家伊藤道郎氏、往年の名将宇垣一成氏等々の外多士済々、小雨そぼ降る中を傘をさして来館、明主様に導かれて館内の観覧に移れば、天下の名品の前に佇んで喰い入る様に覗きこんでいる。顔と顔。カメラも足並そろえて再び美術品に向う。精巧緻密を誇る鎌倉時代の切金細工の阿弥陀如来像。次に曲線の美しさと表情の面白さで世界的に有名な浮世絵の圧巻「湯女」のクローズアップ。次は明主様がその図案の感覚の新鮮さを絶讃遊ばされる仁清の重ね茶碗、白山松哉作沈箱、とまことに息づまる様な数分であった。<br>
-    <br>
-    <strong>　　　――　感　　謝　――<br>
-    </strong><br>
-    　それはとても長い期間の様であったが、初めから終りまで僅か十一分半であった。フィルムの長さにして千百五十フィート（普通の一巻半位である）しかし、長い様で短いこのフィルム一巻の中に地上天国の型を表現し尽して余りありとの満足感に浸る事が出来た。これ偏に明主様の御守護と御指導、美術品の御指図御出演の賜物に外ならずとの感激を深くさせて戴くと共に、映画もて天国に魂誘い給う明主様の大御心に感涙胸に迫るを覚えたのでありました。<br>
-    　なお、今度の映画製作に当った人々にも賞讃の拍手を贈ってやりたく思った。それは監修指導に当った阿部執事、水取本部員、製作者側の世話人根本氏の心労もさる事ながら、映画芸術の中に没入している人々の芸術に対する熱誠に対してである。そこには信仰者の誠心と相通じる、神聖なる何物かがある様に思われてならない。更に一歩進んでこれらの人々が入信して清々しき身魂にて一層の霊感的神技を発揮されたなら、映画芸術の向上にも如何に役立つであろうかと思いつつ、その日の一日も早からん事を祈って止まない次第であります。<br>
-    　これを似て“天国の苑”の映画撮影の梗概とその感想記を終らせて戴きます。信徒の皆様どうか御期待の程を。<br>
-    <br>
-    <br>
-    <br>
-    <br>
-    </font></p>
+<p><font face="ＭＳ ゴシック" size="4"><strong>「天国の苑」完成す</strong></font><font face="ＭＳ ゴシック"><strong>――近く巡回上映の計画――<br/>
+    　　　　　　　　　枕流記者<br/>
+</strong><br/>
+    『地上天国』39号、昭和27(1952)年8月25日発行<br/>
+<br/>
+    　昭和二十七年六月十五日、この日こそはメシヤ教信徒にとって一生涯忘れる事が出来ない歓喜渇仰の日であるのみならず、新世界誕生の輝かしき記念日であります。<br/>
+    　美術館の落成によってここに名実共に地上天国の型としての神仙郷は完成し、救世の大神業の基柱は磐石の巌の上に築かれたのであります。<br/>
+    　この日、祝典に参列された信徒の方々の感懐や如何に――天国の礎石にお使い戴いたその感激、勤労奉仕に聖汗を捧げさせて戴いたその思い出が各自の胸ぬちにあやなして、生きて甲斐ある今日のよろこびに小踊りしたい様な衝動を禁じ得なかったでありましょう。<br/>
+    　又、参列出来なかった信徒の方々は、家々の御神体の御前に額突いて感謝の黙祷を捧げ、遥かに思いを天国の苑に馳せ、誠に生きる誓をされた事でありましょう。<br/>
+<br/>
+<strong>　　　――　目　　的　――<br/>
+</strong><br/>
+    　折しも毎日ニュース社の方から美術館開館のニュース映画を撮らせて貰いたいと申し出があり、これを好機に、教団本部においては参列出来なかった人々のために、又、永遠にこの日の感激を記録するために、明主様の御許を得て“天国の苑”の記録映画製作の企画を樹つるに到ったのであります。六月の初めに決定し、製作を新理研教育映画部に一任、祝典の六月十六日を期して撮影開始、六月三十日の招待会をクライマックスに七月二日には撮影を完了、明主様御臨席の下に試写会が開催されたのは七月二十三日であった。ニュースの方はそれより前七月十一日全国一斉に封切られ、観衆をアッと言わせたのであります。<br/>
+<br/>
+<strong>　　　――　スタッフ　――<br/>
+</strong><br/>
+    　映画製作に当ったのは前回同様、本部側阿部執事の監修水取本部員の指導によって新理研教育映画部が全力を挙げてこれに当ったのであります。脚本並びに演出の島内利男氏は三十代の若々しい、どことなくすっきりした方で、映画界に入って十数年の修行時代を経て、いよいよこれから快腕をふるうというところで、部内でもセンスの新しさを以て謳われている人だとの事である。カメラの福井健二氏については今更御紹介する迄もなく、大建設の記録映画でシナリオからカメラまで一手に引受けて敏腕をふるった方であり、その成功は約束されていた感があった。この外鈴木助手をはじめ録音係三名、ライトマン三名、ライト五台（十二ＫＷｈ）という大掛りなスタッフであった。<br/>
+    　アナウンサーはＮＨＫのど自慢でお馴染の高橋アナウンサーである事もつけ加えておきましょう。<br/>
+    　さてまずシナリオでありますが、六月十二日慌しく駈けつけた島内氏は事務所において色々救世教の沿革とか、地上天国建設の意義等について詳しく質問し、宿に帰っては御神書の拝読に忙しく、その間あちこちと跋渉して、どの位置から、どの様に、どの位の長さ写すとか、このカットにどんなアナウンス（説明）を入れるかという様な事や、更に画面の転換、撮影効果の点に到るまで全般に亘って精細に熟考を重ね、それによってシナリオが書下され、それを阿部執事が監修され、いよいよ六月十六日に撮影は開始された。以下順を追って簡単にその感想を叙べさせていただきましょう。<br/>
+<br/>
+<strong>　　　――　内　　容　――<br/>
+</strong><br/>
+    　第一番に「アッ」と歓声をあげたのはタイトルの“天国の苑”とそのバックである。紅葉の葉蔭もれる陽光が紅葉の葉に反映し合って“天国の苑”の題名にふさわしい感じを漂わせていた。“天国の苑”――何んとピッタリした題名だろうと感歎している間に、視界がパッと展けて、明神、明星と続く箱根の連峰遥かに聳ゆる金時山と、大渓谷が現われる。次いでカメラは観山亭及び神仙郷のお庭に移り、更にカメラはクローズアップして神山荘の神の間に転じ、そこに明主様の御聖姿を仰ぐ、ハッとして思わず膝を直す。明主様は羽織袴を召され右手をテーブルにお掛けになって徐ろに次の如き御高話を揚わった。<br/>
+<br/>
+    「私はメシヤ教々主岡田茂吉であります。本教のモットーとするところは、病気、貧乏、争い、これをなくして、この世に天国を造る事であります。<br/>
+    　天国とは勿論、真善美、全き世界でありまして、真と善は形にあらわせないが、美だけは形にあらわせるというわけで、今度箱根の山の上に地上天国の模型を造ったのであります。<br/>
+    　この美術館でありますが、近頃大分美術館ばやりで方々に出来ましたが、どうも支那、西洋かあるいは仏教美術と言うようなもので、完全な日本の美を主とした美術館はないのであります。<br/>
+    　それで私は非常に遺憾と思って日本美術館を造りたのでありまして、箱根の自然の美と人工美とを出来るだけタイアップさしたものを造ったのであります。」<br/>
+<br/>
+    　この御言葉の間に美術館の全景が幻の如くうつし出されては消え、更に舞台はめぐって観山亭から日光殿のお庭に、それから祝賀式典にとめぐってゆく。<br/>
+<br/>
+    　　芽出度くも　神仙郷はやうやくに<br/>
+    　　　　　　成りてことほぐ今日の御祭<br/>
+<br/>
+    　の御讃歌が奉唱される。その間に画面は、日光殿の御池に遊ぶ鯉に転じ、更に紅葉谷の紅葉の林を逍遥するが如くに移動してゆく。全国の信徒の方々から献上された苔に葉蔭洩れる陽先がちらちらとゆらめく妙味に感心していると、どこともなく琴の清らかな調べが流れて来る。続いて茶室の山月庵の御文字と屋根がクローズアップされる。庭内に入って空鉢石に落ちる筧の水音にその妙を尽し、琴の調べと調和して夢幻の境に誘われる。「ウムー」と讃歎の溜息がもれてくる。<br/>
+    　次いで画面は美術館内部に転じ、現代彫刻界の名匠佐藤玄々の観世音像、蒼鷹、に次いで、飛鳥時代の名作国宝級の金銅如意輪観音の柔和な得も言われぬ御容姿に驚歎させられる。次は天下に有名な天平因果経。ただその色彩が写らないのがいかにも残念であったが、これは白黒映画のもつ宿命で致し方ないところとあきらめる外なかった。一字千金のいわれを秘むる無準禅師の『帰雲』の書は墨蹟淋漓（りんり）として今に万人を魅了して止まないものがあった。次は、宋元画の圧巻牧谿の双幅、（かわせみとせきれい）次の宋青磁の香炉の美しい曲線が瞼にしみる。先頃見せていただいた時のしぶい柔らかな色が見える様であった。次の相阿弥筆の寒山拾得、更に雪舟の備陽雪景のクローズアップに至っては陶然として夢幻の幽邃境（ゆうすいきょう）に誘われる如き錯覚にとらわれる。長次郎の傑作のあやめ茶碗、とカメラは次々に世界的美術品を紹介してゆくので、息を殺して見入る自分が画面に吸いこまれてゆくのをどうする事も出来ない。武蔵の「だるま」の剣の如き鋭さと、光琳の「だるま」の円満豊熟しきった姿との対比がまことに面白い。次は光琳の力作として有名な「水鳥」の屏風、光琳波とまで言われた波の模様は、素人目にも明主様が度々前後印象派の祖は光琳であると仰言せられているのはこれだと明確にわからせて戴く程である。次いで、江戸時代の日暮の蒔絵の手筥の精巧さに一驚する。何時もは美術館のケースの中でその説明書と対比して、“ふたをあければあの水車が廻るのだな”と独り合点していたものが、そこは映画の有難味といおうか、実際に水車が回転して観る人を「アッ」といわせる。<br/>
+    　画面は一転して六月三十日、各界の知名士招待の美術館開きの盛況が写し出される。女流文士の吉屋信子女史をはじめ、川端康成氏、高見順氏、文学博士長与善郎氏、舞踊研究の大家伊藤道郎氏、往年の名将宇垣一成氏等々の外多士済々、小雨そぼ降る中を傘をさして来館、明主様に導かれて館内の観覧に移れば、天下の名品の前に佇んで喰い入る様に覗きこんでいる。顔と顔。カメラも足並そろえて再び美術品に向う。精巧緻密を誇る鎌倉時代の切金細工の阿弥陀如来像。次に曲線の美しさと表情の面白さで世界的に有名な浮世絵の圧巻「湯女」のクローズアップ。次は明主様がその図案の感覚の新鮮さを絶讃遊ばされる仁清の重ね茶碗、白山松哉作沈箱、とまことに息づまる様な数分であった。<br/>
+<br/>
+<strong>　　　――　感　　謝　――<br/>
+</strong><br/>
+    　それはとても長い期間の様であったが、初めから終りまで僅か十一分半であった。フィルムの長さにして千百五十フィート（普通の一巻半位である）しかし、長い様で短いこのフィルム一巻の中に地上天国の型を表現し尽して余りありとの満足感に浸る事が出来た。これ偏に明主様の御守護と御指導、美術品の御指図御出演の賜物に外ならずとの感激を深くさせて戴くと共に、映画もて天国に魂誘い給う明主様の大御心に感涙胸に迫るを覚えたのでありました。<br/>
+    　なお、今度の映画製作に当った人々にも賞讃の拍手を贈ってやりたく思った。それは監修指導に当った阿部執事、水取本部員、製作者側の世話人根本氏の心労もさる事ながら、映画芸術の中に没入している人々の芸術に対する熱誠に対してである。そこには信仰者の誠心と相通じる、神聖なる何物かがある様に思われてならない。更に一歩進んでこれらの人々が入信して清々しき身魂にて一層の霊感的神技を発揮されたなら、映画芸術の向上にも如何に役立つであろうかと思いつつ、その日の一日も早からん事を祈って止まない次第であります。<br/>
+    　これを似て“天国の苑”の映画撮影の梗概とその感想記を終らせて戴きます。信徒の皆様どうか御期待の程を。<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+</font></p>
 </blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 「天国の苑」完成す ――近く巡回上映の計画―― 枕流記者 『地上天国』39号、昭和27(1952)年8月25日発行 昭和二十七年六月十五日、この日こそはメシヤ教信徒にとって一生涯忘れる事が出来ない歓喜渇仰の日であるのみならず、新世界誕生の輝かしき記念日であります。<br/><br/> 美術館の落成によってここに名実共に地上天国の型としての神仙郷は完成し、救世の大神業の基柱は磐石の巌の上に築かれたのであります。<br/><br/> この日、祝典に参列された信徒の方々の感懐や如何に――天国の礎石にお使い戴いたその感激、勤労奉仕に聖汗を捧げさせて戴いたその思い出が各自の胸ぬちにあやなして、生きて甲斐ある今日のよろこびに小踊りしたい様な衝動を禁じ得なかったでありましょう。<br/><br/> 又、参列出来なかった信徒の方々は、家々の御神体の御前に額突いて感謝の黙祷を捧げ、遥かに思いを天国の苑に馳せ、誠に生きる誓をされた事でありましょう。<br/><br/> ―― 目 的 ―― 折しも毎日ニュース社の方から美術館開館のニュース映画を撮らせて貰いたいと申し出があり、これを好機に、教団本部においては参列出来なかった人々のために、又、永遠にこの日の感激を記録するために、明主様の御許を得て“天国の苑”の記録映画製作の企画を樹つるに到ったのであります。<br/><br/>六月の初めに決定し、製作を新理研教育映画部に一任、祝典の六月十六日を期して撮影開始、六月三十日の招待会をクライマックスに七月二日には撮影を完了、明主様御臨席の下に試写会が開催されたのは七月二十三日であった。<br/><br/>ニュースの方はそれより前七月十一日全国一斉に封切られ、観衆をアッと言わせたのであります。<br/><br/> ―― スタッフ ―― 映画製作に当ったのは前回同様、本部側阿部執事の監修水取本部員の指導によって新理研教育映画部が全力を挙げてこれに当ったのであります。<br/><br/>脚本並びに演出の島内利男氏は三十代の若々しい、どことなくすっきりした方で、映画界に入って十数年の修行時代を経て、いよいよこれから快腕をふるうというところで、部内でもセンスの新しさを以て謳われている人だとの事である。<br/><br/>カメラの福井健二氏については今更御紹介する迄もなく、大建設の記録映画でシナリオからカメラまで一手に引受けて敏腕をふるった方であり、その成功は約束されていた感があった。<br/><br/>この外鈴木助手をはじめ録音係三名、ライトマン三名、ライト五台（十二ＫＷｈ）という大掛りなスタッフであった。<br/><br/> アナウンサーはＮＨＫのど自慢でお馴染の高橋アナウンサーである事もつけ加えておきましょう。<br/><br/> さてまずシナリオでありますが、六月十二日慌しく駈けつけた島内氏は事務所において色々救世教の沿革とか、地上天国建設の意義等について詳しく質問し、宿に帰っては御神書の拝読に忙しく、その間あちこちと跋渉して、どの位置から、どの様に、どの位の長さ写すとか、このカットにどんなアナウンス（説明）を入れるかという様な事や、更に画面の転換、撮影効果の点に到るまで全般に亘って精細に熟考を重ね、それによってシナリオが書下され、それを阿部執事が監修され、いよいよ六月十六日に撮影は開始された。<br/><br/>以下順を追って簡単にその感想を叙べさせていただきましょう。<br/><br/> ―― 内 容 ―― 第一番に「アッ」と歓声をあげたのはタイトルの“天国の苑”とそのバックである。<br/><br/>紅葉の葉蔭もれる陽光が紅葉の葉に反映し合って“天国の苑”の題名にふさわしい感じを漂わせていた。<br/><br/>“天国の苑”――何んとピッタリした題名だろうと感歎している間に、視界がパッと展けて、明神、明星と続く箱根の連峰遥かに聳ゆる金時山と、大渓谷が現われる。<br/><br/>次いでカメラは観山亭及び神仙郷のお庭に移り、更にカメラはクローズアップして神山荘の神の間に転じ、そこに明主様の御聖姿を仰ぐ、ハッとして思わず膝を直す。<br/><br/>明主様は羽織袴を召され右手をテーブルにお掛けになって徐ろに次の如き御高話を揚わった。<br/><br/> 「私はメシヤ教々主岡田茂吉であります。<br/><br/>本教のモットーとするところは、病気、貧乏、争い、これをなくして、この世に天国を造る事であります。<br/><br/> 天国とは勿論、真善美、全き世界でありまして、真と善は形にあらわせないが、美だけは形にあらわせるというわけで、今度箱根の山の上に地上天国の模型を造ったのであります。<br/><br/> この美術館でありますが、近頃大分美術館ばやりで方々に出来ましたが、どうも支那、西洋かあるいは仏教美術と言うようなもので、完全な日本の美を主とした美術館はないのであります。<br/><br/> それで私は非常に遺憾と思って日本美術館を造りたのでありまして、箱根の自然の美と人工美とを出来るだけタイアップさしたものを造ったのであります。<br/><br/>」 この御言葉の間に美術館の全景が幻の如くうつし出されては消え、更に舞台はめぐって観山亭から日光殿のお庭に、それから祝賀式典にとめぐってゆく。<br/><br/> 芽出度くも 神仙郷はやうやくに 成りてことほぐ今日の御祭 の御讃歌が奉唱される。<br/><br/>その間に画面は、日光殿の御池に遊ぶ鯉に転じ、更に紅葉谷の紅葉の林を逍遥するが如くに移動してゆく。<br/><br/>全国の信徒の方々から献上された苔に葉蔭洩れる陽先がちらちらとゆらめく妙味に感心していると、どこともなく琴の清らかな調べが流れて来る。<br/><br/>続いて茶室の山月庵の御文字と屋根がクローズアップされる。<br/><br/>庭内に入って空鉢石に落ちる筧の水音にその妙を尽し、琴の調べと調和して夢幻の境に誘われる。<br/><br/>「ウムー」と讃歎の溜息がもれてくる。<br/><br/> 次いで画面は美術館内部に転じ、現代彫刻界の名匠佐藤玄々の観世音像、蒼鷹、に次いで、飛鳥時代の名作国宝級の金銅如意輪観音の柔和な得も言われぬ御容姿に驚歎させられる。<br/><br/>次は天下に有名な天平因果経。<br/><br/>ただその色彩が写らないのがいかにも残念であったが、これは白黒映画のもつ宿命で致し方ないところとあきらめる外なかった。<br/><br/>一字千金のいわれを秘むる無準禅師の『帰雲』の書は墨蹟淋漓（りんり）として今に万人を魅了して止まないものがあった。<br/><br/>次は、宋元画の圧巻牧谿の双幅、（かわせみとせきれい）次の宋青磁の香炉の美しい曲線が瞼にしみる。<br/><br/>先頃見せていただいた時のしぶい柔らかな色が見える様であった。<br/><br/>次の相阿弥筆の寒山拾得、更に雪舟の備陽雪景のクローズアップに至っては陶然として夢幻の幽邃境（ゆうすいきょう）に誘われる如き錯覚にとらわれる。<br/><br/>長次郎の傑作のあやめ茶碗、とカメラは次々に世界的美術品を紹介してゆくので、息を殺して見入る自分が画面に吸いこまれてゆくのをどうする事も出来ない。<br/><br/>武蔵の「だるま」の剣の如き鋭さと、光琳の「だるま」の円満豊熟しきった姿との対比がまことに面白い。<br/><br/>次は光琳の力作として有名な「水鳥」の屏風、光琳波とまで言われた波の模様は、素人目にも明主様が度々前後印象派の祖は光琳であると仰言せられているのはこれだと明確にわからせて戴く程である。<br/><br/>次いで、江戸時代の日暮の蒔絵の手筥の精巧さに一驚する。<br/><br/>何時もは美術館のケースの中でその説明書と対比して、“ふたをあければあの水車が廻るのだな”と独り合点していたものが、そこは映画の有難味といおうか、実際に水車が回転して観る人を「アッ」といわせる。<br/><br/> 画面は一転して六月三十日、各界の知名士招待の美術館開きの盛況が写し出される。<br/><br/>女流文士の吉屋信子女史をはじめ、川端康成氏、高見順氏、文学博士長与善郎氏、舞踊研究の大家伊藤道郎氏、往年の名将宇垣一成氏等々の外多士済々、小雨そぼ降る中を傘をさして来館、明主様に導かれて館内の観覧に移れば、天下の名品の前に佇んで喰い入る様に覗きこんでいる。<br/><br/>顔と顔。<br/><br/>カメラも足並そろえて再び美術品に向う。<br/><br/>精巧緻密を誇る鎌倉時代の切金細工の阿弥陀如来像。<br/><br/>次に曲線の美しさと表情の面白さで世界的に有名な浮世絵の圧巻「湯女」のクローズアップ。<br/><br/>次は明主様がその図案の感覚の新鮮さを絶讃遊ばされる仁清の重ね茶碗、白山松哉作沈箱、とまことに息づまる様な数分であった。<br/><br/> ―― 感 謝 ―― それはとても長い期間の様であったが、初めから終りまで僅か十一分半であった。<br/><br/>フィルムの長さにして千百五十フィート（普通の一巻半位である）しかし、長い様で短いこのフィルム一巻の中に地上天国の型を表現し尽して余りありとの満足感に浸る事が出来た。<br/><br/>これ偏に明主様の御守護と御指導、美術品の御指図御出演の賜物に外ならずとの感激を深くさせて戴くと共に、映画もて天国に魂誘い給う明主様の大御心に感涙胸に迫るを覚えたのでありました。<br/><br/> なお、今度の映画製作に当った人々にも賞讃の拍手を贈ってやりたく思った。<br/><br/>それは監修指導に当った阿部執事、水取本部員、製作者側の世話人根本氏の心労もさる事ながら、映画芸術の中に没入している人々の芸術に対する熱誠に対してである。<br/><br/>そこには信仰者の誠心と相通じる、神聖なる何物かがある様に思われてならない。<br/><br/>更に一歩進んでこれらの人々が入信して清々しき身魂にて一層の霊感的神技を発揮されたなら、映画芸術の向上にも如何に役立つであろうかと思いつつ、その日の一日も早からん事を祈って止まない次第であります。<br/><br/> これを似て“天国の苑”の映画撮影の梗概とその感想記を終らせて戴きます。<br/><br/>信徒の皆様どうか御期待の程を。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

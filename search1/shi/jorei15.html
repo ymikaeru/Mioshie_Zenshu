@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jorei15</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊と幸福 『地上天国』34号、昭和27(1952)年3月25日発行 本教浄霊は病気を治すのが目的のようになっているが、本当からいうとそれだけではないので、もっと大きな意味がある事をかいてみるが、一言にしていえば浄霊とは幸福を生む方法である。<br><br>というのは単に病気といってももちろん浄化であり、その因は霊の曇りの解消作用であるのは、今更言うまでもないが、そればかりではなく、人間一切の苦悩の無くなる作用である。<br><br> 従って貧乏も争いも浄化の表れで、私のいう病貧争ことごとくがそれである。<br><br>ところが一切の浄化作用の中で最も重要なのが病気であって、これは生命に関するものであるからで従って病気さえ解決出来れば、貧乏も争いも自然に解決されるのは当然である。<br><br>もちろんそうなる事が幸福の根本であるから、不幸の原因は全く霊の曇りであるのは、余りにも明らかである。<br><br>それを簡単にして確実な方法こそ、霊の曇りの解消法としての浄霊であるから、最初に述べたごとく浄霊は独り病気のみではない事である。<br><br>それについて一層詳しくかいてみよう。<br><br> 以前記いた事があるが、人間の体は現界に呼吸しており、霊は霊界に生きている以上、霊界の状態がそのまま霊身に影響し、それが肉体に映るのであるから、人間の運命のその根本は霊界にあるのである。<br><br>そうして霊界も現界と等しく、上中下多数の段階になっており、これを分ければ大別して三段階になっている。<br><br>その内の一段が六十階、それが三分され二十段ずつになって、合計百八十一階級である。<br><br>そうして一は主神であるから、主神以外はいかなる神様でも、百八十の中のどれかの段階におられるのである。<br><br>右は経（たて）をいったものであるが、今度は緯（よこ）をいってみると、緯の広がりの一つ一つの段が、地獄から天国までそれぞれ異（ちが）っているから、仮に現在自分の霊とすると、下の六十段のそのまた下の二十段にいる場合は、最低地獄に相応するから、これ以上ない程の苦悩に満ちた世界で、これが体に映って苦境のドン底にある訳である。<br><br>またその上の二十段に上ると幾分楽になり、そのまた上の二十段はもっとよくなるというように、それぞれの段階一段一段その苦楽の異うのはもちろんである。<br><br>それで右のごとき下の六十段を突破すると、今度は中の段階になる。<br><br>すなわち中有界（ちゅうゆうかい）、八衢（やちまた）であるから、現界に相応するので、そのまた中から上の六十段へ入ると、ここは天国であるから天人の地位となり、歓喜悦楽の境遇となるのである。<br><br> 右のようにその人のいる段階そのまま通りが運命となるのだから、一段でも上に行くよう心掛けるべきで、上になる程益々苦しい忌わしい事がなくなり、幸福は増すのである。<br><br>つまり浄化すべき苦痛の必要がなくなるからである。<br><br>だから人間は霊身が下段にある間は、どんなに智慧を振い、骨を折っても駄目である。<br><br>というのはこれが神の天則であって、霊主体従の法則も厳として冒す事が出来ないからである。<br><br>ゆえに幸福になるにはどうしても霊を浄めて軽くし、少しでも上位になるよう心掛くべきで、それ以外に方法は絶対にないので、ここに浄霊の大いなる意義があるのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Johrei como Fonte da Verdadeira Felicidade</h2>
 <p>O Johrei de nossa Igreja tem sido percebido primordialmente como um método para a cura de doenças. Contudo, em sua verdadeira essência, seu propósito é muito mais amplo. Em suma, o Johrei é o método pelo qual se alcança a felicidade. A doença, evidentemente, é um processo de purificação, cuja causa reside na dissolução das máculas espirituais – um fato já amplamente conhecido. Todavia, o alcance dessa ação purificadora não se restringe à enfermidade; ela abrange e extingue toda a sorte de sofrimentos humanos.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>A explanação anterior descreveu a estrutura vertical do Mundo Espiritual. Analisemos agora sua dimensão horizontal. A amplitude de cada um desses planos varia imensamente, abrangendo desde o Inferno até o Paraíso. Suponhamos que o espírito de uma pessoa se encontre nos vinte planos mais baixos, dentre os sessenta inferiores. Essa posição corresponde ao mais profundo nível do Inferno, um mundo repleto de indizível sofrimento, cujo reflexo se manifesta no corpo físico como uma situação de extrema adversidade. Ao ascender aos vinte planos seguintes, a pessoa experimenta algum alívio, e ao alcançar os vinte subsequentes, sua condição melhora ainda mais. É evidente, portanto, que a natureza do sofrimento e do deleite difere a cada nível da escalada espiritual. Uma vez superados os sessenta planos inferiores, ingressa-se no estágio intermediário. Este corresponde ao Mundo Intermediário, ou yachimata (八衢), análogo ao Mundo Material. A partir desse ponto, ao adentrar os sessenta planos superiores, atinge-se o Paraíso. A pessoa alcança, então, a condição de ser celestial e desfruta de uma existência de júbilo e êxtase.</p>
 <p>Como se vê, o destino de uma pessoa é o reflexo exato do plano espiritual em que ela se encontra. Dessa forma, é imperativo que cada um se empenhe em ascender, ainda que seja um único nível. Quanto mais se eleva, mais se dissipam os sofrimentos e as aflições, ao passo que a felicidade se intensifica. Isso ocorre porque a necessidade da purificação através da dor deixa de existir. Enquanto o corpo espiritual de um indivíduo permanecer nos planos inferiores, de nada valerão sua sabedoria ou seus esforços extenuantes. Pois esta é a Lei Divina, e o Princípio de que o Espírito é Primordial e a Matéria, Secundária, é uma norma rigorosa e inviolável.</p>
 <p>Portanto, para alcançar a felicidade, é indispensável purificar e aliviar o espírito, esforçando-se para atingir um plano superior. Não existe, em absoluto, outro caminho. É precisamente nisto que reside o profundo e grandioso significado do Johrei.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊と幸福 『地上天国』34号、昭和27(1952)年3月25日発行 本教浄霊は病気を治すのが目的のようになっているが、本当からいうとそれだけではないので、もっと大きな意味がある事をかいてみるが、一言にしていえば浄霊とは幸福を生む方法である。<br/><br/>というのは単に病気といってももちろん浄化であり、その因は霊の曇りの解消作用であるのは、今更言うまでもないが、そればかりではなく、人間一切の苦悩の無くなる作用である。<br/><br/> 従って貧乏も争いも浄化の表れで、私のいう病貧争ことごとくがそれである。<br/><br/>ところが一切の浄化作用の中で最も重要なのが病気であって、これは生命に関するものであるからで従って病気さえ解決出来れば、貧乏も争いも自然に解決されるのは当然である。<br/><br/>もちろんそうなる事が幸福の根本であるから、不幸の原因は全く霊の曇りであるのは、余りにも明らかである。<br/><br/>それを簡単にして確実な方法こそ、霊の曇りの解消法としての浄霊であるから、最初に述べたごとく浄霊は独り病気のみではない事である。<br/><br/>それについて一層詳しくかいてみよう。<br/><br/> 以前記いた事があるが、人間の体は現界に呼吸しており、霊は霊界に生きている以上、霊界の状態がそのまま霊身に影響し、それが肉体に映るのであるから、人間の運命のその根本は霊界にあるのである。<br/><br/>そうして霊界も現界と等しく、上中下多数の段階になっており、これを分ければ大別して三段階になっている。<br/><br/>その内の一段が六十階、それが三分され二十段ずつになって、合計百八十一階級である。<br/><br/>そうして一は主神であるから、主神以外はいかなる神様でも、百八十の中のどれかの段階におられるのである。<br/><br/>右は経（たて）をいったものであるが、今度は緯（よこ）をいってみると、緯の広がりの一つ一つの段が、地獄から天国までそれぞれ異（ちが）っているから、仮に現在自分の霊とすると、下の六十段のそのまた下の二十段にいる場合は、最低地獄に相応するから、これ以上ない程の苦悩に満ちた世界で、これが体に映って苦境のドン底にある訳である。<br/><br/>またその上の二十段に上ると幾分楽になり、そのまた上の二十段はもっとよくなるというように、それぞれの段階一段一段その苦楽の異うのはもちろんである。<br/><br/>それで右のごとき下の六十段を突破すると、今度は中の段階になる。<br/><br/>すなわち中有界（ちゅうゆうかい）、八衢（やちまた）であるから、現界に相応するので、そのまた中から上の六十段へ入ると、ここは天国であるから天人の地位となり、歓喜悦楽の境遇となるのである。<br/><br/> 右のようにその人のいる段階そのまま通りが運命となるのだから、一段でも上に行くよう心掛けるべきで、上になる程益々苦しい忌わしい事がなくなり、幸福は増すのである。<br/><br/>つまり浄化すべき苦痛の必要がなくなるからである。<br/><br/>だから人間は霊身が下段にある間は、どんなに智慧を振い、骨を折っても駄目である。<br/><br/>というのはこれが神の天則であって、霊主体従の法則も厳として冒す事が出来ないからである。<br/><br/>ゆえに幸福になるにはどうしても霊を浄めて軽くし、少しでも上位になるよう心掛くべきで、それ以外に方法は絶対にないので、ここに浄霊の大いなる意義があるのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

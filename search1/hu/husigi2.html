@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>husigi2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 不思議な団体 未発表、昭和11(1936)年執筆 我観音会下付の観世音菩薩の御神体を奉斎して会員となり、月に一回ないし三回本部の祭典又は講話会に出席をなし、半ケ年か一カ年を経過するにおいて、一家より病魔が退散するというのは、実に不思議な事である。<br><br>一家に病気が無い以上、自然物質は裕かにならざるを得ない。<br><br>病人が無く、物質が豊かであるとすれば、不和や争の起りようはずがない。<br><br>ここに全く病貧争の不幸は解消する。<br><br>こうなった以上、総ては順調に向うのは当然な話である。<br><br> これにおいて、いかなる人といえども、感謝の心が湧起しない訳にはゆかない。<br><br>その結果として、報恩の心は近親へまでもその恵みを頒ち与えずには措かないという事は必然の理である。<br><br>又、その天国的家庭を見た誰もが、その事実に心を動かさずにはおられないから、ついには共鳴者たるようになるのは勿論の事である。<br><br>この点について黙視出来ない事がある。<br><br>それは世間往々貧に苦しみ、病に苦しみ、信仰地獄的状態に在りながらなお、人に信仰を奨めようとする宗団があるが、実に沙汰の限りである。<br><br>苦しんでいるという事は、地獄に堕ちているのである。<br><br>自分自身、地獄に堕ちていながら、人を天国に救える道理は有り得ない。<br><br>これは大変に誤っている。<br><br>その人達のいう事はこうである。<br><br>それは、苦しむという事は、罪障が深いのであるから、その罪障を消すべく大いに信仰を励まなければならないと言うので、苦悩が来れば来る程、一層馬力を掛けるという悲惨なる喜劇である。<br><br>仕方なく泣く、こういう状態をいつまでも続けているという悲劇が到るところ無数に行われているのである。<br><br>ちょうど、病気で苦しいから医療をする、その医療が病気を悪化させる、悪化するから、医療が足りないと思い、多々益々医療を行うというのと同じ経路である。<br><br>本来、信仰をすればする程、その徳によって罪障が消滅し、幸福の境遇になり、無病息災にならなければならないのに、それが反対に苦悩が持続する。<br><br>それが常態になってしまって誰もが怪しまないというのが実状である。<br><br>不幸を除去し得ない宗教は止むを得ずトリックを使う。<br><br>それは、不幸や苦痛も神の恩恵として感謝しなければならないという、まことに変態的心境にしてしまうのである。<br><br>嗚呼、何と驚くべき悲惨事ではなかろうか。<br><br> しかるに、我観音会の信者即ち入会者は、全然これとは異って、病貧争が全く無くなるのである。<br><br>いか程会員が増えても、増えるだけ会員の家庭に病人が発生しないのである。<br><br>この事実こそ、恐らく全世界に、又、人類の歴史にも無いであろう。<br><br>私に言わせれば、病の無い世界、それは容易（たやす）い事である。<br><br>全人類が挙（こぞ）って観音会員になればそれでよいのである。<br><br>この様な、まことに痴人の夢にも等しい一大福音が既に現われているのであるから、一日も速く大衆に知らせる事、それが何物にも増しての人類救済である。<br><br>これによって結核療養所も、癩（らい）療養所も、病院も、養老院も、孤児院も、ついには警察も裁判所も要らない時代が来るであろう。<br><br>繰返して言う。<br><br>それは観音会という団体が拡充する事によってである事を――。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdadeira Fé e a Erradicação do Sofrimento</h2>
 <p>É um fato verdadeiramente prodigioso que, ao se tornar membro de nossa Kannon (観音) Kai, consagrando a Imagem Divina de Kanzeon Bosatsu, e frequentando as cerimônias ou palestras na Sede de uma a três vezes por mês, após um período de seis meses a um ano, o flagelo da doença se retira por completo do lar. Uma vez que a enfermidade deixa de existir na família, a prosperidade material torna-se uma consequência natural. Onde não há doentes e a matéria é farta, não há como surgirem a desarmonia e o conflito. É nesse ponto que a infelicidade gerada pela doença, pobreza e conflito se dissipa por completo. Alcançado esse estado, é natural que tudo passe a transcorrer de maneira harmoniosa.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Entretanto, os fiéis de nossa Kannon (観音) Kai, ou seja, seus membros, experimentam uma realidade totalmente distinta, na qual a doença, a pobreza e o conflito são completamente erradicados. Não importa o quanto o número de membros aumente; o fato é que, nos lares de cada um deles, a doença simplesmente não se manifesta. Tal fato é, quiçá, algo sem precedentes em todo o mundo e em toda a história da humanidade.</p>
 <p>Permitam-me afirmar: um mundo sem doenças é algo perfeitamente exequível. Basta que toda a humanidade, em uníssono, se torne membro da Kannon (観音) Kai. Visto que este grandioso evangelho, que poderia parecer um devaneio, já se manifestou em nosso meio, divulgá-lo às massas com a máxima urgência constitui, acima de qualquer outra coisa, a verdadeira salvação da humanidade. Por meio dele, advirá uma era na qual sanatórios para tuberculosos, leprosários, hospitais, asilos e orfanatos, e até mesmo a polícia e os tribunais, se tornarão desnecessários.</p>
 <p>Repito: tal era será alcançada por meio da expansão da organização denominada Kannon (観音) Kai.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 不思議な団体 未発表、昭和11(1936)年執筆 我観音会下付の観世音菩薩の御神体を奉斎して会員となり、月に一回ないし三回本部の祭典又は講話会に出席をなし、半ケ年か一カ年を経過するにおいて、一家より病魔が退散するというのは、実に不思議な事である。<br/><br/>一家に病気が無い以上、自然物質は裕かにならざるを得ない。<br/><br/>病人が無く、物質が豊かであるとすれば、不和や争の起りようはずがない。<br/><br/>ここに全く病貧争の不幸は解消する。<br/><br/>こうなった以上、総ては順調に向うのは当然な話である。<br/><br/> これにおいて、いかなる人といえども、感謝の心が湧起しない訳にはゆかない。<br/><br/>その結果として、報恩の心は近親へまでもその恵みを頒ち与えずには措かないという事は必然の理である。<br/><br/>又、その天国的家庭を見た誰もが、その事実に心を動かさずにはおられないから、ついには共鳴者たるようになるのは勿論の事である。<br/><br/>この点について黙視出来ない事がある。<br/><br/>それは世間往々貧に苦しみ、病に苦しみ、信仰地獄的状態に在りながらなお、人に信仰を奨めようとする宗団があるが、実に沙汰の限りである。<br/><br/>苦しんでいるという事は、地獄に堕ちているのである。<br/><br/>自分自身、地獄に堕ちていながら、人を天国に救える道理は有り得ない。<br/><br/>これは大変に誤っている。<br/><br/>その人達のいう事はこうである。<br/><br/>それは、苦しむという事は、罪障が深いのであるから、その罪障を消すべく大いに信仰を励まなければならないと言うので、苦悩が来れば来る程、一層馬力を掛けるという悲惨なる喜劇である。<br/><br/>仕方なく泣く、こういう状態をいつまでも続けているという悲劇が到るところ無数に行われているのである。<br/><br/>ちょうど、病気で苦しいから医療をする、その医療が病気を悪化させる、悪化するから、医療が足りないと思い、多々益々医療を行うというのと同じ経路である。<br/><br/>本来、信仰をすればする程、その徳によって罪障が消滅し、幸福の境遇になり、無病息災にならなければならないのに、それが反対に苦悩が持続する。<br/><br/>それが常態になってしまって誰もが怪しまないというのが実状である。<br/><br/>不幸を除去し得ない宗教は止むを得ずトリックを使う。<br/><br/>それは、不幸や苦痛も神の恩恵として感謝しなければならないという、まことに変態的心境にしてしまうのである。<br/><br/>嗚呼、何と驚くべき悲惨事ではなかろうか。<br/><br/> しかるに、我観音会の信者即ち入会者は、全然これとは異って、病貧争が全く無くなるのである。<br/><br/>いか程会員が増えても、増えるだけ会員の家庭に病人が発生しないのである。<br/><br/>この事実こそ、恐らく全世界に、又、人類の歴史にも無いであろう。<br/><br/>私に言わせれば、病の無い世界、それは容易（たやす）い事である。<br/><br/>全人類が挙（こぞ）って観音会員になればそれでよいのである。<br/><br/>この様な、まことに痴人の夢にも等しい一大福音が既に現われているのであるから、一日も速く大衆に知らせる事、それが何物にも増しての人類救済である。<br/><br/>これによって結核療養所も、癩（らい）療養所も、病院も、養老院も、孤児院も、ついには警察も裁判所も要らない時代が来るであろう。<br/><br/>繰返して言う。<br/><br/>それは観音会という団体が拡充する事によってである事を――。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

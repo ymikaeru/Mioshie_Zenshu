@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>korei01</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 狐霊 『明日の医術 第三編』昭和18(1943)年10月23日発行 日本の霊界においては、狐霊の活躍が最もはなはだしいようである。<br><br>狐霊は好んで宗教を利用し、又は宗教に利用される事を好むものである。<br><br>特に○○宗の行者などはほとんど狐霊を使っている。<br><br>狐霊なしではやってゆけまい。<br><br>そうして病気治し、当てもの等は、狐霊の得意とする所である。<br><br>しかし病気治しはある種の病気に限るので、勿論憑依霊を狐霊が追出し、又は鎮圧する為治るのである。<br><br>しかし、彼らは病気の治ったが最後、決して手を引かないものである。<br><br>即ち治った御利益を利用し、漸次深みへ誘い、退引（のっぴき）ならぬようにするものである。<br><br>故に、最初行者が狐霊を使ったのであるが、遂には狐霊が行者や患者を利用し、種々の欲望を遂げるのである。<br><br>その様になった最後の窮極は、大方は精神病者たらしめるのである。<br><br> 元来狐霊は、精神病者たらしむ事を最も悦びとするものである。<br><br>何となれば、万物の霊長たる人間を、自由自在に踊らせられるからである。<br><br>狐霊にとってはこれ以上面白い事はないであろう。<br><br>そうして狐霊が何故に○○宗に密接な関係があるかというと、○○経の経文を聞く時は、狐霊の通力が増すのだそうである。<br><br>このように狐霊は常に通力を増す事に努力して居るもので、人間を踊らせる場合、通力の強い程効果があるからである。<br><br> よく行者輩が、病気その他人事に関する事をよく当てるが、それはいかなる訳かというとまず行者の前へ相手が座るとする。<br><br>行者の命に応じて、常に行者の命によって働く狐霊は直ちに相手に憑依し相手の頭脳中に侵入するので、通力によって相手の意念や考慮している事を探知し、直ちに行者の霊中に入り報告するのである。<br><br>そこで行者は「貴方はかくかくの事があったでしょう。<br><br>」とか「かくかくの事を想っているでしょう。<br><br>」などといわれるので、生神様のごとく信じてしまうものである。<br><br> 又、こういう事もある。<br><br>それは行者が相手に向って「何時頃、貴方にはこういう出来事があるから、気をつけなければいけない」などと云う。<br><br>するとその言のごとき事が出現するのでその的中に喫驚（びっくり）してしまう。<br><br>ついに帰依者となるのである。<br><br>それはどういう訳かというと、最初予言する時に、狐霊一匹を相手に憑依させておくから、狐霊はその予言通りの事を行うのである。<br><br>この方法で成功し、生神様のごとく信じられ、相当の繁昌をしている行者に○○○市の○○という有名な婦人がある。<br><br> 狐霊には、稲荷の狐と野狐（やこ）との二種類がある。<br><br>前者は稲荷大明神と崇められ、その眷属も頗る多数で狐霊界の王者ともいうべきもので、その眷属といえども人間にすれば立派な官吏、会社員、農工商等に従事している公民である。<br><br>しかるに右に引換え後者の野狐は失業者であり、浮浪人であるから、常に食物や住居に困り、狐霊の社会でも下賤扱いされているので、早く稲荷に祀られるか又は眷属になる事を熱望しているものである。<br><br>そうして人間に対し害悪を与えるのは野狐に多い事は勿論である。<br><br>しかしながら、稲荷の狐でも良狐は稀であって、そのほとんどは不良行為を好んで行うものであるが、ただ野狐よりも不良性は少ないのである。<br><br>そうして狐の中でも老狐ほど通力が強く、有名な稲荷神社の本尊は大抵数千年を経た老狐である。<br><br> ただ狐霊の中にも特殊な老狐がある、それは人霊と同化した狐霊で、さきに説いたごとき子孫の守護を主眼としているものであるが、これらの中から選抜されて産土（うぶすな）神の従神となり神命のまにまに活動している狐霊もあるが、これらは全部白狐である。<br><br> ここで、稲荷の由来について簡単に説示してみるが、その昔畏多くも天照皇大御神が豊葦原瑞穂国（とよあしはらみずほのくに）を、豊穣の土地となさしめ給わんが為豊受明神に命じて、四方の国原に稲を間配らせ給うたのであった。<br><br>豊受明神はその命を畏み多くの狐に命じ稲種を各地に蒔（ま）かせ給うた。<br><br>従って、稲荷とは稲を荷ぐという意味であり、又飯を成らせるから飯成（いいなり）という説もある。<br><br>その功によって各地に神として祀られ、それぞれの土地の百姓の感謝礼拝の的となったのである。<br><br>これが稲荷の始まりであり、本来であるが、いつの時代よりか世の乱れと共に稲荷の信仰も紊（みだ）れ、農事以外の事にまで祈願の目的が及んだのである。<br><br>ついには商人が商売繁昌や金儲けを願い、果は花柳界の人達が情事に関する事や、一般人が私利私欲の為の祈願をするようになり、それに対し、稲荷明神の方でも、善悪無差別的に御利益を与えるという風になって今日に及んだのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Natureza e a Ação dos Espíritos-Raposa</h2>
 <p>No Mundo Espiritual do Japão, a atuação dos espíritos-raposa parece ser a mais proeminente. Esses espíritos aprazem-se em utilizar a religião ou, inversamente, em serem por ela utilizados. De modo particular, os praticantes espirituais de certas seitas recorrem quase invariavelmente a eles, a ponto de não conseguirem operar sem seu auxílio. Nesse sentido, a cura de doenças e as adivinhações são suas maiores especialidades.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Existe, todavia, uma categoria especial de raposas anciãs: são aquelas que se assimilaram a espíritos humanos. Conforme explicado anteriormente, seu objetivo primordial é a proteção de seus descendentes. Dentre estas, algumas são selecionadas para servir como deidades auxiliares do deus protetor da localidade (産土神 - <em>ubusunagami</em>), atuando sob ordens divinas. Todas as raposas desta estirpe são brancas.</p>
 <p>Aproveito a oportunidade para elucidar brevemente a origem do culto a Inari. Em tempos imemoriais, a Augusta Deusa Amaterassu Oomikami, em Seu desejo de transformar a terra de Toyoashihara Mizuho no Kuni em um reino de fartura, ordenou à divindade Toyouke Myojin que distribuísse sementes de arroz por todas as províncias. Reverentemente, Toyouke Myojin acatou a ordem e incumbiu inúmeras raposas da tarefa de semear o arroz por toda a nação. O termo Inari deriva, portanto, do ato de “carregar o arroz”. Existe também a interpretação de que a palavra se origina de <em>iinari</em> (飯成), que significa “fazer o arroz cozido”. Em reconhecimento por esse mérito, as raposas foram consagradas como divindades em diversas localidades, tornando-se objeto da gratidão e da reverência dos agricultores. Esta é a gênese e a essência do culto a Inari.</p>
 <p>Contudo, com o passar das eras e a desordem que se instalou no mundo, a fé em Inari também se corrompeu. As preces deixaram de se limitar às questões agrícolas e passaram a abranger outros anseios. Com o tempo, mercadores passaram a rogar por prosperidade nos negócios e por lucros; pessoas do mundo do entretenimento, por sucesso em assuntos amorosos; e o povo em geral, pela satisfação de seus desejos egoístas. Em resposta, a divindade Inari passou a conceder suas graças indiscriminadamente, tanto ao bem quanto ao mal, uma prática que perdura até os dias de hoje.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 狐霊 『明日の医術 第三編』昭和18(1943)年10月23日発行 日本の霊界においては、狐霊の活躍が最もはなはだしいようである。<br/><br/>狐霊は好んで宗教を利用し、又は宗教に利用される事を好むものである。<br/><br/>特に○○宗の行者などはほとんど狐霊を使っている。<br/><br/>狐霊なしではやってゆけまい。<br/><br/>そうして病気治し、当てもの等は、狐霊の得意とする所である。<br/><br/>しかし病気治しはある種の病気に限るので、勿論憑依霊を狐霊が追出し、又は鎮圧する為治るのである。<br/><br/>しかし、彼らは病気の治ったが最後、決して手を引かないものである。<br/><br/>即ち治った御利益を利用し、漸次深みへ誘い、退引（のっぴき）ならぬようにするものである。<br/><br/>故に、最初行者が狐霊を使ったのであるが、遂には狐霊が行者や患者を利用し、種々の欲望を遂げるのである。<br/><br/>その様になった最後の窮極は、大方は精神病者たらしめるのである。<br/><br/> 元来狐霊は、精神病者たらしむ事を最も悦びとするものである。<br/><br/>何となれば、万物の霊長たる人間を、自由自在に踊らせられるからである。<br/><br/>狐霊にとってはこれ以上面白い事はないであろう。<br/><br/>そうして狐霊が何故に○○宗に密接な関係があるかというと、○○経の経文を聞く時は、狐霊の通力が増すのだそうである。<br/><br/>このように狐霊は常に通力を増す事に努力して居るもので、人間を踊らせる場合、通力の強い程効果があるからである。<br/><br/> よく行者輩が、病気その他人事に関する事をよく当てるが、それはいかなる訳かというとまず行者の前へ相手が座るとする。<br/><br/>行者の命に応じて、常に行者の命によって働く狐霊は直ちに相手に憑依し相手の頭脳中に侵入するので、通力によって相手の意念や考慮している事を探知し、直ちに行者の霊中に入り報告するのである。<br/><br/>そこで行者は「貴方はかくかくの事があったでしょう。<br/><br/>」とか「かくかくの事を想っているでしょう。<br/><br/>」などといわれるので、生神様のごとく信じてしまうものである。<br/><br/> 又、こういう事もある。<br/><br/>それは行者が相手に向って「何時頃、貴方にはこういう出来事があるから、気をつけなければいけない」などと云う。<br/><br/>するとその言のごとき事が出現するのでその的中に喫驚（びっくり）してしまう。<br/><br/>ついに帰依者となるのである。<br/><br/>それはどういう訳かというと、最初予言する時に、狐霊一匹を相手に憑依させておくから、狐霊はその予言通りの事を行うのである。<br/><br/>この方法で成功し、生神様のごとく信じられ、相当の繁昌をしている行者に○○○市の○○という有名な婦人がある。<br/><br/> 狐霊には、稲荷の狐と野狐（やこ）との二種類がある。<br/><br/>前者は稲荷大明神と崇められ、その眷属も頗る多数で狐霊界の王者ともいうべきもので、その眷属といえども人間にすれば立派な官吏、会社員、農工商等に従事している公民である。<br/><br/>しかるに右に引換え後者の野狐は失業者であり、浮浪人であるから、常に食物や住居に困り、狐霊の社会でも下賤扱いされているので、早く稲荷に祀られるか又は眷属になる事を熱望しているものである。<br/><br/>そうして人間に対し害悪を与えるのは野狐に多い事は勿論である。<br/><br/>しかしながら、稲荷の狐でも良狐は稀であって、そのほとんどは不良行為を好んで行うものであるが、ただ野狐よりも不良性は少ないのである。<br/><br/>そうして狐の中でも老狐ほど通力が強く、有名な稲荷神社の本尊は大抵数千年を経た老狐である。<br/><br/> ただ狐霊の中にも特殊な老狐がある、それは人霊と同化した狐霊で、さきに説いたごとき子孫の守護を主眼としているものであるが、これらの中から選抜されて産土（うぶすな）神の従神となり神命のまにまに活動している狐霊もあるが、これらは全部白狐である。<br/><br/> ここで、稲荷の由来について簡単に説示してみるが、その昔畏多くも天照皇大御神が豊葦原瑞穂国（とよあしはらみずほのくに）を、豊穣の土地となさしめ給わんが為豊受明神に命じて、四方の国原に稲を間配らせ給うたのであった。<br/><br/>豊受明神はその命を畏み多くの狐に命じ稲種を各地に蒔（ま）かせ給うた。<br/><br/>従って、稲荷とは稲を荷ぐという意味であり、又飯を成らせるから飯成（いいなり）という説もある。<br/><br/>その功によって各地に神として祀られ、それぞれの土地の百姓の感謝礼拝の的となったのである。<br/><br/>これが稲荷の始まりであり、本来であるが、いつの時代よりか世の乱れと共に稲荷の信仰も紊（みだ）れ、農事以外の事にまで祈願の目的が及んだのである。<br/><br/>ついには商人が商売繁昌や金儲けを願い、果は花柳界の人達が情事に関する事や、一般人が私利私欲の為の祈願をするようになり、それに対し、稲荷明神の方でも、善悪無差別的に御利益を与えるという風になって今日に及んだのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

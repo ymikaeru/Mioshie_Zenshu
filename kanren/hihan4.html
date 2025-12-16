@@ -4,56 +4,211 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hihan4</title>
 <link href="../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ――― 関 連 出 版 物 ――― メシヤ教について ――凡人日常生活への近親性―― 新居 格 『メシヤ教批判』昭和26(1951)年9月25日発行、日本宗教新聞社刊 わたしは、実をいうと、信仰ないし宗教（一部の）と無縁で過ごしてきた一人である。<br><br>バイブルにも「イエス言いけるは、すこやかなる者は医者の助けを求めず、ただ病あるものこれを求む」（ルカ伝第五章三十一節）とあるように、わたしはからだが比較的壮健だったのと、呑気な性質から、宗教には全く縁なき衆生の一人だったといえる。<br><br> ところで、からだが弱く、軽い出血をして臥床二カ月半に及ぶと、さすがに平常の呑気さも力失せ、ひたすら聖書を読む身となった。<br><br> 頭の病気だから長いものは読めないが、聖書の文句は短いので読むに耐えた。<br><br>そして気にいった章句を口づさみながら横臥していた。<br><br>聖書の中には多くの奇蹟がある。<br><br>イエスが起てといえば足なえが起った。<br><br>目くらの目があき、癩病やみがなおり、死者さえ蘇生する。<br><br>まことに不思議であり、奇蹟である。<br><br> 近代科学の常識では、解せないものが多い。<br><br>そこでわたしは、イエスには、放射能の作用でもあるのではあるまいかと思った。<br><br> あるともいい切れないが、さりとて無いとも伝い切れないと思った。<br><br>イエスが病める者悩やめる者を癒やしてゆけたのは、そうした放射能を具有していたのではあるまいか、とわたしはふと考えた。<br><br>そうした仮定が許されるとしたら、イエスの行った奇蹟も全部とは云えないまでも、いくらかは解し易い気がしたからだ。<br><br> 一方現代の科学の進歩過程は、全く驚異に値いするものがあって、原子爆弾、水素爆弾その他の進歩は、その歩みをとどめない。<br><br>そうなると、これは科学であると共に、超科学的で神秘に近く奇蹟に類する。<br><br>それでは人間が行った奇蹟の方は、不思議で神秘的だということにはならない。<br><br> いろいろの物質があり、元気があるようにいろいろの人間のあることだけは考えられる。<br><br> 人間の身体の構造なども、精巧微妙なものであると共に、わたくしは病気中時計のような気がした。<br><br>すると、お医者さんはその破損した時計をなおす時計修繕工みたいに思ったことである。<br><br>そうなると、精巧微妙と信じ切っていた自分の身体が、時計みたいに安っぽくなり、その時計が動かなくなって停った時が死かというようにも思われて、精巧微妙の考え方が、急に安っぽくなったりした。<br><br>わたしは人格的感化にも、一種の放射能性を認めたがる考えかたをしているが、そのことは肉体的方面にも考え得られることではないかとも思う。<br><br>たとえは、掌療法といったものにも、そうした要素がありはしないかと思う。<br><br> それは肉体の放射能作用でゐるから、その機能をもつものには、自ら可能でそれは人格とか神格とは関係がない。<br><br>そうした能力のあることを自覚すると、その人の意識には、特殊的なものが生じてくるらしいのは否定できない。<br><br> 家の光教会の寮が、熱海来の宮の近くにある。<br><br>でわたしは、しばしばその寮に静養に行ったことがある。<br><br>その時に観音教の話を土地の人から聞いたことはある。<br><br> 観音教がえらく壮んであることも耳にしたが、わたしはその堂宇が、どこにあるかも今もって知らない。<br><br>宗熱海市長はわたしには懇意な間柄だが、宗市長と観音教との記事が、新聞に出ていたこともチラと見た。<br><br> 観音教主の事件が、新聞に出ていたこともあったが、わたしは大凡そ社会面の記事には、興味がないので、共に読ますじまいである。<br><br>わたしは今は、メシヤ教を称している以前の観音教の教説を知らない。<br><br>教祖その人にも逢ったことはない。<br><br> 時事週報の記者が来て新興宗教の尤なるものであるメシヤ教祖と対話せよといって頼まれたが、わたしはその新興宗教にたいして少しの知識もないので、ご免をこうむった。<br><br> 好ききらいの感情からきたのではなく、何分にも知らないから、話すこともないからという理由でことわっただけだ。<br><br> 正教といい邪教というその限界が、ハッキりしない。<br><br>古くからあるから正教で、新興だからインチキだとはいえない。<br><br>例えば、天動説は、紀元二世紀ごろから九世紀か十世紀間に行われていたから、それが正しく、地動説は、その後の新説だから正しくないということにはならない。<br><br>正教邪教についても、同様のことがいえよう。<br><br>わたしはメシヤ教祖の岡田氏が私の空想する人間的放射能の所有者であるかどうかは知らない。<br><br>保持者であるかも知れないし、そうでないかもわからない。<br><br>それは今のわたしにはなんともいえないし、その教説を聞いたこともないから、それに対してなんの意見ももち得ない。<br><br> しかしわたしは、自分が病気に倒れてから、ひどく宗教的傾向を帯び、生死の問題、年齢がもつ画線的段層を泌々感するようになったのは、事実である。<br><br>そうなると、わたしはいかなる意味でもの、刺戟的なものには、嫌悪を感じ、ひたすらにしずかならんことを欲するに至った。<br><br> そのころである。<br><br>畏友岩崎栄氏来りて、メシヤ教並に、その教組について書けよという。<br><br>他ならぬ岩崎老の依頼だから、病中ながら執筆を快諾した。<br><br> わたしは、従容として死につくという壮観は欲するが、そんな芸当はわたしには出来そうも思われなかった。<br><br>わたくしは苦しみ、もがきつゝみじめな死にかたをするような気がしてならなかった。<br><br>が、それはそれだ。<br><br>わたしが病気がどうにかよくなってからの、今後の生活――死に至るまでのそれは――きわめて善意に富んだ、正直な、美しい魂をもち、よき解釈をしてその日その日の送れる平凡な、善良人となればよい。<br><br>それが今度の私の宗教生活だとしたい。<br><br> 生きた人間の宗教であって、生きている間の宗教である。<br><br>死生を超越するといった大それたものではない。<br><br>苦しければ苦しいと叫ぶでもあろう、苦しいのに苦しくないなぞと、やせがまんはしない。<br><br>わたしが病中聖書を読んで感動した点は、汝のあだを愛じそのために祈祷せよということで、わたしは憎むべきものをどこまでも愛したく思い、わたしの宗教は生けるものの生活の宗教で生死とか死後のそれではない。<br><br> メシヤ教の本領が、どこにあるかはわたしは知らない。<br><br>ただ、それが生けるものの宗教であってほしいと心から念願するだけである。<br><br> メシヤ、その意は救世主である。<br><br>かつてのイエスはそれであった。<br><br>現代の熱海のメシヤは、どんな抱負をもち、どんな奇蹟を演じて救世しつゝあるか、今のわたしは少しも知らない。<br><br>しかし、大本教の残薜だのインチキ性を必然に持つところの新興宗教と、一つの柵に入れて押しのけはしない。<br><br> 冷静にその発展過程を見ていこうと思うだけだ。<br><br>わたしは何ものに対しても成心をもっては臨まない。<br><br>熱海のメシヤ教に対しても、同様に今はほめる材料もなければ、ケナス材料もない。<br><br> 教祖は留置場などは大きらいで閉口したという話だが、それは当然で、留置場は、それがどんなに清潔であっても決して好ましいものではない。<br><br>それを卒直にいうところに教組の、凡人性があって、ちょっと好ましい。<br><br>宗教といったとてそれは何も偉大で崇高のスペクタルではない。<br><br>宗教に非日常性を多くのぞむのは間違いで、それよりも凡人性に親近感があることが却ってのぞましい。<br><br>何も空中の芸当をのぞむのではなく、凡人生活の苦悩や惑迷は、きわめて些々な日常性にある。<br><br>で、それに対応するといった宗教が彼等に親しまれるのではないかと思う。<br><br> ところで私は、岩崎君が置いて行った岡田自観氏の著書を、病気のため全部読む気力がなかったのだが、氏の信仰雑話のうちの一文「奇蹟」と、病中たまたま読んでいたルアソの耶蘇伝第十六章奇蹟と、対照してみたかったのである。<br><br> 岡田氏はいう「宗教に奇蹟は附物である。<br><br>いな附物であらねばならない。<br><br>観音教団に奇蹟が非常に多いことは、信徒諸氏の常に体験するところであろう」と。<br><br> だが私は、非常に多いといわれる奇蹟の何一つも知らない。<br><br>しかし奇蹟によって信仰が深くなり、熱度が加わることも亦あきらかであることは、体験者の場合にはそうである。<br><br> ルアンはその著耶蘇伝に「一般の世間は、神の力が人間の中に、てんかん性、けいれん性の原理としてあることを実際希望していたのである。<br><br>イエスが行なったと信ぜられている殆どすべての奇蹟は、病気を治す奇蹟である。<br><br>多くの場合、優秀な人の接触が、薬剤の力に値しないと敢て誰れがいうだろうか。<br><br>その人に会うという歓喜がそれを治すのである」 このことは私にもわかる。<br><br>岡田氏の信徒にも同様のことが多くあるのであろう。<br><br>それを奇蹟と言ってもいゝ。<br><br>他の言葉で言ってもよい。<br><br>岡田氏は、近代の宗教は奇蹟が少ないために、反って奇蹟に対して迷信呼ばわりする傾きがあるというのだろう。<br><br>同感である。<br><br> またルアンの耶蘇伝によれは「当時猶太においては、今日なお近来におけるものゝ如く、即ち絶対に、個人的霊感に委したもので、少しも科学的ではなかった。<br><br>すでに五世紀以前から希臘ではじめられた科学的の医薬は、イエス時代のパレスチナの猶太人には殆ど知られていなかった。<br><br>こういう状態の裡に、病者を優しく労わり、感じ易い何かの暗示によって、快復の保証を与えてくれるすぐれた人が、傍にあることは、往々にして決定的の救済となるのである」 このことは、わたし自身の病気中にも経験したものである。<br><br> 私はまだ岡田氏の奇蹟を経験していないから、とかくの詮議はしない。<br><br> たゞ、岡田氏とイエスとの相違は、イエスは奇蹟を施こしても、それについて「決して語るなかれ」といっている。<br><br> 岡田さんは「観音教団には奇蹟が非常に多いことは、信徒諸士の常に体験するところであろう」と公言している。<br><br> どちらの態度がよいのか、それはわたしにはわからぬ。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Publicação Relacionada — Sobre a Igreja Messiânica — A Proximidade com o Cotidiano do Homem Comum</h2>
 <p>Por Arai Itaru
@@ -88,5 +243,48 @@ Extraído de “Uma Crítica à Igreja Messiânica”, publicado em 25 de setemb
 <p>Como ainda não experimentei um milagre do Sr. Okada, abstenho-me de tecer quaisquer considerações.</p>
 <p>A única diferença que observo entre o Sr. Okada e Jesus é que Jesus, mesmo ao realizar um milagre, dizia: “Não o conteis a ninguém”. Já o Sr. Okada declara publicamente: “Que os milagres são extremamente numerosos na Kannon-kyo é algo que os senhores fiéis constantemente vivenciam”.</p>
 <p>Qual das duas atitudes é a mais adequada, eis algo que não sei dizer.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>――― 関 連 出 版 物 ――― メシヤ教について ――凡人日常生活への近親性―― 新居 格 『メシヤ教批判』昭和26(1951)年9月25日発行、日本宗教新聞社刊 わたしは、実をいうと、信仰ないし宗教（一部の）と無縁で過ごしてきた一人である。<br/><br/>バイブルにも「イエス言いけるは、すこやかなる者は医者の助けを求めず、ただ病あるものこれを求む」（ルカ伝第五章三十一節）とあるように、わたしはからだが比較的壮健だったのと、呑気な性質から、宗教には全く縁なき衆生の一人だったといえる。<br/><br/> ところで、からだが弱く、軽い出血をして臥床二カ月半に及ぶと、さすがに平常の呑気さも力失せ、ひたすら聖書を読む身となった。<br/><br/> 頭の病気だから長いものは読めないが、聖書の文句は短いので読むに耐えた。<br/><br/>そして気にいった章句を口づさみながら横臥していた。<br/><br/>聖書の中には多くの奇蹟がある。<br/><br/>イエスが起てといえば足なえが起った。<br/><br/>目くらの目があき、癩病やみがなおり、死者さえ蘇生する。<br/><br/>まことに不思議であり、奇蹟である。<br/><br/> 近代科学の常識では、解せないものが多い。<br/><br/>そこでわたしは、イエスには、放射能の作用でもあるのではあるまいかと思った。<br/><br/> あるともいい切れないが、さりとて無いとも伝い切れないと思った。<br/><br/>イエスが病める者悩やめる者を癒やしてゆけたのは、そうした放射能を具有していたのではあるまいか、とわたしはふと考えた。<br/><br/>そうした仮定が許されるとしたら、イエスの行った奇蹟も全部とは云えないまでも、いくらかは解し易い気がしたからだ。<br/><br/> 一方現代の科学の進歩過程は、全く驚異に値いするものがあって、原子爆弾、水素爆弾その他の進歩は、その歩みをとどめない。<br/><br/>そうなると、これは科学であると共に、超科学的で神秘に近く奇蹟に類する。<br/><br/>それでは人間が行った奇蹟の方は、不思議で神秘的だということにはならない。<br/><br/> いろいろの物質があり、元気があるようにいろいろの人間のあることだけは考えられる。<br/><br/> 人間の身体の構造なども、精巧微妙なものであると共に、わたくしは病気中時計のような気がした。<br/><br/>すると、お医者さんはその破損した時計をなおす時計修繕工みたいに思ったことである。<br/><br/>そうなると、精巧微妙と信じ切っていた自分の身体が、時計みたいに安っぽくなり、その時計が動かなくなって停った時が死かというようにも思われて、精巧微妙の考え方が、急に安っぽくなったりした。<br/><br/>わたしは人格的感化にも、一種の放射能性を認めたがる考えかたをしているが、そのことは肉体的方面にも考え得られることではないかとも思う。<br/><br/>たとえは、掌療法といったものにも、そうした要素がありはしないかと思う。<br/><br/> それは肉体の放射能作用でゐるから、その機能をもつものには、自ら可能でそれは人格とか神格とは関係がない。<br/><br/>そうした能力のあることを自覚すると、その人の意識には、特殊的なものが生じてくるらしいのは否定できない。<br/><br/> 家の光教会の寮が、熱海来の宮の近くにある。<br/><br/>でわたしは、しばしばその寮に静養に行ったことがある。<br/><br/>その時に観音教の話を土地の人から聞いたことはある。<br/><br/> 観音教がえらく壮んであることも耳にしたが、わたしはその堂宇が、どこにあるかも今もって知らない。<br/><br/>宗熱海市長はわたしには懇意な間柄だが、宗市長と観音教との記事が、新聞に出ていたこともチラと見た。<br/><br/> 観音教主の事件が、新聞に出ていたこともあったが、わたしは大凡そ社会面の記事には、興味がないので、共に読ますじまいである。<br/><br/>わたしは今は、メシヤ教を称している以前の観音教の教説を知らない。<br/><br/>教祖その人にも逢ったことはない。<br/><br/> 時事週報の記者が来て新興宗教の尤なるものであるメシヤ教祖と対話せよといって頼まれたが、わたしはその新興宗教にたいして少しの知識もないので、ご免をこうむった。<br/><br/> 好ききらいの感情からきたのではなく、何分にも知らないから、話すこともないからという理由でことわっただけだ。<br/><br/> 正教といい邪教というその限界が、ハッキりしない。<br/><br/>古くからあるから正教で、新興だからインチキだとはいえない。<br/><br/>例えば、天動説は、紀元二世紀ごろから九世紀か十世紀間に行われていたから、それが正しく、地動説は、その後の新説だから正しくないということにはならない。<br/><br/>正教邪教についても、同様のことがいえよう。<br/><br/>わたしはメシヤ教祖の岡田氏が私の空想する人間的放射能の所有者であるかどうかは知らない。<br/><br/>保持者であるかも知れないし、そうでないかもわからない。<br/><br/>それは今のわたしにはなんともいえないし、その教説を聞いたこともないから、それに対してなんの意見ももち得ない。<br/><br/> しかしわたしは、自分が病気に倒れてから、ひどく宗教的傾向を帯び、生死の問題、年齢がもつ画線的段層を泌々感するようになったのは、事実である。<br/><br/>そうなると、わたしはいかなる意味でもの、刺戟的なものには、嫌悪を感じ、ひたすらにしずかならんことを欲するに至った。<br/><br/> そのころである。<br/><br/>畏友岩崎栄氏来りて、メシヤ教並に、その教組について書けよという。<br/><br/>他ならぬ岩崎老の依頼だから、病中ながら執筆を快諾した。<br/><br/> わたしは、従容として死につくという壮観は欲するが、そんな芸当はわたしには出来そうも思われなかった。<br/><br/>わたくしは苦しみ、もがきつゝみじめな死にかたをするような気がしてならなかった。<br/><br/>が、それはそれだ。<br/><br/>わたしが病気がどうにかよくなってからの、今後の生活――死に至るまでのそれは――きわめて善意に富んだ、正直な、美しい魂をもち、よき解釈をしてその日その日の送れる平凡な、善良人となればよい。<br/><br/>それが今度の私の宗教生活だとしたい。<br/><br/> 生きた人間の宗教であって、生きている間の宗教である。<br/><br/>死生を超越するといった大それたものではない。<br/><br/>苦しければ苦しいと叫ぶでもあろう、苦しいのに苦しくないなぞと、やせがまんはしない。<br/><br/>わたしが病中聖書を読んで感動した点は、汝のあだを愛じそのために祈祷せよということで、わたしは憎むべきものをどこまでも愛したく思い、わたしの宗教は生けるものの生活の宗教で生死とか死後のそれではない。<br/><br/> メシヤ教の本領が、どこにあるかはわたしは知らない。<br/><br/>ただ、それが生けるものの宗教であってほしいと心から念願するだけである。<br/><br/> メシヤ、その意は救世主である。<br/><br/>かつてのイエスはそれであった。<br/><br/>現代の熱海のメシヤは、どんな抱負をもち、どんな奇蹟を演じて救世しつゝあるか、今のわたしは少しも知らない。<br/><br/>しかし、大本教の残薜だのインチキ性を必然に持つところの新興宗教と、一つの柵に入れて押しのけはしない。<br/><br/> 冷静にその発展過程を見ていこうと思うだけだ。<br/><br/>わたしは何ものに対しても成心をもっては臨まない。<br/><br/>熱海のメシヤ教に対しても、同様に今はほめる材料もなければ、ケナス材料もない。<br/><br/> 教祖は留置場などは大きらいで閉口したという話だが、それは当然で、留置場は、それがどんなに清潔であっても決して好ましいものではない。<br/><br/>それを卒直にいうところに教組の、凡人性があって、ちょっと好ましい。<br/><br/>宗教といったとてそれは何も偉大で崇高のスペクタルではない。<br/><br/>宗教に非日常性を多くのぞむのは間違いで、それよりも凡人性に親近感があることが却ってのぞましい。<br/><br/>何も空中の芸当をのぞむのではなく、凡人生活の苦悩や惑迷は、きわめて些々な日常性にある。<br/><br/>で、それに対応するといった宗教が彼等に親しまれるのではないかと思う。<br/><br/> ところで私は、岩崎君が置いて行った岡田自観氏の著書を、病気のため全部読む気力がなかったのだが、氏の信仰雑話のうちの一文「奇蹟」と、病中たまたま読んでいたルアソの耶蘇伝第十六章奇蹟と、対照してみたかったのである。<br/><br/> 岡田氏はいう「宗教に奇蹟は附物である。<br/><br/>いな附物であらねばならない。<br/><br/>観音教団に奇蹟が非常に多いことは、信徒諸氏の常に体験するところであろう」と。<br/><br/> だが私は、非常に多いといわれる奇蹟の何一つも知らない。<br/><br/>しかし奇蹟によって信仰が深くなり、熱度が加わることも亦あきらかであることは、体験者の場合にはそうである。<br/><br/> ルアンはその著耶蘇伝に「一般の世間は、神の力が人間の中に、てんかん性、けいれん性の原理としてあることを実際希望していたのである。<br/><br/>イエスが行なったと信ぜられている殆どすべての奇蹟は、病気を治す奇蹟である。<br/><br/>多くの場合、優秀な人の接触が、薬剤の力に値しないと敢て誰れがいうだろうか。<br/><br/>その人に会うという歓喜がそれを治すのである」 このことは私にもわかる。<br/><br/>岡田氏の信徒にも同様のことが多くあるのであろう。<br/><br/>それを奇蹟と言ってもいゝ。<br/><br/>他の言葉で言ってもよい。<br/><br/>岡田氏は、近代の宗教は奇蹟が少ないために、反って奇蹟に対して迷信呼ばわりする傾きがあるというのだろう。<br/><br/>同感である。<br/><br/> またルアンの耶蘇伝によれは「当時猶太においては、今日なお近来におけるものゝ如く、即ち絶対に、個人的霊感に委したもので、少しも科学的ではなかった。<br/><br/>すでに五世紀以前から希臘ではじめられた科学的の医薬は、イエス時代のパレスチナの猶太人には殆ど知られていなかった。<br/><br/>こういう状態の裡に、病者を優しく労わり、感じ易い何かの暗示によって、快復の保証を与えてくれるすぐれた人が、傍にあることは、往々にして決定的の救済となるのである」 このことは、わたし自身の病気中にも経験したものである。<br/><br/> 私はまだ岡田氏の奇蹟を経験していないから、とかくの詮議はしない。<br/><br/> たゞ、岡田氏とイエスとの相違は、イエスは奇蹟を施こしても、それについて「決して語るなかれ」といっている。<br/><br/> 岡田さんは「観音教団には奇蹟が非常に多いことは、信徒諸士の常に体験するところであろう」と公言している。<br/><br/> どちらの態度がよいのか、それはわたしにはわからぬ。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

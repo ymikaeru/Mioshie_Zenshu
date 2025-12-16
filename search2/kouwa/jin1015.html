@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jin1015</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人事篇 第一篇 ２ 015-031 親子 015 通学せぬ息子（祖霊による） 二十八日受教の四男（十二才）、この十日ばかり学校へ行かず、家にいて手伝はよくしますが友達と遊ばず、家人が学校まで送っても逃げ帰ります。<br><br>いかなる訳でしょうか。<br><br> 祖霊が救われたいために憑ったというような訳がある。<br><br>大した事ない。<br><br>あるいは祖霊が何か気に入らぬ事があって、そのお気づけかもしれない。<br><br> のりとを聞かせ、神書読ますようにしてやる。<br><br> 016 子供の不勉強の場合の親の心掛け 子供に勉強する気のないのは親にも罪がある。<br><br>一つには浄化作用である。<br><br>あまりやかましくいわず、親が信仰を熱心にして、自分自身反省して、神の守護を受ける。<br><br>叱っても逆効果となる。<br><br>（S23. 9.26） 017 異常児もつ悩み 十四才の女児、昨年八月頃母親の実家からの帰途より気が少し変になり、学校も退学致しおります内、先日耳の中に誰か入ってくると申し大変にいためましたが、医者はどこも悪くはないとの事にて、お観音様にお願いに参り一回の御浄霊にて耳は治りましたが、両親の悩み賢い児にと教修を受け、一心に御浄霊を続けております。<br><br> 朝いつまでも寝ており起すと暴れましたが、暴れは治りまして少し位話もするようになりましたが、御飯をこの頃は一日中に一杯位しか食べません。<br><br>御守護頂けましょうか。<br><br>お伺い申し上げます。<br><br> 母親が徳を積む。<br><br>その徳によっていい子になる。<br><br>浄霊やお願いだけではいけない。<br><br>その上信仰の中心をおかなくてはいけない。<br><br>根本は罪であるから、それをとるのは徳を積む事によってとれる。<br><br> 018 盗癖の子 主人が戦死し母一人子一人で道に専念しております者ですが、一昨年秋入信、昨年十一月より某地方が開けて参りましたので、子供を妹と元の雇主に託して出張開拓致しております。<br><br> その後子供に盗癖が現われ、信者にもそれを知る人が出来、本人はとても苦しんでおりますが、今のところ手許に引取る事は出来ず困っております。<br><br>子供はそのまま放置しておいてもよろしいでしょうか。<br><br>右お伺い申し上げます。<br><br> 放置しておいて一生懸命信仰に尽せばよい。<br><br>心配するのはその人にメグリがあるからである。<br><br>子供の事は忘れて、心ひかれず徳を積んで行く事である。<br><br>（S25. 5. 5） 019 悪質性格の妹 私の妹光子（十七）は母親に対し孝行するような顔をしておりますが、光明如来様の御礼金や家のお金をいかなる所にかくして置いても持ち出してしまい、またいかなる仕事もせず（炊事は致します）母親が注意するとすぐふくれ何も致しません。<br><br>また美味しい御馳走は一人で喰べてしまいます。<br><br>また嘘をつく事がとても上手です。<br><br>右いかなる訳で御座居ましょうか。<br><br>御教示下さい。<br><br> 副守護神がやる。<br><br>母に罪穢があるので、心配の種が絶えない。<br><br>（S25. 5. 6） 020 我強い子 当年十二才の娘、十才頃より我が強く、言い出した事は絶対に後に引かず、何かと自分の気に入らない事でもありますと、非常にあばれて泣きつづけます。<br><br>このような状態が毎日続いております。<br><br>右のような発作が起きた時は、いつも光明如来様の部屋か、奥の暗い部屋に入り蒲団をかぶって大声で泣き叫ぶのです。<br><br>どんなにすかしてみても聞入れず、益々大声を出し家中の者も手に余って困っております。<br><br>最近その発作が烈しくなりました。<br><br>これは霊的のもので御座いましょうか。<br><br>お伺い申し上げます。<br><br>なお、浄霊法をも御教示願います。<br><br> 霊的より名前がいけない。<br><br>すゑみはシになる。<br><br> 前頭部に熱があるから浄霊せよ。<br><br>（S24. 9.16） 021 喘息の子返還を求めらる（現在の鬼子母） 十二才の女子真言宗の寺に生れ、二才の時より母が病気のため叔母の私が養育しております。<br><br>この子供は五才頃より喘息の発作が起り、本年一月より毎夜十二時頃より朝の六時頃迄苦しみが続き、医者は十七才位迄の命だろうと言うておりましたが、三月中頃より御浄霊を戴くようになり一ケ月程にて楽にして頂きました。<br><br> 両親は子供を返してくれと迫りますが、私としては情愛も深まり、外に子供がありませんので無理に止めております。<br><br>なお両親は迷信視して医療をすすめております。<br><br> 当家の屋敷の一部分は以前大師様の祭ってあった屋根にかかっております。<br><br>そのお大師様が祭って戴きたく子供に知らせていると申されます故、家でお茶を供えて祭りました。<br><br>移転した大師教会へ毎月二十一日に十年間、月参りをする願をかけ御参りしております。<br><br>また子供の守り、神様として鬼子母神に願をかけ、その神様の御軸を頂いております。<br><br> 子供の処置及大師様の月参り、鬼子母神をどうしたら宜しいでしょうか。<br><br>御伺い申し上げます。<br><br> 子供の処置は両方の気持であるから何ともいえぬ。<br><br>御守護頂けば両方気持よく出来る。<br><br>大師様の参拝はやめた方がよい。<br><br> 鬼子母神は印度へ帰った後、狐狸が入っているから拝むと反ってわるい。<br><br>医者へかかっていれば十七才までの寿命かもしれぬが、浄霊によればそんな事はない。<br><br>（S24. 5. 6） 022 長男の別居 私は昨年三月お光をいただき、不治と思われたカリエスより救われて感謝の日々を過ごさせていただいておりますが、長男を主人の兄のところへ養子にやっておりましたが、妻がその両親の気に入らぬとの理由にて、長男の家族共六人が離縁されて来ました。<br><br>（家は次男が継いでおります）それ以来私方の綿布業の方も思わしく行かず、家中ごたごたとして尊い御用も充分出来なく困っております。<br><br>長男夫婦は別居したいと言っておりますが、どういたしたらよろしいでしょうか。<br><br> （長男も御光は戴いております） 別居がよい。<br><br>するとうまくゆく。<br><br>（S24.10.26） 023 行方不明の娘 昨年四月受教しました十九才の女子専門学生、二ケ月前より寄宿寮から姿を消し、学校を欠席致し、その後の行動不明にて郷里の家族が心配しております。<br><br>郷里にては継母、姉が受教、御神体も御祭りしてあり熱心な信者で御座いますが、実父が未だ受教しておりません。<br><br>この娘の行方を探索するには、御道の信者としていかに処したらよろしゅう御座いましょうか。<br><br>御伺い申し上げます。<br><br> 継母であるから、あまりうまく関係が行っているかどうか疑問である。<br><br> 神様にお任せしておけば、きっと悪い結果にはならぬ。<br><br>（S24. 6.21） 024 家出の息子 私の夫婦には子供がなく、八才の時貰った女子を養育（当年二十七才）養子（修）を入籍、今では一子ありますが、修は昨年末名古屋に行ったきり帰りません。<br><br>修は時々かっとなる気性で、それが起きると外を一廻りして来なければ済まぬのです。<br><br>また淋しくなると一人で泣いているのを見ました。<br><br>娘は人の機嫌を取る事をしらず、頭も手紙を書ける程度です。<br><br> 修の家出の原因は、夫婦の気性が合わないためでしょうか。<br><br>また帰ってくるようでしょうか。<br><br>御伺い申し上げます。<br><br> この人が信仰に入って、おかげを受けるとして、帰った方がいいか悪いかによる。<br><br>（S24. 7.16） 025 息子帰還するか 私は最近入信致しました。<br><br>私の夫は昭和二十一年発疹チブスで死亡し、長男はビルマで昭和十九年戦病死致しまして、ただ一人残りの次男俊男は満洲へ出征して、現在ではシベリヤにいる事は手紙で知りましたが、社会状勢上心配しておりますが、帰れますでしょうか。<br><br>また私は帰る迄どのようにしていたら良いでしょうか。<br><br> 帰る。<br><br>変った事はない。<br><br> 出来るだけ人助けをする。<br><br>そうすると母の徳により、早く帰る事になる。<br><br>（S24. 8.17） 026 一姫二太郎 子供を授かるのは「一姫二太郎」がよいと申しますが、何か意味のある事でございましょうか。<br><br> 右御教示御願い申し上げます。<br><br> 女の子が育ていい。<br><br>男の子の方が本来弱い。<br><br>間違いをし易い。<br><br>女の肉体の方が健康で、物に対する力がある訳で、病気にも男が罹り易い。<br><br>初産は育てよい女がいいという訳である。<br><br>（慣れて来たら男という訳）（S23.12.28） 027 総領の甚六 「総領の甚六」と申しますが、最初夫婦が相愛する時に「甚六」が生れ、年と共に愛情が落ついたり薄らぐかに見える頃、生れる末子によい子が出来ますのは、何か矛盾のように存じられますがどうでございませうか。<br><br> 最初出来る子は、夫婦が若く、智慧や経験がないから、親の方が甚六である。<br><br>最初の子は可愛がる。<br><br>後は段々親の愛などもなくなる。<br><br>兄弟の多いのに偉い人が出来る。<br><br>愛さるる子はあまり偉くなれぬ。<br><br>（S25. 2. 3） rattail（注） 〔 御光話（S25年 2月） 『御光話録』18号、昭和25(1950)年4月23日発行〕 ――「総領の甚六」と申しますが、夫婦が年も若く愛情もこまやかなときの子が甚六で、年を取り愛情も落ちついたころの末子によい子ができますのはいかなるわけでしょうか。<br><br> 『そうじゃないんですよ。<br><br>つまり、最初の子が生まれるときは夫婦ともたいていまだ若いから人生の経験も少ないんです。<br><br>だから、どっちかって言えば親のほうが甚六なんですよ（笑声）。<br><br>そしてだんだん苦労して経験もたくさん積んでからできる末子はいい子になるんです。<br><br>それに、最初の子はどうしてもかわいがりすぎますからね、それがいけないんですよ。<br><br>ところが、だんだん子供がたくさんできてくると、かわいがることが薄くなるってわけじゃなくても、たくさんいて届かないようになるんですね。<br><br>しかし、そういうほうが子供には独立心ができるようになるからいいんですよ。<br><br>だから先に新聞に書いたように、偉い人ってのは兄弟が多い中からできるんです。<br><br>兄弟が多いために甘やかされないからですね。<br><br>要するに独立心ができるんです。<br><br>自分で自分を助ける、その信念が強く養われるんです。<br><br>一人っ子にはあまり偉いのがありませんね。<br><br>だから始終かわいがられる子は偉くなりませんよ。<br><br>むしろ愛されないほうがいい。<br><br>』 〔 御光話（S24年 3月13日） 『御光話録』5号、昭和24(1949)年<b>月</b>日発行〕 ――子供は上の子より末子のほうに優秀な子ができる場合が多いようですが、これはいかなるわけでしょうか。<br><br> 『子供は親がうつるんです。<br><br>長男なんかを産むころに較べると末の子を産むころは親のほうが経験も積んで智慧もついているから、これがうつって利口になるんです。<br><br>それからもう一つはどうしても最初できた子供は刺激がないのでボーッとしている。<br><br>それで総領の甚六だなんて言われるんです。<br><br>日本ではこんな統計は出てないが、西洋では兄弟の多いほど傑出したのができるという統計があります。<br><br>それは兄弟が多いと待遇も悪くなったりしてそのためかえって磨かれるんです。<br><br>』 028 双児の兄弟別 双児の場合の兄と弟の区別、並に区別の基本的因縁の事を御伺い申し上げます。<br><br> 大した重要の問題でない。<br><br>先へ生れたのを兄とすべきだ。<br><br> 029 両親故の子の精神病 私の弟（二十二才）が、十四才の頃頭痛がすると言って学校より帰宅致し、その後段々と学校を休み、一室に閉じこもって外に出ず、家族の者の顔を見るのも嫌い、食事も家族の者が済んでからただ一人で食事し、また山に行って終日遊び夜暗くなってから帰宅するように、遂には床につく始末となりました。<br><br> 一年位経過したある日、朝食後知らぬ間にいなくなり諸方を探し廻ったところ、四里程はなれた大川神社の社前におりました。<br><br>このような状態が一年程続き、その後段々と狂暴となり家財道具等を手当り次第に外に投出し、仏具や神棚にあるものは何でも捨ててしまい、ついに他家のものに迄乱暴にも手を付けるようになりました。<br><br>なお墓地に行き墓石を倒したり、火を持ち遊ぶようになり危険この上もないので、止むなく座敷を作り監禁してしまいました。<br><br> 数年後の昭和二十三年、私が本教に入信して以来、浄霊や祝詞奏上を続けておりますが、何の変化もありません。<br><br>光明如来様を奉斎しまた一生懸命御導きの御手伝いをしておりますが、このままでよくなりますでしょうか。<br><br>御教示御願い致します。<br><br> よくなる。<br><br>両親が信仰しないからよくならぬ。<br><br>困るのは親である。<br><br>親が一日も早く入信する事である。<br><br>（S25. 5.17） 030 父母不仲の解決 小生の父母は夫婦仲がよくありません。<br><br>俗に言うクサレ縁と言うものでしょうが、よく争って困ります。<br><br>（両名共本年一月入信）父は頭が少し具合が悪く、母も以前に病気をした事があります。<br><br>この頃は母を離縁する等と申します。<br><br>クサレ縁解消の方法を教えて下さい。<br><br> 両方罪穢が多いから浄化が起る。<br><br>息子が人助けして徳を積むと仲よくなる。<br><br>夫婦は火水で、性格は反対である。<br><br>（S24. 2.27） 031 行方不明者の対処 父（六十一才）は今年一月十四日朝、家を出たまま、懸命に捜索致しましたが今なお行方不明でして、易等において他界しているとのこと。<br><br>仮葬儀は致しましたが、今後このままで良いでしょうか。<br><br> このままでいい。<br><br>心配せぬ方がよい。<br><br>（S24. 7. 6）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>015 - O filho que não frequenta a escola (por influência de um antepassado)</h2>
 <p>Meu quarto filho, de doze anos, que recebeu o Ohikari no dia 28, há cerca de dez dias não vai à escola. Em casa, ajuda de bom grado, mas não brinca com os amigos, e mesmo que o levemos até a escola, ele foge e volta para casa. Qual seria a razão para tal comportamento?</p>
@@ -161,5 +313,48 @@ function toggleLang(lang) {
 <h2>031 - Como proceder com uma pessoa desaparecida</h2>
 <p>Meu pai, de sessenta e um anos, saiu de casa na manhã de 14 de janeiro deste ano e, apesar de buscas exaustivas, continua desaparecido. Oráculos indicam que ele já faleceu. Realizamos um funeral simbólico. Podemos deixar a situação como está?</p>
 <p>Podem deixar como está. É melhor não se preocupar. (06.07.1949)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人事篇 第一篇 ２ 015-031 親子 015 通学せぬ息子（祖霊による） 二十八日受教の四男（十二才）、この十日ばかり学校へ行かず、家にいて手伝はよくしますが友達と遊ばず、家人が学校まで送っても逃げ帰ります。<br/><br/>いかなる訳でしょうか。<br/><br/> 祖霊が救われたいために憑ったというような訳がある。<br/><br/>大した事ない。<br/><br/>あるいは祖霊が何か気に入らぬ事があって、そのお気づけかもしれない。<br/><br/> のりとを聞かせ、神書読ますようにしてやる。<br/><br/> 016 子供の不勉強の場合の親の心掛け 子供に勉強する気のないのは親にも罪がある。<br/><br/>一つには浄化作用である。<br/><br/>あまりやかましくいわず、親が信仰を熱心にして、自分自身反省して、神の守護を受ける。<br/><br/>叱っても逆効果となる。<br/><br/>（S23. 9.26） 017 異常児もつ悩み 十四才の女児、昨年八月頃母親の実家からの帰途より気が少し変になり、学校も退学致しおります内、先日耳の中に誰か入ってくると申し大変にいためましたが、医者はどこも悪くはないとの事にて、お観音様にお願いに参り一回の御浄霊にて耳は治りましたが、両親の悩み賢い児にと教修を受け、一心に御浄霊を続けております。<br/><br/> 朝いつまでも寝ており起すと暴れましたが、暴れは治りまして少し位話もするようになりましたが、御飯をこの頃は一日中に一杯位しか食べません。<br/><br/>御守護頂けましょうか。<br/><br/>お伺い申し上げます。<br/><br/> 母親が徳を積む。<br/><br/>その徳によっていい子になる。<br/><br/>浄霊やお願いだけではいけない。<br/><br/>その上信仰の中心をおかなくてはいけない。<br/><br/>根本は罪であるから、それをとるのは徳を積む事によってとれる。<br/><br/> 018 盗癖の子 主人が戦死し母一人子一人で道に専念しております者ですが、一昨年秋入信、昨年十一月より某地方が開けて参りましたので、子供を妹と元の雇主に託して出張開拓致しております。<br/><br/> その後子供に盗癖が現われ、信者にもそれを知る人が出来、本人はとても苦しんでおりますが、今のところ手許に引取る事は出来ず困っております。<br/><br/>子供はそのまま放置しておいてもよろしいでしょうか。<br/><br/>右お伺い申し上げます。<br/><br/> 放置しておいて一生懸命信仰に尽せばよい。<br/><br/>心配するのはその人にメグリがあるからである。<br/><br/>子供の事は忘れて、心ひかれず徳を積んで行く事である。<br/><br/>（S25. 5. 5） 019 悪質性格の妹 私の妹光子（十七）は母親に対し孝行するような顔をしておりますが、光明如来様の御礼金や家のお金をいかなる所にかくして置いても持ち出してしまい、またいかなる仕事もせず（炊事は致します）母親が注意するとすぐふくれ何も致しません。<br/><br/>また美味しい御馳走は一人で喰べてしまいます。<br/><br/>また嘘をつく事がとても上手です。<br/><br/>右いかなる訳で御座居ましょうか。<br/><br/>御教示下さい。<br/><br/> 副守護神がやる。<br/><br/>母に罪穢があるので、心配の種が絶えない。<br/><br/>（S25. 5. 6） 020 我強い子 当年十二才の娘、十才頃より我が強く、言い出した事は絶対に後に引かず、何かと自分の気に入らない事でもありますと、非常にあばれて泣きつづけます。<br/><br/>このような状態が毎日続いております。<br/><br/>右のような発作が起きた時は、いつも光明如来様の部屋か、奥の暗い部屋に入り蒲団をかぶって大声で泣き叫ぶのです。<br/><br/>どんなにすかしてみても聞入れず、益々大声を出し家中の者も手に余って困っております。<br/><br/>最近その発作が烈しくなりました。<br/><br/>これは霊的のもので御座いましょうか。<br/><br/>お伺い申し上げます。<br/><br/>なお、浄霊法をも御教示願います。<br/><br/> 霊的より名前がいけない。<br/><br/>すゑみはシになる。<br/><br/> 前頭部に熱があるから浄霊せよ。<br/><br/>（S24. 9.16） 021 喘息の子返還を求めらる（現在の鬼子母） 十二才の女子真言宗の寺に生れ、二才の時より母が病気のため叔母の私が養育しております。<br/><br/>この子供は五才頃より喘息の発作が起り、本年一月より毎夜十二時頃より朝の六時頃迄苦しみが続き、医者は十七才位迄の命だろうと言うておりましたが、三月中頃より御浄霊を戴くようになり一ケ月程にて楽にして頂きました。<br/><br/> 両親は子供を返してくれと迫りますが、私としては情愛も深まり、外に子供がありませんので無理に止めております。<br/><br/>なお両親は迷信視して医療をすすめております。<br/><br/> 当家の屋敷の一部分は以前大師様の祭ってあった屋根にかかっております。<br/><br/>そのお大師様が祭って戴きたく子供に知らせていると申されます故、家でお茶を供えて祭りました。<br/><br/>移転した大師教会へ毎月二十一日に十年間、月参りをする願をかけ御参りしております。<br/><br/>また子供の守り、神様として鬼子母神に願をかけ、その神様の御軸を頂いております。<br/><br/> 子供の処置及大師様の月参り、鬼子母神をどうしたら宜しいでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> 子供の処置は両方の気持であるから何ともいえぬ。<br/><br/>御守護頂けば両方気持よく出来る。<br/><br/>大師様の参拝はやめた方がよい。<br/><br/> 鬼子母神は印度へ帰った後、狐狸が入っているから拝むと反ってわるい。<br/><br/>医者へかかっていれば十七才までの寿命かもしれぬが、浄霊によればそんな事はない。<br/><br/>（S24. 5. 6） 022 長男の別居 私は昨年三月お光をいただき、不治と思われたカリエスより救われて感謝の日々を過ごさせていただいておりますが、長男を主人の兄のところへ養子にやっておりましたが、妻がその両親の気に入らぬとの理由にて、長男の家族共六人が離縁されて来ました。<br/><br/>（家は次男が継いでおります）それ以来私方の綿布業の方も思わしく行かず、家中ごたごたとして尊い御用も充分出来なく困っております。<br/><br/>長男夫婦は別居したいと言っておりますが、どういたしたらよろしいでしょうか。<br/><br/> （長男も御光は戴いております） 別居がよい。<br/><br/>するとうまくゆく。<br/><br/>（S24.10.26） 023 行方不明の娘 昨年四月受教しました十九才の女子専門学生、二ケ月前より寄宿寮から姿を消し、学校を欠席致し、その後の行動不明にて郷里の家族が心配しております。<br/><br/>郷里にては継母、姉が受教、御神体も御祭りしてあり熱心な信者で御座いますが、実父が未だ受教しておりません。<br/><br/>この娘の行方を探索するには、御道の信者としていかに処したらよろしゅう御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 継母であるから、あまりうまく関係が行っているかどうか疑問である。<br/><br/> 神様にお任せしておけば、きっと悪い結果にはならぬ。<br/><br/>（S24. 6.21） 024 家出の息子 私の夫婦には子供がなく、八才の時貰った女子を養育（当年二十七才）養子（修）を入籍、今では一子ありますが、修は昨年末名古屋に行ったきり帰りません。<br/><br/>修は時々かっとなる気性で、それが起きると外を一廻りして来なければ済まぬのです。<br/><br/>また淋しくなると一人で泣いているのを見ました。<br/><br/>娘は人の機嫌を取る事をしらず、頭も手紙を書ける程度です。<br/><br/> 修の家出の原因は、夫婦の気性が合わないためでしょうか。<br/><br/>また帰ってくるようでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> この人が信仰に入って、おかげを受けるとして、帰った方がいいか悪いかによる。<br/><br/>（S24. 7.16） 025 息子帰還するか 私は最近入信致しました。<br/><br/>私の夫は昭和二十一年発疹チブスで死亡し、長男はビルマで昭和十九年戦病死致しまして、ただ一人残りの次男俊男は満洲へ出征して、現在ではシベリヤにいる事は手紙で知りましたが、社会状勢上心配しておりますが、帰れますでしょうか。<br/><br/>また私は帰る迄どのようにしていたら良いでしょうか。<br/><br/> 帰る。<br/><br/>変った事はない。<br/><br/> 出来るだけ人助けをする。<br/><br/>そうすると母の徳により、早く帰る事になる。<br/><br/>（S24. 8.17） 026 一姫二太郎 子供を授かるのは「一姫二太郎」がよいと申しますが、何か意味のある事でございましょうか。<br/><br/> 右御教示御願い申し上げます。<br/><br/> 女の子が育ていい。<br/><br/>男の子の方が本来弱い。<br/><br/>間違いをし易い。<br/><br/>女の肉体の方が健康で、物に対する力がある訳で、病気にも男が罹り易い。<br/><br/>初産は育てよい女がいいという訳である。<br/><br/>（慣れて来たら男という訳）（S23.12.28） 027 総領の甚六 「総領の甚六」と申しますが、最初夫婦が相愛する時に「甚六」が生れ、年と共に愛情が落ついたり薄らぐかに見える頃、生れる末子によい子が出来ますのは、何か矛盾のように存じられますがどうでございませうか。<br/><br/> 最初出来る子は、夫婦が若く、智慧や経験がないから、親の方が甚六である。<br/><br/>最初の子は可愛がる。<br/><br/>後は段々親の愛などもなくなる。<br/><br/>兄弟の多いのに偉い人が出来る。<br/><br/>愛さるる子はあまり偉くなれぬ。<br/><br/>（S25. 2. 3） rattail（注） 〔 御光話（S25年 2月） 『御光話録』18号、昭和25(1950)年4月23日発行〕 ――「総領の甚六」と申しますが、夫婦が年も若く愛情もこまやかなときの子が甚六で、年を取り愛情も落ちついたころの末子によい子ができますのはいかなるわけでしょうか。<br/><br/> 『そうじゃないんですよ。<br/><br/>つまり、最初の子が生まれるときは夫婦ともたいていまだ若いから人生の経験も少ないんです。<br/><br/>だから、どっちかって言えば親のほうが甚六なんですよ（笑声）。<br/><br/>そしてだんだん苦労して経験もたくさん積んでからできる末子はいい子になるんです。<br/><br/>それに、最初の子はどうしてもかわいがりすぎますからね、それがいけないんですよ。<br/><br/>ところが、だんだん子供がたくさんできてくると、かわいがることが薄くなるってわけじゃなくても、たくさんいて届かないようになるんですね。<br/><br/>しかし、そういうほうが子供には独立心ができるようになるからいいんですよ。<br/><br/>だから先に新聞に書いたように、偉い人ってのは兄弟が多い中からできるんです。<br/><br/>兄弟が多いために甘やかされないからですね。<br/><br/>要するに独立心ができるんです。<br/><br/>自分で自分を助ける、その信念が強く養われるんです。<br/><br/>一人っ子にはあまり偉いのがありませんね。<br/><br/>だから始終かわいがられる子は偉くなりませんよ。<br/><br/>むしろ愛されないほうがいい。<br/><br/>』 〔 御光話（S24年 3月13日） 『御光話録』5号、昭和24(1949)年**月**日発行〕 ――子供は上の子より末子のほうに優秀な子ができる場合が多いようですが、これはいかなるわけでしょうか。<br/><br/> 『子供は親がうつるんです。<br/><br/>長男なんかを産むころに較べると末の子を産むころは親のほうが経験も積んで智慧もついているから、これがうつって利口になるんです。<br/><br/>それからもう一つはどうしても最初できた子供は刺激がないのでボーッとしている。<br/><br/>それで総領の甚六だなんて言われるんです。<br/><br/>日本ではこんな統計は出てないが、西洋では兄弟の多いほど傑出したのができるという統計があります。<br/><br/>それは兄弟が多いと待遇も悪くなったりしてそのためかえって磨かれるんです。<br/><br/>』 028 双児の兄弟別 双児の場合の兄と弟の区別、並に区別の基本的因縁の事を御伺い申し上げます。<br/><br/> 大した重要の問題でない。<br/><br/>先へ生れたのを兄とすべきだ。<br/><br/> 029 両親故の子の精神病 私の弟（二十二才）が、十四才の頃頭痛がすると言って学校より帰宅致し、その後段々と学校を休み、一室に閉じこもって外に出ず、家族の者の顔を見るのも嫌い、食事も家族の者が済んでからただ一人で食事し、また山に行って終日遊び夜暗くなってから帰宅するように、遂には床につく始末となりました。<br/><br/> 一年位経過したある日、朝食後知らぬ間にいなくなり諸方を探し廻ったところ、四里程はなれた大川神社の社前におりました。<br/><br/>このような状態が一年程続き、その後段々と狂暴となり家財道具等を手当り次第に外に投出し、仏具や神棚にあるものは何でも捨ててしまい、ついに他家のものに迄乱暴にも手を付けるようになりました。<br/><br/>なお墓地に行き墓石を倒したり、火を持ち遊ぶようになり危険この上もないので、止むなく座敷を作り監禁してしまいました。<br/><br/> 数年後の昭和二十三年、私が本教に入信して以来、浄霊や祝詞奏上を続けておりますが、何の変化もありません。<br/><br/>光明如来様を奉斎しまた一生懸命御導きの御手伝いをしておりますが、このままでよくなりますでしょうか。<br/><br/>御教示御願い致します。<br/><br/> よくなる。<br/><br/>両親が信仰しないからよくならぬ。<br/><br/>困るのは親である。<br/><br/>親が一日も早く入信する事である。<br/><br/>（S25. 5.17） 030 父母不仲の解決 小生の父母は夫婦仲がよくありません。<br/><br/>俗に言うクサレ縁と言うものでしょうが、よく争って困ります。<br/><br/>（両名共本年一月入信）父は頭が少し具合が悪く、母も以前に病気をした事があります。<br/><br/>この頃は母を離縁する等と申します。<br/><br/>クサレ縁解消の方法を教えて下さい。<br/><br/> 両方罪穢が多いから浄化が起る。<br/><br/>息子が人助けして徳を積むと仲よくなる。<br/><br/>夫婦は火水で、性格は反対である。<br/><br/>（S24. 2.27） 031 行方不明者の対処 父（六十一才）は今年一月十四日朝、家を出たまま、懸命に捜索致しましたが今なお行方不明でして、易等において他界しているとのこと。<br/><br/>仮葬儀は致しましたが、今後このままで良いでしょうか。<br/><br/> このままでいい。<br/><br/>心配せぬ方がよい。<br/><br/>（S24. 7. 6）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

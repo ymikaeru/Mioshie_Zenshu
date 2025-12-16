@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>tyokketu</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 明主様に直結する信仰の確立と保持 世界救世教管長 大草 直好 『栄光』67号、昭和25(1950)年8月30日発行 酷暑の折から各位益々御健祥でお道のため日夜御精進下さる段深く感謝致します、不肖今回明主様の御思召と、理事会の決議によって管長の重職に推されましたが、不敏この重責に当り、責務を全うし得るや否や、憂慮に堪えません、この上はただ各位始め一般信徒諸賢の御支援を希う次第であります。<br><br> さてこの度の不祥事の原因は、担任者が世故になれなかったこと、法律上の認識に乏しかったこと、諸手続の経験を有せなかったこと等が禍して、計らずも取締に触れ、遂に累を明主様にまで及ぼし、更に明主様自ら不日法廷にたたせらるる結果の余儀なきに至りましたことは、吾等の誠に恐懼にたえないところであり、一般信徒諸賢も断腸の思い禁じ難きものがあると思考されますが各位に於かれては、誇張に渉り欺瞞に満てる報道記事や、道途の風説に惑わさるることなく、飽くまで明主様を信奉し参らせて、この上とも一段の信仰に対する御奮闘を切望ずる次第であります、何れ公判ともならば、一切が明白となり、未だ世に知られていない取調途上の経緯も明瞭となって、自ら明主様の公明な御立場も御了解さるることと確信いたしますが、今はとやかく申し上ぐる時機ではありませんから、この辺御含みの上、御懸念なく只管（ひたすら）御布教に当られまずようくれぐれも切望申し上げます。<br><br> なお、世界救世教が従来の教会を併合して発足しましてから既に半歳を経過し、更に今回改革を行って体制を新たにして将来に備え、再び世の疑惑を生ぜしめない事を念願として万違算なきを期した次第でありますが、この機会において人類救済の業を目的として邁進しつつある当教としては、ただただ明主様を中心とする信仰に毛髪の爽雑物をも混えざる信仰本然の姿を具現さるるよう御留意あらんことを望むものでありましてこれが当然と思意するのであります、惟えば、かの基督教においても、イエスが時の裁きをうけてこの世を去られてからもその使徒等には、多くの偉大なる人物もいたにも関らず、何れも己を空しうし、徹頭徹尾イエスの大精神を中心としてその信仰体制を守り、少しも紊すことなく、互に相携えて布教に従事された為に今日の如く全世界に救済の手をひろげることが出来たのであります、更に又仏教においても数多くの聖者が現れましたが、何れも終始釈迦を中心としてその説をひろめ、己の功績は悉く釈迦に帰し、信仰の道をあやまらなかったが為に現在の仏教は東洋全域に行き渡ったのであります、これを我国の宗教界に対照する時、国民の偏狭性に過いされて、信仰の中心を第二義的に求むる結果、派閥的抗争絶え間なく漸次衰退をたどりつつあることは周知の事実でありまして誠に遺憾とする所で御座います、わが世界救世教は、これらの事実を凝視し、断じて我国の通弊たる偏狭性に囚ることなく明主様に直結せる信仰の確立と保持を最も肝要事と心得うべきであります。<br><br> 右就任の御挨拶かたがた、いささか所懐を披瀝いたし、各位に訴えて御協力を願う次第であります。<br><br> なお明主様は今回教主の地位を御引退になられ、新たに管長制を採用致したのでありますがその役員の氏名は次の通りであります。<br><br> 管 長 理事 大草 直好 理事（常任）岩松 栄 理事（同）森山実太郎 理事（同）荒庭 乙松 理事 渡辺 勝市 理事 戸村 啓行 理事 多賀 秀三 理事 大久保正治 理事 西垣 和男 理事 長村卯太郎 理事 木原 義彦 監事（常任）矢代 治 監事 小泉伊之助 監事 高頭 信正
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Estabelecimento e a Preservação da Fé de Ligação Direta com Meishu-Sama</h2>
 <p><strong>Naoyoshi Ohkusa, Superintendente da Sekaikyuseikyou</strong>
@@ -127,5 +279,48 @@ Osamu Yashiro</p>
 Inosuke Koizumi</p>
 <p><strong>Conselheiro Fiscal</strong>
 Nobumasa Takato</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 明主様に直結する信仰の確立と保持 世界救世教管長 大草 直好 『栄光』67号、昭和25(1950)年8月30日発行 酷暑の折から各位益々御健祥でお道のため日夜御精進下さる段深く感謝致します、不肖今回明主様の御思召と、理事会の決議によって管長の重職に推されましたが、不敏この重責に当り、責務を全うし得るや否や、憂慮に堪えません、この上はただ各位始め一般信徒諸賢の御支援を希う次第であります。<br/><br/> さてこの度の不祥事の原因は、担任者が世故になれなかったこと、法律上の認識に乏しかったこと、諸手続の経験を有せなかったこと等が禍して、計らずも取締に触れ、遂に累を明主様にまで及ぼし、更に明主様自ら不日法廷にたたせらるる結果の余儀なきに至りましたことは、吾等の誠に恐懼にたえないところであり、一般信徒諸賢も断腸の思い禁じ難きものがあると思考されますが各位に於かれては、誇張に渉り欺瞞に満てる報道記事や、道途の風説に惑わさるることなく、飽くまで明主様を信奉し参らせて、この上とも一段の信仰に対する御奮闘を切望ずる次第であります、何れ公判ともならば、一切が明白となり、未だ世に知られていない取調途上の経緯も明瞭となって、自ら明主様の公明な御立場も御了解さるることと確信いたしますが、今はとやかく申し上ぐる時機ではありませんから、この辺御含みの上、御懸念なく只管（ひたすら）御布教に当られまずようくれぐれも切望申し上げます。<br/><br/> なお、世界救世教が従来の教会を併合して発足しましてから既に半歳を経過し、更に今回改革を行って体制を新たにして将来に備え、再び世の疑惑を生ぜしめない事を念願として万違算なきを期した次第でありますが、この機会において人類救済の業を目的として邁進しつつある当教としては、ただただ明主様を中心とする信仰に毛髪の爽雑物をも混えざる信仰本然の姿を具現さるるよう御留意あらんことを望むものでありましてこれが当然と思意するのであります、惟えば、かの基督教においても、イエスが時の裁きをうけてこの世を去られてからもその使徒等には、多くの偉大なる人物もいたにも関らず、何れも己を空しうし、徹頭徹尾イエスの大精神を中心としてその信仰体制を守り、少しも紊すことなく、互に相携えて布教に従事された為に今日の如く全世界に救済の手をひろげることが出来たのであります、更に又仏教においても数多くの聖者が現れましたが、何れも終始釈迦を中心としてその説をひろめ、己の功績は悉く釈迦に帰し、信仰の道をあやまらなかったが為に現在の仏教は東洋全域に行き渡ったのであります、これを我国の宗教界に対照する時、国民の偏狭性に過いされて、信仰の中心を第二義的に求むる結果、派閥的抗争絶え間なく漸次衰退をたどりつつあることは周知の事実でありまして誠に遺憾とする所で御座います、わが世界救世教は、これらの事実を凝視し、断じて我国の通弊たる偏狭性に囚ることなく明主様に直結せる信仰の確立と保持を最も肝要事と心得うべきであります。<br/><br/> 右就任の御挨拶かたがた、いささか所懐を披瀝いたし、各位に訴えて御協力を願う次第であります。<br/><br/> なお明主様は今回教主の地位を御引退になられ、新たに管長制を採用致したのでありますがその役員の氏名は次の通りであります。<br/><br/> 管 長 理事 大草 直好 理事（常任）岩松 栄 理事（同）森山実太郎 理事（同）荒庭 乙松 理事 渡辺 勝市 理事 戸村 啓行 理事 多賀 秀三 理事 大久保正治 理事 西垣 和男 理事 長村卯太郎 理事 木原 義彦 監事（常任）矢代 治 監事 小泉伊之助 監事 高頭 信正</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

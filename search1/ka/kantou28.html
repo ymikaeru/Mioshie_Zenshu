@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kantou28</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 巻頭言 (地上天国28号) 『地上天国』28号、昭和26(1951)年9月25日発行 久し振りで時局の事を少しかいてみるが、日本の講和問題も、いよいよ最後の幕となって、今三十一日吉田首相は、総勢四十数人を引き連れ、サンフランシスコへ旅立つ事となったが、まずは芽出度いとは言えないかも知れないが、結構な事とは言えよう。<br><br>そこで差当り講和後の問題としては、まず貿易関係であるが、これは相当やりよくなるであろうが、一番問題となるのは、彼の自主的国防の見地から、米国との話合いで、二十個師の軍備を作る事になったという一事である。<br><br>だが口では簡単に言えるが、数年間全然無防備国家であった我国としては、新規蒔直しであるから、経済上は固（もと）よりあらゆる面から言っても、容易ではあるまい。<br><br>といってイザとなればこのくらいの軍備では、間に合わないのは知れ切った話であるが、今のところ国際関係や経済面からいっても、これ以上は困難であろうから、まず無いよりは増しと言う程度であろう。<br><br> そうして今の場合、何と言っても問題であるのは、国連と中共との停戦問題であろう。<br><br>御承知の通り今までのところ、晴れたり曇ったり、近頃の天気模様のように見当がつかないが、考えるまでもなく、円満妥協が出来るのはまず至難である事は、誰が目にも明らかであろう。<br><br>そうかといって他に何らの手段がないとしたら、擦（す）った揉（も）んだの揚句、どうしても衝突の止むなきに到るであろう事は間違いあるまい。<br><br>しかしそこまでになるには、まだまだ幾変遷があるであろう。<br><br> しかし今までの例にみても、戦争は理屈や打算だけではない。<br><br>時の勢いで、双方退くに引かれぬ羽目となって、始まる事が多いようで、仲々安心は出来ないのである。<br><br>そうしてこの世界の実状を霊的に検討してみると、こういう事になる。<br><br>何しろ全世界の霊界は曇りに曇り切っており、どうする事も出来ないまでになっているので、神様の方では時期も段々迫って来るし、光りも強くなってくるので、浄化作用も激しくなり、病気も増し、戦争も近寄って来ると共に、あらゆる面にも変化が急速となり、いよいよ最後の世となるとしたら、一刻も早く多くの人々にそれを知らせ、一人でも多く救わなければならないのである。<br><br>従って吾々としても、よく世界の動勢を頭に入れて、御神示のまま大いに邁進しなくてはならないであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Conjuntura Mundial sob a Ótica Espiritual</h2>
 <p>Após um longo período, permito-me escrever algumas linhas sobre a situação atual. A questão do tratado de paz com o Japão chega finalmente ao seu ato conclusivo, e no dia trinta e um deste mês, o primeiro-ministro Yoshida, acompanhado por uma comitiva de mais de quarenta pessoas, partirá para São Francisco. Talvez não seja um motivo para efusivas celebrações, mas é, inegavelmente, um acontecimento positivo.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>A história nos demonstra que as guerras não deflagram apenas por lógica ou cálculo. Frequentemente, elas irrompem pelo ímpeto dos acontecimentos, quando ambas as partes se veem em uma situação sem recuo possível, o que nos impede de nutrir qualquer tranquilidade.</p>
 <p>Analisando a conjuntura mundial sob uma ótica espiritual, o quadro se revela da seguinte forma: o Mundo Espiritual encontra-se inteiramente obscurecido por nuvens densíssimas, a um ponto que se tornou insolúvel por meios humanos. Por desígnio de Deus, o tempo determinado se aproxima e a Sua Luz se intensifica, o que acarreta uma purificação cada vez mais rigorosa. Este processo se manifesta através do aumento das doenças, da iminência de guerras e de rápidas transformações em todos os setores. Se esta é, de fato, a era da transição final, nosso dever é alertar o maior número de pessoas, com a máxima urgência, a fim de que possamos salvar ainda que seja mais uma alma.</p>
 <p>Portanto, é imperativo que nós, seus seguidores, tenhamos plena consciência da dinâmica mundial e, em conformidade com a Vontade Divina, prossigamos resolutamente em nossa sagrada missão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 巻頭言 (地上天国28号) 『地上天国』28号、昭和26(1951)年9月25日発行 久し振りで時局の事を少しかいてみるが、日本の講和問題も、いよいよ最後の幕となって、今三十一日吉田首相は、総勢四十数人を引き連れ、サンフランシスコへ旅立つ事となったが、まずは芽出度いとは言えないかも知れないが、結構な事とは言えよう。<br/><br/>そこで差当り講和後の問題としては、まず貿易関係であるが、これは相当やりよくなるであろうが、一番問題となるのは、彼の自主的国防の見地から、米国との話合いで、二十個師の軍備を作る事になったという一事である。<br/><br/>だが口では簡単に言えるが、数年間全然無防備国家であった我国としては、新規蒔直しであるから、経済上は固（もと）よりあらゆる面から言っても、容易ではあるまい。<br/><br/>といってイザとなればこのくらいの軍備では、間に合わないのは知れ切った話であるが、今のところ国際関係や経済面からいっても、これ以上は困難であろうから、まず無いよりは増しと言う程度であろう。<br/><br/> そうして今の場合、何と言っても問題であるのは、国連と中共との停戦問題であろう。<br/><br/>御承知の通り今までのところ、晴れたり曇ったり、近頃の天気模様のように見当がつかないが、考えるまでもなく、円満妥協が出来るのはまず至難である事は、誰が目にも明らかであろう。<br/><br/>そうかといって他に何らの手段がないとしたら、擦（す）った揉（も）んだの揚句、どうしても衝突の止むなきに到るであろう事は間違いあるまい。<br/><br/>しかしそこまでになるには、まだまだ幾変遷があるであろう。<br/><br/> しかし今までの例にみても、戦争は理屈や打算だけではない。<br/><br/>時の勢いで、双方退くに引かれぬ羽目となって、始まる事が多いようで、仲々安心は出来ないのである。<br/><br/>そうしてこの世界の実状を霊的に検討してみると、こういう事になる。<br/><br/>何しろ全世界の霊界は曇りに曇り切っており、どうする事も出来ないまでになっているので、神様の方では時期も段々迫って来るし、光りも強くなってくるので、浄化作用も激しくなり、病気も増し、戦争も近寄って来ると共に、あらゆる面にも変化が急速となり、いよいよ最後の世となるとしたら、一刻も早く多くの人々にそれを知らせ、一人でも多く救わなければならないのである。<br/><br/>従って吾々としても、よく世界の動勢を頭に入れて、御神示のまま大いに邁進しなくてはならないであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

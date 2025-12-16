@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kakkou</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 八紘為宇の意義 『明日の医術 第三編』昭和18(1943)年10月23日発行 畏多（おそれおお）くも、我建国の初め、神武天皇の大神勅（おおみことのり）に「八紘（あめのした）を掩（おお）ひて宇（いえ）と為（せ）むこと、亦（また）可からずや」との御事に対し、縮めて八紘為宇（はっこういう）と申し奉る事は皆知る所であるが、私はこの雄渾（ゆうこん）にして洪大なる御経綸を表わし給う御言霊に対し奉り、不肖を顧みず謹しみ畏（かしこ）みて霊的解釈を申上げたいのである。<br><br>これによっていささかなりとも国体明徴（めいちょう）に貢献する所あれば、甚大なる幸いと惟（おも）うのである。<br><br> まず私は、大御稜威（おおみいづ）という意味から言霊的に御解釈申上げなくてはならないのである。<br><br> 私は、大御稜威とは、畏くも 天皇陛下の御霊衣の御拡がりと拝察申上げるのである。<br><br>我日本が支那事変及び大東亜戦争を経て、国威益々顕揚（けんよう）さるゝという事は、畏れ多くも我大君（わがおおきみ）の御霊衣のますます拡がり給う御事と拝察奉るのである。<br><br>申すまでもなく八紘為宇の芽出度き時が、いよいよ近づきつゝあるという御事に外ならないのである。<br><br> 私は、昼の世界とは、日の大神で被在（あらせ）らるる天照皇大御神御顕現という事を、さきに申述べたのであるが、その御事によって我大君の御霊衣が拡ぎに拡ぎ、全世界をあまねく光被し給う吉（よ）き時となったので、それが八紘為宇の完遂であると拝察申上げるのである。<br><br> 私は、昼のリズムは求心的運動であると言った。<br><br>この理によって御霊衣即ち大御徳が全世界を光被し給う時、万国の民草（たみくさ）は我大君を仰ぎ奉りて尽（ことごと）く悦服すべきは必然の理であってちょうど、全世界が太陽を仰ぐがごとくであり、真に帰一の姿である。<br><br> 基督（キリスト）の言った地上天国、釈迦の言った弥勒の世、日蓮の称（とな）えた義農（ぎのう）の世等の予言はこの事に外ならないと想うのである。<br><br> rattail（注） 私の所持する２冊ともに「御神霊」「八紘為宇の意義」「大戦争と浄化作用」「人間と動物との関係」が切除されているため原本確認は出来ませんでした。<br><br>よって岡田茂吉全集によっています。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Significado do Princípio de Hakkou Iu</h2>
 <p>É de conhecimento geral que a expressão Hakkou Iu (八紘為宇) é a forma abreviada do venerável decreto divino proferido pelo Imperador Jimmu nos primórdios da fundação de nossa nação: "Cobrir os oito cantos do mundo e fazer deles um só lar não seria, porventura, uma nobre missão?". Desejo, no entanto, sem considerar minha indignidade e com a mais profunda reverência, oferecer uma interpretação espiritual para estas palavras divinas, que expressam um Plano Divino de magnitude e grandiosidade ímpares. Se, por meio desta análise, eu puder contribuir, ainda que minimamente, para a elucidação da essência de nossa nação, considerare-lo-ei uma felicidade suprema.</p>
@@ -95,5 +247,48 @@ function toggleLang(lang) {
 <p>Conforme afirmei anteriormente, o Mundo do Dia representa a manifestação de Amaterasu Omikami, a Grande Deusa do Sol. Por esse motivo, o Manto Espiritual de nosso soberano se expande amplamente, e chegou o momento propício para que sua luz cubra todo o orbe terrestre. É nisto que consiste, a meu ver, a consumação do Princípio de Hakkou Iu.</p>
 <p>Eu já disse que o ritmo do dia é um movimento centrípeto. Em virtude desse princípio, quando o Manto Espiritual — ou seja, a Grande Virtude Divina — iluminar o mundo inteiro, é uma consequência inevitável que os povos de todas as nações reverenciarão nosso soberano e a ele se submeterão com júbilo. Será um movimento análogo ao do mundo inteiro que se volta para o Sol, a verdadeira imagem da unificação.</p>
 <p>As profecias do Reino dos Céus na Terra, de Cristo; do Mundo de Miroku, de Buda; e do Mundo de Ginou, proclamado por Nichiren, não se referem, em minha opinião, a outra coisa senão a este grandioso porvir.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 八紘為宇の意義 『明日の医術 第三編』昭和18(1943)年10月23日発行 畏多（おそれおお）くも、我建国の初め、神武天皇の大神勅（おおみことのり）に「八紘（あめのした）を掩（おお）ひて宇（いえ）と為（せ）むこと、亦（また）可からずや」との御事に対し、縮めて八紘為宇（はっこういう）と申し奉る事は皆知る所であるが、私はこの雄渾（ゆうこん）にして洪大なる御経綸を表わし給う御言霊に対し奉り、不肖を顧みず謹しみ畏（かしこ）みて霊的解釈を申上げたいのである。<br/><br/>これによっていささかなりとも国体明徴（めいちょう）に貢献する所あれば、甚大なる幸いと惟（おも）うのである。<br/><br/> まず私は、大御稜威（おおみいづ）という意味から言霊的に御解釈申上げなくてはならないのである。<br/><br/> 私は、大御稜威とは、畏くも 天皇陛下の御霊衣の御拡がりと拝察申上げるのである。<br/><br/>我日本が支那事変及び大東亜戦争を経て、国威益々顕揚（けんよう）さるゝという事は、畏れ多くも我大君（わがおおきみ）の御霊衣のますます拡がり給う御事と拝察奉るのである。<br/><br/>申すまでもなく八紘為宇の芽出度き時が、いよいよ近づきつゝあるという御事に外ならないのである。<br/><br/> 私は、昼の世界とは、日の大神で被在（あらせ）らるる天照皇大御神御顕現という事を、さきに申述べたのであるが、その御事によって我大君の御霊衣が拡ぎに拡ぎ、全世界をあまねく光被し給う吉（よ）き時となったので、それが八紘為宇の完遂であると拝察申上げるのである。<br/><br/> 私は、昼のリズムは求心的運動であると言った。<br/><br/>この理によって御霊衣即ち大御徳が全世界を光被し給う時、万国の民草（たみくさ）は我大君を仰ぎ奉りて尽（ことごと）く悦服すべきは必然の理であってちょうど、全世界が太陽を仰ぐがごとくであり、真に帰一の姿である。<br/><br/> 基督（キリスト）の言った地上天国、釈迦の言った弥勒の世、日蓮の称（とな）えた義農（ぎのう）の世等の予言はこの事に外ならないと想うのである。<br/><br/> rattail（注） 私の所持する２冊ともに「御神霊」「八紘為宇の意義」「大戦争と浄化作用」「人間と動物との関係」が切除されているため原本確認は出来ませんでした。<br/><br/>よって岡田茂吉全集によっています。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

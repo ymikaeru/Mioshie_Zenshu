@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s290415</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S29年4月15日） 『御教え集』33号、昭和29(1954)年5月15日発行 昭和二十九年四月十五日 今度奈良に行ったことは、奈良に神様、仏様の霊が一番たくさんいるのです。<br><br>まあ日本では奈良に集中されていると言ってよいくらいな所なのです。<br><br>それがみんな龍神になっているのです。<br><br>それで龍神が元の神、仏……といったところで、いったんは人間に生まれたもので、それが龍神界に落ちたものですが、それで私の光を受けると罪穢れが取れますから、そこで龍神が人間に出世するわけです。<br><br>そのために非常に来てもらいたがっているのです。<br><br>それで行ったわけなのです。<br><br>ですから天気都合なども神秘的にうまくいったわけです。<br><br>朝行くときには随分ひどい雨でしたが、奈良に着く三十分ぐらい前から晴れてきて日が当たったくらいです。<br><br>それがすんでから奈良ホテルに帰って休んでいるうちにまた降ってきたようなわけで、ちょうど龍神さんが、このとおり一生懸命にお迎えした、働いたということが分かるようにしたわけです。<br><br>そういうわけで、奈良の公会堂で講演した時に集まったのが三千三百だったのですが、公会堂は二千人ぐらいでいっぱいで、千人ぐらいは庭にいっぱい溢れていたのです。<br><br>ですからもし雨が降ったらたいへんなことだったのですが、ちょうど少し前から晴れたので、庭も乾いて、実にうまくいったわけです。<br><br>そういうわけで、奈良の一番の目的の所は、山奥で、室生寺で、十六里ぐらいですが、一番最初そこの龍神が出てきて、今度おいでになるのでほうぼうをきれいに掃除をしておく、清めておくというわけだったのですが、それから大きな山火事があり、なんでも何百町歩か焼けて、損害が六億というのですから随分大きなものです。<br><br>それで何カ所もあったのだそうです。<br><br>焼かれた人には気の毒ですが、それも一つのお浄めの手段です。<br><br>室生寺に行ったときも、そこの住職の人で、大和の長谷寺なども自分が監督しているというわけで、真言宗の豊山派の方では一番偉い人です。<br><br>ちょうど、先方でもぜひ会いたいというわけで、どこかに出張していたのが、そのために帰ってきたという話をしてました。<br><br>それから龍神を祀ってある所を聞いてみたところ、ちょうど室生寺の横の方に山があって、そこに祀ってあるのです。<br><br>「善女龍王」というのです。<br><br>つまりそこの龍神さんの偉い方です。<br><br>やっぱり、有名な大きな寺を護っているのは、龍神さんの中でも、やはりそれだけの資格があるわけです。<br><br>なんでもその龍神さんは雨乞いかなにかで、室生寺の開祖みたいな者が他の者と雨乞いを争って勝ったというのですが、勝ったというのは、その龍神さんが働いたのでしょう。<br><br>龍神というのは非常に、つまり厳しいのです。<br><br>そのために自分に頼む人間とかそういうものが、自分よりか位が上でないと言うことをきかないのです。<br><br>雨乞いなどで非常に御利益があったというについては、いくら大勢が拝んでも御利益がない場合がありますが、それはいくら人間が拝もうと、神格のある人がいないと、きかないのです。<br><br>一人でも自分以上の人が頼めば言うことをきかないわけにはゆかないというわけで、そういうことは階級によって非常にキチンとしてます。<br><br>特に龍神界はそれがはなはだしいのです。<br><br> それから今度驚いたのは、一体に信者が増えたことです。<br><br>京都辺の信者が増えたのは驚くべきものです。<br><br>帰りには見送りの人たちが非常に多くて、この次あたりは制限しないと駅がいっぱいになるそうです。<br><br>去年あたりの倍ではきかないくらいです。<br><br>それがあたりまえです。<br><br>神様の方の力がだんだん増すに従って、発展が速やかになってくるわけです。<br><br>いろいろな霊のことはだんだんに書きます。<br><br>旅行のことはこのくらいにしておきます。<br><br> これは某婦人に、この前から引き続いて雑多な霊が憑って言うのですが、これほどいろんな霊が喜んでいるということがよく分かるので、今読ませます。<br><br> （御報告） 日蓮 日蓮の狐については前に話したことがありますが、あれは狐界に落ちて狐の総頭領になったわけです。<br><br>それで日蓮宗は狐が多いのです。<br><br>やっぱり今度、人間に立ち返ったわけです。<br><br>その御礼に出たわけです。<br><br> 今宮神社 今宮神社というのは熱海の奥の方にあるのです。<br><br>私は一度行ったことがありますが、なかなか立派な大きなお宮があります。<br><br>それから、事代主命（ことしろぬしのみこと）というのは大国主命（おおくにぬしのみこと）の長男で、神武天皇の時に降参した神様です。<br><br> 良寛 最近良寛の掛物を十六幅に、六曲の屏風を二双手に入れました。<br><br>そういうことも、やっぱり良寛が働いたわけです。<br><br>働くということは、他に売れないようにしたのです。<br><br>だからしかたがないと、こちらに売らなければならないことになったのです。<br><br> 今の良寛の“子らと鳥と風と……”というのは良寛の性格がよく表われてます。<br><br>年中子供が好きで子供と遊んでいたのですから。<br><br> 龍神 この中にあるカラタマということは、「カラ」は体「タマ」は霊ということで、カラタマは霊体ということです。<br><br>ですからよく歌にカラタマということを言ってますが、それはいま言ったとおり人間というわけです。<br><br> 金毛九尾 金毛九尾の改心というのは大きなものです。<br><br>つまりこの金毛九尾の罪というのは、人間を堕落させるそれが一番の罪です。<br><br>ですから汚職事件なども、この金毛九尾の眷族（けんぞく）が大いに働いたわけです。<br><br>ですからやつの一番の働きは、女を使って男を堕落させるということなのですが、そういうわけで金毛九尾の親玉が改心すると、そういう方面がよほどきれいになります。<br><br>ですから今政府でやっている私娼問題やなにかもよほど楽になるわけです。<br><br>一度にはゆかないが、だんだんそうなるわけです。<br><br>それからおいおい家庭も円満になってゆくわけです。<br><br> それから龍神というのは日本ばかりのように思われますが、日本ほど多くはないが外国にもたくさんいます。<br><br>今度ほうぼうの龍神の状態がよく出てますから、読ませます。<br><br> （御報告） さっきのは熱海の婦人で、今のは京都の人ですから、ずっと遠いわけですが、しかし今霊界のいろんな霊が、因縁の人に憑って知らせるわけです。<br><br> それから、今度名古屋と奈良で講演しましたが、そのことは重要なことなので、今日は聞かない人の方が多いでしょうから少し話をします。<br><br>例の水素爆弾です。<br><br>これについて、日本における外国雑誌『アジア・シーン』というので、昨夜見ましたが、立派な雑誌です。<br><br>日本の文化を外国に知らせるというのが目的だそうですが、立派なもので、五万ぐらい出ているそうです。<br><br>そこの記者が今日ここに来ることになってますが、質問の要旨は、『アメリカを救う』という本を見たためと、私が書いたものの中に「原爆恐るるに足らず」というのがありますが、だいたいそういう点を聞きたいということなのです。<br><br>その連れにラジオ東京の人も来るそうです。<br><br>それについてだいたい私の言うことは、原爆恐るるに足らずということは、これはあなた方も聞かれるでしょうから知っておく必要がありますが、原爆を逃れたり、その被害を受けた人たちが浄霊でよく治ったというお蔭話がありますが、そういうようで、原爆は恐るるに足らずなのです。<br><br>ところが水素爆弾は違うのです。<br><br>なにしろ原爆の何百倍という威力なのですから。<br><br>今盛んに騒いでいる、灰が少しついただけでもたいへんな騒ぎです。<br><br>そういうようで水素爆弾は違うのです。<br><br>水素爆弾は逃れる道はないと言ってもよいのです。<br><br>とにかくたいへんなものなのです。<br><br>その元はやはり神様が作ったのですが、ではなんのために作られたかというと、これは宗教的でなければ分からないのです。<br><br>というのは、科学で防ぐ方法はないのですから。<br><br>前の原爆の方は、穴を掘って地下にいるとか、鉛で遮断することができるのです。<br><br>ところが水素爆弾は、地下にもぐろうものなら、地面がまるっきり地震のように破壊されてしまうのですから、水素爆弾の方では山一つ崩すぐらいはわけないのです。<br><br>それだけで止まっているのではなくてドンドン進んでいるのですから、まだまだどんなことになるか分からないです。<br><br>まあ人類滅亡の前夜と言ってもよいです。<br><br> ところがこれを防ごうとするにはどうするかというと、私の方ではわけないのです。<br><br>この間アイゼンハウアーが言ってますが、“水素爆弾そのものはそれほど恐れるべき物ではない、その使用目的が恐るべきものになるのだ”と言ってますが、うまいことを言ってます。<br><br>その使用目的というのは、なにかというと、戦争に使う、人間をやっつけるというその使用目的が恐ろしいのです。<br><br>戦争に使うということは人間の魂です。<br><br>今一番はっきりしていることは、ソ連の共産主義者たちで、それも何人かです。<br><br>その何人かが、“これはいかん。<br><br>止したほうがよい”という心になればそれでよいのですから、問題は簡単です。<br><br>それが根本です。<br><br>いくら科学者が水素爆弾を逃れるような発明をしようとしても、たとえできたとしても今が今の間に合わないです。<br><br>何十年先か分からないです。<br><br>それまでが危ないのです。<br><br>それからまた国際条約などをやってますが、これは必要に応ずればアンナものは一日で駄目にしてしまうということを言われてます。<br><br>まったく、今までの戦争を起こした国はみんな国際条約を蹂躙してます。<br><br>ですから国際条約というのは本当の膏薬張りで、根本的でないです。<br><br>そうしてみると、根本的の問題は人間の魂です。<br><br>人間の魂ということは、つまり悪がなくなればよいのです。<br><br>しかしぜんぜんなくなるわけにはゆかないからして、ただ悪を制限すべき善の力の方が勝てばよいのです。<br><br>戦争を起こそうという、あるいは戦争によって目的を達しようという、その間違った考え方を教えるだけの力があればよいのです。<br><br>そうすると水素爆弾を防ぐのは、人間の魂に悪を押さえつける力ができればよいのです。<br><br>そう言うとはなはだ簡単ですが、それがたいへんな難しいことです。<br><br>難しいが、私から言えば簡単です。<br><br>というのは、その魂に光を放射すればよいわけです。<br><br>浄霊すればよいのですが、浄霊は簡単にはそういう機会がない、問題はそれだけです。<br><br>神様の方ではチャンとそういうことが立派にできているのですから、時さえ来ればよいのですが、ただその時が早いか遅いかだけの問題です。<br><br>その時を早くするにはどうすればよいかということは、一番よいのはアメリカの大統領が信者になって御守りをかけるのです。<br><br>そうすると、相手が光に会います。<br><br>どうして光に会うかというと、これはおもしろいもので、仮に、今アイゼンハウアーとマレンコフが対峠〔峙〕（たいじ）してますが、その場合マレンコフのほうがアイゼンハウアーをやっつけようと始終思っていると、マレンコフの霊がアイゼンハウアーの方に行くのです。<br><br>そうすると、アイゼンハウアーの方が御守りをかけていると、その光に会いますから、それがマレンコフに行くことになって、だんだん変わってゆくのです。<br><br>この前マレンコフが京都の人に憑ってきて“今までたいへん悪かった、今後は改心する”ということを言ってますから、自分では気がつかないが、正守護神が良くなっているのですから、これも時の問題です。<br><br>そういうわけですから、水素爆弾というものは神様が作って“この難から逃れるには、科学でも国際条約でも理屈でも駄目だ、要するに神様にたよるよりしようがない”という心を起こさせる必要から、こういう恐ろしい物を作ったわけです。<br><br>できたわけです。<br><br>というのは、いよいよミロクの世が近寄った一つの重要な経綸です。<br><br>だから救世教の方ではなにも恐れるところはないのです。<br><br> それについてちょっと書いてみました。<br><br> （御論文「恐るべき科学迷信」）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Salvação dos Deuses-Dragão e a Providência da Bomba de Hidrogênio</h2>
 <p>A recente viagem que realizei a Nara teve um motivo sublime: é nessa região que se concentra o maior número de espíritos de deuses e budas em todo o Japão. Pode-se afirmar, com efeito, que estão ali centralizados. E todos eles se encontram no estado de deuses-dragão. Trata-se de seres que, em certa época, nasceram como homens, mas decaíram para o Mundo dos Dragões. Ao receberem a minha Luz, contudo, seus pecados e máculas são purificados, o que lhes permite ascender novamente à condição humana. Por essa razão, ansiavam ardentemente pela minha visita, e foi por isso que para lá me dirigi.</p>
@@ -124,5 +276,48 @@ function toggleLang(lang) {
 <p>A bomba de hidrogênio foi, assim, criada por Deus para despertar nos homens a consciência de que "para escapar desta calamidade, a ciência, os tratados internacionais e a lógica são inúteis. A única solução é recorrer a Deus". Foi pela necessidade de fazer brotar esse sentimento que algo tão terrível foi criado. Em outras palavras, trata-se de um importante pilar do Plano Divino que anuncia a iminente chegada da Era de Miroku. Portanto, para a Sekaikyuseikyou, não há absolutamente nada a temer.</p>
 <p>Escrevi um pequeno artigo sobre este assunto.</p>
 <p>(Artigo: "A Temível Superstição Científica")</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S29年4月15日） 『御教え集』33号、昭和29(1954)年5月15日発行 昭和二十九年四月十五日 今度奈良に行ったことは、奈良に神様、仏様の霊が一番たくさんいるのです。<br/><br/>まあ日本では奈良に集中されていると言ってよいくらいな所なのです。<br/><br/>それがみんな龍神になっているのです。<br/><br/>それで龍神が元の神、仏……といったところで、いったんは人間に生まれたもので、それが龍神界に落ちたものですが、それで私の光を受けると罪穢れが取れますから、そこで龍神が人間に出世するわけです。<br/><br/>そのために非常に来てもらいたがっているのです。<br/><br/>それで行ったわけなのです。<br/><br/>ですから天気都合なども神秘的にうまくいったわけです。<br/><br/>朝行くときには随分ひどい雨でしたが、奈良に着く三十分ぐらい前から晴れてきて日が当たったくらいです。<br/><br/>それがすんでから奈良ホテルに帰って休んでいるうちにまた降ってきたようなわけで、ちょうど龍神さんが、このとおり一生懸命にお迎えした、働いたということが分かるようにしたわけです。<br/><br/>そういうわけで、奈良の公会堂で講演した時に集まったのが三千三百だったのですが、公会堂は二千人ぐらいでいっぱいで、千人ぐらいは庭にいっぱい溢れていたのです。<br/><br/>ですからもし雨が降ったらたいへんなことだったのですが、ちょうど少し前から晴れたので、庭も乾いて、実にうまくいったわけです。<br/><br/>そういうわけで、奈良の一番の目的の所は、山奥で、室生寺で、十六里ぐらいですが、一番最初そこの龍神が出てきて、今度おいでになるのでほうぼうをきれいに掃除をしておく、清めておくというわけだったのですが、それから大きな山火事があり、なんでも何百町歩か焼けて、損害が六億というのですから随分大きなものです。<br/><br/>それで何カ所もあったのだそうです。<br/><br/>焼かれた人には気の毒ですが、それも一つのお浄めの手段です。<br/><br/>室生寺に行ったときも、そこの住職の人で、大和の長谷寺なども自分が監督しているというわけで、真言宗の豊山派の方では一番偉い人です。<br/><br/>ちょうど、先方でもぜひ会いたいというわけで、どこかに出張していたのが、そのために帰ってきたという話をしてました。<br/><br/>それから龍神を祀ってある所を聞いてみたところ、ちょうど室生寺の横の方に山があって、そこに祀ってあるのです。<br/><br/>「善女龍王」というのです。<br/><br/>つまりそこの龍神さんの偉い方です。<br/><br/>やっぱり、有名な大きな寺を護っているのは、龍神さんの中でも、やはりそれだけの資格があるわけです。<br/><br/>なんでもその龍神さんは雨乞いかなにかで、室生寺の開祖みたいな者が他の者と雨乞いを争って勝ったというのですが、勝ったというのは、その龍神さんが働いたのでしょう。<br/><br/>龍神というのは非常に、つまり厳しいのです。<br/><br/>そのために自分に頼む人間とかそういうものが、自分よりか位が上でないと言うことをきかないのです。<br/><br/>雨乞いなどで非常に御利益があったというについては、いくら大勢が拝んでも御利益がない場合がありますが、それはいくら人間が拝もうと、神格のある人がいないと、きかないのです。<br/><br/>一人でも自分以上の人が頼めば言うことをきかないわけにはゆかないというわけで、そういうことは階級によって非常にキチンとしてます。<br/><br/>特に龍神界はそれがはなはだしいのです。<br/><br/> それから今度驚いたのは、一体に信者が増えたことです。<br/><br/>京都辺の信者が増えたのは驚くべきものです。<br/><br/>帰りには見送りの人たちが非常に多くて、この次あたりは制限しないと駅がいっぱいになるそうです。<br/><br/>去年あたりの倍ではきかないくらいです。<br/><br/>それがあたりまえです。<br/><br/>神様の方の力がだんだん増すに従って、発展が速やかになってくるわけです。<br/><br/>いろいろな霊のことはだんだんに書きます。<br/><br/>旅行のことはこのくらいにしておきます。<br/><br/> これは某婦人に、この前から引き続いて雑多な霊が憑って言うのですが、これほどいろんな霊が喜んでいるということがよく分かるので、今読ませます。<br/><br/> （御報告） 日蓮 日蓮の狐については前に話したことがありますが、あれは狐界に落ちて狐の総頭領になったわけです。<br/><br/>それで日蓮宗は狐が多いのです。<br/><br/>やっぱり今度、人間に立ち返ったわけです。<br/><br/>その御礼に出たわけです。<br/><br/> 今宮神社 今宮神社というのは熱海の奥の方にあるのです。<br/><br/>私は一度行ったことがありますが、なかなか立派な大きなお宮があります。<br/><br/>それから、事代主命（ことしろぬしのみこと）というのは大国主命（おおくにぬしのみこと）の長男で、神武天皇の時に降参した神様です。<br/><br/> 良寛 最近良寛の掛物を十六幅に、六曲の屏風を二双手に入れました。<br/><br/>そういうことも、やっぱり良寛が働いたわけです。<br/><br/>働くということは、他に売れないようにしたのです。<br/><br/>だからしかたがないと、こちらに売らなければならないことになったのです。<br/><br/> 今の良寛の“子らと鳥と風と……”というのは良寛の性格がよく表われてます。<br/><br/>年中子供が好きで子供と遊んでいたのですから。<br/><br/> 龍神 この中にあるカラタマということは、「カラ」は体「タマ」は霊ということで、カラタマは霊体ということです。<br/><br/>ですからよく歌にカラタマということを言ってますが、それはいま言ったとおり人間というわけです。<br/><br/> 金毛九尾 金毛九尾の改心というのは大きなものです。<br/><br/>つまりこの金毛九尾の罪というのは、人間を堕落させるそれが一番の罪です。<br/><br/>ですから汚職事件なども、この金毛九尾の眷族（けんぞく）が大いに働いたわけです。<br/><br/>ですからやつの一番の働きは、女を使って男を堕落させるということなのですが、そういうわけで金毛九尾の親玉が改心すると、そういう方面がよほどきれいになります。<br/><br/>ですから今政府でやっている私娼問題やなにかもよほど楽になるわけです。<br/><br/>一度にはゆかないが、だんだんそうなるわけです。<br/><br/>それからおいおい家庭も円満になってゆくわけです。<br/><br/> それから龍神というのは日本ばかりのように思われますが、日本ほど多くはないが外国にもたくさんいます。<br/><br/>今度ほうぼうの龍神の状態がよく出てますから、読ませます。<br/><br/> （御報告） さっきのは熱海の婦人で、今のは京都の人ですから、ずっと遠いわけですが、しかし今霊界のいろんな霊が、因縁の人に憑って知らせるわけです。<br/><br/> それから、今度名古屋と奈良で講演しましたが、そのことは重要なことなので、今日は聞かない人の方が多いでしょうから少し話をします。<br/><br/>例の水素爆弾です。<br/><br/>これについて、日本における外国雑誌『アジア・シーン』というので、昨夜見ましたが、立派な雑誌です。<br/><br/>日本の文化を外国に知らせるというのが目的だそうですが、立派なもので、五万ぐらい出ているそうです。<br/><br/>そこの記者が今日ここに来ることになってますが、質問の要旨は、『アメリカを救う』という本を見たためと、私が書いたものの中に「原爆恐るるに足らず」というのがありますが、だいたいそういう点を聞きたいということなのです。<br/><br/>その連れにラジオ東京の人も来るそうです。<br/><br/>それについてだいたい私の言うことは、原爆恐るるに足らずということは、これはあなた方も聞かれるでしょうから知っておく必要がありますが、原爆を逃れたり、その被害を受けた人たちが浄霊でよく治ったというお蔭話がありますが、そういうようで、原爆は恐るるに足らずなのです。<br/><br/>ところが水素爆弾は違うのです。<br/><br/>なにしろ原爆の何百倍という威力なのですから。<br/><br/>今盛んに騒いでいる、灰が少しついただけでもたいへんな騒ぎです。<br/><br/>そういうようで水素爆弾は違うのです。<br/><br/>水素爆弾は逃れる道はないと言ってもよいのです。<br/><br/>とにかくたいへんなものなのです。<br/><br/>その元はやはり神様が作ったのですが、ではなんのために作られたかというと、これは宗教的でなければ分からないのです。<br/><br/>というのは、科学で防ぐ方法はないのですから。<br/><br/>前の原爆の方は、穴を掘って地下にいるとか、鉛で遮断することができるのです。<br/><br/>ところが水素爆弾は、地下にもぐろうものなら、地面がまるっきり地震のように破壊されてしまうのですから、水素爆弾の方では山一つ崩すぐらいはわけないのです。<br/><br/>それだけで止まっているのではなくてドンドン進んでいるのですから、まだまだどんなことになるか分からないです。<br/><br/>まあ人類滅亡の前夜と言ってもよいです。<br/><br/> ところがこれを防ごうとするにはどうするかというと、私の方ではわけないのです。<br/><br/>この間アイゼンハウアーが言ってますが、“水素爆弾そのものはそれほど恐れるべき物ではない、その使用目的が恐るべきものになるのだ”と言ってますが、うまいことを言ってます。<br/><br/>その使用目的というのは、なにかというと、戦争に使う、人間をやっつけるというその使用目的が恐ろしいのです。<br/><br/>戦争に使うということは人間の魂です。<br/><br/>今一番はっきりしていることは、ソ連の共産主義者たちで、それも何人かです。<br/><br/>その何人かが、“これはいかん。<br/><br/>止したほうがよい”という心になればそれでよいのですから、問題は簡単です。<br/><br/>それが根本です。<br/><br/>いくら科学者が水素爆弾を逃れるような発明をしようとしても、たとえできたとしても今が今の間に合わないです。<br/><br/>何十年先か分からないです。<br/><br/>それまでが危ないのです。<br/><br/>それからまた国際条約などをやってますが、これは必要に応ずればアンナものは一日で駄目にしてしまうということを言われてます。<br/><br/>まったく、今までの戦争を起こした国はみんな国際条約を蹂躙してます。<br/><br/>ですから国際条約というのは本当の膏薬張りで、根本的でないです。<br/><br/>そうしてみると、根本的の問題は人間の魂です。<br/><br/>人間の魂ということは、つまり悪がなくなればよいのです。<br/><br/>しかしぜんぜんなくなるわけにはゆかないからして、ただ悪を制限すべき善の力の方が勝てばよいのです。<br/><br/>戦争を起こそうという、あるいは戦争によって目的を達しようという、その間違った考え方を教えるだけの力があればよいのです。<br/><br/>そうすると水素爆弾を防ぐのは、人間の魂に悪を押さえつける力ができればよいのです。<br/><br/>そう言うとはなはだ簡単ですが、それがたいへんな難しいことです。<br/><br/>難しいが、私から言えば簡単です。<br/><br/>というのは、その魂に光を放射すればよいわけです。<br/><br/>浄霊すればよいのですが、浄霊は簡単にはそういう機会がない、問題はそれだけです。<br/><br/>神様の方ではチャンとそういうことが立派にできているのですから、時さえ来ればよいのですが、ただその時が早いか遅いかだけの問題です。<br/><br/>その時を早くするにはどうすればよいかということは、一番よいのはアメリカの大統領が信者になって御守りをかけるのです。<br/><br/>そうすると、相手が光に会います。<br/><br/>どうして光に会うかというと、これはおもしろいもので、仮に、今アイゼンハウアーとマレンコフが対峠〔峙〕（たいじ）してますが、その場合マレンコフのほうがアイゼンハウアーをやっつけようと始終思っていると、マレンコフの霊がアイゼンハウアーの方に行くのです。<br/><br/>そうすると、アイゼンハウアーの方が御守りをかけていると、その光に会いますから、それがマレンコフに行くことになって、だんだん変わってゆくのです。<br/><br/>この前マレンコフが京都の人に憑ってきて“今までたいへん悪かった、今後は改心する”ということを言ってますから、自分では気がつかないが、正守護神が良くなっているのですから、これも時の問題です。<br/><br/>そういうわけですから、水素爆弾というものは神様が作って“この難から逃れるには、科学でも国際条約でも理屈でも駄目だ、要するに神様にたよるよりしようがない”という心を起こさせる必要から、こういう恐ろしい物を作ったわけです。<br/><br/>できたわけです。<br/><br/>というのは、いよいよミロクの世が近寄った一つの重要な経綸です。<br/><br/>だから救世教の方ではなにも恐れるところはないのです。<br/><br/> それについてちょっと書いてみました。<br/><br/> （御論文「恐るべき科学迷信」）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

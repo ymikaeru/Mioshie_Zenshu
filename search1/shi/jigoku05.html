@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jigoku05</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 地獄の娑婆 『栄光』203号、昭和28(1953)年4月8日発行 御釈迦さんのいった通り、この世は火宅（かたく）であり、地獄の娑婆（しゃば）であるのは、目の前の事実がよく示している。<br><br>左の御蔭話を見ると、一人の既婚女性が一家を背負い、悪戦苦闘しつつある経路がかき連ねてあり、全く涙なくしては読めない程である。<br><br>このような不幸な人は現在世の中には数え切れないくらいあるであろう。<br><br>このような手紙を見る度、ジットとしてはいれないのである。<br><br>といってもただ歎くばかりでは何にもならない。<br><br>救える自信がなくては、どうにもならないのが普通であるが、本教こそそういう不幸な人達を、天国へ救えるのであるから、一人でも多く救わずにはおれないのである。<br><br>そうしてよく調べてみると、その原因は例外なく病気にあるのであるから、何といっても病気を治す事で、それ以外根本的救い道はないのである。<br><br>ところが一般人は病気は医療でなくては治らないものと信じているのであるが、事実は散々金を使っても、一時的で心（しん）から治らないにかかわらず、それに気付かないので、実に可哀想なものである。<br><br>これらを見る毎（ごと）にもし本教が出現しないとしたら、人類はいつになっても不幸の底に呻（うめ）いている訳であって本教こそ全く最後の神の救いである事は肯けるであろう。<br><br> 地獄の苦しみより救われ今は光明の道を往く私 大分県 如意輪中教会 江畠不二子（35） 明主様罪深き私ごとき者にまで日々御守護下さいます事を謹んで御礼申し上げます。<br><br>思い出せば万感胸に迫って何から申し上げて良いやら術をも知りませんが、せめて想いの万分の一でも御報告させて頂きます。<br><br> 拙文ながらペンを走らせて頂きます。<br><br>私の実家は祖父母が僅な財産を貰って分家致したのであります。<br><br>当時祖父は若い頃より喘息のため身体が非常に弱く、生まれる子供が皆女の子ばかりです。<br><br>それが生まれては死ぬ、生まれては死ぬという有様で僅な間に貰った財産も失って仕舞い、九人の子供の内二人がどうやら育ちました。<br><br>その一人が私の母で、一人は主人の母に当るのです。<br><br>母にも養子を迎えまして七人の子供が生れましたものの、因縁深い家として二男が生後二カ月目に痙攣で死亡致しており、長女は三歳の時水死しております。<br><br>その間に馬二頭が死んでおります。<br><br>残る五人が元気で育ちましたが、昭和十二年七月支那事変が始まると同時に最初の召集に主人も出征致したのです。<br><br>この召集を機に私達は許婚の縁を結んだのです。<br><br>この時弟もＡ会社に入社致しました。<br><br>これからが私一家の不幸の始まりです。<br><br>翌年六月に朝出勤後まもなく機械に油をささんとした時、突然モーターが掛り、「アッ」という間に後頭部全部くり取られて即死致しました。<br><br> 会社よりの報に接しました時は開いた口はふさがらず、泣くにも泣けない状態です。<br><br>ちょうど小麦の刈入れの時期とて心を残して父と三男がお骨迎えに上阪致しましたのです。<br><br>会社の方達に迎えられ案内されるままに病院へ着いて見ますと元気な姿で上阪した時の面影はどこへやら……頭から顔面一面包帯で巻かれており出ているのは目と鼻と口だけです。<br><br> それは頭の脳味噌が出て空になっているため、顔がくじけないように後頭部に脱脂綿を詰めてあったそうです。<br><br> 会社の心尽しの告別式をして頂き、六日目に悲しき門入りを致しました。<br><br>私共の不幸は空吹く風のように早や田植の盛りとなっております。<br><br>私共一家へは又も不幸は見舞われたのです。<br><br>それは長兄の結婚問題です。<br><br>二度、三度と致しましたものの一つも思うように行かず、遂に足の悪い子供を残して離別致しました。<br><br>それからと言うものは母と共に乳呑子をかかえて幾度泣いたことか判りません。<br><br>十七年六月頃より県庁に務めておりました末の弟が風邪が困で床に伏す身となり、病気は次第に悪化するばかりです。<br><br>遂に肋膜炎を冒し右肺浸潤になり、医者よ薬よとあらゆる事に迷いましたが翌年三月に死亡致しました。<br><br> この世に神も仏もないものかと、つくづく世を呪いてはひがみ根生を出すのでした。<br><br>もうこれにて虎口をのがれたのではないかと、ほっと一息する間もなく六月田植の時分より長兄が、どうも気分が悪い、血痰が出るなどと言い出して又かと思いましたが、もう既にその時は取り返しのつかないようになっているのでした。<br><br>兄も「生長の家」 の信者で医者にも診て貰わず、僅か四カ月で死亡致しました。<br><br> 次から次へと兄弟の少くなって行く淋しさは何とも言い知れぬ感がしてなりません。<br><br>又私も生死も判らぬ人を待つ事七年間、若い楽しい盛りを家の不幸の中に暮すのでした。<br><br>時折り受け取る軍事郵便をただ一つの楽しみに父と共に農事に精出すのでした。<br><br>急に老け行く両親を見るにつけ何と元気づけて良いやら言葉もございません。<br><br>暗黒な生活の内にどうやら春の訪れが参りました。<br><br> 忘れもしない昭和十八年十一月末に、突然士官学校入学のため帰って参りました。<br><br>余り急な事とて、又悲しみのいえぬ内なので嬉しいやら何共言えぬ気持で一杯でした。<br><br>慌しく祝言を済ませて一緒に上京致しました。<br><br>僅か九カ月の結婚生活でしたが、私に取りましては、本当に人生の花でした。<br><br>その喜びも束の間で、又父の死の報に接したのです。<br><br>重なる不幸に泣くにも泣けぬ有様でした。<br><br>この悲しみは到底経験者でなくては想像もつかないことと思います。<br><br>夜毎、日毎に枕は濡れ、……皆様その時の私の気持を御想像下さいませ。<br><br>無事卒業の際は、参謀本部からの命令で小笠原諸島の硫黄島に命令が下りました時は全く地獄のどん底につき落されたようでした。<br><br>でも軍人の悲しさ致し方がありません。<br><br>名残を惜しんで見送りを済ませ、一応実家へ落ちつきました。<br><br> 翌三月には硫黄島も激戦となり、遂に玉砕の止むなきに至りました。<br><br>覚悟はしておりましたとは言え、余りの悲惨事に人目もかまわず泣き伏すのでした。<br><br>近所の皆様に言葉優しくなぐさめられハッと我に返りました時は九カ月の身重な身体に気が付き、生まれて来る子供は親の顔も知らぬ不憫さを思うとどんな苦労をしても立派に子供を育てましょうと、亡き主人にちかうのでした。<br><br>四月には元気な子供を生み、太り行く子供を楽しみに暮らします内、又も母が肝臓癌で床に就きひどい空襲下の事とて思うような看護もして上げられず、とうとう五月末に他界致しました。<br><br>全くこれから先どうして良いのか見当が付かず、僅か四年の間に五人の死亡者を出したのです。<br><br> ただ子供一人を頼りに寄辺のない身を実家へお世話になることに致しました。<br><br>どこまで不運は続くのでしょうか。<br><br>何も知らず太り行く子供を見るに付け、一日の疲れも打ち忘れて仕舞うのです。<br><br>やがて一年が来ましてよちよち歩くようになりましたら、足取りがおかしく早速医者に診て頂きますと小児麻痺という恐ろしい病気に罹り、やれ医者よそれ薬よとあらゆる事に迷いましたが中々治らず、最後はみにくい姿となりました。<br><br>不具の子供を抱えて働くにも働けず、急に日の先が真暗になり、余りにも我が身の惨さに何も彼も諦めてその日その日を過しておりましたが、何とかして信仰の道へ入りたい、だがどうしたらよいものかと気に懸るままにおります内、不図したことからこのお救いの道に入れて頂きました。<br><br> その時の嬉しさは何と申し上げてよいか筆や口ではいい表わせません。<br><br>全く苦境のどん底より救われました喜びに、早くこのお道を知っていたなら両親も死なせずに済んだのにと今更ながら惜しくてなりません。<br><br>一日も早く江畠家、久下家の皆様が御明主様の御許を得まして入信される日を、そして御先祖が救われてゆくのを楽しみに、又太り行く子供をただ一つの楽しみに御用をさせて頂いております。<br><br> 御明主様の御神業にお手伝いさせて戴くべくお許しを得まして支部に御奉仕に上らさせて戴き、朝夕のお祈りにも御参拝のお許しを頂き、親子が毎日の御浄霊を頂きながら有難きお慈悲のお浄化を頂いて元気にならせて頂いています。<br><br>又御神殿にて支部長先生の御浄霊をいただき、また御参拝者の皆様の御浄霊をお許し頂きます身の光栄に浴し、ただ有難さに胸一杯でございます。<br><br>神の僕の一員として今日一日の御用のお許しを得て働かせて頂いていますものの、思うような御用もできませず誠に申訳ございません。<br><br>御神書の拝読させて頂くにつれ絶大なる明主様の御力、地上天国建設という一大理想実現等、いかに素晴しい宗教であるかということをしみじみと判らせて頂き、又支部長先生の御激励を受ける度毎に信仰の度は深くなって行くのです。<br><br> 明主様罪穢れ多い私共親子にかくも偉大な御守護を賜わりました事を厚くお礼申し上げますと共に、地上天国建設の万分の一の御手伝いをさせて頂けますことを感謝申し上げます。<br><br> 明主様誠に有難うございました。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Inferno Neste Mundo</h2>
 <p>Conforme ensinou o Buda Sakyamuni, este mundo é uma casa em chamas, um verdadeiro inferno. Tal realidade é amplamente demonstrada pelos fatos que se desenrolam diante de nossos olhos. O relato de fé que se segue descreve a trajetória de uma senhora casada que, carregando a responsabilidade por sua família, enfrenta uma luta árdua e extenuante. É uma narrativa que, de fato, não se pode ler sem lágrimas.</p>
@@ -120,5 +272,48 @@ function toggleLang(lang) {
 <p>Como um dos servos de Deus, recebo a permissão de trabalhar a cada dia, mas me sinto consternada por não conseguir servir como gostaria. A cada leitura dos Escritos Divinos, compreendo mais profundamente o poder absoluto de Meishu-Sama e quão maravilhosa é esta religião, com seu sublime ideal de construir o Paraíso na Terra. E a cada palavra de incentivo do ministro, minha fé se aprofunda.</p>
 <p>Meishu-Sama, agradeço do fundo do coração pela grandiosa proteção concedida a mim e a meu filho, seres tão repletos de máculas e impurezas, e sou imensamente grata por me permitir auxiliar, ainda que minimamente, na construção do Paraíso Terrestre.</p>
 <p>Meishu-Sama, muito obrigada.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 地獄の娑婆 『栄光』203号、昭和28(1953)年4月8日発行 御釈迦さんのいった通り、この世は火宅（かたく）であり、地獄の娑婆（しゃば）であるのは、目の前の事実がよく示している。<br/><br/>左の御蔭話を見ると、一人の既婚女性が一家を背負い、悪戦苦闘しつつある経路がかき連ねてあり、全く涙なくしては読めない程である。<br/><br/>このような不幸な人は現在世の中には数え切れないくらいあるであろう。<br/><br/>このような手紙を見る度、ジットとしてはいれないのである。<br/><br/>といってもただ歎くばかりでは何にもならない。<br/><br/>救える自信がなくては、どうにもならないのが普通であるが、本教こそそういう不幸な人達を、天国へ救えるのであるから、一人でも多く救わずにはおれないのである。<br/><br/>そうしてよく調べてみると、その原因は例外なく病気にあるのであるから、何といっても病気を治す事で、それ以外根本的救い道はないのである。<br/><br/>ところが一般人は病気は医療でなくては治らないものと信じているのであるが、事実は散々金を使っても、一時的で心（しん）から治らないにかかわらず、それに気付かないので、実に可哀想なものである。<br/><br/>これらを見る毎（ごと）にもし本教が出現しないとしたら、人類はいつになっても不幸の底に呻（うめ）いている訳であって本教こそ全く最後の神の救いである事は肯けるであろう。<br/><br/> 地獄の苦しみより救われ今は光明の道を往く私 大分県 如意輪中教会 江畠不二子（35） 明主様罪深き私ごとき者にまで日々御守護下さいます事を謹んで御礼申し上げます。<br/><br/>思い出せば万感胸に迫って何から申し上げて良いやら術をも知りませんが、せめて想いの万分の一でも御報告させて頂きます。<br/><br/> 拙文ながらペンを走らせて頂きます。<br/><br/>私の実家は祖父母が僅な財産を貰って分家致したのであります。<br/><br/>当時祖父は若い頃より喘息のため身体が非常に弱く、生まれる子供が皆女の子ばかりです。<br/><br/>それが生まれては死ぬ、生まれては死ぬという有様で僅な間に貰った財産も失って仕舞い、九人の子供の内二人がどうやら育ちました。<br/><br/>その一人が私の母で、一人は主人の母に当るのです。<br/><br/>母にも養子を迎えまして七人の子供が生れましたものの、因縁深い家として二男が生後二カ月目に痙攣で死亡致しており、長女は三歳の時水死しております。<br/><br/>その間に馬二頭が死んでおります。<br/><br/>残る五人が元気で育ちましたが、昭和十二年七月支那事変が始まると同時に最初の召集に主人も出征致したのです。<br/><br/>この召集を機に私達は許婚の縁を結んだのです。<br/><br/>この時弟もＡ会社に入社致しました。<br/><br/>これからが私一家の不幸の始まりです。<br/><br/>翌年六月に朝出勤後まもなく機械に油をささんとした時、突然モーターが掛り、「アッ」という間に後頭部全部くり取られて即死致しました。<br/><br/> 会社よりの報に接しました時は開いた口はふさがらず、泣くにも泣けない状態です。<br/><br/>ちょうど小麦の刈入れの時期とて心を残して父と三男がお骨迎えに上阪致しましたのです。<br/><br/>会社の方達に迎えられ案内されるままに病院へ着いて見ますと元気な姿で上阪した時の面影はどこへやら……頭から顔面一面包帯で巻かれており出ているのは目と鼻と口だけです。<br/><br/> それは頭の脳味噌が出て空になっているため、顔がくじけないように後頭部に脱脂綿を詰めてあったそうです。<br/><br/> 会社の心尽しの告別式をして頂き、六日目に悲しき門入りを致しました。<br/><br/>私共の不幸は空吹く風のように早や田植の盛りとなっております。<br/><br/>私共一家へは又も不幸は見舞われたのです。<br/><br/>それは長兄の結婚問題です。<br/><br/>二度、三度と致しましたものの一つも思うように行かず、遂に足の悪い子供を残して離別致しました。<br/><br/>それからと言うものは母と共に乳呑子をかかえて幾度泣いたことか判りません。<br/><br/>十七年六月頃より県庁に務めておりました末の弟が風邪が困で床に伏す身となり、病気は次第に悪化するばかりです。<br/><br/>遂に肋膜炎を冒し右肺浸潤になり、医者よ薬よとあらゆる事に迷いましたが翌年三月に死亡致しました。<br/><br/> この世に神も仏もないものかと、つくづく世を呪いてはひがみ根生を出すのでした。<br/><br/>もうこれにて虎口をのがれたのではないかと、ほっと一息する間もなく六月田植の時分より長兄が、どうも気分が悪い、血痰が出るなどと言い出して又かと思いましたが、もう既にその時は取り返しのつかないようになっているのでした。<br/><br/>兄も「生長の家」 の信者で医者にも診て貰わず、僅か四カ月で死亡致しました。<br/><br/> 次から次へと兄弟の少くなって行く淋しさは何とも言い知れぬ感がしてなりません。<br/><br/>又私も生死も判らぬ人を待つ事七年間、若い楽しい盛りを家の不幸の中に暮すのでした。<br/><br/>時折り受け取る軍事郵便をただ一つの楽しみに父と共に農事に精出すのでした。<br/><br/>急に老け行く両親を見るにつけ何と元気づけて良いやら言葉もございません。<br/><br/>暗黒な生活の内にどうやら春の訪れが参りました。<br/><br/> 忘れもしない昭和十八年十一月末に、突然士官学校入学のため帰って参りました。<br/><br/>余り急な事とて、又悲しみのいえぬ内なので嬉しいやら何共言えぬ気持で一杯でした。<br/><br/>慌しく祝言を済ませて一緒に上京致しました。<br/><br/>僅か九カ月の結婚生活でしたが、私に取りましては、本当に人生の花でした。<br/><br/>その喜びも束の間で、又父の死の報に接したのです。<br/><br/>重なる不幸に泣くにも泣けぬ有様でした。<br/><br/>この悲しみは到底経験者でなくては想像もつかないことと思います。<br/><br/>夜毎、日毎に枕は濡れ、……皆様その時の私の気持を御想像下さいませ。<br/><br/>無事卒業の際は、参謀本部からの命令で小笠原諸島の硫黄島に命令が下りました時は全く地獄のどん底につき落されたようでした。<br/><br/>でも軍人の悲しさ致し方がありません。<br/><br/>名残を惜しんで見送りを済ませ、一応実家へ落ちつきました。<br/><br/> 翌三月には硫黄島も激戦となり、遂に玉砕の止むなきに至りました。<br/><br/>覚悟はしておりましたとは言え、余りの悲惨事に人目もかまわず泣き伏すのでした。<br/><br/>近所の皆様に言葉優しくなぐさめられハッと我に返りました時は九カ月の身重な身体に気が付き、生まれて来る子供は親の顔も知らぬ不憫さを思うとどんな苦労をしても立派に子供を育てましょうと、亡き主人にちかうのでした。<br/><br/>四月には元気な子供を生み、太り行く子供を楽しみに暮らします内、又も母が肝臓癌で床に就きひどい空襲下の事とて思うような看護もして上げられず、とうとう五月末に他界致しました。<br/><br/>全くこれから先どうして良いのか見当が付かず、僅か四年の間に五人の死亡者を出したのです。<br/><br/> ただ子供一人を頼りに寄辺のない身を実家へお世話になることに致しました。<br/><br/>どこまで不運は続くのでしょうか。<br/><br/>何も知らず太り行く子供を見るに付け、一日の疲れも打ち忘れて仕舞うのです。<br/><br/>やがて一年が来ましてよちよち歩くようになりましたら、足取りがおかしく早速医者に診て頂きますと小児麻痺という恐ろしい病気に罹り、やれ医者よそれ薬よとあらゆる事に迷いましたが中々治らず、最後はみにくい姿となりました。<br/><br/>不具の子供を抱えて働くにも働けず、急に日の先が真暗になり、余りにも我が身の惨さに何も彼も諦めてその日その日を過しておりましたが、何とかして信仰の道へ入りたい、だがどうしたらよいものかと気に懸るままにおります内、不図したことからこのお救いの道に入れて頂きました。<br/><br/> その時の嬉しさは何と申し上げてよいか筆や口ではいい表わせません。<br/><br/>全く苦境のどん底より救われました喜びに、早くこのお道を知っていたなら両親も死なせずに済んだのにと今更ながら惜しくてなりません。<br/><br/>一日も早く江畠家、久下家の皆様が御明主様の御許を得まして入信される日を、そして御先祖が救われてゆくのを楽しみに、又太り行く子供をただ一つの楽しみに御用をさせて頂いております。<br/><br/> 御明主様の御神業にお手伝いさせて戴くべくお許しを得まして支部に御奉仕に上らさせて戴き、朝夕のお祈りにも御参拝のお許しを頂き、親子が毎日の御浄霊を頂きながら有難きお慈悲のお浄化を頂いて元気にならせて頂いています。<br/><br/>又御神殿にて支部長先生の御浄霊をいただき、また御参拝者の皆様の御浄霊をお許し頂きます身の光栄に浴し、ただ有難さに胸一杯でございます。<br/><br/>神の僕の一員として今日一日の御用のお許しを得て働かせて頂いていますものの、思うような御用もできませず誠に申訳ございません。<br/><br/>御神書の拝読させて頂くにつれ絶大なる明主様の御力、地上天国建設という一大理想実現等、いかに素晴しい宗教であるかということをしみじみと判らせて頂き、又支部長先生の御激励を受ける度毎に信仰の度は深くなって行くのです。<br/><br/> 明主様罪穢れ多い私共親子にかくも偉大な御守護を賜わりました事を厚くお礼申し上げますと共に、地上天国建設の万分の一の御手伝いをさせて頂けますことを感謝申し上げます。<br/><br/> 明主様誠に有難うございました。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

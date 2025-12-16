@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sinko14</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,60 +241,54 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 信仰批判を批判する 未発表、昭和24(1949)年執筆 たまたま新年号の某雑誌をみると、左のごときインチキ宗教を巡る座談会なる記事が出ていた。<br><br>その顔触れをとみれば、医博金子準二、同式場隆三郎、明大教授小熊虎之助、日本奇術学校長石川雅章の四氏である。<br><br>読んでみると、彼の有名な璽光尊（じこうそん）と、最近社会を賑わしてる踊る宗教とこの二つを主にし、神霊問題を採上げて、大分こき下してあった。<br><br>これに対し、記者は公平な立場に立って、批判をしようとするのである。<br><br> 君達の言うごとく、璽光尊や踊る宗教のごとき神憑式無軌道的宗教には、吾らといえども顰蹙（ひんしゅく）ものである。<br><br>むしろ信ずる人があるのは不思議とさえ思っている。<br><br>といっても新興宗教でありさえすれば、無差別的にインチキ邪教であると片づけてしまう、インテリやジャーナリストの浅薄な態度も同様顰蹙ものである。<br><br>何となれば、今日立派な宗教として厖大な教勢を形造っている宗教といえども、その教祖在世中はインチキ邪教として社会から冷遇され、遠島や投獄はもちろんはなはだしきは生命にまで及んだものさえあるのは何人も知らぬものはあるまい。<br><br>ひとり宗教家のみではない。<br><br>コペルニクス、ガリレオ、ソクラテス等の科学者、教育者でさえ、悲惨な運命を甘受せざるを得なかった。<br><br> 新宗教が、新学説が、新発見が出ると、そのほとんどは異端視されるという事実は、古今東西を問わず、定型的にまでなっている。<br><br>しかも、それが新しければ新しい程、大きければ大きい程、迫害もまた大きい。<br><br>最も大きいのは、彼の偉大なる神の子キリストであったにみても肯かるるであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Uma Crítica aos Críticos da Fé</h2>
 <p>Ao folhear casualmente a edição de Ano-Novo de certa revista, deparei-me com um artigo que transcrevia um debate sobre as chamadas religiões estelionatárias. Seus debatedores eram os doutores em medicina Kanejunji Kaneko e Ryuzaburo Shikiba, o professor Toranosuke Oguma, da Universidade Meiji, e o senhor Masaaki Ishikawa, diretor da Escola Japonesa de Prestidigitação. O conteúdo do artigo, ao lê-lo, concentrava-se em duas correntes: a já conhecida Jikōson (璽光尊) e a chamada Religião Dançante, que recentemente tem causado alvoroço na sociedade. Abordava-se a questão dos fenômenos espirituais, desmerecendo-as com veemência. Diante disso, proponho-me a analisar tais críticas sob uma perspectiva imparcial.</p>
 <p>É verdade que religiões de natureza errática, baseadas em possessão espiritual, como Jikōson e a Religião Dançante, são movimentos que nós mesmos consideramos deploráveis. Chegamos a nos espantar que existam pessoas que nelas creiam. Todavia, a atitude superficial de intelectuais e jornalistas, que rotulam indiscriminadamente qualquer nova religião como uma seita maligna e fraudulenta, é igualmente lamentável. Isso porque, mesmo as religiões que hoje se consolidaram como instituições respeitáveis e com enorme número de seguidores, foram, durante a vida de seus fundadores, tratadas com desdém pela sociedade, como seitas malignas. É fato notório que seus precursores enfrentaram o exílio e a prisão, havendo casos extremos em que pagaram com a própria vida.</p>
 <p>Tal fenômeno não se restringe, aliás, aos fundadores de religiões. Cientistas e educadores como Copérnico, Galileu e Sócrates também se viram forçados a aceitar destinos trágicos. O fato de que o surgimento de uma nova religião, uma nova tese acadêmica ou uma nova descoberta seja quase sempre recebido como heresia tornou-se um padrão histórico, independentemente da época ou do lugar. Ademais, quanto mais nova e grandiosa a revelação, tanto mais severa é a perseguição. A prova máxima desse princípio pode ser vista no caso de Cristo, o grandioso Filho de Deus, que sofreu a maior de todas as perseguições.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 信仰批判を批判する 未発表、昭和24(1949)年執筆 たまたま新年号の某雑誌をみると、左のごときインチキ宗教を巡る座談会なる記事が出ていた。<br/><br/>その顔触れをとみれば、医博金子準二、同式場隆三郎、明大教授小熊虎之助、日本奇術学校長石川雅章の四氏である。<br/><br/>読んでみると、彼の有名な璽光尊（じこうそん）と、最近社会を賑わしてる踊る宗教とこの二つを主にし、神霊問題を採上げて、大分こき下してあった。<br/><br/>これに対し、記者は公平な立場に立って、批判をしようとするのである。<br/><br/> 君達の言うごとく、璽光尊や踊る宗教のごとき神憑式無軌道的宗教には、吾らといえども顰蹙（ひんしゅく）ものである。<br/><br/>むしろ信ずる人があるのは不思議とさえ思っている。<br/><br/>といっても新興宗教でありさえすれば、無差別的にインチキ邪教であると片づけてしまう、インテリやジャーナリストの浅薄な態度も同様顰蹙ものである。<br/><br/>何となれば、今日立派な宗教として厖大な教勢を形造っている宗教といえども、その教祖在世中はインチキ邪教として社会から冷遇され、遠島や投獄はもちろんはなはだしきは生命にまで及んだものさえあるのは何人も知らぬものはあるまい。<br/><br/>ひとり宗教家のみではない。<br/><br/>コペルニクス、ガリレオ、ソクラテス等の科学者、教育者でさえ、悲惨な運命を甘受せざるを得なかった。<br/><br/> 新宗教が、新学説が、新発見が出ると、そのほとんどは異端視されるという事実は、古今東西を問わず、定型的にまでなっている。<br/><br/>しかも、それが新しければ新しい程、大きければ大きい程、迫害もまた大きい。<br/><br/>最も大きいのは、彼の偉大なる神の子キリストであったにみても肯かるるであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

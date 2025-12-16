@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sandome</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 三度目のブタ箱入り 自観叢書第9篇『光への道』P.38、昭和24(1949)年12月30日発行 前項に述べたごとく、復活した私は一年有余の空白を埋めようとして一生懸命治療に励んだ。<br><br>すると三年目の昭和十五年十一月またまた玉川警察へ召喚された。<br><br>その時は物々しく警官二名が付添い自動車で警察へ送り込まれた。<br><br>私は何事かと思ったが、署へ入るや主任らしい者がイキナリ、「君は医師法違反をやったね」というので、私は面喰いながら、 「ソンな事はあるはずがない、違反になっては大変だから、充分注意している」 ――という言訳を聞くどころではなく、彼は私を抱えるようにして留置場へ打（ぶ）ち込んだ。<br><br>私は何が何だか判らない、すると三日目であった、主任は私を一室へ呼び訊問を始めたが、その時彼が言うには、 「君はある病人に対し、医者へ行かなくても自分の方で治ると言った覚えがあるだろう」 私は「それは確かに言いました、嘘ではない、事実だからです」というと 彼「ソノ言葉が立派に医師法違反ではないか」と言うので、私は唖然とした、そこで 私は「ソノくらいの事は療術業者は誰も言いますよ」というと、彼は、 「ソレは小規模でやっている者は大目に見るが、君のように堂々たる門戸を構えてやっている以上、社会に害を及ぼす事は大きいと見るから、看過する訳にはゆかない」というので、私はどうも彼の態度から見て、 「キット営業禁止までもってゆくに違いない」と推察したので、 「ヨシ先手を打ってやろう」と、私は、 「そんな事で医療妨害の罪に問われるとしたら、到底持続してやる事は出来ないから今日限り廃業します」と言い放ったので、今度は彼の方が唖然としたようであった。<br><br>それが十一月三十日である。<br><br> ところが彼は先手を打たれ、よほど口惜しかったと見えて、それから数日経たある日私を呼出し、「誓約書をかけ」と言うので、私は 「何の誓約書だ」と訊くと、 「君は療術行為はいかなる事情があっても一生涯やらない事を誓うという事を書いて出せ」というので、 「実に御念の入った事だ」と驚きながら、言うがままの誓約書を入れたのである。<br><br>ところが、これについておもしろい事が起こった、というのは翌年であった。<br><br>それは某大臣、某将軍、某大実業家等が私の治療を乞いに来るので、私は、 「今は廃業して治療は出来ない事になっているから、是非治療して貰いたければ、警視庁の許可を得なさい、そうすればいつでもやって上げる」といったので、それらの人は、警視庁へ許可を受けにゆくので、同庁でも当惑し私に向かって、「療術行為の届出」をして貰いたいと要望するので、私も仇を討てたような気がしてその通り届出をし、それからやむを得ない人だけ治療をしてやる事にしたのである。<br><br>それが終戦までの経路であった。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Terceiro Encarceramento</h2>
 <p>Conforme mencionei no tópico anterior, ao retomar minhas atividades, dediquei-me com afinco à terapia a fim de compensar o hiato de mais de um ano.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Eu não compreendia absolutamente nada do que estava acontecendo. Ao terceiro dia, o inspetor-chefe convocou-me a uma sala e deu início ao interrogatório. Em dado momento, ele me questionou: “O senhor se recorda de ter dito a um certo doente que poderia curá-lo sem que ele precisasse recorrer a um médico, não é?”. “Sim, de fato o afirmei”, respondi. “Não era uma mentira, mas a pura verdade”. Ele então retrucou: “E essas palavras não configuram uma flagrante violação da Lei de Práticas Médicas?”. Fiquei atônito. Argumentei: “Isso é algo que todo terapeuta diz”. Ele, por sua vez, contrapôs: “Podemos tolerar tal conduta em praticantes de pequena escala. No entanto, o senhor, que atua com um estabelecimento de tamanha projeção, representa um risco considerável à sociedade, e por isso não podemos ignorar o fato”. Diante de sua atitude, presumi que a intenção era, sem dúvida, levar o caso até a proibição de minhas atividades. Pensei: “Pois bem, tomarei a iniciativa”. E, assim, afirmei categoricamente: “Se por tal motivo serei acusado de obstrução à prática médica, torna-se impossível para mim prosseguir. Declaro, portanto, o encerramento de minhas atividades a partir de hoje”. Dessa vez, foi ele quem pareceu atônito. Isso ocorreu no dia trinta de novembro.</p>
 <p>Todavia, sentindo-se, ao que parece, profundamente contrariado por eu ter me antecipado, o inspetor convocou-me novamente alguns dias depois e exigiu que eu redigisse um termo de compromisso. “Que tipo de termo?”, indaguei. “O senhor deve escrever e assinar uma declaração na qual se compromete a jamais, em toda a sua vida e sob quaisquer circunstâncias, voltar a exercer práticas terapêuticas”, ordenou ele. “Que precaução minuciosa”, pensei, admirado, e redigi o documento exatamente como me fora ditado.</p>
 <p>A esse respeito, porém, um fato curioso veio a ocorrer no ano seguinte. Um certo ministro de Estado, um general e um proeminente industrial vieram solicitar meu tratamento. Expliquei-lhes: “Encerrei minha prática e estou proibido de administrar a terapia. Se os senhores realmente a desejam, deverão obter uma permissão do Departamento de Polícia Metropolitana. Com ela em mãos, terei prazer em atendê-los”. Em consequência, essas personalidades dirigiram-se à polícia para solicitar a devida autorização. Tal fato colocou as autoridades em uma situação embaraçosa, e elas acabaram por me procurar, solicitando que eu fizesse um “registro de prática de atos terapêuticos”. Senti como se tivesse obtido minha desforra e, assim, procedi ao registro conforme solicitado. A partir de então, decidi voltar a atender, mas apenas os casos inadiáveis. Assim foram as circunstâncias até o fim da guerra.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 三度目のブタ箱入り 自観叢書第9篇『光への道』P.38、昭和24(1949)年12月30日発行 前項に述べたごとく、復活した私は一年有余の空白を埋めようとして一生懸命治療に励んだ。<br/><br/>すると三年目の昭和十五年十一月またまた玉川警察へ召喚された。<br/><br/>その時は物々しく警官二名が付添い自動車で警察へ送り込まれた。<br/><br/>私は何事かと思ったが、署へ入るや主任らしい者がイキナリ、「君は医師法違反をやったね」というので、私は面喰いながら、 「ソンな事はあるはずがない、違反になっては大変だから、充分注意している」 ――という言訳を聞くどころではなく、彼は私を抱えるようにして留置場へ打（ぶ）ち込んだ。<br/><br/>私は何が何だか判らない、すると三日目であった、主任は私を一室へ呼び訊問を始めたが、その時彼が言うには、 「君はある病人に対し、医者へ行かなくても自分の方で治ると言った覚えがあるだろう」 私は「それは確かに言いました、嘘ではない、事実だからです」というと 彼「ソノ言葉が立派に医師法違反ではないか」と言うので、私は唖然とした、そこで 私は「ソノくらいの事は療術業者は誰も言いますよ」というと、彼は、 「ソレは小規模でやっている者は大目に見るが、君のように堂々たる門戸を構えてやっている以上、社会に害を及ぼす事は大きいと見るから、看過する訳にはゆかない」というので、私はどうも彼の態度から見て、 「キット営業禁止までもってゆくに違いない」と推察したので、 「ヨシ先手を打ってやろう」と、私は、 「そんな事で医療妨害の罪に問われるとしたら、到底持続してやる事は出来ないから今日限り廃業します」と言い放ったので、今度は彼の方が唖然としたようであった。<br/><br/>それが十一月三十日である。<br/><br/> ところが彼は先手を打たれ、よほど口惜しかったと見えて、それから数日経たある日私を呼出し、「誓約書をかけ」と言うので、私は 「何の誓約書だ」と訊くと、 「君は療術行為はいかなる事情があっても一生涯やらない事を誓うという事を書いて出せ」というので、 「実に御念の入った事だ」と驚きながら、言うがままの誓約書を入れたのである。<br/><br/>ところが、これについておもしろい事が起こった、というのは翌年であった。<br/><br/>それは某大臣、某将軍、某大実業家等が私の治療を乞いに来るので、私は、 「今は廃業して治療は出来ない事になっているから、是非治療して貰いたければ、警視庁の許可を得なさい、そうすればいつでもやって上げる」といったので、それらの人は、警視庁へ許可を受けにゆくので、同庁でも当惑し私に向かって、「療術行為の届出」をして貰いたいと要望するので、私も仇を討てたような気がしてその通り届出をし、それからやむを得ない人だけ治療をしてやる事にしたのである。<br/><br/>それが終戦までの経路であった。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>byohin1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病貧争絶無の世界 『病貧争絶無の世界を造る観音運動とは何？』昭和10(1935)年9月15日発行 病貧争絶無の世界などと言えば、それは、理想であって、到底実現し得らるるものではないと世人はいうに決まっている。<br><br>しかるに、我運動は、その可能を確信して憚（はばか）らないのである。<br><br>しからば、病貧争を絶無ならしむる、その根本は、何であるかといえば、それは、何と言っても、病気の絶滅である。<br><br>まず、人が病気に罹るとする、その為の費用と職務につけない損失と、二重の負担は、病気が長びけば長びく程、いやが上にも累（かさ）んで、大抵の財産は失くなってしまう、長年汗で貯めた貯金も費い尽し、親戚知人からは、借りるだけは借り尽し、去年まではいとも饒（ゆた）かに、平和に、楽しく暮していた家庭も、今は、見る影もない、ドン底に陥って終って、貧と病苦に喘（あえ）いでいるという実例は世間余りにもすくなくないのである。<br><br>しかも、一人の重病者が出来た場合、その本人のみかは、その家族全体が無限責任を負わされる。<br><br>親戚知人は固より、時に依っては勤め先までさえに、大なり小なりの痛手を蒙（こうむ）らせるのである。<br><br>故に、病人だけが苦しむばかりか、四人も五人もの家族から、外部の者にまで打撃を与えるという結果は恐ろしい事である。<br><br>死ぬ程の病人が、二三人も続いたとしたら、まず万以上の財産家といえども、裏長屋へ引っ込むの止むを得ない境遇になるのは、数多くの実例が示している。<br><br> 人々が貯蓄をするのに、二つの目的がある。<br><br>一つは、財産を造ろうとするものと、一つは病気の場合の治療費に充（あ）てる為とである。<br><br>前者は、積極的で、後者は、消極的であるが、この消極的貯蓄の方が、断然多い事は、誰でも知っている。<br><br> 故に、貧乏の最大原因は、病気であると断定しても否定は出来まい、次いで、争であるが、国と言わず、人と言わず、その最大原因は、経済上からである事も、又悉知（しっち）の事柄である。<br><br>故に、病貧争を絶無ならしむるとしたら、まず、根原である病気から解決付けてゆくのが本当の順序だ。<br><br>病気のない人間、これが先決問題である。<br><br>いかなる救いといえども、それより外にありようはずがない。<br><br>しかしてこれを実現する力こそ、観音力を措いて外に、絶対にないのである。<br><br>故に、こんな素晴しい事業は、釈迦、基督といえども、夢想だもしなかった事であって、これを信じ得る人こそは、未だ嘗（かつ）てない幸福者であると言えよう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Pilar para um Mundo sem Sofrimento</h2>
 <p>Ao se falar em um mundo isento de doença, pobreza e conflito, o senso comum dirá que se trata de um mero ideal, algo impossível de ser concretizado. Entretanto, nosso Movimento proclama com inabalável convicção a sua viabilidade. Sendo assim, qual seria o alicerce para a erradicação da doença, da pobreza e do conflito? A resposta, inequivocamente, é a extinção da doença.</p>
@@ -96,5 +248,48 @@ function toggleLang(lang) {
 <p>As pessoas poupam com dois objetivos principais. O primeiro, de natureza proativa, é a formação de patrimônio. O segundo, de caráter defensivo, visa garantir os recursos para tratamentos médicos. É de conhecimento geral que esta segunda motivação é, de longe, a mais prevalecente.</p>
 <p>Diante do exposto, pode-se afirmar sem receio de erro que a principal causa da pobreza é a doença. No que tange ao conflito, seja entre nações ou entre indivíduos, é igualmente sabido que sua origem mais profunda reside em questões econômicas. Portanto, para se erradicar a doença, a pobreza e o conflito, a sequência lógica e correta é solucionar, antes de tudo, sua causa primordial: a doença. A criação de um ser humano livre de enfermidades é a questão prioritária. Nenhum método de salvação pode prescindir desse fundamento. E para realizar tal feito, não existe, em absoluto, nenhum outro poder senão o poder de Kannon (観音).</p>
 <p>Trata-se, portanto, de uma obra tão sublime que nem mesmo Shaka ou Cristo ousaram sonhar. Aqueles que são capazes de crer nela podem ser considerados, sem dúvida, os mais afortunados que já existiram.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病貧争絶無の世界 『病貧争絶無の世界を造る観音運動とは何？』昭和10(1935)年9月15日発行 病貧争絶無の世界などと言えば、それは、理想であって、到底実現し得らるるものではないと世人はいうに決まっている。<br/><br/>しかるに、我運動は、その可能を確信して憚（はばか）らないのである。<br/><br/>しからば、病貧争を絶無ならしむる、その根本は、何であるかといえば、それは、何と言っても、病気の絶滅である。<br/><br/>まず、人が病気に罹るとする、その為の費用と職務につけない損失と、二重の負担は、病気が長びけば長びく程、いやが上にも累（かさ）んで、大抵の財産は失くなってしまう、長年汗で貯めた貯金も費い尽し、親戚知人からは、借りるだけは借り尽し、去年まではいとも饒（ゆた）かに、平和に、楽しく暮していた家庭も、今は、見る影もない、ドン底に陥って終って、貧と病苦に喘（あえ）いでいるという実例は世間余りにもすくなくないのである。<br/><br/>しかも、一人の重病者が出来た場合、その本人のみかは、その家族全体が無限責任を負わされる。<br/><br/>親戚知人は固より、時に依っては勤め先までさえに、大なり小なりの痛手を蒙（こうむ）らせるのである。<br/><br/>故に、病人だけが苦しむばかりか、四人も五人もの家族から、外部の者にまで打撃を与えるという結果は恐ろしい事である。<br/><br/>死ぬ程の病人が、二三人も続いたとしたら、まず万以上の財産家といえども、裏長屋へ引っ込むの止むを得ない境遇になるのは、数多くの実例が示している。<br/><br/> 人々が貯蓄をするのに、二つの目的がある。<br/><br/>一つは、財産を造ろうとするものと、一つは病気の場合の治療費に充（あ）てる為とである。<br/><br/>前者は、積極的で、後者は、消極的であるが、この消極的貯蓄の方が、断然多い事は、誰でも知っている。<br/><br/> 故に、貧乏の最大原因は、病気であると断定しても否定は出来まい、次いで、争であるが、国と言わず、人と言わず、その最大原因は、経済上からである事も、又悉知（しっち）の事柄である。<br/><br/>故に、病貧争を絶無ならしむるとしたら、まず、根原である病気から解決付けてゆくのが本当の順序だ。<br/><br/>病気のない人間、これが先決問題である。<br/><br/>いかなる救いといえども、それより外にありようはずがない。<br/><br/>しかしてこれを実現する力こそ、観音力を措いて外に、絶対にないのである。<br/><br/>故に、こんな素晴しい事業は、釈迦、基督といえども、夢想だもしなかった事であって、これを信じ得る人こそは、未だ嘗（かつ）てない幸福者であると言えよう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

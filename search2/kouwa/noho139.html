@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>noho139</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 農法篇 自然農法 １０ 139-150 花卉果樹 139 隔年結果 蜜柑の栽培について、隔年結果で困ります。<br><br>いかにすれば毎年結実致しましょうか。<br><br> 果物は一年おきのものである。<br><br>いくら巧くやっても一年おきに多くなったり少くなったりする。<br><br>一日おきとか一月おきとかいうのはよほど意味がある。<br><br>病人など一日おきに変ってゆく。<br><br>いい場合も悪い場合も一日おきになる。<br><br>これは四十八時間で一まわりするという意味だと思う。<br><br>果物など二年で一区切りになるものといえよう。<br><br> 一番、日当りのいい事、水切れのない事、土が固まらぬよう柔かい事、この三つが一番肝腎である。<br><br>そして肥料をやらぬようにすれば実によく出来る。<br><br>蜜柑など枝が混んで日当りが悪いと具合が悪いから、枝を切る。<br><br>（専門家はよくやる） 140 果樹の消毒 みかん園を経営しておりますが、無肥料、無消毒で良結果が得られますか。<br><br>当地方で最近消毒にゴムホースの代りに真鍮管を設置してガソリンポンプでやる事が流行して来ました。<br><br>かような事をしなくとも済む時が来ますか。<br><br> 消毒薬をするのは馬鹿々々しい事で、微生虫は死ぬが、土に吸収されていけない。<br><br>土に滲み込むと酸性になり、植物がそれを吸収して害虫が生ずる。<br><br>絶対無肥料にすると花落ちしない。<br><br>美味しい。<br><br>多収穫である。<br><br>故に、蜜柑の木の周りを油紙で遮断して消毒薬をおくならよい。<br><br>先に枇杷に寒肥をやるといいというのでやったら、それから枇杷が生らなくなった。<br><br>それから私は肥毒に気がついたのである。<br><br>近く雑誌が出る。<br><br>霊界の変化により火素が増量のため、そういう変化が激しくなる。<br><br> 141 果実の肥毒 温室のトマトがカビ病にてすっかり病に負けました。<br><br>消毒せず霊気のみで行ったのであります。<br><br>今度同じ温室にメロンをつくりましたが、赤ダニがつきました。<br><br>親子三人で霊気をかけましたが、こんどこそは完成したいと思います。<br><br>どうしましたらダニがなくなりましょうか。<br><br>御伺いいたします。<br><br> 肥毒が含まれているから早急にはゆかぬ。<br><br>二、三年はかかろう。<br><br>皆肥毒のためである。<br><br>（S25. 5.27） 142 青果類の無肥料 青果物の栽培で有肥料と無肥料の場合を比較しますと、施肥栽培は芽がぐんぐん伸びて仲々よく結実致しますが、無肥料栽培は生育状態遅く、結実も遅くなり、果実の売行も悪く（時期遅れ）この点何かよい方法はないものでしょうか。<br><br> 果物は神様が土の成分を吸うように作られている。<br><br>それが肥料分を吸うように変化している。<br><br>それをやめるから一時生育が止る。<br><br>二、三年はやむを得ぬ。<br><br>（S24. 8.16） 143 咲かぬ梅 昭和二十二年冬、疎開先から現在の住居へ梅樹二本を植え、年々よく咲きましたが、今冬は二本の中一本は全く咲きません。<br><br>一本は八輪咲いただけです。<br><br>何かの前兆で御座いましょうか、お伺い申し上げます。<br><br> 肥料がいけない。<br><br>（S25. 2.17） 144 藺草の自然栽培 藺草（畳表）の栽培にも無肥料が宜敷いでしょうか。<br><br> 無論何でも無肥料がいい。<br><br>無肥料なら丈夫で色がいい。<br><br>（S24. 4.28） 145 草花の色良くするには 草花の栽培には従来色々の肥料にて大きく咲かせたり、色を鮮かにしたりしておりますが、やはり科学的肥料は不可でしょうか。<br><br>自然にすれば 野生にかえると思いますが、どうでしょうか。<br><br>御伺い致します。<br><br> 色をよくするにも、大きく咲かすにも無肥料がよい。<br><br>化学肥料だと色わるく、花が小さい。<br><br>花を少くすれば大きくなる。<br><br>ダリヤなど蕾を皆とり、一つだけ残すととても大きくなる。<br><br> 色をよくするには堆肥がよい。<br><br>土を固まらせぬ。<br><br>（S24. 5.25） 146 草花の肥料 草花の肥料として菜種粕を使用しておりましたら、菊花類等大変良く咲き、大輪も出来、虫類などもつかないように思います。<br><br>無肥料に致しますと、花も小さくなり、数も少くなります。<br><br>無肥料で大輪を咲かせるにはいかに致したらよろしいでしょうか。<br><br>お伺い申し上げます。<br><br> 無肥なら大輪が咲く。<br><br>一時は悪いが、根が固まるといけない。<br><br>土を固めない工夫がいい。<br><br>（S24. 9.16） 147 奇形の唐もろこし 本年三十一歳の男子（入信者）の家で昨年唐もろこしを作ったところ、一本の幹の先端に五本もまとまって出来、その形が横に一列に並んでおります。<br><br>こんな事は今迄になかった事でありますが、何かの御知らせでしょうか。<br><br>御伺い申し上げます。<br><br> たまに奇形はあるものである。<br><br>気にする要はない。<br><br>（S25. 2. 7） 148 裸麦、小麦より先に出穂 例年、当地福岡県地方では、小麦と裸麦とでは無肥、有肥を問わず裸麦が先に出穂するので御座いますが、今年はなぜか小麦が先に出穂致しました。<br><br>これは何か訳があるので御座いましょうか。<br><br>御教えをお願い申し上げます。<br><br> 気候か霊界の変化か、何か訳がある。<br><br>今年だけか、または来年も続くか、それによって判断する。<br><br>（S25. 5.21） 149 里芋の花咲く 今年、相模原方面に里芋の花が咲いておりますが、里芋に花が咲く事は極くまれで、老人はこれを悪い事の前兆のように申しますが、何かわけがございますでしょうか。<br><br> こういう変った事のあるのは変った事の出る訳である。<br><br>何かの前兆であろう。<br><br>（24.11.14） 150 大根葉上向く 京都市近郊のあるお百姓さんが、大根や菜の葉がことごとく上に向って長く伸びましたので、今年は大雪が降ると申しておりますが、このような事で予測が出来るので御座いましょうか。<br><br>また、天候と何か霊的に関係が御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> 何の実がどうとか、いくらかはあるであろうが、大した事はない。<br><br>未だ文化は未発達である。<br><br>（S24.12. 1）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de Artigos de Jikan Okada (Agricultura – Parte 10)</h2>
 <h2>139. Frutificação em Anos Alternados</h2>
@@ -130,5 +282,48 @@ function toggleLang(lang) {
 <h2>150. Folhas de Nabo Apontando para Cima</h2>
 <p><strong>Pergunta:</strong> Um agricultor das proximidades da cidade de Quioto afirma que, neste ano, haverá uma grande nevasca, pois as folhas dos nabos e de outras hortaliças cresceram longas e voltadas para cima. É realmente possível fazer previsões dessa natureza? Ademais, existiria alguma relação espiritual com os fenômenos climáticos? Rogo por seus ensinamentos.</p>
 <p><strong>Meishu-Sama:</strong> Embora possa haver alguma correlação entre o comportamento de certos frutos e os eventos futuros, tal conhecimento não tem grande relevância. A cultura humana ainda é subdesenvolvida. (1 de dezembro de 1949)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 農法篇 自然農法 １０ 139-150 花卉果樹 139 隔年結果 蜜柑の栽培について、隔年結果で困ります。<br/><br/>いかにすれば毎年結実致しましょうか。<br/><br/> 果物は一年おきのものである。<br/><br/>いくら巧くやっても一年おきに多くなったり少くなったりする。<br/><br/>一日おきとか一月おきとかいうのはよほど意味がある。<br/><br/>病人など一日おきに変ってゆく。<br/><br/>いい場合も悪い場合も一日おきになる。<br/><br/>これは四十八時間で一まわりするという意味だと思う。<br/><br/>果物など二年で一区切りになるものといえよう。<br/><br/> 一番、日当りのいい事、水切れのない事、土が固まらぬよう柔かい事、この三つが一番肝腎である。<br/><br/>そして肥料をやらぬようにすれば実によく出来る。<br/><br/>蜜柑など枝が混んで日当りが悪いと具合が悪いから、枝を切る。<br/><br/>（専門家はよくやる） 140 果樹の消毒 みかん園を経営しておりますが、無肥料、無消毒で良結果が得られますか。<br/><br/>当地方で最近消毒にゴムホースの代りに真鍮管を設置してガソリンポンプでやる事が流行して来ました。<br/><br/>かような事をしなくとも済む時が来ますか。<br/><br/> 消毒薬をするのは馬鹿々々しい事で、微生虫は死ぬが、土に吸収されていけない。<br/><br/>土に滲み込むと酸性になり、植物がそれを吸収して害虫が生ずる。<br/><br/>絶対無肥料にすると花落ちしない。<br/><br/>美味しい。<br/><br/>多収穫である。<br/><br/>故に、蜜柑の木の周りを油紙で遮断して消毒薬をおくならよい。<br/><br/>先に枇杷に寒肥をやるといいというのでやったら、それから枇杷が生らなくなった。<br/><br/>それから私は肥毒に気がついたのである。<br/><br/>近く雑誌が出る。<br/><br/>霊界の変化により火素が増量のため、そういう変化が激しくなる。<br/><br/> 141 果実の肥毒 温室のトマトがカビ病にてすっかり病に負けました。<br/><br/>消毒せず霊気のみで行ったのであります。<br/><br/>今度同じ温室にメロンをつくりましたが、赤ダニがつきました。<br/><br/>親子三人で霊気をかけましたが、こんどこそは完成したいと思います。<br/><br/>どうしましたらダニがなくなりましょうか。<br/><br/>御伺いいたします。<br/><br/> 肥毒が含まれているから早急にはゆかぬ。<br/><br/>二、三年はかかろう。<br/><br/>皆肥毒のためである。<br/><br/>（S25. 5.27） 142 青果類の無肥料 青果物の栽培で有肥料と無肥料の場合を比較しますと、施肥栽培は芽がぐんぐん伸びて仲々よく結実致しますが、無肥料栽培は生育状態遅く、結実も遅くなり、果実の売行も悪く（時期遅れ）この点何かよい方法はないものでしょうか。<br/><br/> 果物は神様が土の成分を吸うように作られている。<br/><br/>それが肥料分を吸うように変化している。<br/><br/>それをやめるから一時生育が止る。<br/><br/>二、三年はやむを得ぬ。<br/><br/>（S24. 8.16） 143 咲かぬ梅 昭和二十二年冬、疎開先から現在の住居へ梅樹二本を植え、年々よく咲きましたが、今冬は二本の中一本は全く咲きません。<br/><br/>一本は八輪咲いただけです。<br/><br/>何かの前兆で御座いましょうか、お伺い申し上げます。<br/><br/> 肥料がいけない。<br/><br/>（S25. 2.17） 144 藺草の自然栽培 藺草（畳表）の栽培にも無肥料が宜敷いでしょうか。<br/><br/> 無論何でも無肥料がいい。<br/><br/>無肥料なら丈夫で色がいい。<br/><br/>（S24. 4.28） 145 草花の色良くするには 草花の栽培には従来色々の肥料にて大きく咲かせたり、色を鮮かにしたりしておりますが、やはり科学的肥料は不可でしょうか。<br/><br/>自然にすれば 野生にかえると思いますが、どうでしょうか。<br/><br/>御伺い致します。<br/><br/> 色をよくするにも、大きく咲かすにも無肥料がよい。<br/><br/>化学肥料だと色わるく、花が小さい。<br/><br/>花を少くすれば大きくなる。<br/><br/>ダリヤなど蕾を皆とり、一つだけ残すととても大きくなる。<br/><br/> 色をよくするには堆肥がよい。<br/><br/>土を固まらせぬ。<br/><br/>（S24. 5.25） 146 草花の肥料 草花の肥料として菜種粕を使用しておりましたら、菊花類等大変良く咲き、大輪も出来、虫類などもつかないように思います。<br/><br/>無肥料に致しますと、花も小さくなり、数も少くなります。<br/><br/>無肥料で大輪を咲かせるにはいかに致したらよろしいでしょうか。<br/><br/>お伺い申し上げます。<br/><br/> 無肥なら大輪が咲く。<br/><br/>一時は悪いが、根が固まるといけない。<br/><br/>土を固めない工夫がいい。<br/><br/>（S24. 9.16） 147 奇形の唐もろこし 本年三十一歳の男子（入信者）の家で昨年唐もろこしを作ったところ、一本の幹の先端に五本もまとまって出来、その形が横に一列に並んでおります。<br/><br/>こんな事は今迄になかった事でありますが、何かの御知らせでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> たまに奇形はあるものである。<br/><br/>気にする要はない。<br/><br/>（S25. 2. 7） 148 裸麦、小麦より先に出穂 例年、当地福岡県地方では、小麦と裸麦とでは無肥、有肥を問わず裸麦が先に出穂するので御座いますが、今年はなぜか小麦が先に出穂致しました。<br/><br/>これは何か訳があるので御座いましょうか。<br/><br/>御教えをお願い申し上げます。<br/><br/> 気候か霊界の変化か、何か訳がある。<br/><br/>今年だけか、または来年も続くか、それによって判断する。<br/><br/>（S25. 5.21） 149 里芋の花咲く 今年、相模原方面に里芋の花が咲いておりますが、里芋に花が咲く事は極くまれで、老人はこれを悪い事の前兆のように申しますが、何かわけがございますでしょうか。<br/><br/> こういう変った事のあるのは変った事の出る訳である。<br/><br/>何かの前兆であろう。<br/><br/>（24.11.14） 150 大根葉上向く 京都市近郊のあるお百姓さんが、大根や菜の葉がことごとく上に向って長く伸びましたので、今年は大雪が降ると申しておりますが、このような事で予測が出来るので御座いましょうか。<br/><br/>また、天候と何か霊的に関係が御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> 何の実がどうとか、いくらかはあるであろうが、大した事はない。<br/><br/>未だ文化は未発達である。<br/><br/>（S24.12. 1）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

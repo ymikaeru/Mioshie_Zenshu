@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s260925</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 秋季大祭御講話 （S26年9月25日） 『御教え集』2号、昭和26(1951)年10月25日発行 昭和二十六年九月二十五日（三日目） だいぶ大入りですね。<br><br>御神業もだんだん発展してきまして、神仙郷の方も見らるる通りで、美術館の建築もいよいよ取り掛かったのでありますが、来月の六月までに完成する予定なのです。<br><br>二階建てにして、三階に小さいのをつけて――坪数は約二百六十坪あります。<br><br>これが出来ますと、美術館としては日本一なんです。<br><br>日本に現在ある美術館を調べてみますと、そうたいしたものはないんですね。<br><br>博物館ですが、博物館は見らるる通り、大体歴史的、考古学的に重きを置いて、美術的にはそれほどではないですね。<br><br>後は東京の根津美術館がありますが、これは、春、秋二回やるが、この春の時行ってみましたが、やはり全般的でないのです。<br><br>たとえてみれば、支那の周の陶器ですが、これは確かに日本一ですが、あとは大したものはない。<br><br>それから、大阪の白鶴美術館は、支那陶器は大したもので、日本一ですが、あとはほとんど見るべきものはないです。<br><br>あとは大原美術館ですね。<br><br>岡山県ですが、これは大体油絵が専門で、あとは大した事ないんです。<br><br>それから近畿鉄道が美術館を計画してますが、品物は相当集まっていますが、建築は仲々かかる事が出来ないらしいです。<br><br>経済問題らしいですがね。<br><br>あと小さいのは、越後とか山形県だとか、今度出来る神奈川県――大体それくらいです。<br><br>だから、ここに出来れば名実共に日本一と言う事は間違いない。<br><br>品物も色々と調査したり、連絡したりしてますが、素晴らしい物を並べられるつもりです。<br><br>何しろ神様が色々やられているんで、不思議にうまく行くんです。<br><br> これが出来ると同時に、裏手の方で、今やり始めたところですが、美術館の横の流れから、向こうに行って公園よりの空き地ですね。<br><br>あそこに紅葉を百本植えるつもりです。<br><br>瀧田川みたいにして、橋を架ける。<br><br>つまり京都の通天ですね。<br><br>あれを見た事があるが、ああ行った具合にしようと思っている。<br><br>だから、来年の夏までには神仙郷は完成するつもりです。<br><br>あとは、大体熱海ですが、熱海の方は今年一杯に庭園の方は八分通り出来る予定です。<br><br> これは規模がこっちとは――大分大きいですからね。<br><br>真中にある展望台のある山を、ツツジ山にしようと思っている。<br><br>山の形、道路とか――形は出来ました。<br><br>ツツジが二千本いるそうで、二千本植えますが、このツツジは元、箱根の芦ノ湖の岩崎の別荘にあったツツジです。<br><br>岩崎の事だから、金にあかして日本中から、良い種類を集めたんですね。<br><br>だから花は実に素晴らしい物です。<br><br>他にないものがあります。<br><br>それは、箱根と分散して植えてあります。<br><br>その時千本買ったんです。<br><br>私は別にあてはないんですが、神様が買えと言うんだろうと思って買ったんですが、抜いて見ると二本、三本づつ寄せ植えになっている。<br><br>それをすっかり解いてみると二、三千本ある。<br><br>どこに植えるかと思って――分からないでいたら、この春熱海に植えるんだということに、お知らせがあったんです。<br><br>神様は実に用意周到だと思った。<br><br>これが出来ると日本一だろうと思う。<br><br>日本の名所になるだろうと思う。<br><br>それから、晴々台の方は来年の三月あたりに建築の方に取り掛かるはずですが、それには大変にお金がかかる。<br><br>そんな金なんか、今、有りやしない。<br><br>ですけれど、その時になれば、それだけの金はちゃんと神様が――直にくれるわけじゃないが――入るだろうと思ってます。<br><br>実に頼りないような、確実な話です。<br><br>それで、晴々台の石垣の左手の方に桜をたくさん植えるつもりだったのですが、どうも小さい気がしていたところ、あれから続いた土地を、持ち主の方から買ってくれと言うので、買う事にしましたが、そこに桜を千本植えようと思います。<br><br>だから、本当に一目千本です。<br><br>吉野山も千本ですが、まばらな千本ですが、私の方は詰まった千本ですから、又、違った眺めだろうと思います。<br><br>梅の方は今年一杯に植わる予定です。<br><br>梅もすっかり準備できてます。<br><br>梅は太い程よいですね。<br><br>古い方がね。<br><br>ところが小田原に梅があるそうですが、梅の若いのは、梅の実がなるから高いそうで、古いのは安いそうですから、それを買って、まもなく植えるつもりです。<br><br>だから、あっちが出来たら大変です。<br><br> 神仙郷も、この間アメリカの地理学の教授ですが――地理的に欧州や何かで見たけれど、これほどの庭園は――岩石は世界一ですが――この造り方は世界にないだろうと言う。<br><br>花があるが、これを天然色写真にして世界に紹介すると良いと言っていた。<br><br>ここでさえそうだから、熱海の方は間違いない。<br><br>ここの美術館は日本一のものが出来ます。<br><br>熱海の方はずっと規模が大きく、これは世界一の美術館にするつもりです。<br><br>建築の様式も私が設計するつもりですが、うんと新しい、アッと言うものを拵えるつもりです。<br><br>並べる美術品も――アメリカ、イギリスを調べてますが、どうもあっちの方は良いものはない。<br><br>西洋の美術ですね。<br><br>それは本場だからありますが、美術は東洋と西洋と比べると、東洋の方がずっと上です。<br><br>高さがね。<br><br>だから、アメリカは日本のものを、値にかかわらず買っていく。<br><br>危なくてしようがない。<br><br>この間なんか、支那の鉢で、宋均窯と言う。<br><br>先から欲しくてしょうがない。<br><br>この秋あたり買っても良いと言う事で、楽しみにしていた。<br><br>この間持ってきて、これは世界的なもので、それをアメリカで買いにきた。<br><br>又、アメリカでは日本の良いものはどこに何があるということを知っている。<br><br>五万ドルで買うというんです。<br><br>二千万円に近いですからね。<br><br>私のところに大きな皿があるが、その方が上なんです。<br><br>道具屋はその方を下に見ている。<br><br>ま、百万円以内なら買っても良いと逃げちゃったんですがね。<br><br>それですから、博物館だとか文化保護委員会も、アメリカに持って行かれないよう警戒している。<br><br>何しろ、先は値段にかかわらず買うからね。<br><br>しかし、相当あっちに行く必要がある。<br><br>と言うのは、今まで日本美術はアメリカの博物館、美術館に行っているのは、ほとんど贋物です。<br><br>ところが、終戦後日本に来てみて、大したものだと思って、本物を買いたがるんです。<br><br>そう言う訳だから――向こうの人の説で、うまい事を言っている。<br><br>世界で「国宝」と言う名前がついているのは、日本だけだ。<br><br>他に決してない。<br><br>「国宝」と言う事は、他国に行く事を防止するので、そうすると美術は世界全体に見せようと言う気持ちを表しているから「国宝」と言う事は面白くない。<br><br>と言っている。<br><br>そんな訳で、美術と言うのは世界共通でなければならない。<br><br>そこで、日本に有る美術館は、大抵、春、秋、二回くらいしか開かれない。<br><br>と言うのは、財産保護の為にやるんです。<br><br>財団法人ですか――それは、財産として世襲が出来ますからね。<br><br>そう言う規則です。<br><br>規則で開かなければならないと言うのです。<br><br>それで、知っている人に見せると言うのですね。<br><br>それじゃしようがない。<br><br>それは、公衆に見せると言うのでなければならない。<br><br>そうすると、世界中の人が来ても、見せられますから、そうすると、独善と言う意味はなくなるから、そう言う意味でも、私はやらなければならない。<br><br> メシヤ教の一枚看板は病貧争絶無の世界を作ることです。<br><br>ところが、病気については、不断から十分に発表してますから、みんな分った筈ですが、注意したい事は浄霊法ですね。<br><br>これは手を振るわせない様に――じっとするようにというのは、どうしても、こう(振る)やると力が入る。<br><br>力が入ると治りが悪くなる。<br><br>力を入れないようにするには、動かさない様にする。<br><br>軽くするんです。<br><br>力を抜くんです。<br><br>そうすると治りがずっと良くなる。<br><br>私がそうですからね。<br><br>私が力を抜く程よく治る。<br><br>お腹の光が、力を入れると、通りが悪くなるね。<br><br>だから、力を抜けば抜くほど、光がずっと出ますからね。<br><br>これからはそういうやり方にしてもらいたい。<br><br>しかし、全然振るまいとしなくても良い。<br><br>場合によっては振っても良い。<br><br>原則としては振らない。<br><br> それから、貧乏ですね。<br><br>これは病気がなくなれば、貧乏も解決するんです。<br><br>しかし、そればかりでなく、食料増産ですね。<br><br>これが、貧乏をなくする一番の原因なんです。<br><br>と言うのは、農民は日本の人口の約八割ですから、そうすると、農民の懐を暖かくすると言う事が一番なんです。<br><br>そうすると――商工業も繁盛すると言うわけになる。<br><br>農民の懐が温かくなるというのは、やはり増産と肥料代や何かがいらなくなると言う事が肝心です。<br><br>そこで自然農法を大いに奨励しなければならない。<br><br>大体今の計画は、自然農法の実例が一番肝心なんです。<br><br>今年の収穫辺りになると、年々肥毒がなくなってきますから、増えます。<br><br>今年の十一月辺りになると、報告は今までよりずっと良いだろうと思う。<br><br>その成績を土台にして、ひとつの本を作って、これを日本中の農会とか農事試験場とか、村なら村長と、あらゆる方面に全部配ろうと思う。<br><br>それから、各地に講演会、座談会を開いて大いに知らせようと思う。<br><br>と言うのは、自然農法にして五年経てば五割増産です。<br><br>そうすると、現在六千四百万石ですから、一年間に、今のところ二千万石足りないですね。<br><br>人口が八千万ですからちょうど二千万石足りない。<br><br>それだけ輸入しなければならない。<br><br>大変な金額です。<br><br>五割増産で九千六百万石になる。<br><br>そうすると肥料代が要らなくなると、肥料屋が困るだろうと思うだろうが、そうではない。<br><br>今は外国の注文が多いので、日本にやらなくても輸出の方が多いんだそうですから心配要らない。<br><br>実際、あんまりいうと、肥料屋に暗がりで、ぶん殴られるかもしれないが――岡田のヤツけしからんとね。<br><br>そんな事はないから、安心していい。<br><br>そういう訳で、貧乏を解決すると言う事が一番の根本問題ですからね。<br><br> その次は戦争で、戦争をなくする事が出来るんです。<br><br>今まであまり説かなかったが、これから戦争に関した論文を色々書こうと思っている。<br><br>これはなくする方法を書いたんですが、ところがもう一つ訳がある。<br><br>と言うのは、近頃アメリカの――進駐軍関係の人らしいですが、七、八人のグループでメシヤ教を研究していると言うんです。<br><br>それで、雑誌なんかを翻訳して研究していると言うんです。<br><br>私の書いたものに非常に共鳴しているんだそうです。<br><br>その人にも、これを見せたいと思う。<br><br>それで書いたんです。<br><br>それからアメリカの本国の方にも、今度信者が一人、あっちの大学に許可されて行ってますが、大分各国の人間が言っているそうですが、浄霊をやっているそうです。<br><br>東洋人だとか、西洋人だとか――インド人、タイ国人――とやっているが、大分信者が出来たそうです。<br><br>大分お守りを持っていったが、もっと――と言うんです。<br><br>そういったようにあっちの方に鍬を入れるような形が見えてきた。<br><br>神様の方で時期に従って、よろしく手を打っていくはずです。<br><br>何だかんだと、とにかく全てが来年あたりから非常な発展をする気分が見えるんです。<br><br>戦争をなくする事の論文を読ませます。<br><br> （御論文 「第三次戦争は免れる事が出来る」 のあとの御教え）【栄光新聞一二六号】 戦争に対する、こういうような色々な事を英文に訳して、世界の自由国――そういう方面も知らせようと思って、考えている。<br><br>で、今――世界中の人民が第三次戦争は免れないとしているが、実は戦争を免れる事が出来るんですからね。<br><br>この通り、あらゆるものは相応の理によって、汚いものが溜まると、それを掃除すべき力が発生する。<br><br>そう言うように神様が造ってある。<br><br>そうすると戦争で壊されたり、崩れたりするのは、それだけ汚いものが溜まっている。<br><br>その掃除の為にやるので、今やっている――力によって戦争を防止すると言ってやっているが、今としては仕方がない。<br><br>原子爆弾とか造って、戦争しようと言う計画をぶち壊すとか、と言うのはやむを得ないですね。<br><br>ちょうど、警察で押さえていると言うのと同じです。<br><br>今の文明はみんな同じですね。<br><br>病気でも同じですね。<br><br>浄化が起こると、それを押さえつけると言うのは、戦争でも犯罪でも病気でも同じですね。<br><br>それが進歩した文明と思っている。<br><br>それより他にないと思っている。<br><br>逆なんですね。<br><br>だから、今の文明は逆の文明と言っても良い。<br><br> そこで私の方は、中心はこうするんだと言う事を教えるんです。<br><br>そうして、その力を見せるんです。<br><br>内部をきれいにすれば良い。<br><br>外部から押さえつける必要はない。<br><br>力で平和にしても、破る方も力で破るから、永遠的なものではない――絶対的ではない。<br><br>だから、そう言った間違った事を人類に教えると言うのがメシヤ教の、世を救うと言う事なんです。<br><br>大きさにおいては、これ以上の大きなものはない。<br><br>大きさと言うのはホラの大きさではない。<br><br>実のある大きさなんです。<br><br>そんなような意味です。<br><br> まだ時間が有ったら仏教の起源と言うのを――これは面白いのですが――いずれ読ませます。<br><br>仏教は誰が始めたかと言うと、インド人ではない。<br><br>日本の神様が言って化身、化仏されて――伊都能売神様ですが、伊都能売神様がお釈迦さんに教えられて、お釈迦さんがびっくりして広めたんです。<br><br>化仏と言うのは、神様が仏に化けたんです。<br><br>日本の神様はインドに行かれて、今度メシヤ教が出て五六七の世を造る、その準備に用意された、その準備に用意された。<br><br>それを「文明の創造」に書きつつあるんです。<br><br>だんだん知らせますからね。<br><br>そんな訳で、神様は前から、世界的に準備した。<br><br>だから、キリストもマホメットも、地上天国の用意のために、何千年も前に色々な事をされたんです。<br><br>そう言う事も、色々と書くつもりです。<br><br>それを、最初は日本人に知らせますが、最後は世界中に知らせます。<br><br>これが「見真実」です。<br><br>これは専売特許ではない。<br><br>全人類に知らせなければならない。<br><br>そうすれば、五六七の世が出来るんですね。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Materialização do Paraíso e a Erradicação do Sofrimento</h2>
 <p>Temos uma grande afluência de pessoas hoje. A Obra Divina avança em seu desenvolvimento e, como podem observar em Shinsenkyo (神仙郷), a construção do museu de arte finalmente teve início. A previsão é que seja concluído até junho do próximo ano. Será um edifício de dois andares com um terceiro, menor, totalizando aproximadamente duzentos e sessenta tsubo. Uma vez concluído, será o maior museu de arte do Japão.</p>
@@ -111,5 +263,48 @@ function toggleLang(lang) {
 <p>O que fazemos é ensinar qual é a solução central e demonstrar seu poder. Basta purificar o interior, e a necessidade de suprimir pelo exterior desaparecerá. A paz imposta pela força não é eterna, não é absoluta, pois aquele que a rompe também usará a força. Ensinar à humanidade essa verdade é a missão da Sekaikyuseikyou para salvar o mundo. Em termos de magnitude, não há nada maior. E esta grandiosidade de que falo não é uma grandiosidade vazia, de fanfarronice, mas sim uma grandiosidade substancial, repleta de verdade. Eis o significado de nossa obra.</p>
 <p>Se houver tempo, gostaria de ler um texto sobre a origem do Budismo, que é muito interessante. Em breve o farei. Quem deu início ao Budismo não foi um indiano. Foi um Deus japonês que se manifestou, encarnando como um Buda — Izunome-no-Kami (伊都能売神様). Foi Izunome-no-Kami (伊都能売神様) quem ensinou a Xaquiamuni, que, maravilhado, difundiu os ensinamentos. Encarnar como Buda significa que um Deus assumiu a forma de Buda. Esse Deus japonês foi à Índia como parte dos preparativos para o advento da Sekaikyuseikyou e a criação da Era de Miroku (五六七の世). Estou escrevendo sobre isso na “Criação da Civilização” e, aos poucos, lhes darei a conhecer.</p>
 <p>Desse modo, Deus vem realizando preparativos em escala mundial há muito tempo. Cristo e Maomé também realizaram suas missões há milênios como parte dos preparativos para o Paraíso Terrestre. Pretendo escrever detalhadamente sobre esses assuntos. Primeiro, farei com que os japoneses saibam, mas, por fim, o mundo inteiro saberá. Esta é a contemplação da Verdade. E esta Verdade não é um monopólio nosso. Ela deve ser compartilhada com toda a humanidade. Quando isso acontecer, a Era de Miroku (五六七の世) se tornará realidade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 秋季大祭御講話 （S26年9月25日） 『御教え集』2号、昭和26(1951)年10月25日発行 昭和二十六年九月二十五日（三日目） だいぶ大入りですね。<br/><br/>御神業もだんだん発展してきまして、神仙郷の方も見らるる通りで、美術館の建築もいよいよ取り掛かったのでありますが、来月の六月までに完成する予定なのです。<br/><br/>二階建てにして、三階に小さいのをつけて――坪数は約二百六十坪あります。<br/><br/>これが出来ますと、美術館としては日本一なんです。<br/><br/>日本に現在ある美術館を調べてみますと、そうたいしたものはないんですね。<br/><br/>博物館ですが、博物館は見らるる通り、大体歴史的、考古学的に重きを置いて、美術的にはそれほどではないですね。<br/><br/>後は東京の根津美術館がありますが、これは、春、秋二回やるが、この春の時行ってみましたが、やはり全般的でないのです。<br/><br/>たとえてみれば、支那の周の陶器ですが、これは確かに日本一ですが、あとは大したものはない。<br/><br/>それから、大阪の白鶴美術館は、支那陶器は大したもので、日本一ですが、あとはほとんど見るべきものはないです。<br/><br/>あとは大原美術館ですね。<br/><br/>岡山県ですが、これは大体油絵が専門で、あとは大した事ないんです。<br/><br/>それから近畿鉄道が美術館を計画してますが、品物は相当集まっていますが、建築は仲々かかる事が出来ないらしいです。<br/><br/>経済問題らしいですがね。<br/><br/>あと小さいのは、越後とか山形県だとか、今度出来る神奈川県――大体それくらいです。<br/><br/>だから、ここに出来れば名実共に日本一と言う事は間違いない。<br/><br/>品物も色々と調査したり、連絡したりしてますが、素晴らしい物を並べられるつもりです。<br/><br/>何しろ神様が色々やられているんで、不思議にうまく行くんです。<br/><br/> これが出来ると同時に、裏手の方で、今やり始めたところですが、美術館の横の流れから、向こうに行って公園よりの空き地ですね。<br/><br/>あそこに紅葉を百本植えるつもりです。<br/><br/>瀧田川みたいにして、橋を架ける。<br/><br/>つまり京都の通天ですね。<br/><br/>あれを見た事があるが、ああ行った具合にしようと思っている。<br/><br/>だから、来年の夏までには神仙郷は完成するつもりです。<br/><br/>あとは、大体熱海ですが、熱海の方は今年一杯に庭園の方は八分通り出来る予定です。<br/><br/> これは規模がこっちとは――大分大きいですからね。<br/><br/>真中にある展望台のある山を、ツツジ山にしようと思っている。<br/><br/>山の形、道路とか――形は出来ました。<br/><br/>ツツジが二千本いるそうで、二千本植えますが、このツツジは元、箱根の芦ノ湖の岩崎の別荘にあったツツジです。<br/><br/>岩崎の事だから、金にあかして日本中から、良い種類を集めたんですね。<br/><br/>だから花は実に素晴らしい物です。<br/><br/>他にないものがあります。<br/><br/>それは、箱根と分散して植えてあります。<br/><br/>その時千本買ったんです。<br/><br/>私は別にあてはないんですが、神様が買えと言うんだろうと思って買ったんですが、抜いて見ると二本、三本づつ寄せ植えになっている。<br/><br/>それをすっかり解いてみると二、三千本ある。<br/><br/>どこに植えるかと思って――分からないでいたら、この春熱海に植えるんだということに、お知らせがあったんです。<br/><br/>神様は実に用意周到だと思った。<br/><br/>これが出来ると日本一だろうと思う。<br/><br/>日本の名所になるだろうと思う。<br/><br/>それから、晴々台の方は来年の三月あたりに建築の方に取り掛かるはずですが、それには大変にお金がかかる。<br/><br/>そんな金なんか、今、有りやしない。<br/><br/>ですけれど、その時になれば、それだけの金はちゃんと神様が――直にくれるわけじゃないが――入るだろうと思ってます。<br/><br/>実に頼りないような、確実な話です。<br/><br/>それで、晴々台の石垣の左手の方に桜をたくさん植えるつもりだったのですが、どうも小さい気がしていたところ、あれから続いた土地を、持ち主の方から買ってくれと言うので、買う事にしましたが、そこに桜を千本植えようと思います。<br/><br/>だから、本当に一目千本です。<br/><br/>吉野山も千本ですが、まばらな千本ですが、私の方は詰まった千本ですから、又、違った眺めだろうと思います。<br/><br/>梅の方は今年一杯に植わる予定です。<br/><br/>梅もすっかり準備できてます。<br/><br/>梅は太い程よいですね。<br/><br/>古い方がね。<br/><br/>ところが小田原に梅があるそうですが、梅の若いのは、梅の実がなるから高いそうで、古いのは安いそうですから、それを買って、まもなく植えるつもりです。<br/><br/>だから、あっちが出来たら大変です。<br/><br/> 神仙郷も、この間アメリカの地理学の教授ですが――地理的に欧州や何かで見たけれど、これほどの庭園は――岩石は世界一ですが――この造り方は世界にないだろうと言う。<br/><br/>花があるが、これを天然色写真にして世界に紹介すると良いと言っていた。<br/><br/>ここでさえそうだから、熱海の方は間違いない。<br/><br/>ここの美術館は日本一のものが出来ます。<br/><br/>熱海の方はずっと規模が大きく、これは世界一の美術館にするつもりです。<br/><br/>建築の様式も私が設計するつもりですが、うんと新しい、アッと言うものを拵えるつもりです。<br/><br/>並べる美術品も――アメリカ、イギリスを調べてますが、どうもあっちの方は良いものはない。<br/><br/>西洋の美術ですね。<br/><br/>それは本場だからありますが、美術は東洋と西洋と比べると、東洋の方がずっと上です。<br/><br/>高さがね。<br/><br/>だから、アメリカは日本のものを、値にかかわらず買っていく。<br/><br/>危なくてしようがない。<br/><br/>この間なんか、支那の鉢で、宋均窯と言う。<br/><br/>先から欲しくてしょうがない。<br/><br/>この秋あたり買っても良いと言う事で、楽しみにしていた。<br/><br/>この間持ってきて、これは世界的なもので、それをアメリカで買いにきた。<br/><br/>又、アメリカでは日本の良いものはどこに何があるということを知っている。<br/><br/>五万ドルで買うというんです。<br/><br/>二千万円に近いですからね。<br/><br/>私のところに大きな皿があるが、その方が上なんです。<br/><br/>道具屋はその方を下に見ている。<br/><br/>ま、百万円以内なら買っても良いと逃げちゃったんですがね。<br/><br/>それですから、博物館だとか文化保護委員会も、アメリカに持って行かれないよう警戒している。<br/><br/>何しろ、先は値段にかかわらず買うからね。<br/><br/>しかし、相当あっちに行く必要がある。<br/><br/>と言うのは、今まで日本美術はアメリカの博物館、美術館に行っているのは、ほとんど贋物です。<br/><br/>ところが、終戦後日本に来てみて、大したものだと思って、本物を買いたがるんです。<br/><br/>そう言う訳だから――向こうの人の説で、うまい事を言っている。<br/><br/>世界で「国宝」と言う名前がついているのは、日本だけだ。<br/><br/>他に決してない。<br/><br/>「国宝」と言う事は、他国に行く事を防止するので、そうすると美術は世界全体に見せようと言う気持ちを表しているから「国宝」と言う事は面白くない。<br/><br/>と言っている。<br/><br/>そんな訳で、美術と言うのは世界共通でなければならない。<br/><br/>そこで、日本に有る美術館は、大抵、春、秋、二回くらいしか開かれない。<br/><br/>と言うのは、財産保護の為にやるんです。<br/><br/>財団法人ですか――それは、財産として世襲が出来ますからね。<br/><br/>そう言う規則です。<br/><br/>規則で開かなければならないと言うのです。<br/><br/>それで、知っている人に見せると言うのですね。<br/><br/>それじゃしようがない。<br/><br/>それは、公衆に見せると言うのでなければならない。<br/><br/>そうすると、世界中の人が来ても、見せられますから、そうすると、独善と言う意味はなくなるから、そう言う意味でも、私はやらなければならない。<br/><br/> メシヤ教の一枚看板は病貧争絶無の世界を作ることです。<br/><br/>ところが、病気については、不断から十分に発表してますから、みんな分った筈ですが、注意したい事は浄霊法ですね。<br/><br/>これは手を振るわせない様に――じっとするようにというのは、どうしても、こう(振る)やると力が入る。<br/><br/>力が入ると治りが悪くなる。<br/><br/>力を入れないようにするには、動かさない様にする。<br/><br/>軽くするんです。<br/><br/>力を抜くんです。<br/><br/>そうすると治りがずっと良くなる。<br/><br/>私がそうですからね。<br/><br/>私が力を抜く程よく治る。<br/><br/>お腹の光が、力を入れると、通りが悪くなるね。<br/><br/>だから、力を抜けば抜くほど、光がずっと出ますからね。<br/><br/>これからはそういうやり方にしてもらいたい。<br/><br/>しかし、全然振るまいとしなくても良い。<br/><br/>場合によっては振っても良い。<br/><br/>原則としては振らない。<br/><br/> それから、貧乏ですね。<br/><br/>これは病気がなくなれば、貧乏も解決するんです。<br/><br/>しかし、そればかりでなく、食料増産ですね。<br/><br/>これが、貧乏をなくする一番の原因なんです。<br/><br/>と言うのは、農民は日本の人口の約八割ですから、そうすると、農民の懐を暖かくすると言う事が一番なんです。<br/><br/>そうすると――商工業も繁盛すると言うわけになる。<br/><br/>農民の懐が温かくなるというのは、やはり増産と肥料代や何かがいらなくなると言う事が肝心です。<br/><br/>そこで自然農法を大いに奨励しなければならない。<br/><br/>大体今の計画は、自然農法の実例が一番肝心なんです。<br/><br/>今年の収穫辺りになると、年々肥毒がなくなってきますから、増えます。<br/><br/>今年の十一月辺りになると、報告は今までよりずっと良いだろうと思う。<br/><br/>その成績を土台にして、ひとつの本を作って、これを日本中の農会とか農事試験場とか、村なら村長と、あらゆる方面に全部配ろうと思う。<br/><br/>それから、各地に講演会、座談会を開いて大いに知らせようと思う。<br/><br/>と言うのは、自然農法にして五年経てば五割増産です。<br/><br/>そうすると、現在六千四百万石ですから、一年間に、今のところ二千万石足りないですね。<br/><br/>人口が八千万ですからちょうど二千万石足りない。<br/><br/>それだけ輸入しなければならない。<br/><br/>大変な金額です。<br/><br/>五割増産で九千六百万石になる。<br/><br/>そうすると肥料代が要らなくなると、肥料屋が困るだろうと思うだろうが、そうではない。<br/><br/>今は外国の注文が多いので、日本にやらなくても輸出の方が多いんだそうですから心配要らない。<br/><br/>実際、あんまりいうと、肥料屋に暗がりで、ぶん殴られるかもしれないが――岡田のヤツけしからんとね。<br/><br/>そんな事はないから、安心していい。<br/><br/>そういう訳で、貧乏を解決すると言う事が一番の根本問題ですからね。<br/><br/> その次は戦争で、戦争をなくする事が出来るんです。<br/><br/>今まであまり説かなかったが、これから戦争に関した論文を色々書こうと思っている。<br/><br/>これはなくする方法を書いたんですが、ところがもう一つ訳がある。<br/><br/>と言うのは、近頃アメリカの――進駐軍関係の人らしいですが、七、八人のグループでメシヤ教を研究していると言うんです。<br/><br/>それで、雑誌なんかを翻訳して研究していると言うんです。<br/><br/>私の書いたものに非常に共鳴しているんだそうです。<br/><br/>その人にも、これを見せたいと思う。<br/><br/>それで書いたんです。<br/><br/>それからアメリカの本国の方にも、今度信者が一人、あっちの大学に許可されて行ってますが、大分各国の人間が言っているそうですが、浄霊をやっているそうです。<br/><br/>東洋人だとか、西洋人だとか――インド人、タイ国人――とやっているが、大分信者が出来たそうです。<br/><br/>大分お守りを持っていったが、もっと――と言うんです。<br/><br/>そういったようにあっちの方に鍬を入れるような形が見えてきた。<br/><br/>神様の方で時期に従って、よろしく手を打っていくはずです。<br/><br/>何だかんだと、とにかく全てが来年あたりから非常な発展をする気分が見えるんです。<br/><br/>戦争をなくする事の論文を読ませます。<br/><br/> （御論文 「第三次戦争は免れる事が出来る」 のあとの御教え）【栄光新聞一二六号】 戦争に対する、こういうような色々な事を英文に訳して、世界の自由国――そういう方面も知らせようと思って、考えている。<br/><br/>で、今――世界中の人民が第三次戦争は免れないとしているが、実は戦争を免れる事が出来るんですからね。<br/><br/>この通り、あらゆるものは相応の理によって、汚いものが溜まると、それを掃除すべき力が発生する。<br/><br/>そう言うように神様が造ってある。<br/><br/>そうすると戦争で壊されたり、崩れたりするのは、それだけ汚いものが溜まっている。<br/><br/>その掃除の為にやるので、今やっている――力によって戦争を防止すると言ってやっているが、今としては仕方がない。<br/><br/>原子爆弾とか造って、戦争しようと言う計画をぶち壊すとか、と言うのはやむを得ないですね。<br/><br/>ちょうど、警察で押さえていると言うのと同じです。<br/><br/>今の文明はみんな同じですね。<br/><br/>病気でも同じですね。<br/><br/>浄化が起こると、それを押さえつけると言うのは、戦争でも犯罪でも病気でも同じですね。<br/><br/>それが進歩した文明と思っている。<br/><br/>それより他にないと思っている。<br/><br/>逆なんですね。<br/><br/>だから、今の文明は逆の文明と言っても良い。<br/><br/> そこで私の方は、中心はこうするんだと言う事を教えるんです。<br/><br/>そうして、その力を見せるんです。<br/><br/>内部をきれいにすれば良い。<br/><br/>外部から押さえつける必要はない。<br/><br/>力で平和にしても、破る方も力で破るから、永遠的なものではない――絶対的ではない。<br/><br/>だから、そう言った間違った事を人類に教えると言うのがメシヤ教の、世を救うと言う事なんです。<br/><br/>大きさにおいては、これ以上の大きなものはない。<br/><br/>大きさと言うのはホラの大きさではない。<br/><br/>実のある大きさなんです。<br/><br/>そんなような意味です。<br/><br/> まだ時間が有ったら仏教の起源と言うのを――これは面白いのですが――いずれ読ませます。<br/><br/>仏教は誰が始めたかと言うと、インド人ではない。<br/><br/>日本の神様が言って化身、化仏されて――伊都能売神様ですが、伊都能売神様がお釈迦さんに教えられて、お釈迦さんがびっくりして広めたんです。<br/><br/>化仏と言うのは、神様が仏に化けたんです。<br/><br/>日本の神様はインドに行かれて、今度メシヤ教が出て五六七の世を造る、その準備に用意された、その準備に用意された。<br/><br/>それを「文明の創造」に書きつつあるんです。<br/><br/>だんだん知らせますからね。<br/><br/>そんな訳で、神様は前から、世界的に準備した。<br/><br/>だから、キリストもマホメットも、地上天国の用意のために、何千年も前に色々な事をされたんです。<br/><br/>そう言う事も、色々と書くつもりです。<br/><br/>それを、最初は日本人に知らせますが、最後は世界中に知らせます。<br/><br/>これが「見真実」です。<br/><br/>これは専売特許ではない。<br/><br/>全人類に知らせなければならない。<br/><br/>そうすれば、五六七の世が出来るんですね。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

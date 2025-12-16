@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ganrik07</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 明主様の御眼力 （七） 神成大教会 岡庭真次郎 『地上天国』47号、昭和28(1953)年4月25日発行 明主様の御写真二枚を撮影されたので東光男氏は、早速写真屋に現像を依親したところ、写真屋が来て「このようなおっかない写真はとても私には現像が出来ません」というので、「どうしてだ」と聞けば「現像しようとする体や手がぶるぶると震えたり、電気が消えたり、何としてもおっかなくて私には駄目だ」と断られてしまったので、仕方なく東氏自身早速斎戒沐浴して現像に掛り、二十三日に持参されたのです。<br><br>ところが今度は明主様の御姿は消えた如く朦朧として不鮮明であって、丸く光の輪が鮮明に写し出されているのです。<br><br>この現象は明主様の御身体より放射する御霊光の層の厚いために、マグネシュウムも透過する事能わず、いかにその御霊衣の層の厚いか、いかにその御霊光の強烈なるかを知ることが出来ます。<br><br>特にこの御写真は合掌されていられるのですが、その御顔や御手の回りを囲める円光の顕出されたことこそ、誠に不思議なのです。<br><br>今日まで、古来の仏像や仏絵等に金色の円光のあるのは、その作者等の空想による物とのみ今日まで誰人も思ったことであるのに、この御写真によって初めてその実際にあることを認識されるのであって、この円光は白色光の最も強力なることは、明主様の御前に備えた白い水盤や、御敷きになられる御座蒲団の模様が純白なるも、光輪よりも余程暗く写れるのを見ても、いかに御光りの強いかを伺い知ることが出来るのであります。<br><br> なお又明主様御転寝の御写真は以前から明主様は「私の体にはいつでも金龍が守護しているから、いかなる悪魔も危害を加える事が出来ないのだ。<br><br>ある時道を歩いていると、自動車が急速力で目の前へ来たので、ハッと思って両手を無意識に拡げて出したら自動車がピタッと止まってしまった。<br><br>あのように急速で来た自動車は惰力でズッと来てやられるものなのに、ピタッと止ってしまった」と御話がありました。<br><br>なお又前にも書いた通り大本教より来た共産党くずれの吉川のごとく、短刀を抜いてもいかんとも出来なかったように皆金龍が止めてしまわれるのですが、この御話の通りにこの御写真は明主様の御転寝の御姿に御守護していられる金龍神そのままの御姿が写ったものであります。<br><br>なお、龍神の御姿についても以前に龍神の御話の中で「普通の龍神は人を呑んだり、色々な物を呑むから腹が大きくふくれているが、金龍は呑まないから首も腹も同じ太さである。<br><br>又他の龍神の姿は見るからに恐しい気持になるが、金龍は少しも恐しい感じがない」との御話の通り、この御霊写真は明主様がお伏さりなされている御首から御背に掛けて、トグロを巻いて頭を持上げ、八方瞰の形であり、御霊光が五條立昇っていられるのであります。<br><br>このようにして金龍神は絶えず明主様を御守護していられるため、いかなる悪魔鬼神もいかんとも出来ないので、明主様が一度御口から出された御言葉は必ず後に現われて来るのであって、今後の世界も必ず御予言通りに進展して行くのも当然であります。<br><br>十月三十日には、明主様より千手観音様の御霊写真を頂戴致し、十一月一日松風誌へ出す和歌と、金蘭会の冠句の原稿を持って応神堂に参上しますと、光輪と金龍神の御霊写真が出来上り一と組頂戴致しましたが、この日は天候快晴であったのが途中急に大雨降りと成りました。<br><br>明主様はこの時「この雨はこの霊写真の龍神の為に降り出したのだ」との御説明を頂きましたが、その内又晴天と成ってしまいましたので、龍神様が何か御知らせのあられた事と存じますが、これはただ明主様と龍神様との間のことで、我々凡人の知る由もないことなのです。<br><br> 十一月四日私は御浄霊を終り、時間があるので新聞売りの御用に出掛けました。<br><br>行く先は馬込でありましたが○○隆蔵という家がありました。<br><br>一部買ってくれて「神様のお話をしてくれ」と座蒲団まで出して、中々共鳴して熱心に聞くので度々出掛けた。<br><br>次第に立寄っては話しをしている中に、遂には「明主様に御目に掛り度い」と申されるので、一度応神堂へ御案内致し、明主様から色々と有難い御話を承り喜んで帰りました。<br><br>が後日明主様は「あの○○さんは信仰は駄目ですよ。<br><br>なぜならば○○隆蔵の○○は○○であり、隆蔵は龍蔵で龍を蔵している、即ち○○の大蛇を隠している、という名だから信仰するように見えても、決して真の信仰には入らない」との御教えを賜わりましたが、果して御言葉通り道に御邪魔する一派に組して遂に止めてしまったのでありました。<br><br>やはり○○の大蛇が邪魔をしに来るだけなのであり、我々は何でも彼でも信仰に入れようと空な努力したに過ぎなかったのです。<br><br>それにつけても名前は大切だとつくづく感じさせられました。<br><br>十一月十六日笑和会の巻開きに天位を頂きましたが、その前に『蟇蛙のほしかの様な空財布』の句を出して天位を頂きましたが、この頃から空財布になりましたがしかし、この十六日に頂戴した天の巻の巻題に『金の世の中』と明主様の御真筆で頂けたのですが」十一月十九日に井上さんからこの金の世の中の御本を頂きました。<br><br>ところがそれから十二日目、十一月二十八日に参千参百円手に入って来たのです。<br><br>実に明主様御揮毫の御言葉の威力には恐れ入るの外ありません。<br><br>この金は「絶対私の長男の成人するまでは渡さん」と言って二人名義で定期預金にした金で、絶対人力では出るべき可能性の無い金が、御言霊の御威力でチョコッと出させてしまわれたので、実に恐れ入ったのであります。<br><br>しかもこちらから何も言うどころか、二年間会ったこともない人から呼ばれて定期預金を出して出して貰ったのですから、丸っきり嘘のようです。<br><br> 明主様からこの事について御解説下さいましたが「いかに頑固に“出すものか”と頑張っていても、神様がチョットその者にお憑りになられると、とても気持がよくなるから、これは預金を出して返してやらねばいけないと思って出してしまう。<br><br>ところが出してしまえば神様は御はなれになってしまうと御教え賜わったのですが、実に御言葉通りです。<br><br>最初電話があったためその家へ行くと、いつもは苦虫をかみ潰したような顔をする男なのに、その日はいやににこにこして「どうせいる金なんだから出して行ったらよかろう」と云うので、印を渡して「明日に受取りに来るから」と約して帰り、その次の二十八日に行く上又苦虫をかみ潰したような顔で悪口まで云うのです。<br><br>これこそ御言葉のように二十七日には神様がお憑りになられて気持がいいから、にこにこして金を出す気に成って出したので、二十八日には神様はもう御用がないから御離れになられたため、又元通りに苦虫顔に変って終ったもので、何共恐れ入るの外はありません。<br><br>この十一月二十八日は、応神堂において大日本観音会発会式の第一準備として規約を作る目出度い日で、明主様を始め列席する者は竹村良三、岡庭真次郎、中島左右彦、松久茂徳、清水清太郎、正木三雄、金高真城の七氏で、明主様には「ちょうど金高夫人が一人いられるため七福神で、私を加えると八人で開くこととなり目出度い」との御言葉で、非常にお喜びで、規約出来上りし後竹村一人帰りて、金高重保、岡庭茂友、木原義彦、井上茂登吉の四氏順々に来られて、そのために又十一名となり統一となるので、一々順に面白い数字の型で今後の発展を暗示され「実に目出度い、神様は今日このように数字で不思議を見せて下さったのだ」と御教え下さいました。<br><br>昭和九年十二月四日夜、御電話にて、「観音経を持って来るように」との御知らせに、早速応神堂に参上すれば「祝詞を作るのだ」との御言葉にて、明主様御口述遊ばされ、井上氏筆を執り私はお側に控えました。<br><br>まず神言祝詞を御作り遊ばされ、次で善言讃詞を御作り遊ばされましたが、この神言祝詞はある時期まで御使用になられて後、現在のように朝は天津祝詞、夕は善言讃詞と簡単になったのであります。<br><br> 十二月十八日は応神堂の月並祭で、いよいよただ今までの御神体であられる日の出観音様もこの月並祭をもって最後と成り最近御表装も見事に出来上られた千手観音様の御軸と変られることとなったのであります。<br><br>次の十九日の夜東光社「東方の光発行所」に第三回みろく会を開かせて頂きました。<br><br>この会合は観音行の修行として実に良い集りで、この頃の幹部が集会したものです。<br><br>当夜の出席者は十二名で、この十二名の円座の中心へ茶褐色の丸い色が畳の上に大きく、実にはっきりと現われ、暫くして追々消え去りました。<br><br>会終って応神堂に参上、早速この事を御伺い致しました。<br><br>明主様は早速「茶褐色とは大地の色であるから大地球であり、その廻りに十二人いた事は世界が十二カ国となる御知らせである」との御言葉でこのような小さな型が将来このようになるのですから実にこの信仰のみが有難いのです。<br><br> 昭和九年十二月二十三日明主様御生誕の目出度い日であり千手観音様初の御鎮座祭を執り行われました。<br><br>いよいよ支度も終り鎮座祭の祭典開始。<br><br>すらすらと掛けられた偉大なる千手観音の浮き出たような初々しい勇ましい御姿。<br><br>これこそ昭和の桃太郎のお姿で「この千手観音様こそは鬼ケ島を征伐なされる桃太郎なのです。<br><br>丁寧に申し上げれば千光千眼千手観世音菩薩と申し上げ、御手が四十二本あられ、御前に合掌された両手と、その下に御壷をお待ちの両手とは一本ずつの御役にて、ちょうど四十本と成る、その四十本の御手が一本でいずれも二十五有を備えられるために千手と成る」との御教えで、今日は特に快晴にて暖かく」明主様御生誕の目出度い御祝を兼ねたこの新しい千手観音様の鎮座祭祝詞も、御新作の神言祝詞及び善言讃詞の初奏上。<br><br>又その御祝詞の崇厳さ有難さ。<br><br>今は何も彼も洗い替えとなって本当に救われた有難さで、御神歌（今は御讃歌）も御新作の千手観音で、今迄のお祭とは隔世の感じで奏でる八雲琴の御歌も明主様御新作で、一同酔えるが如く御霊気の強さに打たれたのでありました。<br><br>かくて一同感謝感激の裡に鎮座祭は終り、御直会（御神饌を御下げして御神酒御菓子等を分けて下さる）を始められ、明主様より「いよいよ大本教とは絶縁する。<br><br>これは千手観音様が御生まれになられたのでいよいよ母体から離れることは自然でこれは当然なことである」と御教え下さいました。<br><br>この夜役員も決定、本日をもって大本祝詞を止め観音会の新作祝詞を奏上することに決定したので、未だ退会届は出さないまでも事実上今晩をもって大本教より脱退した事になり、実に心持まで清々しく御礼を奏上散会させて戴きました。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Discernimento Espiritual de Meishu-Sama</h2>
 <p>Após o registro de duas fotografias de Meishu-Sama, o senhor Toko Mitsuo dirigiu-se prontamente a um estúdio para solicitar a revelação. Qual não foi sua surpresa quando o fotógrafo retornou, dizendo: “Não consigo revelar uma fotografia tão assustadora”. Ao ser indagado sobre o motivo, explicou: “Sempre que tento iniciar o processo, meu corpo e minhas mãos tremem incontrolavelmente, as luzes se apagam... É simplesmente apavorante, está além da minha capacidade”. Diante da recusa, o senhor Toko, não tendo outra alternativa, realizou ele próprio o ritual de purificação e procedeu à revelação, trazendo as fotografias no dia 23. Contudo, um novo mistério se apresentou: a imagem de Meishu-Sama estava turva, como se tivesse desaparecido, ao passo que um nítido halo de luz circular se destacava com toda a clareza.</p>
@@ -108,5 +260,48 @@ function toggleLang(lang) {
 <p>O dia 23 de dezembro do nono ano da Era Showa (1934) foi o auspicioso dia do nascimento de Meishu-Sama, no qual também se realizou a primeira cerimônia de entronização de Senju Kannon. Concluídos os preparativos, o ritual teve início. A imponente imagem de Senju Kannon foi suspensa com fluidez, revelando uma figura sublime, vívida e vigorosa, que parecia saltar do pergaminho. Meishu-Sama nos ensinou: “Esta é a figura do Momotaro da Era Showa. Esta Senju Kannon é o Momotaro que subjugará a Ilha dos Demônios. Seu nome formal é <em>Senko Sengen Senju Kanzeon Bosatsu</em>. Ela possui quarenta e duas mãos. As duas mãos em prece e as duas que seguram um vaso cumprem, cada par, uma função específica, restando quarenta mãos. Cada uma dessas quarenta mãos abarca vinte e cinco mundos da existência, totalizando, assim, mil mãos”.</p>
 <p>O dia, especialmente claro e ameno, parecia celebrar o nascimento de Meishu-Sama. A cerimônia de entronização da nova imagem de Senju Kannon foi marcada pela primeira entoação das recém-criadas Orações Shingon e Zengen Sanji. A solenidade e a sacralidade daquelas palavras eram indescritíveis. Sentíamos que tudo fora renovado e que havíamos alcançado uma salvação genuína. A canção divina, hoje chamada de Hino, também era uma composição inédita em louvor a Senju Kannon. A cerimônia possuía uma atmosfera completamente distinta das anteriores, como se pertencesse a outra era. A melodia tocada ao <em>yakumogoto</em> também era de autoria de Meishu-Sama. Fomos todos tocados pela intensidade da atmosfera espiritual, sentindo-nos como que inebriados.</p>
 <p>Assim, a cerimônia de entronização terminou em um clima de profunda gratidão e comoção. Durante o <em>Naorai</em> (partilha das oferendas sagradas), Meishu-Sama declarou: “Finalmente, romperemos nossos laços com a Oomoto-kyo. O nascimento de Senju Kannon torna natural e inevitável o desligamento da matriz que nos gerou”. Naquela noite, a diretoria foi constituída e ficou decidido que as orações da Oomoto seriam descontinuadas e substituídas pelas novas orações da Kannon Kai. Embora o pedido formal de desligamento ainda não tivesse sido enviado, naquela noite, de fato, nos desvinculamos da Oomoto-kyo. Com o coração sentindo-se purificado e leve, expressamos nossa gratidão e nos despedimos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 明主様の御眼力 （七） 神成大教会 岡庭真次郎 『地上天国』47号、昭和28(1953)年4月25日発行 明主様の御写真二枚を撮影されたので東光男氏は、早速写真屋に現像を依親したところ、写真屋が来て「このようなおっかない写真はとても私には現像が出来ません」というので、「どうしてだ」と聞けば「現像しようとする体や手がぶるぶると震えたり、電気が消えたり、何としてもおっかなくて私には駄目だ」と断られてしまったので、仕方なく東氏自身早速斎戒沐浴して現像に掛り、二十三日に持参されたのです。<br/><br/>ところが今度は明主様の御姿は消えた如く朦朧として不鮮明であって、丸く光の輪が鮮明に写し出されているのです。<br/><br/>この現象は明主様の御身体より放射する御霊光の層の厚いために、マグネシュウムも透過する事能わず、いかにその御霊衣の層の厚いか、いかにその御霊光の強烈なるかを知ることが出来ます。<br/><br/>特にこの御写真は合掌されていられるのですが、その御顔や御手の回りを囲める円光の顕出されたことこそ、誠に不思議なのです。<br/><br/>今日まで、古来の仏像や仏絵等に金色の円光のあるのは、その作者等の空想による物とのみ今日まで誰人も思ったことであるのに、この御写真によって初めてその実際にあることを認識されるのであって、この円光は白色光の最も強力なることは、明主様の御前に備えた白い水盤や、御敷きになられる御座蒲団の模様が純白なるも、光輪よりも余程暗く写れるのを見ても、いかに御光りの強いかを伺い知ることが出来るのであります。<br/><br/> なお又明主様御転寝の御写真は以前から明主様は「私の体にはいつでも金龍が守護しているから、いかなる悪魔も危害を加える事が出来ないのだ。<br/><br/>ある時道を歩いていると、自動車が急速力で目の前へ来たので、ハッと思って両手を無意識に拡げて出したら自動車がピタッと止まってしまった。<br/><br/>あのように急速で来た自動車は惰力でズッと来てやられるものなのに、ピタッと止ってしまった」と御話がありました。<br/><br/>なお又前にも書いた通り大本教より来た共産党くずれの吉川のごとく、短刀を抜いてもいかんとも出来なかったように皆金龍が止めてしまわれるのですが、この御話の通りにこの御写真は明主様の御転寝の御姿に御守護していられる金龍神そのままの御姿が写ったものであります。<br/><br/>なお、龍神の御姿についても以前に龍神の御話の中で「普通の龍神は人を呑んだり、色々な物を呑むから腹が大きくふくれているが、金龍は呑まないから首も腹も同じ太さである。<br/><br/>又他の龍神の姿は見るからに恐しい気持になるが、金龍は少しも恐しい感じがない」との御話の通り、この御霊写真は明主様がお伏さりなされている御首から御背に掛けて、トグロを巻いて頭を持上げ、八方瞰の形であり、御霊光が五條立昇っていられるのであります。<br/><br/>このようにして金龍神は絶えず明主様を御守護していられるため、いかなる悪魔鬼神もいかんとも出来ないので、明主様が一度御口から出された御言葉は必ず後に現われて来るのであって、今後の世界も必ず御予言通りに進展して行くのも当然であります。<br/><br/>十月三十日には、明主様より千手観音様の御霊写真を頂戴致し、十一月一日松風誌へ出す和歌と、金蘭会の冠句の原稿を持って応神堂に参上しますと、光輪と金龍神の御霊写真が出来上り一と組頂戴致しましたが、この日は天候快晴であったのが途中急に大雨降りと成りました。<br/><br/>明主様はこの時「この雨はこの霊写真の龍神の為に降り出したのだ」との御説明を頂きましたが、その内又晴天と成ってしまいましたので、龍神様が何か御知らせのあられた事と存じますが、これはただ明主様と龍神様との間のことで、我々凡人の知る由もないことなのです。<br/><br/> 十一月四日私は御浄霊を終り、時間があるので新聞売りの御用に出掛けました。<br/><br/>行く先は馬込でありましたが○○隆蔵という家がありました。<br/><br/>一部買ってくれて「神様のお話をしてくれ」と座蒲団まで出して、中々共鳴して熱心に聞くので度々出掛けた。<br/><br/>次第に立寄っては話しをしている中に、遂には「明主様に御目に掛り度い」と申されるので、一度応神堂へ御案内致し、明主様から色々と有難い御話を承り喜んで帰りました。<br/><br/>が後日明主様は「あの○○さんは信仰は駄目ですよ。<br/><br/>なぜならば○○隆蔵の○○は○○であり、隆蔵は龍蔵で龍を蔵している、即ち○○の大蛇を隠している、という名だから信仰するように見えても、決して真の信仰には入らない」との御教えを賜わりましたが、果して御言葉通り道に御邪魔する一派に組して遂に止めてしまったのでありました。<br/><br/>やはり○○の大蛇が邪魔をしに来るだけなのであり、我々は何でも彼でも信仰に入れようと空な努力したに過ぎなかったのです。<br/><br/>それにつけても名前は大切だとつくづく感じさせられました。<br/><br/>十一月十六日笑和会の巻開きに天位を頂きましたが、その前に『蟇蛙のほしかの様な空財布』の句を出して天位を頂きましたが、この頃から空財布になりましたがしかし、この十六日に頂戴した天の巻の巻題に『金の世の中』と明主様の御真筆で頂けたのですが」十一月十九日に井上さんからこの金の世の中の御本を頂きました。<br/><br/>ところがそれから十二日目、十一月二十八日に参千参百円手に入って来たのです。<br/><br/>実に明主様御揮毫の御言葉の威力には恐れ入るの外ありません。<br/><br/>この金は「絶対私の長男の成人するまでは渡さん」と言って二人名義で定期預金にした金で、絶対人力では出るべき可能性の無い金が、御言霊の御威力でチョコッと出させてしまわれたので、実に恐れ入ったのであります。<br/><br/>しかもこちらから何も言うどころか、二年間会ったこともない人から呼ばれて定期預金を出して出して貰ったのですから、丸っきり嘘のようです。<br/><br/> 明主様からこの事について御解説下さいましたが「いかに頑固に“出すものか”と頑張っていても、神様がチョットその者にお憑りになられると、とても気持がよくなるから、これは預金を出して返してやらねばいけないと思って出してしまう。<br/><br/>ところが出してしまえば神様は御はなれになってしまうと御教え賜わったのですが、実に御言葉通りです。<br/><br/>最初電話があったためその家へ行くと、いつもは苦虫をかみ潰したような顔をする男なのに、その日はいやににこにこして「どうせいる金なんだから出して行ったらよかろう」と云うので、印を渡して「明日に受取りに来るから」と約して帰り、その次の二十八日に行く上又苦虫をかみ潰したような顔で悪口まで云うのです。<br/><br/>これこそ御言葉のように二十七日には神様がお憑りになられて気持がいいから、にこにこして金を出す気に成って出したので、二十八日には神様はもう御用がないから御離れになられたため、又元通りに苦虫顔に変って終ったもので、何共恐れ入るの外はありません。<br/><br/>この十一月二十八日は、応神堂において大日本観音会発会式の第一準備として規約を作る目出度い日で、明主様を始め列席する者は竹村良三、岡庭真次郎、中島左右彦、松久茂徳、清水清太郎、正木三雄、金高真城の七氏で、明主様には「ちょうど金高夫人が一人いられるため七福神で、私を加えると八人で開くこととなり目出度い」との御言葉で、非常にお喜びで、規約出来上りし後竹村一人帰りて、金高重保、岡庭茂友、木原義彦、井上茂登吉の四氏順々に来られて、そのために又十一名となり統一となるので、一々順に面白い数字の型で今後の発展を暗示され「実に目出度い、神様は今日このように数字で不思議を見せて下さったのだ」と御教え下さいました。<br/><br/>昭和九年十二月四日夜、御電話にて、「観音経を持って来るように」との御知らせに、早速応神堂に参上すれば「祝詞を作るのだ」との御言葉にて、明主様御口述遊ばされ、井上氏筆を執り私はお側に控えました。<br/><br/>まず神言祝詞を御作り遊ばされ、次で善言讃詞を御作り遊ばされましたが、この神言祝詞はある時期まで御使用になられて後、現在のように朝は天津祝詞、夕は善言讃詞と簡単になったのであります。<br/><br/> 十二月十八日は応神堂の月並祭で、いよいよただ今までの御神体であられる日の出観音様もこの月並祭をもって最後と成り最近御表装も見事に出来上られた千手観音様の御軸と変られることとなったのであります。<br/><br/>次の十九日の夜東光社「東方の光発行所」に第三回みろく会を開かせて頂きました。<br/><br/>この会合は観音行の修行として実に良い集りで、この頃の幹部が集会したものです。<br/><br/>当夜の出席者は十二名で、この十二名の円座の中心へ茶褐色の丸い色が畳の上に大きく、実にはっきりと現われ、暫くして追々消え去りました。<br/><br/>会終って応神堂に参上、早速この事を御伺い致しました。<br/><br/>明主様は早速「茶褐色とは大地の色であるから大地球であり、その廻りに十二人いた事は世界が十二カ国となる御知らせである」との御言葉でこのような小さな型が将来このようになるのですから実にこの信仰のみが有難いのです。<br/><br/> 昭和九年十二月二十三日明主様御生誕の目出度い日であり千手観音様初の御鎮座祭を執り行われました。<br/><br/>いよいよ支度も終り鎮座祭の祭典開始。<br/><br/>すらすらと掛けられた偉大なる千手観音の浮き出たような初々しい勇ましい御姿。<br/><br/>これこそ昭和の桃太郎のお姿で「この千手観音様こそは鬼ケ島を征伐なされる桃太郎なのです。<br/><br/>丁寧に申し上げれば千光千眼千手観世音菩薩と申し上げ、御手が四十二本あられ、御前に合掌された両手と、その下に御壷をお待ちの両手とは一本ずつの御役にて、ちょうど四十本と成る、その四十本の御手が一本でいずれも二十五有を備えられるために千手と成る」との御教えで、今日は特に快晴にて暖かく」明主様御生誕の目出度い御祝を兼ねたこの新しい千手観音様の鎮座祭祝詞も、御新作の神言祝詞及び善言讃詞の初奏上。<br/><br/>又その御祝詞の崇厳さ有難さ。<br/><br/>今は何も彼も洗い替えとなって本当に救われた有難さで、御神歌（今は御讃歌）も御新作の千手観音で、今迄のお祭とは隔世の感じで奏でる八雲琴の御歌も明主様御新作で、一同酔えるが如く御霊気の強さに打たれたのでありました。<br/><br/>かくて一同感謝感激の裡に鎮座祭は終り、御直会（御神饌を御下げして御神酒御菓子等を分けて下さる）を始められ、明主様より「いよいよ大本教とは絶縁する。<br/><br/>これは千手観音様が御生まれになられたのでいよいよ母体から離れることは自然でこれは当然なことである」と御教え下さいました。<br/><br/>この夜役員も決定、本日をもって大本祝詞を止め観音会の新作祝詞を奏上することに決定したので、未だ退会届は出さないまでも事実上今晩をもって大本教より脱退した事になり、実に心持まで清々しく御礼を奏上散会させて戴きました。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

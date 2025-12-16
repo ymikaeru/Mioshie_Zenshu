@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>bunkai28</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御開示集 天国会会報『天国之友』１号、昭和24(1949)年9月10日発行 ――骨折した骨が重なってくっついてしまいました。<br><br>御浄霊で治りますでしょうか。<br><br> 骨がくっついたのは治らない。<br><br>骨は折れた場合すぐ固まるものです。<br><br> ――氏神様のお札などはいかが処分しましたらよろしいでしょうか。<br><br> 光明如来様の前に台の上にでも置き、一カ月か二カ月経ってから御礼を言って焼き棄てればよろしい。<br><br> ――代々仏教の家にて母がキリスト教を信仰し、死後キリスト教で祀ってほしいと申しますが、いかがいたしましたらよろしいでしょうか。<br><br> キリスト教で祀らねばいけません。<br><br>すべて生前の信仰によって祀ることです。<br><br>生前の信仰の霊界へ行くのです。<br><br> ――結婚後死亡した霊と生き残った片方とはどうなりますでしょうか。<br><br>また再婚した場合はどうなるのでございますか。<br><br> 結婚は片方が死亡することによって解消されるが、霊線の繋がりはあります。<br><br>その霊線は両方で愛し合っているときは夫婦同様で、両方で嫌っているときは非常に細く、片方だけ愛しているときは半分の太さです。<br><br>また再婚したときはぜんぜん切れてしまうことはないが、ほとんど切れたも同様になります。<br><br> ――前世の記憶は再生のときに喪失すると御教えいただいておりますが、霊界においては現世の記憶は全部残っているのでございましょうか。<br><br> 霊界においては現世の記憶はそうとうにある。<br><br>生まれてくる際に忘れるから良いのです。<br><br> ――親子で入信した○○と申す家でございますが、教修第一日に、昔から家のまわりにいる長さ一間もある青大将の夫婦を子供が殺しました。<br><br>いかがいたしましたらよろしいでしょうか。<br><br> 二匹で一つの名前でよろしいから○○明神と書いて屋外に祀りなさい。<br><br>死体は人の踏まない所に埋め、石でも上に置いておくとよろしい。<br><br>祝詞をあげ幽世大神様に早く人間に生まれ変われるようにお願いしてあげなさい。<br><br>一日一回一週間してあげなさい。<br><br>蛇は早く人間に生まれたいから殺してもらいたいのです。<br><br>蛇なんかを救うのは幽世大神様で結構で、日月地大神様にお願いするのはもったいないからいけません。<br><br>また大明神というのはあがめすぎていけません。<br><br>明神で結構です。<br><br> ――星の中で土星は特別に環状の帯をもっておりますが、いかなるものでございましょうか。<br><br> 土星は土の精分が多いから土星の発する霊気は物質の気が強いため、ああいうように見えるんでしょう。<br><br> ――指紋のない人はいかがなものでしょうか。<br><br> 霊的原因です。<br><br>河童の生まれ変わりでしょう。<br><br>河童には指紋がありません。<br><br>河童はよく人間になり、人間も河童になります。<br><br>河童の感情は人間そっくりです。<br><br>人間に近いのです。<br><br> ――死後の日取りを死ぬ一日前から計算いたしますが、いかがなわけでしょうか。<br><br>また法事、年忌などは繰り上げはよいが繰り延べてはいけないと申しますが、いかがなわけでございましょうか。<br><br> 死人に対しては霊を主にして扱い、霊はだいたい一日前に抜けるからでしょう。<br><br>法事、年忌は繰り延べは絶対にいけません。<br><br>霊界では法事、年忌を非常に待っており、延べますと霊界の規（きま）りが乱れて、無期延期のようになってしまいますから霊が非常に嫌うのです。<br><br> ――最後の審判はどのように現われてくるのでございましょうか。<br><br> はっきり言えない。<br><br>浄化が非常に強いと思っていなさい。<br><br>現われ方は神秘です。<br><br> ――ある信者の家で地の神様の霊が出まして、観音様の信仰に入ってから拝んでくれない、腹が減っては守護ができない、と申したそうです。<br><br>いかがいたしたらよろしいでしょうか。<br><br> 動物霊です。<br><br>神様ではありません。<br><br>神様が腹が減ることはありません。<br><br>しかしかわいそうですから、月に一回、なにか食物を上げてやりなさい。<br><br> ――某神社が経営困難につき、境内の多数の木を伐採し売却することになりましたが、信者の木材業者が頼まれました。<br><br>お祀りはどうすればよろしいでしょうか。<br><br> お祀りはごく太いものだけでよろしい。<br><br>こんな場合はさほどたたらない。<br><br>切られるのがいやなら、働いて経営困難にしなければよいわけです。<br><br>文句は言えないことになります。<br><br>霊のついている木は大木で、見れば、なにかそんな感じがありますから分かります。<br><br> ――人の死後四十九日間は位牌を仏壇の中にお祀りせず、別にお祀りする習慣ですが、都合で三十五日とか七日ですませる人もありますが、それでもよろしいものでしょうか。<br><br>また拍手は新仏には一拍手が正しいのでございますか。<br><br> 四十九日しなければいけない。<br><br>五十日間は霊は霊界には行けない規則になっている。<br><br>拍手は一週間は一拍手、一週間後は二拍手で、五十日間は拍手の音をさせない。<br><br>苦しんで死んだ霊は一週間くらいはボンヤリしています。<br><br>また体がバラバラになって死んだような場合、霊がもとの形になるのに一週間くらいかかります。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Esclarecimentos sobre a Fé e o Mundo Espiritual</h2>
 <p><strong>Pergunta:</strong> O osso de uma fratura consolidou-se de forma sobreposta. É possível corrigi-lo através do Johrei?</p>
@@ -118,5 +270,48 @@ function toggleLang(lang) {
 <p><strong>Resposta:</strong> O ritual de reverência é necessário apenas para as árvores de maior porte. Em casos como este, as consequências espirituais não costumam ser severas. Afinal, se as árvores não quisessem ser cortadas, deveriam ter atuado para que o templo não enfrentasse dificuldades financeiras. Portanto, elas não têm do que se queixar. As árvores habitadas por espíritos são as mais antigas e imponentes; ao observá-las, percebe-se nelas uma aura distinta que as identifica.</p>
 <p><strong>Pergunta:</strong> É costume que, durante os quarenta e nove dias que se seguem ao falecimento, o tablete memorial seja mantido em um altar separado, fora do oratório familiar. Algumas pessoas, por conveniência, encerram este período em trinta e cinco ou mesmo sete dias. Isso é aceitável? E no caso de um recém-falecido, o correto é bater apenas uma palma?</p>
 <p><strong>Resposta:</strong> O período de quarenta e nove dias deve ser rigorosamente observado. É uma regra do Mundo Espiritual que, durante os primeiros cinquenta dias, o espírito não pode ascender. Quanto às palmas, durante a primeira semana, deve-se bater apenas uma. Após esse período, batem-se duas, mas sem produzir som até que se completem os cinquenta dias. Um espírito que teve uma morte sofrida permanece em estado de torpor por cerca de uma semana. Similarmente, nos casos em que o corpo foi desmembrado, o espírito leva aproximadamente uma semana para reconstituir sua forma original.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御開示集 天国会会報『天国之友』１号、昭和24(1949)年9月10日発行 ――骨折した骨が重なってくっついてしまいました。<br/><br/>御浄霊で治りますでしょうか。<br/><br/> 骨がくっついたのは治らない。<br/><br/>骨は折れた場合すぐ固まるものです。<br/><br/> ――氏神様のお札などはいかが処分しましたらよろしいでしょうか。<br/><br/> 光明如来様の前に台の上にでも置き、一カ月か二カ月経ってから御礼を言って焼き棄てればよろしい。<br/><br/> ――代々仏教の家にて母がキリスト教を信仰し、死後キリスト教で祀ってほしいと申しますが、いかがいたしましたらよろしいでしょうか。<br/><br/> キリスト教で祀らねばいけません。<br/><br/>すべて生前の信仰によって祀ることです。<br/><br/>生前の信仰の霊界へ行くのです。<br/><br/> ――結婚後死亡した霊と生き残った片方とはどうなりますでしょうか。<br/><br/>また再婚した場合はどうなるのでございますか。<br/><br/> 結婚は片方が死亡することによって解消されるが、霊線の繋がりはあります。<br/><br/>その霊線は両方で愛し合っているときは夫婦同様で、両方で嫌っているときは非常に細く、片方だけ愛しているときは半分の太さです。<br/><br/>また再婚したときはぜんぜん切れてしまうことはないが、ほとんど切れたも同様になります。<br/><br/> ――前世の記憶は再生のときに喪失すると御教えいただいておりますが、霊界においては現世の記憶は全部残っているのでございましょうか。<br/><br/> 霊界においては現世の記憶はそうとうにある。<br/><br/>生まれてくる際に忘れるから良いのです。<br/><br/> ――親子で入信した○○と申す家でございますが、教修第一日に、昔から家のまわりにいる長さ一間もある青大将の夫婦を子供が殺しました。<br/><br/>いかがいたしましたらよろしいでしょうか。<br/><br/> 二匹で一つの名前でよろしいから○○明神と書いて屋外に祀りなさい。<br/><br/>死体は人の踏まない所に埋め、石でも上に置いておくとよろしい。<br/><br/>祝詞をあげ幽世大神様に早く人間に生まれ変われるようにお願いしてあげなさい。<br/><br/>一日一回一週間してあげなさい。<br/><br/>蛇は早く人間に生まれたいから殺してもらいたいのです。<br/><br/>蛇なんかを救うのは幽世大神様で結構で、日月地大神様にお願いするのはもったいないからいけません。<br/><br/>また大明神というのはあがめすぎていけません。<br/><br/>明神で結構です。<br/><br/> ――星の中で土星は特別に環状の帯をもっておりますが、いかなるものでございましょうか。<br/><br/> 土星は土の精分が多いから土星の発する霊気は物質の気が強いため、ああいうように見えるんでしょう。<br/><br/> ――指紋のない人はいかがなものでしょうか。<br/><br/> 霊的原因です。<br/><br/>河童の生まれ変わりでしょう。<br/><br/>河童には指紋がありません。<br/><br/>河童はよく人間になり、人間も河童になります。<br/><br/>河童の感情は人間そっくりです。<br/><br/>人間に近いのです。<br/><br/> ――死後の日取りを死ぬ一日前から計算いたしますが、いかがなわけでしょうか。<br/><br/>また法事、年忌などは繰り上げはよいが繰り延べてはいけないと申しますが、いかがなわけでございましょうか。<br/><br/> 死人に対しては霊を主にして扱い、霊はだいたい一日前に抜けるからでしょう。<br/><br/>法事、年忌は繰り延べは絶対にいけません。<br/><br/>霊界では法事、年忌を非常に待っており、延べますと霊界の規（きま）りが乱れて、無期延期のようになってしまいますから霊が非常に嫌うのです。<br/><br/> ――最後の審判はどのように現われてくるのでございましょうか。<br/><br/> はっきり言えない。<br/><br/>浄化が非常に強いと思っていなさい。<br/><br/>現われ方は神秘です。<br/><br/> ――ある信者の家で地の神様の霊が出まして、観音様の信仰に入ってから拝んでくれない、腹が減っては守護ができない、と申したそうです。<br/><br/>いかがいたしたらよろしいでしょうか。<br/><br/> 動物霊です。<br/><br/>神様ではありません。<br/><br/>神様が腹が減ることはありません。<br/><br/>しかしかわいそうですから、月に一回、なにか食物を上げてやりなさい。<br/><br/> ――某神社が経営困難につき、境内の多数の木を伐採し売却することになりましたが、信者の木材業者が頼まれました。<br/><br/>お祀りはどうすればよろしいでしょうか。<br/><br/> お祀りはごく太いものだけでよろしい。<br/><br/>こんな場合はさほどたたらない。<br/><br/>切られるのがいやなら、働いて経営困難にしなければよいわけです。<br/><br/>文句は言えないことになります。<br/><br/>霊のついている木は大木で、見れば、なにかそんな感じがありますから分かります。<br/><br/> ――人の死後四十九日間は位牌を仏壇の中にお祀りせず、別にお祀りする習慣ですが、都合で三十五日とか七日ですませる人もありますが、それでもよろしいものでしょうか。<br/><br/>また拍手は新仏には一拍手が正しいのでございますか。<br/><br/> 四十九日しなければいけない。<br/><br/>五十日間は霊は霊界には行けない規則になっている。<br/><br/>拍手は一週間は一拍手、一週間後は二拍手で、五十日間は拍手の音をさせない。<br/><br/>苦しんで死んだ霊は一週間くらいはボンヤリしています。<br/><br/>また体がバラバラになって死んだような場合、霊がもとの形になるのに一週間くらいかかります。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

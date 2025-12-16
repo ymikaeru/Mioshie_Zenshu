@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>reisya</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊写真 自観叢書第4篇『奇蹟物語』P.21、昭和24(1949)年10月5日 私はさきにかいたごとく、昭和三年二月の四日の節分の日、それまで従事していた仕事を全部放擲（ほうてき）し信仰生活に入った記念日でもある。<br><br>もちろん神示によって私の使命を覚り、幾多の奇蹟によって確信を得たからで、全身全霊を打込まざるを得ない事になったからである。<br><br>この時から昭和九年五月一日東京市麹町区平河町に一小家屋を借り民間治療所を開業するまで六年三ケ月の間、あらゆる霊的研究とあいまって神幽現三界の実相を把握し、人間の病気と健康に関する一大発見等によって、神霊治療こそ、病無き世界を出現し得べき絶対的方法である確信を得たからである。<br><br>ところがこの年一つの大奇蹟が顕われた。<br><br>それをこれからかいてみるのである。<br><br>忘れもしないこの年の十月十一日東光男という名刺をもって初めて来訪した男があった。<br><br>東光男という文字に興味を引かれ私は会う事にしたが、彼の話はこうである。<br><br> 「自分は約二十年前支那内地を旅行した。<br><br>その時支那の有力な古い宗教である道教の信者となり、ある時私は神憑りとなった。<br><br>その時の御託宣には、「今より二十年後日本に観音力を持った人が現われる」という事である。<br><br>その後日本へ帰国したが右の御託宣を信じ、それとなく待っていたところ、今年の春自分の家より東の方に観音力を持った人が既に現われているというのである。<br><br>自分の家は渋谷であったから東といえば赤坂から麹町方面なので探していたが、たまたま麹町に知人がありその話をしたところ、それは最近平河町に観音様で病気を治す人が出来たから訪ねてみよ――と言われ、来訪した」というのである。<br><br>私はそれを聞いて、「それは多分私でしょうよ」と言って二、三時間おもに宗教的な話をやり、帰りがけに、「写真を映さしてくれ」というのである。<br><br>私は承知したところ、彼は、「床の間へ座ってくれ」というので、私は座り写さしたところ、翌日彼は、「こんな不思議な写真が出来た」と乾板を持って来た。<br><br>私も見て驚いた。<br><br>私の横腹の方から白色雲煙のようなものが天井の近くまで噴出状に出ていて、頭上一、二尺辺に千手観音の姿が見える。<br><br>私はあまりの不思議さに眼を瞠った。<br><br>昨日写さした時何か不思議なものが写るような予感はしたが、観音様が写るなどとは想いもよらなかった。<br><br>よく見ると立派な画である。<br><br>多分どこかにある絵を、マグネシウムを焚いた瞬間、空間を超越し、電光石火画面に表わしたものに違いない。<br><br>それまで外国のも日本のも種々な霊写真をみたが、それ等は人間の死霊がおもで、外国写真などでキリストの写ったのをみたが、これはトリックである事がマザマザと判るのである。<br><br>外にそう大した霊写真は見なかった。<br><br>ところが右の私の霊写真の何という素晴しさだ。<br><br>のみならず間髪を容れない一瞬に、無論遠方にある画を写真に表わすという。<br><br>その不思議な力こそ観音力でなくて何であろう。<br><br>この観音力の素晴しさを考える時、今にどんな力を発揮されるが想像もつかない。<br><br>嗚呼、恵まれた吾なるかなと、自ら湧く希望感に酔ったのである。<br><br> これより先、赤坂の某所に住んでいた某夫人の病気を私が治したので、その婦人は感激の余り三階に観音様の部屋という六畳敷の一間を作った。<br><br>その部屋は私のかいた観音像や、種々の書体をかけた。<br><br>私も夫人の感謝の気持に嬉しく思ったのである。<br><br>その部屋の出来上る頃、私は千手観音の像が描きたくて仕方がない。<br><br>それから巾五尺長さ六尺という大きな紙に描くべく構図にとり掛った。<br><br>しかし描く部屋が長四畳の座敷なので狭いとは思ったが、外に適当な部屋がない。<br><br>それを婦人が見兼ねて、「今度出来た私の家の三階の観音様の部屋ではいかがです」という。<br><br>私は気がついて、それは結構だ――という訳で、いよいよ右の観音の間で筆を執る事となった。<br><br> ちょうど三分の一くらい出来た時である、その夫人の主人というのが大酒家で、非常に酔って帰った晩、何思ったか書きかけの千手観音の画をナイフで滅茶滅茶に切り刻んでしまった。<br><br>それを電話で知らされ、驚いて行ってみると、なる程余りの無残さで、一時私は茫然として泣きたいくらいであった。<br><br>その時ふと浮んだ事は二、三日前に出来た、千手観音の霊写真である。<br><br>そこでよく考えてみると、観音様は初めのではいけない、このようにかけと霊写真によって見せてくれたに違いない。<br><br>とすれば切られたのは、観音様がなされたのだ。<br><br>そうだむしろ感謝すべきだと思ったのである。<br><br>早速新規蒔直しに書いたのが五六七（ミロク）教会小田原本部にある千手観音のお姿で、仏壇へ祀る御屏風観音でもある。<br><br>そうして右は最初の構図と違う点が三つある。<br><br>最初のは円光がお顔の周囲だけであったのが全身的になった事と、最初のは髯（ひげ）があったのが、今度のは全然ない。<br><br>いわば若いお姿で、また最初のは雲の上であったのが、今度のは巌の上という訳で、つまり円光が大きくなった点、お年が若くなった点、雲上から降られて地上で救いの業をなされるという訳で、私はなる程とうなずいたのである。<br><br> 右の霊写真から十日後の十月二十一日また素晴しい霊写真が出来た。<br><br>この日観音様の鎮座祭をしたいというので、私は右の三階観音様の部屋へ招かれた。<br><br>いまだ何か霊写真が出来るような気がしたので東光男に写さした。<br><br>彼は今度も床の間に座ってくれといい、前へ香炉が欲しいというがないので、白磁の水盤を香炉代りに置いた。<br><br>そうして私に端座合掌してくれというのでその通りにした。<br><br>この時写ったのが空前絶後ともいうべき霊写真で、それは室内が朦朧（もうろう）として中央に鮮やかに日光が強い白色で表われ、その円光の中央に私の顔がかすかに表われ、合掌した手も見える。<br><br>座蒲団と水盤は微かながら鮮明に表われたが、その外は何も写らない、右はその時円光から強力な光波が放射し室内に充満したため、物体が妨げられたのである。<br><br>その時疑惑を避けんがため、座にいた七、八人の人を立合わせた。<br><br>というのは前の霊写真の時は、立合人は、例の夫人一人であったからである。<br><br>次いでその晩今一枚の霊写真が出来た。<br><br> それは、私がしきりに睡気を催すので、前にあったテーブルへ顔をうつ伏せにして居睡りをした。<br><br>そこを東光男が、前二回はマグネシウムを発いたが、この時は私が動かないためか、電灯の光で写した。<br><br>出来上ったのをみると、これはまた驚いた。<br><br>うつぶせになっていたので、頭だけ写った。<br><br>ところが頭の上に龍神が首をもたげ身体は螺旋（らせん）状に巻いており、すこぶる長身である。<br><br>龍神の身体からは、幾条もの光を発している。<br><br>数えると五条の光で、これは金色であるから金龍である事に間違いはない。<br><br>私の守護神は金龍である事の裏付といってもいい。<br><br>ここで東光男について少しかいてみるが、この男は時々平静な神憑りになる。<br><br>その時は冥目して何か自問自答している。<br><br>インスピレーションが時々来るらしい。<br><br>この時の事も彼がいうには、先生には龍神さんが守護しておられる。<br><br>なぜなれば、いつも先生と面接する時は必ず小雨が降る。<br><br>これは龍神が守護している証拠だ。<br><br>今晩も先程、雨が降って来たので、キット龍神が写るかもしれないと思ってとったのである、との事で私もうなずいたのである。<br><br> 本書冒頭の霊写真は右三種の中の千手観音様のものである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Milagre das Fotografias Espirituais</h2>
 <p>Conforme relatei anteriormente, o dia 4 de fevereiro do terceiro ano da Era Showa (1928), dia do Setsubun, marcou uma data memorável em minha vida: o momento em que renunciei a todas as minhas atividades seculares para me dedicar integralmente à vida de fé. Naturalmente, tal decisão foi motivada pela compreensão de minha missão, concedida por Revelação Divina, e pela firme convicção que adquiri através de inúmeros milagres, os quais me compeliram a devotar-me de corpo e alma a este caminho.</p>
@@ -108,5 +260,48 @@ function toggleLang(lang) {
 <p>Naquela mesma noite, uma terceira fotografia espiritual foi obtida. Eu sentia um sono intenso e adormeci com o rosto apoiado sobre uma mesa à minha frente. Vendo que eu não me movia, Toko Otoko aproveitou para tirar outra foto, desta vez utilizando apenas a luz da lâmpada, em vez do flash de magnésio das duas vezes anteriores. Ao observarmos a imagem revelada, ficamos novamente assombrados. Como eu estava de bruços, apenas minha cabeça foi capturada. Acima dela, porém, via-se um Ryujin (龍神), um Deus-Dragão, com a cabeça erguida e o corpo longo enroscado em espiral. De seu corpo emanavam vários feixes de luz. Ao contá-los, vi que eram cinco raios de cor dourada, o que não deixava dúvidas de que se tratava de um Dragão Dourado. Era a confirmação de que minha divindade protetora é o Dragão Dourado.</p>
 <p>Gostaria de tecer alguns comentários sobre Toko Otoko. Esse homem, por vezes, entrava em um estado sereno de canalização divina. Nesses momentos, fechava os olhos e parecia dialogar consigo mesmo, como se recebesse inspirações. Sobre a última fotografia, ele explicou: “Professor, o senhor é protegido por um Deus-Dragão. Digo isso porque, sempre que venho encontrá-lo, invariavelmente cai uma chuva fina, o que é um sinal da presença de um dragão. Hoje à noite, como começou a chover há pouco, pensei que talvez o Ryujin se manifestasse na foto, e por isso a tirei”. Suas palavras fizeram todo o sentido para mim.</p>
 <p>A fotografia espiritual de Senju Kannon, que abre este livro, é uma das três imagens que acabo de descrever.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊写真 自観叢書第4篇『奇蹟物語』P.21、昭和24(1949)年10月5日 私はさきにかいたごとく、昭和三年二月の四日の節分の日、それまで従事していた仕事を全部放擲（ほうてき）し信仰生活に入った記念日でもある。<br/><br/>もちろん神示によって私の使命を覚り、幾多の奇蹟によって確信を得たからで、全身全霊を打込まざるを得ない事になったからである。<br/><br/>この時から昭和九年五月一日東京市麹町区平河町に一小家屋を借り民間治療所を開業するまで六年三ケ月の間、あらゆる霊的研究とあいまって神幽現三界の実相を把握し、人間の病気と健康に関する一大発見等によって、神霊治療こそ、病無き世界を出現し得べき絶対的方法である確信を得たからである。<br/><br/>ところがこの年一つの大奇蹟が顕われた。<br/><br/>それをこれからかいてみるのである。<br/><br/>忘れもしないこの年の十月十一日東光男という名刺をもって初めて来訪した男があった。<br/><br/>東光男という文字に興味を引かれ私は会う事にしたが、彼の話はこうである。<br/><br/> 「自分は約二十年前支那内地を旅行した。<br/><br/>その時支那の有力な古い宗教である道教の信者となり、ある時私は神憑りとなった。<br/><br/>その時の御託宣には、「今より二十年後日本に観音力を持った人が現われる」という事である。<br/><br/>その後日本へ帰国したが右の御託宣を信じ、それとなく待っていたところ、今年の春自分の家より東の方に観音力を持った人が既に現われているというのである。<br/><br/>自分の家は渋谷であったから東といえば赤坂から麹町方面なので探していたが、たまたま麹町に知人がありその話をしたところ、それは最近平河町に観音様で病気を治す人が出来たから訪ねてみよ――と言われ、来訪した」というのである。<br/><br/>私はそれを聞いて、「それは多分私でしょうよ」と言って二、三時間おもに宗教的な話をやり、帰りがけに、「写真を映さしてくれ」というのである。<br/><br/>私は承知したところ、彼は、「床の間へ座ってくれ」というので、私は座り写さしたところ、翌日彼は、「こんな不思議な写真が出来た」と乾板を持って来た。<br/><br/>私も見て驚いた。<br/><br/>私の横腹の方から白色雲煙のようなものが天井の近くまで噴出状に出ていて、頭上一、二尺辺に千手観音の姿が見える。<br/><br/>私はあまりの不思議さに眼を瞠った。<br/><br/>昨日写さした時何か不思議なものが写るような予感はしたが、観音様が写るなどとは想いもよらなかった。<br/><br/>よく見ると立派な画である。<br/><br/>多分どこかにある絵を、マグネシウムを焚いた瞬間、空間を超越し、電光石火画面に表わしたものに違いない。<br/><br/>それまで外国のも日本のも種々な霊写真をみたが、それ等は人間の死霊がおもで、外国写真などでキリストの写ったのをみたが、これはトリックである事がマザマザと判るのである。<br/><br/>外にそう大した霊写真は見なかった。<br/><br/>ところが右の私の霊写真の何という素晴しさだ。<br/><br/>のみならず間髪を容れない一瞬に、無論遠方にある画を写真に表わすという。<br/><br/>その不思議な力こそ観音力でなくて何であろう。<br/><br/>この観音力の素晴しさを考える時、今にどんな力を発揮されるが想像もつかない。<br/><br/>嗚呼、恵まれた吾なるかなと、自ら湧く希望感に酔ったのである。<br/><br/> これより先、赤坂の某所に住んでいた某夫人の病気を私が治したので、その婦人は感激の余り三階に観音様の部屋という六畳敷の一間を作った。<br/><br/>その部屋は私のかいた観音像や、種々の書体をかけた。<br/><br/>私も夫人の感謝の気持に嬉しく思ったのである。<br/><br/>その部屋の出来上る頃、私は千手観音の像が描きたくて仕方がない。<br/><br/>それから巾五尺長さ六尺という大きな紙に描くべく構図にとり掛った。<br/><br/>しかし描く部屋が長四畳の座敷なので狭いとは思ったが、外に適当な部屋がない。<br/><br/>それを婦人が見兼ねて、「今度出来た私の家の三階の観音様の部屋ではいかがです」という。<br/><br/>私は気がついて、それは結構だ――という訳で、いよいよ右の観音の間で筆を執る事となった。<br/><br/> ちょうど三分の一くらい出来た時である、その夫人の主人というのが大酒家で、非常に酔って帰った晩、何思ったか書きかけの千手観音の画をナイフで滅茶滅茶に切り刻んでしまった。<br/><br/>それを電話で知らされ、驚いて行ってみると、なる程余りの無残さで、一時私は茫然として泣きたいくらいであった。<br/><br/>その時ふと浮んだ事は二、三日前に出来た、千手観音の霊写真である。<br/><br/>そこでよく考えてみると、観音様は初めのではいけない、このようにかけと霊写真によって見せてくれたに違いない。<br/><br/>とすれば切られたのは、観音様がなされたのだ。<br/><br/>そうだむしろ感謝すべきだと思ったのである。<br/><br/>早速新規蒔直しに書いたのが五六七（ミロク）教会小田原本部にある千手観音のお姿で、仏壇へ祀る御屏風観音でもある。<br/><br/>そうして右は最初の構図と違う点が三つある。<br/><br/>最初のは円光がお顔の周囲だけであったのが全身的になった事と、最初のは髯（ひげ）があったのが、今度のは全然ない。<br/><br/>いわば若いお姿で、また最初のは雲の上であったのが、今度のは巌の上という訳で、つまり円光が大きくなった点、お年が若くなった点、雲上から降られて地上で救いの業をなされるという訳で、私はなる程とうなずいたのである。<br/><br/> 右の霊写真から十日後の十月二十一日また素晴しい霊写真が出来た。<br/><br/>この日観音様の鎮座祭をしたいというので、私は右の三階観音様の部屋へ招かれた。<br/><br/>いまだ何か霊写真が出来るような気がしたので東光男に写さした。<br/><br/>彼は今度も床の間に座ってくれといい、前へ香炉が欲しいというがないので、白磁の水盤を香炉代りに置いた。<br/><br/>そうして私に端座合掌してくれというのでその通りにした。<br/><br/>この時写ったのが空前絶後ともいうべき霊写真で、それは室内が朦朧（もうろう）として中央に鮮やかに日光が強い白色で表われ、その円光の中央に私の顔がかすかに表われ、合掌した手も見える。<br/><br/>座蒲団と水盤は微かながら鮮明に表われたが、その外は何も写らない、右はその時円光から強力な光波が放射し室内に充満したため、物体が妨げられたのである。<br/><br/>その時疑惑を避けんがため、座にいた七、八人の人を立合わせた。<br/><br/>というのは前の霊写真の時は、立合人は、例の夫人一人であったからである。<br/><br/>次いでその晩今一枚の霊写真が出来た。<br/><br/> それは、私がしきりに睡気を催すので、前にあったテーブルへ顔をうつ伏せにして居睡りをした。<br/><br/>そこを東光男が、前二回はマグネシウムを発いたが、この時は私が動かないためか、電灯の光で写した。<br/><br/>出来上ったのをみると、これはまた驚いた。<br/><br/>うつぶせになっていたので、頭だけ写った。<br/><br/>ところが頭の上に龍神が首をもたげ身体は螺旋（らせん）状に巻いており、すこぶる長身である。<br/><br/>龍神の身体からは、幾条もの光を発している。<br/><br/>数えると五条の光で、これは金色であるから金龍である事に間違いはない。<br/><br/>私の守護神は金龍である事の裏付といってもいい。<br/><br/>ここで東光男について少しかいてみるが、この男は時々平静な神憑りになる。<br/><br/>その時は冥目して何か自問自答している。<br/><br/>インスピレーションが時々来るらしい。<br/><br/>この時の事も彼がいうには、先生には龍神さんが守護しておられる。<br/><br/>なぜなれば、いつも先生と面接する時は必ず小雨が降る。<br/><br/>これは龍神が守護している証拠だ。<br/><br/>今晩も先程、雨が降って来たので、キット龍神が写るかもしれないと思ってとったのである、との事で私もうなずいたのである。<br/><br/> 本書冒頭の霊写真は右三種の中の千手観音様のものである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

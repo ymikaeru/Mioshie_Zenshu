@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jin1065</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人事篇 第一篇 ５ 065-075 家系家庭 065 家庭内不和の解決（一人の入信の解決） 家庭内が不和で常に争いが絶えないと言うのは、各自のわがままからと思いますが、何か霊的に間違っていることがあるのでしょうか。<br><br> 大いに間違っている。<br><br>信仰によって治る。<br><br>一つの信仰になれば治る。<br><br>（信仰も種々やると却って不幸で、争が起る）これは副守護神がやるのである。<br><br>順序が違うとか、いろんな原因があり、簡単にいえぬ。<br><br>その家個々について説明せねば判らぬ。<br><br> 教団一つになれば、争など立所に治る。<br><br>（こういう家庭は）一人が信仰へ入って徳を積むと、他の方へ霊線により（光がゆき）信仰心が沸く、これでよい。<br><br>（S23.10.13） 066 家庭もめる（後継問題） (一) 私の関係している信徒富澤たけ（三十一才）は、夫（茨城県にて勤務）と別居して現在実母と共に岩手県の伯母の家に居住しております。<br><br>この伯母は、数年前に後継者のないため、その甥を仮後継者としていたところ、出征以来音信なく、伯母の死ぬ時は母が死水を取り、後継者として先祖の位牌を引継ぎましたが、最近その甥が突然帰って来て家がもめて困っております。<br><br>どうしたら良いでしょうか。<br><br>御教示を御願い致します。<br><br> (二) また富澤たけの家族は、女ばかり（三人）眼病に罹りますが、何か霊的に原因がありましょうか。<br><br>御伺い申し上げます。<br><br> (一) たけという人が光明如来様によくお願いする。<br><br> (二) 浄霊すれば治る。<br><br>（S24. 6. 8） 067 嫁の不義 我が家の息子が戦死しまして後、嫁がこの度不義を結びました。<br><br>それがため、一度親元へ帰りましたが、子供が可愛さにまた戻す事にしました。<br><br>いかにしたら将来慎んで私共家族の面倒をみて貰えるでありましょうか。<br><br>御教え願います。<br><br> 戦死して一年以上経てば大したおとがめはない。<br><br>一年以内なら相当強いおとがめがある。<br><br>亡くなった夫の人格いかんにもよる。<br><br>執着の強弱である。<br><br> いかにしたらよいかというと信仰により人を助ける。<br><br>その徳により誰からかいい事をされる事になる。<br><br>嫁さんか、あるいは他の人がよくしてくれる。<br><br>要は自分にある。<br><br>嫁さんにありと限らぬ。<br><br>嫁さんの事など問題にせず考えなくてはいけない。<br><br>（S24. 8. 9） 068 代々養子の家系 代々女ばかり生れ、婿養子で家系を継ぐ家を見受けますが、いかなるわけで御座いましょうか。<br><br> 大本教でも天理教でも、女の系統であって女ばかり生れる。<br><br> 男系と女系とある。<br><br>（S24. 9.19） 069 養子相続について（次男か次女いずれにすべきや） 私は男女各二人の子供がありました。<br><br>長男は戦死、次男は二才の時他家へ養子しましたが、生家に同居しております。<br><br>長女は嫁にやりました。<br><br>残りの次女を相続させるべきでしょうか。<br><br>次男を復籍させても良いでしょうか。<br><br> 次男の復籍の方がよい。<br><br>次女を相続させると養子を迎えなくてはならぬ。<br><br>養子は他人の系統になるからである。<br><br> 070 長男の後継 長男は必ず家を継がなければならないものでしょうか。<br><br> 右御教示御願い申し上げます。<br><br> 継がなくともよい。<br><br>昔戦国時代、大将が討死すると、後すぐ代りがいないといけないのでそうした。<br><br>長男が先に生れたから、まず長男に継がすのが本当である。<br><br>但し、事情があれば他に継がしてもよい。<br><br>（S24. 5.23） 071 絶家すべき家（因縁） 私の母は一人娘で嫁入りして参りまして、実家の窪内家では母の父がただ一人病臥中で御座いまして、もし亡くなれば誰も窪内家を継ぐ縁者は御座いません。<br><br>私も兄弟が無く、その病臥中の祖父も、窪内家を私の子孫が祀ってくれさえすれば、窪内家は絶えてもよいと言っているとの事で御座いますが、霊的に見た場合それで宜敷う御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> それでいい。<br><br>家によっては一旦絶家しなければならない家がある。<br><br>（S24.12.11） 072 家紋変更の可否 家紋を勝手に変更しても宜しいでしょうか。<br><br>また紋所の因縁を御教示願います。<br><br> 家紋の変更は、祖霊によっては嫌がるし、変更の要もない。<br><br>（S25. 2.26） 073 家の紋章 家の紋章には、何か意味がありましょうか。<br><br> 家の紋章は家系を表わす。<br><br>紋が一つならば祖先はそこから出た事となる。<br><br>その他に大した意味なし。<br><br> 074 猫繁殖の処置 家の猫が殖えて困る場合の処置。<br><br> 人にやればよい。<br><br>（S24.12.18） 075 不開の箱と病気 私の長男（孝一）が、昨年二月急に狐つきのようになりました。<br><br>長男は三月に教修を戴き、先月私も入信させて戴きました。<br><br>また光明如来様、屏風観音様も御祭りさせて戴き、御守護で最近大変快方に向いました。<br><br> なお何代か前の先祖の一人が京都の公卿に養子に参り、死ぬ時遺品を送って来ました。<br><br>それは絶対開けてはならないと言う言い伝えでしたが、先年開いてみますと桐の十六葉の紋のついた箱と、お守り札のようなものが一杯はいった箱と二つでした。<br><br>この箱が長男の病気と何か関係が御座いましょうか。<br><br>またどう致しましたら宜しゅう御座いましょうか。<br><br>何卒御守護御願い申し上げます。<br><br> それは、皇室に関係があるのであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Compilação dos Escritos de Okada Jikan-shi – Pesquisa de Ensinamentos: Ajuda; Pesquisa de Materiais: Assuntos Humanos, Volume I, Seção 5</h2>
 <h3>065 a 075 – Linhagem e Família</h3>
@@ -138,5 +290,48 @@ function toggleLang(lang) {
 <h2>075 A Caixa que Não Deve ser Aberta e a Doença</h2>
 <p><strong>Pergunta:</strong> Em fevereiro do ano passado, meu filho mais velho, Koichi, subitamente passou a se comportar como se estivesse sob possessão de um espírito de raposa. Em março, ele teve a permissão de receber os ensinamentos, e no mês passado, eu também ingressei na fé. Entronizamos em nosso lar uma imagem de Komyō Nyorai (光明如来) e uma de Byōbu Kannon (屏風観音) e, graças à proteção Divina, ele tem apresentado uma melhora notável. Ocorre que um de nossos antepassados, de muitas gerações atrás, foi adotado por um nobre da corte em Quioto. Ao morrer, ele enviou de volta alguns pertences com a instrução expressa de que jamais fossem abertos. Anos atrás, nós os abrimos e encontramos duas caixas: uma com um brasão de paulownia de dezesseis folhas e outra repleta de objetos semelhantes a talismãs. Esses objetos poderiam ter alguma relação com a doença de meu filho? E como deveríamos proceder? Rogo humildemente por vossa proteção e orientação.</p>
 <p><strong>Resposta:</strong> Isso certamente possui relação com a Casa Imperial.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人事篇 第一篇 ５ 065-075 家系家庭 065 家庭内不和の解決（一人の入信の解決） 家庭内が不和で常に争いが絶えないと言うのは、各自のわがままからと思いますが、何か霊的に間違っていることがあるのでしょうか。<br/><br/> 大いに間違っている。<br/><br/>信仰によって治る。<br/><br/>一つの信仰になれば治る。<br/><br/>（信仰も種々やると却って不幸で、争が起る）これは副守護神がやるのである。<br/><br/>順序が違うとか、いろんな原因があり、簡単にいえぬ。<br/><br/>その家個々について説明せねば判らぬ。<br/><br/> 教団一つになれば、争など立所に治る。<br/><br/>（こういう家庭は）一人が信仰へ入って徳を積むと、他の方へ霊線により（光がゆき）信仰心が沸く、これでよい。<br/><br/>（S23.10.13） 066 家庭もめる（後継問題） (一) 私の関係している信徒富澤たけ（三十一才）は、夫（茨城県にて勤務）と別居して現在実母と共に岩手県の伯母の家に居住しております。<br/><br/>この伯母は、数年前に後継者のないため、その甥を仮後継者としていたところ、出征以来音信なく、伯母の死ぬ時は母が死水を取り、後継者として先祖の位牌を引継ぎましたが、最近その甥が突然帰って来て家がもめて困っております。<br/><br/>どうしたら良いでしょうか。<br/><br/>御教示を御願い致します。<br/><br/> (二) また富澤たけの家族は、女ばかり（三人）眼病に罹りますが、何か霊的に原因がありましょうか。<br/><br/>御伺い申し上げます。<br/><br/> (一) たけという人が光明如来様によくお願いする。<br/><br/> (二) 浄霊すれば治る。<br/><br/>（S24. 6. 8） 067 嫁の不義 我が家の息子が戦死しまして後、嫁がこの度不義を結びました。<br/><br/>それがため、一度親元へ帰りましたが、子供が可愛さにまた戻す事にしました。<br/><br/>いかにしたら将来慎んで私共家族の面倒をみて貰えるでありましょうか。<br/><br/>御教え願います。<br/><br/> 戦死して一年以上経てば大したおとがめはない。<br/><br/>一年以内なら相当強いおとがめがある。<br/><br/>亡くなった夫の人格いかんにもよる。<br/><br/>執着の強弱である。<br/><br/> いかにしたらよいかというと信仰により人を助ける。<br/><br/>その徳により誰からかいい事をされる事になる。<br/><br/>嫁さんか、あるいは他の人がよくしてくれる。<br/><br/>要は自分にある。<br/><br/>嫁さんにありと限らぬ。<br/><br/>嫁さんの事など問題にせず考えなくてはいけない。<br/><br/>（S24. 8. 9） 068 代々養子の家系 代々女ばかり生れ、婿養子で家系を継ぐ家を見受けますが、いかなるわけで御座いましょうか。<br/><br/> 大本教でも天理教でも、女の系統であって女ばかり生れる。<br/><br/> 男系と女系とある。<br/><br/>（S24. 9.19） 069 養子相続について（次男か次女いずれにすべきや） 私は男女各二人の子供がありました。<br/><br/>長男は戦死、次男は二才の時他家へ養子しましたが、生家に同居しております。<br/><br/>長女は嫁にやりました。<br/><br/>残りの次女を相続させるべきでしょうか。<br/><br/>次男を復籍させても良いでしょうか。<br/><br/> 次男の復籍の方がよい。<br/><br/>次女を相続させると養子を迎えなくてはならぬ。<br/><br/>養子は他人の系統になるからである。<br/><br/> 070 長男の後継 長男は必ず家を継がなければならないものでしょうか。<br/><br/> 右御教示御願い申し上げます。<br/><br/> 継がなくともよい。<br/><br/>昔戦国時代、大将が討死すると、後すぐ代りがいないといけないのでそうした。<br/><br/>長男が先に生れたから、まず長男に継がすのが本当である。<br/><br/>但し、事情があれば他に継がしてもよい。<br/><br/>（S24. 5.23） 071 絶家すべき家（因縁） 私の母は一人娘で嫁入りして参りまして、実家の窪内家では母の父がただ一人病臥中で御座いまして、もし亡くなれば誰も窪内家を継ぐ縁者は御座いません。<br/><br/>私も兄弟が無く、その病臥中の祖父も、窪内家を私の子孫が祀ってくれさえすれば、窪内家は絶えてもよいと言っているとの事で御座いますが、霊的に見た場合それで宜敷う御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> それでいい。<br/><br/>家によっては一旦絶家しなければならない家がある。<br/><br/>（S24.12.11） 072 家紋変更の可否 家紋を勝手に変更しても宜しいでしょうか。<br/><br/>また紋所の因縁を御教示願います。<br/><br/> 家紋の変更は、祖霊によっては嫌がるし、変更の要もない。<br/><br/>（S25. 2.26） 073 家の紋章 家の紋章には、何か意味がありましょうか。<br/><br/> 家の紋章は家系を表わす。<br/><br/>紋が一つならば祖先はそこから出た事となる。<br/><br/>その他に大した意味なし。<br/><br/> 074 猫繁殖の処置 家の猫が殖えて困る場合の処置。<br/><br/> 人にやればよい。<br/><br/>（S24.12.18） 075 不開の箱と病気 私の長男（孝一）が、昨年二月急に狐つきのようになりました。<br/><br/>長男は三月に教修を戴き、先月私も入信させて戴きました。<br/><br/>また光明如来様、屏風観音様も御祭りさせて戴き、御守護で最近大変快方に向いました。<br/><br/> なお何代か前の先祖の一人が京都の公卿に養子に参り、死ぬ時遺品を送って来ました。<br/><br/>それは絶対開けてはならないと言う言い伝えでしたが、先年開いてみますと桐の十六葉の紋のついた箱と、お守り札のようなものが一杯はいった箱と二つでした。<br/><br/>この箱が長男の病気と何か関係が御座いましょうか。<br/><br/>またどう致しましたら宜しゅう御座いましょうか。<br/><br/>何卒御守護御願い申し上げます。<br/><br/> それは、皇室に関係があるのであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

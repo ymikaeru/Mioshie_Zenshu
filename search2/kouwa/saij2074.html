@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>saij2074</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 祭事篇 第二篇 ６ 074-093 処分 074 大神と八百万神併祭（甘茶供養） 日蓮を信仰していた人で、現在八百万の神を一つ社に大神様として御祭りしてあります。<br><br>今御光をいただき入信させていただいております。<br><br>大神様をどうしておきましたらよいでしょうか。<br><br>また先祖、地先祖に甘茶供養しておりますが、これもどうで御座居ましょうか。<br><br> 甘茶供養は四月八日だけでよい、八百万神と大神様はちがう。<br><br>立派な神様は八百万神と一緒においでにならぬ。<br><br>全部処分した方がよい。<br><br>光明如来様お祭りしたから、ここにお出の神々は元の御座におかえり願うという。<br><br>（S24. 3. 2） 075 既祀神の処置 私の家では昭和二十一年迄、松尾大明神、白龍大神及不動様を二十年ばかり祀っておりましたが、御光を戴きましてより前記三神を祀る必要がなくなりました。<br><br>今後いかにすればよいでしょうか。<br><br> 一年はそのままにして置き、お祀りしておかえりを願う。<br><br>光明如来様をお祭りしたから元の御座へお帰り願いたいといい、その後処分する。<br><br>神の中にも執着のある神があり、それが除れるまで一年位そのままにして置く。<br><br>その方が、そのまま穏かで障りがなくていい。<br><br>（S24. 3.15） 076 既祭神の処分 私の家では御先祖の時より、御嶽様と秋葉様及稲荷様を祀っておりましたが、昨年十二月光明如来様を御受けし、床の間の真中に御祭りし、両脇に御嶽様と秋葉様を祀っておりましたが、教導所の先生が御山に帰って戴きなさいとわ言われたので五月三日御祭をして、御山に帰って戴きました。<br><br>現在は光明如来の御軸の下に、前記神様の御軸をまいて三宝の上にのせてありますが、これでよいのでしょうか。<br><br>御伺い致します。<br><br> 光明如来様御奉斎後一年経ってから処分する。<br><br>（S24. 5.28） 浄化されるとは執着がとれる事である。<br><br>あらゆる神仏、稲荷等の処分は直ちに処分してはいけない。<br><br>二、三年そのままにした方がよい。<br><br>（S23） 077 不動・弘法等の処分 不動明王、弘法大師その他の教祖、宗祖のお姿を画いた軸を御祀りしている方が処分を致したいと申しておられますが、どんな風に処分をさせて頂きましたら宜敷う御座いますか。<br><br>御教えを御願い申し上げます。<br><br> 光明如来様をお祭りして、普通一、二年経てば処分してもよい。<br><br>よく御礼を言って、元の御座にお帰り願うと言葉で言えばよい。<br><br> 不動も弘法も偉いのであるから、もっと早くていい。<br><br>一週間か十日位でもいい。<br><br>龍神や狐などは一、二年を要する。<br><br> 神仏によって臨機応変に解釈すればよい。<br><br>（S24. 2. 1） 078 移転時の神仏処理 立不動尊と高倉稲荷と日蓮像をただ今お祭りしてある家が、今度他所に移転するにつきまして右の神仏をどう致したもので御座いましょう。<br><br>なおこの人は教修を最近頂きましたばかりにて光明如来様はお祀りして御座いません。<br><br> 光明如来様をお祭りすれば処理していい。<br><br>（S24. 3.22） 079 多祭神処分の言葉 拍手は四柏手。<br><br>ここにお鎮りになっている皆様に申し上げます。<br><br>祝詞を奏げ、長い間の御守護を謝し、観音様をお祭りしたから、今日限り元の御座へお帰り願います、という。<br><br> 言霊に唱えてもらわぬと、神様は帰れぬ。<br><br>（S24. 3.22） 080 神札等処分 光明如来様奉斎と同時に、家にあった以前の神様を神宮にお祭りして頂かなくて全部焼却しましたがよろしいでしょうか。<br><br> 神官が祀る要はない、資格がない。<br><br>今迄の事をお断りする、黙ってやるとある程度悩まされる。<br><br>（S25. 5.26） 081 諸神札の処理 私の家は何代も続いておりましていつの頃お祭り致しましたものかわかりませんが、家の東に伏見稲荷、遠山八幡、津島島三社とそれから石碑にて秋葉、金比羅、宇賀神、甲子、二十三夜、庚甲、馬頭観世音が四ツと杉の木にお山の神様がお祭りしてあります。<br><br>昭和二十三年四月に神主をお願い致しまして、今迄の御守護の御礼を申し上げて帰っていただくようにお祭りをお願い致しましたところ、それは出来ないと申しまして、いつきまつりてと祝詞をあげお祭りして下さいましたがそれ以来お祭りもせず、お屋根やおふくらもいたみ、お庭もあれておりましたところ、この度村の方で石垣を作ってつつじの木を植えてきれいにして下さいました。<br><br> 一家五人入信致しまして昭和二十三年四月に光明如来様を、昭和二十四年五月には大光明如来様を御奉斎させていただき一家揃ってお道のために御用をさせていただいております。<br><br>この沢山の神様をお祭りしてございますがどういたしたらよろしゅうございましょうか。<br><br>御伺い申し上げます。<br><br> 自分で祀りをし、帰ってもらう。<br><br>神主には、資格がないから出来ぬ。<br><br>（S25. 5. 6） 082 神符等の取扱い 私事二十四年三月入信、五月光明如来様を御祭りさせて頂きました。<br><br>以来数々の御利益を頂きおり、一人でも多くの人にこの福音を御伝えさせて頂くよう努めております。<br><br> つきましては従来信仰しておりました山神様、八幡様、村社というように種々の御神符が沢山祭前にはりつけてありますが、いかに取扱うべきか。<br><br>御教示願います。<br><br> 整理した方がよい。<br><br>何にも必要なく、反ってさっぱりしない。<br><br>一まとめにし祭壇に安置し、御守護御礼して、元の御座へお帰り願うと申す。<br><br>（S25. 2. 5） 083 御札の処分 天照皇大神宮及びその他の神社の御札または「南無日蓮高祖大菩薩」等と記載してあるお寺の御札等を処分するには、どう致したらよろしいでしょうか。<br><br>御伺い申し上げます。<br><br> 今迄の御守護の御礼を言って、元の御座へお還りを願うのである。<br><br>（S24. 9.17） 084 御守札の処分 昨年十二月二十日、煤払いを済ませまして神棚に各所の神社の御守護札が祀ってございましたのを御礼申し上げて御焚上げ致し、お宮はねずみの巣になっておりますので、同じくお焚上げ致しました。<br><br>なお、小さい祠が二つ残っております。<br><br>扉を開いてみますと、一つは「天地之神守利給幸倍給」と書いてございます。<br><br>他の一つは「岡田弁才天」と書いてございます。<br><br>私の家は祖父が分家して岡田の家（絶家）を継ぎ、現在の家を建て、祖父の代にお祀りしたものとおもわれます。<br><br>右の祠はどのように致しましたらよろしいでしょうか。<br><br> お礼をいってお焚上げすればよい。<br><br> 085 大本教神号処理 私は以前大本教信者で中華民国青島支部長をしており、引揚の際大神様、祖霊様、守護神その他を全部焼却して帰りました。<br><br>帰国後、御神体がないため自分で御神号を書き毎日礼拝しておりましたが祖霊様の御神体がなく御祭りしておりませんから気になっておりました。<br><br> 昨年十一月入信し光明如来様を御迎え致しましたにつき大本教の御神号を処理したいと思いますがその方法をば御教示願います。<br><br> 御礼をして焼けばよろしい。<br><br>この間大本教から提携してくれといって来たが断った。<br><br>宗教はそうゆくものではない。<br><br>成り立たない。<br><br>救ってもらいたいなら、個人的に応じてもいい。<br><br>（S24. 5. 6） 086 大本教の処分 大本教の前の神様を御祭してある方が教修を戴き、神様御祭りさせて戴きますれば、大本の神様及守護神、祖霊様等の御処分の方法御教示御願い申し上げます。<br><br> 大本の神は処分した方がよい。<br><br>神様にお礼を言ってお帰り願って焼く。<br><br>守護神などもよい。<br><br>（S25. 3.23） 087 出口師書の処置と墓地なき場合 先日御教え頂きました私の実家の母、故柴田よねの遺骨で御座いますが、柴田家の墓地が複雑致しておりますので、栗田家の墓地に埋葬するようとの御言葉を頂きましたが、私共は栗田の分家の分家で御座いますので、墓地が御座いませんがどう致したらよろしゅう御座いましょうか。<br><br>御伺い申し上げます。<br><br>なお大本教出口氏の書はどのように致したらよろしゅう御座いましょうか。<br><br>御伺い申し上げます。<br><br> 出口師の書は蔵っておく。<br><br> 日蓮宗に関係したものは置いてはいけない。<br><br>狐がそれを本拠にする。<br><br> 一番近い所の墓地がよい。<br><br>出来なきや霊は我慢する。<br><br>（S25. 3.28） 088 霊友会で祀りし戒名の処分 元霊友会におりました方で仏壇に他家の戒名まで百数十名もお祀り致しております。<br><br>その後その家では病気と怪我が絶えません。<br><br>たまたま本教の話を聞き縋って参りましたのですけれど、今迄の霊友会当時の過去帳はどう致しましたらよろしいでしょうか。<br><br> 霊友会でやった事は全部よす。<br><br>霊友会では自分の祖先を全部処分する。<br><br> 他家の分は処分焼却し、自家のもののみとする。<br><br>過去帳は焼却してよい。<br><br>（S24. 8. 9） 089 遺杖やお札の処分 私は昨年六月発病、医師より心臓脚気と名付けられ起きる事も出来ませんでした。<br><br> 昨年九月教修を受けまして今年一月初旬よりよだれが出るようになり病状やや軽快致しました。<br><br>二月十八日例祭日に先生の浄霊をいただきましたところ隣の家で祭っている稲荷の子であると言い、翌日午後また自然に霊が浮き光明如来様をお迎えしないと先祖が救われないと必死に頼みました。<br><br>二十日に光明如来様を御迎え致しましたところ、二十二日夜十時頃、突然光明如来様が稲荷であるから御嶽様に処理してもらうと言い出しましたが、本人は御軸にふれる事は出来ません。<br><br>昨年十月にお祈りしてもらったお札（御嶽様）が右のような事を言うといっております。<br><br>また御嶽教を信仰しておってその後死亡した兄の杖があります。<br><br> 右のお札と杖の処置及今後の浄霊法を御教え下さい。<br><br> 杖はとっておく。<br><br>いくらか執着があるとまずい。<br><br>お札は処分していい。<br><br>人間の言葉で言ってもらわぬと帰れぬ。<br><br>（S24. 2.26） 090 強打せる身体の震え、お題目のお返し 私（二十八才）は二十二才の時、材木運搬中転び脊髄と肩と膝を強打致しまして医療を受けておりましたが、一年程経ってから身体が震えが来まして段々震えが大きくなり止まらなくなりました。<br><br>父は私が２才の時に死亡致しましたが、感電死したと聞いております。<br><br> 一家は前に日蓮の熱心な信者でしたが、お屏風様を御祭り致しまして日蓮のお軸と像を行者のところへ返しに母が行きましたところ、行者が大いに怒っておったそうですが、その後母と姉が非常に反対をし始めました。<br><br>体の震えと父の死と関連が御座いましょうか。<br><br>また母姉の反対は日蓮行者との関係が御座いましょうか。<br><br>御伺い申し上げます。<br><br>今後宜敷く御守護御願い申し上げます。<br><br> 身体の震えとは関係はない。<br><br>放置しておけば治る。<br><br>打った所へ固まっているために震える。<br><br>そこを溶かせばよい。<br><br>医療で、内出血を固めた。<br><br>固めて筋を押すので、そこを溶かす。<br><br> 日蓮宗へ題目などを返すのはいけない。<br><br>こっちで処分する。<br><br>光明如来様をお祭りして、暫くの間処分せぬ方がよい。<br><br> 反対者のあるのにお祭りするのは御無礼になる。<br><br>（S25. 4.28） 091 神体不明の宮に応処 私の家には昔より神体不明の神様を竹林の中に祀ってあります。<br><br>最近行者が年一回の御祭を致し、社の方向を西に向けるよう申しました。<br><br>いかなるわけでありましょう。<br><br>また向を変える必要がありましょうか。<br><br>私は本年五月光明如来様を御祭りし、一生懸命信仰しておりますが、前者も従前通り御祭りすべきでしょうか。<br><br> 宮の中を開けてみれば何神か判るであろう。<br><br>普通の神なら、紙へ名が書いてある。<br><br> 大先生に言われたといって開けてみよ。<br><br> 方角はどっちでもよい。<br><br>なおすとすれば、光明如来様の方へ向ける。<br><br> 今迄祀ってあったものなら、その通りにする。<br><br> 宮によっては空っぽのがよくある。<br><br>（S24. 8.17） 092 宮の処分 以前日蓮宗の行者により内神を祭り、更に外宮を作りましたが「幣そ幣そ」だけで神様の名前が書いてありません。<br><br>その時正式に神様の名前をつけて祭込みするには更に修業が必要だと申しておりました。<br><br>その頃より私は本教団に入会し、光明如来様を祭りその際に内宮（清宮安女姫大禅神）は氏神に御還ししましたが、外宮はそのまま残っております。<br><br>この暮にはこれも御還ししようと思っております。<br><br>土台のコンクリート等はいかに処分したらよいでしょうか。<br><br> 処分してもよろしい。<br><br>本当は一年位経ってからがよい。<br><br> 093 女観音の石宮の処置 転居致しましたところ、庭の一隅に女観音と刻まれた高さ二尺、巾一尺位の石宮があります。<br><br>これはいかなるもので、いかに処置したら、宜しいでしょうか。<br><br> 家には大光明如来様をお祭りしております。<br><br> 字だけで、中はないなら庭の一番いい所へ安置しておけばよい。<br><br> 作った人の気持が入っているから、いくらか霊線が繋っている。<br><br>処置すると怨んだりなどする。<br><br> 女観音とは、木花咲爺姫になる。<br><br>どっちかというと、女性の働きが多いようである。<br><br>（S24. 3.20）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coleção de Teses de Okada Jikanshi — Consulta aos Ensinamentos: auxílio; Consulta de Documentos: Seção de Assuntos Cerimoniais, Parte II, 6; 074-093, Remoção</h2>
 <h2>074 Consagração Conjunta do Grande Deus e das Miríades de Divindades (Oferenda de Chá Doce)</h2>
@@ -172,5 +324,48 @@ Em minha casa, reverenciamos o Altar de Daikomyo Nyorai-Sama.</p>
 <p>Se houver apenas a inscrição, sem nada dentro, pode mantê-lo no melhor local do jardim.</p>
 <p>A intenção da pessoa que o construiu está impregnada nele, então existe alguma conexão espiritual. Se for removido, a pessoa poderá guardar ressentimento.</p>
 <p>"Onna Kannon" refere-se a Konohanasakuya-hime. De certo modo, sua atuação é predominantemente feminina. (20.03.1949)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 祭事篇 第二篇 ６ 074-093 処分 074 大神と八百万神併祭（甘茶供養） 日蓮を信仰していた人で、現在八百万の神を一つ社に大神様として御祭りしてあります。<br/><br/>今御光をいただき入信させていただいております。<br/><br/>大神様をどうしておきましたらよいでしょうか。<br/><br/>また先祖、地先祖に甘茶供養しておりますが、これもどうで御座居ましょうか。<br/><br/> 甘茶供養は四月八日だけでよい、八百万神と大神様はちがう。<br/><br/>立派な神様は八百万神と一緒においでにならぬ。<br/><br/>全部処分した方がよい。<br/><br/>光明如来様お祭りしたから、ここにお出の神々は元の御座におかえり願うという。<br/><br/>（S24. 3. 2） 075 既祀神の処置 私の家では昭和二十一年迄、松尾大明神、白龍大神及不動様を二十年ばかり祀っておりましたが、御光を戴きましてより前記三神を祀る必要がなくなりました。<br/><br/>今後いかにすればよいでしょうか。<br/><br/> 一年はそのままにして置き、お祀りしておかえりを願う。<br/><br/>光明如来様をお祭りしたから元の御座へお帰り願いたいといい、その後処分する。<br/><br/>神の中にも執着のある神があり、それが除れるまで一年位そのままにして置く。<br/><br/>その方が、そのまま穏かで障りがなくていい。<br/><br/>（S24. 3.15） 076 既祭神の処分 私の家では御先祖の時より、御嶽様と秋葉様及稲荷様を祀っておりましたが、昨年十二月光明如来様を御受けし、床の間の真中に御祭りし、両脇に御嶽様と秋葉様を祀っておりましたが、教導所の先生が御山に帰って戴きなさいとわ言われたので五月三日御祭をして、御山に帰って戴きました。<br/><br/>現在は光明如来の御軸の下に、前記神様の御軸をまいて三宝の上にのせてありますが、これでよいのでしょうか。<br/><br/>御伺い致します。<br/><br/> 光明如来様御奉斎後一年経ってから処分する。<br/><br/>（S24. 5.28） 浄化されるとは執着がとれる事である。<br/><br/>あらゆる神仏、稲荷等の処分は直ちに処分してはいけない。<br/><br/>二、三年そのままにした方がよい。<br/><br/>（S23） 077 不動・弘法等の処分 不動明王、弘法大師その他の教祖、宗祖のお姿を画いた軸を御祀りしている方が処分を致したいと申しておられますが、どんな風に処分をさせて頂きましたら宜敷う御座いますか。<br/><br/>御教えを御願い申し上げます。<br/><br/> 光明如来様をお祭りして、普通一、二年経てば処分してもよい。<br/><br/>よく御礼を言って、元の御座にお帰り願うと言葉で言えばよい。<br/><br/> 不動も弘法も偉いのであるから、もっと早くていい。<br/><br/>一週間か十日位でもいい。<br/><br/>龍神や狐などは一、二年を要する。<br/><br/> 神仏によって臨機応変に解釈すればよい。<br/><br/>（S24. 2. 1） 078 移転時の神仏処理 立不動尊と高倉稲荷と日蓮像をただ今お祭りしてある家が、今度他所に移転するにつきまして右の神仏をどう致したもので御座いましょう。<br/><br/>なおこの人は教修を最近頂きましたばかりにて光明如来様はお祀りして御座いません。<br/><br/> 光明如来様をお祭りすれば処理していい。<br/><br/>（S24. 3.22） 079 多祭神処分の言葉 拍手は四柏手。<br/><br/>ここにお鎮りになっている皆様に申し上げます。<br/><br/>祝詞を奏げ、長い間の御守護を謝し、観音様をお祭りしたから、今日限り元の御座へお帰り願います、という。<br/><br/> 言霊に唱えてもらわぬと、神様は帰れぬ。<br/><br/>（S24. 3.22） 080 神札等処分 光明如来様奉斎と同時に、家にあった以前の神様を神宮にお祭りして頂かなくて全部焼却しましたがよろしいでしょうか。<br/><br/> 神官が祀る要はない、資格がない。<br/><br/>今迄の事をお断りする、黙ってやるとある程度悩まされる。<br/><br/>（S25. 5.26） 081 諸神札の処理 私の家は何代も続いておりましていつの頃お祭り致しましたものかわかりませんが、家の東に伏見稲荷、遠山八幡、津島島三社とそれから石碑にて秋葉、金比羅、宇賀神、甲子、二十三夜、庚甲、馬頭観世音が四ツと杉の木にお山の神様がお祭りしてあります。<br/><br/>昭和二十三年四月に神主をお願い致しまして、今迄の御守護の御礼を申し上げて帰っていただくようにお祭りをお願い致しましたところ、それは出来ないと申しまして、いつきまつりてと祝詞をあげお祭りして下さいましたがそれ以来お祭りもせず、お屋根やおふくらもいたみ、お庭もあれておりましたところ、この度村の方で石垣を作ってつつじの木を植えてきれいにして下さいました。<br/><br/> 一家五人入信致しまして昭和二十三年四月に光明如来様を、昭和二十四年五月には大光明如来様を御奉斎させていただき一家揃ってお道のために御用をさせていただいております。<br/><br/>この沢山の神様をお祭りしてございますがどういたしたらよろしゅうございましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 自分で祀りをし、帰ってもらう。<br/><br/>神主には、資格がないから出来ぬ。<br/><br/>（S25. 5. 6） 082 神符等の取扱い 私事二十四年三月入信、五月光明如来様を御祭りさせて頂きました。<br/><br/>以来数々の御利益を頂きおり、一人でも多くの人にこの福音を御伝えさせて頂くよう努めております。<br/><br/> つきましては従来信仰しておりました山神様、八幡様、村社というように種々の御神符が沢山祭前にはりつけてありますが、いかに取扱うべきか。<br/><br/>御教示願います。<br/><br/> 整理した方がよい。<br/><br/>何にも必要なく、反ってさっぱりしない。<br/><br/>一まとめにし祭壇に安置し、御守護御礼して、元の御座へお帰り願うと申す。<br/><br/>（S25. 2. 5） 083 御札の処分 天照皇大神宮及びその他の神社の御札または「南無日蓮高祖大菩薩」等と記載してあるお寺の御札等を処分するには、どう致したらよろしいでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> 今迄の御守護の御礼を言って、元の御座へお還りを願うのである。<br/><br/>（S24. 9.17） 084 御守札の処分 昨年十二月二十日、煤払いを済ませまして神棚に各所の神社の御守護札が祀ってございましたのを御礼申し上げて御焚上げ致し、お宮はねずみの巣になっておりますので、同じくお焚上げ致しました。<br/><br/>なお、小さい祠が二つ残っております。<br/><br/>扉を開いてみますと、一つは「天地之神守利給幸倍給」と書いてございます。<br/><br/>他の一つは「岡田弁才天」と書いてございます。<br/><br/>私の家は祖父が分家して岡田の家（絶家）を継ぎ、現在の家を建て、祖父の代にお祀りしたものとおもわれます。<br/><br/>右の祠はどのように致しましたらよろしいでしょうか。<br/><br/> お礼をいってお焚上げすればよい。<br/><br/> 085 大本教神号処理 私は以前大本教信者で中華民国青島支部長をしており、引揚の際大神様、祖霊様、守護神その他を全部焼却して帰りました。<br/><br/>帰国後、御神体がないため自分で御神号を書き毎日礼拝しておりましたが祖霊様の御神体がなく御祭りしておりませんから気になっておりました。<br/><br/> 昨年十一月入信し光明如来様を御迎え致しましたにつき大本教の御神号を処理したいと思いますがその方法をば御教示願います。<br/><br/> 御礼をして焼けばよろしい。<br/><br/>この間大本教から提携してくれといって来たが断った。<br/><br/>宗教はそうゆくものではない。<br/><br/>成り立たない。<br/><br/>救ってもらいたいなら、個人的に応じてもいい。<br/><br/>（S24. 5. 6） 086 大本教の処分 大本教の前の神様を御祭してある方が教修を戴き、神様御祭りさせて戴きますれば、大本の神様及守護神、祖霊様等の御処分の方法御教示御願い申し上げます。<br/><br/> 大本の神は処分した方がよい。<br/><br/>神様にお礼を言ってお帰り願って焼く。<br/><br/>守護神などもよい。<br/><br/>（S25. 3.23） 087 出口師書の処置と墓地なき場合 先日御教え頂きました私の実家の母、故柴田よねの遺骨で御座いますが、柴田家の墓地が複雑致しておりますので、栗田家の墓地に埋葬するようとの御言葉を頂きましたが、私共は栗田の分家の分家で御座いますので、墓地が御座いませんがどう致したらよろしゅう御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/>なお大本教出口氏の書はどのように致したらよろしゅう御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 出口師の書は蔵っておく。<br/><br/> 日蓮宗に関係したものは置いてはいけない。<br/><br/>狐がそれを本拠にする。<br/><br/> 一番近い所の墓地がよい。<br/><br/>出来なきや霊は我慢する。<br/><br/>（S25. 3.28） 088 霊友会で祀りし戒名の処分 元霊友会におりました方で仏壇に他家の戒名まで百数十名もお祀り致しております。<br/><br/>その後その家では病気と怪我が絶えません。<br/><br/>たまたま本教の話を聞き縋って参りましたのですけれど、今迄の霊友会当時の過去帳はどう致しましたらよろしいでしょうか。<br/><br/> 霊友会でやった事は全部よす。<br/><br/>霊友会では自分の祖先を全部処分する。<br/><br/> 他家の分は処分焼却し、自家のもののみとする。<br/><br/>過去帳は焼却してよい。<br/><br/>（S24. 8. 9） 089 遺杖やお札の処分 私は昨年六月発病、医師より心臓脚気と名付けられ起きる事も出来ませんでした。<br/><br/> 昨年九月教修を受けまして今年一月初旬よりよだれが出るようになり病状やや軽快致しました。<br/><br/>二月十八日例祭日に先生の浄霊をいただきましたところ隣の家で祭っている稲荷の子であると言い、翌日午後また自然に霊が浮き光明如来様をお迎えしないと先祖が救われないと必死に頼みました。<br/><br/>二十日に光明如来様を御迎え致しましたところ、二十二日夜十時頃、突然光明如来様が稲荷であるから御嶽様に処理してもらうと言い出しましたが、本人は御軸にふれる事は出来ません。<br/><br/>昨年十月にお祈りしてもらったお札（御嶽様）が右のような事を言うといっております。<br/><br/>また御嶽教を信仰しておってその後死亡した兄の杖があります。<br/><br/> 右のお札と杖の処置及今後の浄霊法を御教え下さい。<br/><br/> 杖はとっておく。<br/><br/>いくらか執着があるとまずい。<br/><br/>お札は処分していい。<br/><br/>人間の言葉で言ってもらわぬと帰れぬ。<br/><br/>（S24. 2.26） 090 強打せる身体の震え、お題目のお返し 私（二十八才）は二十二才の時、材木運搬中転び脊髄と肩と膝を強打致しまして医療を受けておりましたが、一年程経ってから身体が震えが来まして段々震えが大きくなり止まらなくなりました。<br/><br/>父は私が２才の時に死亡致しましたが、感電死したと聞いております。<br/><br/> 一家は前に日蓮の熱心な信者でしたが、お屏風様を御祭り致しまして日蓮のお軸と像を行者のところへ返しに母が行きましたところ、行者が大いに怒っておったそうですが、その後母と姉が非常に反対をし始めました。<br/><br/>体の震えと父の死と関連が御座いましょうか。<br/><br/>また母姉の反対は日蓮行者との関係が御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/>今後宜敷く御守護御願い申し上げます。<br/><br/> 身体の震えとは関係はない。<br/><br/>放置しておけば治る。<br/><br/>打った所へ固まっているために震える。<br/><br/>そこを溶かせばよい。<br/><br/>医療で、内出血を固めた。<br/><br/>固めて筋を押すので、そこを溶かす。<br/><br/> 日蓮宗へ題目などを返すのはいけない。<br/><br/>こっちで処分する。<br/><br/>光明如来様をお祭りして、暫くの間処分せぬ方がよい。<br/><br/> 反対者のあるのにお祭りするのは御無礼になる。<br/><br/>（S25. 4.28） 091 神体不明の宮に応処 私の家には昔より神体不明の神様を竹林の中に祀ってあります。<br/><br/>最近行者が年一回の御祭を致し、社の方向を西に向けるよう申しました。<br/><br/>いかなるわけでありましょう。<br/><br/>また向を変える必要がありましょうか。<br/><br/>私は本年五月光明如来様を御祭りし、一生懸命信仰しておりますが、前者も従前通り御祭りすべきでしょうか。<br/><br/> 宮の中を開けてみれば何神か判るであろう。<br/><br/>普通の神なら、紙へ名が書いてある。<br/><br/> 大先生に言われたといって開けてみよ。<br/><br/> 方角はどっちでもよい。<br/><br/>なおすとすれば、光明如来様の方へ向ける。<br/><br/> 今迄祀ってあったものなら、その通りにする。<br/><br/> 宮によっては空っぽのがよくある。<br/><br/>（S24. 8.17） 092 宮の処分 以前日蓮宗の行者により内神を祭り、更に外宮を作りましたが「幣そ幣そ」だけで神様の名前が書いてありません。<br/><br/>その時正式に神様の名前をつけて祭込みするには更に修業が必要だと申しておりました。<br/><br/>その頃より私は本教団に入会し、光明如来様を祭りその際に内宮（清宮安女姫大禅神）は氏神に御還ししましたが、外宮はそのまま残っております。<br/><br/>この暮にはこれも御還ししようと思っております。<br/><br/>土台のコンクリート等はいかに処分したらよいでしょうか。<br/><br/> 処分してもよろしい。<br/><br/>本当は一年位経ってからがよい。<br/><br/> 093 女観音の石宮の処置 転居致しましたところ、庭の一隅に女観音と刻まれた高さ二尺、巾一尺位の石宮があります。<br/><br/>これはいかなるもので、いかに処置したら、宜しいでしょうか。<br/><br/> 家には大光明如来様をお祭りしております。<br/><br/> 字だけで、中はないなら庭の一番いい所へ安置しておけばよい。<br/><br/> 作った人の気持が入っているから、いくらか霊線が繋っている。<br/><br/>処置すると怨んだりなどする。<br/><br/> 女観音とは、木花咲爺姫になる。<br/><br/>どっちかというと、女性の働きが多いようである。<br/><br/>（S24. 3.20）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

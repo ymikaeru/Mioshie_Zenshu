@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kohuku08</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 幸福を生む文化 『栄光』149号、昭和27(1952)年3月26日発行 いつもいう通り、人間の欲望を一口に言えば、幸福であるのは分り切った話である。<br><br>その目的に向かって何千年も前から、人類は営々努力しつつ、ついに現在のごとき絢爛（けんらん）たる物質文化が造られたのであるから、たしかに唯物的には予定通りに成功したのである。<br><br>ところが今日の人間が、俺こそ真の幸福者であると思っている人は、果して幾人あるであろうか、恐らく百人に一人も難しいであろう。<br><br>見よいつになっても戦争の恐怖、病気の恐怖、貧乏の恐怖のこの三大苦難が付きまとっていて離れないのが人間の常態ではないか、としたら現在は幸福どころではない。<br><br>せめて今少し安心して暮せる世の中になって欲しいと思うのが、誰もが抱く精一杯の欲望であろう。<br><br> このような世の中を切替えて、本当に幸福な世界にするのが本教の目的で、しかも立派に実現の可能性があるのだから空前の救いであろう。<br><br>それにはまず何といっても今までの文化の誤りを指摘し、本当のやり方を教える事である。<br><br>今までのような上面ばかりを好く見せかけ、形のみの文化では駄目で、どうしても内容も共に良くならなければならない。<br><br>つまり偽りのない社会、今のように誤魔化し本位で、善人らしく見せてる悪人の多い社会では、幸福などありよう訳がない。<br><br>もっと分り易くいえば今の世の中は悪七、善三というのがありのままの姿であろう。<br><br>三とはもちろん正義愛であるが、七対三ではどうしても善が負けるのは当然である。<br><br>事実悪がノサ張りすぎて、善が下積にされているのが現在であるから、不幸災厄は次から次へと作られてゆき、全く苦の娑婆である。<br><br>ところがここで考えてみなくてはならない事は、単に悪といっても容易に判断がつき兼ねる悪が随分ある。<br><br>というのは現代の悪は智能的になっているため、巧妙に善の仮面を被り、悪を逞（たくま）しくする人間も少なくないが、一層始末の悪いのは、悪を善と誤り信じて、一生懸命になっている人達である。<br><br> まず第一は人間の最大脳みである病気を解決すべく、生命を賭してまで研究をしている学者は固より、世界中の医学に携わる人々もそうで、真剣に人を助けるべく善と信じて実は悪を行っているそこに誰も気が付かない。<br><br>これは常に私が警告しているところである。<br><br>また作物に人為肥料を施すのを善と信じて、実は不作となる事に気が付かない、大多数の農業関係の人達である。<br><br>また共産主義をもって最大多数の下層階級に、最大幸福を与えると思って一切を犠牲にしてまで闘っている多数の人達もある。<br><br> 以上のごとき人々こそ、結果から言えば無智で、悪を善と信じて行っているのであるから、その熱意の強い事も別で、すこぶる効果的である。<br><br>これら数々の原因を検討してみる時、真相を見通し正邪善悪を判別するところの叡智こそ必要である。<br><br>というのは間違っている事でも、長い歳月のため、医学の理論が固定化し、伝統的となり迷信化してしまったものである。<br><br>ではなぜ真実が発見されなかったかというと、全く時が来なかったからで、時こそ絶対の支配者である。<br><br>そこで神は私という者を選んで、一切の誤謬を啓示され、しかも叡智否神智をも与えられたのであるから、叡智でも分らない事が私には分るのである。<br><br> ここで今一つの事を言わねばならないが、右のごとき時というのは、今までのごとき悪の七の力は漸次薄れて、三であった善の力が四となり、五となり、七となるのである。<br><br>いつも私の唱える夜は終って昼となりつつあるという意味で、これが分ったならその人は真の幸福を掴んだのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Cultura que Edifica a Felicidade</h2>
 <p>Conforme sempre afirmo, é insofismável que o anseio primordial do ser humano se resume, em uma única palavra, à felicidade. Movida por esse objetivo, a humanidade empreendeu esforços incessantes ao longo de milênios, culminando na edificação da esplendorosa cultura material que hoje presenciamos. Sob uma perspectiva puramente materialista, poder-se-ia dizer que o sucesso foi alcançado conforme o previsto. Contudo, ao observarmos o homem contemporâneo, quantos poderão afirmar convictamente: "Eu sou verdadeiramente feliz"? Arrisco dizer que dificilmente encontraríamos um em cada cem.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Analisando pelos resultados, todas as pessoas mencionadas agem por ignorância, praticando o mal com a convicção de que fazem o bem. Justamente por isso, o fervor com que se dedicam às suas causas é notável, tornando suas ações extremamente eficazes em seus propósitos errôneos. Ao examinarmos a fundo essas diversas causas, torna-se evidente a necessidade de uma sabedoria capaz de enxergar a verdade subjacente e de discernir com clareza o certo do errado, o bem do mal. A razão para tal confusão é que, mesmo sendo errôneos, certos conceitos — como as teorias médicas — se cristalizaram ao longo de séculos, tornaram-se tradição e acabaram por se transformar em meras superstições.</p>
 <p>Por que, então, a verdade não foi descoberta antes? A resposta é simples: porque o tempo ainda não havia chegado. O tempo é, de fato, o soberano absoluto de todas as coisas. Foi nesse contexto que Deus me escolheu, revelando-me a totalidade dos equívocos humanos e concedendo-me não apenas a sabedoria, mas a Sabedoria Divina. Por essa razão, sou capaz de compreender aquilo que a mera sabedoria humana não consegue alcançar.</p>
 <p>Neste momento, devo acrescentar mais um ponto: quando me refiro à chegada do tempo, quero dizer que a força das sete partes de mal, que prevaleceu até hoje, começará a se dissipar gradualmente. Em contrapartida, a força das três partes de bem se expandirá, tornando-se quatro, depois cinco, até alcançar a totalidade de sete. Isso corresponde ao que sempre apregoo: a Noite está terminando e o Dia está prestes a nascer. Aquele que compreende essa verdade, de fato, conquistou o caminho para a felicidade genuína.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 幸福を生む文化 『栄光』149号、昭和27(1952)年3月26日発行 いつもいう通り、人間の欲望を一口に言えば、幸福であるのは分り切った話である。<br/><br/>その目的に向かって何千年も前から、人類は営々努力しつつ、ついに現在のごとき絢爛（けんらん）たる物質文化が造られたのであるから、たしかに唯物的には予定通りに成功したのである。<br/><br/>ところが今日の人間が、俺こそ真の幸福者であると思っている人は、果して幾人あるであろうか、恐らく百人に一人も難しいであろう。<br/><br/>見よいつになっても戦争の恐怖、病気の恐怖、貧乏の恐怖のこの三大苦難が付きまとっていて離れないのが人間の常態ではないか、としたら現在は幸福どころではない。<br/><br/>せめて今少し安心して暮せる世の中になって欲しいと思うのが、誰もが抱く精一杯の欲望であろう。<br/><br/> このような世の中を切替えて、本当に幸福な世界にするのが本教の目的で、しかも立派に実現の可能性があるのだから空前の救いであろう。<br/><br/>それにはまず何といっても今までの文化の誤りを指摘し、本当のやり方を教える事である。<br/><br/>今までのような上面ばかりを好く見せかけ、形のみの文化では駄目で、どうしても内容も共に良くならなければならない。<br/><br/>つまり偽りのない社会、今のように誤魔化し本位で、善人らしく見せてる悪人の多い社会では、幸福などありよう訳がない。<br/><br/>もっと分り易くいえば今の世の中は悪七、善三というのがありのままの姿であろう。<br/><br/>三とはもちろん正義愛であるが、七対三ではどうしても善が負けるのは当然である。<br/><br/>事実悪がノサ張りすぎて、善が下積にされているのが現在であるから、不幸災厄は次から次へと作られてゆき、全く苦の娑婆である。<br/><br/>ところがここで考えてみなくてはならない事は、単に悪といっても容易に判断がつき兼ねる悪が随分ある。<br/><br/>というのは現代の悪は智能的になっているため、巧妙に善の仮面を被り、悪を逞（たくま）しくする人間も少なくないが、一層始末の悪いのは、悪を善と誤り信じて、一生懸命になっている人達である。<br/><br/> まず第一は人間の最大脳みである病気を解決すべく、生命を賭してまで研究をしている学者は固より、世界中の医学に携わる人々もそうで、真剣に人を助けるべく善と信じて実は悪を行っているそこに誰も気が付かない。<br/><br/>これは常に私が警告しているところである。<br/><br/>また作物に人為肥料を施すのを善と信じて、実は不作となる事に気が付かない、大多数の農業関係の人達である。<br/><br/>また共産主義をもって最大多数の下層階級に、最大幸福を与えると思って一切を犠牲にしてまで闘っている多数の人達もある。<br/><br/> 以上のごとき人々こそ、結果から言えば無智で、悪を善と信じて行っているのであるから、その熱意の強い事も別で、すこぶる効果的である。<br/><br/>これら数々の原因を検討してみる時、真相を見通し正邪善悪を判別するところの叡智こそ必要である。<br/><br/>というのは間違っている事でも、長い歳月のため、医学の理論が固定化し、伝統的となり迷信化してしまったものである。<br/><br/>ではなぜ真実が発見されなかったかというと、全く時が来なかったからで、時こそ絶対の支配者である。<br/><br/>そこで神は私という者を選んで、一切の誤謬を啓示され、しかも叡智否神智をも与えられたのであるから、叡智でも分らない事が私には分るのである。<br/><br/> ここで今一つの事を言わねばならないが、右のごとき時というのは、今までのごとき悪の七の力は漸次薄れて、三であった善の力が四となり、五となり、七となるのである。<br/><br/>いつも私の唱える夜は終って昼となりつつあるという意味で、これが分ったならその人は真の幸福を掴んだのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

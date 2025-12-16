@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qnijika1</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 二時間も四苦八苦の発動機 一分間の御浄霊で動く 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 岩手県 照明中教会 佐々木元四郎（29） 昨年八月十七日盛岡市より五里もある、岩平郡簗川村根田茂と言う山間集落の信者沢口幸右衛門氏義弟（未信者、二十四歳）が一生懸命になって発動機の修理に余念なく、一時間以上も、いじっているらしい。<br><br>本人のいわくには「とにかく不思議です。<br><br>どこも特別の故障もみられないが、かかりません」と言って一人でプリーにベルトの代りに綱を巻いて引っぱり又巻いては引っぱりして廻しておりましたが、一向にかかる様子がありませんでした。<br><br> 私は光明如来様の御参りを済ませて、暫くして家の前に出てみれば未だ一生懸命やっております。<br><br>夏の暑さに全身汗と油にまみれて気の毒な位でした。<br><br> その時沢口氏が「先生に御浄霊して戴くと直ぐかかる」と言われて私は面喰った。<br><br>「御蔭話によく種々な奇蹟が出ているから先生お願いします」と言われました。<br><br>しかし私は機械に対して歴然たる経験がなかったのです。<br><br> 誠に申訳無い事とは思いましたが、「機械は機械でなければ」と言ってしまいました。<br><br>しかし、本教には奇蹟が付きものであると、感じない訳ではありませんでしたが、素直に御浄霊出来なかったのが、未だ信仰の足らざる事であると反省させられました。<br><br>むしろ信者の方が熱心です。<br><br>私は力強く思いました。<br><br> それから私も手伝うから廻して見ようと言って綱を引っぱって廻して見たが、やはり駄目でした。<br><br>その時、沢口氏が「先生やっぱり御浄霊して下さい」と言うのです。<br><br>義弟氏も「時間がなくなる、今日はものにならないかな」と心配し、「先生御願いです」と言う。<br><br>私は気の毒でなりませんでした。<br><br>よしそれでは、光明如来様に御願いして御浄霊さして戴きましょう。<br><br> 「人事を尽くして天命を待つ」とはこの事と思って早速御浄霊をさせて戴きました。<br><br> まず発動機一体を御浄霊してみましたところが、ちょっと手に感じたところが一カ所あったので、ここに曇りがあるなと思い、そこだけを御浄霊してみました。<br><br>しかし一分ともしない内に何だか治ったような感じがしたので、よし今度はよいぞと言って、又もプリーに網を巻き引っぱってみました。<br><br>嗚呼御守護、二時間以上もかからなかった発動機が僅か一分足らずの御浄霊で実に簡単にかかったのです。<br><br> 嬉しかった。<br><br>ただただ御守護の偉大さに感謝が溢れ出る許りです。<br><br>沢口氏一家も驚きと感謝で一杯でした。<br><br>「これだから早くやって戴けばよかった」と言われて、私は吾が信仰の浅いことを知らされました。<br><br>明主様御守護有難うございました。<br><br>罪深き私を偉大なる救いの業に御使い戴きます大慈大悲の御恵み、厚く厚く御礼申し上げます。<br><br>明主様誠に有難うございました。<br><br> （昭和二十七年十二月十七日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O motor que agonizou por duas horas funciona com um minuto de Johrei</h2>
 <p>Extraído da “Coletânea de Milagres da Sekai Kyuseikyo”, publicada em 10 de setembro de 1953</p>
@@ -102,5 +257,48 @@ Igreja Shomei Naka, Província de Iwate</p>
 <p>A alegria que senti foi imensa. Meu coração transbordava de gratidão pela grandeza da proteção Divina. A família do senhor Sawaguchi estava igualmente repleta de espanto e agradecimento. “É por isso que eu disse que deveríamos ter pedido sua ajuda antes”, comentou ele, o que me fez tomar consciência da superficialidade de minha própria fé.</p>
 <p>Meishu-Sama, muito obrigado por Vossa proteção. Agradeço profunda e reiteradamente pela graça de Vossa imensa misericórdia e compaixão, que permite que um pecador como eu seja utilizado em Vossa magnânima Obra de Salvação. Meishu-Sama, sou-Vos imensamente grato.</p>
 <p>(17 de dezembro de 1952)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 二時間も四苦八苦の発動機 一分間の御浄霊で動く 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 岩手県 照明中教会 佐々木元四郎（29） 昨年八月十七日盛岡市より五里もある、岩平郡簗川村根田茂と言う山間集落の信者沢口幸右衛門氏義弟（未信者、二十四歳）が一生懸命になって発動機の修理に余念なく、一時間以上も、いじっているらしい。<br/><br/>本人のいわくには「とにかく不思議です。<br/><br/>どこも特別の故障もみられないが、かかりません」と言って一人でプリーにベルトの代りに綱を巻いて引っぱり又巻いては引っぱりして廻しておりましたが、一向にかかる様子がありませんでした。<br/><br/> 私は光明如来様の御参りを済ませて、暫くして家の前に出てみれば未だ一生懸命やっております。<br/><br/>夏の暑さに全身汗と油にまみれて気の毒な位でした。<br/><br/> その時沢口氏が「先生に御浄霊して戴くと直ぐかかる」と言われて私は面喰った。<br/><br/>「御蔭話によく種々な奇蹟が出ているから先生お願いします」と言われました。<br/><br/>しかし私は機械に対して歴然たる経験がなかったのです。<br/><br/> 誠に申訳無い事とは思いましたが、「機械は機械でなければ」と言ってしまいました。<br/><br/>しかし、本教には奇蹟が付きものであると、感じない訳ではありませんでしたが、素直に御浄霊出来なかったのが、未だ信仰の足らざる事であると反省させられました。<br/><br/>むしろ信者の方が熱心です。<br/><br/>私は力強く思いました。<br/><br/> それから私も手伝うから廻して見ようと言って綱を引っぱって廻して見たが、やはり駄目でした。<br/><br/>その時、沢口氏が「先生やっぱり御浄霊して下さい」と言うのです。<br/><br/>義弟氏も「時間がなくなる、今日はものにならないかな」と心配し、「先生御願いです」と言う。<br/><br/>私は気の毒でなりませんでした。<br/><br/>よしそれでは、光明如来様に御願いして御浄霊さして戴きましょう。<br/><br/> 「人事を尽くして天命を待つ」とはこの事と思って早速御浄霊をさせて戴きました。<br/><br/> まず発動機一体を御浄霊してみましたところが、ちょっと手に感じたところが一カ所あったので、ここに曇りがあるなと思い、そこだけを御浄霊してみました。<br/><br/>しかし一分ともしない内に何だか治ったような感じがしたので、よし今度はよいぞと言って、又もプリーに網を巻き引っぱってみました。<br/><br/>嗚呼御守護、二時間以上もかからなかった発動機が僅か一分足らずの御浄霊で実に簡単にかかったのです。<br/><br/> 嬉しかった。<br/><br/>ただただ御守護の偉大さに感謝が溢れ出る許りです。<br/><br/>沢口氏一家も驚きと感謝で一杯でした。<br/><br/>「これだから早くやって戴けばよかった」と言われて、私は吾が信仰の浅いことを知らされました。<br/><br/>明主様御守護有難うございました。<br/><br/>罪深き私を偉大なる救いの業に御使い戴きます大慈大悲の御恵み、厚く厚く御礼申し上げます。<br/><br/>明主様誠に有難うございました。<br/><br/> （昭和二十七年十二月十七日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

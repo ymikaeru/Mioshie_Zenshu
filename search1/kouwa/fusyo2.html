@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>fusyo2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 未発表、年代不詳 いうまでもなくこの治療は、霊的治療というもので、これだけを知っておくとよろしい。<br><br>人間は霊と体でできている。<br><br>霊というものは人間の形をしているゆえに、指なら指一本でも霊はある。<br><br>死ぬと霊界という別の世界に行くことになる。<br><br>生きてると肉体は現界にいるが霊は霊界にいる。<br><br>煙草吸ってると、肉体は娑婆にいて煙草を吸ってるが、霊界では霊界の煙草の霊を吸ってることになる。<br><br> 死ぬということは霊が体をすてて霊界へ行くことである。<br><br>肉体がなくなれば霊体はそのまま霊界へ行くこととなる。<br><br>その原理から考えるとこの治療のことは判る。<br><br> 万物一切は霊が主で体が従であり、目に見えぬものが指図をし、目に見えるものが動かされてる。<br><br>目に見えぬものとは、世界や国家は神や仏が動かしてる。<br><br> 今日はすべて科学で成り立ってる文明で、目に見えるものだけを元としている。<br><br>もし科学で発見されたものだけとすれば、 科学がだんだん新しいものを発見することは、判らぬものがまだたくさんあるということである。<br><br>そういうわけで、霊が主で体が従であるゆえに、霊さえ治せば体は治ってしまう。<br><br>私は霊的研究をして、それを土台としたから霊を治すことを知った。<br><br> 霊を治すのはどういうわけかというと、元来病気は毒素が溜まって起こるものであって、毒素、あらゆるいっさいのものは固まる性質のものでひとり人間の毒素のみではない。<br><br>土が固まって石になり、石が固まって金属になる。<br><br>学問では地球から吹き出たというが、そんなことはない。<br><br>鉱物が固まれば必ず金属になる。<br><br> ある程度固まるとそれは人間の新陳代謝に支障を来す。<br><br>そこである程度固まると溶かして出そうとする働きが起こる。<br><br>これを称して病気という。<br><br> 熱、痛み、咳など出ると苦痛だから、それを逃れんとする。<br><br>苦痛によって免れると思えばいいが、それをわるいと思い間違えてきた。<br><br>これが病気多生の原因である。<br><br>このままにしておくと生命が危ないというので、氷で冷やしたり毒をのんだりした。<br><br>それで浄化停止される。<br><br>苦痛は緩和される。<br><br>その間違いを知らせなくてはならぬ。<br><br>私は文章で知らせようとして問題になった。<br><br>ゆえに口でしゃべって判らすより方法はない。<br><br>この原理が判れば、病気は恐くないどころかありがたいものである。<br><br>ゆえに風邪は神の恩恵だといっている。<br><br>この恩恵を少しでもいただかなくてはならぬ。<br><br> 霊体の曇ってる所は血が濁ってるとか固まりがある。<br><br>一部の曇りではなく全体が曇ってる。<br><br>全体の曇りとは全体の血が濁ってることである。<br><br>始終浄化され、毒は一所へ固められる。<br><br>それが病気である。<br><br> 注射でも身体中へまわる。<br><br>ゆえに身体中まわすと浄化力が弱る。<br><br>それでチフスなどに罹らぬ。<br><br>それでチフスは逃れるが、今度は赤痢などになる。<br><br>だから、赤痢の次にはチフスが毎年交代にはやるのである。<br><br>ちょうど窃盗を防いで強盗を入れるようなものである。<br><br> いったん身体へまわった毒が身体中のどこかへ、使う所へ集まる。<br><br>女中などはよく手へくる、手を使わぬ者は足へくる。<br><br>いまの人は十人中七、八人は足が痛い。<br><br>人間は足を動かすからである。<br><br>また、いまはホルモンの注射がはやってるので、足の痛む人が多い。<br><br> 薬などは、霊体中には黒くなってる。<br><br>毒素は霊的にいうと黒いもの……曇りである。<br><br>この曇りを取るのは光である。<br><br>人間の霊は光を持っていて、このことを霊衣という、薄い光が発光している。<br><br> 霊体の中へ光を入れると光が身体中へまわって甦る。<br><br>それ以外助かる道はない。<br><br>ごく健康の人とか、心の良い人ほど光が強い、厚くなる。<br><br> 私は観音様から光をいただいており、その光の伝達者である。<br><br>観音様は光の仏様だから光明如来という。<br><br> 御守りには光が滲み込んでる、それが手を通して出る。<br><br>すぐに通ずる人と時間をおいて通ずる人がある。<br><br> この治療は話しながらやってはいけない、按摩のごとく体的療法になる。<br><br>話すると霊は入っていない、話さぬことを原則としなくてはならぬ。<br><br>必要以外の話は治療がすんでからすべきである。<br><br>話しながらするのは一つの按摩になるので治り方がズッと違う。<br><br> 治療の前に、「この中清まれ」とかく、字はよほど働くので、字で治す人あり、また、何度も字をかくうちに治ることがある。<br><br>本当はわるい所へ字をかくのだが、時間がかかるからよろしい。<br><br> 肩をさわって熱のある人は、必ずこめかみに熱あり、この熱は意味があって、こめかみに熱があると頭が重いとか、痛む。<br><br>子供など癇癪もちである。<br><br>治療すると性質もかわる。<br><br>考えがまとまらぬ、ここは毒が溜まりやすい。<br><br> 後頭部は頭部いっさいの機関を司り、考えるのは前頭部。<br><br> 神経衰弱は脳貧血（頸のまわりに毒が溜まり血管を圧迫する）首筋、頸腺横に塊あり。<br><br>気ふさぎ、ひどいのは厭世的になる、ヤケクソになり自殺などする。<br><br> 頭痛――脳貧血によるもの、頭に直接に溜まれるあり（頭をおして痛む箇所あり）。<br><br> 一番多いのは脳溢血（横から後ろのほうへかけた間あたりへ溜まる）。<br><br> 脳溢血にならず中風になる人は軽い。<br><br>これは脳へ行かず、体のよわい人……治りいい。<br><br>脳膜炎は（膿）脳溢血（毒血）とまちがえらる。<br><br> 医者でよくいう結核性脳膜炎は、延髄より小脳へ入ってゆく、小脳へ入らず上のほうをまわるのもあり。<br><br> 脳溢血は横から、膜炎は後ろから（後ろが張ってる）。<br><br> 不眠症――脳溢血と同しような所。<br><br> 脳膜炎などの毒は脊髄の付近（多く両側）の毒がだんだん昇る、頭へ入って前頭へくるのが脳膜炎、小脳が嗜眠性、後頭部へ溜まるのが脊髄膜炎、その少し下へ溜まるのを脊髄癆（ろう）などという。<br><br> 脳閉塞――昔は卒中とか卒倒とかいった。<br><br>首や肩が凝って極度に達するとき、その圧迫により血管が切れる、そうして死ぬ。<br><br>これは猛烈に肩の張ってる人にある。<br><br> 目は頭の毒素の集注――治療は奥のほうをしなくてはならぬ。<br><br> 蓄膿より肥厚性鼻炎、蓄膿がもっと固まると鼻茸になる、鼻柱に溜まるものあり、すると鼻孔が小さくなる。<br><br>口から呼吸するようになる。<br><br> 煙草を吸うと鼻を刺激し、前頭の働きがよくなる。<br><br>肥厚性鼻炎は鼻の毒素が強いため、粘膜を刺激して脹れたり乾いたりする。<br><br> 口唇の二重のようになったり、口唇痺れ、変色しているのは吸入薬の中毒、口、舌があれるのは、いずれも薬毒。<br><br> 顎と頬に癌生ずるあり。<br><br> 慢性中耳――耳垂――無痛――（耳裏治療）。<br><br> 風邪――（耳下腺、淋巴腺、左右いずれか、肩のこともあり）。<br><br> 声帯の回転――西洋人はおそく、日本人は細く多い。<br><br>運転のおそいのは声が荒い、細いと高い声になる。<br><br> バセドー氏病…… ［図略］ この辺は目と関係あり、この辺を治療して目のよくなることあり バセドー氏病に似て声帯の下のほう脹れることあり……ために呼吸困難となる ［図略］ 手上がらぬ……腕の付け根、痛い所をする 患者治療は、右を頭に横臥さすのが本当である。<br><br> ［図略］肋膜の残れるあり 息切れする 息切れ――肺の外部か内部に圧迫するものあり。<br><br>内部のときは痰があり、喉の付け根で音してヒュウヒュウいう。<br><br> 肺の容積減ってるとき、どこかに熱あり、そこに痰がある。<br><br> 肋間神経は背部はまれで、胸に多い。<br><br>この咳は強い、……肋膜を通して肺へ行くためである。<br><br>爆発的に強くする……よく喘息にされる。<br><br> レントゲン十回以上かけたのは容易に治らぬ。<br><br> 肺炎は背部の場合もよくある。<br><br> 肺炎……肩の場合あり。<br><br> 咳（一） 肋間神経 （二） 横隔膜 （三） 臍のまわり（喘息） （四） 股より陰部の毛の際（恥骨） （五） 腎臓部 幽門狭窄（嘔吐）（臍のまわりの毒の場合あり）。<br><br>肝臓圧迫されると胃の働き弱る。<br><br> 痩せた人は臍に塊あり――食欲なくなる。<br><br> 胃下垂――毒素に胃圧迫され平らになる。<br><br> アトニーとは、胃酸過多のこと。<br><br> 癌は心窩（しんか）部より臍のまわりにできる。<br><br> 慢性下痢――臍の辺の毒が少しずつ溶けて出る。<br><br>腹部に熱い所があれば下痢続く。<br><br> 便秘――臍から下の塊、直腸の圧迫。<br><br>毒のため腸の蠕動（ぜんどう）妨げらるる場合。<br><br> ［図略］ 子宮筋腫 喇叭管 癌の人は必ずヌラを出す。<br><br> 寝小便――陰茎の付け根（右多し）、（括約筋）縮まってる。<br><br> 腰痛は腎臓、腰は熱をもつと重い。<br><br>注射の毒もよく溜まる。<br><br> 脚気は脚の内側が痺れる。<br><br> 足の吊り――両横筋、裏側。<br><br> 麻疹の熱――不明の熱、三、四日続く、治療してもさめぬ、疹生ず（治療二度くらい）。<br><br> 小児麻痺は霊が全身を支配し、癲癇は一部を支配する。<br><br> 脚気は白米中毒ゆえ小僧などに多い。<br><br>おかずをたくさん食うとか、蕎麦など食うといい。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Terapia Divina e a Causa das Doenças</h2>
 <p>Este método de cura, como é evidente, consiste em uma terapia de natureza espiritual, e a compreensão de seus fundamentos é suficiente para sua apreensão. O ser humano é constituído de espírito e corpo. O espírito, por sua vez, possui forma humana, de modo que até mesmo um único dedo tem sua contraparte espiritual. Após a morte, o espírito se dirige a um mundo distinto, conhecido como Mundo Espiritual. Durante a vida, embora o corpo físico habite o Mundo Material, o espírito reside no Mundo Espiritual. A título de exemplo, quando alguém fuma um cigarro, seu corpo físico está no mundo terreno a realizar tal ato, mas, simultaneamente, seu espírito está no Mundo Espiritual, absorvendo a essência espiritual do tabaco.</p>
@@ -134,5 +286,48 @@ function toggleLang(lang) {
 <p>A febre do sarampo é uma febre de origem indeterminada que dura três ou quatro dias e não cede com o tratamento, até que as erupções surjam (geralmente melhora com duas ministrações).</p>
 <p>Na paralisia infantil, o espírito domina o corpo inteiro; na epilepsia, domina apenas uma parte.</p>
 <p>O beribéri é uma intoxicação pelo arroz branco, por isso é comum em jovens aprendizes. É recomendável comer mais acompanhamentos ou alimentos como o macarrão de trigo sarraceno.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 未発表、年代不詳 いうまでもなくこの治療は、霊的治療というもので、これだけを知っておくとよろしい。<br/><br/>人間は霊と体でできている。<br/><br/>霊というものは人間の形をしているゆえに、指なら指一本でも霊はある。<br/><br/>死ぬと霊界という別の世界に行くことになる。<br/><br/>生きてると肉体は現界にいるが霊は霊界にいる。<br/><br/>煙草吸ってると、肉体は娑婆にいて煙草を吸ってるが、霊界では霊界の煙草の霊を吸ってることになる。<br/><br/> 死ぬということは霊が体をすてて霊界へ行くことである。<br/><br/>肉体がなくなれば霊体はそのまま霊界へ行くこととなる。<br/><br/>その原理から考えるとこの治療のことは判る。<br/><br/> 万物一切は霊が主で体が従であり、目に見えぬものが指図をし、目に見えるものが動かされてる。<br/><br/>目に見えぬものとは、世界や国家は神や仏が動かしてる。<br/><br/> 今日はすべて科学で成り立ってる文明で、目に見えるものだけを元としている。<br/><br/>もし科学で発見されたものだけとすれば、 科学がだんだん新しいものを発見することは、判らぬものがまだたくさんあるということである。<br/><br/>そういうわけで、霊が主で体が従であるゆえに、霊さえ治せば体は治ってしまう。<br/><br/>私は霊的研究をして、それを土台としたから霊を治すことを知った。<br/><br/> 霊を治すのはどういうわけかというと、元来病気は毒素が溜まって起こるものであって、毒素、あらゆるいっさいのものは固まる性質のものでひとり人間の毒素のみではない。<br/><br/>土が固まって石になり、石が固まって金属になる。<br/><br/>学問では地球から吹き出たというが、そんなことはない。<br/><br/>鉱物が固まれば必ず金属になる。<br/><br/> ある程度固まるとそれは人間の新陳代謝に支障を来す。<br/><br/>そこである程度固まると溶かして出そうとする働きが起こる。<br/><br/>これを称して病気という。<br/><br/> 熱、痛み、咳など出ると苦痛だから、それを逃れんとする。<br/><br/>苦痛によって免れると思えばいいが、それをわるいと思い間違えてきた。<br/><br/>これが病気多生の原因である。<br/><br/>このままにしておくと生命が危ないというので、氷で冷やしたり毒をのんだりした。<br/><br/>それで浄化停止される。<br/><br/>苦痛は緩和される。<br/><br/>その間違いを知らせなくてはならぬ。<br/><br/>私は文章で知らせようとして問題になった。<br/><br/>ゆえに口でしゃべって判らすより方法はない。<br/><br/>この原理が判れば、病気は恐くないどころかありがたいものである。<br/><br/>ゆえに風邪は神の恩恵だといっている。<br/><br/>この恩恵を少しでもいただかなくてはならぬ。<br/><br/> 霊体の曇ってる所は血が濁ってるとか固まりがある。<br/><br/>一部の曇りではなく全体が曇ってる。<br/><br/>全体の曇りとは全体の血が濁ってることである。<br/><br/>始終浄化され、毒は一所へ固められる。<br/><br/>それが病気である。<br/><br/> 注射でも身体中へまわる。<br/><br/>ゆえに身体中まわすと浄化力が弱る。<br/><br/>それでチフスなどに罹らぬ。<br/><br/>それでチフスは逃れるが、今度は赤痢などになる。<br/><br/>だから、赤痢の次にはチフスが毎年交代にはやるのである。<br/><br/>ちょうど窃盗を防いで強盗を入れるようなものである。<br/><br/> いったん身体へまわった毒が身体中のどこかへ、使う所へ集まる。<br/><br/>女中などはよく手へくる、手を使わぬ者は足へくる。<br/><br/>いまの人は十人中七、八人は足が痛い。<br/><br/>人間は足を動かすからである。<br/><br/>また、いまはホルモンの注射がはやってるので、足の痛む人が多い。<br/><br/> 薬などは、霊体中には黒くなってる。<br/><br/>毒素は霊的にいうと黒いもの……曇りである。<br/><br/>この曇りを取るのは光である。<br/><br/>人間の霊は光を持っていて、このことを霊衣という、薄い光が発光している。<br/><br/> 霊体の中へ光を入れると光が身体中へまわって甦る。<br/><br/>それ以外助かる道はない。<br/><br/>ごく健康の人とか、心の良い人ほど光が強い、厚くなる。<br/><br/> 私は観音様から光をいただいており、その光の伝達者である。<br/><br/>観音様は光の仏様だから光明如来という。<br/><br/> 御守りには光が滲み込んでる、それが手を通して出る。<br/><br/>すぐに通ずる人と時間をおいて通ずる人がある。<br/><br/> この治療は話しながらやってはいけない、按摩のごとく体的療法になる。<br/><br/>話すると霊は入っていない、話さぬことを原則としなくてはならぬ。<br/><br/>必要以外の話は治療がすんでからすべきである。<br/><br/>話しながらするのは一つの按摩になるので治り方がズッと違う。<br/><br/> 治療の前に、「この中清まれ」とかく、字はよほど働くので、字で治す人あり、また、何度も字をかくうちに治ることがある。<br/><br/>本当はわるい所へ字をかくのだが、時間がかかるからよろしい。<br/><br/> 肩をさわって熱のある人は、必ずこめかみに熱あり、この熱は意味があって、こめかみに熱があると頭が重いとか、痛む。<br/><br/>子供など癇癪もちである。<br/><br/>治療すると性質もかわる。<br/><br/>考えがまとまらぬ、ここは毒が溜まりやすい。<br/><br/> 後頭部は頭部いっさいの機関を司り、考えるのは前頭部。<br/><br/> 神経衰弱は脳貧血（頸のまわりに毒が溜まり血管を圧迫する）首筋、頸腺横に塊あり。<br/><br/>気ふさぎ、ひどいのは厭世的になる、ヤケクソになり自殺などする。<br/><br/> 頭痛――脳貧血によるもの、頭に直接に溜まれるあり（頭をおして痛む箇所あり）。<br/><br/> 一番多いのは脳溢血（横から後ろのほうへかけた間あたりへ溜まる）。<br/><br/> 脳溢血にならず中風になる人は軽い。<br/><br/>これは脳へ行かず、体のよわい人……治りいい。<br/><br/>脳膜炎は（膿）脳溢血（毒血）とまちがえらる。<br/><br/> 医者でよくいう結核性脳膜炎は、延髄より小脳へ入ってゆく、小脳へ入らず上のほうをまわるのもあり。<br/><br/> 脳溢血は横から、膜炎は後ろから（後ろが張ってる）。<br/><br/> 不眠症――脳溢血と同しような所。<br/><br/> 脳膜炎などの毒は脊髄の付近（多く両側）の毒がだんだん昇る、頭へ入って前頭へくるのが脳膜炎、小脳が嗜眠性、後頭部へ溜まるのが脊髄膜炎、その少し下へ溜まるのを脊髄癆（ろう）などという。<br/><br/> 脳閉塞――昔は卒中とか卒倒とかいった。<br/><br/>首や肩が凝って極度に達するとき、その圧迫により血管が切れる、そうして死ぬ。<br/><br/>これは猛烈に肩の張ってる人にある。<br/><br/> 目は頭の毒素の集注――治療は奥のほうをしなくてはならぬ。<br/><br/> 蓄膿より肥厚性鼻炎、蓄膿がもっと固まると鼻茸になる、鼻柱に溜まるものあり、すると鼻孔が小さくなる。<br/><br/>口から呼吸するようになる。<br/><br/> 煙草を吸うと鼻を刺激し、前頭の働きがよくなる。<br/><br/>肥厚性鼻炎は鼻の毒素が強いため、粘膜を刺激して脹れたり乾いたりする。<br/><br/> 口唇の二重のようになったり、口唇痺れ、変色しているのは吸入薬の中毒、口、舌があれるのは、いずれも薬毒。<br/><br/> 顎と頬に癌生ずるあり。<br/><br/> 慢性中耳――耳垂――無痛――（耳裏治療）。<br/><br/> 風邪――（耳下腺、淋巴腺、左右いずれか、肩のこともあり）。<br/><br/> 声帯の回転――西洋人はおそく、日本人は細く多い。<br/><br/>運転のおそいのは声が荒い、細いと高い声になる。<br/><br/> バセドー氏病…… ［図略］ この辺は目と関係あり、この辺を治療して目のよくなることあり バセドー氏病に似て声帯の下のほう脹れることあり……ために呼吸困難となる ［図略］ 手上がらぬ……腕の付け根、痛い所をする 患者治療は、右を頭に横臥さすのが本当である。<br/><br/> ［図略］肋膜の残れるあり 息切れする 息切れ――肺の外部か内部に圧迫するものあり。<br/><br/>内部のときは痰があり、喉の付け根で音してヒュウヒュウいう。<br/><br/> 肺の容積減ってるとき、どこかに熱あり、そこに痰がある。<br/><br/> 肋間神経は背部はまれで、胸に多い。<br/><br/>この咳は強い、……肋膜を通して肺へ行くためである。<br/><br/>爆発的に強くする……よく喘息にされる。<br/><br/> レントゲン十回以上かけたのは容易に治らぬ。<br/><br/> 肺炎は背部の場合もよくある。<br/><br/> 肺炎……肩の場合あり。<br/><br/> 咳（一） 肋間神経 （二） 横隔膜 （三） 臍のまわり（喘息） （四） 股より陰部の毛の際（恥骨） （五） 腎臓部 幽門狭窄（嘔吐）（臍のまわりの毒の場合あり）。<br/><br/>肝臓圧迫されると胃の働き弱る。<br/><br/> 痩せた人は臍に塊あり――食欲なくなる。<br/><br/> 胃下垂――毒素に胃圧迫され平らになる。<br/><br/> アトニーとは、胃酸過多のこと。<br/><br/> 癌は心窩（しんか）部より臍のまわりにできる。<br/><br/> 慢性下痢――臍の辺の毒が少しずつ溶けて出る。<br/><br/>腹部に熱い所があれば下痢続く。<br/><br/> 便秘――臍から下の塊、直腸の圧迫。<br/><br/>毒のため腸の蠕動（ぜんどう）妨げらるる場合。<br/><br/> ［図略］ 子宮筋腫 喇叭管 癌の人は必ずヌラを出す。<br/><br/> 寝小便――陰茎の付け根（右多し）、（括約筋）縮まってる。<br/><br/> 腰痛は腎臓、腰は熱をもつと重い。<br/><br/>注射の毒もよく溜まる。<br/><br/> 脚気は脚の内側が痺れる。<br/><br/> 足の吊り――両横筋、裏側。<br/><br/> 麻疹の熱――不明の熱、三、四日続く、治療してもさめぬ、疹生ず（治療二度くらい）。<br/><br/> 小児麻痺は霊が全身を支配し、癲癇は一部を支配する。<br/><br/> 脚気は白米中毒ゆえ小僧などに多い。<br/><br/>おかずをたくさん食うとか、蕎麦など食うといい。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

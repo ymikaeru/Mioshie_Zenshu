@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>igaku06</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学が私の説を採入れ始めた？ 『栄光』224号、昭和28(1953)年9月2日発行 去る六月九日の時事新報紙上に、栄養剤について私の唱える通りの説を、慶大医学部西田敬教授がいった言をかいてあるので、私は誠に喜ばしく思った。<br><br>また医薬についても、生温（なまぬる）い点は多々あるが、これまでの説と異（ちが）って余程私の説に近いものがあった。<br><br>このようにたとえ少しずつでも医学の方で分ってくれるとしたら、私望外の幸であるという事を一言付け加えて全文のまま左に掲げる事とした。<br><br> 肝心の時効かなくなる 危い素人診断 新薬ホルモン剤常用御注意 近頃の新聞や雑誌を手にとって目につくのは、病む人でなくてもまず薬の広告でしょう。<br><br>けれどもその広告にうたわれた効能をいわゆる素人診断で適応症にあてはめ、家庭で簡単に用いるのは危険です。<br><br>特にペニシリン、ストレプトマイシン、オーレオマイシンなどの抗生物質の薬やその他の新薬は、いい加減に使っていると病原菌に抵抗性が出来、肝心の時に効目がなくなったり、思いがけない結果を招く事があります。<br><br>それでなくても人間の身体は適応性を持っているので、たとえばある期間ビタミン剤を連用していると、純粋な形のビタミンがどんどん補給されるので食物の中から苦労して消化吸収する必要がなくなり臓器の能力がだんだんにおとろえて来ます。<br><br>同じことはホルモン剤にもいえる。<br><br> やたらとホルモン剤を服用することによって、体内での分泌能力がますます弱くなり薬の切れ目には以前よりも悪い結果になるだろうことは、学問的にとまでいわなくても常識で考えられることです。<br><br>はっきりとした欠乏症状の現われた時に医師の指示を受けて用い治ったらやめるというケジメはどの薬についてもいえるわけです。<br><br>予防の意味でなら薬にたよらず臓器自身の働きで、消化吸収または分泌をうながすよう、食事の注意から心掛けるのが本当でしょう。<br><br>また一般に薬というと、目に見える効目（ききめ）を頼り熱が出れば解熱剤、頭が痛めば鎮痛剤と、その現われた症状だけをおさえつければなおったように思う人が多いようですがこれは間違いです。<br><br>もともと身体はそのどこかに異状が起ると、熱や痛みその他の形をとってそれらと闘おうとする作用を持っているので、それぞれの症状にはそれ相当の理由があるのです。<br><br>その原因もたしかめずにただ無闇とおさえつけてしまったのでは、かえって病状を悪化させることにもなるのは当然といえましょう。<br><br>どうしても原因の分らない時とか、原因を探すよりさきに処置しなくては、生命に危険な高熱とか痛みでもない限り、薬はどこまでも原因に対して使うのが本当です。<br><br>それにはまず医師の注意に従い、間違いのないよう実行するよう心掛けたいものです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Medicina Começa a Reconhecer Nossos Ensinamentos</h2>
 <p>Na edição de 9 de junho do jornal Jiji Shinpo, deparei-me com imensa satisfação com um artigo que transcrevia as palavras do professor Kei Nishida, da Faculdade de Medicina da Universidade Keio. Suas afirmações sobre suplementos nutricionais coincidem precisamente com a tese que venho defendendo. Ademais, suas considerações sobre os fármacos, embora ainda tímidas em muitos aspectos, afastam-se das teorias convencionais e aproximam-se consideravelmente dos meus ensinamentos.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>É uma questão de bom senso, e não apenas de rigor acadêmico, compreender que o consumo indiscriminado de hormônios enfraquece cada vez mais a capacidade de secreção interna do organismo. Consequentemente, ao interromper o uso do fármaco, o indivíduo poderá encontrar-se em uma condição pior do que a anterior. Esta disciplina se aplica a qualquer medicamento: deve-se utilizá-lo apenas sob orientação médica, quando se manifesta um sintoma claro de deficiência, e cessar o tratamento tão logo a cura seja alcançada.</p>
 <p>No que tange à prevenção, o caminho correto não é recorrer a medicamentos, mas sim estimular, por meio de uma alimentação cuidadosa, o funcionamento autônomo dos próprios órgãos para que promovam a digestão, a absorção ou a secreção necessárias. Muitos parecem acreditar que a cura é alcançada ao simplesmente suprimir os sintomas manifestos — usando um antitérmico para a febre ou um analgésico para a dor de cabeça —, mas isso é um equívoco.</p>
 <p>Com efeito, o corpo possui um mecanismo intrínseco de combate: quando uma anomalia ocorre em alguma parte, ele reage por meio da febre, da dor ou de outras formas. Portanto, cada sintoma tem sua devida razão de ser. Se simplesmente o suprimimos de modo arbitrário, sem sequer investigar sua origem, é natural que o quadro clínico se agrave. Salvo em casos de febre ou dor tão intensas que representem risco à vida — situações em que uma intervenção se faz mais urgente do que a investigação da causa —, o medicamento deve ser sempre direcionado à raiz do problema. Para tanto, é fundamental seguir as orientações de um médico, agindo com a devida cautela para não cometer erros.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学が私の説を採入れ始めた？ 『栄光』224号、昭和28(1953)年9月2日発行 去る六月九日の時事新報紙上に、栄養剤について私の唱える通りの説を、慶大医学部西田敬教授がいった言をかいてあるので、私は誠に喜ばしく思った。<br/><br/>また医薬についても、生温（なまぬる）い点は多々あるが、これまでの説と異（ちが）って余程私の説に近いものがあった。<br/><br/>このようにたとえ少しずつでも医学の方で分ってくれるとしたら、私望外の幸であるという事を一言付け加えて全文のまま左に掲げる事とした。<br/><br/> 肝心の時効かなくなる 危い素人診断 新薬ホルモン剤常用御注意 近頃の新聞や雑誌を手にとって目につくのは、病む人でなくてもまず薬の広告でしょう。<br/><br/>けれどもその広告にうたわれた効能をいわゆる素人診断で適応症にあてはめ、家庭で簡単に用いるのは危険です。<br/><br/>特にペニシリン、ストレプトマイシン、オーレオマイシンなどの抗生物質の薬やその他の新薬は、いい加減に使っていると病原菌に抵抗性が出来、肝心の時に効目がなくなったり、思いがけない結果を招く事があります。<br/><br/>それでなくても人間の身体は適応性を持っているので、たとえばある期間ビタミン剤を連用していると、純粋な形のビタミンがどんどん補給されるので食物の中から苦労して消化吸収する必要がなくなり臓器の能力がだんだんにおとろえて来ます。<br/><br/>同じことはホルモン剤にもいえる。<br/><br/> やたらとホルモン剤を服用することによって、体内での分泌能力がますます弱くなり薬の切れ目には以前よりも悪い結果になるだろうことは、学問的にとまでいわなくても常識で考えられることです。<br/><br/>はっきりとした欠乏症状の現われた時に医師の指示を受けて用い治ったらやめるというケジメはどの薬についてもいえるわけです。<br/><br/>予防の意味でなら薬にたよらず臓器自身の働きで、消化吸収または分泌をうながすよう、食事の注意から心掛けるのが本当でしょう。<br/><br/>また一般に薬というと、目に見える効目（ききめ）を頼り熱が出れば解熱剤、頭が痛めば鎮痛剤と、その現われた症状だけをおさえつければなおったように思う人が多いようですがこれは間違いです。<br/><br/>もともと身体はそのどこかに異状が起ると、熱や痛みその他の形をとってそれらと闘おうとする作用を持っているので、それぞれの症状にはそれ相当の理由があるのです。<br/><br/>その原因もたしかめずにただ無闇とおさえつけてしまったのでは、かえって病状を悪化させることにもなるのは当然といえましょう。<br/><br/>どうしても原因の分らない時とか、原因を探すよりさきに処置しなくては、生命に危険な高熱とか痛みでもない限り、薬はどこまでも原因に対して使うのが本当です。<br/><br/>それにはまず医師の注意に従い、間違いのないよう実行するよう心掛けたいものです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

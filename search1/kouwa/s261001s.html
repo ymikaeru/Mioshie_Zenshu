@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s261001s</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年10月1日S） 『御垂示録』3号、昭和26(1951)年11月25日発行 昭和二十六年十月一日 この人にはこう言うが、この人にはまた違う。<br><br>それを、この人に言われた通りにするから具合が悪い。<br><br>よくあります。<br><br>そういう点は考えなければならないことですね。<br><br>つまり、メシヤ教というのは、わずかの間で大きな仕事をするので、変わり方が非常に早い。<br><br>この点が他の宗教と違いますね。<br><br>名前が違うし――浄霊法とか、お守が変わるが、わずかの間に進むんですね。<br><br>千年かかるものが十年くらいです。<br><br>もっと早いですね。<br><br>私が昭和十九年に熱海に来て、二十年に終戦になって、二十二年から宗教法人になった。<br><br>それから三、四、五、六――今年で、宗教法人になってから四年です。<br><br>それで、箱根から熱海にのびた。<br><br>これは少し前からだが戦争中はしようがなかったからね。<br><br>終戦になって、二十二年からですね。<br><br>それだけでほとんど画期的でしょう。<br><br>世の人はびっくりする。<br><br>とにかく非常に早いです。<br><br>もっと早くなるんです。<br><br>もっと大きくなる。<br><br>これから二、三年も経ったらどんなになるかは見当がつかない。<br><br>毎日を較べてみるとびっくりするほど発展している。<br><br>その間は、官憲だとか新聞だとかに、なぐられたり、縛られたり、そういう中を――押さえつけられながらもやっているのはたいへんなものです。<br><br>新宗教じゃ、西のほうは天理教で、東のほうはメシヤ教ですね。<br><br>天理教は、もう百年(ﾏﾏ)教ですからね。<br><br>こっちは、天理教祖が亡くなってから、十年くらいですね。<br><br>天理教祖が始めたのは、明治四十八年ですか――最初からみれば、百四、五十年経っている。<br><br>こっちは、最初やったのが昭和九年で、十七年かになる。<br><br>それで、天理教とならび称せられるようになった。<br><br>早いですよ。<br><br>これからは、もっと早くなる。<br><br>追い越して、こっちがずっといく。<br><br>今までに例がないでしょう。<br><br>来年からは、実に早いですよ。<br><br> 鎌倉の長谷の観音さんですが――三丈三寸ですかね。<br><br>観音さんは小さいほうが良い。<br><br>一寸八分が本当です。<br><br>それを三丈三寸なんてね。<br><br>結局ね――計画はいろいろあるが、金なんです。<br><br>金さえあれば大飛躍ができる。<br><br>インテリ階級へも思い切ってできる。<br><br>だいぶインテリのほうが注目しているんです。<br><br>いま来た人の話ですが、著名文士が十名ばかりで、なにか発行したらという。<br><br>小島政次郎、里見弴（とん）、川端康成、徳川夢声、吉川英治、――とにかく、かれこれ十人ばかりで、なにか発行しようという話がある。<br><br>この間、川端康成が箱根にしばらく滞在していたが、もっと興味あるもの――一般的にね。<br><br>そういうものを編集したら良いだろうと言う。<br><br>先の「光新聞社」の小坂もそういった意味の新聞を出したら良いだろうと言っていた。<br><br>その人は本当のことを知らないからです。<br><br>一般向きのに、宗教の匂がするとそれに関心を持たないからね。<br><br>これは何々宗教の宣伝だと思うとね。<br><br>また信者のほうは、世間向きのことを書いてあると、そんなのはつまらないとなる。<br><br>どっちかにはっきりしてないと駄目です。<br><br>信者か、一般向きにかね。<br><br>よさそうでも、事実は駄目です。<br><br>そういうのが、今までにありますが、成功したのはないですね――駄目です。<br><br>大本教に、大正日々新聞というのがあったが、やっぱり駄目でした。<br><br>ですからなかなか難しい。<br><br>算盤を取らなければ良いんですが、こっちは算盤を取らずにやるほど、まだ余裕がない。<br><br> 山のほうがだいぶ確信が出て来ましたから、来年はそのほうで金が入るが、今年いっぱいは苦しい。<br><br>なにしろ、美術品を買わなければならないし、造営から美術館。<br><br>美術品なんかも、二つとない――出ないようなものがあるから、どうしても買わなければならない。<br><br>そうかといって、金のほうが足りない。<br><br>とすると――いまはうまく押さえているが、本当は金です。<br><br>もうだいたい山のほうは確信できるほどにしました――やっぱり、神様が前から準備されていて、奇跡でうまくいくんです。<br><br>水上（みなかみ）のほうで宿舎が足りなかったが、東京の人で疎開のために建てたのが、いくらででも処分したいと言うのです。<br><br>百十七坪かで、宅地が二十坪です。<br><br>それで七、八万円です。<br><br>七万か、七万五千に負けるだろう。<br><br>一週間ばかり手入れすれば住めるだろうと言うんです。<br><br>こういうのなんか奇跡です。<br><br>熱海の建築を早くやらなければならないしね。<br><br>神様は良い具合にやりますよ。<br><br> 今度ケーブルができる山があるでしょう。<br><br>半分くらいに低くしてケーブルの駅になるそうです。<br><br>私のほうで売らないので、庶民住宅のほうに行くらしい。<br><br>裏手のほうに行くらしい。<br><br>私のほうは、値にかかわらず欲しいのです。<br><br>あそこを温泉場にして、箱根登山の客があそこに行きますからね。<br><br>私はあそこを理想的な温泉場にしたい。<br><br>相の山と言う山がありますね。<br><br>あそこにホテルを造る。<br><br>あそこを宿屋にして――日本一の宿屋を造る。<br><br>そして、ごく清潔にですね――変な女は置かない――つまり、温泉天国というんですか――だいたい信者ですがね。<br><br>温泉は、こうこしらえるものだ。<br><br>というようなものを造る。<br><br>あの地形から言えば、理想的なものです。<br><br> ついこの間までは、寒くて震えていたが、こっちにくると暖かいね。<br><br>わずか一時間足らずで行ける所で、気候が違う。<br><br>実にすばらしいです。<br><br>普通の所でこんなに違うというと、秋田県か青森県から四国に行かなければならない。<br><br>二百里から違う。<br><br> 「九州からまいりまして、かえって暖かいことがございます」 それでは台湾くらいですね。<br><br> 「寒さは山形くらいのようでございます」 山形と九州ですね。<br><br>そうすると三百里くらいあるかな。<br><br> この地形というのは実に不思議ですよ。<br><br>うっかりしてますがね。<br><br> 「強羅におりまして、他に行ってみると、濁っているのが良く分かるようでございます」 あそこにいるとどこにも行きたくないですね。<br><br>他に行くと汚くて汚くて――目立って汚いからね。<br><br> 熱海では、地上天国の所が一番景色が良いですからね。<br><br>私は熱海に来たときずいぶん研究したが、どうしても、伊豆山と熱海の間で――これが一番良い。<br><br>今度ああなってから――昨日行って見たら、景色が違って来ている。<br><br> 「伊豆山とこっちといいますと、五（いず）と三（みず）になっているわけで――」 そうですね。<br><br>五と三ですね。<br><br> 「三月ぶりで拝見させていただきましたが、驚きました」 まだまだ変りますよ。<br><br>あの奥のほうはすばらしく変ります。<br><br>そこにメシヤ会館を造る設計ですが、なかなか難しい。<br><br>ずいぶん、建築のほうは世界的にする。<br><br>建築なんとかと言う雑誌があるんですが、アメリカあたりで――コルビュジエ式ですね。<br><br>ずいぶん奇抜なのがありますがね。<br><br>会館、美術館のほうはアッと言うような物をこしらえようと思う。<br><br>アメリカあたりでは、大胆な建築がありますね。<br><br>ずいぶん凹凸の激しいのがね。<br><br>あれができたらびっくりするだろうね。<br><br>熱海のほうは再来年までにこしらえる。<br><br>熱海のほうができたら世界中の人が日本に見物にくるのがずいぶんあります。<br><br>日本に来たら、日光を見なくても、こっちを見なくては、と言う――それだけのものを造るんです。<br><br>建築も、支那や日本の古代のお寺臭いのでなく、そうかといって、現代のコルビュジエ式でもない――どっちでもないのを造らなければね。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Celeridade da Obra Divina</h2>
 <p>Meus ensinamentos podem variar de pessoa para pessoa. O equívoco reside em aplicar a orientação dada a um, de forma indiscriminada, a outro. Tais situações são recorrentes e exigem discernimento. Com efeito, a Igreja Messiânica, por realizar uma obra grandiosa em um curto espaço de tempo, transforma-se com extrema celeridade. Eis o ponto que a distingue das demais religiões.</p>
@@ -113,5 +265,48 @@ function toggleLang(lang) {
 <p>Isso mesmo. Cinco e três.</p>
 <p>“Faz três meses que não via o local. Fiquei impressionado.”</p>
 <p>E as transformações ainda estão apenas no começo. A parte dos fundos mudará de maneira esplêndida. Ali planejamos erguer o futuro Salão Messiânico, cujo projeto arquitetônico é um grande desafio. Pretendo que seja uma obra de relevância mundial. Existem revistas de arquitetura que mostram edifícios nos Estados Unidos, por exemplo, no estilo de Le Corbusier, com projetos bastante excêntricos. Para nosso salão e museu, contudo, quero criar algo que deixe as pessoas boquiabertas. Na América, há construções audaciosas, com formas assimétricas e ousadas. Quando o nosso estiver pronto, causará um espanto ainda maior. O complexo de Atami deverá ser concluído até o ano retrasado. Quando estiver finalizado, pessoas do mundo inteiro virão ao Japão para visitá-lo. Será uma obra de tal magnitude que, ao chegarem ao país, sentirão que, mais do que visitar Nikko, é imprescindível conhecer este lugar. A arquitetura não terá o ar dos antigos templos chineses ou japoneses, tampouco seguirá o modernismo de Le Corbusier. Teremos de criar um estilo que transcenda ambos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年10月1日S） 『御垂示録』3号、昭和26(1951)年11月25日発行 昭和二十六年十月一日 この人にはこう言うが、この人にはまた違う。<br/><br/>それを、この人に言われた通りにするから具合が悪い。<br/><br/>よくあります。<br/><br/>そういう点は考えなければならないことですね。<br/><br/>つまり、メシヤ教というのは、わずかの間で大きな仕事をするので、変わり方が非常に早い。<br/><br/>この点が他の宗教と違いますね。<br/><br/>名前が違うし――浄霊法とか、お守が変わるが、わずかの間に進むんですね。<br/><br/>千年かかるものが十年くらいです。<br/><br/>もっと早いですね。<br/><br/>私が昭和十九年に熱海に来て、二十年に終戦になって、二十二年から宗教法人になった。<br/><br/>それから三、四、五、六――今年で、宗教法人になってから四年です。<br/><br/>それで、箱根から熱海にのびた。<br/><br/>これは少し前からだが戦争中はしようがなかったからね。<br/><br/>終戦になって、二十二年からですね。<br/><br/>それだけでほとんど画期的でしょう。<br/><br/>世の人はびっくりする。<br/><br/>とにかく非常に早いです。<br/><br/>もっと早くなるんです。<br/><br/>もっと大きくなる。<br/><br/>これから二、三年も経ったらどんなになるかは見当がつかない。<br/><br/>毎日を較べてみるとびっくりするほど発展している。<br/><br/>その間は、官憲だとか新聞だとかに、なぐられたり、縛られたり、そういう中を――押さえつけられながらもやっているのはたいへんなものです。<br/><br/>新宗教じゃ、西のほうは天理教で、東のほうはメシヤ教ですね。<br/><br/>天理教は、もう百年(ﾏﾏ)教ですからね。<br/><br/>こっちは、天理教祖が亡くなってから、十年くらいですね。<br/><br/>天理教祖が始めたのは、明治四十八年ですか――最初からみれば、百四、五十年経っている。<br/><br/>こっちは、最初やったのが昭和九年で、十七年かになる。<br/><br/>それで、天理教とならび称せられるようになった。<br/><br/>早いですよ。<br/><br/>これからは、もっと早くなる。<br/><br/>追い越して、こっちがずっといく。<br/><br/>今までに例がないでしょう。<br/><br/>来年からは、実に早いですよ。<br/><br/> 鎌倉の長谷の観音さんですが――三丈三寸ですかね。<br/><br/>観音さんは小さいほうが良い。<br/><br/>一寸八分が本当です。<br/><br/>それを三丈三寸なんてね。<br/><br/>結局ね――計画はいろいろあるが、金なんです。<br/><br/>金さえあれば大飛躍ができる。<br/><br/>インテリ階級へも思い切ってできる。<br/><br/>だいぶインテリのほうが注目しているんです。<br/><br/>いま来た人の話ですが、著名文士が十名ばかりで、なにか発行したらという。<br/><br/>小島政次郎、里見弴（とん）、川端康成、徳川夢声、吉川英治、――とにかく、かれこれ十人ばかりで、なにか発行しようという話がある。<br/><br/>この間、川端康成が箱根にしばらく滞在していたが、もっと興味あるもの――一般的にね。<br/><br/>そういうものを編集したら良いだろうと言う。<br/><br/>先の「光新聞社」の小坂もそういった意味の新聞を出したら良いだろうと言っていた。<br/><br/>その人は本当のことを知らないからです。<br/><br/>一般向きのに、宗教の匂がするとそれに関心を持たないからね。<br/><br/>これは何々宗教の宣伝だと思うとね。<br/><br/>また信者のほうは、世間向きのことを書いてあると、そんなのはつまらないとなる。<br/><br/>どっちかにはっきりしてないと駄目です。<br/><br/>信者か、一般向きにかね。<br/><br/>よさそうでも、事実は駄目です。<br/><br/>そういうのが、今までにありますが、成功したのはないですね――駄目です。<br/><br/>大本教に、大正日々新聞というのがあったが、やっぱり駄目でした。<br/><br/>ですからなかなか難しい。<br/><br/>算盤を取らなければ良いんですが、こっちは算盤を取らずにやるほど、まだ余裕がない。<br/><br/> 山のほうがだいぶ確信が出て来ましたから、来年はそのほうで金が入るが、今年いっぱいは苦しい。<br/><br/>なにしろ、美術品を買わなければならないし、造営から美術館。<br/><br/>美術品なんかも、二つとない――出ないようなものがあるから、どうしても買わなければならない。<br/><br/>そうかといって、金のほうが足りない。<br/><br/>とすると――いまはうまく押さえているが、本当は金です。<br/><br/>もうだいたい山のほうは確信できるほどにしました――やっぱり、神様が前から準備されていて、奇跡でうまくいくんです。<br/><br/>水上（みなかみ）のほうで宿舎が足りなかったが、東京の人で疎開のために建てたのが、いくらででも処分したいと言うのです。<br/><br/>百十七坪かで、宅地が二十坪です。<br/><br/>それで七、八万円です。<br/><br/>七万か、七万五千に負けるだろう。<br/><br/>一週間ばかり手入れすれば住めるだろうと言うんです。<br/><br/>こういうのなんか奇跡です。<br/><br/>熱海の建築を早くやらなければならないしね。<br/><br/>神様は良い具合にやりますよ。<br/><br/> 今度ケーブルができる山があるでしょう。<br/><br/>半分くらいに低くしてケーブルの駅になるそうです。<br/><br/>私のほうで売らないので、庶民住宅のほうに行くらしい。<br/><br/>裏手のほうに行くらしい。<br/><br/>私のほうは、値にかかわらず欲しいのです。<br/><br/>あそこを温泉場にして、箱根登山の客があそこに行きますからね。<br/><br/>私はあそこを理想的な温泉場にしたい。<br/><br/>相の山と言う山がありますね。<br/><br/>あそこにホテルを造る。<br/><br/>あそこを宿屋にして――日本一の宿屋を造る。<br/><br/>そして、ごく清潔にですね――変な女は置かない――つまり、温泉天国というんですか――だいたい信者ですがね。<br/><br/>温泉は、こうこしらえるものだ。<br/><br/>というようなものを造る。<br/><br/>あの地形から言えば、理想的なものです。<br/><br/> ついこの間までは、寒くて震えていたが、こっちにくると暖かいね。<br/><br/>わずか一時間足らずで行ける所で、気候が違う。<br/><br/>実にすばらしいです。<br/><br/>普通の所でこんなに違うというと、秋田県か青森県から四国に行かなければならない。<br/><br/>二百里から違う。<br/><br/> 「九州からまいりまして、かえって暖かいことがございます」 それでは台湾くらいですね。<br/><br/> 「寒さは山形くらいのようでございます」 山形と九州ですね。<br/><br/>そうすると三百里くらいあるかな。<br/><br/> この地形というのは実に不思議ですよ。<br/><br/>うっかりしてますがね。<br/><br/> 「強羅におりまして、他に行ってみると、濁っているのが良く分かるようでございます」 あそこにいるとどこにも行きたくないですね。<br/><br/>他に行くと汚くて汚くて――目立って汚いからね。<br/><br/> 熱海では、地上天国の所が一番景色が良いですからね。<br/><br/>私は熱海に来たときずいぶん研究したが、どうしても、伊豆山と熱海の間で――これが一番良い。<br/><br/>今度ああなってから――昨日行って見たら、景色が違って来ている。<br/><br/> 「伊豆山とこっちといいますと、五（いず）と三（みず）になっているわけで――」 そうですね。<br/><br/>五と三ですね。<br/><br/> 「三月ぶりで拝見させていただきましたが、驚きました」 まだまだ変りますよ。<br/><br/>あの奥のほうはすばらしく変ります。<br/><br/>そこにメシヤ会館を造る設計ですが、なかなか難しい。<br/><br/>ずいぶん、建築のほうは世界的にする。<br/><br/>建築なんとかと言う雑誌があるんですが、アメリカあたりで――コルビュジエ式ですね。<br/><br/>ずいぶん奇抜なのがありますがね。<br/><br/>会館、美術館のほうはアッと言うような物をこしらえようと思う。<br/><br/>アメリカあたりでは、大胆な建築がありますね。<br/><br/>ずいぶん凹凸の激しいのがね。<br/><br/>あれができたらびっくりするだろうね。<br/><br/>熱海のほうは再来年までにこしらえる。<br/><br/>熱海のほうができたら世界中の人が日本に見物にくるのがずいぶんあります。<br/><br/>日本に来たら、日光を見なくても、こっちを見なくては、と言う――それだけのものを造るんです。<br/><br/>建築も、支那や日本の古代のお寺臭いのでなく、そうかといって、現代のコルビュジエ式でもない――どっちでもないのを造らなければね。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

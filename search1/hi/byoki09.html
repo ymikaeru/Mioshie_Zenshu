@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>byoki09</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病気とは何ぞや 未発表『文明の創造』昭和27(1952)年執筆 いよいよこれから病気についての一切を解説する順序となったが、そもそも病気とは何かというと、一言にしていえば体内にあってはならない汚物の排泄作用である。<br><br>従って体内に汚物さえなければ血行は良く、無病息災で年中溌剌たる元気をもって活動が出来るのである。<br><br>としたら一体汚物とは何であるかというと、これこそ薬剤の古くなったもので、毒血または膿化した不潔物である。<br><br>ではなぜそのような病気の原因となるところの薬剤を使用し始めたかというと、これには大いに理由があるから詳しくかいてみるが、そもそも人類は未開時代はともかく、漸次人口が増えるに従って、食物が不足になって来た。<br><br>そこで人間は食物を探し求め、手当たり放題に採っては食った。<br><br>もちろん農作法も漁獲法も幼稚の事とて、山野、河川至るところで木の実、草の実、虫類、貝類、小魚等を漁ったが、その良否など見分ける術もないので、矢鱈（やたら）に食欲を満たそうとしたので、毒物に中（あ）てられ、その苦痛を名付けて病気と謂（い）ったのである。<br><br>そこで何とかしてその苦痛を脱れようとし、草根木皮を試みたところ、たまたま苦痛が軽くなるものもあるので、これを薬と称して有難がったのである。<br><br>その中での薬の発見者として有名なのが、中国漢時代に現れた盤古（ばんこ）氏で、別名神農という漢方薬の始祖人であるのは余りにも有名である。<br><br> 右のごとくであるから、食物中毒の苦痛ももちろんその浄化のためであり、薬効とはその毒物の排泄停止によって苦痛が緩和されるので、すでにその頃から浄化停止をもって病を治す手段と思ったので、この迷盲が二千有余年も続いて来たのであるから驚くの外はない。<br><br>そうして西洋においても草根木皮以外あらゆる物から薬を採ったのは現在といえどもそうである。<br><br>従って薬で病気を治す考え方は、これ程開けた今日でも原始時代の人智といささかも変っていないのは不思議といっていい。<br><br> さていよいよこれから実際の病気について徹底的に解説してみるが、そもそも人間として誰でも必ず罹る病としては感冒であろうから、これから解説するとしよう。<br><br>まず感冒に罹るや発熱が先駆となり、次で頭痛、咳嗽、喀痰、盗汗、節々の痛み、懈（だる）さ等、その内の幾つかの症状は必ず出るが、この原因は何かというと、体内保有毒素に浄化作用が発り、その排除に伴う現象である。<br><br>ところがその理を知らない医療は、それを停めようとするので、これが大変な誤りである。<br><br>今その理由を詳しく説明してみるとこうである。<br><br>すなわち人間の体内に毒素があると、機能の活動を妨げるので、自然はある程度を越ゆる場合、その排除作用を起すのである。<br><br>排除作用とは固まった毒素を熱によって溶解し喀痰、鼻汁、汗、尿、下痢等の排泄物にして体外へ出すのであるから、その間の僅かの苦痛さえ我慢すれば、順調に浄化作用が行われるから毒素は減り、それだけ健康は増すのである。<br><br>ところが医学は逆に解して、苦痛は体内機能を毀損（きそん）させる現象として悪い意味に解釈する結果、極力停めようとするのであるから、全く恐るべき誤謬である。<br><br>そうして元来浄化作用とは、活力旺盛であればある程起り易いのであるから、弱らせるに限るから、ここに弱らせる方法として生まれたのが医療である。<br><br>もちろん弱っただけは症状が減るからこれも無理はないが、実際は無智以外の何物でもないのである。<br><br>その弱らせる方法として最も効果あるものが薬である。<br><br>つまり薬と称する毒を使って弱らせるのである。<br><br>人体の方は熱によって毒素を溶かし、液体にして排泄しようとして神経を刺戟する。<br><br>それが痛み苦しみであるのを、いつどう間違えたものか、それを悪化と解して溶けないよう元通りに固めようとする。<br><br>それが氷冷、湿布、解熱剤等であるから、実に驚くべき程の無智で、これでは病気を治すのではなく、治さないようにする事であり、一時の苦痛緩和を治る過程と思い誤ったのである。<br><br>ところが前記のごとく苦痛緩和手段そのものが病気を作る原因となるのであるから、由々しき問題である。<br><br>つまり天与の病気という健康増進の恩恵を逆解して、阻止排撃手段に出るその方法が医学であるから、その無智なる、評する言葉はないのである。<br><br>近来よく言われる闘病という言葉も右の意味から出たのであろう。<br><br> 右のごとく感冒に罹るや、排泄されようとする毒素を停めると共に、薬毒をも追加するので、一時は固まって苦痛は解消するから、これで治ったものと思うが、これこそ飛んでもない話で、却って最初出ようとした毒素を出ないようにして後から追加するのであるから、その結果として今度は前より強い浄化が起るのは当然である。<br><br>その証拠には一旦風邪を引いて一回で治り切りになる人はほとんどあるまい。<br><br>また陽気の変り目には大抵な人は風邪を引くし、風邪が持病のようになる人も少なくないので、そういう人がこれを読んだらなるほどと肯くであろう。<br><br>このように人間にとって感冒程簡単な体内清潔作用はないのであるから、風邪程有難い物はないのである。<br><br>ところが昔から風邪は万病の基などといっているが、これ程間違った話はない。<br><br>何よりも近来のごとく結核患者が増えるのも風邪を引かないようにし、たまたま引いても固めて毒素を出さないようにする。<br><br>従って結核予防は風邪引きを大いに奨励する事である。<br><br>そうすれば結核問題など訳なく解決するのである。<br><br>それを知らないから反対の方法を採るので、益々増えるのは当然である。<br><br> そうして右のごとく病原としての毒素固結であるが、これ原因は先天性と後天性と両方ある。<br><br>先天性はもちろん遺伝毒素であり、後天性は生まれた後入れた薬毒である。<br><br>ところがその両毒は人間が神経を使う局部へ集中固結する。<br><br>人間が最も神経を使うところとしては、上半身特に頭脳を中心とした眼、耳、鼻、口等であるから、毒素はそこを目掛けて集中せんとし、一旦頸部付近に固結するのである。<br><br>誰でも首の周り、肩の付近を探ればよく分かる、そこに固結のない人はほとんどないといってもいい。<br><br>しかも必ず微熱があるのは軽微な浄化が起っているからで、頭痛、頭重、首肩の凝り、耳鳴、眼脂（めやに）、鼻汁、喀痰、歯槽膿漏等はそのためである。<br><br>ところが毒結がある程度を越ゆると自然浄化が発生するし、その他運動によって体力が活溌となったり、気候の激変によって自然順応作用が起ったりする等の諸原因によって風邪を引くようになる。<br><br>よく肩が張ると風邪を引くというのはこれである。<br><br>また咳嗽は液体化した毒結排除のためのポンプ作用であるが、これは首の付近とは限らない。<br><br>各部の毒結もそうである。<br><br>次にくしゃみであるが、これはちょうど鼻の裏側、延髄付近の毒素が液体となったのを出すポンプ作用であるから、この理を知れば実際とよく合う事が分るのである。<br><br> 右のごとく頭脳を中心とした上半身の強烈な浄化作用が感冒であるから、この理屈さえ分れば、たとえ感冒に罹っても安心して、自然に委せておけばいいので、体内は清浄となり、順調に割合早く治るのであるから、この事を知っただけでも、その幸福の大なる事は言うまでもない。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Natureza da Doença</h2>
 <p>Chegou o momento de elucidar, em sua totalidade, a questão da doença. Em suma, o que vem a ser a doença? Trata-se, em uma única palavra, do processo de eliminação de impurezas que não deveriam estar presentes no corpo. Consequentemente, se o organismo estivesse livre de tais impurezas, a circulação sanguínea fluiria sem obstáculos, e o indivíduo desfrutaria de uma vida vigorosa e plena de saúde, livre de enfermidades. Mas o que são, afinal, essas impurezas? Consistem elas em substâncias medicamentosas que, com o tempo, se deterioram, transformando-se em sangue tóxico ou matéria purulenta. Cumpre então questionar por que a humanidade principiou o uso de tais medicamentos, que são a própria causa das doenças. A razão para tanto é profunda e merece ser detalhada. Nos primórdios da civilização, com o gradual aumento da população, os alimentos tornaram-se escassos. Em sua busca por sustento, o ser humano passou a consumir tudo o que encontrava indiscriminadamente. Naturalmente, com métodos de agricultura e pesca ainda rudimentares, as pessoas coletavam frutos, sementes, insetos, mariscos e pequenos peixes nas montanhas, nos campos e nos rios. Sem qualquer meio para discernir o que era seguro do que era nocivo, buscavam apenas saciar a fome, o que frequentemente resultava em intoxicações por substâncias venenosas. À dor decorrente desse processo deu-se o nome de doença. Em sua tentativa de aliviar tal sofrimento, os homens passaram a experimentar raízes e cascas de plantas. Ocasionalmente, encontravam algo que atenuava a dor, e a isso, reverentemente, chamaram de remédio. Dentre os descobridores de tais substâncias, destaca-se a figura de Banko (盤古), que viveu na China durante a dinastia Han. Ele, também conhecido como Shin'nou, é célebre por ser o patriarca da fitoterapia chinesa.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Para o ser humano, não há processo de limpeza interna mais simples que o resfriado. Por essa razão, não existe nada mais benéfico. Contudo, o velho ditado afirma que "o resfriado é a origem de todas as doenças". Não poderia haver afirmação mais equivocada. A principal causa do aumento recente de casos de tuberculose, por exemplo, é justamente o esforço para evitar resfriados e, quando ocorrem, para solidificar e reter as toxinas. A verdadeira prevenção da tuberculose, portanto, consistiria em incentivar abertamente os resfriados. Se assim fosse feito, o problema da tuberculose seria solucionado com facilidade. Por ignorarem este fato, as pessoas adotam o método oposto, e o resultado inevitável é o aumento contínuo da doença.</p>
 <p>Esses nódulos de toxinas que constituem a causa das doenças têm uma dupla origem: congênita e adquirida. As toxinas congênitas são, obviamente, hereditárias, enquanto as adquiridas provêm dos medicamentos ingeridos após o nascimento. Ambas as classes de toxinas tendem a se concentrar e a se solidificar nas partes do corpo onde a atividade nervosa é mais intensa. Como as áreas de maior uso dos nervos se localizam na parte superior do corpo, especialmente na cabeça e em seus órgãos — cérebro, olhos, ouvidos, nariz, boca —, é para lá que as toxinas se dirigem, solidificando-se inicialmente na região do pescoço. Qualquer pessoa pode comprovar isso apalpando o pescoço e os ombros; pode-se afirmar que quase ninguém está isento desses nódulos. A presença constante de uma febre baixa nesses locais indica a ocorrência de uma purificação sutil, responsável por sintomas como dor de cabeça, sensação de peso na cabeça, enrijecimento do pescoço e dos ombros, zumbido nos ouvidos, remela, coriza, escarro e piorreia. Quando a acumulação desses nódulos tóxicos atinge um certo ponto, a purificação natural é desencadeada. Outros fatores, como o aumento do vigor físico por meio de exercícios ou a adaptação do corpo a mudanças climáticas bruscas, também podem dar início a um resfriado. A crença popular de que o enrijecimento dos ombros precede um resfriado se deve a isso. A tosse, por sua vez, é uma ação de bombeamento para expelir toxinas liquefeitas, e não se restringe àquelas localizadas no pescoço, mas atua sobre nódulos em qualquer parte do corpo. Por fim, o espirro é um mecanismo semelhante, que bombeia para fora as toxinas liquefeitas na região posterior do nariz, próxima ao bulbo. Ao se conhecer este princípio, percebe-se sua perfeita correspondência com a realidade.</p>
 <p>Assim, o resfriado nada mais é do que um intenso processo purificador concentrado na parte superior do corpo, notadamente na cabeça. Uma vez compreendido este princípio, mesmo que se contraia um resfriado, pode-se permanecer tranquilo, entregando-se ao curso natural do processo. O corpo se purificará e a recuperação ocorrerá de forma suave e relativamente rápida. Não é preciso dizer, portanto, quão imensa é a felicidade que advém do simples conhecimento deste fato.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病気とは何ぞや 未発表『文明の創造』昭和27(1952)年執筆 いよいよこれから病気についての一切を解説する順序となったが、そもそも病気とは何かというと、一言にしていえば体内にあってはならない汚物の排泄作用である。<br/><br/>従って体内に汚物さえなければ血行は良く、無病息災で年中溌剌たる元気をもって活動が出来るのである。<br/><br/>としたら一体汚物とは何であるかというと、これこそ薬剤の古くなったもので、毒血または膿化した不潔物である。<br/><br/>ではなぜそのような病気の原因となるところの薬剤を使用し始めたかというと、これには大いに理由があるから詳しくかいてみるが、そもそも人類は未開時代はともかく、漸次人口が増えるに従って、食物が不足になって来た。<br/><br/>そこで人間は食物を探し求め、手当たり放題に採っては食った。<br/><br/>もちろん農作法も漁獲法も幼稚の事とて、山野、河川至るところで木の実、草の実、虫類、貝類、小魚等を漁ったが、その良否など見分ける術もないので、矢鱈（やたら）に食欲を満たそうとしたので、毒物に中（あ）てられ、その苦痛を名付けて病気と謂（い）ったのである。<br/><br/>そこで何とかしてその苦痛を脱れようとし、草根木皮を試みたところ、たまたま苦痛が軽くなるものもあるので、これを薬と称して有難がったのである。<br/><br/>その中での薬の発見者として有名なのが、中国漢時代に現れた盤古（ばんこ）氏で、別名神農という漢方薬の始祖人であるのは余りにも有名である。<br/><br/> 右のごとくであるから、食物中毒の苦痛ももちろんその浄化のためであり、薬効とはその毒物の排泄停止によって苦痛が緩和されるので、すでにその頃から浄化停止をもって病を治す手段と思ったので、この迷盲が二千有余年も続いて来たのであるから驚くの外はない。<br/><br/>そうして西洋においても草根木皮以外あらゆる物から薬を採ったのは現在といえどもそうである。<br/><br/>従って薬で病気を治す考え方は、これ程開けた今日でも原始時代の人智といささかも変っていないのは不思議といっていい。<br/><br/> さていよいよこれから実際の病気について徹底的に解説してみるが、そもそも人間として誰でも必ず罹る病としては感冒であろうから、これから解説するとしよう。<br/><br/>まず感冒に罹るや発熱が先駆となり、次で頭痛、咳嗽、喀痰、盗汗、節々の痛み、懈（だる）さ等、その内の幾つかの症状は必ず出るが、この原因は何かというと、体内保有毒素に浄化作用が発り、その排除に伴う現象である。<br/><br/>ところがその理を知らない医療は、それを停めようとするので、これが大変な誤りである。<br/><br/>今その理由を詳しく説明してみるとこうである。<br/><br/>すなわち人間の体内に毒素があると、機能の活動を妨げるので、自然はある程度を越ゆる場合、その排除作用を起すのである。<br/><br/>排除作用とは固まった毒素を熱によって溶解し喀痰、鼻汁、汗、尿、下痢等の排泄物にして体外へ出すのであるから、その間の僅かの苦痛さえ我慢すれば、順調に浄化作用が行われるから毒素は減り、それだけ健康は増すのである。<br/><br/>ところが医学は逆に解して、苦痛は体内機能を毀損（きそん）させる現象として悪い意味に解釈する結果、極力停めようとするのであるから、全く恐るべき誤謬である。<br/><br/>そうして元来浄化作用とは、活力旺盛であればある程起り易いのであるから、弱らせるに限るから、ここに弱らせる方法として生まれたのが医療である。<br/><br/>もちろん弱っただけは症状が減るからこれも無理はないが、実際は無智以外の何物でもないのである。<br/><br/>その弱らせる方法として最も効果あるものが薬である。<br/><br/>つまり薬と称する毒を使って弱らせるのである。<br/><br/>人体の方は熱によって毒素を溶かし、液体にして排泄しようとして神経を刺戟する。<br/><br/>それが痛み苦しみであるのを、いつどう間違えたものか、それを悪化と解して溶けないよう元通りに固めようとする。<br/><br/>それが氷冷、湿布、解熱剤等であるから、実に驚くべき程の無智で、これでは病気を治すのではなく、治さないようにする事であり、一時の苦痛緩和を治る過程と思い誤ったのである。<br/><br/>ところが前記のごとく苦痛緩和手段そのものが病気を作る原因となるのであるから、由々しき問題である。<br/><br/>つまり天与の病気という健康増進の恩恵を逆解して、阻止排撃手段に出るその方法が医学であるから、その無智なる、評する言葉はないのである。<br/><br/>近来よく言われる闘病という言葉も右の意味から出たのであろう。<br/><br/> 右のごとく感冒に罹るや、排泄されようとする毒素を停めると共に、薬毒をも追加するので、一時は固まって苦痛は解消するから、これで治ったものと思うが、これこそ飛んでもない話で、却って最初出ようとした毒素を出ないようにして後から追加するのであるから、その結果として今度は前より強い浄化が起るのは当然である。<br/><br/>その証拠には一旦風邪を引いて一回で治り切りになる人はほとんどあるまい。<br/><br/>また陽気の変り目には大抵な人は風邪を引くし、風邪が持病のようになる人も少なくないので、そういう人がこれを読んだらなるほどと肯くであろう。<br/><br/>このように人間にとって感冒程簡単な体内清潔作用はないのであるから、風邪程有難い物はないのである。<br/><br/>ところが昔から風邪は万病の基などといっているが、これ程間違った話はない。<br/><br/>何よりも近来のごとく結核患者が増えるのも風邪を引かないようにし、たまたま引いても固めて毒素を出さないようにする。<br/><br/>従って結核予防は風邪引きを大いに奨励する事である。<br/><br/>そうすれば結核問題など訳なく解決するのである。<br/><br/>それを知らないから反対の方法を採るので、益々増えるのは当然である。<br/><br/> そうして右のごとく病原としての毒素固結であるが、これ原因は先天性と後天性と両方ある。<br/><br/>先天性はもちろん遺伝毒素であり、後天性は生まれた後入れた薬毒である。<br/><br/>ところがその両毒は人間が神経を使う局部へ集中固結する。<br/><br/>人間が最も神経を使うところとしては、上半身特に頭脳を中心とした眼、耳、鼻、口等であるから、毒素はそこを目掛けて集中せんとし、一旦頸部付近に固結するのである。<br/><br/>誰でも首の周り、肩の付近を探ればよく分かる、そこに固結のない人はほとんどないといってもいい。<br/><br/>しかも必ず微熱があるのは軽微な浄化が起っているからで、頭痛、頭重、首肩の凝り、耳鳴、眼脂（めやに）、鼻汁、喀痰、歯槽膿漏等はそのためである。<br/><br/>ところが毒結がある程度を越ゆると自然浄化が発生するし、その他運動によって体力が活溌となったり、気候の激変によって自然順応作用が起ったりする等の諸原因によって風邪を引くようになる。<br/><br/>よく肩が張ると風邪を引くというのはこれである。<br/><br/>また咳嗽は液体化した毒結排除のためのポンプ作用であるが、これは首の付近とは限らない。<br/><br/>各部の毒結もそうである。<br/><br/>次にくしゃみであるが、これはちょうど鼻の裏側、延髄付近の毒素が液体となったのを出すポンプ作用であるから、この理を知れば実際とよく合う事が分るのである。<br/><br/> 右のごとく頭脳を中心とした上半身の強烈な浄化作用が感冒であるから、この理屈さえ分れば、たとえ感冒に罹っても安心して、自然に委せておけばいいので、体内は清浄となり、順調に割合早く治るのであるから、この事を知っただけでも、その幸福の大なる事は言うまでもない。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

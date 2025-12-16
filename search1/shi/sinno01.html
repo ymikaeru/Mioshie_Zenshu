@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sinno01</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 真の医術 未発表、昭和25(1950)年5月21日 よく吾々が医学に対し非難しすぎると云って注意をする人があるが、吾らは決して医学を非難しようとする意図は毫もない。<br><br>ただ何物にも促われず、独自の見地からの研究によって得たる説を発表するのである。<br><br>しかしその説たるや、飽くまで事実に即しているのである。<br><br>そうして、研究においては医学は動物実験を基本とするのに対し、吾々の方は人間を実験台とする。<br><br>医学がなぜ人間の病を研究するのに人間以外の動物を資料とするかというと、これは万一をおもい危険を避ける意味からでまた止むを得ないと云えよう。<br><br>右に対し吾々の方は見込違いなどは絶対にない。<br><br>もし仮りにありとすればそれは効果が予期したより少ないと云うだけで、いささかの危険も伴わないのである。<br><br>何よりもおかげ話の感謝に満ちた報告が机上に山をなし本紙に載せきれない程であるに見て明らかである。<br><br>しかし、こういう見方をする人もあろう。<br><br>おかげ話は成績のよいのだけが報告され、不良なのは出さないから誠に都合が良いというかも知れない。<br><br>しかしこの疑いは訳なく打破出来るというのは本教の異常な発展がよく物語っている。<br><br> 「本教は都合の良い宣伝や無理な勧誘は決してやらない方針だ。<br><br>よく昔から新規開業などの場合チラシを出したいと云って来るがそれを許さない」。<br><br>何となれば、そういうやり方ははなはだ力が弱いからである。<br><br>どうしても「自分の難病が治り、感激の余り病苦に悩む人を見るに見兼ねて、自己の体験から浄霊や信仰を奨めるのであるから力がある」。<br><br>それは「神に感謝報恩の誠が滲み出ているからである以上、人を動かさずにはおかない訳である」。<br><br>するとそれに応じ浄霊を受けるや、たちまち大きなお蔭を戴くのでこの人も感激の余り他の人を勧誘する。<br><br>かくして漸次発展する。<br><br>それが本当のやり方である以上本教もこの方針で進んで行くのである。<br><br>これによってみても成績良好者の多いからである事は疑いの余地はあるまい。<br><br>のみならず、「世間筆に口に本教を迷信邪教、インチキなどとあらゆる非難の声を浴びせるがそれにもかかわらずビクともしないで発展を遂げつつあるのは、どこかに力強い何物かがなくてはならないはずである」。<br><br>これに無関心である人もあるがそれこそ食わずぎらいの人である。<br><br>右の事実を充分頭に入れて、これから解く説を必読されん事である。<br><br> そもそも全世界の医学者が幾世紀に亘って苦心さん澹（たん）努力の結晶とも言うべき現代医学であるから、いかなる人間といえどもこれ以上のものは絶対にないと信じ、病気に罹れば医者に行き、薬をのみ種々な最新の療法をうけ、安心して貴重なる生命をまかせるのである。<br><br>もし予期に反し思うように病気は治らず、悪化するようになっても医学に対しいささかの疑心も起さないどころか却って理くつをつける。<br><br>自分の体質が弱いからだとか、病気が悪質のためとか、手おくれだったからとかいって飽くまでも医学に頼ろうとする。<br><br>実にその信念の固いのは驚く程である。<br><br>もちろん、医師もそう説明するからそう思うのである。<br><br>それで万一不幸の場合、運がなかったからと言って諦める。<br><br>中には何々病院何人の博士に診て貰らっても駄目だったからよくよく命運がなかったからだと思って済んでしまう。<br><br>これが現代社会のあるがままの姿である。<br><br>しかし、右のような事実を日々見つつある専門家諸君も常に思うであろう。<br><br>どうもあの病気は不思議だ、あれ程高価な薬剤や、進歩せる療法や、充分な手当を施したにかかわらずよくならないどころか漸次悪化し遂に死んでしまったというのはどうも判らない。<br><br>またあの病人は最新の療法をあれ程一生懸命に施してもとうとう駄目だった、学理から云っても治らない訳はないはずだと言って、歎声を漏らす事もあるようだ。<br><br>またやっと治ってやれやれと安心するかしない中（うち）再発と云う、百日の説法屁一つと言う事もよくある。<br><br>あれ程医師の言を守り、細心の注意を払い、多額の費用と歳月を費やしたにかかわらず、こうなるのは実に判らないと言って首をひねる事もよくあろう。<br><br>ここで面白い事には医師の家族が罹病した場合、大事な妻や子供であるから、どこまでも自分が治療しなければ安心出来ないはずだのにこのまた摩訶（まか）不思議である。<br><br>と云うのはどうも自分の家族は恐ろしくて手が出せない。<br><br>仕方ないので友人の医師に診て貰う事もよく聞く話である。<br><br>こんな理屈に合わない話はないではないか、この理由は漸次読むに従って肯けるであろう。<br><br>また一人の病人を数人の医師が診察するとそれぞれ見立てが違う事もよくある。<br><br>これはどうした訳か、科学的とすればそんな訳でありようはずがないが、これでは易者の身上判断と同様でマグレ当り的と言えよう。<br><br>このような話はまだまだあるがきりがないからこの辺でやめて、次に一つの疑問符を投げてみよう。<br><br>一体人間の病気と言うものは何がために存在するのであるかという事である。<br><br>造物主が人間を造っておきながら、病気という人間最大な苦痛と生命を脅かすような、厄介至極のものを拵えたのはいかなる理由であるか、神は愛と言いながら人間を苦しめる嫌なものを造ったのは、実に訳が判らないと言いたくなる。<br><br>まず何のために風邪を引くのか、しかも何の予告もなく人間の都合などはお構いなしに突如として襲うのだから、はなはだ始末が悪いどころかむしろ無慈悲と言うべきだ。<br><br>ところで風邪を引くと寒気がする。<br><br>身体中がだるくなる。<br><br>頭も節々も痛い、これは熱が出たためとしたら一体熱という奴はどこから出るのだとすると、たちまち咳、痰、水洟（みずばな）、盗汗（ねあせ）、下痢、等々代る代るやって来る。<br><br>一体これは何のためだ、どうも判らない。<br><br>またいよいよこれからと言う年頃になると結核と言う誠にもって恐ろしい命取りの病気に見舞われる。<br><br>それも旨く通り越すと今度は神経痛や、リョウマチ、胃痙攣、痔、脳膜炎など我慢の出来ない程の痛い目に遭せる。<br><br>また少し面白くなかったり心配したりすると、男は神経衰弱、女はヒステリーとなる。<br><br>ひどいのは精神病と言う、太宰治じゃないが、人間失格と言う言葉通りになるのであるのだからやり切れない。<br><br> 年を取れば取ったで脳溢血、中風と言う半身不随で身体を動かす事も、喋舌（しゃべ）る事も出来ないと言う生ける屍になって、何年も苦しみ抜いた揚句、あの世行と言う悲惨な運命となる人も数え切れない程ある。<br><br>ザットかいても右の通りだが、また病気の種類と来たら昔でさえ四百四病もあったのに、文化が進歩した今日益々殖えてその種類は何千に上るか判らない程であろう。<br><br>これも摩訶不思議というべきだ。<br><br>それで医学は進歩したと言って喜んでいるのは人間様だ、健康上から言うと動物の方が優っているかも知れないと思うとはこれも可笑（おか）しな話だ。<br><br>御承知の通り霊験神のごとき新薬が続出するし、手術と来ては停止するなき進歩によって、脳疾患には頭蓋骨を切り開いたり、肺病は肋骨を切取って代りにプラスチックスを嵌（は）めたり、最近はピンポンの玉を入れると言うのだから、驚くべき巧妙な技術である。<br><br>また少し悪い所があるとメスで切りとってしまう、腎臓などは両方なくともよい、片方だけで充分だと言って除ってしまうかと思えば、気胸療法といって片一方の肺臓の呼吸を止めたりする。<br><br>このように医学は進歩したと言って感心したり有難がっている姿を人間を造った神様が御覧になったら、何と仰言（おっしゃ）るだろう。<br><br>お喜びになるか、お歎きになるか神様に伺ってみたいものである。<br><br>以上長々述べたように、全世界の学者は研究室に閉じ籠り、動物試験に、顕微鏡に、臨床に、新薬発見に苦心惨澹、幾多の新学説を生み出し、ノーベル賞の獲得を最後の目的としているのである。<br><br>ところが驚くべし、吾々からみれば右は医学の進歩どころでなく、最初から医学ではないのである。<br><br>実を言うと医学はまだ広い世界に一つも生まれていないのであるというと、馬鹿を言え、これ程立派な医学が出来ており、しかも益々進歩発達しつつあるではないかと仰言（おっしゃ）るだろうが、実は真の医学と言うものにまだ出遭った事がないからである。<br><br>真の医学を知らない以上、致し方ないのであると言うのは、早く言えば医学に似たものを真の医学と錯覚して来たので、実に素晴しい迷蒙であったのである。<br><br>しからば、真の医学とはどう言うものであるか、それを何人（なんぴと）にも納得ゆくよう徹底的にかいて見よう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdadeira Medicina</h2>
 <p>Há quem nos advirta sobre criticar a medicina com excessiva veemência. Contudo, nossa intenção não é, de modo algum, tecer críticas levianas à ciência médica. Apenas expomos as conclusões obtidas por meio de pesquisas conduzidas sob uma ótica singular e independente, alicerçadas em fatos irrefutáveis. Nesse sentido, enquanto a medicina se fundamenta na experimentação animal, nosso método tem como base o próprio ser humano. A medicina recorre a animais para evitar os riscos inerentes a um eventual infortúnio, o que, em certa medida, é compreensível. Em nossa prática, todavia, a possibilidade de equívocos é absolutamente nula. Se, porventura, algum desvio ocorresse, limitar-se-ia a uma eficácia aquém da esperada, sem jamais acarretar o menor perigo ao indivíduo. A prova disso reside na montanha de relatos de gratidão que se acumulam sobre nossas mesas, em número tão vasto que seria impossível publicá-los integralmente neste periódico.</p>
@@ -106,5 +258,48 @@ function toggleLang(lang) {
 <p>Conforme longamente expus, os maiores eruditos do mundo se enclausuram em laboratórios, dedicando-se a experimentos com animais, à observação microscópica, a ensaios clínicos e à busca incessante por novos fármacos, gerando inúmeras teorias e almejando como ápice de suas carreiras o Prêmio Nobel. Entretanto — e aqui reside a revelação espantosa —, sob nossa perspectiva, tudo isso não representa o progresso da medicina. Na verdade, não se trata sequer de medicina. Para ser franco, a verdadeira medicina ainda não nasceu em parte alguma do mundo.</p>
 <p>“Que absurdo!”, dirão alguns. “Como negar a existência de uma ciência médica tão notável e em constante desenvolvimento?” A realidade, porém, é que jamais vos deparastes com a autêntica medicina. E por não a conhecerdes, é natural que assim penseis. Em suma: o que a humanidade tem reverenciado é apenas uma imitação, algo que se assemelha à medicina, mas que foi erroneamente tomado por ela. Foi, de fato, uma magnífica ilusão.</p>
 <p>Sendo assim, o que é, então, a verdadeira medicina? É sobre isso que discorrerei a seguir, de forma tão clara e cabal que ninguém poderá deixar de se convencer.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 真の医術 未発表、昭和25(1950)年5月21日 よく吾々が医学に対し非難しすぎると云って注意をする人があるが、吾らは決して医学を非難しようとする意図は毫もない。<br/><br/>ただ何物にも促われず、独自の見地からの研究によって得たる説を発表するのである。<br/><br/>しかしその説たるや、飽くまで事実に即しているのである。<br/><br/>そうして、研究においては医学は動物実験を基本とするのに対し、吾々の方は人間を実験台とする。<br/><br/>医学がなぜ人間の病を研究するのに人間以外の動物を資料とするかというと、これは万一をおもい危険を避ける意味からでまた止むを得ないと云えよう。<br/><br/>右に対し吾々の方は見込違いなどは絶対にない。<br/><br/>もし仮りにありとすればそれは効果が予期したより少ないと云うだけで、いささかの危険も伴わないのである。<br/><br/>何よりもおかげ話の感謝に満ちた報告が机上に山をなし本紙に載せきれない程であるに見て明らかである。<br/><br/>しかし、こういう見方をする人もあろう。<br/><br/>おかげ話は成績のよいのだけが報告され、不良なのは出さないから誠に都合が良いというかも知れない。<br/><br/>しかしこの疑いは訳なく打破出来るというのは本教の異常な発展がよく物語っている。<br/><br/> 「本教は都合の良い宣伝や無理な勧誘は決してやらない方針だ。<br/><br/>よく昔から新規開業などの場合チラシを出したいと云って来るがそれを許さない」。<br/><br/>何となれば、そういうやり方ははなはだ力が弱いからである。<br/><br/>どうしても「自分の難病が治り、感激の余り病苦に悩む人を見るに見兼ねて、自己の体験から浄霊や信仰を奨めるのであるから力がある」。<br/><br/>それは「神に感謝報恩の誠が滲み出ているからである以上、人を動かさずにはおかない訳である」。<br/><br/>するとそれに応じ浄霊を受けるや、たちまち大きなお蔭を戴くのでこの人も感激の余り他の人を勧誘する。<br/><br/>かくして漸次発展する。<br/><br/>それが本当のやり方である以上本教もこの方針で進んで行くのである。<br/><br/>これによってみても成績良好者の多いからである事は疑いの余地はあるまい。<br/><br/>のみならず、「世間筆に口に本教を迷信邪教、インチキなどとあらゆる非難の声を浴びせるがそれにもかかわらずビクともしないで発展を遂げつつあるのは、どこかに力強い何物かがなくてはならないはずである」。<br/><br/>これに無関心である人もあるがそれこそ食わずぎらいの人である。<br/><br/>右の事実を充分頭に入れて、これから解く説を必読されん事である。<br/><br/> そもそも全世界の医学者が幾世紀に亘って苦心さん澹（たん）努力の結晶とも言うべき現代医学であるから、いかなる人間といえどもこれ以上のものは絶対にないと信じ、病気に罹れば医者に行き、薬をのみ種々な最新の療法をうけ、安心して貴重なる生命をまかせるのである。<br/><br/>もし予期に反し思うように病気は治らず、悪化するようになっても医学に対しいささかの疑心も起さないどころか却って理くつをつける。<br/><br/>自分の体質が弱いからだとか、病気が悪質のためとか、手おくれだったからとかいって飽くまでも医学に頼ろうとする。<br/><br/>実にその信念の固いのは驚く程である。<br/><br/>もちろん、医師もそう説明するからそう思うのである。<br/><br/>それで万一不幸の場合、運がなかったからと言って諦める。<br/><br/>中には何々病院何人の博士に診て貰らっても駄目だったからよくよく命運がなかったからだと思って済んでしまう。<br/><br/>これが現代社会のあるがままの姿である。<br/><br/>しかし、右のような事実を日々見つつある専門家諸君も常に思うであろう。<br/><br/>どうもあの病気は不思議だ、あれ程高価な薬剤や、進歩せる療法や、充分な手当を施したにかかわらずよくならないどころか漸次悪化し遂に死んでしまったというのはどうも判らない。<br/><br/>またあの病人は最新の療法をあれ程一生懸命に施してもとうとう駄目だった、学理から云っても治らない訳はないはずだと言って、歎声を漏らす事もあるようだ。<br/><br/>またやっと治ってやれやれと安心するかしない中（うち）再発と云う、百日の説法屁一つと言う事もよくある。<br/><br/>あれ程医師の言を守り、細心の注意を払い、多額の費用と歳月を費やしたにかかわらず、こうなるのは実に判らないと言って首をひねる事もよくあろう。<br/><br/>ここで面白い事には医師の家族が罹病した場合、大事な妻や子供であるから、どこまでも自分が治療しなければ安心出来ないはずだのにこのまた摩訶（まか）不思議である。<br/><br/>と云うのはどうも自分の家族は恐ろしくて手が出せない。<br/><br/>仕方ないので友人の医師に診て貰う事もよく聞く話である。<br/><br/>こんな理屈に合わない話はないではないか、この理由は漸次読むに従って肯けるであろう。<br/><br/>また一人の病人を数人の医師が診察するとそれぞれ見立てが違う事もよくある。<br/><br/>これはどうした訳か、科学的とすればそんな訳でありようはずがないが、これでは易者の身上判断と同様でマグレ当り的と言えよう。<br/><br/>このような話はまだまだあるがきりがないからこの辺でやめて、次に一つの疑問符を投げてみよう。<br/><br/>一体人間の病気と言うものは何がために存在するのであるかという事である。<br/><br/>造物主が人間を造っておきながら、病気という人間最大な苦痛と生命を脅かすような、厄介至極のものを拵えたのはいかなる理由であるか、神は愛と言いながら人間を苦しめる嫌なものを造ったのは、実に訳が判らないと言いたくなる。<br/><br/>まず何のために風邪を引くのか、しかも何の予告もなく人間の都合などはお構いなしに突如として襲うのだから、はなはだ始末が悪いどころかむしろ無慈悲と言うべきだ。<br/><br/>ところで風邪を引くと寒気がする。<br/><br/>身体中がだるくなる。<br/><br/>頭も節々も痛い、これは熱が出たためとしたら一体熱という奴はどこから出るのだとすると、たちまち咳、痰、水洟（みずばな）、盗汗（ねあせ）、下痢、等々代る代るやって来る。<br/><br/>一体これは何のためだ、どうも判らない。<br/><br/>またいよいよこれからと言う年頃になると結核と言う誠にもって恐ろしい命取りの病気に見舞われる。<br/><br/>それも旨く通り越すと今度は神経痛や、リョウマチ、胃痙攣、痔、脳膜炎など我慢の出来ない程の痛い目に遭せる。<br/><br/>また少し面白くなかったり心配したりすると、男は神経衰弱、女はヒステリーとなる。<br/><br/>ひどいのは精神病と言う、太宰治じゃないが、人間失格と言う言葉通りになるのであるのだからやり切れない。<br/><br/> 年を取れば取ったで脳溢血、中風と言う半身不随で身体を動かす事も、喋舌（しゃべ）る事も出来ないと言う生ける屍になって、何年も苦しみ抜いた揚句、あの世行と言う悲惨な運命となる人も数え切れない程ある。<br/><br/>ザットかいても右の通りだが、また病気の種類と来たら昔でさえ四百四病もあったのに、文化が進歩した今日益々殖えてその種類は何千に上るか判らない程であろう。<br/><br/>これも摩訶不思議というべきだ。<br/><br/>それで医学は進歩したと言って喜んでいるのは人間様だ、健康上から言うと動物の方が優っているかも知れないと思うとはこれも可笑（おか）しな話だ。<br/><br/>御承知の通り霊験神のごとき新薬が続出するし、手術と来ては停止するなき進歩によって、脳疾患には頭蓋骨を切り開いたり、肺病は肋骨を切取って代りにプラスチックスを嵌（は）めたり、最近はピンポンの玉を入れると言うのだから、驚くべき巧妙な技術である。<br/><br/>また少し悪い所があるとメスで切りとってしまう、腎臓などは両方なくともよい、片方だけで充分だと言って除ってしまうかと思えば、気胸療法といって片一方の肺臓の呼吸を止めたりする。<br/><br/>このように医学は進歩したと言って感心したり有難がっている姿を人間を造った神様が御覧になったら、何と仰言（おっしゃ）るだろう。<br/><br/>お喜びになるか、お歎きになるか神様に伺ってみたいものである。<br/><br/>以上長々述べたように、全世界の学者は研究室に閉じ籠り、動物試験に、顕微鏡に、臨床に、新薬発見に苦心惨澹、幾多の新学説を生み出し、ノーベル賞の獲得を最後の目的としているのである。<br/><br/>ところが驚くべし、吾々からみれば右は医学の進歩どころでなく、最初から医学ではないのである。<br/><br/>実を言うと医学はまだ広い世界に一つも生まれていないのであるというと、馬鹿を言え、これ程立派な医学が出来ており、しかも益々進歩発達しつつあるではないかと仰言（おっしゃ）るだろうが、実は真の医学と言うものにまだ出遭った事がないからである。<br/><br/>真の医学を知らない以上、致し方ないのであると言うのは、早く言えば医学に似たものを真の医学と錯覚して来たので、実に素晴しい迷蒙であったのである。<br/><br/>しからば、真の医学とはどう言うものであるか、それを何人（なんぴと）にも納得ゆくよう徹底的にかいて見よう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

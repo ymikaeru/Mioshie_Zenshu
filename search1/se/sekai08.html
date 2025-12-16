@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sekai08</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 世界的名所としての瑞雲郷 『救世』49号、昭和25(1950)年2月11日発行 今、私が造りつつある熱海桃山の地上天国の模型は、最初は関東一といわれていたが、工事が進むにつれて日本一といわれ、最近に至っては世界一といわれている、なるほど宗教的建造物として世界で有名なのは、旧い所ではギリシヤのパルテノンであり、近世のものとしては彼のローマのヴァチカン宮殿、英国のウェストミンスター寺院であろう。<br><br>また寺院以外の建造物として有名なのは中国の北京城で、その規模の雄大にして壮麗なる建築美は、実に世界一と言ってもよかろう、そうして日本においては何といっても日光東照宮でこれだけは世界に誇り得る唯一のものであろう。<br><br> それらに比較すればこの瑞雲郷は、もちろん金の掛り方は何百分の一にも足りない貧弱なものではあるが、他の面すなわち位置といい全貌といい、周囲の景観といい眺める限りの山水の美は、恐らく広い世界に匹敵するものはあるまい、これはその道の人々の異口同音に称讃するところである、これを詳しくかいてみるが、まず何よりも自然に具わる環境である、もちろん左程山は高くはなく海抜百メートルくらいであろう、しかも駅から数丁くらいで、徒歩で十五分自動車で五分くらいであるから便利の好い事この上もない、そうして予定としては三期に分割して建造するはずであるが、現在第一期の分を造営中で、その敷地だけ今年半頃に出来る予定で、一番高い所の敷地千二百坪へ間口十八間、奥行二十間三百六十坪の殿堂を建築の予定である、様式は最も近代的で、現在世界を風靡しつつある彼のフランスのコルビュジエ式で、私はそれを一層新しい様式に設計した、屋根なし全部白亜で、極端に簡素なデザインである、面白い事にはこのコルビュジエ式は日本の茶席の建築から生れたものだそうである、そうしてこの敷地の片側は高さ四間、延長五十余間の石垣で最早完成しておりこれだけでも観者はその壮大に驚くのである。<br><br> 右の殿堂中心に、それを取巻いている起伏せる小山の自然的変化に富める曲線美は、実に何ともいえない好さで、どうみても神様が準備された事を思わない訳にはゆかないのである、それら全体を麓から眺める時恐らく現世にあるを忘れ、夢の国に遊ぶ思いがするであろう。<br><br> これに対し目下の予定としては梅の老木百本、吉野桜百本、八重桜五十本、大躑躅（つつじ）数十本、その他沈丁花（じんちょうげ）、薔薇（バラ）、ライラック、藤、山吹、椿等の灌木を初め、チュウリップ、ヒヤシンス、水仙、春菊、アネモネ、パンジー、カーネーション、シクラメン等々の草花で、いずれも春咲の物のみを植えるのであるから、完成の暁はその美観たる、恐らく想像もつかない程で、もちろん世界にもないであろう。<br><br> 右は第一期分だけであるが、次いで第二期、第三期が完成する暁、世界的名所として、日本の誇りの一つとなる事は間違いないと信じている、従って観光外客は、日光の東照宮と熱海の地上天国を観なければならない事になるのは、今から期待し得らるるのである。<br><br> 最後に言いたい事は、右のごとき建造物を企画したそもそもの目的は、私の常に言う、日本の使命は芸術国家であるとして、日本の自然美とをタイアップしたところの渾然たる一大芸術品を造るにあるので、それにはまず位置の選定が肝腎である、そのため日本中を踏査した結果、熱海こそ理想的最優秀地である事を知ったのである、言うまでもなく気候温和にして温泉あり山あり海あり島（初島及び大島）あり、海岸線の紆余（うよ）曲折変化に富める景観は他に比すべきものがない、しかも交通至便なる関西と関東との中間に位し、国立公園たる箱根伊豆半島に隣接している等々、実に申分ない天与の勝地である、しかも熱海中の最も風景絶佳な土地二万有余坪を次々手に入れたのである、もちろん数年前の非常に安い時からであるから、全く神が遠い以前から準備された事は一点の疑いないところで、実に地上天国の模型を造るべき条件はことごとく具備している事が判るのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Zuiun-kyo, um Ponto de Referência Mundial</h2>
 <p>O protótipo do Paraíso Terrestre que estou a edificar em Momoyama, na cidade de Atami, foi inicialmente aclamado como o mais notável da região de Kanto. Com o avanço das obras, passou a ser considerado o mais importante do Japão e, recentemente, tem sido mencionado como o maior do mundo.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>O que descrevi refere-se apenas à primeira fase. Acredito firmemente que, quando a segunda e a terceira fases estiverem concluídas, Zuiun-kyo se tornará um ponto de referência de renome mundial e um dos grandes orgulhos do Japão. Consequentemente, podemos antever que os turistas estrangeiros que visitarem o país sentirão a necessidade de conhecer tanto o Santuário Toshogu em Nikko quanto o Paraíso Terrestre em Atami.</p>
 <p>Gostaria de concluir explicitando o propósito fundamental que me levou a planejar tal empreendimento. Conforme sempre afirmo, a missão do Japão é tornar-se uma Nação da Arte. Meu objetivo, portanto, é criar uma grandiosa e harmoniosa obra de arte que integre a beleza natural japonesa. Para tanto, a escolha do local era primordial. Após uma prospecção por todo o país, concluí que Atami era o local ideal, o mais excepcional de todos. Não é preciso dizer que seu clima é ameno; há fontes termais, montanhas, mar e ilhas, como Hatsushima e Oshima. A beleza de sua costa, com suas curvas sinuosas e paisagens diversificadas, é incomparável. Ademais, situa-se em um ponto de fácil acesso, entre as regiões de Kansai e Kanto, e adjacente aos parques nacionais de Hakone e da península de Izu. Trata-se, em suma, de um local paradisíaco, uma dádiva divina que preenche todos os requisitos.</p>
 <p>Foi nesse lugar que, sucessivamente, adquiri mais de sessenta e seis mil metros quadrados das terras mais deslumbrantes de Atami. Como a aquisição começou há vários anos, quando os preços eram extremamente baixos, não tenho a menor dúvida de que tudo foi preparado por Deus desde um passado remoto. Fica evidente, assim, que todas as condições para a construção do protótipo do Paraíso Terrestre estão plenamente reunidas.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 世界的名所としての瑞雲郷 『救世』49号、昭和25(1950)年2月11日発行 今、私が造りつつある熱海桃山の地上天国の模型は、最初は関東一といわれていたが、工事が進むにつれて日本一といわれ、最近に至っては世界一といわれている、なるほど宗教的建造物として世界で有名なのは、旧い所ではギリシヤのパルテノンであり、近世のものとしては彼のローマのヴァチカン宮殿、英国のウェストミンスター寺院であろう。<br/><br/>また寺院以外の建造物として有名なのは中国の北京城で、その規模の雄大にして壮麗なる建築美は、実に世界一と言ってもよかろう、そうして日本においては何といっても日光東照宮でこれだけは世界に誇り得る唯一のものであろう。<br/><br/> それらに比較すればこの瑞雲郷は、もちろん金の掛り方は何百分の一にも足りない貧弱なものではあるが、他の面すなわち位置といい全貌といい、周囲の景観といい眺める限りの山水の美は、恐らく広い世界に匹敵するものはあるまい、これはその道の人々の異口同音に称讃するところである、これを詳しくかいてみるが、まず何よりも自然に具わる環境である、もちろん左程山は高くはなく海抜百メートルくらいであろう、しかも駅から数丁くらいで、徒歩で十五分自動車で五分くらいであるから便利の好い事この上もない、そうして予定としては三期に分割して建造するはずであるが、現在第一期の分を造営中で、その敷地だけ今年半頃に出来る予定で、一番高い所の敷地千二百坪へ間口十八間、奥行二十間三百六十坪の殿堂を建築の予定である、様式は最も近代的で、現在世界を風靡しつつある彼のフランスのコルビュジエ式で、私はそれを一層新しい様式に設計した、屋根なし全部白亜で、極端に簡素なデザインである、面白い事にはこのコルビュジエ式は日本の茶席の建築から生れたものだそうである、そうしてこの敷地の片側は高さ四間、延長五十余間の石垣で最早完成しておりこれだけでも観者はその壮大に驚くのである。<br/><br/> 右の殿堂中心に、それを取巻いている起伏せる小山の自然的変化に富める曲線美は、実に何ともいえない好さで、どうみても神様が準備された事を思わない訳にはゆかないのである、それら全体を麓から眺める時恐らく現世にあるを忘れ、夢の国に遊ぶ思いがするであろう。<br/><br/> これに対し目下の予定としては梅の老木百本、吉野桜百本、八重桜五十本、大躑躅（つつじ）数十本、その他沈丁花（じんちょうげ）、薔薇（バラ）、ライラック、藤、山吹、椿等の灌木を初め、チュウリップ、ヒヤシンス、水仙、春菊、アネモネ、パンジー、カーネーション、シクラメン等々の草花で、いずれも春咲の物のみを植えるのであるから、完成の暁はその美観たる、恐らく想像もつかない程で、もちろん世界にもないであろう。<br/><br/> 右は第一期分だけであるが、次いで第二期、第三期が完成する暁、世界的名所として、日本の誇りの一つとなる事は間違いないと信じている、従って観光外客は、日光の東照宮と熱海の地上天国を観なければならない事になるのは、今から期待し得らるるのである。<br/><br/> 最後に言いたい事は、右のごとき建造物を企画したそもそもの目的は、私の常に言う、日本の使命は芸術国家であるとして、日本の自然美とをタイアップしたところの渾然たる一大芸術品を造るにあるので、それにはまず位置の選定が肝腎である、そのため日本中を踏査した結果、熱海こそ理想的最優秀地である事を知ったのである、言うまでもなく気候温和にして温泉あり山あり海あり島（初島及び大島）あり、海岸線の紆余（うよ）曲折変化に富める景観は他に比すべきものがない、しかも交通至便なる関西と関東との中間に位し、国立公園たる箱根伊豆半島に隣接している等々、実に申分ない天与の勝地である、しかも熱海中の最も風景絶佳な土地二万有余坪を次々手に入れたのである、もちろん数年前の非常に安い時からであるから、全く神が遠い以前から準備された事は一点の疑いないところで、実に地上天国の模型を造るべき条件はことごとく具備している事が判るのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

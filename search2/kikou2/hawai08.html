@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hawai08</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ハワイ通信（八） 樋口喜代子 『栄光』223号、昭和28(1953)年8月26日発行 四力所に出張所を頂き益々発展 その後ば絶えて久しく御無沙汰に打過ぎてしまいましたことを誠に申訳なく存じ、深くおわぴ申し上げます。<br><br> もはや七月も終りに近くなりましたが、日本の夏の暑さを思い出し御本部に御活躍の皆様の御上に思いを馳せつつこの手紙を認めております。<br><br> 明主様には六月十五日を境に転換の姿の益々はっきりと現われつつあります昨今、人類救済と新しき世界の御建設のため、日夜大御心をおくだき遊ばされます御様子を拝察申し上げ、私共の至りませぬことをおわび申し上げております。<br><br> 諸先生方にもさぞ御忙しき御日常をお過し遊ばされます御事とお察し申し上げております。<br><br>事務所の外国係より御守様、御神体、御神書等々、次々と御送りいただき誠に有難く厚く厚く御礼申し上げます。<br><br> こちらの方は教修、座談会、組織の事、家の移転等等で多忙を極めておりましたため、心にかかり一つつ御便りが延び延びになりました。<br><br> 二、三日前安食さんから外国係宛に御報告申し上げました通り、先日急に表記（栄光二二二号）の場所へ引越しをさせて戴きました。<br><br>それは前の家が余りに小さく、日々の浄霊の場合も一ぱいになり外で待つ人もある始末で、また月並祭の折は今月等（十一日）二百名位集りましたので、全員起立しても、まだ入り切れず、台所や外に溢れて顔も声もきこえぬ所から参拝しているというような有様になり又家を仕切って借りております関係から、裏の家からやかましいと文句が出たりしまして家主も立退きを望み、それやこれやで必要に迫られておりますところへ御守護により借家を与えられましたので急に移転の運びとなりましたようなわけでございます。<br><br> 今度の家は古くて大して良い家ではありませんし、場所も町はずれで不便ではありますが、広さは今までの三倍位、それに少し高台で閑静な場所で、廻りは木に囲まれて涼しく、はるかには海も見晴すことが出来まして、全く今迄の焦熱と騒音の世界に比べますと天国へ上った心地がいたします。<br><br>こちらへ参りましてから殆んど汗を忘れました。<br><br>日本の暑さを偲びお察し申し上げつつ毎日涼風に吹かれて申し訳ない程勿体ない思いでございます。<br><br> マウイ島の教修から十一日の土曜日に帰り、直ちに家を見に行きその夜決定、翌日曜日に月並祭後引越し翌々日はハワイ島コナへ教修に出かけるというあわただしさでございましたため安食さんからの御報告も後れましたような次第で申訳ございません。<br><br> コナから帰りました翌日十八日の日曜日に新しい教会の開所式をさせていただきましたが、やはり二百名余りの人で今度は立礼でないだけで、食堂も台所も事務所も玄関も人で一杯でございました。<br><br> 法人組織の事が思いがけず後れてしまい、御心配をおかけ申している事と存じます。<br><br>弁護士が引受けて直ぐに着手すると申し、割合に早く出来るように申しておりながら、県政府への提出をのばしておりましたことがわかり、色々に催促をして昨今ようやく手をつけたような始末でございます。<br><br>詳しいことは終いたしますが、何やかやといって直ぐするように申しつつ引延しております。<br><br>やり方は私共出発までの領事館のやり方とよく似ており、邪神が何らかの形で絶えず神様の教会の基礎が打ちたてられる事を遅らせようと邪魔していることを事毎に感じさせられます。<br><br>しかしもう大体見通しがつきそうでございますし、普通は書類提出後すらすらゆけば二、三週間で許可がおりるそうでございますから、御守護を念じつつその時を待っております。<br><br> 私の米本土行きも、余りにロスアンジェルスの人達を待たせてありますし、絶えず催促の手紙が参りますので長くそのままにもしておけませんので、法人組織の見通しがつき次第役員の人達にあとをまかせて八月四日か五日頃には大体出発するつもりで準備をすすめております。<br><br>留守中は安食さんが布教し教会を守ります。<br><br> 最近の布教状況を御報償申し上げます。<br><br> この前御報告申し上げました通り、教会の御浄霊が余りに忙しくなり、教修会もあり、事務的仕事もありで、このままでは大きく活動することができませんので、お念じしつつ考えておりましたところ、御守護により熱心な人の中から出張所として活動することを希望される方が与えられましたので、ホノルル市内に三つの出張所と一つの準出張所をつくらせていただきました。<br><br>他にも準出張所的形になりつつある所もございます。<br><br>出張所を開いている方々は左の三名でございます。<br><br> 面本敏江（58）最初からお導きをした人 西口はつよ（52）御主人は役員。<br><br>あらゆる面で最も協力して下さる家庭で、夫人は仕事を止めて御浄霊に専念 岡田美知代（52）二世でやはり信者の奥様です。<br><br>英語が話せるので外人（主として支那人）がよく行きます。<br><br>元南米に居た人で将来南米を布教したい希望を持っておられます。<br><br> 一応教会本部へ来ていた人達を遠い所を除き全部出張所へふりあて、東部へ浄霊に来る場合は出張所を通して本部と時間の約束をして来ることとし、本部の浄霊日は一週三日に制限いたしました。<br><br>最近は大体これで落着いてきた様ですし、全体的に見ますと反って発展して来ているように見受けられます。<br><br>本部での活動は次の通りにしております。<br><br> 日 午前、お参りとお取次（御教え）第二日曜は月並祭 午後は新しい人への話の会 月 出張所の準教師会（指導と打合せ） 火 浄霊日、朝から夜十一時まで（主として安食担当） 水 浄霊日（主として樋口担当） 木 休み――事務整理その他 私用 金 浄霊日、夜分もあり、（主として安食担当） 土 本部休み、代り合って支部をまわる。<br><br> 教修は次の通り。<br><br> ホノルル 七月二日――五日 夜間、参集者二百二、三十名、入信者百三名 加藤神社の境内にある裁縫学校で開催。<br><br>主人が神主で夫妻で入信 マウイ島ワイルク（首都）七月七日――十日、二回目の教修、入信者二十五名ここでは瀬良利夫という人が出張所として浄霊をしております。<br><br>マウイ島の二世は日本語の分らぬ人が多く、その上、あるポルトガル人の一族が話をききに来ましたので、英語の教修をしました。<br><br>このポルトガル人はカトリックの信者で元教師をしていた家庭。<br><br>娘が精神病でその従妹にも精神病があるところから接するようになり、一人は相当のおかげを受けるに至り、その娘の主人が米人で、この人ともう一人の精神病人の母親とがお守様をうけ熱心でございます。<br><br>又精神病者の妹が受けたい気持で準備中らしゅうございます。<br><br> ハワイ島コナ（七月十四日――十七日）三回目、入信者四十名、これで合計八に、十三名。<br><br>この地方は遠方でもあり、間の時は布教にも行かれないのですが信者同志で熱心に浄霊しあって発展しております。<br><br>カナカ土人（ハワイ土人）で主人が二十年来のリューマチスから救われた夫妻が四月末に入信しておりますが（夫人は熱心なカトリック信者）その夫妻で毎日カナカ土人やフィリッピン人を十名位ずつ浄霊してこの度六名を入信まで導きました。<br><br>カナカ土人三名、フィリッピン人二名、朝鮮人一名。<br><br>ここで四日を通じて日、英両語で話し、時間的にも相当大変でございましたが大いに喜ばれました。<br><br> なお、ホノルルでも地方でも教修をうけたい希望の声が持上っておりますので、私の留守中、安食さんが久しぶりで昼間の教修を八月に予定しており、出来れば夜間も開きます。<br><br>又ワイアルアという地方でも八月中に開く予定でございます。<br><br>ワイアルアは先月ワヒアワで入信した村上さんという夫妻が大変に熱心で、今は日に二十数名の浄霊をしておられ、殆んど正式の出張所の様でその人の活動により先日安食さんが座談会にいきましてから一層開け、昨日は面本さんが浄霊に参りましたところ、七十六名も集り、近所から、遠方からハワイの人が知らぬ様な町や村からも浄霊を受けに参りました由にて、夜の一時迄御浄霊をしたそうでございます。<br><br>村上さんの御主人は十二年前トラックの転覆で下敷となり、その後左腕が上へ上らず又ずっと頸から肩が痛み続け、夜よく休まれなかった方ですが、一回ある信者さんから御浄霊をうけて、腕も上り、痛みもとれて驚いて入信された方で、今は真剣でございます。<br><br>この様にして新しい所に種が下されますと、必ず中心になる人を神様が用意されて御道が発展していく姿に御神意の深さを覚らされ誠に有難き極みでございます。<br><br> 最近は入信希望者が急激に増加してまいりました関係上、一人一人の名前も記憶困難となり直接私共の知らない人も出来、教修会で話を聞いただけで入信希望して受けた（五月）人の中に、一人でございますが、御守様を返した人が出ましたり、入信後教会へ接しないでおりますうちに、分らなくなって御守様をはずしているという人の噂も耳にはいったりしますので、誠に申訳なきことと思い、最近は入信希望者は厳重に調べまして教会に何回か接し又御浄霊を何回かうけた人のみに、入信をお許しするという事を原則とする方針をとっておりますが、それにも拘らず相当の入信者を与えられました事は全く御守護の御蔭であり、又時期の切迫しておりますためと考えられ感謝致しております。<br><br> 新聞の方はタイムズ紙はその後沈黙、六月末にハワイ毎日という小さな新聞、（社長は小林日種という元日蓮宗僧侶）が記事をのせましたが、読者も少いらしく信者はほとんど知らない人が多く、何の反響も聞かぬままでございました。<br><br>先月末に商業時報社長が訪ねて来られ、色々話を聞いていかれましたが、今月号に割合に公平にありのままの訪問記をのせられたそうでございます。<br><br>私はまだ見ておりませんが、本が手に入り次第御送り申します。<br><br> この前明主様の御言葉を頂きました通り、ハワイに信用ある教会として認められるためには、出来るだけ土地か家を買ってハワイに永住する目的の宗教であるとの印象を早く一般の人に与えることが最も必要と思われますので、土地や家を物色しております。<br><br>（この前の分は位置が不適当でした）中々に高価で一寸した大きさのしっかりした家はどうしても、三万ドル以上四万ドル位いたしますが、三分の一を現金で払いますとあとは土地会社が貸してくれまして、月々家賃より少し高い位で返していく方法があります。<br><br>組織が出来ればそれも可能でございます。<br><br> 途中、とぎれとぎれで書きましたため、乱筆乱文にて御判読願わなければならないような手紙となり、申訳なく存じますが、御許し下さいませ。<br><br>至りませぬながら出来る限りの御用をさせて頂きます。<br><br> 管長先生始め理事の諸先生、その他の先生の御健康をはるかにおいのり申し上げております。<br><br> 皆様にくれぐれも宜しく御伝え下さいませ。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Relatório da Difusão no Havaí (VIII)</h2>
 <p>Peço sinceras desculpas pela longa ausência de notícias, uma falha pela qual me penitencio profundamente.</p>
@@ -128,5 +280,48 @@ Michiyo Okada (52): Nissei, também esposa de um membro. Por ser fluente em ingl
 <p>Peço perdão pela desorganização desta carta, escrita em momentos esparsos e com interrupções, o que pode dificultar a leitura. Apesar de minhas limitações, continuarei a me dedicar ao máximo no cumprimento de minha missão.</p>
 <p>Elevo minhas preces pela saúde do Reverendo Presidente e dos senhores Diretores e demais Ministros.</p>
 <p>Rogo-lhes, por fim, que transmitam minhas cordiais saudações a todos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ハワイ通信（八） 樋口喜代子 『栄光』223号、昭和28(1953)年8月26日発行 四力所に出張所を頂き益々発展 その後ば絶えて久しく御無沙汰に打過ぎてしまいましたことを誠に申訳なく存じ、深くおわぴ申し上げます。<br/><br/> もはや七月も終りに近くなりましたが、日本の夏の暑さを思い出し御本部に御活躍の皆様の御上に思いを馳せつつこの手紙を認めております。<br/><br/> 明主様には六月十五日を境に転換の姿の益々はっきりと現われつつあります昨今、人類救済と新しき世界の御建設のため、日夜大御心をおくだき遊ばされます御様子を拝察申し上げ、私共の至りませぬことをおわび申し上げております。<br/><br/> 諸先生方にもさぞ御忙しき御日常をお過し遊ばされます御事とお察し申し上げております。<br/><br/>事務所の外国係より御守様、御神体、御神書等々、次々と御送りいただき誠に有難く厚く厚く御礼申し上げます。<br/><br/> こちらの方は教修、座談会、組織の事、家の移転等等で多忙を極めておりましたため、心にかかり一つつ御便りが延び延びになりました。<br/><br/> 二、三日前安食さんから外国係宛に御報告申し上げました通り、先日急に表記（栄光二二二号）の場所へ引越しをさせて戴きました。<br/><br/>それは前の家が余りに小さく、日々の浄霊の場合も一ぱいになり外で待つ人もある始末で、また月並祭の折は今月等（十一日）二百名位集りましたので、全員起立しても、まだ入り切れず、台所や外に溢れて顔も声もきこえぬ所から参拝しているというような有様になり又家を仕切って借りております関係から、裏の家からやかましいと文句が出たりしまして家主も立退きを望み、それやこれやで必要に迫られておりますところへ御守護により借家を与えられましたので急に移転の運びとなりましたようなわけでございます。<br/><br/> 今度の家は古くて大して良い家ではありませんし、場所も町はずれで不便ではありますが、広さは今までの三倍位、それに少し高台で閑静な場所で、廻りは木に囲まれて涼しく、はるかには海も見晴すことが出来まして、全く今迄の焦熱と騒音の世界に比べますと天国へ上った心地がいたします。<br/><br/>こちらへ参りましてから殆んど汗を忘れました。<br/><br/>日本の暑さを偲びお察し申し上げつつ毎日涼風に吹かれて申し訳ない程勿体ない思いでございます。<br/><br/> マウイ島の教修から十一日の土曜日に帰り、直ちに家を見に行きその夜決定、翌日曜日に月並祭後引越し翌々日はハワイ島コナへ教修に出かけるというあわただしさでございましたため安食さんからの御報告も後れましたような次第で申訳ございません。<br/><br/> コナから帰りました翌日十八日の日曜日に新しい教会の開所式をさせていただきましたが、やはり二百名余りの人で今度は立礼でないだけで、食堂も台所も事務所も玄関も人で一杯でございました。<br/><br/> 法人組織の事が思いがけず後れてしまい、御心配をおかけ申している事と存じます。<br/><br/>弁護士が引受けて直ぐに着手すると申し、割合に早く出来るように申しておりながら、県政府への提出をのばしておりましたことがわかり、色々に催促をして昨今ようやく手をつけたような始末でございます。<br/><br/>詳しいことは終いたしますが、何やかやといって直ぐするように申しつつ引延しております。<br/><br/>やり方は私共出発までの領事館のやり方とよく似ており、邪神が何らかの形で絶えず神様の教会の基礎が打ちたてられる事を遅らせようと邪魔していることを事毎に感じさせられます。<br/><br/>しかしもう大体見通しがつきそうでございますし、普通は書類提出後すらすらゆけば二、三週間で許可がおりるそうでございますから、御守護を念じつつその時を待っております。<br/><br/> 私の米本土行きも、余りにロスアンジェルスの人達を待たせてありますし、絶えず催促の手紙が参りますので長くそのままにもしておけませんので、法人組織の見通しがつき次第役員の人達にあとをまかせて八月四日か五日頃には大体出発するつもりで準備をすすめております。<br/><br/>留守中は安食さんが布教し教会を守ります。<br/><br/> 最近の布教状況を御報償申し上げます。<br/><br/> この前御報告申し上げました通り、教会の御浄霊が余りに忙しくなり、教修会もあり、事務的仕事もありで、このままでは大きく活動することができませんので、お念じしつつ考えておりましたところ、御守護により熱心な人の中から出張所として活動することを希望される方が与えられましたので、ホノルル市内に三つの出張所と一つの準出張所をつくらせていただきました。<br/><br/>他にも準出張所的形になりつつある所もございます。<br/><br/>出張所を開いている方々は左の三名でございます。<br/><br/> 面本敏江（58）最初からお導きをした人 西口はつよ（52）御主人は役員。<br/><br/>あらゆる面で最も協力して下さる家庭で、夫人は仕事を止めて御浄霊に専念 岡田美知代（52）二世でやはり信者の奥様です。<br/><br/>英語が話せるので外人（主として支那人）がよく行きます。<br/><br/>元南米に居た人で将来南米を布教したい希望を持っておられます。<br/><br/> 一応教会本部へ来ていた人達を遠い所を除き全部出張所へふりあて、東部へ浄霊に来る場合は出張所を通して本部と時間の約束をして来ることとし、本部の浄霊日は一週三日に制限いたしました。<br/><br/>最近は大体これで落着いてきた様ですし、全体的に見ますと反って発展して来ているように見受けられます。<br/><br/>本部での活動は次の通りにしております。<br/><br/> 日 午前、お参りとお取次（御教え）第二日曜は月並祭 午後は新しい人への話の会 月 出張所の準教師会（指導と打合せ） 火 浄霊日、朝から夜十一時まで（主として安食担当） 水 浄霊日（主として樋口担当） 木 休み――事務整理その他 私用 金 浄霊日、夜分もあり、（主として安食担当） 土 本部休み、代り合って支部をまわる。<br/><br/> 教修は次の通り。<br/><br/> ホノルル 七月二日――五日 夜間、参集者二百二、三十名、入信者百三名 加藤神社の境内にある裁縫学校で開催。<br/><br/>主人が神主で夫妻で入信 マウイ島ワイルク（首都）七月七日――十日、二回目の教修、入信者二十五名ここでは瀬良利夫という人が出張所として浄霊をしております。<br/><br/>マウイ島の二世は日本語の分らぬ人が多く、その上、あるポルトガル人の一族が話をききに来ましたので、英語の教修をしました。<br/><br/>このポルトガル人はカトリックの信者で元教師をしていた家庭。<br/><br/>娘が精神病でその従妹にも精神病があるところから接するようになり、一人は相当のおかげを受けるに至り、その娘の主人が米人で、この人ともう一人の精神病人の母親とがお守様をうけ熱心でございます。<br/><br/>又精神病者の妹が受けたい気持で準備中らしゅうございます。<br/><br/> ハワイ島コナ（七月十四日――十七日）三回目、入信者四十名、これで合計八に、十三名。<br/><br/>この地方は遠方でもあり、間の時は布教にも行かれないのですが信者同志で熱心に浄霊しあって発展しております。<br/><br/>カナカ土人（ハワイ土人）で主人が二十年来のリューマチスから救われた夫妻が四月末に入信しておりますが（夫人は熱心なカトリック信者）その夫妻で毎日カナカ土人やフィリッピン人を十名位ずつ浄霊してこの度六名を入信まで導きました。<br/><br/>カナカ土人三名、フィリッピン人二名、朝鮮人一名。<br/><br/>ここで四日を通じて日、英両語で話し、時間的にも相当大変でございましたが大いに喜ばれました。<br/><br/> なお、ホノルルでも地方でも教修をうけたい希望の声が持上っておりますので、私の留守中、安食さんが久しぶりで昼間の教修を八月に予定しており、出来れば夜間も開きます。<br/><br/>又ワイアルアという地方でも八月中に開く予定でございます。<br/><br/>ワイアルアは先月ワヒアワで入信した村上さんという夫妻が大変に熱心で、今は日に二十数名の浄霊をしておられ、殆んど正式の出張所の様でその人の活動により先日安食さんが座談会にいきましてから一層開け、昨日は面本さんが浄霊に参りましたところ、七十六名も集り、近所から、遠方からハワイの人が知らぬ様な町や村からも浄霊を受けに参りました由にて、夜の一時迄御浄霊をしたそうでございます。<br/><br/>村上さんの御主人は十二年前トラックの転覆で下敷となり、その後左腕が上へ上らず又ずっと頸から肩が痛み続け、夜よく休まれなかった方ですが、一回ある信者さんから御浄霊をうけて、腕も上り、痛みもとれて驚いて入信された方で、今は真剣でございます。<br/><br/>この様にして新しい所に種が下されますと、必ず中心になる人を神様が用意されて御道が発展していく姿に御神意の深さを覚らされ誠に有難き極みでございます。<br/><br/> 最近は入信希望者が急激に増加してまいりました関係上、一人一人の名前も記憶困難となり直接私共の知らない人も出来、教修会で話を聞いただけで入信希望して受けた（五月）人の中に、一人でございますが、御守様を返した人が出ましたり、入信後教会へ接しないでおりますうちに、分らなくなって御守様をはずしているという人の噂も耳にはいったりしますので、誠に申訳なきことと思い、最近は入信希望者は厳重に調べまして教会に何回か接し又御浄霊を何回かうけた人のみに、入信をお許しするという事を原則とする方針をとっておりますが、それにも拘らず相当の入信者を与えられました事は全く御守護の御蔭であり、又時期の切迫しておりますためと考えられ感謝致しております。<br/><br/> 新聞の方はタイムズ紙はその後沈黙、六月末にハワイ毎日という小さな新聞、（社長は小林日種という元日蓮宗僧侶）が記事をのせましたが、読者も少いらしく信者はほとんど知らない人が多く、何の反響も聞かぬままでございました。<br/><br/>先月末に商業時報社長が訪ねて来られ、色々話を聞いていかれましたが、今月号に割合に公平にありのままの訪問記をのせられたそうでございます。<br/><br/>私はまだ見ておりませんが、本が手に入り次第御送り申します。<br/><br/> この前明主様の御言葉を頂きました通り、ハワイに信用ある教会として認められるためには、出来るだけ土地か家を買ってハワイに永住する目的の宗教であるとの印象を早く一般の人に与えることが最も必要と思われますので、土地や家を物色しております。<br/><br/>（この前の分は位置が不適当でした）中々に高価で一寸した大きさのしっかりした家はどうしても、三万ドル以上四万ドル位いたしますが、三分の一を現金で払いますとあとは土地会社が貸してくれまして、月々家賃より少し高い位で返していく方法があります。<br/><br/>組織が出来ればそれも可能でございます。<br/><br/> 途中、とぎれとぎれで書きましたため、乱筆乱文にて御判読願わなければならないような手紙となり、申訳なく存じますが、御許し下さいませ。<br/><br/>至りませぬながら出来る限りの御用をさせて頂きます。<br/><br/> 管長先生始め理事の諸先生、その他の先生の御健康をはるかにおいのり申し上げております。<br/><br/> 皆様にくれぐれも宜しく御伝え下さいませ。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>taihuno</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 台風の霊的考察 『栄光』219号、昭和28(1953)年7月29日発行 今度の九州の大風水害は、いかに惨憺たるものであったかは、新聞ラジオで詳細報告されたから、ここでは略すが、では一体台風というものの原因は何かという事は、誰も知りたいだろうが、科学では今のところ全然分っていないから私はかくのであるが、何しろ科学はいつもいう通り、浅薄極まる表面的物の見方であって、内在せる根本には触れていない以上、いかに進歩しても分るはずはないのである。<br><br>そうして台風といえども人間の病気と同様、それ自体科学の分野ではない。<br><br>霊の分野に属しているのである。<br><br>それなら宗教で分りそうなものだが、実は分り得る程の高度の宗教はまだ出ないから致し方がないので、そこで私は神から教えられた真の原因を説くのである。<br><br> 以前もかいた事だが、この世界における森羅万象一切は、絶えず汚穢が溜ると共に、それに浄化作用が起って浄められるのが法則となっている。<br><br>従って地上の霊界、現界共に絶えず汚穢が溜り、ある限度を越えるやここに浄化作用が発生する。<br><br>それが台風であって、つまり風で吹き払い、雨で洗い浄（きよ）め、天日で焼くのである。<br><br>この理によって今回のごとく田畑百数十万町歩（ぶ）も水底に沈んだという事は、全く人肥金肥の肥毒によって土壌が汚され切っているからで、それを洗い浄めなければ農作物に影響を及ぼし、減収になって食糧難に陥る憂いがあるからである。<br><br>そうなるとここに浄化担任の神々はその活動を開始されるのである。<br><br> また破砕（はさい）され流されたりする家屋は、その物の霊に汚穢が充ちたためであり、溺死した人間はやはりその人の霊に罪穢が溜って、生存の資格が失われたからである。<br><br>これで大体分ったであろうが、ついでだから今一つの事をかいてみよう。<br><br>それは火災である。<br><br>これも知らるる通り、年々増加の趨勢にあり、国としての損害は軽視出来ないものがある。<br><br>これらもやはり浄化であって、それぞれの建造物に罪穢が溜っているからである。<br><br>それは今日どんな家でも土地購入、建築等に費（ついや）した金が汚れていると共に、使用の場合その家屋を大なり小なり間違った事をするからで、これも現代生活上ある程度は止むを得ないが、それでも神仏の信仰者か余程善徳を積むとしたら、それだけ穢れは消されるからいいが、そういう人は滅多になく、ほとんどは罪の溜め放題であるから、どうしても火で焼き浄めなければならないからで、それが火災の原因である。<br><br>火災の多いという事は無信仰者や悪徳者のいかに多いかを物語っている訳である。<br><br>また山林もよく焼けるが、これも購入費やその目的に含まれている不正や邪念の汚れのためであるのは言うまでもない。<br><br> 以上のごとく現代人は神を信ぜず、霊的智識なく、ただ物質のみを頼りにする以上、災害の多いのも当然であって、これが厳正なる神律であるから致し方ない。<br><br>それに盲目なるがため末梢的手段のみで防ごうとする以上、根本的でないから、結局賽（さい）の河原の石積と同様である。<br><br>従って結論としては人事を尽くすと共に、神を本位として罪穢を溜めないようにする事で、それ以外万全の方法はない事を心得べきである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Uma Análise Espiritual sobre os Tufões</h2>
 <p>As recentes e catastróficas inundações na região de Kyushu foram amplamente noticiadas pela imprensa, razão pela qual me abstenho de pormenorizar a tragédia. Contudo, a questão fundamental sobre a verdadeira causa dos tufões certamente instiga a curiosidade de todos. Uma vez que a ciência, em seu estágio atual, é completamente incapaz de elucidá-la, sinto-me compelido a escrever sobre o tema. Afinal, como sempre afirmo, a ciência se limita a uma visão extremamente superficial dos fenômenos, uma abordagem que se restringe à fenomenologia externa. Enquanto não sondar a essência subjacente às coisas, por mais que avance, jamais alcançará a compreensão. Nesse sentido, os tufões, à semelhança das doenças que afligem o ser humano, não pertencem ao campo da ciência, mas sim ao domínio do espírito.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Refiro-me aos incêndios. Como é de conhecimento geral, sua incidência aumenta a cada ano, representando um prejuízo de vulto para a nação. Também eles constituem um processo de purificação, motivado pelo acúmulo de máculas nas respectivas edificações. A origem dessas impurezas reside tanto no dinheiro de procedência ilícita, utilizado na aquisição de terrenos e na construção, quanto no uso que se faz desses imóveis para a prática de atos condenáveis, sejam eles grandes ou pequenos. Embora certo grau de comprometimento seja quase inevitável na vida moderna, se a pessoa for devota a Deus e se empenhar em acumular virtudes, suas máculas serão proporcionalmente atenuadas. Indivíduos assim, porém, são raros; a maioria acumula pecados indiscriminadamente. Torna-se, portanto, imperativo que a purificação se dê pelo fogo, e essa é a causa dos incêndios. A frequência com que ocorrem atesta o quão numeroso é o contingente de descrentes e de pessoas de má índole. O mesmo se aplica às matas e florestas que se incendeiam, pois, como é evidente, ardem em decorrência das impurezas da cobiça e das intenções espúrias que contaminam sua aquisição e exploração.</p>
 <p>Em vista do exposto, uma vez que o homem moderno não crê em Deus, carece de conhecimento espiritual e deposita sua confiança unicamente na matéria, é natural que as calamidades se multipliquem. Trata-se da rigorosa Lei Divina, contra a qual nada se pode fazer. Cego à realidade espiritual, o ser humano tenta prevenir tais desastres por meio de medidas paliativas que, por não atuarem na raiz do problema, se assemelham a um esforço de Sísifo, uma tarefa fútil e interminável.</p>
 <p>Portanto, a única solução definitiva consiste em, sem jamais negligenciar os esforços humanos, adotar Deus como alicerce da vida e evitar o acúmulo de máculas e pecados. É fundamental que todos compreendam que não existe outro método para se alcançar a plena segurança.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 台風の霊的考察 『栄光』219号、昭和28(1953)年7月29日発行 今度の九州の大風水害は、いかに惨憺たるものであったかは、新聞ラジオで詳細報告されたから、ここでは略すが、では一体台風というものの原因は何かという事は、誰も知りたいだろうが、科学では今のところ全然分っていないから私はかくのであるが、何しろ科学はいつもいう通り、浅薄極まる表面的物の見方であって、内在せる根本には触れていない以上、いかに進歩しても分るはずはないのである。<br/><br/>そうして台風といえども人間の病気と同様、それ自体科学の分野ではない。<br/><br/>霊の分野に属しているのである。<br/><br/>それなら宗教で分りそうなものだが、実は分り得る程の高度の宗教はまだ出ないから致し方がないので、そこで私は神から教えられた真の原因を説くのである。<br/><br/> 以前もかいた事だが、この世界における森羅万象一切は、絶えず汚穢が溜ると共に、それに浄化作用が起って浄められるのが法則となっている。<br/><br/>従って地上の霊界、現界共に絶えず汚穢が溜り、ある限度を越えるやここに浄化作用が発生する。<br/><br/>それが台風であって、つまり風で吹き払い、雨で洗い浄（きよ）め、天日で焼くのである。<br/><br/>この理によって今回のごとく田畑百数十万町歩（ぶ）も水底に沈んだという事は、全く人肥金肥の肥毒によって土壌が汚され切っているからで、それを洗い浄めなければ農作物に影響を及ぼし、減収になって食糧難に陥る憂いがあるからである。<br/><br/>そうなるとここに浄化担任の神々はその活動を開始されるのである。<br/><br/> また破砕（はさい）され流されたりする家屋は、その物の霊に汚穢が充ちたためであり、溺死した人間はやはりその人の霊に罪穢が溜って、生存の資格が失われたからである。<br/><br/>これで大体分ったであろうが、ついでだから今一つの事をかいてみよう。<br/><br/>それは火災である。<br/><br/>これも知らるる通り、年々増加の趨勢にあり、国としての損害は軽視出来ないものがある。<br/><br/>これらもやはり浄化であって、それぞれの建造物に罪穢が溜っているからである。<br/><br/>それは今日どんな家でも土地購入、建築等に費（ついや）した金が汚れていると共に、使用の場合その家屋を大なり小なり間違った事をするからで、これも現代生活上ある程度は止むを得ないが、それでも神仏の信仰者か余程善徳を積むとしたら、それだけ穢れは消されるからいいが、そういう人は滅多になく、ほとんどは罪の溜め放題であるから、どうしても火で焼き浄めなければならないからで、それが火災の原因である。<br/><br/>火災の多いという事は無信仰者や悪徳者のいかに多いかを物語っている訳である。<br/><br/>また山林もよく焼けるが、これも購入費やその目的に含まれている不正や邪念の汚れのためであるのは言うまでもない。<br/><br/> 以上のごとく現代人は神を信ぜず、霊的智識なく、ただ物質のみを頼りにする以上、災害の多いのも当然であって、これが厳正なる神律であるから致し方ない。<br/><br/>それに盲目なるがため末梢的手段のみで防ごうとする以上、根本的でないから、結局賽（さい）の河原の石積と同様である。<br/><br/>従って結論としては人事を尽くすと共に、神を本位として罪穢を溜めないようにする事で、それ以外万全の方法はない事を心得べきである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

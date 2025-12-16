@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>eiyo00</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 栄養学 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 現代医学に於て栄養学は相当進歩されたと思はれてゐる。<br><br>そうして医学に於ける解釈は次の如くである。<br><br> （某専門家の記事による。<br><br>） 「私どもは、毎日誰でも三度は大概欠かさずに食事をする。<br><br>これは日常体内で失はれてゐる物質を補ふためと、一方では新しく身体の組織をつくる必要からである。<br><br> かうして体内では、断えず分解作用と合成作用の二つが行はれてゐるのである。<br><br>新陳代謝といふのはこの二つを総称したものである。<br><br>ところで体内で食物がそれぞれ消化吸収されてそれから補給物質になつたり、合成物質になつたりするまでにはどんな経過をたどるのであらうか。<br><br> まづ蛋白質からいふと、消化器の中で分解されてアミノ酸になつたのは、腸壁から吸収されて血液の中へ入り肝臓を通過して血液と一緒に全身に送られて、各組織に分配されるのである。<br><br>かくして組織に達したアミノ酸は、そこでそのところの組織に特有な蛋白質に組立てられ、一部分はアミノ酸からさらに分解されて尿素、尿酸、アンモニア、クレアチン、クレアチニンそれに無機塩類となつて尿の中に排泄されるものである。<br><br>以上のやうに蛋白は消化するとアミノ酸として組織の合成に用ひられるが、一部は含水炭素や脂肪と同じように燃焼して運動エネルギーとなるものである。<br><br>蛋白質はこの程度にしておいて、つぎは含水炭素だが、この方は最後には単糖類のブドー糖に変化して腸壁から吸収されて静脈へ入り門脈によつて運搬される。<br><br>したがつて含水炭素を一時に沢山とると、血液の中の糖分が増加してくる。<br><br>そして沢山とつた時は肝臓に行つてグリコーゲンとして貯へられ必要に応じて再びブドー糖となつて補給されるのである。<br><br>このブドー糖は血液中の酸素によつて酸化燃焼して、主として運動エネルギーを供給するが、同時に此場合沢山の炭酸ガスを生ずる。<br><br>運動が激しければ激しい程ブドー糖の酸化作用はさかんで、これに従つて肝臓に貯へてあるグリコーゲンが引張り出されて補ひをつけてゆく。<br><br>しかしブドー糖の酸化によつて炭酸ガスを生ずる迄には、いろいろの中間産物がある。<br><br>尿酸はその一つで、従つて尿酸の量を測ると疲労の程度が分るといつてこれも行はれる。<br><br> なほこの外に含水炭素の一部分は、体内で変化して脂肪となり沈着する。<br><br>で含水炭素の食品を沢山食べると体内脂肪が増加して次第に肥満してくるといふことになるのである。<br><br>つぎに脂肪であるが、これは胃の中で一部は消化吸収されることがあるが、大部分は腸へ行つてから膵液中の脂肪分解酵素ステアプシンのために、脂肪酸とグリセリンに分解され、腸壁を通つて吸収され、再び脂肪となり、淋巴液と一緒に乳状態となつて体内をめぐり静脈へ入つて、脂肪の一部はその後に体内脂肪として蓄積され、一部は酸化燃焼してヱネルギーとなる。<br><br>しかし含水炭素と違つて、これは主として熱のヱネルギーとなつて行くのである。<br><br>」 右の如く、その説明は詳細を極め、一見洵に感心されるので、一般人が信ずるのも無理はないのである。<br><br> 然し乍ら、如何に詳細を極めたる説明と雖も、それは死体の解剖や食物の分析、排泄物の試験等によつて得たる医学者の推定的想像の範囲を出でないと思ふのである。<br><br>何となれば、人体の組織機能とその活動によつて表はれる処の生活力なるものは、現在科学の水準よりも遙かに高度であり、深遠であるからである。<br><br>従而、今日人間の健康に対し栄養学的に解釈し得たとしても、それは煙突内から天を仰いで天の大きさを知つたと言ふに等しいものであらう。<br><br>又名画の価値を定むるに当り、紙代と絵具代と労銀によるやうなものであらう。<br><br> 之を要するに、神秘霊妙なる人体とその生命を知悉（ちしつ）せんとするには、現代科学は未だ余りに水準が低いといふ事を認識しなければならないのである。<br><br>勿論科学の進歩は何れの日かはそれを知り得る程度に達する事も予想されるのであるが、私は科学者ではないから、科学的に説明はしないが、実際と経験によつて、真の栄養学は如何なるものであるかといふ帰納的論理を以て説くつもりであるから誤謬はないと思ふのである。<br><br> そうして、今日栄養学といへば、カロリーやヴィタミン説に捉はれ、それによつて凡て律してゐるが、私は断言するのである。<br><br>ヴィタミンが全然無い物を食つてさへも、人間は立派に生きてゆかれる事である。<br><br> そうして医学に於ての研究なるものは、食物の方にのみ偏して、人体内に於ける消化機能や栄養製産機能の作用を無視してゐるので其点に根本的誤謬がある。<br><br>元来人体内の凡ゆる機能なるものは実に偉大なる科学的製産者であつて、凡有る食物を自由自在に変化させるのである。<br><br>然るに、医学に於ては、此変化力といふ意味が未だ知られてゐないのである。<br><br>然らば、此変化力とは如何なるものであるか。<br><br>例へば、米飯や菜葉や芋や豆を食つても、それが消化機能といふ魔法使によつて変化し血液となり、筋肉となり、骨となるといふ事である。<br><br>然るに米飯や菜葉を如何に分析しても、血素の微粒、肉素の一粍だも発見し得られないであらう。<br><br>只だそれを食する事によつて、体内で自然に各素が製出されるのであつて、全く神秘偉大なる変化力である。<br><br>故にヴィタミンの全然ない食物を摂取しても、それを幾つかの機能の端倪（たんげい）すべからざる活動によつて、ヴィタミンのＡもＢもＣもアミノ酸もグリコーゲンも、其他未発見のあらゆる栄養素が製出さるるのである。<br><br>従而、右の理によつて考える時、斯ういふ疑問が起るであらう。<br><br>即ち血液素の全然無い物を食ふ事によつて血液が出来ヴィタミンの絶無である物を食つてヴィタミンが製出されるとしたなら、栄養と称して血液を飲んだりヴィタミンを摂取したりしたら、それはどういふことになるであらうかといふ事であるが、それは斯ういふ結果になるのである。<br><br>即ち、血液やヴィタミンが入るとすると、それ等を製出すべき機能は、活動する必要がないから休止するのである。<br><br>従而、それ等体内の一部の機能と雖も休止する以上相互関係にある他の機能も、休止又は退化するのは当然である。<br><br> 卑近な例ではあるが、彼の牛が草や藁を食ふ事によつて、彼の素晴しい牛乳といふ美味な栄養汁が出来るが、之は牛の体内の消化機能の活動による変化力のためで之を今日人間が如何に機械力を以てしても、草や藁から牛乳を製出する事は不可能であらう。<br><br> 右の理によつて、ビタミン等の栄養素を摂取すれば或期間結果は好いとしても、其後に到つて漸次機能が弱り、全身的弱体化するのは当然である。<br><br>恰かも車に乗れば一時は楽であつても漸次足が弱るといふのと同様である。<br><br>故に栄養食を摂れば一時は身体は肥え、血色は良くなり、統計的にも好成績は表はれるが或期間を過ぎれば弱体化するのである。<br><br>故に、今日栄養食実験の結果、一二年の統計に表はれたる好成績に幻惑されて、栄養食奨励の策を樹てるのであるが、実に困つたものである。<br><br> 故に、右の意味に於て人間の生活力を旺盛ならしむるには、栄養機能の活動を促進させなければならないのである。<br><br>それには栄養の少い物を食つて、体内の栄養製産機能を働かせるやうにする事である。<br><br>勿論運動の目的も其為である。<br><br>故に実際上昔から農民は非常な粗食であるが、粗食をするから彼丈の労働力が湧出するのである。<br><br>もし農民が美食をすれば労働力は減少するのである。<br><br>又、満洲の苦力（クーリー）の生活力が強靭なのは有名な話であるが、彼等は非常な粗食であつて、而も三食共同一な物を食つてゐるといふのに察ても私の説は肯定し得らるるであらう。<br><br>然るに今日の栄養学に於ては、種類を多く摂る事を推奨するが之等も実際に当嵌らない事は言ふまでもないのである。<br><br>又、今回の大東亜戦争に於て、米英蘭の軍隊を敗退後調査した処によると、彼等の食物は日本兵と比較にならない程、贅沢であつたそうである。<br><br>此事実によつてみても、美食である敵兵よりも粗食である日本兵が強いといふ事は全く私の説を裏書してゐるのである。<br><br> 今一つの例を挙げてみよう。<br><br>ここに機械製造工場があるとする。<br><br>その工場は原料たる、鉄や石炭を運び込み、それを職工の労作と、石炭を燃やし機械を運転し種々の順序を経て初めて一個の完全なる機械が造り出されるのである。<br><br>それが工場の使命であり、工場の存在理由であり工場の生活力である、之が儻（も）し完成した機械を工場に運び込んだとすると、工場は職工の労作も器械の運転も必要がない。<br><br>煙突から烟も出ないといふ訳で其工場の生活は無いのである。<br><br>従而職工も解雇し、機械も漸次錆ついて其工場の存在理由は消滅するであらう。<br><br>人間も之と同様であつて、栄養食を摂るとすると、本来栄養食とはより完成した食物である。<br><br>而もヴィタミンの如き栄養素は特に完成されたものであるから、体内の工場は労作の必要がないが故に機能の弱るのは当然である。<br><br>故に、此意味に於て人間は、成可原始的粗食を摂つて体内機能がそれを完全栄養素に変化すべく活動させるやうに為すべきである。<br><br>その活動の過程其ものこそ、人間の生活力となつて現はれるからである。<br><br> 又、近来、食物を出来るだけ咀嚼すべしと謂ふが、之も大いに誤つてゐる。<br><br>何となれば余りによく咀嚼すれば胃の活動の余地が無くなるから胃は弱るのである。<br><br>従而半噛み位即ち普通程度が可いのである。<br><br>昔から“早飯の人は健康だ”といはれるが、之等も一理あるのである。<br><br> 又、今日の栄養学は、穀類の栄養を軽んじてゐる。<br><br>栄養といへば副食物に多く在るやうに思つて種々の献立に苦心してゐるのであるが、之も謬つてゐる。<br><br>実は、穀類の栄養が主であつて、副食物は従である。<br><br>寧ろ、副食物は、飯を甘（うま）く食ふ為の必要物である―と解しても可いのである。<br><br>此例として、私は先年日本アルプスへ登山した際、案内人夫の弁当をみて驚いたのである。<br><br>それは白い飯のみであつて、全然菜は無いのである。<br><br>梅干一個も無いのである。<br><br>私は「飯ばかりで甘（う） まいか」と訊くと“非常にうまい”と言ふのである。<br><br>それで彼等は十二三貫の荷物を背負つて、頗る嶮路を毎日登り降りするのであるから驚くべきである。<br><br>是等の事実をみて、栄養学者は何と説明するであらう。<br><br> 右の如く、菜がなく飯ばかりで非常にうまいといふ事は一寸不思議に思ふであろうが、それは斯ういふ訳である。<br><br>元来人間の機能なるものは、環境に順応するやうに出来てゐるから、粗食を持続すれば、舌の方が変化してそれが美味となるのである。<br><br>此舌の変化といふ事は、あまり知られてゐないやうである。<br><br>故に、反対に美食に慣れると、それが段々美味しくなくなるので、それ以上の美食を次々求めるといふ、贅沢な人の例をよく見るのである。<br><br> 故に、私の此説を肯定するとすれば、現在最も重要問題とされてゐる戦時食料政策に対しても、如何に絶大な利益あるかは、量り知れないであらう。<br><br> 次に、食物に就て説いてみよう。<br><br>食物とは何ぞや、いふ迄もなく人間を初め凡ゆる生物を造られた造物主が、その生命を保たしむる目的を以て、それぞれその生物に適合する食物を与へられてゐるのは自明の理である。<br><br>故に人間には“人間が食すべきもの”として、大体定められてゐるのである。<br><br>そうして如何なる食物が人間に与へられたるものでありやを知るべきであるが、之は洵に容易な事である。<br><br>何となれば、その条件として「味はひ」なる要素があるから、それによつてよく分るのである。<br><br>即ち、造物主は人間に対しては、味覚なる本能を与へ、食物には「味はひ」なるものを含ましてある。<br><br> 此理に由つて、すべての食物にはそれぞれの味はひがあり、それを楽しみつつ食する事によつて栄養となり、生が営なまれるのである。<br><br>故に、ヴィタミンがどうの蛋白質がどうのなどといふ事は、何等の意義をなさないのである。<br><br> 前述の如く、ヴィタミンの如き栄養素が仮に人体に必要であるとすれば、如何なる食物からでも体内の機能が製産し、変化させるのであるから、食物に関する限り自然で可いので、特に栄養学などと、学問的に研究する必要がないのみか、却つて有害でさへあるのである。<br><br>此理に由つて、各人それぞれの環境、職業、体質等によつて、嗜好物にも自然差異が生ずるのであるが、その時欲する物は、その人に必要であるから摂れば可いのである。<br><br>喉の涸いた時、水がほしいのと同様である。<br><br> 茲で、食物の性質に就て述べてみよう。<br><br>元来栄養なるものは、野菜に最も多く含まれてゐるのである。<br><br>従而、栄養だけの目的からいへば、穀類と野菜だけで充分健康を保持し得らるるのである。<br><br>故に実際上、全然野菜を食せず、魚鳥獣等の肉のみを以て生活すれば、敗血症を起す事は周知の事実である。<br><br>これに反して、野菜のみを食つて病気をおこすといふ事は、未だ聞かないのにみても明かである。<br><br>そうして面白いことは、人間の性格なるものは、食物の種類によつて、大いに影響を受けるものである。<br><br>即ち、野菜のみを食する時は性格が柔順になり、無抵抗思想となるから、国民的には、国際的敗者となるのである。<br><br>彼の印度が滅びたのは、宗教的原因にもよるがそれよりも同国民の食物が、殆んど野菜と牛乳にある事が、その主因であらう。<br><br>又動物に於ても、ライオンや虎の如き肉食獣は獰猛性（どうもうせい）なるに反し、牛馬の如き草食動物は柔順なるにみても瞭かである。<br><br> 従而、菜食者は自然、物質的欲望や野心等の積極性が乏しくなるから、現代文化の社会に於ては、その境遇や職能により魚鳥等の肉をも食しなくてはならないのである。<br><br> 又、現在の如き国際競争や民族闘争の旺んな時代に於ては、獣肉も必要となるのである。<br><br>即ち肉食は競争心や闘争意識を湧出せしむるからである。<br><br>彼の白色人が常に闘争を好み欧羅巴に戦乱が絶えないといふ事実も、右の理由にもよるのである。<br><br> 近来、一部の論者に、肉食が非常に害があるやうに言ふが、之は謬つてゐる。<br><br>元来食物に毒素があるとしても、それは極軽微であつて、自然浄化によつて消失するから、肉食も程度を越えない限り差閊（さしつか）へないのである。<br><br> 以上の意味に於て、食物の種類は、各人の境遇や職能によつて、取捨選択すべきである事が判るであらう。<br><br>然し乍ら、人間は如何なる境遇にあるも、八拾歳以上になれば、物質的欲望や闘争意識の必要はなくなるから、菜食にすることが、最も良いのである。<br><br>そうする事によつて健康にも適し。<br><br>より長命を得る事になるのである。<br><br> 右によつてみても、粗食が如何に健康増進に適するかといふ事は明かである。<br><br>然るに、今日罹病するや、栄養と称し動物性食餌を推奨させる以上、かへつて衰弱を増し、病気治癒に悪影響を与へるといふ結果になるのである。<br><br> 次に、牛乳に就てであるが、牛乳は歯の未だ生えない嬰児には適してゐるが、歯が生えてからは不可である。<br><br>それは歯が生えるといふ事は、最早固形物を食してもいいといふ事である。<br><br>消化機能が発達して固形物が適するやうになつたといふ事である、之が自然である。<br><br>故に栄養と称して成人した者が牛乳を飲用するといふ事はその誤りである事は言ふ迄もない。<br><br>どういふ害があるかといふと、全身的に衰弱するのである。<br><br>曩に述べた如く、食物を余り咀嚼してさへ衰弱するのであるから、牛乳の如き流動物に於ては、より以上衰弱を来すのは当然である。<br><br>成人者が牛乳飲用の可否に就て、私に問ふ毎にいつも私は、嬰児と同様の食物を摂るとすれば、その動作も嬰児と同様に這つたり抱かれたりすべきではないかと嗤ふのである。<br><br>之等も学理に偏し実際を無視した医学の弊害である。<br><br> 次に、罹病するとよく粥に梅干を摂らせるが、之等も大いに間違つてゐる。<br><br>元来梅干なるものは、往昔戦国時代に兵糧の目的を以て作られたものである。<br><br>それは出来るだけ容積が少なく、少量を食して腹が減らないといふ訳である。<br><br>故に今日に於ては、登山とかハイキング等には適してゐるが、病人には不可である。<br><br>病床にあつて運動不足である以上、消化し易い物を食すべきである。<br><br>故に、健康時に於ても、梅干を食ふ時は、食欲は減退するのである。<br><br> 次に、栄養と称し、小児によく肝油を服ませるが、之も間違つてゐるのである。<br><br>それは食物中には、米でも麦でも豆でも菜でも、それぞれ特有の油分はあるのであるから、体内の機能が凡ての食物から抽出する。<br><br>それで、過不足なく丁度好いのである。<br><br>即ち、糖からは糖油がとれ、菜種からは種油、大豆からは大豆油が採れるにみても明かである。<br><br>然るに、油のみを飲用する事は偏栄養的で、不自然極まる事である。<br><br>即ち油だけを飲めば、体内機能中の油分抽出機能が退化するから、結果は勿論悪いにきまつてゐる。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Falácia da Nutrição Moderna</h2>
 <p>Acredita-se que a nutrição, no âmbito da medicina moderna, tenha alcançado um notável progresso. A interpretação médica a esse respeito é apresentada da seguinte forma, com base no artigo de um especialista:</p>
@@ -120,5 +272,48 @@ function toggleLang(lang) {
 <p>Quanto ao leite, ele é adequado para bebês que ainda não têm dentes. A partir do momento em que os dentes nascem, seu consumo deve ser evitado. O nascimento dos dentes é um sinal de que o corpo já pode ingerir alimentos sólidos; de que as funções digestivas se desenvolveram e se tornaram aptas para eles. Isso é o natural. Portanto, é desnecessário dizer que é um erro um adulto beber leite a título de nutrição. E que tipo de prejuízo isso causa? Causa uma debilidade generalizada. Como afirmei anteriormente, até mesmo mastigar demais um alimento enfraquece o corpo; logo, é natural que um líquido como o leite cause um enfraquecimento ainda maior. Sempre que me perguntam se um adulto pode ou não beber leite, costumo rir e responder que, se alguém se alimenta como um bebê, não deveria também agir como um, engatinhando e sendo carregado no colo? Esse é mais um dos malefícios da medicina, que se apega à teoria e ignora a prática.</p>
 <p>Outro grande equívoco é dar canja de arroz com ameixa em conserva (<em>umeboshi</em>) a uma pessoa doente. A ameixa em conserva foi criada nos tempos remotos do período dos estados guerreiros como um alimento para as tropas. A ideia era ter um alimento de volume reduzido que, mesmo em pequenas quantidades, saciasse a fome. Assim, hoje ela é adequada para atividades como alpinismo ou caminhadas, mas não para doentes. Estando acamado e com falta de exercício, o doente deve comer alimentos de fácil digestão. Mesmo em estado de saúde, o consumo de ameixa em conserva diminui o apetite.</p>
 <p>Por fim, a título de nutrição, é comum dar óleo de fígado de bacalhau às crianças, o que também está errado. Todos os alimentos — arroz, trigo, feijão, verduras — contêm seus próprios óleos característicos, e as funções do corpo os extraem de tudo o que se come. Com isso, a quantidade é sempre perfeitamente adequada, sem excessos ou faltas. Assim como se extrai óleo do açúcar, da colza e da soja, o princípio é o mesmo. Ingerir apenas o óleo é uma forma de nutrição parcial e extremamente antinatural. Ao beber apenas o óleo, a função do corpo responsável por extrair os óleos dos alimentos se atrofia, e o resultado, evidentemente, só pode ser ruim.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 栄養学 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 現代医学に於て栄養学は相当進歩されたと思はれてゐる。<br/><br/>そうして医学に於ける解釈は次の如くである。<br/><br/> （某専門家の記事による。<br/><br/>） 「私どもは、毎日誰でも三度は大概欠かさずに食事をする。<br/><br/>これは日常体内で失はれてゐる物質を補ふためと、一方では新しく身体の組織をつくる必要からである。<br/><br/> かうして体内では、断えず分解作用と合成作用の二つが行はれてゐるのである。<br/><br/>新陳代謝といふのはこの二つを総称したものである。<br/><br/>ところで体内で食物がそれぞれ消化吸収されてそれから補給物質になつたり、合成物質になつたりするまでにはどんな経過をたどるのであらうか。<br/><br/> まづ蛋白質からいふと、消化器の中で分解されてアミノ酸になつたのは、腸壁から吸収されて血液の中へ入り肝臓を通過して血液と一緒に全身に送られて、各組織に分配されるのである。<br/><br/>かくして組織に達したアミノ酸は、そこでそのところの組織に特有な蛋白質に組立てられ、一部分はアミノ酸からさらに分解されて尿素、尿酸、アンモニア、クレアチン、クレアチニンそれに無機塩類となつて尿の中に排泄されるものである。<br/><br/>以上のやうに蛋白は消化するとアミノ酸として組織の合成に用ひられるが、一部は含水炭素や脂肪と同じように燃焼して運動エネルギーとなるものである。<br/><br/>蛋白質はこの程度にしておいて、つぎは含水炭素だが、この方は最後には単糖類のブドー糖に変化して腸壁から吸収されて静脈へ入り門脈によつて運搬される。<br/><br/>したがつて含水炭素を一時に沢山とると、血液の中の糖分が増加してくる。<br/><br/>そして沢山とつた時は肝臓に行つてグリコーゲンとして貯へられ必要に応じて再びブドー糖となつて補給されるのである。<br/><br/>このブドー糖は血液中の酸素によつて酸化燃焼して、主として運動エネルギーを供給するが、同時に此場合沢山の炭酸ガスを生ずる。<br/><br/>運動が激しければ激しい程ブドー糖の酸化作用はさかんで、これに従つて肝臓に貯へてあるグリコーゲンが引張り出されて補ひをつけてゆく。<br/><br/>しかしブドー糖の酸化によつて炭酸ガスを生ずる迄には、いろいろの中間産物がある。<br/><br/>尿酸はその一つで、従つて尿酸の量を測ると疲労の程度が分るといつてこれも行はれる。<br/><br/> なほこの外に含水炭素の一部分は、体内で変化して脂肪となり沈着する。<br/><br/>で含水炭素の食品を沢山食べると体内脂肪が増加して次第に肥満してくるといふことになるのである。<br/><br/>つぎに脂肪であるが、これは胃の中で一部は消化吸収されることがあるが、大部分は腸へ行つてから膵液中の脂肪分解酵素ステアプシンのために、脂肪酸とグリセリンに分解され、腸壁を通つて吸収され、再び脂肪となり、淋巴液と一緒に乳状態となつて体内をめぐり静脈へ入つて、脂肪の一部はその後に体内脂肪として蓄積され、一部は酸化燃焼してヱネルギーとなる。<br/><br/>しかし含水炭素と違つて、これは主として熱のヱネルギーとなつて行くのである。<br/><br/>」 右の如く、その説明は詳細を極め、一見洵に感心されるので、一般人が信ずるのも無理はないのである。<br/><br/> 然し乍ら、如何に詳細を極めたる説明と雖も、それは死体の解剖や食物の分析、排泄物の試験等によつて得たる医学者の推定的想像の範囲を出でないと思ふのである。<br/><br/>何となれば、人体の組織機能とその活動によつて表はれる処の生活力なるものは、現在科学の水準よりも遙かに高度であり、深遠であるからである。<br/><br/>従而、今日人間の健康に対し栄養学的に解釈し得たとしても、それは煙突内から天を仰いで天の大きさを知つたと言ふに等しいものであらう。<br/><br/>又名画の価値を定むるに当り、紙代と絵具代と労銀によるやうなものであらう。<br/><br/> 之を要するに、神秘霊妙なる人体とその生命を知悉（ちしつ）せんとするには、現代科学は未だ余りに水準が低いといふ事を認識しなければならないのである。<br/><br/>勿論科学の進歩は何れの日かはそれを知り得る程度に達する事も予想されるのであるが、私は科学者ではないから、科学的に説明はしないが、実際と経験によつて、真の栄養学は如何なるものであるかといふ帰納的論理を以て説くつもりであるから誤謬はないと思ふのである。<br/><br/> そうして、今日栄養学といへば、カロリーやヴィタミン説に捉はれ、それによつて凡て律してゐるが、私は断言するのである。<br/><br/>ヴィタミンが全然無い物を食つてさへも、人間は立派に生きてゆかれる事である。<br/><br/> そうして医学に於ての研究なるものは、食物の方にのみ偏して、人体内に於ける消化機能や栄養製産機能の作用を無視してゐるので其点に根本的誤謬がある。<br/><br/>元来人体内の凡ゆる機能なるものは実に偉大なる科学的製産者であつて、凡有る食物を自由自在に変化させるのである。<br/><br/>然るに、医学に於ては、此変化力といふ意味が未だ知られてゐないのである。<br/><br/>然らば、此変化力とは如何なるものであるか。<br/><br/>例へば、米飯や菜葉や芋や豆を食つても、それが消化機能といふ魔法使によつて変化し血液となり、筋肉となり、骨となるといふ事である。<br/><br/>然るに米飯や菜葉を如何に分析しても、血素の微粒、肉素の一粍だも発見し得られないであらう。<br/><br/>只だそれを食する事によつて、体内で自然に各素が製出されるのであつて、全く神秘偉大なる変化力である。<br/><br/>故にヴィタミンの全然ない食物を摂取しても、それを幾つかの機能の端倪（たんげい）すべからざる活動によつて、ヴィタミンのＡもＢもＣもアミノ酸もグリコーゲンも、其他未発見のあらゆる栄養素が製出さるるのである。<br/><br/>従而、右の理によつて考える時、斯ういふ疑問が起るであらう。<br/><br/>即ち血液素の全然無い物を食ふ事によつて血液が出来ヴィタミンの絶無である物を食つてヴィタミンが製出されるとしたなら、栄養と称して血液を飲んだりヴィタミンを摂取したりしたら、それはどういふことになるであらうかといふ事であるが、それは斯ういふ結果になるのである。<br/><br/>即ち、血液やヴィタミンが入るとすると、それ等を製出すべき機能は、活動する必要がないから休止するのである。<br/><br/>従而、それ等体内の一部の機能と雖も休止する以上相互関係にある他の機能も、休止又は退化するのは当然である。<br/><br/> 卑近な例ではあるが、彼の牛が草や藁を食ふ事によつて、彼の素晴しい牛乳といふ美味な栄養汁が出来るが、之は牛の体内の消化機能の活動による変化力のためで之を今日人間が如何に機械力を以てしても、草や藁から牛乳を製出する事は不可能であらう。<br/><br/> 右の理によつて、ビタミン等の栄養素を摂取すれば或期間結果は好いとしても、其後に到つて漸次機能が弱り、全身的弱体化するのは当然である。<br/><br/>恰かも車に乗れば一時は楽であつても漸次足が弱るといふのと同様である。<br/><br/>故に栄養食を摂れば一時は身体は肥え、血色は良くなり、統計的にも好成績は表はれるが或期間を過ぎれば弱体化するのである。<br/><br/>故に、今日栄養食実験の結果、一二年の統計に表はれたる好成績に幻惑されて、栄養食奨励の策を樹てるのであるが、実に困つたものである。<br/><br/> 故に、右の意味に於て人間の生活力を旺盛ならしむるには、栄養機能の活動を促進させなければならないのである。<br/><br/>それには栄養の少い物を食つて、体内の栄養製産機能を働かせるやうにする事である。<br/><br/>勿論運動の目的も其為である。<br/><br/>故に実際上昔から農民は非常な粗食であるが、粗食をするから彼丈の労働力が湧出するのである。<br/><br/>もし農民が美食をすれば労働力は減少するのである。<br/><br/>又、満洲の苦力（クーリー）の生活力が強靭なのは有名な話であるが、彼等は非常な粗食であつて、而も三食共同一な物を食つてゐるといふのに察ても私の説は肯定し得らるるであらう。<br/><br/>然るに今日の栄養学に於ては、種類を多く摂る事を推奨するが之等も実際に当嵌らない事は言ふまでもないのである。<br/><br/>又、今回の大東亜戦争に於て、米英蘭の軍隊を敗退後調査した処によると、彼等の食物は日本兵と比較にならない程、贅沢であつたそうである。<br/><br/>此事実によつてみても、美食である敵兵よりも粗食である日本兵が強いといふ事は全く私の説を裏書してゐるのである。<br/><br/> 今一つの例を挙げてみよう。<br/><br/>ここに機械製造工場があるとする。<br/><br/>その工場は原料たる、鉄や石炭を運び込み、それを職工の労作と、石炭を燃やし機械を運転し種々の順序を経て初めて一個の完全なる機械が造り出されるのである。<br/><br/>それが工場の使命であり、工場の存在理由であり工場の生活力である、之が儻（も）し完成した機械を工場に運び込んだとすると、工場は職工の労作も器械の運転も必要がない。<br/><br/>煙突から烟も出ないといふ訳で其工場の生活は無いのである。<br/><br/>従而職工も解雇し、機械も漸次錆ついて其工場の存在理由は消滅するであらう。<br/><br/>人間も之と同様であつて、栄養食を摂るとすると、本来栄養食とはより完成した食物である。<br/><br/>而もヴィタミンの如き栄養素は特に完成されたものであるから、体内の工場は労作の必要がないが故に機能の弱るのは当然である。<br/><br/>故に、此意味に於て人間は、成可原始的粗食を摂つて体内機能がそれを完全栄養素に変化すべく活動させるやうに為すべきである。<br/><br/>その活動の過程其ものこそ、人間の生活力となつて現はれるからである。<br/><br/> 又、近来、食物を出来るだけ咀嚼すべしと謂ふが、之も大いに誤つてゐる。<br/><br/>何となれば余りによく咀嚼すれば胃の活動の余地が無くなるから胃は弱るのである。<br/><br/>従而半噛み位即ち普通程度が可いのである。<br/><br/>昔から“早飯の人は健康だ”といはれるが、之等も一理あるのである。<br/><br/> 又、今日の栄養学は、穀類の栄養を軽んじてゐる。<br/><br/>栄養といへば副食物に多く在るやうに思つて種々の献立に苦心してゐるのであるが、之も謬つてゐる。<br/><br/>実は、穀類の栄養が主であつて、副食物は従である。<br/><br/>寧ろ、副食物は、飯を甘（うま）く食ふ為の必要物である―と解しても可いのである。<br/><br/>此例として、私は先年日本アルプスへ登山した際、案内人夫の弁当をみて驚いたのである。<br/><br/>それは白い飯のみであつて、全然菜は無いのである。<br/><br/>梅干一個も無いのである。<br/><br/>私は「飯ばかりで甘（う） まいか」と訊くと“非常にうまい”と言ふのである。<br/><br/>それで彼等は十二三貫の荷物を背負つて、頗る嶮路を毎日登り降りするのであるから驚くべきである。<br/><br/>是等の事実をみて、栄養学者は何と説明するであらう。<br/><br/> 右の如く、菜がなく飯ばかりで非常にうまいといふ事は一寸不思議に思ふであろうが、それは斯ういふ訳である。<br/><br/>元来人間の機能なるものは、環境に順応するやうに出来てゐるから、粗食を持続すれば、舌の方が変化してそれが美味となるのである。<br/><br/>此舌の変化といふ事は、あまり知られてゐないやうである。<br/><br/>故に、反対に美食に慣れると、それが段々美味しくなくなるので、それ以上の美食を次々求めるといふ、贅沢な人の例をよく見るのである。<br/><br/> 故に、私の此説を肯定するとすれば、現在最も重要問題とされてゐる戦時食料政策に対しても、如何に絶大な利益あるかは、量り知れないであらう。<br/><br/> 次に、食物に就て説いてみよう。<br/><br/>食物とは何ぞや、いふ迄もなく人間を初め凡ゆる生物を造られた造物主が、その生命を保たしむる目的を以て、それぞれその生物に適合する食物を与へられてゐるのは自明の理である。<br/><br/>故に人間には“人間が食すべきもの”として、大体定められてゐるのである。<br/><br/>そうして如何なる食物が人間に与へられたるものでありやを知るべきであるが、之は洵に容易な事である。<br/><br/>何となれば、その条件として「味はひ」なる要素があるから、それによつてよく分るのである。<br/><br/>即ち、造物主は人間に対しては、味覚なる本能を与へ、食物には「味はひ」なるものを含ましてある。<br/><br/> 此理に由つて、すべての食物にはそれぞれの味はひがあり、それを楽しみつつ食する事によつて栄養となり、生が営なまれるのである。<br/><br/>故に、ヴィタミンがどうの蛋白質がどうのなどといふ事は、何等の意義をなさないのである。<br/><br/> 前述の如く、ヴィタミンの如き栄養素が仮に人体に必要であるとすれば、如何なる食物からでも体内の機能が製産し、変化させるのであるから、食物に関する限り自然で可いので、特に栄養学などと、学問的に研究する必要がないのみか、却つて有害でさへあるのである。<br/><br/>此理に由つて、各人それぞれの環境、職業、体質等によつて、嗜好物にも自然差異が生ずるのであるが、その時欲する物は、その人に必要であるから摂れば可いのである。<br/><br/>喉の涸いた時、水がほしいのと同様である。<br/><br/> 茲で、食物の性質に就て述べてみよう。<br/><br/>元来栄養なるものは、野菜に最も多く含まれてゐるのである。<br/><br/>従而、栄養だけの目的からいへば、穀類と野菜だけで充分健康を保持し得らるるのである。<br/><br/>故に実際上、全然野菜を食せず、魚鳥獣等の肉のみを以て生活すれば、敗血症を起す事は周知の事実である。<br/><br/>これに反して、野菜のみを食つて病気をおこすといふ事は、未だ聞かないのにみても明かである。<br/><br/>そうして面白いことは、人間の性格なるものは、食物の種類によつて、大いに影響を受けるものである。<br/><br/>即ち、野菜のみを食する時は性格が柔順になり、無抵抗思想となるから、国民的には、国際的敗者となるのである。<br/><br/>彼の印度が滅びたのは、宗教的原因にもよるがそれよりも同国民の食物が、殆んど野菜と牛乳にある事が、その主因であらう。<br/><br/>又動物に於ても、ライオンや虎の如き肉食獣は獰猛性（どうもうせい）なるに反し、牛馬の如き草食動物は柔順なるにみても瞭かである。<br/><br/> 従而、菜食者は自然、物質的欲望や野心等の積極性が乏しくなるから、現代文化の社会に於ては、その境遇や職能により魚鳥等の肉をも食しなくてはならないのである。<br/><br/> 又、現在の如き国際競争や民族闘争の旺んな時代に於ては、獣肉も必要となるのである。<br/><br/>即ち肉食は競争心や闘争意識を湧出せしむるからである。<br/><br/>彼の白色人が常に闘争を好み欧羅巴に戦乱が絶えないといふ事実も、右の理由にもよるのである。<br/><br/> 近来、一部の論者に、肉食が非常に害があるやうに言ふが、之は謬つてゐる。<br/><br/>元来食物に毒素があるとしても、それは極軽微であつて、自然浄化によつて消失するから、肉食も程度を越えない限り差閊（さしつか）へないのである。<br/><br/> 以上の意味に於て、食物の種類は、各人の境遇や職能によつて、取捨選択すべきである事が判るであらう。<br/><br/>然し乍ら、人間は如何なる境遇にあるも、八拾歳以上になれば、物質的欲望や闘争意識の必要はなくなるから、菜食にすることが、最も良いのである。<br/><br/>そうする事によつて健康にも適し。<br/><br/>より長命を得る事になるのである。<br/><br/> 右によつてみても、粗食が如何に健康増進に適するかといふ事は明かである。<br/><br/>然るに、今日罹病するや、栄養と称し動物性食餌を推奨させる以上、かへつて衰弱を増し、病気治癒に悪影響を与へるといふ結果になるのである。<br/><br/> 次に、牛乳に就てであるが、牛乳は歯の未だ生えない嬰児には適してゐるが、歯が生えてからは不可である。<br/><br/>それは歯が生えるといふ事は、最早固形物を食してもいいといふ事である。<br/><br/>消化機能が発達して固形物が適するやうになつたといふ事である、之が自然である。<br/><br/>故に栄養と称して成人した者が牛乳を飲用するといふ事はその誤りである事は言ふ迄もない。<br/><br/>どういふ害があるかといふと、全身的に衰弱するのである。<br/><br/>曩に述べた如く、食物を余り咀嚼してさへ衰弱するのであるから、牛乳の如き流動物に於ては、より以上衰弱を来すのは当然である。<br/><br/>成人者が牛乳飲用の可否に就て、私に問ふ毎にいつも私は、嬰児と同様の食物を摂るとすれば、その動作も嬰児と同様に這つたり抱かれたりすべきではないかと嗤ふのである。<br/><br/>之等も学理に偏し実際を無視した医学の弊害である。<br/><br/> 次に、罹病するとよく粥に梅干を摂らせるが、之等も大いに間違つてゐる。<br/><br/>元来梅干なるものは、往昔戦国時代に兵糧の目的を以て作られたものである。<br/><br/>それは出来るだけ容積が少なく、少量を食して腹が減らないといふ訳である。<br/><br/>故に今日に於ては、登山とかハイキング等には適してゐるが、病人には不可である。<br/><br/>病床にあつて運動不足である以上、消化し易い物を食すべきである。<br/><br/>故に、健康時に於ても、梅干を食ふ時は、食欲は減退するのである。<br/><br/> 次に、栄養と称し、小児によく肝油を服ませるが、之も間違つてゐるのである。<br/><br/>それは食物中には、米でも麦でも豆でも菜でも、それぞれ特有の油分はあるのであるから、体内の機能が凡ての食物から抽出する。<br/><br/>それで、過不足なく丁度好いのである。<br/><br/>即ち、糖からは糖油がとれ、菜種からは種油、大豆からは大豆油が採れるにみても明かである。<br/><br/>然るに、油のみを飲用する事は偏栄養的で、不自然極まる事である。<br/><br/>即ち油だけを飲めば、体内機能中の油分抽出機能が退化するから、結果は勿論悪いにきまつてゐる。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

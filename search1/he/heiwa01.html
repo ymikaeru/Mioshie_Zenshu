@@ -4,8 +4,410 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>heiwa01</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,59 +440,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ﻿<br>heiwa01<br>――<br>岡田自観師の論文集 ――　<br>御教え検索：<br>help<br>資料検索：<br>平和主義を考えてみる<br>『栄光』184号、昭和27(1952)年11月26日発行<br>最近二つの民間平和会議が、しかも日本を中心として開かれたのは、特筆すべき一事であろう。そうして一方は東京での亜細亜（アジア）における有力な仏教家の会合であり、他の一つは広島においての世界連邦平和会議で、これは主にキリスト教の有力な人々の会合であって、言うまでもなく両会共平和を念願とする人々の集りであり宣言や運動方法なども議題に上ったようだが無論有意義な企てであって、吾らも賛意を表するにやぶさかではないが、これについていささかかいてみたいと思う事がある。<br>というのは右の会合もそうだが、彼の平和運動の有力な団体としてのユネスコである。これは前者のごとく宗教的ではなく、科学と道義を基本とした世界平和の実行運動であるからこれも大いに結構であるが、これについて深く考えてみなければならないと思うのは鉄のカーテン内の国にはいささかも関係のない事である。もっともそれは不可能であるから致し方ないとしても、今のところカーテン外の国だけの平和運動であるから、よしんばそれが思い通りに成功しても、所期の目的は達し得られない事は分っている。何となればその結果は逆になって、恐るべき事態を招来するからである。これについてまず現在の世界状勢をみてみると、何といってもその根本は米ソの対立である。しかも両国共力の限り戦備の強化に奔命（ほんめい）しており、このまま続くとしたら、結局は最悪の事態にまで立到るのは議論の余地はあるまい。としたらこの二大陣営の融合こそ恒久平和の道であって、それ以外絶対あり得ない事は言うまでもない。<br>そうしてもし不幸にして第三次戦争が始まったとしたら、全世界の国という国は右のどちらかに属している以上、ことごとく捲込まれるのはもちろん、いかなる小国といえども中立は不可能であろう。としたらこれを想像しただけでも肌（はだえ）に粟（あわ）を生ずるのである。それだからこそ平和運動の必要もある訳だが、ここで気が付かねばならない重大事がある。それは何かというとこれらの平和運動によって、鉄のカーテン外の国全部が平和の空気が濃厚になるに従い、自然軍備の面が疎かになるに決っている。ところが相手の鉄のカーテン内の各国は思い通り軍備が充実する事となる以上、イザという場合力ーテン外の国は一溜りもなく蹂躙されるに違いない。としたらその時はどうなるであろうかを考えて見て貰いたい。恐らく平和主義者の理想などはたちまち吹ッ飛んでしまい、どんな悲劇が生まれるか分らないであろう。それについても最近の外国通信によれば、キリスト教中のある一派は、勝敗など全然問題にせず、自分等は絶対軍備反対であると称し、頑として諾かないので手が付けられないらしい。なる程それも間違ってはいない。確かに信仰の筋道からいえば本当であるが、といって万一国が滅びるとしたらどうであろう。無論信仰を続ける事は出来まい。従って右のような極端な非戦主義は戦争敗北主義であり、自殺主義でもある。<br>そうはいうものの、私はどちらの可否も決定はしない。なぜなれば現在のごとき世界の動揺も危機も、深甚なる神の経綸に外ならないからである。いつもいう通り神の仕組は人間の智慧や理屈で到底判断出来るような生易しいものではない。その奥には奥があり、実に端倪すべからざるものである。またもし分ったとして説明しても、人間の頭脳では理解出来ないから無駄である。大本教の御筆先の一節に“細工は粒々仕上を御ろうじろ”という言葉があり、実に適切であると私は常に思っている。
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Reflexões sobre o Pacifismo</h2>
 <p><em>Revista Eikou, n.º 184, 26 de novembro de 1952</em></p>
@@ -101,5 +451,48 @@ function toggleLang(lang) {
 <p>Este ponto é o seguinte: à medida que o sentimento pacifista se intensifica nos países de fora da Cortina de Ferro, é inevitável que a preparação militar seja naturalmente negligenciada. Em contrapartida, as nações do outro lado, por poderem fortalecer seu poderio bélico à vontade, estarão cada vez mais preparadas. Consequentemente, em um momento decisivo, os países do bloco ocidental seriam, sem a menor dúvida, esmagados. O que aconteceria então? Nesse instante, os ideais pacifistas se desvaneceriam em um sopro, e é impossível prever a tragédia que se seguiria.</p>
 <p>A esse respeito, notícias recentes do exterior informam que uma determinada seita cristã, indiferente à vitória ou à derrota, se opõe de forma intransigente ao armamento, mostrando-se irredutível em sua posição. De fato, tal postura não está equivocada. Sob a perspectiva da fé, ela é, sem dúvida, autêntica. Todavia, o que aconteceria se a nação viesse a ser aniquilada? A prática da fé, certamente, se tornaria impossível. Consequentemente, um pacifismo tão extremado equivale a uma doutrina de derrota e, em última análise, de autodestruição.</p>
 <p>Apesar de tudo, não me cabe julgar o que é certo ou errado, pois a presente agitação e a crise que abalam o mundo não são senão parte do profundo Plano Divino. Conforme sempre afirmo, o Plano de Deus não é algo simples que possa ser julgado pela sabedoria ou pela lógica humana. Existem profundezas dentro de profundezas; é algo verdadeiramente insondável. Ademais, mesmo que fosse possível compreendê-lo e explicá-lo, seria inútil, pois o intelecto humano não conseguiria abarcá-lo. Em uma passagem do Ofudesaki da Oomoto, há as seguintes palavras: “O trabalho é feito grão a grão; contemplem a sua finalização”. Sempre considerei esta citação de uma pertinência notável.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>﻿<br/>heiwa01<br/>――<br/>岡田自観師の論文集 ――　<br/>御教え検索：<br/>help<br/>資料検索：<br/>平和主義を考えてみる<br/>『栄光』184号、昭和27(1952)年11月26日発行<br/>最近二つの民間平和会議が、しかも日本を中心として開かれたのは、特筆すべき一事であろう。そうして一方は東京での亜細亜（アジア）における有力な仏教家の会合であり、他の一つは広島においての世界連邦平和会議で、これは主にキリスト教の有力な人々の会合であって、言うまでもなく両会共平和を念願とする人々の集りであり宣言や運動方法なども議題に上ったようだが無論有意義な企てであって、吾らも賛意を表するにやぶさかではないが、これについていささかかいてみたいと思う事がある。<br/>というのは右の会合もそうだが、彼の平和運動の有力な団体としてのユネスコである。これは前者のごとく宗教的ではなく、科学と道義を基本とした世界平和の実行運動であるからこれも大いに結構であるが、これについて深く考えてみなければならないと思うのは鉄のカーテン内の国にはいささかも関係のない事である。もっともそれは不可能であるから致し方ないとしても、今のところカーテン外の国だけの平和運動であるから、よしんばそれが思い通りに成功しても、所期の目的は達し得られない事は分っている。何となればその結果は逆になって、恐るべき事態を招来するからである。これについてまず現在の世界状勢をみてみると、何といってもその根本は米ソの対立である。しかも両国共力の限り戦備の強化に奔命（ほんめい）しており、このまま続くとしたら、結局は最悪の事態にまで立到るのは議論の余地はあるまい。としたらこの二大陣営の融合こそ恒久平和の道であって、それ以外絶対あり得ない事は言うまでもない。<br/>そうしてもし不幸にして第三次戦争が始まったとしたら、全世界の国という国は右のどちらかに属している以上、ことごとく捲込まれるのはもちろん、いかなる小国といえども中立は不可能であろう。としたらこれを想像しただけでも肌（はだえ）に粟（あわ）を生ずるのである。それだからこそ平和運動の必要もある訳だが、ここで気が付かねばならない重大事がある。それは何かというとこれらの平和運動によって、鉄のカーテン外の国全部が平和の空気が濃厚になるに従い、自然軍備の面が疎かになるに決っている。ところが相手の鉄のカーテン内の各国は思い通り軍備が充実する事となる以上、イザという場合力ーテン外の国は一溜りもなく蹂躙されるに違いない。としたらその時はどうなるであろうかを考えて見て貰いたい。恐らく平和主義者の理想などはたちまち吹ッ飛んでしまい、どんな悲劇が生まれるか分らないであろう。それについても最近の外国通信によれば、キリスト教中のある一派は、勝敗など全然問題にせず、自分等は絶対軍備反対であると称し、頑として諾かないので手が付けられないらしい。なる程それも間違ってはいない。確かに信仰の筋道からいえば本当であるが、といって万一国が滅びるとしたらどうであろう。無論信仰を続ける事は出来まい。従って右のような極端な非戦主義は戦争敗北主義であり、自殺主義でもある。<br/>そうはいうものの、私はどちらの可否も決定はしない。なぜなれば現在のごとき世界の動揺も危機も、深甚なる神の経綸に外ならないからである。いつもいう通り神の仕組は人間の智慧や理屈で到底判断出来るような生易しいものではない。その奥には奥があり、実に端倪すべからざるものである。またもし分ったとして説明しても、人間の頭脳では理解出来ないから無駄である。大本教の御筆先の一節に“細工は粒々仕上を御ろうじろ”という言葉があり、実に適切であると私は常に思っている。</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

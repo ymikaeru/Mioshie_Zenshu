@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s290226</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S29年2月26日） 『御教え集』31号、昭和29(1954)年3月15日発行 昭和二十九年二月二十六日 この間ハワイの本部の落成式があって、その時の模様が『ハワイ報知新聞』に出たのを読ませます。<br><br>ハワイにある二つのしっかりした新聞のうちの一つですが、割によく書いてあります。<br><br> （『ハワイ報知』二月十五日付掲載「世界メシヤ教布哇教会落成式」）【栄光 二五二号】 写真も出てますが、見たい人は後で見たらよいです。<br><br> 最近になって隣地のそうとうの坪がうまく手に入ったので、いずれそこにはもっと大きなものが建つことになるでしょう。<br><br>そういうような具合で、ハワイ布教を始めたのが去年の今月ですから、ちょうど一年です。<br><br>それまではあっちには別になにもなかったのです。<br><br>本当に縁もゆかりもない所に、言わば突如として行ったようなもので、それが一年たつかたたないうちにこれだけになったということは実に早いです。<br><br>つまり時期が来たわけです。<br><br>なにごとも時期がありますから、時期をみるというのが一番肝腎です。<br><br>うまくゆかなかったり失敗するということは、時期に当てはまらないからです。<br><br>植物の種を蒔くにも、野菜や米の種を蒔くにも、やっぱり時期があります。<br><br>今度の「特集号」も非常に売れて、足りなくはないかというくらいなのですからして、これも時期なのです。<br><br>ちょうど去年あれほどの凶作で、これからどうしてよいか分からないと、迷ってどうにもならないときに“これだ”ということを見せるのですから、飛びつくわけです。<br><br>食物がなくて腹が減ってフラフラしているところに、ごちそうをやるというわけで、飛びついてくるというわけです。<br><br>ですから骨折って無理にやるということは、時期が来ないときに無理をやるから骨が折れるのです。<br><br>私は骨が折れることはよせと言っていますが、楽に楽しみながらやることがよいのです。<br><br>そうすればうまくゆくに決まっています。<br><br>ですから楽にスラスラゆくのは、時期が来ているからうまくゆくのです。<br><br>苦しまなければうまくゆかないということは苦痛の迷信です。<br><br>苦しまないで、ふつうにやるというのが一番よいのです。<br><br>それが本当です。<br><br> これについて一番分かるのは、絵の展覧会などに行くと、画家というのは、大いに苦心惨憺しなければ良い物ができないと思っているのです。<br><br>そのために非常に苦しむのです。<br><br>その苦しむのが画面にチャンと出ているのです。<br><br>われわれが行って見て、楽しもうとするのが、そうでなくて苦しみが現われているから、苦しみがこっちに迫ってくるのです。<br><br>見ていて楽しみな良い気持ちにならないのです。<br><br>要するに苦痛を移されるようなものです。<br><br>これはみんな苦痛迷信の結果です。<br><br>今の人はその点なども大いに知らなければいけないのです。<br><br>ところが、どういうわけでそういう苦痛迷信が起こったかというと、つまり今までは夜の世界であったから暗闇ですから、暗闇で物を探ったり物を見ようとするから苦しいわけです。<br><br>どうしてもそういうことになるわけです。<br><br>ところが昼の世界になると一目で分かるから、つかまえようと思えば、すぐにつかまえることができるというわけなので、そこがたいへんな違いです。<br><br> エリス・グリリという人より最近箱根美術館を管理している野木さんに手紙が来たので、あの人が翻訳したのです。<br><br>私は、これだけ訳することができるということは初めて知りました。<br><br> （「グリリ夫人からの御礼状」） 【栄光 二五一号】 このグリリという人は非常な日本好きで、去年ですか家を買って日本人と同じような生活をしているのです。<br><br>畳で、坐って、日本食を食べるのだそうです。<br><br>いつか私が会ったときに聞いたことですが、「日本人の中には非常に勝れたところがある、他の民族にない良いものがある。<br><br>それを自分は研究したい」。<br><br>それで、自分は一生日本で暮らすといぅ覚悟だということも言われていたくらいですから、日本のために将来非常に良い仕事をされる方と思ってます。<br><br>これから大いに救世教のために世界的に紹介もし、観光外人などに対するいろんな仕事をされるだろうと思ってます。<br><br> 今一番の問題は汚職問題です。<br><br>とにかく後から後から社会的にそうとう有力な人たちが引張られる……まだまだもっと大物が引張られそうなことが出てますが、なかなか、自由党の方で防ごうと思っても防ぎきれないようなことになるのではないかと思います。<br><br>どうも問題はもっといっそう大きくなるのではないかと思うけれども、そういう偉い人たちの様子を見ると、あべこべをやっているのです。<br><br>これが本当から言えば、正直に“こうこういう悪いことをした、申し訳ない”と言って出ればよいのですが、それだけの勇気のある人は、おそらく今の世の中にはないと思います。<br><br>どこまでも、どうしたらうまくごまかせるかということを一生懸命にやっているわけです。<br><br>というのは、つまり「神が有る」ということを信じないからです。<br><br>だから人間の目さえごまかせば、うまくゆくと思っているのです。<br><br>それについて書いてみました。<br><br> （御論文「疑獄も浄化作用なり」） 【栄光 二五二号】 この中に前号と前々号ということを書いてますが、前々号というのは書いてありますが、前号というのは次のが出るのです。<br><br>順序が逆になりましたが。<br><br> （御論文「再び汚職の母体」） 【栄光 二五一号】 それから、さっき読んだときに話をしようと思ったが、ハワイと、最近ロサンゼルスの方にもだいぶ開けてきたのです。<br><br>それで、あっちが早く開ける一番の原因は病気が非常に治りよいのです。<br><br>治るとともに、治りきりになって再浄化がないのです。<br><br>これは日本とたいへんな違いです。<br><br>それはなにが原因かというと、こういうわけなのです。<br><br>日本の病人と言うと変ですが、特色は、薬毒の量が多いのです。<br><br>だからして固まりを溶かしてそこだけは出てしまうが、後の後続部隊が溶けたりする浄化作用が起こるのです。<br><br>ですから長いのです。<br><br>しつこいのです。<br><br>ところがあっちの方はさっぱりしているのです。<br><br>というのは、日本人は漢方薬のためなのです。<br><br>漢方薬は量が多いですから、そこで毒は漢方薬より西洋の薬の方が強いかもしれないが、量から言うとずっと少ないので、百分の一か千分の一です。<br><br>そこで治りがよいのです。<br><br>あっちのお蔭話を見ると、何年間も病んだ者が四、五回の浄霊で治るのです。<br><br>ですから分かりだしたら、日本とは比べものにならないスピードで発展してゆくと思います。<br><br>たいへん結構です。<br><br>そこで、日本人の再浄化というのは、漢方薬をたくさん服んでいるためとみれば間違いないです。<br><br>なにしろお茶の代わりに飲むというのがあります。<br><br>よく浄霊しても、痰が出る洟（はな）が出る、下痢や嘔吐ということがひっきりなしに出ているので、それでだんだん衰弱してまいってしまうということがあります。<br><br>再浄化というのはそれです。<br><br>近年日本人の寿命が延びたということも、それと同じ原因なのです。<br><br>つまり以前は漢方薬をたくさん服んだのが、近来ほとんど西洋の薬になったからして、毒が非常に少ないのです。<br><br>それだからして、どうしても寿命が延びるのです。<br><br>おもしろい理由ですが、寿命が延びたというと医学が進歩したというように思いますが、そうではなくて、毒の服み方が少なくなったというわけです。<br><br>ですからそう考えると、むしろ漢方薬の方が恐ろしいです。<br><br>それが今度ハワイやアメリカの病気の治り方で実にはっきり分かったのです。<br><br>ちょうど農作物の肥料と同じことです。<br><br>もっとも自然栽培というのも、この理屈をおしていって発見したものですが……。<br><br> そういうようなわけで、これから浄霊の場合に漢方薬に注目して、どういう薬をどのくらい飲んだかということを、時によっては聞く必要があります。<br><br>けれどもただ漢方薬のほうが毒が緩慢な性質であり、鋭くないです。<br><br>しかし神経痛などは西洋の薬です。<br><br>だから近来神経痛が非常に多いということは、西洋の薬の関係です。<br><br>注射などはもっとも神経痛の原因にもなるし、それからいつも言うとおり、消毒薬というのは必ず痛みになります。<br><br>痛みの病気はまずほとんど消毒薬と思っていれば間違いないです。<br><br>ところが消毒薬でも、ここならここが痛むから、ここに消毒薬を入れたかと思うと、そうでもないのです。<br><br>例えば頭が痛い人が、手足を手術した時の消毒薬が頭に上っていって、そこに固まるのですから、とにかく痛みの時は一通り手術を聞いてみるのです。<br><br>そうすると一番よく分かります。<br><br>このごろだいぶ聞きますが、歯の痛い人は必ずと言いたいほど盲腸を取ってます。<br><br>盲腸の手術が歯痛に一番現われるのです。<br><br>これは思いもつかないことです。<br><br>ですから歯が痛くて浄霊して、一回か二回で治るのならそこだけのものです。<br><br>だいたい歯の痛みの原因というのは、歯を抜く時やあるいは歯にセメンやなにかをつめる場合に、その前に消毒薬を塗りますが、それが原因です。<br><br>これは前になにかに書いたことがありましたが、歯医者に行って歯につめる場合、必ず前に消毒をしますが、そうすると必ず痛みます。<br><br>その消毒薬が腐って出ようとするからです。<br><br>それが痛みになるのです。<br><br>だからなにも消毒をしないですれば決して痛みはありません。<br><br>これも実に馬鹿なものです。<br><br>ところが一回や二回で治らない場合には盲腸の手術を聞いてみるのです。<br><br>この盲腸を手術したときの消毒薬がだんだん上って行って、胸を通じて歯から出ようとするのです。<br><br>これは、歯の痛みの原因が盲腸の手術ということは、世界的の大発見です。<br><br>ノーベル賞以上です。<br><br>ですから私が今までのいろんな発見を数えてみるとノーベル賞を何十ということになります。<br><br>ところがあっちは、現代の科学を審査するほうで、こっちはその科学では分からないですからしようがないです。<br><br>審査員を教育しなければ駄目です。<br><br>そういうようなわけで、漢方薬の悪いということをよく知らなければならないのです。<br><br>ところが漢方薬を薬と思わないような人がたくさんあります。<br><br>よく患者に“これは薬毒だ”と言うと、“私は子供のうちに服んだきりで、服んだことはありません”“あなたは漢方薬はどうですか”と言うと、“それなら飲みました。<br><br>それもやっぱり薬毒があるのですか”という人がよくあります。<br><br>というのはお茶代わりに服むからです。<br><br>中には波布草（はぶそう）をお茶代わりとして服みますが、これも毒があります。<br><br>一番毒が強いのはゲンノショウコです。<br><br>そういうようで、非常に長くかかったりしつこいのは、まず漢方薬とみて間違いないです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Superstição do Sofrimento e a Expansão da Obra Divina</h2>
 <p>Recentemente, foi celebrada a cerimônia de inauguração da Sede do Havaí, e gostaria de compartilhar a leitura de uma matéria publicada no jornal <em>Hawaii Hochi</em> a esse respeito. Trata-se de um dos dois jornais mais conceituados de lá, que fez uma cobertura bastante favorável. A reportagem inclui fotografias, que os interessados poderão apreciar ao final.</p>
@@ -111,5 +263,48 @@ function toggleLang(lang) {
 <p>A causa mais comum da dor de dente é o desinfetante aplicado antes de uma extração ou obturação. Escrevi sobre isso antes: quando o dentista aplica o desinfetante, a dor é certa, pois aquela substância apodrece e tenta sair, manifestando-se como dor. Se não se usasse desinfetante algum, não haveria dor. É uma prática verdadeiramente tola. No entanto, se a dor não cessa após uma ou duas sessões de Johrei, investiguem se a pessoa fez uma cirurgia de apêndice. O desinfetante dessa operação sobe gradualmente pelo corpo, atravessa o tórax e tenta ser expelido pelos dentes.</p>
 <p>A descoberta de que a causa da dor de dente pode ser uma apendicectomia é um feito de importância mundial, superior a um Prêmio Nobel. Se eu fosse contar todas as minhas descobertas, já teria recebido dezenas de Prêmios Nobel. O problema é que o comitê julgador se baseia na ciência moderna, e a ciência moderna não consegue compreender estas verdades. Seria preciso, primeiro, educar os jurados.</p>
 <p>Sendo assim, é fundamental que todos compreendam os malefícios da medicina chinesa. Muitas pessoas nem sequer a consideram um remédio. Quando digo a um doente que seu problema é yakudoku, ele frequentemente responde: "Mas eu não tomo remédios desde criança". Então pergunto: "E quanto à medicina chinesa?". E ele diz: "Ah, isso sim, eu tomei. Quer dizer que ela também causa yakudoku?". Isso acontece porque muitos a consomem como se fosse chá. Há quem beba Habusou (波布草) no lugar de chá, mas ele também contém toxinas. O mais forte de todos é o Gennoshouko (ゲンノショウコ). Portanto, em casos de doenças muito longas e persistentes, podem ter certeza de que a causa é, quase invariavelmente, a medicina chinesa.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S29年2月26日） 『御教え集』31号、昭和29(1954)年3月15日発行 昭和二十九年二月二十六日 この間ハワイの本部の落成式があって、その時の模様が『ハワイ報知新聞』に出たのを読ませます。<br/><br/>ハワイにある二つのしっかりした新聞のうちの一つですが、割によく書いてあります。<br/><br/> （『ハワイ報知』二月十五日付掲載「世界メシヤ教布哇教会落成式」）【栄光 二五二号】 写真も出てますが、見たい人は後で見たらよいです。<br/><br/> 最近になって隣地のそうとうの坪がうまく手に入ったので、いずれそこにはもっと大きなものが建つことになるでしょう。<br/><br/>そういうような具合で、ハワイ布教を始めたのが去年の今月ですから、ちょうど一年です。<br/><br/>それまではあっちには別になにもなかったのです。<br/><br/>本当に縁もゆかりもない所に、言わば突如として行ったようなもので、それが一年たつかたたないうちにこれだけになったということは実に早いです。<br/><br/>つまり時期が来たわけです。<br/><br/>なにごとも時期がありますから、時期をみるというのが一番肝腎です。<br/><br/>うまくゆかなかったり失敗するということは、時期に当てはまらないからです。<br/><br/>植物の種を蒔くにも、野菜や米の種を蒔くにも、やっぱり時期があります。<br/><br/>今度の「特集号」も非常に売れて、足りなくはないかというくらいなのですからして、これも時期なのです。<br/><br/>ちょうど去年あれほどの凶作で、これからどうしてよいか分からないと、迷ってどうにもならないときに“これだ”ということを見せるのですから、飛びつくわけです。<br/><br/>食物がなくて腹が減ってフラフラしているところに、ごちそうをやるというわけで、飛びついてくるというわけです。<br/><br/>ですから骨折って無理にやるということは、時期が来ないときに無理をやるから骨が折れるのです。<br/><br/>私は骨が折れることはよせと言っていますが、楽に楽しみながらやることがよいのです。<br/><br/>そうすればうまくゆくに決まっています。<br/><br/>ですから楽にスラスラゆくのは、時期が来ているからうまくゆくのです。<br/><br/>苦しまなければうまくゆかないということは苦痛の迷信です。<br/><br/>苦しまないで、ふつうにやるというのが一番よいのです。<br/><br/>それが本当です。<br/><br/> これについて一番分かるのは、絵の展覧会などに行くと、画家というのは、大いに苦心惨憺しなければ良い物ができないと思っているのです。<br/><br/>そのために非常に苦しむのです。<br/><br/>その苦しむのが画面にチャンと出ているのです。<br/><br/>われわれが行って見て、楽しもうとするのが、そうでなくて苦しみが現われているから、苦しみがこっちに迫ってくるのです。<br/><br/>見ていて楽しみな良い気持ちにならないのです。<br/><br/>要するに苦痛を移されるようなものです。<br/><br/>これはみんな苦痛迷信の結果です。<br/><br/>今の人はその点なども大いに知らなければいけないのです。<br/><br/>ところが、どういうわけでそういう苦痛迷信が起こったかというと、つまり今までは夜の世界であったから暗闇ですから、暗闇で物を探ったり物を見ようとするから苦しいわけです。<br/><br/>どうしてもそういうことになるわけです。<br/><br/>ところが昼の世界になると一目で分かるから、つかまえようと思えば、すぐにつかまえることができるというわけなので、そこがたいへんな違いです。<br/><br/> エリス・グリリという人より最近箱根美術館を管理している野木さんに手紙が来たので、あの人が翻訳したのです。<br/><br/>私は、これだけ訳することができるということは初めて知りました。<br/><br/> （「グリリ夫人からの御礼状」） 【栄光 二五一号】 このグリリという人は非常な日本好きで、去年ですか家を買って日本人と同じような生活をしているのです。<br/><br/>畳で、坐って、日本食を食べるのだそうです。<br/><br/>いつか私が会ったときに聞いたことですが、「日本人の中には非常に勝れたところがある、他の民族にない良いものがある。<br/><br/>それを自分は研究したい」。<br/><br/>それで、自分は一生日本で暮らすといぅ覚悟だということも言われていたくらいですから、日本のために将来非常に良い仕事をされる方と思ってます。<br/><br/>これから大いに救世教のために世界的に紹介もし、観光外人などに対するいろんな仕事をされるだろうと思ってます。<br/><br/> 今一番の問題は汚職問題です。<br/><br/>とにかく後から後から社会的にそうとう有力な人たちが引張られる……まだまだもっと大物が引張られそうなことが出てますが、なかなか、自由党の方で防ごうと思っても防ぎきれないようなことになるのではないかと思います。<br/><br/>どうも問題はもっといっそう大きくなるのではないかと思うけれども、そういう偉い人たちの様子を見ると、あべこべをやっているのです。<br/><br/>これが本当から言えば、正直に“こうこういう悪いことをした、申し訳ない”と言って出ればよいのですが、それだけの勇気のある人は、おそらく今の世の中にはないと思います。<br/><br/>どこまでも、どうしたらうまくごまかせるかということを一生懸命にやっているわけです。<br/><br/>というのは、つまり「神が有る」ということを信じないからです。<br/><br/>だから人間の目さえごまかせば、うまくゆくと思っているのです。<br/><br/>それについて書いてみました。<br/><br/> （御論文「疑獄も浄化作用なり」） 【栄光 二五二号】 この中に前号と前々号ということを書いてますが、前々号というのは書いてありますが、前号というのは次のが出るのです。<br/><br/>順序が逆になりましたが。<br/><br/> （御論文「再び汚職の母体」） 【栄光 二五一号】 それから、さっき読んだときに話をしようと思ったが、ハワイと、最近ロサンゼルスの方にもだいぶ開けてきたのです。<br/><br/>それで、あっちが早く開ける一番の原因は病気が非常に治りよいのです。<br/><br/>治るとともに、治りきりになって再浄化がないのです。<br/><br/>これは日本とたいへんな違いです。<br/><br/>それはなにが原因かというと、こういうわけなのです。<br/><br/>日本の病人と言うと変ですが、特色は、薬毒の量が多いのです。<br/><br/>だからして固まりを溶かしてそこだけは出てしまうが、後の後続部隊が溶けたりする浄化作用が起こるのです。<br/><br/>ですから長いのです。<br/><br/>しつこいのです。<br/><br/>ところがあっちの方はさっぱりしているのです。<br/><br/>というのは、日本人は漢方薬のためなのです。<br/><br/>漢方薬は量が多いですから、そこで毒は漢方薬より西洋の薬の方が強いかもしれないが、量から言うとずっと少ないので、百分の一か千分の一です。<br/><br/>そこで治りがよいのです。<br/><br/>あっちのお蔭話を見ると、何年間も病んだ者が四、五回の浄霊で治るのです。<br/><br/>ですから分かりだしたら、日本とは比べものにならないスピードで発展してゆくと思います。<br/><br/>たいへん結構です。<br/><br/>そこで、日本人の再浄化というのは、漢方薬をたくさん服んでいるためとみれば間違いないです。<br/><br/>なにしろお茶の代わりに飲むというのがあります。<br/><br/>よく浄霊しても、痰が出る洟（はな）が出る、下痢や嘔吐ということがひっきりなしに出ているので、それでだんだん衰弱してまいってしまうということがあります。<br/><br/>再浄化というのはそれです。<br/><br/>近年日本人の寿命が延びたということも、それと同じ原因なのです。<br/><br/>つまり以前は漢方薬をたくさん服んだのが、近来ほとんど西洋の薬になったからして、毒が非常に少ないのです。<br/><br/>それだからして、どうしても寿命が延びるのです。<br/><br/>おもしろい理由ですが、寿命が延びたというと医学が進歩したというように思いますが、そうではなくて、毒の服み方が少なくなったというわけです。<br/><br/>ですからそう考えると、むしろ漢方薬の方が恐ろしいです。<br/><br/>それが今度ハワイやアメリカの病気の治り方で実にはっきり分かったのです。<br/><br/>ちょうど農作物の肥料と同じことです。<br/><br/>もっとも自然栽培というのも、この理屈をおしていって発見したものですが……。<br/><br/> そういうようなわけで、これから浄霊の場合に漢方薬に注目して、どういう薬をどのくらい飲んだかということを、時によっては聞く必要があります。<br/><br/>けれどもただ漢方薬のほうが毒が緩慢な性質であり、鋭くないです。<br/><br/>しかし神経痛などは西洋の薬です。<br/><br/>だから近来神経痛が非常に多いということは、西洋の薬の関係です。<br/><br/>注射などはもっとも神経痛の原因にもなるし、それからいつも言うとおり、消毒薬というのは必ず痛みになります。<br/><br/>痛みの病気はまずほとんど消毒薬と思っていれば間違いないです。<br/><br/>ところが消毒薬でも、ここならここが痛むから、ここに消毒薬を入れたかと思うと、そうでもないのです。<br/><br/>例えば頭が痛い人が、手足を手術した時の消毒薬が頭に上っていって、そこに固まるのですから、とにかく痛みの時は一通り手術を聞いてみるのです。<br/><br/>そうすると一番よく分かります。<br/><br/>このごろだいぶ聞きますが、歯の痛い人は必ずと言いたいほど盲腸を取ってます。<br/><br/>盲腸の手術が歯痛に一番現われるのです。<br/><br/>これは思いもつかないことです。<br/><br/>ですから歯が痛くて浄霊して、一回か二回で治るのならそこだけのものです。<br/><br/>だいたい歯の痛みの原因というのは、歯を抜く時やあるいは歯にセメンやなにかをつめる場合に、その前に消毒薬を塗りますが、それが原因です。<br/><br/>これは前になにかに書いたことがありましたが、歯医者に行って歯につめる場合、必ず前に消毒をしますが、そうすると必ず痛みます。<br/><br/>その消毒薬が腐って出ようとするからです。<br/><br/>それが痛みになるのです。<br/><br/>だからなにも消毒をしないですれば決して痛みはありません。<br/><br/>これも実に馬鹿なものです。<br/><br/>ところが一回や二回で治らない場合には盲腸の手術を聞いてみるのです。<br/><br/>この盲腸を手術したときの消毒薬がだんだん上って行って、胸を通じて歯から出ようとするのです。<br/><br/>これは、歯の痛みの原因が盲腸の手術ということは、世界的の大発見です。<br/><br/>ノーベル賞以上です。<br/><br/>ですから私が今までのいろんな発見を数えてみるとノーベル賞を何十ということになります。<br/><br/>ところがあっちは、現代の科学を審査するほうで、こっちはその科学では分からないですからしようがないです。<br/><br/>審査員を教育しなければ駄目です。<br/><br/>そういうようなわけで、漢方薬の悪いということをよく知らなければならないのです。<br/><br/>ところが漢方薬を薬と思わないような人がたくさんあります。<br/><br/>よく患者に“これは薬毒だ”と言うと、“私は子供のうちに服んだきりで、服んだことはありません”“あなたは漢方薬はどうですか”と言うと、“それなら飲みました。<br/><br/>それもやっぱり薬毒があるのですか”という人がよくあります。<br/><br/>というのはお茶代わりに服むからです。<br/><br/>中には波布草（はぶそう）をお茶代わりとして服みますが、これも毒があります。<br/><br/>一番毒が強いのはゲンノショウコです。<br/><br/>そういうようで、非常に長くかかったりしつこいのは、まず漢方薬とみて間違いないです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

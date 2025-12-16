@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>aku07</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,60 +239,54 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 悪人をひねる 『栄光』144号、昭和27(1952)年2月20日発行 この題を見た人は、随分変な題と思うだろうが、こうかくのが一番適切と思うからである。<br><br>では一体どういう意味かというと、今まで私を騙そうとしたり、一杯食わそうとするよからぬ人間が、世の中に余りにも多いからでもっとも私が宗教家であり、善人らしく（らしくじゃない、全く善人なんだが）仏様のように見えるらしいので、舐（な）めてかかるのである。<br><br>そういう輩は奸智、邪智に長けていて凄い企らみをする。<br><br>そうかと思うと社会的地位のある人間などで、図々しい押しの強い人間もよくあるが、この手合は最初から私を蟒蛇（うわばみ）のように呑んでかかるが、そういう場合私は一旦は呑まれておいて、徐（おもむ）ろに対策を立てる、といっても別段変ったやり方ではなく、至極真面目に平々凡々たるものであるから、彼らも気が付かず、いい気になって図に乗り、喰い込んで来る。<br><br>しかし私は肝腎な急所だけはギュッと抑えておって、後は先様の思い通りにさせていると、彼らは色々やってみるがどうも思うようにゆかないので、諦めてしまいそうだが、仲々諦めない。<br><br>反って岡田の奴もう往生しそうなものだ、そろそろ妥協を申入れて来そうなものだと待っているが、私の方は落着き払って放っといたまま、知らん顔をしているので先方はどうする事も出来ず、運動費は使い果し、段々彼らの方が不利となり、焦り出す程なお悪くなって、結局往生してしまうという事がよくある。<br><br>そうかと思うとシタタカ者は巧妙な手段をもって、私から金を引き出そうとし、計略を廻（めぐ）らし、執拗にあの手この手で喰下って来る。<br><br>つまり彼らの考えでは、メシヤ教は金があるし、本尊の教主はいわゆる生神様同然で世相に暗いだろうから、いずれは相当金を出すに違いない。<br><br>また少しくらい損をかけても、面倒だからと諦めてしまい、裁判沙汰などにする事はないと多寡を括（くく）っている。<br><br>ところが私としては先方の肚がチャンと見え透いているから、裏の裏をかいたり、逆手を打ったりするので、先方は当が外れ、手も足も出なくなり、結局骨折損の草疲（くたびれ）儲けとなるので、お気の毒様でも何でもないという訳である。<br><br> こういう事をかくと、明主様は宗教家に似合わず、まことに無慈悲なように思うかも知れないが、神様からいうとそれでいいのである。<br><br>本来神様の御心というものは、善は飽くまでも御助けになるが、悪は寸毫といえども容赦されないのである。<br><br>これも私がいつもいう通り、悪に勝たねばいけないというのもこの意味である。<br><br>またよくある言葉に、あいつは食えないというが、この言葉の裏には悪い意味が含まれており、その反対はあいつは善人だが役に立たないという意味でもある。<br><br>そうしてみると悪人は食えない奴と相場は決っているようだが、実は私はその食えない奴よりも一倍も二倍も食えない人間と思っている。<br><br>それが真の善人であり、これでなくては悪い世の中を善くする事は出来ないのである。<br><br>という訳で私は世の中の悪人という悪人は、片ッ端からひねる方針にしている。<br><br>これが生きた宗教家の在り方と思うからである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Corrigindo os Malfeitores</h2>
 <p>Ao se depararem com este título, muitos talvez o considerem bastante peculiar; contudo, creio ser esta a forma mais apropriada de expressar a ideia. Mas o que, afinal, ele significa? Significa que, neste mundo, é excessivo o número de indivíduos de má índole que, até hoje, tentaram me ludibriar ou me passar para trás. Por eu ser um religioso e aparentar ser uma pessoa boa – e não apenas aparento, pois o sou de fato –, com um semblante que lhes parece sereno como o de um Buda, eles me subestimam e avançam. Tais pessoas são versadas em astúcia e malícia, capazes de urdir as mais complexas maquinações. Existem também aqueles de elevada posição social, homens audaciosos e impositivos. Estes, desde o início, tentam me engolir por inteiro, como uma jiboia que devora sua presa. Nesses casos, eu me deixo ser envolvido a princípio, para então, serenamente, traçar minhas contramedidas. Não se trata, todavia, de nenhum método extraordinário; minha abordagem é extremamente séria e convencional. Justamente por isso, eles não percebem nada, tornam-se presunçosos, deixam-se levar pela arrogância e aprofundam seu ataque. No entanto, enquanto mantenho firme controle sobre o ponto nevrálgico da situação, permito que ajam conforme sua vontade. Eles tentam de tudo, mas como nada sai como o planejado, parecem prestes a desistir, embora relutem em fazê-lo. Pelo contrário, ficam à espera, pensando: “Aquele tal de Okada já deve estar no limite; não tardará a nos propor um acordo”. Eu, por minha vez, permaneço perfeitamente tranquilo, ignorando-os e agindo como se nada estivesse acontecendo. Sem ter o que fazer, eles acabam por esgotar todos os seus recursos. Sua situação se torna cada vez mais desvantajosa e, à medida que o desespero aumenta, tudo piora, até que, finalmente, são forçados a capitular. Isso ocorre com frequência.</p>
 <p>Há também os mais ardilosos, que empregam meios engenhosos para tentar extrair dinheiro de mim, elaborando estratagemas e investindo de forma obstinada com toda sorte de artifícios. Em suas mentes, partem do princípio de que a Igreja Messiânica possui vastos recursos e que seu líder, sendo praticamente um deus vivo, é ingênuo quanto às coisas do mundo e, portanto, certamente lhes dará uma soma considerável. Subestimam-me, supondo que, mesmo que me causem algum prejuízo, eu acabarei por desistir para evitar o incômodo de uma disputa judicial. Ocorre que, como consigo ver com clareza suas reais intenções, sou capaz de me antecipar às suas tramas e reverter o jogo. Suas previsões falham, eles se veem de mãos atadas, e todo o seu esforço resulta em um monumental desperdício de tempo e energia. Assim sendo, não há por que sentir a menor compaixão por eles.</p>
 <p>Ao escrever estas palavras, é possível que alguns pensem que Meishu-Sama, de uma forma que não condiz com um religioso, é na verdade impiedoso. Do ponto de vista de Deus, contudo, essa postura é a correta. A Vontade Divina, em sua essência, consiste em amparar o bem até as últimas consequências, mas não tolera o mal, nem mesmo na sua mínima expressão. É este também o sentido do que sempre afirmo: é imperativo triunfar sobre o mal. Há um ditado popular que descreve alguém como uma pessoa "difícil de engolir", referindo-se a um indivíduo astuto, do qual não é fácil se aproveitar. A expressão carrega uma conotação negativa, e seu oposto seria alguém "bom, porém inútil". Diante disso, parece convencionado que os malfeitores são sempre do tipo "difícil de engolir". A verdade, porém, é que me considero uma ou duas vezes mais "difícil de engolir" do que eles. Eis o que é ser uma pessoa verdadeiramente boa, pois, sem essa característica, é impossível transformar este mundo de maldade em um mundo de bem. Por essa razão, minha política é a de corrigir, um por um, todos os malfeitores que existem. Creio que esta seja a verdadeira forma de ser de um religioso vivo e atuante.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 悪人をひねる 『栄光』144号、昭和27(1952)年2月20日発行 この題を見た人は、随分変な題と思うだろうが、こうかくのが一番適切と思うからである。<br/><br/>では一体どういう意味かというと、今まで私を騙そうとしたり、一杯食わそうとするよからぬ人間が、世の中に余りにも多いからでもっとも私が宗教家であり、善人らしく（らしくじゃない、全く善人なんだが）仏様のように見えるらしいので、舐（な）めてかかるのである。<br/><br/>そういう輩は奸智、邪智に長けていて凄い企らみをする。<br/><br/>そうかと思うと社会的地位のある人間などで、図々しい押しの強い人間もよくあるが、この手合は最初から私を蟒蛇（うわばみ）のように呑んでかかるが、そういう場合私は一旦は呑まれておいて、徐（おもむ）ろに対策を立てる、といっても別段変ったやり方ではなく、至極真面目に平々凡々たるものであるから、彼らも気が付かず、いい気になって図に乗り、喰い込んで来る。<br/><br/>しかし私は肝腎な急所だけはギュッと抑えておって、後は先様の思い通りにさせていると、彼らは色々やってみるがどうも思うようにゆかないので、諦めてしまいそうだが、仲々諦めない。<br/><br/>反って岡田の奴もう往生しそうなものだ、そろそろ妥協を申入れて来そうなものだと待っているが、私の方は落着き払って放っといたまま、知らん顔をしているので先方はどうする事も出来ず、運動費は使い果し、段々彼らの方が不利となり、焦り出す程なお悪くなって、結局往生してしまうという事がよくある。<br/><br/>そうかと思うとシタタカ者は巧妙な手段をもって、私から金を引き出そうとし、計略を廻（めぐ）らし、執拗にあの手この手で喰下って来る。<br/><br/>つまり彼らの考えでは、メシヤ教は金があるし、本尊の教主はいわゆる生神様同然で世相に暗いだろうから、いずれは相当金を出すに違いない。<br/><br/>また少しくらい損をかけても、面倒だからと諦めてしまい、裁判沙汰などにする事はないと多寡を括（くく）っている。<br/><br/>ところが私としては先方の肚がチャンと見え透いているから、裏の裏をかいたり、逆手を打ったりするので、先方は当が外れ、手も足も出なくなり、結局骨折損の草疲（くたびれ）儲けとなるので、お気の毒様でも何でもないという訳である。<br/><br/> こういう事をかくと、明主様は宗教家に似合わず、まことに無慈悲なように思うかも知れないが、神様からいうとそれでいいのである。<br/><br/>本来神様の御心というものは、善は飽くまでも御助けになるが、悪は寸毫といえども容赦されないのである。<br/><br/>これも私がいつもいう通り、悪に勝たねばいけないというのもこの意味である。<br/><br/>またよくある言葉に、あいつは食えないというが、この言葉の裏には悪い意味が含まれており、その反対はあいつは善人だが役に立たないという意味でもある。<br/><br/>そうしてみると悪人は食えない奴と相場は決っているようだが、実は私はその食えない奴よりも一倍も二倍も食えない人間と思っている。<br/><br/>それが真の善人であり、これでなくては悪い世の中を善くする事は出来ないのである。<br/><br/>という訳で私は世の中の悪人という悪人は、片ッ端からひねる方針にしている。<br/><br/>これが生きた宗教家の在り方と思うからである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

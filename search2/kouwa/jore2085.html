@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jore2085</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊篇 （下） ６ 085-107 霊的病気２ 085 浮魂多し 最近御浄めによりて霊の浮くのが非常に増えて来ましたのはいかなるわけで御座いましょうか。<br><br> 霊界が明るくなるにつれ、早く救ってもらいたいからである。<br><br> 086 御光により霊の浮く事 ある熱心な信者さん、主人が御面会を戴く日にはその子供（六歳で軽い癲癇）がヒキツケます。<br><br>先日御写真をお迎え致しました時もひどくヒキツケたそうです。<br><br>いかなる訳でしょうか。<br><br> 鎮まっていたのが、御光を受けると浮くのである。<br><br> よく浄霊をすると神憑りになる事があるが、これはやむを得ぬ。<br><br> 087 浄霊好む人嫌う人、同棲を嫌う 浄霊を受けるのを嫌う精神病でありながら、我が子の浄霊は頼まれるのですが、それはいかなる訳でしょうか。<br><br>また、浄霊を嫌う人でありながら、私の家の仏壇へは留守の間にお礼参りをするので御座居ます。<br><br>また、病人の奥様がお光を受けられてから同居するのを嫌うのはいかなる訳でしょうか。<br><br> 浄霊を嫌う人と好む人があり、浄霊願いたくとも嫌うのがある。<br><br>嫌う方は動物霊で、副守護神で、浄まって改心してくると貰いたくなる。<br><br>正守護神がして貰わす場合と、本守護神が希望する。<br><br>弱ってくる事があって、副霊を制える力がない時に望む。<br><br> あまり嫌う場合はしない方がよい。<br><br>機会を待て。<br><br>段々好くようになる。<br><br>奥さんは龍神である。<br><br>龍神は主人を持つと――夫を持つと行（ぎょう) の妨げとなる。<br><br>それで独身を通すのがある。<br><br>長くやってるとそういう事はなくなる。<br><br> 088 祝詞浄霊を嫌う児 私の孫娘（三歳）は私が光明如来様にお参りして善言讃詞をお奏げしておりますと、外で遊んでいる時でも突然発狂したごとく暴れます。<br><br>また、教導所へ行って先生に浄霊して頂きますと、眠っていてもすぐ目をさまして同じ症状になります。<br><br>これはいかなる訳でしょうか。<br><br> これは霊が憑いている。<br><br>これは善言讃詞が怖いのである。<br><br>どうせ悪い霊だが、狐のようなもの――外へ行っても判るのだから狐に違いない。<br><br>段々霊が萎縮してくるから焦らずにやる。<br><br>暴れる時は一時やめる。<br><br>時が経つに従い少しずつよくなる。<br><br>早く治そうと焦ってはいけない。<br><br> 089 祝詞で苦しむ場合 御神体をお祀りさせて頂いております信者で御座いますが、昨年夏以来肺病の状態で床についておりますが、最近は御守護で大分落着いてまいりましたが、浄霊を致しますと浄化がきつくなり、苦しみまして、祝詞、善言讃詞を奏げさせて頂いただけでも苦しみますが、このような場合どうさせて頂きましたら宜しゅう御座いましょうか。<br><br>御伺い申し上げます。<br><br> やめていればいい。<br><br>小さい声か、心の中でやる。<br><br>無理してやるのは神様に対し勿体ない。<br><br>（S24. 1.28） 090 神光恐れ暴力揮う精神病（狐） 私の実家では家族の者が狐使いの信仰者に操られ、皆迷わされておりましたが、最近長男（三十一歳）の外は皆気がついてよくなりましたが、長男のみは何等気づく事なく、漸次悪化して発狂状態となり、先祖の事と、先祖が信仰していた石鎚大権現を口にし、皆を騒がせております。<br><br>その上、光明如来様や、「五六七」「地上天国」の御額を掲げる事を拒み、善言讃詞を奉唱すると益々暴力を揮って狂います。<br><br>いかにしたらよいでしょうか。<br><br> 狐の親方であるから力がある。<br><br>無理に早くよくしようとせずに気長にやる。<br><br>イヤがる場合はやらぬ。<br><br>次の間か何かで浄霊する。<br><br>口の中で聞こえない程度に善言讃詞を奏げる。<br><br> 面倒みながら気長にやれば結局往生する。<br><br>悪化しても長く続かぬ。<br><br>峠を越すとズーッとよくなる。<br><br>極く悪いのは大抵一週間位と思えばよい。<br><br>（S24. 6.28） 091 御浄霊嫌う精神病 二十一歳の男子の信徒、二十三年八月入信し、両親は二十二年十月入信し、二十四年三月光明如来様御奉斎と同時に幽世大神様の御姿も御祀りさせて戴きました。<br><br>本人は本年二月八日御面会に参上させて頂き、一斉礼拝の後御讃歌奉唱中に霊が浮いたようになり、それから御浄霊を嫌い始め最近は極度に嫌うと共に両親に対し反抗的態度が強く、仕事に関しても指図がましい状態を続けております。<br><br>この家庭は以前日蓮宗でありましたが、前回明主様に御伺い申し上げた時に御答え戴きました御言葉通り、日蓮宗関係のすべての物を焼却致しました。<br><br>今後御浄霊は強制的にも続けてもよろしゅう御座居ましょうか。<br><br>また、極度に嫌う時は大光明如来様に祝詞、善言讃詞を奉唱して御願い申しただけでよろしゅう御座居ますか。<br><br>右、御垂示御願い申し上げます。<br><br>なお今後の御守護を御願い致します。<br><br> なおまた、一昨日仏壇を据えた棚を毀し、昨日は光明如来様を自分で外して置床を毀しました。<br><br> 狐が憑っているから無理にやってはいけない。<br><br>（同化霊）（S25. 4. 8） 092 浄霊を嫌う病人（霊友会） 私は救世教に三月一日入信させて戴き、光明如来様、屏風観音様、「地上天国」を戴き、四月十一日に御祭りをさせて戴きました。<br><br>私は十五年程前より霊友会の信仰を致し、法座主となっておまんだらも戴きました。<br><br>この信仰に転換致しますのにどう致しましたら宜敷う御座いますか、御伺い申し上げます。<br><br>なお病人がおり、一人は六十八歳の婦人にて、心臓、腎臓病にて余り働く事も出来ません。<br><br>今一人の嫁に当る四十八歳の女は神経痛にて七年も働かずに入院致したり、医薬、灸等にて療治致しましたが一向に良くならず、入信以後、御浄霊を致しておりますが、時折「浄霊は要らない」などと悪口を申します。<br><br>これにかまわず御浄霊を致せば宜敷う御座いましょうか。<br><br>御伺い申し上げます。<br><br> これも狐である。<br><br>本人の嫌がる事はやらぬ方がよい。<br><br>いずれは好むようになる。<br><br> 霊友会は他信仰を非常に嫌う。<br><br>（S25. 5.25） 093 浄霊嫌う発狂児 発狂した子供を御浄霊致したくも逃げてしまいます。<br><br>寝ている所を御浄霊しましても直ぐ起きます。<br><br>寝ている間に着衣を御浄霊致しましても直ぐ起きてひったくり、塩と灰とでゴシゴシこすります。<br><br>どう致しましたら宜敷う御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> 光明如来様のお部屋で寝かせよ。<br><br>親に曇りがある。<br><br>（S24. 5. 1） 094 浄霊嫌い痩せる子 私の次女幸子（六歳）が一ケ月前より浄霊を嫌うようになり、食欲なくだんだんやせて行きますが、毎日遊んではおりますが熱もなく病気のようなところも見受けません。<br><br>これは霊的でございましょうか。<br><br>どこを特に浄霊すればいいでしょうか。<br><br>御伺い申し上げます。<br><br> 無縁か何か、祀られていないものがあるか査べる。<br><br>（S25. 5. 6） 095 霊光放射で行者卒倒す 祈祷中の日蓮宗の祈祷師に向って霊気を放射すると卒倒することがしばしばあります。<br><br>（二人の祈祷者に試しました）いかなる理由でしょうか。<br><br> 行者は殆ど狐の霊である。<br><br>浄霊すると狐が苦しい。<br><br>狐は非常に通力を使うもので、通力を増そうとして法華経を使う。<br><br>行者に限らず、狐霊に霊射すると倒れる場合がある。<br><br>（S24. 1. 7） 096 浄霊で卒倒す 浄霊をする度卒倒する人があります。<br><br>いかなる理由でありましょうか。<br><br> 霊が光のために萎縮する。<br><br>すると卒倒したり倒れたりする。<br><br>こういう霊は弱い。<br><br>やる人の霊は強い。<br><br> 097 浄霊時倒る 最近浄霊いたしますと、へッドを火の側に寄せたように倒れる人が時々ありますが、いかなる訳ですか、御教え下さい。<br><br> 霊である。<br><br>直ちに治る。<br><br>霊光により堪えられなくて倒れる。<br><br>（S24.12.27） 098 浄霊すると発狂状態になる妻 理髪業の主人で昨年入信致しましたが、未入信の妻は常には何の変りも御座いませんが、熟睡している時浄霊致すべく祝詞を奏上させて戴きますと、直ぐ目があき、御浄霊を始めますと怒ったり物を投げたりして発狂状態となります。<br><br>観音様にお念じ致しますと鎮まりますが、御浄霊は決してさせません。<br><br>なお、夜中に主人が休んでおりますと枕元を何か鼠位の大きさのものが跳んで廻るような気が致します。<br><br>何か霊的と存じますが、いかにしたら宜しゅう御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> 憑いてる動物霊が苦しいのである。<br><br>鼠位とすれば、動物霊は管狐か何かである。<br><br>段々弱ってくる。<br><br>（S25. 1.11） 099 次々に病死、淋し、浄霊で苦し 私の主人は戦病死（結核性腹膜炎）、入信前、母は結核を病み不眠のため散歩に出て河中に落ちて死亡、兄は結核にて死亡、弟は轢死（トラック）、長男は脳膜炎にて死亡、本年三月十八日、次男が結核性腹膜炎にて死亡してより、時々淋しくなって来ると共に全身が苦しくなって来ます。<br><br>お浄霊を頂きますとその個所がよくなると、次から次へと苦しみが移動していきます。<br><br>お蔭様で最近幾分よくなって来ました。<br><br>苦しんでいる霊がお救いを求めて来るのでしょうか。<br><br>お教え下さいませ。<br><br> 罪穢が溜り切っている。<br><br>救いを求めて来るのだが、それでいて浄霊されると、苦しいのである。<br><br>その霊には未だ副守護神がいる。<br><br>霊の淋しい気持が写るのである。<br><br>浄霊で治る。<br><br>（S24. 6.29） 100 浄霊を断る末期患者 結核患者、カリエス患者にて将に死せんとする前に、浄霊を止めてくれと言う者がありますが、何か意味がありましょうか。<br><br> 良くない霊が憑るので苦しいのである。<br><br>霊は人間が弱ると憑る。<br><br>ある程度衰弱すると憑る。<br><br>霊細胞が稀薄になると、それを充実するだけの霊が憑る。<br><br>浄霊していれば判る。<br><br> 101 浄霊時の呼吸荒し、セムシの伸び 最近入信した二十七歳の男子、十一歳の時よりカリエスにかかり、現在体は萎縮して足の発育が悪くセムシのようです。<br><br>歩行は少しは出来ますが遠くは歩けません。<br><br>治るでしょうか。<br><br>また、この人を浄霊すると頭を上下に振動し息づかいも荒くなります。<br><br>浄霊を止めるとこの状態もすぐ止ります。<br><br>どういう訳でしょうか。<br><br>御教え下さい。<br><br> 霊が憑っている。<br><br>霊を放射して息づかいの荒くなるのは霊の憑っている証拠である。<br><br> カリエスは気長にやれば治る。<br><br>セムシのようになっているのは、一寸や二寸位は伸びるが、それ以上治らぬ。<br><br>（S24. 6. 7） 102 浄霊で震う、手の疼痛 御浄霊を致しますと患者が震い出す人がありますが、いかなる訳でしょうか。<br><br>また、浄霊の時、手がピリピリしますが、いかがな訳でしょうか。<br><br>御教示下さい。<br><br> 霊が憑っている。<br><br>あまり口をきると具合の悪い事がある。<br><br>精神病的になりやすい。<br><br>霊が浄まると震えなくなる。<br><br> 感受性が強いのである。<br><br>（S24.10. 3） 103 浄霊中身震い 家族の者ですが、夜御浄霊の折、後頭部を霊射すると一度身震いを致します。<br><br>本人に聴くと寒いと申しますが、霊的に何か御座いましょうか。<br><br> そこに霊がいる。<br><br>気長にやるとよくなる。<br><br>（S24.11.27） 104 浄霊で冷たくなる。<br><br> 三十五、六歳の女（信徒）、浄霊を始めると身体がその浄霊の順序に従い冷たくなり、浄霊が終り五分位経つと普通の体温になります。<br><br>その理由を御伺い致します。<br><br> 死霊が憑るのである。<br><br>この人に因縁の深いのが憑る。<br><br>救われたいためである。<br><br>御浄霊が済むと脱けてしまうから普通になる。<br><br>であるから、浄霊は、その人のみならず霊まで救う。<br><br>（S24.11.25） 105 浄霊中冷感 教導師にて、三ケ月前から浄霊を受けると必ず背筋に氷を浴びたごとく感ずるのですが、いかなる理由ですか。<br><br>御教示下さい。<br><br> 死んだ人、地獄にいる人が浄霊してもらいたくて憑る。<br><br>いずれ救われると、そういう事はなくなる。<br><br>（S25. 1.25） 106 仏障を知る事 御浄霊を普通にさせて頂いておりましても、仏の障り等がある場合それは判るでしょうか。<br><br> いろんな形で障りがある。<br><br>仏が知らすのである。<br><br>神憑りで口をきくのなどもある。<br><br>必要があれば知らす。<br><br> 107 浄霊依頼され動物の顔見ゆ 私は昨年十一月二十一日入信して、数日前に大光明如来様を御祭りさして戴きました者で御座います。<br><br>五月二十日頃私の親戚の者より気がふれたから来てくれと電報が参りまして、私が目を閉じると色々の動物の顔が浮んで来て息がつまるようです。<br><br>どうしたら治りましょうか。<br><br> この人が行って浄霊しなければ治らぬ。<br><br>近くの教導師に頼んでもよい。<br><br>（S24. 6.26）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Doenças de Causa Espiritual (Parte 2)</h2>
 <p><strong>085 - A grande incidência de manifestações espirituais</strong></p>
@@ -162,5 +314,48 @@ function toggleLang(lang) {
 <p><strong>107 - A visão de faces de animais ao ser chamado para ministrar Johrei</strong></p>
 <p><strong>Pergunta:</strong> Ingressei na fé em 21 de novembro do ano passado e, há poucos dias, entronizei a Grande Imagem da Luz Divina. Por volta de 20 de maio, recebi um telegrama de um parente, dizendo que alguém havia enlouquecido e pedindo minha presença. Desde então, quando fecho os olhos, vejo os rostos de vários animais surgirem e sinto como se fosse sufocar. Como posso me curar?</p>
 <p><strong>Meishu-Sama:</strong> A cura não virá a menos que você vá e ministre Johrei nessa pessoa. Você também pode solicitar a ajuda de um ministro de sua localidade. (26 de junho de 1949)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊篇 （下） ６ 085-107 霊的病気２ 085 浮魂多し 最近御浄めによりて霊の浮くのが非常に増えて来ましたのはいかなるわけで御座いましょうか。<br/><br/> 霊界が明るくなるにつれ、早く救ってもらいたいからである。<br/><br/> 086 御光により霊の浮く事 ある熱心な信者さん、主人が御面会を戴く日にはその子供（六歳で軽い癲癇）がヒキツケます。<br/><br/>先日御写真をお迎え致しました時もひどくヒキツケたそうです。<br/><br/>いかなる訳でしょうか。<br/><br/> 鎮まっていたのが、御光を受けると浮くのである。<br/><br/> よく浄霊をすると神憑りになる事があるが、これはやむを得ぬ。<br/><br/> 087 浄霊好む人嫌う人、同棲を嫌う 浄霊を受けるのを嫌う精神病でありながら、我が子の浄霊は頼まれるのですが、それはいかなる訳でしょうか。<br/><br/>また、浄霊を嫌う人でありながら、私の家の仏壇へは留守の間にお礼参りをするので御座居ます。<br/><br/>また、病人の奥様がお光を受けられてから同居するのを嫌うのはいかなる訳でしょうか。<br/><br/> 浄霊を嫌う人と好む人があり、浄霊願いたくとも嫌うのがある。<br/><br/>嫌う方は動物霊で、副守護神で、浄まって改心してくると貰いたくなる。<br/><br/>正守護神がして貰わす場合と、本守護神が希望する。<br/><br/>弱ってくる事があって、副霊を制える力がない時に望む。<br/><br/> あまり嫌う場合はしない方がよい。<br/><br/>機会を待て。<br/><br/>段々好くようになる。<br/><br/>奥さんは龍神である。<br/><br/>龍神は主人を持つと――夫を持つと行（ぎょう) の妨げとなる。<br/><br/>それで独身を通すのがある。<br/><br/>長くやってるとそういう事はなくなる。<br/><br/> 088 祝詞浄霊を嫌う児 私の孫娘（三歳）は私が光明如来様にお参りして善言讃詞をお奏げしておりますと、外で遊んでいる時でも突然発狂したごとく暴れます。<br/><br/>また、教導所へ行って先生に浄霊して頂きますと、眠っていてもすぐ目をさまして同じ症状になります。<br/><br/>これはいかなる訳でしょうか。<br/><br/> これは霊が憑いている。<br/><br/>これは善言讃詞が怖いのである。<br/><br/>どうせ悪い霊だが、狐のようなもの――外へ行っても判るのだから狐に違いない。<br/><br/>段々霊が萎縮してくるから焦らずにやる。<br/><br/>暴れる時は一時やめる。<br/><br/>時が経つに従い少しずつよくなる。<br/><br/>早く治そうと焦ってはいけない。<br/><br/> 089 祝詞で苦しむ場合 御神体をお祀りさせて頂いております信者で御座いますが、昨年夏以来肺病の状態で床についておりますが、最近は御守護で大分落着いてまいりましたが、浄霊を致しますと浄化がきつくなり、苦しみまして、祝詞、善言讃詞を奏げさせて頂いただけでも苦しみますが、このような場合どうさせて頂きましたら宜しゅう御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> やめていればいい。<br/><br/>小さい声か、心の中でやる。<br/><br/>無理してやるのは神様に対し勿体ない。<br/><br/>（S24. 1.28） 090 神光恐れ暴力揮う精神病（狐） 私の実家では家族の者が狐使いの信仰者に操られ、皆迷わされておりましたが、最近長男（三十一歳）の外は皆気がついてよくなりましたが、長男のみは何等気づく事なく、漸次悪化して発狂状態となり、先祖の事と、先祖が信仰していた石鎚大権現を口にし、皆を騒がせております。<br/><br/>その上、光明如来様や、「五六七」「地上天国」の御額を掲げる事を拒み、善言讃詞を奉唱すると益々暴力を揮って狂います。<br/><br/>いかにしたらよいでしょうか。<br/><br/> 狐の親方であるから力がある。<br/><br/>無理に早くよくしようとせずに気長にやる。<br/><br/>イヤがる場合はやらぬ。<br/><br/>次の間か何かで浄霊する。<br/><br/>口の中で聞こえない程度に善言讃詞を奏げる。<br/><br/> 面倒みながら気長にやれば結局往生する。<br/><br/>悪化しても長く続かぬ。<br/><br/>峠を越すとズーッとよくなる。<br/><br/>極く悪いのは大抵一週間位と思えばよい。<br/><br/>（S24. 6.28） 091 御浄霊嫌う精神病 二十一歳の男子の信徒、二十三年八月入信し、両親は二十二年十月入信し、二十四年三月光明如来様御奉斎と同時に幽世大神様の御姿も御祀りさせて戴きました。<br/><br/>本人は本年二月八日御面会に参上させて頂き、一斉礼拝の後御讃歌奉唱中に霊が浮いたようになり、それから御浄霊を嫌い始め最近は極度に嫌うと共に両親に対し反抗的態度が強く、仕事に関しても指図がましい状態を続けております。<br/><br/>この家庭は以前日蓮宗でありましたが、前回明主様に御伺い申し上げた時に御答え戴きました御言葉通り、日蓮宗関係のすべての物を焼却致しました。<br/><br/>今後御浄霊は強制的にも続けてもよろしゅう御座居ましょうか。<br/><br/>また、極度に嫌う時は大光明如来様に祝詞、善言讃詞を奉唱して御願い申しただけでよろしゅう御座居ますか。<br/><br/>右、御垂示御願い申し上げます。<br/><br/>なお今後の御守護を御願い致します。<br/><br/> なおまた、一昨日仏壇を据えた棚を毀し、昨日は光明如来様を自分で外して置床を毀しました。<br/><br/> 狐が憑っているから無理にやってはいけない。<br/><br/>（同化霊）（S25. 4. 8） 092 浄霊を嫌う病人（霊友会） 私は救世教に三月一日入信させて戴き、光明如来様、屏風観音様、「地上天国」を戴き、四月十一日に御祭りをさせて戴きました。<br/><br/>私は十五年程前より霊友会の信仰を致し、法座主となっておまんだらも戴きました。<br/><br/>この信仰に転換致しますのにどう致しましたら宜敷う御座いますか、御伺い申し上げます。<br/><br/>なお病人がおり、一人は六十八歳の婦人にて、心臓、腎臓病にて余り働く事も出来ません。<br/><br/>今一人の嫁に当る四十八歳の女は神経痛にて七年も働かずに入院致したり、医薬、灸等にて療治致しましたが一向に良くならず、入信以後、御浄霊を致しておりますが、時折「浄霊は要らない」などと悪口を申します。<br/><br/>これにかまわず御浄霊を致せば宜敷う御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> これも狐である。<br/><br/>本人の嫌がる事はやらぬ方がよい。<br/><br/>いずれは好むようになる。<br/><br/> 霊友会は他信仰を非常に嫌う。<br/><br/>（S25. 5.25） 093 浄霊嫌う発狂児 発狂した子供を御浄霊致したくも逃げてしまいます。<br/><br/>寝ている所を御浄霊しましても直ぐ起きます。<br/><br/>寝ている間に着衣を御浄霊致しましても直ぐ起きてひったくり、塩と灰とでゴシゴシこすります。<br/><br/>どう致しましたら宜敷う御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> 光明如来様のお部屋で寝かせよ。<br/><br/>親に曇りがある。<br/><br/>（S24. 5. 1） 094 浄霊嫌い痩せる子 私の次女幸子（六歳）が一ケ月前より浄霊を嫌うようになり、食欲なくだんだんやせて行きますが、毎日遊んではおりますが熱もなく病気のようなところも見受けません。<br/><br/>これは霊的でございましょうか。<br/><br/>どこを特に浄霊すればいいでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> 無縁か何か、祀られていないものがあるか査べる。<br/><br/>（S25. 5. 6） 095 霊光放射で行者卒倒す 祈祷中の日蓮宗の祈祷師に向って霊気を放射すると卒倒することがしばしばあります。<br/><br/>（二人の祈祷者に試しました）いかなる理由でしょうか。<br/><br/> 行者は殆ど狐の霊である。<br/><br/>浄霊すると狐が苦しい。<br/><br/>狐は非常に通力を使うもので、通力を増そうとして法華経を使う。<br/><br/>行者に限らず、狐霊に霊射すると倒れる場合がある。<br/><br/>（S24. 1. 7） 096 浄霊で卒倒す 浄霊をする度卒倒する人があります。<br/><br/>いかなる理由でありましょうか。<br/><br/> 霊が光のために萎縮する。<br/><br/>すると卒倒したり倒れたりする。<br/><br/>こういう霊は弱い。<br/><br/>やる人の霊は強い。<br/><br/> 097 浄霊時倒る 最近浄霊いたしますと、へッドを火の側に寄せたように倒れる人が時々ありますが、いかなる訳ですか、御教え下さい。<br/><br/> 霊である。<br/><br/>直ちに治る。<br/><br/>霊光により堪えられなくて倒れる。<br/><br/>（S24.12.27） 098 浄霊すると発狂状態になる妻 理髪業の主人で昨年入信致しましたが、未入信の妻は常には何の変りも御座いませんが、熟睡している時浄霊致すべく祝詞を奏上させて戴きますと、直ぐ目があき、御浄霊を始めますと怒ったり物を投げたりして発狂状態となります。<br/><br/>観音様にお念じ致しますと鎮まりますが、御浄霊は決してさせません。<br/><br/>なお、夜中に主人が休んでおりますと枕元を何か鼠位の大きさのものが跳んで廻るような気が致します。<br/><br/>何か霊的と存じますが、いかにしたら宜しゅう御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> 憑いてる動物霊が苦しいのである。<br/><br/>鼠位とすれば、動物霊は管狐か何かである。<br/><br/>段々弱ってくる。<br/><br/>（S25. 1.11） 099 次々に病死、淋し、浄霊で苦し 私の主人は戦病死（結核性腹膜炎）、入信前、母は結核を病み不眠のため散歩に出て河中に落ちて死亡、兄は結核にて死亡、弟は轢死（トラック）、長男は脳膜炎にて死亡、本年三月十八日、次男が結核性腹膜炎にて死亡してより、時々淋しくなって来ると共に全身が苦しくなって来ます。<br/><br/>お浄霊を頂きますとその個所がよくなると、次から次へと苦しみが移動していきます。<br/><br/>お蔭様で最近幾分よくなって来ました。<br/><br/>苦しんでいる霊がお救いを求めて来るのでしょうか。<br/><br/>お教え下さいませ。<br/><br/> 罪穢が溜り切っている。<br/><br/>救いを求めて来るのだが、それでいて浄霊されると、苦しいのである。<br/><br/>その霊には未だ副守護神がいる。<br/><br/>霊の淋しい気持が写るのである。<br/><br/>浄霊で治る。<br/><br/>（S24. 6.29） 100 浄霊を断る末期患者 結核患者、カリエス患者にて将に死せんとする前に、浄霊を止めてくれと言う者がありますが、何か意味がありましょうか。<br/><br/> 良くない霊が憑るので苦しいのである。<br/><br/>霊は人間が弱ると憑る。<br/><br/>ある程度衰弱すると憑る。<br/><br/>霊細胞が稀薄になると、それを充実するだけの霊が憑る。<br/><br/>浄霊していれば判る。<br/><br/> 101 浄霊時の呼吸荒し、セムシの伸び 最近入信した二十七歳の男子、十一歳の時よりカリエスにかかり、現在体は萎縮して足の発育が悪くセムシのようです。<br/><br/>歩行は少しは出来ますが遠くは歩けません。<br/><br/>治るでしょうか。<br/><br/>また、この人を浄霊すると頭を上下に振動し息づかいも荒くなります。<br/><br/>浄霊を止めるとこの状態もすぐ止ります。<br/><br/>どういう訳でしょうか。<br/><br/>御教え下さい。<br/><br/> 霊が憑っている。<br/><br/>霊を放射して息づかいの荒くなるのは霊の憑っている証拠である。<br/><br/> カリエスは気長にやれば治る。<br/><br/>セムシのようになっているのは、一寸や二寸位は伸びるが、それ以上治らぬ。<br/><br/>（S24. 6. 7） 102 浄霊で震う、手の疼痛 御浄霊を致しますと患者が震い出す人がありますが、いかなる訳でしょうか。<br/><br/>また、浄霊の時、手がピリピリしますが、いかがな訳でしょうか。<br/><br/>御教示下さい。<br/><br/> 霊が憑っている。<br/><br/>あまり口をきると具合の悪い事がある。<br/><br/>精神病的になりやすい。<br/><br/>霊が浄まると震えなくなる。<br/><br/> 感受性が強いのである。<br/><br/>（S24.10. 3） 103 浄霊中身震い 家族の者ですが、夜御浄霊の折、後頭部を霊射すると一度身震いを致します。<br/><br/>本人に聴くと寒いと申しますが、霊的に何か御座いましょうか。<br/><br/> そこに霊がいる。<br/><br/>気長にやるとよくなる。<br/><br/>（S24.11.27） 104 浄霊で冷たくなる。<br/><br/> 三十五、六歳の女（信徒）、浄霊を始めると身体がその浄霊の順序に従い冷たくなり、浄霊が終り五分位経つと普通の体温になります。<br/><br/>その理由を御伺い致します。<br/><br/> 死霊が憑るのである。<br/><br/>この人に因縁の深いのが憑る。<br/><br/>救われたいためである。<br/><br/>御浄霊が済むと脱けてしまうから普通になる。<br/><br/>であるから、浄霊は、その人のみならず霊まで救う。<br/><br/>（S24.11.25） 105 浄霊中冷感 教導師にて、三ケ月前から浄霊を受けると必ず背筋に氷を浴びたごとく感ずるのですが、いかなる理由ですか。<br/><br/>御教示下さい。<br/><br/> 死んだ人、地獄にいる人が浄霊してもらいたくて憑る。<br/><br/>いずれ救われると、そういう事はなくなる。<br/><br/>（S25. 1.25） 106 仏障を知る事 御浄霊を普通にさせて頂いておりましても、仏の障り等がある場合それは判るでしょうか。<br/><br/> いろんな形で障りがある。<br/><br/>仏が知らすのである。<br/><br/>神憑りで口をきくのなどもある。<br/><br/>必要があれば知らす。<br/><br/> 107 浄霊依頼され動物の顔見ゆ 私は昨年十一月二十一日入信して、数日前に大光明如来様を御祭りさして戴きました者で御座います。<br/><br/>五月二十日頃私の親戚の者より気がふれたから来てくれと電報が参りまして、私が目を閉じると色々の動物の顔が浮んで来て息がつまるようです。<br/><br/>どうしたら治りましょうか。<br/><br/> この人が行って浄霊しなければ治らぬ。<br/><br/>近くの教導師に頼んでもよい。<br/><br/>（S24. 6.26）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

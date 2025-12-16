@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sekai16</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 世界夢物語 『栄光』189号、昭和28(1953)年1月1日発行 私は宗教家でありながら、軍事に関した事をかいてみようと思うのであるが、何しろ夢物語だからそのつもりで読んで貰いたい。<br><br>もちろん逆夢（さかゆめ）にはなりっこないが、どの程度まで正夢になるか、これは今後の実際に徴（ちょう）して分るであろうから、一応の参考として貰えば幸甚（こうじん）である。<br><br>それは現在における世界の情勢である。<br><br>言うまでもなくあらゆる問題中、最も重大なるものとしては、何といっても朝鮮問題であろう。<br><br>何しろ二十五年六月二十五日から始まって二年半に及んだ今日でも、まだ何ら解決の曙光（しょこう）さえ見られず、依然たる膠着（こうちゃく）状態のままであるからである。<br><br>なおその間にも休戦交渉は幾度となく蒸返されていながら、いささかも進展の色なく依然たるものである。<br><br>ところで今回当選したアイク次期大統領であるが、氏は外交交渉では到底見込はなく、実力以外解決不可能であるとし、先日朝鮮へ飛び、現地の状況を親しく視察をして帰ったのは周知の通りである。<br><br>そうして帰国後マッカーサー元帥を招致し、ダレス氏も交えて会談二時間に及んだそうだが、もちろんその内容は極秘にされているから知る由もないが、私には大体分ったような気がする。<br><br> これについて懐（おも）い起す事は、一昨年マ元帥が突如大統領から解任を受け、心ならずも帰国の余儀なきに立至った際、私は非常に残念に思いみんなにも話した事がある。<br><br>それは当時北鮮軍は敗北の結果、鴨緑江（おうりょくこう）近くまで追詰められたので、元帥はここぞとばかり中国の沿岸封鎖、満州爆撃の作戦を提言し、一挙に敵を打倒しようとした事で、この作戦こそ最も機を得たものと思って私は賞（ほ）めたくらいであった。<br><br>ところが右のごとく惜しくもその機会を逸したため、その後はアノのような不透明な戦局となってしまったので、ちょうど蛇の生殺しにしたようなものである。<br><br>それが今度のア元帥の決意の因ともなったのであるから、結局において時を遅らし、敵の立直りに都合よくしたようなもので、そのため一年前よりズッと骨が折れる事になったに違いない。<br><br> そうして今回両元帥の会見となったのも、ア元帥が当時のマ元帥の作戦計画に、大いに共鳴するところあったからでもあろうが、それはそれとして種々の情報の内、最も重要な点は戦線不拡大を条件として敵に打撃を与え、戦局収拾の目鼻をつけようとの国連軍の意図である。<br><br>だがその通りに果して成功すればいいが、これは大いに疑問である。<br><br>それをこれから説明してみるが、判り易くするためにまず三段に分けてみよう。<br><br> まず第一段は右のごとき戦略を実行するとして、現在二百二十粁（キロメートル）に亘（わた）る戦線をして、最も括（くび）れた点が百粁ということであるから、その線まで進出する戦略らしい。<br><br>だがこれが容易な業ではあるまい。<br><br>というのは敵も一年余りに渉って、相当の準備も出来ているであろうから、なるほど最初は国連軍が今までとは異（ちが）った積極的に出る以上、相当の進出はするとしても、進むに従い味方は漸次遠くなり、補給その他の点で不利となるに反し、敵の方は有利になる以上、ある地点まで一進一退の戦況をたどることになろう。<br><br>しかも戦線拡大は制限がある以上、思うようにならない困難もある。<br><br> ここで他の面についてもいってみたい事は、ア元帥これからの計画である。<br><br>それは実力行使に当っては、出来るだけ国連軍以外の力を利用する方針のようである。<br><br>そのため韓国軍の猛訓練はもちろん、蒋介石（しょうかいせき）軍の出撃をも考慮するであろう。<br><br>近くマ元帥の台湾行が報ぜられているのもそのためであろうし、また日本軍及びフィリピン軍を予備として万一に備える意図もあるようだから、いずれは日本政府の了解を求めて来ることも考えられる。<br><br>それらを予想して政府も本年から保安隊の大増強と訓練はもちろん、武器生産も大馬力をかけることになり、それと共に政府は政治上、思想上反国家的分子の取締も大いに強化するに違いないから、赤化運動も影を潜めるであろう。<br><br>といったようにア元帥の肚（はら）の中は事情の許す限り、亜細亜（アジア）各民族協力の下に敵を打倒し、解決する方策である。<br><br>としたらそれら準備にもいくら急いでも、半年や一年くらいはかかるとみねばなるまいから、国民はそのつもりで覚悟を決めてよかろう。<br><br> そうして初めにかいたような戦略が成功したとしても、恐らくそれで解決とはなるまい。<br><br>というのはやはり膠着状態になるであろうからで、ここに到って当然第二段の作戦に移らざるを得なくなる。<br><br>それは満鮮国境に向かっての突破作戦である。<br><br>つまり北鮮の満州寄りに溝を作ることである。<br><br>もちろんこれには優秀なる兵力を集中し、爆撃と地上兵器をもって最大限の突撃作戦である。<br><br>そうしてこれが成功すればここに中共と北鮮との連絡は遮断され、北鮮軍は孤立状態になるから、ここにおいて国連軍は南北朝鮮を合併させ、一丸となって満州へ後退した中共軍と相対峙（たいじ）し、睨み合いになると共に、かねて機を窺（うかが）っていた蒋介石軍は猛然と本土侵入の挙に出るから、ここに敵は北は連合軍、東は国府軍、空からは爆弾の雨というように、三面攻撃を受けるのみか、沿岸封鎖も手伝って、流石（さすが）の中共軍もついに兜を脱がざるを得なくなり、ここに講和条約締結となるのはもちろん、日本の敗戦時と同様蒋介石かまたは幕僚中の然るべき人物を起用して首班とし、中国全土に民主政治が施かれ、一段落となる。<br><br>以上のごとき経路は余りに具体的なので、変に思うかも知れないが、実際は多少の迂〔紆〕余曲折（うよきょくせつ）もあり、時機の早い遅いもあるであろうが、大体はそのような経路をたどることと予想されるのである。<br><br> ここでソ連についてもかかねばならないが、以上のごとく中共が降伏に到るまで、恐らくソ連は戦争に介入しないであろう。<br><br>なるほどある時期までは兵器や経済力の応援は極力するであろうが、それ以上には出でまいと思う。<br><br>何となれば現在の軍備は、まだアメリカを相手とする程にはなっていないばかりか、もし勝敗のつかぬまま膠着状態にでもなるとしたら、鉄のカーテン内の国々は背を向ける危険もあるからである。<br><br>としたらこの点はまず安心出来るが、そうかといって中共降伏で戦争終結になるとは思えない。<br><br>問題はむしろこれからで、いよいよ世界の檜舞台上龍虎相争う大活劇の幕は切って落されるであろうからである。<br><br> これが第三段の開幕であるが、これこそソ連最後の切札であって、これに対する準備は大体出来ているはずである。<br><br>もっともヨーロッパ各国も米国もその予想の下に軍備を進めてはいるが、まだそこまで分っていないとみえて、生温（なまぬる）いことおびただしいから、その時になって大いに周章狼狽（しゅうしょうろうばい）するであろう。<br><br>私はこの点についても詳しくかきたいが、神様はまだ御許にならないから致し方ないが、いずれ詳細知らせる時が来るはずである。<br><br> 次にこれだけは言えるからかいてみるが、最後に到って世界は狂乱怒涛の真只中（まっただなか）に捲込まれるであろうが、そうなっても日本は割合苦難が少なくて済むことになっている。<br><br>しかしこれは比較上の話で、日本もある程度の脅威を受け、難局に直面する場合もあるから、今からその覚悟はしておく必要がある。<br><br>そうしてこの第三次戦争ともいうべき大禍乱が済んでから後の世界はどうなるかというと、これも私はよく分っているが、結果からいえば世界は夢想だもしなかった程の一大変貌と共に、光明輝く地上天国の第一段階に入るのである。<br><br>これこそ既定の神の大経綸であって、信ずると信ぜざるとにかかわらず絶対であるから、そのつもりでいて貰いたい。<br><br>なお最後に付け加えたいことは、その時全人類は本教を伏し拝み、歓天喜地（かんてんきち）、手の舞足の踏むところを知らざる場面が現出するのはもちろんである。<br><br> (注) マッカーサー元帥（Douglas MacArthur、1880-1964） アメリカの軍人。<br><br>元帥。<br><br>連合軍西南太平洋方面総司令官として太平洋戦争を指揮。<br><br>戦後、日本占領連合国軍最高司令官として日本に駐在、占領政策を統轄。<br><br>朝鮮戦争に際し国連軍最高司令官を兼任したがトルーマン大統領と対立、解任された。<br><br> アイク・ア元帥（Dwight David Eisenhower、1890-1969） 第三四代アメリカ合衆国大統領（在任 1953-1961）アイゼンハワーの愛称。<br><br>第２次世界大戦時の連合軍最高司令官として、日独伊の枢軸国を破った。<br><br>戦後は朝鮮戦争・インドシナ戦争を解決。<br><br>ＮＡＴＯ軍最高司令官として西ヨーロッパの反共軍事体制を整えた。<br><br>共和党。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Um Conto Onírico sobre o Mundo</h2>
 <p>Embora eu seja um homem de religião, proponho-me a discorrer sobre assuntos militares; todavia, por se tratar de um conto onírico, peço que o leiam com essa ressalva. Evidentemente, não se tornará um sonho de mau agouro, cujo desfecho seja o oposto do que se narra. A que ponto, no entanto, se revelará uma visão profética, é algo que apenas o desenrolar dos fatos futuros poderá atestar. Sendo assim, ficaria sobremaneira satisfeito se estas palavras fossem recebidas como uma referência para reflexão.</p>
@@ -106,5 +258,48 @@ function toggleLang(lang) {
 <hr/>
 <p><em>(Nota) General MacArthur (Douglas MacArthur, 1880-1964): Militar americano. Marechal de Campo. Comandou a Guerra do Pacífico como Comandante Supremo das Forças Aliadas na Área do Sudoeste do Pacífico. Após a guerra, serviu como Comandante Supremo das Potências Aliadas no Japão, supervisionando a política de ocupação. Durante a Guerra da Coreia, atuou também como Comandante Supremo das Forças da ONU, mas foi demitido devido a um conflito com o Presidente Truman.</em></p>
 <p><em>(Nota) Ike, General Eisenhower (Dwight David Eisenhower, 1890-1969): 34º Presidente dos Estados Unidos da América (mandato de 1953 a 1961). "Ike" era seu apelido. Como Comandante Supremo das Forças Aliadas durante a Segunda Guerra Mundial, derrotou as potências do Eixo (Japão, Alemanha e Itália). No pós-guerra, buscou resolver a Guerra da Coreia e a Guerra da Indochina. Como Comandante Supremo da OTAN, consolidou o sistema militar anticomunista na Europa Ocidental. Filiado ao Partido Republicano.</em></p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 世界夢物語 『栄光』189号、昭和28(1953)年1月1日発行 私は宗教家でありながら、軍事に関した事をかいてみようと思うのであるが、何しろ夢物語だからそのつもりで読んで貰いたい。<br/><br/>もちろん逆夢（さかゆめ）にはなりっこないが、どの程度まで正夢になるか、これは今後の実際に徴（ちょう）して分るであろうから、一応の参考として貰えば幸甚（こうじん）である。<br/><br/>それは現在における世界の情勢である。<br/><br/>言うまでもなくあらゆる問題中、最も重大なるものとしては、何といっても朝鮮問題であろう。<br/><br/>何しろ二十五年六月二十五日から始まって二年半に及んだ今日でも、まだ何ら解決の曙光（しょこう）さえ見られず、依然たる膠着（こうちゃく）状態のままであるからである。<br/><br/>なおその間にも休戦交渉は幾度となく蒸返されていながら、いささかも進展の色なく依然たるものである。<br/><br/>ところで今回当選したアイク次期大統領であるが、氏は外交交渉では到底見込はなく、実力以外解決不可能であるとし、先日朝鮮へ飛び、現地の状況を親しく視察をして帰ったのは周知の通りである。<br/><br/>そうして帰国後マッカーサー元帥を招致し、ダレス氏も交えて会談二時間に及んだそうだが、もちろんその内容は極秘にされているから知る由もないが、私には大体分ったような気がする。<br/><br/> これについて懐（おも）い起す事は、一昨年マ元帥が突如大統領から解任を受け、心ならずも帰国の余儀なきに立至った際、私は非常に残念に思いみんなにも話した事がある。<br/><br/>それは当時北鮮軍は敗北の結果、鴨緑江（おうりょくこう）近くまで追詰められたので、元帥はここぞとばかり中国の沿岸封鎖、満州爆撃の作戦を提言し、一挙に敵を打倒しようとした事で、この作戦こそ最も機を得たものと思って私は賞（ほ）めたくらいであった。<br/><br/>ところが右のごとく惜しくもその機会を逸したため、その後はアノのような不透明な戦局となってしまったので、ちょうど蛇の生殺しにしたようなものである。<br/><br/>それが今度のア元帥の決意の因ともなったのであるから、結局において時を遅らし、敵の立直りに都合よくしたようなもので、そのため一年前よりズッと骨が折れる事になったに違いない。<br/><br/> そうして今回両元帥の会見となったのも、ア元帥が当時のマ元帥の作戦計画に、大いに共鳴するところあったからでもあろうが、それはそれとして種々の情報の内、最も重要な点は戦線不拡大を条件として敵に打撃を与え、戦局収拾の目鼻をつけようとの国連軍の意図である。<br/><br/>だがその通りに果して成功すればいいが、これは大いに疑問である。<br/><br/>それをこれから説明してみるが、判り易くするためにまず三段に分けてみよう。<br/><br/> まず第一段は右のごとき戦略を実行するとして、現在二百二十粁（キロメートル）に亘（わた）る戦線をして、最も括（くび）れた点が百粁ということであるから、その線まで進出する戦略らしい。<br/><br/>だがこれが容易な業ではあるまい。<br/><br/>というのは敵も一年余りに渉って、相当の準備も出来ているであろうから、なるほど最初は国連軍が今までとは異（ちが）った積極的に出る以上、相当の進出はするとしても、進むに従い味方は漸次遠くなり、補給その他の点で不利となるに反し、敵の方は有利になる以上、ある地点まで一進一退の戦況をたどることになろう。<br/><br/>しかも戦線拡大は制限がある以上、思うようにならない困難もある。<br/><br/> ここで他の面についてもいってみたい事は、ア元帥これからの計画である。<br/><br/>それは実力行使に当っては、出来るだけ国連軍以外の力を利用する方針のようである。<br/><br/>そのため韓国軍の猛訓練はもちろん、蒋介石（しょうかいせき）軍の出撃をも考慮するであろう。<br/><br/>近くマ元帥の台湾行が報ぜられているのもそのためであろうし、また日本軍及びフィリピン軍を予備として万一に備える意図もあるようだから、いずれは日本政府の了解を求めて来ることも考えられる。<br/><br/>それらを予想して政府も本年から保安隊の大増強と訓練はもちろん、武器生産も大馬力をかけることになり、それと共に政府は政治上、思想上反国家的分子の取締も大いに強化するに違いないから、赤化運動も影を潜めるであろう。<br/><br/>といったようにア元帥の肚（はら）の中は事情の許す限り、亜細亜（アジア）各民族協力の下に敵を打倒し、解決する方策である。<br/><br/>としたらそれら準備にもいくら急いでも、半年や一年くらいはかかるとみねばなるまいから、国民はそのつもりで覚悟を決めてよかろう。<br/><br/> そうして初めにかいたような戦略が成功したとしても、恐らくそれで解決とはなるまい。<br/><br/>というのはやはり膠着状態になるであろうからで、ここに到って当然第二段の作戦に移らざるを得なくなる。<br/><br/>それは満鮮国境に向かっての突破作戦である。<br/><br/>つまり北鮮の満州寄りに溝を作ることである。<br/><br/>もちろんこれには優秀なる兵力を集中し、爆撃と地上兵器をもって最大限の突撃作戦である。<br/><br/>そうしてこれが成功すればここに中共と北鮮との連絡は遮断され、北鮮軍は孤立状態になるから、ここにおいて国連軍は南北朝鮮を合併させ、一丸となって満州へ後退した中共軍と相対峙（たいじ）し、睨み合いになると共に、かねて機を窺（うかが）っていた蒋介石軍は猛然と本土侵入の挙に出るから、ここに敵は北は連合軍、東は国府軍、空からは爆弾の雨というように、三面攻撃を受けるのみか、沿岸封鎖も手伝って、流石（さすが）の中共軍もついに兜を脱がざるを得なくなり、ここに講和条約締結となるのはもちろん、日本の敗戦時と同様蒋介石かまたは幕僚中の然るべき人物を起用して首班とし、中国全土に民主政治が施かれ、一段落となる。<br/><br/>以上のごとき経路は余りに具体的なので、変に思うかも知れないが、実際は多少の迂〔紆〕余曲折（うよきょくせつ）もあり、時機の早い遅いもあるであろうが、大体はそのような経路をたどることと予想されるのである。<br/><br/> ここでソ連についてもかかねばならないが、以上のごとく中共が降伏に到るまで、恐らくソ連は戦争に介入しないであろう。<br/><br/>なるほどある時期までは兵器や経済力の応援は極力するであろうが、それ以上には出でまいと思う。<br/><br/>何となれば現在の軍備は、まだアメリカを相手とする程にはなっていないばかりか、もし勝敗のつかぬまま膠着状態にでもなるとしたら、鉄のカーテン内の国々は背を向ける危険もあるからである。<br/><br/>としたらこの点はまず安心出来るが、そうかといって中共降伏で戦争終結になるとは思えない。<br/><br/>問題はむしろこれからで、いよいよ世界の檜舞台上龍虎相争う大活劇の幕は切って落されるであろうからである。<br/><br/> これが第三段の開幕であるが、これこそソ連最後の切札であって、これに対する準備は大体出来ているはずである。<br/><br/>もっともヨーロッパ各国も米国もその予想の下に軍備を進めてはいるが、まだそこまで分っていないとみえて、生温（なまぬる）いことおびただしいから、その時になって大いに周章狼狽（しゅうしょうろうばい）するであろう。<br/><br/>私はこの点についても詳しくかきたいが、神様はまだ御許にならないから致し方ないが、いずれ詳細知らせる時が来るはずである。<br/><br/> 次にこれだけは言えるからかいてみるが、最後に到って世界は狂乱怒涛の真只中（まっただなか）に捲込まれるであろうが、そうなっても日本は割合苦難が少なくて済むことになっている。<br/><br/>しかしこれは比較上の話で、日本もある程度の脅威を受け、難局に直面する場合もあるから、今からその覚悟はしておく必要がある。<br/><br/>そうしてこの第三次戦争ともいうべき大禍乱が済んでから後の世界はどうなるかというと、これも私はよく分っているが、結果からいえば世界は夢想だもしなかった程の一大変貌と共に、光明輝く地上天国の第一段階に入るのである。<br/><br/>これこそ既定の神の大経綸であって、信ずると信ぜざるとにかかわらず絶対であるから、そのつもりでいて貰いたい。<br/><br/>なお最後に付け加えたいことは、その時全人類は本教を伏し拝み、歓天喜地（かんてんきち）、手の舞足の踏むところを知らざる場面が現出するのはもちろんである。<br/><br/> (注) マッカーサー元帥（Douglas MacArthur、1880-1964） アメリカの軍人。<br/><br/>元帥。<br/><br/>連合軍西南太平洋方面総司令官として太平洋戦争を指揮。<br/><br/>戦後、日本占領連合国軍最高司令官として日本に駐在、占領政策を統轄。<br/><br/>朝鮮戦争に際し国連軍最高司令官を兼任したがトルーマン大統領と対立、解任された。<br/><br/> アイク・ア元帥（Dwight David Eisenhower、1890-1969） 第三四代アメリカ合衆国大統領（在任 1953-1961）アイゼンハワーの愛称。<br/><br/>第２次世界大戦時の連合軍最高司令官として、日独伊の枢軸国を破った。<br/><br/>戦後は朝鮮戦争・インドシナ戦争を解決。<br/><br/>ＮＡＴＯ軍最高司令官として西ヨーロッパの反共軍事体制を整えた。<br/><br/>共和党。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

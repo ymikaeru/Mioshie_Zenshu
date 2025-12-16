@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sinsen1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神仙郷神苑に就て 『栄光』122号、昭和26(1951)年9月19日発行 私が五年前から造営しつつある、箱根強羅のこの神苑は、ほとんど八分通り出来上ったが、これだけでも日本の各地にある昔からの有名な庭園に比べて遜色がないどころか、口巾（くちはば）ったい言い草かも知れないが、格段の異（ちが）いさであろう。<br><br>なるほどそれぞれ特色ある立派な名園も数多くあるにはあるが、大体どこを見てもそれ程の特色はないようである。<br><br>ところが見らるる通り、この神仙郷に至っては全然異う。<br><br>何しろ自然の奇巌珍石が驚く程豊富にあるので、私は神示のまま、それぞれの配置や岩組をなしつつ、昔からの庭園としての約束を破り、型に囚われず、全然新しい形式で造ったのである。<br><br>樹木にしてもそれに相応すべく、色々の種類を集めてよく調和させ、滝や渓流にしても、出来るだけ自然の味を出しながら、山水の美と庭園の美とをタイアップさせて、自然の芸術の高さと好さとを充分出そうとしたのである。<br><br>言うまでもなく観る人の眼を通して、人間に内在している美の観念を引出し、自らなる品性を向上させ、魂の汚れを洗うのが狙いである。<br><br> そのような訳で巌の組合せはもちろん、樹木や草なども撰びに撰んで、一々に心をこめてあしらい、ちょうど自然の材料で絵を描くようなものである。<br><br>というような訳だから、そのつもりで見て貰いたいと思う。<br><br>すなわち近くで見ても、離れて見ても、部分的に見ても、総体的に眺めても、どの角度から見ても、それぞれの味が出ている積りである。<br><br>しかも年月を経るに従い、箱根特有の色々な苔や、名も知れぬ小草（おぐさ）、小（ささ）やかな可憐な花、盆栽のような芽生えの木など岩の凹（くぼ）みに見えて、己（おの）が自（じ）し人の眼を引こうとしている。<br><br>昨今は庭一面に時代が付き、落着いて来たので、見違える程好くなって来た。<br><br>自分ながら低徊（ていかい）去るに忍びない事もよくあるくらいである。<br><br>また雨後の水の多い時など、深山の渓流を俯瞰（ふかん）するようで、石走（いわばし）る水のせせらぎ、砕けては白々と飛沫が散り、潺々（せんせん）としつつ幾曲りしながら、落つるところ二個所の瀑布（ばくふ）があって、その景観に心を奪われる。<br><br> この二つの瀑布の右手龍頭（りゅうず）の滝の段になって落ちるのもいいが、左手の滝を観ていると、水は幾条（すじ）にも破れては飛び散り、今しも岩燕（つばめ）一羽スッと掠（かす）めるのが眼に浮んで来る。<br><br>全く自然と人工の調和美がよく表われていて、これも予期以上の出来栄えに私は満足した。<br><br>眺めていると宛（さなが）ら深山幽谷にある想いがし、また一幅（いっぷく）の名画に対（むか）うような気もする。<br><br>よく人間の造った滝といえば、どうも俗味が邪魔するが、これはまたそのような臭さはいささかもなく、飽くまで自然である。<br><br>滝と照り映（は）う紅葉の色、それぞれの樹木の色、深々とした植え込みなど、深山にある思いがする。<br><br>まず出来上った庭の方はこのくらいにしておいて、次に公園寄りの裏手に当る広々とした空地も、大いに変った庭に作りたいと思って拵（こしら）えにかかったが、ここもちょっと想像出来ない程の珍しい企画で、恐らく出来上った上は、誰しもアッと言うであろう。<br><br> 以上私は思うがままをかいて来たが、自分でやった事を何の会釈もなく、賞めそやすのは、自惚（うぬぼ）れもはなはだしいと思うであろう。<br><br>普通人的に見ればそれに違いあるまいが、何しろ神様が私を通じて作られたのであるから、神様の技術、すなわち神技であってみれば、これを讃めたとしても、何ら差支えあるまい。<br><br>それは神様を称える事になるからで、むしろ結構だと思う。<br><br>これについてこの間米国の某高等学校の地理学の教授、ウィリアムＷシュドラー氏が観覧に来られたが、氏は自己の専門的見地から、世界到るところの庭園を見ても、まだこれほどの珍しい芸術的なものはない。<br><br>恐らく世界随一といってもよかろうと激賞されたのである。<br><br>次はいよいよ最後に造る美術館であるが、これは来年の夏までに完成の見込で、出来上ったからには、神仙郷神苑も一段の光彩を放つであろう。<br><br>そうして陳列の美術品も、私の手持も少しはあるが、博物館はじめ各地の美術館や、個人の所蔵家、寺院等にある国宝級の物も大体調べてあり、連絡も漸次つきつつあるから、まずどこにも引（ひけ）をとらない程の美術館となるであろう。<br><br>なお私の方針は歴史的、考古学的のものは少しにして、審美眼的に見て東洋の新古を問わず、その時代の名人巨匠の傑作品のみを選んで、列（なら）べるつもりである。<br><br>何となれば鑑識眼の有る無しにかかわらず、誰が見てもその美に打たれ、娯しめるものでなくては、美術館としての意義は発揮されないからである。<br><br>もちろんこの美術館も建築の設計から室内の設備、装飾等ことごとく神示のまま私が当るのであるから、出来上った上は、また別な効果を見せるであろう。<br><br> 右によって、大体神仙郷は完成するのであるから、その暁御神業は本格的発展の段階となるであろう。<br><br>そればかりではない。<br><br>熱海の方の造営も、飛躍的建設の順序となるのはもちろんで、神はすべて順序正しく進まれるので、これが真理である。<br><br> (注) 低徊（ていかい ）行きつ戻りつすること。<br><br>心を決めかねて同じ所をうろうろすること。<br><br> 潺潺（せんせん）水がさらさらと流れるさま。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Jardim Divino de Shinsenkyo</h2>
 <p>Este Jardim Divino em Hakone Gora, ao qual venho me dedicando nos últimos cinco anos, encontra-se praticamente concluído em sua maior parte. Mesmo em seu estado atual, afirmo que não apenas se equipara aos célebres jardins tradicionais do Japão, como os supera de forma notável. Pode parecer uma declaração presunçosa, todavia, a diferença é de fato abissal. Certamente, existem inúmeros jardins renomados, cada qual com suas particularidades; contudo, em sua maioria, não apresentam características verdadeiramente singulares. O Shinsenkyo, como se pode constatar, é inteiramente distinto.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Até aqui, escrevi livremente meus pensamentos. Muitos poderão julgar que elogiar sem reservas um trabalho realizado por mim mesmo é um ato de extrema presunção. Sob uma ótica puramente humana, não estariam equivocados. Todavia, como foi Deus quem o criou através de mim, trata-se da manifestação de Sua técnica, ou seja, de uma habilidade Divina. Sendo assim, exaltá-la não representa qualquer problema. Pelo contrário, considero algo positivo, pois equivale a louvar o próprio Deus. A esse respeito, recentemente o professor William W. Shudlar, catedrático de geografia de uma renomada instituição de ensino norte-americana, visitou o local. De seu ponto de vista especializado, ele teceu calorosos elogios, afirmando que, embora tenha visto jardins no mundo inteiro, jamais se deparou com uma obra de arte tão singular e criativa, e que esta poderia, sem dúvida, ser considerada a número um do mundo.</p>
 <p>Em seguida, virá a construção final: o Museu de Arte. A previsão é que seja concluído até o verão do próximo ano e, uma vez pronto, conferirá ao Jardim Divino de Shinsenkyo um brilho ainda mais intenso. Quanto às obras de arte que serão expostas, embora eu possua algumas, já realizei um levantamento das peças de calibre de Tesouro Nacional que se encontram em museus, galerias, coleções particulares e templos por todo o país. Os contatos estão sendo gradualmente estabelecidos, o que me permite afirmar que será um museu de altíssimo nível. Minha diretriz é incluir poucas peças de valor puramente histórico ou arqueológico, priorizando obras-primas de grandes mestres de todas as épocas do Oriente, selecionadas por seu mérito estético. Acredito que um museu só cumpre sua verdadeira missão se sua beleza for capaz de tocar e deleitar a todos, independentemente de possuírem ou não um olhar crítico apurado. Naturalmente, desde o projeto arquitetônico até as instalações internas e a decoração, tudo neste museu será executado por mim, sob orientação Divina. Portanto, quando finalizado, ele também revelará um efeito singular.</p>
 <p>Com isso, o Shinsenkyo estará, em suas linhas gerais, concluído. Nesse momento, a Obra Divina entrará em uma nova e autêntica fase de expansão. E não apenas isso. As construções em Atami também avançarão em um ritmo acelerado. Deus procede em tudo com uma ordem perfeita, e nisto reside a verdade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神仙郷神苑に就て 『栄光』122号、昭和26(1951)年9月19日発行 私が五年前から造営しつつある、箱根強羅のこの神苑は、ほとんど八分通り出来上ったが、これだけでも日本の各地にある昔からの有名な庭園に比べて遜色がないどころか、口巾（くちはば）ったい言い草かも知れないが、格段の異（ちが）いさであろう。<br/><br/>なるほどそれぞれ特色ある立派な名園も数多くあるにはあるが、大体どこを見てもそれ程の特色はないようである。<br/><br/>ところが見らるる通り、この神仙郷に至っては全然異う。<br/><br/>何しろ自然の奇巌珍石が驚く程豊富にあるので、私は神示のまま、それぞれの配置や岩組をなしつつ、昔からの庭園としての約束を破り、型に囚われず、全然新しい形式で造ったのである。<br/><br/>樹木にしてもそれに相応すべく、色々の種類を集めてよく調和させ、滝や渓流にしても、出来るだけ自然の味を出しながら、山水の美と庭園の美とをタイアップさせて、自然の芸術の高さと好さとを充分出そうとしたのである。<br/><br/>言うまでもなく観る人の眼を通して、人間に内在している美の観念を引出し、自らなる品性を向上させ、魂の汚れを洗うのが狙いである。<br/><br/> そのような訳で巌の組合せはもちろん、樹木や草なども撰びに撰んで、一々に心をこめてあしらい、ちょうど自然の材料で絵を描くようなものである。<br/><br/>というような訳だから、そのつもりで見て貰いたいと思う。<br/><br/>すなわち近くで見ても、離れて見ても、部分的に見ても、総体的に眺めても、どの角度から見ても、それぞれの味が出ている積りである。<br/><br/>しかも年月を経るに従い、箱根特有の色々な苔や、名も知れぬ小草（おぐさ）、小（ささ）やかな可憐な花、盆栽のような芽生えの木など岩の凹（くぼ）みに見えて、己（おの）が自（じ）し人の眼を引こうとしている。<br/><br/>昨今は庭一面に時代が付き、落着いて来たので、見違える程好くなって来た。<br/><br/>自分ながら低徊（ていかい）去るに忍びない事もよくあるくらいである。<br/><br/>また雨後の水の多い時など、深山の渓流を俯瞰（ふかん）するようで、石走（いわばし）る水のせせらぎ、砕けては白々と飛沫が散り、潺々（せんせん）としつつ幾曲りしながら、落つるところ二個所の瀑布（ばくふ）があって、その景観に心を奪われる。<br/><br/> この二つの瀑布の右手龍頭（りゅうず）の滝の段になって落ちるのもいいが、左手の滝を観ていると、水は幾条（すじ）にも破れては飛び散り、今しも岩燕（つばめ）一羽スッと掠（かす）めるのが眼に浮んで来る。<br/><br/>全く自然と人工の調和美がよく表われていて、これも予期以上の出来栄えに私は満足した。<br/><br/>眺めていると宛（さなが）ら深山幽谷にある想いがし、また一幅（いっぷく）の名画に対（むか）うような気もする。<br/><br/>よく人間の造った滝といえば、どうも俗味が邪魔するが、これはまたそのような臭さはいささかもなく、飽くまで自然である。<br/><br/>滝と照り映（は）う紅葉の色、それぞれの樹木の色、深々とした植え込みなど、深山にある思いがする。<br/><br/>まず出来上った庭の方はこのくらいにしておいて、次に公園寄りの裏手に当る広々とした空地も、大いに変った庭に作りたいと思って拵（こしら）えにかかったが、ここもちょっと想像出来ない程の珍しい企画で、恐らく出来上った上は、誰しもアッと言うであろう。<br/><br/> 以上私は思うがままをかいて来たが、自分でやった事を何の会釈もなく、賞めそやすのは、自惚（うぬぼ）れもはなはだしいと思うであろう。<br/><br/>普通人的に見ればそれに違いあるまいが、何しろ神様が私を通じて作られたのであるから、神様の技術、すなわち神技であってみれば、これを讃めたとしても、何ら差支えあるまい。<br/><br/>それは神様を称える事になるからで、むしろ結構だと思う。<br/><br/>これについてこの間米国の某高等学校の地理学の教授、ウィリアムＷシュドラー氏が観覧に来られたが、氏は自己の専門的見地から、世界到るところの庭園を見ても、まだこれほどの珍しい芸術的なものはない。<br/><br/>恐らく世界随一といってもよかろうと激賞されたのである。<br/><br/>次はいよいよ最後に造る美術館であるが、これは来年の夏までに完成の見込で、出来上ったからには、神仙郷神苑も一段の光彩を放つであろう。<br/><br/>そうして陳列の美術品も、私の手持も少しはあるが、博物館はじめ各地の美術館や、個人の所蔵家、寺院等にある国宝級の物も大体調べてあり、連絡も漸次つきつつあるから、まずどこにも引（ひけ）をとらない程の美術館となるであろう。<br/><br/>なお私の方針は歴史的、考古学的のものは少しにして、審美眼的に見て東洋の新古を問わず、その時代の名人巨匠の傑作品のみを選んで、列（なら）べるつもりである。<br/><br/>何となれば鑑識眼の有る無しにかかわらず、誰が見てもその美に打たれ、娯しめるものでなくては、美術館としての意義は発揮されないからである。<br/><br/>もちろんこの美術館も建築の設計から室内の設備、装飾等ことごとく神示のまま私が当るのであるから、出来上った上は、また別な効果を見せるであろう。<br/><br/> 右によって、大体神仙郷は完成するのであるから、その暁御神業は本格的発展の段階となるであろう。<br/><br/>そればかりではない。<br/><br/>熱海の方の造営も、飛躍的建設の順序となるのはもちろんで、神はすべて順序正しく進まれるので、これが真理である。<br/><br/> (注) 低徊（ていかい ）行きつ戻りつすること。<br/><br/>心を決めかねて同じ所をうろうろすること。<br/><br/> 潺潺（せんせん）水がさらさらと流れるさま。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

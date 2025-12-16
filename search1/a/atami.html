@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>atami</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 熱海の天国化 『光』14号、昭和24(1949)年6月25日発行 昭和二十四年五月二十八日静岡新聞に左のごとき記事が掲載されていた。<br><br> 【共同】戦後はじめての観光団として去月二十九日Ｇ・ゴードン号で来訪したハワイの一世、二世は東は日光から西は阿蘇別府など、二十一日間のスケジュールを無事終り、さる二十日からはそれぞれ思い出懐かしい故郷で七月二日帰国までの一ケ月余りを送っているが、彼らの眼に今度の観光旅行はどんな風に映ったか？ 団長重永茂夫氏や交通公社係員の意見をまとめてみた。<br><br> ◇非常によかった観光地＝首都東京は別として日光、宇治、伏見、京都、とくに東西本願寺は信者が多かっただけに好評、別府は温泉でゆったりしていて好適だった。<br><br> ◇今後のスケジュールから省いてもよい観光地＝熱海で、温泉地としてもっと静かなところがよい、博多、熊本は出身者が多い場合を除いて観光地としての価値はない、阿蘇はキラウエア火山（ハワイ）を見馴れた人にとっては珍しくない。<br><br> ◇今後のスケジュールに加えたいところ＝瀬戸内海、静かな伊豆の温泉。<br><br> ◇旅館のサービス設備について＝一世は純日本旅館、二世はホテルを絶対に好むが、とくに食事については徹底的な日本食で少しでも洋食がかったものは敬遠された。<br><br> ◇サービスが非常に遅い＝旅館によっては従業員の訓練がなっていない、一世の老人でも便所は必ず洋式を好む、温泉は男女混浴は嫌われる。<br><br> 以上の記事を読んでみるとまったくその通りで一言の否を唱うる事は出来ない、まったく熱海ほど風光明媚なる景勝地を占めながら、それを活かす事を怠っているという事は、着眼点の余りに低かったためであろう、低俗なる営業政策に安心しただ金さえ儲かればいいという浅薄な考え方は、時代の推移に眼を蔽うているとしか想われない。<br><br> したがって、熱海を今日のままにしておく限り、せっかく日本有数の景勝地に恵まれながら外客から見放されるようなことにならないとは限るまい、ゆえにどうしても今後の熱海としては旧来のごとき温泉場根性を一擲（いってき）し、新時代に即した新しい営業法に改めるべきで、国策上から言っても外客誘致の重責を果さなくてはならない、すなわち日本の熱海ではなく、世界の熱海となるべき抱負の下に大方針を打樹てるべきである。<br><br> 本教が宗教団体でありながら、最先にこの点に着眼し現在実行に着手しつつあるのが、本教のモットーである地上天国の模型である、そのため熱海を選択したのであって、今や如実に建設の歩を進めつつあるのである、言うまでもないが、この熱海こそは山あり、海あり、島あり伊豆の海岸線遠く、川奈辺まで幾条の岬の遠望の明媚なる左に真鶴岬の景観あり、気候の温和、温泉の清き、また天下の箱根にも近く、東西両都の中間にくらいし、交通の至便なる実に天与の理想的観光地である、それにもかかわらず、前述のごとく充分なる魅力を発揮し得ない事はまったく従来の方針が温泉のみに依存し、長夜の夢をむさぼっていた結果に外ならないのである。<br><br> 由来、外客は日本人のごとく、温泉には余り関心を持たない以上、温泉以外の自然の風致を大いに生かさなくてはならない、それには喧騒卑俗の市街地に遠ざかり、熱海郊外の静かにして眺望絶佳（ぜっか）な地点に理想的大ホテルを設置するのが急務である事はもちろんである。<br><br> 以上の意味において、本教が目下開拓中の熱海市に近くして程よく離れたる東端と西端の景勝地にユートピアを建設中で、将来熱海発展のための礎石たることを確信してはばからないのである。<br><br> （注）一擲（いってき）思いきってすべてをいっぺんに投げ捨てること。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Transformação de Atami em Paraíso Terrestre</h2>
 <p>Em um artigo publicado no jornal Shizuoka Shimbun, em 28 de maio de 1949, foram relatadas as seguintes impressões de um grupo de turistas nipo-havaianos, formado por membros da primeira e da segunda geração, que visitaram o Japão pela primeira vez após a guerra:</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Nesse sentido, embora sejamos uma instituição religiosa, nossa Igreja foi a primeira a atentar para esta questão e já deu início à sua concretização. Trata-se da construção de um modelo do Paraíso Terrestre, que é o lema de nossa fé. Foi justamente por esse motivo que escolhemos Atami e, no presente momento, os passos para sua edificação avançam de maneira sólida e visível. É desnecessário dizer que esta localidade é, de fato, uma dádiva celestial: possui montanhas, mar e ilhas; a vista deslumbrante do litoral de Izu que se estende ao longe até a região de Kawana, com suas inúmeras penínsulas; a paisagem do cabo de Manazuru à esquerda; o clima ameno e as águas termais puras. Além disso, encontra-se próxima à magnífica Hakone e estrategicamente localizada entre as capitais do leste e do oeste, com excelente acesso. Apesar de tudo isso, o fato de não conseguir expressar todo o seu encanto, como mencionado anteriormente, é resultado direto de uma política que dependeu exclusivamente das fontes termais, mergulhada em um longo sono de inércia.</p>
 <p>Historicamente, os visitantes estrangeiros não demonstram o mesmo interesse dos japoneses pelas fontes termais. Sendo assim, é fundamental que se valorizem ao máximo os outros encantos naturais da região. Para isso, é evidente a urgência de se estabelecer um grandioso hotel ideal em um ponto sereno e de vista privilegiada nos arredores de Atami, distante da agitação e da vulgaridade do centro urbano.</p>
 <p>É com esse propósito que nossa Igreja está construindo uma utopia em locais de beleza singular, nos extremos leste e oeste de Atami, próximos o suficiente do centro, mas devidamente resguardados. E não hesitamos em afirmar nossa convicção de que esta obra servirá como a pedra fundamental para o futuro desenvolvimento de Atami.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 熱海の天国化 『光』14号、昭和24(1949)年6月25日発行 昭和二十四年五月二十八日静岡新聞に左のごとき記事が掲載されていた。<br/><br/> 【共同】戦後はじめての観光団として去月二十九日Ｇ・ゴードン号で来訪したハワイの一世、二世は東は日光から西は阿蘇別府など、二十一日間のスケジュールを無事終り、さる二十日からはそれぞれ思い出懐かしい故郷で七月二日帰国までの一ケ月余りを送っているが、彼らの眼に今度の観光旅行はどんな風に映ったか？ 団長重永茂夫氏や交通公社係員の意見をまとめてみた。<br/><br/> ◇非常によかった観光地＝首都東京は別として日光、宇治、伏見、京都、とくに東西本願寺は信者が多かっただけに好評、別府は温泉でゆったりしていて好適だった。<br/><br/> ◇今後のスケジュールから省いてもよい観光地＝熱海で、温泉地としてもっと静かなところがよい、博多、熊本は出身者が多い場合を除いて観光地としての価値はない、阿蘇はキラウエア火山（ハワイ）を見馴れた人にとっては珍しくない。<br/><br/> ◇今後のスケジュールに加えたいところ＝瀬戸内海、静かな伊豆の温泉。<br/><br/> ◇旅館のサービス設備について＝一世は純日本旅館、二世はホテルを絶対に好むが、とくに食事については徹底的な日本食で少しでも洋食がかったものは敬遠された。<br/><br/> ◇サービスが非常に遅い＝旅館によっては従業員の訓練がなっていない、一世の老人でも便所は必ず洋式を好む、温泉は男女混浴は嫌われる。<br/><br/> 以上の記事を読んでみるとまったくその通りで一言の否を唱うる事は出来ない、まったく熱海ほど風光明媚なる景勝地を占めながら、それを活かす事を怠っているという事は、着眼点の余りに低かったためであろう、低俗なる営業政策に安心しただ金さえ儲かればいいという浅薄な考え方は、時代の推移に眼を蔽うているとしか想われない。<br/><br/> したがって、熱海を今日のままにしておく限り、せっかく日本有数の景勝地に恵まれながら外客から見放されるようなことにならないとは限るまい、ゆえにどうしても今後の熱海としては旧来のごとき温泉場根性を一擲（いってき）し、新時代に即した新しい営業法に改めるべきで、国策上から言っても外客誘致の重責を果さなくてはならない、すなわち日本の熱海ではなく、世界の熱海となるべき抱負の下に大方針を打樹てるべきである。<br/><br/> 本教が宗教団体でありながら、最先にこの点に着眼し現在実行に着手しつつあるのが、本教のモットーである地上天国の模型である、そのため熱海を選択したのであって、今や如実に建設の歩を進めつつあるのである、言うまでもないが、この熱海こそは山あり、海あり、島あり伊豆の海岸線遠く、川奈辺まで幾条の岬の遠望の明媚なる左に真鶴岬の景観あり、気候の温和、温泉の清き、また天下の箱根にも近く、東西両都の中間にくらいし、交通の至便なる実に天与の理想的観光地である、それにもかかわらず、前述のごとく充分なる魅力を発揮し得ない事はまったく従来の方針が温泉のみに依存し、長夜の夢をむさぼっていた結果に外ならないのである。<br/><br/> 由来、外客は日本人のごとく、温泉には余り関心を持たない以上、温泉以外の自然の風致を大いに生かさなくてはならない、それには喧騒卑俗の市街地に遠ざかり、熱海郊外の静かにして眺望絶佳（ぜっか）な地点に理想的大ホテルを設置するのが急務である事はもちろんである。<br/><br/> 以上の意味において、本教が目下開拓中の熱海市に近くして程よく離れたる東端と西端の景勝地にユートピアを建設中で、将来熱海発展のための礎石たることを確信してはばからないのである。<br/><br/> （注）一擲（いってき）思いきってすべてをいっぺんに投げ捨てること。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s270726</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年7月26日） 『御教え集』12号、昭和27(1952)年8月15日発行 昭和二十七年七月二十六日 『文明の創造』ですが、やっと暇ができたので書き始めたのです。<br><br>最初の方もだいぶ書き変えた所がありますから、ずーっと読ませます。<br><br> （御論文「文明の創造 序文」「地上天国、真と偽」） （「天国建設と悪の追放」）【栄光 一六九号】 今まで宗教でも哲学でもいろいろ説いたが、悪についてはあんまり説かなかった。<br><br>軽く説いてある。<br><br>私は悪について、まだまだいろんな方面から説くのですが、これが分からなくては、本当のことは分からないです。<br><br>ですから現在の医学というものも、これは悪の現われです。<br><br>これは必要悪です。<br><br>これは医学が使っている薬が、これがまたよい材料です。<br><br>薬で人間を弱らせるのです。<br><br>寿命を縮める。<br><br>これが必要だったというのは、人間が原始時代の毛むくじゃらな、まずい――食物でないような物を食って、始終裸で、やっと藁で作ったものを着て、穴でも掘って住んでいる。<br><br>それが、身体が健康だと平気でそれをやっている。<br><br>そこでどうしても身体を弱らせなければならない。<br><br>弱らせるために薬をのませたのです。<br><br>薬をのませると、そういう生活はできなくなりますから、なにか雨風を防ぐ家だとか、食物でもおいしい物を調理するとか智恵をしぼる。<br><br>それから原始時代にいろいろ闘うが、闘うにはいろいろしなければならない。<br><br>武器を作ったり――もっともその前に猛獣と闘っているが、その次に人間と闘ったということで、だんだん智識が進んできた。<br><br>で、神様が人間を最初造った時に、智識の方を先に造られなかった。<br><br>後まわしだった。<br><br>で、智識を造るために人間をある程度弱らせなければならなかった。<br><br>それで薬が良いように思わせた。<br><br>人間はずっと最初は、病は浄化作用ということは知らなかった。<br><br>そういうために薬を使っていたのです。<br><br>観音様が薬師如来に化現したのはそういうためです。<br><br>今観音様が薬は毒だ、薬は毒だというのは矛盾してますが、それは時期です。<br><br>時の関係でそういうことになる。<br><br>今は熱いから一重物を着ているが、これが冬になると温かい綿入れや火にあたったりする。<br><br>そういうもので、神様の時期は何万年目に変わる、何千万年目に変わらせるというくらいのものですが、それでも神様からみると一瞬のものです。<br><br>人間の目から何万年というが、神様の目では一秒かもしれない。<br><br>もっと短いかもしれない。<br><br>これが永遠の世界です。<br><br>ところが人間の寿命というものは、長くてわずか百年くらいですから、どうしても考え方が短く考える。<br><br>ですから文化を発達させるために争い、薬で弱らせるという、そういう手段をとったのです。<br><br>それでそうなったのです。<br><br>これからは――これ以上やると行き過ぎ的になってしまう。<br><br>そこで、ここらで止めてしまおうと――止めるには、本当のことを知らせなければ止められないから、私が本当のことをみんなに知らせて止める。<br><br>そこで悪の闘争を止めて、それで人間の智識もここまで来れば、闘争で智識を進めるという必要がなくなったのです。<br><br>やはり智識は進めて行きますが、今度は闘争でない方法で進めようと思う。<br><br>それはミロクの世になってもドンドン発明発見はできます。<br><br>今までの発明発見とは違う――今までの発明発見は、つまり戦争――人殺しの仕事です。<br><br>できるだけ短い時間で、できるだけ多くの人間の命を取ろう、殺してしまおう、それを防ごうという智識を使った。<br><br>今度はミロクの世になると、そういう智識でなくて、どうすれば人間が楽しめるか、どうすれば気持ちが良くなるか、どうすれば寿命が延びるか、という良いことの発明発見です。<br><br>そういうことを言ってもちょっと信じられないですが――今までにそういうことがなかったから――経験がないために夢のようにしか思えないのですが、ところがそれは神様ははっきりしているのです。<br><br>そういうこともこれからだんだん説いていくつもりです。<br><br>世界の人類に、今まで分からなかった本当のことを知らせることです。<br><br>これが『聖書』の「天国の福音」なのです。<br><br>それからが＜その前にもありますが＞世界の大転換――霊界では非常な大転換が起っているのですが、現界の方にも、だんだんそういうことが現われてくるのです。<br><br>それが、人間の目に一番分かりやすいのは、やっぱり病気です。<br><br>このごろ伝染病なんか非常に増えてきました。<br><br>赤痢だとか日本脳炎とか、ああいうものは非常な勢いで増えてきました。<br><br>それから結核が非常に増えてきましたが、今までは一時抑えの新薬で抑えてきましたが、これが新薬で抑えられないほどの浄化になったら、片っ端から肺病になってしまう。<br><br>今肺病の原料を作ってますが――ヒドラジドなんかすばらしいものです。<br><br>しかしそうなってからはみんなメシヤ教に頭を下げてくるのです。<br><br>もうそう長くないです。<br><br>だいぶ近寄ってきてます。<br><br>これが一番分かるのは、あなた方が浄霊してもだんだん効くでしょう。<br><br>去年より今年、先月より今月と、ずっと早く治ってくる。<br><br>これは霊界で火素が増えてきたためです。<br><br>つまり、火素が増えてきたということは、浄化が強くなったのです。<br><br>もう一息すると、てんてこまいする。<br><br>それも、こっちではない、世の中がです。<br><br>こっちはいよいよ落ちついてよい。<br><br>今まではこっちから奨めに――助けに行ったのが、今度は先方で助けてもらいたいと頼みに来る。<br><br>それまでの辛抱をしてもらいたいです。<br><br>そのくらいにしておきます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Mal Necessário e a Transição para a Era de Miroku</h2>
 <p>Finalmente, dispondo de algum tempo, retomei a escrita de “A Criação da Civilização”. Como realizei alterações significativas no início, solicitarei que o texto seja lido na íntegra.</p>
@@ -106,5 +258,48 @@ function toggleLang(lang) {
 <p>A manifestação mais perceptível aos olhos humanos é, sem dúvida, a doença. Vemos, recentemente, um recrudescimento das enfermidades infecciosas. Surtos de disenteria e de encefalite japonesa, por exemplo, alastram-se com grande ímpeto. A tuberculose, igualmente, avança. Até agora, seu progresso foi contido por novos medicamentos de efeito temporário, mas quando a purificação se intensificar a um ponto que nem eles consigam mais suprimi-la, os casos da doença se multiplicarão em massa.</p>
 <p>Atualmente, estão sendo criadas as próprias causas da tuberculose – a isoniazida, nesse aspecto, é um excelente catalisador. Contudo, quando a situação se agravar, todos virão buscar auxílio na Igreja Messiânica. Não tardará muito; esse tempo se aproxima. A prova mais clara disso é a eficácia crescente do Johrei que os senhores ministram. As curas se tornam mais rápidas a cada ano, a cada mês. Isso ocorre porque o Elemento Fogo está aumentando no Mundo Espiritual.</p>
 <p>Em outras palavras, o aumento do Elemento Fogo intensifica o processo de purificação. Falta pouco para que o mundo entre em grande tumulto – não nós, mas a sociedade em geral. Nós, ao contrário, desfrutaremos de crescente paz e estabilidade. Se até agora éramos nós que íamos ao encontro das pessoas para lhes oferecer ajuda, em breve serão elas que virão até nós suplicando por auxílio. Peço que perseverem com fé até esse dia. Por ora, encerro minhas palavras.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年7月26日） 『御教え集』12号、昭和27(1952)年8月15日発行 昭和二十七年七月二十六日 『文明の創造』ですが、やっと暇ができたので書き始めたのです。<br/><br/>最初の方もだいぶ書き変えた所がありますから、ずーっと読ませます。<br/><br/> （御論文「文明の創造 序文」「地上天国、真と偽」） （「天国建設と悪の追放」）【栄光 一六九号】 今まで宗教でも哲学でもいろいろ説いたが、悪についてはあんまり説かなかった。<br/><br/>軽く説いてある。<br/><br/>私は悪について、まだまだいろんな方面から説くのですが、これが分からなくては、本当のことは分からないです。<br/><br/>ですから現在の医学というものも、これは悪の現われです。<br/><br/>これは必要悪です。<br/><br/>これは医学が使っている薬が、これがまたよい材料です。<br/><br/>薬で人間を弱らせるのです。<br/><br/>寿命を縮める。<br/><br/>これが必要だったというのは、人間が原始時代の毛むくじゃらな、まずい――食物でないような物を食って、始終裸で、やっと藁で作ったものを着て、穴でも掘って住んでいる。<br/><br/>それが、身体が健康だと平気でそれをやっている。<br/><br/>そこでどうしても身体を弱らせなければならない。<br/><br/>弱らせるために薬をのませたのです。<br/><br/>薬をのませると、そういう生活はできなくなりますから、なにか雨風を防ぐ家だとか、食物でもおいしい物を調理するとか智恵をしぼる。<br/><br/>それから原始時代にいろいろ闘うが、闘うにはいろいろしなければならない。<br/><br/>武器を作ったり――もっともその前に猛獣と闘っているが、その次に人間と闘ったということで、だんだん智識が進んできた。<br/><br/>で、神様が人間を最初造った時に、智識の方を先に造られなかった。<br/><br/>後まわしだった。<br/><br/>で、智識を造るために人間をある程度弱らせなければならなかった。<br/><br/>それで薬が良いように思わせた。<br/><br/>人間はずっと最初は、病は浄化作用ということは知らなかった。<br/><br/>そういうために薬を使っていたのです。<br/><br/>観音様が薬師如来に化現したのはそういうためです。<br/><br/>今観音様が薬は毒だ、薬は毒だというのは矛盾してますが、それは時期です。<br/><br/>時の関係でそういうことになる。<br/><br/>今は熱いから一重物を着ているが、これが冬になると温かい綿入れや火にあたったりする。<br/><br/>そういうもので、神様の時期は何万年目に変わる、何千万年目に変わらせるというくらいのものですが、それでも神様からみると一瞬のものです。<br/><br/>人間の目から何万年というが、神様の目では一秒かもしれない。<br/><br/>もっと短いかもしれない。<br/><br/>これが永遠の世界です。<br/><br/>ところが人間の寿命というものは、長くてわずか百年くらいですから、どうしても考え方が短く考える。<br/><br/>ですから文化を発達させるために争い、薬で弱らせるという、そういう手段をとったのです。<br/><br/>それでそうなったのです。<br/><br/>これからは――これ以上やると行き過ぎ的になってしまう。<br/><br/>そこで、ここらで止めてしまおうと――止めるには、本当のことを知らせなければ止められないから、私が本当のことをみんなに知らせて止める。<br/><br/>そこで悪の闘争を止めて、それで人間の智識もここまで来れば、闘争で智識を進めるという必要がなくなったのです。<br/><br/>やはり智識は進めて行きますが、今度は闘争でない方法で進めようと思う。<br/><br/>それはミロクの世になってもドンドン発明発見はできます。<br/><br/>今までの発明発見とは違う――今までの発明発見は、つまり戦争――人殺しの仕事です。<br/><br/>できるだけ短い時間で、できるだけ多くの人間の命を取ろう、殺してしまおう、それを防ごうという智識を使った。<br/><br/>今度はミロクの世になると、そういう智識でなくて、どうすれば人間が楽しめるか、どうすれば気持ちが良くなるか、どうすれば寿命が延びるか、という良いことの発明発見です。<br/><br/>そういうことを言ってもちょっと信じられないですが――今までにそういうことがなかったから――経験がないために夢のようにしか思えないのですが、ところがそれは神様ははっきりしているのです。<br/><br/>そういうこともこれからだんだん説いていくつもりです。<br/><br/>世界の人類に、今まで分からなかった本当のことを知らせることです。<br/><br/>これが『聖書』の「天国の福音」なのです。<br/><br/>それからが＜その前にもありますが＞世界の大転換――霊界では非常な大転換が起っているのですが、現界の方にも、だんだんそういうことが現われてくるのです。<br/><br/>それが、人間の目に一番分かりやすいのは、やっぱり病気です。<br/><br/>このごろ伝染病なんか非常に増えてきました。<br/><br/>赤痢だとか日本脳炎とか、ああいうものは非常な勢いで増えてきました。<br/><br/>それから結核が非常に増えてきましたが、今までは一時抑えの新薬で抑えてきましたが、これが新薬で抑えられないほどの浄化になったら、片っ端から肺病になってしまう。<br/><br/>今肺病の原料を作ってますが――ヒドラジドなんかすばらしいものです。<br/><br/>しかしそうなってからはみんなメシヤ教に頭を下げてくるのです。<br/><br/>もうそう長くないです。<br/><br/>だいぶ近寄ってきてます。<br/><br/>これが一番分かるのは、あなた方が浄霊してもだんだん効くでしょう。<br/><br/>去年より今年、先月より今月と、ずっと早く治ってくる。<br/><br/>これは霊界で火素が増えてきたためです。<br/><br/>つまり、火素が増えてきたということは、浄化が強くなったのです。<br/><br/>もう一息すると、てんてこまいする。<br/><br/>それも、こっちではない、世の中がです。<br/><br/>こっちはいよいよ落ちついてよい。<br/><br/>今まではこっちから奨めに――助けに行ったのが、今度は先方で助けてもらいたいと頼みに来る。<br/><br/>それまでの辛抱をしてもらいたいです。<br/><br/>そのくらいにしておきます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>gakuse</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 学説と現実 『明日の医術 第一編』昭和18(1943)年10月5日発行 昭和十八年三月十一日の朝日新聞、強兵健民欄に左の記事が掲載されていた。<br><br> 『医学と体育の問題』――強兵健民を目指してわが体育はあらゆる角度から再検討されているが、体育問題を掘り下げれば下げる程医学との深い結びつけの必要さが痛感される。<br><br>ここにおいて体育、医学の両者は漸く相携えてわが国の真の体育体系の確立のために邁進せんとしているが以下この両者の意見を聴こう。<br><br> 健康と結核の関係 東京市中野療養所技師 隈部英雄氏 「大東亜決戦下人的資源の確保増強の必要性が痛感さるゝに及んで、従来の競技を主とした体育にたいして種々の角度から批判検討が加えられつゝある。<br><br> 純体育方面の検討は、これを体育専門家に任せることゝして、われわれ医学に携わる者特に結核専門医の立場からこの問題を考察してみると、ゆるがせにする事の出来ない多くの問題が伏在していることを痛感する。<br><br>その最大の問題は結核と体育の問題である。<br><br> 実際問題として従来青少年の体育に関して一番障碍となっていたものは結核である。<br><br> 従来スポーツの選手がいかに多く肋膜炎や結核でたおれたことであろう。<br><br>しかもこれら選手は優秀な肉体の所有者であり、かかる者こそ強健なる子孫を多く残すことが民族的にみて最も望ましいことなのである。<br><br> 第二はこれとは全く対蹠（たいしょ）的な、いわゆる虚弱者虚弱児童の問題である。<br><br>今までこの問題にたいして一体どこに重点をおいて考えていたか。<br><br>暗黙の中に結核にたいして漠然と関係づけて考えていた点がありはしなかったか。<br><br>しかるに皮肉にも、いわゆるこれら虚弱者、虚弱児童の中にはほとんど結核患者はいないということを医学は証明している。<br><br> 従来の虚弱なる概念から、結核は全く棄て去られなければならない。<br><br>虚弱と結核の間には何らの関係もないのである。<br><br>かゝる者こそ科学的に合理的に鍛錬しなければならないのであるが、この分野は医者の方面からも体育家の方面からも一番等閑に付せられていた未開拓のものである。<br><br> 一方において優秀な肉体の所有者が結核にたおれ、他方においては合理的鍛錬を必要とする人々が体育に見放されていたという矛盾は結核を、各人の見かけ、健康感によって判断していたということに由来する。<br><br> すなわち結核に関する限り一切の見かけは全然あてにならないのみならず、病勢がよほど進行しない限り、自覚的にも外観的にも症状は出ないものである。<br><br>結核にかゝらない体格体質はないのは勿論、結核は鍛錬によっては決して防止出来るものではない。<br><br>結核に関する限り、一切の解決が正当な科学的方法によってのみ可能である。<br><br> 錬成に耐え得る人間を選定するのが医者であり、体育家はこれを合理的により強く鍛錬する。<br><br>こゝに今後医学者と体育家が密接に協力すべき広大な分野が存する。<br><br>体育によって一人の皇国民も喪（うしな）ってはならないし、一人の虚弱者もあってはならない。<br><br>これがまた今後の医者と体育家の理想である。<br><br>」 私は、右の記事が事実であるとすれば、実に驚くべき問題を提供したと思うのである。<br><br>それはいかなる点が重大であるかというと、いうまでもなく、現在わが国民の青少年層の大部分が健康体であれば結核容疑者であり、虚弱者であれば結核免疫者であるという――二つの型であるということである。<br><br> 次に、今一つここに見逃すことの出来ない重要問題がある。<br><br>それは何であるか――というと、今日までの学説においては、結核発病者は、生来の虚弱者即ち腺病質的児童か又は一時的何らかの原因によって抵抗力薄弱となったゝめ、その隙に乗じてかねて潜入していた結核菌が、爆発的に猛威を逞しくし始め発病するというので、これはすでに医学の定説にまでなっている事実である。<br><br>しかるに、右の隈部氏の指示したごとくであるとすれば、今日までの医学の説は全く覆（くつが）えらざるを得ない事になり、体育と医学を結びつける――などということは、到底言うべくして行われ難いであろう。<br><br>しかし、万一結び得るとして、虚弱者が幸にも体育に堪え得る程度の健康になったとしたらそれは畢竟（ひっきょう）、結核容疑者の仲間入りをするという事になるから、いずれが是か非か、判断に迷わざるを得ないという訳になろう。<br><br> 再三述べたごとく、結核は旺盛なる浄化作用であるという私の理論を、右の新聞記事がよく裏書している事を知るであろう。<br><br> 次に、右の記事中にある〃結核は鍛錬によっては決して防止出来るものではない〃――という一事は何を示唆しているであろうか。<br><br>今日体育に携わるものゝ大いに考慮しなければならない重要事であろう。<br><br> 同、スポーツの選手がいかに多く肋膜炎や結核でたおれるという一事も、その原因を突止めなくてはならない。<br><br>これは私の考察によれば、一種類の競技を持続する場合、さきに説いたごとく、その神経集中個所に毒素固結を生ずる。<br><br>それがたまたま浄化作用により、発熱、咳嗽、喀痰等の症状発生し、医診は結核と断定し、誤れる療法によって、ついに生命を落す事になるのである。<br><br> 又肋膜炎は胸部の打撲、又は腕力、強烈なる腕の使用によることが原因である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdade sobre a Tuberculose e o Vigor Físico</h2>
 <p>O seguinte artigo foi publicado na edição de 11 de março de 1943 do jornal Asahi Shimbun, na coluna “Povo Forte, Soldados Fortes”.</p>
@@ -109,5 +261,48 @@ Por Hideo Kumabe, técnico do Sanatório Nakano, Tóquio.</p>
 <p>Analisemos, agora, o que sugere a seguinte passagem do artigo: "a tuberculose jamais poderá ser prevenida apenas com treinamento". Este é, certamente, um ponto de suma importância, que deve ser profundamente considerado por todos os que se dedicam à educação física.</p>
 <p>Da mesma forma, é imperativo investigar a fundo a causa pela qual tantos atletas sucumbem à pleurisia e à tuberculose. De acordo com minha análise, quando um atleta se dedica continuamente a um único tipo de esporte, ocorre uma solidificação de toxinas nos pontos de maior concentração nervosa, conforme expliquei anteriormente. Quando o processo de purificação se inicia, surgem sintomas como febre, tosse e expectoração, que são diagnosticados pelos médicos como tuberculose. Em consequência, por meio de tratamentos errôneos, o indivíduo acaba por perder a vida.</p>
 <p>A pleurisia, por sua vez, tem como causa os traumatismos torácicos ou o uso intenso e vigoroso dos braços e da força.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 学説と現実 『明日の医術 第一編』昭和18(1943)年10月5日発行 昭和十八年三月十一日の朝日新聞、強兵健民欄に左の記事が掲載されていた。<br/><br/> 『医学と体育の問題』――強兵健民を目指してわが体育はあらゆる角度から再検討されているが、体育問題を掘り下げれば下げる程医学との深い結びつけの必要さが痛感される。<br/><br/>ここにおいて体育、医学の両者は漸く相携えてわが国の真の体育体系の確立のために邁進せんとしているが以下この両者の意見を聴こう。<br/><br/> 健康と結核の関係 東京市中野療養所技師 隈部英雄氏 「大東亜決戦下人的資源の確保増強の必要性が痛感さるゝに及んで、従来の競技を主とした体育にたいして種々の角度から批判検討が加えられつゝある。<br/><br/> 純体育方面の検討は、これを体育専門家に任せることゝして、われわれ医学に携わる者特に結核専門医の立場からこの問題を考察してみると、ゆるがせにする事の出来ない多くの問題が伏在していることを痛感する。<br/><br/>その最大の問題は結核と体育の問題である。<br/><br/> 実際問題として従来青少年の体育に関して一番障碍となっていたものは結核である。<br/><br/> 従来スポーツの選手がいかに多く肋膜炎や結核でたおれたことであろう。<br/><br/>しかもこれら選手は優秀な肉体の所有者であり、かかる者こそ強健なる子孫を多く残すことが民族的にみて最も望ましいことなのである。<br/><br/> 第二はこれとは全く対蹠（たいしょ）的な、いわゆる虚弱者虚弱児童の問題である。<br/><br/>今までこの問題にたいして一体どこに重点をおいて考えていたか。<br/><br/>暗黙の中に結核にたいして漠然と関係づけて考えていた点がありはしなかったか。<br/><br/>しかるに皮肉にも、いわゆるこれら虚弱者、虚弱児童の中にはほとんど結核患者はいないということを医学は証明している。<br/><br/> 従来の虚弱なる概念から、結核は全く棄て去られなければならない。<br/><br/>虚弱と結核の間には何らの関係もないのである。<br/><br/>かゝる者こそ科学的に合理的に鍛錬しなければならないのであるが、この分野は医者の方面からも体育家の方面からも一番等閑に付せられていた未開拓のものである。<br/><br/> 一方において優秀な肉体の所有者が結核にたおれ、他方においては合理的鍛錬を必要とする人々が体育に見放されていたという矛盾は結核を、各人の見かけ、健康感によって判断していたということに由来する。<br/><br/> すなわち結核に関する限り一切の見かけは全然あてにならないのみならず、病勢がよほど進行しない限り、自覚的にも外観的にも症状は出ないものである。<br/><br/>結核にかゝらない体格体質はないのは勿論、結核は鍛錬によっては決して防止出来るものではない。<br/><br/>結核に関する限り、一切の解決が正当な科学的方法によってのみ可能である。<br/><br/> 錬成に耐え得る人間を選定するのが医者であり、体育家はこれを合理的により強く鍛錬する。<br/><br/>こゝに今後医学者と体育家が密接に協力すべき広大な分野が存する。<br/><br/>体育によって一人の皇国民も喪（うしな）ってはならないし、一人の虚弱者もあってはならない。<br/><br/>これがまた今後の医者と体育家の理想である。<br/><br/>」 私は、右の記事が事実であるとすれば、実に驚くべき問題を提供したと思うのである。<br/><br/>それはいかなる点が重大であるかというと、いうまでもなく、現在わが国民の青少年層の大部分が健康体であれば結核容疑者であり、虚弱者であれば結核免疫者であるという――二つの型であるということである。<br/><br/> 次に、今一つここに見逃すことの出来ない重要問題がある。<br/><br/>それは何であるか――というと、今日までの学説においては、結核発病者は、生来の虚弱者即ち腺病質的児童か又は一時的何らかの原因によって抵抗力薄弱となったゝめ、その隙に乗じてかねて潜入していた結核菌が、爆発的に猛威を逞しくし始め発病するというので、これはすでに医学の定説にまでなっている事実である。<br/><br/>しかるに、右の隈部氏の指示したごとくであるとすれば、今日までの医学の説は全く覆（くつが）えらざるを得ない事になり、体育と医学を結びつける――などということは、到底言うべくして行われ難いであろう。<br/><br/>しかし、万一結び得るとして、虚弱者が幸にも体育に堪え得る程度の健康になったとしたらそれは畢竟（ひっきょう）、結核容疑者の仲間入りをするという事になるから、いずれが是か非か、判断に迷わざるを得ないという訳になろう。<br/><br/> 再三述べたごとく、結核は旺盛なる浄化作用であるという私の理論を、右の新聞記事がよく裏書している事を知るであろう。<br/><br/> 次に、右の記事中にある〃結核は鍛錬によっては決して防止出来るものではない〃――という一事は何を示唆しているであろうか。<br/><br/>今日体育に携わるものゝ大いに考慮しなければならない重要事であろう。<br/><br/> 同、スポーツの選手がいかに多く肋膜炎や結核でたおれるという一事も、その原因を突止めなくてはならない。<br/><br/>これは私の考察によれば、一種類の競技を持続する場合、さきに説いたごとく、その神経集中個所に毒素固結を生ずる。<br/><br/>それがたまたま浄化作用により、発熱、咳嗽、喀痰等の症状発生し、医診は結核と断定し、誤れる療法によって、ついに生命を落す事になるのである。<br/><br/> 又肋膜炎は胸部の打撲、又は腕力、強烈なる腕の使用によることが原因である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

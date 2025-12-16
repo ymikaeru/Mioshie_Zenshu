@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s270505</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年5月5日） 『御教え集』10号、昭和27(1952)年6月15日発行 昭和二十七年五月五日 【御教え】 この間奈良の方に行って仏教美術を調べ、研究して大いに参考になったんですがね。<br><br>それをちょっと書いてみたんで、今読ませます。<br><br> （御論文「奈良美術行脚」）【栄光 一五六号】 この間京都、奈良に行ってみましたが、法隆寺に夢殿という小さい――御堂というほどのものじゃないですが、お厨子の大きいようなものがあるんです。<br><br>それは一年に一遍きりしか開けないことになっているが、ちょうど私が行った時に、なんの理由か知らないが開くということになったのです。<br><br>それで私は、ははあと思ったんです。<br><br>で、開けてあるのを見たんですが、そうすると中にやはり観音様がおられたんです。<br><br>その観音様の御像から、とてもなんとも言えない霊気が、スーッと入ってきて、実に良い気持ちだったんです。<br><br>涙が出そうになった。<br><br>非常に待っていたんですね。<br><br>それは非常に深い意味があるんですがね。<br><br>その時分かったことは、聖徳太子という方は、あれは千手観音の小さいんです。<br><br>千手観音というよりか、千手観音がまだ充分のお働きができないために、小規模にいろいろなことをなされたんです。<br><br>で、日本に仏教を弘めたのが奈良ですね。<br><br>仏教の発祥地ですね。<br><br>そこで急激にさかんになって、法隆寺を始め東大寺――奈良の大仏ですね。<br><br>大仏みたいな、ああいうすばらしいものができたんです。<br><br>そのくらい仏教が、あの時一時さかんになったんです。<br><br>で、聖徳太子は仏教を弘めるうちに、仏教芸術を弘めたんですね。<br><br>ですから聖徳太子はああいったいろいろな芸術――仏教的芸術を生んだことですし、それが仏教を弘める一つの手段として、そうされたんですね。<br><br>法隆寺を中心として、あそこに七堂伽藍を作られたわけなんです。<br><br>そうかといって、宗教ばかりでなく、なにしろあの当時に十七カ条の御誓文を作られたんですから、日本における憲法の始めですね。<br><br>そうすると、政治家といっても良いですね。<br><br>政治的能力のある方と、こう言っても良いんですから、単に仏教家、宗教人でもなかったんですね。<br><br>もっと深い広い、思想的の人だったですね。<br><br>とすると非常におもしろいと思うんです。<br><br>奈良の夢殿の観音様が、そこにお名前が救世観世音としてあるんですね。<br><br>これは文献にあるにはあるんです。<br><br>親鸞上人の書いたのに救世（ぐせ）観世音とあるんです。<br><br>それをその時分に救世観世音というそれを、私は「メシヤ」と仮名をふったわけですね。<br><br>これは私が初めてやったわけなんです。<br><br>そこで私の方から言うと「救世（メシヤ）観音」です。<br><br>救世観音が千二百年前にそのお厨子の中に入られて、時を待っておられたんですね。<br><br>聖徳太子様はいろいろ仕事をされるのに、夢殿のある所の部屋で仕事をし――起居されていたんですね。<br><br>それでその位置に夢殿を作られたんです。<br><br>ですから夢殿というのは聖徳太子にもっとも因縁の深い所ですね。<br><br>その救世観音の像に宿られて時を待たれた。<br><br>で、この間行って開扉して、私が行って、そこから出られたんです。<br><br>出られて、今度は本当にお働きになる。<br><br>で、私は今千手観音の働きをしているわけですね。<br><br>だからなんにでも手を出す。<br><br>なんでもできるわけですね。<br><br>聖徳太子のお働きを大きくした、つまり世界的にしたんですね。<br><br>それが今私がやっている仕事です。<br><br>ですから聖徳太子は、やはり観音様が日本に経綸をされるために、聖徳太子に生まれられたといっても良いし、聖徳太子を使われたといっても良いですね。<br><br>ですから結局観音様が聖徳太子になられて、で今度は聖徳太子が私に生まれてきて、そうしてあの時代の――それは日本だけですからね。<br><br>日本に対する仏教を弘めた。<br><br>その手段として芸術ですね。<br><br>それを作られたということを、今度大きく世界的にして、つまり仏教じゃない――あらゆる宗教ですね。<br><br>あらゆる――世界的宗教、世界的救いですね。<br><br>それをやる。<br><br>と、そういうように解釈すると大体解ると思うんです。<br><br>ですから私が美術館を造ったりいろいろすることは、聖徳太子の世界的やり方と、こう見れば良く解ると思いますね。<br><br> そんなわけで私は以前から、自分は聖徳太子にある点は非常に似た所があると思っていたんですがね。<br><br>今度行ってその因縁がはっきり分かったわけですね。<br><br>私が、自分ではっきり言うと、非常に頭が良いんです。<br><br>聖徳太子の話に、八人の人の話を聞き別けたということが有名で、伝説にありますが、あれはおまけもだいぶあるでしょうが、とにかく頭の良かったということは確かです。<br><br>で、あの時分のいろんな仏教芸術の、聖徳太子の独創的な物も随分あるようですからね。<br><br>私はラジオを聞きながら、なにか読むとか見るとかしながら、それから人の話を聞く。<br><br>三人四人くらいなことはやりますがね。<br><br>けれども、そうすると頭をよけい使いますから骨が折れます。<br><br>それで、俺は聖徳太子に似ているなと思うことがありました。<br><br>そんなような具合で、よほど――今度行ってもおもしろかったですね。<br><br>ですから千手観音の働きをするんです。<br><br>仮に美術品なんかも、道具屋が驚いている。<br><br>どんな人でも一色か二色、茶器の好きなものはお茶に関するもの、絵が好きな人は絵。<br><br>絵でも浮世絵の好きな人もあるし、水墨的なものが好きな人もあるし、光琳の好きな人もあるし。<br><br>大和絵、錦絵とかいろいろあります。<br><br>私は全部好きでやってます。<br><br>支那陶器でも仏像の方でも、だからおそらく私くらい間口の広い人はないそうです。<br><br>ですから美術館なんかといっても、たいてい全般的にわたってという美術館はないです。<br><br>外国にもないでしょう。<br><br>イギリス、アメリカあたりの美術館、博物館の図録を見ても――もっとも日本のものなんかは手に入れられないからしかたがないが――どうも局部的ですね。<br><br>今度の美術館は全般的ですからね。<br><br>ですからその点においては世界一と言っても良いですね。<br><br>それもある一部のものも、ただ全般的につまみ食い的ではなくて、一種類一種類深く集めたわけですから、仮に日本の蒔絵なら蒔絵。<br><br>蒔絵のごく最高のもの。<br><br>ちょっと見られないような、そういうようなものを集めるとか、あるいは支那のものにしても、仏像のようなものにしても、その種類のうちで一番高い――最高のもの、一級品を集めてありますから、とにかくそういう方面に目のある人は驚くだろうと思いますね。<br><br>それをやり始めると、私はじきに分かっちゃうんですよ。<br><br>だからほとんど買い損ないがないくらいですね。<br><br>それから贋物と本物がじき分かりますからね。<br><br>たくさん――何百とありますが、贋物は一つもない。<br><br>おもしろいのは、贋物はいくら上手くできていても、私がこう見ると、霊気で分かる。<br><br>良い物は――本当の物は、なんとも言えない良い霊気が入ってくる。<br><br>贋物ですと、その贋物を作った人の魂がそこに入ってますから、上手く瞞して本物に見せて、金を儲けようという邪念がフッと来てますから、実に良く分かる。<br><br>で、買い損ないがないわけですね。<br><br>だからよく――うんと月謝を払わなければ、判るようにはならないということをよく言われてますが、私はほとんど買い損なったものはないんですね。<br><br>だからただで――月謝なしで習ったわけですね。<br><br>そんなようなわけで、美術館ができるとかなり世の中の人は驚くだろうと思ってます。<br><br> 最初、開館式は六月十五日のつもりです。<br><br>六月十五日、六日――日光殿も広くなったし、信者さんもいよいよ増えてますし、美術館ができた以上は一刻も早く見たいですから、どうしても大勢来られることになりますから、十五日から五日間というようなことにしますがね。<br><br>そうして信者さんをなにより先に見せて、それから七月の月始めに、関係がある人に見せるべく――数十人――それを招待して見せようと思う。<br><br>私が最近「東洋美術協会」というのを作って――私が作ったのではないが、私が相談相手になって作ったんですが、これがちょうど五十何人か会員がいる。<br><br>これは著名な人ばかりです。<br><br>会長は武者小路実篤ですね。<br><br>作家のね。<br><br>あの人が会長です。<br><br>この人を会長にしたが、他の人はやっぱりいろんな事情で会長になれない。<br><br>最初は小林一三さんを会長にと思ったが、いろんな事情で勘弁してくれという。<br><br>それから細川護立さんね。<br><br>それも駄目なので、それで武者小路さんに決まったんです。<br><br>まあそういった方面の人から、いろんな著名な人ばかりですね。<br><br>で、そういう人たちも七月の月初めに見せる。<br><br>それから新聞社、放送局だとか、そういういろんな方面の人を招んで、それから一般の人を見せる。<br><br>そういう順序に決まったわけです。<br><br>なにしろ神様がやっているんですから、美術館に飾るようなものは不思議に入ってくるんですよ。<br><br>だから、どうしてこれを手に入れただろう、というようなものが随分ありますから、その点でも、見る人は随分驚くだろうと思います。<br><br> 美術館に関したことはそのくらいで、それからこれは、今度「新宗連」ですね。<br><br>新宗連で新聞を発行するというので、私に記事を書いてくれと言うので、それを書いてみたんですが、今読ませますが、これは今の――現在の宗教人そういう人に読ませる意味で書いたんです。<br><br>そのつもりで。<br><br> （御論文「今後吾等は如何にすべきや〔新生日本への希望〕」） 結核問題について、大体できて、これから印刷にかかろうと思ったんですが、随分念を入れて書きましたから、これを読んで解らない者はないだろうと思います。<br><br>それについて、今度お蔭話の一つですが、現代医学の間違っている点が非常に良く現われているので、それを今ちょっと読ませます。<br><br> （御論文「恐るべき医学迷信」）【栄光 一五七号】 つまり、それで思うことは、こうして自分がやった病人が、これほどに治ったことを知りながら、それっきりになっちゃうんです。<br><br>ただ不思議だとね。<br><br>こんなに治るものなら、大いに研究しなければ、という心が起こらなければならない。<br><br>それを、ヒドラジドなんてやって大騒ぎをやる。<br><br>それで、完全に――もっと治る、もっとはっきりしているのを医者がなんとも言わないし、それにこういう記事を一年くらい前から厚生省に送っているんですが、こういう記事を読んでいるはずですが、それで知らん顔しているんですから、こういう人の頭脳ですね。<br><br>なんと言って良いか、とうてい表現しようがないんです。<br><br>私はこの点においては野蛮人より低いと思う。<br><br>これを野蛮人が見れば、これはたいへんだと大騒ぎをしますね。<br><br>それを頑として頭を変えないですよ。<br><br>これは非常に強い迷信ですね。<br><br>この迷信は宗教に負けない。<br><br>宗教以上と思う。<br><br>医者が始終、お蔭話を見れば解りますが、始終各地で医者は驚いているんです。<br><br>それでなんとも言ってくる人はないし、それを厚生省の連中が見ていて、それでなんとも言ってこないんですから、それは実に不思議ですよ。<br><br>けれどもいずれは頭を下げます。<br><br>ただ遅れれば遅れるだけ、犠牲になって命をなくす人がたくさんありますから、それがいかにもかわいそうだと思ってね。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Legado do Príncipe Shotoku e a Missão Messiânica</h2>
 <p>Recentemente, estive em Nara para pesquisar a arte budista, o que se revelou de grande valia para meus estudos. Escrevi um breve texto a respeito, que será lido em seguida.</p>
@@ -106,5 +258,48 @@ function toggleLang(lang) {
 <p>Abordando agora a questão da tuberculose, o material que preparei sobre o tema está praticamente finalizado e pronto para impressão. Escrevi-o com extremo esmero para que não reste nenhuma dúvida ao leitor. A esse respeito, gostaria de apresentar um relato de graça recebida que ilustra com clareza um dos graves equívocos da medicina moderna. Solicitarei que o leiam agora.</p>
 <p>O que me leva a refletir é que, mesmo testemunhando a cura extraordinária de pacientes que tratei, os médicos simplesmente encerram o assunto. Limitam-se a classificar o fato como "um mistério". Ora, diante de uma recuperação tão eficaz, a reação natural deveria ser a de investigar a fundo, mas essa curiosidade não lhes ocorre. Em vez disso, promovem um grande alarde em torno de medicamentos como a isoniazida. Ignoram um método de cura muito mais completo e evidente, e não se manifestam. Há quase um ano, enviamos relatórios como este ao Ministério da Saúde e do Bem-Estar, que certamente foram lidos, mas a instituição permanece em silêncio. A mentalidade dessas pessoas é algo que mal encontro palavras para descrever.</p>
 <p>A meu ver, nesse aspecto, estão abaixo dos povos primitivos. Se um desses povos visse tais curas, reagiria com grande alvoroço, reconhecendo sua importância. Eles, no entanto, recusam-se obstinadamente a mudar de perspectiva. Trata-se de uma superstição muito arraigada, que, em minha opinião, supera a que se encontra na religião. Como se pode constatar nos relatos de graças recebidas, médicos de todas as partes do país se surpreendem constantemente. Contudo, nenhum deles nos procura, e os funcionários do Ministério, mesmo cientes de tudo, nada dizem. É deveras intrigante. Inevitavelmente, um dia eles terão de baixar a cabeça e reconhecer a verdade. Todavia, quanto mais tardarem, mais vidas serão sacrificadas, e é por essas pessoas que sinto imensa compaixão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年5月5日） 『御教え集』10号、昭和27(1952)年6月15日発行 昭和二十七年五月五日 【御教え】 この間奈良の方に行って仏教美術を調べ、研究して大いに参考になったんですがね。<br/><br/>それをちょっと書いてみたんで、今読ませます。<br/><br/> （御論文「奈良美術行脚」）【栄光 一五六号】 この間京都、奈良に行ってみましたが、法隆寺に夢殿という小さい――御堂というほどのものじゃないですが、お厨子の大きいようなものがあるんです。<br/><br/>それは一年に一遍きりしか開けないことになっているが、ちょうど私が行った時に、なんの理由か知らないが開くということになったのです。<br/><br/>それで私は、ははあと思ったんです。<br/><br/>で、開けてあるのを見たんですが、そうすると中にやはり観音様がおられたんです。<br/><br/>その観音様の御像から、とてもなんとも言えない霊気が、スーッと入ってきて、実に良い気持ちだったんです。<br/><br/>涙が出そうになった。<br/><br/>非常に待っていたんですね。<br/><br/>それは非常に深い意味があるんですがね。<br/><br/>その時分かったことは、聖徳太子という方は、あれは千手観音の小さいんです。<br/><br/>千手観音というよりか、千手観音がまだ充分のお働きができないために、小規模にいろいろなことをなされたんです。<br/><br/>で、日本に仏教を弘めたのが奈良ですね。<br/><br/>仏教の発祥地ですね。<br/><br/>そこで急激にさかんになって、法隆寺を始め東大寺――奈良の大仏ですね。<br/><br/>大仏みたいな、ああいうすばらしいものができたんです。<br/><br/>そのくらい仏教が、あの時一時さかんになったんです。<br/><br/>で、聖徳太子は仏教を弘めるうちに、仏教芸術を弘めたんですね。<br/><br/>ですから聖徳太子はああいったいろいろな芸術――仏教的芸術を生んだことですし、それが仏教を弘める一つの手段として、そうされたんですね。<br/><br/>法隆寺を中心として、あそこに七堂伽藍を作られたわけなんです。<br/><br/>そうかといって、宗教ばかりでなく、なにしろあの当時に十七カ条の御誓文を作られたんですから、日本における憲法の始めですね。<br/><br/>そうすると、政治家といっても良いですね。<br/><br/>政治的能力のある方と、こう言っても良いんですから、単に仏教家、宗教人でもなかったんですね。<br/><br/>もっと深い広い、思想的の人だったですね。<br/><br/>とすると非常におもしろいと思うんです。<br/><br/>奈良の夢殿の観音様が、そこにお名前が救世観世音としてあるんですね。<br/><br/>これは文献にあるにはあるんです。<br/><br/>親鸞上人の書いたのに救世（ぐせ）観世音とあるんです。<br/><br/>それをその時分に救世観世音というそれを、私は「メシヤ」と仮名をふったわけですね。<br/><br/>これは私が初めてやったわけなんです。<br/><br/>そこで私の方から言うと「救世（メシヤ）観音」です。<br/><br/>救世観音が千二百年前にそのお厨子の中に入られて、時を待っておられたんですね。<br/><br/>聖徳太子様はいろいろ仕事をされるのに、夢殿のある所の部屋で仕事をし――起居されていたんですね。<br/><br/>それでその位置に夢殿を作られたんです。<br/><br/>ですから夢殿というのは聖徳太子にもっとも因縁の深い所ですね。<br/><br/>その救世観音の像に宿られて時を待たれた。<br/><br/>で、この間行って開扉して、私が行って、そこから出られたんです。<br/><br/>出られて、今度は本当にお働きになる。<br/><br/>で、私は今千手観音の働きをしているわけですね。<br/><br/>だからなんにでも手を出す。<br/><br/>なんでもできるわけですね。<br/><br/>聖徳太子のお働きを大きくした、つまり世界的にしたんですね。<br/><br/>それが今私がやっている仕事です。<br/><br/>ですから聖徳太子は、やはり観音様が日本に経綸をされるために、聖徳太子に生まれられたといっても良いし、聖徳太子を使われたといっても良いですね。<br/><br/>ですから結局観音様が聖徳太子になられて、で今度は聖徳太子が私に生まれてきて、そうしてあの時代の――それは日本だけですからね。<br/><br/>日本に対する仏教を弘めた。<br/><br/>その手段として芸術ですね。<br/><br/>それを作られたということを、今度大きく世界的にして、つまり仏教じゃない――あらゆる宗教ですね。<br/><br/>あらゆる――世界的宗教、世界的救いですね。<br/><br/>それをやる。<br/><br/>と、そういうように解釈すると大体解ると思うんです。<br/><br/>ですから私が美術館を造ったりいろいろすることは、聖徳太子の世界的やり方と、こう見れば良く解ると思いますね。<br/><br/> そんなわけで私は以前から、自分は聖徳太子にある点は非常に似た所があると思っていたんですがね。<br/><br/>今度行ってその因縁がはっきり分かったわけですね。<br/><br/>私が、自分ではっきり言うと、非常に頭が良いんです。<br/><br/>聖徳太子の話に、八人の人の話を聞き別けたということが有名で、伝説にありますが、あれはおまけもだいぶあるでしょうが、とにかく頭の良かったということは確かです。<br/><br/>で、あの時分のいろんな仏教芸術の、聖徳太子の独創的な物も随分あるようですからね。<br/><br/>私はラジオを聞きながら、なにか読むとか見るとかしながら、それから人の話を聞く。<br/><br/>三人四人くらいなことはやりますがね。<br/><br/>けれども、そうすると頭をよけい使いますから骨が折れます。<br/><br/>それで、俺は聖徳太子に似ているなと思うことがありました。<br/><br/>そんなような具合で、よほど――今度行ってもおもしろかったですね。<br/><br/>ですから千手観音の働きをするんです。<br/><br/>仮に美術品なんかも、道具屋が驚いている。<br/><br/>どんな人でも一色か二色、茶器の好きなものはお茶に関するもの、絵が好きな人は絵。<br/><br/>絵でも浮世絵の好きな人もあるし、水墨的なものが好きな人もあるし、光琳の好きな人もあるし。<br/><br/>大和絵、錦絵とかいろいろあります。<br/><br/>私は全部好きでやってます。<br/><br/>支那陶器でも仏像の方でも、だからおそらく私くらい間口の広い人はないそうです。<br/><br/>ですから美術館なんかといっても、たいてい全般的にわたってという美術館はないです。<br/><br/>外国にもないでしょう。<br/><br/>イギリス、アメリカあたりの美術館、博物館の図録を見ても――もっとも日本のものなんかは手に入れられないからしかたがないが――どうも局部的ですね。<br/><br/>今度の美術館は全般的ですからね。<br/><br/>ですからその点においては世界一と言っても良いですね。<br/><br/>それもある一部のものも、ただ全般的につまみ食い的ではなくて、一種類一種類深く集めたわけですから、仮に日本の蒔絵なら蒔絵。<br/><br/>蒔絵のごく最高のもの。<br/><br/>ちょっと見られないような、そういうようなものを集めるとか、あるいは支那のものにしても、仏像のようなものにしても、その種類のうちで一番高い――最高のもの、一級品を集めてありますから、とにかくそういう方面に目のある人は驚くだろうと思いますね。<br/><br/>それをやり始めると、私はじきに分かっちゃうんですよ。<br/><br/>だからほとんど買い損ないがないくらいですね。<br/><br/>それから贋物と本物がじき分かりますからね。<br/><br/>たくさん――何百とありますが、贋物は一つもない。<br/><br/>おもしろいのは、贋物はいくら上手くできていても、私がこう見ると、霊気で分かる。<br/><br/>良い物は――本当の物は、なんとも言えない良い霊気が入ってくる。<br/><br/>贋物ですと、その贋物を作った人の魂がそこに入ってますから、上手く瞞して本物に見せて、金を儲けようという邪念がフッと来てますから、実に良く分かる。<br/><br/>で、買い損ないがないわけですね。<br/><br/>だからよく――うんと月謝を払わなければ、判るようにはならないということをよく言われてますが、私はほとんど買い損なったものはないんですね。<br/><br/>だからただで――月謝なしで習ったわけですね。<br/><br/>そんなようなわけで、美術館ができるとかなり世の中の人は驚くだろうと思ってます。<br/><br/> 最初、開館式は六月十五日のつもりです。<br/><br/>六月十五日、六日――日光殿も広くなったし、信者さんもいよいよ増えてますし、美術館ができた以上は一刻も早く見たいですから、どうしても大勢来られることになりますから、十五日から五日間というようなことにしますがね。<br/><br/>そうして信者さんをなにより先に見せて、それから七月の月始めに、関係がある人に見せるべく――数十人――それを招待して見せようと思う。<br/><br/>私が最近「東洋美術協会」というのを作って――私が作ったのではないが、私が相談相手になって作ったんですが、これがちょうど五十何人か会員がいる。<br/><br/>これは著名な人ばかりです。<br/><br/>会長は武者小路実篤ですね。<br/><br/>作家のね。<br/><br/>あの人が会長です。<br/><br/>この人を会長にしたが、他の人はやっぱりいろんな事情で会長になれない。<br/><br/>最初は小林一三さんを会長にと思ったが、いろんな事情で勘弁してくれという。<br/><br/>それから細川護立さんね。<br/><br/>それも駄目なので、それで武者小路さんに決まったんです。<br/><br/>まあそういった方面の人から、いろんな著名な人ばかりですね。<br/><br/>で、そういう人たちも七月の月初めに見せる。<br/><br/>それから新聞社、放送局だとか、そういういろんな方面の人を招んで、それから一般の人を見せる。<br/><br/>そういう順序に決まったわけです。<br/><br/>なにしろ神様がやっているんですから、美術館に飾るようなものは不思議に入ってくるんですよ。<br/><br/>だから、どうしてこれを手に入れただろう、というようなものが随分ありますから、その点でも、見る人は随分驚くだろうと思います。<br/><br/> 美術館に関したことはそのくらいで、それからこれは、今度「新宗連」ですね。<br/><br/>新宗連で新聞を発行するというので、私に記事を書いてくれと言うので、それを書いてみたんですが、今読ませますが、これは今の――現在の宗教人そういう人に読ませる意味で書いたんです。<br/><br/>そのつもりで。<br/><br/> （御論文「今後吾等は如何にすべきや〔新生日本への希望〕」） 結核問題について、大体できて、これから印刷にかかろうと思ったんですが、随分念を入れて書きましたから、これを読んで解らない者はないだろうと思います。<br/><br/>それについて、今度お蔭話の一つですが、現代医学の間違っている点が非常に良く現われているので、それを今ちょっと読ませます。<br/><br/> （御論文「恐るべき医学迷信」）【栄光 一五七号】 つまり、それで思うことは、こうして自分がやった病人が、これほどに治ったことを知りながら、それっきりになっちゃうんです。<br/><br/>ただ不思議だとね。<br/><br/>こんなに治るものなら、大いに研究しなければ、という心が起こらなければならない。<br/><br/>それを、ヒドラジドなんてやって大騒ぎをやる。<br/><br/>それで、完全に――もっと治る、もっとはっきりしているのを医者がなんとも言わないし、それにこういう記事を一年くらい前から厚生省に送っているんですが、こういう記事を読んでいるはずですが、それで知らん顔しているんですから、こういう人の頭脳ですね。<br/><br/>なんと言って良いか、とうてい表現しようがないんです。<br/><br/>私はこの点においては野蛮人より低いと思う。<br/><br/>これを野蛮人が見れば、これはたいへんだと大騒ぎをしますね。<br/><br/>それを頑として頭を変えないですよ。<br/><br/>これは非常に強い迷信ですね。<br/><br/>この迷信は宗教に負けない。<br/><br/>宗教以上と思う。<br/><br/>医者が始終、お蔭話を見れば解りますが、始終各地で医者は驚いているんです。<br/><br/>それでなんとも言ってくる人はないし、それを厚生省の連中が見ていて、それでなんとも言ってこないんですから、それは実に不思議ですよ。<br/><br/>けれどもいずれは頭を下げます。<br/><br/>ただ遅れれば遅れるだけ、犠牲になって命をなくす人がたくさんありますから、それがいかにもかわいそうだと思ってね。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

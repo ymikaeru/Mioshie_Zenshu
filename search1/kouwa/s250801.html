@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s250801</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 未発表、昭和25(1950)年8月1日、速記録 今日はちょうど六五日目である。<br><br> 今度は非常に苦しんだ。<br><br>また非常に結構なことと両方あった。<br><br>苦しんだほうは、いま『法難手記』として書いているが、いずれできあがったら印刷物として配布するか、適当な方法でみなさんに知らせる。<br><br>今日は善いほうを少しお話する。<br><br> 五月八日に武装警官八〇人で七カ所家宅捜査した。<br><br>重大な事件だと言うので、考えてみると、救世教になってから三月と三日になる。<br><br>私は散花結実と言った。<br><br> 救世教の花が咲いたのが散る……台風のようなものである。<br><br>花は梅の花で、兄の花で、この花姫は二色あり、兄花姫と木花咲爺姫である。<br><br>木の花は桜で、兄花は梅であり、木花咲爺姫は富士山上に祭られており、咲爺姫は桜で、観音……仏界のお働きであり、神界のお働きは兄花咲爺姫である。<br><br> 兄は、梅の花というのは一番先に咲く。<br><br> その梅の花が散ることで、梅には種々の神秘がある。<br><br>その花ビラは五ある。<br><br>（井上、金、阿部、山本、道夫）になる。<br><br> 最初四人引っ張られたとき、私は少しおかしいと思ったが、そのうち、道夫が引っ張られ、これで合った。<br><br>すなわち 清水町メシヤ教 井上 東山荘 金 旭 町 山本 天国会 阿部 小田原 渋井道夫 で、これでいいと思った。<br><br> 諸子に遇えなくなってから六五日になる。<br><br>五月八日……散花結実した。<br><br> 日本観音教団のときは二二年八月に成り、次に二三年一一月税問題が起り、税で打撃を受けたが、これで暴風に遇ったようなものである。<br><br>そしてこれが観音教団の散花結実となった。<br><br> 昭和一〇年大日本観音会を造り、初めて宗教の形になった。<br><br>それが一一年八月警察へ引っ張られ、一一日間拘留され、宗教と治療をやっていたのが禁止され、一年三カ月浪人した。<br><br>一二年一〇月両方というわけにゆかぬので宗教をやめ民間治療にした。<br><br>それを三カ年でやめ戦争になった。<br><br> 二五年二月五日救世教を創立、三月で散花結実した。<br><br> 今度は世界的に大きく来た。<br><br>形がはっきり出た。<br><br>神様はいろいろな型でみせられる。<br><br>神秘である。<br><br> 花の王は梅で、花の兄である。<br><br>「三千世界一度に開く梅の花、開いて散りて実を結ぶ」とお筆先にある。<br><br>大本は重要な役目をもって出た。<br><br> 国常立尊はメシヤであられ、閻魔大王であられる。<br><br>「神は此世の閻魔と現はれるぞよ」ともある。<br><br> 教祖は稚姫君尊である。<br><br>梅の花は五弁、五月八日暁の大捕物で、私の仕事の一番重要なる所五カ所を襲った。<br><br> 渋井のシブはシベで、メシベが散った。<br><br>神は水も漏らさぬ仕組みをなされている。<br><br>花の咲くように救世教はやった。<br><br>今度は実で、確実に、堅実に、気長く育つ形をとる。<br><br> 仏教では実相真如と言うが、本当は真如実相である。<br><br>逆である。<br><br>真如の月と言うが、月は真の如しということで、夜の世界、仮の世界、実相世界の実は太陽である。<br><br>故に仏教は花になる。<br><br>花祭りなどはそれから出ている。<br><br>インドは月氏国という。<br><br>仏教で仮の娑婆と言ったが、これは実の世界ができるまでのものである。<br><br> 犯罪なるものは一つもない。<br><br>一つの幻影によって描いたものである。<br><br> 堀川というのは国粋会の会長で、これはユスリ係にした。<br><br>右翼の会長である……そのためになにか抵抗してはというので武装した。<br><br>実に滑稽である。<br><br>ところが調べると、なんにもなくて引っ込みがつかぬため脱税でもなんでもないが、一昨年の脱税問題を罪にしようとした。<br><br>それで罪をこしらえた。<br><br>そのため言葉の拷問をした。<br><br>しかたなく罪を造ったのである。<br><br> しかしこれも神様が必要があってやられた。<br><br>検察官を使われた。<br><br>彼らも自分でも変だと思ったに違いない。<br><br>政治献金や浮貸しを調べた。<br><br> 今度はまったく奴隷扱いであった。<br><br>「井上は頭が悪いんだから……」と言うと、「イヤ、君よりズーッと頭がいい」と言う。<br><br> 実がなるには、花を咲かせなくてはならぬ。<br><br>そして実ができるには、散らなくてはならぬ。<br><br> 梅は神、「三千世界一度に開く梅の花」一厘と九分九厘というが、これは花の一輪にもなる。<br><br>一厘の花が咲いて 検察庁や国警八〇人は台風で、花を散らした。<br><br> 十を十で百になり、九十九と一で百。<br><br>十は経緯の霊体、渋井はシブの仕組み。<br><br>シブが散り棒ばかりになる。<br><br>そして十が育つ、地味に育つのである。<br><br> 月の教えは夜の世界。<br><br>法の華は法蓮華経で、観音普門品は二十五番目になる。<br><br>法華経の髄が実になる。<br><br>その型である。<br><br> 今度は実相世界になる。<br><br>いままでは華の世界、それはいろんなものに表われている。<br><br>花が散って実を結んだ（火―霊、病気で汚い物だけ処理する）。<br><br> 私は二二日に出所し、渋井が入れ替わりに入った。<br><br>五弁が散り、シベ（渋井）が散ったわけである。<br><br>実になるべき髄は独立した形になり、これで私は出られた。<br><br>私は昼に出、夜、渋井が入った。<br><br> 神様は型でやられるんで、型を見ると分かる。<br><br>外の人が見ても分からぬ。<br><br>庵原（いはら）警察の留置場へ入っているうち、種々神様のほうから、ふつうの所ではできない……外界の障りのない所でなくてはできぬことがあり種々な神様が出た。<br><br> 私のお腹の中に光の玉があり、いままで中に心がなかった。<br><br>その種が六月一五日留置場中で入った。<br><br>その種が髄になるわけである。<br><br>これは悉（くわ）しくは言えぬ。<br><br>大本教のお筆先の一輪の身魂で、種が育つに従い、光の玉は大きくなる。<br><br>そして現界は昼間になるし、現界に大きな変化が起る。<br><br>すなわち大浄化が起る。<br><br>いままでは霊界だけが昼間であった。<br><br>すると穢れのある所はすべて浄まって行く。<br><br>これがキリストの言った、世の終わり、最後の審判……である。<br><br> 種はある所から……天から降るわけである。<br><br>それから一○日経って朝から、大浄化が始まった。<br><br>種は……人間で言えば赤ん坊である。<br><br>一六日はなにも食べられぬ。<br><br>乳が飲みたくなり、牛乳を呑んだ。<br><br>一四日の日、朝夢を見た。<br><br>富士の山の上に御殿があり、そこへ上る。<br><br>周りは夢にも、景色……雪のあるうちで、まだ寒いわけで、梅の咲くころである。<br><br>昔から一富士、二鷹、三茄子と言い、こんな良い夢はなく、明日は出られることと思ったら、翌日「君出なさい」と言う。<br><br>釈放されると思って外へ出ると見知らぬ警官が、今日は静岡へ行く……と言う。<br><br>身のまわりのものを整え、自動車に乗せられ、喜んだのは逆で、刑務所の表のほうへ着いた。<br><br>手続をすまして中へ入ると、新しくできたアメリカの監獄のようで、これは長くいても辛くないと思った。<br><br>一輪の身魂が宿る……神様に聞くと、いったん日本の真ん中へ行かなくてはならぬと言われた。<br><br>刑務所は静岡の真ん中になる。<br><br> 翌月一九日に出て一週間目に、朝鮮問題が起きた。<br><br>結局大きな問題の序幕でザッと話せば、 神様のお知らせによると、来年から本当の浄化が始まる。<br><br>だいたい三年間で、世界的大掃除で原子戦争にもなる。<br><br>正月よく話したが、それがポツポツ出てきたのである。<br><br>原子戦争も善い世界を造るためで、大地をきれいに、汚れなき世界を造る。<br><br>原子爆弾は掃除のために造られたのである。<br><br>急には行かぬ。<br><br>そうとう進んでからで、アメリカも本腰を入れたから、共産軍は敗退するが、行くか行かぬうち台湾が始まる。<br><br>来月あたり始まるであろう。<br><br>マッカーサーが行って蒋介石と語った。<br><br>これは非常な意義がなくてはならぬはずである。<br><br>中共はほとんど台湾を攻める準備ができたので、急にその準備をさせるべく、蒋介石と相談するために行ったのである。<br><br>朝鮮だけでも骨を折っているのに、台湾に対する援助もたいへんである。<br><br>ユーゴではチトーの攻撃が始まるし、イラン、東西のドイツなど、世界は蜂の巣を突いたようになる。<br><br>両方とも原子爆弾の戦争となる。<br><br>原子爆弾は破壊である。<br><br>ソ連は細菌爆弾をずいぶん用意しているが、日本としては一番危険である。<br><br>共産軍が朝鮮へ進出するのも、目的は日本で、朝鮮は日本をやるための途中の邪魔ものにすぎぬ。<br><br>これは伝統的にそうなっている。<br><br>ソ連は北海道を、ウラジオストックから攻めればわけはない。<br><br>南鮮からも横へ行けば北海道である。<br><br>北海道には共産党が多い。<br><br>日本は無防備である。<br><br>アメリカは日本を守る等で苦しむ。<br><br> これも神の経綸であるからしかたがない。<br><br>そのような形勢に向かいつつあるのであるから、覚悟をしなくてはならぬ。<br><br>北海道をやられても日本を、米ソいずれかが奪ろうとして、奪り合いの形となろう。<br><br>ヘタヘタにして引っ張る。<br><br>すると強いほうへ従わなくてはならない。<br><br>でないと日本はひどい目に遭う。<br><br> 根本は世界的大浄化で、大浄化は汚れたものを掃除するのであるから、汚れたものは危い意味になる。<br><br>霊的に曇りの少ない人は救われるので、できるだけ曇りを少なくする。<br><br>それにはどうしても根本的信仰ということになる。<br><br>そして人間全体が神に手を合わすこととなる。<br><br>「世界の人民は一旦は顔が青くなるぞよ」とある。<br><br> 大本教祖はずいぶん憑った。<br><br>話がおもしろいので退屈しなかった。<br><br>キリスト、釈迦、弘法、親鸞、日蓮など憑った。<br><br>これらは、弘法は極楽であるが、他はほとんど地獄であった。<br><br>いろいろあって割合退屈しなかった。<br><br> メシヤという神は国常立尊という審判の神様で、これは永久的のものでない。<br><br>ある時を限られたお働きで、長い。<br><br> 一厘の種はメシヤとは違う。<br><br>神様のやられること、計画は非常に深く絶対判らぬ。<br><br>経綸は最高の神たる国常立尊様でも判らぬとおおせられる。<br><br>経綸の主体は大弥勒の神で、この神が経綸の中心である。<br><br>キリストや釈迦もぜんぜん判らぬ。<br><br>必要だけのことしか判らぬ。<br><br>神秘である。<br><br>最高の神でも判らぬ。<br><br>お筆先に「神界の事は判らないと思う人は判ったのである」と。<br><br> 世界の種々なことは、根本の神から出ているので、人間が気をもんだり、とやかく言うのも馬鹿馬鹿しい。<br><br>最高の神の経綸は、善悪両方を造って操っておられるのが神である。<br><br>今度はずいぶん苦しんだが、怒ってもしかたない。<br><br>神様が使って、立派な仕事ができてゆく。<br><br>ただ悪魔は一時的で勝たぬ。<br><br>いままでは神が勝つのが遅かった。<br><br>今度は早くなって五六七の世になる。<br><br> これから三〇分くらいずつお話するつもりで質疑応答は新聞雑誌に。<br><br>『救世』は『栄光』とする。<br><br> 六月一五日は、岩戸開きの日で……、差し入れ屋の女将が踊りが好きで、二、三日前から一晩踊った。<br><br>望月弁護士が、手力男命（たぢからをのみこと）で、これが連れて来た。<br><br>宇豆売命と手力男の型も出ている。<br><br>五人は五伴男（いつとものを）になる。<br><br> 天照大神は女で、父君が伊都能売尊で、天照天皇の皇后で、天照皇后が天照大神である。<br><br>天照天皇はある事情で葬られた。<br><br>そのとき伊都能売大神は日本を脱出せられ、インドへ渡られ、観自在となられた。<br><br>インドの自在天の世を観てることである。<br><br>日蓮宗の曼荼羅にあるが、自在天は悪魔に騙され、最初は良かったが、インドはだんだん悪くなった。<br><br>その邪神が大六天の魔王で、一名帝釈天という。<br><br>帝釈天は邪神の顔をしている。<br><br> 支那は盤古神王の系統が統治していた。<br><br>神農とも書く。<br><br>漢方薬の絵によくある。<br><br>日本は伊都能売大神であらせられた。<br><br> 盤古はよい系統だが、漢方薬を発見して、人間を助けようとした。<br><br>故に漢方薬は非常に悪い。<br><br>この奥にたいへんな邪神がいる。<br><br>この系統は邪神系にやられた。<br><br> ユダヤはまだ言えぬ。<br><br>各国に邪神の表われがあり、邪神の本元はサタン（赤い龍）で、大活躍している。<br><br>共産主義を作った邪神である。<br><br>サタンの眷族はみんな龍で、いま龍はたいへん活躍している。<br><br>龍は東洋が多かったが、いまは外国は赤龍が多い。<br><br>今度の事件も赤龍が調べている。<br><br>それを神様が使っている。<br><br>いま日本は狐が多い。<br><br>狐と龍神が活躍している。<br><br> 法華経の二十五番目は実になる。<br><br>今年は、昭和二五年は意味がある。<br><br>実相世界になるわけである。<br><br>大千三千世界という。<br><br> 小さな型だが世界的になる。<br><br>世界的散花結実になる。<br><br>これこそキリストの世の終わり、最後の審判で、朝鮮問題はその第一歩である。<br><br>キリストは世の終わりと言い、天国は近づけりと言うが、ちょうど合っている。<br><br> いっさいは浄化作用で、霊を浄めることが、助かる一番の根本である。<br><br> アメリカは三八度線まで、北鮮へ押し返すとしても、ソ連は横へ、北海道へ行くかもしれぬ。<br><br>スターリンを援助している霊があり、スターリンの霊を招んだら、とても聞かなかった。<br><br>毛沢東は割合聞いた。<br><br>共産主義はある時期までやると言った。<br><br>北海道を占領すると、アメリカを楽に占領できる。<br><br>北海道はアメリカの種である。<br><br>ソ連は潜航艇で北海を囲んでいる。<br><br>ドイツの敗因は、英国がレーダーを発見したことにあった。<br><br>ソ連ではレーダーを無効にする塗料の発明を成したのである。<br><br> 先にヒトラーを壊し屋の親方と言ったが、スターリンは壊し屋の大親分として神様に使われている。<br><br>われわれはゴミ溜の中から少しでも役に立ちそうなものを拾い上げる救いの役を命じられたのであるから、一人でも多く救わなければならぬわけである。<br><br> そのほかに非常に深い神秘がある。<br><br>神秘は六月一五日にあった。<br><br> 昼の世界は最初ごく最高の幽幻界に……。<br><br>日は幽幻界、月は霊界、現界は土になる。<br><br> 昭和六年六月一五日、霊界が日の出になり、二五年六月一五日、現界が本当の日の出になった。<br><br>五五、二十五という。<br><br>五五は日出ずるということで、日の出ということになる。<br><br>それから一〇日後の二五日、朝鮮問題が起った。<br><br> 人間の罪穢は病気などで掃除できるが、建物を清められるには爆弾である。<br><br>原子爆弾は神様が造られたのである。<br><br> 地上天国、弥勒の世という立派な世を造るには地上を清めてからでなくてはならぬ。<br><br>言えば簡単だが、実際にはたいへんなことである。<br><br>キリストは「世の終わり来る。<br><br>天国は近づけり」と言ったが、破壊と創造で、破壊の親玉がスターリンで、だんだん進むとアメリカも壊し屋になる。<br><br>今度はどっちも横綱で、両方で噛み合うのである。<br><br>世界は二つの大きな塊となる。<br><br>血みどろになって戦う。<br><br>われわれはおもむろに建築屋になる。<br><br>大浄化の根本は霊的で、今度は火の洗礼である。<br><br> 原爆は五〇〇〇度の熱が出るというが、太陽は無限の火力で、機械で測れるものでない。<br><br>水素爆弾はこれを借りるのである。<br><br> イエスは、万民を過らした罪の贖いとして贖罪主となった。<br><br>そして二〇〇年後にヨーロッパヘ拡がった。<br><br>もし贖罪で罪が人類より消えるなれば、すでに天国になっていなければならぬはずである。<br><br> キリストはイエスより一〇〇〇年前に生まれたそれが再臨するわけである。<br><br>キリストは救主で、罪の赦し主がメシヤで、日本でいう国常立尊である。<br><br> 長い間文化を発達さすために種々の罪が溜まるのはやむを得ぬ。<br><br>建築するにも鉋屑（かんなくず）や石粉が溜まるようなものである。<br><br>文化は善悪の摩擦で発展する。<br><br>戦争で死物狂いで勝って文化が発達した。<br><br>戦争のために文化が発達した。<br><br>ある程度発達すると、人類を滅ぼすべきものとなった。<br><br>ここで戦争のない世界ができることは、常識で考えても判る。<br><br>平和世界……地獄から天国に転換する。<br><br>それには人間の魂の心底から目覚めさせなければならぬ。<br><br>これが最後の審判であり、大破壊で、創造の第一歩が御聖業である。<br><br> 天国建設は、どこかでだれかがやる。<br><br>それを私が引き受けた。<br><br>病気を治すのは霊体両方の病気を治すのである。<br><br> 戦争などは霊の病気であり、体の病気は、病気で、共産党などは一種の精神的病気で、それを自覚させなくてはならぬ。<br><br>必要ではあるが真理ではない。<br><br>善悪がなくては芝居にならぬ。<br><br> イエスは贖罪のために生まれた。<br><br>私は救いのために生まれたので犠牲精神ではない。<br><br> 小乗的考えはぜんぜん間違ってはいないが、ある程度に限られたものである。<br><br>大乗は決して間違いない。<br><br>表面や上面を見て判断すると間違う。<br><br>すべては世界的になった。<br><br>故に大乗でなくてはいけない。<br><br> 地方的、国家的のものは争いの元になる。<br><br>最初から世界的考えでなくてはならぬ。<br><br>あらゆるものは世界的、大乗的になっている。<br><br>国家的考えはすでに時代的ズレを生ずる。<br><br>絶対権を持った天皇は続かぬ。<br><br>（速記）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Dispersão das Flores e a Vindoura Purificação Mundial</h2>
 <p>Hoje, completam-se exatos sessenta e cinco dias. Este período foi, por um lado, de intenso sofrimento, mas, por outro, repleto de acontecimentos auspiciosos. A parte penosa está sendo registrada em um manuscrito intitulado “Crônicas da Perseguição Religiosa”, que, uma vez concluído, será impresso e distribuído ou divulgado a todos por um meio apropriado. Hoje, contudo, discorrerei brevemente sobre os aspectos positivos.</p>
@@ -140,5 +292,48 @@ function toggleLang(lang) {
 <p>É inevitável que, ao longo do desenvolvimento da civilização, diversos pecados se acumulem. É como aparas de madeira e pó de pedra que se amontoam durante uma construção. A cultura evolui através do atrito entre o bem e o mal. A civilização se desenvolveu porque as nações lutaram desesperadamente para vencer as guerras. A cultura progrediu por causa da guerra. Contudo, ao atingir um certo nível de desenvolvimento, ela se tornou um instrumento capaz de aniquilar a humanidade. Pelo bom senso, é fácil perceber que está chegando o momento de criar um mundo sem guerras, uma transição do inferno para o paraíso. Para isso, é preciso despertar a alma humana desde o seu âmago. Este é o Juízo Final, a grande destruição, e o primeiro passo da criação é a nossa Obra Divina.</p>
 <p>A construção do Paraíso precisa ser realizada por alguém, em algum lugar. E eu assumi essa tarefa. Curar doenças significa curar as enfermidades tanto do espírito quanto do corpo. A guerra, por exemplo, é uma doença do espírito. O comunismo é uma espécie de doença mental, e seus seguidores precisam tomar consciência disso. Embora seja necessário para o Plano Divino, não é a verdade. Sem o bem e o mal, não haveria drama.</p>
 <p>Jesus nasceu para a redenção. Eu nasci para a salvação, portanto, não se trata de um espírito de sacrifício. O pensamento Hinayana (Pequeno Veículo) não está totalmente equivocado, mas é limitado. O Mahayana (Grande Veículo) jamais se equivoca. Julgar apenas pela superfície leva ao erro. Tudo se tornou global; portanto, é preciso adotar uma perspectiva Mahayana. Ideias localistas ou nacionalistas são a fonte dos conflitos. Desde o início, devemos pensar em escala mundial. Todas as coisas estão se tornando globais, Mahayana. O pensamento nacionalista já está anacrônico. Um imperador com poder absoluto não pode perdurar.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 未発表、昭和25(1950)年8月1日、速記録 今日はちょうど六五日目である。<br/><br/> 今度は非常に苦しんだ。<br/><br/>また非常に結構なことと両方あった。<br/><br/>苦しんだほうは、いま『法難手記』として書いているが、いずれできあがったら印刷物として配布するか、適当な方法でみなさんに知らせる。<br/><br/>今日は善いほうを少しお話する。<br/><br/> 五月八日に武装警官八〇人で七カ所家宅捜査した。<br/><br/>重大な事件だと言うので、考えてみると、救世教になってから三月と三日になる。<br/><br/>私は散花結実と言った。<br/><br/> 救世教の花が咲いたのが散る……台風のようなものである。<br/><br/>花は梅の花で、兄の花で、この花姫は二色あり、兄花姫と木花咲爺姫である。<br/><br/>木の花は桜で、兄花は梅であり、木花咲爺姫は富士山上に祭られており、咲爺姫は桜で、観音……仏界のお働きであり、神界のお働きは兄花咲爺姫である。<br/><br/> 兄は、梅の花というのは一番先に咲く。<br/><br/> その梅の花が散ることで、梅には種々の神秘がある。<br/><br/>その花ビラは五ある。<br/><br/>（井上、金、阿部、山本、道夫）になる。<br/><br/> 最初四人引っ張られたとき、私は少しおかしいと思ったが、そのうち、道夫が引っ張られ、これで合った。<br/><br/>すなわち 清水町メシヤ教 井上 東山荘 金 旭 町 山本 天国会 阿部 小田原 渋井道夫 で、これでいいと思った。<br/><br/> 諸子に遇えなくなってから六五日になる。<br/><br/>五月八日……散花結実した。<br/><br/> 日本観音教団のときは二二年八月に成り、次に二三年一一月税問題が起り、税で打撃を受けたが、これで暴風に遇ったようなものである。<br/><br/>そしてこれが観音教団の散花結実となった。<br/><br/> 昭和一〇年大日本観音会を造り、初めて宗教の形になった。<br/><br/>それが一一年八月警察へ引っ張られ、一一日間拘留され、宗教と治療をやっていたのが禁止され、一年三カ月浪人した。<br/><br/>一二年一〇月両方というわけにゆかぬので宗教をやめ民間治療にした。<br/><br/>それを三カ年でやめ戦争になった。<br/><br/> 二五年二月五日救世教を創立、三月で散花結実した。<br/><br/> 今度は世界的に大きく来た。<br/><br/>形がはっきり出た。<br/><br/>神様はいろいろな型でみせられる。<br/><br/>神秘である。<br/><br/> 花の王は梅で、花の兄である。<br/><br/>「三千世界一度に開く梅の花、開いて散りて実を結ぶ」とお筆先にある。<br/><br/>大本は重要な役目をもって出た。<br/><br/> 国常立尊はメシヤであられ、閻魔大王であられる。<br/><br/>「神は此世の閻魔と現はれるぞよ」ともある。<br/><br/> 教祖は稚姫君尊である。<br/><br/>梅の花は五弁、五月八日暁の大捕物で、私の仕事の一番重要なる所五カ所を襲った。<br/><br/> 渋井のシブはシベで、メシベが散った。<br/><br/>神は水も漏らさぬ仕組みをなされている。<br/><br/>花の咲くように救世教はやった。<br/><br/>今度は実で、確実に、堅実に、気長く育つ形をとる。<br/><br/> 仏教では実相真如と言うが、本当は真如実相である。<br/><br/>逆である。<br/><br/>真如の月と言うが、月は真の如しということで、夜の世界、仮の世界、実相世界の実は太陽である。<br/><br/>故に仏教は花になる。<br/><br/>花祭りなどはそれから出ている。<br/><br/>インドは月氏国という。<br/><br/>仏教で仮の娑婆と言ったが、これは実の世界ができるまでのものである。<br/><br/> 犯罪なるものは一つもない。<br/><br/>一つの幻影によって描いたものである。<br/><br/> 堀川というのは国粋会の会長で、これはユスリ係にした。<br/><br/>右翼の会長である……そのためになにか抵抗してはというので武装した。<br/><br/>実に滑稽である。<br/><br/>ところが調べると、なんにもなくて引っ込みがつかぬため脱税でもなんでもないが、一昨年の脱税問題を罪にしようとした。<br/><br/>それで罪をこしらえた。<br/><br/>そのため言葉の拷問をした。<br/><br/>しかたなく罪を造ったのである。<br/><br/> しかしこれも神様が必要があってやられた。<br/><br/>検察官を使われた。<br/><br/>彼らも自分でも変だと思ったに違いない。<br/><br/>政治献金や浮貸しを調べた。<br/><br/> 今度はまったく奴隷扱いであった。<br/><br/>「井上は頭が悪いんだから……」と言うと、「イヤ、君よりズーッと頭がいい」と言う。<br/><br/> 実がなるには、花を咲かせなくてはならぬ。<br/><br/>そして実ができるには、散らなくてはならぬ。<br/><br/> 梅は神、「三千世界一度に開く梅の花」一厘と九分九厘というが、これは花の一輪にもなる。<br/><br/>一厘の花が咲いて 検察庁や国警八〇人は台風で、花を散らした。<br/><br/> 十を十で百になり、九十九と一で百。<br/><br/>十は経緯の霊体、渋井はシブの仕組み。<br/><br/>シブが散り棒ばかりになる。<br/><br/>そして十が育つ、地味に育つのである。<br/><br/> 月の教えは夜の世界。<br/><br/>法の華は法蓮華経で、観音普門品は二十五番目になる。<br/><br/>法華経の髄が実になる。<br/><br/>その型である。<br/><br/> 今度は実相世界になる。<br/><br/>いままでは華の世界、それはいろんなものに表われている。<br/><br/>花が散って実を結んだ（火―霊、病気で汚い物だけ処理する）。<br/><br/> 私は二二日に出所し、渋井が入れ替わりに入った。<br/><br/>五弁が散り、シベ（渋井）が散ったわけである。<br/><br/>実になるべき髄は独立した形になり、これで私は出られた。<br/><br/>私は昼に出、夜、渋井が入った。<br/><br/> 神様は型でやられるんで、型を見ると分かる。<br/><br/>外の人が見ても分からぬ。<br/><br/>庵原（いはら）警察の留置場へ入っているうち、種々神様のほうから、ふつうの所ではできない……外界の障りのない所でなくてはできぬことがあり種々な神様が出た。<br/><br/> 私のお腹の中に光の玉があり、いままで中に心がなかった。<br/><br/>その種が六月一五日留置場中で入った。<br/><br/>その種が髄になるわけである。<br/><br/>これは悉（くわ）しくは言えぬ。<br/><br/>大本教のお筆先の一輪の身魂で、種が育つに従い、光の玉は大きくなる。<br/><br/>そして現界は昼間になるし、現界に大きな変化が起る。<br/><br/>すなわち大浄化が起る。<br/><br/>いままでは霊界だけが昼間であった。<br/><br/>すると穢れのある所はすべて浄まって行く。<br/><br/>これがキリストの言った、世の終わり、最後の審判……である。<br/><br/> 種はある所から……天から降るわけである。<br/><br/>それから一○日経って朝から、大浄化が始まった。<br/><br/>種は……人間で言えば赤ん坊である。<br/><br/>一六日はなにも食べられぬ。<br/><br/>乳が飲みたくなり、牛乳を呑んだ。<br/><br/>一四日の日、朝夢を見た。<br/><br/>富士の山の上に御殿があり、そこへ上る。<br/><br/>周りは夢にも、景色……雪のあるうちで、まだ寒いわけで、梅の咲くころである。<br/><br/>昔から一富士、二鷹、三茄子と言い、こんな良い夢はなく、明日は出られることと思ったら、翌日「君出なさい」と言う。<br/><br/>釈放されると思って外へ出ると見知らぬ警官が、今日は静岡へ行く……と言う。<br/><br/>身のまわりのものを整え、自動車に乗せられ、喜んだのは逆で、刑務所の表のほうへ着いた。<br/><br/>手続をすまして中へ入ると、新しくできたアメリカの監獄のようで、これは長くいても辛くないと思った。<br/><br/>一輪の身魂が宿る……神様に聞くと、いったん日本の真ん中へ行かなくてはならぬと言われた。<br/><br/>刑務所は静岡の真ん中になる。<br/><br/> 翌月一九日に出て一週間目に、朝鮮問題が起きた。<br/><br/>結局大きな問題の序幕でザッと話せば、 神様のお知らせによると、来年から本当の浄化が始まる。<br/><br/>だいたい三年間で、世界的大掃除で原子戦争にもなる。<br/><br/>正月よく話したが、それがポツポツ出てきたのである。<br/><br/>原子戦争も善い世界を造るためで、大地をきれいに、汚れなき世界を造る。<br/><br/>原子爆弾は掃除のために造られたのである。<br/><br/>急には行かぬ。<br/><br/>そうとう進んでからで、アメリカも本腰を入れたから、共産軍は敗退するが、行くか行かぬうち台湾が始まる。<br/><br/>来月あたり始まるであろう。<br/><br/>マッカーサーが行って蒋介石と語った。<br/><br/>これは非常な意義がなくてはならぬはずである。<br/><br/>中共はほとんど台湾を攻める準備ができたので、急にその準備をさせるべく、蒋介石と相談するために行ったのである。<br/><br/>朝鮮だけでも骨を折っているのに、台湾に対する援助もたいへんである。<br/><br/>ユーゴではチトーの攻撃が始まるし、イラン、東西のドイツなど、世界は蜂の巣を突いたようになる。<br/><br/>両方とも原子爆弾の戦争となる。<br/><br/>原子爆弾は破壊である。<br/><br/>ソ連は細菌爆弾をずいぶん用意しているが、日本としては一番危険である。<br/><br/>共産軍が朝鮮へ進出するのも、目的は日本で、朝鮮は日本をやるための途中の邪魔ものにすぎぬ。<br/><br/>これは伝統的にそうなっている。<br/><br/>ソ連は北海道を、ウラジオストックから攻めればわけはない。<br/><br/>南鮮からも横へ行けば北海道である。<br/><br/>北海道には共産党が多い。<br/><br/>日本は無防備である。<br/><br/>アメリカは日本を守る等で苦しむ。<br/><br/> これも神の経綸であるからしかたがない。<br/><br/>そのような形勢に向かいつつあるのであるから、覚悟をしなくてはならぬ。<br/><br/>北海道をやられても日本を、米ソいずれかが奪ろうとして、奪り合いの形となろう。<br/><br/>ヘタヘタにして引っ張る。<br/><br/>すると強いほうへ従わなくてはならない。<br/><br/>でないと日本はひどい目に遭う。<br/><br/> 根本は世界的大浄化で、大浄化は汚れたものを掃除するのであるから、汚れたものは危い意味になる。<br/><br/>霊的に曇りの少ない人は救われるので、できるだけ曇りを少なくする。<br/><br/>それにはどうしても根本的信仰ということになる。<br/><br/>そして人間全体が神に手を合わすこととなる。<br/><br/>「世界の人民は一旦は顔が青くなるぞよ」とある。<br/><br/> 大本教祖はずいぶん憑った。<br/><br/>話がおもしろいので退屈しなかった。<br/><br/>キリスト、釈迦、弘法、親鸞、日蓮など憑った。<br/><br/>これらは、弘法は極楽であるが、他はほとんど地獄であった。<br/><br/>いろいろあって割合退屈しなかった。<br/><br/> メシヤという神は国常立尊という審判の神様で、これは永久的のものでない。<br/><br/>ある時を限られたお働きで、長い。<br/><br/> 一厘の種はメシヤとは違う。<br/><br/>神様のやられること、計画は非常に深く絶対判らぬ。<br/><br/>経綸は最高の神たる国常立尊様でも判らぬとおおせられる。<br/><br/>経綸の主体は大弥勒の神で、この神が経綸の中心である。<br/><br/>キリストや釈迦もぜんぜん判らぬ。<br/><br/>必要だけのことしか判らぬ。<br/><br/>神秘である。<br/><br/>最高の神でも判らぬ。<br/><br/>お筆先に「神界の事は判らないと思う人は判ったのである」と。<br/><br/> 世界の種々なことは、根本の神から出ているので、人間が気をもんだり、とやかく言うのも馬鹿馬鹿しい。<br/><br/>最高の神の経綸は、善悪両方を造って操っておられるのが神である。<br/><br/>今度はずいぶん苦しんだが、怒ってもしかたない。<br/><br/>神様が使って、立派な仕事ができてゆく。<br/><br/>ただ悪魔は一時的で勝たぬ。<br/><br/>いままでは神が勝つのが遅かった。<br/><br/>今度は早くなって五六七の世になる。<br/><br/> これから三〇分くらいずつお話するつもりで質疑応答は新聞雑誌に。<br/><br/>『救世』は『栄光』とする。<br/><br/> 六月一五日は、岩戸開きの日で……、差し入れ屋の女将が踊りが好きで、二、三日前から一晩踊った。<br/><br/>望月弁護士が、手力男命（たぢからをのみこと）で、これが連れて来た。<br/><br/>宇豆売命と手力男の型も出ている。<br/><br/>五人は五伴男（いつとものを）になる。<br/><br/> 天照大神は女で、父君が伊都能売尊で、天照天皇の皇后で、天照皇后が天照大神である。<br/><br/>天照天皇はある事情で葬られた。<br/><br/>そのとき伊都能売大神は日本を脱出せられ、インドへ渡られ、観自在となられた。<br/><br/>インドの自在天の世を観てることである。<br/><br/>日蓮宗の曼荼羅にあるが、自在天は悪魔に騙され、最初は良かったが、インドはだんだん悪くなった。<br/><br/>その邪神が大六天の魔王で、一名帝釈天という。<br/><br/>帝釈天は邪神の顔をしている。<br/><br/> 支那は盤古神王の系統が統治していた。<br/><br/>神農とも書く。<br/><br/>漢方薬の絵によくある。<br/><br/>日本は伊都能売大神であらせられた。<br/><br/> 盤古はよい系統だが、漢方薬を発見して、人間を助けようとした。<br/><br/>故に漢方薬は非常に悪い。<br/><br/>この奥にたいへんな邪神がいる。<br/><br/>この系統は邪神系にやられた。<br/><br/> ユダヤはまだ言えぬ。<br/><br/>各国に邪神の表われがあり、邪神の本元はサタン（赤い龍）で、大活躍している。<br/><br/>共産主義を作った邪神である。<br/><br/>サタンの眷族はみんな龍で、いま龍はたいへん活躍している。<br/><br/>龍は東洋が多かったが、いまは外国は赤龍が多い。<br/><br/>今度の事件も赤龍が調べている。<br/><br/>それを神様が使っている。<br/><br/>いま日本は狐が多い。<br/><br/>狐と龍神が活躍している。<br/><br/> 法華経の二十五番目は実になる。<br/><br/>今年は、昭和二五年は意味がある。<br/><br/>実相世界になるわけである。<br/><br/>大千三千世界という。<br/><br/> 小さな型だが世界的になる。<br/><br/>世界的散花結実になる。<br/><br/>これこそキリストの世の終わり、最後の審判で、朝鮮問題はその第一歩である。<br/><br/>キリストは世の終わりと言い、天国は近づけりと言うが、ちょうど合っている。<br/><br/> いっさいは浄化作用で、霊を浄めることが、助かる一番の根本である。<br/><br/> アメリカは三八度線まで、北鮮へ押し返すとしても、ソ連は横へ、北海道へ行くかもしれぬ。<br/><br/>スターリンを援助している霊があり、スターリンの霊を招んだら、とても聞かなかった。<br/><br/>毛沢東は割合聞いた。<br/><br/>共産主義はある時期までやると言った。<br/><br/>北海道を占領すると、アメリカを楽に占領できる。<br/><br/>北海道はアメリカの種である。<br/><br/>ソ連は潜航艇で北海を囲んでいる。<br/><br/>ドイツの敗因は、英国がレーダーを発見したことにあった。<br/><br/>ソ連ではレーダーを無効にする塗料の発明を成したのである。<br/><br/> 先にヒトラーを壊し屋の親方と言ったが、スターリンは壊し屋の大親分として神様に使われている。<br/><br/>われわれはゴミ溜の中から少しでも役に立ちそうなものを拾い上げる救いの役を命じられたのであるから、一人でも多く救わなければならぬわけである。<br/><br/> そのほかに非常に深い神秘がある。<br/><br/>神秘は六月一五日にあった。<br/><br/> 昼の世界は最初ごく最高の幽幻界に……。<br/><br/>日は幽幻界、月は霊界、現界は土になる。<br/><br/> 昭和六年六月一五日、霊界が日の出になり、二五年六月一五日、現界が本当の日の出になった。<br/><br/>五五、二十五という。<br/><br/>五五は日出ずるということで、日の出ということになる。<br/><br/>それから一〇日後の二五日、朝鮮問題が起った。<br/><br/> 人間の罪穢は病気などで掃除できるが、建物を清められるには爆弾である。<br/><br/>原子爆弾は神様が造られたのである。<br/><br/> 地上天国、弥勒の世という立派な世を造るには地上を清めてからでなくてはならぬ。<br/><br/>言えば簡単だが、実際にはたいへんなことである。<br/><br/>キリストは「世の終わり来る。<br/><br/>天国は近づけり」と言ったが、破壊と創造で、破壊の親玉がスターリンで、だんだん進むとアメリカも壊し屋になる。<br/><br/>今度はどっちも横綱で、両方で噛み合うのである。<br/><br/>世界は二つの大きな塊となる。<br/><br/>血みどろになって戦う。<br/><br/>われわれはおもむろに建築屋になる。<br/><br/>大浄化の根本は霊的で、今度は火の洗礼である。<br/><br/> 原爆は五〇〇〇度の熱が出るというが、太陽は無限の火力で、機械で測れるものでない。<br/><br/>水素爆弾はこれを借りるのである。<br/><br/> イエスは、万民を過らした罪の贖いとして贖罪主となった。<br/><br/>そして二〇〇年後にヨーロッパヘ拡がった。<br/><br/>もし贖罪で罪が人類より消えるなれば、すでに天国になっていなければならぬはずである。<br/><br/> キリストはイエスより一〇〇〇年前に生まれたそれが再臨するわけである。<br/><br/>キリストは救主で、罪の赦し主がメシヤで、日本でいう国常立尊である。<br/><br/> 長い間文化を発達さすために種々の罪が溜まるのはやむを得ぬ。<br/><br/>建築するにも鉋屑（かんなくず）や石粉が溜まるようなものである。<br/><br/>文化は善悪の摩擦で発展する。<br/><br/>戦争で死物狂いで勝って文化が発達した。<br/><br/>戦争のために文化が発達した。<br/><br/>ある程度発達すると、人類を滅ぼすべきものとなった。<br/><br/>ここで戦争のない世界ができることは、常識で考えても判る。<br/><br/>平和世界……地獄から天国に転換する。<br/><br/>それには人間の魂の心底から目覚めさせなければならぬ。<br/><br/>これが最後の審判であり、大破壊で、創造の第一歩が御聖業である。<br/><br/> 天国建設は、どこかでだれかがやる。<br/><br/>それを私が引き受けた。<br/><br/>病気を治すのは霊体両方の病気を治すのである。<br/><br/> 戦争などは霊の病気であり、体の病気は、病気で、共産党などは一種の精神的病気で、それを自覚させなくてはならぬ。<br/><br/>必要ではあるが真理ではない。<br/><br/>善悪がなくては芝居にならぬ。<br/><br/> イエスは贖罪のために生まれた。<br/><br/>私は救いのために生まれたので犠牲精神ではない。<br/><br/> 小乗的考えはぜんぜん間違ってはいないが、ある程度に限られたものである。<br/><br/>大乗は決して間違いない。<br/><br/>表面や上面を見て判断すると間違う。<br/><br/>すべては世界的になった。<br/><br/>故に大乗でなくてはいけない。<br/><br/> 地方的、国家的のものは争いの元になる。<br/><br/>最初から世界的考えでなくてはならぬ。<br/><br/>あらゆるものは世界的、大乗的になっている。<br/><br/>国家的考えはすでに時代的ズレを生ずる。<br/><br/>絶対権を持った天皇は続かぬ。<br/><br/>（速記）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

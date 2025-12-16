@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>M270315</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御教え （S27年3月15日） 『御教え集』8号、昭和27(1952)年4月20日発行 昭和二十七年三月十五日 （お伺）今井静江（昭和二十五年二月入信。<br><br>三十二歳）。<br><br>十九歳の時、風邪が因で急に腰が抜け、小児麻痺と言われ、いろいろと医療をいたしました。<br><br>三年間完全な躄（いざり）となっております。<br><br>御浄霊は一カ月に二、三回くらいいただいております。<br><br>アパートでございますので、千手観音様を御奉斎させていただくことになっております。<br><br>二十二年間電気、薬剤を少なからず使用いたしております。<br><br>時々御浄化をいただいておりますが、腰はまだ立ちません。<br><br>御浄霊は後頭部より頸、肩、腰、足の付け根、膝の裏、足の裏など、自分でできる所をいたしております。<br><br>御浄霊の急所御教示のほどお願い申し上げます。<br><br>なお右の足首より膝まで副木して、松葉杖を使用して五、六間は歩けます。<br><br> 〔御垂示〕 十九歳の時に小児麻痺ですか。<br><br>これは、小児麻痺じゃない。<br><br>娘麻痺です。<br><br>どうも躄の完全じゃ、あまりね。<br><br>急所は、膿の固まった所ですから、自分で押してみれば、痛いか熱があるか、どっちかですから判りますよ。<br><br>それが急所です。<br><br>それから、あとは自分で頭をやって――それだけですね。<br><br> （お伺）本年十八歳の男子。<br><br>三年前より排便の前に必ず粘液と出血をいたし、種々の服薬、注射をいたし一年ほど前アメーバ赤痢で直腸全部に潰瘍ができていると診断され、本年二月入院手術するところを御浄霊をいただくようになりました。<br><br>十日間余りはお腹にガスも溜まらず、出血、粘液も少なく、食欲も増し少し元気も出てまいりましたが、その後出血、粘液が増し、その他の状態も、御浄霊以前のようになり、二十日余り続き今日に至っております。<br><br>なおストレプトマイシン、クロロマイセチン、止血剤および多量の注射、服薬をいたしております。<br><br>血色は非常に悪く青白くいたしております。<br><br>御浄霊の急所、アメーバ赤痢、潰瘍の原因につき御教示お願い申し上げます。<br><br> 〔御垂示〕 粘液と出血――これは非常に結構です。<br><br>こういうのは喜んでうっちゃらかしておけば、とうに治っちゃったんです。<br><br>これを、悪いと思って医者にかかる。<br><br>医者も悪いと思って服薬、注射する。<br><br>それが悪いですね。<br><br>潰瘍――これは嘘だ。<br><br>こういうことは絶対ない。<br><br>お医者さんは解らないんだからね――病気がね。<br><br>解らないと言えば、信用にかかわるから、解ったふりをする。<br><br>これが悪い。<br><br>もっとも、解らないと言えば、商売に関係するから、やむを得ず嘘を言う。<br><br>商売の嘘ですね。<br><br>アメーバ赤痢なんて、うっちゃらかしておけば治る。<br><br>潰瘍なんて、薬で作るんですから、薬さえ服まなければ治るんです。<br><br>これもうっちゃらかしておけば良いんです。<br><br>浄霊の急所は、これ（後頭部）が因ですからね。<br><br>ここ（後頭部）に固まりがありますから、ここを浄霊すれば良い。<br><br>これもほったらかしておけば治るんです。<br><br>こんなのは病気のうちに入らないんです。<br><br>医者に行って大きくして、新しい病気を作ってもらうんで、実際たいへんな話ですよ。<br><br>ストレプトマイシン、クロロマイセチン、止血剤――こういうことをやっているから、この薬毒がいずれ、どこかに現われますから、それを前もって覚悟していたがいいですね。<br><br>微熱とか下痢とか嘔吐とか、そういうことがありますから、そうなったら喜んで良いんですからね。<br><br> （お伺）岡部郷子（昭和二十四年九月入信。<br><br>十八歳）。<br><br>七歳ごろより夜尿症となり、「大きくなるに従ってしだいに治る」と言われましたが、あまり医療はいたしておりません。<br><br>先天的弁膜症で、心臓の発作症状はございませんが、ほとんど医師の手の切れたことはございません。<br><br>成長するに従ってしだいに悪化し、灸や祈祷をいたしましたが、いっこうに良くならず、お道の話をお聞きし入信させていただきました。<br><br>二十五年四月に「どうやら一人前になるには数年かかり、赤ん坊の霊が憑依している」との御垂示をいただいております。<br><br>その後私に憑依（両親の従兄の子）し祀ってもらいたいとのことで、私の家に祀ってあります。<br><br>入信当時はほとんど毎晩尿を漏らしておりましたのが、最近は春秋は一カ月のうち十日くらい良く、夏は半々で、冬は七日くらい良く、あとは悪いという状態でございます。<br><br>御浄霊の急所につき御教えのほどお願い申し上げます。<br><br>御神体、御屏風観音様は御奉斎させていただいております。<br><br> 〔御垂示〕 医者の手が切れなかったから悪化した。<br><br>切ってしまえば、とうに良くなっている。<br><br>急所は前頭部の中ですね。<br><br>その次は頸のまわり、それから股――鼠蹊部ですね――少し上の方ですね。<br><br>つまり尿道括約筋ですね。<br><br>そこに毒があって、押しているんで、短くなっている。<br><br>そこが急所ですね。<br><br>その次は腎臓です。<br><br>そのくらいで良いですね。<br><br>これは、気長にやればだんだん治りますね。<br><br>こういうのは、何年もかかるものですね。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Esclarecimentos sobre Enfermidades e a Prática do Johrei</h2>
 <p>Ensinamento de 15 de março de 1952</p>
@@ -112,5 +264,48 @@ Desde os sete anos de idade, sofro de enurese noturna. Embora me tenham dito que
 Seu quadro se agravou precisamente por nunca ter se afastado dos médicos. Se o tivesse feito, já estaria curada há muito tempo.</p>
 <p>O ponto vital principal localiza-se no centro da região frontal. Em seguida, ao redor do pescoço e, depois, na virilha — a região inguinal —, um pouco mais acima. Refiro-me ao músculo esfíncter uretral. Há toxinas acumuladas ali que o pressionam, fazendo com que se contraia. Esse é um ponto crucial. O próximo ponto são os rins. Isso deve ser suficiente.</p>
 <p>Com perseverança, a cura virá gradualmente. Casos como este costumam levar anos para se resolverem por completo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御教え （S27年3月15日） 『御教え集』8号、昭和27(1952)年4月20日発行 昭和二十七年三月十五日 （お伺）今井静江（昭和二十五年二月入信。<br/><br/>三十二歳）。<br/><br/>十九歳の時、風邪が因で急に腰が抜け、小児麻痺と言われ、いろいろと医療をいたしました。<br/><br/>三年間完全な躄（いざり）となっております。<br/><br/>御浄霊は一カ月に二、三回くらいいただいております。<br/><br/>アパートでございますので、千手観音様を御奉斎させていただくことになっております。<br/><br/>二十二年間電気、薬剤を少なからず使用いたしております。<br/><br/>時々御浄化をいただいておりますが、腰はまだ立ちません。<br/><br/>御浄霊は後頭部より頸、肩、腰、足の付け根、膝の裏、足の裏など、自分でできる所をいたしております。<br/><br/>御浄霊の急所御教示のほどお願い申し上げます。<br/><br/>なお右の足首より膝まで副木して、松葉杖を使用して五、六間は歩けます。<br/><br/> 〔御垂示〕 十九歳の時に小児麻痺ですか。<br/><br/>これは、小児麻痺じゃない。<br/><br/>娘麻痺です。<br/><br/>どうも躄の完全じゃ、あまりね。<br/><br/>急所は、膿の固まった所ですから、自分で押してみれば、痛いか熱があるか、どっちかですから判りますよ。<br/><br/>それが急所です。<br/><br/>それから、あとは自分で頭をやって――それだけですね。<br/><br/> （お伺）本年十八歳の男子。<br/><br/>三年前より排便の前に必ず粘液と出血をいたし、種々の服薬、注射をいたし一年ほど前アメーバ赤痢で直腸全部に潰瘍ができていると診断され、本年二月入院手術するところを御浄霊をいただくようになりました。<br/><br/>十日間余りはお腹にガスも溜まらず、出血、粘液も少なく、食欲も増し少し元気も出てまいりましたが、その後出血、粘液が増し、その他の状態も、御浄霊以前のようになり、二十日余り続き今日に至っております。<br/><br/>なおストレプトマイシン、クロロマイセチン、止血剤および多量の注射、服薬をいたしております。<br/><br/>血色は非常に悪く青白くいたしております。<br/><br/>御浄霊の急所、アメーバ赤痢、潰瘍の原因につき御教示お願い申し上げます。<br/><br/> 〔御垂示〕 粘液と出血――これは非常に結構です。<br/><br/>こういうのは喜んでうっちゃらかしておけば、とうに治っちゃったんです。<br/><br/>これを、悪いと思って医者にかかる。<br/><br/>医者も悪いと思って服薬、注射する。<br/><br/>それが悪いですね。<br/><br/>潰瘍――これは嘘だ。<br/><br/>こういうことは絶対ない。<br/><br/>お医者さんは解らないんだからね――病気がね。<br/><br/>解らないと言えば、信用にかかわるから、解ったふりをする。<br/><br/>これが悪い。<br/><br/>もっとも、解らないと言えば、商売に関係するから、やむを得ず嘘を言う。<br/><br/>商売の嘘ですね。<br/><br/>アメーバ赤痢なんて、うっちゃらかしておけば治る。<br/><br/>潰瘍なんて、薬で作るんですから、薬さえ服まなければ治るんです。<br/><br/>これもうっちゃらかしておけば良いんです。<br/><br/>浄霊の急所は、これ（後頭部）が因ですからね。<br/><br/>ここ（後頭部）に固まりがありますから、ここを浄霊すれば良い。<br/><br/>これもほったらかしておけば治るんです。<br/><br/>こんなのは病気のうちに入らないんです。<br/><br/>医者に行って大きくして、新しい病気を作ってもらうんで、実際たいへんな話ですよ。<br/><br/>ストレプトマイシン、クロロマイセチン、止血剤――こういうことをやっているから、この薬毒がいずれ、どこかに現われますから、それを前もって覚悟していたがいいですね。<br/><br/>微熱とか下痢とか嘔吐とか、そういうことがありますから、そうなったら喜んで良いんですからね。<br/><br/> （お伺）岡部郷子（昭和二十四年九月入信。<br/><br/>十八歳）。<br/><br/>七歳ごろより夜尿症となり、「大きくなるに従ってしだいに治る」と言われましたが、あまり医療はいたしておりません。<br/><br/>先天的弁膜症で、心臓の発作症状はございませんが、ほとんど医師の手の切れたことはございません。<br/><br/>成長するに従ってしだいに悪化し、灸や祈祷をいたしましたが、いっこうに良くならず、お道の話をお聞きし入信させていただきました。<br/><br/>二十五年四月に「どうやら一人前になるには数年かかり、赤ん坊の霊が憑依している」との御垂示をいただいております。<br/><br/>その後私に憑依（両親の従兄の子）し祀ってもらいたいとのことで、私の家に祀ってあります。<br/><br/>入信当時はほとんど毎晩尿を漏らしておりましたのが、最近は春秋は一カ月のうち十日くらい良く、夏は半々で、冬は七日くらい良く、あとは悪いという状態でございます。<br/><br/>御浄霊の急所につき御教えのほどお願い申し上げます。<br/><br/>御神体、御屏風観音様は御奉斎させていただいております。<br/><br/> 〔御垂示〕 医者の手が切れなかったから悪化した。<br/><br/>切ってしまえば、とうに良くなっている。<br/><br/>急所は前頭部の中ですね。<br/><br/>その次は頸のまわり、それから股――鼠蹊部ですね――少し上の方ですね。<br/><br/>つまり尿道括約筋ですね。<br/><br/>そこに毒があって、押しているんで、短くなっている。<br/><br/>そこが急所ですね。<br/><br/>その次は腎臓です。<br/><br/>そのくらいで良いですね。<br/><br/>これは、気長にやればだんだん治りますね。<br/><br/>こういうのは、何年もかかるものですね。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>geiju001</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教芸術篇 １ 001-017 神と仏 001 須弥仙山・言霊解 仏説にある須弥仙山は現界どの山に当りますか。<br><br> 日本でいうと富士山になる。<br><br>印度にもあるが、熱海では須の字を略して、弥仙山とつけた。<br><br> 言霊からいうと、須はス、弥はミで、体、身。<br><br>即ちスの身の山――という事になる。<br><br> 002 仏と蓮華、神山荘と富士山 仏と蓮の華との関係について御伺い申し上げます。<br><br> その時代印度で偉い人としたのは如来で、また菩薩、○○天の座る所を蓮華台といった。<br><br>故に例えば、神山荘は周りの山が蓮華台になり、道場は蓮華台上になる。<br><br>また、こういう説もある。<br><br>ドブ泥の中から蓮の花が咲く、即ち泥々の汚い世の中からきれいなものが生れる。<br><br>また、富士山をハチスの山という。<br><br>これは蓮華台になる。<br><br>一名須弥仙山といい、兄の花は観音であるから蓮華台に観音様が乗る。<br><br>（S *. 1.14） 003 蓮華台 諸仏、菩薩の端座せらるる蓮華座は、いかなる起源があるでしょうか。<br><br>また、その蓮華座以上の高位の台座はないのですか。<br><br>御伺いします。<br><br> 印度では蓮華は最も尊い花としてあり、賛美してある。<br><br>日本のよりは余程大きい。<br><br>それ故、諸仏の形を作る場合、蓮華座とか、蓮華台とかした。<br><br> 蓮華台が一番上で、上等になると蓮の葉が沢山ある。<br><br>それで位がつくのである。<br><br> 観音様などは足の下などに蓮華台がある。<br><br>これは日本の富士山と関係がある。<br><br>（S24. 8.18） 004 蓮華の意味、強羅、ハチス 蓮の花の意味―― 偉い仏などが座る所を蓮華台という。<br><br>これは蓮華の形をしている。<br><br>蓮は泥中から大きな綺麗な花が咲くといって、尊く思われる。<br><br> 印度ではもっと綺麗な華が咲くらしい。<br><br>そして大きい実をとった。<br><br>山など連山があって、低くなったりまた高くなったりしているのを、蓮華台の形という。<br><br>箱根強羅はやはり蓮華の形になっている。<br><br> ハスはまたハチスの言霊にもなる。<br><br> ハチスは富士山になる。<br><br> 八の字の型である。<br><br> スは中心。<br><br> つまり、富士山の頂上がハチスになる。<br><br>木花咲爺姫を祭るのは、そういう意味である。<br><br>（S24. 4. 2） 005 紫微実相世界、五六七世と紫微宮 次の言葉の意味を御伺い致します。<br><br> 紫微実相世界。<br><br> 紫微は天国紫微宮、極楽の紫微宮とかいい、最高の殿堂の事である。<br><br>仏教などでは紫微宮が極楽にあるという。<br><br>天国で一番尊いお宮を紫微宮という。<br><br>現界から言っても、今出来ていないが、将来、素晴しいものが出来る。<br><br>土地も決ったり、ミロクの世には出来る。<br><br>実相世界は昼間の世界、仏は真如で、夜の世界。<br><br>実相世界は具体的になった意味である。<br><br>実はミ。<br><br>真如は月であるから夜の世界である。<br><br> 実相真如――は逆になっている。<br><br> 実相世界は未だ出来ぬ。<br><br>これから出来る。<br><br> これから吾々が造ろうとする世界である。<br><br> 006 紫微実相世界の意義、法華経普門品、大千・三千、早雲寮と紫微 紫微実相世界の意味の御説明、胎蔵界の意味の御説明―― 紫微というのは仏語である。<br><br>極楽の一番立派なお宮を紫微宮という。<br><br>また、一番立派な所を都卒天といい、最高級の仏様がいる。<br><br> 実相真如というが、真如実相が本当である。<br><br>実相とは本当の世界、昼の世界という事である。<br><br>実は実（み）で、法華経は華である。<br><br>蓮華は印度の蓮の花で、これは印度のものである。<br><br>法華経二十八品は、花を咲かせる経である。<br><br>実をならすために日本へ花を咲かしたのである。<br><br>それまでは隠遁的、陰気な宗教であった。<br><br>仏教では世の中は厭離穢土とか一切空、仮の娑婆などといい、情ない世になっている。<br><br>仏教は夜の世界の間の救いであった。<br><br>そして法華経の花が咲き、観音普門品が実になる。<br><br>だから法華宗は一代法華といい、長くやってはいけない。<br><br> 実の世界はミロクの世であり、これが実相世界である。<br><br>真如実相が本当で真如が済んで実相世界になる。<br><br> 大千は日――昼間、三千は夜となる。<br><br>大は一人（ヒトリ）――火、三は水――ミ。<br><br>故に、夜の世界は三千大千世界であり、昼は大千世界というべきである。<br><br> 弥勒が生れると仏教は滅するから、胎蔵界はなくなる。<br><br> 今度出来た家は、紫微宮のようなものである。<br><br>（早雲寮道場）（S23. 8.12） 007 紫微の字義 紫微宮の文字の解釈を御教示願います。<br><br> 紫微は仏語にある。<br><br>紺地金泥というが、これは紫を黒くしたものである。<br><br> 紫は最高の色で結びの色ともいう。<br><br>手箱など結ぶ紐は必ず紫である。<br><br> 微はかすか、細かい事、紫が細かいというのは、最高の宮を表わしたものである。<br><br>これは付会であるが、しかし、宛字であろう。<br><br> 008 彼岸の意味 お彼岸の意味をお教え下さい。<br><br> お彼岸は大した意味はない。<br><br>お彼岸とは仏教で理想世界という事で、即ち到達すべき彼岸であり、五六七の世である。<br><br>理想世界とは暑からず寒からず、丁度よい、極く好い気候で、そういう好い気候の時に身を清め心を浄めてお寺詣りに行くから、争いも不満もない。<br><br> そういう五六七の世の気分を味わうというような意味である。<br><br> 009 彼岸の意義、（常識、邪神と極端） 彼岸はいかなる訳がありますか、理由をお教え下さい。<br><br> 彼岸は春秋の中間になる。<br><br>仏教などでは向う岸、即ち彼岸に達する意であるという。<br><br>そういう事もあり得るが、（本当は）地上天国とか理想世界等、すべての物が中和された世界をいう。<br><br> 年中春のような気候、即ち極端でない。<br><br>中道政治などはそれである。<br><br>それが一番人間にとって気持よい状態である。<br><br> 極寒だとか、火の車などは、人間にとって苦しみで、非常に苦しい。<br><br> 理想的な気候は丁度好い気候である。<br><br>それが彼岸――向う岸にある。<br><br>そこへ行かなくてはならぬという意味である。<br><br> 人間の行もそうで、常識が肝腎というのはそれである。<br><br>極端は悪魔とか邪神などの行為である。<br><br>（S23） 010 彼岸の在り方、（偏向と地獄、応身と直進・独進） 春秋の彼岸は霊界ではどういう事なので御座居ましょうか。<br><br> （霊界でも現界でも同じである。<br><br>彼方の岸という事で）天国浄土――そこへ達する事。<br><br>即ち（仏法でも理想世界をいう）理想の岸へ行く事である。<br><br>この時は、夜と昼と同じ時間になる。<br><br>太陽は夏は真中、冬は端を周るが、丁度その間になる。<br><br>丁度よい。<br><br>即ちその時が天国である。<br><br>（地上天国とはすべてが中位になる）気候も温和で人間も偏らぬ。<br><br> 人間の行でも何でも偏るのがいけない。<br><br>それが地獄になる。<br><br>すべてが常識的というのはそれで、極寒・極熱はいけない。<br><br>経にも緯にも偏らぬ。<br><br>ふだんは真中にいる。<br><br>十の中にいる。<br><br>一定していてはいけない。<br><br> 観音様は応身弥勒で、先方に応ずるのである。<br><br>実際的に経に偏ったのは失敗し、緯もまた失敗する。<br><br>どっちへも行く。<br><br>融通無碍で、初めて仕事はうまくゆく。<br><br>応身でなく、直進や独進して、賛否に係わらず押しつけるのは応身と反対である。<br><br>先方によって異える。<br><br>これが理想境を目標としたもので、彼岸である。<br><br>日本の封建など、極端に行って失敗した。<br><br> 011 彼岸、仏説、天国の在り方 彼岸は仏教の理想世界、天国――春秋。<br><br> 仏教には種々説があるが、説く人が自分で作って説く。<br><br> 一番判り易い事は、天国とは理想世界で、すべて中庸を得ている事で、極端にならぬ。<br><br> 想念も行も気候も中庸を得る。<br><br>そういう事が――気候によって理想世界が表われている。<br><br>そこへ人間は行かなくてはいけないという事である。<br><br> 012 今後の宗教の在り方、胎蔵界、金剛界、転輪の意義、月の照暗 金剛界は神の世界――昼の世界。<br><br>胎蔵界は活動の世界、胎った世界、夜の世界である。<br><br>日と月になる。<br><br> 転輪は、法輪を転じる事――自由無碍。<br><br>外の仏には出来ない。<br><br> （胎蔵界は月読の世）、月の暗の時と照る時とあるが、照った時が月読尊。<br><br>コレは肉体を以て出られた。<br><br>月夜見教という宗教もある。<br><br>天照大神と夫婦のごとき御関係になる。<br><br> これからは神道でも仏教でもいけない風潮になる。<br><br>宗教も階級制度であったが、これからは民主的に低くなる。<br><br> 013 金剛界と胎蔵界、金銀と日月、明主様・中山ミキの御名の言霊解、出口師と月宮殿 金剛界は日の世界、胎蔵界は月の世界である。<br><br>弥勒胎蔵といい、仏教の中に弥勒が胎ってる。<br><br>仏滅になると弥勒が表われる。<br><br>それまで胎蔵界。<br><br> 金剛界は昼間の世界である。<br><br>故にこれからが金剛界である。<br><br> 太陽は金、月は銀となる。<br><br>金銀は日月となる。<br><br>観音は日の弥勒であるから、金の一寸八分であり、阿弥陀は月の弥勒で、出口師は阿弥陀になる。<br><br>そして月宮殿を作った。<br><br>運命も動揺があった。<br><br>月の盈虧（えいき）のごとしである。<br><br>昼になってなくなった。<br><br>（上はア行下はオ行、非常によい） 中山ミキ、ミは女、キは神、キの詞はよい。<br><br> オカダ―カダ―男、モキチ―女の神となる。<br><br>（S23） 014 胎蔵・金剛と弥勒下生、金剛界の支配者 阿弥陀如来を天の弥勒というのはピッタリしない。<br><br>月の弥勒というべきである。<br><br> 観音は日の弥勒である。<br><br> 胎蔵界は仏教で、弥勒が生れるまでが仏教で、仏教は弥勒の母体である。<br><br>金剛界に下生されるのは違っていないが、ピッタリしない。<br><br>金剛界は国常立尊が御支配せられている所である。<br><br>金剛界とは国常立尊の神が出て支配される。<br><br>その時に弥勒が出る。<br><br> 下生は下へ生れる事、下層階級へ生れる。<br><br>これを下生という。<br><br>真相を説く事は出来ぬ。<br><br> （S23. 6.23） 015 本地垂迹と明主様 本地垂迹とは―― 仏教ではいろいろに解釈している。<br><br>本地とは日本である。<br><br>迹は再びという事、再び教えを垂れる。<br><br>観音様の事である。<br><br>印度で、いずれは再び日本へ行って教えを垂れるという事。<br><br>大先生（明主様）のやられている事が本地垂迹である。<br><br>（S24. 7.11） rattail（注） 〔 伊都能売神（地上天国29号） 、昭和26(1951)年10月25日発行〕 『それは仏教でよく称える本地垂迹（ほんじすいじゃく）という言葉である。<br><br>これは私の考察によれば、本地とは本元の国すなわち日本であり、垂迹とはもちろん教えを垂れる事である。<br><br>すなわち最後に至って、故郷である日本全土に、一度仏の教えを垂れると共に、仏華を咲かせ、実を生らせなければならないという密意である。<br><br>』 〔 本地垂迹説 『光明世界』4号、昭和10(1935)年7月25日発行〕 〔 御光話（S23年 2月28日） 『御光話録（補）』発行年月日不明、推定昭和26年頃〕 『本地垂迹説もいままでのは間違いで、日本へ再び帰って来られて衆生を救うことの意味である。<br><br>』 016 仏滅と仏の意義 仏滅は物滅に通ずることはいかなる形になって現われましょうか。<br><br> 仏滅、物滅両方で、物が無くなってしまう事ではない。<br><br>物質主義――即ち、霊を次にするとか、霊なしとした唯物主義が滅し、唯心主義になる事である。<br><br> 佛のイ偏は人間の向上したもので、神ではない。<br><br>弓は月、||は月の霊体の働きをいう。<br><br>（月が地の働きをする）月の霊体とは月読尊と素盞嗚尊である。<br><br>（S24.11.19） 017 南無妙の意義、明主様と紅卍会、法華経と仏滅 南無妙とはいかなる意味でしょう。<br><br> 南無妙とは法華経でいうが、法華とは法は仏法で、仏法は華を咲かすのが最後の目的である。<br><br>妙は明の字が本当であるが、この明の字が隠してある。<br><br> 南無とは七・六で、仏教をいう。<br><br>仏教は夜の世界の間で、日がない。<br><br> 釈迦は、吾七十二歳にして見真実となりたり――と言った。<br><br>日蓮上人は五十幾歳で見真実となったと言った。<br><br>日蓮もある程度見真実になった。<br><br>それで自分が上行菩薩でない事を知った。<br><br> 支那紅卍会の神示は扶 （フーチ）によって出る。<br><br>Ｔの形をしたもので、両端を一人ずつが持って、砂板の上に字を書く。<br><br>これは古い時代からあったもので、巫という字はこれから出ている。<br><br>これによって神様の御差図が出るのである。<br><br> 教団も今に支那を開発する事になるが、その時紅卍会と関係する事になる。<br><br>主宰神は至聖先天老祖神君といい、この神は日本の国常立尊である。<br><br>老祖神は種々な神を指図して、神訓を出すのである。<br><br>観音、釈迦、マホメット、キリスト等、皆この神の指揮によって壇訓（フーチ）に出る。<br><br>紅卍会は約二十二、三年前、東京へ来た事がある。<br><br>よく観音様も出られた。<br><br>そして予言や指図をなされた。<br><br>その時「汝等これより日光へ行き、二荒山に向い、○○経を百八十回唱えよ」と出たので、信者一同は直ちに日光へ行った事がある。<br><br>それから浜離宮で写真を映したが、私も写真を一緒に写した。<br><br>その時の写真に、将来私が紅卍会と提携する事を知ったのである。<br><br>その時神様が筆で紙に字を書いた。<br><br>私は大きい「浄」の字をもらったが、私が浄化作用という事をやったのは、結局その時神様には判っていた訳である。<br><br>壇訓（フーチ）を書く時その真中だけが動き、慥かに無形の神がそれを持って書くのが判る。<br><br> その時釈迦如来が、自分の説いた経文の誤りを正すと出た。<br><br>ある時扶 （フーチ）に、○月○日、天津（本部あり）のどこそこの空中へ向って写真を撮れという神示が出て、空間を撮影したら神様の写真が撮れたという事である。<br><br> この宗教は三十年位前に出来た宗教である。<br><br> 釈迦七十二歳にして見真実となり、それから法華経を説いた。<br><br>法華経は法の華であって、その華を咲かし、それに実がなる。<br><br>いわゆる真如実相である。<br><br>実相は昼の世界の事。<br><br> 法華経は花の教えであるから長く信仰してはいけない。<br><br>一代しかやってはいけないのである。<br><br>二十八品の中、二十五番目が観音普門品で、これが華の髄になる。<br><br>その実がなるのが観音教である。<br><br> 仏滅が来るというのは、華なるが故に散ってしまう訳である。<br><br>印度でも総人口三億五千万の中、仏教信者は現在三十三万人で、何千分の一であって、殆ど仏は消滅したも同じである。<br><br>これらも仏滅を物語っている。<br><br> 南無は月の教えで、妙法とは明、即ち日月で、伊都能売――即ち光明如来様である。<br><br> 蓮華経は蓮の花咲く事、印度では三千年に一遍蓮華の花が咲くと転輪菩薩が現われ世を救う――という伝説がある。<br><br>であるから、南無は逆で、無南というのが本当である。<br><br> 仏教は逆語が多い。<br><br>大千三千世界は経文では三千大千世界と書いてあるが、これも逆である。<br><br> 大は一人、千はチ――一人で帰一さるる事である。<br><br> rattail（注） 紅卍字会（こうまんじかい） 紅卍教とも俗称された道院という中国の新興宗教と表裏一体の慈善団体。<br><br>道院は1916~17年ごろ山東省でおこり、20年代末までに全中国に広まった。<br><br>そ の宗旨は儒、仏、道、キリスト教、イスラム教の五教同源を説き、22年に紅卍字会を設立し、貧民救済、施薬施療、学校経営などの事業を手広く行った。<br><br>24 年道院は日本の大本教とも提携し、東京、神戸に道院を設けたことがあるが、大本教の禁止とともに日本国内での活動は停止された。<br><br> 扶 （フーチ） 道教の占い。<br><br>神前において砂盤を中心に両方から二人が占Ｌ筆を支えているうち神霊のまにまに砂の上に文字が書かれる。<br><br>現在では五円玉を糸につるして動きを見る簡易法が気の測定などに使われている。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Deus e Buda</h2>
 <h3>001. O Monte Sumeru e sua Interpretação pelo Kototama</h3>
@@ -185,5 +337,48 @@ function toggleLang(lang) {
 <p>"Namu" é o ensinamento da Lua, e "Myoho" (Lei Mística) é "Mei" (Luz), ou seja, Sol e Lua, Izunome, a própria Komyo Nyorai.</p>
 <p>O Sutra do Lótus (Renge-kyo) refere-se ao desabrochar da flor de lótus. Na Índia, existe uma lenda segundo a qual, a cada três mil anos, quando a flor de lótus desabrocha, o Bodhisattva Tenrin aparece para salvar o mundo. Portanto, "Namu" está invertido; o correto seria "Muna".</p>
 <p>O budismo contém muitas inversões. A expressão "Três Mil Grandes Mundos", por exemplo, está escrita nos sutras, mas a ordem correta é "Grandes Três Mil Mundos". "Grande" (大) significa "um" (一人), e "mil" (千) é "chi", significando a unificação em um.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教芸術篇 １ 001-017 神と仏 001 須弥仙山・言霊解 仏説にある須弥仙山は現界どの山に当りますか。<br/><br/> 日本でいうと富士山になる。<br/><br/>印度にもあるが、熱海では須の字を略して、弥仙山とつけた。<br/><br/> 言霊からいうと、須はス、弥はミで、体、身。<br/><br/>即ちスの身の山――という事になる。<br/><br/> 002 仏と蓮華、神山荘と富士山 仏と蓮の華との関係について御伺い申し上げます。<br/><br/> その時代印度で偉い人としたのは如来で、また菩薩、○○天の座る所を蓮華台といった。<br/><br/>故に例えば、神山荘は周りの山が蓮華台になり、道場は蓮華台上になる。<br/><br/>また、こういう説もある。<br/><br/>ドブ泥の中から蓮の花が咲く、即ち泥々の汚い世の中からきれいなものが生れる。<br/><br/>また、富士山をハチスの山という。<br/><br/>これは蓮華台になる。<br/><br/>一名須弥仙山といい、兄の花は観音であるから蓮華台に観音様が乗る。<br/><br/>（S *. 1.14） 003 蓮華台 諸仏、菩薩の端座せらるる蓮華座は、いかなる起源があるでしょうか。<br/><br/>また、その蓮華座以上の高位の台座はないのですか。<br/><br/>御伺いします。<br/><br/> 印度では蓮華は最も尊い花としてあり、賛美してある。<br/><br/>日本のよりは余程大きい。<br/><br/>それ故、諸仏の形を作る場合、蓮華座とか、蓮華台とかした。<br/><br/> 蓮華台が一番上で、上等になると蓮の葉が沢山ある。<br/><br/>それで位がつくのである。<br/><br/> 観音様などは足の下などに蓮華台がある。<br/><br/>これは日本の富士山と関係がある。<br/><br/>（S24. 8.18） 004 蓮華の意味、強羅、ハチス 蓮の花の意味―― 偉い仏などが座る所を蓮華台という。<br/><br/>これは蓮華の形をしている。<br/><br/>蓮は泥中から大きな綺麗な花が咲くといって、尊く思われる。<br/><br/> 印度ではもっと綺麗な華が咲くらしい。<br/><br/>そして大きい実をとった。<br/><br/>山など連山があって、低くなったりまた高くなったりしているのを、蓮華台の形という。<br/><br/>箱根強羅はやはり蓮華の形になっている。<br/><br/> ハスはまたハチスの言霊にもなる。<br/><br/> ハチスは富士山になる。<br/><br/> 八の字の型である。<br/><br/> スは中心。<br/><br/> つまり、富士山の頂上がハチスになる。<br/><br/>木花咲爺姫を祭るのは、そういう意味である。<br/><br/>（S24. 4. 2） 005 紫微実相世界、五六七世と紫微宮 次の言葉の意味を御伺い致します。<br/><br/> 紫微実相世界。<br/><br/> 紫微は天国紫微宮、極楽の紫微宮とかいい、最高の殿堂の事である。<br/><br/>仏教などでは紫微宮が極楽にあるという。<br/><br/>天国で一番尊いお宮を紫微宮という。<br/><br/>現界から言っても、今出来ていないが、将来、素晴しいものが出来る。<br/><br/>土地も決ったり、ミロクの世には出来る。<br/><br/>実相世界は昼間の世界、仏は真如で、夜の世界。<br/><br/>実相世界は具体的になった意味である。<br/><br/>実はミ。<br/><br/>真如は月であるから夜の世界である。<br/><br/> 実相真如――は逆になっている。<br/><br/> 実相世界は未だ出来ぬ。<br/><br/>これから出来る。<br/><br/> これから吾々が造ろうとする世界である。<br/><br/> 006 紫微実相世界の意義、法華経普門品、大千・三千、早雲寮と紫微 紫微実相世界の意味の御説明、胎蔵界の意味の御説明―― 紫微というのは仏語である。<br/><br/>極楽の一番立派なお宮を紫微宮という。<br/><br/>また、一番立派な所を都卒天といい、最高級の仏様がいる。<br/><br/> 実相真如というが、真如実相が本当である。<br/><br/>実相とは本当の世界、昼の世界という事である。<br/><br/>実は実（み）で、法華経は華である。<br/><br/>蓮華は印度の蓮の花で、これは印度のものである。<br/><br/>法華経二十八品は、花を咲かせる経である。<br/><br/>実をならすために日本へ花を咲かしたのである。<br/><br/>それまでは隠遁的、陰気な宗教であった。<br/><br/>仏教では世の中は厭離穢土とか一切空、仮の娑婆などといい、情ない世になっている。<br/><br/>仏教は夜の世界の間の救いであった。<br/><br/>そして法華経の花が咲き、観音普門品が実になる。<br/><br/>だから法華宗は一代法華といい、長くやってはいけない。<br/><br/> 実の世界はミロクの世であり、これが実相世界である。<br/><br/>真如実相が本当で真如が済んで実相世界になる。<br/><br/> 大千は日――昼間、三千は夜となる。<br/><br/>大は一人（ヒトリ）――火、三は水――ミ。<br/><br/>故に、夜の世界は三千大千世界であり、昼は大千世界というべきである。<br/><br/> 弥勒が生れると仏教は滅するから、胎蔵界はなくなる。<br/><br/> 今度出来た家は、紫微宮のようなものである。<br/><br/>（早雲寮道場）（S23. 8.12） 007 紫微の字義 紫微宮の文字の解釈を御教示願います。<br/><br/> 紫微は仏語にある。<br/><br/>紺地金泥というが、これは紫を黒くしたものである。<br/><br/> 紫は最高の色で結びの色ともいう。<br/><br/>手箱など結ぶ紐は必ず紫である。<br/><br/> 微はかすか、細かい事、紫が細かいというのは、最高の宮を表わしたものである。<br/><br/>これは付会であるが、しかし、宛字であろう。<br/><br/> 008 彼岸の意味 お彼岸の意味をお教え下さい。<br/><br/> お彼岸は大した意味はない。<br/><br/>お彼岸とは仏教で理想世界という事で、即ち到達すべき彼岸であり、五六七の世である。<br/><br/>理想世界とは暑からず寒からず、丁度よい、極く好い気候で、そういう好い気候の時に身を清め心を浄めてお寺詣りに行くから、争いも不満もない。<br/><br/> そういう五六七の世の気分を味わうというような意味である。<br/><br/> 009 彼岸の意義、（常識、邪神と極端） 彼岸はいかなる訳がありますか、理由をお教え下さい。<br/><br/> 彼岸は春秋の中間になる。<br/><br/>仏教などでは向う岸、即ち彼岸に達する意であるという。<br/><br/>そういう事もあり得るが、（本当は）地上天国とか理想世界等、すべての物が中和された世界をいう。<br/><br/> 年中春のような気候、即ち極端でない。<br/><br/>中道政治などはそれである。<br/><br/>それが一番人間にとって気持よい状態である。<br/><br/> 極寒だとか、火の車などは、人間にとって苦しみで、非常に苦しい。<br/><br/> 理想的な気候は丁度好い気候である。<br/><br/>それが彼岸――向う岸にある。<br/><br/>そこへ行かなくてはならぬという意味である。<br/><br/> 人間の行もそうで、常識が肝腎というのはそれである。<br/><br/>極端は悪魔とか邪神などの行為である。<br/><br/>（S23） 010 彼岸の在り方、（偏向と地獄、応身と直進・独進） 春秋の彼岸は霊界ではどういう事なので御座居ましょうか。<br/><br/> （霊界でも現界でも同じである。<br/><br/>彼方の岸という事で）天国浄土――そこへ達する事。<br/><br/>即ち（仏法でも理想世界をいう）理想の岸へ行く事である。<br/><br/>この時は、夜と昼と同じ時間になる。<br/><br/>太陽は夏は真中、冬は端を周るが、丁度その間になる。<br/><br/>丁度よい。<br/><br/>即ちその時が天国である。<br/><br/>（地上天国とはすべてが中位になる）気候も温和で人間も偏らぬ。<br/><br/> 人間の行でも何でも偏るのがいけない。<br/><br/>それが地獄になる。<br/><br/>すべてが常識的というのはそれで、極寒・極熱はいけない。<br/><br/>経にも緯にも偏らぬ。<br/><br/>ふだんは真中にいる。<br/><br/>十の中にいる。<br/><br/>一定していてはいけない。<br/><br/> 観音様は応身弥勒で、先方に応ずるのである。<br/><br/>実際的に経に偏ったのは失敗し、緯もまた失敗する。<br/><br/>どっちへも行く。<br/><br/>融通無碍で、初めて仕事はうまくゆく。<br/><br/>応身でなく、直進や独進して、賛否に係わらず押しつけるのは応身と反対である。<br/><br/>先方によって異える。<br/><br/>これが理想境を目標としたもので、彼岸である。<br/><br/>日本の封建など、極端に行って失敗した。<br/><br/> 011 彼岸、仏説、天国の在り方 彼岸は仏教の理想世界、天国――春秋。<br/><br/> 仏教には種々説があるが、説く人が自分で作って説く。<br/><br/> 一番判り易い事は、天国とは理想世界で、すべて中庸を得ている事で、極端にならぬ。<br/><br/> 想念も行も気候も中庸を得る。<br/><br/>そういう事が――気候によって理想世界が表われている。<br/><br/>そこへ人間は行かなくてはいけないという事である。<br/><br/> 012 今後の宗教の在り方、胎蔵界、金剛界、転輪の意義、月の照暗 金剛界は神の世界――昼の世界。<br/><br/>胎蔵界は活動の世界、胎った世界、夜の世界である。<br/><br/>日と月になる。<br/><br/> 転輪は、法輪を転じる事――自由無碍。<br/><br/>外の仏には出来ない。<br/><br/> （胎蔵界は月読の世）、月の暗の時と照る時とあるが、照った時が月読尊。<br/><br/>コレは肉体を以て出られた。<br/><br/>月夜見教という宗教もある。<br/><br/>天照大神と夫婦のごとき御関係になる。<br/><br/> これからは神道でも仏教でもいけない風潮になる。<br/><br/>宗教も階級制度であったが、これからは民主的に低くなる。<br/><br/> 013 金剛界と胎蔵界、金銀と日月、明主様・中山ミキの御名の言霊解、出口師と月宮殿 金剛界は日の世界、胎蔵界は月の世界である。<br/><br/>弥勒胎蔵といい、仏教の中に弥勒が胎ってる。<br/><br/>仏滅になると弥勒が表われる。<br/><br/>それまで胎蔵界。<br/><br/> 金剛界は昼間の世界である。<br/><br/>故にこれからが金剛界である。<br/><br/> 太陽は金、月は銀となる。<br/><br/>金銀は日月となる。<br/><br/>観音は日の弥勒であるから、金の一寸八分であり、阿弥陀は月の弥勒で、出口師は阿弥陀になる。<br/><br/>そして月宮殿を作った。<br/><br/>運命も動揺があった。<br/><br/>月の盈虧（えいき）のごとしである。<br/><br/>昼になってなくなった。<br/><br/>（上はア行下はオ行、非常によい） 中山ミキ、ミは女、キは神、キの詞はよい。<br/><br/> オカダ―カダ―男、モキチ―女の神となる。<br/><br/>（S23） 014 胎蔵・金剛と弥勒下生、金剛界の支配者 阿弥陀如来を天の弥勒というのはピッタリしない。<br/><br/>月の弥勒というべきである。<br/><br/> 観音は日の弥勒である。<br/><br/> 胎蔵界は仏教で、弥勒が生れるまでが仏教で、仏教は弥勒の母体である。<br/><br/>金剛界に下生されるのは違っていないが、ピッタリしない。<br/><br/>金剛界は国常立尊が御支配せられている所である。<br/><br/>金剛界とは国常立尊の神が出て支配される。<br/><br/>その時に弥勒が出る。<br/><br/> 下生は下へ生れる事、下層階級へ生れる。<br/><br/>これを下生という。<br/><br/>真相を説く事は出来ぬ。<br/><br/> （S23. 6.23） 015 本地垂迹と明主様 本地垂迹とは―― 仏教ではいろいろに解釈している。<br/><br/>本地とは日本である。<br/><br/>迹は再びという事、再び教えを垂れる。<br/><br/>観音様の事である。<br/><br/>印度で、いずれは再び日本へ行って教えを垂れるという事。<br/><br/>大先生（明主様）のやられている事が本地垂迹である。<br/><br/>（S24. 7.11） rattail（注） 〔 伊都能売神（地上天国29号） 、昭和26(1951)年10月25日発行〕 『それは仏教でよく称える本地垂迹（ほんじすいじゃく）という言葉である。<br/><br/>これは私の考察によれば、本地とは本元の国すなわち日本であり、垂迹とはもちろん教えを垂れる事である。<br/><br/>すなわち最後に至って、故郷である日本全土に、一度仏の教えを垂れると共に、仏華を咲かせ、実を生らせなければならないという密意である。<br/><br/>』 〔 本地垂迹説 『光明世界』4号、昭和10(1935)年7月25日発行〕 〔 御光話（S23年 2月28日） 『御光話録（補）』発行年月日不明、推定昭和26年頃〕 『本地垂迹説もいままでのは間違いで、日本へ再び帰って来られて衆生を救うことの意味である。<br/><br/>』 016 仏滅と仏の意義 仏滅は物滅に通ずることはいかなる形になって現われましょうか。<br/><br/> 仏滅、物滅両方で、物が無くなってしまう事ではない。<br/><br/>物質主義――即ち、霊を次にするとか、霊なしとした唯物主義が滅し、唯心主義になる事である。<br/><br/> 佛のイ偏は人間の向上したもので、神ではない。<br/><br/>弓は月、||は月の霊体の働きをいう。<br/><br/>（月が地の働きをする）月の霊体とは月読尊と素盞嗚尊である。<br/><br/>（S24.11.19） 017 南無妙の意義、明主様と紅卍会、法華経と仏滅 南無妙とはいかなる意味でしょう。<br/><br/> 南無妙とは法華経でいうが、法華とは法は仏法で、仏法は華を咲かすのが最後の目的である。<br/><br/>妙は明の字が本当であるが、この明の字が隠してある。<br/><br/> 南無とは七・六で、仏教をいう。<br/><br/>仏教は夜の世界の間で、日がない。<br/><br/> 釈迦は、吾七十二歳にして見真実となりたり――と言った。<br/><br/>日蓮上人は五十幾歳で見真実となったと言った。<br/><br/>日蓮もある程度見真実になった。<br/><br/>それで自分が上行菩薩でない事を知った。<br/><br/> 支那紅卍会の神示は扶 （フーチ）によって出る。<br/><br/>Ｔの形をしたもので、両端を一人ずつが持って、砂板の上に字を書く。<br/><br/>これは古い時代からあったもので、巫という字はこれから出ている。<br/><br/>これによって神様の御差図が出るのである。<br/><br/> 教団も今に支那を開発する事になるが、その時紅卍会と関係する事になる。<br/><br/>主宰神は至聖先天老祖神君といい、この神は日本の国常立尊である。<br/><br/>老祖神は種々な神を指図して、神訓を出すのである。<br/><br/>観音、釈迦、マホメット、キリスト等、皆この神の指揮によって壇訓（フーチ）に出る。<br/><br/>紅卍会は約二十二、三年前、東京へ来た事がある。<br/><br/>よく観音様も出られた。<br/><br/>そして予言や指図をなされた。<br/><br/>その時「汝等これより日光へ行き、二荒山に向い、○○経を百八十回唱えよ」と出たので、信者一同は直ちに日光へ行った事がある。<br/><br/>それから浜離宮で写真を映したが、私も写真を一緒に写した。<br/><br/>その時の写真に、将来私が紅卍会と提携する事を知ったのである。<br/><br/>その時神様が筆で紙に字を書いた。<br/><br/>私は大きい「浄」の字をもらったが、私が浄化作用という事をやったのは、結局その時神様には判っていた訳である。<br/><br/>壇訓（フーチ）を書く時その真中だけが動き、慥かに無形の神がそれを持って書くのが判る。<br/><br/> その時釈迦如来が、自分の説いた経文の誤りを正すと出た。<br/><br/>ある時扶 （フーチ）に、○月○日、天津（本部あり）のどこそこの空中へ向って写真を撮れという神示が出て、空間を撮影したら神様の写真が撮れたという事である。<br/><br/> この宗教は三十年位前に出来た宗教である。<br/><br/> 釈迦七十二歳にして見真実となり、それから法華経を説いた。<br/><br/>法華経は法の華であって、その華を咲かし、それに実がなる。<br/><br/>いわゆる真如実相である。<br/><br/>実相は昼の世界の事。<br/><br/> 法華経は花の教えであるから長く信仰してはいけない。<br/><br/>一代しかやってはいけないのである。<br/><br/>二十八品の中、二十五番目が観音普門品で、これが華の髄になる。<br/><br/>その実がなるのが観音教である。<br/><br/> 仏滅が来るというのは、華なるが故に散ってしまう訳である。<br/><br/>印度でも総人口三億五千万の中、仏教信者は現在三十三万人で、何千分の一であって、殆ど仏は消滅したも同じである。<br/><br/>これらも仏滅を物語っている。<br/><br/> 南無は月の教えで、妙法とは明、即ち日月で、伊都能売――即ち光明如来様である。<br/><br/> 蓮華経は蓮の花咲く事、印度では三千年に一遍蓮華の花が咲くと転輪菩薩が現われ世を救う――という伝説がある。<br/><br/>であるから、南無は逆で、無南というのが本当である。<br/><br/> 仏教は逆語が多い。<br/><br/>大千三千世界は経文では三千大千世界と書いてあるが、これも逆である。<br/><br/> 大は一人、千はチ――一人で帰一さるる事である。<br/><br/> rattail（注） 紅卍字会（こうまんじかい） 紅卍教とも俗称された道院という中国の新興宗教と表裏一体の慈善団体。<br/><br/>道院は1916~17年ごろ山東省でおこり、20年代末までに全中国に広まった。<br/><br/>そ の宗旨は儒、仏、道、キリスト教、イスラム教の五教同源を説き、22年に紅卍字会を設立し、貧民救済、施薬施療、学校経営などの事業を手広く行った。<br/><br/>24 年道院は日本の大本教とも提携し、東京、神戸に道院を設けたことがあるが、大本教の禁止とともに日本国内での活動は停止された。<br/><br/> 扶 （フーチ） 道教の占い。<br/><br/>神前において砂盤を中心に両方から二人が占Ｌ筆を支えているうち神霊のまにまに砂の上に文字が書かれる。<br/><br/>現在では五円玉を糸につるして動きを見る簡易法が気の測定などに使われている。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

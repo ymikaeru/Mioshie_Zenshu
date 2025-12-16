@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>isiga</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医師が電療に反対する 『救世』53号、昭和25(1950)年3月11日発行 以前、某大実業家の夫人が、顔面神経麻痺で化物のようになったのを頼まれて浄霊した事がある、数日後その夫人の話によればこうである、「先生私は先生を信頼しておりますが、子供達が一度専門家に診て貰えというので、かねて昵懇（じっこん）の○○医大の○○博士に診て貰ったところ、博士からどういう療法をしているかと訊かれたので「実は掌で治す霊気的療法というのをやって貰っております」というと、博士は「それは結構だ、その病気は放っておいても二年くらいで治るものだ、しかし、電気療法をやると反って治らないから、電気療法は決してやってはいけないよ」というので、私は「あなたの病院であなたの部下のお医者様が電気療法をしようとするのでお断りしたんですよ」と言ったら、博士は「それはよかった」との事でしたからこれからは大ピラで先生にお願い出来ます」というので、私は変な話と思った、そのような訳で、浄霊を続けた結果二ケ月くらいで全治したのである。<br><br> ここで面白いのは、右の博士は当時有名な大家で、その頃百人以上の博士を造った記念祝いに右の夫人が招かれたという事であったにみても、某博士の名声は判るのである、その博士が電気治療を否定するにもかかわらず、その部下の医者が電療を勧めるという事は、何が何だか判らない事になる。<br><br> 右の博士は、よほど変った人で、逸話が沢山ある、私は右の夫人からよく聞いたものである、その中にこういうのがあった、その夫人が某家の子供の病気の際博士を紹介したところ、その時博士いわく「嗚呼この子供はもう助からない、治療しても駄目だ」と言ったので家族のものは、何とか助かる工夫はないでしょうかと訴えたところ、博士いわく「貴女の所は子供が何人ありますか、何、五人ある？それでは一人くらい減ったっていいじゃないか」といってサッサと帰ってしまったとの事で、その家では飛んでもない医者を紹介してくれたといって立腹したそうである。<br><br> 右の一例で判るごとく、とにかく、脱俗的なところがあった、しかし何となく凡俗を抜いた人で医師会では、一方の大御所であったという事である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Posição de um Renomado Médico sobre a Eletroterapia</h2>
 <p>Certa vez, tive a oportunidade de aplicar Johrei na esposa de um grande industrial, cuja fisionomia se desfigurara por uma paralisia facial. Dias depois, ela me relatou o seguinte:</p>
@@ -96,5 +248,48 @@ function toggleLang(lang) {
 <p>O aspecto mais curioso desse relato reside na reputação do referido doutor. Tratava-se, na época, de uma sumidade em sua área, uma autoridade de tal prestígio que a própria senhora fora convidada para uma celebração em sua homenagem, por ele ter formado mais de cem outros doutores. Diante de sua fama, torna-se um paradoxo desconcertante que ele próprio negasse a eficácia da eletroterapia, enquanto seus próprios subordinados a recomendavam.</p>
 <p>Esse doutor era, de fato, uma figura bastante excêntrica, sobre quem circulavam muitas histórias, das quais ouvi várias por intermédio daquela senhora. Uma delas era a seguinte: em certa ocasião, ela o havia recomendado a uma família cujo filho estava doente. Ao examinar a criança, o doutor declarou sem rodeios: “Ah, este menino não tem mais salvação. Nenhum tratamento adiantará”. Aflita, a família implorou para que ele buscasse uma solução, ao que ele retrucou: “Quantos filhos a senhora tem? Cinco? Pois bem, então qual o problema em perder um?”. Dito isso, retirou-se apressadamente. Naturalmente, a família ficou indignada, recriminando a senhora por lhes ter indicado um médico tão descabido.</p>
 <p>Como este exemplo demonstra, ele possuía um caráter alheio às convenções mundanas. Todavia, era inegavelmente um homem que transcendia o ordinário, sendo considerado um dos maiores pilares da comunidade médica de seu tempo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医師が電療に反対する 『救世』53号、昭和25(1950)年3月11日発行 以前、某大実業家の夫人が、顔面神経麻痺で化物のようになったのを頼まれて浄霊した事がある、数日後その夫人の話によればこうである、「先生私は先生を信頼しておりますが、子供達が一度専門家に診て貰えというので、かねて昵懇（じっこん）の○○医大の○○博士に診て貰ったところ、博士からどういう療法をしているかと訊かれたので「実は掌で治す霊気的療法というのをやって貰っております」というと、博士は「それは結構だ、その病気は放っておいても二年くらいで治るものだ、しかし、電気療法をやると反って治らないから、電気療法は決してやってはいけないよ」というので、私は「あなたの病院であなたの部下のお医者様が電気療法をしようとするのでお断りしたんですよ」と言ったら、博士は「それはよかった」との事でしたからこれからは大ピラで先生にお願い出来ます」というので、私は変な話と思った、そのような訳で、浄霊を続けた結果二ケ月くらいで全治したのである。<br/><br/> ここで面白いのは、右の博士は当時有名な大家で、その頃百人以上の博士を造った記念祝いに右の夫人が招かれたという事であったにみても、某博士の名声は判るのである、その博士が電気治療を否定するにもかかわらず、その部下の医者が電療を勧めるという事は、何が何だか判らない事になる。<br/><br/> 右の博士は、よほど変った人で、逸話が沢山ある、私は右の夫人からよく聞いたものである、その中にこういうのがあった、その夫人が某家の子供の病気の際博士を紹介したところ、その時博士いわく「嗚呼この子供はもう助からない、治療しても駄目だ」と言ったので家族のものは、何とか助かる工夫はないでしょうかと訴えたところ、博士いわく「貴女の所は子供が何人ありますか、何、五人ある？それでは一人くらい減ったっていいじゃないか」といってサッサと帰ってしまったとの事で、その家では飛んでもない医者を紹介してくれたといって立腹したそうである。<br/><br/> 右の一例で判るごとく、とにかく、脱俗的なところがあった、しかし何となく凡俗を抜いた人で医師会では、一方の大御所であったという事である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

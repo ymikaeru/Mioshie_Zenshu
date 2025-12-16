@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>issyuno1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 一種の罪悪 『栄光』95号、昭和26(1951)年3月14日発行 お蔭話中にも沢山あるごとく、重難病がどうしても治らず、生命の危険に晒（さら）され、このまま病苦に喘ぎながら死んでしまうより、いっそ自殺した方がいいとさえ思うようになり、今日死のうか明日死のうかと迷っている瀬戸際、たまたま本教を勧められるが、そのまま素直に言う事をきき、助かった人は、真に幸福を掴み得た人で、こう言う人の例は、常に本教刊行物に多く載せてあるから、読者はよく知っているであろうが、ここに見逃す事の出来ない重大事がある。<br><br>というのはそのような危機に追い込まれながらも、仲々言う事をきかない人がある。<br><br>何しろ平常から幾多の新聞雑誌のデマや、悪口等のため本人は固（もと）より、周囲の者までも本教を迷信邪教と思わせられているため、何程勧められても容易にその気になれないで、グズグズしている間に、ついに最期となる者がいかに多いかである。<br><br> 右のごとく、本教の真相も碌々（ろくろく）知らず、触れてもみないで、ただ人が悪くいうから悪いのだろう。<br><br>新聞雑誌がああかくのだから、何か悪い点があるに違いないと思い込んでいるので、たまたま熱心に勧める者があっても、反って反対にとり、その人は邪教に巧く騙されているに違いない。<br><br>実に気の毒な人くらいにしか思わないのである。<br><br>しかしこれも実際無理はない。<br><br>何となれば、世間にはインチキ邪教が余りに多いからで、ちょうど十把一紮（じっぱいっさつ）的に本教もそう見られるのである。<br><br>ちょうど砂利の中の真珠のようなもので、砂利を掴んだ盲は、真珠も砂利の一粒としか思えないと同様であろう。<br><br> ところが、それだけの事なら大して問題にはならないが、大衆をこのような心境にしてしまう動機そのもので、それは全く新聞雑誌のデマからである。<br><br>現代人は誰でも不思議な程活字の魔術に掛り易い、それがため、せっかく助かるべき命も、助からないで死んでしまうという事になる。<br><br>それも一人や二人ではない。<br><br>天下何万という多数の者の生命が、その犠牲になるのであるから事は重大である。<br><br>従って結果から言えば、間接的殺人行為の犠牲にされたと言っても過言ではあるまい。<br><br>とは言うものの、実際彼らといえどもそんな重大な結果を生むなどとは夢にも思うまい。<br><br>それどころか、彼らに云わしむれば、本教のごとき迷信邪教があるから、社会に迷信が絶えないので、こういう邪教は大いに筆誅を加え、国民の目を醒まさねばならないと思っているのであろうが、事実はその逆である事をここに警告するのである。<br><br>全く善と信じて行う事が、悪になるという事程、馬鹿馬鹿しい話はあるまい。<br><br>何しろ事人命に関するにおいてをやである、としたら碌々調査もしないで独善的に記事をかくその軽率さである。<br><br>これが想像もつかない程の大きな罪悪となるのであるから、これによってみてもジャーナリストという使命の、いかに重要であり慎重でなければならないかを知るであろう。<br><br>インボデン新聞課長が、報道機関の虚偽や捏造（ねつぞう）を、特に戒めているのもゆえあるかなと思うのである。<br><br> これを一般のジャーナリスト諸君に提言する次第である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Uma Espécie de Crime</h2>
 <p>Em nossos relatos de graças alcançadas, são numerosos os casos de pessoas que, acometidas por doenças graves e incuráveis, chegam a ser expostas a um perigo iminente de vida. Sua condição as leva a um sofrimento tal, que passam a cogitar o suicídio como uma alternativa preferível a definhar em agonia. É nesse limiar entre a vida e a morte que, porventura, são apresentadas à nossa fé. Aqueles que, com sinceridade e obediência, seguem as orientações, são salvos e conquistam a verdadeira felicidade. Exemplos como estes são constantemente divulgados em nossas publicações e, por certo, já são bem conhecidos de nossos leitores.</p>
@@ -96,5 +248,48 @@ function toggleLang(lang) {
 <p>No entanto, se a questão se limitasse a isso, não seria tão problemática. O cerne do problema reside na origem dessa mentalidade coletiva: as calúnias propagadas pela imprensa. O homem moderno, de modo surpreendente, é extremamente suscetível à magia da palavra impressa. Em decorrência disso, vidas que poderiam ser salvas acabam se perdendo. E não se trata de um ou dois casos isolados, mas de dezenas de milhares de vidas em todo o país que se tornam vítimas dessa situação. A questão é, portanto, de extrema gravidade. Analisando as consequências, não seria um exagero afirmar que essas pessoas são sacrificadas por um ato de homicídio indireto.</p>
 <p>É evidente que os responsáveis por tais publicações sequer sonham com a magnitude das consequências de seus atos. Pelo contrário, em sua visão, eles provavelmente acreditam que, ao desferir suas críticas contundentes, estão combatendo seitas supersticiosas como a nossa, prestando um serviço à sociedade ao “despertar” a consciência do povo. O que desejo advertir aqui é que a realidade é precisamente o oposto. Haverá algo mais insensato do que um ato praticado na convicção de ser um bem, mas que, na verdade, resulta no mal? Isto se torna ainda mais grave por se tratar de vidas humanas. A leviandade com que escrevem seus artigos, baseados em um senso de justiça próprio e sem a devida investigação, transforma-se em um crime de proporções inimagináveis. Este fato, por si só, revela a imensa importância e a cautela que a missão de um jornalista exige. Nesse sentido, as palavras do Sr. Imboden, chefe da assessoria de imprensa, que advertiu especificamente contra a falsidade e a fabricação de informações nos meios de comunicação, mostram-se repletas de razão.</p>
 <p>É esta a reflexão que proponho aos jornalistas em geral.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 一種の罪悪 『栄光』95号、昭和26(1951)年3月14日発行 お蔭話中にも沢山あるごとく、重難病がどうしても治らず、生命の危険に晒（さら）され、このまま病苦に喘ぎながら死んでしまうより、いっそ自殺した方がいいとさえ思うようになり、今日死のうか明日死のうかと迷っている瀬戸際、たまたま本教を勧められるが、そのまま素直に言う事をきき、助かった人は、真に幸福を掴み得た人で、こう言う人の例は、常に本教刊行物に多く載せてあるから、読者はよく知っているであろうが、ここに見逃す事の出来ない重大事がある。<br/><br/>というのはそのような危機に追い込まれながらも、仲々言う事をきかない人がある。<br/><br/>何しろ平常から幾多の新聞雑誌のデマや、悪口等のため本人は固（もと）より、周囲の者までも本教を迷信邪教と思わせられているため、何程勧められても容易にその気になれないで、グズグズしている間に、ついに最期となる者がいかに多いかである。<br/><br/> 右のごとく、本教の真相も碌々（ろくろく）知らず、触れてもみないで、ただ人が悪くいうから悪いのだろう。<br/><br/>新聞雑誌がああかくのだから、何か悪い点があるに違いないと思い込んでいるので、たまたま熱心に勧める者があっても、反って反対にとり、その人は邪教に巧く騙されているに違いない。<br/><br/>実に気の毒な人くらいにしか思わないのである。<br/><br/>しかしこれも実際無理はない。<br/><br/>何となれば、世間にはインチキ邪教が余りに多いからで、ちょうど十把一紮（じっぱいっさつ）的に本教もそう見られるのである。<br/><br/>ちょうど砂利の中の真珠のようなもので、砂利を掴んだ盲は、真珠も砂利の一粒としか思えないと同様であろう。<br/><br/> ところが、それだけの事なら大して問題にはならないが、大衆をこのような心境にしてしまう動機そのもので、それは全く新聞雑誌のデマからである。<br/><br/>現代人は誰でも不思議な程活字の魔術に掛り易い、それがため、せっかく助かるべき命も、助からないで死んでしまうという事になる。<br/><br/>それも一人や二人ではない。<br/><br/>天下何万という多数の者の生命が、その犠牲になるのであるから事は重大である。<br/><br/>従って結果から言えば、間接的殺人行為の犠牲にされたと言っても過言ではあるまい。<br/><br/>とは言うものの、実際彼らといえどもそんな重大な結果を生むなどとは夢にも思うまい。<br/><br/>それどころか、彼らに云わしむれば、本教のごとき迷信邪教があるから、社会に迷信が絶えないので、こういう邪教は大いに筆誅を加え、国民の目を醒まさねばならないと思っているのであろうが、事実はその逆である事をここに警告するのである。<br/><br/>全く善と信じて行う事が、悪になるという事程、馬鹿馬鹿しい話はあるまい。<br/><br/>何しろ事人命に関するにおいてをやである、としたら碌々調査もしないで独善的に記事をかくその軽率さである。<br/><br/>これが想像もつかない程の大きな罪悪となるのであるから、これによってみてもジャーナリストという使命の、いかに重要であり慎重でなければならないかを知るであろう。<br/><br/>インボデン新聞課長が、報道機関の虚偽や捏造（ねつぞう）を、特に戒めているのもゆえあるかなと思うのである。<br/><br/> これを一般のジャーナリスト諸君に提言する次第である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

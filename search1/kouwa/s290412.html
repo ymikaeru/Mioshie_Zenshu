@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s290412</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （於奈良公会堂） 『栄光』258号、昭和29(1954)年5月26日発行 時間がないため、言いたい事を全部話すのは無理なような感じがするので、こく要点だけをお話しましょう。<br><br>今世界中で一番問題にされているのは、みんな知っているとおり水素爆弾です。<br><br>水素爆弾というものも、無論神様がやられているのですが、一体どういう訳でああいう恐ろしい気味の悪いものを拵えられたかという事について、ザットお話したいと思います。<br><br>宗教のお話は、科学の最も先端の事をお話しするのですから、随分矛盾した話ですが、そういうふうに思うのは、いかに世の中が科学一点張かという事が分るのです。<br><br>本当を言えば、神様のやられる事が最先端なので、科学の方が後を付いてゆくというのが本当なのです。<br><br>先端を神様が言っているという事を知らせる人も、お話する人もないから、今まで分らなかったというわけです。<br><br>それについて気のついたのは最近アメリカの方で、私の著書を大分調べて、その中で、無論「アメリカを救う」なども調べているそうですが、それから私の書いたものの中に、「原爆怒るるに足らず」というのがありましたが、それに注目して、アメリカの人から“大変な事を言っている。<br><br>救世教の実体を一度調査するように”との依頼を、日本に支社のある英字雑誌で『シーン』というのがあります。<br><br>そこにアメリカの本社から通知かあって、ぜひ私に会っていろいろ聞きたいと言うので、十五日にシーンの記者と面会する事になりました。<br><br>それで私は気がついたのですが、一番知りたいと思う事は水素爆弾の事です。<br><br>というのは、あれほど恐ろしいものはないです。<br><br>あれが出たのは神様の御意志、というよりも人類に対する働きです。<br><br>それはどういう意味かという事なのです。<br><br>私が書いたのは「原爆恐るるに足らず」ですが、その時は水素爆弾は出てなかったのです。<br><br>現に原子爆弾の時には、信者さんでそれに遭ってお蔭をいただいた人があるのですから、その実際の報告によって充分証明が出来るから出したのです。<br><br>ところか水素爆弾は大変な違いです。<br><br>水素爆弾は原爆の何倍とか、色々な発表がありました。<br><br>何十倍、何百倍とか、二千倍というのもありましたが、本当はまだ分らないようです。<br><br>この間のビキニでの水爆実験の結果、学者も意外だと言うくらいですから、科学者が予想以上だと言うのですから、正確なところはまだ分ってないのです。<br><br>けれどもともかく恐ろしい大きな、想像もつかないくらいの威力を発揮するという事は確認されたのです。<br><br>すると一体人類はどうしたらよいだろうという事を考えてみると、それに対し、四月一日にアイゼンハウアーは“水素爆弾は恐るるに足らない。<br><br>ただその使用目的のいかんによって恐ろしいか恐ろしくないかが決まる”と言ってましたが全くそのとおりです。<br><br>つまり水素爆弾そのものは、人類を殺す目的とか、あらゆるものも破壊する目的というように、戦争のために使うと恐ろしいものですが、そうでなければなんでもないのです。<br><br>むしろ人類の幸福のために使うと、これは大変結構なものになるのです。<br><br>そうすると、使用者の意志いかんによるのです。<br><br>使用者の意志で、水素爆弾を破壊のために用いるというのは戦争ですがその根本を一口に言うと悪です。<br><br>人間を殺しても破壊しても、自分達の目的、欲望を達成すればよいという目的ですから悪です。<br><br>人間からそういう悪を全部無くする事はできませんが、つまりそういう悪をある程度に制限するという事が根本問題です。<br><br>水素爆弾のために世界中が今しきりに唱えている“強国同志が共同管理する”とか“条約を締結する”とか言っているが、あれは膏薬張です。<br><br>結局、うまく成功したところで、ある時期の問題とか、ある程度という、一つの限度かありますから、本当に解決したのでなくて、安心する事は絶対にできないのです。<br><br>それより絶対安心できるというのは人間の心の問題です。<br><br>魂の問題です。<br><br>そうすると、根本である魂をどう解決するかというと、宗教より他にないです。<br><br> だから水素爆弾が重要になればなるほど、宗教というものが人類から要求されなければならないことになるのです。<br><br>しかしそれに考えを起こさないのです。<br><br>宗教ナンテものは駄目だと、これは科学の産物であるからして相談より他にしようがないということになっているのです。<br><br>ところがそう思われるということは、今までの宗教に悪を制御する力のある宗教はなかったのです。<br><br>本当言うと宗教ではなかったのです。<br><br>いや、宗教はそれだけの力がなかったのです。<br><br>そこで他の新しいものが出なければ駄目だとなると、つまり宗教以上のものです。<br><br>超宗教というと、それは一体何かと言うと、皆さんが知っているとおり救世教です。<br><br>救世教より他にないのです。<br><br>そこで神様は人間の魂の改造、その仕事を遂行させるというのが救世教であり、それを世界中の全人類に分らせるのが、あなた方信者の役目になるわけです。<br><br>水素爆弾と聞くと、自分達は縁のないように思われますが、ところが今言ったようなわけで大いに必要なので、これからです。<br><br>その事を十五日に来た人に話をするつもりです。<br><br>それはアメリカの政府に通しますから、無論あっちの何かの機関に、それを通して少なくとも政府首脳部に伝達されるには違いないのです。<br><br>結局において、思う事を言えば、まずアメリカの首脳部が救世教信者になるという事が根本問題です。<br><br>そうなります。<br><br>時の問題です。<br><br>それより他に世界が救われ、人類が安心するところまでゆきません。<br><br>もしそうでなかったら、結局原子爆弾戦争になりますから。<br><br>なにしろアメリカではドンドン生産を増やすというのです。<br><br>つい最近の外電では、アイゼンハウアーの声明によって、水素爆弾の生産をドシドシ増やすという事が出てました。<br><br>そうすると結局ソ連の方も負けずにやってますから、どっちかが諦らめるよりないです。<br><br>ところがアメリカの方は防御的目的であり、ソ連の方は積極的世界制覇の目的ですから、根本はソ連にあるのです。<br><br>共産党の首脳部が、“そんな事はいけない、止そう”と、つまり自己の利益のためには何物も犠牲にするという悪を思い止どまる、無くするとも言えないから押える、押えるだけの善の力が湧けばよいのです。<br><br>ですから、この水素爆弾の大問題も、結局一握りの共産党首脳者の解散にあるのです。<br><br>それは神様の方もチャンと知ってます。<br><br>知っていると言うよりか、水素爆弾を作ったのはやはり神様です。<br><br>神様の方に科学の係があるのです。<br><br>係というとおかしいですが、そういう神様です。<br><br>それで水素爆弾というものは必要なのです。<br><br>ミロクの世にするにはどうしても一つの重要な道具です。<br><br>結局において善の方に使うに違いないのですが、それまでにやっぱり、今言う、人間の魂の改造上必要なのです。<br><br>そういうふうに見ますと、少なくとも救世教信者としてはいささかも驚くに足らないのです。<br><br>結局において非常に結構だ、それがあるために世界がこんなに良くなったという事になります。<br><br>これを例えて言うと、日本の広島と長崎に原子爆弾が放たれて、一ぺんに日本が降伏して平和になったのですが、もしあの原子爆弾が無かったら、まだ戦争が続いたに違いないです。<br><br>日本は、降伏なんてとんでもないとどこまでも戦った。<br><br>今は笑い話ですが、知っているとおり、竹ヤリの稽古までやったのですから。<br><br>しかしあまりに原爆の威力が恐ろしいので、これは駄目だという事になったのです。<br><br>あの時に天皇陛下が阿南陸相を呼んで“お前、勝つ見込があるか”と言うと、“ありません”“それでは止したらよいではないか”と言うと“止す事もできません”と言ったのです。<br><br>その時の軍部の情勢を正直に表わした言葉です。<br><br>その結果翌日いよいよ降伏という事に決まった時に、阿南陸相は腹を切って死にました。<br><br>その言責から生きてはおられなかったのです。<br><br>それで日本人は今もって広島、長崎の原子爆弾を怨んでますが、実は広島、長崎の原子爆弾で日本の都市はみんな助かったのです。<br><br>そうでないと、みんな潰されてしまいます。<br><br>ですから水素爆弾も、放たれた後は、それがためにこんなに良くなったという事になるのは必ず間違いないです。<br><br>さっき私が言ったように、近頃アメリカのジャーナリスト、知識階級が大分救世教を問題にするようになって私の所に訪ねて来るのがだんだん増えて来たのです。<br><br>美術研究家とか新聞記者ですが（最初は美術研究のために来たのですが、近頃は宗教の方も増えて来て、大分宗教的の質問もあります）そういうわけで、信者ではないが、ファンというものが増えて来てます。<br><br>今にあっちの知識階級の注目の焦点になるというように認めて来るのです。<br><br> そこでいずれは、民間外交といいますか（政府の厄介にならないで、民間外交というような）一つの機関というようなものになるような形勢があるのです。<br><br>いや、もう現にいっているのです。<br><br>いつものグリリ夫妻などが、“外務省などはしようがない。<br><br>だからつまり民間でしっかりしてもらって、それを通じていろんな事を話した方がよいように思っている”と言ってます。<br><br>実現性が難しいかもしれないですが、相当アメリカの有識者と話し合いが出来る時代が来るという事は確かです。<br><br>そうすると、いつも言うとおり、アメリカが緯の文化、日本が経の文化の代表者で、それを結ぶという事がいよいよ実現の段階に入ってゆくわけです。<br><br>救世教のバッチにあるとおり、経と緯が結んでいると、経が日本で緯がアメリカ、真中の丸い赤は昼間の世界とも言うし、日の本、日本とも言えるわけです。<br><br>真中が黄色くなってますが、あれは本当は金です。<br><br>あれが救世教になるわけです。<br><br>金というものは、そういったような非常に意味があるのです。<br><br>これはいずれ話しますが、そういうような工合で、つまり救世教の象徴です。<br><br>あれがそういう使命を表わしているのです。<br><br>（以下略）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Bomba de Hidrogênio e a Missão Divina</h2>
 <p>Dado o tempo exíguo de que disponho, não será possível abordar todos os pontos que gostaria. Concentrar-me-ei, portanto, nos aspectos essenciais. O tema que hoje mais aflige o mundo, como todos sabem, é a bomba de hidrogênio. Gostaria de explanar brevemente por que razão Deus permitiu a criação de um artefato tão aterrador e sinistro.</p>
@@ -111,5 +263,48 @@ function toggleLang(lang) {
 <p>Como mencionei, recentemente, jornalistas e intelectuais americanos têm demonstrado um interesse crescente pela Sekaikyuseikyou, e o número de visitantes que recebo tem aumentado. Inicialmente, eram pesquisadores de arte, mas agora vêm também repórteres e outros, com questionamentos de natureza religiosa. Assim, mesmo não sendo membros, o número de nossos “fãs”, por assim dizer, está crescendo. Sinto que estamos nos tornando um foco de atenção para a classe intelectual daquele país.</p>
 <p>Nesse contexto, vislumbra-se a possibilidade de nos tornarmos uma espécie de órgão de diplomacia civil, atuando de forma independente do governo. Na verdade, isso já está acontecendo. O casal Grilli, por exemplo, costuma dizer: “O Ministério das Relações Exteriores não resolve nada. Seria muito melhor se os civis se fortalecessem para que pudéssemos dialogar por meio deles”. Embora a concretização possa parecer difícil, é certo que se aproxima o tempo em que poderemos manter um diálogo substancial com personalidades americanas de grande relevo.</p>
 <p>Dessa forma, a união entre a cultura da latitude, representada pela América, e a cultura da longitude, representada pelo Japão — um ponto que sempre enfatizo —, finalmente entra em sua fase de realização. Isso está simbolizado em nosso emblema. A linha vertical (longitude) é o Japão, e a horizontal (latitude) é a América. O círculo vermelho no centro representa o mundo diurno, ou <em>Hi no Moto</em>, a Fonte do Sol, ou seja, o Japão. O centro é amarelado, mas na verdade representa o ouro. Esse ouro é a Sekaikyuseikyou. O ouro possui um significado muito profundo, sobre o qual falarei em outra oportunidade. Assim, nosso emblema é um símbolo da Sekaikyuseikyou e expressa a sua sublime missão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （於奈良公会堂） 『栄光』258号、昭和29(1954)年5月26日発行 時間がないため、言いたい事を全部話すのは無理なような感じがするので、こく要点だけをお話しましょう。<br/><br/>今世界中で一番問題にされているのは、みんな知っているとおり水素爆弾です。<br/><br/>水素爆弾というものも、無論神様がやられているのですが、一体どういう訳でああいう恐ろしい気味の悪いものを拵えられたかという事について、ザットお話したいと思います。<br/><br/>宗教のお話は、科学の最も先端の事をお話しするのですから、随分矛盾した話ですが、そういうふうに思うのは、いかに世の中が科学一点張かという事が分るのです。<br/><br/>本当を言えば、神様のやられる事が最先端なので、科学の方が後を付いてゆくというのが本当なのです。<br/><br/>先端を神様が言っているという事を知らせる人も、お話する人もないから、今まで分らなかったというわけです。<br/><br/>それについて気のついたのは最近アメリカの方で、私の著書を大分調べて、その中で、無論「アメリカを救う」なども調べているそうですが、それから私の書いたものの中に、「原爆怒るるに足らず」というのがありましたが、それに注目して、アメリカの人から“大変な事を言っている。<br/><br/>救世教の実体を一度調査するように”との依頼を、日本に支社のある英字雑誌で『シーン』というのがあります。<br/><br/>そこにアメリカの本社から通知かあって、ぜひ私に会っていろいろ聞きたいと言うので、十五日にシーンの記者と面会する事になりました。<br/><br/>それで私は気がついたのですが、一番知りたいと思う事は水素爆弾の事です。<br/><br/>というのは、あれほど恐ろしいものはないです。<br/><br/>あれが出たのは神様の御意志、というよりも人類に対する働きです。<br/><br/>それはどういう意味かという事なのです。<br/><br/>私が書いたのは「原爆恐るるに足らず」ですが、その時は水素爆弾は出てなかったのです。<br/><br/>現に原子爆弾の時には、信者さんでそれに遭ってお蔭をいただいた人があるのですから、その実際の報告によって充分証明が出来るから出したのです。<br/><br/>ところか水素爆弾は大変な違いです。<br/><br/>水素爆弾は原爆の何倍とか、色々な発表がありました。<br/><br/>何十倍、何百倍とか、二千倍というのもありましたが、本当はまだ分らないようです。<br/><br/>この間のビキニでの水爆実験の結果、学者も意外だと言うくらいですから、科学者が予想以上だと言うのですから、正確なところはまだ分ってないのです。<br/><br/>けれどもともかく恐ろしい大きな、想像もつかないくらいの威力を発揮するという事は確認されたのです。<br/><br/>すると一体人類はどうしたらよいだろうという事を考えてみると、それに対し、四月一日にアイゼンハウアーは“水素爆弾は恐るるに足らない。<br/><br/>ただその使用目的のいかんによって恐ろしいか恐ろしくないかが決まる”と言ってましたが全くそのとおりです。<br/><br/>つまり水素爆弾そのものは、人類を殺す目的とか、あらゆるものも破壊する目的というように、戦争のために使うと恐ろしいものですが、そうでなければなんでもないのです。<br/><br/>むしろ人類の幸福のために使うと、これは大変結構なものになるのです。<br/><br/>そうすると、使用者の意志いかんによるのです。<br/><br/>使用者の意志で、水素爆弾を破壊のために用いるというのは戦争ですがその根本を一口に言うと悪です。<br/><br/>人間を殺しても破壊しても、自分達の目的、欲望を達成すればよいという目的ですから悪です。<br/><br/>人間からそういう悪を全部無くする事はできませんが、つまりそういう悪をある程度に制限するという事が根本問題です。<br/><br/>水素爆弾のために世界中が今しきりに唱えている“強国同志が共同管理する”とか“条約を締結する”とか言っているが、あれは膏薬張です。<br/><br/>結局、うまく成功したところで、ある時期の問題とか、ある程度という、一つの限度かありますから、本当に解決したのでなくて、安心する事は絶対にできないのです。<br/><br/>それより絶対安心できるというのは人間の心の問題です。<br/><br/>魂の問題です。<br/><br/>そうすると、根本である魂をどう解決するかというと、宗教より他にないです。<br/><br/> だから水素爆弾が重要になればなるほど、宗教というものが人類から要求されなければならないことになるのです。<br/><br/>しかしそれに考えを起こさないのです。<br/><br/>宗教ナンテものは駄目だと、これは科学の産物であるからして相談より他にしようがないということになっているのです。<br/><br/>ところがそう思われるということは、今までの宗教に悪を制御する力のある宗教はなかったのです。<br/><br/>本当言うと宗教ではなかったのです。<br/><br/>いや、宗教はそれだけの力がなかったのです。<br/><br/>そこで他の新しいものが出なければ駄目だとなると、つまり宗教以上のものです。<br/><br/>超宗教というと、それは一体何かと言うと、皆さんが知っているとおり救世教です。<br/><br/>救世教より他にないのです。<br/><br/>そこで神様は人間の魂の改造、その仕事を遂行させるというのが救世教であり、それを世界中の全人類に分らせるのが、あなた方信者の役目になるわけです。<br/><br/>水素爆弾と聞くと、自分達は縁のないように思われますが、ところが今言ったようなわけで大いに必要なので、これからです。<br/><br/>その事を十五日に来た人に話をするつもりです。<br/><br/>それはアメリカの政府に通しますから、無論あっちの何かの機関に、それを通して少なくとも政府首脳部に伝達されるには違いないのです。<br/><br/>結局において、思う事を言えば、まずアメリカの首脳部が救世教信者になるという事が根本問題です。<br/><br/>そうなります。<br/><br/>時の問題です。<br/><br/>それより他に世界が救われ、人類が安心するところまでゆきません。<br/><br/>もしそうでなかったら、結局原子爆弾戦争になりますから。<br/><br/>なにしろアメリカではドンドン生産を増やすというのです。<br/><br/>つい最近の外電では、アイゼンハウアーの声明によって、水素爆弾の生産をドシドシ増やすという事が出てました。<br/><br/>そうすると結局ソ連の方も負けずにやってますから、どっちかが諦らめるよりないです。<br/><br/>ところがアメリカの方は防御的目的であり、ソ連の方は積極的世界制覇の目的ですから、根本はソ連にあるのです。<br/><br/>共産党の首脳部が、“そんな事はいけない、止そう”と、つまり自己の利益のためには何物も犠牲にするという悪を思い止どまる、無くするとも言えないから押える、押えるだけの善の力が湧けばよいのです。<br/><br/>ですから、この水素爆弾の大問題も、結局一握りの共産党首脳者の解散にあるのです。<br/><br/>それは神様の方もチャンと知ってます。<br/><br/>知っていると言うよりか、水素爆弾を作ったのはやはり神様です。<br/><br/>神様の方に科学の係があるのです。<br/><br/>係というとおかしいですが、そういう神様です。<br/><br/>それで水素爆弾というものは必要なのです。<br/><br/>ミロクの世にするにはどうしても一つの重要な道具です。<br/><br/>結局において善の方に使うに違いないのですが、それまでにやっぱり、今言う、人間の魂の改造上必要なのです。<br/><br/>そういうふうに見ますと、少なくとも救世教信者としてはいささかも驚くに足らないのです。<br/><br/>結局において非常に結構だ、それがあるために世界がこんなに良くなったという事になります。<br/><br/>これを例えて言うと、日本の広島と長崎に原子爆弾が放たれて、一ぺんに日本が降伏して平和になったのですが、もしあの原子爆弾が無かったら、まだ戦争が続いたに違いないです。<br/><br/>日本は、降伏なんてとんでもないとどこまでも戦った。<br/><br/>今は笑い話ですが、知っているとおり、竹ヤリの稽古までやったのですから。<br/><br/>しかしあまりに原爆の威力が恐ろしいので、これは駄目だという事になったのです。<br/><br/>あの時に天皇陛下が阿南陸相を呼んで“お前、勝つ見込があるか”と言うと、“ありません”“それでは止したらよいではないか”と言うと“止す事もできません”と言ったのです。<br/><br/>その時の軍部の情勢を正直に表わした言葉です。<br/><br/>その結果翌日いよいよ降伏という事に決まった時に、阿南陸相は腹を切って死にました。<br/><br/>その言責から生きてはおられなかったのです。<br/><br/>それで日本人は今もって広島、長崎の原子爆弾を怨んでますが、実は広島、長崎の原子爆弾で日本の都市はみんな助かったのです。<br/><br/>そうでないと、みんな潰されてしまいます。<br/><br/>ですから水素爆弾も、放たれた後は、それがためにこんなに良くなったという事になるのは必ず間違いないです。<br/><br/>さっき私が言ったように、近頃アメリカのジャーナリスト、知識階級が大分救世教を問題にするようになって私の所に訪ねて来るのがだんだん増えて来たのです。<br/><br/>美術研究家とか新聞記者ですが（最初は美術研究のために来たのですが、近頃は宗教の方も増えて来て、大分宗教的の質問もあります）そういうわけで、信者ではないが、ファンというものが増えて来てます。<br/><br/>今にあっちの知識階級の注目の焦点になるというように認めて来るのです。<br/><br/> そこでいずれは、民間外交といいますか（政府の厄介にならないで、民間外交というような）一つの機関というようなものになるような形勢があるのです。<br/><br/>いや、もう現にいっているのです。<br/><br/>いつものグリリ夫妻などが、“外務省などはしようがない。<br/><br/>だからつまり民間でしっかりしてもらって、それを通じていろんな事を話した方がよいように思っている”と言ってます。<br/><br/>実現性が難しいかもしれないですが、相当アメリカの有識者と話し合いが出来る時代が来るという事は確かです。<br/><br/>そうすると、いつも言うとおり、アメリカが緯の文化、日本が経の文化の代表者で、それを結ぶという事がいよいよ実現の段階に入ってゆくわけです。<br/><br/>救世教のバッチにあるとおり、経と緯が結んでいると、経が日本で緯がアメリカ、真中の丸い赤は昼間の世界とも言うし、日の本、日本とも言えるわけです。<br/><br/>真中が黄色くなってますが、あれは本当は金です。<br/><br/>あれが救世教になるわけです。<br/><br/>金というものは、そういったような非常に意味があるのです。<br/><br/>これはいずれ話しますが、そういうような工合で、つまり救世教の象徴です。<br/><br/>あれがそういう使命を表わしているのです。<br/><br/>（以下略）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

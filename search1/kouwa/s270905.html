@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s270905</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年9月5日） 『御教え集』14号、昭和27(1952)年10月15日発行 昭和二十七年九月五日 おもしろい論文を書いてみたのです。<br><br>今の世の中は、いろんな苦しみがあって地獄のようなものですが、そのいろいろなことの因がみんな悪から発生しているのです。<br><br>割合にそこに気がつかないのです。<br><br>あんまり悪の世の中が来すぎたために、それがあたりまえみたいになっている。<br><br>だから分かりきったことでうっかりしているのです。<br><br>それを書いてみたのです。<br><br> （御論文「悪の世の中」）【栄光 一七四号】 それから二、三日前のラジオで、スウェーデンのハルマンという博士ですが、その研究によると、地球の温度は五十年前に較べると平均十度高くなっているというのです。<br><br>これは実に驚くべきことです。<br><br>なぜというと昔から――古い時代から、五十年で十度上がるとすると、五百年ですと百度上がりますから、たいへんなことになります。<br><br>ところが最近の五十年に十度上がったということは、いつも言う、地球が昼間になりつつあるということを、科学的に実に良く証明したわけです。<br><br>ですから今年などは非常に気候が変わってきたわけです。<br><br>私は前に、気象の温度も――ラジオで言いますが、聞いてみると全国で一番暑いのは東京です。<br><br>で、九州とかあっちの福岡、鹿児島の方が東京より低いのです。<br><br>強羅も割に高いです。<br><br>今日なんかの温度は、東京と強羅が二十四度です。<br><br>一番高いです。<br><br>他はみんな二十三度、二十二度。<br><br>広島なんか二十一度でした。<br><br>そんなようで、強羅に来てから今年のような年は初めてです。<br><br>すると強羅の高いのは、火素が教線のために増えたから、あたりまえかもしれないが、昼の世界になりつつあるということは、その点でも良く分かります。<br><br>ですから暖かくなるとともに、だんだん平均しつつあります。<br><br>これは火素の増えたためとか、後は無線電波が発達――ラジオみたいなものですが、これが気候を平均にしてくるのです。<br><br>ですから北海道辺りも非常に暖かいに違いないです。<br><br>で、もう何年か経つと、シベリア辺りも非常に豊穣な豊作地になるわけです。<br><br>ですからソ連のそういった生産でも非常に増えます。<br><br>アメリカに負けないくらいになるでしょう。<br><br>そんなわけでいろんなことが変わってくるのです。<br><br> それについて第三次戦争のことを書いてみたのです。<br><br>これは知っておくべきですから、できるだけはっきり書きました。<br><br>今読ませます。<br><br> （御論文「第三次戦争は果して有る？」）【地上天国 四十号】 それからこれは「文明の創造」の一駒で、先にも話したことがありますが、はっきり書いてみたのです。<br><br>ちょっとおもしろいですから読ませます。<br><br> （御論文「文明の創造 救い主と贖い主」）【栄光 一七四号】 これから医学を説くのですが、これは医学を説く前提の理由なのです。<br><br>ただ「悪」はいけないとか「医学」がいけないとかいうだけでは人は納得しないのです。<br><br>やっぱり今までは必要であって、今までは人間を弱らせなければいけなかった。<br><br>なにしろ百歳以上まで作ってある人命をだんだん弱らせて、とうとう今は大体平均六十歳くらいでしょうから、約半分に寿命を縮めたのです。<br><br>それでみんな病気で苦しんでアップアップやっているわけです。<br><br>ですからこれだけ文化を進歩発展させるために何千年もかかって人間を弱らせたのです。<br><br>ちょうど寿命半分まで弱らせたのです。<br><br>もうこれ以上はいけないのです。<br><br>いけないのではない、必要がないのです。<br><br>そこで神様はこのくらい弱らせておいて、今度は元作ったように百二十歳まで生きるという人間に立て直すわけです。<br><br>その根本を分からせるのがメシヤ教の使命なのです。<br><br>だからそこをあくまで分からせるように書くのです。<br><br>ところがそこまではみんな分かっていないから、今までは一生懸命に医学に齧りついてやっているのですが、本当のことが分かれば、危なくてかわいそうで見ていられないのです。<br><br>そうかといって、むやみにそういうことを言っても、かえって気違い扱いにして逆効果になりますから、そこで時期といろいろな事情――今このくらいメシヤ教が発展して、それから言うと人は耳を傾けます。<br><br>昔私が始めたての時分に、そんなことを言うと気違い扱いにして、かえって発展もしないのです。<br><br>だから今までは、はっきりと強く言わないで、ぼかしたりいろいろに弱めたりして言っていたのですが、だんだん社会もメシヤ教というものを認めつつありますから、それにちょうど合うくらいに、医学なんかのことも発表しているわけです。<br><br>ですから本当のことを言えば、それはたいへんなものです。<br><br>最近はそういうような具合で、だんだんはっきりしてきたのです。<br><br>これはそのうちの一つですが、薬について、薬の効能について、はっきり言ったわけです。<br><br> （御論文「医学断片集 薬と名の付くものは全部麻薬なり」）【栄光 一七四号】 つまりこういう意味です。<br><br>今の人間は全部麻薬中毒になっている。<br><br>ただふつうの薬は、麻薬のようにすぐ効かないというだけのもので、病気の苦しみというものは、薬を飲むと一時楽になりますから、そこでそれを薬で治るとこう思ってしまう。<br><br>治るのは、ちょうど麻薬を、苦しくなるとちょっと注射すると楽になりますが、あの理屈です。<br><br>ですから麻薬はすぐ効くが、他の薬は麻薬のようにすぐ効かないでだんだん効くと、こういうわけです。<br><br>薬によると少しずつだんだん飲んで、半年も一年も飲んでいる。<br><br>その結果麻薬と同じように、いくらか楽になるというわけです。<br><br>楽になるということは、溶けかかったものを麻薬で固めるわけです。<br><br>ですからそういうふうに説明すると、一番分かり良いと思います。<br><br>みんな麻薬中毒になっているから、その麻薬が溶け始めるとそれが病気なのです。<br><br>それが分かれば別に難しいことも、なんでもないのです。<br><br>患者に説明するのに、麻薬を例にして説明するのが一番良いと思います。<br><br>それで今の第三次戦争ですが、これは戦争ばかりでなく、そのころになると病気も非常に増えてくる。<br><br>なぜならば、あらゆる浄化が一緒になりますから、そこで人間はどうして良いか分からなくなる。<br><br>それが最後――世の終わりです。<br><br>それが非常に近寄ってきているのです。<br><br>これは今度『栄光』に出しますが、多賀さんの奥さんに、いろいろな有名な坊さんが近ごろ憑ってくるのです。<br><br>法然上人だとか伝教大師だとか――。<br><br>そうして「いよいよ仏の時代は終わりになってきた。<br><br>だから明主様に、自分たちが今まで間違ったことをしてきた、そのお詫をしてもらいたい」ということを、しきりに頼んでいる。<br><br>これは本当なのです。<br><br>今までは間違った考えだったのです。<br><br>だから今仏界はたいへんなのです。<br><br>しかし最後の足掻き（あがき）ということがありますが、最後の足掻きで活動している仏に関した宗教がありますが、これはしかたがないです。<br><br>最後の足掻きをやっている宗教はほとんど狐です。<br><br>それから龍神――そういった霊というものは、非常にしつこいですから、いつも言う通り決して諦めるということはないのです。<br><br>だからそういうふうにみると良く分かるのです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Banalização do Mal</h2>
 <p>Recentemente, redigi um artigo que considero interessante. O mundo atual, com seus inúmeros sofrimentos, assemelha-se a um inferno, e a causa primordial de todas essas adversidades reside no mal. Contudo, as pessoas parecem não se aperceber dessa realidade. A prevalência do mal tornou-se tão avassaladora que tal condição passou a ser encarada como normalidade. Trata-se de uma verdade evidente, mas que, por descuido, passa despercebida. Foi sobre essa questão que me debrucei.</p>
@@ -103,5 +255,48 @@ function toggleLang(lang) {
 <p>O sentido é o seguinte: o homem moderno é, em sua totalidade, um dependente de narcóticos. A única diferença é que os medicamentos comuns não produzem um efeito tão imediato quanto os narcóticos conhecidos. Quando uma pessoa sente a dor de uma doença, ela toma um remédio e obtém um alívio temporário, o que a leva a crer que foi curada por ele. A cura aparente segue o mesmo princípio de um dependente químico que, ao sentir a crise de abstinência, alivia-se com uma nova dose. A distinção reside apenas na velocidade do efeito. Enquanto o narcótico age de imediato, outros medicamentos o fazem gradualmente. Existem remédios que são administrados pouco a pouco, durante seis meses ou um ano. O resultado, no entanto, é o mesmo: um certo alívio, que consiste em solidificar, por meio da droga, as toxinas que haviam iniciado seu processo de dissolução. Creio que esta seja a forma mais clara de explicar. Como todos são dependentes, a doença nada mais é do que o início da dissolução desses “narcóticos” acumulados no corpo. Uma vez que se compreenda isso, não há mais mistério ou complexidade. Ao explicar aos doentes, creio que utilizar a analogia com os narcóticos seja o método mais eficaz.</p>
 <p>Voltando à questão da Terceira Guerra Mundial, o período correspondente não será marcado apenas pelo conflito bélico; as doenças também aumentarão vertiginosamente. Todas as formas de purificação ocorrerão simultaneamente, e a humanidade não saberá como agir. Esse será o momento final: o fim de uma era, que se aproxima a passos largos. Publicaremos em breve na revista Eikou um relato sobre um fenômeno interessante: nos últimos tempos, diversos sacerdotes budistas de renome, como Honen Shonin e Dengyo Daishi, têm se manifestado por intermédio da esposa do senhor Taga. Eles afirmam que a era do budismo chegou ao fim e pedem insistentemente que eu transmita, em nome deles, um pedido de perdão a Deus pelos erros que cometeram. Isso é verídico. Atualmente, o Mundo Espiritual budista encontra-se em um estado de grande agitação.</p>
 <p>Ainda assim, existe o que se chama de “agonia final”. Certas religiões de matriz budista continuam ativas nesse último estertor, mas é um esforço inútil. A maioria das religiões que se encontram nesse estado de desespero é controlada por espíritos de raposa, deuses-dragão e outros seres espirituais de natureza extremamente obstinada. Conforme sempre digo, eles jamais desistem. Ao observarmos a situação sob essa perspectiva, tudo se torna perfeitamente claro.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年9月5日） 『御教え集』14号、昭和27(1952)年10月15日発行 昭和二十七年九月五日 おもしろい論文を書いてみたのです。<br/><br/>今の世の中は、いろんな苦しみがあって地獄のようなものですが、そのいろいろなことの因がみんな悪から発生しているのです。<br/><br/>割合にそこに気がつかないのです。<br/><br/>あんまり悪の世の中が来すぎたために、それがあたりまえみたいになっている。<br/><br/>だから分かりきったことでうっかりしているのです。<br/><br/>それを書いてみたのです。<br/><br/> （御論文「悪の世の中」）【栄光 一七四号】 それから二、三日前のラジオで、スウェーデンのハルマンという博士ですが、その研究によると、地球の温度は五十年前に較べると平均十度高くなっているというのです。<br/><br/>これは実に驚くべきことです。<br/><br/>なぜというと昔から――古い時代から、五十年で十度上がるとすると、五百年ですと百度上がりますから、たいへんなことになります。<br/><br/>ところが最近の五十年に十度上がったということは、いつも言う、地球が昼間になりつつあるということを、科学的に実に良く証明したわけです。<br/><br/>ですから今年などは非常に気候が変わってきたわけです。<br/><br/>私は前に、気象の温度も――ラジオで言いますが、聞いてみると全国で一番暑いのは東京です。<br/><br/>で、九州とかあっちの福岡、鹿児島の方が東京より低いのです。<br/><br/>強羅も割に高いです。<br/><br/>今日なんかの温度は、東京と強羅が二十四度です。<br/><br/>一番高いです。<br/><br/>他はみんな二十三度、二十二度。<br/><br/>広島なんか二十一度でした。<br/><br/>そんなようで、強羅に来てから今年のような年は初めてです。<br/><br/>すると強羅の高いのは、火素が教線のために増えたから、あたりまえかもしれないが、昼の世界になりつつあるということは、その点でも良く分かります。<br/><br/>ですから暖かくなるとともに、だんだん平均しつつあります。<br/><br/>これは火素の増えたためとか、後は無線電波が発達――ラジオみたいなものですが、これが気候を平均にしてくるのです。<br/><br/>ですから北海道辺りも非常に暖かいに違いないです。<br/><br/>で、もう何年か経つと、シベリア辺りも非常に豊穣な豊作地になるわけです。<br/><br/>ですからソ連のそういった生産でも非常に増えます。<br/><br/>アメリカに負けないくらいになるでしょう。<br/><br/>そんなわけでいろんなことが変わってくるのです。<br/><br/> それについて第三次戦争のことを書いてみたのです。<br/><br/>これは知っておくべきですから、できるだけはっきり書きました。<br/><br/>今読ませます。<br/><br/> （御論文「第三次戦争は果して有る？」）【地上天国 四十号】 それからこれは「文明の創造」の一駒で、先にも話したことがありますが、はっきり書いてみたのです。<br/><br/>ちょっとおもしろいですから読ませます。<br/><br/> （御論文「文明の創造 救い主と贖い主」）【栄光 一七四号】 これから医学を説くのですが、これは医学を説く前提の理由なのです。<br/><br/>ただ「悪」はいけないとか「医学」がいけないとかいうだけでは人は納得しないのです。<br/><br/>やっぱり今までは必要であって、今までは人間を弱らせなければいけなかった。<br/><br/>なにしろ百歳以上まで作ってある人命をだんだん弱らせて、とうとう今は大体平均六十歳くらいでしょうから、約半分に寿命を縮めたのです。<br/><br/>それでみんな病気で苦しんでアップアップやっているわけです。<br/><br/>ですからこれだけ文化を進歩発展させるために何千年もかかって人間を弱らせたのです。<br/><br/>ちょうど寿命半分まで弱らせたのです。<br/><br/>もうこれ以上はいけないのです。<br/><br/>いけないのではない、必要がないのです。<br/><br/>そこで神様はこのくらい弱らせておいて、今度は元作ったように百二十歳まで生きるという人間に立て直すわけです。<br/><br/>その根本を分からせるのがメシヤ教の使命なのです。<br/><br/>だからそこをあくまで分からせるように書くのです。<br/><br/>ところがそこまではみんな分かっていないから、今までは一生懸命に医学に齧りついてやっているのですが、本当のことが分かれば、危なくてかわいそうで見ていられないのです。<br/><br/>そうかといって、むやみにそういうことを言っても、かえって気違い扱いにして逆効果になりますから、そこで時期といろいろな事情――今このくらいメシヤ教が発展して、それから言うと人は耳を傾けます。<br/><br/>昔私が始めたての時分に、そんなことを言うと気違い扱いにして、かえって発展もしないのです。<br/><br/>だから今までは、はっきりと強く言わないで、ぼかしたりいろいろに弱めたりして言っていたのですが、だんだん社会もメシヤ教というものを認めつつありますから、それにちょうど合うくらいに、医学なんかのことも発表しているわけです。<br/><br/>ですから本当のことを言えば、それはたいへんなものです。<br/><br/>最近はそういうような具合で、だんだんはっきりしてきたのです。<br/><br/>これはそのうちの一つですが、薬について、薬の効能について、はっきり言ったわけです。<br/><br/> （御論文「医学断片集 薬と名の付くものは全部麻薬なり」）【栄光 一七四号】 つまりこういう意味です。<br/><br/>今の人間は全部麻薬中毒になっている。<br/><br/>ただふつうの薬は、麻薬のようにすぐ効かないというだけのもので、病気の苦しみというものは、薬を飲むと一時楽になりますから、そこでそれを薬で治るとこう思ってしまう。<br/><br/>治るのは、ちょうど麻薬を、苦しくなるとちょっと注射すると楽になりますが、あの理屈です。<br/><br/>ですから麻薬はすぐ効くが、他の薬は麻薬のようにすぐ効かないでだんだん効くと、こういうわけです。<br/><br/>薬によると少しずつだんだん飲んで、半年も一年も飲んでいる。<br/><br/>その結果麻薬と同じように、いくらか楽になるというわけです。<br/><br/>楽になるということは、溶けかかったものを麻薬で固めるわけです。<br/><br/>ですからそういうふうに説明すると、一番分かり良いと思います。<br/><br/>みんな麻薬中毒になっているから、その麻薬が溶け始めるとそれが病気なのです。<br/><br/>それが分かれば別に難しいことも、なんでもないのです。<br/><br/>患者に説明するのに、麻薬を例にして説明するのが一番良いと思います。<br/><br/>それで今の第三次戦争ですが、これは戦争ばかりでなく、そのころになると病気も非常に増えてくる。<br/><br/>なぜならば、あらゆる浄化が一緒になりますから、そこで人間はどうして良いか分からなくなる。<br/><br/>それが最後――世の終わりです。<br/><br/>それが非常に近寄ってきているのです。<br/><br/>これは今度『栄光』に出しますが、多賀さんの奥さんに、いろいろな有名な坊さんが近ごろ憑ってくるのです。<br/><br/>法然上人だとか伝教大師だとか――。<br/><br/>そうして「いよいよ仏の時代は終わりになってきた。<br/><br/>だから明主様に、自分たちが今まで間違ったことをしてきた、そのお詫をしてもらいたい」ということを、しきりに頼んでいる。<br/><br/>これは本当なのです。<br/><br/>今までは間違った考えだったのです。<br/><br/>だから今仏界はたいへんなのです。<br/><br/>しかし最後の足掻き（あがき）ということがありますが、最後の足掻きで活動している仏に関した宗教がありますが、これはしかたがないです。<br/><br/>最後の足掻きをやっている宗教はほとんど狐です。<br/><br/>それから龍神――そういった霊というものは、非常にしつこいですから、いつも言う通り決して諦めるということはないのです。<br/><br/>だからそういうふうにみると良く分かるのです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

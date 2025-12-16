@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>saij2060</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 祭事篇 第二篇 ５ 060-073 一般祭祀２ 060 観音像の石彫と雨曝し 私の寺に石の観音様が道端に沢山置いてありその背部に南無阿弥陀仏と刻んであります。<br><br>どう取計ったらよいでしょう。<br><br> 観音様の像は一番いいのは黄金の一寸八分でこれが本当で、そうでなければ木で彫って金箔を塗るんである。<br><br>その他カネも石もいけない。<br><br>また大体外へ雨ざらしにするのもいけない。<br><br>こういう事を知らずに石で彫ったものである。<br><br>信宗では観音様は阿弥陀の慈悲の表われという、即ち観音様の本は阿弥陀という、そういう意味からそんな風に書いたものと思う。<br><br>昔から観音様の事は御秘仏になっているんで本当の訳を知らないためにこんな事をしたのである。<br><br>右様の訳で雨曝しの所へ祀るのはまずいので、雨のあたらぬような堂でも作って奉安するといい。<br><br>阿弥陀の文字は削らなくともいい。<br><br> 061 古い観音の祭り場所 光明如来様を最近におまつりさせていただきます事になっております私の信徒の家で、五日ばかり前に余所（よそ）から大変古い観音様と龍神様とその下に子供のおります御軸を戴いたので御座いますが、家の者は何も分らずに戴いたので御座いますが、それを掛けるのをいやだと申しておりますが、それは元の家に返した方が宜しいもので御座いましょうか。<br><br> 蔵っておけばよい。<br><br>掛けたければ他の所、下の座敷などにかければよい。<br><br> 062 稲荷社祀に異議あり紛糾す ある町の素封家某氏（某銀行頭取で今家運大変傾きつつあり）の地内に、その家で代々祀っておりました稲荷を、その町内で町として貰い受け祭る事になりましたので御座いますが、そこの地所をその素封家より貰い受ける事が出来ませんため、町の一総代の家で預る事になり、今より二年前、倉の中へしまい込んで御座います。<br><br>但し、ある神主さんに稲荷の霊に還ってもらうようお祭りはしてあるとの事で御座います。<br><br> その後町では色々ともめる事が起きますので、この度やはり町でお祀りするようにしようとの事で、前記素封家に元の祠の御座いました地所を町として買いたい旨申し出ましたが、「ある事情でどうしても売れない地所である」と断られ、町では、それなら「永代借地せよ」と要求する等、この事で紛争が起きております、このようなものは町の人の向後の幸のため、いかように致すのが宜しゅう御座いましょうか、御教え賜りたく、御伺い申し上げます。<br><br> 町でも――。<br><br> 国魂の神から分霊を貰えばよい。<br><br>イヤなのを祀るのはいけない。<br><br>イヤなのは、ほかに訳がある。<br><br>何でも無理をしてはいけない。<br><br>人の嫌がる事などは、執着があるから決していけない。<br><br>皆快くするのでなくてはいけない。<br><br>（S25. 1.12） 063 近隣祭神のお詣り 私の屋敷つづきに橘姫の祭神で市民が龍宮さんと呼びお参りしておりますが、私等としてお道でお祭りした方がよろしゅう御座いましょうか。<br><br> 祀る要はない。<br><br>自分がその系統の訳でない。<br><br>日に一ぺん位のお詣りはよい。<br><br> 位階を上げるのはいいと思う。<br><br> 064 御堂への祝詞 私は一教修者で御座いますが、最近田方郡凾南村に行き同じ村柏谷と言うところに白雲あたご地堂と言い、毎月二十三日村の人が集りお経や線香を上げておりますが祝詞や善言讃詞を上げた方がよろしゅう御座いましょうか。<br><br>御伺い申し上げます。<br><br> 行く要はない。<br><br>（S24.12.23） 065 八幡祀の宮 私の家の上に先祖様より祭っている八幡様とか言う小さい神社があります。<br><br>毎年十月二十日を祭日として祭っておりますが、このままにして置いて宜しいでしょうか。<br><br>祭りの方法等御教示下さい。<br><br> それでよい、八幡様は応神天皇である。<br><br>今迄通りでよい。<br><br> 066 荒神様 よく台所に荒神様のお札を貼ってお祀りして御座いますがこの神様はどのような神様で御座いましょうか。<br><br>お伺い申し上げます。<br><br> 台所の神である。<br><br>入信している家では祀る要はない。<br><br>（S25. 5. 2） 067 鳥居のいわれ 鳥居の形には何かいわれが御座いますでしょうか。<br><br> 大した謂れはない。<br><br>鳥のとまったものに違いない。<br><br>岩戸開きの時鶏が鳴いたので岩戸開きという意味。<br><br>日本より古くユダヤにあるユダヤ民族が持って来た。<br><br> rattail（注） 〔 無碍光（直心分会４号） 、昭和24(1949)年5月25日発行〕掲載 068 鳥居と五色の吹流し 鳥居の意、また稲荷様には特に多数の赤鳥居を建てなお、稲荷祭りの際五色の吹流しを用いる訳。<br><br> いろいろな説があるが、結局最初岩戸開きの時、鶏が止ってケッコウケッコウと鳴いて岩戸が開いたという、そういう所から起ったのであろう。<br><br>これは日本のみではなく、ユダヤにもある。<br><br> 稲荷などの場合は装飾的なものである。<br><br> 五色の吹流しというのは、昔の記録によれば五色人といって、世界中の人種は五色あった、五色の人間が一年に一ぺん、一所へ寄ったという、五色人とはそこから出たのであろう。<br><br>（S24. 4. 2） rattail（注） 〔 妙智の鍵（光明分会７月号） 、昭和24(1949)年7月1日発行〕掲載 069 狛犬 神社の前に狛犬がかざられているのを時々見受けますが、何の意味があるのでしょうか。<br><br> 番人である。<br><br>魔除けというような意味である。<br><br>（S24. 5.13） 070 寂所の地蔵 昔の人は何々山の峠とかまた淋しい所に、御地蔵様を建てたようですが、何か訳が御座いますでしょうか。<br><br>御伺い申し上げます。<br><br> 淋しい所は悪い奴が出たりなどする。<br><br>そういうためにお地蔵様などを建てるのである。<br><br>悪い奴も仏様を見るとちょっと仏心が起るからである。<br><br>（S24. 6.27） 071 賽河原と地蔵 賽河原と地蔵菩薩の話をよく聞きますが、あれは本当で御座いますでしょうか。<br><br> 本当であろうが正確ではない。<br><br>賽河原は子供の地獄、地蔵尊は阿弥陀の化身で、教の時は法蔵、地面の上で救う時は地蔵となる。<br><br> 072 地蔵の起源と由来 地蔵の起源と由来を御教え願います。<br><br> 阿弥陀の化身である。<br><br>阿弥陀如来は元法蔵菩薩でこれは地蔵菩薩で救いのために菩薩になられたものである。<br><br>観音様が光明如来となられたようなものである。<br><br>起源は不明である。<br><br>仏教渡来後であるから千三百年以後である。<br><br> 073 石碑頭の地蔵像 墓地で石碑の頭の上に地蔵尊の石像が刻んで御座いますが、そのままで宜敷う御座いましょうか。<br><br>なお、地蔵尊は何神様の化身であられ、いかなる御働きをなされるので御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> このままでよい。<br><br> 阿弥陀の化身である。<br><br>極楽浄土に救う働きを持つ。<br><br>それが地蔵として街頭へ進出した訳である。<br><br> 変死者などあった場所へ祀るが、そういう救いの仕事をする。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Dos Ritos Litúrgicos em Geral – II</h2>
 <p><strong>060. Estátuas de Kannon (観音) Esculpidas em Pedra e Expostas às Intempéries</strong></p>
@@ -142,5 +294,48 @@ function toggleLang(lang) {
 <p>Em cemitérios, veem-se lápides com uma estátua de pedra do Bodhisattva Jizō esculpida no topo. Não há problema em mantê-las assim? Ademais, de qual divindade Jizō é uma manifestação e qual é a sua missão? Rogo por vosso esclarecimento.</p>
 <p>Não há problema algum em mantê-las como estão.</p>
 <p>Jizō é uma manifestação de Amida. Sua missão é salvar os seres e conduzi-los ao Paraíso Celestial. Foi com esse propósito que ele se manifestou como Jizō, atuando nas ruas e estradas. Ele é frequentemente consagrado em locais onde ocorreram mortes trágicas, pois sua função é justamente realizar esse trabalho de salvação.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 祭事篇 第二篇 ５ 060-073 一般祭祀２ 060 観音像の石彫と雨曝し 私の寺に石の観音様が道端に沢山置いてありその背部に南無阿弥陀仏と刻んであります。<br/><br/>どう取計ったらよいでしょう。<br/><br/> 観音様の像は一番いいのは黄金の一寸八分でこれが本当で、そうでなければ木で彫って金箔を塗るんである。<br/><br/>その他カネも石もいけない。<br/><br/>また大体外へ雨ざらしにするのもいけない。<br/><br/>こういう事を知らずに石で彫ったものである。<br/><br/>信宗では観音様は阿弥陀の慈悲の表われという、即ち観音様の本は阿弥陀という、そういう意味からそんな風に書いたものと思う。<br/><br/>昔から観音様の事は御秘仏になっているんで本当の訳を知らないためにこんな事をしたのである。<br/><br/>右様の訳で雨曝しの所へ祀るのはまずいので、雨のあたらぬような堂でも作って奉安するといい。<br/><br/>阿弥陀の文字は削らなくともいい。<br/><br/> 061 古い観音の祭り場所 光明如来様を最近におまつりさせていただきます事になっております私の信徒の家で、五日ばかり前に余所（よそ）から大変古い観音様と龍神様とその下に子供のおります御軸を戴いたので御座いますが、家の者は何も分らずに戴いたので御座いますが、それを掛けるのをいやだと申しておりますが、それは元の家に返した方が宜しいもので御座いましょうか。<br/><br/> 蔵っておけばよい。<br/><br/>掛けたければ他の所、下の座敷などにかければよい。<br/><br/> 062 稲荷社祀に異議あり紛糾す ある町の素封家某氏（某銀行頭取で今家運大変傾きつつあり）の地内に、その家で代々祀っておりました稲荷を、その町内で町として貰い受け祭る事になりましたので御座いますが、そこの地所をその素封家より貰い受ける事が出来ませんため、町の一総代の家で預る事になり、今より二年前、倉の中へしまい込んで御座います。<br/><br/>但し、ある神主さんに稲荷の霊に還ってもらうようお祭りはしてあるとの事で御座います。<br/><br/> その後町では色々ともめる事が起きますので、この度やはり町でお祀りするようにしようとの事で、前記素封家に元の祠の御座いました地所を町として買いたい旨申し出ましたが、「ある事情でどうしても売れない地所である」と断られ、町では、それなら「永代借地せよ」と要求する等、この事で紛争が起きております、このようなものは町の人の向後の幸のため、いかように致すのが宜しゅう御座いましょうか、御教え賜りたく、御伺い申し上げます。<br/><br/> 町でも――。<br/><br/> 国魂の神から分霊を貰えばよい。<br/><br/>イヤなのを祀るのはいけない。<br/><br/>イヤなのは、ほかに訳がある。<br/><br/>何でも無理をしてはいけない。<br/><br/>人の嫌がる事などは、執着があるから決していけない。<br/><br/>皆快くするのでなくてはいけない。<br/><br/>（S25. 1.12） 063 近隣祭神のお詣り 私の屋敷つづきに橘姫の祭神で市民が龍宮さんと呼びお参りしておりますが、私等としてお道でお祭りした方がよろしゅう御座いましょうか。<br/><br/> 祀る要はない。<br/><br/>自分がその系統の訳でない。<br/><br/>日に一ぺん位のお詣りはよい。<br/><br/> 位階を上げるのはいいと思う。<br/><br/> 064 御堂への祝詞 私は一教修者で御座いますが、最近田方郡凾南村に行き同じ村柏谷と言うところに白雲あたご地堂と言い、毎月二十三日村の人が集りお経や線香を上げておりますが祝詞や善言讃詞を上げた方がよろしゅう御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 行く要はない。<br/><br/>（S24.12.23） 065 八幡祀の宮 私の家の上に先祖様より祭っている八幡様とか言う小さい神社があります。<br/><br/>毎年十月二十日を祭日として祭っておりますが、このままにして置いて宜しいでしょうか。<br/><br/>祭りの方法等御教示下さい。<br/><br/> それでよい、八幡様は応神天皇である。<br/><br/>今迄通りでよい。<br/><br/> 066 荒神様 よく台所に荒神様のお札を貼ってお祀りして御座いますがこの神様はどのような神様で御座いましょうか。<br/><br/>お伺い申し上げます。<br/><br/> 台所の神である。<br/><br/>入信している家では祀る要はない。<br/><br/>（S25. 5. 2） 067 鳥居のいわれ 鳥居の形には何かいわれが御座いますでしょうか。<br/><br/> 大した謂れはない。<br/><br/>鳥のとまったものに違いない。<br/><br/>岩戸開きの時鶏が鳴いたので岩戸開きという意味。<br/><br/>日本より古くユダヤにあるユダヤ民族が持って来た。<br/><br/> rattail（注） 〔 無碍光（直心分会４号） 、昭和24(1949)年5月25日発行〕掲載 068 鳥居と五色の吹流し 鳥居の意、また稲荷様には特に多数の赤鳥居を建てなお、稲荷祭りの際五色の吹流しを用いる訳。<br/><br/> いろいろな説があるが、結局最初岩戸開きの時、鶏が止ってケッコウケッコウと鳴いて岩戸が開いたという、そういう所から起ったのであろう。<br/><br/>これは日本のみではなく、ユダヤにもある。<br/><br/> 稲荷などの場合は装飾的なものである。<br/><br/> 五色の吹流しというのは、昔の記録によれば五色人といって、世界中の人種は五色あった、五色の人間が一年に一ぺん、一所へ寄ったという、五色人とはそこから出たのであろう。<br/><br/>（S24. 4. 2） rattail（注） 〔 妙智の鍵（光明分会７月号） 、昭和24(1949)年7月1日発行〕掲載 069 狛犬 神社の前に狛犬がかざられているのを時々見受けますが、何の意味があるのでしょうか。<br/><br/> 番人である。<br/><br/>魔除けというような意味である。<br/><br/>（S24. 5.13） 070 寂所の地蔵 昔の人は何々山の峠とかまた淋しい所に、御地蔵様を建てたようですが、何か訳が御座いますでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> 淋しい所は悪い奴が出たりなどする。<br/><br/>そういうためにお地蔵様などを建てるのである。<br/><br/>悪い奴も仏様を見るとちょっと仏心が起るからである。<br/><br/>（S24. 6.27） 071 賽河原と地蔵 賽河原と地蔵菩薩の話をよく聞きますが、あれは本当で御座いますでしょうか。<br/><br/> 本当であろうが正確ではない。<br/><br/>賽河原は子供の地獄、地蔵尊は阿弥陀の化身で、教の時は法蔵、地面の上で救う時は地蔵となる。<br/><br/> 072 地蔵の起源と由来 地蔵の起源と由来を御教え願います。<br/><br/> 阿弥陀の化身である。<br/><br/>阿弥陀如来は元法蔵菩薩でこれは地蔵菩薩で救いのために菩薩になられたものである。<br/><br/>観音様が光明如来となられたようなものである。<br/><br/>起源は不明である。<br/><br/>仏教渡来後であるから千三百年以後である。<br/><br/> 073 石碑頭の地蔵像 墓地で石碑の頭の上に地蔵尊の石像が刻んで御座いますが、そのままで宜敷う御座いましょうか。<br/><br/>なお、地蔵尊は何神様の化身であられ、いかなる御働きをなされるので御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> このままでよい。<br/><br/> 阿弥陀の化身である。<br/><br/>極楽浄土に救う働きを持つ。<br/><br/>それが地蔵として街頭へ進出した訳である。<br/><br/> 変死者などあった場所へ祀るが、そういう救いの仕事をする。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

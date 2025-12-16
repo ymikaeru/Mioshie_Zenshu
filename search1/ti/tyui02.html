@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>tyui02</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 注意 『栄光』191号、昭和28(1953)年1月14日発行 別項座談会にもあるごとく、御守はじめその他の私のかいたものの値は一定しているにかかわらず、少しでも多い金を得るとしたら、その分だけは盗みの罪を犯す事になるから、何程一生懸命信仰しても、それだけ御蔭は減る事になるからよく心得べきである。<br><br> 布教座談会 光宝大教会 期 日 昭和二十七年十月三日 場 所 佐賀県三養基郡鳥栖町 光宝大教会本部 会 長 坂井多賀男先生 司 会 野添治道先生 発言者 坂井満之助先生 渋田良子 鈴木勝次郎、二見義信、永友明三、沢本善太郎 沢本明雄、江頭美恵子、山下伊勢松、酒見籐太、梶原清子 大森景子、大野辰雄、古川禎子、早田八郎 他出席者約二十名 司会者 ただ今より座談会をさして戴くことになりました。<br><br>何分突然のことでもあり、信者さんもほとんど帰られ、教会の方々のみとなりましたので、じっくりと膝を交えて話合うような気楽な気持で進めさして戴きたいと思います。<br><br>まず会長先生に議題とでも申しますか、何か話の目標を最初に一つお願い致したいと思いますが、何卒御願い申し上げます。<br><br> 会長先生 御蔭で最近各教会とも成績が上昇して来たのですが、御浄霊の御玉串のきちんとしている所は必ず成績が良くなり、それはそうなるのが当然のことなんですが、この当前のことに中々気を使うもので、又中々きちんとできないものですから、御玉串についてまず話を進めたら良いですね。<br><br> 御玉串について 司会者 有難う御座いました。<br><br>全く一番大事なことで御座います。<br><br>では、そうですね、渋田さん、どうぞ。<br><br> 渋田 申し訳有りませんが、ただ今は教会の皆さんがよくやって下さいますので個々の御報告は申し上げられないのですが、あの……例えばＡ・Ｂ会費などのことでも、御自分から進んで、きちんと早く御届けになるような方は、御蔭もはっきり違いますし、御浄化も軽く済まして戴かれます。<br><br> 会長先生 Ａ・Ｂ会費を御世話かけずに、御届けすることは、信者さんとしての最低道徳を実行したと言うところでしょうが、……それは当然ですよ。<br><br> 司会者 発展しているところは、一つの軌道に乗っているのですが、受付が大変でしょう、大森さんいかががですか？ 大森 ヘッ、ウッフフゥ（一同笑声） 司会者 ウッフフですか、これは驚いたですね、では新しいところで、鈴木さん何か。<br><br> 鈴木 御言葉とは、少しずれますが…… 司会者 あーそりゃ、いいですよ。<br><br> 鈴木 今月の上旬のことで有りますが、久原炭鉱から、御主人が腰を痛めて御夫婦で見えられたのですが「医者でも電気でも按摩でも治らんのは、ここへ来れば良いと聞いて来たんだが、今まで何でも、うんとやったが、ちょっとも治らないんで来たんだが、先生、本当に治るとですか」と妙に絡んだ口の利き方なので、「治るか、治らんか私には解らんとですばい」と言いましたら、「遠い所をわざわざ来たのに、随分頼りねえ言い草ですね、先生」と言うので、「本当に頼りないようで、頼りあるんですよ、神様がやっておいでになるんですから」と申しましたら、奥さんと何かもそもそ話しておりましたが、「先生せっかく来たんだから、治っても、治らなくても、一ちょう、やって貰いやしょう」と言うことになったんですが、「ところで先生、ここに見えてる人は、みんなあの袋の中に御金を入れて上げてるようですが、あれにゃ、一体幾ら入れりゃいいんですかい」と言うんで私はいよいよ妙にカンの虫が収まらなくなって来ていました。<br><br> 「あれは神様への御玉串なんで、幾らと言うのは決っておらんが、医者に行っても、初診料と言うのを取られるんだから、三百でも五百でも、あなたの気持次第ですたい」と言いましたら又もそもそ相談の結果、御玉串を捧げ、前に坐りました。<br><br>御浄霊二十分位を経て「どうですか、腰を伸ばして見なさい」と言いますと静かに伸しかけて「いてえいてえ痛い、一つも変りねい」の声に私は胸を突かれた思いでした。<br><br>これは申し訳ないと、心の中で御詫び申し上げました。<br><br>それまでは、腹の中で、飛んでもねい野郎だ、こんなのは二度と来やしねいと、いらいら怒りながら、御浄霊を続けておったのでした。<br><br>明主様よりの尊い御力を御取次さして戴いている身が、自分の感情で裁くなんて申訳ないと気付かして戴き、今度は二、三分御光を通させて戴き、「今はどこが一番痛いですか」と申しました。<br><br>ところが用心深く静かに、しかし普通の姿勢まで腰を伸し、再び二度、三度とだんだん勢いをつけて屈伸を続け「あっ治った。<br><br>ちっとも痛くない」と大変な騒ぎでした。<br><br>想念の違いで、こうもはっきり違うものかと分らして戴きました。<br><br>又信者さんにこんなに良く治れば、高くないと言って帰ったとのことでした。<br><br> 会長先生 そ！ そうなんですよ。<br><br>高いの何のと思わせることは、教師の責任ですよ。<br><br>過・現・未の悪因縁を御赦し下さり、幸福へと切替え賜わる御浄霊に相当する御礼など、金銭でできるものではないですが、せめて分に応じて捧げ奉る御玉串の一端は、地上天国の御建設に御使い戴けるその光栄を思えば、きちっとさせるのが、本当の親切と言うものですよ。<br><br>嘘と思えば百万でも五百万でも、一度に差上げてみなさい、大抵のものは一遍で治りますよ（笑声） 教師よ気概をもて 坂井満之助 会長先生も野添先生も、過去は裸銭の御礼金や、変な紙で包んだの、寸志なんて書いて、名前も書いてないの何てのは受け取らなかったこともあった、と伺っておりましたが、教師の気概と言うようなことが、非常に大切なことと思いますが。<br><br> 会長先生 そうですよ、金は汚なくなり勝ですが、又大切なものですから、教師の想念の中に清廉なものをもって、神様に御取次させて戴かねばならないと思います。<br><br>さもしい、穢い想念を持っていれば、不浄なものを御取次するような結果になるんです。<br><br> 古川 野添先生のおあとに坐らして戴きまして、信者さんの信仰態度を通じていつも先生から、御導を戴いておるような感じが致します。<br><br> 会長先生 そりゃ、そう言うもんです。<br><br>そこの先生の想念と言うものは、そのまま信者さんに映り、生きておるものですからね、どこの先生でもそうなんです。<br><br>だから信者さんを見れば先生が解るんです。<br><br> 酒見 長崎支部のあとに、最近坐らして戴きまして、信者さんを通じても、色々お蔭を戴いております。<br><br>実例を申し上げますと、河辺さんなど、大祭の御祝、御夫婦の御本部御参詣、それに当日留守居の子供達が家で御光を戴きますからとその御玉串を届けられるので、事務所へも説明つきで御届けさして戴いております。<br><br>こんなのは何とも言えない、快いものを感じさして戴きます。<br><br>この前も御用をさして戴いた直後、自分の家の舟が三艘とも大漁で網に入っただけ積めば、沈んで終うので積めるだけ積んで、後は逃がし帰ったと言う報告を受けました。<br><br> 会長先生 気色のいい話ですね、最近は目立って御守護御礼も、御奉謝金（信者さんが他人を御浄霊した場合に受ける御礼及び家族を御浄霊させて戴いた場合の御礼）も増えて来ましたが、ある中教会長が「御守護御礼を、自分で使わして戴いても宜敷う御座いましょうか」と御伺いしたと聞きましたが、まるで世界が違うような気がしますね。<br><br>人間は神様に感謝報恩の感謝を知る人は稀にはあったんですが、報恩の実は全然解らなかったのです。<br><br>喜んだり、尾を振る位は動物程度なんです。<br><br>明主様の御出ましを戴いて、御報恩の真を捧げ奉る道を、初めて解らして戴いたのですから、そのことを御導きし、それを曲げず、作らず、真直に御取次さして戴くのが、教師の使命と言うものですよ。<br><br> 間違った在り方はやるな 司会者 有難う御座いました。<br><br>今度は布教上のことで、こんな場合はどうさして戴いたらとか、又こう言わして戴いたとか言うことについて何か…… 鈴木 先日他の教会の方で四国の方が見えられ、御浄霊を戴いた後で、御玉串を上げ、又蟇口を出し、この度裸銭で十円、御神前におくので「御神前に裸銭はいけない」と申しますと、「私の方では、いつも十円位を、御三宝に上げることになっているんですが」とのこと「そうですか、それなら別に御預りして、御奉仕隊の方にでも、加えさして戴きましょう」とお預りしておきました。<br><br> 二見 鹿児島のある教会では、散花結実の御書体が、表装せずに一万円だったとそこの家主さんが申しておりましたが、御書体は商品で御座いませんので、御礼の多寡は言えず、ちょっと戸惑いしたことも御座いました。<br><br> 永友 私の地方のある教会では、お屏風様の御礼が五千円、ある人は七千円で戴いたとのこと、びっくりしております。<br><br>光宝会では当時三百円の御礼でした。<br><br>又教修は御浄霊を戴いた日数を申していたようです。<br><br>十日間の教修二十日間の教修と申しておりました。<br><br> 大野 一昨年六月、奉仕隊に行かせて戴きました時ある資格者の方が、お屏風様の御礼は、と聞かれましたので、三百円と申しますと「それは霊が入れてないのだ」と申しましたのには驚きました。<br><br> 沢本善太郎 長崎県五島の阿瀬津町にある教会が、悪評で会員が急激に減ったと言うことで、布教上障害ともなると思いましたので、行って見ましたが、教師の奥さんが占いみたいなことで、これは癒るとか、これは駄目だとか、やっておるのです。<br><br> 沢本明雄 私の地方のある教会では、鳴島の方は教修三日間だが、暇のない人は教修なしで、福江方面では全然教修はしてないとのことでした。<br><br> 坂井満之助 延岡におりました時（昭和二十五年）ある会の信者さんが見えられ「私も大変御蔭を戴きましたので、一人でも多く、お導きしたいものと、度々教会へお連しておりましたが最近こちらと余りに、教修御礼等に違いがあり、差額を私がどうかしておるように思われるのも嫌ですから先生にお訪ねしましたら偽者も有りますからねとのこと、今日は真偽を確めに来たのですが、明主様の御写真、大光明如来様のお話を伺っても、偽者どころではない。<br><br>それにしても余り戴きものの御礼が違い過ぎますので」と色々申しまして、「戴きものだけでも、こちらに御願いできないものでしょうか」とのこと「それはできない、高い安いの売物買物ではないので、事実に御蔭を戴き、解らして戴く毎に、その尊さ有難さが身にしみその御礼が高いと言う事は、決してないのですが、だからと言っておきめ戴いたことは、そのまま御取次さして戴けば良いことなんで、教師が中間搾取する事は、品物として扱ったも同然で、それは先生に相応のお裁きが必ずあることなんです。<br><br>貴方方は、神様に直接の想念で、誠をもってなされば良いのです。<br><br>色々と言いたいこともあるでしょうが、因縁で結ばれたのですから、時期をお待ちなさい。<br><br>近き将来いずれの教会でも立派な先生方が、同じあり方で御導き下さる日が必ず来るのですから」と言わして戴きましたら、大変喜ばれて帰られました。<br><br> 江頭 阿蘇に教修に参りました時、そこに他の会の信者がおられ、私達は総て何倍もの御礼で御取次戴いたのです。<br><br>それから見ると光宝会さんは固すぎるようですが、できるだけの御礼はさして戴くものですと色々御世話されましたので、何かと便利なこともあるものだと思いました。<br><br> 司会者 決して欠点を見付けて廻るようなけちな御気持ではないことは、解っているのですが、何だか話の進み工合が面白くないですね。<br><br>こんなことを通しても何か御蔭を戴く側に廻らして戴きましょう。<br><br>ではこの辺で外の人にこう言わして戴いたらと言うような気色のいい話を何か…… 梶原 この間教会に来た方で自分が以前に研究したと言う信仰の話をのべつ話し御取次の邪魔になりましたので「私達のは、理論宗教ではなくて、事実の裏付があるのですから、話なら後でして下さい。<br><br>又種々と宗教の御研究をなさるなら、今日本だけでも七百位有りますから、一宗教一カ月ずつ研究なさっても五十八年位はかかりますから御高説はその後でと言うことにもなりますね」と言わして戴きましたら、静かになりました。<br><br> 早田 野添先生が早岐におられた時、十六年間水気のなかった所に、井戸水をお恵み戴いた方ですが、その後水が出たり、止ったりになり御訪ねに来られた時先生が「あなたは御神徳の戴きっぱなしになっているが御守護の御礼は必ずさして戴くべきもので、又端数の御礼は申訳ない。<br><br>名前を御覧戴くだけでも勿体ないことですから、きちんとさして戴いた方がいい」と申され御玉串をお上げになり、帰られて又間もなく来られ、「井戸は水が溢れて出るようになっておりました」と非常に喜ばれ、そして数日後三年来請求をしても中々返済されず、半ばあきらめておった貸金が先方から半金として、一万円届けて来ましたと報告に見え、今度はきちんと御守護御礼をされて帰られたのでございました。<br><br> 司会者 そんなことが有りましたね。<br><br>では今度はこんなのはどんなものだろうかと言うようなことが有りましたら…… 明主様に対する言葉遣い 沢本明雄 『御垂示録』の中などで時折明主様に対し奉り誠に不遜な言葉、例えば「御参考までに」とか「だがしかし」とか「やはりこれも肥料を使わない方が」だとかを拝見致しますと、全身全霊を、お使い戴きたいと御願いされておられる方の在り方ではないように、思われてなりません。<br><br>又『栄光』紙上のお蔭話などの中にも、「過分の御玉串とか」「救霊祭」とか、『栄光』を雀追いの道具に使っているのが有りますが、はなはだ出過ぎたこととは思われますが、信者さんが迷われる方も出るのではないか、とも思われますので編集係等で何とかならないものでございましょうか。<br><br> 会長先生 沢木さんの言われたそう言う感じは確かに有ります。<br><br>しかし神様は変な者は変なところに実に巧妙に余す所なく、御使いになられるのですから、我々は善悪を少しでも多く覚らせて戴いてじっと見させて戴くことですね。<br><br>明主様に申し上げている色々な人の状態を、もしあなた方が聞いたり、見たりするならば、息がつまるような名状しがたい気持になる事も随分有りますよ。<br><br>しかしいつも明主様には、春風駘蕩いとも平然と御受け流し遊ばされておられる御様子を拝しては、ただただ畏れ多く自分が生意気なような気がするんです。<br><br>沢木さんの言われた事も本当ですから私から編集係の方へ御願いしておきましょう。<br><br>それから先程の御礼の大変違うのなんか、早急に一定せねばならない問題ですが「霊が入れてないのだ」なんてのは思い切ったごまかしを言うもんですね。<br><br>又救霊祭とか言うのを発明するかと思うと、信者さんの家の御神体の御祭込みと言って出掛ける、お屏風様の御祭込みと言っては御供を連れて先生が御出張となっては、間違いも中々手が込んで忙しいもんです。<br><br>幾つかのネジがゆるんで空廻りするようなもんでしょう。<br><br>御都合で教修をやったり止めたりするのも神様への反逆ですね。<br><br>御神示に随ってその通り実行さして戴いていれば、正しき者は必ず幸福になり、誤れる者は必ず亡ぶ、ただ、それだけのことです。<br><br>ともかく真面目なルートに乗るものは良くなり、不真面目なルートに乗っているものは悪くなるのは確かなものです。<br><br>最近御本部では、教修要綱も御作り下され、頻りに幹部の先生方の密接な懇談も多くなりつつ有りますから、御神示に帰一し奉る日も間近に迫りつつあるようです。<br><br> 司会者 今日は種々のことをざっくばらんに話合って、会長先生より思いがけない御導きを戴くことができまして、有難うございました。<br><br>この上ともになお一層の御精進をなされ、信仰を高めさして戴きましよう。<br><br>本日はこれで終らせて戴きます。<br><br> 会長先生 明主様に御礼を申し上げさして戴きましょう。<br><br> （一同御礼拝）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Retidão do Servidor e a Pureza do Donativo</h2>
 <p>Conforme exposto em nosso diálogo anterior, o valor dos Amuletos Sagrados e de outros itens por mim caligrafados é fixo. A tentativa de obter qualquer quantia superior a este valor configura, na exata medida do excedente, o pecado do furto. Por conseguinte, por mais devotada que seja a fé de uma pessoa, suas graças serão diminuídas na proporção de sua falta. É imperativo que todos tenham profundo discernimento sobre este ponto.</p>
@@ -149,5 +301,48 @@ function toggleLang(lang) {
 <p><strong>Moderador:</strong> Hoje, tivemos a oportunidade de dialogar francamente sobre diversos assuntos e recebemos do senhor Presidente orientações inesperadas e valiosas. Muito obrigado. Que possamos, juntos, nos empenhar ainda mais para aprimorar e elevar nossa fé. A reunião de hoje está encerrada.</p>
 <p><strong>Presidente:</strong> Vamos expressar nossa gratidão a Meishu-Sama.</p>
 <p>(Todos oram em agradecimento)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 注意 『栄光』191号、昭和28(1953)年1月14日発行 別項座談会にもあるごとく、御守はじめその他の私のかいたものの値は一定しているにかかわらず、少しでも多い金を得るとしたら、その分だけは盗みの罪を犯す事になるから、何程一生懸命信仰しても、それだけ御蔭は減る事になるからよく心得べきである。<br/><br/> 布教座談会 光宝大教会 期 日 昭和二十七年十月三日 場 所 佐賀県三養基郡鳥栖町 光宝大教会本部 会 長 坂井多賀男先生 司 会 野添治道先生 発言者 坂井満之助先生 渋田良子 鈴木勝次郎、二見義信、永友明三、沢本善太郎 沢本明雄、江頭美恵子、山下伊勢松、酒見籐太、梶原清子 大森景子、大野辰雄、古川禎子、早田八郎 他出席者約二十名 司会者 ただ今より座談会をさして戴くことになりました。<br/><br/>何分突然のことでもあり、信者さんもほとんど帰られ、教会の方々のみとなりましたので、じっくりと膝を交えて話合うような気楽な気持で進めさして戴きたいと思います。<br/><br/>まず会長先生に議題とでも申しますか、何か話の目標を最初に一つお願い致したいと思いますが、何卒御願い申し上げます。<br/><br/> 会長先生 御蔭で最近各教会とも成績が上昇して来たのですが、御浄霊の御玉串のきちんとしている所は必ず成績が良くなり、それはそうなるのが当然のことなんですが、この当前のことに中々気を使うもので、又中々きちんとできないものですから、御玉串についてまず話を進めたら良いですね。<br/><br/> 御玉串について 司会者 有難う御座いました。<br/><br/>全く一番大事なことで御座います。<br/><br/>では、そうですね、渋田さん、どうぞ。<br/><br/> 渋田 申し訳有りませんが、ただ今は教会の皆さんがよくやって下さいますので個々の御報告は申し上げられないのですが、あの……例えばＡ・Ｂ会費などのことでも、御自分から進んで、きちんと早く御届けになるような方は、御蔭もはっきり違いますし、御浄化も軽く済まして戴かれます。<br/><br/> 会長先生 Ａ・Ｂ会費を御世話かけずに、御届けすることは、信者さんとしての最低道徳を実行したと言うところでしょうが、……それは当然ですよ。<br/><br/> 司会者 発展しているところは、一つの軌道に乗っているのですが、受付が大変でしょう、大森さんいかががですか？ 大森 ヘッ、ウッフフゥ（一同笑声） 司会者 ウッフフですか、これは驚いたですね、では新しいところで、鈴木さん何か。<br/><br/> 鈴木 御言葉とは、少しずれますが…… 司会者 あーそりゃ、いいですよ。<br/><br/> 鈴木 今月の上旬のことで有りますが、久原炭鉱から、御主人が腰を痛めて御夫婦で見えられたのですが「医者でも電気でも按摩でも治らんのは、ここへ来れば良いと聞いて来たんだが、今まで何でも、うんとやったが、ちょっとも治らないんで来たんだが、先生、本当に治るとですか」と妙に絡んだ口の利き方なので、「治るか、治らんか私には解らんとですばい」と言いましたら、「遠い所をわざわざ来たのに、随分頼りねえ言い草ですね、先生」と言うので、「本当に頼りないようで、頼りあるんですよ、神様がやっておいでになるんですから」と申しましたら、奥さんと何かもそもそ話しておりましたが、「先生せっかく来たんだから、治っても、治らなくても、一ちょう、やって貰いやしょう」と言うことになったんですが、「ところで先生、ここに見えてる人は、みんなあの袋の中に御金を入れて上げてるようですが、あれにゃ、一体幾ら入れりゃいいんですかい」と言うんで私はいよいよ妙にカンの虫が収まらなくなって来ていました。<br/><br/> 「あれは神様への御玉串なんで、幾らと言うのは決っておらんが、医者に行っても、初診料と言うのを取られるんだから、三百でも五百でも、あなたの気持次第ですたい」と言いましたら又もそもそ相談の結果、御玉串を捧げ、前に坐りました。<br/><br/>御浄霊二十分位を経て「どうですか、腰を伸ばして見なさい」と言いますと静かに伸しかけて「いてえいてえ痛い、一つも変りねい」の声に私は胸を突かれた思いでした。<br/><br/>これは申し訳ないと、心の中で御詫び申し上げました。<br/><br/>それまでは、腹の中で、飛んでもねい野郎だ、こんなのは二度と来やしねいと、いらいら怒りながら、御浄霊を続けておったのでした。<br/><br/>明主様よりの尊い御力を御取次さして戴いている身が、自分の感情で裁くなんて申訳ないと気付かして戴き、今度は二、三分御光を通させて戴き、「今はどこが一番痛いですか」と申しました。<br/><br/>ところが用心深く静かに、しかし普通の姿勢まで腰を伸し、再び二度、三度とだんだん勢いをつけて屈伸を続け「あっ治った。<br/><br/>ちっとも痛くない」と大変な騒ぎでした。<br/><br/>想念の違いで、こうもはっきり違うものかと分らして戴きました。<br/><br/>又信者さんにこんなに良く治れば、高くないと言って帰ったとのことでした。<br/><br/> 会長先生 そ！ そうなんですよ。<br/><br/>高いの何のと思わせることは、教師の責任ですよ。<br/><br/>過・現・未の悪因縁を御赦し下さり、幸福へと切替え賜わる御浄霊に相当する御礼など、金銭でできるものではないですが、せめて分に応じて捧げ奉る御玉串の一端は、地上天国の御建設に御使い戴けるその光栄を思えば、きちっとさせるのが、本当の親切と言うものですよ。<br/><br/>嘘と思えば百万でも五百万でも、一度に差上げてみなさい、大抵のものは一遍で治りますよ（笑声） 教師よ気概をもて 坂井満之助 会長先生も野添先生も、過去は裸銭の御礼金や、変な紙で包んだの、寸志なんて書いて、名前も書いてないの何てのは受け取らなかったこともあった、と伺っておりましたが、教師の気概と言うようなことが、非常に大切なことと思いますが。<br/><br/> 会長先生 そうですよ、金は汚なくなり勝ですが、又大切なものですから、教師の想念の中に清廉なものをもって、神様に御取次させて戴かねばならないと思います。<br/><br/>さもしい、穢い想念を持っていれば、不浄なものを御取次するような結果になるんです。<br/><br/> 古川 野添先生のおあとに坐らして戴きまして、信者さんの信仰態度を通じていつも先生から、御導を戴いておるような感じが致します。<br/><br/> 会長先生 そりゃ、そう言うもんです。<br/><br/>そこの先生の想念と言うものは、そのまま信者さんに映り、生きておるものですからね、どこの先生でもそうなんです。<br/><br/>だから信者さんを見れば先生が解るんです。<br/><br/> 酒見 長崎支部のあとに、最近坐らして戴きまして、信者さんを通じても、色々お蔭を戴いております。<br/><br/>実例を申し上げますと、河辺さんなど、大祭の御祝、御夫婦の御本部御参詣、それに当日留守居の子供達が家で御光を戴きますからとその御玉串を届けられるので、事務所へも説明つきで御届けさして戴いております。<br/><br/>こんなのは何とも言えない、快いものを感じさして戴きます。<br/><br/>この前も御用をさして戴いた直後、自分の家の舟が三艘とも大漁で網に入っただけ積めば、沈んで終うので積めるだけ積んで、後は逃がし帰ったと言う報告を受けました。<br/><br/> 会長先生 気色のいい話ですね、最近は目立って御守護御礼も、御奉謝金（信者さんが他人を御浄霊した場合に受ける御礼及び家族を御浄霊させて戴いた場合の御礼）も増えて来ましたが、ある中教会長が「御守護御礼を、自分で使わして戴いても宜敷う御座いましょうか」と御伺いしたと聞きましたが、まるで世界が違うような気がしますね。<br/><br/>人間は神様に感謝報恩の感謝を知る人は稀にはあったんですが、報恩の実は全然解らなかったのです。<br/><br/>喜んだり、尾を振る位は動物程度なんです。<br/><br/>明主様の御出ましを戴いて、御報恩の真を捧げ奉る道を、初めて解らして戴いたのですから、そのことを御導きし、それを曲げず、作らず、真直に御取次さして戴くのが、教師の使命と言うものですよ。<br/><br/> 間違った在り方はやるな 司会者 有難う御座いました。<br/><br/>今度は布教上のことで、こんな場合はどうさして戴いたらとか、又こう言わして戴いたとか言うことについて何か…… 鈴木 先日他の教会の方で四国の方が見えられ、御浄霊を戴いた後で、御玉串を上げ、又蟇口を出し、この度裸銭で十円、御神前におくので「御神前に裸銭はいけない」と申しますと、「私の方では、いつも十円位を、御三宝に上げることになっているんですが」とのこと「そうですか、それなら別に御預りして、御奉仕隊の方にでも、加えさして戴きましょう」とお預りしておきました。<br/><br/> 二見 鹿児島のある教会では、散花結実の御書体が、表装せずに一万円だったとそこの家主さんが申しておりましたが、御書体は商品で御座いませんので、御礼の多寡は言えず、ちょっと戸惑いしたことも御座いました。<br/><br/> 永友 私の地方のある教会では、お屏風様の御礼が五千円、ある人は七千円で戴いたとのこと、びっくりしております。<br/><br/>光宝会では当時三百円の御礼でした。<br/><br/>又教修は御浄霊を戴いた日数を申していたようです。<br/><br/>十日間の教修二十日間の教修と申しておりました。<br/><br/> 大野 一昨年六月、奉仕隊に行かせて戴きました時ある資格者の方が、お屏風様の御礼は、と聞かれましたので、三百円と申しますと「それは霊が入れてないのだ」と申しましたのには驚きました。<br/><br/> 沢本善太郎 長崎県五島の阿瀬津町にある教会が、悪評で会員が急激に減ったと言うことで、布教上障害ともなると思いましたので、行って見ましたが、教師の奥さんが占いみたいなことで、これは癒るとか、これは駄目だとか、やっておるのです。<br/><br/> 沢本明雄 私の地方のある教会では、鳴島の方は教修三日間だが、暇のない人は教修なしで、福江方面では全然教修はしてないとのことでした。<br/><br/> 坂井満之助 延岡におりました時（昭和二十五年）ある会の信者さんが見えられ「私も大変御蔭を戴きましたので、一人でも多く、お導きしたいものと、度々教会へお連しておりましたが最近こちらと余りに、教修御礼等に違いがあり、差額を私がどうかしておるように思われるのも嫌ですから先生にお訪ねしましたら偽者も有りますからねとのこと、今日は真偽を確めに来たのですが、明主様の御写真、大光明如来様のお話を伺っても、偽者どころではない。<br/><br/>それにしても余り戴きものの御礼が違い過ぎますので」と色々申しまして、「戴きものだけでも、こちらに御願いできないものでしょうか」とのこと「それはできない、高い安いの売物買物ではないので、事実に御蔭を戴き、解らして戴く毎に、その尊さ有難さが身にしみその御礼が高いと言う事は、決してないのですが、だからと言っておきめ戴いたことは、そのまま御取次さして戴けば良いことなんで、教師が中間搾取する事は、品物として扱ったも同然で、それは先生に相応のお裁きが必ずあることなんです。<br/><br/>貴方方は、神様に直接の想念で、誠をもってなされば良いのです。<br/><br/>色々と言いたいこともあるでしょうが、因縁で結ばれたのですから、時期をお待ちなさい。<br/><br/>近き将来いずれの教会でも立派な先生方が、同じあり方で御導き下さる日が必ず来るのですから」と言わして戴きましたら、大変喜ばれて帰られました。<br/><br/> 江頭 阿蘇に教修に参りました時、そこに他の会の信者がおられ、私達は総て何倍もの御礼で御取次戴いたのです。<br/><br/>それから見ると光宝会さんは固すぎるようですが、できるだけの御礼はさして戴くものですと色々御世話されましたので、何かと便利なこともあるものだと思いました。<br/><br/> 司会者 決して欠点を見付けて廻るようなけちな御気持ではないことは、解っているのですが、何だか話の進み工合が面白くないですね。<br/><br/>こんなことを通しても何か御蔭を戴く側に廻らして戴きましょう。<br/><br/>ではこの辺で外の人にこう言わして戴いたらと言うような気色のいい話を何か…… 梶原 この間教会に来た方で自分が以前に研究したと言う信仰の話をのべつ話し御取次の邪魔になりましたので「私達のは、理論宗教ではなくて、事実の裏付があるのですから、話なら後でして下さい。<br/><br/>又種々と宗教の御研究をなさるなら、今日本だけでも七百位有りますから、一宗教一カ月ずつ研究なさっても五十八年位はかかりますから御高説はその後でと言うことにもなりますね」と言わして戴きましたら、静かになりました。<br/><br/> 早田 野添先生が早岐におられた時、十六年間水気のなかった所に、井戸水をお恵み戴いた方ですが、その後水が出たり、止ったりになり御訪ねに来られた時先生が「あなたは御神徳の戴きっぱなしになっているが御守護の御礼は必ずさして戴くべきもので、又端数の御礼は申訳ない。<br/><br/>名前を御覧戴くだけでも勿体ないことですから、きちんとさして戴いた方がいい」と申され御玉串をお上げになり、帰られて又間もなく来られ、「井戸は水が溢れて出るようになっておりました」と非常に喜ばれ、そして数日後三年来請求をしても中々返済されず、半ばあきらめておった貸金が先方から半金として、一万円届けて来ましたと報告に見え、今度はきちんと御守護御礼をされて帰られたのでございました。<br/><br/> 司会者 そんなことが有りましたね。<br/><br/>では今度はこんなのはどんなものだろうかと言うようなことが有りましたら…… 明主様に対する言葉遣い 沢本明雄 『御垂示録』の中などで時折明主様に対し奉り誠に不遜な言葉、例えば「御参考までに」とか「だがしかし」とか「やはりこれも肥料を使わない方が」だとかを拝見致しますと、全身全霊を、お使い戴きたいと御願いされておられる方の在り方ではないように、思われてなりません。<br/><br/>又『栄光』紙上のお蔭話などの中にも、「過分の御玉串とか」「救霊祭」とか、『栄光』を雀追いの道具に使っているのが有りますが、はなはだ出過ぎたこととは思われますが、信者さんが迷われる方も出るのではないか、とも思われますので編集係等で何とかならないものでございましょうか。<br/><br/> 会長先生 沢木さんの言われたそう言う感じは確かに有ります。<br/><br/>しかし神様は変な者は変なところに実に巧妙に余す所なく、御使いになられるのですから、我々は善悪を少しでも多く覚らせて戴いてじっと見させて戴くことですね。<br/><br/>明主様に申し上げている色々な人の状態を、もしあなた方が聞いたり、見たりするならば、息がつまるような名状しがたい気持になる事も随分有りますよ。<br/><br/>しかしいつも明主様には、春風駘蕩いとも平然と御受け流し遊ばされておられる御様子を拝しては、ただただ畏れ多く自分が生意気なような気がするんです。<br/><br/>沢木さんの言われた事も本当ですから私から編集係の方へ御願いしておきましょう。<br/><br/>それから先程の御礼の大変違うのなんか、早急に一定せねばならない問題ですが「霊が入れてないのだ」なんてのは思い切ったごまかしを言うもんですね。<br/><br/>又救霊祭とか言うのを発明するかと思うと、信者さんの家の御神体の御祭込みと言って出掛ける、お屏風様の御祭込みと言っては御供を連れて先生が御出張となっては、間違いも中々手が込んで忙しいもんです。<br/><br/>幾つかのネジがゆるんで空廻りするようなもんでしょう。<br/><br/>御都合で教修をやったり止めたりするのも神様への反逆ですね。<br/><br/>御神示に随ってその通り実行さして戴いていれば、正しき者は必ず幸福になり、誤れる者は必ず亡ぶ、ただ、それだけのことです。<br/><br/>ともかく真面目なルートに乗るものは良くなり、不真面目なルートに乗っているものは悪くなるのは確かなものです。<br/><br/>最近御本部では、教修要綱も御作り下され、頻りに幹部の先生方の密接な懇談も多くなりつつ有りますから、御神示に帰一し奉る日も間近に迫りつつあるようです。<br/><br/> 司会者 今日は種々のことをざっくばらんに話合って、会長先生より思いがけない御導きを戴くことができまして、有難うございました。<br/><br/>この上ともになお一層の御精進をなされ、信仰を高めさして戴きましよう。<br/><br/>本日はこれで終らせて戴きます。<br/><br/> 会長先生 明主様に御礼を申し上げさして戴きましょう。<br/><br/> （一同御礼拝）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

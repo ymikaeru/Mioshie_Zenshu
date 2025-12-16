@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>zuiso</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 随想 青芝緑苔 『栄光』267号、昭和29(1954)年7月28日発行 毎とし、初夏が訪れると、熱海から箱根へと、参拝の宮居（みやい）が移される。<br><br>今年は、この移りかたが例年とちがって、やや、遅れた。<br><br> 遅れたわけは、まことにお芽出たい出来ごとのためだった。<br><br>メシヤ御降誕の大祝典を終えられて、メシヤ様は、熱海から強羅へ宮居を移された。<br><br>これ以上の御芽出たは今より前になく、この後にもまたとないことだ。<br><br> 箱根の非情な山水も、メシヤ様をお迎え申し上げて風光り、霧もかぐわしい芳香を放ち、樹々は緑の粧いを凝らして、お芽出とうございます。<br><br>と御挨拶申し上げたことであろう。<br><br> 御参拝日の早暁。<br><br>出発を前に、拍手うって神様を礼拝し、メシヤ様の御写真を仰いだとき、ふと、一抹の寂しさにおそわれた。<br><br> いままで、特別御面会の日を数えて月に十回、親しく御面会いただけただけに六月十五日、という忘れることの出来ない日から『メシヤ様』と申し上げることとなり、より多く救いのみ業に入られるため、私たち信者が、今までのように直き直き御謦咳（けいがい）に接することは願えまい。<br><br>……今日も勿論。<br><br>……と思ったからであった。<br><br> メシヤ様……御写真を仰ぎつつ、私は思わず、主のみ名を口にした。<br><br>思えば、今まで御面会いただけた事すら勿体ないことであったのだ。<br><br>時期来たって「メシヤ様」と御讃え申し上げるようになったその以前から、明主様は救世主であられることを、充分、肝に銘じていたつもりでおりながら、その実、その心構えには隙があり、決められた御面会日に御面会いただけた事を、当りまえの事としていたのであった。<br><br> 思えば、これも凡夫の愚かしさ、恥ずかしい限りであり、取返えしのつかない所業であった。<br><br>と顔あからめて省みるのであった。<br><br>そして、御参拝日というべきさえ、御面会日。<br><br>と称していた迂闊さ、不信さも、また責めらるべきだ。<br><br>と私の胸を締め付ける。<br><br> 一事が万事。<br><br>すべてに亘って不敬、不義を重ねてきたに違いない下僕を咎め給わず、今日も御参拝を許して下さるかたじけなさに『メシヤ様。<br><br>』ともう一度、私は、主のみ名を称えた。<br><br> 箱根。<br><br>……私たちが仰ぎ敬い、崇めるメシヤ様のお在す箱根と思えば、つね日ごろ、御恵みを戴くだけで、何らプラスするところのない身であっても、何かしら晴れがましく気持が浮き立ち、樹にも巌にも久闊を叙したい思いである。<br><br>神の苑にも美の館にも絶えて久しい対面であり、池に波紋を画く鯉にさえ、元気かね。<br><br>幾千年もお待ち申したメシヤ様が、御降誕遊ばされたよ。<br><br>…と声をかけたいほど心がはずむ。<br><br> 強羅の山野に、神が斧を入れ給うたお庭は、おととしよりは昨年、去秋よりは今夏。<br><br>と、きわだって眼を、心を楽しませてくれる。<br><br> 年ごとの雨露風雪が草木を育み、据えた石にも露が光って、風韻を添え、芝は青く、苔は緑に、神々しい迄に風致を高めている。<br><br>今年もまた生きて、この風光にまみえた喜びを、泌み泌み青芝緑苔にも感謝したい気持になる。<br><br>しかも、今年はメシヤ御降誕という、未曾有にして絶後の一大盛儀にさえ参列させて戴けた光栄が、神の苑生に佇つと、また鮮やかに蘇みがえる。<br><br> 日に月に、刻々進展して止る事のないメシヤ様の御神業を、昨年は凡兆の句を藉りて、竹の子の力に例えたが、メシヤ御降誕という現実にふれたとき、竹の子の伸びる力どころではなく、たとえる比喩のないことを思い知らされた。<br><br>神様の御仕組の深さは、人間の浅い限られた智恵では窺い知ることの出来ないものであり、人間の持つ、知、情、意の三つのものも、詮じ詰めれば青芝緑苔に生の喜びを感じ、飛花落葉に人生のはかなさを思い、神の扉を敲（たた）いて、始めて安心を得るようになるのが関の山であろうか。<br><br>それも良し。<br><br>これも良し。<br><br>不安きわまりない短い人生も、メシヤ教を識ってこのかた、身をさいなむ、病貧争のみじめな苦悩から免れ、楽しく明るく、また来む月日の御守護をメシヤ様に願いつつ、充実した明け暮れを迎える事ができるようになったのである。<br><br>このささやかな私の歓びも、メシヤ様をいただく、メシヤ教の信者となり得たからである、と思えば、神の苑生の風趣をとしごとに深めゆく青芝緑苔にも、感謝の手を合わせたい思いである。<br><br> （注）謦咳に接る 尊敬する人の話を直接聞く。<br><br>直接、お会いする。<br><br>謦咳に触れる。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Uma Profunda Reverência ao Messias</h2>
 <p>A cada ano, com a chegada do verão, a sagrada morada de Meishu-Sama transfere-se de Atami para Hakone. Este ano, contudo, essa transição ocorreu com um certo atraso.</p>
@@ -106,5 +258,48 @@ function toggleLang(lang) {
 <p>As chuvas, o orvalho, os ventos e as neves de cada estação nutrem as plantas; o sereno cintila sobre as pedras, conferindo-lhes uma nobre pátina. O gramado está azulado, o musgo, verdejante, elevando a paisagem a uma beleza quase sagrada. Sinto o desejo de agradecer profundamente ao relvado azul e ao musgo verdejante pela alegria de estar vivo para contemplar novamente esta paisagem. E mais, ao estar no Jardim Divino, a honra de ter participado da Magna Cerimônia do Advento do Messias – um evento sem precedentes e que jamais se repetirá – ressurge vívida em minha memória.</p>
 <p>No ano passado, para descrever o avanço incessante da Obra Divina de Meishu-Sama, recorri a um verso sobre a força de um broto de bambu. Contudo, ao me deparar com a realidade do Advento do Messias, percebi que a força do bambu é uma analogia insignificante; não há metáfora capaz de expressá-la. A profundidade do Plano Divino é insondável para a limitada e superficial sabedoria humana. As faculdades do homem – intelecto, emoção e vontade –, em última análise, talvez se restrinjam a sentir a alegria da vida no relvado verdejante, a meditar sobre a efemeridade da existência nas flores que caem e, por fim, a encontrar a paz somente ao bater às portas de Deus.</p>
 <p>Seja como for, esta breve e incerta jornada da vida, que antes era atormentada pelo sofrimento da doença, da pobreza e do conflito, tornou-se, desde que conheci a fé messiânica, plena de alegria e luz. Agora, posso viver dias e noites repletos de propósito, rogando a Meishu-Sama por Sua proteção nos tempos vindouros. Ao refletir que esta minha modesta felicidade só foi possível porque me tornei um fiel da Igreja Messiânica, seguidor de Meishu-Sama, sinto o impulso de unir as mãos em gratidão até mesmo ao relvado azul e ao musgo verdejante, cuja beleza no Jardim Divino se aprofunda a cada ano.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 随想 青芝緑苔 『栄光』267号、昭和29(1954)年7月28日発行 毎とし、初夏が訪れると、熱海から箱根へと、参拝の宮居（みやい）が移される。<br/><br/>今年は、この移りかたが例年とちがって、やや、遅れた。<br/><br/> 遅れたわけは、まことにお芽出たい出来ごとのためだった。<br/><br/>メシヤ御降誕の大祝典を終えられて、メシヤ様は、熱海から強羅へ宮居を移された。<br/><br/>これ以上の御芽出たは今より前になく、この後にもまたとないことだ。<br/><br/> 箱根の非情な山水も、メシヤ様をお迎え申し上げて風光り、霧もかぐわしい芳香を放ち、樹々は緑の粧いを凝らして、お芽出とうございます。<br/><br/>と御挨拶申し上げたことであろう。<br/><br/> 御参拝日の早暁。<br/><br/>出発を前に、拍手うって神様を礼拝し、メシヤ様の御写真を仰いだとき、ふと、一抹の寂しさにおそわれた。<br/><br/> いままで、特別御面会の日を数えて月に十回、親しく御面会いただけただけに六月十五日、という忘れることの出来ない日から『メシヤ様』と申し上げることとなり、より多く救いのみ業に入られるため、私たち信者が、今までのように直き直き御謦咳（けいがい）に接することは願えまい。<br/><br/>……今日も勿論。<br/><br/>……と思ったからであった。<br/><br/> メシヤ様……御写真を仰ぎつつ、私は思わず、主のみ名を口にした。<br/><br/>思えば、今まで御面会いただけた事すら勿体ないことであったのだ。<br/><br/>時期来たって「メシヤ様」と御讃え申し上げるようになったその以前から、明主様は救世主であられることを、充分、肝に銘じていたつもりでおりながら、その実、その心構えには隙があり、決められた御面会日に御面会いただけた事を、当りまえの事としていたのであった。<br/><br/> 思えば、これも凡夫の愚かしさ、恥ずかしい限りであり、取返えしのつかない所業であった。<br/><br/>と顔あからめて省みるのであった。<br/><br/>そして、御参拝日というべきさえ、御面会日。<br/><br/>と称していた迂闊さ、不信さも、また責めらるべきだ。<br/><br/>と私の胸を締め付ける。<br/><br/> 一事が万事。<br/><br/>すべてに亘って不敬、不義を重ねてきたに違いない下僕を咎め給わず、今日も御参拝を許して下さるかたじけなさに『メシヤ様。<br/><br/>』ともう一度、私は、主のみ名を称えた。<br/><br/> 箱根。<br/><br/>……私たちが仰ぎ敬い、崇めるメシヤ様のお在す箱根と思えば、つね日ごろ、御恵みを戴くだけで、何らプラスするところのない身であっても、何かしら晴れがましく気持が浮き立ち、樹にも巌にも久闊を叙したい思いである。<br/><br/>神の苑にも美の館にも絶えて久しい対面であり、池に波紋を画く鯉にさえ、元気かね。<br/><br/>幾千年もお待ち申したメシヤ様が、御降誕遊ばされたよ。<br/><br/>…と声をかけたいほど心がはずむ。<br/><br/> 強羅の山野に、神が斧を入れ給うたお庭は、おととしよりは昨年、去秋よりは今夏。<br/><br/>と、きわだって眼を、心を楽しませてくれる。<br/><br/> 年ごとの雨露風雪が草木を育み、据えた石にも露が光って、風韻を添え、芝は青く、苔は緑に、神々しい迄に風致を高めている。<br/><br/>今年もまた生きて、この風光にまみえた喜びを、泌み泌み青芝緑苔にも感謝したい気持になる。<br/><br/>しかも、今年はメシヤ御降誕という、未曾有にして絶後の一大盛儀にさえ参列させて戴けた光栄が、神の苑生に佇つと、また鮮やかに蘇みがえる。<br/><br/> 日に月に、刻々進展して止る事のないメシヤ様の御神業を、昨年は凡兆の句を藉りて、竹の子の力に例えたが、メシヤ御降誕という現実にふれたとき、竹の子の伸びる力どころではなく、たとえる比喩のないことを思い知らされた。<br/><br/>神様の御仕組の深さは、人間の浅い限られた智恵では窺い知ることの出来ないものであり、人間の持つ、知、情、意の三つのものも、詮じ詰めれば青芝緑苔に生の喜びを感じ、飛花落葉に人生のはかなさを思い、神の扉を敲（たた）いて、始めて安心を得るようになるのが関の山であろうか。<br/><br/>それも良し。<br/><br/>これも良し。<br/><br/>不安きわまりない短い人生も、メシヤ教を識ってこのかた、身をさいなむ、病貧争のみじめな苦悩から免れ、楽しく明るく、また来む月日の御守護をメシヤ様に願いつつ、充実した明け暮れを迎える事ができるようになったのである。<br/><br/>このささやかな私の歓びも、メシヤ様をいただく、メシヤ教の信者となり得たからである、と思えば、神の苑生の風趣をとしごとに深めゆく青芝緑苔にも、感謝の手を合わせたい思いである。<br/><br/> （注）謦咳に接る 尊敬する人の話を直接聞く。<br/><br/>直接、お会いする。<br/><br/>謦咳に触れる。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

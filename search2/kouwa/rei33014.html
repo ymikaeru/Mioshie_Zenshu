@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>rei33014</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊学篇 三 諸霊解説（三） ２ 014-024 狐霊 の憑依 014 一家救いの時期来ぬため離脱せぬ狐霊（罪と邪魔） 狐霊憑依の女子、肉体から出たいが、最近霊界が明るくなったため出る所がないと言っています。<br><br>いかに祀ったらよろしいでしょうか。<br><br> 稲荷を潰したために憑いたのなら祀ればよいが、そうでないとちょっと難しい。<br><br>もっと放っておいた方がよい。<br><br>未だ一家が救われるのは早すぎるからで、大きな罪が残っている。<br><br>反対に邪魔されている時、神は防ぐのと、また反対にわざと邪魔させてその邪霊の執着をとり、悟るまで反対させる場合もある。<br><br>とにかくその家は救われるのに未だ早いので、焦るが、無理である。<br><br>よく迷って信仰を断念する人があるが、こういう人はきっとまた戻ってくる。<br><br>私の弟子で十年遠ざかっていて最近戻って来たのがある。<br><br>本当に正しいものなら神様の方が頭を下げる要はない。<br><br>安っぽくなる。<br><br>（S23.11.16） 015 狐霊出したし（狐霊の種類） 私は昨年六月ちょっとした風邪がもとで、医者は脚気及び小児麻痺等と言う診断のもとに、世話になりましたが、効果無く、九ケ月程足腰が立たず寝ておりましたが、二月の初め頃より観音様の御救いにより約一ケ月程山内先生の浄霊を頂き、結果は大変良くなりました。<br><br>所が足は立てず不自由しておりましたが、例祭の時、教導所にて平良先生の浄霊を頂きました所、光明如来も翌日に頂く事に御願いしましたなら、その場で足が立つようになりましたので、今日御参詣、御礼かたがた御利益の程申し上げます。<br><br>御光様も昨年九月頂いておりますが、先生の浄霊中に狐が私の口を通して色々しゃべったとの事で御座居ます。<br><br>浄霊を続けておりますれば狐は憑依しなくなるでしょうか。<br><br>御教え下さい。<br><br> 狐は元からいるのと、後から憑るのとある。<br><br>人間から狐になったのと、本来の狐と両方ある。<br><br>たとえいても、浄霊により段段萎縮し、人間に害を与えなくなる。<br><br>憎まずに可愛がってやれ。<br><br> 016 狐霊在身を意識 狐霊が自分の体にいるのが良く解り、その狐が非常に苦しめたのが、お光を戴いてからは苦痛は薄らいだのですが、この狐霊を追払う事はどうしたら良いでしょうか。<br><br>浄霊は続けています。<br><br> 狐霊が憑いてるのは女である。<br><br>女の七、八割は憑いている。<br><br>人間の体欲、物質欲を受持っている。<br><br> 悪い狐ではなさそうだから、可愛がってやるといい。<br><br> 人間は絶えず本副両守護神が戦っている。<br><br>想念は無限の自由が与えてある。<br><br>行動に表わして初めて罪が発生する。<br><br> 正副霊が思って、それで調和がとれてゆく。<br><br>（S24） 017 殺意の狐霊・絶命を願う 本年三十八歳の娘、二十一歳頃より精神病になり、色々と手当を致しましたが良くなりませんので、行者に度々伺いましたところ、狐霊の祟りとの事にて、祭りも致しましたが快復せず、本人は家族と一緒に食事をせず、夜中に青草を食べますので、止めますと怒ります。<br><br>かようの状態が続き困りおります時、去年五月本教を知り御浄霊を頂き、私も早速入信致し引続き浄霊を致しました。<br><br>御蔭様にて大変良くなり、時々裁縫も致すようになり、有難く感謝致しておりました。<br><br>本年二月光明如来様奉斎致してより間もなく絶食の状態を続け、水だけ呑みますので医師の診察を受けましたところ、二日位の命と申されます。<br><br>早速教会に御参拝、御願い致し、家に帰りましたら食事を軽くとりました。<br><br>今は本人は絶命を願っております。<br><br>いかなる因縁ですか、御伺い致します。<br><br>因みに本人は内気でありました。<br><br> 狐霊ともう一つ他の霊である。<br><br> 狐霊が自分の目的通りにしようとしたが、神様のためにそれが出来ない、といって長く憑っているから離れられぬので、遂に生命を奪ろうとしている。<br><br> もう一息である。<br><br>二、三年は経つであろう。<br><br>その後三、四年は気長にする。<br><br> 御神書を読み、祝詞を奏げてやると早い。<br><br> 018 人霊に憑いてる狐霊 熱心な信者の宅で御座いますが、御主人が昨年五月教修を頂く当日脳溢血の状態で倒れ、その後精神病状態でおりましたが、御守護を頂きまして大分楽にして頂き、この頃では時々変な事を言う状態で御座いますが、本人が眠っておりますと歯ぎしりは致しませんのに、目を開いている間は絶えずひどい歯ぎしりを致しますが、何か精神病と関係が御座いましょうか。<br><br>お伺い申し上げます。<br><br> 動物霊――人霊に憑いてる狐霊である。<br><br>狐霊と人間が関係している。<br><br>段々に治ってくる。<br><br>（S25. 3. 2） 019 生命とるという狐霊（脅かし） 昨年御守護を戴きました下川智子、最近またまた狐霊が憑依し、二時間ずつ二日御浄霊を致しましたが、霊が離れては直ぐ憑き、次は全然離れません。<br><br>狐霊の言うには、この肉体は本年中にとり殺すと申して頑として離れません。<br><br>また、随分言向け和してあげますが、相手が野狐らしきものと見えて仲々聞きいれてくれません。<br><br>特別の御守護を御願い申し上げます。<br><br> 祝詞を奏げてやるとよい。<br><br>おどかしてはいけない。<br><br>生命をとるなどおどかしで、全然嘘である。<br><br>光明如来様のお部屋へ寝かすとよい。<br><br>（S24. 3. 2） 020 生命を狙う狐霊 この度、山形県東置賜郡に光明如来様御二体御祭りさせて頂き誠に有難く厚く御礼申し上げます。<br><br>佐藤喜代子、当年三十八歳の信者で、十八年間気違いで、町内知らぬ人がない位評判で御座いましたが、御浄霊を頂き二ケ月位で大変よくなりましたが、時々面白い事を言いますが、本人も狐霊がついている事が分っております。<br><br>本人が、この体から離れてくれればどんな事でもして上げると狐霊に言いますと、何にもほしくない、喜代ちゃんが大好きで、命がほしいのだと言います。<br><br>本人が嫌いだと言いますと「コンコン」と泣きます。<br><br>現在眠れず困っております。<br><br>この度光明様を御祭りさせて頂きました。<br><br>狐が絶対に眠らせないと言うそうです。<br><br>何卒御守護を御願い申し上げます。<br><br> 気長に浄霊しておればよい。<br><br>よほど霊力を要する。<br><br> 021 子供続死と狐霊憑依（祝詞） 私の知人の家では、昨年十一月より奥様を初め子供四人も結核で、十日位床についただけで次々に死んでしまいましたので、日蓮宗を信仰している中、本年三月末より御主人が神（霊）憑りになり、お参りしようと思えば坐ったまま座ぶとんが足について神様（仏壇）の方に飛ばされ、自分では止めようとしても止める事が出来ません。<br><br>また、聞きたいと思うと何でも神様が答えてくれるので自問自答しております。<br><br>それはすべて意識がはっきりしているのであります。<br><br>残った娘の中の一人が同じ病気（結核）になり、五月末教導所に来ましたので浄霊してやりましたところ、その主人も大層感激して私も是非入信させてくれと言って家へ帰りましたが、「観音様がついたから」と申し入信を断って来ました。<br><br>その後その娘は一週間ばかりで死にました。<br><br>いかなる原因で御座いましょうか。<br><br>霊的関係を御知らせ下さい。<br><br> 神というのが狐である。<br><br>狐が騙したのである。<br><br>日蓮宗をやったため、それが邪魔する。<br><br>一家の一人が熱心に救いを求めるといい。<br><br>出版物を読ますのがよく、祝詞を奏げ、狐を弱らす。<br><br>（S *. 7. 8） 022 観音と名乗る憑霊 ある会の講習生が、憑依霊のために神様のようになって、自分で○○観音と名前をつけやっております。<br><br>観音教を大分横道にそれて……よいことより害の方が多いように見られます。<br><br>このような信仰はよくあると思いますが、このような信仰の浄化作用は日増にはげしくなりますでしょうか。<br><br> （五、六日前にお詫びに来たが）遇わずに帰した。<br><br>（S24. 6.23） 023 狐霊憑依に対処 度々御守護頂きました菊地初太郎の事で御座居ますが、辻褄の合わぬ事を言っているのをよく聞きますと、この間祭ってやった菊地稲荷大明神が私にいろいろの事を教えておりました。<br><br>この事を信じてよろしいでしょうか。<br><br>今迄は常識的に思われますが、御指導御願い申し上げます。<br><br>本人は大変衰弱しておりますが、流動食は一週間位でよろしいでしょうか。<br><br>先祖霊一切大変感謝して出ました。<br><br>普通から見れば殆どだめのようですが御守護頂けるような気が致します。<br><br>御守護の程御願い申し上げます。<br><br> 常識的に考えればよい。<br><br>善悪で決める。<br><br>狐であるから、祖先に頼まれ、代りをやるが狐自体のものを出す。<br><br> 血の出る間流動食にする。<br><br>胃壁の爛れている場合――衰弱増さねば大丈夫である。<br><br>（S24. 2. 8） 024 入信後一家不眠 本年六十一歳の女で御座いますが、昨年二月より足が痛み出し、医師は神経痛と診断致しまして注射を打ちましたところ、下半身がしびれまして、六月頃から足が立たなくなりました。<br><br>先日、一家入信致しましたところ、夜眠りますと足や胸が疼き出し、ウンウンと苦しみ少しも眠れません。<br><br>御浄霊を致しますと霊が浮きまして「キャンキャン」「コンコン」と言いながら非常に苦しみますが、何を聞いても答えません。<br><br>御浄霊をやめますと直ぐ平静になりまして、常人と変らなくなります。<br><br>どう致しましたら宜敷う御座いましょうか。<br><br>御伺い申し上げます。<br><br> 足のしびれも注射のためである。<br><br>足が立たず運動が不足すると衰弱する――そこへ狐が憑った。<br><br>その人が返事の出来ぬのは口が切れぬのである。<br><br>入信すれば治る。<br><br>（S24.12.11）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Comentários sobre Diversos Espíritos (III) - A Possessão por Espíritos de Raposa</h2>
 <p><strong>014 O espírito de raposa que não se afasta por não ter chegado o tempo da salvação da família (Pecado e Perturbação)</strong></p>
@@ -128,5 +280,48 @@ A dieta líquida deve ser mantida enquanto houver sangramento. Se houver inflama
 <p><strong>024 Insônia familiar após ingressar na Fé</strong></p>
 <p>Trata-se de uma senhora de sessenta e um anos. Em fevereiro do ano passado, ela começou a sentir dores nas pernas. Um médico diagnosticou neuralgia e aplicou-lhe injeções, que resultaram na dormência da parte inferior de seu corpo. Por volta de junho, ela perdeu a capacidade de ficar de pé. Recentemente, toda a família ingressou na Fé. Desde então, ao deitarem-se para dormir, suas pernas e peito começam a doer, e ela geme de dor, sem conseguir pregar o olho. Quando lhe ministramos Johrei, um espírito se manifesta; ela sofre intensamente, emitindo sons como "kyan-kyan" e "kon-kon", mas não responde a nenhuma pergunta. Assim que interrompemos o Johrei, ela retorna à calma, agindo normalmente. Como devemos proceder?</p>
 <p>A dormência nas pernas também é consequência das injeções. A falta de movimento, por não conseguir ficar de pé, debilitou-a, e foi nesse momento que a raposa se apossou dela. A razão pela qual não consegue responder é que sua fala está bloqueada. Agora que ingressou na Fé, ela será curada.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊学篇 三 諸霊解説（三） ２ 014-024 狐霊 の憑依 014 一家救いの時期来ぬため離脱せぬ狐霊（罪と邪魔） 狐霊憑依の女子、肉体から出たいが、最近霊界が明るくなったため出る所がないと言っています。<br/><br/>いかに祀ったらよろしいでしょうか。<br/><br/> 稲荷を潰したために憑いたのなら祀ればよいが、そうでないとちょっと難しい。<br/><br/>もっと放っておいた方がよい。<br/><br/>未だ一家が救われるのは早すぎるからで、大きな罪が残っている。<br/><br/>反対に邪魔されている時、神は防ぐのと、また反対にわざと邪魔させてその邪霊の執着をとり、悟るまで反対させる場合もある。<br/><br/>とにかくその家は救われるのに未だ早いので、焦るが、無理である。<br/><br/>よく迷って信仰を断念する人があるが、こういう人はきっとまた戻ってくる。<br/><br/>私の弟子で十年遠ざかっていて最近戻って来たのがある。<br/><br/>本当に正しいものなら神様の方が頭を下げる要はない。<br/><br/>安っぽくなる。<br/><br/>（S23.11.16） 015 狐霊出したし（狐霊の種類） 私は昨年六月ちょっとした風邪がもとで、医者は脚気及び小児麻痺等と言う診断のもとに、世話になりましたが、効果無く、九ケ月程足腰が立たず寝ておりましたが、二月の初め頃より観音様の御救いにより約一ケ月程山内先生の浄霊を頂き、結果は大変良くなりました。<br/><br/>所が足は立てず不自由しておりましたが、例祭の時、教導所にて平良先生の浄霊を頂きました所、光明如来も翌日に頂く事に御願いしましたなら、その場で足が立つようになりましたので、今日御参詣、御礼かたがた御利益の程申し上げます。<br/><br/>御光様も昨年九月頂いておりますが、先生の浄霊中に狐が私の口を通して色々しゃべったとの事で御座居ます。<br/><br/>浄霊を続けておりますれば狐は憑依しなくなるでしょうか。<br/><br/>御教え下さい。<br/><br/> 狐は元からいるのと、後から憑るのとある。<br/><br/>人間から狐になったのと、本来の狐と両方ある。<br/><br/>たとえいても、浄霊により段段萎縮し、人間に害を与えなくなる。<br/><br/>憎まずに可愛がってやれ。<br/><br/> 016 狐霊在身を意識 狐霊が自分の体にいるのが良く解り、その狐が非常に苦しめたのが、お光を戴いてからは苦痛は薄らいだのですが、この狐霊を追払う事はどうしたら良いでしょうか。<br/><br/>浄霊は続けています。<br/><br/> 狐霊が憑いてるのは女である。<br/><br/>女の七、八割は憑いている。<br/><br/>人間の体欲、物質欲を受持っている。<br/><br/> 悪い狐ではなさそうだから、可愛がってやるといい。<br/><br/> 人間は絶えず本副両守護神が戦っている。<br/><br/>想念は無限の自由が与えてある。<br/><br/>行動に表わして初めて罪が発生する。<br/><br/> 正副霊が思って、それで調和がとれてゆく。<br/><br/>（S24） 017 殺意の狐霊・絶命を願う 本年三十八歳の娘、二十一歳頃より精神病になり、色々と手当を致しましたが良くなりませんので、行者に度々伺いましたところ、狐霊の祟りとの事にて、祭りも致しましたが快復せず、本人は家族と一緒に食事をせず、夜中に青草を食べますので、止めますと怒ります。<br/><br/>かようの状態が続き困りおります時、去年五月本教を知り御浄霊を頂き、私も早速入信致し引続き浄霊を致しました。<br/><br/>御蔭様にて大変良くなり、時々裁縫も致すようになり、有難く感謝致しておりました。<br/><br/>本年二月光明如来様奉斎致してより間もなく絶食の状態を続け、水だけ呑みますので医師の診察を受けましたところ、二日位の命と申されます。<br/><br/>早速教会に御参拝、御願い致し、家に帰りましたら食事を軽くとりました。<br/><br/>今は本人は絶命を願っております。<br/><br/>いかなる因縁ですか、御伺い致します。<br/><br/>因みに本人は内気でありました。<br/><br/> 狐霊ともう一つ他の霊である。<br/><br/> 狐霊が自分の目的通りにしようとしたが、神様のためにそれが出来ない、といって長く憑っているから離れられぬので、遂に生命を奪ろうとしている。<br/><br/> もう一息である。<br/><br/>二、三年は経つであろう。<br/><br/>その後三、四年は気長にする。<br/><br/> 御神書を読み、祝詞を奏げてやると早い。<br/><br/> 018 人霊に憑いてる狐霊 熱心な信者の宅で御座いますが、御主人が昨年五月教修を頂く当日脳溢血の状態で倒れ、その後精神病状態でおりましたが、御守護を頂きまして大分楽にして頂き、この頃では時々変な事を言う状態で御座いますが、本人が眠っておりますと歯ぎしりは致しませんのに、目を開いている間は絶えずひどい歯ぎしりを致しますが、何か精神病と関係が御座いましょうか。<br/><br/>お伺い申し上げます。<br/><br/> 動物霊――人霊に憑いてる狐霊である。<br/><br/>狐霊と人間が関係している。<br/><br/>段々に治ってくる。<br/><br/>（S25. 3. 2） 019 生命とるという狐霊（脅かし） 昨年御守護を戴きました下川智子、最近またまた狐霊が憑依し、二時間ずつ二日御浄霊を致しましたが、霊が離れては直ぐ憑き、次は全然離れません。<br/><br/>狐霊の言うには、この肉体は本年中にとり殺すと申して頑として離れません。<br/><br/>また、随分言向け和してあげますが、相手が野狐らしきものと見えて仲々聞きいれてくれません。<br/><br/>特別の御守護を御願い申し上げます。<br/><br/> 祝詞を奏げてやるとよい。<br/><br/>おどかしてはいけない。<br/><br/>生命をとるなどおどかしで、全然嘘である。<br/><br/>光明如来様のお部屋へ寝かすとよい。<br/><br/>（S24. 3. 2） 020 生命を狙う狐霊 この度、山形県東置賜郡に光明如来様御二体御祭りさせて頂き誠に有難く厚く御礼申し上げます。<br/><br/>佐藤喜代子、当年三十八歳の信者で、十八年間気違いで、町内知らぬ人がない位評判で御座いましたが、御浄霊を頂き二ケ月位で大変よくなりましたが、時々面白い事を言いますが、本人も狐霊がついている事が分っております。<br/><br/>本人が、この体から離れてくれればどんな事でもして上げると狐霊に言いますと、何にもほしくない、喜代ちゃんが大好きで、命がほしいのだと言います。<br/><br/>本人が嫌いだと言いますと「コンコン」と泣きます。<br/><br/>現在眠れず困っております。<br/><br/>この度光明様を御祭りさせて頂きました。<br/><br/>狐が絶対に眠らせないと言うそうです。<br/><br/>何卒御守護を御願い申し上げます。<br/><br/> 気長に浄霊しておればよい。<br/><br/>よほど霊力を要する。<br/><br/> 021 子供続死と狐霊憑依（祝詞） 私の知人の家では、昨年十一月より奥様を初め子供四人も結核で、十日位床についただけで次々に死んでしまいましたので、日蓮宗を信仰している中、本年三月末より御主人が神（霊）憑りになり、お参りしようと思えば坐ったまま座ぶとんが足について神様（仏壇）の方に飛ばされ、自分では止めようとしても止める事が出来ません。<br/><br/>また、聞きたいと思うと何でも神様が答えてくれるので自問自答しております。<br/><br/>それはすべて意識がはっきりしているのであります。<br/><br/>残った娘の中の一人が同じ病気（結核）になり、五月末教導所に来ましたので浄霊してやりましたところ、その主人も大層感激して私も是非入信させてくれと言って家へ帰りましたが、「観音様がついたから」と申し入信を断って来ました。<br/><br/>その後その娘は一週間ばかりで死にました。<br/><br/>いかなる原因で御座いましょうか。<br/><br/>霊的関係を御知らせ下さい。<br/><br/> 神というのが狐である。<br/><br/>狐が騙したのである。<br/><br/>日蓮宗をやったため、それが邪魔する。<br/><br/>一家の一人が熱心に救いを求めるといい。<br/><br/>出版物を読ますのがよく、祝詞を奏げ、狐を弱らす。<br/><br/>（S *. 7. 8） 022 観音と名乗る憑霊 ある会の講習生が、憑依霊のために神様のようになって、自分で○○観音と名前をつけやっております。<br/><br/>観音教を大分横道にそれて……よいことより害の方が多いように見られます。<br/><br/>このような信仰はよくあると思いますが、このような信仰の浄化作用は日増にはげしくなりますでしょうか。<br/><br/> （五、六日前にお詫びに来たが）遇わずに帰した。<br/><br/>（S24. 6.23） 023 狐霊憑依に対処 度々御守護頂きました菊地初太郎の事で御座居ますが、辻褄の合わぬ事を言っているのをよく聞きますと、この間祭ってやった菊地稲荷大明神が私にいろいろの事を教えておりました。<br/><br/>この事を信じてよろしいでしょうか。<br/><br/>今迄は常識的に思われますが、御指導御願い申し上げます。<br/><br/>本人は大変衰弱しておりますが、流動食は一週間位でよろしいでしょうか。<br/><br/>先祖霊一切大変感謝して出ました。<br/><br/>普通から見れば殆どだめのようですが御守護頂けるような気が致します。<br/><br/>御守護の程御願い申し上げます。<br/><br/> 常識的に考えればよい。<br/><br/>善悪で決める。<br/><br/>狐であるから、祖先に頼まれ、代りをやるが狐自体のものを出す。<br/><br/> 血の出る間流動食にする。<br/><br/>胃壁の爛れている場合――衰弱増さねば大丈夫である。<br/><br/>（S24. 2. 8） 024 入信後一家不眠 本年六十一歳の女で御座いますが、昨年二月より足が痛み出し、医師は神経痛と診断致しまして注射を打ちましたところ、下半身がしびれまして、六月頃から足が立たなくなりました。<br/><br/>先日、一家入信致しましたところ、夜眠りますと足や胸が疼き出し、ウンウンと苦しみ少しも眠れません。<br/><br/>御浄霊を致しますと霊が浮きまして「キャンキャン」「コンコン」と言いながら非常に苦しみますが、何を聞いても答えません。<br/><br/>御浄霊をやめますと直ぐ平静になりまして、常人と変らなくなります。<br/><br/>どう致しましたら宜敷う御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 足のしびれも注射のためである。<br/><br/>足が立たず運動が不足すると衰弱する――そこへ狐が憑った。<br/><br/>その人が返事の出来ぬのは口が切れぬのである。<br/><br/>入信すれば治る。<br/><br/>（S24.12.11）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

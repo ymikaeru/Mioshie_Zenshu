@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>reikai03</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊界に於ける昼夜の転換 未発表『文明の創造』昭和27(1952)年執筆 右の重大事というのは、霊界における昼夜の大転換である。<br><br>すなわち夜と昼との交替であるというとおかしな話で、誰しも夜と昼は一日の中にあるではないかというであろう。<br><br>なるほどそれには違いないが、私のいうのは大宇宙のそれであって、この事を知るとしたら、人智では到底想像もつかない程の大神秘を会得する事が出来、それによって今後の世界の動向も分り、未来の見当もほぼつくのである。<br><br> そうしてさきに述べたごとく、この世界は物象界、空気界、霊気界の三原素によって構成されており、一日の昼夜とはこの物象界と空気界、つまり人間の五感に触れ、機械で測定出来るものであるに対し、霊気界のそれは全然無と同様で、捉える事が出来ないものであるから、今私のこの文を見るとしても、直ちに信じ得る事は困難であろう。<br><br>私といえどももし神を知らないとしたら、一般人と同様であろう。<br><br>ただ私はこの重大なる使命をもつ以上、神と密接不離な関係にあるから確実に知り得るのである。<br><br> それによると、霊界においても現界に一日の中に昼夜があるごとく、十年にも、百年にも、千年、万年にもあるのである。<br><br>従ってその転換ごとに、人類世界にも反映するので、それが霊界の方では絶対正確であるにもかかわらず、現界へ移写される場合、幾分の遅差は免れないのである。<br><br>その事を頭に置いて、長い歴史を見る時、大、中、小種々の歴史的変化をみるのは、その表われである。<br><br>そこで今私が言わんとするところは、世界の大転換に関する主なる点であって何よりもまず大転換の時期であるが、それは一九三一年六月十五日から始まっており、一九六一年六月十五日までの、三十年間で一段落がつく事になっている。<br><br>しかし人間の頭脳で考える時、三十年と言えば長期間であるが、大宇宙における神の経綸としたら、一瞬の出来事でしかないのである。<br><br>そうして右の三十年といっても、現界においては急激な変化はなく、徐々として進みつつあると共に、右の三十年を挟んでその前後の時を合わせると、六十余年の歳月を費やす事となる。<br><br>それは準備期と転換後の整理とに時を要するからである。<br><br> 右のごときその転換の意味は今日までは夜の世界であったから、いわば月の支配であったのである。<br><br>ところがいよいよ昼の世界となるについて、かねて世界の二大聖者として仰がれている釈迦、基督（キリスト）の予言された通りの事態となったのである。<br><br>そうしてまず仏典によれば釈尊は「吾七十二歳にして見真実になれり」と言われた後、間もないある日、世尊はいつもに似合わず憂欝の色蔽い難い御様子なので、弟子の阿難尊者が憂慮し御訊ねした。<br><br>「世尊よ、今日は常にない御沈みのように見受けられますが、何か御心配事でも御有りですか」と申したところ、釈尊は直ちに御答えになった事は「儂は今まで終生の業として仏法を創成し、一切衆生を救わんとして大いに努力を続けて来たが、今日大仏陀から意外なる御諭（さと）しがあった。<br><br>それによるとある時期に至ると、我仏法は滅すると言う事で、大いに失望したのである」との御言葉であって、それから世尊はこうもいわれた。<br><br>「儂は見真実によって分った事だが、今まで説いて来た多くの経文は、少なからず誤りがあるので、今日以後真実を説くから、よくこれによって正覚を得られよ」と仰せられたので、この時からの経文こそ仏法の真髄である事は確実で、それが法華経二十八品と、法滅尽経と、弥勒出現成就経である。<br><br>ところが、その事を発見されたのが、彼の日蓮上人であって、上人はこの発見によって他宗教義ことごとくは見真実以前に説かれたものであるから、真実ではない。<br><br>独り我法華教こそ仏法の真諦であるとして、他宗ことごとくを否定し、猛然として一大獅子吼をされたのであるから、上人のこの傍若無人的宣言も、無下〔碍〕に非難する事は出来ないのである。<br><br> これについて、法華経二十八品の意味を解釈してみるが、この経文の二十五番目にある観音普門品こそ、大神秘が蔵（かく）されているのである。<br><br>というのは法華経とは法の華（はな）であって、最後に法の華を咲かせなければならない。<br><br>その場所と人とが日本であり、日蓮上人であるから、上人が法華経を翳（かざ）して、いかなる受難にも屈せず、一途に日本国中に法華経を宣布されたのも、この強い信念があったからである。<br><br>元来仏法はさきに説いたごとく月の教えであり、陰であり、女性である。<br><br>釈尊が「吾は変性女子なり」といわれたのもその意味であろう。<br><br>また上人は前例のない型破り的のやり方であった。<br><br>彼が修行成って、最初故郷である安房の清澄山上において、東方日の出に向かって、妙法蓮華経の五文字を高らかに奉唱され、その時を契機としていよいよ法華経の弘通に取掛ったという有名な話も、それまで仏教各派のことごとくは、南無阿弥陀仏の六文字の法名を唱えたので、これにも意味がある。<br><br>すなわち五は日の数であり、六は月の数であるからである。<br><br>それまでは人も知るごとく日本における仏教といえば陰性であったものが、一度日蓮宗が生まるるや、極端に陽性を発揮し、太鼓を叩き花を飾り、声高らかに経文を唱える等、何から何まで陽気一点張りである。<br><br>全く仏華（ぶっか）を咲かせたのである。<br><br>また世間同宗をもって一代法華と言ったのも、花は咲くが散るから、一時は好いが長くは続かないという訳であろう。<br><br> 今一つの神秘がある。<br><br>それは法華経二十八品の数である。<br><br>二十八の数は、月の二十八宿を表わしたもので、その二十五番目に普門品があるのは、二十五の数は五五、二十五で、五は日であり、出づるであるから、日の出の意味である。<br><br>つまり月の仏界に日が生まれた表徴である。<br><br>すなわちこの時既に夜の最奥霊界には、ほのぼのと黎明の光が射し初めたのである。<br><br>そうして面白い事には、外の仏教は全部西から生まれたに対し、独り日蓮宗のみは東から出ている。<br><br>しかも安房の清澄山こそ、日本における最も東の端で、この地点こそ大神秘が包蔵されている事は、私が以前書いた自観叢書「奇蹟物語」中に概説してあるから参照されたい。<br><br>つまりこの地が霊界二次元における昼の世界の初発点であるのである。<br><br> 次に日本において、なぜ仏法の花を咲かせなければならないかというと、そこにも深い密意が秘（ひそ）んでいる。<br><br>すなわち花が咲かなければ実が生らないからで、その実というのが実相世界であって、この実の種が如意輪観音の御働きでもある。<br><br>私がいつもいうごとく、観世音は日の弥勒であり、阿弥陀が月の弥勒であり、釈迦が地の弥勒であり、この三人の仏陀が三尊の弥陀である。<br><br>とすれば阿弥陀と釈迦は、夜の世界の期間の御役であったに対し、観音は昼の世界にならんとする、その境目に観音力を揮（ふる）わせ給うのである。<br><br>この経綸こそ昔印度（インド）において仏法発祥の時すでに誓約されたものである。<br><br> 本教が、最初日本観音教団として出発したのも、私が観音を描き御神体として拝ました事も、私に始終観音の霊身が付き添われておられた事も右の因縁に外ならないのである。<br><br>ところが釈迦、阿弥陀は如来であったので、観世音の菩薩の御名に囚われ、宗旨によっては、阿弥陀や釈迦より観音の方が下位とされていたのも、右の因縁を知れば誤っている事が分るであろう。<br><br>ところがその後御位が上られ、光明如来となられたので、現在は光明如来の御働きである事は信者はよく知っている通りである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Transição do Dia e da Noite no Mundo Espiritual</h2>
 <p>O acontecimento de suma importância a que me refiro é a grande transição do dia e da noite no Mundo Espiritual. Afirmar que se trata de uma alternância entre a noite e o dia pode parecer um disparate, pois qualquer um diria que ambos já ocorrem no ciclo de um único dia. Todavia, refiro-me ao ciclo do Grande Universo. A compreensão desse fato permite alcançar o entendimento de um profundo mistério, que a inteligência humana é incapaz de conceber, e, por meio dele, discernir o rumo dos acontecimentos mundiais e antever, com considerável precisão, o futuro.</p>
@@ -103,5 +255,48 @@ function toggleLang(lang) {
 <p>Há ainda outro mistério: o número de vinte e oito capítulos do Sutra de Lótus. O número vinte e oito representa as vinte e oito mansões lunares. O fato de o Capítulo do Portal Universal estar na vigésima quinta posição significa que vinte e cinco (cinco vezes cinco), sendo cinco o número do Sol e da origem, representa o nascer do Sol. É um símbolo do nascimento do Sol no seio do mundo búdico da Lua. Em outras palavras, nesse momento, nos recônditos mais profundos do Mundo Espiritual da Noite, a luz tênue da alvorada já começava a despontar. Curiosamente, enquanto todas as outras escolas budistas se originaram no Oeste, somente a escola Nichiren surgiu no Leste. E o Monte Kiyosumi, em Awa, sendo o ponto mais oriental do Japão, encerra um grande mistério, como expliquei de forma geral em meu livro ‘Coletânea Jikan – Relatos de Milagres’, que pode ser consultado para referência. Em suma, esse local é o ponto de partida do Mundo do Dia na segunda dimensão do Mundo Espiritual.</p>
 <p>Resta explicar por que a flor da Lei Búdica precisava desabrochar justamente no Japão. Oculto nesse fato há um profundo desígnio secreto: se a flor não desabrocha, o fruto não pode nascer. Esse fruto é o Mundo da Realidade, e a semente desse fruto é a atuação de Nyoirin Kannon (観音). Como sempre afirmo, Kanzeon é o Maitreya do Sol; Amida, o Maitreya da Lua; e Shakyamuni, o Maitreya da Terra. Juntos, esses três Budas formam a Tríade de Maitreya. Assim, enquanto Amida e Shakyamuni tiveram suas missões durante o período do Mundo da Noite, Kannon (観音) manifesta Seu poder na fronteira, no exato momento em que o mundo está prestes a se tornar o Mundo do Dia. Essa Providência Divina foi estabelecida desde os primórdios do budismo, na antiga Índia.</p>
 <p>O fato de nossa Igreja ter sido fundada, inicialmente, com o nome de ‘Nihon Kannon Kyodan’ (Igreja Kannon do Japão), de eu pintar a imagem de Kannon (観音) para ser venerada como Objeto de Culto e de o espírito de Kannon (観音) me acompanhar constantemente não é outra coisa senão o reflexo dessa predestinação. No entanto, por estarem presas ao título de ‘Bodhisattva’ de Kanzeon, algumas escolas religiosas consideravam Kannon (観音) inferior a Amida e a Shakyamuni, que eram ‘Nyorai’ (Tathagatas). Quem compreende a predestinação que descrevi, porém, percebe o equívoco dessa visão. Posteriormente, Sua posição foi elevada, e Ela Se tornou Komyō Nyorai (Tathagata da Luz). Portanto, como os fiéis bem sabem, Sua atuação no presente se dá como Komyō Nyorai.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊界に於ける昼夜の転換 未発表『文明の創造』昭和27(1952)年執筆 右の重大事というのは、霊界における昼夜の大転換である。<br/><br/>すなわち夜と昼との交替であるというとおかしな話で、誰しも夜と昼は一日の中にあるではないかというであろう。<br/><br/>なるほどそれには違いないが、私のいうのは大宇宙のそれであって、この事を知るとしたら、人智では到底想像もつかない程の大神秘を会得する事が出来、それによって今後の世界の動向も分り、未来の見当もほぼつくのである。<br/><br/> そうしてさきに述べたごとく、この世界は物象界、空気界、霊気界の三原素によって構成されており、一日の昼夜とはこの物象界と空気界、つまり人間の五感に触れ、機械で測定出来るものであるに対し、霊気界のそれは全然無と同様で、捉える事が出来ないものであるから、今私のこの文を見るとしても、直ちに信じ得る事は困難であろう。<br/><br/>私といえどももし神を知らないとしたら、一般人と同様であろう。<br/><br/>ただ私はこの重大なる使命をもつ以上、神と密接不離な関係にあるから確実に知り得るのである。<br/><br/> それによると、霊界においても現界に一日の中に昼夜があるごとく、十年にも、百年にも、千年、万年にもあるのである。<br/><br/>従ってその転換ごとに、人類世界にも反映するので、それが霊界の方では絶対正確であるにもかかわらず、現界へ移写される場合、幾分の遅差は免れないのである。<br/><br/>その事を頭に置いて、長い歴史を見る時、大、中、小種々の歴史的変化をみるのは、その表われである。<br/><br/>そこで今私が言わんとするところは、世界の大転換に関する主なる点であって何よりもまず大転換の時期であるが、それは一九三一年六月十五日から始まっており、一九六一年六月十五日までの、三十年間で一段落がつく事になっている。<br/><br/>しかし人間の頭脳で考える時、三十年と言えば長期間であるが、大宇宙における神の経綸としたら、一瞬の出来事でしかないのである。<br/><br/>そうして右の三十年といっても、現界においては急激な変化はなく、徐々として進みつつあると共に、右の三十年を挟んでその前後の時を合わせると、六十余年の歳月を費やす事となる。<br/><br/>それは準備期と転換後の整理とに時を要するからである。<br/><br/> 右のごときその転換の意味は今日までは夜の世界であったから、いわば月の支配であったのである。<br/><br/>ところがいよいよ昼の世界となるについて、かねて世界の二大聖者として仰がれている釈迦、基督（キリスト）の予言された通りの事態となったのである。<br/><br/>そうしてまず仏典によれば釈尊は「吾七十二歳にして見真実になれり」と言われた後、間もないある日、世尊はいつもに似合わず憂欝の色蔽い難い御様子なので、弟子の阿難尊者が憂慮し御訊ねした。<br/><br/>「世尊よ、今日は常にない御沈みのように見受けられますが、何か御心配事でも御有りですか」と申したところ、釈尊は直ちに御答えになった事は「儂は今まで終生の業として仏法を創成し、一切衆生を救わんとして大いに努力を続けて来たが、今日大仏陀から意外なる御諭（さと）しがあった。<br/><br/>それによるとある時期に至ると、我仏法は滅すると言う事で、大いに失望したのである」との御言葉であって、それから世尊はこうもいわれた。<br/><br/>「儂は見真実によって分った事だが、今まで説いて来た多くの経文は、少なからず誤りがあるので、今日以後真実を説くから、よくこれによって正覚を得られよ」と仰せられたので、この時からの経文こそ仏法の真髄である事は確実で、それが法華経二十八品と、法滅尽経と、弥勒出現成就経である。<br/><br/>ところが、その事を発見されたのが、彼の日蓮上人であって、上人はこの発見によって他宗教義ことごとくは見真実以前に説かれたものであるから、真実ではない。<br/><br/>独り我法華教こそ仏法の真諦であるとして、他宗ことごとくを否定し、猛然として一大獅子吼をされたのであるから、上人のこの傍若無人的宣言も、無下〔碍〕に非難する事は出来ないのである。<br/><br/> これについて、法華経二十八品の意味を解釈してみるが、この経文の二十五番目にある観音普門品こそ、大神秘が蔵（かく）されているのである。<br/><br/>というのは法華経とは法の華（はな）であって、最後に法の華を咲かせなければならない。<br/><br/>その場所と人とが日本であり、日蓮上人であるから、上人が法華経を翳（かざ）して、いかなる受難にも屈せず、一途に日本国中に法華経を宣布されたのも、この強い信念があったからである。<br/><br/>元来仏法はさきに説いたごとく月の教えであり、陰であり、女性である。<br/><br/>釈尊が「吾は変性女子なり」といわれたのもその意味であろう。<br/><br/>また上人は前例のない型破り的のやり方であった。<br/><br/>彼が修行成って、最初故郷である安房の清澄山上において、東方日の出に向かって、妙法蓮華経の五文字を高らかに奉唱され、その時を契機としていよいよ法華経の弘通に取掛ったという有名な話も、それまで仏教各派のことごとくは、南無阿弥陀仏の六文字の法名を唱えたので、これにも意味がある。<br/><br/>すなわち五は日の数であり、六は月の数であるからである。<br/><br/>それまでは人も知るごとく日本における仏教といえば陰性であったものが、一度日蓮宗が生まるるや、極端に陽性を発揮し、太鼓を叩き花を飾り、声高らかに経文を唱える等、何から何まで陽気一点張りである。<br/><br/>全く仏華（ぶっか）を咲かせたのである。<br/><br/>また世間同宗をもって一代法華と言ったのも、花は咲くが散るから、一時は好いが長くは続かないという訳であろう。<br/><br/> 今一つの神秘がある。<br/><br/>それは法華経二十八品の数である。<br/><br/>二十八の数は、月の二十八宿を表わしたもので、その二十五番目に普門品があるのは、二十五の数は五五、二十五で、五は日であり、出づるであるから、日の出の意味である。<br/><br/>つまり月の仏界に日が生まれた表徴である。<br/><br/>すなわちこの時既に夜の最奥霊界には、ほのぼのと黎明の光が射し初めたのである。<br/><br/>そうして面白い事には、外の仏教は全部西から生まれたに対し、独り日蓮宗のみは東から出ている。<br/><br/>しかも安房の清澄山こそ、日本における最も東の端で、この地点こそ大神秘が包蔵されている事は、私が以前書いた自観叢書「奇蹟物語」中に概説してあるから参照されたい。<br/><br/>つまりこの地が霊界二次元における昼の世界の初発点であるのである。<br/><br/> 次に日本において、なぜ仏法の花を咲かせなければならないかというと、そこにも深い密意が秘（ひそ）んでいる。<br/><br/>すなわち花が咲かなければ実が生らないからで、その実というのが実相世界であって、この実の種が如意輪観音の御働きでもある。<br/><br/>私がいつもいうごとく、観世音は日の弥勒であり、阿弥陀が月の弥勒であり、釈迦が地の弥勒であり、この三人の仏陀が三尊の弥陀である。<br/><br/>とすれば阿弥陀と釈迦は、夜の世界の期間の御役であったに対し、観音は昼の世界にならんとする、その境目に観音力を揮（ふる）わせ給うのである。<br/><br/>この経綸こそ昔印度（インド）において仏法発祥の時すでに誓約されたものである。<br/><br/> 本教が、最初日本観音教団として出発したのも、私が観音を描き御神体として拝ました事も、私に始終観音の霊身が付き添われておられた事も右の因縁に外ならないのである。<br/><br/>ところが釈迦、阿弥陀は如来であったので、観世音の菩薩の御名に囚われ、宗旨によっては、阿弥陀や釈迦より観音の方が下位とされていたのも、右の因縁を知れば誤っている事が分るであろう。<br/><br/>ところがその後御位が上られ、光明如来となられたので、現在は光明如来の御働きである事は信者はよく知っている通りである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

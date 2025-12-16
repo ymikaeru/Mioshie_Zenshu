@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qdaisize</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 大自然の偉力 穂に穂が咲くこの事実 『栄光』141号、昭和27(1952)年1月30日 （革）自然農法解説に収録 栃木県 信愛中教会 福田熊次郎（45） ここに私が自然農耕法を営みおりまする近況を御報告申させて戴きます。<br><br> 私は今日迄農業栽培法に一大誤謬の潜在を痛感し、近き将来に農業の一大恐怖時代の切迫を覚り、大自然の偉大なるを農業指導者並びに農民諸君に一言を呈する者であります。<br><br>さて今日の生産不振の原因たる病虫害がなぜ起ったか、今こそ一歩も二歩も深く掘り下げて検討に検討を加える必要に吾々は迫られている。<br><br>生産の不振は独り化学杷料の使用労力の不足が原因でございましょうか。<br><br>又一面病虫害はなぜ起って来たか、これも独り気候の異変ばかりが原因ではない。<br><br>今日迄長い間病虫害の予防に消毒にも努力を傾倒して来た。<br><br>だが果して完全に防ぎ得たでしょうか。<br><br>依然として病虫害に悩まされている現状ではないか。<br><br>なぜ吾々は今日迄この大きな欠陥に疑いの目を向けなかったのであろうか。<br><br>余りにも盲目過ぎる吾々であった事を今更ながらあきれるのである。<br><br>私の現在営まして戴いている自然農法を今日現実の効果の前に一入声を大にして叫ばなければならない事がある。<br><br>私は明主様の御教えによる自然農法を行い、初めて今日迄の農業栽培がいかに大なる誤りであったかを覚ったからであります。<br><br>化学肥料が人糞尿が、化学という理論の裏付と相まって一時的著効があった。<br><br>その一時的著効の前に吾々は眩惑されて来たのである。<br><br>右の結果として土壌の力は衰退し、肥料中毒を起し、年々肥料を多く施さぬ限り減収という悲惨なる憂目に遇って来たのであると。<br><br> もし自然農法が．今日迄の化学肥料も薬剤も人糞尿をも用いずして増収を得るとしたなら、否増収を得るのであるから、これに勝るものがどこにあるでしょうか。<br><br>当事者は検討を加えるべきが当然である。<br><br>それなのに世の中には実に想像に絶する奇蹟あり科学あり、又空想の実現もある。<br><br>今後、今日の世を荷負うところの世人にして右の実態をも検討もせず、一笑に付して白眼視して置いて良いでしょうか。<br><br>宜しく検討に検討を加えて吟味すべきだと私は思います。<br><br>時代は刻々日に月に進み、進歩発展を遂げつつある。<br><br>発展を重ねつつ今日の科学文明は生まれたのである。<br><br>勿論それには破壊と創造とが繰返されて来た事は言うまでも無いが、作物の栽培は特にしかりであると思う。<br><br>今日迄長い間、化学肥料に消毒剤の使用にと研究を尽して来たが、果して増収を得たでしようか。<br><br>よしんば又増収を得たとしてもその反面いかに大きな犠牲が払われているか実に測り知られないものがございましよう。<br><br>それには膨大な国費と大多数の人費を使役して生産された肥料を消化する事において、農業者の経済負担は実に大きく収穫の幾割をも消耗している事実である。<br><br>もし一割の増収を得たとしても二割の消耗をしたとすれば何の利益があるであろうか。<br><br>即ち骨折損と言うだけの事でございましょう。<br><br>ここに明主様御指導の下に幾多年の研究と実地施行により、増収の確証を握り、発表なされたる自然農耕法を行う事により、増収を得るとしたら、世の皆様方は何れを御選びするか、判断の余地はありますまい。<br><br> いよいよ私が自然農耕法栽培実施における体験心境と成績の一端を申し述べさせて戴いて今後の農業栽培に些かなりとも稗益するところがありますれば幸甚と思います。<br><br> 私は自然農法の偉大なる御教えを中教会長先生より承り、人体の病源は薬毒にある。<br><br>その原因は即ち農作物に含有せる肥毒に依るものが、如何に吾々人体に悪髪響を及ぼしているかということと、それをなくすには自然栽培に依り、最も清浄なる作物を作り、多くの人達に食わせることが即ち一般社会の人々が幸福を得られ、肥料無くして増産を得、美味であるとのことを教授され、又教師達の指導のもと自然農法実行を決意しました。<br><br>そうすれば今日のこの食糧不足問題を解決出来得るということが、再建日本の前途に如何に大なる光明をもたらすかは表現の仕様もないでありましょう。<br><br>しかも労力は半減するし、世界的有名な日本農民の労働過重も一挙に解決するのみか、肥料代その他薬代の経済も加わる以上、農村の一大福音というべきでございましょう。<br><br> それで私は二十四年麦作の栽培より始めさせて戴き、昨年は全耕地を自然農法に捧げさせて戴きました。<br><br>私の耕地は水田二町一反二畝歩、畑地七反六畝でありまして、妻と息子（長男二十一歳）の三人に依る経営にて、家族は十二人の大家族でございます。<br><br>それで皆入信教修も受け、尊き大光明如来様をも御奉斎させて戴いております。<br><br> 土地は村最低の耕地にて、村平均一石六斗七升にて私の土地は村最高の反当二石五斗の割当でございます。<br><br>これには深き感情問題もありますけれども、ここにては発表をおゆるし下さいまして御想像下さい。<br><br>しかし御蔭様にて初年目は平年作は獲らして戴きましたが、初年度でさえも平年作の御利益を戴きました事は、これ即ち何でありましょう。<br><br>自然の偉力に外ならないではありませんか。<br><br>それにもかかわらず、神を信ぜざる指導階級にある者、一般農民は信じようともせず、「土地が良いからだ」「前年の肥料があったから」と言うて一笑に付す者、かつ又邪教だ迷信だとののしるごときに及んでおります。<br><br> 私は「世の人よ笑う者は笑え、今に分る時期が来る」と言うて益々一大奮起してやっております。<br><br>たまたま自然農耕法座談会が開催されましたその結論として「農村の合理化は現在の畜力のみにては望まれぬ、一歩飛躍的に機械化でなければ合理化は計れない」とのことで私は一大心境の変化を見出させて戴きまして、これが本当の農業であると痛感致し、初めて光明を見たる心地が致しました。<br><br>それで昨年暮長年家族として親しみ飼育せし馬を手放しまして、機械化に依る経営トラクターを購入致しました。<br><br>なんせ農事一切トラクターにて行うことでありますから、無経験の私等にも並々ならぬ苦労と努力がございまして、水田代掻の場合本当にこれを使用せる者は僅少とのことなのに、私如き者にて易々と使用部品農具一切私等の考えせし農具を製作し、水田作業に馬の半分労力にして、つつがなく田植を終了させて戴きました。<br><br>その後は運搬作業にも使用致し、馬が無きためか衛生的に良く清潔なることこの上もありません。<br><br>作物に就いて申し上げますれば、本年は本当に自然のみの堆肥にして他の不浄物一切使用せざりしに、なんと形容して良いか言うに言われぬ自然の形を現しております。<br><br>集団浄霊も四回程奉仕させて戴き、日に増して黄金の穂波が頭をたれつつあります。<br><br> しかし「自然栽培はだめだ」と見極めもせず否定して私をして止めさせるべく、村の有力者、農業委員の方達が、「救世教は邪教である。<br><br>自然栽培は世の為にも不利益だ。<br><br>営農視察だと言うて見学に行って批判をして考え直させて仕舞おう」と、村農業委員会席場にて合議し、「去る九月三日に訪問するからお家におられる様に」との通知を受けましたので、私は「それは良いことである、皆さん方是非大勢御出下さる様に」と連絡を取りました。<br><br>村長以下八名の名士のみ御出を下されまして稲作見学、各人共に「稲は病虫害がないから立派であるが分蘖が足りない、本数が少い」と言うておられました。<br><br>水田全部視察は終り、一時家に着いて座談会を催す如く出て来ましたけれど、一人として自然農法の真理を聞こうとする者無く、ただ「肥料を施行すれば分蘖もあるから収穫は多いだろうから使用したらどうか、宗教に依る農法は考えられない」と邪教の如く解しておりまして、私の話なんか耳にしません様でございまして、私が多年精農家として指導されて来たにも拘らず又村の要職を捨てて今日の農法を経営せりという事は、今後研究の余地あり、お互に努力と研究の為合いましょうとの結論にて話は打切れまして、委員会の合議の如き批判も行わず、帰宅し様との気配なので私が何か一つ皆さんにショックを与えておこうと思い、気付いたことに「皆さん昔から歌にも御存じの如く、稲にも穂に穂が咲くという事がありますが、皆さんにはその穂に穂が咲いた稲を見たことがありますか」と申し上げましたとおろ、委員の一人が申すには「それは本当にあるんだ、たしか穂の先に五、六粒位の粒が枝状に出て熟ることだろう」と言われました。<br><br>外の者は皆「見たことはない、どんな風になるのか、それさえも知らない、知っているなら教えてくれ」との一同の言葉でした「皆さん本当に見たいという気持があるなれば御見せもするが、笑草の様なことでは教えない方が良いでしょう」と申しますと「是非見せてくれ」と言うて吾先に田圃に出掛けて稲を手に取るやら、かき分けるやら大変な様子でございました。<br><br>私も「それでは御見せ致しましょう」と皆に寄って頂き、一本の茎の中節より節が出て見事に穂が出ている稲を取って来て「これが穂に穂が咲くと言うことにて、他の有肥田におそらくありますまい。<br><br>これ即ち奇蹟と言うものですよ、自然に出来たと言えばそれ迄だが神秘でしょうしと言いましたところ、皆驚きの面相して「これ迄何十年農業を営んで来たが、こんな事実を見たことは初めてだ」と申して帰られ、中には一本皆の者に見せるんだから戴きたいと持って行って村の者を集めて見せるとの事でございました。<br><br> しかしこのことが村から村に及んで二十日は今度食管法が改正されまして、米の時後割当になりまして、立毛検見として私の村に調査に二十人程来られましたが、第一番に私の稲作を調査して、右に申し述べた如く穂に穂が咲いた稲を見て皆々顔を見合せて驚歎するのみでした。<br><br>委員の一人が「これは普通ではない、一応県庁に報告するから御了知を願う」とのことにて、他の立毛から調査致しました。<br><br>これは本当に今日ありし近況にしてありのまま事実を申し上げたのでございます。<br><br> 農村の改革合理化を計るには信徒が打って一丸となって自然農法に御奉仕が出来ますればすべての点において農村の改革、将又病貧争の絶無、理想世界、農村天国化と御示しになられ給う明主様の報恩の万分の一にも報ゆる事が出来るではありませんか。<br><br>御考慮をお願い致します。<br><br>又神を在ると信ぜざる無神論者よ、百聞は一見に如かず、一度見て始めて実行にまつのみでございます。<br><br> 鳴呼自然の偉大なる力！ 私は声を大にしてさけぶ者であります。<br><br>甚だ乱文乱筆にて近況報告を申し上げて筆を止めさせて戴きます。<br><br>誠に明主様有難うございました。<br><br> （付記） 反当収量、平均 二十五年度 二石五斗 平年作 二十六年度 二石八斗 三割増予想 （昭和二十六年十月八日提出）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Imenso Poder da Natureza</h2>
 <h2>O fato de uma espiga brotar de outra</h2>
@@ -128,5 +283,48 @@ Produção por <em>tan</em>, média:
 Ano de 1950: 2,5 <em>koku</em> (colheita normal)
 Ano de 1951: 2,8 <em>koku</em> (previsão de 30% de aumento)
 (Apresentado em 8 de outubro de 1951)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 大自然の偉力 穂に穂が咲くこの事実 『栄光』141号、昭和27(1952)年1月30日 （革）自然農法解説に収録 栃木県 信愛中教会 福田熊次郎（45） ここに私が自然農耕法を営みおりまする近況を御報告申させて戴きます。<br/><br/> 私は今日迄農業栽培法に一大誤謬の潜在を痛感し、近き将来に農業の一大恐怖時代の切迫を覚り、大自然の偉大なるを農業指導者並びに農民諸君に一言を呈する者であります。<br/><br/>さて今日の生産不振の原因たる病虫害がなぜ起ったか、今こそ一歩も二歩も深く掘り下げて検討に検討を加える必要に吾々は迫られている。<br/><br/>生産の不振は独り化学杷料の使用労力の不足が原因でございましょうか。<br/><br/>又一面病虫害はなぜ起って来たか、これも独り気候の異変ばかりが原因ではない。<br/><br/>今日迄長い間病虫害の予防に消毒にも努力を傾倒して来た。<br/><br/>だが果して完全に防ぎ得たでしょうか。<br/><br/>依然として病虫害に悩まされている現状ではないか。<br/><br/>なぜ吾々は今日迄この大きな欠陥に疑いの目を向けなかったのであろうか。<br/><br/>余りにも盲目過ぎる吾々であった事を今更ながらあきれるのである。<br/><br/>私の現在営まして戴いている自然農法を今日現実の効果の前に一入声を大にして叫ばなければならない事がある。<br/><br/>私は明主様の御教えによる自然農法を行い、初めて今日迄の農業栽培がいかに大なる誤りであったかを覚ったからであります。<br/><br/>化学肥料が人糞尿が、化学という理論の裏付と相まって一時的著効があった。<br/><br/>その一時的著効の前に吾々は眩惑されて来たのである。<br/><br/>右の結果として土壌の力は衰退し、肥料中毒を起し、年々肥料を多く施さぬ限り減収という悲惨なる憂目に遇って来たのであると。<br/><br/> もし自然農法が．今日迄の化学肥料も薬剤も人糞尿をも用いずして増収を得るとしたなら、否増収を得るのであるから、これに勝るものがどこにあるでしょうか。<br/><br/>当事者は検討を加えるべきが当然である。<br/><br/>それなのに世の中には実に想像に絶する奇蹟あり科学あり、又空想の実現もある。<br/><br/>今後、今日の世を荷負うところの世人にして右の実態をも検討もせず、一笑に付して白眼視して置いて良いでしょうか。<br/><br/>宜しく検討に検討を加えて吟味すべきだと私は思います。<br/><br/>時代は刻々日に月に進み、進歩発展を遂げつつある。<br/><br/>発展を重ねつつ今日の科学文明は生まれたのである。<br/><br/>勿論それには破壊と創造とが繰返されて来た事は言うまでも無いが、作物の栽培は特にしかりであると思う。<br/><br/>今日迄長い間、化学肥料に消毒剤の使用にと研究を尽して来たが、果して増収を得たでしようか。<br/><br/>よしんば又増収を得たとしてもその反面いかに大きな犠牲が払われているか実に測り知られないものがございましよう。<br/><br/>それには膨大な国費と大多数の人費を使役して生産された肥料を消化する事において、農業者の経済負担は実に大きく収穫の幾割をも消耗している事実である。<br/><br/>もし一割の増収を得たとしても二割の消耗をしたとすれば何の利益があるであろうか。<br/><br/>即ち骨折損と言うだけの事でございましょう。<br/><br/>ここに明主様御指導の下に幾多年の研究と実地施行により、増収の確証を握り、発表なされたる自然農耕法を行う事により、増収を得るとしたら、世の皆様方は何れを御選びするか、判断の余地はありますまい。<br/><br/> いよいよ私が自然農耕法栽培実施における体験心境と成績の一端を申し述べさせて戴いて今後の農業栽培に些かなりとも稗益するところがありますれば幸甚と思います。<br/><br/> 私は自然農法の偉大なる御教えを中教会長先生より承り、人体の病源は薬毒にある。<br/><br/>その原因は即ち農作物に含有せる肥毒に依るものが、如何に吾々人体に悪髪響を及ぼしているかということと、それをなくすには自然栽培に依り、最も清浄なる作物を作り、多くの人達に食わせることが即ち一般社会の人々が幸福を得られ、肥料無くして増産を得、美味であるとのことを教授され、又教師達の指導のもと自然農法実行を決意しました。<br/><br/>そうすれば今日のこの食糧不足問題を解決出来得るということが、再建日本の前途に如何に大なる光明をもたらすかは表現の仕様もないでありましょう。<br/><br/>しかも労力は半減するし、世界的有名な日本農民の労働過重も一挙に解決するのみか、肥料代その他薬代の経済も加わる以上、農村の一大福音というべきでございましょう。<br/><br/> それで私は二十四年麦作の栽培より始めさせて戴き、昨年は全耕地を自然農法に捧げさせて戴きました。<br/><br/>私の耕地は水田二町一反二畝歩、畑地七反六畝でありまして、妻と息子（長男二十一歳）の三人に依る経営にて、家族は十二人の大家族でございます。<br/><br/>それで皆入信教修も受け、尊き大光明如来様をも御奉斎させて戴いております。<br/><br/> 土地は村最低の耕地にて、村平均一石六斗七升にて私の土地は村最高の反当二石五斗の割当でございます。<br/><br/>これには深き感情問題もありますけれども、ここにては発表をおゆるし下さいまして御想像下さい。<br/><br/>しかし御蔭様にて初年目は平年作は獲らして戴きましたが、初年度でさえも平年作の御利益を戴きました事は、これ即ち何でありましょう。<br/><br/>自然の偉力に外ならないではありませんか。<br/><br/>それにもかかわらず、神を信ぜざる指導階級にある者、一般農民は信じようともせず、「土地が良いからだ」「前年の肥料があったから」と言うて一笑に付す者、かつ又邪教だ迷信だとののしるごときに及んでおります。<br/><br/> 私は「世の人よ笑う者は笑え、今に分る時期が来る」と言うて益々一大奮起してやっております。<br/><br/>たまたま自然農耕法座談会が開催されましたその結論として「農村の合理化は現在の畜力のみにては望まれぬ、一歩飛躍的に機械化でなければ合理化は計れない」とのことで私は一大心境の変化を見出させて戴きまして、これが本当の農業であると痛感致し、初めて光明を見たる心地が致しました。<br/><br/>それで昨年暮長年家族として親しみ飼育せし馬を手放しまして、機械化に依る経営トラクターを購入致しました。<br/><br/>なんせ農事一切トラクターにて行うことでありますから、無経験の私等にも並々ならぬ苦労と努力がございまして、水田代掻の場合本当にこれを使用せる者は僅少とのことなのに、私如き者にて易々と使用部品農具一切私等の考えせし農具を製作し、水田作業に馬の半分労力にして、つつがなく田植を終了させて戴きました。<br/><br/>その後は運搬作業にも使用致し、馬が無きためか衛生的に良く清潔なることこの上もありません。<br/><br/>作物に就いて申し上げますれば、本年は本当に自然のみの堆肥にして他の不浄物一切使用せざりしに、なんと形容して良いか言うに言われぬ自然の形を現しております。<br/><br/>集団浄霊も四回程奉仕させて戴き、日に増して黄金の穂波が頭をたれつつあります。<br/><br/> しかし「自然栽培はだめだ」と見極めもせず否定して私をして止めさせるべく、村の有力者、農業委員の方達が、「救世教は邪教である。<br/><br/>自然栽培は世の為にも不利益だ。<br/><br/>営農視察だと言うて見学に行って批判をして考え直させて仕舞おう」と、村農業委員会席場にて合議し、「去る九月三日に訪問するからお家におられる様に」との通知を受けましたので、私は「それは良いことである、皆さん方是非大勢御出下さる様に」と連絡を取りました。<br/><br/>村長以下八名の名士のみ御出を下されまして稲作見学、各人共に「稲は病虫害がないから立派であるが分蘖が足りない、本数が少い」と言うておられました。<br/><br/>水田全部視察は終り、一時家に着いて座談会を催す如く出て来ましたけれど、一人として自然農法の真理を聞こうとする者無く、ただ「肥料を施行すれば分蘖もあるから収穫は多いだろうから使用したらどうか、宗教に依る農法は考えられない」と邪教の如く解しておりまして、私の話なんか耳にしません様でございまして、私が多年精農家として指導されて来たにも拘らず又村の要職を捨てて今日の農法を経営せりという事は、今後研究の余地あり、お互に努力と研究の為合いましょうとの結論にて話は打切れまして、委員会の合議の如き批判も行わず、帰宅し様との気配なので私が何か一つ皆さんにショックを与えておこうと思い、気付いたことに「皆さん昔から歌にも御存じの如く、稲にも穂に穂が咲くという事がありますが、皆さんにはその穂に穂が咲いた稲を見たことがありますか」と申し上げましたとおろ、委員の一人が申すには「それは本当にあるんだ、たしか穂の先に五、六粒位の粒が枝状に出て熟ることだろう」と言われました。<br/><br/>外の者は皆「見たことはない、どんな風になるのか、それさえも知らない、知っているなら教えてくれ」との一同の言葉でした「皆さん本当に見たいという気持があるなれば御見せもするが、笑草の様なことでは教えない方が良いでしょう」と申しますと「是非見せてくれ」と言うて吾先に田圃に出掛けて稲を手に取るやら、かき分けるやら大変な様子でございました。<br/><br/>私も「それでは御見せ致しましょう」と皆に寄って頂き、一本の茎の中節より節が出て見事に穂が出ている稲を取って来て「これが穂に穂が咲くと言うことにて、他の有肥田におそらくありますまい。<br/><br/>これ即ち奇蹟と言うものですよ、自然に出来たと言えばそれ迄だが神秘でしょうしと言いましたところ、皆驚きの面相して「これ迄何十年農業を営んで来たが、こんな事実を見たことは初めてだ」と申して帰られ、中には一本皆の者に見せるんだから戴きたいと持って行って村の者を集めて見せるとの事でございました。<br/><br/> しかしこのことが村から村に及んで二十日は今度食管法が改正されまして、米の時後割当になりまして、立毛検見として私の村に調査に二十人程来られましたが、第一番に私の稲作を調査して、右に申し述べた如く穂に穂が咲いた稲を見て皆々顔を見合せて驚歎するのみでした。<br/><br/>委員の一人が「これは普通ではない、一応県庁に報告するから御了知を願う」とのことにて、他の立毛から調査致しました。<br/><br/>これは本当に今日ありし近況にしてありのまま事実を申し上げたのでございます。<br/><br/> 農村の改革合理化を計るには信徒が打って一丸となって自然農法に御奉仕が出来ますればすべての点において農村の改革、将又病貧争の絶無、理想世界、農村天国化と御示しになられ給う明主様の報恩の万分の一にも報ゆる事が出来るではありませんか。<br/><br/>御考慮をお願い致します。<br/><br/>又神を在ると信ぜざる無神論者よ、百聞は一見に如かず、一度見て始めて実行にまつのみでございます。<br/><br/> 鳴呼自然の偉大なる力！ 私は声を大にしてさけぶ者であります。<br/><br/>甚だ乱文乱筆にて近況報告を申し上げて筆を止めさせて戴きます。<br/><br/>誠に明主様有難うございました。<br/><br/> （付記） 反当収量、平均 二十五年度 二石五斗 平年作 二十六年度 二石八斗 三割増予想 （昭和二十六年十月八日提出）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sinrei6</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神霊の実在科学で立証さる 『栄光』82号、昭和25(1950)年12月13日発行 最近、御守から発する光が、レントゲンより強力である事が、科学的に証明されたので、その報告が下記のごとく一信者から送って来たから、簡単にここに解説してみよう。<br><br>これは私が常にいうごとく、私のかいた文字から光が出ると共に、文字の意味通りの活動が発（おこ）るという事で、それが今回の事実によって明らかにされたのである。<br><br> 現在のごとき、唯物科学至上の時代において、右のような記事を見るとするも、何人（なんぴと）もそのまま信ずる事は不可能であろう。<br><br>と言って事実は事実であるからいかに唯物主義者といえども否定の仕様はあるまい。<br><br> 衆知のごとく、本教の急速の発展は、現代における驚異の的とされている。<br><br>それがためとかく問題にされやすいが、そのほとんどはただ不思議と言うばかりで、進んでその原因を突き止めようとする者はまことに少ないので、吾々は常に遺憾に思っている。<br><br> そもそも本教発展の理由は信徒によって行われる浄霊という病気を治す方法である。<br><br>これによれば病気は実によく治る。<br><br>あらゆる療法を受けても治らない者や、医師から死の宣告を受けた者等の重難症が、速やかに治るばかりか、病気なるものの本体も、健康の真相も、徹底的に把握されるのである。<br><br>従って文字通りの安心立命を得て、歓喜の生活者となるという訳で入信する事となる。<br><br>もちろん、他の信仰的理由もあるが、病気がよく治るという一事が、本教発展の主因となっている。<br><br> そこで浄霊とは、いかなるものであるかを説明してみるが、まず本教へ入信するや、最初に御守を下付され、それを首に掛けると、たちまち病気を治す力が出る。<br><br>というのは、御守から強い光が発生し、施術者の体を通じて掌から放射されるのである。<br><br>言うまでもなく、これが神霊の光であって、普通は目に見えないが、偶（たま）には肉眼で見る人もある。<br><br>この光がレントゲン以上の強いもので判りやすくいえば、光の微粒子がレントゲンのそれよりも、幾十倍の微粒子であるため、空気が透過するから見えないのである。<br><br>元来、物質の法則は微粒子ほど密度が濃く、密度の濃い程不可視となると共に、それに正比例して強力となるのである。<br><br>この意味において、科学が進歩の極点に達する暁、神の光の微粒子も判明する訳である。<br><br>これが科学と宗教と将来一致するという、常に私の唱える説の具体化である。<br><br> この事が、認識出来れば、本教の病気治しは、最も進歩した科学的方法であり、二十一世紀の医学であるといっても、決して過言ではないのである。<br><br> 奇蹟に感涙 宮崎県 五六七大教会南光中教会 河野茂義（30） 昨年の始め頃から胃が痛み食欲が減退して来ましたので、医師に診せましたところ胃下垂との事で仕事を休んで養生致しておりましたが、薬を飲んでいる間は癒ったようですが止めると再び悪くなり、少しも快方に向わず日夜苫しみ続けておりました。<br><br>延岡から二時間程船に乗らなければならない不便な漁村に住んでいる私には治療すると言えば仕事を休んで延岡に滞在して受けなくてはならず、実に弱っていました。<br><br>ある時仕事の関係で漁村に帰る船中で一青年が救世教の有難い話と御守様を頂く事において色々の難病が癒された例を話していましたが別に気にも止めず、そんな事があるのかなあと聞くとも無く聞いておりましたが、その俵で忘れ去ってしまいました。<br><br>たまたま村の配給所の日高さんの娘さんが首の後が大きく腫れて電気治療も駄目、医師もギプスをして長く入院しなくては癒らないだろうとの事で弱っておられましたところを、光明如来様にお縋りし延岡の教会から御守様を御受けになり、ただの五回の浄霊で元のように癒り皆が驚いていると言う事を御聞きし、私もこんな苦しい状態を続けているより物は試しだから医者を止めて神頼みと、八月二十五日に延岡の教会に御伺いし御守様をその場で御受けし御浄霊を頂きました。<br><br>行く道々は体がだるくやっとの事たどり着いたのですが、一回の浄霊で気分は爽快となり家に帰るといつもの御粥を止めて、先生から言われた通り普通食を頂きそれでも飽き足らず街に出て飲食店で滅茶喰をやりました。<br><br>久し振りの胃の調子でただ嬉しさの余りと御浄霊の偉力を試したのですが、次の朝は先生が下痢をするだろうと言われた通り下痢があっただけで、他には何の変化も無く不思議な結果にただ驚くばかりでした。<br><br>その日は医師と以前からレントゲンを撮る約束をしておりましたのでレントゲンを撮るだけなら悪くもないだろうと御守様を上衣のポケットに潜ませて病院へ行きました。<br><br>レントゲン室には私と同様に撮る人が三、四人来ておりました。<br><br>私の番になって半身裸体になり御守様はズボンのポケットにしまって撮りました。<br><br>結果は面白い状態が起りました。<br><br>私の前の人も後の人も写っているのに私のだけはボンヤリ曇って失敗しているのです。<br><br>技師は頭を傾けながら今一度撮り直しをやりましたが、また一緒に撮った人々のは良く写っているのに私だけは先刻と同様なのです。<br><br>技師はこれは不思議な現象だと言って医師を呼び機械を調べたり、電圧を調べたのですが機械は正常、電圧は百ボルトで正常、当然狂いは無い筈です。<br><br>勿論いかに調べたって一緒に撮った人のは一回も二回も皆写っているのですから、再度別の患者と撮り直しを行いました。<br><br> 今度は医師が撮りましたが驚くべきは矢張り結果は前二回と同じです。<br><br>他の人のは立派に写っているのです。<br><br>レントゲン撮影は三度とも失敗に終ってしまいました。<br><br>医師もこの失敗には頭を抱えておりました。<br><br> 光明如来様は私にそんな事をする必要はないのを知らしめて下さる為に奇蹟を見せられたのでしょう。<br><br>私はそれ以後医師の不必要を知り光明如来様の御力に縋るのみで健全なる体になるよう、毎日教会に通い御浄霊を頂き以前のごとき体を取戻しつつあります。<br><br> 科学の力を超越する大御力の偉大さに今更ながら驚きと恐催感激を覚えました。<br><br>厚く御礼申上げます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Ciência Comprova a Existência do Espírito Divino</h2>
 <p>Recentemente, recebemos de um fiel o relato que se segue, o qual comprova cientificamente que a Luz emitida pela Medalha Sagrada é mais potente que os raios X. Explicarei aqui, de forma sucinta, o significado desse acontecimento. Tal fato vem corroborar o que sempre afirmo: de minha caligrafia emana Luz e, ao mesmo tempo, uma força que atua conforme o significado das palavras escritas. A veracidade dessa assertiva foi agora inequivocamente demonstrada.</p>
@@ -112,5 +264,48 @@ Igreja Nanko, vinculada à Grande Igreja Goroku-shichi, Província de Miyazaki</
 <p>A minha radiografia falhou nas três tentativas. O médico, diante de tantos fracassos, ficou completamente perplexo.</p>
 <p>Compreendi que Komyo Nyorai-sama me mostrou esse milagre para que eu entendesse que tais exames eram desnecessários. A partir de então, consciente da prescindibilidade dos médicos, entreguei-me unicamente ao poder de Komyo Nyorai-sama. Tenho frequentado a Igreja diariamente para receber Johrei e, assim, venho recuperando a saúde que possuía outrora. Sinto-me, mais uma vez, tomado de assombro e profunda gratidão pela grandiosidade desse Poder Supremo que transcende a força da ciência.</p>
 <p>Expresso meus mais sinceros agradecimentos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神霊の実在科学で立証さる 『栄光』82号、昭和25(1950)年12月13日発行 最近、御守から発する光が、レントゲンより強力である事が、科学的に証明されたので、その報告が下記のごとく一信者から送って来たから、簡単にここに解説してみよう。<br/><br/>これは私が常にいうごとく、私のかいた文字から光が出ると共に、文字の意味通りの活動が発（おこ）るという事で、それが今回の事実によって明らかにされたのである。<br/><br/> 現在のごとき、唯物科学至上の時代において、右のような記事を見るとするも、何人（なんぴと）もそのまま信ずる事は不可能であろう。<br/><br/>と言って事実は事実であるからいかに唯物主義者といえども否定の仕様はあるまい。<br/><br/> 衆知のごとく、本教の急速の発展は、現代における驚異の的とされている。<br/><br/>それがためとかく問題にされやすいが、そのほとんどはただ不思議と言うばかりで、進んでその原因を突き止めようとする者はまことに少ないので、吾々は常に遺憾に思っている。<br/><br/> そもそも本教発展の理由は信徒によって行われる浄霊という病気を治す方法である。<br/><br/>これによれば病気は実によく治る。<br/><br/>あらゆる療法を受けても治らない者や、医師から死の宣告を受けた者等の重難症が、速やかに治るばかりか、病気なるものの本体も、健康の真相も、徹底的に把握されるのである。<br/><br/>従って文字通りの安心立命を得て、歓喜の生活者となるという訳で入信する事となる。<br/><br/>もちろん、他の信仰的理由もあるが、病気がよく治るという一事が、本教発展の主因となっている。<br/><br/> そこで浄霊とは、いかなるものであるかを説明してみるが、まず本教へ入信するや、最初に御守を下付され、それを首に掛けると、たちまち病気を治す力が出る。<br/><br/>というのは、御守から強い光が発生し、施術者の体を通じて掌から放射されるのである。<br/><br/>言うまでもなく、これが神霊の光であって、普通は目に見えないが、偶（たま）には肉眼で見る人もある。<br/><br/>この光がレントゲン以上の強いもので判りやすくいえば、光の微粒子がレントゲンのそれよりも、幾十倍の微粒子であるため、空気が透過するから見えないのである。<br/><br/>元来、物質の法則は微粒子ほど密度が濃く、密度の濃い程不可視となると共に、それに正比例して強力となるのである。<br/><br/>この意味において、科学が進歩の極点に達する暁、神の光の微粒子も判明する訳である。<br/><br/>これが科学と宗教と将来一致するという、常に私の唱える説の具体化である。<br/><br/> この事が、認識出来れば、本教の病気治しは、最も進歩した科学的方法であり、二十一世紀の医学であるといっても、決して過言ではないのである。<br/><br/> 奇蹟に感涙 宮崎県 五六七大教会南光中教会 河野茂義（30） 昨年の始め頃から胃が痛み食欲が減退して来ましたので、医師に診せましたところ胃下垂との事で仕事を休んで養生致しておりましたが、薬を飲んでいる間は癒ったようですが止めると再び悪くなり、少しも快方に向わず日夜苫しみ続けておりました。<br/><br/>延岡から二時間程船に乗らなければならない不便な漁村に住んでいる私には治療すると言えば仕事を休んで延岡に滞在して受けなくてはならず、実に弱っていました。<br/><br/>ある時仕事の関係で漁村に帰る船中で一青年が救世教の有難い話と御守様を頂く事において色々の難病が癒された例を話していましたが別に気にも止めず、そんな事があるのかなあと聞くとも無く聞いておりましたが、その俵で忘れ去ってしまいました。<br/><br/>たまたま村の配給所の日高さんの娘さんが首の後が大きく腫れて電気治療も駄目、医師もギプスをして長く入院しなくては癒らないだろうとの事で弱っておられましたところを、光明如来様にお縋りし延岡の教会から御守様を御受けになり、ただの五回の浄霊で元のように癒り皆が驚いていると言う事を御聞きし、私もこんな苦しい状態を続けているより物は試しだから医者を止めて神頼みと、八月二十五日に延岡の教会に御伺いし御守様をその場で御受けし御浄霊を頂きました。<br/><br/>行く道々は体がだるくやっとの事たどり着いたのですが、一回の浄霊で気分は爽快となり家に帰るといつもの御粥を止めて、先生から言われた通り普通食を頂きそれでも飽き足らず街に出て飲食店で滅茶喰をやりました。<br/><br/>久し振りの胃の調子でただ嬉しさの余りと御浄霊の偉力を試したのですが、次の朝は先生が下痢をするだろうと言われた通り下痢があっただけで、他には何の変化も無く不思議な結果にただ驚くばかりでした。<br/><br/>その日は医師と以前からレントゲンを撮る約束をしておりましたのでレントゲンを撮るだけなら悪くもないだろうと御守様を上衣のポケットに潜ませて病院へ行きました。<br/><br/>レントゲン室には私と同様に撮る人が三、四人来ておりました。<br/><br/>私の番になって半身裸体になり御守様はズボンのポケットにしまって撮りました。<br/><br/>結果は面白い状態が起りました。<br/><br/>私の前の人も後の人も写っているのに私のだけはボンヤリ曇って失敗しているのです。<br/><br/>技師は頭を傾けながら今一度撮り直しをやりましたが、また一緒に撮った人々のは良く写っているのに私だけは先刻と同様なのです。<br/><br/>技師はこれは不思議な現象だと言って医師を呼び機械を調べたり、電圧を調べたのですが機械は正常、電圧は百ボルトで正常、当然狂いは無い筈です。<br/><br/>勿論いかに調べたって一緒に撮った人のは一回も二回も皆写っているのですから、再度別の患者と撮り直しを行いました。<br/><br/> 今度は医師が撮りましたが驚くべきは矢張り結果は前二回と同じです。<br/><br/>他の人のは立派に写っているのです。<br/><br/>レントゲン撮影は三度とも失敗に終ってしまいました。<br/><br/>医師もこの失敗には頭を抱えておりました。<br/><br/> 光明如来様は私にそんな事をする必要はないのを知らしめて下さる為に奇蹟を見せられたのでしょう。<br/><br/>私はそれ以後医師の不必要を知り光明如来様の御力に縋るのみで健全なる体になるよう、毎日教会に通い御浄霊を頂き以前のごとき体を取戻しつつあります。<br/><br/> 科学の力を超越する大御力の偉大さに今更ながら驚きと恐催感激を覚えました。<br/><br/>厚く御礼申上げます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

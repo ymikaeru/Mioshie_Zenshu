@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>reis3026</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊祀篇 第三篇 ３ 026-043 龍神・動物霊 026 動物霊を祀る方式 霊憑りの動物霊をぬいてお宮に移す場合、祝詞と善言讃詞をあげるだけでよろしいでしょうか。<br><br> 霊憑りの場合は祝詞でも善言讃詞でもよろしい。<br><br>まず観音様に「これから憑霊をお宮へ祭ろうと思いますから御守護お願い致します」とお願いし、次いで霊に対しては「私の体に憑って私の身体を通してお宮に鎮まるよう」といって鎮魂の形式で納めるのである。<br><br>そうして神体は適当な名をかいたものでよろしい。<br><br>あるいはまた、「これから祝詞を奏げるから祝詞が済んだらお宮へお鎮り下さい」といって言葉だけで納めてもよいのである。<br><br> 027 龍神、地蔵、稲荷の祀り方 床の間に龍神、地蔵様及稲荷様とを三体一緒に御祭り致しておりましたが、この度光明如来様を御迎え申しましたので地蔵様を仏壇に、御稲荷様を屋外に御祭りしようと思っております。<br><br>いかがで御座いましょう。<br><br>また龍神様はいかに御祭りしたらよいか、御祭りの場所及方法等を御教示願います。<br><br> 地蔵は外へ出さなくてはいけない。<br><br>阿弥陀は外で守護するまたに外へ出たのであるから外へ祀らなくてはならぬ。<br><br>稲荷は、先祖から古くあるのは部屋の中へ祀る。<br><br>中途からのは外へ祀る。<br><br>龍神も外へ祀らなくてはいけない。<br><br>池とか瓶へ水を入れておかなくてはいけない。<br><br>すぐにでも水をおくべきだ。<br><br>龍神の身体は熱するから一日に三回位水に浸らぬととても苦しむ。<br><br>食物は生のまま呑むが、熱が強いので溶けてしまう。<br><br>であるから全部屋外でよい。<br><br> 二、三尺高さに石を積み、その上に宮を建てる。<br><br>向きは、光明如来様をお祭りしてあれば如来様に向けるようにして祀る。<br><br>地蔵はなるべく人の歩く際がよい。<br><br>天然石の上へ安置する。<br><br> 028 霊的病気祀るべきか及祀り方 霊的な浄化の場合、その霊を祭ってやった方がよいでしょうか。<br><br>もし祭るとしたらその方法はいかにすべきでしょうか。<br><br> （注）人霊の場合、動物霊の場合。<br><br> 祀る要のない場合と、祀った方がよい場合とある。<br><br>他人の場合でも差支えない。<br><br>多いのは狐とか蛇で、これはお宮を作り外へ祀る。<br><br>稲荷を家へ祀るとその人は必ず不仕合せになる。<br><br>狐は家へ住んでいるものでない。<br><br>家へ祀ると霊界では地面になる。<br><br>そして人間は地面の下になる。<br><br>即ち地獄になるから必ず碌な事はない。<br><br>動物を祀ると動物以下になる。<br><br>向きは光明如来様に向ける。<br><br>すると御光に始終照される。<br><br>人間が座敷に座るより高くてはいけない。<br><br>風が吹くと倒れるから、石を宮の通りにクリ抜いて入れておく。<br><br>名前をつけなくてはいけない。<br><br>白木の戒名のような恰好にする。<br><br>○○明神とかく。<br><br>その家の名でもよい。<br><br> 稲荷なら○○稲荷大明神とする。<br><br>土地の名でよい。<br><br> 龍神の場合は○○明神とする。<br><br>○○大明神か。<br><br>日を決めて祀る。<br><br> 人間に憑いてる霊と、ちょいちょい憑いてるのとあるが「お宮へ祀り込むから」と言ってやってもよい。<br><br>鎮魂形式でもよい。<br><br>右の拇指を左の拇指で制える。<br><br> 龍神の場合は、生米や塩、水、また生魚も好きである。<br><br>その他野菜、果実等自由である。<br><br> 狐は、お米や水は要らない。<br><br>強飯とか油揚、天ぷら等が好きである。<br><br> 光明如来様のお祭りがすんで後でいい。<br><br>外のない場合は床の間でいい。<br><br>床の間の脇の方へ台を作る。<br><br>龍神の場合は池を掘る。<br><br>水を絶やさぬようにする。<br><br>丼よりは池を掘った方がよい。<br><br> 先に女将で、急にブッ倒れ「お前等だけ綺麗な家へ住んでいて、ワシは煤だらけの所へ住んでいる。<br><br>ホッておくと承知しない」という。<br><br>行ってみると奥さんは目をつむって寝ている。<br><br>それでよく掃除するよう言った。<br><br>私が祀ってやった宮は煤だらけになっている。<br><br>石の宮で戸がなかった。<br><br>これは祖先の霊である。<br><br> 龍神が修業がすんで昇天したい場合とすれば、お宮は撤去してよい。<br><br> 029 龍神、狐の鎮霊 狐はなかなか義理固いものである。<br><br>祀ってやるととても喜ぶ。<br><br>外を歩いてる時ちょっと叩頭してやるととても喜ぶ。<br><br> 龍神を祀ってくれという場合、自分の肉体を通してこの神籬に憑るようと申渡し、鎮魂の姿勢に手を組むと、特に変化はないが、自然に手がその神籬の方へ行くものである。<br><br>龍神の小さいのは、手は直ぐに離れるが、大きい長いのになると時間が掛る。<br><br>霊が入ると自然に手が離れる。<br><br>指は右手の指を下にする。<br><br> 龍神は人差指、狐は拇指から出るものである。<br><br> よく憑霊が脱けると助かると思うが、長く憑いた霊が抜けると死ぬ事がある。<br><br>衰弱している身体などすぐ来る。<br><br> また毒血でもある程度身体を支える力となっている。<br><br>これを除るとガックリする。<br><br>（S23. 6.24） 030 稲荷、龍神の祝詞 稲荷様や龍神様を御祭りする時は、祝詞はどのような気持であげてよいものでしょうか。<br><br>また、「何」守り給へ幸倍給へと言えばよろしいのでしょうか。<br><br> 祀る時は幽世の大神でよい。<br><br> 天津祝詞でよい。<br><br> 031 龍神祠の祭神 龍神祠は殆ど弁天様で、なるべく祀っておいた方がよい。<br><br>土地を守るというのが多い。<br><br>沼や池等に多い。<br><br>（S23. 6.27） 032 既祀諸龍神の祀り 光明如来様をお祀りさせて戴いてある信徒の家に、現戸主の代に至り、行者の勧めにより八大龍神、白龍神、弁財天を床の間に一緒に祀りました。<br><br>この家の外に白刃妙龍善神がお祀りしてありますが、前記三龍神を一緒に家外の白刃妙龍善神とお祀りして宜しゅう御座居ますか。<br><br> 全部光明如来様の家来であるから、光明如来様をお祭りすれば、祀る要はない。<br><br>龍神などは祀るとそのために反って苦しむ。<br><br> これは寧ろ処分した方がよい。<br><br> 龍神は外ならよい。<br><br> 同席の所へよい神様はいられない。<br><br>だから碌な事はない。<br><br> 光明如来様は太い綱だから他に祭る要はない。<br><br>（S24.10.23） 033 龍神の祀り 龍神をお祭り致したいと思いますが、どう言うようにしてお祭りしたらよいでしょうか。<br><br>お教え願います。<br><br> 龍神はなるべく祀らぬ方がよい。<br><br>ちょっとした事で祀らぬ方がよい。<br><br>（S24. 1.25） 034 龍神家内に祀る事 吉田裕彦と言う信者の家で御座いますが、百年位前に井戸と池を埋めたそうで御座います。<br><br>その後日蓮の行者が龍神を祭らなければいけないと申し「最上荒龍天王」と言う名前で龍神を祀ってくれましたが、今も家の中に祀ってあります。<br><br>外に祀り変えたいと存じますがよろしゅう御座いましょうか。<br><br>それとも池と井戸の龍神を別にして改めて名前をつけた方がよろしゅう御座いましょうか。<br><br>御伺い申し上げます。<br><br> なお当主吉田裕彦は八代目で、この度御神体を御祭りさせて頂く事になっております。<br><br> 龍神は家の中へ祀るべきものではない。<br><br>力はあっても位は人間より下である。<br><br>一種の獣である。<br><br>また龍神は雨を好むから戸外の方が喜ぶ。<br><br> 今迄のままでよい。<br><br> 光明如来様へ向った向きへ祀る。<br><br>（S25. 1.22） 035 蛇、猫等の祀る位置 因縁のあった蛇や猫の霊を祀る場合、その位置はどこがよく、また期間はどれ位が宜しいでしょうか。<br><br> 外の庭の適当な清い場所、人のふまぬ所がよい。<br><br> 036 二つ以上の龍神の祀名と狐霊名 土蔵に白蛇や他にも色々沢山蛇のいたのが戦災で焼けたそうですが、祀り方はどうしたら宜しいでしょうか。<br><br>この白蛇は人間よりも位が上なのでしょうか。<br><br>明神を二つ以上祀らねばならぬ時、名称はどうしたらよろしいでしょうか。<br><br>またこうしたものは何年位祀るべきでしょうか。<br><br>祀りは年一回でよろしいでしょうか。<br><br> 右御伺い申し上げます。<br><br> 稲荷や蛇は、どんな立派な偉いのでも人間より下である。<br><br> 明神は二つの場合もある。<br><br>龍神と狐の場合もある。<br><br>狐は正一位を喜ぶ。<br><br> 土蔵の蛇は祀った方がよい。<br><br> 037 明神の意義 六月二十六日、親子で入信致しました。<br><br>沼野と申す家で御座いますが、教修第一日の夕方、昔から家の廻りに住んでいた長さ一間もある青大将の夫婦を子供が殺してしまいました。<br><br> この蛇はお祀りした方がよろしゅう御座いましょうか。<br><br>また、お祀りする場合、夫婦の蛇は名前を二つ作るので御座いましょうか。<br><br> 名前は一つでよい。<br><br>明神という。<br><br> 明は二つで、男と女という事である。<br><br>この家の姓をつけ、沼野明神とつければよい。<br><br>外へ祀る。<br><br> 地へ埋めて祝詞を奏げ、幽世大神様の御名を唱え、早く人間に生れ代るようお願いする。<br><br> 五六七大御神様にお願いするのは勿体ない。<br><br>幽世大神は幽世だけである。<br><br> 蛇は殺しても、救われる手続をしてもらった方が喜ぶ。<br><br>醜い姿をみせたくないのである。<br><br> 大明神などとつけるのはウソである。<br><br>（S24. 6.22） 038 蛇殺生と祀り方 一、蛇を殺したために子供の命をとられる事が御座いましょうか。<br><br> 二、もしその場合、蛇のおまつりをどの程度まで致したらよろしいでしょうか。<br><br> 右御教示御願い申し上げます。<br><br> 一、無論ある。<br><br>蛇が怒って仇討をする。<br><br>蟇蛙もよく霊が憑っている。<br><br>大切にしてやった方がよい。<br><br> 蛇は古くからの青大将以外は殺してよい。<br><br>私はよく蛇を殺す。<br><br>そして埋めて祝詞を奏げてやる。<br><br>すると反って蛇は喜ぶ。<br><br>蛇は「自分は醜い姿」と思っているもので、醜い一生を早く終りたいのである。<br><br>お願いすると人間に早く生れ代るから非常に喜ぶ。<br><br>蛇が嬉しいからそういう時は大変気持いい。<br><br> 二、肝腎な事は水を湛える。<br><br>小さい宮へ、白木の戒名の形のものへ字を書く、……明神。<br><br> 三、明神とする。<br><br> 石か何か積んだ上へ、二、三尺高くしてお宮を載せ、風で動かぬようにする。<br><br>そして生米、水を上げる。<br><br>生魚、野菜等もよい。<br><br> 毎月一辺祀ってやる。<br><br>殺生の日がよい。<br><br> 天津祝詞と、幽世大神守給へ幸倍給へを唱える。<br><br>お償いとして祭るのであるから守護してくれといってやる。<br><br> 039 蛇の祟りの処置 蛇の祟りである。<br><br>祀ってやって人間に生れ代るようにしてやる。<br><br>そうすると納得する。<br><br> 庭へ石を二、三尺積み、宮を作り、御神体をつくり○○明神と名をつける。<br><br>小さい池を掘る。<br><br>祝詞を毎日奏げる。<br><br>幽世大神にこの次人間に生れ代る事をお願いしてやる。<br><br> 蛇は段々判って来て、今度は喜びとなる。<br><br>（S23） 040 死んだ蛇の処置（祟る蛇） 永年家に住んでいた蛇が死にましたが、祀った方がいいでしょうか。<br><br> 蛇が死んだら人の踏まない所の土を掘っていけてやる。<br><br>そうして天津祝詞を上げてやる。<br><br>もっとよくすれば、その上へ何か石の塚、または間に合せに白木に名をつけてかき、祭ってやる。<br><br>そして幽世大神に、この次生まれたら人間に生れてくるようお願いしてやるのである。<br><br> 蛇としては、醜い姿をして人に嫌がられるよりは、早く霊界へ行って人間に生れた方がどれだけいいか分らぬが、なかなか死ねない。<br><br> 人間が蛇に転生したのは祟るが、元からの蛇は祟れない。<br><br> 041 失明、蛇の祀り方 会員福村ケイコさん（二十四才）、メンナイ千鳥の盲目の踊りをおどっている中に両眼失明致し、御浄霊により幾分着物の模様など見えるようになりますが、また前と同様見えなくなり、こんな状態をくり返しております。<br><br>父親の話によりますと、家の裏山にて栗取中、突然つがいの「やまかがし」を見て驚き、殺して木にかけて置きました。<br><br>家に帰って便所に行きますとそこに自分の殺した蛇がおりましたのでまた驚き、山に行って見ますと、元の所に蛇はそのままおりました。<br><br>また青大将が「なげし」より大神宮様の御飯を食べているのを見、引落しこれも殺しました。<br><br>これは幼い頃の出来事だそうで御座いますが、霊的関係が御座いましょうか。<br><br>またどう致したら宜敷う御座いましょうか。<br><br>御伺い申し上げます。<br><br> 祀ってやるといい。<br><br>山かがしが二ついたのは夫婦である。<br><br>青大将は殆ど祖先である。<br><br> 青大将を先へ祀り、これは家の名がよく、山かがしは土地か山の名をつけて両方書く。<br><br> お宮の前に小さい池を作り、供物は生米や水、塩がいい。<br><br>（S24. 9.11） 042 青大将の祀り ある家で、先年鶏舎に出た巨大な青大将を老父が殺し、翌日同場所に現われた同様の青大将を発見、近所の人に殺して貰いました。<br><br>その翌年から五人の子女が次々と死亡（内二名は結核）致し、老父も死去致しました。<br><br>ただ今末子の二十五才になる男子が結核で病臥中で御座います。<br><br>先にある祈祷師からその蛇の祟りだと言われ、その指示のままに神体を御鏡とし白玉明神と名付けて屋内に祀ってあります。<br><br>先般入信致し大光明如来様もお祭りさせて戴きましたが、右の龍神を屋内から庭にまつり変えたいと存じますが、神体及び名前はそのままでよろしいので御座いましょうか。<br><br> 別に新に名前及び神体を御作りすべきか、またそれとも二つをあわせて祀るべきか、御教えの程御伺い申し上げます。<br><br> 祖霊であるから、その家の姓を付して○○明神とせよ。<br><br> それより、その土地の名をとった方がよい。<br><br>すれば、土地全体を守護する事になる。<br><br>（S24.10. 1） 043 小児麻痺の子と座敷へ上る青大将 六才の男子生後六、七ケ月頃小児麻痺を患い首が坐らず、手足がぶらぶらして言葉も出ません。<br><br>耳は聞えるらしい。<br><br>小便等は何等かの方法で知らせます。<br><br>母親が妊娠中に、父親の勉強の居間に青大将が出て来たので、一度は追い出したが、また這入って来たので、竹を割いて首を挟み、屋外に捨てたがそのまま死にました。<br><br>母親は妊娠中に生物を殺したのでその事をいつも気にしていたそうです。<br><br>その後医師にもかけたが治らず、神仏や拝屋等にも御願いしたが祖霊の祟と言うので色々やりましたが治りません。<br><br>何の祟でしょうか。<br><br>また浄霊にて治るでしょうか。<br><br>また祖霊の祟の場合、それを落す方法がありますようなれば御教え願います。<br><br> 蛇が憑くと骨なしのようになる。<br><br>青大将は殆ど祖霊が畜生道へ堕ちて生れたのが多い。<br><br>それで（人間だったため）座敷へ上りたがる。<br><br>浄霊でも相当長くかかる。<br><br>祝詞や御讃歌出来るだけ聞かす。<br><br> 小さい宮に大和明神と書き、光明如来様に御守護お願いし、御左へでも御右へでも宮をおいてお祀りする。<br><br>お辞儀をし、口頭にて「これから子供に憑いてる龍神さんに宮に鎮まって戴く。<br><br>私の体を通して移って頂きたい」という。<br><br>合掌の形式は精神統一した形。<br><br>幽世大神様にお願いする。<br><br> 狐は拇指（右）龍神は人差指から出入する。<br><br> 位牌は、剣の形にする。<br><br> 祀った方が早いかもしれない。<br><br> 桧がよい。<br><br>祖先であるからその家の姓がよい。<br><br>大和明神、大明神でもよい。<br><br> 教導師なら出来る。<br><br> 光明如来様に御守護お願いして、御神体の前台の上におく。<br><br>憑いてから長いのはすぐに行かないのもあるし、時間がかかって移るのもある。<br><br>（S24. 2.16）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coleção de Teses do Reverendo Jikan Okada – Pesquisa de Ensinamentos: Seção sobre a Consagração de Espíritos – Terceira Parte, 3 – 026-043: Ryûjin e Espíritos de Animais</h2>
 <h2>026 Método de Consagração de Espíritos de Animais</h2>
@@ -202,5 +354,48 @@ function toggleLang(lang) {
 <br/>
 </font></p>
 </blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊祀篇 第三篇 ３ 026-043 龍神・動物霊 026 動物霊を祀る方式 霊憑りの動物霊をぬいてお宮に移す場合、祝詞と善言讃詞をあげるだけでよろしいでしょうか。<br/><br/> 霊憑りの場合は祝詞でも善言讃詞でもよろしい。<br/><br/>まず観音様に「これから憑霊をお宮へ祭ろうと思いますから御守護お願い致します」とお願いし、次いで霊に対しては「私の体に憑って私の身体を通してお宮に鎮まるよう」といって鎮魂の形式で納めるのである。<br/><br/>そうして神体は適当な名をかいたものでよろしい。<br/><br/>あるいはまた、「これから祝詞を奏げるから祝詞が済んだらお宮へお鎮り下さい」といって言葉だけで納めてもよいのである。<br/><br/> 027 龍神、地蔵、稲荷の祀り方 床の間に龍神、地蔵様及稲荷様とを三体一緒に御祭り致しておりましたが、この度光明如来様を御迎え申しましたので地蔵様を仏壇に、御稲荷様を屋外に御祭りしようと思っております。<br/><br/>いかがで御座いましょう。<br/><br/>また龍神様はいかに御祭りしたらよいか、御祭りの場所及方法等を御教示願います。<br/><br/> 地蔵は外へ出さなくてはいけない。<br/><br/>阿弥陀は外で守護するまたに外へ出たのであるから外へ祀らなくてはならぬ。<br/><br/>稲荷は、先祖から古くあるのは部屋の中へ祀る。<br/><br/>中途からのは外へ祀る。<br/><br/>龍神も外へ祀らなくてはいけない。<br/><br/>池とか瓶へ水を入れておかなくてはいけない。<br/><br/>すぐにでも水をおくべきだ。<br/><br/>龍神の身体は熱するから一日に三回位水に浸らぬととても苦しむ。<br/><br/>食物は生のまま呑むが、熱が強いので溶けてしまう。<br/><br/>であるから全部屋外でよい。<br/><br/> 二、三尺高さに石を積み、その上に宮を建てる。<br/><br/>向きは、光明如来様をお祭りしてあれば如来様に向けるようにして祀る。<br/><br/>地蔵はなるべく人の歩く際がよい。<br/><br/>天然石の上へ安置する。<br/><br/> 028 霊的病気祀るべきか及祀り方 霊的な浄化の場合、その霊を祭ってやった方がよいでしょうか。<br/><br/>もし祭るとしたらその方法はいかにすべきでしょうか。<br/><br/> （注）人霊の場合、動物霊の場合。<br/><br/> 祀る要のない場合と、祀った方がよい場合とある。<br/><br/>他人の場合でも差支えない。<br/><br/>多いのは狐とか蛇で、これはお宮を作り外へ祀る。<br/><br/>稲荷を家へ祀るとその人は必ず不仕合せになる。<br/><br/>狐は家へ住んでいるものでない。<br/><br/>家へ祀ると霊界では地面になる。<br/><br/>そして人間は地面の下になる。<br/><br/>即ち地獄になるから必ず碌な事はない。<br/><br/>動物を祀ると動物以下になる。<br/><br/>向きは光明如来様に向ける。<br/><br/>すると御光に始終照される。<br/><br/>人間が座敷に座るより高くてはいけない。<br/><br/>風が吹くと倒れるから、石を宮の通りにクリ抜いて入れておく。<br/><br/>名前をつけなくてはいけない。<br/><br/>白木の戒名のような恰好にする。<br/><br/>○○明神とかく。<br/><br/>その家の名でもよい。<br/><br/> 稲荷なら○○稲荷大明神とする。<br/><br/>土地の名でよい。<br/><br/> 龍神の場合は○○明神とする。<br/><br/>○○大明神か。<br/><br/>日を決めて祀る。<br/><br/> 人間に憑いてる霊と、ちょいちょい憑いてるのとあるが「お宮へ祀り込むから」と言ってやってもよい。<br/><br/>鎮魂形式でもよい。<br/><br/>右の拇指を左の拇指で制える。<br/><br/> 龍神の場合は、生米や塩、水、また生魚も好きである。<br/><br/>その他野菜、果実等自由である。<br/><br/> 狐は、お米や水は要らない。<br/><br/>強飯とか油揚、天ぷら等が好きである。<br/><br/> 光明如来様のお祭りがすんで後でいい。<br/><br/>外のない場合は床の間でいい。<br/><br/>床の間の脇の方へ台を作る。<br/><br/>龍神の場合は池を掘る。<br/><br/>水を絶やさぬようにする。<br/><br/>丼よりは池を掘った方がよい。<br/><br/> 先に女将で、急にブッ倒れ「お前等だけ綺麗な家へ住んでいて、ワシは煤だらけの所へ住んでいる。<br/><br/>ホッておくと承知しない」という。<br/><br/>行ってみると奥さんは目をつむって寝ている。<br/><br/>それでよく掃除するよう言った。<br/><br/>私が祀ってやった宮は煤だらけになっている。<br/><br/>石の宮で戸がなかった。<br/><br/>これは祖先の霊である。<br/><br/> 龍神が修業がすんで昇天したい場合とすれば、お宮は撤去してよい。<br/><br/> 029 龍神、狐の鎮霊 狐はなかなか義理固いものである。<br/><br/>祀ってやるととても喜ぶ。<br/><br/>外を歩いてる時ちょっと叩頭してやるととても喜ぶ。<br/><br/> 龍神を祀ってくれという場合、自分の肉体を通してこの神籬に憑るようと申渡し、鎮魂の姿勢に手を組むと、特に変化はないが、自然に手がその神籬の方へ行くものである。<br/><br/>龍神の小さいのは、手は直ぐに離れるが、大きい長いのになると時間が掛る。<br/><br/>霊が入ると自然に手が離れる。<br/><br/>指は右手の指を下にする。<br/><br/> 龍神は人差指、狐は拇指から出るものである。<br/><br/> よく憑霊が脱けると助かると思うが、長く憑いた霊が抜けると死ぬ事がある。<br/><br/>衰弱している身体などすぐ来る。<br/><br/> また毒血でもある程度身体を支える力となっている。<br/><br/>これを除るとガックリする。<br/><br/>（S23. 6.24） 030 稲荷、龍神の祝詞 稲荷様や龍神様を御祭りする時は、祝詞はどのような気持であげてよいものでしょうか。<br/><br/>また、「何」守り給へ幸倍給へと言えばよろしいのでしょうか。<br/><br/> 祀る時は幽世の大神でよい。<br/><br/> 天津祝詞でよい。<br/><br/> 031 龍神祠の祭神 龍神祠は殆ど弁天様で、なるべく祀っておいた方がよい。<br/><br/>土地を守るというのが多い。<br/><br/>沼や池等に多い。<br/><br/>（S23. 6.27） 032 既祀諸龍神の祀り 光明如来様をお祀りさせて戴いてある信徒の家に、現戸主の代に至り、行者の勧めにより八大龍神、白龍神、弁財天を床の間に一緒に祀りました。<br/><br/>この家の外に白刃妙龍善神がお祀りしてありますが、前記三龍神を一緒に家外の白刃妙龍善神とお祀りして宜しゅう御座居ますか。<br/><br/> 全部光明如来様の家来であるから、光明如来様をお祭りすれば、祀る要はない。<br/><br/>龍神などは祀るとそのために反って苦しむ。<br/><br/> これは寧ろ処分した方がよい。<br/><br/> 龍神は外ならよい。<br/><br/> 同席の所へよい神様はいられない。<br/><br/>だから碌な事はない。<br/><br/> 光明如来様は太い綱だから他に祭る要はない。<br/><br/>（S24.10.23） 033 龍神の祀り 龍神をお祭り致したいと思いますが、どう言うようにしてお祭りしたらよいでしょうか。<br/><br/>お教え願います。<br/><br/> 龍神はなるべく祀らぬ方がよい。<br/><br/>ちょっとした事で祀らぬ方がよい。<br/><br/>（S24. 1.25） 034 龍神家内に祀る事 吉田裕彦と言う信者の家で御座いますが、百年位前に井戸と池を埋めたそうで御座います。<br/><br/>その後日蓮の行者が龍神を祭らなければいけないと申し「最上荒龍天王」と言う名前で龍神を祀ってくれましたが、今も家の中に祀ってあります。<br/><br/>外に祀り変えたいと存じますがよろしゅう御座いましょうか。<br/><br/>それとも池と井戸の龍神を別にして改めて名前をつけた方がよろしゅう御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> なお当主吉田裕彦は八代目で、この度御神体を御祭りさせて頂く事になっております。<br/><br/> 龍神は家の中へ祀るべきものではない。<br/><br/>力はあっても位は人間より下である。<br/><br/>一種の獣である。<br/><br/>また龍神は雨を好むから戸外の方が喜ぶ。<br/><br/> 今迄のままでよい。<br/><br/> 光明如来様へ向った向きへ祀る。<br/><br/>（S25. 1.22） 035 蛇、猫等の祀る位置 因縁のあった蛇や猫の霊を祀る場合、その位置はどこがよく、また期間はどれ位が宜しいでしょうか。<br/><br/> 外の庭の適当な清い場所、人のふまぬ所がよい。<br/><br/> 036 二つ以上の龍神の祀名と狐霊名 土蔵に白蛇や他にも色々沢山蛇のいたのが戦災で焼けたそうですが、祀り方はどうしたら宜しいでしょうか。<br/><br/>この白蛇は人間よりも位が上なのでしょうか。<br/><br/>明神を二つ以上祀らねばならぬ時、名称はどうしたらよろしいでしょうか。<br/><br/>またこうしたものは何年位祀るべきでしょうか。<br/><br/>祀りは年一回でよろしいでしょうか。<br/><br/> 右御伺い申し上げます。<br/><br/> 稲荷や蛇は、どんな立派な偉いのでも人間より下である。<br/><br/> 明神は二つの場合もある。<br/><br/>龍神と狐の場合もある。<br/><br/>狐は正一位を喜ぶ。<br/><br/> 土蔵の蛇は祀った方がよい。<br/><br/> 037 明神の意義 六月二十六日、親子で入信致しました。<br/><br/>沼野と申す家で御座いますが、教修第一日の夕方、昔から家の廻りに住んでいた長さ一間もある青大将の夫婦を子供が殺してしまいました。<br/><br/> この蛇はお祀りした方がよろしゅう御座いましょうか。<br/><br/>また、お祀りする場合、夫婦の蛇は名前を二つ作るので御座いましょうか。<br/><br/> 名前は一つでよい。<br/><br/>明神という。<br/><br/> 明は二つで、男と女という事である。<br/><br/>この家の姓をつけ、沼野明神とつければよい。<br/><br/>外へ祀る。<br/><br/> 地へ埋めて祝詞を奏げ、幽世大神様の御名を唱え、早く人間に生れ代るようお願いする。<br/><br/> 五六七大御神様にお願いするのは勿体ない。<br/><br/>幽世大神は幽世だけである。<br/><br/> 蛇は殺しても、救われる手続をしてもらった方が喜ぶ。<br/><br/>醜い姿をみせたくないのである。<br/><br/> 大明神などとつけるのはウソである。<br/><br/>（S24. 6.22） 038 蛇殺生と祀り方 一、蛇を殺したために子供の命をとられる事が御座いましょうか。<br/><br/> 二、もしその場合、蛇のおまつりをどの程度まで致したらよろしいでしょうか。<br/><br/> 右御教示御願い申し上げます。<br/><br/> 一、無論ある。<br/><br/>蛇が怒って仇討をする。<br/><br/>蟇蛙もよく霊が憑っている。<br/><br/>大切にしてやった方がよい。<br/><br/> 蛇は古くからの青大将以外は殺してよい。<br/><br/>私はよく蛇を殺す。<br/><br/>そして埋めて祝詞を奏げてやる。<br/><br/>すると反って蛇は喜ぶ。<br/><br/>蛇は「自分は醜い姿」と思っているもので、醜い一生を早く終りたいのである。<br/><br/>お願いすると人間に早く生れ代るから非常に喜ぶ。<br/><br/>蛇が嬉しいからそういう時は大変気持いい。<br/><br/> 二、肝腎な事は水を湛える。<br/><br/>小さい宮へ、白木の戒名の形のものへ字を書く、……明神。<br/><br/> 三、明神とする。<br/><br/> 石か何か積んだ上へ、二、三尺高くしてお宮を載せ、風で動かぬようにする。<br/><br/>そして生米、水を上げる。<br/><br/>生魚、野菜等もよい。<br/><br/> 毎月一辺祀ってやる。<br/><br/>殺生の日がよい。<br/><br/> 天津祝詞と、幽世大神守給へ幸倍給へを唱える。<br/><br/>お償いとして祭るのであるから守護してくれといってやる。<br/><br/> 039 蛇の祟りの処置 蛇の祟りである。<br/><br/>祀ってやって人間に生れ代るようにしてやる。<br/><br/>そうすると納得する。<br/><br/> 庭へ石を二、三尺積み、宮を作り、御神体をつくり○○明神と名をつける。<br/><br/>小さい池を掘る。<br/><br/>祝詞を毎日奏げる。<br/><br/>幽世大神にこの次人間に生れ代る事をお願いしてやる。<br/><br/> 蛇は段々判って来て、今度は喜びとなる。<br/><br/>（S23） 040 死んだ蛇の処置（祟る蛇） 永年家に住んでいた蛇が死にましたが、祀った方がいいでしょうか。<br/><br/> 蛇が死んだら人の踏まない所の土を掘っていけてやる。<br/><br/>そうして天津祝詞を上げてやる。<br/><br/>もっとよくすれば、その上へ何か石の塚、または間に合せに白木に名をつけてかき、祭ってやる。<br/><br/>そして幽世大神に、この次生まれたら人間に生れてくるようお願いしてやるのである。<br/><br/> 蛇としては、醜い姿をして人に嫌がられるよりは、早く霊界へ行って人間に生れた方がどれだけいいか分らぬが、なかなか死ねない。<br/><br/> 人間が蛇に転生したのは祟るが、元からの蛇は祟れない。<br/><br/> 041 失明、蛇の祀り方 会員福村ケイコさん（二十四才）、メンナイ千鳥の盲目の踊りをおどっている中に両眼失明致し、御浄霊により幾分着物の模様など見えるようになりますが、また前と同様見えなくなり、こんな状態をくり返しております。<br/><br/>父親の話によりますと、家の裏山にて栗取中、突然つがいの「やまかがし」を見て驚き、殺して木にかけて置きました。<br/><br/>家に帰って便所に行きますとそこに自分の殺した蛇がおりましたのでまた驚き、山に行って見ますと、元の所に蛇はそのままおりました。<br/><br/>また青大将が「なげし」より大神宮様の御飯を食べているのを見、引落しこれも殺しました。<br/><br/>これは幼い頃の出来事だそうで御座いますが、霊的関係が御座いましょうか。<br/><br/>またどう致したら宜敷う御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 祀ってやるといい。<br/><br/>山かがしが二ついたのは夫婦である。<br/><br/>青大将は殆ど祖先である。<br/><br/> 青大将を先へ祀り、これは家の名がよく、山かがしは土地か山の名をつけて両方書く。<br/><br/> お宮の前に小さい池を作り、供物は生米や水、塩がいい。<br/><br/>（S24. 9.11） 042 青大将の祀り ある家で、先年鶏舎に出た巨大な青大将を老父が殺し、翌日同場所に現われた同様の青大将を発見、近所の人に殺して貰いました。<br/><br/>その翌年から五人の子女が次々と死亡（内二名は結核）致し、老父も死去致しました。<br/><br/>ただ今末子の二十五才になる男子が結核で病臥中で御座います。<br/><br/>先にある祈祷師からその蛇の祟りだと言われ、その指示のままに神体を御鏡とし白玉明神と名付けて屋内に祀ってあります。<br/><br/>先般入信致し大光明如来様もお祭りさせて戴きましたが、右の龍神を屋内から庭にまつり変えたいと存じますが、神体及び名前はそのままでよろしいので御座いましょうか。<br/><br/> 別に新に名前及び神体を御作りすべきか、またそれとも二つをあわせて祀るべきか、御教えの程御伺い申し上げます。<br/><br/> 祖霊であるから、その家の姓を付して○○明神とせよ。<br/><br/> それより、その土地の名をとった方がよい。<br/><br/>すれば、土地全体を守護する事になる。<br/><br/>（S24.10. 1） 043 小児麻痺の子と座敷へ上る青大将 六才の男子生後六、七ケ月頃小児麻痺を患い首が坐らず、手足がぶらぶらして言葉も出ません。<br/><br/>耳は聞えるらしい。<br/><br/>小便等は何等かの方法で知らせます。<br/><br/>母親が妊娠中に、父親の勉強の居間に青大将が出て来たので、一度は追い出したが、また這入って来たので、竹を割いて首を挟み、屋外に捨てたがそのまま死にました。<br/><br/>母親は妊娠中に生物を殺したのでその事をいつも気にしていたそうです。<br/><br/>その後医師にもかけたが治らず、神仏や拝屋等にも御願いしたが祖霊の祟と言うので色々やりましたが治りません。<br/><br/>何の祟でしょうか。<br/><br/>また浄霊にて治るでしょうか。<br/><br/>また祖霊の祟の場合、それを落す方法がありますようなれば御教え願います。<br/><br/> 蛇が憑くと骨なしのようになる。<br/><br/>青大将は殆ど祖霊が畜生道へ堕ちて生れたのが多い。<br/><br/>それで（人間だったため）座敷へ上りたがる。<br/><br/>浄霊でも相当長くかかる。<br/><br/>祝詞や御讃歌出来るだけ聞かす。<br/><br/> 小さい宮に大和明神と書き、光明如来様に御守護お願いし、御左へでも御右へでも宮をおいてお祀りする。<br/><br/>お辞儀をし、口頭にて「これから子供に憑いてる龍神さんに宮に鎮まって戴く。<br/><br/>私の体を通して移って頂きたい」という。<br/><br/>合掌の形式は精神統一した形。<br/><br/>幽世大神様にお願いする。<br/><br/> 狐は拇指（右）龍神は人差指から出入する。<br/><br/> 位牌は、剣の形にする。<br/><br/> 祀った方が早いかもしれない。<br/><br/> 桧がよい。<br/><br/>祖先であるからその家の姓がよい。<br/><br/>大和明神、大明神でもよい。<br/><br/> 教導師なら出来る。<br/><br/> 光明如来様に御守護お願いして、御神体の前台の上におく。<br/><br/>憑いてから長いのはすぐに行かないのもあるし、時間がかかって移るのもある。<br/><br/>（S24. 2.16）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

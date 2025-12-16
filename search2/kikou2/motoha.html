@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>motoha</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 元は何でも只である 神成大教会 堤 章吉 『地上天国』53号、昭和28(1953)年10月25日発行 宗教で病気の苦しみや、災難続きの家庭の苦労、あるいは夫婦、親子間の不和等の為に、神様、仏様の御霊徳を御取次によって受けて治される場合、その神仏にお礼として金品をあげるというのは、どうも理屈に合わないし、合点が行かない。<br><br>それに入ったが最後、寄付だ献金だと、尻の毛まで抜かれてしまうのだからやり切れない、と言って宗教を信仰しもせず研究もしないで批判する声を、高等教育を受けたと思われる様な人々の間にも、相当多く見受けられ、聞かされるのであって、その言うところは、神仏は慈悲であるから金品等を取るのは怪しからぬ。<br><br>神仏の慈悲とは空気や太陽のように普遍的なもので、かつ無限に人類の上に降り注がれているものであるから、取引的行為は嘘であり、そういう要求をするという事は、実は神仏の本意ではなく、その神仏の取次者の我欲から出た不当な搾取的行為であるというのである。<br><br> そこで考えてみるのに、この世の中の如何なる物でも、その物の初めから価値があったり、資本のかかっている物があるだろうかと言う事である。<br><br>人類が普遍的に浴している空気、太陽の光熱の恩恵は勿論ただであるが、病人の為に酸素吸入が必要となれば、ただの空気の中から取った酸素も、高い代価を支払わなければ自由には使えないし、水素だけにして使うとすれげ、矢張りそれ相当の値段が生ずる。<br><br>又窒素という肥料分を抽出するとなれば、これまた金がかかり、農家ではそれを買うのに苦労している現実である。<br><br>圧搾空気、つまり液体空気とするには更に高価につくのである。<br><br> 水にしても同様で、天から雨となって、ただで降って来て、清水と湧いて谷間の小川へ流れ出し、大野へ行く迄ただである。<br><br>否、大海原の塩水と合してもただであるが、しかしこれを飲料水とすれば、忽ち月々水道料を払わされ、もし払わなければ停止処分さえ受けなければならない。<br><br>又塩を必要なりとして求めるならば、ただの海水に含まれていた塩にも、忽ち金が掛って、我々は塩を金を払って買わなければならないのである。<br><br> 太陽の光熱についても同様な事が言えるのであって、即ち、人間生活に有効適切にする為には、暑さの厳しい夏には、扇風機や氷柱を使って調節したり、そこまで出来なければ、日除けのヨシズを張ったりというわけで、費用という金が掛り、光の熱が薄い厚い冬には暖を取るために炭、薪、石炭、電熱、瓦斯（ガス）等に矢張りお金が掛るのである。<br><br> あの高価なダイヤモンドも、山の岩石の中にある時、それはただである。<br><br>それがどうして高い代価を払わなければ手に入らないのであろうか、いう迄もなく、どこの山にもないという事によって少いのであり、それだけ探すのに期間と経費もかかり、そうして遠い所から運搬して来て、工場を造り機械を据付けて、たくさんの人を使って選鉱し、選び出されるものが少いから高くつくのであろう。<br><br>金にせよ銀にせよ、銅でも鉄でも鉛でも、又は石炭でもみなそうである。<br><br> 草花や積木にしても、野に山にある時、価いはないのであるが、庭に植え観賞しようとしたり、あるいは自然的な雰囲気を造ろうとすれば、つまらぬ植木と思うものでさえ、一本三百円も四百円もするし、一段の人々にはそれこそ高峯の花のたとえにも似て、想像もつかない値段で、草花が取引されたりするのである。<br><br> 我々の住んでいるこの土地にしてもそうで、人間が価値を基本にして造ったのではないのに、同じ土から出来上っているこの土地に値段があり、しかも場所によってそれが違うのである。<br><br> 人間が、自分達の必要や便利を満たす為に、人間の手が加わる。<br><br>つまり労力や資本が加えられると、そこに値段が生じ、適正な代価が決められ、それに依って取引が行われるから、人間世界では円滑に物の異動も行われるのであって、自然の法則とはこの事を言うのであり、学問の基礎ともなっている。<br><br>というのは真理だからであると思う。<br><br> 太陽が、東の空から出て西の空へ没する事も、月が二十八日目毎に盈虧（えいき）を繰返し、悠遠の昔より変らないでいるという事も、真理だからである。<br><br>真理とは大自然の法則であり、大宇宙の一分子である以上、地球もまた真理の法則を離れてはあり得ないわけである。<br><br>同時に、大自然の法則とは、首尾一貫したものであるから、大宇宙より、素粒子の世界に至るまで変らないのである。<br><br> 無から有が生ずる如くに思える物の価値も、自然の法則という事を覚れば、当然の事として受取れるわけで、この事は理論的な説明は出来なくても、一般の人々が理外の理として、当然なり、と受取っていればこそ、良い物は高く、悪い物は安くという工合に調和が取れているので、争いも起らず済んでいるのである。<br><br> で、宗教であるが、宗教といえども真理を離れては在り得ない。<br><br>否、宗教は真理を普遍的に行渡らせるための実行者であるから、一層厳しく行われなければならないわけである。<br><br>文化が高められ、教育が普及され、常識も普遍的に高まった現代において、宗教の存在に対しての認識が“無いよりはましだ”位の考えしか持たない人や、触れても見ないで、自己意識での批判者がいまだに多くいるという事は、悲劇であると共に、宗教の堕落とも言うべきであろう。<br><br>それは今日でも多くの人々の讃仰の的となり、又は国宝として尊ばれているところの、奈良、京都その他国の各所にある宗教文化、芸術を築いた時代より遥かにも後退したと言えるからで、何故ならば、現代においては、その時代のそれ以下のものを造ろうとするさえ、嘲笑や罵言を受けなければならないし、かてて加えて圧迫さえ予算に入れなければならないからである。<br><br> 安心立命という事程、人生にとって重大な事はない。<br><br>「命は金で買えぬ」と言うではないか。<br><br>それ故に安心立命が得られるという事に対しては、如何なる感謝報恩も、これで充分だとする現わし方はないと言ってよい。<br><br> 西行法師の歌に、 何事の おはしますかは知らねども かたじけなさに涙こぽるる というのがあるが、感謝報恩の熱情の結集が、堂塔伽藍として現われ、後世までも尊崇の念を起さしめ、その聖域に入れば、何かは知らず涙のにじみ出る感激の情を起させるという事は、心の浄化が行われる聖さを持っているからである。<br><br>宗教を正しく信仰する態度と「感謝報恩」の一語に尽くるとは、御教えあるところでそれが即ち宗教を科学する行為でもある。<br><br>既成宗教が、その上の時代より衰微した為に、多くの新興宗教を生んだという事は、宗教を科学しなかった。<br><br>つまり自然の法則であるところの、初め総てのものはただであり、必要の度合、良し悪しの差別に応じて価値が生まれ、それに対して代価を払うという調和が、唯物世界に行われている事と合わせて、命の尊さ生きる有難さに対して感謝と報恩の「念」と「行」を教えなかった、というより金銭や物質を卑しむ風潮をつくった事が、一面の原因とも考えられるのである。<br><br> 科学の世界もたゆみなき協力によって、電子時代より、原子時代へと進展し、しかもその力を微粒子となる程強力であるという事も、証明出来るところまで来たのである。<br><br>宗教はそれ以上の微粒子の働きである、が、故に絶望と見なされた者が生き返ったり、不幸の奈落より歓喜の頂上へ登るような事実を、奇蹟として見せられるのであるが、大自然の法則を覚る時、奇蹟の因果関係も解明される。<br><br>故に人類の努力によって築かれた科学は、その時完全に夫婦のように一致するであろう。<br><br>かくて全人類の希求する平和へ、そのままにして方向転換が出来るのである。<br><br> 即ち「神は愛なり」で、子供が孝行すれば、現により以上に子を可愛いがり、何でも与えようとするように、ただで何でも無限に与え給う神様に密接につながり、より以上に恩恵を戴く方法が感謝であり、報恩であるという事が、常識となるからであって、そこにこそ永遠の平和は築かれるであろう事を信じて疑い得ないからである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Origem de Todas as Coisas é Gratuita</h2>
 <p>É comum ouvirmos críticas, inclusive entre indivíduos de notável instrução, que se recusam a professar ou mesmo a estudar qualquer religião. Argumentam que, nos casos em que os sofrimentos causados por doenças, as tribulações de um lar assolado por infortúnios ou a desarmonia entre cônjuges e familiares são sanados pela intercessão da virtude divina de Deus, a prática de oferecer bens ou dinheiro em gratidão parece contrariar a lógica e o bom senso. Afirmam, com desalento, que, uma vez envolvidas, as pessoas são pressionadas por doações e contribuições, sendo espoliadas de seus bens.</p>
@@ -113,5 +265,48 @@ minhas lágrimas transbordam.”</p>
 <p>As religiões estabelecidas entraram em declínio em relação a épocas passadas porque não souberam abordar a religião com uma perspectiva científica. Ou seja, não ensinaram a harmonia que existe entre o mundo material — onde tudo, a princípio, é gratuito, mas adquire valor conforme o grau de necessidade e a qualidade, exigindo uma contrapartida justa — e a nobreza da vida e a dádiva de estar vivo, que demandam gratidão e retribuição em pensamento e ação. Pelo contrário, pode-se considerar que uma das causas de seu enfraquecimento foi terem fomentado uma mentalidade que desprezava o dinheiro e os bens materiais.</p>
 <p>O mundo da ciência, por meio de incansável cooperação, avançou da era da eletrônica para a era atômica, chegando a comprovar que o poder da matéria se intensifica à medida que suas partículas se tornam menores. A religião, por sua vez, atua no nível de partículas ainda mais sutis; por essa razão, testemunhamos fatos considerados milagres, como a recuperação de pessoas tidas como desenganadas ou a ascensão do abismo do infortúnio ao ápice da alegria. Quando a Lei da Natureza for compreendida, a relação de causa e efeito por trás dos milagres também será elucidada. Nesse momento, a ciência, edificada pelo esforço humano, e a religião unir-se-ão em perfeita harmonia, como um casal. E assim, a humanidade poderá, sem desvios, redirecionar seu curso rumo à paz que tanto anseia.</p>
 <p>Isso porque “Deus é Amor”. Assim como um pai amoroso se afeiçoa ainda mais a um filho obediente e deseja dar-lhe tudo, a gratidão e a retribuição são o método para nos conectarmos mais intimamente com Deus, que nos concede tudo de forma gratuita e infinita, e para recebermos Suas graças em abundância ainda maior. Quando isso se tornar senso comum, creio, sem sombra de dúvida, que sobre este alicerce será edificada a paz eterna.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 元は何でも只である 神成大教会 堤 章吉 『地上天国』53号、昭和28(1953)年10月25日発行 宗教で病気の苦しみや、災難続きの家庭の苦労、あるいは夫婦、親子間の不和等の為に、神様、仏様の御霊徳を御取次によって受けて治される場合、その神仏にお礼として金品をあげるというのは、どうも理屈に合わないし、合点が行かない。<br/><br/>それに入ったが最後、寄付だ献金だと、尻の毛まで抜かれてしまうのだからやり切れない、と言って宗教を信仰しもせず研究もしないで批判する声を、高等教育を受けたと思われる様な人々の間にも、相当多く見受けられ、聞かされるのであって、その言うところは、神仏は慈悲であるから金品等を取るのは怪しからぬ。<br/><br/>神仏の慈悲とは空気や太陽のように普遍的なもので、かつ無限に人類の上に降り注がれているものであるから、取引的行為は嘘であり、そういう要求をするという事は、実は神仏の本意ではなく、その神仏の取次者の我欲から出た不当な搾取的行為であるというのである。<br/><br/> そこで考えてみるのに、この世の中の如何なる物でも、その物の初めから価値があったり、資本のかかっている物があるだろうかと言う事である。<br/><br/>人類が普遍的に浴している空気、太陽の光熱の恩恵は勿論ただであるが、病人の為に酸素吸入が必要となれば、ただの空気の中から取った酸素も、高い代価を支払わなければ自由には使えないし、水素だけにして使うとすれげ、矢張りそれ相当の値段が生ずる。<br/><br/>又窒素という肥料分を抽出するとなれば、これまた金がかかり、農家ではそれを買うのに苦労している現実である。<br/><br/>圧搾空気、つまり液体空気とするには更に高価につくのである。<br/><br/> 水にしても同様で、天から雨となって、ただで降って来て、清水と湧いて谷間の小川へ流れ出し、大野へ行く迄ただである。<br/><br/>否、大海原の塩水と合してもただであるが、しかしこれを飲料水とすれば、忽ち月々水道料を払わされ、もし払わなければ停止処分さえ受けなければならない。<br/><br/>又塩を必要なりとして求めるならば、ただの海水に含まれていた塩にも、忽ち金が掛って、我々は塩を金を払って買わなければならないのである。<br/><br/> 太陽の光熱についても同様な事が言えるのであって、即ち、人間生活に有効適切にする為には、暑さの厳しい夏には、扇風機や氷柱を使って調節したり、そこまで出来なければ、日除けのヨシズを張ったりというわけで、費用という金が掛り、光の熱が薄い厚い冬には暖を取るために炭、薪、石炭、電熱、瓦斯（ガス）等に矢張りお金が掛るのである。<br/><br/> あの高価なダイヤモンドも、山の岩石の中にある時、それはただである。<br/><br/>それがどうして高い代価を払わなければ手に入らないのであろうか、いう迄もなく、どこの山にもないという事によって少いのであり、それだけ探すのに期間と経費もかかり、そうして遠い所から運搬して来て、工場を造り機械を据付けて、たくさんの人を使って選鉱し、選び出されるものが少いから高くつくのであろう。<br/><br/>金にせよ銀にせよ、銅でも鉄でも鉛でも、又は石炭でもみなそうである。<br/><br/> 草花や積木にしても、野に山にある時、価いはないのであるが、庭に植え観賞しようとしたり、あるいは自然的な雰囲気を造ろうとすれば、つまらぬ植木と思うものでさえ、一本三百円も四百円もするし、一段の人々にはそれこそ高峯の花のたとえにも似て、想像もつかない値段で、草花が取引されたりするのである。<br/><br/> 我々の住んでいるこの土地にしてもそうで、人間が価値を基本にして造ったのではないのに、同じ土から出来上っているこの土地に値段があり、しかも場所によってそれが違うのである。<br/><br/> 人間が、自分達の必要や便利を満たす為に、人間の手が加わる。<br/><br/>つまり労力や資本が加えられると、そこに値段が生じ、適正な代価が決められ、それに依って取引が行われるから、人間世界では円滑に物の異動も行われるのであって、自然の法則とはこの事を言うのであり、学問の基礎ともなっている。<br/><br/>というのは真理だからであると思う。<br/><br/> 太陽が、東の空から出て西の空へ没する事も、月が二十八日目毎に盈虧（えいき）を繰返し、悠遠の昔より変らないでいるという事も、真理だからである。<br/><br/>真理とは大自然の法則であり、大宇宙の一分子である以上、地球もまた真理の法則を離れてはあり得ないわけである。<br/><br/>同時に、大自然の法則とは、首尾一貫したものであるから、大宇宙より、素粒子の世界に至るまで変らないのである。<br/><br/> 無から有が生ずる如くに思える物の価値も、自然の法則という事を覚れば、当然の事として受取れるわけで、この事は理論的な説明は出来なくても、一般の人々が理外の理として、当然なり、と受取っていればこそ、良い物は高く、悪い物は安くという工合に調和が取れているので、争いも起らず済んでいるのである。<br/><br/> で、宗教であるが、宗教といえども真理を離れては在り得ない。<br/><br/>否、宗教は真理を普遍的に行渡らせるための実行者であるから、一層厳しく行われなければならないわけである。<br/><br/>文化が高められ、教育が普及され、常識も普遍的に高まった現代において、宗教の存在に対しての認識が“無いよりはましだ”位の考えしか持たない人や、触れても見ないで、自己意識での批判者がいまだに多くいるという事は、悲劇であると共に、宗教の堕落とも言うべきであろう。<br/><br/>それは今日でも多くの人々の讃仰の的となり、又は国宝として尊ばれているところの、奈良、京都その他国の各所にある宗教文化、芸術を築いた時代より遥かにも後退したと言えるからで、何故ならば、現代においては、その時代のそれ以下のものを造ろうとするさえ、嘲笑や罵言を受けなければならないし、かてて加えて圧迫さえ予算に入れなければならないからである。<br/><br/> 安心立命という事程、人生にとって重大な事はない。<br/><br/>「命は金で買えぬ」と言うではないか。<br/><br/>それ故に安心立命が得られるという事に対しては、如何なる感謝報恩も、これで充分だとする現わし方はないと言ってよい。<br/><br/> 西行法師の歌に、 何事の おはしますかは知らねども かたじけなさに涙こぽるる というのがあるが、感謝報恩の熱情の結集が、堂塔伽藍として現われ、後世までも尊崇の念を起さしめ、その聖域に入れば、何かは知らず涙のにじみ出る感激の情を起させるという事は、心の浄化が行われる聖さを持っているからである。<br/><br/>宗教を正しく信仰する態度と「感謝報恩」の一語に尽くるとは、御教えあるところでそれが即ち宗教を科学する行為でもある。<br/><br/>既成宗教が、その上の時代より衰微した為に、多くの新興宗教を生んだという事は、宗教を科学しなかった。<br/><br/>つまり自然の法則であるところの、初め総てのものはただであり、必要の度合、良し悪しの差別に応じて価値が生まれ、それに対して代価を払うという調和が、唯物世界に行われている事と合わせて、命の尊さ生きる有難さに対して感謝と報恩の「念」と「行」を教えなかった、というより金銭や物質を卑しむ風潮をつくった事が、一面の原因とも考えられるのである。<br/><br/> 科学の世界もたゆみなき協力によって、電子時代より、原子時代へと進展し、しかもその力を微粒子となる程強力であるという事も、証明出来るところまで来たのである。<br/><br/>宗教はそれ以上の微粒子の働きである、が、故に絶望と見なされた者が生き返ったり、不幸の奈落より歓喜の頂上へ登るような事実を、奇蹟として見せられるのであるが、大自然の法則を覚る時、奇蹟の因果関係も解明される。<br/><br/>故に人類の努力によって築かれた科学は、その時完全に夫婦のように一致するであろう。<br/><br/>かくて全人類の希求する平和へ、そのままにして方向転換が出来るのである。<br/><br/> 即ち「神は愛なり」で、子供が孝行すれば、現により以上に子を可愛いがり、何でも与えようとするように、ただで何でも無限に与え給う神様に密接につながり、より以上に恩恵を戴く方法が感謝であり、報恩であるという事が、常識となるからであって、そこにこそ永遠の平和は築かれるであろう事を信じて疑い得ないからである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

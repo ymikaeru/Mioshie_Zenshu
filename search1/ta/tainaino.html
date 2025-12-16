@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>tainaino</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 体内の入浴 『救世』147号、昭和27(1952)年3月12日発行 私は現代医学の誤謬を常にかいているが、何しろ今まで長い間病気は医者と薬という事に決まっているのであるから、吾々の言う理屈はなるほどと分かっていても、思い切って実行する事が出来ないのが、大抵な人の想念である。<br><br>だからそういう人達のために、出来るだけ分かり易く、ここにかいてみようと思うのである。<br><br> それについて一番判り易い病気としては、何といっても風邪であろう。<br><br>そうしてまず風邪を引くやイキナリ熱が出て、咳や痰、くさめ、水ッ洟、頭痛、節々の痛み等の苦しみがおこるので、早速お医者に診て貰う。<br><br>ところがここに問題がある。<br><br>誰しも風邪くらいと思っている半面、ウッカリすると、どんな事になるか分からない、あるいは大病の始まりかも知れないという心配が頭を持ち上げてくる。<br><br>そこでお医者の言う通りにして治まるのを待っている。<br><br>また人によってはアスピリンや葛根湯（かっこんとう）を煎じて服むとか、御手製の玉子酒、蜜柑の黒焼きなどを呑んで、ウント蒲団を被り、真っ赤になって汗を出すやり方である。<br><br>また懐の温かい臆病な人は、そんな姑息（こそく）な方法は出来ないとして、手遅れになっては大変だ、それこそ取り返しがつかないと、普段から信用しているお医者に馳けつける。<br><br>そこで色々お医者に訊くが、何しろ風邪の原因すら分かっていない医学の事だから、ハッキリ説明が出来ないので安心は出来ない。<br><br>それもそのはず、お医者自身でさえ肚の中では、あるいは肺炎になるかも知れないという懸念もあるからで、そこでまず安静第一と、精々御大事にしなさいくらいの御座なり的言葉なので、心細い事おびただしい。<br><br>といって外にどうしようもないから、ビクビクもので、一日中体温計と首ッ引きであるのを、吾々から見れば実に滑稽至極（こっけいしごく）である。<br><br> ところがいつも言う通り、風邪くらい結構なものはないので、体中のどこかしらに溜っている毒の掃除であるからで、すなわち熱のために溶けた痰や水ッ洟、汗などが出るだけ出れば治ってしまい、後はサッパリして健康は増すからである。<br><br>つまりロハで体内の掃除が出来るのだから、こんな有難い話はないではないか。<br><br>これをたとえてみれば、入浴は外部の清潔法で、風邪は内部の清潔法と思えばいい。<br><br>つまり皮膚に溜った垢を落すのと同様体内に溜った垢を落すのである。<br><br>だから痰や鼻汁、汗も垢である。<br><br>もちろん皮膚は人間の手で洗えるからいいが、腹の中はそうはゆかないが、自然は有難いもので、風邪という方法で洗い落されるのだから、何と造物主という神様が巧く造られたものではないか、としたら実に風邪様々である。<br><br>だから出来るだけ風邪を引くようにすればいいので、これがまず一番の健康法である。<br><br>つまり神様の造った健康法である。<br><br>従ってこの理屈が分かっただけでも、心配は半分以上減ってしまうのは当然で、反って手当などせず放っておくに限るので、それでとても順調に治るから、今度風邪を引いたら試してみればよく分かる。<br><br>しかも体内が清まる以上、その後は段々風邪を引かなくなる。<br><br>ところがそんな簡単な理屈が今日まで分からなかったという事は実に不思議で、人間くらい愚かなものはないと私は思っている。<br><br>という訳で風邪を無暗に恐れ、引いたが最後余計な金を使い、仕事もせず散々苦しんだあげく、結核などになるのだから、憐れなる者よ汝の名は人間也と言いたいくらいである。<br><br>そればかりではない。<br><br>ここに問題なのは薬である。<br><br>前記のごとく体内の清潔法を逆解して停めようとするのが医学であり、そのため用いるのが薬と称する毒物である。<br><br>およそ世の中に本当の薬というものは一つもない。<br><br>強いていえばまず米の飯であろう。<br><br>これは人間が生きてる以上、一日も欠かす事が出来ないからである。<br><br>だから今日薬といって有難がっているものはことごとく毒であって、毒の力で治るのを邪魔するのだから、これ程間違った話はあるまい。<br><br>ではどうしてそんなに間違ったかというと、清潔作用の苦しみが薬で一時楽になるから、それを治るものと錯覚してしまったからである。<br><br>とすれば薬というものは全く禁断の木（こ）の実であろう。<br><br> ところがまだ大変な事がある。<br><br>それは薬毒は体内へ入ると大部分は残ってしまい、何年、何十年経っても外へ出ないで、体内各局所に固まってしまうのである。<br><br>それに清潔作用が起こる。<br><br>それが風邪であるから、そのまま放っておけば必ず治るものを、わざわざ薬で拗（こじ）らし余病を作ったり、悪化さしたりして、命までもフイにするのだから、あきれて物が言えないのである。<br><br>こうみてくると病気の因は全く薬毒であるから、人間は薬を廃め、出来るだけ風邪を引くようにすれば、年中無病息災となり、長生きする事請合である。<br><br> このような素晴しい人類の誤りを私は発見し、しかも浄霊という薬毒排除法まで教えるのであるから、私の事業たるや、いかに大きな救いであるかが分かるであろう。<br><br>私の唱える病貧争絶無の地上天国を造るなどと、偉そうにいうのも、まんざら法螺（ほら）でない事が肯かれるであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Banho Interno do Corpo</h2>
 <p>Embora eu escreva constantemente sobre os equívocos da medicina moderna, a crença de que as doenças são um assunto para médicos e remédios está profundamente arraigada. Por essa razão, ainda que compreendam a lógica de nossos argumentos, a maioria das pessoas não consegue colocá-los em prática de maneira resoluta. Assim, para o bem de todos, procurarei expor o assunto aqui da forma mais acessível possível.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Há, ainda, um fato gravíssimo. Uma vez ingeridas, grande parte das toxinas medicinais permanece no organismo. Mesmo após anos, ou décadas, elas não são expelidas, solidificando-se em diversas partes do corpo. É sobre essas toxinas que atua o processo de purificação, manifestando-se como resfriado. Se deixado em seu curso natural, ele certamente levaria à cura. No entanto, as pessoas insistem em usar remédios que apenas complicam o quadro, geram enfermidades secundárias e agravam a condição, a ponto de ceifar a própria vida. É uma situação tão absurda que me faltam palavras.</p>
 <p>Analisando sob essa ótica, a causa fundamental das doenças reside unicamente no yakudoku (薬毒), as toxinas medicinais. Garanto que, se o ser humano abolir os remédios e se permitir contrair resfriados sempre que necessário, gozará de saúde e bem-estar durante todo o ano e terá uma vida longa.</p>
 <p>Eu não apenas descobri este erro monumental da humanidade, como também ensino um método para a eliminação das toxinas medicinais, chamado Johrei. Compreenderão, assim, o quão grandiosa é a salvação proporcionada pela minha Obra. Hão de convir que minha proposição de construir um Paraíso Terrestre livre da doença, da pobreza e do conflito, longe de ser uma bravata, possui fundamentos sólidos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 体内の入浴 『救世』147号、昭和27(1952)年3月12日発行 私は現代医学の誤謬を常にかいているが、何しろ今まで長い間病気は医者と薬という事に決まっているのであるから、吾々の言う理屈はなるほどと分かっていても、思い切って実行する事が出来ないのが、大抵な人の想念である。<br/><br/>だからそういう人達のために、出来るだけ分かり易く、ここにかいてみようと思うのである。<br/><br/> それについて一番判り易い病気としては、何といっても風邪であろう。<br/><br/>そうしてまず風邪を引くやイキナリ熱が出て、咳や痰、くさめ、水ッ洟、頭痛、節々の痛み等の苦しみがおこるので、早速お医者に診て貰う。<br/><br/>ところがここに問題がある。<br/><br/>誰しも風邪くらいと思っている半面、ウッカリすると、どんな事になるか分からない、あるいは大病の始まりかも知れないという心配が頭を持ち上げてくる。<br/><br/>そこでお医者の言う通りにして治まるのを待っている。<br/><br/>また人によってはアスピリンや葛根湯（かっこんとう）を煎じて服むとか、御手製の玉子酒、蜜柑の黒焼きなどを呑んで、ウント蒲団を被り、真っ赤になって汗を出すやり方である。<br/><br/>また懐の温かい臆病な人は、そんな姑息（こそく）な方法は出来ないとして、手遅れになっては大変だ、それこそ取り返しがつかないと、普段から信用しているお医者に馳けつける。<br/><br/>そこで色々お医者に訊くが、何しろ風邪の原因すら分かっていない医学の事だから、ハッキリ説明が出来ないので安心は出来ない。<br/><br/>それもそのはず、お医者自身でさえ肚の中では、あるいは肺炎になるかも知れないという懸念もあるからで、そこでまず安静第一と、精々御大事にしなさいくらいの御座なり的言葉なので、心細い事おびただしい。<br/><br/>といって外にどうしようもないから、ビクビクもので、一日中体温計と首ッ引きであるのを、吾々から見れば実に滑稽至極（こっけいしごく）である。<br/><br/> ところがいつも言う通り、風邪くらい結構なものはないので、体中のどこかしらに溜っている毒の掃除であるからで、すなわち熱のために溶けた痰や水ッ洟、汗などが出るだけ出れば治ってしまい、後はサッパリして健康は増すからである。<br/><br/>つまりロハで体内の掃除が出来るのだから、こんな有難い話はないではないか。<br/><br/>これをたとえてみれば、入浴は外部の清潔法で、風邪は内部の清潔法と思えばいい。<br/><br/>つまり皮膚に溜った垢を落すのと同様体内に溜った垢を落すのである。<br/><br/>だから痰や鼻汁、汗も垢である。<br/><br/>もちろん皮膚は人間の手で洗えるからいいが、腹の中はそうはゆかないが、自然は有難いもので、風邪という方法で洗い落されるのだから、何と造物主という神様が巧く造られたものではないか、としたら実に風邪様々である。<br/><br/>だから出来るだけ風邪を引くようにすればいいので、これがまず一番の健康法である。<br/><br/>つまり神様の造った健康法である。<br/><br/>従ってこの理屈が分かっただけでも、心配は半分以上減ってしまうのは当然で、反って手当などせず放っておくに限るので、それでとても順調に治るから、今度風邪を引いたら試してみればよく分かる。<br/><br/>しかも体内が清まる以上、その後は段々風邪を引かなくなる。<br/><br/>ところがそんな簡単な理屈が今日まで分からなかったという事は実に不思議で、人間くらい愚かなものはないと私は思っている。<br/><br/>という訳で風邪を無暗に恐れ、引いたが最後余計な金を使い、仕事もせず散々苦しんだあげく、結核などになるのだから、憐れなる者よ汝の名は人間也と言いたいくらいである。<br/><br/>そればかりではない。<br/><br/>ここに問題なのは薬である。<br/><br/>前記のごとく体内の清潔法を逆解して停めようとするのが医学であり、そのため用いるのが薬と称する毒物である。<br/><br/>およそ世の中に本当の薬というものは一つもない。<br/><br/>強いていえばまず米の飯であろう。<br/><br/>これは人間が生きてる以上、一日も欠かす事が出来ないからである。<br/><br/>だから今日薬といって有難がっているものはことごとく毒であって、毒の力で治るのを邪魔するのだから、これ程間違った話はあるまい。<br/><br/>ではどうしてそんなに間違ったかというと、清潔作用の苦しみが薬で一時楽になるから、それを治るものと錯覚してしまったからである。<br/><br/>とすれば薬というものは全く禁断の木（こ）の実であろう。<br/><br/> ところがまだ大変な事がある。<br/><br/>それは薬毒は体内へ入ると大部分は残ってしまい、何年、何十年経っても外へ出ないで、体内各局所に固まってしまうのである。<br/><br/>それに清潔作用が起こる。<br/><br/>それが風邪であるから、そのまま放っておけば必ず治るものを、わざわざ薬で拗（こじ）らし余病を作ったり、悪化さしたりして、命までもフイにするのだから、あきれて物が言えないのである。<br/><br/>こうみてくると病気の因は全く薬毒であるから、人間は薬を廃め、出来るだけ風邪を引くようにすれば、年中無病息災となり、長生きする事請合である。<br/><br/> このような素晴しい人類の誤りを私は発見し、しかも浄霊という薬毒排除法まで教えるのであるから、私の事業たるや、いかに大きな救いであるかが分かるであろう。<br/><br/>私の唱える病貧争絶無の地上天国を造るなどと、偉そうにいうのも、まんざら法螺（ほら）でない事が肯かれるであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

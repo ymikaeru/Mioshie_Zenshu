@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>dokuso03</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 毒素は頭脳に集中 ・法話（二） 『東京日々新聞』昭和28(1953)年2月25日発行 薬毒の溜る場所は必ず神経を使うところに限られ、上半身、特に頭脳を中心として眼、耳、鼻、口などでここに毒素が集中して一たん頸（くび）の周りに固まる。<br><br>これをコリといって、ある程度に達すると浄化作用（自然排泄作用）が発生する。<br><br>この場合、発熱によって毒結は溶けて液体となり、咳、痰、鼻汁、汗、下痢、熱尿などになって排除される。<br><br>この状態を普通感冒と名付けている。<br><br> 感冒は、毒素排除の一つの過程だから、少し苦しいかも知れないが、我慢して自然に委せておけば順調に排泄され、体内は清浄になって治る。<br><br>これを知らないからこの浄化の苦痛を悪い意味に解釈して考え出したのが医療だ。<br><br>この医療というものがどんなに間違っているものだか解るだろう。<br><br> ところがこの浄化作用は人体の活力が旺盛であればある程、起り易いもので、これを停めるには、人体の活力を弱らせるに限るというわけで、薬を用いたことになる。<br><br>またよく効く薬とは、中毒を起さない程度に毒を強めたものだといえる。<br><br>このように薬毒で溶解排除しようとしてかえって毒素を固めてきたから、今の人達がいかに有毒者であり、病気が起り易くなっているかはよく解ると思う。<br><br> 最近人間の平均寿命が六十何歳になったといって喜んでいるが、これはおかしい。<br><br>人間は病気さえなければ、百歳以上は楽に生きられる。<br><br>百歳以下で死ぬのは病気による不自然死のためで、無病となれば自然死だから当然長生きする。<br><br>要するに医療は病気をなおすのでなくて、一時的苦痛の緩和手段に外ならない。<br><br>医療の中でちょっと違うのは灸点（きゅうてん）と温熱方法だが、これも一時的な熱の刺激によって、その場所へ毒素を誘導させるので楽にはなるがまた元にもどってしまうから、結局なんにもならない。<br><br> ラジウム放射で癌を破壊する方法もあるが、これも癌だけの破壊なら結構だが、実は組織そのものまで破壊してしまうから差引きマイナスだ。<br><br>つまり現在までの療法は徹頭徹尾固める方法で毒素を溶かして、排除させはしないわけだ。<br><br>このことは病人が医者の所に行っても、医者は決して「治す」とはいわず、「固める」というのを見ても解る。<br><br>余談だが、治そうとして高い薬などを使っている人ほど病気がなおらず、その反対に「どうでもいい」と思う病人程、治りがいいという話を、医者からよく聞くが、これはよく解る話だ。<br><br> 昔の諺（ことわざ）に「ウヌボレとカサッ気のない者はいない」というのがあるがこのカサッ気は、俗に胎毒といっており、近代医学では遺伝黴毒ということだ。<br><br>これは薬毒の古くなったもので、一度は排除作用が発生しなくてはならないのだが、この現象を天然痘といっている。<br><br>昔ジェンナーが種痘というものを発見して、天然痘をまぬがれたが、種痘によって天然痘の毒素が完全に消滅したわけではない。<br><br>これは単に排除の力を弱まらせただけで毒は依然として体の中に残っている。<br><br>この残っている毒素がいろいろな病源にもなっている。<br><br>その順序をいうと、毒は時が経つと、身体のうちのどこかの場所に集まって固まる。<br><br>この浄化作用が感冒でありまたいろいろの皮膚病、擬似小児麻痺、脳膜炎でもあるがイギリスや、フランスの国民の健康が衰えたのは、種痘が発見されてからという事実から見ても、人類から天然痘を失くすためには、薬を全部海にでも捨てなくちゃいけないが、こんなことをしても急には効果が現われない。<br><br>なぜかというと、何世紀もの間、薬詰めになってきた人間だから全部治すには、二、三代はかかると見なくてはいけないだろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Concentração das Toxinas e a Ilusão da Terapêutica Moderna</h2>
 <p>Os locais de acúmulo das toxinas medicinais restringem-se, invariavelmente, às áreas de maior atividade nervosa. Concentram-se, portanto, na parte superior do corpo, com foco primordial no cérebro e em órgãos como os olhos, os ouvidos, o nariz e a boca. É nessas regiões que as toxinas se adensam, solidificando-se ao redor do pescoço. Quando essa rigidez atinge um determinado grau, desencadeia-se o processo de purificação, ou seja, a expulsão natural. Nesse caso, a febre dissolve esses nódulos tóxicos, convertendo-os em estado líquido, que é então expelido através de tosse, expectoração, coriza, suor, diarreia e urina quente. É a essa condição que se dá o nome de resfriado comum.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Existe também o método de destruir o câncer com radioterapia, o que seria excelente se se limitasse a destruir apenas o tumor. Contudo, a radiação aniquila igualmente os tecidos saudáveis adjacentes, resultando em um saldo negativo. Isso demonstra que todas as terapias desenvolvidas até hoje são, fundamentalmente, métodos de solidificação, que jamais dissolvem e expelem as toxinas. A propósito, é comum ouvir dos próprios médicos que os pacientes que mais se esforçam pela cura, recorrendo a medicamentos caros, são os que menos melhoram. Em contrapartida, aqueles que adotam uma atitude de desapego em relação ao resultado costumam se recuperar mais facilmente. Um fato perfeitamente compreensível.</p>
 <p>Um antigo provérbio afirma que ninguém está isento de vaidade e de uma toxina latente. Essa toxina, popularmente chamada de congênita, corresponde ao que a medicina moderna denomina sífilis hereditária. Trata-se de um veneno medicinal antigo, que, em algum momento, precisa passar por um processo de expulsão. A esse fenômeno de purificação dá-se o nome de varíola. No passado, a descoberta da vacina por Jenner permitiu que a humanidade se livrasse da varíola, mas isso não significou que as toxinas da doença foram completamente eliminadas. A vacinação apenas enfraqueceu a força de expulsão, de modo que o veneno permaneceu latente no organismo. São essas toxinas remanescentes que se tornam a causa de inúmeras outras enfermidades.</p>
 <p>O processo ocorre da seguinte forma: com o passar do tempo, o veneno acumula-se e solidifica-se em alguma parte do corpo. A purificação desse acúmulo pode manifestar-se como um resfriado, diversas doenças de pele, uma forma de paralisia infantil ou meningite. O fato de a saúde das populações da Inglaterra e da França ter declinado após a introdução da vacina corrobora essa verdade. Para erradicar a varíola da humanidade, seria preciso lançar ao mar todos os medicamentos existentes. Mesmo uma medida tão drástica, contudo, não surtiria efeito imediato. A razão é que o ser humano foi saturado por venenos medicinais ao longo de séculos. Portanto, para uma purificação completa, será necessário um período de duas a três gerações.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 毒素は頭脳に集中 ・法話（二） 『東京日々新聞』昭和28(1953)年2月25日発行 薬毒の溜る場所は必ず神経を使うところに限られ、上半身、特に頭脳を中心として眼、耳、鼻、口などでここに毒素が集中して一たん頸（くび）の周りに固まる。<br/><br/>これをコリといって、ある程度に達すると浄化作用（自然排泄作用）が発生する。<br/><br/>この場合、発熱によって毒結は溶けて液体となり、咳、痰、鼻汁、汗、下痢、熱尿などになって排除される。<br/><br/>この状態を普通感冒と名付けている。<br/><br/> 感冒は、毒素排除の一つの過程だから、少し苦しいかも知れないが、我慢して自然に委せておけば順調に排泄され、体内は清浄になって治る。<br/><br/>これを知らないからこの浄化の苦痛を悪い意味に解釈して考え出したのが医療だ。<br/><br/>この医療というものがどんなに間違っているものだか解るだろう。<br/><br/> ところがこの浄化作用は人体の活力が旺盛であればある程、起り易いもので、これを停めるには、人体の活力を弱らせるに限るというわけで、薬を用いたことになる。<br/><br/>またよく効く薬とは、中毒を起さない程度に毒を強めたものだといえる。<br/><br/>このように薬毒で溶解排除しようとしてかえって毒素を固めてきたから、今の人達がいかに有毒者であり、病気が起り易くなっているかはよく解ると思う。<br/><br/> 最近人間の平均寿命が六十何歳になったといって喜んでいるが、これはおかしい。<br/><br/>人間は病気さえなければ、百歳以上は楽に生きられる。<br/><br/>百歳以下で死ぬのは病気による不自然死のためで、無病となれば自然死だから当然長生きする。<br/><br/>要するに医療は病気をなおすのでなくて、一時的苦痛の緩和手段に外ならない。<br/><br/>医療の中でちょっと違うのは灸点（きゅうてん）と温熱方法だが、これも一時的な熱の刺激によって、その場所へ毒素を誘導させるので楽にはなるがまた元にもどってしまうから、結局なんにもならない。<br/><br/> ラジウム放射で癌を破壊する方法もあるが、これも癌だけの破壊なら結構だが、実は組織そのものまで破壊してしまうから差引きマイナスだ。<br/><br/>つまり現在までの療法は徹頭徹尾固める方法で毒素を溶かして、排除させはしないわけだ。<br/><br/>このことは病人が医者の所に行っても、医者は決して「治す」とはいわず、「固める」というのを見ても解る。<br/><br/>余談だが、治そうとして高い薬などを使っている人ほど病気がなおらず、その反対に「どうでもいい」と思う病人程、治りがいいという話を、医者からよく聞くが、これはよく解る話だ。<br/><br/> 昔の諺（ことわざ）に「ウヌボレとカサッ気のない者はいない」というのがあるがこのカサッ気は、俗に胎毒といっており、近代医学では遺伝黴毒ということだ。<br/><br/>これは薬毒の古くなったもので、一度は排除作用が発生しなくてはならないのだが、この現象を天然痘といっている。<br/><br/>昔ジェンナーが種痘というものを発見して、天然痘をまぬがれたが、種痘によって天然痘の毒素が完全に消滅したわけではない。<br/><br/>これは単に排除の力を弱まらせただけで毒は依然として体の中に残っている。<br/><br/>この残っている毒素がいろいろな病源にもなっている。<br/><br/>その順序をいうと、毒は時が経つと、身体のうちのどこかの場所に集まって固まる。<br/><br/>この浄化作用が感冒でありまたいろいろの皮膚病、擬似小児麻痺、脳膜炎でもあるがイギリスや、フランスの国民の健康が衰えたのは、種痘が発見されてからという事実から見ても、人類から天然痘を失くすためには、薬を全部海にでも捨てなくちゃいけないが、こんなことをしても急には効果が現われない。<br/><br/>なぜかというと、何世紀もの間、薬詰めになってきた人間だから全部治すには、二、三代はかかると見なくてはいけないだろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

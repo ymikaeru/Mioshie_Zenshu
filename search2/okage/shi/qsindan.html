@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qsindan</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 診断の奇蹟！ 『結核信仰療法』昭和27(1952)年12月1日発行 東京都 和光中教会 江副善蔵（23） 私事、長崎県佐世保市早岐の光宝大教会支部において昨年一月入信さして戴き、現在東京におりますが、今日迄の短い期間にも幾多の御守護を賜わり感謝の毎日を過させて頂いております。<br><br>ここに御守護の一端を御報告させて頂きたいとおもいます。<br><br> 一昨年十月に医者より急性肺炎を診断され、医療に頼っておりましたが、引続き微熱が約二カ月近くあり、レントゲン写真により肺浸潤を宣告されまして、引続き二カ月間の休養を申渡されました。<br><br>その頃母が里より参りまして、神様の尊いお力を説き、御浄霊を頂くように勧めてくれましたが、当時ラジオや新聞のメシヤ教に対する報道を聞きかつ読んだりしていました私は、頑迷にも否定しつづけたまま一応郷里へ帰りました。<br><br>今思い出してもただ申し訳なく思っております。<br><br>それから十二月の終りにふたたび発熱致し、食欲もなく半月位の間苦しみ続けましたが、医者はただ首をかしげるばかりで「多分感冒でしょう」と言うのみでございました。<br><br>母や姉は薬は何としても止めるように申し、ここに至って初めてさすがの頑迷であった私も、遂に神様におすがりするようになりました。<br><br>すると御浄霊を頂いているうちに急に憑霊して参りいろんな事を申しましたが、初めての事とてただ夢中でございました。<br><br>早速教会より先生に来て頂き、御浄霊を戴いておりましたところぐんぐん快くなり、日ならずして教会までお詣りに行ける程になりました。<br><br>この偉大なる神様の御救いを頂いた私は早速教修を受けさして戴き、あれ程頑迷であった私にも数々の奇蹟を体験させて頂きつつ、やがて二カ月間の療養期間を終り上京致しましたが、その時は浄化を頂き、ふたたび郷里へ帰りました。<br><br>すると暫く経って勤務先（東京都水道局）の要請により三月十九日にレントゲン写真を撮り送りましたところ、折返し返信があり「今度の写真では充分働ける体になっているという判定だから、まず一応上京ありたし」という意味の事が書いてありましたので、早速上京致し十日間程勤務致しましたところ、もう一度診断を受けるようにとの事でしたので、まず教会へ行きお参りをさして頂いてから都庁へ行きました。<br><br>すると以前に判定した同じ写真で同じ医師の診断が何と「こんな身体で働くなんてとんでもない。<br><br>これはもっと休養してから出勤するように」との事でありました。<br><br>これを聞いて私達はすっかり驚いてしまいました。<br><br>かつて同博士は右の写真を見て「人間の体をＡ、Ｂ、Ｃに分けるとしたら、まさにＡの位であって充分に働ける」と断言したとの事でした。<br><br>その同じ医師が全く同じ写真で全然逆の判定をしてしまったのであります。<br><br>なおこの判定がもしも初めと同じものであったとしたら、二月以降四月前半期迄の受領した給料の半分は返納しなければならない事になっていたのでありますが、この判定により返納しなくてもよい事になりました。<br><br>私としてはその時になって返納する事は大変苦しい事だったのです。<br><br>しかも私の体は御浄霊をいただいておりますうちに以前とは見違える程になったと、自他共に言っていたものですから、この診断には全く驚いてしまいました。<br><br>しかしまだ充分に働けるまでには至っておらず、苦しいのを辛抱して仕事をさしていただいたのでした。<br><br>その時なのです。<br><br>神様は期せずして休暇を与えて下さったのです。<br><br>そうでなければこのような不思議があるわけがありません。<br><br>世のほとんどの人が絶対だと信じているでありましょうレントゲン写真の判定において、以上のごとき不思議を身をもって体験さして頂けました事を思う時、これこそ病める身を救われるのみでなく貧よりも解放されるという一つの現われではないでしょうか。<br><br>病貧争をこの地上より無くするという事は、決して単なる言葉の飾りでもない事を知らして頂きました。<br><br>それは幾多の事実が証明しています。<br><br>理論よりもまず事実です。<br><br>現在かつての私を知っている人は、あの頃とは打って変って元気になった私にただ驚きの目を見はっています。<br><br>神様は私のような至らない者に迄も限りない御恵みを垂れ給うたのであります。<br><br>この大いなる神の大愛に一人でも多くの人が一日も早く救われますよう念じつつ拙ない筆をおかさせて頂きます。<br><br> 明主様有難うございました。<br><br> （二十六年二月十日提出）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O milagre do diagnóstico! ("Terapia da Fé para a Tuberculose", publicado em 1º de dezembro de 1952)</h2>
 <p><strong>Igreja Wako Naka, Tóquio</strong>
@@ -108,5 +263,48 @@ function toggleLang(lang) {
 <p>Finalizo este humilde relato rogando para que o maior número possível de pessoas seja salvo, o mais brevemente possível, por este imenso Amor Divino.</p>
 <p>Muito obrigado, Meishu-Sama.</p>
 <p>(Relato enviado em 10 de fevereiro de 1951)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 診断の奇蹟！ 『結核信仰療法』昭和27(1952)年12月1日発行 東京都 和光中教会 江副善蔵（23） 私事、長崎県佐世保市早岐の光宝大教会支部において昨年一月入信さして戴き、現在東京におりますが、今日迄の短い期間にも幾多の御守護を賜わり感謝の毎日を過させて頂いております。<br/><br/>ここに御守護の一端を御報告させて頂きたいとおもいます。<br/><br/> 一昨年十月に医者より急性肺炎を診断され、医療に頼っておりましたが、引続き微熱が約二カ月近くあり、レントゲン写真により肺浸潤を宣告されまして、引続き二カ月間の休養を申渡されました。<br/><br/>その頃母が里より参りまして、神様の尊いお力を説き、御浄霊を頂くように勧めてくれましたが、当時ラジオや新聞のメシヤ教に対する報道を聞きかつ読んだりしていました私は、頑迷にも否定しつづけたまま一応郷里へ帰りました。<br/><br/>今思い出してもただ申し訳なく思っております。<br/><br/>それから十二月の終りにふたたび発熱致し、食欲もなく半月位の間苦しみ続けましたが、医者はただ首をかしげるばかりで「多分感冒でしょう」と言うのみでございました。<br/><br/>母や姉は薬は何としても止めるように申し、ここに至って初めてさすがの頑迷であった私も、遂に神様におすがりするようになりました。<br/><br/>すると御浄霊を頂いているうちに急に憑霊して参りいろんな事を申しましたが、初めての事とてただ夢中でございました。<br/><br/>早速教会より先生に来て頂き、御浄霊を戴いておりましたところぐんぐん快くなり、日ならずして教会までお詣りに行ける程になりました。<br/><br/>この偉大なる神様の御救いを頂いた私は早速教修を受けさして戴き、あれ程頑迷であった私にも数々の奇蹟を体験させて頂きつつ、やがて二カ月間の療養期間を終り上京致しましたが、その時は浄化を頂き、ふたたび郷里へ帰りました。<br/><br/>すると暫く経って勤務先（東京都水道局）の要請により三月十九日にレントゲン写真を撮り送りましたところ、折返し返信があり「今度の写真では充分働ける体になっているという判定だから、まず一応上京ありたし」という意味の事が書いてありましたので、早速上京致し十日間程勤務致しましたところ、もう一度診断を受けるようにとの事でしたので、まず教会へ行きお参りをさして頂いてから都庁へ行きました。<br/><br/>すると以前に判定した同じ写真で同じ医師の診断が何と「こんな身体で働くなんてとんでもない。<br/><br/>これはもっと休養してから出勤するように」との事でありました。<br/><br/>これを聞いて私達はすっかり驚いてしまいました。<br/><br/>かつて同博士は右の写真を見て「人間の体をＡ、Ｂ、Ｃに分けるとしたら、まさにＡの位であって充分に働ける」と断言したとの事でした。<br/><br/>その同じ医師が全く同じ写真で全然逆の判定をしてしまったのであります。<br/><br/>なおこの判定がもしも初めと同じものであったとしたら、二月以降四月前半期迄の受領した給料の半分は返納しなければならない事になっていたのでありますが、この判定により返納しなくてもよい事になりました。<br/><br/>私としてはその時になって返納する事は大変苦しい事だったのです。<br/><br/>しかも私の体は御浄霊をいただいておりますうちに以前とは見違える程になったと、自他共に言っていたものですから、この診断には全く驚いてしまいました。<br/><br/>しかしまだ充分に働けるまでには至っておらず、苦しいのを辛抱して仕事をさしていただいたのでした。<br/><br/>その時なのです。<br/><br/>神様は期せずして休暇を与えて下さったのです。<br/><br/>そうでなければこのような不思議があるわけがありません。<br/><br/>世のほとんどの人が絶対だと信じているでありましょうレントゲン写真の判定において、以上のごとき不思議を身をもって体験さして頂けました事を思う時、これこそ病める身を救われるのみでなく貧よりも解放されるという一つの現われではないでしょうか。<br/><br/>病貧争をこの地上より無くするという事は、決して単なる言葉の飾りでもない事を知らして頂きました。<br/><br/>それは幾多の事実が証明しています。<br/><br/>理論よりもまず事実です。<br/><br/>現在かつての私を知っている人は、あの頃とは打って変って元気になった私にただ驚きの目を見はっています。<br/><br/>神様は私のような至らない者に迄も限りない御恵みを垂れ給うたのであります。<br/><br/>この大いなる神の大愛に一人でも多くの人が一日も早く救われますよう念じつつ拙ない筆をおかさせて頂きます。<br/><br/> 明主様有難うございました。<br/><br/> （二十六年二月十日提出）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

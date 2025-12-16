@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qsisen3</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 死線を超える事幾度 『地上天国』4号、昭和24(1949)年5月25日発行 自観叢書第4篇『奇蹟物語』昭和24(1949)年10月5日発行 神奈川県 日本観音教日本会会長 二本木暉子（41） 私は十九歳の春忘れも致しません。<br><br>三月十五日二階の階段三段目より足を踏みはずし顛落したのが動機で、それ以来脊髄カリエス患者となり、十六年の長い年月の明け暮れ、何とかして健康者になりたいと激痛と精神的の悩みに日夜どれ程苦しんだか、その当時を顧み今思出してもぞっと致します。<br><br>最初の三年程は割合に苦痛も少なかったために半年入院致し、退院後は絶えず医師の忠告をうけながらカリエスに良いと言われる温泉にはどこへでも出掛けて行き色々と養生に勤めておりました。<br><br> このような事を繰返しております内に四年目頃より表を歩いております時など急に膝を折ったり小石などに躓きましても全身に響き、その度に息もつけぬような痛さを感じ、歩行も段々困難になり体全体がだるく床に伏している時が多くなって来ました。<br><br>勿論ギブスも作り注射薬は一日も休む事なく医師に頼り切っておりましたが、その後二十歳の正月元日の夜中から腰が痛み出し、二日の朝日が覚めますと腰が全然立たなくなって非常に吃驚し、早速医師を迎えて診察を受けたのですが、注射より外に手当の方法はなく、実に頼りない思いで毎日をすごしております中、十日目にやっと床の上に座れるようになり、妹に背中をさすってもらいますと、今迄それ程出ていなかった脊髄の骨が三分程高くなっているのに驚き、ついに傴僂（せむし）になった事を知りました。<br><br>そしてこの時から医学に許り頼ってはいられないと思い、民間療法を手当り次第に漁ることとなり、電気、指圧、鍼、灸、漢方薬は勿論毎日の新聞は第一番に広告欄に目を通し、カリエスの薬が出ておりますと片端しからとりよせますし、医師からは絶対安静を言渡されておりましたが、どこそこによい病院があるとか治療があると教え戴くとどのような遠方迄も自動車で苦心を致して診察を受けに行くのですが、帰りは必ず失望する事も幾度となくありました。<br><br>ただ健康になれたらと焦る余り、色々な事に迷いますので、親、兄妹知人に「そんなに迷っては」と意見をされた事も度々ありましたが、何しろ我ままが通せる立場にありましたのと、私はもしこの世に神仏があるとすればいつかは必ず奇蹟にぶつかって救われるような気持がしており、本当の物に突当る迄は何でも受入れてみると言う強い信念を持っておりました。<br><br>勿論色々な信仰も致しましたが、何んの御利益も戴けませんでした。<br><br> 私がその頃どんなに迷ったかと言うにお見舞に来て下さる方が「また何かよい薬か療法がありましたか」とよく聴かれたものです。<br><br>こうして焦りながらも月日は矢のようにすぎ病勢は段々悪化の一途を辿って行くのでした。<br><br>そして三十二歳の二月半ばに急性肺炎と腎孟炎を患い忽ち重態に陥りいよいよ衰弱の極に達しました。<br><br>床の上から担架にのせられて出て行く時は自分も周囲の人も「今度は生きて再びこの家の門はくぐれまい」と思って堪らない淋しさを感じました。<br><br> そして入院後五日間は意識不明で、気がついた時の親兄妹の喜びようはたとえようも有りませんでしたが、それから一カ月位の間はお見舞の人がほとんど見えないので不思議に思っておりますと、ある日廊下で「まだ面会謝絶ですか」と言う声がしているのを聞いて吃驚し、早速謝絶の札を外ずしてもらいましたが、その後も危険状態になった事が三度許りあったそうです。<br><br>後になって院長副院長の話によれば「たまに奇蹟的に治る患者もあるが、あなたのような患者が助かったのは初めての事だ」と驚いておりました。<br><br> これは後で聴いた話ですが、医師は親兄弟には「よくなったようでも今一時的で長い事はない」とはっきり申していたそうです。<br><br>とにかく五カ月目には無理に退院致し、看護婦付添いで帰って参り、自宅療法二カ月で看護婦の手が一時切れましたので喜んでおりましたのもつかのま、それから二十日程経ましたある夜便所に立って歩き出そうとした途端ぎくんと腰に響いたと思うと、そこにあった椅子に掴まったきり便所に行く事も出来ず一足の所にある床の上に戻る事もどうする事も出来ないのです。<br><br>何しろちょっと足を動かしても全神経に響き激痛が全神経に感じ、他の人でも触れる事も出来ず二時間以上かかってやっと寝床に横になる事が出来、それ以来の苦しみはとても言葉で言い表す事は出来ません。<br><br>主治医は勿論どこの医師を迎えても診察はおろか手を触れる事もなりません。<br><br>自分で指一本動かしても電流のように全神経に響き、その度に呼吸が止まる程の苦しみに医者も手がつけられず、この時より総ゆる物に見離され、ついに文字通り絶望状態に陥り家人の様子からも、既に医師から死の宣告を受けた事をはっきりと知り、いよいよ私の命も三十二歳で終りを告ぐるのかと前途は真暗になりましたが、人間の命程脆いようでまた強いものはなく、そのまま死ぬ事も出来ず、日夜言語に絶する苦しみから逃れる術もなく、死よりもなお辛く暗い私でした。<br><br>苦しみの中で一番辛かった事は笑う事の出来ない事でした。<br><br> お見舞に来て下さる方が私を慰めて下さるお気持で面白い世間話を色々と聴かせて私を笑わせようとなさるのでいつでもそのような時には先にお断りするのですが、時折り話に釣込まれて笑おうと致しますとさあ大変で、一寸の笑いでも全神経にさわり、その激痛で呼吸が止ったかと思う程に苦しみます。<br><br>この苦しみは私以外の人には想像だも出来ないと思います。<br><br> この苦しみの状態が四年間続いたのです。<br><br>全く生ける屍とは私の事だったでしよう。<br><br>しかもその屍は苦しみの塊でした。<br><br>親兄弟知人も恐らく私の知る限りの人は私の生きている事を不思議に思わぬ人はなく、いつとはなしに町の話題に迄なっていました。<br><br>私には何か変った特別の心臓がついているのではないかと言われ、強心臓さんと綽名がついた位でとにかく不思議な病人にされていました。<br><br>自分でもいよいよ駄目だと思う時が来て、今度こそ絶対に最後だと言う事が親戚中に伝りましたのが発病以来十六年目の三十五歳の夏、即ち昭和十七年の八月でした。<br><br>私は最早すべてを覚悟して死期の至るのを待っておりますと、その月の二十七日遠い親戚に当る叔母さんがみえて「良い手指療法があるから一度治療を受けてみては」と勧められましたが、あらゆる指圧療法をうけてみたが何の効果もないのだからと、今迄人にすすめられて一度もお断りした事のない私が一切を諦めていたし今度は初めてきっぱりと断りました。<br><br> 翌日になりますとその叔母様が再び来られて「私の孫（当時二十二歳の大学生）が肋骨カリエスで手術を受ける事になっていたのが二回の治療で腫れがひいて手術をする事なく治ったのだから今一度欺されると思って」と熱心に勧められますので遂に断りきれず、治療を受けることにしましたが、一、二度治療を受けたらお断りするつもりでおりました。<br><br>その晩早速林先生を案内して来て頂きました。<br><br>私は勧めて頂いた方への義理で仕方なく、治療を受けていたのですが、先生が三十分程治療をした後「横にむいて御覧なさい」と言われて吃驚致しました。<br><br>ちょっと動いても非常な苦痛を感じる私の体が恐わ恐わ動かしてみると、僅かの痛みを覚えるだけで横になれたのです。<br><br>アア何と言う奇蹟、夢ではないかと思いました。<br><br>長い年月の病床生活の間ちょっとでも良いから横になれたらと思っていて果し得なかった事が、僅か三十分の簡単な治療で不思議に横向きになれたのですから吃驚すると同時に、これは普通の指圧療法ではないと直感しました。<br><br> 先生の帰られる時には嬉しさに知らず知らずの中に床の上に座ってお礼を申しておりました。<br><br>側にいた妹と女中が驚いて「アラ座れた」と言う言葉に初めて自分の座っている姿に気づいて二度吃驚致しました。<br><br>先生を案内して来て下さいました方も非常に喜んで帰られましたが、再び体を寝かせようと致しますと非常に痛み出して苦労を致し、又横向きにもなる事が出来ませんでしたが、とにかく治療を受けている間は痛みがとれますので今一度欺されてみようと思いました。<br><br>ところが二度目の治療を受けますと前日よりも体を動かせても痛みを感じませんので、いよいよ不思議に思われ先生に「この治療は人間だけの力ではなく、何か外の力が働いていますね」と申しますと先生はちょっと驚かれたような顔をなさいまして、実はここにあるのですよと左の胸を叩いて笑ってそのまま帰られました。<br><br> 私は後で先生は心臓に何か仕掛があるような事を言って帰られたが実に不思議でなりませんでした。<br><br>三度日の治療を受けた時「先生、私のような重体では再び快方に向う事は出来ないでしょうが、せめて死ぬ迄に十日でもよいから立って便所へ行かれたらどんなに嬉しいか判りません」と申しますと、先生は真面目な顔をして「便所は愚かあなたの気持次第でもとの健康な体に必らずなれます」と言われ吃驚致しました。<br><br>今迄十六年の間医師は勿論、民間療法の方に「治して頂けますか」と尋ねますと「治った人もありますからやってみましょう」位の返事許りで治ると思ったことは一度もありませんでしたが、林先生の「治りますよ」との力強いお言葉は私の胸につよくひびいたと同時に「先生、判然とお教え下さい、この療法はただの指圧ではありませんね、何か神仏いずれかの強い霊の働きによると思います」と申しますと、私の枕許にある沢山の宗教の本を御覧になって「宗教心のある方だけに解りが早い」と言われ「実はお観音様のお力で治して下さるので私の力ではありません」と聴かされた時の私の目の前がパッと明るくなるのを感じました。<br><br> アア今迄一度も感じた事のないその喜び！ 暗黒と絶望の中に彷徨し続けて死の関頭に立たされた瞬間にパッと点ぜられた一筋の光明を仰ぐ無限の喜びに、ただただ夢中で「先生のお言葉を信じて一心にお観音様にお縋りさせて頂きます。<br><br>なお先生のお言葉通り致しますから是非お導き下さい」とお願い致しました。<br><br>それからは毎日薄紙を剥がすごとく快方に向って治療を受け始めてから二十日目頃から腰が立つようになって、遂に長い間夢みた、物に掴りながらも便所へも行けるようになりました時の感激は到底筆舌につくせるものではありません。<br><br> 観音様の御利益の偉大さにただただ驚嘆の外ありませんでした。<br><br>十月二十八日に渋井先生（現日本五六七会会長）に二階へお観音様をお祀りして頂き、私も二階へ上ってお参りさせて頂きました。<br><br>初めて大先生御直筆観音様のお姿を拝しました時は、ただただ余りの有難さに止めどなくふり落つる涙、涙、感慨無量との言葉はこの時私のために出来ていたのだと思われる程でした。<br><br>その時私は来月十日（十一月十日）には東京淀橋にあった渋井先生のお家へ行って教修を頂くと言う大変な約束をしてしまいました。<br><br>しかしお約束した以上必らず行かして頂くのだと深く決心して一心に観音様にお願いしている中、不思議と一足二足と独り歩きが許され、遂にお約束の日に妹に連れられて参りました時は、流石に心臓は苦しく頭痛はひどく、目は眩んで参りました。<br><br>その時の私の姿はさながら幽霊のような状態だったそうです。<br><br>それでも三日間は横須賀から通い、四日目から通えなくて旅館から通って一週間の教修を終えてお守様を頂きました時の嬉しさ、又たとえようもありません。<br><br>妹も一緒に教修を頂きました。<br><br>この日よりただ一筋に観音様にお縋り致し御守護と御利益を頂き、七年の歳月は流れて数限りないおかげを頂き今日に及んでおります。<br><br> 顧みますれば幾度か死の宣告をうけ、私自身死を寸前に覚悟しておりました。<br><br>文字通り生ける屍であった私が、尊い観音様の大慈大悲によりて再び健康な体が与えられ、現在どんな遠方へでも伝道の旅に行けるようになった幸福はいかにお礼を申上げても御恵みの万分の一にも及ぶものではございません。<br><br>誠に 「我生命甦るさへ嬉しきに 医しの業まで許されにける」 の御讃歌を奉唱して観音様の限りなき大慈大悲に感泣しつつ私自身の救われた喜びを一人でも多くの人にお伝え及ぼさんものと日々感謝の中に伝道の道に微力をつくさせて頂いている次第で御座います。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Da Coletânea de Ensaios do Reverendo Jikan Okada — Ultrapassando a Linha da Morte por Várias Vezes</h2>
 <p>Publicado na revista “Paraíso Terrestre”, nº 4, em 25 de maio de 1949.
@@ -125,5 +280,48 @@ Da “Coletânea Jikan”, 4ª Edição, “Relatos de Milagres”, publicado em
 <p>“Minha própria vida, ao ressurgir, já me inunda de alegria;
 E ainda me foi concedida a permissão de praticar a arte da cura.”</p>
 <p>Chorando de emoção diante da infinita compaixão de Kannon (観音), e com o desejo de transmitir a alegria de minha própria salvação ao maior número de pessoas possível, dedico minhas parcas forças ao caminho da difusão, em um estado de perpétua gratidão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 死線を超える事幾度 『地上天国』4号、昭和24(1949)年5月25日発行 自観叢書第4篇『奇蹟物語』昭和24(1949)年10月5日発行 神奈川県 日本観音教日本会会長 二本木暉子（41） 私は十九歳の春忘れも致しません。<br/><br/>三月十五日二階の階段三段目より足を踏みはずし顛落したのが動機で、それ以来脊髄カリエス患者となり、十六年の長い年月の明け暮れ、何とかして健康者になりたいと激痛と精神的の悩みに日夜どれ程苦しんだか、その当時を顧み今思出してもぞっと致します。<br/><br/>最初の三年程は割合に苦痛も少なかったために半年入院致し、退院後は絶えず医師の忠告をうけながらカリエスに良いと言われる温泉にはどこへでも出掛けて行き色々と養生に勤めておりました。<br/><br/> このような事を繰返しております内に四年目頃より表を歩いております時など急に膝を折ったり小石などに躓きましても全身に響き、その度に息もつけぬような痛さを感じ、歩行も段々困難になり体全体がだるく床に伏している時が多くなって来ました。<br/><br/>勿論ギブスも作り注射薬は一日も休む事なく医師に頼り切っておりましたが、その後二十歳の正月元日の夜中から腰が痛み出し、二日の朝日が覚めますと腰が全然立たなくなって非常に吃驚し、早速医師を迎えて診察を受けたのですが、注射より外に手当の方法はなく、実に頼りない思いで毎日をすごしております中、十日目にやっと床の上に座れるようになり、妹に背中をさすってもらいますと、今迄それ程出ていなかった脊髄の骨が三分程高くなっているのに驚き、ついに傴僂（せむし）になった事を知りました。<br/><br/>そしてこの時から医学に許り頼ってはいられないと思い、民間療法を手当り次第に漁ることとなり、電気、指圧、鍼、灸、漢方薬は勿論毎日の新聞は第一番に広告欄に目を通し、カリエスの薬が出ておりますと片端しからとりよせますし、医師からは絶対安静を言渡されておりましたが、どこそこによい病院があるとか治療があると教え戴くとどのような遠方迄も自動車で苦心を致して診察を受けに行くのですが、帰りは必ず失望する事も幾度となくありました。<br/><br/>ただ健康になれたらと焦る余り、色々な事に迷いますので、親、兄妹知人に「そんなに迷っては」と意見をされた事も度々ありましたが、何しろ我ままが通せる立場にありましたのと、私はもしこの世に神仏があるとすればいつかは必ず奇蹟にぶつかって救われるような気持がしており、本当の物に突当る迄は何でも受入れてみると言う強い信念を持っておりました。<br/><br/>勿論色々な信仰も致しましたが、何んの御利益も戴けませんでした。<br/><br/> 私がその頃どんなに迷ったかと言うにお見舞に来て下さる方が「また何かよい薬か療法がありましたか」とよく聴かれたものです。<br/><br/>こうして焦りながらも月日は矢のようにすぎ病勢は段々悪化の一途を辿って行くのでした。<br/><br/>そして三十二歳の二月半ばに急性肺炎と腎孟炎を患い忽ち重態に陥りいよいよ衰弱の極に達しました。<br/><br/>床の上から担架にのせられて出て行く時は自分も周囲の人も「今度は生きて再びこの家の門はくぐれまい」と思って堪らない淋しさを感じました。<br/><br/> そして入院後五日間は意識不明で、気がついた時の親兄妹の喜びようはたとえようも有りませんでしたが、それから一カ月位の間はお見舞の人がほとんど見えないので不思議に思っておりますと、ある日廊下で「まだ面会謝絶ですか」と言う声がしているのを聞いて吃驚し、早速謝絶の札を外ずしてもらいましたが、その後も危険状態になった事が三度許りあったそうです。<br/><br/>後になって院長副院長の話によれば「たまに奇蹟的に治る患者もあるが、あなたのような患者が助かったのは初めての事だ」と驚いておりました。<br/><br/> これは後で聴いた話ですが、医師は親兄弟には「よくなったようでも今一時的で長い事はない」とはっきり申していたそうです。<br/><br/>とにかく五カ月目には無理に退院致し、看護婦付添いで帰って参り、自宅療法二カ月で看護婦の手が一時切れましたので喜んでおりましたのもつかのま、それから二十日程経ましたある夜便所に立って歩き出そうとした途端ぎくんと腰に響いたと思うと、そこにあった椅子に掴まったきり便所に行く事も出来ず一足の所にある床の上に戻る事もどうする事も出来ないのです。<br/><br/>何しろちょっと足を動かしても全神経に響き激痛が全神経に感じ、他の人でも触れる事も出来ず二時間以上かかってやっと寝床に横になる事が出来、それ以来の苦しみはとても言葉で言い表す事は出来ません。<br/><br/>主治医は勿論どこの医師を迎えても診察はおろか手を触れる事もなりません。<br/><br/>自分で指一本動かしても電流のように全神経に響き、その度に呼吸が止まる程の苦しみに医者も手がつけられず、この時より総ゆる物に見離され、ついに文字通り絶望状態に陥り家人の様子からも、既に医師から死の宣告を受けた事をはっきりと知り、いよいよ私の命も三十二歳で終りを告ぐるのかと前途は真暗になりましたが、人間の命程脆いようでまた強いものはなく、そのまま死ぬ事も出来ず、日夜言語に絶する苦しみから逃れる術もなく、死よりもなお辛く暗い私でした。<br/><br/>苦しみの中で一番辛かった事は笑う事の出来ない事でした。<br/><br/> お見舞に来て下さる方が私を慰めて下さるお気持で面白い世間話を色々と聴かせて私を笑わせようとなさるのでいつでもそのような時には先にお断りするのですが、時折り話に釣込まれて笑おうと致しますとさあ大変で、一寸の笑いでも全神経にさわり、その激痛で呼吸が止ったかと思う程に苦しみます。<br/><br/>この苦しみは私以外の人には想像だも出来ないと思います。<br/><br/> この苦しみの状態が四年間続いたのです。<br/><br/>全く生ける屍とは私の事だったでしよう。<br/><br/>しかもその屍は苦しみの塊でした。<br/><br/>親兄弟知人も恐らく私の知る限りの人は私の生きている事を不思議に思わぬ人はなく、いつとはなしに町の話題に迄なっていました。<br/><br/>私には何か変った特別の心臓がついているのではないかと言われ、強心臓さんと綽名がついた位でとにかく不思議な病人にされていました。<br/><br/>自分でもいよいよ駄目だと思う時が来て、今度こそ絶対に最後だと言う事が親戚中に伝りましたのが発病以来十六年目の三十五歳の夏、即ち昭和十七年の八月でした。<br/><br/>私は最早すべてを覚悟して死期の至るのを待っておりますと、その月の二十七日遠い親戚に当る叔母さんがみえて「良い手指療法があるから一度治療を受けてみては」と勧められましたが、あらゆる指圧療法をうけてみたが何の効果もないのだからと、今迄人にすすめられて一度もお断りした事のない私が一切を諦めていたし今度は初めてきっぱりと断りました。<br/><br/> 翌日になりますとその叔母様が再び来られて「私の孫（当時二十二歳の大学生）が肋骨カリエスで手術を受ける事になっていたのが二回の治療で腫れがひいて手術をする事なく治ったのだから今一度欺されると思って」と熱心に勧められますので遂に断りきれず、治療を受けることにしましたが、一、二度治療を受けたらお断りするつもりでおりました。<br/><br/>その晩早速林先生を案内して来て頂きました。<br/><br/>私は勧めて頂いた方への義理で仕方なく、治療を受けていたのですが、先生が三十分程治療をした後「横にむいて御覧なさい」と言われて吃驚致しました。<br/><br/>ちょっと動いても非常な苦痛を感じる私の体が恐わ恐わ動かしてみると、僅かの痛みを覚えるだけで横になれたのです。<br/><br/>アア何と言う奇蹟、夢ではないかと思いました。<br/><br/>長い年月の病床生活の間ちょっとでも良いから横になれたらと思っていて果し得なかった事が、僅か三十分の簡単な治療で不思議に横向きになれたのですから吃驚すると同時に、これは普通の指圧療法ではないと直感しました。<br/><br/> 先生の帰られる時には嬉しさに知らず知らずの中に床の上に座ってお礼を申しておりました。<br/><br/>側にいた妹と女中が驚いて「アラ座れた」と言う言葉に初めて自分の座っている姿に気づいて二度吃驚致しました。<br/><br/>先生を案内して来て下さいました方も非常に喜んで帰られましたが、再び体を寝かせようと致しますと非常に痛み出して苦労を致し、又横向きにもなる事が出来ませんでしたが、とにかく治療を受けている間は痛みがとれますので今一度欺されてみようと思いました。<br/><br/>ところが二度目の治療を受けますと前日よりも体を動かせても痛みを感じませんので、いよいよ不思議に思われ先生に「この治療は人間だけの力ではなく、何か外の力が働いていますね」と申しますと先生はちょっと驚かれたような顔をなさいまして、実はここにあるのですよと左の胸を叩いて笑ってそのまま帰られました。<br/><br/> 私は後で先生は心臓に何か仕掛があるような事を言って帰られたが実に不思議でなりませんでした。<br/><br/>三度日の治療を受けた時「先生、私のような重体では再び快方に向う事は出来ないでしょうが、せめて死ぬ迄に十日でもよいから立って便所へ行かれたらどんなに嬉しいか判りません」と申しますと、先生は真面目な顔をして「便所は愚かあなたの気持次第でもとの健康な体に必らずなれます」と言われ吃驚致しました。<br/><br/>今迄十六年の間医師は勿論、民間療法の方に「治して頂けますか」と尋ねますと「治った人もありますからやってみましょう」位の返事許りで治ると思ったことは一度もありませんでしたが、林先生の「治りますよ」との力強いお言葉は私の胸につよくひびいたと同時に「先生、判然とお教え下さい、この療法はただの指圧ではありませんね、何か神仏いずれかの強い霊の働きによると思います」と申しますと、私の枕許にある沢山の宗教の本を御覧になって「宗教心のある方だけに解りが早い」と言われ「実はお観音様のお力で治して下さるので私の力ではありません」と聴かされた時の私の目の前がパッと明るくなるのを感じました。<br/><br/> アア今迄一度も感じた事のないその喜び！ 暗黒と絶望の中に彷徨し続けて死の関頭に立たされた瞬間にパッと点ぜられた一筋の光明を仰ぐ無限の喜びに、ただただ夢中で「先生のお言葉を信じて一心にお観音様にお縋りさせて頂きます。<br/><br/>なお先生のお言葉通り致しますから是非お導き下さい」とお願い致しました。<br/><br/>それからは毎日薄紙を剥がすごとく快方に向って治療を受け始めてから二十日目頃から腰が立つようになって、遂に長い間夢みた、物に掴りながらも便所へも行けるようになりました時の感激は到底筆舌につくせるものではありません。<br/><br/> 観音様の御利益の偉大さにただただ驚嘆の外ありませんでした。<br/><br/>十月二十八日に渋井先生（現日本五六七会会長）に二階へお観音様をお祀りして頂き、私も二階へ上ってお参りさせて頂きました。<br/><br/>初めて大先生御直筆観音様のお姿を拝しました時は、ただただ余りの有難さに止めどなくふり落つる涙、涙、感慨無量との言葉はこの時私のために出来ていたのだと思われる程でした。<br/><br/>その時私は来月十日（十一月十日）には東京淀橋にあった渋井先生のお家へ行って教修を頂くと言う大変な約束をしてしまいました。<br/><br/>しかしお約束した以上必らず行かして頂くのだと深く決心して一心に観音様にお願いしている中、不思議と一足二足と独り歩きが許され、遂にお約束の日に妹に連れられて参りました時は、流石に心臓は苦しく頭痛はひどく、目は眩んで参りました。<br/><br/>その時の私の姿はさながら幽霊のような状態だったそうです。<br/><br/>それでも三日間は横須賀から通い、四日目から通えなくて旅館から通って一週間の教修を終えてお守様を頂きました時の嬉しさ、又たとえようもありません。<br/><br/>妹も一緒に教修を頂きました。<br/><br/>この日よりただ一筋に観音様にお縋り致し御守護と御利益を頂き、七年の歳月は流れて数限りないおかげを頂き今日に及んでおります。<br/><br/> 顧みますれば幾度か死の宣告をうけ、私自身死を寸前に覚悟しておりました。<br/><br/>文字通り生ける屍であった私が、尊い観音様の大慈大悲によりて再び健康な体が与えられ、現在どんな遠方へでも伝道の旅に行けるようになった幸福はいかにお礼を申上げても御恵みの万分の一にも及ぶものではございません。<br/><br/>誠に 「我生命甦るさへ嬉しきに 医しの業まで許されにける」 の御讃歌を奉唱して観音様の限りなき大慈大悲に感泣しつつ私自身の救われた喜びを一人でも多くの人にお伝え及ぼさんものと日々感謝の中に伝道の道に微力をつくさせて頂いている次第で御座います。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

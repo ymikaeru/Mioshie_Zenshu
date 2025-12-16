@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>iju04001</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇（四） 下体及び婦人・小児病 １ 001-015 痔、花柳病 001 下体病の原因、（痔の原因及びセンシャク） 田舎で俗に「センシャク」と申し、睾丸から下腹部にかけて棒のようなものが出て動けなくなる人が御座いますが、これは霊的で御座いましょうか、御伺い申し上げます。<br><br> 霊的でなく薬毒である。<br><br>垂れて睾丸へ固まる。<br><br>冷えると固まり易い。<br><br>浄霊すれば段々治る。<br><br>薬を注射すると、薬の重味で段々下へ行く。<br><br>痔、睾丸、股のグリグリ、足が痛んだり痙（つ）ったりするのは、薬毒が下って固まる。<br><br> 痔の原因は股にある。<br><br>股をすれば治る。<br><br>大抵右か左で、右の方の痔は右の股である。<br><br> 実に世界的大発見である。<br><br>（S24.10.12） 002 痔・下腹痛の浄霊個所 私共夫婦長男三人、昨年春より順次入信させて頂きまして、妻トキ（五十二歳）は五月入信当時多少胃腸が悪い程度で御座いましたが、段々腹痛もひどく、食欲も減退致しまして、昨年十月頃より寝つきまして、身体の方々が痛み、殊に痔の痛みが甚しく、非常に衰弱致しまして、年末には危険状態になりましたが、最近やや持ち直して参りました。<br><br>しかし相変らず腹痛もあり、痔の痛みはひどう御座います。<br><br>物心つくようになりましてから殆ど薬毒は入れておらないので御座いますが、このように浄化の長びくのは何か障りでもあるので御座いましょうか。<br><br>なお、私の実弟が戦時中勤労働員で九州の炭鉱で殉職致しておりまして、戒名の件で気がかりな事が御座います。<br><br>それは会社と県の合同葬の時、清皎院峯月日澄善士と戒名をつけたのですが、菩提寺では信徒総代でもこれだけの位の戒名は無いからと申して別の戒名で祀ったので御座います。<br><br>遺家族は平常は最初の戒名の位牌を拝み、命日に僧侶が来ていてお寺の位牌で祀るので御座いますが、今後どのように致したらよろしゅう御座いましょうか、御伺い申し上げます。<br><br> お寺の戒名でよい。<br><br> 浄化であるから――痔の痛みは股が元である。<br><br>下腹の痛みは右腎盂の固結である。<br><br>（S25. 3.28） 003 結核より痔瘻となる 主人（三十九歳）は去年末頃より結核に罹り、今年始めより軽い痔瘻が出まして、四月中旬入信し浄霊を頂いている内に漸次状態が進み、毎朝便通があります度に汚物が瘻孔に入り、また化膿する二、三時間非常に苦しみます。<br><br>その後一日中少しずつ膿が出ており、夕食に野菜の天ぷらのように油物を食しますと翌朝の便通後普段の場合より痛みません。<br><br>油物を常に摂ってよろしいでしょうか。<br><br>また、現在微熱で喀痰が少量ずつ出、食欲は普通でありますが、正しい御浄霊法について御教示御願い申し上げます。<br><br> 瘻孔から膿が出て治る。<br><br>肺を止めると痔瘻となるのはよくある。<br><br>医学で一つの病気を二つにする。<br><br>植物性油なら大いに結構である。<br><br>痔瘻は必ず浄霊で治る。<br><br>（S24. 7.26） 004 痔瘻と憑霊―浄霊個所 麦倉吾市（二十一歳）、昨年末より痔瘻にて御浄霊頂きました。<br><br>体の衰弱と共に次々と霊が憑依致しまして、最近二週間は現幽の間をさまよっているかの感が御座います。<br><br>大先生の御守護御願い申し上げます。<br><br> 痔瘻とは関係ない。<br><br>痔瘻になり――。<br><br>浄霊力が薄い。<br><br>背部と後頭部である。<br><br>（S24. 3.22） 005 脱肛―浄霊法 当年五十八歳の男、二十余年前より痔疾を患い、数年前より脱肛となり、手術はしませんが、色々手当を致しましたがよくならず、二年前家族一同入信させて頂き、御浄霊を続けておりますが、何の変化も御座いません。<br><br>いかにしたら良くなるでしょうか。<br><br>御教示をお願い申し上げます。<br><br> 固まりすぎている。<br><br>治る。<br><br>脱肛は古くなると固くなる。<br><br>浄霊すると軟くなる。<br><br>便所へ行った時押し込む。<br><br>長便はいけない。<br><br>日本人特有の病気で、便所の構造による。<br><br> 私も若い時分は脱肛で困ったが、短便にしたら治った。<br><br>指先から霊気を入れる。<br><br>割合い早く治る。<br><br>（S24. 9.18） 006 痔核、ラジウム療法について 丸山久江（四十三歳）は以前子宮癌にて発病後一年程経てからラジウム療法も致しましたが、本年七月頃より毎日私が浄霊をしております。<br><br>現在疣痔で日に五回程用便に参りますが、痛みのため少量しか出ません。<br><br>食欲もなく、段々衰弱して参っているようですが、全治致しますでしょうか。<br><br> ラジウム療法は癌と共に組織を破壊する。<br><br>これは恐ろしい。<br><br>レントゲン放射は実によく固める。<br><br>やって見ぬと判らぬが、難しいと思う。<br><br>四十三歳とすると、古血の溜ったものであろう。<br><br> 疣痔はじきに治る。<br><br>内痔核と外痔核とある。<br><br>（S24.10. 6） 007 大腸カタルから内痔核 岩城克治（現在十二歳）、八歳頃より大腸カタルで四年間に注射及び医療等も致しましたが、良くならず、一昨年九月御浄霊を受けるようになって大変良くなりました。<br><br>今月北海道より御面会に上京致しましたが、車中、用便の後強烈に何回も病んでおりました。<br><br>病む所は痔の部分で、血便や軟便も下ります。<br><br>浄霊法を御教授下さい。<br><br> 大腸カタルなど非常に結構である。<br><br>保存法をやった訳である。<br><br> 肛門付近におデキが出来ている。<br><br>内痔核というのである。<br><br>浄霊でじきに治る。<br><br>（S25. 2. 7） 008 肛門手術 私、昭和二十年五月突然肛門の約一寸程脇に腫物が出来、医師に受診の結果、約二寸程の切開手術をなし、一ケ月程にて全快したようでしたが、二ケ月後また以前と同じようになり、今日に到るも治らず、かえって今では出血及び膿が出て苦痛を感じます。<br><br>霊的に関係があるでしょうか。<br><br>体のいかなる個所を浄霊したらよいでしょうか。<br><br> 手術のためである。<br><br>充分寄らないうちに切るとこうなる。<br><br>自然にすればドシドシ集って、孔があいて出る。<br><br>切ると先の場所へは再び集らぬ。<br><br>このために生命をなくす人がある。<br><br>局部と腎臓を浄霊すれば治る。<br><br>（S24.12.25） 009 陰茎発育不全 （二十二年三月入信した）二十歳の男、陰部が発育不全と云いましょうか、子供の頃と大して変りなく、親にも言えず人知れず悩んでおります。<br><br>時々淋巴腺が浄化し、恥骨に時々痛みを感じます。<br><br>その他は変った事もありません。<br><br>御浄霊を戴いていれば発育致しましょうか。<br><br>御浄霊法を御教示下さい。<br><br> 腎臓を浄霊すれば治る。<br><br>腎臓の後ろに塊がある。<br><br>（S24. 9.16） 010 睾丸痛 五日ほど前より睾丸が腫れて痛みますが、どうしたらよろしいでしょうか。<br><br>（昨年九月入信） 自分ですればすぐ治る。<br><br>（カリエスでも来るが、薬毒である。<br><br>注射毒であろう） 私も三、四年前から睾丸が痛む。<br><br>薬の分量だけ痛む。<br><br> 011 結核性睾丸炎の原因 私は昭和二十一年十月より睾丸炎にて左の方が次第に大きくなり、ただ今では相当大きくなりました。<br><br>昨年十一月入信、浄霊を受けています。<br><br>これは元のように小さくなりますか。<br><br>医者は結核性副睾丸炎と云います。<br><br> 元の通りになる。<br><br>四、五寸離して浄霊する。<br><br> 睾丸炎は淋毒から来ている。<br><br>割合い治りいい病気である。<br><br>治らぬと結核にするが、結核などはない。<br><br>あり得ぬ事だ。<br><br>（S24. 2.16） 012 結核性睾丸炎 私がただ今浄霊中の人ですが、結核性睾丸炎で医者に一年半ケ月余りかかり、片方切り取りましたら、その後また片方へ出て来ましたのですが、浄霊の方法を御教え願います。<br><br> これも玉である。<br><br>その部をよく浄霊する。<br><br>結核性なんて嘘で、治らぬのは皆結核性という。<br><br>薬毒性睾丸炎である。<br><br>淋毒で、睾丸と股部をする。<br><br>（S24. 9.15） 013 尿道狭窄と淋菌 七十三歳、十年前より尿道狭窄、昨夏より腰痛、尿を垂れ流し、臍の直ぐ下が瘤のように隆起し出しました。<br><br>普段は固く、尿が出るとゴムまりのように柔かく、かつ小さくなります。<br><br> 狭窄は昔淋病をやった人にある。<br><br>淋菌は絶対なくならぬ。<br><br>尿道へ向って浄霊すれば少しずつ溶けて、小便になって出る。<br><br>特に腎臓をやる。<br><br>腎臓が働きだせば訳なく治る。<br><br>（S24. 1.23） 014 淋病と梅毒 三十五歳の婦人（本年六月入信）、多少胸部疾患でしたが、入信後全治、最近血液検査の結果陰性梅毒と診断され、医師よりペニシリン注射をすすめられました。<br><br>（入信前、ペニシリン注射をしましたが、効果がありませんでした）浄霊により梅毒菌は死滅するものでしょうか。<br><br> 梅毒菌は簡単である。<br><br> 酒呑みの淋病、下戸（げこ）の梅毒という。<br><br>（S24.10.13） 015 梅毒は一代 現在三十三歳になる女、梅毒性視神経萎縮のために昭和十九年七月発病し、視力がにぶり、その後、医師にかかり、眼球注射、水銀注射、サルバルサン等種々の手当を致した末、 昭和二十年一月完全に失明し、昨年八月より浄霊を受けてより身体の方は順調にならせて戴きましたが、眼の方は時に気のせいかボンヤリ見えるような気がすることもあるそうですが、見えるようになるのでしょうか。<br><br>（同人はまだ入信致しておりません）御浄霊法を御教示を御願い申し上げます。<br><br> 一生懸命失明さした。<br><br>すっかり治る。<br><br>梅毒でも何でもない。<br><br>梅毒も薬毒である。<br><br>本当の梅毒は一代限りで遺伝せぬ。<br><br>医者で薬など注したので、薬を注すと毒が固まり、失明する。<br><br>目に固まったのは手数が掛るから暇が掛る。<br><br>頭から肩をする。<br><br>気長にやってれば治る。<br><br>（S24. 8. 5）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Tratado sobre a Arte da Cura (IV): Enfermidades da Região Inferior do Corpo — Hemorroidas e Doenças Venéreas</h2>
 <p><strong>001 A causa das enfermidades da região inferior do corpo (A origem das hemorroidas e o “senshaku”)</strong></p>
@@ -146,5 +298,48 @@ function toggleLang(lang) {
 <p><strong>015 A sífilis dura apenas uma geração</strong></p>
 <p><strong>Pergunta:</strong> Uma mulher, hoje com trinta e três anos, teve o início de uma atrofia do nervo óptico de origem sifilítica em julho de 1944. Sua visão começou a turvar e, após consultar médicos e submeter-se a diversos tratamentos, como injeções oculares, injeções de mercúrio e Salvarsan, ficou completamente cega em janeiro de 1945. Desde agosto do ano passado, ela vem recebendo Johrei e seu estado geral de saúde melhorou. Quanto à visão, ela diz que, às vezes, parece ter a impressão de enxergar algo vagamente, talvez por efeito psicológico. Será possível que ela volte a enxergar? (Ela ainda não ingressou na Fé). Pedimos que nos ensineis o método de Johrei.</p>
 <p><strong>Meishu-Sama:</strong> Fizeram de tudo para deixá-la cega. A cura é perfeitamente possível. Não se trata de sífilis nem de nada parecido. A própria sífilis é, em essência, toxina medicamentosa. A verdadeira sífilis limita-se a uma geração, não é hereditária. Foram os medicamentos injetados pelos médicos que causaram o problema. As injeções solidificam as toxinas, levando à cegueira. A eliminação de toxinas solidificadas nos olhos é um processo demorado. Ministre Johrei da cabeça para os ombros. Sendo perseverante, ela se curará.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇（四） 下体及び婦人・小児病 １ 001-015 痔、花柳病 001 下体病の原因、（痔の原因及びセンシャク） 田舎で俗に「センシャク」と申し、睾丸から下腹部にかけて棒のようなものが出て動けなくなる人が御座いますが、これは霊的で御座いましょうか、御伺い申し上げます。<br/><br/> 霊的でなく薬毒である。<br/><br/>垂れて睾丸へ固まる。<br/><br/>冷えると固まり易い。<br/><br/>浄霊すれば段々治る。<br/><br/>薬を注射すると、薬の重味で段々下へ行く。<br/><br/>痔、睾丸、股のグリグリ、足が痛んだり痙（つ）ったりするのは、薬毒が下って固まる。<br/><br/> 痔の原因は股にある。<br/><br/>股をすれば治る。<br/><br/>大抵右か左で、右の方の痔は右の股である。<br/><br/> 実に世界的大発見である。<br/><br/>（S24.10.12） 002 痔・下腹痛の浄霊個所 私共夫婦長男三人、昨年春より順次入信させて頂きまして、妻トキ（五十二歳）は五月入信当時多少胃腸が悪い程度で御座いましたが、段々腹痛もひどく、食欲も減退致しまして、昨年十月頃より寝つきまして、身体の方々が痛み、殊に痔の痛みが甚しく、非常に衰弱致しまして、年末には危険状態になりましたが、最近やや持ち直して参りました。<br/><br/>しかし相変らず腹痛もあり、痔の痛みはひどう御座います。<br/><br/>物心つくようになりましてから殆ど薬毒は入れておらないので御座いますが、このように浄化の長びくのは何か障りでもあるので御座いましょうか。<br/><br/>なお、私の実弟が戦時中勤労働員で九州の炭鉱で殉職致しておりまして、戒名の件で気がかりな事が御座います。<br/><br/>それは会社と県の合同葬の時、清皎院峯月日澄善士と戒名をつけたのですが、菩提寺では信徒総代でもこれだけの位の戒名は無いからと申して別の戒名で祀ったので御座います。<br/><br/>遺家族は平常は最初の戒名の位牌を拝み、命日に僧侶が来ていてお寺の位牌で祀るので御座いますが、今後どのように致したらよろしゅう御座いましょうか、御伺い申し上げます。<br/><br/> お寺の戒名でよい。<br/><br/> 浄化であるから――痔の痛みは股が元である。<br/><br/>下腹の痛みは右腎盂の固結である。<br/><br/>（S25. 3.28） 003 結核より痔瘻となる 主人（三十九歳）は去年末頃より結核に罹り、今年始めより軽い痔瘻が出まして、四月中旬入信し浄霊を頂いている内に漸次状態が進み、毎朝便通があります度に汚物が瘻孔に入り、また化膿する二、三時間非常に苦しみます。<br/><br/>その後一日中少しずつ膿が出ており、夕食に野菜の天ぷらのように油物を食しますと翌朝の便通後普段の場合より痛みません。<br/><br/>油物を常に摂ってよろしいでしょうか。<br/><br/>また、現在微熱で喀痰が少量ずつ出、食欲は普通でありますが、正しい御浄霊法について御教示御願い申し上げます。<br/><br/> 瘻孔から膿が出て治る。<br/><br/>肺を止めると痔瘻となるのはよくある。<br/><br/>医学で一つの病気を二つにする。<br/><br/>植物性油なら大いに結構である。<br/><br/>痔瘻は必ず浄霊で治る。<br/><br/>（S24. 7.26） 004 痔瘻と憑霊―浄霊個所 麦倉吾市（二十一歳）、昨年末より痔瘻にて御浄霊頂きました。<br/><br/>体の衰弱と共に次々と霊が憑依致しまして、最近二週間は現幽の間をさまよっているかの感が御座います。<br/><br/>大先生の御守護御願い申し上げます。<br/><br/> 痔瘻とは関係ない。<br/><br/>痔瘻になり――。<br/><br/>浄霊力が薄い。<br/><br/>背部と後頭部である。<br/><br/>（S24. 3.22） 005 脱肛―浄霊法 当年五十八歳の男、二十余年前より痔疾を患い、数年前より脱肛となり、手術はしませんが、色々手当を致しましたがよくならず、二年前家族一同入信させて頂き、御浄霊を続けておりますが、何の変化も御座いません。<br/><br/>いかにしたら良くなるでしょうか。<br/><br/>御教示をお願い申し上げます。<br/><br/> 固まりすぎている。<br/><br/>治る。<br/><br/>脱肛は古くなると固くなる。<br/><br/>浄霊すると軟くなる。<br/><br/>便所へ行った時押し込む。<br/><br/>長便はいけない。<br/><br/>日本人特有の病気で、便所の構造による。<br/><br/> 私も若い時分は脱肛で困ったが、短便にしたら治った。<br/><br/>指先から霊気を入れる。<br/><br/>割合い早く治る。<br/><br/>（S24. 9.18） 006 痔核、ラジウム療法について 丸山久江（四十三歳）は以前子宮癌にて発病後一年程経てからラジウム療法も致しましたが、本年七月頃より毎日私が浄霊をしております。<br/><br/>現在疣痔で日に五回程用便に参りますが、痛みのため少量しか出ません。<br/><br/>食欲もなく、段々衰弱して参っているようですが、全治致しますでしょうか。<br/><br/> ラジウム療法は癌と共に組織を破壊する。<br/><br/>これは恐ろしい。<br/><br/>レントゲン放射は実によく固める。<br/><br/>やって見ぬと判らぬが、難しいと思う。<br/><br/>四十三歳とすると、古血の溜ったものであろう。<br/><br/> 疣痔はじきに治る。<br/><br/>内痔核と外痔核とある。<br/><br/>（S24.10. 6） 007 大腸カタルから内痔核 岩城克治（現在十二歳）、八歳頃より大腸カタルで四年間に注射及び医療等も致しましたが、良くならず、一昨年九月御浄霊を受けるようになって大変良くなりました。<br/><br/>今月北海道より御面会に上京致しましたが、車中、用便の後強烈に何回も病んでおりました。<br/><br/>病む所は痔の部分で、血便や軟便も下ります。<br/><br/>浄霊法を御教授下さい。<br/><br/> 大腸カタルなど非常に結構である。<br/><br/>保存法をやった訳である。<br/><br/> 肛門付近におデキが出来ている。<br/><br/>内痔核というのである。<br/><br/>浄霊でじきに治る。<br/><br/>（S25. 2. 7） 008 肛門手術 私、昭和二十年五月突然肛門の約一寸程脇に腫物が出来、医師に受診の結果、約二寸程の切開手術をなし、一ケ月程にて全快したようでしたが、二ケ月後また以前と同じようになり、今日に到るも治らず、かえって今では出血及び膿が出て苦痛を感じます。<br/><br/>霊的に関係があるでしょうか。<br/><br/>体のいかなる個所を浄霊したらよいでしょうか。<br/><br/> 手術のためである。<br/><br/>充分寄らないうちに切るとこうなる。<br/><br/>自然にすればドシドシ集って、孔があいて出る。<br/><br/>切ると先の場所へは再び集らぬ。<br/><br/>このために生命をなくす人がある。<br/><br/>局部と腎臓を浄霊すれば治る。<br/><br/>（S24.12.25） 009 陰茎発育不全 （二十二年三月入信した）二十歳の男、陰部が発育不全と云いましょうか、子供の頃と大して変りなく、親にも言えず人知れず悩んでおります。<br/><br/>時々淋巴腺が浄化し、恥骨に時々痛みを感じます。<br/><br/>その他は変った事もありません。<br/><br/>御浄霊を戴いていれば発育致しましょうか。<br/><br/>御浄霊法を御教示下さい。<br/><br/> 腎臓を浄霊すれば治る。<br/><br/>腎臓の後ろに塊がある。<br/><br/>（S24. 9.16） 010 睾丸痛 五日ほど前より睾丸が腫れて痛みますが、どうしたらよろしいでしょうか。<br/><br/>（昨年九月入信） 自分ですればすぐ治る。<br/><br/>（カリエスでも来るが、薬毒である。<br/><br/>注射毒であろう） 私も三、四年前から睾丸が痛む。<br/><br/>薬の分量だけ痛む。<br/><br/> 011 結核性睾丸炎の原因 私は昭和二十一年十月より睾丸炎にて左の方が次第に大きくなり、ただ今では相当大きくなりました。<br/><br/>昨年十一月入信、浄霊を受けています。<br/><br/>これは元のように小さくなりますか。<br/><br/>医者は結核性副睾丸炎と云います。<br/><br/> 元の通りになる。<br/><br/>四、五寸離して浄霊する。<br/><br/> 睾丸炎は淋毒から来ている。<br/><br/>割合い治りいい病気である。<br/><br/>治らぬと結核にするが、結核などはない。<br/><br/>あり得ぬ事だ。<br/><br/>（S24. 2.16） 012 結核性睾丸炎 私がただ今浄霊中の人ですが、結核性睾丸炎で医者に一年半ケ月余りかかり、片方切り取りましたら、その後また片方へ出て来ましたのですが、浄霊の方法を御教え願います。<br/><br/> これも玉である。<br/><br/>その部をよく浄霊する。<br/><br/>結核性なんて嘘で、治らぬのは皆結核性という。<br/><br/>薬毒性睾丸炎である。<br/><br/>淋毒で、睾丸と股部をする。<br/><br/>（S24. 9.15） 013 尿道狭窄と淋菌 七十三歳、十年前より尿道狭窄、昨夏より腰痛、尿を垂れ流し、臍の直ぐ下が瘤のように隆起し出しました。<br/><br/>普段は固く、尿が出るとゴムまりのように柔かく、かつ小さくなります。<br/><br/> 狭窄は昔淋病をやった人にある。<br/><br/>淋菌は絶対なくならぬ。<br/><br/>尿道へ向って浄霊すれば少しずつ溶けて、小便になって出る。<br/><br/>特に腎臓をやる。<br/><br/>腎臓が働きだせば訳なく治る。<br/><br/>（S24. 1.23） 014 淋病と梅毒 三十五歳の婦人（本年六月入信）、多少胸部疾患でしたが、入信後全治、最近血液検査の結果陰性梅毒と診断され、医師よりペニシリン注射をすすめられました。<br/><br/>（入信前、ペニシリン注射をしましたが、効果がありませんでした）浄霊により梅毒菌は死滅するものでしょうか。<br/><br/> 梅毒菌は簡単である。<br/><br/> 酒呑みの淋病、下戸（げこ）の梅毒という。<br/><br/>（S24.10.13） 015 梅毒は一代 現在三十三歳になる女、梅毒性視神経萎縮のために昭和十九年七月発病し、視力がにぶり、その後、医師にかかり、眼球注射、水銀注射、サルバルサン等種々の手当を致した末、 昭和二十年一月完全に失明し、昨年八月より浄霊を受けてより身体の方は順調にならせて戴きましたが、眼の方は時に気のせいかボンヤリ見えるような気がすることもあるそうですが、見えるようになるのでしょうか。<br/><br/>（同人はまだ入信致しておりません）御浄霊法を御教示を御願い申し上げます。<br/><br/> 一生懸命失明さした。<br/><br/>すっかり治る。<br/><br/>梅毒でも何でもない。<br/><br/>梅毒も薬毒である。<br/><br/>本当の梅毒は一代限りで遺伝せぬ。<br/><br/>医者で薬など注したので、薬を注すと毒が固まり、失明する。<br/><br/>目に固まったのは手数が掛るから暇が掛る。<br/><br/>頭から肩をする。<br/><br/>気長にやってれば治る。<br/><br/>（S24. 8. 5）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>igaku16</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学と浄霊との比較 『栄光』190号、昭和28(1953)年1月7日発行 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 医学は病気を増悪させるもの、浄霊は病気を快癒させるものである事は、信者はよく知っているから、今更言うまでもないが、左の御蔭話はそれがすこぶる顕著に現われているのである。<br><br>このような実例を見るにつけ、何とかして世の中の人に早く知らしたいと思って常に焦慮している吾々である。<br><br>だから本当をいえば何よりもお医者さんに分らせるのが一番だが、これは一層困難であるから止むを得ないが、いずれは世界中のお医者さんに、知れ渡る時が来るのは断じて間違いないのである。<br><br>というのは万能力を発揮される最高の神様の御計画である以上当然である。<br><br>と共に何といっても、本教信者の幸福は到底筆や口では表わせないのである。<br><br> 私の腹痛短時日に癒え背骨を折った重傷の弟蘇る 鹿児島県 専信中教会 福島八兵衛（28） 私は昭和二十五年六月入信させて頂きました者でございます。<br><br>ここに入信の動機と以後戴きました御利益の一端を御報告させていただきます。<br><br> かえりみますれば二十四年八月、山へ仕事に行っている時急に腹が痛みだしたので町の医者に馳せつけて注射をして貰いましたところ、痛みはとれ、薬を貰って家に帰りつくと又痛み出して、下痢がとまりませんでした。<br><br>薬をのんでも止らず、終に医者を替えたり、薬を変えたりし、二十五年五月まで、医者よ薬よと、とうとうお金も使い果し困っておりましたところ、ある日近所のお婆さんが「穀娃の町に手を翳して病気を治す方が宮崎から来ていて、四、五日前よりこの村の病人の所にも出張している」と言う話を聞かされ、早速私も行ってみようとその病人宅まで出かけ、その人のあとで私も手を翳して貰いました。<br><br>その時は何も感じませんでしたが夜になってから、お腹がグーグーと鳴り出したので「ああ、こりゃ大へんだ、前より悪くなったのではないか」と心配していましたが、何時か眠りに落ち、目が覚めてみると今までとは違って身体の調子が良いではありませんか。<br><br>その時これは確かに良い、これで治ると信じて毎日つづけてみましたところ、一週間目には何を食べても腹が痛まず、身体が元気づいて来たのです。<br><br>その頃心に浮かんだのは「お守を持てば誰にでも出来る」との話、自分もお守がほしくなりましたが、金は使い果した挙句とてほとほと困っていました。<br><br>工面やりくりも入信への熱望の為、遂に願いかなえられて、六月入信することが出来ました。<br><br>早速その日より病人宅を訪問して浄霊させていただき、次々と光明如来様、御屏風観音様も奉斎させていただき、毎日喜びの中に御道の為御手伝いさせていただきおりましたが、突然弟が長崎県徳儀炭坑にて運悪く坑内の落盤で脊髄を折って身動きも出来なくなり長崎県国立療養所に入院との知らせをうけました。<br><br>次々と知らせてくれる病院の電報は一日三通、母が心配して私に「早く弟の所に行ってくれ」と頼みますが、急の事とて旅費の工面も出来ず困っておりましたところ、神様の恵みか信者の方が私宅へ尋ねて来てくれ「可哀相だ早く行きなさい」と旅費を貸して下さいました。<br><br>自分も嬉しくて何も手につかず療養所へと急ぎました。<br><br>門まで来ると胸がドキドキしまして、何より先に病室へと急ぎ、見ると弟はベッドの上に上向きにて動きも出来ず、うなっているだけで何の話も出来ませず、医者と看護婦が三人つききりで、「熱が出た、ソレ氷」「寒気が来た、ソレ湯タンポだ、注射だ」と忙しそうでしたが自分はどうしてよいかわからず、ただ見ているだけでした。<br><br>弟の友達の話によりますと、「十日も食べずにうなりつづけだ」と言うのですから、私も早く浄霊してやりたいと思っていましたが、その機会がなくて困っておりました。<br><br>夜になって誰もいない時がありましたので医者が来なければいいがと案じつつ三十分間位浄霊させていただきましたら、弟は非常に楽になったと言い、その夜はぐっすり眠る事が出来ました。<br><br>が、その翌朝又医者が来て注射をして行きましたら、又弟はうなり出しましたので、弟に注射はしてもらわない様に医者に話し、「注射を止めて、弟をこの兄にまかせて下さる事は出来ないでしょうか」とお願いしましたけれど「療内にいる以上は医者の指示に従わなければ困る」と言って受付けて下さいませんので、自分も仕方なく弟に「注射を持って来てもふりきり、飲薬だけでよい」と言う様にと言い聞かせました。<br><br>暫くして又注射を入れに来ましたが、今度は弟が頭をふりふり「もう死んでもいいから注射は入れない」と言って頑張り通しましたところ、医者もとうとう止めて持って帰り、後から看護婦が薬を持って来て置いて行きましたので薬はのむ真似をして少しずつ知れない様に捨ててその夜から浄霊のみを致しました。<br><br> 毎日医者に知れない様に浄霊をつづけましたところ、三日目には一人で便所に行ける様になり、十日目頃は寮内散歩が出来て十五日目頃には市内散歩が出来る様になり、二十一日目に退院することが出来ました。<br><br>これも光明如来様の御霊徳と深く感謝し、早速宮崎支部に御礼参拝致し、入信させていただきました。<br><br> 以来一家内皆々元気で喜びながら毎日仕事に精出しています。<br><br>その後は数々ならぬ御守護をいただき、一家光明の道へと進ませていただけますのは何と御礼申してよいのか知れません。<br><br>又自分も二六年八月には熱海地上天国の御奉仕に参加させて戴き帰りには大黒様をお迎えし、喜びは日に増すばかりです。<br><br>又台風の時の自分の家の御守護等々、私共の如き罪深き者にまで数知れない大御恵、この報恩の万分の一にもとどきませんが世の中の知らざる人々にこの道を知らせたいと御用に精進させていただいております。<br><br> 明主様有難うございました。<br><br> （昭和二十七年十一月七日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A rápida cura de minha dor abdominal e a milagrosa recuperação de meu irmão</h2>
 <p>O fato de que a medicina agrava as doenças, ao passo que o Johrei as conduz à cura plena, é algo que nossos fiéis conhecem bem. Portanto, torna-se quase desnecessário reiterá-lo. Contudo, o relato de graça que se segue o evidencia de forma sobremaneira notável.</p>
@@ -111,5 +263,48 @@ Igreja Naka da Jurisdição de Kagoshima</p>
 <p>Desde então, toda a nossa família vive com saúde e alegria, dedicando-se ao trabalho diário. Posteriormente, recebemos inúmeras outras proteções, e sou imensamente grato por poder guiar minha família no caminho da Luz. Não tenho palavras para agradecer. Em agosto de 1951, tive a permissão de servir nas obras do Solo Sagrado em Atami e, no retorno, pude entronizar a imagem de Daikoku em meu lar, e minha alegria só aumenta a cada dia. As proteções que recebemos, como a de nossa casa durante um tufão, são incontáveis. Mesmo para alguém com tantas máculas como eu, as graças são imensuráveis. Embora eu jamais consiga retribuir nem uma ínfima parte de tamanha bênção, dedico-me com afinco à Obra Divina para levar este Caminho àqueles que ainda o desconhecem.</p>
 <p>Muito obrigado, Meishu-Sama.</p>
 <p>(7 de novembro de 1952)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学と浄霊との比較 『栄光』190号、昭和28(1953)年1月7日発行 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 医学は病気を増悪させるもの、浄霊は病気を快癒させるものである事は、信者はよく知っているから、今更言うまでもないが、左の御蔭話はそれがすこぶる顕著に現われているのである。<br/><br/>このような実例を見るにつけ、何とかして世の中の人に早く知らしたいと思って常に焦慮している吾々である。<br/><br/>だから本当をいえば何よりもお医者さんに分らせるのが一番だが、これは一層困難であるから止むを得ないが、いずれは世界中のお医者さんに、知れ渡る時が来るのは断じて間違いないのである。<br/><br/>というのは万能力を発揮される最高の神様の御計画である以上当然である。<br/><br/>と共に何といっても、本教信者の幸福は到底筆や口では表わせないのである。<br/><br/> 私の腹痛短時日に癒え背骨を折った重傷の弟蘇る 鹿児島県 専信中教会 福島八兵衛（28） 私は昭和二十五年六月入信させて頂きました者でございます。<br/><br/>ここに入信の動機と以後戴きました御利益の一端を御報告させていただきます。<br/><br/> かえりみますれば二十四年八月、山へ仕事に行っている時急に腹が痛みだしたので町の医者に馳せつけて注射をして貰いましたところ、痛みはとれ、薬を貰って家に帰りつくと又痛み出して、下痢がとまりませんでした。<br/><br/>薬をのんでも止らず、終に医者を替えたり、薬を変えたりし、二十五年五月まで、医者よ薬よと、とうとうお金も使い果し困っておりましたところ、ある日近所のお婆さんが「穀娃の町に手を翳して病気を治す方が宮崎から来ていて、四、五日前よりこの村の病人の所にも出張している」と言う話を聞かされ、早速私も行ってみようとその病人宅まで出かけ、その人のあとで私も手を翳して貰いました。<br/><br/>その時は何も感じませんでしたが夜になってから、お腹がグーグーと鳴り出したので「ああ、こりゃ大へんだ、前より悪くなったのではないか」と心配していましたが、何時か眠りに落ち、目が覚めてみると今までとは違って身体の調子が良いではありませんか。<br/><br/>その時これは確かに良い、これで治ると信じて毎日つづけてみましたところ、一週間目には何を食べても腹が痛まず、身体が元気づいて来たのです。<br/><br/>その頃心に浮かんだのは「お守を持てば誰にでも出来る」との話、自分もお守がほしくなりましたが、金は使い果した挙句とてほとほと困っていました。<br/><br/>工面やりくりも入信への熱望の為、遂に願いかなえられて、六月入信することが出来ました。<br/><br/>早速その日より病人宅を訪問して浄霊させていただき、次々と光明如来様、御屏風観音様も奉斎させていただき、毎日喜びの中に御道の為御手伝いさせていただきおりましたが、突然弟が長崎県徳儀炭坑にて運悪く坑内の落盤で脊髄を折って身動きも出来なくなり長崎県国立療養所に入院との知らせをうけました。<br/><br/>次々と知らせてくれる病院の電報は一日三通、母が心配して私に「早く弟の所に行ってくれ」と頼みますが、急の事とて旅費の工面も出来ず困っておりましたところ、神様の恵みか信者の方が私宅へ尋ねて来てくれ「可哀相だ早く行きなさい」と旅費を貸して下さいました。<br/><br/>自分も嬉しくて何も手につかず療養所へと急ぎました。<br/><br/>門まで来ると胸がドキドキしまして、何より先に病室へと急ぎ、見ると弟はベッドの上に上向きにて動きも出来ず、うなっているだけで何の話も出来ませず、医者と看護婦が三人つききりで、「熱が出た、ソレ氷」「寒気が来た、ソレ湯タンポだ、注射だ」と忙しそうでしたが自分はどうしてよいかわからず、ただ見ているだけでした。<br/><br/>弟の友達の話によりますと、「十日も食べずにうなりつづけだ」と言うのですから、私も早く浄霊してやりたいと思っていましたが、その機会がなくて困っておりました。<br/><br/>夜になって誰もいない時がありましたので医者が来なければいいがと案じつつ三十分間位浄霊させていただきましたら、弟は非常に楽になったと言い、その夜はぐっすり眠る事が出来ました。<br/><br/>が、その翌朝又医者が来て注射をして行きましたら、又弟はうなり出しましたので、弟に注射はしてもらわない様に医者に話し、「注射を止めて、弟をこの兄にまかせて下さる事は出来ないでしょうか」とお願いしましたけれど「療内にいる以上は医者の指示に従わなければ困る」と言って受付けて下さいませんので、自分も仕方なく弟に「注射を持って来てもふりきり、飲薬だけでよい」と言う様にと言い聞かせました。<br/><br/>暫くして又注射を入れに来ましたが、今度は弟が頭をふりふり「もう死んでもいいから注射は入れない」と言って頑張り通しましたところ、医者もとうとう止めて持って帰り、後から看護婦が薬を持って来て置いて行きましたので薬はのむ真似をして少しずつ知れない様に捨ててその夜から浄霊のみを致しました。<br/><br/> 毎日医者に知れない様に浄霊をつづけましたところ、三日目には一人で便所に行ける様になり、十日目頃は寮内散歩が出来て十五日目頃には市内散歩が出来る様になり、二十一日目に退院することが出来ました。<br/><br/>これも光明如来様の御霊徳と深く感謝し、早速宮崎支部に御礼参拝致し、入信させていただきました。<br/><br/> 以来一家内皆々元気で喜びながら毎日仕事に精出しています。<br/><br/>その後は数々ならぬ御守護をいただき、一家光明の道へと進ませていただけますのは何と御礼申してよいのか知れません。<br/><br/>又自分も二六年八月には熱海地上天国の御奉仕に参加させて戴き帰りには大黒様をお迎えし、喜びは日に増すばかりです。<br/><br/>又台風の時の自分の家の御守護等々、私共の如き罪深き者にまで数知れない大御恵、この報恩の万分の一にもとどきませんが世の中の知らざる人々にこの道を知らせたいと御用に精進させていただいております。<br/><br/> 明主様有難うございました。<br/><br/> （昭和二十七年十一月七日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

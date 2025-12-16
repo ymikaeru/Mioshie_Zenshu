@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>densen02</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 伝染病恐るるに足らず 『栄光』164号、昭和27(1952)年7月9日発行 これから夏期になるに従って、諸種の伝染病が続出するとして、当局は大童（おおわらわ）になって、予防方法や色々な施設に懸命であるが、吾々からみるとまことに情ないのである。<br><br>何となれば医学はその根本が分っていないからでもあるが、根本さえ分ってみれば何も心配も要らないばかりか、むしろ伝染病に罹ればそれだけ健康は増すのである。<br><br>その何よりの証拠は伝染病が治ると当分は発（おこ）らないばかりか、病種によっては一生免疫となり、健康はよりよくなるのである。<br><br>こんな事をいうと現代人は到底信じられないだろうが、それが真理だから、仕方がない。<br><br>そこでその理由を詳しくかいてみるがこれを読んだなら何人もなるほどと合点がゆくであろう。<br><br> そもそも伝染病なるものは最も急速に行われる浄化作用であって、これ程結構なものはないのである。<br><br>というのは今日の人間は非常に血が濁っている。<br><br>この原因はいつもいう通り無暗に薬を体内に入れるからで、薬は元々毒であって、その毒が血液へ吸収されて濁血者となるのである。<br><br>ところが濁血者は虚弱で病気も発り易いから、ここに自然はその濁りを排除すべき浄化作用が発るので、人体は実によく出来ているのである。<br><br> ところが面白い事にはその濁りを解消する作用として、黴菌という微生虫が発生してその仕事をする。<br><br>すなわち黴菌はその濁りの微粒子を喰いつつ繁殖するのであるからつまり濁血の不純物こそ黴菌の食物になる訳で、殖菌作用ではなく食毒作用である。<br><br> 右のように浄化作用が起るという事は、人間ばかりではない。<br><br>地上一切の物に対しても同様で、これが万有の原則である。<br><br>すなわち暴風雨も、雷火も空間の浄化活動であり、戦争も、火災も、洪水ももちろんそれである。<br><br>従って人体も血液が濁れば浄化が発るのは、自然の生理作用であるから、伝染病に罹らないようにするには血液を濁らせない事である。<br><br>では浄血者になるにはどうすればいいかというとはなはだ簡単である。<br><br>すなわち薬を用いなければいい。<br><br>何となれば人間が生きるに必要なものは自然に作られる。<br><br>五穀、野菜、魚鳥、獣肉、水等がそれであるから、それを飲食していれば、決して病気に罹るはずはないのである。<br><br>何よりもそれらことごとくに味があるという事は、その物自体が食うべきものである事を教えている。<br><br>それをどう間違えたものか、苦い薬を服んだり不味いものを栄養などといって食うのは、いかに自然に反するかが分るであろう。<br><br>そればかりか結構な浄化作用を悪い意味に解釈し薬という毒物で一時抑えをする。<br><br>その方法が医療であるから、これほど間違った話はあるまい。<br><br> 以上の理が分ったなら伝染病は恐ろしくないばかりか、健康上必要なものである。<br><br>そうして本教浄霊の意味であるが、浄霊とは黴菌の食物である血液の濁りを解消してしまう神力であるから、黴菌の食物がない以上、たとえ伝染しても繁殖出来ず、死滅してしまうのは当然でこれが根本的伝染病防止法である事が分るであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Princípio da Purificação e as Epidemias</h2>
 <p>Com a aproximação do verão, as autoridades se agitam em grande alvoroço, prevendo o surgimento de diversas doenças contagiosas e empenhando-se em métodos preventivos e na criação de múltiplas instalações. De nossa perspectiva, contudo, tal atitude é verdadeiramente lastimável. Isso ocorre porquanto a medicina desconhece o princípio fundamental que rege tais fenômenos. Se essa base fosse compreendida, não apenas se dissiparia toda a preocupação, como se perceberia que contrair uma doença contagiosa, na verdade, fortalece a saúde.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Ademais, este processo purificador não se restringe ao ser humano. Ele se aplica a todas as coisas sobre a face da Terra, pois constitui um princípio universal. As tempestades e os raios, por exemplo, purificam a atmosfera; da mesma forma, as guerras, os incêndios e as inundações são, em sua natureza, manifestações de purificação. Destarte, sendo uma função fisiológica natural que a purificação ocorra quando o sangue se torna impuro, a única medida eficaz para não contrair doenças contagiosas é não permitir que ele se macule.</p>
 <p>Como, então, manter o sangue puro? A resposta é surpreendentemente simples: basta não fazer uso de medicamentos. Com efeito, tudo o que o ser humano necessita para viver é provido pela Natureza: os cinco grãos, os legumes, os peixes e as aves, a carne dos animais, a água, entre outros. Alimentando-se desses elementos, é impossível que adoeça. A maior evidência disso é que todos esses alimentos possuem sabor, o que nos ensina que eles foram feitos para serem consumidos. Como foi que o homem se equivocou a ponto de ingerir remédios amargos ou comer alimentos insípidos sob a justificativa de que são "nutritivos"? Fica evidente o quanto essa prática contraria as leis naturais. Não bastasse isso, interpreta-se o sublime processo de purificação como algo maléfico, recorrendo-se a uma substância tóxica — o remédio — para suprimi-lo temporariamente. E a esse método dá-se o nome de "tratamento médico". Haverá equívoco maior?</p>
 <p>Uma vez compreendido este princípio, as doenças contagiosas não apenas deixam de ser temíveis, como se revelam necessárias à manutenção da saúde. Nesse sentido, compreende-se o significado do Johrei de nossa Igreja. O Johrei é o poder divino que dissolve as impurezas do sangue, as quais, como vimos, constituem o alimento dos germes. Consequentemente, privados de seu sustento, ainda que ocorra o contágio, os germes não conseguem se proliferar e acabam por perecer. Fica claro, portanto, que este é o método fundamental para a prevenção das doenças contagiosas.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 伝染病恐るるに足らず 『栄光』164号、昭和27(1952)年7月9日発行 これから夏期になるに従って、諸種の伝染病が続出するとして、当局は大童（おおわらわ）になって、予防方法や色々な施設に懸命であるが、吾々からみるとまことに情ないのである。<br/><br/>何となれば医学はその根本が分っていないからでもあるが、根本さえ分ってみれば何も心配も要らないばかりか、むしろ伝染病に罹ればそれだけ健康は増すのである。<br/><br/>その何よりの証拠は伝染病が治ると当分は発（おこ）らないばかりか、病種によっては一生免疫となり、健康はよりよくなるのである。<br/><br/>こんな事をいうと現代人は到底信じられないだろうが、それが真理だから、仕方がない。<br/><br/>そこでその理由を詳しくかいてみるがこれを読んだなら何人もなるほどと合点がゆくであろう。<br/><br/> そもそも伝染病なるものは最も急速に行われる浄化作用であって、これ程結構なものはないのである。<br/><br/>というのは今日の人間は非常に血が濁っている。<br/><br/>この原因はいつもいう通り無暗に薬を体内に入れるからで、薬は元々毒であって、その毒が血液へ吸収されて濁血者となるのである。<br/><br/>ところが濁血者は虚弱で病気も発り易いから、ここに自然はその濁りを排除すべき浄化作用が発るので、人体は実によく出来ているのである。<br/><br/> ところが面白い事にはその濁りを解消する作用として、黴菌という微生虫が発生してその仕事をする。<br/><br/>すなわち黴菌はその濁りの微粒子を喰いつつ繁殖するのであるからつまり濁血の不純物こそ黴菌の食物になる訳で、殖菌作用ではなく食毒作用である。<br/><br/> 右のように浄化作用が起るという事は、人間ばかりではない。<br/><br/>地上一切の物に対しても同様で、これが万有の原則である。<br/><br/>すなわち暴風雨も、雷火も空間の浄化活動であり、戦争も、火災も、洪水ももちろんそれである。<br/><br/>従って人体も血液が濁れば浄化が発るのは、自然の生理作用であるから、伝染病に罹らないようにするには血液を濁らせない事である。<br/><br/>では浄血者になるにはどうすればいいかというとはなはだ簡単である。<br/><br/>すなわち薬を用いなければいい。<br/><br/>何となれば人間が生きるに必要なものは自然に作られる。<br/><br/>五穀、野菜、魚鳥、獣肉、水等がそれであるから、それを飲食していれば、決して病気に罹るはずはないのである。<br/><br/>何よりもそれらことごとくに味があるという事は、その物自体が食うべきものである事を教えている。<br/><br/>それをどう間違えたものか、苦い薬を服んだり不味いものを栄養などといって食うのは、いかに自然に反するかが分るであろう。<br/><br/>そればかりか結構な浄化作用を悪い意味に解釈し薬という毒物で一時抑えをする。<br/><br/>その方法が医療であるから、これほど間違った話はあるまい。<br/><br/> 以上の理が分ったなら伝染病は恐ろしくないばかりか、健康上必要なものである。<br/><br/>そうして本教浄霊の意味であるが、浄霊とは黴菌の食物である血液の濁りを解消してしまう神力であるから、黴菌の食物がない以上、たとえ伝染しても繁殖出来ず、死滅してしまうのは当然でこれが根本的伝染病防止法である事が分るであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

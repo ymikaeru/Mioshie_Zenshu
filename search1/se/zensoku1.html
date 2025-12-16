@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>zensoku1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 喘息 ・病患と医学の誤謬五 『明日の医術（再版）第二編』昭和18(1943)年2月5日発行 医学上、原因不明で、治癒不可能とされている病気に喘息がある。<br><br>これも日本人に頗（すこぶ）る多い病気であるから、詳説してみよう。<br><br> 喘息は、医学においては二種に分けられている。<br><br>即ち心臓性喘息と気管支性喘息とである。<br><br>即ち、前者は発作的であって、発作の起るや激しい呼吸困難を来し、重症にあっては呼吸切迫して、ほとんど死の直前に在るやと思う程で、実に視るに堪えないものがある。<br><br>又後者は強烈頻繁なる咳嗽（せき）に苦しみ、不眠、食欲不振、呼吸困難等痛苦はなはだしいものがある。<br><br>そうしていずれも周期的に、例えば冬季に限るとか、夏季に限って起るとかいう症状と、二六時中断えず苦しむのと両方ある。<br><br>医療においては、注射によって一時的苦痛を除去するのが唯一の方法であって、全く注射するや、いかに激しい苦痛も、たちまち拭うがごとく快癒するのである。<br><br>しかしある時間を経過すれば再発するので、患者は苦痛に堪えず、また注射を受くるのである。<br><br>しかし、注射を繰返す毎に漸次その効果を減じ、やむなく頻繁に行うようになり、この結果一日二三十本位、注射を行わなければならない患者もあるが、これらは全く注射中毒の重症に陥った者である。<br><br>しかし、かくのごとき重症でも私は根治さしたのである。<br><br>言うまでもなく、喘息の発作や咳嗽は、浄化作用であり、注射は勿論、その薬毒によって、浄化作用の一時的停止を行うのである。<br><br>今日医学では喘息の原因について、諸説紛々（ふんぷん）としているが、私の知る限りの説では、あまりに原因に遠すぎ、ほとんど暗中模索的である。<br><br>その説の中で、迷走神経の異状というのがあるが見当違いもはなはだしいのである。<br><br> そうして、私の発見によれば、心臓性喘息は、こういう原因によるのである。<br><br>それはまず、患者の横隔膜の下辺――即ち胃の上部及び肝臓の上部を診れば必ず腫脹していて微熱がある。<br><br>そこを圧すれば硬化していて多少の痛みを感じ、毒素溜結がよく判るのである。<br><br>これが第一の原因であって、次に、背部心臓の裏面も同様である。<br><br>又、胸部及び腋窩（わきのした）及びその肋骨部を指頭にて圧すれば、相当強痛を感ずるのである。<br><br>これは右の付近に毒素が溜結しているのであって、これが第二の原因である。<br><br>次に肩部（重に左）臍部の周囲及び大腸部（重に右側）鼠蹊腺部（重に右）背面腎臓部（右又は左）等これが第三の原因である。<br><br> 原因は、右に示した通りであるが、第一は喘息の主因ともいうべきもので、喘息の本格的原因である。<br><br>特に発作は第一が主で、第二が次であって、第三は、発作の原因とはならず、ただ咳嗽の原因となるのである。<br><br>そうして何故に発作が起るかというと、第一の原因即ち横隔膜下辺及び心臓裏面の毒素溜結が、浄化作用によって溶解し、それが喀痰となって肺臓内に浸潤して排泄されようとする場合喀痰が濃度の場合と、人により肺膜が厚性の為、容易に喀痰が浸潤し難いので、肺臓自体の方から喀痰を吸収すべく、強大なる呼吸を営なもうとするので、それが発作である。<br><br>その証左として注射を行った後、必ず喀痰を排泄すると同時に発作が止むによってみても瞭（あきら）かである。<br><br>又、私の経験によるも、治療の際喀痰の排泄がある毎に発作は軽減してゆくのである。<br><br>又、この症状は必ず食欲不振であるがそれは常に毒素が胃を圧迫しているからである。<br><br>従って、軽快に赴くに従って、患部の腫脹は柔軟となり、小さくなるに従って、胃は活動を始め、食欲も漸次増加するのである。<br><br>又第二の原因即ち肋骨部の毒素溜結も、第一とほぼ同様の作用をする。<br><br>第三の原因は咳嗽だけであるが、発作や呼吸困難を促進する事があるから、これらも除去しなければならないのは勿論である。<br><br> 右の原理が正しいという事は、いかなる喘息といえども、本療法によって完全に治癒せしめ得るにみて、疑う余地はないのである。<br><br> 右に示した第一、第二、第三の原因について、今少しく説いてみよう。<br><br>喘息には遺伝即ち先天的原因も相当あるが、後天的原因の方が多いのである。<br><br> しからば、後天的原因とは何ぞやというと、まず肺炎に罹るや、肺炎の特性である多量の喀痰の排泄を医療は抑止（よくし）するが故に喀痰はある程度排泄されても相当の量を残存する事になるので、その喀痰は上より下へという具合に肺臓下へ逆浸潤を為し、横隔膜下辺に集溜凝結する。<br><br>又心臓裏面の毒結は、萎縮腎の余剰尿で、これが第一原因である。<br><br> 次に、第二原因は、尿毒及び薬毒が胃や肝臓の上部及び肋骨とその付近に集溜するのである。<br><br>特に薬毒が多いのであって、必ず発熱を伴い、人により肋間神経痛と同様の痛みがある事がある。<br><br>第三の原因は、感冒の咳嗽と同様である。<br><br> 又、小児喘息もあるが、これは、小児病の項に詳説する。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Asma e os Equívocos da Medicina</h2>
 <p>Entre as enfermidades que a medicina considera de causa desconhecida e incuráveis, encontra-se a asma. Sendo esta uma doença que aflige um número considerável de japoneses, proponho-me a elucidá-la em detalhes.</p>
@@ -109,5 +261,48 @@ function toggleLang(lang) {
 <p>Mas em que consistem essas causas adquiridas? Primeiramente, quando uma pessoa contrai pneumonia, os tratamentos médicos suprimem a expectoração abundante, que é uma característica da doença. Em consequência, embora uma parte do catarro seja eliminada, uma quantidade considerável permanece nos pulmões. Esse resíduo, então, infiltra-se em sentido descendente, acumulando-se e solidificando-se sob o diafragma. A solidificação de toxinas por trás do coração, por sua vez, é formada pelo excesso de urina proveniente de rins atrofiados, complementando a primeira causa.</p>
 <p>A segunda causa reside no acúmulo de toxinas urêmicas e medicamentosas na parte superior do estômago, do fígado e na região das costelas. As toxinas de medicamentos são particularmente comuns, vindo sempre acompanhadas de febre e, em alguns indivíduos, de uma dor semelhante à da neuralgia intercostal. Finalmente, a terceira causa é análoga àquela da tosse provocada por um resfriado.</p>
 <p>Existe também a asma infantil, mas tratarei dela em detalhes no capítulo dedicado às doenças infantis.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 喘息 ・病患と医学の誤謬五 『明日の医術（再版）第二編』昭和18(1943)年2月5日発行 医学上、原因不明で、治癒不可能とされている病気に喘息がある。<br/><br/>これも日本人に頗（すこぶ）る多い病気であるから、詳説してみよう。<br/><br/> 喘息は、医学においては二種に分けられている。<br/><br/>即ち心臓性喘息と気管支性喘息とである。<br/><br/>即ち、前者は発作的であって、発作の起るや激しい呼吸困難を来し、重症にあっては呼吸切迫して、ほとんど死の直前に在るやと思う程で、実に視るに堪えないものがある。<br/><br/>又後者は強烈頻繁なる咳嗽（せき）に苦しみ、不眠、食欲不振、呼吸困難等痛苦はなはだしいものがある。<br/><br/>そうしていずれも周期的に、例えば冬季に限るとか、夏季に限って起るとかいう症状と、二六時中断えず苦しむのと両方ある。<br/><br/>医療においては、注射によって一時的苦痛を除去するのが唯一の方法であって、全く注射するや、いかに激しい苦痛も、たちまち拭うがごとく快癒するのである。<br/><br/>しかしある時間を経過すれば再発するので、患者は苦痛に堪えず、また注射を受くるのである。<br/><br/>しかし、注射を繰返す毎に漸次その効果を減じ、やむなく頻繁に行うようになり、この結果一日二三十本位、注射を行わなければならない患者もあるが、これらは全く注射中毒の重症に陥った者である。<br/><br/>しかし、かくのごとき重症でも私は根治さしたのである。<br/><br/>言うまでもなく、喘息の発作や咳嗽は、浄化作用であり、注射は勿論、その薬毒によって、浄化作用の一時的停止を行うのである。<br/><br/>今日医学では喘息の原因について、諸説紛々（ふんぷん）としているが、私の知る限りの説では、あまりに原因に遠すぎ、ほとんど暗中模索的である。<br/><br/>その説の中で、迷走神経の異状というのがあるが見当違いもはなはだしいのである。<br/><br/> そうして、私の発見によれば、心臓性喘息は、こういう原因によるのである。<br/><br/>それはまず、患者の横隔膜の下辺――即ち胃の上部及び肝臓の上部を診れば必ず腫脹していて微熱がある。<br/><br/>そこを圧すれば硬化していて多少の痛みを感じ、毒素溜結がよく判るのである。<br/><br/>これが第一の原因であって、次に、背部心臓の裏面も同様である。<br/><br/>又、胸部及び腋窩（わきのした）及びその肋骨部を指頭にて圧すれば、相当強痛を感ずるのである。<br/><br/>これは右の付近に毒素が溜結しているのであって、これが第二の原因である。<br/><br/>次に肩部（重に左）臍部の周囲及び大腸部（重に右側）鼠蹊腺部（重に右）背面腎臓部（右又は左）等これが第三の原因である。<br/><br/> 原因は、右に示した通りであるが、第一は喘息の主因ともいうべきもので、喘息の本格的原因である。<br/><br/>特に発作は第一が主で、第二が次であって、第三は、発作の原因とはならず、ただ咳嗽の原因となるのである。<br/><br/>そうして何故に発作が起るかというと、第一の原因即ち横隔膜下辺及び心臓裏面の毒素溜結が、浄化作用によって溶解し、それが喀痰となって肺臓内に浸潤して排泄されようとする場合喀痰が濃度の場合と、人により肺膜が厚性の為、容易に喀痰が浸潤し難いので、肺臓自体の方から喀痰を吸収すべく、強大なる呼吸を営なもうとするので、それが発作である。<br/><br/>その証左として注射を行った後、必ず喀痰を排泄すると同時に発作が止むによってみても瞭（あきら）かである。<br/><br/>又、私の経験によるも、治療の際喀痰の排泄がある毎に発作は軽減してゆくのである。<br/><br/>又、この症状は必ず食欲不振であるがそれは常に毒素が胃を圧迫しているからである。<br/><br/>従って、軽快に赴くに従って、患部の腫脹は柔軟となり、小さくなるに従って、胃は活動を始め、食欲も漸次増加するのである。<br/><br/>又第二の原因即ち肋骨部の毒素溜結も、第一とほぼ同様の作用をする。<br/><br/>第三の原因は咳嗽だけであるが、発作や呼吸困難を促進する事があるから、これらも除去しなければならないのは勿論である。<br/><br/> 右の原理が正しいという事は、いかなる喘息といえども、本療法によって完全に治癒せしめ得るにみて、疑う余地はないのである。<br/><br/> 右に示した第一、第二、第三の原因について、今少しく説いてみよう。<br/><br/>喘息には遺伝即ち先天的原因も相当あるが、後天的原因の方が多いのである。<br/><br/> しからば、後天的原因とは何ぞやというと、まず肺炎に罹るや、肺炎の特性である多量の喀痰の排泄を医療は抑止（よくし）するが故に喀痰はある程度排泄されても相当の量を残存する事になるので、その喀痰は上より下へという具合に肺臓下へ逆浸潤を為し、横隔膜下辺に集溜凝結する。<br/><br/>又心臓裏面の毒結は、萎縮腎の余剰尿で、これが第一原因である。<br/><br/> 次に、第二原因は、尿毒及び薬毒が胃や肝臓の上部及び肋骨とその付近に集溜するのである。<br/><br/>特に薬毒が多いのであって、必ず発熱を伴い、人により肋間神経痛と同様の痛みがある事がある。<br/><br/>第三の原因は、感冒の咳嗽と同様である。<br/><br/> 又、小児喘息もあるが、これは、小児病の項に詳説する。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

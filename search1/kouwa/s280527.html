@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s280527</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年5月27日） 『御教え集』22号、昭和28(1953)年6月15日発行 昭和二十八年五月二十七日 美術館は見られたでしょう。<br><br>自分で言ってはおかしいが、思ったより立派に見られただろうと思います。<br><br>去年の今ごろはそういう計画はぜんぜんなかったのです。<br><br>もっとも品物も浮世絵が五、六幅くらいなもので、それが夏を過ぎたころからバタバタと集まってきたのです。<br><br>それで神様が浮世絵展をやれというのだろうと思って、それから計画し始めたのです。<br><br>それから外国の古美術品は今年の春ごろからポカポカと集まったのです。<br><br>これは私は夢にも思わなかったのです。<br><br>大体日本や中国の物は始終集めたりいろいろしてましたが、エジプトとかギリシアという物は、ほとんど見たこともないような物でしたが、それがドンドンはいってくるので、神様はこういう展覧会もやられるのだなと思って、それから見られたとおりのものができたのです。<br><br>そういうようなわけで、ぜんぜん神様がやられているので、私は傀儡（かいらい）と同じことで、まるで神様に操られているのです。<br><br>だから非常に楽なのです。<br><br>なにも考えないのです。<br><br>まあ予想はしますが、計画ということはなにもしません。<br><br>ぶつかり放題でやっていて、これだけのものができたのですから、実におもしろいものです。<br><br>四、五日前に毎日新聞と東京日日新聞の美術に関係した記者連が両方で十人か来ました。<br><br>今度新聞にも出すでしょうが、これだけの浮世絵が集まっている所は、日本ではここが一番だろうと言っておりました。<br><br>ですからわずか数カ月で日本で一番というように集まるということは、神様の手際のよいことには驚きます。<br><br>ですからそういう方面の専門の人なども、ふつう世の中の金持ちとか財閥という人が何十年もかかって集めた物で美術館を造る。<br><br>無論公開はしませんが、定期的にわずかの間やるというようなもので、そういう美術館と比べても、ここぐらい多方面にいろいろ集まっている所はないと思います。<br><br>その点においても日本一です。<br><br>ですからこれが三年や五年でできるということは、とうてい考えられないと、この間も谷川徹三という人が言ってました。<br><br>ですから世の中では随分不思議に思っている人がたくさんあります。<br><br>神様のことを知らないからそう思うのも無理はありませんが、「随分骨を折っているだろう、苦心しただろう」ということを言われますが、本当言うと苦心もなにもないのですから楽なものです。<br><br>フワフワとしているうちにできてしまったのです。<br><br>それでああしてできあがってみると、地形も、流れがあったり、土地の高低、まわりの環境など、まるで計画したように実によくなってます。<br><br>よい加減にヒョッと浮かび放題にやっていて、随分前から計画してやったように、すべての調和の点なども実によくいったと思います。<br><br>前は薮みたいであったことを考えると、今の紅葉が植わっている苔庭は、去年の春あたりはまだ薮だったのですが、それがたちまちにして、ああなったのですから、そういうことは世間にないだろうと思います。<br><br> しかしよく考えれば、世界人類を救うという神様の目的ですから、こんなものはなんでもないことで、朝メシ前です。<br><br>お茶漬みたいなものです。<br><br>しかし、今までそういうように、神様が力を現わしたことがないから驚くわけです。<br><br>それで時々私がびっくりすることがあります。<br><br>というのは、今まで浮世絵はいろいろ集まってよいと思ったが、ただ屏風だけは、これはという物がなかったのです。<br><br>ですから私は、神様はどうしたのだろう、おかしいなと思っていたのです。<br><br>それで二十五日から信者さんに見せるべく準備していたのですが、ついこの間、京都の方に仏像と支那陶器専門の人が、一つの方は私はよく知っているが、値段とかそういうものの交渉をしようと言って出掛けたのですが、その目的の物は先方の事情があって話も相談もできなかったのです。<br><br>ところが思いもつかず、浮世絵の屏風を二つ売ってもよいということになったのです。<br><br>それで私がふだんから浮世絵のしっかりした、特に人物の大きいのが欲しいと言っていたのです。<br><br>屏風などは細かいのは多いが、大きいのは少ないのです。<br><br>それが見つかって、二十四日に京都から送ってきたのですから、一日も違わないのです。<br><br>それは真ん中に大きなのが出てますが、その隣にあるのは花見鷹狩というので、こういうのはめったに出ない物ですが、それが両方とも二十四日に送ってきたのです。<br><br>それで神様はさすがに手際良くやると感心したのです。<br><br>それでもう浮世絵の種類は充分調ったわけです。<br><br>そういうようなわけで、実におもしろいように集まるのです。<br><br>それから私は浮世絵という物は、昔の物、多く徳川時代であって、近代の明治この方の浮世絵はあんまりないと思っていたところが、別館の、はいってすぐの所に並べてありますが、そういうのがなかなかあるのです。<br><br>それがつい一月くらい前からポカポカとはいってきたのでびっくりしているのです。<br><br>特に深水の版画は非常に良い物で、昔の物に負けないくらいの物で随分惚れ惚れするような出来です。<br><br>それから名前は変名になってますが山村耕花のも五、六枚あります。<br><br>それから岩田専太郎、それからまだ並べないが、近代の俳優の物で、鳥居清忠のもありますが、それはすばらしい物で、昔の写楽よりもっとできが良いくらいな物です。<br><br>これは陳列替えの時に並べます。<br><br>近代の版画でも変わったおもしろい物があります。<br><br>窓際にある三枚ですが、あれは田舎にいる画家で、自分で画いて、自分で版を彫ってやった物ですが、非常におもしろい物です。<br><br>この人の版画はアメリカには非常に好かれるそうです。<br><br>それから北斎の冨嶽三十六景もなかなかない物です。<br><br>たまたまあっても二版三版物で、初版というのはめったにないのです。<br><br>あれは初版なのです。<br><br>私はそれもべつに探したという物ではないのです。<br><br>第一、北斎の冨嶽三十六景は話には聞いていたが、見るのは今度が初めてというわけです。<br><br>それから肉筆の中にも随分有名なのがあります。<br><br>おもしろいのは、去年も出したが歌麿の裸体のですが、これは浅草に小林文吉というその時代の浮世絵の蒐集家がいたのですが、震災で全部焼いて、あれ一つがよそに貸していたのでそれが残ったのです。<br><br>ですからあれは焼いたことになっていたのですが、去年フッと出てきたのです。<br><br>そういうようで、あの品物の中には奇蹟的な物が随分あります。<br><br> それから外国の骨董というのは、これは持っている人はめったにないのです。<br><br>持っていても二つか三つくらいなものです。<br><br>しかもこの専門の道具屋というのがないのです。<br><br>ところがあんなにあるので、どうして集まったかとみんなびっくりしてます。<br><br>壊れかけたカケラみたいな物はよくありますが、あんなに完備した物はほとんどないと言ってよいです。<br><br>特にあの中のエジプトでできた王姫は、石像でこれは珍品です。<br><br>なにしろ三千年くらい前の物で、作も非常によいです。<br><br>外国のエジプト美術のカタログを見ても、あのくらいのはちょっと見当たりません。<br><br>そういうわけで、実に奇蹟美術館です。<br><br>神仙郷はこれで大体できあがったわけです。<br><br>いずれ熱海の美術館は箱根より約三倍くらいのものを造る予定です。<br><br>これは無論世界一は間違いありません。<br><br>ここは狭いからして、大きい物は飾れないのです。<br><br>仏像の大きいので飾りたいという物を予約してありますから、熱海にできたらそれも飾れます。<br><br>それから支那陶器などももっとありますが、飾りきれないのです。<br><br>それでなくてさえ、多過ぎる、多過ぎるとみんなが言うのです。<br><br>あんまり多いために疲れてしようがないと言うのです。<br><br>この間も専門家が「他の美術館に行くとクズがたくさんある。<br><br>よく見ようと思うのはわずかだからよいが、ここのはクズがなくて一品揃いだから骨が折れるから、もっと少なくしては」ということを言いますが、今度の熱海の時はそういうことを言われないようにできますが、その代わり広いから、かえって骨が折れます。<br><br>今度は足までくたびれます。<br><br>熱海の美術館の設計は大体できてますから、来年の暮れか、再来年の春あたりにできると思ってます。<br><br>箱根の美術館もだいぶ世間に知れてきて、観覧者もだんだん増えつつあるようです。<br><br>今年はよほど増えたと思います。<br><br>それで外人の方にもだいぶ知れて、今年は外人もだいぶ来るような話です。<br><br> それからもう一つは、美術館の方に道路ができてますが、これが早雲山まで一直線に鋪装することになってますが、これが強羅の中央道路になるわけです。<br><br>ですから美術館のある所が、ちょうど銀座の四丁目というようになるわけです。<br><br>強羅なども、将来随分開け、箱根と言えば強羅というようになるだろうと思います。<br><br>今日の新聞に出てますが、強羅はそうでもないが、下の方は湯が非常に少なくなって困っているというのです。<br><br>大体半分くらいになったようです。<br><br>湯本などの宿屋では沸かしている所があるそうです。<br><br>そんなわけで箱根の中心が強羅ということになりつつあるわけです。<br><br>それでこの道路ができると、早雲山をグルッとまわって湖尻の方に行けるわけですから、近き将来、箱根廻りというのは、非常に便利に簡単にできるわけです。<br><br>東京からも他の土地からも来る人はますます増えるだろうと思います。<br><br>そうなると日帰りで充分来られることになります。<br><br>ですから美術館なども日帰りで来れるようになるとドンドン人は来ます。<br><br>一晩泊まりになるとどうしてもよく来ません。<br><br>そういう計画でやったのです。<br><br>おまけにますますバスが進歩してくるし、豊富になってくるでしょう。<br><br>バスの横腹を見ると、とんでもない所の名前が書いてあります。<br><br>ですから美術館なども、とにかく箱根の呼び物ということになるわけです。<br><br>この話はそのくらいにしておきます。<br><br> それからこの前「信仰は理屈に合わなければいけない」ということを言いましたが、それに関連したことがありましたから、そのことを書きましたから、今読ませますが、つまり浄霊の場合に、今まで、でたらめが多かったのです。<br><br>そのでたらめでは、そこに理屈に合わないと、骨を折ってそれだけの効果がないのです。<br><br>それにちょうどよい例がありましたから、今読ませます。<br><br> （御論文「 信仰の合理性に就いて 」）【栄光 二一三号】 つまり浄霊でも、でたらめではあんまり効かないのです。<br><br>それですから私なども、ふだん家内などがどんなに苦しんでいても、決して向こうでやってもらいたいと頼むまでは、絶対にやってやらないのです。<br><br>「ここが苦しいから」「ここが痛いからやっていただきたい」と言えばよいですが、人間というものは変なもので、謎をかけるのです。<br><br>「ああここが気持ちが悪い」とか「ここが苦しい」と言うのですが、私は知らん顔をしているのです。<br><br>向こうが頭を下げるまではやらないのです。<br><br>それはべつに、意地が悪いのでもなんでもないのです。<br><br>そうでなければなおりが悪いのです。<br><br>一番悪いのはよく押し売りをします。<br><br>「さあやってやろう」と言ってやりますが、それがいけないのです。<br><br>もっとも赤ん坊は別ですが、分別がある以上は、先方がお願いすると言ってからでないと、やっても効果がないのです。<br><br>ですからそれをよく心得ておかなければならないのです。<br><br>ちょうどなにかの場合に、御利益をいただきたいと神社仏閣に行って、どうかお助けいただきたいと言うのなら御利益をいただけるのです。<br><br>それをその辺をボヤボヤと行ったり来たりしていれば、なにをしている、と神様だって横を向かれます。<br><br>というのは、人間と神様の地位に高下のあることを忘れてはいけないのです。<br><br>それから「なおしてやるから御礼しろ」とか、また「なおったら信仰にはいらしてもらう」というのならよいですが、「なおったら信仰にはいってやる」というのは、どっちが上だか分からないことになります。<br><br>大体、なおったら御礼するということも、今までは神様を傭って使うようなもので、賃金をやるようなものです。<br><br>これだけの仕事をするから、これだけの賃金をやろう、ということでは神様だって横を向かれます。<br><br>そこがなかなか難しいのです。<br><br>また、あんまり御利益のないのに金を上げろというのもいけないことです。<br><br>前に、天理教の教師で、病気で苦しんでいる時に、いくらいくら金を上げれば助かるということをよく言うのです。<br><br>それで、そのいくらいくらを上げるのですが、なおらないで死んでしまうことがありますが、私は、それでは神様がやっているのではなくて、神様の取り次ぎ者が詐欺をやっている、とよく言ったことがありますが、これは御利益があって、本当にありがたいという感謝の気持ちで上げるのが本当のことで、受け売り仕事でさせるのはいけないのです。<br><br>しかしまた、それだけの御利益があり、命まで助けてもらいながら、それを忘れたり、よけいなつまらない金にはウンと使って、御礼の方には少しばかり上げるということも理屈に合いません。<br><br>ですからこの前も言ったとおり、理屈に合わなければいけないということです。<br><br>ですから今の支部長に浄霊をやってもらうということも、ぜんぜんいけないことではないのですが、それはごく苦しい時とか、病気が分からない時は支部長に聞いて浄霊してもらえばよいですが、そうでなくて、自分でやればよいのを支部長の手数をかけるというのは間違っています。<br><br>それも病気によっていろいろありますが、肺炎というのは、ほったらかしておいてもなおるくらいですから、父親か母親がやればそれで結構なおるのです。<br><br>それを早いうちから支部長に頼むとなおりが悪いのです。<br><br>かえって父親や母親がやる方が、より早くなおります。<br><br>というのは、支部長というものは多くの人を助け、御神業を発展させるということの考えでいるべきであって、そこが外れているから、骨折りながらうまく行かないというわけです。<br><br>ですから、ただむちゃくちゃに浄霊してもいけないので、そこに筋が立たなければいけないのです。<br><br>「神は順序なり」と言うから、その筋を立ててやれば、割合楽になおるのです。<br><br>そういうことは今まで割合に話しませんから、そういう間違ったことが起るわけです。<br><br>これは肝腎なことですから、今話したわけです。<br><br> それから『救世教奇蹟集』はすっかりできあがったので、これから出版にかかりますが、これはすばらしい物です。<br><br>教修を受けた人は必ずこれを一冊は持っているようにしなければならないものです。<br><br>今までの奇蹟で、ごくすばらしいものを選り抜いて載せてあるし、その説明もしてありますから、未信者に見せるには一番刺激するわけです。<br><br>だから将来これは二十世紀のバイブルになります。<br><br>その「結論」はちょっとおもしろいですから読ませます。<br><br> （御論文「 「世界救世教奇蹟集」結論 」）【地上天国 四十九号】 それから『朝日新聞』で毎年募集している全国の米の多収穫で、去年の一等は俵にして十五俵三斗三升二合でした。<br><br>ところがそれをよく調べたところが、無理に一年の収穫を得るために、いろんな肥料をウンと使って、ちょうど麻薬と同じことですから、ばかに威勢よくさせたようなもので、来年はガタ落ちだそうです。<br><br>これは尋ねて行った本人から聞いたのですから間違いありません。<br><br>そうすると、ただ競技のための増収ですから実際としては意味がありません。<br><br>だからどうしても三年か五年の平均をとって立派な収穫を得れば、それこそ役に立ちますが、そうでなければしようがありません。<br><br>それとしても自然栽培の方ではもっと穫れます。<br><br>去年の一番は十八俵ですから、今年はそれ以上穫れるに違いないから、自信のある人はぜひ出品した方がよいと思います。<br><br>その『朝日』の広告を読ませます。<br><br> （五月二十一日付『朝日新聞』神奈川県版掲載の記事） 去年の一等は香川県の人です。<br><br>そこで去年の一等が十五俵三斗ですから、それ以上でなければおもしろくないですから、それ以上の確信のある人は出品すればよいです。<br><br>自信をもって出品できる人はよけいにはいないでしょうが、しかしもう救世教の中にも自然栽培でよくできる人は幾人かあるでしょうから、そういう人はふるって出品されなければいけません。<br><br>それでこの募集で一等をとれば、それは自然栽培は一遍に広まります。<br><br>これは一番よい機会ですから、そのつもりで大いにやってもらいたいと思います。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Providência Divina e a Racionalidade da Fé</h2>
 <p>Creio que já visitaram o Museu de Belas-Artes. Embora soe presunçoso de minha parte dizê-lo, imagino que o tenham achado mais esplêndido do que esperavam. Nesta mesma época, no ano passado, não havia o menor vestígio de um projeto como este. Com efeito, o acervo se resumia a cinco ou seis gravuras ukiyo-e. Foi a partir do final do verão que as obras começaram a afluir em grande quantidade. Compreendi, então, que era um desígnio de Deus que eu realizasse uma exposição de ukiyo-e e, a partir daí, dei início ao planejamento. Já as peças de arte antiga do Ocidente começaram a chegar de forma contínua na primavera deste ano, algo que eu jamais sequer sonhara. Embora eu me dedicasse com frequência a colecionar obras japonesas e chinesas, peças egípcias ou gregas eram antiguidades que eu praticamente nunca havia visto. Vendo-as afluírem sem cessar, percebi que Deus também desejava realizar este tipo de exposição, e assim nasceu o museu que os senhores viram.</p>
@@ -109,5 +261,48 @@ function toggleLang(lang) {
 <p>Mudando de assunto, no concurso nacional de alta produtividade de arroz, promovido anualmente pelo jornal Asahi Shimbun, o primeiro lugar do ano passado obteve uma colheita de quinze <em>tawara</em>, três <em>to</em>, três <em>sho</em> e dois <em>go</em>. Contudo, uma investigação revelou que, para forçar essa produção em um único ano, utilizou-se uma quantidade exorbitante de fertilizantes, o que equivale a administrar um narcótico à terra, provocando um crescimento artificialmente vigoroso. A produção do próximo ano, segundo me informou a pessoa que investigou o caso, sofrerá uma queda drástica. Trata-se, portanto, de um aumento de produção meramente competitivo, sem qualquer significado prático. Uma avaliação justa deveria considerar a média de três a cinco anos para se obter uma colheita verdadeiramente notável e útil. Mesmo assim, a Agricultura Natural é capaz de produzir ainda mais. No ano passado, nossa melhor colheita atingiu dezoito <em>tawara</em>, e certamente produziremos ainda mais este ano. Portanto, aqueles que se sentem confiantes deveriam, sem dúvida, inscrever-se no concurso. Peço que leiam o anúncio do jornal.</p>
 <p>(Leitura do artigo publicado na edição de 21 de maio do Asahi Shimbun, caderno da província de Kanagawa)</p>
 <p>O vencedor do ano passado era da província de Kagawa. Como a marca a ser superada é de pouco mais de quinze <em>tawara</em>, só valerá a pena competir se tivermos a certeza de ultrapassá-la. Talvez não sejam muitos os que possam se inscrever com tamanha confiança, mas sei que já existem vários membros da Sekaikyuseikyou obtendo excelentes resultados com a Agricultura Natural. Essas pessoas devem se sentir encorajadas a participar. Se conquistarmos o primeiro lugar nesse concurso, a Agricultura Natural se difundirá de uma só vez por todo o país. Esta é a melhor oportunidade que temos, e por isso peço que se dediquem com afinco a esse objetivo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年5月27日） 『御教え集』22号、昭和28(1953)年6月15日発行 昭和二十八年五月二十七日 美術館は見られたでしょう。<br/><br/>自分で言ってはおかしいが、思ったより立派に見られただろうと思います。<br/><br/>去年の今ごろはそういう計画はぜんぜんなかったのです。<br/><br/>もっとも品物も浮世絵が五、六幅くらいなもので、それが夏を過ぎたころからバタバタと集まってきたのです。<br/><br/>それで神様が浮世絵展をやれというのだろうと思って、それから計画し始めたのです。<br/><br/>それから外国の古美術品は今年の春ごろからポカポカと集まったのです。<br/><br/>これは私は夢にも思わなかったのです。<br/><br/>大体日本や中国の物は始終集めたりいろいろしてましたが、エジプトとかギリシアという物は、ほとんど見たこともないような物でしたが、それがドンドンはいってくるので、神様はこういう展覧会もやられるのだなと思って、それから見られたとおりのものができたのです。<br/><br/>そういうようなわけで、ぜんぜん神様がやられているので、私は傀儡（かいらい）と同じことで、まるで神様に操られているのです。<br/><br/>だから非常に楽なのです。<br/><br/>なにも考えないのです。<br/><br/>まあ予想はしますが、計画ということはなにもしません。<br/><br/>ぶつかり放題でやっていて、これだけのものができたのですから、実におもしろいものです。<br/><br/>四、五日前に毎日新聞と東京日日新聞の美術に関係した記者連が両方で十人か来ました。<br/><br/>今度新聞にも出すでしょうが、これだけの浮世絵が集まっている所は、日本ではここが一番だろうと言っておりました。<br/><br/>ですからわずか数カ月で日本で一番というように集まるということは、神様の手際のよいことには驚きます。<br/><br/>ですからそういう方面の専門の人なども、ふつう世の中の金持ちとか財閥という人が何十年もかかって集めた物で美術館を造る。<br/><br/>無論公開はしませんが、定期的にわずかの間やるというようなもので、そういう美術館と比べても、ここぐらい多方面にいろいろ集まっている所はないと思います。<br/><br/>その点においても日本一です。<br/><br/>ですからこれが三年や五年でできるということは、とうてい考えられないと、この間も谷川徹三という人が言ってました。<br/><br/>ですから世の中では随分不思議に思っている人がたくさんあります。<br/><br/>神様のことを知らないからそう思うのも無理はありませんが、「随分骨を折っているだろう、苦心しただろう」ということを言われますが、本当言うと苦心もなにもないのですから楽なものです。<br/><br/>フワフワとしているうちにできてしまったのです。<br/><br/>それでああしてできあがってみると、地形も、流れがあったり、土地の高低、まわりの環境など、まるで計画したように実によくなってます。<br/><br/>よい加減にヒョッと浮かび放題にやっていて、随分前から計画してやったように、すべての調和の点なども実によくいったと思います。<br/><br/>前は薮みたいであったことを考えると、今の紅葉が植わっている苔庭は、去年の春あたりはまだ薮だったのですが、それがたちまちにして、ああなったのですから、そういうことは世間にないだろうと思います。<br/><br/> しかしよく考えれば、世界人類を救うという神様の目的ですから、こんなものはなんでもないことで、朝メシ前です。<br/><br/>お茶漬みたいなものです。<br/><br/>しかし、今までそういうように、神様が力を現わしたことがないから驚くわけです。<br/><br/>それで時々私がびっくりすることがあります。<br/><br/>というのは、今まで浮世絵はいろいろ集まってよいと思ったが、ただ屏風だけは、これはという物がなかったのです。<br/><br/>ですから私は、神様はどうしたのだろう、おかしいなと思っていたのです。<br/><br/>それで二十五日から信者さんに見せるべく準備していたのですが、ついこの間、京都の方に仏像と支那陶器専門の人が、一つの方は私はよく知っているが、値段とかそういうものの交渉をしようと言って出掛けたのですが、その目的の物は先方の事情があって話も相談もできなかったのです。<br/><br/>ところが思いもつかず、浮世絵の屏風を二つ売ってもよいということになったのです。<br/><br/>それで私がふだんから浮世絵のしっかりした、特に人物の大きいのが欲しいと言っていたのです。<br/><br/>屏風などは細かいのは多いが、大きいのは少ないのです。<br/><br/>それが見つかって、二十四日に京都から送ってきたのですから、一日も違わないのです。<br/><br/>それは真ん中に大きなのが出てますが、その隣にあるのは花見鷹狩というので、こういうのはめったに出ない物ですが、それが両方とも二十四日に送ってきたのです。<br/><br/>それで神様はさすがに手際良くやると感心したのです。<br/><br/>それでもう浮世絵の種類は充分調ったわけです。<br/><br/>そういうようなわけで、実におもしろいように集まるのです。<br/><br/>それから私は浮世絵という物は、昔の物、多く徳川時代であって、近代の明治この方の浮世絵はあんまりないと思っていたところが、別館の、はいってすぐの所に並べてありますが、そういうのがなかなかあるのです。<br/><br/>それがつい一月くらい前からポカポカとはいってきたのでびっくりしているのです。<br/><br/>特に深水の版画は非常に良い物で、昔の物に負けないくらいの物で随分惚れ惚れするような出来です。<br/><br/>それから名前は変名になってますが山村耕花のも五、六枚あります。<br/><br/>それから岩田専太郎、それからまだ並べないが、近代の俳優の物で、鳥居清忠のもありますが、それはすばらしい物で、昔の写楽よりもっとできが良いくらいな物です。<br/><br/>これは陳列替えの時に並べます。<br/><br/>近代の版画でも変わったおもしろい物があります。<br/><br/>窓際にある三枚ですが、あれは田舎にいる画家で、自分で画いて、自分で版を彫ってやった物ですが、非常におもしろい物です。<br/><br/>この人の版画はアメリカには非常に好かれるそうです。<br/><br/>それから北斎の冨嶽三十六景もなかなかない物です。<br/><br/>たまたまあっても二版三版物で、初版というのはめったにないのです。<br/><br/>あれは初版なのです。<br/><br/>私はそれもべつに探したという物ではないのです。<br/><br/>第一、北斎の冨嶽三十六景は話には聞いていたが、見るのは今度が初めてというわけです。<br/><br/>それから肉筆の中にも随分有名なのがあります。<br/><br/>おもしろいのは、去年も出したが歌麿の裸体のですが、これは浅草に小林文吉というその時代の浮世絵の蒐集家がいたのですが、震災で全部焼いて、あれ一つがよそに貸していたのでそれが残ったのです。<br/><br/>ですからあれは焼いたことになっていたのですが、去年フッと出てきたのです。<br/><br/>そういうようで、あの品物の中には奇蹟的な物が随分あります。<br/><br/> それから外国の骨董というのは、これは持っている人はめったにないのです。<br/><br/>持っていても二つか三つくらいなものです。<br/><br/>しかもこの専門の道具屋というのがないのです。<br/><br/>ところがあんなにあるので、どうして集まったかとみんなびっくりしてます。<br/><br/>壊れかけたカケラみたいな物はよくありますが、あんなに完備した物はほとんどないと言ってよいです。<br/><br/>特にあの中のエジプトでできた王姫は、石像でこれは珍品です。<br/><br/>なにしろ三千年くらい前の物で、作も非常によいです。<br/><br/>外国のエジプト美術のカタログを見ても、あのくらいのはちょっと見当たりません。<br/><br/>そういうわけで、実に奇蹟美術館です。<br/><br/>神仙郷はこれで大体できあがったわけです。<br/><br/>いずれ熱海の美術館は箱根より約三倍くらいのものを造る予定です。<br/><br/>これは無論世界一は間違いありません。<br/><br/>ここは狭いからして、大きい物は飾れないのです。<br/><br/>仏像の大きいので飾りたいという物を予約してありますから、熱海にできたらそれも飾れます。<br/><br/>それから支那陶器などももっとありますが、飾りきれないのです。<br/><br/>それでなくてさえ、多過ぎる、多過ぎるとみんなが言うのです。<br/><br/>あんまり多いために疲れてしようがないと言うのです。<br/><br/>この間も専門家が「他の美術館に行くとクズがたくさんある。<br/><br/>よく見ようと思うのはわずかだからよいが、ここのはクズがなくて一品揃いだから骨が折れるから、もっと少なくしては」ということを言いますが、今度の熱海の時はそういうことを言われないようにできますが、その代わり広いから、かえって骨が折れます。<br/><br/>今度は足までくたびれます。<br/><br/>熱海の美術館の設計は大体できてますから、来年の暮れか、再来年の春あたりにできると思ってます。<br/><br/>箱根の美術館もだいぶ世間に知れてきて、観覧者もだんだん増えつつあるようです。<br/><br/>今年はよほど増えたと思います。<br/><br/>それで外人の方にもだいぶ知れて、今年は外人もだいぶ来るような話です。<br/><br/> それからもう一つは、美術館の方に道路ができてますが、これが早雲山まで一直線に鋪装することになってますが、これが強羅の中央道路になるわけです。<br/><br/>ですから美術館のある所が、ちょうど銀座の四丁目というようになるわけです。<br/><br/>強羅なども、将来随分開け、箱根と言えば強羅というようになるだろうと思います。<br/><br/>今日の新聞に出てますが、強羅はそうでもないが、下の方は湯が非常に少なくなって困っているというのです。<br/><br/>大体半分くらいになったようです。<br/><br/>湯本などの宿屋では沸かしている所があるそうです。<br/><br/>そんなわけで箱根の中心が強羅ということになりつつあるわけです。<br/><br/>それでこの道路ができると、早雲山をグルッとまわって湖尻の方に行けるわけですから、近き将来、箱根廻りというのは、非常に便利に簡単にできるわけです。<br/><br/>東京からも他の土地からも来る人はますます増えるだろうと思います。<br/><br/>そうなると日帰りで充分来られることになります。<br/><br/>ですから美術館なども日帰りで来れるようになるとドンドン人は来ます。<br/><br/>一晩泊まりになるとどうしてもよく来ません。<br/><br/>そういう計画でやったのです。<br/><br/>おまけにますますバスが進歩してくるし、豊富になってくるでしょう。<br/><br/>バスの横腹を見ると、とんでもない所の名前が書いてあります。<br/><br/>ですから美術館なども、とにかく箱根の呼び物ということになるわけです。<br/><br/>この話はそのくらいにしておきます。<br/><br/> それからこの前「信仰は理屈に合わなければいけない」ということを言いましたが、それに関連したことがありましたから、そのことを書きましたから、今読ませますが、つまり浄霊の場合に、今まで、でたらめが多かったのです。<br/><br/>そのでたらめでは、そこに理屈に合わないと、骨を折ってそれだけの効果がないのです。<br/><br/>それにちょうどよい例がありましたから、今読ませます。<br/><br/> （御論文「 信仰の合理性に就いて 」）【栄光 二一三号】 つまり浄霊でも、でたらめではあんまり効かないのです。<br/><br/>それですから私なども、ふだん家内などがどんなに苦しんでいても、決して向こうでやってもらいたいと頼むまでは、絶対にやってやらないのです。<br/><br/>「ここが苦しいから」「ここが痛いからやっていただきたい」と言えばよいですが、人間というものは変なもので、謎をかけるのです。<br/><br/>「ああここが気持ちが悪い」とか「ここが苦しい」と言うのですが、私は知らん顔をしているのです。<br/><br/>向こうが頭を下げるまではやらないのです。<br/><br/>それはべつに、意地が悪いのでもなんでもないのです。<br/><br/>そうでなければなおりが悪いのです。<br/><br/>一番悪いのはよく押し売りをします。<br/><br/>「さあやってやろう」と言ってやりますが、それがいけないのです。<br/><br/>もっとも赤ん坊は別ですが、分別がある以上は、先方がお願いすると言ってからでないと、やっても効果がないのです。<br/><br/>ですからそれをよく心得ておかなければならないのです。<br/><br/>ちょうどなにかの場合に、御利益をいただきたいと神社仏閣に行って、どうかお助けいただきたいと言うのなら御利益をいただけるのです。<br/><br/>それをその辺をボヤボヤと行ったり来たりしていれば、なにをしている、と神様だって横を向かれます。<br/><br/>というのは、人間と神様の地位に高下のあることを忘れてはいけないのです。<br/><br/>それから「なおしてやるから御礼しろ」とか、また「なおったら信仰にはいらしてもらう」というのならよいですが、「なおったら信仰にはいってやる」というのは、どっちが上だか分からないことになります。<br/><br/>大体、なおったら御礼するということも、今までは神様を傭って使うようなもので、賃金をやるようなものです。<br/><br/>これだけの仕事をするから、これだけの賃金をやろう、ということでは神様だって横を向かれます。<br/><br/>そこがなかなか難しいのです。<br/><br/>また、あんまり御利益のないのに金を上げろというのもいけないことです。<br/><br/>前に、天理教の教師で、病気で苦しんでいる時に、いくらいくら金を上げれば助かるということをよく言うのです。<br/><br/>それで、そのいくらいくらを上げるのですが、なおらないで死んでしまうことがありますが、私は、それでは神様がやっているのではなくて、神様の取り次ぎ者が詐欺をやっている、とよく言ったことがありますが、これは御利益があって、本当にありがたいという感謝の気持ちで上げるのが本当のことで、受け売り仕事でさせるのはいけないのです。<br/><br/>しかしまた、それだけの御利益があり、命まで助けてもらいながら、それを忘れたり、よけいなつまらない金にはウンと使って、御礼の方には少しばかり上げるということも理屈に合いません。<br/><br/>ですからこの前も言ったとおり、理屈に合わなければいけないということです。<br/><br/>ですから今の支部長に浄霊をやってもらうということも、ぜんぜんいけないことではないのですが、それはごく苦しい時とか、病気が分からない時は支部長に聞いて浄霊してもらえばよいですが、そうでなくて、自分でやればよいのを支部長の手数をかけるというのは間違っています。<br/><br/>それも病気によっていろいろありますが、肺炎というのは、ほったらかしておいてもなおるくらいですから、父親か母親がやればそれで結構なおるのです。<br/><br/>それを早いうちから支部長に頼むとなおりが悪いのです。<br/><br/>かえって父親や母親がやる方が、より早くなおります。<br/><br/>というのは、支部長というものは多くの人を助け、御神業を発展させるということの考えでいるべきであって、そこが外れているから、骨折りながらうまく行かないというわけです。<br/><br/>ですから、ただむちゃくちゃに浄霊してもいけないので、そこに筋が立たなければいけないのです。<br/><br/>「神は順序なり」と言うから、その筋を立ててやれば、割合楽になおるのです。<br/><br/>そういうことは今まで割合に話しませんから、そういう間違ったことが起るわけです。<br/><br/>これは肝腎なことですから、今話したわけです。<br/><br/> それから『救世教奇蹟集』はすっかりできあがったので、これから出版にかかりますが、これはすばらしい物です。<br/><br/>教修を受けた人は必ずこれを一冊は持っているようにしなければならないものです。<br/><br/>今までの奇蹟で、ごくすばらしいものを選り抜いて載せてあるし、その説明もしてありますから、未信者に見せるには一番刺激するわけです。<br/><br/>だから将来これは二十世紀のバイブルになります。<br/><br/>その「結論」はちょっとおもしろいですから読ませます。<br/><br/> （御論文「 「世界救世教奇蹟集」結論 」）【地上天国 四十九号】 それから『朝日新聞』で毎年募集している全国の米の多収穫で、去年の一等は俵にして十五俵三斗三升二合でした。<br/><br/>ところがそれをよく調べたところが、無理に一年の収穫を得るために、いろんな肥料をウンと使って、ちょうど麻薬と同じことですから、ばかに威勢よくさせたようなもので、来年はガタ落ちだそうです。<br/><br/>これは尋ねて行った本人から聞いたのですから間違いありません。<br/><br/>そうすると、ただ競技のための増収ですから実際としては意味がありません。<br/><br/>だからどうしても三年か五年の平均をとって立派な収穫を得れば、それこそ役に立ちますが、そうでなければしようがありません。<br/><br/>それとしても自然栽培の方ではもっと穫れます。<br/><br/>去年の一番は十八俵ですから、今年はそれ以上穫れるに違いないから、自信のある人はぜひ出品した方がよいと思います。<br/><br/>その『朝日』の広告を読ませます。<br/><br/> （五月二十一日付『朝日新聞』神奈川県版掲載の記事） 去年の一等は香川県の人です。<br/><br/>そこで去年の一等が十五俵三斗ですから、それ以上でなければおもしろくないですから、それ以上の確信のある人は出品すればよいです。<br/><br/>自信をもって出品できる人はよけいにはいないでしょうが、しかしもう救世教の中にも自然栽培でよくできる人は幾人かあるでしょうから、そういう人はふるって出品されなければいけません。<br/><br/>それでこの募集で一等をとれば、それは自然栽培は一遍に広まります。<br/><br/>これは一番よい機会ですから、そのつもりで大いにやってもらいたいと思います。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

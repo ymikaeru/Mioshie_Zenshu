@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>M260901A</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御垂示 （S26年9月1日） 『御垂示録』2号、昭和26(1951)年10月10日発行 昭和二十六年九月一日 「美術館のことでございますが、今日の御論文で、美術館ができあがったら完成になるということでございました。<br><br>いつか、その資金には今度山から金が出るというので考えさせていただきましたがもし山から出させていただきますと――われわれはふだん、そういう御奉仕をさせていただく他に、なにによって御魂磨きと申しますか――磨かせていただけると考えておりますが、その方法がなくなるのでございます。<br><br>そういうことで御奉仕をさせていただくのが、一番だと考えておりますが」 山から出ますよ。<br><br>じき出ると思っているだろうが――必ず出ますよ。<br><br>やっぱり、いろんな準備やなにかで、そうとうかかる。<br><br>やはり熱海のときと思います。<br><br>ここじゃない。<br><br>ここはわずかで建築ができますから。<br><br> 「天国の型のときに本物が出るはずがないと思いまして」 本物というのは世界全体です。<br><br>だから、世界に型をこしらえるだけで百億の金がいる。<br><br>世界の型ですよ。<br><br> 「やはり、できあがりますには、悪魔のほうで困るので――どうにもならないようになるので、いろんな妨害があると思いますが」 そりゃあります。<br><br>それがなければいまごろは日本一の宗教になっているからね。<br><br>悪魔のほうではたいへんなことだからね。<br><br> 「今日の御論文を拝聴させていただきまして、あれをお聴きして分からん奴はと思いますが――」 そうだな、つまり邪神のほうで一番恐いのは神様のほうだからね。<br><br>どうしても神様はないという無神論を植えつけるのが一番の目的なのです。<br><br>そこで、無神論というものを人類に――一生懸命に植えつけるために二千年もかかっているんです。<br><br>つまり物質ですね。<br><br>病気を治せるというところを見せようと思ったんです。<br><br>それで一生懸命に――ユダヤは学者が多かったからね――やってきて、いまだにそれに瞞されている。<br><br>その奥には邪神の親玉がいる。<br><br>物質で治そう――病気を解決しようと、それいっぽうで進んできたのが医学ですからね。<br><br>だから屁みたいなことを、発見したと言っている。<br><br>ついこの間、癌の原因を発見したとか、なんとか出ていたが、原因を発見しなくてもいいんで、治してもらえばいいんです。<br><br>原因を発見してから治すというのですが、治ればいいんです。<br><br>ところが、原因を発見したと言って喜んでいるが、一つの遊戯に過ぎない。<br><br>驚きますね。<br><br>あんなことをして無駄な金を使って、ありもしない頭を使って死んでいくんですね。<br><br>それだけのものですね。<br><br> 「少し分かりかけましたらたいへんでございます」 たいへんです。<br><br>肝腎な――力のないもので、一生懸命解決しなければならないというのが、今の文明ですね。<br><br>それを教える仕事です。<br><br>いろいろな法律を作るとか、一家が一生懸命やって――今もラジオの街頭録音で、現代の世相というのは――世相が悪いと文句を言っている。<br><br>親子心中だとか、家庭争議だとか、瞞し合うとかね。<br><br>政府の政治が悪いとか、教育が悪いとか、金がないからとか、いろんなこと言っているが、宗教ということを言った奴は一人もない。<br><br>一人、トルーマンもマッカーサーもキリスト教信者だといったが、もう少し言うかと思ったら、それでおしまいだからね。<br><br>それだけ、宗教というものは世の中から認められなくなった。<br><br>なぜかというと、力がないからです。<br><br>できたては力があったが、だんだん無力になった。<br><br>そこで信用がなくなったから、結局忘れられていった。<br><br>だからわれわれは、宗教が信用をされるようにするのです。<br><br>宗教の信用――信じさせるというのは奇跡なんです。<br><br>奇跡がなくて理屈だけだったら、道徳や教育と同じで、奇跡のある所に、理屈や教えで及ばないものがある。<br><br>それが奇跡だから、奇跡即宗教だ。<br><br>最初は多少あったが、今日ではなくなったから、宗教の使命がなくなったというわけで、それが長く続いたので、奇跡がないのが宗教で、あるのは迷信邪教となった。<br><br>すべてあべこべになった。<br><br> キリスト教のほうは、二千年経ってキリストが再臨すると言うが、このほうが現実的です。<br><br>仏教のほうは謎みたいに書いてあるが、そうしないと本当はいけない点もあるんです。<br><br>仏教の中で弘法大師は良いほうです。<br><br>極楽のほうですからね。<br><br>少しは地獄のほうに行ったかもしれませんが、早く上がった。<br><br>親鸞だとか、日蓮だとかは地獄に行っている。<br><br> 「高野山にあれだけのお寺を作ったというのは、政治的にも偉かったのですね」 偉かったんです。<br><br>奇跡なら奇跡を、お互いに話し合うといい。<br><br>体験のない人はないからね。<br><br>役員でなくて、会なら会で信者の人を集めてやっても良い。<br><br>奇跡と言えば、数ヵ月前に鉛の山を買った。<br><br>非常に鉱石が良い。<br><br>だんだん調べてみると、そこの山から砥石が出るんです。<br><br>砥石の採集を長い間やっていたんですね。<br><br>それで、坑道が四十ヵ所ある。<br><br>たいてい二、三十間はある。<br><br>それを掘っているとちょいちょい鉛がある。<br><br>ところが法律では砥石の許可を得ていると、他のものは採集できない。<br><br>鉛なら鉛の許可を得ていると、他のものは掘れない。<br><br>しかし、四十ヵ所あれば、必ず鉱石のある所があるに違いない。<br><br>そのうちに、だんだん調べてみる。<br><br>それが今まで分からず、つい四、五日前に分かった。<br><br>非常な奇跡ですね。<br><br>非常に良いものです。<br><br>だから見つかりさえすればすばらしいです。<br><br>それには、いろんな施設がいるんです。<br><br>機械もです。<br><br>削岩機や精練機や電機具類もです。<br><br>ああいう山というものは、必ず大きなものがある。<br><br>鉱脈もだいたい見当ついている。<br><br>いろんな機械がそうとうかかります。<br><br>いまは進歩しているのでね。<br><br>分けたりする薬だとか――たいへんなものです。<br><br>それに対する金も日数もそうとうかかります。<br><br> もう仏教は駄目ですね。<br><br>二、三日前に鎌倉の長谷観音で、こっちを観音教と思っていたのでしょう。<br><br>長谷観音を引き受けてくれと言うんです。<br><br>御本尊は高さ三丈三寸かで、大きな観音さんがありますね。<br><br>それで、こっちはメシヤ教になって観音様には縁が薄くなったから、と言って断った。<br><br> 「そんなに大きく作るのは――観音さんとしては、あんまり大きくしてはいけないのでしょうか」 いけないんです。<br><br>阿弥陀さんは、どんなに大きくしても良いが、観音様は上等に小さくするんです。<br><br> この間、大谷光瑞（おおたにこうずい）のもので、支那から持って来たのですが、二、三点買いました。<br><br>まだ光瑞のすばらしいのがありますが、見せるように言った。<br><br>それから、上に絵が画いてあってお経になっているのがあるが、因果教といって一行五万円ですがね。<br><br>それを切って三行か五行で十万はする。<br><br>この間三行持ってきたが、行の少ないのは嫌だったから止めた。<br><br>美術館のために五十四行というのを買いましたが、巻物はそれが一番です。<br><br>値打ち物です。<br><br>あれは、ちょっとでも切るか洗うかすると国宝にならない。<br><br>八十三行と言うのを、切らないで絶対に取っておけと言ったが、どうしても欲しいと言う人に分けてやって、五十四行になった。<br><br>それを一行四万五千円で買いました。<br><br> 「大雅（たいが）と言う人が画いたのがございますが、あれは値打ちがあるものでしょうか」 少しはあります。<br><br>傑作物ならいくらかあるが大したことはない。<br><br>大雅と蕪村と崋山の三人が良いとしている。<br><br> 「だいたいにおいて掘り出し物はございませんのでしょうか」 ありますよ。<br><br>私はずいぶん掘り出し物を買いました。<br><br>おもしろいんですね。<br><br>仮に素人が預かって、それを道具屋に見せるでしょう。<br><br>道具屋も目がきかないので――道具屋も分らない。<br><br>そういうのがときどきあります。<br><br>この春にも、高野山にあったので、坊さんがお経奏げてるのを五万円で買いました。<br><br>それは、私の目が利いているわけではないのですが、藤原時代にできたもので、日本で最古のものです。<br><br>いま安くても五十万円です。<br><br>五十万か六十万です。<br><br> 「いろんな古いものを持っている人がありますが、そういう中から――」 そうです。<br><br>そういう中から、たんとはないが一つや二つはある。<br><br>いまアメリカでは書を買うんです。<br><br>色紙ですね。<br><br>これを馬鹿に欲しがる。<br><br>それで、高くなったんですね。<br><br>終戦後、財閥が――三井とか、ああいった人たちが、生活を制限されたでしょう。<br><br>そのために食って行けないので、内証で隠してあるのを売ったのを買いましたが、いまはみんな、何倍、何十倍になっている。<br><br>だから、売ったらずいぶん儲かるけれどもね。<br><br>そのとき、私はずいぶん買った。<br><br>高い高いと思って買ったのが、ずいぶん安い。<br><br>日本でも、ぼつぼつ美術館を造りますが――近畿鉄道もそうですね。<br><br>これから建築にかかるんですが、品物もそうとうあります。<br><br>いまでも集めているんです。<br><br>それが、うっかりすると良いものを買うかもしれない。<br><br>それから文部省では、文化財保護委員会というのができたんです。<br><br>それが三億の予算を取ったので、これがうんと買う。<br><br>アメリカは目を皿のようにしてますからね。<br><br>それを、こっちは他に取られないように、ひっこ抜きするわけです。<br><br>こっちも金はそうないからね。<br><br>チビチビ内金内金でやっている。<br><br>たいてい三月くらいはかかっている。<br><br>しかし他のもやっぱりそうです。<br><br>近畿鉄道でもやっぱり月賦かなにかで買っている。<br><br> 一品百万か二百万ですからね。<br><br>そうかといって離してはつまらないしね。<br><br>美術館になくてはならないものがあるからね。<br><br>金が苦しくてもしょうがない。<br><br>借金や貧乏で苦しいんではなくて買わなければならない物を買うんで苦しいのです。<br><br>世間で言う金に苦しいのと違う。<br><br>しかしやっぱり神様がやってますからね。<br><br>私が欲しいと思えば、きっと誰かが持ってくる。<br><br>よく道具屋が、こういうものは出るのもじゃないが――と言う。<br><br> 白鶴も実際不思議ですね。<br><br>あの中で欲しいのが五、六点ある。<br><br>それが入るとどこにも負けません。<br><br>あそこにはふたたび手に入らないものがあるんです。<br><br>この秋に行こうかどうしようかと迷っていたが、神様は行かなければしょうがないようにされちゃった。<br><br> 三村さんは名前が非常に悪いのでね。<br><br>あれでは絶対いけない。<br><br> 「奥さんの名前も――」 後家名前だからね。<br><br>命令の令は五画です。<br><br>息子の正の字も五画でしょう。<br><br>ぜんぜん駄目です。<br><br>これはどうしても、生き別れ、死に別れです。<br><br>令（零）というのは、数でないという字でしょう。<br><br>百子で、一遍に百も数ができた。<br><br> 山ですが、こういう塊がぱっぱっとある。<br><br>つながってはいないが――つながったらたいへんです。<br><br>この山の選鉱は手選鉱で良いんです。<br><br>ポケットの脈になっているのでね。<br><br>水上（みなかみ）のは至る所にある。<br><br>山中どこを掘ってもあるんです。<br><br>非常に大きな鉛ですね。<br><br>大したものです。<br><br>一トン二十万円かね。<br><br>八十％くらいですからね。<br><br>十八、九万、二十万でしょうね。<br><br>百トンにして千八百万円です。<br><br>山で百トンくらいはすぐです。<br><br> これから経営していくのに何億かかるか分らないから、神様はそれだけの金が入るように、ちゃんとされるんですがね。<br><br> 「今、金山のほうはいかがでしょうか」 金山はあんまりね。<br><br>でも良いのは良いですよ。<br><br>金山は難しいからね。<br><br>脈が切れるんでね。<br><br>北海道の鴻ノ舞（こうのまい）なんかも切れて、一人の鉱夫かなにかが、最初のうちは何十年やっても駄目なんで、失望して自殺しようと思って欄干から飛び下りようとしたとき、腹を打って倒れ、自分はまだ死なないと言うので、そのとき――その二、三日前に北海道の札幌精鉱所と言うのがあるが、そこに見本を持って行って、預けて帰るところを、専務取締が窓からのぞいて見ると、一人の男が情けないような格好で帰って行く。<br><br>「あれは」と言うと「今鉱石の分析に来たんです」と言うので「それでは、かわいそうだから、してやろう」と言うので、分析したのがたいへんなものです。<br><br>家に帰ったらその知らせが来ている。<br><br>そこで権利を売ったんです。<br><br>そのとき六十万円でね。<br><br>そして自分が世話になった人に十万円お礼して、自分は五十万持って隠居した。<br><br>それから住友で買ってやって見たが最初良かったが駄目になって、とんでもない失敗をした。<br><br>十年掘り続けても駄目だったが、もう一年だけ言う通りにしてくれと、一年延期した。<br><br> そして十一年目にあてて、それがたいへんなものです。<br><br>それから住友家はたいへんなものだった。<br><br>終戦前までは日本一だった。<br><br>九州の鯛生（たいお）と競争したことがあったが、鯛生が負けたですね。<br><br>金山というのは、そういうもので難しい。<br><br>銅鉱というのは脈が平行している。<br><br>何本も平行している。<br><br>それを、こう（貫く）ぶっつければ、みんな当たっちゃう。<br><br>足尾銅山がそうです。<br><br>十何本あって、そのうち六本が良いんです。<br><br>ああいうところは製練所が大仕掛けになっている。<br><br>それで、釜石の製練所――あれも鉱石が足りなくて弱っている。<br><br>また岩手県宮古の太郎とか、茨木県の日立みたいなやり方ですが。<br><br> 「煙突が高いのは、農作物が駄目になるのでというのですが」 そうですね。<br><br>硫酸を使うので日本一だったがね。<br><br> 今日は、骨董の話と鉱山の話だったが、関係はあるからね。<br><br> 「明治初年に、仏から神社神道に変わりましたので、お宮をこしらえ、お宮の中に鏡を入れ、先祖を入れておりますが、どのように置きましたらよろしいでしょうか」 鏡の前が本当です。<br><br> 「お宮の中に鏡を入れましてでございますか」 そうです。<br><br> 「白木でなければいけませんでしょうか」 白木が本当です。<br><br>神道ですからね。<br><br> 「発熱してから八日経っており、ようやく頸が動ける程度になり、脳炎のような症状が終わったと思いましたが、脈が七、八十しかないそうです。<br><br>生まれつき心臓肥大症と言われ、二十に一つくらい結滞しており、京都帝大で調べてもらいましたが、原因不明でした。<br><br>十二日に危篤になり、脈が一つに一つの結滞になり、胸の辺に、鉄瓶の中に氷を入れたときのような白い汗が二時間くらい出て、それよりいくらか落ちつきました。<br><br>熱が高いときは脈が早くなり、低いときは結滞します」 おかしいな。<br><br>鏡のほうをお宮に入れ、御先祖を前にする。<br><br>それを直してやったら良い。<br><br>それと関係があるでしょう。<br><br>さっそくやってやると良い。<br><br> よく生きていたね。<br><br>脳炎じゃないですよ。<br><br> 「心臓肥大症は――」 そんなのはないんです。<br><br>やっぱり、先天性梅毒か何かです。<br><br>背中の固まりです。<br><br>背中は痛まないでしょう。<br><br> 「痛まないそうです」 頸筋から背中のほうを浄霊していれば治るでしょう。<br><br> 「便をしたいと言い、力みますが出ません」 それは、便を止めては悪いと思っているからだ。<br><br>止まってもなんでもない。<br><br> 「朝一膳、昼一膳に牛乳を飲んでおります」 その牛乳が便秘するんです。<br><br>あれくらい便秘するのはないからね。<br><br>なぜ普通にしないんですか。<br><br> 「牛乳は止めさせたほうがよろしいでしょうか」 そうですね。<br><br>お茶漬けがいいです。<br><br>癖になっているんです。<br><br>茶漬けに香のものが良い。<br><br>胃にも毒があるんです。<br><br>熱が出たとき注意すれば分かるんです。<br><br> 「三十分もすれば、すぐとれます」 根気よくやったら良いでしょう。<br><br>だんだん毒を減らしていれば治ります。<br><br> 「いまのような病気の人がおりますが、浄霊をした場合に、一度から二度上がっておりましたが、最近は下がるようです。<br><br>これは溶けるためでしょうか。<br><br>見当違いのためでしょうか」 両方ですね。<br><br>浄霊すると、溶けるために上がりますよ。<br><br>それから、見当違いしても上がりますね。<br><br> 「二、三日前から下がるようになりましたが」 それじゃ見当違いじゃない。<br><br>浄霊すると、これがこうなるでしょう（山の頂上までをお示しになる）それを、こうしなければならない。<br><br>（頂上より下までをお示しになる） 「最初チフスではないかというので、流動物にしておりますが」 チフスならすぐ治っちゃう。<br><br>お腹をやればすぐ治っちゃう。<br><br> 「頭がぼけております」 普通で良いです。<br><br>頭の浄化です。<br><br> 「真正癌につきまして」 真正癌ですね。<br><br> 「お腹の中に蛇が二匹いるのが自分で分かるそうで、小便は出ず、軟便がかすかに出るそうです。<br><br>ヌラはどんどん吐くそうです」 真正癌だね。<br><br>蛇が二匹か――夫婦だな。<br><br>ヌラが出るだけ出れば治ります。<br><br>ヌラは減るところにいっていませんか。<br><br> 「減っております。<br><br>腎臓を主にしておりますが」 腎臓もですが、背中、胃と前のほうですね。<br><br> 「浄霊しますとき、祝詞を奏げてもよろしいでしょうか」 祝詞もよいが、やはりそこを浄霊するんです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Força do Milagre na Construção do Paraíso Terrestre</h2>
 <p><strong>P:</strong> Com respeito ao Museu de Arte, o Ensinamento de hoje mencionou que sua edificação representará a conclusão da Obra. Em certa ocasião, Vossa Senhoria nos disse que os recursos para tal viriam do ouro que brotará da montanha. Contudo, se os fundos forem providos dessa forma, como nós, membros, poderemos polir nossa alma, senão através da oportunidade de servir com nossas doações? Consideramos que essa forma de dedicação é a mais valiosa para nosso aprimoramento espiritual, e tememos perdê-la.</p>
@@ -172,5 +324,48 @@ function toggleLang(lang) {
 <p><strong>R:</strong> Os rins são importantes, mas também as costas, o estômago e a parte frontal do corpo.</p>
 <p><strong>P:</strong> Durante o Johrei, podemos entoar a Oração Amatsu Norito?</p>
 <p><strong>R:</strong> A oração é boa, mas o essencial é ministrar Johrei no local afetado.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御垂示 （S26年9月1日） 『御垂示録』2号、昭和26(1951)年10月10日発行 昭和二十六年九月一日 「美術館のことでございますが、今日の御論文で、美術館ができあがったら完成になるということでございました。<br/><br/>いつか、その資金には今度山から金が出るというので考えさせていただきましたがもし山から出させていただきますと――われわれはふだん、そういう御奉仕をさせていただく他に、なにによって御魂磨きと申しますか――磨かせていただけると考えておりますが、その方法がなくなるのでございます。<br/><br/>そういうことで御奉仕をさせていただくのが、一番だと考えておりますが」 山から出ますよ。<br/><br/>じき出ると思っているだろうが――必ず出ますよ。<br/><br/>やっぱり、いろんな準備やなにかで、そうとうかかる。<br/><br/>やはり熱海のときと思います。<br/><br/>ここじゃない。<br/><br/>ここはわずかで建築ができますから。<br/><br/> 「天国の型のときに本物が出るはずがないと思いまして」 本物というのは世界全体です。<br/><br/>だから、世界に型をこしらえるだけで百億の金がいる。<br/><br/>世界の型ですよ。<br/><br/> 「やはり、できあがりますには、悪魔のほうで困るので――どうにもならないようになるので、いろんな妨害があると思いますが」 そりゃあります。<br/><br/>それがなければいまごろは日本一の宗教になっているからね。<br/><br/>悪魔のほうではたいへんなことだからね。<br/><br/> 「今日の御論文を拝聴させていただきまして、あれをお聴きして分からん奴はと思いますが――」 そうだな、つまり邪神のほうで一番恐いのは神様のほうだからね。<br/><br/>どうしても神様はないという無神論を植えつけるのが一番の目的なのです。<br/><br/>そこで、無神論というものを人類に――一生懸命に植えつけるために二千年もかかっているんです。<br/><br/>つまり物質ですね。<br/><br/>病気を治せるというところを見せようと思ったんです。<br/><br/>それで一生懸命に――ユダヤは学者が多かったからね――やってきて、いまだにそれに瞞されている。<br/><br/>その奥には邪神の親玉がいる。<br/><br/>物質で治そう――病気を解決しようと、それいっぽうで進んできたのが医学ですからね。<br/><br/>だから屁みたいなことを、発見したと言っている。<br/><br/>ついこの間、癌の原因を発見したとか、なんとか出ていたが、原因を発見しなくてもいいんで、治してもらえばいいんです。<br/><br/>原因を発見してから治すというのですが、治ればいいんです。<br/><br/>ところが、原因を発見したと言って喜んでいるが、一つの遊戯に過ぎない。<br/><br/>驚きますね。<br/><br/>あんなことをして無駄な金を使って、ありもしない頭を使って死んでいくんですね。<br/><br/>それだけのものですね。<br/><br/> 「少し分かりかけましたらたいへんでございます」 たいへんです。<br/><br/>肝腎な――力のないもので、一生懸命解決しなければならないというのが、今の文明ですね。<br/><br/>それを教える仕事です。<br/><br/>いろいろな法律を作るとか、一家が一生懸命やって――今もラジオの街頭録音で、現代の世相というのは――世相が悪いと文句を言っている。<br/><br/>親子心中だとか、家庭争議だとか、瞞し合うとかね。<br/><br/>政府の政治が悪いとか、教育が悪いとか、金がないからとか、いろんなこと言っているが、宗教ということを言った奴は一人もない。<br/><br/>一人、トルーマンもマッカーサーもキリスト教信者だといったが、もう少し言うかと思ったら、それでおしまいだからね。<br/><br/>それだけ、宗教というものは世の中から認められなくなった。<br/><br/>なぜかというと、力がないからです。<br/><br/>できたては力があったが、だんだん無力になった。<br/><br/>そこで信用がなくなったから、結局忘れられていった。<br/><br/>だからわれわれは、宗教が信用をされるようにするのです。<br/><br/>宗教の信用――信じさせるというのは奇跡なんです。<br/><br/>奇跡がなくて理屈だけだったら、道徳や教育と同じで、奇跡のある所に、理屈や教えで及ばないものがある。<br/><br/>それが奇跡だから、奇跡即宗教だ。<br/><br/>最初は多少あったが、今日ではなくなったから、宗教の使命がなくなったというわけで、それが長く続いたので、奇跡がないのが宗教で、あるのは迷信邪教となった。<br/><br/>すべてあべこべになった。<br/><br/> キリスト教のほうは、二千年経ってキリストが再臨すると言うが、このほうが現実的です。<br/><br/>仏教のほうは謎みたいに書いてあるが、そうしないと本当はいけない点もあるんです。<br/><br/>仏教の中で弘法大師は良いほうです。<br/><br/>極楽のほうですからね。<br/><br/>少しは地獄のほうに行ったかもしれませんが、早く上がった。<br/><br/>親鸞だとか、日蓮だとかは地獄に行っている。<br/><br/> 「高野山にあれだけのお寺を作ったというのは、政治的にも偉かったのですね」 偉かったんです。<br/><br/>奇跡なら奇跡を、お互いに話し合うといい。<br/><br/>体験のない人はないからね。<br/><br/>役員でなくて、会なら会で信者の人を集めてやっても良い。<br/><br/>奇跡と言えば、数ヵ月前に鉛の山を買った。<br/><br/>非常に鉱石が良い。<br/><br/>だんだん調べてみると、そこの山から砥石が出るんです。<br/><br/>砥石の採集を長い間やっていたんですね。<br/><br/>それで、坑道が四十ヵ所ある。<br/><br/>たいてい二、三十間はある。<br/><br/>それを掘っているとちょいちょい鉛がある。<br/><br/>ところが法律では砥石の許可を得ていると、他のものは採集できない。<br/><br/>鉛なら鉛の許可を得ていると、他のものは掘れない。<br/><br/>しかし、四十ヵ所あれば、必ず鉱石のある所があるに違いない。<br/><br/>そのうちに、だんだん調べてみる。<br/><br/>それが今まで分からず、つい四、五日前に分かった。<br/><br/>非常な奇跡ですね。<br/><br/>非常に良いものです。<br/><br/>だから見つかりさえすればすばらしいです。<br/><br/>それには、いろんな施設がいるんです。<br/><br/>機械もです。<br/><br/>削岩機や精練機や電機具類もです。<br/><br/>ああいう山というものは、必ず大きなものがある。<br/><br/>鉱脈もだいたい見当ついている。<br/><br/>いろんな機械がそうとうかかります。<br/><br/>いまは進歩しているのでね。<br/><br/>分けたりする薬だとか――たいへんなものです。<br/><br/>それに対する金も日数もそうとうかかります。<br/><br/> もう仏教は駄目ですね。<br/><br/>二、三日前に鎌倉の長谷観音で、こっちを観音教と思っていたのでしょう。<br/><br/>長谷観音を引き受けてくれと言うんです。<br/><br/>御本尊は高さ三丈三寸かで、大きな観音さんがありますね。<br/><br/>それで、こっちはメシヤ教になって観音様には縁が薄くなったから、と言って断った。<br/><br/> 「そんなに大きく作るのは――観音さんとしては、あんまり大きくしてはいけないのでしょうか」 いけないんです。<br/><br/>阿弥陀さんは、どんなに大きくしても良いが、観音様は上等に小さくするんです。<br/><br/> この間、大谷光瑞（おおたにこうずい）のもので、支那から持って来たのですが、二、三点買いました。<br/><br/>まだ光瑞のすばらしいのがありますが、見せるように言った。<br/><br/>それから、上に絵が画いてあってお経になっているのがあるが、因果教といって一行五万円ですがね。<br/><br/>それを切って三行か五行で十万はする。<br/><br/>この間三行持ってきたが、行の少ないのは嫌だったから止めた。<br/><br/>美術館のために五十四行というのを買いましたが、巻物はそれが一番です。<br/><br/>値打ち物です。<br/><br/>あれは、ちょっとでも切るか洗うかすると国宝にならない。<br/><br/>八十三行と言うのを、切らないで絶対に取っておけと言ったが、どうしても欲しいと言う人に分けてやって、五十四行になった。<br/><br/>それを一行四万五千円で買いました。<br/><br/> 「大雅（たいが）と言う人が画いたのがございますが、あれは値打ちがあるものでしょうか」 少しはあります。<br/><br/>傑作物ならいくらかあるが大したことはない。<br/><br/>大雅と蕪村と崋山の三人が良いとしている。<br/><br/> 「だいたいにおいて掘り出し物はございませんのでしょうか」 ありますよ。<br/><br/>私はずいぶん掘り出し物を買いました。<br/><br/>おもしろいんですね。<br/><br/>仮に素人が預かって、それを道具屋に見せるでしょう。<br/><br/>道具屋も目がきかないので――道具屋も分らない。<br/><br/>そういうのがときどきあります。<br/><br/>この春にも、高野山にあったので、坊さんがお経奏げてるのを五万円で買いました。<br/><br/>それは、私の目が利いているわけではないのですが、藤原時代にできたもので、日本で最古のものです。<br/><br/>いま安くても五十万円です。<br/><br/>五十万か六十万です。<br/><br/> 「いろんな古いものを持っている人がありますが、そういう中から――」 そうです。<br/><br/>そういう中から、たんとはないが一つや二つはある。<br/><br/>いまアメリカでは書を買うんです。<br/><br/>色紙ですね。<br/><br/>これを馬鹿に欲しがる。<br/><br/>それで、高くなったんですね。<br/><br/>終戦後、財閥が――三井とか、ああいった人たちが、生活を制限されたでしょう。<br/><br/>そのために食って行けないので、内証で隠してあるのを売ったのを買いましたが、いまはみんな、何倍、何十倍になっている。<br/><br/>だから、売ったらずいぶん儲かるけれどもね。<br/><br/>そのとき、私はずいぶん買った。<br/><br/>高い高いと思って買ったのが、ずいぶん安い。<br/><br/>日本でも、ぼつぼつ美術館を造りますが――近畿鉄道もそうですね。<br/><br/>これから建築にかかるんですが、品物もそうとうあります。<br/><br/>いまでも集めているんです。<br/><br/>それが、うっかりすると良いものを買うかもしれない。<br/><br/>それから文部省では、文化財保護委員会というのができたんです。<br/><br/>それが三億の予算を取ったので、これがうんと買う。<br/><br/>アメリカは目を皿のようにしてますからね。<br/><br/>それを、こっちは他に取られないように、ひっこ抜きするわけです。<br/><br/>こっちも金はそうないからね。<br/><br/>チビチビ内金内金でやっている。<br/><br/>たいてい三月くらいはかかっている。<br/><br/>しかし他のもやっぱりそうです。<br/><br/>近畿鉄道でもやっぱり月賦かなにかで買っている。<br/><br/> 一品百万か二百万ですからね。<br/><br/>そうかといって離してはつまらないしね。<br/><br/>美術館になくてはならないものがあるからね。<br/><br/>金が苦しくてもしょうがない。<br/><br/>借金や貧乏で苦しいんではなくて買わなければならない物を買うんで苦しいのです。<br/><br/>世間で言う金に苦しいのと違う。<br/><br/>しかしやっぱり神様がやってますからね。<br/><br/>私が欲しいと思えば、きっと誰かが持ってくる。<br/><br/>よく道具屋が、こういうものは出るのもじゃないが――と言う。<br/><br/> 白鶴も実際不思議ですね。<br/><br/>あの中で欲しいのが五、六点ある。<br/><br/>それが入るとどこにも負けません。<br/><br/>あそこにはふたたび手に入らないものがあるんです。<br/><br/>この秋に行こうかどうしようかと迷っていたが、神様は行かなければしょうがないようにされちゃった。<br/><br/> 三村さんは名前が非常に悪いのでね。<br/><br/>あれでは絶対いけない。<br/><br/> 「奥さんの名前も――」 後家名前だからね。<br/><br/>命令の令は五画です。<br/><br/>息子の正の字も五画でしょう。<br/><br/>ぜんぜん駄目です。<br/><br/>これはどうしても、生き別れ、死に別れです。<br/><br/>令（零）というのは、数でないという字でしょう。<br/><br/>百子で、一遍に百も数ができた。<br/><br/> 山ですが、こういう塊がぱっぱっとある。<br/><br/>つながってはいないが――つながったらたいへんです。<br/><br/>この山の選鉱は手選鉱で良いんです。<br/><br/>ポケットの脈になっているのでね。<br/><br/>水上（みなかみ）のは至る所にある。<br/><br/>山中どこを掘ってもあるんです。<br/><br/>非常に大きな鉛ですね。<br/><br/>大したものです。<br/><br/>一トン二十万円かね。<br/><br/>八十％くらいですからね。<br/><br/>十八、九万、二十万でしょうね。<br/><br/>百トンにして千八百万円です。<br/><br/>山で百トンくらいはすぐです。<br/><br/> これから経営していくのに何億かかるか分らないから、神様はそれだけの金が入るように、ちゃんとされるんですがね。<br/><br/> 「今、金山のほうはいかがでしょうか」 金山はあんまりね。<br/><br/>でも良いのは良いですよ。<br/><br/>金山は難しいからね。<br/><br/>脈が切れるんでね。<br/><br/>北海道の鴻ノ舞（こうのまい）なんかも切れて、一人の鉱夫かなにかが、最初のうちは何十年やっても駄目なんで、失望して自殺しようと思って欄干から飛び下りようとしたとき、腹を打って倒れ、自分はまだ死なないと言うので、そのとき――その二、三日前に北海道の札幌精鉱所と言うのがあるが、そこに見本を持って行って、預けて帰るところを、専務取締が窓からのぞいて見ると、一人の男が情けないような格好で帰って行く。<br/><br/>「あれは」と言うと「今鉱石の分析に来たんです」と言うので「それでは、かわいそうだから、してやろう」と言うので、分析したのがたいへんなものです。<br/><br/>家に帰ったらその知らせが来ている。<br/><br/>そこで権利を売ったんです。<br/><br/>そのとき六十万円でね。<br/><br/>そして自分が世話になった人に十万円お礼して、自分は五十万持って隠居した。<br/><br/>それから住友で買ってやって見たが最初良かったが駄目になって、とんでもない失敗をした。<br/><br/>十年掘り続けても駄目だったが、もう一年だけ言う通りにしてくれと、一年延期した。<br/><br/> そして十一年目にあてて、それがたいへんなものです。<br/><br/>それから住友家はたいへんなものだった。<br/><br/>終戦前までは日本一だった。<br/><br/>九州の鯛生（たいお）と競争したことがあったが、鯛生が負けたですね。<br/><br/>金山というのは、そういうもので難しい。<br/><br/>銅鉱というのは脈が平行している。<br/><br/>何本も平行している。<br/><br/>それを、こう（貫く）ぶっつければ、みんな当たっちゃう。<br/><br/>足尾銅山がそうです。<br/><br/>十何本あって、そのうち六本が良いんです。<br/><br/>ああいうところは製練所が大仕掛けになっている。<br/><br/>それで、釜石の製練所――あれも鉱石が足りなくて弱っている。<br/><br/>また岩手県宮古の太郎とか、茨木県の日立みたいなやり方ですが。<br/><br/> 「煙突が高いのは、農作物が駄目になるのでというのですが」 そうですね。<br/><br/>硫酸を使うので日本一だったがね。<br/><br/> 今日は、骨董の話と鉱山の話だったが、関係はあるからね。<br/><br/> 「明治初年に、仏から神社神道に変わりましたので、お宮をこしらえ、お宮の中に鏡を入れ、先祖を入れておりますが、どのように置きましたらよろしいでしょうか」 鏡の前が本当です。<br/><br/> 「お宮の中に鏡を入れましてでございますか」 そうです。<br/><br/> 「白木でなければいけませんでしょうか」 白木が本当です。<br/><br/>神道ですからね。<br/><br/> 「発熱してから八日経っており、ようやく頸が動ける程度になり、脳炎のような症状が終わったと思いましたが、脈が七、八十しかないそうです。<br/><br/>生まれつき心臓肥大症と言われ、二十に一つくらい結滞しており、京都帝大で調べてもらいましたが、原因不明でした。<br/><br/>十二日に危篤になり、脈が一つに一つの結滞になり、胸の辺に、鉄瓶の中に氷を入れたときのような白い汗が二時間くらい出て、それよりいくらか落ちつきました。<br/><br/>熱が高いときは脈が早くなり、低いときは結滞します」 おかしいな。<br/><br/>鏡のほうをお宮に入れ、御先祖を前にする。<br/><br/>それを直してやったら良い。<br/><br/>それと関係があるでしょう。<br/><br/>さっそくやってやると良い。<br/><br/> よく生きていたね。<br/><br/>脳炎じゃないですよ。<br/><br/> 「心臓肥大症は――」 そんなのはないんです。<br/><br/>やっぱり、先天性梅毒か何かです。<br/><br/>背中の固まりです。<br/><br/>背中は痛まないでしょう。<br/><br/> 「痛まないそうです」 頸筋から背中のほうを浄霊していれば治るでしょう。<br/><br/> 「便をしたいと言い、力みますが出ません」 それは、便を止めては悪いと思っているからだ。<br/><br/>止まってもなんでもない。<br/><br/> 「朝一膳、昼一膳に牛乳を飲んでおります」 その牛乳が便秘するんです。<br/><br/>あれくらい便秘するのはないからね。<br/><br/>なぜ普通にしないんですか。<br/><br/> 「牛乳は止めさせたほうがよろしいでしょうか」 そうですね。<br/><br/>お茶漬けがいいです。<br/><br/>癖になっているんです。<br/><br/>茶漬けに香のものが良い。<br/><br/>胃にも毒があるんです。<br/><br/>熱が出たとき注意すれば分かるんです。<br/><br/> 「三十分もすれば、すぐとれます」 根気よくやったら良いでしょう。<br/><br/>だんだん毒を減らしていれば治ります。<br/><br/> 「いまのような病気の人がおりますが、浄霊をした場合に、一度から二度上がっておりましたが、最近は下がるようです。<br/><br/>これは溶けるためでしょうか。<br/><br/>見当違いのためでしょうか」 両方ですね。<br/><br/>浄霊すると、溶けるために上がりますよ。<br/><br/>それから、見当違いしても上がりますね。<br/><br/> 「二、三日前から下がるようになりましたが」 それじゃ見当違いじゃない。<br/><br/>浄霊すると、これがこうなるでしょう（山の頂上までをお示しになる）それを、こうしなければならない。<br/><br/>（頂上より下までをお示しになる） 「最初チフスではないかというので、流動物にしておりますが」 チフスならすぐ治っちゃう。<br/><br/>お腹をやればすぐ治っちゃう。<br/><br/> 「頭がぼけております」 普通で良いです。<br/><br/>頭の浄化です。<br/><br/> 「真正癌につきまして」 真正癌ですね。<br/><br/> 「お腹の中に蛇が二匹いるのが自分で分かるそうで、小便は出ず、軟便がかすかに出るそうです。<br/><br/>ヌラはどんどん吐くそうです」 真正癌だね。<br/><br/>蛇が二匹か――夫婦だな。<br/><br/>ヌラが出るだけ出れば治ります。<br/><br/>ヌラは減るところにいっていませんか。<br/><br/> 「減っております。<br/><br/>腎臓を主にしておりますが」 腎臓もですが、背中、胃と前のほうですね。<br/><br/> 「浄霊しますとき、祝詞を奏げてもよろしいでしょうか」 祝詞もよいが、やはりそこを浄霊するんです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

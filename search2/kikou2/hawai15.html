@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hawai15</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ハワイ通信 （15） 樋口喜代子 『栄光』249号、昭和29(1954)年2月24日発行 去る十九日より二十三日までの英語の教修会においては、御守護により思いがけず人数が増え、四十五名の入信となりました。<br><br>その内十七名が外人でございます。<br><br>支那人が最も多く十名で、次は布哇人又は布哇人と白人、又は支那人の混血の人が六名、白人（米国人）が一名でございました。<br><br>白人はこの前に御報告申し上げました白系露人ミセス・バスターの主人で米人でございます。<br><br>（先日仏人とかきましたのは私の誤りでございます。<br><br>御許び申し上げます） こちらは非常に混血の人が多うございます。<br><br>知事も市長も白人と布哇人の混血でございます。<br><br>又布哇の土人（カナカ人種）はアメリカ土人と人種が違い温和しく、信仰的で中々よい人が多いようでございます。<br><br>今日純粋の布哇土人は少くなりつつあるとのこと、ほとんどが混血でございます。<br><br>五晩にわたる教修会で昼間の仕事を終えてから、遅くまでしかも不馴れの英語での説明のため聞き苦しい点も多々ありましょうし、時間も延び勝ちになりますのに終始実に熱心に聞かれたのには感激致しました。<br><br>最後に御守様御下渡しの後には大勢の方が喜んで握手に来て感激の言葉を述べられました。<br><br> 入信者中のミスター・プレースデル（白人と布哇の混血、消防署次長）はその父親（白人、元消防署長）が中風で頭が少々変になっているところを、浄霊を受けて御蔭を頂きつつあり、夫人（布哇土人、学校教師）の蓄膿症を快くして頂いたところから、最初は夫人だけ入信の予定で話だけを聞きに来ておられましたが、二日目頃から入信を申し出られ、終始真面目に熱心に聴いておられました。<br><br>父上は夜よく眠られず、一時間に二回位の割合で眼を覚まして小水に起き、時にはベッドにしくじることもあって困っておられたそうでございますが、この頃はよく眠り小水の回数も減り失敗することもなく、全体的にズットよくなったのが分るといって大変に喜んでおられます。<br><br>支那人の中にも中々優秀な智的な人が入信されました。<br><br>エワの砂糖会社の牧〔技〕師で熱心な基督教信者――組合教会々員のミスター・アカナという人（この人の父は組合教会の牧師）が、エワを拓いた脇村さんというおばあさんの浄霊の実際を見て驚き、メシヤ教手引の英語の方を読んで感激し十二月にわざわざ遠方から教会へ訪ねて来られて、英語の方を二十冊程教会のメンバーに見せたいからと持ち帰られました。<br><br>この方がこの度教会の会員を二名伴ない三名で入信されました。<br><br>早速二、三日後には、砂糖会社の副支配人（白人）で、七年間間節リューマチスで注射の結果、首と腰が硬張ってしまった人を浄霊日に連れて来られましたが、引続きその人を浄霊するとのことでございます。<br><br>又今一人の人の話ではその教会で先日集会の後に三人で十名余りの教会員に話をしたり、浄霊をしたりしたそうでございます。<br><br>結果がどのようにのびて行くかをたのしみにしております。<br><br> 失明寸前にお救いいただき、僅か三回位の御浄霊で見えるようにして頂いたハワイの婦人（日本人の妻）が昨年十一月から教修を受けたくて待っていて、漸くこの度入信出来たのですがお守様をお受けする時にポロポロと涙を流し、嬉し泣きをされました時は、こちらも目頭があつくなりました。<br><br>この人も今一生懸命でございます。<br><br>今度入信された外人には中々しっかりした方がおられるように見受けられます。<br><br> とにかくこの頃各出張所に支那人、ハワイ人等の浄霊を受ける人が増えて参りました。<br><br>日本語の教修の方は明日最後の日でお守様の御下渡しをさせて頂きますが人数は（ある程度英語の方で受けられましたので）二十八名でございます。<br><br> 次に島袋さんという未入信の人で、市の補助を受けている人が（中風と高血圧）この間クイーンズ・ホスピタルというホノルルでも大きな病院で薬と注射を断り浄霊を受けることを許され診察だけに行くことになりましたが、一昨日第二回目の診察に行きましたところ火曜日に血圧二百二十だったものが、金曜日に百六十に下っており、毎日浄霊を受けている旨を申しましたところ「大変よいようだから毎日つづけなさい」と申したそうで、本人も大変喜んでおります。<br><br> 教会の建設の方はおくれましたが、皆様の協力のおかげで二月十四日（第二日曜－月並祭当日）の開所式を目標に着々と進んでおります。<br><br>やはり立春祭を過ぎなければ新教会へ移る時が来ないらしく思われます。<br><br>土地を整備してみますと考えましたより狭く、庭の土地もなくして、パーキングプレース（自動車の駐車場）を造りましても、十五、六台が精々という程度で心配しておりましたところ、この度裏の土地を一区域百四十坪ばかりを一万五百ドルで譲ってくれることになりました。<br><br>それも払い込みは少々待ってくれます由で、総て御守護と感謝いたしております。<br><br>厚く御礼申し上げます。<br><br> もしお許しいただけますならば二月十四日の御祝の日にハワイ信者のため、御言葉をテープレコードでいただくことが出来ますならば、どのようにハワイの霊界が浄められ明るくしていただけることでございましょう。<br><br> 二月十四日の当日は、御讃歌はこの前御下げ渡し頂きました二回にわたる御詠及びその他の御詠の中から適当と思われます御詠をとりまぜて、おあげさせて頂くつもりでおります。<br><br>御参りの後感想と役員の建設経過報告と感想があり、午後は御蔭話の発表を主とし、後に御所の余興を少々させて頂く予定でおります。<br><br>今日はこれにて失礼させて頂きます。<br><br> 御守護を厚く厚く御礼申し上げます。<br><br> （一月三十日夜）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Graças e Expansão da Obra Divina no Havaí</h2>
 <p>O seminário de iniciação em inglês, realizado entre os dias 19 e 23, foi abençoado com Vossa Divina Proteção, resultando em um número de participantes que superou todas as expectativas, com a outorga de 45 novos membros. Dentre estes, dezessete não eram de ascendência japonesa. O maior grupo era composto por dez chineses, seguidos por seis indivíduos de origem havaiana ou de ascendência mista, envolvendo havaianos, caucasianos e chineses. Havia também um norte-americano, esposo da Sra. Buster, a senhora russa a quem me referi em relatório anterior. Aproveito a oportunidade para retificar uma informação: em meu comunicado passado, mencionei que ele era francês, o que foi um equívoco pelo qual peço sinceras desculpas.</p>
@@ -106,5 +258,48 @@ function toggleLang(lang) {
 <p>Por ora, despeço-me.</p>
 <p>Reitero minha mais profunda e sincera gratidão por Vossa constante Proteção Divina.</p>
 <p>(Noite de 30 de janeiro)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ハワイ通信 （15） 樋口喜代子 『栄光』249号、昭和29(1954)年2月24日発行 去る十九日より二十三日までの英語の教修会においては、御守護により思いがけず人数が増え、四十五名の入信となりました。<br/><br/>その内十七名が外人でございます。<br/><br/>支那人が最も多く十名で、次は布哇人又は布哇人と白人、又は支那人の混血の人が六名、白人（米国人）が一名でございました。<br/><br/>白人はこの前に御報告申し上げました白系露人ミセス・バスターの主人で米人でございます。<br/><br/>（先日仏人とかきましたのは私の誤りでございます。<br/><br/>御許び申し上げます） こちらは非常に混血の人が多うございます。<br/><br/>知事も市長も白人と布哇人の混血でございます。<br/><br/>又布哇の土人（カナカ人種）はアメリカ土人と人種が違い温和しく、信仰的で中々よい人が多いようでございます。<br/><br/>今日純粋の布哇土人は少くなりつつあるとのこと、ほとんどが混血でございます。<br/><br/>五晩にわたる教修会で昼間の仕事を終えてから、遅くまでしかも不馴れの英語での説明のため聞き苦しい点も多々ありましょうし、時間も延び勝ちになりますのに終始実に熱心に聞かれたのには感激致しました。<br/><br/>最後に御守様御下渡しの後には大勢の方が喜んで握手に来て感激の言葉を述べられました。<br/><br/> 入信者中のミスター・プレースデル（白人と布哇の混血、消防署次長）はその父親（白人、元消防署長）が中風で頭が少々変になっているところを、浄霊を受けて御蔭を頂きつつあり、夫人（布哇土人、学校教師）の蓄膿症を快くして頂いたところから、最初は夫人だけ入信の予定で話だけを聞きに来ておられましたが、二日目頃から入信を申し出られ、終始真面目に熱心に聴いておられました。<br/><br/>父上は夜よく眠られず、一時間に二回位の割合で眼を覚まして小水に起き、時にはベッドにしくじることもあって困っておられたそうでございますが、この頃はよく眠り小水の回数も減り失敗することもなく、全体的にズットよくなったのが分るといって大変に喜んでおられます。<br/><br/>支那人の中にも中々優秀な智的な人が入信されました。<br/><br/>エワの砂糖会社の牧〔技〕師で熱心な基督教信者――組合教会々員のミスター・アカナという人（この人の父は組合教会の牧師）が、エワを拓いた脇村さんというおばあさんの浄霊の実際を見て驚き、メシヤ教手引の英語の方を読んで感激し十二月にわざわざ遠方から教会へ訪ねて来られて、英語の方を二十冊程教会のメンバーに見せたいからと持ち帰られました。<br/><br/>この方がこの度教会の会員を二名伴ない三名で入信されました。<br/><br/>早速二、三日後には、砂糖会社の副支配人（白人）で、七年間間節リューマチスで注射の結果、首と腰が硬張ってしまった人を浄霊日に連れて来られましたが、引続きその人を浄霊するとのことでございます。<br/><br/>又今一人の人の話ではその教会で先日集会の後に三人で十名余りの教会員に話をしたり、浄霊をしたりしたそうでございます。<br/><br/>結果がどのようにのびて行くかをたのしみにしております。<br/><br/> 失明寸前にお救いいただき、僅か三回位の御浄霊で見えるようにして頂いたハワイの婦人（日本人の妻）が昨年十一月から教修を受けたくて待っていて、漸くこの度入信出来たのですがお守様をお受けする時にポロポロと涙を流し、嬉し泣きをされました時は、こちらも目頭があつくなりました。<br/><br/>この人も今一生懸命でございます。<br/><br/>今度入信された外人には中々しっかりした方がおられるように見受けられます。<br/><br/> とにかくこの頃各出張所に支那人、ハワイ人等の浄霊を受ける人が増えて参りました。<br/><br/>日本語の教修の方は明日最後の日でお守様の御下渡しをさせて頂きますが人数は（ある程度英語の方で受けられましたので）二十八名でございます。<br/><br/> 次に島袋さんという未入信の人で、市の補助を受けている人が（中風と高血圧）この間クイーンズ・ホスピタルというホノルルでも大きな病院で薬と注射を断り浄霊を受けることを許され診察だけに行くことになりましたが、一昨日第二回目の診察に行きましたところ火曜日に血圧二百二十だったものが、金曜日に百六十に下っており、毎日浄霊を受けている旨を申しましたところ「大変よいようだから毎日つづけなさい」と申したそうで、本人も大変喜んでおります。<br/><br/> 教会の建設の方はおくれましたが、皆様の協力のおかげで二月十四日（第二日曜－月並祭当日）の開所式を目標に着々と進んでおります。<br/><br/>やはり立春祭を過ぎなければ新教会へ移る時が来ないらしく思われます。<br/><br/>土地を整備してみますと考えましたより狭く、庭の土地もなくして、パーキングプレース（自動車の駐車場）を造りましても、十五、六台が精々という程度で心配しておりましたところ、この度裏の土地を一区域百四十坪ばかりを一万五百ドルで譲ってくれることになりました。<br/><br/>それも払い込みは少々待ってくれます由で、総て御守護と感謝いたしております。<br/><br/>厚く御礼申し上げます。<br/><br/> もしお許しいただけますならば二月十四日の御祝の日にハワイ信者のため、御言葉をテープレコードでいただくことが出来ますならば、どのようにハワイの霊界が浄められ明るくしていただけることでございましょう。<br/><br/> 二月十四日の当日は、御讃歌はこの前御下げ渡し頂きました二回にわたる御詠及びその他の御詠の中から適当と思われます御詠をとりまぜて、おあげさせて頂くつもりでおります。<br/><br/>御参りの後感想と役員の建設経過報告と感想があり、午後は御蔭話の発表を主とし、後に御所の余興を少々させて頂く予定でおります。<br/><br/>今日はこれにて失礼させて頂きます。<br/><br/> 御守護を厚く厚く御礼申し上げます。<br/><br/> （一月三十日夜）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

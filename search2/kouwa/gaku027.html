@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>gaku027</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 学問篇 ３ 027-050 科学 027 宇宙無限 宇宙は有限なものでしょうか。<br><br>無限なもので御座いましょうか。<br><br>またその極限はいかになっているのでございましょうか。<br><br> 宇宙は無限で、極限はない。<br><br>無始無終という。<br><br>将来どの位発達するか判らぬ。<br><br>大空も無限で、天文学的数字で、数える事は出来ぬ。<br><br>年数も無限である。<br><br>年数も無限で、これは経緯は無限の拡がりとして、経の生命も無限である。<br><br>（S24.10.14） 028 万有の固結性 私は本年三月医科大学を卒業した一医学徒で、入信以来日の浅いものであります。<br><br> 本教の治療においては、「病気、固結を融かし、医薬は病気を固める」と言われますが、医薬が病気を固める理由を御教示御願い申し上げます。<br><br> 万有は時によって固まるもので、生物は固まらぬ。<br><br>人間の身に、あるべきでないものは固まる。<br><br>石も硬化作用で石になる。<br><br>これが段々固まると解体作用が起りボロボロになる。<br><br>万有は硬化作用で固まると光る。<br><br>暗星もそうで、それが分裂作用で流星になる。<br><br>膿でも、薬毒固まり、今度は溶解作用が起る。<br><br>そして熱が出て液体になる。<br><br>（S24. 5.15） 029 理想世界の風雨雷霆の左右 理想世界にて風雨雷霆を思うように左右出来るとしたら、どれ位の階級で出来ますか。<br><br> 階級で出来るんでない。<br><br>科学が進歩して、出来る。<br><br>原子力発見もその順序である。<br><br> 030 科学の神霊世界接近 神霊の世界へ突入せんとしつつあると仰せある既成科学は、その進歩の一段階として、人間社会の道徳、芸術、恋愛等に対しいささか解明の術を知り得ているので御座いましょうか。<br><br> 既成科学は未だ知らない。<br><br>そこまでゆけば、神霊の世界へ入ったものである。<br><br>まだその手前である。<br><br>（S *.10.14） 031 醗酵菌と水素、保護色.水素菌と人間の想念、行為 醗酵菌は大体水素から発生する。<br><br>冷たくては起らぬ。<br><br>火素が必要である。<br><br>火素もある程度の火素で、後は水素の領分である。<br><br> 水素の菌は、人間に役立つものと、毒するものと両方ある。<br><br>人間の想念や行為でつくる。<br><br> 原子破壊は言葉が合っていない。<br><br>水素全滅である。<br><br> 動植物の保護色、どうもこうもない。<br><br>神がこういう風に造った。<br><br> 032 微粒子（音波、電子、光子、想念言葉） 音波などは密度が荒い。<br><br>一そう細かいのが電子である。<br><br>次に細かいのが神霊子で――。<br><br> 水素に毒素が出来る。<br><br>毒素が水素を変化さす。<br><br>神霊は火素で、これにより毒微粒子を解く。<br><br>光子。<br><br> 想念や言葉も微粒子である。<br><br>（S23. 7.12） 033 水素微粒子と科学の水素 毒素発生の水素微粒子と化学的水素原子とは同一で御座居ましょうか。<br><br> 科学的水素と同じである。<br><br>科学的に顕微鏡などで見えるのは荒っぽいものである。<br><br>私の方でいうそれは、もっとウンと細かい。<br><br>どこまで小さいか無限である。<br><br>普通の科学でいう水素の一億分の一より小さい。<br><br>青空が無限に大きいようなものである。<br><br> 034 原子論の真義 一、原子核は火素と水素の結合体に依り、構成されていると考えられますが、エレクトロンの構成について――。<br><br> 二、原子核中の中性子について――。<br><br> 三、プロトン（陽子）エレクトロン（陰電子）と、火素、水素、土素の三原素の関係について――。<br><br> 一、エレクトロンは陽、ミクルトンは陰であるが、科学は逆にしている。<br><br>陽子は一つである。<br><br>その周りを陰電子が取巻いている。<br><br>水が取巻いて火を緩和している訳で、地球の中心は火の塊で、地球の陽子を空気が取巻いている事は水素を囲んでいる訳で、火素の点を取巻いてるのである。<br><br> 二、九つ取巻いている。<br><br>僅かなものが爆発する。<br><br>（S24.11. 9） 035 霊子と原子 再び霊子並びに原子に付いてお伺いお致します。<br><br> イ、光新聞第三十八号の御論説中 「この五種類とは陰陽のミューとパイが日と月の二精で、中性の中間子が日月の合致粒子で、他の二種が土及び星の精であって、この力の主座は勿論中性子である云々」の御説を次のごとく当嵌めて考えて宜しいでしょうか。<br><br> ミュー 陰 … 土の精 陽 … 日の精 パ イ 陰 … 星の精 陽 … 月の精 中性の中間子… 日月の合致粒子 ロ、なお第一、二、三各霊子を火、水、土三要素に当嵌める時はいかになりましょうか。<br><br> ハ、原子のエレクトロン数を人工的に変える事によって、鉛も金にする事が出来るというように……。<br><br> 人間の性質、精神作用をその人の霊魂ないし心の霊子核によるものと仮定し、その霊子核を即座に変化させ悪人を善人に教化することは出来ないものでしょうか。<br><br> ミューは陰。<br><br>パイ、陽。<br><br>人間はもっと霊妙微妙なものであるから、それは出来ない。<br><br>そういう分子より何億分の微粒か分らぬ。<br><br>やはり霊素でする外ない。<br><br> こまかいのは無限である。<br><br>（S25. 2. 3） 036 水素爆弾について これは原子爆弾である。<br><br>原子爆弾は物体から水分を抜くと外の原子が出て、それにつれて爆発する。<br><br>その場合水素を与えると爆発力が大きくなるのである。<br><br>（S25. 2. 8） 037 水爆の偉力 二月十三日の毎日新聞に、米国の原子学者ラルフ・ラップ博士の語った、一個の水素爆弾の重量は二十五トン、高度四マイルから落すと、百平方マイルの地域を破壊、三百ないし四百平方マイルを熱光線で被うことが出来る。<br><br>ソ連国内で、水素爆弾を落す価値のあるのは、モスクワ地域のみである、という報導が御座いました。<br><br> 右は多少誇張があるので御座いましょうか。<br><br>またソ連の方の様子につきまして、御垂教を御願い申し上げます。<br><br> これは本当であろう。<br><br>計算からゆくとそうなる。<br><br> 神様のお知らせはあるが、今言えない。<br><br>心配はしなくともよい。<br><br>（S25. 2.18） 038 原爆で台風中心破壊 この度の台風の被害は人的、物的に多大なる被害を受けました事ですが、我国の食糧事情も不足している折柄、大阪毎日新聞の二日付社説を見ましても、米換算一千万石も台風により減ぜられている由ですが、アメリカの科学者の間に原子爆弾により台風の中心地を破壊すると言う説も出ているとの事ですが、これも未だ実現の域には達せず現今にては科学の進歩も、自然の猛威たる台風を克服する迄にはまだ至ってないとの事ですが、吾々農業者に負荷せられたる食糧の増産は緊要なる事ですが、反面これらの被害を最少限度に止めたい念願は、国民の一人として止み難き感を覚ゆるものですが、これが防止策として唯心的方面よりしては大先生様の御高見を御拝聴させて頂きたいと謹んで御伺い申し上げます。<br><br> 原子爆弾では絶対に出来ぬ。<br><br>ラジュウムで癌を治すようなものである。<br><br>（S24. 9. 6） 039 音声と機械的音との反映力 人間の口より発する善言讃詞と機械的、例えば蓄音機、録音機等から発す善言讃詞とは言霊界にいかように反映致しましょうか。<br><br>御伺い申し上げます。<br><br> 人間の口から出るのは霊が入っている。<br><br>録音では形だけである。<br><br>人間と人形の異いがある。<br><br>（S24. 5.25） 040 色彩 色彩の原素について――。<br><br> 太陽の光線―電気の光線もある――を吸収する事により色彩がある。<br><br>（S24. 2.23） 041 電気、磁気 電気、磁気等は素から見ますといかなる構成になっておりますか。<br><br> 右御教示を御願い申し上げます。<br><br> 霊界の電子、磁気。<br><br> 科学者が研究して、人間の身体から磁気が出る。<br><br>これで病気が治るという事を唱え、ヨーロッパで盛んだった―磁気療法として――。<br><br> 前に療法時代、手から出る霊射を、磁気といった人もあった。<br><br>今でもある。<br><br>磁気とは、はっきりしていない。<br><br>人体電気という人もある。<br><br>つまり電子といってよい。<br><br> 判らない事を、すべて磁気と言ってるようである。<br><br> 042 電気の毒 先日の御伺い中、「扇風機の風によって頭痛を感じました。<br><br>いかがでしょうか」とあり、そのお答に「電気には毒素があるから――扇風機の風を下より当てたため、死亡した人があった」と承りました。<br><br>すると電気を扱っている人は毒素を受けますでしょうか。<br><br>また電気にはなぜ毒素があるのでしょうか。<br><br> 電気には毒がある。<br><br>電熱は科学的に査べると一番毒素が多いという。<br><br>扇風機はそんな事はないが不自然である。<br><br>また有毒の風をブッつける。<br><br>股へ風を入れながら死んだのは、冷したために麻痺したのである。<br><br> 043 扇風機掛け腰下麻痺感 五十二才の女ですが、半年程前に扇風機をかけて寝たその翌日から、腰から下の方が気持が悪いので、あんま、はり、指圧等をやっても治らないので、その後、電気治療や医師にもかけ、色々やったが段々悪くなって、今では腰が萎えて立つ事も出来ません。<br><br>腰から下がしびれたような気持ですが、さわると感じはあります。<br><br>医師は運動神経がにぶったと言うております。<br><br>どこが悪いためでしょうか。<br><br>また霊的にはいかなる関係でしょうか。<br><br>浄霊をする場合、どこを重点に置いてやればよいでしょうか。<br><br>また浄霊だけで治るでしょうか。<br><br>本人は四回浄霊を受けただけでこの道の事もわからず、随って御光も受けておりません。<br><br>御伺い申します。<br><br> いろんな事をやったためである。<br><br>扇風機ではよくある。<br><br>扇風機の障害より治療のための症状が多い。<br><br>扇風機をかけた場所を浄霊する。<br><br>一時一部神経を殺した意味になる。<br><br>電気には非常に毒素がある。<br><br>大阪の芸者で扇風機で死んだのがある。<br><br> 電熱も、長くかけるとわるい。<br><br>試験の結果電熱から出る毒は一番強い。<br><br>身体全体に扇風機をかけるのは大した事はないが、局部的に冷したりするとわるい。<br><br>冷えると固める理屈になる。<br><br>今迄は固めた。<br><br>前に横浜の方の人で、元の病気は治っているのに、氷冷したために、食欲がなくなり、衰弱して死んだ事がある。<br><br>（S24. 3.15） 044 雷光の稲妻型 雷光はなぜ、稲妻型に光るので御座居ましょうか。<br><br>御教えを賜りとう御座居ます。<br><br> 空中で陰陽電子が摩擦の刹那起るのであるから、非常に早いから起る。<br><br>宗教的にいえば、火龍―火を扱う龍神―が、口から火を吹く。<br><br>それが吹くんでそうなる。<br><br> どっちも間違っていない。<br><br>信じられる。<br><br>（S24. 7. 1） 045 螢光―日光、月光 螢の光は科学でも未だ解けぬといわれておりますが、これはいかなるものでございましょうか。<br><br>御伺い申し上げます。<br><br> 光には、日の光と月の光とある。<br><br>螢の光は月の光である。<br><br>であるから熱の分子がない。<br><br>冷光である。<br><br>熱のあるのは熱の体が多い。<br><br> 月の光は、日の光の霊（冷）が多い。<br><br>青い。<br><br>（S24. 5. 2） rattail（注） 〔 妙智の鍵（光明分会８月号） 、昭和24(1949)年8月1日発行〕掲載 046 螢光の原理 螢の光の出る原理また無熱にて光る原理――。<br><br> 無熱ではない。<br><br>霊の熱はある。<br><br>霊の火は熱くないが強い。<br><br>霊の光である。<br><br>熱いのは体である。<br><br>（S24. 8.16） 047 燃焼 燃焼は物質の霊化で御座居ますか。<br><br> 燃焼は、物質の霊火である。<br><br>（S24. 9.29） 048 摩擦熱と霊気 摩擦熱は霊気に関係がありますでしょうか。<br><br> 摩擦で熱くなるのがそれで、霊気とは関係はない。<br><br> 049 細菌爆弾 今後の戦争において細菌爆弾が使用されました場合、いかなる状態になりますでしょうか。<br><br>また信者の場合はどうで御ざいましょうか。<br><br> 寸鉄にもかいたが、信者は大いに歓迎してよい。<br><br>原子爆弾は恐いものではない。<br><br>白布を着けた人は助かる。<br><br>防空濠に入っていれば大丈夫である。<br><br>（S24. 6.19） rattail（注） 〔 寸鉄(光９号) 『光』9号、昭和24(1949)年5月14日発行〕 『ソ連では細菌爆弾が出来たという事だ 本教信者だけは不発ではなく 不感だよ』 〔 御光話（S24年 4月 4日） 『御光話録』7号、昭和24(1949)年<b>月</b>日発行〕 『いま、アメリカで一番心配しているのはソ連が細菌爆弾を持っていて、それでやられやしないかってことですがね、あんなのちっとも心配いりませんよ。<br><br>いまにアメリカにもこの道を宣伝するつもりですがね。<br><br>黴菌が入ったってそれが繁殖しないような体にすりゃあいいんじゃないですか。<br><br>建築なら燃えないような建築にすればよい。<br><br>それでいいんですよ。<br><br>われわれのほうではその不燃性家屋ができるんですからね。<br><br>』 050 細菌爆弾 原子爆弾と細菌爆弾との相違点及びその効果について御説明下さい。<br><br>また細菌爆弾は今後の文化発展にいかなる役割を果しますか。<br><br>御説明下さい。<br><br> 細菌爆弾は吾々には結構である。<br><br>（S24. 9.27）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>027 A Infinidade do Universo</h2>
 <p>Seria o universo uma entidade finita ou infinita? Ademais, como se configuraria seu limite?</p>
@@ -193,5 +345,48 @@ function toggleLang(lang) {
 <h2>050 Bomba Bacteriológica</h2>
 <p>Por favor, explique as diferenças entre a bomba atômica e a bomba bacteriológica, bem como seus respectivos efeitos. Ademais, que papel a bomba bacteriológica desempenhará no futuro desenvolvimento da cultura?</p>
 <p>Para nós, a bomba bacteriológica é algo excelente. (27/09/1949)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 学問篇 ３ 027-050 科学 027 宇宙無限 宇宙は有限なものでしょうか。<br/><br/>無限なもので御座いましょうか。<br/><br/>またその極限はいかになっているのでございましょうか。<br/><br/> 宇宙は無限で、極限はない。<br/><br/>無始無終という。<br/><br/>将来どの位発達するか判らぬ。<br/><br/>大空も無限で、天文学的数字で、数える事は出来ぬ。<br/><br/>年数も無限である。<br/><br/>年数も無限で、これは経緯は無限の拡がりとして、経の生命も無限である。<br/><br/>（S24.10.14） 028 万有の固結性 私は本年三月医科大学を卒業した一医学徒で、入信以来日の浅いものであります。<br/><br/> 本教の治療においては、「病気、固結を融かし、医薬は病気を固める」と言われますが、医薬が病気を固める理由を御教示御願い申し上げます。<br/><br/> 万有は時によって固まるもので、生物は固まらぬ。<br/><br/>人間の身に、あるべきでないものは固まる。<br/><br/>石も硬化作用で石になる。<br/><br/>これが段々固まると解体作用が起りボロボロになる。<br/><br/>万有は硬化作用で固まると光る。<br/><br/>暗星もそうで、それが分裂作用で流星になる。<br/><br/>膿でも、薬毒固まり、今度は溶解作用が起る。<br/><br/>そして熱が出て液体になる。<br/><br/>（S24. 5.15） 029 理想世界の風雨雷霆の左右 理想世界にて風雨雷霆を思うように左右出来るとしたら、どれ位の階級で出来ますか。<br/><br/> 階級で出来るんでない。<br/><br/>科学が進歩して、出来る。<br/><br/>原子力発見もその順序である。<br/><br/> 030 科学の神霊世界接近 神霊の世界へ突入せんとしつつあると仰せある既成科学は、その進歩の一段階として、人間社会の道徳、芸術、恋愛等に対しいささか解明の術を知り得ているので御座いましょうか。<br/><br/> 既成科学は未だ知らない。<br/><br/>そこまでゆけば、神霊の世界へ入ったものである。<br/><br/>まだその手前である。<br/><br/>（S *.10.14） 031 醗酵菌と水素、保護色.水素菌と人間の想念、行為 醗酵菌は大体水素から発生する。<br/><br/>冷たくては起らぬ。<br/><br/>火素が必要である。<br/><br/>火素もある程度の火素で、後は水素の領分である。<br/><br/> 水素の菌は、人間に役立つものと、毒するものと両方ある。<br/><br/>人間の想念や行為でつくる。<br/><br/> 原子破壊は言葉が合っていない。<br/><br/>水素全滅である。<br/><br/> 動植物の保護色、どうもこうもない。<br/><br/>神がこういう風に造った。<br/><br/> 032 微粒子（音波、電子、光子、想念言葉） 音波などは密度が荒い。<br/><br/>一そう細かいのが電子である。<br/><br/>次に細かいのが神霊子で――。<br/><br/> 水素に毒素が出来る。<br/><br/>毒素が水素を変化さす。<br/><br/>神霊は火素で、これにより毒微粒子を解く。<br/><br/>光子。<br/><br/> 想念や言葉も微粒子である。<br/><br/>（S23. 7.12） 033 水素微粒子と科学の水素 毒素発生の水素微粒子と化学的水素原子とは同一で御座居ましょうか。<br/><br/> 科学的水素と同じである。<br/><br/>科学的に顕微鏡などで見えるのは荒っぽいものである。<br/><br/>私の方でいうそれは、もっとウンと細かい。<br/><br/>どこまで小さいか無限である。<br/><br/>普通の科学でいう水素の一億分の一より小さい。<br/><br/>青空が無限に大きいようなものである。<br/><br/> 034 原子論の真義 一、原子核は火素と水素の結合体に依り、構成されていると考えられますが、エレクトロンの構成について――。<br/><br/> 二、原子核中の中性子について――。<br/><br/> 三、プロトン（陽子）エレクトロン（陰電子）と、火素、水素、土素の三原素の関係について――。<br/><br/> 一、エレクトロンは陽、ミクルトンは陰であるが、科学は逆にしている。<br/><br/>陽子は一つである。<br/><br/>その周りを陰電子が取巻いている。<br/><br/>水が取巻いて火を緩和している訳で、地球の中心は火の塊で、地球の陽子を空気が取巻いている事は水素を囲んでいる訳で、火素の点を取巻いてるのである。<br/><br/> 二、九つ取巻いている。<br/><br/>僅かなものが爆発する。<br/><br/>（S24.11. 9） 035 霊子と原子 再び霊子並びに原子に付いてお伺いお致します。<br/><br/> イ、光新聞第三十八号の御論説中 「この五種類とは陰陽のミューとパイが日と月の二精で、中性の中間子が日月の合致粒子で、他の二種が土及び星の精であって、この力の主座は勿論中性子である云々」の御説を次のごとく当嵌めて考えて宜しいでしょうか。<br/><br/> ミュー 陰 … 土の精 陽 … 日の精 パ イ 陰 … 星の精 陽 … 月の精 中性の中間子… 日月の合致粒子 ロ、なお第一、二、三各霊子を火、水、土三要素に当嵌める時はいかになりましょうか。<br/><br/> ハ、原子のエレクトロン数を人工的に変える事によって、鉛も金にする事が出来るというように……。<br/><br/> 人間の性質、精神作用をその人の霊魂ないし心の霊子核によるものと仮定し、その霊子核を即座に変化させ悪人を善人に教化することは出来ないものでしょうか。<br/><br/> ミューは陰。<br/><br/>パイ、陽。<br/><br/>人間はもっと霊妙微妙なものであるから、それは出来ない。<br/><br/>そういう分子より何億分の微粒か分らぬ。<br/><br/>やはり霊素でする外ない。<br/><br/> こまかいのは無限である。<br/><br/>（S25. 2. 3） 036 水素爆弾について これは原子爆弾である。<br/><br/>原子爆弾は物体から水分を抜くと外の原子が出て、それにつれて爆発する。<br/><br/>その場合水素を与えると爆発力が大きくなるのである。<br/><br/>（S25. 2. 8） 037 水爆の偉力 二月十三日の毎日新聞に、米国の原子学者ラルフ・ラップ博士の語った、一個の水素爆弾の重量は二十五トン、高度四マイルから落すと、百平方マイルの地域を破壊、三百ないし四百平方マイルを熱光線で被うことが出来る。<br/><br/>ソ連国内で、水素爆弾を落す価値のあるのは、モスクワ地域のみである、という報導が御座いました。<br/><br/> 右は多少誇張があるので御座いましょうか。<br/><br/>またソ連の方の様子につきまして、御垂教を御願い申し上げます。<br/><br/> これは本当であろう。<br/><br/>計算からゆくとそうなる。<br/><br/> 神様のお知らせはあるが、今言えない。<br/><br/>心配はしなくともよい。<br/><br/>（S25. 2.18） 038 原爆で台風中心破壊 この度の台風の被害は人的、物的に多大なる被害を受けました事ですが、我国の食糧事情も不足している折柄、大阪毎日新聞の二日付社説を見ましても、米換算一千万石も台風により減ぜられている由ですが、アメリカの科学者の間に原子爆弾により台風の中心地を破壊すると言う説も出ているとの事ですが、これも未だ実現の域には達せず現今にては科学の進歩も、自然の猛威たる台風を克服する迄にはまだ至ってないとの事ですが、吾々農業者に負荷せられたる食糧の増産は緊要なる事ですが、反面これらの被害を最少限度に止めたい念願は、国民の一人として止み難き感を覚ゆるものですが、これが防止策として唯心的方面よりしては大先生様の御高見を御拝聴させて頂きたいと謹んで御伺い申し上げます。<br/><br/> 原子爆弾では絶対に出来ぬ。<br/><br/>ラジュウムで癌を治すようなものである。<br/><br/>（S24. 9. 6） 039 音声と機械的音との反映力 人間の口より発する善言讃詞と機械的、例えば蓄音機、録音機等から発す善言讃詞とは言霊界にいかように反映致しましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 人間の口から出るのは霊が入っている。<br/><br/>録音では形だけである。<br/><br/>人間と人形の異いがある。<br/><br/>（S24. 5.25） 040 色彩 色彩の原素について――。<br/><br/> 太陽の光線―電気の光線もある――を吸収する事により色彩がある。<br/><br/>（S24. 2.23） 041 電気、磁気 電気、磁気等は素から見ますといかなる構成になっておりますか。<br/><br/> 右御教示を御願い申し上げます。<br/><br/> 霊界の電子、磁気。<br/><br/> 科学者が研究して、人間の身体から磁気が出る。<br/><br/>これで病気が治るという事を唱え、ヨーロッパで盛んだった―磁気療法として――。<br/><br/> 前に療法時代、手から出る霊射を、磁気といった人もあった。<br/><br/>今でもある。<br/><br/>磁気とは、はっきりしていない。<br/><br/>人体電気という人もある。<br/><br/>つまり電子といってよい。<br/><br/> 判らない事を、すべて磁気と言ってるようである。<br/><br/> 042 電気の毒 先日の御伺い中、「扇風機の風によって頭痛を感じました。<br/><br/>いかがでしょうか」とあり、そのお答に「電気には毒素があるから――扇風機の風を下より当てたため、死亡した人があった」と承りました。<br/><br/>すると電気を扱っている人は毒素を受けますでしょうか。<br/><br/>また電気にはなぜ毒素があるのでしょうか。<br/><br/> 電気には毒がある。<br/><br/>電熱は科学的に査べると一番毒素が多いという。<br/><br/>扇風機はそんな事はないが不自然である。<br/><br/>また有毒の風をブッつける。<br/><br/>股へ風を入れながら死んだのは、冷したために麻痺したのである。<br/><br/> 043 扇風機掛け腰下麻痺感 五十二才の女ですが、半年程前に扇風機をかけて寝たその翌日から、腰から下の方が気持が悪いので、あんま、はり、指圧等をやっても治らないので、その後、電気治療や医師にもかけ、色々やったが段々悪くなって、今では腰が萎えて立つ事も出来ません。<br/><br/>腰から下がしびれたような気持ですが、さわると感じはあります。<br/><br/>医師は運動神経がにぶったと言うております。<br/><br/>どこが悪いためでしょうか。<br/><br/>また霊的にはいかなる関係でしょうか。<br/><br/>浄霊をする場合、どこを重点に置いてやればよいでしょうか。<br/><br/>また浄霊だけで治るでしょうか。<br/><br/>本人は四回浄霊を受けただけでこの道の事もわからず、随って御光も受けておりません。<br/><br/>御伺い申します。<br/><br/> いろんな事をやったためである。<br/><br/>扇風機ではよくある。<br/><br/>扇風機の障害より治療のための症状が多い。<br/><br/>扇風機をかけた場所を浄霊する。<br/><br/>一時一部神経を殺した意味になる。<br/><br/>電気には非常に毒素がある。<br/><br/>大阪の芸者で扇風機で死んだのがある。<br/><br/> 電熱も、長くかけるとわるい。<br/><br/>試験の結果電熱から出る毒は一番強い。<br/><br/>身体全体に扇風機をかけるのは大した事はないが、局部的に冷したりするとわるい。<br/><br/>冷えると固める理屈になる。<br/><br/>今迄は固めた。<br/><br/>前に横浜の方の人で、元の病気は治っているのに、氷冷したために、食欲がなくなり、衰弱して死んだ事がある。<br/><br/>（S24. 3.15） 044 雷光の稲妻型 雷光はなぜ、稲妻型に光るので御座居ましょうか。<br/><br/>御教えを賜りとう御座居ます。<br/><br/> 空中で陰陽電子が摩擦の刹那起るのであるから、非常に早いから起る。<br/><br/>宗教的にいえば、火龍―火を扱う龍神―が、口から火を吹く。<br/><br/>それが吹くんでそうなる。<br/><br/> どっちも間違っていない。<br/><br/>信じられる。<br/><br/>（S24. 7. 1） 045 螢光―日光、月光 螢の光は科学でも未だ解けぬといわれておりますが、これはいかなるものでございましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 光には、日の光と月の光とある。<br/><br/>螢の光は月の光である。<br/><br/>であるから熱の分子がない。<br/><br/>冷光である。<br/><br/>熱のあるのは熱の体が多い。<br/><br/> 月の光は、日の光の霊（冷）が多い。<br/><br/>青い。<br/><br/>（S24. 5. 2） rattail（注） 〔 妙智の鍵（光明分会８月号） 、昭和24(1949)年8月1日発行〕掲載 046 螢光の原理 螢の光の出る原理また無熱にて光る原理――。<br/><br/> 無熱ではない。<br/><br/>霊の熱はある。<br/><br/>霊の火は熱くないが強い。<br/><br/>霊の光である。<br/><br/>熱いのは体である。<br/><br/>（S24. 8.16） 047 燃焼 燃焼は物質の霊化で御座居ますか。<br/><br/> 燃焼は、物質の霊火である。<br/><br/>（S24. 9.29） 048 摩擦熱と霊気 摩擦熱は霊気に関係がありますでしょうか。<br/><br/> 摩擦で熱くなるのがそれで、霊気とは関係はない。<br/><br/> 049 細菌爆弾 今後の戦争において細菌爆弾が使用されました場合、いかなる状態になりますでしょうか。<br/><br/>また信者の場合はどうで御ざいましょうか。<br/><br/> 寸鉄にもかいたが、信者は大いに歓迎してよい。<br/><br/>原子爆弾は恐いものではない。<br/><br/>白布を着けた人は助かる。<br/><br/>防空濠に入っていれば大丈夫である。<br/><br/>（S24. 6.19） rattail（注） 〔 寸鉄(光９号) 『光』9号、昭和24(1949)年5月14日発行〕 『ソ連では細菌爆弾が出来たという事だ 本教信者だけは不発ではなく 不感だよ』 〔 御光話（S24年 4月 4日） 『御光話録』7号、昭和24(1949)年**月**日発行〕 『いま、アメリカで一番心配しているのはソ連が細菌爆弾を持っていて、それでやられやしないかってことですがね、あんなのちっとも心配いりませんよ。<br/><br/>いまにアメリカにもこの道を宣伝するつもりですがね。<br/><br/>黴菌が入ったってそれが繁殖しないような体にすりゃあいいんじゃないですか。<br/><br/>建築なら燃えないような建築にすればよい。<br/><br/>それでいいんですよ。<br/><br/>われわれのほうではその不燃性家屋ができるんですからね。<br/><br/>』 050 細菌爆弾 原子爆弾と細菌爆弾との相違点及びその効果について御説明下さい。<br/><br/>また細菌爆弾は今後の文化発展にいかなる役割を果しますか。<br/><br/>御説明下さい。<br/><br/> 細菌爆弾は吾々には結構である。<br/><br/>（S24. 9.27）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,56 +4,211 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>syoukai</title>
 <link href="../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    「光は大地に」明主様の紹介コメント 『御教え集』31号、昭和29(1954)年3月15日発行 昭和二十九年二月十七日 ［中略］ 二、三日前に分かったことですが、『静岡民報』で三月一日から救世教のこと……というが、私のことですが、三カ月にわたって連載するというのです。<br><br>これはこっちで頼んだわけでもないし、どういう考えか知りませんが、突然話があったのです。<br><br>一昨日の新聞に予告がありましたが、なかなかおもしろく書いてありますから、読ませてみます。<br><br> （『静岡民報』二月十五日付「世界メシヤ教物語」） それで、最初の原稿を二十枚ばかり読んでみたのですが、なかなかおもしろく書いてあるのです。<br><br>非常に興味津々たる……といったようなものです。<br><br>その中でも、私が非常に愉快に思ったのは、面会の時に一度ここに来たのですが、その時に、「話が終わって、浄霊して、それからここから出るその格好は、ちょうど田舎のじいさんが汽車の時間が迫って急いで歩くような、そういう格好だ」と言うのです。<br><br>なかなかおもしろく書いてありました。<br><br>ただ、私は別に会ったこともないし、教団の人とそう詳しい話も聞いたようでもないのですが、三カ月も連載するというのですから、どういう材料で、どういうふうに書くか、非常に興味があると思うのです。<br><br>それから、どういう考えでそういう企画を起こしたのか、それも分からないのです。<br><br>だんだん分かるでしょうが、決して先に邪念がないということはよく分かります。<br><br>マイナスよりプラスの方が多いということは認められます。<br><br>そういうわけで、願わくば、もう少し、東京あたりの大新聞とまでゆかなくても、中新聞ぐらいのところに出たら、なお良いと思うのですが、けれども、とにかく地方新聞でも、そういうことによっていずれは東京の新聞なども、俺の方でも出してみようかとか、あるいは有力な雑誌とか、そういう方のジャーナリストを刺激する点もいくらかあると思います。<br><br>なんにしても、チョット出すのではなく三カ月も連続的に出すのですから、いくらか小説的と言いますか、なにかおもしろいと思います。<br><br>別にどうこうでなくて、非常に興味があると思います。<br><br>また信者さんなども大いに楽しみだというようなこともあるでしょう。<br><br>今の新聞に写真も出てますが、たいへんよく出ているということです。<br><br>良い悪いは、自分のことだから分からないが、若くは写っているようです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Luz se Espalha pela Terra (Comentário de Apresentação de Meishu-Sama)</h2>
 <p>Coletânea de Ensinamentos, nº 31, publicado em 15 de março de 1954
@@ -64,5 +219,48 @@ function toggleLang(lang) {
 <p>O curioso é que, com exceção daquela única vez, nunca mais o encontrei, e tampouco me parece que ele tenha conversado em profundidade com outros membros da Igreja. Portanto, uma vez que a série se estenderá por três meses, aguardo com grande expectativa para ver que fontes ele utilizará e qual será a sua abordagem. A motivação que o levou a idealizar este projeto também me é desconhecida. Creio que tudo se esclarecerá com o tempo; todavia, posso afirmar com certeza que não há má-fé em sua intenção. É inegável que os aspectos positivos desta iniciativa superam os negativos.</p>
 <p>Nesse sentido, seria ideal se a publicação ocorresse em um jornal de médio porte, ou quiçá em um dos grandes diários de Tóquio. Contudo, mesmo se tratando de um jornal regional, acredito que tal iniciativa possa ter um efeito catalisador. Eventualmente, poderá instigar outros jornais da capital, ou mesmo revistas de grande circulação, a também se interessarem pelo assunto, despertando a atenção de jornalistas influentes. Ademais, o fato de não ser apenas uma nota, mas uma série contínua por três meses, confere ao material um caráter quase literário, o que o torna, a meu ver, bastante promissor. Sem entrar em maiores méritos, considero a proposta de grande interesse. Imagino que os membros também aguardarão a publicação com grande entusiasmo.</p>
 <p>A prévia no jornal veio acompanhada de uma fotografia minha que, segundo dizem, ficou muito boa. Não me cabe julgar se a foto está boa ou ruim, por se tratar de minha própria imagem, mas, ao que parece, saí rejuvenescido.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>「光は大地に」明主様の紹介コメント 『御教え集』31号、昭和29(1954)年3月15日発行 昭和二十九年二月十七日 ［中略］ 二、三日前に分かったことですが、『静岡民報』で三月一日から救世教のこと……というが、私のことですが、三カ月にわたって連載するというのです。<br/><br/>これはこっちで頼んだわけでもないし、どういう考えか知りませんが、突然話があったのです。<br/><br/>一昨日の新聞に予告がありましたが、なかなかおもしろく書いてありますから、読ませてみます。<br/><br/> （『静岡民報』二月十五日付「世界メシヤ教物語」） それで、最初の原稿を二十枚ばかり読んでみたのですが、なかなかおもしろく書いてあるのです。<br/><br/>非常に興味津々たる……といったようなものです。<br/><br/>その中でも、私が非常に愉快に思ったのは、面会の時に一度ここに来たのですが、その時に、「話が終わって、浄霊して、それからここから出るその格好は、ちょうど田舎のじいさんが汽車の時間が迫って急いで歩くような、そういう格好だ」と言うのです。<br/><br/>なかなかおもしろく書いてありました。<br/><br/>ただ、私は別に会ったこともないし、教団の人とそう詳しい話も聞いたようでもないのですが、三カ月も連載するというのですから、どういう材料で、どういうふうに書くか、非常に興味があると思うのです。<br/><br/>それから、どういう考えでそういう企画を起こしたのか、それも分からないのです。<br/><br/>だんだん分かるでしょうが、決して先に邪念がないということはよく分かります。<br/><br/>マイナスよりプラスの方が多いということは認められます。<br/><br/>そういうわけで、願わくば、もう少し、東京あたりの大新聞とまでゆかなくても、中新聞ぐらいのところに出たら、なお良いと思うのですが、けれども、とにかく地方新聞でも、そういうことによっていずれは東京の新聞なども、俺の方でも出してみようかとか、あるいは有力な雑誌とか、そういう方のジャーナリストを刺激する点もいくらかあると思います。<br/><br/>なんにしても、チョット出すのではなく三カ月も連続的に出すのですから、いくらか小説的と言いますか、なにかおもしろいと思います。<br/><br/>別にどうこうでなくて、非常に興味があると思います。<br/><br/>また信者さんなども大いに楽しみだというようなこともあるでしょう。<br/><br/>今の新聞に写真も出てますが、たいへんよく出ているということです。<br/><br/>良い悪いは、自分のことだから分からないが、若くは写っているようです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

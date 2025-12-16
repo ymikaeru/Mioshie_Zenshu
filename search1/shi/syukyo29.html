@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>syukyo29</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教の治病統計を作れ 『新日本医術書』昭和11(1936)年執筆 宗教が、特に新興宗教が病気治しを本位として、信者を獲得している事は誰も知る通りであるが、これへ対し既成宗教側や、その他の方面で、それがインチキであるというのである。<br><br>しかしながら、事実、病気が治り、それが医学よりも優れているとすれば、インチキ所ではない。<br><br>大いに推賞して、社会の役に立たせなければならないのであって、もし、新興宗教の言うごとき治病の効果があるならば、インチキ所ではない。<br><br>実に人類の為に素晴しい貢献であって、非難する方がインチキであろう事である。<br><br>そうして、むしろ政府が進んでこれを奨励すべきである。<br><br> ただしかし、それが、ある種の病気に限られるか、又は、その言う事が事実より誇大なる点があれば、その点がインチキである。<br><br>故に、それをはっきりさせる事が、新興宗教としては緊要時であると思うのである。<br><br>しからば、それは、どうすればよいかというに、私は統計をとるより外に方法はないと思うのである。<br><br>まず無論、能（あた）う限りの正確を期し、その宗教の治病率と信者の罹病率の統計をとる事である。<br><br>特に治病率の方は、患者が現在までの病気治療の経過と、及びその宗教による全治の経過及び予後の状態、それらを詳細に記述し、その統計を天下に示すべきである。<br><br>そして果してその効果が医学以上に認むべきものがあるとしたなら、これは政府が新しい医術として奨励し、普（あまね）く社会へ応用する必要が起るであろう。<br><br>ただ、それらの事をしないで、漫然とインチキである、否インチキでないと相争っておった所で、果しがない事であるし、又新興宗教としても、いつまでもインチキ視せられている事は、発展の上にも障害になるであろう。<br><br>そうして右のごとく、統計を示す事が不可能とすれば、それは確かにインチキであると決められても、返す言辞は無いであろう。<br><br>しかしながら、西洋医学にも多分にインチキ性のある事は認めざるを得ないのである。<br><br>否、インチキというより錯覚であるかも知れない。<br><br>未だ不完全なる療法を完全として応用する誤謬かも知れない。<br><br>しかも、それらは、最高権威である大学あたりの診断や治療にも驚くべき錯誤のあるという事実を常に吾々は見せ付けられているのである。<br><br>従って、これら両方面共、最も公平に厳重なる検討をして、その誤れる点を発見匡正（きょうせい）する事が、今日の急務である事を言いたいのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Prova Estatística da Cura Religiosa</h2>
 <p>É de conhecimento geral que as religiões, especialmente as emergentes, angariam fiéis tendo como pilar a cura de doenças. Em contrapartida, as religiões já estabelecidas e outros setores da sociedade afirmam que tal prática não passa de um estelionato.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Contudo, se sua eficácia se restringe a determinados tipos de doenças, ou se as alegações são mais grandiosas que a realidade, é precisamente nesses pontos que reside a fraude. Portanto, considero ser de suma importância que as novas religiões esclareçam cabalmente essa questão. E como proceder? A meu ver, não há outro método senão a elaboração de estatísticas. Primeiramente, é imprescindível buscar a máxima precisão possível, compilando dados sobre a taxa de cura promovida pela religião e a taxa de morbidade entre seus fiéis. No que tange à taxa de cura, em particular, deve-se documentar detalhadamente o histórico do tratamento da doença até o momento, o processo de recuperação completa por meio da prática religiosa e o prognóstico do paciente. Essas estatísticas devem, então, ser apresentadas publicamente. Se for constatado que sua eficácia é, de fato, superior à da medicina, surgirá para o governo a necessidade de promovê-la como uma nova arte médica, difundindo sua aplicação por toda a sociedade.</p>
 <p>Meras disputas sobre ser ou não um estelionato, sem que tais medidas sejam tomadas, são discussões infindáveis e infrutíferas. Adicionalmente, para as próprias religiões emergentes, a pecha de impostura, se perpetuada, constituirá um grande obstáculo ao seu desenvolvimento. Nesse sentido, se a apresentação de tais estatísticas se mostrar impossível, não haverá argumentos para refutar a conclusão de que se trata, de fato, de um engodo.</p>
 <p>Não obstante, é forçoso reconhecer que a medicina ocidental também possui, em grande medida, um caráter falacioso. Ou, mais que falacioso, talvez seja ilusório. Trata-se, quiçá, do equívoco de se aplicar terapias ainda incompletas como se fossem definitivas. Com efeito, somos constantemente confrontados com o fato de que existem erros surpreendentes até mesmo nos diagnósticos e tratamentos provenientes das mais altas autoridades, como as universidades. Destarte, desejo afirmar que a tarefa mais premente de nossos dias é submeter ambas as vertentes a um exame rigoroso e imparcial, a fim de identificar e retificar seus pontos falhos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教の治病統計を作れ 『新日本医術書』昭和11(1936)年執筆 宗教が、特に新興宗教が病気治しを本位として、信者を獲得している事は誰も知る通りであるが、これへ対し既成宗教側や、その他の方面で、それがインチキであるというのである。<br/><br/>しかしながら、事実、病気が治り、それが医学よりも優れているとすれば、インチキ所ではない。<br/><br/>大いに推賞して、社会の役に立たせなければならないのであって、もし、新興宗教の言うごとき治病の効果があるならば、インチキ所ではない。<br/><br/>実に人類の為に素晴しい貢献であって、非難する方がインチキであろう事である。<br/><br/>そうして、むしろ政府が進んでこれを奨励すべきである。<br/><br/> ただしかし、それが、ある種の病気に限られるか、又は、その言う事が事実より誇大なる点があれば、その点がインチキである。<br/><br/>故に、それをはっきりさせる事が、新興宗教としては緊要時であると思うのである。<br/><br/>しからば、それは、どうすればよいかというに、私は統計をとるより外に方法はないと思うのである。<br/><br/>まず無論、能（あた）う限りの正確を期し、その宗教の治病率と信者の罹病率の統計をとる事である。<br/><br/>特に治病率の方は、患者が現在までの病気治療の経過と、及びその宗教による全治の経過及び予後の状態、それらを詳細に記述し、その統計を天下に示すべきである。<br/><br/>そして果してその効果が医学以上に認むべきものがあるとしたなら、これは政府が新しい医術として奨励し、普（あまね）く社会へ応用する必要が起るであろう。<br/><br/>ただ、それらの事をしないで、漫然とインチキである、否インチキでないと相争っておった所で、果しがない事であるし、又新興宗教としても、いつまでもインチキ視せられている事は、発展の上にも障害になるであろう。<br/><br/>そうして右のごとく、統計を示す事が不可能とすれば、それは確かにインチキであると決められても、返す言辞は無いであろう。<br/><br/>しかしながら、西洋医学にも多分にインチキ性のある事は認めざるを得ないのである。<br/><br/>否、インチキというより錯覚であるかも知れない。<br/><br/>未だ不完全なる療法を完全として応用する誤謬かも知れない。<br/><br/>しかも、それらは、最高権威である大学あたりの診断や治療にも驚くべき錯誤のあるという事実を常に吾々は見せ付けられているのである。<br/><br/>従って、これら両方面共、最も公平に厳重なる検討をして、その誤れる点を発見匡正（きょうせい）する事が、今日の急務である事を言いたいのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

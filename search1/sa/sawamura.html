@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sawamura</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 沢村田之助他 『地上天国』13号、昭和25(1950)年2月20日発行 先日田之助の映画を見て気が付いたのであるが同丈（じょう）が脱疽のため両脚を切断し、ひょう疽（そ）のため、両手の指を切断し、ほとんど生きた達磨のような人間になって、なお舞台に出たという悲壮な話はあまりにも有名であるが、この手術をした医師は、これも有名な和蘭（オランダ）の名医へボン氏であった事は誰知らぬものもない。<br><br>従ってヘボン氏は、日本における外科手術の鼻祖（びそ）として今なお仰がれている。<br><br>そうして田之助の手術は明治四年であったから、その時が日本における手術の始まりという訳である。<br><br> ところが、ほとんど例がないといってもいい程の田之助の身体である。<br><br>最初右足を切断し治ったと思うと、間もなく左の足が悪くなったのでまた切断した。<br><br>それのみではない、手の指まで全部が?疽となり切断したというのであるから、その悲惨事は尋常事ではない。<br><br>何かよほどの原因がなくてはならないと、誰しも思わずにはおられない。<br><br>ところが時人はこういう想像説を唱えた。<br><br>それは田之助は稀にみる美貌であったから、多くの女の罪を作った。<br><br>その怨霊の祟りであろうという事になった。<br><br>なるほど一応は、誰しも納得するであろうが、実をいうと、そういう事も多少はあるであろうが、真相は誰も気付かないところにあったのである。<br><br>それを書いてみよう。<br><br> 初め、右足に脱疽が出来るや、放任しておけば自然治癒で済んだのである。<br><br>何となれば、脱疽の原因は悪質の膿の排除作用であるからで、そのままにしておけば、漸次集溜の量を増し、最後に厖大な腫物となって紅潮を呈し、柔軟化し小さな孔が開き、毒血と膿がすこぶる多量に排泄され、元通り痕跡をみない程に全治されるのである。<br><br> しかるに、充分化膿しないうちに手術したからでこの場合ちょっと針で穴を開けただけでも、膿の集溜は停止されるのである。<br><br>これは造化の不思議で、私は数多く経験したのである。<br><br>従って右脚も左脚も切断したため、膿はやむを得ず、手の指に排泄口を求める事となったのである。<br><br>ゆえにもし田之助が生きていたとしたら、また他の部に化膿する事は必然である。<br><br> 右の理によってみる時、もしヘボン博士が在日していないとすれば、田之助は右脚だけで全治し非凡の伎芸を遣した訳であった。<br><br>この一事にみても医学の誤謬のいかに恐るべきかを知るのである。<br><br> 私が以前扱った患者の中に、こういう例があった。<br><br>四十歳くらいの人妻、予防注射の薬毒が漸次下降して、足首から排泄しようとし、腫物が出来た。<br><br>これらも放任しておけば簡単に治癒したにかかわらず医療は手術し、消毒薬を塗布した。<br><br>すると消毒薬が強烈だとみえて傷口から滲透するや、腫物は以前に増して拡大し、痛苦も漸次強烈となり、遂に足首から上方に向かって拡がってゆくのである。<br><br>医師は驚いて上方に腐り込むのだから、膝の下部から切断しなければならないと言われた。<br><br>その時私の所へ来たので、膝を切らずに数年かかったが、治癒したのである。<br><br>これに似た話が相当世間にはあるが、最も不運なのは、最初足指の?疽を手術によって一旦治癒するや、次々他の指に出来切断し、数本の指が欠除したり中には足首に出来、それを切るや今度は膝から上部に出来るので、股の付根から切断する事になる。<br><br>このようになった人は、大抵死は免れないのである。<br><br> 次にこういう患者があった。<br><br>五十歳くらいの男子、最初上に腫物が出来た。<br><br>それを散らそうとし、強烈な薬剤を塗布したため、その薬剤が皮膚から浸透し漸次拡大し、数年間に全身に拡がってしまった。<br><br>色は暗紅色で、最もひどいところは紫色を呈し、その醜怪なる見るに堪えない程で、患者は苦悶の連続で睡眠も碌々（ろくろく）とれないのである。<br><br>私は一見、膚（はだえ）に粟（あわ）を生じたので手の施しようもなく、断ったがそれから数ケ月後死んだという話である。<br><br> 次に、こういう珍しいのもあった。<br><br>四十歳くらいの人妻、右眼と眉の間に腫物が出来た。<br><br>それも放任しておけば自然に治るのだが、医療はレントゲン放射療法をした。<br><br>その結果強く固まったので、集溜毒素は腫物の裏面深部に漸次量を増すと共に、下部の方へ腫れ出し、遂には驚くべき程の大塊となった。<br><br>しかも、眼球は上方から圧迫されるため、眼の位置は下降し、ちょうど前頬の中央部に三日月形になったのである。<br><br>常に白布で隠していたが、私は最初白布をとるや、愕然とした。<br><br>どうみても妖怪としか思えないからである。<br><br>これは全く充分腫らして、自然に排膿させれば完全に治癒すべきを知らない医学は、レントゲンで外表を固結させ、腫脹を停止せしめたのが原因である。<br><br> 右は数例に過ぎないが、まだまだ数え切れない程経験したのであるが、そのことごとくは医学の誤謬によるので、実に恐るべき事といわねばならない。<br><br>この文をみた医家はなるほどと肯き得るはずであると共に覚醒する賢明なる人もある事を信じ、書いたのである。<br><br> (注) 丈（じょう）、歌舞伎役者の芸名の下に添える敬称。<br><br>元は丞・尉などを使っていた。<br><br>年長者への敬称。<br><br> 鼻祖（びそ）、最初に物事を始めた人。<br><br>元祖。<br><br>始祖。<br><br>（中国で、胎生動物はまず鼻から形作られるとされたところからこういわれる）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Os Temíveis Equívocos da Medicina</h2>
 <p>Recentemente, ao assistir a um filme sobre o ator Sawamura Tanosuke, fui levado a refletir sobre sua história. É amplamente conhecido o comovente relato de como o célebre ator teve ambas as pernas amputadas devido à gangrena e, posteriormente, os dedos das mãos em razão de uma infecção similar, tornando-se uma figura que se assemelhava a um boneco Daruma vivo, e ainda assim, subia ao palco. O cirurgião responsável por tais procedimentos foi o Dr. Hepburn, um renomado médico holandês cujo nome é familiar a todos. Por essa razão, o Dr. Hepburn é até hoje reverenciado como o pioneiro da cirurgia no Japão. Como sua intervenção em Tanosuke ocorreu no quarto ano da Era Meiji, esse evento é considerado o marco inicial da prática cirúrgica em nosso país.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>Houve também outro paciente, um homem de cerca de cinquenta anos, que inicialmente desenvolveu um abscesso. Na tentativa de dissipá-lo, aplicou um medicamento de grande potência. A substância, no entanto, penetrou na pele e, ao longo de alguns anos, espalhou-se por todo o seu corpo. A pele adquiriu uma coloração vermelho-escura, chegando ao tom púrpura nas áreas mais afetadas. Sua aparência tornou-se tão grotesca que era penoso olhá-lo. O paciente vivia em agonia contínua, mal conseguindo dormir. Ao vê-lo pela primeira vez, senti um calafrio; não havendo nada que eu pudesse fazer, recusei o caso. Meses depois, soube que ele havia falecido.</p>
 <p>Deparei-me, ainda, com um caso singular. Uma mulher de quarenta anos desenvolveu um abscesso entre o olho direito e a sobrancelha. Novamente, a cura natural teria ocorrido se não houvesse interferência. A medicina, entretanto, recorreu à terapia por radiação de raios X. Como resultado, a lesão endureceu consideravelmente. As toxinas acumuladas, impedidas de sair, aumentaram de volume na parte interna e profunda do abscesso, que começou a inchar para baixo, até se transformar em uma massa de tamanho assombroso. O globo ocular, pressionado por cima, foi deslocado para baixo, assumindo o formato de uma lua crescente no centro de sua face. Ela o mantinha sempre coberto com um pano branco. Quando o removi pela primeira vez, fiquei estarrecido, pois sua aparência assemelhava-se à de uma criatura fantasmagórica. A causa de tal deformidade reside inteiramente no fato de a medicina, por desconhecer que deveria permitir o inchaço completo para a expulsão natural do pus, ter solidificado a superfície com raios X, interrompendo o processo.</p>
 <p>Os casos que relatei são apenas alguns exemplos, dentre as inúmeras experiências que acumulei. A totalidade deles, entretanto, origina-se dos equívocos da medicina, o que se revela verdadeiramente assustador. Escrevo estas linhas com a convicção de que os médicos que as lerem poderão assentir, reconhecendo sua veracidade. Alimento, outrossim, a esperança de que, entre eles, haja pessoas de grande sabedoria que venham a despertar para essa realidade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 沢村田之助他 『地上天国』13号、昭和25(1950)年2月20日発行 先日田之助の映画を見て気が付いたのであるが同丈（じょう）が脱疽のため両脚を切断し、ひょう疽（そ）のため、両手の指を切断し、ほとんど生きた達磨のような人間になって、なお舞台に出たという悲壮な話はあまりにも有名であるが、この手術をした医師は、これも有名な和蘭（オランダ）の名医へボン氏であった事は誰知らぬものもない。<br/><br/>従ってヘボン氏は、日本における外科手術の鼻祖（びそ）として今なお仰がれている。<br/><br/>そうして田之助の手術は明治四年であったから、その時が日本における手術の始まりという訳である。<br/><br/> ところが、ほとんど例がないといってもいい程の田之助の身体である。<br/><br/>最初右足を切断し治ったと思うと、間もなく左の足が悪くなったのでまた切断した。<br/><br/>それのみではない、手の指まで全部が?疽となり切断したというのであるから、その悲惨事は尋常事ではない。<br/><br/>何かよほどの原因がなくてはならないと、誰しも思わずにはおられない。<br/><br/>ところが時人はこういう想像説を唱えた。<br/><br/>それは田之助は稀にみる美貌であったから、多くの女の罪を作った。<br/><br/>その怨霊の祟りであろうという事になった。<br/><br/>なるほど一応は、誰しも納得するであろうが、実をいうと、そういう事も多少はあるであろうが、真相は誰も気付かないところにあったのである。<br/><br/>それを書いてみよう。<br/><br/> 初め、右足に脱疽が出来るや、放任しておけば自然治癒で済んだのである。<br/><br/>何となれば、脱疽の原因は悪質の膿の排除作用であるからで、そのままにしておけば、漸次集溜の量を増し、最後に厖大な腫物となって紅潮を呈し、柔軟化し小さな孔が開き、毒血と膿がすこぶる多量に排泄され、元通り痕跡をみない程に全治されるのである。<br/><br/> しかるに、充分化膿しないうちに手術したからでこの場合ちょっと針で穴を開けただけでも、膿の集溜は停止されるのである。<br/><br/>これは造化の不思議で、私は数多く経験したのである。<br/><br/>従って右脚も左脚も切断したため、膿はやむを得ず、手の指に排泄口を求める事となったのである。<br/><br/>ゆえにもし田之助が生きていたとしたら、また他の部に化膿する事は必然である。<br/><br/> 右の理によってみる時、もしヘボン博士が在日していないとすれば、田之助は右脚だけで全治し非凡の伎芸を遣した訳であった。<br/><br/>この一事にみても医学の誤謬のいかに恐るべきかを知るのである。<br/><br/> 私が以前扱った患者の中に、こういう例があった。<br/><br/>四十歳くらいの人妻、予防注射の薬毒が漸次下降して、足首から排泄しようとし、腫物が出来た。<br/><br/>これらも放任しておけば簡単に治癒したにかかわらず医療は手術し、消毒薬を塗布した。<br/><br/>すると消毒薬が強烈だとみえて傷口から滲透するや、腫物は以前に増して拡大し、痛苦も漸次強烈となり、遂に足首から上方に向かって拡がってゆくのである。<br/><br/>医師は驚いて上方に腐り込むのだから、膝の下部から切断しなければならないと言われた。<br/><br/>その時私の所へ来たので、膝を切らずに数年かかったが、治癒したのである。<br/><br/>これに似た話が相当世間にはあるが、最も不運なのは、最初足指の?疽を手術によって一旦治癒するや、次々他の指に出来切断し、数本の指が欠除したり中には足首に出来、それを切るや今度は膝から上部に出来るので、股の付根から切断する事になる。<br/><br/>このようになった人は、大抵死は免れないのである。<br/><br/> 次にこういう患者があった。<br/><br/>五十歳くらいの男子、最初上に腫物が出来た。<br/><br/>それを散らそうとし、強烈な薬剤を塗布したため、その薬剤が皮膚から浸透し漸次拡大し、数年間に全身に拡がってしまった。<br/><br/>色は暗紅色で、最もひどいところは紫色を呈し、その醜怪なる見るに堪えない程で、患者は苦悶の連続で睡眠も碌々（ろくろく）とれないのである。<br/><br/>私は一見、膚（はだえ）に粟（あわ）を生じたので手の施しようもなく、断ったがそれから数ケ月後死んだという話である。<br/><br/> 次に、こういう珍しいのもあった。<br/><br/>四十歳くらいの人妻、右眼と眉の間に腫物が出来た。<br/><br/>それも放任しておけば自然に治るのだが、医療はレントゲン放射療法をした。<br/><br/>その結果強く固まったので、集溜毒素は腫物の裏面深部に漸次量を増すと共に、下部の方へ腫れ出し、遂には驚くべき程の大塊となった。<br/><br/>しかも、眼球は上方から圧迫されるため、眼の位置は下降し、ちょうど前頬の中央部に三日月形になったのである。<br/><br/>常に白布で隠していたが、私は最初白布をとるや、愕然とした。<br/><br/>どうみても妖怪としか思えないからである。<br/><br/>これは全く充分腫らして、自然に排膿させれば完全に治癒すべきを知らない医学は、レントゲンで外表を固結させ、腫脹を停止せしめたのが原因である。<br/><br/> 右は数例に過ぎないが、まだまだ数え切れない程経験したのであるが、そのことごとくは医学の誤謬によるので、実に恐るべき事といわねばならない。<br/><br/>この文をみた医家はなるほどと肯き得るはずであると共に覚醒する賢明なる人もある事を信じ、書いたのである。<br/><br/> (注) 丈（じょう）、歌舞伎役者の芸名の下に添える敬称。<br/><br/>元は丞・尉などを使っていた。<br/><br/>年長者への敬称。<br/><br/> 鼻祖（びそ）、最初に物事を始めた人。<br/><br/>元祖。<br/><br/>始祖。<br/><br/>（中国で、胎生動物はまず鼻から形作られるとされたところからこういわれる）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>keturo16</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結論 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 私は、現代医学に対し、凡ゆる面から解剖し、忌憚なきまでにその誤謬を指摘し批判を加へたつもりである。<br><br>然し乍ら、帰する処その結論は左の如きものであらう。<br><br> 一、病気に対する医学の解釈が、浄化作用である事を知らなかつた事。<br><br> 二、従而、病気を悪化作用と解し、浄化作用停止を、病気治癒の方法と誤認した事。<br><br> 三、薬剤はすべて毒素であつて、その毒素が浄化作用を停止するのみならず、その残存薬毒が、病原になるといふ事を知らなかつた事。<br><br> 四、病気は浄化作用である以上、自然が最も良医であるといふ―彼のヒポクラテスの言を無視し、すべて人為的療法を可とした誤謬。<br><br> 五、医療は一時的効果を以て、永久的と誤解してゐる事。<br><br> 大体右の如きものであらう。<br><br>それに就て、右の内四までは詳説したから、読者は充分諒解されたであらうが、但だ五に対して大いに解説する必要があると思ふ。<br><br> 先づ医療としての凡ゆる方法は、一時的治癒であつて、それを真の治癒と錯覚してゐる事である。<br><br>而も一時的治癒の方法が、其後に到つて逆作用を起させ、病気悪化の原因となり余病発生の動機となるといふ事も知らなかつたのである。<br><br>之に対し種々の例によつて説明してみよう。<br><br> 曩に詳説した如く、薬剤や氷冷、湿布等を行へば、一時的苦痛が軽減するので、之によつて治癒すると思ふのである。<br><br>又耳鼻の洗滌等や点眼薬、コカインの鼻注、含漱薬、すべての塗布薬、膏薬等も勿論一時的苦痛軽減法である。<br><br>又解熱剤、利尿剤、下剤、睡眠剤、モヒ注射等も同様である。<br><br>又、歯に対する含漱薬は歯を弱らせるし、殺菌剤応用の歯磨は殊に悪いのである。<br><br>爰に面白いのは、歯科医が歯孔をセメント等にて充填（じゅうてん）する場合、殺菌剤にて消毒するが、之等も大いに間違がつてゐる。<br><br>何故なれば、充填後大抵は痛むものである。<br><br>それは殺菌剤が腐敗し、毒素となつて排除されようとする。<br><br>その為の痛みである。<br><br>故に充填の場合、全然殺菌剤も何も用ひない時は、決して痛みは起らないのである。<br><br>私は、歯科医に厳重にそうさせて以来、決して痛まないのが何よりの證拠である。<br><br>従而、歯科医が斯事を知つて薬剤を用ひないやうになれば人々は如何に助かるであらうかと、私は常に思つてゐるのである。<br><br> 又、仁丹なども少し位は差閊へないが、常用者になると害があるのである。<br><br>以前私は、仁丹中毒の患者を扱つた事がある。<br><br>此人は拾数年間、常に仁丹を口に入れてゐたので、最初来た時は顔面蒼白で痩せ細り、胃も相当悪るかつたが、其原因が仁丹にある事が判つたので、大いに驚いて廃止し、其後漸次健康を恢復したのである。<br><br> 次に、世人の気の付かない事に、薬湯の中毒がある。<br><br>それは元来風呂の湯は何等異物の入らない純粋の水が良いのである。<br><br>然るに、薬湯の如き異物が混入すると、その薬毒が皮膚から侵入し、一種の中毒となり、健康に害を与へるのである。<br><br>故に薬湯に頻繁に入る人は顔色が良くない事を発見するであらう。<br><br>そうして薬湯が温まるといふ事をよく謂ふが之は如何なる訳かといふと、微熱のある人は常に軽い悪寒があるから寒がりである。<br><br>然るに薬湯へ入ると、薬毒が皮膚から侵入するので、浄化作用が停止し、一時的微熱が無くなるから悪寒がなくなり、丁度温まるやうになるのである。<br><br>又温泉の湯花を入れるが、之等も温泉へ入るのとは違ふのである。<br><br>何となれば温泉は山の霊気が含まれてゐるから、それが身体に利くのであるが、湯花は霊気が無くなつた―いはば滓（かす）であるからである。<br><br>次に扁桃腺及び盲腸の手術は、曩に説いた如く、二三年の間は成績がいいが、其後に到つて悪い事や、又胃病に対し消化薬を服み、消化し易い食物を摂るに於て、漸次胃が弱るといふ事や疲労を恐れたり、睡眠不足を恐れるといふ事なども一時的を主とした誤りであり、栄養食も曩に述べた通りである。<br><br> 故に、何よりも私の理論の誤りでない事は幾多の事実によつて知る事を得るであらう。<br><br>彼の上流社会の子女や医家の子女等をみるがいい。<br><br>それ等の人々は、常に充分栄養を摂り、西洋医学的衛生を出来得るだけ実行してゐるに係はらず、何れも弱弱しく、大方は腺病質である事である。<br><br> 又医師の短命も近来著るしい現状である。<br><br>私は種々の博士の中、医学博士が一番短命ではないかと思ふのである。<br><br>之は誰かが統計を作つてみれば面白いと思ふのである。<br><br>少なくとも人の病気を治し、健康を増進させる役目である以上、何よりも自己自身が健康であり長命でなくてはならないし、又その家族の健康に於ても、医学的知識の少ない世間一般の人々よりも良くなければならない筈である。<br><br>そうでなければ医家としての真の資格は無いと言つても、敢て侮言ではなからうと思ふのである。<br><br>例へていへば如何に道徳を説くと雖も自己が実践出来なければ人を動かす事が出来ないのと同様である。<br><br>故に、今日の医学衛生の理論を最も信奉する人々がふえるに比例して、青白いインテリが増加するといふ事も、適切な実證であらう。<br><br> 以上によつて、私の創成した日本医術が如何なるものであるか、読者は大体諒解されたと思ふと共に、ここに最も重要なる事は、その治病力の如何に素晴しいかといふ事である。<br><br>私としては、事実ありのままを告白するとすれば、それは余りに自画自讃に陥らざるを得ないが、言はなければならないから敢て発表するのである。<br><br> 病気の根源は毒素である事、毒素とは膿汁又は毒血の凝結したものである事はいふ迄もない。<br><br>勿論西洋医学に於ても、その点は認めてゐるのであるが、但だ異なる点は、西洋医学に於ては、黴菌によつて毒素が増殖せられるといふに対し、私の方は、浄化作用によつて毒素が集溜するといふのである。<br><br>故に、西洋医学の伝染に対し、私の方では誘発と解し又、西洋医学に於ては、凡ゆる病気は、抵抗力薄弱によつて、外部から黴菌による毒素が侵入繁殖するといふに対し、私の方は、体内に於て集溜凝結した毒素が、浄化溶解作用によつて外部へ排泄される為といふのである。<br><br>故に、その療法原理に於ても、西洋医学に於ては、体内に毒素を固むるのを目的とし、私の方は毒素を溶解して、体外へ排泄するのを目的とする。<br><br>一は、固むるのを目的とし、一は溶かすのを目的とするのである。<br><br>従つて固むる結果は病原を残存させ、再発の因を作るのである。<br><br>之に反し溶かす結果は、病原を排除し、再発の因を無くする事である。<br><br> 右の如き、両々相反する理論は、何れが真理であるかを言を俟たずして明かであらう。<br><br>然し乍ら、私の右の理論に対して、特に専門家は曰ふであらう。<br><br>成程病気の根源は毒素であるが、その毒素を溶解排除するなどは、実際上不可能で、それは理想でしかない。<br><br>故に止むを得ず次善的方法として手術か又は固むるので、固め療法の発達したのも止むを得ないのであると、然るに、私が創成したこの日本医術は、毒素の溶解排除の方法に成功したのである。<br><br> 現代医学が如何に進歩せりと誇称するも、皮下に溜結せる毒素に対し、切開手術を行はなければ、膿一滴と雖も除去し得ないのである。<br><br>然るに私の方法によれば、外部から聊かの苦痛をも与へずして、如何なる深部と雖も自由に膿結を溶解排除する事が出来得るのである。<br><br>盲腸炎は一回の施術によつて治癒し、歯痛は外部からその場で痛みを去り、他の如何なる痛みと雖も数回の施術によつて無痛たらしめ得るのである。<br><br>肺結核も完全に治癒せしめ得、癌も解消せしめ得るのである。<br><br>其他疫痢も精神病も喘息も心臓病も痔瘻も医学上難治とされてゐる疾患のその殆んどは治癒せしめ得るのである。<br><br> ただ私の療法で困難と思ふのは、医療を加へ過ぎた患者である。<br><br>特に薬物多用者とレントゲンや深部電気、ラヂュウム等を幾十回も受用せられたものである。<br><br>又、種々の療法を受けた結果、衰弱甚だしい患者に於ては、病原を除去し終るまで生命を保てないので、斯様な場合は、不成績の止むを得ない事があるばかりである。<br><br> 故に、発病後速かに本療法を受ければ、その悉くは全治するといつても過言ではないのである。<br><br>従而、私の方では研究といふ言葉は無いのである。<br><br>何となれば、病原も明かであり、治癒も確定してゐるから、其必要がないからである。<br><br> そうして今一つ重要なる事は、私の医術は何人と雖も修練をすれば出来得るのである。<br><br>医学的知識のない者でも、男女年齢の如何を問はず出来得るのである。<br><br>而も修練期間は普通一個年位で、数人の医学博士が首を傾げた病気でも治癒するので、そのやうな例は無数にあるのである。<br><br>この寧ろ余りにも卓越した医術に驚歎せぬ者はあるまい。<br><br>私は、事実そのままを述べてゐるつもりであるが、或は誇張に過ぎると思はれはしないかと、それを心配する位である。<br><br> そうして何千年来、医学に於ける根本的誤謬に人類が何故気付かなかつたかに対し、読者は大いなる疑問を起すであらう。<br><br>それと共に、私のやうな医学的知識のない者が、如何にして、その誤謬を発見し得たかといふ事に対しても、同様の疑問を起さずにはゐられないであらう。<br><br> 右の二点を徹底的に説く事によつて、一切は闡明されるのである。<br><br>勿論それは、宇宙の実体から歴史の推移、文化の変転、霊と物質との関係、霊界の真相、人間生死一如の真諦にまでも及ばなくてはならないのである。<br><br> 特に今、全世界如何なる人種と雖も、圏外に立つ事を許されない―現に行はれつつある処の空前の大戦争、大禍乱で、誰もが言つてゐる処の世界の大転換である。<br><br>そうして此大転換の由つ起つた根本原理と、私の創成した日本医術との根本原理が、洵によく一致してゐるといふ事である、これ故に、此根本原理を知るといふ事は、独り私の医術のみに止まらないのであつて、将来に於ける世界の趨勢が、如何になりゆくやに就ても大に役立つであらう。<br><br> 之等一切を説示する事によつて、人間の生命、健康、病気等、数千年来、人類の知らんとして知り得なかつた神秘は、白日の下に曝け出さるるであらう。<br><br>そうして日本を主とする八紘為宇の道義的新世界が建設された暁、全世界の人類が王化に浴し、平和を共楽せんとするも、その健康にして全たからざるに於ては、何等意味も為さないであらう。<br><br>基督は言つた。<br><br>“爾（なんじ）、世界を得るとも、生命を失はば如何にせんや”―と、実に宜なりといふべきである。<br><br> 以上の意味に於て、私は健康の世界新秩序を創建すべき重大時期が来たのである事を信じて疑はないのである。<br><br>それは猶太人の創成した唯物的医学の旧秩序を以てしては、終に人類の生命は破滅に陥るより外はないからである。<br><br>ちょうど、自由主義国家群が、終に崩壊せざれば熄（や）まざらんとするそれのやうに！ 私は、自分の研究の成果を余す所なく説いたつもりである。<br><br>然し茲に断はつておきたい事は、私として西洋医学を誹謗する意志は些かも有たないつもりであつて、只だ是を是とし、非を非とする公正なる見解の下に批判したつもりであるが、或は読む人により西洋医学に対し、余りに非難に過ぎると思ふかもしれない事を懼るるのである。<br><br>又私の説にも幾多の誤謬があるかも知れないが、其点は充分御叱正（しっせい）を給はりたいのである。<br><br>従而、此著書の論旨は一個の学説として読まれん事である。<br><br>勿論有用な点があれば採り、無用と思惟する点を捨てればいいであらう。<br><br>唯だ私としては自分の知り得たと思ふ真実を発表する事―それは国家に裨益する処大なりと信じたからでそれ以外に他意はないのである。<br><br>そうして私の説が真理であるか非真理であるかは、時が判定してくれると思つてゐる。<br><br> 次に、此著書は非売としたのである。<br><br>それは如何なる訳かといふと、一般的に頒布するには、時期未だ尚早と思ふからである。<br><br>何となれば、現在の西洋医学によつて樹てられたる機構に対し、万一、何等かの影響を与へるとすれば、それは面白くないと思ふからである。<br><br>従而、私の此著書を国家社会が要求する時期の必ず来るべき事を信ずるが故に、其時の来るまで待つてゐるつもりである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Conclusão sobre os Erros da Medicina Moderna</h2>
 <p>Dissequei a medicina moderna sob todos os seus aspectos e, sem qualquer hesitação, apontei suas falácias e a submeti a uma crítica rigorosa. A conclusão a que chego, todavia, pode ser sintetizada nos seguintes pontos:</p>
@@ -123,5 +275,48 @@ function toggleLang(lang) {
 <p>Nesse sentido, não tenho a menor dúvida de que chegou o momento decisivo de se fundar uma nova ordem mundial da saúde. Isso porque, sob a velha ordem da medicina materialista, criada pelos judeus, o destino da humanidade não pode ser outro senão a ruína. É um processo semelhante ao colapso inevitável a que parecem fadadas as nações do bloco liberal.</p>
 <p>Procurei expor os resultados de minhas pesquisas de forma completa. Gostaria de esclarecer, no entanto, que não tenho a menor intenção de difamar a medicina ocidental. Busquei apenas criticá-la sob uma perspectiva justa, chamando o certo de certo e o errado de errado. Contudo, temo que alguns leitores possam achar minhas críticas excessivas. É possível, também, que minha teoria contenha diversos erros, e, nesse caso, ficaria grato se me apontassem as devidas correções. Assim sendo, peço que os argumentos deste livro sejam lidos como uma teoria acadêmica. Naturalmente, o leitor poderá adotar os pontos que julgar úteis e descartar aqueles que considerar irrelevantes. Meu único propósito foi publicar a verdade que acredito ter alcançado, por crer que ela trará grandes benefícios à nação. Não há nenhuma outra intenção. O tempo se encarregará de julgar se minha teoria é verdadeira ou não.</p>
 <p>Decidi que este livro não será comercializado. A razão é que julgo ser ainda cedo para sua ampla divulgação. Não seria positivo se ele causasse algum tipo de impacto na estrutura estabelecida pela medicina ocidental atual. Portanto, por acreditar que certamente chegará o tempo em que a nação e a sociedade demandarão esta obra, pretendo aguardar até que esse dia venha.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結論 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 私は、現代医学に対し、凡ゆる面から解剖し、忌憚なきまでにその誤謬を指摘し批判を加へたつもりである。<br/><br/>然し乍ら、帰する処その結論は左の如きものであらう。<br/><br/> 一、病気に対する医学の解釈が、浄化作用である事を知らなかつた事。<br/><br/> 二、従而、病気を悪化作用と解し、浄化作用停止を、病気治癒の方法と誤認した事。<br/><br/> 三、薬剤はすべて毒素であつて、その毒素が浄化作用を停止するのみならず、その残存薬毒が、病原になるといふ事を知らなかつた事。<br/><br/> 四、病気は浄化作用である以上、自然が最も良医であるといふ―彼のヒポクラテスの言を無視し、すべて人為的療法を可とした誤謬。<br/><br/> 五、医療は一時的効果を以て、永久的と誤解してゐる事。<br/><br/> 大体右の如きものであらう。<br/><br/>それに就て、右の内四までは詳説したから、読者は充分諒解されたであらうが、但だ五に対して大いに解説する必要があると思ふ。<br/><br/> 先づ医療としての凡ゆる方法は、一時的治癒であつて、それを真の治癒と錯覚してゐる事である。<br/><br/>而も一時的治癒の方法が、其後に到つて逆作用を起させ、病気悪化の原因となり余病発生の動機となるといふ事も知らなかつたのである。<br/><br/>之に対し種々の例によつて説明してみよう。<br/><br/> 曩に詳説した如く、薬剤や氷冷、湿布等を行へば、一時的苦痛が軽減するので、之によつて治癒すると思ふのである。<br/><br/>又耳鼻の洗滌等や点眼薬、コカインの鼻注、含漱薬、すべての塗布薬、膏薬等も勿論一時的苦痛軽減法である。<br/><br/>又解熱剤、利尿剤、下剤、睡眠剤、モヒ注射等も同様である。<br/><br/>又、歯に対する含漱薬は歯を弱らせるし、殺菌剤応用の歯磨は殊に悪いのである。<br/><br/>爰に面白いのは、歯科医が歯孔をセメント等にて充填（じゅうてん）する場合、殺菌剤にて消毒するが、之等も大いに間違がつてゐる。<br/><br/>何故なれば、充填後大抵は痛むものである。<br/><br/>それは殺菌剤が腐敗し、毒素となつて排除されようとする。<br/><br/>その為の痛みである。<br/><br/>故に充填の場合、全然殺菌剤も何も用ひない時は、決して痛みは起らないのである。<br/><br/>私は、歯科医に厳重にそうさせて以来、決して痛まないのが何よりの證拠である。<br/><br/>従而、歯科医が斯事を知つて薬剤を用ひないやうになれば人々は如何に助かるであらうかと、私は常に思つてゐるのである。<br/><br/> 又、仁丹なども少し位は差閊へないが、常用者になると害があるのである。<br/><br/>以前私は、仁丹中毒の患者を扱つた事がある。<br/><br/>此人は拾数年間、常に仁丹を口に入れてゐたので、最初来た時は顔面蒼白で痩せ細り、胃も相当悪るかつたが、其原因が仁丹にある事が判つたので、大いに驚いて廃止し、其後漸次健康を恢復したのである。<br/><br/> 次に、世人の気の付かない事に、薬湯の中毒がある。<br/><br/>それは元来風呂の湯は何等異物の入らない純粋の水が良いのである。<br/><br/>然るに、薬湯の如き異物が混入すると、その薬毒が皮膚から侵入し、一種の中毒となり、健康に害を与へるのである。<br/><br/>故に薬湯に頻繁に入る人は顔色が良くない事を発見するであらう。<br/><br/>そうして薬湯が温まるといふ事をよく謂ふが之は如何なる訳かといふと、微熱のある人は常に軽い悪寒があるから寒がりである。<br/><br/>然るに薬湯へ入ると、薬毒が皮膚から侵入するので、浄化作用が停止し、一時的微熱が無くなるから悪寒がなくなり、丁度温まるやうになるのである。<br/><br/>又温泉の湯花を入れるが、之等も温泉へ入るのとは違ふのである。<br/><br/>何となれば温泉は山の霊気が含まれてゐるから、それが身体に利くのであるが、湯花は霊気が無くなつた―いはば滓（かす）であるからである。<br/><br/>次に扁桃腺及び盲腸の手術は、曩に説いた如く、二三年の間は成績がいいが、其後に到つて悪い事や、又胃病に対し消化薬を服み、消化し易い食物を摂るに於て、漸次胃が弱るといふ事や疲労を恐れたり、睡眠不足を恐れるといふ事なども一時的を主とした誤りであり、栄養食も曩に述べた通りである。<br/><br/> 故に、何よりも私の理論の誤りでない事は幾多の事実によつて知る事を得るであらう。<br/><br/>彼の上流社会の子女や医家の子女等をみるがいい。<br/><br/>それ等の人々は、常に充分栄養を摂り、西洋医学的衛生を出来得るだけ実行してゐるに係はらず、何れも弱弱しく、大方は腺病質である事である。<br/><br/> 又医師の短命も近来著るしい現状である。<br/><br/>私は種々の博士の中、医学博士が一番短命ではないかと思ふのである。<br/><br/>之は誰かが統計を作つてみれば面白いと思ふのである。<br/><br/>少なくとも人の病気を治し、健康を増進させる役目である以上、何よりも自己自身が健康であり長命でなくてはならないし、又その家族の健康に於ても、医学的知識の少ない世間一般の人々よりも良くなければならない筈である。<br/><br/>そうでなければ医家としての真の資格は無いと言つても、敢て侮言ではなからうと思ふのである。<br/><br/>例へていへば如何に道徳を説くと雖も自己が実践出来なければ人を動かす事が出来ないのと同様である。<br/><br/>故に、今日の医学衛生の理論を最も信奉する人々がふえるに比例して、青白いインテリが増加するといふ事も、適切な実證であらう。<br/><br/> 以上によつて、私の創成した日本医術が如何なるものであるか、読者は大体諒解されたと思ふと共に、ここに最も重要なる事は、その治病力の如何に素晴しいかといふ事である。<br/><br/>私としては、事実ありのままを告白するとすれば、それは余りに自画自讃に陥らざるを得ないが、言はなければならないから敢て発表するのである。<br/><br/> 病気の根源は毒素である事、毒素とは膿汁又は毒血の凝結したものである事はいふ迄もない。<br/><br/>勿論西洋医学に於ても、その点は認めてゐるのであるが、但だ異なる点は、西洋医学に於ては、黴菌によつて毒素が増殖せられるといふに対し、私の方は、浄化作用によつて毒素が集溜するといふのである。<br/><br/>故に、西洋医学の伝染に対し、私の方では誘発と解し又、西洋医学に於ては、凡ゆる病気は、抵抗力薄弱によつて、外部から黴菌による毒素が侵入繁殖するといふに対し、私の方は、体内に於て集溜凝結した毒素が、浄化溶解作用によつて外部へ排泄される為といふのである。<br/><br/>故に、その療法原理に於ても、西洋医学に於ては、体内に毒素を固むるのを目的とし、私の方は毒素を溶解して、体外へ排泄するのを目的とする。<br/><br/>一は、固むるのを目的とし、一は溶かすのを目的とするのである。<br/><br/>従つて固むる結果は病原を残存させ、再発の因を作るのである。<br/><br/>之に反し溶かす結果は、病原を排除し、再発の因を無くする事である。<br/><br/> 右の如き、両々相反する理論は、何れが真理であるかを言を俟たずして明かであらう。<br/><br/>然し乍ら、私の右の理論に対して、特に専門家は曰ふであらう。<br/><br/>成程病気の根源は毒素であるが、その毒素を溶解排除するなどは、実際上不可能で、それは理想でしかない。<br/><br/>故に止むを得ず次善的方法として手術か又は固むるので、固め療法の発達したのも止むを得ないのであると、然るに、私が創成したこの日本医術は、毒素の溶解排除の方法に成功したのである。<br/><br/> 現代医学が如何に進歩せりと誇称するも、皮下に溜結せる毒素に対し、切開手術を行はなければ、膿一滴と雖も除去し得ないのである。<br/><br/>然るに私の方法によれば、外部から聊かの苦痛をも与へずして、如何なる深部と雖も自由に膿結を溶解排除する事が出来得るのである。<br/><br/>盲腸炎は一回の施術によつて治癒し、歯痛は外部からその場で痛みを去り、他の如何なる痛みと雖も数回の施術によつて無痛たらしめ得るのである。<br/><br/>肺結核も完全に治癒せしめ得、癌も解消せしめ得るのである。<br/><br/>其他疫痢も精神病も喘息も心臓病も痔瘻も医学上難治とされてゐる疾患のその殆んどは治癒せしめ得るのである。<br/><br/> ただ私の療法で困難と思ふのは、医療を加へ過ぎた患者である。<br/><br/>特に薬物多用者とレントゲンや深部電気、ラヂュウム等を幾十回も受用せられたものである。<br/><br/>又、種々の療法を受けた結果、衰弱甚だしい患者に於ては、病原を除去し終るまで生命を保てないので、斯様な場合は、不成績の止むを得ない事があるばかりである。<br/><br/> 故に、発病後速かに本療法を受ければ、その悉くは全治するといつても過言ではないのである。<br/><br/>従而、私の方では研究といふ言葉は無いのである。<br/><br/>何となれば、病原も明かであり、治癒も確定してゐるから、其必要がないからである。<br/><br/> そうして今一つ重要なる事は、私の医術は何人と雖も修練をすれば出来得るのである。<br/><br/>医学的知識のない者でも、男女年齢の如何を問はず出来得るのである。<br/><br/>而も修練期間は普通一個年位で、数人の医学博士が首を傾げた病気でも治癒するので、そのやうな例は無数にあるのである。<br/><br/>この寧ろ余りにも卓越した医術に驚歎せぬ者はあるまい。<br/><br/>私は、事実そのままを述べてゐるつもりであるが、或は誇張に過ぎると思はれはしないかと、それを心配する位である。<br/><br/> そうして何千年来、医学に於ける根本的誤謬に人類が何故気付かなかつたかに対し、読者は大いなる疑問を起すであらう。<br/><br/>それと共に、私のやうな医学的知識のない者が、如何にして、その誤謬を発見し得たかといふ事に対しても、同様の疑問を起さずにはゐられないであらう。<br/><br/> 右の二点を徹底的に説く事によつて、一切は闡明されるのである。<br/><br/>勿論それは、宇宙の実体から歴史の推移、文化の変転、霊と物質との関係、霊界の真相、人間生死一如の真諦にまでも及ばなくてはならないのである。<br/><br/> 特に今、全世界如何なる人種と雖も、圏外に立つ事を許されない―現に行はれつつある処の空前の大戦争、大禍乱で、誰もが言つてゐる処の世界の大転換である。<br/><br/>そうして此大転換の由つ起つた根本原理と、私の創成した日本医術との根本原理が、洵によく一致してゐるといふ事である、これ故に、此根本原理を知るといふ事は、独り私の医術のみに止まらないのであつて、将来に於ける世界の趨勢が、如何になりゆくやに就ても大に役立つであらう。<br/><br/> 之等一切を説示する事によつて、人間の生命、健康、病気等、数千年来、人類の知らんとして知り得なかつた神秘は、白日の下に曝け出さるるであらう。<br/><br/>そうして日本を主とする八紘為宇の道義的新世界が建設された暁、全世界の人類が王化に浴し、平和を共楽せんとするも、その健康にして全たからざるに於ては、何等意味も為さないであらう。<br/><br/>基督は言つた。<br/><br/>“爾（なんじ）、世界を得るとも、生命を失はば如何にせんや”―と、実に宜なりといふべきである。<br/><br/> 以上の意味に於て、私は健康の世界新秩序を創建すべき重大時期が来たのである事を信じて疑はないのである。<br/><br/>それは猶太人の創成した唯物的医学の旧秩序を以てしては、終に人類の生命は破滅に陥るより外はないからである。<br/><br/>ちょうど、自由主義国家群が、終に崩壊せざれば熄（や）まざらんとするそれのやうに！ 私は、自分の研究の成果を余す所なく説いたつもりである。<br/><br/>然し茲に断はつておきたい事は、私として西洋医学を誹謗する意志は些かも有たないつもりであつて、只だ是を是とし、非を非とする公正なる見解の下に批判したつもりであるが、或は読む人により西洋医学に対し、余りに非難に過ぎると思ふかもしれない事を懼るるのである。<br/><br/>又私の説にも幾多の誤謬があるかも知れないが、其点は充分御叱正（しっせい）を給はりたいのである。<br/><br/>従而、此著書の論旨は一個の学説として読まれん事である。<br/><br/>勿論有用な点があれば採り、無用と思惟する点を捨てればいいであらう。<br/><br/>唯だ私としては自分の知り得たと思ふ真実を発表する事―それは国家に裨益する処大なりと信じたからでそれ以外に他意はないのである。<br/><br/>そうして私の説が真理であるか非真理であるかは、時が判定してくれると思つてゐる。<br/><br/> 次に、此著書は非売としたのである。<br/><br/>それは如何なる訳かといふと、一般的に頒布するには、時期未だ尚早と思ふからである。<br/><br/>何となれば、現在の西洋医学によつて樹てられたる機構に対し、万一、何等かの影響を与へるとすれば、それは面白くないと思ふからである。<br/><br/>従而、私の此著書を国家社会が要求する時期の必ず来るべき事を信ずるが故に、其時の来るまで待つてゐるつもりである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

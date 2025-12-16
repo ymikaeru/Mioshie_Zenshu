@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>M260805</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御教え （S26年8月5日） 『御教え集』1号、昭和26(1951)年9月20日発行 昭和二十六年八月五日 （本日に限り速記によらず） （お伺）私の妻杉山かめ（六一歳）は娘の時分より常に腹痛に悩んでおり、特に月経も少なく下腹部の疼痛がございました。<br><br>三十七歳の時胃腸病にて八十日ほど絶食し、生命危篤にまで及んだこともございました。<br><br>四十六歳ごろより慢性腹膜炎となり入信前まで煎じ薬を常用してまいりました。<br><br> 二十四年一月私が入信いたし以来御浄霊を続けてまいりました。<br><br> 二十五年八月四日、五日と排尿不能、意識不明となり全身はむくみ、腹部は臨月大となりましたが、御守護をいただき、六日にはたくさん排尿あり、八日には起きられるようになりました。<br><br>本年二月本人が入信させていただき、五月十五日熱海に御参詣後浄化が強くなり、全身むくみ排尿も少量となりました。<br><br>六月始めより教会の先生にお願いいたしましてから排尿も楽になり、全身のむくみも減退いたしましたが、腹部はなお臨月大の状態でございます。<br><br>この状態にもかかわらずどんな食物でも非常においしいと言い、特に魚肉を欲します。<br><br>食べすぎると排尿も減じ悪化いたしますので毎食軽く一膳くらいいただいております。<br><br> 脈拍は常時三十ないし四十くらいでございますが、昼間は床の上に坐っておられます。<br><br>また四十歳前から両眼の視力が減じ現在ほとんど失明しております。<br><br>一家は私および嫁も入信させていただき御神体、御屏風観音様も御奉斎させていただいております。<br><br>霊的関係といたしましては杉山家は四代続いて嫡子がなく、私も妻も両養子でございます。<br><br> 妻の実父は腹膜炎にて死亡、実母は汽車に飛び込み自殺しており、養父は電車にて轢死しております。<br><br> 昭和十四年九月十九日、座敷内にて知人が痴情関係で殺害されました（現在無縁仏としてお祀りしてございます）。<br><br> なお二十四年十一月十一日には放火に会い、御守護により天井を焼いたのみにて鎮火いたしました。<br><br> 息子（養子）は現在外地（シベリア）より帰還いたしておりません。<br><br> 右の御浄化はいかなる原因でございましょうか。<br><br>御浄霊の急所につき御教え賜りたくお願い申し上げます。<br><br> 〔御垂示〕 急所もへったくれもない。<br><br>薬毒です。<br><br>随分入っているな。<br><br>漢方薬ですね。<br><br>このためです。<br><br>ほかになにもありはしない。<br><br>漢方薬で生命を落とした人は随分ある。<br><br>強いて急所と言えば腎臓ですね。<br><br> （お伺）私の夫（岡崎照道30歳）は昭和二十四年四月発病（肺尖）陸軍病院にて療養、その後家事の手伝いをいたしておりました。<br><br>昭和二十二年十二月喀血いたしましたが、翌年九月より約一年ほど明石師範学校に勤めておりました。<br><br>身体の調子が変わってきましたので郷里にて養生するよう勧められ、三日おきにカルシウム、ビタミン注射を約四カ月間続け、その後マイシン二十本を打ちましたところ身体も少し良くなり、農業の手伝いをいたしておりました。<br><br>二十五年四月に胃痙攣を起し、その際麻薬を二本打ってから動けなくなり、絶対安静半カ年、その後二十六年四月までにパス七箱を服みましたがどうにもならず、手術をする決心をして、レントゲンを取りに早島療養所に行きましたら、左肺は鶏卵大の空洞と肺全体が悪くなっており右肺は少し悪いらしいとのことで、手術は不可能とのこと、本人も死を覚悟していましたところ、本年四月中旬このお道を知らしていただき御浄霊を受けましたところ、たいへん気分も良く食事もおいしくなり、十日ほどしてぼつぼつ散歩もできるようになりましたので、約七里ほど離れたＢ町の教会へ汽車にてお参りさせていただき、先生の御浄霊も受けその後十日ほどしてたいへん良くなり、さっそく主人もまた私も入信、続いて母（義母）も入信、六月十日光明如来様も御奉斎さしていただき、ともにお道のため御用をさしていただいております。<br><br>本人も身体の調子が良いので近所のお方など毎日五、六人ほど御浄霊さしていただき、私もともにお手伝いをして今日までに五人お導きさしていただき微力ながら御用をさしていただいております。<br><br>その間四日おきくらいに教会へお参りさせていただき今日に至っております。<br><br> 最近の病状は足が痺れて少しむくみ気味で、甲も少し腫れているのと食事が以前よりは進まず、少し多く食べますと腹がはり、時々背中を引き締めるようで、だるいような状況でありますが、本人もいまは少し暑いからとも申しております。<br><br>私が御浄霊をさしていただきますと楽になり、またひどくなるというわけでございますが、本人の気持ちはたいへんしっかりしてはおります。<br><br>現在では寝たり起きたりしております。<br><br>今後どのようにいたしましたらお救いいただけましょうや御教示お願い申します。<br><br>なお叔母が三十年前肺結核、母が二十五年前腸結核で死亡しております。<br><br> 〔御垂示〕 ふつうの順序です。<br><br>一回良くなって、そのまま治るように見えて、再度薬毒の浄化が起る。<br><br>これはちょっと簡単には行かない。<br><br>長くかかる。<br><br>一週間に二度くらい浄霊する方がかえって良い。<br><br>浄化が強いと衰弱でやられてしまう。<br><br>肺病は薬毒しだいです。<br><br>日の経たない人はみんな治る。<br><br>こういう場合、急所がありますから、どこから熱が出るかを探り当て、そこだけを浄霊するようにする。<br><br>そして、次々に熱の出る箇所を順序よくやって行けば治って行きます。<br><br>右か左の頸、延髄、頭、腎臓、足の付け根から股などが大体急所です。<br><br> （お伺）私の娘（美智子24才）昭和二十四年九月、急に発熱、頭痛のため医師の診断を受けましたところ、乾性肋膜炎と診断され、それより一週間後診断を受けましたところ、今度は肺結核と診断。<br><br>絶対安静をするように申され昭和二十年十月まで一日おきくらいに、カルシウムおよびブドウ糖の注射を二十六年七月まで受けておりましたが、経過は弱るばかりで、その後医師の勧めによりマイシン二十本とパス六箱服用いたしておりました。<br><br>その間ほとんど絶対安静をいたしておりましたが七月上旬、このお道を知り御浄霊を受けましたところ、たいへん気持ちもよくなり起き上がって散歩もできる程度まで良くなりましたので、さっそく同月十八日私が入信さしていただき御浄霊をさしていただいております。<br><br>その間Ｂ町の教会へもお参りさせていただき、また教師の先生にも約一週間ほど出張して御浄霊を受けましたため、たいへん元気になり嬉（よろこ）んでおりましたが、最近暑いためか身体がだるく食事も以前よりはあまり進まず、また塩気のものなどは咽喉にしみ、たいへん気持ちが悪いと申しております。<br><br>御浄霊の箇所および今後どのようにいたしましたらお救いいただけましょうや御教示お願い申し上げます。<br><br> 〔御垂示〕 前と同じです。<br><br>喉にしみるのは薬毒が喉に出てきたのです。<br><br>今言ったやり方でよろしい。<br><br>喉にしみるのはあまりおもしろくない。<br><br>たんと衰弱していないようですから治るでしょう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Veneno dos Remédios e o Processo de Purificação</h2>
 <p><strong>Ensinamento de 5 de agosto de 1951</strong>
@@ -115,5 +267,48 @@ function toggleLang(lang) {
 <p>Durante todo esse tempo, ela permaneceu em repouso quase absoluto. No início de julho, conhecemos este caminho e ela começou a receber Johrei. Sentiu-se muito melhor, a ponto de conseguir se levantar e caminhar. Diante disso, ingressei na fé no dia 18 do mesmo mês e passei a ministrar-lhe Johrei. Ela também frequentou a Igreja da cidade B e recebeu Johrei de um ministro que veio à nossa casa por uma semana. Com isso, ficou muito disposta e feliz.</p>
 <p>Recentemente, porém, talvez por causa do calor, ela se sente indisposta, o apetite diminuiu e reclama que alimentos salgados ardem em sua garganta, causando-lhe grande desconforto. Rogo que nos oriente sobre os locais de Johrei e sobre como proceder para que ela possa ser salva.</p>
 <p><strong>Orientação:</strong> O procedimento é o mesmo do caso anterior. A ardência na garganta é sinal de que o veneno dos remédios está sendo expelido por essa via. Basta seguir o método que acabei de descrever. Essa sensação na garganta é um sintoma delicado. Contudo, como ela não parece estar excessivamente debilitada, deverá se curar.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御教え （S26年8月5日） 『御教え集』1号、昭和26(1951)年9月20日発行 昭和二十六年八月五日 （本日に限り速記によらず） （お伺）私の妻杉山かめ（六一歳）は娘の時分より常に腹痛に悩んでおり、特に月経も少なく下腹部の疼痛がございました。<br/><br/>三十七歳の時胃腸病にて八十日ほど絶食し、生命危篤にまで及んだこともございました。<br/><br/>四十六歳ごろより慢性腹膜炎となり入信前まで煎じ薬を常用してまいりました。<br/><br/> 二十四年一月私が入信いたし以来御浄霊を続けてまいりました。<br/><br/> 二十五年八月四日、五日と排尿不能、意識不明となり全身はむくみ、腹部は臨月大となりましたが、御守護をいただき、六日にはたくさん排尿あり、八日には起きられるようになりました。<br/><br/>本年二月本人が入信させていただき、五月十五日熱海に御参詣後浄化が強くなり、全身むくみ排尿も少量となりました。<br/><br/>六月始めより教会の先生にお願いいたしましてから排尿も楽になり、全身のむくみも減退いたしましたが、腹部はなお臨月大の状態でございます。<br/><br/>この状態にもかかわらずどんな食物でも非常においしいと言い、特に魚肉を欲します。<br/><br/>食べすぎると排尿も減じ悪化いたしますので毎食軽く一膳くらいいただいております。<br/><br/> 脈拍は常時三十ないし四十くらいでございますが、昼間は床の上に坐っておられます。<br/><br/>また四十歳前から両眼の視力が減じ現在ほとんど失明しております。<br/><br/>一家は私および嫁も入信させていただき御神体、御屏風観音様も御奉斎させていただいております。<br/><br/>霊的関係といたしましては杉山家は四代続いて嫡子がなく、私も妻も両養子でございます。<br/><br/> 妻の実父は腹膜炎にて死亡、実母は汽車に飛び込み自殺しており、養父は電車にて轢死しております。<br/><br/> 昭和十四年九月十九日、座敷内にて知人が痴情関係で殺害されました（現在無縁仏としてお祀りしてございます）。<br/><br/> なお二十四年十一月十一日には放火に会い、御守護により天井を焼いたのみにて鎮火いたしました。<br/><br/> 息子（養子）は現在外地（シベリア）より帰還いたしておりません。<br/><br/> 右の御浄化はいかなる原因でございましょうか。<br/><br/>御浄霊の急所につき御教え賜りたくお願い申し上げます。<br/><br/> 〔御垂示〕 急所もへったくれもない。<br/><br/>薬毒です。<br/><br/>随分入っているな。<br/><br/>漢方薬ですね。<br/><br/>このためです。<br/><br/>ほかになにもありはしない。<br/><br/>漢方薬で生命を落とした人は随分ある。<br/><br/>強いて急所と言えば腎臓ですね。<br/><br/> （お伺）私の夫（岡崎照道30歳）は昭和二十四年四月発病（肺尖）陸軍病院にて療養、その後家事の手伝いをいたしておりました。<br/><br/>昭和二十二年十二月喀血いたしましたが、翌年九月より約一年ほど明石師範学校に勤めておりました。<br/><br/>身体の調子が変わってきましたので郷里にて養生するよう勧められ、三日おきにカルシウム、ビタミン注射を約四カ月間続け、その後マイシン二十本を打ちましたところ身体も少し良くなり、農業の手伝いをいたしておりました。<br/><br/>二十五年四月に胃痙攣を起し、その際麻薬を二本打ってから動けなくなり、絶対安静半カ年、その後二十六年四月までにパス七箱を服みましたがどうにもならず、手術をする決心をして、レントゲンを取りに早島療養所に行きましたら、左肺は鶏卵大の空洞と肺全体が悪くなっており右肺は少し悪いらしいとのことで、手術は不可能とのこと、本人も死を覚悟していましたところ、本年四月中旬このお道を知らしていただき御浄霊を受けましたところ、たいへん気分も良く食事もおいしくなり、十日ほどしてぼつぼつ散歩もできるようになりましたので、約七里ほど離れたＢ町の教会へ汽車にてお参りさせていただき、先生の御浄霊も受けその後十日ほどしてたいへん良くなり、さっそく主人もまた私も入信、続いて母（義母）も入信、六月十日光明如来様も御奉斎さしていただき、ともにお道のため御用をさしていただいております。<br/><br/>本人も身体の調子が良いので近所のお方など毎日五、六人ほど御浄霊さしていただき、私もともにお手伝いをして今日までに五人お導きさしていただき微力ながら御用をさしていただいております。<br/><br/>その間四日おきくらいに教会へお参りさせていただき今日に至っております。<br/><br/> 最近の病状は足が痺れて少しむくみ気味で、甲も少し腫れているのと食事が以前よりは進まず、少し多く食べますと腹がはり、時々背中を引き締めるようで、だるいような状況でありますが、本人もいまは少し暑いからとも申しております。<br/><br/>私が御浄霊をさしていただきますと楽になり、またひどくなるというわけでございますが、本人の気持ちはたいへんしっかりしてはおります。<br/><br/>現在では寝たり起きたりしております。<br/><br/>今後どのようにいたしましたらお救いいただけましょうや御教示お願い申します。<br/><br/>なお叔母が三十年前肺結核、母が二十五年前腸結核で死亡しております。<br/><br/> 〔御垂示〕 ふつうの順序です。<br/><br/>一回良くなって、そのまま治るように見えて、再度薬毒の浄化が起る。<br/><br/>これはちょっと簡単には行かない。<br/><br/>長くかかる。<br/><br/>一週間に二度くらい浄霊する方がかえって良い。<br/><br/>浄化が強いと衰弱でやられてしまう。<br/><br/>肺病は薬毒しだいです。<br/><br/>日の経たない人はみんな治る。<br/><br/>こういう場合、急所がありますから、どこから熱が出るかを探り当て、そこだけを浄霊するようにする。<br/><br/>そして、次々に熱の出る箇所を順序よくやって行けば治って行きます。<br/><br/>右か左の頸、延髄、頭、腎臓、足の付け根から股などが大体急所です。<br/><br/> （お伺）私の娘（美智子24才）昭和二十四年九月、急に発熱、頭痛のため医師の診断を受けましたところ、乾性肋膜炎と診断され、それより一週間後診断を受けましたところ、今度は肺結核と診断。<br/><br/>絶対安静をするように申され昭和二十年十月まで一日おきくらいに、カルシウムおよびブドウ糖の注射を二十六年七月まで受けておりましたが、経過は弱るばかりで、その後医師の勧めによりマイシン二十本とパス六箱服用いたしておりました。<br/><br/>その間ほとんど絶対安静をいたしておりましたが七月上旬、このお道を知り御浄霊を受けましたところ、たいへん気持ちもよくなり起き上がって散歩もできる程度まで良くなりましたので、さっそく同月十八日私が入信さしていただき御浄霊をさしていただいております。<br/><br/>その間Ｂ町の教会へもお参りさせていただき、また教師の先生にも約一週間ほど出張して御浄霊を受けましたため、たいへん元気になり嬉（よろこ）んでおりましたが、最近暑いためか身体がだるく食事も以前よりはあまり進まず、また塩気のものなどは咽喉にしみ、たいへん気持ちが悪いと申しております。<br/><br/>御浄霊の箇所および今後どのようにいたしましたらお救いいただけましょうや御教示お願い申し上げます。<br/><br/> 〔御垂示〕 前と同じです。<br/><br/>喉にしみるのは薬毒が喉に出てきたのです。<br/><br/>今言ったやり方でよろしい。<br/><br/>喉にしみるのはあまりおもしろくない。<br/><br/>たんと衰弱していないようですから治るでしょう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

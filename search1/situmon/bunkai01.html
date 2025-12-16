@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>bunkai01</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ご存じですか 実生分会『実生分会ニュース』11月創刊号、昭和23(1948)年12月10日発行 御仏壇の扉は夜昼ともに開けて置かなければなりません。<br><br> 御仏飯は一個だけお供えすべきものです。<br><br>二個あるいは数個お供えする方がありますが無意味です。<br><br>一個山盛りにしてお供えすべきです。<br><br> お花は数種取りまぜて賑やかにおかざりいたしましょう。<br><br>天国は「万華馥郁地に薫じ」とあります。<br><br>その型です。<br><br>上等な花一種よりどんな花でも取りまぜてお供えすべきです。<br><br>ただしバラやアザミのような、とげのある花はいけません。<br><br> 煙草やお酒もお供えすべきです。<br><br>煙草は一本にマッチ函（ばこ）を添えてお供えすればよいのです。<br><br> ――お葬式の参列の帰りに用達やお墓詣りしてはいけないとよく言われますがなぜでしょうか。<br><br> それは結婚や葬式は人生の最も大切な行事です。<br><br>それですのにお葬式のついでに、こうしたことをするのは死者に対して礼を失することになります。<br><br>慎みましょう。<br><br> ――変死した人の傍へ近親者が近づくとよく鼻血を出すことがありますがなぜでしょうか。<br><br> それは霊線を伝わって熱が行くから凝血が溶けるのです。<br><br>霊線ということについては、いずれ教修会や座談会でご説明する機会があると存じますが、夫婦の霊線が一番太く、親子、兄弟、親戚、知己などとだんだん細くなっています。<br><br> ――轢死溺死者などの変死者の霊は地縛の霊と言って、相当の期間その死の場所から遠くはなれることができず淋しがって、ほかの霊を招く。<br><br>これが魔の踏切とか魔の渕とか言われるゆえんであることはご存じのことと思います。<br><br>そして、お仏壇にその人の位牌に祀り供養する場合は霊はその位牌に来れるでしょうか。<br><br> 来れません。<br><br>しかしお祀りする人々の想念によってその霊に伝達し、その功徳で霊は浄まり地縛の期間が短縮されます。<br><br>よく供養をなすべきです。<br><br> 浄霊をお受けになる方で付近まで用達に来たついでに教導所に立ち寄って御浄霊を受けることはいけません。<br><br>それは主客転倒、神様に対して失礼になるわけで充分なお蔭がいただけません。<br><br>さきに御浄霊を受けてから御用達をなさいませ。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Orientações sobre o Culto aos Antepassados e a Postura na Fé</h2>
 <p>As portas do Oratório dos Antepassados devem permanecer abertas dia e noite.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Os espíritos de pessoas que sofreram mortes trágicas, como atropelamentos ou afogamentos, são chamados de espíritos presos à terra. Por um período considerável, eles não conseguem se afastar do local onde faleceram e, sentindo-se solitários, acabam por atrair outros espíritos. Eis a origem do que se conhece por “cruzamentos amaldiçoados” ou “poços assombrados”. Surge, então, a dúvida: se um tablete espiritual em memória dessa pessoa for consagrado no oratório, o espírito poderá se manifestar ali?</p>
 <p>A resposta é não, ele não pode. Todavia, os pensamentos e sentimentos daqueles que oficiam os sufrágios são transmitidos ao espírito. Por meio desse mérito, ele é purificado, e o tempo de seu aprisionamento à terra é abreviado. Portanto, é fundamental que os sufrágios sejam oficiados com esmero e sinceridade.</p>
 <p>Por fim, aquele que se dirige à Unidade Religiosa para receber Johrei não deve fazê-lo como quem aproveita a vinda à vizinhança para resolver outras tarefas. Tal atitude representa uma inversão entre o que é principal e o que é secundário, constituindo uma irreverência para com Deus, o que impede o recebimento da plena Graça Divina. Primeiro, deve-se receber Johrei; somente depois, devem-se realizar as demais atividades.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ご存じですか 実生分会『実生分会ニュース』11月創刊号、昭和23(1948)年12月10日発行 御仏壇の扉は夜昼ともに開けて置かなければなりません。<br/><br/> 御仏飯は一個だけお供えすべきものです。<br/><br/>二個あるいは数個お供えする方がありますが無意味です。<br/><br/>一個山盛りにしてお供えすべきです。<br/><br/> お花は数種取りまぜて賑やかにおかざりいたしましょう。<br/><br/>天国は「万華馥郁地に薫じ」とあります。<br/><br/>その型です。<br/><br/>上等な花一種よりどんな花でも取りまぜてお供えすべきです。<br/><br/>ただしバラやアザミのような、とげのある花はいけません。<br/><br/> 煙草やお酒もお供えすべきです。<br/><br/>煙草は一本にマッチ函（ばこ）を添えてお供えすればよいのです。<br/><br/> ――お葬式の参列の帰りに用達やお墓詣りしてはいけないとよく言われますがなぜでしょうか。<br/><br/> それは結婚や葬式は人生の最も大切な行事です。<br/><br/>それですのにお葬式のついでに、こうしたことをするのは死者に対して礼を失することになります。<br/><br/>慎みましょう。<br/><br/> ――変死した人の傍へ近親者が近づくとよく鼻血を出すことがありますがなぜでしょうか。<br/><br/> それは霊線を伝わって熱が行くから凝血が溶けるのです。<br/><br/>霊線ということについては、いずれ教修会や座談会でご説明する機会があると存じますが、夫婦の霊線が一番太く、親子、兄弟、親戚、知己などとだんだん細くなっています。<br/><br/> ――轢死溺死者などの変死者の霊は地縛の霊と言って、相当の期間その死の場所から遠くはなれることができず淋しがって、ほかの霊を招く。<br/><br/>これが魔の踏切とか魔の渕とか言われるゆえんであることはご存じのことと思います。<br/><br/>そして、お仏壇にその人の位牌に祀り供養する場合は霊はその位牌に来れるでしょうか。<br/><br/> 来れません。<br/><br/>しかしお祀りする人々の想念によってその霊に伝達し、その功徳で霊は浄まり地縛の期間が短縮されます。<br/><br/>よく供養をなすべきです。<br/><br/> 浄霊をお受けになる方で付近まで用達に来たついでに教導所に立ち寄って御浄霊を受けることはいけません。<br/><br/>それは主客転倒、神様に対して失礼になるわけで充分なお蔭がいただけません。<br/><br/>さきに御浄霊を受けてから御用達をなさいませ。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

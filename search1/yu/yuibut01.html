@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>yuibut01</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 唯物医学と宗教医学 未発表『文明の創造』昭和27(1952)年執筆 私は、これまで現代医学すなわち唯物医学の誤謬と宗教医学の透徹した原理を書いてきたが、これを読んだ人で、既成医学に囚われていない限り、おそらく理解できない人はあるまい。<br><br>そうして医学本来の目的は、人間の病気を完全に治し、真の健康体を作るにあるとしたら、それが現実に現れなくてはならない事である。<br><br>今更言うまでもないが、真の健康体とは、一生涯病気の心配から開放される事であって、そう言う人間が増えるとしたら、ここに人類の理想である病なき世界が実現するのである。<br><br> 従ってその理想に一歩一歩接近され得る医学こそ真の医学である。<br><br>右によって今まで私が説いて来たところの、事実を根拠としての理論を精読玩味すれば、何人も首肯されないはずはないのであるから、この宗教医学こそ、真の医学でなくてなんであろう。<br><br>この意味において一日も早くこの医学を世界人類に知らせその恩恵に浴せしむべきではあるまいか。<br><br>しかも本宗教医学は、一人人間の肉体のみを健康にするばかりでなく、あわせて精神をも健全にするものである以上、今日最も人類の悩みとされている貧困も、恐怖の的である戦争も、必ず解決できるのである。<br><br>従ってこれこそ言語に絶するほどの、偉大なる福音である事は言うまでもない。<br><br>それについて最も困難な問題があるのは、何しろ何世紀の長きにわたって、根強く植え付けられて来た現在の唯物医学であって、人類ことごとくはこれに幻惑され、無批判的に信じ切ってしまっていて、ほとんど信仰的と言ってもいいくらいになっている。<br><br>専門家はもとより、一般人の頭脳もそうである以上、生やさしい方法では、到底目覚めさせる事は不可能である。<br><br>これが吾々に課せられたる一大難事業であって普通なれば不可能に近いとさえ言えよう。<br><br>さらばと言ってこのままにしておいたなら、人間の苦悩は益々深まり、ついには文化民族没落と言う運命にまで及ぶか分からないのである。<br><br>としたら何がなんでも一日も早く、世界人類に知らせなければならないのである。<br><br>その結果一般人が分かったとしたら、ここに世界的一大センセーションを巻き起こすと共に、唯物医学の大革命となるであろう。<br><br>実に有史以来これほど大きな革命は、いまだかつてなかったであろうが、この事は戦争よりも、比較にならない程の重大な問題である。<br><br> なんとなれば戦争は、よしんば第三次戦争が起こったとしても限られたる時と、限られたる地域で済むからである。<br><br>ところが医学のそれに至っては、永遠に全人類に関する問題である事である。<br><br> 以上のごとく、何人も夢想だも出来なかったところの、病なき世界が実現するとしたら、一体人間の寿齢はどうなるであろうか。<br><br>言うまでもなく、百歳以上は可能となり、ここに人類の理想は実現するのである。<br><br>しかし歴史以前は分かりようがないが、歴史に現れているだけでも、一般人が百歳以上の寿齢を保った記録はいまだかつて見当たらないのである。<br><br>というのは災害は別として、ほとんどは病のために倒れるからで、人間病で死ぬと言うことは、決して常態ではなく、変態なのである。<br><br>もちろん病で死ぬと言うことは、自然死ではなく、不自然死であって、もし病なき人間となれば、ことごとく自然死となるから、百歳以上は、何ら不思議はないのである。<br><br> そこでまだ言い足りない事がある。<br><br>さきに述べたごとく、病気の原因は霊の曇りが根本で、曇りの発生源は、人間の罪と薬毒の二つであるばかりではなく、実はこのほかに今一つの重要な原因がある。<br><br>それは農作物に施す肥料であって、原始時代は知らないが、相当古い時代から使っていたことは想像できる。<br><br>日本においては糞尿と近来使い始めた化学肥料とであり、外国においても化学肥料とその以前にも何らかの肥料を用いたに違いあるまい。<br><br>元来人造肥料なるものは、人体にいかに有害であるかは、今日まで全然分からなかった。<br><br>というのは肥料は農作物が一旦吸収してしまえば、全部有効に働き、何ら副作用はないと思いこんできた事である。<br><br>ちょうど人類における薬と同様、効果のみで余毒など残らないものと思ったのと同様である。<br><br>ところが私は神示によって発見した事は、なるほど実になるまでに毒分は相当減るには減るが、絶無とはならないのである。<br><br>これについては最近米国の有力な酪農会社社長ロデール氏が、長年の経験によってその結果を発表したところによると、化学肥料で栽培した草で、家畜を育てると健康も悪く、乳も不良であるに反し、堆肥のみで作った草で育てると非常に健康で、乳も優良である事が分かったので、この発見を熱心に宣伝したため、近来各方面にようやく認めらるるに至り、米政府もこれを支援する事となったというのである。<br><br>また各学者の研究も、実際家の実験もこれに符合したため、ようやく社会輿論とさえなってきたという事が、最近の米国の専門雑誌に出ており、ついで同氏は人間の病気も、化学薬剤を用いるようになってから、悪性な病気が増えたと唱えている。<br><br>しかし右の二つとも、私は二十年以前から唱えてきたが、日本は米国と違い、新しい説は識者は見向きもしない傾向があり、しかも私が宗教かなるがゆえに、テンデ見向きもせず迷信視されて来たのである。<br><br>もちろんこういう観方がいかに文化の進歩を妨げているかは、よくいわれるところである。<br><br> 以上によって分かったであろうが、とにかく、罪と薬剤と人造肥料とのこの三つが病気の根本であるとしたら、この三つの害を除く事こそ、人類救済の第一義であらなければならない。<br><br>ところが薬剤と肥料とは、今日ただ今からでも廃止する事が出来るが、最も至難であるのは罪の問題である。<br><br>これだけはどうしても宗教によらなければ、解決できないのはもちろんである。<br><br>と言ってもこれが実現の可能性のある宗教は、今日まず見当たらないと言っても良かろう。<br><br>ところがこの条件にかなう宗教こそ、わがメシヤ教であるとしたら私の責任も重かつ大なるものである。<br><br>この意味において私はまずこの著によって、全世界の有識者に向かって警鐘を鳴らすゆえんである。<br><br>それについて前もって一つの重大なる一時を知らせなければならないので、それをこれから書いてみよう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Equívoco da Medicina Materialista e a Verdadeira Medicina</h2>
 <p>Até o presente momento, tenho discorrido sobre os equívocos da medicina moderna — a medicina materialista — e sobre os princípios translúcidos da medicina religiosa. Qualquer pessoa que leia estas palavras, contanto que não esteja aprisionada aos dogmas da medicina convencional, será capaz de compreendê-los. Ademais, se o propósito fundamental da medicina consiste em curar por completo as enfermidades humanas e forjar corpos verdadeiramente sadios, é imperativo que tal propósito se manifeste na realidade.</p>
@@ -104,5 +256,48 @@ function toggleLang(lang) {
 <p>Venho afirmando ambas as coisas há mais de vinte anos. O Japão, todavia, ao contrário dos Estados Unidos, possui uma tendência em que os intelectuais ignoram novas teorias. Pelo fato de eu ser um religioso, minhas palavras foram completamente desconsideradas e vistas como mera superstição. É notório o quanto essa mentalidade obstrui o progresso da civilização.</p>
 <p>Como se pode depreender do que foi exposto, se o pecado, os medicamentos e os fertilizantes artificiais constituem a tríade que origina as doenças, a primeira e mais essencial medida para a salvação da humanidade deve ser a erradicação desses três males. Embora possamos abolir o uso de medicamentos e fertilizantes a partir de hoje, o problema mais complexo é, sem dúvida, a questão do pecado. Esta, evidentemente, só pode ser solucionada por meio da religião.</p>
 <p>Entretanto, seria justo afirmar que, na atualidade, não se vislumbra uma religião com o potencial para realizar tal feito. Ora, se a religião que preenche todos esses requisitos é a nossa, a Igreja Messiânica, então a minha responsabilidade é imensa e de grande peso. É nesse sentido que, por meio desta obra, faço soar um alarme para os intelectuais de todo o mundo. Antes de prosseguir, porém, devo informar-lhes sobre um assunto de suma importância, o qual passarei a expor a seguir.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 唯物医学と宗教医学 未発表『文明の創造』昭和27(1952)年執筆 私は、これまで現代医学すなわち唯物医学の誤謬と宗教医学の透徹した原理を書いてきたが、これを読んだ人で、既成医学に囚われていない限り、おそらく理解できない人はあるまい。<br/><br/>そうして医学本来の目的は、人間の病気を完全に治し、真の健康体を作るにあるとしたら、それが現実に現れなくてはならない事である。<br/><br/>今更言うまでもないが、真の健康体とは、一生涯病気の心配から開放される事であって、そう言う人間が増えるとしたら、ここに人類の理想である病なき世界が実現するのである。<br/><br/> 従ってその理想に一歩一歩接近され得る医学こそ真の医学である。<br/><br/>右によって今まで私が説いて来たところの、事実を根拠としての理論を精読玩味すれば、何人も首肯されないはずはないのであるから、この宗教医学こそ、真の医学でなくてなんであろう。<br/><br/>この意味において一日も早くこの医学を世界人類に知らせその恩恵に浴せしむべきではあるまいか。<br/><br/>しかも本宗教医学は、一人人間の肉体のみを健康にするばかりでなく、あわせて精神をも健全にするものである以上、今日最も人類の悩みとされている貧困も、恐怖の的である戦争も、必ず解決できるのである。<br/><br/>従ってこれこそ言語に絶するほどの、偉大なる福音である事は言うまでもない。<br/><br/>それについて最も困難な問題があるのは、何しろ何世紀の長きにわたって、根強く植え付けられて来た現在の唯物医学であって、人類ことごとくはこれに幻惑され、無批判的に信じ切ってしまっていて、ほとんど信仰的と言ってもいいくらいになっている。<br/><br/>専門家はもとより、一般人の頭脳もそうである以上、生やさしい方法では、到底目覚めさせる事は不可能である。<br/><br/>これが吾々に課せられたる一大難事業であって普通なれば不可能に近いとさえ言えよう。<br/><br/>さらばと言ってこのままにしておいたなら、人間の苦悩は益々深まり、ついには文化民族没落と言う運命にまで及ぶか分からないのである。<br/><br/>としたら何がなんでも一日も早く、世界人類に知らせなければならないのである。<br/><br/>その結果一般人が分かったとしたら、ここに世界的一大センセーションを巻き起こすと共に、唯物医学の大革命となるであろう。<br/><br/>実に有史以来これほど大きな革命は、いまだかつてなかったであろうが、この事は戦争よりも、比較にならない程の重大な問題である。<br/><br/> なんとなれば戦争は、よしんば第三次戦争が起こったとしても限られたる時と、限られたる地域で済むからである。<br/><br/>ところが医学のそれに至っては、永遠に全人類に関する問題である事である。<br/><br/> 以上のごとく、何人も夢想だも出来なかったところの、病なき世界が実現するとしたら、一体人間の寿齢はどうなるであろうか。<br/><br/>言うまでもなく、百歳以上は可能となり、ここに人類の理想は実現するのである。<br/><br/>しかし歴史以前は分かりようがないが、歴史に現れているだけでも、一般人が百歳以上の寿齢を保った記録はいまだかつて見当たらないのである。<br/><br/>というのは災害は別として、ほとんどは病のために倒れるからで、人間病で死ぬと言うことは、決して常態ではなく、変態なのである。<br/><br/>もちろん病で死ぬと言うことは、自然死ではなく、不自然死であって、もし病なき人間となれば、ことごとく自然死となるから、百歳以上は、何ら不思議はないのである。<br/><br/> そこでまだ言い足りない事がある。<br/><br/>さきに述べたごとく、病気の原因は霊の曇りが根本で、曇りの発生源は、人間の罪と薬毒の二つであるばかりではなく、実はこのほかに今一つの重要な原因がある。<br/><br/>それは農作物に施す肥料であって、原始時代は知らないが、相当古い時代から使っていたことは想像できる。<br/><br/>日本においては糞尿と近来使い始めた化学肥料とであり、外国においても化学肥料とその以前にも何らかの肥料を用いたに違いあるまい。<br/><br/>元来人造肥料なるものは、人体にいかに有害であるかは、今日まで全然分からなかった。<br/><br/>というのは肥料は農作物が一旦吸収してしまえば、全部有効に働き、何ら副作用はないと思いこんできた事である。<br/><br/>ちょうど人類における薬と同様、効果のみで余毒など残らないものと思ったのと同様である。<br/><br/>ところが私は神示によって発見した事は、なるほど実になるまでに毒分は相当減るには減るが、絶無とはならないのである。<br/><br/>これについては最近米国の有力な酪農会社社長ロデール氏が、長年の経験によってその結果を発表したところによると、化学肥料で栽培した草で、家畜を育てると健康も悪く、乳も不良であるに反し、堆肥のみで作った草で育てると非常に健康で、乳も優良である事が分かったので、この発見を熱心に宣伝したため、近来各方面にようやく認めらるるに至り、米政府もこれを支援する事となったというのである。<br/><br/>また各学者の研究も、実際家の実験もこれに符合したため、ようやく社会輿論とさえなってきたという事が、最近の米国の専門雑誌に出ており、ついで同氏は人間の病気も、化学薬剤を用いるようになってから、悪性な病気が増えたと唱えている。<br/><br/>しかし右の二つとも、私は二十年以前から唱えてきたが、日本は米国と違い、新しい説は識者は見向きもしない傾向があり、しかも私が宗教かなるがゆえに、テンデ見向きもせず迷信視されて来たのである。<br/><br/>もちろんこういう観方がいかに文化の進歩を妨げているかは、よくいわれるところである。<br/><br/> 以上によって分かったであろうが、とにかく、罪と薬剤と人造肥料とのこの三つが病気の根本であるとしたら、この三つの害を除く事こそ、人類救済の第一義であらなければならない。<br/><br/>ところが薬剤と肥料とは、今日ただ今からでも廃止する事が出来るが、最も至難であるのは罪の問題である。<br/><br/>これだけはどうしても宗教によらなければ、解決できないのはもちろんである。<br/><br/>と言ってもこれが実現の可能性のある宗教は、今日まず見当たらないと言っても良かろう。<br/><br/>ところがこの条件にかなう宗教こそ、わがメシヤ教であるとしたら私の責任も重かつ大なるものである。<br/><br/>この意味において私はまずこの著によって、全世界の有識者に向かって警鐘を鳴らすゆえんである。<br/><br/>それについて前もって一つの重大なる一時を知らせなければならないので、それをこれから書いてみよう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

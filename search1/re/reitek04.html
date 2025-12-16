@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>reitek04</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊的に観たる熱海の大火 『救世』59号、昭和25(1950)年4月22日発行 去る四月三日、熱海駅前から仲見世へかけて数十戸焼失し、驚きのいまだ醒めやらぬ十日を経た十三日、今度は熱海中心部の繁華街全滅という空前の大火災に見舞われた、何しろ一挙に千六百数十戸を焼失し、損害三十億というのであるから、小都会熱海としての打撃やいかばかりか想像もつかないほどである、と共に罹災者の損害は同情に堪えないのである、原因は自動車運転助手の過失という事であるが、もちろん不注意のためである点に間違いはないが、吾々宗教人としては、この原因を霊的に検討する義務があると思うから、ここにかくのである。<br><br> 吾らはこれまで熱海には一大浄化があるかも知れないという事を、常に唱え来たのである、という事は熱海の実態を深く考えてみるに、そういう懸念が湧かない訳にはゆかないからである、それには湯の町熱海は不断にどういう役目をしているかという事である、これについて吾らはいつも思っている事は、熱海という土地が風光明媚にして、豊富な温泉を有し、しかも気候温和交通至便、実に日本中比すべきものない天与の勝地で全く神が人間に慰安を与えるべく造られたものに違いないのである、したがって人間はこの大なる神の恩恵に感謝し、時々来ては心を洗い、魂を清めるべきにかかわらず、神の存在を認めない人間は全然無関心で、この勝地を利欲一点張の目的に使用し、極度に汚したのである。<br><br> 右は事実をみればよく判る、熱海には人も知るごとく多数の旅館があって、それに宿泊するものは新婚旅行者と、単なる遊覧客と、不純なる男女の密会客等である、また多くの別荘があるが、そのほとんどは妾宅であるから、これらは妻女の嫉妬や怨みの想念が、不断に熱海の霊界を曇らしているのはもちろんである、また多数の醜業婦がいて汚している事も少なくはあるまい、大体以上によって考える時、この土地に散ずる金銭は、純なるものよりも不純なものの方がズーッと多いので、この金によって形成されたる物的存在は、いつかは火の洗礼を受けなければならない運命となっていたのである、この事は霊界を知るものにとってはよく判るのであるが、霊界を信じない無神論者には判り難いのでこれまた止むを得ないのである。<br><br> そうして今回の火災に鑑（かんが）み、市当局は固（もと）より国家においても国際観光都市としての将来をもつ熱海である以上、不燃焼都市としての理想的構想を急速立案しているそうであるが、これも非常に結構であり、吾らも大いに期待しているところである、しかしながら右は物的方面であって、吾らの要望する霊的半面も閑却してはならないのである、それはどうすればよいかというと、前記のごとく熱海本来の使命を認識し出来るだけ汚さないようにする事で、過去のごとき汚濁熱海を更新し清浄境熱海たらしむべき事である。<br><br> 本教が熱海の最景勝地に地上天国を造り、また将来一大公園を企図しつつある事も右の目的に外ならないのである、由来山水の美に富むこの勝地をもちながら、その美の真の活用を忘れ、低劣なる遊覧地化した事は全く一大失敗というべきで、市民が短見的目前（めさき）の利益のみに捉われ、遠大なる国策に考慮を払わなかったためでもあろう、従って今回の災害を契機とし深き自省の下に国家百年の大計を樹てなければならない、それは国際観光都市として、世界に恥しからぬ立派な熱海たらしむる事で、吾らは祈念してやまないものである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Causa Espiritual do Grande Incêndio de Atami</h2>
 <p>Atami foi recentemente assolada por dois grandes incêndios. O primeiro, ocorrido em 3 de abril, consumiu dezenas de imóveis desde a estação até a galeria comercial. Antes que o sobressalto se dissipasse, apenas dez dias depois, em 13 de abril, um segundo incêndio, de proporções inéditas, aniquilou por completo o próspero centro da cidade. De uma só vez, mais de mil e seiscentas residências foram incineradas, resultando em perdas que ascendem a três bilhões de ienes. O golpe sofrido pela pequena cidade de Atami é de uma magnitude que desafia a imaginação, e o prejuízo para as vítimas é algo que nos causa profunda compaixão. A causa apontada foi a negligência do assistente de um motorista, o que, sem dúvida, constitui uma desatenção. Contudo, como homens de fé, cremos ser nosso dever examinar as raízes espirituais deste acontecimento, e é sobre isso que discorrerei.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Diante do recente desastre, tanto as autoridades municipais quanto o governo nacional, cientes do futuro de Atami como cidade turística internacional, estão elaborando apressadamente um plano para sua reconstrução como uma cidade ideal, à prova de fogo. Esta é, sem dúvida, uma iniciativa excelente, pela qual nutrimos grandes expectativas. Todavia, é preciso lembrar que esta é apenas a faceta material da questão. O aspecto espiritual, que tanto preconizamos, não pode ser negligenciado.</p>
 <p>E como proceder? É fundamental que se reconheça a missão original de Atami, conforme mencionado, e que se envidem todos os esforços para não mais maculá-la. A Atami conspurcada do passado deve ser renovada, transformando-se em uma Atami de pureza e santidade.</p>
 <p>A construção do Paraíso Terrestre que nossa Igreja realiza no local mais belo de Atami, bem como o projeto de um futuro grande parque, não têm outro propósito senão este. É de se lamentar que, possuindo uma terra tão pródiga em belezas naturais, tenha-se esquecido sua verdadeira vocação, permitindo que se degenerasse em um destino turístico de baixo nível. Isso representa, na verdade, um imenso fracasso. Talvez isso se deva ao fato de os cidadãos, apegados a interesses imediatistas e de visão curta, não terem dispensado a devida consideração a um projeto de nação mais amplo e duradouro. Nesse sentido, o desastre atual deve servir como um catalisador para uma profunda autorreflexão, a partir da qual se deve estabelecer um grande plano para os próximos cem anos da nação. Esse plano consiste em fazer de Atami uma cidade grandiosa, digna de sua condição de destino turístico internacional e da qual o mundo não precise se envergonhar. É por isso que oramos incessantemente.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊的に観たる熱海の大火 『救世』59号、昭和25(1950)年4月22日発行 去る四月三日、熱海駅前から仲見世へかけて数十戸焼失し、驚きのいまだ醒めやらぬ十日を経た十三日、今度は熱海中心部の繁華街全滅という空前の大火災に見舞われた、何しろ一挙に千六百数十戸を焼失し、損害三十億というのであるから、小都会熱海としての打撃やいかばかりか想像もつかないほどである、と共に罹災者の損害は同情に堪えないのである、原因は自動車運転助手の過失という事であるが、もちろん不注意のためである点に間違いはないが、吾々宗教人としては、この原因を霊的に検討する義務があると思うから、ここにかくのである。<br/><br/> 吾らはこれまで熱海には一大浄化があるかも知れないという事を、常に唱え来たのである、という事は熱海の実態を深く考えてみるに、そういう懸念が湧かない訳にはゆかないからである、それには湯の町熱海は不断にどういう役目をしているかという事である、これについて吾らはいつも思っている事は、熱海という土地が風光明媚にして、豊富な温泉を有し、しかも気候温和交通至便、実に日本中比すべきものない天与の勝地で全く神が人間に慰安を与えるべく造られたものに違いないのである、したがって人間はこの大なる神の恩恵に感謝し、時々来ては心を洗い、魂を清めるべきにかかわらず、神の存在を認めない人間は全然無関心で、この勝地を利欲一点張の目的に使用し、極度に汚したのである。<br/><br/> 右は事実をみればよく判る、熱海には人も知るごとく多数の旅館があって、それに宿泊するものは新婚旅行者と、単なる遊覧客と、不純なる男女の密会客等である、また多くの別荘があるが、そのほとんどは妾宅であるから、これらは妻女の嫉妬や怨みの想念が、不断に熱海の霊界を曇らしているのはもちろんである、また多数の醜業婦がいて汚している事も少なくはあるまい、大体以上によって考える時、この土地に散ずる金銭は、純なるものよりも不純なものの方がズーッと多いので、この金によって形成されたる物的存在は、いつかは火の洗礼を受けなければならない運命となっていたのである、この事は霊界を知るものにとってはよく判るのであるが、霊界を信じない無神論者には判り難いのでこれまた止むを得ないのである。<br/><br/> そうして今回の火災に鑑（かんが）み、市当局は固（もと）より国家においても国際観光都市としての将来をもつ熱海である以上、不燃焼都市としての理想的構想を急速立案しているそうであるが、これも非常に結構であり、吾らも大いに期待しているところである、しかしながら右は物的方面であって、吾らの要望する霊的半面も閑却してはならないのである、それはどうすればよいかというと、前記のごとく熱海本来の使命を認識し出来るだけ汚さないようにする事で、過去のごとき汚濁熱海を更新し清浄境熱海たらしむべき事である。<br/><br/> 本教が熱海の最景勝地に地上天国を造り、また将来一大公園を企図しつつある事も右の目的に外ならないのである、由来山水の美に富むこの勝地をもちながら、その美の真の活用を忘れ、低劣なる遊覧地化した事は全く一大失敗というべきで、市民が短見的目前（めさき）の利益のみに捉われ、遠大なる国策に考慮を払わなかったためでもあろう、従って今回の災害を契機とし深き自省の下に国家百年の大計を樹てなければならない、それは国際観光都市として、世界に恥しからぬ立派な熱海たらしむる事で、吾らは祈念してやまないものである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

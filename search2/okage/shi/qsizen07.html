@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qsizen07</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 自然栽培三ヵ年の回顧 『栄光』163号、昭和27(1952)年7月2日発行 兵庫県 神和中教会 山本清一（40） 但馬における最も片田舎にて日照時間は夏季で一番長い時が八時間、雪は近年少ないが、これ迄は普通五、六尺、多い時は一丈数尺、雪解けは三月末から四月半ば、この山村の僻地にも有難い神様の自然農法の御光はさしそめました。<br><br>これまで肥料なしで稲は出来ないものと考え、やる程良いように思ってやっていたその考えはくつがえされ、金肥人肥を無くしても作物は出来るものであるとの認識を深めつつあります。<br><br>転換後三カ年間における自然栽培の状態を御報告申し上げます。<br><br>従来の施肥状態は普通田は反当厩肥約三百貫に金肥五貫から十貫位でした。<br><br> 第一年目 先生から稲にも金肥をやらぬ方がよい事を教えられ試作して見たのが昭和二十三年、その時は金肥だけで厩肥や下肥は何んともないと思っていたのです。<br><br>今から考えると甘いものでした。<br><br>ところがその秋一反足らずの自然栽培試作田が、有肥栽培田をうんとぬいた上作、その時に明主様から自然栽培の御教えを戴きましたので、自然栽培なんか何んでもないと大法螺をふきまくったものでした。<br><br>さて二十四年明主様の御教えとあれば、火の中水の中でも平然としてと言うよりも、昨年の試作成功にいい気になって、何も考えずに苗代から実行致しました。<br><br>苗代は普通の水苗代で苗はすくすくと伸び、六月上旬本田に移しました。<br><br>ところが一日、一日半と日が経つにつれ、有肥の方はぐんぐん生育するのに、こちらは植えた時と余り大して変って来ない。<br><br>はて「これは去年の試作と勝手が違うぞ」と、よく見れば家の苗が足らず他家の有肥の苗を貰って植えた一畝程のところが、去年の試作と同じような出来がしていますので、苗だけでこんなにも違うのかと驚きました。<br><br>去年の秋から大きな法螺をふきまくって来たが後の祭り、これをどうして切り抜けて行ったらいいか家の者は案外平気でいてくれますが、世間が承知してくれません。<br><br>この為に私の悪評判は近郷近在まで普（あまね）く広まって、すっかり嘲笑されて終いました。<br><br>けれども出来ないものは仕方がない、ままよ行くところまでゆけと度胸を決めました。<br><br> 事実自然栽培すら実行出来ないような事では、命にかかわる病気にでもなったら恐らく問題なく落伍するだろうと、広言して来た手前度胸を決めて終うより他に方法がなかったのでした。<br><br>稲なんか神様にお任せし私は布教に頑張りました。<br><br>少し出来だして来たのが土用に入った七月の下旬、有肥の生長が止るようになった頃、生長するは生長するは、八月の終り頃には株張りも草丈もぐんと有肥を抜いて終った。<br><br>この時の私の得意さを御想像下さい。<br><br>今迄私の稲を見て嘲笑っていた人達が横眼でにらんで通るようになったのもこの頃からでした。<br><br>さて収穫の頃は誰の目にも有肥より良いと頷けましたが、有肥並に相当穂首イモチになりまして、最初私が考えていたものには遥るかにとどきませんでした。<br><br>これも肥毒が残っていた為としてあっさり解決をつけましたが、しかし実行方法にもまた想念的に考えて見るべき幾多のものがありました。<br><br>一番はっきりしていたのは最初の生育が遅れた為と、出穂が有肥の同一品種より十日から十五日遅くなりました為で、寒冷地帯の山間部ではこれは大問題でした。<br><br>私の家は七反五畝を作り、昨年は十七石戴きました。<br><br> 私の土地では前から稲を早く作り上げる事が失敗のない第一条件で「よし今年こそは」と自信満々と私は意気込んでおりました。<br><br>思い出してもおかしくなるのは、この年の供出でした。<br><br>供出委員が割当をして私のところに来ました。<br><br>この方達も悪評判を飛ばした親玉連と予想していましたので、生来の茶目気を出して「家のは今年は悪くてね」「君の家のは良いと思っていたんだがなあ」「否皆が評判してくれた通りでなあ」と笑いますと、供出委員は変な顔をしていましたが、悪宣伝の仕返しと気付いていますから「困ったなあ……今更割当のやり直しも出来ないし」と、当惑しておりましたが、結局「自分が半分出すから半分出してくれ」と頼みますので、私もそれは快よく聞きいれました。<br><br>この供出委員は村一番の供出農家ですから、これ位は大した苦にもならなかったのでしょう。<br><br>これ切り悪評は地元から消えて行きました。<br><br> 第二年目 苗代は矢張り順調に伸びました。<br><br>昨年より十五日余り早く本田に植付け、本田に入れた藁は、昨年はその田から取れた程度でしたが今年は昨年より少し減し、昨冬より田に切り拡げて置きました。<br><br>本田に植付後、今年は昨年と違って最初から出来だし、有肥に負けない位で、伸びは短いが横にどんどん張って行く「どんなもんだい」と私は鼻高々意気揚々という毎日でした。<br><br>これは私の五年計画三十石が二年目に成功するぞ、横に張っていたのが土用頃からぐんぐん丈が伸び出し、八月の終り頃は、農林二十二号など有肥よりも一尺近く伸びて五尺にもなりました。<br><br>「出来たなあ」と言う村人の私語が耳に入るようになったのはこの頃からでした。<br><br>出穂は今年も有肥より一週間から十日遅れました。<br><br>ところが私のこの自慢の稲が但馬を通った例のジェーン台風に見事に倒れて仕舞いました。<br><br>有肥の稲が倒れないのに私の自然栽培のが倒れたのですから、まさに天下の大問題であります。<br><br>神様は何をなさる事やら、ところがその後日数が経つに従って、有肥の稲は風にばらまかれて黒くなった籾と、穂首イモチで惨澹たる有様に変って来ました。<br><br>この地方特に山間部は去年も不作でしたが、今年は去年よりなお酷く、幾ら上目に見ても反当一石五斗にとどくまい、誰も私には話しませんが誰が見ても悪い、それに引替え私の稲は出穂が遅れていた為、開花の真盛りに台風を受けたにもかかわらず、黒い籾などほとんど目につかず、未だ肥毒の残っている為、その浄化は相当戴きましたが、結局昨年度より一割の増収でした。<br><br>三十石の夢は破れましたが昨年より増収させて頂き、誰の眼にも有肥との差が判然と分りました。<br><br>事実今年の稲に完全に実が入れば反当五石は何んでもない事です。<br><br>一例が農林二十二号で坪五十株で十五本立、百五十粒平均結実して、反当六石は夢でも何んでもない。<br><br>ただ肥毒さえなくなれば、こんな事は問題でも何んでも有りません。<br><br>と御教えの通り覚らせて戴きました。<br><br> 第三年目 小さい時からおやつ代りに薬を服んで来た私は、今その薬を出して頂く為、入信以来五カ年間御浄化の御守護を頂いており、年寄と女子供十二人の世帯に、世間の人達が不思議がる御守護を戴きつつ、毎日を過させて頂いておりますが、時来れば私も中教会長西垣先生の下に馳せ参じ、御神業の御手伝に専念させて頂く決意でおりますので、家の事は何一つ私に頼る事なく、総てを女がせねばならぬと今年は苗代から女に責任を持たせてやりました。<br><br>今年は本田に入れた藁は昨年の三分の二足らずでした。<br><br>金肥に失敗した村の人達が今年はかなり多数金肥を全廃して厩肥一本でやりました。<br><br>昨年迄は何も私には申しませんでしたが、今年になってから一昨年、昨年の不作の状態を話し、金肥は成功する事があっても、失敗の方が多いから最早金肥は使わぬ事にした方が良いと思って、使っていないと話すようになりました。<br><br> 私が想像していた以上の不作でした。<br><br>私も大分角が取れましたので温和しく、「それが良いでしょう。<br><br>家の稲が藁だけであんなに出来ますように、厩肥だけでも一、二年辛抱すれば金肥を使った以上に出来るようになりますから」と話しておりました。<br><br>さて稲は今年も植付後八月上旬頃迄順調に生育し、いよいよ丈がぐんぐん伸びて来ようとしたところで私は大失敗をやりました。<br><br>それは昨年稲を台風で倒したのは、湿田にしていた為、土がやわらか過ぎたのが一つの原因と考えていましたので、今年は土を少し堅くしてやろうと考え、田を干しました。<br><br>ところが何十年来と言われる大旱天に、谷川の乏しい水では最早はれなくなり、一日一日田はひび割れて土が白くなって行きますが、待てど暮せど来る日も来る日も一滴の雨もなく、全く為す術もありません。<br><br>人間の考えなんか何んにもならない事をしみじみ知らされました。<br><br> 有肥は昨年よりもっと酷くなると予想していましたのに、七月中旬頃迄の険悪な様相もこの早天続きにすっかり持ち直し、山間部だけは肥料を沢山やった者の当り年、今年こそ肥料組が、かぶとをぬぐと手ぐすねひいて待っていたのに、神様の大慈大悲は生きとし生けるものを皆餓死はさせられないとみえて、但馬も山間部だけは全くそれと反対の結果になりました。<br><br>私の稲は御守護を頂き、流石に自然栽培の本領を発揮して、あれだけの大旱天にもかかわらず草丈、実入り共に有肥の最上に比べて、いささかの見劣りのない出来栄を頂きました。<br><br>昨年程の草出来を頂いていたらなあ、と欲張っても見ましたが、結果は昨年より一割の増収を頂きました。<br><br>矢張り有肥を遥かに抜いていた事は事実でした。<br><br>ただ前にも申し上げましたように、私の家が有肥時代にも良成績を挙げていましたので、「あそこは田が良いんだ」と、負け惜みを言っているようであります。<br><br> 三カ年の反省 私の自然栽培三カ年は成功とは言えなく共、最初の時から他の有肥を抜いた実収を頂いておりますから、世間から見れば失敗では有りません。<br><br>しかし私自身の予想計画よりは遥かに及ばなかったのですから、私から見れば失敗であります。<br><br>その失敗の原因がどこに有るかその都度私はその失敗と取組んでみました。<br><br>そうして失敗の蔭には必ず全部が全部、明主様の御教え通り実行していない事を知りました。<br><br>常に人力が働き、自分勝手な事を考えていました故に感謝の念が足りない。<br><br>私連は今迄これ程大きな間違いをしていたのだ。<br><br>それをお赦し頂いてどれだけでも否有肥に負けない位最初から頂いていたのだ。<br><br>神様の大慈大悲に感謝せねばなりません。<br><br>それが感謝どころか、まだ不足と思う位だったのですから、虫が良いと言いますか、これ位自分勝手な考えしかなかったのです。<br><br> 自然栽培三カ年の成績に依って、どれだけ私は信仰を深めさせて戴いたか、今はその失敗に感謝しております。<br><br>成功も嬉しいが、失敗もまた楽しい。<br><br>これがこの頃の私の心境でございます。<br><br>しかしいつ迄も失敗していては人様をお救いさせて頂けない。<br><br>自己満足だけでは駄目だと、また反省しております。<br><br>最後に申し上げねばなりません事は、私は入信以来稲作を通じて不思議な御守護を頂いております。<br><br>それは昭和二十四年八月迄牛がおりましたので、自然栽培第二年目迄厩肥が多少有りました。<br><br>入信の年の昭和二十二年は厩肥一点張り、二十三年は金肥厩肥自然栽培の三段別に、二十四年は七反五畝の中六反歩が自然栽培、一反五畝が厩肥、二十五年は厩肥五畝、二十六年全部自然栽培と、こうなっております。<br><br>二十三年から五年迄の三年間有肥が必ず自然栽培に負けた実績を頂き、否それよりも肥毒の恐しさを様々と見せて頂きました。<br><br> 私の自然栽培の動機は肥毒の恐しさにあったと思われる位で御座いました。<br><br>私の有肥に出て来た肥毒の恐しさは、その年の一般有肥には全然出ておりませんが、一年、二年、三年後に必ず同じ状態になって来ます。<br><br>二十五年の最後の有肥田五畝の厩肥に到頭私は穂の出ない稲を作って終いました。<br><br>品種は愛亀と言う私の地方は二十年来連作しております早稲で御座いますが、それが八月初め穂を出す直前になって、病気も何もない健全そのものの稲が、穂を包んでいたしん葉が枯れて終って、穂が出て来ないのです。<br><br>これには全く驚いて終いました。<br><br>人間が一晩の中にころりと死んで終うのと同然で、全く手の施し方がありません。<br><br>家内と二人で五畝の田に丸一日浄霊を致しまして、やっと五分の二位の被害で御赦し頂きましたが、これが一般に現われて来たら何うするだろう。<br><br>そうしてこれは必ず一般にも現われて来る日がある。<br><br>と私には思われます。<br><br>今度農業特輯号を頂きましたのも、その日が近づいたのではないかとの感じが致しております。<br><br>肥毒の恐しさに比べれば一年二年の少々の減収なんかものの数ではありません。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Retrospectiva de Três Anos de Agricultura Natural</h2>
 <p>Seiichi Yamamoto (40 anos)
@@ -99,5 +254,48 @@ Igreja Shinwa-Naka, Hyogo</p>
 <p><strong>Reflexão sobre os três anos</strong></p>
 <p>Embora meus três anos de Agricultura Natural não possam ser considerados um sucesso absoluto, como a produção sempre foi superior à das lavouras adubadas, aos olhos do mundo não foi um fracasso. Para mim, no entanto, foi uma falha, pois os resultados ficaram muito aquém de minhas metas e planejamentos. A cada revés, esforcei-me para identificar suas causas. E, invariavelmente, descobri que por trás de cada um deles jazia o fato de eu não estar seguindo à risca os Ensinamentos de Meishu-Sama. O esforço humano sempre interferia, meus pensamentos eram egoístas. Faltava-me, portanto, o sentimento de gratidão. Eu estava cometendo um erro de enormes proporções. E, apesar disso, Deus me perdoava e, desde o início, concedia-me colheitas que, no mínimo, se equiparavam às das lavouras adubadas. É imperativo ser grato à imensa Misericórdia e Compaixão de Deus. Contudo, longe de agradecer, eu ainda julgava os resultados insuficientes. Era o ápice do egoísmo e do egocentrismo. Por meio dos resultados destes três anos de Agricultura Natural, pude aprofundar imensamente a minha fé. Hoje, sou grato pelos fracassos. O sucesso traz alegria, mas o fracasso também se tornou fonte de júbilo. Este é o meu estado de espírito atual. Todavia, reflito novamente que não posso permanecer em um ciclo de falhas, pois assim não poderei auxiliar na salvação do próximo. A autossatisfação não é o bastante.</p>
 <p>Por fim, devo mencionar que, desde que ingressei na fé, tenho recebido uma Proteção Divina misteriosa através do cultivo de arroz. Como tivemos uma vaca até agosto de 1949, dispúnhamos de esterco até o segundo ano de prática. Em 1947, utilizei exclusivamente esterco; em 1948, dividi o cultivo em três modalidades: adubo químico com esterco, apenas esterco e Agricultura Natural; em 1949, seis <em>tan</em> foram de Agricultura Natural e um <em>tan</em> e meio com esterco; em 1950, meio <em>tan</em> com esterco; e em 1951, a totalidade da área foi dedicada à Agricultura Natural. Ao longo dos três anos, de 1948 a 1950, obtive a prova de que as áreas adubadas sempre produziam menos que as de Agricultura Natural e, mais do que isso, pude testemunhar de várias formas o pavoroso efeito das toxinas dos adubos. Creio que minha motivação para iniciar a Agricultura Natural residiu precisamente nesse temor. Os terríveis efeitos que se manifestaram em minhas áreas adubadas não surgiram nas lavouras convencionais da região naquelas mesmas safras, mas invariavelmente se apresentam um, dois ou três anos depois. Em 1950, na minha última parcela de meio <em>tan</em> cultivada com esterco, cheguei ao extremo de produzir um arroz que não espigou. A variedade era a Aigame, um tipo precoce que cultivamos há vinte anos em nossa região. No início de agosto, pouco antes do florescimento, a planta, de aparência perfeitamente saudável, teve a folha central que envolvia a espiga simplesmente seca, impedindo sua emergência. Fiquei absolutamente estarrecido. É análogo a um ser humano que, da noite para o dia, sucumbe subitamente, sem que nada possa ser feito. Minha esposa e eu passamos um dia inteiro a ministrar Johrei naquela parcela e, por permissão Divina, o dano foi contido a apenas dois quintos da lavoura. Mas o que as pessoas farão quando este fenômeno se generalizar? E estou convicto de que chegará o dia em que isso ocorrerá. O recebimento desta edição especial sobre agricultura me faz sentir que esse dia se aproxima. Diante da pavorosa realidade das toxinas dos adubos, uma pequena quebra de safra por um ou dois anos é algo insignificante.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 自然栽培三ヵ年の回顧 『栄光』163号、昭和27(1952)年7月2日発行 兵庫県 神和中教会 山本清一（40） 但馬における最も片田舎にて日照時間は夏季で一番長い時が八時間、雪は近年少ないが、これ迄は普通五、六尺、多い時は一丈数尺、雪解けは三月末から四月半ば、この山村の僻地にも有難い神様の自然農法の御光はさしそめました。<br/><br/>これまで肥料なしで稲は出来ないものと考え、やる程良いように思ってやっていたその考えはくつがえされ、金肥人肥を無くしても作物は出来るものであるとの認識を深めつつあります。<br/><br/>転換後三カ年間における自然栽培の状態を御報告申し上げます。<br/><br/>従来の施肥状態は普通田は反当厩肥約三百貫に金肥五貫から十貫位でした。<br/><br/> 第一年目 先生から稲にも金肥をやらぬ方がよい事を教えられ試作して見たのが昭和二十三年、その時は金肥だけで厩肥や下肥は何んともないと思っていたのです。<br/><br/>今から考えると甘いものでした。<br/><br/>ところがその秋一反足らずの自然栽培試作田が、有肥栽培田をうんとぬいた上作、その時に明主様から自然栽培の御教えを戴きましたので、自然栽培なんか何んでもないと大法螺をふきまくったものでした。<br/><br/>さて二十四年明主様の御教えとあれば、火の中水の中でも平然としてと言うよりも、昨年の試作成功にいい気になって、何も考えずに苗代から実行致しました。<br/><br/>苗代は普通の水苗代で苗はすくすくと伸び、六月上旬本田に移しました。<br/><br/>ところが一日、一日半と日が経つにつれ、有肥の方はぐんぐん生育するのに、こちらは植えた時と余り大して変って来ない。<br/><br/>はて「これは去年の試作と勝手が違うぞ」と、よく見れば家の苗が足らず他家の有肥の苗を貰って植えた一畝程のところが、去年の試作と同じような出来がしていますので、苗だけでこんなにも違うのかと驚きました。<br/><br/>去年の秋から大きな法螺をふきまくって来たが後の祭り、これをどうして切り抜けて行ったらいいか家の者は案外平気でいてくれますが、世間が承知してくれません。<br/><br/>この為に私の悪評判は近郷近在まで普（あまね）く広まって、すっかり嘲笑されて終いました。<br/><br/>けれども出来ないものは仕方がない、ままよ行くところまでゆけと度胸を決めました。<br/><br/> 事実自然栽培すら実行出来ないような事では、命にかかわる病気にでもなったら恐らく問題なく落伍するだろうと、広言して来た手前度胸を決めて終うより他に方法がなかったのでした。<br/><br/>稲なんか神様にお任せし私は布教に頑張りました。<br/><br/>少し出来だして来たのが土用に入った七月の下旬、有肥の生長が止るようになった頃、生長するは生長するは、八月の終り頃には株張りも草丈もぐんと有肥を抜いて終った。<br/><br/>この時の私の得意さを御想像下さい。<br/><br/>今迄私の稲を見て嘲笑っていた人達が横眼でにらんで通るようになったのもこの頃からでした。<br/><br/>さて収穫の頃は誰の目にも有肥より良いと頷けましたが、有肥並に相当穂首イモチになりまして、最初私が考えていたものには遥るかにとどきませんでした。<br/><br/>これも肥毒が残っていた為としてあっさり解決をつけましたが、しかし実行方法にもまた想念的に考えて見るべき幾多のものがありました。<br/><br/>一番はっきりしていたのは最初の生育が遅れた為と、出穂が有肥の同一品種より十日から十五日遅くなりました為で、寒冷地帯の山間部ではこれは大問題でした。<br/><br/>私の家は七反五畝を作り、昨年は十七石戴きました。<br/><br/> 私の土地では前から稲を早く作り上げる事が失敗のない第一条件で「よし今年こそは」と自信満々と私は意気込んでおりました。<br/><br/>思い出してもおかしくなるのは、この年の供出でした。<br/><br/>供出委員が割当をして私のところに来ました。<br/><br/>この方達も悪評判を飛ばした親玉連と予想していましたので、生来の茶目気を出して「家のは今年は悪くてね」「君の家のは良いと思っていたんだがなあ」「否皆が評判してくれた通りでなあ」と笑いますと、供出委員は変な顔をしていましたが、悪宣伝の仕返しと気付いていますから「困ったなあ……今更割当のやり直しも出来ないし」と、当惑しておりましたが、結局「自分が半分出すから半分出してくれ」と頼みますので、私もそれは快よく聞きいれました。<br/><br/>この供出委員は村一番の供出農家ですから、これ位は大した苦にもならなかったのでしょう。<br/><br/>これ切り悪評は地元から消えて行きました。<br/><br/> 第二年目 苗代は矢張り順調に伸びました。<br/><br/>昨年より十五日余り早く本田に植付け、本田に入れた藁は、昨年はその田から取れた程度でしたが今年は昨年より少し減し、昨冬より田に切り拡げて置きました。<br/><br/>本田に植付後、今年は昨年と違って最初から出来だし、有肥に負けない位で、伸びは短いが横にどんどん張って行く「どんなもんだい」と私は鼻高々意気揚々という毎日でした。<br/><br/>これは私の五年計画三十石が二年目に成功するぞ、横に張っていたのが土用頃からぐんぐん丈が伸び出し、八月の終り頃は、農林二十二号など有肥よりも一尺近く伸びて五尺にもなりました。<br/><br/>「出来たなあ」と言う村人の私語が耳に入るようになったのはこの頃からでした。<br/><br/>出穂は今年も有肥より一週間から十日遅れました。<br/><br/>ところが私のこの自慢の稲が但馬を通った例のジェーン台風に見事に倒れて仕舞いました。<br/><br/>有肥の稲が倒れないのに私の自然栽培のが倒れたのですから、まさに天下の大問題であります。<br/><br/>神様は何をなさる事やら、ところがその後日数が経つに従って、有肥の稲は風にばらまかれて黒くなった籾と、穂首イモチで惨澹たる有様に変って来ました。<br/><br/>この地方特に山間部は去年も不作でしたが、今年は去年よりなお酷く、幾ら上目に見ても反当一石五斗にとどくまい、誰も私には話しませんが誰が見ても悪い、それに引替え私の稲は出穂が遅れていた為、開花の真盛りに台風を受けたにもかかわらず、黒い籾などほとんど目につかず、未だ肥毒の残っている為、その浄化は相当戴きましたが、結局昨年度より一割の増収でした。<br/><br/>三十石の夢は破れましたが昨年より増収させて頂き、誰の眼にも有肥との差が判然と分りました。<br/><br/>事実今年の稲に完全に実が入れば反当五石は何んでもない事です。<br/><br/>一例が農林二十二号で坪五十株で十五本立、百五十粒平均結実して、反当六石は夢でも何んでもない。<br/><br/>ただ肥毒さえなくなれば、こんな事は問題でも何んでも有りません。<br/><br/>と御教えの通り覚らせて戴きました。<br/><br/> 第三年目 小さい時からおやつ代りに薬を服んで来た私は、今その薬を出して頂く為、入信以来五カ年間御浄化の御守護を頂いており、年寄と女子供十二人の世帯に、世間の人達が不思議がる御守護を戴きつつ、毎日を過させて頂いておりますが、時来れば私も中教会長西垣先生の下に馳せ参じ、御神業の御手伝に専念させて頂く決意でおりますので、家の事は何一つ私に頼る事なく、総てを女がせねばならぬと今年は苗代から女に責任を持たせてやりました。<br/><br/>今年は本田に入れた藁は昨年の三分の二足らずでした。<br/><br/>金肥に失敗した村の人達が今年はかなり多数金肥を全廃して厩肥一本でやりました。<br/><br/>昨年迄は何も私には申しませんでしたが、今年になってから一昨年、昨年の不作の状態を話し、金肥は成功する事があっても、失敗の方が多いから最早金肥は使わぬ事にした方が良いと思って、使っていないと話すようになりました。<br/><br/> 私が想像していた以上の不作でした。<br/><br/>私も大分角が取れましたので温和しく、「それが良いでしょう。<br/><br/>家の稲が藁だけであんなに出来ますように、厩肥だけでも一、二年辛抱すれば金肥を使った以上に出来るようになりますから」と話しておりました。<br/><br/>さて稲は今年も植付後八月上旬頃迄順調に生育し、いよいよ丈がぐんぐん伸びて来ようとしたところで私は大失敗をやりました。<br/><br/>それは昨年稲を台風で倒したのは、湿田にしていた為、土がやわらか過ぎたのが一つの原因と考えていましたので、今年は土を少し堅くしてやろうと考え、田を干しました。<br/><br/>ところが何十年来と言われる大旱天に、谷川の乏しい水では最早はれなくなり、一日一日田はひび割れて土が白くなって行きますが、待てど暮せど来る日も来る日も一滴の雨もなく、全く為す術もありません。<br/><br/>人間の考えなんか何んにもならない事をしみじみ知らされました。<br/><br/> 有肥は昨年よりもっと酷くなると予想していましたのに、七月中旬頃迄の険悪な様相もこの早天続きにすっかり持ち直し、山間部だけは肥料を沢山やった者の当り年、今年こそ肥料組が、かぶとをぬぐと手ぐすねひいて待っていたのに、神様の大慈大悲は生きとし生けるものを皆餓死はさせられないとみえて、但馬も山間部だけは全くそれと反対の結果になりました。<br/><br/>私の稲は御守護を頂き、流石に自然栽培の本領を発揮して、あれだけの大旱天にもかかわらず草丈、実入り共に有肥の最上に比べて、いささかの見劣りのない出来栄を頂きました。<br/><br/>昨年程の草出来を頂いていたらなあ、と欲張っても見ましたが、結果は昨年より一割の増収を頂きました。<br/><br/>矢張り有肥を遥かに抜いていた事は事実でした。<br/><br/>ただ前にも申し上げましたように、私の家が有肥時代にも良成績を挙げていましたので、「あそこは田が良いんだ」と、負け惜みを言っているようであります。<br/><br/> 三カ年の反省 私の自然栽培三カ年は成功とは言えなく共、最初の時から他の有肥を抜いた実収を頂いておりますから、世間から見れば失敗では有りません。<br/><br/>しかし私自身の予想計画よりは遥かに及ばなかったのですから、私から見れば失敗であります。<br/><br/>その失敗の原因がどこに有るかその都度私はその失敗と取組んでみました。<br/><br/>そうして失敗の蔭には必ず全部が全部、明主様の御教え通り実行していない事を知りました。<br/><br/>常に人力が働き、自分勝手な事を考えていました故に感謝の念が足りない。<br/><br/>私連は今迄これ程大きな間違いをしていたのだ。<br/><br/>それをお赦し頂いてどれだけでも否有肥に負けない位最初から頂いていたのだ。<br/><br/>神様の大慈大悲に感謝せねばなりません。<br/><br/>それが感謝どころか、まだ不足と思う位だったのですから、虫が良いと言いますか、これ位自分勝手な考えしかなかったのです。<br/><br/> 自然栽培三カ年の成績に依って、どれだけ私は信仰を深めさせて戴いたか、今はその失敗に感謝しております。<br/><br/>成功も嬉しいが、失敗もまた楽しい。<br/><br/>これがこの頃の私の心境でございます。<br/><br/>しかしいつ迄も失敗していては人様をお救いさせて頂けない。<br/><br/>自己満足だけでは駄目だと、また反省しております。<br/><br/>最後に申し上げねばなりません事は、私は入信以来稲作を通じて不思議な御守護を頂いております。<br/><br/>それは昭和二十四年八月迄牛がおりましたので、自然栽培第二年目迄厩肥が多少有りました。<br/><br/>入信の年の昭和二十二年は厩肥一点張り、二十三年は金肥厩肥自然栽培の三段別に、二十四年は七反五畝の中六反歩が自然栽培、一反五畝が厩肥、二十五年は厩肥五畝、二十六年全部自然栽培と、こうなっております。<br/><br/>二十三年から五年迄の三年間有肥が必ず自然栽培に負けた実績を頂き、否それよりも肥毒の恐しさを様々と見せて頂きました。<br/><br/> 私の自然栽培の動機は肥毒の恐しさにあったと思われる位で御座いました。<br/><br/>私の有肥に出て来た肥毒の恐しさは、その年の一般有肥には全然出ておりませんが、一年、二年、三年後に必ず同じ状態になって来ます。<br/><br/>二十五年の最後の有肥田五畝の厩肥に到頭私は穂の出ない稲を作って終いました。<br/><br/>品種は愛亀と言う私の地方は二十年来連作しております早稲で御座いますが、それが八月初め穂を出す直前になって、病気も何もない健全そのものの稲が、穂を包んでいたしん葉が枯れて終って、穂が出て来ないのです。<br/><br/>これには全く驚いて終いました。<br/><br/>人間が一晩の中にころりと死んで終うのと同然で、全く手の施し方がありません。<br/><br/>家内と二人で五畝の田に丸一日浄霊を致しまして、やっと五分の二位の被害で御赦し頂きましたが、これが一般に現われて来たら何うするだろう。<br/><br/>そうしてこれは必ず一般にも現われて来る日がある。<br/><br/>と私には思われます。<br/><br/>今度農業特輯号を頂きましたのも、その日が近づいたのではないかとの感じが致しております。<br/><br/>肥毒の恐しさに比べれば一年二年の少々の減収なんかものの数ではありません。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

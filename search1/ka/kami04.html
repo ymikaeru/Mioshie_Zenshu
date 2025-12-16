@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kami04</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神様が発展の調節 『栄光』147号、昭和27(1952)年3月12日発行 これは信者は誰しも思う事であるが、メシヤ教くらい素晴しい宗教はあるまい。<br><br>これ程進歩した医学でも治らない重難病が、片ッ端から治ってゆき、また色々の有難い奇蹟が続々顕われ、全く一家全部が救われて、天国となるので、今までこれ程偉大な宗教は、見た事も聞いた事もないので、どうかして一人でも多くの人に分からせ、自分のように安心立命の境地にしてやりたいというのが、誰もが痛切に思っている事であろう。<br><br> 中には余り思い過ぎてじっとして居られず、随分熱心に親戚、知人、友人等に勧めるが、仲々オイソレと信じようとする人が少ないので、これは俺の説き方が悪いのか、それとも神様のおぼしめしにかなわないのか、自分に罪穢が多すぎるためではないかなどと、気を揉む人も随分あるようである。<br><br>また支部長などで、どうも思うように発展しないのは、どこかに原因があるに違いないから、それを知りたいと考え、あえぐ人もあるのをよく耳にするが、これも無理はないが、それについて私の経験をかいてみよう。<br><br> 私が最初この仕事を始めた時には、宗教ではなく民間療法であったから、今でさえ医学の間違いや薬は毒だ等と言っても誰も本当にするどころか、頭脳を疑われるくらいだから、ましてやその頃としてはウッカリ医療についての非難めいた事を言うと、すぐ警察から喚び出されるので危なくて仕方がない。<br><br>そのようなあらゆる困難の中を、ともかく切り抜けて来たのであって、それが今日の発展の土台となったのであるから、よく考えてみれば、いかなる職業で三年や五年で一人前になるのは滅多にない。<br><br>どんな職業でもまず十年以上掛かるのは通例で、世間を見ればよく分かるはずであるにもかかわらず、本教信者となるや、一年も経たない内に、立派な先生となり、相当の収入も得らるるので、恐らくこのような素晴しいお蔭はないであろう。<br><br>それらもよく考えてみるべきである。<br><br> そうして本教は地上天国を造るのであるから、何よりもまず自分一家が天国にならなければならない。<br><br>それにはまず自分自身の心が天国になる事で、心の天国とは心に苦悩のない状態である。<br><br>という訳で焦るのも苦悩なら、思うようにならないと煩悶する悩みも地獄であるから、少なくとも苦悩から脱却する事である。<br><br>それには感謝によって苦悩を打ち消すのが一番いい方法で、つまり心の中に地獄を作らない事である。<br><br>それについて心得べき事は従来のあらゆる宗教は信仰の苦しみをよいとしている。<br><br>中にはわざわざ苦しみを求める信仰さえあるくらいで、世界的大宗教であるキリスト教ですら、歴史をみれば、ほとんど苦難で開いている。<br><br>そういう事が一般人の頭にあるので、本教信者になってもそれがつきまとって離れ切らない。<br><br> 右は全く今までの世の中は、夜の世界すなわち地獄世界であったから、たとえ立派な信仰者となっても、地獄の苦しみから脱却出来なかったのである。<br><br>ところがいよいよ夜は終りを告げ、ここに昼の世界とならんとしている今であって、しかも本教が指導者となって天国を造るのであるから前述のごとくどこまでも地獄を造らないよう、天国を心の中に築く事である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Modulação Divina do Desenvolvimento</h2>
 <p>Todo fiel certamente já concluiu que não há religião tão sublime quanto a nossa. Enfermidades graves e refratárias, que a mais avançada medicina é incapaz de sanar, são curadas uma após a outra; milagres sublimes se manifestam sucessivamente, e famílias inteiras são salvas, transformando-se em verdadeiros paraísos. Jamais se viu ou se ouviu falar de uma religião tão grandiosa. Em virtude disso, é natural que todos os seguidores sintam o anseio profundo de fazer com que o maior número possível de pessoas compreenda esta Verdade e alcance o mesmo estado de paz e segurança espiritual que desfrutam.</p>
@@ -96,5 +248,48 @@ function toggleLang(lang) {
 <p>Nossa Fé tem por objetivo a construção do Paraíso Terrestre e, para tanto, é imprescindível que, antes de tudo, nosso próprio lar se torne um paraíso. Isso, por sua vez, requer que nosso coração se transforme em um paraíso, o que significa alcançar um estado de espírito isento de aflições. Nesse sentido, a impaciência é uma forma de sofrimento, e a angústia por não alcançar os resultados almejados também é um inferno. O passo fundamental, portanto, é libertar-se do sofrimento.</p>
 <p>O método mais eficaz para anular as aflições é a gratidão. Em essência, trata-se de não permitir que o inferno se instale em nosso coração. Um ponto a ser compreendido é que, até hoje, todas as religiões enalteciam o sofrimento na fé; algumas chegavam ao ponto de buscá-lo deliberadamente. Mesmo o Cristianismo, uma das maiores religiões do mundo, teve sua história forjada em meio a tribulações. Essa mentalidade ainda permeia o subconsciente das pessoas e, mesmo após se tornarem nossos fiéis, muitos não conseguem se desvencilhar completamente dela.</p>
 <p>A verdade é que o mundo, até então, esteve imerso no Mundo da Noite, ou seja, em um mundo infernal. Por essa razão, mesmo os mais devotos religiosos não conseguiam escapar ao sofrimento inerente a essa era. Agora, contudo, a Noite finalmente chega ao fim para dar lugar ao Mundo do Dia. E sendo nossa Fé a condutora na construção do Paraíso, é imperativo, como já mencionado, que nos esforcemos ao máximo para edificar o Céu em nosso coração, evitando a todo custo criar o inferno.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神様が発展の調節 『栄光』147号、昭和27(1952)年3月12日発行 これは信者は誰しも思う事であるが、メシヤ教くらい素晴しい宗教はあるまい。<br/><br/>これ程進歩した医学でも治らない重難病が、片ッ端から治ってゆき、また色々の有難い奇蹟が続々顕われ、全く一家全部が救われて、天国となるので、今までこれ程偉大な宗教は、見た事も聞いた事もないので、どうかして一人でも多くの人に分からせ、自分のように安心立命の境地にしてやりたいというのが、誰もが痛切に思っている事であろう。<br/><br/> 中には余り思い過ぎてじっとして居られず、随分熱心に親戚、知人、友人等に勧めるが、仲々オイソレと信じようとする人が少ないので、これは俺の説き方が悪いのか、それとも神様のおぼしめしにかなわないのか、自分に罪穢が多すぎるためではないかなどと、気を揉む人も随分あるようである。<br/><br/>また支部長などで、どうも思うように発展しないのは、どこかに原因があるに違いないから、それを知りたいと考え、あえぐ人もあるのをよく耳にするが、これも無理はないが、それについて私の経験をかいてみよう。<br/><br/> 私が最初この仕事を始めた時には、宗教ではなく民間療法であったから、今でさえ医学の間違いや薬は毒だ等と言っても誰も本当にするどころか、頭脳を疑われるくらいだから、ましてやその頃としてはウッカリ医療についての非難めいた事を言うと、すぐ警察から喚び出されるので危なくて仕方がない。<br/><br/>そのようなあらゆる困難の中を、ともかく切り抜けて来たのであって、それが今日の発展の土台となったのであるから、よく考えてみれば、いかなる職業で三年や五年で一人前になるのは滅多にない。<br/><br/>どんな職業でもまず十年以上掛かるのは通例で、世間を見ればよく分かるはずであるにもかかわらず、本教信者となるや、一年も経たない内に、立派な先生となり、相当の収入も得らるるので、恐らくこのような素晴しいお蔭はないであろう。<br/><br/>それらもよく考えてみるべきである。<br/><br/> そうして本教は地上天国を造るのであるから、何よりもまず自分一家が天国にならなければならない。<br/><br/>それにはまず自分自身の心が天国になる事で、心の天国とは心に苦悩のない状態である。<br/><br/>という訳で焦るのも苦悩なら、思うようにならないと煩悶する悩みも地獄であるから、少なくとも苦悩から脱却する事である。<br/><br/>それには感謝によって苦悩を打ち消すのが一番いい方法で、つまり心の中に地獄を作らない事である。<br/><br/>それについて心得べき事は従来のあらゆる宗教は信仰の苦しみをよいとしている。<br/><br/>中にはわざわざ苦しみを求める信仰さえあるくらいで、世界的大宗教であるキリスト教ですら、歴史をみれば、ほとんど苦難で開いている。<br/><br/>そういう事が一般人の頭にあるので、本教信者になってもそれがつきまとって離れ切らない。<br/><br/> 右は全く今までの世の中は、夜の世界すなわち地獄世界であったから、たとえ立派な信仰者となっても、地獄の苦しみから脱却出来なかったのである。<br/><br/>ところがいよいよ夜は終りを告げ、ここに昼の世界とならんとしている今であって、しかも本教が指導者となって天国を造るのであるから前述のごとくどこまでも地獄を造らないよう、天国を心の中に築く事である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

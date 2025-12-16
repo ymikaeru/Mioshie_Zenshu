@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>nyusi015</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 信仰篇 （入信、信仰上の悩み） ２ 015-031 入信後の浄化 015 入信して金欲出づ 今年六十三歳になります私の母、今まで数々の御恵みを賜わり一生懸命信仰いたしておりましたが、最近に至り、大先生様の御神影及び御神体には有難いと礼拝致しておりますが、大先生様の御事になりますと非常にきらうようになり、地上天国及び光新聞も拝読する間がないと申して戴かず、ただ金をためる事のみに汲々としてまいりました。<br><br>私も余りの変り方に驚いております。<br><br>いかなる訳でございましょうか。<br><br> 霊が憑った。<br><br>執着をとるために神様がやった。<br><br>病気と同じ事で、浮かして処理した方がよい。<br><br>（S24.10. 9） 016 入信後浪費癖出た青年 十八歳の青年、非常に金使いが荒く母親（二十三年九月入信）を悩ましておりましたが、昭和二十三年十二月入信以来性格も良くなり、一教導所を受持って熱心に布教に従事させて頂いておりましたが、最近また前の癖が出て参り一般信徒の信頼が薄らいで参りました。<br><br>いかなる訳で御座いましょうか。<br><br>御伺い申し上げます。<br><br> 罪が残っているからで、このままにしておけばよい。<br><br>祖先の霊が憑って使わす場合が多い。<br><br>（S *. 7. 8） 017 信仰急変 本年五十二歳の男、二月十八日に入信、三月に大先生に御面会させて頂き熱心に御手伝いに従事している方の妻ですが、一年前入信し熱心に御仕事をさせて頂いたのに、主人が御面会より帰るや反対するようになり、主人の浄霊は受けますが、外の家族の者の浄霊も致しません。<br><br>妻の反対するのは、妻の実家の方に何か霊的原因があるように思われますが、いかがなもので御座いましょうか。<br><br>また、光明如来様を御迎え致したいと申しておりますが、妻の反対を押し切ってお迎えして宜敷いでしょうか。<br><br>あわせて御伺い申し上げます。<br><br> 大先生の神様をみて驚いて改心した。<br><br>（S24. 9.28） 018 信仰心境一変・反対者となる 大先生様の御霊徳によりまして、家族一同教修を戴き、四月二十一日より自宅で開業させて戴きました。<br><br>すると今迄熱心に人に勧めていました父（五十三歳、葬儀商）は、三日目より心境が変り、突然反対するようになり、家族の者の信仰を止めさせようと致しますので、色々な手段を取りましたが、一向に解りません。<br><br>すると五月二日、霊的である事が分りました。<br><br>それは信者、三好秀造さんがお出でになりまして、頭痛がすると言われますので御浄霊致しますと、市川家の先祖が現れました。<br><br>父の事について尋ねますと、先祖の一人が憑依していると言うので御座居ます。<br><br>この事実を父は更に否定し反対致します。<br><br>この際、一時他の場所に出て開業させて戴く事は差支えないで御座居ましょうか。<br><br>御垂示御願い致します。<br><br> なお、父は最近、光明如来様の前では眠れないと言い、毎晩、板の間に薄縁（うすべり）を敷き休んでおります。<br><br>毎日御浄霊を受けているので御座居ますが、一日も早く改心し、御観音様の御恵みにお報い奉る事が出来ますよう御守護御願い申し上げます。<br><br> 憑依霊が苦しいのである。<br><br>お守をかけただけで苦しいのがある。<br><br> 祝詞、御讃歌、信仰雑話を聞かすのがいい。<br><br>（S24. 5. 9） 019 受教しての精神病、（狐霊） 以前看護婦をした当年三十五歳になる女、神経衰弱と云われ、四年前教修を頂き、御浄霊を続けている間はさほどでなかったのですが、昨年頃よりだんだん悪くなり、ほとんど喋らず頭を軽く上下に振り、口を動かしていつも口に手を当てうつむいております。<br><br>良い時は普通に仕事をし御光を頂いておりますが、悪くなると御光を取り右のような状態になり、蒲団の上に坐っております。<br><br>御浄霊を非常に嫌がり逃げ回ります。<br><br>以前看護婦の免状を取る時稲荷を信仰したとの事で御座いますが、やはり狐霊で御座いましょうか。<br><br>なお、逃げ回るものはどうしたらよろしいのでございましょうか。<br><br>右、御教示御願い申し上げます。<br><br> 狐霊の精神病である。<br><br>祝詞がよい。<br><br>善言讃詞、御讃歌等がよい。<br><br>逃げ回る時はしない方がよい。<br><br> 教修が早すぎたため、本当に治らぬ。<br><br>（S24. 7. 3） 020 入信して精神病 ある夫人が入信されましたが、祖父が反対してお光を取り上げて自分でお光をかけております。<br><br>その後、夫と共に精神病となりましたが、祖父は何事も御座いません。<br><br>精神病の夫婦はいつも仏壇に向って礼拝しております。<br><br>祖霊の戒告と思われますが、この場合どう致しましたら宜敷う御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> 狐である。<br><br>こういう事を経なければ救われぬ人である。<br><br>浄霊してやってればよくなる。<br><br>それから教修を受ける。<br><br>（S24. 8. 1） 021 入信して家族発狂と浄化 一家全部教修を頂きかつ光明如来様をお祭りしてあります家庭、この家は分家ですが、お仏壇にはお屏風も頂いてお祭りして御座います。<br><br>また稲荷その他の神様等はお祭りした事はありません。<br><br>三年前に縁談の事で長女発狂致し、最近母親が軽い中風で倒れましたが、御守護によりどうやら回復致しましたところ、またまた本月八日の朝父親発狂致し盛んに狂暴性を発揮致しております。<br><br>御浄霊を致します時は大変鎮静致し、今迄の不信仰を詫びたり致します。<br><br>何か特別の障りが御座いましょうか。<br><br> いずれ起るべき浄化である。<br><br>結構である。<br><br>（S24. 9.13） 022 入信後精神病となる、（九尾の像） 会員鈴木忠（三十一歳）鈴木五月（二十八歳）兄弟、教修を頂きましたとたんに気が変になり、霊が浮きました。<br><br>この家には古くから神棚に山車の飾物用のはりこの金毛九尾の狐が祀ってございます。<br><br>初めは白狐でございましたが、この狐を方々へ貸す習わしにて、途中にて金に塗られ、その後神棚へ納めました。<br><br>現在は家の裏の稲荷のほこらの脇に九本の尾ははずして祀ってございます。<br><br>なお、父は脳溢血にて死亡、一家中皆多少気が変のようです。<br><br>右の御浄化の霊的意味及び狐の処置につき御垂示御願い申し上げます。<br><br> 相当の狐がいる。<br><br>白狐はいい。<br><br>金に塗ったため金毛九尾の眷族が憑いた。<br><br>何か要求がある。<br><br>聞いてみよ。<br><br>（S25. 1.18） 023 入信しっ放しと浄化（再浄化） 四十五歳の男子（眼科医、昨年入信）最初肝臓浄化し黄疸になりましたが、御浄霊により回復、その後しゃっくりが連続的に十日間続き、未だに止まず、体も相当衰弱しております。<br><br>狐霊がついてるように思われ、昨日から御浄霊を嫌うようになりました。<br><br>医師は十二指腸潰瘍と云い、食欲はありません。<br><br>御救い頂けましょうか。<br><br> 入信しっ放しでは何にもならぬ。<br><br>人を救う力とやり方を覚えるにすぎぬ。<br><br>それっきりでは何にもならぬ。<br><br>それを生かさなくてはいけない。<br><br>応用しなければいけない。<br><br>それをせねば生存の価値はない。<br><br> その理で、まず難しい。<br><br>治そうとしても駄目だ。<br><br>遠ざかるべきである。<br><br> 先に歯医者で、倅は眼科医で、石鹸毒で目がつぶれそうなのが治り、講習受けたが、それが家内にも秘密だという。<br><br>知れると医師会から除名されるという。<br><br>（遠藤仁護）西田博士――。<br><br> rattail（注） 〔 ある眼科医の話･医学談片集 『光』34号、昭和24(1949)年11月5日発行〕 024 浄化続発と過誤の存在（喉痛） 私は一昨年光明如来様を御祭りさせて戴きました。<br><br>昨年四月三日、四歳の女児が死亡し、本年春母親が腸に塊が出来、沢山に増えてそれが段々大きくなって死亡致しました。<br><br>また、長女（十六歳）が本年の五月肋骨カリエスにて死亡し、この度夫は咽喉が痛み声が出ず、それに水気が咽喉を通らず、頭や胃等が時々痛み、この頃は一週間ばかり便秘し、臥しております。<br><br>どうしたら御救いを戴けましょうか。<br><br>御教え願います。<br><br> 教修の受けっ放しか、何か間違った事があるに違いない。<br><br>入信後の状態を記せ。<br><br> 喉は厄介である。<br><br>浄霊がよく通らぬといけない。<br><br>（S24. 6. 7） 025 入信して極度の不幸 昨年一月入信した婦人の家庭ですが、戦災後の苦しい中を九人家族全員あらゆるものを倹約し御光を受け光明如来様も御祭りさせて頂きました。<br><br>主人は肺結核のため昨年十月亡くなりました。<br><br>ところが十二月も大晦日の日、長男と長女が争いの末、長女が脇腹を蹴られたのが原因で丁度肺炎のような状態になり、遂には父のごとくになり、母の懸命の浄霊の甲斐もなく去る八月六日永眠致しました。<br><br> 二ケ月前、下から二番目の男の子を他家にやりました所その後その子の御守が紛失し、また一番下の女の子も他家にやる話になりましたが、その子も御守を紛失し、かつどちらも袋だけ返って参りました。<br><br>長女は最後迄浄霊を受けつつ、しかも一番本教の話も分りよいと思っておりましたが、死体は実に焼きにくく「オンボー焼き」は、この人は栄養失調だったと云ったそうですが、長女には父の霊が憑ったのでしょうか。<br><br>御守は本部の指示により長女と共に焼かせて頂きました。<br><br>何分のお訓し御願い申し上げます。<br><br> 余程大きな罪を背負っていて、何か間違った事がある。<br><br>間違った事を査べよ。<br><br> 祖先が神様に御無礼するとこんな事がある。<br><br>（S24. 8.15） 026 入信後の不幸 私方では本年四月観音様の尊いお話を伺い、早速私始め家内、長女、三女、四名が入信、光明如来様もお迎え致しました。<br><br>以来長女（二十一歳）はお道の御用をさせて戴いておりましたところ、八月、近所の肺病の娘さんを浄霊中死亡し、その後長女は頭脳が変になり、その娘さんの死霊や家の先祖の霊等が色々と憑り、現在では精神病そのものです。<br><br>大変浄霊や御祀りを好み、突然夜中に起きて祝詞、善言讃詞等を奏上します。<br><br>また家内一同疥癬が出ております。<br><br>いかなる訳でしょうか。<br><br>いかにすれば良くなりましょうか。<br><br> 浄化である。<br><br>入信してからはいろんな事がある。<br><br>入信すると掃除が始まるのである。<br><br>それで悩みや苦しみがある。<br><br>大掃除があり、それを通り越すとお蔭を戴く。<br><br>大掃除は現実的にはやはり迷う。<br><br>長女の頭脳は治る。<br><br>疥癬も仕方ない。<br><br>峠を越せばよい。<br><br>今度は本当に良い事が多くなる。<br><br>（S24.11.25） 027 浄化と神の都合、（最近の疥癬） 最近疥癬の御浄化が下火のように思えますが、いかがな理由によるもので御座居ましょうか。<br><br> 種々神様の方に御都合があるから、どうと決める事は出来ぬ。<br><br>観音会の人達は一段落した。<br><br>今後、宗教的にするには大いに浄めなくてはならぬから、二、三年疥癬が起ったのである。<br><br>ただ、こういう事はいえる。<br><br>疥癬の浄化の時は浄化もおだやかであったが、浄化が激しくなると、もっと外の症状になる。<br><br>未だ未だどんな形になって出るか判らない。<br><br>ただでは済まぬ事は事実である。<br><br>今の人間の体内の毒は大変なものであるが、いかなるものかは、すべて神の都合によるものと思う。<br><br>（S23. 8.12） 028 入信と浄化 御光を戴いてより体全面にタムシの御浄化を戴き、今なお続いておます。<br><br>霊的のものでしょうか、体的のものでしょうか。<br><br> これは疥癬である。<br><br>田虫のような、天然痘のような、はしかのような、いろいろある。<br><br>入信すると、霊の曇りが出る。<br><br>故に信仰熱心になると疥癬が出るのであるから、霊的でもあり、体的でもある。<br><br> 信仰は、神秘探求が旺盛でなければならぬ。<br><br> 029 入信しての流産、（入信後の出来事は吉事） 妹で御座いますが、約二ケ月程前より浄霊させて戴きましたが、当時妊娠中で、この一日、生れましてすぐ死んでしまいましたが、このような子供はどのような因縁で御座居ましょうか。<br><br>よく沢山の方が御浄霊を戴いて安産し、子供も丈夫の方を聞いておりますが、妹の場合はいかなるもので御座いましょうか。<br><br> 簡単には言えぬ。<br><br>生れ代る場合執着のあるのが早く生れ代る。<br><br>そういうのは不具か低能で、一家を幸福にする元にならぬ。<br><br>そういう者が宿った場合（生れぬ方が幸せだし、御守護により流産したりする）浄霊すると害を与えぬようになる。<br><br>これは大変なおかげで、これが流産などする。<br><br>また、妻君に毒血の多い場合、毒を除るために流産させる。<br><br>毒血を除るためには流産は良い方法である。<br><br>入信して流産する人は、皆毒をとって頂く。<br><br> 入信してからの事はすべて良い方へ解釈すると合ってゆく。<br><br>（S24. 2. 4） 030 入信後の流産 三十歳の初妊婦（信者）、妊娠三ケ月にて、薄い古血のような下り物がありましたので、御浄霊を続けておりましたところ、約半月位経って流産致しました。<br><br>胎盤の左上方部に人差指位の固まりがあり、それを破きましたところ、毒血の固まりが出ました。<br><br>このために流産致しましたのでしょうか。<br><br>お伺い申し上げます。<br><br> そうかもしれない。<br><br>しかし、信仰へ入っての流産はよい。<br><br>罪が除れる。<br><br>（S25. 5.23） 031 高発熱三日にて死せる子 生後七ケ月の子供、一月十五日の朝突然熱が出て三日煩って死にました。<br><br>身体が火傷のようでした。<br><br>霊的に関係がありましょうか。<br><br> 入信後の事であるから、母体の薬毒に因る。<br><br>母体の薬毒の浄化である。<br><br> 子供を使って薬毒を出させる神様の思召であろう。<br><br>（S24. 1.26）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>— Coletânea de Teses do Mestre Jikan Okada —</h2>
 <h2>Purificações Após o Ingresso na Fé</h2>
@@ -151,5 +303,48 @@ Todos os acontecimentos posteriores ao ingresso na Fé, quando interpretados de 
 <p><strong>031. Criança que faleceu após três dias de febre alta</strong></p>
 <p>Uma criança de sete meses, no dia 15 de janeiro pela manhã, teve uma febre súbita e, após três dias de enfermidade, faleceu. Seu corpo parecia ter sofrido uma queimadura. Haveria alguma relação espiritual?</p>
 <p>Como ocorreu após o ingresso na Fé, a causa reside nas toxinas medicamentosas do corpo da mãe. É uma purificação das toxinas maternas. Provavelmente, foi a Vontade de Deus utilizar a criança para expelir essas toxinas. (26 de janeiro de 1949)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 信仰篇 （入信、信仰上の悩み） ２ 015-031 入信後の浄化 015 入信して金欲出づ 今年六十三歳になります私の母、今まで数々の御恵みを賜わり一生懸命信仰いたしておりましたが、最近に至り、大先生様の御神影及び御神体には有難いと礼拝致しておりますが、大先生様の御事になりますと非常にきらうようになり、地上天国及び光新聞も拝読する間がないと申して戴かず、ただ金をためる事のみに汲々としてまいりました。<br/><br/>私も余りの変り方に驚いております。<br/><br/>いかなる訳でございましょうか。<br/><br/> 霊が憑った。<br/><br/>執着をとるために神様がやった。<br/><br/>病気と同じ事で、浮かして処理した方がよい。<br/><br/>（S24.10. 9） 016 入信後浪費癖出た青年 十八歳の青年、非常に金使いが荒く母親（二十三年九月入信）を悩ましておりましたが、昭和二十三年十二月入信以来性格も良くなり、一教導所を受持って熱心に布教に従事させて頂いておりましたが、最近また前の癖が出て参り一般信徒の信頼が薄らいで参りました。<br/><br/>いかなる訳で御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 罪が残っているからで、このままにしておけばよい。<br/><br/>祖先の霊が憑って使わす場合が多い。<br/><br/>（S *. 7. 8） 017 信仰急変 本年五十二歳の男、二月十八日に入信、三月に大先生に御面会させて頂き熱心に御手伝いに従事している方の妻ですが、一年前入信し熱心に御仕事をさせて頂いたのに、主人が御面会より帰るや反対するようになり、主人の浄霊は受けますが、外の家族の者の浄霊も致しません。<br/><br/>妻の反対するのは、妻の実家の方に何か霊的原因があるように思われますが、いかがなもので御座いましょうか。<br/><br/>また、光明如来様を御迎え致したいと申しておりますが、妻の反対を押し切ってお迎えして宜敷いでしょうか。<br/><br/>あわせて御伺い申し上げます。<br/><br/> 大先生の神様をみて驚いて改心した。<br/><br/>（S24. 9.28） 018 信仰心境一変・反対者となる 大先生様の御霊徳によりまして、家族一同教修を戴き、四月二十一日より自宅で開業させて戴きました。<br/><br/>すると今迄熱心に人に勧めていました父（五十三歳、葬儀商）は、三日目より心境が変り、突然反対するようになり、家族の者の信仰を止めさせようと致しますので、色々な手段を取りましたが、一向に解りません。<br/><br/>すると五月二日、霊的である事が分りました。<br/><br/>それは信者、三好秀造さんがお出でになりまして、頭痛がすると言われますので御浄霊致しますと、市川家の先祖が現れました。<br/><br/>父の事について尋ねますと、先祖の一人が憑依していると言うので御座居ます。<br/><br/>この事実を父は更に否定し反対致します。<br/><br/>この際、一時他の場所に出て開業させて戴く事は差支えないで御座居ましょうか。<br/><br/>御垂示御願い致します。<br/><br/> なお、父は最近、光明如来様の前では眠れないと言い、毎晩、板の間に薄縁（うすべり）を敷き休んでおります。<br/><br/>毎日御浄霊を受けているので御座居ますが、一日も早く改心し、御観音様の御恵みにお報い奉る事が出来ますよう御守護御願い申し上げます。<br/><br/> 憑依霊が苦しいのである。<br/><br/>お守をかけただけで苦しいのがある。<br/><br/> 祝詞、御讃歌、信仰雑話を聞かすのがいい。<br/><br/>（S24. 5. 9） 019 受教しての精神病、（狐霊） 以前看護婦をした当年三十五歳になる女、神経衰弱と云われ、四年前教修を頂き、御浄霊を続けている間はさほどでなかったのですが、昨年頃よりだんだん悪くなり、ほとんど喋らず頭を軽く上下に振り、口を動かしていつも口に手を当てうつむいております。<br/><br/>良い時は普通に仕事をし御光を頂いておりますが、悪くなると御光を取り右のような状態になり、蒲団の上に坐っております。<br/><br/>御浄霊を非常に嫌がり逃げ回ります。<br/><br/>以前看護婦の免状を取る時稲荷を信仰したとの事で御座いますが、やはり狐霊で御座いましょうか。<br/><br/>なお、逃げ回るものはどうしたらよろしいのでございましょうか。<br/><br/>右、御教示御願い申し上げます。<br/><br/> 狐霊の精神病である。<br/><br/>祝詞がよい。<br/><br/>善言讃詞、御讃歌等がよい。<br/><br/>逃げ回る時はしない方がよい。<br/><br/> 教修が早すぎたため、本当に治らぬ。<br/><br/>（S24. 7. 3） 020 入信して精神病 ある夫人が入信されましたが、祖父が反対してお光を取り上げて自分でお光をかけております。<br/><br/>その後、夫と共に精神病となりましたが、祖父は何事も御座いません。<br/><br/>精神病の夫婦はいつも仏壇に向って礼拝しております。<br/><br/>祖霊の戒告と思われますが、この場合どう致しましたら宜敷う御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> 狐である。<br/><br/>こういう事を経なければ救われぬ人である。<br/><br/>浄霊してやってればよくなる。<br/><br/>それから教修を受ける。<br/><br/>（S24. 8. 1） 021 入信して家族発狂と浄化 一家全部教修を頂きかつ光明如来様をお祭りしてあります家庭、この家は分家ですが、お仏壇にはお屏風も頂いてお祭りして御座います。<br/><br/>また稲荷その他の神様等はお祭りした事はありません。<br/><br/>三年前に縁談の事で長女発狂致し、最近母親が軽い中風で倒れましたが、御守護によりどうやら回復致しましたところ、またまた本月八日の朝父親発狂致し盛んに狂暴性を発揮致しております。<br/><br/>御浄霊を致します時は大変鎮静致し、今迄の不信仰を詫びたり致します。<br/><br/>何か特別の障りが御座いましょうか。<br/><br/> いずれ起るべき浄化である。<br/><br/>結構である。<br/><br/>（S24. 9.13） 022 入信後精神病となる、（九尾の像） 会員鈴木忠（三十一歳）鈴木五月（二十八歳）兄弟、教修を頂きましたとたんに気が変になり、霊が浮きました。<br/><br/>この家には古くから神棚に山車の飾物用のはりこの金毛九尾の狐が祀ってございます。<br/><br/>初めは白狐でございましたが、この狐を方々へ貸す習わしにて、途中にて金に塗られ、その後神棚へ納めました。<br/><br/>現在は家の裏の稲荷のほこらの脇に九本の尾ははずして祀ってございます。<br/><br/>なお、父は脳溢血にて死亡、一家中皆多少気が変のようです。<br/><br/>右の御浄化の霊的意味及び狐の処置につき御垂示御願い申し上げます。<br/><br/> 相当の狐がいる。<br/><br/>白狐はいい。<br/><br/>金に塗ったため金毛九尾の眷族が憑いた。<br/><br/>何か要求がある。<br/><br/>聞いてみよ。<br/><br/>（S25. 1.18） 023 入信しっ放しと浄化（再浄化） 四十五歳の男子（眼科医、昨年入信）最初肝臓浄化し黄疸になりましたが、御浄霊により回復、その後しゃっくりが連続的に十日間続き、未だに止まず、体も相当衰弱しております。<br/><br/>狐霊がついてるように思われ、昨日から御浄霊を嫌うようになりました。<br/><br/>医師は十二指腸潰瘍と云い、食欲はありません。<br/><br/>御救い頂けましょうか。<br/><br/> 入信しっ放しでは何にもならぬ。<br/><br/>人を救う力とやり方を覚えるにすぎぬ。<br/><br/>それっきりでは何にもならぬ。<br/><br/>それを生かさなくてはいけない。<br/><br/>応用しなければいけない。<br/><br/>それをせねば生存の価値はない。<br/><br/> その理で、まず難しい。<br/><br/>治そうとしても駄目だ。<br/><br/>遠ざかるべきである。<br/><br/> 先に歯医者で、倅は眼科医で、石鹸毒で目がつぶれそうなのが治り、講習受けたが、それが家内にも秘密だという。<br/><br/>知れると医師会から除名されるという。<br/><br/>（遠藤仁護）西田博士――。<br/><br/> rattail（注） 〔 ある眼科医の話･医学談片集 『光』34号、昭和24(1949)年11月5日発行〕 024 浄化続発と過誤の存在（喉痛） 私は一昨年光明如来様を御祭りさせて戴きました。<br/><br/>昨年四月三日、四歳の女児が死亡し、本年春母親が腸に塊が出来、沢山に増えてそれが段々大きくなって死亡致しました。<br/><br/>また、長女（十六歳）が本年の五月肋骨カリエスにて死亡し、この度夫は咽喉が痛み声が出ず、それに水気が咽喉を通らず、頭や胃等が時々痛み、この頃は一週間ばかり便秘し、臥しております。<br/><br/>どうしたら御救いを戴けましょうか。<br/><br/>御教え願います。<br/><br/> 教修の受けっ放しか、何か間違った事があるに違いない。<br/><br/>入信後の状態を記せ。<br/><br/> 喉は厄介である。<br/><br/>浄霊がよく通らぬといけない。<br/><br/>（S24. 6. 7） 025 入信して極度の不幸 昨年一月入信した婦人の家庭ですが、戦災後の苦しい中を九人家族全員あらゆるものを倹約し御光を受け光明如来様も御祭りさせて頂きました。<br/><br/>主人は肺結核のため昨年十月亡くなりました。<br/><br/>ところが十二月も大晦日の日、長男と長女が争いの末、長女が脇腹を蹴られたのが原因で丁度肺炎のような状態になり、遂には父のごとくになり、母の懸命の浄霊の甲斐もなく去る八月六日永眠致しました。<br/><br/> 二ケ月前、下から二番目の男の子を他家にやりました所その後その子の御守が紛失し、また一番下の女の子も他家にやる話になりましたが、その子も御守を紛失し、かつどちらも袋だけ返って参りました。<br/><br/>長女は最後迄浄霊を受けつつ、しかも一番本教の話も分りよいと思っておりましたが、死体は実に焼きにくく「オンボー焼き」は、この人は栄養失調だったと云ったそうですが、長女には父の霊が憑ったのでしょうか。<br/><br/>御守は本部の指示により長女と共に焼かせて頂きました。<br/><br/>何分のお訓し御願い申し上げます。<br/><br/> 余程大きな罪を背負っていて、何か間違った事がある。<br/><br/>間違った事を査べよ。<br/><br/> 祖先が神様に御無礼するとこんな事がある。<br/><br/>（S24. 8.15） 026 入信後の不幸 私方では本年四月観音様の尊いお話を伺い、早速私始め家内、長女、三女、四名が入信、光明如来様もお迎え致しました。<br/><br/>以来長女（二十一歳）はお道の御用をさせて戴いておりましたところ、八月、近所の肺病の娘さんを浄霊中死亡し、その後長女は頭脳が変になり、その娘さんの死霊や家の先祖の霊等が色々と憑り、現在では精神病そのものです。<br/><br/>大変浄霊や御祀りを好み、突然夜中に起きて祝詞、善言讃詞等を奏上します。<br/><br/>また家内一同疥癬が出ております。<br/><br/>いかなる訳でしょうか。<br/><br/>いかにすれば良くなりましょうか。<br/><br/> 浄化である。<br/><br/>入信してからはいろんな事がある。<br/><br/>入信すると掃除が始まるのである。<br/><br/>それで悩みや苦しみがある。<br/><br/>大掃除があり、それを通り越すとお蔭を戴く。<br/><br/>大掃除は現実的にはやはり迷う。<br/><br/>長女の頭脳は治る。<br/><br/>疥癬も仕方ない。<br/><br/>峠を越せばよい。<br/><br/>今度は本当に良い事が多くなる。<br/><br/>（S24.11.25） 027 浄化と神の都合、（最近の疥癬） 最近疥癬の御浄化が下火のように思えますが、いかがな理由によるもので御座居ましょうか。<br/><br/> 種々神様の方に御都合があるから、どうと決める事は出来ぬ。<br/><br/>観音会の人達は一段落した。<br/><br/>今後、宗教的にするには大いに浄めなくてはならぬから、二、三年疥癬が起ったのである。<br/><br/>ただ、こういう事はいえる。<br/><br/>疥癬の浄化の時は浄化もおだやかであったが、浄化が激しくなると、もっと外の症状になる。<br/><br/>未だ未だどんな形になって出るか判らない。<br/><br/>ただでは済まぬ事は事実である。<br/><br/>今の人間の体内の毒は大変なものであるが、いかなるものかは、すべて神の都合によるものと思う。<br/><br/>（S23. 8.12） 028 入信と浄化 御光を戴いてより体全面にタムシの御浄化を戴き、今なお続いておます。<br/><br/>霊的のものでしょうか、体的のものでしょうか。<br/><br/> これは疥癬である。<br/><br/>田虫のような、天然痘のような、はしかのような、いろいろある。<br/><br/>入信すると、霊の曇りが出る。<br/><br/>故に信仰熱心になると疥癬が出るのであるから、霊的でもあり、体的でもある。<br/><br/> 信仰は、神秘探求が旺盛でなければならぬ。<br/><br/> 029 入信しての流産、（入信後の出来事は吉事） 妹で御座いますが、約二ケ月程前より浄霊させて戴きましたが、当時妊娠中で、この一日、生れましてすぐ死んでしまいましたが、このような子供はどのような因縁で御座居ましょうか。<br/><br/>よく沢山の方が御浄霊を戴いて安産し、子供も丈夫の方を聞いておりますが、妹の場合はいかなるもので御座いましょうか。<br/><br/> 簡単には言えぬ。<br/><br/>生れ代る場合執着のあるのが早く生れ代る。<br/><br/>そういうのは不具か低能で、一家を幸福にする元にならぬ。<br/><br/>そういう者が宿った場合（生れぬ方が幸せだし、御守護により流産したりする）浄霊すると害を与えぬようになる。<br/><br/>これは大変なおかげで、これが流産などする。<br/><br/>また、妻君に毒血の多い場合、毒を除るために流産させる。<br/><br/>毒血を除るためには流産は良い方法である。<br/><br/>入信して流産する人は、皆毒をとって頂く。<br/><br/> 入信してからの事はすべて良い方へ解釈すると合ってゆく。<br/><br/>（S24. 2. 4） 030 入信後の流産 三十歳の初妊婦（信者）、妊娠三ケ月にて、薄い古血のような下り物がありましたので、御浄霊を続けておりましたところ、約半月位経って流産致しました。<br/><br/>胎盤の左上方部に人差指位の固まりがあり、それを破きましたところ、毒血の固まりが出ました。<br/><br/>このために流産致しましたのでしょうか。<br/><br/>お伺い申し上げます。<br/><br/> そうかもしれない。<br/><br/>しかし、信仰へ入っての流産はよい。<br/><br/>罪が除れる。<br/><br/>（S25. 5.23） 031 高発熱三日にて死せる子 生後七ケ月の子供、一月十五日の朝突然熱が出て三日煩って死にました。<br/><br/>身体が火傷のようでした。<br/><br/>霊的に関係がありましょうか。<br/><br/> 入信後の事であるから、母体の薬毒に因る。<br/><br/>母体の薬毒の浄化である。<br/><br/> 子供を使って薬毒を出させる神様の思召であろう。<br/><br/>（S24. 1.26）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

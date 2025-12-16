@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>reikai09</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊界の存在 自観叢書第3編『霊界叢談』P.5、昭和24(1949)年8月25日発行 そもそも、人間は何がためにこの世に生まれて来たものであろうか。<br><br>この事をまず認識せねばならない。<br><br>それは神は地上経綸の目的たる理想世界を建設せんがため人間を造り、それぞれの使命を与え、神の意図のままに活動させ給うのである。<br><br>原始時代から今日のごとき絢爛（けんらん）たる文化時代に進展せしめたのも、現代のごとき人間智能の発達もそれがために外ならない。<br><br>そうして人間なる高等生物は素より、他のあらゆる生物否植物、鉱物、その他形体を有する限りのあらゆる物質は霊と体の二要素によって形成されたものであって、いかなる物といえども霊が分離すれば亡滅するのであるが、ここでは人間のみについて説明してみよう。<br><br>そもそも人間の肉体は老衰、病気、大出血等によって使用に堪え得なくなった場合、霊は肉体を捨てて離脱し、霊界に赴き霊界人となり霊界生活が始まるのである。<br><br>これは世界いかなる人種も同様で、その例として第一次欧州大戦後英国において当時の紙価を高からしめたオリヴァー・ロッジ卿の名著「死後の生存」であるが、その内容は著者ロッジ卿の息子が欧州戦争に出征し、ベルギーにおいて戦死し、その霊が父ロッジ卿に対し種々の手段をもって霊界通信をおびただしく贈った、それの記録であって、当時各国人は争って読み、それが動機となって霊界研究は俄然として勃興し、研究熱が盛んになると共に、優秀なる霊媒も続出したのである。<br><br>また彼の有名なるベルギーの文豪青い鳥の著者故メーテルリンク氏も心霊の実在を知って、彼の有名なる運命観は一変し、心霊学徒として熱心な研究に入ったという事は、その方面に誰知らぬ者もない事実である。<br><br>しかもその後フランスのワード博士の名著霊界探検記が出版され、心霊研究はいよいよ盛んになったという事である。<br><br>ワード博士に到っては霊界探究がすこぶる徹底的で、同博士は一週に一回一時間位、椅子に座したまま無我の境地に入り、霊界へ赴くのである。<br><br>その際博士の伯父の霊が博士の霊を引連れ霊界のあらゆる方面に対し、つぶさに霊界の実相を指示教導されて出来た記録であるが、その際友人知己の霊も種々の指導的役割をなし、博士の霊界知識を豊富にしたという事である。<br><br>これはなかなか興味もあり、霊界生活を知る上において大いに参考になるから、読者は一度読まれん事を望むのである。<br><br>もちろん西洋の霊界は日本とは余程相違のある点はやむを得ないが、私は最後において、日本及び泰西（たいせい）における霊界事象を種々の実例をもって解説するつもりである。<br><br> 十数年前、英国よりの通信によれば同国においては数百の心霊研究会が生まれて盛んに活動しつつある事や、心霊大学まで創設されたという事を聞及んでいたが、その後大戦のためいかようになったか、今日の実状を知りたいと思っている。<br><br> さて霊界の種々相について漸次説いてみよう。<br><br> （注） 泰西（たいせい）、西洋諸国。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Existência do Mundo Espiritual</h2>
 <p>Antes de mais nada, cumpre-nos indagar: com que propósito o ser humano vem a este mundo? É imperativo que, primeiramente, tenhamos a devida compreensão sobre essa questão. A resposta reside no fato de que Deus, para construir o Mundo Ideal, que é o objetivo de Seu Plano Divino para a Terra, criou o ser humano, concedeu a cada um sua respectiva missão e o faz atuar em conformidade com Sua Vontade. O avanço desde a era primitiva até a esplendorosa era cultural de nossos dias, bem como o notável desenvolvimento da inteligência humana na atualidade, não têm outro propósito senão este.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Naturalmente, existem diferenças consideráveis e inevitáveis entre o Mundo Espiritual do Ocidente e o do Japão. Oportunamente, tenciono elucidar, com base em diversos exemplos práticos, os fenômenos espirituais que se manifestam tanto no Japão quanto no Ocidente, ou Taisei (泰西).</p>
 <p>Há mais de uma década, chegaram-me notícias do Reino Unido de que centenas de sociedades de pesquisa espiritual haviam sido fundadas e estavam em plena atividade, tendo-se estabelecido, inclusive, uma universidade dedicada a esses estudos. Gostaria muito de saber, no entanto, qual o destino de tais iniciativas após a recente Grande Guerra e qual a sua situação nos dias de hoje.</p>
 <p>Feitas essas considerações, passarei a discorrer paulatinamente sobre as diversas facetas do Mundo Espiritual.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊界の存在 自観叢書第3編『霊界叢談』P.5、昭和24(1949)年8月25日発行 そもそも、人間は何がためにこの世に生まれて来たものであろうか。<br/><br/>この事をまず認識せねばならない。<br/><br/>それは神は地上経綸の目的たる理想世界を建設せんがため人間を造り、それぞれの使命を与え、神の意図のままに活動させ給うのである。<br/><br/>原始時代から今日のごとき絢爛（けんらん）たる文化時代に進展せしめたのも、現代のごとき人間智能の発達もそれがために外ならない。<br/><br/>そうして人間なる高等生物は素より、他のあらゆる生物否植物、鉱物、その他形体を有する限りのあらゆる物質は霊と体の二要素によって形成されたものであって、いかなる物といえども霊が分離すれば亡滅するのであるが、ここでは人間のみについて説明してみよう。<br/><br/>そもそも人間の肉体は老衰、病気、大出血等によって使用に堪え得なくなった場合、霊は肉体を捨てて離脱し、霊界に赴き霊界人となり霊界生活が始まるのである。<br/><br/>これは世界いかなる人種も同様で、その例として第一次欧州大戦後英国において当時の紙価を高からしめたオリヴァー・ロッジ卿の名著「死後の生存」であるが、その内容は著者ロッジ卿の息子が欧州戦争に出征し、ベルギーにおいて戦死し、その霊が父ロッジ卿に対し種々の手段をもって霊界通信をおびただしく贈った、それの記録であって、当時各国人は争って読み、それが動機となって霊界研究は俄然として勃興し、研究熱が盛んになると共に、優秀なる霊媒も続出したのである。<br/><br/>また彼の有名なるベルギーの文豪青い鳥の著者故メーテルリンク氏も心霊の実在を知って、彼の有名なる運命観は一変し、心霊学徒として熱心な研究に入ったという事は、その方面に誰知らぬ者もない事実である。<br/><br/>しかもその後フランスのワード博士の名著霊界探検記が出版され、心霊研究はいよいよ盛んになったという事である。<br/><br/>ワード博士に到っては霊界探究がすこぶる徹底的で、同博士は一週に一回一時間位、椅子に座したまま無我の境地に入り、霊界へ赴くのである。<br/><br/>その際博士の伯父の霊が博士の霊を引連れ霊界のあらゆる方面に対し、つぶさに霊界の実相を指示教導されて出来た記録であるが、その際友人知己の霊も種々の指導的役割をなし、博士の霊界知識を豊富にしたという事である。<br/><br/>これはなかなか興味もあり、霊界生活を知る上において大いに参考になるから、読者は一度読まれん事を望むのである。<br/><br/>もちろん西洋の霊界は日本とは余程相違のある点はやむを得ないが、私は最後において、日本及び泰西（たいせい）における霊界事象を種々の実例をもって解説するつもりである。<br/><br/> 十数年前、英国よりの通信によれば同国においては数百の心霊研究会が生まれて盛んに活動しつつある事や、心霊大学まで創設されたという事を聞及んでいたが、その後大戦のためいかようになったか、今日の実状を知りたいと思っている。<br/><br/> さて霊界の種々相について漸次説いてみよう。<br/><br/> （注） 泰西（たいせい）、西洋諸国。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

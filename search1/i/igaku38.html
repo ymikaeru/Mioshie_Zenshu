@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>igaku38</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学の罪悪観 『栄光』172号、昭和27(1952)年9月3日発行 この標題を見たら、第三者としては余りの意外な言葉に、唖然として私の頭脳を疑うかも知れない。<br><br>しかし私にして始めて言える言葉で、他のいかなる人も言う資格はないであろう。<br><br>なぜなれば現在の世界はそのことごとくの民族は、現代医学をもって無上のものと信じ、いささかの疑いもなく、貴重な生命を委せている現状であるからである。<br><br>そのような中にあって、私一人が医学をもって罪悪視するとしたら、一体いかなる理由であるか知りたいであろう。<br><br> しかしながらこのような大胆な事を言い得るには、言い得るだけの確信がなくてはならないはずで、今それを詳しくかいてみよう。<br><br>まず病気に対する考え方である。<br><br>私は長年にわたって現代医学のあらゆる欠点を指摘し、特に薬剤を主とする療法を、縦横無尽に解剖し、医学のごとき、だろう的かき方ではなく、断定的に解説するのであるから、いかに確信に満ちているかは言うまでもない。<br><br>私としても医学に対してあえて怨恨がある訳ではなく、邪念などは寸毫もないのはもちろんであるが、私という者は人類救済の大命を神から委任されている以上、区々（くく）たる感情や、自己の利害など顧慮する事は出来ないので、ありのままの神示を発表するに過ぎないので、この点充分諒せられたいのである。<br><br> そうして私は医学の欠陥を知らされたばかりでなく、神から空前の治病力すなわち神の霊光放射の方法をも与えられたのであるから、それを自由に行使して、大衆を救いつつあるのである。<br><br>これは事実が遺憾なく示している。<br><br>従ってそれを直接見ないとしても、本教出版物に御蔭話として、無数に発表してある報告を一読すれば、一点の疑う余地はあるまい。<br><br>まずその効果を正直にいえば、医学の治病力一に対して、本教の治病力は百といってもいささかも過言ではない。<br><br>ではなぜそのような素晴しい治病成績を上げ得るかというと病原が正確に判ると共に、右のごとき偉大なる神霊光線によるためである。<br><br> これによってこれを見れば、現代医学では病気は決して治せないのに、治せるものと誤信している事である。<br><br>そのため全世界の専門家はあらゆる努力を傾け、病原の発見や治療に予防に懸命になっており、特に新薬の発見は並々ならぬ研究と発見に智能を絞っているにかかわらず、その効果たるやことごとく一時的であるのは、何よりも後から後から新薬が出るにみて明らかである。<br><br>ところがそれに目覚めない医学者は、現在の学理を進歩させさえすれば、解決出来るものと信じているその盲点で、これを私からみれば実に無益な努力を続けている勿体なさである。<br><br>いつもいう通り、医療は病毒を固めて出さないようにし、一時的苦痛緩和を治るものと錯覚している事で、真に治る方法である病毒を溶解し、排泄させる事を知らないのである。<br><br>もっとも知っても方法がないから、どうにもならないが、何よりも現代医療は治るように見えても治らず、むしろ段々悪化の経路をたどる事で、しかも医師も治そうとして熱心に治療するにかかわらず、結果は逆であるのはもちろんである。<br><br>また医師が見込をつけても見込通りになる事は滅多にないと共に、患者に色々訊かれても、明瞭な答は出来ないのは、誰も知る通りである。<br><br> このような事は吾々が言わずとも、医師諸君も充分知っているであろう。<br><br>従って医師諸君も医療では余りに治らず、予想が外れたり、患者から不平を言われたりするので、その苦衷（くちゅう）は容易なものではないと、以前某医博の述懐を聞いた事がある。<br><br>そうかといって外に病気を治す確実な方法も見当らないから、不満ながらも医学を棄てる訳にもゆかず噛（かじ）りついているのが現状であろう。<br><br> ここで言わなければならない事がある。<br><br>それは本教浄霊に来る患者の数は年々増加して、今日は全国で非常な数に上っているが、重難症患者は一人の例外なく、医療の結果そうなったというのである。<br><br>これらを吾々からみると、最初から何もせず放っておけばすでに治っていたのであるが、医療を受けたために悪化に悪化しつつ重難症となり、ついに死の一歩手前にまで追い詰められた、この種の人のいかに多いかは、膚（はだえ）に粟（あわ）を生ずるくらいである。<br><br>特に薬剤を多く用いた者程、悪化の度もはなはだしいのであるがら、知らぬ事とは言いながら由々しき大問題である。<br><br>吾々は、いつも新規の患者に向かって言うのである。<br><br>貴方達は薬という毒を服んで、危ないところまでになり、本教へ縋って来るのであるから言わば自殺未遂者である、というと、患者は目を丸くする。<br><br>従って本当の事が分ったら、医学はプラスよりも、マイナスの方がどのくらい多いか分らないのであるから、標題の意味は分ったであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Perspectiva Pecaminosa da Medicina</h2>
 <p>Ao se depararem com este título, muitos certamente se espantarão com a audácia de minhas palavras, a ponto de duvidarem de minha sanidade. Contudo, esta é uma afirmação que somente eu posso fazer; ninguém mais possui a qualificação para proferi-la. E por quê? Porque, na atualidade, todos os povos do mundo, sem exceção, creem que a medicina moderna é o bem supremo e a ela confiam suas preciosas vidas, sem o menor resquício de dúvida. Diante desse cenário, é natural que se indague qual seria a razão para que, em meio a tantos, apenas eu considere a medicina um mal.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Neste ponto, algo precisa ser dito. O número de pessoas que buscam o Johrei em nossa Igreja aumenta a cada ano, atingindo hoje uma quantidade impressionante em todo o país. E, sem uma única exceção, os que chegam até nós em estado grave ou com doenças de difícil tratamento chegaram a essa condição como resultado de intervenções médicas. Do nosso ponto de vista, se essas pessoas não tivessem feito absolutamente nada desde o início, já estariam curadas. Contudo, por terem se submetido a tratamentos, seu estado se agravou progressivamente, transformando-se em casos complexos e severos, até serem levadas à beira da morte. A quantidade de pessoas nessa situação é de causar arrepios. Nota-se, em especial, que quanto mais medicamentos utilizaram, mais grave é o seu estado. Embora atuem por ignorância, trata-se de um problema da mais alta gravidade.</p>
 <p>Eu costumo dizer aos que chegam pela primeira vez: "Senhores, ao ingerirem venenos disfarçados de remédios, vocês chegaram à beira do abismo e, em desespero, recorreram à nossa Igreja. Em certo sentido, são como sobreviventes de uma tentativa de suicídio." Diante disso, os pacientes me olham, atônitos.</p>
 <p>Portanto, ao se compreender a verdade, percebe-se que os prejuízos da medicina superam, e muito, seus benefícios. Creio que, com isso, o significado do título deste artigo se tornou claro.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学の罪悪観 『栄光』172号、昭和27(1952)年9月3日発行 この標題を見たら、第三者としては余りの意外な言葉に、唖然として私の頭脳を疑うかも知れない。<br/><br/>しかし私にして始めて言える言葉で、他のいかなる人も言う資格はないであろう。<br/><br/>なぜなれば現在の世界はそのことごとくの民族は、現代医学をもって無上のものと信じ、いささかの疑いもなく、貴重な生命を委せている現状であるからである。<br/><br/>そのような中にあって、私一人が医学をもって罪悪視するとしたら、一体いかなる理由であるか知りたいであろう。<br/><br/> しかしながらこのような大胆な事を言い得るには、言い得るだけの確信がなくてはならないはずで、今それを詳しくかいてみよう。<br/><br/>まず病気に対する考え方である。<br/><br/>私は長年にわたって現代医学のあらゆる欠点を指摘し、特に薬剤を主とする療法を、縦横無尽に解剖し、医学のごとき、だろう的かき方ではなく、断定的に解説するのであるから、いかに確信に満ちているかは言うまでもない。<br/><br/>私としても医学に対してあえて怨恨がある訳ではなく、邪念などは寸毫もないのはもちろんであるが、私という者は人類救済の大命を神から委任されている以上、区々（くく）たる感情や、自己の利害など顧慮する事は出来ないので、ありのままの神示を発表するに過ぎないので、この点充分諒せられたいのである。<br/><br/> そうして私は医学の欠陥を知らされたばかりでなく、神から空前の治病力すなわち神の霊光放射の方法をも与えられたのであるから、それを自由に行使して、大衆を救いつつあるのである。<br/><br/>これは事実が遺憾なく示している。<br/><br/>従ってそれを直接見ないとしても、本教出版物に御蔭話として、無数に発表してある報告を一読すれば、一点の疑う余地はあるまい。<br/><br/>まずその効果を正直にいえば、医学の治病力一に対して、本教の治病力は百といってもいささかも過言ではない。<br/><br/>ではなぜそのような素晴しい治病成績を上げ得るかというと病原が正確に判ると共に、右のごとき偉大なる神霊光線によるためである。<br/><br/> これによってこれを見れば、現代医学では病気は決して治せないのに、治せるものと誤信している事である。<br/><br/>そのため全世界の専門家はあらゆる努力を傾け、病原の発見や治療に予防に懸命になっており、特に新薬の発見は並々ならぬ研究と発見に智能を絞っているにかかわらず、その効果たるやことごとく一時的であるのは、何よりも後から後から新薬が出るにみて明らかである。<br/><br/>ところがそれに目覚めない医学者は、現在の学理を進歩させさえすれば、解決出来るものと信じているその盲点で、これを私からみれば実に無益な努力を続けている勿体なさである。<br/><br/>いつもいう通り、医療は病毒を固めて出さないようにし、一時的苦痛緩和を治るものと錯覚している事で、真に治る方法である病毒を溶解し、排泄させる事を知らないのである。<br/><br/>もっとも知っても方法がないから、どうにもならないが、何よりも現代医療は治るように見えても治らず、むしろ段々悪化の経路をたどる事で、しかも医師も治そうとして熱心に治療するにかかわらず、結果は逆であるのはもちろんである。<br/><br/>また医師が見込をつけても見込通りになる事は滅多にないと共に、患者に色々訊かれても、明瞭な答は出来ないのは、誰も知る通りである。<br/><br/> このような事は吾々が言わずとも、医師諸君も充分知っているであろう。<br/><br/>従って医師諸君も医療では余りに治らず、予想が外れたり、患者から不平を言われたりするので、その苦衷（くちゅう）は容易なものではないと、以前某医博の述懐を聞いた事がある。<br/><br/>そうかといって外に病気を治す確実な方法も見当らないから、不満ながらも医学を棄てる訳にもゆかず噛（かじ）りついているのが現状であろう。<br/><br/> ここで言わなければならない事がある。<br/><br/>それは本教浄霊に来る患者の数は年々増加して、今日は全国で非常な数に上っているが、重難症患者は一人の例外なく、医療の結果そうなったというのである。<br/><br/>これらを吾々からみると、最初から何もせず放っておけばすでに治っていたのであるが、医療を受けたために悪化に悪化しつつ重難症となり、ついに死の一歩手前にまで追い詰められた、この種の人のいかに多いかは、膚（はだえ）に粟（あわ）を生ずるくらいである。<br/><br/>特に薬剤を多く用いた者程、悪化の度もはなはだしいのであるがら、知らぬ事とは言いながら由々しき大問題である。<br/><br/>吾々は、いつも新規の患者に向かって言うのである。<br/><br/>貴方達は薬という毒を服んで、危ないところまでになり、本教へ縋って来るのであるから言わば自殺未遂者である、というと、患者は目を丸くする。<br/><br/>従って本当の事が分ったら、医学はプラスよりも、マイナスの方がどのくらい多いか分らないのであるから、標題の意味は分ったであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

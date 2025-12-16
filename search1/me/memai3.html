@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>memai3</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 眩暈及び不眠症 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 眩暈（めまい）は非常に多い病気であるが、医学では全然不明とされてゐる。<br><br>然し、この原因は、実に簡単明瞭である。<br><br> 眩暈には二つの原因がある。<br><br>一つは、右側後頸部延髄附近に毒素の溜結があつてそれが眼球へ送流する血管を圧迫するのである。<br><br>即ち眼が物体を視るといふ事は、視神経の活動であるが、その活動のエネルギーは、絶間なく送流する血液があるからである。<br><br>然るにその送血管が、毒素固結の為圧迫される場合送血量が減少するので、その血量減少の刹那視神経が弱り、視力が薄れるといふ訳である。<br><br>右の毒素の固結は、第一浄化作用によつて固結が強化されるのであるが、その作用が不定的であるため、その都度視力が弱り、又、強まるといふやうに、刹那的間歇（かんけつ）的である為それが眩暈の症状となるので、此原因が最も多いのである。<br><br> 今一つは、前額部から眼球附近に滞溜する毒素の浄化作用として、常に微熱が発生するのである。<br><br>その微熱が視力を動揺させるのでそれは丁度、発熱や頭痛の際、又は酒に酔つた時、又はストーブや焚火の火に直射した時眩暈するのと同様の理であるが、之は至つて少ないのである。<br><br> 次に、不眠症であるが、此原因も簡単明瞭である。<br><br>之は、眩暈の原因と殆んど同一であつて、眩暈の固結は間歇的であるが、之は、そういふ事がなく、定状的に血管を圧迫し、脳貧血を起すのであつて、此原因による脳貧血は神経過敏症になり、それからそれへと、物を考えがちになるのである。<br><br>故に、私が治療の頃、右の溜結毒素を溶解するに於て、適確に短時日に快癒し、例外なく全部成功したのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Causa da Vertigem e da Insônia</h2>
 <p>A vertigem é uma enfermidade de grande incidência, todavia, é considerada pela medicina uma condição de causa totalmente desconhecida. Contudo, sua origem é, na verdade, notavelmente simples e clara.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>A solidificação desses nódulos de toxinas é intensificada pelo processo de purificação primária. Como essa ação purificadora se dá de maneira inconstante, a acuidade visual oscila a cada vez que ela ocorre, ora enfraquecendo, ora se restabelecendo. É precisamente essa alternância momentânea e intermitente que se manifesta como o sintoma da vertigem, sendo esta, aliás, a sua causa mais frequente.</p>
 <p>A segunda causa está associada ao processo de purificação de toxinas acumuladas na região frontal e ao redor dos globos oculares, o qual gera um estado febril sutil e constante. Tal estado perturba a capacidade visual, seguindo um princípio análogo ao da vertigem que se manifesta em episódios de febre, dores de cabeça, estado de embriaguez ou ao nos expormos diretamente ao calor de um aquecedor ou fogueira. Todavia, esta etiologia é consideravelmente mais rara.</p>
 <p>Passemos agora à insônia, cuja causa é igualmente simples e clara. Ela é praticamente idêntica à da vertigem, com uma diferença fundamental: enquanto no caso da vertigem a compressão exercida pelos nódulos é intermitente, na insônia essa pressão sobre os vasos sanguíneos se dá de forma contínua, ocasionando uma anemia cerebral. A anemia cerebral decorrente dessa condição provoca um estado de hipersensibilidade nervosa, que, por sua vez, desencadeia um fluxo contínuo e irrefreável de pensamentos. Por essa razão, na época em que eu realizava tratamentos, ao dissolver os referidos nódulos de toxinas, obtinha a plena recuperação dos pacientes de forma precisa e em um curto espaço de tempo, alcançando o sucesso em todos os casos, sem uma única exceção.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 眩暈及び不眠症 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 眩暈（めまい）は非常に多い病気であるが、医学では全然不明とされてゐる。<br/><br/>然し、この原因は、実に簡単明瞭である。<br/><br/> 眩暈には二つの原因がある。<br/><br/>一つは、右側後頸部延髄附近に毒素の溜結があつてそれが眼球へ送流する血管を圧迫するのである。<br/><br/>即ち眼が物体を視るといふ事は、視神経の活動であるが、その活動のエネルギーは、絶間なく送流する血液があるからである。<br/><br/>然るにその送血管が、毒素固結の為圧迫される場合送血量が減少するので、その血量減少の刹那視神経が弱り、視力が薄れるといふ訳である。<br/><br/>右の毒素の固結は、第一浄化作用によつて固結が強化されるのであるが、その作用が不定的であるため、その都度視力が弱り、又、強まるといふやうに、刹那的間歇（かんけつ）的である為それが眩暈の症状となるので、此原因が最も多いのである。<br/><br/> 今一つは、前額部から眼球附近に滞溜する毒素の浄化作用として、常に微熱が発生するのである。<br/><br/>その微熱が視力を動揺させるのでそれは丁度、発熱や頭痛の際、又は酒に酔つた時、又はストーブや焚火の火に直射した時眩暈するのと同様の理であるが、之は至つて少ないのである。<br/><br/> 次に、不眠症であるが、此原因も簡単明瞭である。<br/><br/>之は、眩暈の原因と殆んど同一であつて、眩暈の固結は間歇的であるが、之は、そういふ事がなく、定状的に血管を圧迫し、脳貧血を起すのであつて、此原因による脳貧血は神経過敏症になり、それからそれへと、物を考えがちになるのである。<br/><br/>故に、私が治療の頃、右の溜結毒素を溶解するに於て、適確に短時日に快癒し、例外なく全部成功したのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

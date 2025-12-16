@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kyotoka2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,61 +241,55 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 兇党界 『天国の福音』昭和22(1947)年2月5日発行 兇党界とは悪魔の世界であって、一名邪神界ともいう。<br><br>この団体は常に正神と対抗し続けている。<br><br>正神の方に八百万の神あるごとく、邪神の方にも八百万ある。<br><br>そうして正神は善を行わんとするに対し、邪神は悪を行わんとし常に相対峙している。<br><br>ちょうど人間が心中において良心と邪念が対抗し闘争しているようなものである。<br><br>元来人間には先天的神から与えられたる霊魂――これを本守護神といい、後天的憑依せる霊魂――これを副守護神という。<br><br>そうして本守護神には常に正神界から霊線を通じて良心が伝流され、また副守護神には邪神界から霊線によって、邪念を伝流して来る。<br><br>そもそも万有の生成化有は相反する二元素、すなわち陰陽、明暗、火水等の摩擦と融和によるのである。<br><br>この理によって人間といえども善悪両面の活動によって力が発生し、それによって人間天賦（てんぷ）の使命を遂行し得らるるのである。<br><br>故にこの場合悪といえどもいわば必要悪である。<br><br>何となれば本守護神は良心的本質によって善を想い善を行うに反し、副守護神は悪に属するもの、すなわち体欲の本質を発揮するからである。<br><br>体欲とは所有欲、優越欲、独占欲、名誉欲、贅沢欲等々の物欲である。<br><br>彼のニーチェはこれを本能欲といった。<br><br>従ってこの本能欲がある限界を越ゆる時罪悪を構成する。<br><br>故にこの制御こそ人間社会の秩序と安寧を保ち得る条件である。<br><br>この理によって本能欲が人間の活動を発生させ、良心がそれを制限する事によって人間の幸福と栄えがある、社会の進歩があるのである。<br><br> しかるに今日まで夜の世界であったため、邪神の力が強かったという事は、正神の制御力が弱かったという意味になる。<br><br>それが今日のごとき不幸に満ちた人類社会の現出とはなったのである。<br><br>しかるに昼の世界になるに従って逆になる結果、善の力が主となり悪が従となる。<br><br>悪が従となるという事は悪ではない事になる。<br><br>何となれば、善の支配力の下に置かれるからである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Mundo dos Espíritos Malignos</h2>
 <p>O Mundo dos Espíritos Malignos é a esfera do demônio. Essa legião de espíritos opõe-se continuamente aos Espíritos Divinos. Assim como existem incontáveis Espíritos Divinos, existem também incontáveis Espíritos Malignos. E enquanto os Espíritos Divinos buscam praticar o bem, os Espíritos Malignos se empenham em praticar o mal, mantendo-se em constante oposição. Tal conflito assemelha-se à luta que se trava no coração humano entre a consciência e os pensamentos ignóbeis.</p>
 <p>Essencialmente, o ser humano é dotado de uma alma inata, concedida por Deus — a qual denominamos Espírito Protetor Primordial — e de uma alma que a ele se acopla posteriormente — o Espírito Protetor Secundário. Por meio de um elo espiritual, o Espírito Protetor Primordial recebe continuamente a consciência proveniente do Mundo Divino, enquanto ao Espírito Protetor Secundário são transmitidos, por via semelhante, os pensamentos ignóbeis oriundos do Mundo dos Espíritos Malignos.</p>
 <p>A própria gênese de tudo o que existe no Universo decorre do atrito e da harmonização de dois elementos opostos, como o princípio yin e yang, a luz e a escuridão, o fogo e a água. Seguindo esse mesmo princípio, também no ser humano a força vital é gerada pela atividade de suas duas facetas, o bem e o mal, e é por meio dessa força que ele se torna capaz de cumprir a missão que lhe foi divinamente atribuída. Portanto, nesse contexto, o mal pode ser considerado, por assim dizer, um mal necessário. Isso ocorre porque, em contraste com o Espírito Protetor Primordial, que concebe e pratica o bem a partir de sua essência conscienciosa, o Espírito Protetor Secundário manifesta a natureza dos desejos carnais. Tais desejos incluem a ânsia de posse, o anseio por superioridade, a cobiça pelo monopólio, a busca por honrarias e a inclinação ao luxo, entre outras formas de apego material. O filósofo Nietzsche referiu-se a eles como desejos instintivos. Consequentemente, quando esse anseio instintivo ultrapassa um determinado limite, ele se configura como pecado. O controle sobre tal impulso é, pois, a condição fundamental para a manutenção da ordem e da paz na sociedade humana. É por essa lógica que a felicidade e a prosperidade humanas, bem como o progresso da sociedade, florescem: os anseios instintivos geram a atividade, enquanto a consciência a restringe.</p>
 <p>Contudo, como até hoje o mundo esteve imerso na Era da Noite, o poder dos Espíritos Malignos prevaleceu, o que significa que a força de contenção dos Espíritos Divinos era débil. Foi essa a causa da manifestação da sociedade humana atual, repleta de infortúnios. Todavia, com a transição para a Era do Dia, a situação se inverte: o poder do bem se tornará primordial, e o do mal, secundário. E quando o mal assume uma posição secundária, ele deixa de ser, em essência, o mal. Isso se dá porque ele passa a estar submetido ao poder dominante do bem.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 兇党界 『天国の福音』昭和22(1947)年2月5日発行 兇党界とは悪魔の世界であって、一名邪神界ともいう。<br/><br/>この団体は常に正神と対抗し続けている。<br/><br/>正神の方に八百万の神あるごとく、邪神の方にも八百万ある。<br/><br/>そうして正神は善を行わんとするに対し、邪神は悪を行わんとし常に相対峙している。<br/><br/>ちょうど人間が心中において良心と邪念が対抗し闘争しているようなものである。<br/><br/>元来人間には先天的神から与えられたる霊魂――これを本守護神といい、後天的憑依せる霊魂――これを副守護神という。<br/><br/>そうして本守護神には常に正神界から霊線を通じて良心が伝流され、また副守護神には邪神界から霊線によって、邪念を伝流して来る。<br/><br/>そもそも万有の生成化有は相反する二元素、すなわち陰陽、明暗、火水等の摩擦と融和によるのである。<br/><br/>この理によって人間といえども善悪両面の活動によって力が発生し、それによって人間天賦（てんぷ）の使命を遂行し得らるるのである。<br/><br/>故にこの場合悪といえどもいわば必要悪である。<br/><br/>何となれば本守護神は良心的本質によって善を想い善を行うに反し、副守護神は悪に属するもの、すなわち体欲の本質を発揮するからである。<br/><br/>体欲とは所有欲、優越欲、独占欲、名誉欲、贅沢欲等々の物欲である。<br/><br/>彼のニーチェはこれを本能欲といった。<br/><br/>従ってこの本能欲がある限界を越ゆる時罪悪を構成する。<br/><br/>故にこの制御こそ人間社会の秩序と安寧を保ち得る条件である。<br/><br/>この理によって本能欲が人間の活動を発生させ、良心がそれを制限する事によって人間の幸福と栄えがある、社会の進歩があるのである。<br/><br/> しかるに今日まで夜の世界であったため、邪神の力が強かったという事は、正神の制御力が弱かったという意味になる。<br/><br/>それが今日のごとき不幸に満ちた人類社会の現出とはなったのである。<br/><br/>しかるに昼の世界になるに従って逆になる結果、善の力が主となり悪が従となる。<br/><br/>悪が従となるという事は悪ではない事になる。<br/><br/>何となれば、善の支配力の下に置かれるからである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

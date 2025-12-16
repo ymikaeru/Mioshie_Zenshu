@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>yuibut3</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 唯物主義と唯心主義 『光』4号、昭和24(1949)年4月8日発行 本教が発展するにつれて予想もしない事が次々起こって来る、それは本教の発展に対し嫉視する者、敵意を持つ者等あらゆる方法をもって妨害しようとするのである、その手段として彼らが一番用うる戦術は当局者に向かって投書する事である、その投書たるや実に荒唐無稽のはなはだしいところではない、吾らの全然知らない事や虚構に満ちたもの、中には反対に書くものもある、ちょうど小説や脚本を読むような感じである、このような邪悪なる手段をもって傷つけんとする彼らの意図は何がためであろうか、実に不可解極まると共にかような邪悪によって目的が達せらるると思うその浅間しさが問題である、そうして投書するくらいの人間とすれば、相当の教育を受けたものである事はもちろんで、まずインテリ層に属する者ともいえよう。<br><br> 日本人中に、かくのごとき邪悪が成功すると思う思想の持主が相当あるという事は実に寒心に堪えないところで、新日本建設などはいつの日か、前途遼遠を想わしむるものがある、しからばこのような不徳漢（ふとくかん）の絶えない原因はどこにあるかを大いに検討してみると、この最大原因としては何よりも教育に重大欠陥がある事である、何となれば投書家には青年がすこぶる多いというにあるからで、それは全く唯物主義一点張りの思想を注入されるためである。<br><br> 元来唯物主義とは見えざるものは信ずべからずという信念によるのでそれが大中小学を通じて長期間注入されるのであるから一種の危険思想の卵が作られる訳である、ゆえに彼らは正不正の区別などはテンデ頭に置こうともしない、ただ利欲のためには虚偽も不正も邪悪も問うどころではない、何とかして自己の目的を達すればそれでいいというのであるから実に恐るべき事だ、しかも驚くべき事は、社会の指導階級である国務大臣や大会社の社長級までが、同様の虚偽不正を行い小菅行となるのであるから、他は推して知るべきである、どうしてもこの際大浄化を行い日本人全体を自覚させ、道義的向上を計らなくては国家危ういかなというべきである、それには何よりもまず徹底的に唯物主義を打破するより外に方法はない、そうするにはいかにしても宗教の力によらなければ絶対不可能である事を痛感するのである。<br><br> しからばなぜ宗教の力によらなければならないかというに、それは見えざるものを信ずるという信念である、ところがそれは宗教のみの分野であって人の眼は誤魔化し得ても神の眼は誤魔化せない、否自分の眼さえ蔽い隠す事は出来ない、悪事は必ず暴露する、正義は必ず成功するという悪因悪果、善因善果の真諦を徹底的に青年層に植付ける事である、それに対しては、宗教家の熱と力である事はもちろんであって、特に望むところは当局においてもそれら悪質投書家に迷わされざるよう充分戒心されん事である、もっとも一口に宗教といっても正邪の差別もあるから、これらに対しても鋭い批判の眼を向ける事はもちろんである。<br><br> 最後に言いたい事はシャーナリストに対してである、彼らの大部分は唯物主義のカンカン者が多いので、この面からの悪影響も見逃し難いところである。<br><br> これについていつも思う事は、彼の野蛮人に対し空気の存在を知らしても信じないそうである、見えないという理由によってである、と同様の感は唯物主義者に神霊の実在を語る時もそうである。<br><br> (注) 不徳漢（ふとくかん）、漢は男を指す。<br><br>不心得者、悪人。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Materialismo e o Espiritualismo</h2>
 <p>À medida que nossa Obra se expande, deparamo-nos com ocorrências imprevistas que se manifestam sucessivamente. Trata-se de indivíduos que, movidos pela inveja e pela hostilidade, tentam obstruir nosso avanço por todos os meios. O principal estratagema por eles empregado consiste em enviar cartas difamatórias às autoridades. Tais correspondências atingem o cúmulo do absurdo e do fantasioso, repletas de fatos que desconhecemos por completo e de invenções tão engenhosas que, por vezes, chegam a inverter a realidade, assemelhando-se à leitura de um romance ou de uma peça teatral.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Resta indagar: por que é necessário recorrer ao poder da religião? A resposta reside na fé no invisível. Este é um domínio exclusivo da religião, pois é possível enganar os olhos humanos, mas jamais os olhos de Deus. Não, nem mesmo de nossa própria consciência é possível se ocultar. É preciso semear profundamente na consciência dos jovens a verdade essencial de que as más ações inevitavelmente se revelam e a justiça sempre prevalece; a verdade do princípio de causa e efeito: do mal provém o mal, e do bem, o bem.</p>
 <p>Para tal empreitada, o fervor e a força dos religiosos são, naturalmente, indispensáveis. Faço, contudo, um apelo especial às autoridades para que exerçam máxima vigilância e não se deixem iludir por esses caluniadores. Evidentemente, ao se falar em religião, é preciso considerar que existem as verdadeiras e as falsas, sendo necessário, portanto, manter um olhar crítico e aguçado para discerni-las.</p>
 <p>Por fim, gostaria de dirigir uma palavra aos jornalistas. A maioria deles é composta por materialistas ferrenhos, e sua influência deletéria não pode ser ignorada. Isso sempre me faz recordar algo que se costuma dizer: ao se tentar explicar a existência do ar a um homem de um povo primitivo, ele não acredita, pela simples razão de não poder vê-lo. Experimento uma sensação análoga ao falar com um materialista sobre a existência de Deus e do Mundo Espiritual.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 唯物主義と唯心主義 『光』4号、昭和24(1949)年4月8日発行 本教が発展するにつれて予想もしない事が次々起こって来る、それは本教の発展に対し嫉視する者、敵意を持つ者等あらゆる方法をもって妨害しようとするのである、その手段として彼らが一番用うる戦術は当局者に向かって投書する事である、その投書たるや実に荒唐無稽のはなはだしいところではない、吾らの全然知らない事や虚構に満ちたもの、中には反対に書くものもある、ちょうど小説や脚本を読むような感じである、このような邪悪なる手段をもって傷つけんとする彼らの意図は何がためであろうか、実に不可解極まると共にかような邪悪によって目的が達せらるると思うその浅間しさが問題である、そうして投書するくらいの人間とすれば、相当の教育を受けたものである事はもちろんで、まずインテリ層に属する者ともいえよう。<br/><br/> 日本人中に、かくのごとき邪悪が成功すると思う思想の持主が相当あるという事は実に寒心に堪えないところで、新日本建設などはいつの日か、前途遼遠を想わしむるものがある、しからばこのような不徳漢（ふとくかん）の絶えない原因はどこにあるかを大いに検討してみると、この最大原因としては何よりも教育に重大欠陥がある事である、何となれば投書家には青年がすこぶる多いというにあるからで、それは全く唯物主義一点張りの思想を注入されるためである。<br/><br/> 元来唯物主義とは見えざるものは信ずべからずという信念によるのでそれが大中小学を通じて長期間注入されるのであるから一種の危険思想の卵が作られる訳である、ゆえに彼らは正不正の区別などはテンデ頭に置こうともしない、ただ利欲のためには虚偽も不正も邪悪も問うどころではない、何とかして自己の目的を達すればそれでいいというのであるから実に恐るべき事だ、しかも驚くべき事は、社会の指導階級である国務大臣や大会社の社長級までが、同様の虚偽不正を行い小菅行となるのであるから、他は推して知るべきである、どうしてもこの際大浄化を行い日本人全体を自覚させ、道義的向上を計らなくては国家危ういかなというべきである、それには何よりもまず徹底的に唯物主義を打破するより外に方法はない、そうするにはいかにしても宗教の力によらなければ絶対不可能である事を痛感するのである。<br/><br/> しからばなぜ宗教の力によらなければならないかというに、それは見えざるものを信ずるという信念である、ところがそれは宗教のみの分野であって人の眼は誤魔化し得ても神の眼は誤魔化せない、否自分の眼さえ蔽い隠す事は出来ない、悪事は必ず暴露する、正義は必ず成功するという悪因悪果、善因善果の真諦を徹底的に青年層に植付ける事である、それに対しては、宗教家の熱と力である事はもちろんであって、特に望むところは当局においてもそれら悪質投書家に迷わされざるよう充分戒心されん事である、もっとも一口に宗教といっても正邪の差別もあるから、これらに対しても鋭い批判の眼を向ける事はもちろんである。<br/><br/> 最後に言いたい事はシャーナリストに対してである、彼らの大部分は唯物主義のカンカン者が多いので、この面からの悪影響も見逃し難いところである。<br/><br/> これについていつも思う事は、彼の野蛮人に対し空気の存在を知らしても信じないそうである、見えないという理由によってである、と同様の感は唯物主義者に神霊の実在を語る時もそうである。<br/><br/> (注) 不徳漢（ふとくかん）、漢は男を指す。<br/><br/>不心得者、悪人。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

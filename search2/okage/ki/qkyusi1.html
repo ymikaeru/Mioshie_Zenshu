@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qkyusi1</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 九死に一生を得て 『地上天国』2号、昭和24(1949)年3月1日発行 自観叢書第4篇『奇蹟物語』昭和24(1949)年10月5日 神奈川県 日本観音教明成会会長 教師 小林秀二郎 大先生の御霊徳を拝み奉りて、薄学非才の身も顧みず、私の体験を発表させて頂きますが御霊徳の万分の一も表現出来得ません事を遺憾と思います。<br><br> 私は昭和十五年四月十八日、玉川の御邸において、大先生より直接講習を頂きました（当時は岡田式浄化療法時代でありました）。<br><br>爾来私を始め家族一同数知れぬ程絶大なる御恵みを頂いて参りました。<br><br>その御恵みの万分の一の御恩報じも出来ませぬ中にまたまた広大無辺なる御恵みに浴しただただ感泣致す次第であります。<br><br>この私の貴重なる体験が皆様の御神業の一助ともなれば誠に幸甚と存じます。<br><br> 時は本年弥生も終らんとする二十七日午前六時三十二分、小田原駅頭における浄化作用であります。<br><br>唯物万能の現代人には想像もつかぬ一大椿事！ ただ人は不可思議の言葉を連発するのみであります。<br><br>私は教修を頼まれ、三月二十三日小田原駅出発無事任務を終え、二十六日丹後管野駅発混雑の汽車に揺れながら乗換三回十五時間をほとんど立ち続けで、しかも四日間の睡眠不足も加わり身体はヘトヘトでありました。<br><br>フト早川駅にて眼を醒ましました。<br><br>早川を渡ったら下車の準備をと思ううち再び眠りに入りガタンという衝戟に「はっ」として眼を醒ますと既に小田原駅を走り出しております。<br><br>これは大変と立ち上りざま荷物を抱えてデッキに出ますと、丁度一人の青年が飛乗りをなし、そのため二、三秒間を要したので速力は加わる、左手に荷物を提げ、右手は手摺を握ったまま列車と共に五、六歩走った時、ホームの後から危い！ 危い！ 手をはなせ！ 手をはなせという声が聞えるが、どうした事か握った手が容易に離れません。<br><br>やっとの思いで放した瞬間、俯伏せに倒れ同時に列車とホームの間に両大腿部を捲込まれ一回半回転致し列車から離脱致しました。<br><br>列車とホームの距離は四、五寸位、その間へ体重十八貫の両大腿部が捲込まれ一回半も転走、列車の左斜後方へ身体が方向転換の上離脱したのは全く奇蹟中の奇蹟、勿論列車は急停車しましたが、一人の駅員も近づかぬ中に私は上体を起し、両足を見ますと、左足の靴は指の付根から、足の土不踏まで、鋭利な刃物で切断したごとく破損し、甲部も又一寸程破れ、ホックは飛び去り、直視出来ぬ程の悲惨な状態！ その破れ目より露出せる足先を見て「ヤラレタ」と思いながら静かに指圧してみましたが不思議も不思議、靴下も破損せず負傷もせず、無論痛みも感じません。<br><br>御霊徳だ！ 御守護だ！ 嗚呼有難い！ 瞬間、私は全身全霊が感電したように痙攣を覚えました。<br><br>直ぐ起立して服の塵をはらいますと、ふと右大腿部外側へ右の手が入り、初めてズボンの破損に気付き、驚愕し、更にまた、広大無辺の御霊徳により九死に一生を得た余りの有難さに感激の涙さえも出ませんでした。<br><br> 帰宅して光明如来様に跪伏して始めて吾に返り、感謝感激の涙はとめどもなく膝を濡らし、家族一同呆然自失共に号泣し、大先生の方角へ向って御礼を言上致しました。<br><br> 当日午後、誠に御無礼とは存じましたが、その時の服装のままにて熱海の御邸へ御礼に馳せ参じましたところ、光明如来様御揮毫中にも拘らず、拝顔の栄を賜わり、当時の状況を逐一言上致しましたところ、大先生には「嗚呼ぁ、危なかったね、良かったね」と有難い御言葉を賜りました。<br><br>その時の感激は私には到底筆舌には表現出来ません。<br><br>私は何たる幸運児でしょう。<br><br>罪穢の多い私に、かくのごとき大いなる御恵みを賜るとは想像も出来ません。<br><br>私は日本一の果報者であると思いつつ発表させて頂きます事を誇りといたすものであります。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Uma vida resgatada às portas da morte</h2>
 <p><em>Publicado na revista “Paraíso Terrestre”, nº 2, em 1º de março de 1949.</em>
@@ -105,5 +260,48 @@ function toggleLang(lang) {
 <p>Ao retornar para casa, foi somente ao me ajoelhar perante a Imagem de Kōmyō Nyorai-sama (光明如来様) que retomei a consciência de mim mesmo. As lágrimas de gratidão e emoção jorraram sem cessar, molhando minhas roupas. Minha família, atônita, chorou comigo em prantos, e juntos, voltados para a direção onde se encontrava o Grande Mestre, proferimos nossas palavras de agradecimento.</p>
 <p>Na tarde do mesmo dia, embora ciente da imensa ousadia, dirigi-me apressadamente à residência do Grande Mestre em Atami para expressar minha gratidão, vestindo as mesmas roupas do acidente. Apesar de Sua Senhoria estar em meio à caligrafia de uma Obra, fui honrado com a graça de ser recebido. Relatei-lhe detalhadamente as circunstâncias do ocorrido, ao que o Grande Mestre respondeu com Suas preciosas palavras: “Ah, que perigo... Que bom que está bem”. A emoção que senti naquele momento transcende qualquer tentativa de expressão por meio de palavras ou da escrita.</p>
 <p>Que ser afortunado sou eu! Jamais poderia imaginar que a mim, uma pessoa com tantas máculas e pecados, fosse concedida uma graça tão extraordinária. É com profundo orgulho que apresento este relato, convicto de ser o homem mais abençoado do Japão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 九死に一生を得て 『地上天国』2号、昭和24(1949)年3月1日発行 自観叢書第4篇『奇蹟物語』昭和24(1949)年10月5日 神奈川県 日本観音教明成会会長 教師 小林秀二郎 大先生の御霊徳を拝み奉りて、薄学非才の身も顧みず、私の体験を発表させて頂きますが御霊徳の万分の一も表現出来得ません事を遺憾と思います。<br/><br/> 私は昭和十五年四月十八日、玉川の御邸において、大先生より直接講習を頂きました（当時は岡田式浄化療法時代でありました）。<br/><br/>爾来私を始め家族一同数知れぬ程絶大なる御恵みを頂いて参りました。<br/><br/>その御恵みの万分の一の御恩報じも出来ませぬ中にまたまた広大無辺なる御恵みに浴しただただ感泣致す次第であります。<br/><br/>この私の貴重なる体験が皆様の御神業の一助ともなれば誠に幸甚と存じます。<br/><br/> 時は本年弥生も終らんとする二十七日午前六時三十二分、小田原駅頭における浄化作用であります。<br/><br/>唯物万能の現代人には想像もつかぬ一大椿事！ ただ人は不可思議の言葉を連発するのみであります。<br/><br/>私は教修を頼まれ、三月二十三日小田原駅出発無事任務を終え、二十六日丹後管野駅発混雑の汽車に揺れながら乗換三回十五時間をほとんど立ち続けで、しかも四日間の睡眠不足も加わり身体はヘトヘトでありました。<br/><br/>フト早川駅にて眼を醒ましました。<br/><br/>早川を渡ったら下車の準備をと思ううち再び眠りに入りガタンという衝戟に「はっ」として眼を醒ますと既に小田原駅を走り出しております。<br/><br/>これは大変と立ち上りざま荷物を抱えてデッキに出ますと、丁度一人の青年が飛乗りをなし、そのため二、三秒間を要したので速力は加わる、左手に荷物を提げ、右手は手摺を握ったまま列車と共に五、六歩走った時、ホームの後から危い！ 危い！ 手をはなせ！ 手をはなせという声が聞えるが、どうした事か握った手が容易に離れません。<br/><br/>やっとの思いで放した瞬間、俯伏せに倒れ同時に列車とホームの間に両大腿部を捲込まれ一回半回転致し列車から離脱致しました。<br/><br/>列車とホームの距離は四、五寸位、その間へ体重十八貫の両大腿部が捲込まれ一回半も転走、列車の左斜後方へ身体が方向転換の上離脱したのは全く奇蹟中の奇蹟、勿論列車は急停車しましたが、一人の駅員も近づかぬ中に私は上体を起し、両足を見ますと、左足の靴は指の付根から、足の土不踏まで、鋭利な刃物で切断したごとく破損し、甲部も又一寸程破れ、ホックは飛び去り、直視出来ぬ程の悲惨な状態！ その破れ目より露出せる足先を見て「ヤラレタ」と思いながら静かに指圧してみましたが不思議も不思議、靴下も破損せず負傷もせず、無論痛みも感じません。<br/><br/>御霊徳だ！ 御守護だ！ 嗚呼有難い！ 瞬間、私は全身全霊が感電したように痙攣を覚えました。<br/><br/>直ぐ起立して服の塵をはらいますと、ふと右大腿部外側へ右の手が入り、初めてズボンの破損に気付き、驚愕し、更にまた、広大無辺の御霊徳により九死に一生を得た余りの有難さに感激の涙さえも出ませんでした。<br/><br/> 帰宅して光明如来様に跪伏して始めて吾に返り、感謝感激の涙はとめどもなく膝を濡らし、家族一同呆然自失共に号泣し、大先生の方角へ向って御礼を言上致しました。<br/><br/> 当日午後、誠に御無礼とは存じましたが、その時の服装のままにて熱海の御邸へ御礼に馳せ参じましたところ、光明如来様御揮毫中にも拘らず、拝顔の栄を賜わり、当時の状況を逐一言上致しましたところ、大先生には「嗚呼ぁ、危なかったね、良かったね」と有難い御言葉を賜りました。<br/><br/>その時の感激は私には到底筆舌には表現出来ません。<br/><br/>私は何たる幸運児でしょう。<br/><br/>罪穢の多い私に、かくのごとき大いなる御恵みを賜るとは想像も出来ません。<br/><br/>私は日本一の果報者であると思いつつ発表させて頂きます事を誇りといたすものであります。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jinkou4</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人口問題 『結核問題ト其解決策』昭和17(1942)年12月13日初版発行 今日、世界の文明国において、最も重要なる問題として関心を払われつゝあるものは何といっても人口問題であろう。<br><br>それは民族興亡の根本をなすものであるからである。<br><br>一国の富強は、アダム・スミスのいった『人口増殖力に関っている』との言葉は全く至言である。<br><br>又、ムッソリーニは、伊太利（イタリア）国民に向って『最大の出生率と最小の死亡率とを挙げよ』と叫んだのもこの意味に外ならない。<br><br>この様に人口問題が痛切な意味を持ち始めたという事は、実に十九世紀以後の事である。<br><br>勿論十八世紀以前には、いずれの国も統計が完備していなかったから、正確な数字は知る由もないのであるが、少くともある一国家又は一民族が、戦争や天災の為、一時的人口の衰退を来した事はあるであろうが、今日のごとき非文化民族以外の全文化民族が、一列に人口増加率低減というがごとき現象は全く未曾有の事であろう。<br><br>もし何世紀か前に今日のような人口低減の趨勢が始っていたとしたなら、恐らく現在のごとき文化民族の興隆はあり得ない。<br><br>であるばかりかあるいは滅亡か、あるいはアイヌのごとくわずかに残存しているに過ぎない状態になっていたであろう。<br><br>従って、勿論今日のごとき絢爛たる文化の発展はあり得なかったであろう事である。<br><br> そうしてまず、この問題に対して何よりも疑問を起さなければならない事は、人口増加率低下が始まったのは、十九世紀初頭からであるとすれば、その始まった時機からあまり遠からざる以前――そうしてそれは十八世紀以前には全然なかったであろう何らかの特殊の方法を各文化民族の人口全体に対して施行せられたという事が考えられなければならないのである。<br><br> であるから、そのある方法なるものを探求して、その本体を発見しなくてはならない。<br><br>勿論文化民族全体に施行せられるという事は、何の疑いもなく可と信じたからである。<br><br>しかるに可と信じた事でも、それが何年か何十年かは可の成績を挙げ得ても、それより一層長年月に渉るにおいて、可が転じて不可となるという事も考えられる訳である。<br><br>しかしながら人間の弱点として、一度可と信じた以上、たとえそれが不可の現象が起っても、強い先入観念に打消されて気が付かないという事もあり得るのである。<br><br>それはちょうど、邪教に一度迷信したものが、いつか邪教の本体が暴露されてからでも先入観念に打消され理屈をつけて、依然として盲信を続けているという事実と等しいものであろう。<br><br> 右のごとき“ある方法”――それを発見することが、この大問題を解決する鍵である訳である。<br><br>しからば、その謎のごときある方法とは何であろうか。<br><br>しかしながら、右の謎を露呈する前に、現在我日本及び世界各国における人口動態の趨勢を示してみよう。<br><br> 統計略す 以上のごとく、各国は固より我日本においての人口動態を検討する時、増加率低下という事実は、最早各国共一の例外のない一大鉄則となってしまったという事である。<br><br>これが対策として、今日まで各国において行われ現に行われつつある方策としては、周知のごとく出生率増加の根本対策として、結婚年齢の引下げ、避妊及び堕胎の防止を主なるものとし、特に、我国においては死亡率の高い結核及び幼児死亡率を改善する事である。<br><br>その他の方策としては、人口の都市集注防止即ち人口の再分布、又、民族意識の昂揚、家族制度の再確認等であろう。<br><br> しかしながら、以上のごとく各種方策なるものはいずれも根源的ではなく末梢的であるから、幾分の効果はあるであろうが、到底大勢を阻止する訳にはゆかない事を私は確信するのである。<br><br>一切の事物は、原因があって結果がある事はいうまでもない。<br><br>勿論、人口増加率低減といえども右の法則の埒（らち）外には出ないのであるから、その原因を発見してそれを除去する以外、根本的対策なるものはあるはずがないのである。<br><br>しかしながらその原因なるものは今日まで誰もが発見し得なかったというその事も、第二の原因であった訳である。<br><br> しかるにその原因――即ち、最初に述べたところの謎なるものを、次項に説いてみよう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Causa Oculta do Declínio Populacional</h2>
 <p>Dentre as questões que hodiernamente captam a atenção das nações civilizadas, nenhuma se reveste de maior importância do que o problema populacional, pois ele constitui o próprio fundamento da ascensão e do declínio dos povos. A máxima de Adam Smith, segundo a qual a prosperidade de uma nação “está atrelada à sua força de crescimento populacional”, é de uma veracidade irrefutável. Nesse mesmo sentido, o brado de Mussolini ao povo italiano, exortando-o a “alcançar a mais alta taxa de natalidade e a mais baixa taxa de mortalidade”, não tinha outro propósito.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>Como contramedidas, as estratégias adotadas e em curso nas diversas nações são de conhecimento geral: a redução da idade para o matrimônio, a prevenção da contracepção e do aborto como medidas para aumentar a natalidade e, no caso particular de nosso país, a melhoria dos índices de tuberculose e mortalidade infantil. Outras políticas incluem a prevenção da concentração urbana, ou seja, a redistribuição populacional, bem como a exaltação da consciência nacional e a reafirmação da instituição familiar.</p>
 <p>Todavia, tenho a convicção de que todas essas estratégias, por mais variadas que sejam, são de natureza paliativa e não curativa; atacam os sintomas, e não a raiz do problema. Embora possam surtir algum efeito, são incapazes de reverter a tendência geral. Ora, é desnecessário dizer que todo fenômeno possui uma causa e um efeito. O declínio na taxa de crescimento populacional não foge a essa lei universal. Portanto, não pode haver solução fundamental que não passe pela identificação e eliminação de sua causa primeira. O fato de que essa causa primordial tenha permanecido oculta até hoje constitui, em si, uma causa secundária para a persistência do problema.</p>
 <p>É justamente essa causa — o enigma a que me referi no início — que passarei a elucidar na seção seguinte.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人口問題 『結核問題ト其解決策』昭和17(1942)年12月13日初版発行 今日、世界の文明国において、最も重要なる問題として関心を払われつゝあるものは何といっても人口問題であろう。<br/><br/>それは民族興亡の根本をなすものであるからである。<br/><br/>一国の富強は、アダム・スミスのいった『人口増殖力に関っている』との言葉は全く至言である。<br/><br/>又、ムッソリーニは、伊太利（イタリア）国民に向って『最大の出生率と最小の死亡率とを挙げよ』と叫んだのもこの意味に外ならない。<br/><br/>この様に人口問題が痛切な意味を持ち始めたという事は、実に十九世紀以後の事である。<br/><br/>勿論十八世紀以前には、いずれの国も統計が完備していなかったから、正確な数字は知る由もないのであるが、少くともある一国家又は一民族が、戦争や天災の為、一時的人口の衰退を来した事はあるであろうが、今日のごとき非文化民族以外の全文化民族が、一列に人口増加率低減というがごとき現象は全く未曾有の事であろう。<br/><br/>もし何世紀か前に今日のような人口低減の趨勢が始っていたとしたなら、恐らく現在のごとき文化民族の興隆はあり得ない。<br/><br/>であるばかりかあるいは滅亡か、あるいはアイヌのごとくわずかに残存しているに過ぎない状態になっていたであろう。<br/><br/>従って、勿論今日のごとき絢爛たる文化の発展はあり得なかったであろう事である。<br/><br/> そうしてまず、この問題に対して何よりも疑問を起さなければならない事は、人口増加率低下が始まったのは、十九世紀初頭からであるとすれば、その始まった時機からあまり遠からざる以前――そうしてそれは十八世紀以前には全然なかったであろう何らかの特殊の方法を各文化民族の人口全体に対して施行せられたという事が考えられなければならないのである。<br/><br/> であるから、そのある方法なるものを探求して、その本体を発見しなくてはならない。<br/><br/>勿論文化民族全体に施行せられるという事は、何の疑いもなく可と信じたからである。<br/><br/>しかるに可と信じた事でも、それが何年か何十年かは可の成績を挙げ得ても、それより一層長年月に渉るにおいて、可が転じて不可となるという事も考えられる訳である。<br/><br/>しかしながら人間の弱点として、一度可と信じた以上、たとえそれが不可の現象が起っても、強い先入観念に打消されて気が付かないという事もあり得るのである。<br/><br/>それはちょうど、邪教に一度迷信したものが、いつか邪教の本体が暴露されてからでも先入観念に打消され理屈をつけて、依然として盲信を続けているという事実と等しいものであろう。<br/><br/> 右のごとき“ある方法”――それを発見することが、この大問題を解決する鍵である訳である。<br/><br/>しからば、その謎のごときある方法とは何であろうか。<br/><br/>しかしながら、右の謎を露呈する前に、現在我日本及び世界各国における人口動態の趨勢を示してみよう。<br/><br/> 統計略す 以上のごとく、各国は固より我日本においての人口動態を検討する時、増加率低下という事実は、最早各国共一の例外のない一大鉄則となってしまったという事である。<br/><br/>これが対策として、今日まで各国において行われ現に行われつつある方策としては、周知のごとく出生率増加の根本対策として、結婚年齢の引下げ、避妊及び堕胎の防止を主なるものとし、特に、我国においては死亡率の高い結核及び幼児死亡率を改善する事である。<br/><br/>その他の方策としては、人口の都市集注防止即ち人口の再分布、又、民族意識の昂揚、家族制度の再確認等であろう。<br/><br/> しかしながら、以上のごとく各種方策なるものはいずれも根源的ではなく末梢的であるから、幾分の効果はあるであろうが、到底大勢を阻止する訳にはゆかない事を私は確信するのである。<br/><br/>一切の事物は、原因があって結果がある事はいうまでもない。<br/><br/>勿論、人口増加率低減といえども右の法則の埒（らち）外には出ないのであるから、その原因を発見してそれを除去する以外、根本的対策なるものはあるはずがないのである。<br/><br/>しかしながらその原因なるものは今日まで誰もが発見し得なかったというその事も、第二の原因であった訳である。<br/><br/> しかるにその原因――即ち、最初に述べたところの謎なるものを、次項に説いてみよう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

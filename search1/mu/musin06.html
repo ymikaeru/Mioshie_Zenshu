@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>musin06</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 無神と有神 『栄光』154号、昭和27(1952)年4月30日発行 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 今日の世の中は無神論者が充満している事は、誰も知るところであるが、それに対してよく信者は憤慨したり、昂奮したりして説得しようとして非常に骨を折るが、そういう時は神様は御笑いになっているのである。<br><br>というのは入信するとしても人各々は時期がある。<br><br>従って先方が神様の話に耳を傾けるまでは言わない方がよい。<br><br>まず栄光、地上天国などを見るように仕向けて、後は時を待つのである。<br><br>そうすればどんなカンカンな人でも、いずれは一たまりもなく兜を脱ぐ事になるのはもちろんである。<br><br>左の御蔭話はその経路をよく表わしているから、この文を添えたのである。<br><br> 結核より救われ唯物主義より信仰へ 改題、結核より救われると供に唯物万能主義より信仰へ 静岡県 和風中教会 北嶋惣作（26） 忘れもしない、昭和二十四年七月二十日にシベリヤより九カ年振りにて、なつかしの帰国の途につきました。<br><br>御承知の通り新聞やラジオ等その他あらゆる面から報道された如く、私も共産主義者たらんと「吾こそは勤労人民の為に身命をかけて戦うのだと固い信念に燃え、民族の解放と自由の占立を唱え、勤労人民の敵であるあらゆる反動勢力を押潰せ」と赤旗をかざし、驚異とこみ上げるよろこびは筆舌に表わせない程感慨無量にて、吾が家の敷居を踏んだのです。<br><br>しかるに、私は共産主義者として白眼視の的となりました。<br><br>一切は九年前とは変ってしまっておりました。<br><br>又一番不思議に思った事は一家揃っての「お手振り」とか言う信仰をしている事でした。<br><br>それと驚いた事は健在で在シベリヤ当時の土産話や今後の家庭復興を相談致す実兄の死でした。<br><br>嗚呼何という変事であろう。<br><br>近所の人達の語るところに依れば「お前の兄は医薬を無視して他界したのだ」との事でした。<br><br>詳細を知らない私は憤怒致さずにはおれませんでした。<br><br>いかに信仰の自由とはいえ、現代医学を無視した信仰があるだろうか、そんな馬鹿げた事があるだろうか、私は考えられませんでした。<br><br>私は数日後に至って反宗教的な理論を放ったのです。<br><br>それと共に一時も早く信仰を止めて欲しい、止めさせたい。<br><br>独り兄恋しさの涙と共に願ったのでした。<br><br>しかし家族の者は何たる事でしょう、私の胸中は知るや知らずの様です。<br><br>ますます私はあせるのみでした。<br><br>あせる度毎に神への暴言はつのるのみです。<br><br>理論的に詰めて行けば「時期が来れば解りますよ」と言う自信満々たるものです。<br><br>私はもう自暴自棄的になり「お前達がそれ程神があると言うなら、神様の身長体重を教えろ、眼の前に出して見せてくれ」こんな三歳の童子の如き馬鹿げた事を言った反対論者でした。<br><br>私の反信仰的な思想は日々増すばかりでした。<br><br>九カ年の過去を振返ればシベリヤ嵐の中に鍛えられた私でした。<br><br>この思想は容易に鎮まろうとは致しません。<br><br>人生観もすっかり一変してしまったのです。<br><br>むしろ私自身自分の存在が分らない様でした。<br><br>ただただ私の若き胸中に燃えるものは「ソビエトの真実はこの健康な肉体と日常生活の忠実なる事が示すのだ」……私の家庭は到底人様には語れない貧悩の連発連続でした。<br><br>この難問題も私の胸に燃ゆる即ちシベリヤ嵐に鍛えられた思想に依って必ず解決されるものとし、体力のあるがままに働いて働いて働き抜きました。<br><br>が、昭和二十六年五月頃に過労の為か、気の弛みか悪魔の誘いか、頭痛、全身の倦怠感等々言い表わせない気持でした。<br><br>とにかく森町の○○病院に診察を受けたのです。<br><br>恐らく皆様は「家の人達が熱心な信仰をしているのだから神様にお縋り致したら」と御考察されるでしょうが当時の私は前記の通り故、到底神様の事等は考えませんでした。<br><br>診察の結果思いもよらない病名、それは不治とされているあの恐ろしい生身を蝕む肺結核、いくら考えても考えられない。<br><br>だが医学の進歩は著しいではないか、医薬に依頼しよう、体力だってある、精神で病魔駆逐せよ、とこんな自己判断でおったのです。<br><br>そうして以後おきまりの通院姿と変ってしまいました。<br><br>家の人達は多角面にわたって薬毒説と御浄霊の偉大さを言うのですが、私はますます解らなくなってしまいました。<br><br>家人も見るに見かねて「話しても分らないからこの御神書を読まして頂きなさい」と言われ、差出された御神書は「結核は治る」と記されてありました。<br><br>とにかく拝読させて頂きました。<br><br>成程胸にピンと来る点も沢山ありましたが、どうもお恥ずかしい事ですが解りません。<br><br>信ずる事がどうも出来ませんでした。<br><br>家人も御浄霊を勧めますが私は否定をしてしまいました。<br><br>こんな事を繰返し続けている内にさあ大変な事になってしまいました。<br><br>ある日おきまりの通院中に診療を受けたところ、「膀胱鏡検査」をすると言われました。<br><br>私は驚き否定しましたところ、医師は「君は病気を知らない。<br><br>空洞等は気胸療法で治るよ。<br><br>それで悪ければ注射の十本もうてば治る。<br><br>整形すれば結構自信はもてる。<br><br>とにかく膀胱鏡検査をする」と言い、「腎臓が悪ければ片方取ってしまえばよい、君の身体は無医薬では三年ないし五年の命だよ、まあまああかずに通院しなさい」と言われました。<br><br>私の耳には自分の事とは考えられず、悪夢を見ている様な気持でした。<br><br>数日前の元気はどこかへ吹飛んでしまいました。<br><br>いかに固い信念であっても医師の言われた事を思うと、幾多この病によってあわれな死を遂げた同胞等の事が走馬灯のように脳裡に浮んで来ました。<br><br>次第に気力も衰えると共に生に対する執着が吾ながら燃えて参るのが感じられます。<br><br>健康になりたい、働きたい。<br><br>過去の自己の神様に対する行動言語の良否を反省致さずにはおれませんでした。<br><br>最初言われた時になぜ素直に信ずる事が出来なかったであろうか？ 自分で自分が惰なくなってしまいました。<br><br>こんな事を考えているより御浄霊を頂こう、そうだ生きよう、治して頂こう。<br><br>「これが時期だろうか」と無我夢中で森町の村松先生宅へ行き御浄霊をお願い致しました。<br><br>お宅の方々も大へん喜ばれ「良く尋ねて来られましたね」と優しい御言葉と共に「病気はなんでもないですよ、必ず良くなりますよ」と気軽な力強い御言葉でした。<br><br>一生涯忘れられない様な御言葉でした。<br><br>御浄霊を頂きましたところ次第に気分が晴れ晴れとなり、身体が軽くなった様な気が致しました。<br><br>この時の心境はちょっと言葉等には表わせない気持でした。<br><br>味わうものの味わいとはこの事だと思います。<br><br>御浄霊を頂く度毎に気分が良くなって行きます。<br><br>一カ月間ですっかり心身共に甦った様な気がしました。<br><br>神様の御力を試した訳ではありませんが、医師に診て頂きましたところ、一カ月前の病原はどこにも見受けられないとの事でした。<br><br>嗚呼救われたのだ、救われた有難さがこみ上げ、知らずに手が合わさって来ました。<br><br>早速入信させて頂きました、素晴しい神力、一切神様に御縋りだ、良かった、明主様ありがとうございました、と過去の自己を反省致さずにはおれませんでした。<br><br>いかに固い信念の私も、今までの唯物論を一切棄て切る事を決心致したのです。<br><br>私の過去における種々なる反信仰的な言動を何卒御許し下さい。<br><br>私のごとき毒舌致した者までお救い賜わり、涙に暮れるのみでございます。<br><br>救われた喜びと共に、世の中には数多くの私のような見解をお待ちの方があると思います。<br><br>私は決して唯物主義を批判反撃するものではありませんが、実際的に自己の身体すら解決は出来得ない事を絶叫するのです。<br><br>唯物万能主義を唱える世人に、私は神様の実在を立証させて頂きます。<br><br>私は救われた喜びを、拙文ではありますがありのままを書かして頂く栄を得ました事は、ひとえに明主様の御霊徳の賜物と深く感涙致す者でございます。<br><br> 世の人が一時も早く自覚され、神様の御手に縋られん佳日の一日も早い事を御祈り申し上げます。<br><br>私も神恩の万分の一にも届きませんが、一人でも多くの方々を御救いさせて頂きたい念願で胸一杯です。<br><br>何卒私如き至らぬ罪深き者にも格別なる御守護賜われる様御念じ致しつつペンを止めさせて頂きます。<br><br> （昭和二十七年四月十六日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Da Matéria ao Espírito: A Conversão de um Materialista</h2>
 <p>A profusão de ateus no mundo contemporâneo é um fato notório. Diante disso, os fiéis frequentemente se indignam e se exaltam, despendendo grande esforço em tentativas de persuasão. Contudo, Deus observa tais situações com um sorriso, pois cada pessoa possui um tempo determinado para despertar para a fé. Portanto, é mais sábio abster-se de discursos sobre Deus até que o interlocutor demonstre genuíno interesse. O caminho mais eficaz é conduzi-lo a testemunhar os milagres publicados na revista Eikou ou a vislumbrar a construção do Paraíso Terrestre, e então, aguardar o momento oportuno. Seguindo por essa via, mesmo o mais obstinado dos homens acabará por se render incondicionalmente. O relato de graça que se segue ilustra com clareza esse percurso, razão pela qual o apresentamos aqui.</p>
@@ -114,5 +266,48 @@ function toggleLang(lang) {
 <p>A honra de poder relatar, ainda que em palavras singelas, a alegria de minha salvação, é um presente que devo inteiramente à virtude espiritual de Meishu-Sama, pelo qual sinto profunda e comovida gratidão.</p>
 <p>Rogo para que as pessoas do mundo despertem o quanto antes e se entreguem aos braços de Deus, e que esse dia abençoado chegue logo. Embora eu jamais consiga retribuir nem mesmo uma ínfima parcela da graça divina que recebi, meu coração transborda com o desejo de salvar o maior número possível de pessoas. Com uma prece para que eu, um ser tão falho e pecador, possa ser digno de receber a especial proteção divina, concluo este relato.</p>
 <p><em>(16 de abril de 1952)</em></p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 無神と有神 『栄光』154号、昭和27(1952)年4月30日発行 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 今日の世の中は無神論者が充満している事は、誰も知るところであるが、それに対してよく信者は憤慨したり、昂奮したりして説得しようとして非常に骨を折るが、そういう時は神様は御笑いになっているのである。<br/><br/>というのは入信するとしても人各々は時期がある。<br/><br/>従って先方が神様の話に耳を傾けるまでは言わない方がよい。<br/><br/>まず栄光、地上天国などを見るように仕向けて、後は時を待つのである。<br/><br/>そうすればどんなカンカンな人でも、いずれは一たまりもなく兜を脱ぐ事になるのはもちろんである。<br/><br/>左の御蔭話はその経路をよく表わしているから、この文を添えたのである。<br/><br/> 結核より救われ唯物主義より信仰へ 改題、結核より救われると供に唯物万能主義より信仰へ 静岡県 和風中教会 北嶋惣作（26） 忘れもしない、昭和二十四年七月二十日にシベリヤより九カ年振りにて、なつかしの帰国の途につきました。<br/><br/>御承知の通り新聞やラジオ等その他あらゆる面から報道された如く、私も共産主義者たらんと「吾こそは勤労人民の為に身命をかけて戦うのだと固い信念に燃え、民族の解放と自由の占立を唱え、勤労人民の敵であるあらゆる反動勢力を押潰せ」と赤旗をかざし、驚異とこみ上げるよろこびは筆舌に表わせない程感慨無量にて、吾が家の敷居を踏んだのです。<br/><br/>しかるに、私は共産主義者として白眼視の的となりました。<br/><br/>一切は九年前とは変ってしまっておりました。<br/><br/>又一番不思議に思った事は一家揃っての「お手振り」とか言う信仰をしている事でした。<br/><br/>それと驚いた事は健在で在シベリヤ当時の土産話や今後の家庭復興を相談致す実兄の死でした。<br/><br/>嗚呼何という変事であろう。<br/><br/>近所の人達の語るところに依れば「お前の兄は医薬を無視して他界したのだ」との事でした。<br/><br/>詳細を知らない私は憤怒致さずにはおれませんでした。<br/><br/>いかに信仰の自由とはいえ、現代医学を無視した信仰があるだろうか、そんな馬鹿げた事があるだろうか、私は考えられませんでした。<br/><br/>私は数日後に至って反宗教的な理論を放ったのです。<br/><br/>それと共に一時も早く信仰を止めて欲しい、止めさせたい。<br/><br/>独り兄恋しさの涙と共に願ったのでした。<br/><br/>しかし家族の者は何たる事でしょう、私の胸中は知るや知らずの様です。<br/><br/>ますます私はあせるのみでした。<br/><br/>あせる度毎に神への暴言はつのるのみです。<br/><br/>理論的に詰めて行けば「時期が来れば解りますよ」と言う自信満々たるものです。<br/><br/>私はもう自暴自棄的になり「お前達がそれ程神があると言うなら、神様の身長体重を教えろ、眼の前に出して見せてくれ」こんな三歳の童子の如き馬鹿げた事を言った反対論者でした。<br/><br/>私の反信仰的な思想は日々増すばかりでした。<br/><br/>九カ年の過去を振返ればシベリヤ嵐の中に鍛えられた私でした。<br/><br/>この思想は容易に鎮まろうとは致しません。<br/><br/>人生観もすっかり一変してしまったのです。<br/><br/>むしろ私自身自分の存在が分らない様でした。<br/><br/>ただただ私の若き胸中に燃えるものは「ソビエトの真実はこの健康な肉体と日常生活の忠実なる事が示すのだ」……私の家庭は到底人様には語れない貧悩の連発連続でした。<br/><br/>この難問題も私の胸に燃ゆる即ちシベリヤ嵐に鍛えられた思想に依って必ず解決されるものとし、体力のあるがままに働いて働いて働き抜きました。<br/><br/>が、昭和二十六年五月頃に過労の為か、気の弛みか悪魔の誘いか、頭痛、全身の倦怠感等々言い表わせない気持でした。<br/><br/>とにかく森町の○○病院に診察を受けたのです。<br/><br/>恐らく皆様は「家の人達が熱心な信仰をしているのだから神様にお縋り致したら」と御考察されるでしょうが当時の私は前記の通り故、到底神様の事等は考えませんでした。<br/><br/>診察の結果思いもよらない病名、それは不治とされているあの恐ろしい生身を蝕む肺結核、いくら考えても考えられない。<br/><br/>だが医学の進歩は著しいではないか、医薬に依頼しよう、体力だってある、精神で病魔駆逐せよ、とこんな自己判断でおったのです。<br/><br/>そうして以後おきまりの通院姿と変ってしまいました。<br/><br/>家の人達は多角面にわたって薬毒説と御浄霊の偉大さを言うのですが、私はますます解らなくなってしまいました。<br/><br/>家人も見るに見かねて「話しても分らないからこの御神書を読まして頂きなさい」と言われ、差出された御神書は「結核は治る」と記されてありました。<br/><br/>とにかく拝読させて頂きました。<br/><br/>成程胸にピンと来る点も沢山ありましたが、どうもお恥ずかしい事ですが解りません。<br/><br/>信ずる事がどうも出来ませんでした。<br/><br/>家人も御浄霊を勧めますが私は否定をしてしまいました。<br/><br/>こんな事を繰返し続けている内にさあ大変な事になってしまいました。<br/><br/>ある日おきまりの通院中に診療を受けたところ、「膀胱鏡検査」をすると言われました。<br/><br/>私は驚き否定しましたところ、医師は「君は病気を知らない。<br/><br/>空洞等は気胸療法で治るよ。<br/><br/>それで悪ければ注射の十本もうてば治る。<br/><br/>整形すれば結構自信はもてる。<br/><br/>とにかく膀胱鏡検査をする」と言い、「腎臓が悪ければ片方取ってしまえばよい、君の身体は無医薬では三年ないし五年の命だよ、まあまああかずに通院しなさい」と言われました。<br/><br/>私の耳には自分の事とは考えられず、悪夢を見ている様な気持でした。<br/><br/>数日前の元気はどこかへ吹飛んでしまいました。<br/><br/>いかに固い信念であっても医師の言われた事を思うと、幾多この病によってあわれな死を遂げた同胞等の事が走馬灯のように脳裡に浮んで来ました。<br/><br/>次第に気力も衰えると共に生に対する執着が吾ながら燃えて参るのが感じられます。<br/><br/>健康になりたい、働きたい。<br/><br/>過去の自己の神様に対する行動言語の良否を反省致さずにはおれませんでした。<br/><br/>最初言われた時になぜ素直に信ずる事が出来なかったであろうか？ 自分で自分が惰なくなってしまいました。<br/><br/>こんな事を考えているより御浄霊を頂こう、そうだ生きよう、治して頂こう。<br/><br/>「これが時期だろうか」と無我夢中で森町の村松先生宅へ行き御浄霊をお願い致しました。<br/><br/>お宅の方々も大へん喜ばれ「良く尋ねて来られましたね」と優しい御言葉と共に「病気はなんでもないですよ、必ず良くなりますよ」と気軽な力強い御言葉でした。<br/><br/>一生涯忘れられない様な御言葉でした。<br/><br/>御浄霊を頂きましたところ次第に気分が晴れ晴れとなり、身体が軽くなった様な気が致しました。<br/><br/>この時の心境はちょっと言葉等には表わせない気持でした。<br/><br/>味わうものの味わいとはこの事だと思います。<br/><br/>御浄霊を頂く度毎に気分が良くなって行きます。<br/><br/>一カ月間ですっかり心身共に甦った様な気がしました。<br/><br/>神様の御力を試した訳ではありませんが、医師に診て頂きましたところ、一カ月前の病原はどこにも見受けられないとの事でした。<br/><br/>嗚呼救われたのだ、救われた有難さがこみ上げ、知らずに手が合わさって来ました。<br/><br/>早速入信させて頂きました、素晴しい神力、一切神様に御縋りだ、良かった、明主様ありがとうございました、と過去の自己を反省致さずにはおれませんでした。<br/><br/>いかに固い信念の私も、今までの唯物論を一切棄て切る事を決心致したのです。<br/><br/>私の過去における種々なる反信仰的な言動を何卒御許し下さい。<br/><br/>私のごとき毒舌致した者までお救い賜わり、涙に暮れるのみでございます。<br/><br/>救われた喜びと共に、世の中には数多くの私のような見解をお待ちの方があると思います。<br/><br/>私は決して唯物主義を批判反撃するものではありませんが、実際的に自己の身体すら解決は出来得ない事を絶叫するのです。<br/><br/>唯物万能主義を唱える世人に、私は神様の実在を立証させて頂きます。<br/><br/>私は救われた喜びを、拙文ではありますがありのままを書かして頂く栄を得ました事は、ひとえに明主様の御霊徳の賜物と深く感涙致す者でございます。<br/><br/> 世の人が一時も早く自覚され、神様の御手に縋られん佳日の一日も早い事を御祈り申し上げます。<br/><br/>私も神恩の万分の一にも届きませんが、一人でも多くの方々を御救いさせて頂きたい念願で胸一杯です。<br/><br/>何卒私如き至らぬ罪深き者にも格別なる御守護賜われる様御念じ致しつつペンを止めさせて頂きます。<br/><br/> （昭和二十七年四月十六日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

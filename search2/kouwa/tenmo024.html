@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>tenmo024</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 天文、地文篇 ３ 024-050 天体 024 潮の干満の理由 潮の干満の理由について御教え御願い申し上げます。<br><br> 月の呼吸で、息を引いた時に満潮となる。<br><br> あらゆる物質は月の影響を受けて活動する。<br><br>人間の生死も潮の満干に因る。<br><br>体の方は月の係である。<br><br>しかし心臓は月がつかぬ。<br><br>これは太陽即ち火素のものだからである。<br><br>眼は日月である。<br><br>蟹などは月夜に自分の姿に恐怖する。<br><br> 太陽の黒点は、息を引いた時に小さく、吐いた時に大きい。<br><br>太陽熱は弱い。<br><br>故に高山へゆく程温度は弱い。<br><br>雪なども下から解ける。<br><br>であるから地熱の方が強い。<br><br> 025 地球と北極星と七星の関係 地球と北極星及北斗七星との関係に付て、御垂示御願い申し上げます。<br><br> 北斗七星は大本の説では、元地球の真中にあったのが、ある時期に地球が傾斜したために北へ寄ったという。<br><br>これはどっちともいえぬ。<br><br>いずれにしても北は霊が強い。<br><br>北は霊、南は体で、一方は霊が強く、一方は体の霊が強い。<br><br> 北斗七星は、霊気の元である。<br><br>南十字星は体的、太陽は一番大きい。<br><br> 星は赤く光るのと青く光るのとあり、赤いのは五、青いのは六角で、二つある。<br><br> 月の中にも火と水があり、太陽にも火と水があるが、火素は余計にある。<br><br>（S24. 6.19） 026 月と地球の投影 御著書信仰雑話に「月の盈虧（えいき）は月の呼吸運動である」と御座いますが、これは地球の投影とちょうど一致する現象なので御座いましょうか。<br><br>御開示御願い申し上げます。<br><br> 月は月として独立している。<br><br>地球より月が上であるから、地球に月が支配される事はない。<br><br>また月が地球の影を写す事はない。<br><br> 月蝕、日月地、月が太陽を隠す。<br><br>もし影とすれば、月の蔭が地へ写る訳である。<br><br> 027 火星と地球の関係 昨日の夕刊に火星のある火山が大爆発を起したと出ておりましたが、大浄化の型を意味するもので御座いましょうか。<br><br>また火星には昔から種々論ぜられておりますが、地球と火星は霊的にどのような関係が御座いましょうか。<br><br>御伺い申し上げます。<br><br> 全然関係なくもない。<br><br> 木火土金水の星がこの働きをしている。<br><br>太陽が火の働きを火星に与えている。<br><br>その火が強くなって爆発したと考えられる。<br><br> 028 天空異変と地上 先日の新聞で東京天文台からの発表に「天空異変」と題して、今年は日食が二回と月食が二回もあると発表しており、また火星が三月十七日頃地球に最も接近するとの事でしたが、右の事象は現界にいかに及ぼすでしょうか。<br><br>御伺い申し上げます。<br><br> 天地は合せ鏡になっているのであるから、何かある。<br><br>何か異変といえば浄化である。<br><br>（S25. 1.15） 029 天文の変異（太陽） 昨日（七月十六日）朝六時頃、太陽が真紅に見え、中央よりやや上に水平に黒線が一本現われていましたが、何かの前兆でしょうか。<br><br>御伺い申し上げます。<br><br> 何かの前兆である。<br><br>吾等にとっては反って吉い事である。<br><br>すべてアベコベになる。<br><br> 今の世の中は悪い人間が多いから、世の中で良い事は、吾々には悪い事になる。<br><br> 天文の変異は、吾々には、皆吉い事である。<br><br>（S24. 7.17） 030 日月の傘 五月十一日の夜十時半から十一時頃の月で御座いますが、月の周囲を虹のように七色に輪郭され、実に美しい月でした。<br><br>このような月は未だ見た事が御座いません。<br><br>昼間太陽にもこのような現象があったそうで御座います。<br><br>霊的に意味が御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> 太陽に傘が掛ってるのを見た事がある。<br><br> この説明は、太陽の光線が強力の場合、太陽が非常に光線の強いのが月に当った場合、いろいろ――。<br><br> 月の水素も多い時、虹が起る。<br><br> こういう現象のある事は、地球上に起る何かの現象である。<br><br>霊界で予言にもなる。<br><br> 天文的現象は注意すべきである。<br><br>地へ写る。<br><br>これから火素が殖えるから、浄化が強くなる。<br><br>（S24. 5.21） 031 彼岸太陽異変 最近彼岸の中日の陽の入りに気を付けてみると、太陽が非常な勢でくるくる旋廻して沈むを見受けられます。<br><br>この事実は私のみでなく、沢山の人が一緒にみておるのであります。<br><br>いかなる訳でしょうか。<br><br>御伺い申し上げます。<br><br> 昼間になって火素が殖えた訳である。<br><br> 光に関係はない。<br><br>（S24. 9.27） 032 太陽上部に虹 （七月二日、岡山地方）太陽の上部に三日月型の幅一尺程の虹が立っていました訳――。<br><br> こういう事はよくある。<br><br> 非常に水分が強い場合、水分が強いため、太陽の近くまで行く。<br><br>そして虹のようになる。<br><br>これは短いものである。<br><br>（S24. 7.11） 033 怪火と大音響 前月二十三日に、岡山県中心に怪火と一大音響の突如として起ったのは、新聞、ラジオにて発表のあった流星ですか、それとも別に意味ありますか。<br><br> 隕石の爆発と思う。<br><br>普通ならよほど破片が飛ぶ訳だが、破片がないから、よほど上空で大爆発したものと思う。<br><br>（S24） 034 斜陽時の奇現象 十月十三日夜榛原郡金谷町金谷教会において見受けましたが、午後六時頃、日没後間もなく東方（藤枝町上空）に黄赤色の大きさ直径三尺楕円形の物が月に映り、それが三分間位にて逐次消え去りました。<br><br>宇宙間の現象として何か深い意味があるように思われますが、御教えを御願い申し上げます。<br><br> 雲濃く、上空には光線が余ったのが放射して、映ったのであろう。<br><br>（日の沈む時） 楕円形は、角度によって見えたのであろう。<br><br> 大した意味はない。<br><br>（S24.10.21） 035 彗星の光芒（太陽の速度） 彗星の光芒が一方向にのみ強く尾を引く理由――。<br><br> 彗星は人間の眼でみると安定してるが走っている。<br><br>それで光が尾を引いてそういう形にみえる。<br><br>太陽とてもそうで、想像もつかぬ大きな所を走っている。<br><br>素晴しい速さである。<br><br>（S24.11. 9） 036 箒星と地上異変 箒星とは種々の伝説があって、大戦争が始まるとか、悪病が流行するとか申しますが、事実はどうしたものでしょうか。<br><br> 大事変の前兆になるという事は昔から沢山ある。<br><br>米ソ戦争が始まる前兆ではないか。<br><br>いかなる事も、地上にある事は天に起る。<br><br>小さい事は気が付かぬが、やはり天には皆起っている訳である。<br><br>天地は合せ鏡という。<br><br> 蒋介石が負けてるのは、戦争を早める事になろう。<br><br>（S24） 037 箒星（天変地映、地変映天） 箒星の出現する理由を御話し願います。<br><br> 天地は合せ鏡で、天の事は地に映る。<br><br>地の事も移るが、天の事が主である。<br><br> 世界的異変、世界戦争など起る時に出る。<br><br>大浄化が起る事である。<br><br> 偉い人死ぬ時大きい星が墜つる。<br><br>光を失うのである。<br><br> 西洋では昔星占いした。<br><br>今も研究していればよほど役立ったであろう。<br><br>（S24. 2.25） 038 彗星と世界大戦 彗星はいかなる理由で現われるもので御座いましょうか。<br><br>よく彗星が現われると天災地変が起る兆と申しますが、意味が御座いましょうか。<br><br>御伺い申し上げます。<br><br> 世界に大事変が起きる時はきっと彗星が表われる。<br><br>第一次大戦の時も彗星が現われた。<br><br>箒星というのは嘘ではない。<br><br>（S23.12. 1） rattail（注） 〔 ご存じですか（実生分会１月号） 、昭和24(1949)年1月1日発行〕 〔 信仰余話（直心分会1号） 、昭和23(1948)年12月発行〕掲載 ――彗星と天変地異とはなにか関係がありましょうか。<br><br> 『あります。<br><br>きっと世界になにか大変動が起きる前兆です。<br><br>天地は合わせ鏡とも言い、相影響し合っています。<br><br>神道では彗星のことを「浄め箒」と称するそうですが、まんざらこじつけではありません。<br><br>』 039 彗星（ハレー） 彗星が現われると、よく異変があると言い伝えられていますが、何か意味が御座いますか。<br><br>御尋ね致します。<br><br> 実際に異変はある。<br><br>ハレー彗星の時第一次大戦があった。<br><br>今度の彗星も米ソ戦の前兆かもしれぬ。<br><br> 天地は合せ鏡になっている故、地にも異変はある。<br><br>（S24.12.23） 040 彗星をみる 十三日と四日朝五時頃、東方にほうき星を見ましたが何か言われがありますか。<br><br> 大浄化の起る前兆である。<br><br>箒星といって、大浄化の働きをするものである。<br><br> 何か変った事が起ると思う。<br><br> （今騒いでる星―東南方）何か世界的な事があろう。<br><br>（S23.11.17） 041 流星と異変 二十五日午后七時四十分頃、今迄見た事のない大きな火の玉のような流星がありました。<br><br>天の川を中心に東から西北に流れて、光色は照明弾のごとく発光。<br><br>道路の石までも見える明るさでした。<br><br>各所で見えたそうです。<br><br>何か異変の前兆でしょうか。<br><br>御教示下さい。<br><br> 異変の前兆には違いない。<br><br>星に変異のある時は必ず地上に異変がある。<br><br> 流星は、星が割れるので、ある位置へ行って止る。<br><br>大抵それは暗星である。<br><br> しかし大異変ではない。<br><br>大異変は、彗星である。<br><br>（S24. 1.27） 042 （太陽の熱）火星、太陽爆発説（中島氏窮迫の故事） 新聞の報道によれば火星も太陽も爆発し、今なお断続的に爆発が起っているが、天文学界では原因不明とのことです。<br><br>これはいかなる原因によるのでしょうか。<br><br>また人類生物にいかなる影響がありましょうか。<br><br>御教示願い上げます。<br><br> 人間のその日その日の事が解決付かなくて、天の事を考えるのは（おこがましい）。<br><br> いつかある弟子で、食うに困ってしまい、「五六七世は来るでしょうか」と聞きに来たものがいるが、「それよりか君はいつ食えるようになるかを考うべきでないか」といった事がある。<br><br>今の天文学などは未だ未だ幼稚極まる。<br><br>太陽の温度が何度だとか、火星までは何百光年だとか、まるで出鱈目をいう。<br><br>それ故に学説は始終違っている。<br><br>水素爆弾の熱度など太陽より高いなどと、まるで出鱈目である。<br><br>太陽の熱など計れるものではない。<br><br>熱の元が太陽であるから、それ以上の熱などは絶対にない。<br><br>（S25. 2.27） 043 太陽より高熱の星（太陽の距離） 太陽より二十七倍も高熱な星が米国で発見され、太陽と同じ位の距離にあれば、地球上の生物は残らず焼け死んでしまうという学説の真否――。<br><br> 出たらめである。<br><br> 太陽より熱いものは絶対にない。<br><br>また太陽と同距離位のものも絶対ない。<br><br>生物は地球だけ。<br><br>月世界には絶対に行けぬ。<br><br>これは一種の道楽である。<br><br>氷の塊りであるから接近すれば氷結してしまう。<br><br>遊星界の訪問者など絶対にない。<br><br>（S24. 1.23） rattail（注） 〔 御光話（S25年 1月） 『御光話録』17号、昭和25(1950)年2月28日発行〕掲載 044 日月運行停止説と岩戸隠れ 「リーダース・ダイジェスト」五月号に、太陽及び月の運行が一日停止せることが太古にありましたことを、ソ連の化学者が世界中より蒐集し発表してありましたが、日本の神話「天の岩戸隠れ」と霊的関係があるように思われますが、どうで御座居ましょうか。<br><br>御垂示御願い申し上げます。<br><br> こういう事は何かの間違いである。<br><br>もしあれば、空気は全然なくなり、生物もない。<br><br> 岩戸隠れは、素盞嗚尊が、天照大神を押込めた事を言う。<br><br>（S25. 4.28） rattail（注） 〔 御光話（S25年 4月28日） 『御光話録』19号、昭和25(1950)年6月13日発行〕掲載 045 遊星に生物 十二月三十日ＡＦＰ特電として、新聞に空飛ぶ円盤の報道がございましたが、科学雑誌社主催の会合に米従軍記者であった人が、空飛ぶ円盤は現実であり、その中に身長一米位の乗組員があって、遊星から飛来したもので大空圏突入の際死亡したものと見られ、米政府で研究中であると申した由でございますが、科学の国でこのような事が話題になるのは、何か神秘を求める一つの現われで御座いましょうか。<br><br>御伺い申し上げます。<br><br> 錯覚したものである。<br><br>地球以外に生物はない。<br><br>（S24. 1.28） rattail（注） 〔 教えの光（地上天国40号) 、昭和27(1952)年9月25日発行〕掲載 〔 御開示集（天国之友） 、昭和24(1949)年9月10日発行〕 「“空飛ぶ円盤”について、お伺い申し上げさせていただきます。<br><br> 空飛ぶ円盤の話題が新聞を賑わしてから一年以上になりますが、まだ正体が分からないらしく、本年八月一日、日本人の実見者の話を総合すると、（イ）水色がかった光のかたまりが、長い尾をひいて南から北に走りアッと思った瞬間二つに割れて消えた。<br><br>（ロ）大きさは月齢五日くらいで、ダイダイ色の光だ。<br><br>（ハ）突然青光りするような閃光体が現われ、高さは成層圏ではないかと思われるくらいの高度で、目撃された大きさはレコード盤ぐらいで厚みあり、進行速度はゆるやかで灼熱の発光体からだんだん赤みを帯びて海上の上空に消え去った。<br><br>と言っております。<br><br> この空飛ぶ円盤はアメリカ上空に多く出没して騒がれているとのことでございます。<br><br>新兵器という説、そんなものとは考えられないという反説、流星という説、流星ではないという説等々、諸説紛々としております。<br><br>この正体について御垂示のほどお願い申し上げます。<br><br>」 『これについては、世間で考えるようなものではない。<br><br>非常に神秘的なものであるから、いずれ詳しく書いて、栄光に載せるはずである。<br><br>』 046 月世界へ行く事 光新聞第二十五号の寸評に、「月世界へ行く事は不可能」の御言葉がありますが、いかなる訳でしょうか、御伺い申し上げます。<br><br> 月世界はそんな簡単なものではない。<br><br>行ったってすぐに死ぬ。<br><br>氷の塊だから、行けば熱がないから生存出来ない。<br><br>行っても死骸になる外はない。<br><br>（S24.10. 7） rattail（注） 〔 御光話（S25年 1月） 『御光話録』17号、昭和25(1950)年2月28日発行〕掲載 『月世界へ行くなんてこともよく言いますが、あんなことも絶対に嘘で、生物がいるのは地球だけであり、月世界へも絶対に行けないんです。<br><br>行けると思って研究してる人は、ま、一種の道楽ですね（笑声）。<br><br>月ってものは氷結してるんですからね。<br><br>月世界へ行ったら氷結してしまいますよ。<br><br>』 〔 御講話（S28年7月27日） 『御教え集』24号、昭和28(1953)年8月15日発行〕 『月の世界は学者には本当に分からないため、月の世界に行ける、地球と大差ないように思っているらしいのです。<br><br>だからロケットを作ったり、その中に空気を溜めたりして、そういう研究をやってますが、実に子供がオモチャを作っているようなものです。<br><br>月の世界というのは氷の固まりですから、その冷たさというものは、太陽の反対ですから、零下何度という簡単なものでは分かりません。<br><br>ぜんぜん熱がないのですから、もし行けたとしても、行った瞬間、月世界の手前まで行った瞬間凍りついてしまいます。<br><br>』 047 火星爆発説 一月二十九日付夕刊朝日新聞記事に、「大阪電気科学博物館佐伯技師は、一月十六日に火星の爆発を発見したと報じ、東京天文台の広瀬博士は、右発見は事実だが天変地異と関係はない、心配する事のないように」と報道して御座います。<br><br>これは何か意味のあるように思われますが、いかがなもので御座いましょうか。<br><br>お伺い申し上げます。<br><br> 何かの意味はあるが、大した事ではない。<br><br>（S25. 2.11） 048 新星の衝突説 昭和二十五年一月一日、中部日本新聞発表によれば、米国天文学博士は新星発見、この星は他の星と違い、熱があり、その熱は太陽熱の二十七倍もあるとの事ですが、現在新星の位置は太陽より数え切れない程遠い所にあり、この星が地球に近づけば、あらゆる地上の生物は焼死するとありました。<br><br> 霊界における火素増量と関係がありましょうか。<br><br>御教示願います。<br><br> 関係はない。<br><br>こんな事は出鱈目である。<br><br>こういう事は証拠がないから何とでもいえる。<br><br>天文学者は実に出鱈目をいう。<br><br>一種の道楽である。<br><br>太陽のごとく熱のあるものは、大宇宙に一つしかない。<br><br>大宇宙のあらゆる物は、地球のため、即ち人間のためにある。<br><br>（S25. 1.25） 049 太陽面に新物体 十月十三日の朝日新聞に「太陽面に新物体」の見出しで大要次のごとく記されてありました。<br><br> 「去る十一日午前十一時五十五分、太陽面を東から西へ通過する物体を発見、午後三時十五分迄続いた。<br><br>その物体は一分間に多い時は十個、少ない時は三個位、東から西に向って直線上を走り、大きさは一定せず、太陽面通過の速さは三・五秒から○・二秒、太陽面にある時は黒色だが太陽面をはずれると太陽と同色に輝いている」。<br><br>これはいかなる現象で御座いましょうか。<br><br>また霊界の転換と何等かの関係があるものなので御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> 暗星が通過したのであろう？（S24.10.21） 050 八十一年毎気象異変の説 二十一日紙上に藤原博士が「八十一年毎に気象異変が起って凶作になり、本年はその年に当る」との学説を発表しているのは本当でしょうか。<br><br>また右の凶作と大浄化との関連――。<br><br> 大浄化とは関係はない。<br><br> 循環率があるにはあるが、大した事はない。<br><br>（S24. 1.23）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de Teses do Reverendo Jikan Okada – Pesquisa de Ensinamentos: Seção Astronomia e Geografia 3</h2>
 <h2>024 A Razão da Vazante e da Preamar</h2>
@@ -460,5 +612,48 @@ function toggleLang(lang) {
 <br/>
 </font></p>
 </blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 天文、地文篇 ３ 024-050 天体 024 潮の干満の理由 潮の干満の理由について御教え御願い申し上げます。<br/><br/> 月の呼吸で、息を引いた時に満潮となる。<br/><br/> あらゆる物質は月の影響を受けて活動する。<br/><br/>人間の生死も潮の満干に因る。<br/><br/>体の方は月の係である。<br/><br/>しかし心臓は月がつかぬ。<br/><br/>これは太陽即ち火素のものだからである。<br/><br/>眼は日月である。<br/><br/>蟹などは月夜に自分の姿に恐怖する。<br/><br/> 太陽の黒点は、息を引いた時に小さく、吐いた時に大きい。<br/><br/>太陽熱は弱い。<br/><br/>故に高山へゆく程温度は弱い。<br/><br/>雪なども下から解ける。<br/><br/>であるから地熱の方が強い。<br/><br/> 025 地球と北極星と七星の関係 地球と北極星及北斗七星との関係に付て、御垂示御願い申し上げます。<br/><br/> 北斗七星は大本の説では、元地球の真中にあったのが、ある時期に地球が傾斜したために北へ寄ったという。<br/><br/>これはどっちともいえぬ。<br/><br/>いずれにしても北は霊が強い。<br/><br/>北は霊、南は体で、一方は霊が強く、一方は体の霊が強い。<br/><br/> 北斗七星は、霊気の元である。<br/><br/>南十字星は体的、太陽は一番大きい。<br/><br/> 星は赤く光るのと青く光るのとあり、赤いのは五、青いのは六角で、二つある。<br/><br/> 月の中にも火と水があり、太陽にも火と水があるが、火素は余計にある。<br/><br/>（S24. 6.19） 026 月と地球の投影 御著書信仰雑話に「月の盈虧（えいき）は月の呼吸運動である」と御座いますが、これは地球の投影とちょうど一致する現象なので御座いましょうか。<br/><br/>御開示御願い申し上げます。<br/><br/> 月は月として独立している。<br/><br/>地球より月が上であるから、地球に月が支配される事はない。<br/><br/>また月が地球の影を写す事はない。<br/><br/> 月蝕、日月地、月が太陽を隠す。<br/><br/>もし影とすれば、月の蔭が地へ写る訳である。<br/><br/> 027 火星と地球の関係 昨日の夕刊に火星のある火山が大爆発を起したと出ておりましたが、大浄化の型を意味するもので御座いましょうか。<br/><br/>また火星には昔から種々論ぜられておりますが、地球と火星は霊的にどのような関係が御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 全然関係なくもない。<br/><br/> 木火土金水の星がこの働きをしている。<br/><br/>太陽が火の働きを火星に与えている。<br/><br/>その火が強くなって爆発したと考えられる。<br/><br/> 028 天空異変と地上 先日の新聞で東京天文台からの発表に「天空異変」と題して、今年は日食が二回と月食が二回もあると発表しており、また火星が三月十七日頃地球に最も接近するとの事でしたが、右の事象は現界にいかに及ぼすでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> 天地は合せ鏡になっているのであるから、何かある。<br/><br/>何か異変といえば浄化である。<br/><br/>（S25. 1.15） 029 天文の変異（太陽） 昨日（七月十六日）朝六時頃、太陽が真紅に見え、中央よりやや上に水平に黒線が一本現われていましたが、何かの前兆でしょうか。<br/><br/>御伺い申し上げます。<br/><br/> 何かの前兆である。<br/><br/>吾等にとっては反って吉い事である。<br/><br/>すべてアベコベになる。<br/><br/> 今の世の中は悪い人間が多いから、世の中で良い事は、吾々には悪い事になる。<br/><br/> 天文の変異は、吾々には、皆吉い事である。<br/><br/>（S24. 7.17） 030 日月の傘 五月十一日の夜十時半から十一時頃の月で御座いますが、月の周囲を虹のように七色に輪郭され、実に美しい月でした。<br/><br/>このような月は未だ見た事が御座いません。<br/><br/>昼間太陽にもこのような現象があったそうで御座います。<br/><br/>霊的に意味が御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> 太陽に傘が掛ってるのを見た事がある。<br/><br/> この説明は、太陽の光線が強力の場合、太陽が非常に光線の強いのが月に当った場合、いろいろ――。<br/><br/> 月の水素も多い時、虹が起る。<br/><br/> こういう現象のある事は、地球上に起る何かの現象である。<br/><br/>霊界で予言にもなる。<br/><br/> 天文的現象は注意すべきである。<br/><br/>地へ写る。<br/><br/>これから火素が殖えるから、浄化が強くなる。<br/><br/>（S24. 5.21） 031 彼岸太陽異変 最近彼岸の中日の陽の入りに気を付けてみると、太陽が非常な勢でくるくる旋廻して沈むを見受けられます。<br/><br/>この事実は私のみでなく、沢山の人が一緒にみておるのであります。<br/><br/>いかなる訳でしょうか。<br/><br/>御伺い申し上げます。<br/><br/> 昼間になって火素が殖えた訳である。<br/><br/> 光に関係はない。<br/><br/>（S24. 9.27） 032 太陽上部に虹 （七月二日、岡山地方）太陽の上部に三日月型の幅一尺程の虹が立っていました訳――。<br/><br/> こういう事はよくある。<br/><br/> 非常に水分が強い場合、水分が強いため、太陽の近くまで行く。<br/><br/>そして虹のようになる。<br/><br/>これは短いものである。<br/><br/>（S24. 7.11） 033 怪火と大音響 前月二十三日に、岡山県中心に怪火と一大音響の突如として起ったのは、新聞、ラジオにて発表のあった流星ですか、それとも別に意味ありますか。<br/><br/> 隕石の爆発と思う。<br/><br/>普通ならよほど破片が飛ぶ訳だが、破片がないから、よほど上空で大爆発したものと思う。<br/><br/>（S24） 034 斜陽時の奇現象 十月十三日夜榛原郡金谷町金谷教会において見受けましたが、午後六時頃、日没後間もなく東方（藤枝町上空）に黄赤色の大きさ直径三尺楕円形の物が月に映り、それが三分間位にて逐次消え去りました。<br/><br/>宇宙間の現象として何か深い意味があるように思われますが、御教えを御願い申し上げます。<br/><br/> 雲濃く、上空には光線が余ったのが放射して、映ったのであろう。<br/><br/>（日の沈む時） 楕円形は、角度によって見えたのであろう。<br/><br/> 大した意味はない。<br/><br/>（S24.10.21） 035 彗星の光芒（太陽の速度） 彗星の光芒が一方向にのみ強く尾を引く理由――。<br/><br/> 彗星は人間の眼でみると安定してるが走っている。<br/><br/>それで光が尾を引いてそういう形にみえる。<br/><br/>太陽とてもそうで、想像もつかぬ大きな所を走っている。<br/><br/>素晴しい速さである。<br/><br/>（S24.11. 9） 036 箒星と地上異変 箒星とは種々の伝説があって、大戦争が始まるとか、悪病が流行するとか申しますが、事実はどうしたものでしょうか。<br/><br/> 大事変の前兆になるという事は昔から沢山ある。<br/><br/>米ソ戦争が始まる前兆ではないか。<br/><br/>いかなる事も、地上にある事は天に起る。<br/><br/>小さい事は気が付かぬが、やはり天には皆起っている訳である。<br/><br/>天地は合せ鏡という。<br/><br/> 蒋介石が負けてるのは、戦争を早める事になろう。<br/><br/>（S24） 037 箒星（天変地映、地変映天） 箒星の出現する理由を御話し願います。<br/><br/> 天地は合せ鏡で、天の事は地に映る。<br/><br/>地の事も移るが、天の事が主である。<br/><br/> 世界的異変、世界戦争など起る時に出る。<br/><br/>大浄化が起る事である。<br/><br/> 偉い人死ぬ時大きい星が墜つる。<br/><br/>光を失うのである。<br/><br/> 西洋では昔星占いした。<br/><br/>今も研究していればよほど役立ったであろう。<br/><br/>（S24. 2.25） 038 彗星と世界大戦 彗星はいかなる理由で現われるもので御座いましょうか。<br/><br/>よく彗星が現われると天災地変が起る兆と申しますが、意味が御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 世界に大事変が起きる時はきっと彗星が表われる。<br/><br/>第一次大戦の時も彗星が現われた。<br/><br/>箒星というのは嘘ではない。<br/><br/>（S23.12. 1） rattail（注） 〔 ご存じですか（実生分会１月号） 、昭和24(1949)年1月1日発行〕 〔 信仰余話（直心分会1号） 、昭和23(1948)年12月発行〕掲載 ――彗星と天変地異とはなにか関係がありましょうか。<br/><br/> 『あります。<br/><br/>きっと世界になにか大変動が起きる前兆です。<br/><br/>天地は合わせ鏡とも言い、相影響し合っています。<br/><br/>神道では彗星のことを「浄め箒」と称するそうですが、まんざらこじつけではありません。<br/><br/>』 039 彗星（ハレー） 彗星が現われると、よく異変があると言い伝えられていますが、何か意味が御座いますか。<br/><br/>御尋ね致します。<br/><br/> 実際に異変はある。<br/><br/>ハレー彗星の時第一次大戦があった。<br/><br/>今度の彗星も米ソ戦の前兆かもしれぬ。<br/><br/> 天地は合せ鏡になっている故、地にも異変はある。<br/><br/>（S24.12.23） 040 彗星をみる 十三日と四日朝五時頃、東方にほうき星を見ましたが何か言われがありますか。<br/><br/> 大浄化の起る前兆である。<br/><br/>箒星といって、大浄化の働きをするものである。<br/><br/> 何か変った事が起ると思う。<br/><br/> （今騒いでる星―東南方）何か世界的な事があろう。<br/><br/>（S23.11.17） 041 流星と異変 二十五日午后七時四十分頃、今迄見た事のない大きな火の玉のような流星がありました。<br/><br/>天の川を中心に東から西北に流れて、光色は照明弾のごとく発光。<br/><br/>道路の石までも見える明るさでした。<br/><br/>各所で見えたそうです。<br/><br/>何か異変の前兆でしょうか。<br/><br/>御教示下さい。<br/><br/> 異変の前兆には違いない。<br/><br/>星に変異のある時は必ず地上に異変がある。<br/><br/> 流星は、星が割れるので、ある位置へ行って止る。<br/><br/>大抵それは暗星である。<br/><br/> しかし大異変ではない。<br/><br/>大異変は、彗星である。<br/><br/>（S24. 1.27） 042 （太陽の熱）火星、太陽爆発説（中島氏窮迫の故事） 新聞の報道によれば火星も太陽も爆発し、今なお断続的に爆発が起っているが、天文学界では原因不明とのことです。<br/><br/>これはいかなる原因によるのでしょうか。<br/><br/>また人類生物にいかなる影響がありましょうか。<br/><br/>御教示願い上げます。<br/><br/> 人間のその日その日の事が解決付かなくて、天の事を考えるのは（おこがましい）。<br/><br/> いつかある弟子で、食うに困ってしまい、「五六七世は来るでしょうか」と聞きに来たものがいるが、「それよりか君はいつ食えるようになるかを考うべきでないか」といった事がある。<br/><br/>今の天文学などは未だ未だ幼稚極まる。<br/><br/>太陽の温度が何度だとか、火星までは何百光年だとか、まるで出鱈目をいう。<br/><br/>それ故に学説は始終違っている。<br/><br/>水素爆弾の熱度など太陽より高いなどと、まるで出鱈目である。<br/><br/>太陽の熱など計れるものではない。<br/><br/>熱の元が太陽であるから、それ以上の熱などは絶対にない。<br/><br/>（S25. 2.27） 043 太陽より高熱の星（太陽の距離） 太陽より二十七倍も高熱な星が米国で発見され、太陽と同じ位の距離にあれば、地球上の生物は残らず焼け死んでしまうという学説の真否――。<br/><br/> 出たらめである。<br/><br/> 太陽より熱いものは絶対にない。<br/><br/>また太陽と同距離位のものも絶対ない。<br/><br/>生物は地球だけ。<br/><br/>月世界には絶対に行けぬ。<br/><br/>これは一種の道楽である。<br/><br/>氷の塊りであるから接近すれば氷結してしまう。<br/><br/>遊星界の訪問者など絶対にない。<br/><br/>（S24. 1.23） rattail（注） 〔 御光話（S25年 1月） 『御光話録』17号、昭和25(1950)年2月28日発行〕掲載 044 日月運行停止説と岩戸隠れ 「リーダース・ダイジェスト」五月号に、太陽及び月の運行が一日停止せることが太古にありましたことを、ソ連の化学者が世界中より蒐集し発表してありましたが、日本の神話「天の岩戸隠れ」と霊的関係があるように思われますが、どうで御座居ましょうか。<br/><br/>御垂示御願い申し上げます。<br/><br/> こういう事は何かの間違いである。<br/><br/>もしあれば、空気は全然なくなり、生物もない。<br/><br/> 岩戸隠れは、素盞嗚尊が、天照大神を押込めた事を言う。<br/><br/>（S25. 4.28） rattail（注） 〔 御光話（S25年 4月28日） 『御光話録』19号、昭和25(1950)年6月13日発行〕掲載 045 遊星に生物 十二月三十日ＡＦＰ特電として、新聞に空飛ぶ円盤の報道がございましたが、科学雑誌社主催の会合に米従軍記者であった人が、空飛ぶ円盤は現実であり、その中に身長一米位の乗組員があって、遊星から飛来したもので大空圏突入の際死亡したものと見られ、米政府で研究中であると申した由でございますが、科学の国でこのような事が話題になるのは、何か神秘を求める一つの現われで御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 錯覚したものである。<br/><br/>地球以外に生物はない。<br/><br/>（S24. 1.28） rattail（注） 〔 教えの光（地上天国40号) 、昭和27(1952)年9月25日発行〕掲載 〔 御開示集（天国之友） 、昭和24(1949)年9月10日発行〕 「“空飛ぶ円盤”について、お伺い申し上げさせていただきます。<br/><br/> 空飛ぶ円盤の話題が新聞を賑わしてから一年以上になりますが、まだ正体が分からないらしく、本年八月一日、日本人の実見者の話を総合すると、（イ）水色がかった光のかたまりが、長い尾をひいて南から北に走りアッと思った瞬間二つに割れて消えた。<br/><br/>（ロ）大きさは月齢五日くらいで、ダイダイ色の光だ。<br/><br/>（ハ）突然青光りするような閃光体が現われ、高さは成層圏ではないかと思われるくらいの高度で、目撃された大きさはレコード盤ぐらいで厚みあり、進行速度はゆるやかで灼熱の発光体からだんだん赤みを帯びて海上の上空に消え去った。<br/><br/>と言っております。<br/><br/> この空飛ぶ円盤はアメリカ上空に多く出没して騒がれているとのことでございます。<br/><br/>新兵器という説、そんなものとは考えられないという反説、流星という説、流星ではないという説等々、諸説紛々としております。<br/><br/>この正体について御垂示のほどお願い申し上げます。<br/><br/>」 『これについては、世間で考えるようなものではない。<br/><br/>非常に神秘的なものであるから、いずれ詳しく書いて、栄光に載せるはずである。<br/><br/>』 046 月世界へ行く事 光新聞第二十五号の寸評に、「月世界へ行く事は不可能」の御言葉がありますが、いかなる訳でしょうか、御伺い申し上げます。<br/><br/> 月世界はそんな簡単なものではない。<br/><br/>行ったってすぐに死ぬ。<br/><br/>氷の塊だから、行けば熱がないから生存出来ない。<br/><br/>行っても死骸になる外はない。<br/><br/>（S24.10. 7） rattail（注） 〔 御光話（S25年 1月） 『御光話録』17号、昭和25(1950)年2月28日発行〕掲載 『月世界へ行くなんてこともよく言いますが、あんなことも絶対に嘘で、生物がいるのは地球だけであり、月世界へも絶対に行けないんです。<br/><br/>行けると思って研究してる人は、ま、一種の道楽ですね（笑声）。<br/><br/>月ってものは氷結してるんですからね。<br/><br/>月世界へ行ったら氷結してしまいますよ。<br/><br/>』 〔 御講話（S28年7月27日） 『御教え集』24号、昭和28(1953)年8月15日発行〕 『月の世界は学者には本当に分からないため、月の世界に行ける、地球と大差ないように思っているらしいのです。<br/><br/>だからロケットを作ったり、その中に空気を溜めたりして、そういう研究をやってますが、実に子供がオモチャを作っているようなものです。<br/><br/>月の世界というのは氷の固まりですから、その冷たさというものは、太陽の反対ですから、零下何度という簡単なものでは分かりません。<br/><br/>ぜんぜん熱がないのですから、もし行けたとしても、行った瞬間、月世界の手前まで行った瞬間凍りついてしまいます。<br/><br/>』 047 火星爆発説 一月二十九日付夕刊朝日新聞記事に、「大阪電気科学博物館佐伯技師は、一月十六日に火星の爆発を発見したと報じ、東京天文台の広瀬博士は、右発見は事実だが天変地異と関係はない、心配する事のないように」と報道して御座います。<br/><br/>これは何か意味のあるように思われますが、いかがなもので御座いましょうか。<br/><br/>お伺い申し上げます。<br/><br/> 何かの意味はあるが、大した事ではない。<br/><br/>（S25. 2.11） 048 新星の衝突説 昭和二十五年一月一日、中部日本新聞発表によれば、米国天文学博士は新星発見、この星は他の星と違い、熱があり、その熱は太陽熱の二十七倍もあるとの事ですが、現在新星の位置は太陽より数え切れない程遠い所にあり、この星が地球に近づけば、あらゆる地上の生物は焼死するとありました。<br/><br/> 霊界における火素増量と関係がありましょうか。<br/><br/>御教示願います。<br/><br/> 関係はない。<br/><br/>こんな事は出鱈目である。<br/><br/>こういう事は証拠がないから何とでもいえる。<br/><br/>天文学者は実に出鱈目をいう。<br/><br/>一種の道楽である。<br/><br/>太陽のごとく熱のあるものは、大宇宙に一つしかない。<br/><br/>大宇宙のあらゆる物は、地球のため、即ち人間のためにある。<br/><br/>（S25. 1.25） 049 太陽面に新物体 十月十三日の朝日新聞に「太陽面に新物体」の見出しで大要次のごとく記されてありました。<br/><br/> 「去る十一日午前十一時五十五分、太陽面を東から西へ通過する物体を発見、午後三時十五分迄続いた。<br/><br/>その物体は一分間に多い時は十個、少ない時は三個位、東から西に向って直線上を走り、大きさは一定せず、太陽面通過の速さは三・五秒から○・二秒、太陽面にある時は黒色だが太陽面をはずれると太陽と同色に輝いている」。<br/><br/>これはいかなる現象で御座いましょうか。<br/><br/>また霊界の転換と何等かの関係があるものなので御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> 暗星が通過したのであろう？（S24.10.21） 050 八十一年毎気象異変の説 二十一日紙上に藤原博士が「八十一年毎に気象異変が起って凶作になり、本年はその年に当る」との学説を発表しているのは本当でしょうか。<br/><br/>また右の凶作と大浄化との関連――。<br/><br/> 大浄化とは関係はない。<br/><br/> 循環率があるにはあるが、大した事はない。<br/><br/>（S24. 1.23）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

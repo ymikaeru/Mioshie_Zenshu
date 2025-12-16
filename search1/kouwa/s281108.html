@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s281108</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 関西巡教御講話 （S28年11月8日） 『御教え集』28号、昭和28(1953)年12月15日発行 昭和二十八年十一月八日 （名古屋市金山体育会館において） 今日は少し変わった話をしようと思います。<br><br>御承知のようにわが救世教も順調に育ちつつあります。<br><br>それについて各方面からいろいろ注目をされるようになりつつあります。<br><br>なにしろ今までの宗教と違って、非常に変わってますから……といってもこっちが変わっているのではないので、先様が変わっているので、こっちはあたりまえなのです。<br><br>ところが世の中が変わり過ぎてますから、まともな者が変わったように見えるのです。<br><br>だから非常にやりにくいのです。<br><br> ついこの間も文部省の宗務課長補佐の人と、朝日、毎日をはじめいろいろな新聞連合機関の人が六、七人来ていろいろ質問をしたのです。<br><br>私も話はしましたが、救世教というのは、やっぱり宗教ではないのですかと言うのです。<br><br>だから私は宗教ではないのだ、宗教以上のものだと言うと、それではどういうわけで宗教という名にしたのですかと言うのです。<br><br>文部省の役人もいましたが、宗教よりほかにこういうものを入れる項目がないから、取り扱い上宗教の中に入れなければしようがないから宗教という名にしたと言ったのです。<br><br>だからしようがないです。<br><br>ほかになにか名をつけるよりしようがありません、と言ってました。<br><br>そういうような具合で、これからだんだん表面的活動になってくるのです。<br><br>しかしこっちでわざわざそうするのではなくて、世の中からそういうふうにし向けられるというようなわけで、自然です。<br><br>それでこの自然が私の方針なのです。<br><br>つまり自分で“オレはこうだ、オレはこういうことをする”と言って最初から大手をきってやるというのでなくて、コツコツとやっているうちに世の中からいろいろなことを言ってき、希望してくる、というように発展して行くというのが自然です。<br><br>いつも言うとおり、物が育つようなやり方でゆかなければいけないというのはそういうわけです。<br><br> 最近アメリカの『シカゴ・トリビューン』というアメリカでの四大新聞の一つです。<br><br>『ニューヨーク・ヘラルド』『ニューヨーク・タイムズ』『ワシントン・ポスト』などとともに大新聞です。<br><br>発行部数は百万以上だそうです。<br><br>日刊新聞が六十頁というのですから大きなものです。<br><br>まるで日本の雑誌みたいな読みでがあります。<br><br>あっちの新聞ですから広告が大部分なのでしょう。<br><br>社員が四千人だそうです。<br><br>本社の建物が二十四階というのですから、ちょっと度肝を抜かれる大きさです。<br><br>その新聞の東洋総支配人の奥さんが来たのです。<br><br>女の新聞記者というわけですが、なかなか頭の鋭い人です。<br><br>箱根、熱海の地上天国を見せました。<br><br>それからいろいろな質問を聞きましたが、日本人と話をするよりか分かりよいのです。<br><br>日本人の新聞記者などは、よほどこっちが加減してもなかなか分からないのです。<br><br>それは見方が公平で、急所を見るのです。<br><br>ですから私も気持ち良く話ができました。<br><br>約二時間ばかり話をしました。<br><br>その中で私は一番おもしろいと思ったのは、私の今までの経歴を話したところ、“あなたは珍しい、釈迦やキリストはずっと若い時から宗教のことをやっていた。<br><br>ところがあなたは五十過ぎてから宗教に入ったのだから世界に例がない”と言ってましたが、私もなるほどそう言われてみるとそうだと、ちょっと見方が違うところにおもしろみがあると思ったのです。<br><br>それからいろんな話がありましたが、その中で気のついたことだけを話します。<br><br>“天皇制はどうか、天皇制に対してはどういう考えか”ということを質問されたのです。<br><br>それで私は、“天皇制はない方がよい”と言ったのです。<br><br>アメリカが天皇制をやめるような仕方だから結構だ、どうしてかというと、天皇制がなければ、まず日本が戦争を起こすということがないでしょう。<br><br>この間の戦争にしても、天皇制を利用して一派の者が野心を抱いて始めたことなのだから、つまりそういった機関がなければ、そういった看板がなければ、そういうことができないのです。<br><br>ですから非常に結構だ。<br><br>というのは、日本という国は本当の平和の国です。<br><br>平和の国ということは、要するに世界の公園です。<br><br>というような、非常に世界的に美しい、世界中の人を慰める、楽しませるという、そういう国柄なのだ、日本の使命はそうなっているのだ、だから戦争などは絶対反対なのだから、徹頭徹尾戦争が起こらないような国家にする。<br><br>そうして平和的の美、美しい国という、そういう考えで地上天国や美術館を造ったのだ。<br><br>それからこれからも日本では箱根、熱海、京都に最初造るとして、それからハワイにも発展したので、いずれ地上天国を造るようになるだろう。<br><br>それからその次はアメリカにも造るし、ヨーロッパにも勿論造る。<br><br>東洋にも造る。<br><br>それはなぜかというと、公園は世界各地至る所にありますが、その公園よりもっと上等なもの――公園というものは一般的のもので、大衆が憩い、あるいは大衆の娯楽という意味ですが、もっとレベルの高い美によって人間の品性を高めるというものが人類に必要なのです。<br><br>私はこれからそういうものを造ろうと思っている。<br><br>それからもう一つは、今日の人間というものは、娯楽がなくてはいけないが、娯楽といっても、品性を高めるというようなものよりか、品性を堕落させ低めるというものの方が多い。<br><br>これは説明するまでもありませんが、そういった観覧物を見て堕落に導くものの方が多いですから、どうしても少しは品性を高めるというものが必要だ。<br><br>このことは、その時には時間がなかったからあっさり話しましたが、少し詳しく話してみますと、つまりこの汚い社会＝嫌なことがたくさんある忌まわしいものの中に生活している以上、その魂が汚れるのです。<br><br>汚すまいと思っても、汚すような事柄がたくさんできてくるのです。<br><br>話を聞いても、ラジオでも、新聞を見てもそうです。<br><br>ラジオでは、娯楽以外には世の中の良いことはあんまりありません。<br><br>そういったことを見たり聞いたりしているために、精神的に濁りが溜まったりいろいろします。<br><br>そういうものを洗濯する、洗うというものが必要なのです。<br><br>そのために地上天国といって、天然の美と人工の美というものを楽しみながら見れば、汚れた魂がいくぶんでも洗われる。<br><br>それからまた美ですが、目によってその人の心の境地が高まるわけです。<br><br> だからつまり人類社会を良くするには、そういったものがもっとなければいけないのです。<br><br>ところが今まではなかったのです。<br><br>地上天国というのは美の世界です。<br><br>真善美の美です。<br><br>そういうようなことをやった人は今までにないので、そのために私がやり始めたのが、今やっている箱根、熱海です。<br><br>ところが箱根はできあがって、熱海は今やってますが、これはみなさんも知ってますでしょう。<br><br>シモンズという名前の人ですが、お世辞でなく、非常に感銘したようでした。<br><br>それから熱海は私が直接案内しましたが、非常に驚いて、（これは通訳が言うのですが）事々に“こういった構想はアメリカにもない、なにを見ても心を打たれる”と喜んで帰りました。<br><br>それから二、三日たって、通訳に当たった人が私の所に始終来る浮世絵専門の道具屋ですが、アメリカの浮世絵を研究している人たちに一週一回、夜講義をしているのです。<br><br>その人は信者なのです。<br><br>その人が通訳をしたわけです。<br><br>その人の話によると、どうやら先方も分かったらしいのです。<br><br>それで帰ってからの話を聞きますと、どうも自分の方が少しタジタジだった、荷が勝ち過ぎた、だから今度自分の主人が朝鮮に行っているが、帰ってきたらぜひ会っていただいて、また主人が十分話を交換して、自分はアメリカに帰って、『トリビューン』に救世教の紹介をし、そうして岡田という人の記事をぜひ書きたい。<br><br>「世界平和の建設者」という題で書くつもりだ、ということを聞きましたが、これは本当にそうするらしいです。<br><br>とにかくこの新聞にそうとう出れば、アメリカの人に一ぺんに知れるわけです。<br><br>だから神様の方から言うと、一歩アメリカの方に足を踏み入れたということになるわけです。<br><br>それからその時にこういうことを言いました。<br><br>つまり文明にも経と緯がある。<br><br>緯の文明の代表者はアメリカだ、経の国の代表者が日本だ――これは私の書いたものにたくさんあります――ですから経と緯の両方を結んで、初めて本当の文明が生まれるのだ、それでその経緯の文明を結ぶということが、救世教の本来の一つの使命だ、ということを言いましたが、そのことについてもたいへん共鳴してました。<br><br>これは本当なのです。<br><br>まずその第一歩としてあなたが来られてこういう話を交換されたわけだから、と言ったところが、だいぶ感銘したようでした。<br><br>この話はそのくらいにしておきます。<br><br> 知ってのとおりハワイが非常な勢いで発展しつつあります。<br><br>それでついこの間あっちの弁護士が来ました。<br><br>これはハワイの法人の許可を受くべく骨折った人です。<br><br>やっと許可を得たそうですから、これからはたいへんやり良くなるわけです。<br><br>非常に評判が良くて、しかもこの間ホノルルに本部を買い入れましたが、これがたいへんに良い場所で、非常に立派なもので、値段も安いし、すばらしい買物だと言ってました。<br><br>ハワイは五つの大きな島から成り立っていますが、その一つずつに一カ所ずつチャンと支部ができましたから、これからだんだん活動するというわけです。<br><br>その一つ一つの島に、つまり救世教が大いに発展するわけです。<br><br>そこで今の形勢でゆきますと、結局そう長くはかからないうちにハワイ全島がほとんど救世教になると思います。<br><br>メシヤ島になりやしないかと思ってます。<br><br>とにかく今のあっちの発展の勢いはすばらしいものです。<br><br>そうなると世界が注目します。<br><br>今一番注目しているのはアメリカです。<br><br>もっともそれはこっちの予定のとおりですが、つまりハワイの発展の具合を見てアメリカが“これはたいへんなものだ、では自分の方にぜひ来てもらいたい”という、アメリカの国民的世論でアメリカに始まるという、そういう計画ですから、そういうふうにゆくわけです。<br><br>そうしますと、ハワイは食べ物はウンとできるのですから、みんなが食べきれないほどできるのです。<br><br>これは日本とはまるで違います。<br><br>気候はよいし、あんまり悪い人間はいないのです。<br><br>日本のようにずるい人間や悪い人間というのは、結局食えないからです。<br><br>それが食糧その他の豊かな所では、ずるいことをする必要がありません。<br><br>ですから日本がますます悲惨な状態ということは、物が足りないということが一番の原因だと思います。<br><br>ハワイで一番苦しんでいるのが病気です。<br><br>だから救世教によって病気が解決されると、本当の地上天国が簡単にできます。<br><br>いずれハワイにも美術館を造ることになりましょう。<br><br>そうなると地上天国です。<br><br>ハワイのいろいろな特徴を取り入れた地上天国を造るつもりです。<br><br>美術館も造ります。<br><br>そうなったらいよいよ世界の楽園みたいになりますから、これは世界の一つの注目をあび、問題になるだろうと思います。<br><br> 時間がないので簡単に話します。<br><br>もう一つは自然栽培ですが、これは名古屋付近の人は今一番関心を払われてます。<br><br>それでまたこの自然栽培の成績が近来になってから中京方面がすばらしい成績をあげたという、これも意味があります。<br><br>これはいつも言うとおり、とにかく中京ということは東と西の真ん中です。<br><br>真ん中というのは、東は経で西が経ですから、やはり経と緯の中心です。<br><br>そこで始まるということは、これは根本的の問題です。<br><br>やはり神様の経綸はそういうふうな形で、順序ということになるのです。<br><br>自然栽培もまず中京から始まるということはあたりまえなのです。<br><br>それについて思い出されるのは、私が東京で観音教団をやった時分に、渋井さんが地方をやるようになったときに、やはり中京から始まったのです。<br><br>中京という所は重要な所です。<br><br>そこで自然栽培の成績がどうしても来月にならなくては確かなところが現われないのです。<br><br>特集号を出そうと思って、もっと早くするつもりだったのですが、どうも予想が多い。<br><br>しかし予想ではおもしろくないので、やはり数字が現われなければならないのです。<br><br>反に何石何斗何升というようでなければいけないのです。<br><br>それには来月にならなければどうしてもはっきりしませんから、それを待って、はっきりしてから農業特集号を編集するつもりです。<br><br>それでもって全国的に大宣伝をやってもらいたいと思います。<br><br>そうすると、ちょうどと言ってははなはだ気の毒ですが、今年の凶作でこれを解決する方法があるかというとないのです。<br><br>今年はこれでよいが、来年はどうするといっても、こうすればよいというその方法がないのです。<br><br>それでこうなると心が暗くなって、農民諸君が生きてゆくにも、どうしてよいか分からなくなります。<br><br>そこに自然農法の今年の成績をもって大宣伝をするのです。<br><br>これは開いた口にボタモチということになります。<br><br>そこで急激に自然農法が伝播するということは確かです。<br><br>そうなれば政府も動いてくるでしょう。<br><br>だいたい農民層が大勢ワッと来ますから、これは文句ありません。<br><br>ですからそうなると、全国的に救世教はたいしたものだ、ありがたいことだ、ということになって、一ぺんに分かります。<br><br> 今はアメリカの話、ハワイの話、日本の話と、この三つに分けて話をしましたが、いよいよわが救世教が世界的にも日本的にも一歩前進することになるわけです。<br><br>今までの長い間いろんな妨害をされ、みんな苦しみに苦しみ、つまり雪霜に堪えてきて、いよいよいまや春に向かわんとする、ちょうど直前に来たような気がするのです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Missão Mundial da Sekaikyuseikyou</h2>
 <p>Hoje, gostaria de abordar um tema um tanto distinto. Nossa Sekaikyuseikyou, como é de vosso conhecimento, segue em franco e順調 (sunchou - smooth) desenvolvimento. Em decorrência disso, temos atraído a atenção de diversos setores da sociedade. Afinal, nossa atuação se diferencia sobremaneira das religiões convencionais. Na verdade, não somos nós os diferentes, mas sim a sociedade que se alterou; nós apenas seguimos o que é natural. Contudo, como o mundo se distanciou em demasia da normalidade, aqueles que agem corretamente acabam por parecer excêntricos. Tal situação, por conseguinte, impõe-nos consideráveis desafios.</p>
@@ -110,5 +262,48 @@ function toggleLang(lang) {
 <p>Os resultados definitivos da colheita, contudo, só estarão disponíveis no próximo mês. Planejávamos publicar uma edição especial sobre o tema mais cedo, mas o que temos até agora são majoritariamente previsões. E previsões não são suficientes; precisamos de números concretos, expressos em <em>koku</em>, <em>to</em> e <em>sho</em> por <em>tan</em>. Aguardaremos esses dados para, então, editar a edição especial sobre agricultura. Com ela em mãos, peço que realizem uma grande campanha de divulgação em todo o país.</p>
 <p>Pode parecer lamentável dizer isto, mas a má colheita deste ano se apresenta como uma oportunidade. O governo não possui uma solução para a crise agrícola; mesmo que resolvam o problema deste ano, não há um plano para o próximo. Isso gera um sentimento de desespero, e os agricultores se veem sem rumo. É nesse exato momento que faremos a grande divulgação dos resultados da Agricultura Natural. Será como um <em>botamochi</em> caindo em uma boca aberta — uma dádiva inesperada. Tenho certeza de que a Agricultura Natural se propagará com extrema rapidez. Com isso, o governo certamente se moverá. A adesão em massa dos agricultores será inquestionável. Dessa forma, a nação inteira reconhecerá o valor e a grandiosidade da Sekaikyuseikyou.</p>
 <p>Hoje, dividi minha explanação em três frentes: a América, o Havaí e o Japão. Em todas elas, nossa Sekaikyuseikyou está prestes a dar um novo e decisivo passo à frente. Após um longo período suportando toda sorte de obstáculos e perseguições, sofrendo e perseverando em meio a inúmeras provações — como uma planta que resiste à neve e à geada —, sinto que finalmente chegamos à antessala da primavera.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 関西巡教御講話 （S28年11月8日） 『御教え集』28号、昭和28(1953)年12月15日発行 昭和二十八年十一月八日 （名古屋市金山体育会館において） 今日は少し変わった話をしようと思います。<br/><br/>御承知のようにわが救世教も順調に育ちつつあります。<br/><br/>それについて各方面からいろいろ注目をされるようになりつつあります。<br/><br/>なにしろ今までの宗教と違って、非常に変わってますから……といってもこっちが変わっているのではないので、先様が変わっているので、こっちはあたりまえなのです。<br/><br/>ところが世の中が変わり過ぎてますから、まともな者が変わったように見えるのです。<br/><br/>だから非常にやりにくいのです。<br/><br/> ついこの間も文部省の宗務課長補佐の人と、朝日、毎日をはじめいろいろな新聞連合機関の人が六、七人来ていろいろ質問をしたのです。<br/><br/>私も話はしましたが、救世教というのは、やっぱり宗教ではないのですかと言うのです。<br/><br/>だから私は宗教ではないのだ、宗教以上のものだと言うと、それではどういうわけで宗教という名にしたのですかと言うのです。<br/><br/>文部省の役人もいましたが、宗教よりほかにこういうものを入れる項目がないから、取り扱い上宗教の中に入れなければしようがないから宗教という名にしたと言ったのです。<br/><br/>だからしようがないです。<br/><br/>ほかになにか名をつけるよりしようがありません、と言ってました。<br/><br/>そういうような具合で、これからだんだん表面的活動になってくるのです。<br/><br/>しかしこっちでわざわざそうするのではなくて、世の中からそういうふうにし向けられるというようなわけで、自然です。<br/><br/>それでこの自然が私の方針なのです。<br/><br/>つまり自分で“オレはこうだ、オレはこういうことをする”と言って最初から大手をきってやるというのでなくて、コツコツとやっているうちに世の中からいろいろなことを言ってき、希望してくる、というように発展して行くというのが自然です。<br/><br/>いつも言うとおり、物が育つようなやり方でゆかなければいけないというのはそういうわけです。<br/><br/> 最近アメリカの『シカゴ・トリビューン』というアメリカでの四大新聞の一つです。<br/><br/>『ニューヨーク・ヘラルド』『ニューヨーク・タイムズ』『ワシントン・ポスト』などとともに大新聞です。<br/><br/>発行部数は百万以上だそうです。<br/><br/>日刊新聞が六十頁というのですから大きなものです。<br/><br/>まるで日本の雑誌みたいな読みでがあります。<br/><br/>あっちの新聞ですから広告が大部分なのでしょう。<br/><br/>社員が四千人だそうです。<br/><br/>本社の建物が二十四階というのですから、ちょっと度肝を抜かれる大きさです。<br/><br/>その新聞の東洋総支配人の奥さんが来たのです。<br/><br/>女の新聞記者というわけですが、なかなか頭の鋭い人です。<br/><br/>箱根、熱海の地上天国を見せました。<br/><br/>それからいろいろな質問を聞きましたが、日本人と話をするよりか分かりよいのです。<br/><br/>日本人の新聞記者などは、よほどこっちが加減してもなかなか分からないのです。<br/><br/>それは見方が公平で、急所を見るのです。<br/><br/>ですから私も気持ち良く話ができました。<br/><br/>約二時間ばかり話をしました。<br/><br/>その中で私は一番おもしろいと思ったのは、私の今までの経歴を話したところ、“あなたは珍しい、釈迦やキリストはずっと若い時から宗教のことをやっていた。<br/><br/>ところがあなたは五十過ぎてから宗教に入ったのだから世界に例がない”と言ってましたが、私もなるほどそう言われてみるとそうだと、ちょっと見方が違うところにおもしろみがあると思ったのです。<br/><br/>それからいろんな話がありましたが、その中で気のついたことだけを話します。<br/><br/>“天皇制はどうか、天皇制に対してはどういう考えか”ということを質問されたのです。<br/><br/>それで私は、“天皇制はない方がよい”と言ったのです。<br/><br/>アメリカが天皇制をやめるような仕方だから結構だ、どうしてかというと、天皇制がなければ、まず日本が戦争を起こすということがないでしょう。<br/><br/>この間の戦争にしても、天皇制を利用して一派の者が野心を抱いて始めたことなのだから、つまりそういった機関がなければ、そういった看板がなければ、そういうことができないのです。<br/><br/>ですから非常に結構だ。<br/><br/>というのは、日本という国は本当の平和の国です。<br/><br/>平和の国ということは、要するに世界の公園です。<br/><br/>というような、非常に世界的に美しい、世界中の人を慰める、楽しませるという、そういう国柄なのだ、日本の使命はそうなっているのだ、だから戦争などは絶対反対なのだから、徹頭徹尾戦争が起こらないような国家にする。<br/><br/>そうして平和的の美、美しい国という、そういう考えで地上天国や美術館を造ったのだ。<br/><br/>それからこれからも日本では箱根、熱海、京都に最初造るとして、それからハワイにも発展したので、いずれ地上天国を造るようになるだろう。<br/><br/>それからその次はアメリカにも造るし、ヨーロッパにも勿論造る。<br/><br/>東洋にも造る。<br/><br/>それはなぜかというと、公園は世界各地至る所にありますが、その公園よりもっと上等なもの――公園というものは一般的のもので、大衆が憩い、あるいは大衆の娯楽という意味ですが、もっとレベルの高い美によって人間の品性を高めるというものが人類に必要なのです。<br/><br/>私はこれからそういうものを造ろうと思っている。<br/><br/>それからもう一つは、今日の人間というものは、娯楽がなくてはいけないが、娯楽といっても、品性を高めるというようなものよりか、品性を堕落させ低めるというものの方が多い。<br/><br/>これは説明するまでもありませんが、そういった観覧物を見て堕落に導くものの方が多いですから、どうしても少しは品性を高めるというものが必要だ。<br/><br/>このことは、その時には時間がなかったからあっさり話しましたが、少し詳しく話してみますと、つまりこの汚い社会＝嫌なことがたくさんある忌まわしいものの中に生活している以上、その魂が汚れるのです。<br/><br/>汚すまいと思っても、汚すような事柄がたくさんできてくるのです。<br/><br/>話を聞いても、ラジオでも、新聞を見てもそうです。<br/><br/>ラジオでは、娯楽以外には世の中の良いことはあんまりありません。<br/><br/>そういったことを見たり聞いたりしているために、精神的に濁りが溜まったりいろいろします。<br/><br/>そういうものを洗濯する、洗うというものが必要なのです。<br/><br/>そのために地上天国といって、天然の美と人工の美というものを楽しみながら見れば、汚れた魂がいくぶんでも洗われる。<br/><br/>それからまた美ですが、目によってその人の心の境地が高まるわけです。<br/><br/> だからつまり人類社会を良くするには、そういったものがもっとなければいけないのです。<br/><br/>ところが今まではなかったのです。<br/><br/>地上天国というのは美の世界です。<br/><br/>真善美の美です。<br/><br/>そういうようなことをやった人は今までにないので、そのために私がやり始めたのが、今やっている箱根、熱海です。<br/><br/>ところが箱根はできあがって、熱海は今やってますが、これはみなさんも知ってますでしょう。<br/><br/>シモンズという名前の人ですが、お世辞でなく、非常に感銘したようでした。<br/><br/>それから熱海は私が直接案内しましたが、非常に驚いて、（これは通訳が言うのですが）事々に“こういった構想はアメリカにもない、なにを見ても心を打たれる”と喜んで帰りました。<br/><br/>それから二、三日たって、通訳に当たった人が私の所に始終来る浮世絵専門の道具屋ですが、アメリカの浮世絵を研究している人たちに一週一回、夜講義をしているのです。<br/><br/>その人は信者なのです。<br/><br/>その人が通訳をしたわけです。<br/><br/>その人の話によると、どうやら先方も分かったらしいのです。<br/><br/>それで帰ってからの話を聞きますと、どうも自分の方が少しタジタジだった、荷が勝ち過ぎた、だから今度自分の主人が朝鮮に行っているが、帰ってきたらぜひ会っていただいて、また主人が十分話を交換して、自分はアメリカに帰って、『トリビューン』に救世教の紹介をし、そうして岡田という人の記事をぜひ書きたい。<br/><br/>「世界平和の建設者」という題で書くつもりだ、ということを聞きましたが、これは本当にそうするらしいです。<br/><br/>とにかくこの新聞にそうとう出れば、アメリカの人に一ぺんに知れるわけです。<br/><br/>だから神様の方から言うと、一歩アメリカの方に足を踏み入れたということになるわけです。<br/><br/>それからその時にこういうことを言いました。<br/><br/>つまり文明にも経と緯がある。<br/><br/>緯の文明の代表者はアメリカだ、経の国の代表者が日本だ――これは私の書いたものにたくさんあります――ですから経と緯の両方を結んで、初めて本当の文明が生まれるのだ、それでその経緯の文明を結ぶということが、救世教の本来の一つの使命だ、ということを言いましたが、そのことについてもたいへん共鳴してました。<br/><br/>これは本当なのです。<br/><br/>まずその第一歩としてあなたが来られてこういう話を交換されたわけだから、と言ったところが、だいぶ感銘したようでした。<br/><br/>この話はそのくらいにしておきます。<br/><br/> 知ってのとおりハワイが非常な勢いで発展しつつあります。<br/><br/>それでついこの間あっちの弁護士が来ました。<br/><br/>これはハワイの法人の許可を受くべく骨折った人です。<br/><br/>やっと許可を得たそうですから、これからはたいへんやり良くなるわけです。<br/><br/>非常に評判が良くて、しかもこの間ホノルルに本部を買い入れましたが、これがたいへんに良い場所で、非常に立派なもので、値段も安いし、すばらしい買物だと言ってました。<br/><br/>ハワイは五つの大きな島から成り立っていますが、その一つずつに一カ所ずつチャンと支部ができましたから、これからだんだん活動するというわけです。<br/><br/>その一つ一つの島に、つまり救世教が大いに発展するわけです。<br/><br/>そこで今の形勢でゆきますと、結局そう長くはかからないうちにハワイ全島がほとんど救世教になると思います。<br/><br/>メシヤ島になりやしないかと思ってます。<br/><br/>とにかく今のあっちの発展の勢いはすばらしいものです。<br/><br/>そうなると世界が注目します。<br/><br/>今一番注目しているのはアメリカです。<br/><br/>もっともそれはこっちの予定のとおりですが、つまりハワイの発展の具合を見てアメリカが“これはたいへんなものだ、では自分の方にぜひ来てもらいたい”という、アメリカの国民的世論でアメリカに始まるという、そういう計画ですから、そういうふうにゆくわけです。<br/><br/>そうしますと、ハワイは食べ物はウンとできるのですから、みんなが食べきれないほどできるのです。<br/><br/>これは日本とはまるで違います。<br/><br/>気候はよいし、あんまり悪い人間はいないのです。<br/><br/>日本のようにずるい人間や悪い人間というのは、結局食えないからです。<br/><br/>それが食糧その他の豊かな所では、ずるいことをする必要がありません。<br/><br/>ですから日本がますます悲惨な状態ということは、物が足りないということが一番の原因だと思います。<br/><br/>ハワイで一番苦しんでいるのが病気です。<br/><br/>だから救世教によって病気が解決されると、本当の地上天国が簡単にできます。<br/><br/>いずれハワイにも美術館を造ることになりましょう。<br/><br/>そうなると地上天国です。<br/><br/>ハワイのいろいろな特徴を取り入れた地上天国を造るつもりです。<br/><br/>美術館も造ります。<br/><br/>そうなったらいよいよ世界の楽園みたいになりますから、これは世界の一つの注目をあび、問題になるだろうと思います。<br/><br/> 時間がないので簡単に話します。<br/><br/>もう一つは自然栽培ですが、これは名古屋付近の人は今一番関心を払われてます。<br/><br/>それでまたこの自然栽培の成績が近来になってから中京方面がすばらしい成績をあげたという、これも意味があります。<br/><br/>これはいつも言うとおり、とにかく中京ということは東と西の真ん中です。<br/><br/>真ん中というのは、東は経で西が経ですから、やはり経と緯の中心です。<br/><br/>そこで始まるということは、これは根本的の問題です。<br/><br/>やはり神様の経綸はそういうふうな形で、順序ということになるのです。<br/><br/>自然栽培もまず中京から始まるということはあたりまえなのです。<br/><br/>それについて思い出されるのは、私が東京で観音教団をやった時分に、渋井さんが地方をやるようになったときに、やはり中京から始まったのです。<br/><br/>中京という所は重要な所です。<br/><br/>そこで自然栽培の成績がどうしても来月にならなくては確かなところが現われないのです。<br/><br/>特集号を出そうと思って、もっと早くするつもりだったのですが、どうも予想が多い。<br/><br/>しかし予想ではおもしろくないので、やはり数字が現われなければならないのです。<br/><br/>反に何石何斗何升というようでなければいけないのです。<br/><br/>それには来月にならなければどうしてもはっきりしませんから、それを待って、はっきりしてから農業特集号を編集するつもりです。<br/><br/>それでもって全国的に大宣伝をやってもらいたいと思います。<br/><br/>そうすると、ちょうどと言ってははなはだ気の毒ですが、今年の凶作でこれを解決する方法があるかというとないのです。<br/><br/>今年はこれでよいが、来年はどうするといっても、こうすればよいというその方法がないのです。<br/><br/>それでこうなると心が暗くなって、農民諸君が生きてゆくにも、どうしてよいか分からなくなります。<br/><br/>そこに自然農法の今年の成績をもって大宣伝をするのです。<br/><br/>これは開いた口にボタモチということになります。<br/><br/>そこで急激に自然農法が伝播するということは確かです。<br/><br/>そうなれば政府も動いてくるでしょう。<br/><br/>だいたい農民層が大勢ワッと来ますから、これは文句ありません。<br/><br/>ですからそうなると、全国的に救世教はたいしたものだ、ありがたいことだ、ということになって、一ぺんに分かります。<br/><br/> 今はアメリカの話、ハワイの話、日本の話と、この三つに分けて話をしましたが、いよいよわが救世教が世界的にも日本的にも一歩前進することになるわけです。<br/><br/>今までの長い間いろんな妨害をされ、みんな苦しみに苦しみ、つまり雪霜に堪えてきて、いよいよいまや春に向かわんとする、ちょうど直前に来たような気がするのです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

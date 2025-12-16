@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s260816</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御教え （S26年8月16日） 『御教え集』1号、昭和26(1951)年9月20日発行 昭和二十六年八月十六日 昨日のお祭りが今日にのびましたが、というのは昨日公判がありましたからね。<br><br>どうしても行かなければならないというので行ったんですが、驚いたんです。<br><br> その一日前に家内が夢を見た。<br><br>それは、私と家内が一緒に遠くの屋敷みたいな所に行って、真っ黒い大きな龍が、こっちの方に向かってきたが、それて横を向いて縁（えん）の下に入って行った。<br><br>とても長い――随分長いそうですがね。<br><br>それを行き掛けに自動車の中で聞いて、ははあこれだなと思った。<br><br>松島というのに黒龍の親玉が憑いている。<br><br>そのしゃべらしたことを黙っていると、こっちの負けになる。<br><br>負けになると邪神の方が勢いがついて、神様の方が、勢いがそれだけ影響することになる。<br><br>八十％が嘘で二十％が本当だと言うと、言霊で、先の言を抹殺してしまう。<br><br>私の言霊は霊界では特別な力がある。<br><br>非常な力がある。<br><br>それでこっちは勝利を得たことになる。<br><br>そういうようなわけですね。<br><br>とにかく邪神と正神の闘いですからね。<br><br>邪神の方はメシヤ教くらい恐いものはない。<br><br>他のには勝つが、メシヤ教だけは歯がたたない。<br><br>邪神のやり方にいろいろありますがね。<br><br>言論機関――ああいうものを使う場合と、役人を使う場合とあるが、役人が一番始末が悪い。<br><br>法律という武器を持っているから。<br><br>役人という鎧を着て武器を持ってやってくるからね。<br><br>こっちは無手ですからね。<br><br>だから去年なんか、ああいう目に会った。<br><br>ミロクの世になるまで続くんです。<br><br>勿論神様の方が勝って行くんですが、いろいろあります。<br><br>昨日の場面はそういうことです。<br><br>霊的に言うとそういう意味になるんです。<br><br>それで話したんですが。<br><br>ですから実に骨も折れるし、おもしろいし、いろいろなことがあります。<br><br>私を出さないように、私にしゃべられたら、先が負けちゃうから弁護人を出してしゃべらした。<br><br>私がしゃべろうとすると誰か出る。<br><br>そうしてのばしている。<br><br>六時になって時間がわずかになったでしょう。<br><br>あれは邪神の計画なんです。<br><br>だから、弁護士なんか――つまらない、屁みたいなことでね。<br><br> それから、文明の創造の中の――いろいろ――何病気とか彼病気というのに対していろいろ精しく書きました。<br><br>最後に総論を書き、総論の中に手術に関したことを、判るように書いてあるから、手術の説明をするのに便利が良いから。<br><br> 今度できたんですが「 結核の革命的療法 」これは、結核の本当の原因やなにか書いたんですがね。<br><br>これを読んだら、どんな人でも納得しないわけはないと思うんです。<br><br>一般に出版するつもりで書いたんですが、これを見ると、結核療法――医学的のね――あれは形なしになっちゃう。<br><br>言論の自由であるしね差し支えないようですが、医学者の方から苦情が出そうなような懸念があるので、非売品として信者さんだけに、今のところ配るつもりです。<br><br>いずれは一般人に知らせなければならないんです。<br><br>時節でしかたがないんですね。<br><br> それから「 新しき暴力 」というんですが、私の 法難手記 が骨子になって、これは先に光社の編集長ですが――小坂という人がこしらえた。<br><br>一般人に読ませるようにいろいろな人の書いたものを載せている。<br><br> 新しき暴力 は法難手記がそっくり入っている。<br><br>法難手記は限定版になっているので、一万部ですかね。<br><br>足りないようだったから――あれの足りない人にはちょうど良い。<br><br>中島健蔵――有名な評論家ですが。<br><br>海音寺潮五郎――これも有名な人ですが。<br><br>大庭さち子――これも婦人の方では新進の評判の良い人ですね。<br><br>それから岩崎栄――この人は、よくこっちを理解し、いろいろ書いている。<br><br>私の――岡田茂吉のプロフィールと、そうとう長く書いてますからね。<br><br>第三者なんかには適当な編集ぶりになっているので、大いに読ませるようにしてもらいたい。<br><br>そうすると、今の司法制度ですね。<br><br>ああいうことも、世の中の人が知ることによって、希望するところは世論にしたいくらいです。<br><br>それによって、社会悪的なものを少しでも清めるんです。<br><br>そんな意味でできるだけ読ませるようにしてもらいたい。<br><br>まあ――本の広告です。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Batalha entre o Bem e o Mal e a Divulgação da Verdade</h2>
 <p>O serviço religioso de ontem foi adiado para hoje devido à minha convocação para uma audiência. O que ocorreu foi surpreendente. Na véspera, minha esposa tivera um sonho no qual nós dois íamos a uma propriedade distante, semelhante a um palacete. Lá, um imenso dragão, de um negrume profundo, avançou em nossa direção, mas, no último instante, desviou-se, virou de lado e entrou sob o assoalho da varanda. Era uma criatura de um comprimento impressionante. Ao ouvir seu relato no automóvel, a caminho do tribunal, compreendi imediatamente o que aquilo significava.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Concluímos também a obra "Tratamento Revolucionário da Tuberculose". Nela, exponho as verdadeiras causas da doença e outros pontos fundamentais. Creio que sua leitura convencerá qualquer pessoa. Meu intuito inicial era publicá-la para o grande público; contudo, seu conteúdo desmantela por completo os tratamentos médicos convencionais para a tuberculose. Ainda que a liberdade de expressão nos ampare, prevejo que poderá gerar protestos por parte da classe médica. Diante dessa possibilidade, decidimos, por ora, distribuí-la como uma publicação de circulação interna, destinada apenas aos nossos fiéis. Evidentemente, um dia esta verdade precisará ser revelada a todos, mas as circunstâncias atuais exigem prudência.</p>
 <p>Temos ainda o livro "A Nova Violência", cuja espinha dorsal é o meu "Relato da Perseguição Religiosa". A obra foi compilada pelo Sr. Kosaka, ex-editor-chefe da editora Hikari. Com o intuito de alcançar o público geral, ele incluiu textos de diversas personalidades. "A Nova Violência" contém a íntegra do meu relato, o que é oportuno, pois a edição original foi limitada a dez mil exemplares e mostrou-se insuficiente para a demanda. O livro conta com prestigiados colaboradores, como o renomado crítico Nakajima Kenzo, o célebre escritor Kaionji Chogoro e a Sra. Ohba Sachiko, uma escritora em ascensão e de excelente reputação. Participa também o Sr. Iwasaki Sakae, que demonstra grande compreensão de nossa Obra e já escreveu vários artigos a nosso respeito, incluindo um longo perfil biográfico sobre mim, Okada Mokiti. A edição foi pensada para ser acessível a quem não nos conhece, por isso, peço que a divulguem amplamente.</p>
 <p>Ao fazer isso, o público tomará conhecimento de como funciona o nosso sistema judiciário. Nosso desejo é que, a partir desse conhecimento, forme-se uma forte opinião pública. Por meio dela, poderemos purificar, ainda que em parte, os males que assolam nossa estrutura social. É com este propósito que peço a máxima divulgação. Enfim, considerem este um anúncio de nossos novos livros.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御教え （S26年8月16日） 『御教え集』1号、昭和26(1951)年9月20日発行 昭和二十六年八月十六日 昨日のお祭りが今日にのびましたが、というのは昨日公判がありましたからね。<br/><br/>どうしても行かなければならないというので行ったんですが、驚いたんです。<br/><br/> その一日前に家内が夢を見た。<br/><br/>それは、私と家内が一緒に遠くの屋敷みたいな所に行って、真っ黒い大きな龍が、こっちの方に向かってきたが、それて横を向いて縁（えん）の下に入って行った。<br/><br/>とても長い――随分長いそうですがね。<br/><br/>それを行き掛けに自動車の中で聞いて、ははあこれだなと思った。<br/><br/>松島というのに黒龍の親玉が憑いている。<br/><br/>そのしゃべらしたことを黙っていると、こっちの負けになる。<br/><br/>負けになると邪神の方が勢いがついて、神様の方が、勢いがそれだけ影響することになる。<br/><br/>八十％が嘘で二十％が本当だと言うと、言霊で、先の言を抹殺してしまう。<br/><br/>私の言霊は霊界では特別な力がある。<br/><br/>非常な力がある。<br/><br/>それでこっちは勝利を得たことになる。<br/><br/>そういうようなわけですね。<br/><br/>とにかく邪神と正神の闘いですからね。<br/><br/>邪神の方はメシヤ教くらい恐いものはない。<br/><br/>他のには勝つが、メシヤ教だけは歯がたたない。<br/><br/>邪神のやり方にいろいろありますがね。<br/><br/>言論機関――ああいうものを使う場合と、役人を使う場合とあるが、役人が一番始末が悪い。<br/><br/>法律という武器を持っているから。<br/><br/>役人という鎧を着て武器を持ってやってくるからね。<br/><br/>こっちは無手ですからね。<br/><br/>だから去年なんか、ああいう目に会った。<br/><br/>ミロクの世になるまで続くんです。<br/><br/>勿論神様の方が勝って行くんですが、いろいろあります。<br/><br/>昨日の場面はそういうことです。<br/><br/>霊的に言うとそういう意味になるんです。<br/><br/>それで話したんですが。<br/><br/>ですから実に骨も折れるし、おもしろいし、いろいろなことがあります。<br/><br/>私を出さないように、私にしゃべられたら、先が負けちゃうから弁護人を出してしゃべらした。<br/><br/>私がしゃべろうとすると誰か出る。<br/><br/>そうしてのばしている。<br/><br/>六時になって時間がわずかになったでしょう。<br/><br/>あれは邪神の計画なんです。<br/><br/>だから、弁護士なんか――つまらない、屁みたいなことでね。<br/><br/> それから、文明の創造の中の――いろいろ――何病気とか彼病気というのに対していろいろ精しく書きました。<br/><br/>最後に総論を書き、総論の中に手術に関したことを、判るように書いてあるから、手術の説明をするのに便利が良いから。<br/><br/> 今度できたんですが「 結核の革命的療法 」これは、結核の本当の原因やなにか書いたんですがね。<br/><br/>これを読んだら、どんな人でも納得しないわけはないと思うんです。<br/><br/>一般に出版するつもりで書いたんですが、これを見ると、結核療法――医学的のね――あれは形なしになっちゃう。<br/><br/>言論の自由であるしね差し支えないようですが、医学者の方から苦情が出そうなような懸念があるので、非売品として信者さんだけに、今のところ配るつもりです。<br/><br/>いずれは一般人に知らせなければならないんです。<br/><br/>時節でしかたがないんですね。<br/><br/> それから「 新しき暴力 」というんですが、私の 法難手記 が骨子になって、これは先に光社の編集長ですが――小坂という人がこしらえた。<br/><br/>一般人に読ませるようにいろいろな人の書いたものを載せている。<br/><br/> 新しき暴力 は法難手記がそっくり入っている。<br/><br/>法難手記は限定版になっているので、一万部ですかね。<br/><br/>足りないようだったから――あれの足りない人にはちょうど良い。<br/><br/>中島健蔵――有名な評論家ですが。<br/><br/>海音寺潮五郎――これも有名な人ですが。<br/><br/>大庭さち子――これも婦人の方では新進の評判の良い人ですね。<br/><br/>それから岩崎栄――この人は、よくこっちを理解し、いろいろ書いている。<br/><br/>私の――岡田茂吉のプロフィールと、そうとう長く書いてますからね。<br/><br/>第三者なんかには適当な編集ぶりになっているので、大いに読ませるようにしてもらいたい。<br/><br/>そうすると、今の司法制度ですね。<br/><br/>ああいうことも、世の中の人が知ることによって、希望するところは世論にしたいくらいです。<br/><br/>それによって、社会悪的なものを少しでも清めるんです。<br/><br/>そんな意味でできるだけ読ませるようにしてもらいたい。<br/><br/>まあ――本の広告です。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

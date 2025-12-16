@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>igaku75</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学療法と信仰療法 『栄光』186号、昭和27(1952)年12月10日発行 今日医師諸君はもちろんの事、インテリ階級の人達は例外なく、信仰で病気が治る事実に対し、決って左のごとき解釈をする。<br><br>大体病気というものは、病は気からといって精神作用が案外大きいものであるから、信仰で病気を治そうとする場合、その宗教の教師などから神仏の利益を過大に言われ、言葉巧みに必ず治るように思わせられるので、何しろそれまで医療でも何の療法でも治らないで困り抜いている際とて、まともに信じてしまい、まずそれだけで精神的に快方に向かうので、別段神仏の利益でない事はもちろんであるという観方である。<br><br>そんな訳だから本教の治病奇蹟がどんなに素晴しいと聞かされても右のような解釈で片付けてしまうのであるからやり切れない。<br><br>その度毎に吾々は憤慨を通り越して呆れるばかりである。<br><br>もっともそう思うのも無理はないかも知れない。<br><br>なぜなれば今日までの信仰療法の多くがそれであるからである。<br><br> ところが本教の病気治しは、それらとは根本的に異（ちが）っている。<br><br>それをこれから詳しくかいてみるが、まず本教へ治療を乞いに来る限りの人々は、もちろん最初から疑っている。<br><br>何しろ新聞雑誌は固より、大部分の社会人殊に智識人などは、必ずと言いたい程病気は医薬で治すものと決めているからで、今日のごとく素晴しい進歩した医学と信じ切っており、これ以外病を治すものはないと思っている。<br><br>しかも最近アメリカで発見の新薬もそうだが、その他精巧な機械、手術の巧緻等々によって、安心して委せている現在、そんな新宗教の病気治しなどは問題にならないではないか、そんなものを信用したが最後、飛んでもないことになるかも知れない。<br><br>それこそ迷信以外の何物でもないと、色々の人から云われるので、それもそうだと思い、宗教治病の機会があっても逃してしまうのである。<br><br>ところが病気の方は遠慮なく益々悪化し、ついには死の一歩手前にまで追い詰められる結果、自分から医療に愛想をつかした人々は、本教に縋ることになるが、そういう人は極く運のいい人で大部分の人は医療に嵌（はま）ったまま御国替となるので、実に気の毒なものである。<br><br>という訳で病気は治らず、金は掛かり放題、苦痛は増すばかりなので、煩悶、懊悩（おうのう）の際、たまたま本教の話を聞くが、これ程科学が進歩した今日、そんな不思議なことがあってたまるものかとテンデ話にならないが、外にどうしようもないので、では瞞されるつもりで、一度試してみようくらいの肚でやって来る人が大部分で、初めから信ずる人などほとんどないといってもいい。<br><br>としたら精神作用など微塵もない。<br><br>ところで来てみると医学の素養など全然ないはなはだ風采あがらない先生らしい御仁が、薬も機械も使わず、身体にも触れず、ただ空間に手を翳（かざ）すだけなので、唖然としてしまい、大病院や博士でも治らないこれ程の大病が、あんな他愛ないやり方で治るなどとはどうしても思えない、だがせっかく来たので帰る訳にもゆかないから、マアー一度だけ試してみようとやって貰うとこれはまた何たる不思議、たちまち病気以来かつてない程のいい気持になり、苦痛も軽くなるのでいよいよ分らなくなる。<br><br>しかし分っても分らないでも、快くなりさえすりゃいいという訳で、どんな頑固な人でも無神論者でも、一遍に頭を下げ、百八十度の転換となる。<br><br>これがほとんどの人の経路である。<br><br> 以上の事実を仔細に見ても、本教治療法のどこに精神的狙いがあるであろうかである。<br><br>ところがそれに引替え医学の方はどうであろうか、むしろ精神面からいって比べものにならないではないか。<br><br>まず当局はじめ言論機関、学校教育等々、医学の進歩を旺んに強調し、これ以上のものはないとして、病気になったら手遅れにならない内、一刻も早く医師に診て貰い、指示通りにせよ、それが正しい方法で、決して外の療法などに迷ってはいけないと極力注意する。<br><br>しかも立派な大病院、有名な博士、完備せる施設、精巧な機械、新薬等々、実に至れり尽せりで、これを見ただけでもどんな病気でも治ると思うのは当然で、安心してお委せするのが今日の常識である。<br><br>このような訳で医学を信ずる人はあっても、疑う人など一人もないのである。<br><br> 以上によってみても、医学に対する信頼は百パーセントであるに反し、吾々の方の信用は零よりもマイナスなくらいである。<br><br>にもかかわらずその結果は散々医療で治らない病人が、我方へ来るやたちまち治ってしまうのであるから、その治病力の差は月とスッポンといえるのである。<br><br>この事実を公平に言えば、現代医学こそ迷信であり、我医学こそ正信であると断言出来るのである。<br><br>つまり医学を信じて生命を失うか、信じないで助かるかのどちらかであろうといったら、恐らくこれを読んで愕然としない人はあるまい。<br><br>これは歴史的に見ても分る通り、時代の変遷は昨日の真理も、今日の逆理となる事さえ往々あるのであるから、あえて不思議ともいえまい。<br><br>このような明らかな道理が今日まで分らなかったのは、全く過去の亡霊に取憑かれていたからであり、それを発見する人も出なかったためでもある。<br><br>また世間こういう人がよくある。<br><br>もしそんな事で病気が治るとしたら、医者も薬も要らないではないかと言うのである。<br><br>全くその通りで医者や薬が無くなったら、世の中に病人はなくなると答えざるを得ないのである。<br><br>以上のごとく現代医学こそ、世界的迷信の最大なるものであって、人類から病を無くすとしたら、何よりもこの迷信を打破することこそ先決問題である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Superstição da Medicina Moderna</h2>
 <p>Atualmente, tanto os médicos como, de modo geral, os membros da classe intelectual, interpretam invariavelmente o fato de a fé curar doenças da seguinte maneira: partem do princípio de que as enfermidades possuem um forte componente mental — como bem expressa o ditado “a doença vem da mente” —, e que, por conseguinte, o processo de cura pela fé depende fundamentalmente da sugestão psicológica. Segundo essa ótica, quando alguém busca auxílio em uma religião, o líder espiritual emprega uma oratória convincente, exaltando os prodígios de Deus, a ponto de instilar no doente a certeza da cura. Como o indivíduo já se encontra em um estado de desespero, após fracassar em inúmeros tratamentos médicos e terapias convencionais, ele adere a essa crença de forma irrestrita. Essa adesão, por si só, já promove uma melhora em seu estado de espírito, o que os leva a concluir que a recuperação não provém de qualquer poder divino.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Analisando esses fatos com atenção, onde estaria o elemento de sugestão psicológica em nosso método de cura? Em contrapartida, observemos a medicina. Não seria ela incomparavelmente mais dependente do aspecto mental? As autoridades governamentais, os meios de comunicação, o sistema educacional — todos exaltam o progresso da medicina, afirmando que não há nada superior a ela. Advertem a população para que, ao adoecer, procure um médico o mais rápido possível, a fim de evitar que seja tarde demais, e para que siga rigorosamente suas instruções, alertando veementemente contra terapias alternativas. Some-se a isso a imponência dos hospitais, a fama dos doutores, a excelência das instalações, a sofisticação dos equipamentos e os novos medicamentos. Diante de um cenário de tamanha perfeição, é natural que se acredite na cura de qualquer doença. Confiar cegamente na medicina tornou-se o senso comum de nossa era. Por essa razão, existem inúmeros fiéis da medicina, mas ninguém que ouse duvidar dela.</p>
 <p>Pelo exposto, a confiança na medicina é, portanto, de cem por cento, enquanto a credibilidade depositada em nós é nula, ou até mesmo negativa. Apesar disso, o resultado é que doentes desenganados pela medicina, ao nos procurarem, são curados instantaneamente. A diferença entre os dois poderes de cura é abissal. Se formos imparciais, poderemos afirmar categoricamente que a medicina moderna é a verdadeira superstição, e a nossa, a fé genuína. A escolha se resume a isto: crer na medicina e perder a vida, ou descrer e ser salvo. Creio que não haverá quem, ao ler estas palavras, não fique estarrecido. A História, porém, nos ensina que, com a evolução dos tempos, a verdade de ontem frequentemente se torna o paradoxo de hoje, não havendo nisso mistério algum. Se uma lógica tão evidente permaneceu oculta até nossos dias, foi unicamente porque as pessoas estavam acorrentadas aos fantasmas do passado e porque ainda não havia surgido quem a desvelasse.</p>
 <p>É comum, também, ouvirmos o seguinte argumento: “Se as doenças podem ser curadas dessa forma, então os médicos e os remédios se tornam desnecessários”. E estão absolutamente corretos. A isso, somos forçados a responder que, se os médicos e os remédios desaparecessem, os doentes também desapareceriam do mundo. Assim, a medicina moderna constitui a maior superstição em escala global e, para que a humanidade se veja livre das doenças, a derrubada dessa superstição é a questão primordial.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学療法と信仰療法 『栄光』186号、昭和27(1952)年12月10日発行 今日医師諸君はもちろんの事、インテリ階級の人達は例外なく、信仰で病気が治る事実に対し、決って左のごとき解釈をする。<br/><br/>大体病気というものは、病は気からといって精神作用が案外大きいものであるから、信仰で病気を治そうとする場合、その宗教の教師などから神仏の利益を過大に言われ、言葉巧みに必ず治るように思わせられるので、何しろそれまで医療でも何の療法でも治らないで困り抜いている際とて、まともに信じてしまい、まずそれだけで精神的に快方に向かうので、別段神仏の利益でない事はもちろんであるという観方である。<br/><br/>そんな訳だから本教の治病奇蹟がどんなに素晴しいと聞かされても右のような解釈で片付けてしまうのであるからやり切れない。<br/><br/>その度毎に吾々は憤慨を通り越して呆れるばかりである。<br/><br/>もっともそう思うのも無理はないかも知れない。<br/><br/>なぜなれば今日までの信仰療法の多くがそれであるからである。<br/><br/> ところが本教の病気治しは、それらとは根本的に異（ちが）っている。<br/><br/>それをこれから詳しくかいてみるが、まず本教へ治療を乞いに来る限りの人々は、もちろん最初から疑っている。<br/><br/>何しろ新聞雑誌は固より、大部分の社会人殊に智識人などは、必ずと言いたい程病気は医薬で治すものと決めているからで、今日のごとく素晴しい進歩した医学と信じ切っており、これ以外病を治すものはないと思っている。<br/><br/>しかも最近アメリカで発見の新薬もそうだが、その他精巧な機械、手術の巧緻等々によって、安心して委せている現在、そんな新宗教の病気治しなどは問題にならないではないか、そんなものを信用したが最後、飛んでもないことになるかも知れない。<br/><br/>それこそ迷信以外の何物でもないと、色々の人から云われるので、それもそうだと思い、宗教治病の機会があっても逃してしまうのである。<br/><br/>ところが病気の方は遠慮なく益々悪化し、ついには死の一歩手前にまで追い詰められる結果、自分から医療に愛想をつかした人々は、本教に縋ることになるが、そういう人は極く運のいい人で大部分の人は医療に嵌（はま）ったまま御国替となるので、実に気の毒なものである。<br/><br/>という訳で病気は治らず、金は掛かり放題、苦痛は増すばかりなので、煩悶、懊悩（おうのう）の際、たまたま本教の話を聞くが、これ程科学が進歩した今日、そんな不思議なことがあってたまるものかとテンデ話にならないが、外にどうしようもないので、では瞞されるつもりで、一度試してみようくらいの肚でやって来る人が大部分で、初めから信ずる人などほとんどないといってもいい。<br/><br/>としたら精神作用など微塵もない。<br/><br/>ところで来てみると医学の素養など全然ないはなはだ風采あがらない先生らしい御仁が、薬も機械も使わず、身体にも触れず、ただ空間に手を翳（かざ）すだけなので、唖然としてしまい、大病院や博士でも治らないこれ程の大病が、あんな他愛ないやり方で治るなどとはどうしても思えない、だがせっかく来たので帰る訳にもゆかないから、マアー一度だけ試してみようとやって貰うとこれはまた何たる不思議、たちまち病気以来かつてない程のいい気持になり、苦痛も軽くなるのでいよいよ分らなくなる。<br/><br/>しかし分っても分らないでも、快くなりさえすりゃいいという訳で、どんな頑固な人でも無神論者でも、一遍に頭を下げ、百八十度の転換となる。<br/><br/>これがほとんどの人の経路である。<br/><br/> 以上の事実を仔細に見ても、本教治療法のどこに精神的狙いがあるであろうかである。<br/><br/>ところがそれに引替え医学の方はどうであろうか、むしろ精神面からいって比べものにならないではないか。<br/><br/>まず当局はじめ言論機関、学校教育等々、医学の進歩を旺んに強調し、これ以上のものはないとして、病気になったら手遅れにならない内、一刻も早く医師に診て貰い、指示通りにせよ、それが正しい方法で、決して外の療法などに迷ってはいけないと極力注意する。<br/><br/>しかも立派な大病院、有名な博士、完備せる施設、精巧な機械、新薬等々、実に至れり尽せりで、これを見ただけでもどんな病気でも治ると思うのは当然で、安心してお委せするのが今日の常識である。<br/><br/>このような訳で医学を信ずる人はあっても、疑う人など一人もないのである。<br/><br/> 以上によってみても、医学に対する信頼は百パーセントであるに反し、吾々の方の信用は零よりもマイナスなくらいである。<br/><br/>にもかかわらずその結果は散々医療で治らない病人が、我方へ来るやたちまち治ってしまうのであるから、その治病力の差は月とスッポンといえるのである。<br/><br/>この事実を公平に言えば、現代医学こそ迷信であり、我医学こそ正信であると断言出来るのである。<br/><br/>つまり医学を信じて生命を失うか、信じないで助かるかのどちらかであろうといったら、恐らくこれを読んで愕然としない人はあるまい。<br/><br/>これは歴史的に見ても分る通り、時代の変遷は昨日の真理も、今日の逆理となる事さえ往々あるのであるから、あえて不思議ともいえまい。<br/><br/>このような明らかな道理が今日まで分らなかったのは、全く過去の亡霊に取憑かれていたからであり、それを発見する人も出なかったためでもある。<br/><br/>また世間こういう人がよくある。<br/><br/>もしそんな事で病気が治るとしたら、医者も薬も要らないではないかと言うのである。<br/><br/>全くその通りで医者や薬が無くなったら、世の中に病人はなくなると答えざるを得ないのである。<br/><br/>以上のごとく現代医学こそ、世界的迷信の最大なるものであって、人類から病を無くすとしたら、何よりもこの迷信を打破することこそ先決問題である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

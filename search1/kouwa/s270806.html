@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s270806</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年8月6日） 『御教え集』13号、昭和27(1952)年9月25日発行 昭和二十七年八月六日 一日の晩に腹が痛んで下痢をして夜中中――四回でしたか、随分たくさん――こんなにもあるかと思うくらい出たのです。<br><br>で、なにかにあてられたのかと思って食物を考えてみたが、それらしいものもない。<br><br>もしあてられたとすると、同じに食べた人もそうなるが、ならないからどうもそうでない。<br><br>で、私は後頭部に固まりがあるのです。<br><br> 八つ頭の小さいようなものですが、これは先に一年間歯の薬を毎日つけ通しだった。<br><br>これは私の書いたものにありますが、これがここ（後頭部）に固まっていた。<br><br>これが長い間固まっていたのが、去年あたりから私の浄霊で溶けてきた。<br><br> これが下痢になっていた。<br><br>ですから毒というものは――今度知ったものではないが、このくらいのものが溶けると、このくらい（多く）になります。<br><br>薬だって、仮に薬一合服みますと、一勺よりもっと小さく固まるものです。<br><br>三十分の一か五十分の一くらいに固まります。<br><br>ですからそれが溶けると、何十倍というものになります。<br><br>これは信者さんはみんな知ってますが、毒は溶けると実に多いものです。<br><br>痰などいくら出しても出るし、それから膿でもなんでも、いくら出ても出ても後できます。<br><br>そのくらい増えるものです。<br><br>そうして後見ると少し小さくなりましたが――十分の一あるか、なしかくらいに小さくなったが、まだそうとうあります。<br><br>そうしてみると人間の毒の量というものは、たいへんなものです。<br><br>だから今信者さんも、特に幹部の人なんかは、特に猛烈な浄化が起って驚いている人がありますが、そういう人は神様のことに働いたいろいろな功労によって、浄化が早く来るのです。<br><br>逆に考えると良いのです。<br><br> あれだけ一生懸命やって、あんなに酷い浄化で苦しむのはひどい、とあべこべに考える人があるでしょうが、その逆です。<br><br>あれだけ一生懸命神様のことをやったので、浄化を早くしていただくというわけです。<br><br>これをもういっそう深く考えると、一般の社会の人間が、いずれはそうなるのです。<br><br>ですからそうなった時の想像をしてみると、助かる人というのは、まずいくらもないでしょう。<br><br>それも、早く浄霊すると良いが、やっぱり医学の力に頼りますから、そうすると一時抑えをやる。<br><br>ところがもうそういう時になると浄化の方が強いですから、一時抑えがかえって逆作用になって苦しんで死ぬというのが多いです。<br><br>ですから病気になるかならないうちに片っ端から死んでしまいます。<br><br>そういう時が来るのです。<br><br>特に怖いのは、結核なんか近ごろ死亡率が減ったとか言ってますが、あれが怖いのです。<br><br>あの結核の新薬というのは、今までの薬より毒が強いのです。<br><br>毒が強いから、一時止めるから死ぬ人が一時延びるのです。<br><br>それで喜んでいると、その毒の浄化が起ります。<br><br>そこにもっていって浄化が激しくなっているからして、それはもう悪性の結核がたくさん起ります。<br><br>当局もまごつくし、一種の恐怖時代が来ます。<br><br>それが最後の審判です。<br><br>これは二千年も前から神様の方ではちゃんと警告を与えてあるのです。<br><br>で、日本人なんかでもごく上等で三分の一――三割助かったらごく上等です。<br><br>あるいは助かるのは一割くらいかもしれません。<br><br>なにしろ今の一般人というのは固まり健康です。<br><br>固まってわずかに健康を保っているのですから、溶け出したら想像もつかないくらいの大悲劇が起ります。<br><br>実に恐ろしい話なのです。<br><br>で、今私はそういうことを書いてますが、今書いてきたのを読ませます。<br><br>これは『文明の創造』の中に入る項目です。<br><br> （御論文「病気〔健康〕と寿命」） それからいつも言う通り、下痢――赤痢もそうですが、これは頭の浄化作用ということは良く分かるのですが、これを知らない人なんかは、今度の私の浄化でも、無論なにかにあてられたに違いない。<br><br>あるいは虫ではないか――回虫とか十二指腸虫というように考えるし、お医者もそう思います。<br><br>まさか頭の毒が溶けるなどとは夢にも思いません。<br><br>それは以前は下痢というと、腹の固まりそれから背中の固まり――そういうのが多かったです。<br><br>頭の下痢は、近ごろ浄化が強くなったためです。<br><br>今年は赤痢が多いのもそういう関係です。<br><br>そこで下痢の本元は頭だということは、大発見というわけです。<br><br>今、太田という男がそれと同じようなことをやってます。<br><br>昨日浄霊してやったが、熱があるのです。<br><br>みると頭に熱があるのです。<br><br>この下痢は昨日から今日にかけて三十分置きです。<br><br>それはあの人は頭に特に毒が多いのです。<br><br>そういうわけだから、これから下痢患者は頭を浄霊する。<br><br>そうしてお腹の方やなにかは簡単で良い。<br><br>頭を主にする。<br><br>頭も前頭部の方と後頭部の場合がある。<br><br>前頭部は触ってみると熱が強い、後頭部は固まりがありますから、それをやると一時はよけい下痢をしますが、後治りが良いのです。<br><br>その代わり頭が良くなります。<br><br>私も、昨日あたりから原稿なんか書いても非常に具合が良いのです。<br><br>それだけを覚えておくと良い。<br><br> それからもう一つは結核の再浄化――いったん良くなってそれから再浄化が起って、それがかえってしつこくて、症状も熱が出、咳と痰が出て、食欲が減り衰弱が強い、ということはお決まりのようになってますが、それはやっぱり浄化が強くなっているのです。<br><br>そこで浄化が激しいために、それに堪えられなくて命までなくするということがよくあるのですから、これからは再浄化の場合は――これは再浄化に限るのです。<br><br>最初は今まで通りで良いのですが、結核の再浄化の場合は一週間に一度です。<br><br>そのくらいにする。<br><br> ところで、私の話を間違える人が非常にある。<br><br>私は随分はっきり言うのですが、昨日も一週間に一回と言ったら、今日は二回という人がある。<br><br>一週間に一回と二回では倍違います。<br><br>頭について、信者さんの頭が――信者さんの頭ばかりでなく、世間の人は信者さん以下ですが、信者さんでも非常に頭が悪いのです。<br><br>というのは、私の言う通りに考えないのです。<br><br>明主様はこうおっしゃったが、あれはこういう意味なんだ。<br><br>こういう意味というのを自分で作ってしまうのです。<br><br>それで間違うことがよくある。<br><br>それでまた私の言った通りをやるということは、自分が値打ちがなかったり頭が悪かったりするように思うのです。<br><br>ですから私の言った通りにやる人が少ないのです。<br><br>私はいつも言うのですが、私が思う通り言った通りにする人は英雄と言うのです。<br><br>偉いです。<br><br>ところが一般は必ず違います。<br><br>これは信仰ばかりでなく、庭の方でもそうです。<br><br>私の言う通りにやる職人というのは一人もないです。<br><br>これをここにやれと言うと、必ずここにやる人はないです。<br><br>こっちにやるとか、あっちにやる。<br><br>私がこっちにやれと言うとあっちにやる。<br><br>だから職人には手を焼いているのです。<br><br>ところが私の言う通りやるのが一番易しいのです。<br><br>その易しいことを嫌うのですから不思議です。<br><br>植木屋で一人こういうのがあったのです。<br><br>この石を一尺こっちにやれと言うと、一尺やれない。<br><br>二、三寸しかいかない。<br><br>それで私が、どうして一尺やらない。<br><br>こっちにやれと言うと、今度は五、六寸やった。<br><br> それから、駄目だもう一度やれと言った。<br><br>すると今度は斜めにやった。<br><br>斜めにしては駄目なのです。<br><br>これで三度駄目なのだから、四度目に違ったらその職人は断るからと言った。<br><br>言う通りにやれそうだが、その通りにやらない。<br><br>なぜかと言うと、自分は手を引いて親方に頼むと言うのです。<br><br>親方にこうやってくれと言ってやったら二、三時間でできました。<br><br>ところが先にやった人は三、四日かかりました。<br><br>そういうことがあるのです。<br><br>特に日本人はどうも言う通りにやらない、言う通りに考えない、という一種のくせみたいな、病気みたいなものだと思う。<br><br>だから私がいつも話しすることがよく違ってしまうのです。<br><br>だから明主様がこうおっしゃったのでこうやったが、どうもうまくいかない。<br><br>そういうはずはないと、良く聞いてみると違う。<br><br>今の病気のこともその通りです。<br><br>私は決して駈引や嘘はないのです。<br><br>それは、よく昔からの偉い人でも、いろいろ――なんと言いますか、ありのままでなく、いくらか形容したり、いろいろそういうきらいがありますが、私はそれが嫌いで、なんでもありのまま率直に言いますから、その通りにやれば必ずうまくいきます。<br><br>今の結核の話も、それを間違えないようにそのまま聞いて、その通りやってもらいたいと思います。<br><br>そうすればきっとうまくいきます。<br><br>そうして再浄化の場合には、熱が一番出るから溶けるのだから、それで咳と痰が出るのです。<br><br>そうすると食欲が減って体が弱る。<br><br>そこで熱をなくするのです。<br><br>どうしてなくするかというと、安静です。<br><br>だから再浄化で熱のある間は安静にする。<br><br>安静にするといっても、医学でやるように床縛りみたいにするあれではない。<br><br>寝たり起きたりくらいです。<br><br>それで熱がなくなるまで――無熱になるまでそういったブラブラ安静を続けている。<br><br>そうすると熱がなくなりますから、浄霊をするし、ボツボツ運動をするというようにして、また熱が出たら安静にするというようにすると、長くはかかりますが、必ず治ります。<br><br>これから浄化が強くなるに従って、よけいその方針でやらなければならない。<br><br>ですから今再浄化を急にやろうものなら馬鹿に浄化が強いです。<br><br>ドンドン衰弱していく。<br><br> 美術館もなかなか外国の偉い人がちょいちょい来ます。<br><br>昨日来たのはニューヨークのメトロポリタン博物館――アメリカでは一番ですが、そこの東洋美術部長という人が来て、なかなか良く見て、私も大いに款待してやりました。<br><br>なかなか目が利いていて、日本人より目が利いてます。<br><br>この部屋でこれが一番良いと言う、それが合っているのです。<br><br>日本人でもそういう人はなかったです。<br><br>それから二、三日前に来たのは、フリーヤー〔フリアー〕という個人の美術館ではアメリカで一番です。<br><br>そこの図録を私は見たことがあるが、銅器が一番良い物がある。<br><br>支那の銅器では世界一です。<br><br>これは自分でも言ってました。<br><br>私のはアメリカ一だが、世界一といっても良いでしょうと言ってました。<br><br>そんな具合で銅器は非常に良い。<br><br>私の所に一つ疑問の銅器があってそれを見せましたが、それは日本の学者で京都で一番の梅原（梅原末治）なんとか言うが、これは関西の方では一番の支那銅器の目利きなのです。<br><br>東京では田沢金吾といって、こっちの顧問になっている。<br><br>梅原の方はすばらしい銅器だと言い、田沢の方はイミテーションだと言う。<br><br>両方の意見があるので、道具屋が美術館に出してくれと言うのです。<br><br>そうすると誰か分かる者があるからと言うが、なにしろ狭いので出せない。<br><br>ちょうどフリアー美術館の館長でウェンリーと言ったが、見てもらったところ、これは良い物だ立派な物だ、と、それを説明してくれましたが、なかなかたいしたものです。<br><br>字が書いてありますが、日本人では字の意味が本当に分からない。<br><br>ところがその人はこれはこういう字が書いてある。<br><br>これはこういう文字、とか。<br><br>これは最初からの字ですが、たいてい持ち主の字を入れますが、それは入ってない。<br><br>こういう字はいつごろできたというようなことが、実に精しい。<br><br>これは周の何年と。<br><br>それからいろんな銅器を見せましたが、これは明の時代に写した物とか、これはずっと 新しいイミテーションと、そういうような具合に、実に研究している。<br><br>そんなような具合で、アメリカ人の方がどうも分かるらしいのです。<br><br>昨日の人なんかも急所急所をピタピタと言うのです。<br><br>それは随分驚くことがあります。<br><br> 今度は、ウォーナー博士という人が来ますが、あの人はなかなか分かると思う。<br><br>みんな非常に驚いて、こんなすばらしい美術館が日本にできるとは思わなかった。<br><br>アメリカに帰って、一つ大いに好きな人とか権威者というような人に言ってよこすようにするから、いろいろ頼むということをしきりに言ってました。<br><br>ですから私の思った通り、そうとう認めたに違いないです。<br><br>で、良く聞いてみるとアメリカにあるのは、日本のは鎌倉以後桃山あたりから、支那では明以後――そういうのはそうとう数があるそうです。<br><br>しかし古いものは、まことに数が少ないそうです。<br><br>今度その人たちが来たのも、アメリカで今度日本の美術展覧会をやるので、それの用で来たのです。<br><br>それらの人は、みんなアメリカの美術の権威者です。<br><br>ですからますます日本の美術というものに関心を持ってきたということは充分分かります。<br><br> で、今まで日本の美術を見なかったのです。<br><br>ですから蒔絵にしろ陶器にしろ絵画にしろ、まだ見たことがない、と随分言ってました。<br><br>ですから分かると言ったところで、そういった局部的に分かるので、全般的には初めて見たものが多いのです。<br><br>こういうことも、向こうの一般的に分かるようにしなければならないと思うし、それの一つの機関として非常に良い役目をするわけです。<br><br> それからこれはちょっとおもしろい論文です。<br><br> （御論文「悪の追放」）【栄光 一七三号】 （御論文「御説教」）【地上天国 三十九号】
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Natureza da Purificação e o Advento do Juízo Final</h2>
 <p>Certa noite, fui acometido por uma forte dor abdominal, seguida de intensas evacuações líquidas que se prolongaram por toda a madrugada. Foram, creio eu, quatro episódios de uma violência impressionante, a ponto de me fazer questionar como poderia haver tanto a ser expelido. Inicialmente, cogitei a possibilidade de uma intoxicação alimentar, mas, ao refletir sobre minhas refeições, não encontrei nada suspeito. Ademais, se essa fosse a causa, outras pessoas que compartilharam dos mesmos alimentos deveriam ter apresentado sintomas semelhantes, o que não ocorreu. Concluí, portanto, que a origem era outra.</p>
@@ -108,5 +260,48 @@ function toggleLang(lang) {
 <p>Alguns dias antes, recebemos o diretor da Freer Gallery of Art, que é o maior museu particular da América. Eu conhecia o catálogo deles e sabia que possuíam uma coleção excepcional de bronzes chineses, considerada a melhor do mundo, algo que o próprio diretor confirmou. Ele disse: "A minha é a melhor da América, mas poderia ser considerada a melhor do mundo". Aproveitei a ocasião para lhe mostrar uma peça de bronze de minha coleção cuja autenticidade era controversa. O maior especialista em bronzes chineses de Quioto, Umehara Sueji, afirmava ser uma obra magnífica, enquanto o consultor de Tóquio, Tazawa Kingo, a considerava uma imitação. Diante das opiniões divergentes, o negociante de arte me pediu para expô-la, na esperança de que alguém pudesse esclarecer a questão. O diretor da Freer, Sr. Wenley, analisou a peça e declarou: "É um objeto excelente, uma obra esplêndida". Ele então procedeu a uma explicação detalhada. A peça possui uma inscrição cujo significado os eruditos japoneses não conseguiam decifrar completamente. Ele, no entanto, identificou cada caractere, explicando que era a inscrição original, e não uma adição posterior de algum proprietário, e datou a caligrafia com uma precisão impressionante, atribuindo-a a um ano específico da dinastia Zhou. Sua análise de outras peças de bronze foi igualmente notável, identificando cópias da dinastia Ming ou imitações mais recentes com uma erudição espantosa. Fica evidente que os americanos, em certos casos, possuem um conhecimento mais profundo. O visitante de ontem também foi extremamente preciso em suas avaliações, o que foi surpreendente.</p>
 <p>Em breve, receberemos a visita do Dr. Langdon Warner, que, acredito, também possui grande discernimento. Todos esses especialistas estrangeiros ficam maravilhados e expressam sua surpresa por um museu de tal calibre existir no Japão. Prometem, ao retornarem à América, divulgar a coleção entre os apreciadores e autoridades da área, oferecendo-se para ajudar no que for preciso. Isso confirma minha convicção de que eles reconheceram o verdadeiro valor do acervo. Segundo eles, as coleções americanas de arte japonesa são ricas em peças do período Kamakura em diante, especialmente do período Momoyama, e de arte chinesa a partir da dinastia Ming. Contudo, obras mais antigas são extremamente raras. A visita desses especialistas se deve à organização de uma grande exposição de arte japonesa nos Estados Unidos, e eles são as maiores autoridades americanas no assunto. Fica claro, portanto, o crescente interesse pela arte do Japão.</p>
 <p>Eles admitiram nunca terem visto muitas das obras de nossa coleção, sejam lacas <code>makie</code>, cerâmicas ou pinturas. Seu conhecimento, embora profundo, era pontual, e muitas peças representaram para eles uma primeira visão abrangente. Sinto que temos o dever de divulgar essa arte de forma mais ampla no exterior, e nosso museu desempenha um papel fundamental como um dos principais veículos para essa missão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年8月6日） 『御教え集』13号、昭和27(1952)年9月25日発行 昭和二十七年八月六日 一日の晩に腹が痛んで下痢をして夜中中――四回でしたか、随分たくさん――こんなにもあるかと思うくらい出たのです。<br/><br/>で、なにかにあてられたのかと思って食物を考えてみたが、それらしいものもない。<br/><br/>もしあてられたとすると、同じに食べた人もそうなるが、ならないからどうもそうでない。<br/><br/>で、私は後頭部に固まりがあるのです。<br/><br/> 八つ頭の小さいようなものですが、これは先に一年間歯の薬を毎日つけ通しだった。<br/><br/>これは私の書いたものにありますが、これがここ（後頭部）に固まっていた。<br/><br/>これが長い間固まっていたのが、去年あたりから私の浄霊で溶けてきた。<br/><br/> これが下痢になっていた。<br/><br/>ですから毒というものは――今度知ったものではないが、このくらいのものが溶けると、このくらい（多く）になります。<br/><br/>薬だって、仮に薬一合服みますと、一勺よりもっと小さく固まるものです。<br/><br/>三十分の一か五十分の一くらいに固まります。<br/><br/>ですからそれが溶けると、何十倍というものになります。<br/><br/>これは信者さんはみんな知ってますが、毒は溶けると実に多いものです。<br/><br/>痰などいくら出しても出るし、それから膿でもなんでも、いくら出ても出ても後できます。<br/><br/>そのくらい増えるものです。<br/><br/>そうして後見ると少し小さくなりましたが――十分の一あるか、なしかくらいに小さくなったが、まだそうとうあります。<br/><br/>そうしてみると人間の毒の量というものは、たいへんなものです。<br/><br/>だから今信者さんも、特に幹部の人なんかは、特に猛烈な浄化が起って驚いている人がありますが、そういう人は神様のことに働いたいろいろな功労によって、浄化が早く来るのです。<br/><br/>逆に考えると良いのです。<br/><br/> あれだけ一生懸命やって、あんなに酷い浄化で苦しむのはひどい、とあべこべに考える人があるでしょうが、その逆です。<br/><br/>あれだけ一生懸命神様のことをやったので、浄化を早くしていただくというわけです。<br/><br/>これをもういっそう深く考えると、一般の社会の人間が、いずれはそうなるのです。<br/><br/>ですからそうなった時の想像をしてみると、助かる人というのは、まずいくらもないでしょう。<br/><br/>それも、早く浄霊すると良いが、やっぱり医学の力に頼りますから、そうすると一時抑えをやる。<br/><br/>ところがもうそういう時になると浄化の方が強いですから、一時抑えがかえって逆作用になって苦しんで死ぬというのが多いです。<br/><br/>ですから病気になるかならないうちに片っ端から死んでしまいます。<br/><br/>そういう時が来るのです。<br/><br/>特に怖いのは、結核なんか近ごろ死亡率が減ったとか言ってますが、あれが怖いのです。<br/><br/>あの結核の新薬というのは、今までの薬より毒が強いのです。<br/><br/>毒が強いから、一時止めるから死ぬ人が一時延びるのです。<br/><br/>それで喜んでいると、その毒の浄化が起ります。<br/><br/>そこにもっていって浄化が激しくなっているからして、それはもう悪性の結核がたくさん起ります。<br/><br/>当局もまごつくし、一種の恐怖時代が来ます。<br/><br/>それが最後の審判です。<br/><br/>これは二千年も前から神様の方ではちゃんと警告を与えてあるのです。<br/><br/>で、日本人なんかでもごく上等で三分の一――三割助かったらごく上等です。<br/><br/>あるいは助かるのは一割くらいかもしれません。<br/><br/>なにしろ今の一般人というのは固まり健康です。<br/><br/>固まってわずかに健康を保っているのですから、溶け出したら想像もつかないくらいの大悲劇が起ります。<br/><br/>実に恐ろしい話なのです。<br/><br/>で、今私はそういうことを書いてますが、今書いてきたのを読ませます。<br/><br/>これは『文明の創造』の中に入る項目です。<br/><br/> （御論文「病気〔健康〕と寿命」） それからいつも言う通り、下痢――赤痢もそうですが、これは頭の浄化作用ということは良く分かるのですが、これを知らない人なんかは、今度の私の浄化でも、無論なにかにあてられたに違いない。<br/><br/>あるいは虫ではないか――回虫とか十二指腸虫というように考えるし、お医者もそう思います。<br/><br/>まさか頭の毒が溶けるなどとは夢にも思いません。<br/><br/>それは以前は下痢というと、腹の固まりそれから背中の固まり――そういうのが多かったです。<br/><br/>頭の下痢は、近ごろ浄化が強くなったためです。<br/><br/>今年は赤痢が多いのもそういう関係です。<br/><br/>そこで下痢の本元は頭だということは、大発見というわけです。<br/><br/>今、太田という男がそれと同じようなことをやってます。<br/><br/>昨日浄霊してやったが、熱があるのです。<br/><br/>みると頭に熱があるのです。<br/><br/>この下痢は昨日から今日にかけて三十分置きです。<br/><br/>それはあの人は頭に特に毒が多いのです。<br/><br/>そういうわけだから、これから下痢患者は頭を浄霊する。<br/><br/>そうしてお腹の方やなにかは簡単で良い。<br/><br/>頭を主にする。<br/><br/>頭も前頭部の方と後頭部の場合がある。<br/><br/>前頭部は触ってみると熱が強い、後頭部は固まりがありますから、それをやると一時はよけい下痢をしますが、後治りが良いのです。<br/><br/>その代わり頭が良くなります。<br/><br/>私も、昨日あたりから原稿なんか書いても非常に具合が良いのです。<br/><br/>それだけを覚えておくと良い。<br/><br/> それからもう一つは結核の再浄化――いったん良くなってそれから再浄化が起って、それがかえってしつこくて、症状も熱が出、咳と痰が出て、食欲が減り衰弱が強い、ということはお決まりのようになってますが、それはやっぱり浄化が強くなっているのです。<br/><br/>そこで浄化が激しいために、それに堪えられなくて命までなくするということがよくあるのですから、これからは再浄化の場合は――これは再浄化に限るのです。<br/><br/>最初は今まで通りで良いのですが、結核の再浄化の場合は一週間に一度です。<br/><br/>そのくらいにする。<br/><br/> ところで、私の話を間違える人が非常にある。<br/><br/>私は随分はっきり言うのですが、昨日も一週間に一回と言ったら、今日は二回という人がある。<br/><br/>一週間に一回と二回では倍違います。<br/><br/>頭について、信者さんの頭が――信者さんの頭ばかりでなく、世間の人は信者さん以下ですが、信者さんでも非常に頭が悪いのです。<br/><br/>というのは、私の言う通りに考えないのです。<br/><br/>明主様はこうおっしゃったが、あれはこういう意味なんだ。<br/><br/>こういう意味というのを自分で作ってしまうのです。<br/><br/>それで間違うことがよくある。<br/><br/>それでまた私の言った通りをやるということは、自分が値打ちがなかったり頭が悪かったりするように思うのです。<br/><br/>ですから私の言った通りにやる人が少ないのです。<br/><br/>私はいつも言うのですが、私が思う通り言った通りにする人は英雄と言うのです。<br/><br/>偉いです。<br/><br/>ところが一般は必ず違います。<br/><br/>これは信仰ばかりでなく、庭の方でもそうです。<br/><br/>私の言う通りにやる職人というのは一人もないです。<br/><br/>これをここにやれと言うと、必ずここにやる人はないです。<br/><br/>こっちにやるとか、あっちにやる。<br/><br/>私がこっちにやれと言うとあっちにやる。<br/><br/>だから職人には手を焼いているのです。<br/><br/>ところが私の言う通りやるのが一番易しいのです。<br/><br/>その易しいことを嫌うのですから不思議です。<br/><br/>植木屋で一人こういうのがあったのです。<br/><br/>この石を一尺こっちにやれと言うと、一尺やれない。<br/><br/>二、三寸しかいかない。<br/><br/>それで私が、どうして一尺やらない。<br/><br/>こっちにやれと言うと、今度は五、六寸やった。<br/><br/> それから、駄目だもう一度やれと言った。<br/><br/>すると今度は斜めにやった。<br/><br/>斜めにしては駄目なのです。<br/><br/>これで三度駄目なのだから、四度目に違ったらその職人は断るからと言った。<br/><br/>言う通りにやれそうだが、その通りにやらない。<br/><br/>なぜかと言うと、自分は手を引いて親方に頼むと言うのです。<br/><br/>親方にこうやってくれと言ってやったら二、三時間でできました。<br/><br/>ところが先にやった人は三、四日かかりました。<br/><br/>そういうことがあるのです。<br/><br/>特に日本人はどうも言う通りにやらない、言う通りに考えない、という一種のくせみたいな、病気みたいなものだと思う。<br/><br/>だから私がいつも話しすることがよく違ってしまうのです。<br/><br/>だから明主様がこうおっしゃったのでこうやったが、どうもうまくいかない。<br/><br/>そういうはずはないと、良く聞いてみると違う。<br/><br/>今の病気のこともその通りです。<br/><br/>私は決して駈引や嘘はないのです。<br/><br/>それは、よく昔からの偉い人でも、いろいろ――なんと言いますか、ありのままでなく、いくらか形容したり、いろいろそういうきらいがありますが、私はそれが嫌いで、なんでもありのまま率直に言いますから、その通りにやれば必ずうまくいきます。<br/><br/>今の結核の話も、それを間違えないようにそのまま聞いて、その通りやってもらいたいと思います。<br/><br/>そうすればきっとうまくいきます。<br/><br/>そうして再浄化の場合には、熱が一番出るから溶けるのだから、それで咳と痰が出るのです。<br/><br/>そうすると食欲が減って体が弱る。<br/><br/>そこで熱をなくするのです。<br/><br/>どうしてなくするかというと、安静です。<br/><br/>だから再浄化で熱のある間は安静にする。<br/><br/>安静にするといっても、医学でやるように床縛りみたいにするあれではない。<br/><br/>寝たり起きたりくらいです。<br/><br/>それで熱がなくなるまで――無熱になるまでそういったブラブラ安静を続けている。<br/><br/>そうすると熱がなくなりますから、浄霊をするし、ボツボツ運動をするというようにして、また熱が出たら安静にするというようにすると、長くはかかりますが、必ず治ります。<br/><br/>これから浄化が強くなるに従って、よけいその方針でやらなければならない。<br/><br/>ですから今再浄化を急にやろうものなら馬鹿に浄化が強いです。<br/><br/>ドンドン衰弱していく。<br/><br/> 美術館もなかなか外国の偉い人がちょいちょい来ます。<br/><br/>昨日来たのはニューヨークのメトロポリタン博物館――アメリカでは一番ですが、そこの東洋美術部長という人が来て、なかなか良く見て、私も大いに款待してやりました。<br/><br/>なかなか目が利いていて、日本人より目が利いてます。<br/><br/>この部屋でこれが一番良いと言う、それが合っているのです。<br/><br/>日本人でもそういう人はなかったです。<br/><br/>それから二、三日前に来たのは、フリーヤー〔フリアー〕という個人の美術館ではアメリカで一番です。<br/><br/>そこの図録を私は見たことがあるが、銅器が一番良い物がある。<br/><br/>支那の銅器では世界一です。<br/><br/>これは自分でも言ってました。<br/><br/>私のはアメリカ一だが、世界一といっても良いでしょうと言ってました。<br/><br/>そんな具合で銅器は非常に良い。<br/><br/>私の所に一つ疑問の銅器があってそれを見せましたが、それは日本の学者で京都で一番の梅原（梅原末治）なんとか言うが、これは関西の方では一番の支那銅器の目利きなのです。<br/><br/>東京では田沢金吾といって、こっちの顧問になっている。<br/><br/>梅原の方はすばらしい銅器だと言い、田沢の方はイミテーションだと言う。<br/><br/>両方の意見があるので、道具屋が美術館に出してくれと言うのです。<br/><br/>そうすると誰か分かる者があるからと言うが、なにしろ狭いので出せない。<br/><br/>ちょうどフリアー美術館の館長でウェンリーと言ったが、見てもらったところ、これは良い物だ立派な物だ、と、それを説明してくれましたが、なかなかたいしたものです。<br/><br/>字が書いてありますが、日本人では字の意味が本当に分からない。<br/><br/>ところがその人はこれはこういう字が書いてある。<br/><br/>これはこういう文字、とか。<br/><br/>これは最初からの字ですが、たいてい持ち主の字を入れますが、それは入ってない。<br/><br/>こういう字はいつごろできたというようなことが、実に精しい。<br/><br/>これは周の何年と。<br/><br/>それからいろんな銅器を見せましたが、これは明の時代に写した物とか、これはずっと 新しいイミテーションと、そういうような具合に、実に研究している。<br/><br/>そんなような具合で、アメリカ人の方がどうも分かるらしいのです。<br/><br/>昨日の人なんかも急所急所をピタピタと言うのです。<br/><br/>それは随分驚くことがあります。<br/><br/> 今度は、ウォーナー博士という人が来ますが、あの人はなかなか分かると思う。<br/><br/>みんな非常に驚いて、こんなすばらしい美術館が日本にできるとは思わなかった。<br/><br/>アメリカに帰って、一つ大いに好きな人とか権威者というような人に言ってよこすようにするから、いろいろ頼むということをしきりに言ってました。<br/><br/>ですから私の思った通り、そうとう認めたに違いないです。<br/><br/>で、良く聞いてみるとアメリカにあるのは、日本のは鎌倉以後桃山あたりから、支那では明以後――そういうのはそうとう数があるそうです。<br/><br/>しかし古いものは、まことに数が少ないそうです。<br/><br/>今度その人たちが来たのも、アメリカで今度日本の美術展覧会をやるので、それの用で来たのです。<br/><br/>それらの人は、みんなアメリカの美術の権威者です。<br/><br/>ですからますます日本の美術というものに関心を持ってきたということは充分分かります。<br/><br/> で、今まで日本の美術を見なかったのです。<br/><br/>ですから蒔絵にしろ陶器にしろ絵画にしろ、まだ見たことがない、と随分言ってました。<br/><br/>ですから分かると言ったところで、そういった局部的に分かるので、全般的には初めて見たものが多いのです。<br/><br/>こういうことも、向こうの一般的に分かるようにしなければならないと思うし、それの一つの機関として非常に良い役目をするわけです。<br/><br/> それからこれはちょっとおもしろい論文です。<br/><br/> （御論文「悪の追放」）【栄光 一七三号】 （御論文「御説教」）【地上天国 三十九号】</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

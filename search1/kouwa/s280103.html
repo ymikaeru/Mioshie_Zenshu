@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s280103</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年1月3日） 『御教え集』18号、昭和28(1953)年2月15日発行 昭和二十八年一月三日 私は今年のお正月は久しぶりで朗らかです。<br><br>というのは、去年の正月も一昨年の正月もまだ裁判が決定してなかったので、それが始終胸にかたまりみたいになって、なんだか晴れ晴れしなかったのです。<br><br>私もこの年になるまで苦しいこともいろいろありましたが、今度の裁判くらい気持ちの悪いことはありません。<br><br>それは、どうせああいうことは誰でも気持ちが悪いのですが、私は特にふつうの人より気持ちが悪かったのです。<br><br>公判廷のそのいやらしさというのはとても我慢ができません。<br><br>それはなにかと言うと、私が悪いことがあって気がとがめるのならば、どんな苦しいことでもこれはしかたがありません。<br><br>よくああいう所を地獄だと言いますが、地獄というのはそんな苦しい所ではありません。<br><br>なぜと言うと地獄は公平無私で少しも事実とくい違いはありません。<br><br>ですからごく悪い者はごく苦しみますが、そうでなく軽い者は軽いのです。<br><br>ですから悪いことをした者は「もうしかたがない、オレが悪かったのだから」と思いますから、非常に苦しんでも気持ちがいいことになっているのです。<br><br>地獄という所は公平ですから決して苦しいものではありません。<br><br>一番苦しいのは不公平です。<br><br>これは地獄よりずっと苦しいのです。<br><br>せめて地獄くらいになったらたいしたものと思います。<br><br>だから実にいやだったのです。<br><br>気持ちが悪いのです。<br><br>それがこの暮れでやっとすんだので、このお正月はさっぱりした気持ちです。<br><br> 今年は二十八年ですが、「二十八」というのは数字からいってもたいへんいいのです。<br><br>終戦になったのが昭和二十年ですが、この「二十」という数字は今までにもたくさんありましたが、特に良いということは「昭和」という年号に対して、その文字に対しての二十というのがたいへん大きな意味になるのです。<br><br>「昭」というのは日偏に召すという字ですが、この「召す」ということは「しろしめす」という意味になります。<br><br>「しろしめす」ということは「統治する」ということです。<br><br>よく何神様が世の中を統治遊ばされる、しろしめされる、と言います。<br><br>天皇などの場合も、天皇がしろしめすと言いますが、そこで「日偏に召す」ですから、「日がしろしめす」ということになります。<br><br>それは昼間がしろしめすということです。<br><br>それで昭和の時代に昼間がしろしめすということです。<br><br>それで「和」は「輪」で、「世界」ですから、昼間の世界ということです。<br><br>それで「二」というのは「天地」で、「十」は「結ばる」ということです。<br><br>それで霊体の結び、経緯の結びというわけです。<br><br>ですから「二十」という数字は非常にいいのです。<br><br>それから「十」は「経緯」です。<br><br>それで十がもう一つ重なると井の字になりますが、この「井」の字がやはり二十と同じ意味になります。<br><br>この「井」の字は「経綸」ということです。<br><br>ですから姓名に、今井とか村井と井の字がつくのがよくありますが、そういった経綸の場合に井の字がよく使われているものなのです。<br><br>そこで言霊から言っても、「井」の字と、片仮名の「イ」もやはりそれと同じ意味です。<br><br>この「イ」というのは「人」ということです。<br><br>ですから「人」というのは霊と体ですから、やはりそういう意味になります。<br><br>それで二十の五、六、七がすんで、つまりミロクがすんで今年から「八」で、いよいよ開くという意味です。<br><br>ミロクの経綸が開くという意味ですから、今年かち非常にいいわけです。<br><br>それでまた昼の世界がいよいよ開けるという時にもなるのです。<br><br>そういう形になりつつあります。<br><br> それでこの「八」という字を解釈してみると、「八」は「八百万」とかと、そういう意味のことによく言われますが、「富士山」の形になるのです。<br><br>富士山は八の字の形です。<br><br>ですから富士山は一名「八スの山」と言うのです。<br><br>「八ス」ということは「ハス」ということです。<br><br>つまり仏教的に言うと、「八ス」は「蓮の花」になります。<br><br>それで、蓮の花は蓮華台ということです。<br><br>蓮華台というのは、一番貴い山です。<br><br>よく仏像などが立ったり、あぐらをかいたりしているのに、下に蓮の花があります。<br><br>観音様の絵などにも、蓮の花の上に立たれているのがよくありますが、そういうようで蓮ということは、非常に貴い神仏が乗られるという意味なのです。<br><br>ですから富士山には兄の花咲爺姫がお祀りしてあるということは、兄の花咲爺姫は観音様ですから、富士山は観音様の蓮華台ということになります。<br><br>そういうようですから「八ス」ということは蓮華台ができるということにもなります。<br><br>とにかく一番強い意味は開くということです。<br><br>また「八」は「ハ」で、「ハ」というのは「発する」ということで、開けるから、今年からそういう形になっていくわけです。<br><br> それについて霊的でなく体的のことの大体を話してみると、一番は熱海のメシヤ会館がいよいよ来月か再来月あたりから建築に取りかかるわけですが、今基礎工事をやってます。<br><br>会館の模型を造りましたが、随分荘厳な形になると思ってます。<br><br>いつも言うとおり、これはフランスのル・コルビュジエという人が始めた建築様式で、今日では世界的に一つの建築様式として風靡したような形です。<br><br>けれども直線的のごく単純なやり方で、アパート、官庁、会社といったような、つまり実用向きの様式になってます。<br><br>それで宗教的には今までぜんぜん手を触れていません。<br><br>今までの宗教建築といえば、これはキリスト教でも仏教でも神道でもそうですが、何百何千年前の様式と同じ形をとっているのです。<br><br>築地の本願寺も鉄筋でやり方は随分近代的ですが、あの形はインドの古い形式をとったものです。<br><br>これはお釈迦様を祀るのだからあたりまえでしょう。<br><br>本尊様が古い時代ですから……。<br><br>しかし救世教は本尊様が新しいのだから建築も新しいというので、これもあたりまえかもしれません。<br><br>ですからごく新しい様式での、この宗教建築というものはまだ世界にありません。<br><br>コルビュジエという人はこの春なにかの嘱託で日本に来ることになってます。<br><br>そして二年いる予定だということが新聞に出てましたが、会館を大いに見せて批評してもらおうと思ってます。<br><br>そういうようなわけで形は非常に新しいのです。<br><br>それでそういった直線的の建築で荘厳味を出そうというのですから、ちょっと無理なようですが、できたらわりあいに荘厳味が出るつもりです。<br><br>それで入口から内部とすべて新しくしました。<br><br>内部は劇場的になってはいけないと思って大いに注意しましたが、そうとう成功すると思ってます。<br><br>それから展望台はメシヤ会館と一緒にできるはずです。<br><br>これはガラスの丸い家ですが、もう少したったら模型もこしらえて出します。<br><br>これも世界にはないと思います。<br><br>ガラスの展望台式の家はアメリカにもあって、私は写真で見たことがありますがぜんぜん違います。<br><br>ですから私が今度やるのは世界に例がありません。<br><br>そういうようにすべて新しい物を造るということは、いつも言うとおり熱海は現界の型になります。<br><br>従って新しい世界の型になるのです。<br><br>それで熱海にできるとそれが世界に写りますから、そこで世界も非常に変わってきます。<br><br> それで『栄光』の「新年号」に「世界夢物語」というのを出しましたが、読まれたでしょう。<br><br>大体ああいうようになっていくわけです。<br><br>それでいろいろの変化とか時の早い遅いはあります。<br><br>それは要するに神様と悪魔の戦いですから、両方が千変万化の形をとりますが、大体はああいう形をとっていくのです。<br><br>というのは東方の光が現われて、だんだん光が世界的に拡がって行きますから、朝鮮から中国、中央アジア、ヨーロッパと拡がっていきます。<br><br>それでアメリカは別の意味で緯の国ですから、そこで経と緯を結ぶということになります。<br><br>それで二十年に終戦になったということはその意味も含まれてます。<br><br>ですから二十年に経と緯を結んだのです。<br><br>十九年まではそうではなかったが、二十年で結ばれたのです。<br><br>昭和二十年八月十五日に決まったのですが、そこでアメリカと日本を結ぶということは、体の代表と霊の代表、緯の中心と経の中心が結ばれたということで、それが二十年なのです。<br><br>そこでアメリカと日本と結ばれなければならないというので、今度アメリカのロサンゼルスに支部をつくることになってます。<br><br>その足がかりとしてハワイのホノルルにもつくるわけです。<br><br>そうしてアメリカをだんだん開拓していくつもりです。<br><br>ちょうど幸いにも『アメリカを救う』という本もできましたから、あれを宣伝用として大いに使います。<br><br>それで日本文だけはできましたが、英文は来月か再来月になりますから、最初は日本文だけであっちにいる日本人に分からせようというわけです。<br><br>英文に訳す人はとにかくその方面では第一人者だそうで、大統領に見せる文章もその人が訳するそうですから、翻訳についてはよほど手腕のある人に違いありません。<br><br>それであれを読んだらそうとう問題になるだろうと思います。<br><br>問題になれば大いに売れますから、アメリカで大いに売れるだろうと思います。<br><br>ですから非常に外貨獲得の一助にもなります。<br><br>外貨獲得というと大きな話ですが、そればかりでなく、救世教の財政も楽になりますから大いに仕事ができるだろうと思います。<br><br>なにしろあっちは、いいとなると一遍に拡がるという国民性がありますから、その点においては非常におもしろいです。<br><br>従って数も出ますし、アメリカで売れるということになると、日本人はなおさらありがたがって買います。<br><br>無論ヨーロッパ方面にも売れるでしょう。<br><br>神様の方は、取らぬ狸の皮算用ではないと思いますから、そういうようでだんだん世界的になっていきます。<br><br> それから中国の方も紅卍字会がいずれ働くことになりますが、とにかく中共政府がああやっていたのではそれができないから、そこで神様はいい具合に地ならしを始めるわけです。<br><br>そうしてちゃんと宗教宣伝のやりいいような状態にお膳立てをするわけです。<br><br>そうしたらこっちも中国に大いに宣伝して中国を救うという段取りになるわけです。<br><br> ですから「世界夢物語」に書いてあるとおり、今度アイゼンハウアーがいずれ朝鮮に対して積極的に大攻撃をやるだろうと思いますが、それでも埒（らち）があかないのでどうしても満州あたりに行って、その結果戦禍が中国全土に及ばざるを得ないという状態になります。<br><br>神様は古い汚いものをきれいにしていろいろ地ならしをして、そうして新しい地上天国を造られるのですから、そういった変化が今年からボツボツ起ってきますから、そのつもりでそういうことを知っていて見ると一つの興味がある話です。<br><br>しかし随分いろいろと悲惨なことがあるのを興味本位に見るということはけしからん話ですが、しかしこっちは建設の方ですし、それにべつに私がやるわけではなく、神様のやることだから、お気の毒でもあるが、それでいいのだという意味にもなるわけです。<br><br> そういうようなわけですから、建設が進むに従って破壊も進んでいくというわけです。<br><br>ここのところに実に微妙な神様の経綸があるのが分かります。<br><br>それが分からないで見ると、なにがなんだか見当がつきません。<br><br>つまり芝居なら筋書ですが、それを救世教信者は分かっていて見るから、つまり芝居の役者でなく見物人、お客様の方です。<br><br>しかし芝居でも悪役と善役とあります。<br><br>どんな芝居でも、見れば分かるとおり、善の役というのは悪役に苦しめられるものです。<br><br>そうしてさんざん苦しめられたあげく、最後に至って悪の方が成敗されて善の方が勝って、めでたしめでたし、というのが大体の筋です。<br><br>やはり世界の芝居でも同じようで、そういうような脚本でつくられるわけです。<br><br>神様が何万年も前につくられて、そういった筋によってやられるわけです。<br><br>とにかくたいへんに大きな芝居です。<br><br>そのたいへんに大きな芝居を見物できるのですから、今生まれてきて救世教信者になっている人は開闢以来ない芝居を見られるわけです。<br><br>その代わりだんだん明るくなりますから、病気もうんと起ってきて、それは恐怖時代が来ます。<br><br>その時に戦争の方の芝居は見物人になってますが、その病気の時には大いに活動しなければなりません。<br><br>しかし人を助けるのですから戦争の役よりかずっといいです。<br><br>それにこっちは被害をこうむらないで、大いに喜ばれるといういい役をするわけです。<br><br>この話はそのくらいにしておきます。<br><br> 箱根の美術館は今別館をこしらえ始めました。<br><br>そうして今年の五月から浮世絵展覧会をやろうと思ってます。<br><br>それで今度できる別館というのは、陳列をする室は五間に八間の四十坪のものですから、かなり並べられます。<br><br>それと本館の方の、前に下で屏風を並べてあった部屋がありますが、それだけの予定です。<br><br>たぶんそれでも並べきれないと思いますから、途中で陳列替えをするということになるだろうと思ってます。<br><br>それで並べる物は去年の夏ごろから不思議に浮世絵のいい物が集まってくるのです。<br><br>それまではそんなに考えなかったのですが、これは神様が浮世絵展覧会をやれということと分かりましたから、そういう計画を立てたのです。<br><br>それで去年の京都の浮世絵展覧会の品物よりもずっと上の物です。<br><br>これは今までに例がないでしょう。<br><br>また不思議にすばらしい物がはいってくるのです。<br><br>これは道具屋がみんな不思議に思ってます。<br><br>つい最近、五、六日前の話ですが、浮世絵の肉筆の非常にいい物ですが、それは明治から大正にかけての有名な人で、その人が浮世絵が好きでコレクションをつくったのです、それはみんな立派な物ばかりです。<br><br>それが八十幅あります。<br><br>実に驚くべき話です。<br><br>そのうちの四幅か五幅を見ましたが非常にいい物です。<br><br>それでぜひ欲しいと言うと、先方では箱根美術館になら売ってもいいというのです。<br><br>それに今金に困らない人で、売っても金はいつでもいい、そうでなければ出品して陳列してもいい、というように実に条件がいいのです。<br><br>それは八十幅はとても並べきれません。<br><br>それにみんなわりに大きな掛物ばかりです。<br><br>実にいい物で、よくもそういういい物が集まったと思ってますが、それが八十幅あります。<br><br>これなどはとても人間業ではありません。<br><br>とにかく浮世絵の方では岩佐又兵衛が第一人者ですが、又兵衛の巻物では「山中常盤」という十二巻の巻物で、常盤御前と牛若丸の伝記です。<br><br>伝記といったところで、事件の一番のクライマックスを画いてあるのですが、実によく画いてあります。<br><br>やはり腕からいっても又兵衛が一番と言ってもいいくらいです。<br><br>箱根美術館にあった浮世絵「湯女」は、私の勘では又兵衛です。<br><br>又兵衛以外にあれだけの物を画ける人はありません。<br><br>それに又兵衛の癖がよく出てます。<br><br>この「山中常盤」の巻物は昭和五年に三越で展覧会をやったことがありますが、その時に評判になって、見物人が列をつくって見たそうです。<br><br>そういうようで非常に有名な物です。<br><br>それと同じような物で「掘江物語」というのがありますが、それも十二巻で、私の手にはいりました。<br><br>世間にもう一つの「掘江物語」がありますが、それは八巻だけは又兵衛が画いて、あと四巻は弟子が画いた物です。<br><br>それで八巻だけは御物になってます。<br><br>ところが私のは十二巻揃ってますからたいしたものです。<br><br>それでこの間の京都の展覧会に又兵衛の「小栗判官」と「職人づくし」の巻物がありましたが、これはずっと落ちます。<br><br>絵も小さいし絵のできも絢爛たるものがありません。<br><br>あんまりまじめすぎるのです。<br><br>ですから私の方がずっといいのです。<br><br>そういう又兵衛の絶品が二つも私の所にはいったということは実に不思議だと、この間も美術協会の会長でこの方では有名な人で、秋山という人が見にきて驚いてました。<br><br> そういうようでなかなかいい物が集まっているのです。<br><br>それはべつにそういった経路で集めたのでなく、自然にフラフラとはいってくるのです。<br><br>そしていい物で欲しいという物になると、わりに値が安いのです。<br><br>どうしても神様がいいあんばいにそういった物を寄せるようにしているとしか思えないのです。<br><br>それからもう一つは版画ですが、春信の版画で十二枚揃っているのがはいりました。<br><br>この間文学博士の藤懸さんという人が見にきましたが、その人は浮世絵の版画では日本一なのです。<br><br>学者ですから実によく調べてます。<br><br>むしろあんまりよく知っているので驚いたくらいです。<br><br>私は版画というのは、今まで趣味がなかったから、肉筆は集めましたが版画は手をつけなかったのですが、どうしても買えというので、買うことにしました。<br><br>私は気がなかったので、神様の方では買わせようと思われたのです。<br><br>それで博物館の浮世絵の係の人で近藤市太郎という人が「博物館でも買いたかったが金がどうしても足りないので、あなたの方でぜひ買ってくれ」と言うが、それでもグズグズしていると、文化財保護委員会の総務部長をしていた富士川という人も「買った方がいい」と言うのです。<br><br>文化財保護委員会の会長の高橋誠一郎という人も、前から非常に欲しがっていたが金ができなかったから買わなかったが、救世教の美術館で買ってよかった、というようなことを言われていたそうです。<br><br>そういうようで非常にいい物です。<br><br>それでそういう版画の方も、藤懸さんの話では、アメリカだけにある版画は日本の十倍くらいあるそうです。<br><br>ボストン美術館には約六万枚の版画があるのです。<br><br>一美術館で六万枚あるのです。<br><br>それで日本のどこになにがいくつあるということは分かってますが、日本中で七千枚あるのです。<br><br>ですから、日本がうっかりしているうちにみんな向こうにさらわれてしまったのです。<br><br>あれは私が岡倉天心先生に会ったのが三十くらいの時ですから、今から四十年前に岡倉先生がボストン美術館の顧問になっていて始終アメリカに行ってましたが、そのころ日本から版画を持って行っていたのです。<br><br>それで日本で気がついた時には、もうあらかたなくなっていたのです。<br><br>それからドイツ、フランスにもそうとう行ってますから、版画だけは日本にあるよりも外国に行っているのが十倍以上あります。<br><br>そこで藤懸博士はボストンの六万枚というのを全部見たそうですが、今度私が手に入れた春信だけの物はないそうです。<br><br>それでもしこの版画を展覧会に出すとしたら、これだけを見にくる外人が随分あるだろうという話です。<br><br>またある人ですが、この人は片手間に道具屋をやってますが、駐留軍の工芸員に雇われて一週に一回講義に行く人ですが……アメリカ人の中に顔が広く、この人が春信の版画を私の所に持ってくるのに骨を折った人です……あれが並んだら外人の偉いのを片端から連れて行くと言ってますが、そういういい物がなんでもなく手にはいったのです。<br><br>そんなようで版画でも肉筆でもそれはすばらしい物が並ぶわけです。<br><br>そうして外の美術品も、今年はずっと変えて、現代美術はあんまり喜ばれないようですから、今度はそれをやめて外国美術をと思ってます。<br><br>外国美術といっても、ヨーロッパでなくバルカンあたりの美術品です。<br><br>これも自然に手にはいってきたので、神様がやれということと思って、これをやります。<br><br>それはギリシア、ペルシア、インド、支那の奥地、というような美術品です。<br><br>ペルシアの美術品にはなかなかおもしろい物があります。<br><br>これはまた別の味のある美術品です。<br><br>それからあとは支那の周時代の古い銅器もそうとう集まってます。<br><br>そういう物を並べるわけですから、今年は去年とはぜんぜん違った展覧会になります。<br><br>それを楽しみにしてもらいたいと思います。<br><br> 箱根の神仙郷はそれで大体完成です。<br><br>それが写って、今度は熱海の瑞雲郷がどんどん進むわけです。<br><br>それでいずれ熱海にも美術館を造るつもりですが、これは大体箱根の三倍くらいにしようと思ってます。<br><br>敷地がせまいので、もっと拡げるように指図してありますから、もうじきそれが拡がることになってます。<br><br>それから京都も四月あたりに行っていろいろ案を立てて、敷地だけをボツボツかからせるつもりですが、この方の設計は頭の中には大体できましたから、今度は頭から言霊になって、それから物質になるのです。<br><br> すべて順序というものは最初は頭の中です。<br><br>これは霊界にできるのです。<br><br>それでこれを、こうしろああしろという言霊に出て、それから本当に物質が現われる、という順序です。<br><br>それで今は頭の中の霊界では設計ができてます。<br><br>それで四月に行って、今度は言霊の設計をやるのです。<br><br>そこで言霊というものは非常に重要なものです。<br><br>それは誰がやることでもそうです。<br><br>たとえば、ここならここで思いますが、それは霊界にはすぐにできてしまうのです。<br><br>私でなくても誰でもそうです。<br><br>ただ私がやると霊界でのでき方がはっきりするのです。<br><br>ですからはっきりと間違いなくいくのです。<br><br>それがふつうの人なら、そういうようにこしらえてもじきに消えてしまったりするから中途でいろいろ故障があります。<br><br>中には物質にできあがってからでも中途でオジャンになるのがあります。<br><br> そういう今年の計画なり運びなりの大体をお話ししたわけです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Alvorecer da Nova Era</h2>
 <p>Neste Ano-Novo, sinto uma serenidade que há muito não experimentava. Tanto no ano passado quanto no retrasado, o processo judicial que enfrentei ainda não havia sido concluído, e essa pendência era como uma sombra que pesava constantemente em meu peito, impedindo-me de sentir plena paz. Ao longo de minha vida, passei por diversas provações, mas nenhuma foi tão penosa quanto este julgamento. Embora tais situações sejam desagradáveis para qualquer pessoa, para mim foram particularmente aflitivas. A atmosfera degradante de um tribunal é algo que considero insuportável.</p>
@@ -117,5 +269,48 @@ function toggleLang(lang) {
 <p>Com isso, o Solo Sagrado de Hakone, Shinsenkyo, estará praticamente concluído. Como um reflexo desse modelo, o Solo Sagrado de Atami, Zuiunkyo, avançará a passos largos. Pretendo construir um museu em Atami também, com aproximadamente o triplo do tamanho do de Hakone. O terreno atual é pequeno, por isso já dei instruções para que seja ampliado, o que deverá ocorrer em breve. Em abril, irei a Quioto para traçar os planos para o Solo Sagrado de lá e dar início aos trabalhos de terraplanagem. O projeto já está delineado em minha mente. Agora, ele passará da mente para a palavra e, da palavra, para a matéria.</p>
 <p>Toda criação obedece a uma ordem. Primeiramente, ela nasce na mente, ou seja, se concretiza no Mundo Espiritual. Em seguida, manifesta-se através da palavra — o kototama — por meio de ordens e diretrizes. Somente então ela assume forma no mundo material. O projeto de Quioto já está concluído em minha mente, no Mundo Espiritual. Em abril, irei para lá para iniciar o projeto no plano da palavra. A palavra, o kototama, é de suma importância. Esse princípio se aplica a tudo o que qualquer pessoa faz. Quando pensamos em algo, aqui e agora, isso se concretiza instantaneamente no Mundo Espiritual. Isso vale para todos, não apenas para mim. A diferença é que, quando um projeto é concebido por mim, a sua forma no Mundo Espiritual é nítida e definida, garantindo que o processo transcorra sem desvios. Para as pessoas comuns, entretanto, essas formas espirituais podem ser tênues e dissipar-se facilmente, o que ocasiona falhas e interrupções no meio do caminho. Há casos em que projetos chegam a se materializar, mas acabam fracassando.</p>
 <p>Estas foram, em linhas gerais, as explanações sobre os planos e o rumo dos acontecimentos para este novo ano.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年1月3日） 『御教え集』18号、昭和28(1953)年2月15日発行 昭和二十八年一月三日 私は今年のお正月は久しぶりで朗らかです。<br/><br/>というのは、去年の正月も一昨年の正月もまだ裁判が決定してなかったので、それが始終胸にかたまりみたいになって、なんだか晴れ晴れしなかったのです。<br/><br/>私もこの年になるまで苦しいこともいろいろありましたが、今度の裁判くらい気持ちの悪いことはありません。<br/><br/>それは、どうせああいうことは誰でも気持ちが悪いのですが、私は特にふつうの人より気持ちが悪かったのです。<br/><br/>公判廷のそのいやらしさというのはとても我慢ができません。<br/><br/>それはなにかと言うと、私が悪いことがあって気がとがめるのならば、どんな苦しいことでもこれはしかたがありません。<br/><br/>よくああいう所を地獄だと言いますが、地獄というのはそんな苦しい所ではありません。<br/><br/>なぜと言うと地獄は公平無私で少しも事実とくい違いはありません。<br/><br/>ですからごく悪い者はごく苦しみますが、そうでなく軽い者は軽いのです。<br/><br/>ですから悪いことをした者は「もうしかたがない、オレが悪かったのだから」と思いますから、非常に苦しんでも気持ちがいいことになっているのです。<br/><br/>地獄という所は公平ですから決して苦しいものではありません。<br/><br/>一番苦しいのは不公平です。<br/><br/>これは地獄よりずっと苦しいのです。<br/><br/>せめて地獄くらいになったらたいしたものと思います。<br/><br/>だから実にいやだったのです。<br/><br/>気持ちが悪いのです。<br/><br/>それがこの暮れでやっとすんだので、このお正月はさっぱりした気持ちです。<br/><br/> 今年は二十八年ですが、「二十八」というのは数字からいってもたいへんいいのです。<br/><br/>終戦になったのが昭和二十年ですが、この「二十」という数字は今までにもたくさんありましたが、特に良いということは「昭和」という年号に対して、その文字に対しての二十というのがたいへん大きな意味になるのです。<br/><br/>「昭」というのは日偏に召すという字ですが、この「召す」ということは「しろしめす」という意味になります。<br/><br/>「しろしめす」ということは「統治する」ということです。<br/><br/>よく何神様が世の中を統治遊ばされる、しろしめされる、と言います。<br/><br/>天皇などの場合も、天皇がしろしめすと言いますが、そこで「日偏に召す」ですから、「日がしろしめす」ということになります。<br/><br/>それは昼間がしろしめすということです。<br/><br/>それで昭和の時代に昼間がしろしめすということです。<br/><br/>それで「和」は「輪」で、「世界」ですから、昼間の世界ということです。<br/><br/>それで「二」というのは「天地」で、「十」は「結ばる」ということです。<br/><br/>それで霊体の結び、経緯の結びというわけです。<br/><br/>ですから「二十」という数字は非常にいいのです。<br/><br/>それから「十」は「経緯」です。<br/><br/>それで十がもう一つ重なると井の字になりますが、この「井」の字がやはり二十と同じ意味になります。<br/><br/>この「井」の字は「経綸」ということです。<br/><br/>ですから姓名に、今井とか村井と井の字がつくのがよくありますが、そういった経綸の場合に井の字がよく使われているものなのです。<br/><br/>そこで言霊から言っても、「井」の字と、片仮名の「イ」もやはりそれと同じ意味です。<br/><br/>この「イ」というのは「人」ということです。<br/><br/>ですから「人」というのは霊と体ですから、やはりそういう意味になります。<br/><br/>それで二十の五、六、七がすんで、つまりミロクがすんで今年から「八」で、いよいよ開くという意味です。<br/><br/>ミロクの経綸が開くという意味ですから、今年かち非常にいいわけです。<br/><br/>それでまた昼の世界がいよいよ開けるという時にもなるのです。<br/><br/>そういう形になりつつあります。<br/><br/> それでこの「八」という字を解釈してみると、「八」は「八百万」とかと、そういう意味のことによく言われますが、「富士山」の形になるのです。<br/><br/>富士山は八の字の形です。<br/><br/>ですから富士山は一名「八スの山」と言うのです。<br/><br/>「八ス」ということは「ハス」ということです。<br/><br/>つまり仏教的に言うと、「八ス」は「蓮の花」になります。<br/><br/>それで、蓮の花は蓮華台ということです。<br/><br/>蓮華台というのは、一番貴い山です。<br/><br/>よく仏像などが立ったり、あぐらをかいたりしているのに、下に蓮の花があります。<br/><br/>観音様の絵などにも、蓮の花の上に立たれているのがよくありますが、そういうようで蓮ということは、非常に貴い神仏が乗られるという意味なのです。<br/><br/>ですから富士山には兄の花咲爺姫がお祀りしてあるということは、兄の花咲爺姫は観音様ですから、富士山は観音様の蓮華台ということになります。<br/><br/>そういうようですから「八ス」ということは蓮華台ができるということにもなります。<br/><br/>とにかく一番強い意味は開くということです。<br/><br/>また「八」は「ハ」で、「ハ」というのは「発する」ということで、開けるから、今年からそういう形になっていくわけです。<br/><br/> それについて霊的でなく体的のことの大体を話してみると、一番は熱海のメシヤ会館がいよいよ来月か再来月あたりから建築に取りかかるわけですが、今基礎工事をやってます。<br/><br/>会館の模型を造りましたが、随分荘厳な形になると思ってます。<br/><br/>いつも言うとおり、これはフランスのル・コルビュジエという人が始めた建築様式で、今日では世界的に一つの建築様式として風靡したような形です。<br/><br/>けれども直線的のごく単純なやり方で、アパート、官庁、会社といったような、つまり実用向きの様式になってます。<br/><br/>それで宗教的には今までぜんぜん手を触れていません。<br/><br/>今までの宗教建築といえば、これはキリスト教でも仏教でも神道でもそうですが、何百何千年前の様式と同じ形をとっているのです。<br/><br/>築地の本願寺も鉄筋でやり方は随分近代的ですが、あの形はインドの古い形式をとったものです。<br/><br/>これはお釈迦様を祀るのだからあたりまえでしょう。<br/><br/>本尊様が古い時代ですから……。<br/><br/>しかし救世教は本尊様が新しいのだから建築も新しいというので、これもあたりまえかもしれません。<br/><br/>ですからごく新しい様式での、この宗教建築というものはまだ世界にありません。<br/><br/>コルビュジエという人はこの春なにかの嘱託で日本に来ることになってます。<br/><br/>そして二年いる予定だということが新聞に出てましたが、会館を大いに見せて批評してもらおうと思ってます。<br/><br/>そういうようなわけで形は非常に新しいのです。<br/><br/>それでそういった直線的の建築で荘厳味を出そうというのですから、ちょっと無理なようですが、できたらわりあいに荘厳味が出るつもりです。<br/><br/>それで入口から内部とすべて新しくしました。<br/><br/>内部は劇場的になってはいけないと思って大いに注意しましたが、そうとう成功すると思ってます。<br/><br/>それから展望台はメシヤ会館と一緒にできるはずです。<br/><br/>これはガラスの丸い家ですが、もう少したったら模型もこしらえて出します。<br/><br/>これも世界にはないと思います。<br/><br/>ガラスの展望台式の家はアメリカにもあって、私は写真で見たことがありますがぜんぜん違います。<br/><br/>ですから私が今度やるのは世界に例がありません。<br/><br/>そういうようにすべて新しい物を造るということは、いつも言うとおり熱海は現界の型になります。<br/><br/>従って新しい世界の型になるのです。<br/><br/>それで熱海にできるとそれが世界に写りますから、そこで世界も非常に変わってきます。<br/><br/> それで『栄光』の「新年号」に「世界夢物語」というのを出しましたが、読まれたでしょう。<br/><br/>大体ああいうようになっていくわけです。<br/><br/>それでいろいろの変化とか時の早い遅いはあります。<br/><br/>それは要するに神様と悪魔の戦いですから、両方が千変万化の形をとりますが、大体はああいう形をとっていくのです。<br/><br/>というのは東方の光が現われて、だんだん光が世界的に拡がって行きますから、朝鮮から中国、中央アジア、ヨーロッパと拡がっていきます。<br/><br/>それでアメリカは別の意味で緯の国ですから、そこで経と緯を結ぶということになります。<br/><br/>それで二十年に終戦になったということはその意味も含まれてます。<br/><br/>ですから二十年に経と緯を結んだのです。<br/><br/>十九年まではそうではなかったが、二十年で結ばれたのです。<br/><br/>昭和二十年八月十五日に決まったのですが、そこでアメリカと日本を結ぶということは、体の代表と霊の代表、緯の中心と経の中心が結ばれたということで、それが二十年なのです。<br/><br/>そこでアメリカと日本と結ばれなければならないというので、今度アメリカのロサンゼルスに支部をつくることになってます。<br/><br/>その足がかりとしてハワイのホノルルにもつくるわけです。<br/><br/>そうしてアメリカをだんだん開拓していくつもりです。<br/><br/>ちょうど幸いにも『アメリカを救う』という本もできましたから、あれを宣伝用として大いに使います。<br/><br/>それで日本文だけはできましたが、英文は来月か再来月になりますから、最初は日本文だけであっちにいる日本人に分からせようというわけです。<br/><br/>英文に訳す人はとにかくその方面では第一人者だそうで、大統領に見せる文章もその人が訳するそうですから、翻訳についてはよほど手腕のある人に違いありません。<br/><br/>それであれを読んだらそうとう問題になるだろうと思います。<br/><br/>問題になれば大いに売れますから、アメリカで大いに売れるだろうと思います。<br/><br/>ですから非常に外貨獲得の一助にもなります。<br/><br/>外貨獲得というと大きな話ですが、そればかりでなく、救世教の財政も楽になりますから大いに仕事ができるだろうと思います。<br/><br/>なにしろあっちは、いいとなると一遍に拡がるという国民性がありますから、その点においては非常におもしろいです。<br/><br/>従って数も出ますし、アメリカで売れるということになると、日本人はなおさらありがたがって買います。<br/><br/>無論ヨーロッパ方面にも売れるでしょう。<br/><br/>神様の方は、取らぬ狸の皮算用ではないと思いますから、そういうようでだんだん世界的になっていきます。<br/><br/> それから中国の方も紅卍字会がいずれ働くことになりますが、とにかく中共政府がああやっていたのではそれができないから、そこで神様はいい具合に地ならしを始めるわけです。<br/><br/>そうしてちゃんと宗教宣伝のやりいいような状態にお膳立てをするわけです。<br/><br/>そうしたらこっちも中国に大いに宣伝して中国を救うという段取りになるわけです。<br/><br/> ですから「世界夢物語」に書いてあるとおり、今度アイゼンハウアーがいずれ朝鮮に対して積極的に大攻撃をやるだろうと思いますが、それでも埒（らち）があかないのでどうしても満州あたりに行って、その結果戦禍が中国全土に及ばざるを得ないという状態になります。<br/><br/>神様は古い汚いものをきれいにしていろいろ地ならしをして、そうして新しい地上天国を造られるのですから、そういった変化が今年からボツボツ起ってきますから、そのつもりでそういうことを知っていて見ると一つの興味がある話です。<br/><br/>しかし随分いろいろと悲惨なことがあるのを興味本位に見るということはけしからん話ですが、しかしこっちは建設の方ですし、それにべつに私がやるわけではなく、神様のやることだから、お気の毒でもあるが、それでいいのだという意味にもなるわけです。<br/><br/> そういうようなわけですから、建設が進むに従って破壊も進んでいくというわけです。<br/><br/>ここのところに実に微妙な神様の経綸があるのが分かります。<br/><br/>それが分からないで見ると、なにがなんだか見当がつきません。<br/><br/>つまり芝居なら筋書ですが、それを救世教信者は分かっていて見るから、つまり芝居の役者でなく見物人、お客様の方です。<br/><br/>しかし芝居でも悪役と善役とあります。<br/><br/>どんな芝居でも、見れば分かるとおり、善の役というのは悪役に苦しめられるものです。<br/><br/>そうしてさんざん苦しめられたあげく、最後に至って悪の方が成敗されて善の方が勝って、めでたしめでたし、というのが大体の筋です。<br/><br/>やはり世界の芝居でも同じようで、そういうような脚本でつくられるわけです。<br/><br/>神様が何万年も前につくられて、そういった筋によってやられるわけです。<br/><br/>とにかくたいへんに大きな芝居です。<br/><br/>そのたいへんに大きな芝居を見物できるのですから、今生まれてきて救世教信者になっている人は開闢以来ない芝居を見られるわけです。<br/><br/>その代わりだんだん明るくなりますから、病気もうんと起ってきて、それは恐怖時代が来ます。<br/><br/>その時に戦争の方の芝居は見物人になってますが、その病気の時には大いに活動しなければなりません。<br/><br/>しかし人を助けるのですから戦争の役よりかずっといいです。<br/><br/>それにこっちは被害をこうむらないで、大いに喜ばれるといういい役をするわけです。<br/><br/>この話はそのくらいにしておきます。<br/><br/> 箱根の美術館は今別館をこしらえ始めました。<br/><br/>そうして今年の五月から浮世絵展覧会をやろうと思ってます。<br/><br/>それで今度できる別館というのは、陳列をする室は五間に八間の四十坪のものですから、かなり並べられます。<br/><br/>それと本館の方の、前に下で屏風を並べてあった部屋がありますが、それだけの予定です。<br/><br/>たぶんそれでも並べきれないと思いますから、途中で陳列替えをするということになるだろうと思ってます。<br/><br/>それで並べる物は去年の夏ごろから不思議に浮世絵のいい物が集まってくるのです。<br/><br/>それまではそんなに考えなかったのですが、これは神様が浮世絵展覧会をやれということと分かりましたから、そういう計画を立てたのです。<br/><br/>それで去年の京都の浮世絵展覧会の品物よりもずっと上の物です。<br/><br/>これは今までに例がないでしょう。<br/><br/>また不思議にすばらしい物がはいってくるのです。<br/><br/>これは道具屋がみんな不思議に思ってます。<br/><br/>つい最近、五、六日前の話ですが、浮世絵の肉筆の非常にいい物ですが、それは明治から大正にかけての有名な人で、その人が浮世絵が好きでコレクションをつくったのです、それはみんな立派な物ばかりです。<br/><br/>それが八十幅あります。<br/><br/>実に驚くべき話です。<br/><br/>そのうちの四幅か五幅を見ましたが非常にいい物です。<br/><br/>それでぜひ欲しいと言うと、先方では箱根美術館になら売ってもいいというのです。<br/><br/>それに今金に困らない人で、売っても金はいつでもいい、そうでなければ出品して陳列してもいい、というように実に条件がいいのです。<br/><br/>それは八十幅はとても並べきれません。<br/><br/>それにみんなわりに大きな掛物ばかりです。<br/><br/>実にいい物で、よくもそういういい物が集まったと思ってますが、それが八十幅あります。<br/><br/>これなどはとても人間業ではありません。<br/><br/>とにかく浮世絵の方では岩佐又兵衛が第一人者ですが、又兵衛の巻物では「山中常盤」という十二巻の巻物で、常盤御前と牛若丸の伝記です。<br/><br/>伝記といったところで、事件の一番のクライマックスを画いてあるのですが、実によく画いてあります。<br/><br/>やはり腕からいっても又兵衛が一番と言ってもいいくらいです。<br/><br/>箱根美術館にあった浮世絵「湯女」は、私の勘では又兵衛です。<br/><br/>又兵衛以外にあれだけの物を画ける人はありません。<br/><br/>それに又兵衛の癖がよく出てます。<br/><br/>この「山中常盤」の巻物は昭和五年に三越で展覧会をやったことがありますが、その時に評判になって、見物人が列をつくって見たそうです。<br/><br/>そういうようで非常に有名な物です。<br/><br/>それと同じような物で「掘江物語」というのがありますが、それも十二巻で、私の手にはいりました。<br/><br/>世間にもう一つの「掘江物語」がありますが、それは八巻だけは又兵衛が画いて、あと四巻は弟子が画いた物です。<br/><br/>それで八巻だけは御物になってます。<br/><br/>ところが私のは十二巻揃ってますからたいしたものです。<br/><br/>それでこの間の京都の展覧会に又兵衛の「小栗判官」と「職人づくし」の巻物がありましたが、これはずっと落ちます。<br/><br/>絵も小さいし絵のできも絢爛たるものがありません。<br/><br/>あんまりまじめすぎるのです。<br/><br/>ですから私の方がずっといいのです。<br/><br/>そういう又兵衛の絶品が二つも私の所にはいったということは実に不思議だと、この間も美術協会の会長でこの方では有名な人で、秋山という人が見にきて驚いてました。<br/><br/> そういうようでなかなかいい物が集まっているのです。<br/><br/>それはべつにそういった経路で集めたのでなく、自然にフラフラとはいってくるのです。<br/><br/>そしていい物で欲しいという物になると、わりに値が安いのです。<br/><br/>どうしても神様がいいあんばいにそういった物を寄せるようにしているとしか思えないのです。<br/><br/>それからもう一つは版画ですが、春信の版画で十二枚揃っているのがはいりました。<br/><br/>この間文学博士の藤懸さんという人が見にきましたが、その人は浮世絵の版画では日本一なのです。<br/><br/>学者ですから実によく調べてます。<br/><br/>むしろあんまりよく知っているので驚いたくらいです。<br/><br/>私は版画というのは、今まで趣味がなかったから、肉筆は集めましたが版画は手をつけなかったのですが、どうしても買えというので、買うことにしました。<br/><br/>私は気がなかったので、神様の方では買わせようと思われたのです。<br/><br/>それで博物館の浮世絵の係の人で近藤市太郎という人が「博物館でも買いたかったが金がどうしても足りないので、あなたの方でぜひ買ってくれ」と言うが、それでもグズグズしていると、文化財保護委員会の総務部長をしていた富士川という人も「買った方がいい」と言うのです。<br/><br/>文化財保護委員会の会長の高橋誠一郎という人も、前から非常に欲しがっていたが金ができなかったから買わなかったが、救世教の美術館で買ってよかった、というようなことを言われていたそうです。<br/><br/>そういうようで非常にいい物です。<br/><br/>それでそういう版画の方も、藤懸さんの話では、アメリカだけにある版画は日本の十倍くらいあるそうです。<br/><br/>ボストン美術館には約六万枚の版画があるのです。<br/><br/>一美術館で六万枚あるのです。<br/><br/>それで日本のどこになにがいくつあるということは分かってますが、日本中で七千枚あるのです。<br/><br/>ですから、日本がうっかりしているうちにみんな向こうにさらわれてしまったのです。<br/><br/>あれは私が岡倉天心先生に会ったのが三十くらいの時ですから、今から四十年前に岡倉先生がボストン美術館の顧問になっていて始終アメリカに行ってましたが、そのころ日本から版画を持って行っていたのです。<br/><br/>それで日本で気がついた時には、もうあらかたなくなっていたのです。<br/><br/>それからドイツ、フランスにもそうとう行ってますから、版画だけは日本にあるよりも外国に行っているのが十倍以上あります。<br/><br/>そこで藤懸博士はボストンの六万枚というのを全部見たそうですが、今度私が手に入れた春信だけの物はないそうです。<br/><br/>それでもしこの版画を展覧会に出すとしたら、これだけを見にくる外人が随分あるだろうという話です。<br/><br/>またある人ですが、この人は片手間に道具屋をやってますが、駐留軍の工芸員に雇われて一週に一回講義に行く人ですが……アメリカ人の中に顔が広く、この人が春信の版画を私の所に持ってくるのに骨を折った人です……あれが並んだら外人の偉いのを片端から連れて行くと言ってますが、そういういい物がなんでもなく手にはいったのです。<br/><br/>そんなようで版画でも肉筆でもそれはすばらしい物が並ぶわけです。<br/><br/>そうして外の美術品も、今年はずっと変えて、現代美術はあんまり喜ばれないようですから、今度はそれをやめて外国美術をと思ってます。<br/><br/>外国美術といっても、ヨーロッパでなくバルカンあたりの美術品です。<br/><br/>これも自然に手にはいってきたので、神様がやれということと思って、これをやります。<br/><br/>それはギリシア、ペルシア、インド、支那の奥地、というような美術品です。<br/><br/>ペルシアの美術品にはなかなかおもしろい物があります。<br/><br/>これはまた別の味のある美術品です。<br/><br/>それからあとは支那の周時代の古い銅器もそうとう集まってます。<br/><br/>そういう物を並べるわけですから、今年は去年とはぜんぜん違った展覧会になります。<br/><br/>それを楽しみにしてもらいたいと思います。<br/><br/> 箱根の神仙郷はそれで大体完成です。<br/><br/>それが写って、今度は熱海の瑞雲郷がどんどん進むわけです。<br/><br/>それでいずれ熱海にも美術館を造るつもりですが、これは大体箱根の三倍くらいにしようと思ってます。<br/><br/>敷地がせまいので、もっと拡げるように指図してありますから、もうじきそれが拡がることになってます。<br/><br/>それから京都も四月あたりに行っていろいろ案を立てて、敷地だけをボツボツかからせるつもりですが、この方の設計は頭の中には大体できましたから、今度は頭から言霊になって、それから物質になるのです。<br/><br/> すべて順序というものは最初は頭の中です。<br/><br/>これは霊界にできるのです。<br/><br/>それでこれを、こうしろああしろという言霊に出て、それから本当に物質が現われる、という順序です。<br/><br/>それで今は頭の中の霊界では設計ができてます。<br/><br/>それで四月に行って、今度は言霊の設計をやるのです。<br/><br/>そこで言霊というものは非常に重要なものです。<br/><br/>それは誰がやることでもそうです。<br/><br/>たとえば、ここならここで思いますが、それは霊界にはすぐにできてしまうのです。<br/><br/>私でなくても誰でもそうです。<br/><br/>ただ私がやると霊界でのでき方がはっきりするのです。<br/><br/>ですからはっきりと間違いなくいくのです。<br/><br/>それがふつうの人なら、そういうようにこしらえてもじきに消えてしまったりするから中途でいろいろ故障があります。<br/><br/>中には物質にできあがってからでも中途でオジャンになるのがあります。<br/><br/> そういう今年の計画なり運びなりの大体をお話ししたわけです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

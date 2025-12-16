@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s281217</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年12月17日） 『御教え集』29号、昭和29(1954)年1月15日発行 昭和二十八年十二月十七日 世間一般の人を相手にした話ですが、とにかく今日、どこからどこまでなにごとも、うまくゆかないのです。<br><br>うまくゆくということはめったにないので、政治でも、ほかのいろいろなことでも、みんな失敗の連続です。<br><br>以前ある人は「人生は後悔の連続だ」ということを言いましたが、これもまったくそのとおりで、人間毎日後悔しているのです。<br><br>それと同じように、することなすことが失敗の連続なのです。<br><br>政治にしても、政府や政党がいろんなことを言っても、まずことごとく失敗です。<br><br>そのために年中苦しんでいるわけです。<br><br>その原因はなにかというと、信仰者は神の実在を知っているからですが、神の実在を知る知らないにかかわらず、正義感が実に少ないのです。<br><br>この正義について、いろんな角度から書いてみました。<br><br> （御論文「正義感」） 【栄光 二四〇号】 薬毒というものは、信者になった人はみんな分かってますが、ただ本当に分からないのは、薬毒の量をたいていな人は少なく見ているのです。<br><br>ところがこれが非常に多いのです。<br><br>私はこの間なにかに、薬毒を全部除るには一生かかっても難しいと書きました。<br><br>まず一生のうちに薬毒を全部なくすことはできないです。<br><br>二代三代ぐらいはかかるでしょう。<br><br>そうなれば病気することはなく、寿命も百以上は必ず生きます。<br><br>薬毒というものは、そのくらい厄介なものです。<br><br>よく、随分酷い疥癬などをわずらった人が、もう自分の毒はあらかた取れたように思いますが、とんでもない話です。<br><br>それから薬毒にも種類がいろいろあります。<br><br>まず三つも四つも五つも六つもあります。<br><br>それで疥癬はたくさん出るようですが、これは天然痘の毒素です。<br><br>つまり遺伝毒素です。<br><br>ですから疥癬の重いのをやって、オレはいいと思っていると、それから酷い浄化が起こりますが、これはそういうわけです。<br><br>なによりも自分の薬毒というものは、ほとんど無限にあるように思っていればちょうどよいのです。<br><br>それでその薬毒というものはどういうふうになっているかというと、血膿です。<br><br>よくオデキなどになって腫れて出る血膿です。<br><br>それがいっぱいあるのです。<br><br>それで人間の体から血膿を除いてしまったら、骨と皮だけになってしまいます。<br><br>そういう例があります。<br><br>随分肥っている人が、毒が出てゆくとヒョロヒョロになってしまいますが、痩せたから薬毒がなくなってしまったかと思うとまだあるのです。<br><br>本当にこれを取ってしまったら骨と皮になってしまいます。<br><br>私はいつも言うのですが、人間の皮膚ぐらいありがたいものはないと思います。<br><br>人間から皮膚を取ってしまったら、どのくらい汚いか分からないです。<br><br>ですからずいぶん美人とかいって、ストリッパーなどは体がきれいです。<br><br>また油絵などに画く人もそうです。<br><br>ところがその美しさは皮膚だけの話で、中身ときたら汚いものです。<br><br>それを包んでいる皮膚というものに感謝してよいと思います。<br><br>少なくとも女性は大いに皮膚に感謝すべきだと思ってます。<br><br>そういった薬毒が取れるに従って女はきれいになるわけです。<br><br>それは化粧の必要もないです。<br><br>私の所にいる女中で、一人、生まれてからまだ薬をのんだことがないというが、実にきれいです。<br><br>それはどんな化粧をしたかと思うくらいです。<br><br>これは立派な生きた見本ですが、そういうわけで、女が薬をのまなくなったらどんなに美人になるか分かりません。<br><br>昔――千年以上前の女は定めしきれいだったと思います。<br><br>小野小町なども、あの時分には漢方薬がそうとう入りましたが、それでもよほどきれいだったと思います。<br><br>それを考えると、今の人間は実に馬鹿です。<br><br>骨を折って、金を使って化粧して、体の中は薬毒で汚くするし、外は化粧品で皮膚から染み込ませて汚くしているのです。<br><br>それに気がつかないで、ますます念入りに化粧してます。<br><br>化粧品が売れるわけで、新聞広告と言えば、まず売薬の広告と化粧品の広告です。<br><br>今言ったとおりのそういった間違いが、薬屋と化粧品屋に金を儲けさせているというわけです。<br><br>そうして手数をかけて、金をかけて病気の種を作っているのです。<br><br>だから“超愚”では追いつかないくらいで、もう一つ“超”をつけたほうがいいくらいです。<br><br>つまりそれを早くなくするには浄霊よりほかにないのですが、その浄霊について書いてみました。<br><br> （御論文「日本の誇り」） 【栄光 二四一号】 いま話したように、つまり人間の体の中が一番汚いのです。<br><br>汚い物もいろいろあります。<br><br>糞尿もずいぶん汚いですが、血膿の方がもういっそう汚いです。<br><br>万物の霊長たる人間が一番汚いのです。<br><br>だからいろいろな寄生虫が腹の中にわくというのはあたりまえです。<br><br>だいたい人間の体は生きているので、腐っているのではないのですから、それに虫がわくということは、いかに汚いかということが分かります。<br><br>しかもその虫の種類がいろいろあります。<br><br>真田虫という馬鹿げて大きいのもあるし、小さいのもいろいろあります。<br><br>一番小さいのは回虫ですが、これはオソバみたいな、奇怪な形のやつで、たくさんわく人のは、ゾロゾロと、それこそソバみたいに重なり合っているのです。<br><br>それが人間の腹にわくということは、実に不思議なくらいです。<br><br>それでごく細かい目に見えないものが結核菌ですが、結核菌と言っても虫の小さいのですから、わいたに決まっているのです。<br><br>それは伝染もしますが、それは汚いから伝染するのです。<br><br>ちょうど便所の組みたいなもので、これは糞尿のない原ッパに出せばすぐに死んでしまいます。<br><br>それが、生きているということは、やっぱりそこに自分が生活し得るだけの材料があるからです。<br><br>ですから人間は、ともかくいばることをやめるのです。<br><br>つまり、一口に言えば虫の巣です。<br><br>巣だけならよいが、自分の体でそれを作っているのですから、実に、なんという汚い動物であるかということです。<br><br>ですから私は真善美の「美」の世界にするのは、まず人間の体の中からと思ってます。<br><br>それをみんな知らないからいばっているのですが、まずこれを知らせるのが肝腎なことだと思ってます。<br><br>そのくせ今日はいろんな虫というものが発見されて、ごく知りぬいているとしているのです。<br><br>ではどういうわけで、体の中にそういう虫がわくかということに、気がつかないのです。<br><br>ごく低級と言いますか、単純なものです。<br><br>もっとも、どういうわけで腹の中に虫がわくかということを考えても、気がつかないから、そこでそういうものだと諦めているだけのことです。<br><br>そうすると、それに気がつかないという、つまり愚か――暗愚ということも不思議ですし、われわれから見ると、今の文化人だとかヤレ教育があるとか学問があるとか言っても、肝腎なことがまるっきり暗愚です。<br><br>だからこの間のように“超愚”というのは、どうしてもそういう言葉が出るのです。<br><br>それで浄霊よりほかにないのですから、結核が治るということは、浄霊によって虫が殺される……というのは結果であって、虫が住むような条件がなくなるわけで、きれいになるのです。<br><br>わく条件がなくなるとともに、虫がそこに生存する条件もなくなるというわけだから、病気が治るということは分かりきった話です。<br><br>ところが医学の方で治すのは、その条件を医学が作るのだからして、逆になるわけです。<br><br>昨日か今日の新聞に出てましたが、日本は今まで癌は西洋よりか少ないとされていたが、西洋と違わないというのです。<br><br>今まで、いろいろ死亡者を研究してみると、癌の死亡者というのは、数において三分の一くらい日本が少ないとされていたのですが、そうでない、いろんな病気で死んだのを調べてみると三分の一増えたというのです。<br><br>それでは外国と同じということになります。<br><br> それでは癌というのはなにかというと、結局薬毒なのです。<br><br>ですから薬毒癌と言ってもよいです。<br><br>それから薬毒のほかに肉ですが、これは『アメリカを救う』の本に書いてありますが、肉の毒です。<br><br>これを消すために野菜というものがあるのです。<br><br>ですから野菜の食べ方が少ないのです。<br><br>少ないと肉の毒が余るので、そこに薬毒が混合するのです。<br><br>ですから浄霊して薬毒がなくなるとともに肉の毒がなくなるのです。<br><br>これはいつかも話しましたが、私は年々食欲が減っているので、おかしいと思って、前から鳩尾の所を見るとちょうど骨みたいなものがあるのです。<br><br>それで私はここに骨みたいなものがあって、人よりも変わっているのかと思って、たいして気にも止めなかったが、しかしこれはおかしいと、これを浄霊してみると少しずつ溶けるのです。<br><br>つまりこれは胃癌なのです。<br><br>それで自分で寝るときにチョイチョイ浄霊していると、だんだん小さくなって、それにつれて食欲がだんだん増えてきて、去年からみるとちょうど倍になりました。<br><br>そうしてみると癌というのは実に……これは痛くもなんともないのですが、ちょうど骨ぐらいの固さです。<br><br>ですからこういう人が世間にはたくさんあるのだから、たいへんだと思いました。<br><br>これはいつごろからあるかというと、私がチフスをやったときで、二十八の時です。<br><br>その時に肺炎と間違えられて、肺炎の薬をたくさんのみました。<br><br>この肺炎の前に胃が悪くて胃の薬をのんで、それから肺炎になって肺炎の薬をかなりのみました。<br><br>それでチフスが治ってからは、食べてもある程度までゆくとピタッと止まってしまうので、おかしいおかしいと思っていたら、今言った結果なのです。<br><br>それで、胃癌は減りました。<br><br>今三分の二ぐらい減りましたが、これが取れたらもっと食欲が増え、肥るわけです。<br><br>寿命も十五年や二十年延びるわけです。<br><br>実に驚くべきものです。<br><br>あなた方も、食欲が少し変だと思った時には鳩尾を調べてみるとあります。<br><br>これはたいていあるようです。<br><br>大きい小さい、固い柔らかいはともかく、古いのは固いようです。<br><br>それで私のは四十年ぐらいの古くなったものです。<br><br>だから薬毒というものは、そのくらい古くても決して減るものではないのです。<br><br>ただ固くなるぐらいなものです。<br><br>あんまり汚い話ばかりだから、少しきれいな話をしましょう。<br><br> 美術館ですが、ついこの間行ってみると、だいぶ道路ができてきました。<br><br>それから展望台ができる、景色を見るガラスの丸い家の名前ですが、英国に「水晶宮」というガラスでできた立派なのがあるのです。<br><br>それでこっちのは、「宮」というのではあんまり大き過ぎるので「水晶殿」としました。<br><br>「殿」でも少し大き過ぎますが、ほかにうまいのがないのです。<br><br>「水晶亭」「水晶庵」「水晶閣」でもどうもうまくないのです。<br><br>それで水晶殿は半円形の奥行を少し長くして、最初の予定よりか大きくしたのです。<br><br>というのは、見物人が随分たくさん来るだろうと思って、できれば新聞や雑誌に写真入りで大いに紹介するでしょうから、そこでどうしても一度は行って景色を見たいという考えは誰にも起こりますから、たいへんなものです。<br><br>この間もアメリカの新聞記者が言ったように、日本の西は京都、奈良という文化財を見る価値のあるものがある。<br><br>それから東では箱根と熱海の地上天国がそれと匹敵するものになるということを言いましたが、まったく私の思うとおりのことを言ったのです。<br><br>そうなると見物に来る人がたいへんだろうと思います。<br><br>それで美術館は箱根以上のものができます。<br><br>中に並べる物も、ふつうちょっと見られないようなすばらしい物です。<br><br>これは心掛けてとっておいてあります。<br><br>ですから美術館としても箱根よりもまたずっと良いものができます。<br><br>広さも倍以上あります。<br><br>そうして規模も大きいですし、それから今言ったとおり水晶殿で景色を見たら、それはすばらしいものです。<br><br>そうするとまず押すな押すなというほど来ると思います。<br><br>それで入場料を百円にしようと思ってますが、収入も随分たいへんなものだと思ってます。<br><br>しかし別に金儲けでやっているわけではないのですが、儲かるのは結構です。<br><br>それでまだいろいろな計画があります。<br><br>箱根、熱海ももっと規模を拡げなければならないし、京都にも造らなければならないし、いずれ九州とか北海道とか東北とか、そういう方にも地上天国を造るつもりですから、金はどのくらいあっても多いことはないのです。<br><br>それからいずれハワイにも造るつもりです。<br><br>それからアメリカには美術館も地上天国も造るつもりです。<br><br>それでアメリカの場合は、金は向こうの方で出すに違いないから、設計だけを私がしてやろうと思います。<br><br> それから箱根には来年は、ロックフェラーを連れてくるということを言ってましたが、ロックフェラーあたりが、これは良い、一つアメリカにもやってみようということになると、金はなんでもないのです。<br><br>ロックフェラーの文化財団の基金というものは、たいしたものです。<br><br>結局アメリカに地上天国を造るようにならなければ、本当に救世教というものは世界的のものにはならないです。<br><br>しかしこれは時の問題で、必ず実現することになってます。<br><br>そうすると今度はヨーロッパから東洋ですが、支那、インド、ビルマという方面にもできます。<br><br>そういう方面に神様はチャンと支度してあるのです。<br><br>準備してあるのです。<br><br>この間聞いた話ですが、ビルマには仏様の彫刻があるのですが、ビルマの人は一生懸命稼いで金を儲けると金箔を買うのだそうです。<br><br>向こうには一匁とか十匁とか売っていて、その金箔を仏様に貼りつけるそうですが、これは何百年も前からだそうで、その金箔だけでどのくらいあるか分からないそうです。<br><br>これはこの間政府の命令で行った小金代議士という人から聞いたのですが――この人は今度東南アジアの経済相談で三、四人で行きましたが、信者なのです――私が前に聞いたとおりで、そういった金無垢がどのくらい厚くなっているか分からないが、それは、いずれ弥勒菩薩が現われるから、その時にこれを献上するのだということになっているのです。<br><br>ですから私があっちに行くときには弥勒菩薩で行きますから、ビルマの方では、いよいよとなって、これを差し上げるということになります。<br><br>それによってあっちに立派なものを造ろうと思ってます。<br><br>これは夢みたいな話ですが、神様が支度してあるのですから間違いないです。<br><br>そういうことも、各国々に準備してあります。<br><br>ですからイタリアのヴァチカン宮殿もやっぱりその支度なのです。<br><br>今にあそこも救世教で使うようになりますから、そうしたらあなた方でもあそこに大いばりで行けます。<br><br>ヴァチカン宮殿の立派さというものは、私は写真で見ましたが、驚くべきものです。<br><br>世界のあらゆる彫刻から建築から絵から、この美術というものは、やっぱり世界で一番です。<br><br>だからこれからやることは、何百年、何千年、何万年前から神様の方で準備してあるのですから、時さえ来ればよいのです。<br><br>だから楽なものです。<br><br>仮に熱海の地上天国にしても、石垣をのばすに従って石がいくらでもいりますが、この石がいくらでも無限に出てくるのです。<br><br>今あの石垣が必要だということがチャンと分かっていて、何万年、何十万年前に神様が石をチャンと準備してあるのです。<br><br>そうしてあそこで良い景色を見るというために、相模湾から初島から大島でも、その準備に作ったのです。<br><br>そのくらい前から準備してあるのですから、今世界にあるいろんな建造物というのは、ごく最近準備したぐらいなものです。<br><br>こんなことを言ったところで、あんまり神様の方は大きくて深いために、とても信じられません。<br><br>まずある程度までゆけば、なるほどと分かりますが、今のところは、私は前から話をしようとしても、あんまり桁が違うので話が出ないのです。<br><br>やっと今話が出るので、そうかなと思うくらいで、時期になってきたわけです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Purificação do Homem e a Edificação do Paraíso Terrestre</h2>
 <p>Observando o mundo atual, percebemos que, em praticamente todas as esferas, as coisas simplesmente não prosperam. O êxito tornou-se uma raridade, e o que vemos, seja na política ou em outros âmbitos, é uma contínua sucessão de fracassos. Certa vez, alguém postulou que "a vida é uma sucessão de arrependimentos", e essa afirmação é de uma veracidade inegável; o ser humano vive a lamentar-se diariamente. De modo análogo, suas ações resultam em uma cadeia ininterrupta de insucessos. No campo político, por exemplo, por mais que governos e partidos façam pronunciamentos, quase todas as suas iniciativas redundam em falha. É por essa razão que a humanidade vive em constante sofrimento. Qual seria, então, a causa fundamental de tudo isso? Para nós, que professamos a fé, a resposta reside na realidade da existência de Deus. Contudo, independentemente de se conhecer ou não essa verdade, o fato é que o senso de justiça é assaz diminuto entre os homens. Foi sobre essa virtude, a justiça, que discorri sob diversas perspectivas.</p>
@@ -113,5 +265,48 @@ function toggleLang(lang) {
 <p>Preparações semelhantes existem em todos os países. O Palácio do Vaticano, na Itália, é também um desses preparativos. Chegará o dia em que ele será usado pela nossa Igreja, e então vocês poderão visitá-lo com grande orgulho. Pelo que vi em fotografias, a suntuosidade do Vaticano é assombrosa. Sua coleção de esculturas, sua arquitetura e suas pinturas representam, sem dúvida, o apogeu da arte mundial. Tudo o que estamos realizando agora foi preparado por Deus há centenas, milhares, dezenas de milhares de anos. Basta que o tempo certo chegue. Por isso, nossa tarefa é simples.</p>
 <p>Veja o caso do Paraíso Terrestre de Atami. À medida que expandimos os muros de pedra, necessitamos de uma quantidade infindável de rochas. E essas rochas surgem, inesgotáveis. Deus, sabendo que precisaríamos delas agora, preparou-as há dezenas, centenas de milhares de anos. Da mesma forma, para que pudéssemos contemplar aquela paisagem magnífica, Ele criou a Baía de Sagami, a Ilha de Hatsushima e a Ilha de Oshima. Tudo foi preparado com essa antecedência. Diante disso, as grandes construções que existem hoje no mundo são preparativos bastante recentes.</p>
 <p>Sei que, ao dizer tais coisas, a grandiosidade e a profundidade do Plano Divino se tornam difíceis de acreditar. Contudo, quando atingirmos um certo estágio de desenvolvimento, todos compreenderão e dirão: "É verdade". Até pouco tempo, eu hesitava em falar sobre isso, pois a escala era tão vasta que as palavras me faltavam. Agora que finalmente posso falar, talvez as pessoas comecem a pensar que pode ser possível. O tempo, de fato, chegou.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年12月17日） 『御教え集』29号、昭和29(1954)年1月15日発行 昭和二十八年十二月十七日 世間一般の人を相手にした話ですが、とにかく今日、どこからどこまでなにごとも、うまくゆかないのです。<br/><br/>うまくゆくということはめったにないので、政治でも、ほかのいろいろなことでも、みんな失敗の連続です。<br/><br/>以前ある人は「人生は後悔の連続だ」ということを言いましたが、これもまったくそのとおりで、人間毎日後悔しているのです。<br/><br/>それと同じように、することなすことが失敗の連続なのです。<br/><br/>政治にしても、政府や政党がいろんなことを言っても、まずことごとく失敗です。<br/><br/>そのために年中苦しんでいるわけです。<br/><br/>その原因はなにかというと、信仰者は神の実在を知っているからですが、神の実在を知る知らないにかかわらず、正義感が実に少ないのです。<br/><br/>この正義について、いろんな角度から書いてみました。<br/><br/> （御論文「正義感」） 【栄光 二四〇号】 薬毒というものは、信者になった人はみんな分かってますが、ただ本当に分からないのは、薬毒の量をたいていな人は少なく見ているのです。<br/><br/>ところがこれが非常に多いのです。<br/><br/>私はこの間なにかに、薬毒を全部除るには一生かかっても難しいと書きました。<br/><br/>まず一生のうちに薬毒を全部なくすことはできないです。<br/><br/>二代三代ぐらいはかかるでしょう。<br/><br/>そうなれば病気することはなく、寿命も百以上は必ず生きます。<br/><br/>薬毒というものは、そのくらい厄介なものです。<br/><br/>よく、随分酷い疥癬などをわずらった人が、もう自分の毒はあらかた取れたように思いますが、とんでもない話です。<br/><br/>それから薬毒にも種類がいろいろあります。<br/><br/>まず三つも四つも五つも六つもあります。<br/><br/>それで疥癬はたくさん出るようですが、これは天然痘の毒素です。<br/><br/>つまり遺伝毒素です。<br/><br/>ですから疥癬の重いのをやって、オレはいいと思っていると、それから酷い浄化が起こりますが、これはそういうわけです。<br/><br/>なによりも自分の薬毒というものは、ほとんど無限にあるように思っていればちょうどよいのです。<br/><br/>それでその薬毒というものはどういうふうになっているかというと、血膿です。<br/><br/>よくオデキなどになって腫れて出る血膿です。<br/><br/>それがいっぱいあるのです。<br/><br/>それで人間の体から血膿を除いてしまったら、骨と皮だけになってしまいます。<br/><br/>そういう例があります。<br/><br/>随分肥っている人が、毒が出てゆくとヒョロヒョロになってしまいますが、痩せたから薬毒がなくなってしまったかと思うとまだあるのです。<br/><br/>本当にこれを取ってしまったら骨と皮になってしまいます。<br/><br/>私はいつも言うのですが、人間の皮膚ぐらいありがたいものはないと思います。<br/><br/>人間から皮膚を取ってしまったら、どのくらい汚いか分からないです。<br/><br/>ですからずいぶん美人とかいって、ストリッパーなどは体がきれいです。<br/><br/>また油絵などに画く人もそうです。<br/><br/>ところがその美しさは皮膚だけの話で、中身ときたら汚いものです。<br/><br/>それを包んでいる皮膚というものに感謝してよいと思います。<br/><br/>少なくとも女性は大いに皮膚に感謝すべきだと思ってます。<br/><br/>そういった薬毒が取れるに従って女はきれいになるわけです。<br/><br/>それは化粧の必要もないです。<br/><br/>私の所にいる女中で、一人、生まれてからまだ薬をのんだことがないというが、実にきれいです。<br/><br/>それはどんな化粧をしたかと思うくらいです。<br/><br/>これは立派な生きた見本ですが、そういうわけで、女が薬をのまなくなったらどんなに美人になるか分かりません。<br/><br/>昔――千年以上前の女は定めしきれいだったと思います。<br/><br/>小野小町なども、あの時分には漢方薬がそうとう入りましたが、それでもよほどきれいだったと思います。<br/><br/>それを考えると、今の人間は実に馬鹿です。<br/><br/>骨を折って、金を使って化粧して、体の中は薬毒で汚くするし、外は化粧品で皮膚から染み込ませて汚くしているのです。<br/><br/>それに気がつかないで、ますます念入りに化粧してます。<br/><br/>化粧品が売れるわけで、新聞広告と言えば、まず売薬の広告と化粧品の広告です。<br/><br/>今言ったとおりのそういった間違いが、薬屋と化粧品屋に金を儲けさせているというわけです。<br/><br/>そうして手数をかけて、金をかけて病気の種を作っているのです。<br/><br/>だから“超愚”では追いつかないくらいで、もう一つ“超”をつけたほうがいいくらいです。<br/><br/>つまりそれを早くなくするには浄霊よりほかにないのですが、その浄霊について書いてみました。<br/><br/> （御論文「日本の誇り」） 【栄光 二四一号】 いま話したように、つまり人間の体の中が一番汚いのです。<br/><br/>汚い物もいろいろあります。<br/><br/>糞尿もずいぶん汚いですが、血膿の方がもういっそう汚いです。<br/><br/>万物の霊長たる人間が一番汚いのです。<br/><br/>だからいろいろな寄生虫が腹の中にわくというのはあたりまえです。<br/><br/>だいたい人間の体は生きているので、腐っているのではないのですから、それに虫がわくということは、いかに汚いかということが分かります。<br/><br/>しかもその虫の種類がいろいろあります。<br/><br/>真田虫という馬鹿げて大きいのもあるし、小さいのもいろいろあります。<br/><br/>一番小さいのは回虫ですが、これはオソバみたいな、奇怪な形のやつで、たくさんわく人のは、ゾロゾロと、それこそソバみたいに重なり合っているのです。<br/><br/>それが人間の腹にわくということは、実に不思議なくらいです。<br/><br/>それでごく細かい目に見えないものが結核菌ですが、結核菌と言っても虫の小さいのですから、わいたに決まっているのです。<br/><br/>それは伝染もしますが、それは汚いから伝染するのです。<br/><br/>ちょうど便所の組みたいなもので、これは糞尿のない原ッパに出せばすぐに死んでしまいます。<br/><br/>それが、生きているということは、やっぱりそこに自分が生活し得るだけの材料があるからです。<br/><br/>ですから人間は、ともかくいばることをやめるのです。<br/><br/>つまり、一口に言えば虫の巣です。<br/><br/>巣だけならよいが、自分の体でそれを作っているのですから、実に、なんという汚い動物であるかということです。<br/><br/>ですから私は真善美の「美」の世界にするのは、まず人間の体の中からと思ってます。<br/><br/>それをみんな知らないからいばっているのですが、まずこれを知らせるのが肝腎なことだと思ってます。<br/><br/>そのくせ今日はいろんな虫というものが発見されて、ごく知りぬいているとしているのです。<br/><br/>ではどういうわけで、体の中にそういう虫がわくかということに、気がつかないのです。<br/><br/>ごく低級と言いますか、単純なものです。<br/><br/>もっとも、どういうわけで腹の中に虫がわくかということを考えても、気がつかないから、そこでそういうものだと諦めているだけのことです。<br/><br/>そうすると、それに気がつかないという、つまり愚か――暗愚ということも不思議ですし、われわれから見ると、今の文化人だとかヤレ教育があるとか学問があるとか言っても、肝腎なことがまるっきり暗愚です。<br/><br/>だからこの間のように“超愚”というのは、どうしてもそういう言葉が出るのです。<br/><br/>それで浄霊よりほかにないのですから、結核が治るということは、浄霊によって虫が殺される……というのは結果であって、虫が住むような条件がなくなるわけで、きれいになるのです。<br/><br/>わく条件がなくなるとともに、虫がそこに生存する条件もなくなるというわけだから、病気が治るということは分かりきった話です。<br/><br/>ところが医学の方で治すのは、その条件を医学が作るのだからして、逆になるわけです。<br/><br/>昨日か今日の新聞に出てましたが、日本は今まで癌は西洋よりか少ないとされていたが、西洋と違わないというのです。<br/><br/>今まで、いろいろ死亡者を研究してみると、癌の死亡者というのは、数において三分の一くらい日本が少ないとされていたのですが、そうでない、いろんな病気で死んだのを調べてみると三分の一増えたというのです。<br/><br/>それでは外国と同じということになります。<br/><br/> それでは癌というのはなにかというと、結局薬毒なのです。<br/><br/>ですから薬毒癌と言ってもよいです。<br/><br/>それから薬毒のほかに肉ですが、これは『アメリカを救う』の本に書いてありますが、肉の毒です。<br/><br/>これを消すために野菜というものがあるのです。<br/><br/>ですから野菜の食べ方が少ないのです。<br/><br/>少ないと肉の毒が余るので、そこに薬毒が混合するのです。<br/><br/>ですから浄霊して薬毒がなくなるとともに肉の毒がなくなるのです。<br/><br/>これはいつかも話しましたが、私は年々食欲が減っているので、おかしいと思って、前から鳩尾の所を見るとちょうど骨みたいなものがあるのです。<br/><br/>それで私はここに骨みたいなものがあって、人よりも変わっているのかと思って、たいして気にも止めなかったが、しかしこれはおかしいと、これを浄霊してみると少しずつ溶けるのです。<br/><br/>つまりこれは胃癌なのです。<br/><br/>それで自分で寝るときにチョイチョイ浄霊していると、だんだん小さくなって、それにつれて食欲がだんだん増えてきて、去年からみるとちょうど倍になりました。<br/><br/>そうしてみると癌というのは実に……これは痛くもなんともないのですが、ちょうど骨ぐらいの固さです。<br/><br/>ですからこういう人が世間にはたくさんあるのだから、たいへんだと思いました。<br/><br/>これはいつごろからあるかというと、私がチフスをやったときで、二十八の時です。<br/><br/>その時に肺炎と間違えられて、肺炎の薬をたくさんのみました。<br/><br/>この肺炎の前に胃が悪くて胃の薬をのんで、それから肺炎になって肺炎の薬をかなりのみました。<br/><br/>それでチフスが治ってからは、食べてもある程度までゆくとピタッと止まってしまうので、おかしいおかしいと思っていたら、今言った結果なのです。<br/><br/>それで、胃癌は減りました。<br/><br/>今三分の二ぐらい減りましたが、これが取れたらもっと食欲が増え、肥るわけです。<br/><br/>寿命も十五年や二十年延びるわけです。<br/><br/>実に驚くべきものです。<br/><br/>あなた方も、食欲が少し変だと思った時には鳩尾を調べてみるとあります。<br/><br/>これはたいていあるようです。<br/><br/>大きい小さい、固い柔らかいはともかく、古いのは固いようです。<br/><br/>それで私のは四十年ぐらいの古くなったものです。<br/><br/>だから薬毒というものは、そのくらい古くても決して減るものではないのです。<br/><br/>ただ固くなるぐらいなものです。<br/><br/>あんまり汚い話ばかりだから、少しきれいな話をしましょう。<br/><br/> 美術館ですが、ついこの間行ってみると、だいぶ道路ができてきました。<br/><br/>それから展望台ができる、景色を見るガラスの丸い家の名前ですが、英国に「水晶宮」というガラスでできた立派なのがあるのです。<br/><br/>それでこっちのは、「宮」というのではあんまり大き過ぎるので「水晶殿」としました。<br/><br/>「殿」でも少し大き過ぎますが、ほかにうまいのがないのです。<br/><br/>「水晶亭」「水晶庵」「水晶閣」でもどうもうまくないのです。<br/><br/>それで水晶殿は半円形の奥行を少し長くして、最初の予定よりか大きくしたのです。<br/><br/>というのは、見物人が随分たくさん来るだろうと思って、できれば新聞や雑誌に写真入りで大いに紹介するでしょうから、そこでどうしても一度は行って景色を見たいという考えは誰にも起こりますから、たいへんなものです。<br/><br/>この間もアメリカの新聞記者が言ったように、日本の西は京都、奈良という文化財を見る価値のあるものがある。<br/><br/>それから東では箱根と熱海の地上天国がそれと匹敵するものになるということを言いましたが、まったく私の思うとおりのことを言ったのです。<br/><br/>そうなると見物に来る人がたいへんだろうと思います。<br/><br/>それで美術館は箱根以上のものができます。<br/><br/>中に並べる物も、ふつうちょっと見られないようなすばらしい物です。<br/><br/>これは心掛けてとっておいてあります。<br/><br/>ですから美術館としても箱根よりもまたずっと良いものができます。<br/><br/>広さも倍以上あります。<br/><br/>そうして規模も大きいですし、それから今言ったとおり水晶殿で景色を見たら、それはすばらしいものです。<br/><br/>そうするとまず押すな押すなというほど来ると思います。<br/><br/>それで入場料を百円にしようと思ってますが、収入も随分たいへんなものだと思ってます。<br/><br/>しかし別に金儲けでやっているわけではないのですが、儲かるのは結構です。<br/><br/>それでまだいろいろな計画があります。<br/><br/>箱根、熱海ももっと規模を拡げなければならないし、京都にも造らなければならないし、いずれ九州とか北海道とか東北とか、そういう方にも地上天国を造るつもりですから、金はどのくらいあっても多いことはないのです。<br/><br/>それからいずれハワイにも造るつもりです。<br/><br/>それからアメリカには美術館も地上天国も造るつもりです。<br/><br/>それでアメリカの場合は、金は向こうの方で出すに違いないから、設計だけを私がしてやろうと思います。<br/><br/> それから箱根には来年は、ロックフェラーを連れてくるということを言ってましたが、ロックフェラーあたりが、これは良い、一つアメリカにもやってみようということになると、金はなんでもないのです。<br/><br/>ロックフェラーの文化財団の基金というものは、たいしたものです。<br/><br/>結局アメリカに地上天国を造るようにならなければ、本当に救世教というものは世界的のものにはならないです。<br/><br/>しかしこれは時の問題で、必ず実現することになってます。<br/><br/>そうすると今度はヨーロッパから東洋ですが、支那、インド、ビルマという方面にもできます。<br/><br/>そういう方面に神様はチャンと支度してあるのです。<br/><br/>準備してあるのです。<br/><br/>この間聞いた話ですが、ビルマには仏様の彫刻があるのですが、ビルマの人は一生懸命稼いで金を儲けると金箔を買うのだそうです。<br/><br/>向こうには一匁とか十匁とか売っていて、その金箔を仏様に貼りつけるそうですが、これは何百年も前からだそうで、その金箔だけでどのくらいあるか分からないそうです。<br/><br/>これはこの間政府の命令で行った小金代議士という人から聞いたのですが――この人は今度東南アジアの経済相談で三、四人で行きましたが、信者なのです――私が前に聞いたとおりで、そういった金無垢がどのくらい厚くなっているか分からないが、それは、いずれ弥勒菩薩が現われるから、その時にこれを献上するのだということになっているのです。<br/><br/>ですから私があっちに行くときには弥勒菩薩で行きますから、ビルマの方では、いよいよとなって、これを差し上げるということになります。<br/><br/>それによってあっちに立派なものを造ろうと思ってます。<br/><br/>これは夢みたいな話ですが、神様が支度してあるのですから間違いないです。<br/><br/>そういうことも、各国々に準備してあります。<br/><br/>ですからイタリアのヴァチカン宮殿もやっぱりその支度なのです。<br/><br/>今にあそこも救世教で使うようになりますから、そうしたらあなた方でもあそこに大いばりで行けます。<br/><br/>ヴァチカン宮殿の立派さというものは、私は写真で見ましたが、驚くべきものです。<br/><br/>世界のあらゆる彫刻から建築から絵から、この美術というものは、やっぱり世界で一番です。<br/><br/>だからこれからやることは、何百年、何千年、何万年前から神様の方で準備してあるのですから、時さえ来ればよいのです。<br/><br/>だから楽なものです。<br/><br/>仮に熱海の地上天国にしても、石垣をのばすに従って石がいくらでもいりますが、この石がいくらでも無限に出てくるのです。<br/><br/>今あの石垣が必要だということがチャンと分かっていて、何万年、何十万年前に神様が石をチャンと準備してあるのです。<br/><br/>そうしてあそこで良い景色を見るというために、相模湾から初島から大島でも、その準備に作ったのです。<br/><br/>そのくらい前から準備してあるのですから、今世界にあるいろんな建造物というのは、ごく最近準備したぐらいなものです。<br/><br/>こんなことを言ったところで、あんまり神様の方は大きくて深いために、とても信じられません。<br/><br/>まずある程度までゆけば、なるほどと分かりますが、今のところは、私は前から話をしようとしても、あんまり桁が違うので話が出ないのです。<br/><br/>やっと今話が出るので、そうかなと思うくらいで、時期になってきたわけです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

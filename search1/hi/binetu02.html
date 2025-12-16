@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>binetu02</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 微熱というもの 『栄光』120号、昭和26(1951)年9月5日発行 この微熱というものは、現代人にない人は恐らくあるまい、ただ意識しているといないだけの相違であろう、ところがこの微熱なるものは、案外人体に対して、大きな影響を与えているもので、それを今かいてみよう、まず頭痛、頭重（ずおも）は固（もと）より、精神集中力も乏しく、散漫となり記憶力が減退し根気がなく、何かにつけて億劫（おっくう）がり、始終体が重懈（おもだる）く、ともすれば寝転びたがる、また食欲も薄く、好き嫌いが多く、水気のものを好み、飲料を欲しがり、性質も怒り易く、気が塞ぎ世の中が面白くなくなるから、悲観的に物を考えたがる、ヒステリーもこれであって、すべてが消極的で、晴天の日よりも雨天の日を好み、風邪を引き易く、鼻が詰まったり、耳鳴がしたり、扁桃腺炎が起り易い、また急いで歩いたり、坂を上ったりすると、息切れがし、足が重くなる、という訳でザットかいただけでも、このくらいだから、仲々馬鹿にはならないものである。<br><br> すべてがそんな訳だから友達付合もよくない、人々と円満にゆかず、家庭にあっては夫婦仲も悪く親子兄弟達ともしっくり合わず、いつも自分の言い状を通したがり、自分の行いに理屈をつけて、気まま勝手な振舞をする、この場合自由主義などは、最もいい口実である、そんな訳で家庭が面白くないから、どうしても忌わしい事が起り易い、近来家出娘や家出息子の多いのも、そんなためもあろう。<br><br>酷いのになると、一家心中という破局的運命にまで陥るのも、右の原因もあるであろう。<br><br> そればかりではない、これを社会的にみた時、多くの人は、それぞれ自分勝手な理屈をつけたがるので調和も欠け、詰まらない事でも、直きに議論となったり、争わずに済むような事でも争いたがる、これらも余りに自分本意のためであろう、これらは政治方面に多いようである、また団体内で一つの問題を討議する場合等、どうもヤッサモッサが多すぎ、一致点を見出すには、仲々時間が掛るのである、としても世人はその原因には気が付かないよりも、余り関心を持たないようである。<br><br> ところがまだある、右のように何だ彼んだと五月蝿（うるさ）い社会としたら、人々は気持のいい事より、悪い事の方が多いので、何かしらで紛らそうとする、そこで酒とくる、酒の売れ方が幾ら高くなっても少しも変らないのは、そのためでもあろう、それ以外苦悩から脱（のが）れようとして刺戟の強い快楽を求めたがる、若い者はキャバレー、ダンスホール、パチンコ屋やまた変な方面へ走ったりする、年輩者は年輩者で、少し余裕のある人は、お妾や花柳界に慰安を求めようとする、このように何も彼も不健全な娯楽が旺（さか）んであるのは、今日の世相である。<br><br> 以上のごとくあらゆる悪の面の根本原因は、全く微熱が最大原因としたら微熱程恐ろしいものはないのである、ところがそれだけではない、微熱のために健康診断を受ける場合、結核の初期に見られ易いからこれも厄介な話だ、一度そう言われるや、絶対安静をはじめ、色々な逆療法を施される結果、何年も苦しんだ揚句、あの世往きとなるのが大部分のようで、幸に治って元通りの仕事に従事出来るような者は、恐らく百人中一人も難しいであろうとすれば、どの点からみても、微熱のない身体にしなければならないのはもちろんである。<br><br> では微熱の原因はどこにあるかというと、全く人間体内にある薬毒のためであって、それが各局部に溜結しており、緩慢な浄化作用が起るためで、これを本当に治すとしたら、浄霊以外絶対ないのであるから、本教信徒が増えるに従って、前述のごときあらゆる忌わしい事は、消えてしまう訳である、そうなったら実に気持の良い住みよい社会が出来るではないか、これがすなわち地上天国の姿である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Febre Discreta e suas Graves Implicações</h2>
 <p>É provável que não exista uma única pessoa na atualidade que não sofra de febre discreta; a única diferença reside em ter ou não consciência desse fato. Todavia, este estado febril, embora sutil, exerce uma influência surpreendentemente vasta sobre o corpo humano, a qual passarei a descrever.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Há ainda outro desdobramento. Em uma sociedade repleta de tantos dissabores, os momentos de desprazer superam os de bem-estar, levando as pessoas a buscar formas de se distrair de seus tormentos. É nesse ponto que surge a bebida. O fato de as vendas de álcool permanecerem inalteradas, independentemente do aumento dos preços, talvez se deva a isso. Para além da bebida, na tentativa de escapar do sofrimento, as pessoas anseiam por prazeres de forte estímulo. Os jovens correm para cabarés, salões de dança, casas de pachinko ou se enveredam por caminhos ainda mais questionáveis. Os mais velhos, por sua vez, caso disponham de algum recurso, procuram consolo em amantes ou no mundo do entretenimento noturno. Esse cenário, onde florescem toda sorte de diversões pouco saudáveis, reflete a fisionomia da nossa era.</p>
 <p>Diante do exposto, se considerarmos que a causa fundamental de todas essas facetas do mal reside na febre discreta, não há nada mais temível do que ela. E não é só isso. Quando uma pessoa com febre discreta passa por um exame médico, seu quadro é facilmente confundido com o estágio inicial da tuberculose, o que acarreta outra sorte de complicações. Uma vez recebido tal diagnóstico, o paciente é submetido a repouso absoluto e a uma série de terapias invertidas que, após anos de sofrimento, levam a maioria ao outro mundo. Dentre os que felizmente se recuperam e conseguem retornar ao trabalho, é provável que não haja sequer um em cada cem. Portanto, sob qualquer ponto de vista, é evidente que devemos nos esforçar para ter um corpo livre da febre discreta.</p>
 <p>Mas qual é, então, a origem dessa febre? Ela reside unicamente nas toxinas medicamentosas acumuladas no interior do corpo humano. Essas toxinas, ao se solidificarem em diversas partes do organismo, desencadeiam um lento processo de purificação, que se manifesta como febre. Para curá-la verdadeiramente, não existe método algum senão o Johrei (浄霊). Assim, à medida que o número de fiéis de nossa Igreja aumentar, todos os fenômenos lastimáveis descritos anteriormente desaparecerão. Quando isso ocorrer, uma sociedade verdadeiramente agradável e aprazível surgirá. Esta é, precisamente, a imagem do Paraíso Terrestre.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 微熱というもの 『栄光』120号、昭和26(1951)年9月5日発行 この微熱というものは、現代人にない人は恐らくあるまい、ただ意識しているといないだけの相違であろう、ところがこの微熱なるものは、案外人体に対して、大きな影響を与えているもので、それを今かいてみよう、まず頭痛、頭重（ずおも）は固（もと）より、精神集中力も乏しく、散漫となり記憶力が減退し根気がなく、何かにつけて億劫（おっくう）がり、始終体が重懈（おもだる）く、ともすれば寝転びたがる、また食欲も薄く、好き嫌いが多く、水気のものを好み、飲料を欲しがり、性質も怒り易く、気が塞ぎ世の中が面白くなくなるから、悲観的に物を考えたがる、ヒステリーもこれであって、すべてが消極的で、晴天の日よりも雨天の日を好み、風邪を引き易く、鼻が詰まったり、耳鳴がしたり、扁桃腺炎が起り易い、また急いで歩いたり、坂を上ったりすると、息切れがし、足が重くなる、という訳でザットかいただけでも、このくらいだから、仲々馬鹿にはならないものである。<br/><br/> すべてがそんな訳だから友達付合もよくない、人々と円満にゆかず、家庭にあっては夫婦仲も悪く親子兄弟達ともしっくり合わず、いつも自分の言い状を通したがり、自分の行いに理屈をつけて、気まま勝手な振舞をする、この場合自由主義などは、最もいい口実である、そんな訳で家庭が面白くないから、どうしても忌わしい事が起り易い、近来家出娘や家出息子の多いのも、そんなためもあろう。<br/><br/>酷いのになると、一家心中という破局的運命にまで陥るのも、右の原因もあるであろう。<br/><br/> そればかりではない、これを社会的にみた時、多くの人は、それぞれ自分勝手な理屈をつけたがるので調和も欠け、詰まらない事でも、直きに議論となったり、争わずに済むような事でも争いたがる、これらも余りに自分本意のためであろう、これらは政治方面に多いようである、また団体内で一つの問題を討議する場合等、どうもヤッサモッサが多すぎ、一致点を見出すには、仲々時間が掛るのである、としても世人はその原因には気が付かないよりも、余り関心を持たないようである。<br/><br/> ところがまだある、右のように何だ彼んだと五月蝿（うるさ）い社会としたら、人々は気持のいい事より、悪い事の方が多いので、何かしらで紛らそうとする、そこで酒とくる、酒の売れ方が幾ら高くなっても少しも変らないのは、そのためでもあろう、それ以外苦悩から脱（のが）れようとして刺戟の強い快楽を求めたがる、若い者はキャバレー、ダンスホール、パチンコ屋やまた変な方面へ走ったりする、年輩者は年輩者で、少し余裕のある人は、お妾や花柳界に慰安を求めようとする、このように何も彼も不健全な娯楽が旺（さか）んであるのは、今日の世相である。<br/><br/> 以上のごとくあらゆる悪の面の根本原因は、全く微熱が最大原因としたら微熱程恐ろしいものはないのである、ところがそれだけではない、微熱のために健康診断を受ける場合、結核の初期に見られ易いからこれも厄介な話だ、一度そう言われるや、絶対安静をはじめ、色々な逆療法を施される結果、何年も苦しんだ揚句、あの世往きとなるのが大部分のようで、幸に治って元通りの仕事に従事出来るような者は、恐らく百人中一人も難しいであろうとすれば、どの点からみても、微熱のない身体にしなければならないのはもちろんである。<br/><br/> では微熱の原因はどこにあるかというと、全く人間体内にある薬毒のためであって、それが各局部に溜結しており、緩慢な浄化作用が起るためで、これを本当に治すとしたら、浄霊以外絶対ないのであるから、本教信徒が増えるに従って、前述のごときあらゆる忌わしい事は、消えてしまう訳である、そうなったら実に気持の良い住みよい社会が出来るではないか、これがすなわち地上天国の姿である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

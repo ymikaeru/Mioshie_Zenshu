@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>joreiT52</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 喜美談語 天国行きの切符 槐安生 『地上天国』52号、昭和28(1953)年9月25日発行 私たちメシヤ教の信者ほ、天国ゆきの特別入場券を明主様から頂いている、と思っている。<br><br>天国といい極楽といい、コトバに違いはあってもそこは霊魂の還えり往く最上、最良の所であって、如何に麗わしい所であるかは仏教も教え、基督教も説いている。<br><br>そしてその信者たちが一ように目ざし願うところも天国浄土への往生である。<br><br> 古往今来、いかなる宗教でも天国――地獄の思想を持っていないものはなく、ひとたぴ冥府へゆくならば、生存中になされた善悪の行為が厘毫の誤差もなく計量され、信賞必罰が厳重に行われて、霊魂の往き先きが天国、地獄と指定されるとしたら、神に帰依し善行徳行を重ねて、天国行を希望するのは誰しも当然であろう。<br><br> 私は、宗教家が説き教える浄土思想そのものは、現世の倫理的、道徳的な面に意義を与えるだけしかない。<br><br>と価値判断を下していた。<br><br>霊界は勿論のこと、霊魂のあることさえも知らなかったときは、天国――地獄の実存を否定して、時代離れした宗教家の頭の古さや信者の無知を冷笑していたのであるが、この傾向は、かつて無神論者であった当時の私だけの持つ考え方ではなく、現在のインテリに共通してみられる考え方である。<br><br> メシヤ教に救われて入信してから、神、霊界、霊の実在をはっきりと知った驚ろきは、私をして、それ迄の唯物的な世界観、人生観を一擲させ、神に奉仕して悔いなき現在の栄光ある生活に入らしめ、完き人生の喜びを得たのであるが、さて思う。<br><br>自分は天国に行けるか、どうかと。<br><br> 極楽浄土に往生するためには弥陀の称号を称えよ。<br><br>例え一ぺんの念仏であっても必ず救われる。<br><br>と親鸞は教えたが、果して、この教えに従がった人々の所期の願いが遂げられたかどうか。<br><br> 天国の門に入ることは世俗的な現世での成功を獲ち得るよりは至難であるらしく、この事は、吾々の祖霊に天国にいる方の少ない事からも想像される。<br><br>この入るに難い天国も、メシヤ教の信者だけにはパスポートが渡されている事を、私は霊界へ還えった信者さんから、一再ならず知らされている。<br><br> メシヤ教へ入信した。<br><br>という事は、天国への入場券も明主様から頂いた事になる。<br><br>と悟らされ、メシヤ教の量り知れない大功徳に、またも驚異の思いを新たにさせられた。<br><br>お蔭さまで天国に住まわせて戴いて有難うございます。<br><br>と霊界から礼を述べられるたびに、なんともいえない羨望の念が湧き、さて、自分はどうか。<br><br>とまたしても考えさせられる。<br><br>メシヤ教の信者であってみれば、同信の方々が嬉々として楽しんでいる天国から、遥かはるかの遠い常暗の国、地獄に独り堕されては耐らない。<br><br>せめて中有界ぐらいの所で勘弁して貰えまいか、天国へ往くも地獄へ堕ちるも生存中の信賞必罰、因果応報であってみれば、被告である自分に発言権はなく、ただ判決に服する外はない。<br><br>そこで、自分の過去、現在をおそるおそる検討してみるのであった。<br><br> 私のところへ礼を述べに来た天国の信者さんは、善行徳行を重ねて無垢の人生を送り、私の場合は多分に小乗の悪を行って来たに違いない。<br><br>それと現在専念している、救いの道とを計量すると、どちらに比重が傾くか。<br><br>恐らくまだまだ悪の方が多いかも知れない。<br><br>とすると、天国行の希望は怪しいものになって来る。<br><br>こう考えると奈落の底に墜ちたように失望落胆するが、私はまだ天国行の希望を全く捨てた訳ではない。<br><br>というのはメシヤ教の信者は例外なく天国行の切符を明主様から頂いているからで、幾ら多額な金を積んでも得られない、この貴重な切符を無駄にするかしないかは、その人が信者としての無垢の生活を送り、報恩感謝をし、悩める人を救って神の道に入らしめるか、どうかでも決まるのではあるまいか。<br><br>と考えるからである。<br><br> 私は神の道に生きて、明主様から頂戴している天国行きの切符を無駄にしたくない。<br><br>と思っている。<br><br> ――御苦労さん―― 宵ぱりの朝寝坊である私も、月のうち幾回かは雀より早く起きる日がある。<br><br>御本部参拝の日である。<br><br>終日、混雑を重ねている東京駅も、夜が明けて始発の出る頃は静かで旅客の姿もまばらだ。<br><br>旅客のうちの幾割かは、私同様本部ご参拝の信者さんだということは、胸のバッチで知られる。<br><br> 夜行で上野へ着き、ここから湘南電車に乗換える信州越後方面の方や、はるばる北の果から東上した信者さんは、荷物が嵩ばっているのでも、それと察しが付く。<br><br>重たそうなリックを背負っている方は、これから御奉仕に参加する人たちであろうか。<br><br>ハンドバック一つの身軽な娘さんが、電車の窓を一つ一つ覗いてゆく。<br><br>同じ所属支部の人を探している東京の信者であろう。<br><br>五、六、七――月に九回はきまって見られる風景である。<br><br> どの信者さんも、明主様に御面会いただける喜びと期待に喜色満面という顔である。<br><br>私はこうした同信の方々の姿を見かけると、『御苦労さんです。<br><br>』と言う。<br><br>相手の人は、思いがけない場所で思いがけない言葉を聞くものだ。<br><br>というような、けげんな面持ちで私の顔を見入っている。<br><br>私は相手のそうした心理には最早や馴れっこになっていて、反応のないことも気にせずに、『ご苦労さんです』と挨拶のコトバを送っている。<br><br> 本部へ御参拝するのは、明主様へのお礼まいりの意味もあり、教えを戴く、という重要な意義も持ち、今後の御守護を願う意味も含まれていて、帰するところは、自身と一家の倖せにあるのであろう。<br><br>そうした喜びと期待を持って御参拝する人々に、挨拶がわりに言う『御苦労さんです』のねぎらいは、少しどうかとも思えるが、ただ『お早う』と挨拶するよりは、信者同士という親近感があっている。<br><br>と思っている。<br><br> 私が御面会日の朝の東京駅で『御苦労さんです』と同信の方方に挨拶するようになったのには、次のような事情がある。<br><br> 丹羽文雄氏が小説『蛇と鳩』のなかで、現世紫雲会の信者は所属支部が違えば信者同士であっても口をきかない。<br><br>支部長も自分の会員が、他の会員と口をきくのを嫌う。<br><br>と書いている。<br><br>これは勿論、メシヤ教を指している訳ではないが、『隣りは何をする人ぞ』とよんだ芭蕉の昔から、東京の人は近所付合いを嫌い、隣りの人にさえ交渉を持ちたがらない習癖がある。<br><br>この習癖が延長されて、同じ有難いお道に進む信者同士であっても、顔見知りでない。<br><br>というそれだけの事で、隣りは何をする人ぞ。<br><br>となって、狭い電車に膝を並べて坐ってさえ貝のように口を閉じているのであろう。<br><br>私は入信した時からこのことを寂しく感じていた。<br><br> 同じお道の信者というものは、親兄弟の情とは違うが、何か目に見えない紐で固く結ばれた情合いを感じ、他人とは思えない身近さを感じているのは、私ひとりの感傷ではなさそうである。<br><br> 『御苦労さんです』どこの誰であるかは知らなくても、バッチとバッチに結ばれて、往く先も目的もまったく同じ信者同志が、親愛の情の籠もったまなざしで挨拶し合うようになるまでは、独り角力の『御苦労さんです』を私は倦まずに続ける心算（つもり）でいる。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Ingresso para o Paraíso</h2>
 <p>Nós, fiéis da Igreja Messiânica, temos a convicção de haver recebido de Meishu-Sama um ingresso especial para o Paraíso. Seja chamado de Paraíso ou de Terra Pura, a essência é a mesma: o mais sublime e virtuoso lugar para o qual a alma retorna. A beleza indescritível desse local é ensinada tanto pelo Budismo quanto pelo Cristianismo, e o anseio unânime de seus seguidores é, de igual modo, renascer nesse plano celestial.</p>
@@ -110,5 +262,48 @@ function toggleLang(lang) {
 <p>A razão pela qual adotei o hábito de saudar os irmãos de fé dessa maneira, nas manhãs de audiência na Estação de Tóquio, é a seguinte. Em seu romance “A Serpente e a Pomba”, o escritor Niwa Fumio descreve que, em determinada organização religiosa, os membros de unidades diferentes não se falavam. Os responsáveis de cada unidade, inclusive, desaprovavam que seus seguidores conversassem com os de outras. Embora a obra não se refira à Igreja Messiânica, desde a antiga poesia de Basho, que diz “O que fará meu vizinho?”, existe em Tóquio uma aversão à convivência, um costume de não se relacionar nem mesmo com quem mora ao lado. Essa tendência parece estender-se ao nosso meio, pois, embora trilhemos o mesmo caminho de gratidão, o simples fato de não nos conhecermos pessoalmente nos transforma em estranhos. Mesmo sentados lado a lado no trem, permanecemos em silêncio, fechados como conchas. Desde que ingressei na fé, essa distância me causa uma certa melancolia.</p>
 <p>Tenho a impressão de que não sou o único a sentir que nós, fiéis do mesmo caminho, estamos unidos por um laço invisível, uma afinidade que, embora diferente do amor fraterno, nos torna mais próximos que estranhos.</p>
 <p>“Agradeço sua dedicação”. Não importa quem sejam ou de onde venham; unidos por nossos emblemas e pelo mesmo destino, somos irmãos de fé. Até que chegue o dia em que possamos trocar saudações com um olhar de afeto sincero, pretendo prosseguir incansavelmente nesta minha empreitada solitária.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 喜美談語 天国行きの切符 槐安生 『地上天国』52号、昭和28(1953)年9月25日発行 私たちメシヤ教の信者ほ、天国ゆきの特別入場券を明主様から頂いている、と思っている。<br/><br/>天国といい極楽といい、コトバに違いはあってもそこは霊魂の還えり往く最上、最良の所であって、如何に麗わしい所であるかは仏教も教え、基督教も説いている。<br/><br/>そしてその信者たちが一ように目ざし願うところも天国浄土への往生である。<br/><br/> 古往今来、いかなる宗教でも天国――地獄の思想を持っていないものはなく、ひとたぴ冥府へゆくならば、生存中になされた善悪の行為が厘毫の誤差もなく計量され、信賞必罰が厳重に行われて、霊魂の往き先きが天国、地獄と指定されるとしたら、神に帰依し善行徳行を重ねて、天国行を希望するのは誰しも当然であろう。<br/><br/> 私は、宗教家が説き教える浄土思想そのものは、現世の倫理的、道徳的な面に意義を与えるだけしかない。<br/><br/>と価値判断を下していた。<br/><br/>霊界は勿論のこと、霊魂のあることさえも知らなかったときは、天国――地獄の実存を否定して、時代離れした宗教家の頭の古さや信者の無知を冷笑していたのであるが、この傾向は、かつて無神論者であった当時の私だけの持つ考え方ではなく、現在のインテリに共通してみられる考え方である。<br/><br/> メシヤ教に救われて入信してから、神、霊界、霊の実在をはっきりと知った驚ろきは、私をして、それ迄の唯物的な世界観、人生観を一擲させ、神に奉仕して悔いなき現在の栄光ある生活に入らしめ、完き人生の喜びを得たのであるが、さて思う。<br/><br/>自分は天国に行けるか、どうかと。<br/><br/> 極楽浄土に往生するためには弥陀の称号を称えよ。<br/><br/>例え一ぺんの念仏であっても必ず救われる。<br/><br/>と親鸞は教えたが、果して、この教えに従がった人々の所期の願いが遂げられたかどうか。<br/><br/> 天国の門に入ることは世俗的な現世での成功を獲ち得るよりは至難であるらしく、この事は、吾々の祖霊に天国にいる方の少ない事からも想像される。<br/><br/>この入るに難い天国も、メシヤ教の信者だけにはパスポートが渡されている事を、私は霊界へ還えった信者さんから、一再ならず知らされている。<br/><br/> メシヤ教へ入信した。<br/><br/>という事は、天国への入場券も明主様から頂いた事になる。<br/><br/>と悟らされ、メシヤ教の量り知れない大功徳に、またも驚異の思いを新たにさせられた。<br/><br/>お蔭さまで天国に住まわせて戴いて有難うございます。<br/><br/>と霊界から礼を述べられるたびに、なんともいえない羨望の念が湧き、さて、自分はどうか。<br/><br/>とまたしても考えさせられる。<br/><br/>メシヤ教の信者であってみれば、同信の方々が嬉々として楽しんでいる天国から、遥かはるかの遠い常暗の国、地獄に独り堕されては耐らない。<br/><br/>せめて中有界ぐらいの所で勘弁して貰えまいか、天国へ往くも地獄へ堕ちるも生存中の信賞必罰、因果応報であってみれば、被告である自分に発言権はなく、ただ判決に服する外はない。<br/><br/>そこで、自分の過去、現在をおそるおそる検討してみるのであった。<br/><br/> 私のところへ礼を述べに来た天国の信者さんは、善行徳行を重ねて無垢の人生を送り、私の場合は多分に小乗の悪を行って来たに違いない。<br/><br/>それと現在専念している、救いの道とを計量すると、どちらに比重が傾くか。<br/><br/>恐らくまだまだ悪の方が多いかも知れない。<br/><br/>とすると、天国行の希望は怪しいものになって来る。<br/><br/>こう考えると奈落の底に墜ちたように失望落胆するが、私はまだ天国行の希望を全く捨てた訳ではない。<br/><br/>というのはメシヤ教の信者は例外なく天国行の切符を明主様から頂いているからで、幾ら多額な金を積んでも得られない、この貴重な切符を無駄にするかしないかは、その人が信者としての無垢の生活を送り、報恩感謝をし、悩める人を救って神の道に入らしめるか、どうかでも決まるのではあるまいか。<br/><br/>と考えるからである。<br/><br/> 私は神の道に生きて、明主様から頂戴している天国行きの切符を無駄にしたくない。<br/><br/>と思っている。<br/><br/> ――御苦労さん―― 宵ぱりの朝寝坊である私も、月のうち幾回かは雀より早く起きる日がある。<br/><br/>御本部参拝の日である。<br/><br/>終日、混雑を重ねている東京駅も、夜が明けて始発の出る頃は静かで旅客の姿もまばらだ。<br/><br/>旅客のうちの幾割かは、私同様本部ご参拝の信者さんだということは、胸のバッチで知られる。<br/><br/> 夜行で上野へ着き、ここから湘南電車に乗換える信州越後方面の方や、はるばる北の果から東上した信者さんは、荷物が嵩ばっているのでも、それと察しが付く。<br/><br/>重たそうなリックを背負っている方は、これから御奉仕に参加する人たちであろうか。<br/><br/>ハンドバック一つの身軽な娘さんが、電車の窓を一つ一つ覗いてゆく。<br/><br/>同じ所属支部の人を探している東京の信者であろう。<br/><br/>五、六、七――月に九回はきまって見られる風景である。<br/><br/> どの信者さんも、明主様に御面会いただける喜びと期待に喜色満面という顔である。<br/><br/>私はこうした同信の方々の姿を見かけると、『御苦労さんです。<br/><br/>』と言う。<br/><br/>相手の人は、思いがけない場所で思いがけない言葉を聞くものだ。<br/><br/>というような、けげんな面持ちで私の顔を見入っている。<br/><br/>私は相手のそうした心理には最早や馴れっこになっていて、反応のないことも気にせずに、『ご苦労さんです』と挨拶のコトバを送っている。<br/><br/> 本部へ御参拝するのは、明主様へのお礼まいりの意味もあり、教えを戴く、という重要な意義も持ち、今後の御守護を願う意味も含まれていて、帰するところは、自身と一家の倖せにあるのであろう。<br/><br/>そうした喜びと期待を持って御参拝する人々に、挨拶がわりに言う『御苦労さんです』のねぎらいは、少しどうかとも思えるが、ただ『お早う』と挨拶するよりは、信者同士という親近感があっている。<br/><br/>と思っている。<br/><br/> 私が御面会日の朝の東京駅で『御苦労さんです』と同信の方方に挨拶するようになったのには、次のような事情がある。<br/><br/> 丹羽文雄氏が小説『蛇と鳩』のなかで、現世紫雲会の信者は所属支部が違えば信者同士であっても口をきかない。<br/><br/>支部長も自分の会員が、他の会員と口をきくのを嫌う。<br/><br/>と書いている。<br/><br/>これは勿論、メシヤ教を指している訳ではないが、『隣りは何をする人ぞ』とよんだ芭蕉の昔から、東京の人は近所付合いを嫌い、隣りの人にさえ交渉を持ちたがらない習癖がある。<br/><br/>この習癖が延長されて、同じ有難いお道に進む信者同士であっても、顔見知りでない。<br/><br/>というそれだけの事で、隣りは何をする人ぞ。<br/><br/>となって、狭い電車に膝を並べて坐ってさえ貝のように口を閉じているのであろう。<br/><br/>私は入信した時からこのことを寂しく感じていた。<br/><br/> 同じお道の信者というものは、親兄弟の情とは違うが、何か目に見えない紐で固く結ばれた情合いを感じ、他人とは思えない身近さを感じているのは、私ひとりの感傷ではなさそうである。<br/><br/> 『御苦労さんです』どこの誰であるかは知らなくても、バッチとバッチに結ばれて、往く先も目的もまったく同じ信者同志が、親愛の情の籠もったまなざしで挨拶し合うようになるまでは、独り角力の『御苦労さんです』を私は倦まずに続ける心算（つもり）でいる。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

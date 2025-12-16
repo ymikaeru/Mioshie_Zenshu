@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>M270226</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御教え （S27年2月26日） 『御教え集』7号、昭和27(1952)年3月20日発行 昭和二十七年二月二十六日 （お伺）古田五男の長男春明（五歳）。<br><br>生まれた時より、目が青黒くどんより濁り、ぜんぜん見えないとも思われませんでしたが、三歳ころよりは絵本なども目の側まで持ってきて、やっと赤白の見分けが、つく時とつかない時もあるほどで、ほとんど見分けできません。<br><br>そのころより目の玉の真ん中にチョボチョボがいっぱいでき、御浄霊をいたしておりますと、真ん中で水腫れのように白く腫れ上がり、一皮むけば、すぐにでも見えるような感じがいたしておりました。<br><br>会長先生の御浄霊をいただき、中京別院にお詣りさせていただき、少し良くなり、大きな物は二尺くらい先でも、ボンヤリ見える時もあるようになりました。<br><br>初めは伏せてでないと寝れず、太陽もまばゆくて見えず、始終下ばかり見ておりましたが、最近はたいへん良くなりました。<br><br>御浄霊の方法および今後いかがさせていただきましたら、よろしいでしょうか。<br><br>また、霊的に関係がございましょうか。<br><br>私ども夫婦は昭和二十一年七月入信させていただき、光明如来様、御屏風観音様を御奉斎させていただいております。<br><br>なお、この目の時一回だけ医診を受けましたが、薬は生まれてから一回も入れておりません。<br><br>右御垂示お願い申し上げます。<br><br> 〔御垂示〕 これは治りますよ。<br><br>これは、目に毒が固まっているんですからね。<br><br>これはだいぶ溶けて出つつありますがね。<br><br>大丈夫ちゃんと治りますからね。<br><br>安心していて良いですよ。<br><br>霊的もありますがね。<br><br>霊的というよりか、罪穢れですね。<br><br>祖先の誰かが人の目を晦（くら）ますとか、そういったような目の怨みですね。<br><br>そのために、その怨みの霊が、つまり膿になって出るんですね。<br><br>で、浄霊は目と後頭部の真ん中ごろ――そこを浄霊すれば良いんです。<br><br>それから頸のまわりも、固まりがある所があるでしょうから、そこをやると、それで良いわけですね。<br><br> （お伺）伊藤兼行（三十八歳）。<br><br>二十五年二月精神異常となり、一家九人入信させていただき、大光明如来様も御奉斎させていただいておりますので、さっそく教会の先生に御浄霊をいただき、たいへん良くなりましたが、御法難ごろから親類の反対が激しく、本人が家を飛び出したり、川に入ったりいたし、弟までも精神病院に九カ月入院し、ペニシリン四十本、その他をいたしましたが、いっこう良くならず、身体全体に浮腫みが来ました。<br><br>昨年五月末退院し、今日まで御浄霊を続けております。<br><br>浮腫みも去り、食欲もふつうとなり、弟も今ではおすがりいたしております。<br><br>本人は昨今極めて無口で、倉庫（旧酒倉）に入りたがります。<br><br>家族の者が御参拝に出ますと、落ちつきを失い、酒倉に入っていたり、縊死でもするような様子になります。<br><br>生来病弱で肺炎、盲腸炎、腎臓炎、十二指腸潰瘍、胃痙攣などをいたしております。<br><br>入信以前に六百六号もいたしております。<br><br>入信後疥癬の御浄化をいただき、以来精神異常となるまで丈夫で働いておりました。<br><br>先日一信者に、酒倉の中の蛇だと言って憑依し、今までできるだけ邪魔していたが、どうしても邪魔することができなくなったと申したそうです。<br><br>それから落ちつきも出て、夜もよく眠れるようになりました。<br><br>ただいまでも、時々酒倉に入りたがるのでございますが、蛇と関係がございましょうか。<br><br>また御浄霊上の御注意いただきたく、右御垂示のほどお願い申し上げます。<br><br> 〔御垂示〕 これは蛇の霊ですよ。<br><br>これは始終酒倉にいた蛇ですね。<br><br>それで、酒倉に入りたがるんです。<br><br>蛇が――殺された怨みですね。<br><br>それですから、もう一息で治ります。<br><br>だいぶ蛇も弱ってきましたからね。<br><br>それですから、眠れるようになった。<br><br> 精神病というのは、最初は暴れて、それから無口になるものです。<br><br>それから治る順序になるんですがね。<br><br>ですから、そういう順序ですからね。<br><br>それから、蛇と――六百六号ですね、これがいけない。<br><br>六百六号をやると、たいてい頭が変になりますからね。<br><br>そうすると、医者は、黴毒のためだと言うんですが、そうではない。<br><br>黴毒を治そうとする六百六号のためなんです。<br><br>もうだいぶ弱ってきているから、もう一息です。<br><br>浄霊は前頭部――ここに一番憑るから、ここですね。<br><br>それから頸のまわりですね。<br><br>頸のまわりに必ず固まりがあるから、頸のまわりと――それですっかり治りますよ。<br><br>しかし、そうとう年月はかかります。<br><br>三年や五年かかると見なければならない。<br><br>気がつくのは、もうじき気がつきますがね。<br><br>それからまた、気がついたようでも、またヒョッヒョッと憑りますからね。<br><br>それで、すっかり治るのは数年かかるものです。<br><br> （お伺）教師安田憲義（四十四歳）。<br><br>本年一月十日ごろより全身的悪寒があり、肛門付近が奇形的に紅腫し、二十三日肛門付近三カ所、陰部二カ所より、驚くべき多量の排膿があり、その悪臭は側の者が嘔吐するくらいで、その後続いて多量の排膿があり、高熱と食欲不振のためにそうとう衰弱し、二月になり右足の自由がきかなくなり、毎日午前三時ごろ無数の霊に頼られ、全身的痙攣をし、油汗を流し苦しみましたが、善言讃詞を奉誦させていただき苦痛はなくなりました。<br><br>その後小鼻を打ち、視力おとろえ危篤状態となり、二月十日御守護お願いいたし、紐状の膿を排泄し楽にさせていただきました。<br><br>その時死亡の場合を考え医診を受けますと、敗血症と肛門周囲膿ろうであると言われました。<br><br>現在右足は多少動くようになり、排膿後は食欲は一杯半くらいいただき、視力は元通りになり、白色または赤色のヌラ状の排膿が続き、排泄口は肉が盛り上がってまいりました。<br><br>三日前より左足裏に気味悪い熱さを感じます。<br><br>右は痔瘻によるカリエスの膿の排泄でございましょうか。<br><br>御浄霊の箇所および今後いかがさせていただきましたら、よろしゅうございましょうか。<br><br>なお、本人は八年前に入信し、光明如来様を御奉斎させていただいております。<br><br> 〔御垂示〕 肛門周囲――これは病名じゃない。<br><br>説明だな。<br><br>周囲に違いないからね。<br><br>痔瘻によるカリエスなんてありませんね。<br><br>カリエスと痔瘻は違います。<br><br>これは結構です。<br><br>体中の毒が肛門の付近や下に集まってきて出るんですから、これは上等ですよ。<br><br>たいへんなお蔭だ。<br><br>それに、峠はもう過ぎてますから、あとは日数の経つに従って、だんだん良くなります。<br><br>あと、食欲だとか、みんな熱のためですからね。<br><br>結構です。<br><br>もう少し経つとずっと良くなります。<br><br> それから痔瘻というのは、やっぱり頭の薬毒ですね。<br><br>それが下りてきて肛門から排泄されようというんで、それをほったらかしておくと、痔瘻なんかにならないんです。<br><br>痔瘻はお医者が作ったんです。<br><br>つまり切りますね。<br><br>すると、お隣に腫れてくる。<br><br>そうすると、また切らなければならない。<br><br>すると、またお隣に腫れてくる。<br><br>だから、終いに蜂の巣みたいになる。<br><br>それに手術したあと、消毒薬をつけますからね。<br><br>それが、また一つの因になってくる。<br><br>あれは医療が作った病気ですからね。<br><br>カリエスというのは、肛門からは膿が出ません。<br><br>腎部とか股とか――そういう所から出ます。<br><br> （お伺）教師可児正則の妻すみ子（三十三歳）。<br><br>入信前ノーシンを常服いたしおりました。<br><br>昭和二十二年卵巣膿腫で手術し、全快しないうちに妊娠したために悪阻が強く、体の衰弱もあり堕胎手術をいたしました。<br><br>それから肋膜で二カ年療養しましたが、良くならず、人に奨められるままにいろいろいたし、人骨を煎じて二カ月ほど飲みました。<br><br>注射はザルブロ、ビタミン数十本を打ち少し楽になりましたが、今度は主人が喘息にかかり、その時より再度御浄霊をいただくようになり、御守護いただき主人は税務署を辞して御神業にお使いいただくようになりました。<br><br>大光明如来様、御屏風観音様を御奉斎させていただき、初めて農耕の手伝いをいたし、不思議に働くことができました。<br><br>ところが、首にグリグリが無数にでき、数回膿が出、今ではグリグリがたくさんあるままに、口はふさがっております。<br><br>昭和二十六年十月「大光明」の御守り様を拝受いたし、痔出血の御浄化をいただき、本年二月ごろに左手に激痛が起り、皮膚は蝋（ろう）細工のような色となり、血色悪く、体はフラフラとなり、毎日御浄霊をいたしておりますが、手の神経痛、腹部の痛み、腹の張り、胸の痛み、足の御浄化で、一進一退でございました。<br><br>二月上旬より、痔の出血は止まり、通じも二回くらいで軽くなりました。<br><br>二月十一日「大浄光」の御額をいただきますと、胃の御浄化で、咳が出、痰のような唾のようなヌラや苦い水がたくさん出ました。<br><br>心臓が苦しく床に就いております。<br><br>現在は頭がガンとして胸が苦しく、胃がからのような気がいたし、口が苦しく足腰がだるくフラフラで、御浄霊をいたしますと熱が出、咳が出ますが、痰が切れないので苦しみます。<br><br>食事は軽く一杯、三度食べます。<br><br>尿もよく出、便通もございます。<br><br>右御垂示のほどお願い申し上げます。<br><br> 〔御垂示〕 これは薬毒の浄化ですからね。<br><br>いろんなものがいろんな形で出てくるんですから、その間辛抱していれば、だんだん良くなりますよ。<br><br>こういうのは、だんだんいつとはなしに良くなりますから、辛抱していれば良い。<br><br>別にどうという病気じゃない。<br><br>入れたものが出る。<br><br>それだけの話です。<br><br>それから痰が切れないのは、浄霊の見当違いをしている。<br><br>だから、良く調べてみる。<br><br>これは自分で体中触って、調べてみる。<br><br>熱があるから、そこから痰が出るから解ります。<br><br>解らなければ、御主人に体を触ってもらえば良い。<br><br>これも、峙〔峠〕を過ぎてますから、もう一息です。<br><br> （お伺）伊東房子（二十一歳）。<br><br>昨年八月一日お盆のお参りをすましてより、毎日午前九時ごろから一時間ほど鳥膚が立ち寒気を催しますので、御浄霊いたしますと楽にはなりますが、同じ状態を繰り返します。<br><br>九月に入信させていただき、その後たいへん楽になりました（その間食欲はあまりございません）。<br><br>本年正月より衰弱が目に見えてまいり、二月には床に就き、最近は腰から下は特に痩せて歩行も困難でございます。<br><br>微熱はございますが、さしたる苦しみもなく、午前三時ごろから咳と痰を催す程度にて、食事は毎回一杯くらいでございます。<br><br>かつて中耳炎にてペニシリン数本いたしております。<br><br>叔父にあたる者三人ほど結核で死亡いたしております。<br><br>先日教会の先生より、長男として生まれた叔父（二十一歳で結核にて死亡）の位牌がないことを教えていただき、さっそくお祀りすることにいたしました。<br><br>霊的の関係がございましょうか。<br><br> 〔御垂示〕 これは肺病で死んだ霊が憑っているんで、できるだけ御神書を読ませる。<br><br>都合で側の者が読んで聞かせても良いんですがね。<br><br>そうして霊を救うんです。<br><br>それで治るわけです。<br><br>ちょうどやっぱり――いろいろ、歩けなくなったりするのは、肺病で死んだように、体がいろいろになるんですね。<br><br>だから、霊を早く救わなければならない。<br><br>今言ったようにして、浄霊は前頭部の中心ですね。<br><br>そこを浄霊する。<br><br>それから、あとは胸から背中と――そういう所を浄霊するんですね。<br><br>それでだんだん良くなるわけですがね。<br><br>で、その状態を、この次あたりにまた、質問に書いてきたら良いです。<br><br>それによって、また方法をします。<br><br> （お伺）米山伊左衛門（六十六歳）。<br><br>昭和二十五年十二月ごろより口中に痛みを感じ、医診を受け、血液検査の結果ワッセルマンおよび沈降の強陽性の反応が現われ、二十六年七月までに六百六号十本、ペニシリン二十二本を打ちましたが、極度の苦痛のために流動食さえ咽喉を通らなくなり、体は衰弱し、夜も苦痛のために眠れず、医師はこれ以上の注射は不可能であるとて、レントゲンに八回かかりましたが、なんらの効なく、衰弱は加わるばかりで、ついには舌癌と言われました。<br><br>以後も苦痛を紛らすために、強度の睡眠剤を相当量服用いたしました。<br><br>その後遠縁の者よりお道の話を聞き、さっそく御浄霊をいただき、徐々に快方に向かい、九月ごろは痛みも取れ、家族と同じ食事を摂るようになり、自転車にて教会にも行けるようになりました。<br><br>さっそく入信させていただきまして、その直後よりふたたび悪化し、現在口中は、左側頬内部と舌の一部が爛れ、外部には左側耳下に固結があります。<br><br>顎は痺れ、頭の左側、肩も左側が凝り、眼の縁が爛れております。<br><br>食欲はありますが充分食べれません。<br><br>辛うじて流動食に近い物を摂っており、体は痩せおとろえております。<br><br>口から特有の悪臭あるヌラを止めどもなく出し、呂律（ろれつ）がまわりません。<br><br>御浄霊は教会から来ていただき、家にてもいたしておりますが、最近はあまり変化がございません。<br><br>なお、住宅裏側に六尺ほどの楠の古木がありましたのを、昭和二十二年に伐倒しました。<br><br>右御垂示のほどお願い申し上げます。<br><br> 〔御垂示〕 沈降の強陽性――血沈じゃないかな。<br><br>レントゲン八回――これは医者に病気をこしらえられたんですね。<br><br>実際、災難ですね。<br><br>これは医学の被害者ですよ。<br><br>この人の状態は――これは霊的じゃないですね。<br><br>薬毒ですね。<br><br>で、左が――ここら（左顔半面）いっぱい薬毒が寄ってきたんです。<br><br>ですから、それがだんだん腫れていって、どこかに穴があいて出ますから、それで治るんですよ。<br><br>だから、別に難しい病気じゃないです。<br><br>浄霊は誰がしているんですか。<br><br> 「教会の先生と家でもいただいております。<br><br>長引いてまいりましたため、龍神の関係かと思われましたので。<br><br>」 龍神じゃないですよ。<br><br>薬毒ですよ。<br><br>痛みは結構ですね。<br><br>赤い所はないですか。<br><br> 「中は赤くなっておりますが、外はありません。<br><br>」 口はあきませんか。<br><br> 「時々あき、膿が出ております。<br><br>」 結構です。<br><br>癌じゃありませんよ。<br><br>ふつうのオデキです。<br><br>浄霊する人の霊力が弱いんだな。<br><br>霊力が強いと、だんだん溶けて出ていきます。<br><br>霊力が強いと、痛みはないんですよ。<br><br>霊力を強くするには、力を入れないことですよ。<br><br>力をできるだけ抜くほど霊力は強くなります。<br><br>まだ、浄霊する人に力が入るんじゃないかな。<br><br>あべこべなんだからね。<br><br>力を入れると霊力が弱くなる。<br><br>それから、舌とか口の中のいろんなオデキですね。<br><br>あれは、薬を服むでしょう。<br><br>薬を服むたびに粘膜からしみるんです。<br><br>それが溜まってオデキになるんですね。<br><br>私なんか、奥の方が痛いんです。<br><br>しゃべり方が変でしょう。<br><br>これは、昔薬を服んだ時分――四十年前ですね――服んだ薬が粘膜にしみ込んだのが、時々ここに出てきて痛むんです。<br><br>そんなに、薬は恐ろしいものです。<br><br>だから、口の中の全部のオデキやそういうふうに思って決して間違いない。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Elucidações sobre a Purificação e o Mundo Espiritual</h2>
 <p><strong>Inquérito:</strong> Trata-se do caso de Haruaki, cinco anos, filho mais velho de Itsurō Furuta. Desde o nascimento, seus olhos eram de um azul-escuro turvo e opaco. Embora não parecesse completamente cego, por volta dos três anos de idade, precisava aproximar os livros ilustrados rente ao rosto, e mesmo assim, havia momentos em que mal conseguia distinguir o vermelho do branco. Nessa época, inúmeros pontos surgiram no centro de seus globos oculares. Com a ministração de Johrei, o centro dos olhos inchou, adquirindo uma aparência esbranquiçada e edemaciada, dando a impressão de que bastaria remover uma fina película para que ele enxergasse. Após receber Johrei do nosso presidente de igreja e visitar a Sede Anexa de Chukyo, apresentou alguma melhora; passou a discernir vultos de objetos grandes a uma distância de aproximadamente sessenta centímetros. Inicialmente, só conseguia dormir de bruços, e a luz do sol o ofuscava, fazendo-o manter o olhar sempre para baixo, mas recentemente seu estado melhorou consideravelmente. Gostaríamos de receber orientações sobre o método de Johrei e como proceder daqui em diante. Haveria alguma relação de ordem espiritual? Nós, o casal, ingressamos na fé em julho de 1946 e temos entronizados em nosso lar o Kōmyō Nyorai-Sama e o Byōbu Kannon-Sama. Ademais, ele foi submetido a uma única consulta médica por causa dos olhos, mas jamais utilizou qualquer tipo de medicamento desde que nasceu. Rogamos a Vossa orientação sobre o exposto.</p>
@@ -110,5 +262,48 @@ function toggleLang(lang) {
 <p>Ele consegue abrir a boca?</p>
 <p><em>“Às vezes, sim, e sai pus.”</em></p>
 <p>Isso é ótimo. Não é câncer, é um furúnculo comum. A força espiritual de quem está ministrando o Johrei é fraca. Com uma força espiritual potente, as toxinas se dissolvem e são eliminadas gradualmente. Quando a força espiritual é intensa, não há dor. E para intensificá-la, é preciso não aplicar força física. Quanto mais relaxado, maior a força espiritual. Talvez quem ministra o Johrei ainda o faça com tensão. O princípio é o inverso: aplicar força física enfraquece a força espiritual. Quanto às feridas na língua e na boca, elas surgem porque, ao tomar medicamentos, as substâncias se infiltram na mucosa. Esse acúmulo se transforma em abscessos. Eu mesmo, por exemplo, sinto uma dor no fundo da boca. Minha fala soa um pouco diferente, não? São resquícios de remédios que tomei há quarenta anos, cujas toxinas impregnaram a mucosa e, de vez em quando, purificam, causando dor. Assim é o quão terríveis são os medicamentos. Podem ter a certeza de que todas as feridas bucais têm essa mesma origem.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御教え （S27年2月26日） 『御教え集』7号、昭和27(1952)年3月20日発行 昭和二十七年二月二十六日 （お伺）古田五男の長男春明（五歳）。<br/><br/>生まれた時より、目が青黒くどんより濁り、ぜんぜん見えないとも思われませんでしたが、三歳ころよりは絵本なども目の側まで持ってきて、やっと赤白の見分けが、つく時とつかない時もあるほどで、ほとんど見分けできません。<br/><br/>そのころより目の玉の真ん中にチョボチョボがいっぱいでき、御浄霊をいたしておりますと、真ん中で水腫れのように白く腫れ上がり、一皮むけば、すぐにでも見えるような感じがいたしておりました。<br/><br/>会長先生の御浄霊をいただき、中京別院にお詣りさせていただき、少し良くなり、大きな物は二尺くらい先でも、ボンヤリ見える時もあるようになりました。<br/><br/>初めは伏せてでないと寝れず、太陽もまばゆくて見えず、始終下ばかり見ておりましたが、最近はたいへん良くなりました。<br/><br/>御浄霊の方法および今後いかがさせていただきましたら、よろしいでしょうか。<br/><br/>また、霊的に関係がございましょうか。<br/><br/>私ども夫婦は昭和二十一年七月入信させていただき、光明如来様、御屏風観音様を御奉斎させていただいております。<br/><br/>なお、この目の時一回だけ医診を受けましたが、薬は生まれてから一回も入れておりません。<br/><br/>右御垂示お願い申し上げます。<br/><br/> 〔御垂示〕 これは治りますよ。<br/><br/>これは、目に毒が固まっているんですからね。<br/><br/>これはだいぶ溶けて出つつありますがね。<br/><br/>大丈夫ちゃんと治りますからね。<br/><br/>安心していて良いですよ。<br/><br/>霊的もありますがね。<br/><br/>霊的というよりか、罪穢れですね。<br/><br/>祖先の誰かが人の目を晦（くら）ますとか、そういったような目の怨みですね。<br/><br/>そのために、その怨みの霊が、つまり膿になって出るんですね。<br/><br/>で、浄霊は目と後頭部の真ん中ごろ――そこを浄霊すれば良いんです。<br/><br/>それから頸のまわりも、固まりがある所があるでしょうから、そこをやると、それで良いわけですね。<br/><br/> （お伺）伊藤兼行（三十八歳）。<br/><br/>二十五年二月精神異常となり、一家九人入信させていただき、大光明如来様も御奉斎させていただいておりますので、さっそく教会の先生に御浄霊をいただき、たいへん良くなりましたが、御法難ごろから親類の反対が激しく、本人が家を飛び出したり、川に入ったりいたし、弟までも精神病院に九カ月入院し、ペニシリン四十本、その他をいたしましたが、いっこう良くならず、身体全体に浮腫みが来ました。<br/><br/>昨年五月末退院し、今日まで御浄霊を続けております。<br/><br/>浮腫みも去り、食欲もふつうとなり、弟も今ではおすがりいたしております。<br/><br/>本人は昨今極めて無口で、倉庫（旧酒倉）に入りたがります。<br/><br/>家族の者が御参拝に出ますと、落ちつきを失い、酒倉に入っていたり、縊死でもするような様子になります。<br/><br/>生来病弱で肺炎、盲腸炎、腎臓炎、十二指腸潰瘍、胃痙攣などをいたしております。<br/><br/>入信以前に六百六号もいたしております。<br/><br/>入信後疥癬の御浄化をいただき、以来精神異常となるまで丈夫で働いておりました。<br/><br/>先日一信者に、酒倉の中の蛇だと言って憑依し、今までできるだけ邪魔していたが、どうしても邪魔することができなくなったと申したそうです。<br/><br/>それから落ちつきも出て、夜もよく眠れるようになりました。<br/><br/>ただいまでも、時々酒倉に入りたがるのでございますが、蛇と関係がございましょうか。<br/><br/>また御浄霊上の御注意いただきたく、右御垂示のほどお願い申し上げます。<br/><br/> 〔御垂示〕 これは蛇の霊ですよ。<br/><br/>これは始終酒倉にいた蛇ですね。<br/><br/>それで、酒倉に入りたがるんです。<br/><br/>蛇が――殺された怨みですね。<br/><br/>それですから、もう一息で治ります。<br/><br/>だいぶ蛇も弱ってきましたからね。<br/><br/>それですから、眠れるようになった。<br/><br/> 精神病というのは、最初は暴れて、それから無口になるものです。<br/><br/>それから治る順序になるんですがね。<br/><br/>ですから、そういう順序ですからね。<br/><br/>それから、蛇と――六百六号ですね、これがいけない。<br/><br/>六百六号をやると、たいてい頭が変になりますからね。<br/><br/>そうすると、医者は、黴毒のためだと言うんですが、そうではない。<br/><br/>黴毒を治そうとする六百六号のためなんです。<br/><br/>もうだいぶ弱ってきているから、もう一息です。<br/><br/>浄霊は前頭部――ここに一番憑るから、ここですね。<br/><br/>それから頸のまわりですね。<br/><br/>頸のまわりに必ず固まりがあるから、頸のまわりと――それですっかり治りますよ。<br/><br/>しかし、そうとう年月はかかります。<br/><br/>三年や五年かかると見なければならない。<br/><br/>気がつくのは、もうじき気がつきますがね。<br/><br/>それからまた、気がついたようでも、またヒョッヒョッと憑りますからね。<br/><br/>それで、すっかり治るのは数年かかるものです。<br/><br/> （お伺）教師安田憲義（四十四歳）。<br/><br/>本年一月十日ごろより全身的悪寒があり、肛門付近が奇形的に紅腫し、二十三日肛門付近三カ所、陰部二カ所より、驚くべき多量の排膿があり、その悪臭は側の者が嘔吐するくらいで、その後続いて多量の排膿があり、高熱と食欲不振のためにそうとう衰弱し、二月になり右足の自由がきかなくなり、毎日午前三時ごろ無数の霊に頼られ、全身的痙攣をし、油汗を流し苦しみましたが、善言讃詞を奉誦させていただき苦痛はなくなりました。<br/><br/>その後小鼻を打ち、視力おとろえ危篤状態となり、二月十日御守護お願いいたし、紐状の膿を排泄し楽にさせていただきました。<br/><br/>その時死亡の場合を考え医診を受けますと、敗血症と肛門周囲膿ろうであると言われました。<br/><br/>現在右足は多少動くようになり、排膿後は食欲は一杯半くらいいただき、視力は元通りになり、白色または赤色のヌラ状の排膿が続き、排泄口は肉が盛り上がってまいりました。<br/><br/>三日前より左足裏に気味悪い熱さを感じます。<br/><br/>右は痔瘻によるカリエスの膿の排泄でございましょうか。<br/><br/>御浄霊の箇所および今後いかがさせていただきましたら、よろしゅうございましょうか。<br/><br/>なお、本人は八年前に入信し、光明如来様を御奉斎させていただいております。<br/><br/> 〔御垂示〕 肛門周囲――これは病名じゃない。<br/><br/>説明だな。<br/><br/>周囲に違いないからね。<br/><br/>痔瘻によるカリエスなんてありませんね。<br/><br/>カリエスと痔瘻は違います。<br/><br/>これは結構です。<br/><br/>体中の毒が肛門の付近や下に集まってきて出るんですから、これは上等ですよ。<br/><br/>たいへんなお蔭だ。<br/><br/>それに、峠はもう過ぎてますから、あとは日数の経つに従って、だんだん良くなります。<br/><br/>あと、食欲だとか、みんな熱のためですからね。<br/><br/>結構です。<br/><br/>もう少し経つとずっと良くなります。<br/><br/> それから痔瘻というのは、やっぱり頭の薬毒ですね。<br/><br/>それが下りてきて肛門から排泄されようというんで、それをほったらかしておくと、痔瘻なんかにならないんです。<br/><br/>痔瘻はお医者が作ったんです。<br/><br/>つまり切りますね。<br/><br/>すると、お隣に腫れてくる。<br/><br/>そうすると、また切らなければならない。<br/><br/>すると、またお隣に腫れてくる。<br/><br/>だから、終いに蜂の巣みたいになる。<br/><br/>それに手術したあと、消毒薬をつけますからね。<br/><br/>それが、また一つの因になってくる。<br/><br/>あれは医療が作った病気ですからね。<br/><br/>カリエスというのは、肛門からは膿が出ません。<br/><br/>腎部とか股とか――そういう所から出ます。<br/><br/> （お伺）教師可児正則の妻すみ子（三十三歳）。<br/><br/>入信前ノーシンを常服いたしおりました。<br/><br/>昭和二十二年卵巣膿腫で手術し、全快しないうちに妊娠したために悪阻が強く、体の衰弱もあり堕胎手術をいたしました。<br/><br/>それから肋膜で二カ年療養しましたが、良くならず、人に奨められるままにいろいろいたし、人骨を煎じて二カ月ほど飲みました。<br/><br/>注射はザルブロ、ビタミン数十本を打ち少し楽になりましたが、今度は主人が喘息にかかり、その時より再度御浄霊をいただくようになり、御守護いただき主人は税務署を辞して御神業にお使いいただくようになりました。<br/><br/>大光明如来様、御屏風観音様を御奉斎させていただき、初めて農耕の手伝いをいたし、不思議に働くことができました。<br/><br/>ところが、首にグリグリが無数にでき、数回膿が出、今ではグリグリがたくさんあるままに、口はふさがっております。<br/><br/>昭和二十六年十月「大光明」の御守り様を拝受いたし、痔出血の御浄化をいただき、本年二月ごろに左手に激痛が起り、皮膚は蝋（ろう）細工のような色となり、血色悪く、体はフラフラとなり、毎日御浄霊をいたしておりますが、手の神経痛、腹部の痛み、腹の張り、胸の痛み、足の御浄化で、一進一退でございました。<br/><br/>二月上旬より、痔の出血は止まり、通じも二回くらいで軽くなりました。<br/><br/>二月十一日「大浄光」の御額をいただきますと、胃の御浄化で、咳が出、痰のような唾のようなヌラや苦い水がたくさん出ました。<br/><br/>心臓が苦しく床に就いております。<br/><br/>現在は頭がガンとして胸が苦しく、胃がからのような気がいたし、口が苦しく足腰がだるくフラフラで、御浄霊をいたしますと熱が出、咳が出ますが、痰が切れないので苦しみます。<br/><br/>食事は軽く一杯、三度食べます。<br/><br/>尿もよく出、便通もございます。<br/><br/>右御垂示のほどお願い申し上げます。<br/><br/> 〔御垂示〕 これは薬毒の浄化ですからね。<br/><br/>いろんなものがいろんな形で出てくるんですから、その間辛抱していれば、だんだん良くなりますよ。<br/><br/>こういうのは、だんだんいつとはなしに良くなりますから、辛抱していれば良い。<br/><br/>別にどうという病気じゃない。<br/><br/>入れたものが出る。<br/><br/>それだけの話です。<br/><br/>それから痰が切れないのは、浄霊の見当違いをしている。<br/><br/>だから、良く調べてみる。<br/><br/>これは自分で体中触って、調べてみる。<br/><br/>熱があるから、そこから痰が出るから解ります。<br/><br/>解らなければ、御主人に体を触ってもらえば良い。<br/><br/>これも、峙〔峠〕を過ぎてますから、もう一息です。<br/><br/> （お伺）伊東房子（二十一歳）。<br/><br/>昨年八月一日お盆のお参りをすましてより、毎日午前九時ごろから一時間ほど鳥膚が立ち寒気を催しますので、御浄霊いたしますと楽にはなりますが、同じ状態を繰り返します。<br/><br/>九月に入信させていただき、その後たいへん楽になりました（その間食欲はあまりございません）。<br/><br/>本年正月より衰弱が目に見えてまいり、二月には床に就き、最近は腰から下は特に痩せて歩行も困難でございます。<br/><br/>微熱はございますが、さしたる苦しみもなく、午前三時ごろから咳と痰を催す程度にて、食事は毎回一杯くらいでございます。<br/><br/>かつて中耳炎にてペニシリン数本いたしております。<br/><br/>叔父にあたる者三人ほど結核で死亡いたしております。<br/><br/>先日教会の先生より、長男として生まれた叔父（二十一歳で結核にて死亡）の位牌がないことを教えていただき、さっそくお祀りすることにいたしました。<br/><br/>霊的の関係がございましょうか。<br/><br/> 〔御垂示〕 これは肺病で死んだ霊が憑っているんで、できるだけ御神書を読ませる。<br/><br/>都合で側の者が読んで聞かせても良いんですがね。<br/><br/>そうして霊を救うんです。<br/><br/>それで治るわけです。<br/><br/>ちょうどやっぱり――いろいろ、歩けなくなったりするのは、肺病で死んだように、体がいろいろになるんですね。<br/><br/>だから、霊を早く救わなければならない。<br/><br/>今言ったようにして、浄霊は前頭部の中心ですね。<br/><br/>そこを浄霊する。<br/><br/>それから、あとは胸から背中と――そういう所を浄霊するんですね。<br/><br/>それでだんだん良くなるわけですがね。<br/><br/>で、その状態を、この次あたりにまた、質問に書いてきたら良いです。<br/><br/>それによって、また方法をします。<br/><br/> （お伺）米山伊左衛門（六十六歳）。<br/><br/>昭和二十五年十二月ごろより口中に痛みを感じ、医診を受け、血液検査の結果ワッセルマンおよび沈降の強陽性の反応が現われ、二十六年七月までに六百六号十本、ペニシリン二十二本を打ちましたが、極度の苦痛のために流動食さえ咽喉を通らなくなり、体は衰弱し、夜も苦痛のために眠れず、医師はこれ以上の注射は不可能であるとて、レントゲンに八回かかりましたが、なんらの効なく、衰弱は加わるばかりで、ついには舌癌と言われました。<br/><br/>以後も苦痛を紛らすために、強度の睡眠剤を相当量服用いたしました。<br/><br/>その後遠縁の者よりお道の話を聞き、さっそく御浄霊をいただき、徐々に快方に向かい、九月ごろは痛みも取れ、家族と同じ食事を摂るようになり、自転車にて教会にも行けるようになりました。<br/><br/>さっそく入信させていただきまして、その直後よりふたたび悪化し、現在口中は、左側頬内部と舌の一部が爛れ、外部には左側耳下に固結があります。<br/><br/>顎は痺れ、頭の左側、肩も左側が凝り、眼の縁が爛れております。<br/><br/>食欲はありますが充分食べれません。<br/><br/>辛うじて流動食に近い物を摂っており、体は痩せおとろえております。<br/><br/>口から特有の悪臭あるヌラを止めどもなく出し、呂律（ろれつ）がまわりません。<br/><br/>御浄霊は教会から来ていただき、家にてもいたしておりますが、最近はあまり変化がございません。<br/><br/>なお、住宅裏側に六尺ほどの楠の古木がありましたのを、昭和二十二年に伐倒しました。<br/><br/>右御垂示のほどお願い申し上げます。<br/><br/> 〔御垂示〕 沈降の強陽性――血沈じゃないかな。<br/><br/>レントゲン八回――これは医者に病気をこしらえられたんですね。<br/><br/>実際、災難ですね。<br/><br/>これは医学の被害者ですよ。<br/><br/>この人の状態は――これは霊的じゃないですね。<br/><br/>薬毒ですね。<br/><br/>で、左が――ここら（左顔半面）いっぱい薬毒が寄ってきたんです。<br/><br/>ですから、それがだんだん腫れていって、どこかに穴があいて出ますから、それで治るんですよ。<br/><br/>だから、別に難しい病気じゃないです。<br/><br/>浄霊は誰がしているんですか。<br/><br/> 「教会の先生と家でもいただいております。<br/><br/>長引いてまいりましたため、龍神の関係かと思われましたので。<br/><br/>」 龍神じゃないですよ。<br/><br/>薬毒ですよ。<br/><br/>痛みは結構ですね。<br/><br/>赤い所はないですか。<br/><br/> 「中は赤くなっておりますが、外はありません。<br/><br/>」 口はあきませんか。<br/><br/> 「時々あき、膿が出ております。<br/><br/>」 結構です。<br/><br/>癌じゃありませんよ。<br/><br/>ふつうのオデキです。<br/><br/>浄霊する人の霊力が弱いんだな。<br/><br/>霊力が強いと、だんだん溶けて出ていきます。<br/><br/>霊力が強いと、痛みはないんですよ。<br/><br/>霊力を強くするには、力を入れないことですよ。<br/><br/>力をできるだけ抜くほど霊力は強くなります。<br/><br/>まだ、浄霊する人に力が入るんじゃないかな。<br/><br/>あべこべなんだからね。<br/><br/>力を入れると霊力が弱くなる。<br/><br/>それから、舌とか口の中のいろんなオデキですね。<br/><br/>あれは、薬を服むでしょう。<br/><br/>薬を服むたびに粘膜からしみるんです。<br/><br/>それが溜まってオデキになるんですね。<br/><br/>私なんか、奥の方が痛いんです。<br/><br/>しゃべり方が変でしょう。<br/><br/>これは、昔薬を服んだ時分――四十年前ですね――服んだ薬が粘膜にしみ込んだのが、時々ここに出てきて痛むんです。<br/><br/>そんなに、薬は恐ろしいものです。<br/><br/>だから、口の中の全部のオデキやそういうふうに思って決して間違いない。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

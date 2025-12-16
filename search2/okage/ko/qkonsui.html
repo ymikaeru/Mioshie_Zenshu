@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qkonsui</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 昏睡して一度は霊界へ赴き新たな生命給わる 『栄光』122号、昭和26(1951)年9月19日発行 兵庫県 松風中教会 是川正善（37） 昭和二十六年六月十七日一時頃より急に頭が重く成りましたが、食事を戴いているところへ、松風中教会鹿塩支部の小西康代先生がお越し下さり、当日私方の月例祭で有りましたので小西先生に早速浄霊を頂き、ズッと楽に成りました、御祭を終りましたのが午後六時頃でした、すぐ床に就かせて頂きました、十七日夜より二十一日まで四十度位の熱が出て少しも寝れず、肩胛骨内側上下が痛み、苦しみは言葉で言い現わせませんでした、いつも中教会会長先生が「病気は肉体の破壊では有りません、良く成るための浄化であるから感謝しなさい、治った後は喜ぶための苦しみであったと言う事が判るのですよ」と御話を伺っておりました、又頭が激しく痛くなって来ましたが、先生のお話のごとく今このように苦しいが、きっと私は治ると思いなおしました、小西先生は枕許へ座られ、一日何回となく浄霊をして下さいました、それより少し楽になりました、私は記憶がなかったのですが、誰かが来たような気がして入口を三回程開けに行けと申したそうです、二十二日の朝から、前後判らぬ事を言って腹も立てたそうです、その間色々のところへ行っていたり、お詣りをしていたり、時には浄霊にも出て行ったようにも思います、私が勤めている事務所へも行ったようにも思います、又私の家がこわれそうで絶えず動いていました、それより私は判らなくなりました。<br><br>身内の人々は医者に懸らなければ命がなくなると、さんざん言われたそうですが妻は「神様に救って頂きますから、まあ見ていて下さい」と頑張ったそうです、私は昏睡状態になってから霊界の方に行って来たのです、その模様をありのまま記さして頂きます。<br><br> 第一修養の為寮生活をするがよいと言うので、どこか阪神方面の寮へ行きました、朝の点呼をすまし、朝食を終り、運動場へ出て好きな運動をしました、一時間後にベルが鳴り大勢の人と共に昼食を戴き、午後は土砂の作業をしました、すると私の側へえらい人が来られ「お前は川の作業をしなくてもよい」と言われ、その後又一同と共に寮に帰りました、一日の感謝の御礼を申し、一日の疲れを休ませると言う生活を三日程した後、偉い人が又来られ、「○○警察へ行け」と言われ、一同と行きました、二時間程北西に向かって行ったところで止まると、七ツの辻だと言うてくれました、そこで皆が自動車より下車少し山手に上る、上へ行くと警察署が有り、医者や警察署員がいて名簿もあり、一人一人名前を呼び「順番に今迄やって来た善い事、悪い事を皆言って見よ、隠し事はならない、嘘をつくと酷い目に遭せる」と言われ手には割竹を持ち次から次へと調べていました、その間色情の検査に移り、陰部より塩水を入れ、針金のような物で掃除した後ガーゼをさし込み、その人の罪によって最悪の人はさわると痛んで堪らないようにみえます、そしてその場で切開され、直ぐ火葬場へ沢山の人は送られます、私は御蔭様で少しも痛まず、ちょっとさわる程度で許されました、調べも終りますと十八名ずつ第一火葬場へ送られ、釜の中へ放り込まれるのを見ました、私は「お前は入らなくともよい」と聞き、次に第二火葬場へ皆が行く事になり私もついて行きました、火葬場の前迄行くと階段が有りその階段は角がなくフチも丸く、上へ上るにも掴まるところもありません、私は小便がしたくなりましたが、する所もなく困っておりましたが、終いにはするところも見つかり、する事が出来ました、それからは階段を楽に上る事が出来ました、今から思えばその時に現実の寝床に大小便と汗が出て、寝巻蒲団等がボトボトになったんだと思います、小便の重さで下半身が重くて体が自由にならず、階段のところで小便が出てから楽に上れたのも、その時だったのです、第二の火葬場の釜の入口迄行きますと「お前はここへ来なくてもよろしい」と言われたので、案内されて休憩所へ行きました、法廷では御話があって御話を聞き又後はのんびりと遊びなさいと言われました、それは丁度天国のようなところで有りました、四季の花も沢山咲き立派な三階建の家も沢山有りました、どの家も光明如来様をお祀りして有り、御仏壇には御屏風観音様をお祀りして有り、各家々では三階は御神前で有りました。<br><br>私も松風中教会に早くお詣りをしたく思い見廻わすと目の前に松風中教会が有り早速教会に入れば、お顔なじみの先生方、一般信徒の方々にお目にかかれ、やれ嬉しやと御神前に額けば、お祈りも間に合いまして、会長先生の御話もお聞きさせて戴き、自宅に帰り、今帰ったと声をかければ妻や親族一同、ああ気が付いたと喜んで下さり、丁度二日間は昏睡状態でありました。<br><br>今日では家族、親族の人々が大変喜んで下さり、命のないところを御救い下さいまして真に有難う御座居ました。<br><br> 明主様、厚く御礼申し上げます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Em coma, visitei o Mundo Espiritual e recebi o dom de uma nova vida</h2>
 <p>Publicado na revista "Glória", nº 122, de 19 de setembro de 1951
@@ -107,5 +262,48 @@ Korekawa Masayoshi (37 anos)</p>
 <p>Em seguida, retornei para casa. Ao chamar por minha esposa, dizendo “Estou de volta”, ela e todos os parentes se alegraram imensamente, exclamando: “Ah, ele recuperou a consciência!”. Estive em coma por exatos dois dias.</p>
 <p>Hoje, minha família e meus parentes se regozijam. Sou verdadeiramente grato por ter sido salvo de uma situação em que já não havia esperança de vida.</p>
 <p>Meishu-Sama, receba minha mais profunda gratidão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 昏睡して一度は霊界へ赴き新たな生命給わる 『栄光』122号、昭和26(1951)年9月19日発行 兵庫県 松風中教会 是川正善（37） 昭和二十六年六月十七日一時頃より急に頭が重く成りましたが、食事を戴いているところへ、松風中教会鹿塩支部の小西康代先生がお越し下さり、当日私方の月例祭で有りましたので小西先生に早速浄霊を頂き、ズッと楽に成りました、御祭を終りましたのが午後六時頃でした、すぐ床に就かせて頂きました、十七日夜より二十一日まで四十度位の熱が出て少しも寝れず、肩胛骨内側上下が痛み、苦しみは言葉で言い現わせませんでした、いつも中教会会長先生が「病気は肉体の破壊では有りません、良く成るための浄化であるから感謝しなさい、治った後は喜ぶための苦しみであったと言う事が判るのですよ」と御話を伺っておりました、又頭が激しく痛くなって来ましたが、先生のお話のごとく今このように苦しいが、きっと私は治ると思いなおしました、小西先生は枕許へ座られ、一日何回となく浄霊をして下さいました、それより少し楽になりました、私は記憶がなかったのですが、誰かが来たような気がして入口を三回程開けに行けと申したそうです、二十二日の朝から、前後判らぬ事を言って腹も立てたそうです、その間色々のところへ行っていたり、お詣りをしていたり、時には浄霊にも出て行ったようにも思います、私が勤めている事務所へも行ったようにも思います、又私の家がこわれそうで絶えず動いていました、それより私は判らなくなりました。<br/><br/>身内の人々は医者に懸らなければ命がなくなると、さんざん言われたそうですが妻は「神様に救って頂きますから、まあ見ていて下さい」と頑張ったそうです、私は昏睡状態になってから霊界の方に行って来たのです、その模様をありのまま記さして頂きます。<br/><br/> 第一修養の為寮生活をするがよいと言うので、どこか阪神方面の寮へ行きました、朝の点呼をすまし、朝食を終り、運動場へ出て好きな運動をしました、一時間後にベルが鳴り大勢の人と共に昼食を戴き、午後は土砂の作業をしました、すると私の側へえらい人が来られ「お前は川の作業をしなくてもよい」と言われ、その後又一同と共に寮に帰りました、一日の感謝の御礼を申し、一日の疲れを休ませると言う生活を三日程した後、偉い人が又来られ、「○○警察へ行け」と言われ、一同と行きました、二時間程北西に向かって行ったところで止まると、七ツの辻だと言うてくれました、そこで皆が自動車より下車少し山手に上る、上へ行くと警察署が有り、医者や警察署員がいて名簿もあり、一人一人名前を呼び「順番に今迄やって来た善い事、悪い事を皆言って見よ、隠し事はならない、嘘をつくと酷い目に遭せる」と言われ手には割竹を持ち次から次へと調べていました、その間色情の検査に移り、陰部より塩水を入れ、針金のような物で掃除した後ガーゼをさし込み、その人の罪によって最悪の人はさわると痛んで堪らないようにみえます、そしてその場で切開され、直ぐ火葬場へ沢山の人は送られます、私は御蔭様で少しも痛まず、ちょっとさわる程度で許されました、調べも終りますと十八名ずつ第一火葬場へ送られ、釜の中へ放り込まれるのを見ました、私は「お前は入らなくともよい」と聞き、次に第二火葬場へ皆が行く事になり私もついて行きました、火葬場の前迄行くと階段が有りその階段は角がなくフチも丸く、上へ上るにも掴まるところもありません、私は小便がしたくなりましたが、する所もなく困っておりましたが、終いにはするところも見つかり、する事が出来ました、それからは階段を楽に上る事が出来ました、今から思えばその時に現実の寝床に大小便と汗が出て、寝巻蒲団等がボトボトになったんだと思います、小便の重さで下半身が重くて体が自由にならず、階段のところで小便が出てから楽に上れたのも、その時だったのです、第二の火葬場の釜の入口迄行きますと「お前はここへ来なくてもよろしい」と言われたので、案内されて休憩所へ行きました、法廷では御話があって御話を聞き又後はのんびりと遊びなさいと言われました、それは丁度天国のようなところで有りました、四季の花も沢山咲き立派な三階建の家も沢山有りました、どの家も光明如来様をお祀りして有り、御仏壇には御屏風観音様をお祀りして有り、各家々では三階は御神前で有りました。<br/><br/>私も松風中教会に早くお詣りをしたく思い見廻わすと目の前に松風中教会が有り早速教会に入れば、お顔なじみの先生方、一般信徒の方々にお目にかかれ、やれ嬉しやと御神前に額けば、お祈りも間に合いまして、会長先生の御話もお聞きさせて戴き、自宅に帰り、今帰ったと声をかければ妻や親族一同、ああ気が付いたと喜んで下さり、丁度二日間は昏睡状態でありました。<br/><br/>今日では家族、親族の人々が大変喜んで下さり、命のないところを御救い下さいまして真に有難う御座居ました。<br/><br/> 明主様、厚く御礼申し上げます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>eikyo</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 明主様の影響力 槐安 『地上天国』64号、昭和29(1954)年11月15日発行 甲午、秋の大祭は、明主様のおでましが戴けず、従って、御講話もなかった事で異例であり、ましてや、祭事のたびごとに賜わる恒例の御讃歌が、今回は信者の献歌によって朗唱された事などは、かつてそのためしをみない異例の事であった。<br><br> 三千余首にのぼる一般信者の献歌のうちから、その選に与かった方々の光栄は、まことに目出たいかぎりであるが、私は、この光栄ある入選御讃歌を朗唱しつつ、そこには、明主様の影響力がいかに大きく、かつ深く参透しているかを、改めて認識し、無量の感慨にひたったのであった。<br><br> もともと、私たち信者が、祝詞と共に身を潔め、心を静めて奉唱し奉るメシヤ教の御讃歌は、基督教の讃美歌と等しく、神様を敬い、崇め讃行する信者の美わしい心を、詩の形式をもって奉ったもの、と私は諒解しているが、メシヤ教の御讃歌が、日本国民だけの持つ独自の詩の形式、短歌の型を踏まえて優美に、また、あるときは直線的な豪宕（ごうとう）さで主の神に対し奉り、その感懐を叙べ敬い、より一層の芸術的香気を放って、神様を讃える言霊の妙を遺憾なく発揮しているのは、御讃歌が短歌という優れた詩型を執っているからである。<br><br>と思うのは、私だけの感じ方だけではあるまいと思う。<br><br> いつぞや、明主様のみ教えに、御讃歌は信者が奉るものである。<br><br>とのお言葉があった。<br><br>と記憶しているが、正しくそうあるべきで、讃えらるべき明主様から、逆に御讃歌を賜わって怪しまなかった不明さに、私は冷汗一斗の思いをし、信仰しつつも理解に遥か遠かった自分の不敏には、これまた胸を噛まれる思いであった。<br><br> いま、その事を思い、秋季大祭に献じられた信者の詠草を見るとき、またしてもさまざまな思いが、強羅の霧のように湧いてくるのであった。<br><br> それは、明主様の影響が、献納の歌にまで及んでいて、牢固として抜き難いものが認められたからである。<br><br> 明主様から賜わった御讃歌が、日本独自の国民詩型、伝統的な短歌の型を踏まえていて、そのなかに独特の型、いわばメシヤ教の御讃歌の型、詠法ともいうべきものが、天才歌人。<br><br>明主様によって確立されていて、信者はそれに範を求め、用語さえもそれをそのまま踏襲していて、そこには作者の個性も、作者だけのもつ昂揚された情感も影を潜めているのが、たやすく指摘されるからであった。<br><br> これは、信仰者が主の神を讃えまつる御讃歌の形式が、もはや一つの型として完成され、この叙法を踏襲、模倣する以外に、自己の感懐を表現する事が出来ないもののように考えられているからであろう。<br><br> この事は、専門歌人に師事して短歌を習得している信者さえも、御讃歌は特別だから……と、平素の詠いぶりとは全く違った詠草を寄せていたのを見ても明らかであると思う。<br><br> 私は身の程も顧みずに、それらの献歌をあげずらい、御讃歌論を試みる目的で本文を草しているのではなく、明主様が、信者に与えた影響の深さを知るために、それを如実に物語る今回の奉献の歌を、一つの例として挙げてみたに過ぎない。<br><br> これというのも、明主様が信者のひとりひとりに及ぼされた影響力の偉大さに、つねづね瞠目し驚歎しているからであって、しかも、この影響は、啻（ただ）に信者に止まるものだけではなく、信者を通じて日に月に社会全般に浸潤させて、真、善、美の、三つの聖なるものを見事に結合融和させたところの、完全な理想社会が、信者の家庭を単位として着々と堅実な足どりで建設されている事実をみるとき、古今を通じて人類に、これほど現実的生活に巨大な影響、感化を及ぼして光明を与えたお方はなく、あらゆる点において、明主様が第一人者である。<br><br>との感を深くするからである。<br><br> 明主様によって及ばされた影響とはなんであろうか？ それは至極簡単に、即ち、明主様を通じてなされた御神業、御経綸のすべてがそうだ。<br><br>と答えられる。<br><br> 私が、いまここに詳述する迄もなく、病いは浄霊で、農法は自然耕作で、というように、過去の謬見を打破された明主様の影響は、世界救世教団を生んで、僅々十カ年そこそこの短時日に、幾十万にものぼる人々が病いを癒され、肥毒が増収を阻む原理を知った農民は信者に非らざる農耕者にもこの福音を伝えて共感を呼び、一波は万波を生んで、日と共に農村に深く根をおろし、その影響をうけた多くの人々が、明主様の徳にひたって真理の道を歩んでいるのである。<br><br> 明主様のお力を蒙って病い癒え、重き稲穂は地に届くまでも豊かに、おのずから貧は過去のこととなり、和を得た家族は、炉を囲んで団欒するの美（うま）し世を、仏家の説く彼岸ならぬ現実のもの、として握り、現身をそのままに天国の人となれたメシヤ教の信者は、磐石の安心の上に立って、悩みの多い人生をも明るく楽しみ、力強くこの世を生きてゆけるのも、悉（ことごと）く如上の二事によって、明主様の影響、感化の徳に浴しているからであるが、明主様の信者に及ばされた影響は、浄霊、自然農法の二大真理を宗として、このほか、枚挙にいとまないほど多岐に亘っている事に気付く。<br><br> 人間は幾千万年もの昔から、先人の残した業蹟、遺産を基として、絶えず研鑚を重ねて新たなものを発明し、先人未踏の境地を発見、開拓して、今日のような物質文明の社会を建設してきたのであるが、幼稚とはいえ、先人の残した業蹟の影響なしに、忽然と現われた改良、発明はないといえよう。<br><br> 人間とは、先人の影響によって進歩する動物である。<br><br>との定義もくだせるほど、相互に影響し合い、又、そこに反発するものもあって、絶えず生成発展の過程を経てきていることは、社会の文物のすべてに言える事であって、これ故に、停止する事なき創造が、恐るべき原爆、水爆さえも生産させ、その影響がビキニの死の灰、放射能化となった事は、万人ひとしく認めて恐怖を感じていることがらであり、いかに勝れた天才科学者であっても、また一世を風靡する大思想家でも、多かれ少なかれ過去に築かれた業績の上に、自己の業蹟を重ねてきていることは否定すべくもない事である。<br><br> 有形、無形に量ることの出来ない、相互影響の波紋の広さには、今更のように驚ろくのであるが、明主様の御神業、御経綸にだけは、先人の影響を蒙った痕跡はなく、先人の築いたものの上に、新たなものを付け加えた、と見られる証跡もなく、すべてが忽然と湧出した、清列、珠の如き独創であることに、私は驚異の念を新たにし、神わざの神秘さに驚歎、畏敬の眼をみはるのである。<br><br> この事は、明主様が、人にして神であるから可能なのであって、もとより余人に求むべくはなく、釈尊によって仏教が、基督によってのキリスト教が開教されたその事さえも、釈尊はバラモンに、基督に猶太教の影響まったく無しとは言われず、マルクス、レーニンの影響はソ連邦を生み、中国を新国家へ、と発足させ、朝鮮を二つに裂いて争わせ、世界各国に共産勢力を育成するなどの、国家の消長にも関する大影響を与え、宗達、光琳の影響は、現代に至るまで鬱蒼たる大樹として聳え、マチス、セザンヌ、ピカソの影響は洋画に一つの指針を与えて模倣者を続出させ、日本古来の、茶道、華道、礼法等の伝統的作法さえ、鎌倉時代にもたらされた、禅の影響なしに興ったものではなく、もっと卑近な事に例を上れば、妙齢の婦女子の髪を短かく刈らせたものは、映画女優、ヘップバーンであることは、これまた周知の事であろうが、たとえ、その場かぎりの線香花火的流行とはいえ、これを模倣させた原動力は、ただ一人の人間が生みだし与えた影響に外ならない。<br><br> このように、ものの影響という事を考えてみると、人間は知らず識らずのうちに、いろいろと影響され、感化をうけ、あるいは教化されていることに厭でも気付かざるを得ない。<br><br> 学問、思想、芸術、建築、演芸、映画の影響が、いつとはなしに深く浸み透って、人生、社会に稗益したところは甚大なものがありまた、見方を変えれば、その影響が社会に害を及ぼし、人心を堕落させた、ともいい得るであろう。<br><br>そして、社会人心に与えた影響力の広さや、持続力の長さ等を規準として、何らかの影響を残した人々の、価値を計算することも可能であるかも知れない。<br><br> 人間の持つ感性は、影響をうけては、また影響を残し、輪廻のように繰り返えされて終る。<br><br>という事はあるまいが、起伏興亡の激しく変遷する社会にあって、如何なる時運に際会しても、微塵の揺ぎもない、絶対値を持つ影響というものは、絶対の真理の上に立ったものだけであって、古来、幾多の聖賢が試みても、遂にならなかったのは、それが、永久不変の絶対真埋ではなく、変転きわまりない時勢の上に立脚した、人間智から出発したものであって、いわば人間としての限界点を示すものであるかも知れない。<br><br>従って、その影響するところも、時勢の転移によって左右されるのも、また当然の成行き、と見るべきであろう。<br><br> 生きる者、ことごとくが求めて得られなかった絶対不変の真理とは、神の眼をもって見、神智をもって教え賜わる、明主様の御垂示かそれであって、片々たる時勢の推移に動かされる事なく、時間と空間を超えて影響を及ぼすところ、現在に生を享けている者だけではなく、それは過去と未来とに亘って大影響を与えずにはおかない、大功徳の救いなのである。<br><br> 立派な業蹟を残し、千万の人々から師と仰がれる程の、影響を与えた人の事業であっても、その直接影響するところは、主として現在であって、未来に及ぶほどの影響を残すのは、まことに蓼々（りょうりょう）微々たるものであり、ましてや、現在になされた事が、過去に遡るということは、これまた稀有と断定してはばからない。<br><br> 明主様の御神業、御経綸の大なること、従ってその影響の甚深なことは、かつてなく、今後にも無いことであって、この尊い教えを得て、家族笑和の、幸福な生活を営んでいるメシヤ教の信者は、まことに祝福さるべきであり、この無上の喜びが、明主様の一挙一投足をも模倣しようとする、信者としての有り勝ちな影響となった訳で、秋季大祭に献じられた御讃歌が、それを物語っているのも、ほほえましい光景とも言えるのである。<br><br> 明主様が、信者に及ぼされた影響は、総てが救いに関わる事ばかりであって、直ちに生命力を伸長させる浄霊、増産をもたらす自然農法等の周知のことは別としても、心霊を浄化、向上させるため、美術への関心を高めさせられ、美術館を設けで天下の名品、名器を惜しみもなく信者に接せしめ、それを通じて美意識への喚起と開眼をせられた事は、特別大書さるべき、明主様の影響。<br><br>といわねばならない。<br><br> 今日、メシヤ教の信者が、美に対する感覚においても衆に勝れているのは、明主様から蒙った影響なしには全く考えられない事であろう。<br><br> 私ふぜいが濫（みだ）りに言うべきではなく、また、かるがるしく断定すべき事がらではないが、影響という広範囲な事がらには、感謝されることと、怨みをかう場合との二種類があり、あるときは、その恩怨、功罪が半ばする場合もあって、そのいずれにしても、深浅と強弱の度合はあるが、その影響を蒙ったために、禍いを福に転じ、悉くが幸福を得ざるは無かった。<br><br>というような好影響ばかりを与えた、というのは、古今を通じて明主様だけであろう。<br><br> 五体ひとしくこの世に生を享けた人間として、他の人の影響をうけているばかりで、他に影響を与える程の仕事もせず、碌々として暮らしているのは、凡愚に生まれた性のしからしめるところである、が時には発奮して、受けた影響に打ち克ち、その上に新たなものを付け加えたい。<br><br>と思う事はあっても、大きなものの前に立ってみると、自分というものが益々、小さく見えるばかりで、及ばない口惜しさを感じるのが常であるが、及ばぬ口惜しさを少しも感じず、その大きな光りのなかに、全身、あたたかく包まれて、いつ迄もこの光りのなかに立っていたい。<br><br>と願わせるのは、明主様が、あの世、この世、次の世を通じてただ一人のお方であるからであろう。<br><br> 負けず嫌いで、人一倍、自我意識の強い私も、明主様から蒙った影響だけは、これを失わず、今後も益々摂取吸収して、一生涯、この上もない大切な宝として持ち続けたい。<br><br>と希っている。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Incomensurável Influência de Meishu-Sama</h2>
 <p>O Grande Culto de Outono do ano de Kogo foi excepcional, pois não pudemos contar com a honrosa presença de Meishu-Sama e, consequentemente, não recebemos Seus ensinamentos. Ademais, as habituais Salvações Poéticas, que em cada cerimônia nos são outorgadas, foram desta vez entoadas a partir de composições oferecidas pelos próprios fiéis, um acontecimento verdadeiramente sem precedentes em nossa história.</p>
@@ -118,5 +270,48 @@ function toggleLang(lang) {
 <p>Não me cabe fazer afirmações levianas ou conclusões precipitadas sobre um tema tão vasto quanto a influência. Contudo, ela parece se dividir em duas categorias: aquela pela qual se é grato e aquela que atrai ressentimento. Há casos em que méritos e deméritos, benefícios e malefícios, coexistem. Em qualquer situação, existem graus de profundidade e intensidade. No entanto, uma influência que transmuta a desventura em felicidade e invariavelmente conduz todos à felicidade, sem exceção, foi concedida, ao longo de toda a história, unicamente por Meishu-Sama.</p>
 <p>Viver neste mundo, como um ser humano dotado de um corpo físico igual a tantos outros, apenas recebendo a influência alheia, sem realizar um trabalho capaz de influenciar os outros, levando uma vida medíocre, é a sina de ter nascido um homem comum. Ocasionalmente, sinto o ímpeto de superar a influência recebida e acrescentar algo novo sobre ela. Contudo, ao me deparar com algo de magnitude superior, sinto-me cada vez menor e sou tomado por uma frustração por minha incapacidade. Essa é a minha constante. Mas há uma Luz grandiosa em cuja presença não sinto a menor frustração. Pelo contrário, sinto todo o meu ser calorosamente envolvido por ela e desejo permanecer ali para sempre. Isso acontece, certamente, porque Meishu-Sama é o único ser que transcende este mundo, o Mundo Espiritual e o próximo.</p>
 <p>Mesmo eu, de índole competitiva e com um ego mais forte que o da maioria, anseio por jamais perder a influência que recebi de Meishu-Sama. Desejo absorvê-la e assimilá-la cada vez mais, guardando-a por toda a minha existência como o mais inestimável dos tesouros.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 明主様の影響力 槐安 『地上天国』64号、昭和29(1954)年11月15日発行 甲午、秋の大祭は、明主様のおでましが戴けず、従って、御講話もなかった事で異例であり、ましてや、祭事のたびごとに賜わる恒例の御讃歌が、今回は信者の献歌によって朗唱された事などは、かつてそのためしをみない異例の事であった。<br/><br/> 三千余首にのぼる一般信者の献歌のうちから、その選に与かった方々の光栄は、まことに目出たいかぎりであるが、私は、この光栄ある入選御讃歌を朗唱しつつ、そこには、明主様の影響力がいかに大きく、かつ深く参透しているかを、改めて認識し、無量の感慨にひたったのであった。<br/><br/> もともと、私たち信者が、祝詞と共に身を潔め、心を静めて奉唱し奉るメシヤ教の御讃歌は、基督教の讃美歌と等しく、神様を敬い、崇め讃行する信者の美わしい心を、詩の形式をもって奉ったもの、と私は諒解しているが、メシヤ教の御讃歌が、日本国民だけの持つ独自の詩の形式、短歌の型を踏まえて優美に、また、あるときは直線的な豪宕（ごうとう）さで主の神に対し奉り、その感懐を叙べ敬い、より一層の芸術的香気を放って、神様を讃える言霊の妙を遺憾なく発揮しているのは、御讃歌が短歌という優れた詩型を執っているからである。<br/><br/>と思うのは、私だけの感じ方だけではあるまいと思う。<br/><br/> いつぞや、明主様のみ教えに、御讃歌は信者が奉るものである。<br/><br/>とのお言葉があった。<br/><br/>と記憶しているが、正しくそうあるべきで、讃えらるべき明主様から、逆に御讃歌を賜わって怪しまなかった不明さに、私は冷汗一斗の思いをし、信仰しつつも理解に遥か遠かった自分の不敏には、これまた胸を噛まれる思いであった。<br/><br/> いま、その事を思い、秋季大祭に献じられた信者の詠草を見るとき、またしてもさまざまな思いが、強羅の霧のように湧いてくるのであった。<br/><br/> それは、明主様の影響が、献納の歌にまで及んでいて、牢固として抜き難いものが認められたからである。<br/><br/> 明主様から賜わった御讃歌が、日本独自の国民詩型、伝統的な短歌の型を踏まえていて、そのなかに独特の型、いわばメシヤ教の御讃歌の型、詠法ともいうべきものが、天才歌人。<br/><br/>明主様によって確立されていて、信者はそれに範を求め、用語さえもそれをそのまま踏襲していて、そこには作者の個性も、作者だけのもつ昂揚された情感も影を潜めているのが、たやすく指摘されるからであった。<br/><br/> これは、信仰者が主の神を讃えまつる御讃歌の形式が、もはや一つの型として完成され、この叙法を踏襲、模倣する以外に、自己の感懐を表現する事が出来ないもののように考えられているからであろう。<br/><br/> この事は、専門歌人に師事して短歌を習得している信者さえも、御讃歌は特別だから……と、平素の詠いぶりとは全く違った詠草を寄せていたのを見ても明らかであると思う。<br/><br/> 私は身の程も顧みずに、それらの献歌をあげずらい、御讃歌論を試みる目的で本文を草しているのではなく、明主様が、信者に与えた影響の深さを知るために、それを如実に物語る今回の奉献の歌を、一つの例として挙げてみたに過ぎない。<br/><br/> これというのも、明主様が信者のひとりひとりに及ぼされた影響力の偉大さに、つねづね瞠目し驚歎しているからであって、しかも、この影響は、啻（ただ）に信者に止まるものだけではなく、信者を通じて日に月に社会全般に浸潤させて、真、善、美の、三つの聖なるものを見事に結合融和させたところの、完全な理想社会が、信者の家庭を単位として着々と堅実な足どりで建設されている事実をみるとき、古今を通じて人類に、これほど現実的生活に巨大な影響、感化を及ぼして光明を与えたお方はなく、あらゆる点において、明主様が第一人者である。<br/><br/>との感を深くするからである。<br/><br/> 明主様によって及ばされた影響とはなんであろうか？ それは至極簡単に、即ち、明主様を通じてなされた御神業、御経綸のすべてがそうだ。<br/><br/>と答えられる。<br/><br/> 私が、いまここに詳述する迄もなく、病いは浄霊で、農法は自然耕作で、というように、過去の謬見を打破された明主様の影響は、世界救世教団を生んで、僅々十カ年そこそこの短時日に、幾十万にものぼる人々が病いを癒され、肥毒が増収を阻む原理を知った農民は信者に非らざる農耕者にもこの福音を伝えて共感を呼び、一波は万波を生んで、日と共に農村に深く根をおろし、その影響をうけた多くの人々が、明主様の徳にひたって真理の道を歩んでいるのである。<br/><br/> 明主様のお力を蒙って病い癒え、重き稲穂は地に届くまでも豊かに、おのずから貧は過去のこととなり、和を得た家族は、炉を囲んで団欒するの美（うま）し世を、仏家の説く彼岸ならぬ現実のもの、として握り、現身をそのままに天国の人となれたメシヤ教の信者は、磐石の安心の上に立って、悩みの多い人生をも明るく楽しみ、力強くこの世を生きてゆけるのも、悉（ことごと）く如上の二事によって、明主様の影響、感化の徳に浴しているからであるが、明主様の信者に及ばされた影響は、浄霊、自然農法の二大真理を宗として、このほか、枚挙にいとまないほど多岐に亘っている事に気付く。<br/><br/> 人間は幾千万年もの昔から、先人の残した業蹟、遺産を基として、絶えず研鑚を重ねて新たなものを発明し、先人未踏の境地を発見、開拓して、今日のような物質文明の社会を建設してきたのであるが、幼稚とはいえ、先人の残した業蹟の影響なしに、忽然と現われた改良、発明はないといえよう。<br/><br/> 人間とは、先人の影響によって進歩する動物である。<br/><br/>との定義もくだせるほど、相互に影響し合い、又、そこに反発するものもあって、絶えず生成発展の過程を経てきていることは、社会の文物のすべてに言える事であって、これ故に、停止する事なき創造が、恐るべき原爆、水爆さえも生産させ、その影響がビキニの死の灰、放射能化となった事は、万人ひとしく認めて恐怖を感じていることがらであり、いかに勝れた天才科学者であっても、また一世を風靡する大思想家でも、多かれ少なかれ過去に築かれた業績の上に、自己の業蹟を重ねてきていることは否定すべくもない事である。<br/><br/> 有形、無形に量ることの出来ない、相互影響の波紋の広さには、今更のように驚ろくのであるが、明主様の御神業、御経綸にだけは、先人の影響を蒙った痕跡はなく、先人の築いたものの上に、新たなものを付け加えた、と見られる証跡もなく、すべてが忽然と湧出した、清列、珠の如き独創であることに、私は驚異の念を新たにし、神わざの神秘さに驚歎、畏敬の眼をみはるのである。<br/><br/> この事は、明主様が、人にして神であるから可能なのであって、もとより余人に求むべくはなく、釈尊によって仏教が、基督によってのキリスト教が開教されたその事さえも、釈尊はバラモンに、基督に猶太教の影響まったく無しとは言われず、マルクス、レーニンの影響はソ連邦を生み、中国を新国家へ、と発足させ、朝鮮を二つに裂いて争わせ、世界各国に共産勢力を育成するなどの、国家の消長にも関する大影響を与え、宗達、光琳の影響は、現代に至るまで鬱蒼たる大樹として聳え、マチス、セザンヌ、ピカソの影響は洋画に一つの指針を与えて模倣者を続出させ、日本古来の、茶道、華道、礼法等の伝統的作法さえ、鎌倉時代にもたらされた、禅の影響なしに興ったものではなく、もっと卑近な事に例を上れば、妙齢の婦女子の髪を短かく刈らせたものは、映画女優、ヘップバーンであることは、これまた周知の事であろうが、たとえ、その場かぎりの線香花火的流行とはいえ、これを模倣させた原動力は、ただ一人の人間が生みだし与えた影響に外ならない。<br/><br/> このように、ものの影響という事を考えてみると、人間は知らず識らずのうちに、いろいろと影響され、感化をうけ、あるいは教化されていることに厭でも気付かざるを得ない。<br/><br/> 学問、思想、芸術、建築、演芸、映画の影響が、いつとはなしに深く浸み透って、人生、社会に稗益したところは甚大なものがありまた、見方を変えれば、その影響が社会に害を及ぼし、人心を堕落させた、ともいい得るであろう。<br/><br/>そして、社会人心に与えた影響力の広さや、持続力の長さ等を規準として、何らかの影響を残した人々の、価値を計算することも可能であるかも知れない。<br/><br/> 人間の持つ感性は、影響をうけては、また影響を残し、輪廻のように繰り返えされて終る。<br/><br/>という事はあるまいが、起伏興亡の激しく変遷する社会にあって、如何なる時運に際会しても、微塵の揺ぎもない、絶対値を持つ影響というものは、絶対の真理の上に立ったものだけであって、古来、幾多の聖賢が試みても、遂にならなかったのは、それが、永久不変の絶対真埋ではなく、変転きわまりない時勢の上に立脚した、人間智から出発したものであって、いわば人間としての限界点を示すものであるかも知れない。<br/><br/>従って、その影響するところも、時勢の転移によって左右されるのも、また当然の成行き、と見るべきであろう。<br/><br/> 生きる者、ことごとくが求めて得られなかった絶対不変の真理とは、神の眼をもって見、神智をもって教え賜わる、明主様の御垂示かそれであって、片々たる時勢の推移に動かされる事なく、時間と空間を超えて影響を及ぼすところ、現在に生を享けている者だけではなく、それは過去と未来とに亘って大影響を与えずにはおかない、大功徳の救いなのである。<br/><br/> 立派な業蹟を残し、千万の人々から師と仰がれる程の、影響を与えた人の事業であっても、その直接影響するところは、主として現在であって、未来に及ぶほどの影響を残すのは、まことに蓼々（りょうりょう）微々たるものであり、ましてや、現在になされた事が、過去に遡るということは、これまた稀有と断定してはばからない。<br/><br/> 明主様の御神業、御経綸の大なること、従ってその影響の甚深なことは、かつてなく、今後にも無いことであって、この尊い教えを得て、家族笑和の、幸福な生活を営んでいるメシヤ教の信者は、まことに祝福さるべきであり、この無上の喜びが、明主様の一挙一投足をも模倣しようとする、信者としての有り勝ちな影響となった訳で、秋季大祭に献じられた御讃歌が、それを物語っているのも、ほほえましい光景とも言えるのである。<br/><br/> 明主様が、信者に及ぼされた影響は、総てが救いに関わる事ばかりであって、直ちに生命力を伸長させる浄霊、増産をもたらす自然農法等の周知のことは別としても、心霊を浄化、向上させるため、美術への関心を高めさせられ、美術館を設けで天下の名品、名器を惜しみもなく信者に接せしめ、それを通じて美意識への喚起と開眼をせられた事は、特別大書さるべき、明主様の影響。<br/><br/>といわねばならない。<br/><br/> 今日、メシヤ教の信者が、美に対する感覚においても衆に勝れているのは、明主様から蒙った影響なしには全く考えられない事であろう。<br/><br/> 私ふぜいが濫（みだ）りに言うべきではなく、また、かるがるしく断定すべき事がらではないが、影響という広範囲な事がらには、感謝されることと、怨みをかう場合との二種類があり、あるときは、その恩怨、功罪が半ばする場合もあって、そのいずれにしても、深浅と強弱の度合はあるが、その影響を蒙ったために、禍いを福に転じ、悉くが幸福を得ざるは無かった。<br/><br/>というような好影響ばかりを与えた、というのは、古今を通じて明主様だけであろう。<br/><br/> 五体ひとしくこの世に生を享けた人間として、他の人の影響をうけているばかりで、他に影響を与える程の仕事もせず、碌々として暮らしているのは、凡愚に生まれた性のしからしめるところである、が時には発奮して、受けた影響に打ち克ち、その上に新たなものを付け加えたい。<br/><br/>と思う事はあっても、大きなものの前に立ってみると、自分というものが益々、小さく見えるばかりで、及ばない口惜しさを感じるのが常であるが、及ばぬ口惜しさを少しも感じず、その大きな光りのなかに、全身、あたたかく包まれて、いつ迄もこの光りのなかに立っていたい。<br/><br/>と願わせるのは、明主様が、あの世、この世、次の世を通じてただ一人のお方であるからであろう。<br/><br/> 負けず嫌いで、人一倍、自我意識の強い私も、明主様から蒙った影響だけは、これを失わず、今後も益々摂取吸収して、一生涯、この上もない大切な宝として持ち続けたい。<br/><br/>と希っている。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

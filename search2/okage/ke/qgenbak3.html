@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qgenbak3</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 原爆によって頭部に四寸の裂傷 後浄霊にて出血止る 『栄光』155号、昭和27(1952)年5月7日発行 福井県 大浄中教会 山田育子（28） 思い起す毎に肌に粟の生ずる世紀の悲惨事とも言える彼の七年前の長崎での原爆の際、御守護戴きました追憶を御報告させて戴きます。<br><br>当時私は爆心地より一里程離れた道尾と言う所の小高い山の松林の中の一軒屋に疎開しておりました。<br><br>家のありました所よりもうちょっと上りますと大分見晴しのきく程の山でございます。<br><br> 当日空襲警報の解除のあと一安心したところへ突如として、雲の切れ間からサッと日の光がさしたようなそれに似た、そして夏の真昼の太陽の下にそれ以上の光がさしました。<br><br>何か？と思うその瞬間家の中におりました私の足下は、木片の山となり無我夢中どうして出たのか今にしても思い出せませんが、ともかく戸外の防空壕へ飛び込んでいました。<br><br>落着いて見れば白い上衣が血で染り、怪我はどこかと手探りでみれば、額から頭へかけて斜に口が開いています。<br><br>急いであてた上衣の白い所を余すところなきまでに染める出血でありました。<br><br>あまりの怪我にただおろおろする姑や出入の人達の中で私は冷い壕の茣蓙の上に横になり、一心に御浄霊を致しました。<br><br>御参拝に上らせて戴いたことのある東京の教会（当時は治療所）で拝みました明主様の御写真を思い浮べて「大先生様」（当時はそう申し上げていました）とおとなえ申し上げながら御浄霊させて戴きました。<br><br>大分の怪我とは思いましたが、後で鏡に写して見ましたら、左の眉毛の横から頭上中央へかけて四寸程指二本が入る位にざくろのように割れておりました。<br><br>その時は生きるの死ぬのと言った不安は何もなく、ただ一心にお縋り致しました。<br><br>やがて血も止まりましたのでガーゼで鉢巻をし、体を調べますと右腕にスプーンでくり取ったような所一カ所、他に小さい傷が数カ所ございましたが、御浄霊致しますとしまいに真黒なドロリとした血が出て止まりました。<br><br>不思議とこれ程の傷が何の痛みもなく、三、四時間後には家の取り片づけにかかりました。<br><br>家は爆風に対して垂直と思われる面はすべてこわされ、二階の硝子戸は骨のみ、障子は形もない木片と化しておりました。<br><br>何がこのような細い木片となったやら、それが家中を埋めて一足も入られず、どうしてこの中を出られたのかと、沁々と思われました。<br><br>その後自分で浄霊致しながら一日も休む事なく、ずい分と頭も体も使いました。<br><br>光の通った跡と申しますか、幅せまい二筋程の個所が木の葉がすっかり焦げて茶色に縮んでおりました。<br><br>近所では一間程ずっと焦げた所もございました。<br><br>その後十日程して大磯へ参り、原先生より御霊紙を戴いて貼り、日に一度ずつ御浄霊戴き、九月十日には成城の堀先生のもとへ通いました。<br><br>傷口からは一時濃い膿が流れる程沢山出て、その後肉が上って参り、十一月末には一旦盛り上るように出ました肉も平に落つき、桃色づいていたのもうすれ、十二月半ば包帯もとれ、その後体には自覚するような症状もなく過させて戴きました。<br><br>ずっと頭の左半分はふれてもはっきり感じません程しびれておりましたが、この頃ではほとんど治癒致しました。<br><br>傷あとも漸次廻りの皮膚に似た色となりつつあります。<br><br>思い出します度に、御守を戴いたというのみにて、何の働きもさせて戴いていませんでした私が、このような御守護を戴きました事を、今更のように有難く、ただただ感謝申し上げておる次第でございます。<br><br> 明主様有難うございました。<br><br>この上は出来得る限り、御神業の御手伝いをさせて戴きたいものと念じております。<br><br> （昭和二十七年五月七日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Extensa laceração na cabeça causada pela bomba atômica; hemorragia é estancada com Johrei</h2>
 <p><em>Eikō</em>, nº 155, publicado em 7 de maio de 1952
@@ -100,5 +255,48 @@ Yamada Ikuko (28 anos), Igreja Daijo-Naka, Província de Fukui</p>
 <p>Sempre que rememoro estes fatos, sinto uma gratidão renovada e avassaladora. Naquela época, eu era uma simples fiel que apenas havia recebido o Ohikari, sem ainda ter me dedicado a qualquer atividade na Obra Divina. Receber uma Proteção tão grandiosa nessas circunstâncias é algo pelo qual só posso expressar meu mais profundo agradecimento.</p>
 <p>Muito obrigada, Meishu-Sama. De agora em diante, desejo do fundo do coração poder dedicar-me, na medida de minhas forças, a servir em Sua Obra Divina.</p>
 <p>(7 de maio de 1952)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 原爆によって頭部に四寸の裂傷 後浄霊にて出血止る 『栄光』155号、昭和27(1952)年5月7日発行 福井県 大浄中教会 山田育子（28） 思い起す毎に肌に粟の生ずる世紀の悲惨事とも言える彼の七年前の長崎での原爆の際、御守護戴きました追憶を御報告させて戴きます。<br/><br/>当時私は爆心地より一里程離れた道尾と言う所の小高い山の松林の中の一軒屋に疎開しておりました。<br/><br/>家のありました所よりもうちょっと上りますと大分見晴しのきく程の山でございます。<br/><br/> 当日空襲警報の解除のあと一安心したところへ突如として、雲の切れ間からサッと日の光がさしたようなそれに似た、そして夏の真昼の太陽の下にそれ以上の光がさしました。<br/><br/>何か？と思うその瞬間家の中におりました私の足下は、木片の山となり無我夢中どうして出たのか今にしても思い出せませんが、ともかく戸外の防空壕へ飛び込んでいました。<br/><br/>落着いて見れば白い上衣が血で染り、怪我はどこかと手探りでみれば、額から頭へかけて斜に口が開いています。<br/><br/>急いであてた上衣の白い所を余すところなきまでに染める出血でありました。<br/><br/>あまりの怪我にただおろおろする姑や出入の人達の中で私は冷い壕の茣蓙の上に横になり、一心に御浄霊を致しました。<br/><br/>御参拝に上らせて戴いたことのある東京の教会（当時は治療所）で拝みました明主様の御写真を思い浮べて「大先生様」（当時はそう申し上げていました）とおとなえ申し上げながら御浄霊させて戴きました。<br/><br/>大分の怪我とは思いましたが、後で鏡に写して見ましたら、左の眉毛の横から頭上中央へかけて四寸程指二本が入る位にざくろのように割れておりました。<br/><br/>その時は生きるの死ぬのと言った不安は何もなく、ただ一心にお縋り致しました。<br/><br/>やがて血も止まりましたのでガーゼで鉢巻をし、体を調べますと右腕にスプーンでくり取ったような所一カ所、他に小さい傷が数カ所ございましたが、御浄霊致しますとしまいに真黒なドロリとした血が出て止まりました。<br/><br/>不思議とこれ程の傷が何の痛みもなく、三、四時間後には家の取り片づけにかかりました。<br/><br/>家は爆風に対して垂直と思われる面はすべてこわされ、二階の硝子戸は骨のみ、障子は形もない木片と化しておりました。<br/><br/>何がこのような細い木片となったやら、それが家中を埋めて一足も入られず、どうしてこの中を出られたのかと、沁々と思われました。<br/><br/>その後自分で浄霊致しながら一日も休む事なく、ずい分と頭も体も使いました。<br/><br/>光の通った跡と申しますか、幅せまい二筋程の個所が木の葉がすっかり焦げて茶色に縮んでおりました。<br/><br/>近所では一間程ずっと焦げた所もございました。<br/><br/>その後十日程して大磯へ参り、原先生より御霊紙を戴いて貼り、日に一度ずつ御浄霊戴き、九月十日には成城の堀先生のもとへ通いました。<br/><br/>傷口からは一時濃い膿が流れる程沢山出て、その後肉が上って参り、十一月末には一旦盛り上るように出ました肉も平に落つき、桃色づいていたのもうすれ、十二月半ば包帯もとれ、その後体には自覚するような症状もなく過させて戴きました。<br/><br/>ずっと頭の左半分はふれてもはっきり感じません程しびれておりましたが、この頃ではほとんど治癒致しました。<br/><br/>傷あとも漸次廻りの皮膚に似た色となりつつあります。<br/><br/>思い出します度に、御守を戴いたというのみにて、何の働きもさせて戴いていませんでした私が、このような御守護を戴きました事を、今更のように有難く、ただただ感謝申し上げておる次第でございます。<br/><br/> 明主様有難うございました。<br/><br/>この上は出来得る限り、御神業の御手伝いをさせて戴きたいものと念じております。<br/><br/> （昭和二十七年五月七日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

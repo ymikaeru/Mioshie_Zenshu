@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s271223</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御生誕祭御講話 （S27年12月23日） 『御教え集』17号、昭和28(1953)年1月15日発行 昭和二十七年十二月二十三日（御生誕祭御教え） 私は今日で満七十歳になりますが、この「七」という数字は「完成」の意味です。<br><br>「成る」という意味です。<br><br>つまり結んでまわる、ですから伊都能売です。<br><br>まわるということは左進右退の活動が起ることです。<br><br>数字からいうとそういうわけです。<br><br>それでキリストが言われた「造物主が六日間で世界を造って七日目に完成して一休みする、そのために七日目を日曜日ということになった」という言い伝えになってますが、それはそのとおりで「七」という数はそういう意味です。<br><br>ですからミロク、五六七ということも、火水土というわけで非常に結構です。<br><br>それで「八」で開くのです。<br><br>ですからこれからはいよいよ発展の時期にはいるわけです。<br><br>ですから京都の方も来年からボツボツ取りかかるわけですが、やはり京都は「七」ですからしてちょうどそういうことになるわけです。<br><br>それで五六七の合計は十八になりますから、そこでこれもミロクの数字です。<br><br>十八という数も結んで開くという数です。<br><br> それからこれは来年のことですが、それは正月にお話ししますが、二十八というのはたいへんいい数字です。<br><br>来年のことを言うと鬼が笑うといけないから、今日はよします。<br><br>それで今一番知りたいと思っていることは、信者さんばかりでなく世界中の人たちがそうですが、これからの戦争に対する予言のようなことになってますが、宗教家でありながら軍事的のことを言った人は、今までにおそらく私くらいでしょう。<br><br>私はなんでも屋ですからなんでも説きますが、これもおそらく世界中のどんな軍事専門家でも、ここまでは気がつかないだろうと思います。<br><br>そのことを今読ませてみます。<br><br>文中に本年と書いてあるのは、これは正月号の『栄光』に出すからです。<br><br> （御論文「世界夢物語」）【栄光 一八九号】 今読んだような具合ですが、この中にある最後の三段階というのがたいへんなのです。<br><br>しかしまだ詳しくは言えません。<br><br>それからもう一つは、来年からは再軍備が良いとか悪いとか、どうだこうだ、ということを言う人はぜんぜんなくなってしまいます。<br><br>いよいよ朝鮮に向かってアメリカ軍が攻撃を始めると、だんだん戦争が大きくなりますから、日本だってなまぬるいことは言っておられなくなります。<br><br>その代わりアメリカは日本にも金を貸しましょう。<br><br>そうして今読んだとおり一番肝腎なことは、これからいろんなことが出ますが、日本が一番運がいいのです。<br><br>ですからその点は割合に心配はありません。<br><br>けれどもその代わり病気の災厄が出ます。<br><br>その点はあるいは日本が一番酷いかもしれません。<br><br>しかし救世教信者はその点は一番安心です。<br><br>今、家を出がけにラジオを聞きましたが、今年は冬でも赤痢が非常に出て、現在一日に千三百人出ているそうです。<br><br>そういうわけで、来年はもっと増えます。<br><br>結局世界的の大浄化ですから、戦争も病気もいろいろの天災地変もだんだん酷くなってきます。<br><br>そうしてすっかり掃除をしなければならないのです。<br><br>それからいずれ中国も、民主政治が施かれますから、そうすると信教の自由になるから、そうなるとこっちも大いに中国全土に宣伝して、そうして救世教信者がたくさんできるわけです。<br><br>それからアメリカの方は来年から着々とやって行きます。<br><br> それでこの浄化についてアメリカ、ソ連は最後に与えられることになりますが、ヨーロッパの国も、国によってそうとう違いがあります。<br><br>その国によって罪穢れの多い少ないがありますし、それから本当の浄化が行なわれている国とそうでない国があります。<br><br>それでドイツのように酷い浄化をされた国はそれだけ救われるわけです。<br><br>それから昼間の世界になるについて、日本は一番先に昼間になるわけですから、この間の戦争の時爆撃やなにかで……原子爆弾も日本が初めですが……日本が一番先に大浄化が行なわれたのです。<br><br>大浄化というが、戦争による大浄化です。<br><br>ですから今度はその点では日本は割合に少ないのです。<br><br>脅威を受けるくらいなもので、実際上の戦火はほとんどなくてすむかもしれません。<br><br>ですからそういった浄化の起ってない国ほど酷いわけです。<br><br>といってもヨーロッパでも、フランスあたりは今まで人の殺し方が少ないから……あそこはナポレオンまでで、その後はそういった戦争による罪は犯してないから……割合に少ないのです。<br><br>ところが英国は長い間他の弱小国から随分富を取り上げましたから、そうとう罪は溜まっているわけです。<br><br>他にもいろいろありますが、いずれその点については、はっきり分かるように話します。<br><br> なにしろ来年から一歩一歩そういったような段階にはいるわけです。<br><br>とにかくたいへんな時代になるわけです。<br><br>けれどもそれは破壊される方がそうなるので、救世教は建設の方で反対になるわけですから、救世教が発展するほど世界的にガタガタしてくるわけです。<br><br>これは別に私がそうするわけでなくて、神様がやっているのですから、私が止めようと思っても駄目なのです。<br><br>ただ建設も、よい世界を造るのですから、ほかがどんなにいろいろになっても、こっちは大いばりでやれます。<br><br> それからもう一つは、浄化が強くなりますから、いよいよ病気は医学では駄目だという時代がごく近寄ってきたわけです。<br><br>最近よく聞く話は、お医者がだいぶ関心を持ってきたのです。<br><br>今月二十九日とかに鳥取県の浜村の医師会で座談会を開いて、救世教の病気なおしについて聞きたいというような話があるし、それから大阪の赤十字病院の副院長が熱心な研究をしているそうです。<br><br>そのほかにもいろいろ聞いてますが、そういうようでお医者さんもだいぶ首をひねってきたようです。<br><br>そこにもっていって、新春そうそう『アメリカを救う』という本も出ますから、ジリジリと医学革命のそれが始まっていくわけです。<br><br>ところがそれだけはたいへん結構ですが、助かった人はいいですが、そうでなく悪い影響を受けるという人たちもたくさんできますから、そういう点においても神様はなかなか深い方法をとられているのです。<br><br>これは詳しく話ししようと思いますが、二十五、六、七の時にそれについて話をする必要があるので、その時話します。<br><br>それで発展する上において、そのやり方が慢然といい気持ちでお調子にのることがいけないので、そういったようなやり方考え方ということをお話しするつもりです。<br><br>そうして、正月は、今お話ししたり読んだりしたことを、もういっそう詳しくお話しするつもりです。<br><br>今日はこれだけの話にしておきます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Grande Purificação e o Início da Nova Era</h2>
 <p>Hoje, completo setenta anos de idade, e o número sete encerra o significado de "consumação", de "tornar-se". Ele representa o ato de atar e concluir um ciclo; por conseguinte, relaciona-se a Izunome (伊都能売). Desse movimento circular, surge a atividade de avanço pela esquerda e recuo pela direita. Essa é a explicação sob a ótica dos números. Essa simbologia encontra eco no relato de Cristo, segundo o qual o Criador moldou o mundo em seis dias e, no sétimo, concluiu Sua obra e repousou, razão pela qual o sétimo dia se tornou o domingo. O número sete, de fato, possui esse significado. Da mesma forma, Miroku (ミロク), ou cinco-seis-sete (五六七), corresponde ao fogo, à água и à terra, uma combinação sumamente auspiciosa. O número oito, por sua vez, representa a "abertura". Portanto, adentramos um período de grande desenvolvimento. Nesse sentido, os trabalhos em Kyoto, que se iniciarão gradualmente no próximo ano, estão em perfeita sintonia, pois a cidade também se alinha ao simbolismo do número sete. Ademais, a soma de cinco, seis e sete resulta em dezoito, outro número associado a Miroku, que simboliza o ato de "atar e desatar", ou seja, de concluir para iniciar.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Nesse processo de purificação, os Estados Unidos e a União Soviética serão os últimos a serem atingidos. Entre as nações europeias, contudo, haverá diferenças consideráveis, pois a quantidade de máculas e pecados varia de um país para outro, assim como há nações que já passaram por uma purificação genuína e outras que não. A Alemanha, por exemplo, que foi submetida a uma purificação extremamente severa, será salva na mesma proporção. Com o advento do Mundo do Dia, o Japão será o primeiro a vivenciar essa transição. Durante a última guerra, por meio dos bombardeios e de outros sofrimentos — lembremos que a bomba atômica foi lançada primeiramente sobre o Japão —, nosso país foi o primeiro a passar pela Grande Purificação. Refiro-me à purificação por meio da guerra. Por essa razão, desta vez, o Japão sofrerá relativamente pouco. É possível que tudo se resuma a ameaças, com danos de batalha reais sendo praticamente inexistentes. Conclui-se que as nações que ainda não passaram por tal purificação sofrerão com maior intensidade. A França, por exemplo, que derramou menos sangue em guerras desde a era napoleônica, acumulou menos pecados dessa natureza e, portanto, sua purificação será mais branda. Já a Inglaterra, que por um longo período extraiu riquezas de inúmeras nações mais fracas, acumulou um volume considerável de pecados. Há outros casos a serem considerados, mas, oportunamente, falarei sobre este assunto de forma mais clara.</p>
 <p>De toda forma, a partir do próximo ano, adentraremos passo a passo nessas etapas. Será uma era de acontecimentos avassaladores. Contudo, isso se aplica ao lado que está sendo destruído. A Sekaikyuseikyou, por sua vez, representa o lado da construção, o polo oposto. Portanto, quanto mais a nossa Obra se desenvolver, mais o mundo será abalado. Não sou eu quem o faz; é Deus quem está no comando. Logo, mesmo que eu quisesse, não poderia deter esse processo. Entretanto, como nosso propósito é a construção de um mundo melhor, podemos prosseguir com absoluta convicção, independentemente do que venha a ocorrer no restante do mundo.</p>
 <p>Outro ponto a ser observado é que, com a intensificação da purificação, aproxima-se rapidamente a era em que a medicina se mostrará ineficaz para tratar as doenças. Recentemente, tenho ouvido com frequência que os próprios médicos estão começando a demonstrar grande interesse. No dia vinte e nove deste mês, por exemplo, a associação médica de Hamamura, na província de Tottori, promoverá uma mesa-redonda para aprender sobre a cura de doenças pela Sekaikyuseikyou. Soube também que o vice-diretor do Hospital da Cruz Vermelha de Osaka está se dedicando a uma pesquisa aprofundada sobre o tema. Além desses, há outros relatos, indicando que os médicos estão, de fato, começando a questionar seus próprios métodos. Somado a isso, logo no início do ano novo, será publicado o livro "A Salvação da América", dando início, gradualmente, à revolução na medicina. Embora isso seja algo muito positivo, e as pessoas que forem salvas se beneficiarão, haverá também muitas outras que sofrerão influências negativas. Nesse aspecto, Deus emprega um método de grande profundidade. Pretendo falar sobre isso em detalhes, mas como há necessidade de abordar o assunto nos dias vinte e cinco, vinte e seis e vinte e sete, o farei nessa ocasião. No que tange ao nosso desenvolvimento, é fundamental não nos deixarmos levar por um sentimento de complacência e presunção. Minha intenção é orientá-los sobre a maneira correta de agir e de pensar. E no Ano Novo, aprofundarei ainda mais os temas que foram lidos e abordados hoje. Por ora, encerro aqui minhas palavras.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御生誕祭御講話 （S27年12月23日） 『御教え集』17号、昭和28(1953)年1月15日発行 昭和二十七年十二月二十三日（御生誕祭御教え） 私は今日で満七十歳になりますが、この「七」という数字は「完成」の意味です。<br/><br/>「成る」という意味です。<br/><br/>つまり結んでまわる、ですから伊都能売です。<br/><br/>まわるということは左進右退の活動が起ることです。<br/><br/>数字からいうとそういうわけです。<br/><br/>それでキリストが言われた「造物主が六日間で世界を造って七日目に完成して一休みする、そのために七日目を日曜日ということになった」という言い伝えになってますが、それはそのとおりで「七」という数はそういう意味です。<br/><br/>ですからミロク、五六七ということも、火水土というわけで非常に結構です。<br/><br/>それで「八」で開くのです。<br/><br/>ですからこれからはいよいよ発展の時期にはいるわけです。<br/><br/>ですから京都の方も来年からボツボツ取りかかるわけですが、やはり京都は「七」ですからしてちょうどそういうことになるわけです。<br/><br/>それで五六七の合計は十八になりますから、そこでこれもミロクの数字です。<br/><br/>十八という数も結んで開くという数です。<br/><br/> それからこれは来年のことですが、それは正月にお話ししますが、二十八というのはたいへんいい数字です。<br/><br/>来年のことを言うと鬼が笑うといけないから、今日はよします。<br/><br/>それで今一番知りたいと思っていることは、信者さんばかりでなく世界中の人たちがそうですが、これからの戦争に対する予言のようなことになってますが、宗教家でありながら軍事的のことを言った人は、今までにおそらく私くらいでしょう。<br/><br/>私はなんでも屋ですからなんでも説きますが、これもおそらく世界中のどんな軍事専門家でも、ここまでは気がつかないだろうと思います。<br/><br/>そのことを今読ませてみます。<br/><br/>文中に本年と書いてあるのは、これは正月号の『栄光』に出すからです。<br/><br/> （御論文「世界夢物語」）【栄光 一八九号】 今読んだような具合ですが、この中にある最後の三段階というのがたいへんなのです。<br/><br/>しかしまだ詳しくは言えません。<br/><br/>それからもう一つは、来年からは再軍備が良いとか悪いとか、どうだこうだ、ということを言う人はぜんぜんなくなってしまいます。<br/><br/>いよいよ朝鮮に向かってアメリカ軍が攻撃を始めると、だんだん戦争が大きくなりますから、日本だってなまぬるいことは言っておられなくなります。<br/><br/>その代わりアメリカは日本にも金を貸しましょう。<br/><br/>そうして今読んだとおり一番肝腎なことは、これからいろんなことが出ますが、日本が一番運がいいのです。<br/><br/>ですからその点は割合に心配はありません。<br/><br/>けれどもその代わり病気の災厄が出ます。<br/><br/>その点はあるいは日本が一番酷いかもしれません。<br/><br/>しかし救世教信者はその点は一番安心です。<br/><br/>今、家を出がけにラジオを聞きましたが、今年は冬でも赤痢が非常に出て、現在一日に千三百人出ているそうです。<br/><br/>そういうわけで、来年はもっと増えます。<br/><br/>結局世界的の大浄化ですから、戦争も病気もいろいろの天災地変もだんだん酷くなってきます。<br/><br/>そうしてすっかり掃除をしなければならないのです。<br/><br/>それからいずれ中国も、民主政治が施かれますから、そうすると信教の自由になるから、そうなるとこっちも大いに中国全土に宣伝して、そうして救世教信者がたくさんできるわけです。<br/><br/>それからアメリカの方は来年から着々とやって行きます。<br/><br/> それでこの浄化についてアメリカ、ソ連は最後に与えられることになりますが、ヨーロッパの国も、国によってそうとう違いがあります。<br/><br/>その国によって罪穢れの多い少ないがありますし、それから本当の浄化が行なわれている国とそうでない国があります。<br/><br/>それでドイツのように酷い浄化をされた国はそれだけ救われるわけです。<br/><br/>それから昼間の世界になるについて、日本は一番先に昼間になるわけですから、この間の戦争の時爆撃やなにかで……原子爆弾も日本が初めですが……日本が一番先に大浄化が行なわれたのです。<br/><br/>大浄化というが、戦争による大浄化です。<br/><br/>ですから今度はその点では日本は割合に少ないのです。<br/><br/>脅威を受けるくらいなもので、実際上の戦火はほとんどなくてすむかもしれません。<br/><br/>ですからそういった浄化の起ってない国ほど酷いわけです。<br/><br/>といってもヨーロッパでも、フランスあたりは今まで人の殺し方が少ないから……あそこはナポレオンまでで、その後はそういった戦争による罪は犯してないから……割合に少ないのです。<br/><br/>ところが英国は長い間他の弱小国から随分富を取り上げましたから、そうとう罪は溜まっているわけです。<br/><br/>他にもいろいろありますが、いずれその点については、はっきり分かるように話します。<br/><br/> なにしろ来年から一歩一歩そういったような段階にはいるわけです。<br/><br/>とにかくたいへんな時代になるわけです。<br/><br/>けれどもそれは破壊される方がそうなるので、救世教は建設の方で反対になるわけですから、救世教が発展するほど世界的にガタガタしてくるわけです。<br/><br/>これは別に私がそうするわけでなくて、神様がやっているのですから、私が止めようと思っても駄目なのです。<br/><br/>ただ建設も、よい世界を造るのですから、ほかがどんなにいろいろになっても、こっちは大いばりでやれます。<br/><br/> それからもう一つは、浄化が強くなりますから、いよいよ病気は医学では駄目だという時代がごく近寄ってきたわけです。<br/><br/>最近よく聞く話は、お医者がだいぶ関心を持ってきたのです。<br/><br/>今月二十九日とかに鳥取県の浜村の医師会で座談会を開いて、救世教の病気なおしについて聞きたいというような話があるし、それから大阪の赤十字病院の副院長が熱心な研究をしているそうです。<br/><br/>そのほかにもいろいろ聞いてますが、そういうようでお医者さんもだいぶ首をひねってきたようです。<br/><br/>そこにもっていって、新春そうそう『アメリカを救う』という本も出ますから、ジリジリと医学革命のそれが始まっていくわけです。<br/><br/>ところがそれだけはたいへん結構ですが、助かった人はいいですが、そうでなく悪い影響を受けるという人たちもたくさんできますから、そういう点においても神様はなかなか深い方法をとられているのです。<br/><br/>これは詳しく話ししようと思いますが、二十五、六、七の時にそれについて話をする必要があるので、その時話します。<br/><br/>それで発展する上において、そのやり方が慢然といい気持ちでお調子にのることがいけないので、そういったようなやり方考え方ということをお話しするつもりです。<br/><br/>そうして、正月は、今お話ししたり読んだりしたことを、もういっそう詳しくお話しするつもりです。<br/><br/>今日はこれだけの話にしておきます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qkikiipa</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 危機一髪盗難を救はる 『地上天国』3号、昭和24(1949)年4月20日発行 自観叢書第4篇『奇蹟物語』昭和24(1949)年10月5日発行 滋賀県 日本五六七教 長谷川竹次郎 昭和二十三年十月二十四日、私は和歌山市へ出張の帰途、南海線和泉大宮の得意先へ立寄り午前十時すぎ同駅より乗車約四十分後七道駅にて大変なる奇蹟を頂き実に驚きました。<br><br>左にこの真相を申し上げたく存じます。<br><br> 当日私持参の鞄中には重要書類と大切なお金が一万二千円、その他私物等でありますが、これらは現在最重要品でありますので手に持っておりましたが、少し重いので棚に上げ、絶えず注目致しておりましたところ、二、三日前よりの疲労と昨夜の睡眠不足の為、七道駅停車の際ちょっと二十秒許り目を瞑ったように思いました。<br><br> 電車が発車すると同時に前に立っている婦人が、「棚にあった鞄はあなたのと違いますか」と注意して下さったので見ると大切な鞄がなく驚いて立上り動いている電車から飛び降りその場に倒れました。<br><br>早速立上りホーム中を探し廻りましたが見付かりません。<br><br>この瞬間犯人は逃げたと直感目先は真暗となりました。<br><br>この時電車は急停車し車掌が私の前へ来て「犯人はこの男です。<br><br>鞄は持って来て上げますからこの電車内で待って下さい」と言い五十米程後の線路上にある鞄を拾ってくれている有様が見えておりました。<br><br>これを私は受取り次駅住ノ江駅迄行き車掌は私と犯人を駅長に引き渡し電車は発車しました。<br><br>私は知らして下さった車中の婦人に手を合せ御礼を申しました。<br><br>住ノ江駅では駅長と犯人とが相当口論しましたが、私は鞄が手に入った以上この人を目撃した訳でもなし、深く責める事を止め、光明如来様の御利益を喜び周囲の人等にお話を致し難波に向いました。<br><br>この時午前十時五分、難波下車後直ちに車掌のところへ御礼に参りましたところ、犯人は口論中でありましたが私の言葉により何事もなく出て行く様子でした。<br><br> 午後四時すぎ能登川駅へ安着、如来様の有難さを一同に伝えました。<br><br>私が深く感じましたのは電車から飛び降りた際、ちょっと左の手首を傷めましたが血が出る程でもなく、痛くない程度であり、自動扉ですからいつも締っておりますのに少し開いてあった事、電車が停車して車掌が機敏に動作をされた事婦人が知らせて下さった事等総て一秒遅く共この機会を逸した事でありましょう。<br><br> 全くこの奇蹟は神様より頂いた事を深く有難く存じる次第で御座居ます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Salvação de um Furto por um Triz</h2>
 <p>Província de Shiga
@@ -101,5 +256,48 @@ Hasegawa Takejirō</p>
 <p>Cheguei em segurança à estação de Notogawa pouco depois das quatro da tarde e relatei a todos a imensa graça de Nyorai-sama.</p>
 <p>Refletindo sobre o ocorrido, o que mais me tocou foi a sucessão de eventos providenciais: ao saltar do trem, feri apenas levemente o pulso esquerdo, sem chegar a sangrar e quase sem dor; as portas automáticas, que deveriam estar fechadas, encontravam-se entreabertas; o trem parou com uma presteza impressionante, e o condutor agiu com extrema agilidade, tudo isso desencadeado pelo alerta crucial daquela senhora. Estou certo de que um atraso de um único segundo em qualquer um desses elos teria selado a perda de meus pertences.</p>
 <p>Sinto, pois, uma profunda gratidão, com a plena convicção de que este milagre me foi concedido por Deus.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 危機一髪盗難を救はる 『地上天国』3号、昭和24(1949)年4月20日発行 自観叢書第4篇『奇蹟物語』昭和24(1949)年10月5日発行 滋賀県 日本五六七教 長谷川竹次郎 昭和二十三年十月二十四日、私は和歌山市へ出張の帰途、南海線和泉大宮の得意先へ立寄り午前十時すぎ同駅より乗車約四十分後七道駅にて大変なる奇蹟を頂き実に驚きました。<br/><br/>左にこの真相を申し上げたく存じます。<br/><br/> 当日私持参の鞄中には重要書類と大切なお金が一万二千円、その他私物等でありますが、これらは現在最重要品でありますので手に持っておりましたが、少し重いので棚に上げ、絶えず注目致しておりましたところ、二、三日前よりの疲労と昨夜の睡眠不足の為、七道駅停車の際ちょっと二十秒許り目を瞑ったように思いました。<br/><br/> 電車が発車すると同時に前に立っている婦人が、「棚にあった鞄はあなたのと違いますか」と注意して下さったので見ると大切な鞄がなく驚いて立上り動いている電車から飛び降りその場に倒れました。<br/><br/>早速立上りホーム中を探し廻りましたが見付かりません。<br/><br/>この瞬間犯人は逃げたと直感目先は真暗となりました。<br/><br/>この時電車は急停車し車掌が私の前へ来て「犯人はこの男です。<br/><br/>鞄は持って来て上げますからこの電車内で待って下さい」と言い五十米程後の線路上にある鞄を拾ってくれている有様が見えておりました。<br/><br/>これを私は受取り次駅住ノ江駅迄行き車掌は私と犯人を駅長に引き渡し電車は発車しました。<br/><br/>私は知らして下さった車中の婦人に手を合せ御礼を申しました。<br/><br/>住ノ江駅では駅長と犯人とが相当口論しましたが、私は鞄が手に入った以上この人を目撃した訳でもなし、深く責める事を止め、光明如来様の御利益を喜び周囲の人等にお話を致し難波に向いました。<br/><br/>この時午前十時五分、難波下車後直ちに車掌のところへ御礼に参りましたところ、犯人は口論中でありましたが私の言葉により何事もなく出て行く様子でした。<br/><br/> 午後四時すぎ能登川駅へ安着、如来様の有難さを一同に伝えました。<br/><br/>私が深く感じましたのは電車から飛び降りた際、ちょっと左の手首を傷めましたが血が出る程でもなく、痛くない程度であり、自動扉ですからいつも締っておりますのに少し開いてあった事、電車が停車して車掌が機敏に動作をされた事婦人が知らせて下さった事等総て一秒遅く共この機会を逸した事でありましょう。<br/><br/> 全くこの奇蹟は神様より頂いた事を深く有難く存じる次第で御座居ます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

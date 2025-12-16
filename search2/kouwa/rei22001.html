@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>rei22001</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊学篇 二 霊的現象（二） １ 001-016 霊示 001 額の傷 私は二十一年五月左額を負傷し、七ケ月も医療にかかり良くならず、結局は本教に入信してこの御浄霊により快方に向いました。<br><br>ただ今は左額に醜痕を残すのみとなりました。<br><br>この信仰に入って額の大事な事につくづく感じ入りました。<br><br>つきましては、私の負傷は御先祖の戒告とか諸霊の祟りとかの霊的因縁はいかがなもので御座いましょうか。<br><br>お教え願います。<br><br> それ程の事もない。<br><br>しかし額を負傷したことは意味ない事はない。<br><br>目より額は上で、目上、主人、先生、祖先などに関係あり、目下は家来であるから、祖先をおろそかにしたりすると祖先が気付かせるためにするのである。<br><br>痕が残るのは薬のためである。<br><br>薬毒の染み込んだあとが残るのである。<br><br> 002 神参りの都度災禍 四国の小豆島へ参拝して帰宅後、一回目の参拝では、家族の産後気が狂い死亡、二回目帰宅後、池へ落ちて死亡し、参拝する度にこのような不幸があるのは邪神のためでしょうか。<br><br> 霊的な訳がある。<br><br> 本教入信者ならば参拝はやめるべきである。<br><br> 神にも種々ある。<br><br>この問によれば、参拝してはいけないので、祖霊が止めるのだと思う。<br><br> 光明如来様は一番お位が上であるから、信仰する以上、神参拝するのは本当でない。<br><br> 003 定日に事故あり 本年四月十八日に息子が他所のお婆さんに自転車を突当てて怪我をさせ、また七月十八日に五歳になる子供が疫痢に罹り、八月十八日に瀬戸物の三万五千円程の品を詐欺にかかる等、十八日という日のみ災難に逢っておりますが、何か訳があるのでしょうか。<br><br>御伺い申し上げます。<br><br>因みに家族四入信しており、本年三月光明如来様を御祭りさせて戴いております。<br><br> 祖先に関係があろう。<br><br>十八日に亡くなった祖先で、気に入らぬ事があるから知らせるのである。<br><br>事柄を考えてみよ。<br><br> 昔、警察問題等は必ず八の日であった。<br><br>（S24. 9.16） 004 中風霊知らす 入信後二年になる娘の婿中村隆（二十七歳）と言う者で御座います。<br><br>去る四月十日の夕方仕事先にて急に中風状態になりましたので、驚いて御浄霊を致しましたので幾分軽くなりました。<br><br>三日目の午後、三人にて御仏壇に向て善言讃詞をとなえ申しますと、中途において妻（私の娘）の春江と申す者が急に居眠りを始めましたので、私がかたわらにてつつきますと目を醒しては、また居眠り、その居眠りの内に鼻をつままれたり手を握られたりしたそうであります。<br><br>また私にも亡父が目に写りましたので御座います。<br><br> この人は現在起きてぶらぶらしている程度であります。<br><br>私の家では中風にて亡くなった者が二人もありますが、この病人と何か関係がありますでしょうか。<br><br>また今後いかに致しましたら御先祖を救う事が出来ますでしょうか。<br><br> 中風の霊が憑った。<br><br>娘の鼻をつまむなどしてそれを知らそうとした。<br><br>（母などに） 婿が御神書を読み、出来るだけ徳を積めば必ず治る。<br><br>（S25. 4. 7） 005 飲食の際肩胸痛む 前問（第八問）の荒井房吉さんは会社や他家で食事を頂く時は何とも御座いませんが、自宅でお茶を飲んだり食事を頂き始めますと必ず左の肩から左胸部にかけて急激に痛みを感じ、暫く御浄霊致しませんとおさまりません。<br><br>これはいかなる訳で御座いましょうか。<br><br>御教えをお願い申し上げます。<br><br> 何かの知らせである。<br><br> 光明如来様をお祭りしてもらいたいのである。<br><br>（S25. 5. 2） 006 祖霊の夢みる病人 昭和二十二年一月、戸塚育子氏に師事、受講せし三十歳の女の信徒、（本年二月日本会所属）昭和十八年四月結婚、同年五月盲腸手術、十九年に二回掻爬、十九年十一月流産、二十年十月関節炎、二十一年二月下腹部切開手術、二十一年八月軽度の精神異状を認め、受講後約一ケ月にして精神正常となり現在に及んでおりますが、今月に入り全身倦怠感の御浄化を戴き、最近腹部あるいは胸部頸部等に非常な苦痛を訴えますが、苦痛の個所には発熱を認められません。<br><br>その都度祝詞を奏上致し善言讃詞を奉唱させて戴くと苦痛が軽減致す時と、苦痛の場所が直ちに異動する時もありますが、御守護を戴きまして本日初めて御面会を戴いております。<br><br>一昨日汽車の中で一回、昨日横須賀の日本会本部において三回苦痛の御浄化を戴きました。<br><br> なお本人は白蛇の夢や御先祖の夢をよく見せられております。<br><br>その外生死霊の原因のある事も認められます。<br><br>右に関し今後の御浄化に際しては祝詞と善言讃詞を奉唱させて戴き、御浄霊を続けさせて戴く以外に方法がございますれば御教示をお願い申し上げます。<br><br> 祖先の中で苦しんでいるものがあり、光明如来様をお祭りしてもらいたいのである。<br><br> 早く、救ってもらいたいのである。<br><br> 007 祖霊の望みを知らす 蓑島時子（二十七歳）未入信、主人は入信しております。<br><br>四月十一日に男子を分娩、十三日夜寝ていますと左腰より下にかけて電気に打たれたようになり、一夜に三度もありました。<br><br>同日は祖母の命日でした。<br><br>また二十六日には床に入り、目はあけている時、仏壇の方より冷たい風が額に当り、目の前にお宮の屋根のようなものが顔前に現れ、その前に小さな額が見えるので何かと思い良く見たところ祖父の写真でありました。<br><br>その時も三度同じ事が繰返されました。<br><br>その日は祖々母の命日にて、祖々母は水死しております。<br><br>なお本人自身非常に毎日淋しく感ずると言っておりますが、何かを知らせているのでしょうか。<br><br>またいかにすれば宜敷いでしょうか。<br><br>御教示下さい。<br><br> 祖霊が頼んでいる。<br><br>家へ光明如来様、仏壇へお屏風様を祭ってもらいたいのでそうする。<br><br>（S25. 5. 7） 008 肺病の夫祖先を気にす（狂死の霊） 主人（四十六歳）は三年前より胸の病で休んでおります。<br><br>今迄に余り薬は用いませんが、昨年四月迄約一ケ年療養所にて養生していた事があります。<br><br>三ケ月程前に御光を戴き、時々先生に来て戴き毎日私が浄霊をさせて戴いております。<br><br>現在の病状は微熱あり、食事の時位は起きておりますが便秘気味ではっきり致しません。<br><br>主人は祖先の霊の事を頻りと気にしおり、信仰も従来種々やりましたが、親戚に次のような事があり、これと霊的関係があるのではないかと心配しております。<br><br> 十年前主人の姉の夫（坂場某）が精神病にて逆上の結果刃物で義姉とその子供を滅多切りにして即死させました。<br><br>それから後は残った子供を二人私共で引取って世話しておりましたが、ただ今は一人を世話しております。<br><br>その夫も間もなく衰弱して（座敷牢に入っていたためか）死にました。<br><br>坂場家ではその後その夫の兄弟が跡を継いでおりますが、無信心で何もやりません。<br><br>私共では近いうち光明如来様を御祭りする準備をしておりますが、今後いかにしたらよいので御座いましょう。<br><br> この霊とは関係はない。<br><br>普通の浄化を間違った療法で治すため引延ばしたものである。<br><br>祖先の霊を気にするのは、祖先の霊が助けてもらいたさに知らすのである。<br><br>この信仰へ入ると、余計催促する。<br><br>一日も早く光明如来様をお祭りする。<br><br>そして信仰雑話を読む。<br><br>音読するといい。<br><br>霊界で聞いている。<br><br>この信仰ではじきに救われる。<br><br>精神病や変死などは非常に悪い。<br><br>非常に苦しむ。<br><br>地獄――当分精神病で気がつかぬ。<br><br>その中段々光で救われる。<br><br>一人でも多く救うと、その徳で早く救われる。<br><br> 009 黒顔手を合せ得ぬ霊 栃木県のある熱心な信者で御座いますが、七月二日御屏風観音様をお祭りさせて戴き、その日より四、五日後のある夜半、一時半頃床につこうとして横になりましたとたんに黒い人間のような、猫のような耳許迄口の裂けた恐ろしい顔が見えまして、それが自分の身体に入ったような気が致しましたそうで御座いますが、それから苦しくなりました。<br><br>祝詞を三回奏上致しましたら急に額を畳につけたまま「重くなって重くなって頭を上げる事が出来ない。<br><br>上から押えつけられるような感じです。<br><br>助けて下さい。<br><br>助けて下さい」と申します。<br><br>私が「大先生様が御守護下さいますから大丈夫です」と言い、肩を押上げますとすーっと頭が上り、軽くなりました。<br><br>望みにより再び祝詞を奏上致しますと、手を合せる事が出来ず、合せようとしますと丸くなってしまい、全身寒気を感じました。<br><br>手を合せてあげ、額を御浄霊しますと、すっかり軽くなりました。<br><br>黒い顔した霊は祖霊で御座いましょうか、恨みの霊で御座いましょうか。<br><br>また手が丸くなるのはこの霊と関係があるので御座いましょうか。<br><br>御伺い申し上げます。<br><br> 畜生道へ堕ちた祖霊である。<br><br>未だ人間になっていないので、手を合せる事も出来ないのである。<br><br> これで助けるべき方法が見付かった訳である。<br><br>（S24. 7.12） 010 眼二つ見ゆ ある信者で御座いますが、霊が憑りました場合目の前にだんだん恐しい眼だけ二つ現われまして、睨まれるようでとても気味悪く感ずるそうで御座います。<br><br>本人は三十七年前喘息で死亡致しました祖父の写真の目付きによく似ていると申しますが、霊的に何か関係が御座いましょうか。<br><br>御伺い申し上げます。<br><br> 苦しんでいて、助けてもらいたいのである。<br><br>祝詞を奏げればそういう事はなくなる。<br><br>（S25. 1.22） 011 胸に浮ぶ霊示 ある会員で御座いますが、霊的の事は何でも胸に浮かび口を割って出て来ると申します。<br><br>その人の言う通りに致しますと、霊的の病気は一切解決されます。<br><br>また、いかなる霊でも呼びたいと思い端座しますと直ぐ来ると申します。<br><br>平常は別に憑霊的なところは見えません。<br><br>副守護神の作用で御座いましょうか。<br><br>あるいは憑依霊のためで御座いましょうか。<br><br>御伺い申し上げます。<br><br> 霊的であるが、祖霊の中にそういう能力をもつ霊があるのである。<br><br> ただ、全部の病気という事は出来ぬ。<br><br>（S24. 9.11） 012 御光に人間焼失の霊視 一昨年七月入信したまま手を振った事のない信者ですが、十日程前霊界の状態が見えまして、広間に百人程の霊が並んで一生懸命頭を下げてお願いしている様子でしたが、間もなく正面から薄い光が出て段々強くなり、見る見るうちに殆どの霊が焼けてしまって後に残ったのは一割か一割半位しかおりません。<br><br>こんな事が本当にあるかと聞かれて困っております。<br><br>どう言ったらよろしいでしょうか。<br><br> 無いとは言えない。<br><br>はっきり言うと、予言を言うように思われる。<br><br>祖霊が忠告しているのである。<br><br> 013 線香の煙による知らせ アパート住いのためお仏壇を箪笥の横の机の上に台を置いてお祀りしてあります。<br><br>ある日雨降りの朝お茶をお供えして線香を立てお詣り致し約二十分位経って気が付いて見ますと、線香の煙が一直線にスーッと勢いよく上に昇り、仏壇の天井にぶつかり、それから向って右側より下にもどり、お茶碗の中及びお盆の中をもやもやとしており、また勢いよく上に昇るのと下に行くのとに別れていたそうです。<br><br>気流の関係にしては余りに不思議ですので、何か意味がありましょうか。<br><br> 箪笥より低くなるからいけないのである。<br><br>それを知らせようとしたのである。<br><br>早速箪笥の上へやるとよい。<br><br> 014 祖霊が治らぬという眼病 生後七ケ月の女児で御座いますが、生れました時目に白い雲がかかっておりまして、種痘後目がつぶれ、赤い寒天のようなものが出ました。<br><br>驚いて医師に見せましたところ、目の玉を抜くより他に方法がないと言われ、御浄霊を御願いに参りました。<br><br>御浄霊一週間で赤い寒天様のものは出なくなり、白い雲は薄くなりました。<br><br>その後十五日になりますが別段変化御座いません。<br><br>先日祖霊が憑りまして「この子の目は治らない」と申したそうで御座いますが、果して治らないもので御座いましょうか。<br><br>御伺い申し上げます。<br><br> 祖霊などには判らぬ病気がある。<br><br>あるいは他の霊が祖霊の声色を使ったのかもしれない。<br><br>あまりそういうものに頼るのはよくない。<br><br> 種痘の種が目へ行ったものであろう。<br><br>気長にすれば治ろう。<br><br>（S24. 8.22） 015 肉体に痣表われて知らす 最近、五十六歳、女の患者さんで、喜び事の前になると下腹部に赤く痣のようになり、禍い事の前には右腕の付根に赤く「山」の文字が現われ、肉体的に疲れた時には膝の周囲に青い斑点が現われ、その事が済むと消えます。<br><br>何か霊的原因がございましょうか。<br><br>御伺い申し上げます。<br><br> 守護神の一人が知らせようとする。<br><br> 夢とか外の事で知らす。<br><br> 知らしたい守護神の働きである。<br><br> 016 四足五指の雛鶏孵る 島根県の事ですが、数年前鉄道自殺をした方があり、先般三回も信者の方に憑依致し、救って欲しい、家族が入信してほしいと頼みましたが、家族の者はどうしても判らず、入信致しません。<br><br>ところがこの度その家で鶏の卵を孵そうと致しましたところ、九ケの内八ケは腐り、一個だけ四本足に五本の指の雛（ひよこ）が孵りました。<br><br>右の霊と何か関係がありましょうか。<br><br> 無論関係あり、怒って不思議な事をして気付かせようとしてしたのであろう。<br><br>今少し打遣っておけ、霊の要求が段々判って来よう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Estudos Espirituais, Volume II: Fenômenos Espirituais (Parte 2)</h2>
 <h2>Comunicações Espirituais</h2>
@@ -141,5 +293,48 @@ function toggleLang(lang) {
 <h3>016. Nascimento de um Pintinho com Quatro Patas e Cinco Dedos</h3>
 <p>Na província de Shimane, há alguns anos, um homem cometeu suicídio atirando-se na frente de um trem. Recentemente, seu espírito se manifestou por três vezes a um de nossos membros, pedindo para ser salvo e suplicando que sua família ingressasse na Fé. Contudo, a família não compreende a situação e se recusa a se tornar messiânica. Recentemente, ao tentarem chocar ovos de galinha em casa, dos nove ovos, oito apodreceram. Apenas um eclodiu, e dele nasceu um pintinho com quatro patas e cinco dedos em cada uma. Haveria alguma relação entre esse fato e o referido espírito?</p>
 <p>Certamente há uma relação. Irado, o espírito provocou esse fenômeno insólito para chamar a atenção da família. Aguardem mais um pouco. Com o tempo, as exigências do espírito se tornarão cada vez mais claras.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊学篇 二 霊的現象（二） １ 001-016 霊示 001 額の傷 私は二十一年五月左額を負傷し、七ケ月も医療にかかり良くならず、結局は本教に入信してこの御浄霊により快方に向いました。<br/><br/>ただ今は左額に醜痕を残すのみとなりました。<br/><br/>この信仰に入って額の大事な事につくづく感じ入りました。<br/><br/>つきましては、私の負傷は御先祖の戒告とか諸霊の祟りとかの霊的因縁はいかがなもので御座いましょうか。<br/><br/>お教え願います。<br/><br/> それ程の事もない。<br/><br/>しかし額を負傷したことは意味ない事はない。<br/><br/>目より額は上で、目上、主人、先生、祖先などに関係あり、目下は家来であるから、祖先をおろそかにしたりすると祖先が気付かせるためにするのである。<br/><br/>痕が残るのは薬のためである。<br/><br/>薬毒の染み込んだあとが残るのである。<br/><br/> 002 神参りの都度災禍 四国の小豆島へ参拝して帰宅後、一回目の参拝では、家族の産後気が狂い死亡、二回目帰宅後、池へ落ちて死亡し、参拝する度にこのような不幸があるのは邪神のためでしょうか。<br/><br/> 霊的な訳がある。<br/><br/> 本教入信者ならば参拝はやめるべきである。<br/><br/> 神にも種々ある。<br/><br/>この問によれば、参拝してはいけないので、祖霊が止めるのだと思う。<br/><br/> 光明如来様は一番お位が上であるから、信仰する以上、神参拝するのは本当でない。<br/><br/> 003 定日に事故あり 本年四月十八日に息子が他所のお婆さんに自転車を突当てて怪我をさせ、また七月十八日に五歳になる子供が疫痢に罹り、八月十八日に瀬戸物の三万五千円程の品を詐欺にかかる等、十八日という日のみ災難に逢っておりますが、何か訳があるのでしょうか。<br/><br/>御伺い申し上げます。<br/><br/>因みに家族四入信しており、本年三月光明如来様を御祭りさせて戴いております。<br/><br/> 祖先に関係があろう。<br/><br/>十八日に亡くなった祖先で、気に入らぬ事があるから知らせるのである。<br/><br/>事柄を考えてみよ。<br/><br/> 昔、警察問題等は必ず八の日であった。<br/><br/>（S24. 9.16） 004 中風霊知らす 入信後二年になる娘の婿中村隆（二十七歳）と言う者で御座います。<br/><br/>去る四月十日の夕方仕事先にて急に中風状態になりましたので、驚いて御浄霊を致しましたので幾分軽くなりました。<br/><br/>三日目の午後、三人にて御仏壇に向て善言讃詞をとなえ申しますと、中途において妻（私の娘）の春江と申す者が急に居眠りを始めましたので、私がかたわらにてつつきますと目を醒しては、また居眠り、その居眠りの内に鼻をつままれたり手を握られたりしたそうであります。<br/><br/>また私にも亡父が目に写りましたので御座います。<br/><br/> この人は現在起きてぶらぶらしている程度であります。<br/><br/>私の家では中風にて亡くなった者が二人もありますが、この病人と何か関係がありますでしょうか。<br/><br/>また今後いかに致しましたら御先祖を救う事が出来ますでしょうか。<br/><br/> 中風の霊が憑った。<br/><br/>娘の鼻をつまむなどしてそれを知らそうとした。<br/><br/>（母などに） 婿が御神書を読み、出来るだけ徳を積めば必ず治る。<br/><br/>（S25. 4. 7） 005 飲食の際肩胸痛む 前問（第八問）の荒井房吉さんは会社や他家で食事を頂く時は何とも御座いませんが、自宅でお茶を飲んだり食事を頂き始めますと必ず左の肩から左胸部にかけて急激に痛みを感じ、暫く御浄霊致しませんとおさまりません。<br/><br/>これはいかなる訳で御座いましょうか。<br/><br/>御教えをお願い申し上げます。<br/><br/> 何かの知らせである。<br/><br/> 光明如来様をお祭りしてもらいたいのである。<br/><br/>（S25. 5. 2） 006 祖霊の夢みる病人 昭和二十二年一月、戸塚育子氏に師事、受講せし三十歳の女の信徒、（本年二月日本会所属）昭和十八年四月結婚、同年五月盲腸手術、十九年に二回掻爬、十九年十一月流産、二十年十月関節炎、二十一年二月下腹部切開手術、二十一年八月軽度の精神異状を認め、受講後約一ケ月にして精神正常となり現在に及んでおりますが、今月に入り全身倦怠感の御浄化を戴き、最近腹部あるいは胸部頸部等に非常な苦痛を訴えますが、苦痛の個所には発熱を認められません。<br/><br/>その都度祝詞を奏上致し善言讃詞を奉唱させて戴くと苦痛が軽減致す時と、苦痛の場所が直ちに異動する時もありますが、御守護を戴きまして本日初めて御面会を戴いております。<br/><br/>一昨日汽車の中で一回、昨日横須賀の日本会本部において三回苦痛の御浄化を戴きました。<br/><br/> なお本人は白蛇の夢や御先祖の夢をよく見せられております。<br/><br/>その外生死霊の原因のある事も認められます。<br/><br/>右に関し今後の御浄化に際しては祝詞と善言讃詞を奉唱させて戴き、御浄霊を続けさせて戴く以外に方法がございますれば御教示をお願い申し上げます。<br/><br/> 祖先の中で苦しんでいるものがあり、光明如来様をお祭りしてもらいたいのである。<br/><br/> 早く、救ってもらいたいのである。<br/><br/> 007 祖霊の望みを知らす 蓑島時子（二十七歳）未入信、主人は入信しております。<br/><br/>四月十一日に男子を分娩、十三日夜寝ていますと左腰より下にかけて電気に打たれたようになり、一夜に三度もありました。<br/><br/>同日は祖母の命日でした。<br/><br/>また二十六日には床に入り、目はあけている時、仏壇の方より冷たい風が額に当り、目の前にお宮の屋根のようなものが顔前に現れ、その前に小さな額が見えるので何かと思い良く見たところ祖父の写真でありました。<br/><br/>その時も三度同じ事が繰返されました。<br/><br/>その日は祖々母の命日にて、祖々母は水死しております。<br/><br/>なお本人自身非常に毎日淋しく感ずると言っておりますが、何かを知らせているのでしょうか。<br/><br/>またいかにすれば宜敷いでしょうか。<br/><br/>御教示下さい。<br/><br/> 祖霊が頼んでいる。<br/><br/>家へ光明如来様、仏壇へお屏風様を祭ってもらいたいのでそうする。<br/><br/>（S25. 5. 7） 008 肺病の夫祖先を気にす（狂死の霊） 主人（四十六歳）は三年前より胸の病で休んでおります。<br/><br/>今迄に余り薬は用いませんが、昨年四月迄約一ケ年療養所にて養生していた事があります。<br/><br/>三ケ月程前に御光を戴き、時々先生に来て戴き毎日私が浄霊をさせて戴いております。<br/><br/>現在の病状は微熱あり、食事の時位は起きておりますが便秘気味ではっきり致しません。<br/><br/>主人は祖先の霊の事を頻りと気にしおり、信仰も従来種々やりましたが、親戚に次のような事があり、これと霊的関係があるのではないかと心配しております。<br/><br/> 十年前主人の姉の夫（坂場某）が精神病にて逆上の結果刃物で義姉とその子供を滅多切りにして即死させました。<br/><br/>それから後は残った子供を二人私共で引取って世話しておりましたが、ただ今は一人を世話しております。<br/><br/>その夫も間もなく衰弱して（座敷牢に入っていたためか）死にました。<br/><br/>坂場家ではその後その夫の兄弟が跡を継いでおりますが、無信心で何もやりません。<br/><br/>私共では近いうち光明如来様を御祭りする準備をしておりますが、今後いかにしたらよいので御座いましょう。<br/><br/> この霊とは関係はない。<br/><br/>普通の浄化を間違った療法で治すため引延ばしたものである。<br/><br/>祖先の霊を気にするのは、祖先の霊が助けてもらいたさに知らすのである。<br/><br/>この信仰へ入ると、余計催促する。<br/><br/>一日も早く光明如来様をお祭りする。<br/><br/>そして信仰雑話を読む。<br/><br/>音読するといい。<br/><br/>霊界で聞いている。<br/><br/>この信仰ではじきに救われる。<br/><br/>精神病や変死などは非常に悪い。<br/><br/>非常に苦しむ。<br/><br/>地獄――当分精神病で気がつかぬ。<br/><br/>その中段々光で救われる。<br/><br/>一人でも多く救うと、その徳で早く救われる。<br/><br/> 009 黒顔手を合せ得ぬ霊 栃木県のある熱心な信者で御座いますが、七月二日御屏風観音様をお祭りさせて戴き、その日より四、五日後のある夜半、一時半頃床につこうとして横になりましたとたんに黒い人間のような、猫のような耳許迄口の裂けた恐ろしい顔が見えまして、それが自分の身体に入ったような気が致しましたそうで御座いますが、それから苦しくなりました。<br/><br/>祝詞を三回奏上致しましたら急に額を畳につけたまま「重くなって重くなって頭を上げる事が出来ない。<br/><br/>上から押えつけられるような感じです。<br/><br/>助けて下さい。<br/><br/>助けて下さい」と申します。<br/><br/>私が「大先生様が御守護下さいますから大丈夫です」と言い、肩を押上げますとすーっと頭が上り、軽くなりました。<br/><br/>望みにより再び祝詞を奏上致しますと、手を合せる事が出来ず、合せようとしますと丸くなってしまい、全身寒気を感じました。<br/><br/>手を合せてあげ、額を御浄霊しますと、すっかり軽くなりました。<br/><br/>黒い顔した霊は祖霊で御座いましょうか、恨みの霊で御座いましょうか。<br/><br/>また手が丸くなるのはこの霊と関係があるので御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 畜生道へ堕ちた祖霊である。<br/><br/>未だ人間になっていないので、手を合せる事も出来ないのである。<br/><br/> これで助けるべき方法が見付かった訳である。<br/><br/>（S24. 7.12） 010 眼二つ見ゆ ある信者で御座いますが、霊が憑りました場合目の前にだんだん恐しい眼だけ二つ現われまして、睨まれるようでとても気味悪く感ずるそうで御座います。<br/><br/>本人は三十七年前喘息で死亡致しました祖父の写真の目付きによく似ていると申しますが、霊的に何か関係が御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 苦しんでいて、助けてもらいたいのである。<br/><br/>祝詞を奏げればそういう事はなくなる。<br/><br/>（S25. 1.22） 011 胸に浮ぶ霊示 ある会員で御座いますが、霊的の事は何でも胸に浮かび口を割って出て来ると申します。<br/><br/>その人の言う通りに致しますと、霊的の病気は一切解決されます。<br/><br/>また、いかなる霊でも呼びたいと思い端座しますと直ぐ来ると申します。<br/><br/>平常は別に憑霊的なところは見えません。<br/><br/>副守護神の作用で御座いましょうか。<br/><br/>あるいは憑依霊のためで御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 霊的であるが、祖霊の中にそういう能力をもつ霊があるのである。<br/><br/> ただ、全部の病気という事は出来ぬ。<br/><br/>（S24. 9.11） 012 御光に人間焼失の霊視 一昨年七月入信したまま手を振った事のない信者ですが、十日程前霊界の状態が見えまして、広間に百人程の霊が並んで一生懸命頭を下げてお願いしている様子でしたが、間もなく正面から薄い光が出て段々強くなり、見る見るうちに殆どの霊が焼けてしまって後に残ったのは一割か一割半位しかおりません。<br/><br/>こんな事が本当にあるかと聞かれて困っております。<br/><br/>どう言ったらよろしいでしょうか。<br/><br/> 無いとは言えない。<br/><br/>はっきり言うと、予言を言うように思われる。<br/><br/>祖霊が忠告しているのである。<br/><br/> 013 線香の煙による知らせ アパート住いのためお仏壇を箪笥の横の机の上に台を置いてお祀りしてあります。<br/><br/>ある日雨降りの朝お茶をお供えして線香を立てお詣り致し約二十分位経って気が付いて見ますと、線香の煙が一直線にスーッと勢いよく上に昇り、仏壇の天井にぶつかり、それから向って右側より下にもどり、お茶碗の中及びお盆の中をもやもやとしており、また勢いよく上に昇るのと下に行くのとに別れていたそうです。<br/><br/>気流の関係にしては余りに不思議ですので、何か意味がありましょうか。<br/><br/> 箪笥より低くなるからいけないのである。<br/><br/>それを知らせようとしたのである。<br/><br/>早速箪笥の上へやるとよい。<br/><br/> 014 祖霊が治らぬという眼病 生後七ケ月の女児で御座いますが、生れました時目に白い雲がかかっておりまして、種痘後目がつぶれ、赤い寒天のようなものが出ました。<br/><br/>驚いて医師に見せましたところ、目の玉を抜くより他に方法がないと言われ、御浄霊を御願いに参りました。<br/><br/>御浄霊一週間で赤い寒天様のものは出なくなり、白い雲は薄くなりました。<br/><br/>その後十五日になりますが別段変化御座いません。<br/><br/>先日祖霊が憑りまして「この子の目は治らない」と申したそうで御座いますが、果して治らないもので御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 祖霊などには判らぬ病気がある。<br/><br/>あるいは他の霊が祖霊の声色を使ったのかもしれない。<br/><br/>あまりそういうものに頼るのはよくない。<br/><br/> 種痘の種が目へ行ったものであろう。<br/><br/>気長にすれば治ろう。<br/><br/>（S24. 8.22） 015 肉体に痣表われて知らす 最近、五十六歳、女の患者さんで、喜び事の前になると下腹部に赤く痣のようになり、禍い事の前には右腕の付根に赤く「山」の文字が現われ、肉体的に疲れた時には膝の周囲に青い斑点が現われ、その事が済むと消えます。<br/><br/>何か霊的原因がございましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 守護神の一人が知らせようとする。<br/><br/> 夢とか外の事で知らす。<br/><br/> 知らしたい守護神の働きである。<br/><br/> 016 四足五指の雛鶏孵る 島根県の事ですが、数年前鉄道自殺をした方があり、先般三回も信者の方に憑依致し、救って欲しい、家族が入信してほしいと頼みましたが、家族の者はどうしても判らず、入信致しません。<br/><br/>ところがこの度その家で鶏の卵を孵そうと致しましたところ、九ケの内八ケは腐り、一個だけ四本足に五本の指の雛（ひよこ）が孵りました。<br/><br/>右の霊と何か関係がありましょうか。<br/><br/> 無論関係あり、怒って不思議な事をして気付かせようとしてしたのであろう。<br/><br/>今少し打遣っておけ、霊の要求が段々判って来よう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

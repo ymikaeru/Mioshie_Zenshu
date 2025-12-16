@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>bijutsu</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 美術館落成の御挨拶 管長 大草直好 『栄光』161号、昭和27(1952)年6月18日発行 地上天国建役と云う事は人類の幸福世界出現と云うことであり、真の文化を有する芸術の世界、即ち真善美の調和した平和世界の実現であることは勿論であります。<br><br> 天国世界を現実に創造される御聖業の、真の文化の発祥の地となるべき箱根強羅の神仙郷における地上天国の模型は美術館の落成によって名実ともに整い、全世界に対し恰も放送席から送る電波の如く昭和二十七年六月十五日を期し、なお一層強度の波紋となって伝播せらるると確信するのであります。<br><br>その波紋こそ一歩一歩人類の幸福世界実現の基となるのであります。<br><br> そこでこの模型が熱海あるいは各地全世界の要所に完成されて初めて世界の幸福、世界中が天国化される「ミロク」の世界が実現されると云うことであります。<br><br>又一方において天国世界が次第に実現されるにつれ、その反面に旧き誤れる文化は破壊されるのは必然の原理であることは御教によって吾々は認識させて頂いて居るのであります。<br><br>そこでこの度神仙郷の地上天国の模型の完成は、まず人類に対する御救いの重大意義の啓示であると同時に、真の文化の輝かしき誕生であることは言うまでもないことであります。<br><br> 吾々信徒がこの御聖業の礎となるべき美術館建設の一端の御仕事に参加させて頂きましたことはとりもなおさず永遠不滅の天国の模型建設の根本に参加せられたことであり、今後私共は誠と誇りと喜びを以って邁進致したいと思うのであります。<br><br> ここに美術館落成に伴って御祝を申し述べるとともに、信徒各位に対しては衷心から謝意を表し、益々今後御精進あらんことを御願い申し上げて美術館落成の御挨拶と致すものであります。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Pronunciamento por Ocasião da Inauguração do Museu de Arte</h2>
 <p><strong>Presidente Naoyoshi Okusa</strong>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Nesse sentido, somente quando este protótipo for replicado em Atami e em outros pontos estratégicos do planeta, o Mundo de Miroku — um mundo de felicidade em que toda a Terra se tornará um paraíso — será finalmente alcançado. Paralelamente, à medida que o mundo paradisíaco se materializa, a antiga e equivocada cultura é, por um princípio inevitável, destinada à dissolução, conforme nos foi dado a conhecer pelos Ensinamentos. Portanto, a conclusão do protótipo do Paraíso Terrestre em Shinsenkyo (神仙郷) representa, antes de tudo, uma revelação do profundo significado da salvação da humanidade e, simultaneamente, o glorioso nascimento da verdadeira cultura.</p>
 <p>A oportunidade que nos foi concedida, a nós, fiéis, de participar de uma parcela da construção deste Museu de Arte — o alicerce desta Obra Divina — equivale, em essência, a tomar parte nos fundamentos da edificação do protótipo eterno e imortal do Paraíso. Desejamos, doravante, prosseguir nesta jornada com sinceridade, orgulho e alegria.</p>
 <p>Por ocasião da inauguração do Museu de Arte, apresento minhas mais sinceras congratulações. Ao mesmo tempo, expresso minha profunda gratidão a todos os fiéis e rogo por sua crescente dedicação e aprimoramento espiritual. Com estas palavras, encerro meu pronunciamento.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 美術館落成の御挨拶 管長 大草直好 『栄光』161号、昭和27(1952)年6月18日発行 地上天国建役と云う事は人類の幸福世界出現と云うことであり、真の文化を有する芸術の世界、即ち真善美の調和した平和世界の実現であることは勿論であります。<br/><br/> 天国世界を現実に創造される御聖業の、真の文化の発祥の地となるべき箱根強羅の神仙郷における地上天国の模型は美術館の落成によって名実ともに整い、全世界に対し恰も放送席から送る電波の如く昭和二十七年六月十五日を期し、なお一層強度の波紋となって伝播せらるると確信するのであります。<br/><br/>その波紋こそ一歩一歩人類の幸福世界実現の基となるのであります。<br/><br/> そこでこの模型が熱海あるいは各地全世界の要所に完成されて初めて世界の幸福、世界中が天国化される「ミロク」の世界が実現されると云うことであります。<br/><br/>又一方において天国世界が次第に実現されるにつれ、その反面に旧き誤れる文化は破壊されるのは必然の原理であることは御教によって吾々は認識させて頂いて居るのであります。<br/><br/>そこでこの度神仙郷の地上天国の模型の完成は、まず人類に対する御救いの重大意義の啓示であると同時に、真の文化の輝かしき誕生であることは言うまでもないことであります。<br/><br/> 吾々信徒がこの御聖業の礎となるべき美術館建設の一端の御仕事に参加させて頂きましたことはとりもなおさず永遠不滅の天国の模型建設の根本に参加せられたことであり、今後私共は誠と誇りと喜びを以って邁進致したいと思うのであります。<br/><br/> ここに美術館落成に伴って御祝を申し述べるとともに、信徒各位に対しては衷心から謝意を表し、益々今後御精進あらんことを御願い申し上げて美術館落成の御挨拶と致すものであります。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

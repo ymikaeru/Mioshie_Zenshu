@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>syaka073</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 社会人事篇 ７ 073-093 処世 073 人間の努むべき事 人間として努むべき事は、人間に対しては感謝されるようにし、神の目的に沿うべき事である。<br><br>神はその恩賞として御褒美下さる。<br><br> 074 人を警戒する事 相手を信じすぎたため、幾度も失敗を繰り返しましたが、しかしながらそのために次の相手を警戒するというのは本当でないと思われます。<br><br>かかる場合、どういう心構えで進むべきでしょうか。<br><br> 右御教示御願い申し上げます。<br><br> 警戒してよい。<br><br>大いにした方がよい。<br><br>しかし警戒し過ぎてはいけない。<br><br>程々にすべきである。<br><br>実に巧妙なる手段で来る。<br><br>警戒は良い事である。<br><br>もし騙されればこちらも損だし、先方も罪を作る。<br><br>大本のお筆先に、我よし―という事がある。<br><br>また人よかれの精神でなくてはともある。<br><br>人が幸せになる。<br><br>健康になる事を願う心、これが尊い。<br><br>絶えず自分で自分を批判すべきである。<br><br> 物は結果であるから――。<br><br>（S24. 4.13） 075 故障起る事業、順調と故障 順調にゆけばいいが、故障が起ったらやめるという風でよい。<br><br>神様の事はきっとそうである。<br><br>スラスラとゆくのでなくてはならぬ。<br><br> 076 口と出世（口の使い方根本理念） 無口の者は出世が遅れると言われておりますが、いかなる訳で御座いましょうか。<br><br> 遅れる。<br><br>口は喋舌るために出来ている。<br><br>それを使わぬのは本当でない。<br><br>ただ人の話も聞かなくてはいけない。<br><br>人の話も聞き、自分の口もきく―という風でなくてはいけない。<br><br>無駄に使うのは勿体ない。<br><br>何か役をしないといけない。<br><br>神様の事など言うのも結構であるが、あまり固くなるから冗談もいい。<br><br> 人を好い気持にする事が一番で、人を脅かしたり、悲しませ、滅入るような事を言うのはいけない。<br><br>よくある事である。<br><br>（S24. 8. 6） 077 処世の嘘（善事のための嘘） 臨機応変である。<br><br> 信仰なら正直にしなくてはならぬ。<br><br>今迄は嘘の世界であるから嘘を吐いていいが、人に被害を与える嘘はいけない。<br><br>そして善い事をする嘘も重なると罪になるので、いい事によってカバーするようにせよ。<br><br>（S23） 078 偽り言の必要（正直な嘘） 少しの偽り事、隠し事等あってはいけないという事を御身を以て御諭し下さるため、今度新聞に出たような事があったのだと教えられましたが、他にも意味がございましょうか。<br><br> そんな事はない。<br><br>もし偽り言がないならば一日も人間生活は出来ぬ。<br><br>それ故、正直な嘘をつくようにせよ。<br><br>偽り言や隠し言でも善の結果になればよい。<br><br>先にイプセンの小説に隠し事をないようにする事にしようとして、夫婦で秘密をいい合った。<br><br>最後に夫人が自白したのは、夫を愛していない、今でも昔の人を愛していると言った。<br><br>それでやはり一家は秘密があった方がよいと言った。<br><br> 要するに、結果において善ならよい。<br><br>（S24.12.13） 079 嘘つき迷信、信用の重要性 日本人の無欲性。<br><br> 隠し果（おお）せるという迷信。<br><br> 立派な人と信用されれば――。<br><br> 一時的うまい事で誤魔化す。<br><br> タッタ一つの嘘で全部が崩れる。<br><br>そういう人間が多い。<br><br> 教団にも沢山ある。<br><br> 信用を受けてからなら、どんなうまい事、良い事でもある。<br><br>それを大局からいうと、ヨクない、欲ない。<br><br>（S25） 080 対談中の眼の置場 他人と対談、座談致します場合に、自己の目の置場はどこに在るべきでしょうか。<br><br> またその場合、長上に対し、対等の者に、下の者に対しいかにすべきでしょうか。<br><br> 右御教示御願い申し上げます。<br><br> どこでもよい。<br><br>（その時の場合による）美人と語る場合、外は見れない。<br><br>変な顔の人をみつめるのも悪い。<br><br>多勢の場合（信仰にあまり関係はないが、社交的に三人四人の人と話する時は）一人の人に話するのは他の人に不快を与えるから注意すべきで、故意に眼をそらすのは良くない。<br><br>何事も程々にする。<br><br>信仰が向上すると、すべて程よくゆく。<br><br>根本は、相手を気持よくさす事で、自然でいい。<br><br> 円太郎馬車のように、脇目もふらずというのも具合が悪い。<br><br>（よく相手の顔をみない人があるが、これはその人の心に何かあるか、勿論生れつきみない人はある。<br><br>悪事をする人は、やさしい顔している）平沢のごときその例で、顔の優しい、いい男は油断出来ぬ。<br><br>（これは御婦人――）（S23.11.18） 081 一喜一憂（神にもあり） 一喜一憂は、信心の世界にはないはずですが、発展する時は気分が浮き浮きし、発展が止まっている時は気が沈むのは、副霊の働きでしょうか。<br><br> 一喜一憂のあるのが当り前である。<br><br>ないなら木石同様である。<br><br>感情のあるのが本当である。<br><br> 神様とて一喜一憂はある。<br><br>副霊のみではない。<br><br> 良いとか悪いという訳にはゆかぬ。<br><br> 私などは極端な心配はしない。<br><br>前途は長いから自分で調節する。<br><br>大きく悲しむのを、ある範囲に止めておく。<br><br> 082 愛の表わし方（淡白の味い） 可愛い子供に、可愛くてたまらないような気持で強く抱き締めたり、苦しみを与えるような行為や、自分の使用人でも特に信用している人間に困難な仕事をさせるような、およそ愛の心と反対的な心は、どんな心なのでしょうか。<br><br> これも程で、いくらいい事でも程がある。<br><br>程度を越してはいけない。<br><br>子供が迷惑せぬ程度にしてやめておけばよい。<br><br>およそ極端なやり方はいけない。<br><br>気候でも寒過ぎても暑すぎてもいけない。<br><br>食物でも甘すぎても辛すぎてもいけない。<br><br>あっさりしたところに味がある。<br><br>一番飽きないのは白米と水である。<br><br>人間でも同じ事である。<br><br> 083 同情と表現（無条件の同情） 「同情」の気持を、どの程度実際の行為に移すべきかということは、難しい問題だと存じますが、この点について御教示下さいませ。<br><br> 実際の行為は、出来るだけの程度で具体的にすればよい。<br><br>いろんな判断が必要である。<br><br>行為に表わしては不可の場合がある。<br><br>（その人が苦しむ事によって救われるから、同情すると神意に添わぬ。<br><br>この点が難しい。<br><br>乞食にくれるのはわるい）慈善も過ぎると怠け者を作る。<br><br>戦傷不具者などは助ける要がある。<br><br> 無条件の同情は病気である。<br><br>これだけは何が何でも助けてやるべきだ。<br><br>（私など、どんなものでも、屋敷の者は誰でも苦しい時はする）（S24. 1.28） 084 愛憎の活動 同情、憐憫等、愛の活動の場合でも他の面に憎しみの活動が起る場合がありますが、その時霊の状態はどうなっておりましょうか。<br><br> 愛も憎しみも人間にはあるが、憎しみの活動があってはいけない。<br><br>あまり窮屈に考えると自他共に苦しむ。<br><br>（S24.12. 3） 085 主師親 主師親と道法礼節とは――。<br><br> 主は主神、最高神、本当は神の事。<br><br> 終戦迄は天皇の事をいった。<br><br>一番有難い偉い方という事。<br><br> 道法礼節――信仰雑話の順序―の中にある。<br><br>（S24.11.13） 086 主師親に仕え奉るとは 主、師、親に仕えるにつき、その心得の相違につき御教示御願い申し上げます。<br><br> これも悟りより外ない。<br><br>はっきり言えぬ。<br><br>人間として最高の御方という事になる。<br><br>今迄は天皇をそう称していた。<br><br>主師親（おや）は、神が人間に生れたという言葉である。<br><br>（S23） 087 無理の別 信仰雑話に無理はいけないと御垂示を賜わっておりますが、光新聞には無理はする程よいと御垂示を賜わりましたが、これにつきましての相違を御教示御願い申し上げます。<br><br> これは混同してゐる。<br><br>身体の無理は健康によい。<br><br>信仰雑話の無理は違う。<br><br>（S24. 4. 9） 088 道法礼節 道法礼節について御教えを賜りたく御願い申し上げます。<br><br> 信仰雑話「順序」の項にかいてある。<br><br>（S24. 2.11） rattail（注） 〔 順序を過る勿れ 『信仰雑話』P.77、昭和23(1948)年9月5日発行〕 089 時所位 時処位という語につき詳しく御教えを賜りたく、御願い申し上げます。<br><br>なお御讃歌に地所位という御文字が使われてありますが、地と言う文字を御使用になる場合は、何か特別の意味が御座いましょうか。<br><br>御伺い申し上げます。<br><br> 時所位にあう事。<br><br>（S24.12. 1） 090 三尺流るれば水は清し 「三尺流るれば水は清し」という諺はどんな事を諷しているものでしょうか。<br><br> 淀むと濁るという意味で、水に限らぬ。<br><br>人間でも、怠ければ濁るという意味である。<br><br>（S24. 2.14） 091 美人薄命 生霊が来たり帰ったり致しますが、二度と来ないようにする浄霊法を御教え下さい。<br><br> 生霊は美男とか美人に多い。<br><br>美人薄命というのは生霊のためである。<br><br> 女の嫉妬の生霊が曇らすとか、男の色欲による執着などが集ってくるために、美人でいて運が悪い。<br><br> 092 親子、夫婦、主従一世 親子は一世、夫婦は二世、主従は三世といわれておりますが、いかなる意味で御座いましょうか。<br><br>御伺い申し上げます。<br><br> 本当からいえば全部一世である。<br><br>夫婦、親子でも、霊層界が違えば、アノ世へ行けば別々になる。<br><br>しかし同じ位なら、同じような所へ行く。<br><br>（S24. 7. 1） rattail（注） 〔 御垂示（ S27年2月**日) 『御垂示録』7号、昭和27(1952)年3月10日発行〕掲載 「仏教では親子は一世、夫婦は二世と申しますが――」 『でたらめです。<br><br>仏教じゃなくて、武士道で言ったんです。<br><br>親子は一世、夫婦は二世、主従は三世――忠義をさせるために、ああいった都合の良い道徳を作ったんです。<br><br>主従は三世で一番深いから親子は一世だから――忠義をしろというんですが、あべこべですよ。<br><br>主従が一番浅いですよ。<br><br>生まれて来て、予期もしないところと主従になるんですからね。<br><br>常識で考えても解りますよ。<br><br>親子は何だが、夫婦はとても強いですからね。<br><br>主従とは違いますよ。<br><br>武家時代の道徳は、そのときの権力者の都合の良いものに作ったんです。<br><br>だから、本当の道徳じゃない。<br><br>人間としての道徳じゃない。<br><br>階級としての道徳ですね。<br><br>間違ったものはいかんと、今廃止になって民主的になったのは――間違ったものが壊れたのは――それで良かったんですね。<br><br>』 093 二度目という事 私の方では、辰年生れの娘は初婚不幸（未亡人となる）にて、再婚すれば幸福になると伝えられ、事実そのように思われます。<br><br>いかなる理由で御座いましょう。<br><br> 結局、迷信である。<br><br>ただこういう事はある。<br><br>人によって物が二度目でないといけない人がある。<br><br>大先生などもそうで――。<br><br> 大本教の説では、今度は第二の岩戸開きだという。<br><br>これは実際においてそうである。<br><br>結婚に限らず。<br><br> 聖書にも、メシヤの前にニセメシヤが出るというが、事実こういう事はあった。<br><br>故に人によって二度目の人がある。<br><br>かなり多い。<br><br>（S24. 7.27）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de Ensaios do Mestre Jikan Okada</h2>
 <h3>073 O Empenho Humano</h3>
@@ -169,5 +321,48 @@ function toggleLang(lang) {
 <p><strong>Pergunta:</strong> Em minha região, acredita-se que uma filha nascida no ano do dragão será infeliz no primeiro casamento (ficando viúva), mas feliz em um segundo. De fato, parece ser assim. Qual seria a razão?</p>
 <p><strong>Meishu-Sama:</strong> Em última análise, é uma superstição. Contudo, existe o seguinte: há pessoas para as quais as coisas precisam acontecer uma segunda vez para dar certo. O grande mestre da Oomoto também era assim.</p>
 <p>A doutrina da Oomoto diz que esta é a "segunda abertura do Portal de Rocha". E, na prática, é verdade, não apenas em relação ao casamento. A Bíblia também diz que, antes do Messias, surgirá um falso messias, o que de fato ocorreu. Portanto, existem pessoas predestinadas a uma "segunda vez". E são muitas. (27/07/1949)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 社会人事篇 ７ 073-093 処世 073 人間の努むべき事 人間として努むべき事は、人間に対しては感謝されるようにし、神の目的に沿うべき事である。<br/><br/>神はその恩賞として御褒美下さる。<br/><br/> 074 人を警戒する事 相手を信じすぎたため、幾度も失敗を繰り返しましたが、しかしながらそのために次の相手を警戒するというのは本当でないと思われます。<br/><br/>かかる場合、どういう心構えで進むべきでしょうか。<br/><br/> 右御教示御願い申し上げます。<br/><br/> 警戒してよい。<br/><br/>大いにした方がよい。<br/><br/>しかし警戒し過ぎてはいけない。<br/><br/>程々にすべきである。<br/><br/>実に巧妙なる手段で来る。<br/><br/>警戒は良い事である。<br/><br/>もし騙されればこちらも損だし、先方も罪を作る。<br/><br/>大本のお筆先に、我よし―という事がある。<br/><br/>また人よかれの精神でなくてはともある。<br/><br/>人が幸せになる。<br/><br/>健康になる事を願う心、これが尊い。<br/><br/>絶えず自分で自分を批判すべきである。<br/><br/> 物は結果であるから――。<br/><br/>（S24. 4.13） 075 故障起る事業、順調と故障 順調にゆけばいいが、故障が起ったらやめるという風でよい。<br/><br/>神様の事はきっとそうである。<br/><br/>スラスラとゆくのでなくてはならぬ。<br/><br/> 076 口と出世（口の使い方根本理念） 無口の者は出世が遅れると言われておりますが、いかなる訳で御座いましょうか。<br/><br/> 遅れる。<br/><br/>口は喋舌るために出来ている。<br/><br/>それを使わぬのは本当でない。<br/><br/>ただ人の話も聞かなくてはいけない。<br/><br/>人の話も聞き、自分の口もきく―という風でなくてはいけない。<br/><br/>無駄に使うのは勿体ない。<br/><br/>何か役をしないといけない。<br/><br/>神様の事など言うのも結構であるが、あまり固くなるから冗談もいい。<br/><br/> 人を好い気持にする事が一番で、人を脅かしたり、悲しませ、滅入るような事を言うのはいけない。<br/><br/>よくある事である。<br/><br/>（S24. 8. 6） 077 処世の嘘（善事のための嘘） 臨機応変である。<br/><br/> 信仰なら正直にしなくてはならぬ。<br/><br/>今迄は嘘の世界であるから嘘を吐いていいが、人に被害を与える嘘はいけない。<br/><br/>そして善い事をする嘘も重なると罪になるので、いい事によってカバーするようにせよ。<br/><br/>（S23） 078 偽り言の必要（正直な嘘） 少しの偽り事、隠し事等あってはいけないという事を御身を以て御諭し下さるため、今度新聞に出たような事があったのだと教えられましたが、他にも意味がございましょうか。<br/><br/> そんな事はない。<br/><br/>もし偽り言がないならば一日も人間生活は出来ぬ。<br/><br/>それ故、正直な嘘をつくようにせよ。<br/><br/>偽り言や隠し言でも善の結果になればよい。<br/><br/>先にイプセンの小説に隠し事をないようにする事にしようとして、夫婦で秘密をいい合った。<br/><br/>最後に夫人が自白したのは、夫を愛していない、今でも昔の人を愛していると言った。<br/><br/>それでやはり一家は秘密があった方がよいと言った。<br/><br/> 要するに、結果において善ならよい。<br/><br/>（S24.12.13） 079 嘘つき迷信、信用の重要性 日本人の無欲性。<br/><br/> 隠し果（おお）せるという迷信。<br/><br/> 立派な人と信用されれば――。<br/><br/> 一時的うまい事で誤魔化す。<br/><br/> タッタ一つの嘘で全部が崩れる。<br/><br/>そういう人間が多い。<br/><br/> 教団にも沢山ある。<br/><br/> 信用を受けてからなら、どんなうまい事、良い事でもある。<br/><br/>それを大局からいうと、ヨクない、欲ない。<br/><br/>（S25） 080 対談中の眼の置場 他人と対談、座談致します場合に、自己の目の置場はどこに在るべきでしょうか。<br/><br/> またその場合、長上に対し、対等の者に、下の者に対しいかにすべきでしょうか。<br/><br/> 右御教示御願い申し上げます。<br/><br/> どこでもよい。<br/><br/>（その時の場合による）美人と語る場合、外は見れない。<br/><br/>変な顔の人をみつめるのも悪い。<br/><br/>多勢の場合（信仰にあまり関係はないが、社交的に三人四人の人と話する時は）一人の人に話するのは他の人に不快を与えるから注意すべきで、故意に眼をそらすのは良くない。<br/><br/>何事も程々にする。<br/><br/>信仰が向上すると、すべて程よくゆく。<br/><br/>根本は、相手を気持よくさす事で、自然でいい。<br/><br/> 円太郎馬車のように、脇目もふらずというのも具合が悪い。<br/><br/>（よく相手の顔をみない人があるが、これはその人の心に何かあるか、勿論生れつきみない人はある。<br/><br/>悪事をする人は、やさしい顔している）平沢のごときその例で、顔の優しい、いい男は油断出来ぬ。<br/><br/>（これは御婦人――）（S23.11.18） 081 一喜一憂（神にもあり） 一喜一憂は、信心の世界にはないはずですが、発展する時は気分が浮き浮きし、発展が止まっている時は気が沈むのは、副霊の働きでしょうか。<br/><br/> 一喜一憂のあるのが当り前である。<br/><br/>ないなら木石同様である。<br/><br/>感情のあるのが本当である。<br/><br/> 神様とて一喜一憂はある。<br/><br/>副霊のみではない。<br/><br/> 良いとか悪いという訳にはゆかぬ。<br/><br/> 私などは極端な心配はしない。<br/><br/>前途は長いから自分で調節する。<br/><br/>大きく悲しむのを、ある範囲に止めておく。<br/><br/> 082 愛の表わし方（淡白の味い） 可愛い子供に、可愛くてたまらないような気持で強く抱き締めたり、苦しみを与えるような行為や、自分の使用人でも特に信用している人間に困難な仕事をさせるような、およそ愛の心と反対的な心は、どんな心なのでしょうか。<br/><br/> これも程で、いくらいい事でも程がある。<br/><br/>程度を越してはいけない。<br/><br/>子供が迷惑せぬ程度にしてやめておけばよい。<br/><br/>およそ極端なやり方はいけない。<br/><br/>気候でも寒過ぎても暑すぎてもいけない。<br/><br/>食物でも甘すぎても辛すぎてもいけない。<br/><br/>あっさりしたところに味がある。<br/><br/>一番飽きないのは白米と水である。<br/><br/>人間でも同じ事である。<br/><br/> 083 同情と表現（無条件の同情） 「同情」の気持を、どの程度実際の行為に移すべきかということは、難しい問題だと存じますが、この点について御教示下さいませ。<br/><br/> 実際の行為は、出来るだけの程度で具体的にすればよい。<br/><br/>いろんな判断が必要である。<br/><br/>行為に表わしては不可の場合がある。<br/><br/>（その人が苦しむ事によって救われるから、同情すると神意に添わぬ。<br/><br/>この点が難しい。<br/><br/>乞食にくれるのはわるい）慈善も過ぎると怠け者を作る。<br/><br/>戦傷不具者などは助ける要がある。<br/><br/> 無条件の同情は病気である。<br/><br/>これだけは何が何でも助けてやるべきだ。<br/><br/>（私など、どんなものでも、屋敷の者は誰でも苦しい時はする）（S24. 1.28） 084 愛憎の活動 同情、憐憫等、愛の活動の場合でも他の面に憎しみの活動が起る場合がありますが、その時霊の状態はどうなっておりましょうか。<br/><br/> 愛も憎しみも人間にはあるが、憎しみの活動があってはいけない。<br/><br/>あまり窮屈に考えると自他共に苦しむ。<br/><br/>（S24.12. 3） 085 主師親 主師親と道法礼節とは――。<br/><br/> 主は主神、最高神、本当は神の事。<br/><br/> 終戦迄は天皇の事をいった。<br/><br/>一番有難い偉い方という事。<br/><br/> 道法礼節――信仰雑話の順序―の中にある。<br/><br/>（S24.11.13） 086 主師親に仕え奉るとは 主、師、親に仕えるにつき、その心得の相違につき御教示御願い申し上げます。<br/><br/> これも悟りより外ない。<br/><br/>はっきり言えぬ。<br/><br/>人間として最高の御方という事になる。<br/><br/>今迄は天皇をそう称していた。<br/><br/>主師親（おや）は、神が人間に生れたという言葉である。<br/><br/>（S23） 087 無理の別 信仰雑話に無理はいけないと御垂示を賜わっておりますが、光新聞には無理はする程よいと御垂示を賜わりましたが、これにつきましての相違を御教示御願い申し上げます。<br/><br/> これは混同してゐる。<br/><br/>身体の無理は健康によい。<br/><br/>信仰雑話の無理は違う。<br/><br/>（S24. 4. 9） 088 道法礼節 道法礼節について御教えを賜りたく御願い申し上げます。<br/><br/> 信仰雑話「順序」の項にかいてある。<br/><br/>（S24. 2.11） rattail（注） 〔 順序を過る勿れ 『信仰雑話』P.77、昭和23(1948)年9月5日発行〕 089 時所位 時処位という語につき詳しく御教えを賜りたく、御願い申し上げます。<br/><br/>なお御讃歌に地所位という御文字が使われてありますが、地と言う文字を御使用になる場合は、何か特別の意味が御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 時所位にあう事。<br/><br/>（S24.12. 1） 090 三尺流るれば水は清し 「三尺流るれば水は清し」という諺はどんな事を諷しているものでしょうか。<br/><br/> 淀むと濁るという意味で、水に限らぬ。<br/><br/>人間でも、怠ければ濁るという意味である。<br/><br/>（S24. 2.14） 091 美人薄命 生霊が来たり帰ったり致しますが、二度と来ないようにする浄霊法を御教え下さい。<br/><br/> 生霊は美男とか美人に多い。<br/><br/>美人薄命というのは生霊のためである。<br/><br/> 女の嫉妬の生霊が曇らすとか、男の色欲による執着などが集ってくるために、美人でいて運が悪い。<br/><br/> 092 親子、夫婦、主従一世 親子は一世、夫婦は二世、主従は三世といわれておりますが、いかなる意味で御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 本当からいえば全部一世である。<br/><br/>夫婦、親子でも、霊層界が違えば、アノ世へ行けば別々になる。<br/><br/>しかし同じ位なら、同じような所へ行く。<br/><br/>（S24. 7. 1） rattail（注） 〔 御垂示（ S27年2月**日) 『御垂示録』7号、昭和27(1952)年3月10日発行〕掲載 「仏教では親子は一世、夫婦は二世と申しますが――」 『でたらめです。<br/><br/>仏教じゃなくて、武士道で言ったんです。<br/><br/>親子は一世、夫婦は二世、主従は三世――忠義をさせるために、ああいった都合の良い道徳を作ったんです。<br/><br/>主従は三世で一番深いから親子は一世だから――忠義をしろというんですが、あべこべですよ。<br/><br/>主従が一番浅いですよ。<br/><br/>生まれて来て、予期もしないところと主従になるんですからね。<br/><br/>常識で考えても解りますよ。<br/><br/>親子は何だが、夫婦はとても強いですからね。<br/><br/>主従とは違いますよ。<br/><br/>武家時代の道徳は、そのときの権力者の都合の良いものに作ったんです。<br/><br/>だから、本当の道徳じゃない。<br/><br/>人間としての道徳じゃない。<br/><br/>階級としての道徳ですね。<br/><br/>間違ったものはいかんと、今廃止になって民主的になったのは――間違ったものが壊れたのは――それで良かったんですね。<br/><br/>』 093 二度目という事 私の方では、辰年生れの娘は初婚不幸（未亡人となる）にて、再婚すれば幸福になると伝えられ、事実そのように思われます。<br/><br/>いかなる理由で御座いましょう。<br/><br/> 結局、迷信である。<br/><br/>ただこういう事はある。<br/><br/>人によって物が二度目でないといけない人がある。<br/><br/>大先生などもそうで――。<br/><br/> 大本教の説では、今度は第二の岩戸開きだという。<br/><br/>これは実際においてそうである。<br/><br/>結婚に限らず。<br/><br/> 聖書にも、メシヤの前にニセメシヤが出るというが、事実こういう事はあった。<br/><br/>故に人によって二度目の人がある。<br/><br/>かなり多い。<br/><br/>（S24. 7.27）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

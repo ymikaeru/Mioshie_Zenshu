@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>zento01</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 善と悪 『信仰雑話』P.90、昭和23(1948)年9月5日発行 世の中は善悪入り乱れ、種々の様相を現わしている。<br><br>すなわち悲劇も喜劇も、不幸も幸福も、戦争も、平和も、その動機は善か悪かである。<br><br>一体、どうして善人もあれば悪人もあるのであろうか。<br><br>この善悪の因って来たるところの、何か根本原因がなくてはならないと誰しも思うであろう。<br><br> 今私がここに説かんとするところのものは、善と悪との原因で、これはぜひ知っておかねばならないものである。<br><br>もちろん普通の人間であれば善人たる事を冀（ねが）い、悪人たる事を嫌うのはあたり前であり、政府も、社会も、家庭も、一部の人を除いては善を愛好する事は当然であって、平和も幸福も悪では生まれない事を知るからである。<br><br> 私は判りやすくするため、善悪の定義を二つに分けてみよう。<br><br>すなわち善人とは「見えざるものを信ずる」人であり、悪人とは「見えざるものは信ぜざる」人である。<br><br>従って「見えざるものを信ずる」人とは、神仏の実在を信ずる、いわゆる唯心主義者であり、「見えざるものは信じない」という人は唯物主義者であり、無神論者である。<br><br>その例を挙げてみよう。<br><br> 今人間が善を行なう場合、その意志は愛からであり、慈悲からであり、社会正義からでもあり、大きくみれば人類愛からでもある。<br><br>そうして善因善果、悪因悪果を信じて善を行なう人もあり、憐憫の情、やむにやまれず人を助けたり、仏教でいう四恩に酬いるというような報恩精神からも、物を無駄にしない、勿体ないと思う質素、倹約等、いずれも善の現われである。<br><br>また人に好感を与えようとし、他人の利便幸福を願い、親切を施し、自己の天職に忠実であり、信仰者が神仏に感謝し報恩の行為も、神仏の御心に叶うべく努める事も、みな善の表れである。<br><br>まだ種々あろうが、大体以上のごとくであろう。<br><br> 次に悪事を行なうものの心理は、全然神仏の存在を信ぜず、利欲のため人の眼さえ誤魔化せば、いかなる罪悪を行なうも構わないという――虚無的思想であり、欺瞞は普通事のごとく行ない、他人を苦しめ、人類社会に禍いを及ぼす事などは更に顧慮する事なく、甚だしきは殺人さえ行なうのである。<br><br>そうして戦争は集団的殺人であって、昔からの英雄などは、自己の権勢のため、限りなき欲望のため、大戦争を起こし、「勝てば官軍」式を行なうのである。<br><br>「人盛んなれば天に勝ち、天定まって人に勝つ」という諺の通り、一時は華やかであるが、必ずと言いたい程、最後には悲惨な運命に没落する事は歴史の示すところで、もちろん動機は悪である。<br><br> このように人の眼さえ誤魔化せば、いかなる事をしても知れないという事であれば、出来るだけ悪事をして、栄耀栄華に暮すほうが得であり、怜悧（りこう）――という事になる。<br><br>また死後人間は零となり、霊界生活などはないと思う心が悪を発生する事になる。<br><br>しかるに、いか程悪運強く、一時は成功者となっても、長い眼でみれば必ずいつかは没落する事は例外のない事実である。<br><br>第一悪事を犯した者は、年が年中不安焦躁の日を送り、いつ何どき引っ張られるか判らないという恐怖に脅え、良心の呵責に責められ、ついには後悔せざるを得なくなるものである。<br><br>よく悪事をしたものが自首したり、捕まってからかえって安心して、刑罰にあう事をよろこぶ者さえある事実を、我等はあまりに多くみるのである。<br><br>それはすなわち神より与えられたる魂が、神から叱責さるるからである。<br><br>何となれば、人間の魂は霊線によって神に通じているからである。<br><br>故に悪を行う場合、完全に人の眼を誤魔化し得たとしても、自分の眼を誤魔化す事は出来ないから、人間は神と霊線で繋がっている以上、人間のいかなる行為も神には手にとるごとく知れるからで、いかなる事も閻魔帳にことごとく記録さるるという訳である。<br><br>この意味において、悪事程割の悪い事はない訳である。<br><br> しかしながら、世の中にはこういう人もある。<br><br>悪事をしようとしても、もしかやり損って世間に知れたら大変だ、信用を落し非常な不利益となるから、という保身的観念からもあり、悪事をすればうまい事とは知りながら、意気地がなくて手を出し得ないという人もあり、また世間から信用を得たり、利益になるという観念から善を行なう功利的善人もある。<br><br>また人に親切を行なう場合、こうすればいずれは恩返しをするだろう――とそれを期待する者もあるが、このような親切は一種の取引であって、親切を売って恩返しを買うという訳になる。<br><br>以上述べたような善は、人を苦しめたり、社会を毒したりする訳ではないから、悪人よりはずっと良いが、真の善人とはいえない。<br><br>まず消極的善人とでもいうべきであろう。<br><br>従ってこのような善人は、神仏の御眼から覧れば真の善人とはならない。<br><br>神仏の御眼は人間の腹の底の底まで見通し給うからである。<br><br>よく世間の人が疑問視する「あんな好い人がどうしてあんなに不幸だろう」などというのは、人間の眼で見るからであって、人間の眼は表面ばかりで肚の底は見えないからで、この種の善人も詮じつめれば「見えざるものは信じない」という心理で、何等かの動機に触れ、少々悪事をしても人に知れないと思う場合、それに手を出す憂いがある以上、危険人物とも言える訳である。<br><br>これに反し、見えざる神仏を信ずる人は、人の目は誤魔化し得ても神仏の眼は誤魔化せないという信念によって、いかなるうまい話といえども決して乗らないのである。<br><br>故に現在表面から見れば立派な善人であっても、神仏を信じない人は、いつ悪人に変化するか判らないという危険性を孕んでいる以上、やはり悪に属する人と言えよう。<br><br> 以上の理によって、真の善人とは「信仰あるもの」すなわち見えざるものを信ずる人にしてその資格あり――というべきである。<br><br>故に私は、現在のごとき道義的観念の甚だしき頽廃を救うには、信仰以外にないと思うのである。<br><br> そうして今日まで犯罪防止の必要から法規を作り、警察、裁判所、監獄等を設けて骨を折っているが、これらはちょうど猛獣の危害を防止するため檻を作り、鉄柵を取りめぐらすのと同様である。<br><br>とすれば、犯罪者は人間として扱われないで、獣類同様の扱いを受けている訳で、せっかく貴き人間と生まれながら、獣類に堕して生を終るという事は、何たる情ない事であろう。<br><br>人間堕落すれば獣となり、向上すれば神となるというのは不変の真理で、全く人間とは「神と獣との中間である生物」である。<br><br>この意味において、真の文化人とは獣性から脱却した人間であって、文化の進歩とは、獣性人間が神性人間に向上する事であると私は信ずるのである。<br><br>従って、神性人間の集まる所――それが地上天国でなくて何であろう。<br><br> （注） 四恩（しおん）、仏教用語。<br><br>般若三蔵（ハンニャサンゾウ）訳の『大乗本生心地観経』によると父母 、衆生 、国王（現在なら政府）、三宝（仏･法・僧） の恩の四つ。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Bem e o Mal</h2>
 <p>O mundo se manifesta em uma miríade de facetas, onde o bem e o mal se entrelaçam. Tragédias e comédias, infortúnios e venturas, guerras e paz: a força motriz por trás de todas essas realidades é, em sua essência, o bem ou o mal. Inevitavelmente, surge a indagação: por que existem pessoas boas e pessoas más? Todos certamente hão de concordar que deve haver uma causa fundamental para essa dualidade.</p>
@@ -103,5 +255,48 @@ function toggleLang(lang) {
 <p>Em virtude do que foi exposto, o verdadeiro bem só pode ser atribuído àquele que possui fé, ou seja, àquele que crê no invisível. É por essa razão que acredito que, para reverter a profunda decadência moral de nossos tempos, não há outro caminho senão a fé.</p>
 <p>Até hoje, com o intuito de prevenir o crime, a sociedade tem se esforçado para criar leis e instituir polícias, tribunais e prisões. Essas medidas, contudo, assemelham-se a construir jaulas e cercas de ferro para conter o perigo de feras selvagens. Isso significa que os criminosos não são tratados como seres humanos, mas como animais. Que destino lamentável é nascer com a nobre condição humana apenas para degenerar ao nível de uma besta e assim encerrar a vida. É uma verdade imutável que o homem, ao decair, torna-se uma besta, e, ao se elevar, torna-se um deus. O ser humano é, em verdade, uma criatura a meio caminho entre a divindade e a bestialidade. Nesse sentido, acredito que o verdadeiro ser civilizado é aquele que se libertou de sua natureza animal, e que o progresso da civilização consiste na elevação do homem-besta ao homem-divino. Por conseguinte, um lugar onde se reúnam homens-divinos — o que mais poderia ser, senão o Paraíso Terrestre?</p>
 <p>(Nota) Quatro Graças (四恩 - shion), termo budista. De acordo com o sutra <em>Daijō honjō shinjikangyō</em>, traduzido por Prajñā, são quatro as graças a serem retribuídas: a dos pais, a dos seres vivos, a do soberano (atualmente, o governo) e a dos Três Tesouros (Buda, a Lei e a Comunidade Monástica).</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 善と悪 『信仰雑話』P.90、昭和23(1948)年9月5日発行 世の中は善悪入り乱れ、種々の様相を現わしている。<br/><br/>すなわち悲劇も喜劇も、不幸も幸福も、戦争も、平和も、その動機は善か悪かである。<br/><br/>一体、どうして善人もあれば悪人もあるのであろうか。<br/><br/>この善悪の因って来たるところの、何か根本原因がなくてはならないと誰しも思うであろう。<br/><br/> 今私がここに説かんとするところのものは、善と悪との原因で、これはぜひ知っておかねばならないものである。<br/><br/>もちろん普通の人間であれば善人たる事を冀（ねが）い、悪人たる事を嫌うのはあたり前であり、政府も、社会も、家庭も、一部の人を除いては善を愛好する事は当然であって、平和も幸福も悪では生まれない事を知るからである。<br/><br/> 私は判りやすくするため、善悪の定義を二つに分けてみよう。<br/><br/>すなわち善人とは「見えざるものを信ずる」人であり、悪人とは「見えざるものは信ぜざる」人である。<br/><br/>従って「見えざるものを信ずる」人とは、神仏の実在を信ずる、いわゆる唯心主義者であり、「見えざるものは信じない」という人は唯物主義者であり、無神論者である。<br/><br/>その例を挙げてみよう。<br/><br/> 今人間が善を行なう場合、その意志は愛からであり、慈悲からであり、社会正義からでもあり、大きくみれば人類愛からでもある。<br/><br/>そうして善因善果、悪因悪果を信じて善を行なう人もあり、憐憫の情、やむにやまれず人を助けたり、仏教でいう四恩に酬いるというような報恩精神からも、物を無駄にしない、勿体ないと思う質素、倹約等、いずれも善の現われである。<br/><br/>また人に好感を与えようとし、他人の利便幸福を願い、親切を施し、自己の天職に忠実であり、信仰者が神仏に感謝し報恩の行為も、神仏の御心に叶うべく努める事も、みな善の表れである。<br/><br/>まだ種々あろうが、大体以上のごとくであろう。<br/><br/> 次に悪事を行なうものの心理は、全然神仏の存在を信ぜず、利欲のため人の眼さえ誤魔化せば、いかなる罪悪を行なうも構わないという――虚無的思想であり、欺瞞は普通事のごとく行ない、他人を苦しめ、人類社会に禍いを及ぼす事などは更に顧慮する事なく、甚だしきは殺人さえ行なうのである。<br/><br/>そうして戦争は集団的殺人であって、昔からの英雄などは、自己の権勢のため、限りなき欲望のため、大戦争を起こし、「勝てば官軍」式を行なうのである。<br/><br/>「人盛んなれば天に勝ち、天定まって人に勝つ」という諺の通り、一時は華やかであるが、必ずと言いたい程、最後には悲惨な運命に没落する事は歴史の示すところで、もちろん動機は悪である。<br/><br/> このように人の眼さえ誤魔化せば、いかなる事をしても知れないという事であれば、出来るだけ悪事をして、栄耀栄華に暮すほうが得であり、怜悧（りこう）――という事になる。<br/><br/>また死後人間は零となり、霊界生活などはないと思う心が悪を発生する事になる。<br/><br/>しかるに、いか程悪運強く、一時は成功者となっても、長い眼でみれば必ずいつかは没落する事は例外のない事実である。<br/><br/>第一悪事を犯した者は、年が年中不安焦躁の日を送り、いつ何どき引っ張られるか判らないという恐怖に脅え、良心の呵責に責められ、ついには後悔せざるを得なくなるものである。<br/><br/>よく悪事をしたものが自首したり、捕まってからかえって安心して、刑罰にあう事をよろこぶ者さえある事実を、我等はあまりに多くみるのである。<br/><br/>それはすなわち神より与えられたる魂が、神から叱責さるるからである。<br/><br/>何となれば、人間の魂は霊線によって神に通じているからである。<br/><br/>故に悪を行う場合、完全に人の眼を誤魔化し得たとしても、自分の眼を誤魔化す事は出来ないから、人間は神と霊線で繋がっている以上、人間のいかなる行為も神には手にとるごとく知れるからで、いかなる事も閻魔帳にことごとく記録さるるという訳である。<br/><br/>この意味において、悪事程割の悪い事はない訳である。<br/><br/> しかしながら、世の中にはこういう人もある。<br/><br/>悪事をしようとしても、もしかやり損って世間に知れたら大変だ、信用を落し非常な不利益となるから、という保身的観念からもあり、悪事をすればうまい事とは知りながら、意気地がなくて手を出し得ないという人もあり、また世間から信用を得たり、利益になるという観念から善を行なう功利的善人もある。<br/><br/>また人に親切を行なう場合、こうすればいずれは恩返しをするだろう――とそれを期待する者もあるが、このような親切は一種の取引であって、親切を売って恩返しを買うという訳になる。<br/><br/>以上述べたような善は、人を苦しめたり、社会を毒したりする訳ではないから、悪人よりはずっと良いが、真の善人とはいえない。<br/><br/>まず消極的善人とでもいうべきであろう。<br/><br/>従ってこのような善人は、神仏の御眼から覧れば真の善人とはならない。<br/><br/>神仏の御眼は人間の腹の底の底まで見通し給うからである。<br/><br/>よく世間の人が疑問視する「あんな好い人がどうしてあんなに不幸だろう」などというのは、人間の眼で見るからであって、人間の眼は表面ばかりで肚の底は見えないからで、この種の善人も詮じつめれば「見えざるものは信じない」という心理で、何等かの動機に触れ、少々悪事をしても人に知れないと思う場合、それに手を出す憂いがある以上、危険人物とも言える訳である。<br/><br/>これに反し、見えざる神仏を信ずる人は、人の目は誤魔化し得ても神仏の眼は誤魔化せないという信念によって、いかなるうまい話といえども決して乗らないのである。<br/><br/>故に現在表面から見れば立派な善人であっても、神仏を信じない人は、いつ悪人に変化するか判らないという危険性を孕んでいる以上、やはり悪に属する人と言えよう。<br/><br/> 以上の理によって、真の善人とは「信仰あるもの」すなわち見えざるものを信ずる人にしてその資格あり――というべきである。<br/><br/>故に私は、現在のごとき道義的観念の甚だしき頽廃を救うには、信仰以外にないと思うのである。<br/><br/> そうして今日まで犯罪防止の必要から法規を作り、警察、裁判所、監獄等を設けて骨を折っているが、これらはちょうど猛獣の危害を防止するため檻を作り、鉄柵を取りめぐらすのと同様である。<br/><br/>とすれば、犯罪者は人間として扱われないで、獣類同様の扱いを受けている訳で、せっかく貴き人間と生まれながら、獣類に堕して生を終るという事は、何たる情ない事であろう。<br/><br/>人間堕落すれば獣となり、向上すれば神となるというのは不変の真理で、全く人間とは「神と獣との中間である生物」である。<br/><br/>この意味において、真の文化人とは獣性から脱却した人間であって、文化の進歩とは、獣性人間が神性人間に向上する事であると私は信ずるのである。<br/><br/>従って、神性人間の集まる所――それが地上天国でなくて何であろう。<br/><br/> （注） 四恩（しおん）、仏教用語。<br/><br/>般若三蔵（ハンニャサンゾウ）訳の『大乗本生心地観経』によると父母 、衆生 、国王（現在なら政府）、三宝（仏･法・僧） の恩の四つ。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qsetudan</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 切断された指が元通りに治癒す 包帯したままがよい 『救世』64号、昭和25(1950)年5月27日発行 岡山県 大成大教会光之道中教会 松永つる それはちょうど津山市徳守神社の例祭の日、昭和二十三年十月二十三日の事です。<br><br>私宅の近所に住みウドン製造所に勤めている岩崎孝（一九歳）がいつもの元気な顔にもにず幽霊のごとく青ざめた顔でふらりと入って来たのです。<br><br>そして右手に真赤なものを巻き付けているのです。<br><br>それはタオルが血まみれになっているのでした。<br><br>驚いていると力の無い声で「おばさん、ウドン切断機に巻込まれ、右の人差指を半分位切り落してしまったから助けて下さい」と言うやその場に倒れ意識を失ってしまいました。<br><br> よく見れば血糊はタオルを浸しなお溢れ出ています。<br><br>私は一時あまりの大怪我に茫然とし、戦慄を覚えましたが、側で見ていた妹の励ましにより、漸く吾に返り一心に光明如来様を念じつつ早速御浄霊にかかりました。<br><br>妹はタオルを取り除けました。<br><br>傷口が露出されると出血は正に噴水のごとき物凄さで指は本人の言葉通り半分位の所からプッツリ切断され、見るも無残な重傷でした。<br><br>今から考えるとよくも医療的行為の経験のない私達二人に出来得たと、思い出して身慄いを感じますが、すらすらとやられたのは全く光明如来様の御導きと御守護によるので御座いましょう。<br><br>そして傷口に御霊紙を貼り終え本人に元気を付けるべく口からも飲ませました。<br><br>約十五分間位御浄霊と緊張との息づまるような沈黙の時間が流れました。<br><br>孝さんは目を見開きました。<br><br>ああ！ 意識を回復したのです。<br><br>本人をはげましずーっと御浄霊を続けました。<br><br>全く痛みの止ったのは一時間後でした。<br><br> 何という不思議な御力でしょう。<br><br>これ程の大怪我ではどんな止痛法を試みても数日間ないし数十日間の痛みは免れないでしよう。<br><br>それが全治まで二度と痛みを訴えるような事はありませんでした。<br><br>出血が完全に止まったのは二、三日後で御座いましたが、指が非常に浮腫んで来まして約三倍の太さにまで腫れましたが、奇蹟というか傷の日以来その重傷の指で丁度農繁期の関係もあって、ただの一日も休まずずーっと農業の手伝いを続けるので、私達は「無理してはいけない、仕事をするなどとんでもない」と再三注意するにもかかわらず本人は一向平気で仕続けるのです。<br><br>御浄霊は毎日致しましたが包帯は一度も取り替えずに続けました。<br><br>というのはあまりの重傷の為本人がそれを恐れたからでした。<br><br>四週間程経過しいよいよ完全に腫れもひいたので包帯を取って見る事になりました。<br><br>本人は指がどうなっているか生れも付かぬ片輪になってはいないかと戦々兢々として包帯をだんだんはがして行きました。<br><br>ところがどうでしょう、指は切断以前の何等異常のない状態でちゃんとあるではありませんか。<br><br>夢ではない幻覚でもない血のかよったぴんぴんよく動く指があるではありませんか。<br><br>爪も節も一つも異常はないのです。<br><br>ああ！ この奇蹟この御利益、本人も私達姉妹もあまりの事にただただ言葉もなく粛然として感謝の涙を飲んだのであります。<br><br> 昨年の八月石坂隆明先生が私に御光をお授けになる時「明主様のこのお守の力は造り主の力ともいうべき神秘極まるお力なのです」といわれた事がまざまざと私の頭によみ返って来ました。<br><br>「造り主の力、造り主の力」と何回も口ずさみながら全く造り主の力でなくてどうして半分も切断された指を元通りにする事が出来ましょう。<br><br>全くだ全くだとたとえようもない幽玄神秘なる御浄霊の御力に陶酔したので御座います。<br><br> 本人が申しますのに傷の指が初め何とも言えないいい気持のような熱感があったそうです。<br><br>私のごときつまらぬ者にかくのごとき偉大なる妙智力をお恵み下さる明主様本当に本当に有難う御座いました。<br><br>本人に替り厚く厚く御礼を申上げ御報告させて頂きました。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Completa Regeneração de um Dedo Seccionado (Aconselhável Manter o Curativo)</h2>
 <p>Publicado na Revista Kyusei nº 64, em 27 de maio de 1950.
@@ -99,5 +254,48 @@ Igreja Hikari-no-Michi, vinculada à Grande Igreja Taisei, Província de Okayama
 <p>Ministramos Johrei diariamente, mas não trocamos o curativo nenhuma vez, pois, devido à severidade da lesão, o próprio rapaz temia vê-la. Passadas cerca de quatro semanas, quando o inchaço finalmente cedeu por completo, decidimos remover a bandagem. Apreensivo, temendo que seu dedo estivesse irremediavelmente deformado, ele mesmo começou a desenfaixá-lo com hesitação. Qual não foi nossa surpresa ao constatar que o dedo estava ali, perfeitamente íntegro, sem qualquer anormalidade, como se nada tivesse acontecido. Não era um sonho, tampouco uma alucinação; diante de nós estava um dedo vivo, com circulação normal e movimentos perfeitos. A unha, a articulação, tudo estava intacto. Ah! Diante de tal milagre, de tão imensa graça, tanto o jovem quanto nós, as duas irmãs, ficamos sem palavras e, em solene reverência, vertemos lágrimas de profunda gratidão.</p>
 <p>Naquele momento, vieram-me à mente com absoluta clareza as palavras do ministro Takaaki Ishizaka, ditas em agosto do ano anterior, quando recebi meu Ohikari: "A força contida neste ponto focal sagrado de Meishu-Sama é um poder de inefável mistério, que poderíamos denominar a própria força do Criador". "A força do Criador, a força do Criador...", repeti para mim mesma diversas vezes. De fato, que outra força senão a do Criador poderia restaurar por completo um dedo seccionado pela metade? Senti-me extasiada, imersa no poder sublime e insondável de Johrei.</p>
 <p>Posteriormente, o rapaz me contou que, no início, sentia no dedo ferido uma agradável sensação de calor, algo que lhe trazia bem-estar. Agradeço do fundo de meu coração a Meishu-Sama por agraciar uma pessoa tão simples como eu com tão grandioso e sublime poder. Em nome do jovem, apresento este relato como forma de expressar nossa mais profunda e sincera gratidão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 切断された指が元通りに治癒す 包帯したままがよい 『救世』64号、昭和25(1950)年5月27日発行 岡山県 大成大教会光之道中教会 松永つる それはちょうど津山市徳守神社の例祭の日、昭和二十三年十月二十三日の事です。<br/><br/>私宅の近所に住みウドン製造所に勤めている岩崎孝（一九歳）がいつもの元気な顔にもにず幽霊のごとく青ざめた顔でふらりと入って来たのです。<br/><br/>そして右手に真赤なものを巻き付けているのです。<br/><br/>それはタオルが血まみれになっているのでした。<br/><br/>驚いていると力の無い声で「おばさん、ウドン切断機に巻込まれ、右の人差指を半分位切り落してしまったから助けて下さい」と言うやその場に倒れ意識を失ってしまいました。<br/><br/> よく見れば血糊はタオルを浸しなお溢れ出ています。<br/><br/>私は一時あまりの大怪我に茫然とし、戦慄を覚えましたが、側で見ていた妹の励ましにより、漸く吾に返り一心に光明如来様を念じつつ早速御浄霊にかかりました。<br/><br/>妹はタオルを取り除けました。<br/><br/>傷口が露出されると出血は正に噴水のごとき物凄さで指は本人の言葉通り半分位の所からプッツリ切断され、見るも無残な重傷でした。<br/><br/>今から考えるとよくも医療的行為の経験のない私達二人に出来得たと、思い出して身慄いを感じますが、すらすらとやられたのは全く光明如来様の御導きと御守護によるので御座いましょう。<br/><br/>そして傷口に御霊紙を貼り終え本人に元気を付けるべく口からも飲ませました。<br/><br/>約十五分間位御浄霊と緊張との息づまるような沈黙の時間が流れました。<br/><br/>孝さんは目を見開きました。<br/><br/>ああ！ 意識を回復したのです。<br/><br/>本人をはげましずーっと御浄霊を続けました。<br/><br/>全く痛みの止ったのは一時間後でした。<br/><br/> 何という不思議な御力でしょう。<br/><br/>これ程の大怪我ではどんな止痛法を試みても数日間ないし数十日間の痛みは免れないでしよう。<br/><br/>それが全治まで二度と痛みを訴えるような事はありませんでした。<br/><br/>出血が完全に止まったのは二、三日後で御座いましたが、指が非常に浮腫んで来まして約三倍の太さにまで腫れましたが、奇蹟というか傷の日以来その重傷の指で丁度農繁期の関係もあって、ただの一日も休まずずーっと農業の手伝いを続けるので、私達は「無理してはいけない、仕事をするなどとんでもない」と再三注意するにもかかわらず本人は一向平気で仕続けるのです。<br/><br/>御浄霊は毎日致しましたが包帯は一度も取り替えずに続けました。<br/><br/>というのはあまりの重傷の為本人がそれを恐れたからでした。<br/><br/>四週間程経過しいよいよ完全に腫れもひいたので包帯を取って見る事になりました。<br/><br/>本人は指がどうなっているか生れも付かぬ片輪になってはいないかと戦々兢々として包帯をだんだんはがして行きました。<br/><br/>ところがどうでしょう、指は切断以前の何等異常のない状態でちゃんとあるではありませんか。<br/><br/>夢ではない幻覚でもない血のかよったぴんぴんよく動く指があるではありませんか。<br/><br/>爪も節も一つも異常はないのです。<br/><br/>ああ！ この奇蹟この御利益、本人も私達姉妹もあまりの事にただただ言葉もなく粛然として感謝の涙を飲んだのであります。<br/><br/> 昨年の八月石坂隆明先生が私に御光をお授けになる時「明主様のこのお守の力は造り主の力ともいうべき神秘極まるお力なのです」といわれた事がまざまざと私の頭によみ返って来ました。<br/><br/>「造り主の力、造り主の力」と何回も口ずさみながら全く造り主の力でなくてどうして半分も切断された指を元通りにする事が出来ましょう。<br/><br/>全くだ全くだとたとえようもない幽玄神秘なる御浄霊の御力に陶酔したので御座います。<br/><br/> 本人が申しますのに傷の指が初め何とも言えないいい気持のような熱感があったそうです。<br/><br/>私のごときつまらぬ者にかくのごとき偉大なる妙智力をお恵み下さる明主様本当に本当に有難う御座いました。<br/><br/>本人に替り厚く厚く御礼を申上げ御報告させて頂きました。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

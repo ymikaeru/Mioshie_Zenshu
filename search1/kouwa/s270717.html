@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s270717</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年7月17日） 『御教え集』12号、昭和27(1952)年8月15日発行 昭和二十七年七月十七日 美術館もいつの間にかできたので、『文明の創造』は先に大体できてましたが、また悪い所は直して完全なものにしようと思って書き始めたのです。<br><br>それについて、書けた分を少し今読ませてみます。<br><br> （御論文「文明の創造 序文」「文明の創造」）（「天国建設と悪の追放」）【栄光 一六九号】 つまりミロクの世というのは悪がなくなることです。<br><br>そうすれば、これだけの文化ですばらしい世界ができるのです。<br><br>しかし悪がきれいになくなるわけではないが、善の方が多くなる。<br><br>今までは悪の方がが九分で善の方は一分であったのが、あべこべになる。<br><br>今度は善が九分で悪は一分になる。<br><br>結局神様の目的は、今言ったように悪を徹底的に減らすことです。<br><br>追放することです。<br><br>で、今読んだように悪を善と信じてやるのが一番恐ろしい。<br><br>それで、善と信じて悪を行なっているその一番大きいものが医学です。<br><br>ですから、医学というのは、遠慮なく言えば悪魔が作ったものです。<br><br>しかしそれは悪が必要だったのです。<br><br>その悪によって人間の寿命を縮め、病気という苦しみを与えていたのです。<br><br>それで人間は一生懸命それを逃れようとして、そうして文化が発達した。<br><br>ですから戦争も病気も、文化を発達させるための必要物だった。<br><br>だから今まではそれで良いが、しかし限度があって――時期があって、いよいよその時期が、悪不必要の時期となったのです。<br><br>それをいよいよ神様がやられるのです。<br><br>それは神様の経綸はなかなか深くすばらしいもので、それはまだはっきりは言えないが、確かにそうなるということを信じていれば、それで良いわけです。<br><br>一番分かりやすく言うと、これほど交通が便利になる――。<br><br>無線によって遠くと交通をしたり遠くと話し合ったり、いろいろそういうことが、人間が不精になってなにごとも面倒臭い、だから手数をかけないでいろいろ思い通りにしたいという欲望は身体が弱ったからそういうことになる。<br><br>最初の人間が造られた時みたいに丈夫だったら、そういう欲望というのはあまり起らないです。<br><br>それには医学という間違ったものをこしらえて人間を弱らせて、今日のような物質文化を作られたのです。<br><br>ところがそれだけでは本当に神様の御目的である地上天国はできっこないですから、そこである程度まで行ったらそれを打ち切りにして、そうして健康は、元の健康にするとともに、文化はすばらしく発達した文化を人間が自由にする。<br><br>それで良い世界を造る。<br><br>つまり理想の実現です。<br><br>そういうわけです。<br><br>だから観音様は薬師如来になったのです。<br><br>薬師如来になってお釈迦さんの『薬草彙本』を説いたのです。<br><br>それで、薬をのませて――それは人間を弱らすために薬を服ませた。<br><br>それが根本で、それを知れば分かるのです。<br><br>それでいよいよ、そういった人間を弱らせる方法は止さなければならないという仕事は、つまり私がやるのです。<br><br>なかなか、みんな迷信にかかってますから、それを壊さなければならないので骨が折れるけれども、根本を知ってみれば別に不思議はないのです。<br><br>それが今まで、根本理論が隠されていたのです。<br><br>ですからなにごとも時期です。<br><br>時期によってちゃんと良い具合になっていく。<br><br>なにしろ世界を支配している神様がやられているのですから、そつはないです。<br><br>それで今まで解らないこと――どうしてこんな戦争によって人間を苦しめるのだとか、病気というそういう苦しいものをこしらえておきながら――その前に医学というものを作っておきながら、なんで――というそういう疑問が起るのです。<br><br>信者の人でもそういう疑問を持つ人はたくさんあります。<br><br>それはこういうわけだと、神様は知らせるために、私に教えるのです。<br><br>というのは、人類から戦争や病気をなくすというその根本原因、それを知らせられるわけです。<br><br>ですから結局において悪魔です。<br><br>もし悪がなくなったとすれば、仮に泥棒もなくなるし、また第一健康法なんかだいぶ変わる。<br><br> これは昔神様から知らされてますが、窓なんかずっと大きくなって風が入るようになる。<br><br>戸締まりなんかいらない。<br><br>汽車や電車に乗っても用心する必要はないし、それから一々、契約書とかいろんな難しい書類を書いて、判をベタベタ捺す必要はないし、金銭の取り引きも実に簡単です。<br><br>それからこれを書いてしまったら、病気以外のことも書きます。<br><br>経済上のことでも、元値がいくらで利益がいくらということを、ちゃんとみな公表しますから、駆け引きはいらなくなる。<br><br>いろんなことについて実に明るく簡単になる。<br><br>そこでどうしても人間は――勤める人も、一日ではどうしても多過ぎるから半日になる。<br><br>半日になってお昼で家に帰るのです。<br><br>弁当もいらない。<br><br>それで午後は自分のしたいこと、楽しみをすることになる。<br><br>今の人間は食うために働くのですから、朝から晩まで働かなくてはいけない。<br><br>そういうふうに神様が人間を造ったのではない。<br><br>ですから働くということは、楽しむために働く。<br><br>幸福な良い生活、歓喜の生活をするために働くというものですから、まるで違うのです。<br><br>そうしてそんな食うために働くと、一日中、朝から晩まで汗水たらして働くということは、無駄な――よけいなことをしているから、それだけ働かなければならない。<br><br>例えば戦争です。<br><br>戦争というものがあるからどうしても軍備をしなければならない。<br><br>それには金や物資がいるから働かなければならない。<br><br>それから悪人がいるからいろいろ苦しめられる――そういうものを防止する機関がいる。<br><br>それから病気を作ることも善と信ずる悪です。<br><br>病人ができたりいろんなことで、それに必要な物資だとかいろいろなことも、人間が働いて作らなければならない。<br><br>そういうことで悪に対して、悪というもののために人間が働かされ苦しめられていることは、たいへんなものです。<br><br>悪がなくなったら、世の中は実におもしろい世の中になります。<br><br>自殺する者はなくなります。<br><br>そうしてみんな長生きする。<br><br>百以上は楽なものです。<br><br>つまり自然に死んで、病気でということはなくなります。<br><br>早死にとかは病気のために死ぬのです。<br><br>それについておもしろいことがある。<br><br>現代の画家ですが、絵は私は好きですが――今名人はいないです。<br><br>今まではいつの時代にも、必ずすばらしい名人があったのです。<br><br>明治から大正にはよくあった。<br><br>ところが今はないのです。<br><br>今名人とされているのは、古径とか靫彦、青邨が一番とされてますが、ところがああいう人たちの絵は、どうしても買う気にならない。<br><br>なぜ買う気にならないかというと、絵が病人の絵なのです。<br><br>ですから筆力なんてないのです。<br><br>病人です。<br><br>というのは、少し画家が有名になってくると、身体を非常に大事にする。<br><br>大事にするから、屁をひってもお医者にかかる。<br><br>お医者にかかれば身体を弱らせることになる。<br><br> 今度美術館ができた時にも、安田靫彦先生――私の子供が弟子になってますが、一般に見せる前に招んだのですが、行きたいが身体が丈夫でないから気持ちの良い時に行くから、いつ行くということのお約束はできない。<br><br>こう言うのです。<br><br>そのくらい弱いのです。<br><br>だからここまで行くと医学というものは、もう打ち切りにしなければならない。<br><br>だんだん芸術家なんかは名人がいなくなる。<br><br>俳優がそうです。<br><br>俳優の有名なのが実になくなっているでしょう。<br><br>それも同じ原因です。<br><br>俳優が少し有名になると身体を大事にする。<br><br>それに、おまけに松竹なんか、その点は非常に――少し身体が弱いというと、松竹の方で医者を招ばせるのです。<br><br>なんとか博士、なんとか博士と、それは医学を信用するからそういうことになるのです。<br><br>それは先に私は経験があります。<br><br>小腸で私が招ばれたのです。<br><br>で、薬を服んではいかん、医者にかかってはいかんと言うと、それは困る。<br><br>会社から一日一回ずつ、なんとか博士が来るから診せないわけにいかないと言うから、薬だけにしなさい。<br><br>注射をされると言うから、それもなんとか止めなさいと言って、治してやりました。<br><br>その後麹町で近所にいたのですが、多摩川に越したために悪くなって、医者にかかって死にました。<br><br>そんなような具合で名人がないということです。<br><br>今、猿之助は大体薬が嫌いだということになっている。<br><br>それから私がよく言ってやったのです。<br><br>それに信者になってますから、これは大丈夫です。<br><br>一番危ないのは吉右衛門です。<br><br>けれどもよほど丈夫なのです。<br><br>医者にかかっていながら、ともかく生きているということは――。<br><br>音羽家一門は駄目です。<br><br>随分奨めたのですが、病気がいったん治って、教修を奨めると、その時分は大先生だったが、大先生じかでなければ嫌だというので、結局駄目だったのです。<br><br>こういう話をするときりがないから――。<br><br>そういうわけで、悪の追放が根本なのです。<br><br>それをだんだん説いていきます。<br><br> それからこれはあんまり信仰には関係ないが、私は映画が好きですから――明主様はどうしてあんなに好きなのかと思うでしょうから、映画に対して、今までの私の経路を一つくらい書いても無駄ではないと思って。<br><br> （御論文「私と映画」）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Expulsão do Mal e o Advento do Mundo Ideal</h2>
 <p>Com a recente conclusão do Museu de Arte, retomei a revisão da obra ‘A Criação da Civilização’, que em sua maior parte já se encontrava finalizada. Meu intuito é aprimorá-la, corrigindo quaisquer imperfeições para torná-la uma obra completa. A seguir, farei a leitura de um trecho que acabei de escrever.</p>
@@ -110,5 +262,48 @@ function toggleLang(lang) {
 <p>Atualmente, o ator Ennosuke é conhecido por sua aversão a medicamentos. Além disso, conversei muito com ele, e como se tornou nosso membro, acredito que estará a salvo. O caso mais preocupante é o de Kichiemon. No entanto, ele deve ser extraordinariamente forte para, apesar de se tratar com médicos, continuar vivo. Já a família Otowa está fadada ao fracasso. Insisti muito para que viessem à nossa Fé. Após uma doença ser curada, incentivei o ator a fazer o curso de formação. Naquela época, ele era considerado um grande mestre e disse que só aceitaria se fosse diretamente comigo, mas no fim não deu certo.</p>
 <p>Enfim, poderia continuar com inúmeros exemplos, mas o ponto central é este: a expulsão do mal é o fundamento de tudo. Continuarei a discorrer sobre este tema gradualmente.</p>
 <p>Por fim, embora não tenha uma relação direta com a fé, sou um grande apreciador de cinema. Para que não se admirem do porquê de Meishu-Sama ter tanto apreço por essa arte, penso que não será em vão se eu dedicar um texto para narrar minha trajetória com os filmes.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年7月17日） 『御教え集』12号、昭和27(1952)年8月15日発行 昭和二十七年七月十七日 美術館もいつの間にかできたので、『文明の創造』は先に大体できてましたが、また悪い所は直して完全なものにしようと思って書き始めたのです。<br/><br/>それについて、書けた分を少し今読ませてみます。<br/><br/> （御論文「文明の創造 序文」「文明の創造」）（「天国建設と悪の追放」）【栄光 一六九号】 つまりミロクの世というのは悪がなくなることです。<br/><br/>そうすれば、これだけの文化ですばらしい世界ができるのです。<br/><br/>しかし悪がきれいになくなるわけではないが、善の方が多くなる。<br/><br/>今までは悪の方がが九分で善の方は一分であったのが、あべこべになる。<br/><br/>今度は善が九分で悪は一分になる。<br/><br/>結局神様の目的は、今言ったように悪を徹底的に減らすことです。<br/><br/>追放することです。<br/><br/>で、今読んだように悪を善と信じてやるのが一番恐ろしい。<br/><br/>それで、善と信じて悪を行なっているその一番大きいものが医学です。<br/><br/>ですから、医学というのは、遠慮なく言えば悪魔が作ったものです。<br/><br/>しかしそれは悪が必要だったのです。<br/><br/>その悪によって人間の寿命を縮め、病気という苦しみを与えていたのです。<br/><br/>それで人間は一生懸命それを逃れようとして、そうして文化が発達した。<br/><br/>ですから戦争も病気も、文化を発達させるための必要物だった。<br/><br/>だから今まではそれで良いが、しかし限度があって――時期があって、いよいよその時期が、悪不必要の時期となったのです。<br/><br/>それをいよいよ神様がやられるのです。<br/><br/>それは神様の経綸はなかなか深くすばらしいもので、それはまだはっきりは言えないが、確かにそうなるということを信じていれば、それで良いわけです。<br/><br/>一番分かりやすく言うと、これほど交通が便利になる――。<br/><br/>無線によって遠くと交通をしたり遠くと話し合ったり、いろいろそういうことが、人間が不精になってなにごとも面倒臭い、だから手数をかけないでいろいろ思い通りにしたいという欲望は身体が弱ったからそういうことになる。<br/><br/>最初の人間が造られた時みたいに丈夫だったら、そういう欲望というのはあまり起らないです。<br/><br/>それには医学という間違ったものをこしらえて人間を弱らせて、今日のような物質文化を作られたのです。<br/><br/>ところがそれだけでは本当に神様の御目的である地上天国はできっこないですから、そこである程度まで行ったらそれを打ち切りにして、そうして健康は、元の健康にするとともに、文化はすばらしく発達した文化を人間が自由にする。<br/><br/>それで良い世界を造る。<br/><br/>つまり理想の実現です。<br/><br/>そういうわけです。<br/><br/>だから観音様は薬師如来になったのです。<br/><br/>薬師如来になってお釈迦さんの『薬草彙本』を説いたのです。<br/><br/>それで、薬をのませて――それは人間を弱らすために薬を服ませた。<br/><br/>それが根本で、それを知れば分かるのです。<br/><br/>それでいよいよ、そういった人間を弱らせる方法は止さなければならないという仕事は、つまり私がやるのです。<br/><br/>なかなか、みんな迷信にかかってますから、それを壊さなければならないので骨が折れるけれども、根本を知ってみれば別に不思議はないのです。<br/><br/>それが今まで、根本理論が隠されていたのです。<br/><br/>ですからなにごとも時期です。<br/><br/>時期によってちゃんと良い具合になっていく。<br/><br/>なにしろ世界を支配している神様がやられているのですから、そつはないです。<br/><br/>それで今まで解らないこと――どうしてこんな戦争によって人間を苦しめるのだとか、病気というそういう苦しいものをこしらえておきながら――その前に医学というものを作っておきながら、なんで――というそういう疑問が起るのです。<br/><br/>信者の人でもそういう疑問を持つ人はたくさんあります。<br/><br/>それはこういうわけだと、神様は知らせるために、私に教えるのです。<br/><br/>というのは、人類から戦争や病気をなくすというその根本原因、それを知らせられるわけです。<br/><br/>ですから結局において悪魔です。<br/><br/>もし悪がなくなったとすれば、仮に泥棒もなくなるし、また第一健康法なんかだいぶ変わる。<br/><br/> これは昔神様から知らされてますが、窓なんかずっと大きくなって風が入るようになる。<br/><br/>戸締まりなんかいらない。<br/><br/>汽車や電車に乗っても用心する必要はないし、それから一々、契約書とかいろんな難しい書類を書いて、判をベタベタ捺す必要はないし、金銭の取り引きも実に簡単です。<br/><br/>それからこれを書いてしまったら、病気以外のことも書きます。<br/><br/>経済上のことでも、元値がいくらで利益がいくらということを、ちゃんとみな公表しますから、駆け引きはいらなくなる。<br/><br/>いろんなことについて実に明るく簡単になる。<br/><br/>そこでどうしても人間は――勤める人も、一日ではどうしても多過ぎるから半日になる。<br/><br/>半日になってお昼で家に帰るのです。<br/><br/>弁当もいらない。<br/><br/>それで午後は自分のしたいこと、楽しみをすることになる。<br/><br/>今の人間は食うために働くのですから、朝から晩まで働かなくてはいけない。<br/><br/>そういうふうに神様が人間を造ったのではない。<br/><br/>ですから働くということは、楽しむために働く。<br/><br/>幸福な良い生活、歓喜の生活をするために働くというものですから、まるで違うのです。<br/><br/>そうしてそんな食うために働くと、一日中、朝から晩まで汗水たらして働くということは、無駄な――よけいなことをしているから、それだけ働かなければならない。<br/><br/>例えば戦争です。<br/><br/>戦争というものがあるからどうしても軍備をしなければならない。<br/><br/>それには金や物資がいるから働かなければならない。<br/><br/>それから悪人がいるからいろいろ苦しめられる――そういうものを防止する機関がいる。<br/><br/>それから病気を作ることも善と信ずる悪です。<br/><br/>病人ができたりいろんなことで、それに必要な物資だとかいろいろなことも、人間が働いて作らなければならない。<br/><br/>そういうことで悪に対して、悪というもののために人間が働かされ苦しめられていることは、たいへんなものです。<br/><br/>悪がなくなったら、世の中は実におもしろい世の中になります。<br/><br/>自殺する者はなくなります。<br/><br/>そうしてみんな長生きする。<br/><br/>百以上は楽なものです。<br/><br/>つまり自然に死んで、病気でということはなくなります。<br/><br/>早死にとかは病気のために死ぬのです。<br/><br/>それについておもしろいことがある。<br/><br/>現代の画家ですが、絵は私は好きですが――今名人はいないです。<br/><br/>今まではいつの時代にも、必ずすばらしい名人があったのです。<br/><br/>明治から大正にはよくあった。<br/><br/>ところが今はないのです。<br/><br/>今名人とされているのは、古径とか靫彦、青邨が一番とされてますが、ところがああいう人たちの絵は、どうしても買う気にならない。<br/><br/>なぜ買う気にならないかというと、絵が病人の絵なのです。<br/><br/>ですから筆力なんてないのです。<br/><br/>病人です。<br/><br/>というのは、少し画家が有名になってくると、身体を非常に大事にする。<br/><br/>大事にするから、屁をひってもお医者にかかる。<br/><br/>お医者にかかれば身体を弱らせることになる。<br/><br/> 今度美術館ができた時にも、安田靫彦先生――私の子供が弟子になってますが、一般に見せる前に招んだのですが、行きたいが身体が丈夫でないから気持ちの良い時に行くから、いつ行くということのお約束はできない。<br/><br/>こう言うのです。<br/><br/>そのくらい弱いのです。<br/><br/>だからここまで行くと医学というものは、もう打ち切りにしなければならない。<br/><br/>だんだん芸術家なんかは名人がいなくなる。<br/><br/>俳優がそうです。<br/><br/>俳優の有名なのが実になくなっているでしょう。<br/><br/>それも同じ原因です。<br/><br/>俳優が少し有名になると身体を大事にする。<br/><br/>それに、おまけに松竹なんか、その点は非常に――少し身体が弱いというと、松竹の方で医者を招ばせるのです。<br/><br/>なんとか博士、なんとか博士と、それは医学を信用するからそういうことになるのです。<br/><br/>それは先に私は経験があります。<br/><br/>小腸で私が招ばれたのです。<br/><br/>で、薬を服んではいかん、医者にかかってはいかんと言うと、それは困る。<br/><br/>会社から一日一回ずつ、なんとか博士が来るから診せないわけにいかないと言うから、薬だけにしなさい。<br/><br/>注射をされると言うから、それもなんとか止めなさいと言って、治してやりました。<br/><br/>その後麹町で近所にいたのですが、多摩川に越したために悪くなって、医者にかかって死にました。<br/><br/>そんなような具合で名人がないということです。<br/><br/>今、猿之助は大体薬が嫌いだということになっている。<br/><br/>それから私がよく言ってやったのです。<br/><br/>それに信者になってますから、これは大丈夫です。<br/><br/>一番危ないのは吉右衛門です。<br/><br/>けれどもよほど丈夫なのです。<br/><br/>医者にかかっていながら、ともかく生きているということは――。<br/><br/>音羽家一門は駄目です。<br/><br/>随分奨めたのですが、病気がいったん治って、教修を奨めると、その時分は大先生だったが、大先生じかでなければ嫌だというので、結局駄目だったのです。<br/><br/>こういう話をするときりがないから――。<br/><br/>そういうわけで、悪の追放が根本なのです。<br/><br/>それをだんだん説いていきます。<br/><br/> それからこれはあんまり信仰には関係ないが、私は映画が好きですから――明主様はどうしてあんなに好きなのかと思うでしょうから、映画に対して、今までの私の経路を一つくらい書いても無駄ではないと思って。<br/><br/> （御論文「私と映画」）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

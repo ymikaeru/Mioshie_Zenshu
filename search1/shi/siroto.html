@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>siroto</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,60 +241,54 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 素人菜園に就て 『自然農法解説』昭和26(1951)年1月15日発行 前項までは、専門家のみを対象としてかいたのであるが、最後に素人栽培、すなわち家庭菜園についてかいてみるが、何しろ素人栽培としても、肥料は糞尿を多く使わなければならないので、馴〔慣〕れない素人が糞尿を扱うとしたら、実に堪えられない苦痛である。<br><br>しかも撒く時はもちろん、その後幾日かの間は、部屋の中まで臭気が流れ込んでくるのだから、絶えず不快に悩まされ、実に非衛生的である。<br><br>殊に飯時などときては、考えただけでもウンザリする。<br><br>そんな苦痛をしても大いに効果があるとすれば我慢もするが、実はそれが反って成績不良の結果となるのだから、恐らくこんな馬鹿な話はあるまい。<br><br>今日まで知らなかったからとは言いながら、余りの無智に呆れるのである。<br><br> 自然農法によれば、汚い臭い思いは全然なくなり、清潔で衛生的で、作物の出来がよく、量も多く、その美味なる事驚く程である。<br><br>しかも害虫の心配もないばかりか、蛔虫の危険もなく、第一葉色にしても、茎の形にしても実に今までの有肥のものより美しい。<br><br>従って自然農法を始めると、毎朝畠弄（いじ）りが実に楽しくなる。<br><br>今までは畠弄りなど楽しみよりも、気味が悪いのが先に立つ、汚物が撒いてあると思っただけでも、その上を歩く気にはなれない。<br><br> そうして、素人栽培にはこういう事がよくある。<br><br>それは馬鈴薯（ばれいしょ）など実付きが悪いとか、実が大きくならないとか、トマトや茄子（なす）など、花落ちが多かったり、スのある大根が出来たり、胡瓜（きゅうり）など根虫が湧いて枯れるとか、漬菜（つけな）類など完全な葉はほとんどなく、どの葉も穴だらけである。<br><br>以上いずれも人為肥料のためであるが、それに気が付かないため、素人は肥料が足りないからだと思い、益々多く肥料を与えるから、益々悪くなるという訳で、誰しも本当の原因が判らないから、専門家に訊くが、専門家も肥料迷信に罹っている以上、満足な解答は与えられないので困っている人が、世の中にはいかに沢山あるか知れない。<br><br>従ってそれらの人達が本農法を知ったなら、いかに救われるか、全く地獄から天国へ昇ったような気持となるであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Considerações sobre a Jardinagem Doméstica</h2>
 <p>Até o presente momento, dediquei-me a escrever exclusivamente para os especialistas. Desejo, contudo, abordar agora a prática do cultivo amador, ou seja, a jardinagem doméstica. A grande questão é que, mesmo neste âmbito, a prática convencional exige o uso abundante de adubos, especialmente dejetos humanos. Para o leigo, sem o devido costume, manusear tais substâncias representa um sofrimento verdadeiramente intolerável. Ademais, o odor fétido não se restringe ao momento da aplicação; por dias a fio, ele invade o interior da residência, gerando um mal-estar contínuo em um ambiente que se torna sobremaneira anti-higiênico. A simples ideia de fazer as refeições nessas condições já é, por si só, nauseante. Se, apesar de todo esse tormento, os resultados fossem notáveis, talvez o sacrifício se justificasse. A realidade, todavia, é que tal prática conduz justamente a colheitas de qualidade inferior. Creio não haver no mundo disparate maior. Embora se possa atribuir essa conduta à falta de conhecimento que perdurou até nossos dias, é impossível não se espantar com tamanha insensatez.</p>
 <p>Com a Agricultura da Natureza, por outro lado, toda essa experiência repulsiva e malcheirosa é completamente eliminada. O cultivo torna-se um ato limpo e higiênico, que resulta em produtos de excelente qualidade, em maior quantidade e com um sabor surpreendentemente delicioso. Adicionalmente, não apenas se extingue a preocupação com as pragas, como também se afasta o risco de contaminação por vermes. E, para além disso, a própria estética das plantas — seja na coloração das folhas ou na forma dos caules — revela-se muito superior àquela obtida com o uso de adubos. Consequentemente, ao se iniciar na Agricultura da Natureza, o cuidado diário com a horta transforma-se em uma atividade verdadeiramente prazerosa. Até então, o que prevalecia não era o prazer, mas uma certa repulsa; a simples consciência da presença de dejetos no solo era suficiente para inibir até mesmo a vontade de caminhar sobre ele.</p>
 <p>Com efeito, são inúmeros os problemas que afligem os praticantes da jardinagem convencional. É comum que as batatas não vinguem ou produzam tubérculos pequenos; que os tomateiros e as berinjelas percam suas flores prematuramente; que os rabanetes cresçam ocos e isentos de miolo; que os pepinos sequem e morram, atacados por pragas de raiz; ou que as folhas das hortaliças, como as destinadas a conservas, raramente se apresentem intactas, estando quase sempre crivadas de furos. A causa de todos esses males reside no adubo artificial. No entanto, por não se darem conta disso, os leigos presumem que o problema é a falta de fertilizantes e, em uma tentativa de solução, aplicam-nos em quantidade ainda maior, o que apenas agrava o quadro. Sem compreender a verdadeira origem de suas dificuldades, recorrem aos especialistas. Estes, por sua vez, também estão imersos na superstição dos adubos e, consequentemente, são incapazes de oferecer uma resposta satisfatória. É incalculável o número de pessoas que vivem neste ciclo de frustração. Portanto, ao tomarem conhecimento deste método de cultivo, essas pessoas encontrarão uma libertação indescritível. Sentir-se-ão como se tivessem ascendido do inferno ao paraíso.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 素人菜園に就て 『自然農法解説』昭和26(1951)年1月15日発行 前項までは、専門家のみを対象としてかいたのであるが、最後に素人栽培、すなわち家庭菜園についてかいてみるが、何しろ素人栽培としても、肥料は糞尿を多く使わなければならないので、馴〔慣〕れない素人が糞尿を扱うとしたら、実に堪えられない苦痛である。<br/><br/>しかも撒く時はもちろん、その後幾日かの間は、部屋の中まで臭気が流れ込んでくるのだから、絶えず不快に悩まされ、実に非衛生的である。<br/><br/>殊に飯時などときては、考えただけでもウンザリする。<br/><br/>そんな苦痛をしても大いに効果があるとすれば我慢もするが、実はそれが反って成績不良の結果となるのだから、恐らくこんな馬鹿な話はあるまい。<br/><br/>今日まで知らなかったからとは言いながら、余りの無智に呆れるのである。<br/><br/> 自然農法によれば、汚い臭い思いは全然なくなり、清潔で衛生的で、作物の出来がよく、量も多く、その美味なる事驚く程である。<br/><br/>しかも害虫の心配もないばかりか、蛔虫の危険もなく、第一葉色にしても、茎の形にしても実に今までの有肥のものより美しい。<br/><br/>従って自然農法を始めると、毎朝畠弄（いじ）りが実に楽しくなる。<br/><br/>今までは畠弄りなど楽しみよりも、気味が悪いのが先に立つ、汚物が撒いてあると思っただけでも、その上を歩く気にはなれない。<br/><br/> そうして、素人栽培にはこういう事がよくある。<br/><br/>それは馬鈴薯（ばれいしょ）など実付きが悪いとか、実が大きくならないとか、トマトや茄子（なす）など、花落ちが多かったり、スのある大根が出来たり、胡瓜（きゅうり）など根虫が湧いて枯れるとか、漬菜（つけな）類など完全な葉はほとんどなく、どの葉も穴だらけである。<br/><br/>以上いずれも人為肥料のためであるが、それに気が付かないため、素人は肥料が足りないからだと思い、益々多く肥料を与えるから、益々悪くなるという訳で、誰しも本当の原因が判らないから、専門家に訊くが、専門家も肥料迷信に罹っている以上、満足な解答は与えられないので困っている人が、世の中にはいかに沢山あるか知れない。<br/><br/>従ってそれらの人達が本農法を知ったなら、いかに救われるか、全く地獄から天国へ昇ったような気持となるであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

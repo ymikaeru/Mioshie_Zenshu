@@ -1,126 +1,278 @@
 ﻿<html>
-
 <head>
-    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-    <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR" />
-    <title>qhaike12</title>
-    <link href="../../../style4.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body bgcolor="#EFFFE6">
-    <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
-        <input name="hint" type="hidden" value="ひらがな" />
-        <input name="index" type="hidden" value="" />
-        <input name="config" type="hidden" value="" />
-        <div align="right">
-            <table border="0" cellpadding="0" cellspacing="0" width="90%">
-                <tr>
-                    <td>
-                        <p align="right">
-                            <font face="ＭＳ ゴシック" size="2"><strong>――</strong></font>
-                            <font face="HG正楷書体-PRO" size="2"><strong> 岡田自観師の論文集 ――</strong>　</font>
-                            <font face="ＭＳ ゴシック" size="2"><strong>御教え検索</strong>：</font>
-                        </p>
-                    </td>
-                    <td align="center" bgcolor="#EFFFE6" width="150">
-                        <font size="2"><input name="query" size="25" type="text" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6">
-                        <font size="2"><input type="submit" value="検索" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6" width="35"><a href="../../../../cgi/msearch.cgi">
-                            <font size="2">help</font>
-                        </a></td>
-                </tr>
-            </table>
-        </div>
-    </form>
-    <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
-        <input name="hint" type="hidden" value="ひらがな" />
-        <input name="index" type="hidden" value="shiryo" />
-        <input name="config" type="hidden" value="" />
-        <div align="right">
-            <table border="0" cellpadding="0" cellspacing="0" width="90%">
-                <tr>
-                    <td>
-                        <p align="right">
-                            <font face="ＭＳ ゴシック" size="2"><strong>　　　お か げ 話　　　　　　　資料検索</strong>：</font>
-                        </p>
-                    </td>
-                    <td align="center" bgcolor="#EFFFE6" width="150">
-                        <font size="2"><input name="query" size="25" type="text" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6">
-                        <font size="2"><input type="submit" value="検索" /></font>
-                    </td>
-                    <td width="35">　</td>
-                </tr>
-            </table>
-        </div>
-    </form>
-    <blockquote>
-        
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
+<title>qhaike12</title>
+<link href="../../../style4.css" rel="stylesheet" type="text/css"/>
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
+<form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
+<input name="hint" type="hidden" value="ひらがな"/>
+<input name="index" type="hidden" value=""/>
+<input name="config" type="hidden" value=""/>
+<div align="right">
+<table border="0" cellpadding="0" cellspacing="0" width="90%">
+<tr>
+<td>
+<p align="right">
+<font face="ＭＳ ゴシック" size="2"><strong>――</strong></font>
+<font face="HG正楷書体-PRO" size="2"><strong> 岡田自観師の論文集 ――</strong>　</font>
+<font face="ＭＳ ゴシック" size="2"><strong>御教え検索</strong>：</font>
+</p>
+</td>
+<td align="center" bgcolor="#EFFFE6" width="150">
+<font size="2"><input name="query" size="25" type="text"/></font>
+</td>
+<td bgcolor="#EFFFE6">
+<font size="2"><input type="submit" value="検索"/></font>
+</td>
+<td bgcolor="#EFFFE6" width="35"><a href="../../../../cgi/msearch.cgi">
+<font size="2">help</font>
+</a></td>
+</tr>
+</table>
+</div>
+</form>
+<form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
+<input name="hint" type="hidden" value="ひらがな"/>
+<input name="index" type="hidden" value="shiryo"/>
+<input name="config" type="hidden" value=""/>
+<div align="right">
+<table border="0" cellpadding="0" cellspacing="0" width="90%">
+<tr>
+<td>
+<p align="right">
+<font face="ＭＳ ゴシック" size="2"><strong>　　　お か げ 話　　　　　　　資料検索</strong>：</font>
+</p>
+</td>
+<td align="center" bgcolor="#EFFFE6" width="150">
+<font size="2"><input name="query" size="25" type="text"/></font>
+</td>
+<td bgcolor="#EFFFE6">
+<font size="2"><input type="submit" value="検索"/></font>
+</td>
+<td width="35">　</td>
+</tr>
+</table>
+</div>
+</form>
+<blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 肺結核より救われたキリスト教徒の私 『結核信仰療法』昭和27(1952)年12月1日発行 熊本県 光宝大教会 岩永千恵（45） 顧みますれば師範学校卒業を間近に控えた昭和三年六月、肋膜炎で静養するようにとの事で、約三カ月間医療を受けました。<br><br>その後学校奉職中五年間位は故障もなくすごしましたが、昭和十年頃から倦怠感を覚えましたが大した事もないので時折服薬しておりました。<br><br>既往症の恐れをなし微熱にも医者だ薬だとビクビクしていました。<br><br>その内に学校のバザーや展覧会等の行事の準備に忙がしく、学徒動員の方では責任上相当の無理をして、疲労を覚え、発熱するようになりました。<br><br>その時、郷里の親元から、お前は肺結核だそうだから今すぐ学校は退職して養生するようにとの使が来ました。<br><br>私は驚き、前途の不安に襲われてその言葉に従い早速退職し、次いで昭和十三年五月には療養所に入り静養生活は始まりました。<br><br> 療養所における診断は、悪質ではないから三カ月位で退院出来るだろうとの事でした。<br><br>しかしこれに反して遂に三カ年を送る事になりました。<br><br>入所当時はラジオ体操をして医師に叱られて仕方なく安静にしました。<br><br>当時キリスト教信者であった私は、常に聖書を携え、各病棟に患者を訪れては神の愛を説き、神に祈りつつ御互に励まし合い退院の日を待望しておりました。<br><br>私は漸次衰弱して行き、療友は次々と他界し、退院してもようやく散歩位しか出来ないような有様で、この中に在る私も、いつの間にか廃人となって、退院は全快はいつの事やら見当も付かない希望もない不安懊悩の日を送っていました。<br><br> 遂にこの苦悩を逃れたい一心から退院しましたが、郷里では受入れず、致し方なく老母を看病人として借家住いをして、その地の医者について療養を続けていました。<br><br>その時に遠縁になる医者が、引受けて治してやるからとの事でその病院に入院致しました。<br><br>絶対安静、一日おきの注射と服薬を約五カ月間致しましたが何の効果も見えず、同病者は次々と死んで行きます。<br><br>私は急に注射がいやになり、どうせ茶毘の煙になるならば、痛い注射は止めた方がましと、その中止を申出ましたら医師は、気でも狂ったのか、今止めて何になるかと嘲って聞き入れてくれませんでした。<br><br> 丁度その時台湾にいた同窓生が校友雑誌にて私の療養生活を知り、親切にも手紙を下さり「弟の八年間の肺病が観音様の御蔭で全快したからあなたも是非観音様にお縋りなさっては」と勧めて戴きました（今の光明如来様は当時観音様とお呼び申し上げていましたからその通りにお許し下さいませ）。<br><br>「その観音様は佐世保にお祀りされているはずですが」と。<br><br>しかしこの言葉には関心を持つまでに至らず、注射恐しさに病院を逃げ出し、腰に激痛が起り、胃腸も悪く、長い間の温湿布の跡は腫れ上り、元気にはならず、食物は一切粕を吐き出し、ほうきも持たず夜具の上げ下ろしもしないように注意深くすればする程、恢復の希望から遠ざかるばかりで御座いました。<br><br> 「私にまだ地上の御用が残されていれば、神様は私を生かして下さいましよう。<br><br>その時が来れば御許し下さい」と祈りました。<br><br>老母は私を見兼ねて「私がいなくなったら御前は自殺して下さい。<br><br>病気が病気だから誰も御前の世話をする者はないだろうから」と。<br><br>実に悲惨な有様で御座います。<br><br>その当時を憶い出しては涙がにじみます。<br><br>嗚呼、この時、私は光明如来様の事を友人の話を手紙の親切を思い出しました。<br><br>不自由な体を一時間余り汽車にもまれて尋ね求めて佐世保の光明如来様（当時は治療所）に到着しました。<br><br> ただ一回の御浄霊で肩の凝りは勿論、腰の痛みも全身軽快になり、別人のように変りました。<br><br>何と不思議な事でしょう。<br><br>私は理屈なしに、何の疑もなく惹き付けられ、見えざる御光を御慕い申し上げて、当夜は御好意に甘えて一泊させて頂き、『明日の医術』を拝読させて戴き、又は御霊徳の御話を伺いまして、すっかり朗かになり、引続き御浄霊をお願いすることにお許しを得て、翌日は一まず帰宅致しました。<br><br>その元気さに老母は驚き又喜んだ姿は私の嬉しかった姿でありました。<br><br>薬毒の恐ろしさも知り、今まで貯えていた薬は、考えた揚句大川の橋の真中から水中に投げ棄てました。<br><br>その時の気持の好さは今も忘れることが出来ません。<br><br>今まで食事の戴き方の何と馬鹿気た事であったでしょう。<br><br>その後の御飯の美味しい事、老母と二人の寂しい生活の中にも笑が転び出すようになって来ました。<br><br>広大無辺な御神様の御恵に老母と二人で涙して感謝の御礼を申し上げました。<br><br> 郷里に帰り佐世保行の事を相談しますと、「この進歩した医学の現代に、手を翳して病気が治るか、そんな馬鹿な事があるものか」と言って反対し、旅費すら出して頂けませんので、困り果てている時、嫁いでいる姉が、私の熱心に同情して旅費から教修御礼まで一切の費用を支援してくれました。<br><br>佐世保の木原先生の許に行かせて頂き、早速教修をお願いし、滞在十日間、初めて知る有難い境地に安着させて戴きました。<br><br>その間毎日二回の御浄霊を戴き、めきめきと身体の調子は良くなり、元気も加わり、余暇には台所の御奉仕もお願いして別に疲労も覚えないようになりました。<br><br> 以前はキリスト教信者でありましたが、奇蹟として特に現われた事もなく、唯精神のみ救われた丈でありましたが、今度は光明如来様の御力を戴きまして、偉大さと申し上げるだけで表現も出来ず、ただただ無言感歎の外ないのであります。<br><br>特に肺結核が伝染病でないとの事を骨髄まで浸み込ませて頂きました。<br><br>木原先生宅に滞在中は小学校五年の御子様と同じ部屋に座らせて戴き、食事も一緒に、食器も消毒もされず、台所の御手伝いも外の方と同様の待遇を戴きまして、親身に教えて戴きました。<br><br>右の通りにしても楽し嬉しの十日間で、大変な元気に帰宅しました。<br><br>これなら大丈夫とまた学校に勤務出来るようになり、自炊生活も出来るようになりました。<br><br>当時は代用食時代でしたので、余暇には玉蜀黍（トウモロコシ）を石臼でゴリゴリ摺っております時、突然血痰が出ました。<br><br>驚いて血止めにと思い、塩で含嗽（うがい）を致しましたが、これが浄化だと気付き、早速大神様に御詫びして、木原先生には御報告を兼ね、お尋ねしますと、早く来いとの電報を戴いて、早速御詣りして三日間引続き御浄霊を戴き、恢復しましたので再び学校に出勤致しました。<br><br>暑中休暇にはまたまた佐世保の木原先生に御伺いしました。<br><br>丁度八月十五日でした。<br><br>何気なく御神様に御奉仕させて戴きたくなり、先生にお願いしましたら、月も日も良いからとてお許し戴きました。<br><br>その御言葉に非常に嬉しくなり、早速教職を退いて、親類や友達等の反対をも押切って御奉仕生活に入りました。<br><br> 昭和十七年四月に佐世保で教修を戴き、同年九月から今日まで約十年間に逐次健康体となり、又色々の癌疾も治して戴き、御蔭様で御神業に精進さして戴くことが出来ました。<br><br> 本年二月には出産後胸部の大浄化を戴き、呼吸困難や呼吸圧迫等のため、非常に苦しみ、一時は憂慮される程の重態に陥りましたが、御浄霊を戴きますといかなる苦痛も軽減し、あるいは治り、極めて楽な状態で、この重態を短時日の間に治して戴き、更に新しい生命を戴き、幾度か危き生命を戴きました。<br><br>療養生活を続けていましたら、私は今はなかったでしょう。<br><br>御神業に御奉仕させて戴きました御蔭により、今日までの命賜いし事に、何と御礼の申し上げようもなく、ただただ感謝感激あるのみで御座います。<br><br> 不治の病とされている肺結核が、世界救世教により、御浄霊により、現在の私のように治して戴けます。<br><br>この御神徳を、世の同病に悩める人々に、一人でも多く、早く知らせて上げたい、又早く全治さして戴きたいと念願して今後益々更生の意気をもって御用に御使い下さいますようお願い致しております。<br><br> 明主様誠に有難うございます。<br><br> （二十六年四月二十一日提出）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content">
-            <h2>Eu, uma Cristã, Salva da Tuberculose Pulmonar</h2>
-            <p><strong>Terapia da Fé para a Tuberculose – Publicado em 1º de dezembro de 1952</strong>
-                <strong>Iwanaga Chie (45 anos), Grande Igreja Koho, Província de Kumamoto</strong>
-            </p>
-            <p>Ao rememorar os fatos, recordo-me que em junho de 1928, prestes a concluir a Escola Normal, fui
+<h2>Eu, uma Cristã, Salva da Tuberculose Pulmonar</h2>
+<p><strong>Terapia da Fé para a Tuberculose – Publicado em 1º de dezembro de 1952</strong>
+<strong>Iwanaga Chie (45 anos), Grande Igreja Koho, Província de Kumamoto</strong>
+</p>
+<p>Ao rememorar os fatos, recordo-me que em junho de 1928, prestes a concluir a Escola Normal, fui
                 diagnosticada com pleurisia e orientada a repousar, submetendo-me a tratamento médico por
                 aproximadamente três meses. Após esse período, exerci a docência por cerca de cinco anos sem apresentar
                 qualquer problema de saúde. Por volta de 1935, contudo, comecei a ser acometida por uma constante
                 sensação de lassidão, à qual, a princípio, não dei maior importância, tratando-a apenas com medicação
                 ocasional. Acossada pelo receio de uma recidiva da enfermidade anterior, qualquer febrícula me deixava
                 em estado de alerta, recorrendo imediatamente a médicos e remédios.</p>
-            <p>Em meio a essa apreensão, as atribuições na escola se intensificaram com os preparativos para bazares e
+<p>Em meio a essa apreensão, as atribuições na escola se intensificaram com os preparativos para bazares e
                 exposições. Ademais, as responsabilidades inerentes à mobilização estudantil da época me levaram a
                 exceder consideravelmente meus limites físicos, o que resultou em fadiga e febre recorrente. Foi nesse
                 momento que recebi um mensageiro de meus pais, informando-me de que eu estaria com tuberculose pulmonar
@@ -128,73 +280,73 @@ function toggleLang(lang) {
                 estarreceu. Assaltada por uma profunda angústia quanto ao futuro, acatei a ordem de meus pais, renunciei
                 ao cargo e, em maio de 1938, dei entrada em um sanatório, iniciando assim minha vida de convalescença.
             </p>
-            <p>O prognóstico no sanatório indicava que a doença não era de natureza grave e que eu poderia receber alta
+<p>O prognóstico no sanatório indicava que a doença não era de natureza grave e que eu poderia receber alta
                 em cerca de três meses. Essa previsão, todavia, contrastou drasticamente com a realidade, pois minha
                 permanência na instituição se estendeu por três longos anos. Nos primeiros dias, cheguei a ser
                 repreendida por um médico por praticar ginástica matinal e fui forçada ao repouso absoluto. Sendo cristã
                 à época, eu sempre portava a Bíblia e visitava os pacientes nos diversos pavilhões para lhes falar do
                 amor de Deus. Orávamos juntos, encorajando-nos mutuamente enquanto almejávamos o dia da alta.</p>
-            <p>Não obstante, minha saúde definhava progressivamente. Vi, um a um, meus amigos de tratamento sucumbirem à
+<p>Não obstante, minha saúde definhava progressivamente. Vi, um a um, meus amigos de tratamento sucumbirem à
                 doença, e mesmo aqueles que conseguiam deixar o sanatório o faziam em um estado de tamanha debilidade
                 que mal podiam caminhar. Em meio a esse cenário, eu também me via, pouco a pouco, transformada em uma
                 inválida. A perspectiva de alta, ou de uma cura completa, tornara-se uma esperança vaga e inalcançável,
                 mergulhando-me em dias de angústia e aflição.</p>
-            <p>Movida pelo anseio de escapar desse sofrimento, decidi finalmente deixar o sanatório. Para minha
+<p>Movida pelo anseio de escapar desse sofrimento, decidi finalmente deixar o sanatório. Para minha
                 desolação, não fui acolhida por meus familiares em minha terra natal. Sem alternativa, vi-me obrigada a
                 alugar uma casa e a viver sob os cuidados de minha idosa mãe, dando continuidade ao tratamento com um
                 médico local. Foi então que um parente distante, que também era médico, ofereceu-se para assumir meu
                 caso, e assim fui internada em seu hospital. Durante cinco meses, submeti-me a um regime de repouso
                 absoluto, com injeções em dias alternados e medicação contínua, mas não observei qualquer melhora. Ao
                 meu redor, outros pacientes com a mesma enfermidade pereciam sucessivamente.</p>
-            <p>De repente, fui tomada por uma aversão visceral às injeções. Pensei que, se meu destino era ser reduzida
+<p>De repente, fui tomada por uma aversão visceral às injeções. Pensei que, se meu destino era ser reduzida
                 às cinzas da cremação, seria preferível cessar as dolorosas agulhadas. Ao expor meu desejo ao médico,
                 ele escarneceu de meu pedido, questionando se eu havia perdido o juízo e que sentido haveria em parar o
                 tratamento naquele ponto.</p>
-            <p>Precisamente nessa época, uma colega de turma que vivia em Taiwan soube de minha condição por meio de uma
+<p>Precisamente nessa época, uma colega de turma que vivia em Taiwan soube de minha condição por meio de uma
                 revista de ex-alunos e, gentilmente, enviou-me uma carta. Nela, relatava: “Meu irmão foi completamente
                 curado de uma doença pulmonar de oito anos graças a Kannon-Sama. Recomendo que você também se apegue a
                 Kannon-Sama”. (Peço licença para usar a denominação Kannon-Sama, pois era como nos referíamos, naqueles
                 tempos, a Komyō Nyorai-Sama.) A carta mencionava ainda que o altar a Kannon-Sama (観音) deveria estar em
                 Sasebo.</p>
-            <p>Inicialmente, não dei muita atenção àquelas palavras. Contudo, o pavor das injeções me impeliu a fugir do
+<p>Inicialmente, não dei muita atenção àquelas palavras. Contudo, o pavor das injeções me impeliu a fugir do
                 hospital. A partir de então, meu estado se agravou: uma dor lancinante acometeu minha região lombar, meu
                 sistema gastrointestinal deteriorou-se e o local onde por tanto tempo apliquei compressas quentes e
                 úmidas inflamou e inchou. Eu não conseguia sequer segurar uma vassoura ou arrumar a própria cama, e
                 quanto mais zelosa era em meus cuidados, mais distante se tornava a esperança de recuperação.</p>
-            <p>Em minhas preces, eu dizia: “Se ainda me resta uma missão sobre a Terra, Deus me permitirá viver. Quando
+<p>Em minhas preces, eu dizia: “Se ainda me resta uma missão sobre a Terra, Deus me permitirá viver. Quando
                 chegar a hora, peço o Vosso perdão”. Minha idosa mãe, não mais suportando me ver assim, disse-me:
                 “Quando eu me for, peço que tire a própria vida. Com uma enfermidade como a sua, não haverá quem cuide
                 de você”. Era uma situação verdadeiramente desoladora. A simples lembrança daquele tempo ainda me enche
                 os olhos de lágrimas.</p>
-            <p>Oh, foi nesse momento de profundo desespero que me recordei das palavras de minha amiga e da bondade de
+<p>Oh, foi nesse momento de profundo desespero que me recordei das palavras de minha amiga e da bondade de
                 sua carta sobre Komyō Nyorai-Sama. Com o corpo debilitado, enfrentei mais de uma hora de viagem de trem
                 e finalmente cheguei ao local dedicado a Komyō Nyorai-Sama em Sasebo, que na época funcionava como um
                 centro de tratamento.</p>
-            <p>Com uma única ministração de Johrei, a rigidez em meus ombros, a dor em minhas costas e o mal-estar em
+<p>Com uma única ministração de Johrei, a rigidez em meus ombros, a dor em minhas costas e o mal-estar em
                 todo o corpo desapareceram. Senti-me transformada em outra pessoa. Que fenômeno extraordinário! Fui
                 cativada de modo incondicional, sem questionamentos ou dúvidas, sentindo uma reverência profunda pela
                 Luz invisível. Aceitando a amável hospitalidade que me foi oferecida, pernoitei no local. Tive a
                 oportunidade de ler a obra “Ashita no Ijutsu” e de ouvir explanações sobre as virtudes espirituais, o
                 que restaurou completamente minha alegria. Obtive permissão para dar continuidade ao recebimento de
                 Johrei e, no dia seguinte, retornei temporariamente para casa.</p>
-            <p>Ao me ver tão revigorada, minha mãe ficou entre a surpresa e a felicidade, um contentamento que espelhava
+<p>Ao me ver tão revigorada, minha mãe ficou entre a surpresa e a felicidade, um contentamento que espelhava
                 o meu. Compreendi então a terrível natureza do veneno dos remédios, o yakudoku (薬毒). Após refletir,
                 peguei todo o meu estoque de medicamentos, fui até o centro de uma grande ponte e atirei-os nas águas do
                 rio. A sensação de alívio que me invadiu naquele instante é inesquecível. Percebi quão insensata havia
                 sido minha forma de me alimentar até então. As refeições que se seguiram tinham um sabor delicioso, e o
                 riso voltou a brotar em meio à vida solitária que eu e minha mãe levávamos. Juntas, choramos de emoção e
                 rendemos graças pela infinita misericórdia de Deus.</p>
-            <p>De volta à minha cidade, ao falar sobre meus planos de retornar a Sasebo, enfrentei forte oposição: “Na
+<p>De volta à minha cidade, ao falar sobre meus planos de retornar a Sasebo, enfrentei forte oposição: “Na
                 era moderna, com a medicina tão avançada, como pode uma doença ser curada pelo simples passar das mãos?
                 Que disparate!”, diziam, recusando-se até a me fornecer o dinheiro para a viagem. Quando eu já me
                 encontrava em um impasse, minha irmã casada, condoída por meu fervor, decidiu custear todas as minhas
                 despesas, desde a viagem até o donativo pela iniciação.</p>
-            <p>Dirigi-me então à casa do Sr. Kihara em Sasebo e solicitei imediatamente para receber os ensinamentos.
+<p>Dirigi-me então à casa do Sr. Kihara em Sasebo e solicitei imediatamente para receber os ensinamentos.
                 Durante os dez dias de minha estada, alcancei um estado de paz e gratidão que jamais experimentara.
                 Recebendo Johrei duas vezes ao dia, minha condição física melhorou vertiginosamente, e minhas forças
                 foram restabelecidas a ponto de, em meu tempo livre, eu poder auxiliar na cozinha sem sentir qualquer
                 fadiga.</p>
-            <p>Anteriormente, como cristã, eu não havia presenciado milagres manifestos; minha salvação fora puramente
+<p>Anteriormente, como cristã, eu não havia presenciado milagres manifestos; minha salvação fora puramente
                 espiritual. Agora, contudo, diante do poder de Komyō Nyorai-Sama, a grandiosidade era tal que as
                 palavras se mostravam insuficientes para descrevê-la, restando-me apenas uma admiração silenciosa e
                 profunda. Gravei em minha alma o ensinamento de que a tuberculose não é uma doença contagiosa. Durante
@@ -203,23 +355,23 @@ function toggleLang(lang) {
                 desinfecção, e ajudei na cozinha como qualquer outra pessoa. Fui acolhida e instruída com um carinho
                 genuíno. Aqueles dez dias foram de uma alegria indescritível, e retornei para casa com uma vitalidade
                 extraordinária.</p>
-            <p>Sentindo-me segura de minha recuperação, pude voltar a lecionar e a morar sozinha. Naquela época,
+<p>Sentindo-me segura de minha recuperação, pude voltar a lecionar e a morar sozinha. Naquela época,
                 vivíamos no período dos alimentos substitutos. Certo dia, enquanto moía milho em um moinho de pedra,
                 tive um acesso de tosse e expectorei um catarro com sangue. Assustada, pensei em estancar o sangramento
                 e fiz um gargarejo com sal. Logo em seguida, porém, compreendi que se tratava de uma purificação. Pedi
                 perdão a Deus e relatei o ocorrido ao Sr. Kihara. Recebi dele um telegrama com a ordem de que fosse para
                 lá o mais rápido possível. Obedeci prontamente, recebi Johrei continuamente por três dias, recuperei-me
                 e retornei ao trabalho.</p>
-            <p>Durante as férias de verão, visitei novamente o Sr. Kihara em Sasebo. Era o dia 15 de agosto.
+<p>Durante as férias de verão, visitei novamente o Sr. Kihara em Sasebo. Era o dia 15 de agosto.
                 Inesperadamente, senti um forte desejo de me dedicar ao serviço de Deus. Ao externar minha vontade ao
                 ministro, ele me concedeu a permissão, dizendo que o mês e o dia eram auspiciosos. Exultante com suas
                 palavras, renunciei imediatamente ao meu cargo de professora e, vencendo a oposição de parentes e
                 amigos, iniciei minha vida de dedicação à Obra Divina.</p>
-            <p>Recebi os ensinamentos em Sasebo em abril de 1942. Desde setembro daquele ano até hoje, por
+<p>Recebi os ensinamentos em Sasebo em abril de 1942. Desde setembro daquele ano até hoje, por
                 aproximadamente uma década, minha saúde foi gradualmente se restabelecendo. Diversas outras enfermidades
                 graves também foram curadas, e, graças a essa bênção, tenho podido devotar-me com afinco à Obra Divina.
             </p>
-            <p>Em fevereiro deste ano, após um parto, tive uma grande purificação na região torácica, sofrendo com
+<p>Em fevereiro deste ano, após um parto, tive uma grande purificação na região torácica, sofrendo com
                 dificuldade respiratória e opressão no peito. Foi um período de grande tormento, e cheguei a um estado
                 crítico que gerou preocupação. Contudo, ao receber Johrei, toda e qualquer dor era aliviada ou cessava
                 por completo, permitindo-me atravessar essa grave condição com notável serenidade e em um curto espaço
@@ -227,14 +379,56 @@ function toggleLang(lang) {
                 tivesse prosseguido com os tratamentos médicos, certamente hoje não estaria mais viva. Foi graças à
                 permissão de servir na Obra Divina que minha vida me foi concedida até o dia de hoje. Não existem
                 palavras para expressar minha gratidão; há somente um sentimento profundo de agradecimento e emoção.</p>
-            <p>A tuberculose, tida como uma doença incurável, pode ser curada pela Sekai Kyusei Kyo, por meio do Johrei,
+<p>A tuberculose, tida como uma doença incurável, pode ser curada pela Sekai Kyusei Kyo, por meio do Johrei,
                 e eu sou a prova viva disso. Desejo ardentemente que esta virtude divina seja conhecida pelo maior
                 número possível de pessoas que sofrem da mesma enfermidade, para que possam ser salvas o quanto antes.
                 Rogo para que, com um ânimo renovado, eu possa continuar sendo útil na Obra de Deus.</p>
-            <p>Meishu-Sama, minha mais profunda gratidão.</p>
-            <p>(Submetido em 21 de abril de 1951)</p>
-        </div>
-    </blockquote>
-</body>
+<p>Meishu-Sama, minha mais profunda gratidão.</p>
+<p>(Submetido em 21 de abril de 1951)</p>
+</div>
+</blockquote>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 肺結核より救われたキリスト教徒の私 『結核信仰療法』昭和27(1952)年12月1日発行 熊本県 光宝大教会 岩永千恵（45） 顧みますれば師範学校卒業を間近に控えた昭和三年六月、肋膜炎で静養するようにとの事で、約三カ月間医療を受けました。<br/><br/>その後学校奉職中五年間位は故障もなくすごしましたが、昭和十年頃から倦怠感を覚えましたが大した事もないので時折服薬しておりました。<br/><br/>既往症の恐れをなし微熱にも医者だ薬だとビクビクしていました。<br/><br/>その内に学校のバザーや展覧会等の行事の準備に忙がしく、学徒動員の方では責任上相当の無理をして、疲労を覚え、発熱するようになりました。<br/><br/>その時、郷里の親元から、お前は肺結核だそうだから今すぐ学校は退職して養生するようにとの使が来ました。<br/><br/>私は驚き、前途の不安に襲われてその言葉に従い早速退職し、次いで昭和十三年五月には療養所に入り静養生活は始まりました。<br/><br/> 療養所における診断は、悪質ではないから三カ月位で退院出来るだろうとの事でした。<br/><br/>しかしこれに反して遂に三カ年を送る事になりました。<br/><br/>入所当時はラジオ体操をして医師に叱られて仕方なく安静にしました。<br/><br/>当時キリスト教信者であった私は、常に聖書を携え、各病棟に患者を訪れては神の愛を説き、神に祈りつつ御互に励まし合い退院の日を待望しておりました。<br/><br/>私は漸次衰弱して行き、療友は次々と他界し、退院してもようやく散歩位しか出来ないような有様で、この中に在る私も、いつの間にか廃人となって、退院は全快はいつの事やら見当も付かない希望もない不安懊悩の日を送っていました。<br/><br/> 遂にこの苦悩を逃れたい一心から退院しましたが、郷里では受入れず、致し方なく老母を看病人として借家住いをして、その地の医者について療養を続けていました。<br/><br/>その時に遠縁になる医者が、引受けて治してやるからとの事でその病院に入院致しました。<br/><br/>絶対安静、一日おきの注射と服薬を約五カ月間致しましたが何の効果も見えず、同病者は次々と死んで行きます。<br/><br/>私は急に注射がいやになり、どうせ茶毘の煙になるならば、痛い注射は止めた方がましと、その中止を申出ましたら医師は、気でも狂ったのか、今止めて何になるかと嘲って聞き入れてくれませんでした。<br/><br/> 丁度その時台湾にいた同窓生が校友雑誌にて私の療養生活を知り、親切にも手紙を下さり「弟の八年間の肺病が観音様の御蔭で全快したからあなたも是非観音様にお縋りなさっては」と勧めて戴きました（今の光明如来様は当時観音様とお呼び申し上げていましたからその通りにお許し下さいませ）。<br/><br/>「その観音様は佐世保にお祀りされているはずですが」と。<br/><br/>しかしこの言葉には関心を持つまでに至らず、注射恐しさに病院を逃げ出し、腰に激痛が起り、胃腸も悪く、長い間の温湿布の跡は腫れ上り、元気にはならず、食物は一切粕を吐き出し、ほうきも持たず夜具の上げ下ろしもしないように注意深くすればする程、恢復の希望から遠ざかるばかりで御座いました。<br/><br/> 「私にまだ地上の御用が残されていれば、神様は私を生かして下さいましよう。<br/><br/>その時が来れば御許し下さい」と祈りました。<br/><br/>老母は私を見兼ねて「私がいなくなったら御前は自殺して下さい。<br/><br/>病気が病気だから誰も御前の世話をする者はないだろうから」と。<br/><br/>実に悲惨な有様で御座います。<br/><br/>その当時を憶い出しては涙がにじみます。<br/><br/>嗚呼、この時、私は光明如来様の事を友人の話を手紙の親切を思い出しました。<br/><br/>不自由な体を一時間余り汽車にもまれて尋ね求めて佐世保の光明如来様（当時は治療所）に到着しました。<br/><br/> ただ一回の御浄霊で肩の凝りは勿論、腰の痛みも全身軽快になり、別人のように変りました。<br/><br/>何と不思議な事でしょう。<br/><br/>私は理屈なしに、何の疑もなく惹き付けられ、見えざる御光を御慕い申し上げて、当夜は御好意に甘えて一泊させて頂き、『明日の医術』を拝読させて戴き、又は御霊徳の御話を伺いまして、すっかり朗かになり、引続き御浄霊をお願いすることにお許しを得て、翌日は一まず帰宅致しました。<br/><br/>その元気さに老母は驚き又喜んだ姿は私の嬉しかった姿でありました。<br/><br/>薬毒の恐ろしさも知り、今まで貯えていた薬は、考えた揚句大川の橋の真中から水中に投げ棄てました。<br/><br/>その時の気持の好さは今も忘れることが出来ません。<br/><br/>今まで食事の戴き方の何と馬鹿気た事であったでしょう。<br/><br/>その後の御飯の美味しい事、老母と二人の寂しい生活の中にも笑が転び出すようになって来ました。<br/><br/>広大無辺な御神様の御恵に老母と二人で涙して感謝の御礼を申し上げました。<br/><br/> 郷里に帰り佐世保行の事を相談しますと、「この進歩した医学の現代に、手を翳して病気が治るか、そんな馬鹿な事があるものか」と言って反対し、旅費すら出して頂けませんので、困り果てている時、嫁いでいる姉が、私の熱心に同情して旅費から教修御礼まで一切の費用を支援してくれました。<br/><br/>佐世保の木原先生の許に行かせて頂き、早速教修をお願いし、滞在十日間、初めて知る有難い境地に安着させて戴きました。<br/><br/>その間毎日二回の御浄霊を戴き、めきめきと身体の調子は良くなり、元気も加わり、余暇には台所の御奉仕もお願いして別に疲労も覚えないようになりました。<br/><br/> 以前はキリスト教信者でありましたが、奇蹟として特に現われた事もなく、唯精神のみ救われた丈でありましたが、今度は光明如来様の御力を戴きまして、偉大さと申し上げるだけで表現も出来ず、ただただ無言感歎の外ないのであります。<br/><br/>特に肺結核が伝染病でないとの事を骨髄まで浸み込ませて頂きました。<br/><br/>木原先生宅に滞在中は小学校五年の御子様と同じ部屋に座らせて戴き、食事も一緒に、食器も消毒もされず、台所の御手伝いも外の方と同様の待遇を戴きまして、親身に教えて戴きました。<br/><br/>右の通りにしても楽し嬉しの十日間で、大変な元気に帰宅しました。<br/><br/>これなら大丈夫とまた学校に勤務出来るようになり、自炊生活も出来るようになりました。<br/><br/>当時は代用食時代でしたので、余暇には玉蜀黍（トウモロコシ）を石臼でゴリゴリ摺っております時、突然血痰が出ました。<br/><br/>驚いて血止めにと思い、塩で含嗽（うがい）を致しましたが、これが浄化だと気付き、早速大神様に御詫びして、木原先生には御報告を兼ね、お尋ねしますと、早く来いとの電報を戴いて、早速御詣りして三日間引続き御浄霊を戴き、恢復しましたので再び学校に出勤致しました。<br/><br/>暑中休暇にはまたまた佐世保の木原先生に御伺いしました。<br/><br/>丁度八月十五日でした。<br/><br/>何気なく御神様に御奉仕させて戴きたくなり、先生にお願いしましたら、月も日も良いからとてお許し戴きました。<br/><br/>その御言葉に非常に嬉しくなり、早速教職を退いて、親類や友達等の反対をも押切って御奉仕生活に入りました。<br/><br/> 昭和十七年四月に佐世保で教修を戴き、同年九月から今日まで約十年間に逐次健康体となり、又色々の癌疾も治して戴き、御蔭様で御神業に精進さして戴くことが出来ました。<br/><br/> 本年二月には出産後胸部の大浄化を戴き、呼吸困難や呼吸圧迫等のため、非常に苦しみ、一時は憂慮される程の重態に陥りましたが、御浄霊を戴きますといかなる苦痛も軽減し、あるいは治り、極めて楽な状態で、この重態を短時日の間に治して戴き、更に新しい生命を戴き、幾度か危き生命を戴きました。<br/><br/>療養生活を続けていましたら、私は今はなかったでしょう。<br/><br/>御神業に御奉仕させて戴きました御蔭により、今日までの命賜いし事に、何と御礼の申し上げようもなく、ただただ感謝感激あるのみで御座います。<br/><br/> 不治の病とされている肺結核が、世界救世教により、御浄霊により、現在の私のように治して戴けます。<br/><br/>この御神徳を、世の同病に悩める人々に、一人でも多く、早く知らせて上げたい、又早く全治さして戴きたいと念願して今後益々更生の意気をもって御用に御使い下さいますようお願い致しております。<br/><br/> 明主様誠に有難うございます。<br/><br/> （二十六年四月二十一日提出）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
 
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

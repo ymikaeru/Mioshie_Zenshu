@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sinsyu3</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 新宗教とは何か 『栄光』203号、昭和28(1953)年4月8日発行 近頃新宗教の言葉は、社会各方面の話題に上って来たと共に、新聞雑誌等も割合重く扱われるようになった事は喜ばしい限りである。<br><br>しかしこれらをよくみるとただ漫然と、新しく出来た宗教だから新宗教というまでの事で、その内容に至ってはほとんど無関心のようである。<br><br>しかも新宗教に携（たずさ）わる人でさえそうであるのはまことに遺憾である。<br><br>これについて私の言いたい事は、看板だけ新宗教であっても、内容がそれに伴（ともな）わないとしたら、意味をなさない訳である。<br><br>というのは古くからある開祖の教や、文献等、長い間言い古され、誰にも知られているような説を、その人の主観で替えたり、色を着けたりしているだけでは、新しい宗教とは言えまい。<br><br>その上建造物、形式等万事が昔のままであって、しかも開祖の教えに還（かえ）れなどというに至っては、むしろ時代と懸け離れるばかりであり、それに対し怪しむ者のないのも不思議と思わざるを得ないのである。<br><br> 何となれば現代のごとく高等教育を受け、知性の発達した人々を相手にするとしたら、黴臭（かびくさ）い教典を有難がらせようとしても受入れるはずはあるまい。<br><br>特に青年層などはなおさらそうである。<br><br>というように今日既成宗教の大部分の信者は、伝統的、観念的に引ずられているにすぎないと言えよう。<br><br>ところが新宗教の信者はそれと異（ちが）って、何らか新しいものを求めて入った人々に違いないからいいが、それでも真の不動の信者は割合少ないようである。<br><br>としたら現代人を心の底から信じさせるには、どうしても理論的には筋が通っており、疑い得ない現当利益が伴わない限りまず駄目といってよかろう。<br><br>従って単なる流行を追うような宗教信者では、一時的で長続きしないのはもちろんである。<br><br>次に言いたいのは現代人とても決して信仰心のない訳ではない。<br><br>ただ現代的感覚からみて、信じ得る宗教が余りないからで、ありさえすれば必ず信ずるのは、私の経験によっても確かである。<br><br>むしろそういう宗教を求めている人が大多数といっていい。<br><br> ところがそういう宗教が見当らないため、止むなく無信仰者となっており、それに対し何といっても科学の方は手っ取り早く眼に見えて、人間の要求を満してくれる以上、自然依存する事になるのは致し方あるまい。<br><br>という訳で無信仰者を非難する事は出来ないと思う。<br><br>ところがここに問題がある。<br><br>というのはそれ程信頼する科学でも解決出来ず、そうかといって宗教でも解決出来ない事もよくあるので、ジレンマに陥ってしまい、その上先の見通しもつかないので、智識人中のある者は懐疑に陥り、ある者は希望を失い、その日暮しになったり自暴自棄的となって、懐（ふところ）都合のいい者は享楽を求めるという結果になるので、これが現在の世相であろう。<br><br>今一つ言いたい事がある。<br><br>それは今まで現われたところの歴史的宗教偉人より以上のものは最早絶対出ないと決めている事で、この考え方も絶望に拍車をかけているのである。<br><br>中には半（なか）ば諦め、半ば現実と遊離した人達は、骨董的教説を研究思索している等々もあり、現在思想界は全く混沌（こんとん）として帰趨（きすう）を知らない有様である。<br><br> ところがこの無明の闇を破って、突如出現したのが我救世教である。<br><br>そうしていとも大胆に既成文化のあらゆる部門に渉って大鉄槌（てっつい）を下し、一々の誤謬を暴露し、真の文明のあり方を教え、着々として実行力を発揮しつつあるのであるから、公平に言って二十世紀の驚異であろう。<br><br>そうしてこの根本こそいつもいうごとく、今日までの世界は夜であり、僅かに月光を唯一の光としていたにすぎなかったが、そこへ太陽の光が現われたので、今まで見る事を得なかった不要有害物のことごとくは、ハッキリ浮び上ったのである。<br><br>昔から東方の光とはこの事であって、時の進むに従い太陽は徐々として天心に昇り、全世界を照らす事になるので、現在はその黎明期である。<br><br> この理によって私が説くあらゆる説は、今まで誰も知らなかったもののみであるから驚嘆し、中には誤解する人さえあるくらいである。<br><br>何しろ長い夜の世界が続いて来たので、それに慣れた眼には突如として現われた昼の文化であるから、狼狽するのも無理はない。<br><br>ところがここに問題がある。<br><br>それは昼の世界になった以上、夜の文化中から神は有用なものを残し、不用なものは揚棄（ようき）せざるを得なくなるのである。<br><br>しかも太陽の光は月光の六十倍に当るから、今日まで不明であり、治癒不可能とされていた病気も難なく解決されるのである。<br><br>本教浄霊が日々現わしている事実によっても明らかである。<br><br>なおこれを分り易く言えばいよいよ赫々（かくかく）たる太陽の出現によって、月は光を失うごとく文明の大転換となるのであるから、この任に当る本教こそいかに偉大な事業であるかが分るであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Essência de uma Verdadeira Religião Nova</h2>
 <p>É com grande satisfação que observamos, recentemente, o termo “nova religião” ter ascendido ao debate público, sendo inclusive tratado com maior seriedade por jornais e revistas. Contudo, ao analisar detidamente tais discussões, percebe-se que o conceito é empregado de forma superficial, referindo-se apenas a qualquer religião fundada em tempos recentes, sem um real interesse por sua substância. O mais lamentável é que essa mesma atitude prevalece até mesmo entre os adeptos de tais movimentos.</p>
@@ -103,5 +255,48 @@ function toggleLang(lang) {
 <p>A razão fundamental para tal fenômeno, como sempre afirmo, é que o mundo, até hoje, esteve imerso na Era da Noite, tendo a luz da Lua como sua única fonte de iluminação. A luz do Sol, entretanto, despontou, e com ela, tudo aquilo que era nocivo e supérfluo, antes invisível, tornou-se nitidamente visível. A “Luz do Oriente”, profetizada desde a Antiguidade, refere-se precisamente a este advento. Com o avançar do tempo, o Sol subirá gradualmente ao zênite, iluminando o mundo inteiro. Atualmente, vivenciamos a sua aurora.</p>
 <p>Em virtude desse princípio, tudo o que ensino é inédito, jamais conhecido por alguém, o que causa espanto e, por vezes, até mesmo incompreensão. O mundo viveu uma noite tão longa que seus habitantes, com os olhos habituados à escuridão, compreensivelmente se desconcertam diante do súbito alvorecer da Cultura do Dia.</p>
 <p>Contudo, há um ponto crucial a ser compreendido. Com a chegada da Era do Dia, Deus selecionará o que há de útil na cultura da Noite para ser preservado, devendo, contudo, superar e descartar tudo o que se tornou obsoleto. A luz do Sol é sessenta vezes mais potente que a da Lua; por conseguinte, doenças até então consideradas incuráveis encontram, agora, solução com facilidade. Os fatos que o Johrei de nossa Igreja manifesta diariamente o comprovam de forma inequívoca. Em outras palavras, com o surgimento do Sol resplandecente, a Lua perde o seu brilho. Trata-se de uma colossal transição de civilização. Pode-se, assim, aquilatar a magnitude da missão confiada à nossa Igreja.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 新宗教とは何か 『栄光』203号、昭和28(1953)年4月8日発行 近頃新宗教の言葉は、社会各方面の話題に上って来たと共に、新聞雑誌等も割合重く扱われるようになった事は喜ばしい限りである。<br/><br/>しかしこれらをよくみるとただ漫然と、新しく出来た宗教だから新宗教というまでの事で、その内容に至ってはほとんど無関心のようである。<br/><br/>しかも新宗教に携（たずさ）わる人でさえそうであるのはまことに遺憾である。<br/><br/>これについて私の言いたい事は、看板だけ新宗教であっても、内容がそれに伴（ともな）わないとしたら、意味をなさない訳である。<br/><br/>というのは古くからある開祖の教や、文献等、長い間言い古され、誰にも知られているような説を、その人の主観で替えたり、色を着けたりしているだけでは、新しい宗教とは言えまい。<br/><br/>その上建造物、形式等万事が昔のままであって、しかも開祖の教えに還（かえ）れなどというに至っては、むしろ時代と懸け離れるばかりであり、それに対し怪しむ者のないのも不思議と思わざるを得ないのである。<br/><br/> 何となれば現代のごとく高等教育を受け、知性の発達した人々を相手にするとしたら、黴臭（かびくさ）い教典を有難がらせようとしても受入れるはずはあるまい。<br/><br/>特に青年層などはなおさらそうである。<br/><br/>というように今日既成宗教の大部分の信者は、伝統的、観念的に引ずられているにすぎないと言えよう。<br/><br/>ところが新宗教の信者はそれと異（ちが）って、何らか新しいものを求めて入った人々に違いないからいいが、それでも真の不動の信者は割合少ないようである。<br/><br/>としたら現代人を心の底から信じさせるには、どうしても理論的には筋が通っており、疑い得ない現当利益が伴わない限りまず駄目といってよかろう。<br/><br/>従って単なる流行を追うような宗教信者では、一時的で長続きしないのはもちろんである。<br/><br/>次に言いたいのは現代人とても決して信仰心のない訳ではない。<br/><br/>ただ現代的感覚からみて、信じ得る宗教が余りないからで、ありさえすれば必ず信ずるのは、私の経験によっても確かである。<br/><br/>むしろそういう宗教を求めている人が大多数といっていい。<br/><br/> ところがそういう宗教が見当らないため、止むなく無信仰者となっており、それに対し何といっても科学の方は手っ取り早く眼に見えて、人間の要求を満してくれる以上、自然依存する事になるのは致し方あるまい。<br/><br/>という訳で無信仰者を非難する事は出来ないと思う。<br/><br/>ところがここに問題がある。<br/><br/>というのはそれ程信頼する科学でも解決出来ず、そうかといって宗教でも解決出来ない事もよくあるので、ジレンマに陥ってしまい、その上先の見通しもつかないので、智識人中のある者は懐疑に陥り、ある者は希望を失い、その日暮しになったり自暴自棄的となって、懐（ふところ）都合のいい者は享楽を求めるという結果になるので、これが現在の世相であろう。<br/><br/>今一つ言いたい事がある。<br/><br/>それは今まで現われたところの歴史的宗教偉人より以上のものは最早絶対出ないと決めている事で、この考え方も絶望に拍車をかけているのである。<br/><br/>中には半（なか）ば諦め、半ば現実と遊離した人達は、骨董的教説を研究思索している等々もあり、現在思想界は全く混沌（こんとん）として帰趨（きすう）を知らない有様である。<br/><br/> ところがこの無明の闇を破って、突如出現したのが我救世教である。<br/><br/>そうしていとも大胆に既成文化のあらゆる部門に渉って大鉄槌（てっつい）を下し、一々の誤謬を暴露し、真の文明のあり方を教え、着々として実行力を発揮しつつあるのであるから、公平に言って二十世紀の驚異であろう。<br/><br/>そうしてこの根本こそいつもいうごとく、今日までの世界は夜であり、僅かに月光を唯一の光としていたにすぎなかったが、そこへ太陽の光が現われたので、今まで見る事を得なかった不要有害物のことごとくは、ハッキリ浮び上ったのである。<br/><br/>昔から東方の光とはこの事であって、時の進むに従い太陽は徐々として天心に昇り、全世界を照らす事になるので、現在はその黎明期である。<br/><br/> この理によって私が説くあらゆる説は、今まで誰も知らなかったもののみであるから驚嘆し、中には誤解する人さえあるくらいである。<br/><br/>何しろ長い夜の世界が続いて来たので、それに慣れた眼には突如として現われた昼の文化であるから、狼狽するのも無理はない。<br/><br/>ところがここに問題がある。<br/><br/>それは昼の世界になった以上、夜の文化中から神は有用なものを残し、不用なものは揚棄（ようき）せざるを得なくなるのである。<br/><br/>しかも太陽の光は月光の六十倍に当るから、今日まで不明であり、治癒不可能とされていた病気も難なく解決されるのである。<br/><br/>本教浄霊が日々現わしている事実によっても明らかである。<br/><br/>なおこれを分り易く言えばいよいよ赫々（かくかく）たる太陽の出現によって、月は光を失うごとく文明の大転換となるのであるから、この任に当る本教こそいかに偉大な事業であるかが分るであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s270526</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年5月26日） 『御教え集』10号、昭和27(1952)年6月15日発行 昭和二十七年五月二十六日 【御教え】 ようやく美術館もできましたが、まだ形だけで中はちょっと見られません。<br><br>私が予想したよりも具合良くできたので非常に満足しているんです。<br><br>それともう一つは、非常に早くできたんですね。<br><br>それについて今までの経緯(いきさつ)を書いてみたんですがね。<br><br>読ませてみます。<br><br> （御論文「美術館出来るまで」）【栄光 一六〇号】 今読んだようなわけで、つまり宗教を弘げるについて美術を利用したということは、聖徳太子が元祖です。<br><br>つまり私はそれを世界的にするわけですね。<br><br>まあ、これから世界的にするその最初の一歩として、美術館を日本的に造ったんです。<br><br>しかし、これがだんだん知れるにつれて、世界の注目を浴びるようになりますから、やっぱり将来世界的のものにはなるんですね。<br><br>で、これはまあ――熱海に大きなものを造るその見本として造ったものなんですが、これによって大体良く分かりましたから、まあ一、二年のうちに熱海にもっと大きい――私の予定では約三倍くらいのものを造ろうと思っている。<br><br>これは本当に名実ともに世界一のものができるはずです。<br><br>ですから聖徳太子のやられたことを、もっと新しくもっと広くやったという意味ですね。<br><br>ですから、この間言った救世（メシヤ）観音ですね。<br><br>救世（ぐせ）観音さんを見た時そういうことが良く分かったんですね。<br><br>その時に、その観音さんの霊が私に入ってきたんですからね。<br><br>で、そういうことを私に知らせたわけですね。<br><br>ですから聖徳太子という人は非常に頭が良かった。<br><br>一遍に八人のいうことを聞いたということを言いますが、これはおおげさに作ったものに違いないとしても、とにかく非常に頭は良かったに違いないですね。<br><br>私も――自分は非常に頭が良いとは思っていないんですが、世間の人があんまり悪すぎるので、較べてみると非常に良いということが分かるんです。<br><br>ですからその点もよく似ていると思うんです。<br><br>それで今朝もちょっと、藤枝さんが来たのでその話をしたんですが、私はくどいのが非常に嫌いなんですね。<br><br>一つ事をいくども言われるのはね。<br><br>だからくどい人は面会しない――話し合わないようにしてますがね。<br><br>くどいというのはどういうわけかというと、その人は頭が悪いからいくども言わないと理解できないんです。<br><br>それで、人に対してもいくども言わないと解らないと思うんです。<br><br>ですから私もいくどもやられるんです。<br><br>それで、降参するんですがね。<br><br>そこでくどい人は、その人は頭が悪いと、こう思って良い。<br><br> これは私の自慢話になりますが、私は迷うということがないですね。<br><br>なにかの問題があっても、どうしようかこうしようかということは――ぜんぜんないことはないが、ほとんどない。<br><br>聞いたり見たりしてすぐ決まっちゃうんですがね。<br><br>ですから私は買物するのが早い。<br><br>デパートに行って、すぐこれとこれというんです。<br><br>すると、家内なんか他のものをさんざんひっくり返して見た結果、やっぱり私が言ったものなんです。<br><br>そういうことがよくある。<br><br>今度美術館に出る友松(ゆうしょう)という人の――やっぱり国宝なんですがね。<br><br>これは京都の博物館に屏風が六双預けてあるから見にこないかとのことで、見て買ってもらいたいというんです。<br><br>それで、去年京都に行った時に、博物館に行って拡げてみさせたんです。<br><br>一双でも――一本しか拡げさせない。<br><br>それで分かりますからね。<br><br>一つか二つ開けさせるんです。<br><br>なにしろ六曲の屏風を見るのに五分ですからね。<br><br>それでこれを決めたんです。<br><br>五分くらいしかかからない。<br><br>それで帰ってきたんです。<br><br>私は自分ながら早いと思う。<br><br>そんな具合ですから、美術館を造るにも庭を造るにも迷うということはないですね。<br><br>どうしようこうしようとね。<br><br>すぐ分かるんですからね。<br><br>ですから先の方で呑み込めないことがあるんですね。<br><br>そこで、呑み込めないばかりでなく、あんなに簡単にしたんだから、やっぱり充分お考えになれないんだろうというように解釈する。<br><br>そんなようなことで非常に早いですね。<br><br>早いということは頭が良いということになるんですが、私からいうとよその人は遅いんです。<br><br>それで仕事が早くできるから、たくさんできるというわけですね。<br><br>それで、箱根はこうやってやってますが、熱海もできるだけ報告を聞いて、月に一遍くらいやってみようと思う。<br><br>それでたくさんなんですね。<br><br>先の報告を聞くとたいてい見当つきます。<br><br>そんなようなわけで、今は原稿を書くし、新聞も雑誌もお蔭話は全部私が目を通すんです。<br><br>目を通して、この人に読ませるんです。<br><br>読ませて、いくらか直す所もあるし文を添える所もあるし、それから歌も――歌はわけなくできますが、まあ一時間あれば五十もできますがね。<br><br>一番難しいのは寸鉄なんですよ。<br><br>これは笑わせなければならない。<br><br>で、急所をピタッと言って、ははあ、なるほど、というように思わせて笑わせるんだから、これが一番難しい。<br><br>他のものは別になんでもない。<br><br> 『結核信仰療法』も、あれは随分念を入れて――なにしろ世界的に、世界中の人に見せるんですから念を入れてやりました。<br><br>手間がかかりましたが、やっとできて、これから印刷にかかります。<br><br> 今度のは『私物語』という本で――変な題ですが、それを今から書こうと思う。<br><br>それは非常におもしろいと思うんです。<br><br>今「序文」と少しできましたから。<br><br> （御論文「私物語 序文」） その中での最初の一章ですが。<br><br> （御論文「私の神秘」） それから、よく熱海や箱根を見て――これはまあ、未信者の人でそうとう偉い人ですが、先生はちょうど秀吉みたいです。<br><br>と、よくみんな言うんです。<br><br>それで秀吉みたいな点もあるが、根本がまるっきり違う。<br><br>秀吉があれだけのことをしたのは、もとはと言えば殺人強盗の大きいのと同じです。<br><br>それであれだけのことをしたんです。<br><br>つまりあのために人を何人殺したか分からない。<br><br>ところが私は人を助けてやっているんだから、その点をみてもらわなければならない。<br><br>と、こう言うんです。<br><br>なるほど家康も偉いが、殺人強盗をして物にしたものを、また物にしたんだから、確かに偉い人で功績はあるにはあったが、根本が違うからそれだけ知ってもらえば良いということを時々言うんですが、そんなような具合で今までの世の中は、いろいろ英雄とか偉人とかいう人は、そうとう罪を犯したんですね。<br><br>そうして立派なものを作ったり、天下に覇権を握ったんです。<br><br>それから一方、人を助ける――救うという宗教家は、私から言うと意気地がなかったですね。<br><br>なるほど教えとかそういうことは、なかなか命懸けで説いて、救おうとしたけれども、結局その時代の――時代も悪かったに違いないが――今日と違ってね。<br><br>いろんな圧迫をされたり――まあ、お釈迦さんなんかは出が出ですから、それほどでもなかったが、それでも理想に偏って現実的な救いはあんまりやらなかったですね。<br><br>たくさん教えを説いたり、お説教はしましたがね。<br><br>例えば、病気の原因を知らせるということはなかった。<br><br>なかったというよりか、病気の原因が発見できなかった。<br><br>それから、農業も、芸術も――これが一番不足したと思うんです。<br><br>キリスト、釈迦、マホメットでも芸術は無関心だった。<br><br>で、中にはバラモン的に、そういった美なんていうのは罪悪のように思って、粗衣粗食小さな家に住むことを、かえって良いというような説き方をした者も随分あった。<br><br>そういうような点で歴史に残っている人としては聖徳太子だけです。<br><br>もっとも、やはりああいった位の高い所から出たですから、そういう影響も多分にあったわけですね。<br><br>ところが私は本当のどん底から出て、そうして美術を大いにやるんですから、この点も大いに変わっているわけですね。<br><br>そういうようなわけで、これからやることも――今までのいろんな偉い人は非常に間違っている。<br><br>そういう点なんかもこれから書こうと思ってますがね。<br><br>そこで、私がそんなような、美術でもなんでもやるのは、それは私がやるのではなくて、神様がちゃんとそういう案ができていて、私がやっているようだが私が指図を受けてやっているんですね。<br><br>要するに神様の番頭みたいなものです。<br><br>だからさっき読んだ通り、奇蹟でどんどんできていくというわけです。<br><br>だからその点においては非常に楽ですね。<br><br>今まで何年も苦労したようなことを、私はなんでもなくやっていくというわけですから、そういう点も、それを心得て見なければ見当がとれないというわけですね。<br><br>そのくらいにして。<br><br> それから、赤痢が今年ははやりそうだということを新聞やラジオでさかんに言ってますが、これはいつかも話した通り、赤痢というのは頭の毒ですからね。<br><br>後頭部の毒血が出るんです。<br><br>ところがその原因というものは、今の人は非常に頭を使いますからね。<br><br>なにしろ子供のうちから学校で頭を使う。<br><br>それから社会に出ても頭を使うことばかりですから――なかなか農民や労働者でも、今の人は昔と違ってなかなか頭が発達してますよ。<br><br>私はよくラジオの街頭録音を聞きますが、農村やなにかで街頭録音をやっているんですが、百姓をやっている人で、なかなか上手い理屈を言うんですよ。<br><br>私は驚いたですね。<br><br>労働者にしてもね。<br><br>ラジオで見えないから分からないが、代議士が言うより、もっと気の利いたことを言う人があります。<br><br>私は感心しますがね。<br><br>ふだんから本を読んだり思索をしているということが分かりますね。<br><br>だから近代人は頭を使うということが分かるんです。<br><br>頭を使うと血が頭に上りますからね。<br><br>それが、良い血が上るなら良いが、毒血ですからね。<br><br>それは薬を服み、注射するからね。<br><br>頭を使うということは、ここ（前頭部）に血が集まる前に後頭部に集まってくるんです。<br><br>後頭部を通過して前頭部にいくんです。<br><br>それで、そこまで行かないうちにここ（後頭部）で固まっちゃう。<br><br>それから字を書いたり手を使って――神経を使いやすいから、ここに集まりやすい。<br><br>それが浄化が起って、溶けてお腹に行って、それが肛門から出るんです。<br><br>それが赤痢なんです。<br><br>だから赤痢の原因というものは、今言ったようなものです。<br><br>黴菌というのは、それを誘導するのに必要なものです。<br><br>早く毒血を出さなければならない。<br><br>それで黴菌が毒血に湧くんです。<br><br>それが伝染していって大勢が浄化するんです。<br><br>非常に結構なんです。<br><br>病気の経路は、今言うそういうようなものですがね。<br><br>ところが滑稽なのは、今の予防法ですね。<br><br>「外出して帰ったら手を洗え」「食事の前には手を洗え」それから「暴飲暴食をするな」「生物(なまもの)を食うな」と、そういうような点ですね。<br><br>手を洗えというのは、私は一番滑稽だと思う。<br><br>黴菌がそうとう大きい――砂か泥くらいなものなら手を洗えばきれいになるが、顕微鏡で見るような小さなものが、はたして落ちるかどうかですね。<br><br>落ちてもまたすぐついちゃう。<br><br>本当に気休め程度ですね。<br><br>それから生物を食うな。<br><br>生物を食うなということは、水を危険と思っているらしいです。<br><br>水が危険としても、井戸はそうかもしれないが、水道はそんなことがないですからね。<br><br>生物を水道で洗って――そんなことはないわけですが、下痢しやすいんでしょうが、下痢が結構ということは知らないからで、そんなようなわけで他に知らないから、アップアップやっているんですがね。<br><br>かわいそうな滑稽なような話で、実に情けないと思っているくらいです。<br><br>その理屈さえ解れば結構なんです。<br><br>それが解った信者さんは、その点だけでも幸福者ですね。<br><br>たいへんなものですね。<br><br>さもないと、外から帰ってきても、怖がって一々手を洗って厄介な話ですからね。<br><br>それで始終ビクビクしてね。<br><br>それでちょっとでも下痢すれば、赤痢にでもなったのではないかと心配しますがね。<br><br>これはいつも言っているから、改めて言うこともないが、なんとかして早く解らせなければならないと思うんですが、どうせ神様がやられていることですから、時期の進むにつれてみんな解らなければならない、ということになりますから、時を待つというよりしかたがないですね。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Manifestação da Vontade Divina</h2>
 <p>Finalmente, o museu de arte foi concluído. Embora ainda seja apenas a estrutura externa e seu interior não esteja pronto para visitação, sinto-me imensamente satisfeito, pois o resultado superou minhas expectativas. Ademais, sua construção foi extraordinariamente célere. Redigi um relato sobre o desenrolar dos acontecimentos até este ponto, o qual será lido a seguir.</p>
@@ -116,5 +268,48 @@ function toggleLang(lang) {
 <p>O que beira o cômico, no entanto, são os métodos preventivos propagados pela medicina atual: “Lave as mãos ao voltar da rua”, “lave as mãos antes das refeições”, “evite excessos à mesa”, “não coma alimentos crus”. A recomendação de lavar as mãos é, para mim, a mais descabida. Se os micróbios fossem grandes como grãos de areia, a água os removeria. Mas como garantir a eliminação de seres microscópicos? Mesmo que alguns sejam removidos, outros logo os substituirão. Não passa de um paliativo psicológico. A proibição de alimentos crus parece derivar do medo da água. A água de poço pode, de fato, oferecer riscos, mas a da rede pública é segura. Eles temem a diarreia, ignorando que ela é, em si, um processo benéfico de purificação.</p>
 <p>Por desconhecerem a verdade, debatem-se em um emaranhado de medidas ineficazes. É uma situação ao mesmo tempo cômica e lastimável. O fiel que compreende essa verdade é verdadeiramente afortunado. Do contrário, vive-se em um estado de medo constante, temendo a contaminação a cada gesto, assombrado pela menor desordem intestinal.</p>
 <p>Sinto o anseio de esclarecer a todos o mais rápido possível, mas, como tudo é conduzido por Deus, a compreensão virá no tempo certo para cada um. Resta-nos aguardar o avanço do Plano Divino.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年5月26日） 『御教え集』10号、昭和27(1952)年6月15日発行 昭和二十七年五月二十六日 【御教え】 ようやく美術館もできましたが、まだ形だけで中はちょっと見られません。<br/><br/>私が予想したよりも具合良くできたので非常に満足しているんです。<br/><br/>それともう一つは、非常に早くできたんですね。<br/><br/>それについて今までの経緯(いきさつ)を書いてみたんですがね。<br/><br/>読ませてみます。<br/><br/> （御論文「美術館出来るまで」）【栄光 一六〇号】 今読んだようなわけで、つまり宗教を弘げるについて美術を利用したということは、聖徳太子が元祖です。<br/><br/>つまり私はそれを世界的にするわけですね。<br/><br/>まあ、これから世界的にするその最初の一歩として、美術館を日本的に造ったんです。<br/><br/>しかし、これがだんだん知れるにつれて、世界の注目を浴びるようになりますから、やっぱり将来世界的のものにはなるんですね。<br/><br/>で、これはまあ――熱海に大きなものを造るその見本として造ったものなんですが、これによって大体良く分かりましたから、まあ一、二年のうちに熱海にもっと大きい――私の予定では約三倍くらいのものを造ろうと思っている。<br/><br/>これは本当に名実ともに世界一のものができるはずです。<br/><br/>ですから聖徳太子のやられたことを、もっと新しくもっと広くやったという意味ですね。<br/><br/>ですから、この間言った救世（メシヤ）観音ですね。<br/><br/>救世（ぐせ）観音さんを見た時そういうことが良く分かったんですね。<br/><br/>その時に、その観音さんの霊が私に入ってきたんですからね。<br/><br/>で、そういうことを私に知らせたわけですね。<br/><br/>ですから聖徳太子という人は非常に頭が良かった。<br/><br/>一遍に八人のいうことを聞いたということを言いますが、これはおおげさに作ったものに違いないとしても、とにかく非常に頭は良かったに違いないですね。<br/><br/>私も――自分は非常に頭が良いとは思っていないんですが、世間の人があんまり悪すぎるので、較べてみると非常に良いということが分かるんです。<br/><br/>ですからその点もよく似ていると思うんです。<br/><br/>それで今朝もちょっと、藤枝さんが来たのでその話をしたんですが、私はくどいのが非常に嫌いなんですね。<br/><br/>一つ事をいくども言われるのはね。<br/><br/>だからくどい人は面会しない――話し合わないようにしてますがね。<br/><br/>くどいというのはどういうわけかというと、その人は頭が悪いからいくども言わないと理解できないんです。<br/><br/>それで、人に対してもいくども言わないと解らないと思うんです。<br/><br/>ですから私もいくどもやられるんです。<br/><br/>それで、降参するんですがね。<br/><br/>そこでくどい人は、その人は頭が悪いと、こう思って良い。<br/><br/> これは私の自慢話になりますが、私は迷うということがないですね。<br/><br/>なにかの問題があっても、どうしようかこうしようかということは――ぜんぜんないことはないが、ほとんどない。<br/><br/>聞いたり見たりしてすぐ決まっちゃうんですがね。<br/><br/>ですから私は買物するのが早い。<br/><br/>デパートに行って、すぐこれとこれというんです。<br/><br/>すると、家内なんか他のものをさんざんひっくり返して見た結果、やっぱり私が言ったものなんです。<br/><br/>そういうことがよくある。<br/><br/>今度美術館に出る友松(ゆうしょう)という人の――やっぱり国宝なんですがね。<br/><br/>これは京都の博物館に屏風が六双預けてあるから見にこないかとのことで、見て買ってもらいたいというんです。<br/><br/>それで、去年京都に行った時に、博物館に行って拡げてみさせたんです。<br/><br/>一双でも――一本しか拡げさせない。<br/><br/>それで分かりますからね。<br/><br/>一つか二つ開けさせるんです。<br/><br/>なにしろ六曲の屏風を見るのに五分ですからね。<br/><br/>それでこれを決めたんです。<br/><br/>五分くらいしかかからない。<br/><br/>それで帰ってきたんです。<br/><br/>私は自分ながら早いと思う。<br/><br/>そんな具合ですから、美術館を造るにも庭を造るにも迷うということはないですね。<br/><br/>どうしようこうしようとね。<br/><br/>すぐ分かるんですからね。<br/><br/>ですから先の方で呑み込めないことがあるんですね。<br/><br/>そこで、呑み込めないばかりでなく、あんなに簡単にしたんだから、やっぱり充分お考えになれないんだろうというように解釈する。<br/><br/>そんなようなことで非常に早いですね。<br/><br/>早いということは頭が良いということになるんですが、私からいうとよその人は遅いんです。<br/><br/>それで仕事が早くできるから、たくさんできるというわけですね。<br/><br/>それで、箱根はこうやってやってますが、熱海もできるだけ報告を聞いて、月に一遍くらいやってみようと思う。<br/><br/>それでたくさんなんですね。<br/><br/>先の報告を聞くとたいてい見当つきます。<br/><br/>そんなようなわけで、今は原稿を書くし、新聞も雑誌もお蔭話は全部私が目を通すんです。<br/><br/>目を通して、この人に読ませるんです。<br/><br/>読ませて、いくらか直す所もあるし文を添える所もあるし、それから歌も――歌はわけなくできますが、まあ一時間あれば五十もできますがね。<br/><br/>一番難しいのは寸鉄なんですよ。<br/><br/>これは笑わせなければならない。<br/><br/>で、急所をピタッと言って、ははあ、なるほど、というように思わせて笑わせるんだから、これが一番難しい。<br/><br/>他のものは別になんでもない。<br/><br/> 『結核信仰療法』も、あれは随分念を入れて――なにしろ世界的に、世界中の人に見せるんですから念を入れてやりました。<br/><br/>手間がかかりましたが、やっとできて、これから印刷にかかります。<br/><br/> 今度のは『私物語』という本で――変な題ですが、それを今から書こうと思う。<br/><br/>それは非常におもしろいと思うんです。<br/><br/>今「序文」と少しできましたから。<br/><br/> （御論文「私物語 序文」） その中での最初の一章ですが。<br/><br/> （御論文「私の神秘」） それから、よく熱海や箱根を見て――これはまあ、未信者の人でそうとう偉い人ですが、先生はちょうど秀吉みたいです。<br/><br/>と、よくみんな言うんです。<br/><br/>それで秀吉みたいな点もあるが、根本がまるっきり違う。<br/><br/>秀吉があれだけのことをしたのは、もとはと言えば殺人強盗の大きいのと同じです。<br/><br/>それであれだけのことをしたんです。<br/><br/>つまりあのために人を何人殺したか分からない。<br/><br/>ところが私は人を助けてやっているんだから、その点をみてもらわなければならない。<br/><br/>と、こう言うんです。<br/><br/>なるほど家康も偉いが、殺人強盗をして物にしたものを、また物にしたんだから、確かに偉い人で功績はあるにはあったが、根本が違うからそれだけ知ってもらえば良いということを時々言うんですが、そんなような具合で今までの世の中は、いろいろ英雄とか偉人とかいう人は、そうとう罪を犯したんですね。<br/><br/>そうして立派なものを作ったり、天下に覇権を握ったんです。<br/><br/>それから一方、人を助ける――救うという宗教家は、私から言うと意気地がなかったですね。<br/><br/>なるほど教えとかそういうことは、なかなか命懸けで説いて、救おうとしたけれども、結局その時代の――時代も悪かったに違いないが――今日と違ってね。<br/><br/>いろんな圧迫をされたり――まあ、お釈迦さんなんかは出が出ですから、それほどでもなかったが、それでも理想に偏って現実的な救いはあんまりやらなかったですね。<br/><br/>たくさん教えを説いたり、お説教はしましたがね。<br/><br/>例えば、病気の原因を知らせるということはなかった。<br/><br/>なかったというよりか、病気の原因が発見できなかった。<br/><br/>それから、農業も、芸術も――これが一番不足したと思うんです。<br/><br/>キリスト、釈迦、マホメットでも芸術は無関心だった。<br/><br/>で、中にはバラモン的に、そういった美なんていうのは罪悪のように思って、粗衣粗食小さな家に住むことを、かえって良いというような説き方をした者も随分あった。<br/><br/>そういうような点で歴史に残っている人としては聖徳太子だけです。<br/><br/>もっとも、やはりああいった位の高い所から出たですから、そういう影響も多分にあったわけですね。<br/><br/>ところが私は本当のどん底から出て、そうして美術を大いにやるんですから、この点も大いに変わっているわけですね。<br/><br/>そういうようなわけで、これからやることも――今までのいろんな偉い人は非常に間違っている。<br/><br/>そういう点なんかもこれから書こうと思ってますがね。<br/><br/>そこで、私がそんなような、美術でもなんでもやるのは、それは私がやるのではなくて、神様がちゃんとそういう案ができていて、私がやっているようだが私が指図を受けてやっているんですね。<br/><br/>要するに神様の番頭みたいなものです。<br/><br/>だからさっき読んだ通り、奇蹟でどんどんできていくというわけです。<br/><br/>だからその点においては非常に楽ですね。<br/><br/>今まで何年も苦労したようなことを、私はなんでもなくやっていくというわけですから、そういう点も、それを心得て見なければ見当がとれないというわけですね。<br/><br/>そのくらいにして。<br/><br/> それから、赤痢が今年ははやりそうだということを新聞やラジオでさかんに言ってますが、これはいつかも話した通り、赤痢というのは頭の毒ですからね。<br/><br/>後頭部の毒血が出るんです。<br/><br/>ところがその原因というものは、今の人は非常に頭を使いますからね。<br/><br/>なにしろ子供のうちから学校で頭を使う。<br/><br/>それから社会に出ても頭を使うことばかりですから――なかなか農民や労働者でも、今の人は昔と違ってなかなか頭が発達してますよ。<br/><br/>私はよくラジオの街頭録音を聞きますが、農村やなにかで街頭録音をやっているんですが、百姓をやっている人で、なかなか上手い理屈を言うんですよ。<br/><br/>私は驚いたですね。<br/><br/>労働者にしてもね。<br/><br/>ラジオで見えないから分からないが、代議士が言うより、もっと気の利いたことを言う人があります。<br/><br/>私は感心しますがね。<br/><br/>ふだんから本を読んだり思索をしているということが分かりますね。<br/><br/>だから近代人は頭を使うということが分かるんです。<br/><br/>頭を使うと血が頭に上りますからね。<br/><br/>それが、良い血が上るなら良いが、毒血ですからね。<br/><br/>それは薬を服み、注射するからね。<br/><br/>頭を使うということは、ここ（前頭部）に血が集まる前に後頭部に集まってくるんです。<br/><br/>後頭部を通過して前頭部にいくんです。<br/><br/>それで、そこまで行かないうちにここ（後頭部）で固まっちゃう。<br/><br/>それから字を書いたり手を使って――神経を使いやすいから、ここに集まりやすい。<br/><br/>それが浄化が起って、溶けてお腹に行って、それが肛門から出るんです。<br/><br/>それが赤痢なんです。<br/><br/>だから赤痢の原因というものは、今言ったようなものです。<br/><br/>黴菌というのは、それを誘導するのに必要なものです。<br/><br/>早く毒血を出さなければならない。<br/><br/>それで黴菌が毒血に湧くんです。<br/><br/>それが伝染していって大勢が浄化するんです。<br/><br/>非常に結構なんです。<br/><br/>病気の経路は、今言うそういうようなものですがね。<br/><br/>ところが滑稽なのは、今の予防法ですね。<br/><br/>「外出して帰ったら手を洗え」「食事の前には手を洗え」それから「暴飲暴食をするな」「生物(なまもの)を食うな」と、そういうような点ですね。<br/><br/>手を洗えというのは、私は一番滑稽だと思う。<br/><br/>黴菌がそうとう大きい――砂か泥くらいなものなら手を洗えばきれいになるが、顕微鏡で見るような小さなものが、はたして落ちるかどうかですね。<br/><br/>落ちてもまたすぐついちゃう。<br/><br/>本当に気休め程度ですね。<br/><br/>それから生物を食うな。<br/><br/>生物を食うなということは、水を危険と思っているらしいです。<br/><br/>水が危険としても、井戸はそうかもしれないが、水道はそんなことがないですからね。<br/><br/>生物を水道で洗って――そんなことはないわけですが、下痢しやすいんでしょうが、下痢が結構ということは知らないからで、そんなようなわけで他に知らないから、アップアップやっているんですがね。<br/><br/>かわいそうな滑稽なような話で、実に情けないと思っているくらいです。<br/><br/>その理屈さえ解れば結構なんです。<br/><br/>それが解った信者さんは、その点だけでも幸福者ですね。<br/><br/>たいへんなものですね。<br/><br/>さもないと、外から帰ってきても、怖がって一々手を洗って厄介な話ですからね。<br/><br/>それで始終ビクビクしてね。<br/><br/>それでちょっとでも下痢すれば、赤痢にでもなったのではないかと心配しますがね。<br/><br/>これはいつも言っているから、改めて言うこともないが、なんとかして早く解らせなければならないと思うんですが、どうせ神様がやられていることですから、時期の進むにつれてみんな解らなければならない、ということになりますから、時を待つというよりしかたがないですね。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

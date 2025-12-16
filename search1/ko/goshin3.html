@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>goshin3</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 誤診誤療の実例 （一） 『健康』1号、昭和11(1936)年6月15日発行 西洋医学の大誤謬は、あらゆる方面から、その理論と実証を示しているので、読者は大体、知諒したであろうが、なお今日まで、私の手許に集まっている多数の実例の中から摘出して、発表する事にする。<br><br>しかし、神ならぬ身の人間が行（や）る事であるから、誤りが無い訳にはゆかないのは勿論である。<br><br>故に、その程度が有り得べき範囲であるものは致し方ないのであるが、余りにはなはだしい誤○誤○、あるいは人道上から観ても葬り去る事の出来ないようなものを選んで、左に記述するのである。<br><br> 早期胃癌の誤診 ○○区区会議長兼府会議長○○○氏 五十四歳 この患者は、最初軽微の消化不良で、念の為診断を受けておかんと○大に赴いたのである。<br><br>その時の診断によれば、胃癌の初期であるから、今手術をすれば絶対に治癒する。<br><br>今が最も切り頃であると、口を極めて、手術を勧めたのである。<br><br>しかもそれは、日本で有名な○○○○の博士であった。<br><br>その時である「勧める者」があって某氏の所へ来たので、探診したところ、未だ、癌という程にはなっていない、そうであった。<br><br>単なる水膿溜結が心窩部から横隔膜下部に、長さ一寸五分、幅一寸位の大きさにあって、治療をすれば二週間位で全治する程のもので、その由を言って、極力手術の不要を勧告したそうであるが、四五回目に来た時であった。<br><br>その患者が愬（うった）えるには何分にも○大の有数なる博士三人が、今が切り頃である。<br><br>絶対に請合うと言うのを「何故」逡巡しているのかと、周囲の者から強要されるので、とても堪らないというのである。<br><br>某氏も、それらの反対を押切る事の不可能であるのを知ってそれなら止むを得ないから、貴下の随意になさいと言ったそうである。<br><br>そこで、早速入院して手術を受けたのである。<br><br>約一ケ月で病院を退院し、湯河原へ静養に、二ケ月計り滞在したそうである。<br><br>しかし、病気は一進一退で思わしくないので帰京したところ、その後、日に悪化し、帰京後、一ケ月余にして、ついに逝去したのであった。<br><br>手術後、約四ケ月にして生命を失ったのである。<br><br> この例は、突々（とつとつ）怪事であって、人道問題としても、充分に価値があるであろう。<br><br>もし、この患者が、医療をせず放置しておったとしたらまず「二年や三年」の寿命は、充分保ち得たであろう。<br><br>しかるに、医療をしたが為、生命を短縮したのは疑えない事実である。<br><br>しかも、日本有数の大家が、三人まで生命を保証したに係わらず右のごとき不結果に帰したとは、一体どうした事であろう――その当事者の弁明を聞きたいものである。<br><br> 惜しいと思う事 吾人はいつも新聞記事を見る時、名士の死及び黒枠広告をみて実に惜いと思うのである。<br><br>特に非常時の今日――軍人しかも将官級の人で、五十歳位の人の死は全く惜いと思うのである。<br><br>なぜなればこの人達が本療法を知れば、必ず病気全治して死ななくて済むからである。<br><br>又近頃は脳溢血が多いが、これらも平常――月に一回か二月に一回――本療法を以て血液の浄化法を行えば、絶対脳溢血には罹らない事である。<br><br>しかし、現在は未だ西洋医学が進歩していると思っているから、それのみに頼るのは止むを得ないと思って諦めてはいるが、まことに惜いものである。<br><br> 脳溢血の予防さえ完全に出来得ない――現代医学も因ったものであるが、一日も速く「観音力療病」の実力を世人に知らしめて、救われる人が一人でも多からん事を冀（ねがっ）てやまないものである。<br><br> （一一、四、二九）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Exemplos de Diagnósticos e Tratamentos Errôneos</h2>
 <p>Tendo já elucidado, sob diversas perspectivas e com sólidas demonstrações, os grandes equívocos da medicina ocidental, creio que os leitores possuem uma compreensão geral do assunto. Não obstante, decidi apresentar agora uma seleção da vasta casuística que venho compilando. Naturalmente, por serem praticadas por seres humanos e não por Deus, as ações humanas estão sujeitas a falhas, o que é perfeitamente compreensível. Contudo, há um limite para o erro. Os casos que descreverei a seguir foram escolhidos por sua natureza flagrante, por representarem equívocos tão graves que, sob uma perspectiva humanitária, não podem ser simplesmente ignorados.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>Sempre que leio os jornais e me deparo com as notícias do falecimento de personalidades e com os anúncios fúnebres, sou tomado por um profundo sentimento de perda. Em especial nos atuais tempos de crise, o falecimento de militares, sobretudo aqueles com patente de general por volta dos cinquenta anos, representa uma perda verdadeiramente lamentável. Digo isso porque, se tais homens conhecessem esta Terapia, suas doenças seriam certamente curadas, e suas mortes, evitadas.</p>
 <p>Observa-se, ademais, uma crescente incidência de hemorragias cerebrais. Tais fatalidades poderiam ser completamente prevenidas se as pessoas, de forma profilática, se submetessem ao nosso método de purificação sanguínea uma vez por mês ou a cada dois meses. No entanto, a crença de que a medicina ocidental está em um estágio avançado ainda prevalece, o que torna inevitável a dependência de seus métodos. Embora eu me resigne a essa realidade, não deixo de considerá-la uma grande lástima.</p>
 <p>A medicina moderna, que sequer consegue prevenir por completo as hemorragias cerebrais, encontra-se em uma situação verdadeiramente lastimável. Anseio, pois, do fundo de meu coração, que o verdadeiro poder da Terapia pelo Poder de Kannon (観音) seja revelado ao mundo o quanto antes, para que o número de pessoas salvas aumente, ainda que seja em apenas uma.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 誤診誤療の実例 （一） 『健康』1号、昭和11(1936)年6月15日発行 西洋医学の大誤謬は、あらゆる方面から、その理論と実証を示しているので、読者は大体、知諒したであろうが、なお今日まで、私の手許に集まっている多数の実例の中から摘出して、発表する事にする。<br/><br/>しかし、神ならぬ身の人間が行（や）る事であるから、誤りが無い訳にはゆかないのは勿論である。<br/><br/>故に、その程度が有り得べき範囲であるものは致し方ないのであるが、余りにはなはだしい誤○誤○、あるいは人道上から観ても葬り去る事の出来ないようなものを選んで、左に記述するのである。<br/><br/> 早期胃癌の誤診 ○○区区会議長兼府会議長○○○氏 五十四歳 この患者は、最初軽微の消化不良で、念の為診断を受けておかんと○大に赴いたのである。<br/><br/>その時の診断によれば、胃癌の初期であるから、今手術をすれば絶対に治癒する。<br/><br/>今が最も切り頃であると、口を極めて、手術を勧めたのである。<br/><br/>しかもそれは、日本で有名な○○○○の博士であった。<br/><br/>その時である「勧める者」があって某氏の所へ来たので、探診したところ、未だ、癌という程にはなっていない、そうであった。<br/><br/>単なる水膿溜結が心窩部から横隔膜下部に、長さ一寸五分、幅一寸位の大きさにあって、治療をすれば二週間位で全治する程のもので、その由を言って、極力手術の不要を勧告したそうであるが、四五回目に来た時であった。<br/><br/>その患者が愬（うった）えるには何分にも○大の有数なる博士三人が、今が切り頃である。<br/><br/>絶対に請合うと言うのを「何故」逡巡しているのかと、周囲の者から強要されるので、とても堪らないというのである。<br/><br/>某氏も、それらの反対を押切る事の不可能であるのを知ってそれなら止むを得ないから、貴下の随意になさいと言ったそうである。<br/><br/>そこで、早速入院して手術を受けたのである。<br/><br/>約一ケ月で病院を退院し、湯河原へ静養に、二ケ月計り滞在したそうである。<br/><br/>しかし、病気は一進一退で思わしくないので帰京したところ、その後、日に悪化し、帰京後、一ケ月余にして、ついに逝去したのであった。<br/><br/>手術後、約四ケ月にして生命を失ったのである。<br/><br/> この例は、突々（とつとつ）怪事であって、人道問題としても、充分に価値があるであろう。<br/><br/>もし、この患者が、医療をせず放置しておったとしたらまず「二年や三年」の寿命は、充分保ち得たであろう。<br/><br/>しかるに、医療をしたが為、生命を短縮したのは疑えない事実である。<br/><br/>しかも、日本有数の大家が、三人まで生命を保証したに係わらず右のごとき不結果に帰したとは、一体どうした事であろう――その当事者の弁明を聞きたいものである。<br/><br/> 惜しいと思う事 吾人はいつも新聞記事を見る時、名士の死及び黒枠広告をみて実に惜いと思うのである。<br/><br/>特に非常時の今日――軍人しかも将官級の人で、五十歳位の人の死は全く惜いと思うのである。<br/><br/>なぜなればこの人達が本療法を知れば、必ず病気全治して死ななくて済むからである。<br/><br/>又近頃は脳溢血が多いが、これらも平常――月に一回か二月に一回――本療法を以て血液の浄化法を行えば、絶対脳溢血には罹らない事である。<br/><br/>しかし、現在は未だ西洋医学が進歩していると思っているから、それのみに頼るのは止むを得ないと思って諦めてはいるが、まことに惜いものである。<br/><br/> 脳溢血の予防さえ完全に出来得ない――現代医学も因ったものであるが、一日も速く「観音力療病」の実力を世人に知らしめて、救われる人が一人でも多からん事を冀（ねがっ）てやまないものである。<br/><br/> （一一、四、二九）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

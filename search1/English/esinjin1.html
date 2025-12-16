@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>esinjin1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ONENESS BETWEEN GOD AND MAN Eikoh , No. 155, May 7, 1952 (the 27th year of Showa) The concept of "oneness between God and man" has been often mentioned from ancient times, but I think that there has never existed such a person who really embodied "oneness between God and man" in himself. Indeed, the three major holy men: Buddha (Shakyamuni), Christ and Mahomet seem to have been such a man, but as a matter of fact, they were the messengers for God's will; simply speaking, they were the mediators between God and people. That is; people were not able to distinguish oneness between God and man from being mediators between God and people. In other words, the mediators receive inspiration from God and act on His command, so they pray to God or Buddha at all times and look up to Him for their protection. But as for me, I practice no such things as prayers. As my followers know, I do not pray to God or ask for His directions. All I have to do is put my own thoughts into practice; it is very simple. This is unprecedented and could be thought of as strange, so I will explain just the point as long as it brings no problems here. As I say as usual, I have a small ball-sized sphere of light at the location of the center of my abdomen. This is the soul of a certain Supreme Being, therefore, as to all I do and say, God Himself controls me freely. In other words, there is no distinction between God and man, which truly means oneness between God and man. And so, because the divine spirit in me belongs in the highest rank of divinities and there are no divinities higher than this one in the world, I have no reason to bow down to other gods. Above all things, the very evidence for this is the miracles that my believers are showing from day to day. The miracles greater than those of Christ are continually revealed, so even my disciples are not inferior to Christ in any way. With this fact alone, you must be able to infer what the essence of my divinity is. There is one thing to be added here. Indeed, all the great religious teachers so far have prophesied the coming of a heavenly world, but they have not said that they themselves would create it, for their power was not strong enough because their divinities were lower at all. Because of my highest divinity, I dare to say that I will on my own create the world with neither sickness, nor poverty, nor war. Such is the case with me, I, from now on, will carry out many of the unprecedented and surprising projects ordained by God, which I want you to see for yourself, so events which you cannot think of as humanly possible will happen endlessly. 神人合一 『栄光』155号、昭和27(1952)年5月7日発行 よく昔から神人合一という言葉があるが、実際からいってそういう人は、今までに一人もなかったと私は思っている。<br><br>なるほど釈迦、キリスト、マホメットの三大聖者にしても、神人合一のごとく見ゆるが、実は神意の伝達者であって、判りやすく言えば神の取次者であったのである。<br><br>という訳で世人は神人合一と、神の取次者との区別を知らなかったのである。<br><br>すなわち神の取次者は神憑りや、神の命によって行動するのであるから常に神や仏陀を祈り、その守護を仰ぐ事にしているのである。<br><br> ところが私はそういう事は全然やらない。<br><br>信者も知るごとく、神を祈る事もないし、神の指示を仰ぐ事もない。<br><br>ただ自分の思うがままを実行していればいい訳で、はなはだ簡単である。<br><br>としたら今までに例のない事とて、変に思うかも知れないから、ここに差し支えない点だけをかいてみよう。<br><br>いつも言う通り私の腹には光の玉がある。<br><br>これはある最高の神様の魂であるから、私の言動すべては神様自身が、私を自由自在に動かしているのである。<br><br>つまり神と人との区別がない訳で、これが真の神人合一なのである。<br><br> 従って私に在られます神霊は、最高の神位であるから、これ以上の神様は世の中にないのであるから、他の神様に頭を下げる意味はないので、何よりも信者が日々顕わしている奇蹟がそれを証拠立てている。<br><br>その奇蹟たるやキリストの顕わした奇蹟以上の奇蹟が、常に顕われているので、私の弟子でもキリストに較べて何ら劣るところはないのであるから、この一事だけでも私の神格は想像つくはずである。<br><br> 今一つ言わねばならない事は、今日までのことごとくの聖者は、将来天国的世界が実現するという予言はしたが、自分自身造るとはいわれなかったのは、全く神格が低く力が足りなかったからである。<br><br>私は自分自身が病貧争絶無の地上天国を造ると宣言しているのは、右の理由によるからである。<br><br>という訳で今後私は今までにない幾多の驚くべき経綸を行うから、それをよく見て貰いたいので、到底人間業とは考えられないような事が、ドシドシ出て来るであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Unidade entre Deus e o Homem</h2>
 <p>A expressão “unidade entre Deus e o homem” é mencionada com frequência desde a Antiguidade; contudo, creio que, na realidade, jamais existiu alguém que a personificasse. Com efeito, os três grandes homens santos — Buda Shakyamuni, Cristo e Maomé — podem parecer exemplos dessa unidade, porém, na verdade, foram transmissores da Vontade Divina; em termos mais simples, atuaram como intermediários de Deus.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>O espírito divino que habita em mim possui a mais elevada hierarquia espiritual. Assim sendo, não existe no mundo uma divindade superior a esta e, portanto, não há motivo para que eu reverencie outros deuses. A prova irrefutável disso são os milagres que os fiéis manifestam diariamente. Tais milagres, que superam os realizados por Cristo, ocorrem continuamente, de modo que nem mesmo meus discípulos são, em aspecto algum, inferiores a ele. Apenas por este fato, já se pode inferir qual é a essência da minha divindade.</p>
 <p>Há mais um ponto que devo esclarecer. Até hoje, todos os grandes mestres religiosos profetizaram a vinda de um mundo paradisíaco, mas nenhum deles afirmou que o construiria com as próprias mãos. Isso se deve ao fato de sua hierarquia espiritual ser inferior e, consequentemente, seu poder, insuficiente. Eu, por minha vez, declaro que construirei, eu mesmo, um Paraíso Terrestre isento de doença, pobreza e conflito, precisamente pelos motivos já expostos.</p>
 <p>Nesse sentido, de agora em diante, levarei a cabo inúmeros e surpreendentes projetos divinos, nunca antes vistos, os quais desejo que os senhores observem atentamente. Acontecimentos que transcendem a capacidade humana surgirão incessantemente.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ONENESS BETWEEN GOD AND MAN Eikoh , No. 155, May 7, 1952 (the 27th year of Showa) The concept of "oneness between God and man" has been often mentioned from ancient times, but I think that there has never existed such a person who really embodied "oneness between God and man" in himself. Indeed, the three major holy men: Buddha (Shakyamuni), Christ and Mahomet seem to have been such a man, but as a matter of fact, they were the messengers for God's will; simply speaking, they were the mediators between God and people. That is; people were not able to distinguish oneness between God and man from being mediators between God and people. In other words, the mediators receive inspiration from God and act on His command, so they pray to God or Buddha at all times and look up to Him for their protection. But as for me, I practice no such things as prayers. As my followers know, I do not pray to God or ask for His directions. All I have to do is put my own thoughts into practice; it is very simple. This is unprecedented and could be thought of as strange, so I will explain just the point as long as it brings no problems here. As I say as usual, I have a small ball-sized sphere of light at the location of the center of my abdomen. This is the soul of a certain Supreme Being, therefore, as to all I do and say, God Himself controls me freely. In other words, there is no distinction between God and man, which truly means oneness between God and man. And so, because the divine spirit in me belongs in the highest rank of divinities and there are no divinities higher than this one in the world, I have no reason to bow down to other gods. Above all things, the very evidence for this is the miracles that my believers are showing from day to day. The miracles greater than those of Christ are continually revealed, so even my disciples are not inferior to Christ in any way. With this fact alone, you must be able to infer what the essence of my divinity is. There is one thing to be added here. Indeed, all the great religious teachers so far have prophesied the coming of a heavenly world, but they have not said that they themselves would create it, for their power was not strong enough because their divinities were lower at all. Because of my highest divinity, I dare to say that I will on my own create the world with neither sickness, nor poverty, nor war. Such is the case with me, I, from now on, will carry out many of the unprecedented and surprising projects ordained by God, which I want you to see for yourself, so events which you cannot think of as humanly possible will happen endlessly. 神人合一 『栄光』155号、昭和27(1952)年5月7日発行 よく昔から神人合一という言葉があるが、実際からいってそういう人は、今までに一人もなかったと私は思っている。<br/><br/>なるほど釈迦、キリスト、マホメットの三大聖者にしても、神人合一のごとく見ゆるが、実は神意の伝達者であって、判りやすく言えば神の取次者であったのである。<br/><br/>という訳で世人は神人合一と、神の取次者との区別を知らなかったのである。<br/><br/>すなわち神の取次者は神憑りや、神の命によって行動するのであるから常に神や仏陀を祈り、その守護を仰ぐ事にしているのである。<br/><br/> ところが私はそういう事は全然やらない。<br/><br/>信者も知るごとく、神を祈る事もないし、神の指示を仰ぐ事もない。<br/><br/>ただ自分の思うがままを実行していればいい訳で、はなはだ簡単である。<br/><br/>としたら今までに例のない事とて、変に思うかも知れないから、ここに差し支えない点だけをかいてみよう。<br/><br/>いつも言う通り私の腹には光の玉がある。<br/><br/>これはある最高の神様の魂であるから、私の言動すべては神様自身が、私を自由自在に動かしているのである。<br/><br/>つまり神と人との区別がない訳で、これが真の神人合一なのである。<br/><br/> 従って私に在られます神霊は、最高の神位であるから、これ以上の神様は世の中にないのであるから、他の神様に頭を下げる意味はないので、何よりも信者が日々顕わしている奇蹟がそれを証拠立てている。<br/><br/>その奇蹟たるやキリストの顕わした奇蹟以上の奇蹟が、常に顕われているので、私の弟子でもキリストに較べて何ら劣るところはないのであるから、この一事だけでも私の神格は想像つくはずである。<br/><br/> 今一つ言わねばならない事は、今日までのことごとくの聖者は、将来天国的世界が実現するという予言はしたが、自分自身造るとはいわれなかったのは、全く神格が低く力が足りなかったからである。<br/><br/>私は自分自身が病貧争絶無の地上天国を造ると宣言しているのは、右の理由によるからである。<br/><br/>という訳で今後私は今までにない幾多の驚くべき経綸を行うから、それをよく見て貰いたいので、到底人間業とは考えられないような事が、ドシドシ出て来るであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qohikar2</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： お光の霊視能力をいただいて 『栄光』237号、昭和28(1953)年12月2日発行 大分県 如意輪中教会 西 信行（55） 「お守からお光が出る」ということは、御浄霊を受けると身に霊感を感ずることや、御浄霊により病気の治る事実から、帰納的に信じて絶対に疑う余地はありませんが、お光そのものを視せられたことはありませんでした。<br><br>勿論御神体から薄いお光の出ることは、私はじめ家族一同常に視せられていますが、御守や明主様の御写真からお光が出ることは未だかつて視せられたことがありませんでした。<br><br> しかるに本年春頃より、私の長男精一（九歳）がお光を霊視する能力をいただいて、ただただ有難く、勿体なく感激で一杯でございます。<br><br>実は本年春頃から精一が、「お守から御光が出るのが見える」と時々申しましたが、子供のいうこととて気にも止めませんでした。<br><br>しかし度々申しますので「それでは御神体や明主様の御写真からはどうか」と尋ねますと「御神体からは御守よりも強いお光が出て、御写真からはなお一層強いお光が出ます」と申します。<br><br>「それでは御写真のどこからお光が出るか」と問いましたところ「明主様の御体全体からお光が出るが、特にお腹から一番強いお光が出ます」との答、ここに初めてお光を霊視することができるのではないかと、吃驚させられたのであります。<br><br> それ以来色々と試してみました結果、全くお光を霊視する能力を戴いているものと思われます。<br><br>当支部の信徒や、中教会に参拝して信徒特に資格者、牧中教会長先生など何十人も見せましたが、光輝く金色のお光が出ると申します。<br><br>御浄霊をしている人を見ると、その人の御守からお光が出てその掌から金色のお光が何百何千という程沢山出るとのことです。<br><br>そしてそのお光の太さ、強さが一人一人違います。<br><br>小さきはミシン糸よりも小から、ミシン糸、木綿糸、お箸、火箸、小指、中指、親指の大きさというように、各人皆違います。<br><br>明主様の御教えに「御浄霊のお光の強さはその人の信仰の程度と、お守の取扱いによる」とのことを如実に知らされました。<br><br> 又同じ人でも御浄霊する時の心構えについて光の強さ太さが余程違います。<br><br>御浄霊に心を集中している時と、わき見しながら、あるいは話しながら御浄霊する時とはお光の強さに大変な違いがあります。<br><br> 又正座してするときと膝をこわしてする時も違います。<br><br>又掌を御浄霊する個所に正面させたときと斜めにした時とも違います。<br><br>額と掌と浄霊個所の三者が一直線になるようにし、光を送る想念を強くはたらかせると最も強いお光が出るようです。<br><br> 特に手の力を抜いて浄霊する時と、力を入れている時とは大変な違いです。<br><br>まったく明主様の御教え通りです。<br><br> こうしたことを詳さに具体的に知らされて、私は固より信徒の方々も、自己の信仰ないし御浄霊の時の心構えなど、大いに反省させられています。<br><br> 次にお光はあらゆる物を透して、しかも極めて遠くまで行くものだと知らされました。<br><br>掌から出るお光はいかなる障碍物をも突き透して、太陽の光のごとく先拡がりに進んで行き、その中心が特にお光が強いとのことです。<br><br> なお大光明如来様の御神体から出るお光は、お守から出るお光の何倍という大きさ、明主様の御写真から出るお光は、御神体から出るお光の何倍という大きさであることも知らされ、御神体や御尊影を御奉斎させていただいている光栄！ 有難さを払々痛感させられています。<br><br> 普通人には視ることのできないお光を、愚息に霊視させていただいて、信仰上反省させられ、稗益されることの極めて大きいことを衷心より御礼申し上げます。<br><br>明主様、まことに有難うございます。<br><br>謹んで御礼申し上げます。<br><br> なお今後も御神業の御用の一層つつがなくさせて戴けますよう御許し下さいませ。<br><br>御願い申し上げます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A dádiva da capacidade de vislumbrar a Luz Divina</h2>
 <p>Publicado na revista Eikou nº 237, em 2 de dezembro de 1953
@@ -103,5 +258,48 @@ Igreja Nyoirin, Oita</p>
 <p>Fomos informados, ademais, de que a Luz que irradia da Imagem Sagrada de Daikomyonyorai (大光明如来) é muitas vezes mais potente que a do Ohikari, e que a Luz emanada da fotografia de Meishu-Sama, por sua vez, supera em muitas vezes a da Imagem Sagrada. Essa revelação nos fez sentir, de forma avassaladora, a honra e a gratidão por nos ser permitida a entronização da Imagem Sagrada e da venerável fotografia.</p>
 <p>Expresso do fundo do coração minha mais sincera gratidão por ter sido concedido a meu filho vislumbrar a Luz Divina, invisível às pessoas comuns, o que tem se revelado uma fonte inestimável de reflexão e crescimento para nossa fé. Meishu-Sama, sou-lhe imensamente grato. Apresento-lhe meus mais profundos agradecimentos.</p>
 <p>Rogo, ainda, que me seja permitido continuar a servir na Obra Divina de forma cada vez mais plena e sem impedimentos. Este é o meu mais sincero pedido.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： お光の霊視能力をいただいて 『栄光』237号、昭和28(1953)年12月2日発行 大分県 如意輪中教会 西 信行（55） 「お守からお光が出る」ということは、御浄霊を受けると身に霊感を感ずることや、御浄霊により病気の治る事実から、帰納的に信じて絶対に疑う余地はありませんが、お光そのものを視せられたことはありませんでした。<br/><br/>勿論御神体から薄いお光の出ることは、私はじめ家族一同常に視せられていますが、御守や明主様の御写真からお光が出ることは未だかつて視せられたことがありませんでした。<br/><br/> しかるに本年春頃より、私の長男精一（九歳）がお光を霊視する能力をいただいて、ただただ有難く、勿体なく感激で一杯でございます。<br/><br/>実は本年春頃から精一が、「お守から御光が出るのが見える」と時々申しましたが、子供のいうこととて気にも止めませんでした。<br/><br/>しかし度々申しますので「それでは御神体や明主様の御写真からはどうか」と尋ねますと「御神体からは御守よりも強いお光が出て、御写真からはなお一層強いお光が出ます」と申します。<br/><br/>「それでは御写真のどこからお光が出るか」と問いましたところ「明主様の御体全体からお光が出るが、特にお腹から一番強いお光が出ます」との答、ここに初めてお光を霊視することができるのではないかと、吃驚させられたのであります。<br/><br/> それ以来色々と試してみました結果、全くお光を霊視する能力を戴いているものと思われます。<br/><br/>当支部の信徒や、中教会に参拝して信徒特に資格者、牧中教会長先生など何十人も見せましたが、光輝く金色のお光が出ると申します。<br/><br/>御浄霊をしている人を見ると、その人の御守からお光が出てその掌から金色のお光が何百何千という程沢山出るとのことです。<br/><br/>そしてそのお光の太さ、強さが一人一人違います。<br/><br/>小さきはミシン糸よりも小から、ミシン糸、木綿糸、お箸、火箸、小指、中指、親指の大きさというように、各人皆違います。<br/><br/>明主様の御教えに「御浄霊のお光の強さはその人の信仰の程度と、お守の取扱いによる」とのことを如実に知らされました。<br/><br/> 又同じ人でも御浄霊する時の心構えについて光の強さ太さが余程違います。<br/><br/>御浄霊に心を集中している時と、わき見しながら、あるいは話しながら御浄霊する時とはお光の強さに大変な違いがあります。<br/><br/> 又正座してするときと膝をこわしてする時も違います。<br/><br/>又掌を御浄霊する個所に正面させたときと斜めにした時とも違います。<br/><br/>額と掌と浄霊個所の三者が一直線になるようにし、光を送る想念を強くはたらかせると最も強いお光が出るようです。<br/><br/> 特に手の力を抜いて浄霊する時と、力を入れている時とは大変な違いです。<br/><br/>まったく明主様の御教え通りです。<br/><br/> こうしたことを詳さに具体的に知らされて、私は固より信徒の方々も、自己の信仰ないし御浄霊の時の心構えなど、大いに反省させられています。<br/><br/> 次にお光はあらゆる物を透して、しかも極めて遠くまで行くものだと知らされました。<br/><br/>掌から出るお光はいかなる障碍物をも突き透して、太陽の光のごとく先拡がりに進んで行き、その中心が特にお光が強いとのことです。<br/><br/> なお大光明如来様の御神体から出るお光は、お守から出るお光の何倍という大きさ、明主様の御写真から出るお光は、御神体から出るお光の何倍という大きさであることも知らされ、御神体や御尊影を御奉斎させていただいている光栄！ 有難さを払々痛感させられています。<br/><br/> 普通人には視ることのできないお光を、愚息に霊視させていただいて、信仰上反省させられ、稗益されることの極めて大きいことを衷心より御礼申し上げます。<br/><br/>明主様、まことに有難うございます。<br/><br/>謹んで御礼申し上げます。<br/><br/> なお今後も御神業の御用の一層つつがなくさせて戴けますよう御許し下さいませ。<br/><br/>御願い申し上げます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>mitino1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,61 +241,55 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 未知の世界 『明日の医術 第三編』昭和18(1943)年10月23日発行 私はこれから、未知の世界を説こうとするのである。<br><br>未知の世界とは、いうまでもなく死後の世界である。<br><br>人間はいかに幸福であり、いかに健康であっても、いずれは死という事は、絶対免れ得ない運命である事は判り切った話である。<br><br>ある西洋の哲人はいった。<br><br>『人間は生れると同時に、死の宣告を受けている。<br><br>』――と蓋（けだ）し至言であろう。<br><br> 昔から安心立命という言葉がある。<br><br>しかしながら、それは生命のある期間だけの安心立命を称えるのであるが、私の考えでは、それだけでは人間は心から満足し得らるるものではない。<br><br>真の安心立命とは、死後は固より未来永劫を通じての安心立命でなくてはならないのである。<br><br> しからば、そのような永遠的安心立命なるものは得らるべきものであるかという事であるが、私は確信を以て応えるのである。<br><br>それは死後の世界の存在を知る事によって可能である。<br><br>勿論死後の世界とは、一度は必ず往くべきところであるが、一般人としては、人間は誰しも、現在呼吸しているこの娑婆世界のみが人間に与えられたる世界であって、他に別の世界など在りようはずがない――と確（かた）く信じているのである。<br><br>しかるに何ぞ知らん、未知境である別の世界は、厳然として存在している事である。<br><br>従って、人間なるものは現世界から死後の世界即ち霊界へ往き、霊界からまた現界へ生れるというように、二つの世界を交互に無窮に往来しているのである。<br><br> しかるに、厄介な事には、霊界なるものは、人間の五感によって識る事を得ない、――虚無と同様である為信じ難いのであるが、何らかの方法によって実在を把握出来得れば信じない訳にはゆかないのである。<br><br>それは私が霊と霊界の存在を確め得た――その経験を読むにおいて何人といえどもある程度信じ得らるるであろうし、この事を知るに及んで、真の安心立命を得らるべき事は疑いないのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Realidade do Mundo Espiritual</h2>
 <p>Proponho-me, com estas palavras, a elucidar o mundo desconhecido. Refiro-me, naturalmente, ao mundo após a morte. Por mais feliz ou saudável que seja o ser humano, a morte é um destino do qual ninguém pode escapar; trata-se de uma verdade insofismável. Certo filósofo ocidental afirmou: “O homem, ao nascer, já recebe sua sentença de morte”. Eis, em verdade, uma máxima de profunda sabedoria.</p>
 <p>Desde tempos imemoriais, fala-se em alcançar a paz de espírito e a aceitação do destino. Contudo, tal estado de serenidade costuma ser exaltado apenas no que tange à duração da vida terrena. Em minha concepção, todavia, isso é insuficiente para que o ser humano alcance a plena satisfação interior. A autêntica paz de espírito deve, necessariamente, transcender a morte e perdurar por toda a eternidade.</p>
 <p>Resta, então, a indagação: seria possível alcançar semelhante paz de espírito eterna? A essa pergunta, respondo com absoluta convicção que sim. Tal feito torna-se possível através do conhecimento da existência do mundo póstumo. Embora todos, inevitavelmente, devam um dia rumar para essa dimensão, a crença generalizada sustenta que este plano terreno, onde ora respiramos, constitui a única realidade concedida ao homem, sendo inconcebível a existência de outro. Mal sabem, entretanto, que esse outro reino, essa esfera desconhecida, existe de forma categórica e irrefutável. O ser humano, portanto, transita incessantemente entre esses dois mundos: parte do Mundo Material para o Mundo Espiritual e, do Mundo Espiritual, retorna para nascer novamente no Mundo Material, em um ciclo perpétuo.</p>
 <p>O grande obstáculo, contudo, reside no fato de que o Mundo Espiritual não pode ser percebido pelos cinco sentidos humanos. Por essa razão, sua existência parece tão improvável quanto o vácuo, tornando a crença nele um desafio. Todavia, se sua realidade puder ser apreendida por algum meio, a fé se tornará inelutável. A esse respeito, ao tomarem conhecimento de minha própria experiência — por meio da qual pude constatar a existência dos espíritos e do Mundo Espiritual —, creio que qualquer pessoa poderá, ao menos em certo grau, convencer-se dessa verdade. E, ao alcançar esse conhecimento, não resta dúvida de que a conquista da verdadeira paz de espírito se torna uma certeza.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 未知の世界 『明日の医術 第三編』昭和18(1943)年10月23日発行 私はこれから、未知の世界を説こうとするのである。<br/><br/>未知の世界とは、いうまでもなく死後の世界である。<br/><br/>人間はいかに幸福であり、いかに健康であっても、いずれは死という事は、絶対免れ得ない運命である事は判り切った話である。<br/><br/>ある西洋の哲人はいった。<br/><br/>『人間は生れると同時に、死の宣告を受けている。<br/><br/>』――と蓋（けだ）し至言であろう。<br/><br/> 昔から安心立命という言葉がある。<br/><br/>しかしながら、それは生命のある期間だけの安心立命を称えるのであるが、私の考えでは、それだけでは人間は心から満足し得らるるものではない。<br/><br/>真の安心立命とは、死後は固より未来永劫を通じての安心立命でなくてはならないのである。<br/><br/> しからば、そのような永遠的安心立命なるものは得らるべきものであるかという事であるが、私は確信を以て応えるのである。<br/><br/>それは死後の世界の存在を知る事によって可能である。<br/><br/>勿論死後の世界とは、一度は必ず往くべきところであるが、一般人としては、人間は誰しも、現在呼吸しているこの娑婆世界のみが人間に与えられたる世界であって、他に別の世界など在りようはずがない――と確（かた）く信じているのである。<br/><br/>しかるに何ぞ知らん、未知境である別の世界は、厳然として存在している事である。<br/><br/>従って、人間なるものは現世界から死後の世界即ち霊界へ往き、霊界からまた現界へ生れるというように、二つの世界を交互に無窮に往来しているのである。<br/><br/> しかるに、厄介な事には、霊界なるものは、人間の五感によって識る事を得ない、――虚無と同様である為信じ難いのであるが、何らかの方法によって実在を把握出来得れば信じない訳にはゆかないのである。<br/><br/>それは私が霊と霊界の存在を確め得た――その経験を読むにおいて何人といえどもある程度信じ得らるるであろうし、この事を知るに及んで、真の安心立命を得らるべき事は疑いないのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

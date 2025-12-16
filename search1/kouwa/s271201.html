@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s271201</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年12月1日） 『御垂示録』16号、昭和27(1952)年12月15日発行 昭和二十七年十二月一日 「熱海会館の御奉仕の方法と申しますと変ですが、会長の言葉を聞きまして光宝会でのそのあり方が本当になってきたと思われますのは、今度一千万円なら一千万円を御奉仕させていただくということでなく、ぜひお許しいただきたいとお願いいたしますと、それから非常にスウスウとまいります」 そうです。<br><br>それはちょっとしたことですが、今までとは反対なのです。<br><br> 「それで生活の面でも、今ではたいへんお蔭をいただきましたが、自分で垣を作ってその中に入って窮屈になって、四角三角になって苦しんでいるのは、ただ自分で苦しんでいたことでありまして、本当に楽になるものをと思いまして、たいへんありがたいことでございます」 そうです。<br><br>この間のお蔭話に、自分がどこか悪くて“親父が今朝はたいへん朗らかだから、こういうときにやってもらったら効果があるだろう”と書いてあったので、それはつき返してやったのです。<br><br>親父が朗かだからと言うと、親父にやってもらっているように思っているのです。<br><br>神様というのをぜんぜん忘れているのです。<br><br>だから見当が違っているからつき返してやったのです。<br><br>こういうこともたいへんな間違いです。<br><br>一切は神様を中心にすると何でもないのです。<br><br>どうも人間的な考えになるのです。<br><br> 「明主様御詫びをさせていただきます。<br><br>大和会の事件以来四年になりますが、最近は御教えをいただきまして、自分でも変らせていただいたように思われますが、すべての原因は自分であったということを分からせていただきました」 そうです。<br><br>つまり自分の考えが邪魔しているのです。<br><br> 「それを変らせていただきましてから、まわりの人とも気持ちよく話合えます。<br><br>誠にありがとうございました」 そうですよ。<br><br> 「実は前の因縁の弟子連中が、新しい服を作らせてもらいたいということですので、結構だと話したのですが、自分で気づくと神様のほうでいろいろして下されるということでございますので」 そうです。<br><br>神様のほうでなくて人間のほうでもよくそういうことがあります。<br><br>この間も銀座の日新房という、前から知っている美術社がありますが、そこに出品した作家で、一度ぜひ見て、くれと言ってここまで持って来ましたが、それを見て後、社長にうんと言ってやったのです。<br><br>「これの一番悪いのは苦心して作ってある。<br><br>だからその苦心した苦しみが作品に現れているから良い感じがしない。<br><br>だからこういう物の作者にあなたが良く言ってやんなさい」と言ったのです。<br><br>楽しみ楽しみ、楽な気持でやると良いが、みんな苦心しているから、それが作品に現れているから駄目なのです。<br><br>お世辞かも知れないが、社長は良いことを聞いたと言って帰りました。<br><br>だから昨今の展覧会に行っても気持が悪いのです。<br><br>みんな苦心して画いてあるのです。<br><br>その霊がみんなこっちにくるのですから、楽しむことはできません。<br><br>だから今の絵も楽しむことができないのです。<br><br>ちょっと見ていると嫌な気持になってくるのです。<br><br>だから私がいつも言う通り、苦しんでやることにろくなものはないというのは、そのことです。<br><br> 「夜の世界とでも申しますが、どうも苦しむことが多いようでございます」 そうです。<br><br>暗闇を歩いているのだから危なくてしょうがないのです。<br><br>それで昼間の世界になって来たのに、そんなに怖がっているのは、おかしいもので、手間取ります。<br><br>それと同じことです。<br><br>しかしそうは言うものの長い間のいろいろな習慣があるから、つい人間的の心配や苦しみをやりたがるものです。<br><br>私などよくそういうことがあります。<br><br> 「今の神様のことを主にしないというお言葉で、非常にお蔭をいただいたのに御礼をしないというのがありますが、実はお許しがないからできないのだと考えますと、そういう場合にも、ははあ、お許しがないのだな、と思いますと苦しみません」 そうです。<br><br>自分はお蔭をいただいていても信仰に入らないのがありますが、本人は信仰に入りたいのですが、邪魔があったりするのです。<br><br>それは何かと言うと、神様が許されないのです。<br><br>それからこういうことがよくあります。<br><br>熱心な人があって、フッと来なくなり、他のことをやってみたり、いろいろしますが、そうするとずいぶん馬鹿な奴だと思いますが、そうではないのです。<br><br>神様が、お前は入れてやったが汚いものがあるからもっと苦労しろというので、要するに資格がないというので神様がつまみ出されるのです。<br><br>そういう点は解釈のしかたが違うのです。<br><br>だから入るということは、その人が入りたいから入っているのでなく、神様がお許しになるから入れるのです。<br><br>そこは神様中心に考えると分かるのです。<br><br>それから“あいつは邪魔する、酷い奴だ、ああいうのを神様はどうして生かしてある、許してあるのだろう”と言うが、それは神様に何かわけがあるのです。<br><br>そのときはそうでも、いずれは何かに使うのです。<br><br>ですから要するに人間の判断というものは分からないものです。<br><br>神様くらい深いものはありません。<br><br>それはあべこべのようなことがあります。<br><br> 「八月十五日以前と敗戦以来ということで、我々が知っている世界でも変りましたから、ましていわんや善悪を決めるということなどとても分かるはずはございません」 それを“あいつは間違っている、あいつは悪い”ということは、いつも言う通り神様の領分を冒しているのです。<br><br>人間の分際でそういうことが分かるわけはないのです。<br><br>ですから自分が正しいと思うことをしていれば良いので、人のことを言うのはよけいなお世話です。<br><br> 「そのよけいなお世話でどのくらい罪をつくっているか分かりません」 そうです。<br><br>そういう場合に常識で判断しなければ駄目です。<br><br>やっている経路でなく結論で判断するのです。<br><br>良いとか悪いとかいろいろ議論しますが、議論は良いと思ってやっているのだが、議論してその結果はどうかということです。<br><br>議論をする結果としない結果を考えてみて、結局しない結果が良いのです。<br><br>というのは、議論というのはそれが良いと思ってやっているのですが、ところがそれは神様しか分からないのです。<br><br>だからある程度まで意見を言うが、そこでスラスラといかなければやめるのです。<br><br>言うのは何を言っても良いのですが、そこであっさりとして、スラスラといかないことはやめるのです。<br><br>これが本当に良い説なら誰も刀向うことはできません。<br><br>それはそうだとなります。<br><br>そういかないということは、どこかにねり方が足りないということになります。<br><br> 「私は最近地方を巡らせていただきまして、一番忘れてはいけないと思いますことは、話をいたします場合にも、初めに“明主様どうぞ”とお願して話をさせていただくということでございます。<br><br>それを忘れていると変な気持になって、ははあ、おしかりいただいているな、と思いまして気がつきます。<br><br>それを忘れなければ良いということを考えさせられます」 そうなのです。<br><br>ですから私も、「今日はこういうことを話そう」と用意するほうが反って駄目です。<br><br>無我で無意識に、ただ白紙で来ると反って良いことを話したり、思いもつかない面白いことになったりします。<br><br>これは実に言うに言われないもので、理屈では分かりません。<br><br>それは何から何まで神様は狂いはないので、凄いものです。<br><br> 「この間地方での話で、メシヤ教に入って御教え通りにやっている積りだがお蔭がないということがあったら手を挙げてご覧なさい。<br><br>今日はあなた方と入れ替って考えてあげよう、と申したのですが誰もおりません。<br><br>それから、あなた方はなぜ遠慮してお蔭をいただくか、たいへん欲がない、それがよくないと話ましたら元気が出たようでございます」 つまりお蔭を忘れたときにお蔭はくるものです。<br><br>お蔭が来そうなものだ、お蔭が欲しいと思うときにはお蔭は来ないのです。<br><br> 「私はこう思っております。<br><br>“栄光”新聞にお蔭話が出ておりますが、一番お蔭をいただいている人は御礼を申し上げておりません。<br><br>それではあなた方は、甲乙丙丁と段階があるとして甲から乙に落ちたいかと言いますと、いや本当に間違っていたと申しておりました」 本当言うと、お蔭というのを値打ちにするなら、ない命を助かるとすると、とにかくその人はどんなことを犠牲にしても構わないわけです。<br><br>仮にお蔭を百もらって御礼を十上げると、九十は借金になります。<br><br>借金になるからあとのお蔭があんまりないのです。<br><br>だから本当に厳密に言うと、そこにいくのです。<br><br>ところが普通の人はお蔭を百もらって、神様のほうに御礼が五十なら良いほうです。<br><br>全部やったら裸になるから―。<br><br>それを二十とか三十にするから、あとの二十とか三十が借りになる。<br><br>するとあとが悪くなるのです。<br><br>それで仮にお金ならお金を上げると普通十倍になって返って来ます。<br><br>お金を上げて貧乏になるような宗教だったら信仰をやめたほうが良いです。<br><br>それは神様に力がないのです。<br><br> 「ですから私は、言う通りにしてその通りにならなかったら、私が責任を持つからやってご覧なさいと言っております」 こういうことは普段あんまり言いません。<br><br>例の天理教とかの搾取的な宗教に見られやすいから言わないのですが、今日のようなこういうときは一般信者でないから、信仰の中学以上の人だから言います。<br><br>本当言えばそんなものです。<br><br>だから何にしてもそうです。<br><br>今世間では、風邪を引くとたいへんだとか肺病が伝染してはたいへんだと病気を恐がっているが、メシヤ教に入るとその心配がなくなるのです。<br><br>病気は結構だというこれだけでもそのお蔭はたいへんです。<br><br>世界中でメシヤ教信者くらい病気を恐れない人種というのはありません。<br><br>だから神様に、どうでも勝手にしろと任せれば、決して粗相はありません。<br><br>何しろこういうことは今までにないのですから、世間一般は信仰的頭でそこまで分かるということはたいへんなものです。<br><br> 「今度は、実動会員と言いますが、それが全部資格者になれるようにやってもらいたいといっておりますが、昨日もはっきりと話させていただきました。<br><br>そこで資格者がしっかりしてくると、信者さんも分かってきますし、それをもって対外にいかなければならないと思います」 結局自分にあるのですから、思うようにならないということは、まず自分のやり方を考えてみなければならないのです。<br><br>そういうやり方というのは、私の本のどこかに書いてあるから、そこにあります。<br><br> 「それから“栄光”紙に出ておりますことで、明主様の御論文は絶対のものでございますが、しかしお蔭話というのは信者さんの感謝文なのだから、これを絶対と思ってはいけないと思います。<br><br>といいますのはある所で質問がありまして、“ 霊視日記 ”の中で御光がお出になる、それが見えた、それは秒速十五メートル、と書いてありますので、どういうものかという質問がございました」 その人にはそう見えるのです。<br><br> 「それはその人が見たことであって、実はそうでなく御光は瞬間的で時間空間はない。<br><br>“明主様”と申し上げると、そのときに御守護があるのです。<br><br>霊視は参考に考えるなら良いが、それでなければぜんぜん嘘だから、と話たのでございます」 そうです。<br><br>あれは本人の書いたままを出したので、はなはだしく間違っているのは直しますが、なるべく訂正しないようにしているのです。<br><br>訂正するということになると面白くないのです。<br><br>個人のお蔭話を訂正して大げさにしていると疑われるから、そういうことはしません。<br><br> 「お蔭話をよく見ておりますと、半分は最初にお詫びしなければならないようなことがございます」 この間こういうことがあった。<br><br>いろいろ一生懸命にやったが、どうしても良くならない。<br><br>それから光明如来様にお願いしたら、それから直ぐに良くなった、というのですが、そういうときには自分が治そう治そうとしているのです。<br><br>それで神様を忘れているのです。<br><br>それが修行です。<br><br>世間は間違ったことが多く、それで長い間教育されているから、こっちの説があまりに世間と違うから、分かるまではそうとう暇がかかります。<br><br>今も出かけにラジオの「婦人の時間」で、よく出る人でなかなかうまい人ですが、今度の池田通産大臣の失態の話が出ましたが、つまり池田というのは前から危なっかしくて、私は好かないのです。<br><br>何となく慢心しているようなのです。<br><br> 「写真で見ましても、上品さという所がございません」 そうです。<br><br>写真を見ても、いけ好かないです。<br><br>だからいつか二度ばかり失言問題があった。<br><br>今度もとうとうやったのですが、もう一（ひと）修行しなければ駄目です。<br><br>ああいうことも実に頭が悪いのです。<br><br>それからもう一つは、人間はたまには失言もするから、そのときに謝れば良いのです。<br><br>それを変なことを言うからいけないのです。<br><br>「僕が間違っていた、言葉のアヤであそこまで言ったのは間違っていた」と謝罪するのです。<br><br>そうすると割合に軽く済むのです。<br><br>それを何やかやと言いわけするから、きたないし人が同情を持たないから、好感を持たれないのです。<br><br>ああいう所は実に馬鹿です。<br><br>長い間大蔵大臣をしていてあのくらいの頭の悪さです。<br><br>それをまた、吉田首相がかわいがっているのですから、吉田首相という人もずいぶん欠点はあります。<br><br>あのくらいの偉い人でも見ていると危なくて注意したいと思うことがよくあります。<br><br>この間鳩山さんが馬鹿に威勢良く、自分が次の総理にでもなりたいようにみえていたが、あれから鳩山さんに対する社会の感じが悪くなった。<br><br>ああいうことが馬鹿です。<br><br>何しろ病人で、政界からも隠退していたのだから、もっと柔らかくふわっとして、吉田首相を立てれば、ほかの人でもなるほどと思います。<br><br>あれでは体が良くても総理にするのは危ぶむという気持ちが起こります。<br><br>あれだけの人ですが、実に頭が悪いというか、おかしいところがあります。<br><br>私は始終論文を書いてますが、最初の「光」新聞時代に金近ともう一人いましたが、普通は三十号くらいでたいてい行き詰ってしまうが、種が尽きないであとが出るのは珍しいと言ってましたが、そのときが五十号で今は百八十四号です。<br><br>あとからいくらでも出るのです。<br><br>それは何かと言うと、あんまり世間の人が欠点だらけなのでいくらでも出るのです。<br><br>だからいかがに間違っていることが多いかということが分かるのです。<br><br> 「お書きなさいます場合に、その主題をお考え遊ばされるのでございますか」 考えるどころではなく、後から後から出てきて困るのです。<br><br>だから考えるということはありません。<br><br>造営の場合でも、こうしようああしよう、どうしたら良いか、ということもほとんど考えることはありません。<br><br>ただそういう時期がくるとパッと頭に出てくるのです。<br><br>だから“地上天国”に行くと、ここをああするこうするということが瞬間的に頭に出てくるのです。<br><br>それでちょっと考えて分からなければやめてしまうのです。<br><br>それは実に早いです。<br><br>もっか頭の中には会館ができて、そこの幕の模様までちゃんとできているのです。<br><br>ただ時期によって、ここをどうしようかと思って考えが出ないときはそのままにしておくと、時期がくるとパッと浮ぶのです。<br><br> 「展望台のほうを先におやりになられますのでございますか」 そうではありませんが、トンネルで続けてますから、同じに造るつもりです。<br><br>しかし毎日新聞社が企画してますから、展望台を先にしようというのです。<br><br>会館のほうはたいへんですから、展望台のほうが先が良いでしょう。<br><br>あれならわけはありません。<br><br> 「今度映画で明主様の御姿とお声が世界に出ますことを思いますとたいへんなことでございます」 そうです。<br><br>つまり世界的に第一歩を踏むわけです。<br><br> 「本日は毎日新聞のプロデューサーの方も見えられております」 そうですか。<br><br> 「映画の主題は“東方の光”ということにいたしたいと思いますがいかがでございましょうか」 結構です。<br><br>私は前から東方の光ということを言いたかったが、講和前はアメリカの人が誤解するといけないから言わなかったのです。<br><br>それでこの間「栄光」に“ 東方の光 ”を出したのです。<br><br>来年からはちょっと面白くなってくるわけです。<br><br>アメリカで分ってきたらおもしろいです。<br><br>それに早いです。<br><br> これからは映画というものは非常な役目をするのです。<br><br>この間何かの記事で見たとき、映画は芸術に入れるとか入れないということが出てましたが、私は今度書いてみようと思ってます。<br><br>芸術では、映画が一番の芸術と思ってます。<br><br>なぜかと言えば、映画くらいいろんな芸術的なものが入っているものはないのです。<br><br>あれは総合芸術です。<br><br>第一番に、脚本（シナリオ）それからプロデューサーがいろいろ企画を作っていくということ。<br><br>それにちょうど適当するような俳優の選択。<br><br>その俳優の技芸、それから場面は室内もあれば室外もあるし、本物を背景にする場合もあるし、セットを使う場合もあり、光線の採り具合、ロケでの景色の選択と、あらゆるものを採り入れてます。<br><br>外の芸術では幾つかに限られているが、映画というものは世の中のあらゆるものを採り入れてます。<br><br>それで一つの作品をつくるのですから、このくらいすばらしい芸術はないと思ってます。<br><br>だから芸術の王様です。<br><br>それから写真の芸術があります。<br><br>写真と言っても絵画的のいろんなやり方です。<br><br>監督でもそういった絵画的な所を現わす者は少ないです。<br><br>しかし近頃はなかなかうまいのがあります。<br><br>絵画的場面を作るのがうまいのは豊田四郎です。<br><br>それから時代の構想とか、時代時代の雰囲気とか色を出すということもピッタリすると、見ていても非常に効果があります。<br><br>ところがどうかするとチョンマゲが通る横に電信柱が見えたり、それから対話でも、作者が新しい扱い方でやって、言葉などでずいぶん変なことをやります。<br><br>「僕は君を信ずる」と、チョンマゲ時代にそんなことは言いません。<br><br>そうかと思うとその時代の言葉を使ったりしてゴチャゴチャです。<br><br>そういうことをキチンとすると、やはり評判も良くなるし、その監督も認められるのです。<br><br>どうもそういう点には割合無関心です。<br><br>そういったケレンが非常に多いのです。<br><br>日本映画は特にケレンが多いのです。<br><br> 「今度のメシヤ教の映画の場合の音楽は、雅楽は必要な要素でございましょうか」 いけません。<br><br> 「全部洋楽でいたしますのでございましょうか」 そうです。<br><br>雅楽というのは平安朝時代のものです。<br><br>そうなるとこっちも衣冠束帯か何かでやらなければならない。<br><br>能楽とか雅楽をやるのは、別にそういったものを作らなければなりません。<br><br>宗教のほうではそういうことはやりません。<br><br>むしろ最も新しくなければならないのです。<br><br>だから建築でも最も新しいところを狙ったのです。<br><br>今度できる会館というのは、宗教建築では恐らく世界にありません。<br><br>宗教建築と言うと、昔の伽藍式とかお宮式とかありますが、いくら伽藍式を立派に採り入れても京都の本願寺以上のものはできません。<br><br>あれを安っぽくしたくらいのものです。<br><br>そういうものは造る必要がないのです。<br><br>私はこの間“袴〔墓場〕に支配される”ということを書いたのですが、そうすると二十世紀を狙うよりも、むしろ二十一世紀を狙うのが本当です。<br><br>だから天理教などがやってますが、ああいう古いことは排斥したいくらいのものです。<br><br>あれでは時代の進歩というものがありません。<br><br>特に宗教ほど進歩のないものはないと思います。<br><br>だから私は釈迦とかキリストということを盛んに批評してますが、古い宗教で救えないということは当たり前です。<br><br>今の自動車の世の中に牛車に乗れというようなものです。<br><br>それなら牛車に乗って町を歩いたらどうかということです。<br><br>ただ歴史的の趣味として見るのは構いませんが……。<br><br> だから私は今度の京都の美術館は、京都のお寺と提携して、仏像を並べようと思ってます。<br><br>本尊は残して、それ以外は全部借りて並べようと思ってます。<br><br>というのは、仏像というのは美術品と思っているからです。<br><br>拝むものではなく、見るものです。<br><br>そういった歴史的芸術的の価値なのです。<br><br>仏教のほうで聞くと怒るでしょうが、キリスト教でもそうです。<br><br>今まではあれで良いが、これからは駄目です。<br><br>とにかくキリスト教が共産主義をやっつけるくらいの力があれば良いが、キリスト教のほうがやっつけられているのです。<br><br>今はキリストよりもレーニンのほうが本当に人を動かす力があるから、それではしょうがないのです。<br><br>だからメシヤ教は今にレーニンでもスターリンでもやっつけます。<br><br>これは私がやっているのではなく神様がやっているのです。<br><br>実際馬鹿げた話です。<br><br>それでこの間“ 平和主義を考えてみる ”というのを書きました。<br><br>私は時々ユネスコを奨められるのですが、スターリンをユネスコに入れなければと言うのです。<br><br>とにかく世界の平和というものは、スターリンが手を合せて神様を拝まなければならないのです。<br><br>それ以外に世界平和は絶対にありません。<br><br>世界中が第三次戦争が起こりやしないかという脅威はスターリンです。<br><br>クレムリンをそのままにしておいて、ほかだけ平和運動をして何もなりません。<br><br>それで武器によって平和を維持するのは一時的で、これもしかたはないが永遠性はないのです。<br><br>第一こっちがそうすればソ連のほうも軍備を充実する。<br><br>そのために無益な金を使うから、それで不景気になるとか苦しむのです。<br><br>だから結局スターリンをメシヤ教信者にするということが一番良いのです。<br><br>それ以外のことは一時の間に合せです。<br><br>この間も話したことがあるが、とにかく共産主義の学説を破るだけの学説が出れば良いのです。<br><br>それでなければ宗教です。<br><br>それは共産主義の学説は実に良くできているのです。<br><br>私でも神様ということを知らなければ共産主義のほうに行きます。<br><br>だから青年が学問をするとあれにはまり込むといのも無理はありません。<br><br> 「共産主義ではすべてを経済ということで支配しておりますが、美ということにつきましても、生活あってのものと考えているようでございます」 それはそうです。<br><br>我々は美と別に思っているが、一般はそれと関連をもって思っているのです。<br><br> 今度保安庁長官になった木村さんは共産主義を非情に嫌ってますが、まず日本の共産主義をやっつけるということはできないが、のさばらないようにする。<br><br>作らないようにするには、大学の教授の頭を切り替えなければならない。<br><br>結局学生がああなるというのは教授が仕込んだのです。<br><br>だから学生などは教授の頭一つでどうにでもなるのです。<br><br>まず教授の頭を切り替えることと、もう一つは新聞です。<br><br>少なくとも三大新聞が共産主義というものはいけないということをはっきりと書くだけで良いのです。<br><br>結局において今の人間は物事の急所を見ることを知らないのです。<br><br>物事には急所があるもので、現在としては大学教授の少しでも共産主義的の者はやめさせて、それからもう一つは共産主義をやっつけるだけの勝れた学説を作らなければならない。<br><br>それは共産主義でもいかん資本主義でもいかんという最高の学説を作ることです。<br><br>それは大して難しいことではありません。<br><br>私でもやろうと思えばできます。<br><br>とにかく共産運動は思想から来てます。<br><br>思想は学問から来てますから、学問のすばらしいものを作れば良いのです。<br><br>アメリカでも共産主義は嫌ってますから、そのくらいの学説は博士も大勢いるので作れそうなものだが、作る者がないのです。<br><br>次に新聞ですが、これがたいへんなものです。<br><br>この頃はそうでもないが、岡田茂吉と「氏」をつけないのです。<br><br>それで徳田球一氏と「氏」をつけるのです。<br><br>驚いてしまいました。<br><br>といのは、結局新聞記者、ジャーナリストの再教育です。<br><br> 「先ほども新聞のことにつきましていろいろ話合いましたが、今日の新聞は特異性がないし特色がなくなった、というのは老後のことのみを考えて、対社会精神というものが抜けていると申したのでございます」 日本の新聞はお上品になり過ぎてしまったのです。<br><br>というのは新聞はあまりに不利不鬪〔不偏不党〕になり過ぎて主張がない、色がないのです。<br><br>結局「朝日」を見ても「毎日」を見ても同じです。<br><br>だから私は前に書いたことがありますが、日本に新聞がたくさんあるということは国家経済上も不経済だ、結局同じなのだから一つで間に合うのです。<br><br>反って昔のほうがそれぞれの特色がありました。<br><br>一つの株式会社になったほうが良いでしょう。<br><br> 「一つの新聞社くらいは特定の宗教を思い切り好意的に書くものがあっても良いのではないかと思いますが」 つまり読者に引きずられているのです。<br><br>新聞が読者を引きずるというものがないのです。<br><br>新聞ばかりでなく、一体に社会のあらゆる面がそうなってます。<br><br>おざなり的になってます。<br><br>その原因があるので、私は今それを書いてます。<br><br> 「明主様の自然農法の御論説を拝見しまして非常に感激いたしました」（毎日新聞木村氏） みんな間違ったことをやっているのです。<br><br>もっとも世間が間違わなかったらメシヤ教が出る隙がないから、間違っているということも、今のところはこっちが発展する上において大いに良いかも知れないが、しかし間違っている点があまりに多過ぎるので、こっちが非常に骨が折れるのです。<br><br> 今私が書いているのは、 名人のなくなった理由 というのです。<br><br>一番初めは劇界から書いてます。<br><br>歌舞伎界の偉い俳優は次々と死んでしまいますが、これはどういわけかということです。<br><br>今、頭株は吉右衛門、猿之助、三津五郎の三人でしょう。<br><br>ところが吉右衛門は危ないというのです。<br><br>それから三津五郎もいつか分からないとすると、猿之助一人です。<br><br>前と比べたらてんで話にならない。<br><br>ところが以前は多士彩々〔済々〕たるものでずいぶんいました。<br><br>それに上手です。<br><br>それから画家の名人が今はないのです。<br><br>よく道具屋が“明主様は現代の画家の方はお気にいらないのですか”と言うのです。<br><br>そんなことはない、私は買いたいが金を出して買おうという絵がないから買わないのです。<br><br>昔の絵と比べてみてもてんで手が出ない。<br><br>どういうわけかと言うから、下手過ぎると言うのです。<br><br>絵を見ると病人の絵のようです。<br><br>みんな弱っている。<br><br>どこに原因があるかというと医学にあるのです。<br><br>松竹会社は医者のほうはとても行き届いているので、ちょっと悪いと博士が飛んで来て、機械から薬から実に完備しているのです。<br><br>頼まなくても医者が始終くるのです。<br><br>それで医者の手にかかれば体が弱って死ぬというわけです。<br><br>菊五郎なども医者がつききりでした。<br><br>死ぬ少し前には自分で注射していたのです。<br><br>ずいぶんとそれを知らせようと思っていろいろしてやって、結局死ぬ一、二年前ですが教修を受けるということになったが、岡田大先生直接なら受けるが弟子なら嫌だと言うので、こっちも絶対にそうはいかない、弟子でなければ駄目だというので、ずいぶんわがままを通そうとしたが、神様のほうは人間のわがままはどんな偉い人でもそうはいかないから、結局ああいうことになったのです。<br><br>だから俳優が死ぬというのはそれです。<br><br>それから画家が少し有名になると体を大事にする。<br><br>だから安田靭彦（ゆきひこ）さんはまるで医者がつききりです。<br><br>医者の言う通りで年中フラフラしてます。<br><br>だから靭彦さんや古径（こけい）さんの画いた絵は、病人の画いた絵のようでそこに迫力がないのです。<br><br>それで結局一番の原因は種痘のために人間の毒素排除を止めているから、それで体が弱ったのです。<br><br>日本もそうですが、外国もそうです。<br><br>外国にも名人というのはありません。<br><br>今音楽で名曲と言えば百年から二百年前のものです。<br><br>たいてい百年前です。<br><br>シューベルト、ベートーヴェン、バッハという名曲を作る名人は、みんな百年以上前です。<br><br>だから近来は西洋音楽の良い作曲家が出ないのです。<br><br>ドビュッシーくらいでしょう。<br><br>しかし私はドビュッシーは少しも面白くないのです。<br><br>結局種痘ができてから名人がなくなったのです。<br><br>名人を出すには種痘をやめなければ駄目です。<br><br>日本でもそうです。<br><br>長唄の小三郎師が来ますが、名曲は今もってやはり百年かその前のものです。<br><br>明治以後の名曲とうものはほとんどないと言っても良いくらいです。<br><br>というのは気にいるまでの曲を作るという根気がなくなったのです。<br><br>いい加減なところでやめてしまうのです。<br><br>それは経済的の理由もありますが、しかし第一番は人間の体が弱ったことです。<br><br>そういう点を言ってだんだん分からせることです。<br><br>それで本当言うと“アメリカを救う”という本もそういったことが骨子になってます。<br><br> この間もヨーロッパから帰って来た人の話を聞くと、英国人でも仏国人でもまるで活気というものがないそうです。<br><br>ただ安楽に食ってさえいれば良いというようで、実に元気がないそうです。<br><br>そこでそれを狙ったのが社会主義なのです。<br><br>社会主義というのは、働く奴と怠ける奴との差別をあんまりつけないのです。<br><br>ですから英国は社会主義の理想的な国になってます。<br><br>障害保険とか失業保険とか生産分配にしろ、そういうことは実に完備してます。<br><br>それで優勝劣敗がないから、だんだん国が衰えていくのです。<br><br>米国や日本は種痘が遅いからまだ活気があるが、もう五十年百年と立つと、英仏のようにただ無為に食っているという人間ばかりになります。<br><br>また私がこれはいかんなと思ったのは、中共政府ができて英国が一番先に承認したが、ああいうことは決してある筈はないことだが、これは英国が共産主義に屈服するようなものです。<br><br>暴力者に屈服するようなものです。<br><br>さすがに米国はがんとして今もって認めないのです。<br><br>ああいうことはやっぱり英国などは戦争が恐ろしくて、正義と言うか国際正義というものがなくなっているのです。<br><br>それで香港の貿易を失うのが一番怖くて承認したのです。<br><br> ところで米国、ソ連、日本というのは種痘が遅いのです。<br><br>年数は約半分ぐらいでしょう。<br><br>日本は明治になってからです。<br><br>ソ連も非常に遅いのです。<br><br>スターリンになってからですから一番遅いかも知れません。<br><br>そういう国だけに元気があるのです。<br><br>だからここで世界中に早く分からせないと、世界中の人間は半世紀後にはまるでヒョロヒョロになってしまします。<br><br>それで「世界救世教」と言って、世界を救うというのです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Sobre a Postura da Fé e a Perspectiva Divina</h2>
 <p>Embora pareça uma forma peculiar de expressar, gostaria de comentar sobre o método de servir no Templo de Atami. Ao ouvir as palavras do presidente, compreendi a verdadeira postura da Koho-kai. A questão não é simplesmente afirmar: “Dedicaremos dez milhões de ienes”, mas sim suplicar: “Por favor, permita-nos fazê-lo”. A partir dessa mudança de atitude, tudo passou a fluir com extrema leveza.</p>
@@ -156,5 +308,48 @@ function toggleLang(lang) {
 <p>Atualmente, estou escrevendo sobre “A Razão do Desaparecimento dos Grandes Mestres”. Comecei pelo mundo do teatro. Os grandes atores do teatro Kabuki estão morrendo um após o outro, e eu explico o porquê. Hoje, os principais nomes são Kichiemon, Ennosuke e Mitsugoro. No entanto, dizem que Kichiemon está em estado grave. Mitsugoro também não se sabe até quando viverá. Restará apenas Ennosuke. Comparado ao passado, o cenário é desolador. Antigamente, havia uma infinidade de atores talentosos. O mesmo ocorre com os pintores; não há mais grandes mestres. Os antiquários costumam me perguntar: “Meishu-Sama não aprecia os pintores contemporâneos?”. Não é isso. Eu gostaria de comprar suas obras, mas não o faço porque não encontro nenhuma pela qual valha a pena pagar. Comparadas às pinturas antigas, as de hoje não chegam nem perto. Quando me perguntam o motivo, eu respondo que são muito ruins. Parecem pinturas feitas por doentes. Todas carecem de força. A causa disso reside na medicina. A companhia Shochiku, por exemplo, oferece cuidados médicos excelentes. Ao menor sinal de problema, um médico renomado corre para atender, com equipamentos e medicamentos de última geração. Os médicos aparecem constantemente, mesmo sem serem chamados. E, ao caírem nas mãos dos médicos, os atores enfraquecem e morrem. Kikugoro, por exemplo, era constantemente assistido por médicos. Pouco antes de morrer, ele mesmo se aplicava injeções. Tentei de várias formas alertá-lo e, um ou dois anos antes de sua morte, ele finalmente decidiu receber Johrei. No entanto, impôs a condição de que só o receberia diretamente do “Grande Mestre Okada”, recusando-se a ser tratado por um discípulo. De minha parte, fui inflexível: seria um discípulo, ou nada feito. Ele tentou impor sua vontade, mas Deus não cede aos caprichos humanos, por mais ilustres que sejam. O resultado foi o que se viu. A morte dos atores se deve a isso. Da mesma forma, os pintores, assim que se tornam um pouco famosos, passam a cuidar excessivamente da saúde. Yukihiko Yasuda, por exemplo, vive cercado de médicos. Ele segue à risca suas recomendações e passa o ano todo debilitado. Por isso, as pinturas de Yukihiko e Kokei parecem ter sido feitas por doentes; falta-lhes vigor. Em última análise, a causa principal é que a vacinação contra a varíola impede a eliminação de toxinas do corpo, o que o enfraquece. Isso acontece no Japão e no exterior. Também não há grandes mestres em outros países. As obras-primas da música de hoje foram compostas há cem ou duzentos anos, a maioria há mais de um século. Grandes mestres como Schubert, Beethoven e Bach viveram há mais de cem anos. Recentemente, não surgiram grandes compositores de música ocidental. Talvez Debussy seja uma exceção, mas eu não acho a música dele interessante. Em suma, os grandes mestres desapareceram após a invenção da vacina. Para que voltem a surgir, é preciso abandonar a vacinação. No Japão, ocorre o mesmo. O mestre de <em>nagauta</em>, Kosaburo, costuma me visitar, e as obras-primas do gênero também datam de cem anos ou mais. Quase não existem obras-primas compostas após a era Meiji. Isso porque as pessoas perderam a perseverança necessária para criar uma melodia que realmente as satisfaça. Elas desistem no meio do caminho. Há razões econômicas para isso, mas a principal é o enfraquecimento do corpo humano. É preciso explicar esses pontos para que as pessoas compreendam gradualmente. O livro “Salvando a América” tem, em sua essência, essa mesma tese.</p>
 <p>Recentemente, ouvi o relato de alguém que retornou da Europa. Ele disse que tanto os ingleses quanto os franceses parecem desprovidos de vitalidade. Vivem apenas para comer e ter conforto, sem nenhuma energia. O socialismo se aproveitou disso. O socialismo não faz grande distinção entre quem trabalha e quem é ocioso. Por isso, a Inglaterra se tornou um país socialista ideal, com sistemas completos de seguro-saúde, seguro-desemprego e distribuição de produção. Como não há a lei do mais forte, o país definha gradualmente. Os Estados Unidos e o Japão ainda têm vitalidade porque a vacinação foi introduzida mais tardiamente. Mas, em cinquenta ou cem anos, se tornarão como a Inglaterra e a França, com uma população que vive na inércia. Outra coisa que me pareceu um erro grave foi o fato de a Inglaterra ter sido a primeira a reconhecer o governo comunista chinês. Isso nunca deveria ter acontecido; foi como se a Inglaterra se rendesse ao comunismo, se curvasse a um agressor. Os Estados Unidos, felizmente, mantiveram-se firmes e não o reconheceram até hoje. Atitudes como essa mostram que a Inglaterra, por medo da guerra, perdeu o senso de justiça, de justiça internacional. Eles reconheceram a China por medo de perder o comércio com Hong Kong.</p>
 <p>Os Estados Unidos, a União Soviética e o Japão, por outro lado, adotaram a vacinação tardiamente, talvez com metade do tempo de exposição. No Japão, foi a partir da era Meiji. A União Soviética também foi muito tardia, talvez a mais tardia de todas, pois só começou na era de Stálin. É por isso que esses países ainda têm vigor. Se não alertarmos o mundo rapidamente, em meio século, a humanidade inteira estará debilitada. É por isso que nossa religião se chama “Sekaikyuseikyou”, ou seja, a religião que salva o mundo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年12月1日） 『御垂示録』16号、昭和27(1952)年12月15日発行 昭和二十七年十二月一日 「熱海会館の御奉仕の方法と申しますと変ですが、会長の言葉を聞きまして光宝会でのそのあり方が本当になってきたと思われますのは、今度一千万円なら一千万円を御奉仕させていただくということでなく、ぜひお許しいただきたいとお願いいたしますと、それから非常にスウスウとまいります」 そうです。<br/><br/>それはちょっとしたことですが、今までとは反対なのです。<br/><br/> 「それで生活の面でも、今ではたいへんお蔭をいただきましたが、自分で垣を作ってその中に入って窮屈になって、四角三角になって苦しんでいるのは、ただ自分で苦しんでいたことでありまして、本当に楽になるものをと思いまして、たいへんありがたいことでございます」 そうです。<br/><br/>この間のお蔭話に、自分がどこか悪くて“親父が今朝はたいへん朗らかだから、こういうときにやってもらったら効果があるだろう”と書いてあったので、それはつき返してやったのです。<br/><br/>親父が朗かだからと言うと、親父にやってもらっているように思っているのです。<br/><br/>神様というのをぜんぜん忘れているのです。<br/><br/>だから見当が違っているからつき返してやったのです。<br/><br/>こういうこともたいへんな間違いです。<br/><br/>一切は神様を中心にすると何でもないのです。<br/><br/>どうも人間的な考えになるのです。<br/><br/> 「明主様御詫びをさせていただきます。<br/><br/>大和会の事件以来四年になりますが、最近は御教えをいただきまして、自分でも変らせていただいたように思われますが、すべての原因は自分であったということを分からせていただきました」 そうです。<br/><br/>つまり自分の考えが邪魔しているのです。<br/><br/> 「それを変らせていただきましてから、まわりの人とも気持ちよく話合えます。<br/><br/>誠にありがとうございました」 そうですよ。<br/><br/> 「実は前の因縁の弟子連中が、新しい服を作らせてもらいたいということですので、結構だと話したのですが、自分で気づくと神様のほうでいろいろして下されるということでございますので」 そうです。<br/><br/>神様のほうでなくて人間のほうでもよくそういうことがあります。<br/><br/>この間も銀座の日新房という、前から知っている美術社がありますが、そこに出品した作家で、一度ぜひ見て、くれと言ってここまで持って来ましたが、それを見て後、社長にうんと言ってやったのです。<br/><br/>「これの一番悪いのは苦心して作ってある。<br/><br/>だからその苦心した苦しみが作品に現れているから良い感じがしない。<br/><br/>だからこういう物の作者にあなたが良く言ってやんなさい」と言ったのです。<br/><br/>楽しみ楽しみ、楽な気持でやると良いが、みんな苦心しているから、それが作品に現れているから駄目なのです。<br/><br/>お世辞かも知れないが、社長は良いことを聞いたと言って帰りました。<br/><br/>だから昨今の展覧会に行っても気持が悪いのです。<br/><br/>みんな苦心して画いてあるのです。<br/><br/>その霊がみんなこっちにくるのですから、楽しむことはできません。<br/><br/>だから今の絵も楽しむことができないのです。<br/><br/>ちょっと見ていると嫌な気持になってくるのです。<br/><br/>だから私がいつも言う通り、苦しんでやることにろくなものはないというのは、そのことです。<br/><br/> 「夜の世界とでも申しますが、どうも苦しむことが多いようでございます」 そうです。<br/><br/>暗闇を歩いているのだから危なくてしょうがないのです。<br/><br/>それで昼間の世界になって来たのに、そんなに怖がっているのは、おかしいもので、手間取ります。<br/><br/>それと同じことです。<br/><br/>しかしそうは言うものの長い間のいろいろな習慣があるから、つい人間的の心配や苦しみをやりたがるものです。<br/><br/>私などよくそういうことがあります。<br/><br/> 「今の神様のことを主にしないというお言葉で、非常にお蔭をいただいたのに御礼をしないというのがありますが、実はお許しがないからできないのだと考えますと、そういう場合にも、ははあ、お許しがないのだな、と思いますと苦しみません」 そうです。<br/><br/>自分はお蔭をいただいていても信仰に入らないのがありますが、本人は信仰に入りたいのですが、邪魔があったりするのです。<br/><br/>それは何かと言うと、神様が許されないのです。<br/><br/>それからこういうことがよくあります。<br/><br/>熱心な人があって、フッと来なくなり、他のことをやってみたり、いろいろしますが、そうするとずいぶん馬鹿な奴だと思いますが、そうではないのです。<br/><br/>神様が、お前は入れてやったが汚いものがあるからもっと苦労しろというので、要するに資格がないというので神様がつまみ出されるのです。<br/><br/>そういう点は解釈のしかたが違うのです。<br/><br/>だから入るということは、その人が入りたいから入っているのでなく、神様がお許しになるから入れるのです。<br/><br/>そこは神様中心に考えると分かるのです。<br/><br/>それから“あいつは邪魔する、酷い奴だ、ああいうのを神様はどうして生かしてある、許してあるのだろう”と言うが、それは神様に何かわけがあるのです。<br/><br/>そのときはそうでも、いずれは何かに使うのです。<br/><br/>ですから要するに人間の判断というものは分からないものです。<br/><br/>神様くらい深いものはありません。<br/><br/>それはあべこべのようなことがあります。<br/><br/> 「八月十五日以前と敗戦以来ということで、我々が知っている世界でも変りましたから、ましていわんや善悪を決めるということなどとても分かるはずはございません」 それを“あいつは間違っている、あいつは悪い”ということは、いつも言う通り神様の領分を冒しているのです。<br/><br/>人間の分際でそういうことが分かるわけはないのです。<br/><br/>ですから自分が正しいと思うことをしていれば良いので、人のことを言うのはよけいなお世話です。<br/><br/> 「そのよけいなお世話でどのくらい罪をつくっているか分かりません」 そうです。<br/><br/>そういう場合に常識で判断しなければ駄目です。<br/><br/>やっている経路でなく結論で判断するのです。<br/><br/>良いとか悪いとかいろいろ議論しますが、議論は良いと思ってやっているのだが、議論してその結果はどうかということです。<br/><br/>議論をする結果としない結果を考えてみて、結局しない結果が良いのです。<br/><br/>というのは、議論というのはそれが良いと思ってやっているのですが、ところがそれは神様しか分からないのです。<br/><br/>だからある程度まで意見を言うが、そこでスラスラといかなければやめるのです。<br/><br/>言うのは何を言っても良いのですが、そこであっさりとして、スラスラといかないことはやめるのです。<br/><br/>これが本当に良い説なら誰も刀向うことはできません。<br/><br/>それはそうだとなります。<br/><br/>そういかないということは、どこかにねり方が足りないということになります。<br/><br/> 「私は最近地方を巡らせていただきまして、一番忘れてはいけないと思いますことは、話をいたします場合にも、初めに“明主様どうぞ”とお願して話をさせていただくということでございます。<br/><br/>それを忘れていると変な気持になって、ははあ、おしかりいただいているな、と思いまして気がつきます。<br/><br/>それを忘れなければ良いということを考えさせられます」 そうなのです。<br/><br/>ですから私も、「今日はこういうことを話そう」と用意するほうが反って駄目です。<br/><br/>無我で無意識に、ただ白紙で来ると反って良いことを話したり、思いもつかない面白いことになったりします。<br/><br/>これは実に言うに言われないもので、理屈では分かりません。<br/><br/>それは何から何まで神様は狂いはないので、凄いものです。<br/><br/> 「この間地方での話で、メシヤ教に入って御教え通りにやっている積りだがお蔭がないということがあったら手を挙げてご覧なさい。<br/><br/>今日はあなた方と入れ替って考えてあげよう、と申したのですが誰もおりません。<br/><br/>それから、あなた方はなぜ遠慮してお蔭をいただくか、たいへん欲がない、それがよくないと話ましたら元気が出たようでございます」 つまりお蔭を忘れたときにお蔭はくるものです。<br/><br/>お蔭が来そうなものだ、お蔭が欲しいと思うときにはお蔭は来ないのです。<br/><br/> 「私はこう思っております。<br/><br/>“栄光”新聞にお蔭話が出ておりますが、一番お蔭をいただいている人は御礼を申し上げておりません。<br/><br/>それではあなた方は、甲乙丙丁と段階があるとして甲から乙に落ちたいかと言いますと、いや本当に間違っていたと申しておりました」 本当言うと、お蔭というのを値打ちにするなら、ない命を助かるとすると、とにかくその人はどんなことを犠牲にしても構わないわけです。<br/><br/>仮にお蔭を百もらって御礼を十上げると、九十は借金になります。<br/><br/>借金になるからあとのお蔭があんまりないのです。<br/><br/>だから本当に厳密に言うと、そこにいくのです。<br/><br/>ところが普通の人はお蔭を百もらって、神様のほうに御礼が五十なら良いほうです。<br/><br/>全部やったら裸になるから―。<br/><br/>それを二十とか三十にするから、あとの二十とか三十が借りになる。<br/><br/>するとあとが悪くなるのです。<br/><br/>それで仮にお金ならお金を上げると普通十倍になって返って来ます。<br/><br/>お金を上げて貧乏になるような宗教だったら信仰をやめたほうが良いです。<br/><br/>それは神様に力がないのです。<br/><br/> 「ですから私は、言う通りにしてその通りにならなかったら、私が責任を持つからやってご覧なさいと言っております」 こういうことは普段あんまり言いません。<br/><br/>例の天理教とかの搾取的な宗教に見られやすいから言わないのですが、今日のようなこういうときは一般信者でないから、信仰の中学以上の人だから言います。<br/><br/>本当言えばそんなものです。<br/><br/>だから何にしてもそうです。<br/><br/>今世間では、風邪を引くとたいへんだとか肺病が伝染してはたいへんだと病気を恐がっているが、メシヤ教に入るとその心配がなくなるのです。<br/><br/>病気は結構だというこれだけでもそのお蔭はたいへんです。<br/><br/>世界中でメシヤ教信者くらい病気を恐れない人種というのはありません。<br/><br/>だから神様に、どうでも勝手にしろと任せれば、決して粗相はありません。<br/><br/>何しろこういうことは今までにないのですから、世間一般は信仰的頭でそこまで分かるということはたいへんなものです。<br/><br/> 「今度は、実動会員と言いますが、それが全部資格者になれるようにやってもらいたいといっておりますが、昨日もはっきりと話させていただきました。<br/><br/>そこで資格者がしっかりしてくると、信者さんも分かってきますし、それをもって対外にいかなければならないと思います」 結局自分にあるのですから、思うようにならないということは、まず自分のやり方を考えてみなければならないのです。<br/><br/>そういうやり方というのは、私の本のどこかに書いてあるから、そこにあります。<br/><br/> 「それから“栄光”紙に出ておりますことで、明主様の御論文は絶対のものでございますが、しかしお蔭話というのは信者さんの感謝文なのだから、これを絶対と思ってはいけないと思います。<br/><br/>といいますのはある所で質問がありまして、“ 霊視日記 ”の中で御光がお出になる、それが見えた、それは秒速十五メートル、と書いてありますので、どういうものかという質問がございました」 その人にはそう見えるのです。<br/><br/> 「それはその人が見たことであって、実はそうでなく御光は瞬間的で時間空間はない。<br/><br/>“明主様”と申し上げると、そのときに御守護があるのです。<br/><br/>霊視は参考に考えるなら良いが、それでなければぜんぜん嘘だから、と話たのでございます」 そうです。<br/><br/>あれは本人の書いたままを出したので、はなはだしく間違っているのは直しますが、なるべく訂正しないようにしているのです。<br/><br/>訂正するということになると面白くないのです。<br/><br/>個人のお蔭話を訂正して大げさにしていると疑われるから、そういうことはしません。<br/><br/> 「お蔭話をよく見ておりますと、半分は最初にお詫びしなければならないようなことがございます」 この間こういうことがあった。<br/><br/>いろいろ一生懸命にやったが、どうしても良くならない。<br/><br/>それから光明如来様にお願いしたら、それから直ぐに良くなった、というのですが、そういうときには自分が治そう治そうとしているのです。<br/><br/>それで神様を忘れているのです。<br/><br/>それが修行です。<br/><br/>世間は間違ったことが多く、それで長い間教育されているから、こっちの説があまりに世間と違うから、分かるまではそうとう暇がかかります。<br/><br/>今も出かけにラジオの「婦人の時間」で、よく出る人でなかなかうまい人ですが、今度の池田通産大臣の失態の話が出ましたが、つまり池田というのは前から危なっかしくて、私は好かないのです。<br/><br/>何となく慢心しているようなのです。<br/><br/> 「写真で見ましても、上品さという所がございません」 そうです。<br/><br/>写真を見ても、いけ好かないです。<br/><br/>だからいつか二度ばかり失言問題があった。<br/><br/>今度もとうとうやったのですが、もう一（ひと）修行しなければ駄目です。<br/><br/>ああいうことも実に頭が悪いのです。<br/><br/>それからもう一つは、人間はたまには失言もするから、そのときに謝れば良いのです。<br/><br/>それを変なことを言うからいけないのです。<br/><br/>「僕が間違っていた、言葉のアヤであそこまで言ったのは間違っていた」と謝罪するのです。<br/><br/>そうすると割合に軽く済むのです。<br/><br/>それを何やかやと言いわけするから、きたないし人が同情を持たないから、好感を持たれないのです。<br/><br/>ああいう所は実に馬鹿です。<br/><br/>長い間大蔵大臣をしていてあのくらいの頭の悪さです。<br/><br/>それをまた、吉田首相がかわいがっているのですから、吉田首相という人もずいぶん欠点はあります。<br/><br/>あのくらいの偉い人でも見ていると危なくて注意したいと思うことがよくあります。<br/><br/>この間鳩山さんが馬鹿に威勢良く、自分が次の総理にでもなりたいようにみえていたが、あれから鳩山さんに対する社会の感じが悪くなった。<br/><br/>ああいうことが馬鹿です。<br/><br/>何しろ病人で、政界からも隠退していたのだから、もっと柔らかくふわっとして、吉田首相を立てれば、ほかの人でもなるほどと思います。<br/><br/>あれでは体が良くても総理にするのは危ぶむという気持ちが起こります。<br/><br/>あれだけの人ですが、実に頭が悪いというか、おかしいところがあります。<br/><br/>私は始終論文を書いてますが、最初の「光」新聞時代に金近ともう一人いましたが、普通は三十号くらいでたいてい行き詰ってしまうが、種が尽きないであとが出るのは珍しいと言ってましたが、そのときが五十号で今は百八十四号です。<br/><br/>あとからいくらでも出るのです。<br/><br/>それは何かと言うと、あんまり世間の人が欠点だらけなのでいくらでも出るのです。<br/><br/>だからいかがに間違っていることが多いかということが分かるのです。<br/><br/> 「お書きなさいます場合に、その主題をお考え遊ばされるのでございますか」 考えるどころではなく、後から後から出てきて困るのです。<br/><br/>だから考えるということはありません。<br/><br/>造営の場合でも、こうしようああしよう、どうしたら良いか、ということもほとんど考えることはありません。<br/><br/>ただそういう時期がくるとパッと頭に出てくるのです。<br/><br/>だから“地上天国”に行くと、ここをああするこうするということが瞬間的に頭に出てくるのです。<br/><br/>それでちょっと考えて分からなければやめてしまうのです。<br/><br/>それは実に早いです。<br/><br/>もっか頭の中には会館ができて、そこの幕の模様までちゃんとできているのです。<br/><br/>ただ時期によって、ここをどうしようかと思って考えが出ないときはそのままにしておくと、時期がくるとパッと浮ぶのです。<br/><br/> 「展望台のほうを先におやりになられますのでございますか」 そうではありませんが、トンネルで続けてますから、同じに造るつもりです。<br/><br/>しかし毎日新聞社が企画してますから、展望台を先にしようというのです。<br/><br/>会館のほうはたいへんですから、展望台のほうが先が良いでしょう。<br/><br/>あれならわけはありません。<br/><br/> 「今度映画で明主様の御姿とお声が世界に出ますことを思いますとたいへんなことでございます」 そうです。<br/><br/>つまり世界的に第一歩を踏むわけです。<br/><br/> 「本日は毎日新聞のプロデューサーの方も見えられております」 そうですか。<br/><br/> 「映画の主題は“東方の光”ということにいたしたいと思いますがいかがでございましょうか」 結構です。<br/><br/>私は前から東方の光ということを言いたかったが、講和前はアメリカの人が誤解するといけないから言わなかったのです。<br/><br/>それでこの間「栄光」に“ 東方の光 ”を出したのです。<br/><br/>来年からはちょっと面白くなってくるわけです。<br/><br/>アメリカで分ってきたらおもしろいです。<br/><br/>それに早いです。<br/><br/> これからは映画というものは非常な役目をするのです。<br/><br/>この間何かの記事で見たとき、映画は芸術に入れるとか入れないということが出てましたが、私は今度書いてみようと思ってます。<br/><br/>芸術では、映画が一番の芸術と思ってます。<br/><br/>なぜかと言えば、映画くらいいろんな芸術的なものが入っているものはないのです。<br/><br/>あれは総合芸術です。<br/><br/>第一番に、脚本（シナリオ）それからプロデューサーがいろいろ企画を作っていくということ。<br/><br/>それにちょうど適当するような俳優の選択。<br/><br/>その俳優の技芸、それから場面は室内もあれば室外もあるし、本物を背景にする場合もあるし、セットを使う場合もあり、光線の採り具合、ロケでの景色の選択と、あらゆるものを採り入れてます。<br/><br/>外の芸術では幾つかに限られているが、映画というものは世の中のあらゆるものを採り入れてます。<br/><br/>それで一つの作品をつくるのですから、このくらいすばらしい芸術はないと思ってます。<br/><br/>だから芸術の王様です。<br/><br/>それから写真の芸術があります。<br/><br/>写真と言っても絵画的のいろんなやり方です。<br/><br/>監督でもそういった絵画的な所を現わす者は少ないです。<br/><br/>しかし近頃はなかなかうまいのがあります。<br/><br/>絵画的場面を作るのがうまいのは豊田四郎です。<br/><br/>それから時代の構想とか、時代時代の雰囲気とか色を出すということもピッタリすると、見ていても非常に効果があります。<br/><br/>ところがどうかするとチョンマゲが通る横に電信柱が見えたり、それから対話でも、作者が新しい扱い方でやって、言葉などでずいぶん変なことをやります。<br/><br/>「僕は君を信ずる」と、チョンマゲ時代にそんなことは言いません。<br/><br/>そうかと思うとその時代の言葉を使ったりしてゴチャゴチャです。<br/><br/>そういうことをキチンとすると、やはり評判も良くなるし、その監督も認められるのです。<br/><br/>どうもそういう点には割合無関心です。<br/><br/>そういったケレンが非常に多いのです。<br/><br/>日本映画は特にケレンが多いのです。<br/><br/> 「今度のメシヤ教の映画の場合の音楽は、雅楽は必要な要素でございましょうか」 いけません。<br/><br/> 「全部洋楽でいたしますのでございましょうか」 そうです。<br/><br/>雅楽というのは平安朝時代のものです。<br/><br/>そうなるとこっちも衣冠束帯か何かでやらなければならない。<br/><br/>能楽とか雅楽をやるのは、別にそういったものを作らなければなりません。<br/><br/>宗教のほうではそういうことはやりません。<br/><br/>むしろ最も新しくなければならないのです。<br/><br/>だから建築でも最も新しいところを狙ったのです。<br/><br/>今度できる会館というのは、宗教建築では恐らく世界にありません。<br/><br/>宗教建築と言うと、昔の伽藍式とかお宮式とかありますが、いくら伽藍式を立派に採り入れても京都の本願寺以上のものはできません。<br/><br/>あれを安っぽくしたくらいのものです。<br/><br/>そういうものは造る必要がないのです。<br/><br/>私はこの間“袴〔墓場〕に支配される”ということを書いたのですが、そうすると二十世紀を狙うよりも、むしろ二十一世紀を狙うのが本当です。<br/><br/>だから天理教などがやってますが、ああいう古いことは排斥したいくらいのものです。<br/><br/>あれでは時代の進歩というものがありません。<br/><br/>特に宗教ほど進歩のないものはないと思います。<br/><br/>だから私は釈迦とかキリストということを盛んに批評してますが、古い宗教で救えないということは当たり前です。<br/><br/>今の自動車の世の中に牛車に乗れというようなものです。<br/><br/>それなら牛車に乗って町を歩いたらどうかということです。<br/><br/>ただ歴史的の趣味として見るのは構いませんが……。<br/><br/> だから私は今度の京都の美術館は、京都のお寺と提携して、仏像を並べようと思ってます。<br/><br/>本尊は残して、それ以外は全部借りて並べようと思ってます。<br/><br/>というのは、仏像というのは美術品と思っているからです。<br/><br/>拝むものではなく、見るものです。<br/><br/>そういった歴史的芸術的の価値なのです。<br/><br/>仏教のほうで聞くと怒るでしょうが、キリスト教でもそうです。<br/><br/>今まではあれで良いが、これからは駄目です。<br/><br/>とにかくキリスト教が共産主義をやっつけるくらいの力があれば良いが、キリスト教のほうがやっつけられているのです。<br/><br/>今はキリストよりもレーニンのほうが本当に人を動かす力があるから、それではしょうがないのです。<br/><br/>だからメシヤ教は今にレーニンでもスターリンでもやっつけます。<br/><br/>これは私がやっているのではなく神様がやっているのです。<br/><br/>実際馬鹿げた話です。<br/><br/>それでこの間“ 平和主義を考えてみる ”というのを書きました。<br/><br/>私は時々ユネスコを奨められるのですが、スターリンをユネスコに入れなければと言うのです。<br/><br/>とにかく世界の平和というものは、スターリンが手を合せて神様を拝まなければならないのです。<br/><br/>それ以外に世界平和は絶対にありません。<br/><br/>世界中が第三次戦争が起こりやしないかという脅威はスターリンです。<br/><br/>クレムリンをそのままにしておいて、ほかだけ平和運動をして何もなりません。<br/><br/>それで武器によって平和を維持するのは一時的で、これもしかたはないが永遠性はないのです。<br/><br/>第一こっちがそうすればソ連のほうも軍備を充実する。<br/><br/>そのために無益な金を使うから、それで不景気になるとか苦しむのです。<br/><br/>だから結局スターリンをメシヤ教信者にするということが一番良いのです。<br/><br/>それ以外のことは一時の間に合せです。<br/><br/>この間も話したことがあるが、とにかく共産主義の学説を破るだけの学説が出れば良いのです。<br/><br/>それでなければ宗教です。<br/><br/>それは共産主義の学説は実に良くできているのです。<br/><br/>私でも神様ということを知らなければ共産主義のほうに行きます。<br/><br/>だから青年が学問をするとあれにはまり込むといのも無理はありません。<br/><br/> 「共産主義ではすべてを経済ということで支配しておりますが、美ということにつきましても、生活あってのものと考えているようでございます」 それはそうです。<br/><br/>我々は美と別に思っているが、一般はそれと関連をもって思っているのです。<br/><br/> 今度保安庁長官になった木村さんは共産主義を非情に嫌ってますが、まず日本の共産主義をやっつけるということはできないが、のさばらないようにする。<br/><br/>作らないようにするには、大学の教授の頭を切り替えなければならない。<br/><br/>結局学生がああなるというのは教授が仕込んだのです。<br/><br/>だから学生などは教授の頭一つでどうにでもなるのです。<br/><br/>まず教授の頭を切り替えることと、もう一つは新聞です。<br/><br/>少なくとも三大新聞が共産主義というものはいけないということをはっきりと書くだけで良いのです。<br/><br/>結局において今の人間は物事の急所を見ることを知らないのです。<br/><br/>物事には急所があるもので、現在としては大学教授の少しでも共産主義的の者はやめさせて、それからもう一つは共産主義をやっつけるだけの勝れた学説を作らなければならない。<br/><br/>それは共産主義でもいかん資本主義でもいかんという最高の学説を作ることです。<br/><br/>それは大して難しいことではありません。<br/><br/>私でもやろうと思えばできます。<br/><br/>とにかく共産運動は思想から来てます。<br/><br/>思想は学問から来てますから、学問のすばらしいものを作れば良いのです。<br/><br/>アメリカでも共産主義は嫌ってますから、そのくらいの学説は博士も大勢いるので作れそうなものだが、作る者がないのです。<br/><br/>次に新聞ですが、これがたいへんなものです。<br/><br/>この頃はそうでもないが、岡田茂吉と「氏」をつけないのです。<br/><br/>それで徳田球一氏と「氏」をつけるのです。<br/><br/>驚いてしまいました。<br/><br/>といのは、結局新聞記者、ジャーナリストの再教育です。<br/><br/> 「先ほども新聞のことにつきましていろいろ話合いましたが、今日の新聞は特異性がないし特色がなくなった、というのは老後のことのみを考えて、対社会精神というものが抜けていると申したのでございます」 日本の新聞はお上品になり過ぎてしまったのです。<br/><br/>というのは新聞はあまりに不利不鬪〔不偏不党〕になり過ぎて主張がない、色がないのです。<br/><br/>結局「朝日」を見ても「毎日」を見ても同じです。<br/><br/>だから私は前に書いたことがありますが、日本に新聞がたくさんあるということは国家経済上も不経済だ、結局同じなのだから一つで間に合うのです。<br/><br/>反って昔のほうがそれぞれの特色がありました。<br/><br/>一つの株式会社になったほうが良いでしょう。<br/><br/> 「一つの新聞社くらいは特定の宗教を思い切り好意的に書くものがあっても良いのではないかと思いますが」 つまり読者に引きずられているのです。<br/><br/>新聞が読者を引きずるというものがないのです。<br/><br/>新聞ばかりでなく、一体に社会のあらゆる面がそうなってます。<br/><br/>おざなり的になってます。<br/><br/>その原因があるので、私は今それを書いてます。<br/><br/> 「明主様の自然農法の御論説を拝見しまして非常に感激いたしました」（毎日新聞木村氏） みんな間違ったことをやっているのです。<br/><br/>もっとも世間が間違わなかったらメシヤ教が出る隙がないから、間違っているということも、今のところはこっちが発展する上において大いに良いかも知れないが、しかし間違っている点があまりに多過ぎるので、こっちが非常に骨が折れるのです。<br/><br/> 今私が書いているのは、 名人のなくなった理由 というのです。<br/><br/>一番初めは劇界から書いてます。<br/><br/>歌舞伎界の偉い俳優は次々と死んでしまいますが、これはどういわけかということです。<br/><br/>今、頭株は吉右衛門、猿之助、三津五郎の三人でしょう。<br/><br/>ところが吉右衛門は危ないというのです。<br/><br/>それから三津五郎もいつか分からないとすると、猿之助一人です。<br/><br/>前と比べたらてんで話にならない。<br/><br/>ところが以前は多士彩々〔済々〕たるものでずいぶんいました。<br/><br/>それに上手です。<br/><br/>それから画家の名人が今はないのです。<br/><br/>よく道具屋が“明主様は現代の画家の方はお気にいらないのですか”と言うのです。<br/><br/>そんなことはない、私は買いたいが金を出して買おうという絵がないから買わないのです。<br/><br/>昔の絵と比べてみてもてんで手が出ない。<br/><br/>どういうわけかと言うから、下手過ぎると言うのです。<br/><br/>絵を見ると病人の絵のようです。<br/><br/>みんな弱っている。<br/><br/>どこに原因があるかというと医学にあるのです。<br/><br/>松竹会社は医者のほうはとても行き届いているので、ちょっと悪いと博士が飛んで来て、機械から薬から実に完備しているのです。<br/><br/>頼まなくても医者が始終くるのです。<br/><br/>それで医者の手にかかれば体が弱って死ぬというわけです。<br/><br/>菊五郎なども医者がつききりでした。<br/><br/>死ぬ少し前には自分で注射していたのです。<br/><br/>ずいぶんとそれを知らせようと思っていろいろしてやって、結局死ぬ一、二年前ですが教修を受けるということになったが、岡田大先生直接なら受けるが弟子なら嫌だと言うので、こっちも絶対にそうはいかない、弟子でなければ駄目だというので、ずいぶんわがままを通そうとしたが、神様のほうは人間のわがままはどんな偉い人でもそうはいかないから、結局ああいうことになったのです。<br/><br/>だから俳優が死ぬというのはそれです。<br/><br/>それから画家が少し有名になると体を大事にする。<br/><br/>だから安田靭彦（ゆきひこ）さんはまるで医者がつききりです。<br/><br/>医者の言う通りで年中フラフラしてます。<br/><br/>だから靭彦さんや古径（こけい）さんの画いた絵は、病人の画いた絵のようでそこに迫力がないのです。<br/><br/>それで結局一番の原因は種痘のために人間の毒素排除を止めているから、それで体が弱ったのです。<br/><br/>日本もそうですが、外国もそうです。<br/><br/>外国にも名人というのはありません。<br/><br/>今音楽で名曲と言えば百年から二百年前のものです。<br/><br/>たいてい百年前です。<br/><br/>シューベルト、ベートーヴェン、バッハという名曲を作る名人は、みんな百年以上前です。<br/><br/>だから近来は西洋音楽の良い作曲家が出ないのです。<br/><br/>ドビュッシーくらいでしょう。<br/><br/>しかし私はドビュッシーは少しも面白くないのです。<br/><br/>結局種痘ができてから名人がなくなったのです。<br/><br/>名人を出すには種痘をやめなければ駄目です。<br/><br/>日本でもそうです。<br/><br/>長唄の小三郎師が来ますが、名曲は今もってやはり百年かその前のものです。<br/><br/>明治以後の名曲とうものはほとんどないと言っても良いくらいです。<br/><br/>というのは気にいるまでの曲を作るという根気がなくなったのです。<br/><br/>いい加減なところでやめてしまうのです。<br/><br/>それは経済的の理由もありますが、しかし第一番は人間の体が弱ったことです。<br/><br/>そういう点を言ってだんだん分からせることです。<br/><br/>それで本当言うと“アメリカを救う”という本もそういったことが骨子になってます。<br/><br/> この間もヨーロッパから帰って来た人の話を聞くと、英国人でも仏国人でもまるで活気というものがないそうです。<br/><br/>ただ安楽に食ってさえいれば良いというようで、実に元気がないそうです。<br/><br/>そこでそれを狙ったのが社会主義なのです。<br/><br/>社会主義というのは、働く奴と怠ける奴との差別をあんまりつけないのです。<br/><br/>ですから英国は社会主義の理想的な国になってます。<br/><br/>障害保険とか失業保険とか生産分配にしろ、そういうことは実に完備してます。<br/><br/>それで優勝劣敗がないから、だんだん国が衰えていくのです。<br/><br/>米国や日本は種痘が遅いからまだ活気があるが、もう五十年百年と立つと、英仏のようにただ無為に食っているという人間ばかりになります。<br/><br/>また私がこれはいかんなと思ったのは、中共政府ができて英国が一番先に承認したが、ああいうことは決してある筈はないことだが、これは英国が共産主義に屈服するようなものです。<br/><br/>暴力者に屈服するようなものです。<br/><br/>さすがに米国はがんとして今もって認めないのです。<br/><br/>ああいうことはやっぱり英国などは戦争が恐ろしくて、正義と言うか国際正義というものがなくなっているのです。<br/><br/>それで香港の貿易を失うのが一番怖くて承認したのです。<br/><br/> ところで米国、ソ連、日本というのは種痘が遅いのです。<br/><br/>年数は約半分ぐらいでしょう。<br/><br/>日本は明治になってからです。<br/><br/>ソ連も非常に遅いのです。<br/><br/>スターリンになってからですから一番遅いかも知れません。<br/><br/>そういう国だけに元気があるのです。<br/><br/>だからここで世界中に早く分からせないと、世界中の人間は半世紀後にはまるでヒョロヒョロになってしまします。<br/><br/>それで「世界救世教」と言って、世界を救うというのです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

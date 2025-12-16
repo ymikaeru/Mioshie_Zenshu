@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>geiju077</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教芸術篇 ７ 077-091 芸術２ 077 御讃歌「芸術」の意味 御讃歌「芸術」の御歌の意味を御教示下さい。<br><br> 「人の情月雪花に眼を外らす人は身魂の低きが故なり」 人に情をかけてやっても感ぜぬのは感じが鈍いので、それは曇りが多いのである。<br><br> 「春の花秋の紅葉を賞（め）づるこそ神の恵みに応うるなりける」 花でも何でも、人の目を楽しますために神が造られたもので、それを娯しまぬのは神の恵みに叛く訳で、それを神に感謝して楽しむべきである。<br><br> 「芸術を娯しむ心裕かなる人こそ天国に住すればなり」 割合に趣味がなく、木石のごとき人は霊的に低い。<br><br>やはり趣味や情緒のあつい人は上級である。<br><br>それによってその人の高低が判る。<br><br> ダンスなどもいいが、別な危険を伴う。<br><br>老人ならいい事になる。<br><br> 「古の聖者は紙衣白木綿（かみこしらゆう）に包まれたれど我は然せじ」 白木綿―歌詞で白もめんの事。<br><br>もめんをゆうと言う。<br><br>紙衣―紙で出来た着物。<br><br>昔、人によってはこれを着た。<br><br>「祖師は紙衣の五十年」といったが、親鸞などはこれを着たという。<br><br>これは経済的に着たものである。<br><br>これは非常に温かいものである。<br><br>これは本当は間違っている。<br><br> 「天国に世人救わむ望みもて吾先ず天国に住せむとすも」 今迄の宗教は極く殺風景で、ただ大きい宮とか殿堂を作るだけである。<br><br>教団は地上天国の型を造るのだ。<br><br> 「如何ならぬ聖者といえど己が身の地獄に在りて世人救わめや」 自分が地獄にいて人を救う事は出来ぬ。<br><br>それは下から持上げるような理屈になる。<br><br>自分が上にいて救うのが本当である。<br><br> 078 「古の聖者……」の御歌 「古の聖者は紙衣白木綿に包まれたれど吾は然せじ」という御歌は、人間の不自然であってはならないという意味の御歌でしょうか。<br><br>お伺い申し上げます。<br><br> 禁欲主義はバラモン行であるから間違っている。<br><br>立派な家に住み、美味しい物を食うのが神の思召に叶う。<br><br>それで箱根、熱海の良い所を選んだのである。<br><br> 神様は、人民はわが子と同じ気持である。<br><br>神の御目的は地上天国を造るにある、真善美の世界を造るにある。<br><br>貧乏して、汚い物着ているのは大変な間違いである。<br><br> 079 五十鈴川の源 近詠集中、「いすくわし五十鈴の川の源の濁り浄むる時となりぬる」の御歌につき御教示御願ひ申し上げます。<br><br> いすくわしは枕詞。<br><br>五十鈴川は天皇の系統、天照大神の源、本物と贋物とある。<br><br>皆考えている天照大神は――（天皇の源）――濁っているから浄める意味である。<br><br>（S24.12.23） 080 「村肝の……」の御歌 「村肝の生命賜いし御恵をうち忘れなば獣に等しき」―― 村肝の―は、生命の枕詞。<br><br>神から生命を戴いた御恩を忘れれば獣と同じという事。<br><br> （S23.10.19） 081 聖人 「畏くも観世音菩薩は八百万神や仏の聖に在さん」と御座いますが、「聖」と申しますのは、神や仏の上位に在されると言う意味で御座いましょうか。<br><br>また、孔子を「聖人」と申しますが、その「聖人」とはいかなる意味で御座いましょうか。<br><br>御伺い申し上げます。<br><br> 聖人というのは種々な人の優れている、しかも清い、上位（浄位）という意味である。<br><br>はっきりこうという意はないが、神や仏の一番上という意味と言っていい。<br><br>菩薩は一番低いお働きと言ってもいい。<br><br>それで聖に在さんという疑問詞が入れてあるので、在せりとは書いてない。<br><br> （S24. 2.11） 082 大先生御歌 浄霊のお歌、「ながむればくすしかずかずたまのをのまたすがすがしすくはれむかな」 右御歌の意味につき御伺い申し上げます。<br><br> 大先生の御歌は言霊と合わしている。<br><br>（S24. 7.19） 083 和歌の初め 御歌集「山と水」の中に、「瑞御魂素盞嗚神にはじまりし和歌は御国の光るならむ」 と御座います。<br><br>右の御歌について御伺い申し上げます。<br><br> 素盞嗚尊は出雲大社の先祖で、歌は出雲から出た。<br><br> 「八雲立つ出雲八重垣妻ごめに八重垣つくるその八重垣を」 水の系統は瑞御魂で、月の系統である。<br><br>瑞は十五夜で、一番水を含んだ時である。<br><br> （S25. 4.28） 084 烏羽玉と奴羽玉 烏羽玉と奴羽玉との意味をお願い致します。<br><br> 烏羽玉は烏の羽根で、奴羽玉としたのは烏より奴の方が言霊がいいからである。<br><br> まんよう（万葉）よりまんにょうが本当である。<br><br>（S23） 085 「和田の原」とは 和田の原は海の歌詞。<br><br>和田津見、大和田原などという。<br><br>朝日を朝日子というがごとくで、歌詞には判らぬ言葉が多い。<br><br>千早振、烏羽玉の、村肝の、魂機張る、たまゆら等。<br><br>（S23. 6.27） 086 うない児 御讃歌集中「法の華」の節中、「うない児も鬼をも拉ぐ猛き男も慈悲の御眼に慕い寄るかも」の中の「うない児」について御教示を御願い申し上げます。<br><br> 幼児の事である。<br><br>（S24.７.28） 087 村肝の意義 御讃歌の「誤れる医しの術に村肝の生命縮むるあはれ世人よ」と御座いますが「村肝」とはいかなる意味で御座いましょうか。<br><br>御伺い申し上げます。<br><br> 歌の枕詞である。<br><br>（S24. 1.28） 088 石の上 御讃歌中に「石の上」とありますが、その意味を御教示願います。<br><br> 枕詞は、殆ど意味の判らぬものがある。<br><br>（S24. 5.26） 089 かみなが、円頂 僧侶の異称である「円頂」、「かみなが」とは―― 円頂―頭の丸い事。<br><br> 歌は素盞嗚尊に始まり、神道から出てる。<br><br>神道では髪を長くするのが本当であるから、「かみなが」とは神道的に云ったものである。<br><br> 090 古池の句 「古池や蛙飛び込む水の音」 右の句は丁度私達の歩む道を教えられるように感じますが、皆様に解り易くお話の出来るように御教示願います。<br><br> 古池の感じ。<br><br>極く閑かな感情を表わしたもの。<br><br>静寂を表わしている。<br><br>「閑（しずか）さや岩にしみ入る蝉の声」のようなものである。<br><br> 信仰と結びつけるのは無理であろう。<br><br>（S24. 6. 8） 091 秀吉の歌 「奥山にもみじ踏分けなく螢しかとも見えぬそまのかがり火」の歌の御説明をして下さい。<br><br> そまのともしびである。<br><br>秀吉が歌が出来ず、幽斎を招いた。<br><br>そして、鳴く螢と出した。<br><br>それで帰った。<br><br>（S24. 2.12）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de Teses do Mestre Okada Jikanshi — Arte Religiosa (2)</h2>
 <h2>077. O significado do Hino “Arte”</h2>
@@ -150,5 +302,48 @@ function toggleLang(lang) {
 <h2>091. O poema de Hideyoshi</h2>
 <p><strong>Pergunta:</strong> Por favor, explique o poema: “Nas profundezas da montanha, pisando em folhas de outono, um vaga-lume que não chora mal se distingue do fogo do lenhador”.</p>
 <p><strong>Resposta:</strong> A expressão refere-se à tocha do lenhador. A história conta que Hideyoshi, por sua inabilidade em compor poemas, convocou o mestre Yusai. Como verso inicial, Hideyoshi propôs “um vaga-lume que canta”. Diante disso, Yusai simplesmente se retirou. (12 de fevereiro de 1949)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教芸術篇 ７ 077-091 芸術２ 077 御讃歌「芸術」の意味 御讃歌「芸術」の御歌の意味を御教示下さい。<br/><br/> 「人の情月雪花に眼を外らす人は身魂の低きが故なり」 人に情をかけてやっても感ぜぬのは感じが鈍いので、それは曇りが多いのである。<br/><br/> 「春の花秋の紅葉を賞（め）づるこそ神の恵みに応うるなりける」 花でも何でも、人の目を楽しますために神が造られたもので、それを娯しまぬのは神の恵みに叛く訳で、それを神に感謝して楽しむべきである。<br/><br/> 「芸術を娯しむ心裕かなる人こそ天国に住すればなり」 割合に趣味がなく、木石のごとき人は霊的に低い。<br/><br/>やはり趣味や情緒のあつい人は上級である。<br/><br/>それによってその人の高低が判る。<br/><br/> ダンスなどもいいが、別な危険を伴う。<br/><br/>老人ならいい事になる。<br/><br/> 「古の聖者は紙衣白木綿（かみこしらゆう）に包まれたれど我は然せじ」 白木綿―歌詞で白もめんの事。<br/><br/>もめんをゆうと言う。<br/><br/>紙衣―紙で出来た着物。<br/><br/>昔、人によってはこれを着た。<br/><br/>「祖師は紙衣の五十年」といったが、親鸞などはこれを着たという。<br/><br/>これは経済的に着たものである。<br/><br/>これは非常に温かいものである。<br/><br/>これは本当は間違っている。<br/><br/> 「天国に世人救わむ望みもて吾先ず天国に住せむとすも」 今迄の宗教は極く殺風景で、ただ大きい宮とか殿堂を作るだけである。<br/><br/>教団は地上天国の型を造るのだ。<br/><br/> 「如何ならぬ聖者といえど己が身の地獄に在りて世人救わめや」 自分が地獄にいて人を救う事は出来ぬ。<br/><br/>それは下から持上げるような理屈になる。<br/><br/>自分が上にいて救うのが本当である。<br/><br/> 078 「古の聖者……」の御歌 「古の聖者は紙衣白木綿に包まれたれど吾は然せじ」という御歌は、人間の不自然であってはならないという意味の御歌でしょうか。<br/><br/>お伺い申し上げます。<br/><br/> 禁欲主義はバラモン行であるから間違っている。<br/><br/>立派な家に住み、美味しい物を食うのが神の思召に叶う。<br/><br/>それで箱根、熱海の良い所を選んだのである。<br/><br/> 神様は、人民はわが子と同じ気持である。<br/><br/>神の御目的は地上天国を造るにある、真善美の世界を造るにある。<br/><br/>貧乏して、汚い物着ているのは大変な間違いである。<br/><br/> 079 五十鈴川の源 近詠集中、「いすくわし五十鈴の川の源の濁り浄むる時となりぬる」の御歌につき御教示御願ひ申し上げます。<br/><br/> いすくわしは枕詞。<br/><br/>五十鈴川は天皇の系統、天照大神の源、本物と贋物とある。<br/><br/>皆考えている天照大神は――（天皇の源）――濁っているから浄める意味である。<br/><br/>（S24.12.23） 080 「村肝の……」の御歌 「村肝の生命賜いし御恵をうち忘れなば獣に等しき」―― 村肝の―は、生命の枕詞。<br/><br/>神から生命を戴いた御恩を忘れれば獣と同じという事。<br/><br/> （S23.10.19） 081 聖人 「畏くも観世音菩薩は八百万神や仏の聖に在さん」と御座いますが、「聖」と申しますのは、神や仏の上位に在されると言う意味で御座いましょうか。<br/><br/>また、孔子を「聖人」と申しますが、その「聖人」とはいかなる意味で御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 聖人というのは種々な人の優れている、しかも清い、上位（浄位）という意味である。<br/><br/>はっきりこうという意はないが、神や仏の一番上という意味と言っていい。<br/><br/>菩薩は一番低いお働きと言ってもいい。<br/><br/>それで聖に在さんという疑問詞が入れてあるので、在せりとは書いてない。<br/><br/> （S24. 2.11） 082 大先生御歌 浄霊のお歌、「ながむればくすしかずかずたまのをのまたすがすがしすくはれむかな」 右御歌の意味につき御伺い申し上げます。<br/><br/> 大先生の御歌は言霊と合わしている。<br/><br/>（S24. 7.19） 083 和歌の初め 御歌集「山と水」の中に、「瑞御魂素盞嗚神にはじまりし和歌は御国の光るならむ」 と御座います。<br/><br/>右の御歌について御伺い申し上げます。<br/><br/> 素盞嗚尊は出雲大社の先祖で、歌は出雲から出た。<br/><br/> 「八雲立つ出雲八重垣妻ごめに八重垣つくるその八重垣を」 水の系統は瑞御魂で、月の系統である。<br/><br/>瑞は十五夜で、一番水を含んだ時である。<br/><br/> （S25. 4.28） 084 烏羽玉と奴羽玉 烏羽玉と奴羽玉との意味をお願い致します。<br/><br/> 烏羽玉は烏の羽根で、奴羽玉としたのは烏より奴の方が言霊がいいからである。<br/><br/> まんよう（万葉）よりまんにょうが本当である。<br/><br/>（S23） 085 「和田の原」とは 和田の原は海の歌詞。<br/><br/>和田津見、大和田原などという。<br/><br/>朝日を朝日子というがごとくで、歌詞には判らぬ言葉が多い。<br/><br/>千早振、烏羽玉の、村肝の、魂機張る、たまゆら等。<br/><br/>（S23. 6.27） 086 うない児 御讃歌集中「法の華」の節中、「うない児も鬼をも拉ぐ猛き男も慈悲の御眼に慕い寄るかも」の中の「うない児」について御教示を御願い申し上げます。<br/><br/> 幼児の事である。<br/><br/>（S24.７.28） 087 村肝の意義 御讃歌の「誤れる医しの術に村肝の生命縮むるあはれ世人よ」と御座いますが「村肝」とはいかなる意味で御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 歌の枕詞である。<br/><br/>（S24. 1.28） 088 石の上 御讃歌中に「石の上」とありますが、その意味を御教示願います。<br/><br/> 枕詞は、殆ど意味の判らぬものがある。<br/><br/>（S24. 5.26） 089 かみなが、円頂 僧侶の異称である「円頂」、「かみなが」とは―― 円頂―頭の丸い事。<br/><br/> 歌は素盞嗚尊に始まり、神道から出てる。<br/><br/>神道では髪を長くするのが本当であるから、「かみなが」とは神道的に云ったものである。<br/><br/> 090 古池の句 「古池や蛙飛び込む水の音」 右の句は丁度私達の歩む道を教えられるように感じますが、皆様に解り易くお話の出来るように御教示願います。<br/><br/> 古池の感じ。<br/><br/>極く閑かな感情を表わしたもの。<br/><br/>静寂を表わしている。<br/><br/>「閑（しずか）さや岩にしみ入る蝉の声」のようなものである。<br/><br/> 信仰と結びつけるのは無理であろう。<br/><br/>（S24. 6. 8） 091 秀吉の歌 「奥山にもみじ踏分けなく螢しかとも見えぬそまのかがり火」の歌の御説明をして下さい。<br/><br/> そまのともしびである。<br/><br/>秀吉が歌が出来ず、幽斎を招いた。<br/><br/>そして、鳴く螢と出した。<br/><br/>それで帰った。<br/><br/>（S24. 2.12）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

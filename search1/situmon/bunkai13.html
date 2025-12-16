@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>bunkai13</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 観音妙智力 日光分会『会報』３・４月合併号、昭和24(1949)年4月10日発行 ――善言讃詞または祝詞によって救われた霊で戒名のない場合、非常に僧侶を嫌がるものに対して、戒名をこちらのほうで作らしていただくわけにはゆかないでしょうか。<br><br>もしよろしいようでしたら、どのように書いたらよろしいのでございましょうか。<br><br> 霊界にはまだ仏界があるから、従来通り、僧侶にお願いして戒名をつけること。<br><br> ――よく霊が現界のことについて何年何月何日と申しますが、霊界にも年月日がございましょうか。<br><br> 霊界には年月日はない。<br><br>霊がそう言うのは現界人に解りやすくそう言うのである。<br><br> ――臍の緒は、各地方の習慣にて埋めたり焼いたり、または保管し、母親の死後一緒に処分したりいたしますが、正しい処分法を御教え賜りたくお願い申し上げます。<br><br> 生年月日と時間まで詳しく書き保存しておき、死とともに一緒に葬るのがよろしい。<br><br> ――人間が霊的に向上するに従って正守護神も向上するものでございましょうか、または交替するものでございましょうか。<br><br> 人間と同じようには向上しません。<br><br>また交替もしません。<br><br> ――位牌に何々家先祖代々とか代々霊、代々之霊位、代々之精霊とかいろいろありますが、いずれが一番正しいのでございましょうか。<br><br>また過去帳だけで位牌がない家、または繰位牌の家がありますが、いかがでございましょうか。<br><br> いずれもたいして問題はないが、常識的に言えば代々之霊位がよい。<br><br>過去帳は元来祖先の戒名や命日を忘れぬために記録してあるもので、供養の対象ではない。<br><br>供養するために位牌があるので、それに祖霊がお憑りになるのである。<br><br>繰位牌も感心しない。<br><br> ――太陽、月、地球の呼吸運動はそれぞれいかなる影響をお互いに及ぼし、また人間になにか関係がありましょうか。<br><br> この関係を人間の身体でいうと、太陽の出没は心臓の鼓動、月の盈虧（えいき）は肺の呼吸、地球の四季は胃の蠕動（ぜんどう）ともいうベきで、心臓は太陽の霊気を吸い、肺は月の精気を吸収し、胃は土の精分を採る、これが医学の根本である。<br><br> ――よく世間で、言い伝えで、ある野菜などを作ってはいけないという家がありますが、なにか意味がございましょうか。<br><br> 野菜は神様が人間の食物としてお与えくださったもので、作って悪いはずはない。<br><br>しかし以前に蛇を殺して畠へ埋めたりした場合、蛇の怨霊がその畠の野菜に憑っていて、それを食べると変事が起るので言い伝えになったものであろう。<br><br>現在はその心配はない。<br><br> ――生死不明の人はいかがお祀りしたらよろしゅうございますか。<br><br> 持寺の僧侶に頼んで戒名を作りお祀りするといい。<br><br>本人が生きていても差し支えない。<br><br> ――仏壇に不動様と観音様の像をお祀りしてある場合、屏風観音様をお迎えしたらいかがいたせばよろしゅうございますか。<br><br> 不動明王は観音様の手下であるから、同じに祀ってはいけない。<br><br>下段へお祀りすればよろしい。<br><br>観音像も下段の右へ祀ればよろしい。<br><br> ――俗に言う「エビ子」はいかがなものでしょうか。<br><br> これは祖父母の生まれ変わりであって、生前腰が曲がっていた霊が憑るのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Questões sobre a Fé e o Mundo Espiritual</h2>
 <p><strong>No caso de um espírito que foi salvo por meio de palavras de louvor ou de orações, mas não possui um nome póstumo e nutre grande aversão por sacerdotes budistas, seria possível que nós mesmos lhe atribuíssemos um nome? Se afirmativo, qual seria a maneira correta de fazê-lo?</strong></p>
@@ -112,5 +264,48 @@ function toggleLang(lang) {
 <p>Fudo Myo-o é um subordinado de Kannon (観音); portanto, não devem ser reverenciados no mesmo nível. A imagem de Fudo Myo-o deve ser posicionada em um patamar inferior. A estátua de Kannon (観音), por sua vez, deve ser movida para o lado direito desse mesmo patamar inferior.</p>
 <p><strong>O que seria o fenômeno popularmente conhecido como "ebiko" (criança-camarão)?</strong></p>
 <p>Trata-se da reencarnação de um dos avós. Um espírito que, em vida, possuía as costas curvadas, aloja-se na criança.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 観音妙智力 日光分会『会報』３・４月合併号、昭和24(1949)年4月10日発行 ――善言讃詞または祝詞によって救われた霊で戒名のない場合、非常に僧侶を嫌がるものに対して、戒名をこちらのほうで作らしていただくわけにはゆかないでしょうか。<br/><br/>もしよろしいようでしたら、どのように書いたらよろしいのでございましょうか。<br/><br/> 霊界にはまだ仏界があるから、従来通り、僧侶にお願いして戒名をつけること。<br/><br/> ――よく霊が現界のことについて何年何月何日と申しますが、霊界にも年月日がございましょうか。<br/><br/> 霊界には年月日はない。<br/><br/>霊がそう言うのは現界人に解りやすくそう言うのである。<br/><br/> ――臍の緒は、各地方の習慣にて埋めたり焼いたり、または保管し、母親の死後一緒に処分したりいたしますが、正しい処分法を御教え賜りたくお願い申し上げます。<br/><br/> 生年月日と時間まで詳しく書き保存しておき、死とともに一緒に葬るのがよろしい。<br/><br/> ――人間が霊的に向上するに従って正守護神も向上するものでございましょうか、または交替するものでございましょうか。<br/><br/> 人間と同じようには向上しません。<br/><br/>また交替もしません。<br/><br/> ――位牌に何々家先祖代々とか代々霊、代々之霊位、代々之精霊とかいろいろありますが、いずれが一番正しいのでございましょうか。<br/><br/>また過去帳だけで位牌がない家、または繰位牌の家がありますが、いかがでございましょうか。<br/><br/> いずれもたいして問題はないが、常識的に言えば代々之霊位がよい。<br/><br/>過去帳は元来祖先の戒名や命日を忘れぬために記録してあるもので、供養の対象ではない。<br/><br/>供養するために位牌があるので、それに祖霊がお憑りになるのである。<br/><br/>繰位牌も感心しない。<br/><br/> ――太陽、月、地球の呼吸運動はそれぞれいかなる影響をお互いに及ぼし、また人間になにか関係がありましょうか。<br/><br/> この関係を人間の身体でいうと、太陽の出没は心臓の鼓動、月の盈虧（えいき）は肺の呼吸、地球の四季は胃の蠕動（ぜんどう）ともいうベきで、心臓は太陽の霊気を吸い、肺は月の精気を吸収し、胃は土の精分を採る、これが医学の根本である。<br/><br/> ――よく世間で、言い伝えで、ある野菜などを作ってはいけないという家がありますが、なにか意味がございましょうか。<br/><br/> 野菜は神様が人間の食物としてお与えくださったもので、作って悪いはずはない。<br/><br/>しかし以前に蛇を殺して畠へ埋めたりした場合、蛇の怨霊がその畠の野菜に憑っていて、それを食べると変事が起るので言い伝えになったものであろう。<br/><br/>現在はその心配はない。<br/><br/> ――生死不明の人はいかがお祀りしたらよろしゅうございますか。<br/><br/> 持寺の僧侶に頼んで戒名を作りお祀りするといい。<br/><br/>本人が生きていても差し支えない。<br/><br/> ――仏壇に不動様と観音様の像をお祀りしてある場合、屏風観音様をお迎えしたらいかがいたせばよろしゅうございますか。<br/><br/> 不動明王は観音様の手下であるから、同じに祀ってはいけない。<br/><br/>下段へお祀りすればよろしい。<br/><br/>観音像も下段の右へ祀ればよろしい。<br/><br/> ――俗に言う「エビ子」はいかがなものでしょうか。<br/><br/> これは祖父母の生まれ変わりであって、生前腰が曲がっていた霊が憑るのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

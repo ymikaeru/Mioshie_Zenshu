@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>korei08</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 狐霊の実体 『地上天国』39号、昭和27(1952)年8月25日発行 信者中でも錚々（そうそう）たるインテリゲンチャの布衣生（ふいせい）君、下記のごとく狐霊の実在と、その千変万化の様相が分ったそうで、まことに結構である。<br><br>もちろん神様がそうなされたに違いないが、未信者は言うまでもないが、新しい信者などでも、同君と同じように動物霊の存在は、信じられ難い人もあるだろうから、そういう人達にはこの文を読んだら大いに目覚めるであろう。<br><br>そうして浄化による肉体的病苦は、信者なら分っているが、憑霊による事も仲々少なくないので、これについて私は今まで余り説かなかったのは、迷信に見られ易いからと、今一つは憑霊現象といえども、それに相応する霊の曇りがあり、浄霊でその曇りが解消して治るのであるから左程重要なものでもないからである。<br><br>という訳だからその人の必要によっては、神様が布衣生君のように直接教えて下さるので、それでいい訳である。<br><br> 狐霊は教える 布衣生 私は、長虫の類や狐狸なぞの動物を見ると、生理的な嫌悪を感じる性分だ。<br><br>都会生れの都会育ちで、生きた蛇は、街の蛇屋の陳列窓で、やがて黒焼きにされる日を待つばかりの縞蛇や蝮が縄に似た生態で、うごめいているあれでさえ、顔をそむけて通るほどの蛇嫌いで、運悪く夢にまで見ようものなら、二、三日は気色が悪く、食物ものどを通らない。<br><br>狐は上野の動物園で、子供達と何べんか見たが、高慢ちきで狡（ず）るそうなあの鼻面を、指先で弾いてやりたい思いに駆られるのだ。<br><br> 御婦人が、これ見よがしに襟に捲いた狐を見ても、なんと低級愚劣な趣味だろうと、死んで毛皮を残した狐より、当の御婦人たちを軽蔑したくなるのである。<br><br>これら大嫌いな、長虫や狐狸どもが、その生を絶って霊界に赴いてから、万物の霊長様である人間に種々雑多な悪さをするというのだから、いよいよもって狐狸と長虫は度し難い。<br><br> 蛇の執念の恐ろしさは、今は昔、何やら幸太郎という人が、勧善懲悪が筋書で、蛇の沢山出る芝居を、小屋がけの汚ない舞台で演じたのを見て、幼い魂を慄え上がらされた覚えがあったし、舞踊の道成寺や安珍清姫の芝居を見て蛇の執念は知ったが、いずれも人間の念力の具象化、としか考えられず、年寄りが語って聞かせた、狐の嫁入りの話を、子守唄がわりに喜んで聴いた時代も、私たちの年輩の者には懐かしい思い出であろう。<br><br>しかしこれ等の話や芝居は、あくまで物語りであり、芝居であって、実際にあった事でもある事でもない。<br><br>誰しもがそう信じて成長してきたはずであった。<br><br>たまたま目についた、古書の『日本霊異記』を珍本として購（あがな）い、秋の夜ながに読み耽ったこともあったが、科学に基礎を置かない。<br><br>否科学そのものがなかった。<br><br>私たち祖先の考え方の単純さ、幼稚さに憐れを催しただけであった。<br><br> 戦争中、草深い田舎に疎開したとき、狐に憑かれた娘の話や、狐を使って盗みをする老婆のことを聞いたり、新聞で、狐憑きの娘を煙り攻めにしたなぞという記事を読んでも、原子時代の今日、まだこんな阿呆な考えに捉われている人があるのか、と、密かに慨嘆した事もあった。<br><br> 実のところ、今はじめて白状するが、過去、現在を通じて比べるもののない、完璧無双の大宗教である、メシヤ教の出版物に、狐、蛇、天狗、龍神なぞの時代ばなれした文字を散見する度ごとに、眼を覆いたい思いであった。<br><br>メシヤ教自体は、正に現代より一世紀進歩した二十一世紀の大宗教でありながら、天狗、龍神をいうのでは、ランプが行灯の昔に逆行するものだ。<br><br>せめて信者の入門書ともいうべき『信仰雑話』からだけでも、それ等の個所を省略して貰いたい。<br><br>教団のえらい役員に、憶面もなくそう率直にお願いし、すげなく拒絶された事もあった。<br><br>この事は、ただに私の所懐だけではなく、現代の教育を受けた知識階級の人々が、こぞって思うところであり、折角メシヤ教へ入信を思い立っても、この一条だけで迷信という印象を受け、重大な障害となって、入信する気持が挫折した。<br><br>という話も幾たびか聴いたことがあり、その都度、やんぬる哉、と嘆息したものである。<br><br> 私は所縁あってメシヤ教に帰依し、明主様に救われた感激のほとばしるあまり、神を信ぜずして無明の闇に沈吟する俗物を相手に論争しかけてはこれを凹ませ、メシヤ教が万宗に冠たるゆえんを経々と説き、ひそかに快をむさぼった小乗的境地は、今もなお機根低くして超えられないでいるが、論争がたまたま、狐狸、龍神に及ぶと受太刀になり、防戦、陳弁大いに努めても、敗色歴然たらざるを得なかった。<br><br>自信、確信を欠いた論理は迫力を欠き、人をして納得せしむるものではないからである。<br><br>また、同信の方から狐霊や蛇霊の話を聞く時も、人知れず眉に爪に唾を付けて承るのが常であった。<br><br> こうして今までの私に、狐や長虫の霊が悪さをするのは真実である。<br><br>原子時代といえども、明主様の御教えに違背あるべからず。<br><br>と、私に欠けていた自信確信を付けて下さる為めはからずも神様がその実験のテキストを与えて下さったのである。<br><br>それは、狐霊に憑かれた人と、蛇霊に苦しめられていた人と、共に婦人であったが、蛇霊については又べつの機会に譲って、ここでは狐霊の実在を証明する出来ごとと、それから知り得た教訓だけを誌して、私と同じような疑問を持っている方々の参考の便に供したい。<br><br> 狐霊に憑かれていた人は、河原サキ（仮名）という四十三、四の女で、二年ほど前に、悪質な梅毒を患らい、浄霊によって全治したが、何を考えちがいしたものか、救ってくれた恩人の悪口を近所の信者に言いふらしていたが、やがて日夜わかたず、狐霊に悩まされるに至ったものである。<br><br> 初めのうちは、このあたりで屈指の、中教会長に縋って浄霊を戴いていたが良くならず、そのうち、中教会へ通う交通費にもこと欠く生活難に陥り、親戚の者ももて余して、精神病院へ入れるより途はない。<br><br>とまでの土壇場まで追い込められたのだが、以前、梅毒を治してくれた信者の家が近いので親戚の者が付き添ってそこへ浄霊を依頼しに来たとき、丁度その場へ私が往き合せる羽目になったのであった。<br><br> 梅毒を治してやった信者さんは、気の毒なこの状態を見て信仰者らしく以前の悪感情を捨てて、この人を救うべく、私の協力を求めた。<br><br>信者の多い中教会へ、だいぶ久しく通ったので、狐霊の憑いた女のことは、このあたりの信者で、誰れ一人知らぬ者のない程、有名になっているらしく、浄霊中のあられもない所業の数々を、その時私は聞いたのだった。<br><br>中教会長の名を呼び捨てにして、しっかり浄霊頼むぞ。<br><br>と叫んだり、浄霊の順番が廻ってくる迄、御神殿に長々と寝そべり、寝て待っててやれ。<br><br>なぞと放言した事もあったそうである。<br><br>そんな事を聞いて、狐霊の実在に疑いを持ちながらも、いざ狐霊と言われてみると、私も少々、薄気味悪くなってきた。<br><br> 狐憑きの女は。<br><br>と見ると、眼は吊上って絶えずその瞳はくるくると、動いている。<br><br>そうして傍にいる者にも聞き取れない程の小さな声で、何かぶつぶつと口の中で呟やいているのだ。<br><br>精神病かな。<br><br>私はまだ半信半疑であった。<br><br>布衣先生。<br><br>お浄霊願います。<br><br>そう言われて私はあわてた。<br><br>あなたが浄霊して下さい。<br><br>と私は逃げた。<br><br>わたしでは駄目ですよ。<br><br>中教会の先生でさえ、名前を呼び捨てにした位の大変な狐ですから、貴君がやって下さい。<br><br>有無を言わせぬ強い言葉に、私は進退窮わまった。<br><br>悪い所へ来合わせた。<br><br>今更後悔しても追い付かない。<br><br>持ち前の図う図うしさを取り戻すまでには、少し暇がかかった。<br><br> ええ、ままよ、やってやれ。<br><br>私も覚悟を決めた。<br><br>同信の方々から嘗つて聞いていた、狐霊の話や、明主様が狐霊を浄霊で祓らった御経験談やらを、一生懸命思い出そうとしたり、法華経の行者なら、この場合、相手の頭の上にお曼鼻陀羅をかざし、調伏の経文を読むであろう。<br><br>なぞと、それからそれへと妄想が湧き、かえって思念の統一が妨げられるばかりである。<br><br> 浄霊を厭がる女を、二人の信者が押えるようにして、私の前に坐らせた。<br><br>あの名高い先生さえも、名を呼び捨てにして、しっかり浄霊しろよ。<br><br>と言った狐だから、私には何と言うだろう。<br><br>お前みたいな、下ッ端野郎では駄目だ。<br><br>とでも言われたら世話はない。<br><br>そんな下らない事さえ気にかかったが、最早、絶体絶命だ。<br><br>一瞬、雑念を払らって、まず定石どおり、天帝にむけて浄霊して霊気を入れた。<br><br>と、女は双方の眼を一層吊り上げ、両手を頭の上に挙げて、私の顔を食い入るように見詰め、オオこわい。<br><br>この先生はこわいよ。<br><br>と、一歩一歩、後ろへさがってゆく。<br><br> 占めた。<br><br>何んの考えもなく、私は腹の中でそう叫んだ。<br><br>後へ退がる相手を追い詰めるように、私の膝も心もち前へ進ませ、浄霊をする。<br><br>女はまた後ろへいざって逃げようとする。<br><br>同信の方が女の身体を押えて、また私の前へ無理に坐らせた。<br><br>と、今度は両手を男のように前へ組んで、よし。<br><br>まだ浄霊するか。<br><br>浄霊なんか入れさせないぞ。<br><br>負けるものか。<br><br>頑張れ。<br><br>と歯をくい絞って私の顔を睨んだ。<br><br> あら、不思議。<br><br>今迄身体に透っていた霊気は、鉄板に向って浄霊しているような感じで、全然とおらない。<br><br>私は周章狼狽した。<br><br>と同時に、怒り心頭を発した。<br><br>このド狐奴、姿あるものなら、生捕って毛皮にしてやるものを、ともすれば怒りのために、力が加わりそうになる浄霊の手を、力が加わらないように努めながら、腰を据えて根比べのつもりで浄霊を続けた。<br><br> 四、五十分もの間、彼我無言の闘いを続けると、相手は、ああ負けた。<br><br>とうとう負けちゃった。<br><br>と組んだ手を膝に重ね、眼も力なく下を向き、御免なさい。<br><br>私は悪い狐です。<br><br>御免なさい。<br><br>と言った。<br><br>だが、私は明主様の御教えにあるように、下手な口をきいて相手に乗ぜられては。<br><br>と思い、無言のままでいて浄霊の手を休めない。<br><br>すると、又相手は眼をいからして、まだ浄霊するのか、身体が熱くて焼かれて仕舞う。<br><br>よおし、頑張るぞ。<br><br>と、一たん下した両手をまた組み直し、私を睨んだ。<br><br>と、また霊気が透らなくなった。<br><br> こんな事を三、四回線返していると、私も疲れてきた。<br><br>どうせ一遍で落る狐ではないと考えてその日はそれで中止した。<br><br> 狐霊が落ちるまで、貴重な時間を三日費いやしたが、二日目、三日目の浄霊中の出来ごとを、詳わしく書いても紙幅を費いやすばかりであり、経験した同信の方々には珍らしくもないであろうから割愛するが、その内の疑問に思った点や、学んだ教訓だけを誌して置く。<br><br>自分から、私は悪い狐です。<br><br>と言った狐が語るところに依ると、先生が出てゆけ。<br><br>と言っても、私は元々、この女の副霊だから出てゆくところがない。<br><br>先生が、どうせ憑くなら、こんな哀れな女に憑かず、ロシアへ行ってスターリンにでも憑け。<br><br>と言ったが、私はあんな悪い奴は厭です。<br><br>私はこの女と夫婦になりたい。<br><br>それが駄目ならこの女を地獄へ連れて行って、針の山を歩かせてやる。<br><br> 先生は、お前がこの女を地獄へ連れてゆけば、お前も地獄へ行くぞ。<br><br>というなら地獄へ連れていくのは止めます。<br><br>と言った。<br><br> 三日間の中に、私と狐の問答は以上で尽きる。<br><br>これから判断すると、副霊がこうした狐憑きの状態にさせるのと、稲荷の眷属や、何かの狐霊が憑依するのと二通りある事になる。<br><br> この一部始終を見ていた、信者たちも、私の意見を求めたが、明主様にお伺いする以外。<br><br>私なぞに判る事ではない。<br><br> 狐は、またこんな事も言った。<br><br> 小母さん（狐は、自分が憑いている女をこう呼んでいる）浄霊のお礼はどうするんだ。<br><br>金は一銭もないじゃないか。<br><br> 狐でも、有難い浄霊を戴いたら、お礼をする事は知っていたのだ。<br><br>それに引かえて、人間でありながら、病気を楽に治して貰らっても、お礼は最低の上にも最低に、と出し惜しんだり、酷い奴になると、宗教は人助けをするのが当然の仕事だから、と手前勝手な理屈を付けて、全然、礼をしないのもいる。<br><br>正に狐に劣った動物というべきであろう。<br><br> 狐はまた教える。<br><br>小母さんの家に仏壇はあっても、お屏風観音がないじゃないか。<br><br>それじゃあ、御先祖が救われないよ。<br><br> お屏風観音様を奉祀する事が、どんなに大切であるか、これには私も、居並らんだ信者たちも栃麺棒を喰らった格好でお互いが顔を見合わせて感嘆した。<br><br> そして又、こんな事もあった。<br><br>狐が浄霊で大人しくなった時、その女は、他の信者への不服を洩らした。<br><br>すると狐は大変に怒り出して、それ見ろ、折角、浄霊で綺麗になった血が、人の悪口を言ったから、見ている間に、又血が濁ったぞ。<br><br>と。<br><br> 信仰者は平生の言動にも、心しなければならぬ理由が釈然とした、と共に、浄霊によって、血液が浄化される過程を、狐はその眼で見て、私たちに教えたのであった。<br><br> 狐霊と、三日間たたかい続けながらも、冷静な気持で、私はその女を観察していたつもりである。<br><br>そして女も、狐霊とたえず格闘している。<br><br>という印象を受けた。<br><br>女の家と、私が浄霊に行く家とは、二、三町程の近い距離でありながら、狐に邪魔されて何べんも足をすくわれて倒される。<br><br>女はその都度、この野郎、邪魔するか。<br><br>この野郎と怒鳴って起き上り、光明如来様をお祀りしてある、その家へたどりつくのだった。<br><br> 浄霊のあと、それは正気に返えった。<br><br>と思われる時、あたしは人間だよ。<br><br>お前は畜生じゃないか。<br><br>なぞと狐霊と問答しているし、私が女に、いまその狐は何をしている。<br><br>と訊くと、先生のお話を舌を出して聞いています。<br><br>とか、椅子に腰かけて、天津祝詞を筆記しています。<br><br>とか狐の動静を知らせ、先生に失礼だぞ。<br><br>と叱ったりする。<br><br> 煙草を一本下さい。<br><br>女が手を出したので、火を付けて与えると、女は美味そうに一口喫い、さあ、お前にもやるよ。<br><br>と自分の肩のところへ、煙草を持っていった。<br><br>狐使いなら、管狐を肩へ乗せている。<br><br>というが、この狐は血管の中を通っているのを、この眼で見て逐ったのだが、考えてみると、何んだか、こちらが瞞されているような工合でもあった。<br><br> 精神病の医者が、この女を診察すれば、精神分裂症の病名で、気違い病院へ入れるだろう。<br><br>とすると、精神病院の入院患者のうちには、メシヤ教の浄霊で治癒する人が沢山いるはずだ。<br><br>と思った。<br><br> 二日目の浄霊のとき、私の家から使いの者が、一通の電報を持って来た。<br><br>展いてみると、知人からのもので、危篤だからすぐ来い。<br><br>としてある。<br><br>浄霊をやめて帰えれば、又、狐が元気を取り戻すし、困ったな。<br><br>と思うと、これはまたどうだ、すぐ狐奴が知っていて、先生はもう帰えるから、頑張るぞ。<br><br>と喜んでいるのだ。<br><br>狐の持つ透視術、読心術の練達さに腹が立ったり、羨やましさも感じて苦笑した。<br><br> 神様が、私に与えて下さったテキストに依って、私は三日間、修業させて戴いた訳であるが、明主様の御教えは厘毫の間違いもなく、総てが真理そのものである事と、メシヤ教の名はお光り様とも呼ばれ、現界の信者のみならず、霊界の諸霊様まで救われており、浄霊の素晴らしい霊力、御祭神様のあらたかな霊顕は、霊界の動物霊に至るまで、良く徹底して弁えており、メシヤ教を目して迷信、邪教と言って騒いでいるのは、吹けばスッ飛ぶ鼻糞ほどの智識を誇り、霊子時代に遥か及ばぬ原子科学を至上と信じてうぬ惚れている人間共だけである事を、見事、動物霊に教えられたのであった。<br><br> 生半可な智識に厄いされて信じられなかった、狐霊の存在も、迷信視されていた狐憑きのいる事も、すべては真実であったのだ。<br><br>私達が、いかに疑っていても、狐霊はあったのだ。<br><br>動物園でひとを小馬鹿にしたような面をしている狐や、婦人の襟巻になっている狐の外にも、歴然として狐霊はあった。<br><br> 明主様の御教えには、針の尖ほどの誤もなかった。<br><br>眼に見える以外のものを信じないのは、無神論者ばかりではない。<br><br>狐霊を、如実に逐い落した経験を衆人環視の中に神様にさせて戴くまで、狐霊の存在を半信半疑していた、己れの不明さ、信仰の不徹底さを神様に陳謝申上げたのであった。<br><br> 終りに、この狐霊の教えによって、屏風観音様を早速いただいた人と、入信をためらっていた人が、浄霊の力に感じ入って入信した、という大収穫があり、また、狐霊の憑いたその日が、奇しくも六月十五日、昏迷、明らかならざりし霊界が、ここに完ったき黎明を迎えた日であった。<br><br>ということを付け加えて擱筆する。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdadeira Natureza do Espírito de Raposa</h2>
 <p>Dentre os nossos fiéis, o Sr. Fuisei, um dos mais notáveis intelectuais, compreendeu, conforme relata a seguir, a existência dos espíritos de raposa e suas multifacetadas manifestações, o que é deveras auspicioso. Certamente, foi uma graça concedida por Deus. Para os não-crentes, e mesmo para os fiéis mais novos, a existência de espíritos animais pode ser tão difícil de aceitar quanto foi para ele. Portanto, a leitura deste depoimento poderá ser de grande valia para o despertar dessas pessoas.</p>
@@ -130,5 +282,48 @@ function toggleLang(lang) {
 <p>A existência dos espíritos de raposa, na qual eu não conseguia acreditar por estar contaminado por um conhecimento superficial, e a realidade da possessão, que eu via como superstição, eram fatos. Por mais que duvidássemos, os espíritos de raposa existiam. Além das raposas com ar zombeteiro no zoológico e daquelas transformadas em estolas para senhoras, havia, de forma inequívoca, os espíritos de raposa.</p>
 <p>Não havia o menor erro nos ensinamentos de Meishu-Sama. Os que não creem no que é invisível não são apenas os ateus. Até o momento em que Deus me permitiu, diante de todos, expulsar um espírito de raposa de forma tão manifesta, eu mesmo duvidava de sua existência. Diante de Deus, pedi perdão por minha própria ignorância e pela superficialidade de minha fé.</p>
 <p>Para concluir, acrescento que este ensinamento do espírito de raposa trouxe grandes frutos: uma pessoa decidiu imediatamente receber um Obyōbu Kannon, e outra, que hesitava em se converter, sentiu-se tocada pelo poder do Johrei e ingressou na fé. E, como fato notável, o dia em que a possessão começou foi 15 de junho — a data em que o Mundo Espiritual, até então imerso em confusão e obscuridade, saudou o seu completo e definitivo alvorecer.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 狐霊の実体 『地上天国』39号、昭和27(1952)年8月25日発行 信者中でも錚々（そうそう）たるインテリゲンチャの布衣生（ふいせい）君、下記のごとく狐霊の実在と、その千変万化の様相が分ったそうで、まことに結構である。<br/><br/>もちろん神様がそうなされたに違いないが、未信者は言うまでもないが、新しい信者などでも、同君と同じように動物霊の存在は、信じられ難い人もあるだろうから、そういう人達にはこの文を読んだら大いに目覚めるであろう。<br/><br/>そうして浄化による肉体的病苦は、信者なら分っているが、憑霊による事も仲々少なくないので、これについて私は今まで余り説かなかったのは、迷信に見られ易いからと、今一つは憑霊現象といえども、それに相応する霊の曇りがあり、浄霊でその曇りが解消して治るのであるから左程重要なものでもないからである。<br/><br/>という訳だからその人の必要によっては、神様が布衣生君のように直接教えて下さるので、それでいい訳である。<br/><br/> 狐霊は教える 布衣生 私は、長虫の類や狐狸なぞの動物を見ると、生理的な嫌悪を感じる性分だ。<br/><br/>都会生れの都会育ちで、生きた蛇は、街の蛇屋の陳列窓で、やがて黒焼きにされる日を待つばかりの縞蛇や蝮が縄に似た生態で、うごめいているあれでさえ、顔をそむけて通るほどの蛇嫌いで、運悪く夢にまで見ようものなら、二、三日は気色が悪く、食物ものどを通らない。<br/><br/>狐は上野の動物園で、子供達と何べんか見たが、高慢ちきで狡（ず）るそうなあの鼻面を、指先で弾いてやりたい思いに駆られるのだ。<br/><br/> 御婦人が、これ見よがしに襟に捲いた狐を見ても、なんと低級愚劣な趣味だろうと、死んで毛皮を残した狐より、当の御婦人たちを軽蔑したくなるのである。<br/><br/>これら大嫌いな、長虫や狐狸どもが、その生を絶って霊界に赴いてから、万物の霊長様である人間に種々雑多な悪さをするというのだから、いよいよもって狐狸と長虫は度し難い。<br/><br/> 蛇の執念の恐ろしさは、今は昔、何やら幸太郎という人が、勧善懲悪が筋書で、蛇の沢山出る芝居を、小屋がけの汚ない舞台で演じたのを見て、幼い魂を慄え上がらされた覚えがあったし、舞踊の道成寺や安珍清姫の芝居を見て蛇の執念は知ったが、いずれも人間の念力の具象化、としか考えられず、年寄りが語って聞かせた、狐の嫁入りの話を、子守唄がわりに喜んで聴いた時代も、私たちの年輩の者には懐かしい思い出であろう。<br/><br/>しかしこれ等の話や芝居は、あくまで物語りであり、芝居であって、実際にあった事でもある事でもない。<br/><br/>誰しもがそう信じて成長してきたはずであった。<br/><br/>たまたま目についた、古書の『日本霊異記』を珍本として購（あがな）い、秋の夜ながに読み耽ったこともあったが、科学に基礎を置かない。<br/><br/>否科学そのものがなかった。<br/><br/>私たち祖先の考え方の単純さ、幼稚さに憐れを催しただけであった。<br/><br/> 戦争中、草深い田舎に疎開したとき、狐に憑かれた娘の話や、狐を使って盗みをする老婆のことを聞いたり、新聞で、狐憑きの娘を煙り攻めにしたなぞという記事を読んでも、原子時代の今日、まだこんな阿呆な考えに捉われている人があるのか、と、密かに慨嘆した事もあった。<br/><br/> 実のところ、今はじめて白状するが、過去、現在を通じて比べるもののない、完璧無双の大宗教である、メシヤ教の出版物に、狐、蛇、天狗、龍神なぞの時代ばなれした文字を散見する度ごとに、眼を覆いたい思いであった。<br/><br/>メシヤ教自体は、正に現代より一世紀進歩した二十一世紀の大宗教でありながら、天狗、龍神をいうのでは、ランプが行灯の昔に逆行するものだ。<br/><br/>せめて信者の入門書ともいうべき『信仰雑話』からだけでも、それ等の個所を省略して貰いたい。<br/><br/>教団のえらい役員に、憶面もなくそう率直にお願いし、すげなく拒絶された事もあった。<br/><br/>この事は、ただに私の所懐だけではなく、現代の教育を受けた知識階級の人々が、こぞって思うところであり、折角メシヤ教へ入信を思い立っても、この一条だけで迷信という印象を受け、重大な障害となって、入信する気持が挫折した。<br/><br/>という話も幾たびか聴いたことがあり、その都度、やんぬる哉、と嘆息したものである。<br/><br/> 私は所縁あってメシヤ教に帰依し、明主様に救われた感激のほとばしるあまり、神を信ぜずして無明の闇に沈吟する俗物を相手に論争しかけてはこれを凹ませ、メシヤ教が万宗に冠たるゆえんを経々と説き、ひそかに快をむさぼった小乗的境地は、今もなお機根低くして超えられないでいるが、論争がたまたま、狐狸、龍神に及ぶと受太刀になり、防戦、陳弁大いに努めても、敗色歴然たらざるを得なかった。<br/><br/>自信、確信を欠いた論理は迫力を欠き、人をして納得せしむるものではないからである。<br/><br/>また、同信の方から狐霊や蛇霊の話を聞く時も、人知れず眉に爪に唾を付けて承るのが常であった。<br/><br/> こうして今までの私に、狐や長虫の霊が悪さをするのは真実である。<br/><br/>原子時代といえども、明主様の御教えに違背あるべからず。<br/><br/>と、私に欠けていた自信確信を付けて下さる為めはからずも神様がその実験のテキストを与えて下さったのである。<br/><br/>それは、狐霊に憑かれた人と、蛇霊に苦しめられていた人と、共に婦人であったが、蛇霊については又べつの機会に譲って、ここでは狐霊の実在を証明する出来ごとと、それから知り得た教訓だけを誌して、私と同じような疑問を持っている方々の参考の便に供したい。<br/><br/> 狐霊に憑かれていた人は、河原サキ（仮名）という四十三、四の女で、二年ほど前に、悪質な梅毒を患らい、浄霊によって全治したが、何を考えちがいしたものか、救ってくれた恩人の悪口を近所の信者に言いふらしていたが、やがて日夜わかたず、狐霊に悩まされるに至ったものである。<br/><br/> 初めのうちは、このあたりで屈指の、中教会長に縋って浄霊を戴いていたが良くならず、そのうち、中教会へ通う交通費にもこと欠く生活難に陥り、親戚の者ももて余して、精神病院へ入れるより途はない。<br/><br/>とまでの土壇場まで追い込められたのだが、以前、梅毒を治してくれた信者の家が近いので親戚の者が付き添ってそこへ浄霊を依頼しに来たとき、丁度その場へ私が往き合せる羽目になったのであった。<br/><br/> 梅毒を治してやった信者さんは、気の毒なこの状態を見て信仰者らしく以前の悪感情を捨てて、この人を救うべく、私の協力を求めた。<br/><br/>信者の多い中教会へ、だいぶ久しく通ったので、狐霊の憑いた女のことは、このあたりの信者で、誰れ一人知らぬ者のない程、有名になっているらしく、浄霊中のあられもない所業の数々を、その時私は聞いたのだった。<br/><br/>中教会長の名を呼び捨てにして、しっかり浄霊頼むぞ。<br/><br/>と叫んだり、浄霊の順番が廻ってくる迄、御神殿に長々と寝そべり、寝て待っててやれ。<br/><br/>なぞと放言した事もあったそうである。<br/><br/>そんな事を聞いて、狐霊の実在に疑いを持ちながらも、いざ狐霊と言われてみると、私も少々、薄気味悪くなってきた。<br/><br/> 狐憑きの女は。<br/><br/>と見ると、眼は吊上って絶えずその瞳はくるくると、動いている。<br/><br/>そうして傍にいる者にも聞き取れない程の小さな声で、何かぶつぶつと口の中で呟やいているのだ。<br/><br/>精神病かな。<br/><br/>私はまだ半信半疑であった。<br/><br/>布衣先生。<br/><br/>お浄霊願います。<br/><br/>そう言われて私はあわてた。<br/><br/>あなたが浄霊して下さい。<br/><br/>と私は逃げた。<br/><br/>わたしでは駄目ですよ。<br/><br/>中教会の先生でさえ、名前を呼び捨てにした位の大変な狐ですから、貴君がやって下さい。<br/><br/>有無を言わせぬ強い言葉に、私は進退窮わまった。<br/><br/>悪い所へ来合わせた。<br/><br/>今更後悔しても追い付かない。<br/><br/>持ち前の図う図うしさを取り戻すまでには、少し暇がかかった。<br/><br/> ええ、ままよ、やってやれ。<br/><br/>私も覚悟を決めた。<br/><br/>同信の方々から嘗つて聞いていた、狐霊の話や、明主様が狐霊を浄霊で祓らった御経験談やらを、一生懸命思い出そうとしたり、法華経の行者なら、この場合、相手の頭の上にお曼鼻陀羅をかざし、調伏の経文を読むであろう。<br/><br/>なぞと、それからそれへと妄想が湧き、かえって思念の統一が妨げられるばかりである。<br/><br/> 浄霊を厭がる女を、二人の信者が押えるようにして、私の前に坐らせた。<br/><br/>あの名高い先生さえも、名を呼び捨てにして、しっかり浄霊しろよ。<br/><br/>と言った狐だから、私には何と言うだろう。<br/><br/>お前みたいな、下ッ端野郎では駄目だ。<br/><br/>とでも言われたら世話はない。<br/><br/>そんな下らない事さえ気にかかったが、最早、絶体絶命だ。<br/><br/>一瞬、雑念を払らって、まず定石どおり、天帝にむけて浄霊して霊気を入れた。<br/><br/>と、女は双方の眼を一層吊り上げ、両手を頭の上に挙げて、私の顔を食い入るように見詰め、オオこわい。<br/><br/>この先生はこわいよ。<br/><br/>と、一歩一歩、後ろへさがってゆく。<br/><br/> 占めた。<br/><br/>何んの考えもなく、私は腹の中でそう叫んだ。<br/><br/>後へ退がる相手を追い詰めるように、私の膝も心もち前へ進ませ、浄霊をする。<br/><br/>女はまた後ろへいざって逃げようとする。<br/><br/>同信の方が女の身体を押えて、また私の前へ無理に坐らせた。<br/><br/>と、今度は両手を男のように前へ組んで、よし。<br/><br/>まだ浄霊するか。<br/><br/>浄霊なんか入れさせないぞ。<br/><br/>負けるものか。<br/><br/>頑張れ。<br/><br/>と歯をくい絞って私の顔を睨んだ。<br/><br/> あら、不思議。<br/><br/>今迄身体に透っていた霊気は、鉄板に向って浄霊しているような感じで、全然とおらない。<br/><br/>私は周章狼狽した。<br/><br/>と同時に、怒り心頭を発した。<br/><br/>このド狐奴、姿あるものなら、生捕って毛皮にしてやるものを、ともすれば怒りのために、力が加わりそうになる浄霊の手を、力が加わらないように努めながら、腰を据えて根比べのつもりで浄霊を続けた。<br/><br/> 四、五十分もの間、彼我無言の闘いを続けると、相手は、ああ負けた。<br/><br/>とうとう負けちゃった。<br/><br/>と組んだ手を膝に重ね、眼も力なく下を向き、御免なさい。<br/><br/>私は悪い狐です。<br/><br/>御免なさい。<br/><br/>と言った。<br/><br/>だが、私は明主様の御教えにあるように、下手な口をきいて相手に乗ぜられては。<br/><br/>と思い、無言のままでいて浄霊の手を休めない。<br/><br/>すると、又相手は眼をいからして、まだ浄霊するのか、身体が熱くて焼かれて仕舞う。<br/><br/>よおし、頑張るぞ。<br/><br/>と、一たん下した両手をまた組み直し、私を睨んだ。<br/><br/>と、また霊気が透らなくなった。<br/><br/> こんな事を三、四回線返していると、私も疲れてきた。<br/><br/>どうせ一遍で落る狐ではないと考えてその日はそれで中止した。<br/><br/> 狐霊が落ちるまで、貴重な時間を三日費いやしたが、二日目、三日目の浄霊中の出来ごとを、詳わしく書いても紙幅を費いやすばかりであり、経験した同信の方々には珍らしくもないであろうから割愛するが、その内の疑問に思った点や、学んだ教訓だけを誌して置く。<br/><br/>自分から、私は悪い狐です。<br/><br/>と言った狐が語るところに依ると、先生が出てゆけ。<br/><br/>と言っても、私は元々、この女の副霊だから出てゆくところがない。<br/><br/>先生が、どうせ憑くなら、こんな哀れな女に憑かず、ロシアへ行ってスターリンにでも憑け。<br/><br/>と言ったが、私はあんな悪い奴は厭です。<br/><br/>私はこの女と夫婦になりたい。<br/><br/>それが駄目ならこの女を地獄へ連れて行って、針の山を歩かせてやる。<br/><br/> 先生は、お前がこの女を地獄へ連れてゆけば、お前も地獄へ行くぞ。<br/><br/>というなら地獄へ連れていくのは止めます。<br/><br/>と言った。<br/><br/> 三日間の中に、私と狐の問答は以上で尽きる。<br/><br/>これから判断すると、副霊がこうした狐憑きの状態にさせるのと、稲荷の眷属や、何かの狐霊が憑依するのと二通りある事になる。<br/><br/> この一部始終を見ていた、信者たちも、私の意見を求めたが、明主様にお伺いする以外。<br/><br/>私なぞに判る事ではない。<br/><br/> 狐は、またこんな事も言った。<br/><br/> 小母さん（狐は、自分が憑いている女をこう呼んでいる）浄霊のお礼はどうするんだ。<br/><br/>金は一銭もないじゃないか。<br/><br/> 狐でも、有難い浄霊を戴いたら、お礼をする事は知っていたのだ。<br/><br/>それに引かえて、人間でありながら、病気を楽に治して貰らっても、お礼は最低の上にも最低に、と出し惜しんだり、酷い奴になると、宗教は人助けをするのが当然の仕事だから、と手前勝手な理屈を付けて、全然、礼をしないのもいる。<br/><br/>正に狐に劣った動物というべきであろう。<br/><br/> 狐はまた教える。<br/><br/>小母さんの家に仏壇はあっても、お屏風観音がないじゃないか。<br/><br/>それじゃあ、御先祖が救われないよ。<br/><br/> お屏風観音様を奉祀する事が、どんなに大切であるか、これには私も、居並らんだ信者たちも栃麺棒を喰らった格好でお互いが顔を見合わせて感嘆した。<br/><br/> そして又、こんな事もあった。<br/><br/>狐が浄霊で大人しくなった時、その女は、他の信者への不服を洩らした。<br/><br/>すると狐は大変に怒り出して、それ見ろ、折角、浄霊で綺麗になった血が、人の悪口を言ったから、見ている間に、又血が濁ったぞ。<br/><br/>と。<br/><br/> 信仰者は平生の言動にも、心しなければならぬ理由が釈然とした、と共に、浄霊によって、血液が浄化される過程を、狐はその眼で見て、私たちに教えたのであった。<br/><br/> 狐霊と、三日間たたかい続けながらも、冷静な気持で、私はその女を観察していたつもりである。<br/><br/>そして女も、狐霊とたえず格闘している。<br/><br/>という印象を受けた。<br/><br/>女の家と、私が浄霊に行く家とは、二、三町程の近い距離でありながら、狐に邪魔されて何べんも足をすくわれて倒される。<br/><br/>女はその都度、この野郎、邪魔するか。<br/><br/>この野郎と怒鳴って起き上り、光明如来様をお祀りしてある、その家へたどりつくのだった。<br/><br/> 浄霊のあと、それは正気に返えった。<br/><br/>と思われる時、あたしは人間だよ。<br/><br/>お前は畜生じゃないか。<br/><br/>なぞと狐霊と問答しているし、私が女に、いまその狐は何をしている。<br/><br/>と訊くと、先生のお話を舌を出して聞いています。<br/><br/>とか、椅子に腰かけて、天津祝詞を筆記しています。<br/><br/>とか狐の動静を知らせ、先生に失礼だぞ。<br/><br/>と叱ったりする。<br/><br/> 煙草を一本下さい。<br/><br/>女が手を出したので、火を付けて与えると、女は美味そうに一口喫い、さあ、お前にもやるよ。<br/><br/>と自分の肩のところへ、煙草を持っていった。<br/><br/>狐使いなら、管狐を肩へ乗せている。<br/><br/>というが、この狐は血管の中を通っているのを、この眼で見て逐ったのだが、考えてみると、何んだか、こちらが瞞されているような工合でもあった。<br/><br/> 精神病の医者が、この女を診察すれば、精神分裂症の病名で、気違い病院へ入れるだろう。<br/><br/>とすると、精神病院の入院患者のうちには、メシヤ教の浄霊で治癒する人が沢山いるはずだ。<br/><br/>と思った。<br/><br/> 二日目の浄霊のとき、私の家から使いの者が、一通の電報を持って来た。<br/><br/>展いてみると、知人からのもので、危篤だからすぐ来い。<br/><br/>としてある。<br/><br/>浄霊をやめて帰えれば、又、狐が元気を取り戻すし、困ったな。<br/><br/>と思うと、これはまたどうだ、すぐ狐奴が知っていて、先生はもう帰えるから、頑張るぞ。<br/><br/>と喜んでいるのだ。<br/><br/>狐の持つ透視術、読心術の練達さに腹が立ったり、羨やましさも感じて苦笑した。<br/><br/> 神様が、私に与えて下さったテキストに依って、私は三日間、修業させて戴いた訳であるが、明主様の御教えは厘毫の間違いもなく、総てが真理そのものである事と、メシヤ教の名はお光り様とも呼ばれ、現界の信者のみならず、霊界の諸霊様まで救われており、浄霊の素晴らしい霊力、御祭神様のあらたかな霊顕は、霊界の動物霊に至るまで、良く徹底して弁えており、メシヤ教を目して迷信、邪教と言って騒いでいるのは、吹けばスッ飛ぶ鼻糞ほどの智識を誇り、霊子時代に遥か及ばぬ原子科学を至上と信じてうぬ惚れている人間共だけである事を、見事、動物霊に教えられたのであった。<br/><br/> 生半可な智識に厄いされて信じられなかった、狐霊の存在も、迷信視されていた狐憑きのいる事も、すべては真実であったのだ。<br/><br/>私達が、いかに疑っていても、狐霊はあったのだ。<br/><br/>動物園でひとを小馬鹿にしたような面をしている狐や、婦人の襟巻になっている狐の外にも、歴然として狐霊はあった。<br/><br/> 明主様の御教えには、針の尖ほどの誤もなかった。<br/><br/>眼に見える以外のものを信じないのは、無神論者ばかりではない。<br/><br/>狐霊を、如実に逐い落した経験を衆人環視の中に神様にさせて戴くまで、狐霊の存在を半信半疑していた、己れの不明さ、信仰の不徹底さを神様に陳謝申上げたのであった。<br/><br/> 終りに、この狐霊の教えによって、屏風観音様を早速いただいた人と、入信をためらっていた人が、浄霊の力に感じ入って入信した、という大収穫があり、また、狐霊の憑いたその日が、奇しくも六月十五日、昏迷、明らかならざりし霊界が、ここに完ったき黎明を迎えた日であった。<br/><br/>ということを付け加えて擱筆する。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

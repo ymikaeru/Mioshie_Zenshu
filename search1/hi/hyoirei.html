@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hyoirei</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 憑依霊の種々相 自観叢書第3編『霊界叢談』P.46、昭和24(1949)年8月25日発行 その頃小山某なる三十歳位の青年があった。<br><br>この男も霊媒として優秀なる資格者であった。<br><br>この男は大酒呑みで酔うと精神喪失者同様、物の見境もなく、一文の金も持たずして近所の酒屋を一軒一軒飲み廻るのであるが、その尻拭いを親父がいつも、させられるという訳で、その悪癖を治して貰いたいと頼みに来たのが動機であったが、おもしろい事にはその男に種々の憑霊現象が起り、私に価値ある霊的資料を提供してくれたのである。<br><br>その中の興味あるものを選んでかいてみる。<br><br> ある日憑依した霊は数ケ月前死亡した近所の酒屋の親父で、非常に角力が好きであったとみえ、憑霊するや肘を張り、四股を踏み、「サア、どいつでも掛って来い。<br><br>俺に敵うものはあるまい」といって威張るのである。<br><br>私の家の書生は癪に触って打（ぶ）つかってゆくとたちまちに投飛ばされて肱（ひじ）の関節を折られ治癒に一年以上かかったのである。<br><br>ある時は屈強の男が三人掛りでやっと抑えつけた事もあった。<br><br> またある日の事である。<br><br>老人のごとき霊が憑依したので、聞いた所、「俺はこの肉体の伯父に当たる者で、埼玉県の百姓であるが、俺は酒が好きで堪らないからこの肉体に憑いて酒を飲むんだ」といい酒を要求するのである。<br><br>私は、「酒を飲ませるからこの肉体を出るか？」と言うと「ジャア、なるたけ大きいので一杯呑ましてくれろ、そうすればすぐ出る」と言うので、その通りしてやった所彼は、「もう一杯」という。<br><br>またその通りしてやると「また一杯」と言い、都合三杯飲んで肉体を去ったのである。<br><br>この霊が最初憑った時部屋中を見廻し、怪訝な顔をしていた。<br><br>私は質（たず）ねたところ、彼は「ここはどこだんベ」と言う。<br><br>私は、「東京の大森というところの私の住宅である」と言ったところ、「俺がいる彼世（あのよ）とは余程異うなア」と言い、「煙草が喫みたい」というので巻煙草を与ると、「こんな煙草はいけねえ。<br><br>煙管（キセル）で吸いてい」というのでその通りしてやると、彼はヤオラ腰を上げたが、その姿は老人そのままである。<br><br>やがて縁側へ出て庭を見廻しながら、うまそうに煙草を喫んでいる。<br><br>私は聞いた。<br><br>「彼世には煙草はありますか？」と言うと、「煙草もねえし、銭もねェので喫む訳に行かねえがら、人間の身体に入ェって喫むんだよ」という。<br><br>「なる程――」と私は思った。<br><br> 右の老人が出ると入れ替ってまた何かが憑依したらしくすこぶる慎ましやかな態度である。<br><br>聞いたところ「妾（わたし）は近くの煙草屋の娘で○○という。<br><br>今から二月ばかり前に死んだものですが、竹ちゃんが好きだったので（この男の名は竹ちゃんという）今晩来たのです。<br><br>」というので、「何か用がありますか？」と訊くと、「喉が涸（かわ）いて堪らないから水を一杯頂戴したい」というので私は、「まだ新仏であるあなたは毎日水を上げてもらうんでしょう」というと「ハイ、上げてはもらいますが呑めないのです」というので私は不思議に思い、再び訊ねたところ、彼女いわく「水を上げる人が私に呑ませたい気持などはなく、ただ仕方なしお役で上げるのでそういう想念で上げたものは呑めないのです。<br><br>」との事で、「なる程霊界は想念の世界」という事が判った。<br><br>故に仏壇へ飲食を上げる場合、女中などにやらしたり、自分であってもお義理的に上げるのでは、何にもならない事が判った。<br><br>彼女の霊に水を呑ませると、うまそうに都合三杯のんだのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>As Múltiplas Faces dos Espíritos Possessores</h2>
 <p>Naquela época, havia um jovem de aproximadamente trinta anos chamado Oyama, que também possuía excelentes qualificações como médium. Este homem, contudo, era um grande beberrão e, quando ébrio, agia como quem perdeu o juízo. Sem discernimento algum e sem um único centavo no bolso, percorria as adegas do bairro, bebendo em cada uma delas, cabendo sempre a seu pai arcar com as consequências de seus atos. O motivo de sua vinda foi, portanto, um pedido para que eu o curasse desse péssimo hábito. O mais interessante, no entanto, é que esse rapaz manifestava os mais variados fenômenos de possessão espiritual, fornecendo-me, assim, um valioso material para estudo. Dentre eles, seleciono e descrevo a seguir os casos de maior interesse.</p>
@@ -96,5 +248,48 @@ function toggleLang(lang) {
 <p>Quando este espírito se manifestou pela primeira vez, ele olhou ao redor do cômodo com uma expressão intrigada. Perguntei-lhe o que havia, ao que respondeu com um sotaque rústico: "Onde é que eu estou?". Expliquei-lhe: "O senhor está em minha residência, no bairro de Omori, em Tóquio". Ele então comentou: "Nossa, é bem diferente do outro mundo, de onde eu vim". Em seguida, disse: "Quero fumar". Ofereci-lhe um cigarro, mas ele recusou: "Este cigarro não serve. Quero fumar em um Kiseru (煙管)". Providenciei o que pedia. Ele então se levantou com dificuldade, e sua postura era exatamente a de um ancião. Dirigiu-se à varanda e, enquanto observava o jardim, fumava com evidente satisfação. Eu lhe perguntei: "Existe tabaco no Mundo Espiritual?". Ele respondeu: "Não há tabaco nem dinheiro, por isso não temos como fumar. É por essa razão que entramos no corpo de uma pessoa para poder fazê-lo". "Compreendo...", refleti.</p>
 <p>Logo que o espírito do ancião se retirou, outro pareceu tomar seu lugar, manifestando uma atitude sobremaneira recatada. Ao ser questionada, revelou: "Sou fulana de tal, filha do dono da tabacaria aqui perto. Faleci há uns dois meses. Vim esta noite porque gostava muito do Take-chan" (o apelido do rapaz). "Deseja alguma coisa?", perguntei. "Minha garganta está terrivelmente seca. Gostaria de um copo d'água, por favor", pediu ela. Estranhei e disse: "Mas, sendo uma recém-falecida, certamente lhe oferecem água todos os dias no altar, não é mesmo?". "Sim, oferecem", respondeu ela, "mas não consigo bebê-la". Surpreso, pedi que me explicasse. Ela continuou: "A pessoa que oferece a água não o faz com o sentimento de que eu a beba; oferece por mera obrigação. A água ofertada com esse tipo de pensamento não pode ser bebida por nós".</p>
 <p>Compreendi, então, a profunda verdade de que o Mundo Espiritual é o mundo do pensamento. Disso decorre que de nada adianta fazer oferendas de alimentos e bebidas no altar se o fazemos por meio de um empregado ou se nós mesmos o fazemos por mero formalismo. Ofereci-lhe a água, e o espírito da jovem bebeu três copos, com visível deleite.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 憑依霊の種々相 自観叢書第3編『霊界叢談』P.46、昭和24(1949)年8月25日発行 その頃小山某なる三十歳位の青年があった。<br/><br/>この男も霊媒として優秀なる資格者であった。<br/><br/>この男は大酒呑みで酔うと精神喪失者同様、物の見境もなく、一文の金も持たずして近所の酒屋を一軒一軒飲み廻るのであるが、その尻拭いを親父がいつも、させられるという訳で、その悪癖を治して貰いたいと頼みに来たのが動機であったが、おもしろい事にはその男に種々の憑霊現象が起り、私に価値ある霊的資料を提供してくれたのである。<br/><br/>その中の興味あるものを選んでかいてみる。<br/><br/> ある日憑依した霊は数ケ月前死亡した近所の酒屋の親父で、非常に角力が好きであったとみえ、憑霊するや肘を張り、四股を踏み、「サア、どいつでも掛って来い。<br/><br/>俺に敵うものはあるまい」といって威張るのである。<br/><br/>私の家の書生は癪に触って打（ぶ）つかってゆくとたちまちに投飛ばされて肱（ひじ）の関節を折られ治癒に一年以上かかったのである。<br/><br/>ある時は屈強の男が三人掛りでやっと抑えつけた事もあった。<br/><br/> またある日の事である。<br/><br/>老人のごとき霊が憑依したので、聞いた所、「俺はこの肉体の伯父に当たる者で、埼玉県の百姓であるが、俺は酒が好きで堪らないからこの肉体に憑いて酒を飲むんだ」といい酒を要求するのである。<br/><br/>私は、「酒を飲ませるからこの肉体を出るか？」と言うと「ジャア、なるたけ大きいので一杯呑ましてくれろ、そうすればすぐ出る」と言うので、その通りしてやった所彼は、「もう一杯」という。<br/><br/>またその通りしてやると「また一杯」と言い、都合三杯飲んで肉体を去ったのである。<br/><br/>この霊が最初憑った時部屋中を見廻し、怪訝な顔をしていた。<br/><br/>私は質（たず）ねたところ、彼は「ここはどこだんベ」と言う。<br/><br/>私は、「東京の大森というところの私の住宅である」と言ったところ、「俺がいる彼世（あのよ）とは余程異うなア」と言い、「煙草が喫みたい」というので巻煙草を与ると、「こんな煙草はいけねえ。<br/><br/>煙管（キセル）で吸いてい」というのでその通りしてやると、彼はヤオラ腰を上げたが、その姿は老人そのままである。<br/><br/>やがて縁側へ出て庭を見廻しながら、うまそうに煙草を喫んでいる。<br/><br/>私は聞いた。<br/><br/>「彼世には煙草はありますか？」と言うと、「煙草もねえし、銭もねェので喫む訳に行かねえがら、人間の身体に入ェって喫むんだよ」という。<br/><br/>「なる程――」と私は思った。<br/><br/> 右の老人が出ると入れ替ってまた何かが憑依したらしくすこぶる慎ましやかな態度である。<br/><br/>聞いたところ「妾（わたし）は近くの煙草屋の娘で○○という。<br/><br/>今から二月ばかり前に死んだものですが、竹ちゃんが好きだったので（この男の名は竹ちゃんという）今晩来たのです。<br/><br/>」というので、「何か用がありますか？」と訊くと、「喉が涸（かわ）いて堪らないから水を一杯頂戴したい」というので私は、「まだ新仏であるあなたは毎日水を上げてもらうんでしょう」というと「ハイ、上げてはもらいますが呑めないのです」というので私は不思議に思い、再び訊ねたところ、彼女いわく「水を上げる人が私に呑ませたい気持などはなく、ただ仕方なしお役で上げるのでそういう想念で上げたものは呑めないのです。<br/><br/>」との事で、「なる程霊界は想念の世界」という事が判った。<br/><br/>故に仏壇へ飲食を上げる場合、女中などにやらしたり、自分であってもお義理的に上げるのでは、何にもならない事が判った。<br/><br/>彼女の霊に水を呑ませると、うまそうに都合三杯のんだのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

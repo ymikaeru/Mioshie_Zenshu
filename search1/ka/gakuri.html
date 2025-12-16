@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>gakuri</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 学理の魔術 『地上天国』10号、昭和24(1949)年11月20日発行 現代人は学理の魔術に罹っているといってもいい。<br><br>それは学理とさえいえば、何でもかんでも無条件に信じてしまう。<br><br>全く絶対的ともいえる。<br><br>ところが学理が絶対でない事は、学理は常に変遷している。<br><br>例えば肺病は遺伝として長く信じていたのが、近来は遺伝ではないという説になった。<br><br>癩病もそうである。<br><br>今日、日本脳炎の原因が、蚊の媒介としているが、これも遠からず誤りである事を発見する事は、吾らの保証するところである。<br><br>また結核は日光浴を可とし、一時は非常に流行したが、今は反ってわるいとされて来た。<br><br>彼の盲腸炎なども冷すと温めるとの可否は、今もって決定的とはなっていないようだ。<br><br>また薬剤もそうだ。<br><br>結核の特効薬としてセファランチンから、ペニシリン、最近はストレプトマイシンというように流行とスタれと交互に現れつつある。<br><br> 右の数例にみても、医学の学理は、服装の流行のようなものである。<br><br>年中、流行ったり廃ったりしている。<br><br>という訳で、絶対性はまずないのである。<br><br>もっともこれが進歩の過程といえばそれまでであるが、仮に進歩の過程としても、服装などと違い、こと人間生命に関する以上、その儀牲になる人間こそ全く憐むべきモルモットでしかない。<br><br> 以上のような訳で、現代人は結果よりも、学理を主にするところに問題がある。<br><br>面白い事にはこういう事がある。<br><br>本教浄霊は治る事は判っているが、学理で説明がつかなければ受ける気にはならないという人がよくあるが、これらの人は全く学理の魔術にかかっているというより外に説明がつかないといって、浄霊を現在程度の学理で説明する事は至難である。<br><br>それは、浄霊の真の学理は現代の学理よりも一世紀以上も進歩したものであるから、現代人には理解が不可能である。<br><br>ちょうど小学生に大学の講義をするようなものであるからで現代人がこの点に目覚め、何よりも生きた事実とその結果を第一とし、学理を第二にするようになれば、いかに救わるる人が多くなるかという事である。<br><br> 右について、最近発行の橋本徹馬氏著、「共産主義はなぜ悪いか」という中に、左の記事があったが参考になると思う。<br><br> 現代医学とマルクス 私はまたかつて、「現代医学とマルクス主義」と言う一文をかいたことがありますが、これは資本論をかいたマルクスの錯覚と、現代医学者の錯覚とがよく似ているから、試（こころみ）に比較論をしてみたのであります。<br><br>例えば現代医学者は症状に現れた病気の研究を実によくしています。<br><br>肺病の黴菌はどんな形をしているとが、あるいはそれが繁殖すると、肺がどのように侵されるとか、レントゲンで写真を撮ればどのようにうつるとか、糖尿病がどうだとか、胃潰瘍がどうしたとか、実に微細に色々と病気の研究をしています。<br><br>そうしてその各々の病気に対する投薬の法をも熱心かつ微細に研究をしています。<br><br> しかし現代医学者が、いかに多くそのような知識を持ってもそれが既に現れた病気を追いかけて廻るものである限り、決して人間の無病健康時代は来ないのであります。<br><br>もし人間を真に無病健康にしようと思うならば、すべからく人間が病気にかかる以前に着目し、人間を病気にかからせないための原理をつかんで来て、これを万人に教えなければならぬのであります。<br><br> マルクスが商品や、資本や、労働や、貨幣や、剰余価値などのことを科学的に研究して、その間に存する社会の不合理を細々と指摘しているのは、あたかも現代医学者が人体に現れた症状を最も科学的に、かつ微細に研究しているのと同じであって、どちらもつまらぬ知識なのであります。<br><br> もしマルクスが真にそのような社会相を憂えるならば、既に形に現れたそのような社会相――すなわち症状と取組むことをやめ、そのような社会相の現れるゆえんの根源を絶つために正しい宇宙観、世界観、人生観の把握に基づく人間の心構えの変更を教えねばならなかったのであります。<br><br> けだし仏者の言うがごとく、三界は唯心の所現であって、人々の心の持ち方が変れば、マルクスが眼に見たところの商品や、資本や、労働や貨幣などの性質も変り、従ってまたマルクスの眼に見たところの社会相も、明らかに変更されるからです。<br><br>現にこの頃の事業経営者等の中には、自己の営利を目的とせず、専ら社会奉仕を目ざして、マルクスなどの想像もしなかった型の労資協力の実を挙げつつある者が各所に少なからずあります（拙著『人生を楽観すべし』参照）。<br><br>これは人間がその心の持ち方を変えさえすれば、それに伴うて社会相もまた変ると言うことを、実証するものであります。<br><br> そこに心づかなかったマルクスは、あたかも病源を絶つことを知らずして、頻りに病気と取組んでいる現代医学者と、好一対の錯覚者であったのです。<br><br> (注) 橋本徹馬（はしもと・てつま、1890-1990） 政治評論家、紫雲荘初代主幹、紫雲山地蔵寺初代住職 (開山者)。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Sortilégio da Teoria Científica</h2>
 <p>Pode-se afirmar que o homem moderno se encontra cativo do sortilégio da teoria científica. Basta que algo seja rotulado como tal para que ele deposite uma fé incondicional, quase absoluta. Contudo, a falibilidade de tais teorias é manifesta, uma vez que elas se encontram em constante transição.</p>
@@ -106,5 +258,48 @@ function toggleLang(lang) {
 <p>Por não ter se atentado a esse ponto fundamental, Marx, que desconhecia a forma de extirpar a causa primordial da doença social e se empenhava em lutar contra seus sintomas, e o médico moderno, que age de modo similar, formavam um par perfeito em seu equívoco.</p>
 <p>(Nota) Hashimoto Tetsuma (1890-1990)
 Crítico político, primeiro diretor do Shounso, primeiro abade (fundador) do Templo Shiunzan Jizo-dera.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 学理の魔術 『地上天国』10号、昭和24(1949)年11月20日発行 現代人は学理の魔術に罹っているといってもいい。<br/><br/>それは学理とさえいえば、何でもかんでも無条件に信じてしまう。<br/><br/>全く絶対的ともいえる。<br/><br/>ところが学理が絶対でない事は、学理は常に変遷している。<br/><br/>例えば肺病は遺伝として長く信じていたのが、近来は遺伝ではないという説になった。<br/><br/>癩病もそうである。<br/><br/>今日、日本脳炎の原因が、蚊の媒介としているが、これも遠からず誤りである事を発見する事は、吾らの保証するところである。<br/><br/>また結核は日光浴を可とし、一時は非常に流行したが、今は反ってわるいとされて来た。<br/><br/>彼の盲腸炎なども冷すと温めるとの可否は、今もって決定的とはなっていないようだ。<br/><br/>また薬剤もそうだ。<br/><br/>結核の特効薬としてセファランチンから、ペニシリン、最近はストレプトマイシンというように流行とスタれと交互に現れつつある。<br/><br/> 右の数例にみても、医学の学理は、服装の流行のようなものである。<br/><br/>年中、流行ったり廃ったりしている。<br/><br/>という訳で、絶対性はまずないのである。<br/><br/>もっともこれが進歩の過程といえばそれまでであるが、仮に進歩の過程としても、服装などと違い、こと人間生命に関する以上、その儀牲になる人間こそ全く憐むべきモルモットでしかない。<br/><br/> 以上のような訳で、現代人は結果よりも、学理を主にするところに問題がある。<br/><br/>面白い事にはこういう事がある。<br/><br/>本教浄霊は治る事は判っているが、学理で説明がつかなければ受ける気にはならないという人がよくあるが、これらの人は全く学理の魔術にかかっているというより外に説明がつかないといって、浄霊を現在程度の学理で説明する事は至難である。<br/><br/>それは、浄霊の真の学理は現代の学理よりも一世紀以上も進歩したものであるから、現代人には理解が不可能である。<br/><br/>ちょうど小学生に大学の講義をするようなものであるからで現代人がこの点に目覚め、何よりも生きた事実とその結果を第一とし、学理を第二にするようになれば、いかに救わるる人が多くなるかという事である。<br/><br/> 右について、最近発行の橋本徹馬氏著、「共産主義はなぜ悪いか」という中に、左の記事があったが参考になると思う。<br/><br/> 現代医学とマルクス 私はまたかつて、「現代医学とマルクス主義」と言う一文をかいたことがありますが、これは資本論をかいたマルクスの錯覚と、現代医学者の錯覚とがよく似ているから、試（こころみ）に比較論をしてみたのであります。<br/><br/>例えば現代医学者は症状に現れた病気の研究を実によくしています。<br/><br/>肺病の黴菌はどんな形をしているとが、あるいはそれが繁殖すると、肺がどのように侵されるとか、レントゲンで写真を撮ればどのようにうつるとか、糖尿病がどうだとか、胃潰瘍がどうしたとか、実に微細に色々と病気の研究をしています。<br/><br/>そうしてその各々の病気に対する投薬の法をも熱心かつ微細に研究をしています。<br/><br/> しかし現代医学者が、いかに多くそのような知識を持ってもそれが既に現れた病気を追いかけて廻るものである限り、決して人間の無病健康時代は来ないのであります。<br/><br/>もし人間を真に無病健康にしようと思うならば、すべからく人間が病気にかかる以前に着目し、人間を病気にかからせないための原理をつかんで来て、これを万人に教えなければならぬのであります。<br/><br/> マルクスが商品や、資本や、労働や、貨幣や、剰余価値などのことを科学的に研究して、その間に存する社会の不合理を細々と指摘しているのは、あたかも現代医学者が人体に現れた症状を最も科学的に、かつ微細に研究しているのと同じであって、どちらもつまらぬ知識なのであります。<br/><br/> もしマルクスが真にそのような社会相を憂えるならば、既に形に現れたそのような社会相――すなわち症状と取組むことをやめ、そのような社会相の現れるゆえんの根源を絶つために正しい宇宙観、世界観、人生観の把握に基づく人間の心構えの変更を教えねばならなかったのであります。<br/><br/> けだし仏者の言うがごとく、三界は唯心の所現であって、人々の心の持ち方が変れば、マルクスが眼に見たところの商品や、資本や、労働や貨幣などの性質も変り、従ってまたマルクスの眼に見たところの社会相も、明らかに変更されるからです。<br/><br/>現にこの頃の事業経営者等の中には、自己の営利を目的とせず、専ら社会奉仕を目ざして、マルクスなどの想像もしなかった型の労資協力の実を挙げつつある者が各所に少なからずあります（拙著『人生を楽観すべし』参照）。<br/><br/>これは人間がその心の持ち方を変えさえすれば、それに伴うて社会相もまた変ると言うことを、実証するものであります。<br/><br/> そこに心づかなかったマルクスは、あたかも病源を絶つことを知らずして、頻りに病気と取組んでいる現代医学者と、好一対の錯覚者であったのです。<br/><br/> (注) 橋本徹馬（はしもと・てつま、1890-1990） 政治評論家、紫雲荘初代主幹、紫雲山地蔵寺初代住職 (開山者)。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

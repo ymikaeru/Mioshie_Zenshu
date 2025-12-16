@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>husuigai</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 風水害 『自然農法解説』昭和26(1951)年1月15日発行 次に、風水害であるが、これは年々増加の傾向にさえあり、その防止に官民共に大いに悩んでいるのは衆知の事実である。<br><br>その防止施設にはすこぶる多額の費用を要するので、現在としては止むを得ず、一時的間に合せ手段で我慢するより外止むを得ないが、さりとて年々大きな被害を蒙っている以上、何とかしなければならない。<br><br>せめて今のところ被害を最小限度に喰い止めるより外致し方ないという訳だ。<br><br>ところが、我自然農法によれば、作物の根張りがつよく、茎折れなどは現在のそれよりも何分の一に減るばかりか、花落ちも少なく、冠水後の稲の腐敗もないから、他田が相当被害を蒙る時でも、自然農法の田は被害という程の被害は認められない程で、人々はただ不思議がるのである。<br><br>その際根の先をよく調べて見ると、在来の有肥田のそれより、細根の数が非常に多く長いので、根張りが強靱なためである。<br><br>これは人間にたとえれば毒分のない新鮮な食物を常に摂取していると、健康であるのと同様の理である。<br><br>またこれはひとり稲や麦には限らないが、農耕者はよく作物の背丈が短く、葉が小さいのを可としているが、これは実付きがよく収穫が多いからで、この点本農法がそうであって、いかに理想的であるかが判るのである。<br><br>しかも品質優良で、美味な点は経験者の異口同音に唱えるところである。<br><br>という訳は今までのごとき、有肥によると、葉に栄養分をとられるから葉が延びすぎ、それだけ実に影響を与えるのである。<br><br>また自然農法によれば、稲の分蘖（ぶんけつ）がすこぶる多く、今日まで最も優良なのは一粒の種で、分蘖百五十、粒数約一万五千という到底信じられない程の、驚異的記録もあった（これは後段に載せたから参照されたい)。<br><br>なお今一つの特長は、稲藁を使用する場合、非常に強く細工が仕良いそうである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Superioridade da Agricultura Natural Frente às Intempéries</h2>
 <p>Passemos agora às calamidades provocadas por tempestades e inundações. É fato notório que sua ocorrência aumenta a cada ano, representando um grave desafio tanto para o governo quanto para a sociedade, que se empenham em sua prevenção. As obras de contenção exigem investimentos de vulto, razão pela qual, no presente momento, não resta alternativa senão recorrer a medidas paliativas e temporárias. Todavia, diante das vultosas perdas anuais, é imperativo encontrar uma solução definitiva. A estratégia atual, por conseguinte, limita-se a mitigar os danos ao mínimo possível.</p>
@@ -96,5 +248,48 @@ function toggleLang(lang) {
 <p>Este princípio, aliás, não se restringe ao arroz e ao trigo. Os agricultores experientes sabem que plantas de porte mais baixo e folhas menores são preferíveis, pois produzem mais frutos e geram colheitas mais abundantes. Nesse sentido, a Agricultura Natural atinge precisamente este resultado, o que demonstra quão ideal ela é. Adicionalmente, a qualidade superior e o sabor delicioso dos alimentos são pontos de concordância unânime entre todos que os experimentam. A razão é simples: nos métodos convencionais que utilizam adubo, grande parte dos nutrientes é desviada para a folhagem, que cresce em demasia, comprometendo o desenvolvimento dos frutos.</p>
 <p>A Agricultura Natural também promove um perfilhamento do arroz extraordinariamente abundante. Registrou-se, inclusive, um recorde assombroso e quase inacreditável, que será detalhado posteriormente: a partir de uma única semente, obtiveram-se cento e cinquenta perfilhos, que geraram aproximadamente quinze mil grãos.</p>
 <p>Outra característica digna de menção é a palha do arroz, que se torna muito resistente e maleável, facilitando seu uso em trabalhos artesanais.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 風水害 『自然農法解説』昭和26(1951)年1月15日発行 次に、風水害であるが、これは年々増加の傾向にさえあり、その防止に官民共に大いに悩んでいるのは衆知の事実である。<br/><br/>その防止施設にはすこぶる多額の費用を要するので、現在としては止むを得ず、一時的間に合せ手段で我慢するより外止むを得ないが、さりとて年々大きな被害を蒙っている以上、何とかしなければならない。<br/><br/>せめて今のところ被害を最小限度に喰い止めるより外致し方ないという訳だ。<br/><br/>ところが、我自然農法によれば、作物の根張りがつよく、茎折れなどは現在のそれよりも何分の一に減るばかりか、花落ちも少なく、冠水後の稲の腐敗もないから、他田が相当被害を蒙る時でも、自然農法の田は被害という程の被害は認められない程で、人々はただ不思議がるのである。<br/><br/>その際根の先をよく調べて見ると、在来の有肥田のそれより、細根の数が非常に多く長いので、根張りが強靱なためである。<br/><br/>これは人間にたとえれば毒分のない新鮮な食物を常に摂取していると、健康であるのと同様の理である。<br/><br/>またこれはひとり稲や麦には限らないが、農耕者はよく作物の背丈が短く、葉が小さいのを可としているが、これは実付きがよく収穫が多いからで、この点本農法がそうであって、いかに理想的であるかが判るのである。<br/><br/>しかも品質優良で、美味な点は経験者の異口同音に唱えるところである。<br/><br/>という訳は今までのごとき、有肥によると、葉に栄養分をとられるから葉が延びすぎ、それだけ実に影響を与えるのである。<br/><br/>また自然農法によれば、稲の分蘖（ぶんけつ）がすこぶる多く、今日まで最も優良なのは一粒の種で、分蘖百五十、粒数約一万五千という到底信じられない程の、驚異的記録もあった（これは後段に載せたから参照されたい)。<br/><br/>なお今一つの特長は、稲藁を使用する場合、非常に強く細工が仕良いそうである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

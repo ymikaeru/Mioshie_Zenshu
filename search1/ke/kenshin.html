@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kenshin</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 見神に就て 『信仰雑話』P.70、昭和23(1948)年9月5日発行 忘れもしない。<br><br>私が宗教研究を始めて間もない頃であった。<br><br>ある中流家庭の二十歳になる娘が、肺病のため、数年間療養生活を続けて来たが、どうしても治らないので、私は頼まれた。<br><br>当時大本教信者であった私は、鎮魂帰神なる方法の下に霊治療を行ったのである。<br><br>二、三週間の霊術によって非常に快くなった。<br><br>病気の原因は、四代前のその家の当主の弟が、失踪行方不明となったままついに野垂死をした。<br><br>もちろん祀られる筈もなかったので、無縁仏となって地獄に落ちていたが、地獄の苦しみに堪えかね、正式に祭ってもらいたいと、その一念から気付かせるべく子供を重い病人にしたが、気付いてくれないので、「この上は死なせる外はない」と想い、右の娘に憑依し生命を奪おうとしたのである。<br><br> 右の事情が判った訳はこうである。<br><br>娘に霊療法を行った三回目であった。<br><br>娘の傍に座っていた母親が突如として起ち上り、物凄い面貌をしながら、私に向かって掴み掛ろうとするのである。<br><br>と共に荒々しい言葉で―― 「貴様はよくもよくも俺が殺そうとしたこの娘を助けやがった。<br><br>俺は腹が立って堪らないから貴様をとっちめてやる」―― と言うので私は吃驚した。<br><br>なぜなれば、憑霊現象の事はかねて聞いてはいたが、実地にぶつかったのは初めてだからである。<br><br>私は―― 『マーマー座んなさい』 と言ったところ、彼はおとなしく座った。<br><br> 『一体、あなたはどなたです』 と私は訊いた。<br><br>それから両者の問答が始まり、知り得たのは前述のような事情である。<br><br>そこで私は―― 『人の生命を奪るという事は、もし成功すればその罪によってヒドい地獄へ堕ちなければならぬ』と言ったところ、最初は疑っていたが、私が種々説いたので、漸く納得がゆき、娘の病気を治すべく協力を誓ったのであった。<br><br>そうして右の母親なる婦人は年齢五十歳位で、霊媒としては最も理想的であって、霊が憑依するとその間全然無我になり、自己意識が少しも入らないからである。<br><br>元来霊媒としての資格は自己意識の入らない程よいとしてあるが、こういうのは極く稀で、大抵は幾分覚醒状態であるから、それだけ自己意識が邪魔するのである。<br><br> しかるに一旦快くなった病状が、幾分後戻りの傾向が見えたところ、ある日母親が訪ねて来た。<br><br> 「この両三日前から、私に何かの霊が時々懸るらしいから査（しら）べてもらいたい」 というので、早速私は鎮魂帰神法を行った。<br><br>彼女は瞑目合掌端座した。<br><br>私が祝詞を奏上し、それが済むや否や彼女は口を切った。<br><br>その時の問答は左のごときものである。<br><br> 彼女の合掌している手がやや震え、呼吸がややせわしくなった。<br><br>これが神懸現象の普通状態である。<br><br> 私『あなたはどなたです』 彼女「こなたは神じゃ」 私『何神様でいられますか』 彼女「魔を払う役の神である」 私『何のために御懸りになりましたか』 彼女「そなたが今病気を治しているこの肉体の娘に最近悪魔が邪魔しているから、それを防ぐ方法を教えに来た」 私『では、どういう方法で？』 彼女「毎朝艮（うしとら）の方角へ向かって塩を撒き、大祓の祝詞を奏上すればよい」 私『有難う御座います。<br><br>しかしあなたの御名前は』 彼女「今は言う訳にはゆかぬ」 私『種々御尋ねしたい事があるが』 彼女「そなたに浄めの業を教えるために来たのであるから外の事は言う事は出来ぬ。<br><br>では直ぐ還る」 と言うや直ちに御帰りになった。<br><br>と同時に彼女は眼を見開き、いわく 彼女「アヽ吃驚した」 私『何を吃驚しましたか？』 彼女「最初、先生が祝詞を奏上なさるや、自分の後の方からサーッという物凄い音がしたかと思うと、私の横へ御座りになった御方がある。<br><br>見ると非常に大きい人間姿で黒髪を垂らし、白布のようなもので鉢巻をされている。<br><br>よく視ると、衣服は木の葉を編んだごときもので、その木の葉の衣服は五色の色に輝き、燦爛（さんらん）として眼もまばゆい美しさである。<br><br>御身は非常に大きく、座っていて頭部は鴨居に届いている。<br><br>その御方が自分の身体へ入ると共に無我になった」―― というのである。<br><br>実は私は最初「神じゃ」と言われた時に、前々から神にも贋神があるという事を聞いていたので、警戒していたが――右の話によって贋神ではなく真正の神様である事を知ったのである。<br><br>その後それが国常立尊（くにとこたちのみこと）という神様で、軍神の時の御姿である事も判った。<br><br>国常立尊という神様は最高位の古い神様で、各所に祭られておらるるのである。<br><br> その後も私はこの神様から種々の奇蹟を見せられ、かつ私に御懸りになり、種々の事を教えられ、御守護を受けた事も一再ならずであった。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Acerca da Vidência Divina</h2>
 <p>Guardo uma lembrança indelével de um acontecimento do início de minha jornada nos estudos religiosos. Fui solicitado a intervir no caso de uma jovem de vinte anos, filha de uma família de classe média, que há anos padecia de tuberculose sem qualquer perspectiva de cura. Como, na época, eu era seguidor da Oomoto, realizei um tratamento espiritual por meio do método denominado <em>chinkon kishin</em>.</p>
@@ -121,5 +273,48 @@ Eu: O que a assustou?
 Ela: Assim que o senhor começou a entoar a oração, ouvi um som impetuoso, como um zunido, vindo de trás de mim. Em seguida, uma presença sentou-se ao meu lado. Olhei e vi uma figura de forma humana, porém imensa, com longos cabelos negros e uma espécie de faixa branca na testa. Observando mais atentamente, percebi que suas vestes eram como que tecidas de folhas, e essas folhas refulgiam em cinco cores, com um brilho tão esplendoroso que ofuscava a visão. Seu corpo era tão grande que, mesmo sentado, sua cabeça alcançava a viga superior da porta. No momento em que essa entidade adentrou meu corpo, perdi a consciência.</p>
 <p>Na verdade, quando a entidade se anunciou como "um Deus", mantive-me em alerta, pois já sabia da existência de espíritos malignos que se fazem passar por divindades. Contudo, diante de tal relato, compreendi que se tratava de uma divindade autêntica, e não de um impostor. Posteriormente, vim a saber que se tratava do Deus Kunitokotachi-no-Mikoto (国常立尊), em sua manifestação como deus guerreiro. Kunitokotachi-no-Mikoto é uma das mais antigas e elevadas divindades, reverenciada em diversos locais.</p>
 <p>A partir de então, não foram poucas as vezes em que essa divindade me revelou diversos milagres, manifestou-se em mim para me transmitir inúmeros ensinamentos e me concedeu sua divina proteção.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 見神に就て 『信仰雑話』P.70、昭和23(1948)年9月5日発行 忘れもしない。<br/><br/>私が宗教研究を始めて間もない頃であった。<br/><br/>ある中流家庭の二十歳になる娘が、肺病のため、数年間療養生活を続けて来たが、どうしても治らないので、私は頼まれた。<br/><br/>当時大本教信者であった私は、鎮魂帰神なる方法の下に霊治療を行ったのである。<br/><br/>二、三週間の霊術によって非常に快くなった。<br/><br/>病気の原因は、四代前のその家の当主の弟が、失踪行方不明となったままついに野垂死をした。<br/><br/>もちろん祀られる筈もなかったので、無縁仏となって地獄に落ちていたが、地獄の苦しみに堪えかね、正式に祭ってもらいたいと、その一念から気付かせるべく子供を重い病人にしたが、気付いてくれないので、「この上は死なせる外はない」と想い、右の娘に憑依し生命を奪おうとしたのである。<br/><br/> 右の事情が判った訳はこうである。<br/><br/>娘に霊療法を行った三回目であった。<br/><br/>娘の傍に座っていた母親が突如として起ち上り、物凄い面貌をしながら、私に向かって掴み掛ろうとするのである。<br/><br/>と共に荒々しい言葉で―― 「貴様はよくもよくも俺が殺そうとしたこの娘を助けやがった。<br/><br/>俺は腹が立って堪らないから貴様をとっちめてやる」―― と言うので私は吃驚した。<br/><br/>なぜなれば、憑霊現象の事はかねて聞いてはいたが、実地にぶつかったのは初めてだからである。<br/><br/>私は―― 『マーマー座んなさい』 と言ったところ、彼はおとなしく座った。<br/><br/> 『一体、あなたはどなたです』 と私は訊いた。<br/><br/>それから両者の問答が始まり、知り得たのは前述のような事情である。<br/><br/>そこで私は―― 『人の生命を奪るという事は、もし成功すればその罪によってヒドい地獄へ堕ちなければならぬ』と言ったところ、最初は疑っていたが、私が種々説いたので、漸く納得がゆき、娘の病気を治すべく協力を誓ったのであった。<br/><br/>そうして右の母親なる婦人は年齢五十歳位で、霊媒としては最も理想的であって、霊が憑依するとその間全然無我になり、自己意識が少しも入らないからである。<br/><br/>元来霊媒としての資格は自己意識の入らない程よいとしてあるが、こういうのは極く稀で、大抵は幾分覚醒状態であるから、それだけ自己意識が邪魔するのである。<br/><br/> しかるに一旦快くなった病状が、幾分後戻りの傾向が見えたところ、ある日母親が訪ねて来た。<br/><br/> 「この両三日前から、私に何かの霊が時々懸るらしいから査（しら）べてもらいたい」 というので、早速私は鎮魂帰神法を行った。<br/><br/>彼女は瞑目合掌端座した。<br/><br/>私が祝詞を奏上し、それが済むや否や彼女は口を切った。<br/><br/>その時の問答は左のごときものである。<br/><br/> 彼女の合掌している手がやや震え、呼吸がややせわしくなった。<br/><br/>これが神懸現象の普通状態である。<br/><br/> 私『あなたはどなたです』 彼女「こなたは神じゃ」 私『何神様でいられますか』 彼女「魔を払う役の神である」 私『何のために御懸りになりましたか』 彼女「そなたが今病気を治しているこの肉体の娘に最近悪魔が邪魔しているから、それを防ぐ方法を教えに来た」 私『では、どういう方法で？』 彼女「毎朝艮（うしとら）の方角へ向かって塩を撒き、大祓の祝詞を奏上すればよい」 私『有難う御座います。<br/><br/>しかしあなたの御名前は』 彼女「今は言う訳にはゆかぬ」 私『種々御尋ねしたい事があるが』 彼女「そなたに浄めの業を教えるために来たのであるから外の事は言う事は出来ぬ。<br/><br/>では直ぐ還る」 と言うや直ちに御帰りになった。<br/><br/>と同時に彼女は眼を見開き、いわく 彼女「アヽ吃驚した」 私『何を吃驚しましたか？』 彼女「最初、先生が祝詞を奏上なさるや、自分の後の方からサーッという物凄い音がしたかと思うと、私の横へ御座りになった御方がある。<br/><br/>見ると非常に大きい人間姿で黒髪を垂らし、白布のようなもので鉢巻をされている。<br/><br/>よく視ると、衣服は木の葉を編んだごときもので、その木の葉の衣服は五色の色に輝き、燦爛（さんらん）として眼もまばゆい美しさである。<br/><br/>御身は非常に大きく、座っていて頭部は鴨居に届いている。<br/><br/>その御方が自分の身体へ入ると共に無我になった」―― というのである。<br/><br/>実は私は最初「神じゃ」と言われた時に、前々から神にも贋神があるという事を聞いていたので、警戒していたが――右の話によって贋神ではなく真正の神様である事を知ったのである。<br/><br/>その後それが国常立尊（くにとこたちのみこと）という神様で、軍神の時の御姿である事も判った。<br/><br/>国常立尊という神様は最高位の古い神様で、各所に祭られておらるるのである。<br/><br/> その後も私はこの神様から種々の奇蹟を見せられ、かつ私に御懸りになり、種々の事を教えられ、御守護を受けた事も一再ならずであった。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

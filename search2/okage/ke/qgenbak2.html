@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qgenbak2</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 原爆症より救われて 『栄光』154号、昭和27(1952)年4月30日発行 広島県 大光中教会 向井 進（21） 原子爆弾！！ 科学は何とまた素晴しく恐ろしいものを作り上げたものでしょう。<br><br>幸にして生き残ったものの、私達の目標も家庭も、根本からくつがえされ、あの時病貧争の最底に破滅寸前のところを、世界救世教の御浄霊によって救われなかったら、どうなっていった事でしよう。<br><br> 明主様有難うございました。<br><br>この事実を御報告申し上げます。<br><br> 「原子爆発」運命とは言え余りにも悲惨でした。<br><br>軍需工場で学徒を指導していた父親は若い学徒と共に、あえない最期を遂げました。<br><br>私宅は爆心地より二粁程離れておるため、他の者は、全部助かりましたが、家の屋根、天井、家具等吹き飛んで、家中足の踏み入れる所もない程でした。<br><br>近所の者と共に裏山の谷間の避難所へ逃れ、多くの負傷者（ほとんど火傷で上半身又は、全身で二倍位に腫れて、見ただけでは誰だか判らない）と共に不安の日夜を過しました。<br><br>こうなっては医者も薬も間に合いません。<br><br>食用油や、野菜の汁を塗るのです。<br><br>医師の言葉では、「火傷者は特に水を欲しがるが、沢山やる事は絶対いけない」との事でしたが、実に可哀相でした。<br><br>「水、水、水をくれ」と皆発狂したように言うのです。<br><br>「少しずつでなくては駄目なんだ、我慢してくれ」と。<br><br>それも静かになって、動かなくなったと見れば皆黒く変色して死んで行くのです。<br><br>ああどうせ死ぬのなら思い切り水を飲ませてやりたかった。<br><br>後で分ったのですが、飲みたいだけ飲ませた方が結果が良くそのおかげで助かったという人もありました。<br><br>初めは何とかして、楽にして助かる方法は、と皆一生懸命看護しましたが、無慙に死んで行く状を見て茫然と放心したようになってしまいました。<br><br>今当時を思い起せばペンを持つ手も重く鈍ります。<br><br>放射能を受けた者で外面的には何ともなかったものが、黒いような血を吐き血便をし、又、頭髪がばらばらと全部抜けて、ばたばた倒れ出しました。<br><br>「これは爆弾と共に「毒ガス」が使われたので、市内にはまだ残っているから、危いだろう」ということで、私達も急ぎ田舎の疎開先へ逃げのびました。<br><br> 間もなく終戦、あの臨時ニュースを聞いた時は何とも言えない気持でした。<br><br>廃墟と化した広島にも青い草木の芽が吹き出しました。<br><br>そうして、もう住まれまいと思っていた土地に帰ることが出来ました。<br><br>こうして、新しい平和日本建設を目指して生きる事を喜び合ったのも束の間でした。<br><br>あの時放射能を左半身に受けた母は、その方の感覚が痺れたようで重く、体の調子が悪くなりました。<br><br> 私もとかく病気勝ちになり、身体がだるく、仕事が手につかなくなりました。<br><br>当時原子病と言いまして、前記のようにばたばた倒れて行くので私達もそうなるのではないかと非常に心配して、近くの医師に診て貰ったところ「これは大分肺が悪くなっているから、私の言う通りに、注意しないと危いよ」と言われました。<br><br>でも何となく信じられず、あっちこっちと医者に診て貰った結果皆まちまちの事を言われるので、医者にかからず薬だけ貰ってのんでおりました。<br><br>しかしながらだんだんと悪くなり、頭は重く、胃腸も害して、働く力もなくなり、身体は痩せ細り、幽霊のようになりました。<br><br>ああ強くなりたい、早く良くなりたいと焦れば焦る程悪くなりました。<br><br>せめて精神的にでも強いものをと、父親の残して行った、バイブルや、仏教書、精神修養などの本を出して見ましたが、それを読んで理解する力もありませんでした。<br><br>そうして「ああ自分は駄目だ、何も判らなくなった」と投げ出してしまいました。<br><br>そこには悪魔が不気味にせせら笑っておりました。<br><br>「神仏なんてないんだよ、あんなものはお前のような気の弱い奴が勝手に拝むものさ、幸福なんて、ちゃんちゃらおかしいや」と私もいつの間にか、そういうようになってしまいました。<br><br>そうして自分で自分の墓穴を掘る恐ろしい人間になりかけたのです。<br><br>しかし私だけを頼りにしている母や、幼い弟妹達の不安そうな顔を見るにつけ何とも言えぬ腹立たしさと良心の呵責にもだえ苦しみました。<br><br>こうした病気、貧乏、精神的苦痛に堪えかねて、気丈な母も「私も倒れそうだ、こんな事なら、いっそあの時皆が一緒に原子爆弾で殺されていれば良かった」と言うようになりました。<br><br>残されたものは"絶望"それでした。<br><br> "奇蹟" 二十三年九月でした。<br><br>近所になんとか、変った事をして病気を治す人が来ておられると聞いて、母が浄霊を三回して戴いただけでいつにない明るい顔をして「とても体が軽くなった。<br><br>何とも言えぬいい気持だ。<br><br>お前もお願いしてごらん。<br><br>どんな病気でもよくなるとおっしゃったよ」と熱心に勧めるので、最初はこういう事が大嫌いなので相手になりませんでしたが、しかし一度お願いして見ようか、と行って見て驚きました。<br><br>若い男の方で、おっしゃる事が、今までにない事ばかりなので、何となく心を引かれ、用心深く、疑いながら、一カ月続ける中に、ひどかった胃病がすっかりよくなりました。<br><br>母も左半身の症状が治り、そうして母がお守様を頂き、私も立派な宗教だと思ったので、先生に入信をお願いし、十二月お守様を拝受させて頂き、母と共に、家中喜び合いました。<br><br>そうして、その後、沢山の奇蹟や浄化等頂き、ともすれば崩れそうになる信仰心も先生方の力強い御指導により、三年後の現在では、精神的にも、肉体的にも、健康な生命を与えて頂き、家中光明に包まれ感謝の生活をさせて頂けるようになりました。<br><br> 最後に今日まで原爆症について莫大な費用をかけて、現代医科学的にて色々研究されておりますが、「この原爆症を真に救うのは浄霊以外に無い」という事を、実際に直面した私達は、はっきりと世界中の人達に申し上げます。<br><br> 明主様、誠に有難うございました。<br><br> （昭和二十七年四月三十日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Salvo da Doença da Bomba Atômica (Publicado na revista Eikou nº 154, em 30 de abril de 1952)</h2>
 <p><strong>Província de Hiroshima, Igreja Daiko-Tyu</strong>
@@ -106,5 +261,48 @@ function toggleLang(lang) {
 <p>Para concluir, embora a ciência médica moderna tenha investido vastos recursos em inúmeras pesquisas sobre a doença da bomba atômica, nós, que vivenciamos essa realidade na própria pele, declaramos inequivocamente ao mundo inteiro: a única e verdadeira salvação para a doença da bomba atômica é o Johrei.</p>
 <p>Meishu-Sama, muito obrigado.</p>
 <p>(30 de abril de 1952)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 原爆症より救われて 『栄光』154号、昭和27(1952)年4月30日発行 広島県 大光中教会 向井 進（21） 原子爆弾！！ 科学は何とまた素晴しく恐ろしいものを作り上げたものでしょう。<br/><br/>幸にして生き残ったものの、私達の目標も家庭も、根本からくつがえされ、あの時病貧争の最底に破滅寸前のところを、世界救世教の御浄霊によって救われなかったら、どうなっていった事でしよう。<br/><br/> 明主様有難うございました。<br/><br/>この事実を御報告申し上げます。<br/><br/> 「原子爆発」運命とは言え余りにも悲惨でした。<br/><br/>軍需工場で学徒を指導していた父親は若い学徒と共に、あえない最期を遂げました。<br/><br/>私宅は爆心地より二粁程離れておるため、他の者は、全部助かりましたが、家の屋根、天井、家具等吹き飛んで、家中足の踏み入れる所もない程でした。<br/><br/>近所の者と共に裏山の谷間の避難所へ逃れ、多くの負傷者（ほとんど火傷で上半身又は、全身で二倍位に腫れて、見ただけでは誰だか判らない）と共に不安の日夜を過しました。<br/><br/>こうなっては医者も薬も間に合いません。<br/><br/>食用油や、野菜の汁を塗るのです。<br/><br/>医師の言葉では、「火傷者は特に水を欲しがるが、沢山やる事は絶対いけない」との事でしたが、実に可哀相でした。<br/><br/>「水、水、水をくれ」と皆発狂したように言うのです。<br/><br/>「少しずつでなくては駄目なんだ、我慢してくれ」と。<br/><br/>それも静かになって、動かなくなったと見れば皆黒く変色して死んで行くのです。<br/><br/>ああどうせ死ぬのなら思い切り水を飲ませてやりたかった。<br/><br/>後で分ったのですが、飲みたいだけ飲ませた方が結果が良くそのおかげで助かったという人もありました。<br/><br/>初めは何とかして、楽にして助かる方法は、と皆一生懸命看護しましたが、無慙に死んで行く状を見て茫然と放心したようになってしまいました。<br/><br/>今当時を思い起せばペンを持つ手も重く鈍ります。<br/><br/>放射能を受けた者で外面的には何ともなかったものが、黒いような血を吐き血便をし、又、頭髪がばらばらと全部抜けて、ばたばた倒れ出しました。<br/><br/>「これは爆弾と共に「毒ガス」が使われたので、市内にはまだ残っているから、危いだろう」ということで、私達も急ぎ田舎の疎開先へ逃げのびました。<br/><br/> 間もなく終戦、あの臨時ニュースを聞いた時は何とも言えない気持でした。<br/><br/>廃墟と化した広島にも青い草木の芽が吹き出しました。<br/><br/>そうして、もう住まれまいと思っていた土地に帰ることが出来ました。<br/><br/>こうして、新しい平和日本建設を目指して生きる事を喜び合ったのも束の間でした。<br/><br/>あの時放射能を左半身に受けた母は、その方の感覚が痺れたようで重く、体の調子が悪くなりました。<br/><br/> 私もとかく病気勝ちになり、身体がだるく、仕事が手につかなくなりました。<br/><br/>当時原子病と言いまして、前記のようにばたばた倒れて行くので私達もそうなるのではないかと非常に心配して、近くの医師に診て貰ったところ「これは大分肺が悪くなっているから、私の言う通りに、注意しないと危いよ」と言われました。<br/><br/>でも何となく信じられず、あっちこっちと医者に診て貰った結果皆まちまちの事を言われるので、医者にかからず薬だけ貰ってのんでおりました。<br/><br/>しかしながらだんだんと悪くなり、頭は重く、胃腸も害して、働く力もなくなり、身体は痩せ細り、幽霊のようになりました。<br/><br/>ああ強くなりたい、早く良くなりたいと焦れば焦る程悪くなりました。<br/><br/>せめて精神的にでも強いものをと、父親の残して行った、バイブルや、仏教書、精神修養などの本を出して見ましたが、それを読んで理解する力もありませんでした。<br/><br/>そうして「ああ自分は駄目だ、何も判らなくなった」と投げ出してしまいました。<br/><br/>そこには悪魔が不気味にせせら笑っておりました。<br/><br/>「神仏なんてないんだよ、あんなものはお前のような気の弱い奴が勝手に拝むものさ、幸福なんて、ちゃんちゃらおかしいや」と私もいつの間にか、そういうようになってしまいました。<br/><br/>そうして自分で自分の墓穴を掘る恐ろしい人間になりかけたのです。<br/><br/>しかし私だけを頼りにしている母や、幼い弟妹達の不安そうな顔を見るにつけ何とも言えぬ腹立たしさと良心の呵責にもだえ苦しみました。<br/><br/>こうした病気、貧乏、精神的苦痛に堪えかねて、気丈な母も「私も倒れそうだ、こんな事なら、いっそあの時皆が一緒に原子爆弾で殺されていれば良かった」と言うようになりました。<br/><br/>残されたものは"絶望"それでした。<br/><br/> "奇蹟" 二十三年九月でした。<br/><br/>近所になんとか、変った事をして病気を治す人が来ておられると聞いて、母が浄霊を三回して戴いただけでいつにない明るい顔をして「とても体が軽くなった。<br/><br/>何とも言えぬいい気持だ。<br/><br/>お前もお願いしてごらん。<br/><br/>どんな病気でもよくなるとおっしゃったよ」と熱心に勧めるので、最初はこういう事が大嫌いなので相手になりませんでしたが、しかし一度お願いして見ようか、と行って見て驚きました。<br/><br/>若い男の方で、おっしゃる事が、今までにない事ばかりなので、何となく心を引かれ、用心深く、疑いながら、一カ月続ける中に、ひどかった胃病がすっかりよくなりました。<br/><br/>母も左半身の症状が治り、そうして母がお守様を頂き、私も立派な宗教だと思ったので、先生に入信をお願いし、十二月お守様を拝受させて頂き、母と共に、家中喜び合いました。<br/><br/>そうして、その後、沢山の奇蹟や浄化等頂き、ともすれば崩れそうになる信仰心も先生方の力強い御指導により、三年後の現在では、精神的にも、肉体的にも、健康な生命を与えて頂き、家中光明に包まれ感謝の生活をさせて頂けるようになりました。<br/><br/> 最後に今日まで原爆症について莫大な費用をかけて、現代医科学的にて色々研究されておりますが、「この原爆症を真に救うのは浄霊以外に無い」という事を、実際に直面した私達は、はっきりと世界中の人達に申し上げます。<br/><br/> 明主様、誠に有難うございました。<br/><br/> （昭和二十七年四月三十日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

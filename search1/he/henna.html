@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>henna</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 変な話 ・医学談片集 『地上天国』10号、昭和24(1949)年11月20日発行 (１) 以前聞いた話だが、ある医師の息子が盲腸炎に罹り、早速手術したところ死んでしまった。<br><br>そのお医者さんいわく、「実をいえば、医者の伜でなかったら助かったかもしれない。<br><br>というのは医学上あの場合手術をすべきが医師としての常識であるからで、手術をしない訳にはゆかなかったのだ」とは、変な理屈もあるものだ。<br><br> (２) 私は以前歯痛で悩んだ時、その前日薬の綿を詰めたためと思ったので、歯科医に、 「それを除って貰いたい、そうすれば治ると思う」と言ったら歯科医は――「そんな訳はない、明日まで待ってくれ」というから、翌日行ったところ、彼いわく、「昨晩ドイツのあらゆる本を調べたところ、その薬で痛んだ例がないから痛む筈がない」――と言うので私は「筈がなくても痛くてしようがないから除ってくれ」と言ったので、渋々除ってくれたがそれで痛みはなくなった。<br><br> (３) これも歯痛当時の話、某歯科医学士に、私の慢性歯痛を診て貰った。<br><br>彼いわく、 「必ず治るから二週間来て御覧なさい」 私はその通りした。<br><br>少しも快くならないので訴えたところ、彼は、 「たとえ痛みはあっても、歯の病の方は大分よくなっている」というので、私は変だと思った。<br><br> 「歯の病なんかはどうでもいい。<br><br>痛みさえ治ればそれでいいのだから……」 (４) こういう事があった。<br><br>ある中年の婦人、頭の中に何かがいて、始終しゃべっている。<br><br>それがうるさくて時々気違いになりそうになる――という症状、で、その頃の帝大○内科に一年入院したが、少しも良くならない。<br><br>その時博士いわく、 「あなたの病気はもう治っているから退院しなさい」と言う。<br><br>妾（わたし）は、苦痛は少しも快くならないといったら博士は、 「あなたの身体をいくら診察しても、悪い所は少しもない」と言うので、「変だ」と思いながらも退院したという話で、私は二ケ月ばかり治療したら、すっかり治ってしまった。<br><br>これは唯物医学の欠点で、病原は眼に見えない霊である事を知らないからだ。<br><br> (５) よく世間でいう、お医者さんの子供が病気に罹ると、必ず自分がやらないで友達等に頼む、という事をよく聞くが、これ程変な話はあるまい。<br><br>お医者でありながら、自分の大事な子供の生命を他人に任せるという事は、どう考えても理屈が合わない。<br><br>察するところ、自分の子供となると、迷いが生ずるからだと思う。<br><br>とすれば易者の身の上判断となんら撰ぶところはない。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Relatos Insólitos</h2>
 <p>(1)
@@ -100,5 +252,48 @@ Ainda na época em que sofria com dores de dente, consultei outro dentista, grad
 Houve também o seguinte caso. Uma senhora de meia-idade se queixava de que algo em sua cabeça falava incessantemente, um tormento tão grande que, por vezes, ela sentia estar à beira da loucura. Com esse sintoma, ficou internada por um ano na clínica de medicina interna da então Universidade Imperial, sem obter a menor melhora. Ao final desse período, o médico responsável lhe disse: "Sua doença já está curada. Pode ter alta". A paciente argumentou que seu sofrimento não havia diminuído em nada, mas o doutor insistiu: "Por mais que examinemos seu corpo, não encontramos absolutamente nada de errado". Assim, embora achando a situação absurda, ela deixou o hospital. Após essa senhora me relatar sua história, tratei-a por cerca de dois meses, e ela se recuperou por completo. Este episódio ilustra a falha fundamental da medicina materialista: sua ignorância de que a verdadeira causa das doenças reside em espíritos, invisíveis aos olhos físicos.</p>
 <p>(5)
 Ouve-se com frequência o dito popular de que, quando os filhos de médicos adoecem, estes jamais os tratam pessoalmente, preferindo confiá-los aos cuidados de um colega. Dificilmente poderia haver algo mais ilógico. Que um médico, um profissional da saúde, entregue a vida de seu próprio filho — seu bem mais precioso — nas mãos de um terceiro é uma atitude que, sob qualquer análise, carece de fundamento racional. A meu ver, a única explicação plausível é que o envolvimento emocional gera hesitação e turva o julgamento. Se assim for, tal postura em nada difere da incapacidade de um vidente de prever o próprio destino.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 変な話 ・医学談片集 『地上天国』10号、昭和24(1949)年11月20日発行 (１) 以前聞いた話だが、ある医師の息子が盲腸炎に罹り、早速手術したところ死んでしまった。<br/><br/>そのお医者さんいわく、「実をいえば、医者の伜でなかったら助かったかもしれない。<br/><br/>というのは医学上あの場合手術をすべきが医師としての常識であるからで、手術をしない訳にはゆかなかったのだ」とは、変な理屈もあるものだ。<br/><br/> (２) 私は以前歯痛で悩んだ時、その前日薬の綿を詰めたためと思ったので、歯科医に、 「それを除って貰いたい、そうすれば治ると思う」と言ったら歯科医は――「そんな訳はない、明日まで待ってくれ」というから、翌日行ったところ、彼いわく、「昨晩ドイツのあらゆる本を調べたところ、その薬で痛んだ例がないから痛む筈がない」――と言うので私は「筈がなくても痛くてしようがないから除ってくれ」と言ったので、渋々除ってくれたがそれで痛みはなくなった。<br/><br/> (３) これも歯痛当時の話、某歯科医学士に、私の慢性歯痛を診て貰った。<br/><br/>彼いわく、 「必ず治るから二週間来て御覧なさい」 私はその通りした。<br/><br/>少しも快くならないので訴えたところ、彼は、 「たとえ痛みはあっても、歯の病の方は大分よくなっている」というので、私は変だと思った。<br/><br/> 「歯の病なんかはどうでもいい。<br/><br/>痛みさえ治ればそれでいいのだから……」 (４) こういう事があった。<br/><br/>ある中年の婦人、頭の中に何かがいて、始終しゃべっている。<br/><br/>それがうるさくて時々気違いになりそうになる――という症状、で、その頃の帝大○内科に一年入院したが、少しも良くならない。<br/><br/>その時博士いわく、 「あなたの病気はもう治っているから退院しなさい」と言う。<br/><br/>妾（わたし）は、苦痛は少しも快くならないといったら博士は、 「あなたの身体をいくら診察しても、悪い所は少しもない」と言うので、「変だ」と思いながらも退院したという話で、私は二ケ月ばかり治療したら、すっかり治ってしまった。<br/><br/>これは唯物医学の欠点で、病原は眼に見えない霊である事を知らないからだ。<br/><br/> (５) よく世間でいう、お医者さんの子供が病気に罹ると、必ず自分がやらないで友達等に頼む、という事をよく聞くが、これ程変な話はあるまい。<br/><br/>お医者でありながら、自分の大事な子供の生命を他人に任せるという事は、どう考えても理屈が合わない。<br/><br/>察するところ、自分の子供となると、迷いが生ずるからだと思う。<br/><br/>とすれば易者の身の上判断となんら撰ぶところはない。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

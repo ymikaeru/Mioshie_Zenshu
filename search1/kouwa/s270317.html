@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s270317</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年3月17日） 『御教え集』8号、昭和27(1952)年4月20日発行 昭和二十七年三月十七日 【御教え】 『結核信仰療法』の続きを読ませます。<br><br> （御論文「栄養」） 最近米国で、結核に良く効くという薬ができたと言う――だいぶ評判にもなってますが、まだ疑わしい点もあるなんて説もあります。<br><br>とにかくそれを書いてあるんです。<br><br> （御論文「結核新薬を嗤う」のあとの御教え）【栄光 一五〇号】 今読んだ通り黴菌というものは馬鹿馬鹿しいもので、黴菌を湧かないようにしようと言うんじゃないですからね――今のはね。<br><br>湧いたものを殺すようにしているんです。<br><br>文化というのは、みんなそうなっているんです。<br><br>罪人――犯罪者が起こる根本を無視して、起こる犯罪を防ごうとしているんですね。<br><br>ところが犯罪というのは結果なんで、犯罪をしようという人間の魂が根本なんだから、そこに気がつかないで、結果である犯罪をなくそう、なくそうとしている。<br><br>今の黴菌と同じですよ。<br><br>それで、私は今「○丶（ス）の文化」というのを書いている。<br><br>丸にチョンですね。<br><br>今までチョンがなかった。<br><br>チョンを知らなかった。<br><br>それで丸ばかりを一生懸命に良くしようとしているんですね。<br><br>だからあらゆるものがそうですね。<br><br>今までの宗教でも、大体そうなっている。<br><br>肝腎なそれが分からない。<br><br>分からないということは、肝腎なことを神様が知らしてないんです。<br><br>それは経綸上知らしてはいけないから、知らしてないんですね。<br><br>従って力というものもなかったわけですね。<br><br>力というものは、いつも言う通り霊体が、つまり経緯ですね。<br><br>経緯が結ぶんですね。<br><br>するとこの真ん中から力というものが出るんです。<br><br>真ん中の力が主ですからね。<br><br>この真ん中の主の力というものは、これもいつも言う伊都能売ですね。<br><br>伊都能売になるとその力が出る、それが観音力というものですがね。<br><br>結局、ですから力なんです。<br><br>私はその力を神様からもらっているわけですね。<br><br>こう（御浄霊）して病気が治るということも、その力の現われです。<br><br>今まではその力が出なかったから本当に救われなかったんですね。<br><br>そこで、こういう地獄のような世界になっているんです。<br><br> ところが力というものは、丸が九分九厘とすると、真ん中の力が一厘ですからね。<br><br>それで、悪の方の力が九分九厘あるから、そこでどうしてもやっつけられた。<br><br>真ん中の力というのが蔭に隠れていた。<br><br>直接に現われなかったから、どうしても表面的には悪の方が勝っちゃったんですね。<br><br>悪の方が勝ったというのは、今の医学の方ですね。<br><br>あれは、医学のそういう間違ったことは、やはり必要があったんです。<br><br>これが大乗的見方ですが、大体薬というものは、あれは毒ですね。<br><br>毒をなぜ薬といって、人間にあれを服ましたり使ったりするかというと、必要があったんです。<br><br>あれによって人間を弱らせなければいけなかった。<br><br>そこで観音様は薬師如来となって薬を奨めたんです。<br><br>そこで、人間を弱らせれば文化が発達するんです。<br><br>人間が、原始時代から健康が続いていると、物質文明というのは発達しなかった。<br><br>ですから、つまり野蛮人ですね。<br><br>野蛮人は非常に健康なんです。<br><br>健康だと満足しちゃうんです。<br><br>進歩性がなくなる。<br><br>というのは一番解りやすく言うと、身体が弱りますね。<br><br>歩くのがつらい。<br><br>じゃ、坐って遠くに行けるような物をこしらえるというようになる。<br><br>今自動車が発達したり、飛行機が発達したりするのは、結局人間が不精になったから、物事が億劫だからです。<br><br>早く寝てしまうのはつまらないから夜まで起きていたいから、というので電灯なんかを発明するね。<br><br>弱って不精になるので、発見発明があるんです。<br><br>便利にしたり、組織を良くしたりする。<br><br>それからいろんな理屈を覚えたりするのは、結局そういうためです。<br><br>文化を発達させるためにです。<br><br>文化を作るために人間を弱らせた。<br><br>それは薬でなければ弱らせられないからね。<br><br>薬で、人間を弱らせるのに、神様が人間を瞞したりね。<br><br>しかし、それが瞞しておくと、だんだん弱ってきちゃうんです。<br><br>その弱ってきたのはイギリス、フランスを見ると解ります。<br><br>近来意気地がないですね。<br><br>みんな、中央アジアにある植民地もだんだん離れて、仏印も結局離れます。<br><br>仏印からビルマですね。<br><br>あの地方はぜんぜんフランスの勢力がなくなったからね。<br><br>そこでホーチミン軍に攻められて、一生懸命に維持しようとして、うんと金使ったんですね。<br><br>たいへんなものですよ。<br><br>うんと金を使ったために、貧乏になった。<br><br>そこにアメリカからヨーロッパ統一軍を作るんで、ヤンヤ言われるんで、なるほどソ連の方も危ないから、軍備をある程度しなければならないが、金がない。<br><br>それがフランスの政変ですよ。<br><br>総理大臣ができてもできてもすぐに駄目になっちゃう。<br><br>今度三度目の、変な名前のあれも怪しいものです。<br><br>結局因の因はフランスの国民が弱ったからです。<br><br>活動力がなくなったからです。<br><br>イギリスとくると、もっとひどい。<br><br>イギリスは戦勝国――勝った国ですが、かえって日本、ドイツの方がありますね。<br><br>老人のようです。<br><br>活動力がないから生産がうんと減ったんです。<br><br>日本が戦後五、六年経って――去年ですね。<br><br>去年でも、日本の綿糸――木綿ですね。<br><br>生産が世界一になって、イギリスの方が負けちゃったんです。<br><br>そんな具合に、軍備とかそういった勢力がなくなった。<br><br>無論元気もないから、そこでおかしな話だが、中共政府をイギリスは先に承認しちゃったですね。<br><br>今じゃ後悔してますがね。<br><br>ところが米国は承認しないからね。<br><br>そこが米国とイギリスの違いです。<br><br>というのはイギリスは香港を失うのが恐いんです。<br><br>そこで中共を承認せざるを得ないんです。<br><br>今イギリスではポンドがなくなっちゃって、財政危機はたいへんなものですね。<br><br>アメリカが助けているから、どうやらやっているようなもので、実に危ないものですね。<br><br>随分アメリカから金を貸すんですが、じきにそれがなくなっちゃう。<br><br>日本からも、一億円買おうとしているが、日本じゃポンドが多過ぎちゃってね。<br><br>ポンドはうっかりすると、価格が下がる憂いがあるので、そうなるとたいへんで、日本でもポンドを増やさないようにしているが、そんな具合で、ポンドが非常に頼りないということは、生産が減ったからです。<br><br>生産が思うようにないというのに、国民の力が弱ったんです。<br><br>弱ったというのは、医学のためです。<br><br>薬のためです。<br><br>この根本が種痘ですからね。<br><br>イギリスが一番最初に始めた。<br><br>イギリス、フランスと、そういう順序になっている。<br><br>そこで種痘が一番行なわれていないのは、ソ連なんです。<br><br>米国はどうかというと、米国も遅いんです。<br><br>あれはほとんど移民ですからね。<br><br>最初にイギリスのピューリタンが渡航した。<br><br>あれが先祖ですからね。<br><br>二百人ですかね。<br><br>増えたと言っても、たいしたことはない。<br><br>ですからソ連、米国は威勢が良いんですよ。<br><br>そんなような具合で、神様の方は、薬で弱らせるのは、このままでいったら世界の人類は駄目になるから、で、これ以上やらない――私がメシヤ教であばいているのは、神様の弱らせ方法を打ち切りにするというのが本当なんです。<br><br>これほど文化を発達させて人間の智識をこれほどにしておけば、今度健康にしてやれば、鬼に金棒になりますからね。<br><br>それで初めて地上天国ができるんですね。<br><br>これは根本的の理由なんですがね。<br><br>で、その力ですが、力を――神の力を現わさなければ、目が覚めない。<br><br>その力を見せているんですね。<br><br> 力について、ちょっとおもしろいことを書いてある。<br><br> （御論文「力」）【栄光 一五一号】
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Paradoxo da Fraqueza e o Despertar pelo Poder Divino</h2>
 <p>Prosseguiremos com a leitura do artigo “A Terapia da Tuberculose pela Fé”.</p>
@@ -109,5 +261,48 @@ function toggleLang(lang) {
 <p>Para despertá-los, é imprescindível manifestar o poder, o Poder de Deus. E é esse poder que estamos demonstrando ao mundo.</p>
 <p>A esse respeito, há algo interessante escrito no artigo “Poder”.</p>
 <p>(Após a leitura do artigo “Poder”)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年3月17日） 『御教え集』8号、昭和27(1952)年4月20日発行 昭和二十七年三月十七日 【御教え】 『結核信仰療法』の続きを読ませます。<br/><br/> （御論文「栄養」） 最近米国で、結核に良く効くという薬ができたと言う――だいぶ評判にもなってますが、まだ疑わしい点もあるなんて説もあります。<br/><br/>とにかくそれを書いてあるんです。<br/><br/> （御論文「結核新薬を嗤う」のあとの御教え）【栄光 一五〇号】 今読んだ通り黴菌というものは馬鹿馬鹿しいもので、黴菌を湧かないようにしようと言うんじゃないですからね――今のはね。<br/><br/>湧いたものを殺すようにしているんです。<br/><br/>文化というのは、みんなそうなっているんです。<br/><br/>罪人――犯罪者が起こる根本を無視して、起こる犯罪を防ごうとしているんですね。<br/><br/>ところが犯罪というのは結果なんで、犯罪をしようという人間の魂が根本なんだから、そこに気がつかないで、結果である犯罪をなくそう、なくそうとしている。<br/><br/>今の黴菌と同じですよ。<br/><br/>それで、私は今「○丶（ス）の文化」というのを書いている。<br/><br/>丸にチョンですね。<br/><br/>今までチョンがなかった。<br/><br/>チョンを知らなかった。<br/><br/>それで丸ばかりを一生懸命に良くしようとしているんですね。<br/><br/>だからあらゆるものがそうですね。<br/><br/>今までの宗教でも、大体そうなっている。<br/><br/>肝腎なそれが分からない。<br/><br/>分からないということは、肝腎なことを神様が知らしてないんです。<br/><br/>それは経綸上知らしてはいけないから、知らしてないんですね。<br/><br/>従って力というものもなかったわけですね。<br/><br/>力というものは、いつも言う通り霊体が、つまり経緯ですね。<br/><br/>経緯が結ぶんですね。<br/><br/>するとこの真ん中から力というものが出るんです。<br/><br/>真ん中の力が主ですからね。<br/><br/>この真ん中の主の力というものは、これもいつも言う伊都能売ですね。<br/><br/>伊都能売になるとその力が出る、それが観音力というものですがね。<br/><br/>結局、ですから力なんです。<br/><br/>私はその力を神様からもらっているわけですね。<br/><br/>こう（御浄霊）して病気が治るということも、その力の現われです。<br/><br/>今まではその力が出なかったから本当に救われなかったんですね。<br/><br/>そこで、こういう地獄のような世界になっているんです。<br/><br/> ところが力というものは、丸が九分九厘とすると、真ん中の力が一厘ですからね。<br/><br/>それで、悪の方の力が九分九厘あるから、そこでどうしてもやっつけられた。<br/><br/>真ん中の力というのが蔭に隠れていた。<br/><br/>直接に現われなかったから、どうしても表面的には悪の方が勝っちゃったんですね。<br/><br/>悪の方が勝ったというのは、今の医学の方ですね。<br/><br/>あれは、医学のそういう間違ったことは、やはり必要があったんです。<br/><br/>これが大乗的見方ですが、大体薬というものは、あれは毒ですね。<br/><br/>毒をなぜ薬といって、人間にあれを服ましたり使ったりするかというと、必要があったんです。<br/><br/>あれによって人間を弱らせなければいけなかった。<br/><br/>そこで観音様は薬師如来となって薬を奨めたんです。<br/><br/>そこで、人間を弱らせれば文化が発達するんです。<br/><br/>人間が、原始時代から健康が続いていると、物質文明というのは発達しなかった。<br/><br/>ですから、つまり野蛮人ですね。<br/><br/>野蛮人は非常に健康なんです。<br/><br/>健康だと満足しちゃうんです。<br/><br/>進歩性がなくなる。<br/><br/>というのは一番解りやすく言うと、身体が弱りますね。<br/><br/>歩くのがつらい。<br/><br/>じゃ、坐って遠くに行けるような物をこしらえるというようになる。<br/><br/>今自動車が発達したり、飛行機が発達したりするのは、結局人間が不精になったから、物事が億劫だからです。<br/><br/>早く寝てしまうのはつまらないから夜まで起きていたいから、というので電灯なんかを発明するね。<br/><br/>弱って不精になるので、発見発明があるんです。<br/><br/>便利にしたり、組織を良くしたりする。<br/><br/>それからいろんな理屈を覚えたりするのは、結局そういうためです。<br/><br/>文化を発達させるためにです。<br/><br/>文化を作るために人間を弱らせた。<br/><br/>それは薬でなければ弱らせられないからね。<br/><br/>薬で、人間を弱らせるのに、神様が人間を瞞したりね。<br/><br/>しかし、それが瞞しておくと、だんだん弱ってきちゃうんです。<br/><br/>その弱ってきたのはイギリス、フランスを見ると解ります。<br/><br/>近来意気地がないですね。<br/><br/>みんな、中央アジアにある植民地もだんだん離れて、仏印も結局離れます。<br/><br/>仏印からビルマですね。<br/><br/>あの地方はぜんぜんフランスの勢力がなくなったからね。<br/><br/>そこでホーチミン軍に攻められて、一生懸命に維持しようとして、うんと金使ったんですね。<br/><br/>たいへんなものですよ。<br/><br/>うんと金を使ったために、貧乏になった。<br/><br/>そこにアメリカからヨーロッパ統一軍を作るんで、ヤンヤ言われるんで、なるほどソ連の方も危ないから、軍備をある程度しなければならないが、金がない。<br/><br/>それがフランスの政変ですよ。<br/><br/>総理大臣ができてもできてもすぐに駄目になっちゃう。<br/><br/>今度三度目の、変な名前のあれも怪しいものです。<br/><br/>結局因の因はフランスの国民が弱ったからです。<br/><br/>活動力がなくなったからです。<br/><br/>イギリスとくると、もっとひどい。<br/><br/>イギリスは戦勝国――勝った国ですが、かえって日本、ドイツの方がありますね。<br/><br/>老人のようです。<br/><br/>活動力がないから生産がうんと減ったんです。<br/><br/>日本が戦後五、六年経って――去年ですね。<br/><br/>去年でも、日本の綿糸――木綿ですね。<br/><br/>生産が世界一になって、イギリスの方が負けちゃったんです。<br/><br/>そんな具合に、軍備とかそういった勢力がなくなった。<br/><br/>無論元気もないから、そこでおかしな話だが、中共政府をイギリスは先に承認しちゃったですね。<br/><br/>今じゃ後悔してますがね。<br/><br/>ところが米国は承認しないからね。<br/><br/>そこが米国とイギリスの違いです。<br/><br/>というのはイギリスは香港を失うのが恐いんです。<br/><br/>そこで中共を承認せざるを得ないんです。<br/><br/>今イギリスではポンドがなくなっちゃって、財政危機はたいへんなものですね。<br/><br/>アメリカが助けているから、どうやらやっているようなもので、実に危ないものですね。<br/><br/>随分アメリカから金を貸すんですが、じきにそれがなくなっちゃう。<br/><br/>日本からも、一億円買おうとしているが、日本じゃポンドが多過ぎちゃってね。<br/><br/>ポンドはうっかりすると、価格が下がる憂いがあるので、そうなるとたいへんで、日本でもポンドを増やさないようにしているが、そんな具合で、ポンドが非常に頼りないということは、生産が減ったからです。<br/><br/>生産が思うようにないというのに、国民の力が弱ったんです。<br/><br/>弱ったというのは、医学のためです。<br/><br/>薬のためです。<br/><br/>この根本が種痘ですからね。<br/><br/>イギリスが一番最初に始めた。<br/><br/>イギリス、フランスと、そういう順序になっている。<br/><br/>そこで種痘が一番行なわれていないのは、ソ連なんです。<br/><br/>米国はどうかというと、米国も遅いんです。<br/><br/>あれはほとんど移民ですからね。<br/><br/>最初にイギリスのピューリタンが渡航した。<br/><br/>あれが先祖ですからね。<br/><br/>二百人ですかね。<br/><br/>増えたと言っても、たいしたことはない。<br/><br/>ですからソ連、米国は威勢が良いんですよ。<br/><br/>そんなような具合で、神様の方は、薬で弱らせるのは、このままでいったら世界の人類は駄目になるから、で、これ以上やらない――私がメシヤ教であばいているのは、神様の弱らせ方法を打ち切りにするというのが本当なんです。<br/><br/>これほど文化を発達させて人間の智識をこれほどにしておけば、今度健康にしてやれば、鬼に金棒になりますからね。<br/><br/>それで初めて地上天国ができるんですね。<br/><br/>これは根本的の理由なんですがね。<br/><br/>で、その力ですが、力を――神の力を現わさなければ、目が覚めない。<br/><br/>その力を見せているんですね。<br/><br/> 力について、ちょっとおもしろいことを書いてある。<br/><br/> （御論文「力」）【栄光 一五一号】</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>yakuzai1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 十一、薬剤中毒 『日本医術講義録』第１篇、昭和10(1935)年執筆 病気が、薬剤に依って治癒するものと一般は思っているが、これが大変な謬（あやま）りである。<br><br>薬剤なる物の力は、苦痛を緩和させるだけの働きである。<br><br>しかるに実際の治癒から言えば、前項に述べたるごとく、苦痛その物が病気治療の工作であるから、その苦痛を緩和するという事は治病の延期になる訳である。<br><br>しかもそれのみではない。<br><br>苦痛を緩和した、薬剤その物は、血液中に混入するのである。<br><br>元来、血液は、絶対的純潔を保たなければならない性質のものであって、人間は血液さえ純潔ならば、黴菌に対する殺菌力の強烈なるはこれも、前項に述べた通りであるから、病魔には襲われないのである。<br><br>又血液純潔ならば、その人は外界に対する抵抗力が強きを以て、冬の寒さも、夏の暑さにも、割合耐え易く、常に朗らかにして、元気旺盛なのである。<br><br>現在非常に多い、神経衰弱等は、血液の溷濁（こんだく）が原因である。<br><br>それらの多くは肉食及び薬剤服用、注射等の為が頗（すこぶ）る多いのである。<br><br>私が永い経験上、何年も薬剤を服用し、又は頻繁なる注射をなしたる人の皮膚をみれば能（よ）く判るのである。<br><br>一見するに、皮膚は黄色を帯び、光沢なく、弾力も無く、三四十にして、すでに老人の皮膚のごとくである。<br><br>かくのごとき人は、常に憂欝にして元気なく、これと言う病気が無いに拘わらず、何となく優れず、随って、年が年中、薬餌に親しむという具合で、本人は飽くまで、薬に依らざれば、健康は回復しないものと、信じ切っているから、あちこちの病院を彷（さまよ）い、又は種々の薬剤を物色しつゝ、年を経る毎に、漸次、衰弱の度を増し、ついには、生命を失うまでに到るのである。<br><br>嗚呼（ああ）、かくのごとき薬剤中毒者が、年々増加の傾向を認むるにおいては、結核や伝染病よりも恐るべきものがあるのであって、しかも、何人もこれに気が付かないというにおいては、人類社会の大問題である。<br><br>私はこういう患者へ対して、薬剤中毒のいかに恐るべきかを教えるのである。<br><br>幸にもそれを信じ、実行する人は、時日の経るに従い、薬剤中毒の自然消滅によって血行の循環は良くなり、胃腸は活力を益（ま）し、全体的健康は増進して来るのである。<br><br>特に注意すべきは、小児の発育不良、慢性下痢等である。<br><br>これらはほとんど、薬剤中毒である事は勿論、も一つ恐るべき事は、嬰児の発育停止である。<br><br>折々見る所であるが、非常に発育が悪く一年を経ても、歯が生えないとか、目方が増えないとか、ほとんど発育停止の状態なのがある。<br><br>この原因は医師に判らないという事をよく聞くが、私の診断では、矢張り、薬剤中毒である。<br><br>生後間もない嬰児には、乳以外他の何物も不可なのである故に、薬剤服用が非常な悪作用をするのである。<br><br>故に、そういう嬰児に、薬剤使用を禁止するにおいて、漸（ようや）く普通の発育状態に還（かえ）るにみても間違いのない事である。<br><br>次に、面白いのは、多く足部であるが、豆粒大もしくは、梅干大の腫物が、能く出来るのを見るであろう。<br><br>これは未だ誰も気が付かないが、実は、各種の予防注射が原因であるのである。<br><br>それは、注射薬が、一旦、血液へ混入するや、時日の経るに従い、血液自体の、不断の浄化作用によって、血液中の不純物は局部的に集中せらるるのである。<br><br>そして、なお益々（ますます）、浄化せらるるにおいて、遂に膿汁と化するのである。<br><br>その膿汁が外に出でんとする、それが、前述の腫物の発生になるのである。<br><br>故にこの場合は、自然に放置しておけば、膿汁は皮膚を破って排出され、自然に治癒するのであるが、この理を知らざる故に、驚いて医療を受ける、医師も気が付かないから切開をする、その時、無痛等の注射をするに依って、その注射薬が又、いずれは再び、膿汁となるから腫物が出来る、再び切ると言う様な事を繰返すのである。<br><br>しかるに、不幸なる患者は、医師の誤診の犠牲となり、最後に医師は再々の腫物に依って梅毒の疑を起し、駆梅療法を行うのである。<br><br>例の六百六号や、水銀療法等で、それら薬物が又、時日を経るに従い、膿汁に変化する。<br><br>こういう膿汁又は汚血は、普通肩胛部、頸部に集注する性質がある。<br><br>常に肩が凝り、首筋が凝り、頭痛がするという人は、そういう原因から来たのが多いのである。<br><br>こういう患者が、偶々（たまたま）心配や過激に頭脳使用するにおいて、精神朦朧（もうろう）となったり、頭痛眩暈（めまい）等を起すのである。<br><br>そうなると、医師の診断は、往々、脳梅毒と誤診するのである。<br><br>脳梅毒と宣告された患者は、発狂の前提と思い、恐怖心を起し、職業を抛（なげう）ち、廃人のごとき生活を送るものさえあるのである。<br><br>嗚呼（ああ）、諸君、これは架空の話や小説ではない。<br><br>実際である。<br><br>私が、観音力に依って知り得た、多数患者の病気の本源である。<br><br>即ち、始め単なる一本の予防注射が、遂に、廃人同様の脳梅毒患者にまでされてしまうのである。<br><br>何と悲惨なる事ではないか。<br><br>かく、私が述べる事は、余りにも不思議と思うであろう。<br><br>しかし、事実であるにおいて致し方がないのである。<br><br>これらの真実を社会に覚醒さする運動こそ、人類救済の、根本的、緊要事であり、政治経済以上の大問題である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Perigo da Intoxicação Medicamentosa</h2>
 <p>Geralmente, acredita-se que as doenças são curadas por meio de medicamentos, mas isso constitui um grave equívoco. A função dos fármacos limita-se a aliviar a dor. Contudo, conforme mencionei no tópico anterior, a própria dor é o mecanismo pelo qual a cura se processa. Portanto, mitigar o sofrimento equivale a adiar a recuperação da saúde.</p>
@@ -103,5 +255,48 @@ function toggleLang(lang) {
 <p>Esses novos fármacos, com o tempo, também se convertem em pus ou em sangue impuro, que, por sua natureza, tende a se acumular na região das omoplatas e do pescoço. Muitas pessoas que sofrem cronicamente de rigidez nos ombros, torcicolo e dores de cabeça têm aí a origem de seus padecimentos. Quando um paciente nessas condições passa por uma preocupação ou um esforço mental excessivo, pode experimentar confusão mental, cefaleia e vertigem. Nesse ponto, o diagnóstico médico frequentemente aponta, de maneira equivocada, para a sífilis cerebral.</p>
 <p>Ao receber um veredito de sífilis cerebral, o paciente encara-o como um prenúncio da loucura. Tomado pelo pavor, abandona seu trabalho e passa a levar uma vida de invalidez. Ah, meus senhores, isto não é ficção nem um romance. É a mais pura realidade. É a origem das enfermidades de inúmeros pacientes que pude conhecer por meio do poder de Kannon (観音). Em outras palavras, uma única injeção preventiva pode, ao fim, transformar uma pessoa em um paciente diagnosticado com sífilis cerebral e condenado a uma existência de prostração. Quão trágico é esse cenário!</p>
 <p>Talvez o que exponho lhes pareça por demais insólito. Contudo, por se tratar da verdade, nada posso fazer senão revelá-la. O movimento para despertar a sociedade para estas verdades é a missão fundamental e mais urgente para a salvação da humanidade — uma questão de magnitude muito superior à da política ou da economia.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 十一、薬剤中毒 『日本医術講義録』第１篇、昭和10(1935)年執筆 病気が、薬剤に依って治癒するものと一般は思っているが、これが大変な謬（あやま）りである。<br/><br/>薬剤なる物の力は、苦痛を緩和させるだけの働きである。<br/><br/>しかるに実際の治癒から言えば、前項に述べたるごとく、苦痛その物が病気治療の工作であるから、その苦痛を緩和するという事は治病の延期になる訳である。<br/><br/>しかもそれのみではない。<br/><br/>苦痛を緩和した、薬剤その物は、血液中に混入するのである。<br/><br/>元来、血液は、絶対的純潔を保たなければならない性質のものであって、人間は血液さえ純潔ならば、黴菌に対する殺菌力の強烈なるはこれも、前項に述べた通りであるから、病魔には襲われないのである。<br/><br/>又血液純潔ならば、その人は外界に対する抵抗力が強きを以て、冬の寒さも、夏の暑さにも、割合耐え易く、常に朗らかにして、元気旺盛なのである。<br/><br/>現在非常に多い、神経衰弱等は、血液の溷濁（こんだく）が原因である。<br/><br/>それらの多くは肉食及び薬剤服用、注射等の為が頗（すこぶ）る多いのである。<br/><br/>私が永い経験上、何年も薬剤を服用し、又は頻繁なる注射をなしたる人の皮膚をみれば能（よ）く判るのである。<br/><br/>一見するに、皮膚は黄色を帯び、光沢なく、弾力も無く、三四十にして、すでに老人の皮膚のごとくである。<br/><br/>かくのごとき人は、常に憂欝にして元気なく、これと言う病気が無いに拘わらず、何となく優れず、随って、年が年中、薬餌に親しむという具合で、本人は飽くまで、薬に依らざれば、健康は回復しないものと、信じ切っているから、あちこちの病院を彷（さまよ）い、又は種々の薬剤を物色しつゝ、年を経る毎に、漸次、衰弱の度を増し、ついには、生命を失うまでに到るのである。<br/><br/>嗚呼（ああ）、かくのごとき薬剤中毒者が、年々増加の傾向を認むるにおいては、結核や伝染病よりも恐るべきものがあるのであって、しかも、何人もこれに気が付かないというにおいては、人類社会の大問題である。<br/><br/>私はこういう患者へ対して、薬剤中毒のいかに恐るべきかを教えるのである。<br/><br/>幸にもそれを信じ、実行する人は、時日の経るに従い、薬剤中毒の自然消滅によって血行の循環は良くなり、胃腸は活力を益（ま）し、全体的健康は増進して来るのである。<br/><br/>特に注意すべきは、小児の発育不良、慢性下痢等である。<br/><br/>これらはほとんど、薬剤中毒である事は勿論、も一つ恐るべき事は、嬰児の発育停止である。<br/><br/>折々見る所であるが、非常に発育が悪く一年を経ても、歯が生えないとか、目方が増えないとか、ほとんど発育停止の状態なのがある。<br/><br/>この原因は医師に判らないという事をよく聞くが、私の診断では、矢張り、薬剤中毒である。<br/><br/>生後間もない嬰児には、乳以外他の何物も不可なのである故に、薬剤服用が非常な悪作用をするのである。<br/><br/>故に、そういう嬰児に、薬剤使用を禁止するにおいて、漸（ようや）く普通の発育状態に還（かえ）るにみても間違いのない事である。<br/><br/>次に、面白いのは、多く足部であるが、豆粒大もしくは、梅干大の腫物が、能く出来るのを見るであろう。<br/><br/>これは未だ誰も気が付かないが、実は、各種の予防注射が原因であるのである。<br/><br/>それは、注射薬が、一旦、血液へ混入するや、時日の経るに従い、血液自体の、不断の浄化作用によって、血液中の不純物は局部的に集中せらるるのである。<br/><br/>そして、なお益々（ますます）、浄化せらるるにおいて、遂に膿汁と化するのである。<br/><br/>その膿汁が外に出でんとする、それが、前述の腫物の発生になるのである。<br/><br/>故にこの場合は、自然に放置しておけば、膿汁は皮膚を破って排出され、自然に治癒するのであるが、この理を知らざる故に、驚いて医療を受ける、医師も気が付かないから切開をする、その時、無痛等の注射をするに依って、その注射薬が又、いずれは再び、膿汁となるから腫物が出来る、再び切ると言う様な事を繰返すのである。<br/><br/>しかるに、不幸なる患者は、医師の誤診の犠牲となり、最後に医師は再々の腫物に依って梅毒の疑を起し、駆梅療法を行うのである。<br/><br/>例の六百六号や、水銀療法等で、それら薬物が又、時日を経るに従い、膿汁に変化する。<br/><br/>こういう膿汁又は汚血は、普通肩胛部、頸部に集注する性質がある。<br/><br/>常に肩が凝り、首筋が凝り、頭痛がするという人は、そういう原因から来たのが多いのである。<br/><br/>こういう患者が、偶々（たまたま）心配や過激に頭脳使用するにおいて、精神朦朧（もうろう）となったり、頭痛眩暈（めまい）等を起すのである。<br/><br/>そうなると、医師の診断は、往々、脳梅毒と誤診するのである。<br/><br/>脳梅毒と宣告された患者は、発狂の前提と思い、恐怖心を起し、職業を抛（なげう）ち、廃人のごとき生活を送るものさえあるのである。<br/><br/>嗚呼（ああ）、諸君、これは架空の話や小説ではない。<br/><br/>実際である。<br/><br/>私が、観音力に依って知り得た、多数患者の病気の本源である。<br/><br/>即ち、始め単なる一本の予防注射が、遂に、廃人同様の脳梅毒患者にまでされてしまうのである。<br/><br/>何と悲惨なる事ではないか。<br/><br/>かく、私が述べる事は、余りにも不思議と思うであろう。<br/><br/>しかし、事実であるにおいて致し方がないのである。<br/><br/>これらの真実を社会に覚醒さする運動こそ、人類救済の、根本的、緊要事であり、政治経済以上の大問題である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

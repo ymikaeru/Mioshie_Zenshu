@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s270901</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年9月1日） 『御垂示録』13号、昭和27(1952)年9月25日発行 昭和二十七年九月一日 これは信仰には関係ないが、だいたい米国の一番の失態というのは、中共をして中国を侵略させたということです。<br><br>これは何かと言うと、蒋介石（しょうかいせき）のほうの援助を止めたのです。<br><br>援助を止めたということは、あまりに蒋介石のほうの政府が腐敗し切っていた。<br><br>いくら米国が金や武器を与えても、それを中共に売るのですから、それでは反って逆効果になりますからして止めたのです。<br><br>そこで米国のトルーマン政府が米国の将校――幹部を蒋介石のほうに入り込ませて急所急所をそれに握らせれば良いのです。<br><br>そうすると蒋介石のほうでもそんな悪いことをする者はなくなるから、もっとガッチリするから、そこで中共もそんなことをする隙はないのです。<br><br>それを怠ったのです。<br><br>それで中共が国民政府を台湾に押込めたのです。<br><br>それが米国の一番の失態です。<br><br>もし中共のほうが支那を占領しなくて相変わらず端のほうに引込んでいたら、第三次戦争なんか起こるはずはないのです。<br><br>とにかく第三次戦争が起こる可能性というのは、中共が支那をやったこれが第一です。<br><br>だからアジアの不安――北鮮を手に入れて南鮮に行った朝鮮の動乱も、結局中共に支那を占領された結果です。<br><br>それさえなければ、中共もどうすることもできないのです。<br><br>それをこの間の講演でマッカーサーが衝いたのです。<br><br>私は先にもマッカーサーを褒めましたが、やっぱり偉いです。<br><br>だから先にマッカーサーがああいった罷免（ひめん）をされたもとというのは、満州爆撃がいけないというので、トルーマン政府は罷免したわけです。<br><br>ですから満州爆撃は私は大いに賛成しましたが、あの時が一番良かったのです。<br><br>満州爆撃をやれば中共は一遍にまいります。<br><br>それを蛇の生殺しにしたのです。<br><br>ですから今もって停戦会談とか、いつまでもやってます。<br><br>そうして協定が結ばれるとか平和になるとか言ってますが、そんなことはない。<br><br>あれはソ連の消耗戦術です。<br><br>あれで米国は非常に金を使ってます。<br><br>だから今にも停戦協定が見えそうになって、グラグラとひっくり返っている。<br><br>そこが見えそうなものですが、米国の偉い人達は見えないでいる。<br><br>日本だって安閑としてはいられない。<br><br>米国が日本を大いに援助しますが、援助するということは朝鮮問題のためです。<br><br>朝鮮問題のためということは、みんな中共が朝鮮を占領したためです。<br><br>朝鮮を占領したということは、一つの大きな尻ぬぐいになっている。<br><br>それでソ連の計画というのは、今樺太（からふと）に非常な軍備をして、飛行機なんかずいぶん来ているらしいですが、いよいよといえば日本を北海道から侵略する予定です。<br><br>そうすると第三次戦争になる。<br><br>ところが今第三次戦争になると、まだ軍備が足りないのです。<br><br>米国に勝たないのです。<br><br>そこで米国と同じになればやるつもりです。<br><br>五カ年計画なんかでドンドン増やしてます。<br><br>軍隊の数はそれは多いです。<br><br>ソ連と中共と合わせればたいへんな数になります。<br><br>ただ武器です。<br><br>それからいろいろな生産、石油と石炭とかですが、いまだ米国に追いつかないからそれが追いつきしだい、第三次戦争が始まる――のではなくて始めるのです。<br><br>その最初として日本侵略をします。<br><br>今のところでは日本侵略の口実もないし、第三次戦争になっても勝ち目がないというので引っ込んでいるが、そのときの用意にやっつけれるだけに弱らせて置かなければならないから、共産主義を使って軍備はいけないとか、日本を弱らせるべくしたのです。<br><br>これは日本に生まれた日本人型をしたソ連人なのです。<br><br>そうしてそれを増やしているが、それには学校の先生が一番良いですから、学校の先生に働きかけている。<br><br>大学の先生なんかに非常に赤が多くなってます。<br><br>そうして生徒に吹き込んで、この間のようにいろんな赤い手段をやっているわけです。<br><br>で、破防法は政府でそれを防ぐためにやったのですが、それを日本人で反対する人がずいぶんたくさんあるのです。<br><br>反対する人は皆ソ連の利益を図っている人です。<br><br>ところがそれが自分には分らないというのは、霊的にいうとソ連の龍神の親玉の赤龍黒龍――その眷族が何億とおりますから、それが全部に憑るのです。<br><br>日本の人口の半数以上に憑かっているでしょう。<br><br>それがみんないろんな理屈をつけて思わせるのです。<br><br>そんなような意味ですから、いずれは第三次戦争は起こるのです。<br><br>で、起こると共に世界的大破壊が起こるのです。<br><br>その大破壊をするために原子爆弾というのを神様が作ってあるのです。<br><br>だからあのくらい、破壊するのに早く簡単にぶち壊す物はないのですから、神様はうまい物を作ったものです。<br><br>ですから結局そういう意味を頭に入れて、そうしてこれからを見ていくとだんだん分かります。<br><br>戦争ばかりでなく、病気も戦争もすべて浄化ですから、そういった浄化作用がだんだん強くなって行きます。<br><br>世界の大掃除です。<br><br>大浄化作用が行われるわけで、今の所ジリジリと行っているわけです。<br><br> それから日々新聞に出ましたが、敦煌の絵を出しましたから見られますから、それだけ知らせておきます。<br><br>これは世界一としてありますが、確かに世界一でしょう。<br><br>今世界に三枚ありますが、そのうちでここのが一番良いのです。<br><br>四枚あったのが、一枚はドイツで戦災で焼けてます。<br><br>それから正倉院にあるそうですが、小さい切れ端だそうです。<br><br> 「みんな大谷さんが持って来たのでしょうか」 そうです。<br><br> 「博物館にあるのも――」 博物館のはどうですか――。<br><br> 「敦煌というのはどこでございますか」 チベットと支那のちょうど中間です。<br><br> 「筆者は誰でしょうか」 分かりません。<br><br>たいていは仏画なのですが、風俗画というのは珍しいのです。<br><br>風俗画というのはないのです。<br><br> 「日本に三点ありますので――」 正倉院のは問題にならないから二つでしょう。<br><br>で、博物館のは男で、ここのは女ですが、両方並べると、恋人同志が逢う絵を画いたのです。<br><br>だから離れ離れというのは本当は面白くないのです。<br><br> 「博物館にあるのより値打がありますので――」 女だからです。<br><br>女が値打があるのです。<br><br>浮世絵と言っても、男の浮世絵なんてない。<br><br>「湯女」だって女が並んでいるから良いが、あれが野郎が並んでいたら駄目です。<br><br>男とは倍くらい違うでしょう。<br><br>しかし博物館では買い手があろうとは思わなかった。<br><br>ところで、米国に行こうとしたのですが、その前にメシヤ教は美術館をこしらえたというので一遍話をしようというので持って来た。<br><br>私の所に来なければ無論米国に行ったのです。<br><br>私はなんでもかんでも買おうと買ったのです。<br><br>ですから私は国家に対してたいへんな功績をしたのです。<br><br>米国にやらずに済んだのですから――。<br><br> 「埋めてあったので皺が寄ったのでしょうか。<br><br>もっとも千何百年も前ですから――」 とにかくあれだけに保存されたということです。<br><br>いつか見たことがあるが、壁画ですから壁土を剥がして来たので、それを合せてやっと顔の形をしているくらいですが、持ち主はたいへんな大自慢なのです。<br><br> 「ここにあるということがまた評判になります」 評判になりますよ。<br><br> 「博物館にあるのと同じときに画いたのでしょうか」 そうです。<br><br>やっぱり神様がやっているのです。<br><br> 「無論国宝になりますので――」 無論なります。<br><br> 「博物館のはなっているのでしょうか」 どうですか。<br><br>なっているでしょう。<br><br> 「この間文化財保護委員会の外郭団体に天理教で三百万円出したから、メシヤ教は五百万円出してくれと――」 天理教が三百万ならメシヤ教は三十万で良いです。<br><br> 「百年教の天理教よりメシヤ教を大きく見ているのでしょう」 ですから買い被っているのです。<br><br> 「ですから代議士をこちらからも三人くらいは出したいと思っておりますが――」 しかし、買い被らないで、小さくしておいて良いです。<br><br>私はなるだけ小さく小さくしているのが方針です。<br><br>そうすると大きくなって行くのです。<br><br>大きく見せると小さくなって行くのです。<br><br>逆効果です。<br><br>ですから私はなるだけ小さく小さくしているのです。<br><br>で、人のやることはこっちでやる必要はないのです。<br><br>政府でやれば良い。<br><br>しかしこういう美術館は誰もやらないからやったのです。<br><br> 「非常なプラスでしたが、しかしそうとうに嫉妬心を持っているのもあります」 そうです。<br><br>それは全部が良いということはない。<br><br>こっちを一番憎んでいるのは邪神です。<br><br>人を救うとか世の中を良くするということはけしからん野郎だ。<br><br>何とかしてやっつけなければならないと、それが今までのこっちの問題だったのです。<br><br> 「しかし邪神ばかりでなく、正神もありますから」 そう、正神の顔をしているのもありますから――。<br><br>邪神というものは決して悪を標榜していません。<br><br>皆善です。<br><br>それで皆一杯食うのです。<br><br>それは大きい邪神ほど善です。<br><br>医学と同じです。<br><br>医は仁術なりと言って――ですから私の本に書いてあるでしょう。<br><br>悪を善と信じて行う悪が一番恐ろしいと、ですから理屈をつけてもっともらしくしますが、非常に良いように見えて結局は悪なのです。<br><br>それが邪神のやり方です。<br><br> 「そのことで一番うまいのは共産党で――」 そうです。<br><br>しかし一番うまいのは医学です。<br><br>これは一番です。<br><br>とにかく医学が邪神の一番成功したものです。<br><br>それを今度は「文明の創造」ですっかり書いてあります。<br><br>九分九厘と一厘というのはそういうわけです。<br><br>医学というのは人間の生命を握るのですから、医学に全部生命を握られているのです。<br><br>それを私が離そうとしているのです。<br><br>九分九厘を一厘で引繰り返そうとするのです。<br><br>二千年以上かかってこうしたのですが、それを一遍にして引繰り返すのですから、驚天動地の場面でしょう。<br><br>その小手調べとして「結核信仰療法」をやっているのです。<br><br>そのうちに「文明の創造」をやるのです。<br><br>文明の創造を世界中に行き渡らせて、それから世界の大破壊となるわけです。<br><br>病人もありますし、それはたいへんなものです。<br><br>そうして、どうしてもメシヤ教に縋らなければ助からないということになるのです。<br><br>ですからよほど大きな腹を持っていないと呑み込めないわけです。<br><br>これは大本教のお筆先にもあります。<br><br>「世界始って以来ない仕組であるから、余程大きな器でないと解り兼ねが致さんぞよ」とあります。<br><br> 「最近大本教の教義を調べております」 お筆先を読んでご覧なさい。<br><br>お筆先だけです。<br><br> 「批判は別として、誰が書いたのか良くまとめてあります」 出口王仁三郎という人です。<br><br> 「話は違いますが、下関のある村の有士がただで田地を貸し与え、無肥料栽培でやってみろと言いまして――」 面白いですが、やっぱり二、三年辛抱してやってくれれば良いですが、最初の年なんかは肥毒のために非常に劣るから、それでよく中止なんかするが――。<br><br> 「自然農法は各地とも良好のようでございます」 そうでしょう。<br><br>肥毒が抜けるに従って年々良くなります。<br><br> 「今までのような不安はないようでございます」 そうでしょう。<br><br>そうして有肥のほうは逆に虫害なんかが非常に多くなって来ました。<br><br>今年は新しい虫ができたようです。<br><br>螟虫（ずいむし）と言うのですが、ああいったものが非常に多くなって来ました。<br><br>それから硫安が非常に滞貸（たいか）して困ってます。<br><br>売れないのです。<br><br> 「南洋方面には出ないのでしょうか」 東洋の各方面でも余って来たのです。<br><br> 「三カ月くらい前の新聞では台湾に非常に出しているような――」 それはまだそうとう出てますが、広川さんは硫安に反対のほうです。<br><br>それから今尿素というのをこしらえてます。<br><br> 「やっぱり人糞は悪いとは思っていないので――」 何しろ何百年何千年そういった迷信にかかっているのですから、一挙に覆（くつがえ）すということはたいへんなものです。<br><br>むしろそういうのが増えているということは素晴らしいものです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Equívoco Americano e o Plano Divino para a Purificação do Mundo</h2>
 <p>Embora este assunto transcenda a fé, o maior equívoco dos Estados Unidos foi, sem dúvida, permitir que a China Comunista subjugasse o restante do país. E qual a razão para tal desfecho? Simplesmente porque suspenderam o auxílio a Chiang Kai-shek. A suspensão da ajuda ocorreu porque o governo de Chiang Kai-shek estava imerso em um estado de corrupção absoluta. Por mais que os Estados Unidos fornecessem recursos financeiros e armamentos, estes eram prontamente vendidos aos comunistas, gerando um efeito contrário ao desejado. Diante disso, a interrupção do apoio tornou-se inevitável.</p>
@@ -115,5 +267,48 @@ function toggleLang(lang) {
 <p>A conversa muda de rumo, e me contam algo interessante: em uma vila de Shimonoseki, um homem influente cedeu suas terras de graça para que fizessem um experimento com a Agricultura Natural, sem adubos. É uma ótima iniciativa, mas é preciso ter paciência por dois ou três anos. No primeiro ano, a produção certamente será inferior devido às toxinas dos adubos presentes no solo, e muitos desistem nessa fase.</p>
 <p>Os resultados da Agricultura Natural têm sido excelentes em toda parte. À medida que as toxinas do solo são eliminadas, a colheita melhora a cada ano. Por outro lado, nas lavouras adubadas, as pragas têm se tornado cada vez mais severas. Este ano, surgiu um novo inseto, o <em>zui-mushi</em>, que está causando grandes estragos. Consequentemente, o sulfato de amônio está acumulando nos estoques, pois ninguém consegue vendê-lo. O excedente já se espalha por toda a Ásia. Embora ainda haja alguma exportação para Taiwan, o próprio Ministro Hirokawa é contra o uso do sulfato de amônio. Agora, estão produzindo ureia.</p>
 <p>As pessoas ainda não se deram conta de que o esterco humano é prejudicial. Estão presas a uma superstição de centenas, milhares de anos. Reverter isso de uma só vez é uma tarefa monumental. O fato de que a Agricultura Natural esteja se difundindo, mesmo diante de tamanha resistência, é algo verdadeiramente extraordinário.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年9月1日） 『御垂示録』13号、昭和27(1952)年9月25日発行 昭和二十七年九月一日 これは信仰には関係ないが、だいたい米国の一番の失態というのは、中共をして中国を侵略させたということです。<br/><br/>これは何かと言うと、蒋介石（しょうかいせき）のほうの援助を止めたのです。<br/><br/>援助を止めたということは、あまりに蒋介石のほうの政府が腐敗し切っていた。<br/><br/>いくら米国が金や武器を与えても、それを中共に売るのですから、それでは反って逆効果になりますからして止めたのです。<br/><br/>そこで米国のトルーマン政府が米国の将校――幹部を蒋介石のほうに入り込ませて急所急所をそれに握らせれば良いのです。<br/><br/>そうすると蒋介石のほうでもそんな悪いことをする者はなくなるから、もっとガッチリするから、そこで中共もそんなことをする隙はないのです。<br/><br/>それを怠ったのです。<br/><br/>それで中共が国民政府を台湾に押込めたのです。<br/><br/>それが米国の一番の失態です。<br/><br/>もし中共のほうが支那を占領しなくて相変わらず端のほうに引込んでいたら、第三次戦争なんか起こるはずはないのです。<br/><br/>とにかく第三次戦争が起こる可能性というのは、中共が支那をやったこれが第一です。<br/><br/>だからアジアの不安――北鮮を手に入れて南鮮に行った朝鮮の動乱も、結局中共に支那を占領された結果です。<br/><br/>それさえなければ、中共もどうすることもできないのです。<br/><br/>それをこの間の講演でマッカーサーが衝いたのです。<br/><br/>私は先にもマッカーサーを褒めましたが、やっぱり偉いです。<br/><br/>だから先にマッカーサーがああいった罷免（ひめん）をされたもとというのは、満州爆撃がいけないというので、トルーマン政府は罷免したわけです。<br/><br/>ですから満州爆撃は私は大いに賛成しましたが、あの時が一番良かったのです。<br/><br/>満州爆撃をやれば中共は一遍にまいります。<br/><br/>それを蛇の生殺しにしたのです。<br/><br/>ですから今もって停戦会談とか、いつまでもやってます。<br/><br/>そうして協定が結ばれるとか平和になるとか言ってますが、そんなことはない。<br/><br/>あれはソ連の消耗戦術です。<br/><br/>あれで米国は非常に金を使ってます。<br/><br/>だから今にも停戦協定が見えそうになって、グラグラとひっくり返っている。<br/><br/>そこが見えそうなものですが、米国の偉い人達は見えないでいる。<br/><br/>日本だって安閑としてはいられない。<br/><br/>米国が日本を大いに援助しますが、援助するということは朝鮮問題のためです。<br/><br/>朝鮮問題のためということは、みんな中共が朝鮮を占領したためです。<br/><br/>朝鮮を占領したということは、一つの大きな尻ぬぐいになっている。<br/><br/>それでソ連の計画というのは、今樺太（からふと）に非常な軍備をして、飛行機なんかずいぶん来ているらしいですが、いよいよといえば日本を北海道から侵略する予定です。<br/><br/>そうすると第三次戦争になる。<br/><br/>ところが今第三次戦争になると、まだ軍備が足りないのです。<br/><br/>米国に勝たないのです。<br/><br/>そこで米国と同じになればやるつもりです。<br/><br/>五カ年計画なんかでドンドン増やしてます。<br/><br/>軍隊の数はそれは多いです。<br/><br/>ソ連と中共と合わせればたいへんな数になります。<br/><br/>ただ武器です。<br/><br/>それからいろいろな生産、石油と石炭とかですが、いまだ米国に追いつかないからそれが追いつきしだい、第三次戦争が始まる――のではなくて始めるのです。<br/><br/>その最初として日本侵略をします。<br/><br/>今のところでは日本侵略の口実もないし、第三次戦争になっても勝ち目がないというので引っ込んでいるが、そのときの用意にやっつけれるだけに弱らせて置かなければならないから、共産主義を使って軍備はいけないとか、日本を弱らせるべくしたのです。<br/><br/>これは日本に生まれた日本人型をしたソ連人なのです。<br/><br/>そうしてそれを増やしているが、それには学校の先生が一番良いですから、学校の先生に働きかけている。<br/><br/>大学の先生なんかに非常に赤が多くなってます。<br/><br/>そうして生徒に吹き込んで、この間のようにいろんな赤い手段をやっているわけです。<br/><br/>で、破防法は政府でそれを防ぐためにやったのですが、それを日本人で反対する人がずいぶんたくさんあるのです。<br/><br/>反対する人は皆ソ連の利益を図っている人です。<br/><br/>ところがそれが自分には分らないというのは、霊的にいうとソ連の龍神の親玉の赤龍黒龍――その眷族が何億とおりますから、それが全部に憑るのです。<br/><br/>日本の人口の半数以上に憑かっているでしょう。<br/><br/>それがみんないろんな理屈をつけて思わせるのです。<br/><br/>そんなような意味ですから、いずれは第三次戦争は起こるのです。<br/><br/>で、起こると共に世界的大破壊が起こるのです。<br/><br/>その大破壊をするために原子爆弾というのを神様が作ってあるのです。<br/><br/>だからあのくらい、破壊するのに早く簡単にぶち壊す物はないのですから、神様はうまい物を作ったものです。<br/><br/>ですから結局そういう意味を頭に入れて、そうしてこれからを見ていくとだんだん分かります。<br/><br/>戦争ばかりでなく、病気も戦争もすべて浄化ですから、そういった浄化作用がだんだん強くなって行きます。<br/><br/>世界の大掃除です。<br/><br/>大浄化作用が行われるわけで、今の所ジリジリと行っているわけです。<br/><br/> それから日々新聞に出ましたが、敦煌の絵を出しましたから見られますから、それだけ知らせておきます。<br/><br/>これは世界一としてありますが、確かに世界一でしょう。<br/><br/>今世界に三枚ありますが、そのうちでここのが一番良いのです。<br/><br/>四枚あったのが、一枚はドイツで戦災で焼けてます。<br/><br/>それから正倉院にあるそうですが、小さい切れ端だそうです。<br/><br/> 「みんな大谷さんが持って来たのでしょうか」 そうです。<br/><br/> 「博物館にあるのも――」 博物館のはどうですか――。<br/><br/> 「敦煌というのはどこでございますか」 チベットと支那のちょうど中間です。<br/><br/> 「筆者は誰でしょうか」 分かりません。<br/><br/>たいていは仏画なのですが、風俗画というのは珍しいのです。<br/><br/>風俗画というのはないのです。<br/><br/> 「日本に三点ありますので――」 正倉院のは問題にならないから二つでしょう。<br/><br/>で、博物館のは男で、ここのは女ですが、両方並べると、恋人同志が逢う絵を画いたのです。<br/><br/>だから離れ離れというのは本当は面白くないのです。<br/><br/> 「博物館にあるのより値打がありますので――」 女だからです。<br/><br/>女が値打があるのです。<br/><br/>浮世絵と言っても、男の浮世絵なんてない。<br/><br/>「湯女」だって女が並んでいるから良いが、あれが野郎が並んでいたら駄目です。<br/><br/>男とは倍くらい違うでしょう。<br/><br/>しかし博物館では買い手があろうとは思わなかった。<br/><br/>ところで、米国に行こうとしたのですが、その前にメシヤ教は美術館をこしらえたというので一遍話をしようというので持って来た。<br/><br/>私の所に来なければ無論米国に行ったのです。<br/><br/>私はなんでもかんでも買おうと買ったのです。<br/><br/>ですから私は国家に対してたいへんな功績をしたのです。<br/><br/>米国にやらずに済んだのですから――。<br/><br/> 「埋めてあったので皺が寄ったのでしょうか。<br/><br/>もっとも千何百年も前ですから――」 とにかくあれだけに保存されたということです。<br/><br/>いつか見たことがあるが、壁画ですから壁土を剥がして来たので、それを合せてやっと顔の形をしているくらいですが、持ち主はたいへんな大自慢なのです。<br/><br/> 「ここにあるということがまた評判になります」 評判になりますよ。<br/><br/> 「博物館にあるのと同じときに画いたのでしょうか」 そうです。<br/><br/>やっぱり神様がやっているのです。<br/><br/> 「無論国宝になりますので――」 無論なります。<br/><br/> 「博物館のはなっているのでしょうか」 どうですか。<br/><br/>なっているでしょう。<br/><br/> 「この間文化財保護委員会の外郭団体に天理教で三百万円出したから、メシヤ教は五百万円出してくれと――」 天理教が三百万ならメシヤ教は三十万で良いです。<br/><br/> 「百年教の天理教よりメシヤ教を大きく見ているのでしょう」 ですから買い被っているのです。<br/><br/> 「ですから代議士をこちらからも三人くらいは出したいと思っておりますが――」 しかし、買い被らないで、小さくしておいて良いです。<br/><br/>私はなるだけ小さく小さくしているのが方針です。<br/><br/>そうすると大きくなって行くのです。<br/><br/>大きく見せると小さくなって行くのです。<br/><br/>逆効果です。<br/><br/>ですから私はなるだけ小さく小さくしているのです。<br/><br/>で、人のやることはこっちでやる必要はないのです。<br/><br/>政府でやれば良い。<br/><br/>しかしこういう美術館は誰もやらないからやったのです。<br/><br/> 「非常なプラスでしたが、しかしそうとうに嫉妬心を持っているのもあります」 そうです。<br/><br/>それは全部が良いということはない。<br/><br/>こっちを一番憎んでいるのは邪神です。<br/><br/>人を救うとか世の中を良くするということはけしからん野郎だ。<br/><br/>何とかしてやっつけなければならないと、それが今までのこっちの問題だったのです。<br/><br/> 「しかし邪神ばかりでなく、正神もありますから」 そう、正神の顔をしているのもありますから――。<br/><br/>邪神というものは決して悪を標榜していません。<br/><br/>皆善です。<br/><br/>それで皆一杯食うのです。<br/><br/>それは大きい邪神ほど善です。<br/><br/>医学と同じです。<br/><br/>医は仁術なりと言って――ですから私の本に書いてあるでしょう。<br/><br/>悪を善と信じて行う悪が一番恐ろしいと、ですから理屈をつけてもっともらしくしますが、非常に良いように見えて結局は悪なのです。<br/><br/>それが邪神のやり方です。<br/><br/> 「そのことで一番うまいのは共産党で――」 そうです。<br/><br/>しかし一番うまいのは医学です。<br/><br/>これは一番です。<br/><br/>とにかく医学が邪神の一番成功したものです。<br/><br/>それを今度は「文明の創造」ですっかり書いてあります。<br/><br/>九分九厘と一厘というのはそういうわけです。<br/><br/>医学というのは人間の生命を握るのですから、医学に全部生命を握られているのです。<br/><br/>それを私が離そうとしているのです。<br/><br/>九分九厘を一厘で引繰り返そうとするのです。<br/><br/>二千年以上かかってこうしたのですが、それを一遍にして引繰り返すのですから、驚天動地の場面でしょう。<br/><br/>その小手調べとして「結核信仰療法」をやっているのです。<br/><br/>そのうちに「文明の創造」をやるのです。<br/><br/>文明の創造を世界中に行き渡らせて、それから世界の大破壊となるわけです。<br/><br/>病人もありますし、それはたいへんなものです。<br/><br/>そうして、どうしてもメシヤ教に縋らなければ助からないということになるのです。<br/><br/>ですからよほど大きな腹を持っていないと呑み込めないわけです。<br/><br/>これは大本教のお筆先にもあります。<br/><br/>「世界始って以来ない仕組であるから、余程大きな器でないと解り兼ねが致さんぞよ」とあります。<br/><br/> 「最近大本教の教義を調べております」 お筆先を読んでご覧なさい。<br/><br/>お筆先だけです。<br/><br/> 「批判は別として、誰が書いたのか良くまとめてあります」 出口王仁三郎という人です。<br/><br/> 「話は違いますが、下関のある村の有士がただで田地を貸し与え、無肥料栽培でやってみろと言いまして――」 面白いですが、やっぱり二、三年辛抱してやってくれれば良いですが、最初の年なんかは肥毒のために非常に劣るから、それでよく中止なんかするが――。<br/><br/> 「自然農法は各地とも良好のようでございます」 そうでしょう。<br/><br/>肥毒が抜けるに従って年々良くなります。<br/><br/> 「今までのような不安はないようでございます」 そうでしょう。<br/><br/>そうして有肥のほうは逆に虫害なんかが非常に多くなって来ました。<br/><br/>今年は新しい虫ができたようです。<br/><br/>螟虫（ずいむし）と言うのですが、ああいったものが非常に多くなって来ました。<br/><br/>それから硫安が非常に滞貸（たいか）して困ってます。<br/><br/>売れないのです。<br/><br/> 「南洋方面には出ないのでしょうか」 東洋の各方面でも余って来たのです。<br/><br/> 「三カ月くらい前の新聞では台湾に非常に出しているような――」 それはまだそうとう出てますが、広川さんは硫安に反対のほうです。<br/><br/>それから今尿素というのをこしらえてます。<br/><br/> 「やっぱり人糞は悪いとは思っていないので――」 何しろ何百年何千年そういった迷信にかかっているのですから、一挙に覆（くつがえ）すということはたいへんなものです。<br/><br/>むしろそういうのが増えているということは素晴らしいものです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s280506</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年5月6日） 『御教え集』22号、昭和28(1953)年6月15日発行 昭和二十八年五月六日 アメリカに行っている嵐という人から報告が来て、だいぶ成績が良いです。<br><br>まだ日本人だけですけれども、もう少したつとアメリカ人の方にも拡がるだろうと思ってます。<br><br>あの人は、かたわら絵をやりながらやってますが、もう二、三カ月になるでしょう。<br><br>二十二人かの入信者ができました。<br><br>それで非常にお蔭があるので、日がたつに従って、ばかに発展すると思ってます。<br><br>今度の報告で二人の精神病がなおったのがあります。<br><br>一人は何年間とか沈黙しているのが、ふつうにしゃべるようになったのです。<br><br>また一人の方は、朝から晩までしゃべりすぎるのですが、それもふつうになってきたのです。<br><br>これは完全になおったのです。<br><br>というのは、どっちも浄霊を始めてから、血膿のようなものを非常に下痢したのです。<br><br>これなら確実になおるのです。<br><br>やっぱりここ（後頭部）にあるのが溶けて出たのですから、頭の霊の曇りがとれるからして、精神病の変な霊は抜けるか萎びるかどっちかですから、完全になおるわけです。<br><br>それに今アメリカでは精神病が一番多いそうです。<br><br>ですからこれがアメリカ人に少し分かるようになったら、たいへんなことになります。<br><br>無論そうなるに違いありません。<br><br>それから癌がなおったとか、とにかく今度のお蔭話が四つありましたが、みんな顕著なお蔭で、とにかくアメリカに信者を作るのが一番肝腎なのですから、結構だと思ってます。<br><br>また、昨日の手紙ですが、サンフランシスコで前から『栄光』を送ってあったのですが、それを読んでぜひ入信したいというが、なにしろロサンゼルスまでは三百哩（マイル）からあるのでたいへんなのです。<br><br>それで御守りを送ってもらいたいというので、特別に便宜上送ってやることにしました。<br><br>これがサンフランシスコに種をまくことになるわけです。<br><br>ですから将来は大いに有望なわけです。<br><br>それからあとは、サクラメントはまだ本格約には教修を受けてないようですが、しかし御守りをもらって、非常に熱心にやっている者がいるそうですが、いずれこの方面も始まるだろうと思ってます。<br><br>それからハワイの方はだんだん増えています。<br><br>今までに二、三百人くらい信者ができたようですから、今年一年たてばたいへんなものだろうと思います。<br><br>そういうようで、いよいよ外国方面に拡がり始めたということは、おもしろくなってきたと思ってます。<br><br>嵐さんの報告を読ませます。<br><br> （「米国通信」（二））【栄光 二〇九号】 お蔭話は今度の『栄光』に出しますから、それを読めば分かります。<br><br> 今の精神病で血膿が下ったというのは、後頭部の固まりなのです。<br><br>大体延髄付近です。<br><br>ここがやっぱり脳の血管を圧迫して、そこで貧血しているために霊が憑るというわけです。<br><br>ところが今ほとんどの病人は頭が一番多いのです。<br><br>これはあなた方も知っているでしょう。<br><br>そのための熱です。<br><br>それで頭がぼんやりするとか、食欲がないとか、元気が出ないというのは、ほとんど後頭部にあります。<br><br>だからここにある固まりですが、ここはどっちかが必ず腫れてます。<br><br>たいてい左の方が多いです。<br><br>それからその次は頸部淋巴腺です。<br><br>これでたいていな病気はなおります。<br><br>結核などでもこれ（淋巴腺）が多いです。<br><br>だから胸の病気というのは間違っているといつも言いますが、つまりこれが溶けて肺に浸入して、そこに固まりができるのです。<br><br>そこで固まりがあるから胸の病気と言うのです。<br><br>元は淋巴腺にあるのです。<br><br>だからまず、今言った所をやれば、たいていな病気はなおります。<br><br>延髄が一番目、淋巴腺が二番目、それから三番目は前頭部です。<br><br>ここを触ってみると熱があります。<br><br>熱のない人はないので、ほとんどあります。<br><br>これはここの中の熱と淋巴腺が影響する熱と両方ありますが、これは熟練しなければ見分けができませんが、大体上面が熱いのと芯から熱いのがありますが、芯から熱いのは前頭部の中からのものです。<br><br>それから上面が熱いのは淋巴腺の影響です。<br><br>それで上面の熱い人ならたいてい、淋巴腺に熱があります。<br><br>それから脳天ですが、これは患者をかがまして、できるだけ奥の方をやるのです。<br><br>それだけやれば体の方はたいてい良くなります。<br><br>まして精神病などはきっとなおります。<br><br>それから目の悪いのもなおります。<br><br>いつも言うとおり、目の悪いのは後頭部の真ん中で、ここに必ず固まりがありますから、これを浄霊すれば目ははっきりします。<br><br>それから後頭部の固まりは下痢の原因にもなります。<br><br>これからは精神病とまではいかなくても、精神病に近い人はたくさん出ます。<br><br>今でもたくさんあります。<br><br>ちょっと頭の変な人はみんなそうです。<br><br>精神病でなくても、言うことのトンチンカンな人や、線を外れる人はよくあります。<br><br>それから心得ておかなければならないことは、後頭部を浄霊すると胸が気持ち悪くなります。<br><br>軽い吐き気や胸がムカつくことがありますが、これは溶けたのが胃にはいるのですから、これも浄霊してやる必要があります。<br><br>そうしてこれがすむと、今度は下痢になって出ます。<br><br>その順序を心得てやればよいです。<br><br> それからこの前、婦人病について話した結果を二、三の婦人の告白で聞きましたが、ああいう話は今まで聞けなかったし、非常に結構だというのです。<br><br>これは一番の悩みの病気なのですが、それを分からしてもらったということは、非常にありがたかったという話がありましたから、時々それについても話をしようと思ってます。<br><br>婦人の病気については、医学的に本などでもいろいろ書いてあるが、あれはほんの上面で、根本が分からないからして、やっぱり根本を知っておかなければ駄目なのです。<br><br>それで今言った頭の毒が下がってきて、いったん腰に集まって、男は痔になりやすいのです。<br><br>ところが女の方は腰に溜まったものが、痔の方でなく前の方に行くのです。<br><br>これだけが男と違うところです。<br><br>ですから女の方が便利と言えば変ですが、排泄の管が大きいだけに非常によいのです。<br><br>男の方が厄介なのです。<br><br>男の方は出血と言っても非常に重く見られますが、女の方は平気なものです。<br><br>そういう点から言っても非常によいのです。<br><br>ところがそれを知らないために神経を起したりしますが、女のコシケというのは、ごくよいわけです。<br><br>そのコシケを悪いと思って止めたりするのが今までの医学の考え方ですが、それはとんでもない間違いなのです。<br><br>そういうようでコシケに出ればよいですが、コシケでなく出るのが困るのです。<br><br>これはつまり粘膜にカタルを起したり、それからシコリのようなものができたり、それが横の方に来て、股の方に固まって、足が吊ったりすることになるのです。<br><br>それからお腹がはるのです。<br><br>それですべて毒が下に下がって行って、お腹から足にかけて溜まっていくわけです。<br><br>しかし頭だけでなく、いろいろと胸から下がって、心臓とか肝臓の付近などのも、やっぱりいくぶん下に下がります。<br><br>だから下半身の病気というものは、すべて毒が下がって溜まるというように思っていれば間違いありません。<br><br>その毒がお腹に溜まると膀胱を圧迫しますから、その結果、小便が近くなるのと遠くなるのと両方あります。<br><br>遠くなるのは膀胱の尿の出口の方に毒が固まって尿道が細くなるので、そこでそういうのは小便が遠くなるのです。<br><br>それからそうでなく、外部から圧迫するのは近くなるのです。<br><br>それは膀胱が小さくなるからです。<br><br>それから腎臓のまわりに元気がないとか、腰がふらつくとか、力がないというのは、それが今度は腰のまわりに溜まってきます。<br><br>腰が痛いとか、すぐにくたびれるとか、足が重いとか、よく不精と言いますが、女の人でもまめなのと億劫（おっくう）がるのがありますが、億劫がるというのは腰から下が重いのです。<br><br>重いということは腰に一番固まりがあるのです。<br><br>だから尾てい骨の辺を狙って浄霊しますと、とても足が軽くなって歩きよくなります。<br><br>従って歩いて息切れのする人などは非常になおります。<br><br>息切れが腰に関係があるということは、ぜんぜん気がつかないことです。<br><br>だから自分でもそうですが、少し足が具合の悪い時は、尾てい骨の付近をやると非常に足が軽くなります。<br><br>それで婦人病の中で、女が非常に怒りっぽくなったり、憂鬱になったり、元気がなく不愉快なようなのは、子宮の辺の原因が非常にあります。<br><br>そこで腰のが溶けて前の方に出ますから、そこで腰と前の方と両方やるのです。<br><br>そうすると非常に気持ち良くなります。<br><br>それで夫婦喧嘩というような点が大いに良くなるわけです。<br><br>夫婦円満になります。<br><br>ですからこれは大いに関心を持たれることです。<br><br>信者の人ですと自分で浄霊すればよいのですから、これは一番よいです。<br><br>ただ信者にならない人は、そういうわけにはゆかないから、外部からやれば、それでよほど違います。<br><br>それからよく結婚を嫌う娘がありますが、これはここに原因があるのですから、そういう娘さんなどをふつうの人間にすることは実にたいしたことです。<br><br>これは医学の方ではどうにもならないことなのです。<br><br>外部や医学的ではぜんぜん駄目なのです。<br><br>それからもう一つ知っておかなければならないことは月経不順です。<br><br>月経がないとか少ないというのは、貧血が一番多いです。<br><br>それからあとは喇叭管の入口に毒があるために、つまり月経の通りが悪いのです。<br><br>そういうのは月経が少なかったり不順だったりするのです。<br><br>それから痛むのは、下腹と恥骨の中間辺りをやれば、おそらく固まりがありますから、着物の上からでも離してやれば必ずなおります。<br><br>月経痛というのは必ずなおります。<br><br>それから月経不順もなおります。<br><br>貧血というのは、血が少ないので、これはそうはいきません。<br><br>そのくらいにしておきます。<br><br> それから小乗と大乗について、小乗信仰はいけないということについて書いてみました。<br><br> （御論文「裁く勿れ」）【栄光 二〇八号】 これはちょっとおもしろい書き方です。<br><br> （御論文「墳墓の奴隷？」）【栄光 二〇九号】
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Expansão da Fé e a Causa Primordial das Enfermidades</h2>
 <p>Recebemos um relatório do senhor Arashi, que se encontra nos Estados Unidos, e os resultados de sua dedicação são verdadeiramente notáveis. Embora por enquanto o trabalho se restrinja à comunidade japonesa, tenho a convicção de que em breve se expandirá para os americanos. O senhor Arashi, que se dedica à pintura em paralelo à sua missão, conseguiu, em cerca de dois ou três meses, vinte e dois novos membros. E como as graças recebidas são extraordinárias, creio que, com o passar do tempo, o crescimento será exponencial.</p>
@@ -107,5 +259,48 @@ function toggleLang(lang) {
 <p>Nas enfermidades femininas, a irritabilidade, a melancolia, o desânimo e o mau humor frequentemente têm sua causa na região do útero. As toxinas da região lombar dissolvem-se e se movem para a frente. Portanto, ao ministrar Johrei tanto na parte posterior quanto na anterior, a mulher sentirá um grande bem-estar. Isso contribui enormemente para diminuir as discussões conjugais e promover a harmonia no lar. É um assunto que merece grande atenção. Para as membras da nossa Igreja, basta que apliquem Johrei em si mesmas. Para aquelas que ainda não são membros, receber Johrei de outra pessoa já fará uma diferença substancial. Existem moças que nutrem aversão ao casamento; a causa reside precisamente aí. Trazê-las de volta à normalidade é um feito grandioso, algo que a medicina é incapaz de realizar.</p>
 <p>Outro ponto a ser compreendido é a irregularidade menstrual. A ausência ou escassez de menstruação é causada, na maioria das vezes, por anemia ou por uma obstrução tóxica na entrada das trompas de Falópio, que dificulta a passagem do fluxo. Já as cólicas menstruais podem ser curadas ministrando Johrei em uma condensação que geralmente se encontra entre o baixo-ventre e o osso púbico. Mesmo sobre a roupa e a distância, a cura é certa. As cólicas menstruais são sempre curáveis, assim como a irregularidade do ciclo. A anemia, por ser uma carência de sangue, requer um tratamento diferente. Por ora, encerro este assunto aqui.</p>
 <p>Escrevi também sobre a diferença entre a fé da Pequena Via e a da Grande Via, e por que a primeira é inadequada. E há outro artigo, com uma abordagem um tanto interessante, intitulado "Escravos do Sepulcro?".</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年5月6日） 『御教え集』22号、昭和28(1953)年6月15日発行 昭和二十八年五月六日 アメリカに行っている嵐という人から報告が来て、だいぶ成績が良いです。<br/><br/>まだ日本人だけですけれども、もう少したつとアメリカ人の方にも拡がるだろうと思ってます。<br/><br/>あの人は、かたわら絵をやりながらやってますが、もう二、三カ月になるでしょう。<br/><br/>二十二人かの入信者ができました。<br/><br/>それで非常にお蔭があるので、日がたつに従って、ばかに発展すると思ってます。<br/><br/>今度の報告で二人の精神病がなおったのがあります。<br/><br/>一人は何年間とか沈黙しているのが、ふつうにしゃべるようになったのです。<br/><br/>また一人の方は、朝から晩までしゃべりすぎるのですが、それもふつうになってきたのです。<br/><br/>これは完全になおったのです。<br/><br/>というのは、どっちも浄霊を始めてから、血膿のようなものを非常に下痢したのです。<br/><br/>これなら確実になおるのです。<br/><br/>やっぱりここ（後頭部）にあるのが溶けて出たのですから、頭の霊の曇りがとれるからして、精神病の変な霊は抜けるか萎びるかどっちかですから、完全になおるわけです。<br/><br/>それに今アメリカでは精神病が一番多いそうです。<br/><br/>ですからこれがアメリカ人に少し分かるようになったら、たいへんなことになります。<br/><br/>無論そうなるに違いありません。<br/><br/>それから癌がなおったとか、とにかく今度のお蔭話が四つありましたが、みんな顕著なお蔭で、とにかくアメリカに信者を作るのが一番肝腎なのですから、結構だと思ってます。<br/><br/>また、昨日の手紙ですが、サンフランシスコで前から『栄光』を送ってあったのですが、それを読んでぜひ入信したいというが、なにしろロサンゼルスまでは三百哩（マイル）からあるのでたいへんなのです。<br/><br/>それで御守りを送ってもらいたいというので、特別に便宜上送ってやることにしました。<br/><br/>これがサンフランシスコに種をまくことになるわけです。<br/><br/>ですから将来は大いに有望なわけです。<br/><br/>それからあとは、サクラメントはまだ本格約には教修を受けてないようですが、しかし御守りをもらって、非常に熱心にやっている者がいるそうですが、いずれこの方面も始まるだろうと思ってます。<br/><br/>それからハワイの方はだんだん増えています。<br/><br/>今までに二、三百人くらい信者ができたようですから、今年一年たてばたいへんなものだろうと思います。<br/><br/>そういうようで、いよいよ外国方面に拡がり始めたということは、おもしろくなってきたと思ってます。<br/><br/>嵐さんの報告を読ませます。<br/><br/> （「米国通信」（二））【栄光 二〇九号】 お蔭話は今度の『栄光』に出しますから、それを読めば分かります。<br/><br/> 今の精神病で血膿が下ったというのは、後頭部の固まりなのです。<br/><br/>大体延髄付近です。<br/><br/>ここがやっぱり脳の血管を圧迫して、そこで貧血しているために霊が憑るというわけです。<br/><br/>ところが今ほとんどの病人は頭が一番多いのです。<br/><br/>これはあなた方も知っているでしょう。<br/><br/>そのための熱です。<br/><br/>それで頭がぼんやりするとか、食欲がないとか、元気が出ないというのは、ほとんど後頭部にあります。<br/><br/>だからここにある固まりですが、ここはどっちかが必ず腫れてます。<br/><br/>たいてい左の方が多いです。<br/><br/>それからその次は頸部淋巴腺です。<br/><br/>これでたいていな病気はなおります。<br/><br/>結核などでもこれ（淋巴腺）が多いです。<br/><br/>だから胸の病気というのは間違っているといつも言いますが、つまりこれが溶けて肺に浸入して、そこに固まりができるのです。<br/><br/>そこで固まりがあるから胸の病気と言うのです。<br/><br/>元は淋巴腺にあるのです。<br/><br/>だからまず、今言った所をやれば、たいていな病気はなおります。<br/><br/>延髄が一番目、淋巴腺が二番目、それから三番目は前頭部です。<br/><br/>ここを触ってみると熱があります。<br/><br/>熱のない人はないので、ほとんどあります。<br/><br/>これはここの中の熱と淋巴腺が影響する熱と両方ありますが、これは熟練しなければ見分けができませんが、大体上面が熱いのと芯から熱いのがありますが、芯から熱いのは前頭部の中からのものです。<br/><br/>それから上面が熱いのは淋巴腺の影響です。<br/><br/>それで上面の熱い人ならたいてい、淋巴腺に熱があります。<br/><br/>それから脳天ですが、これは患者をかがまして、できるだけ奥の方をやるのです。<br/><br/>それだけやれば体の方はたいてい良くなります。<br/><br/>まして精神病などはきっとなおります。<br/><br/>それから目の悪いのもなおります。<br/><br/>いつも言うとおり、目の悪いのは後頭部の真ん中で、ここに必ず固まりがありますから、これを浄霊すれば目ははっきりします。<br/><br/>それから後頭部の固まりは下痢の原因にもなります。<br/><br/>これからは精神病とまではいかなくても、精神病に近い人はたくさん出ます。<br/><br/>今でもたくさんあります。<br/><br/>ちょっと頭の変な人はみんなそうです。<br/><br/>精神病でなくても、言うことのトンチンカンな人や、線を外れる人はよくあります。<br/><br/>それから心得ておかなければならないことは、後頭部を浄霊すると胸が気持ち悪くなります。<br/><br/>軽い吐き気や胸がムカつくことがありますが、これは溶けたのが胃にはいるのですから、これも浄霊してやる必要があります。<br/><br/>そうしてこれがすむと、今度は下痢になって出ます。<br/><br/>その順序を心得てやればよいです。<br/><br/> それからこの前、婦人病について話した結果を二、三の婦人の告白で聞きましたが、ああいう話は今まで聞けなかったし、非常に結構だというのです。<br/><br/>これは一番の悩みの病気なのですが、それを分からしてもらったということは、非常にありがたかったという話がありましたから、時々それについても話をしようと思ってます。<br/><br/>婦人の病気については、医学的に本などでもいろいろ書いてあるが、あれはほんの上面で、根本が分からないからして、やっぱり根本を知っておかなければ駄目なのです。<br/><br/>それで今言った頭の毒が下がってきて、いったん腰に集まって、男は痔になりやすいのです。<br/><br/>ところが女の方は腰に溜まったものが、痔の方でなく前の方に行くのです。<br/><br/>これだけが男と違うところです。<br/><br/>ですから女の方が便利と言えば変ですが、排泄の管が大きいだけに非常によいのです。<br/><br/>男の方が厄介なのです。<br/><br/>男の方は出血と言っても非常に重く見られますが、女の方は平気なものです。<br/><br/>そういう点から言っても非常によいのです。<br/><br/>ところがそれを知らないために神経を起したりしますが、女のコシケというのは、ごくよいわけです。<br/><br/>そのコシケを悪いと思って止めたりするのが今までの医学の考え方ですが、それはとんでもない間違いなのです。<br/><br/>そういうようでコシケに出ればよいですが、コシケでなく出るのが困るのです。<br/><br/>これはつまり粘膜にカタルを起したり、それからシコリのようなものができたり、それが横の方に来て、股の方に固まって、足が吊ったりすることになるのです。<br/><br/>それからお腹がはるのです。<br/><br/>それですべて毒が下に下がって行って、お腹から足にかけて溜まっていくわけです。<br/><br/>しかし頭だけでなく、いろいろと胸から下がって、心臓とか肝臓の付近などのも、やっぱりいくぶん下に下がります。<br/><br/>だから下半身の病気というものは、すべて毒が下がって溜まるというように思っていれば間違いありません。<br/><br/>その毒がお腹に溜まると膀胱を圧迫しますから、その結果、小便が近くなるのと遠くなるのと両方あります。<br/><br/>遠くなるのは膀胱の尿の出口の方に毒が固まって尿道が細くなるので、そこでそういうのは小便が遠くなるのです。<br/><br/>それからそうでなく、外部から圧迫するのは近くなるのです。<br/><br/>それは膀胱が小さくなるからです。<br/><br/>それから腎臓のまわりに元気がないとか、腰がふらつくとか、力がないというのは、それが今度は腰のまわりに溜まってきます。<br/><br/>腰が痛いとか、すぐにくたびれるとか、足が重いとか、よく不精と言いますが、女の人でもまめなのと億劫（おっくう）がるのがありますが、億劫がるというのは腰から下が重いのです。<br/><br/>重いということは腰に一番固まりがあるのです。<br/><br/>だから尾てい骨の辺を狙って浄霊しますと、とても足が軽くなって歩きよくなります。<br/><br/>従って歩いて息切れのする人などは非常になおります。<br/><br/>息切れが腰に関係があるということは、ぜんぜん気がつかないことです。<br/><br/>だから自分でもそうですが、少し足が具合の悪い時は、尾てい骨の付近をやると非常に足が軽くなります。<br/><br/>それで婦人病の中で、女が非常に怒りっぽくなったり、憂鬱になったり、元気がなく不愉快なようなのは、子宮の辺の原因が非常にあります。<br/><br/>そこで腰のが溶けて前の方に出ますから、そこで腰と前の方と両方やるのです。<br/><br/>そうすると非常に気持ち良くなります。<br/><br/>それで夫婦喧嘩というような点が大いに良くなるわけです。<br/><br/>夫婦円満になります。<br/><br/>ですからこれは大いに関心を持たれることです。<br/><br/>信者の人ですと自分で浄霊すればよいのですから、これは一番よいです。<br/><br/>ただ信者にならない人は、そういうわけにはゆかないから、外部からやれば、それでよほど違います。<br/><br/>それからよく結婚を嫌う娘がありますが、これはここに原因があるのですから、そういう娘さんなどをふつうの人間にすることは実にたいしたことです。<br/><br/>これは医学の方ではどうにもならないことなのです。<br/><br/>外部や医学的ではぜんぜん駄目なのです。<br/><br/>それからもう一つ知っておかなければならないことは月経不順です。<br/><br/>月経がないとか少ないというのは、貧血が一番多いです。<br/><br/>それからあとは喇叭管の入口に毒があるために、つまり月経の通りが悪いのです。<br/><br/>そういうのは月経が少なかったり不順だったりするのです。<br/><br/>それから痛むのは、下腹と恥骨の中間辺りをやれば、おそらく固まりがありますから、着物の上からでも離してやれば必ずなおります。<br/><br/>月経痛というのは必ずなおります。<br/><br/>それから月経不順もなおります。<br/><br/>貧血というのは、血が少ないので、これはそうはいきません。<br/><br/>そのくらいにしておきます。<br/><br/> それから小乗と大乗について、小乗信仰はいけないということについて書いてみました。<br/><br/> （御論文「裁く勿れ」）【栄光 二〇八号】 これはちょっとおもしろい書き方です。<br/><br/> （御論文「墳墓の奴隷？」）【栄光 二〇九号】</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

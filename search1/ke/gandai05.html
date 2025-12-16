@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>gandai05</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 現代医学論 『栄光』105号、昭和26(1951)年5月23日発行 この文をかくに当って、前もって断っておきたい事は、医学論と言っても、決して実際から遊離したドクマ的のものではない。<br><br>どこまでも事実を根拠としてかくのであるから、そのつもりで読まれたいのである。<br><br>とはいうものの、この論文を見る第三者としては、余りに想像もつかない程の、驚異的理論なので、そのまま受入れる事は到底出来ないであろう。<br><br> そうして全文を通じて、現代医学がいかに誤っているかを、徹底的に剔出したのであるから、一般人は固（もと）より、専門家に至っても余りに驚異的で、信ずるどころではあるまい。<br><br>ゆえに医学の進歩を謳歌（おうか）している現在、このような論をなすものは、狂人でない限り、世界中どこを探してもまずあるまい。<br><br>しかしながら事実は飽くまで事実である以上、発表しない訳にはゆかないのである。<br><br>何となればいずれは世界人類ことごとくが、知る時が来るのは間違いないからである。<br><br>また私がこの素晴しい福音を発見したという事は、重大な意味がなくてはならない。<br><br>全く神の恩恵でなくして何であろう。<br><br>そうして一日でも早ければ早い程、それだけ人類の不幸は軽減されるのである。<br><br> 以上の意味によって、専門家諸君が心から理解のゆくまでは、一個の新しい学説として、参考とされたいのである。<br><br>またこの事について私は、目下「文明の創造」なる題名の下に、一大論文を執筆中で、完成の上は全世界の学界は固（もと）より、ノーベル賞審査委員会にも提出するつもりである。<br><br>恐らく世界の医学界に対する原子爆弾であろう。<br><br>これによって真の医学の確立となる事は、断言してはばからないのである。<br><br>この著は一言にしていえば、終末期に際し、医学の真理を神が開示されたと思えばいいのである。<br><br> さて、いよいよ本文に取掛るが、まず、これから説くところの私の説であるが、これを読む前に今までの既成観念をことごとく払拭（ふっしょく）し、白紙となって読まれたいのである。<br><br>いささかでも既成観念があるとそれが邪魔となり、反感が起ったりして、肯（うなず）き難い事になるからである。<br><br>そこでまず結論から先にいえば、現代医学の病気を治そうとするその手段方法が、実は病気を作る方法になる事である。<br><br>昔から医は仁術と言い、まことに聖なる業としていたものが、実はその反対の結果を招来するとしたら人類にとってこれほど重大問題はあるまい。<br><br> ところで、そもそも病気とは何ぞやというと、神示によれば、人間が先天的及び後天的に保有せる毒素の、自然排除作用による苦痛を名付けたのである。<br><br>ところが、これに気が付かなかった人類は、これと反対の解釈をしたのが既成医学の観念である。<br><br>従って医療を施せば施す程反対の結果となり、病状は益々悪化するのである。<br><br>この理によって病気に罹っても、放置しておけば毒素は順調に排除されるから、病は速かに治り、健康は増進するので、これが真理であるから、この理に反した療法によって、苦しんで来た文化民族の盲点は、何と評していいか言葉はないのである。<br><br>何よりも本教刊行の機関紙に、現在一力月百人から二百人に上る実例報告を載せているにみて、これ以上確実な証拠はあるまい。<br><br>従って私はこの実例を根拠としての所論であるから、一点の誤りはないのである。<br><br>そうして人間一度病気に罹るや、誰しもまず医師に掛かるが、簡単に治るものと容易に治らないものとが出来る。<br><br>もちろん、いずれにせよ、全治とか根治とかはほとんどないと言っていい。<br><br>例えば寒冒に罹るとすると一旦治っても時を経て必ず再発する。<br><br>恐らく寒冒のような軽いものでさえ、治り切りにはならないばかりか、むしろ再発する毎に漸次悪化の度を加え、不幸な人は初期結核にまで発展するのである。<br><br>近来のごとき結核の激増がそれをよく物語っている。<br><br> そうして一番厄介なのは、寒冒が拗（こじ）れる場合である。<br><br>これしきの病気でグズグズしているなんて、馬鹿馬鹿しいと焦（あせ）りが出るが、これが非常に悪い。<br><br>何となれば焦る程薬を余計に用いたり、間違った手当をするからである。<br><br>そこでこれは医者が下手（へた）だと思い医者や病院を取換えるが、事実は変えれば換える程、悪化の度を増すばかりである。<br><br>ついに医療では到底治らないと諦め、漢方や民間療法、信仰療法等々、いいという療法は残らず試みるが、大同小異で、本当に治るものは一つもないという訳で、最後のギリギリになって、ようやく本教へ救いを求めに来るのが、一般患者の御定法（ごじょうほう）である。<br><br>すると今までのあらゆる療法とは余りに異（ちが）いすぎる。<br><br>事実本当に治ってゆく。<br><br>薬も機械も使わない、身体に手も触れないでドンドン治るので実に不思議だ。<br><br>解らない。<br><br>しかし判らなくても治ればいい。<br><br>助かりさえすりゃそれでいいのだ。<br><br>嗚呼（ああ）、やっと探し求めたものが見付かったのだという感謝感激は、お蔭話欄に満載されており、そのような経路で救われる人々は、日に月に漸増しつつあるのである。<br><br> 右は、救われた経路をありのままかいたのであるが、しからば医療がなぜ予想と反対の結果になるかというと、言うまでもなく薬剤がその主なるものである。<br><br>元来薬なるものは一つもない。<br><br>全部毒であって、これは医学でも大体認められている。<br><br>つまり毒の力を借りて、一時的苦痛を押えるのである。<br><br>ところが実際は苦痛を緩和する事と、病を治す事とは根本的に異（ちが）うのである。<br><br>それを知らない医学は、苦痛が減るのを病が治るものと錯覚し、苦痛を減らす事のみに専念し、研究を続けて来たのである。<br><br>だから苦痛を減らす方法は、益々進歩するが肝腎な病の方は治らないままである。<br><br>この原理を私は発見したのである。<br><br>ところが厄介な事にはその薬毒が残存して、それがまた病源となる。<br><br>というのはその薬毒の排除作用が病気だからである。<br><br>何よりも少し病気が長引くと、余病が発（おこ）るのみか、それが段々増えてゆき、ついには五つにも六つにもなって、どうにもならなくなるという実例をよく見受けるのである。<br><br>こうなると患者の苦しみは大変なもので、結局生命を失うという結果になる。<br><br>これらの点を既成観念に囚われる事なく、冷静に検討してみる時、最初の病気が治らない内に余病が発るとは理屈に合わない話ではないか、本当に治るものなら最初の病気が段々軽くなるから、余病など発る訳はあるまい。<br><br>こんな判り切った事に気が付かないのは全く既成観念の虜（とりこ）となり、盲目となっているからである。<br><br>何よりも事実がよく示している。<br><br>見よ現代人の多病なる、どんな人でも、一つや二つの病をもっていない人はあるまい。<br><br>また結核や伝染病に罹り易いのと神経衰弱等の人間が益々増えるにみても、明らかである。<br><br>今は故人となった当時の名医入沢達吉博士の著書の中に、こういう事が出ていた。<br><br>それは「医学がなくなれば、それに伴って病人もなくなるであろう」との一節で、大いに玩味すべき言葉であろう。<br><br> 今一つ、世人の余り気が付かない例を挙げてみるが、前述のごとく病気が余りに治らない結果、何らかの信仰によって治そうとする。<br><br>ところがどんな信仰でも、必ず薬だけは用いさせないもので、今まで薬毒に浸っていた者も、一度廃（や）めると共に、精神も手伝って幾分快方に向う、すると宗教家は御利益でよくなったといい、患者もそう信じ、有難いと思ってその信者となる。<br><br>という訳であるから結果からみて、医療が新宗教を発展させるという事になる。<br><br>論より証拠、雨後の筍（たけのこ）のように出来る新宗教が、ともかく命脈を保っているのはこのためでもあろう。<br><br> そうして今まで述べた説に従って、お蔭話を読んでみるがいい。<br><br>私のいう事と現実といささかの喰い違いもない事である。<br><br>従ってこの事が、徹底的に医学界に認識されるとしたら、いかに大多数の人間が救われるかを想う時、凝乎（じっ）としてはおれないのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Ensaio sobre a Medicina Moderna</h2>
 <p><em>Publicado na revista Eikou, nº 105, em 23 de maio de 1951</em></p>
@@ -110,5 +262,48 @@ function toggleLang(lang) {
 <p>A realidade o demonstra com clareza. Observem como as pessoas de hoje são enfermas. Dificilmente encontraremos alguém que não tenha uma ou duas doenças. A crescente suscetibilidade a moléstias como a tuberculose e as doenças infecciosas, bem como o aumento de casos de esgotamento nervoso, corroboram essa afirmação. Nas obras do falecido Dr. Tatsukichi Irisawa, um renomado médico de sua época, encontrei a seguinte passagem, que merece profunda reflexão: “Se a medicina desaparecesse, com ela desapareceriam também os doentes”.</p>
 <p>Gostaria ainda de citar um exemplo que costuma passar despercebido pela maioria das pessoas. Conforme mencionei, quando os tratamentos se mostram ineficazes, muitos buscam a cura por meio de alguma fé. Em praticamente todas as práticas religiosas, a primeira orientação é a suspensão de todos os medicamentos. Para aqueles que estavam saturados de toxinas medicamentosas, o simples fato de interromper seu uso, somado ao fator espiritual, já resulta em alguma melhora. O líder religioso atribui o progresso a um milagre, o paciente acredita e, grato, torna-se um seguidor. A conclusão irônica é que o fracasso da medicina acaba por fomentar o desenvolvimento de novas religiões. A prova disso talvez esteja no fato de que essas novas fés, que brotam como cogumelos após a chuva, conseguem, de alguma forma, manter-se ativas.</p>
 <p>Convido o leitor, portanto, a ler os testemunhos de graças alcançadas à luz do que foi exposto até aqui. Verá que não há a menor discrepância entre minha tese e a realidade dos fatos. Por conseguinte, ao pensar em quantas vidas poderiam ser salvas se a comunidade médica reconhecesse esta verdade de forma cabal, sinto que não posso permanecer inerte.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 現代医学論 『栄光』105号、昭和26(1951)年5月23日発行 この文をかくに当って、前もって断っておきたい事は、医学論と言っても、決して実際から遊離したドクマ的のものではない。<br/><br/>どこまでも事実を根拠としてかくのであるから、そのつもりで読まれたいのである。<br/><br/>とはいうものの、この論文を見る第三者としては、余りに想像もつかない程の、驚異的理論なので、そのまま受入れる事は到底出来ないであろう。<br/><br/> そうして全文を通じて、現代医学がいかに誤っているかを、徹底的に剔出したのであるから、一般人は固（もと）より、専門家に至っても余りに驚異的で、信ずるどころではあるまい。<br/><br/>ゆえに医学の進歩を謳歌（おうか）している現在、このような論をなすものは、狂人でない限り、世界中どこを探してもまずあるまい。<br/><br/>しかしながら事実は飽くまで事実である以上、発表しない訳にはゆかないのである。<br/><br/>何となればいずれは世界人類ことごとくが、知る時が来るのは間違いないからである。<br/><br/>また私がこの素晴しい福音を発見したという事は、重大な意味がなくてはならない。<br/><br/>全く神の恩恵でなくして何であろう。<br/><br/>そうして一日でも早ければ早い程、それだけ人類の不幸は軽減されるのである。<br/><br/> 以上の意味によって、専門家諸君が心から理解のゆくまでは、一個の新しい学説として、参考とされたいのである。<br/><br/>またこの事について私は、目下「文明の創造」なる題名の下に、一大論文を執筆中で、完成の上は全世界の学界は固（もと）より、ノーベル賞審査委員会にも提出するつもりである。<br/><br/>恐らく世界の医学界に対する原子爆弾であろう。<br/><br/>これによって真の医学の確立となる事は、断言してはばからないのである。<br/><br/>この著は一言にしていえば、終末期に際し、医学の真理を神が開示されたと思えばいいのである。<br/><br/> さて、いよいよ本文に取掛るが、まず、これから説くところの私の説であるが、これを読む前に今までの既成観念をことごとく払拭（ふっしょく）し、白紙となって読まれたいのである。<br/><br/>いささかでも既成観念があるとそれが邪魔となり、反感が起ったりして、肯（うなず）き難い事になるからである。<br/><br/>そこでまず結論から先にいえば、現代医学の病気を治そうとするその手段方法が、実は病気を作る方法になる事である。<br/><br/>昔から医は仁術と言い、まことに聖なる業としていたものが、実はその反対の結果を招来するとしたら人類にとってこれほど重大問題はあるまい。<br/><br/> ところで、そもそも病気とは何ぞやというと、神示によれば、人間が先天的及び後天的に保有せる毒素の、自然排除作用による苦痛を名付けたのである。<br/><br/>ところが、これに気が付かなかった人類は、これと反対の解釈をしたのが既成医学の観念である。<br/><br/>従って医療を施せば施す程反対の結果となり、病状は益々悪化するのである。<br/><br/>この理によって病気に罹っても、放置しておけば毒素は順調に排除されるから、病は速かに治り、健康は増進するので、これが真理であるから、この理に反した療法によって、苦しんで来た文化民族の盲点は、何と評していいか言葉はないのである。<br/><br/>何よりも本教刊行の機関紙に、現在一力月百人から二百人に上る実例報告を載せているにみて、これ以上確実な証拠はあるまい。<br/><br/>従って私はこの実例を根拠としての所論であるから、一点の誤りはないのである。<br/><br/>そうして人間一度病気に罹るや、誰しもまず医師に掛かるが、簡単に治るものと容易に治らないものとが出来る。<br/><br/>もちろん、いずれにせよ、全治とか根治とかはほとんどないと言っていい。<br/><br/>例えば寒冒に罹るとすると一旦治っても時を経て必ず再発する。<br/><br/>恐らく寒冒のような軽いものでさえ、治り切りにはならないばかりか、むしろ再発する毎に漸次悪化の度を加え、不幸な人は初期結核にまで発展するのである。<br/><br/>近来のごとき結核の激増がそれをよく物語っている。<br/><br/> そうして一番厄介なのは、寒冒が拗（こじ）れる場合である。<br/><br/>これしきの病気でグズグズしているなんて、馬鹿馬鹿しいと焦（あせ）りが出るが、これが非常に悪い。<br/><br/>何となれば焦る程薬を余計に用いたり、間違った手当をするからである。<br/><br/>そこでこれは医者が下手（へた）だと思い医者や病院を取換えるが、事実は変えれば換える程、悪化の度を増すばかりである。<br/><br/>ついに医療では到底治らないと諦め、漢方や民間療法、信仰療法等々、いいという療法は残らず試みるが、大同小異で、本当に治るものは一つもないという訳で、最後のギリギリになって、ようやく本教へ救いを求めに来るのが、一般患者の御定法（ごじょうほう）である。<br/><br/>すると今までのあらゆる療法とは余りに異（ちが）いすぎる。<br/><br/>事実本当に治ってゆく。<br/><br/>薬も機械も使わない、身体に手も触れないでドンドン治るので実に不思議だ。<br/><br/>解らない。<br/><br/>しかし判らなくても治ればいい。<br/><br/>助かりさえすりゃそれでいいのだ。<br/><br/>嗚呼（ああ）、やっと探し求めたものが見付かったのだという感謝感激は、お蔭話欄に満載されており、そのような経路で救われる人々は、日に月に漸増しつつあるのである。<br/><br/> 右は、救われた経路をありのままかいたのであるが、しからば医療がなぜ予想と反対の結果になるかというと、言うまでもなく薬剤がその主なるものである。<br/><br/>元来薬なるものは一つもない。<br/><br/>全部毒であって、これは医学でも大体認められている。<br/><br/>つまり毒の力を借りて、一時的苦痛を押えるのである。<br/><br/>ところが実際は苦痛を緩和する事と、病を治す事とは根本的に異（ちが）うのである。<br/><br/>それを知らない医学は、苦痛が減るのを病が治るものと錯覚し、苦痛を減らす事のみに専念し、研究を続けて来たのである。<br/><br/>だから苦痛を減らす方法は、益々進歩するが肝腎な病の方は治らないままである。<br/><br/>この原理を私は発見したのである。<br/><br/>ところが厄介な事にはその薬毒が残存して、それがまた病源となる。<br/><br/>というのはその薬毒の排除作用が病気だからである。<br/><br/>何よりも少し病気が長引くと、余病が発（おこ）るのみか、それが段々増えてゆき、ついには五つにも六つにもなって、どうにもならなくなるという実例をよく見受けるのである。<br/><br/>こうなると患者の苦しみは大変なもので、結局生命を失うという結果になる。<br/><br/>これらの点を既成観念に囚われる事なく、冷静に検討してみる時、最初の病気が治らない内に余病が発るとは理屈に合わない話ではないか、本当に治るものなら最初の病気が段々軽くなるから、余病など発る訳はあるまい。<br/><br/>こんな判り切った事に気が付かないのは全く既成観念の虜（とりこ）となり、盲目となっているからである。<br/><br/>何よりも事実がよく示している。<br/><br/>見よ現代人の多病なる、どんな人でも、一つや二つの病をもっていない人はあるまい。<br/><br/>また結核や伝染病に罹り易いのと神経衰弱等の人間が益々増えるにみても、明らかである。<br/><br/>今は故人となった当時の名医入沢達吉博士の著書の中に、こういう事が出ていた。<br/><br/>それは「医学がなくなれば、それに伴って病人もなくなるであろう」との一節で、大いに玩味すべき言葉であろう。<br/><br/> 今一つ、世人の余り気が付かない例を挙げてみるが、前述のごとく病気が余りに治らない結果、何らかの信仰によって治そうとする。<br/><br/>ところがどんな信仰でも、必ず薬だけは用いさせないもので、今まで薬毒に浸っていた者も、一度廃（や）めると共に、精神も手伝って幾分快方に向う、すると宗教家は御利益でよくなったといい、患者もそう信じ、有難いと思ってその信者となる。<br/><br/>という訳であるから結果からみて、医療が新宗教を発展させるという事になる。<br/><br/>論より証拠、雨後の筍（たけのこ）のように出来る新宗教が、ともかく命脈を保っているのはこのためでもあろう。<br/><br/> そうして今まで述べた説に従って、お蔭話を読んでみるがいい。<br/><br/>私のいう事と現実といささかの喰い違いもない事である。<br/><br/>従ってこの事が、徹底的に医学界に認識されるとしたら、いかに大多数の人間が救われるかを想う時、凝乎（じっ）としてはおれないのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

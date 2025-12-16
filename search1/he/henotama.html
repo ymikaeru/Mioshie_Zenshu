@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>henotama</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 屁の玉宗 阿呆文学 『東方の光』8号、昭和10(1935)年10月21日発行 世の中も変れば変るものじゃわい。<br><br>雨後の筍（たけのこ）みた様に新興宗教とやらがニョキニョキと、出るわ出るわ一週間に、一本宛（ずつ）位とは恐れ入る。<br><br>中にも近頃売出しの、薮に生れて長くなる、筍みたいな錯覚宗、何々薬か化粧品の様に、新聞広告を第一の、道具に使って広告し、ニキビ書生や青二才、蓮ッ葉女性や生臭坊主、未だ世の中の苦労など、した事ない様な坊ちゃんの、引ッ掛りそうな御託宣、並べて好奇心をまず唆（そそ）り、何とかの本を読んだなら、釈迦基督（キリスト）に一遍に、なるというのだから笑わせる。<br><br>もしそうなったなら大変じゃ、釈迦基督が多過ぎて、差詰（さしずめ）お寺の坊さんは、肉食妻帯御取上げ、まったイエスが、あちこちに不敬事件を起すので、毎日死刑じゃ堪らない。<br><br> そんな物騒な本などをどしどし売られたらどうなるか、とは思ってもみたものゝ良く考えりゃそれはその売薬などの広告と同じ流儀の商売上手、釈迦や基督云々（うんぬん）は、誇大広告の嘘の皮、一皮剥げば影の影、実に何にも無いのやて、まずは安心なんどゝは思いも何にもしないので御座る。<br><br> 西洋医学に愛想尽かした人達の、相手に出来た何々療法、数え切れないその中に、これはこれは驚いた。<br><br>珍妙不思議な療法が出来てただ今ジャンジャンと鳴物入りで広告中ただしこれには名がないので阿呆が命名して進ぜる。<br><br> それは精神錯覚療法と命けたらピッタリ合おうで御座る。<br><br>とは余りに変テコな、名前じゃないかと言う事を、罷（や）めてトックリ聞きなさい。<br><br> この療法の言う事にゃこの人間の肉体は、心の影じゃで肉体は、テンデ無いから肉体の、病気もテンデ無いんだと、言うのじゃからして面白い。<br><br>つまり筍も人間も、宗教も国家もこの地球も、テンデ無いので、有ると見えるのは生命の、実相とやら知らぬ奴。<br><br>本来宇宙の一切は、空々寂々ゼロの零というのじゃから何が彼やテンデつかまえ所などないマルッキリ湯の中で屁をした様なアブク論。<br><br> 御本人様も無いんじゃて、それに向って文句言う、とは屁の玉を相手にして喧嘩する様な箆棒（べらぼう）だが、阿呆も割と利巧者いくら悪口言ったとて屁の玉同然空気同然の蔭みたような相手じゃて、ブン撲ぐられる心配なんか無いのじゃから面白い。<br><br> これで病気が治るというので御座るから世の中は狭いようでも広いもの、鼻糞程に利（きき）もせぬ、売薬じゃとてデカデカな、広告すれば売れ出して、何十万の金儲け、する奴さえもあるんじゃて、石川や浜の真砂は尽きるとも世に泥棒と言うところを、泥棒の二字を馬鹿の字に入れ替えたならなおの事名歌になるのに五右衛門もチッと脳味噌の足りぬ奴。<br><br>ともあれ「在るものを無いもの」と思わせ、無いものを在るものと思わせるという大錯覚、嘘と思うならどなたでもこの宗教の本部とやら――一寸覗いて見りゃ判る。<br><br>青い顔した病人が、現実の病気を一生懸命に無いと思おうと―― 錯覚に、汗水垂らし八の字を額に寄せての苦悶面（づら）見ればまことが可愛想、哀れ儚（はか）なき次第で御座る。<br><br> だが待てよ、病気治しの錯覚だけなら、未だ未だよいが今一歩、脱線したなら大変じゃ、人の物と、自分の物と、自分の物と人の物と、アリャコリャトンチンカンに思ったら、金のある奴は堪らない、ウッカリとしてこの娑婆に、居られる者じゃ御座らぬて、などと心配する程の、事もない哩（わい）初めから影も形もテンデ無い。<br><br>臭いばかりの屁の玉宗、煙となって発散を、してしまうのでまず安心。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Seita do Vento e a Literatura da Estultícia</h2>
 <p>Decerto, o mundo se transforma de maneiras surpreendentes. Tal como brotos de bambu que irrompem da terra após a chuva, as chamadas novas religiões proliferam em um ritmo espantoso, com o surgimento de praticamente uma por semana. Dentre elas, destaca-se uma que recentemente ganhou notoriedade: a Seita da Ilusão, que, à semelhança de uma planta daninha, medra em meio à ignorância. Para se promover, utiliza-se da publicidade em jornais como sua principal ferramenta, tal qual um medicamento de procedência duvidosa ou um cosmético qualquer.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Seja como for, o cerne deste grande embuste é fazer crer que o existente é inexistente, e o inexistente, existente. Se porventura duvidam, convido-os a visitar a sede dessa organização religiosa. O que verão é suficiente para compreender a verdade. Encontrarão pessoas enfermas, de semblante pálido, esforçando-se desesperadamente para acreditar que sua doença — uma realidade concreta — não existe. A visão de seus rostos contorcidos em agonia, com as frontes vincadas e banhadas em suor, é uma cena verdadeiramente lastimável e comovente.</p>
 <p>Todavia, um momento de reflexão se faz necessário. Se a ilusão se limitasse à cura de enfermidades, o mal seria menor. Mas, se porventura essa lógica descarrilar e se estender à noção de propriedade, as consequências seriam catastróficas. Imagine se a distinção entre "o que é meu" e "o que é seu" se dissolvesse em uma confusão de pensamento. Os abastados estariam em apuros, e a vida nesta sociedade se tornaria insustentável.</p>
 <p>Contudo, não há motivo para tamanha apreensão. Desde o princípio, essa seita não possui forma nem substância. É uma seita do vento, que se dissipará como fumaça, não deixando para trás senão uma vaga lembrança de seu odor. E isso, por ora, é um alento.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 屁の玉宗 阿呆文学 『東方の光』8号、昭和10(1935)年10月21日発行 世の中も変れば変るものじゃわい。<br/><br/>雨後の筍（たけのこ）みた様に新興宗教とやらがニョキニョキと、出るわ出るわ一週間に、一本宛（ずつ）位とは恐れ入る。<br/><br/>中にも近頃売出しの、薮に生れて長くなる、筍みたいな錯覚宗、何々薬か化粧品の様に、新聞広告を第一の、道具に使って広告し、ニキビ書生や青二才、蓮ッ葉女性や生臭坊主、未だ世の中の苦労など、した事ない様な坊ちゃんの、引ッ掛りそうな御託宣、並べて好奇心をまず唆（そそ）り、何とかの本を読んだなら、釈迦基督（キリスト）に一遍に、なるというのだから笑わせる。<br/><br/>もしそうなったなら大変じゃ、釈迦基督が多過ぎて、差詰（さしずめ）お寺の坊さんは、肉食妻帯御取上げ、まったイエスが、あちこちに不敬事件を起すので、毎日死刑じゃ堪らない。<br/><br/> そんな物騒な本などをどしどし売られたらどうなるか、とは思ってもみたものゝ良く考えりゃそれはその売薬などの広告と同じ流儀の商売上手、釈迦や基督云々（うんぬん）は、誇大広告の嘘の皮、一皮剥げば影の影、実に何にも無いのやて、まずは安心なんどゝは思いも何にもしないので御座る。<br/><br/> 西洋医学に愛想尽かした人達の、相手に出来た何々療法、数え切れないその中に、これはこれは驚いた。<br/><br/>珍妙不思議な療法が出来てただ今ジャンジャンと鳴物入りで広告中ただしこれには名がないので阿呆が命名して進ぜる。<br/><br/> それは精神錯覚療法と命けたらピッタリ合おうで御座る。<br/><br/>とは余りに変テコな、名前じゃないかと言う事を、罷（や）めてトックリ聞きなさい。<br/><br/> この療法の言う事にゃこの人間の肉体は、心の影じゃで肉体は、テンデ無いから肉体の、病気もテンデ無いんだと、言うのじゃからして面白い。<br/><br/>つまり筍も人間も、宗教も国家もこの地球も、テンデ無いので、有ると見えるのは生命の、実相とやら知らぬ奴。<br/><br/>本来宇宙の一切は、空々寂々ゼロの零というのじゃから何が彼やテンデつかまえ所などないマルッキリ湯の中で屁をした様なアブク論。<br/><br/> 御本人様も無いんじゃて、それに向って文句言う、とは屁の玉を相手にして喧嘩する様な箆棒（べらぼう）だが、阿呆も割と利巧者いくら悪口言ったとて屁の玉同然空気同然の蔭みたような相手じゃて、ブン撲ぐられる心配なんか無いのじゃから面白い。<br/><br/> これで病気が治るというので御座るから世の中は狭いようでも広いもの、鼻糞程に利（きき）もせぬ、売薬じゃとてデカデカな、広告すれば売れ出して、何十万の金儲け、する奴さえもあるんじゃて、石川や浜の真砂は尽きるとも世に泥棒と言うところを、泥棒の二字を馬鹿の字に入れ替えたならなおの事名歌になるのに五右衛門もチッと脳味噌の足りぬ奴。<br/><br/>ともあれ「在るものを無いもの」と思わせ、無いものを在るものと思わせるという大錯覚、嘘と思うならどなたでもこの宗教の本部とやら――一寸覗いて見りゃ判る。<br/><br/>青い顔した病人が、現実の病気を一生懸命に無いと思おうと―― 錯覚に、汗水垂らし八の字を額に寄せての苦悶面（づら）見ればまことが可愛想、哀れ儚（はか）なき次第で御座る。<br/><br/> だが待てよ、病気治しの錯覚だけなら、未だ未だよいが今一歩、脱線したなら大変じゃ、人の物と、自分の物と、自分の物と人の物と、アリャコリャトンチンカンに思ったら、金のある奴は堪らない、ウッカリとしてこの娑婆に、居られる者じゃ御座らぬて、などと心配する程の、事もない哩（わい）初めから影も形もテンデ無い。<br/><br/>臭いばかりの屁の玉宗、煙となって発散を、してしまうのでまず安心。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

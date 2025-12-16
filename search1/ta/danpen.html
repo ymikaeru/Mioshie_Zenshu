@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>danpen</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 断片 ・体験談中に挿入されたもの 『革命的増産の自然農法解説』昭和28(1953)年5月5日発行 （イ）本農法は年と共に増収する 本農法に切替えてもその水田の土と種子に残っている肥毒の多少が大いに影響する。<br><br>まず普通として告は左のごとし。<br><br>もし、余りに成績の悪い場合は人為肥料が多量に残っているためであるから、一時客土によって緩和すればよい。<br><br>（栄光一四一号） 一年目……平年作 二年目……一割増 三年目……二割増 四年目……三、四割増 五年目……五割増 昨年の特集号に、五カ年で五割増産という記事を出したが、左の報告〔略〕はそれが現実に現われたのであるから、最早一点の疑う余地はあるまい。<br><br>そうしてこの人だけが五年以上であるから、まず本農法の第一人者というべきである。<br><br>（栄光一九八号） （ロ）品質も年毎に優秀になる 品質良好、艶があり粘着力強く、すこぶる美味であり、大抵は一、二等格か三等以下はほとんどないといっていい。<br><br>（栄光七九号） （ハ）風水害、虫害も何のその 無肥の方は毛根が有肥のよりもずっと多くて長いから粘〔根張〕りが強いのである。<br><br>（栄光一四一号） 人肥でも金肥でも、作物が吸収するやそれが有毒化し、その毒が害虫の食物となり繁殖するのである。<br><br>（栄光一四一号） （ニ）私は無堆肥でやった 最も悪いのは稲田に草葉を入れる事で、これは断然廃めた方がいい。<br><br>（栄光一九八号） 藁を使うのは土を温めるためで寒冷地には使っていいが、温暖地には必要はない。<br><br>（栄光一九八号） （ホ）迫害を乗り越えて 事実自然栽培にした最初の一年目は葉は黄色く、茎は細く、余りに貧弱なので、付近の者から嘲笑慢罵、散々悪口を叩かれ、中には忠告する者さえある。<br><br>（栄光一九八号） （ヘ）米以外の作物に就いて 野菜それ自体の自然の味わいを発揮するから実に美味である。<br><br>私は無肥料野菜の味わいを知ってから、人生の幸福感をいかに増したことであろう。<br><br>（別著無肥料栽培法） （ト）私の失敗談 私の説を読んだり聞いたりしながらも素直に受入れられない人もあるが、何しろ先祖代々肥料迷信の虜（とりこ）となっている以上無理もないが、この際それを綺麗サッパリ捨ててしまい、私の言う通りにすることである。<br><br>（栄光一九八号）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Elucidação sobre a Agricultura Natural e seu Aumento Revolucionário da Produção</h2>
 <p><strong>Aumento progressivo da colheita com o passar dos anos</strong></p>
@@ -114,5 +266,48 @@ Quinto ano: Aumento de 50%</p>
 <p>Os legumes e as verduras, ao manifestarem seu sabor natural e intrínseco, revelam-se verdadeiramente deliciosos. Desde que conheci o paladar dos vegetais isentos de adubo, quão maior se tornou meu sentimento de felicidade na vida.</p>
 <p><strong>Rompendo com a superstição dos adubos</strong></p>
 <p>Existem pessoas que, mesmo lendo ou ouvindo minhas explanações, não conseguem aceitá-las com sinceridade. Isso não é de todo surpreendente, visto que se encontram cativas da superstição nos fertilizantes, um dogma transmitido de geração em geração. Todavia, é chegado o momento de descartar por completo essa crença e seguir à risca o que eu preconizo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 断片 ・体験談中に挿入されたもの 『革命的増産の自然農法解説』昭和28(1953)年5月5日発行 （イ）本農法は年と共に増収する 本農法に切替えてもその水田の土と種子に残っている肥毒の多少が大いに影響する。<br/><br/>まず普通として告は左のごとし。<br/><br/>もし、余りに成績の悪い場合は人為肥料が多量に残っているためであるから、一時客土によって緩和すればよい。<br/><br/>（栄光一四一号） 一年目……平年作 二年目……一割増 三年目……二割増 四年目……三、四割増 五年目……五割増 昨年の特集号に、五カ年で五割増産という記事を出したが、左の報告〔略〕はそれが現実に現われたのであるから、最早一点の疑う余地はあるまい。<br/><br/>そうしてこの人だけが五年以上であるから、まず本農法の第一人者というべきである。<br/><br/>（栄光一九八号） （ロ）品質も年毎に優秀になる 品質良好、艶があり粘着力強く、すこぶる美味であり、大抵は一、二等格か三等以下はほとんどないといっていい。<br/><br/>（栄光七九号） （ハ）風水害、虫害も何のその 無肥の方は毛根が有肥のよりもずっと多くて長いから粘〔根張〕りが強いのである。<br/><br/>（栄光一四一号） 人肥でも金肥でも、作物が吸収するやそれが有毒化し、その毒が害虫の食物となり繁殖するのである。<br/><br/>（栄光一四一号） （ニ）私は無堆肥でやった 最も悪いのは稲田に草葉を入れる事で、これは断然廃めた方がいい。<br/><br/>（栄光一九八号） 藁を使うのは土を温めるためで寒冷地には使っていいが、温暖地には必要はない。<br/><br/>（栄光一九八号） （ホ）迫害を乗り越えて 事実自然栽培にした最初の一年目は葉は黄色く、茎は細く、余りに貧弱なので、付近の者から嘲笑慢罵、散々悪口を叩かれ、中には忠告する者さえある。<br/><br/>（栄光一九八号） （ヘ）米以外の作物に就いて 野菜それ自体の自然の味わいを発揮するから実に美味である。<br/><br/>私は無肥料野菜の味わいを知ってから、人生の幸福感をいかに増したことであろう。<br/><br/>（別著無肥料栽培法） （ト）私の失敗談 私の説を読んだり聞いたりしながらも素直に受入れられない人もあるが、何しろ先祖代々肥料迷信の虜（とりこ）となっている以上無理もないが、この際それを綺麗サッパリ捨ててしまい、私の言う通りにすることである。<br/><br/>（栄光一九八号）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

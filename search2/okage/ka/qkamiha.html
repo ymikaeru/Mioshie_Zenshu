@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qkamiha</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 神は子供を慈しみ給う （二） 『栄光』139号、昭和27(1952)年1月16日発行 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 東京都 神成中教会 布衣生・江川勝利（47） 「やられちゃった。<br><br>やられちゃった。<br><br>早く浄霊してくれよ」上着の袖を捲くったまま、次男坊がおどけた調子で叫んでいる。<br><br> この坊主が、浄霊してくれ、と言う時は、その言い方で腹痛か、怪我かが解るのだ。<br><br>小さな声で、浄霊してくれよ、と言ったときは、転んで膝小僧を擦りむいたときだし、シクシク泣きながら、浄霊、と、帰ってきた時は、足に踏抜きをしたり、野球で突き指をしたときで、蛔虫のために腹が痛かったり、頭が痛むときは、きまって、アアイテエ、アアイテエと、頭か腹を押えている。<br><br> こうした、子供の癖を知っている私は、今のように、元気な声で浄霊、と叫ぶような時は、大した事はない、と少しも驚ろかない。<br><br> 「学校で注射されちゃったんだよ」と言う子供の言葉にギクリとした。<br><br>「ホーソーか」「ううん、ツベルクリンだ。<br><br>逃げちまおう、と思ったんだけど、皆んなやらなければいけないって、先生が言うからやったんだよ」 私や妻が、ふだん、薬毒の恐るべき事を、未信者の人たちに話をするのを、聞いている子供たちは、怪我をした時も、浄化の時も、「薬を」とは、決して言った事はない。<br><br>学校で便の検査をして、虫がいる、と言われても、他の子供のように、虫下しの薬を貰らって来ないで「先生が、「虫がいる」と言ったよ。<br><br>すぐ浄霊しておくれ」という位、薬と、注射の害は徹底して知っている。<br><br>だからこそ、注射、と聞いて逃げよう、と考えたのだろう。<br><br> 子供のいいわけを聞きながら、赤く、少しはれている、その個所を浄霊した。<br><br> 「この次は、Ｂ・Ｃ・Ｇか、あれだけは止めて貰い度いな。<br><br>どうしてあれを強制するのか、これなんかも、憲法で保証されている、基本的人権を揉欄するようなもんだ」 傍で、縫物をしている妻に言った。<br><br>「洋服屋の金子さんは、上の男の子が、中学校で、Ｂ・Ｃ・Ｇを接種されてから肺病になった、と言って、Ｂ・Ｃ・Ｇだけは、あとの子供さん達にさせないそうですよ」「家の子供たちにも、注射とＢ・Ｃ・Ｇはしてくれるな、と、学校へ頼んでみるか」「そうですねえ、弊害もある事を知っていながら、どうして強制するんでしょう。<br><br>お役所のやり方には、何んだか頷けないものがありますね」 珍らしく、妻も、子供ゆえに、いきまいていた。<br><br>この頃の学校の子供たちは、予防医学の立場から、と言って、百日咳、ジフテリヤ、チフス、種痘等、無暗に注射攻めにされている。<br><br>薬毒の恐ろしさを知る私たちは、それ等の注射があるたびに、顔を覆い度い思いである。<br><br>だから、といって、薬毒を知らず、善意でしている、相手の立場に無理解ではないが、強制、となれば、問題はまた別である。<br><br> 自分たち一家が、救世教徒である為めに、学校へ、公然と注射反対の態度を表明し、それと戦う事になれば、事あれかし、と待ち受ける、商業新聞の、悪意に満ちた宣伝材料に使われる。<br><br>それは、結局、救世教全体へ迷惑を掛けることになる、と、考えて、今までも予防注射は受けさせてきたのだった。<br><br> 馬齢を加えた、私たち夫婦は止むを得ないとしても、折角、無医薬で健康に育てた子供達の身体には、一滴の薬も入れたくない。<br><br>これは、薬毒の恐ろしさを、身をもって体験している、救世教信者の血の叫びであろう。<br><br> 高等学校へ行っている長男は、注射のすぐあとで、その個所を口で吸い、そして自分で浄霊してくるが、小さい子供にはそれが出来ないので、家へ帰ってから、私か、妻かがそれをやってきたのであった。<br><br> 「一年の時は、ツ反応が、陽性と出たので、Ｂ・Ｃ・Ｇはやらずに済んだが、今度はどうだろう」「多分、大丈夫でしよう」 縫い物の手を休めず、そう答える妻に、その知識があろう筈もなく、もとより、希望的観測から一歩も出ていない事は解っていながら、「そうであってくれればいいが」と、今日の、ツ反応の結果を案じるのであった。<br><br> それから、暫く経ったある日、今年、一年に上る三男に、ツベルクリン反応の検査があるから、連れて来い、と学務課の通知があった。<br><br>「こんな、小さな子を、どうして痛い思いをさせるのか、学校へ行って話して来ます」そう、勢い込んで行った妻が帰って来たが、結果の悪かった事は、その顔色で察しられた。<br><br>「学校で何んと言った」「あちらからの命令だから、私たちには、どうにもならないって、てんで取り合ってくれません。<br><br>ツベルクリンだけは仕方がないからさせて、あとは、神様にお願いしましょう」 妻のその言葉には、思い詰めた母親の必死の響きが籠もっていた。<br><br> 心配していた、ツベルクリン反応の結果が解った。<br><br>学校医は、「お気の毒ですが、この子は小児結核です。<br><br>今年の入学を延期して、充分療養して、来年、改めて入学させた方がいいですね」と冷めたく言った。<br><br> 「小児結核」。<br><br>校医の診断を聞いた、私たち夫婦の驚きは大きかった。<br><br> 肺病――死。<br><br>不吉な翳が、さっと脳裡をかすめた。<br><br>肺病。<br><br>もしそうであっても、薬の入っていない身体だから、浄霊で必ず治す事が出来る。<br><br>治す力を、私たちは神から許されているのだ。<br><br>この絶対の自信に考えが辿りつくまでには、長い時間がかかった。<br><br>夢想だにもしない小児結核と、唐突に医師に診断された為に、私たちの気持は転倒し、冷静さを失ったのであった。<br><br> 「それにしてはおかしいね。<br><br>今までに、幾人もの肺病の人を見、浄霊で救ってもきたが、この子に、肺病らしい症状が、何処にあるだろう。<br><br>近所の同い年の子供に比べて体重は多いし、食欲は見事だし、咳も出なければ、寝汗もかかない。<br><br>肺らしい形跡は、一つもないが」そう、いいながら、不安そうに両親の話を聞いている子供の、頭、頸、延髄に手をあてて見た。<br><br>今までの経験で解っているように、この子に何等、そうした病気のない事を、再確認しただけの事であった。<br><br> 校医は、都の保健所を指定し、そこで、血沈と、レントゲンの検査をしてくるように、と教えた。<br><br> 保健所へ行くと、私たちと同じように、心配そうに、子供を連れた親たちが、幾人も順番を待っていた。<br><br>血沈の検査は、同い年の子供に比べてやや多いが、レントゲンに写った両肺とも、何の異常も認められない。<br><br> 「大丈夫です。<br><br>この分なら今年から、学校へ上げてもいいでしょう」 若い、保健所の医師の言葉に、張り詰めた心が、ホッと、ゆるんだ。<br><br> 「アア、解った。<br><br>これは神様の御慈悲」 帰りの電車の中で、妻は、私の耳に口を寄せて言った。<br><br> 「毎日、Ｂ・Ｃ・Ｇをうたずに済みますように、神様にお願いしていたので、こんな、とんでもない診断が出たのよ。<br><br>今、小児結核ならＢ・Ｃ・Ｇを接種するまでもない事だし、本物の結核なら、今年は学校へ上れないし、神様のお力は実に、深謀遠慮ね」と感嘆した。<br><br> 「深謀遠慮は良かったね」揺れる電車の吊皮に掴まりながら、改めて神様の御慈悲に胸がつまり、「良かったなあ。<br><br>学校へ上れるよ」と、子供の頭をなぜたのであった。<br><br> （昭和二十七年一月八日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Deus ampara Seus filhos com amor (II)</h2>
 <p><em>Publicado na revista "Eikou" nº 139, em 16 de janeiro de 1952</em>
@@ -131,5 +286,48 @@ Fuishou (pseudônimo) – Katsutoshi Egawa (47 anos)</p>
 <p>"Eu vinha pedindo a Deus todos os dias para que nosso filho fosse poupado da vacina BCG, e por isso recebemos um diagnóstico tão absurdo. Se ele tem tuberculose infantil, não há necessidade de vaciná-lo. E se fosse tuberculose de verdade, não poderia ir à escola este ano. O poder de Deus é verdadeiramente profundo e previdente!", exclamou ela, maravilhada.</p>
 <p>"Sim, uma providência maravilhosa", concordei, segurando-me na alça do trem que balançava, com o peito embargado pela gratidão à imensa compaixão Divina. "Que bom, meu filho. Você vai poder ir para a escola", disse, afagando sua cabeça.</p>
 <p><em>(8 de janeiro de 1952)</em></p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 神は子供を慈しみ給う （二） 『栄光』139号、昭和27(1952)年1月16日発行 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 東京都 神成中教会 布衣生・江川勝利（47） 「やられちゃった。<br/><br/>やられちゃった。<br/><br/>早く浄霊してくれよ」上着の袖を捲くったまま、次男坊がおどけた調子で叫んでいる。<br/><br/> この坊主が、浄霊してくれ、と言う時は、その言い方で腹痛か、怪我かが解るのだ。<br/><br/>小さな声で、浄霊してくれよ、と言ったときは、転んで膝小僧を擦りむいたときだし、シクシク泣きながら、浄霊、と、帰ってきた時は、足に踏抜きをしたり、野球で突き指をしたときで、蛔虫のために腹が痛かったり、頭が痛むときは、きまって、アアイテエ、アアイテエと、頭か腹を押えている。<br/><br/> こうした、子供の癖を知っている私は、今のように、元気な声で浄霊、と叫ぶような時は、大した事はない、と少しも驚ろかない。<br/><br/> 「学校で注射されちゃったんだよ」と言う子供の言葉にギクリとした。<br/><br/>「ホーソーか」「ううん、ツベルクリンだ。<br/><br/>逃げちまおう、と思ったんだけど、皆んなやらなければいけないって、先生が言うからやったんだよ」 私や妻が、ふだん、薬毒の恐るべき事を、未信者の人たちに話をするのを、聞いている子供たちは、怪我をした時も、浄化の時も、「薬を」とは、決して言った事はない。<br/><br/>学校で便の検査をして、虫がいる、と言われても、他の子供のように、虫下しの薬を貰らって来ないで「先生が、「虫がいる」と言ったよ。<br/><br/>すぐ浄霊しておくれ」という位、薬と、注射の害は徹底して知っている。<br/><br/>だからこそ、注射、と聞いて逃げよう、と考えたのだろう。<br/><br/> 子供のいいわけを聞きながら、赤く、少しはれている、その個所を浄霊した。<br/><br/> 「この次は、Ｂ・Ｃ・Ｇか、あれだけは止めて貰い度いな。<br/><br/>どうしてあれを強制するのか、これなんかも、憲法で保証されている、基本的人権を揉欄するようなもんだ」 傍で、縫物をしている妻に言った。<br/><br/>「洋服屋の金子さんは、上の男の子が、中学校で、Ｂ・Ｃ・Ｇを接種されてから肺病になった、と言って、Ｂ・Ｃ・Ｇだけは、あとの子供さん達にさせないそうですよ」「家の子供たちにも、注射とＢ・Ｃ・Ｇはしてくれるな、と、学校へ頼んでみるか」「そうですねえ、弊害もある事を知っていながら、どうして強制するんでしょう。<br/><br/>お役所のやり方には、何んだか頷けないものがありますね」 珍らしく、妻も、子供ゆえに、いきまいていた。<br/><br/>この頃の学校の子供たちは、予防医学の立場から、と言って、百日咳、ジフテリヤ、チフス、種痘等、無暗に注射攻めにされている。<br/><br/>薬毒の恐ろしさを知る私たちは、それ等の注射があるたびに、顔を覆い度い思いである。<br/><br/>だから、といって、薬毒を知らず、善意でしている、相手の立場に無理解ではないが、強制、となれば、問題はまた別である。<br/><br/> 自分たち一家が、救世教徒である為めに、学校へ、公然と注射反対の態度を表明し、それと戦う事になれば、事あれかし、と待ち受ける、商業新聞の、悪意に満ちた宣伝材料に使われる。<br/><br/>それは、結局、救世教全体へ迷惑を掛けることになる、と、考えて、今までも予防注射は受けさせてきたのだった。<br/><br/> 馬齢を加えた、私たち夫婦は止むを得ないとしても、折角、無医薬で健康に育てた子供達の身体には、一滴の薬も入れたくない。<br/><br/>これは、薬毒の恐ろしさを、身をもって体験している、救世教信者の血の叫びであろう。<br/><br/> 高等学校へ行っている長男は、注射のすぐあとで、その個所を口で吸い、そして自分で浄霊してくるが、小さい子供にはそれが出来ないので、家へ帰ってから、私か、妻かがそれをやってきたのであった。<br/><br/> 「一年の時は、ツ反応が、陽性と出たので、Ｂ・Ｃ・Ｇはやらずに済んだが、今度はどうだろう」「多分、大丈夫でしよう」 縫い物の手を休めず、そう答える妻に、その知識があろう筈もなく、もとより、希望的観測から一歩も出ていない事は解っていながら、「そうであってくれればいいが」と、今日の、ツ反応の結果を案じるのであった。<br/><br/> それから、暫く経ったある日、今年、一年に上る三男に、ツベルクリン反応の検査があるから、連れて来い、と学務課の通知があった。<br/><br/>「こんな、小さな子を、どうして痛い思いをさせるのか、学校へ行って話して来ます」そう、勢い込んで行った妻が帰って来たが、結果の悪かった事は、その顔色で察しられた。<br/><br/>「学校で何んと言った」「あちらからの命令だから、私たちには、どうにもならないって、てんで取り合ってくれません。<br/><br/>ツベルクリンだけは仕方がないからさせて、あとは、神様にお願いしましょう」 妻のその言葉には、思い詰めた母親の必死の響きが籠もっていた。<br/><br/> 心配していた、ツベルクリン反応の結果が解った。<br/><br/>学校医は、「お気の毒ですが、この子は小児結核です。<br/><br/>今年の入学を延期して、充分療養して、来年、改めて入学させた方がいいですね」と冷めたく言った。<br/><br/> 「小児結核」。<br/><br/>校医の診断を聞いた、私たち夫婦の驚きは大きかった。<br/><br/> 肺病――死。<br/><br/>不吉な翳が、さっと脳裡をかすめた。<br/><br/>肺病。<br/><br/>もしそうであっても、薬の入っていない身体だから、浄霊で必ず治す事が出来る。<br/><br/>治す力を、私たちは神から許されているのだ。<br/><br/>この絶対の自信に考えが辿りつくまでには、長い時間がかかった。<br/><br/>夢想だにもしない小児結核と、唐突に医師に診断された為に、私たちの気持は転倒し、冷静さを失ったのであった。<br/><br/> 「それにしてはおかしいね。<br/><br/>今までに、幾人もの肺病の人を見、浄霊で救ってもきたが、この子に、肺病らしい症状が、何処にあるだろう。<br/><br/>近所の同い年の子供に比べて体重は多いし、食欲は見事だし、咳も出なければ、寝汗もかかない。<br/><br/>肺らしい形跡は、一つもないが」そう、いいながら、不安そうに両親の話を聞いている子供の、頭、頸、延髄に手をあてて見た。<br/><br/>今までの経験で解っているように、この子に何等、そうした病気のない事を、再確認しただけの事であった。<br/><br/> 校医は、都の保健所を指定し、そこで、血沈と、レントゲンの検査をしてくるように、と教えた。<br/><br/> 保健所へ行くと、私たちと同じように、心配そうに、子供を連れた親たちが、幾人も順番を待っていた。<br/><br/>血沈の検査は、同い年の子供に比べてやや多いが、レントゲンに写った両肺とも、何の異常も認められない。<br/><br/> 「大丈夫です。<br/><br/>この分なら今年から、学校へ上げてもいいでしょう」 若い、保健所の医師の言葉に、張り詰めた心が、ホッと、ゆるんだ。<br/><br/> 「アア、解った。<br/><br/>これは神様の御慈悲」 帰りの電車の中で、妻は、私の耳に口を寄せて言った。<br/><br/> 「毎日、Ｂ・Ｃ・Ｇをうたずに済みますように、神様にお願いしていたので、こんな、とんでもない診断が出たのよ。<br/><br/>今、小児結核ならＢ・Ｃ・Ｇを接種するまでもない事だし、本物の結核なら、今年は学校へ上れないし、神様のお力は実に、深謀遠慮ね」と感嘆した。<br/><br/> 「深謀遠慮は良かったね」揺れる電車の吊皮に掴まりながら、改めて神様の御慈悲に胸がつまり、「良かったなあ。<br/><br/>学校へ上れるよ」と、子供の頭をなぜたのであった。<br/><br/> （昭和二十七年一月八日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

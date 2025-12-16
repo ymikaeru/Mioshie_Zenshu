@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>seija3</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 正邪の戦い 『地上天国』50号、昭和28(1953)年7月25日発行 これは誰も知っている事だが、昔から宗教というものは、いつの時代でも初めどこか普通人と違ったところのある人間が、一念発起（ほっき）と共に世を救わんとの願望から一宗一派を立て、教義を作り、相当人助けをしてる内、ようやく世間から認められ、いよいよこれからという時になると、必ずと言いたい程妨害が現われる。<br><br>この大きい例が釈迦に提婆（だいば）、キリストにサタンとして誰も知っているが、しかもその宗教に力があり、将来性があればある程、排撃弾圧も酷（ひど）いのである。<br><br>そこで彼らはまず時の権力者を動かし、世人に憎悪感を起させるべく、巧妙な理屈やデマをデッチ上げ、宣伝これ努める。<br><br>いわくアノ宗教は人を瞞（だま）し、ついには家をも亡ぼすような恐ろしい迷信であるから、決して触れてはならないというように思わせる。<br><br>もちろん調べもせずして独善的に決めてしまい、社会的信用のある人士や、一流の言論機関等を扱う人を自由にするのも、皆邪神が憑依しそう思わせるのであるから、御本人は一向気がつかず、自己意識と思っていると共に、一般人にも邪神の仲間が憑依し、両者相呼応するのだから堪らない。<br><br>これが邪神の仕組である。<br><br> そのような訳で、今日新宗教として既成宗教を凌（しの）ぐ程の力あり、社会のため大いに貢献している宗教程邪神から目指され、極力妨害されるのである。<br><br>本教などはその第一の目標であるから、この妨害を排除しつつ進むので全く容易な業ではない。<br><br>それについてその根本原因をかいてみよう。<br><br> そもそも霊界においては、太初から邪神界という悪の世界と、それに対峙（たいじ）している正神界という善の世界があって、常に鎬（しのぎ）を削って闘っている。<br><br>そうして邪神界の頭目は非常な力をもって君臨し、何億の部下を自由自在に駆使し、彼が最後の目的たる全世界の実権を掌握しようとする驚くべき大計画の下に、着々成果を挙（あ）げつつあるのである。<br><br>そんな訳で最も邪魔になるのは、善を唱え正義を目標とする宗教者であるから、たまたま宗教的偉人が出現するや、あらゆる手段をもって弾圧し、亡ぼそうとする。<br><br>今日までの幾多の宗教が一時は旺（さか）んであっても、いつの間にか骨抜き同様にされるのは負けたからであって、その理由こそ私が常に唱える今日までは夜の世界、すなわち月神の主宰で、光が弱かったからである。<br><br>ゆえに致命的とはならないまでも、形を残すにすぎないのである。<br><br> それが我国における比較的新しい宗教にも現われている。<br><br>まず幕末から明治にかけての新宗教としての、各宗祖の受けた法難である。<br><br>彼（か）の天理教、大本教、徳光教、人の道等がその主なるもので、天理教祖中山ミキ刀自（とじ）のごとき、十数回にわたる投獄の苦難をなめたし、大本教祖出口王仁三郎氏は獄中生活七年に及んでようやく出所の喜びも束の間、ついに不帰の客となったのは、長い獄中生活の疲労と苛酷な取調のためであった事は言うまでもない。<br><br>また徳光教祖金田某氏のごときは、常に警察官が付き纏（まと）い、死ぬ間際までほとんど自由がなかったそうである。<br><br>次の人の道教祖御木徳一（とくはる）氏も数年の投獄から出るや、間もなく他界したのは、これも酷い責苦（せめく）に遭ったためといわれている。<br><br>そうして昭和に入ってからの法難の第一人者としてはまず私であろう。<br><br>これについていささかかいてみるが、前記のごとく長い期間霊界は夜であったがため、邪神群は思うまま世を乱し暴威を振い、長夜の夢を貪（むさぼ）っていたところ、突如として現われたのが我救世教である。<br><br>さすが何しろ我救世教は今まで現われた事のない昼の宗教、すなわち太陽神の主宰であるから、流石の彼らも愕然（がくぜん）として色を失い、周章（あわ）て出したのはもちろんである。<br><br>そこで、何とかして本教を葬るべくあらゆる手段を尽くした。<br><br>その現われが、幾度もの受難であったのである。<br><br>彼の昭和二十三年の脱税事件、次でＣ・Ｉ・Ｄの米兵十人の大袈裟（おおげさ）な家宅捜索、次が静岡の経済違反事件等であった。<br><br>ところがこの時の大掛りな弾圧のため、一時は再起不能とさえ思われた程だが、無事に乗切り、今日あるを得たのは、全く正神の力が勝っていたからである。<br><br>その間にも絶えざる言論機関の無理解や、最近の声のジャーナリストによるデマ放送のごとき、邪神軍の執拗な攻撃には相当悩まされるのである。<br><br> というように霊界においては、本教を中心として正邪入り乱れての千変万化、虚々実々の闘争が続いているのは、何といっても本教が彼らにとっては空前の大敵であるからである。<br><br>従ってもし本教が負けるとしたら、世界は悪魔の世界となるより外ないので、神は前もって周到なる準備をされて来た。<br><br>その一つが民主主義であるから、本教幾多の受難も大局には影響なく、発展の一路を辿（たど）りつつあるのは、まことに慶賀に堪えないと共に、全く太陽神の強烈な光のためであるから、今後太陽が昇るにつれて、邪神軍は漸次敗退の止むなきに到り、ここに善の世界実現の運びとなるのである。<br><br> (注) 提婆、提婆達多（だいばだった） 釈迦の従弟。<br><br>大変有能な人物であったが、逆恨みから釈迦とその教団に執拗な嫌がらせをした。<br><br> 刀自（とじ） 年輩の女性を敬愛の気持ちを込めて呼ぶ称。<br><br>名前の下に付けて敬称としても用いる。<br><br> ＣＩＤ、米陸軍犯罪調査部。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Luta entre a Retidão e a Iniquidade</h2>
 <p>É fato de conhecimento geral que, ao longo da história, sempre que uma pessoa com alguma particularidade incomum, impelida por uma firme determinação e pelo anseio de salvar o mundo, funda uma nova escola ou seita religiosa, estabelece seus dogmas e passa a auxiliar um número considerável de pessoas, no exato momento em que começa a obter reconhecimento social e a se consolidar, é quase inevitável o surgimento de perseguições. Os exemplos magnos desse padrão, conhecidos por todos, são Devadatta para Buda e Satanás para Cristo. Ademais, quanto maior a força e o potencial futuro de uma religião, mais severas se tornam as hostilidades e a opressão.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Esse fenômeno manifesta-se também nas religiões comparativamente mais novas de nosso país, a começar pelas provações sofridas pelos fundadores das novas religiões surgidas no período que abrange o final do Xogunato e a Era Meiji. Os casos principais são os da Tenrikyo, da Oomoto, da Tokumitsukyo e da Hito no Michi. A senhora Miki Nakayama, fundadora da Tenrikyo, por exemplo, sofreu o martírio de ser encarcerada mais de dez vezes. O fundador da Oomoto, Onisaburo Deguchi, passou sete anos na prisão e, mal teve a alegria efêmera de ser libertado, tornou-se um hóspede do além, o que ocorreu, sem dúvida, em decorrência do esgotamento causado pela longa vida no cárcere e pelos interrogatórios implacáveis. Conta-se também que o fundador da Tokumitsukyo, um certo senhor Kaneda, era constantemente vigiado por policiais e praticamente não teve liberdade até o momento de sua morte. O sucessor e fundador da Hito no Michi, Tokuharu Miki, também veio a falecer pouco depois de sair de um aprisionamento de vários anos, e diz-se que isso foi resultado das severas torturas que sofreu.</p>
 <p>Adentrando a Era Showa, creio ser eu a principal vítima de tais perseguições. Gostaria de discorrer um pouco sobre isso. Conforme mencionei, como o Mundo Espiritual esteve imerso na Era da Noite por um longo período, os exércitos de espíritos malignos puderam perturbar o mundo a seu bel-prazer, entregando-se aos sonhos de uma noite sem fim. Foi então que, subitamente, surgiu a nossa Sekaikyuseikyou. Sendo ela a Religião do Dia, regida pelo Deus do Sol – algo jamais visto –, é natural que até mesmo eles, em sua arrogância, tenham se visto atônitos e desorientados. Diante disso, empregaram todos os recursos possíveis para tentar aniquilar nossa Igreja. A manifestação de seus esforços foram as diversas provações pelas quais passamos, como o caso de sonegação fiscal em 1948, a espetacular busca e apreensão realizada por dez soldados americanos do CID e, posteriormente, o incidente de violação econômica em Shizuoka. Naquela época, a opressão foi tão avassaladora que por um momento parecíamos incapacitados de nos reerguer. O fato de termos superado tais provações e chegado aos dias de hoje deve-se unicamente à supremacia do poder dos Espíritos Justos. Mesmo nesse ínterim, somos consideravelmente afligidos pelos ataques obstinados dos exércitos do mal, como a constante incompreensão por parte da imprensa e, mais recentemente, as calúnias transmitidas por radialistas.</p>
 <p>Dessa forma, no Mundo Espiritual, prossegue uma contenda de mil faces, repleta de artifícios e dissimulações, na qual o bem e o mal se digladiam tendo nossa Igreja como epicentro. Isso ocorre porque, para eles, nossa Igreja representa um inimigo de proporções inéditas. Portanto, caso nossa Igreja viesse a ser derrotada, o mundo inevitavelmente se tornaria um domínio demoníaco. Por essa razão, Deus, em Sua providência, preparou o caminho com esmero, e um dos instrumentos dessa preparação é a democracia. Graças a ela, as inúmeras provações que sofremos não afetaram o panorama geral, e o fato de continuarmos a trilhar uma senda de contínuo desenvolvimento é motivo de imensa alegria. Tudo isso se deve, em absoluto, à intensa Luz do Deus do Sol. De agora em diante, à medida que o Sol se elevar, os exércitos de espíritos malignos serão forçados a uma retirada gradual, e assim se dará a concretização de um Mundo de Bem.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 正邪の戦い 『地上天国』50号、昭和28(1953)年7月25日発行 これは誰も知っている事だが、昔から宗教というものは、いつの時代でも初めどこか普通人と違ったところのある人間が、一念発起（ほっき）と共に世を救わんとの願望から一宗一派を立て、教義を作り、相当人助けをしてる内、ようやく世間から認められ、いよいよこれからという時になると、必ずと言いたい程妨害が現われる。<br/><br/>この大きい例が釈迦に提婆（だいば）、キリストにサタンとして誰も知っているが、しかもその宗教に力があり、将来性があればある程、排撃弾圧も酷（ひど）いのである。<br/><br/>そこで彼らはまず時の権力者を動かし、世人に憎悪感を起させるべく、巧妙な理屈やデマをデッチ上げ、宣伝これ努める。<br/><br/>いわくアノ宗教は人を瞞（だま）し、ついには家をも亡ぼすような恐ろしい迷信であるから、決して触れてはならないというように思わせる。<br/><br/>もちろん調べもせずして独善的に決めてしまい、社会的信用のある人士や、一流の言論機関等を扱う人を自由にするのも、皆邪神が憑依しそう思わせるのであるから、御本人は一向気がつかず、自己意識と思っていると共に、一般人にも邪神の仲間が憑依し、両者相呼応するのだから堪らない。<br/><br/>これが邪神の仕組である。<br/><br/> そのような訳で、今日新宗教として既成宗教を凌（しの）ぐ程の力あり、社会のため大いに貢献している宗教程邪神から目指され、極力妨害されるのである。<br/><br/>本教などはその第一の目標であるから、この妨害を排除しつつ進むので全く容易な業ではない。<br/><br/>それについてその根本原因をかいてみよう。<br/><br/> そもそも霊界においては、太初から邪神界という悪の世界と、それに対峙（たいじ）している正神界という善の世界があって、常に鎬（しのぎ）を削って闘っている。<br/><br/>そうして邪神界の頭目は非常な力をもって君臨し、何億の部下を自由自在に駆使し、彼が最後の目的たる全世界の実権を掌握しようとする驚くべき大計画の下に、着々成果を挙（あ）げつつあるのである。<br/><br/>そんな訳で最も邪魔になるのは、善を唱え正義を目標とする宗教者であるから、たまたま宗教的偉人が出現するや、あらゆる手段をもって弾圧し、亡ぼそうとする。<br/><br/>今日までの幾多の宗教が一時は旺（さか）んであっても、いつの間にか骨抜き同様にされるのは負けたからであって、その理由こそ私が常に唱える今日までは夜の世界、すなわち月神の主宰で、光が弱かったからである。<br/><br/>ゆえに致命的とはならないまでも、形を残すにすぎないのである。<br/><br/> それが我国における比較的新しい宗教にも現われている。<br/><br/>まず幕末から明治にかけての新宗教としての、各宗祖の受けた法難である。<br/><br/>彼（か）の天理教、大本教、徳光教、人の道等がその主なるもので、天理教祖中山ミキ刀自（とじ）のごとき、十数回にわたる投獄の苦難をなめたし、大本教祖出口王仁三郎氏は獄中生活七年に及んでようやく出所の喜びも束の間、ついに不帰の客となったのは、長い獄中生活の疲労と苛酷な取調のためであった事は言うまでもない。<br/><br/>また徳光教祖金田某氏のごときは、常に警察官が付き纏（まと）い、死ぬ間際までほとんど自由がなかったそうである。<br/><br/>次の人の道教祖御木徳一（とくはる）氏も数年の投獄から出るや、間もなく他界したのは、これも酷い責苦（せめく）に遭ったためといわれている。<br/><br/>そうして昭和に入ってからの法難の第一人者としてはまず私であろう。<br/><br/>これについていささかかいてみるが、前記のごとく長い期間霊界は夜であったがため、邪神群は思うまま世を乱し暴威を振い、長夜の夢を貪（むさぼ）っていたところ、突如として現われたのが我救世教である。<br/><br/>さすが何しろ我救世教は今まで現われた事のない昼の宗教、すなわち太陽神の主宰であるから、流石の彼らも愕然（がくぜん）として色を失い、周章（あわ）て出したのはもちろんである。<br/><br/>そこで、何とかして本教を葬るべくあらゆる手段を尽くした。<br/><br/>その現われが、幾度もの受難であったのである。<br/><br/>彼の昭和二十三年の脱税事件、次でＣ・Ｉ・Ｄの米兵十人の大袈裟（おおげさ）な家宅捜索、次が静岡の経済違反事件等であった。<br/><br/>ところがこの時の大掛りな弾圧のため、一時は再起不能とさえ思われた程だが、無事に乗切り、今日あるを得たのは、全く正神の力が勝っていたからである。<br/><br/>その間にも絶えざる言論機関の無理解や、最近の声のジャーナリストによるデマ放送のごとき、邪神軍の執拗な攻撃には相当悩まされるのである。<br/><br/> というように霊界においては、本教を中心として正邪入り乱れての千変万化、虚々実々の闘争が続いているのは、何といっても本教が彼らにとっては空前の大敵であるからである。<br/><br/>従ってもし本教が負けるとしたら、世界は悪魔の世界となるより外ないので、神は前もって周到なる準備をされて来た。<br/><br/>その一つが民主主義であるから、本教幾多の受難も大局には影響なく、発展の一路を辿（たど）りつつあるのは、まことに慶賀に堪えないと共に、全く太陽神の強烈な光のためであるから、今後太陽が昇るにつれて、邪神軍は漸次敗退の止むなきに到り、ここに善の世界実現の運びとなるのである。<br/><br/> (注) 提婆、提婆達多（だいばだった） 釈迦の従弟。<br/><br/>大変有能な人物であったが、逆恨みから釈迦とその教団に執拗な嫌がらせをした。<br/><br/> 刀自（とじ） 年輩の女性を敬愛の気持ちを込めて呼ぶ称。<br/><br/>名前の下に付けて敬称としても用いる。<br/><br/> ＣＩＤ、米陸軍犯罪調査部。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

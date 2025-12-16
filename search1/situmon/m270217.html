@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>M270217</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御教え （S27年2月17日） 『御教え集』7号、昭和27(1952)年3月20日発行 昭和二十七年二月十七日 （お伺）宮崎とく（五十四歳）。<br><br>昭和二十二年主人は肝臓を病み、その後腸捻転にて医師にかかり、手術後死亡いたしました。<br><br>そのころ私は右下腹に固まりがあることに気づき、医診では心配するほどではないと言われ、その後たいした変化もなく、ほうっておきましたところ、昨年九月ごろよりだんだん大きくなり、夜床に入り腹を撫でまわしますと、左に寄り右に寄りいたします。<br><br>そのころより御浄霊をいただいておりますが、近ごろは非常に大きくなり、大体右寄りで鳩尾辺りから肝臓の辺りまでいっぱいに腫れ上がり、下腹いっぱいにちょうど妊娠七カ月くらいに感じますが、午前中は非常に楽でございますが、夕方になりますと非常に張って、食事も夜は一杯しかいただけません。<br><br>夜床に入り、左を下にいたしますと、左に寄ります。<br><br>これは霊的でございましょうか。<br><br>またどこを主に御浄霊いたしましたら、よろしゅうございましょうか。<br><br>家族、子供ともに入信。<br><br>光明如来様、御屏風観音様を御奉斎させていただいております。<br><br> 〔御垂示〕 これは卵巣ですね。<br><br>卵巣水腫といって、卵巣に水が溜まって腫れるんです。<br><br>これは、やっぱり腎臓が因ですから、良く腎臓を浄霊してあげると良い。<br><br>しかし、これはある程度まで腫れますが――随分大きくなるものですよ。<br><br>まあ、気がついて浄霊すれば、そう大きくならないですみますがね。<br><br>で、ある程度まで腫れると、その人の――やはり因は薬毒と尿毒ですからね。<br><br>それが腫れるだけ腫れると、少しずつ溶けて出て行きますからね――小便になってね。<br><br>質（たち）によって、非常に早く治るのと、そうでないのとありますからね。<br><br>まあ、あんまり急がないで、気長にやるつもりでやれば、たいしたことはないんです。<br><br>食欲は、そのために胃を圧迫されているから、小さく柔らかくなるまではしかたがないんです。<br><br>よくある病気ですよ。<br><br> （お伺）森西総一郎（昭和二十二年入信。<br><br>三十二歳）。<br><br>二十三年六月長女総（さと）子が、一週間ほどの下痢が因で急性肺炎で死亡してより、教会へ御無沙汰いたしておりますうちに、長男隆志（四歳）が二十四年一月浴場で引きつけ、以来毎日ちょっとした刺激などにも体をピクつかせ、十日に一度くらい、少し熱が出ると引きつけます。<br><br>お道が良く解らず、約一年医療を受けましたが、病状は一進一退でございました。<br><br>近所の信者さんに、今一度三日間の教修のお話を聞かれてはと言われ、今まで間違っていたことをお詫び申し上げ、御浄霊いただきましてより、だんだんビクつくこともなくなり、引きつける回数も少なくなり、御屏風観音様を御奉斎させていただき、妻も入信。<br><br>昨年六月疫痢の御浄化をいただきましたが、教会の先生の御浄霊により御救いいただきました。<br><br>八月に光明如来様を御奉斎させていただき、子供二人にも「小」の御守り様を拝受させていただきました。<br><br>十二月ごろより隆志の状態が以前より激しくなり、連日ちょっとした刺激にも、また遊んでおります時にも、急にバネで弾かれたように体全体に痙攣を起し（以前は部分的でございました）目を離すことができなくなりました。<br><br>現在、引きつける時は口から泡を吐き、両手でなにか探るようなことをいたしたり、おびえるような大きな声を出し、目を引き吊り、なにかじっとにらむような顔をいたします。<br><br>なお、その後は入浴を非常に嫌います。<br><br>位牌は御先祖始め、諸々の霊位を率祀りさせていただいております。<br><br>父は神経痛を二十年ほど患い、死ぬ少し前に精神病でございました。<br><br>兄は戦死、弟は自動車事故で死亡いたしております。<br><br>以前に増して発作が激しくなりましたのは、いかなるわけでございましょうか。<br><br>また今後いかがいたしましたら、よろしゅうございましょうか。<br><br> 〔御垂示〕 これは癲癇ですね。<br><br>この癲癇はお父さんの神経痛じゃないんですね。<br><br>兄の戦死――これでもないな。<br><br>弟――これでもないですね。<br><br>これは他の霊ですね。<br><br>つまり泡をふくというのは、水死の霊ですよ。<br><br>水を飲んで死んだという奴ですがね。<br><br>よくあるがね。<br><br>これは、前頭部の中心――そこを浄霊すれば良い。<br><br>そうして癲癇の起った時には、善言讃詞を奏げてやって、そうして頭の前頭部の中心をやる。<br><br>そうしてふだん頸のまわりが、毒の固まりがありますから、それを良く浄霊して――これがあるから頭が貧血する。<br><br>血管を圧迫するからね。<br><br>そうすると前頭部の方が貧血するから、それで霊が憑りやすくなる。<br><br>そうしていったんひどくなるものですよ。<br><br>峠があってね。<br><br>それが過ぎると、だんだん良くなる。<br><br>早いのは一カ月か二カ月のがあります。<br><br>遅いのは四、五年かかるのがあります。<br><br>結局は治りますがね。<br><br>今言ったように気長にやっていれば、少しずつ良くなるものです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Orientações sobre Purificações Físicas e Espirituais</h2>
 <p>Ensinamento de 17 de fevereiro de 1952
@@ -111,5 +263,48 @@ Publicado na Coletânea de Ensinamentos vol. 7, em 20 de março de 1952.</p>
 <p>Isso é epilepsia. A causa dessa epilepsia não está relacionada à nevralgia de seu pai, nem ao seu irmão que morreu em combate, tampouco ao que faleceu no acidente. Trata-se de outro espírito. O fato de ele espumar pela boca é um indício claro de um espírito que morreu afogado, por ter engolido água. É um caso bastante recorrente.</p>
 <p>O ponto principal a ser purificado é o centro da região frontal da cabeça. Durante uma crise epiléptica, deve-se entoar a Oração Zengen Sanji enquanto se ministra Johrei nesse local. Além disso, é fundamental ministrar Johrei assiduamente na nuca e ao redor do pescoço, pois ali se encontram nódulos de toxinas. A presença desses nódulos comprime os vasos sanguíneos, provocando uma deficiência de circulação na cabeça. Essa anemia na região frontal do cérebro facilita a possessão espiritual.</p>
 <p>É comum que o quadro se agrave temporariamente antes de melhorar. Existe um ponto culminante na purificação. Uma vez que esse ápice é transposto, a melhora se torna gradativa e constante. Alguns casos se resolvem rapidamente, em um ou dois meses. Outros podem levar de quatro a cinco anos. Contudo, a cura é certa. Conforme orientei, se mantiverem a perseverança e a paciência, a melhora virá progressivamente.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御教え （S27年2月17日） 『御教え集』7号、昭和27(1952)年3月20日発行 昭和二十七年二月十七日 （お伺）宮崎とく（五十四歳）。<br/><br/>昭和二十二年主人は肝臓を病み、その後腸捻転にて医師にかかり、手術後死亡いたしました。<br/><br/>そのころ私は右下腹に固まりがあることに気づき、医診では心配するほどではないと言われ、その後たいした変化もなく、ほうっておきましたところ、昨年九月ごろよりだんだん大きくなり、夜床に入り腹を撫でまわしますと、左に寄り右に寄りいたします。<br/><br/>そのころより御浄霊をいただいておりますが、近ごろは非常に大きくなり、大体右寄りで鳩尾辺りから肝臓の辺りまでいっぱいに腫れ上がり、下腹いっぱいにちょうど妊娠七カ月くらいに感じますが、午前中は非常に楽でございますが、夕方になりますと非常に張って、食事も夜は一杯しかいただけません。<br/><br/>夜床に入り、左を下にいたしますと、左に寄ります。<br/><br/>これは霊的でございましょうか。<br/><br/>またどこを主に御浄霊いたしましたら、よろしゅうございましょうか。<br/><br/>家族、子供ともに入信。<br/><br/>光明如来様、御屏風観音様を御奉斎させていただいております。<br/><br/> 〔御垂示〕 これは卵巣ですね。<br/><br/>卵巣水腫といって、卵巣に水が溜まって腫れるんです。<br/><br/>これは、やっぱり腎臓が因ですから、良く腎臓を浄霊してあげると良い。<br/><br/>しかし、これはある程度まで腫れますが――随分大きくなるものですよ。<br/><br/>まあ、気がついて浄霊すれば、そう大きくならないですみますがね。<br/><br/>で、ある程度まで腫れると、その人の――やはり因は薬毒と尿毒ですからね。<br/><br/>それが腫れるだけ腫れると、少しずつ溶けて出て行きますからね――小便になってね。<br/><br/>質（たち）によって、非常に早く治るのと、そうでないのとありますからね。<br/><br/>まあ、あんまり急がないで、気長にやるつもりでやれば、たいしたことはないんです。<br/><br/>食欲は、そのために胃を圧迫されているから、小さく柔らかくなるまではしかたがないんです。<br/><br/>よくある病気ですよ。<br/><br/> （お伺）森西総一郎（昭和二十二年入信。<br/><br/>三十二歳）。<br/><br/>二十三年六月長女総（さと）子が、一週間ほどの下痢が因で急性肺炎で死亡してより、教会へ御無沙汰いたしておりますうちに、長男隆志（四歳）が二十四年一月浴場で引きつけ、以来毎日ちょっとした刺激などにも体をピクつかせ、十日に一度くらい、少し熱が出ると引きつけます。<br/><br/>お道が良く解らず、約一年医療を受けましたが、病状は一進一退でございました。<br/><br/>近所の信者さんに、今一度三日間の教修のお話を聞かれてはと言われ、今まで間違っていたことをお詫び申し上げ、御浄霊いただきましてより、だんだんビクつくこともなくなり、引きつける回数も少なくなり、御屏風観音様を御奉斎させていただき、妻も入信。<br/><br/>昨年六月疫痢の御浄化をいただきましたが、教会の先生の御浄霊により御救いいただきました。<br/><br/>八月に光明如来様を御奉斎させていただき、子供二人にも「小」の御守り様を拝受させていただきました。<br/><br/>十二月ごろより隆志の状態が以前より激しくなり、連日ちょっとした刺激にも、また遊んでおります時にも、急にバネで弾かれたように体全体に痙攣を起し（以前は部分的でございました）目を離すことができなくなりました。<br/><br/>現在、引きつける時は口から泡を吐き、両手でなにか探るようなことをいたしたり、おびえるような大きな声を出し、目を引き吊り、なにかじっとにらむような顔をいたします。<br/><br/>なお、その後は入浴を非常に嫌います。<br/><br/>位牌は御先祖始め、諸々の霊位を率祀りさせていただいております。<br/><br/>父は神経痛を二十年ほど患い、死ぬ少し前に精神病でございました。<br/><br/>兄は戦死、弟は自動車事故で死亡いたしております。<br/><br/>以前に増して発作が激しくなりましたのは、いかなるわけでございましょうか。<br/><br/>また今後いかがいたしましたら、よろしゅうございましょうか。<br/><br/> 〔御垂示〕 これは癲癇ですね。<br/><br/>この癲癇はお父さんの神経痛じゃないんですね。<br/><br/>兄の戦死――これでもないな。<br/><br/>弟――これでもないですね。<br/><br/>これは他の霊ですね。<br/><br/>つまり泡をふくというのは、水死の霊ですよ。<br/><br/>水を飲んで死んだという奴ですがね。<br/><br/>よくあるがね。<br/><br/>これは、前頭部の中心――そこを浄霊すれば良い。<br/><br/>そうして癲癇の起った時には、善言讃詞を奏げてやって、そうして頭の前頭部の中心をやる。<br/><br/>そうしてふだん頸のまわりが、毒の固まりがありますから、それを良く浄霊して――これがあるから頭が貧血する。<br/><br/>血管を圧迫するからね。<br/><br/>そうすると前頭部の方が貧血するから、それで霊が憑りやすくなる。<br/><br/>そうしていったんひどくなるものですよ。<br/><br/>峠があってね。<br/><br/>それが過ぎると、だんだん良くなる。<br/><br/>早いのは一カ月か二カ月のがあります。<br/><br/>遅いのは四、五年かかるのがあります。<br/><br/>結局は治りますがね。<br/><br/>今言ったように気長にやっていれば、少しずつ良くなるものです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

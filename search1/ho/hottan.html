@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hottan</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 発端 『法難手記』昭和25(1950)年10月30日発行 大手入れ はしがき中にもあるごとく、昭和二十五年五月八日未明、突如として青天の霹靂（へきれき）のごとく、本教関係の熱海所在の建物六ケ所、小田原一ケ所、合計七ケ所に対し、一大家宅捜索が行われた。<br><br>その際動員された警官、無慮八十名と言うのであるから、いかに大仕掛であったかが判るのである。<br><br>ちょうど暁の大捕物という形だ。<br><br>しかも全員ピストル携帯、物々しい出立ちは、最近行われたボスの、大親分検挙を思わしむるものがある。<br><br>誰か、宗教団体がこのような扱いを受けるなどと、想像されたであろう。<br><br> 終戦前、彼の大本教や、人の道教等が、大弾圧を喫したその記憶は、いまだ吾らの頭にも残っているが、その頃の宗教関係事件と言えば、ほとんどは、不敬罪と婦人関係で、これが通り相場のようになっていた。<br><br>しかし不敬罪は、今日跡方もなく消えてしまったし、エロ問題も本教に限ってない事は、世間誰でも知っている。<br><br>とすれば一体全体何の容疑なのか、全然見当がつかない。<br><br>ただ不思議というより外はない。<br><br>そこで捜査の遣り方によって、判断するより外に考えようがないから、家人や立会った人達に詳しく聞いてみた。<br><br> まず、五月八日午前五時何十分、私は急に眼が醒めた。<br><br>すると台所の方で、何か騒がしい音がすると思うや、一人の女中が慌ただしく部屋へ入って来た。<br><br>「今警察の方が大勢見えて調べに来た」と言うのです。<br><br>私は驚くと共に不思議で堪らない。<br><br>次の間に寝ていた妻はソッと襖を開け、私に近寄り小声で「あなた泥棒じゃないですか？」と言う。<br><br>私は「真っ暗な夜中ならとにかく、夜が明けた今そんなはずはない、確かに警察官だよ」と言うか言わない内、早次の間へ入って来たらしい気配がする。<br><br>慌てて次の間へ引っ返した妻は、まだ信じられないと見え、相手に対（むか）って「あなたは泥棒じゃありませんか？」という声がする。<br><br>「イヤ、僕はこういう者だ」と令状をみせたらしい。<br><br>妻は「それではどうぞお調べ下さい」という。<br><br>私は事態容易ならずと床を蹴って襖を開けてみると、なるほど警官らしい一人が、キョロキョロ辺りを見廻している。<br><br>彼は私に対って「起きるには及ばん、寝ていなさい」というので、私も寝てた方が捜査に都合がいいのだろうと察して床に入ったが、胸がドキドキして眠るどころではない。<br><br>しかし別に家宅捜索されても心配の点はいささかも無いのだが、落着けないのは人間誰もがもつ、共通心理であると思ったりした。<br><br>私は朝飯の仕度が出来たので起床し、不味（まず）いのを我慢しながら一杯で済ました。<br><br>心配事があると何よりも食事に影響する事がつくづく思われた。<br><br>その時乗り込んで来た私服は、十二、三人であった事を後から聞いた。<br><br>それから彼らは家中隈なく捜査し、書類やら郵便物、銀行通帳、現金及び数百枚の名刺等々、調査資料になりそうな物は、ことごとく押収して引揚げたのである。<br><br>何でも後で聞いた女中の話によると、六畳の女中部屋を六、七人の警官が、三時間もかかって調べたのだという。<br><br>もっとも数人の女中の行李であるから、相当品数はあったであろうが、何しろ腰巻からズロースまでも一枚一枚丹念に調べたというのだから推して知るべきだ。<br><br>役人いずれも「変だな、ヘンだな」を連呼していたそうである。<br><br>察するに大きな期待をかけていた隠匿物が見当らなかったからであろう。<br><br>とは誰もが語り合った話である。<br><br>総勢引揚げたのは午後三時頃であったから、食事の時間を差引いても悠に八時間に及んだ訳である。<br><br> 右は私の住宅であるが、熱海清水町にある別院のごときは、押入の根太（ねだ）を外して縁の下まで調べたそうであるから、いかに大きな期待をかけて来たかが判るのである。<br><br>また私の旧住宅である熱海東山の家には金庫があったが、長い間使わなかったため、番号を覚えている者がいないので、開ける事が出来ず封印をして帰り、その後数日経って三人の警吏が来てようやく開けたが、何もなかったので大いに失望して帰ったとの事を、留守番から聞いたのである。<br><br>その後五月三十日箱根強羅の別院へ、総勢五十人の警吏が乗込んで、数時間にわたってすこぶる綿密な捜索を行った由であるが、この時は私は抑留中であったため、後で聞いたのである。<br><br> 以上のような大々的家宅捜索が行われたにかかわらず、泰山鳴動式に終ったのであるが、しかし考えれば考える程、どういう訳でこのような大掛りな捜査をしたかと言う事である。<br><br>実に判らない。<br><br>みんなの一致した観方は、余程の隠匿物資があるとみて来たらしいという。<br><br>ところが令状には金（かね）久平に関する贈賄容疑としてあるので、それくらいの容疑で武装警官八十人とはいよいよもって判らない。<br><br>しかもその時私の秘書井上福夫、造営部熱海主任金久平の二人まで逮捕留置されたというのである。<br><br> このような訳で、当局の意図なるものはサッパリ見当がつかない。<br><br>それだけ何かしら穏やかならぬものを感じない訳にはゆかない。<br><br>もちろん井上も金も弁護士を頼んだのであるが、それから私の身の上を心配した信者の誰彼は、知合の弁護士を頼んでくれたり、連れて来たりして慰めてくれた。<br><br>なおこれ以上進展するかも知れないという懸念から、その対策を相談した事もあった。<br><br>というのは井上も金も二、三日で帰るだろうと思ったのに、一週間経ち二週間経っても帰らない。<br><br>井上にしろ金にしろ大した犯罪など犯すような人間でない事は、永い間部下として使った経験によっても明らかである。<br><br>殊に井上のごときは二十年前から忠実に仕えており、今日は家族同様の待遇さえ与えていたからである。<br><br> 右の両人が引っ張られる余程前から、信者である銀行員山田仁太郎氏が抑留されている事を聞いたが、罪状は浮貸問題とかであった。<br><br>同氏は以前は時々来たが、今年になってからは、一回面会しただけで、御無沙汰勝ちとなっていたので、彼の事情については、知る由もないが、彼とても信者である以上、それ程間違った事を、するはずがないと思ったが、これもサッパリ見当がつかない。<br><br>またこういう説をする者もあった。<br><br>それは例のユスリの一団が当局を動かしたのではないかというのである。<br><br>ここでこのユスリ団を、詳しくかく必要があろう。<br><br> 強請団 このユスリ団というのは、一、二年前から本教団を狙っており、目的は、巨額の金銭を獲得しようとして、あの手、この手の策略を用いて、教団を執拗に揺ぶるのである。<br><br>噂によると国会議員数人を初め、宗教人、旧右翼系の利者（きけもの）、本教の反対者等々、少なくとも十人内外の者が、一団となって謀略を廻（めぐ）らし、当局はもとより司令部方面にまで働きかけ、本教団を伏魔殿のように思わしめ、結局解散一歩手前にまで追いつめておいて、それを免れるには巨額の運動費が必要であると持ちかけ、何千万円の大金をせしめようと、企んでいると言うのである。<br><br>そうして右の計画を達成するための宣伝としては、本教は医学を誹謗するとか、無肥料栽培は、怪しからぬなどと言い、脱税問題、贈賄問題等その他種々の捏造やデマを絡ませ、特に彼らが力を注いでいるのは、物資隠匿である。<br><br>ヤレ金塊やダイヤモンド、何億を隠匿しているとか言うのだから、当局を刺戟するには絶好の資料である。<br><br>その他新聞雑誌を悪用し、デマを飛ばし輿論を作り、世間からみて本教の存在がいかにも、社会に害あるごとく思わしむる等、あらゆる苦肉の手段を弄し、目的を達しなければ止まないというような気構えであった。<br><br>その表われの一つとして昨年夏ＣＩＤの大袈裟な手入れがあった。<br><br>忘れもしない八月二十五日夜九時頃、箱根強羅別院に十人程の部員が突如家宅捜索に来たのである。<br><br>容疑は多量の金塊、白金及びダイヤモンドを、ドラム缶一杯に入れて隠匿しているというのである。<br><br>それがすこぶる確信に満ちているようで二日にわたって厳重なる家宅捜索をなし、最後にはレーダーまでも使用し、住宅の床下の土まで掘起した程であったにかかわらず、この時も泰山鳴動して鼠一匹も出なかったので、事なく済んだが、訊いてみると密告と投書によったと言うのである。<br><br>彼らユスリ団がこのように官憲を欺瞞し、躍らせる巧妙さは感嘆に堪えないのである。<br><br>かように私利のために罪なき良民を苦しめても、何ら法の制裁を受ける事なく、公然として社会を横行し、良民がいつも被害を受け泣寝入りに終るのであるから、善人は損をし、悪人は得をすると言う結果になるので、全く法の制度かまたは運営に欠陥があるのか、ともかく軽視出来ない問題である。<br><br>今回の家宅捜索がＣＩＤの手入れの当時を知っている人々の多くは、隠匿物資の疑いの点が余りによく似ていると話し合っているのを私は聞いたのである。<br><br> 前述のごとく、信者が紹介したり、連れて来た弁護士達が、いかに何でも明主様が引っ張られるような事は、万あるまいという意見の方が多かった。<br><br>そんな訳で私としても、呼び出しくらいの事はあるかも知れないが、勾留などは絶対ないと安心していたのである。<br><br>ところが五月二十九日、家宅捜索のあった八日の日から数えて二十一日目の二十九日未明、就寝中の私は突如起された。<br><br>見ると静岡県清水市庵原警察署、刑事部長Ｋ氏という名刺を出し、一人の刑事を伴い、私に対って「直ちに同行されたい」と言うので、私は愕然とした。<br><br>余りに意外であったからである。<br><br>その時私はこう言った。<br><br>「部下が長い間取調べを受けているのは、何か氷解しない点があるからであろう。<br><br>それで一度私の口から充分説明したら解るだろうと思っていたので、ちょうどよい」と快諾した。<br><br>途中自動車の故障などがあって大分遅延したが、零時半警察署の門をくぐり、留置所へ入れられたのである。<br><br>留置所の経験は昭和十一年二回、同十五年一回あったが、一回目は二日、二回目は十一日、三回目は三日間であった。<br><br>一、二回共宗教問題で、三回目は医師法違反でいずれも無罪であった。<br><br>当時の調べは三回共特高であったが、特高の調べなどというと、非常に封建的であるように想像されるが、今回の取調べに較べてみると、比較にならぬ程、今度の方が峻厳苛烈で、戦慄の一語につきると言ってもいい。<br><br>それを有りのままかいてみようと思うのである。<br><br> (注) ＣＩＤ、米陸軍犯罪調査部。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Início da Provação</h2>
 <p>Conforme já mencionado no prefácio, na madrugada de 8 de maio de 1950, de forma súbita e inesperada como um raio em céu azul, foi deflagrada uma perquirição domiciliar em larga escala. A operação abrangeu seis edifícios de nossa Igreja na cidade de Atami e um em Odawara, totalizando sete localidades. Para se ter uma ideia da magnitude da ação, foram mobilizados, segundo informações, oitenta policiais, o que a transformou em uma verdadeira operação de captura ao raiar do dia. A ostensiva presença de policiais, todos armados de pistolas, evocava a recente prisão de um poderoso chefe do crime. Quem poderia sequer conjecturar que uma organização religiosa seria submetida a tal tratamento?</p>
@@ -108,5 +260,48 @@ function toggleLang(lang) {
 <p>Fiquei estupefato. A ordem era por demais inesperada. Respondi-lhe: "Se meus subordinados estão sendo interrogados há tanto tempo, deve ser porque ainda há pontos a serem esclarecidos. Pensei que, se eu mesmo explicasse tudo detalhadamente, eles finalmente compreenderiam. Sendo assim, é uma ótima oportunidade." E concordei prontamente. No caminho, após um atraso considerável devido a uma avaria no automóvel, cruzei os portões da delegacia à meia-noite e meia e fui conduzido a uma cela.</p>
 <p>Eu já havia passado por detenções anteriormente: duas vezes em 1936 e uma vez em 1940. A primeira durou dois dias; a segunda, onze; e a terceira, três. Em todas as ocasiões, fui absolvido. As duas primeiras foram por questões religiosas, e a terceira, por violação da Lei Médica. Naquela época, os interrogatórios foram conduzidos pela Tokkō, a Polícia Superior Especial. Embora se imagine que os métodos da Tokkō fossem extremamente feudais, ao compará-los com os atuais, percebo que os de agora são incomparavelmente mais severos e implacáveis. A palavra "aterrorizante" seria a mais adequada para descrevê-los. E é exatamente isso que pretendo relatar, tal como aconteceu.</p>
 <p>(Nota) CID: Departamento de Investigação Criminal do Exército dos Estados Unidos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 発端 『法難手記』昭和25(1950)年10月30日発行 大手入れ はしがき中にもあるごとく、昭和二十五年五月八日未明、突如として青天の霹靂（へきれき）のごとく、本教関係の熱海所在の建物六ケ所、小田原一ケ所、合計七ケ所に対し、一大家宅捜索が行われた。<br/><br/>その際動員された警官、無慮八十名と言うのであるから、いかに大仕掛であったかが判るのである。<br/><br/>ちょうど暁の大捕物という形だ。<br/><br/>しかも全員ピストル携帯、物々しい出立ちは、最近行われたボスの、大親分検挙を思わしむるものがある。<br/><br/>誰か、宗教団体がこのような扱いを受けるなどと、想像されたであろう。<br/><br/> 終戦前、彼の大本教や、人の道教等が、大弾圧を喫したその記憶は、いまだ吾らの頭にも残っているが、その頃の宗教関係事件と言えば、ほとんどは、不敬罪と婦人関係で、これが通り相場のようになっていた。<br/><br/>しかし不敬罪は、今日跡方もなく消えてしまったし、エロ問題も本教に限ってない事は、世間誰でも知っている。<br/><br/>とすれば一体全体何の容疑なのか、全然見当がつかない。<br/><br/>ただ不思議というより外はない。<br/><br/>そこで捜査の遣り方によって、判断するより外に考えようがないから、家人や立会った人達に詳しく聞いてみた。<br/><br/> まず、五月八日午前五時何十分、私は急に眼が醒めた。<br/><br/>すると台所の方で、何か騒がしい音がすると思うや、一人の女中が慌ただしく部屋へ入って来た。<br/><br/>「今警察の方が大勢見えて調べに来た」と言うのです。<br/><br/>私は驚くと共に不思議で堪らない。<br/><br/>次の間に寝ていた妻はソッと襖を開け、私に近寄り小声で「あなた泥棒じゃないですか？」と言う。<br/><br/>私は「真っ暗な夜中ならとにかく、夜が明けた今そんなはずはない、確かに警察官だよ」と言うか言わない内、早次の間へ入って来たらしい気配がする。<br/><br/>慌てて次の間へ引っ返した妻は、まだ信じられないと見え、相手に対（むか）って「あなたは泥棒じゃありませんか？」という声がする。<br/><br/>「イヤ、僕はこういう者だ」と令状をみせたらしい。<br/><br/>妻は「それではどうぞお調べ下さい」という。<br/><br/>私は事態容易ならずと床を蹴って襖を開けてみると、なるほど警官らしい一人が、キョロキョロ辺りを見廻している。<br/><br/>彼は私に対って「起きるには及ばん、寝ていなさい」というので、私も寝てた方が捜査に都合がいいのだろうと察して床に入ったが、胸がドキドキして眠るどころではない。<br/><br/>しかし別に家宅捜索されても心配の点はいささかも無いのだが、落着けないのは人間誰もがもつ、共通心理であると思ったりした。<br/><br/>私は朝飯の仕度が出来たので起床し、不味（まず）いのを我慢しながら一杯で済ました。<br/><br/>心配事があると何よりも食事に影響する事がつくづく思われた。<br/><br/>その時乗り込んで来た私服は、十二、三人であった事を後から聞いた。<br/><br/>それから彼らは家中隈なく捜査し、書類やら郵便物、銀行通帳、現金及び数百枚の名刺等々、調査資料になりそうな物は、ことごとく押収して引揚げたのである。<br/><br/>何でも後で聞いた女中の話によると、六畳の女中部屋を六、七人の警官が、三時間もかかって調べたのだという。<br/><br/>もっとも数人の女中の行李であるから、相当品数はあったであろうが、何しろ腰巻からズロースまでも一枚一枚丹念に調べたというのだから推して知るべきだ。<br/><br/>役人いずれも「変だな、ヘンだな」を連呼していたそうである。<br/><br/>察するに大きな期待をかけていた隠匿物が見当らなかったからであろう。<br/><br/>とは誰もが語り合った話である。<br/><br/>総勢引揚げたのは午後三時頃であったから、食事の時間を差引いても悠に八時間に及んだ訳である。<br/><br/> 右は私の住宅であるが、熱海清水町にある別院のごときは、押入の根太（ねだ）を外して縁の下まで調べたそうであるから、いかに大きな期待をかけて来たかが判るのである。<br/><br/>また私の旧住宅である熱海東山の家には金庫があったが、長い間使わなかったため、番号を覚えている者がいないので、開ける事が出来ず封印をして帰り、その後数日経って三人の警吏が来てようやく開けたが、何もなかったので大いに失望して帰ったとの事を、留守番から聞いたのである。<br/><br/>その後五月三十日箱根強羅の別院へ、総勢五十人の警吏が乗込んで、数時間にわたってすこぶる綿密な捜索を行った由であるが、この時は私は抑留中であったため、後で聞いたのである。<br/><br/> 以上のような大々的家宅捜索が行われたにかかわらず、泰山鳴動式に終ったのであるが、しかし考えれば考える程、どういう訳でこのような大掛りな捜査をしたかと言う事である。<br/><br/>実に判らない。<br/><br/>みんなの一致した観方は、余程の隠匿物資があるとみて来たらしいという。<br/><br/>ところが令状には金（かね）久平に関する贈賄容疑としてあるので、それくらいの容疑で武装警官八十人とはいよいよもって判らない。<br/><br/>しかもその時私の秘書井上福夫、造営部熱海主任金久平の二人まで逮捕留置されたというのである。<br/><br/> このような訳で、当局の意図なるものはサッパリ見当がつかない。<br/><br/>それだけ何かしら穏やかならぬものを感じない訳にはゆかない。<br/><br/>もちろん井上も金も弁護士を頼んだのであるが、それから私の身の上を心配した信者の誰彼は、知合の弁護士を頼んでくれたり、連れて来たりして慰めてくれた。<br/><br/>なおこれ以上進展するかも知れないという懸念から、その対策を相談した事もあった。<br/><br/>というのは井上も金も二、三日で帰るだろうと思ったのに、一週間経ち二週間経っても帰らない。<br/><br/>井上にしろ金にしろ大した犯罪など犯すような人間でない事は、永い間部下として使った経験によっても明らかである。<br/><br/>殊に井上のごときは二十年前から忠実に仕えており、今日は家族同様の待遇さえ与えていたからである。<br/><br/> 右の両人が引っ張られる余程前から、信者である銀行員山田仁太郎氏が抑留されている事を聞いたが、罪状は浮貸問題とかであった。<br/><br/>同氏は以前は時々来たが、今年になってからは、一回面会しただけで、御無沙汰勝ちとなっていたので、彼の事情については、知る由もないが、彼とても信者である以上、それ程間違った事を、するはずがないと思ったが、これもサッパリ見当がつかない。<br/><br/>またこういう説をする者もあった。<br/><br/>それは例のユスリの一団が当局を動かしたのではないかというのである。<br/><br/>ここでこのユスリ団を、詳しくかく必要があろう。<br/><br/> 強請団 このユスリ団というのは、一、二年前から本教団を狙っており、目的は、巨額の金銭を獲得しようとして、あの手、この手の策略を用いて、教団を執拗に揺ぶるのである。<br/><br/>噂によると国会議員数人を初め、宗教人、旧右翼系の利者（きけもの）、本教の反対者等々、少なくとも十人内外の者が、一団となって謀略を廻（めぐ）らし、当局はもとより司令部方面にまで働きかけ、本教団を伏魔殿のように思わしめ、結局解散一歩手前にまで追いつめておいて、それを免れるには巨額の運動費が必要であると持ちかけ、何千万円の大金をせしめようと、企んでいると言うのである。<br/><br/>そうして右の計画を達成するための宣伝としては、本教は医学を誹謗するとか、無肥料栽培は、怪しからぬなどと言い、脱税問題、贈賄問題等その他種々の捏造やデマを絡ませ、特に彼らが力を注いでいるのは、物資隠匿である。<br/><br/>ヤレ金塊やダイヤモンド、何億を隠匿しているとか言うのだから、当局を刺戟するには絶好の資料である。<br/><br/>その他新聞雑誌を悪用し、デマを飛ばし輿論を作り、世間からみて本教の存在がいかにも、社会に害あるごとく思わしむる等、あらゆる苦肉の手段を弄し、目的を達しなければ止まないというような気構えであった。<br/><br/>その表われの一つとして昨年夏ＣＩＤの大袈裟な手入れがあった。<br/><br/>忘れもしない八月二十五日夜九時頃、箱根強羅別院に十人程の部員が突如家宅捜索に来たのである。<br/><br/>容疑は多量の金塊、白金及びダイヤモンドを、ドラム缶一杯に入れて隠匿しているというのである。<br/><br/>それがすこぶる確信に満ちているようで二日にわたって厳重なる家宅捜索をなし、最後にはレーダーまでも使用し、住宅の床下の土まで掘起した程であったにかかわらず、この時も泰山鳴動して鼠一匹も出なかったので、事なく済んだが、訊いてみると密告と投書によったと言うのである。<br/><br/>彼らユスリ団がこのように官憲を欺瞞し、躍らせる巧妙さは感嘆に堪えないのである。<br/><br/>かように私利のために罪なき良民を苦しめても、何ら法の制裁を受ける事なく、公然として社会を横行し、良民がいつも被害を受け泣寝入りに終るのであるから、善人は損をし、悪人は得をすると言う結果になるので、全く法の制度かまたは運営に欠陥があるのか、ともかく軽視出来ない問題である。<br/><br/>今回の家宅捜索がＣＩＤの手入れの当時を知っている人々の多くは、隠匿物資の疑いの点が余りによく似ていると話し合っているのを私は聞いたのである。<br/><br/> 前述のごとく、信者が紹介したり、連れて来た弁護士達が、いかに何でも明主様が引っ張られるような事は、万あるまいという意見の方が多かった。<br/><br/>そんな訳で私としても、呼び出しくらいの事はあるかも知れないが、勾留などは絶対ないと安心していたのである。<br/><br/>ところが五月二十九日、家宅捜索のあった八日の日から数えて二十一日目の二十九日未明、就寝中の私は突如起された。<br/><br/>見ると静岡県清水市庵原警察署、刑事部長Ｋ氏という名刺を出し、一人の刑事を伴い、私に対って「直ちに同行されたい」と言うので、私は愕然とした。<br/><br/>余りに意外であったからである。<br/><br/>その時私はこう言った。<br/><br/>「部下が長い間取調べを受けているのは、何か氷解しない点があるからであろう。<br/><br/>それで一度私の口から充分説明したら解るだろうと思っていたので、ちょうどよい」と快諾した。<br/><br/>途中自動車の故障などがあって大分遅延したが、零時半警察署の門をくぐり、留置所へ入れられたのである。<br/><br/>留置所の経験は昭和十一年二回、同十五年一回あったが、一回目は二日、二回目は十一日、三回目は三日間であった。<br/><br/>一、二回共宗教問題で、三回目は医師法違反でいずれも無罪であった。<br/><br/>当時の調べは三回共特高であったが、特高の調べなどというと、非常に封建的であるように想像されるが、今回の取調べに較べてみると、比較にならぬ程、今度の方が峻厳苛烈で、戦慄の一語につきると言ってもいい。<br/><br/>それを有りのままかいてみようと思うのである。<br/><br/> (注) ＣＩＤ、米陸軍犯罪調査部。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

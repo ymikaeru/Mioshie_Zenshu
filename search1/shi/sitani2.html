@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sitani2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 舌に代えて (九州地方) 『栄光』158号、昭和27(1952)年5月28日発行 恒例のごとく、今回も九州地方へ宣伝班が巡回講演するについて、私の原稿を欲しいと云って来たので、左の通りかいたのをここに掲げる事とした。<br><br> 舌に代えて 私はメシヤ教教主岡田茂吉であります。<br><br>実は皆さんに直接お話したいのでありますが、そういう訳には参らないので、残念ながら原稿にして読ませますから、その御心算（おつもり）で聴いて貰いたいのであります。<br><br> そもそも我メシヤ教は、御存知の通り最も新しい宗教であります。<br><br>それと共に最も大きなスケールの下に活動しつつある宗教であります。<br><br>それは何かというと病貧争絶無の世界、すなわちこの地上に天国を造るというのであります。<br><br>もっともこの説はキリストの天国は近づけりとか、釈尊の弥勒の世の未来成就説などを始めとし、幾多の聖者は同様の予言をされている事は、誰も知る通りでありますが、私はその予言を実現する。<br><br>すなわち理想世界を如実に造るのであります。<br><br>という訳でいずれは誰かが造らなければ、右の二大予言は造る人が出なければ空言（そらごと）となってしまうでしょう。<br><br>とすれば釈迦、キリストは嘘を吐いた事になり、二千有余年間人類は騙されていた事になりましょう。<br><br>それでは聖者どころか大嘘吐きとなるので、そのような虚偽が二千年以上も長い歳月、暴露しないはずがないでしょうから、この事だけにみても、我メシヤ教が出現すべき理由と、その時期の来た事は、何ら不思議はないのであります。<br><br> 今一つ是非知って貰わねばならない事は、現在の文明は進歩したといっても、それは外形だけで、内容に至っては空虚で、魂がないといってもいいでありましょう。<br><br>判り易くいえば物質的には進歩したが、精神的には何ら進歩は見られない事で、それは事実がよく証明しております。<br><br>何よりもこれ程文化が進歩したと言いながら、人間の幸福は進歩の程度と余りに伴わない事で、人類の苦悩は絶える事なく、全く地獄そのままの世界であります。<br><br>それはどういう訳かというと、今申したように唯物科学偏重の結果、精神科学を忘れてしまったからで、つまり人間なら半身不随で、不具的文明であったから、幸福な社会など出来るはずはないのであります。<br><br> 次にこの世界は造物主すなわち神様が御造りになられた事は、何人といえども否定する事は出来ますまい。<br><br>そうして世界を造られると共に、神様の御目的は真善美完き理想世界にまで進歩させるにある事で、それがため最初の経綸として、物質文化を発達させたのであります。<br><br>ところが最早ある程度物質面は完成の域に達したので、ここでいよいよ精神文化の面を一挙に飛躍させ、両々相まって進む事になったので、ここに初めて天国世界実現の段階となるのであります。<br><br>これを判り易くするため、一つのたとえを申しましょう。<br><br>昔からいう計画とか、企画とかいう言葉で、この下の文字は画くという字になります。<br><br>そのように神様は大計画の下に、長い年月を経て世界を主題とした名画を描かれたのであります。<br><br>もちろん種々の色彩が必要であるが、これも世界の国々をみれば分るでありましょう。<br><br>たとえば米国は黄色、英国は紫、ソ連は赤、日本は白、独逸（ドイツ）は柿色、フランスは浅黄（あさぎ）、イタリアは黒、中国は青、朝鮮は鼠というように、それぞれの特異な色を持っている。<br><br>その色を駆使して神様は思いのままに筆を揮われ、ここに世界画をかき上げたのであります。<br><br>ところが描いただけでは何にもならない。<br><br>どうしても魂を入れて、生きたものにしなくてはならないが、それには目玉を入れる必要がある。<br><br>つまり瞳を入れるのであります。<br><br>だがそれは誰が入れるかというと、かく申す私であります。<br><br> ここでちょっと瞳について説明を致しますが、これも言霊上ヒトミは火と水の事で、日月であり、日月は眼に相応します。<br><br>また火は経（たて）に燃え、水は緯（よこ）に流れるから、つまり経緯であり、この経緯が結ばれてこそ、両眼揃って完全な働きをするのであって、換言すれば経が精神文明で、緯が物質文明であるから、両文明が一致して、初めて天国世界が生まれるのであります。<br><br>つまり経が父で緯が母であるから、その結合によってミロクという立派な子が生まれるのであります。<br><br>以上はなはだ抽象的でありますが、これで概念だけは得られたと思うのであります。<br><br> 以上申したように、今までの文化は不具であって、何も彼も上面だけで、中味がないから、間違いだらけの世の中になっていたのであります。<br><br>そこへいよいよ我メシヤ教が出現して、それら一切の誤謬の因をハッキリ分らせると共に、本当のやり方を教えるのであります。<br><br>何よりも個人としては本教を信ずるや、たちまち運命の大転換となり、病に悩む不健康者は病は癒えて、完全健康人となりますから、思い切って働く事が出来るので、貧乏は吹っ飛んでしまい、争いもなくなるのはもちろんで、家庭は天国化すのでありますから、天国的家庭が増えるに従って、天国的社会となり、ここに天国世界が実現するのであります。<br><br>だがこれだけを聴くと余りに旨い話で棚牡丹（たなぼた）式なので急には信じられないでしょうが、それも無理はないので、何しろ今までにこのような素晴しい救いはなかったからであります。<br><br>ところがこれは一点の誇張や掛引もない事実ありのままをお話しするのでありますがら、いささかなりとも疑いのある人は、実地にブツかってみる事であります。<br><br>その結果本当であれば信ずるより外はないし、もし偽りであるとしたら、断然私を葬ってしかるべしでありましょう。<br><br>だが私はそんな恐ろしい自殺行為は、真ッ平御免であります。<br><br>という訳で私は神の代行者として、絶対確信をもって救いの業に邁進するのであります。<br><br>余り長くなるからこの辺で筆をおくのではなく、代弁者の舌を閉じる事に致します。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Uma Mensagem em Meu Lugar</h2>
 <p>Eu sou Mokichi Okada, Líder da Igreja Messiânica. Desejaria imensamente falar-lhes pessoalmente, mas como as circunstâncias não o permitem, lamento ter de recorrer a este manuscrito, que será lido em meu lugar. Rogo, portanto, que o escutem com essa consciência.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>Como explanei, a cultura que existiu até hoje era deficiente. Tudo era superficial, sem substância, o que resultou em um mundo repleto de equívocos. É nesse cenário que surge a nossa Igreja, para revelar com clareza a causa fundamental de todos esses erros e, ao mesmo tempo, ensinar o caminho verdadeiro. No plano individual, ao abraçar este ensinamento, a pessoa experimenta uma extraordinária reviravolta em seu destino. Aqueles que sofrem com doenças são curados e alcançam a saúde plena, podendo assim trabalhar com vigor. Consequentemente, a pobreza é erradicada, e os conflitos, como é natural, desaparecem, transformando o lar em um paraíso. À medida que o número de lares paradisíacos aumenta, forma-se uma sociedade paradisíaca e, por fim, o Mundo Paradisíaco se concretiza na Terra.</p>
 <p>Sei que, ao ouvir apenas isso, a promessa pode parecer boa demais para ser verdade, uma sorte inesperada e, portanto, difícil de acreditar de imediato. Isso é natural, pois jamais existiu até hoje uma salvação tão esplêndida. Contudo, o que lhes apresento é a verdade plena, sem um pingo de exagero ou subterfúgio. Àqueles que ainda abrigam a menor dúvida, eu os convido a colocar estes ensinamentos à prova na prática. Se constatarem que é verdade, não lhes restará alternativa senão crer. Se, por outro lado, for uma farsa, deverão me repudiar sem hesitação. Eu, porém, recuso-me terminantemente a cometer um ato suicida tão terrível. Como representante de Deus, prossigo com absoluta convicção na Obra da Salvação.</p>
 <p>Para não me alongar mais, não direi que ponho um fim à minha escrita, mas sim que encerro aqui a voz de meu porta-voz.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 舌に代えて (九州地方) 『栄光』158号、昭和27(1952)年5月28日発行 恒例のごとく、今回も九州地方へ宣伝班が巡回講演するについて、私の原稿を欲しいと云って来たので、左の通りかいたのをここに掲げる事とした。<br/><br/> 舌に代えて 私はメシヤ教教主岡田茂吉であります。<br/><br/>実は皆さんに直接お話したいのでありますが、そういう訳には参らないので、残念ながら原稿にして読ませますから、その御心算（おつもり）で聴いて貰いたいのであります。<br/><br/> そもそも我メシヤ教は、御存知の通り最も新しい宗教であります。<br/><br/>それと共に最も大きなスケールの下に活動しつつある宗教であります。<br/><br/>それは何かというと病貧争絶無の世界、すなわちこの地上に天国を造るというのであります。<br/><br/>もっともこの説はキリストの天国は近づけりとか、釈尊の弥勒の世の未来成就説などを始めとし、幾多の聖者は同様の予言をされている事は、誰も知る通りでありますが、私はその予言を実現する。<br/><br/>すなわち理想世界を如実に造るのであります。<br/><br/>という訳でいずれは誰かが造らなければ、右の二大予言は造る人が出なければ空言（そらごと）となってしまうでしょう。<br/><br/>とすれば釈迦、キリストは嘘を吐いた事になり、二千有余年間人類は騙されていた事になりましょう。<br/><br/>それでは聖者どころか大嘘吐きとなるので、そのような虚偽が二千年以上も長い歳月、暴露しないはずがないでしょうから、この事だけにみても、我メシヤ教が出現すべき理由と、その時期の来た事は、何ら不思議はないのであります。<br/><br/> 今一つ是非知って貰わねばならない事は、現在の文明は進歩したといっても、それは外形だけで、内容に至っては空虚で、魂がないといってもいいでありましょう。<br/><br/>判り易くいえば物質的には進歩したが、精神的には何ら進歩は見られない事で、それは事実がよく証明しております。<br/><br/>何よりもこれ程文化が進歩したと言いながら、人間の幸福は進歩の程度と余りに伴わない事で、人類の苦悩は絶える事なく、全く地獄そのままの世界であります。<br/><br/>それはどういう訳かというと、今申したように唯物科学偏重の結果、精神科学を忘れてしまったからで、つまり人間なら半身不随で、不具的文明であったから、幸福な社会など出来るはずはないのであります。<br/><br/> 次にこの世界は造物主すなわち神様が御造りになられた事は、何人といえども否定する事は出来ますまい。<br/><br/>そうして世界を造られると共に、神様の御目的は真善美完き理想世界にまで進歩させるにある事で、それがため最初の経綸として、物質文化を発達させたのであります。<br/><br/>ところが最早ある程度物質面は完成の域に達したので、ここでいよいよ精神文化の面を一挙に飛躍させ、両々相まって進む事になったので、ここに初めて天国世界実現の段階となるのであります。<br/><br/>これを判り易くするため、一つのたとえを申しましょう。<br/><br/>昔からいう計画とか、企画とかいう言葉で、この下の文字は画くという字になります。<br/><br/>そのように神様は大計画の下に、長い年月を経て世界を主題とした名画を描かれたのであります。<br/><br/>もちろん種々の色彩が必要であるが、これも世界の国々をみれば分るでありましょう。<br/><br/>たとえば米国は黄色、英国は紫、ソ連は赤、日本は白、独逸（ドイツ）は柿色、フランスは浅黄（あさぎ）、イタリアは黒、中国は青、朝鮮は鼠というように、それぞれの特異な色を持っている。<br/><br/>その色を駆使して神様は思いのままに筆を揮われ、ここに世界画をかき上げたのであります。<br/><br/>ところが描いただけでは何にもならない。<br/><br/>どうしても魂を入れて、生きたものにしなくてはならないが、それには目玉を入れる必要がある。<br/><br/>つまり瞳を入れるのであります。<br/><br/>だがそれは誰が入れるかというと、かく申す私であります。<br/><br/> ここでちょっと瞳について説明を致しますが、これも言霊上ヒトミは火と水の事で、日月であり、日月は眼に相応します。<br/><br/>また火は経（たて）に燃え、水は緯（よこ）に流れるから、つまり経緯であり、この経緯が結ばれてこそ、両眼揃って完全な働きをするのであって、換言すれば経が精神文明で、緯が物質文明であるから、両文明が一致して、初めて天国世界が生まれるのであります。<br/><br/>つまり経が父で緯が母であるから、その結合によってミロクという立派な子が生まれるのであります。<br/><br/>以上はなはだ抽象的でありますが、これで概念だけは得られたと思うのであります。<br/><br/> 以上申したように、今までの文化は不具であって、何も彼も上面だけで、中味がないから、間違いだらけの世の中になっていたのであります。<br/><br/>そこへいよいよ我メシヤ教が出現して、それら一切の誤謬の因をハッキリ分らせると共に、本当のやり方を教えるのであります。<br/><br/>何よりも個人としては本教を信ずるや、たちまち運命の大転換となり、病に悩む不健康者は病は癒えて、完全健康人となりますから、思い切って働く事が出来るので、貧乏は吹っ飛んでしまい、争いもなくなるのはもちろんで、家庭は天国化すのでありますから、天国的家庭が増えるに従って、天国的社会となり、ここに天国世界が実現するのであります。<br/><br/>だがこれだけを聴くと余りに旨い話で棚牡丹（たなぼた）式なので急には信じられないでしょうが、それも無理はないので、何しろ今までにこのような素晴しい救いはなかったからであります。<br/><br/>ところがこれは一点の誇張や掛引もない事実ありのままをお話しするのでありますがら、いささかなりとも疑いのある人は、実地にブツかってみる事であります。<br/><br/>その結果本当であれば信ずるより外はないし、もし偽りであるとしたら、断然私を葬ってしかるべしでありましょう。<br/><br/>だが私はそんな恐ろしい自殺行為は、真ッ平御免であります。<br/><br/>という訳で私は神の代行者として、絶対確信をもって救いの業に邁進するのであります。<br/><br/>余り長くなるからこの辺で筆をおくのではなく、代弁者の舌を閉じる事に致します。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

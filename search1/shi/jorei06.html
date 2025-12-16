@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jorei06</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊術で完全に治癒 ・法話（三） 『東京日々新聞』昭和28(1953)年2月26日発行 薬毒による病気の中で一番多いのは胃病だ。<br><br>これは最初、食い過ぎ、胸焼け、消化不良、といった現象を起すが、誰でもすぐ胃薬を飲んで一時は治ったように思うが、日が経つと再発する。<br><br>そして、また薬で治す、また起るという風にして結局、慢性になってしまう。<br><br>自然に放っておけば治るものを、今、いったような間違った方法をするから駄目だ。<br><br>次によくある胃潰瘍だが、これも薬毒で胃の薬に含まれている重曹が胃壁まで軟かくしてしまう。<br><br>そこへ固形物が触れると亀裂して出血する。<br><br>これが吐血というやつだ。<br><br>次に頭痛、鼻病、眼病、扁桃腺だが、頭痛というとすぐ鎮静剤、鼻病にはコカイン、眼病には点眼薬、扁桃腺炎にはルゴールといった風にすぐ薬を使うが、これもみんな一時的効果をねらったもので、こんなことをすると必ず中毒になる。<br><br>発熱の場合でも放っておけば、段々と熱が下るが、なまじ解熱剤を使うと一時は解熱するが、すぐ反動的に再び発熱する。<br><br>そしてまた薬を使うというわけになって最後に医者のところへ相談にゆくと、医者は原因不明といって困った顔をするが、これは医者自身が作ったのだから原因不明というのも当然なわけだ。<br><br> 薬というものは固まり易い性能と排泄しにくい性質があるので普通十年から数十年ひどいのだと一生涯固ったままという状態を続ける。<br><br>わたし自身、五十年ほど前、肋膜と結核を患った時の薬毒が今でも残っていて、そのため毎日欠かさず浄霊している。<br><br> もちろん、薬毒といっても洋薬ばかりではなく、漢方薬も同じ理屈だ。<br><br>洋薬の苦痛は尖鋭的で漢方薬は鈍感的といえる。<br><br>要するに薬毒迷信を打破しなくては人類から病気の苦悩を追放することは出来ないと断言したい。<br><br>次に近代医学の手術についてアメリカあたりでは手術の進歩を謳歌しているが、これは医術の進歩でなくむしろ退歩だ。<br><br>なぜなら、ほんとうの医術は病気で冒されている臓器を除くのではなく臓器はそのままにして、病気だけを除くものだ。<br><br>人間は手術によって身体の一部を除けば、必ずその影響がないはずはない。<br><br>よく盲腸炎をやると医者はすぐ手術で虫様突起を切り取ってしまうがこんな野ばんなことはない。<br><br>造物主は人体に不必要なものは何一つ造っていない。<br><br>もともと盲腸の役目は下半身の毒素を排除する機関だからこれを切取るということは全く無茶な話で、精（くわ）しくいうと、毒素は初め背面右側部の腎臓部に集まり、少しずつ溶けながら盲腸部に移り、そこで固まる。<br><br>それがある程度に達すると浄化が起って発熱して溶解する。<br><br>この苦痛が盲腸炎だから、そこを浄霊すると、たちまち痛みはなくなり、間もなく下痢をともない、やがて完全に治るわけだ。<br><br> 毒素排除の役目をもっている盲腸がなくなれば、そこへ集まってくる毒素は仕方なく腹膜や腎臓部にたまることになり、それが原因となって悪性の歯痛や中耳炎、結膜炎、顔面のはれ物といった病気が起る。<br><br>さて、わ〔た〕しの浄霊医術だが、その方法は患者から数尺離れて空間に手をかざすだけだが、時間は十分ないし三十分くらいの短時間で終るという簡単なもので器具も費用もいらない。<br><br>一人で一日数十人の患者を見ることが出来るから最も理想的な医術といえる。<br><br>大病院から見離された者、大博士から死の宣告を受けた者でも一時的ではなく、私の浄霊医術で根本的に治るのだから実に二十世紀の大奇蹟といってもよい。<br><br>そしてこの医術が世界中に行渡るとしたら、病気のない世界が完全に実現するわけだ。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Ilusão dos Medicamentos e a Verdadeira Causa das Doenças</h2>
 <p>Dentre as enfermidades causadas pelas toxinas medicamentosas, as mais comuns são as gástricas. Inicialmente, manifestam-se por sintomas como excesso alimentar, azia ou má digestão. Diante disso, a pessoa recorre imediatamente a um remédio estomacal e tem a impressão de uma cura momentânea. Contudo, com o passar dos dias, o mal-estar ressurge. Inicia-se, assim, um ciclo vicioso: a doença retorna, é novamente tratada com medicamentos e, por fim, torna-se crônica. Trata-se de um procedimento equivocado, pois tais distúrbios se curariam naturalmente se não houvesse interferência.</p>
@@ -103,5 +255,48 @@ function toggleLang(lang) {
 <p>Uma vez que o apêndice, responsável pela eliminação de toxinas, é removido, estas, sem ter para onde ir, acabam por se acumular no peritônio ou na região dos rins. Esse acúmulo, por sua vez, torna-se a causa de outras enfermidades, como dores de dente agudas, otite média, conjuntivite e inchaços no rosto.</p>
 <p>Passemos, agora, à minha arte de curar, o Johrei. O método é extremamente simples: posiciono a mão a uma certa distância do paciente, no espaço, por um breve período de dez a trinta minutos. Não requer instrumentos nem acarreta custos. Um único ministro pode atender dezenas de pessoas em um só dia, o que a torna a mais ideal das artes médicas.</p>
 <p>Mesmo aqueles desenganados pelos grandes hospitais ou que receberam sentenças de morte de médicos renomados podem ser curados de forma definitiva, e não apenas paliativa. Por isso, não é exagero afirmar que o Johrei é um dos grandes milagres do século XX. E quando esta arte se difundir por todo o mundo, um mundo sem doenças será plenamente realizado.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊術で完全に治癒 ・法話（三） 『東京日々新聞』昭和28(1953)年2月26日発行 薬毒による病気の中で一番多いのは胃病だ。<br/><br/>これは最初、食い過ぎ、胸焼け、消化不良、といった現象を起すが、誰でもすぐ胃薬を飲んで一時は治ったように思うが、日が経つと再発する。<br/><br/>そして、また薬で治す、また起るという風にして結局、慢性になってしまう。<br/><br/>自然に放っておけば治るものを、今、いったような間違った方法をするから駄目だ。<br/><br/>次によくある胃潰瘍だが、これも薬毒で胃の薬に含まれている重曹が胃壁まで軟かくしてしまう。<br/><br/>そこへ固形物が触れると亀裂して出血する。<br/><br/>これが吐血というやつだ。<br/><br/>次に頭痛、鼻病、眼病、扁桃腺だが、頭痛というとすぐ鎮静剤、鼻病にはコカイン、眼病には点眼薬、扁桃腺炎にはルゴールといった風にすぐ薬を使うが、これもみんな一時的効果をねらったもので、こんなことをすると必ず中毒になる。<br/><br/>発熱の場合でも放っておけば、段々と熱が下るが、なまじ解熱剤を使うと一時は解熱するが、すぐ反動的に再び発熱する。<br/><br/>そしてまた薬を使うというわけになって最後に医者のところへ相談にゆくと、医者は原因不明といって困った顔をするが、これは医者自身が作ったのだから原因不明というのも当然なわけだ。<br/><br/> 薬というものは固まり易い性能と排泄しにくい性質があるので普通十年から数十年ひどいのだと一生涯固ったままという状態を続ける。<br/><br/>わたし自身、五十年ほど前、肋膜と結核を患った時の薬毒が今でも残っていて、そのため毎日欠かさず浄霊している。<br/><br/> もちろん、薬毒といっても洋薬ばかりではなく、漢方薬も同じ理屈だ。<br/><br/>洋薬の苦痛は尖鋭的で漢方薬は鈍感的といえる。<br/><br/>要するに薬毒迷信を打破しなくては人類から病気の苦悩を追放することは出来ないと断言したい。<br/><br/>次に近代医学の手術についてアメリカあたりでは手術の進歩を謳歌しているが、これは医術の進歩でなくむしろ退歩だ。<br/><br/>なぜなら、ほんとうの医術は病気で冒されている臓器を除くのではなく臓器はそのままにして、病気だけを除くものだ。<br/><br/>人間は手術によって身体の一部を除けば、必ずその影響がないはずはない。<br/><br/>よく盲腸炎をやると医者はすぐ手術で虫様突起を切り取ってしまうがこんな野ばんなことはない。<br/><br/>造物主は人体に不必要なものは何一つ造っていない。<br/><br/>もともと盲腸の役目は下半身の毒素を排除する機関だからこれを切取るということは全く無茶な話で、精（くわ）しくいうと、毒素は初め背面右側部の腎臓部に集まり、少しずつ溶けながら盲腸部に移り、そこで固まる。<br/><br/>それがある程度に達すると浄化が起って発熱して溶解する。<br/><br/>この苦痛が盲腸炎だから、そこを浄霊すると、たちまち痛みはなくなり、間もなく下痢をともない、やがて完全に治るわけだ。<br/><br/> 毒素排除の役目をもっている盲腸がなくなれば、そこへ集まってくる毒素は仕方なく腹膜や腎臓部にたまることになり、それが原因となって悪性の歯痛や中耳炎、結膜炎、顔面のはれ物といった病気が起る。<br/><br/>さて、わ〔た〕しの浄霊医術だが、その方法は患者から数尺離れて空間に手をかざすだけだが、時間は十分ないし三十分くらいの短時間で終るという簡単なもので器具も費用もいらない。<br/><br/>一人で一日数十人の患者を見ることが出来るから最も理想的な医術といえる。<br/><br/>大病院から見離された者、大博士から死の宣告を受けた者でも一時的ではなく、私の浄霊医術で根本的に治るのだから実に二十世紀の大奇蹟といってもよい。<br/><br/>そしてこの医術が世界中に行渡るとしたら、病気のない世界が完全に実現するわけだ。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qseiwo2</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 生を怖れざる迄 『結核の革命的療法』昭和26(1951)年8月15日発行 福岡県 南光中教会 平城 優（38） 雪の原 かつての軍国調華やかなりし頃、「ああ特幹の……」で名高い旧太刀洗飛行場の一望の雪の原の一本道を、久方振りに降った雪の美を賞でつつ、走らす自転車のペダル踏む足は軽かった。<br><br>軽い咳と共に出た一種異様な啖を吐いた瞬間、瞳を射た白銀一色の中にパッと開いた真紅の花！ ハッと激しいショックを覚えながらも、そのまま自転車を走らす事暫し、やはり止みそうもない。<br><br>遂に道端にうずくまって強く膝を抱き、胸を圧したがゴホゴホと出る鮮血はただいたずらに四辺の雪を染めるのみ。<br><br>意を決してガバッガバッと吐きながら家路についた。<br><br>家の者は一瞬凍り付いたように凝っとした、食塩水を飲み消毒薬を入れた洗面器を口の端に置いて床に横臥した。<br><br>顔色を変えつつも妻は私の手真似とつぶやきの指図にきびきびと動いてくれた。<br><br>見ていた人の機転の注進で、医師は直ぐ来て幾本かの止血剤（トロンボーゲン）と鎮静剤（モヒ）を注射してくれた。<br><br>次第と喀血も間遠になり落付いて、夢現の境をさまよう時、あの満目白銀一色の広漠たる飛行場の雪の原が現れては、消えては、又現れていた。<br><br>純白の雪の上に点々と印されし鮮血と共に。<br><br> 結核菌と共に ひびの入った壷は簡単に割れてしまった。<br><br>遂に来るべき時が来た。<br><br>ああとうとう遂に！私の肉体は無傷では無かった、結核菌と共に歩いて来た道はもう永いのだ、南朝鮮の地に生れ、日本は中等学校の五箇年しか知らなかった私は、釜山府立病院で昭和十五年七月肺浸潤の宣告を受け、十六年八月迄自宅療養後、応召しその年の十二月喀痰検査に依り、肺結核の烙印を捺され、平壊陸軍病院に、十七年四月馬山傷痍軍人療養所へ、十八年末同所を全治退所、ぼつぼつ農業に従事した。<br><br>十九年五月初めて仕事中喀血を知らされた。<br><br>しかし安静のみで医師の診療も受けず一カ月余で起きた。<br><br>二十年五月再度の応召、在郷軍人の教育に講演に走り廻り、幾度か講演後血痰はあったが、そのまま押し通しあの終戦を釜山で迎えた。<br><br>回顧してもゾッとする引揚！ 良くぞ家族皆生きて帰えって来たと思われる引揚げ！ 二十一年四月この太刀洗原頭の一角に開墾の鍬を打込んで、後はただ生きんがため、遮二無二働いた。<br><br>その年の三月母は風邪が元で死去、五月甥が不発弾に依る負傷死、七月末子が水死！ 百日の間に三つの棺を出す悲境に堕ちた。<br><br>その上又十二月小喀血、しかしこの時もただうがいと安静のみで十日目には餅を搗いた。<br><br>二十二年、二十三年と無事に働き続け、ようやく結核菌を忘れかけようとした二十四年二月八日遂にこの大喀血となったのだ。<br><br>洗面器約七分目！ 捨てに行く妻の手は震えていた。<br><br>幸か不幸か官職の下っ端に籍を置いていたため、医療費は全額補助であり、毎日医師には来てもらい注射と投薬をしてもらった。<br><br>発熱も無く月末には血痰も無く、気分も良く起き出し、春の蒔付を指揮したが三月には悪化、喀血は一週間毎、十日毎に繰返し、遂に四月九日には死亡率九五％とかの肺気腫と診断され二人の医師から「もう駄目だ、ただ死は時間の問題だ」と宣告され兄妹からも見離されてしまった。<br><br>ただ死の恐怖に戦きつつも生への執着に喘ぐのみだった。<br><br>しかし未だ天は我を見捨て給わず、六月下旬には細心の心使いの中に散歩し得る迄になった。<br><br>一般は結核患者の常道、安静、大気、精神、栄養、そして驚嘆に値する程の薬と注射を金科玉条として厳守し続けつつ！ しかし固めたものは又壊れた。<br><br>十月一日私としては珍らしく高熱が続き又危篤に陥ちた。<br><br>最早や近隣は勿論、兄妹も来てくれなかった。<br><br>貧窮のどん底に喘ぎ、病魔に取憑かれている者に寄付けば、借金の申込みを受けるか菌の伝播を被るかだもの、ただ一、二の友の心からなる物心両面共の友情には幾度か泣かされた。<br><br>最早や医者も薬も兄妹も隣人も妻子でさえも頼りにならなかった。<br><br>自分一人だ、その最後の頼りの綱の自分がこれ一番頼りにならない「もうじたばたせずに、半年死んだつもりで寝よう」で本当に大の字に仰臥し徹底した安静に入り、再度次第と落付いて来た。<br><br> 病苦より生活苦 二十四年一年間、私は完全に医師を、現代医学を信頼し、医師も私の境遇に同情し、医師と患者との心は最も効果的に合致し、全額補助のため、何ら気懸りにならず、注射、投薬等安心して医師の意志通り与えてもらい服用した。<br><br>そのため病気に対する処置はほとんど理想的に近く万全を期してもらい、現代医学に対しての不足感は自弁であったため、六本だけに止めなければならなかったストレプトマイシンより他感じなかった。<br><br>しかし一家の支柱の倒れた後の生活苦は見るも哀れだった。<br><br>命の次と玄海の怒涛を越して持って来た僅かの物品は次々と栄養食代に変貌して消えて行った。<br><br>妻は十五歳を頭の三人の子女を相手に馴れぬ農耕の上、輸血組合に入るべく検査を受け血を売り、行商をし、ただ喰って生きんがためのみの努力で、帯を解いて睡眠を取る事は珍らしかった。<br><br>その上離れ行く人の心を見る時六つからの公職を持って走り廻っていた頃、あれ程チヤホヤ言いつつ寄り着いていた人達の足はばったり止り、時折訪れ来れる人々も逃げ腰の挨拶！ 親の結核のため、子迄肩身狭い生活をしなければならず、学校の整列の時ですら、前後とも開いて一人ポツンと取残される事も度々とか、兄妹にも病と貧なるが故に見捨てられし孤独感！ 人知れず荒れ果てた妻の手を握って男泣きに泣いた事も又幾度か…… 心の糧を求めて 何故に俺はかく迄しいたげられなければならないか？「血を吐く思い」とは形容詞だが現実に血を吐き続ける苦悩は、何故に次から次に繰返して迫って来るのだろうか？ これでもかこれでもかと言わんばかりの悲境の連続は何故か？ 神は何を知らしめようとなさるのだろうか。<br><br>愛、慈悲、智の権化の神仏が何故に俺にはかく迄も辛くあたられ、苦難の連続を与え苦しめられるのだろうか。<br><br>神の試練と受取るべきだろうか。<br><br>人間を病苦に喘がせ、貧苦に焦だたせ、死の恐怖に悶えさせられるのが神仏の御仕事だろうか？ しからば抜苦与楽の大慈悲は何か？ 矛盾だ、矢張り宗教は無神論者の言う阿片だろうか？ 「読書も害だ」と医師には幾度か注意されつつも、心の悶えは如何ともし難く読みあさった。<br><br> 仏書を、神の道を、生命の実相をそしてバイブルを……を、その間にもやれ何宗だ、やれ何教だと十指に数え切れない宗教ないしその類似の人が、余りにはでだった。<br><br>発病が原因し訪ねて来られては私の心を満し得ず、無為に「度し難し」と言わんばかりの顔で帰って行かれた。<br><br>後ではただ「信ぜよ、しからば汝助けられん」のみで素直に共感信じ得る事に依って飛び込み得る人は幸福だ。<br><br>何故に俺は勉強し本を読み生半かな知識を持っているのだろう、と自己批判に陥入っては苦しむのだった。<br><br>病状のようやく落付き出した十一月、十二月と実に頼りにならない人間以上の何ものかを求めに求め、考え、悩み、悶え苦しんだ矢張り駄目だ！ 凡夫の俺には出来ない事だろうか？ だけど面壁九年、石の上に三年の荒業、苦業しなければ本当の神、仏は解らないのだろうか、出来ない相談だ、ええもう神、仏は解らないでも良い、病苦より脱するのみでも良い、どうしても俺はただ単純に「汝等信ぜよ、求めよ」のみで、縋り付き得る素直さが無いのだろう。<br><br>いろはも知らないような田舎の老娩が御信心する事に依って不思議に安心を得、ケロリと病気の全治するのは何故だろう？ 偶然だ。<br><br>偶然でも良い。<br><br>病苦より脱し得れば、その偶然の連続は奇蹟と言って良いはずだ。<br><br>奇蹟なればなお結構、偶然でも良い。<br><br>何でも良い。<br><br>鰯の頭でも良い。<br><br>この病苦を、生活苦を、悩みを、悶えを脱したい。<br><br>逃れたい！ 余りにおかげが多過ぎる 大小便迄臥床のままの徹底した安静裡に肉体は平安を保っていた。<br><br>自覚症はただ僅かの咳と痰のみ、脈拍は少し早く九十位、熱も、胸痛も盗汗も、不眠も無く、食欲も二杯は美味に食し得る位はあった。<br><br>しかし医師の言を借ればラッセルはバリバリ聞え、菌はガッキー六号位は出ているとの事だった。<br><br>このような状況の内に我が生涯の最良の日十二月二十八日を迎えた。<br><br>同村の中島節子先生がひょっこり見えた。<br><br>未だ処女美の崇高な迄の清潔な感じの若人である。<br><br>「私も胸がこの教えで治りました」成程はち切れそうな元気さを目前に見ては、病気の暗い影など微塵もない。<br><br>「他の信仰では信じなさい、助けられますと言いながら、助からない時は信仰が足りないからと逃げるのです。<br><br>この教えではまず助けましょうが先です。<br><br>病気が治ったら良いでしょう。<br><br>文句は要らないはずです。<br><br>手を振ろうが、足を振ろうがあなたの体には指一本触れません。<br><br>治ったら良いでしょう」呆気に取られる程の信念だ。<br><br>医師でさえ半年の絶対安静を守り得ればあるいは助かるかも知れぬと、明確な言はさけるのに、余りにも自信満々の口ぶり！ 中島先生の御話を小理屈並べて反駁している時、電工について天井に登ろうとした十四歳の次男が、約一間半の天井から踏外して混凝土（コンクリート）の土間に転落！ 身動きも出来ず、声も出し得ぬのが中島先生の十数分間の浄霊で「もういいよ、なおったよ」と前と同じ棚を足懸りにするすると登ってしまった。<br><br>偶然だ。<br><br>大して打っていなかったんだ。<br><br>丁度治る時期に手を振られた迄だ、と信じる気にはなれず妻が、「御浄霊とやらを御受けになったら」と勧めても、かたくなに拒否し続けた。<br><br>「疑われて結構です。<br><br>まあ暇つぶしにこれを読んで御覧になったら」と数冊の本や機関紙「光」を置いて行かれた。<br><br>藁を掴む気持で読み出した。<br><br>面白い！ 「病気とは浄化作用だ。<br><br>皆三毒を持って生きている」今迄感銘深く読んだ歎異抄が、甘露の法雨が、バイブルが、今や疑問のヴェールを一枚一枚と取外され出した。<br><br>常識を逸脱した説き方なので実に面白い。<br><br>と同時に何か「コロンブスの卵」の話で、机の角でコツンとやるヒントを教えてあるようだ。<br><br>新聞でも二時間も連続に読めば疲労を感じていたのに、その夜は遂に徹夜で読んだ。<br><br>真夜中思わず「ナアーンダ、ワッハッハ！」と腹から笑えた。<br><br>今迄の苦しみが、悩みが悶えが馬鹿らしく「ソウダッタノカー・ワッハッハッハ」と又笑った。<br><br>ぼたぽた涙を流しつつ！ うば玉の闇に閉されていた心には、ほのかな一条の白光が差込んだ。<br><br>開け放っていた窓からは朝の清澄の気が流れ込み黎明は今や正に訪れんとし、鶏鳴も又雄々しく聞えて来た。<br><br>「ものは試しだ」二十九日から今迄驚嘆に値する程の正確さで服用し続けた食前、食後の薬を飲む事を止めた。<br><br>三十日には中島先生は甘木村の村上先生を同道され種々と御話を聞かして下さった。<br><br>明主様の叢書に依り受信機の電波調節はＯＫ！ 御話は非常に良く解る。<br><br>「あなたは安静安静で御飯を食べるミイラになるつもりですか？ 人間としての生甲斐がミイラであってよいのですか？」と、村上先生のこの一言にはギャフンと参った。<br><br>それでも未だ素直に御浄霊を受ける気にはなれなかった。<br><br>十六歳の長男が昨日から下痢八、九回、朝、昼共食事を取らず、起れば吐気がするとて友の好意の加勢を受けて迄の餅搗きなのに「済みません」と言いつつ寝ていたのを、起して村上先生と中島先生と二人に浄霊して戴いた。<br><br>約二十分間、長男はそのまま餅一臼を立派に搗き上げてしまった。<br><br>これも偶然でかた付けるべきだろうか？ 私はさし込む白光に縋り付く気持で、初めて浄霊を受けた。<br><br>大晦日の正午より妻は姉の死去のため行かなければならなかったので、床上に起き上り三人の子を指揮して迎春準備を心楽しく談笑裡にさした。<br><br>二十五年の元旦！ 若水を汲み、神、仏を拝し、家族一同一緒に躍る歓喜を静かに包んで雑煮を祝った。<br><br>顔見合してはただ微笑し合いつつ！ 御かげ話に余りにも奇蹟が多過ぎるのが、何か事更な宣伝のような感じがしていたのが、自身二、三日でこの心境の変化と同時に肉体の変化を自覚させられ、住所氏名ただの一字の隠し字無く、完全に記載されているのが成程とうなずけた。<br><br>腹具合も便通の状況又上々！ 三十一日には注射器を出した医師に「暫く試験的に気を悪くなさらず、止めて見てくれませんか」と止め、宗教を論じ「信教の自由は私にもあるはずです。<br><br>私は救世教を信仰します。<br><br>しかし折角一年の間私の肉体の良き相談相手になって下さった先生です。<br><br>健康診断的に……御見捨て無く」と願った。<br><br>争は作り出さねば無いものだ。<br><br>一線の白光は次第と幅を拡げて行った。<br><br> 唯心論と唯物論 素晴らしい法悦と歓喜の中に日は流れ、肉体又加速度的に改造されて行った。<br><br>万物の流転も、瞬間の人生も、直感の意識もだんだんと判り出した。<br><br>総ての事がら、物の観方に光明面を見得る心構えも出来出した。<br><br>しかし金銭的の悩みでなお一抹の疑心をどうする事も出来なかった。<br><br>一月十六日遂に決定的な断の下される日は来た。<br><br>中島先生と一緒に日田教会よりは金子先生が見え、種々御話をして下さった。<br><br>現代物理学の粋、電子、中性子論より入り、万物に神の存在を見出し、人間の生の瞬間に見る仏、霊の実在を説かれ、阿片の宗教を脱却したより以上のなお前進する宗教のあり方、人生の意義等ユーモアを混ぜての言々句々火を吐く熱弁！ その最中医師の来場！ 患者の私と鼎坐してまず唯物論の医師より激論が飛び出し、金子先生は悠揚迫らず唯心論で反駁され、三人共三十七、八歳、甲論乙駁、実に二時間、いつ果てるやら尽きる所を知らない有様！ 遂にたまりかねた私は「森重先生（医師）良く唯物唯心両面の理論が明確に判りました。<br><br>私の念願が達せられ、私は実に恵まれし者と言わなければなりません。<br><br>今度は事実です。<br><br>心に神様を念じ医薬は止め、安静は先生の言を守って比較的にやって来た二週間の私です。<br><br>理論と実際とはどうか？ まあ見て下さい」でようやく聴診器を取出し、聴診、打診「前より大分良いようです！」この一言、思わず「万歳」を叫びたかった。<br><br>医師は「しかし金子さん、未だ平城さんからはバサラカ（沢山の意）結核菌が出ていますから余り近寄るのは危険です」と玄関から私にも聞える大声「御親切に御注意下さいまして有難う御座居ます」とやわらかく金子先生！ この一言のやりとりで勝負は完全に決ったと感じた「平城さん、明主様もまず御説きになっているように問題の焦点は誠心です。<br><br>誠心さえあれば物質の金銭等、無限供給です。<br><br>いいですか、素直な心で神、我と共にあり、我、神と共にありの神人一体を信じ得る誠心こそ肝要ですよ」と金子先生！ 無限供給、何たる現世の通念に比して超然たる言葉だろう。<br><br>私は思わずニッコリした。<br><br>燦々たる陽光は光を増し眼前を照した。<br><br> 胸に抱く白光はなお薄けれど 一月十八日、早速無限供給は如実に現れ一月二十一日待望の御守を日田教会、金子先生よりまず妻に受けさせ、家の内は一層の微笑が充満し、ほのぼのたる白光は輝き、悩み、呪い、悲しみ、争いは影を消してしまった。<br><br>妻は甘木村の村上先生宅、日田先生宅、別府の九州本部と御詣りさして戴き、より良く心を洗い毎夜かかさず私始め近所の人にも浄霊し、早くも微かながらずつも、偶然か奇蹟を日一日と戴き、私も又実に奇蹟的と言わなければならない偶然では片付けられない無限供給に依り、締切りぎりぎりの二月二十七日午前五時、甘木村上先生の御尽力に依り御守を抱く身となり、私より一日早く近所の人にも受けさせ、一瞬一瞬ただただ感謝、歓喜の中に日を送らして戴く有難さ！ 死線上を彷徨（さまよ）いし身が救世教に入らせて戴いて二月半！ 風の無い春光やわらかき日は遅々なれど菜種畠の除草に鼻唄交りで時を過し、一人の人にもこの歓喜を御取次致すべく田の畦に腰掛けて四時間！ 時には夕方の五時頃より翌朝の四時迄もぶっ通しで悩める人と宗教々論じても、何ら疲労も感ぜず、この肉体にこの心境に到達さして戴きし明主様始め日田教会金子先生、甘木の村上先生、同村の中島先生に対する感謝の言葉は実に言無し、ただ合掌し拝する他無いのです。<br><br>妻もまねかれては御道の御手伝いをさして戴き、涙の出る程の感謝を受ける有難さ！ この御鴻恩の幾分かでも御報い致す術は何か？ 他なし！ 報恩行に、利他行に、隣人愛に邁進するのみと思うのであります。<br><br>「あらゆる運命、境遇は総て善也、霊魂の錬磨か、劫の自壊作用かなればなり」とただ一途に光明面を求め、凝視し、安心立命を求め「悟とは死を怖れざる事にあらずして生を怖れざる事なり」との大勇猛心は躍動し、まず自己を向上し、家の中を、近隣を、そして社会を向上さす、人間生かされている以上、果さなければならぬ大使命を思う時、なおさらとこれ迄御導き下された諸先生方の御恩の程がひしひしと感銘させられるのであります。<br><br>光明如来様も御迎え致すべく日田教会金子先生に御尽力を御願いし、日々是好日！ の毎日！ 朝に神様を念じ、暮にも又神様を念じ、念々従心起念々不離心、ただ一すじに、真実一路、誠心の道を行きただただ感謝、合掌し拙なきペンを擱かして戴きます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Terapia Revolucionária da Tuberculose</h2>
 <p><em>Publicado em 15 de agosto de 1951</em>
@@ -150,5 +305,48 @@ function toggleLang(lang) {
 <p>Não tenho palavras para expressar minha gratidão a Meishu-Sama, ao Sr. Kaneko, da Igreja de Hita, ao Sr. Murakami, de Amagi, e à Srta. Nakashima, do meu vilarejo, por me terem conduzido a este estado físico e espiritual. Resta-me apenas unir as mãos em prece. Minha esposa também é convidada para auxiliar nos serviços da Obra Divina, e é uma bênção receber o agradecimento comovido das pessoas.</p>
 <p>Qual a melhor forma de retribuir, ainda que minimamente, esta graça imensurável? Não há outra senão devotar-me à prática da gratidão, ao bem do próximo e ao amor fraterno. "Todo destino, toda circunstância é um bem, pois serve para o aprimoramento da alma ou para a purificação do carma." Com este pensamento, busco e contemplo unicamente o lado da luz, em busca da paz de espírito. O grande e destemido coração que compreende que "a iluminação não consiste em não temer a morte, mas em não temer a vida" pulsa dentro de mim. Ao pensar na grande missão que devo cumprir enquanto me é permitido viver — aprimorar a mim mesmo, meu lar, minha comunidade e, por fim, a sociedade —, sinto com ainda mais intensidade a profundidade da gratidão que devo aos ministros que me guiaram até aqui.</p>
 <p>Já solicitei ao Sr. Kaneko, da Igreja de Hita, que me ajude nos preparativos para entronizar a Imagem da Luz Divina em meu lar. Cada dia é um bom dia! De manhã, elevo meu pensamento a Deus; ao anoitecer, novamente a Ele me volto. Meus pensamentos surgem do meu coração e a Ele retornam, inseparáveis. Seguindo unicamente o caminho da verdade e da sinceridade, com um coração repleto de gratidão, em prece, encerro este meu humilde relato.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 生を怖れざる迄 『結核の革命的療法』昭和26(1951)年8月15日発行 福岡県 南光中教会 平城 優（38） 雪の原 かつての軍国調華やかなりし頃、「ああ特幹の……」で名高い旧太刀洗飛行場の一望の雪の原の一本道を、久方振りに降った雪の美を賞でつつ、走らす自転車のペダル踏む足は軽かった。<br/><br/>軽い咳と共に出た一種異様な啖を吐いた瞬間、瞳を射た白銀一色の中にパッと開いた真紅の花！ ハッと激しいショックを覚えながらも、そのまま自転車を走らす事暫し、やはり止みそうもない。<br/><br/>遂に道端にうずくまって強く膝を抱き、胸を圧したがゴホゴホと出る鮮血はただいたずらに四辺の雪を染めるのみ。<br/><br/>意を決してガバッガバッと吐きながら家路についた。<br/><br/>家の者は一瞬凍り付いたように凝っとした、食塩水を飲み消毒薬を入れた洗面器を口の端に置いて床に横臥した。<br/><br/>顔色を変えつつも妻は私の手真似とつぶやきの指図にきびきびと動いてくれた。<br/><br/>見ていた人の機転の注進で、医師は直ぐ来て幾本かの止血剤（トロンボーゲン）と鎮静剤（モヒ）を注射してくれた。<br/><br/>次第と喀血も間遠になり落付いて、夢現の境をさまよう時、あの満目白銀一色の広漠たる飛行場の雪の原が現れては、消えては、又現れていた。<br/><br/>純白の雪の上に点々と印されし鮮血と共に。<br/><br/> 結核菌と共に ひびの入った壷は簡単に割れてしまった。<br/><br/>遂に来るべき時が来た。<br/><br/>ああとうとう遂に！私の肉体は無傷では無かった、結核菌と共に歩いて来た道はもう永いのだ、南朝鮮の地に生れ、日本は中等学校の五箇年しか知らなかった私は、釜山府立病院で昭和十五年七月肺浸潤の宣告を受け、十六年八月迄自宅療養後、応召しその年の十二月喀痰検査に依り、肺結核の烙印を捺され、平壊陸軍病院に、十七年四月馬山傷痍軍人療養所へ、十八年末同所を全治退所、ぼつぼつ農業に従事した。<br/><br/>十九年五月初めて仕事中喀血を知らされた。<br/><br/>しかし安静のみで医師の診療も受けず一カ月余で起きた。<br/><br/>二十年五月再度の応召、在郷軍人の教育に講演に走り廻り、幾度か講演後血痰はあったが、そのまま押し通しあの終戦を釜山で迎えた。<br/><br/>回顧してもゾッとする引揚！ 良くぞ家族皆生きて帰えって来たと思われる引揚げ！ 二十一年四月この太刀洗原頭の一角に開墾の鍬を打込んで、後はただ生きんがため、遮二無二働いた。<br/><br/>その年の三月母は風邪が元で死去、五月甥が不発弾に依る負傷死、七月末子が水死！ 百日の間に三つの棺を出す悲境に堕ちた。<br/><br/>その上又十二月小喀血、しかしこの時もただうがいと安静のみで十日目には餅を搗いた。<br/><br/>二十二年、二十三年と無事に働き続け、ようやく結核菌を忘れかけようとした二十四年二月八日遂にこの大喀血となったのだ。<br/><br/>洗面器約七分目！ 捨てに行く妻の手は震えていた。<br/><br/>幸か不幸か官職の下っ端に籍を置いていたため、医療費は全額補助であり、毎日医師には来てもらい注射と投薬をしてもらった。<br/><br/>発熱も無く月末には血痰も無く、気分も良く起き出し、春の蒔付を指揮したが三月には悪化、喀血は一週間毎、十日毎に繰返し、遂に四月九日には死亡率九五％とかの肺気腫と診断され二人の医師から「もう駄目だ、ただ死は時間の問題だ」と宣告され兄妹からも見離されてしまった。<br/><br/>ただ死の恐怖に戦きつつも生への執着に喘ぐのみだった。<br/><br/>しかし未だ天は我を見捨て給わず、六月下旬には細心の心使いの中に散歩し得る迄になった。<br/><br/>一般は結核患者の常道、安静、大気、精神、栄養、そして驚嘆に値する程の薬と注射を金科玉条として厳守し続けつつ！ しかし固めたものは又壊れた。<br/><br/>十月一日私としては珍らしく高熱が続き又危篤に陥ちた。<br/><br/>最早や近隣は勿論、兄妹も来てくれなかった。<br/><br/>貧窮のどん底に喘ぎ、病魔に取憑かれている者に寄付けば、借金の申込みを受けるか菌の伝播を被るかだもの、ただ一、二の友の心からなる物心両面共の友情には幾度か泣かされた。<br/><br/>最早や医者も薬も兄妹も隣人も妻子でさえも頼りにならなかった。<br/><br/>自分一人だ、その最後の頼りの綱の自分がこれ一番頼りにならない「もうじたばたせずに、半年死んだつもりで寝よう」で本当に大の字に仰臥し徹底した安静に入り、再度次第と落付いて来た。<br/><br/> 病苦より生活苦 二十四年一年間、私は完全に医師を、現代医学を信頼し、医師も私の境遇に同情し、医師と患者との心は最も効果的に合致し、全額補助のため、何ら気懸りにならず、注射、投薬等安心して医師の意志通り与えてもらい服用した。<br/><br/>そのため病気に対する処置はほとんど理想的に近く万全を期してもらい、現代医学に対しての不足感は自弁であったため、六本だけに止めなければならなかったストレプトマイシンより他感じなかった。<br/><br/>しかし一家の支柱の倒れた後の生活苦は見るも哀れだった。<br/><br/>命の次と玄海の怒涛を越して持って来た僅かの物品は次々と栄養食代に変貌して消えて行った。<br/><br/>妻は十五歳を頭の三人の子女を相手に馴れぬ農耕の上、輸血組合に入るべく検査を受け血を売り、行商をし、ただ喰って生きんがためのみの努力で、帯を解いて睡眠を取る事は珍らしかった。<br/><br/>その上離れ行く人の心を見る時六つからの公職を持って走り廻っていた頃、あれ程チヤホヤ言いつつ寄り着いていた人達の足はばったり止り、時折訪れ来れる人々も逃げ腰の挨拶！ 親の結核のため、子迄肩身狭い生活をしなければならず、学校の整列の時ですら、前後とも開いて一人ポツンと取残される事も度々とか、兄妹にも病と貧なるが故に見捨てられし孤独感！ 人知れず荒れ果てた妻の手を握って男泣きに泣いた事も又幾度か…… 心の糧を求めて 何故に俺はかく迄しいたげられなければならないか？「血を吐く思い」とは形容詞だが現実に血を吐き続ける苦悩は、何故に次から次に繰返して迫って来るのだろうか？ これでもかこれでもかと言わんばかりの悲境の連続は何故か？ 神は何を知らしめようとなさるのだろうか。<br/><br/>愛、慈悲、智の権化の神仏が何故に俺にはかく迄も辛くあたられ、苦難の連続を与え苦しめられるのだろうか。<br/><br/>神の試練と受取るべきだろうか。<br/><br/>人間を病苦に喘がせ、貧苦に焦だたせ、死の恐怖に悶えさせられるのが神仏の御仕事だろうか？ しからば抜苦与楽の大慈悲は何か？ 矛盾だ、矢張り宗教は無神論者の言う阿片だろうか？ 「読書も害だ」と医師には幾度か注意されつつも、心の悶えは如何ともし難く読みあさった。<br/><br/> 仏書を、神の道を、生命の実相をそしてバイブルを……を、その間にもやれ何宗だ、やれ何教だと十指に数え切れない宗教ないしその類似の人が、余りにはでだった。<br/><br/>発病が原因し訪ねて来られては私の心を満し得ず、無為に「度し難し」と言わんばかりの顔で帰って行かれた。<br/><br/>後ではただ「信ぜよ、しからば汝助けられん」のみで素直に共感信じ得る事に依って飛び込み得る人は幸福だ。<br/><br/>何故に俺は勉強し本を読み生半かな知識を持っているのだろう、と自己批判に陥入っては苦しむのだった。<br/><br/>病状のようやく落付き出した十一月、十二月と実に頼りにならない人間以上の何ものかを求めに求め、考え、悩み、悶え苦しんだ矢張り駄目だ！ 凡夫の俺には出来ない事だろうか？ だけど面壁九年、石の上に三年の荒業、苦業しなければ本当の神、仏は解らないのだろうか、出来ない相談だ、ええもう神、仏は解らないでも良い、病苦より脱するのみでも良い、どうしても俺はただ単純に「汝等信ぜよ、求めよ」のみで、縋り付き得る素直さが無いのだろう。<br/><br/>いろはも知らないような田舎の老娩が御信心する事に依って不思議に安心を得、ケロリと病気の全治するのは何故だろう？ 偶然だ。<br/><br/>偶然でも良い。<br/><br/>病苦より脱し得れば、その偶然の連続は奇蹟と言って良いはずだ。<br/><br/>奇蹟なればなお結構、偶然でも良い。<br/><br/>何でも良い。<br/><br/>鰯の頭でも良い。<br/><br/>この病苦を、生活苦を、悩みを、悶えを脱したい。<br/><br/>逃れたい！ 余りにおかげが多過ぎる 大小便迄臥床のままの徹底した安静裡に肉体は平安を保っていた。<br/><br/>自覚症はただ僅かの咳と痰のみ、脈拍は少し早く九十位、熱も、胸痛も盗汗も、不眠も無く、食欲も二杯は美味に食し得る位はあった。<br/><br/>しかし医師の言を借ればラッセルはバリバリ聞え、菌はガッキー六号位は出ているとの事だった。<br/><br/>このような状況の内に我が生涯の最良の日十二月二十八日を迎えた。<br/><br/>同村の中島節子先生がひょっこり見えた。<br/><br/>未だ処女美の崇高な迄の清潔な感じの若人である。<br/><br/>「私も胸がこの教えで治りました」成程はち切れそうな元気さを目前に見ては、病気の暗い影など微塵もない。<br/><br/>「他の信仰では信じなさい、助けられますと言いながら、助からない時は信仰が足りないからと逃げるのです。<br/><br/>この教えではまず助けましょうが先です。<br/><br/>病気が治ったら良いでしょう。<br/><br/>文句は要らないはずです。<br/><br/>手を振ろうが、足を振ろうがあなたの体には指一本触れません。<br/><br/>治ったら良いでしょう」呆気に取られる程の信念だ。<br/><br/>医師でさえ半年の絶対安静を守り得ればあるいは助かるかも知れぬと、明確な言はさけるのに、余りにも自信満々の口ぶり！ 中島先生の御話を小理屈並べて反駁している時、電工について天井に登ろうとした十四歳の次男が、約一間半の天井から踏外して混凝土（コンクリート）の土間に転落！ 身動きも出来ず、声も出し得ぬのが中島先生の十数分間の浄霊で「もういいよ、なおったよ」と前と同じ棚を足懸りにするすると登ってしまった。<br/><br/>偶然だ。<br/><br/>大して打っていなかったんだ。<br/><br/>丁度治る時期に手を振られた迄だ、と信じる気にはなれず妻が、「御浄霊とやらを御受けになったら」と勧めても、かたくなに拒否し続けた。<br/><br/>「疑われて結構です。<br/><br/>まあ暇つぶしにこれを読んで御覧になったら」と数冊の本や機関紙「光」を置いて行かれた。<br/><br/>藁を掴む気持で読み出した。<br/><br/>面白い！ 「病気とは浄化作用だ。<br/><br/>皆三毒を持って生きている」今迄感銘深く読んだ歎異抄が、甘露の法雨が、バイブルが、今や疑問のヴェールを一枚一枚と取外され出した。<br/><br/>常識を逸脱した説き方なので実に面白い。<br/><br/>と同時に何か「コロンブスの卵」の話で、机の角でコツンとやるヒントを教えてあるようだ。<br/><br/>新聞でも二時間も連続に読めば疲労を感じていたのに、その夜は遂に徹夜で読んだ。<br/><br/>真夜中思わず「ナアーンダ、ワッハッハ！」と腹から笑えた。<br/><br/>今迄の苦しみが、悩みが悶えが馬鹿らしく「ソウダッタノカー・ワッハッハッハ」と又笑った。<br/><br/>ぼたぽた涙を流しつつ！ うば玉の闇に閉されていた心には、ほのかな一条の白光が差込んだ。<br/><br/>開け放っていた窓からは朝の清澄の気が流れ込み黎明は今や正に訪れんとし、鶏鳴も又雄々しく聞えて来た。<br/><br/>「ものは試しだ」二十九日から今迄驚嘆に値する程の正確さで服用し続けた食前、食後の薬を飲む事を止めた。<br/><br/>三十日には中島先生は甘木村の村上先生を同道され種々と御話を聞かして下さった。<br/><br/>明主様の叢書に依り受信機の電波調節はＯＫ！ 御話は非常に良く解る。<br/><br/>「あなたは安静安静で御飯を食べるミイラになるつもりですか？ 人間としての生甲斐がミイラであってよいのですか？」と、村上先生のこの一言にはギャフンと参った。<br/><br/>それでも未だ素直に御浄霊を受ける気にはなれなかった。<br/><br/>十六歳の長男が昨日から下痢八、九回、朝、昼共食事を取らず、起れば吐気がするとて友の好意の加勢を受けて迄の餅搗きなのに「済みません」と言いつつ寝ていたのを、起して村上先生と中島先生と二人に浄霊して戴いた。<br/><br/>約二十分間、長男はそのまま餅一臼を立派に搗き上げてしまった。<br/><br/>これも偶然でかた付けるべきだろうか？ 私はさし込む白光に縋り付く気持で、初めて浄霊を受けた。<br/><br/>大晦日の正午より妻は姉の死去のため行かなければならなかったので、床上に起き上り三人の子を指揮して迎春準備を心楽しく談笑裡にさした。<br/><br/>二十五年の元旦！ 若水を汲み、神、仏を拝し、家族一同一緒に躍る歓喜を静かに包んで雑煮を祝った。<br/><br/>顔見合してはただ微笑し合いつつ！ 御かげ話に余りにも奇蹟が多過ぎるのが、何か事更な宣伝のような感じがしていたのが、自身二、三日でこの心境の変化と同時に肉体の変化を自覚させられ、住所氏名ただの一字の隠し字無く、完全に記載されているのが成程とうなずけた。<br/><br/>腹具合も便通の状況又上々！ 三十一日には注射器を出した医師に「暫く試験的に気を悪くなさらず、止めて見てくれませんか」と止め、宗教を論じ「信教の自由は私にもあるはずです。<br/><br/>私は救世教を信仰します。<br/><br/>しかし折角一年の間私の肉体の良き相談相手になって下さった先生です。<br/><br/>健康診断的に……御見捨て無く」と願った。<br/><br/>争は作り出さねば無いものだ。<br/><br/>一線の白光は次第と幅を拡げて行った。<br/><br/> 唯心論と唯物論 素晴らしい法悦と歓喜の中に日は流れ、肉体又加速度的に改造されて行った。<br/><br/>万物の流転も、瞬間の人生も、直感の意識もだんだんと判り出した。<br/><br/>総ての事がら、物の観方に光明面を見得る心構えも出来出した。<br/><br/>しかし金銭的の悩みでなお一抹の疑心をどうする事も出来なかった。<br/><br/>一月十六日遂に決定的な断の下される日は来た。<br/><br/>中島先生と一緒に日田教会よりは金子先生が見え、種々御話をして下さった。<br/><br/>現代物理学の粋、電子、中性子論より入り、万物に神の存在を見出し、人間の生の瞬間に見る仏、霊の実在を説かれ、阿片の宗教を脱却したより以上のなお前進する宗教のあり方、人生の意義等ユーモアを混ぜての言々句々火を吐く熱弁！ その最中医師の来場！ 患者の私と鼎坐してまず唯物論の医師より激論が飛び出し、金子先生は悠揚迫らず唯心論で反駁され、三人共三十七、八歳、甲論乙駁、実に二時間、いつ果てるやら尽きる所を知らない有様！ 遂にたまりかねた私は「森重先生（医師）良く唯物唯心両面の理論が明確に判りました。<br/><br/>私の念願が達せられ、私は実に恵まれし者と言わなければなりません。<br/><br/>今度は事実です。<br/><br/>心に神様を念じ医薬は止め、安静は先生の言を守って比較的にやって来た二週間の私です。<br/><br/>理論と実際とはどうか？ まあ見て下さい」でようやく聴診器を取出し、聴診、打診「前より大分良いようです！」この一言、思わず「万歳」を叫びたかった。<br/><br/>医師は「しかし金子さん、未だ平城さんからはバサラカ（沢山の意）結核菌が出ていますから余り近寄るのは危険です」と玄関から私にも聞える大声「御親切に御注意下さいまして有難う御座居ます」とやわらかく金子先生！ この一言のやりとりで勝負は完全に決ったと感じた「平城さん、明主様もまず御説きになっているように問題の焦点は誠心です。<br/><br/>誠心さえあれば物質の金銭等、無限供給です。<br/><br/>いいですか、素直な心で神、我と共にあり、我、神と共にありの神人一体を信じ得る誠心こそ肝要ですよ」と金子先生！ 無限供給、何たる現世の通念に比して超然たる言葉だろう。<br/><br/>私は思わずニッコリした。<br/><br/>燦々たる陽光は光を増し眼前を照した。<br/><br/> 胸に抱く白光はなお薄けれど 一月十八日、早速無限供給は如実に現れ一月二十一日待望の御守を日田教会、金子先生よりまず妻に受けさせ、家の内は一層の微笑が充満し、ほのぼのたる白光は輝き、悩み、呪い、悲しみ、争いは影を消してしまった。<br/><br/>妻は甘木村の村上先生宅、日田先生宅、別府の九州本部と御詣りさして戴き、より良く心を洗い毎夜かかさず私始め近所の人にも浄霊し、早くも微かながらずつも、偶然か奇蹟を日一日と戴き、私も又実に奇蹟的と言わなければならない偶然では片付けられない無限供給に依り、締切りぎりぎりの二月二十七日午前五時、甘木村上先生の御尽力に依り御守を抱く身となり、私より一日早く近所の人にも受けさせ、一瞬一瞬ただただ感謝、歓喜の中に日を送らして戴く有難さ！ 死線上を彷徨（さまよ）いし身が救世教に入らせて戴いて二月半！ 風の無い春光やわらかき日は遅々なれど菜種畠の除草に鼻唄交りで時を過し、一人の人にもこの歓喜を御取次致すべく田の畦に腰掛けて四時間！ 時には夕方の五時頃より翌朝の四時迄もぶっ通しで悩める人と宗教々論じても、何ら疲労も感ぜず、この肉体にこの心境に到達さして戴きし明主様始め日田教会金子先生、甘木の村上先生、同村の中島先生に対する感謝の言葉は実に言無し、ただ合掌し拝する他無いのです。<br/><br/>妻もまねかれては御道の御手伝いをさして戴き、涙の出る程の感謝を受ける有難さ！ この御鴻恩の幾分かでも御報い致す術は何か？ 他なし！ 報恩行に、利他行に、隣人愛に邁進するのみと思うのであります。<br/><br/>「あらゆる運命、境遇は総て善也、霊魂の錬磨か、劫の自壊作用かなればなり」とただ一途に光明面を求め、凝視し、安心立命を求め「悟とは死を怖れざる事にあらずして生を怖れざる事なり」との大勇猛心は躍動し、まず自己を向上し、家の中を、近隣を、そして社会を向上さす、人間生かされている以上、果さなければならぬ大使命を思う時、なおさらとこれ迄御導き下された諸先生方の御恩の程がひしひしと感銘させられるのであります。<br/><br/>光明如来様も御迎え致すべく日田教会金子先生に御尽力を御願いし、日々是好日！ の毎日！ 朝に神様を念じ、暮にも又神様を念じ、念々従心起念々不離心、ただ一すじに、真実一路、誠心の道を行きただただ感謝、合掌し拙なきペンを擱かして戴きます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

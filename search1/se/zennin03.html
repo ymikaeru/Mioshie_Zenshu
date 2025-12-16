@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>zennin03</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 善人よ強くなれ (再録) 自観叢書12編『自観説話集』昭和25(1950)年1月30日発行 原文『光』31号、昭和24(1949)年10月15日発行 つくづく今日の世相を観るに、悪い奴があまりにノサばり過ぎている。<br><br>それがため、善人がいか何に虐（しいた）げられ苦しみつつあるかで、これは誰も知るところであろう。<br><br>それについてその根本の原因をかいてみよう。<br><br> 昔からとかく善人は弱いもの、悪人は強いものとされている。<br><br>これがため悪人共は益々跳梁跋扈（ちょうりょうばっこ）する。<br><br>といって昔は今日のごとく法規の完備、暴力取締の機関がないから、悪人の暴力に対し善人は手が出せないので、泣寝入になってしまうという訳で、町人階級は腕っ節の強い奴、無鉄砲な奴が巾（はば）を利かしていた。<br><br>また武士階級といえどもその中の悪人は、剣の力を悪用するので、町人階級は恐れて手が出せなかった事など、歴史や物語りに数知れず遺（のこ）っている、という訳で今日とは雲泥の相違があった。<br><br>もっとも維新後世は文明開化の時代となり、漸次法規も完備し、暴力否定の傾向に社会全般が向きつつ今日に到ったのであるが、悲しいかな、我国の社会は今もって暴力根絶とはならない。<br><br>特に終戦前までは軍閥や右翼の浪人壮士輩が、多少の暴力を伝家の宝刀として機に触れ、用いた事もあるにはあった。<br><br> ところが、終戦後は軍閥もなく、右翼もほとんど鎮圧されたので、この点よほど明るくはなったが、そのかわり近頃の悪人共は暴力以外の手段を巧妙に行使し始めた。<br><br>もちろん金銭を目的に善人を苦しめるのである。<br><br>それはどういう手段かというに、いわば合法的脅〔恐〕喝である。<br><br>つまり紙一重で法に引かからないようにする。<br><br>それらは常に本紙に掲載しているユスリタカリの類は素より、本紙には載せないが数件に上る訴訟事件もある。<br><br>これらももちろん虚偽や捏造で法規を悪用し、自己の欲望を達成しようとするのである。<br><br>しかもこれらは中流以上の人士であるから情ない話である。<br><br>右は数十年以前から私は訴訟の絶えた事がないにみて明らかである。<br><br>という事は、私は昔から一種の主義を堅持している。<br><br> その主義というのは善人は、悪人に負けてはならない事で、悪よりも強い善が真の善であると。<br><br>事実善人が悪人に負けるから悪人が覇張（はば）るので、それが社会悪根絶の出来ない最大原因である。<br><br>この点特に中流以上の者に多い事で、いわゆる知能的犯罪である。<br><br>また善人が悪人からイジめられた場合、それを告訴したり抗議する事は知っていても、犬糞的シッペイ返しを恐れると共に、裁判をすれば費用と手数がかかり、打算上馬鹿馬鹿しいから諦めてしまう。<br><br>ゆえに私の訴訟なども私を善人に見て、これくらいの事をしても諦めるだろうと多寡をくくって始めるが、私は前述の主義によって悪に負けられないから勝つまで闘うので、多くは結末までには非常に長くかかる、目下一番長いのは今年で十一年になる訴訟がある。<br><br>また各地にボスが絶えないのも、官吏の醜聞の絶えないのも、誰知らぬものない事実である。<br><br> 以上種々の例を挙げたが、一言にしていえば社会悪の原因は善人が弱いからである。<br><br>とすれば弱い善人は真の善人ではない。<br><br>実は意気地なしである。<br><br>悪に対する奮激が足りないからで、いわば消極的善人である。<br><br>かような善人が殖えた所で、善人自身は悪をする勇気がないからその点はいいとしても、悪の跋扈（ばっこ）を許すところの自己安全のみを希う一種の卑怯者である。<br><br>判りやすくいえば、悪人共はどうしても善人には敵わない、善人という奴は実に強い、始末が悪い、悪人ではいくら骨折っても駄目だから、いっそ悪人をやめて善人の仲間へ入る方がいいというようになれば、社会悪は激減し、住みよい明るい世の中となるのである。<br><br> 右の理論を肯定するとして、何程善人が歯ぎしりしても個人では不可能である、とすればどうすればよいかというと、まず善人が団結し連盟を作るのである。<br><br>名称は悪徳排除連盟とでも言ったらよかろう。<br><br>こういう案を私は提唱するのだが、これこそ社会改善に対する最も有効手段と思うからである。<br><br> (注) 跳梁（ちょうりょう）、跳ね回ること。<br><br>悪人がのさばること。<br><br> 跋扈（ばっこ）、勝手気ままに振舞うこと。<br><br>のさばりはびこること・
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Pessoas de Bem, Tornai-vos Fortes</h2>
 <p>Ao contemplar detidamente o panorama social de nossos dias, constato que os indivíduos de má índole prosperam em demasia. Por conseguinte, as pessoas de bem são oprimidas e atormentadas de inúmeras formas, um fato conhecido por todos. A esse respeito, discorrerei sobre a causa fundamental de tal fenômeno.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Tendo apresentado estes vários exemplos, posso afirmar, em suma, que a causa do mal social é a fraqueza das pessoas de bem. Sendo assim, uma pessoa de bem que é fraca não é, em sua essência, verdadeiramente boa. Na realidade, é um indivíduo pusilânime. Falta-lhe o espírito de luta contra a maldade; são, por assim dizer, pessoas passivamente boas. Mesmo que o número de tais pessoas aumente, de nada adiantará. Embora não tenham a coragem para praticar o mal, o que é positivo, são, em certo sentido, covardes que, ao desejarem apenas a própria segurança, permitem que a maldade se alastre.</p>
 <p>A solução surgirá quando os malfeitores se convencerem de que é impossível derrotar as pessoas de bem; quando perceberem que os justos são, na verdade, extremamente fortes e difíceis de subjugar, concluindo que é mais vantajoso abandonar o caminho do mal e juntar-se a eles. Dessa forma, o mal social diminuirá drasticamente, e um mundo luminoso e aprazível se tornará realidade.</p>
 <p>Admitindo a validade desta teoria, alguém poderia objetar que, individualmente, é impossível fazer algo a respeito, por mais que se indigne. O que fazer, então? A resposta é que as pessoas de bem devem se unir e formar uma aliança. O nome poderia ser algo como "Aliança para a Erradicação da Imoralidade". Eu proponho esta ideia por acreditar que ela representa o meio mais eficaz para a reforma da sociedade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 善人よ強くなれ (再録) 自観叢書12編『自観説話集』昭和25(1950)年1月30日発行 原文『光』31号、昭和24(1949)年10月15日発行 つくづく今日の世相を観るに、悪い奴があまりにノサばり過ぎている。<br/><br/>それがため、善人がいか何に虐（しいた）げられ苦しみつつあるかで、これは誰も知るところであろう。<br/><br/>それについてその根本の原因をかいてみよう。<br/><br/> 昔からとかく善人は弱いもの、悪人は強いものとされている。<br/><br/>これがため悪人共は益々跳梁跋扈（ちょうりょうばっこ）する。<br/><br/>といって昔は今日のごとく法規の完備、暴力取締の機関がないから、悪人の暴力に対し善人は手が出せないので、泣寝入になってしまうという訳で、町人階級は腕っ節の強い奴、無鉄砲な奴が巾（はば）を利かしていた。<br/><br/>また武士階級といえどもその中の悪人は、剣の力を悪用するので、町人階級は恐れて手が出せなかった事など、歴史や物語りに数知れず遺（のこ）っている、という訳で今日とは雲泥の相違があった。<br/><br/>もっとも維新後世は文明開化の時代となり、漸次法規も完備し、暴力否定の傾向に社会全般が向きつつ今日に到ったのであるが、悲しいかな、我国の社会は今もって暴力根絶とはならない。<br/><br/>特に終戦前までは軍閥や右翼の浪人壮士輩が、多少の暴力を伝家の宝刀として機に触れ、用いた事もあるにはあった。<br/><br/> ところが、終戦後は軍閥もなく、右翼もほとんど鎮圧されたので、この点よほど明るくはなったが、そのかわり近頃の悪人共は暴力以外の手段を巧妙に行使し始めた。<br/><br/>もちろん金銭を目的に善人を苦しめるのである。<br/><br/>それはどういう手段かというに、いわば合法的脅〔恐〕喝である。<br/><br/>つまり紙一重で法に引かからないようにする。<br/><br/>それらは常に本紙に掲載しているユスリタカリの類は素より、本紙には載せないが数件に上る訴訟事件もある。<br/><br/>これらももちろん虚偽や捏造で法規を悪用し、自己の欲望を達成しようとするのである。<br/><br/>しかもこれらは中流以上の人士であるから情ない話である。<br/><br/>右は数十年以前から私は訴訟の絶えた事がないにみて明らかである。<br/><br/>という事は、私は昔から一種の主義を堅持している。<br/><br/> その主義というのは善人は、悪人に負けてはならない事で、悪よりも強い善が真の善であると。<br/><br/>事実善人が悪人に負けるから悪人が覇張（はば）るので、それが社会悪根絶の出来ない最大原因である。<br/><br/>この点特に中流以上の者に多い事で、いわゆる知能的犯罪である。<br/><br/>また善人が悪人からイジめられた場合、それを告訴したり抗議する事は知っていても、犬糞的シッペイ返しを恐れると共に、裁判をすれば費用と手数がかかり、打算上馬鹿馬鹿しいから諦めてしまう。<br/><br/>ゆえに私の訴訟なども私を善人に見て、これくらいの事をしても諦めるだろうと多寡をくくって始めるが、私は前述の主義によって悪に負けられないから勝つまで闘うので、多くは結末までには非常に長くかかる、目下一番長いのは今年で十一年になる訴訟がある。<br/><br/>また各地にボスが絶えないのも、官吏の醜聞の絶えないのも、誰知らぬものない事実である。<br/><br/> 以上種々の例を挙げたが、一言にしていえば社会悪の原因は善人が弱いからである。<br/><br/>とすれば弱い善人は真の善人ではない。<br/><br/>実は意気地なしである。<br/><br/>悪に対する奮激が足りないからで、いわば消極的善人である。<br/><br/>かような善人が殖えた所で、善人自身は悪をする勇気がないからその点はいいとしても、悪の跋扈（ばっこ）を許すところの自己安全のみを希う一種の卑怯者である。<br/><br/>判りやすくいえば、悪人共はどうしても善人には敵わない、善人という奴は実に強い、始末が悪い、悪人ではいくら骨折っても駄目だから、いっそ悪人をやめて善人の仲間へ入る方がいいというようになれば、社会悪は激減し、住みよい明るい世の中となるのである。<br/><br/> 右の理論を肯定するとして、何程善人が歯ぎしりしても個人では不可能である、とすればどうすればよいかというと、まず善人が団結し連盟を作るのである。<br/><br/>名称は悪徳排除連盟とでも言ったらよかろう。<br/><br/>こういう案を私は提唱するのだが、これこそ社会改善に対する最も有効手段と思うからである。<br/><br/> (注) 跳梁（ちょうりょう）、跳ね回ること。<br/><br/>悪人がのさばること。<br/><br/> 跋扈（ばっこ）、勝手気ままに振舞うこと。<br/><br/>のさばりはびこること・</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

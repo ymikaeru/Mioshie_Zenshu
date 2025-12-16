@@ -1,167 +1,358 @@
 ﻿<html>
-
 <head>
-    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-    <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR" />
-    <title>dainiho</title>
-    <link href="../../style4.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body bgcolor="#E9FEDA">
-    <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
-        <input name="hint" type="hidden" value="ひらがな" />
-        <input name="index" type="hidden" value="" />
-        <input name="config" type="hidden" value="" />
-        <div align="right">
-            <table border="0" cellpadding="0" cellspacing="0" width="90%">
-                <tr>
-                    <td>
-                        <p align="right">
-                            <font face="ＭＳ ゴシック" size="2"><strong>――</strong></font>
-                            <font face="HG正楷書体-PRO" size="2"><strong> 岡田自観師の論文集 ――</strong>　</font>
-                            <font face="ＭＳ ゴシック" size="2"><strong>御教え検索</strong>：</font>
-                        </p>
-                    </td>
-                    <td align="center" bgcolor="#EFFFE6" width="150">
-                        <font size="2"><input name="query" size="25" type="text" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6">
-                        <font size="2"><input type="submit" value="検索" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6" width="35"><a href="../../../cgi/msearch.cgi">
-                            <font size="2">help</font>
-                        </a></td>
-                </tr>
-            </table>
-        </div>
-    </form>
-    <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
-        <input name="hint" type="hidden" value="ひらがな" />
-        <input name="index" type="hidden" value="shiryo" />
-        <input name="config" type="hidden" value="" />
-        <div align="right">
-            <table border="0" cellpadding="0" cellspacing="0" width="90%">
-                <tr>
-                    <td>
-                        <p align="right">
-                            <font face="ＭＳ ゴシック" size="2"><strong>　　　　　　　　　　　　　　　資料検索</strong>：</font>
-                        </p>
-                    </td>
-                    <td align="center" bgcolor="#EFFFE6" width="150">
-                        <font size="2"><input name="query" size="25" type="text" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6">
-                        <font size="2"><input type="submit" value="検索" /></font>
-                    </td>
-                    <td width="35">　</td>
-                </tr>
-            </table>
-        </div>
-    </form>
-    <blockquote>
-        
-
-
-
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
+<title>dainiho</title>
+<link href="../../style4.css" rel="stylesheet" type="text/css"/>
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
+<form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
+<input name="hint" type="hidden" value="ひらがな"/>
+<input name="index" type="hidden" value=""/>
+<input name="config" type="hidden" value=""/>
+<div align="right">
+<table border="0" cellpadding="0" cellspacing="0" width="90%">
+<tr>
+<td>
+<p align="right">
+<font face="ＭＳ ゴシック" size="2"><strong>――</strong></font>
+<font face="HG正楷書体-PRO" size="2"><strong> 岡田自観師の論文集 ――</strong>　</font>
+<font face="ＭＳ ゴシック" size="2"><strong>御教え検索</strong>：</font>
+</p>
+</td>
+<td align="center" bgcolor="#EFFFE6" width="150">
+<font size="2"><input name="query" size="25" type="text"/></font>
+</td>
+<td bgcolor="#EFFFE6">
+<font size="2"><input type="submit" value="検索"/></font>
+</td>
+<td bgcolor="#EFFFE6" width="35"><a href="../../../cgi/msearch.cgi">
+<font size="2">help</font>
+</a></td>
+</tr>
+</table>
+</div>
+</form>
+<form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
+<input name="hint" type="hidden" value="ひらがな"/>
+<input name="index" type="hidden" value="shiryo"/>
+<input name="config" type="hidden" value=""/>
+<div align="right">
+<table border="0" cellpadding="0" cellspacing="0" width="90%">
+<tr>
+<td>
+<p align="right">
+<font face="ＭＳ ゴシック" size="2"><strong>　　　　　　　　　　　　　　　資料検索</strong>：</font>
+</p>
+</td>
+<td align="center" bgcolor="#EFFFE6" width="150">
+<font size="2"><input name="query" size="25" type="text"/></font>
+</td>
+<td bgcolor="#EFFFE6">
+<font size="2"><input type="submit" value="検索"/></font>
+</td>
+<td width="35">　</td>
+</tr>
+</table>
+</div>
+</form>
+<blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 大日本健康協会主旨及び会則 『健康』1号、昭和11(1936)年6月15日発行 主 旨 一、 本会は、大日本健康協会と称す 一、 本会の目的は、岡田仁斎先生創建に係わる新日本医術が従来の所在療病法に比し断然卓越せるを認め、之に依って、日本人の健康問題は解決さるゝ事を期す 一、近時、西洋医学が進歩せりというに不拘不健康者と病者の驚くべき激増の事実は、国家の前途に対し深憂すべき一大問題なり、茲に本会の活動によって誤れる療病法を是正し健康日本を創造する事を期す 一、肺結核、近眼、脳溢血、弱体児童の激増は現代の医学衛生に根本的欠陥のある証左にして、此欠陥を検討し改善して真に日本人に適合する健康法の確立を期す 一、近代医学に於ける科学備重の誤謬を是正し、霊肉両全の日本式健康法を確立す 一、次代の国民たる弱体児童激増の防止は真に刻下の急を要する問題なるが、本運動によって必ず解決せらるるを信ず 会 則 一、本会は各地に支部を設置し、又付属病院を経営す （但し病院設置の場合は現行法規による） 一、本会は、漸次有力なる新聞雑誌を利用宣伝し、又各地に講演会を開催し其主旨の徹底を期す 一、本会は、雑誌月刊「健康」を発行す（一部拾銭） 一、本会員は、入会金として、金五拾銭也を払込みそれと引換えに単行本「明日の医術」を呈す、会費は月額一人（参拾銭）を払込むべし、会員には雑誌健康を発行の都度贈呈す 一、本会に、会長一名、副会長二名以内、顧問若干名、理事若干名、宣伝部長一名其他庶務会計を置く 一、本会は、毎月一回、役員会を開催し又春秋二期に総会を開催す 一、特に本運動援助の為――一時金（百円以上）（分納にても可）を提供したる士を賛助員とす 一、賛助員の特典 一、賛助員家族に対しては、常に健康の相談に応じ、特に治療上の便宜を計るべし 二、本会発行の書籍雑誌は其都度贈呈す 三、仁斎先生（御染筆の書体）を贈呈す 一、本会は、新日本医術による、治療士を養成し治病報国の実を挙ぐる事を期す （右講習規則書は希望者に贈呈す）（本会治療所は目下選定中） 大日本健康協会仮本部 東京市麹町区麹町一丁目七番地一 電話九段（33）一九六番
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content">
-            <h2>Manifesto e Regulamento da Associação de Saúde do Grande Japão</h2>
-            <h3>Manifesto</h3>
-            <p>Artigo 1. Esta associação denomina-se Associação de Saúde do Grande Japão.</p>
-            <p>Artigo 2. O propósito desta Associação é reconhecer a inconteste superioridade da Nova Arte Médica
+<h2>Manifesto e Regulamento da Associação de Saúde do Grande Japão</h2>
+<h3>Manifesto</h3>
+<p>Artigo 1. Esta associação denomina-se Associação de Saúde do Grande Japão.</p>
+<p>Artigo 2. O propósito desta Associação é reconhecer a inconteste superioridade da Nova Arte Médica
                 Japonesa, legada pelo Mestre Jinsai (仁斎), em comparação com os métodos terapêuticos convencionais, e,
                 por meio dela, almejar a solução definitiva para o problema da saúde do povo japonês.</p>
-            <p>Artigo 3. A despeito do alardeado progresso da medicina ocidental, o espantoso e crescente número de
+<p>Artigo 3. A despeito do alardeado progresso da medicina ocidental, o espantoso e crescente número de
                 enfermos e de pessoas com a saúde debilitada constitui, em tempos recentes, um grave problema que
                 suscita profunda preocupação quanto ao futuro da nação. Nesse sentido, a Associação envidará esforços
                 para retificar os métodos terapêuticos equivocados e, assim, almejar a criação de um Japão saudável.</p>
-            <p>Artigo 4. O aumento expressivo de casos de tuberculose pulmonar, miopia, hemorragia cerebral e de
+<p>Artigo 4. O aumento expressivo de casos de tuberculose pulmonar, miopia, hemorragia cerebral e de
                 crianças com constituição frágil é uma prova irrefutável das falhas fundamentais da medicina e da
                 higiene modernas. Compete-nos, portanto, examinar tais deficiências e aprimorá-las, a fim de estabelecer
                 um método de saúde verdadeiramente adequado ao povo japonês.</p>
-            <p>Artigo 5. Urge corrigir o equívoco da medicina moderna em sua supervalorização da ciência e estabelecer
+<p>Artigo 5. Urge corrigir o equívoco da medicina moderna em sua supervalorização da ciência e estabelecer
                 um método de saúde genuinamente japonês, que contemple a plenitude do espírito e do corpo.</p>
-            <p>Artigo 6. A prevenção do aumento de crianças com constituição frágil, que representarão a nação na
+<p>Artigo 6. A prevenção do aumento de crianças com constituição frágil, que representarão a nação na
                 próxima geração, é uma questão de urgência premente. Acreditamos firmemente que este movimento trará a
                 solução para tal problema.</p>
-            <h3>Regulamento</h3>
-            <p>Artigo 1. A Associação estabelecerá filiais em diversas localidades e administrará hospitais afiliados.
+<h3>Regulamento</h3>
+<p>Artigo 1. A Associação estabelecerá filiais em diversas localidades e administrará hospitais afiliados.
                 (A instalação de hospitais, contudo, obedecerá à legislação vigente.)</p>
-            <p>Artigo 2. A Associação promoverá gradualmente a divulgação de seus ideais por meio de jornais e revistas
+<p>Artigo 2. A Associação promoverá gradualmente a divulgação de seus ideais por meio de jornais e revistas
                 de grande circulação, bem como pela realização de palestras em várias regiões, a fim de assegurar a
                 plena compreensão de seu propósito.</p>
-            <p>Artigo 3. A Associação publicará a revista mensal “Saúde” (valor por exemplar: dez sen).</p>
-            <p>Artigo 4. Para associar-se, o interessado deverá pagar uma taxa de inscrição no valor de cinquenta sen.
+<p>Artigo 3. A Associação publicará a revista mensal “Saúde” (valor por exemplar: dez sen).</p>
+<p>Artigo 4. Para associar-se, o interessado deverá pagar uma taxa de inscrição no valor de cinquenta sen.
                 Em contrapartida, receberá o livro “Ashita no Ijutsu”. A mensalidade individual é de trinta sen, e os
                 membros receberão um exemplar da revista “Saúde” a cada nova publicação.</p>
-            <p>Artigo 5. A estrutura organizacional da Associação contará com um presidente, até dois vice-presidentes,
+<p>Artigo 5. A estrutura organizacional da Associação contará com um presidente, até dois vice-presidentes,
                 um número apropriado de conselheiros e diretores, um diretor de divulgação e demais responsáveis pelas
                 funções administrativas e de tesouraria.</p>
-            <p>Artigo 6. A Associação realizará uma reunião mensal de sua diretoria e assembleias gerais duas vezes ao
+<p>Artigo 6. A Associação realizará uma reunião mensal de sua diretoria e assembleias gerais duas vezes ao
                 ano, na primavera e no outono.</p>
-            <p>Artigo 7. Serão considerados Membros Patronos os cavalheiros que oferecerem uma contribuição única de cem
+<p>Artigo 7. Serão considerados Membros Patronos os cavalheiros que oferecerem uma contribuição única de cem
                 ienes ou mais (pagamento parcelado é aceitável) como forma de apoio especial a este movimento.</p>
-            <p>Artigo 8. Benefícios concedidos aos Membros Patronos:
+<p>Artigo 8. Benefícios concedidos aos Membros Patronos:
                 1. Os membros de sua família terão acesso constante a consultas sobre saúde, com especial atenção e
                 facilidades no que tange aos tratamentos.
                 2. Receberão exemplares de todos os livros e revistas publicados pela Associação.
                 3. Uma caligrafia de autoria do Mestre Jinsai (仁斎) será ofertada.</p>
-            <p>Artigo 9. A Associação almeja formar terapeutas versados na Nova Arte Médica Japonesa, a fim de
+<p>Artigo 9. A Associação almeja formar terapeutas versados na Nova Arte Médica Japonesa, a fim de
                 concretizar o nobre ideal de servir à pátria por meio da erradicação das doenças.
                 (O regulamento do curso de formação será enviado aos interessados mediante solicitação.)
                 (O local para a clínica da Associação encontra-se em processo de seleção.)</p>
-            <p><strong>Sede Provisória da Associação de Saúde do Grande Japão</strong>
+<p><strong>Sede Provisória da Associação de Saúde do Grande Japão</strong>
                 Tóquio, Chiyoda-ku, Kojimachi 1-7-1
                 Telefone: Kudan (33) 196</p>
-        </div>
-    </blockquote>
-</body>
+</div>
+</blockquote>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 大日本健康協会主旨及び会則 『健康』1号、昭和11(1936)年6月15日発行 主 旨 一、 本会は、大日本健康協会と称す 一、 本会の目的は、岡田仁斎先生創建に係わる新日本医術が従来の所在療病法に比し断然卓越せるを認め、之に依って、日本人の健康問題は解決さるゝ事を期す 一、近時、西洋医学が進歩せりというに不拘不健康者と病者の驚くべき激増の事実は、国家の前途に対し深憂すべき一大問題なり、茲に本会の活動によって誤れる療病法を是正し健康日本を創造する事を期す 一、肺結核、近眼、脳溢血、弱体児童の激増は現代の医学衛生に根本的欠陥のある証左にして、此欠陥を検討し改善して真に日本人に適合する健康法の確立を期す 一、近代医学に於ける科学備重の誤謬を是正し、霊肉両全の日本式健康法を確立す 一、次代の国民たる弱体児童激増の防止は真に刻下の急を要する問題なるが、本運動によって必ず解決せらるるを信ず 会 則 一、本会は各地に支部を設置し、又付属病院を経営す （但し病院設置の場合は現行法規による） 一、本会は、漸次有力なる新聞雑誌を利用宣伝し、又各地に講演会を開催し其主旨の徹底を期す 一、本会は、雑誌月刊「健康」を発行す（一部拾銭） 一、本会員は、入会金として、金五拾銭也を払込みそれと引換えに単行本「明日の医術」を呈す、会費は月額一人（参拾銭）を払込むべし、会員には雑誌健康を発行の都度贈呈す 一、本会に、会長一名、副会長二名以内、顧問若干名、理事若干名、宣伝部長一名其他庶務会計を置く 一、本会は、毎月一回、役員会を開催し又春秋二期に総会を開催す 一、特に本運動援助の為――一時金（百円以上）（分納にても可）を提供したる士を賛助員とす 一、賛助員の特典 一、賛助員家族に対しては、常に健康の相談に応じ、特に治療上の便宜を計るべし 二、本会発行の書籍雑誌は其都度贈呈す 三、仁斎先生（御染筆の書体）を贈呈す 一、本会は、新日本医術による、治療士を養成し治病報国の実を挙ぐる事を期す （右講習規則書は希望者に贈呈す）（本会治療所は目下選定中） 大日本健康協会仮本部 東京市麹町区麹町一丁目七番地一 電話九段（33）一九六番</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
 
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

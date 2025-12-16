@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hyorei</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 憑霊現象 『明日の医術 第三編』昭和18(1943)年10月23日発行 私は三十歳位の男子で、典型的霊媒ともいうべき良霊媒を扱い実験した事がある。<br><br>そうしてその男は平常は頗（すこぶ）る大人しいが飲酒の癖があって酒を飲むと人格一転し、常軌を逸するので、最も困る事は何軒もの酒屋を次々歩いて酒を飲み、懐中無一物になると今度は酒代を借りて飲み廻るので、その男の父が後へ廻って借金払をするという訳である。<br><br> 右の酒乱の原因を、私は霊的と思ったのである日霊査法を行ったのである。<br><br>果して憑霊の為である事が判った。<br><br>それはその男の父の父即ち祖父にあたる埼玉県の百姓で、六十歳位で歿したという――その霊の憑依である事が判った。<br><br>そうしてある日の昼間であった。<br><br>その霊が憑依したと見るや、不思議相にあたりを見廻し 「ここはどこだんベ――」という。<br><br>私は 『ここは私の家で、所は東京の大森である』と言った。<br><br> 彼「フフーンそうか、しかし俺は莨（タバコ）が喫みてえ」――というから、巻煙草をやると「煙管（きせる）で喫む莨が欲しい」というので、刻み煙草を与えた。<br><br>彼はうまそうに二、三服喫み終るや、起立って腰を屈げながら縁側の方に行き胡座（あぐら）を掻いて、しきりに庭を見ながら、不思議そうな顔をしている。<br><br>私は 『ここは娑婆だが、判ったか』というに、彼は「どうも判らねえ」という 私『あなたは地獄は知っているか』と訊くと 彼「知っているとも、苦しい所だ。<br><br>だが俺はこの頃大分楽な所へ出て来たよ。<br><br>だが酒も煙草もねえので困っちまう。<br><br>」 『何故か』と訊くと 「金が無えから買えねえ」――と云うので、私は霊界では、金銭によって物を買うという事はない事を知ったのである。<br><br>彼いわく 「アヽ酒が呑みてえ」――といって繰返し頼むのである。<br><br>私は 『酒を呑めば、この肉体から出て行くか』というと 「茶碗に一杯飲ませれば必ず出て行く」というので、早速酒を与えると舌鼓を打って喜ぶのである。<br><br>私は 『貴方の云う通りにしたからもう帰りなさい』というと「今一杯」といって離れようともしないので、その通りにしてやった所が、漸く離脱したのである。<br><br> この男に又時々憑る霊に、前年の秋死んだという筋向うの酒屋の親爺があった。<br><br>これは四十歳位で、力自慢で、憑依するや必ず足を踏張り、手を拡げ 「サー来い。<br><br>誰でも掛って来い。<br><br>」といって威張るのである。<br><br>ある時私の家の書生が打つかったところ、忽（たちま）ち投げ飛ばされ、腕の骨を折った事がある。<br><br>その霊が暴れる時は三人位で漸く取押えるという程力があったのである。<br><br> 次に、若い娘の霊が憑った事がある。<br><br>それはその霊媒（名前は竹ちゃん）の近所の煙草屋の娘であった。<br><br>これは二十幾歳で、二月ばかり前に死んだのだそうである。<br><br>なぜ憑ったかを訊くと「妾（あたし）は竹ちゃんは好きであった」と言い、又「咽喉が涸（かわ）いて仕方がないから水を一杯戴きたい」というので、直に飲ませると、都合三杯飲み終って、厚く礼を述べ帰ったのである。<br><br>そうしてその挙動は若い娘そのままで、いとも慎ましやかであった。<br><br>又 『水は、貴女の家で時々上げるではないか』というと―― 「そうですけれども飲めないのです。<br><br>」と言う。<br><br>これはいかなる訳か、解するに苦しむのである。<br><br>あるいは上げる方の想念の関係かとも思う。<br><br> ここで注意すべきは、酒乱のごとき性の悪い飲酒家は、右の男のごとく憑霊による事が多いのである。<br><br>その場合、祖父が孫に憑るというのがそのほとんどで、これらも一代おきの原則に外れない訳である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Fenômeno da Possessão Espiritual</h2>
 <p>Certa vez, conduzi experimentos com um homem de aproximadamente trinta anos, um excelente médium que poderia ser classificado como um caso típico. Normalmente, era um indivíduo sobremaneira pacato; contudo, possuía o vício da bebida. Ao ingerir álcool, sua personalidade se transmutava por completo, e seu comportamento tornava-se desregrado. O mais problemático era seu costume de perambular de taverna em taverna e, quando ficava sem um tostão no bolso, passava a pedir dinheiro emprestado para continuar bebendo. Consequentemente, seu pai era obrigado a seguir-lhe os passos para quitar as dívidas que ele acumulava.</p>
@@ -125,5 +277,48 @@ function toggleLang(lang) {
 — Sim, oferecem, mas não consigo bebê-la — revelou ela.</p>
 <p>Este é um fato que me custa compreender, mas suponho que talvez se relacione à pureza do sentimento de quem faz a oferenda.</p>
 <p>É crucial notar que muitos casos de alcoolismo de natureza maligna, como o do homem em questão, são frequentemente causados pela influência de espíritos obsessores. Na grande maioria das vezes, é o avô que se encosta no neto, o que demonstra que tais fenômenos também não fogem à regra que salta uma geração.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 憑霊現象 『明日の医術 第三編』昭和18(1943)年10月23日発行 私は三十歳位の男子で、典型的霊媒ともいうべき良霊媒を扱い実験した事がある。<br/><br/>そうしてその男は平常は頗（すこぶ）る大人しいが飲酒の癖があって酒を飲むと人格一転し、常軌を逸するので、最も困る事は何軒もの酒屋を次々歩いて酒を飲み、懐中無一物になると今度は酒代を借りて飲み廻るので、その男の父が後へ廻って借金払をするという訳である。<br/><br/> 右の酒乱の原因を、私は霊的と思ったのである日霊査法を行ったのである。<br/><br/>果して憑霊の為である事が判った。<br/><br/>それはその男の父の父即ち祖父にあたる埼玉県の百姓で、六十歳位で歿したという――その霊の憑依である事が判った。<br/><br/>そうしてある日の昼間であった。<br/><br/>その霊が憑依したと見るや、不思議相にあたりを見廻し 「ここはどこだんベ――」という。<br/><br/>私は 『ここは私の家で、所は東京の大森である』と言った。<br/><br/> 彼「フフーンそうか、しかし俺は莨（タバコ）が喫みてえ」――というから、巻煙草をやると「煙管（きせる）で喫む莨が欲しい」というので、刻み煙草を与えた。<br/><br/>彼はうまそうに二、三服喫み終るや、起立って腰を屈げながら縁側の方に行き胡座（あぐら）を掻いて、しきりに庭を見ながら、不思議そうな顔をしている。<br/><br/>私は 『ここは娑婆だが、判ったか』というに、彼は「どうも判らねえ」という 私『あなたは地獄は知っているか』と訊くと 彼「知っているとも、苦しい所だ。<br/><br/>だが俺はこの頃大分楽な所へ出て来たよ。<br/><br/>だが酒も煙草もねえので困っちまう。<br/><br/>」 『何故か』と訊くと 「金が無えから買えねえ」――と云うので、私は霊界では、金銭によって物を買うという事はない事を知ったのである。<br/><br/>彼いわく 「アヽ酒が呑みてえ」――といって繰返し頼むのである。<br/><br/>私は 『酒を呑めば、この肉体から出て行くか』というと 「茶碗に一杯飲ませれば必ず出て行く」というので、早速酒を与えると舌鼓を打って喜ぶのである。<br/><br/>私は 『貴方の云う通りにしたからもう帰りなさい』というと「今一杯」といって離れようともしないので、その通りにしてやった所が、漸く離脱したのである。<br/><br/> この男に又時々憑る霊に、前年の秋死んだという筋向うの酒屋の親爺があった。<br/><br/>これは四十歳位で、力自慢で、憑依するや必ず足を踏張り、手を拡げ 「サー来い。<br/><br/>誰でも掛って来い。<br/><br/>」といって威張るのである。<br/><br/>ある時私の家の書生が打つかったところ、忽（たちま）ち投げ飛ばされ、腕の骨を折った事がある。<br/><br/>その霊が暴れる時は三人位で漸く取押えるという程力があったのである。<br/><br/> 次に、若い娘の霊が憑った事がある。<br/><br/>それはその霊媒（名前は竹ちゃん）の近所の煙草屋の娘であった。<br/><br/>これは二十幾歳で、二月ばかり前に死んだのだそうである。<br/><br/>なぜ憑ったかを訊くと「妾（あたし）は竹ちゃんは好きであった」と言い、又「咽喉が涸（かわ）いて仕方がないから水を一杯戴きたい」というので、直に飲ませると、都合三杯飲み終って、厚く礼を述べ帰ったのである。<br/><br/>そうしてその挙動は若い娘そのままで、いとも慎ましやかであった。<br/><br/>又 『水は、貴女の家で時々上げるではないか』というと―― 「そうですけれども飲めないのです。<br/><br/>」と言う。<br/><br/>これはいかなる訳か、解するに苦しむのである。<br/><br/>あるいは上げる方の想念の関係かとも思う。<br/><br/> ここで注意すべきは、酒乱のごとき性の悪い飲酒家は、右の男のごとく憑霊による事が多いのである。<br/><br/>その場合、祖父が孫に憑るというのがそのほとんどで、これらも一代おきの原則に外れない訳である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

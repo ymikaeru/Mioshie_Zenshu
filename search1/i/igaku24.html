@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>igaku24</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学に欺されてる医師 『明日の医術・新日本医術としての岡田式療病法』昭和11(1936)年5月15日発行 西洋医学に依る、治病能力の疑問は再三述べたところであるが、多くの医師諸君の中には、これをハッキリ、認識出来得ない人もあろう。<br><br>それは、薬剤や物理療法に依っての、苦痛の軽減を、治癒されると思う誤認である。<br><br>病気軽快と治癒とは、全然異（ちが）う事も、述べてある通りである。<br><br>故に、病気治癒に当って、その余りにも治らない事に、煩悶しない医家は無いであろう。<br><br>ただしかし、これ以上に治療法が無いものと、決定的に信じてしまっているので、どうしようもないのである。<br><br> 医家が、病患を治癒せんとして、あらゆる療法を試みる、その事が却て、病気を悪化させる作用であるという真理に、気が付かないのである。<br><br>その例として、医家が、ある病患を治癒せんとして、種々の療法を応用し、焦れば焦る程、病症は却て、悪化するであろう。<br><br>反対に、それ程の努力を払わない病人の方が、能く治癒せられるという皮肉も多くの医家は、経験されているはずである。<br><br>又、何かの事情によって、医療を止めてから、軽快治癒したという例も、数多く聞くのである。<br><br>彼の医家自身の病気や、自己の子女の病気に際し、特に、他の医師に治療を求める事もよく聞くが、これも実に不思議である。<br><br>医家が、いかに医術を危うんでいるかゞ想像されるのである。<br><br>これによって見れば、この場合医術は万一を僥倖（ぎょうこう）する賭博のごときものとも言える。<br><br> 今一つの緊要なる点は、一時的、外面的治癒と、永久的、根本的治癒とは、その本質において、格段の相違がある事である。<br><br>前者は、再発の憂があり、後者は、その憂が無い事である。<br><br>故に、医家が作成する全治報告、及び治病率統計は、この点まことに不正確である。<br><br>予後の短期間の成績を、基準としている事が、多いようである。<br><br>又、これと同じく、軽快と全治とは、全く異う事である。<br><br>薬剤や物理によって、治療する場合、ある程度の軽快を見るが、それは治癒ではなくて、病気攻遏（こうあつ）の結果である。<br><br>故にこの場合の軽快は、一定時を経れば、猛然として、反動的悪化の作用を起す患（うれい）がある。<br><br>これは医家も、しばしば経験されるところであろう。<br><br> 又今一つは、ある病気を全治さした結果、それは重に手術であるが、例えば、扁桃腺を除去するとする。<br><br>なる程、扁桃腺炎は起らないが、それに更（かわ）るに、他の、疾患、淋巴腺、耳下腺、中耳炎、肺尖加答児（カタル）等に罹り易いという事実、又、盲腸炎の手術の結果は、腎臓〔病〕や腹膜炎を起し易く、卵巣除去の結果は、子宮癌、腎臓病を起し易いという例も、知らないはずは無いと思うのである。<br><br>かくのごとく、本来の病気よりも、手術後に起り易い疾患の方が、より悪性であるという事は、大いに考えなくてはならない事である。<br><br>しかし、医家はいうであろう。<br><br>手術をしなければ、生命に係わる以上、一時なりとも、その生命を延長し得る効果があるから、よいではないかと、なる程、それも一理はある。<br><br>がしかし、それでは、本当の医術ではない。<br><br>ちょうど、借金の借換えと同一であって一時的の苦痛は免れるが、借金の返済ではないから、いずれはその苦痛が増加するという結果になる事である。<br><br> 故に、これらは、真の医術ではないのである。<br><br>しからば、真の医術とは、いかなるものであるか、参考の為、左に条件を示してみよう。<br><br> 一、治療の場合、メス又は針等によって、絶対に苦痛を与えない事 一、手術の傷痕、又は、灸の焼痕のごとき、醜い痕跡を止めざる事 一、全治後は、再発をなさざる事 一、治療中、余病の発せざる事 一、あらゆる疾患に対し、明確に、全治とその概略の日数を、断言為し得る事 一、薬剤は、必ず、中毒を伴うものであるから、用いざるを原則とす 一、重症といえども、多額の費用と、多数の時日を要せざる事 右の条件の一つにても、西洋医学は可能でありや、恐らく一つも、及第するものは無いであろう。<br><br> 二千有余年以前、希臘（ギリシャ）時代から、幾千幾万の学者、専門家が、研究努力しつゝあるにも係わらず、右の一つだも、未だ不可能というに到っては、驚かざるを得ないのである。<br><br>これによって見るも、たとえ、向後（こうご）、何百年、何千年経るとも、まず西洋医学では、病気根絶は、到底見込のない事を、誰しも想像なし得るであろう。<br><br> 随って、西洋医学を、絶対無二のものとして、信奉しつゝある人は、実は、欺されていると、言ってもよい訳である。<br><br>故に、私は言う。<br><br>医家には、罪が無いのであって、医学そのものに罪があると思うのである。<br><br>一言にして言えば医家は、医学に、欺されているのである。<br><br>とも言えると思うのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Os Médicos Iludidos pela Medicina</h2>
 <p>A ineficácia da medicina ocidental para a cura das doenças é um tema que tenho abordado reiteradas vezes. Contudo, é provável que muitos médicos não consigam reconhecer essa realidade com clareza. Tal equívoco reside em confundir o alívio da dor, obtido por meio de medicamentos e terapias físicas, com a própria cura. Conforme já explanei, a melhora temporária de uma enfermidade e sua cura definitiva são conceitos absolutamente distintos. Por conseguinte, não há médico que não se sinta atormentado pela enorme dificuldade em curar as doenças. Entretanto, por acreditarem convictamente que não existe método terapêutico superior, encontram-se em um impasse, sem saber como proceder.</p>
@@ -107,5 +259,48 @@ function toggleLang(lang) {
 <p>Seria a medicina ocidental capaz de satisfazer ao menos uma dessas condições? Creio que não passaria em nenhuma delas.</p>
 <p>É verdadeiramente espantoso que, passados mais de dois mil anos desde a Grécia Antiga e apesar dos esforços e pesquisas de incontáveis acadêmicos e especialistas, ela ainda se mostre incapaz de cumprir um único desses requisitos. Diante disso, qualquer um pode concluir que, mesmo que se passem outras centenas ou milhares de anos, a medicina ocidental jamais erradicará as doenças. Não há a menor perspectiva para tal.</p>
 <p>Por conseguinte, as pessoas que depositam uma fé cega e absoluta na medicina ocidental estão, na verdade, sendo iludidas. Por isso, afirmo: a culpa não é dos médicos, mas sim da própria medicina. Em suma, os médicos são vítimas iludidas pela ciência médica.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学に欺されてる医師 『明日の医術・新日本医術としての岡田式療病法』昭和11(1936)年5月15日発行 西洋医学に依る、治病能力の疑問は再三述べたところであるが、多くの医師諸君の中には、これをハッキリ、認識出来得ない人もあろう。<br/><br/>それは、薬剤や物理療法に依っての、苦痛の軽減を、治癒されると思う誤認である。<br/><br/>病気軽快と治癒とは、全然異（ちが）う事も、述べてある通りである。<br/><br/>故に、病気治癒に当って、その余りにも治らない事に、煩悶しない医家は無いであろう。<br/><br/>ただしかし、これ以上に治療法が無いものと、決定的に信じてしまっているので、どうしようもないのである。<br/><br/> 医家が、病患を治癒せんとして、あらゆる療法を試みる、その事が却て、病気を悪化させる作用であるという真理に、気が付かないのである。<br/><br/>その例として、医家が、ある病患を治癒せんとして、種々の療法を応用し、焦れば焦る程、病症は却て、悪化するであろう。<br/><br/>反対に、それ程の努力を払わない病人の方が、能く治癒せられるという皮肉も多くの医家は、経験されているはずである。<br/><br/>又、何かの事情によって、医療を止めてから、軽快治癒したという例も、数多く聞くのである。<br/><br/>彼の医家自身の病気や、自己の子女の病気に際し、特に、他の医師に治療を求める事もよく聞くが、これも実に不思議である。<br/><br/>医家が、いかに医術を危うんでいるかゞ想像されるのである。<br/><br/>これによって見れば、この場合医術は万一を僥倖（ぎょうこう）する賭博のごときものとも言える。<br/><br/> 今一つの緊要なる点は、一時的、外面的治癒と、永久的、根本的治癒とは、その本質において、格段の相違がある事である。<br/><br/>前者は、再発の憂があり、後者は、その憂が無い事である。<br/><br/>故に、医家が作成する全治報告、及び治病率統計は、この点まことに不正確である。<br/><br/>予後の短期間の成績を、基準としている事が、多いようである。<br/><br/>又、これと同じく、軽快と全治とは、全く異う事である。<br/><br/>薬剤や物理によって、治療する場合、ある程度の軽快を見るが、それは治癒ではなくて、病気攻遏（こうあつ）の結果である。<br/><br/>故にこの場合の軽快は、一定時を経れば、猛然として、反動的悪化の作用を起す患（うれい）がある。<br/><br/>これは医家も、しばしば経験されるところであろう。<br/><br/> 又今一つは、ある病気を全治さした結果、それは重に手術であるが、例えば、扁桃腺を除去するとする。<br/><br/>なる程、扁桃腺炎は起らないが、それに更（かわ）るに、他の、疾患、淋巴腺、耳下腺、中耳炎、肺尖加答児（カタル）等に罹り易いという事実、又、盲腸炎の手術の結果は、腎臓〔病〕や腹膜炎を起し易く、卵巣除去の結果は、子宮癌、腎臓病を起し易いという例も、知らないはずは無いと思うのである。<br/><br/>かくのごとく、本来の病気よりも、手術後に起り易い疾患の方が、より悪性であるという事は、大いに考えなくてはならない事である。<br/><br/>しかし、医家はいうであろう。<br/><br/>手術をしなければ、生命に係わる以上、一時なりとも、その生命を延長し得る効果があるから、よいではないかと、なる程、それも一理はある。<br/><br/>がしかし、それでは、本当の医術ではない。<br/><br/>ちょうど、借金の借換えと同一であって一時的の苦痛は免れるが、借金の返済ではないから、いずれはその苦痛が増加するという結果になる事である。<br/><br/> 故に、これらは、真の医術ではないのである。<br/><br/>しからば、真の医術とは、いかなるものであるか、参考の為、左に条件を示してみよう。<br/><br/> 一、治療の場合、メス又は針等によって、絶対に苦痛を与えない事 一、手術の傷痕、又は、灸の焼痕のごとき、醜い痕跡を止めざる事 一、全治後は、再発をなさざる事 一、治療中、余病の発せざる事 一、あらゆる疾患に対し、明確に、全治とその概略の日数を、断言為し得る事 一、薬剤は、必ず、中毒を伴うものであるから、用いざるを原則とす 一、重症といえども、多額の費用と、多数の時日を要せざる事 右の条件の一つにても、西洋医学は可能でありや、恐らく一つも、及第するものは無いであろう。<br/><br/> 二千有余年以前、希臘（ギリシャ）時代から、幾千幾万の学者、専門家が、研究努力しつゝあるにも係わらず、右の一つだも、未だ不可能というに到っては、驚かざるを得ないのである。<br/><br/>これによって見るも、たとえ、向後（こうご）、何百年、何千年経るとも、まず西洋医学では、病気根絶は、到底見込のない事を、誰しも想像なし得るであろう。<br/><br/> 随って、西洋医学を、絶対無二のものとして、信奉しつゝある人は、実は、欺されていると、言ってもよい訳である。<br/><br/>故に、私は言う。<br/><br/>医家には、罪が無いのであって、医学そのものに罪があると思うのである。<br/><br/>一言にして言えば医家は、医学に、欺されているのである。<br/><br/>とも言えると思うのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

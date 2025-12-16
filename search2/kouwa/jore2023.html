@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jore2023</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊篇 （下） ２ 023-044 健康診査 023 霊的原因探知法 病気の霊的原因探知法――。<br><br>他宗教が霊媒により病気を知ります。<br><br>その可否をお教え下さい。<br><br> 病気の原因はなかなかすぐには判らぬものである。<br><br>であるから医家でも診察といって推察するのである。<br><br> よく病原が判らぬとすぐに霊的原因とする教導師もあるが、これはいけない。<br><br>霊的のも体的のもあるので、判らぬものは判らぬと率直にいうべきである。<br><br> 024 唖の治癒、肩耳下の重要性 三歳の男、唖であります。<br><br>浄霊によりよくなりますでしょうか。<br><br> 早く治るのとなかなか治らぬのと、すっかり治るのや、半分治るのや、種々ある。<br><br>極くヒドいとみて浄霊で半分位は治る。<br><br> 私の健康診断は肩と耳下である。<br><br>耳下腺をする事である。<br><br> どんな病気も耳の下が柔かくなっていなくてはいけない。<br><br>肩の固いのもいけない。<br><br>成功した偉い人は必ず肩が柔かい。<br><br>これは精力がある訳である。<br><br> 人間の健康は肩が柔かく、次は耳の下を柔かくする事である。<br><br> 025 毛と健康、（肩と陰毛） 毛と病気、毛と因縁について御教え下さい。<br><br> 病気になると毛が薄くなる。<br><br>頭に毒が多いと毛が薄くなる。<br><br>弱い人は陰部の毛が薄い。<br><br>濃い人は健康である。<br><br>結核などやってる人は長くなると薄くなり、死期になると全部無くなる。<br><br>月経も無くなる。<br><br>月経が無くなると余程芯が弱ってる。<br><br> 健康診断の一番よく判るのは、肩の固い人はどんなに健康でも早死する。<br><br>非常に固まっていて身体全体が弱いのである。<br><br>肩の固い人は危い。<br><br>成功した人ほど肩が柔かい。<br><br>精力があるのである。<br><br>また、肩の柔かい人は病気も治り易い。<br><br>であるから健康診断は一は肩、二は陰毛である。<br><br>弱い人でも、健康になると陰毛が太くて殖える。<br><br>弱い人は赤くなっている。<br><br> 026 頭髪の硬軟と健康・性格 頭髪の軟質と硬質とありますが、これは性格に関係が御座いましょうか。<br><br> 性格と健康と両方に関係がある。<br><br>健康のものは硬い。<br><br>弱い方は柔かい。<br><br>柔かい方が性格も柔かい。<br><br>硬い方は性格も硬い。<br><br>柔かくなったり硬くなったり変化する。<br><br>硬い方は白髪になるというが、そうらしい。<br><br>（S24. 4. 3） 027 分枝せる毛、（毛の精力） 枝毛（毛髪の先が二本三本に分れているもの）はいかなる訳で御座居ましょうか。<br><br>お伺い申し上げます。<br><br> 五本も六本も分れているのもある。<br><br>毛はそういう性質のもので、枝である。<br><br>その人の精力が強い訳である。<br><br>（S24. 5.12） 028 健康と月経・陰毛 昭和二十年入信の平井菊枝（三十三歳）と申す信者、本年六月風邪の御浄化で床につき、段々肺病のような状態になり、衰弱もひどく、食事は辛うじて一杯ずつ位頂いております。<br><br>殊に二、三日脳貧血の状態になりますが、主としてどこを御浄霊致したらよろしいでしょうか。<br><br>今迄の主な患いは大腸カタルと扁桃腺の手術で、一年許り月経がないと申し、薬毒はかなり多く入れており、今後御浄化はいかがなようになりましょうか。<br><br>何卒御守護をお願い申し上げます。<br><br> 余程前から悪いのである。<br><br>月経のないのは貧血のためである。<br><br>次には陰毛が減ってゆく。<br><br>女の健康は陰毛のいかんで判る。<br><br>弱い者程薄い。<br><br>まず請合えない。<br><br>衰弱次第である。<br><br>（S24.12.18） 029 月経の多寡と健康 月経の多い人と少ない人では 霊的にいかなる原因が御座居ましょうか。<br><br>御教示御願い致します。<br><br> 体的である。<br><br>月経が多いのは血が多い。<br><br>血を作る機能が強いのである。<br><br>故に多い方がよいし、健康である程多い。<br><br>肺病になって月経がなくなると余程悪くなっている。<br><br>衰弱が増してるから、注意を要する。<br><br>陰毛など進む程薄くなる。<br><br>（S25. 2. 7） rattail（注） 〔 御光話（S24年7月） 『御光話録』9号、昭和24(1949)年7月30日発行、特輯号〕 ――二十歳の女、昨年六月に結核となり十一月まで入院しておりました。<br><br>月経もそのころ止まったと申します。<br><br>以後御浄霊しておりますが、苦痛は楽になってきておりますが、衰弱がひどうございます。<br><br>いかがでしょうか。<br><br> 『これは、特に肺病に多いんですが、肺病がすすむと月経がなくなるもんですよ。<br><br>つまり貧血になるんです。<br><br>……この人はちょっと難しいですね。<br><br>まあ見込みないでしょう。<br><br>だから手を引いたほうがいい。<br><br>ただ苦痛を緩和するのと、亡くなってから霊界でずっと楽になるのとで浄霊して上げるのはいいですがね。<br><br>月経がなくなったのはもうそうとう危いんですが、陰毛がなくなったのはぜんぜん駄目ですね。<br><br>人間の健康、不健康はね……ちょっとこんなことを言うのはおかしいようだけども、陰毛で判るんです。<br><br>これが濃いほど健康で、薄いほど不健康なんです。<br><br>これはまったくたしかなもんですよ。<br><br>もうひとつ、健康か不健康かは肩の弾力性で判るんです。<br><br>肩をおさえてみて柔らかいほどいいんです。<br><br>平常は丈夫な人でも肩が固いとよく急死しますよ。<br><br>世の中で成功する人は必ず肩が柔らかいですね。<br><br>つまり、肩の柔らかい人は精力があるんですよ。<br><br>固い人は精力がないから駄目なんですね。<br><br>』 030 歯と健康 虫歯はいかなる理由で起りましょうか。<br><br> 歯がわるいのは必ず身体のどこかがわるい。<br><br>（S24. 9.23） rattail（注） 〔 御光話（S24年 9・10月) 『御光話録』15号、昭和24(1949)年12月20日発行〕 ――虫歯はいかなる理由で起りましょうか。<br><br>御浄霊によって治療および予防はできましょうか。<br><br> 『予防できますよ。<br><br>それにね、歯が悪くなるのは体が悪いからなんですよ。<br><br>やっぱり両方ともちょうど一致してるんです。<br><br>だから虫歯があるのは体のどっかにも虫くってる所があるんです。<br><br>（笑声）予防は体を浄霊して体をよくすればそれでいいんです。<br><br>』 031 歯の弱い事 光明世界には歯科医はある程度必要で御座居ましょうか。<br><br> 今よりズーッと少なくなる。<br><br>歯が弱いのは身体が弱い事である。<br><br>（S23.10.23） rattail（注） 〔 妙智之光（地上天国10号） 、昭和24(1949)年11月20日発行〕 歯石が早くできる人と遅い人とがありますがどんな原因でしょうか。<br><br> 『歯石のたまる人は歯が軟らかいからで、軟らかいのは弱いからで、ということは身体が弱っているからである。<br><br>最近小学生は九割虫歯があると言うから、いかに弱体であるか寒心に堪えないのである。<br><br>』 032 爪と健康 爪と健康といかなる関係がありましょうか。<br><br> これは本当。<br><br>健康不健康が最もよく判る。<br><br>私など疥癬してから三日月形がなくなった。<br><br>拇指が一番よく判る。<br><br>爪に艶がないのや色のわるいのは皆貧血しているので極くいけない。<br><br>薬を沢山飲むとそういう色になる。<br><br> 033 半月弁 〔爪の誤植か？〕 爪の半月は健康に関係が御座いますか。<br><br>御教え下さい。<br><br> 大いにある。<br><br>外の指は一番肝腎である。<br><br> 034 小爪と健康 小爪と健康状態とは関係がありましょうか。<br><br> 健康の時ははっきり大きく出る。<br><br>病気の時は白いところがなくなるか、または薄くなる。<br><br>全然ないのは最早余程衰弱しているのである。<br><br> rattail（注） 〔 御光話（S24年 8月23日） 『御光話録』14号、昭和24(1949)年11月20日発行〕 ――爪に現われる半月はその人の健康と関係ありましょうか。<br><br> 『大いに関係ありますね。<br><br>殊に親指のがそうですが、健康な人ほど白くはっきりしてますよ。<br><br>私も疥癬のときはこの白いのがまったくなくなりましたがね。<br><br>いまはだいぶ元に戻ってきましたが、しかしまだ元通りにはなってませんね。<br><br>』 〔妙智之光『地上天国』11号、昭和24(1949)年12月20日発行〕 小爪と健康状態とは関係がありましょうか。<br><br> 『大いにある。<br><br>健康のときははっきり大きく出る。<br><br>病気のときは白い所が淡くなるが、重症になるとほとんど見えなくなる。<br><br>』 035 鼠蹊下部の脈動と健康 私の経験では鼠蹊部の下部の脈動が誰でも全身中常に最大のように感じますが、脈動の大小がその人の健康と病の軽重に関係あるのでしょうか。<br><br>いかがなものでしょうか。<br><br>御伺い申し上げます。<br><br> これは痩せた人の事で、肥った人は脈動を感じない。<br><br>臍の横または上に塊があり、強い動悸を打つもので、別に差支えないものである。<br><br>（S24.11.18） 036 肩をお揉ませになる事 光新聞特集号の中に、真に畏れ多い事で御座いますが、大先生様が奉仕者に肩を御揉ませなさるとの御言葉が御座います。<br><br>それにつきまして信者から質問がありましたが、いかように答えたらよろしゅう御座いましょうか。<br><br> 差支えない。<br><br>未だ薬毒があるから、揉むと良い気持である。<br><br>按摩がいないし、按摩は強いから、揉みつけるとよけい強くなるから、普通に揉ます方が心地よい。<br><br>肉体があるから人間と同じ事である。<br><br>（S24. 6.19） 037 浄霊と按摩の可否 一、光新聞の記事に、大先生様が日常按摩をさせていると書かれておりますが、按摩の効用と御浄霊の併用について御教示御願い申し上げます。<br><br>勿論各資格者が患部に体を用いず、御浄霊のみによることは承知致しておりますが、患部以外の箇所をやる時や、もしくは疲れた程度の人々をやる場合、つい浄化療法時代の魅力が捨て切れず体と併用致している者も沢山あります故、失礼とは存じますが、御伺いさせて頂きます。<br><br> 二、按摩によってともかく毒素が動き、分散の状態になった時、御浄霊で更に溶解することは一応合理的に考えられますが、いかがでございましょうか。<br><br> 一、浄霊は絶対体を使わぬ。<br><br>手を触れれば民間療法になる。<br><br>按摩は構わぬ。<br><br>気持がいいから揉ませる。<br><br>凝る時は気持がいい。<br><br>そういう意味ならよい。<br><br>（S24. 6. 3） rattail（注） 〔 御光話（S24年 6月 3日） 『御光話録』12号、昭和24(1949)年9月21日発行〕に掲載 ――『光』新聞の記事に、大先生様が日常按摩（あんま）をおさせになられる由拝見いたしましたが、按摩の効用および御浄霊との併用について御教示をお願い申し上げます。<br><br>勿論、教導師が患部に体を用いず、浄霊のみによるべきことは承知いたしおりますが、患部以外の箇所をするときや、あるいは疲労した程度の人々をいたします場合、つい浄化療法時代の魅力が捨てきれず体を併用している者もたくさんありますゆえ、失礼とは存じながらお伺い申し上げます。<br><br> 『こりゃあ、違いますよ。<br><br>浄霊には絶対体を使っちゃいけない。<br><br>それじゃぜんぜん宗教じゃない、民間療法になってしまう。<br><br>たいへんな間違いですよ。<br><br>按摩のほうは気持ちがよかったらしていいですよ。<br><br>私は気持ちがいいから、それでやらせるんです。<br><br>凝ったときにはいい気持ちですよ。<br><br>で、そのあとで浄霊してもらえばいい。<br><br>それからまた、私を浄霊してくれる人はないですしね。<br><br>（笑声）…… それに私は字を書くでしょ。<br><br>だから凝るんですよ。<br><br>御守りの「光」は十分間に百枚書きますからね。<br><br>一時間に五百枚は楽ですよ。<br><br>ふつうの書体は三十分で百枚ね。<br><br>で、私も薬毒がずいぶん入ってますからね、だから凝るんですよ。<br><br>このごろはとても減ったけれどまだ残ってるんです。<br><br>』 ――按摩によってともかく毒素が動き分散の状態になったとき、御浄霊によりさらに溶解する……ということは一応合理的のように考えられますがいかがでしょうか。<br><br> 『これは結構ですね、いいですよ。<br><br>肩の凝りなんか両方だとよけい効きますよ。<br><br>』 ――そういたしますと併用でございましょうか。<br><br> 『併用っていうのとは違いますよ。<br><br>按摩は治すっていう意味からするんじゃない。<br><br>按摩と浄霊とごっちゃにしちゃいけない。<br><br>違うんですよ、揉むのと治すのとはね。<br><br>』 ――一般の按摩では、刺激を与えるためそこに毒素が集まるということはありませんでしょうか。<br><br> 『商売人はそうですよ。<br><br>私もそうでした。<br><br>玄人にさせるとよけい進むんです。<br><br>素人ならいいですが。<br><br>……だから、揉ませるのはいい気持ちだから揉ませるんで、それで病気を治そうとするのとは違いますよ。<br><br>病気は霊が浄まらなくちゃ根本的には治らないんですからね。<br><br> すべて固苦しく考えちゃいけません。<br><br>それだからって、ぜんぜん区別なしで考えちゃ、これもまたいけないんです。<br><br>区別すべきことは区別して、そのうえで固苦しく考えてはいけない。<br><br>』 038 肩揉む事 肩や首の非常に凝った場合力を入れて押したり摩ったりしても差支えないでしょうか。<br><br> 強く揉んでも差支えない。<br><br>（S24. 5.13） 039 咳に関する重要知識（頭・歯齦） 同一人を御浄霊の場合、御浄霊致します人によって咳がはげしく出る場合と、発熱して悪寒が来る場合と、直ぐ楽になる場合等違いますのはいかなる訳で御座いましょうか。<br><br>お伺い申し上げます。<br><br> これは知っておかなくてはならぬ事が種々ある。<br><br>一番多いのは毒の固まった所が溶ける。<br><br>こういうのは頭である。<br><br>痰になって出る。<br><br>柔かく溶けぬ。<br><br>溶けただけは一旦肺に入る。<br><br>そして固い場合は咳が激しく出る。<br><br> も一つの場合は平均浄化である。<br><br>一ケ所が溶けると共に他の部に自然浄化が起る。<br><br>これが、激しい咳が起る。<br><br>自分自身の力で浄化するから非常に激しい。<br><br>溶けるに従って他の塊が出る。<br><br>咳の出る所は決ってる。<br><br>一番気のつかぬのは頭で、人間咳の一番出るのは頭である。<br><br>歯齦からでも咳が出る。<br><br>割合いに多い。<br><br>身体中どこからでも出る。<br><br>医学は喉がわるいから咳が出るというが、これは逆で、良いから出る。<br><br>腸捻転などガスである。<br><br>屁が出れば治る。<br><br>（S25. 2.22） 040 三毒の霊化 物質の霊化、霊の物質化と言う事を伺った事がありますが、人体の三毒も霊化する事がありましょうか。<br><br>また毒素が霊化する時は必ず肉体的の浄化を伴いますので御座いましょうか。<br><br>御教示を御願い申し上げます。<br><br> この通りで、三毒が霊化する。<br><br>肉体と両方である。<br><br> 脊椎カリエスは霊の物質化である。<br><br>物質の霊化もある。<br><br>（S24. 7.17） 041 病気は二度になる。<br><br> 四十五歳位の子宮癌の人が医師に見放され、尿も出なかったのが御浄霊により尿も出るようになり、すっかり元気になりまして早速入信致しました。<br><br>ところが入信後三日目にまた尿が止り、苦しみ出しました。<br><br>今度は幾ら御浄霊致しても出ませんが、いかなる原因で御座居ましょうか。<br><br>また、体のどこを御浄霊致したら宜しいのでございましょうか。<br><br>御伺い申し上げます。<br><br> 病気は大抵二度の形式をとるものである。<br><br> 膀胱辺を浄霊すればよい。<br><br>小塊――結石のようである。<br><br>膀胱の入口と出口をする。<br><br>腎臓は無論である。<br><br>小便の止るのは皆これである。<br><br>（S25. 1.15） 042 最近の浄化状態 最近浄化熱が非常に高く（四十五度位）出る患者が多くなりましたが、これは火素の増量によるものと存じますが、これにつきまして、今後の病気症状の変化並びに霊界の状態につきまして御教示御願い申し上げます。<br><br> （体温計は四十三度まで）――。<br><br>ボツボツこういう徴候が見えて来た。<br><br>今朝新聞に赤痢五千人出たと報道している。<br><br>以前から疥癬が一ぺんに出ると言ったが、赤痢も疥癬が一ぺんに出たもので、出切れずにあったものである。<br><br> まだまだこれからうんと出る。<br><br>教導師もボヤボヤしているのは危い。<br><br>（S24. 8. 9） 043 浄化苦続くのは 最近非常に大きなおかげを戴く者のある反面、いろいろ手当をつくした人の浄化が厳しく、しかも長期に渡り、とめどなき苦痛の状態が続く人もございますが、浄化が厳しくなりますと段々そのような場合が多くなるものでございましょうか。<br><br> だんだんこうなる。<br><br>浄化して苦痛の状態が続くのは、毒を除るのが手間どるのである。<br><br>（S24. 3. 4） 044 病気の峠 本年三月上旬風邪の御浄化を頂き、引続き四月上旬より発熱、寝汗多く寝たり起きたりの状態でおりましたが、四月十八日大先生御面会参上後ほとんど起床できなくなり、原先生の御浄霊を受けて参りました。<br><br>四月二十五日、強い御浄化のため御守護御願い申し上げました。<br><br>続いて発熱発汗烈しく、泡のような痰が多量に出て、喉が痛み食欲次第に細り、五月十七日に至り全く起床不能となり、食事も流動物以外はほとんど摂れなくなりました。<br><br>十年程前に肋膜炎を固めました御浄化かと思われます。<br><br>以上の容態一日も早くお救い戴き全快致しますよう御守護御願い申し上げます。<br><br> これは結構である。<br><br>もう一息である。<br><br>衰弱を増さないよう注意する。<br><br>病気の峠は、もう駄目だと思う時である。<br><br>（S25. 5.18）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de Ensaios do Reverendo Jikan Okada – Pesquisa de Ensinamentos: Ajuda; Pesquisa de Materiais: Volume Johrei (Parte 2)</h2>
 <h3>023-044 Diagnóstico da Saúde</h3>
@@ -204,5 +356,48 @@ function toggleLang(lang) {
 <h2>044 O Ponto Crítico da Doença</h2>
 <p><strong>Pergunta: No início de março deste ano, recebi a purificação de um resfriado. Em seguida, no início de abril, comecei a ter febre e suores noturnos intensos, alternando dias na cama e dias em que conseguia me levantar. Após ter a permissão de um encontro com o Grande Mestre em 18 de abril, fiquei praticamente acamado e tenho recebido Johrei do Reverendo Hara. No dia 25 de abril, tive uma purificação muito forte e pedi proteção. Na sequência, a febre e a transpiração se intensificaram, passei a expelir grande quantidade de um catarro espumoso, minha garganta doía e perdi o apetite gradualmente. Em 17 de maio, fiquei totalmente impossibilitado de me levantar e, com exceção de líquidos, quase não consigo me alimentar. Acredito que esta seja a purificação de uma pleurisia que foi solidificada há cerca de dez anos. Rogo por sua proteção para que eu possa ser salvo o mais breve possível e alcançar a plena recuperação.</strong></p>
 <p>Isso é excelente. Falta apenas mais um esforço. Tome cuidado para não permitir que a debilidade aumente. O ponto crítico de uma doença ocorre precisamente no momento em que se pensa que tudo está perdido. (18 de maio de 1950)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊篇 （下） ２ 023-044 健康診査 023 霊的原因探知法 病気の霊的原因探知法――。<br/><br/>他宗教が霊媒により病気を知ります。<br/><br/>その可否をお教え下さい。<br/><br/> 病気の原因はなかなかすぐには判らぬものである。<br/><br/>であるから医家でも診察といって推察するのである。<br/><br/> よく病原が判らぬとすぐに霊的原因とする教導師もあるが、これはいけない。<br/><br/>霊的のも体的のもあるので、判らぬものは判らぬと率直にいうべきである。<br/><br/> 024 唖の治癒、肩耳下の重要性 三歳の男、唖であります。<br/><br/>浄霊によりよくなりますでしょうか。<br/><br/> 早く治るのとなかなか治らぬのと、すっかり治るのや、半分治るのや、種々ある。<br/><br/>極くヒドいとみて浄霊で半分位は治る。<br/><br/> 私の健康診断は肩と耳下である。<br/><br/>耳下腺をする事である。<br/><br/> どんな病気も耳の下が柔かくなっていなくてはいけない。<br/><br/>肩の固いのもいけない。<br/><br/>成功した偉い人は必ず肩が柔かい。<br/><br/>これは精力がある訳である。<br/><br/> 人間の健康は肩が柔かく、次は耳の下を柔かくする事である。<br/><br/> 025 毛と健康、（肩と陰毛） 毛と病気、毛と因縁について御教え下さい。<br/><br/> 病気になると毛が薄くなる。<br/><br/>頭に毒が多いと毛が薄くなる。<br/><br/>弱い人は陰部の毛が薄い。<br/><br/>濃い人は健康である。<br/><br/>結核などやってる人は長くなると薄くなり、死期になると全部無くなる。<br/><br/>月経も無くなる。<br/><br/>月経が無くなると余程芯が弱ってる。<br/><br/> 健康診断の一番よく判るのは、肩の固い人はどんなに健康でも早死する。<br/><br/>非常に固まっていて身体全体が弱いのである。<br/><br/>肩の固い人は危い。<br/><br/>成功した人ほど肩が柔かい。<br/><br/>精力があるのである。<br/><br/>また、肩の柔かい人は病気も治り易い。<br/><br/>であるから健康診断は一は肩、二は陰毛である。<br/><br/>弱い人でも、健康になると陰毛が太くて殖える。<br/><br/>弱い人は赤くなっている。<br/><br/> 026 頭髪の硬軟と健康・性格 頭髪の軟質と硬質とありますが、これは性格に関係が御座いましょうか。<br/><br/> 性格と健康と両方に関係がある。<br/><br/>健康のものは硬い。<br/><br/>弱い方は柔かい。<br/><br/>柔かい方が性格も柔かい。<br/><br/>硬い方は性格も硬い。<br/><br/>柔かくなったり硬くなったり変化する。<br/><br/>硬い方は白髪になるというが、そうらしい。<br/><br/>（S24. 4. 3） 027 分枝せる毛、（毛の精力） 枝毛（毛髪の先が二本三本に分れているもの）はいかなる訳で御座居ましょうか。<br/><br/>お伺い申し上げます。<br/><br/> 五本も六本も分れているのもある。<br/><br/>毛はそういう性質のもので、枝である。<br/><br/>その人の精力が強い訳である。<br/><br/>（S24. 5.12） 028 健康と月経・陰毛 昭和二十年入信の平井菊枝（三十三歳）と申す信者、本年六月風邪の御浄化で床につき、段々肺病のような状態になり、衰弱もひどく、食事は辛うじて一杯ずつ位頂いております。<br/><br/>殊に二、三日脳貧血の状態になりますが、主としてどこを御浄霊致したらよろしいでしょうか。<br/><br/>今迄の主な患いは大腸カタルと扁桃腺の手術で、一年許り月経がないと申し、薬毒はかなり多く入れており、今後御浄化はいかがなようになりましょうか。<br/><br/>何卒御守護をお願い申し上げます。<br/><br/> 余程前から悪いのである。<br/><br/>月経のないのは貧血のためである。<br/><br/>次には陰毛が減ってゆく。<br/><br/>女の健康は陰毛のいかんで判る。<br/><br/>弱い者程薄い。<br/><br/>まず請合えない。<br/><br/>衰弱次第である。<br/><br/>（S24.12.18） 029 月経の多寡と健康 月経の多い人と少ない人では 霊的にいかなる原因が御座居ましょうか。<br/><br/>御教示御願い致します。<br/><br/> 体的である。<br/><br/>月経が多いのは血が多い。<br/><br/>血を作る機能が強いのである。<br/><br/>故に多い方がよいし、健康である程多い。<br/><br/>肺病になって月経がなくなると余程悪くなっている。<br/><br/>衰弱が増してるから、注意を要する。<br/><br/>陰毛など進む程薄くなる。<br/><br/>（S25. 2. 7） rattail（注） 〔 御光話（S24年7月） 『御光話録』9号、昭和24(1949)年7月30日発行、特輯号〕 ――二十歳の女、昨年六月に結核となり十一月まで入院しておりました。<br/><br/>月経もそのころ止まったと申します。<br/><br/>以後御浄霊しておりますが、苦痛は楽になってきておりますが、衰弱がひどうございます。<br/><br/>いかがでしょうか。<br/><br/> 『これは、特に肺病に多いんですが、肺病がすすむと月経がなくなるもんですよ。<br/><br/>つまり貧血になるんです。<br/><br/>……この人はちょっと難しいですね。<br/><br/>まあ見込みないでしょう。<br/><br/>だから手を引いたほうがいい。<br/><br/>ただ苦痛を緩和するのと、亡くなってから霊界でずっと楽になるのとで浄霊して上げるのはいいですがね。<br/><br/>月経がなくなったのはもうそうとう危いんですが、陰毛がなくなったのはぜんぜん駄目ですね。<br/><br/>人間の健康、不健康はね……ちょっとこんなことを言うのはおかしいようだけども、陰毛で判るんです。<br/><br/>これが濃いほど健康で、薄いほど不健康なんです。<br/><br/>これはまったくたしかなもんですよ。<br/><br/>もうひとつ、健康か不健康かは肩の弾力性で判るんです。<br/><br/>肩をおさえてみて柔らかいほどいいんです。<br/><br/>平常は丈夫な人でも肩が固いとよく急死しますよ。<br/><br/>世の中で成功する人は必ず肩が柔らかいですね。<br/><br/>つまり、肩の柔らかい人は精力があるんですよ。<br/><br/>固い人は精力がないから駄目なんですね。<br/><br/>』 030 歯と健康 虫歯はいかなる理由で起りましょうか。<br/><br/> 歯がわるいのは必ず身体のどこかがわるい。<br/><br/>（S24. 9.23） rattail（注） 〔 御光話（S24年 9・10月) 『御光話録』15号、昭和24(1949)年12月20日発行〕 ――虫歯はいかなる理由で起りましょうか。<br/><br/>御浄霊によって治療および予防はできましょうか。<br/><br/> 『予防できますよ。<br/><br/>それにね、歯が悪くなるのは体が悪いからなんですよ。<br/><br/>やっぱり両方ともちょうど一致してるんです。<br/><br/>だから虫歯があるのは体のどっかにも虫くってる所があるんです。<br/><br/>（笑声）予防は体を浄霊して体をよくすればそれでいいんです。<br/><br/>』 031 歯の弱い事 光明世界には歯科医はある程度必要で御座居ましょうか。<br/><br/> 今よりズーッと少なくなる。<br/><br/>歯が弱いのは身体が弱い事である。<br/><br/>（S23.10.23） rattail（注） 〔 妙智之光（地上天国10号） 、昭和24(1949)年11月20日発行〕 歯石が早くできる人と遅い人とがありますがどんな原因でしょうか。<br/><br/> 『歯石のたまる人は歯が軟らかいからで、軟らかいのは弱いからで、ということは身体が弱っているからである。<br/><br/>最近小学生は九割虫歯があると言うから、いかに弱体であるか寒心に堪えないのである。<br/><br/>』 032 爪と健康 爪と健康といかなる関係がありましょうか。<br/><br/> これは本当。<br/><br/>健康不健康が最もよく判る。<br/><br/>私など疥癬してから三日月形がなくなった。<br/><br/>拇指が一番よく判る。<br/><br/>爪に艶がないのや色のわるいのは皆貧血しているので極くいけない。<br/><br/>薬を沢山飲むとそういう色になる。<br/><br/> 033 半月弁 〔爪の誤植か？〕 爪の半月は健康に関係が御座いますか。<br/><br/>御教え下さい。<br/><br/> 大いにある。<br/><br/>外の指は一番肝腎である。<br/><br/> 034 小爪と健康 小爪と健康状態とは関係がありましょうか。<br/><br/> 健康の時ははっきり大きく出る。<br/><br/>病気の時は白いところがなくなるか、または薄くなる。<br/><br/>全然ないのは最早余程衰弱しているのである。<br/><br/> rattail（注） 〔 御光話（S24年 8月23日） 『御光話録』14号、昭和24(1949)年11月20日発行〕 ――爪に現われる半月はその人の健康と関係ありましょうか。<br/><br/> 『大いに関係ありますね。<br/><br/>殊に親指のがそうですが、健康な人ほど白くはっきりしてますよ。<br/><br/>私も疥癬のときはこの白いのがまったくなくなりましたがね。<br/><br/>いまはだいぶ元に戻ってきましたが、しかしまだ元通りにはなってませんね。<br/><br/>』 〔妙智之光『地上天国』11号、昭和24(1949)年12月20日発行〕 小爪と健康状態とは関係がありましょうか。<br/><br/> 『大いにある。<br/><br/>健康のときははっきり大きく出る。<br/><br/>病気のときは白い所が淡くなるが、重症になるとほとんど見えなくなる。<br/><br/>』 035 鼠蹊下部の脈動と健康 私の経験では鼠蹊部の下部の脈動が誰でも全身中常に最大のように感じますが、脈動の大小がその人の健康と病の軽重に関係あるのでしょうか。<br/><br/>いかがなものでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> これは痩せた人の事で、肥った人は脈動を感じない。<br/><br/>臍の横または上に塊があり、強い動悸を打つもので、別に差支えないものである。<br/><br/>（S24.11.18） 036 肩をお揉ませになる事 光新聞特集号の中に、真に畏れ多い事で御座いますが、大先生様が奉仕者に肩を御揉ませなさるとの御言葉が御座います。<br/><br/>それにつきまして信者から質問がありましたが、いかように答えたらよろしゅう御座いましょうか。<br/><br/> 差支えない。<br/><br/>未だ薬毒があるから、揉むと良い気持である。<br/><br/>按摩がいないし、按摩は強いから、揉みつけるとよけい強くなるから、普通に揉ます方が心地よい。<br/><br/>肉体があるから人間と同じ事である。<br/><br/>（S24. 6.19） 037 浄霊と按摩の可否 一、光新聞の記事に、大先生様が日常按摩をさせていると書かれておりますが、按摩の効用と御浄霊の併用について御教示御願い申し上げます。<br/><br/>勿論各資格者が患部に体を用いず、御浄霊のみによることは承知致しておりますが、患部以外の箇所をやる時や、もしくは疲れた程度の人々をやる場合、つい浄化療法時代の魅力が捨て切れず体と併用致している者も沢山あります故、失礼とは存じますが、御伺いさせて頂きます。<br/><br/> 二、按摩によってともかく毒素が動き、分散の状態になった時、御浄霊で更に溶解することは一応合理的に考えられますが、いかがでございましょうか。<br/><br/> 一、浄霊は絶対体を使わぬ。<br/><br/>手を触れれば民間療法になる。<br/><br/>按摩は構わぬ。<br/><br/>気持がいいから揉ませる。<br/><br/>凝る時は気持がいい。<br/><br/>そういう意味ならよい。<br/><br/>（S24. 6. 3） rattail（注） 〔 御光話（S24年 6月 3日） 『御光話録』12号、昭和24(1949)年9月21日発行〕に掲載 ――『光』新聞の記事に、大先生様が日常按摩（あんま）をおさせになられる由拝見いたしましたが、按摩の効用および御浄霊との併用について御教示をお願い申し上げます。<br/><br/>勿論、教導師が患部に体を用いず、浄霊のみによるべきことは承知いたしおりますが、患部以外の箇所をするときや、あるいは疲労した程度の人々をいたします場合、つい浄化療法時代の魅力が捨てきれず体を併用している者もたくさんありますゆえ、失礼とは存じながらお伺い申し上げます。<br/><br/> 『こりゃあ、違いますよ。<br/><br/>浄霊には絶対体を使っちゃいけない。<br/><br/>それじゃぜんぜん宗教じゃない、民間療法になってしまう。<br/><br/>たいへんな間違いですよ。<br/><br/>按摩のほうは気持ちがよかったらしていいですよ。<br/><br/>私は気持ちがいいから、それでやらせるんです。<br/><br/>凝ったときにはいい気持ちですよ。<br/><br/>で、そのあとで浄霊してもらえばいい。<br/><br/>それからまた、私を浄霊してくれる人はないですしね。<br/><br/>（笑声）…… それに私は字を書くでしょ。<br/><br/>だから凝るんですよ。<br/><br/>御守りの「光」は十分間に百枚書きますからね。<br/><br/>一時間に五百枚は楽ですよ。<br/><br/>ふつうの書体は三十分で百枚ね。<br/><br/>で、私も薬毒がずいぶん入ってますからね、だから凝るんですよ。<br/><br/>このごろはとても減ったけれどまだ残ってるんです。<br/><br/>』 ――按摩によってともかく毒素が動き分散の状態になったとき、御浄霊によりさらに溶解する……ということは一応合理的のように考えられますがいかがでしょうか。<br/><br/> 『これは結構ですね、いいですよ。<br/><br/>肩の凝りなんか両方だとよけい効きますよ。<br/><br/>』 ――そういたしますと併用でございましょうか。<br/><br/> 『併用っていうのとは違いますよ。<br/><br/>按摩は治すっていう意味からするんじゃない。<br/><br/>按摩と浄霊とごっちゃにしちゃいけない。<br/><br/>違うんですよ、揉むのと治すのとはね。<br/><br/>』 ――一般の按摩では、刺激を与えるためそこに毒素が集まるということはありませんでしょうか。<br/><br/> 『商売人はそうですよ。<br/><br/>私もそうでした。<br/><br/>玄人にさせるとよけい進むんです。<br/><br/>素人ならいいですが。<br/><br/>……だから、揉ませるのはいい気持ちだから揉ませるんで、それで病気を治そうとするのとは違いますよ。<br/><br/>病気は霊が浄まらなくちゃ根本的には治らないんですからね。<br/><br/> すべて固苦しく考えちゃいけません。<br/><br/>それだからって、ぜんぜん区別なしで考えちゃ、これもまたいけないんです。<br/><br/>区別すべきことは区別して、そのうえで固苦しく考えてはいけない。<br/><br/>』 038 肩揉む事 肩や首の非常に凝った場合力を入れて押したり摩ったりしても差支えないでしょうか。<br/><br/> 強く揉んでも差支えない。<br/><br/>（S24. 5.13） 039 咳に関する重要知識（頭・歯齦） 同一人を御浄霊の場合、御浄霊致します人によって咳がはげしく出る場合と、発熱して悪寒が来る場合と、直ぐ楽になる場合等違いますのはいかなる訳で御座いましょうか。<br/><br/>お伺い申し上げます。<br/><br/> これは知っておかなくてはならぬ事が種々ある。<br/><br/>一番多いのは毒の固まった所が溶ける。<br/><br/>こういうのは頭である。<br/><br/>痰になって出る。<br/><br/>柔かく溶けぬ。<br/><br/>溶けただけは一旦肺に入る。<br/><br/>そして固い場合は咳が激しく出る。<br/><br/> も一つの場合は平均浄化である。<br/><br/>一ケ所が溶けると共に他の部に自然浄化が起る。<br/><br/>これが、激しい咳が起る。<br/><br/>自分自身の力で浄化するから非常に激しい。<br/><br/>溶けるに従って他の塊が出る。<br/><br/>咳の出る所は決ってる。<br/><br/>一番気のつかぬのは頭で、人間咳の一番出るのは頭である。<br/><br/>歯齦からでも咳が出る。<br/><br/>割合いに多い。<br/><br/>身体中どこからでも出る。<br/><br/>医学は喉がわるいから咳が出るというが、これは逆で、良いから出る。<br/><br/>腸捻転などガスである。<br/><br/>屁が出れば治る。<br/><br/>（S25. 2.22） 040 三毒の霊化 物質の霊化、霊の物質化と言う事を伺った事がありますが、人体の三毒も霊化する事がありましょうか。<br/><br/>また毒素が霊化する時は必ず肉体的の浄化を伴いますので御座いましょうか。<br/><br/>御教示を御願い申し上げます。<br/><br/> この通りで、三毒が霊化する。<br/><br/>肉体と両方である。<br/><br/> 脊椎カリエスは霊の物質化である。<br/><br/>物質の霊化もある。<br/><br/>（S24. 7.17） 041 病気は二度になる。<br/><br/> 四十五歳位の子宮癌の人が医師に見放され、尿も出なかったのが御浄霊により尿も出るようになり、すっかり元気になりまして早速入信致しました。<br/><br/>ところが入信後三日目にまた尿が止り、苦しみ出しました。<br/><br/>今度は幾ら御浄霊致しても出ませんが、いかなる原因で御座居ましょうか。<br/><br/>また、体のどこを御浄霊致したら宜しいのでございましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 病気は大抵二度の形式をとるものである。<br/><br/> 膀胱辺を浄霊すればよい。<br/><br/>小塊――結石のようである。<br/><br/>膀胱の入口と出口をする。<br/><br/>腎臓は無論である。<br/><br/>小便の止るのは皆これである。<br/><br/>（S25. 1.15） 042 最近の浄化状態 最近浄化熱が非常に高く（四十五度位）出る患者が多くなりましたが、これは火素の増量によるものと存じますが、これにつきまして、今後の病気症状の変化並びに霊界の状態につきまして御教示御願い申し上げます。<br/><br/> （体温計は四十三度まで）――。<br/><br/>ボツボツこういう徴候が見えて来た。<br/><br/>今朝新聞に赤痢五千人出たと報道している。<br/><br/>以前から疥癬が一ぺんに出ると言ったが、赤痢も疥癬が一ぺんに出たもので、出切れずにあったものである。<br/><br/> まだまだこれからうんと出る。<br/><br/>教導師もボヤボヤしているのは危い。<br/><br/>（S24. 8. 9） 043 浄化苦続くのは 最近非常に大きなおかげを戴く者のある反面、いろいろ手当をつくした人の浄化が厳しく、しかも長期に渡り、とめどなき苦痛の状態が続く人もございますが、浄化が厳しくなりますと段々そのような場合が多くなるものでございましょうか。<br/><br/> だんだんこうなる。<br/><br/>浄化して苦痛の状態が続くのは、毒を除るのが手間どるのである。<br/><br/>（S24. 3. 4） 044 病気の峠 本年三月上旬風邪の御浄化を頂き、引続き四月上旬より発熱、寝汗多く寝たり起きたりの状態でおりましたが、四月十八日大先生御面会参上後ほとんど起床できなくなり、原先生の御浄霊を受けて参りました。<br/><br/>四月二十五日、強い御浄化のため御守護御願い申し上げました。<br/><br/>続いて発熱発汗烈しく、泡のような痰が多量に出て、喉が痛み食欲次第に細り、五月十七日に至り全く起床不能となり、食事も流動物以外はほとんど摂れなくなりました。<br/><br/>十年程前に肋膜炎を固めました御浄化かと思われます。<br/><br/>以上の容態一日も早くお救い戴き全快致しますよう御守護御願い申し上げます。<br/><br/> これは結構である。<br/><br/>もう一息である。<br/><br/>衰弱を増さないよう注意する。<br/><br/>病気の峠は、もう駄目だと思う時である。<br/><br/>（S25. 5.18）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

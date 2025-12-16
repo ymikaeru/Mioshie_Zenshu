@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qbokonai</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 膀胱内の凝血一夜で排出 『栄光』110号、昭和26(1951)年6月27日発行 福岡県 光宝大教会 宮川貞二（54） 昭和二十五年十二月六日それは忘れようとしても忘れ得ない私の一生を通じての苦痛の一日でありました。<br><br>時あたかも溶鉱炉の再開準備作業で多忙を極め、風邪もものかは、三十九度の発熱をおして勤めていたのでした、ところがその日は朝から血尿が出ていましたのが血液が膀胱内で凝固して尿道口を閉塞し、遂に排尿出来なくなり一日中苦しみ続けました、膀胱ははちきれそうになっても一滴の排尿も出来ないその苦しみは全くたとえようもありません。<br><br>夕方帰宅するや早速使いを派して医師の往診を求め、ゴム管のカテーテルを挿入して、排尿につとめて貰いましたが、凝血が管内につまって、どうしても排尿が出来ないのです、次には大きな注射器を下腹部より膀胱内につきたてて吸出につとめられましたが、これも凝血の為、何んの効果もありませんでした、四時間半にわたり数回、手を尽されましたが結局排尿出来なかったのです、遂にその夜モヒ注射で苦痛を忘れて寝につきました、翌朝早速、近くの観音様を信仰している祈祷師の小母さんに来て貰って祈祷して戴き、少々排尿が出来いくらか楽になったのですが、絶えない出血は次々に凝固し、その後十数日は排尿に苦しみ続けました、貧血の為に脈拍は微弱となり、手も足も冷えて睡眠も出来なくなり、文字通り死の訪れを予感せざるを得なくなりました、この間輸血二回止血剤の注射十数本、服薬等、あらゆる手当てを尽くしましたが、全くその効はなかったのです、医師は出血していると思われる左の腎臓を手術する外はないと言われますが、貧血して衰弱している身体で、どうして手術が出来ましょうか、祈祷師の小母さんは未だ葬式は出さないのか、と近所の人に尋ねていたとは、後で聞いた笑い話です。<br><br>丁度その時に生前意識のある内に一日なりとも、と遥る遥る宮崎から娘達夫婦が来てくれまして、メシヤ教に入信している婿は早速若松の宇津宮先生に御願いして、不便な田舎に態々御足労を煩らわしたのでした、それは十二月二十二日の夕方の事です、全く半信半疑で「そんな事で癒るかしら」と心の奥でささやいていました、当時の偽わらざる心境であったのです、その夜も依然として血尿は続きました、翌二十三日十時頃用便の際、凝固血液が多量排出され膀胱内の尿はこの時初めてすっかり出てしまったのです、御利益を戴いたのかなあ、と思っていますと次の排尿は、何んと不思議なことには一滴の血もまじらない澄みきった尿でありました、十八日振りに出血が止まったのです、家族や親戚一同皆その尿を見て小躍りして歓喜したものです、実れ以来二カ月後の今日までしかも医学博士が手術をせねば止まらないと言っていた出血が――拭ったようにピタリと止まって、何んの苦痛も不安も全く無くなってしまったのです、これを知って、奇蹟と言わずして何ぞやであります、引き続き先生に御浄霊して戴き、すっかり元気になり、一月六日より三日間、妻と共に教修を受けまして入信させて戴きました、今では十数年来の頭痛も、胸の疾患もすっかり治癒して一日も休まずに激務に服していますが、何んの障りもなく、楽しい明け暮れに人生の生き甲斐を感じ感謝に充ちた生活を営んでおります。<br><br> 明主様誠に有難う御座いました。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coágulos na bexiga expelidos em uma noite</h2>
 <p><strong>Publicado na Revista Eikou nº 110, em 27 de junho de 1951</strong>
@@ -102,5 +257,48 @@ function toggleLang(lang) {
 <p>Desde então, e até o dia de hoje, dois meses depois, aquele sangramento — que um doutor em medicina afirmara só poder ser detido com cirurgia — estancou por completo, como se jamais tivesse existido. Toda a dor e a ansiedade desapareceram. Diante de tal fato, como não o chamar de milagre?</p>
 <p>Prossegui recebendo Johrei do ministro e recuperei totalmente a saúde. A partir de 6 de janeiro, durante três dias, minha esposa e eu participamos do curso de formação e recebemos a permissão de ingressar na fé. Atualmente, as dores de cabeça que me afligiam há mais de uma década e uma enfermidade no peito também foram completamente curadas. Desempenho minhas árduas tarefas diárias sem precisar de um único dia de descanso, livre de qualquer impedimento. Meus dias transcorrem repletos de alegria, e sinto o verdadeiro propósito da vida, em uma existência plena de gratidão.</p>
 <p>A Meishu-Sama, meu mais sincero agradecimento.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 膀胱内の凝血一夜で排出 『栄光』110号、昭和26(1951)年6月27日発行 福岡県 光宝大教会 宮川貞二（54） 昭和二十五年十二月六日それは忘れようとしても忘れ得ない私の一生を通じての苦痛の一日でありました。<br/><br/>時あたかも溶鉱炉の再開準備作業で多忙を極め、風邪もものかは、三十九度の発熱をおして勤めていたのでした、ところがその日は朝から血尿が出ていましたのが血液が膀胱内で凝固して尿道口を閉塞し、遂に排尿出来なくなり一日中苦しみ続けました、膀胱ははちきれそうになっても一滴の排尿も出来ないその苦しみは全くたとえようもありません。<br/><br/>夕方帰宅するや早速使いを派して医師の往診を求め、ゴム管のカテーテルを挿入して、排尿につとめて貰いましたが、凝血が管内につまって、どうしても排尿が出来ないのです、次には大きな注射器を下腹部より膀胱内につきたてて吸出につとめられましたが、これも凝血の為、何んの効果もありませんでした、四時間半にわたり数回、手を尽されましたが結局排尿出来なかったのです、遂にその夜モヒ注射で苦痛を忘れて寝につきました、翌朝早速、近くの観音様を信仰している祈祷師の小母さんに来て貰って祈祷して戴き、少々排尿が出来いくらか楽になったのですが、絶えない出血は次々に凝固し、その後十数日は排尿に苦しみ続けました、貧血の為に脈拍は微弱となり、手も足も冷えて睡眠も出来なくなり、文字通り死の訪れを予感せざるを得なくなりました、この間輸血二回止血剤の注射十数本、服薬等、あらゆる手当てを尽くしましたが、全くその効はなかったのです、医師は出血していると思われる左の腎臓を手術する外はないと言われますが、貧血して衰弱している身体で、どうして手術が出来ましょうか、祈祷師の小母さんは未だ葬式は出さないのか、と近所の人に尋ねていたとは、後で聞いた笑い話です。<br/><br/>丁度その時に生前意識のある内に一日なりとも、と遥る遥る宮崎から娘達夫婦が来てくれまして、メシヤ教に入信している婿は早速若松の宇津宮先生に御願いして、不便な田舎に態々御足労を煩らわしたのでした、それは十二月二十二日の夕方の事です、全く半信半疑で「そんな事で癒るかしら」と心の奥でささやいていました、当時の偽わらざる心境であったのです、その夜も依然として血尿は続きました、翌二十三日十時頃用便の際、凝固血液が多量排出され膀胱内の尿はこの時初めてすっかり出てしまったのです、御利益を戴いたのかなあ、と思っていますと次の排尿は、何んと不思議なことには一滴の血もまじらない澄みきった尿でありました、十八日振りに出血が止まったのです、家族や親戚一同皆その尿を見て小躍りして歓喜したものです、実れ以来二カ月後の今日までしかも医学博士が手術をせねば止まらないと言っていた出血が――拭ったようにピタリと止まって、何んの苦痛も不安も全く無くなってしまったのです、これを知って、奇蹟と言わずして何ぞやであります、引き続き先生に御浄霊して戴き、すっかり元気になり、一月六日より三日間、妻と共に教修を受けまして入信させて戴きました、今では十数年来の頭痛も、胸の疾患もすっかり治癒して一日も休まずに激務に服していますが、何んの障りもなく、楽しい明け暮れに人生の生き甲斐を感じ感謝に充ちた生活を営んでおります。<br/><br/> 明主様誠に有難う御座いました。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

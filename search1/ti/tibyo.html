@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>tibyo</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 治病に於ける観音力に就て 『東方の光』8号、昭和10(1935)年10月21日発行 肺結核、喘息、痔瘻、癌腫、中風、梅毒、近眼等、従来難治とされていた疾患が、僅少なる日数を以て治癒されるという驚くべき奇蹟が、日々顕（あら）われつつある実際を、現代人の少年期から、科学一点張りで、叩き込まれた頭脳へ、理解させる程困難な事は、恐らくはあるまい。<br><br>それは、未開人に向って、空気の説明をするよりも、なお至難であろう。<br><br> その時代の文化そのものは一つの定型を成している。<br><br>その定型のレベルから、数段をも跳躍したアルモノが生れた時、識者達はそれを、今までのレベルの物指で測ろうとするのであるが、無論その物指（ものさし）には合わない。<br><br>そうした時に決り切ってその、アルモノを罵詈（ばり）非難するのも、一つの人的定型である。<br><br>ただ、その中に、その時代の文化に満足出来ないで、より高跳的、破型的のアルモノの出ずるのを期待翹望（ぎょうぼう）するところの、少数者もまた、必ずあるものであって、この人達が、新生のアルモノを使命の様に高揚発展させてくれるのも不思議である。<br><br>いわゆる、先覚者なるものがそれである。<br><br> 毎号本紙には観音力による多数の治病実績を掲載しているが実は掲載し切れない程の多数の奇蹟が日々続出しつゝあるのである。<br><br>故に本紙に掲載するのはホンの一部でしかないのである。<br><br> しかも、第三者から見て各記事が誇大とされ勝ちであるが、これはむしろ反対であって、却て、実際のままを書けば、誇大にさるるのを虞（おそ）れて、余程控え目にしているのである。<br><br> そのごとく、難病治療者達が、自己の体験を第三者に語る時、そんな奇蹟があるものかと、信じてくれないと言う事の嘆声は日々聞くところであって、滑稽なのは、数年来の痼疾（こしつ）が、短時日で治療した為、家族の者さえ信じないという、嗤（わら）えない事実も時々あるのである。<br><br>それが為に、掲載者の宿所番地まで、詳細に記入し直接本人に訊（き）かれるよう便してある訳である。<br><br> この様な治病の大偉力が新しく発生されたと言う事は誰よりもまず医師諸君が怪しまなければならないはずである。<br><br>その結果徹底的に検討すべく吾々に訪ねて来なければならないと思うのである。<br><br>何となれば医学そのものゝ目的は人類から病気を無くするそれより以外には無いはずであるから。<br><br> 又医学以外で治った実例、記事などを見る人はよくいうのである。<br><br>それは、治ったのだけを発表するのであって、治らないのは発表しないのであると。<br><br>これは無理のない見方で確にそういうのも、世間には相当あるであろう事も知っている。<br><br>しかし正直に発表するが、吾々に来る患者は、種々の療法で治らなかった者が、ほとんど大部分である。<br><br>それにも拘わらず、八十パーセンテージ以上の治病率を挙げている。<br><br>一点の誇張もない事実である。<br><br> かくのごとき治病成績は世界のどこにも歴史にも絶対無いであろうが、事実は歪める事は出来ない。<br><br>そうして医師諸君に吾々の冀（こいねが）うのは、吾々のこの報告を一まず受入れて事実そのものを突き止めらるの労を惜まれない事である。<br><br>そうして我門に足を運んで参観されてもいいがなるべくは習得されて欲しいのである。<br><br>それも専門家であれば、一週間位で済むしその結果、従来の西洋医学と比較してくれたならその治病効果のいかに優れるかにおいて驚歎する事は断言し得るのである。<br><br>今まで一ケ月の治病日数を要したものが三日で治るであろう。<br><br> なお且つ諸君は、病理解剖等、専門的な技能を有されているから、それに観音治病力を併有せらるるにおいては、諺（ことわざ）に言う鬼に金棒である。<br><br>しかしながら、観音治病力などと言ったら、その言葉だけで、迷信として笑殺してしまうかも知れないが、その点である、百の学理も、一の事実には如（し）かないと言う。<br><br>その事実を冷静に凝視されたいのである。<br><br>全病患者は、病患の説明をされるよりも、治癒される事をいかに希望しているかを充分知られているはずである。<br><br>もし、事実に眼を蔽（おお）い、あるいは事実を知っても雲烟過眼視（うんえんかがんし）して、相変らず、科学一点張りで進むという事は、文化人としての怠慢ではなかろうか。<br><br> 又今他の新興宗教においても、そういえるのである。<br><br>無医薬的な治病の、奇蹟的成績を旺んに発表している。<br><br>無論、これらも進んで研究されなければならないのは、言うまでもない事である。<br><br>医療を棄てて、多くの人が、それら宗教へ趨（はし）ると言うのは、医療以上の、アルモノがあるからではないか、そういう人達を目して、一概に迷信であると片付けて平然たるは、余りに独断過ぎて、いずれが迷信しているかは、区別を付けられないであろうと思う。<br><br> しかるに西洋で、医学上の新発見をしたという報告は、最大級の関心を持つのが常のようであるがそれら多くは、基礎医学に属するもので、実際の治病法発見は、まことに少ないのである。<br><br>のみならず、今日までの実績に徴すれば、最初発見された薬剤も治療法も、時日の経過によって、そのほとんどが、発見当時の、救世主的待遇がいつしか稀薄になってゆくという事実を、余りにも多くを、見せつけられている。<br><br>彼の六〇六号のごとき、又ラジュウムのごときでさえ、東郷大将の喉頭癌が、三十五万円のラジュウムを使用してもついに治らなかったと言う事実は、余りにも雄弁に無効果を証明している。<br><br>しかるにも関わらず、手近な、日本においての治癒成績は、いかに顕著であろうとも、全然触れようともしないで、否定してしまっているのである。<br><br>ただしかし、それは、科学的でないという、それだけの理由でしかないのである。<br><br> 人類の病患が科学以外には治療の方法が無いと断定されてる時代の人類こそいかに憐むべきであろうか、何となれば科学を幾層倍超越した素晴らしい治病法が発生されたとしてもそれは一部の者より外、全般がその恩恵に浴する事が出来ないという不合理である。<br><br> 今日の文明が、協力して進歩して来た事ははっきりと歴史が物語っている。<br><br>ただしかし、今日までは学問の上にのみ、それが多かった事で、言い換れば西洋的なものに限られていた事であった、しかるに近時、西洋人も目覚めて来た、日本研究や、仏教研究等がそれである。<br><br>又一部の医家が、漢法〔方〕灸治等の研究に手を染めて来たのも、褒むべき事である。<br><br> 故に私は提唱する。<br><br>医学は、人類から、病患を絶滅するという、最高目標を建ててる以上、社会のあらゆるものの治病成果を、調査検討すると倶（とも）に科学の垣根を撤廃して、宗教的でも、霊的でも、精神的でもいゝから、事実を主に、学理を従として、大乗的に進まれたい事である。<br><br>そして、真に治る、短期に奏効する、再発しない、大医学を、我日本から、創見〔建〕しようではないか。<br><br> この大事業は当事者のみでは足りない、政府も科学のみに偏せずして、事実を調査検討、真に人類を救うに足るべきものが在ったら、進んで援助されたい事である。<br><br>政府者のある人々が、西洋医学を絶対として他は何物も排斥するという態度も考慮されたいのである、ここで申（かさ）ねて言う、文明は協力される事によってのみ発達するという原則を。<br><br> ともあれ、科学文明の一大転換期が来つゝある様に、医療の一大転換期も、迫り来たのは、争えない事実である。<br><br>何となれば、現在の科学からみて、夢想だも出来ない程の、大治病力が、既に発生されて、日々その奇蹟が加速度的に増加しつゝあるという、その事実が証明して余りあるであろう。<br><br> 停止する事を知らない人類の進歩から言えば、少しも怪しむに足らない発生事であるが、科学に固着して、何物をも見ないという、頑迷的態度こそ、いかに文化の進歩と人類の福祉とを、阻害する行為であるかに、目醒める事である。<br><br>そうでないと、誰かが言った、文化的野蛮人の言葉を、消す由（よし）がないであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Sobre o Poder de Kannon na Cura das Enfermidades</h2>
 <p>Provavelmente, não há tarefa mais árdua do que fazer a mentalidade contemporânea — forjada, desde a juventude, sob o jugo exclusivo da ciência — compreender a realidade dos milagres assombrosos que se manifestam diariamente, curando em poucos dias enfermidades até então consideradas intratáveis, como a tuberculose, a asma, a fístula anal, o câncer, o derrame, a sífilis e a miopia. Seria um desafio ainda maior do que explicar a existência do ar a um nativo de uma tribo isolada.</p>
@@ -110,5 +262,48 @@ function toggleLang(lang) {
 <p>Essa grandiosa empreitada não pode ser levada a cabo apenas pelos que já atuam na área. O governo também precisa agir, deixando de lado o partidarismo científico para investigar os fatos. Se encontrar algo que seja verdadeiramente capaz de salvar a humanidade, que o apoie sem hesitação. A postura de certas autoridades que endeusam a medicina ocidental e rejeitam todo o resto precisa ser reconsiderada. Repito aqui o princípio fundamental: a civilização só se desenvolve através da cooperação.</p>
 <p>Seja como for, é um fato inegável que, assim como a civilização científica se aproxima de uma grande transição, a medicina também está às portas de uma profunda transformação. A prova irrefutável disso é o surgimento de um poder curativo de tal magnitude — algo que a ciência atual sequer poderia sonhar — cujos milagres aumentam em progressão acelerada a cada dia.</p>
 <p>Se considerarmos o progresso incessante da humanidade, tal surgimento não tem nada de estranho. É preciso despertar para o fato de que a atitude obstinada de se apegar à ciência, recusando-se a enxergar qualquer outra realidade, é um ato que obstrui o avanço da cultura e o bem-estar da humanidade. Do contrário, jamais conseguiremos apagar a pecha de “bárbaros culturais” que alguém um dia nos atribuiu.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 治病に於ける観音力に就て 『東方の光』8号、昭和10(1935)年10月21日発行 肺結核、喘息、痔瘻、癌腫、中風、梅毒、近眼等、従来難治とされていた疾患が、僅少なる日数を以て治癒されるという驚くべき奇蹟が、日々顕（あら）われつつある実際を、現代人の少年期から、科学一点張りで、叩き込まれた頭脳へ、理解させる程困難な事は、恐らくはあるまい。<br/><br/>それは、未開人に向って、空気の説明をするよりも、なお至難であろう。<br/><br/> その時代の文化そのものは一つの定型を成している。<br/><br/>その定型のレベルから、数段をも跳躍したアルモノが生れた時、識者達はそれを、今までのレベルの物指で測ろうとするのであるが、無論その物指（ものさし）には合わない。<br/><br/>そうした時に決り切ってその、アルモノを罵詈（ばり）非難するのも、一つの人的定型である。<br/><br/>ただ、その中に、その時代の文化に満足出来ないで、より高跳的、破型的のアルモノの出ずるのを期待翹望（ぎょうぼう）するところの、少数者もまた、必ずあるものであって、この人達が、新生のアルモノを使命の様に高揚発展させてくれるのも不思議である。<br/><br/>いわゆる、先覚者なるものがそれである。<br/><br/> 毎号本紙には観音力による多数の治病実績を掲載しているが実は掲載し切れない程の多数の奇蹟が日々続出しつゝあるのである。<br/><br/>故に本紙に掲載するのはホンの一部でしかないのである。<br/><br/> しかも、第三者から見て各記事が誇大とされ勝ちであるが、これはむしろ反対であって、却て、実際のままを書けば、誇大にさるるのを虞（おそ）れて、余程控え目にしているのである。<br/><br/> そのごとく、難病治療者達が、自己の体験を第三者に語る時、そんな奇蹟があるものかと、信じてくれないと言う事の嘆声は日々聞くところであって、滑稽なのは、数年来の痼疾（こしつ）が、短時日で治療した為、家族の者さえ信じないという、嗤（わら）えない事実も時々あるのである。<br/><br/>それが為に、掲載者の宿所番地まで、詳細に記入し直接本人に訊（き）かれるよう便してある訳である。<br/><br/> この様な治病の大偉力が新しく発生されたと言う事は誰よりもまず医師諸君が怪しまなければならないはずである。<br/><br/>その結果徹底的に検討すべく吾々に訪ねて来なければならないと思うのである。<br/><br/>何となれば医学そのものゝ目的は人類から病気を無くするそれより以外には無いはずであるから。<br/><br/> 又医学以外で治った実例、記事などを見る人はよくいうのである。<br/><br/>それは、治ったのだけを発表するのであって、治らないのは発表しないのであると。<br/><br/>これは無理のない見方で確にそういうのも、世間には相当あるであろう事も知っている。<br/><br/>しかし正直に発表するが、吾々に来る患者は、種々の療法で治らなかった者が、ほとんど大部分である。<br/><br/>それにも拘わらず、八十パーセンテージ以上の治病率を挙げている。<br/><br/>一点の誇張もない事実である。<br/><br/> かくのごとき治病成績は世界のどこにも歴史にも絶対無いであろうが、事実は歪める事は出来ない。<br/><br/>そうして医師諸君に吾々の冀（こいねが）うのは、吾々のこの報告を一まず受入れて事実そのものを突き止めらるの労を惜まれない事である。<br/><br/>そうして我門に足を運んで参観されてもいいがなるべくは習得されて欲しいのである。<br/><br/>それも専門家であれば、一週間位で済むしその結果、従来の西洋医学と比較してくれたならその治病効果のいかに優れるかにおいて驚歎する事は断言し得るのである。<br/><br/>今まで一ケ月の治病日数を要したものが三日で治るであろう。<br/><br/> なお且つ諸君は、病理解剖等、専門的な技能を有されているから、それに観音治病力を併有せらるるにおいては、諺（ことわざ）に言う鬼に金棒である。<br/><br/>しかしながら、観音治病力などと言ったら、その言葉だけで、迷信として笑殺してしまうかも知れないが、その点である、百の学理も、一の事実には如（し）かないと言う。<br/><br/>その事実を冷静に凝視されたいのである。<br/><br/>全病患者は、病患の説明をされるよりも、治癒される事をいかに希望しているかを充分知られているはずである。<br/><br/>もし、事実に眼を蔽（おお）い、あるいは事実を知っても雲烟過眼視（うんえんかがんし）して、相変らず、科学一点張りで進むという事は、文化人としての怠慢ではなかろうか。<br/><br/> 又今他の新興宗教においても、そういえるのである。<br/><br/>無医薬的な治病の、奇蹟的成績を旺んに発表している。<br/><br/>無論、これらも進んで研究されなければならないのは、言うまでもない事である。<br/><br/>医療を棄てて、多くの人が、それら宗教へ趨（はし）ると言うのは、医療以上の、アルモノがあるからではないか、そういう人達を目して、一概に迷信であると片付けて平然たるは、余りに独断過ぎて、いずれが迷信しているかは、区別を付けられないであろうと思う。<br/><br/> しかるに西洋で、医学上の新発見をしたという報告は、最大級の関心を持つのが常のようであるがそれら多くは、基礎医学に属するもので、実際の治病法発見は、まことに少ないのである。<br/><br/>のみならず、今日までの実績に徴すれば、最初発見された薬剤も治療法も、時日の経過によって、そのほとんどが、発見当時の、救世主的待遇がいつしか稀薄になってゆくという事実を、余りにも多くを、見せつけられている。<br/><br/>彼の六〇六号のごとき、又ラジュウムのごときでさえ、東郷大将の喉頭癌が、三十五万円のラジュウムを使用してもついに治らなかったと言う事実は、余りにも雄弁に無効果を証明している。<br/><br/>しかるにも関わらず、手近な、日本においての治癒成績は、いかに顕著であろうとも、全然触れようともしないで、否定してしまっているのである。<br/><br/>ただしかし、それは、科学的でないという、それだけの理由でしかないのである。<br/><br/> 人類の病患が科学以外には治療の方法が無いと断定されてる時代の人類こそいかに憐むべきであろうか、何となれば科学を幾層倍超越した素晴らしい治病法が発生されたとしてもそれは一部の者より外、全般がその恩恵に浴する事が出来ないという不合理である。<br/><br/> 今日の文明が、協力して進歩して来た事ははっきりと歴史が物語っている。<br/><br/>ただしかし、今日までは学問の上にのみ、それが多かった事で、言い換れば西洋的なものに限られていた事であった、しかるに近時、西洋人も目覚めて来た、日本研究や、仏教研究等がそれである。<br/><br/>又一部の医家が、漢法〔方〕灸治等の研究に手を染めて来たのも、褒むべき事である。<br/><br/> 故に私は提唱する。<br/><br/>医学は、人類から、病患を絶滅するという、最高目標を建ててる以上、社会のあらゆるものの治病成果を、調査検討すると倶（とも）に科学の垣根を撤廃して、宗教的でも、霊的でも、精神的でもいゝから、事実を主に、学理を従として、大乗的に進まれたい事である。<br/><br/>そして、真に治る、短期に奏効する、再発しない、大医学を、我日本から、創見〔建〕しようではないか。<br/><br/> この大事業は当事者のみでは足りない、政府も科学のみに偏せずして、事実を調査検討、真に人類を救うに足るべきものが在ったら、進んで援助されたい事である。<br/><br/>政府者のある人々が、西洋医学を絶対として他は何物も排斥するという態度も考慮されたいのである、ここで申（かさ）ねて言う、文明は協力される事によってのみ発達するという原則を。<br/><br/> ともあれ、科学文明の一大転換期が来つゝある様に、医療の一大転換期も、迫り来たのは、争えない事実である。<br/><br/>何となれば、現在の科学からみて、夢想だも出来ない程の、大治病力が、既に発生されて、日々その奇蹟が加速度的に増加しつゝあるという、その事実が証明して余りあるであろう。<br/><br/> 停止する事を知らない人類の進歩から言えば、少しも怪しむに足らない発生事であるが、科学に固着して、何物をも見ないという、頑迷的態度こそ、いかに文化の進歩と人類の福祉とを、阻害する行為であるかに、目醒める事である。<br/><br/>そうでないと、誰かが言った、文化的野蛮人の言葉を、消す由（よし）がないであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

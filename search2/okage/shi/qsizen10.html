@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qsizen10</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 自然栽培による本年度耕作状況の報告 『自然農法解説』昭和26(1951)年1月15日発行 岐阜県 五六七大教会清霊中教会 清水康義 全般的な調査及び感想を述べます前に、麦作に付き、私の経験を併せ述べてみますに、麦作においては、適期播種が特に重要事と思います。<br><br>小麦播種適期をここ数年の統計をも参考にして発表致します。<br><br> 一、十月二十日－二十五日－三十日－二月五日－十日、右記の中特に、十月二十五日より十一月五日が当地での最適期であります。<br><br> 一、土質については当地は大体深く一尺前後で、壌土が多く、中に砂壌土も混っています。<br><br> 一、有肥との比較は自然耕作は草丈は短く、茎は強く、葉は不繁茂、実は太く大です。<br><br> 一、実収は平均して、十人の中三人増収、三人減収、四人は増減収なしで、質は全般的に自然耕作優等、有肥劣等です。<br><br> 一、成長経過としては、全般に草丈は短く、分蘖少く（平均十三本）植付後、有肥料の葉色は濃かったり、あせたり、七面鳥のごとく変り、自然農法のは変らず、植付後同じ葉色で経過し八月中旬前後の穂形成期、即ち生命線期経過せし頃少々色あせて来ました。<br><br>一部の報告によると、五月麦収穫後、生藁を鋤込むと、丁度生命線期にも色あせず、余裕をもち生命線期を起すとの事です。<br><br> 以上を報告申上げて、左にそれを体験された方の実例を御報告させて戴きます。<br><br> 今村金松氏（七十六歳）は八反歩の中八畝歩に自然耕作を実施致しました。<br><br>昨年の小麦播付けの際、種子の上へ土を混じた堆肥を施しました（通称かぶせ播き）。<br><br>土質は当地での五等地即ち劣等地であります。<br><br>その後の耕作としましては、二、三回の土入をしその出来た溝へ堆肥を一五〇貫程入れ、その後は別に手入れしませんでした。<br><br>草丈は一般より平均短く、だが丈夫に穂も出揃って、粒数も多く、八畝歩の収穫四俵半、一般有肥のところは反当三俵半、多くて四俵位で、その上これらは一升重量三九五匁、一俵要量四斗一升、一般は四斗三、四升、右の外特に報告させて頂きたいのは、今年は全般に等級悪く三等四等が多く、一等二等は少く一等のごときは無いという始末、ところが右の小麦が検査の結果一等合格、検査役も「今年の小麦でこのようなのは初めてだ」と言う素晴しさでした。<br><br>初回でもあり、減収すると思いしにこのような増収を戴きまして有難く存じております。<br><br> 謹んで御礼申上げ、御報告致します。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Comentários sobre a Agricultura Natural (Publicado em 15 de janeiro de 1951)</h2>
 <p>Relato de Yasuyoshi Shimizu, da Igreja Seirei, Grande Igreja Goroku Shichi, Província de Gifu</p>
@@ -104,5 +259,48 @@ function toggleLang(lang) {
 <p>Ademais, a qualidade se mostrou excepcional. A densidade do seu trigo era superior, e o ponto mais digno de nota, contudo, foi a classificação. Em um ano em que a qualidade geral foi baixa, com a maioria das colheitas recebendo classificações de terceira ou quarta categoria e praticamente nenhuma de primeira, o trigo do Sr. Imamura foi aprovado como de primeira classe. O próprio inspetor, admirado, comentou: "É a primeira vez que vejo um trigo com esta qualidade na safra deste ano".</p>
 <p>Por ser sua primeira experiência, o Sr. Imamura esperava uma redução na colheita, mas, ao contrário, foi abençoado com este notável aumento de produção, pelo qual expressou seu profundo agradecimento.</p>
 <p>Com reverência e gratidão, encerro este relatório.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 自然栽培による本年度耕作状況の報告 『自然農法解説』昭和26(1951)年1月15日発行 岐阜県 五六七大教会清霊中教会 清水康義 全般的な調査及び感想を述べます前に、麦作に付き、私の経験を併せ述べてみますに、麦作においては、適期播種が特に重要事と思います。<br/><br/>小麦播種適期をここ数年の統計をも参考にして発表致します。<br/><br/> 一、十月二十日－二十五日－三十日－二月五日－十日、右記の中特に、十月二十五日より十一月五日が当地での最適期であります。<br/><br/> 一、土質については当地は大体深く一尺前後で、壌土が多く、中に砂壌土も混っています。<br/><br/> 一、有肥との比較は自然耕作は草丈は短く、茎は強く、葉は不繁茂、実は太く大です。<br/><br/> 一、実収は平均して、十人の中三人増収、三人減収、四人は増減収なしで、質は全般的に自然耕作優等、有肥劣等です。<br/><br/> 一、成長経過としては、全般に草丈は短く、分蘖少く（平均十三本）植付後、有肥料の葉色は濃かったり、あせたり、七面鳥のごとく変り、自然農法のは変らず、植付後同じ葉色で経過し八月中旬前後の穂形成期、即ち生命線期経過せし頃少々色あせて来ました。<br/><br/>一部の報告によると、五月麦収穫後、生藁を鋤込むと、丁度生命線期にも色あせず、余裕をもち生命線期を起すとの事です。<br/><br/> 以上を報告申上げて、左にそれを体験された方の実例を御報告させて戴きます。<br/><br/> 今村金松氏（七十六歳）は八反歩の中八畝歩に自然耕作を実施致しました。<br/><br/>昨年の小麦播付けの際、種子の上へ土を混じた堆肥を施しました（通称かぶせ播き）。<br/><br/>土質は当地での五等地即ち劣等地であります。<br/><br/>その後の耕作としましては、二、三回の土入をしその出来た溝へ堆肥を一五〇貫程入れ、その後は別に手入れしませんでした。<br/><br/>草丈は一般より平均短く、だが丈夫に穂も出揃って、粒数も多く、八畝歩の収穫四俵半、一般有肥のところは反当三俵半、多くて四俵位で、その上これらは一升重量三九五匁、一俵要量四斗一升、一般は四斗三、四升、右の外特に報告させて頂きたいのは、今年は全般に等級悪く三等四等が多く、一等二等は少く一等のごときは無いという始末、ところが右の小麦が検査の結果一等合格、検査役も「今年の小麦でこのようなのは初めてだ」と言う素晴しさでした。<br/><br/>初回でもあり、減収すると思いしにこのような増収を戴きまして有難く存じております。<br/><br/> 謹んで御礼申上げ、御報告致します。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

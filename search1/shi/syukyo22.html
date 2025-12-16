@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>syukyo22</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教と分派 『信仰雑話』P.36、昭和23(1948)年9月5日発行 宗教には種々の派がある。<br><br>例えばキリスト教においてもカトリック、プロテスタント等をおもなるものとし、新旧種々の派がある。<br><br>仏教においても、日本だけでさえ真宗、浄土、天台、真言、禅、日蓮等をおもなるものとし、その一派が各派に分かれており、現在五十八派に分かれている。<br><br>神道においても、神社神道を別とし、教派神道においては大社、御嶽、扶桑、禊、天理、金光等を主なるものとし、十三派あるにみても明らかである。<br><br> 以上のように、何派にも分離するという事は理屈に合わないと思うが、私はこう観るのである。<br><br>すなわち、その原因は教典にあるのではないか、というのは、聖書にしても仏典にしても、甚だ矛盾難解な点が多く、その解釈に当たっては人によりまちまちの見解に分かれるので、勢い種々の分派ができたのであろう。<br><br>もっとも教派神道はキリスト教、仏教のごとく大教祖がなく、古事記、日本書紀等の古典を基本としたり、神憑り的教義や、教祖の教え等によってな成ったものである。<br><br>以上のごとく、根本は同じ宗教でありながら、各派に分離する結果、ともすれば争いなどを生じ勝ちになるので、宗教本来の使命たる人類愛的教化に悪影響を及ぼす事はもちろんで、遺憾の至りである。<br><br>全くその原因が前述のごとく教典の難解なるがためである事は議論の余地はない。<br><br>もっとも難解であるところに、かえって有難味があるという理屈も成り立たない事もないが、あまねく人類を救うべき意味から言えば、万人の最も理解しやすくするのが、本当ではないかと思うのである。<br><br> 以上のごとくであるから、私はできるだけ難解をさけ何人にも理解出来得るよう、新しい形式のもとに教えの道を説かんとするのである。<br><br> なお私は漸次政治、経済、教育、芸術等の方面にわたっても、宗教を通じての新解釈を発表するつもりである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Proliferação das Seitas Religiosas</h2>
 <p>É notório que as religiões se desdobram em inúmeras vertentes. O cristianismo, por exemplo, ramificou-se em católicos e protestantes como correntes principais, além de uma diversidade de outras seitas, antigas e novas. O budismo, mesmo considerando apenas o Japão, segmentou-se em escolas como a Shinshu, Jodo, Tendai, Shingon, Zen e Nichiren, que por sua vez se subdividiram, totalizando atualmente cinquenta e oito facções. De modo semelhante, o xintoísmo, para além do xintoísmo dos santuários, evidencia essa realidade em suas treze escolas sectárias, entre as quais se destacam a Taisha, a Mitake, a Fuso, a Misogi, a Tenri e a Konko.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Embora alguns possam argumentar que a complexidade confere um certo valor ou mistério à doutrina, tal perspectiva se desfaz quando consideramos o propósito maior da salvação. Ora, se o objetivo é alcançar toda a humanidade, não seria imperativo que o ensinamento fosse acessível à compreensão de todos?</p>
 <p>Por essa razão, propus-me a expor o caminho dos Ensinamentos sob uma nova forma, evitando deliberadamente a complexidade, a fim de que possam ser compreendidos por qualquer pessoa.</p>
 <p>Ademais, tenho a intenção de, gradualmente, apresentar novas interpretações que abrangerão campos como a política, a economia, a educação e as artes, todos sob a ótica da fé.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教と分派 『信仰雑話』P.36、昭和23(1948)年9月5日発行 宗教には種々の派がある。<br/><br/>例えばキリスト教においてもカトリック、プロテスタント等をおもなるものとし、新旧種々の派がある。<br/><br/>仏教においても、日本だけでさえ真宗、浄土、天台、真言、禅、日蓮等をおもなるものとし、その一派が各派に分かれており、現在五十八派に分かれている。<br/><br/>神道においても、神社神道を別とし、教派神道においては大社、御嶽、扶桑、禊、天理、金光等を主なるものとし、十三派あるにみても明らかである。<br/><br/> 以上のように、何派にも分離するという事は理屈に合わないと思うが、私はこう観るのである。<br/><br/>すなわち、その原因は教典にあるのではないか、というのは、聖書にしても仏典にしても、甚だ矛盾難解な点が多く、その解釈に当たっては人によりまちまちの見解に分かれるので、勢い種々の分派ができたのであろう。<br/><br/>もっとも教派神道はキリスト教、仏教のごとく大教祖がなく、古事記、日本書紀等の古典を基本としたり、神憑り的教義や、教祖の教え等によってな成ったものである。<br/><br/>以上のごとく、根本は同じ宗教でありながら、各派に分離する結果、ともすれば争いなどを生じ勝ちになるので、宗教本来の使命たる人類愛的教化に悪影響を及ぼす事はもちろんで、遺憾の至りである。<br/><br/>全くその原因が前述のごとく教典の難解なるがためである事は議論の余地はない。<br/><br/>もっとも難解であるところに、かえって有難味があるという理屈も成り立たない事もないが、あまねく人類を救うべき意味から言えば、万人の最も理解しやすくするのが、本当ではないかと思うのである。<br/><br/> 以上のごとくであるから、私はできるだけ難解をさけ何人にも理解出来得るよう、新しい形式のもとに教えの道を説かんとするのである。<br/><br/> なお私は漸次政治、経済、教育、芸術等の方面にわたっても、宗教を通じての新解釈を発表するつもりである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

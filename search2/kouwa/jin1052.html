@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jin1052</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人事篇 第一篇 ４ 052-064 離別 052 離婚の可否論 神代時代は男女間の愛情の表現は楽だったようですし、また古代人は幾人もの異性を愛し得たと聞いておりますが、現在民主主義の時代においても、「愛し得ない夫婦は離婚しても良い」との神様の御許しは頂けませんでしょうか。<br><br> これは虫が良過ぎる。<br><br>人間の愛情というものはそんな簡単なものでない。<br><br>離婚したらいいと思うが神が結んだんで、人間がどうする事も出来ぬ。<br><br>ただこういう事はある。<br><br>夫婦で妻が向上して、その距離が多くなる場合、ある程度の距離を過ぎると同棲出来ぬ事となる。<br><br>霊的に向上する事が一番幸福になる道である。<br><br> 053 離別と霊層界 夫婦の生別れ及び子供があり離籍の場合、霊層界にあると言われている人間の籍はいかなる関係になるでしょうか。<br><br>御教示下さい。<br><br> 別れようが別れまいが、霊層界に関係はない。<br><br>その人の霊的状態によって変る―善悪の行為で変る。<br><br>（S *. 7. 8） 054 妻と同居を苦しむ（生霊・死霊） 昨年の十二月七日に結婚致し、一週間後より主人が昼夜眠られず、時々一時間位は眠れるのですが本人は何事においても他人の妻のような気がして本妻の気がせず、一緒にいないと夜良く眠られるのです。<br><br>本人はそのまま一緒にいたら神経衰弱になりそうだと言います。<br><br>早く分かれた方がよいでしょうか。<br><br>また妻に何か霊的関係があるでしょうか。<br><br> 生霊である。<br><br>心当りがある筈だ。<br><br>信仰に入れば生霊は憑けなくなる。<br><br>嫉妬で憑いている。<br><br> 右延髄塊のため、脳へゆく血管が圧迫される。<br><br>前頭部と後延髄の浄霊を受ける。<br><br>祝詞奏げるといい。<br><br>希望せざればやめよ。<br><br> 異例もある。<br><br>例えばその家の母が、生前非常に可愛がり、それが嫁にとられたのを嫌うための場合もある。<br><br>（S24. 2.20） 055 愛なき再婚離別すべきか 連れ子をして再婚した者ですが、夫に愛情がなく観音様の道も理解してくれません。<br><br>離婚した方がよいか迷っております。<br><br>お指導願います。<br><br> お指図は出来ない。<br><br>これは観音様にお任せしておくのが一番いい。<br><br>決して無理をしたり、荒立てたりしてはいけない。<br><br>観音様にお任せし時を待っていれば必ずうまく解決する。<br><br>罪穢相応に苦しむのである。<br><br>人間は霊層界に籍があるが、夫婦のうち一方が磨けて向上し、余り両者の位置が離れると、どうしても生別れ、死別れる事になる。<br><br> 右の理によって、どちらかが磨けた方へ接近しなければ、共白髪まで添い遂げる事は出来ない。<br><br> 056 有妾夫との離別 主人の外の女に男の子供が出来、そのため非常にいづらい事ばかりです。<br><br>主人と離別したらよいか、そのままおったのがよいでしょうか。<br><br> 信仰雑話の「夫婦の道」を読ませるようにするといい。<br><br>ただ読みなさいというのではいけないから、主人の部屋に置いておく。<br><br>そして後は神様にお任せする。<br><br>夫婦は霊層界の地位があまり変らないから、主人の事を考えないで自分が徳を積むと、地位が離れてくるから段々一緒に住めないようになる。<br><br>自然が本当である。<br><br>（S23.11.27） 057 不誠意の夫（運命を作るもの） 私は一年前より肺浸潤を患い、昨年十月腹膜炎を併発し、二月末より重態となり絶対安静を申し渡されました。<br><br>病気以後より霊友会会員でありましたので、信仰に縋りあるいは医者に罹ったりしましたが一向良くなりませんでした。<br><br> 本年四月初めある人の勧めで観音様に御縋りし三日間で起きられるようになりました。<br><br>御霊徳偉大なる御利益に驚喜、本日御礼参りに伺いました。<br><br>現在母（七十二才）と私がお光を戴き本日は光明如来様を戴くよう御願い致しました。<br><br>家庭にはなお父（八十才）と子供（六才）がおります。<br><br>一家がこんなに救われて喜んでおりますのになお悩みは私の夫です。<br><br> 夫は（旧姓、木内博）私の病気中に、とても全快の見込もなくまた今後親を養う事は出来ないと言って実家に帰って仕舞いました。<br><br>（籍はまだそのままです）送金もしてくれません。<br><br>主人はどこへ行っても仕事に余り熱意ないように見受けられます。<br><br>今後主人と一緒にいる事はどうかと日夜考えさせられます。<br><br>どう致したらよろしいでしょうか。<br><br>御教え下さい。<br><br> 光明如来様にお任せする。<br><br>根本はその人の霊的状態に因るのであり、妻君の曇に因る。<br><br> 一緒になって仕合せなら一緒になるし、不幸なら別れる事になる。<br><br> 夫婦は霊的にいうと大して違いない。<br><br>一方の霊層界が向上すると、それがウンと離れる場合生別れか死別れする。<br><br>一生懸命信仰すると別れない。<br><br>故に霊的に離れると別れ、同じ位の地位のものがまた一緒になる。<br><br>すべて自分自身にある。<br><br> 自分の運命を作るものは、その人の徳に因る。<br><br>考えれば簡単だが、ただ出来難い。<br><br> 善い事をするようになると、神様の守護が加わる。<br><br>（S24. 5.17） 058 性的満足 夫婦間においてその一方が病質とか不具とかのため性的満足の得られぬ場合、いかに致したら宜しいでしょうか。<br><br>またその場合離婚は差支えないでしょうか。<br><br> これは亭主に罪がある。<br><br>謹んで罪の消えるまで待つのだ。<br><br> 性的には懲役に行ったようなものであるから、刑期のゆるむ迄待つ外ない。<br><br>あまり期待する事はいけない。<br><br> 徹底して話したいが、多勢の場所では具合が悪い。<br><br>私は相当徹底的に説明出来るが、若い人の前で大きな声で言えない。<br><br> 059 妻の精神病別れるべきか 昭和二十年六月より生来無口な妻が精神異常を来し、昨年四月頃より浄霊を受けて、光明如来様のお祀りもして頂き大変良いようになりましたが、昨年暮頃より悪化し残念ながら病院に収容致しました。<br><br>妻の実姉も以前精神異常者でした。<br><br>実父は妻の病気を気にして一昨年鉄道自殺しました。<br><br>左の点御教示お願い致します。<br><br> (一) 妻の病気は今後の浄霊により癒るでしょうか。<br><br> (二) 夫婦の縁を切って再婚しても差支えないでしょうか。<br><br>（六才の子供一人あります） (三) 気狂筋の家だと言われますが原因は何でしょうか。<br><br> (一) 病院へ入っては治らぬ。<br><br>少し我慢して通り越せばズーッと快くなる。<br><br>精神病は一たんよくなりまた悪くなり、それから良くなるものである。<br><br>多く右延髄を浄霊すればよい。<br><br>これが頭脳へ行く血管を圧迫する。<br><br>すると霊が稀薄になるから、狐か狸が憑依して踊らす。<br><br> 前頭部は理性の働きである。<br><br>また延髄の血液が前頭部へ行く。<br><br>であるから、前頭部と両方する。<br><br> (二) どっちともいえない。<br><br>病院へ入れるとすれば縁を切る。<br><br>浄霊するとすれば離縁せぬ方がよい。<br><br> (三) 祟っている霊がある。<br><br>解決しないといけない。<br><br> 060 離籍にまつわる紛糾 私の本家の事で御座いますが、昭和十八年にサイパン島で兄が戦死したため、妻は今年四月自分から実家に帰りました。<br><br>その後一度他家に嫁入りし、また離縁して実家に戻っております。<br><br>その嫁は離籍されておりますが、私の父は家へ戻したいと言いますが母と親戚は反対し、嫁は私の家へ帰る事を望んでおります。<br><br>どういたしたら宜しいでしょうか。<br><br> なお兄には十三才になる養子を貰ってあります。<br><br>因みに私は五月下旬光明如来様を戴き、御霊鎮をする前青大将が口の中へ入った夢を見ました。<br><br>またその後（七月上旬）赤く大きい蛇が手に噛みついたので振り落した夢を見ましたが、いかなる訳でありましょうか。<br><br>また前項の事と関係が御座いますでしょうか。<br><br> その人の感情の問題で、どうする事も出来ぬ。<br><br>ただ焦ってはいけない。<br><br>迷っていて決着のつかぬ場合がある。<br><br>考えのつかぬ事は、そのままにしておく。<br><br>急いではいけない。<br><br>早く極りをつけようとして失敗する。<br><br>焦りのある方が必ず敗ける。<br><br>（S24. 7.26） 061 ダンスの故に離婚を迫る親（ダンスの可否） 一婦人（ダンス教師）と恋愛により結ばれ、両親の了解の上結婚致しました。<br><br>両親の結婚許可の条件として結婚後は「ダンス」を止めると言う約束でありましたが、ある機会に両親との約束を破った事が両親の耳に入り、両親は約束を守らなかったとの理由に結婚解消を迫って、頑として聞入れてくれません。<br><br>私達は飽く迄も離婚致したくありません。<br><br>私は長男でありまして両親の家業（茶・椎茸製造販売業）を継続する義務がありますが、どう致したら良いので御座居ましょうか。<br><br>右御尋ね致します。<br><br> 自分を立てれば親に背く訳だが、ダンスも悪いものではない。<br><br>悪い事に利用するから悪い。<br><br>金銭でも悪い事に使うから悪になる。<br><br>不純な考えでやれば悪い、厄介である。<br><br>本当に正しい気持ならいい。<br><br> 大乗的に本当の事をいうと、これは反対する親が間違っている。<br><br>家業を継いでダンスを止める、これは間違っている。<br><br>本人のやるままにしておく。<br><br>妻が他の男の人を作ろうとしてもそのままにしておく。<br><br>行く所まで行って解決するのがいい。<br><br>やりたい事をやらせ、徹底させる。<br><br>その時に目がさめる方がいい。<br><br>ただ信仰に入れば解決は早い。<br><br>行詰って苦しんで初めて救いを求めるものである。<br><br> 062 不倫無情の夫訴訟すべきや 私は昭和二十一年に両親の反対を押切って結婚、夫は妊娠中他に女が出来、生まれた子供を虐待し正式の届出もしてくれません。<br><br>昨年暮に別れることに致しましたが、子供の認知をしてもらいたいと思いますが、本人にその意志がありません。<br><br>子供の認知と養育費のことにつき家事裁判所へ願い出るよう親戚ですすめますが、どうしたらよろしいでしょうか。<br><br> これはどっちとも言えぬ。<br><br>臨機応変である。<br><br>この人が苦しむ事となるが、これはすべて自分に罪穢があるのでその浄化作用である。<br><br>行者など汚をとるため人為的浄化をする。<br><br>それが難行苦業である。<br><br>人事相談所へ願っても構わぬが、根本は自分の罪の浄化であるから、出来るだけ善徳を積んで浄めるようすべきである。<br><br>しかし先方が極悪人なら裁判してもよいが、悪人を何でもかんでも征服すると仇することもあるから考えなくてはならぬ。<br><br>いずれはそれが形に表われて来るかもしれない。<br><br>悪人は神のさばきで自然に滅ぶ。<br><br> 063 離婚に付て 異性の双生児（両性共健在）で本年三十九才の女子、昨年三人目の後妻として嫁ぎましたが、婚家との折合悪く、毎日不快な日を送っています。<br><br>本年八月入信致しまして本人は観音様にお縋りして、何とか神様の御用をしたいと以前より一層婚家を嫌います。<br><br>婚家の方では三人目の妻で、今度離縁すれば後へ来てくれる者がないと言う気持か、不満ながら離縁もしません。<br><br>本人は「離縁して欲しい、何とかその家を出たい」と申します。<br><br>入信を導いた者として、いかに致せば円満で御座いますでしょうか。<br><br>御教示御願い申し上げます。<br><br> 無理はいけない。<br><br>時を待てば、神様が無理なく離れるようにして下さる。<br><br>（S24. 9.18） 064 肺故に離婚（医学の罪） 一、一昨年四月結婚致しました。<br><br>良人は結婚後一ケ月半で肺結核となり入院致しました。<br><br>良人入院後は種々の事情によって、離婚致しまして今日に至っております。<br><br>私は本年六月三十日入信させて頂きました。<br><br>今後は人々を救わせて頂き、万分の一なりとも御用させて頂く積りで誓っております。<br><br>離婚致しました神への罪は完全に払拭され得るもので御座居ましょうか。<br><br> 二、またいかにすればよろしゅう御座いますか。<br><br>御教示下さいませ。<br><br> 本当は離婚すべきではないが、無理もない点がある。<br><br>肺病は伝染すると思わせた医学に罪がある。<br><br>（S24. 8.18）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de Escritos do Mestre Okada Jikanshi – A Separação</h2>
 <h3>052 Debate sobre a Permissibilidade do Divórcio</h3>
@@ -152,5 +304,48 @@ function toggleLang(lang) {
 1. Casei-me em abril do ano retrasado. Um mês e meio após o casamento, meu marido foi diagnosticado com tuberculose e internado. Após sua hospitalização, por diversas circunstâncias, acabei me divorciando e assim permaneço até hoje. Ingressei na fé em 30 de junho deste ano. De agora em diante, juro me dedicar a salvar as pessoas e a servir, ainda que minimamente, na Obra Divina. O pecado que cometi contra Deus ao me divorciar poderá ser completamente purificado?
 2. Como devo proceder para isso? Por favor, ensine-me.</p>
 <p><strong>Resposta:</strong> Na verdade, o divórcio não deveria ter ocorrido, mas há aspectos compreensíveis na situação. A culpa recai sobre a medicina, que difundiu a crença de que a tuberculose é contagiosa. (S24. 8.18)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人事篇 第一篇 ４ 052-064 離別 052 離婚の可否論 神代時代は男女間の愛情の表現は楽だったようですし、また古代人は幾人もの異性を愛し得たと聞いておりますが、現在民主主義の時代においても、「愛し得ない夫婦は離婚しても良い」との神様の御許しは頂けませんでしょうか。<br/><br/> これは虫が良過ぎる。<br/><br/>人間の愛情というものはそんな簡単なものでない。<br/><br/>離婚したらいいと思うが神が結んだんで、人間がどうする事も出来ぬ。<br/><br/>ただこういう事はある。<br/><br/>夫婦で妻が向上して、その距離が多くなる場合、ある程度の距離を過ぎると同棲出来ぬ事となる。<br/><br/>霊的に向上する事が一番幸福になる道である。<br/><br/> 053 離別と霊層界 夫婦の生別れ及び子供があり離籍の場合、霊層界にあると言われている人間の籍はいかなる関係になるでしょうか。<br/><br/>御教示下さい。<br/><br/> 別れようが別れまいが、霊層界に関係はない。<br/><br/>その人の霊的状態によって変る―善悪の行為で変る。<br/><br/>（S *. 7. 8） 054 妻と同居を苦しむ（生霊・死霊） 昨年の十二月七日に結婚致し、一週間後より主人が昼夜眠られず、時々一時間位は眠れるのですが本人は何事においても他人の妻のような気がして本妻の気がせず、一緒にいないと夜良く眠られるのです。<br/><br/>本人はそのまま一緒にいたら神経衰弱になりそうだと言います。<br/><br/>早く分かれた方がよいでしょうか。<br/><br/>また妻に何か霊的関係があるでしょうか。<br/><br/> 生霊である。<br/><br/>心当りがある筈だ。<br/><br/>信仰に入れば生霊は憑けなくなる。<br/><br/>嫉妬で憑いている。<br/><br/> 右延髄塊のため、脳へゆく血管が圧迫される。<br/><br/>前頭部と後延髄の浄霊を受ける。<br/><br/>祝詞奏げるといい。<br/><br/>希望せざればやめよ。<br/><br/> 異例もある。<br/><br/>例えばその家の母が、生前非常に可愛がり、それが嫁にとられたのを嫌うための場合もある。<br/><br/>（S24. 2.20） 055 愛なき再婚離別すべきか 連れ子をして再婚した者ですが、夫に愛情がなく観音様の道も理解してくれません。<br/><br/>離婚した方がよいか迷っております。<br/><br/>お指導願います。<br/><br/> お指図は出来ない。<br/><br/>これは観音様にお任せしておくのが一番いい。<br/><br/>決して無理をしたり、荒立てたりしてはいけない。<br/><br/>観音様にお任せし時を待っていれば必ずうまく解決する。<br/><br/>罪穢相応に苦しむのである。<br/><br/>人間は霊層界に籍があるが、夫婦のうち一方が磨けて向上し、余り両者の位置が離れると、どうしても生別れ、死別れる事になる。<br/><br/> 右の理によって、どちらかが磨けた方へ接近しなければ、共白髪まで添い遂げる事は出来ない。<br/><br/> 056 有妾夫との離別 主人の外の女に男の子供が出来、そのため非常にいづらい事ばかりです。<br/><br/>主人と離別したらよいか、そのままおったのがよいでしょうか。<br/><br/> 信仰雑話の「夫婦の道」を読ませるようにするといい。<br/><br/>ただ読みなさいというのではいけないから、主人の部屋に置いておく。<br/><br/>そして後は神様にお任せする。<br/><br/>夫婦は霊層界の地位があまり変らないから、主人の事を考えないで自分が徳を積むと、地位が離れてくるから段々一緒に住めないようになる。<br/><br/>自然が本当である。<br/><br/>（S23.11.27） 057 不誠意の夫（運命を作るもの） 私は一年前より肺浸潤を患い、昨年十月腹膜炎を併発し、二月末より重態となり絶対安静を申し渡されました。<br/><br/>病気以後より霊友会会員でありましたので、信仰に縋りあるいは医者に罹ったりしましたが一向良くなりませんでした。<br/><br/> 本年四月初めある人の勧めで観音様に御縋りし三日間で起きられるようになりました。<br/><br/>御霊徳偉大なる御利益に驚喜、本日御礼参りに伺いました。<br/><br/>現在母（七十二才）と私がお光を戴き本日は光明如来様を戴くよう御願い致しました。<br/><br/>家庭にはなお父（八十才）と子供（六才）がおります。<br/><br/>一家がこんなに救われて喜んでおりますのになお悩みは私の夫です。<br/><br/> 夫は（旧姓、木内博）私の病気中に、とても全快の見込もなくまた今後親を養う事は出来ないと言って実家に帰って仕舞いました。<br/><br/>（籍はまだそのままです）送金もしてくれません。<br/><br/>主人はどこへ行っても仕事に余り熱意ないように見受けられます。<br/><br/>今後主人と一緒にいる事はどうかと日夜考えさせられます。<br/><br/>どう致したらよろしいでしょうか。<br/><br/>御教え下さい。<br/><br/> 光明如来様にお任せする。<br/><br/>根本はその人の霊的状態に因るのであり、妻君の曇に因る。<br/><br/> 一緒になって仕合せなら一緒になるし、不幸なら別れる事になる。<br/><br/> 夫婦は霊的にいうと大して違いない。<br/><br/>一方の霊層界が向上すると、それがウンと離れる場合生別れか死別れする。<br/><br/>一生懸命信仰すると別れない。<br/><br/>故に霊的に離れると別れ、同じ位の地位のものがまた一緒になる。<br/><br/>すべて自分自身にある。<br/><br/> 自分の運命を作るものは、その人の徳に因る。<br/><br/>考えれば簡単だが、ただ出来難い。<br/><br/> 善い事をするようになると、神様の守護が加わる。<br/><br/>（S24. 5.17） 058 性的満足 夫婦間においてその一方が病質とか不具とかのため性的満足の得られぬ場合、いかに致したら宜しいでしょうか。<br/><br/>またその場合離婚は差支えないでしょうか。<br/><br/> これは亭主に罪がある。<br/><br/>謹んで罪の消えるまで待つのだ。<br/><br/> 性的には懲役に行ったようなものであるから、刑期のゆるむ迄待つ外ない。<br/><br/>あまり期待する事はいけない。<br/><br/> 徹底して話したいが、多勢の場所では具合が悪い。<br/><br/>私は相当徹底的に説明出来るが、若い人の前で大きな声で言えない。<br/><br/> 059 妻の精神病別れるべきか 昭和二十年六月より生来無口な妻が精神異常を来し、昨年四月頃より浄霊を受けて、光明如来様のお祀りもして頂き大変良いようになりましたが、昨年暮頃より悪化し残念ながら病院に収容致しました。<br/><br/>妻の実姉も以前精神異常者でした。<br/><br/>実父は妻の病気を気にして一昨年鉄道自殺しました。<br/><br/>左の点御教示お願い致します。<br/><br/> (一) 妻の病気は今後の浄霊により癒るでしょうか。<br/><br/> (二) 夫婦の縁を切って再婚しても差支えないでしょうか。<br/><br/>（六才の子供一人あります） (三) 気狂筋の家だと言われますが原因は何でしょうか。<br/><br/> (一) 病院へ入っては治らぬ。<br/><br/>少し我慢して通り越せばズーッと快くなる。<br/><br/>精神病は一たんよくなりまた悪くなり、それから良くなるものである。<br/><br/>多く右延髄を浄霊すればよい。<br/><br/>これが頭脳へ行く血管を圧迫する。<br/><br/>すると霊が稀薄になるから、狐か狸が憑依して踊らす。<br/><br/> 前頭部は理性の働きである。<br/><br/>また延髄の血液が前頭部へ行く。<br/><br/>であるから、前頭部と両方する。<br/><br/> (二) どっちともいえない。<br/><br/>病院へ入れるとすれば縁を切る。<br/><br/>浄霊するとすれば離縁せぬ方がよい。<br/><br/> (三) 祟っている霊がある。<br/><br/>解決しないといけない。<br/><br/> 060 離籍にまつわる紛糾 私の本家の事で御座いますが、昭和十八年にサイパン島で兄が戦死したため、妻は今年四月自分から実家に帰りました。<br/><br/>その後一度他家に嫁入りし、また離縁して実家に戻っております。<br/><br/>その嫁は離籍されておりますが、私の父は家へ戻したいと言いますが母と親戚は反対し、嫁は私の家へ帰る事を望んでおります。<br/><br/>どういたしたら宜しいでしょうか。<br/><br/> なお兄には十三才になる養子を貰ってあります。<br/><br/>因みに私は五月下旬光明如来様を戴き、御霊鎮をする前青大将が口の中へ入った夢を見ました。<br/><br/>またその後（七月上旬）赤く大きい蛇が手に噛みついたので振り落した夢を見ましたが、いかなる訳でありましょうか。<br/><br/>また前項の事と関係が御座いますでしょうか。<br/><br/> その人の感情の問題で、どうする事も出来ぬ。<br/><br/>ただ焦ってはいけない。<br/><br/>迷っていて決着のつかぬ場合がある。<br/><br/>考えのつかぬ事は、そのままにしておく。<br/><br/>急いではいけない。<br/><br/>早く極りをつけようとして失敗する。<br/><br/>焦りのある方が必ず敗ける。<br/><br/>（S24. 7.26） 061 ダンスの故に離婚を迫る親（ダンスの可否） 一婦人（ダンス教師）と恋愛により結ばれ、両親の了解の上結婚致しました。<br/><br/>両親の結婚許可の条件として結婚後は「ダンス」を止めると言う約束でありましたが、ある機会に両親との約束を破った事が両親の耳に入り、両親は約束を守らなかったとの理由に結婚解消を迫って、頑として聞入れてくれません。<br/><br/>私達は飽く迄も離婚致したくありません。<br/><br/>私は長男でありまして両親の家業（茶・椎茸製造販売業）を継続する義務がありますが、どう致したら良いので御座居ましょうか。<br/><br/>右御尋ね致します。<br/><br/> 自分を立てれば親に背く訳だが、ダンスも悪いものではない。<br/><br/>悪い事に利用するから悪い。<br/><br/>金銭でも悪い事に使うから悪になる。<br/><br/>不純な考えでやれば悪い、厄介である。<br/><br/>本当に正しい気持ならいい。<br/><br/> 大乗的に本当の事をいうと、これは反対する親が間違っている。<br/><br/>家業を継いでダンスを止める、これは間違っている。<br/><br/>本人のやるままにしておく。<br/><br/>妻が他の男の人を作ろうとしてもそのままにしておく。<br/><br/>行く所まで行って解決するのがいい。<br/><br/>やりたい事をやらせ、徹底させる。<br/><br/>その時に目がさめる方がいい。<br/><br/>ただ信仰に入れば解決は早い。<br/><br/>行詰って苦しんで初めて救いを求めるものである。<br/><br/> 062 不倫無情の夫訴訟すべきや 私は昭和二十一年に両親の反対を押切って結婚、夫は妊娠中他に女が出来、生まれた子供を虐待し正式の届出もしてくれません。<br/><br/>昨年暮に別れることに致しましたが、子供の認知をしてもらいたいと思いますが、本人にその意志がありません。<br/><br/>子供の認知と養育費のことにつき家事裁判所へ願い出るよう親戚ですすめますが、どうしたらよろしいでしょうか。<br/><br/> これはどっちとも言えぬ。<br/><br/>臨機応変である。<br/><br/>この人が苦しむ事となるが、これはすべて自分に罪穢があるのでその浄化作用である。<br/><br/>行者など汚をとるため人為的浄化をする。<br/><br/>それが難行苦業である。<br/><br/>人事相談所へ願っても構わぬが、根本は自分の罪の浄化であるから、出来るだけ善徳を積んで浄めるようすべきである。<br/><br/>しかし先方が極悪人なら裁判してもよいが、悪人を何でもかんでも征服すると仇することもあるから考えなくてはならぬ。<br/><br/>いずれはそれが形に表われて来るかもしれない。<br/><br/>悪人は神のさばきで自然に滅ぶ。<br/><br/> 063 離婚に付て 異性の双生児（両性共健在）で本年三十九才の女子、昨年三人目の後妻として嫁ぎましたが、婚家との折合悪く、毎日不快な日を送っています。<br/><br/>本年八月入信致しまして本人は観音様にお縋りして、何とか神様の御用をしたいと以前より一層婚家を嫌います。<br/><br/>婚家の方では三人目の妻で、今度離縁すれば後へ来てくれる者がないと言う気持か、不満ながら離縁もしません。<br/><br/>本人は「離縁して欲しい、何とかその家を出たい」と申します。<br/><br/>入信を導いた者として、いかに致せば円満で御座いますでしょうか。<br/><br/>御教示御願い申し上げます。<br/><br/> 無理はいけない。<br/><br/>時を待てば、神様が無理なく離れるようにして下さる。<br/><br/>（S24. 9.18） 064 肺故に離婚（医学の罪） 一、一昨年四月結婚致しました。<br/><br/>良人は結婚後一ケ月半で肺結核となり入院致しました。<br/><br/>良人入院後は種々の事情によって、離婚致しまして今日に至っております。<br/><br/>私は本年六月三十日入信させて頂きました。<br/><br/>今後は人々を救わせて頂き、万分の一なりとも御用させて頂く積りで誓っております。<br/><br/>離婚致しました神への罪は完全に払拭され得るもので御座居ましょうか。<br/><br/> 二、またいかにすればよろしゅう御座いますか。<br/><br/>御教示下さいませ。<br/><br/> 本当は離婚すべきではないが、無理もない点がある。<br/><br/>肺病は伝染すると思わせた医学に罪がある。<br/><br/>（S24. 8.18）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

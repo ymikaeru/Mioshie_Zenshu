@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kabuka</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 株価値下りの原因とその前途 『救世』48号、昭和25(1950)年2月4日発行 最近の株価は、一頃からみると、普通半分から三分の一、ひどいのになると十分の一以下になったものもある、これがため、大損をした者数知れずという訳で、実に同情に堪えないものがある、中には気狂いになったり、自殺する者さえあるというのだから、全く気の毒を通り越して悲惨事である、一頃、株式の民衆化等といって新聞にラジオに盛んに宣伝しておきながら、今の有様に対しては言訳の仕様もあるまい、今更、責任がどうのこうのいったところで後の祭りで、当局者もこんなに下るとは想像していなかったからで、とがめる訳にもゆかないであろう。<br><br> ところが、この暴落は、私にはよく判っていたので、随分警告を与えたものである、昨春から夏頃へかけてよく質問されたもので、物価や株式の前途についてどういう方針をとるのがいいかという事で、その都度私は今に何でも彼んでも下るから、今の内極力売れといったものである、私は年末までに株は何分の一くらいになると言ったのであるが、幸か不幸か今日のごとく、まず的中したという訳である、それでは右の予言は神示かというとそうでもなかった、むしろ常識から割出したという方が本当である、というのは諸物価の値上りは、全く戦争のためであるから、戦争が終れば元通りに下るのは至極当り前である、上るから下る、下るから上るというブランコみたいなもので、相場師がよくいう言葉に「山高ければ、谷深し」というが、全くその通りである、ただ上る時より下る時の方がスーッと速いのは致し方ない、ちょうどニュートンの引力説のごとく、物を持上る時間より落す方が早いのと同様である。<br><br> ここで一つ株式虎の巻というようなものをかいてみるが、そもそも、株式の本質は何であるかというと、大事業を営むには大資本を要するから、多勢で金を出し合わなければ出来ない、といって一人で大資本を出せるものがあるとしても、独占的になるから面白くない、という訳で、終戦前の財閥なども、一人で出せる力があっても遠慮して、株式組織にしたものである、ところが今日は独占禁止法などもあるから、なおさら困難で、どうしても大衆本位にしなければならないのである、以上が正当なやり方で、もちろん株金に対する利益配当を得るのが目的で、銀行預金や公債などより割がいいと増資や値上り等の楽しみもあり、また経済振興上貯金の幾分かを投資に当てるのは、国民の義務と言ってもいいからである。<br><br> 従って、以上のごとく配当を目的とする投資ならば正当であり、何にも問題はないから損をするような事はほとんどないといってもいい、ところが、配当だけでは面白くないから、どうしても値段の上り下りを狙って差金を得ようとする、これがいわゆる相場であるから、根本的に間違っている、およそ何事も正しいやり方なら決して損はしないもので、損をするのは間違ったやり方をするからである、つまり悪銭身に着かずで、一時は儲かってもいつか必ず損をするものである、何よりの証拠は、相場で儲けたものは、成金でも株式の商売人でも二代も三代も続いたものは一人もないので、必ず没落する、事実はその道の者はよく知っているはずである。<br><br> ところが昨年株の景気のいい時に買った人達はテンデ配当などは考えてもみない、ただ上れば幾ら儲かるという、差金目当てのものばかりであって、全然株の知識のないサラリーマンや未亡人、若干の貯えのあるもの等の素人が無茶苦茶に買いついたのであるから、私は実に危険どころか恐ろしいとさえ思ったのである、何となれば、当時の値段で相当の配当をしたところで、年一分にも当らないというのが随分あったから、配当目宛ての真似〔面〕目な投資家は手を出すはずがないからである、という事は一朝下げ相場になると群衆は到底気が持てないから、投げ出すに決っている、投げは投げを生み、下げ足を速くするからアッという間にみらるる通りの下値になってしまったのである、ここで注意すべきは、昔なら底値になった場合、資本家が買出動するから、下値は喰い止め得るが、今日はそういう大手筋はなくなった以上、相場は底知れずで恢復には相当長い期間を要すると見なければならないであろう。<br><br> 元来、株式などは、よほど金の余裕が出来てからもつべきもので、そうすればどんな値下りがあってもビクともする訳がない、ところが大抵な人は力もないのに大きくやりたがる、これが失敗の元なのだ、というのは株を買う時は騰（あが）る事ばかり考えて下る事は考えない、それがいけないのだ、もっとも株に限らず何事を計画するにも成功する事よりも失敗の場合を考えるべきである、つまり失敗したらどうするかという対策をあらかじめ決めておく、それについて以前こういう事を聞いた事がある、人間は商売でも何んでもそれと心中をしてはいけない、いつでも放〔離〕れる事の出来るようにしてやる、そうすれば決して失敗する事はないので、実に味がある言葉と思ったのである。<br><br> 私は、昨年霊的にみた相場の事をかいたから、こんどは体的にみた相場をかいたのがこの文章である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>As Causas do Colapso Acionário e Suas Perspectivas Futuras</h2>
 <p>Os preços recentes das ações despencaram para a metade ou um terço de seu valor anterior, havendo casos extremos em que foram reduzidos a menos de um décimo. Em consequência, o número de pessoas que sofreram perdas vultosas é incalculável, uma situação que inspira profunda compaixão. Relata-se que alguns indivíduos chegaram à loucura ou mesmo ao suicídio, o que transcende o infortúnio e se configura como uma autêntica tragédia. Em outros tempos, promoveu-se efusivamente nos jornais e no rádio a chamada “democratização do mercado de ações”; diante do cenário atual, contudo, qualquer justificativa se torna insustentável. A essa altura, discutir responsabilidades é inócuo. As próprias autoridades não previram um declínio tão acentuado, de modo que não seria justo recriminá-las.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Contudo, os que adquiriram ações no ano passado, durante a fase de euforia do mercado, sequer cogitavam os dividendos. Estavam interessados unicamente na margem de lucro que a valorização dos papéis poderia lhes render. Tratava-se, em sua maioria, de amadores sem qualquer conhecimento do mercado — assalariados, viúvas e pessoas com pequenas economias — que compraram de forma indiscriminada. Naquela época, considerei tal movimento não apenas perigoso, mas verdadeiramente aterrador. A razão é simples: aos preços de então, mesmo um dividendo considerável não representaria, em muitos casos, um retorno anual sequer de um por cento. Por isso, um investidor sério, focado nos dividendos, jamais se envolveria. Isso significa que, tão logo o mercado iniciasse um movimento de baixa, as massas não suportariam a pressão e se desfariam de seus ativos. Uma onda de vendas gera outra, acelerando a queda, e, num piscar de olhos, os preços atingiram os baixos patamares atuais. É preciso atentar para um ponto crucial: antigamente, quando os preços atingiam o fundo do poço, os grandes capitalistas entravam no mercado comprando, o que continha o declínio. Hoje, porém, esses grandes investidores desapareceram. Consequentemente, o mercado parece não ter um piso definido, e deve-se prever que a recuperação exigirá um período consideravelmente longo.</p>
 <p>Originalmente, as ações são um tipo de ativo que só se deveria possuir quando se dispõe de um capital excedente considerável. Dessa forma, por maior que seja a desvalorização, o investidor não se abala. A maioria das pessoas, no entanto, deseja operar em grande escala sem ter os recursos para tanto, e aí reside a raiz do fracasso. Ao comprar uma ação, pensam apenas na possibilidade de alta, jamais na de baixa. Eis o erro. Na verdade, não apenas no mercado de ações, mas em qualquer projeto, deve-se ponderar mais sobre a hipótese do fracasso do que sobre a do sucesso. É fundamental ter um plano de contingência previamente estabelecido. A esse respeito, recordo-me de algo que ouvi certa vez: seja nos negócios ou em qualquer outra atividade, não se deve “casar” com o empreendimento. É preciso manter-se sempre em condições de poder se desvincular a qualquer momento. Agindo assim, o fracasso se torna impossível. Pensei, na ocasião, que eram palavras de profunda sabedoria.</p>
 <p>No ano passado, escrevi sobre o mercado de ações sob uma perspectiva espiritual. Desta vez, abordei o tema sob a ótica material.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 株価値下りの原因とその前途 『救世』48号、昭和25(1950)年2月4日発行 最近の株価は、一頃からみると、普通半分から三分の一、ひどいのになると十分の一以下になったものもある、これがため、大損をした者数知れずという訳で、実に同情に堪えないものがある、中には気狂いになったり、自殺する者さえあるというのだから、全く気の毒を通り越して悲惨事である、一頃、株式の民衆化等といって新聞にラジオに盛んに宣伝しておきながら、今の有様に対しては言訳の仕様もあるまい、今更、責任がどうのこうのいったところで後の祭りで、当局者もこんなに下るとは想像していなかったからで、とがめる訳にもゆかないであろう。<br/><br/> ところが、この暴落は、私にはよく判っていたので、随分警告を与えたものである、昨春から夏頃へかけてよく質問されたもので、物価や株式の前途についてどういう方針をとるのがいいかという事で、その都度私は今に何でも彼んでも下るから、今の内極力売れといったものである、私は年末までに株は何分の一くらいになると言ったのであるが、幸か不幸か今日のごとく、まず的中したという訳である、それでは右の予言は神示かというとそうでもなかった、むしろ常識から割出したという方が本当である、というのは諸物価の値上りは、全く戦争のためであるから、戦争が終れば元通りに下るのは至極当り前である、上るから下る、下るから上るというブランコみたいなもので、相場師がよくいう言葉に「山高ければ、谷深し」というが、全くその通りである、ただ上る時より下る時の方がスーッと速いのは致し方ない、ちょうどニュートンの引力説のごとく、物を持上る時間より落す方が早いのと同様である。<br/><br/> ここで一つ株式虎の巻というようなものをかいてみるが、そもそも、株式の本質は何であるかというと、大事業を営むには大資本を要するから、多勢で金を出し合わなければ出来ない、といって一人で大資本を出せるものがあるとしても、独占的になるから面白くない、という訳で、終戦前の財閥なども、一人で出せる力があっても遠慮して、株式組織にしたものである、ところが今日は独占禁止法などもあるから、なおさら困難で、どうしても大衆本位にしなければならないのである、以上が正当なやり方で、もちろん株金に対する利益配当を得るのが目的で、銀行預金や公債などより割がいいと増資や値上り等の楽しみもあり、また経済振興上貯金の幾分かを投資に当てるのは、国民の義務と言ってもいいからである。<br/><br/> 従って、以上のごとく配当を目的とする投資ならば正当であり、何にも問題はないから損をするような事はほとんどないといってもいい、ところが、配当だけでは面白くないから、どうしても値段の上り下りを狙って差金を得ようとする、これがいわゆる相場であるから、根本的に間違っている、およそ何事も正しいやり方なら決して損はしないもので、損をするのは間違ったやり方をするからである、つまり悪銭身に着かずで、一時は儲かってもいつか必ず損をするものである、何よりの証拠は、相場で儲けたものは、成金でも株式の商売人でも二代も三代も続いたものは一人もないので、必ず没落する、事実はその道の者はよく知っているはずである。<br/><br/> ところが昨年株の景気のいい時に買った人達はテンデ配当などは考えてもみない、ただ上れば幾ら儲かるという、差金目当てのものばかりであって、全然株の知識のないサラリーマンや未亡人、若干の貯えのあるもの等の素人が無茶苦茶に買いついたのであるから、私は実に危険どころか恐ろしいとさえ思ったのである、何となれば、当時の値段で相当の配当をしたところで、年一分にも当らないというのが随分あったから、配当目宛ての真似〔面〕目な投資家は手を出すはずがないからである、という事は一朝下げ相場になると群衆は到底気が持てないから、投げ出すに決っている、投げは投げを生み、下げ足を速くするからアッという間にみらるる通りの下値になってしまったのである、ここで注意すべきは、昔なら底値になった場合、資本家が買出動するから、下値は喰い止め得るが、今日はそういう大手筋はなくなった以上、相場は底知れずで恢復には相当長い期間を要すると見なければならないであろう。<br/><br/> 元来、株式などは、よほど金の余裕が出来てからもつべきもので、そうすればどんな値下りがあってもビクともする訳がない、ところが大抵な人は力もないのに大きくやりたがる、これが失敗の元なのだ、というのは株を買う時は騰（あが）る事ばかり考えて下る事は考えない、それがいけないのだ、もっとも株に限らず何事を計画するにも成功する事よりも失敗の場合を考えるべきである、つまり失敗したらどうするかという対策をあらかじめ決めておく、それについて以前こういう事を聞いた事がある、人間は商売でも何んでもそれと心中をしてはいけない、いつでも放〔離〕れる事の出来るようにしてやる、そうすれば決して失敗する事はないので、実に味がある言葉と思ったのである。<br/><br/> 私は、昨年霊的にみた相場の事をかいたから、こんどは体的にみた相場をかいたのがこの文章である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

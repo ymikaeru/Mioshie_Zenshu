@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s261108</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年11月8日） 『御教え集』4号、昭和26(1951)年12月15日発行 昭和二十六年十一月八日 これは今度――つい最近松井さん、鈴木さん、アザブ伸さんと鹿島秀月さんと九州地方に宣伝旅行に言った時に、つまり私の原稿が欲しいと言うので、非常に懇願するから、それで書いたものです。<br><br> （御論文「舌に代えて」） 【栄光 一三〇号】 それから、これは「文明の創造」の宗教編の一節ですけれど、今まで善悪について、本当に説いた者はなかったんです。<br><br>もちろん、悪はいけない。<br><br>善でなくてはいけないと言う事は分り切った話ですが、しかし、いけないいけないと言いながら、悪があるんですからね。<br><br>もし、この世の中は神様が造り、神様が経綸しているものなら、悪にも何か意味がなくてはいけない。<br><br>けれども、悪のために人間が、今の今まで人間が悩んできたかは、分り切った話ですが、そうすると、善と悪との関係ですね。<br><br>なぜ悪があったか神様は、善をしろ善をしろと言うし、神は愛だと言いながら、悪人は相変わらずはびこって、いつの時代でも戦争の恐怖は絶えない。<br><br>そう言った事を、根本的に分らなければならない。<br><br>それを分るように書いた文なんです。<br><br> （御論文「善と悪」） 「文明の創造」も大体、医学、宗教は書きあがったんです。<br><br>これから天国編を書こうと思ってますがね。<br><br>天国編は一番興味があるんですがね。<br><br>天国――まあ、五六七の世のあらゆる機構ですね。<br><br>それを書いてある。<br><br>政治、経済、教育、宗教、芸術――基礎になるような事柄の、新しいやり方ですね。<br><br>それを書いてある。<br><br>ただ、それを扱う人間に悪があると、どんなものでも上手くいかない。<br><br>それでまず皆が本当に神を知って、善になれば――なった人ばかりで経営したら、非常に上手くいくような組織を書いてある。<br><br>もう少し経つと、五六七の世の原稿が出来ただけずつ順に読みますから、それを楽しみにしてもらいたい。<br><br> それから、つい二、三日前の、地方の便りですが、こんな事があった。<br><br>今度、秋田県のある村でウンカが非常にわいて困った。<br><br>そこにある人が来て、それは、肥料をやりすぎるんだ。<br><br>肥料をもっと少なくしろと言うので、少なくしたらそれから良くなった。<br><br>その人にお礼の意味で、家を造って、そこに住まわせるという、美談としてあったが、多分その人は、私の書いた本を見て言っただろうと思うが、肥料を減らしただけでも良くなったんだから――全然やらなかったらとは考えないんですね。<br><br>ところが肥料を全然やらないという事は出来ない。<br><br>その点は遺憾ですが、これも肥料の害という事の肥料迷信者が、少しばかり分った訳ですね。<br><br> それでもう一つ、今度の発表で六千六十六万石と言うんですから、平年作より五百万石位は少ないですね。<br><br>しかし、今年は、台風もなかったんですから、いつもより良く穫れなければならない。<br><br>去年でさえ、台風があんなにあっても六千四百万石穫れましたからね。<br><br>そこで考え直さなければならない。<br><br>考え直しているが、良い考えが出て来ない――根本が違うからね。<br><br>「下手の考え休むに似たり」でね。<br><br>そこで、こっちは、今度大々的に肥料の迷信の目醒ましをやりますがね。<br><br>その成績が今月一杯に来るでしょう。<br><br>今年はこっちは、自然栽培の成績は、どこもかも良いです。<br><br>これを材料にして大いに目醒まし運動をやろうと思う。<br><br>ひどい所になると、静岡県の何とかという所は、平年作の四割減で、六割しか穫れない。<br><br>何かというと、虫害――ウンカとイモチ病ですね。<br><br>これを大いに目を醒まさないと、段々減りますよ。<br><br>来年はウンと減りますよ。<br><br>というのは何かというと、霊界が変わってきたからです。<br><br>ちょうど薬で固められなくなるようなもので、肥料の働きが逆になってきますからね。<br><br>これも、今に精しく説きますが、逆になってきますから――肥料の効果は反対になるから、いよいよ出来なくなるという事になって、恐るべきものですね。<br><br>今年でさえ、輸入米三百七十万トンとしても大変なものです。<br><br>金にして千五百億を下らないでしょう。<br><br>そんなような具合ですから、いよいよ――大いにこれを知らせなければならない時期になったんですね。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdade sobre o Bem, o Mal e a Agricultura</h2>
 <p>O texto a que me refiro foi escrito recentemente, por ocasião de uma viagem missionária à região de Kyushu, na qual me acompanharam os senhores Matsui, Suzuki, Azabu Shin e Kashima Shugetsu. Como me solicitaram encarecidamente um manuscrito, rogando-me com grande insistência, acedi ao pedido e o redigi.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Recebi, há apenas dois ou três dias, um relato de uma província que ilustra bem esta questão. Em certa aldeia da província de Akita, a proliferação de pragas, especificamente da espécie unka, estava causando enormes prejuízos. Surgiu então um homem que os orientou, afirmando: “O problema é o excesso de adubo. Reduzam a quantidade utilizada”. Ao seguirem seu conselho, a situação melhorou. Em sinal de gratidão, os aldeões construíram-lhe uma casa para que ali residisse — uma bela história, de fato. Presumo que tal pessoa tenha proferido essas palavras após ter lido meus escritos. É notável que tenham obtido melhora com a simples redução do adubo; contudo, não chegaram a cogitar a possibilidade de eliminá-lo por completo. Infelizmente, ainda não conseguem conceber a agricultura sem fertilizantes, e esse é um ponto que lamento. Mesmo assim, este episódio demonstra que alguns indivíduos, antes iludidos pela superstição do adubo, começam a despertar para o mal que ele causa.</p>
 <p>Passemos a outra questão. O governo anunciou que a colheita deste ano foi de 66,66 milhões de koku, o que representa um decréscimo de aproximadamente cinco milhões de koku em relação a um ano normal. Este resultado é intrigante, pois, diferentemente do ano passado, não fomos assolados por tufões e, portanto, a safra deveria ter sido superior. Recordemos que, mesmo com os tufões do ano anterior, alcançamos 64 milhões de koku. As autoridades estão buscando uma explicação, mas não a encontram, pois partem de uma premissa equivocada. É como diz o provérbio: “O pensamento do inepto é parente do ócio”. Diante disso, daremos início a uma ampla campanha para despertar as pessoas da superstição do adubo. Os resultados que obteremos este mês serão cruciais. Neste ano, o desempenho da Agricultura Natural tem sido excelente em todas as localidades, e utilizaremos esses dados concretos como base para o nosso movimento de conscientização.</p>
 <p>Em casos extremos, como o de certa localidade na província de Shizuoka, a quebra de safra atingiu 40%, com a colheita correspondendo a apenas 60% do usual. A razão? Danos causados por pragas, como a unka e a brusone. Se não promovermos um grande despertar para esta realidade, a produção agrícola diminuirá progressivamente. No próximo ano, a queda será ainda mais acentuada. Isso ocorre porque o Mundo Espiritual está em transição. Assim como os remédios estão perdendo seu poder de “solidificar” as toxinas, a ação dos adubos está se invertendo. Embora eu pretenda detalhar este assunto futuramente, posso adiantar que os efeitos dos fertilizantes se tornarão opostos ao que se espera. Em vez de promoverem o crescimento, eles o impedirão, tornando a agricultura inviável. Trata-se de uma perspectiva verdadeiramente aterradora. Observem que, já neste ano, a importação de 3,7 milhões de toneladas de arroz representa um fardo colossal, com um custo que não será inferior a 150 bilhões de ienes. Essa conjuntura demonstra, inequivocamente, que chegou o momento de proclamarmos esta verdade em larga escala.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年11月8日） 『御教え集』4号、昭和26(1951)年12月15日発行 昭和二十六年十一月八日 これは今度――つい最近松井さん、鈴木さん、アザブ伸さんと鹿島秀月さんと九州地方に宣伝旅行に言った時に、つまり私の原稿が欲しいと言うので、非常に懇願するから、それで書いたものです。<br/><br/> （御論文「舌に代えて」） 【栄光 一三〇号】 それから、これは「文明の創造」の宗教編の一節ですけれど、今まで善悪について、本当に説いた者はなかったんです。<br/><br/>もちろん、悪はいけない。<br/><br/>善でなくてはいけないと言う事は分り切った話ですが、しかし、いけないいけないと言いながら、悪があるんですからね。<br/><br/>もし、この世の中は神様が造り、神様が経綸しているものなら、悪にも何か意味がなくてはいけない。<br/><br/>けれども、悪のために人間が、今の今まで人間が悩んできたかは、分り切った話ですが、そうすると、善と悪との関係ですね。<br/><br/>なぜ悪があったか神様は、善をしろ善をしろと言うし、神は愛だと言いながら、悪人は相変わらずはびこって、いつの時代でも戦争の恐怖は絶えない。<br/><br/>そう言った事を、根本的に分らなければならない。<br/><br/>それを分るように書いた文なんです。<br/><br/> （御論文「善と悪」） 「文明の創造」も大体、医学、宗教は書きあがったんです。<br/><br/>これから天国編を書こうと思ってますがね。<br/><br/>天国編は一番興味があるんですがね。<br/><br/>天国――まあ、五六七の世のあらゆる機構ですね。<br/><br/>それを書いてある。<br/><br/>政治、経済、教育、宗教、芸術――基礎になるような事柄の、新しいやり方ですね。<br/><br/>それを書いてある。<br/><br/>ただ、それを扱う人間に悪があると、どんなものでも上手くいかない。<br/><br/>それでまず皆が本当に神を知って、善になれば――なった人ばかりで経営したら、非常に上手くいくような組織を書いてある。<br/><br/>もう少し経つと、五六七の世の原稿が出来ただけずつ順に読みますから、それを楽しみにしてもらいたい。<br/><br/> それから、つい二、三日前の、地方の便りですが、こんな事があった。<br/><br/>今度、秋田県のある村でウンカが非常にわいて困った。<br/><br/>そこにある人が来て、それは、肥料をやりすぎるんだ。<br/><br/>肥料をもっと少なくしろと言うので、少なくしたらそれから良くなった。<br/><br/>その人にお礼の意味で、家を造って、そこに住まわせるという、美談としてあったが、多分その人は、私の書いた本を見て言っただろうと思うが、肥料を減らしただけでも良くなったんだから――全然やらなかったらとは考えないんですね。<br/><br/>ところが肥料を全然やらないという事は出来ない。<br/><br/>その点は遺憾ですが、これも肥料の害という事の肥料迷信者が、少しばかり分った訳ですね。<br/><br/> それでもう一つ、今度の発表で六千六十六万石と言うんですから、平年作より五百万石位は少ないですね。<br/><br/>しかし、今年は、台風もなかったんですから、いつもより良く穫れなければならない。<br/><br/>去年でさえ、台風があんなにあっても六千四百万石穫れましたからね。<br/><br/>そこで考え直さなければならない。<br/><br/>考え直しているが、良い考えが出て来ない――根本が違うからね。<br/><br/>「下手の考え休むに似たり」でね。<br/><br/>そこで、こっちは、今度大々的に肥料の迷信の目醒ましをやりますがね。<br/><br/>その成績が今月一杯に来るでしょう。<br/><br/>今年はこっちは、自然栽培の成績は、どこもかも良いです。<br/><br/>これを材料にして大いに目醒まし運動をやろうと思う。<br/><br/>ひどい所になると、静岡県の何とかという所は、平年作の四割減で、六割しか穫れない。<br/><br/>何かというと、虫害――ウンカとイモチ病ですね。<br/><br/>これを大いに目を醒まさないと、段々減りますよ。<br/><br/>来年はウンと減りますよ。<br/><br/>というのは何かというと、霊界が変わってきたからです。<br/><br/>ちょうど薬で固められなくなるようなもので、肥料の働きが逆になってきますからね。<br/><br/>これも、今に精しく説きますが、逆になってきますから――肥料の効果は反対になるから、いよいよ出来なくなるという事になって、恐るべきものですね。<br/><br/>今年でさえ、輸入米三百七十万トンとしても大変なものです。<br/><br/>金にして千五百億を下らないでしょう。<br/><br/>そんなような具合ですから、いよいよ――大いにこれを知らせなければならない時期になったんですね。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

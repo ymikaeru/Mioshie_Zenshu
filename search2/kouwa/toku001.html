@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>toku001</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 信仰篇（特輯） １ 001-015 大和魂、完成 001 真の大和魂、（世界魂）、（各国の魂と旧道徳） 本当の大和魂はどういう心でしょうか。<br><br> 今迄本当の大和魂はなかった。<br><br>これから出来る。<br><br>大いに和すると書く。<br><br>それなのに戦争をするがこれは大いに争う魂である。<br><br>やはり各国に魂があり、アメリカにはアメリカ魂、ドイツにはドイツ魂がある。<br><br>今迄の大和魂では危険である。<br><br>これはあまりに――。<br><br> 武士道など、権力者がその地位を維持するために作った。<br><br>親子一世、夫婦二世、主従三世といい、主従は一番関係の深い事にしている。<br><br>君の馬前に死すなどという。<br><br>それは一生食わしてもらっているから当然の理屈はある。<br><br>そこに偉さも何にもない。<br><br>寧ろ仇討などは悪い。<br><br>循環的でしかも仇討のために一生を終る。<br><br>それは殺人の犯罪を犯すために一生を棒にふる訳で、こんな間違った事はない。<br><br>仇討思想をなくさねば平和にならぬ。<br><br>それを最高の道徳のごとく思わされた。<br><br>国でも同様で、そういう事に利用されたのが大和魂で、鼓舞激励させられるために利用された。<br><br> 忠臣蔵や楠木正成、吉田松陰など私は嫌った。<br><br>あまりに馬鹿馬鹿しい。<br><br>楠木などいいが、結果において非常に悪い。<br><br>結果は既に分っている。<br><br>忠義としても智慧の足りない忠義である。<br><br> これからは世界魂でなくてはならぬ。<br><br>今迄は日本の通貨と同じようなものである。<br><br>世界共通でなくては――。<br><br>（S24.10.23） rattail（注） 〔 クルリ瓢箪 （四）松の心 『地上天国』34号、昭和27(1952)年3月25日発行〕 「その頃大井町の越智隆蔵氏宅へもよくお出でになって御講話があったが、その時伺って今でも忘れ得ぬお言葉がある。<br><br>それは「大和魂とは何か」との御質問に対し『大和魂とは松の心である。<br><br>松の心とは時節を待つ心でありいつまでも変らぬ誠である』とズバリお答えになったのを聞いて、私は信仰の真髄を一言で道破されたような深い感銘に打たれた。<br><br>」 002 真の日本精神、（エルサレム不開門の菊花紋） 真の日本精神とは何で御座居ましょうか。<br><br> 今迄あるにはあったがホンの一部である。<br><br>なかったといってもいい。<br><br>大和民族は絶対戦争をせず、武器を持つ事を嫌う。<br><br>私など武器を見るのが嫌いである。<br><br>今、日本人は百人の中十人はない。<br><br>後は支那・朝鮮民族である。<br><br>これらは争いを好む。<br><br>軍人など日本人はいない。<br><br>それを日本精神としたのは大いなる欺瞞である。<br><br>日本へ来た移民が敗戦国にした。<br><br>出雲朝――。<br><br>瓊々杵尊――支那の漢族で、これは私の考察で、断定はせぬが、イスラエル十二種族の中一種族は東方へ行った。<br><br>エルサレムには四方に門があり、一ケ所開かずの門があって、上に十六の菊の紋がある。<br><br>この民族は、前漢の時代に行って、支那においては勢力を張る余地がなく日本へ渡って来たんだと思う。<br><br>古代西洋と同じ武器等あり。<br><br>真の日本精神はこれから出る。<br><br>非常に平和を好み芸術を愛する平和民族である。<br><br>（S24. 4.13） 003 完成という事 完成という事は次に来る衰退を意味する事にはならないので御座居ますか。<br><br> 完成はない。<br><br>未完成なもののみである。<br><br>一時的完成はある。<br><br>時間的のものである。<br><br>（永遠の完成は神様にはあるが人間にはない）人間の作るものに永遠なものはない。<br><br>破壊と創造を繰返す。<br><br>（それによって進歩する） 神様の造ったものは永遠のものである。<br><br> 松の木などのごとき――。<br><br>（S24. 2.23） 004 真の健康者、完全とは 完全なる人間と真の健康者とはどう違うものでございましょうか。<br><br> 違いはない。<br><br>健康といっても肉体だけでない。<br><br>完全人間は、（理屈）健康といっても肉体のみでない、精神も共に健康でなくてはいけない。<br><br>別々にみるから違う。<br><br>強盗などは肉体は強健でも霊は病人となる。<br><br>完全人間には出来ぬが、完全になろうとして一歩々々近づく。<br><br>これが人間として最高のものである。<br><br>それでよい。<br><br>こういう心のある人は間違った事は少ない。<br><br> 完全というものは絶対にない。<br><br>ただ一歩々々近づいていく事で、完全になると進歩はなくなる。<br><br>完全に近づこうとする努力が進歩であり変化で、完全になるとあるいは人類は滅するかもしれない。<br><br>文化の進歩もなくなろう。<br><br> 完全な栄養のみを採るとなると人類は滅する。<br><br>不完全なものをもって完全なものを作るというのが人間の体であるから、完全なもののみを食えば人間は滅する。<br><br>不完全を完全にしようとする――その活動が生命である。<br><br>栄養食などでは、乳が出ぬと乳を飲む。<br><br>であるから、栄養を食えば弱る。<br><br>今はすべて逆をやっている。<br><br>以前、鶏で医学が試験し、完全栄養をやったら二日で死んだ事がある。<br><br>（S23.11. 4） 005 神様が一番お気に入らる道 観音様に一番好かれるにはいかにしたらよろしいでしょうか。<br><br> 一人でも多くの人を救って上げる事で、人間には力がないから、救うべき所へ導くのである。<br><br> 教修を受ける人を多く作る事が一番いい。<br><br>次は多くの人が救われるような事に力を注ぐ。<br><br>そうすれば観音様は一番お好きになるから御褒美を下さるのである。<br><br>観音様の御褒美は大きい。<br><br> 006 お供えの不思議と神様のお喜びになる事 昭和十六年に戴いた光明如来様の御掛軸について御伺い申し上げます。<br><br> 一、赤飯を焚くたびに供えておりましたが、その都度悪い事がありました。<br><br> 二、また、珍しい物を供えるときっと悪い事が起ります。<br><br> 三、観音様に御花を供えると毎晩私等がそれを食べる夢を見ます。<br><br> 四、観音様の腹から白蛇が二匹出た夢を見た時は毎日悪い事が続きました。<br><br>その後、家の改築でお掛軸を御腹（中央）まで巻き上げてお祭りするようにしてからは悪い事が無くなりました。<br><br>また、良い御知らせがあり、その他色々の御知らせもあります。<br><br> 五、観音様にお喜びして戴きたいのですがいかが致したら宜しいでしょうか、御伺い申し上げます。<br><br> 良い事とはいかなる種類のものか。<br><br>良い事のある前にはそういう事がある。<br><br>悪い事があったら報告せよ。<br><br>良い事や悪い事は種々あるが、一歩々々、全体的にみて良くなりつつあればよい。<br><br> 根本的には一人でも多く人を救う事が一番観音様はお喜びになる。<br><br> 言い難いが、観音様の御仕事にお金を差し上げる事もいい。<br><br>（S24. 6. 5） 007 功利的信仰、（陰徳） 功利的な信仰から自己完成を念願する者も、人の救いに対しては善い結果を見るような場合が御座いますが、この者の死後の霊界における状態はどのような事になりますので御座いましょうか。<br><br> 功利的信仰は勿論本当のものではないが、それも結果がよければよい。<br><br> こういう人の信仰は霊界では功績がない。<br><br>功利的は、現界ですでに報いられている。<br><br>陰徳――即ち人に知れない徳こそ霊界では大きいものとなる。<br><br>寄進札など人から褒められ、すでに酬いられるから、霊界では酬わるるところが少ない。<br><br>（S23.10.24） 008 陰徳 徳、または陰徳を積むという意味―― 人のため、世の中のためにする事が徳である。<br><br>これを沢山する事が徳を積む事になる。<br><br> 金を持って慈善をするのも善い事だが、持続性がない。<br><br>死んでからまでの幸せを与える永遠の幸福を与えるものではない。<br><br> 徳を積むと多数の感謝の霊が来て、その人の霊が太る。<br><br>これを神道では恩頼（ふゆ）という。<br><br>魂が太る事である。<br><br> 太る場合、光が多くなる。<br><br>そうして霊層界が上の方になるから幸せになる。<br><br> 陰徳とは、人に知れない善い事をするので、神社仏閣などの掲札は陽徳である。<br><br>人に知れない善い事は、神から御褒美を下さる。<br><br> 人間には表われないと気持が悪い性があるが、陰徳は何倍となく神様から御褒美下さる。<br><br> 009 気弱の解決、魂太らす事―陰徳、御利益戴く道 二十七歳の学生、生来気が弱くて人と交わるのが怖ろしく、十九年十二月受教致しましたが、この性格だけはどうにも手のつけようがありません。<br><br>何とか強くなれないものでしょうか。<br><br> 気の弱いのは魂が薄く弱いので、外部から霊線によっていろんなものが来ると魂がおびえる。<br><br> 陰徳を積み、魂を太らせるとよい。<br><br> 根の張った木は、強風におびえぬようなもので、強く太ければおびえぬ。<br><br>信仰が強くなれば、こういう事はなくなる。<br><br>自分が自分に頼るんでなく、神様を頼る心が強いと、気の弱い事はなくなる。<br><br> 人を助け、感謝を受け、魂を太らせる事である。<br><br> 信仰に入っただけでは何にもならぬ。<br><br>入信をするのは、人を救う方法を教わるので、門へ入っただけである。<br><br>奥座敷へ入らなくてはいけない。<br><br>人を救ってこそ初めて本当の利益がいただける。<br><br> 010 善事の報いの霊的真相、罪の浄化の二様 現世において私達が善事・悪事をなす場合、その報いは現世のみで来るものか、一度霊界の祖先に反映してから現界の私達にその徳・不徳が来るもので御座居ましょうか。<br><br>御伺い致します。<br><br> これはいろいろで、大体神様の方へ知れる。<br><br>次に祖先に命令したり正守護神（大抵は祖先の霊である）へ命令が来る。<br><br>大中小の事柄によって、神様へ行くものと、神様にも段階があって、天然現象を分担される神や人事等をされる神もあり、その人事係へ行って命令の下るのが普通である。<br><br>大体霊界現界の関係は悪い事をすると曇り、濁りが出来る、そして浄める作用が自然に起る事になっている。<br><br>それも神様が起す場合と自然作用で起る場合とある。<br><br>簡単には言えない。<br><br>霊界の事は実に幽玄微妙である。<br><br> 011 神様は罰を当てられぬ、背反すれば御守護を離れる、（脅迫信仰的言い方） 脅迫信仰の一例として左の場合は正しいのでしょうか。<br><br>御伺い申し上げます。<br><br> 「あなたがこの信仰を離れる事はあなたの自由です。<br><br>しかしもし離れたらどんな結果になるか私は知らん。<br><br>それは神様のみ御承知だ。<br><br>まずよく考えるんだね」このの信者は常に先生や先輩に神に背くとこう言う罰をあてられると言う例を聞かされている場合です。<br><br> これは合った点と合わぬ事がある。<br><br> 信仰は自由であるからと言うのはいいが、その結果は少し冷やかな言い方だが間違ってはいない。<br><br>ただブッキラボーである。<br><br> これはちょっと間違っているのは、神様は罰は当てない。<br><br>神様の守護がなくなるから邪神に犯される。<br><br>それが罰を当てられるように見える。<br><br>観音様は慈悲一方で、善悪をお咎めなどなさらぬ。<br><br> 背中を向けると御守護を離れる。<br><br>そのため外の悪い者に犯される。<br><br>故に罰を当てるのは他の悪い方である。<br><br>（S23.10.28） 012 諸神の咎めという事、（浄化作用） 諸神のお咎めにて時々負傷または病気に犯されたことは浄化作用と申すべきか、あるいは浄化作用とは別個の意味でしょうか。<br><br> 諸神のお咎めなど間違っている。<br><br>むしろ自分に憑いている守護神のお咎めが多い。<br><br> 守護神は、祖先の代りであって、子孫が罪を重ねさすといけないので、後そうしないよう咎めるのである。<br><br> こういう事も、信仰が進めば段々なくなる。<br><br>少しずつ沢山の罪を減らす事もやる。<br><br> 013 神の試練、（執着をとれ―失恋） 今迄の時代――夜の時代におきましてもいろいろの人生の苦しみがありましたが、これはただ「夜の世界だから苦しみがあった」という許りでなく、やはり神の人間に対する試練としての苦しみもあったと考えてよろしゅうございましょうか。<br><br>更に「昼の世界」においても人間を向上せしめ、深み、うるおいを作るため神の試練としての苦悩や悲哀も――例えば恋愛における失恋の――苦しみのように何らかの形で存在することと存じられますが、いかがでございましょうか。<br><br>右、御教示御願い申し上げます。<br><br> 神の試練という事は本当はない。<br><br>これは人間の方で理屈をつけたもので、神様が良い物を人間に与えるのに、容物の汚い時は掃除する、その時の苦痛である。<br><br>これを試練というが、実はやはり浄化である。<br><br> 違う。<br><br>失恋の苦しみは自分勝手に苦しんでいる。<br><br>（縊死と同じ事である）執着で苦しむ。<br><br>執着を除ればよい。<br><br>（霊の向上する程、執着は早く除れる。<br><br>私など諦めが早い方である。<br><br>過ぎ去った事はどうする事も出来ぬから、今後気をつければよい） 失恋などは勝手に自分で執着して苦しんでいる事であるから、別に問題にするものでない。<br><br>（S24. 1. 8） 014 真の神様のやり方、コツコツ主義、失敗者のやり方 本当の神様のやり方は非常に順序正しい。<br><br>ジリジリ育つように進む。<br><br> 失敗する人は一遍にパッとする人に多い。<br><br>人の計画など聞くと大仕掛にやる。<br><br> コツコツ主義でなくてはいけない。<br><br>樵など、ゆっくりしている。<br><br> 最初は威勢はいいが、すぐにクタびれてしまう。<br><br>（S24.10.24） 015 遅いもの程よい（共通の真理） 本年一反の同じ畑に麦種を三人で蒔きました。<br><br>教修を古く受けた人、最近受けた人及び受けてない人の三人です。<br><br>教修を受けない人の方が芽の出が一番早く、最近受けた人のが次で、古く受けた人の分が後という事実です。<br><br>いかがなものでしょうかお教え下さい。<br><br> 早く出ぬ方がよい。<br><br>すべて早く出るのはいけない。<br><br>伸びるようになってから違ってくる。<br><br>仕事なども早呑込みをする人は駄目である。<br><br>英国の格言に「遅くとも確実に」とあり、至言である。<br><br>私なども熟慮断行である。<br><br>あらゆるものにその真理は共通している。<br><br>作物などもそうである。<br><br>（S24.12.27）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coleção de ensaios do Reverendo Jikan Okada</h2>
 <h3>Busca de Ensinamentos: Compêndio da Fé (Edição Especial) 1 | 001-015</h3>
@@ -173,5 +325,48 @@ function toggleLang(lang) {
 <h2>015 Quanto Mais Lento, Melhor (Uma Verdade Universal)</h2>
 <p>Este ano, três pessoas semearam trigo no mesmo campo de um hectare: um membro antigo, um membro recente e uma pessoa que não pertence à nossa Fé. Os brotos da sementeira da pessoa de fora da Fé germinaram primeiro, seguidos pelos do membro recente e, por último, pelos do membro antigo. Qual a explicação para esse fato?</p>
 <p>É melhor que não germine rapidamente. Tudo o que brota depressa demais não é bom. A diferença se tornará evidente na fase de crescimento. No trabalho também, pessoas que compreendem as coisas de forma apressada não são confiáveis. Um provérbio britânico diz: “Devagar e sempre”, uma máxima de grande sabedoria. Eu mesmo sou adepto da deliberação cuidadosa seguida pela ação decidida. Essa verdade é comum a todas as coisas. O mesmo se aplica às colheitas. (27 de dezembro de 1949)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 信仰篇（特輯） １ 001-015 大和魂、完成 001 真の大和魂、（世界魂）、（各国の魂と旧道徳） 本当の大和魂はどういう心でしょうか。<br/><br/> 今迄本当の大和魂はなかった。<br/><br/>これから出来る。<br/><br/>大いに和すると書く。<br/><br/>それなのに戦争をするがこれは大いに争う魂である。<br/><br/>やはり各国に魂があり、アメリカにはアメリカ魂、ドイツにはドイツ魂がある。<br/><br/>今迄の大和魂では危険である。<br/><br/>これはあまりに――。<br/><br/> 武士道など、権力者がその地位を維持するために作った。<br/><br/>親子一世、夫婦二世、主従三世といい、主従は一番関係の深い事にしている。<br/><br/>君の馬前に死すなどという。<br/><br/>それは一生食わしてもらっているから当然の理屈はある。<br/><br/>そこに偉さも何にもない。<br/><br/>寧ろ仇討などは悪い。<br/><br/>循環的でしかも仇討のために一生を終る。<br/><br/>それは殺人の犯罪を犯すために一生を棒にふる訳で、こんな間違った事はない。<br/><br/>仇討思想をなくさねば平和にならぬ。<br/><br/>それを最高の道徳のごとく思わされた。<br/><br/>国でも同様で、そういう事に利用されたのが大和魂で、鼓舞激励させられるために利用された。<br/><br/> 忠臣蔵や楠木正成、吉田松陰など私は嫌った。<br/><br/>あまりに馬鹿馬鹿しい。<br/><br/>楠木などいいが、結果において非常に悪い。<br/><br/>結果は既に分っている。<br/><br/>忠義としても智慧の足りない忠義である。<br/><br/> これからは世界魂でなくてはならぬ。<br/><br/>今迄は日本の通貨と同じようなものである。<br/><br/>世界共通でなくては――。<br/><br/>（S24.10.23） rattail（注） 〔 クルリ瓢箪 （四）松の心 『地上天国』34号、昭和27(1952)年3月25日発行〕 「その頃大井町の越智隆蔵氏宅へもよくお出でになって御講話があったが、その時伺って今でも忘れ得ぬお言葉がある。<br/><br/>それは「大和魂とは何か」との御質問に対し『大和魂とは松の心である。<br/><br/>松の心とは時節を待つ心でありいつまでも変らぬ誠である』とズバリお答えになったのを聞いて、私は信仰の真髄を一言で道破されたような深い感銘に打たれた。<br/><br/>」 002 真の日本精神、（エルサレム不開門の菊花紋） 真の日本精神とは何で御座居ましょうか。<br/><br/> 今迄あるにはあったがホンの一部である。<br/><br/>なかったといってもいい。<br/><br/>大和民族は絶対戦争をせず、武器を持つ事を嫌う。<br/><br/>私など武器を見るのが嫌いである。<br/><br/>今、日本人は百人の中十人はない。<br/><br/>後は支那・朝鮮民族である。<br/><br/>これらは争いを好む。<br/><br/>軍人など日本人はいない。<br/><br/>それを日本精神としたのは大いなる欺瞞である。<br/><br/>日本へ来た移民が敗戦国にした。<br/><br/>出雲朝――。<br/><br/>瓊々杵尊――支那の漢族で、これは私の考察で、断定はせぬが、イスラエル十二種族の中一種族は東方へ行った。<br/><br/>エルサレムには四方に門があり、一ケ所開かずの門があって、上に十六の菊の紋がある。<br/><br/>この民族は、前漢の時代に行って、支那においては勢力を張る余地がなく日本へ渡って来たんだと思う。<br/><br/>古代西洋と同じ武器等あり。<br/><br/>真の日本精神はこれから出る。<br/><br/>非常に平和を好み芸術を愛する平和民族である。<br/><br/>（S24. 4.13） 003 完成という事 完成という事は次に来る衰退を意味する事にはならないので御座居ますか。<br/><br/> 完成はない。<br/><br/>未完成なもののみである。<br/><br/>一時的完成はある。<br/><br/>時間的のものである。<br/><br/>（永遠の完成は神様にはあるが人間にはない）人間の作るものに永遠なものはない。<br/><br/>破壊と創造を繰返す。<br/><br/>（それによって進歩する） 神様の造ったものは永遠のものである。<br/><br/> 松の木などのごとき――。<br/><br/>（S24. 2.23） 004 真の健康者、完全とは 完全なる人間と真の健康者とはどう違うものでございましょうか。<br/><br/> 違いはない。<br/><br/>健康といっても肉体だけでない。<br/><br/>完全人間は、（理屈）健康といっても肉体のみでない、精神も共に健康でなくてはいけない。<br/><br/>別々にみるから違う。<br/><br/>強盗などは肉体は強健でも霊は病人となる。<br/><br/>完全人間には出来ぬが、完全になろうとして一歩々々近づく。<br/><br/>これが人間として最高のものである。<br/><br/>それでよい。<br/><br/>こういう心のある人は間違った事は少ない。<br/><br/> 完全というものは絶対にない。<br/><br/>ただ一歩々々近づいていく事で、完全になると進歩はなくなる。<br/><br/>完全に近づこうとする努力が進歩であり変化で、完全になるとあるいは人類は滅するかもしれない。<br/><br/>文化の進歩もなくなろう。<br/><br/> 完全な栄養のみを採るとなると人類は滅する。<br/><br/>不完全なものをもって完全なものを作るというのが人間の体であるから、完全なもののみを食えば人間は滅する。<br/><br/>不完全を完全にしようとする――その活動が生命である。<br/><br/>栄養食などでは、乳が出ぬと乳を飲む。<br/><br/>であるから、栄養を食えば弱る。<br/><br/>今はすべて逆をやっている。<br/><br/>以前、鶏で医学が試験し、完全栄養をやったら二日で死んだ事がある。<br/><br/>（S23.11. 4） 005 神様が一番お気に入らる道 観音様に一番好かれるにはいかにしたらよろしいでしょうか。<br/><br/> 一人でも多くの人を救って上げる事で、人間には力がないから、救うべき所へ導くのである。<br/><br/> 教修を受ける人を多く作る事が一番いい。<br/><br/>次は多くの人が救われるような事に力を注ぐ。<br/><br/>そうすれば観音様は一番お好きになるから御褒美を下さるのである。<br/><br/>観音様の御褒美は大きい。<br/><br/> 006 お供えの不思議と神様のお喜びになる事 昭和十六年に戴いた光明如来様の御掛軸について御伺い申し上げます。<br/><br/> 一、赤飯を焚くたびに供えておりましたが、その都度悪い事がありました。<br/><br/> 二、また、珍しい物を供えるときっと悪い事が起ります。<br/><br/> 三、観音様に御花を供えると毎晩私等がそれを食べる夢を見ます。<br/><br/> 四、観音様の腹から白蛇が二匹出た夢を見た時は毎日悪い事が続きました。<br/><br/>その後、家の改築でお掛軸を御腹（中央）まで巻き上げてお祭りするようにしてからは悪い事が無くなりました。<br/><br/>また、良い御知らせがあり、その他色々の御知らせもあります。<br/><br/> 五、観音様にお喜びして戴きたいのですがいかが致したら宜しいでしょうか、御伺い申し上げます。<br/><br/> 良い事とはいかなる種類のものか。<br/><br/>良い事のある前にはそういう事がある。<br/><br/>悪い事があったら報告せよ。<br/><br/>良い事や悪い事は種々あるが、一歩々々、全体的にみて良くなりつつあればよい。<br/><br/> 根本的には一人でも多く人を救う事が一番観音様はお喜びになる。<br/><br/> 言い難いが、観音様の御仕事にお金を差し上げる事もいい。<br/><br/>（S24. 6. 5） 007 功利的信仰、（陰徳） 功利的な信仰から自己完成を念願する者も、人の救いに対しては善い結果を見るような場合が御座いますが、この者の死後の霊界における状態はどのような事になりますので御座いましょうか。<br/><br/> 功利的信仰は勿論本当のものではないが、それも結果がよければよい。<br/><br/> こういう人の信仰は霊界では功績がない。<br/><br/>功利的は、現界ですでに報いられている。<br/><br/>陰徳――即ち人に知れない徳こそ霊界では大きいものとなる。<br/><br/>寄進札など人から褒められ、すでに酬いられるから、霊界では酬わるるところが少ない。<br/><br/>（S23.10.24） 008 陰徳 徳、または陰徳を積むという意味―― 人のため、世の中のためにする事が徳である。<br/><br/>これを沢山する事が徳を積む事になる。<br/><br/> 金を持って慈善をするのも善い事だが、持続性がない。<br/><br/>死んでからまでの幸せを与える永遠の幸福を与えるものではない。<br/><br/> 徳を積むと多数の感謝の霊が来て、その人の霊が太る。<br/><br/>これを神道では恩頼（ふゆ）という。<br/><br/>魂が太る事である。<br/><br/> 太る場合、光が多くなる。<br/><br/>そうして霊層界が上の方になるから幸せになる。<br/><br/> 陰徳とは、人に知れない善い事をするので、神社仏閣などの掲札は陽徳である。<br/><br/>人に知れない善い事は、神から御褒美を下さる。<br/><br/> 人間には表われないと気持が悪い性があるが、陰徳は何倍となく神様から御褒美下さる。<br/><br/> 009 気弱の解決、魂太らす事―陰徳、御利益戴く道 二十七歳の学生、生来気が弱くて人と交わるのが怖ろしく、十九年十二月受教致しましたが、この性格だけはどうにも手のつけようがありません。<br/><br/>何とか強くなれないものでしょうか。<br/><br/> 気の弱いのは魂が薄く弱いので、外部から霊線によっていろんなものが来ると魂がおびえる。<br/><br/> 陰徳を積み、魂を太らせるとよい。<br/><br/> 根の張った木は、強風におびえぬようなもので、強く太ければおびえぬ。<br/><br/>信仰が強くなれば、こういう事はなくなる。<br/><br/>自分が自分に頼るんでなく、神様を頼る心が強いと、気の弱い事はなくなる。<br/><br/> 人を助け、感謝を受け、魂を太らせる事である。<br/><br/> 信仰に入っただけでは何にもならぬ。<br/><br/>入信をするのは、人を救う方法を教わるので、門へ入っただけである。<br/><br/>奥座敷へ入らなくてはいけない。<br/><br/>人を救ってこそ初めて本当の利益がいただける。<br/><br/> 010 善事の報いの霊的真相、罪の浄化の二様 現世において私達が善事・悪事をなす場合、その報いは現世のみで来るものか、一度霊界の祖先に反映してから現界の私達にその徳・不徳が来るもので御座居ましょうか。<br/><br/>御伺い致します。<br/><br/> これはいろいろで、大体神様の方へ知れる。<br/><br/>次に祖先に命令したり正守護神（大抵は祖先の霊である）へ命令が来る。<br/><br/>大中小の事柄によって、神様へ行くものと、神様にも段階があって、天然現象を分担される神や人事等をされる神もあり、その人事係へ行って命令の下るのが普通である。<br/><br/>大体霊界現界の関係は悪い事をすると曇り、濁りが出来る、そして浄める作用が自然に起る事になっている。<br/><br/>それも神様が起す場合と自然作用で起る場合とある。<br/><br/>簡単には言えない。<br/><br/>霊界の事は実に幽玄微妙である。<br/><br/> 011 神様は罰を当てられぬ、背反すれば御守護を離れる、（脅迫信仰的言い方） 脅迫信仰の一例として左の場合は正しいのでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> 「あなたがこの信仰を離れる事はあなたの自由です。<br/><br/>しかしもし離れたらどんな結果になるか私は知らん。<br/><br/>それは神様のみ御承知だ。<br/><br/>まずよく考えるんだね」このの信者は常に先生や先輩に神に背くとこう言う罰をあてられると言う例を聞かされている場合です。<br/><br/> これは合った点と合わぬ事がある。<br/><br/> 信仰は自由であるからと言うのはいいが、その結果は少し冷やかな言い方だが間違ってはいない。<br/><br/>ただブッキラボーである。<br/><br/> これはちょっと間違っているのは、神様は罰は当てない。<br/><br/>神様の守護がなくなるから邪神に犯される。<br/><br/>それが罰を当てられるように見える。<br/><br/>観音様は慈悲一方で、善悪をお咎めなどなさらぬ。<br/><br/> 背中を向けると御守護を離れる。<br/><br/>そのため外の悪い者に犯される。<br/><br/>故に罰を当てるのは他の悪い方である。<br/><br/>（S23.10.28） 012 諸神の咎めという事、（浄化作用） 諸神のお咎めにて時々負傷または病気に犯されたことは浄化作用と申すべきか、あるいは浄化作用とは別個の意味でしょうか。<br/><br/> 諸神のお咎めなど間違っている。<br/><br/>むしろ自分に憑いている守護神のお咎めが多い。<br/><br/> 守護神は、祖先の代りであって、子孫が罪を重ねさすといけないので、後そうしないよう咎めるのである。<br/><br/> こういう事も、信仰が進めば段々なくなる。<br/><br/>少しずつ沢山の罪を減らす事もやる。<br/><br/> 013 神の試練、（執着をとれ―失恋） 今迄の時代――夜の時代におきましてもいろいろの人生の苦しみがありましたが、これはただ「夜の世界だから苦しみがあった」という許りでなく、やはり神の人間に対する試練としての苦しみもあったと考えてよろしゅうございましょうか。<br/><br/>更に「昼の世界」においても人間を向上せしめ、深み、うるおいを作るため神の試練としての苦悩や悲哀も――例えば恋愛における失恋の――苦しみのように何らかの形で存在することと存じられますが、いかがでございましょうか。<br/><br/>右、御教示御願い申し上げます。<br/><br/> 神の試練という事は本当はない。<br/><br/>これは人間の方で理屈をつけたもので、神様が良い物を人間に与えるのに、容物の汚い時は掃除する、その時の苦痛である。<br/><br/>これを試練というが、実はやはり浄化である。<br/><br/> 違う。<br/><br/>失恋の苦しみは自分勝手に苦しんでいる。<br/><br/>（縊死と同じ事である）執着で苦しむ。<br/><br/>執着を除ればよい。<br/><br/>（霊の向上する程、執着は早く除れる。<br/><br/>私など諦めが早い方である。<br/><br/>過ぎ去った事はどうする事も出来ぬから、今後気をつければよい） 失恋などは勝手に自分で執着して苦しんでいる事であるから、別に問題にするものでない。<br/><br/>（S24. 1. 8） 014 真の神様のやり方、コツコツ主義、失敗者のやり方 本当の神様のやり方は非常に順序正しい。<br/><br/>ジリジリ育つように進む。<br/><br/> 失敗する人は一遍にパッとする人に多い。<br/><br/>人の計画など聞くと大仕掛にやる。<br/><br/> コツコツ主義でなくてはいけない。<br/><br/>樵など、ゆっくりしている。<br/><br/> 最初は威勢はいいが、すぐにクタびれてしまう。<br/><br/>（S24.10.24） 015 遅いもの程よい（共通の真理） 本年一反の同じ畑に麦種を三人で蒔きました。<br/><br/>教修を古く受けた人、最近受けた人及び受けてない人の三人です。<br/><br/>教修を受けない人の方が芽の出が一番早く、最近受けた人のが次で、古く受けた人の分が後という事実です。<br/><br/>いかがなものでしょうかお教え下さい。<br/><br/> 早く出ぬ方がよい。<br/><br/>すべて早く出るのはいけない。<br/><br/>伸びるようになってから違ってくる。<br/><br/>仕事なども早呑込みをする人は駄目である。<br/><br/>英国の格言に「遅くとも確実に」とあり、至言である。<br/><br/>私なども熟慮断行である。<br/><br/>あらゆるものにその真理は共通している。<br/><br/>作物などもそうである。<br/><br/>（S24.12.27）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

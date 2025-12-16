@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kami16</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神の経綸 『栄光』109号、昭和26(1951)年6月20日発行 我救世教は、いかに深遠微妙にして、偉大なるものであるかをかいてみるが、これを読んだらどんな信者でも、驚嘆して口も利けないであろう。<br><br> そもそも、神様の御経綸なるものが、人智をもってしては、到底想像もつかないものである事を知らなければならない。<br><br>というのは今熱海に造営中の地上天国にしてもそうである。<br><br>これは信者諸君も常に観らるるごとく、土木工事が段々進捗するにつれて山の形状、樹木の位置、建物の予定地等は固（もと）より、遥か目に映る全景の美観といい、周囲の様相といい、観る度に変りつつある事に気付くであろう。<br><br>特に石垣の多い点は、まず日本一と言ってもよかろう、ところがそれに要する石は、一個所から無限に出てくる。<br><br>いくら掘っても尽きる事を知らない有様だ。<br><br>こんなに石の集積しているところは、熱海中どこを探しても見当らない。<br><br>実に不思議で、誰も驚かない者はない。<br><br>この事だけにみても、神様は何万年前、すでに計画され準備された事は一点の疑う余地はあるまい。<br><br>また現在天国の周囲を取巻いている景色を見ると、色々な樹木のありどころ、山の形状など、調和美がよく表われていて恍惚とする。<br><br>そうして必要な土地は次々手に入ってくるから不思議だ。<br><br>それも飛び飛びではない。<br><br>隣から隣へと順々に広がってゆく。<br><br>しかも時もそうで、必要に迫ってくると売りたいと言ってくる。<br><br>全く思い通りに運んでゆく。<br><br>それから私が時々行って見廻るが、その度毎に新しい企画が自（おのずか）ら浮んでくるから、考える必要などない。<br><br>楽なものである。<br><br> ここで最初にいった驚嘆すべき、大経綸とは何であるかというと、熱海という日本一の景勝地の意味であるが、これはいつもいう通り、山水美、気候、温泉、交通の至便等々、あらゆる条件が具備している。<br><br>恐らくこれほどの景勝地は日本中どこにもあるまい。<br><br>とすればこれはいかなる訳かを深く考えてみると、こういう事が判ってくる。<br><br>すなわち造物主が地球を創造された時、永遠な計画の下に設計をされた事である。<br><br>恐らくそれは何百万、何千万年前の事であろうが、地球を御造りになる時、将来日本という世界的公園としての、パラダイス的土地を定められ、その条件として気候、風土、自然美等を、それぞれ申分なく具備され、時を待たれ給うたのである。<br><br>もちろんそれが我熱海であり、次の箱根もその意味であり、富士山もそうであろう。<br><br>特に熱海に至っては、最高最美の理想境を目標とされたものであろう。<br><br>そうしておいて物質文化の進歩の程度がようやく天国建設に適するような状態になったので、ここに私という者を生まれさせ、種々な経路を経て、熱海に住むようにされ、ここに御目的である地上天国の模型の建造に、着手されたのである。<br><br>私は瑞雲山に立って、いつも風景を眺めながら思うのである。<br><br>それは最古の時代私が神様であった時、将来の計画を立て、設計したものに違いない。<br><br>見遥（みはる）かす盆石のごとき初島や大島、五つの岬、真鶴の突端、十国峠の山並、湖水と見紛（みまご）うばかりの鏡のごとき海原、特に熱海の山の美しさ、これが最高の神技でなくて何であろう。<br><br>そうしておいて、二十世紀の今日、自分が人間に生まれて、最初の計画通りのプランを実行するようになったのであるから、前述のごとく奇蹟が多いのも当然と言えよう。<br><br> 従って私の行っている事は、独りこの小地上天国の事ばかりではない。<br><br>他の色々な事業も、ことごとく万物を造られた時から準備されたものである事は想像され得るのである。<br><br> それについての、今一つの、重要事をかいてみよう。<br><br>これは自画自讃ではあるが、私が文字をかいた紙を御守にすると、素晴しい治病力を発揮する。<br><br>これはみんな知る通りであるが、この御守は、一時間に五百枚はかけるから、七秒で一枚という事になる。<br><br>この七秒で出来た紙と墨の作品で、何千何万の人の命を救うのだから、その偉大なる神力は、何と説明していいか分らないのである。<br><br>これは私が偉いのではない。<br><br>私にその力を与え給う大神様の、素晴しい神力であろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Grandioso Plano Divino</h2>
 <p>Buscarei descrever aqui a natureza incomensuravelmente profunda, sutil e grandiosa de nossa Sekaikyuseikyou. Prevejo que, após esta leitura, qualquer fiel ficará tão assombrado que as palavras lhe fugirão.</p>
@@ -96,5 +248,48 @@ function toggleLang(lang) {
 <p>Mantenho-me de pé no monte Zuiun, e, ao contemplar a paisagem, reflito. Não há dúvida de que fui eu, na mais remota antiguidade, quando era Deus, que tracei este plano e elaborei este projeto para o futuro. As ilhas de Hatsushima e Oshima, que se assemelham a rochas ornamentais dispostas em uma bandeja; os cinco cabos; a ponta da península de Manazuru; a cordilheira de Jikkoku-toge; e o oceano, espelhado como um lago. A beleza das montanhas de Atami... Se isto não é a mais sublime das obras divinas, o que poderia ser? E agora, no século XX, renascido como ser humano, vim executar o plano exatamente como foi concebido em sua origem. Por essa razão, a abundância de milagres, como os que mencionei, é perfeitamente natural.</p>
 <p>Portanto, é possível inferir que não apenas a construção deste pequeno Paraíso Terrestre, mas todas as minhas demais obras e empreendimentos foram igualmente preparados desde a criação de todas as coisas.</p>
 <p>A esse respeito, permitam-me abordar outro ponto de suma importância. Embora possa soar como autoelogio, o papel em que escrevo, quando usado como amuleto, manifesta um extraordinário poder de cura. Como todos sabem, sou capaz de caligrafar quinhentos desses amuletos por hora, o que equivale a um a cada sete segundos. Uma obra de papel e tinta, criada em apenas sete segundos, salva a vida de milhares e milhares de pessoas. A magnitude de um poder divino como este é simplesmente indescritível. A grandeza, porém, não reside em mim. Trata-se, indubitavelmente, do sublime poder divino do Deus Supremo, que me concede essa força.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神の経綸 『栄光』109号、昭和26(1951)年6月20日発行 我救世教は、いかに深遠微妙にして、偉大なるものであるかをかいてみるが、これを読んだらどんな信者でも、驚嘆して口も利けないであろう。<br/><br/> そもそも、神様の御経綸なるものが、人智をもってしては、到底想像もつかないものである事を知らなければならない。<br/><br/>というのは今熱海に造営中の地上天国にしてもそうである。<br/><br/>これは信者諸君も常に観らるるごとく、土木工事が段々進捗するにつれて山の形状、樹木の位置、建物の予定地等は固（もと）より、遥か目に映る全景の美観といい、周囲の様相といい、観る度に変りつつある事に気付くであろう。<br/><br/>特に石垣の多い点は、まず日本一と言ってもよかろう、ところがそれに要する石は、一個所から無限に出てくる。<br/><br/>いくら掘っても尽きる事を知らない有様だ。<br/><br/>こんなに石の集積しているところは、熱海中どこを探しても見当らない。<br/><br/>実に不思議で、誰も驚かない者はない。<br/><br/>この事だけにみても、神様は何万年前、すでに計画され準備された事は一点の疑う余地はあるまい。<br/><br/>また現在天国の周囲を取巻いている景色を見ると、色々な樹木のありどころ、山の形状など、調和美がよく表われていて恍惚とする。<br/><br/>そうして必要な土地は次々手に入ってくるから不思議だ。<br/><br/>それも飛び飛びではない。<br/><br/>隣から隣へと順々に広がってゆく。<br/><br/>しかも時もそうで、必要に迫ってくると売りたいと言ってくる。<br/><br/>全く思い通りに運んでゆく。<br/><br/>それから私が時々行って見廻るが、その度毎に新しい企画が自（おのずか）ら浮んでくるから、考える必要などない。<br/><br/>楽なものである。<br/><br/> ここで最初にいった驚嘆すべき、大経綸とは何であるかというと、熱海という日本一の景勝地の意味であるが、これはいつもいう通り、山水美、気候、温泉、交通の至便等々、あらゆる条件が具備している。<br/><br/>恐らくこれほどの景勝地は日本中どこにもあるまい。<br/><br/>とすればこれはいかなる訳かを深く考えてみると、こういう事が判ってくる。<br/><br/>すなわち造物主が地球を創造された時、永遠な計画の下に設計をされた事である。<br/><br/>恐らくそれは何百万、何千万年前の事であろうが、地球を御造りになる時、将来日本という世界的公園としての、パラダイス的土地を定められ、その条件として気候、風土、自然美等を、それぞれ申分なく具備され、時を待たれ給うたのである。<br/><br/>もちろんそれが我熱海であり、次の箱根もその意味であり、富士山もそうであろう。<br/><br/>特に熱海に至っては、最高最美の理想境を目標とされたものであろう。<br/><br/>そうしておいて物質文化の進歩の程度がようやく天国建設に適するような状態になったので、ここに私という者を生まれさせ、種々な経路を経て、熱海に住むようにされ、ここに御目的である地上天国の模型の建造に、着手されたのである。<br/><br/>私は瑞雲山に立って、いつも風景を眺めながら思うのである。<br/><br/>それは最古の時代私が神様であった時、将来の計画を立て、設計したものに違いない。<br/><br/>見遥（みはる）かす盆石のごとき初島や大島、五つの岬、真鶴の突端、十国峠の山並、湖水と見紛（みまご）うばかりの鏡のごとき海原、特に熱海の山の美しさ、これが最高の神技でなくて何であろう。<br/><br/>そうしておいて、二十世紀の今日、自分が人間に生まれて、最初の計画通りのプランを実行するようになったのであるから、前述のごとく奇蹟が多いのも当然と言えよう。<br/><br/> 従って私の行っている事は、独りこの小地上天国の事ばかりではない。<br/><br/>他の色々な事業も、ことごとく万物を造られた時から準備されたものである事は想像され得るのである。<br/><br/> それについての、今一つの、重要事をかいてみよう。<br/><br/>これは自画自讃ではあるが、私が文字をかいた紙を御守にすると、素晴しい治病力を発揮する。<br/><br/>これはみんな知る通りであるが、この御守は、一時間に五百枚はかけるから、七秒で一枚という事になる。<br/><br/>この七秒で出来た紙と墨の作品で、何千何万の人の命を救うのだから、その偉大なる神力は、何と説明していいか分らないのである。<br/><br/>これは私が偉いのではない。<br/><br/>私にその力を与え給う大神様の、素晴しい神力であろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

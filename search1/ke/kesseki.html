@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kesseki</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結石も浄霊で排泄さる 『栄光』179号、昭和27(1952)年10月22日発行 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 胆嚢結石、腎臓結石、膀胱結石など病んだ人は知っているが、その激痛は非常なものであるが、医療ではどうにもならないので、ただ切開手術によって除去するより外はないが、それも一時的で本当に治る人は稀である。<br><br>ところが我浄霊によれば、結石が砕けて尿と共に排泄するのであるから、これを聞いたら誰しも驚くであろう。<br><br>しかもいささかも身体に触れる事なく霊の力によって、アレ程固い結石が砕けて苦痛なく出るのであるから、もちろん神秘ではあるが、何と文化的療法ではなかろうか、これに比べたら、医学の方法は、未開人的やり方と言っても、敢えて過言とはいえまい。<br><br> 結石も砕けて出る偉大なる御神力 福岡県 南光中教会 稲永 勝（51） 過ぎ去りし日を顧みながら今ある身の仕合せに感謝も新たにペンを執らせて戴きます。<br><br> 私は日頃健康体であったところ、昨年六月末より突然腰、腹が四、五日毎に痛み出し、非常に苦しいため地方の医者にかかり手当を受けましたが思わしくなく、次に九州大学病院の診察を受け「レントゲン治療」も四回程致しましたが、病名不明で、あらゆる手段を尽くしてみましたが何の効果も無く、終には、あちらこちらの神様にも頼りましたが総て効果なく、私は最早絶望の淵に追い込まれ、家族の者も到底駄目だと諦めておりました。<br><br> 丁度その頃、詳しく言えば昨年十二月三日、近所の岩瀬新様宅の子供さんの病気が僅か二、三回の御浄霊とかいうものにて健康を取戻したとのお話を父親の岩瀬さんより聞き、救世教のお話を伺いましたので、私も今までの神様とは違い、手を翳して病気を治すという珍しい療法に「これならあるいは効果がありはしないか」という感じが胸に浮びましたので、出張所の林田先生に来て戴き、ともかく御浄霊をお願い致しましたところ幾らか痛みも薄らぎました。<br><br>御浄霊の折、林田先生より、浄霊の意味もよく教えて戴きました。<br><br>その後二、三日痛みが続き、排尿の際豆腐の「オカラ」様の物が沢山出て参り、それが四、五日続きました。<br><br>これが教えて戴いた御浄化だという事も悟らせて戴きました。<br><br>以後信徒の広橋様より殆んど毎日御浄霊を受け、時折林田先生にも来て戴いて御浄霊を受けておりました。<br><br>又出張所のお祭には欠かさずお参りさせて戴き、支部長宮口先生の御浄霊を受け、唐津支部のお祭にも度々お参りさせて戴き御浄霊を受けながら有難いお道のお話をきかせて戴きました。<br><br>それから日毎に良くなりだんだん痛みが取れて参りました。<br><br> ところが本年一月三日突然痛みが増し非常に苦しみました。<br><br>四日の朝九時頃排尿致しますと小豆粒位の大きさの石が手に持ったコップの中に音を立てて尿道より飛出しました。<br><br>小さな尿道に小豆位のガサガサの石が動き廻る度毎に痛んで居たのだと思いました。<br><br>これが一番大きな石で後は小さな石又は粉の様になって大した苦痛なく排尿が出来ました。<br><br>神様のお蔭により粉となって楽に排尿出来たものと信じております。<br><br>毎日最初の一回だけ必ずすごく濁った排尿をいたしますが、以後は普通尿です。<br><br> その後月日が経つにつれて苦痛が無くなり元気も出て参りまして現在では全く苦痛がなくなり、体も健康を取戻し、今年二月二日より長らく欠勤して居りました会社、福岡県粕屋郡香椎町香椎自動車工業株式会社に再び通勤する様になりました。<br><br>ただ今では勤めの傍ら病み悩む人々へ有難い救いの道を説き、御道の御手伝をさせて戴いております。<br><br>微力ながら地上天国建設のため御協力致す覚悟でございます。<br><br> 大光明如来様、御明主様の有難さは到底私如き愚か者には筆や言葉に表わし尽くせない事を残念に思います。<br><br>ただただ感謝の念で一ばいです。<br><br>支部長宮口先生、林田先生及び広橋様の御指導により入信させて戴き、御屏風観音様、光明如来様の御神体も現在では御奉斎させて戴き、長男及び次女も共に入信させて戴き、御神書に依り一家を挙げて多少ながらでも磨かせて戴いております。<br><br> 御明主様誠に有難うございました。<br><br>厚く厚く御礼申し上げさせていただきます。<br><br> （昭和二十七年九月五日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Expulsão de Cálculos por meio do Johrei</h2>
 <p><em>Do Periódico Eikô, n.º 179, de 22 de outubro de 1952</em>
@@ -111,5 +263,48 @@ function toggleLang(lang) {
 <p>Graças à orientação do ministro responsável, senhor Miyaguchi, do ministro Hayashida e do senhor Hirohashi, pude ingressar na fé. Hoje, temos a permissão de entronizar em nosso lar o Sagrado Ponto Focal, com a imagem de Kannon (観音) e a caligrafia de Komyo Nyorai. Meu filho mais velho e minha segunda filha também receberam a graça de ingressar na fé, e toda a família se dedica ao aprimoramento espiritual por meio dos Ensinamentos Divinos.</p>
 <p>Meishu-Sama, muito, muito obrigado. Expresso minha mais profunda e sincera gratidão.</p>
 <p><em>(5 de setembro de 1952)</em></p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結石も浄霊で排泄さる 『栄光』179号、昭和27(1952)年10月22日発行 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 胆嚢結石、腎臓結石、膀胱結石など病んだ人は知っているが、その激痛は非常なものであるが、医療ではどうにもならないので、ただ切開手術によって除去するより外はないが、それも一時的で本当に治る人は稀である。<br/><br/>ところが我浄霊によれば、結石が砕けて尿と共に排泄するのであるから、これを聞いたら誰しも驚くであろう。<br/><br/>しかもいささかも身体に触れる事なく霊の力によって、アレ程固い結石が砕けて苦痛なく出るのであるから、もちろん神秘ではあるが、何と文化的療法ではなかろうか、これに比べたら、医学の方法は、未開人的やり方と言っても、敢えて過言とはいえまい。<br/><br/> 結石も砕けて出る偉大なる御神力 福岡県 南光中教会 稲永 勝（51） 過ぎ去りし日を顧みながら今ある身の仕合せに感謝も新たにペンを執らせて戴きます。<br/><br/> 私は日頃健康体であったところ、昨年六月末より突然腰、腹が四、五日毎に痛み出し、非常に苦しいため地方の医者にかかり手当を受けましたが思わしくなく、次に九州大学病院の診察を受け「レントゲン治療」も四回程致しましたが、病名不明で、あらゆる手段を尽くしてみましたが何の効果も無く、終には、あちらこちらの神様にも頼りましたが総て効果なく、私は最早絶望の淵に追い込まれ、家族の者も到底駄目だと諦めておりました。<br/><br/> 丁度その頃、詳しく言えば昨年十二月三日、近所の岩瀬新様宅の子供さんの病気が僅か二、三回の御浄霊とかいうものにて健康を取戻したとのお話を父親の岩瀬さんより聞き、救世教のお話を伺いましたので、私も今までの神様とは違い、手を翳して病気を治すという珍しい療法に「これならあるいは効果がありはしないか」という感じが胸に浮びましたので、出張所の林田先生に来て戴き、ともかく御浄霊をお願い致しましたところ幾らか痛みも薄らぎました。<br/><br/>御浄霊の折、林田先生より、浄霊の意味もよく教えて戴きました。<br/><br/>その後二、三日痛みが続き、排尿の際豆腐の「オカラ」様の物が沢山出て参り、それが四、五日続きました。<br/><br/>これが教えて戴いた御浄化だという事も悟らせて戴きました。<br/><br/>以後信徒の広橋様より殆んど毎日御浄霊を受け、時折林田先生にも来て戴いて御浄霊を受けておりました。<br/><br/>又出張所のお祭には欠かさずお参りさせて戴き、支部長宮口先生の御浄霊を受け、唐津支部のお祭にも度々お参りさせて戴き御浄霊を受けながら有難いお道のお話をきかせて戴きました。<br/><br/>それから日毎に良くなりだんだん痛みが取れて参りました。<br/><br/> ところが本年一月三日突然痛みが増し非常に苦しみました。<br/><br/>四日の朝九時頃排尿致しますと小豆粒位の大きさの石が手に持ったコップの中に音を立てて尿道より飛出しました。<br/><br/>小さな尿道に小豆位のガサガサの石が動き廻る度毎に痛んで居たのだと思いました。<br/><br/>これが一番大きな石で後は小さな石又は粉の様になって大した苦痛なく排尿が出来ました。<br/><br/>神様のお蔭により粉となって楽に排尿出来たものと信じております。<br/><br/>毎日最初の一回だけ必ずすごく濁った排尿をいたしますが、以後は普通尿です。<br/><br/> その後月日が経つにつれて苦痛が無くなり元気も出て参りまして現在では全く苦痛がなくなり、体も健康を取戻し、今年二月二日より長らく欠勤して居りました会社、福岡県粕屋郡香椎町香椎自動車工業株式会社に再び通勤する様になりました。<br/><br/>ただ今では勤めの傍ら病み悩む人々へ有難い救いの道を説き、御道の御手伝をさせて戴いております。<br/><br/>微力ながら地上天国建設のため御協力致す覚悟でございます。<br/><br/> 大光明如来様、御明主様の有難さは到底私如き愚か者には筆や言葉に表わし尽くせない事を残念に思います。<br/><br/>ただただ感謝の念で一ばいです。<br/><br/>支部長宮口先生、林田先生及び広橋様の御指導により入信させて戴き、御屏風観音様、光明如来様の御神体も現在では御奉斎させて戴き、長男及び次女も共に入信させて戴き、御神書に依り一家を挙げて多少ながらでも磨かせて戴いております。<br/><br/> 御明主様誠に有難うございました。<br/><br/>厚く厚く御礼申し上げさせていただきます。<br/><br/> （昭和二十七年九月五日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

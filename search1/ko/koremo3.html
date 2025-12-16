@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>koremo3</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 之も慢心 『栄光』121号、昭和26(1951)年9月12日発行 よく信仰に熱心の余り自分の属している教会の会長始め、役員等のやり方が面白くないとか何とか非難して、それを改革しようと忠告したりしても、それが容れられない場合、非常に気を揉む人も時々あるようだから、これについてかいてみよう。<br><br> 右のような考え方は、全く誠から出たのであるから、悪いとはいわないが、大いに考慮を要する点がある、というのはその考え方は小乗信仰であるからである、本教はいつもいう通り大乗信仰であるから、世間並の考えとは大変違っている。<br><br>その点が認識出来ないと、神様の思召に適わない事になる、何よりもあの人は善人だとか、悪だとかいうのは、すでに慢心である、何となれば人間の善悪は神様でなくては判らないはずで、以前もかいた事があったが、大いに慎まなくてはならない。<br><br> もし間違ったり、悪人であれば、神様がチャンとお裁きになられるから少しも心配はないのである、だから人間が心配や取越苦労などするのは、神様の御力を信じていないからという事になるではないか、その証拠には今まで間違った信仰のために、神様から裁かれ、人によっては命まで失った事実は沢山あり、古い信者は幾度も経験しているであろう、だから人の善悪を批判する前に、まず自分の腹の中の善悪を見る事である。<br><br> そうして本教信者となるくらいの人には、まず悪い心の人などありよう訳がない、みんな誠の人ばかりである事はよく判っている。<br><br>ただ単に誠といっても大きい小さいがあるから、気をつけなくてはいけない、私が常にいう小乗の善は、大乗の悪であるという意味である、いかに善でも誠でも、小乗の考え方では、結果は悪になるのである、本教は世界全人類を救うというこの世創（はじま）って以来の大きな仕事であるから、本教内部の事などは神様に御委せしておけばよい、何よりも社会否世界を相手として、考えるべきである、早くいえば眼を内へ向けないで、外へ向ける事である。<br><br> 今一ついいたい事は、神様の御経綸は、実に深いもので、到底人間の眼や頭脳で、判りようはずがないのである、大本教の御筆先にこういう文字がある。<br><br>「神の奥には奥がある、そのまた奥の奥の仕組であるから、人民には分りようはずがないぞよ、神界の事は分らんと思う人民は、判ったのであるぞよ」とか、「そんな人民に判るようなチョロコイ仕組で、三千世界の立替が出来ると思うかと申すのであるぞよ」。<br><br>この御言葉は実に簡単にして、よく言い表わしていると思う。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Arrogância no Julgamento do Próximo</h2>
 <p>Ocasionalmente, observo pessoas que, movidas por um grande fervor religioso, se afligem profundamente. Isso ocorre quando, descontentes com a conduta dos dirigentes de sua igreja — como o presidente e demais responsáveis —, elas os criticam e oferecem conselhos na tentativa de promover reformas, mas suas sugestões não são acolhidas. Gostaria, pois, de discorrer sobre essa questão.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>E também:</p>
 <p>“Pensais que a reconstrução dos três mil mundos poderia ser realizada com um plano tão simplório que qualquer um pudesse entender?”</p>
 <p>Creio que essas palavras, em sua simplicidade, expressam essa verdade de forma magistral.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 之も慢心 『栄光』121号、昭和26(1951)年9月12日発行 よく信仰に熱心の余り自分の属している教会の会長始め、役員等のやり方が面白くないとか何とか非難して、それを改革しようと忠告したりしても、それが容れられない場合、非常に気を揉む人も時々あるようだから、これについてかいてみよう。<br/><br/> 右のような考え方は、全く誠から出たのであるから、悪いとはいわないが、大いに考慮を要する点がある、というのはその考え方は小乗信仰であるからである、本教はいつもいう通り大乗信仰であるから、世間並の考えとは大変違っている。<br/><br/>その点が認識出来ないと、神様の思召に適わない事になる、何よりもあの人は善人だとか、悪だとかいうのは、すでに慢心である、何となれば人間の善悪は神様でなくては判らないはずで、以前もかいた事があったが、大いに慎まなくてはならない。<br/><br/> もし間違ったり、悪人であれば、神様がチャンとお裁きになられるから少しも心配はないのである、だから人間が心配や取越苦労などするのは、神様の御力を信じていないからという事になるではないか、その証拠には今まで間違った信仰のために、神様から裁かれ、人によっては命まで失った事実は沢山あり、古い信者は幾度も経験しているであろう、だから人の善悪を批判する前に、まず自分の腹の中の善悪を見る事である。<br/><br/> そうして本教信者となるくらいの人には、まず悪い心の人などありよう訳がない、みんな誠の人ばかりである事はよく判っている。<br/><br/>ただ単に誠といっても大きい小さいがあるから、気をつけなくてはいけない、私が常にいう小乗の善は、大乗の悪であるという意味である、いかに善でも誠でも、小乗の考え方では、結果は悪になるのである、本教は世界全人類を救うというこの世創（はじま）って以来の大きな仕事であるから、本教内部の事などは神様に御委せしておけばよい、何よりも社会否世界を相手として、考えるべきである、早くいえば眼を内へ向けないで、外へ向ける事である。<br/><br/> 今一ついいたい事は、神様の御経綸は、実に深いもので、到底人間の眼や頭脳で、判りようはずがないのである、大本教の御筆先にこういう文字がある。<br/><br/>「神の奥には奥がある、そのまた奥の奥の仕組であるから、人民には分りようはずがないぞよ、神界の事は分らんと思う人民は、判ったのであるぞよ」とか、「そんな人民に判るようなチョロコイ仕組で、三千世界の立替が出来ると思うかと申すのであるぞよ」。<br/><br/>この御言葉は実に簡単にして、よく言い表わしていると思う。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

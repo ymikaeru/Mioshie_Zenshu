@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hentai</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 変態狂 『明日の医術 第三編』昭和18(1943)年10月23日発行 今私がここに書こうとする一種の精神病者はまことに珍らしい型である。<br><br>この男は四十余歳で発病後五六年になるという。<br><br> この患者の話振りは普通人と少しも変らない。<br><br>話だけ聞く時は、理論も整然としており、精神病者とは全然認め得られないのである、この男の語る所は次のごときものである。<br><br> 私の腹の中には、○○○という神様が居られる、この神様の仰有（おっしゃ）るには「私をトコトンまで修業させるからいかなる苦痛も我慢しなければならない。<br><br>それには金を持たせないようにして、貧乏のドン底に落すからそのつもりでいよ」と言うのである。<br><br>彼はもと相当大きな石炭屋の番頭であったが、不況時代転業をして数年に及んだ頃発病したので、発病当初は何ケ月間ほとんど寝たきりであった。<br><br>何となれば全身硬直して便所と食事の時以外は身体が自由にならず、床縛りになったような状態であった。<br><br>その時腹中の神様いわく「お前は修業の為寝ていなければいけないから、こちらが縛っているのである」というのである。<br><br>一ケ年位経た頃漸く身体が自由となり、外出も出来得るようになった。<br><br>しかしそれも神様のお差図（さしず）通りするより外に自己の意思ではどうにもならない。<br><br>例えば「今日はどこそこへ行け」というのでその通りするが、それ以外はどうにも足が動かなくなるというような訳で、何もかも神様に踊らされる人形に過ぎなかったのである。<br><br> しかるに、あまり蓄（たくわ）えとてない彼は、漸次生活困難に陥った。<br><br>もっとも妻君の内職、子供等の工場勤務により若干の収入はあったが、一家を支えるには不足勝であった。<br><br>幸いなるかな彼の病気がやや軽減したので、旧（もと）の主人である石炭屋へ頼み、就職する事となった。<br><br>これからの彼の変態性がはじまるのである。<br><br> 彼の友人の勤務せる某会社でコークスが入用である事を知って、彼は知合のコークス業者との間に仲介の労をとったので、右の友人は非常に感謝し、一日彼を某料亭へ招き饗応したのである。<br><br>その際謝礼として金一封を渡されたが、それには五百円と書いてあった。<br><br>彼は喜んでそれを受取ろうとした時、肚の中の神様が彼の意志とおよそ反対な言を彼の舌を使って喋舌らしてしまった。<br><br>それは「僕は礼など貰うつもりで世話をしたのではない。<br><br>こんな事をするとははなはだ失敬ではないか。<br><br>僕を見損なうにも程がある」と言うので、先方は驚いて大いに詫び、金一封を引込めてしまった。<br><br>それから芸妓に対すると、身体が硬直して一言も喋舌れなくなるのである。<br><br>又その際便所へ行き用を済ませ、出るが否や、突然縁側で顛落したのである。<br><br>その時神様いわく「お前は金を欲しがったり、芸者に戯れなどするから懲らしめの為、こうしてやったんだ。<br><br>以後注意せよ」というのである。<br><br> ある日、主人が彼に向って“君は真似目（まじめ）で成績がいいから給料を増し、支配人格にしようと思う”というので、彼は非常に喜び、受諾しようと思うが否や、神様は又その逆の事を喋舌らせるのである。<br><br>いわく「僕は給料なんか問題にしていないから、増す事などは御免蒙る。<br><br>又支配人などもお断りする」というので主人も不思議に思い、やむを得ず撤回したのである。<br><br> ある日、その主人の令嬢（二十余歳）と面会した。<br><br>世間話などしているうち、神様は突如予想もつかない事を喋舌らした。<br><br>それは「お嬢さん僕と接吻しましょうか」という。<br><br>これには彼自身も驚いた。<br><br>無論お嬢さんも仰天して、その部屋を駈けるがごとく出て行った。<br><br>これが原因で店は馘（くび）になってしまった。<br><br> その後も職業紹介所や知人に頼みなどしてやっと職業にありつくと、必ず先方を立腹させたり、呆れさしたりするような事を喋舌るので、何個所も歩いた末、終に彼も諦めて、家に閉籠るの止むなき次第となってしまったのである。<br><br> その様な事情を知らない近隣の人達は妻君に向い、お宅の御主人は何も為すっていないようだからぜひ役員になって欲しいといわれるが、神様は「そんな事はならぬ」と言い、それに背けば、例の硬直手段をとられるので断わるというような訳で、勤めも出来ず、町の事も出来ずただ毎日ぶらぶらしているのでこの非常時局に申訳なく、又体裁も悪いが、いかんともし難いという訳で、煩悶の日を送っているのである。<br><br>それを神様に愬（うった）えると「お前はもっと貧乏にならなければいけない」――というのであるから、どうする事もできないのである。<br><br>右のごとく、自分の意志と反対のことを喋舌らされる場合いかに努力しても寸効がなく、舌が機械的に動かされるそうである。<br><br> 右の患者は精神病者とは言い難いのである。<br><br>何となれば、自己意識は明瞭であって、応対の時は、普通人といささかも異らないからである。<br><br>ただ前述のごとく、行動と言語を、自己以外のあるものによって左右されるだけであるが、これに似通うた患者は稀にはあるが、この男のごとく深刻であり、徹底的であるのは珍らしいのである。<br><br>これは私の考察によれば、前世の時、非常に深刻に、ある者を苦しめた為、それに対する深刻なる復讐であると想像するのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Um Caso Singular de Transtorno Espiritual</h2>
 <p>O transtorno espiritual que passarei a descrever constitui um caso verdadeiramente singular. Trata-se de um homem com pouco mais de quarenta anos, cuja enfermidade se manifestou há cerca de cinco ou seis anos.</p>
@@ -104,5 +256,48 @@ function toggleLang(lang) {
 <p>Nessas ocasiões em que é forçado a verbalizar o oposto de sua vontade, ele relata que todo esforço é inútil; sua língua se move de forma puramente mecânica.</p>
 <p>É difícil classificar o referido paciente como um doente mental convencional. Isso porque sua autoconsciência é perfeitamente clara, e seu modo de interagir não difere em nada do de uma pessoa comum. A sua particularidade reside apenas no fato de que suas ações e palavras são controladas por algo alheio a si mesmo. Embora existam casos raros com alguma semelhança, um quadro tão profundo e sistemático como o deste homem é excepcional.</p>
 <p>Segundo minha análise, tal condição é, imagino, uma forma de vingança igualmente profunda, decorrente de algum mal severo que ele infligiu a outrem em uma vida passada.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 変態狂 『明日の医術 第三編』昭和18(1943)年10月23日発行 今私がここに書こうとする一種の精神病者はまことに珍らしい型である。<br/><br/>この男は四十余歳で発病後五六年になるという。<br/><br/> この患者の話振りは普通人と少しも変らない。<br/><br/>話だけ聞く時は、理論も整然としており、精神病者とは全然認め得られないのである、この男の語る所は次のごときものである。<br/><br/> 私の腹の中には、○○○という神様が居られる、この神様の仰有（おっしゃ）るには「私をトコトンまで修業させるからいかなる苦痛も我慢しなければならない。<br/><br/>それには金を持たせないようにして、貧乏のドン底に落すからそのつもりでいよ」と言うのである。<br/><br/>彼はもと相当大きな石炭屋の番頭であったが、不況時代転業をして数年に及んだ頃発病したので、発病当初は何ケ月間ほとんど寝たきりであった。<br/><br/>何となれば全身硬直して便所と食事の時以外は身体が自由にならず、床縛りになったような状態であった。<br/><br/>その時腹中の神様いわく「お前は修業の為寝ていなければいけないから、こちらが縛っているのである」というのである。<br/><br/>一ケ年位経た頃漸く身体が自由となり、外出も出来得るようになった。<br/><br/>しかしそれも神様のお差図（さしず）通りするより外に自己の意思ではどうにもならない。<br/><br/>例えば「今日はどこそこへ行け」というのでその通りするが、それ以外はどうにも足が動かなくなるというような訳で、何もかも神様に踊らされる人形に過ぎなかったのである。<br/><br/> しかるに、あまり蓄（たくわ）えとてない彼は、漸次生活困難に陥った。<br/><br/>もっとも妻君の内職、子供等の工場勤務により若干の収入はあったが、一家を支えるには不足勝であった。<br/><br/>幸いなるかな彼の病気がやや軽減したので、旧（もと）の主人である石炭屋へ頼み、就職する事となった。<br/><br/>これからの彼の変態性がはじまるのである。<br/><br/> 彼の友人の勤務せる某会社でコークスが入用である事を知って、彼は知合のコークス業者との間に仲介の労をとったので、右の友人は非常に感謝し、一日彼を某料亭へ招き饗応したのである。<br/><br/>その際謝礼として金一封を渡されたが、それには五百円と書いてあった。<br/><br/>彼は喜んでそれを受取ろうとした時、肚の中の神様が彼の意志とおよそ反対な言を彼の舌を使って喋舌らしてしまった。<br/><br/>それは「僕は礼など貰うつもりで世話をしたのではない。<br/><br/>こんな事をするとははなはだ失敬ではないか。<br/><br/>僕を見損なうにも程がある」と言うので、先方は驚いて大いに詫び、金一封を引込めてしまった。<br/><br/>それから芸妓に対すると、身体が硬直して一言も喋舌れなくなるのである。<br/><br/>又その際便所へ行き用を済ませ、出るが否や、突然縁側で顛落したのである。<br/><br/>その時神様いわく「お前は金を欲しがったり、芸者に戯れなどするから懲らしめの為、こうしてやったんだ。<br/><br/>以後注意せよ」というのである。<br/><br/> ある日、主人が彼に向って“君は真似目（まじめ）で成績がいいから給料を増し、支配人格にしようと思う”というので、彼は非常に喜び、受諾しようと思うが否や、神様は又その逆の事を喋舌らせるのである。<br/><br/>いわく「僕は給料なんか問題にしていないから、増す事などは御免蒙る。<br/><br/>又支配人などもお断りする」というので主人も不思議に思い、やむを得ず撤回したのである。<br/><br/> ある日、その主人の令嬢（二十余歳）と面会した。<br/><br/>世間話などしているうち、神様は突如予想もつかない事を喋舌らした。<br/><br/>それは「お嬢さん僕と接吻しましょうか」という。<br/><br/>これには彼自身も驚いた。<br/><br/>無論お嬢さんも仰天して、その部屋を駈けるがごとく出て行った。<br/><br/>これが原因で店は馘（くび）になってしまった。<br/><br/> その後も職業紹介所や知人に頼みなどしてやっと職業にありつくと、必ず先方を立腹させたり、呆れさしたりするような事を喋舌るので、何個所も歩いた末、終に彼も諦めて、家に閉籠るの止むなき次第となってしまったのである。<br/><br/> その様な事情を知らない近隣の人達は妻君に向い、お宅の御主人は何も為すっていないようだからぜひ役員になって欲しいといわれるが、神様は「そんな事はならぬ」と言い、それに背けば、例の硬直手段をとられるので断わるというような訳で、勤めも出来ず、町の事も出来ずただ毎日ぶらぶらしているのでこの非常時局に申訳なく、又体裁も悪いが、いかんともし難いという訳で、煩悶の日を送っているのである。<br/><br/>それを神様に愬（うった）えると「お前はもっと貧乏にならなければいけない」――というのであるから、どうする事もできないのである。<br/><br/>右のごとく、自分の意志と反対のことを喋舌らされる場合いかに努力しても寸効がなく、舌が機械的に動かされるそうである。<br/><br/> 右の患者は精神病者とは言い難いのである。<br/><br/>何となれば、自己意識は明瞭であって、応対の時は、普通人といささかも異らないからである。<br/><br/>ただ前述のごとく、行動と言語を、自己以外のあるものによって左右されるだけであるが、これに似通うた患者は稀にはあるが、この男のごとく深刻であり、徹底的であるのは珍らしいのである。<br/><br/>これは私の考察によれば、前世の時、非常に深刻に、ある者を苦しめた為、それに対する深刻なる復讐であると想像するのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

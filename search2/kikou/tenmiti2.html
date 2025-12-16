@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>tenmiti2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 天国の道 （二） 井上超生 『栄光』231号、昭和28(1953)年10月21日発行 明主様の遊ばされる御事は、すべて最高神御自らなし給うものと申し上ぐべく今これを事例の如く挙げ奉るのば甚だしく当らぬような恐れ多い感がするが、何事でも最も楽な極度に能率的御手法で、驚くべき大効果をおつくりになるのを拝する。<br><br>それは空前の世界経綸を余裕綽々としてなされている実際によっても肯かれる筈であるが、僅か七秒間でお書きになる御光の文字によって無数の人命をお救いになる事実によっても明らかである。<br><br>その他御活花、御造苑、御建築等を挙げてみてもそうである。<br><br>如何なる御活花でも御一作に五分以上おかけになることなくして、何人も歎賞の辞なき神技の美をおつくりになる。<br><br> 又箱根熱海の御造苑にしても、一木一草一石たりとも明主様の御意のまま成ったのは本教人には周知のことであるが、そのお指図はたまになさるだけで、特に両地とも御留守になる半年の間は、極大事な点だけ一二度御覧になるのみでありしかも実に簡明な御指示で、むしろ急いだり無理したがる吾々の気持が常に食いちがう程楽な御手法である。<br><br>又御建築にしてもいつも建築担当者が唖然とする位手数の掛らぬ簡単な御設計であり、御自らお引きになった箱根美術館の御設計図は僅か二時間位でおかきになった位である。<br><br>よく専門家はあまりの簡単さに物足らぬように思ったり、専門的常識に外れた奇想天外の手法としてその成果を危ぶんだりして、つい自分の考えを加えては効果を害い、やり直しては竣工を後らすのも稀ではない。<br><br>御造園でも御建設でもお指図のまま進めれば非常に速く楽に出来上り、それでいて既成の最高水準をはるかに抜く斬新高邁な感覚の具現されるのにアッと驚く。<br><br>そして常に実際以上に費用のかかった如く豪華にみえるし、何の飾りっ気なくして年毎に深まる味わい。<br><br>魂を天国の清明境にあらしめずにおかぬあく事を知らぬ居心地は、ただ不思議にさえ思える神技の一大特色である。<br><br>そしてこれらの御活花、御造苑、御建築等を初めて拝見する如何なる人でも、その素晴しさに思わず仰天の声をあけ定めし大変な御苦心をなされたんでしょうなどと繰返さぬ人はないが、明主様は極めてお気軽にそして短時間におつくりになったものであることを説明しても決して信じ得る人はない。<br><br>それは丁度浄霊や自然農法の偉効を現実に見ても信じられない人や実際を割引してもなお信じられぬ人の心裡と似ている。<br><br>もっともそれは信徒である吾々の智能によってみても、如何に神智の御力によるとはいえ不思議な感がする位であって正に人間の推測の範囲を越えた御事と申し上ぐべきであろう。<br><br>これによっても明主様が今後お創りになる新文明世界は誰人も夢想も出来ぬ偉大なものであり、到底信じられぬ程の速度と安易さを以てなされるものであろうかがほのかに推考さるるのである。<br><br> 本教浄霊法は出来るだけ楽な気持で、力を抜いて行う程効果を増し、一生懸命になって手に力が入る程治りが悪くなる。<br><br>治りが悪い時は必ず手に力が入っているものと知るべきであるとは、とかく治そうとして一心になり勝ちの吾々に賜う御戒告である。<br><br>故に毒結の特に固いものや生死に関るような難症に接する場合ほどより楽な気持で、軽く行わねばならぬこととなる。<br><br>恐らくこれ程既成常識を打破する事実はあるまい。<br><br>ましてや三日間の教修によって一切の病原を知り、万病を治癒し得る力を与えらるるに比し、二千有余年に渉る進歩によっても風邪の真因さえ知らず、今十数年の研磨修練によっても真に病を治し得さしめぬ事や如何に疑いを抱こうとも楽々と何の苦痛も与えず驚異の偉効を奏し得るに対し、最上のものと信ぜしめて苦心惨憺病気悪化や弱体化等の悪結果を生むこと等々、浄霊医術と現代医学は比較するにはあまりに懸隔がありすぎる。<br><br>又施肥農法と自然農法の労作の難易と結果の比においても同様である。<br><br>この驚異の事実は到底既成常識の尺度を以て測ることは出来ない。<br><br> これらの事実によっても人類のため明主様のお造りになった天国の道、新しい真理は、想像出来ぬ程楽に行き、驚くべき効果を奏し得るものであり、如何に進歩せる高度のものであるかが知れるのである。<br><br>それは固より医学、農法に限らず今後世界へ御示しになる宗教芸術、政治、経済、教育等あらゆる一切の指針も最も楽に最大の成果を挙げ得るものであり、それらが具現さるる時新文明世界、真昼の大光明世界が実現さるるのである。<br><br> 夜の世界における人間社会は悪を主にする曲線的進歩をして来た故に極めて歩み難く、進歩の速度も決して高くはなかった。<br><br>夜の暗さの中に幸福や真理の光を求める強い意欲はともかく現在の文化を作って来たが、その文化も常に暗さに進路を阻まれて、多くは迷信や偽理を派生しそれを指針として驀進して来たのである。<br><br>昼の世界においては、善を主とする直線的進歩をすることとなる故に、曲線の迂遠を果てもなく蛇行する要がなく、しかも新文明の明るさは迷信や偽理の生じようもない故にさほど急がずとも非常な快速を以て進むこととなる。<br><br>いうまでもなく真昼の光明世界になるということは太陽神が現実界に顕現せられ、無限の大神力を発現せられることでもあるそしてこの光明の大神力の恵まいによって夜の暗黒で苦しみつつ地獄を作らねばならなかった人間の努力は次第に消滅されてゆき楽しみをつくる事におき替えられてゆく事となる。<br><br>すでに太陽光は続々と照らされ始め、現実に昼間の世界に入った今こそ人類は消滅さるべき苦行の努力を続けるの愚に目覚め、一日も早く限りなき大御恵に浴すべきである。<br><br> 結局、苦行によって苦悩を生むと、易行によって幸楽を生む、これが夜昼両世界の著しく相違する特色の一つといえる。<br><br>吾々は今後の明るさに応じて行方や頭脳を変えてゆかねばならない。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Caminho do Paraíso: A Senda da Simplicidade Divina</h2>
 <p>Tudo o que Meishu-Sama realiza pode ser considerado uma manifestação do próprio Deus Supremo. Sinto-me, portanto, quase reverentemente temeroso em apresentar exemplos concretos, como se tal ato fosse uma inadequação. Contudo, é notório que, em todas as Suas atividades, Ele emprega métodos de extrema simplicidade e máxima eficiência, gerando resultados de grandiosidade assombrosa. Tal realidade pode ser constatada não apenas na maneira serena com que conduz o inédito Plano Divino para o mundo, mas também no fato de salvar inúmeras vidas através do ideograma da Luz, que caligrafa em meros sete segundos. O mesmo princípio se aplica às Suas composições florais, aos Seus jardins e às Suas obras arquitetônicas.</p>
@@ -106,5 +258,48 @@ function toggleLang(lang) {
 <p>Já no Mundo do Dia, o avanço se dará de forma linear, com o bem como seu centro. Assim, não haverá necessidade de percorrer os desvios e sinuosidades intermináveis da trajetória curvilínea. Ademais, a claridade da nova civilização impedirá o surgimento de superstições e falsas verdades, permitindo que o progresso ocorra a uma velocidade extraordinária, mesmo sem a necessidade de pressa.</p>
 <p>A chegada do Mundo do Grande Resplendor do Dia significa, evidentemente, que o Deus do Sol se manifesta no mundo material, irradiando Seu infinito Poder Divino. Sob a graça dessa Luz, o esforço humano que, na escuridão da noite, inevitavelmente gerava o inferno através do sofrimento, será gradualmente extinto e substituído pela criação da alegria. A Luz do Sol já começou a brilhar de forma contínua e, agora que de fato adentramos o Mundo do Dia, a humanidade precisa despertar para a tolice de persistir em um esforço que só gera sofrimento, um vestígio que deveria ser extinto. É tempo de, o mais rápido possível, banhar-se na infinita e grandiosa Graça Divina.</p>
 <p>Em suma, a prática árdua que gera o sofrimento em contraste com a prática simples que gera a felicidade — eis uma das diferenças mais notáveis entre o Mundo da Noite e o Mundo do Dia. Diante da claridade que se aproxima, temos o dever de transformar nossa maneira de agir e de pensar.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 天国の道 （二） 井上超生 『栄光』231号、昭和28(1953)年10月21日発行 明主様の遊ばされる御事は、すべて最高神御自らなし給うものと申し上ぐべく今これを事例の如く挙げ奉るのば甚だしく当らぬような恐れ多い感がするが、何事でも最も楽な極度に能率的御手法で、驚くべき大効果をおつくりになるのを拝する。<br/><br/>それは空前の世界経綸を余裕綽々としてなされている実際によっても肯かれる筈であるが、僅か七秒間でお書きになる御光の文字によって無数の人命をお救いになる事実によっても明らかである。<br/><br/>その他御活花、御造苑、御建築等を挙げてみてもそうである。<br/><br/>如何なる御活花でも御一作に五分以上おかけになることなくして、何人も歎賞の辞なき神技の美をおつくりになる。<br/><br/> 又箱根熱海の御造苑にしても、一木一草一石たりとも明主様の御意のまま成ったのは本教人には周知のことであるが、そのお指図はたまになさるだけで、特に両地とも御留守になる半年の間は、極大事な点だけ一二度御覧になるのみでありしかも実に簡明な御指示で、むしろ急いだり無理したがる吾々の気持が常に食いちがう程楽な御手法である。<br/><br/>又御建築にしてもいつも建築担当者が唖然とする位手数の掛らぬ簡単な御設計であり、御自らお引きになった箱根美術館の御設計図は僅か二時間位でおかきになった位である。<br/><br/>よく専門家はあまりの簡単さに物足らぬように思ったり、専門的常識に外れた奇想天外の手法としてその成果を危ぶんだりして、つい自分の考えを加えては効果を害い、やり直しては竣工を後らすのも稀ではない。<br/><br/>御造園でも御建設でもお指図のまま進めれば非常に速く楽に出来上り、それでいて既成の最高水準をはるかに抜く斬新高邁な感覚の具現されるのにアッと驚く。<br/><br/>そして常に実際以上に費用のかかった如く豪華にみえるし、何の飾りっ気なくして年毎に深まる味わい。<br/><br/>魂を天国の清明境にあらしめずにおかぬあく事を知らぬ居心地は、ただ不思議にさえ思える神技の一大特色である。<br/><br/>そしてこれらの御活花、御造苑、御建築等を初めて拝見する如何なる人でも、その素晴しさに思わず仰天の声をあけ定めし大変な御苦心をなされたんでしょうなどと繰返さぬ人はないが、明主様は極めてお気軽にそして短時間におつくりになったものであることを説明しても決して信じ得る人はない。<br/><br/>それは丁度浄霊や自然農法の偉効を現実に見ても信じられない人や実際を割引してもなお信じられぬ人の心裡と似ている。<br/><br/>もっともそれは信徒である吾々の智能によってみても、如何に神智の御力によるとはいえ不思議な感がする位であって正に人間の推測の範囲を越えた御事と申し上ぐべきであろう。<br/><br/>これによっても明主様が今後お創りになる新文明世界は誰人も夢想も出来ぬ偉大なものであり、到底信じられぬ程の速度と安易さを以てなされるものであろうかがほのかに推考さるるのである。<br/><br/> 本教浄霊法は出来るだけ楽な気持で、力を抜いて行う程効果を増し、一生懸命になって手に力が入る程治りが悪くなる。<br/><br/>治りが悪い時は必ず手に力が入っているものと知るべきであるとは、とかく治そうとして一心になり勝ちの吾々に賜う御戒告である。<br/><br/>故に毒結の特に固いものや生死に関るような難症に接する場合ほどより楽な気持で、軽く行わねばならぬこととなる。<br/><br/>恐らくこれ程既成常識を打破する事実はあるまい。<br/><br/>ましてや三日間の教修によって一切の病原を知り、万病を治癒し得る力を与えらるるに比し、二千有余年に渉る進歩によっても風邪の真因さえ知らず、今十数年の研磨修練によっても真に病を治し得さしめぬ事や如何に疑いを抱こうとも楽々と何の苦痛も与えず驚異の偉効を奏し得るに対し、最上のものと信ぜしめて苦心惨憺病気悪化や弱体化等の悪結果を生むこと等々、浄霊医術と現代医学は比較するにはあまりに懸隔がありすぎる。<br/><br/>又施肥農法と自然農法の労作の難易と結果の比においても同様である。<br/><br/>この驚異の事実は到底既成常識の尺度を以て測ることは出来ない。<br/><br/> これらの事実によっても人類のため明主様のお造りになった天国の道、新しい真理は、想像出来ぬ程楽に行き、驚くべき効果を奏し得るものであり、如何に進歩せる高度のものであるかが知れるのである。<br/><br/>それは固より医学、農法に限らず今後世界へ御示しになる宗教芸術、政治、経済、教育等あらゆる一切の指針も最も楽に最大の成果を挙げ得るものであり、それらが具現さるる時新文明世界、真昼の大光明世界が実現さるるのである。<br/><br/> 夜の世界における人間社会は悪を主にする曲線的進歩をして来た故に極めて歩み難く、進歩の速度も決して高くはなかった。<br/><br/>夜の暗さの中に幸福や真理の光を求める強い意欲はともかく現在の文化を作って来たが、その文化も常に暗さに進路を阻まれて、多くは迷信や偽理を派生しそれを指針として驀進して来たのである。<br/><br/>昼の世界においては、善を主とする直線的進歩をすることとなる故に、曲線の迂遠を果てもなく蛇行する要がなく、しかも新文明の明るさは迷信や偽理の生じようもない故にさほど急がずとも非常な快速を以て進むこととなる。<br/><br/>いうまでもなく真昼の光明世界になるということは太陽神が現実界に顕現せられ、無限の大神力を発現せられることでもあるそしてこの光明の大神力の恵まいによって夜の暗黒で苦しみつつ地獄を作らねばならなかった人間の努力は次第に消滅されてゆき楽しみをつくる事におき替えられてゆく事となる。<br/><br/>すでに太陽光は続々と照らされ始め、現実に昼間の世界に入った今こそ人類は消滅さるべき苦行の努力を続けるの愚に目覚め、一日も早く限りなき大御恵に浴すべきである。<br/><br/> 結局、苦行によって苦悩を生むと、易行によって幸楽を生む、これが夜昼両世界の著しく相違する特色の一つといえる。<br/><br/>吾々は今後の明るさに応じて行方や頭脳を変えてゆかねばならない。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

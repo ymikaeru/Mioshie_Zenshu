@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>syoni06</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 小児病 ・病患と医学の誤謬二十一 『明日の医術 第二編』昭和18(1943)年10月5日発行 最後に、小児に特有な病気を概略説明してみよう。<br><br>それはまず疫痢、麻疹、百日咳、肺炎、喘息、脱腸、小児麻痺、ジフテリヤを重なるものとし、その他種々の病気がある。<br><br> 疫痢は、小児に最も多く、最も恐るべき病気とされている。<br><br>今まで何ら異状のなかったものが、突如として元気喪失し、盛んに欠伸（あくび）をなし、又は眠がり、眼に力がなく、食欲も皆無となり、多少の発熱もあって嘔吐があれば、まず疫痢と見なして差支えないのである。<br><br>そうして重症においては、頻繁なる嘔吐、痙攣、眼球の引吊り等があって、早きは拾数時間にして生命を落すのであるから恐ろしいのである。<br><br>そうしてこの病気の原因は、急激な浄化作用であって、その毒素は最初胃に集溜すると共に脳を犯すのである。<br><br>幸い生命を取止むるとして、一、二日を経て、下痢によって毒素が排泄さるるのであるが、下痢が起れば最早生命の危険はないと思っていいのである。<br><br>医療においては、近来注射療法を重に行うがこれは成績頗る悪しく、恐らく九十パーセント以上は結果不良であろう。<br><br>しかも、最も不可である事は、発病するや直ちに蓖麻子（ひまし）油を、服用さす事である。<br><br>何となれば、毒素が胃中にある時服用させても、箆麻子油は、右の毒素をそのままにして通過し、腸に入って腸内の残存物及び宿便を排除するに過ぎないからであると共に、不自然な手段によって腸を害するからである。<br><br> 私が治療時代、疫痢は例外なくそのことごとくが全治したのである。<br><br>しかも施術は一、二回であるから、その日又は翌日は快癒し、平常と異ならないまでになるので、その速かなる偉効に近親者は驚歎するのである。<br><br>しかるにその際、箆麻子油の服用又は注射をしたものは、それだけ治癒が後れるのである。<br><br>そうして、本治療においても、発病後半日以内ならば必ず治癒するが、拾時間以上を経たものは治癒困難な場合がある。<br><br> 麻疹 この病気は、他に異常がないのに、数日間発熱が持続して、それから発（おこ）るのが普通である。<br><br>これは生理的浄化作用であるから、放任しておいても大抵は治るのであって一時に発疹する程いいのである。<br><br>この際外出したり、風にあてたりすると、発疹を妨げるから良くないので注意すべきである。<br><br>そうして麻疹（はしか）そのものは危険がないが、斃（たお）れるとすれば余病即ち肺炎によってである。<br><br>その他の余病としては中耳炎、血膜炎等である。<br><br>しかし、これらも放任しておけばほとんど治癒するのである。<br><br> これも、本治療によれば、一回の施術によって全身的に発疹し、二、三日で全治し、余病など決して発らないのである。<br><br> 百日咳 百日咳も多い病気であって、強烈な持続的咳嗽によって、白い泡のごときものを旺（さか）んに嘔吐するのであるが、それが百日咳特有の毒素である。<br><br>この先天的毒素を全部体外へ排泄するのに百日位かかるので百日咳というのである。<br><br>そうして右のごとく、強烈な咳嗽及び嘔吐の場合、その苦悶の状、見るに忍びざる程で母親は痛心するのである。<br><br>又百日咳の特徴は、咳嗽の際息を引く時に、一種の音を発するのである。<br><br>医療においては、咳嗽を止める事に腐心して、毒素の排除を止めて固めようとするが、これは実に誤っているのである。<br><br>万一医療の目的のごとく毒素が固まったとすれば、いずれはそれの浄化作用が起る――それが肺炎又は喘息となるのである。<br><br>小児喘息は右の原因が多いのである。<br><br> 私の治療の時は、十日間位で、ほとんど全治したので、私は百日咳ではなく、十日咳であるとよく言ったものである。<br><br> 喘息 小児喘息（ぜんそく）は、前項のごとき原因が多いのであるが、その他の原因としては遺伝である。<br><br>そうして小児喘息は、そのほとんどは横隔膜辺から胃及び肝臓の外部へかけての毒素溜結であって、これは放任しておけば、成人するに従い自然治癒するものである。<br><br>又、背面腎臓部より心臓部裏面にかけて溜結毒素があり、その浄化作用による事もある。<br><br> 肺炎 小児の肺炎は、百日咳を固めた結果と、麻疹の場合と、肺臓の周囲又はその一部に集溜せる毒素の猛烈な浄化作用とである。<br><br>特に小児においては呼吸逼迫（ひっぱく）、喘音、不快感等が著るしいので、近親者は恐怖し、痛心するのである。<br><br>しかし、医療においては、あらゆる浄化作用停止方法を行うから、不良の結果が多いのである。<br><br>むしろ放任しておいた方が、治癒率は多いであろう。<br><br>本療法によれば、一週間とはかからないで、完全に治癒するのである。<br><br>そうしてこの病気は、痰の排除されただけは軽快するのであるから、痰の排除を促進する療法であれば必ず治癒するのである。<br><br> 脱腸 この病気も小児には多いのであるが、老人にもたまたまあるのである。<br><br>そうしてこの病気は、人により軽重がはなはだしく、軽症においては、成人するに従い自然治癒するが、重症は治癒が困難で、医療においては手術をなし、軽症は脱腸帯を使用させるのである。<br><br>この病気の原因は腹膜部における局部的毒素溜結が腸を圧迫する為逸脱するか又は恥骨の左右のあなのいずれかの方が先天的大きい場合発（おこ）るのである。<br><br> 重症においては、男子は腸の垂下が睾丸にまで及ぶので、そういうのは治癒が困難である。<br><br>この病気の手術は多くは結果良好であるから、私としても手術を推奨する事もある。<br><br>そうして本療法においては、腹膜の毒素溜結を溶解し腸の活動を旺盛にさせるのであるから、相当の時日を要するが、ほとんど治癒するのである。<br><br>又脱腸帯は相当の効果がある。<br><br> その他の小児病としては、湿疹、皮膚病、頭瘡、顔面瘡等もあるが、これらも自然治癒が最も確実である。<br><br>特に顔面瘡の場合、眼球を犯され、はなはだしきは盲目となるかと疑わるる程のものもあるが、これらも自然によって完全に治癒するのである。<br><br> 又、生れて間もなく嬰児（えいじ）が急に食欲減退すると共に嘔吐をする事がある。<br><br>そうして嘔吐の際血液が混じている事がある。<br><br>これはいかなる原因かというと、嬰児が母体から出生の際古血を飲下し、それが時を経て排泄されるのであるから、全部排泄さるれば平常のごとくなるのである。<br><br>しかるに、原因を知らない医師も母親も、病的吐血と誤解し、おどろくのであるがこれは心得ておくべきである。<br><br> その他の症状としては、不気〔機〕嫌、不眠、憤（むず）かり、脳膜炎等であるが、これはさきに述べたから略する。<br><br>以前私が経験した病気に面白いのがあった。<br><br>それは抱くと必ず泣くという嬰児である。<br><br>それはよく診査すると、肋間神経痛があったので、抱くとそこを圧迫するから痛む、それで泣くのであった。<br><br>故に、その部を治療するやたちまち全治したのであった。<br><br> 小児麻痺も多い病気であるが、これは霊的原因であるから、後篇に詳しく説く事とする。<br><br> ジフテリヤも右と同様であるから後篇に譲る事とする。<br><br> 次に、小児の便通に対しよく浣腸（かんちょう）を行うがこれは大いに不可である。<br><br>浣腸の結果、逆作用を起し、便秘する事になる。<br><br>便秘するから、浣腸を行う。<br><br>浣腸を行うから便秘するというようになるので、これらも、反自然の為である。<br><br>ここに面白い事は、浣腸に因る便秘は、肛門の口許が秘結する事で、この事によってみても、浣腸の為の秘結がよく判るのである。<br><br>人間は生れながらにして、自然便通があるべく造られてあるのであるから、浣腸などの必要はないのである。<br><br>もし浣腸をしなければ便通がないとしたなら、昔の小児はどうであったろうか。<br><br>昔の小児は便秘で困ったという事を誰も聞いた者はあるまい。<br><br>全く、現代医学の理念は解するに苦しむのである。<br><br> 私は、幾人もの腹部が腹膜炎のごとく膨大した児童を扱った事がある。<br><br>それは生後間もない時から、浣腸によって便通をつけ、それが癖になって、浣腸を行わなければ絶対に便通がないというようになり、その結果漸次、腹部が膨大するのである。<br><br>そうして、浣腸によって便通をつければ幾分縮小するがそうでないと膨大するのであるがこれは瓦斯（ガス）が放出しない為である。<br><br>これによってみても、いかに浣腸が有害であるかを知るであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>As Doenças Infantis e os Equívocos da Medicina</h2>
 <p>Para finalizar, abordarei, em linhas gerais, as doenças próprias da infância. As principais são a disenteria infantil, o sarampo, a coqueluche, a pneumonia, a asma, a hérnia, a paralisia infantil e a difteria, além de várias outras enfermidades.</p>
@@ -115,5 +267,48 @@ function toggleLang(lang) {
 <p>O mesmo se aplica à difteria, que será abordada mais adiante.</p>
 <p>Por fim, é comum o uso de enemas para regular o trânsito intestinal das crianças, o que é algo terminantemente desaconselhável. O enema provoca um efeito reverso, resultando em constipação. Cria-se um ciclo vicioso: o enema é aplicado porque há constipação, e a constipação se agrava porque o enema é aplicado. Tudo isso é fruto de uma prática antinatural. Um fato interessante é que a constipação causada por enemas se manifesta como um bloqueio logo na abertura do ânus, o que evidencia sua causa. O ser humano foi criado para ter um funcionamento intestinal natural desde o nascimento, não havendo necessidade de intervenções como o enema. Se fosse assim, como teria sido com as crianças de antigamente? Certamente ninguém jamais ouviu dizer que as crianças do passado sofriam de constipação. Em verdade, a lógica da medicina moderna é de difícil compreensão.</p>
 <p>Já tratei de várias crianças cujo abdômen se encontrava distendido como se tivessem peritonite. Desde cedo, o intestino delas foi habituado a funcionar por meio de enemas, o que se tornou um vício, a ponto de a evacuação ser absolutamente impossível sem o procedimento. Como resultado, o abdômen foi se dilatando progressivamente. Quando um enema era aplicado, o volume diminuía um pouco, mas logo voltava a aumentar. Isso ocorre porque os gases não são liberados. Este exemplo demonstra o quão prejudicial é o uso de enemas.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 小児病 ・病患と医学の誤謬二十一 『明日の医術 第二編』昭和18(1943)年10月5日発行 最後に、小児に特有な病気を概略説明してみよう。<br/><br/>それはまず疫痢、麻疹、百日咳、肺炎、喘息、脱腸、小児麻痺、ジフテリヤを重なるものとし、その他種々の病気がある。<br/><br/> 疫痢は、小児に最も多く、最も恐るべき病気とされている。<br/><br/>今まで何ら異状のなかったものが、突如として元気喪失し、盛んに欠伸（あくび）をなし、又は眠がり、眼に力がなく、食欲も皆無となり、多少の発熱もあって嘔吐があれば、まず疫痢と見なして差支えないのである。<br/><br/>そうして重症においては、頻繁なる嘔吐、痙攣、眼球の引吊り等があって、早きは拾数時間にして生命を落すのであるから恐ろしいのである。<br/><br/>そうしてこの病気の原因は、急激な浄化作用であって、その毒素は最初胃に集溜すると共に脳を犯すのである。<br/><br/>幸い生命を取止むるとして、一、二日を経て、下痢によって毒素が排泄さるるのであるが、下痢が起れば最早生命の危険はないと思っていいのである。<br/><br/>医療においては、近来注射療法を重に行うがこれは成績頗る悪しく、恐らく九十パーセント以上は結果不良であろう。<br/><br/>しかも、最も不可である事は、発病するや直ちに蓖麻子（ひまし）油を、服用さす事である。<br/><br/>何となれば、毒素が胃中にある時服用させても、箆麻子油は、右の毒素をそのままにして通過し、腸に入って腸内の残存物及び宿便を排除するに過ぎないからであると共に、不自然な手段によって腸を害するからである。<br/><br/> 私が治療時代、疫痢は例外なくそのことごとくが全治したのである。<br/><br/>しかも施術は一、二回であるから、その日又は翌日は快癒し、平常と異ならないまでになるので、その速かなる偉効に近親者は驚歎するのである。<br/><br/>しかるにその際、箆麻子油の服用又は注射をしたものは、それだけ治癒が後れるのである。<br/><br/>そうして、本治療においても、発病後半日以内ならば必ず治癒するが、拾時間以上を経たものは治癒困難な場合がある。<br/><br/> 麻疹 この病気は、他に異常がないのに、数日間発熱が持続して、それから発（おこ）るのが普通である。<br/><br/>これは生理的浄化作用であるから、放任しておいても大抵は治るのであって一時に発疹する程いいのである。<br/><br/>この際外出したり、風にあてたりすると、発疹を妨げるから良くないので注意すべきである。<br/><br/>そうして麻疹（はしか）そのものは危険がないが、斃（たお）れるとすれば余病即ち肺炎によってである。<br/><br/>その他の余病としては中耳炎、血膜炎等である。<br/><br/>しかし、これらも放任しておけばほとんど治癒するのである。<br/><br/> これも、本治療によれば、一回の施術によって全身的に発疹し、二、三日で全治し、余病など決して発らないのである。<br/><br/> 百日咳 百日咳も多い病気であって、強烈な持続的咳嗽によって、白い泡のごときものを旺（さか）んに嘔吐するのであるが、それが百日咳特有の毒素である。<br/><br/>この先天的毒素を全部体外へ排泄するのに百日位かかるので百日咳というのである。<br/><br/>そうして右のごとく、強烈な咳嗽及び嘔吐の場合、その苦悶の状、見るに忍びざる程で母親は痛心するのである。<br/><br/>又百日咳の特徴は、咳嗽の際息を引く時に、一種の音を発するのである。<br/><br/>医療においては、咳嗽を止める事に腐心して、毒素の排除を止めて固めようとするが、これは実に誤っているのである。<br/><br/>万一医療の目的のごとく毒素が固まったとすれば、いずれはそれの浄化作用が起る――それが肺炎又は喘息となるのである。<br/><br/>小児喘息は右の原因が多いのである。<br/><br/> 私の治療の時は、十日間位で、ほとんど全治したので、私は百日咳ではなく、十日咳であるとよく言ったものである。<br/><br/> 喘息 小児喘息（ぜんそく）は、前項のごとき原因が多いのであるが、その他の原因としては遺伝である。<br/><br/>そうして小児喘息は、そのほとんどは横隔膜辺から胃及び肝臓の外部へかけての毒素溜結であって、これは放任しておけば、成人するに従い自然治癒するものである。<br/><br/>又、背面腎臓部より心臓部裏面にかけて溜結毒素があり、その浄化作用による事もある。<br/><br/> 肺炎 小児の肺炎は、百日咳を固めた結果と、麻疹の場合と、肺臓の周囲又はその一部に集溜せる毒素の猛烈な浄化作用とである。<br/><br/>特に小児においては呼吸逼迫（ひっぱく）、喘音、不快感等が著るしいので、近親者は恐怖し、痛心するのである。<br/><br/>しかし、医療においては、あらゆる浄化作用停止方法を行うから、不良の結果が多いのである。<br/><br/>むしろ放任しておいた方が、治癒率は多いであろう。<br/><br/>本療法によれば、一週間とはかからないで、完全に治癒するのである。<br/><br/>そうしてこの病気は、痰の排除されただけは軽快するのであるから、痰の排除を促進する療法であれば必ず治癒するのである。<br/><br/> 脱腸 この病気も小児には多いのであるが、老人にもたまたまあるのである。<br/><br/>そうしてこの病気は、人により軽重がはなはだしく、軽症においては、成人するに従い自然治癒するが、重症は治癒が困難で、医療においては手術をなし、軽症は脱腸帯を使用させるのである。<br/><br/>この病気の原因は腹膜部における局部的毒素溜結が腸を圧迫する為逸脱するか又は恥骨の左右のあなのいずれかの方が先天的大きい場合発（おこ）るのである。<br/><br/> 重症においては、男子は腸の垂下が睾丸にまで及ぶので、そういうのは治癒が困難である。<br/><br/>この病気の手術は多くは結果良好であるから、私としても手術を推奨する事もある。<br/><br/>そうして本療法においては、腹膜の毒素溜結を溶解し腸の活動を旺盛にさせるのであるから、相当の時日を要するが、ほとんど治癒するのである。<br/><br/>又脱腸帯は相当の効果がある。<br/><br/> その他の小児病としては、湿疹、皮膚病、頭瘡、顔面瘡等もあるが、これらも自然治癒が最も確実である。<br/><br/>特に顔面瘡の場合、眼球を犯され、はなはだしきは盲目となるかと疑わるる程のものもあるが、これらも自然によって完全に治癒するのである。<br/><br/> 又、生れて間もなく嬰児（えいじ）が急に食欲減退すると共に嘔吐をする事がある。<br/><br/>そうして嘔吐の際血液が混じている事がある。<br/><br/>これはいかなる原因かというと、嬰児が母体から出生の際古血を飲下し、それが時を経て排泄されるのであるから、全部排泄さるれば平常のごとくなるのである。<br/><br/>しかるに、原因を知らない医師も母親も、病的吐血と誤解し、おどろくのであるがこれは心得ておくべきである。<br/><br/> その他の症状としては、不気〔機〕嫌、不眠、憤（むず）かり、脳膜炎等であるが、これはさきに述べたから略する。<br/><br/>以前私が経験した病気に面白いのがあった。<br/><br/>それは抱くと必ず泣くという嬰児である。<br/><br/>それはよく診査すると、肋間神経痛があったので、抱くとそこを圧迫するから痛む、それで泣くのであった。<br/><br/>故に、その部を治療するやたちまち全治したのであった。<br/><br/> 小児麻痺も多い病気であるが、これは霊的原因であるから、後篇に詳しく説く事とする。<br/><br/> ジフテリヤも右と同様であるから後篇に譲る事とする。<br/><br/> 次に、小児の便通に対しよく浣腸（かんちょう）を行うがこれは大いに不可である。<br/><br/>浣腸の結果、逆作用を起し、便秘する事になる。<br/><br/>便秘するから、浣腸を行う。<br/><br/>浣腸を行うから便秘するというようになるので、これらも、反自然の為である。<br/><br/>ここに面白い事は、浣腸に因る便秘は、肛門の口許が秘結する事で、この事によってみても、浣腸の為の秘結がよく判るのである。<br/><br/>人間は生れながらにして、自然便通があるべく造られてあるのであるから、浣腸などの必要はないのである。<br/><br/>もし浣腸をしなければ便通がないとしたなら、昔の小児はどうであったろうか。<br/><br/>昔の小児は便秘で困ったという事を誰も聞いた者はあるまい。<br/><br/>全く、現代医学の理念は解するに苦しむのである。<br/><br/> 私は、幾人もの腹部が腹膜炎のごとく膨大した児童を扱った事がある。<br/><br/>それは生後間もない時から、浣腸によって便通をつけ、それが癖になって、浣腸を行わなければ絶対に便通がないというようになり、その結果漸次、腹部が膨大するのである。<br/><br/>そうして、浣腸によって便通をつければ幾分縮小するがそうでないと膨大するのであるがこれは瓦斯（ガス）が放出しない為である。<br/><br/>これによってみても、いかに浣腸が有害であるかを知るであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>tengok05</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 天国的宗教と地獄的宗教 『栄光』127号、昭和26(1951)年10月24日発行 世間宗教とさえいえば、その信仰者は精神的にも肉体的にも、多大の恩恵を蒙り、安心立命を得て、幸福な家庭が作れるものと信じ、それにつれて社会も国家もよくなり、この世は天国楽土になるという理想を目標として、一意専心拝んでいるのは衆知の通りであるが、ここに誰も気が付かない重要な事柄があるからかいてみるが、それは宗教にも天国的宗教と地獄的宗教の差別のある事である。<br><br> それについて遠慮なくいえば、今日までの宗教はことごとくといいたい程地獄的宗教であって、真に天国的宗教はなかったといってもいいのである。<br><br>としたら我メシヤ教こそ、初めて生まれたところの天国的宗教である事は、言うまでもなく、従って今日までの宗教とは、何から何まで格段の異（ちが）いさである。<br><br> 信者は充分知っている事だが、本教がこれほど進んだ医学でも治らない病気を、訳なく治してしまう事実は、毎号本紙に満載している通りであるが、それはどんな人でも、数日間教修を受けただけで、驚くべき治的病能力を発揮出来るのである。<br><br>博士から見離された病人でも治せるし、自分で自分の病気も治せるので、ほとんど信じられないくらいである。<br><br>しかし事実は厳然たる事実であるから、疑う人はまず実地に触れてみられたいのである。<br><br>そのような訳で本教へ入信するや、月日が経つにつれて、自分も家族の者も日を逐（お）うて健康になってゆき、ついには病なき家庭となり、元気溌剌たる者のみになるので、一家は明るく、すべてが順調に運び、真に歓喜の生活者となるのである。<br><br>もちろん何年も何十年も、医者や薬の御厄介になっていたのが、全然縁切りとなってしまうから、経済上からも、精神上からいっても、その利益の莫大なる想像も出来ない程である。<br><br>これこそ全くの天国の救いであって、今日のごとき地獄の世の中に喘いでいる人は、到底信じ得られない程で、これこそ人間理想の夢の実現でなくて何であろう。<br><br> 右のような訳としたら、今の世の中の多くの信仰との異（ちが）いさである。<br><br>事実従来の宗教によっては熱心に信仰しても、病気に罹るのは一般人とほとんど同様で、止むなくお医者の御厄介になるが、容易に治らないばかりか、往々不幸な結果になる事もあるが、その場合寿命だから仕方がないと諦めてしまう。<br><br>そうかと思うと常日頃、ヤレ風邪を引くな、結核菌や伝染病菌に冒されるな、寝冷えをするな、暴飲暴食をするな等、何や彼や五月蝿（うるさ）い事ばかり言われ、戦々兢々とその日を送っているのが実状である。<br><br>しかも最も悲喜劇ともいうべきは、長年病床に在って呻吟（しんぎん）しながら、御当人は神に救われたといって満足している人をよく見受けるが、これなどは吾々からみると全く自己錯覚である。<br><br>このようになっても運命と諦め、無理に苦脳を押えつけ、強（し）いて満足しているという常識でちょっと考えられないこの観念を、信仰の御蔭と心得ているのだから可哀想なものである。<br><br>それでも御当人だけは精神的に救われたとしても、周囲や家族の者は、実に惨めなものである。<br><br>御本人もそれを知らない事はあるまいが、肉体的苦痛の余り、そんな事を考える余裕すらないのであろう。<br><br>これを一言にして言えば、精神は救われても肉体は救われないという訳で、言わば半分救われて、後の半分は救われないのである。<br><br>従って真に救われたという事は、霊肉共に救われる事であるが、こういう宗教は恐らく世界にないであろう。<br><br>このような訳でせめて半分だけでも救われたいと思って、既成宗教の信仰者となるのだから、天国とはおよそ遠去かっている事で、ヤハリ地獄的救いでしかないのである。<br><br>何よりも今日大宗教となると、ほとんど病院を経営しているにみて明らかである。<br><br>しかも社会はこれを是認し、立派な宗教事業と心得ているのだから困ったものである。<br><br>何となればその宗教に治病の力が全然ない事を表白している以外の何物でもないからである。<br><br>本来なれば科学より宗教の方が形而上（けいじじょう）の存在であるべきだが、これでは宗教の方が科学以下になってしまっている。<br><br>一言にしていえば宗教としての生命は喪失してしまった訳である。<br><br>これに引換え本教の特色である病気治しの成績であるが、事実科学ではどうにも治らない患者を、ドシドシ治している。<br><br>これこそ生命ある宗教と言わずして何ぞやである。<br><br> 次に本教は芸術を大いに奨励している。<br><br>恐らく既成宗教も数あるが、本教くらい芸術に重きを置いているものは外にあるまい。<br><br>というのはいつもいう通り、天国とは芸術の世界であるからで、すなわち芸術は真善美の中の美である以上、最も重要なものである。<br><br>言うまでもなく、人間にとって美から受ける感化は軽視出来ないものがある。<br><br>美によって心を楽しませると共に、知らず識らずの内に品性を向上させ、平和愛好の思想が醸成されるからである。<br><br>この事は大自然を見てもよく判る。<br><br>まず第一は山水の美である。<br><br>四季折々の旅行等から受ける景観の美は、常日頃の穢れを洗い浄め、元気を快復し、明朗なる精神を育（はぐく）み、しかも歴史上の智識をも豊富にされるのである。<br><br>またいかなる町でも村でも至るところの木々の緑、花の色、百鳥（ももとり）の囀（さえず）り、春の野に舞う蝶々、秋虫の集（すだ）く情緒等々、人間を娯しませるあらゆるものは地に充ちている。<br><br>天を仰げば日月星辰（せいしん）の輝きは、人の心をして悠久な神秘境に誘（いざな）うのである。<br><br>としたらこれら一切は深い神意の表われでなくして何であろう。<br><br>その他飲食（おんじき）にしても山の幸海の幸はもちろん、人間の味覚を楽しませるものの、いかに多いかである。<br><br>取り分け言いたい事は、人間についての美である。<br><br>舞い踊る姿、唄う声の麗（うるわ）しさ、スポーツマンの均整美、女性の裸体美は固（もと）より、人間天与の技能としての絵画、彫刻を始め、種々の美術工芸、建築、庭園美等々、これらも数え上げれば限りない程であって、全くこの世界には自然と人間の美が充ち溢れている。<br><br>これらを見て考えられる事は、神の御意志の那辺（なへん）にあるかで、言うまでもなく将来天国を造るべく、その要素の準備でなくて何であろうと思われるのである。<br><br> 私はこの意味においての一模型として、現在地上天国を造りつつあるが、この構想はあらゆる自然と人工美を綜合調和させたもので、今日まで何人も試みた事のない画期的新芸術品であろう。<br><br>これによって万人神意を覚り、人生の歓びを深からしめ、心性の向上に大いに役立たせんとするのであるから、これをもってみても本教こそ天国的宗教である事が分るであろう。<br><br> ところが、既成宗教においては、この美の観念に対しては、昔から実に無関心であった。<br><br>否反って美を否定する事が、宗教本来のもののように錯覚して来た事である。<br><br>それは大抵な宗教信者は、熱心であればある程粗衣粗食、茅屋（あばらや）に住み、最低生活に甘んじているのである。<br><br>これでは全く真善美ではなく、真善醜といってもよかろう。<br><br>こういう信者の家庭に入ると、何となく湿っぽく陰欝（いんうつ）であり、全く地獄の感がするのは衆知の通りで、これを吾々は信仰地獄といいたいのである。<br><br>その頭で吾々の方を見るから分りようはずがない。<br><br>何しろ地獄の眼で見る以上、本教のやり方が間違っているように思えるのであるが、実はこの観方こそ恐るべき迷信である。<br><br>従って、この迷信を打破し、目醒めさせ、天国的宗教こそ真の宗教である事を、認識させたいのである。<br><br> こうみてくると、厄介なのは現代の世相である。<br><br>それは科学迷信ばかりではなく、宗教迷信も加わって、地獄世界を作っているのであるから、この盲点を充分判らせなければならないのである。<br><br>それには宗教以上の超宗教、すなわち天国的宗教が出現する事であって、それが我メシヤ教である事を明言するのである。<br><br>その理由こそ今までは夜の世界であったがためで、いよいよ昼の世界に転換せんとする、今天国創造の大使命をもって生まれたのが我メシヤ教である事を知るであろう。<br><br> (注) 呻吟（しんぎん）苦しみうめくこと。<br><br> 形而上（けいじじょう） 形をもっていないもの。<br><br>哲学で、時間・空間の形式を制約とする感性を介した経験によっては認識できないもの。<br><br>超自然的、理念的なもの。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Religião Paradisíaca e Religião Infernal</h2>
 <p>É crença generalizada que as religiões, por meio da fé, são capazes de conceder aos seus seguidores incontáveis graças espirituais e físicas, proporcionando-lhes paz de espírito e um destino seguro. Acredita-se que, a partir disso, lares felizes possam ser construídos, a sociedade e a nação prosperem e, finalmente, este mundo se transforme em um paraíso de plena felicidade. Movidos por esse ideal, os fiéis dedicam-se fervorosamente às suas práticas, como é do conhecimento de todos.</p>
@@ -109,5 +261,48 @@ function toggleLang(lang) {
 <p>É natural que, partindo dessa perspectiva, não consigam nos compreender. Observando com os olhos do inferno, nosso modo de atuar lhes parece equivocado. Na realidade, essa visão é uma superstição terrível. Nossa missão é, portanto, romper com essa superstição, despertar as pessoas e fazê-las reconhecer que a verdadeira religião é aquela de natureza paradisíaca.</p>
 <p>Analisando sob essa ótica, o panorama do mundo contemporâneo é deveras problemático. O mundo infernal em que vivemos foi forjado não apenas pela superstição científica, mas também pela superstição religiosa. É crucial que as pessoas se deem conta desse ponto cego. Para tanto, é necessária a vinda de uma super-religião, algo que transcenda as religiões convencionais: uma religião de natureza paradisíaca.</p>
 <p>E eu afirmo que essa religião é a nossa, a Igreja Messiânica. A razão para isso é que, até o presente momento, vivíamos no Mundo da Noite. Estamos, agora, no limiar da transição para o Mundo do Dia. Todos compreenderão que a Igreja Messiânica nasceu com a sublime missão de construir o Paraíso neste exato momento da História.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 天国的宗教と地獄的宗教 『栄光』127号、昭和26(1951)年10月24日発行 世間宗教とさえいえば、その信仰者は精神的にも肉体的にも、多大の恩恵を蒙り、安心立命を得て、幸福な家庭が作れるものと信じ、それにつれて社会も国家もよくなり、この世は天国楽土になるという理想を目標として、一意専心拝んでいるのは衆知の通りであるが、ここに誰も気が付かない重要な事柄があるからかいてみるが、それは宗教にも天国的宗教と地獄的宗教の差別のある事である。<br/><br/> それについて遠慮なくいえば、今日までの宗教はことごとくといいたい程地獄的宗教であって、真に天国的宗教はなかったといってもいいのである。<br/><br/>としたら我メシヤ教こそ、初めて生まれたところの天国的宗教である事は、言うまでもなく、従って今日までの宗教とは、何から何まで格段の異（ちが）いさである。<br/><br/> 信者は充分知っている事だが、本教がこれほど進んだ医学でも治らない病気を、訳なく治してしまう事実は、毎号本紙に満載している通りであるが、それはどんな人でも、数日間教修を受けただけで、驚くべき治的病能力を発揮出来るのである。<br/><br/>博士から見離された病人でも治せるし、自分で自分の病気も治せるので、ほとんど信じられないくらいである。<br/><br/>しかし事実は厳然たる事実であるから、疑う人はまず実地に触れてみられたいのである。<br/><br/>そのような訳で本教へ入信するや、月日が経つにつれて、自分も家族の者も日を逐（お）うて健康になってゆき、ついには病なき家庭となり、元気溌剌たる者のみになるので、一家は明るく、すべてが順調に運び、真に歓喜の生活者となるのである。<br/><br/>もちろん何年も何十年も、医者や薬の御厄介になっていたのが、全然縁切りとなってしまうから、経済上からも、精神上からいっても、その利益の莫大なる想像も出来ない程である。<br/><br/>これこそ全くの天国の救いであって、今日のごとき地獄の世の中に喘いでいる人は、到底信じ得られない程で、これこそ人間理想の夢の実現でなくて何であろう。<br/><br/> 右のような訳としたら、今の世の中の多くの信仰との異（ちが）いさである。<br/><br/>事実従来の宗教によっては熱心に信仰しても、病気に罹るのは一般人とほとんど同様で、止むなくお医者の御厄介になるが、容易に治らないばかりか、往々不幸な結果になる事もあるが、その場合寿命だから仕方がないと諦めてしまう。<br/><br/>そうかと思うと常日頃、ヤレ風邪を引くな、結核菌や伝染病菌に冒されるな、寝冷えをするな、暴飲暴食をするな等、何や彼や五月蝿（うるさ）い事ばかり言われ、戦々兢々とその日を送っているのが実状である。<br/><br/>しかも最も悲喜劇ともいうべきは、長年病床に在って呻吟（しんぎん）しながら、御当人は神に救われたといって満足している人をよく見受けるが、これなどは吾々からみると全く自己錯覚である。<br/><br/>このようになっても運命と諦め、無理に苦脳を押えつけ、強（し）いて満足しているという常識でちょっと考えられないこの観念を、信仰の御蔭と心得ているのだから可哀想なものである。<br/><br/>それでも御当人だけは精神的に救われたとしても、周囲や家族の者は、実に惨めなものである。<br/><br/>御本人もそれを知らない事はあるまいが、肉体的苦痛の余り、そんな事を考える余裕すらないのであろう。<br/><br/>これを一言にして言えば、精神は救われても肉体は救われないという訳で、言わば半分救われて、後の半分は救われないのである。<br/><br/>従って真に救われたという事は、霊肉共に救われる事であるが、こういう宗教は恐らく世界にないであろう。<br/><br/>このような訳でせめて半分だけでも救われたいと思って、既成宗教の信仰者となるのだから、天国とはおよそ遠去かっている事で、ヤハリ地獄的救いでしかないのである。<br/><br/>何よりも今日大宗教となると、ほとんど病院を経営しているにみて明らかである。<br/><br/>しかも社会はこれを是認し、立派な宗教事業と心得ているのだから困ったものである。<br/><br/>何となればその宗教に治病の力が全然ない事を表白している以外の何物でもないからである。<br/><br/>本来なれば科学より宗教の方が形而上（けいじじょう）の存在であるべきだが、これでは宗教の方が科学以下になってしまっている。<br/><br/>一言にしていえば宗教としての生命は喪失してしまった訳である。<br/><br/>これに引換え本教の特色である病気治しの成績であるが、事実科学ではどうにも治らない患者を、ドシドシ治している。<br/><br/>これこそ生命ある宗教と言わずして何ぞやである。<br/><br/> 次に本教は芸術を大いに奨励している。<br/><br/>恐らく既成宗教も数あるが、本教くらい芸術に重きを置いているものは外にあるまい。<br/><br/>というのはいつもいう通り、天国とは芸術の世界であるからで、すなわち芸術は真善美の中の美である以上、最も重要なものである。<br/><br/>言うまでもなく、人間にとって美から受ける感化は軽視出来ないものがある。<br/><br/>美によって心を楽しませると共に、知らず識らずの内に品性を向上させ、平和愛好の思想が醸成されるからである。<br/><br/>この事は大自然を見てもよく判る。<br/><br/>まず第一は山水の美である。<br/><br/>四季折々の旅行等から受ける景観の美は、常日頃の穢れを洗い浄め、元気を快復し、明朗なる精神を育（はぐく）み、しかも歴史上の智識をも豊富にされるのである。<br/><br/>またいかなる町でも村でも至るところの木々の緑、花の色、百鳥（ももとり）の囀（さえず）り、春の野に舞う蝶々、秋虫の集（すだ）く情緒等々、人間を娯しませるあらゆるものは地に充ちている。<br/><br/>天を仰げば日月星辰（せいしん）の輝きは、人の心をして悠久な神秘境に誘（いざな）うのである。<br/><br/>としたらこれら一切は深い神意の表われでなくして何であろう。<br/><br/>その他飲食（おんじき）にしても山の幸海の幸はもちろん、人間の味覚を楽しませるものの、いかに多いかである。<br/><br/>取り分け言いたい事は、人間についての美である。<br/><br/>舞い踊る姿、唄う声の麗（うるわ）しさ、スポーツマンの均整美、女性の裸体美は固（もと）より、人間天与の技能としての絵画、彫刻を始め、種々の美術工芸、建築、庭園美等々、これらも数え上げれば限りない程であって、全くこの世界には自然と人間の美が充ち溢れている。<br/><br/>これらを見て考えられる事は、神の御意志の那辺（なへん）にあるかで、言うまでもなく将来天国を造るべく、その要素の準備でなくて何であろうと思われるのである。<br/><br/> 私はこの意味においての一模型として、現在地上天国を造りつつあるが、この構想はあらゆる自然と人工美を綜合調和させたもので、今日まで何人も試みた事のない画期的新芸術品であろう。<br/><br/>これによって万人神意を覚り、人生の歓びを深からしめ、心性の向上に大いに役立たせんとするのであるから、これをもってみても本教こそ天国的宗教である事が分るであろう。<br/><br/> ところが、既成宗教においては、この美の観念に対しては、昔から実に無関心であった。<br/><br/>否反って美を否定する事が、宗教本来のもののように錯覚して来た事である。<br/><br/>それは大抵な宗教信者は、熱心であればある程粗衣粗食、茅屋（あばらや）に住み、最低生活に甘んじているのである。<br/><br/>これでは全く真善美ではなく、真善醜といってもよかろう。<br/><br/>こういう信者の家庭に入ると、何となく湿っぽく陰欝（いんうつ）であり、全く地獄の感がするのは衆知の通りで、これを吾々は信仰地獄といいたいのである。<br/><br/>その頭で吾々の方を見るから分りようはずがない。<br/><br/>何しろ地獄の眼で見る以上、本教のやり方が間違っているように思えるのであるが、実はこの観方こそ恐るべき迷信である。<br/><br/>従って、この迷信を打破し、目醒めさせ、天国的宗教こそ真の宗教である事を、認識させたいのである。<br/><br/> こうみてくると、厄介なのは現代の世相である。<br/><br/>それは科学迷信ばかりではなく、宗教迷信も加わって、地獄世界を作っているのであるから、この盲点を充分判らせなければならないのである。<br/><br/>それには宗教以上の超宗教、すなわち天国的宗教が出現する事であって、それが我メシヤ教である事を明言するのである。<br/><br/>その理由こそ今までは夜の世界であったがためで、いよいよ昼の世界に転換せんとする、今天国創造の大使命をもって生まれたのが我メシヤ教である事を知るであろう。<br/><br/> (注) 呻吟（しんぎん）苦しみうめくこと。<br/><br/> 形而上（けいじじょう） 形をもっていないもの。<br/><br/>哲学で、時間・空間の形式を制約とする感性を介した経験によっては認識できないもの。<br/><br/>超自然的、理念的なもの。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

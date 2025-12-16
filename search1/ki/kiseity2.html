@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kiseity2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寄生虫問題 『自然農法解説』昭和26(1951)年1月15日発行 人も知るごとく寄生虫問題は、今日非常に喧（やかま）しく言われている。<br><br>何しろ蛔虫（かいちゅう）保有者が日本人中、八○パーセント以上というのだから実に重大問題である。<br><br>蛔虫保有者が余りに多いため、反って世人はあまり関心をもたないが、実際上蛔虫によって死亡する者も、近来少なくないという事である。<br><br>普通蛔虫といえば数匹にすぎないが、人によっては数十匹ないし数百匹に上るものさえある。<br><br>こうなるとちょうどうどん玉のようになっていて、内臓機関へまで食い込んでゆくが、そうなると種々の苦痛が発する。<br><br>しかも人によってはその苦痛たるや、実に堪えられないものがある。<br><br>この原因は無論糞尿肥料によって、医学でも唱えるごとく蛔虫の卵が、野菜から人間の口を通じて胃に入り繁殖するのである。<br><br>ところがその他の蟯虫（ぎょうちゅう）、十二指腸虫、疥癬虫、水虫等々いずれも小虫の繁殖によるのであるが、医学ではいまだ病原不明とされているが、私の研究によれば、実は人為肥料のためで、直接の原因ではないが、人肥によって血液が濁るから小虫が湧くのである。<br><br>この点パスツールの伝染説の誤れる事は、私は以前記いた事がある。<br><br>大体、人体に虫が湧くなどとは道理に合わないのである。<br><br>なるほど、死人ならとにかく、生きている人間に虫が湧くなどとは、不合理もはなはだしいと言わねばならない。<br><br>それは全く人間が天理に外れているからで、体内へ入れるべからざる不潔なものを入れ、血液を濁すからである。<br><br>この意味において、人間は新鮮な空気を吸い、清浄な水を飲み、不純物のない土から生じたものを食しかつ薬剤のごとき異物をなるべく用いないようにすれば、無病息災たる事はもちろんで、寿齢も百歳以上は決して不可能ではないのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Questão dos Parasitas</h2>
 <p>É de conhecimento geral que a questão dos parasitas tem sido amplamente debatida em nossos dias. Afinal, o fato de mais de 80% da população japonesa ser portadora de lombrigas constitui um problema de extrema gravidade. Contudo, devido à prevalência tão elevada, as pessoas, paradoxalmente, não lhe conferem a devida atenção, embora, na prática, o número de óbitos decorrentes de tais infestações não tenha sido pequeno nos últimos tempos.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>A causa, evidentemente, reside no uso de adubo de fezes humanas. Conforme a própria medicina reconhece, os ovos das lombrigas presentes nesse fertilizante contaminam os vegetais e, por meio da ingestão, alojam-se no estômago, onde se reproduzem. Entretanto, no que tange a outros parasitas como os oxiúros, os ancilóstomos, a sarna e as micoses — todos decorrentes da proliferação de pequenos vermes —, a medicina ainda os considera de causa desconhecida. Segundo minhas pesquisas, contudo, a verdadeira origem está no emprego de fertilizantes artificiais. Ainda que não seja a causa direta, o uso de dejetos humanos como adubo turva o sangue, criando as condições para que esses pequenos vermes brotem no organismo.</p>
 <p>A esse respeito, já tive a oportunidade de escrever anteriormente sobre o equívoco da teoria da contaminação de Pasteur. Em princípio, a ideia de que vermes possam brotar espontaneamente no corpo humano contraria a lógica. De fato, em um cadáver, tal fenômeno seria compreensível; todavia, que vermes surjam em um ser humano vivo é algo que se deve qualificar como sumamente ilógico.</p>
 <p>Isso ocorre unicamente porque o ser humano se desvia da Lei da Natureza ao introduzir em seu organismo substâncias impuras que jamais deveriam ser ingeridas e que, por consequência, turvam o seu sangue. Nesse sentido, se a humanidade se dedicasse a respirar ar puro, a beber água límpida e a consumir alimentos oriundos de um solo isento de impurezas, evitando ao máximo o uso de substâncias estranhas ao corpo, como os medicamentos, a saúde e o bem-estar seriam uma consequência natural. Alcançar uma longevidade superior a cem anos estaria, portanto, longe de ser uma impossibilidade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寄生虫問題 『自然農法解説』昭和26(1951)年1月15日発行 人も知るごとく寄生虫問題は、今日非常に喧（やかま）しく言われている。<br/><br/>何しろ蛔虫（かいちゅう）保有者が日本人中、八○パーセント以上というのだから実に重大問題である。<br/><br/>蛔虫保有者が余りに多いため、反って世人はあまり関心をもたないが、実際上蛔虫によって死亡する者も、近来少なくないという事である。<br/><br/>普通蛔虫といえば数匹にすぎないが、人によっては数十匹ないし数百匹に上るものさえある。<br/><br/>こうなるとちょうどうどん玉のようになっていて、内臓機関へまで食い込んでゆくが、そうなると種々の苦痛が発する。<br/><br/>しかも人によってはその苦痛たるや、実に堪えられないものがある。<br/><br/>この原因は無論糞尿肥料によって、医学でも唱えるごとく蛔虫の卵が、野菜から人間の口を通じて胃に入り繁殖するのである。<br/><br/>ところがその他の蟯虫（ぎょうちゅう）、十二指腸虫、疥癬虫、水虫等々いずれも小虫の繁殖によるのであるが、医学ではいまだ病原不明とされているが、私の研究によれば、実は人為肥料のためで、直接の原因ではないが、人肥によって血液が濁るから小虫が湧くのである。<br/><br/>この点パスツールの伝染説の誤れる事は、私は以前記いた事がある。<br/><br/>大体、人体に虫が湧くなどとは道理に合わないのである。<br/><br/>なるほど、死人ならとにかく、生きている人間に虫が湧くなどとは、不合理もはなはだしいと言わねばならない。<br/><br/>それは全く人間が天理に外れているからで、体内へ入れるべからざる不潔なものを入れ、血液を濁すからである。<br/><br/>この意味において、人間は新鮮な空気を吸い、清浄な水を飲み、不純物のない土から生じたものを食しかつ薬剤のごとき異物をなるべく用いないようにすれば、無病息災たる事はもちろんで、寿齢も百歳以上は決して不可能ではないのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kekkak09</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核信仰療法に就いて 『栄光』204号、昭和28(1953)年4月15日発行 私は今回発行した結核信仰療法なる著書について、少しかいてみたいと思うが、これを読めば分る通り、全く現代医学に対する原子爆弾であり、挑戦状といっていいかも知れない。<br><br>しかし挑戦の言葉は宗教らしからぬ嫌な感じがするが、これも万（ばん）止むを得ないであろう。<br><br>というのは、このような著書を出さねばならない程に、医学の誤謬のために大多数の人間が苦しんでいるからである。<br><br>そのため私が神から命ぜられている救世の必要上、人類不幸の原因としてのあらゆるものは、除去しなければならないからである。<br><br>というのは現在文化の面において、真理にあらざるものを真理と信じている。<br><br>それが災いの原因となっているのであって、特に医学の面において最もはなはだしいのであるから、これを先に取上げたのである。<br><br>その中での日本の悩みとしては、何といっても結核問題であろう。<br><br> 著書にもある通り、現代医学が結核を作るという驚くべき説と、この裏付として数多くの実例を添えてあるに対し、初めて読んだ専門家も一般人も、愕然（がくぜん）として到底信ずる事は出来ないであろう。<br><br>事程それ程現代人は医学迷信に陥っているのである。<br><br>しかしながら事実治された本人の手記である以上、一点の疑いを挿（さしはさ）む余地はないのはもちろん、いかなる学者といえども、事実を否定してまで、自説を押通す事は出来まい。<br><br>というのは絶対真理であるからである。<br><br> この著が天下に公表され、専門家が読むとしたら果してどんな感想が浮ぶであろう。<br><br>全く革命的爆弾を打（ぶ）っつけられたようなもので、唖然（あぜん）として何らの考えも浮ばないであろう。<br><br>何しろ長い間の医学迷信の虜（とりこ）となっている眼で見る以上、信ずるどころではないと共に反対しようもあるまい。<br><br>何しろその理由も資料もないからで、ここに深刻なジレンマに陥（おちい）ってしまい、空前の大問題とならざるを得ないであろう。<br><br>私とてもこのような大きな問題を起したくは毫（ごう）もないが、私の使命たるや人類救済であり、その根本が医学の革命である以上、どこまでもその方針で進まざるを得ないという訳で、一度はこの問題に打（ぶ）っつかるのは、予（あらかじ）め予期していた。<br><br> という意味において当局も専門家も、私の説が段々分るに従い、重大問題として取上げない訳にはゆくまいから、その対策にいかに頭を悩ますかは想像に難（かた）からないのである。<br><br>としたら問題解決は不可能であるから、容易ならぬ事態に立至るのは必然である。<br><br> しかもこの解決いかんによっては、当然医事関係者中に、多くの犠牲者を出さねばならない事になろうが、事は人類永遠の生命に関する重大問題である以上、ある程度の犠牲は止むを得ないのである。<br><br>何しろ全人類の最大悩みである病が、これによって解決出来るとしたら、いかなる障礙（しょうげ）も物の数ではない。<br><br>その結果現代文明の一大転換が起るのは明らかである。<br><br>そうして面白い事には、彼（か）の有名なコペルニクスやガリレオの地動説である。<br><br>当時絶対信じられていた宗教上の不動説を、科学によって覆（くつが）えそうとしたので、ついに大弾圧を受け、牢獄にまで投ぜられた。<br><br>ところが私の説も右と同様ではあるが、ただ立場が反対であって、今度は宗教が科学を覆えそうとするのであるから、この点大いに注目する必要があろう。<br><br> そうしてこの前代未聞の企画者こそ主神である以上、人間としてはどうにもならないのはもちろんで、私といえども神に操（あやつ）られているにすぎないのである。<br><br>しかし神を認めない人の多い今日、人間の計画と思うでもあろうが、もしそうだとすれば、これ程科学の盲点を発見し、その裏付けまで出来るという事は不可能である。<br><br>従って読者は既成観念を棄て、白紙になって精読すれば、豁然（かつぜん）と目覚めるであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Terapia da Fé para a Tuberculose</h2>
 <p>Gostaria de tecer alguns comentários sobre a obra que publiquei recentemente, intitulada <em>A Terapia da Fé para a Tuberculose</em>. Esta obra representa, em verdade, uma bomba atômica contra a medicina moderna, podendo ser considerada um verdadeiro desafio. Contudo, a palavra "desafio" pode soar desagradável e inadequada para uma religião, mas, dadas as circunstâncias, é um passo inevitável. A razão para tal reside no fato de que um número esmagador de pessoas padece em virtude dos equívocos da medicina. Nesse sentido, a missão de salvação que me foi confiada por Deus exige que eu elimine todas as causas da infelicidade humana. Com efeito, no panorama da cultura atual, aquilo que não corresponde à Verdade é tido como verdadeiro. Tal distorção é a origem de grandes calamidades, e, por ser mais acentuada no campo da medicina, decidi abordá-la prioritariamente. E, dentro deste contexto, o maior flagelo que assola o Japão é, sem dúvida, a tuberculose.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Nesse contexto, à medida que as autoridades e os especialistas começarem a compreender a minha tese, não terão como evitar tratá-la como uma questão da mais alta gravidade. Não é difícil, pois, imaginar o quão penosamente buscarão uma solução. Entretanto, a solução para o problema lhes será impossível, sendo, por conseguinte, inevitável o surgimento de uma situação de extrema complexidade.</p>
 <p>Ademais, dependendo do desfecho, será preciso que haja muitas baixas entre os profissionais da área médica. Contudo, por se tratar de uma questão crucial que envolve a vida eterna da humanidade, um certo grau de sacrifício faz-se necessário. Afinal, se por este meio for possível solucionar a doença, o maior tormento de toda a humanidade, nenhum obstáculo terá importância. Como consequência, é evidente que se operará uma grande transição na civilização moderna. Um paralelo interessante pode ser traçado com a famosa teoria heliocêntrica de Copérnico e Galileu. Naquela época, eles tentaram derrubar, por meio da ciência, a teoria geocêntrica, que era um dogma religioso inabalável, e por isso sofreram severa perseguição, sendo até mesmo lançados à prisão. Minha tese assemelha-se à deles, porém, a posição é inversa: desta vez, é a religião que se levanta para derrubar a ciência. Este é um ponto que merece a máxima atenção.</p>
 <p>Sendo o próprio Deus Supremo o autor deste plano sem precedentes, é evidente que o ser humano nada pode fazer a respeito. Até mesmo eu sou apenas um instrumento em Suas mãos. Sei que, nos dias de hoje, em que muitos não reconhecem a existência de Deus, poderão pensar que tudo não passa de um plano humano. Todavia, se assim fosse, seria impossível descobrir os pontos cegos da ciência com tamanha precisão e, ainda mais, apresentar as provas que os confirmam. Portanto, conclamo o leitor a abandonar suas noções preestabelecidas e, de mente aberta, dedicar-se a uma leitura atenta. Agindo assim, ele certamente experimentará um súbito e profundo despertar.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核信仰療法に就いて 『栄光』204号、昭和28(1953)年4月15日発行 私は今回発行した結核信仰療法なる著書について、少しかいてみたいと思うが、これを読めば分る通り、全く現代医学に対する原子爆弾であり、挑戦状といっていいかも知れない。<br/><br/>しかし挑戦の言葉は宗教らしからぬ嫌な感じがするが、これも万（ばん）止むを得ないであろう。<br/><br/>というのは、このような著書を出さねばならない程に、医学の誤謬のために大多数の人間が苦しんでいるからである。<br/><br/>そのため私が神から命ぜられている救世の必要上、人類不幸の原因としてのあらゆるものは、除去しなければならないからである。<br/><br/>というのは現在文化の面において、真理にあらざるものを真理と信じている。<br/><br/>それが災いの原因となっているのであって、特に医学の面において最もはなはだしいのであるから、これを先に取上げたのである。<br/><br/>その中での日本の悩みとしては、何といっても結核問題であろう。<br/><br/> 著書にもある通り、現代医学が結核を作るという驚くべき説と、この裏付として数多くの実例を添えてあるに対し、初めて読んだ専門家も一般人も、愕然（がくぜん）として到底信ずる事は出来ないであろう。<br/><br/>事程それ程現代人は医学迷信に陥っているのである。<br/><br/>しかしながら事実治された本人の手記である以上、一点の疑いを挿（さしはさ）む余地はないのはもちろん、いかなる学者といえども、事実を否定してまで、自説を押通す事は出来まい。<br/><br/>というのは絶対真理であるからである。<br/><br/> この著が天下に公表され、専門家が読むとしたら果してどんな感想が浮ぶであろう。<br/><br/>全く革命的爆弾を打（ぶ）っつけられたようなもので、唖然（あぜん）として何らの考えも浮ばないであろう。<br/><br/>何しろ長い間の医学迷信の虜（とりこ）となっている眼で見る以上、信ずるどころではないと共に反対しようもあるまい。<br/><br/>何しろその理由も資料もないからで、ここに深刻なジレンマに陥（おちい）ってしまい、空前の大問題とならざるを得ないであろう。<br/><br/>私とてもこのような大きな問題を起したくは毫（ごう）もないが、私の使命たるや人類救済であり、その根本が医学の革命である以上、どこまでもその方針で進まざるを得ないという訳で、一度はこの問題に打（ぶ）っつかるのは、予（あらかじ）め予期していた。<br/><br/> という意味において当局も専門家も、私の説が段々分るに従い、重大問題として取上げない訳にはゆくまいから、その対策にいかに頭を悩ますかは想像に難（かた）からないのである。<br/><br/>としたら問題解決は不可能であるから、容易ならぬ事態に立至るのは必然である。<br/><br/> しかもこの解決いかんによっては、当然医事関係者中に、多くの犠牲者を出さねばならない事になろうが、事は人類永遠の生命に関する重大問題である以上、ある程度の犠牲は止むを得ないのである。<br/><br/>何しろ全人類の最大悩みである病が、これによって解決出来るとしたら、いかなる障礙（しょうげ）も物の数ではない。<br/><br/>その結果現代文明の一大転換が起るのは明らかである。<br/><br/>そうして面白い事には、彼（か）の有名なコペルニクスやガリレオの地動説である。<br/><br/>当時絶対信じられていた宗教上の不動説を、科学によって覆（くつが）えそうとしたので、ついに大弾圧を受け、牢獄にまで投ぜられた。<br/><br/>ところが私の説も右と同様ではあるが、ただ立場が反対であって、今度は宗教が科学を覆えそうとするのであるから、この点大いに注目する必要があろう。<br/><br/> そうしてこの前代未聞の企画者こそ主神である以上、人間としてはどうにもならないのはもちろんで、私といえども神に操（あやつ）られているにすぎないのである。<br/><br/>しかし神を認めない人の多い今日、人間の計画と思うでもあろうが、もしそうだとすれば、これ程科学の盲点を発見し、その裏付けまで出来るという事は不可能である。<br/><br/>従って読者は既成観念を棄て、白紙になって精読すれば、豁然（かつぜん）と目覚めるであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

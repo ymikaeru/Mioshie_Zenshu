@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kekkak56</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核予防は不可能か 神医学を信ぜよ 『光』46号、昭和25(1950)年1月21日発行 旧臘（きゅうろう）報知新聞所載 結核予防法全面的に改める会社などで強制的な検診 結核による死亡率は年々減少しているが患者数は依然増加し、わが国から結核を徹底的に追放するためには強力な結核対策が必要となったので、厚生省ではこんど大正八年以来改正されていない現行の結核予防法を全面的に改正することになり、次期通常国会に改正案を提出する。<br><br> 改正される結核予防法は、従来の法的範囲を拡充強化し、患者の早期発見、治療方法などを積極的に国が指導援助し云々。<br><br> 右のごとき当局の方針をみる時、いつも思い出されるのは余程以前から同一の意味の宣言を時々発表するのである、ただこの前出した方針と異（ちが）う所は、この前は、ベッドの数が足りないから、これを何倍に殖やすとかいう事であったがその後どうなったか知る由もないが何年経っても相変らず当局は躍起となって多額の費用を支出し最善をつくしつつあるにかかわらず、ほとんど予期の効果は挙げ得ないのであるという事は、いかに的外れの事を大仕掛にやっているかを物語っており、最早気のつきそうなものと思われるのである、吾らから見れば実に歯がゆい限りで、到底黙視出来ないものがある。<br><br> しからば、いかなる点に誤謬があるかは常に吾らの口に筆に警告を与えているのであるが、当局も専門家も、雲煙過眼（うんえんかがん）しているのは察するところ、迷信邪説として一顧の価値だもないと決めているからであろう。<br><br>吾々が断えず医学の誤謬を指摘しつつあるのみならず、実際上日々幾万の患者を治癒快方に向かわせつつありその効果たるや医学の何倍、何十層倍に及ぶか測り知れない事実を患者自身の筆で審（つぶ）さに記録したものの無数の例を本教出版物に毎号満載し、光新聞は毎号数万を発行しつつあるのであるから、医に関係ある人士の眼にふれないはずはあるまい。<br><br> もし、吾らの説が事実に伴わない邪説とすれば大いに排撃すべきである、何となれば邪説をもって医学を非難し、人心を惑わすという事はゆるすべからざる罪悪であるからである、しかし右に反し吾らの言の通り、事実現代医学に比して画期的優秀さであるとしたら、断乎として、医学を放棄し、本教療法を採用し、結核問題解決の挙に出るべきである、医学の真の目的が人類救済にありとすれば、右の実行こそ公平なる措置と言うべきである、実にこの事程人類幸福の福音は他にあり得ないからである、一言にしていえば吾らの神医学によれば、結核の本体は明らかとなり、発病の機会は漸減し、感染の憂は全然なく、日本から結核を駆逐する事は、あえて難事ではないからで費用はほとんど零に等しいものである。<br><br> この文を当局及び専門家に呈上するのである。<br><br> (注) 旧臘（きゅうろう）、去年の十二月。<br><br>新年になってから用いる語。<br><br>「臘」は陰暦十二月の意味。<br><br> 雲煙過眼（うんえんかがん）、雲や煙が目の前を通り過ぎるときに心を動かさないように、物事に深く執着しないこと。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Seria Impossível Prevenir a Tuberculose?</h2>
 <p><em>Crede na Medicina Divina</em></p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Se nossos postulados não correspondessem à realidade e se constituíssem uma doutrina maligna, deveriam ser veementemente combatidos, pois ludibriar o coração das pessoas com heresias e críticas infundadas à medicina é um crime inaceitável. Por outro lado, se nossas palavras se provam verdadeiras e nosso método possui uma superioridade revolucionária em relação à medicina moderna, então as autoridades deveriam, com determinação, abdicar das práticas médicas convencionais e adotar a terapia de nossa Religião, como medida para solucionar a questão da tuberculose. Se o genuíno propósito da medicina é a salvação da humanidade, tal atitude seria a única medida justa e imparcial a ser tomada. Em verdade, não pode haver evangelho maior para a felicidade do ser humano.</p>
 <p>Em suma, por meio de nossa Medicina Divina, a verdadeira natureza da tuberculose se torna límpida, as oportunidades de manifestação da doença diminuem progressivamente e o temor do contágio é completamente eliminado. Erradicar a tuberculose do Japão não representa, em absoluto, uma tarefa árdua, e o custo para tal é praticamente nulo.</p>
 <p>Este artigo é dedicado às autoridades e aos especialistas da área.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核予防は不可能か 神医学を信ぜよ 『光』46号、昭和25(1950)年1月21日発行 旧臘（きゅうろう）報知新聞所載 結核予防法全面的に改める会社などで強制的な検診 結核による死亡率は年々減少しているが患者数は依然増加し、わが国から結核を徹底的に追放するためには強力な結核対策が必要となったので、厚生省ではこんど大正八年以来改正されていない現行の結核予防法を全面的に改正することになり、次期通常国会に改正案を提出する。<br/><br/> 改正される結核予防法は、従来の法的範囲を拡充強化し、患者の早期発見、治療方法などを積極的に国が指導援助し云々。<br/><br/> 右のごとき当局の方針をみる時、いつも思い出されるのは余程以前から同一の意味の宣言を時々発表するのである、ただこの前出した方針と異（ちが）う所は、この前は、ベッドの数が足りないから、これを何倍に殖やすとかいう事であったがその後どうなったか知る由もないが何年経っても相変らず当局は躍起となって多額の費用を支出し最善をつくしつつあるにかかわらず、ほとんど予期の効果は挙げ得ないのであるという事は、いかに的外れの事を大仕掛にやっているかを物語っており、最早気のつきそうなものと思われるのである、吾らから見れば実に歯がゆい限りで、到底黙視出来ないものがある。<br/><br/> しからば、いかなる点に誤謬があるかは常に吾らの口に筆に警告を与えているのであるが、当局も専門家も、雲煙過眼（うんえんかがん）しているのは察するところ、迷信邪説として一顧の価値だもないと決めているからであろう。<br/><br/>吾々が断えず医学の誤謬を指摘しつつあるのみならず、実際上日々幾万の患者を治癒快方に向かわせつつありその効果たるや医学の何倍、何十層倍に及ぶか測り知れない事実を患者自身の筆で審（つぶ）さに記録したものの無数の例を本教出版物に毎号満載し、光新聞は毎号数万を発行しつつあるのであるから、医に関係ある人士の眼にふれないはずはあるまい。<br/><br/> もし、吾らの説が事実に伴わない邪説とすれば大いに排撃すべきである、何となれば邪説をもって医学を非難し、人心を惑わすという事はゆるすべからざる罪悪であるからである、しかし右に反し吾らの言の通り、事実現代医学に比して画期的優秀さであるとしたら、断乎として、医学を放棄し、本教療法を採用し、結核問題解決の挙に出るべきである、医学の真の目的が人類救済にありとすれば、右の実行こそ公平なる措置と言うべきである、実にこの事程人類幸福の福音は他にあり得ないからである、一言にしていえば吾らの神医学によれば、結核の本体は明らかとなり、発病の機会は漸減し、感染の憂は全然なく、日本から結核を駆逐する事は、あえて難事ではないからで費用はほとんど零に等しいものである。<br/><br/> この文を当局及び専門家に呈上するのである。<br/><br/> (注) 旧臘（きゅうろう）、去年の十二月。<br/><br/>新年になってから用いる語。<br/><br/>「臘」は陰暦十二月の意味。<br/><br/> 雲煙過眼（うんえんかがん）、雲や煙が目の前を通り過ぎるときに心を動かさないように、物事に深く執着しないこと。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

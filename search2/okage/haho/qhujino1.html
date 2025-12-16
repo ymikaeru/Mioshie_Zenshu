@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qhujino1</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 不治の結核が二週間で 『結核信仰療法』昭和27(1952)年12月1日発行 島根県 神聖大教会 森 富枝（36） 昭和二十年終戦と共に本籍地の島根に引揚げ、当時は体重十七貫で誰にも負けない程の健康の持主でした。<br><br>洋裁を本業に、母と当時小学校二年の子供と三人暮しで貧しくも明るい家庭で御座居ましたが、二十二年春より病魔の住みつく家になりました。<br><br>母がカリエスになり、翌二十三年五月突然の喀血と共に私も絶対安静せねばならぬ身となりました。<br><br>この時の私共一家の悲歎は全く拙い筆では書き尽せません。<br><br> 五年生の男の子をたよりに、私共親子の療養生活は始まったのでございます。<br><br>母の方も私もはかばかしく有りませず、一進一退そのうち高知市に住む友人の心尽しで高知の病院で安静療養一年間を過しました。<br><br>大変快方に向って参りましたので、家の方も気になりますので退院し島根に帰りました。<br><br>（二十四年八月）旅行の疲れなのか翌日より発熱致し、一カ月もすれば熱も去るものと絶対安静に入りましたが、一カ月はおろか幾月たっても熱は去らず、食欲減退し、全く一年間の病院生活は無になって終いました。<br><br>以後一年四カ月間安静にし、大気栄養と心掛け、療養を続けましたが全く体は衰弱の一方で御座居ました。<br><br>二十五年十二月末頃、信仰雑話外数冊を読ませて頂き、光明如来様の偉大な御力に心を引かれ何とか御浄霊をお受け致したいものと念じました。<br><br>二十六年一月六日やっとの思いで五里程離れた簸川郡田儀村の因幡先生を訪れました。<br><br>偶然と言うか必然と言うか、丁度その時は例祭日で、兵庫県の三田より播磨先生がお見えになっておられ、本当に有難く思いました（その頃の私の体温は朝から七度二、三分ありました。<br><br>平熱は五度八分）。<br><br>三日間田儀に通わせて頂きましたが、先生の御計らいで隣村の入信者のお宅に毎夜御浄霊をお受けすべく通わせて頂きました。<br><br>隣村とは一里以上離れています。<br><br>絶安を続けていた私には毎夜二里からの徒歩は大変なものでした。<br><br> ただただ御光を慕う私には“有難い”の二字で満たされ、何ものも考えられませんでした。<br><br>家人はそうした姿に非常な不安を感じ、歎息を漏らしましたが、信ずるものを信じ生きる私の心は本当に今までの私ではなく、光明のごとく燦たるものが御座居ました。<br><br>雨の夜も雪の夜も通いました。<br><br>一月十三日の夜の事、雪空の夜は全く暗夜でしたので、歩行に難渋をきわめながら山の中程まで来たところ私の両肩より真白な光を発し、前途がとても明るくなりはっとしました。<br><br>後からの自動車のヘッドライトかとも思い、振り返りましたが、それらしいものも無く、その辺を見まわしても何も光を発するものとて御座居ません。<br><br>光なれば影が写し出されるものと、ぐるりを一まわり見まわしましたが、私の影はうつし出されていないのです。<br><br> 大光明如来様の御守護により、本当に奇蹟を頂いたのです。<br><br>これが奇蹟でなくて何でありましょう。<br><br>私はこの時頭の上から足の爪先まで痺れる程の感激でした。<br><br>一週間二週間、私はその頃より一日のうち一時間の安静で後は起きていれる程になりました。<br><br>一月二十六日、私にとりまして一生忘れられない喜びの日で御座居ました。<br><br>この日大阪の会長先生御越しになり、入信させて頂いたのでした。<br><br>入信後は毎日十人から二十人程浄霊させて頂き、ますます御力の尊さを覚らして頂きました。<br><br>五月八日の御面会日には熱海にお参りさせて頂き、明主様の御姿を拝し、全く感激一入なるものが御座居ました。<br><br>貧しき私ごとき者にも、これ程の大きなお恵みをお与え下さいます光明如来様に対しては、日毎夜毎感謝で過しております。<br><br> なお一カ年の病院生活で一応快くなった私が、高知より島根に帰った翌日より再発致しましてより、この度島根より熱海へお参りさせて頂きましたが何の苦痛もなく、益々元気で過さして頂いております。<br><br>この二つの相反する事実により、一層過去の禍ちとお道の尊さをわからして頂きました。<br><br>一家の支柱でなければならぬ私も、不治の結核と心静かにあきらめをつけていましたが、再び現世にて親子共々に光明如来様のお役にたてて頂けます事を無上の喜びと感謝に満ちて過させて頂いております。<br><br> その上母のカリエスも私の入信後非常に快方に向い、今では家事のすべてをやれるようになり、四月の二十四日には息子も入信させて頂き、光明輝く昔以上の明るい家庭になりました。<br><br> 大光明如来様有難う御座居ました。<br><br>明主様有難う御座居ました。<br><br>謹んで厚く厚く御礼申し上げます。<br><br> 明主様有難う御座居ました。<br><br> （二十六年十一月十八日提出）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A cura de uma tuberculose incurável em duas semanas</h2>
 <p><strong>Publicado em "Terapia da Fé para Tuberculose", 1º de dezembro de 1952</strong>
@@ -114,5 +269,48 @@ Meishu-Sama, muito obrigado.
 Expresso, com a máxima reverência, minha mais profunda e sincera gratidão.
 Meishu-Sama, muito obrigado.</p>
 <p>(Relato enviado em 18 de novembro de 1951)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 不治の結核が二週間で 『結核信仰療法』昭和27(1952)年12月1日発行 島根県 神聖大教会 森 富枝（36） 昭和二十年終戦と共に本籍地の島根に引揚げ、当時は体重十七貫で誰にも負けない程の健康の持主でした。<br/><br/>洋裁を本業に、母と当時小学校二年の子供と三人暮しで貧しくも明るい家庭で御座居ましたが、二十二年春より病魔の住みつく家になりました。<br/><br/>母がカリエスになり、翌二十三年五月突然の喀血と共に私も絶対安静せねばならぬ身となりました。<br/><br/>この時の私共一家の悲歎は全く拙い筆では書き尽せません。<br/><br/> 五年生の男の子をたよりに、私共親子の療養生活は始まったのでございます。<br/><br/>母の方も私もはかばかしく有りませず、一進一退そのうち高知市に住む友人の心尽しで高知の病院で安静療養一年間を過しました。<br/><br/>大変快方に向って参りましたので、家の方も気になりますので退院し島根に帰りました。<br/><br/>（二十四年八月）旅行の疲れなのか翌日より発熱致し、一カ月もすれば熱も去るものと絶対安静に入りましたが、一カ月はおろか幾月たっても熱は去らず、食欲減退し、全く一年間の病院生活は無になって終いました。<br/><br/>以後一年四カ月間安静にし、大気栄養と心掛け、療養を続けましたが全く体は衰弱の一方で御座居ました。<br/><br/>二十五年十二月末頃、信仰雑話外数冊を読ませて頂き、光明如来様の偉大な御力に心を引かれ何とか御浄霊をお受け致したいものと念じました。<br/><br/>二十六年一月六日やっとの思いで五里程離れた簸川郡田儀村の因幡先生を訪れました。<br/><br/>偶然と言うか必然と言うか、丁度その時は例祭日で、兵庫県の三田より播磨先生がお見えになっておられ、本当に有難く思いました（その頃の私の体温は朝から七度二、三分ありました。<br/><br/>平熱は五度八分）。<br/><br/>三日間田儀に通わせて頂きましたが、先生の御計らいで隣村の入信者のお宅に毎夜御浄霊をお受けすべく通わせて頂きました。<br/><br/>隣村とは一里以上離れています。<br/><br/>絶安を続けていた私には毎夜二里からの徒歩は大変なものでした。<br/><br/> ただただ御光を慕う私には“有難い”の二字で満たされ、何ものも考えられませんでした。<br/><br/>家人はそうした姿に非常な不安を感じ、歎息を漏らしましたが、信ずるものを信じ生きる私の心は本当に今までの私ではなく、光明のごとく燦たるものが御座居ました。<br/><br/>雨の夜も雪の夜も通いました。<br/><br/>一月十三日の夜の事、雪空の夜は全く暗夜でしたので、歩行に難渋をきわめながら山の中程まで来たところ私の両肩より真白な光を発し、前途がとても明るくなりはっとしました。<br/><br/>後からの自動車のヘッドライトかとも思い、振り返りましたが、それらしいものも無く、その辺を見まわしても何も光を発するものとて御座居ません。<br/><br/>光なれば影が写し出されるものと、ぐるりを一まわり見まわしましたが、私の影はうつし出されていないのです。<br/><br/> 大光明如来様の御守護により、本当に奇蹟を頂いたのです。<br/><br/>これが奇蹟でなくて何でありましょう。<br/><br/>私はこの時頭の上から足の爪先まで痺れる程の感激でした。<br/><br/>一週間二週間、私はその頃より一日のうち一時間の安静で後は起きていれる程になりました。<br/><br/>一月二十六日、私にとりまして一生忘れられない喜びの日で御座居ました。<br/><br/>この日大阪の会長先生御越しになり、入信させて頂いたのでした。<br/><br/>入信後は毎日十人から二十人程浄霊させて頂き、ますます御力の尊さを覚らして頂きました。<br/><br/>五月八日の御面会日には熱海にお参りさせて頂き、明主様の御姿を拝し、全く感激一入なるものが御座居ました。<br/><br/>貧しき私ごとき者にも、これ程の大きなお恵みをお与え下さいます光明如来様に対しては、日毎夜毎感謝で過しております。<br/><br/> なお一カ年の病院生活で一応快くなった私が、高知より島根に帰った翌日より再発致しましてより、この度島根より熱海へお参りさせて頂きましたが何の苦痛もなく、益々元気で過さして頂いております。<br/><br/>この二つの相反する事実により、一層過去の禍ちとお道の尊さをわからして頂きました。<br/><br/>一家の支柱でなければならぬ私も、不治の結核と心静かにあきらめをつけていましたが、再び現世にて親子共々に光明如来様のお役にたてて頂けます事を無上の喜びと感謝に満ちて過させて頂いております。<br/><br/> その上母のカリエスも私の入信後非常に快方に向い、今では家事のすべてをやれるようになり、四月の二十四日には息子も入信させて頂き、光明輝く昔以上の明るい家庭になりました。<br/><br/> 大光明如来様有難う御座居ました。<br/><br/>明主様有難う御座居ました。<br/><br/>謹んで厚く厚く御礼申し上げます。<br/><br/> 明主様有難う御座居ました。<br/><br/> （二十六年十一月十八日提出）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

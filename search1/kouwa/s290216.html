@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s290216</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S29年2月16日） 『御教え集』31号、昭和29(1954)年3月15日発行 昭和二十九年二月十六日 今日は、世界の情勢について少しお話をしようと思います。<br><br>世界はこれからどうなるのだ、というようなことを、時々聞かれることがあるのです。<br><br>そこでだいたいの見当をつけるという程度で、お話ししようと思います。<br><br>朝鮮問題も、片はつかないが、だいたい平和の色がだいぶ濃くなってきたには違いないが、そうかと言って、本当の平和が来るとは思えないです。<br><br>というのは、今の世界は、結局ソ連が引摺っているようなものです。<br><br>他の国は平和を望むという以外に別になにもないのですが、ただ“ソ連という国が、どうも気味が悪い。<br><br>いったいどういう考えを持っているのか。<br><br>どうしようというのか”ということは、世界中の誰もがそう思っているでしょう。<br><br>ただスターリン時代とよほど変わってはきているということは分かります。<br><br>スターリンは英雄的のところがあります。<br><br>わずかの間にソ連を統一した腕のあるところは、ちょうどヒトラーによく似てます。<br><br>そしてヒトラーよりもスターリンのほうが考えが深いです。<br><br>要するに利口だったです。<br><br>そのために、ドイツの国家を瓦解するようなあんな愚かなことはしなかった。<br><br>しかしそのやり口はある程度以上、そうとうに似ています。<br><br>これは今までのああいった、つまり武力を行使する、とにかく平和的でない英雄の一つの型でしょう。<br><br>そういうようで、とにかく世界の情勢は変わってきたが、しかしこれからいったいどうなるか。<br><br>いまヨーロッパでは四国会議ということをやってますが、あれも結局においてソ連が時を稼ぐというだけのものです。<br><br>だいたいソ連の最初の目的というものは、アジア全体を鉄のカーテンの中に入れようというのが目的なのです。<br><br>今でもやっぱりその目的でやっています。<br><br>その手始めとしたのが、中共が主になって北鮮をおどらして、南北朝鮮を合併させて、その情勢によっては日本まで手を伸ばそうというような野心も、なきにしもあらずと思われるのです。<br><br> そういうわけで、ただ朝鮮だけではなくて、結局アジア全体を鉄のカーテンの中に入れて、その次には世界の覇権を握ろうというわけです。<br><br>ところがアメリカが国際連合を作って、ウンと努力したので、とにかくくい止めてしまったのです。<br><br>それでなければ、釜山まで来たのですから危なかったのです。<br><br>とにかく押し返して敵の目的を打倒した、瓦解させたということは確かです。<br><br>ところがアイゼンハウアーが大統領になって、どうしても中共を本当にやっつけなければいけない、中共政府を打倒して、朝鮮を元通りに南北を一つにし、一方蒋介石を立たして両方から攻め、そうして朝鮮も中国も元通りにしなくてはならない、それには大いに準備をしなければならないというので、あらん限りの大攻撃の準備を始めたわけです。<br><br>それを知った中共は、これはたいへんだ、それにそうとう長い戦争をしたために随分疲弊しているのに、ここでまたアメリカに大仕掛けにやられたらひとたまりもない。<br><br>そうするとソ連の目的もふいになってしまうから、これはどうしてもしゃにむにアメリカの鋭鋒を押さえて、要するに緩和政策をしなくてはならない。<br><br>というのが、一昨年ソ連の大使のマリクが提案したわけです。<br><br>それから休戦とか停戦とか、いろんなことで来たが、結局、なにしろソ連の考えというものは一時的で、ただアメリカから、戦争をしかけられたらたいへんだ、勝ち目がないというので、本当の平和ではなくて、一時の曖昧きわまる、ただ戦争だけをしないというような形を作ろうというわけです。<br><br>だから朝鮮会議にしろ結局うやむやになっているわけです。<br><br>今度のヨーロッパの四国会議でも結局うやむやです。<br><br>なにしろ肚の中から平和にしようというのでなくて、自分に都合のよいように一時的敵の攻撃を避けようというのですから、変な形です。<br><br>それでも、英国やフランス、特に英国などは本気で平和になりそうだとやってますが、これはチョットおかしいと思うくらいです。<br><br>そういうようなわけで、結局中共は、今までの間だいぶ戦争を停戦していたために回復してきて、力が出てきたのです。<br><br>そこで方針を変えて、朝鮮の方はそのままにしておいて、中央アジアの方をやろうというので、最近はホー・チミン軍が攻勢の態度に出たのです。<br><br>この間のうちはフランスの方がだいぶ危なかったのですが、アメリカが飛行機やなにかをウンと出して助けたので小康は得ているようですが、なかなか楽観はできないです。<br><br>さっきのラジオニュースでは、Ｂ２９を二十機急遽インドシナの方に送ったとありました。<br><br>そういうわけで、これからあの辺がだいぶゴチャゴチャするだろうと思ってます。<br><br>もしかインドシナがやられると、今度はタイの方に出ますから、そこでタイでは今非常な防備をしているようです。<br><br>もしタイがやられると、今度はインドになりますが、インドは戦争はしないから、ただ柔順にソ連の配下になるというわけです。<br><br>そうすると鉄のカーテンはアジアの中央に拡がるわけです。<br><br>それではたいへんだというわけで、アメリカも腰を入れてくるでしょう。<br><br>しかしあんまり腰を入れると、第二の朝鮮のようになりますから、米国の世論が承知しないわけです。<br><br>ですからアメリカも非常に難しいわけです。<br><br>アイゼンハウアーも随分頭痛はち巻だと思います。<br><br>そういうわけで、ソ連の考えは……しかしソ連の考えどおりになるか、ならないかは今分かりませんが……結局インドからイラン、イラク、それからとにかくアラビアまで攻略して、そうして日本と南朝鮮を除いた一つの垣根を作る、要するに鉄のカーテンを作るという計画なのです。<br><br>そうなると今度は日本と南朝鮮をなんとかしなくてはならないということになりますが、今度はおそらく日本の方にすぐにかかりやしないかと思います。<br><br>日本の方にかかった方が有利です。<br><br>日本さえやっつければ、南朝鮮は挟み撃ちしてしまいますから、なんでもないです。<br><br>そこで日本をできるだけ骨を折らないようにやろうというので、それには日本の内部を弱らせなければならない。<br><br>それには日本の中に潜んでいる、いろんな共産党の連中をおどらさなければならないというので、非常に活躍してます。<br><br>そのために最近の新聞などを見ると、軍器を作っているのです。<br><br>ピストルとか機関銃だとかをほうぼうの山に隠れて拵えているということが出てます。<br><br> それと、一方さかんに、日本の製造工業を邪魔しなければならないので、ストライキを起こすべく非常に活躍しているというわけですが、それはほうぼうに実によく現われてます。<br><br>それから、青年、特に学生を大いに赤化しなければならないというので、それには学校の教授、教員というのをおどらせなければならない。<br><br>それをだいぶやろうとしているところを、政府が見抜いて、教員のいろんな……思想的に警戒しなければならない、と、そのためほうぼうに問題を起こしているようです。<br><br>そういうような具合で、平和だとか、だいぶ世界が緩和されたとか言って、日本は油断していることはできないわけです。<br><br>ここ当分はよいでしょうが、その先はなかなかで、とにかくソ連が日本を最後にやっつけるという考え、計画はドンドン進みつつあるのですから、それを見抜いたアメリカとしては、大いに軍備をしなければならないというので、日本の軍備に対して非常な努力をしてます。<br><br>そうすると、日本に軍備をさせてはソ連としては一番困るから、その軍備をさせないように邪魔しなければならない。<br><br>その総大将が社会党です。<br><br>特に表面に立っているのが社会党左派です。<br><br>左派の鈴木茂三郎君などが“軍備はいらない”ということを建前にしてます。<br><br>それはそれに違いないです。<br><br>というのは、鉄のカーテン内に日本を入れようというのですから、そうすればソ連が日本に戦争をしかけるということはないから、安全ですから軍備の必要はないわけです。<br><br>とにかく日本はソ連の配下になるか、あるいはアメリカの配下……配下ということは言えません。<br><br>アメリカは民主主義ですから……それになるか、その国民の考え方です。<br><br>だからそういうことも、とにかく日本人がみんな知らなければいけないのです。<br><br>そうして、そうなると日本人は、共産主義がよいか民主主義がよいかということを考えてみると、とにかく共産主義というものは、それこそ一握りの人間が支配するのですから……。<br><br>殊に中共などは一握りではない、何本かの指で押さえているようなものです。<br><br>だいたい毛沢東に周恩来（しゅうおんらい）に朱徳（しゅとく）と、この三人が牛耳っているようなものです。<br><br>そうして国民全体が菜っ葉服を着せられて、やられてはたまらないです。<br><br>それはただ労働して生きているばかりの生活ならそれでよいでしょうが、少し心ある者は満足できないというものですから、これは考えるまでもないです。<br><br>日本の将来はそういう運命におかれているということだけを知っておけばよいのです。<br><br> 今のは世界の情勢ですが、今度は、問題はもっと小さいが、とにかく国民の身近に起こっている問題は汚職問題です。<br><br>それについて書いてみました。<br><br> （御論文「汚職の母体」） 【栄光 二五〇号】 汚職問題というのは、今度知れただけではホンの氷山の一角で、これをホジクリ出したらたいへんな騒ぎになります。<br><br>昨日私はある人に会ったのですが、聞いてみると、一番最初ヤリ玉に上げられたのは山下汽船ですが、これが本当に拡がってゆくと、商船も郵船もやられてしまうわけです。<br><br>そうなったらたいへんだし、それからもう一つ、前の池田蔵相などが喚問されることになっていてゴテゴテして、さっぱりラチがあかないのですが、あれについても聞いてみますと、池田が喚問されると、どうしても重光に火がつくのだそうです。<br><br>そういえば最初改進党がいばって、大いにやるらしかったが、急に腰がくだけてしまったのです。<br><br>それでいま改進党は、その点はまるっきり自由党と同じようになってしまったのです。<br><br>自由党と了解し合ったようなことになってしまったのです。<br><br>それは重光が危ないからです。<br><br>そうすると、この問題が拡がると政治家の親玉が片っ端からやられてしまうことになります。<br><br>そこで政府は非常に困って、これをなんとか骨抜きにして、グジャグジャにしてしまおうと思っているのです。<br><br>そこで社会党の方はそうはさせまいとして、だいぶ活動しているようですが、しかしこれは社会党は数が少ないですから、とうてい形勢を挽回することはできないですが、しかしこういうことについては、さっき社会党を悪く言ったようなものだが、また良い働きもしているわけです。<br><br>政治界と経済界というのは、まったく腐りきっているのですが、この根本原因というものは、やっぱり無神思想です。<br><br>神はないというだけの話なのです。<br><br>神がないとすればそうやるのが本当です。<br><br>私でも、神がないということを本当に知れば、できるだけずるく、うまいことをして出世をしようとします……出世をするかどうかは分からないが……。<br><br>ところが神様を知ってしまった限り、これはどうしようもないです。<br><br>良いことをするよりないです。<br><br>それで、同じ良いことをするなら、できるだけ大きく良いことをする、つまり世界的良いことをするという、それが救世教になったわけです。<br><br>そういうわけで、なんとしても、問題は神があるかないかという、それだけの話です。<br><br>ところが神があるかないかということを教えるのが宗教ですが、宗教と言ってもいろいろありますが、本当にしっかりした、そういう神様を認めさせる力ある宗教は、大いに援助するのが本当です。<br><br>ところがそういう宗教の本当の面が分からない点がありますが、分からないということは、本当に調査研究しないから分からないので、そういうことをしないで、頭から“宗教なんて迷信だ、いけない”と決めているわけです。<br><br>そうすると、悪いことをした方が得だということになりますから、悪いことをすることになるのです。<br><br>どんな偉い人でも、教育がある人でも、それを認めない限りそうします。<br><br>ただ偉い人は上手にやる、引っかからないようにやるというだけのものです。<br><br>それが天下の政権を握るというわけです。<br><br>今天下の巨頭にしても、ただ引っかからないようにやるという、上手で智恵があるだけです。<br><br>それだけの智恵があれば、国際関係においてもうまくゆくでしょう。<br><br>ですから今の世の中としてはそういう人も必要は必要だが、ただそういう人が多いと世の中がうまくゆかないわけです。<br><br>うまくゆかないと人民が苦しむというわけで、日本などがうまくゆかない……とにかく現在としても金がなくなってしまって、どうしても緊縮政策をしなくてはならない、不景気になってしまうわけです。<br><br>その点においてはアメリカの方がずっと唯心思想が多いです。<br><br>それはなにがなんでも、日曜に教会に行くとか、あるいは日常でも神様ということを非常に口にしてます。<br><br>私はときどきアメリカのジャーナリストに会いますが、そういう点は実に日本人とはこうも違うかと思うくらいです。<br><br>ですからアメリカ人に宗教の話をすると、実によく分かるのです。<br><br>特に私の話には共鳴するのです。<br><br>私も先の話には大いに共鳴します。<br><br>日本はそう急にはなかなか思うようにはゆかないが、とにかくもう少し神様があるという有神思想がなくてはいけないと思います。<br><br>それによってどのくらい世の中の汚れを防ぐか、つまり浄まるわけです。<br><br>そうすれば一切がもっとずっとうまくゆくわけです。<br><br>今ストライキなどたくさん起こるが、これは共産党の手下ばかりでなく、幹部とか指導者的の人がやっているので、多くの人は食えないからです。<br><br>物価は上がるし、生活には困るとすれば、それによって悪い思想を注ぎ込まれるのだから……。<br><br>しかし生活が楽になれば変な誘惑には引っかからないというわけです。<br><br>その点においてアメリカは非常に日本の経済を助けるという態度に出てます。<br><br>昨日の新聞などにも、今度一億ドルの軍需物資を注文するということですが、これは確実のようです。<br><br>そういうわけで、とにかく日本人に、なんとかしてもっと神様の実在を信じさせることが一番肝腎です。<br><br> それから今度静岡民報という地方新聞で、地方新聞としては古くからやっている新聞です。<br><br>静岡では『静岡新聞』と『静岡民報』の二つがありますが、『静岡民報』で来月の一日から三カ月にわたって私のことを物語的に出すことになったそうです。<br><br>それも別にこっちが頼んだわけではないので、突如として先方から言ってきたのです。<br><br>それでこの間最初の原稿を読んでみると、おもしろく書いてあります。<br><br>それでこっちも賛成したわけですが、昨日その予告が出てましたから読ませてみます。<br><br> （『静岡民報』二月十五日付「世界メシヤ教物語」） この人はぜんぜん知らない人で、今度初めて知ったわけです。<br><br>どういうわけでこういう計画をしたのかと思ってます。<br><br>けれどもマイナスではなくプラスになることは分かってますから結構だと思います。<br><br>最初の書いたのを見たが、非常におもしろいことが書いてありました。<br><br>その中に、「教祖が出てきて、しゃべって、浄霊して帰る、それを見ていると非常に早い。<br><br>ちょうど田舎の親父さんが汽車の時間が遅れそうなので急いで歩く。<br><br>そういうようだ」というのです。<br><br>それなどは非常に愉快です。<br><br>なかなか興味本位で、それに筆もうまいです。<br><br>三カ月続けるというのですから、なかなかおもしろいです。<br><br>不思議に思うのは、私と会ったこともないし、会って話をしそうなものだが、それで三カ月も続けるというのですから、どこからどういうふうにやるのか、まったく神様みたいなものだと思います。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Conjuntura Mundial e a Fé em Deus</h2>
 <p>Hoje, gostaria de discorrer brevemente sobre a conjuntura mundial. Sou questionado, com certa frequência, sobre os rumos que o mundo tomará e, nesse sentido, desejo apenas esboçar um panorama geral. Embora a questão coreana permaneça sem solução definitiva, é inegável que uma aparência de paz se tornou consideravelmente mais acentuada. Contudo, não creio que a verdadeira paz esteja próxima, pois o mundo atual é, em grande medida, arrastado pela União Soviética. As demais nações não anseiam por outra coisa senão a paz, todavia, a União Soviética permanece como uma nação de natureza inquietante. “Quais são suas verdadeiras intenções? O que pretendem fazer?” — eis o que todos no mundo se perguntam.</p>
@@ -109,5 +261,48 @@ function toggleLang(lang) {
 <p>Para concluir, uma outra notícia. O <em>Shizuoka Minpo</em>, um jornal local de longa data na província de Shizuoka, onde existem o <em>Shizuoka Shimbun</em> e o <em>Shizuoka Minpo</em>, decidiu publicar uma série de artigos sobre minha vida, em formato de narrativa, ao longo de três meses, a partir do primeiro dia do próximo mês. A iniciativa partiu inteiramente deles; não houve qualquer solicitação de nossa parte. Fui surpreendido com a proposta. Li o primeiro rascunho e o achei interessante, por isso dei minha aprovação. A prévia da série foi publicada ontem, e gostaria de lê-la para vocês.</p>
 <p>(Prévia da série “A História da Sekai Meshiya Kyo” no <em>Shizuoka Minpo</em>, 15 de fevereiro)</p>
 <p>O autor é uma pessoa que desconheço por completo; soube de sua existência apenas agora. Fico a imaginar como concebeu tal projeto. Contudo, como sei que o resultado será positivo, e não negativo, considero-o bem-vindo. Li o primeiro texto e achei-o deveras interessante. Havia um trecho que dizia: “O Fundador chega, profere suas palavras, ministra Johrei e parte. Seus movimentos são muito rápidos. Assemelha-se a um pai do interior que caminha apressado para não perder o trem”. Achei essa descrição extremamente divertida. O texto é cativante e a escrita é habilidosa. A série continuará por três meses. É um grande mistério para mim como alguém que nunca me encontrou nem conversou comigo pretende escrever sobre minha pessoa por tanto tempo. É algo que me parece obra de Deus.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S29年2月16日） 『御教え集』31号、昭和29(1954)年3月15日発行 昭和二十九年二月十六日 今日は、世界の情勢について少しお話をしようと思います。<br/><br/>世界はこれからどうなるのだ、というようなことを、時々聞かれることがあるのです。<br/><br/>そこでだいたいの見当をつけるという程度で、お話ししようと思います。<br/><br/>朝鮮問題も、片はつかないが、だいたい平和の色がだいぶ濃くなってきたには違いないが、そうかと言って、本当の平和が来るとは思えないです。<br/><br/>というのは、今の世界は、結局ソ連が引摺っているようなものです。<br/><br/>他の国は平和を望むという以外に別になにもないのですが、ただ“ソ連という国が、どうも気味が悪い。<br/><br/>いったいどういう考えを持っているのか。<br/><br/>どうしようというのか”ということは、世界中の誰もがそう思っているでしょう。<br/><br/>ただスターリン時代とよほど変わってはきているということは分かります。<br/><br/>スターリンは英雄的のところがあります。<br/><br/>わずかの間にソ連を統一した腕のあるところは、ちょうどヒトラーによく似てます。<br/><br/>そしてヒトラーよりもスターリンのほうが考えが深いです。<br/><br/>要するに利口だったです。<br/><br/>そのために、ドイツの国家を瓦解するようなあんな愚かなことはしなかった。<br/><br/>しかしそのやり口はある程度以上、そうとうに似ています。<br/><br/>これは今までのああいった、つまり武力を行使する、とにかく平和的でない英雄の一つの型でしょう。<br/><br/>そういうようで、とにかく世界の情勢は変わってきたが、しかしこれからいったいどうなるか。<br/><br/>いまヨーロッパでは四国会議ということをやってますが、あれも結局においてソ連が時を稼ぐというだけのものです。<br/><br/>だいたいソ連の最初の目的というものは、アジア全体を鉄のカーテンの中に入れようというのが目的なのです。<br/><br/>今でもやっぱりその目的でやっています。<br/><br/>その手始めとしたのが、中共が主になって北鮮をおどらして、南北朝鮮を合併させて、その情勢によっては日本まで手を伸ばそうというような野心も、なきにしもあらずと思われるのです。<br/><br/> そういうわけで、ただ朝鮮だけではなくて、結局アジア全体を鉄のカーテンの中に入れて、その次には世界の覇権を握ろうというわけです。<br/><br/>ところがアメリカが国際連合を作って、ウンと努力したので、とにかくくい止めてしまったのです。<br/><br/>それでなければ、釜山まで来たのですから危なかったのです。<br/><br/>とにかく押し返して敵の目的を打倒した、瓦解させたということは確かです。<br/><br/>ところがアイゼンハウアーが大統領になって、どうしても中共を本当にやっつけなければいけない、中共政府を打倒して、朝鮮を元通りに南北を一つにし、一方蒋介石を立たして両方から攻め、そうして朝鮮も中国も元通りにしなくてはならない、それには大いに準備をしなければならないというので、あらん限りの大攻撃の準備を始めたわけです。<br/><br/>それを知った中共は、これはたいへんだ、それにそうとう長い戦争をしたために随分疲弊しているのに、ここでまたアメリカに大仕掛けにやられたらひとたまりもない。<br/><br/>そうするとソ連の目的もふいになってしまうから、これはどうしてもしゃにむにアメリカの鋭鋒を押さえて、要するに緩和政策をしなくてはならない。<br/><br/>というのが、一昨年ソ連の大使のマリクが提案したわけです。<br/><br/>それから休戦とか停戦とか、いろんなことで来たが、結局、なにしろソ連の考えというものは一時的で、ただアメリカから、戦争をしかけられたらたいへんだ、勝ち目がないというので、本当の平和ではなくて、一時の曖昧きわまる、ただ戦争だけをしないというような形を作ろうというわけです。<br/><br/>だから朝鮮会議にしろ結局うやむやになっているわけです。<br/><br/>今度のヨーロッパの四国会議でも結局うやむやです。<br/><br/>なにしろ肚の中から平和にしようというのでなくて、自分に都合のよいように一時的敵の攻撃を避けようというのですから、変な形です。<br/><br/>それでも、英国やフランス、特に英国などは本気で平和になりそうだとやってますが、これはチョットおかしいと思うくらいです。<br/><br/>そういうようなわけで、結局中共は、今までの間だいぶ戦争を停戦していたために回復してきて、力が出てきたのです。<br/><br/>そこで方針を変えて、朝鮮の方はそのままにしておいて、中央アジアの方をやろうというので、最近はホー・チミン軍が攻勢の態度に出たのです。<br/><br/>この間のうちはフランスの方がだいぶ危なかったのですが、アメリカが飛行機やなにかをウンと出して助けたので小康は得ているようですが、なかなか楽観はできないです。<br/><br/>さっきのラジオニュースでは、Ｂ２９を二十機急遽インドシナの方に送ったとありました。<br/><br/>そういうわけで、これからあの辺がだいぶゴチャゴチャするだろうと思ってます。<br/><br/>もしかインドシナがやられると、今度はタイの方に出ますから、そこでタイでは今非常な防備をしているようです。<br/><br/>もしタイがやられると、今度はインドになりますが、インドは戦争はしないから、ただ柔順にソ連の配下になるというわけです。<br/><br/>そうすると鉄のカーテンはアジアの中央に拡がるわけです。<br/><br/>それではたいへんだというわけで、アメリカも腰を入れてくるでしょう。<br/><br/>しかしあんまり腰を入れると、第二の朝鮮のようになりますから、米国の世論が承知しないわけです。<br/><br/>ですからアメリカも非常に難しいわけです。<br/><br/>アイゼンハウアーも随分頭痛はち巻だと思います。<br/><br/>そういうわけで、ソ連の考えは……しかしソ連の考えどおりになるか、ならないかは今分かりませんが……結局インドからイラン、イラク、それからとにかくアラビアまで攻略して、そうして日本と南朝鮮を除いた一つの垣根を作る、要するに鉄のカーテンを作るという計画なのです。<br/><br/>そうなると今度は日本と南朝鮮をなんとかしなくてはならないということになりますが、今度はおそらく日本の方にすぐにかかりやしないかと思います。<br/><br/>日本の方にかかった方が有利です。<br/><br/>日本さえやっつければ、南朝鮮は挟み撃ちしてしまいますから、なんでもないです。<br/><br/>そこで日本をできるだけ骨を折らないようにやろうというので、それには日本の内部を弱らせなければならない。<br/><br/>それには日本の中に潜んでいる、いろんな共産党の連中をおどらさなければならないというので、非常に活躍してます。<br/><br/>そのために最近の新聞などを見ると、軍器を作っているのです。<br/><br/>ピストルとか機関銃だとかをほうぼうの山に隠れて拵えているということが出てます。<br/><br/> それと、一方さかんに、日本の製造工業を邪魔しなければならないので、ストライキを起こすべく非常に活躍しているというわけですが、それはほうぼうに実によく現われてます。<br/><br/>それから、青年、特に学生を大いに赤化しなければならないというので、それには学校の教授、教員というのをおどらせなければならない。<br/><br/>それをだいぶやろうとしているところを、政府が見抜いて、教員のいろんな……思想的に警戒しなければならない、と、そのためほうぼうに問題を起こしているようです。<br/><br/>そういうような具合で、平和だとか、だいぶ世界が緩和されたとか言って、日本は油断していることはできないわけです。<br/><br/>ここ当分はよいでしょうが、その先はなかなかで、とにかくソ連が日本を最後にやっつけるという考え、計画はドンドン進みつつあるのですから、それを見抜いたアメリカとしては、大いに軍備をしなければならないというので、日本の軍備に対して非常な努力をしてます。<br/><br/>そうすると、日本に軍備をさせてはソ連としては一番困るから、その軍備をさせないように邪魔しなければならない。<br/><br/>その総大将が社会党です。<br/><br/>特に表面に立っているのが社会党左派です。<br/><br/>左派の鈴木茂三郎君などが“軍備はいらない”ということを建前にしてます。<br/><br/>それはそれに違いないです。<br/><br/>というのは、鉄のカーテン内に日本を入れようというのですから、そうすればソ連が日本に戦争をしかけるということはないから、安全ですから軍備の必要はないわけです。<br/><br/>とにかく日本はソ連の配下になるか、あるいはアメリカの配下……配下ということは言えません。<br/><br/>アメリカは民主主義ですから……それになるか、その国民の考え方です。<br/><br/>だからそういうことも、とにかく日本人がみんな知らなければいけないのです。<br/><br/>そうして、そうなると日本人は、共産主義がよいか民主主義がよいかということを考えてみると、とにかく共産主義というものは、それこそ一握りの人間が支配するのですから……。<br/><br/>殊に中共などは一握りではない、何本かの指で押さえているようなものです。<br/><br/>だいたい毛沢東に周恩来（しゅうおんらい）に朱徳（しゅとく）と、この三人が牛耳っているようなものです。<br/><br/>そうして国民全体が菜っ葉服を着せられて、やられてはたまらないです。<br/><br/>それはただ労働して生きているばかりの生活ならそれでよいでしょうが、少し心ある者は満足できないというものですから、これは考えるまでもないです。<br/><br/>日本の将来はそういう運命におかれているということだけを知っておけばよいのです。<br/><br/> 今のは世界の情勢ですが、今度は、問題はもっと小さいが、とにかく国民の身近に起こっている問題は汚職問題です。<br/><br/>それについて書いてみました。<br/><br/> （御論文「汚職の母体」） 【栄光 二五〇号】 汚職問題というのは、今度知れただけではホンの氷山の一角で、これをホジクリ出したらたいへんな騒ぎになります。<br/><br/>昨日私はある人に会ったのですが、聞いてみると、一番最初ヤリ玉に上げられたのは山下汽船ですが、これが本当に拡がってゆくと、商船も郵船もやられてしまうわけです。<br/><br/>そうなったらたいへんだし、それからもう一つ、前の池田蔵相などが喚問されることになっていてゴテゴテして、さっぱりラチがあかないのですが、あれについても聞いてみますと、池田が喚問されると、どうしても重光に火がつくのだそうです。<br/><br/>そういえば最初改進党がいばって、大いにやるらしかったが、急に腰がくだけてしまったのです。<br/><br/>それでいま改進党は、その点はまるっきり自由党と同じようになってしまったのです。<br/><br/>自由党と了解し合ったようなことになってしまったのです。<br/><br/>それは重光が危ないからです。<br/><br/>そうすると、この問題が拡がると政治家の親玉が片っ端からやられてしまうことになります。<br/><br/>そこで政府は非常に困って、これをなんとか骨抜きにして、グジャグジャにしてしまおうと思っているのです。<br/><br/>そこで社会党の方はそうはさせまいとして、だいぶ活動しているようですが、しかしこれは社会党は数が少ないですから、とうてい形勢を挽回することはできないですが、しかしこういうことについては、さっき社会党を悪く言ったようなものだが、また良い働きもしているわけです。<br/><br/>政治界と経済界というのは、まったく腐りきっているのですが、この根本原因というものは、やっぱり無神思想です。<br/><br/>神はないというだけの話なのです。<br/><br/>神がないとすればそうやるのが本当です。<br/><br/>私でも、神がないということを本当に知れば、できるだけずるく、うまいことをして出世をしようとします……出世をするかどうかは分からないが……。<br/><br/>ところが神様を知ってしまった限り、これはどうしようもないです。<br/><br/>良いことをするよりないです。<br/><br/>それで、同じ良いことをするなら、できるだけ大きく良いことをする、つまり世界的良いことをするという、それが救世教になったわけです。<br/><br/>そういうわけで、なんとしても、問題は神があるかないかという、それだけの話です。<br/><br/>ところが神があるかないかということを教えるのが宗教ですが、宗教と言ってもいろいろありますが、本当にしっかりした、そういう神様を認めさせる力ある宗教は、大いに援助するのが本当です。<br/><br/>ところがそういう宗教の本当の面が分からない点がありますが、分からないということは、本当に調査研究しないから分からないので、そういうことをしないで、頭から“宗教なんて迷信だ、いけない”と決めているわけです。<br/><br/>そうすると、悪いことをした方が得だということになりますから、悪いことをすることになるのです。<br/><br/>どんな偉い人でも、教育がある人でも、それを認めない限りそうします。<br/><br/>ただ偉い人は上手にやる、引っかからないようにやるというだけのものです。<br/><br/>それが天下の政権を握るというわけです。<br/><br/>今天下の巨頭にしても、ただ引っかからないようにやるという、上手で智恵があるだけです。<br/><br/>それだけの智恵があれば、国際関係においてもうまくゆくでしょう。<br/><br/>ですから今の世の中としてはそういう人も必要は必要だが、ただそういう人が多いと世の中がうまくゆかないわけです。<br/><br/>うまくゆかないと人民が苦しむというわけで、日本などがうまくゆかない……とにかく現在としても金がなくなってしまって、どうしても緊縮政策をしなくてはならない、不景気になってしまうわけです。<br/><br/>その点においてはアメリカの方がずっと唯心思想が多いです。<br/><br/>それはなにがなんでも、日曜に教会に行くとか、あるいは日常でも神様ということを非常に口にしてます。<br/><br/>私はときどきアメリカのジャーナリストに会いますが、そういう点は実に日本人とはこうも違うかと思うくらいです。<br/><br/>ですからアメリカ人に宗教の話をすると、実によく分かるのです。<br/><br/>特に私の話には共鳴するのです。<br/><br/>私も先の話には大いに共鳴します。<br/><br/>日本はそう急にはなかなか思うようにはゆかないが、とにかくもう少し神様があるという有神思想がなくてはいけないと思います。<br/><br/>それによってどのくらい世の中の汚れを防ぐか、つまり浄まるわけです。<br/><br/>そうすれば一切がもっとずっとうまくゆくわけです。<br/><br/>今ストライキなどたくさん起こるが、これは共産党の手下ばかりでなく、幹部とか指導者的の人がやっているので、多くの人は食えないからです。<br/><br/>物価は上がるし、生活には困るとすれば、それによって悪い思想を注ぎ込まれるのだから……。<br/><br/>しかし生活が楽になれば変な誘惑には引っかからないというわけです。<br/><br/>その点においてアメリカは非常に日本の経済を助けるという態度に出てます。<br/><br/>昨日の新聞などにも、今度一億ドルの軍需物資を注文するということですが、これは確実のようです。<br/><br/>そういうわけで、とにかく日本人に、なんとかしてもっと神様の実在を信じさせることが一番肝腎です。<br/><br/> それから今度静岡民報という地方新聞で、地方新聞としては古くからやっている新聞です。<br/><br/>静岡では『静岡新聞』と『静岡民報』の二つがありますが、『静岡民報』で来月の一日から三カ月にわたって私のことを物語的に出すことになったそうです。<br/><br/>それも別にこっちが頼んだわけではないので、突如として先方から言ってきたのです。<br/><br/>それでこの間最初の原稿を読んでみると、おもしろく書いてあります。<br/><br/>それでこっちも賛成したわけですが、昨日その予告が出てましたから読ませてみます。<br/><br/> （『静岡民報』二月十五日付「世界メシヤ教物語」） この人はぜんぜん知らない人で、今度初めて知ったわけです。<br/><br/>どういうわけでこういう計画をしたのかと思ってます。<br/><br/>けれどもマイナスではなくプラスになることは分かってますから結構だと思います。<br/><br/>最初の書いたのを見たが、非常におもしろいことが書いてありました。<br/><br/>その中に、「教祖が出てきて、しゃべって、浄霊して帰る、それを見ていると非常に早い。<br/><br/>ちょうど田舎の親父さんが汽車の時間が遅れそうなので急いで歩く。<br/><br/>そういうようだ」というのです。<br/><br/>それなどは非常に愉快です。<br/><br/>なかなか興味本位で、それに筆もうまいです。<br/><br/>三カ月続けるというのですから、なかなかおもしろいです。<br/><br/>不思議に思うのは、私と会ったこともないし、会って話をしそうなものだが、それで三カ月も続けるというのですから、どこからどういうふうにやるのか、まったく神様みたいなものだと思います。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

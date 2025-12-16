@@ -1,146 +1,298 @@
 ﻿<html>
-
 <head>
-    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-    <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR" />
-    <title>dendo111</title>
-    <link href="../style4.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body bgcolor="#EFFFE6">
-    <form accept-charset="utf-8" action="../../cgi/msearch.cgi">
-        <input name="hint" type="hidden" value="Hiragana" />
-        <input name="index" type="hidden" value="" />
-        <input name="config" type="hidden" value="" />
-        <div align="right">
-            <table border="0" cellpadding="0" cellspacing="0" width="90%">
-                <tr>
-                    <td>
-                        <p align="right">
-                            <font face="ＭＳ ゴシック" size="2"><strong>――</strong></font>
-                            <font face="HG正楷書体-PRO" size="2"><strong> 岡田自観師の論文集 ――</strong>　</font>
-                            <font face="ＭＳ ゴシック" size="2"><strong>Busca de Ensinamentos</strong>：</font>
-                        </p>
-                    </td>
-                    <td align="center" bgcolor="#EFFFE6" width="150">
-                        <font size="2"><input name="query" size="25" type="text" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6">
-                        <font size="2"><input type="submit" value="Pesquisar" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6" width="35"><a href="../../cgi/msearch.cgi">
-                            <font size="2">help</font>
-                        </a></td>
-                </tr>
-            </table>
-        </div>
-    </form>
-    <form accept-charset="utf-8" action="../../cgi/msearch.cgi">
-        <input name="hint" type="hidden" value="Hiragana" />
-        <input name="index" type="hidden" value="shiryo" />
-        <input name="config" type="hidden" value="" />
-        <div align="right">
-            <table border="0" cellpadding="0" cellspacing="0" width="90%">
-                <tr>
-                    <td>
-                        <p align="right">
-                            <font face="ＭＳ ゴシック" size="2"><strong>　　　　　　　　　　　　　　　Busca de Materiais</strong>：</font>
-                        </p>
-                    </td>
-                    <td align="center" bgcolor="#EFFFE6" width="150">
-                        <font size="2"><input name="query" size="25" type="text" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6">
-                        <font size="2"><input type="submit" value="Pesquisar" /></font>
-                    </td>
-                    <td width="35">　</td>
-                </tr>
-            </table>
-        </div>
-    </form>
-    <blockquote>
-        
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
+<title>dendo111</title>
+<link href="../style4.css" rel="stylesheet" type="text/css"/>
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
+<form accept-charset="utf-8" action="../../cgi/msearch.cgi">
+<input name="hint" type="hidden" value="Hiragana"/>
+<input name="index" type="hidden" value=""/>
+<input name="config" type="hidden" value=""/>
+<div align="right">
+<table border="0" cellpadding="0" cellspacing="0" width="90%">
+<tr>
+<td>
+<p align="right">
+<font face="ＭＳ ゴシック" size="2"><strong>――</strong></font>
+<font face="HG正楷書体-PRO" size="2"><strong> 岡田自観師の論文集 ――</strong>　</font>
+<font face="ＭＳ ゴシック" size="2"><strong>Busca de Ensinamentos</strong>：</font>
+</p>
+</td>
+<td align="center" bgcolor="#EFFFE6" width="150">
+<font size="2"><input name="query" size="25" type="text"/></font>
+</td>
+<td bgcolor="#EFFFE6">
+<font size="2"><input type="submit" value="Pesquisar"/></font>
+</td>
+<td bgcolor="#EFFFE6" width="35"><a href="../../cgi/msearch.cgi">
+<font size="2">help</font>
+</a></td>
+</tr>
+</table>
+</div>
+</form>
+<form accept-charset="utf-8" action="../../cgi/msearch.cgi">
+<input name="hint" type="hidden" value="Hiragana"/>
+<input name="index" type="hidden" value="shiryo"/>
+<input name="config" type="hidden" value=""/>
+<div align="right">
+<table border="0" cellpadding="0" cellspacing="0" width="90%">
+<tr>
+<td>
+<p align="right">
+<font face="ＭＳ ゴシック" size="2"><strong>　　　　　　　　　　　　　　　Busca de Materiais</strong>：</font>
+</p>
+</td>
+<td align="center" bgcolor="#EFFFE6" width="150">
+<font size="2"><input name="query" size="25" type="text"/></font>
+</td>
+<td bgcolor="#EFFFE6">
+<font size="2"><input type="submit" value="Pesquisar"/></font>
+</td>
+<td width="35">　</td>
+</tr>
+</table>
+</div>
+</form>
+<blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 伝道の手引き Ⅰ －１－１ 信仰の基本 第一章 明主様の御教えについて １ 明主様の御言葉は即ち神の言葉 〔 御講話（S27年4月7日） 『御教え集』9号、昭和27(1952)年5月15日発行〕 『それからこういうことを知らなければならないんですがね。<br><br>それは、昔から宗教の教祖とかいう人が、なんでも一々神様にお伺いするんですね。<br><br>そうすると御託宣が出て、神様がこうおっしゃった、とか言うんですがね。<br><br>そうすると、それを聞いた人はたいへんありがたがるんです。<br><br>ありがたく思うんですね。<br><br>ところが私はそんなことはしないですね。<br><br>ただ、その場その場で簡単に言ってのけるので、有難味がないんですね。<br><br>だから、ともすればそれを軽く思って聞き逃しちゃうわけですね。<br><br>で、なにかあると、こういうことを以前にお聞きした。<br><br>これだということに気がつくんですが、初めはなかなかそう思わないんです。<br><br>それですから私の言う通りやらない人も随分あるんですよ。<br><br>それはどういうわけだと言うと、私は神様に聞く必要はないんです。<br><br>私のお腹におられる神様は最高の神様です。<br><br>自分が言うことやることが、そのまま神様がやっていることと同じですからね。<br><br>つまり直接なのですね。<br><br>ところが、今までの宗教の教祖というのは間接なんです。<br><br>キリストにしろ、自分はエホバの命によって生まれたとか、天の父だとか、なんとか言いますが、あれはやっぱり間接的なんです。<br><br>で、私におられる神様は、エホバと同じなんですからね。<br><br>そこで、私は神様を拝んだことがないですね。<br><br>どこのどの宗教でも、お祭りだなんていうと、やっぱり神様に、教祖が恭しく礼拝するものなんですがね。<br><br>私はやらないんです。<br><br>というのは、私が拝む神様はないんですよ。<br><br>もし神様があるとすれば、私よりみんな下だからね。<br><br>だから、神様の方で私を拝んで良いんですよ。<br><br>それですから、御守りを一つ書くにも、ふつうは斎戒沐浴して、羽織袴で恭しく書くんですが、私は夏なんか裸でアグラかいて書く。<br><br>だから知らない人は有難味はないんですがね。<br><br>私はなんでも無造作にやってのけるんです。<br><br>難しくする必要がないからですよ。<br><br>ですから、かえってその点を逆に考えられるんですね。<br><br>逆に思われるんですね。<br><br>誤解されるんですね。<br><br>しかしそれは、だんだん分かってくれば良いと思っている。<br><br>だから一時的誤解は私はなんとも思わないですがね。<br><br>こういうこともあまり生神様らしく思わせることになるので、私は好かないのであまり言わなかったんですが、そのために私の言うことを軽くみる場合がよくあって、そのために間違いがよくありますから、そのために言っておいた方が良いと思ってお話しするんです。<br><br>だから、その点を良く心得ていて、他の宗教や、教祖と較べればはっきり分かるんですよ。<br><br>一番分かるのは、キリストの奇蹟なんかは、非常に有名になってますが、私の弟子で、キリストと同じような奇蹟はさかんにやっているんですからね。<br><br>それ以上の奇蹟さえあるんです。<br><br>時間があったら読もうと思ったんですがね。<br><br>奇蹟以上の奇蹟というんですがね。<br><br>今度新聞に出しますが、読むのは時間がないから略しますが、百姓夫婦で、最初田んぼに入って、電線が切れて落ちたのを、うっかりつかんだんです。<br><br>六十ボルトで――感電してひっくり返って倒れたんです。<br><br>それを見て、亭主が、これはたいへんだと入ってつかんだところが、またひっくり返ったんです。<br><br>電気の方では、水に入ると五倍の電流が流れると言うんですね。<br><br>ですから、その電流を食って、身体が仮死状態になった。<br><br>ところが良いあんばいに助かったと、本人が書いたものなのです。<br><br>これは、ぜんせん学理で理屈のつけようがないんです。<br><br>精しく書いてありますが、新聞に出てみれば解ります。<br><br>（次号に掲載） それから原子爆弾のお蔭詰も、そういったので七つばかり集まりました。<br><br>これも、新聞に出しますがね。<br><br>これなんかも、随分奇蹟がありました。<br><br>ほとんど、信者で――御守りを受けたのは、一人も被害がなかったんですからね。<br><br>だから原子爆弾も恐るるに足らずですよ。<br><br>必ず助かります。<br><br>また、原子爆弾で半分死んだような人でもなんでもない。<br><br>やっぱり浄霊で治っちゃうんですからね。<br><br>だから、この奇蹟なんていうのは、キリストでも――あの時分には電気やなにかなかったからしかたがないが、それはキリストの奇蹟以上ですよ。<br><br>今話した、キリストやなんかも間接的の力であって、私は直接だということは、これだけを見ても証拠づけられるんです。<br><br>時間が来ましたから寸鉄を。<br><br>』 ２ 明主様の御言葉は厳格に守るべき事 〔 御講話（S27年8月6日） 『御教え集』13号、昭和27(1952)年9月25日発行〕 『ところで、私の話を間違える人が非常にある。<br><br>私は随分はっきり言うのですが、昨日も一週間に一回と言ったら、今日は二回という人がある。<br><br>一週間に一回と二回では倍違います。<br><br>頭について、信者さんの頭が――信者さんの頭ばかりでなく、世間の人は信者さん以下ですが、信者さんでも非常に頭が悪いのです。<br><br>というのは、私の言う通りに考えないのです。<br><br>明主様はこうおっしゃったが、あれはこういう意味なんだ。<br><br>こういう意味というのを自分で作ってしまうのです。<br><br>それで間違うことがよくある。<br><br>それでまた私の言った通りをやるということは、自分が値打ちがなかったり頭が悪かったりするように思うのです。<br><br>ですから私の言った通りにやる人が少ないのです。<br><br>私はいつも言うのですが、私が思う通り言った通りにする人は英雄と言うのです。<br><br>偉いです。<br><br>ところが一般は必ず違います。<br><br>これは信仰ばかりでなく、庭の方でもそうです。<br><br>私の言う通りにやる職人というのは一人もないです。<br><br>これをここにやれと言うと、必ずここにやる人はないです。<br><br>こっちにやるとか、あっちにやる。<br><br>私がこっちにやれと言うとあっちにやる。<br><br>だから職人には手を焼いているのです。<br><br>ところが私の言う通りやるのが一番易しいのです。<br><br>その易しいことを嫌うのですから不思議です。<br><br>植木屋で一人こういうのがあったのです。<br><br>この石を一尺こっちにやれと言うと、一尺やれない。<br><br>二、三寸しかいかない。<br><br>それで私が、どうして一尺やらない。<br><br>こっちにやれと言うと、今度は五、六寸やった。<br><br> それから、駄目だもう一度やれと言った。<br><br>すると今度は斜めにやった。<br><br>斜めにしては駄目なのです。<br><br>これで三度駄目なのだから、四度目に違ったらその職人は断るからと言った。<br><br>言う通りにやれそうだが、その通りにやらない。<br><br>なぜかと言うと、自分は手を引いて親方に頼むと言うのです。<br><br>親方にこうやってくれと言ってやったら二、三時間でできました。<br><br>ところが先にやった人は三、四日かかりました。<br><br>そういうことがあるのです。<br><br>特に日本人はどうも言う通りにやらない、言う通りに考えない、という一種のくせみたいな、病気みたいなものだと思う。<br><br>だから私がいつも話しすることがよく違ってしまうのです。<br><br>だから明主様がこうおっしゃったのでこうやったが、どうもうまくいかない。<br><br>そういうはずはないと、良く聞いてみると違う。<br><br>今の病気のこともその通りです。<br><br>私は決して駈引や嘘はないのです。<br><br>それは、よく昔からの偉い人でも、いろいろ――なんと言いますか、ありのままでなく、いくらか形容したり、いろいろそういうきらいがありますが、私はそれが嫌いで、なんでもありのまま率直に言いますから、その通りにやれば必ずうまくいきます。<br><br>』 ３ 明主様の御教えは何事でも素直に守るべき事 〔 御講話（S29年1月17日） 『御教え集』30号、昭和29(1954)年2月15日発行〕 『前にも言ったとおり、箱根は霊的で熱海は体的ですから、熱海の地上天国ができれば、要するに体的に発展するわけです。<br><br>だから本当に目立つわけです。<br><br>いよいよおもしろい張り合いのある時期に入ってきたわけです。<br><br>だからして神様の方はチャンと準備や、芝居ならプログラムができているわけです。<br><br>そのとおりに、少しも違わないでチャンとゆくのです。<br><br>ただ時期だけのものです。<br><br>大本教のお筆先に「時節ほど有難い、恐ろしいものはないぞよ」「この事が分り出したら、世界は唸るぞよ」というのがありますが、もうそこの直前に来たわけです。<br><br>それから「こんなものがあんなものになり、あんなものがこんなものになる仕組であるぞよ」というのがありますが、お筆先というのは実に簡単な言葉で、すばらしい大きなことを言い尽くしてあります。<br><br>私などもその当時は本当には分からなかったのですが、神様というものは、なんだか変な言い方だと思ってましたが、今になってみると、それがピッタリと当たっているのです。<br><br>「何事も神の言うとおりに致せば間違いはないぞよ」というのがあるのです。<br><br>自然農法にしても、私の言うとおりにした人は、チャンと予定どおりに進んでゆくのです。<br><br>効果もあるのです。<br><br>ところが農民は長い間の習慣でなかなか言うことをきかないのです。<br><br>なにしろ今もって有肥をやっている人がそうとうあるのですから……。<br><br>ようやく今年あたりから気がついて、“では切り替えよう”ということになった人が随分あるようです。<br><br>それについてこういう話があります。<br><br>大本教の教祖様が神様から“直よ、お前はこれから外国に行くんだよ。<br><br>直ぐ外国に行きなさい”と言うので、教祖様は“私にはそんな金も何もないのに外国に行けないでしょう”と言うと、 “なにいいんだよ、五円持って行けばいいんだよ”というので、教祖様は五円札を持ってノコノコ出掛けたのです。<br><br>そうすると途中まで行くと“直や、もう行かんでもよいぞよ”と言うので、“神様はどうして御からかいになるのです”と聞くと、“いや、お前がどのくらいワシの言うことをきくか試してみたのだ。<br><br>だから、もうこれで分かったからいいんだよ”というわけで、神様が試されたわけです。<br><br>そのくらいに素直に言うことを聞くということです。<br><br>お筆先に「何事も神の申す事に間違いはないから、素直が一等であるぞよ」とありますが、そういうようで、いつも言うとおり、私がなんでもなく言ったことでも大変意味があることですから、そのとおりにやれば決して間違いはないのです。<br><br>今度の無肥料栽培も、最初はテンデ耳に入らなかったです。<br><br>それこそ“明主様は病気を治すことはなるほど確かに大丈夫ですが、農業のことはそれほどのことがあるわけがない”と思ったらしいのですが、これは時節のことだから、いくら言っても分かるわけがないので、しようがないのですが、そういうようで、ようやく思うとおりの実績が上がってきたわけで、非常に結構です。<br><br>』 附1 御言葉には素直に「ハイ」と従うべき事 〔 御垂示（S26年5月1日） 『御垂示録』6号、昭和27(1952)年1月25日発行〕 「鎮魂のお授けは願えませんでしょうか」 『 いけないよ。<br><br>』 「いかなる場合においても、いけないのでございましょうか」 『鎮魂はいけないと言ったら「はい」と言えばいい。<br><br>助けてもらいたい。<br><br>よし助けてやろう。<br><br>と言うあれで、本当はいけない――神様になるからね。<br><br>神様のお取り次ぎをさせていただくと言うのでなければね。<br><br>』 附2 御教えを正確に守らず御注意戴いた例 〔 御垂示（S27年3月1日） 『御垂示録』8号、昭和27(1952)年4月25日発行〕 「十年ほど前より神経麻痺の方で、御浄霊でたいへん楽にはさせていただきました。<br><br>龍の墨絵の軸がございますが、先日お伺させていただきまして、関係があるかも知れないので、御神前に置くようにと御教えいただいておりましたので、それをお伝えしましたが一週間ほどで、気にすることもないと箱にしまったそうでございます。<br><br>先日見てくれと申しますので、見ましたところ、妖気を受けるようで、まだまだ御言葉通りにしたほうが良いと言い、祝詞を奏上いたしますと、風もないのに御神体だけが五寸から七寸くらい離れまして、非常に揺れまして、十五分くらい続きました」 『最初、龍神は光明如来様の前に置けと言ったでしょう。<br><br>そうですね。<br><br>それから一週間経ってから箱に入れたんですか。<br><br>それがたいへんな間違いです。<br><br>それは、あなたがその人にお詫びさせなければならない。<br><br>私の言うことを――私が一週間だけで良いと言ったのなら良いが、私はそうは言わないでしょう。<br><br>ただ置いておけと言ったでしょう。<br><br>そうしたら、半年なら半年、一年なら一年経ってから、私に聞くのが本当でしょう。<br><br>それを、あなたが聞かないというのは間違っている。<br><br>それを気がついて言うのが本当です。<br><br>私が、こう言ったのを、勝手に人間のほうでやると、お咎（とが）めがありますよ。<br><br>ですから、御神前に置けと言った以上、置いておけば良い。<br><br>それで、そむいたことを本人に良く言って、光明如来様にお詫びするように言うことがあなたの務めです。<br><br>当分ですが、巻くときは私に聞いて巻くのが本当です。<br><br>』 「巻いたままでよろしゅうございましょうか」 『巻いたままで良いです。<br><br>何か台をしてね。<br><br>』 ４ 神様の厳格さについて 〔 御講話（S28年3月7日） 『御教え集』20号、昭和28(1953)年4月15日発行〕 （御論文「一、 奇蹟とは何ぞや 」「二、 霊主体従 」「三、 霊と体 」） 『この終わりのところが肝腎なのです。<br><br>今までの宗教……というが教えですが、教えだけでは力が弱いのです。<br><br>ところが救世教は教えとともに事実を見せるというので、これで人間は初めて神様は確かに在るということが分かり、そうすると悪いことはできないということになって、これで本当の人間になるわけです。<br><br>それで神様は確かに在るということを見せるのは奇蹟なのです。<br><br>奇蹟以外で神様の実在を信ずるということはできないのです。<br><br>ところが今まではそういった奇蹟を見せないで、ただ「神は在る、在るから信じろ」と言うが、実際理屈に合いません。<br><br>そこで、本当に救われないのです。<br><br> このことでおもしろい話があります。<br><br>昨日聞いた話で、今度の大祭の余興にアザブさんが灰田勝彦を頼みに行ったのです。<br><br>そうすると馬鹿に高いことを言うのだそうです。<br><br>それで「随分高いではないか」と言うと、支配人が「救世教なんて泥坊みたいなことをして金を取っているのだから」と言ったのです。<br><br>ところがその人がそれから三、四日たって死んでしまったのです。<br><br>』 御伺い 明主様申し上げます。<br><br>京都と大阪の間を自動車で走っている時に、ちょうど雪が降っておりまして、その時京阪国道から下に辷（すべ）り落ちて死んでおります。<br><br> 『自動車で死んだそうですが、これははっきりした事実です。<br><br>前にもこういうことがありました。<br><br>私がまだ東京の宝山荘にいた時日蓮宗の学者で、名前は忘れましたが、誰でも知っているくらい有名な人です。<br><br>その人が私の書いた『明日の医術』の本を見て、なんでも非常に悪いことを言ったのです。<br><br>「こんなことを書いて人を瞞すとはインチキもはなはだしい」というようなことです。<br><br>もっと酷いことを言ったのですが、私は忘れました。<br><br>それでちょうど一年ほどたってから、街路で轢死したのです。<br><br>それも、最初は自動車にどこかぶつかって電車道に倒れて、ハッと思った時に電車が来て顔を轢いたのです。<br><br>ですから顔がめちゃめちゃになったのです。<br><br>その時に中島さんが「とうとう罰があたった」と話しに来ましたが、そういうことがありました。<br><br>そういうことはまだありますが、この神様は非常に厳密な神様なのです。<br><br>いろいろおもしろい話がありますが、時間がないからあんまり詳しくは話せません。<br><br>なおまた大本教の教祖が最初の修行していた時にそういうことがありました。<br><br>大阪に算盤占いというのがありましたが、そこに行って占うと、「出口直さん、あなたに懸っている神様は本当の神様ではなく、悪魔だから気をつけなければならない」と言うので、教祖さんはびっくりしたのです。<br><br>たいへんな神様だと思っていたが、悪魔だということなので、帰ってから神様に伺ったのです。<br><br>そうすると、その神様は国常立尊ですが、「直や、一週間たったらもう一度占ってもらえ」と言うので、一週間たってから行ってみるといないので、聞いてみると「死んだ」というのです。<br><br>それは、たいへんに立派な神様を悪魔と言うのですから、これは許せないのです。<br><br>今言う「救世教は泥坊みたいなことをして金を取っている」と言ったそれ以上のものでしょう。<br><br>それでこの国常立尊という神様は実に厳格で、悪いことは絶対に許さないという神様ですが、そういうようなことがありました。<br><br>まだいろいろなことがありますが、時間がないからこれだけにしておきます。<br><br>』 ５ 明主様の御言葉を不正確に伝えたので混乱を生じた例 〔 御講話（S27年8月27日） 『御教え集』13号、昭和27(1952)年9月25日発行〕 『私は以前リンゴを食べなかったから、信者のある人が――その時分は大先生と言ったが――「大先生はどうしてリンゴはおあがりになりませんか」と言うから、私は「リンゴはつゆ気がないから、あんまり好かないから食べない。<br><br>だから食べたい人は食べても良いが、私は食べない」と、よくリンゴを持ってきますから、ちょっと言っておいた。<br><br>それからこういうことを言った。<br><br>「よく医学の方ではリンゴは薬になると言うが、別にどの果物が薬になるということはないので、神様は必要があってこしらえたのだから、それの好きな人は食べて良いので、リンゴが薬になるということはないから」と言ったことがあるのです。<br><br>そうするとどう間違えたものか「明主様はリンゴはいけないと言った」ということになって、それはかなり拡まったものです。<br><br>私はその都度取り消しましたが、かなり伝播力が強かったとみえて、取り消しの方が効果がないのです。<br><br>そのあげく最近おもしろいことを聞いたのです。<br><br>これは地方でですが、リンゴは医学では薬になるというのだから、リンゴを食べるとやっぱり薬毒が害をするから、そこの家では、リンゴをもらっても食べないで腐らせるというのです。<br><br>なんだというと薬毒が怖いというのです。<br><br>そういう滑稽なことがあるのです。<br><br>だから私が言ったことや書いてあることを、そのまま受け取ると良いのですが、それにおまけをつけてだんだん誇張して、口から口へ伝わるために、だんだん育っていって、とんでもないことになってしまうのです。<br><br>だからそういう馬鹿馬鹿しいようなことで、あんがい間違ったことがありますから、すべてなんでもいつも言う常識です。<br><br>神様は人間においしい味のある物は、これは食べろ、味というものが栄養になるのだから、味のない苦い物とかまずい物は食べてはいけない。<br><br>そういうためにあるのだから、それを我慢して食べるのは間違っている。<br><br>ということは本にも書いてありますから、それをそのままとるようにすれば、間違いないのです。<br><br>だからつまり自然ということを忘れないことと、常識で判断することを守っていれば、まず間違いないということです。<br><br>』 ６ 明主様の御教えの「裏」などと言うものはない事 〔 御講話（S27年6月6日） 『御教え集』11号、昭和27(1952)年7月15日発行〕 『それからこういうことを時々聞くんですがね。<br><br>私の本やなにかで裏表があると言うんですね。<br><br>そういうことを聞くんですがね。<br><br>一時そういうことの、随分はなはだしいことがあったです。<br><br>裏表があるように見る人は邪神が憑っている。<br><br>なぜというのは、今までのお経にしろ、あらゆるものは夜のものだから、どうしても確かに裏表があったんです。<br><br>夜の世界だったら、ここだけは月が照らすから見えるが、ここは見えない。<br><br>ところが昼の世界ではここも見えるが、ここも見えるんです。<br><br>だから裏表はないんですね。<br><br>だから私の説いたものは、そんなことはないんです。<br><br>そのまま信ずれば良いですね。<br><br>それから今までのことは根本が悪になっていたから、明からさまに言うことができないんです。<br><br>そこで秘密があったんですね。<br><br>あらゆるものがそうだったんですね。<br><br>これは宗教も無論そうでしたね。<br><br>なにしろうっかりすればキリストみたいや、日本のいろんな偉い坊さんでも島流しになったり、殺されようとしたりしたから、どうしても明からさまにできない。<br><br>秘密にしたんですね。<br><br>われわれだってそうですよ。<br><br>終戦前はそうですよ。<br><br>はっきり言えなかった。<br><br>だから「明日（みょうにち）の医術」でも暖昧極まるものがあったですが、あれははっきり書けなかったんです。<br><br>ところが今はそうではない。<br><br>言論の自由ではっきり書けるから、今度の「結核信仰療法」ははっきり書いた。<br><br>日本がそういう民主的になったということは、昼間の明るい時期に一歩近づいたわけですね。<br><br>そういうわけですから、メシヤ教というのは昼の世界を造る。<br><br>昼の世界になるについて出現した宗教です。<br><br>ですから今までの日本の宗教と違うんです。<br><br>だから私の言う通りにやれば決して間違いない。<br><br>裏があると思ったら間違いですね。<br><br>だから素直になれ、というのはそういう意味ですね。<br><br>素直にそのままやれば、すべてうまくいくんですね。<br><br>』 ７ 人の意見を盲信せず必ず御神書を基準に判断すべき事 〔 御講話（S27年6月7日） 『御教え集』11号、昭和27(1952)年7月15日発行〕 『それからもう一つは、人からいろんなことを聞きますが、それを正面（まとも）に信ずるということが、これがまた危ないですね。<br><br>だからいろんなことを聞いても、なるほど良い、しかしこれは神様の御趣旨に合っているかどうかということをまず考えてみて、どうも神様の御趣旨に合わない点もあるようだという場合には、御神書を見るんです――読むんです。<br><br>そうするとたいていなことはどこかにありますから、それで判断をするということにしなければならない。<br><br>そういうことで聞違えることがよくありますからね。<br><br>最近こういうことがあったですね。<br><br>ある信者で、メシヤ教は天国を造るんで、家庭も天国にしなければならない。<br><br>そうするとお金は、つまり余ってからあげる。<br><br>あげても経済的に差し障りがないだけの金をあげる。<br><br>そうすれば金の苦しみがないから、それが本当のやり方だ。<br><br>苦しんで金をあげるということは、やはり一つの苦しみを作るのだから、それは神様の御趣旨に合わない。<br><br>昔からいう「信心は徳の余り」というわけですね。<br><br>それを聞いて、ある信者は感心したんですよ。<br><br>それがだんだん広がって――苦しんで金をあげるから、だから家庭が天国にならないんだということにまでなった。<br><br>そうするとまた一方神様は今非常にお金が御入用だ。<br><br>人間は少しは苦労をしても神様の方にあげなければならない。<br><br>という両方の説が対立した。<br><br>しかしどうも後の説が負けるんですよ。<br><br>最初の方が勝っていくんですね。<br><br>どうもゴタゴタしているので、私が呼んでよく話してやった。<br><br>私の話はこういうわけです。<br><br>最初の、家庭が困らないようにするということも合っている。<br><br>確かにそれに違いない。<br><br>それから、神様はお金はたくさん必要だから――はやく地上天国を造って救わなければならないので、どんなことをしても金をあげなければならない――どんなに苦しんでもあげなければならない、ということも合っている。<br><br>両方とも合っているんだ。<br><br>ただ大乗と小乗だ。<br><br>最初の方は小乗的考え方ですね。<br><br>後の方は大乗的考え方ですね。<br><br>じゃ、後の方は金をあげて苦しむかというと、決して苦しまない。<br><br>金をあげてそんな苦しむような神様だったら拝むのを止めたらいい。<br><br>だから試しにあげてご覧なさい。<br><br>苦しむようにあげてご覧なさい。<br><br>十倍になって返ってきます。<br><br>苦しむどころじゃない。<br><br>たいへんな金にだぶついてくる。<br><br>そう言ってやったので、両方とも――小乗的の方はよく解って、ついこの間、謝りに来ましたがね。<br><br>そういうことがあるんですよ。<br><br>ですからそういうことも心得ておかなければならないということを、今話したんですがね。<br><br>』 ８ 明主様は間違って居れば注意されたが禁止されなかった事 〔 御講話（S27年4月1日） 『御垂示録』8号、昭和27(1952)年4月25日発行〕 『教団の中にも、間違った人や、いろいろな人がいますが、本当にいけなければ、私が注意を与えますがね。<br><br>注意も、なすべからずとか、それを止めろとか――そういうことは言いませんがね。<br><br>もし人が間違っても、この人は間違ったことをして、そのために覚るということもあるんだから、やはり頭をぶつけさせます。<br><br>すると、ああ俺は間違っていたと覚ることもある。<br><br>御神書を読んでも分らない人は自分で苦しむんですよ。<br><br>それで覚りを開くということもある。<br><br>間違ったことをさせておけば良いんですよ。<br><br>「あの人はこういうことをしているが、あれは注意しなければいけない」と言うが、私は、「あの人は今に頭をぶつけるから、それから言ったほうが良い」と、その通り頭をぶっつけさせます。<br><br>また人によっては、そういう苦しみをしなくても覚り得る人もある。<br><br>そこで、人間はその人の行為によって善悪は決められない。<br><br>それが大乗ですからね。<br><br>そこまで心得て、そこまで信仰が深くなると、私はいろいろ言います。<br><br>』 ９ 身魂（智慧証覚）相応にしか御教えは覚れぬ事 〔 御光話（S23年12月18日） 『御光話録』2号、昭和24(1949)年1月8日発行〕 ――時節柄、政治、戦争、大浄化などにつきまして、大先生様よりお言葉はいただけないことと存じますが、さらに御指導をいただくには適当な時期および場所を得てお伺い申し上げるべきでしょうか。<br><br>あるいは平常このお席でうけたまわった程度を承知させていただけばよろしゅうございましょうか。<br><br> 『ここで言ったことだけでいいです。<br><br>第一、他のときに特別な人だけに話をすると不公平になります。<br><br>「あの人に話して俺には話してくれない」なんて言われますから。<br><br>それに神様には秘密がない。<br><br>いつでも、まただれにでも話のできるべきものですから。<br><br>……智慧証覚の進んだ人なら私の言葉の奥も判るはずです。<br><br>そこまで行ってない人には言葉通りしか判らず、「ボンクラ」は言葉の半分くらい、もっと「ボンクラ」なら三分の一や五分の一くらいしか判らない。<br><br>だから言葉の奥まで判るようになることが必要なんです。<br><br>』 10 明主様の力徳も身魂相応にしかわからぬ事 〔 私の光 『地上天国』36号、昭和27(1952)年5月25日発行〕 『以上大体の説明であるが、これは私の力のホンの一部分であって、全体を説明するには容易ではない。<br><br>何よりも今後私のやる仕事を活眼を開いて見て貰う事である。<br><br>智性の働く人ならある程度分らないはずはない。<br><br>信仰的にいえば身魂相応にとれるのだから、この意味からいっても、信者は精々身魂を磨き、曇りのないようにしておく事で、そうすれば正覚を得て私の力徳が分るはずである。<br><br>』 11 明主様の御神格は時節と共に事実によって表われて来る事 〔 春季大祭御講話（S29年3月27日） 『御教え集』32号、昭和29(1954)年4月15日発行〕 （イエス・キリストの霊が本教信徒に憑り、明主様を「天の父」とお呼び申し上げたと言う御話の後で） 『それで私は自分自身ああこうと、ドエライことは言いたくないですから言わないのですが、だんだん時節に応じてそういうことが証拠立てられ、分からないわけにはゆかなくなってくるのです。<br><br>』
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content">
-            <h2>Capítulo I - Sobre os Ensinamentos de Meishu-Sama</h2>
-            <h3>1. As Palavras de Meishu-Sama são as Palavras de Deus</h3>
-            <p>É preciso que compreendam o seguinte. Desde a antiguidade, os fundadores de religiões costumavam inquirir
+<h2>Capítulo I - Sobre os Ensinamentos de Meishu-Sama</h2>
+<h3>1. As Palavras de Meishu-Sama são as Palavras de Deus</h3>
+<p>É preciso que compreendam o seguinte. Desde a antiguidade, os fundadores de religiões costumavam inquirir
                 a Deus sobre cada assunto. Em resposta, recebiam um oráculo e então declaravam: "Deus disse assim". As
                 pessoas que ouviam tais palavras sentiam-se imensamente gratas.</p>
-            <p>Contudo, eu não procedo dessa maneira. Simplesmente pronuncio minhas palavras de forma concisa, conforme
+<p>Contudo, eu não procedo dessa maneira. Simplesmente pronuncio minhas palavras de forma concisa, conforme
                 a ocasião, o que pode lhes subtrair a aparente solenidade. Por essa razão, as pessoas tendem a
                 subestimá-las e a não lhes dar a devida atenção. Apenas mais tarde, diante de alguma situação,
                 recordam-se de ter ouvido algo a respeito e finalmente se dão conta de sua importância. No início,
                 porém, raramente pensam dessa forma. Consequentemente, há um número considerável de pessoas que não
                 seguem o que digo.</p>
-            <p>Qual seria o motivo? Eu não tenho a necessidade de consultar a Deus, pois o Deus que em mim habita é o
+<p>Qual seria o motivo? Eu não tenho a necessidade de consultar a Deus, pois o Deus que em mim habita é o
                 Deus Supremo. O que digo e o que faço são, em si, o que o próprio Deus diz e faz. Trata-se, portanto, de
                 uma comunicação direta. Em contrapartida, os fundadores de religiões até hoje atuaram de modo indireto.
                 Mesmo Cristo, ao afirmar ter nascido por ordem de Jeová ou ao se referir ao Pai Celestial, ainda assim
                 se posicionava como um mediador. O Deus que em mim reside é o mesmo que Jeová.</p>
-            <p>Por esse motivo, eu jamais orei a um deus. Em qualquer religião, durante os ofícios religiosos, é comum
+<p>Por esse motivo, eu jamais orei a um deus. Em qualquer religião, durante os ofícios religiosos, é comum
                 que o fundador reverencie a divindade com grande formalidade. Eu não o faço, pois não há um Deus a quem
                 eu precise reverenciar. Se outras divindades existissem, todas estariam em uma posição hierárquica
                 inferior à minha. Portanto, seria mais apropriado que os deuses me reverenciassem.</p>
-            <p>É por isso que, mesmo ao escrever um Ohikari, diferentemente do costume de se purificar em jejum e banho
+<p>É por isso que, mesmo ao escrever um Ohikari, diferentemente do costume de se purificar em jejum e banho
                 e trajar vestes cerimoniais, eu o faço com naturalidade. No verão, por exemplo, chego a escrevê-los sem
                 trajes formais, sentado de pernas cruzadas. Para quem desconhece a realidade espiritual, tal atitude
                 pode parecer desprovida de valor. Contudo, ajo com simplicidade em todas as coisas, pois não há
                 necessidade de complexidade. Esse ponto, entretanto, é frequentemente mal interpretado e visto de
                 maneira inversa, gerando equívocos. Creio que, com o tempo, tudo será devidamente compreendido. Não me
                 importo com os mal-entendidos temporários.</p>
-            <p>Eu evitava falar sobre esses assuntos para não parecer demasiadamente um deus vivo, algo que não me
+<p>Eu evitava falar sobre esses assuntos para não parecer demasiadamente um deus vivo, algo que não me
                 agrada. Todavia, percebi que essa postura levava muitos a menosprezar minhas palavras, o que resultava
                 em erros frequentes. Por essa razão, julguei melhor esclarecer o tema. Reflitam bem sobre este ponto, e
                 a diferença em relação a outras religiões e seus fundadores se tornará nítida.</p>
-            <p>A prova mais clara reside nos milagres. Os milagres de Cristo, por exemplo, tornaram-se mundialmente
+<p>A prova mais clara reside nos milagres. Os milagres de Cristo, por exemplo, tornaram-se mundialmente
                 famosos. No entanto, meus discípulos realizam constantemente milagres semelhantes aos dele, e até mesmo
                 superiores. Havia um relato que eu pretendia ler, se houvesse tempo, intitulado "Milagres que superam
                 milagres". Publicá-lo-ei no jornal, mas omitirei a leitura agora por falta de tempo. Trata-se da
@@ -151,29 +303,29 @@ function toggleLang(lang) {
                 Contudo, como relata o próprio autor, foram salvos por uma conjuntura afortunada. É um acontecimento
                 para o qual a ciência não encontra explicação lógica. O relato detalhado será publicado no jornal e
                 todos poderão compreendê-lo.</p>
-            <p>Outrossim, reunimos cerca de sete relatos de proteção durante os bombardeios atômicos, que também serão
+<p>Outrossim, reunimos cerca de sete relatos de proteção durante os bombardeios atômicos, que também serão
                 divulgados. Nesses casos, ocorreram milagres extraordinários. Praticamente nenhum fiel que portava o
                 Ohikari sofreu dano algum. Portanto, nem mesmo a bomba atômica é digna de temor; a proteção é certa.
                 Ademais, pessoas que ficaram à beira da morte devido à radiação se recuperaram completamente através do
                 Johrei. Esses milagres superam os de Cristo; afinal, em sua época não existiam eletricidade ou outros
                 desafios modernos. O que acabo de expor evidencia a diferença entre uma força indireta, como a de Cristo
                 e de outros, e a minha, que é direta. O tempo se esgotou; encerro com esta breve explanação.</p>
-            <h3>2. As Palavras de Meishu-Sama Devem Ser Seguidas com Rigor</h3>
-            <p>É surpreendente a quantidade de pessoas que interpretam mal as minhas palavras. Falo com bastante
+<h3>2. As Palavras de Meishu-Sama Devem Ser Seguidas com Rigor</h3>
+<p>É surpreendente a quantidade de pessoas que interpretam mal as minhas palavras. Falo com bastante
                 clareza, mas ainda assim, se ontem eu disse "uma vez por semana", hoje aparece alguém afirmando que eu
                 disse "duas vezes". A diferença entre uma e duas vezes por semana é o dobro. A mente dos membros — e a
                 das pessoas em geral é ainda mais limitada — por vezes demonstra grande lentidão, pois não refletem
                 exatamente como exponho.</p>
-            <p>Eles pensam: "Meishu-Sama disse isso, mas o verdadeiro significado é aquele", e acabam por criar uma
+<p>Eles pensam: "Meishu-Sama disse isso, mas o verdadeiro significado é aquele", e acabam por criar uma
                 interpretação própria. Isso frequentemente os leva ao erro. Parece que acreditam que seguir minhas
                 palavras à risca diminuiria seu próprio valor ou denotaria falta de inteligência. Por essa razão, poucos
                 agem exatamente como oriento.</p>
-            <p>Eu sempre afirmo que aquele que age exatamente como penso e digo é um herói. É alguém grandioso. A
+<p>Eu sempre afirmo que aquele que age exatamente como penso e digo é um herói. É alguém grandioso. A
                 maioria, todavia, inevitavelmente desvia-se. Isso não se restringe à fé; ocorre também nos trabalhos do
                 jardim. Não há um único jardineiro que execute minhas ordens com precisão. Se peço para colocar algo
                 aqui, invariavelmente o colocam ali. Se indico um local, eles escolhem outro. Os jardineiros me dão
                 muito trabalho.</p>
-            <p>O mais curioso é que seguir minhas instruções é o caminho mais fácil, mas eles insistem em rejeitá-lo.
+<p>O mais curioso é que seguir minhas instruções é o caminho mais fácil, mas eles insistem em rejeitá-lo.
                 Certa vez, um deles se destacou. Pedi-lhe: "Mova esta pedra um shaku para cá". Ele não conseguiu movê-la
                 a distância correta, avançando apenas dois ou três sun. Perguntei-lhe por que não movera um shaku e
                 ordenei que o fizesse. Desta vez, ele moveu cinco ou seis sun. "Está errado, tente novamente", insisti.
@@ -181,56 +333,56 @@ function toggleLang(lang) {
                 se errasse uma quarta vez, eu o dispensaria. Em vez de tentar seguir a ordem, ele disse que se afastaria
                 e pediria ao mestre de obras para fazê-lo. Expliquei ao mestre como proceder, e o trabalho foi concluído
                 em duas ou três horas. O primeiro jardineiro, por sua vez, levou três ou quatro dias.</p>
-            <p>Situações como essa acontecem. Creio que, especialmente entre os japoneses, existe uma espécie de hábito,
+<p>Situações como essa acontecem. Creio que, especialmente entre os japoneses, existe uma espécie de hábito,
                 quase uma enfermidade, de não fazer ou pensar exatamente como lhes é dito. É por isso que o que eu falo
                 tantas vezes acaba sendo distorcido. As pessoas dizem: "Fiz como Meishu-Sama orientou, mas não deu
                 certo". No entanto, quando investigo, percebo que não seguiram minhas palavras. O mesmo se aplica às
                 questões de doença.</p>
-            <p>Não há em mim subterfúgios ou inverdades. Grandes homens do passado, por vezes, recorriam a floreios ou
+<p>Não há em mim subterfúgios ou inverdades. Grandes homens do passado, por vezes, recorriam a floreios ou
                 descrições que não correspondiam à realidade. Eu abomino tal prática. Expresso tudo de forma direta e
                 transparente. Portanto, quem seguir minhas palavras exatamente como foram ditas, certamente obterá
                 sucesso.</p>
-            <h3>3. Os Ensinamentos de Meishu-Sama Devem Ser Seguidos com Docilidade em Todos os Assuntos</h3>
-            <p>Como já mencionei, Hakone representa o aspecto espiritual, e Atami, o material. Com a conclusão do
+<h3>3. Os Ensinamentos de Meishu-Sama Devem Ser Seguidos com Docilidade em Todos os Assuntos</h3>
+<p>Como já mencionei, Hakone representa o aspecto espiritual, e Atami, o material. Com a conclusão do
                 Paraíso Terrestre de Atami, o desenvolvimento material se concretizará. Assim, nossa Obra se tornará
                 verdadeiramente proeminente. Adentramos um período fascinante e estimulante. Do lado de Deus, os
                 preparativos já foram concluídos; o programa, por assim dizer, está pronto. Tudo ocorrerá exatamente
                 como planejado, sem o menor desvio. É apenas uma questão de tempo.</p>
-            <p>No Ofudesaki da Oomoto, há passagens que dizem: "Nada há mais sublime e, ao mesmo tempo, mais temível que
+<p>No Ofudesaki da Oomoto, há passagens que dizem: "Nada há mais sublime e, ao mesmo tempo, mais temível que
                 o Tempo Divino" e "Quando isto começar a ser compreendido, o mundo gemerá". Estamos no limiar desse
                 momento. Outra passagem afirma: "Este é o plano em que isto se tornará aquilo, e aquilo se tornará
                 isto". O Ofudesaki expressa verdades magníficas e profundas com palavras de uma simplicidade notável. Na
                 época, eu mesmo não compreendia seu real significado e achava curiosa a forma de Deus se expressar.
                 Hoje, porém, vejo que tudo se encaixa perfeitamente.</p>
-            <p>Há uma frase que diz: "Não haverá erro se tudo for feito conforme a palavra de Deus". Tomemos como
+<p>Há uma frase que diz: "Não haverá erro se tudo for feito conforme a palavra de Deus". Tomemos como
                 exemplo a Agricultura Natural. Aqueles que seguiram minhas instruções à risca estão progredindo conforme
                 o planejado e colhendo os resultados. Os agricultores, no entanto, apegados a longos anos de hábitos,
                 relutam em obedecer. É surpreendente, mas até hoje muitos ainda utilizam adubos. Parece que, a partir
                 deste ano, um número considerável de pessoas começou a se conscientizar e a decidir pela mudança.</p>
-            <p>A esse respeito, há uma história interessante. A fundadora da Oomoto ouviu de Deus: "Nao, você irá para o
+<p>A esse respeito, há uma história interessante. A fundadora da Oomoto ouviu de Deus: "Nao, você irá para o
                 estrangeiro. Parta imediatamente". Ela respondeu: "Como poderei ir, se não tenho dinheiro nem
                 recursos?". Deus então lhe disse: "Não se preocupe, leve apenas cinco ienes". E assim, a fundadora
                 partiu, levando consigo uma nota de cinco ienes. No meio do caminho, Deus lhe falou novamente: "Nao, já
                 pode voltar. Não precisa mais ir". Ela questionou: "Meu Deus, por que zombais de mim?". E Ele respondeu:
                 "Eu apenas queria testar até que ponto você obedeceria às minhas palavras. Agora que sei, está tudo
                 bem". Foi um teste divino.</p>
-            <p>É esse o nível de obediência e docilidade que se espera. O Ofudesaki ensina: "Como não há erro no que
+<p>É esse o nível de obediência e docilidade que se espera. O Ofudesaki ensina: "Como não há erro no que
                 Deus diz, a docilidade é a virtude suprema". Como sempre digo, até mesmo as palavras que pronuncio de
                 forma casual possuem um profundo significado. Quem as segue, jamais cometerá erros.</p>
-            <p>A Agricultura sem Adubos, por exemplo, no início, foi completamente ignorada. Aparentemente, as pessoas
+<p>A Agricultura sem Adubos, por exemplo, no início, foi completamente ignorada. Aparentemente, as pessoas
                 pensavam: "É certo que Meishu-Sama cura doenças, mas é improvável que saiba tanto sobre agricultura".
                 Contudo, sendo uma questão relacionada ao Tempo Divino, não havia como compreendê-la por meio de
                 argumentos. Agora, finalmente, os resultados práticos estão surgindo conforme o esperado, o que é
                 excelente.</p>
-            <h3>Apêndice 1: Deve-se Obedecer às Palavras com um "Sim" Dócil</h3>
-            <p>"Poderíamos solicitar a outorga do Chinkon?"</p>
-            <p>Não é permitido.</p>
-            <p>"Em nenhuma circunstância?"</p>
-            <p>Quando digo que não se deve fazer, basta responder "sim". A postura correta não é a de quem diz: "Quero
+<h3>Apêndice 1: Deve-se Obedecer às Palavras com um "Sim" Dócil</h3>
+<p>"Poderíamos solicitar a outorga do Chinkon?"</p>
+<p>Não é permitido.</p>
+<p>"Em nenhuma circunstância?"</p>
+<p>Quando digo que não se deve fazer, basta responder "sim". A postura correta não é a de quem diz: "Quero
                 ser salvo. Por favor, ajude-me". Isso implica tornar-se um deus. O correto é pensar: "Permita-me servir
                 como intermediário de Deus".</p>
-            <h3>Apêndice 2: Exemplo de Advertência por Não Seguir um Ensinamento com Precisão</h3>
-            <p>"Há uma pessoa que sofre de paralisia nervosa há cerca de dez anos e que obteve grande melhora com o
+<h3>Apêndice 2: Exemplo de Advertência por Não Seguir um Ensinamento com Precisão</h3>
+<p>"Há uma pessoa que sofre de paralisia nervosa há cerca de dez anos e que obteve grande melhora com o
                 Johrei. Ela possui um pergaminho com a pintura de um dragão a nanquim. Em uma consulta anterior, o
                 senhor me orientou a dizer-lhe para colocá-lo diante do Altar, pois poderia haver alguma relação.
                 Transmiti a mensagem, mas, após uma semana, ela achou que não era mais necessário e guardou-o em uma
@@ -238,7 +390,7 @@ function toggleLang(lang) {
                 que seria melhor seguir a orientação recebida. Quando entoei a Oração Amatsu-Norito, embora não houvesse
                 vento, somente o Goshintai se afastou de cinco a sete sun da parede e balançou intensamente por cerca de
                 quinze minutos."</p>
-            <p>Inicialmente, eu disse para colocar o dragão diante da Imagem de Komyo Nyorai, correto? E uma semana
+<p>Inicialmente, eu disse para colocar o dragão diante da Imagem de Komyo Nyorai, correto? E uma semana
                 depois ela o guardou na caixa? Isso é um erro gravíssimo. Você deve orientá-la a se desculpar. Se eu
                 tivesse dito que bastava uma semana, estaria certo, mas eu não disse isso. Eu disse apenas para deixá-lo
                 ali. O correto seria, após seis meses ou um ano, consultar-me novamente. O fato de você não o ter feito
@@ -247,10 +399,10 @@ function toggleLang(lang) {
                 permanecer. Seu dever é explicar isso claramente à pessoa e orientá-la a pedir perdão a Komyo Nyorai.
                 Por enquanto, o pergaminho deve ficar guardado, mas quando for a hora de desenrolá-lo, devem me
                 consultar primeiro.</p>
-            <p>"Pode ficar enrolado como está?"</p>
-            <p>Sim, pode ficar enrolado. Coloque-o sobre algum suporte.</p>
-            <h3>4. Sobre o Rigor de Deus</h3>
-            <p>O ponto final deste raciocínio é crucial. As religiões até hoje se basearam apenas em ensinamentos. O
+<p>"Pode ficar enrolado como está?"</p>
+<p>Sim, pode ficar enrolado. Coloque-o sobre algum suporte.</p>
+<h3>4. Sobre o Rigor de Deus</h3>
+<p>O ponto final deste raciocínio é crucial. As religiões até hoje se basearam apenas em ensinamentos. O
                 ensinamento por si só possui uma força limitada. A Sekaikyuseikyou, contudo, alia o ensinamento à
                 demonstração de fatos concretos. Com isso, o ser humano finalmente compreende que Deus de fato existe e,
                 consequentemente, percebe que não pode mais praticar o mal, tornando-se assim um verdadeiro ser humano.
@@ -258,17 +410,17 @@ function toggleLang(lang) {
                 divina senão através do milagre. No entanto, até hoje, as religiões simplesmente afirmavam "Deus existe,
                 portanto, creia", sem apresentar provas, o que, na verdade, é ilógico. Por essa razão, a salvação
                 verdadeira não era alcançada.</p>
-            <p>Sobre isso, há uma história interessante que ouvi ontem. Para a programação do próximo Grande Ofício, um
+<p>Sobre isso, há uma história interessante que ouvi ontem. Para a programação do próximo Grande Ofício, um
                 responsável foi contratar o cantor Katsuhiko Haida. Ele pediu um cachê exorbitantemente alto. Ao ser
                 questionado sobre o valor, o empresário do cantor respondeu: "A Sekaikyuseikyou não passa de uma
                 quadrilha que arrecada dinheiro por meios fraudulentos". Três ou quatro dias depois, esse empresário
                 morreu.</p>
-            <p><em>Pergunta de um membro:</em>
+<p><em>Pergunta de um membro:</em>
                 Gostaria de obter mais detalhes, Meishu-Sama.</p>
-            <p><em>Resposta de Meishu-Sama:</em>
+<p><em>Resposta de Meishu-Sama:</em>
                 Ele morreu em um acidente de carro, derrapando na neve em uma estrada entre Kyoto e Osaka. É um fato
                 comprovado.</p>
-            <p>Um incidente semelhante ocorreu no passado. Quando eu ainda residia em Hozan-so, em Tóquio, um erudito da
+<p>Um incidente semelhante ocorreu no passado. Quando eu ainda residia em Hozan-so, em Tóquio, um erudito da
                 seita Nitiren, cujo nome esqueci, mas que era bastante conhecido, leu meu livro "Ashita no Ijutsu" e
                 proferiu críticas severas, dizendo algo como: "Escrever algo assim para iludir as pessoas é o cúmulo do
                 estelionato". Suas palavras foram ainda mais duras, mas não me recordo dos detalhes. Cerca de um ano
@@ -276,7 +428,7 @@ function toggleLang(lang) {
                 bonde; no momento em que se deu conta do que acontecia, um bonde passou e esmagou seu rosto, que ficou
                 desfigurado. Na ocasião, o Sr. Nakajima veio me contar, dizendo: "Finalmente a punição divina chegou".
             </p>
-            <p>Há outros casos como esses. O Deus da nossa fé é um Deus extremamente rigoroso. Existem muitas histórias
+<p>Há outros casos como esses. O Deus da nossa fé é um Deus extremamente rigoroso. Existem muitas histórias
                 interessantes, mas não há tempo para contá-las em detalhe. Lembro-me também de algo que aconteceu quando
                 a fundadora da Oomoto estava em seu período inicial de aprimoramento. Havia em Osaka um vidente que lia
                 a sorte pelo soroban. Ao consultá-lo, ele disse: "Senhora Nao Deguchi, o deus que a acompanha não é um
@@ -287,20 +439,20 @@ function toggleLang(lang) {
                 sublime de demônio era um ato imperdoável, algo ainda mais grave do que dizer que "a Sekaikyuseikyou é
                 uma quadrilha que arrecada dinheiro". O deus Kunitokotachi no Mikoto é, de fato, um deus de extremo
                 rigor, que jamais perdoa o mal. Há muitos outros relatos, mas por falta de tempo, encerro por aqui.</p>
-            <h3>5. Exemplo de Confusão Gerada pela Transmissão Incorreta das Palavras de Meishu-Sama</h3>
-            <p>Antigamente eu não comia maçãs. Certo fiel, na época em que me chamavam de O-sensei, perguntou:
+<h3>5. Exemplo de Confusão Gerada pela Transmissão Incorreta das Palavras de Meishu-Sama</h3>
+<p>Antigamente eu não comia maçãs. Certo fiel, na época em que me chamavam de O-sensei, perguntou:
                 "O-sensei, por que o senhor não come maçãs?". Eu respondi: "Não gosto muito de maçãs porque não têm
                 muito suco, por isso não as como. Mas quem gosta pode comer". Eu disse isso de passagem, pois
                 frequentemente me ofereciam a fruta. Em seguida, acrescentei: "A medicina costuma dizer que a maçã é um
                 remédio, mas na verdade, nenhuma fruta específica é remédio. Deus as criou porque são necessárias, e
                 quem gosta deve comê-las. A ideia de que a maçã é um remédio está equivocada".</p>
-            <p>De alguma forma, minhas palavras foram distorcidas e se espalhou o boato de que "Meishu-Sama disse que
+<p>De alguma forma, minhas palavras foram distorcidas e se espalhou o boato de que "Meishu-Sama disse que
                 não se deve comer maçã". Essa ideia se disseminou amplamente. Embora eu tenha tentado desmenti-la em
                 diversas ocasiões, a força da propagação era tão grande que meus esclarecimentos não surtiam efeito.
                 Recentemente, ouvi algo cômico a esse respeito. Em uma certa região, as pessoas, por acreditarem que a
                 maçã é um remédio segundo a medicina, pensavam que comê-la causaria intoxicação medicamentosa. Por isso,
                 quando ganhavam maçãs, deixavam-nas estragar em vez de comê-las, tudo por medo do yakudoku.</p>
-            <p>Situações tão absurdas podem ocorrer. O ideal é que aceitem o que digo e escrevo tal como é. No entanto,
+<p>Situações tão absurdas podem ocorrer. O ideal é que aceitem o que digo e escrevo tal como é. No entanto,
                 as pessoas acrescentam seus próprios floreios, exageram, e de boca em boca a história vai crescendo até
                 se transformar em um completo disparate. Erros ridículos como esse são surpreendentemente comuns. Por
                 isso, o que sempre digo é para usarem o bom senso. Deus criou os alimentos saborosos para que os
@@ -308,99 +460,141 @@ function toggleLang(lang) {
                 Comê-los por obrigação é um erro. Isso está escrito em meus livros, e se seguirem essa orientação, não
                 haverá erro. Em suma, para evitar equívocos, basta não se esquecer do que é natural e julgar as coisas
                 com bom senso.</p>
-            <h3>6. Não Existe um "Lado Oculto" nos Ensinamentos de Meishu-Sama</h3>
-            <p>De vez em quando, ouço dizer que meus livros e ensinamentos possuem um lado manifesto e um lado oculto.
+<h3>6. Não Existe um "Lado Oculto" nos Ensinamentos de Meishu-Sama</h3>
+<p>De vez em quando, ouço dizer que meus livros e ensinamentos possuem um lado manifesto e um lado oculto.
                 Houve uma época em que essa ideia se propagou intensamente. Aqueles que veem as coisas dessa forma estão
                 sob a influência de espíritos malignos. Por quê? Porque todos os ensinamentos do passado, incluindo as
                 escrituras budistas, pertenciam ao Mundo da Noite e, por isso, inevitavelmente possuíam um lado oculto.
                 No Mundo da Noite, apenas onde a lua ilumina é visível; o resto permanece na escuridão. No Mundo do Dia,
                 entretanto, tudo é visível.</p>
-            <p>Portanto, meus ensinamentos não possuem essa dualidade. Basta crer neles tal como são. No passado, como o
+<p>Portanto, meus ensinamentos não possuem essa dualidade. Basta crer neles tal como são. No passado, como o
                 mal era a base de tudo, não era possível falar abertamente. Daí a necessidade de segredos, algo presente
                 em todas as áreas, inclusive, é claro, na religião. Afinal, qualquer descuido poderia levar a um destino
                 como o de Cristo ou o de tantos monges ilustres do Japão, que foram exilados ou sofreram tentativas de
                 assassinato. Por isso, era impossível falar com clareza; tudo era mantido em segredo.</p>
-            <p>Nós mesmos passamos por isso. Antes do fim da guerra, não podíamos nos expressar livremente. Por essa
+<p>Nós mesmos passamos por isso. Antes do fim da guerra, não podíamos nos expressar livremente. Por essa
                 razão, o livro "A Medicina de Amanhã" contém passagens extremamente ambíguas, pois não era possível
                 escrever com clareza. Hoje, a situação é outra. Graças à liberdade de expressão, pude escrever o livro
                 "Terapêutica da Tuberculose pela Fé" de forma explícita. O fato de o Japão ter se tornado uma nação
                 democrática representa um passo em direção à era luminosa do Dia.</p>
-            <p>Nesse sentido, a Sekaikyuseikyou é a religião que surgiu para construir o Mundo do Dia. Ela é
+<p>Nesse sentido, a Sekaikyuseikyou é a religião que surgiu para construir o Mundo do Dia. Ela é
                 fundamentalmente diferente das religiões japonesas do passado. Portanto, quem seguir o que digo, não
                 cometerá erros. Pensar que existe um lado oculto é um engano. Ser dócil significa justamente isso:
                 aceitar e praticar as palavras como são. Fazendo isso, tudo correrá bem.</p>
-            <h3>7. Não Acreditar Cegamente na Opinião Alheia e Julgar Tudo com Base nos Escritos Divinos</h3>
-            <p>Outro ponto importante: é perigoso acreditar sem questionar em tudo o que se ouve de outras pessoas. Ao
+<h3>7. Não Acreditar Cegamente na Opinião Alheia e Julgar Tudo com Base nos Escritos Divinos</h3>
+<p>Outro ponto importante: é perigoso acreditar sem questionar em tudo o que se ouve de outras pessoas. Ao
                 ouvir algo, mesmo que pareça bom, é preciso primeiro refletir: "Isto está de acordo com a Vontade
                 Divina?". Se houver dúvidas, deve-se consultar os Escritos Divinos. A maioria das questões já foi
                 abordada em algum lugar, e é por meio deles que se deve fazer o julgamento. Equívocos por falta desse
                 cuidado são muito comuns.</p>
-            <p>Recentemente, ocorreu o seguinte: um fiel argumentava que, como a Sekaikyuseikyou visa construir o
+<p>Recentemente, ocorreu o seguinte: um fiel argumentava que, como a Sekaikyuseikyou visa construir o
                 Paraíso, o lar também deve se tornar um paraíso. Segundo ele, as doações monetárias deveriam ser feitas
                 apenas com o dinheiro que sobra, de forma que não causem dificuldades financeiras. Assim, sem o
                 sofrimento por causa do dinheiro, o lar estaria em harmonia, e essa seria a forma correta de agir. Doar
                 em meio a dificuldades criaria mais sofrimento, o que seria contrário à Vontade Divina. É o antigo
                 ditado: "A fé se pratica com o que sobra da virtude".</p>
-            <p>Ao ouvir isso, outro fiel ficou impressionado, e a ideia começou a se espalhar, a ponto de alguns
+<p>Ao ouvir isso, outro fiel ficou impressionado, e a ideia começou a se espalhar, a ponto de alguns
                 concluírem: "O lar não se torna um paraíso porque doamos com sacrifício". Por outro lado, havia a visão
                 de que Deus, neste momento, necessita de muitos recursos e que os seres humanos, mesmo com algum
                 sacrifício, devem contribuir. As duas teses entraram em conflito.</p>
-            <p>No entanto, a segunda tese parecia estar perdendo força, enquanto a primeira ganhava adeptos. Vendo a
+<p>No entanto, a segunda tese parecia estar perdendo força, enquanto a primeira ganhava adeptos. Vendo a
                 confusão, chamei os envolvidos para uma conversa e esclareci. Minha explicação foi a seguinte: a
                 primeira ideia, de não comprometer o sustento da família, está correta. Não há dúvida. A segunda, de que
                 Deus precisa de muitos recursos para construir rapidamente o Paraíso Terrestre e salvar a humanidade, e
                 que por isso devemos doar mesmo com grande esforço, também está correta. Ambas estão certas. A diferença
                 é que uma é do Pequeno Veículo e a outra, do Grande Veículo. A primeira representa um pensamento do
                 Pequeno Veículo; a segunda, do Grande Veículo.</p>
-            <p>Mas será que, ao doar, a pessoa do Grande Veículo realmente sofre? De modo algum. Se tivéssemos um Deus
+<p>Mas será que, ao doar, a pessoa do Grande Veículo realmente sofre? De modo algum. Se tivéssemos um Deus
                 que nos fizesse sofrer por doarmos, seria melhor deixar de cultuá-lo. Por isso, eu lhes disse:
                 "Experimentem doar. Doem a ponto de sentirem o sacrifício. O retorno virá multiplicado por dez. Longe de
                 sofrer, vocês terão dinheiro em abundância". Com essa explicação, ambos os lados compreenderam, e os
                 defensores da tese do Pequeno Veículo vieram recentemente se desculpar. Situações como essa acontecem. É
                 preciso ter discernimento sobre esses pontos.</p>
-            <h3>8. Meishu-Sama Advertia sobre o Erro, mas Não o Proibia</h3>
-            <p>Dentro da Igreja, há pessoas equivocadas e de todos os tipos. Se algo está verdadeiramente errado, eu as
+<h3>8. Meishu-Sama Advertia sobre o Erro, mas Não o Proibia</h3>
+<p>Dentro da Igreja, há pessoas equivocadas e de todos os tipos. Se algo está verdadeiramente errado, eu as
                 advirto. Mas não digo "não faça" ou "pare com isso". Mesmo que alguém erre, pode ser que essa pessoa
                 aprenda justamente por causa do erro. Por isso, às vezes, deixo que ela "bata com a cabeça na parede".
                 Assim, ela mesma percebe: "Ah, eu estava errado". Há pessoas que, mesmo lendo os Escritos Divinos, não
                 compreendem; elas precisam passar pelo sofrimento para despertar.</p>
-            <p>Portanto, é melhor deixar que cometam seus erros. Alguns me dizem: "Aquela pessoa está fazendo tal coisa,
+<p>Portanto, é melhor deixar que cometam seus erros. Alguns me dizem: "Aquela pessoa está fazendo tal coisa,
                 é preciso adverti-la". Eu respondo: "Deixe-a. Logo ela vai bater com a cabeça na parede, e então será o
                 momento de falar". E, de fato, é o que acontece. Por outro lado, há pessoas que conseguem despertar sem
                 precisar passar por tais sofrimentos. Por isso, não se pode julgar o bem e o mal de uma pessoa apenas
                 por seus atos. Essa é a visão do Grande Veículo. Quando a fé de alguém se aprofunda a esse ponto, então
                 eu posso lhe falar sobre muitas coisas.</p>
-            <h3>9. Os Ensinamentos Só Podem Ser Compreendidos na Medida da Condição Espiritual (Sabedoria e Iluminação)
+<h3>9. Os Ensinamentos Só Podem Ser Compreendidos na Medida da Condição Espiritual (Sabedoria e Iluminação)
             </h3>
-            <p><em>Pergunta de um membro:</em>
+<p><em>Pergunta de um membro:</em>
                 Considerando o momento atual, com as questões de política, guerra e a Grande Purificação, imagino que
                 não poderemos receber palavras de O-sensei sobre esses temas. Para receber uma orientação mais
                 aprofundada, deveríamos buscar um momento e um local mais apropriados, ou basta que nos contentemos com
                 o que ouvimos nestas ocasiões?</p>
-            <p><em>Resposta de Meishu-Sama:</em>
+<p><em>Resposta de Meishu-Sama:</em>
                 O que eu digo aqui é suficiente. Em primeiro lugar, se eu falasse sobre assuntos especiais apenas para
                 algumas pessoas, seria injusto. Outros diriam: "Ele falou para fulano, mas não para mim". Além disso,
                 para Deus não há segredos. Seus ensinamentos devem poder ser ditos a qualquer hora e para qualquer
                 pessoa.</p>
-            <p>Uma pessoa com sabedoria e iluminação avançadas consegue compreender a profundidade de minhas palavras.
+<p>Uma pessoa com sabedoria e iluminação avançadas consegue compreender a profundidade de minhas palavras.
                 Quem ainda não chegou a esse nível, entende apenas o sentido literal. Uma pessoa obtusa entenderá talvez
                 a metade; uma ainda mais obtusa, um terço ou um quinto. Portanto, o essencial é esforçar-se para se
                 tornar capaz de compreender a profundidade de minhas palavras.</p>
-            <h3>10. O Poder e a Virtude de Meishu-Sama Também Só São Compreendidos na Medida da Condição Espiritual</h3>
-            <p>Esta é uma explicação geral, mas representa apenas uma ínfima parte do meu poder. Explicá-lo em sua
+<h3>10. O Poder e a Virtude de Meishu-Sama Também Só São Compreendidos na Medida da Condição Espiritual</h3>
+<p>Esta é uma explicação geral, mas representa apenas uma ínfima parte do meu poder. Explicá-lo em sua
                 totalidade não é tarefa fácil. O mais importante é que observem, com os olhos bem abertos, o trabalho
                 que realizarei daqui para frente. Uma pessoa com discernimento intelectual certamente compreenderá, ao
                 menos em parte. Em termos de fé, a compreensão ocorre de acordo com a condição espiritual de cada um.
                 Nesse sentido, os fiéis devem se empenhar ao máximo em polir seu espírito para que não haja nódoas.
                 Assim, alcançarão a verdadeira iluminação e serão capazes de compreender meu poder e minha virtude.</p>
-            <h3>11. A Natureza Divina de Meishu-Sama se Manifestará Através dos Fatos, Conforme o Avanço do Tempo Divino
+<h3>11. A Natureza Divina de Meishu-Sama se Manifestará Através dos Fatos, Conforme o Avanço do Tempo Divino
             </h3>
-            <p>(Após o relato de que o espírito de Jesus Cristo se manifestou em um fiel da nossa Igreja, referindo-se a
+<p>(Após o relato de que o espírito de Jesus Cristo se manifestou em um fiel da nossa Igreja, referindo-se a
                 Meishu-Sama como "Pai Celestial")</p>
-            <p>Eu mesmo não gosto de falar sobre mim de maneira grandiosa, por isso não o faço. Contudo, à medida que o
+<p>Eu mesmo não gosto de falar sobre mim de maneira grandiosa, por isso não o faço. Contudo, à medida que o
                 Tempo Divino avança, fatos como este surgirão como provas, e a minha condição se tornará inegável.</p>
-        </div>
-    </blockquote>
-</body>
+</div>
+</blockquote>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 伝道の手引き Ⅰ －１－１ 信仰の基本 第一章 明主様の御教えについて １ 明主様の御言葉は即ち神の言葉 〔 御講話（S27年4月7日） 『御教え集』9号、昭和27(1952)年5月15日発行〕 『それからこういうことを知らなければならないんですがね。<br/><br/>それは、昔から宗教の教祖とかいう人が、なんでも一々神様にお伺いするんですね。<br/><br/>そうすると御託宣が出て、神様がこうおっしゃった、とか言うんですがね。<br/><br/>そうすると、それを聞いた人はたいへんありがたがるんです。<br/><br/>ありがたく思うんですね。<br/><br/>ところが私はそんなことはしないですね。<br/><br/>ただ、その場その場で簡単に言ってのけるので、有難味がないんですね。<br/><br/>だから、ともすればそれを軽く思って聞き逃しちゃうわけですね。<br/><br/>で、なにかあると、こういうことを以前にお聞きした。<br/><br/>これだということに気がつくんですが、初めはなかなかそう思わないんです。<br/><br/>それですから私の言う通りやらない人も随分あるんですよ。<br/><br/>それはどういうわけだと言うと、私は神様に聞く必要はないんです。<br/><br/>私のお腹におられる神様は最高の神様です。<br/><br/>自分が言うことやることが、そのまま神様がやっていることと同じですからね。<br/><br/>つまり直接なのですね。<br/><br/>ところが、今までの宗教の教祖というのは間接なんです。<br/><br/>キリストにしろ、自分はエホバの命によって生まれたとか、天の父だとか、なんとか言いますが、あれはやっぱり間接的なんです。<br/><br/>で、私におられる神様は、エホバと同じなんですからね。<br/><br/>そこで、私は神様を拝んだことがないですね。<br/><br/>どこのどの宗教でも、お祭りだなんていうと、やっぱり神様に、教祖が恭しく礼拝するものなんですがね。<br/><br/>私はやらないんです。<br/><br/>というのは、私が拝む神様はないんですよ。<br/><br/>もし神様があるとすれば、私よりみんな下だからね。<br/><br/>だから、神様の方で私を拝んで良いんですよ。<br/><br/>それですから、御守りを一つ書くにも、ふつうは斎戒沐浴して、羽織袴で恭しく書くんですが、私は夏なんか裸でアグラかいて書く。<br/><br/>だから知らない人は有難味はないんですがね。<br/><br/>私はなんでも無造作にやってのけるんです。<br/><br/>難しくする必要がないからですよ。<br/><br/>ですから、かえってその点を逆に考えられるんですね。<br/><br/>逆に思われるんですね。<br/><br/>誤解されるんですね。<br/><br/>しかしそれは、だんだん分かってくれば良いと思っている。<br/><br/>だから一時的誤解は私はなんとも思わないですがね。<br/><br/>こういうこともあまり生神様らしく思わせることになるので、私は好かないのであまり言わなかったんですが、そのために私の言うことを軽くみる場合がよくあって、そのために間違いがよくありますから、そのために言っておいた方が良いと思ってお話しするんです。<br/><br/>だから、その点を良く心得ていて、他の宗教や、教祖と較べればはっきり分かるんですよ。<br/><br/>一番分かるのは、キリストの奇蹟なんかは、非常に有名になってますが、私の弟子で、キリストと同じような奇蹟はさかんにやっているんですからね。<br/><br/>それ以上の奇蹟さえあるんです。<br/><br/>時間があったら読もうと思ったんですがね。<br/><br/>奇蹟以上の奇蹟というんですがね。<br/><br/>今度新聞に出しますが、読むのは時間がないから略しますが、百姓夫婦で、最初田んぼに入って、電線が切れて落ちたのを、うっかりつかんだんです。<br/><br/>六十ボルトで――感電してひっくり返って倒れたんです。<br/><br/>それを見て、亭主が、これはたいへんだと入ってつかんだところが、またひっくり返ったんです。<br/><br/>電気の方では、水に入ると五倍の電流が流れると言うんですね。<br/><br/>ですから、その電流を食って、身体が仮死状態になった。<br/><br/>ところが良いあんばいに助かったと、本人が書いたものなのです。<br/><br/>これは、ぜんせん学理で理屈のつけようがないんです。<br/><br/>精しく書いてありますが、新聞に出てみれば解ります。<br/><br/>（次号に掲載） それから原子爆弾のお蔭詰も、そういったので七つばかり集まりました。<br/><br/>これも、新聞に出しますがね。<br/><br/>これなんかも、随分奇蹟がありました。<br/><br/>ほとんど、信者で――御守りを受けたのは、一人も被害がなかったんですからね。<br/><br/>だから原子爆弾も恐るるに足らずですよ。<br/><br/>必ず助かります。<br/><br/>また、原子爆弾で半分死んだような人でもなんでもない。<br/><br/>やっぱり浄霊で治っちゃうんですからね。<br/><br/>だから、この奇蹟なんていうのは、キリストでも――あの時分には電気やなにかなかったからしかたがないが、それはキリストの奇蹟以上ですよ。<br/><br/>今話した、キリストやなんかも間接的の力であって、私は直接だということは、これだけを見ても証拠づけられるんです。<br/><br/>時間が来ましたから寸鉄を。<br/><br/>』 ２ 明主様の御言葉は厳格に守るべき事 〔 御講話（S27年8月6日） 『御教え集』13号、昭和27(1952)年9月25日発行〕 『ところで、私の話を間違える人が非常にある。<br/><br/>私は随分はっきり言うのですが、昨日も一週間に一回と言ったら、今日は二回という人がある。<br/><br/>一週間に一回と二回では倍違います。<br/><br/>頭について、信者さんの頭が――信者さんの頭ばかりでなく、世間の人は信者さん以下ですが、信者さんでも非常に頭が悪いのです。<br/><br/>というのは、私の言う通りに考えないのです。<br/><br/>明主様はこうおっしゃったが、あれはこういう意味なんだ。<br/><br/>こういう意味というのを自分で作ってしまうのです。<br/><br/>それで間違うことがよくある。<br/><br/>それでまた私の言った通りをやるということは、自分が値打ちがなかったり頭が悪かったりするように思うのです。<br/><br/>ですから私の言った通りにやる人が少ないのです。<br/><br/>私はいつも言うのですが、私が思う通り言った通りにする人は英雄と言うのです。<br/><br/>偉いです。<br/><br/>ところが一般は必ず違います。<br/><br/>これは信仰ばかりでなく、庭の方でもそうです。<br/><br/>私の言う通りにやる職人というのは一人もないです。<br/><br/>これをここにやれと言うと、必ずここにやる人はないです。<br/><br/>こっちにやるとか、あっちにやる。<br/><br/>私がこっちにやれと言うとあっちにやる。<br/><br/>だから職人には手を焼いているのです。<br/><br/>ところが私の言う通りやるのが一番易しいのです。<br/><br/>その易しいことを嫌うのですから不思議です。<br/><br/>植木屋で一人こういうのがあったのです。<br/><br/>この石を一尺こっちにやれと言うと、一尺やれない。<br/><br/>二、三寸しかいかない。<br/><br/>それで私が、どうして一尺やらない。<br/><br/>こっちにやれと言うと、今度は五、六寸やった。<br/><br/> それから、駄目だもう一度やれと言った。<br/><br/>すると今度は斜めにやった。<br/><br/>斜めにしては駄目なのです。<br/><br/>これで三度駄目なのだから、四度目に違ったらその職人は断るからと言った。<br/><br/>言う通りにやれそうだが、その通りにやらない。<br/><br/>なぜかと言うと、自分は手を引いて親方に頼むと言うのです。<br/><br/>親方にこうやってくれと言ってやったら二、三時間でできました。<br/><br/>ところが先にやった人は三、四日かかりました。<br/><br/>そういうことがあるのです。<br/><br/>特に日本人はどうも言う通りにやらない、言う通りに考えない、という一種のくせみたいな、病気みたいなものだと思う。<br/><br/>だから私がいつも話しすることがよく違ってしまうのです。<br/><br/>だから明主様がこうおっしゃったのでこうやったが、どうもうまくいかない。<br/><br/>そういうはずはないと、良く聞いてみると違う。<br/><br/>今の病気のこともその通りです。<br/><br/>私は決して駈引や嘘はないのです。<br/><br/>それは、よく昔からの偉い人でも、いろいろ――なんと言いますか、ありのままでなく、いくらか形容したり、いろいろそういうきらいがありますが、私はそれが嫌いで、なんでもありのまま率直に言いますから、その通りにやれば必ずうまくいきます。<br/><br/>』 ３ 明主様の御教えは何事でも素直に守るべき事 〔 御講話（S29年1月17日） 『御教え集』30号、昭和29(1954)年2月15日発行〕 『前にも言ったとおり、箱根は霊的で熱海は体的ですから、熱海の地上天国ができれば、要するに体的に発展するわけです。<br/><br/>だから本当に目立つわけです。<br/><br/>いよいよおもしろい張り合いのある時期に入ってきたわけです。<br/><br/>だからして神様の方はチャンと準備や、芝居ならプログラムができているわけです。<br/><br/>そのとおりに、少しも違わないでチャンとゆくのです。<br/><br/>ただ時期だけのものです。<br/><br/>大本教のお筆先に「時節ほど有難い、恐ろしいものはないぞよ」「この事が分り出したら、世界は唸るぞよ」というのがありますが、もうそこの直前に来たわけです。<br/><br/>それから「こんなものがあんなものになり、あんなものがこんなものになる仕組であるぞよ」というのがありますが、お筆先というのは実に簡単な言葉で、すばらしい大きなことを言い尽くしてあります。<br/><br/>私などもその当時は本当には分からなかったのですが、神様というものは、なんだか変な言い方だと思ってましたが、今になってみると、それがピッタリと当たっているのです。<br/><br/>「何事も神の言うとおりに致せば間違いはないぞよ」というのがあるのです。<br/><br/>自然農法にしても、私の言うとおりにした人は、チャンと予定どおりに進んでゆくのです。<br/><br/>効果もあるのです。<br/><br/>ところが農民は長い間の習慣でなかなか言うことをきかないのです。<br/><br/>なにしろ今もって有肥をやっている人がそうとうあるのですから……。<br/><br/>ようやく今年あたりから気がついて、“では切り替えよう”ということになった人が随分あるようです。<br/><br/>それについてこういう話があります。<br/><br/>大本教の教祖様が神様から“直よ、お前はこれから外国に行くんだよ。<br/><br/>直ぐ外国に行きなさい”と言うので、教祖様は“私にはそんな金も何もないのに外国に行けないでしょう”と言うと、 “なにいいんだよ、五円持って行けばいいんだよ”というので、教祖様は五円札を持ってノコノコ出掛けたのです。<br/><br/>そうすると途中まで行くと“直や、もう行かんでもよいぞよ”と言うので、“神様はどうして御からかいになるのです”と聞くと、“いや、お前がどのくらいワシの言うことをきくか試してみたのだ。<br/><br/>だから、もうこれで分かったからいいんだよ”というわけで、神様が試されたわけです。<br/><br/>そのくらいに素直に言うことを聞くということです。<br/><br/>お筆先に「何事も神の申す事に間違いはないから、素直が一等であるぞよ」とありますが、そういうようで、いつも言うとおり、私がなんでもなく言ったことでも大変意味があることですから、そのとおりにやれば決して間違いはないのです。<br/><br/>今度の無肥料栽培も、最初はテンデ耳に入らなかったです。<br/><br/>それこそ“明主様は病気を治すことはなるほど確かに大丈夫ですが、農業のことはそれほどのことがあるわけがない”と思ったらしいのですが、これは時節のことだから、いくら言っても分かるわけがないので、しようがないのですが、そういうようで、ようやく思うとおりの実績が上がってきたわけで、非常に結構です。<br/><br/>』 附1 御言葉には素直に「ハイ」と従うべき事 〔 御垂示（S26年5月1日） 『御垂示録』6号、昭和27(1952)年1月25日発行〕 「鎮魂のお授けは願えませんでしょうか」 『 いけないよ。<br/><br/>』 「いかなる場合においても、いけないのでございましょうか」 『鎮魂はいけないと言ったら「はい」と言えばいい。<br/><br/>助けてもらいたい。<br/><br/>よし助けてやろう。<br/><br/>と言うあれで、本当はいけない――神様になるからね。<br/><br/>神様のお取り次ぎをさせていただくと言うのでなければね。<br/><br/>』 附2 御教えを正確に守らず御注意戴いた例 〔 御垂示（S27年3月1日） 『御垂示録』8号、昭和27(1952)年4月25日発行〕 「十年ほど前より神経麻痺の方で、御浄霊でたいへん楽にはさせていただきました。<br/><br/>龍の墨絵の軸がございますが、先日お伺させていただきまして、関係があるかも知れないので、御神前に置くようにと御教えいただいておりましたので、それをお伝えしましたが一週間ほどで、気にすることもないと箱にしまったそうでございます。<br/><br/>先日見てくれと申しますので、見ましたところ、妖気を受けるようで、まだまだ御言葉通りにしたほうが良いと言い、祝詞を奏上いたしますと、風もないのに御神体だけが五寸から七寸くらい離れまして、非常に揺れまして、十五分くらい続きました」 『最初、龍神は光明如来様の前に置けと言ったでしょう。<br/><br/>そうですね。<br/><br/>それから一週間経ってから箱に入れたんですか。<br/><br/>それがたいへんな間違いです。<br/><br/>それは、あなたがその人にお詫びさせなければならない。<br/><br/>私の言うことを――私が一週間だけで良いと言ったのなら良いが、私はそうは言わないでしょう。<br/><br/>ただ置いておけと言ったでしょう。<br/><br/>そうしたら、半年なら半年、一年なら一年経ってから、私に聞くのが本当でしょう。<br/><br/>それを、あなたが聞かないというのは間違っている。<br/><br/>それを気がついて言うのが本当です。<br/><br/>私が、こう言ったのを、勝手に人間のほうでやると、お咎（とが）めがありますよ。<br/><br/>ですから、御神前に置けと言った以上、置いておけば良い。<br/><br/>それで、そむいたことを本人に良く言って、光明如来様にお詫びするように言うことがあなたの務めです。<br/><br/>当分ですが、巻くときは私に聞いて巻くのが本当です。<br/><br/>』 「巻いたままでよろしゅうございましょうか」 『巻いたままで良いです。<br/><br/>何か台をしてね。<br/><br/>』 ４ 神様の厳格さについて 〔 御講話（S28年3月7日） 『御教え集』20号、昭和28(1953)年4月15日発行〕 （御論文「一、 奇蹟とは何ぞや 」「二、 霊主体従 」「三、 霊と体 」） 『この終わりのところが肝腎なのです。<br/><br/>今までの宗教……というが教えですが、教えだけでは力が弱いのです。<br/><br/>ところが救世教は教えとともに事実を見せるというので、これで人間は初めて神様は確かに在るということが分かり、そうすると悪いことはできないということになって、これで本当の人間になるわけです。<br/><br/>それで神様は確かに在るということを見せるのは奇蹟なのです。<br/><br/>奇蹟以外で神様の実在を信ずるということはできないのです。<br/><br/>ところが今まではそういった奇蹟を見せないで、ただ「神は在る、在るから信じろ」と言うが、実際理屈に合いません。<br/><br/>そこで、本当に救われないのです。<br/><br/> このことでおもしろい話があります。<br/><br/>昨日聞いた話で、今度の大祭の余興にアザブさんが灰田勝彦を頼みに行ったのです。<br/><br/>そうすると馬鹿に高いことを言うのだそうです。<br/><br/>それで「随分高いではないか」と言うと、支配人が「救世教なんて泥坊みたいなことをして金を取っているのだから」と言ったのです。<br/><br/>ところがその人がそれから三、四日たって死んでしまったのです。<br/><br/>』 御伺い 明主様申し上げます。<br/><br/>京都と大阪の間を自動車で走っている時に、ちょうど雪が降っておりまして、その時京阪国道から下に辷（すべ）り落ちて死んでおります。<br/><br/> 『自動車で死んだそうですが、これははっきりした事実です。<br/><br/>前にもこういうことがありました。<br/><br/>私がまだ東京の宝山荘にいた時日蓮宗の学者で、名前は忘れましたが、誰でも知っているくらい有名な人です。<br/><br/>その人が私の書いた『明日の医術』の本を見て、なんでも非常に悪いことを言ったのです。<br/><br/>「こんなことを書いて人を瞞すとはインチキもはなはだしい」というようなことです。<br/><br/>もっと酷いことを言ったのですが、私は忘れました。<br/><br/>それでちょうど一年ほどたってから、街路で轢死したのです。<br/><br/>それも、最初は自動車にどこかぶつかって電車道に倒れて、ハッと思った時に電車が来て顔を轢いたのです。<br/><br/>ですから顔がめちゃめちゃになったのです。<br/><br/>その時に中島さんが「とうとう罰があたった」と話しに来ましたが、そういうことがありました。<br/><br/>そういうことはまだありますが、この神様は非常に厳密な神様なのです。<br/><br/>いろいろおもしろい話がありますが、時間がないからあんまり詳しくは話せません。<br/><br/>なおまた大本教の教祖が最初の修行していた時にそういうことがありました。<br/><br/>大阪に算盤占いというのがありましたが、そこに行って占うと、「出口直さん、あなたに懸っている神様は本当の神様ではなく、悪魔だから気をつけなければならない」と言うので、教祖さんはびっくりしたのです。<br/><br/>たいへんな神様だと思っていたが、悪魔だということなので、帰ってから神様に伺ったのです。<br/><br/>そうすると、その神様は国常立尊ですが、「直や、一週間たったらもう一度占ってもらえ」と言うので、一週間たってから行ってみるといないので、聞いてみると「死んだ」というのです。<br/><br/>それは、たいへんに立派な神様を悪魔と言うのですから、これは許せないのです。<br/><br/>今言う「救世教は泥坊みたいなことをして金を取っている」と言ったそれ以上のものでしょう。<br/><br/>それでこの国常立尊という神様は実に厳格で、悪いことは絶対に許さないという神様ですが、そういうようなことがありました。<br/><br/>まだいろいろなことがありますが、時間がないからこれだけにしておきます。<br/><br/>』 ５ 明主様の御言葉を不正確に伝えたので混乱を生じた例 〔 御講話（S27年8月27日） 『御教え集』13号、昭和27(1952)年9月25日発行〕 『私は以前リンゴを食べなかったから、信者のある人が――その時分は大先生と言ったが――「大先生はどうしてリンゴはおあがりになりませんか」と言うから、私は「リンゴはつゆ気がないから、あんまり好かないから食べない。<br/><br/>だから食べたい人は食べても良いが、私は食べない」と、よくリンゴを持ってきますから、ちょっと言っておいた。<br/><br/>それからこういうことを言った。<br/><br/>「よく医学の方ではリンゴは薬になると言うが、別にどの果物が薬になるということはないので、神様は必要があってこしらえたのだから、それの好きな人は食べて良いので、リンゴが薬になるということはないから」と言ったことがあるのです。<br/><br/>そうするとどう間違えたものか「明主様はリンゴはいけないと言った」ということになって、それはかなり拡まったものです。<br/><br/>私はその都度取り消しましたが、かなり伝播力が強かったとみえて、取り消しの方が効果がないのです。<br/><br/>そのあげく最近おもしろいことを聞いたのです。<br/><br/>これは地方でですが、リンゴは医学では薬になるというのだから、リンゴを食べるとやっぱり薬毒が害をするから、そこの家では、リンゴをもらっても食べないで腐らせるというのです。<br/><br/>なんだというと薬毒が怖いというのです。<br/><br/>そういう滑稽なことがあるのです。<br/><br/>だから私が言ったことや書いてあることを、そのまま受け取ると良いのですが、それにおまけをつけてだんだん誇張して、口から口へ伝わるために、だんだん育っていって、とんでもないことになってしまうのです。<br/><br/>だからそういう馬鹿馬鹿しいようなことで、あんがい間違ったことがありますから、すべてなんでもいつも言う常識です。<br/><br/>神様は人間においしい味のある物は、これは食べろ、味というものが栄養になるのだから、味のない苦い物とかまずい物は食べてはいけない。<br/><br/>そういうためにあるのだから、それを我慢して食べるのは間違っている。<br/><br/>ということは本にも書いてありますから、それをそのままとるようにすれば、間違いないのです。<br/><br/>だからつまり自然ということを忘れないことと、常識で判断することを守っていれば、まず間違いないということです。<br/><br/>』 ６ 明主様の御教えの「裏」などと言うものはない事 〔 御講話（S27年6月6日） 『御教え集』11号、昭和27(1952)年7月15日発行〕 『それからこういうことを時々聞くんですがね。<br/><br/>私の本やなにかで裏表があると言うんですね。<br/><br/>そういうことを聞くんですがね。<br/><br/>一時そういうことの、随分はなはだしいことがあったです。<br/><br/>裏表があるように見る人は邪神が憑っている。<br/><br/>なぜというのは、今までのお経にしろ、あらゆるものは夜のものだから、どうしても確かに裏表があったんです。<br/><br/>夜の世界だったら、ここだけは月が照らすから見えるが、ここは見えない。<br/><br/>ところが昼の世界ではここも見えるが、ここも見えるんです。<br/><br/>だから裏表はないんですね。<br/><br/>だから私の説いたものは、そんなことはないんです。<br/><br/>そのまま信ずれば良いですね。<br/><br/>それから今までのことは根本が悪になっていたから、明からさまに言うことができないんです。<br/><br/>そこで秘密があったんですね。<br/><br/>あらゆるものがそうだったんですね。<br/><br/>これは宗教も無論そうでしたね。<br/><br/>なにしろうっかりすればキリストみたいや、日本のいろんな偉い坊さんでも島流しになったり、殺されようとしたりしたから、どうしても明からさまにできない。<br/><br/>秘密にしたんですね。<br/><br/>われわれだってそうですよ。<br/><br/>終戦前はそうですよ。<br/><br/>はっきり言えなかった。<br/><br/>だから「明日（みょうにち）の医術」でも暖昧極まるものがあったですが、あれははっきり書けなかったんです。<br/><br/>ところが今はそうではない。<br/><br/>言論の自由ではっきり書けるから、今度の「結核信仰療法」ははっきり書いた。<br/><br/>日本がそういう民主的になったということは、昼間の明るい時期に一歩近づいたわけですね。<br/><br/>そういうわけですから、メシヤ教というのは昼の世界を造る。<br/><br/>昼の世界になるについて出現した宗教です。<br/><br/>ですから今までの日本の宗教と違うんです。<br/><br/>だから私の言う通りにやれば決して間違いない。<br/><br/>裏があると思ったら間違いですね。<br/><br/>だから素直になれ、というのはそういう意味ですね。<br/><br/>素直にそのままやれば、すべてうまくいくんですね。<br/><br/>』 ７ 人の意見を盲信せず必ず御神書を基準に判断すべき事 〔 御講話（S27年6月7日） 『御教え集』11号、昭和27(1952)年7月15日発行〕 『それからもう一つは、人からいろんなことを聞きますが、それを正面（まとも）に信ずるということが、これがまた危ないですね。<br/><br/>だからいろんなことを聞いても、なるほど良い、しかしこれは神様の御趣旨に合っているかどうかということをまず考えてみて、どうも神様の御趣旨に合わない点もあるようだという場合には、御神書を見るんです――読むんです。<br/><br/>そうするとたいていなことはどこかにありますから、それで判断をするということにしなければならない。<br/><br/>そういうことで聞違えることがよくありますからね。<br/><br/>最近こういうことがあったですね。<br/><br/>ある信者で、メシヤ教は天国を造るんで、家庭も天国にしなければならない。<br/><br/>そうするとお金は、つまり余ってからあげる。<br/><br/>あげても経済的に差し障りがないだけの金をあげる。<br/><br/>そうすれば金の苦しみがないから、それが本当のやり方だ。<br/><br/>苦しんで金をあげるということは、やはり一つの苦しみを作るのだから、それは神様の御趣旨に合わない。<br/><br/>昔からいう「信心は徳の余り」というわけですね。<br/><br/>それを聞いて、ある信者は感心したんですよ。<br/><br/>それがだんだん広がって――苦しんで金をあげるから、だから家庭が天国にならないんだということにまでなった。<br/><br/>そうするとまた一方神様は今非常にお金が御入用だ。<br/><br/>人間は少しは苦労をしても神様の方にあげなければならない。<br/><br/>という両方の説が対立した。<br/><br/>しかしどうも後の説が負けるんですよ。<br/><br/>最初の方が勝っていくんですね。<br/><br/>どうもゴタゴタしているので、私が呼んでよく話してやった。<br/><br/>私の話はこういうわけです。<br/><br/>最初の、家庭が困らないようにするということも合っている。<br/><br/>確かにそれに違いない。<br/><br/>それから、神様はお金はたくさん必要だから――はやく地上天国を造って救わなければならないので、どんなことをしても金をあげなければならない――どんなに苦しんでもあげなければならない、ということも合っている。<br/><br/>両方とも合っているんだ。<br/><br/>ただ大乗と小乗だ。<br/><br/>最初の方は小乗的考え方ですね。<br/><br/>後の方は大乗的考え方ですね。<br/><br/>じゃ、後の方は金をあげて苦しむかというと、決して苦しまない。<br/><br/>金をあげてそんな苦しむような神様だったら拝むのを止めたらいい。<br/><br/>だから試しにあげてご覧なさい。<br/><br/>苦しむようにあげてご覧なさい。<br/><br/>十倍になって返ってきます。<br/><br/>苦しむどころじゃない。<br/><br/>たいへんな金にだぶついてくる。<br/><br/>そう言ってやったので、両方とも――小乗的の方はよく解って、ついこの間、謝りに来ましたがね。<br/><br/>そういうことがあるんですよ。<br/><br/>ですからそういうことも心得ておかなければならないということを、今話したんですがね。<br/><br/>』 ８ 明主様は間違って居れば注意されたが禁止されなかった事 〔 御講話（S27年4月1日） 『御垂示録』8号、昭和27(1952)年4月25日発行〕 『教団の中にも、間違った人や、いろいろな人がいますが、本当にいけなければ、私が注意を与えますがね。<br/><br/>注意も、なすべからずとか、それを止めろとか――そういうことは言いませんがね。<br/><br/>もし人が間違っても、この人は間違ったことをして、そのために覚るということもあるんだから、やはり頭をぶつけさせます。<br/><br/>すると、ああ俺は間違っていたと覚ることもある。<br/><br/>御神書を読んでも分らない人は自分で苦しむんですよ。<br/><br/>それで覚りを開くということもある。<br/><br/>間違ったことをさせておけば良いんですよ。<br/><br/>「あの人はこういうことをしているが、あれは注意しなければいけない」と言うが、私は、「あの人は今に頭をぶつけるから、それから言ったほうが良い」と、その通り頭をぶっつけさせます。<br/><br/>また人によっては、そういう苦しみをしなくても覚り得る人もある。<br/><br/>そこで、人間はその人の行為によって善悪は決められない。<br/><br/>それが大乗ですからね。<br/><br/>そこまで心得て、そこまで信仰が深くなると、私はいろいろ言います。<br/><br/>』 ９ 身魂（智慧証覚）相応にしか御教えは覚れぬ事 〔 御光話（S23年12月18日） 『御光話録』2号、昭和24(1949)年1月8日発行〕 ――時節柄、政治、戦争、大浄化などにつきまして、大先生様よりお言葉はいただけないことと存じますが、さらに御指導をいただくには適当な時期および場所を得てお伺い申し上げるべきでしょうか。<br/><br/>あるいは平常このお席でうけたまわった程度を承知させていただけばよろしゅうございましょうか。<br/><br/> 『ここで言ったことだけでいいです。<br/><br/>第一、他のときに特別な人だけに話をすると不公平になります。<br/><br/>「あの人に話して俺には話してくれない」なんて言われますから。<br/><br/>それに神様には秘密がない。<br/><br/>いつでも、まただれにでも話のできるべきものですから。<br/><br/>……智慧証覚の進んだ人なら私の言葉の奥も判るはずです。<br/><br/>そこまで行ってない人には言葉通りしか判らず、「ボンクラ」は言葉の半分くらい、もっと「ボンクラ」なら三分の一や五分の一くらいしか判らない。<br/><br/>だから言葉の奥まで判るようになることが必要なんです。<br/><br/>』 10 明主様の力徳も身魂相応にしかわからぬ事 〔 私の光 『地上天国』36号、昭和27(1952)年5月25日発行〕 『以上大体の説明であるが、これは私の力のホンの一部分であって、全体を説明するには容易ではない。<br/><br/>何よりも今後私のやる仕事を活眼を開いて見て貰う事である。<br/><br/>智性の働く人ならある程度分らないはずはない。<br/><br/>信仰的にいえば身魂相応にとれるのだから、この意味からいっても、信者は精々身魂を磨き、曇りのないようにしておく事で、そうすれば正覚を得て私の力徳が分るはずである。<br/><br/>』 11 明主様の御神格は時節と共に事実によって表われて来る事 〔 春季大祭御講話（S29年3月27日） 『御教え集』32号、昭和29(1954)年4月15日発行〕 （イエス・キリストの霊が本教信徒に憑り、明主様を「天の父」とお呼び申し上げたと言う御話の後で） 『それで私は自分自身ああこうと、ドエライことは言いたくないですから言わないのですが、だんだん時節に応じてそういうことが証拠立てられ、分からないわけにはゆかなくなってくるのです。<br/><br/>』</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
 
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

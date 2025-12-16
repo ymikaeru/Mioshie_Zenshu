@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>bunkai08</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ご存じですか 実生分会『実生分会ニュース』２月号、昭和24(1949)年2月1日発行 ――現在湯河原在住の婦人で、代々禅宗でお寺は山梨にありますが、主人死去の際遺言で日蓮宗に帰依し小田原の日蓮宗のお寺に葬りました。<br><br>今回これを一つにして現在の湯河原にまとめてお祀りしたいと思いますが、いかがしたらよいでしょうか。<br><br> お祀りするのはどこまでも霊本位に為すべきで、主人の霊が日蓮宗を信じているとすれば軽々しく御先祖と一緒に禅宗にして祀るべきではない。<br><br>しかし光明如来様をお祭りして三年くらい経ってから光明如来様にお願いし、主人の霊にも納得の行くよう伝えてから移せばよい。<br><br> ――蜃気楼（しんきろう）、不知火（しらぬい）、オーロラ、虹についてお教えください。<br><br> 蜃気楼は北陸地方の魚津の海岸のが一番有名である。<br><br>ここでは海を隔った朝鮮の風景が「きりぶすま」に写るのである。<br><br> 不知火は、ある説によると神武天皇が日本平定の砌（みぎり）、古文書、器物など重要なものを不知火の海へ棄てた。<br><br>それを龍神が守護していて、その龍神がときどき浮いてくるときに海が燃えると言うのである。<br><br>そのことの真偽は別として、そのときに特に重要な文書、器物を抱いて越前に逃れ、のち、茨城県磯原にひそんで代々守り続けたという事実がある。<br><br>その家は現在天津教の竹内巨麿という人の家で、この方は武内宿禰六六代の子孫と言われている。<br><br> オーロラは、北は気多、霊が濃いとされています。<br><br>その霊が特に濃いときに太陽の光線が反射して現われるのです。<br><br> 虹は水蒸気が濃いため太陽の光線が反射して現われるもので別に霊的に意味はない。<br><br> ――満一歳の子供で目が外人のごとく青く他は別に異常のないそうですが、なにか霊的に意味がございますか。<br><br>またシラ子、赤毛、縮毛などにつきても御教えください。<br><br> いずれも何代か前の西洋人の生まれ変わりで、一部その特徴が残っている。<br><br>日本では信長時代からそうとう数の外人が帰化している。<br><br> ――ある私生児が日向を嫌い、お天気の日にはぜんぜん外へ出ず、雨の日は喜んで遊ぶそうですが、なにか霊的に関係がありましょうか。<br><br> 晴天の日に変死した霊の再生か地獄の霊が憑っている。<br><br>非常に嫌う場合は前者で、たいして嫌わぬ際は後者である。<br><br>地獄の霊は明るい所を嫌い、そういう人はすべてが地獄的、悲劇的環境である。<br><br> ――唖者と吃りについて御教えください。<br><br> 唖者は、体的と霊的原因がある。<br><br>耳が聞こえて口がきけぬのは、死に際し、発声機関に障碍を起す、例えば首を吊ったり、喉を突いて死んだ霊が再生するか、または憑った場合である。<br><br> 吃りは頭と下顎、舌とのつながっている腺に毒素が溜まり、それを浄霊すれば癒える。<br><br> ――歯ぎしり、いびき、寝言について。<br><br> 歯ぎしりは霊的であり、動物霊が寝ると勢いが出る傾きがある。<br><br>いびきは、鼻が悪いためである。<br><br>寝言は、副守護神を統制する本守護神の力が弱く、副守護神が言いたいことを言っているのである。<br><br> ――除夜の鐘の一〇八つの意味は。<br><br> 人間の煩悩は百八あると仏教で言われています。<br><br>その煩悩を鐘をついて消すと言われています。<br><br>珠数玉の一〇八あるのもその意味で、神道でも一〇八はよく用いられます。<br><br> ――三毒、五濁、天魔、羅刹、夜叉の意味について御教え願います。<br><br> 三毒は貪、瞋、痴、五濁は劫濁（こうじょく・時のケガレ）、煩悩濁、衆生濁（悪人のケガレ）、見濁（種々の悪見を起す）、命濁（寿命が縮まる）、つまり、ともにつみけがれということである。<br><br>天魔は天の魔王、魔神、悪魔。<br><br>羅刹は悪鬼。<br><br>夜叉は女の悪魔で、要するに悪魔のいろいろな形容詞である。<br><br> ――仏壇にお詣りするとき善言讃詞の後に「幽世の大神守り給へ幸倍賜へ 惟神霊幸倍坐せ」とお唱えし、拍手してもよろしゅうございますか。<br><br> 拍手はしないほうがよい。<br><br> ――太陽、月、地球の呼吸運動はそれぞれいかなる影響をお互いに及ぼし、また人間になにか関係がありましょうか。<br><br> この関係を人間の身体で言うと太陽の出没は心臓の鼓動、月の盈虧（えいき）は肺の呼吸、地球の四季は胃の蠕動（ぜんどう）とも言うべきで、心臓は太陽の霊気を吸い、肺は月の精気を吸収し、胃は土の精分を採る。<br><br>これが医学の根本である。<br><br> ――因縁、霊線、霊統について御教えください。<br><br> 因縁は前世生きているときに交渉のあった夫婦、親子、兄弟、友人などが、今生は生まれてからそれぞれ相接近することになることを指す。<br><br>霊線にも関係のあることで、俗に縁（えにし）の糸とも言う。<br><br> また人間のみならず土地などにも関係がある。<br><br>見知らぬ場所へ行って非常になつかしかったり、嫌な気がするのは、前世住んでいた所とか、ひどい目にあった所とかである。<br><br> 霊統は血統とはぜんぜん違う。<br><br>血統は肉体的のもので混血するが、これは前に説明した通りよいことで、人間が悧巧（りこう）になる。<br><br>霊統は祖先から分かれることはあっても、動き混ることはない。<br><br>霊統から言えば大和民族は日本人のうち一〇〇人に一人くらいのものであろう。<br><br>日本人の大部分は支那人、次は朝鮮人の霊統である。<br><br>そして支那民族は戦争を好み、大和民族は平和的である。<br><br> ――迦陵頻迦（かりょうびんが）とはどのような鳥でしょうか。<br><br> 霊界の鳥でよく仏画の極楽にあるように尾の長い非常に善い声でなく鳥と言われます。<br><br> ――人間が再生した場合、副守護神は前世と同じものがつくのでしょうか。<br><br>また変わるとすればいかなる意味において変わるのでしょうか。<br><br> 副守護神は変わる。<br><br>人が霊界へ行くと副守護神はしばらくはついていても、結局は離れる。<br><br>そして再生したときは因縁で動物霊に落ちた祖霊や、住んでいた所の稲荷や、その他つながりのある動物霊がつく。<br><br>勿論その動物霊にも高下があり、その人の霊統の罪穢の多少で高級または低級の動物霊がつくのである。<br><br> ――御仏壇に御灯明を上げると時ならぬ蝶が出るとよく言われますが。<br><br> 蝶に女（若い女）の霊が憑依してお参りに来るのである。<br><br> ――静岡市内のある信者で次々に祟りがあり、浄霊したところ、古い鯉の霊が憑依して、地下一尺掘って祀ってくれとのことですが、いかがしたらよいでしょうか。<br><br> 人の濫（みだ）りに踏まぬ場所を選び、地下一尺掘り、木片に鯉の霊と墨書して埋め、自然石に真鯉明神と彫りつけ、式典は善言讃詞を称え、幽世の大神と称え奉ること。<br><br>お供えものはパンか麩でよい。<br><br>毎月祀る要はない。<br><br>鯉は出世魚とも言われ、霊的にふつうの魚とは違う。<br><br> ――位牌に何々家先祖代々とか、代々霊、代々之霊、代々之霊位、代々之精霊とかいろいろありますが、いずれが一番正しいのでしょうか。<br><br>また過去帖だけで位牌のない家、または繰位牌の家がありますが、これはいかがでしょうか。<br><br> いずれもたいして問題はないが、常識的に言えば、代々之霊位がよい。<br><br>過去帖、繰位牌は位牌を作るべきである。<br><br>だいたいある物の使命、用途を考えるべきで、過去帖は元来祖先の戒名や命日を忘れぬために記録してあるもので、供養の対象ではない。<br><br>供養のために位碑があるので、それに祖霊がお憑りになるのである。<br><br>繰位牌も感心せぬ。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Esclarecimentos sobre Assuntos Espirituais e do Cotidiano</h2>
 <p><strong>Pergunta:</strong> Sou uma senhora que reside atualmente em Yugawara. Minha família é, por gerações, da Escola Zen do Budismo, com o templo localizado em Yamanashi. Contudo, por ocasião do falecimento de meu esposo, seu último desejo foi que ele fosse convertido à Escola Nitiren, e assim o sepultamos em um templo Nitiren em Odawara. Agora, desejo unificar os altares e consagrá-los juntos aqui em Yugawara. Qual seria o procedimento correto?</p>
@@ -133,5 +285,48 @@ function toggleLang(lang) {
 <p><strong>Pergunta:</strong> Nos tabletes memoriais dos antepassados, encontramos diversas inscrições, como "Antepassados da Família Tal", "Espíritos das Gerações", "Os Espíritos das Gerações", "Tablete Memorial dos Espíritos das Gerações" ou "Espíritos Sagrados das Gerações". Qual delas é a mais correta? E quanto às famílias que possuem apenas o livro de registros de falecidos ou um tablete memorial múltiplo?</p>
 <p><strong>Resposta:</strong> Nenhuma das opções é problemática, mas, por uma questão de bom senso, "Tablete Memorial dos Espíritos das Gerações" é a mais adequada.</p>
 <p>No caso de famílias que possuem apenas o livro de registros ou um tablete múltiplo, o ideal é que confeccionem um tablete individual. É fundamental compreender a missão e a finalidade de cada objeto. O livro de registros foi criado para que não se esqueçam os nomes póstumos e as datas de falecimento dos antepassados; não é um objeto de culto. O tablete memorial, sim, existe para fins de culto, pois é nele que os espíritos dos antepassados se alojam. O uso de tabletes múltiplos também não é recomendável.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ご存じですか 実生分会『実生分会ニュース』２月号、昭和24(1949)年2月1日発行 ――現在湯河原在住の婦人で、代々禅宗でお寺は山梨にありますが、主人死去の際遺言で日蓮宗に帰依し小田原の日蓮宗のお寺に葬りました。<br/><br/>今回これを一つにして現在の湯河原にまとめてお祀りしたいと思いますが、いかがしたらよいでしょうか。<br/><br/> お祀りするのはどこまでも霊本位に為すべきで、主人の霊が日蓮宗を信じているとすれば軽々しく御先祖と一緒に禅宗にして祀るべきではない。<br/><br/>しかし光明如来様をお祭りして三年くらい経ってから光明如来様にお願いし、主人の霊にも納得の行くよう伝えてから移せばよい。<br/><br/> ――蜃気楼（しんきろう）、不知火（しらぬい）、オーロラ、虹についてお教えください。<br/><br/> 蜃気楼は北陸地方の魚津の海岸のが一番有名である。<br/><br/>ここでは海を隔った朝鮮の風景が「きりぶすま」に写るのである。<br/><br/> 不知火は、ある説によると神武天皇が日本平定の砌（みぎり）、古文書、器物など重要なものを不知火の海へ棄てた。<br/><br/>それを龍神が守護していて、その龍神がときどき浮いてくるときに海が燃えると言うのである。<br/><br/>そのことの真偽は別として、そのときに特に重要な文書、器物を抱いて越前に逃れ、のち、茨城県磯原にひそんで代々守り続けたという事実がある。<br/><br/>その家は現在天津教の竹内巨麿という人の家で、この方は武内宿禰六六代の子孫と言われている。<br/><br/> オーロラは、北は気多、霊が濃いとされています。<br/><br/>その霊が特に濃いときに太陽の光線が反射して現われるのです。<br/><br/> 虹は水蒸気が濃いため太陽の光線が反射して現われるもので別に霊的に意味はない。<br/><br/> ――満一歳の子供で目が外人のごとく青く他は別に異常のないそうですが、なにか霊的に意味がございますか。<br/><br/>またシラ子、赤毛、縮毛などにつきても御教えください。<br/><br/> いずれも何代か前の西洋人の生まれ変わりで、一部その特徴が残っている。<br/><br/>日本では信長時代からそうとう数の外人が帰化している。<br/><br/> ――ある私生児が日向を嫌い、お天気の日にはぜんぜん外へ出ず、雨の日は喜んで遊ぶそうですが、なにか霊的に関係がありましょうか。<br/><br/> 晴天の日に変死した霊の再生か地獄の霊が憑っている。<br/><br/>非常に嫌う場合は前者で、たいして嫌わぬ際は後者である。<br/><br/>地獄の霊は明るい所を嫌い、そういう人はすべてが地獄的、悲劇的環境である。<br/><br/> ――唖者と吃りについて御教えください。<br/><br/> 唖者は、体的と霊的原因がある。<br/><br/>耳が聞こえて口がきけぬのは、死に際し、発声機関に障碍を起す、例えば首を吊ったり、喉を突いて死んだ霊が再生するか、または憑った場合である。<br/><br/> 吃りは頭と下顎、舌とのつながっている腺に毒素が溜まり、それを浄霊すれば癒える。<br/><br/> ――歯ぎしり、いびき、寝言について。<br/><br/> 歯ぎしりは霊的であり、動物霊が寝ると勢いが出る傾きがある。<br/><br/>いびきは、鼻が悪いためである。<br/><br/>寝言は、副守護神を統制する本守護神の力が弱く、副守護神が言いたいことを言っているのである。<br/><br/> ――除夜の鐘の一〇八つの意味は。<br/><br/> 人間の煩悩は百八あると仏教で言われています。<br/><br/>その煩悩を鐘をついて消すと言われています。<br/><br/>珠数玉の一〇八あるのもその意味で、神道でも一〇八はよく用いられます。<br/><br/> ――三毒、五濁、天魔、羅刹、夜叉の意味について御教え願います。<br/><br/> 三毒は貪、瞋、痴、五濁は劫濁（こうじょく・時のケガレ）、煩悩濁、衆生濁（悪人のケガレ）、見濁（種々の悪見を起す）、命濁（寿命が縮まる）、つまり、ともにつみけがれということである。<br/><br/>天魔は天の魔王、魔神、悪魔。<br/><br/>羅刹は悪鬼。<br/><br/>夜叉は女の悪魔で、要するに悪魔のいろいろな形容詞である。<br/><br/> ――仏壇にお詣りするとき善言讃詞の後に「幽世の大神守り給へ幸倍賜へ 惟神霊幸倍坐せ」とお唱えし、拍手してもよろしゅうございますか。<br/><br/> 拍手はしないほうがよい。<br/><br/> ――太陽、月、地球の呼吸運動はそれぞれいかなる影響をお互いに及ぼし、また人間になにか関係がありましょうか。<br/><br/> この関係を人間の身体で言うと太陽の出没は心臓の鼓動、月の盈虧（えいき）は肺の呼吸、地球の四季は胃の蠕動（ぜんどう）とも言うべきで、心臓は太陽の霊気を吸い、肺は月の精気を吸収し、胃は土の精分を採る。<br/><br/>これが医学の根本である。<br/><br/> ――因縁、霊線、霊統について御教えください。<br/><br/> 因縁は前世生きているときに交渉のあった夫婦、親子、兄弟、友人などが、今生は生まれてからそれぞれ相接近することになることを指す。<br/><br/>霊線にも関係のあることで、俗に縁（えにし）の糸とも言う。<br/><br/> また人間のみならず土地などにも関係がある。<br/><br/>見知らぬ場所へ行って非常になつかしかったり、嫌な気がするのは、前世住んでいた所とか、ひどい目にあった所とかである。<br/><br/> 霊統は血統とはぜんぜん違う。<br/><br/>血統は肉体的のもので混血するが、これは前に説明した通りよいことで、人間が悧巧（りこう）になる。<br/><br/>霊統は祖先から分かれることはあっても、動き混ることはない。<br/><br/>霊統から言えば大和民族は日本人のうち一〇〇人に一人くらいのものであろう。<br/><br/>日本人の大部分は支那人、次は朝鮮人の霊統である。<br/><br/>そして支那民族は戦争を好み、大和民族は平和的である。<br/><br/> ――迦陵頻迦（かりょうびんが）とはどのような鳥でしょうか。<br/><br/> 霊界の鳥でよく仏画の極楽にあるように尾の長い非常に善い声でなく鳥と言われます。<br/><br/> ――人間が再生した場合、副守護神は前世と同じものがつくのでしょうか。<br/><br/>また変わるとすればいかなる意味において変わるのでしょうか。<br/><br/> 副守護神は変わる。<br/><br/>人が霊界へ行くと副守護神はしばらくはついていても、結局は離れる。<br/><br/>そして再生したときは因縁で動物霊に落ちた祖霊や、住んでいた所の稲荷や、その他つながりのある動物霊がつく。<br/><br/>勿論その動物霊にも高下があり、その人の霊統の罪穢の多少で高級または低級の動物霊がつくのである。<br/><br/> ――御仏壇に御灯明を上げると時ならぬ蝶が出るとよく言われますが。<br/><br/> 蝶に女（若い女）の霊が憑依してお参りに来るのである。<br/><br/> ――静岡市内のある信者で次々に祟りがあり、浄霊したところ、古い鯉の霊が憑依して、地下一尺掘って祀ってくれとのことですが、いかがしたらよいでしょうか。<br/><br/> 人の濫（みだ）りに踏まぬ場所を選び、地下一尺掘り、木片に鯉の霊と墨書して埋め、自然石に真鯉明神と彫りつけ、式典は善言讃詞を称え、幽世の大神と称え奉ること。<br/><br/>お供えものはパンか麩でよい。<br/><br/>毎月祀る要はない。<br/><br/>鯉は出世魚とも言われ、霊的にふつうの魚とは違う。<br/><br/> ――位牌に何々家先祖代々とか、代々霊、代々之霊、代々之霊位、代々之精霊とかいろいろありますが、いずれが一番正しいのでしょうか。<br/><br/>また過去帖だけで位牌のない家、または繰位牌の家がありますが、これはいかがでしょうか。<br/><br/> いずれもたいして問題はないが、常識的に言えば、代々之霊位がよい。<br/><br/>過去帖、繰位牌は位牌を作るべきである。<br/><br/>だいたいある物の使命、用途を考えるべきで、過去帖は元来祖先の戒名や命日を忘れぬために記録してあるもので、供養の対象ではない。<br/><br/>供養のために位碑があるので、それに祖霊がお憑りになるのである。<br/><br/>繰位牌も感心せぬ。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>reisen</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊線に就て 『信仰雑話』P.95、昭和23(1948)年9月5日発行 霊線、という言葉は今日まであまり使われないようである。<br><br>というのは、霊線というものの重要性を未だ知らなかったためで、空気より稀薄な目に見えざるものであったからである。<br><br>ところが人事百般、この霊線による影響こそは軽視すべからざるものがあり、人間にあっては幸不幸の原因ともなり、大にしては歴史にまで及ぶものである。<br><br>故に人間はこの霊線の意義を知らなくてはならないのである。<br><br> そもそも霊線なるものの説明にあたって、前もって断わっておきたい事は、これは科学であり、宗教であり、将来の学問でもある。<br><br>相対性原理も、宇宙線も、社会や個人に関するあらゆる問題も、霊線に関係のないものはないのである。<br><br>まず人間と霊線の関係から述べてみよう。<br><br> ここに一個の人間がある。<br><br>まず読者自身と思ってもいい。<br><br>その自分は、自分に繋がっている霊線なるものが何本か、何百本か、何万本か、測り知れない程あるものである。<br><br>霊線には太い細いがあり、長い短いがあり、正もあり邪もあって、それが絶えずある程度の影響、変化を人間に与えている。<br><br>故に人間は霊線によって生存を保っているといっても過言ではない。<br><br>その中で夫婦が繋がっている霊線が最も太く、親子はそれに次ぎ、兄弟、伯父、甥、従兄弟、友人知己等順々に細くなっている。<br><br>昔から縁（えにし）の糸とか、縁が結ばれるとかいうのは、この事を言ったものであろう。<br><br>そうして、霊線は常に太くなったり細くなったり変化しており、夫婦仲睦まじい時は太く光があり、争う時はある程度細くもなり、光をも失うのである。<br><br>親子兄弟その他も同様であるが、これ以外に霊線が新しく作られる事がある。<br><br>それは新しく出来た知人友人、特に恋愛等の場合であって、恋愛が高潮に達するや無制限に太くなり、両方の霊線が激しく交流する。<br><br>それが一種微妙な快感を与え合うと共に、一種の悲哀感、寂寥感をも反映し合うのである。<br><br>ついには霊線は極度に強力化し、到底別離しあたわざるに至るのは右の理によるので、こういう場合第三者がいかに説得しても何等効果がないばかりか、かえって熱度を増すようになるのは誰も知る通りである。<br><br>相愛はちょうど電気の陰陽が接触して電力を起こすようなもので、その場合電線の役目をするのが霊線である。<br><br>私は以前同性愛に陥った女学生が、情死をしようとした一歩手前で助けた事がある。<br><br>それは一方の陽電のほうを霊的に消滅させたのである。<br><br>およそ一週間くらいで成功し、陽電女性は愛着の情熱が冷却し平常のごとくなったと共に、相手の女性も平常に復したという経験がある。<br><br>しかしながら他人の霊線は打ち切る事が出来るが、血族は打ち切ることが出来ない。<br><br>次に親子の霊線には注意すベき事がある。<br><br>それは絶えず親は子をおもい、子は親をおもうので、双方反映し合っているから、子供の性質は霊線を通じて親の性質を受け入れる事になるので、親が子を良くせんとする場合、まず親自身の心を良くしなければならない。<br><br>世間よく親が道にはずれた事をしながら子に意見をしても、余り効果がないのはそのためである。<br><br>しかしこういう例もよくある。<br><br>それはあんな立派な親でありながら、息子はどうしてあんなに不良であるのかといって不思議がるが、この親は功利的善人で、外面は善く見えるが魂は曇っているためで、それが子に反映するからである。<br><br>次に兄弟で一方が善人で一方が悪人の場合がある。<br><br>これはどういう訳かというと、前生の関係と、親の罪の原因とがある。<br><br>これについて説明してみよう。<br><br> この説明にあたって人間再生の原理から説かなければならない。<br><br>まず簡単に説明すれば、人間は死後霊界に往く、すなわち霊界に生まれるのである。<br><br>仏教で往生というのは「生まれ往く」とかくが霊界から見ればそういえる訳である。<br><br>しかるに霊界は、その人が現界において犯した種々の罪穢に対し浄化作用が行なわれ、ある程度浄化された霊から再生する。<br><br>しかるに前生において悪人であった者が、刑罰やその他の事情で死に際して悔悟し、人間は悪い事は決してするものではない、この次生まれかわった時は必ず善人になろうと強くおもうので、再生するや大いに善事を行なうのである。<br><br>この理によって、現世生まれながらの善人であっても、前生は大悪人であったかも知れない。<br><br>そうして人間は生前に死後の世界あるを信じない人が多いから、死後霊界において安住が出来ず、生の執着によって浄化不充分のまま再生する。<br><br>そのために罪穢が未だ残存しているから、その残存罪穢に対し現世において浄化作用が行なわれる。<br><br>浄化作用は苦しみであるから、生まれながらの善人でありながら不幸であるのは、右の理によるのである。<br><br>また生まれながらにして不具者がある。<br><br>例えば盲目とか聾唖、畸形とかいうのは、変死による死の為、その際の負傷が浄化半途にして再生するからである。<br><br>この再生について今一つ顕著な事実をかいてみよう。<br><br>嬰児が出産するや、その面貌が老人のようなのがよくある。<br><br>これは老人が再生した為で、二、三カ月経ると初めて赤児らしき面貌になるもので、これは経験者はうなずくであろう。<br><br> 次に親の不正な心が兄弟の一方に反映して悪人となり、親の良心が反映して善人となる事もある。<br><br>またこういう例もよくある。<br><br>親が不正の富を積んで、資産家になった場合、祖霊はその不正の富を蕩尽（とうじん）しなければ一家の繁栄は覚束ないから、その手段として子の一人を道楽者にして、金銭を湯水のごとく使わせ、ついに無財産にまでするのである。<br><br>この場合道楽息子に選ばれた者は、実は一家を救うべく立派な役をしている訳で、それを知らない人間は、親の財産を潰したけしからぬ奴とみなすが、むしろ気の毒な訳である。<br><br> 霊線は人間においては生きている近親者のみではない。<br><br>死後霊界における霊とも通じており、正神に連結している霊線もあり、邪神に連結しているそれもある。<br><br>正神は善を勧め、邪神は悪を勧める事はもちろんで、人間は常に正邪いずれかに操られているのである。<br><br>そうして、霊界においてある程度浄化されたるものが守護霊に選抜され、霊線を通じて人間の守護をする。<br><br>すなわち危難のせまれる現界人に対し、危険信号を伝えて救おうとする。<br><br>この例として汽車などに乗車せんとする場合、時間が間に合わなかったり、故障があったりして乗り損ね、次の汽車に乗る、すると乗り損ねた汽車が事故に遭い、多数の死傷者が出る等の事があるが、これらは守護霊の活動によるのである。<br><br>守護霊は現界人の運命を前知し、種々の方法をもって知らせようとする。<br><br> 霊線は人間の階級に従って数の多少がある。<br><br>数の多い人、例えば一家の主人なれば家族、使用人、親戚、知人。<br><br>会社の社長ならば社員全部。<br><br>公人ならば村長、町長、区長、市長、知事、総理大臣、大統領――国王等、いずれもその主管区域や、支配下に属する人民との霊線の繋がりがあり、高位になる種多数となる訳である。<br><br>この意味において、各首脳者たるべき者の人格が高潔でなければならない。<br><br>首脳者の魂が濁っていれば、それが多数に反映し、多数者の思想は悪化するという訳であるから、一国の総理大臣などは智慧証覚に富むと共に、至誠事にあたるべき大人格者でなくてはならないのである。<br><br>しかるに国民の思想は悪化し、道義はすたれ、犯罪者続出するがごときは、為政者の責任となる訳である。<br><br>特に教育者のごときは、自己の人格が霊線を通じて学徒に反映する事を知ったなら、常に自己の霊魂を磨き、師表として恥ずかしからぬ人とならなければならないのである。<br><br> 特に宗教家であるが、一宗の教祖、管長、教師等に至っては、多数の信徒から生神様のごとく讃仰される以上、その霊魂の反映力は著しいものであるから、大いに心すべきである。<br><br>しかるにその高き地位を利用しておもしろからぬ行動のあった場合、信徒全般に反映し、ついにはその宗教は崩壊のやむなきに立ち到るのであって、このような例は人の知るところである。<br><br> 霊線は人間ばかりではない。<br><br>神仏からも人間に通じさせ給うのである。<br><br>ただ人間と異なるところは、神仏からの霊線は光であり、人間の霊線は上魂の人で薄光ぐらいであり、大抵は光のない灰白線のごときもので、悪人になる程黒色をおびるのである。<br><br>世間よく友人を選ぶ場合善人を望むが、それは善に交われば善となり、悪に交われば悪になるという訳で、全く霊線の反映によるからである。<br><br> 神仏といえども正邪があり、正神からの霊線は光であるから、常に仰ぎ拝む事によって人間の霊魂は浄化されるが、邪神からは光どころか一種の悪気を受ける事になるから、思想は悪化し不幸な人間となるのである。<br><br>故に信仰する場合、神仏の正邪を判別する事が肝要である。<br><br>また正神といえども、神格の高下によって光の強弱がある。<br><br>そうして高位の神仏程その信徒に奇跡の多いのは、霊線の光が強いからである。<br><br>以上、人間に関する霊線の意義を概説したが、人間以外の事象にも霊線の活動がある。<br><br>それは人間が住居している住宅、平常使用し愛玩している器物、特に愛玩の物ほど霊線が太く、衣服装身具等もそうである。<br><br>こういう話がある。<br><br>以前米国の心霊雑誌中にあった記録であるが、ある一婦人は不思議な能力を持っている。<br><br>それは器物によってその持主の人相、年齢、最近の行動等が判るそうで、その場合器物を熟視すると、その器物の面に写真のごとく顕れているとの事であって、これは霊線によって印画されたものである。<br><br>これによってみても霊線の活動は、いかに幽玄微妙であるかが知らるるのである。<br><br> 近来宇宙線なるものを科学的に研究しているが、これは私の見るところによれば、星と地球を連結している霊線である。<br><br>元来地球が中空に安定しているという事は、地球周囲の衛星の霊線が地球を牽引しているからである。<br><br>故にその霊線の数は何万、何億あるか測り知れない程の数で、地球の中心部にまで透過しているのである。<br><br>ついでだから、私は天体と地球との関係についても、いささか述べてみよう。<br><br> 元来天体と地球とは合わせ鏡のごとくになっている。<br><br>そうして星には明暗二種あり、すなわち光星と暗星である。<br><br>暗星は全然光がないから人間の眼には映らないが、年々光星に変化し、増加する。<br><br>なぜ暗星が光星に変化するかというと、それは宇宙物資の硬化作用によるので、硬化の極点に達した時光輝を発し始めるので、地球にある最硬化の鉱物が最も光るダイヤモンドであるのと同一の理である。<br><br>したがって地球創造の当時は、星の数は暁の星のごとく少なかったもので、星の数の増加と地球上の人類の増加とは正比例しているのである。<br><br>故に向後（こうご）、星の数も人類の数も、いか程増加するか量り知れないものがあろう。<br><br>よく天文学者が新星を発見するが、これらは暗星が光星に変化し、人間の眼に映じ始めたためである。<br><br>また流星は星の分裂作用であり、隕石はその際の破片である。<br><br>星にも木火土金水の巨星を初め、大中小無数の星があるが、これらもことごとく地球人類に反映しているので、右の五星はその時代に世界的人物五人あるという訳である。<br><br>人間を星になぞらえ、著名な人物に対し、巨星往来とか、巨星墜つとかいう事も、おもしろいと思うのである。<br><br> 泰西においても、星占いのすこぶる盛んな時代があって、僧侶がそれを行ない、人間の吉凶禍福、病気判断等に利用したりして一世を風靡したという事が史実にある。<br><br>支那の易学にも九星を本義とした等、かえって古代人が星に関心をもっていた事は、無意味ではなかったと思うのである。<br><br> また火星の生物論であるが、これは誤りである。<br><br>私の解するところによれば、生物はこの地球だけであって、しかも大宇宙の中心が地球であり、万有は人類のための存在であるから、人間はいかに尊いものであるかを思うべきである。<br><br> （注）泰西（たいせい）、西洋諸国のこと。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Sobre os Laços Espirituais</h2>
 <p>O termo "laço espiritual" parece ter sido pouco empregado até os dias de hoje. A razão para tal reside no desconhecimento de sua fundamental importância, por se tratar de algo invisível e mais rarefeito que o próprio ar. Todavia, a influência exercida por esses laços sobre os mais diversos assuntos humanos é algo que não se pode subestimar, tornando-se a própria causa da felicidade ou da desdita dos homens e, em maior escala, repercutindo até mesmo no curso da História. Portanto, é imperativo que o ser humano compreenda o significado dos laços espirituais.</p>
@@ -119,5 +271,48 @@ function toggleLang(lang) {
 <p>Existem inúmeros astros de diferentes tamanhos, incluindo os cinco gigantes — Júpiter, Marte, Saturno, Vênus e Mercúrio —, e todos eles exercem influência sobre a humanidade. A existência desses cinco grandes planetas corresponde, em cada época, à existência de cinco grandes personalidades no mundo. Acho interessante que, ao nos referirmos a pessoas notáveis, usemos metáforas astrais como "o surgimento de um novo astro" ou "a queda de um astro".</p>
 <p>Houve no Ocidente uma época em que a astrologia floresceu grandemente. Os monges a praticavam e a utilizavam para prever a sorte e o azar, bem como para diagnosticar doenças, e sua influência marcou uma era, como registram os fatos históricos. Na China, a arte do I Ching também se baseia nos Nove Astros. Creio que o interesse dos povos antigos pelos astros não era, de modo algum, desprovido de significado.</p>
 <p>Quanto à teoria da existência de vida em Marte, trata-se de um engano. Segundo meu entendimento, a vida existe apenas neste planeta. A Terra é o centro do grande universo, e tudo o que existe foi criado para servir à humanidade. Diante disso, devemos refletir sobre quão sublime é a existência humana.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊線に就て 『信仰雑話』P.95、昭和23(1948)年9月5日発行 霊線、という言葉は今日まであまり使われないようである。<br/><br/>というのは、霊線というものの重要性を未だ知らなかったためで、空気より稀薄な目に見えざるものであったからである。<br/><br/>ところが人事百般、この霊線による影響こそは軽視すべからざるものがあり、人間にあっては幸不幸の原因ともなり、大にしては歴史にまで及ぶものである。<br/><br/>故に人間はこの霊線の意義を知らなくてはならないのである。<br/><br/> そもそも霊線なるものの説明にあたって、前もって断わっておきたい事は、これは科学であり、宗教であり、将来の学問でもある。<br/><br/>相対性原理も、宇宙線も、社会や個人に関するあらゆる問題も、霊線に関係のないものはないのである。<br/><br/>まず人間と霊線の関係から述べてみよう。<br/><br/> ここに一個の人間がある。<br/><br/>まず読者自身と思ってもいい。<br/><br/>その自分は、自分に繋がっている霊線なるものが何本か、何百本か、何万本か、測り知れない程あるものである。<br/><br/>霊線には太い細いがあり、長い短いがあり、正もあり邪もあって、それが絶えずある程度の影響、変化を人間に与えている。<br/><br/>故に人間は霊線によって生存を保っているといっても過言ではない。<br/><br/>その中で夫婦が繋がっている霊線が最も太く、親子はそれに次ぎ、兄弟、伯父、甥、従兄弟、友人知己等順々に細くなっている。<br/><br/>昔から縁（えにし）の糸とか、縁が結ばれるとかいうのは、この事を言ったものであろう。<br/><br/>そうして、霊線は常に太くなったり細くなったり変化しており、夫婦仲睦まじい時は太く光があり、争う時はある程度細くもなり、光をも失うのである。<br/><br/>親子兄弟その他も同様であるが、これ以外に霊線が新しく作られる事がある。<br/><br/>それは新しく出来た知人友人、特に恋愛等の場合であって、恋愛が高潮に達するや無制限に太くなり、両方の霊線が激しく交流する。<br/><br/>それが一種微妙な快感を与え合うと共に、一種の悲哀感、寂寥感をも反映し合うのである。<br/><br/>ついには霊線は極度に強力化し、到底別離しあたわざるに至るのは右の理によるので、こういう場合第三者がいかに説得しても何等効果がないばかりか、かえって熱度を増すようになるのは誰も知る通りである。<br/><br/>相愛はちょうど電気の陰陽が接触して電力を起こすようなもので、その場合電線の役目をするのが霊線である。<br/><br/>私は以前同性愛に陥った女学生が、情死をしようとした一歩手前で助けた事がある。<br/><br/>それは一方の陽電のほうを霊的に消滅させたのである。<br/><br/>およそ一週間くらいで成功し、陽電女性は愛着の情熱が冷却し平常のごとくなったと共に、相手の女性も平常に復したという経験がある。<br/><br/>しかしながら他人の霊線は打ち切る事が出来るが、血族は打ち切ることが出来ない。<br/><br/>次に親子の霊線には注意すベき事がある。<br/><br/>それは絶えず親は子をおもい、子は親をおもうので、双方反映し合っているから、子供の性質は霊線を通じて親の性質を受け入れる事になるので、親が子を良くせんとする場合、まず親自身の心を良くしなければならない。<br/><br/>世間よく親が道にはずれた事をしながら子に意見をしても、余り効果がないのはそのためである。<br/><br/>しかしこういう例もよくある。<br/><br/>それはあんな立派な親でありながら、息子はどうしてあんなに不良であるのかといって不思議がるが、この親は功利的善人で、外面は善く見えるが魂は曇っているためで、それが子に反映するからである。<br/><br/>次に兄弟で一方が善人で一方が悪人の場合がある。<br/><br/>これはどういう訳かというと、前生の関係と、親の罪の原因とがある。<br/><br/>これについて説明してみよう。<br/><br/> この説明にあたって人間再生の原理から説かなければならない。<br/><br/>まず簡単に説明すれば、人間は死後霊界に往く、すなわち霊界に生まれるのである。<br/><br/>仏教で往生というのは「生まれ往く」とかくが霊界から見ればそういえる訳である。<br/><br/>しかるに霊界は、その人が現界において犯した種々の罪穢に対し浄化作用が行なわれ、ある程度浄化された霊から再生する。<br/><br/>しかるに前生において悪人であった者が、刑罰やその他の事情で死に際して悔悟し、人間は悪い事は決してするものではない、この次生まれかわった時は必ず善人になろうと強くおもうので、再生するや大いに善事を行なうのである。<br/><br/>この理によって、現世生まれながらの善人であっても、前生は大悪人であったかも知れない。<br/><br/>そうして人間は生前に死後の世界あるを信じない人が多いから、死後霊界において安住が出来ず、生の執着によって浄化不充分のまま再生する。<br/><br/>そのために罪穢が未だ残存しているから、その残存罪穢に対し現世において浄化作用が行なわれる。<br/><br/>浄化作用は苦しみであるから、生まれながらの善人でありながら不幸であるのは、右の理によるのである。<br/><br/>また生まれながらにして不具者がある。<br/><br/>例えば盲目とか聾唖、畸形とかいうのは、変死による死の為、その際の負傷が浄化半途にして再生するからである。<br/><br/>この再生について今一つ顕著な事実をかいてみよう。<br/><br/>嬰児が出産するや、その面貌が老人のようなのがよくある。<br/><br/>これは老人が再生した為で、二、三カ月経ると初めて赤児らしき面貌になるもので、これは経験者はうなずくであろう。<br/><br/> 次に親の不正な心が兄弟の一方に反映して悪人となり、親の良心が反映して善人となる事もある。<br/><br/>またこういう例もよくある。<br/><br/>親が不正の富を積んで、資産家になった場合、祖霊はその不正の富を蕩尽（とうじん）しなければ一家の繁栄は覚束ないから、その手段として子の一人を道楽者にして、金銭を湯水のごとく使わせ、ついに無財産にまでするのである。<br/><br/>この場合道楽息子に選ばれた者は、実は一家を救うべく立派な役をしている訳で、それを知らない人間は、親の財産を潰したけしからぬ奴とみなすが、むしろ気の毒な訳である。<br/><br/> 霊線は人間においては生きている近親者のみではない。<br/><br/>死後霊界における霊とも通じており、正神に連結している霊線もあり、邪神に連結しているそれもある。<br/><br/>正神は善を勧め、邪神は悪を勧める事はもちろんで、人間は常に正邪いずれかに操られているのである。<br/><br/>そうして、霊界においてある程度浄化されたるものが守護霊に選抜され、霊線を通じて人間の守護をする。<br/><br/>すなわち危難のせまれる現界人に対し、危険信号を伝えて救おうとする。<br/><br/>この例として汽車などに乗車せんとする場合、時間が間に合わなかったり、故障があったりして乗り損ね、次の汽車に乗る、すると乗り損ねた汽車が事故に遭い、多数の死傷者が出る等の事があるが、これらは守護霊の活動によるのである。<br/><br/>守護霊は現界人の運命を前知し、種々の方法をもって知らせようとする。<br/><br/> 霊線は人間の階級に従って数の多少がある。<br/><br/>数の多い人、例えば一家の主人なれば家族、使用人、親戚、知人。<br/><br/>会社の社長ならば社員全部。<br/><br/>公人ならば村長、町長、区長、市長、知事、総理大臣、大統領――国王等、いずれもその主管区域や、支配下に属する人民との霊線の繋がりがあり、高位になる種多数となる訳である。<br/><br/>この意味において、各首脳者たるべき者の人格が高潔でなければならない。<br/><br/>首脳者の魂が濁っていれば、それが多数に反映し、多数者の思想は悪化するという訳であるから、一国の総理大臣などは智慧証覚に富むと共に、至誠事にあたるべき大人格者でなくてはならないのである。<br/><br/>しかるに国民の思想は悪化し、道義はすたれ、犯罪者続出するがごときは、為政者の責任となる訳である。<br/><br/>特に教育者のごときは、自己の人格が霊線を通じて学徒に反映する事を知ったなら、常に自己の霊魂を磨き、師表として恥ずかしからぬ人とならなければならないのである。<br/><br/> 特に宗教家であるが、一宗の教祖、管長、教師等に至っては、多数の信徒から生神様のごとく讃仰される以上、その霊魂の反映力は著しいものであるから、大いに心すべきである。<br/><br/>しかるにその高き地位を利用しておもしろからぬ行動のあった場合、信徒全般に反映し、ついにはその宗教は崩壊のやむなきに立ち到るのであって、このような例は人の知るところである。<br/><br/> 霊線は人間ばかりではない。<br/><br/>神仏からも人間に通じさせ給うのである。<br/><br/>ただ人間と異なるところは、神仏からの霊線は光であり、人間の霊線は上魂の人で薄光ぐらいであり、大抵は光のない灰白線のごときもので、悪人になる程黒色をおびるのである。<br/><br/>世間よく友人を選ぶ場合善人を望むが、それは善に交われば善となり、悪に交われば悪になるという訳で、全く霊線の反映によるからである。<br/><br/> 神仏といえども正邪があり、正神からの霊線は光であるから、常に仰ぎ拝む事によって人間の霊魂は浄化されるが、邪神からは光どころか一種の悪気を受ける事になるから、思想は悪化し不幸な人間となるのである。<br/><br/>故に信仰する場合、神仏の正邪を判別する事が肝要である。<br/><br/>また正神といえども、神格の高下によって光の強弱がある。<br/><br/>そうして高位の神仏程その信徒に奇跡の多いのは、霊線の光が強いからである。<br/><br/>以上、人間に関する霊線の意義を概説したが、人間以外の事象にも霊線の活動がある。<br/><br/>それは人間が住居している住宅、平常使用し愛玩している器物、特に愛玩の物ほど霊線が太く、衣服装身具等もそうである。<br/><br/>こういう話がある。<br/><br/>以前米国の心霊雑誌中にあった記録であるが、ある一婦人は不思議な能力を持っている。<br/><br/>それは器物によってその持主の人相、年齢、最近の行動等が判るそうで、その場合器物を熟視すると、その器物の面に写真のごとく顕れているとの事であって、これは霊線によって印画されたものである。<br/><br/>これによってみても霊線の活動は、いかに幽玄微妙であるかが知らるるのである。<br/><br/> 近来宇宙線なるものを科学的に研究しているが、これは私の見るところによれば、星と地球を連結している霊線である。<br/><br/>元来地球が中空に安定しているという事は、地球周囲の衛星の霊線が地球を牽引しているからである。<br/><br/>故にその霊線の数は何万、何億あるか測り知れない程の数で、地球の中心部にまで透過しているのである。<br/><br/>ついでだから、私は天体と地球との関係についても、いささか述べてみよう。<br/><br/> 元来天体と地球とは合わせ鏡のごとくになっている。<br/><br/>そうして星には明暗二種あり、すなわち光星と暗星である。<br/><br/>暗星は全然光がないから人間の眼には映らないが、年々光星に変化し、増加する。<br/><br/>なぜ暗星が光星に変化するかというと、それは宇宙物資の硬化作用によるので、硬化の極点に達した時光輝を発し始めるので、地球にある最硬化の鉱物が最も光るダイヤモンドであるのと同一の理である。<br/><br/>したがって地球創造の当時は、星の数は暁の星のごとく少なかったもので、星の数の増加と地球上の人類の増加とは正比例しているのである。<br/><br/>故に向後（こうご）、星の数も人類の数も、いか程増加するか量り知れないものがあろう。<br/><br/>よく天文学者が新星を発見するが、これらは暗星が光星に変化し、人間の眼に映じ始めたためである。<br/><br/>また流星は星の分裂作用であり、隕石はその際の破片である。<br/><br/>星にも木火土金水の巨星を初め、大中小無数の星があるが、これらもことごとく地球人類に反映しているので、右の五星はその時代に世界的人物五人あるという訳である。<br/><br/>人間を星になぞらえ、著名な人物に対し、巨星往来とか、巨星墜つとかいう事も、おもしろいと思うのである。<br/><br/> 泰西においても、星占いのすこぶる盛んな時代があって、僧侶がそれを行ない、人間の吉凶禍福、病気判断等に利用したりして一世を風靡したという事が史実にある。<br/><br/>支那の易学にも九星を本義とした等、かえって古代人が星に関心をもっていた事は、無意味ではなかったと思うのである。<br/><br/> また火星の生物論であるが、これは誤りである。<br/><br/>私の解するところによれば、生物はこの地球だけであって、しかも大宇宙の中心が地球であり、万有は人類のための存在であるから、人間はいかに尊いものであるかを思うべきである。<br/><br/> （注）泰西（たいせい）、西洋諸国のこと。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

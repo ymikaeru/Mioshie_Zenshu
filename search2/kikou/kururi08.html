@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kururi08</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 クルリ瓢箪 瓢箪 『地上天国』47号、昭和28(1953)年4月25日発行 宿縁の苫しみ その頃を思い出してみれば、私は危い自滅線上から御救いに預り、しかも虫にも劣るこの身さえ尊い御側近にお仕えさして頂く御許し賜わって、この上もない栄誉と幸福の生を与えられた。<br><br>ちょうどその頃、大森分院が所属する某宗門の本山や東京の信徒間に捲起った明主様排撃運動は漸く深刻拡大化しようとしていた。<br><br>そして非常識極まる造言や、低級不快なデマは地方へも伝播され大逆無道にも明主様は邪神の頭目なりと公言するものもあり、不穏な空気さえ醸成するに至ったのである。<br><br> この囂々たる中傷の声と共にその明主様に私がお仕えしたという報道は私の実家へも伝わった。<br><br>松江市の代表的信徒たる実家から忌むべき異端者を出すがごときは、最も恐ろしいことであり、愛する肉親が神から葬られるであろう事は座視するに堪えざる所という訳で、親族会議の結果、私を是が非でも説得して実家へ戻す事に一決し、まず在京の義兄はその代表者として再三私を喚び出して説得し非常手段をもって連れ帰ろうとして果さなかった。<br><br>次に弟が上京し、知人親戚が派遣され、最後に父が来て、背水の陣を布いた私の決意を動かすことの不可能を知った。<br><br>その熱烈と執拗さには哀れを催すほどだった。<br><br>当時そのような迫害の垣の中に在す明主様を信奉する者は教える程しかなく、何の経済的基盤もお待ちにならぬ現実は、薄氷を踏まるるかにみえた。<br><br>私はともすれば郷里の不自由ない生活の誘惑や、強い肉親の絆に引かれようとするのを歯を喰いしばって堪えた。<br><br>否そのような累卵的事態どこにありやというように、泰然として明るく微笑まれる磐石の御態度に接すると何の不安もなくなる。<br><br>そして私はたとえその宗門の教主の命あり、天皇の勅ありとも、よしや巨万の富を積まれるも又いかなるものを捨つるとも、明主様の大き温い御懐を離れることは出来ぬ気持が沸いて来るのであった。<br><br> また私の養家は北鮮の江界という町にあり、土地では名を知られた商家であった。<br><br>養母は夫の遺業と借金を受ついで孤軍奮闘していた。<br><br>この哀れな寡婦の労に酬いる事は、ただ一人の後継者であり、戸主たる私の心に常に宿っている念願であり責任であったが、その重任に不適格な私には最も忌わしい運命の桎梏でもあった。<br><br>そうして人類救済という大御業に生くるは一身一家を捨つるも悔いざる本懐であったし、明主様の御懐に抱かれて栄ある御共に仕えさしていただくことは一家が救われ栄ゆる最上の道であることも確く信じていた。<br><br> 私の曖昧な音信や毎暑中休暇にも帰省せぬことなどに不審を抱き、興信所に依頼して、最も恐れ嫌った学業放棄や宗教に生くる私の実情を知った母は大いに驚愕激昂した。<br><br>そして母の顧問役たる老判事を派して明主様に直談し私の説得に努めたが、常識人の彼は反って幾分共鳴したので、今度は母自ら上京して明主様にお目にかかり「自分は息子に学歴をつけさすために苦難に耐えている。<br><br>すぐに渡してもらいたい」と申上げ強引に私を連れ帰ろうとした。<br><br>私も流石に当時の道徳観念からみて世間で当然とするごとくその乞いをお容れになるかを危うんだが、明主様はそのような事には何の御介意もなく即座に母の非を衝かれ、しかも私の将来についても固く御引受下された時の有難さ嬉しさはただ涙のみであった。<br><br>そして母は唯物的マクワベリズムで、唯心的の私とは氷炭相容れぬ両極である事を直ちに御観破になり、恩愛の桎梏で私の個性や自由意志を抹殺し、幸福を破壊しても己れの生人形にしようとした母の不当の手から御開放下され、私の唯一無上の望みを叶えて下さったのである。<br><br>そしして真実に聾盲の母はこの有難い思召しに感謝どころかこと毎に逆解し、遂には明主様を一家の破壊者として怨むに至った。<br><br>しかし明主様は母のどんな御無礼や怨みにもいささかも御介意なく弱い私をお守り下さった。<br><br>その後は親戚加入までも動員し執拗に策動し、大森へは自身数回来たが、いつも私には聞くに堪えぬ明主様の中傷を並べ、御説教する様子は実に雄弁な精神病者であり、それは又今まで私には洞察出来なかった内面の醜悪な本体を御光に照らされて暴露せるものであって、私を絶対に帰れぬようにする効果しか奏さなかった。<br><br>そして来る度に「お前は蝉の抜殻だ、明主様が一番悪いので、お前はうまくだまされているのだ、今にきっと目が醒める時が来る。<br><br>気がついたら帰って来い」と言い残しては不思議に小遣いだけはタップリ置いて行った。<br><br>「アイツは実に感心だが馬鹿な野郎だ、俺に銭をくれやがる」の冠句は当時の実感である。<br><br> こうして何年かの後「ただ一人の息子を信仰にとられては夫の遺志を継ぐ気力も失った」という理由で「一切の財産の整理を支配人に委任して内地へ帰る」と通告して来た。<br><br>そして許嫁であった母の従妹と一の結婚の意志を質して来た。<br><br>明主様もお許し賜わり仲人にまでお立ち下さった。<br><br>これ程栄誉極まる有難い思召しに拘わらず、母は明主様に対し奉りインチキとか詐偽と罵った。<br><br>私は激怒の余り即時解消を宜したが明主様の折角の思召しを思うては耐え難きを耐えて来た。<br><br>結局この結婚も夫婦の愛の絆によって明主様から私を引離そうとする母の苦肉の手段以外のものではなかった。<br><br>妻の心には常に母の意図が存在しており、それが母の握っている物質とそして私への愛情に結びついていて夫婦の心は結ばれぬ平行線にあった。<br><br>しかも母が時々来てはいつかは結ばれんとする望みを壊す。<br><br>私が信仰に入れんと願えば願う程離れて行く、言語の通ぜぬ蛮人と共にいる心地である。<br><br>それでも三年間に二児をもうけたが、玉川時代の法難の打戟は御仕事をも再起不能と思わしめ一時私も路頭に迷うかと思った。<br><br>それを絶好の磯会として母は有方最後の手段を尽した。<br><br>妻も又母の予言した私の目の醒める時いよいよ至れりとしてこれに同調し、インチキ詐偽の暴言を取消さぬ母の予言は絶対に認めぬ私に対し、あるいは病児にあえて薬毒を用い、私の窮状への扶助を絶ち、夜の帰宅さえ拒絶したり、虐待罵倒の限りを尽し、ついに母と合議の上二児を抱いて妻は田舎へ去った。<br><br>再会期し難い幼児の面をみて別れた時は心ひそかに万觴（ばんしょう）の熱涙を呑んだが、一面家庭生活の苦縛から逃れた幾年ぶりの晴やかさもあった。<br><br>そうしてこの別離とても子の愛に引かれ生活に窮して明主様から離れるであろうことを確信した最後の切札であったことを知ったが、覆水は再び盆に還えることはなかった。<br><br> なお離別後の私は文字通りの無一文で、ただ生かして頂いてるだけの心細い幾月を過したが、ちょうど戦争たけなわに世は物資窮迫に泣く頃から、あらゆる物質の恵み豊かとなり、世情最も苦しむ時も、何の不安も不自由もなく、夢にも紛う大き幸いを恵まい賜わったのである。<br><br> 叙上のごとく、私は長い間、最も絶ち難い肉親の縁に悩まされつつひたすら明主様におすがりし御言葉に生きて来たが、その私の唯一の生きる道から引放すべく、彼等があらゆる手段を尽したのは、どこまでも私に対する善慮であり愛着であったに違いないが、それは実は、邪神の操作に最も適当な傀儡として踊らされているものにすぎぬ事を、明主様の御教によって初めて知り得たからでもあった。<br><br>たしかに彼等の行為には邪神の特色たる学べき執拗さと、私の最上の生甲斐を奪わんとする無暴と冷酷はあっても、私の行く栄えの道を解せんとする意志も智性も全くなかったのである。<br><br>もし当時の実情におけるこの二つの立場に対し社会の批判をまったなら、恐らく私の行為は無責任な愚か極まる独善とされ、母の行為は当然のこととして擁護されたであろう。<br><br>事実妻子と離別の頃は同信の友まで私を非とし、私自身さえ一種のエゴイズムに過ぎるかと思い惑う程であった。<br><br>しかし仮に私が一時の善、目前の平安を選んで、当初実家へ行っていたら、ついに度し難い狂信地獄の深みにおち、その上母に従えば水と油を融合する徒労に苦しみ、唯一の御救いを失った身には想うだに恐ろしい闇黒と自滅が間近に待っていたのは明かで、意義なく悲しい生を畢（お）えねばならなかった。<br><br> 私の行った道にもこのような宿縁のまつわりの外に様々の苦しみはあったが、どんな苦しみであろうとも明主様の温い御霊衣に包まれている以上、それは自ら求むる退戯的苦悩か又は、飛躍的向上の歓喜に変るものであった。<br><br>そうして死の運命を生におかえ賜わったこと幾度か、しかもどんな激しい世嵐にも守られて、二度とない尊い御神業に二十年間もお使いいただき、世界中幾人とない大きい幸福を恵まい賜わったのである。<br><br>そうして神は、私がお救い戴くことによって、あれほどに叛いた母や妻にさえ、私が彼らに注ぐ涙に比較出来ぬ大きい御救いを賜うた。<br><br>もし母が私を得て北鮮に止まっていたならどうなっていたであろう。<br><br>ただでさえ治安全からぬ奥地の町に、十年後に起った非常事態は、共産軍か暴徒によって全財産を没収されるは勿論、すべての在鮮邦人が受けたごとく、一家全滅でなくとも無疵の生還は期し得なかった訳である。<br><br>母が私を失った失望懊悩は、逸早く家業を整理して内地へ帰還せざるを得ぬ動機となり、そのため生命と財産を保全し得て今でも健在であるのは何たる大きいおかげであったろう。<br><br>又妻とても東京を去った事は結局早期疎開の結果となり農村において何等空襲の被害を受けず食事情にも恵まれて気楽に育児を完うし得た。<br><br> 以上の如く、明主様が母に賜うたお言葉は私の運命を限りなく、この上なきものに変え給い叛ける者まで相応の御恵を垂れ給うた。<br><br>まことに遠大測り知れぬは明主様の即座の御言葉であり、神の愛は深く遠く人の小さき目で憶測は出来ぬ、人の眼は目前の善悪利害を打算し、神は現在から生涯そして永遠に亘る計器を持たせ給うのである。<br><br> 右は私が初めて身をもって大乗を知らされた体験であり、そして新しい栄光の道に転換する際常にある邪神の妨害の一定型である。<br><br>多くの人が初めて御浄霊に救われんとする場合、医学へ誘う悪魔の親切な囁きにあう、特た成果を見るまで一定期間を要する農法の場合、その親切深く、最初は黙々として悲壮な忍耐をするのが通例である。<br><br>そして敢然御教通り直行する人程驚異的成果を得るが、迷雲生じて御教を違える程度だけ成果の挙らぬのは事実である。<br><br>邪神の奸計は一見善意であり、小乗的一時の効果を示すのであって、御教えを知らぬ限り人間の眼で見破る事は不可能であり、その陥穿におちて脱出することも容易でないのは医学肥料迷信の根強さによっても知られる。<br><br>そして邪神がたとえあらゆる神仏の眼を誤魔化し得ても、絶対誤魔化せぬのは明主様の御眼である吾々は、一分一度誤りなき明主様の御言葉をそのまま直行し絶対の信をもって貫かねばならない。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Jugo dos Laços Cármicos</h2>
 <p>Ao recordar aquela época, rememoro como fui salvo da iminência da autodestruição e, embora este meu ser seja mais insignificante que um inseto, foi-me concedida a permissão de servir em Sua nobre presença, outorgando-me uma vida de suprema honra e felicidade. Foi justamente nesse período que o movimento de oposição a Meishu-Sama, articulado dentro da sede e entre os fiéis de Tóquio da seita religiosa à qual a filial de Omori pertencia, ganhava contornos cada vez mais sérios e abrangentes. Calúnias absurdas e boatos de baixo nível eram disseminados e chegavam até mesmo às províncias, chegando ao cúmulo da perfídia de alguns declararem publicamente que Meishu-Sama era o líder de espíritos malignos, o que gerou um clima de grande instabilidade.</p>
@@ -107,5 +259,48 @@ function toggleLang(lang) {
 <p>No caminho que escolhi, além dos emaranhados cármicos, enfrentei diversos outros sofrimentos. Porém, qualquer que fosse a provação, por estar envolto no cálido manto espiritual de Meishu-Sama, ela se transformava em um desafio buscado por prazer ou na alegria de um salto evolutivo. Inúmeras vezes, meu destino de morte foi transmutado em vida. Protegido em meio às mais violentas tempestades do mundo, tive o privilégio de servir por vinte anos nesta Obra Divina única, recebendo uma felicidade tão imensa que pouquíssimas pessoas no mundo desfrutam. E Deus, através da minha salvação, concedeu também uma salvação incomparavelmente maior à minha mãe e à minha esposa, que tanto se rebelaram, uma salvação muito superior às lágrimas que por elas derramei. O que teria acontecido se minha mãe tivesse conseguido me levar para a Coreia do Norte? Dez anos depois, em uma cidade do interior onde a segurança já era precária, eclodiu uma situação de emergência. Nossas posses teriam sido confiscadas por tropas comunistas ou por rebeldes e, como ocorreu com todos os japoneses que lá viviam, mesmo que a família não fosse aniquilada, seria impossível esperar um retorno ileso. A decepção e a angústia de minha mãe por ter me "perdido" foram o que a motivaram a liquidar os negócios e retornar ao Japão. Graças a isso, sua vida e seus bens foram preservados, e ela vive com saúde até hoje. Que imensa graça divina! Da mesma forma, a partida de minha esposa de Tóquio resultou em uma evacuação antecipada. No campo, ela não sofreu com os bombardeios, teve fartura de alimentos e pôde criar nossos filhos com tranquilidade.</p>
 <p>Dessa forma, as palavras que Meishu-Sama dirigiu à minha mãe transformaram meu destino de maneira ilimitada e sublime, e até mesmo àqueles que se rebelaram foi concedida a devida graça. Verdadeiramente, as palavras proferidas por Meishu-Sama no calor do momento são de um alcance vasto e incomensurável. O amor de Deus é profundo e longínquo, impossível de ser medido pelo olhar limitado do ser humano. O olhar humano calcula o bem e o mal, as vantagens e desvantagens do momento presente; Deus, no entanto, possui um instrumento de medida que abrange do agora à totalidade da vida e se estende pela eternidade.</p>
 <p>Este relato é a minha primeira experiência em que compreendi na prática o Mahayana, e representa também o modelo clássico da interferência dos espíritos malignos que sempre ocorre quando estamos prestes a iniciar um novo e glorioso caminho. Muitas pessoas, ao serem salvas pela primeira vez pelo Johrei, deparam-se com o sussurro gentil do demônio que as convida a recorrer à medicina. No caso da Agricultura Natural, que exige um certo tempo para apresentar resultados notáveis, essa "gentileza" é ainda mais profunda, e o habitual é que, no início, se enfrente a situação com uma resignação silenciosa e quase heroica. Os que seguem os Ensinamentos com determinação e retidão obtêm resultados surpreendentes, enquanto aqueles que, enevoados pela dúvida, se desviam dos preceitos, colhem resultados na exata medida de seu desvio. A astúcia dos espíritos malignos se apresenta, à primeira vista, sob o manto da benevolência e oferece resultados imediatos e de visão limitada. Sem o conhecimento dos Ensinamentos, é impossível desmascará-la com os olhos humanos, e, uma vez que se cai em sua armadilha, não é fácil escapar, como bem demonstra a força com que as pessoas se apegam à medicina, aos agrotóxicos e às superstições. E ainda que os espíritos malignos consigam iludir os olhos de todos os deuses e budas, os únicos olhos que eles jamais poderão enganar são os de Meishu-Sama. Nós, portanto, devemos seguir as palavras de Meishu-Sama ao pé da letra, com fé absoluta e sem o menor desvio, pois elas são infalíveis.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 クルリ瓢箪 瓢箪 『地上天国』47号、昭和28(1953)年4月25日発行 宿縁の苫しみ その頃を思い出してみれば、私は危い自滅線上から御救いに預り、しかも虫にも劣るこの身さえ尊い御側近にお仕えさして頂く御許し賜わって、この上もない栄誉と幸福の生を与えられた。<br/><br/>ちょうどその頃、大森分院が所属する某宗門の本山や東京の信徒間に捲起った明主様排撃運動は漸く深刻拡大化しようとしていた。<br/><br/>そして非常識極まる造言や、低級不快なデマは地方へも伝播され大逆無道にも明主様は邪神の頭目なりと公言するものもあり、不穏な空気さえ醸成するに至ったのである。<br/><br/> この囂々たる中傷の声と共にその明主様に私がお仕えしたという報道は私の実家へも伝わった。<br/><br/>松江市の代表的信徒たる実家から忌むべき異端者を出すがごときは、最も恐ろしいことであり、愛する肉親が神から葬られるであろう事は座視するに堪えざる所という訳で、親族会議の結果、私を是が非でも説得して実家へ戻す事に一決し、まず在京の義兄はその代表者として再三私を喚び出して説得し非常手段をもって連れ帰ろうとして果さなかった。<br/><br/>次に弟が上京し、知人親戚が派遣され、最後に父が来て、背水の陣を布いた私の決意を動かすことの不可能を知った。<br/><br/>その熱烈と執拗さには哀れを催すほどだった。<br/><br/>当時そのような迫害の垣の中に在す明主様を信奉する者は教える程しかなく、何の経済的基盤もお待ちにならぬ現実は、薄氷を踏まるるかにみえた。<br/><br/>私はともすれば郷里の不自由ない生活の誘惑や、強い肉親の絆に引かれようとするのを歯を喰いしばって堪えた。<br/><br/>否そのような累卵的事態どこにありやというように、泰然として明るく微笑まれる磐石の御態度に接すると何の不安もなくなる。<br/><br/>そして私はたとえその宗門の教主の命あり、天皇の勅ありとも、よしや巨万の富を積まれるも又いかなるものを捨つるとも、明主様の大き温い御懐を離れることは出来ぬ気持が沸いて来るのであった。<br/><br/> また私の養家は北鮮の江界という町にあり、土地では名を知られた商家であった。<br/><br/>養母は夫の遺業と借金を受ついで孤軍奮闘していた。<br/><br/>この哀れな寡婦の労に酬いる事は、ただ一人の後継者であり、戸主たる私の心に常に宿っている念願であり責任であったが、その重任に不適格な私には最も忌わしい運命の桎梏でもあった。<br/><br/>そうして人類救済という大御業に生くるは一身一家を捨つるも悔いざる本懐であったし、明主様の御懐に抱かれて栄ある御共に仕えさしていただくことは一家が救われ栄ゆる最上の道であることも確く信じていた。<br/><br/> 私の曖昧な音信や毎暑中休暇にも帰省せぬことなどに不審を抱き、興信所に依頼して、最も恐れ嫌った学業放棄や宗教に生くる私の実情を知った母は大いに驚愕激昂した。<br/><br/>そして母の顧問役たる老判事を派して明主様に直談し私の説得に努めたが、常識人の彼は反って幾分共鳴したので、今度は母自ら上京して明主様にお目にかかり「自分は息子に学歴をつけさすために苦難に耐えている。<br/><br/>すぐに渡してもらいたい」と申上げ強引に私を連れ帰ろうとした。<br/><br/>私も流石に当時の道徳観念からみて世間で当然とするごとくその乞いをお容れになるかを危うんだが、明主様はそのような事には何の御介意もなく即座に母の非を衝かれ、しかも私の将来についても固く御引受下された時の有難さ嬉しさはただ涙のみであった。<br/><br/>そして母は唯物的マクワベリズムで、唯心的の私とは氷炭相容れぬ両極である事を直ちに御観破になり、恩愛の桎梏で私の個性や自由意志を抹殺し、幸福を破壊しても己れの生人形にしようとした母の不当の手から御開放下され、私の唯一無上の望みを叶えて下さったのである。<br/><br/>そしして真実に聾盲の母はこの有難い思召しに感謝どころかこと毎に逆解し、遂には明主様を一家の破壊者として怨むに至った。<br/><br/>しかし明主様は母のどんな御無礼や怨みにもいささかも御介意なく弱い私をお守り下さった。<br/><br/>その後は親戚加入までも動員し執拗に策動し、大森へは自身数回来たが、いつも私には聞くに堪えぬ明主様の中傷を並べ、御説教する様子は実に雄弁な精神病者であり、それは又今まで私には洞察出来なかった内面の醜悪な本体を御光に照らされて暴露せるものであって、私を絶対に帰れぬようにする効果しか奏さなかった。<br/><br/>そして来る度に「お前は蝉の抜殻だ、明主様が一番悪いので、お前はうまくだまされているのだ、今にきっと目が醒める時が来る。<br/><br/>気がついたら帰って来い」と言い残しては不思議に小遣いだけはタップリ置いて行った。<br/><br/>「アイツは実に感心だが馬鹿な野郎だ、俺に銭をくれやがる」の冠句は当時の実感である。<br/><br/> こうして何年かの後「ただ一人の息子を信仰にとられては夫の遺志を継ぐ気力も失った」という理由で「一切の財産の整理を支配人に委任して内地へ帰る」と通告して来た。<br/><br/>そして許嫁であった母の従妹と一の結婚の意志を質して来た。<br/><br/>明主様もお許し賜わり仲人にまでお立ち下さった。<br/><br/>これ程栄誉極まる有難い思召しに拘わらず、母は明主様に対し奉りインチキとか詐偽と罵った。<br/><br/>私は激怒の余り即時解消を宜したが明主様の折角の思召しを思うては耐え難きを耐えて来た。<br/><br/>結局この結婚も夫婦の愛の絆によって明主様から私を引離そうとする母の苦肉の手段以外のものではなかった。<br/><br/>妻の心には常に母の意図が存在しており、それが母の握っている物質とそして私への愛情に結びついていて夫婦の心は結ばれぬ平行線にあった。<br/><br/>しかも母が時々来てはいつかは結ばれんとする望みを壊す。<br/><br/>私が信仰に入れんと願えば願う程離れて行く、言語の通ぜぬ蛮人と共にいる心地である。<br/><br/>それでも三年間に二児をもうけたが、玉川時代の法難の打戟は御仕事をも再起不能と思わしめ一時私も路頭に迷うかと思った。<br/><br/>それを絶好の磯会として母は有方最後の手段を尽した。<br/><br/>妻も又母の予言した私の目の醒める時いよいよ至れりとしてこれに同調し、インチキ詐偽の暴言を取消さぬ母の予言は絶対に認めぬ私に対し、あるいは病児にあえて薬毒を用い、私の窮状への扶助を絶ち、夜の帰宅さえ拒絶したり、虐待罵倒の限りを尽し、ついに母と合議の上二児を抱いて妻は田舎へ去った。<br/><br/>再会期し難い幼児の面をみて別れた時は心ひそかに万觴（ばんしょう）の熱涙を呑んだが、一面家庭生活の苦縛から逃れた幾年ぶりの晴やかさもあった。<br/><br/>そうしてこの別離とても子の愛に引かれ生活に窮して明主様から離れるであろうことを確信した最後の切札であったことを知ったが、覆水は再び盆に還えることはなかった。<br/><br/> なお離別後の私は文字通りの無一文で、ただ生かして頂いてるだけの心細い幾月を過したが、ちょうど戦争たけなわに世は物資窮迫に泣く頃から、あらゆる物質の恵み豊かとなり、世情最も苦しむ時も、何の不安も不自由もなく、夢にも紛う大き幸いを恵まい賜わったのである。<br/><br/> 叙上のごとく、私は長い間、最も絶ち難い肉親の縁に悩まされつつひたすら明主様におすがりし御言葉に生きて来たが、その私の唯一の生きる道から引放すべく、彼等があらゆる手段を尽したのは、どこまでも私に対する善慮であり愛着であったに違いないが、それは実は、邪神の操作に最も適当な傀儡として踊らされているものにすぎぬ事を、明主様の御教によって初めて知り得たからでもあった。<br/><br/>たしかに彼等の行為には邪神の特色たる学べき執拗さと、私の最上の生甲斐を奪わんとする無暴と冷酷はあっても、私の行く栄えの道を解せんとする意志も智性も全くなかったのである。<br/><br/>もし当時の実情におけるこの二つの立場に対し社会の批判をまったなら、恐らく私の行為は無責任な愚か極まる独善とされ、母の行為は当然のこととして擁護されたであろう。<br/><br/>事実妻子と離別の頃は同信の友まで私を非とし、私自身さえ一種のエゴイズムに過ぎるかと思い惑う程であった。<br/><br/>しかし仮に私が一時の善、目前の平安を選んで、当初実家へ行っていたら、ついに度し難い狂信地獄の深みにおち、その上母に従えば水と油を融合する徒労に苦しみ、唯一の御救いを失った身には想うだに恐ろしい闇黒と自滅が間近に待っていたのは明かで、意義なく悲しい生を畢（お）えねばならなかった。<br/><br/> 私の行った道にもこのような宿縁のまつわりの外に様々の苦しみはあったが、どんな苦しみであろうとも明主様の温い御霊衣に包まれている以上、それは自ら求むる退戯的苦悩か又は、飛躍的向上の歓喜に変るものであった。<br/><br/>そうして死の運命を生におかえ賜わったこと幾度か、しかもどんな激しい世嵐にも守られて、二度とない尊い御神業に二十年間もお使いいただき、世界中幾人とない大きい幸福を恵まい賜わったのである。<br/><br/>そうして神は、私がお救い戴くことによって、あれほどに叛いた母や妻にさえ、私が彼らに注ぐ涙に比較出来ぬ大きい御救いを賜うた。<br/><br/>もし母が私を得て北鮮に止まっていたならどうなっていたであろう。<br/><br/>ただでさえ治安全からぬ奥地の町に、十年後に起った非常事態は、共産軍か暴徒によって全財産を没収されるは勿論、すべての在鮮邦人が受けたごとく、一家全滅でなくとも無疵の生還は期し得なかった訳である。<br/><br/>母が私を失った失望懊悩は、逸早く家業を整理して内地へ帰還せざるを得ぬ動機となり、そのため生命と財産を保全し得て今でも健在であるのは何たる大きいおかげであったろう。<br/><br/>又妻とても東京を去った事は結局早期疎開の結果となり農村において何等空襲の被害を受けず食事情にも恵まれて気楽に育児を完うし得た。<br/><br/> 以上の如く、明主様が母に賜うたお言葉は私の運命を限りなく、この上なきものに変え給い叛ける者まで相応の御恵を垂れ給うた。<br/><br/>まことに遠大測り知れぬは明主様の即座の御言葉であり、神の愛は深く遠く人の小さき目で憶測は出来ぬ、人の眼は目前の善悪利害を打算し、神は現在から生涯そして永遠に亘る計器を持たせ給うのである。<br/><br/> 右は私が初めて身をもって大乗を知らされた体験であり、そして新しい栄光の道に転換する際常にある邪神の妨害の一定型である。<br/><br/>多くの人が初めて御浄霊に救われんとする場合、医学へ誘う悪魔の親切な囁きにあう、特た成果を見るまで一定期間を要する農法の場合、その親切深く、最初は黙々として悲壮な忍耐をするのが通例である。<br/><br/>そして敢然御教通り直行する人程驚異的成果を得るが、迷雲生じて御教を違える程度だけ成果の挙らぬのは事実である。<br/><br/>邪神の奸計は一見善意であり、小乗的一時の効果を示すのであって、御教えを知らぬ限り人間の眼で見破る事は不可能であり、その陥穿におちて脱出することも容易でないのは医学肥料迷信の根強さによっても知られる。<br/><br/>そして邪神がたとえあらゆる神仏の眼を誤魔化し得ても、絶対誤魔化せぬのは明主様の御眼である吾々は、一分一度誤りなき明主様の御言葉をそのまま直行し絶対の信をもって貫かねばならない。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

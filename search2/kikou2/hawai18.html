@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hawai18</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ハワイ通信 （18） 樋口喜代子 『栄光』257号、昭和29(1954)年4月21日発行 明主様の限りなき御守護の中に、至らぬ私共もつつがなく御用をさせていただいております事、誠に有難く厚く厚く御礼申し上げます。<br><br> 先日は二月二十七日及び三月七日の御面会の折の御教えをテープに録音御送りいただき種々御配慮いただきまして、誠に有難うございました。<br><br>厚く御礼申し上げます。<br><br>久しぶりで御声を拝聴させていただく事が出来、有難さに胸せまる思いがいたしました。<br><br>この度はこの前のゼラルミンのレコードとちがい御声も殆んどそのままにおうかがい出来ます。<br><br>特に三月七日の分がよく入っております。<br><br>先日出張折の人々とおうかがいさせていただき、安食さんはレコードを通しての御言霊の御光により御浄化をいただき、頭をとかしていただいて一層感激いたしております。<br><br>よろしく御礼を申し上げていただきたく御願い申し上げます。<br><br> ハワイ教会の建物に関しましては、新聞が馬鹿に大げさに書きましたので、まるで本当の地上天国の様にひびきますが、金額こそ相当にかかっておりますが、（この国は労働貸金が米本土よりも高価の為）それ程大した建物ではありません今迄せまい所で我慢した事を考えれば、どうやら広い会場が出来、二階建で高所にどんとかまえる様になったというだけのものでございます。<br><br>「メシヤ会館」等と新聞社がききかじって勝手に名をつけた様なわけでこちらは冷汗が出る様でございます。<br><br>資金の関係等で中の家具も整わず、外まわりも未完成で、これから奉仕でボツボツという調子でございますから中々にはかどりません。<br><br>遅れていて申訳ないと思うことのみでございますが、止むを得ませんから、お許しいただける範囲でボツボツととのえさせていただきます。<br><br> しかし、ともかく教会が出来た事は、何と申しましても世間の信用を増し、三保さんも「今は誰もメシヤ教の悪口を言うものはなくなった」と言っておられましたが、「一年間にあれだけの教会が出来た」というだけで世間の人を驚かしている事は事実で、この点だけでも大変な地盤となったという事が出来ると思います。<br><br>総て明主様の御守護と、御寛大なる御取計らいによります事で、心から有難く御礼申し上げます。<br><br> その後の布教状況を御報告申し上げます。<br><br>二月の落成式後、中旬にカフクと言うところで小人数ながら八名の英語の教修会をひらかせていただきました外、教会における教修は十九名でございました。<br><br> 三月に入りましては 二日――五日オアフ島ワイアルア三十二名（樋口） 二日――五日ハワイ島コナ二十六名（安食） 五日――七日ハワイ島カウ八名（安食） 日曜教修（本部）未終了 約三十名の予態 二十二日――二十六日（五晩）本部英語教修、未終了約四十名の予定 今明晩で英語教修が終りますが、外人が十名位入信すると思います。<br><br>きいている人は毎夜、六、七十名で実に熱心で張合がありますよく質問も出ますので、大抵十一時近くになります。<br><br>前にきいて入信している人も来ておられ、再び熱心にきいております。<br><br>この前に入信した砂糖会社の技師、（栄光に牧師とありましたが誤り）ミスター・アカナと言うハワイ系支那人が夫人及び多数の友人（すべてキリスト教教会員）を導いて来ておられます。<br><br>又面白い事は、その人の父でコナの組合教会の牧師が二晩ききに来られ、最初の夜、私の所へ来て手を握り「実によい話を有難う。<br><br>明主様はきっとイエス・キリストの再来に違いないと思う」と言われました。<br><br>私は「ともかく明主様はこの御力によって必ず世界人類をお救いになるのであって、これはキリスト教の予言の成就であります」と申しましたところ「本当にそうに違いない私も明主様にお目にかかりたい」と申しておられました。<br><br>それで御本人は入信しないのですが、息子さんの浄霊活動を許し、又教会員の入信を許されますので、この点はまことに喜ばしい事と思っています。<br><br>この息子さんの方は中々しっかりしていてよい人のように見受けられ、将来が期待出来るのではないかと思われます。<br><br>又この前御報告しましたバスター夫妻も熱心にきいておられます。<br><br>夫人の方は今度が三度目でございます。<br><br>主人は軍の仕事で多分八月頃日本、朝鮮へ行く予定で、その時、明主様にお目にかかり、地上天国を見ると張切っておられます。<br><br>色々宗教的の本を読んでいる人の様ですが、「世界に出る聖人の内、八人目の聖人が世界を救うという予言があるが、数えてみると明主様がその八人目に当られる」と言い、又「東方より光が出るということを読んでいる」とも言われて、相当に熱心の様子でございます。<br><br>夫人は教養もあり愉快な人ですが、夫君の留守中米本土へかえる予定で、カリフォルニヤのロスアンジェルスから南方何十哩（マイル）かの町に住む事になる由で、そこで是非浄霊により人助けをしたいと、今から御神体のこと等心配しておられます。<br><br>その時は御神体、御写真のおまつりをお許しいただきたく存じます。<br><br> 四月は 二日――四日 カワイ島リフェ（首都）で大体二世だけの教修会がこの地では初めて開かれます。<br><br>予定二十名位。<br><br> 十二日頃 米本土へ渡ります。<br><br>約一カ月半の予定。<br><br> 留守中、安食さんによりエワ・ワヒアワの教修、及び本部の教修が予定されております。<br><br> 左の記事は昭和二十九年三月二十二日付 布哇報知新聞に掲載された記事であります。<br><br> 世界メシヤ教布哇教会の充実 世界メシヤ教布哇教会は別項広告通り、去る三月十四日（日）午後一時より本年度定期総会を開き、役員並に理事を選任した。<br><br> 同教会が県政府より法人組織の認可を得たのは、昨年の八月十四日であった。<br><br>爾来、布教の軌道に乗り、またたく間に驚異的多数信者を獲て、世間をアッといわせたことは既報の通りである。<br><br>現在の新築メシヤ会館落成後も、内外人間に広く勢力を扶殖し、信者がくびすを接して教えを乞いに来るのが現状である。<br><br>同教会教師樋口女史も文字通りノー・タイム・ツー・レスト、ひたむきに地上天国建設に邁進している。<br><br>今回、定期総会が開催され、役員並に理事が選任されたことは、同教会がますます陣容を整え本格的に布教に乗出したことを意味するものではあるまいか。<br><br>短日月にして謙譲のうちによく一歩一歩足場を固めメシヤ教の教義を説き、見る者、聞く者になる程そうかとうなずかせるところはえらい。<br><br>それにしても同教会の盛況にシャク然とせず、否しようとしない懐疑的インテリ族をシリ目にかけて一段々々成功のハシゴを登り天晴れ新興宗教のため万丈の気焔を吐いている事実には人共に一驚を喫すると同時に心からなる敬意を表したくなるのが人間自然の情ではなかろうか。<br><br> 世界メシヤ教布哇教会の 第一回定期総会並に役員改選 バンクーバー・ドライブ一、八三五 世界メシヤ教布哇教会 布哇メシヤ教では去る三月十四日（日）午後一時より最近新築したマノア高台の教会階下大ホールにおいて本年度定期総会を開催、西口友一会長の司会により開会、樋口喜代子教師の挨拶あり、桑名友光氏の庶務報告、後藤重晴氏の会計報告があり、一同承認、それより本年度の役員改選に移り左の如く決定した。<br><br> 役 員 △顧 問 樋口喜代子教師 安食 晴彦助教師 △名誉会長 面本 民江 △相談役 西口 友一 沖田記余一 原田理九郎 岡村 健治 △会 長 岡田 盛武 △第一副会長 坂井千恵登 △第二副会長 川崎 良一 △書記（英文）桑名 友光 △書記（日文）青山 武城 △会 計 後藤 重雄 △副会計 伊原 清 △監 査 福島 峰信 佐々木政真 河原 茂男 紙田 進 村上 俉三 古関久仁於 △理 事 綾川 新一 藤川 知義 浜田 敏郎 此嘉 松英 五十嵐末治 石井 正実 石川 千一 城 春吾 簡野富次郎 栗崎 豊一 西岩 政雄 西崎 嘉晃 岡田 角治 岡田 義人 大下 腎雄 末田 雅也 渋谷幸次郎 高橋 利郎 竹中 正次 東郷シズエ 塚本ハツエ 塚本 清巳 上杉 改造
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Relatório da Difusão no Havaí</h2>
 <p>Em meio à infinita Proteção Divina de Meishu-Sama, temos o privilégio de servir sem percalços, pelo que expressamos nossa mais profunda e sincera gratidão.</p>
@@ -130,5 +282,48 @@ Tesoureiro: Shigeo Goto
 Vice-Tesoureiro: Kiyoshi Ihara
 Auditores: Minenobu Fukushima, Masazane Sasaki, Shigeo Kawahara, Susumu Kamita, Gozo Murakami, Kunio Koseki
 Conselho de Diretores: Shinichi Ayakawa, Tomoyoshi Fujikawa, Toshiro Hamada, Matsuhide Koga, Sueji Igarashi, Masami Ishii, Senichi Ishikawa, Shungo Jo, Tomijiro Kanno, Toyoichi Kurisaki, Masao Nishiiwa, Yoshiaki Nishizaki, Kakuji Okada, Yoshito Okada, Yoshio Oshita, Masaya Sueda, Kojiro Shibuya, Toshiro Takahashi, Shoji Takenaka, Shizue Togo, Hatsue Tsukamoto, Kiyomi Tsukamoto, Kaizo Uesugi</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ハワイ通信 （18） 樋口喜代子 『栄光』257号、昭和29(1954)年4月21日発行 明主様の限りなき御守護の中に、至らぬ私共もつつがなく御用をさせていただいております事、誠に有難く厚く厚く御礼申し上げます。<br/><br/> 先日は二月二十七日及び三月七日の御面会の折の御教えをテープに録音御送りいただき種々御配慮いただきまして、誠に有難うございました。<br/><br/>厚く御礼申し上げます。<br/><br/>久しぶりで御声を拝聴させていただく事が出来、有難さに胸せまる思いがいたしました。<br/><br/>この度はこの前のゼラルミンのレコードとちがい御声も殆んどそのままにおうかがい出来ます。<br/><br/>特に三月七日の分がよく入っております。<br/><br/>先日出張折の人々とおうかがいさせていただき、安食さんはレコードを通しての御言霊の御光により御浄化をいただき、頭をとかしていただいて一層感激いたしております。<br/><br/>よろしく御礼を申し上げていただきたく御願い申し上げます。<br/><br/> ハワイ教会の建物に関しましては、新聞が馬鹿に大げさに書きましたので、まるで本当の地上天国の様にひびきますが、金額こそ相当にかかっておりますが、（この国は労働貸金が米本土よりも高価の為）それ程大した建物ではありません今迄せまい所で我慢した事を考えれば、どうやら広い会場が出来、二階建で高所にどんとかまえる様になったというだけのものでございます。<br/><br/>「メシヤ会館」等と新聞社がききかじって勝手に名をつけた様なわけでこちらは冷汗が出る様でございます。<br/><br/>資金の関係等で中の家具も整わず、外まわりも未完成で、これから奉仕でボツボツという調子でございますから中々にはかどりません。<br/><br/>遅れていて申訳ないと思うことのみでございますが、止むを得ませんから、お許しいただける範囲でボツボツととのえさせていただきます。<br/><br/> しかし、ともかく教会が出来た事は、何と申しましても世間の信用を増し、三保さんも「今は誰もメシヤ教の悪口を言うものはなくなった」と言っておられましたが、「一年間にあれだけの教会が出来た」というだけで世間の人を驚かしている事は事実で、この点だけでも大変な地盤となったという事が出来ると思います。<br/><br/>総て明主様の御守護と、御寛大なる御取計らいによります事で、心から有難く御礼申し上げます。<br/><br/> その後の布教状況を御報告申し上げます。<br/><br/>二月の落成式後、中旬にカフクと言うところで小人数ながら八名の英語の教修会をひらかせていただきました外、教会における教修は十九名でございました。<br/><br/> 三月に入りましては 二日――五日オアフ島ワイアルア三十二名（樋口） 二日――五日ハワイ島コナ二十六名（安食） 五日――七日ハワイ島カウ八名（安食） 日曜教修（本部）未終了 約三十名の予態 二十二日――二十六日（五晩）本部英語教修、未終了約四十名の予定 今明晩で英語教修が終りますが、外人が十名位入信すると思います。<br/><br/>きいている人は毎夜、六、七十名で実に熱心で張合がありますよく質問も出ますので、大抵十一時近くになります。<br/><br/>前にきいて入信している人も来ておられ、再び熱心にきいております。<br/><br/>この前に入信した砂糖会社の技師、（栄光に牧師とありましたが誤り）ミスター・アカナと言うハワイ系支那人が夫人及び多数の友人（すべてキリスト教教会員）を導いて来ておられます。<br/><br/>又面白い事は、その人の父でコナの組合教会の牧師が二晩ききに来られ、最初の夜、私の所へ来て手を握り「実によい話を有難う。<br/><br/>明主様はきっとイエス・キリストの再来に違いないと思う」と言われました。<br/><br/>私は「ともかく明主様はこの御力によって必ず世界人類をお救いになるのであって、これはキリスト教の予言の成就であります」と申しましたところ「本当にそうに違いない私も明主様にお目にかかりたい」と申しておられました。<br/><br/>それで御本人は入信しないのですが、息子さんの浄霊活動を許し、又教会員の入信を許されますので、この点はまことに喜ばしい事と思っています。<br/><br/>この息子さんの方は中々しっかりしていてよい人のように見受けられ、将来が期待出来るのではないかと思われます。<br/><br/>又この前御報告しましたバスター夫妻も熱心にきいておられます。<br/><br/>夫人の方は今度が三度目でございます。<br/><br/>主人は軍の仕事で多分八月頃日本、朝鮮へ行く予定で、その時、明主様にお目にかかり、地上天国を見ると張切っておられます。<br/><br/>色々宗教的の本を読んでいる人の様ですが、「世界に出る聖人の内、八人目の聖人が世界を救うという予言があるが、数えてみると明主様がその八人目に当られる」と言い、又「東方より光が出るということを読んでいる」とも言われて、相当に熱心の様子でございます。<br/><br/>夫人は教養もあり愉快な人ですが、夫君の留守中米本土へかえる予定で、カリフォルニヤのロスアンジェルスから南方何十哩（マイル）かの町に住む事になる由で、そこで是非浄霊により人助けをしたいと、今から御神体のこと等心配しておられます。<br/><br/>その時は御神体、御写真のおまつりをお許しいただきたく存じます。<br/><br/> 四月は 二日――四日 カワイ島リフェ（首都）で大体二世だけの教修会がこの地では初めて開かれます。<br/><br/>予定二十名位。<br/><br/> 十二日頃 米本土へ渡ります。<br/><br/>約一カ月半の予定。<br/><br/> 留守中、安食さんによりエワ・ワヒアワの教修、及び本部の教修が予定されております。<br/><br/> 左の記事は昭和二十九年三月二十二日付 布哇報知新聞に掲載された記事であります。<br/><br/> 世界メシヤ教布哇教会の充実 世界メシヤ教布哇教会は別項広告通り、去る三月十四日（日）午後一時より本年度定期総会を開き、役員並に理事を選任した。<br/><br/> 同教会が県政府より法人組織の認可を得たのは、昨年の八月十四日であった。<br/><br/>爾来、布教の軌道に乗り、またたく間に驚異的多数信者を獲て、世間をアッといわせたことは既報の通りである。<br/><br/>現在の新築メシヤ会館落成後も、内外人間に広く勢力を扶殖し、信者がくびすを接して教えを乞いに来るのが現状である。<br/><br/>同教会教師樋口女史も文字通りノー・タイム・ツー・レスト、ひたむきに地上天国建設に邁進している。<br/><br/>今回、定期総会が開催され、役員並に理事が選任されたことは、同教会がますます陣容を整え本格的に布教に乗出したことを意味するものではあるまいか。<br/><br/>短日月にして謙譲のうちによく一歩一歩足場を固めメシヤ教の教義を説き、見る者、聞く者になる程そうかとうなずかせるところはえらい。<br/><br/>それにしても同教会の盛況にシャク然とせず、否しようとしない懐疑的インテリ族をシリ目にかけて一段々々成功のハシゴを登り天晴れ新興宗教のため万丈の気焔を吐いている事実には人共に一驚を喫すると同時に心からなる敬意を表したくなるのが人間自然の情ではなかろうか。<br/><br/> 世界メシヤ教布哇教会の 第一回定期総会並に役員改選 バンクーバー・ドライブ一、八三五 世界メシヤ教布哇教会 布哇メシヤ教では去る三月十四日（日）午後一時より最近新築したマノア高台の教会階下大ホールにおいて本年度定期総会を開催、西口友一会長の司会により開会、樋口喜代子教師の挨拶あり、桑名友光氏の庶務報告、後藤重晴氏の会計報告があり、一同承認、それより本年度の役員改選に移り左の如く決定した。<br/><br/> 役 員 △顧 問 樋口喜代子教師 安食 晴彦助教師 △名誉会長 面本 民江 △相談役 西口 友一 沖田記余一 原田理九郎 岡村 健治 △会 長 岡田 盛武 △第一副会長 坂井千恵登 △第二副会長 川崎 良一 △書記（英文）桑名 友光 △書記（日文）青山 武城 △会 計 後藤 重雄 △副会計 伊原 清 △監 査 福島 峰信 佐々木政真 河原 茂男 紙田 進 村上 俉三 古関久仁於 △理 事 綾川 新一 藤川 知義 浜田 敏郎 此嘉 松英 五十嵐末治 石井 正実 石川 千一 城 春吾 簡野富次郎 栗崎 豊一 西岩 政雄 西崎 嘉晃 岡田 角治 岡田 義人 大下 腎雄 末田 雅也 渋谷幸次郎 高橋 利郎 竹中 正次 東郷シズエ 塚本ハツエ 塚本 清巳 上杉 改造</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

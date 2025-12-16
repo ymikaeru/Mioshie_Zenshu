@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>M230728</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S23年7月28日） 『御光話録（補）』発行年月日不明、推定昭和26年頃。<br><br> 昭和二十三年七月二十八日（水） ――一人の患者を一度に大勢で御浄めする人がありますがこれはいかがでしょうか。<br><br> 一度に大勢ですることは差し支えない。<br><br>が、患者がそうとう重病の場合は効果がない。<br><br>ただ体を浄めるだけの「御浄め」の場合はよろしい。<br><br>精神病なんかは大勢ではいけない。<br><br>原則は一人が一人をすることだが、場合によっては臨機応変にやってよろしい。<br><br> ――御浄めをいただく者が合掌いたしますことは…… 結構です。<br><br>敬虔な態度を表わすからいいです。<br><br>しかし最初だけ合掌すればよい。<br><br>あまり永くやってるとくたびれるから。<br><br> ――霊的な病人に祝詞とともに天数歌（あまのかずうた）を唱えることはいかがでしょうか。<br><br> やってもよろしい。<br><br>ふつうは祝詞だけでいいが、特に重病の場合とか精神病、癲癇などには唱えてもよい。<br><br>（天数歌――一二三四五六七八九十百千万（ひとふたみよいつむゆななやここのたりやももちよろず）） ――憑霊を知るための霊査法をすることは…… 自然にしていれば必要の場合は神様が知らせてくださる。<br><br>最初から判ったほうがいい場合もありまた悪い場合もある。<br><br>……それから狐などが浮いてきて騙そうとしたら騙されたほうがいい。<br><br>そのほうが狐は自分から暴露する。<br><br>かえって狐をあがめてやるくらいにしたほうがいいです。<br><br> ――ある家の子供、急に食事が食べられなくなり十日間水ばかり飲んでおりましたが、いろいろ訊ねましたら、神様を戸棚へ入れ汚れたものを上にのせていたためで、さっそくお詫びしましたところたちまち食欲が出て元気になりました。<br><br> 霊的な病人などはすっかり治ってから講習をいただいたほうがよろしいでしょうか。<br><br> ええ治ってからが本当です。<br><br>しかし神経衰弱などのごとき元気のない人は受けたほうがよい。<br><br> ――お道に入るのは結構なことだから入んなさいと言ってすすめることはいかがでしょうか。<br><br> 厳格にして道に入れようとするのはいけない。<br><br>門構えは小さくして入りやすいようにしてやるのがよろしい。<br><br>また講習のため教導所に坐っている日数はそのときに応じてすればよい。<br><br>最初からやかましいことを言ってはいけない。<br><br>……治ってから受講したほうがいいというのはね、もし万一のことがあると「あの人は講習まで受けたのに駄目だった」ということもあり、また治ってからのほうが本当にありがたいという気持ちになってからいただく、これが本当なんです。<br><br> 治りきる前でも患者が希望した場合は講習してよろしい。<br><br>事情により融通をきかせればよい。<br><br> ――河童というものはよく聞きますが、その霊は存在しているのでしょうか。<br><br> 河童の霊はあります。<br><br>あれは角力が好きでいくら投げられても立ち上がっては組みついてきます。<br><br>その代わりこっちでよく面倒みてやると向こうもなついていろいろ世話をしてくれます。<br><br> ――藁人形を釘で打って人を呪う方法がありますが実際効果がありましょうか。<br><br> ある程度効果があるが、お道に入っていればそんな怨みなんか来ません。<br><br> ――御指導を仰ぐ先生が代わられたとき御守りをいただき直すことは……？ 事情によっては御守りも代えてよい。<br><br>しかし今度出ているのは代えてはいけない。<br><br>以前のは治療として書いたが、今度のは宗教的に書いているから、前のはしまっておくか表装して額にしたらよい。<br><br> ――教導師が死亡した場合、御軸などをそのまま他の教導師がいただくことはいかがでしょうか。<br><br> 結構です。<br><br> ――回虫などの寄生虫と毒素との関係はいかがでしょうか。<br><br> 虫なんか湧くのは体内に毒素があるからで、虫はその毒素を食って生きているのです。<br><br>虫がいるからって心配はありませんよ、御浄めすれば早く出ます。<br><br> ――虫が体内の毒を食えばそれだけ毒は減ることと思われますが。<br><br> 回虫はしかし毒をそんなにたんとは食べないから駄目です。<br><br>ふつう回虫は二匹いる。<br><br>五匹も六匹もいると病気として扱うのです。<br><br>そしてその二匹はたいてい夫婦です。<br><br>だから一匹出ると必ずまた一匹出てくる。<br><br> ――夢と寝言と、眠っていて瞼を開いていることとの霊的関連について…… 瞼の開いているのは別に差し支えないです。<br><br>霊的……さあどうですか、別にないでしょう。<br><br>秀吉みたいに片方は開いて片方は閉じているのもありますからね。<br><br> ――素盞嗚尊に三代あると伺いましたが、それはなんと申し上げまたお働きはなんでございましょうか。<br><br> 初代は神（かむ）素盞嗚尊、二代が速（はや）素盞嗚尊、三代が建速（たけはや）素盞嗚尊で、これは私の解釈ですが、初代は朝鮮から渡って来て日本を統治……というよりまあ占領した。<br><br>それから大蛇を殺したのは二代目です。<br><br>これの奥さんが櫛名田姫ですが、初代の奥さんは乙姫です。<br><br>三代目は大国主命です。<br><br>この三代目が父子の関係になっているのです。<br><br>西洋へ行ったのは初代です。<br><br>そしてやはりその素盞嗚尊が大日〔阿弥陀〕如来になっています。<br><br>ですからそう古いことではない。<br><br>大六天の魔王はちょっと違う。<br><br>これは大自在天といってインドの神様です。<br><br>日蓮の御曼陀羅の中に大自在天は入ってますね。<br><br> ――若い女性の御弟子もだいぶお道に入らせていただいておりますが、一般に婚期がおくれがちのように見られます。<br><br>また映画などほとんど見ることのない人もありますが、少しはそのほうに時間を割いてもよろしいでしょうか。<br><br> 婚期のおくれること、これはしかたないですね。<br><br>というのは、そういう人には龍神が多いのです。<br><br>龍神が人間に再生した場合、一代の間は結婚しないほうがいいのです。<br><br>だから結婚の話があると病気になったり嫌になったりしてまとまらなくなるのです。<br><br>龍神というのは元はやはり執着の罪ですから、時日が経ってしまえば罪は消え許される。<br><br>そうしたら結婚したらよい。<br><br> 映画なんか見なくてもいい……どういう意味ですか。<br><br> ――お道に熱心なるあまり映画などに時間を割くのがもったいないという気持ちで見ない人が…… 私が見ているのだから許しますよ。<br><br>私が見ているのに人には許さないなんて不人情のことはしません。<br><br>やはりいいですよ。<br><br>もっとも近ごろのはエログロが多いが、まあそのくらいいいでしょう。<br><br> ――天の誓約（うけい）について御教えをお願いいたします。<br><br> 琵琶湖のそばに八洲（やす）という所があるが、その川原で約束したことと思う。<br><br>天照皇大神が日本を統治しておられたところへ素盞嗚尊が来て武力を振りまわして領土を迫るので、それじゃあというわけでそこから西を素盞嗚尊、東を天照皇大神が治められたが、しばらくすると素盞嗚尊がみんなくれといって脅迫したので、大神は信州へお逃げになったのです。<br><br>……国常立尊のことはずっと以前のことであり、また単に国常立尊と言っても新旧いろいろあり国武彦尊というのもある。<br><br>今度出す『神秘の扉』という本の中に書きます。<br><br> ――御誓約で八大龍王がお生まれになる経路や伊弉諾尊が禊（みそぎ）をされて神々がお生まれになったということはよく判りませんが…… 国生み、島生みというのは大洪水で……ノアの洪水のことでしょう。<br><br>……日本が水に浸されたとき「潮干（しおひ）の技（わざ）」をやって島や国がまた現われてきたということでしょう。<br><br>天瓊矛（あめのぬぼこ）でこんろこんろとかきまわしたと書いてあるが、そんな、こんなことをして国を作るなんて馬鹿なことはない。<br><br>誓約というのは他のことを寓意的に作ったことでしょう。<br><br> ――大化改新と壬申戦争との霊的関係について…… 日本のすべての戦争は神武系と大国主命系との奪い合いです。<br><br>天皇の系統は神武系で、別な面から言えば朝鮮系と支那系で天下の「取りっこ」をしていたわけです。<br><br> ――名前なんかでも判りましょうか。<br><br> 名前でもいろんなことが判る。<br><br>しかし私達には関係ない。<br><br>私達は征服されたほうだ……観音会に入る人は違いますよ。<br><br>だいたい大和民族です。<br><br>勿論ほかの系統もたくさん入っており、そういう口も大いに働いてます。<br><br>「法滅尽経」と「弥勒出現成就経」とは釈迦が最後に説いたものです。<br><br>現存しているでしょう。<br><br> ――墓相学について…… よく墓相学というが、これは一つの学問と言っては変なものだ。<br><br>が、ある程度は当たります。<br><br>自然石を墓石に使うのは悪いとされている。<br><br>それは悪いはずで、自然石は庭石などに使うものだから。<br><br>墓はやはり墓の形をすべきで、霊によっては自然石を嫌うのもあるのです。<br><br>仏も墓の形を気にするし、また霊が墓に来たとき墓石が法に合っていたほうがよい。<br><br> 生きているうちに墓石に戒名を彫っておくのはちょっと手まわしがよすぎますね。<br><br> 寄せ位牌をするのはうそです。<br><br>面識のある人の位牌は一体とし、面識のない人の分は先祖代々の中に入れてもよい。<br><br> 再婚したら先妻や先夫は適当に祀ったらいいでしょう。<br><br>あまりていねいにすると嫉妬されるから。<br><br> ――寺に金を納めて戒名の位階をもらうことはいかがでしょう。<br><br> 格を上げるのはいいですよ。<br><br>金で買ってもよい。<br><br>結局それだけ豊かな証拠だ。<br><br> ――氏神が稲荷の場合お詣りしてもよろしいでしょうか。<br><br> お詣りしてもよい。<br><br>氏神として守護してくれるのだから御礼を言ったらよい。<br><br> ――最高の神様を拝んでいるのだからそれは拝む必要ないと思われますが。<br><br> いやいやそんなことはない。<br><br>ふだん氏子の面倒をいろいろ見てくれてるのだから。<br><br> 氏神にお詣りしたとき祝詞を奏上することはよいが、最後のところは「産土大神守り給へ幸倍賜へ」と言えばよい。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Diretrizes sobre a Prática da Fé e o Mundo Espiritual</h2>
 <p>Ensinamento proferido em 28 de julho de 1948.</p>
@@ -144,5 +296,48 @@ function toggleLang(lang) {
 <p>Sim, pode-se prestar reverência. Devemos agradecer-lhe, pois ele atua como nosso protetor local.</p>
 <p><strong>Pergunta: Mas, se já cultuamos o Deus Supremo, não seria desnecessário cultuar outras divindades?</strong></p>
 <p>De modo algum. O deus guardião local cuida constantemente dos seus protegidos, e por isso merece nossa gratidão. Ao visitá-lo, pode-se entoar a Oração Amatsu, mas ao final, deve-se dizer: "Ubusuna-no-Ookami, mamori tamae, sakihae tamae".</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S23年7月28日） 『御光話録（補）』発行年月日不明、推定昭和26年頃。<br/><br/> 昭和二十三年七月二十八日（水） ――一人の患者を一度に大勢で御浄めする人がありますがこれはいかがでしょうか。<br/><br/> 一度に大勢ですることは差し支えない。<br/><br/>が、患者がそうとう重病の場合は効果がない。<br/><br/>ただ体を浄めるだけの「御浄め」の場合はよろしい。<br/><br/>精神病なんかは大勢ではいけない。<br/><br/>原則は一人が一人をすることだが、場合によっては臨機応変にやってよろしい。<br/><br/> ――御浄めをいただく者が合掌いたしますことは…… 結構です。<br/><br/>敬虔な態度を表わすからいいです。<br/><br/>しかし最初だけ合掌すればよい。<br/><br/>あまり永くやってるとくたびれるから。<br/><br/> ――霊的な病人に祝詞とともに天数歌（あまのかずうた）を唱えることはいかがでしょうか。<br/><br/> やってもよろしい。<br/><br/>ふつうは祝詞だけでいいが、特に重病の場合とか精神病、癲癇などには唱えてもよい。<br/><br/>（天数歌――一二三四五六七八九十百千万（ひとふたみよいつむゆななやここのたりやももちよろず）） ――憑霊を知るための霊査法をすることは…… 自然にしていれば必要の場合は神様が知らせてくださる。<br/><br/>最初から判ったほうがいい場合もありまた悪い場合もある。<br/><br/>……それから狐などが浮いてきて騙そうとしたら騙されたほうがいい。<br/><br/>そのほうが狐は自分から暴露する。<br/><br/>かえって狐をあがめてやるくらいにしたほうがいいです。<br/><br/> ――ある家の子供、急に食事が食べられなくなり十日間水ばかり飲んでおりましたが、いろいろ訊ねましたら、神様を戸棚へ入れ汚れたものを上にのせていたためで、さっそくお詫びしましたところたちまち食欲が出て元気になりました。<br/><br/> 霊的な病人などはすっかり治ってから講習をいただいたほうがよろしいでしょうか。<br/><br/> ええ治ってからが本当です。<br/><br/>しかし神経衰弱などのごとき元気のない人は受けたほうがよい。<br/><br/> ――お道に入るのは結構なことだから入んなさいと言ってすすめることはいかがでしょうか。<br/><br/> 厳格にして道に入れようとするのはいけない。<br/><br/>門構えは小さくして入りやすいようにしてやるのがよろしい。<br/><br/>また講習のため教導所に坐っている日数はそのときに応じてすればよい。<br/><br/>最初からやかましいことを言ってはいけない。<br/><br/>……治ってから受講したほうがいいというのはね、もし万一のことがあると「あの人は講習まで受けたのに駄目だった」ということもあり、また治ってからのほうが本当にありがたいという気持ちになってからいただく、これが本当なんです。<br/><br/> 治りきる前でも患者が希望した場合は講習してよろしい。<br/><br/>事情により融通をきかせればよい。<br/><br/> ――河童というものはよく聞きますが、その霊は存在しているのでしょうか。<br/><br/> 河童の霊はあります。<br/><br/>あれは角力が好きでいくら投げられても立ち上がっては組みついてきます。<br/><br/>その代わりこっちでよく面倒みてやると向こうもなついていろいろ世話をしてくれます。<br/><br/> ――藁人形を釘で打って人を呪う方法がありますが実際効果がありましょうか。<br/><br/> ある程度効果があるが、お道に入っていればそんな怨みなんか来ません。<br/><br/> ――御指導を仰ぐ先生が代わられたとき御守りをいただき直すことは……？ 事情によっては御守りも代えてよい。<br/><br/>しかし今度出ているのは代えてはいけない。<br/><br/>以前のは治療として書いたが、今度のは宗教的に書いているから、前のはしまっておくか表装して額にしたらよい。<br/><br/> ――教導師が死亡した場合、御軸などをそのまま他の教導師がいただくことはいかがでしょうか。<br/><br/> 結構です。<br/><br/> ――回虫などの寄生虫と毒素との関係はいかがでしょうか。<br/><br/> 虫なんか湧くのは体内に毒素があるからで、虫はその毒素を食って生きているのです。<br/><br/>虫がいるからって心配はありませんよ、御浄めすれば早く出ます。<br/><br/> ――虫が体内の毒を食えばそれだけ毒は減ることと思われますが。<br/><br/> 回虫はしかし毒をそんなにたんとは食べないから駄目です。<br/><br/>ふつう回虫は二匹いる。<br/><br/>五匹も六匹もいると病気として扱うのです。<br/><br/>そしてその二匹はたいてい夫婦です。<br/><br/>だから一匹出ると必ずまた一匹出てくる。<br/><br/> ――夢と寝言と、眠っていて瞼を開いていることとの霊的関連について…… 瞼の開いているのは別に差し支えないです。<br/><br/>霊的……さあどうですか、別にないでしょう。<br/><br/>秀吉みたいに片方は開いて片方は閉じているのもありますからね。<br/><br/> ――素盞嗚尊に三代あると伺いましたが、それはなんと申し上げまたお働きはなんでございましょうか。<br/><br/> 初代は神（かむ）素盞嗚尊、二代が速（はや）素盞嗚尊、三代が建速（たけはや）素盞嗚尊で、これは私の解釈ですが、初代は朝鮮から渡って来て日本を統治……というよりまあ占領した。<br/><br/>それから大蛇を殺したのは二代目です。<br/><br/>これの奥さんが櫛名田姫ですが、初代の奥さんは乙姫です。<br/><br/>三代目は大国主命です。<br/><br/>この三代目が父子の関係になっているのです。<br/><br/>西洋へ行ったのは初代です。<br/><br/>そしてやはりその素盞嗚尊が大日〔阿弥陀〕如来になっています。<br/><br/>ですからそう古いことではない。<br/><br/>大六天の魔王はちょっと違う。<br/><br/>これは大自在天といってインドの神様です。<br/><br/>日蓮の御曼陀羅の中に大自在天は入ってますね。<br/><br/> ――若い女性の御弟子もだいぶお道に入らせていただいておりますが、一般に婚期がおくれがちのように見られます。<br/><br/>また映画などほとんど見ることのない人もありますが、少しはそのほうに時間を割いてもよろしいでしょうか。<br/><br/> 婚期のおくれること、これはしかたないですね。<br/><br/>というのは、そういう人には龍神が多いのです。<br/><br/>龍神が人間に再生した場合、一代の間は結婚しないほうがいいのです。<br/><br/>だから結婚の話があると病気になったり嫌になったりしてまとまらなくなるのです。<br/><br/>龍神というのは元はやはり執着の罪ですから、時日が経ってしまえば罪は消え許される。<br/><br/>そうしたら結婚したらよい。<br/><br/> 映画なんか見なくてもいい……どういう意味ですか。<br/><br/> ――お道に熱心なるあまり映画などに時間を割くのがもったいないという気持ちで見ない人が…… 私が見ているのだから許しますよ。<br/><br/>私が見ているのに人には許さないなんて不人情のことはしません。<br/><br/>やはりいいですよ。<br/><br/>もっとも近ごろのはエログロが多いが、まあそのくらいいいでしょう。<br/><br/> ――天の誓約（うけい）について御教えをお願いいたします。<br/><br/> 琵琶湖のそばに八洲（やす）という所があるが、その川原で約束したことと思う。<br/><br/>天照皇大神が日本を統治しておられたところへ素盞嗚尊が来て武力を振りまわして領土を迫るので、それじゃあというわけでそこから西を素盞嗚尊、東を天照皇大神が治められたが、しばらくすると素盞嗚尊がみんなくれといって脅迫したので、大神は信州へお逃げになったのです。<br/><br/>……国常立尊のことはずっと以前のことであり、また単に国常立尊と言っても新旧いろいろあり国武彦尊というのもある。<br/><br/>今度出す『神秘の扉』という本の中に書きます。<br/><br/> ――御誓約で八大龍王がお生まれになる経路や伊弉諾尊が禊（みそぎ）をされて神々がお生まれになったということはよく判りませんが…… 国生み、島生みというのは大洪水で……ノアの洪水のことでしょう。<br/><br/>……日本が水に浸されたとき「潮干（しおひ）の技（わざ）」をやって島や国がまた現われてきたということでしょう。<br/><br/>天瓊矛（あめのぬぼこ）でこんろこんろとかきまわしたと書いてあるが、そんな、こんなことをして国を作るなんて馬鹿なことはない。<br/><br/>誓約というのは他のことを寓意的に作ったことでしょう。<br/><br/> ――大化改新と壬申戦争との霊的関係について…… 日本のすべての戦争は神武系と大国主命系との奪い合いです。<br/><br/>天皇の系統は神武系で、別な面から言えば朝鮮系と支那系で天下の「取りっこ」をしていたわけです。<br/><br/> ――名前なんかでも判りましょうか。<br/><br/> 名前でもいろんなことが判る。<br/><br/>しかし私達には関係ない。<br/><br/>私達は征服されたほうだ……観音会に入る人は違いますよ。<br/><br/>だいたい大和民族です。<br/><br/>勿論ほかの系統もたくさん入っており、そういう口も大いに働いてます。<br/><br/>「法滅尽経」と「弥勒出現成就経」とは釈迦が最後に説いたものです。<br/><br/>現存しているでしょう。<br/><br/> ――墓相学について…… よく墓相学というが、これは一つの学問と言っては変なものだ。<br/><br/>が、ある程度は当たります。<br/><br/>自然石を墓石に使うのは悪いとされている。<br/><br/>それは悪いはずで、自然石は庭石などに使うものだから。<br/><br/>墓はやはり墓の形をすべきで、霊によっては自然石を嫌うのもあるのです。<br/><br/>仏も墓の形を気にするし、また霊が墓に来たとき墓石が法に合っていたほうがよい。<br/><br/> 生きているうちに墓石に戒名を彫っておくのはちょっと手まわしがよすぎますね。<br/><br/> 寄せ位牌をするのはうそです。<br/><br/>面識のある人の位牌は一体とし、面識のない人の分は先祖代々の中に入れてもよい。<br/><br/> 再婚したら先妻や先夫は適当に祀ったらいいでしょう。<br/><br/>あまりていねいにすると嫉妬されるから。<br/><br/> ――寺に金を納めて戒名の位階をもらうことはいかがでしょう。<br/><br/> 格を上げるのはいいですよ。<br/><br/>金で買ってもよい。<br/><br/>結局それだけ豊かな証拠だ。<br/><br/> ――氏神が稲荷の場合お詣りしてもよろしいでしょうか。<br/><br/> お詣りしてもよい。<br/><br/>氏神として守護してくれるのだから御礼を言ったらよい。<br/><br/> ――最高の神様を拝んでいるのだからそれは拝む必要ないと思われますが。<br/><br/> いやいやそんなことはない。<br/><br/>ふだん氏子の面倒をいろいろ見てくれてるのだから。<br/><br/> 氏神にお詣りしたとき祝詞を奏上することはよいが、最後のところは「産土大神守り給へ幸倍賜へ」と言えばよい。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

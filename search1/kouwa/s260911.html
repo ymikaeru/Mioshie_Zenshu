@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s260911</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年9月11日） 『御教え集』2号、昭和26(1951)年10月25日発行 昭和二十六年九月十一日 いよいよ講和になったけど――これは予期していたことですが、それで今度の記念にサンフランシスコで美術展をやりますが、あれは余り良いものじゃない。<br><br>いつかも話したが、今度は余り良いものを出さなかった。<br><br>来年アメリカのニューヨーク、ボストン、ワシントンそれからロンドン、パリですね。<br><br>そこで日本の本当に良いものを集めて展覧会をすると言う計画で、する事になったのですが、とにかく近代、美術的に――美術思想が段々盛んになりつつあるようだが、非常に喜ぶべき現象です。<br><br>日本でも大分美術的に――色んな催しとか、美術館とか――大分方々に盛んになってきたですね。<br><br>まあ、結構ですが、一方はそういうような平和文化的の事が大分盛んになってきたが、又一方では、米国もソ連も色んな進歩した武器を造って大戦争の準備を着々としてやっている。<br><br>実に極端から極端になる。<br><br>そんなやり方なんで、ちょっと訳が分からないような、又気味が悪いような、面白いような、変な状態ですね。<br><br>それで、平和文化の方が段々進んでいけば非常に結構ですが、一方では大破壊の準備をし着々として進んでいる。<br><br>ちょうど、創造と破壊ですね。<br><br>これが一緒に来る。<br><br>先からは私が言うが――大本教のお筆先にあります。<br><br>「いずれは立替と建て直しが一緒に来るから」と、そう言うような事を言っている。<br><br>それも神様の預言です。<br><br>要するに創造と破壊で、今の世界の状態がそうです。<br><br>それで平和の方だけが進んで行くかと言うと、そうではなく、一方で破壊の準備をしているんですから、どうしても第三次戦争が起こらなければおっつかない。<br><br>と、そう見られる。<br><br>だからそう言う戦争もあると見なければならないが、そうかと言って、その他に段々浄化が強くなりますから、色んな事があるんです。<br><br>それはこれから段々出てきますが、その目で見れば別に何でもないはずです。<br><br> 一昨日、大本教の三代教主――女ですが、これは現在大本教は愛善苑と言ってやっているが、古い大本教信者も相当残ってますから、その人達が――新しい人も幾らか入っているでしょうけれど――とにかくやっている。<br><br>三代様と言うのは、教祖の出口直というお婆さんの長女が出口スミと言うが、この方が出口王仁三郎先生の奥さんですね。<br><br>その娘さん、やはり長女で、その方が三代様です。<br><br>一昨日ここに来た。<br><br>前からの約束で――春からの約束で――来られた。<br><br>庭もすっかり案内して、二時間くらい色々お話したが、これは立派な方です。<br><br>それで、いずれあそこも私の方でちゃんと色々世話を焼いてやる様になってますからね。<br><br>そんな事言うと、先で誤解するといけないから言いませんが、立派なものをこっちで拵えてやるんです。<br><br>綾部にね。<br><br>それで、あっちに、こっちとは違った、一つの――あっちの経綸の中心が出来るんです。<br><br>これは以前からちゃんと定まっている事で、ただ時期だけの問題ですね。<br><br>そんなような訳で、あの辺も綾部を中心とした所が大変変わる。<br><br>お筆先にもありますがね。<br><br>お筆先によりますと「十里四方は宮の内、綾部は真中にあり」というのがありますがね。<br><br> 伊勢の大神官さんは、伊勢の山田にありますが、その前は丹波の亀岡で、その前は綾部です。<br><br>天照大神様が祀られた中心です。<br><br>その前が丹後穴太（あなお）神社ですね。<br><br>幾度も移ったんです。<br><br>私の書いた「日本人の霊的考察」の中で、天照大神様が信州の水上山に逃げられ、戸隠山に籠（こも）られたと書いてあるが、水上温泉と言うのがありますが、あそこに、私の方で鉱山を買ってやり始めておりますが、やはりそう言った因縁があるんです。<br><br>で、水上山にも立派なお宮が出来るでしょう。<br><br>そんな訳で。<br><br>これから神様のことは段々進展の兆しが見える。<br><br> それからもう一つお話したいのは、今度大草さんと松井と言う人と鈴木正吾という元代議士ですが――これは皆良く知っているでしょう――この三人の人が東北の方に講演旅行ですかね、それをやったが、一番最初にやった所は青森県の一番隅で大畑町ですね。<br><br>これは日本で言えば一番北端でしょうね。<br><br>そこを最初にやったんですがね。<br><br>非常に盛んだったそうです。<br><br>小さい街でしょうが、千人から来たそうです。<br><br> で、今度神様は本格的に開かれ始めたんですね。<br><br>いつも言う通り、東と北が霊ですからね。<br><br>それで、そこから南と西に向かって行けば必ず成功すると、いつも言ってますが、そう言う意味です。<br><br>そこで私は東から西に来たんです。<br><br>これもいつか書いてある。<br><br>日本の東は東京で、東京の東が浅草で、浅草の東が橋場と言う所です。<br><br>そこで私は生まれて、それから段々西に来たんです。<br><br>そして、西に来るに従って私の仕事が大きくなったんですね。<br><br>社会的にも知られるようになった。<br><br>そこで、メシヤ教が本当に開くにも、東北の端からが本当なんです。<br><br>それで、神様が腕を振るわれると言いますか、それが国常立尊と言う神様で、これは丑寅（うしとら）の金神で、その神様がこれから腕を振るわれる。<br><br>そうすると、やっぱり、丑寅の一番端からと言う事になる。<br><br>それから段々西の方へ西の方へと行く。<br><br>講演行脚もするし――そういう順序で開いていく。<br><br>それが本当の開き方です。<br><br>今までは基礎的のものですね。<br><br> 去年の事件で整理して、今度は本当の順序でやるんです。<br><br>神様のやり方は何とも言えないですね。<br><br>そんな青森県の端の方で――私は聞いた事もないからね。<br><br>そこに案外信者が熱心で、実に驚きですね。<br><br>今までの信仰は全部西から出ている。<br><br>東から出ているのは日蓮宗とメシヤ教だけです。<br><br> 今、文明の創造の医学の方は大体終わったんで、宗教の方を書いている。<br><br>つまり、医学篇、宗教篇、天国篇となる。<br><br>一番最後の天国篇と言うのが一番面白い。<br><br>これはミロクの世の状態ですからね。<br><br>今は宗教篇ですが、仲々変わった、余り今までに説かない事ばかり書いてあるから面白いと思いますが、最初は宗教的に病気と霊ですね。<br><br>霊に関した事です。<br><br>それから既成宗教を説き、それから、極く神秘な点に入ろうと思っている。<br><br>それで、既成宗教ですが、大体仏教の事を書いてある。<br><br> それから、これからは自然農法と言う様に、医学の方も宗教医学としますからね。<br><br>今の医学は唯物医学で、こっちは宗教医学と分けて言うようにしようと思います。<br><br>現代医学は唯物的に治すから唯物医学で、こっちは宗教的に治すから宗教医学です。<br><br>その方が分かりがよいですね。<br><br> （御論文「 唯物医学と宗教医学 」のあとの御教え） こんな具合に宗教を説く積もりですが、そうすると、はっきり分かりますからね。<br><br>それでなくては、人を救うことは出来ない。<br><br>これは「見真実」で見ると、こういう事になるが、大体人間がほとんど「見真実」になる。<br><br>そうすると、それが五六七の世になる。<br><br>と言うのは、つまり今まではピラミッドみたいなものだったが、「見真実」は一番上なんです。<br><br>ところが、人間が下に居たら分からなかったが、段々魂が上がってこの辺（ピラミッドの頂上付近）まで上がる。<br><br>そうすると、悪い事したりするのはつまらないと言う事が根本的に分かるんです
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Dualidade da Era de Transição</h2>
 <p>Finalmente, o tratado de paz foi assinado, um acontecimento há muito esperado. A propósito, uma exposição de arte japonesa será realizada em São Francisco para celebrar a ocasião, mas as obras expostas não são de grande qualidade. Conforme mencionei anteriormente, optamos por não enviar nossas melhores peças desta vez. Existe, contudo, um plano para o próximo ano de se organizar uma grandiosa exposição com o que há de mais sublime na arte japonesa, a ser exibida em Nova Iorque, Boston, Washington e, posteriormente, em Londres e Paris.</p>
@@ -106,5 +258,48 @@ function toggleLang(lang) {
 <p>Doravante, assim como temos a Agricultura da Natureza, passaremos a nos referir à nossa medicina como Medicina Religiosa. A medicina convencional, por tratar o ser humano de uma perspectiva materialista, pode ser chamada de Medicina Materialista. A nossa, por sua vez, cura por vias religiosas, sendo, portanto, uma Medicina Religiosa. Creio que essa distinção tornará tudo mais fácil de compreender.</p>
 <p>É desta forma que pretendo expor a religião, pois, assim, tudo se torna perfeitamente claro. Sem essa clareza, é impossível salvar as pessoas. Quando se atinge o Kenshinjitsu (見真実), a capacidade de ver a verdade, compreende-se a realidade tal como ela é. Chegará o dia em que a maior parte da humanidade atingirá esse estado, e esse será o Mundo de Miroku.</p>
 <p>Até hoje, a humanidade esteve estruturada como uma pirâmide, e o estado de Kenshinjitsu (見真実) corresponde ao seu ápice. Enquanto os seres humanos permaneciam na base, nada compreendiam. Contudo, à medida que suas almas se elevam e se aproximam do topo, eles passam a compreender em sua essência que praticar o mal é algo totalmente despropositado.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年9月11日） 『御教え集』2号、昭和26(1951)年10月25日発行 昭和二十六年九月十一日 いよいよ講和になったけど――これは予期していたことですが、それで今度の記念にサンフランシスコで美術展をやりますが、あれは余り良いものじゃない。<br/><br/>いつかも話したが、今度は余り良いものを出さなかった。<br/><br/>来年アメリカのニューヨーク、ボストン、ワシントンそれからロンドン、パリですね。<br/><br/>そこで日本の本当に良いものを集めて展覧会をすると言う計画で、する事になったのですが、とにかく近代、美術的に――美術思想が段々盛んになりつつあるようだが、非常に喜ぶべき現象です。<br/><br/>日本でも大分美術的に――色んな催しとか、美術館とか――大分方々に盛んになってきたですね。<br/><br/>まあ、結構ですが、一方はそういうような平和文化的の事が大分盛んになってきたが、又一方では、米国もソ連も色んな進歩した武器を造って大戦争の準備を着々としてやっている。<br/><br/>実に極端から極端になる。<br/><br/>そんなやり方なんで、ちょっと訳が分からないような、又気味が悪いような、面白いような、変な状態ですね。<br/><br/>それで、平和文化の方が段々進んでいけば非常に結構ですが、一方では大破壊の準備をし着々として進んでいる。<br/><br/>ちょうど、創造と破壊ですね。<br/><br/>これが一緒に来る。<br/><br/>先からは私が言うが――大本教のお筆先にあります。<br/><br/>「いずれは立替と建て直しが一緒に来るから」と、そう言うような事を言っている。<br/><br/>それも神様の預言です。<br/><br/>要するに創造と破壊で、今の世界の状態がそうです。<br/><br/>それで平和の方だけが進んで行くかと言うと、そうではなく、一方で破壊の準備をしているんですから、どうしても第三次戦争が起こらなければおっつかない。<br/><br/>と、そう見られる。<br/><br/>だからそう言う戦争もあると見なければならないが、そうかと言って、その他に段々浄化が強くなりますから、色んな事があるんです。<br/><br/>それはこれから段々出てきますが、その目で見れば別に何でもないはずです。<br/><br/> 一昨日、大本教の三代教主――女ですが、これは現在大本教は愛善苑と言ってやっているが、古い大本教信者も相当残ってますから、その人達が――新しい人も幾らか入っているでしょうけれど――とにかくやっている。<br/><br/>三代様と言うのは、教祖の出口直というお婆さんの長女が出口スミと言うが、この方が出口王仁三郎先生の奥さんですね。<br/><br/>その娘さん、やはり長女で、その方が三代様です。<br/><br/>一昨日ここに来た。<br/><br/>前からの約束で――春からの約束で――来られた。<br/><br/>庭もすっかり案内して、二時間くらい色々お話したが、これは立派な方です。<br/><br/>それで、いずれあそこも私の方でちゃんと色々世話を焼いてやる様になってますからね。<br/><br/>そんな事言うと、先で誤解するといけないから言いませんが、立派なものをこっちで拵えてやるんです。<br/><br/>綾部にね。<br/><br/>それで、あっちに、こっちとは違った、一つの――あっちの経綸の中心が出来るんです。<br/><br/>これは以前からちゃんと定まっている事で、ただ時期だけの問題ですね。<br/><br/>そんなような訳で、あの辺も綾部を中心とした所が大変変わる。<br/><br/>お筆先にもありますがね。<br/><br/>お筆先によりますと「十里四方は宮の内、綾部は真中にあり」というのがありますがね。<br/><br/> 伊勢の大神官さんは、伊勢の山田にありますが、その前は丹波の亀岡で、その前は綾部です。<br/><br/>天照大神様が祀られた中心です。<br/><br/>その前が丹後穴太（あなお）神社ですね。<br/><br/>幾度も移ったんです。<br/><br/>私の書いた「日本人の霊的考察」の中で、天照大神様が信州の水上山に逃げられ、戸隠山に籠（こも）られたと書いてあるが、水上温泉と言うのがありますが、あそこに、私の方で鉱山を買ってやり始めておりますが、やはりそう言った因縁があるんです。<br/><br/>で、水上山にも立派なお宮が出来るでしょう。<br/><br/>そんな訳で。<br/><br/>これから神様のことは段々進展の兆しが見える。<br/><br/> それからもう一つお話したいのは、今度大草さんと松井と言う人と鈴木正吾という元代議士ですが――これは皆良く知っているでしょう――この三人の人が東北の方に講演旅行ですかね、それをやったが、一番最初にやった所は青森県の一番隅で大畑町ですね。<br/><br/>これは日本で言えば一番北端でしょうね。<br/><br/>そこを最初にやったんですがね。<br/><br/>非常に盛んだったそうです。<br/><br/>小さい街でしょうが、千人から来たそうです。<br/><br/> で、今度神様は本格的に開かれ始めたんですね。<br/><br/>いつも言う通り、東と北が霊ですからね。<br/><br/>それで、そこから南と西に向かって行けば必ず成功すると、いつも言ってますが、そう言う意味です。<br/><br/>そこで私は東から西に来たんです。<br/><br/>これもいつか書いてある。<br/><br/>日本の東は東京で、東京の東が浅草で、浅草の東が橋場と言う所です。<br/><br/>そこで私は生まれて、それから段々西に来たんです。<br/><br/>そして、西に来るに従って私の仕事が大きくなったんですね。<br/><br/>社会的にも知られるようになった。<br/><br/>そこで、メシヤ教が本当に開くにも、東北の端からが本当なんです。<br/><br/>それで、神様が腕を振るわれると言いますか、それが国常立尊と言う神様で、これは丑寅（うしとら）の金神で、その神様がこれから腕を振るわれる。<br/><br/>そうすると、やっぱり、丑寅の一番端からと言う事になる。<br/><br/>それから段々西の方へ西の方へと行く。<br/><br/>講演行脚もするし――そういう順序で開いていく。<br/><br/>それが本当の開き方です。<br/><br/>今までは基礎的のものですね。<br/><br/> 去年の事件で整理して、今度は本当の順序でやるんです。<br/><br/>神様のやり方は何とも言えないですね。<br/><br/>そんな青森県の端の方で――私は聞いた事もないからね。<br/><br/>そこに案外信者が熱心で、実に驚きですね。<br/><br/>今までの信仰は全部西から出ている。<br/><br/>東から出ているのは日蓮宗とメシヤ教だけです。<br/><br/> 今、文明の創造の医学の方は大体終わったんで、宗教の方を書いている。<br/><br/>つまり、医学篇、宗教篇、天国篇となる。<br/><br/>一番最後の天国篇と言うのが一番面白い。<br/><br/>これはミロクの世の状態ですからね。<br/><br/>今は宗教篇ですが、仲々変わった、余り今までに説かない事ばかり書いてあるから面白いと思いますが、最初は宗教的に病気と霊ですね。<br/><br/>霊に関した事です。<br/><br/>それから既成宗教を説き、それから、極く神秘な点に入ろうと思っている。<br/><br/>それで、既成宗教ですが、大体仏教の事を書いてある。<br/><br/> それから、これからは自然農法と言う様に、医学の方も宗教医学としますからね。<br/><br/>今の医学は唯物医学で、こっちは宗教医学と分けて言うようにしようと思います。<br/><br/>現代医学は唯物的に治すから唯物医学で、こっちは宗教的に治すから宗教医学です。<br/><br/>その方が分かりがよいですね。<br/><br/> （御論文「 唯物医学と宗教医学 」のあとの御教え） こんな具合に宗教を説く積もりですが、そうすると、はっきり分かりますからね。<br/><br/>それでなくては、人を救うことは出来ない。<br/><br/>これは「見真実」で見ると、こういう事になるが、大体人間がほとんど「見真実」になる。<br/><br/>そうすると、それが五六七の世になる。<br/><br/>と言うのは、つまり今まではピラミッドみたいなものだったが、「見真実」は一番上なんです。<br/><br/>ところが、人間が下に居たら分からなかったが、段々魂が上がってこの辺（ピラミッドの頂上付近）まで上がる。<br/><br/>そうすると、悪い事したりするのはつまらないと言う事が根本的に分かるんです</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

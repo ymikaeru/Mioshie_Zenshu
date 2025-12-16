@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ereisoka</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： THE HIERARCHY OF THE SPIRITUAL WORLD Tidings of Great Joy from Heaven , February 5, 1947 (the 22nd year of Showa) The spiritual world has a hierarchical structure which consists of three major domains: heaven, hell and Yachimata (the intermediate domain between heaven and hell; "Yachimata" is a Shintoism term, meaning the place where roads branch off into eight or more directions). This is just what I have already described and I will now explain that this hierarchical structure is closely connected with human fate. And when the above three major domains are subdivided, one domain consists of sixty stages, so there are one hundred and eighteen stages in all. I call this the hierarchy of the spiritual world. Human beings are born into this world by God's orders. This truth is indicated by the fact that " 命 mei" of " 生命 seimei," which means life, is the same " 命 mei" as " 命 mei" of " 命令 meirei," which means order. Everyone asks, "Why was I born?" This is the universal question. Without solving this question, man can neither act rightly nor be at peace with the world; besides, he or she may possibly end up in living an empty, idle life to no purpose. Then, what is the purpose of God? It is to make this world an ideal one, that is to say, to build Heaven on Earth. However, as to its possible scale and scheme, it is not difficult to imagine how grand it will be; it will be beyond all words. This is because the civilization which is making progress without limitation; there is no ending. In this perspective, the world history up to now has been only a process of constructing the basic structure. And God gives each person his or her own mission, makes individuals have characteristics, and drives human beings toward the ideal end through a series of deaths and rebirths. Hence, we know that good and evil, peace and war, and destruction and creation; each of them is nothing more than a step which is necessary to evolution. What sort of time is it now in history? As I have explained somewhere in detail, it is the time of turning point from the Night to the Day, which I have insisted; it is the time when the whole world is about to make a big leap into the new age and flinging off clothes of their savageness, humankind is reaching to a stage of highly-cultivated people. This is the first time when wars, diseases and poverty will be over. Of course, the emergence of Johrei is a precursor and constitutes a core of it. As mentioned above, God gives orders to man all the time. I will explain the means by which He does this. Each person has a seed somewhere in the hierarchy of the spiritual world. I call this seed a departed soul. First God gives an order to each person's departed soul. And then, this departed soul send God's order to his or her corresponding soul present at the central part of the human spiritual body through the spiritual cord. However, it is extremely difficult for ordinary people to be able to intuit God's orders; it is possible for a person who has a spiritual body purified to some degree. That is because a large majority of people cannot perceive not only blocked by lots of their own spiritual clouds but also interrupted by evil deities who exploit those spiritual clouds. The evidence of this is that no matter who a person is, he or she cannot make things go as he or she wants them to be in spite of all his or her efforts and that fortune changes a course in an unexpected direction; a human being has a feeling to be controlled all the time by some unknown beings or follows his or her fortunes at the mercy of irresistible force. And departed souls in the hierarchy of the spiritual world have different missions and fortunes according to the stages where they belong. This means that the higher stage a person's departed soul belongs in, the greater and higher mission the person is ordered by God and the more fortunate he will be, while the lower the stage goes down, the less fortunate the person will be and a person whose departed soul belongs in the lowest stage will be the most hapless. For a higher stage correspond to Heaven, so it is a joyful world abundant in resources without any illness or conflicts, but, on the contrary, as a stage gets down lower and lower, it teems with more and more illness, conflicts, poverty and sufferings. In this way, if a human being will have true happiness, he or she has first to make his or her departed soul go up in the hierarchy of the spiritual world. Then what is the method for this? It is simply to purify his or her spiritual body. In essence, spiritual bodies go up or go down according to how much or how little they are clouded. In other words, purified souls go up because of the lightness, while clouded souls go down because of the gravity. Therefore, if you intend to have a more purified soul, you must keep on doing good deeds and cultivate virtue. You must spend much time and sacrifice on it. However, here is a method by which you can leap at once to a higher stage beyond several tens of stages up in the hierarchy of the spiritual world. This is to receive the lessons for our medical art: Johrei. Those who received the lesson for Johrei say with one voice that in terms of spirituality, first of all, their views of life have changed completely; they have become abundant in wisdom of spiritual awakening, so have been able to grasp the truth of things; they have recognized the light ahead of them and anxieties have been dispelled; they have become optimistic and had true feelings of security first time ever; and in terms of material, surprisingly, property has gathered around them and had nothing in want; less unhappiness and more happiness; it is amazing enough; they have been entirely delivered from distress, filled with gratitude. Day and night I receive such thankful messages innumerably through eye and ear. 霊層界 『天国の福音』昭和22(1947)年2月5日発行 霊界は、天国、八衢（やちまた）、地獄の三段階になっている事は既説の通りであるが、これが人間の運命と密接な関係をもっている事を説いてみよう。<br><br> そうして、右の三段階を細別すれば一段は六十になり、合計百八十段階の層になっている。<br><br>私はこれを名付けて霊層界という。<br><br> 人間が現世に生まれるという事は、神の命によるのである。<br><br>生命の命は命令の命と同一であるのも、その意味であろう。<br><br>誰しも思う事は、人間は何が故に生まれたかという事である。<br><br>この事を真に把握せざる限り、正しい行動も安心立命も得られないのみか、空虚な酔生夢死的人生におわるおそれがある。<br><br>しからば神の意図とは何ぞやといえば、この地上をして理想世界、言い変えれば地上天国を建設する事である。<br><br>とはいえそれはおそらくその規模において、その構想において、壮麗雄大なる言語に絶するものがあろう事は想像に難からない。<br><br>何となれば無限に進歩しつつある文化は、極まるところがないからである。<br><br>この意味において現在までの世界歴史は、その基礎的工作に過ぎなかったのである。<br><br>そうして神は一人一人それぞれの使命を与え、特長を持たせ、生き更（かわ）り死に替わり、理想目的に向かって前進せしめつつあるのである。<br><br>従って善も悪も、戦争も平和も、破壊も創造も、進化に必要なる一過程に過ぎない事を知るのである。<br><br> そうして今はいかなる時かは詳細説いたごとく、私の唱える夜昼転換期のそれであり、全世界は今まさに新時代に向かって一大飛躍せんとしつつあり、今人類は野蛮の衣をカナグリ捨て、高度の文化人たる域に達せんとしつつある事である。<br><br>ここにはじめて戦争も病気も貧乏も終焉を告げるのである。<br><br>もちろん本医術の出現はそのための先駆であり、核心的のものである。<br><br> 以上のごとく、神の意図によって断えず人間に命令を下しつつある。<br><br>それはいかなる手段によるかというに、霊層界においては人間一人一人の種が存在する。<br><br>この種を私は名づけて幽魂という。<br><br>この幽魂にまず命が下るのである。<br><br>しかるに幽魂は人間霊体の中腑にある現魂に向かい霊線を通じて神の命を伝達するのである。<br><br>しかしながら一般人間が神の命を直感し得ることは至難であって、ある程度浄化されたる霊体の保有者にして可能である。<br><br>それは大多数の人間は、多量の曇りに遮られ感知出来得ないばかりか、その曇りを利用する邪神によっても妨害されるからである。<br><br> 右の証左としていかなる人間といえども、自己の企図する事が意のごとくならない事や、予想もしない方向に運命が転ずる事があろう。<br><br>また人間は常に何物かに支配されいる感や、どうにもならぬ運命の経路を辿（たど）る事があるであろう。<br><br>そうして霊層界にある幽魂はそれ自体の階級によって、使命も運命も差別がある。<br><br>すなわち上位の階級にある幽魂ほど神命も大きく高級でしかも幸運であり、下位に降る程漸次右と反対で薄幸となり、最下段は最も不幸者となるのである。<br><br>何となれば上位は天国に相応し、病なく争いなく物資饒（ゆたか）に歓喜の世界であるに反し、下位に降る程それと反対に、病気、争闘、貧窮に充ちたる苦悩の世界であるからである。<br><br>この意味において人間が真の幸福者たらんとするには、まず霊層界における幽魂をして向上せしめなくてはならない。<br><br>しからばその方法如何というに、それは霊体を浄める一事である。<br><br>本来霊体は曇りの多少によって上昇し下降する。<br><br>すなわち浄魂は軽きをもって上昇し、曇魂は重きをもって下降する。<br><br>故に浄魂者たらんとするには、善行を重ね、善徳を積まねばならない。<br><br>それは相当の時間と犠牲を払わねばならないが、ここに一挙にして霊層界の数十段階を飛躍し得る方法がある。<br><br>すなわち本医術の教修を受ける事である。<br><br> 本医術受教者が異口同音に言う事は、精神的にはまず人生観が一変する。<br><br>智慧証覚が豊かになって、事物の真相をよく把握し得られる。<br><br>前途に光明を認め、不安は解消する。<br><br>楽観的になり、初めて真の安心感を得た。<br><br>また物質的には不思議に財物が集まり、不自由がなくなる。<br><br>不幸が減り幸福の面が多くなり、実に不思議である。<br><br>全く救われた。<br><br>有難いという感謝の声は日々無数に私の耳や目に入るのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Hierarquia do Mundo Espiritual</h2>
 <p>Conforme já expus anteriormente, o Mundo Espiritual possui uma estrutura hierárquica composta por três grandes domínios: o Céu, o Inferno e Yachimata (八衢) — o domínio intermediário entre ambos. Explicarei agora a íntima conexão que essa organização sagrada mantém com o destino humano. Ao subdividirmos esses três domínios, constatamos que cada um se desdobra em sessenta níveis, totalizando cento e oitenta estágios. A essa estrutura denomino Hierarquia do Mundo Espiritual.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>A prova disso reside no fato de que, por mais que se esforce, ninguém consegue fazer com que seus planos se concretizem exatamente como deseja, e o destino frequentemente toma rumos inesperados. O ser humano experimenta a sensação de ser constantemente governado por algo desconhecido ou de seguir, à mercê de uma força irresistível, os caminhos de sua sorte. Com efeito, as Almas Primordiais na Hierarquia do Mundo Espiritual possuem missões e destinos distintos, de acordo com o nível a que pertencem. Isso significa que, quanto mais elevado o estágio de uma Alma Primordial, maior e mais nobre é a missão que Deus lhe confere, e mais afortunada ela será. Em contrapartida, à medida que se desce na hierarquia, a fortuna diminui, e aqueles cuja Alma Primordial se encontra no nível mais baixo experimentam o maior dos infortúnios. As esferas superiores correspondem ao Céu, sendo um mundo de alegria, farto em recursos, isento de doenças e conflitos. Em oposição, quanto mais se desce, mais o mundo se torna repleto de enfermidades, contendas, pobreza e sofrimento.</p>
 <p>Diante do exposto, para que um ser humano alcance a felicidade genuína, é imperativo, antes de tudo, que sua Alma Primordial ascenda na Hierarquia do Mundo Espiritual. Qual seria, então, o método para tal? Consiste unicamente em purificar o corpo espiritual. Em essência, os corpos espirituais elevam-se ou decaem segundo a quantidade de suas máculas. Em outras palavras, as almas purificadas ascendem por sua leveza, enquanto as almas maculadas decaem por seu peso. Portanto, aquele que almeja purificar sua alma deve perseverar na prática de boas ações e no acúmulo de virtudes. Contudo, tal caminho exige tempo e sacrifício consideráveis. Existe, no entanto, um método pelo qual é possível saltar dezenas de níveis na Hierarquia do Mundo Espiritual de uma só vez: receber os ensinamentos desta arte sagrada, o Johrei.</p>
 <p>Aqueles que recebem os ensinamentos do Johrei relatam, de forma unânime, transformações profundas. No campo espiritual, sua visão de vida se altera por completo; a sabedoria e o discernimento espiritual se expandem, permitindo-lhes compreender a verdade das coisas; passam a enxergar uma luz em seu porvir, e as ansiedades se dissipam; tornam-se otimistas e experimentam, pela primeira vez, um sentimento de legítima segurança. No aspecto material, de maneira surpreendente, os bens materiais afluem e deixam de passar por privações; os infortúnios diminuem e a felicidade se multiplica. É algo verdadeiramente assombroso. “Fui completamente salvo”, “Sinto imensa gratidão” — são vozes de agradecimento como estas que, dia e noite, chegam em número incontável aos meus ouvidos e aos meus olhos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： THE HIERARCHY OF THE SPIRITUAL WORLD Tidings of Great Joy from Heaven , February 5, 1947 (the 22nd year of Showa) The spiritual world has a hierarchical structure which consists of three major domains: heaven, hell and Yachimata (the intermediate domain between heaven and hell; "Yachimata" is a Shintoism term, meaning the place where roads branch off into eight or more directions). This is just what I have already described and I will now explain that this hierarchical structure is closely connected with human fate. And when the above three major domains are subdivided, one domain consists of sixty stages, so there are one hundred and eighteen stages in all. I call this the hierarchy of the spiritual world. Human beings are born into this world by God's orders. This truth is indicated by the fact that " 命 mei" of " 生命 seimei," which means life, is the same " 命 mei" as " 命 mei" of " 命令 meirei," which means order. Everyone asks, "Why was I born?" This is the universal question. Without solving this question, man can neither act rightly nor be at peace with the world; besides, he or she may possibly end up in living an empty, idle life to no purpose. Then, what is the purpose of God? It is to make this world an ideal one, that is to say, to build Heaven on Earth. However, as to its possible scale and scheme, it is not difficult to imagine how grand it will be; it will be beyond all words. This is because the civilization which is making progress without limitation; there is no ending. In this perspective, the world history up to now has been only a process of constructing the basic structure. And God gives each person his or her own mission, makes individuals have characteristics, and drives human beings toward the ideal end through a series of deaths and rebirths. Hence, we know that good and evil, peace and war, and destruction and creation; each of them is nothing more than a step which is necessary to evolution. What sort of time is it now in history? As I have explained somewhere in detail, it is the time of turning point from the Night to the Day, which I have insisted; it is the time when the whole world is about to make a big leap into the new age and flinging off clothes of their savageness, humankind is reaching to a stage of highly-cultivated people. This is the first time when wars, diseases and poverty will be over. Of course, the emergence of Johrei is a precursor and constitutes a core of it. As mentioned above, God gives orders to man all the time. I will explain the means by which He does this. Each person has a seed somewhere in the hierarchy of the spiritual world. I call this seed a departed soul. First God gives an order to each person's departed soul. And then, this departed soul send God's order to his or her corresponding soul present at the central part of the human spiritual body through the spiritual cord. However, it is extremely difficult for ordinary people to be able to intuit God's orders; it is possible for a person who has a spiritual body purified to some degree. That is because a large majority of people cannot perceive not only blocked by lots of their own spiritual clouds but also interrupted by evil deities who exploit those spiritual clouds. The evidence of this is that no matter who a person is, he or she cannot make things go as he or she wants them to be in spite of all his or her efforts and that fortune changes a course in an unexpected direction; a human being has a feeling to be controlled all the time by some unknown beings or follows his or her fortunes at the mercy of irresistible force. And departed souls in the hierarchy of the spiritual world have different missions and fortunes according to the stages where they belong. This means that the higher stage a person's departed soul belongs in, the greater and higher mission the person is ordered by God and the more fortunate he will be, while the lower the stage goes down, the less fortunate the person will be and a person whose departed soul belongs in the lowest stage will be the most hapless. For a higher stage correspond to Heaven, so it is a joyful world abundant in resources without any illness or conflicts, but, on the contrary, as a stage gets down lower and lower, it teems with more and more illness, conflicts, poverty and sufferings. In this way, if a human being will have true happiness, he or she has first to make his or her departed soul go up in the hierarchy of the spiritual world. Then what is the method for this? It is simply to purify his or her spiritual body. In essence, spiritual bodies go up or go down according to how much or how little they are clouded. In other words, purified souls go up because of the lightness, while clouded souls go down because of the gravity. Therefore, if you intend to have a more purified soul, you must keep on doing good deeds and cultivate virtue. You must spend much time and sacrifice on it. However, here is a method by which you can leap at once to a higher stage beyond several tens of stages up in the hierarchy of the spiritual world. This is to receive the lessons for our medical art: Johrei. Those who received the lesson for Johrei say with one voice that in terms of spirituality, first of all, their views of life have changed completely; they have become abundant in wisdom of spiritual awakening, so have been able to grasp the truth of things; they have recognized the light ahead of them and anxieties have been dispelled; they have become optimistic and had true feelings of security first time ever; and in terms of material, surprisingly, property has gathered around them and had nothing in want; less unhappiness and more happiness; it is amazing enough; they have been entirely delivered from distress, filled with gratitude. Day and night I receive such thankful messages innumerably through eye and ear. 霊層界 『天国の福音』昭和22(1947)年2月5日発行 霊界は、天国、八衢（やちまた）、地獄の三段階になっている事は既説の通りであるが、これが人間の運命と密接な関係をもっている事を説いてみよう。<br/><br/> そうして、右の三段階を細別すれば一段は六十になり、合計百八十段階の層になっている。<br/><br/>私はこれを名付けて霊層界という。<br/><br/> 人間が現世に生まれるという事は、神の命によるのである。<br/><br/>生命の命は命令の命と同一であるのも、その意味であろう。<br/><br/>誰しも思う事は、人間は何が故に生まれたかという事である。<br/><br/>この事を真に把握せざる限り、正しい行動も安心立命も得られないのみか、空虚な酔生夢死的人生におわるおそれがある。<br/><br/>しからば神の意図とは何ぞやといえば、この地上をして理想世界、言い変えれば地上天国を建設する事である。<br/><br/>とはいえそれはおそらくその規模において、その構想において、壮麗雄大なる言語に絶するものがあろう事は想像に難からない。<br/><br/>何となれば無限に進歩しつつある文化は、極まるところがないからである。<br/><br/>この意味において現在までの世界歴史は、その基礎的工作に過ぎなかったのである。<br/><br/>そうして神は一人一人それぞれの使命を与え、特長を持たせ、生き更（かわ）り死に替わり、理想目的に向かって前進せしめつつあるのである。<br/><br/>従って善も悪も、戦争も平和も、破壊も創造も、進化に必要なる一過程に過ぎない事を知るのである。<br/><br/> そうして今はいかなる時かは詳細説いたごとく、私の唱える夜昼転換期のそれであり、全世界は今まさに新時代に向かって一大飛躍せんとしつつあり、今人類は野蛮の衣をカナグリ捨て、高度の文化人たる域に達せんとしつつある事である。<br/><br/>ここにはじめて戦争も病気も貧乏も終焉を告げるのである。<br/><br/>もちろん本医術の出現はそのための先駆であり、核心的のものである。<br/><br/> 以上のごとく、神の意図によって断えず人間に命令を下しつつある。<br/><br/>それはいかなる手段によるかというに、霊層界においては人間一人一人の種が存在する。<br/><br/>この種を私は名づけて幽魂という。<br/><br/>この幽魂にまず命が下るのである。<br/><br/>しかるに幽魂は人間霊体の中腑にある現魂に向かい霊線を通じて神の命を伝達するのである。<br/><br/>しかしながら一般人間が神の命を直感し得ることは至難であって、ある程度浄化されたる霊体の保有者にして可能である。<br/><br/>それは大多数の人間は、多量の曇りに遮られ感知出来得ないばかりか、その曇りを利用する邪神によっても妨害されるからである。<br/><br/> 右の証左としていかなる人間といえども、自己の企図する事が意のごとくならない事や、予想もしない方向に運命が転ずる事があろう。<br/><br/>また人間は常に何物かに支配されいる感や、どうにもならぬ運命の経路を辿（たど）る事があるであろう。<br/><br/>そうして霊層界にある幽魂はそれ自体の階級によって、使命も運命も差別がある。<br/><br/>すなわち上位の階級にある幽魂ほど神命も大きく高級でしかも幸運であり、下位に降る程漸次右と反対で薄幸となり、最下段は最も不幸者となるのである。<br/><br/>何となれば上位は天国に相応し、病なく争いなく物資饒（ゆたか）に歓喜の世界であるに反し、下位に降る程それと反対に、病気、争闘、貧窮に充ちたる苦悩の世界であるからである。<br/><br/>この意味において人間が真の幸福者たらんとするには、まず霊層界における幽魂をして向上せしめなくてはならない。<br/><br/>しからばその方法如何というに、それは霊体を浄める一事である。<br/><br/>本来霊体は曇りの多少によって上昇し下降する。<br/><br/>すなわち浄魂は軽きをもって上昇し、曇魂は重きをもって下降する。<br/><br/>故に浄魂者たらんとするには、善行を重ね、善徳を積まねばならない。<br/><br/>それは相当の時間と犠牲を払わねばならないが、ここに一挙にして霊層界の数十段階を飛躍し得る方法がある。<br/><br/>すなわち本医術の教修を受ける事である。<br/><br/> 本医術受教者が異口同音に言う事は、精神的にはまず人生観が一変する。<br/><br/>智慧証覚が豊かになって、事物の真相をよく把握し得られる。<br/><br/>前途に光明を認め、不安は解消する。<br/><br/>楽観的になり、初めて真の安心感を得た。<br/><br/>また物質的には不思議に財物が集まり、不自由がなくなる。<br/><br/>不幸が減り幸福の面が多くなり、実に不思議である。<br/><br/>全く救われた。<br/><br/>有難いという感謝の声は日々無数に私の耳や目に入るのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

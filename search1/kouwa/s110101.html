@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s110101</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 昭和11(1936)年1月1日 今日は元日で、初のお祭りでありまして、これから御挨拶でありますから、ここから御挨拶いたします。<br><br>これについて、今年は非常に重大な年まわりでありまして、世界からいうと、一九三六年、日本で申しますと二五九六年で、ユダヤの年号でいいますと、五六九六年で六が三つ並ぶ。<br><br>日本の年号と世界の年号、ユダヤの紀元とで、三つ六がつく。<br><br>観音会の仕事は五六七で、ミロクでありますから、去年から五年、六年、七年と、これが非常に重大な経綸のできる年で、五六七となり、来年は七年で、これを過ぐると、初めてすばらしい発展をすることになる。<br><br>それとともにたいへんに世の中に変わったことが出てくる。<br><br>それは、いままでの夜の世界が昼間になるからで、これはしかたがない。<br><br>特に今年は三六年で、ミロクで、三六は十八、十八の二倍はまた三十六ですから、ミロクの経綸について、非常に重大な意味があるのであります。<br><br> 三五は月で、三五の月へ一つが加わると、三六になるわけであります。<br><br>これは、いままでの世界は夜の世界ですから、夜の世界は月の世界で、月の世界へ一つの神様がお出でになるわけで、要するに、十は神、一ははじめる、この一が加わりミロクになる、一つの神様は、やはり観音様になる、一が観音様ということは、いままでにお話しました。<br><br> おもしろいのは、東京が、三十五区になったんですが、やはり三十五区は三五で、夜の世界の数になる。<br><br>ところが、近々も一つ玉川区という区ができるそうで、観音会が玉川にでき、それから玉川区が一つ増えるということになり、それで三六となった。<br><br>ミロクになった。<br><br>そして三六で日の世界ですから、要するに、日の世界で昼間の世界になるわけである。<br><br>こういう具合にすべてはみな観音様がやっておられる。<br><br>また今年は十二支のうち、子の年になるんで、これから初めになるのであります。<br><br>十干十二支ということは、いつかお話したように、非常に重大な意味があるんであります。<br><br>で、十二支の初めで、十一年ですから、やはり初めになる。<br><br>で、去年もお話したが、それは去年の今日ここで発会式を挙げた。<br><br>ちょうど今晩が満一周年になる。<br><br>その時は経緯を結ぶということをお話しました。<br><br>経緯を結んだ年が去年で、十一年で、これからいよいよ始まるんで、一周年というと始めると同じことになる。<br><br> みな一（はじ）めになっている。<br><br>十一は十一面観音様にもなる。<br><br>千手観音様のお冠りは、十一面観音様になっている。<br><br>十一面観音様が進むと、千手観音様になる。<br><br>ですから、今年は十一面観音様のお働きになる。<br><br>十一は統一ですから統一する働きをなさる。<br><br> 私は元日の朝、今朝は寝坊するから十時に起してくれと言った。<br><br>それで十時に起された。<br><br>起きようとすると、十一時に起きろと観音様が言われる。<br><br>それで、十一年の一月一日の起きるのが十一時で、この数字はやはり一一、一一、一一と三つ一一になると六つになる。<br><br>三つが六つになるからやはり三六になる。<br><br> 来年の五月がちょうど（来年の四月晦日（みそか））現界の経綸が終わるんでありますが、それから先はすばらしい進展をする。<br><br>今年またまた非常な発展をする。<br><br>地方にも信者や支部がたくさんできる。<br><br>これは観音様がやっているんですから、だれがどうしようとこうしようと、できるに決まってる。<br><br>それについて、いろいろと変わったことが出るはずになっている。<br><br>いままでにないことが出る。<br><br> それはあえて悪いこととは限らぬ。<br><br>夜と昼間と入れ替わるんですから、夜のほうは非常に悪く、昼間のほうは非常に善いことになる。<br><br>ところで、だいたい観音運動の主なる目的というものは、世の中の掃除なんであります。<br><br>夜の世界は暗の世界で、たくさん溜まった汚れや埃（ほこり）を掃除する。<br><br>昼間の太陽の光によって黴菌や、そういう悪いものを照らし、汚いものははっきりし、掃除する。<br><br>掃除しなければ世界の進展が止まる。<br><br>止まるということは、滅びることになる。<br><br> 私はいろいろと毎日事実によって知らされる。<br><br>毎日いろんな病人の方がみえますが、病人でなくとも健康診断などで来る人もあり、そういう人達の一皮剥（む）けば、膿と毒で、これを考えるとき恐ろしい感じがする。<br><br>若い方できれいな方もあるが、膚をみると本当の血が循環しているんでない。<br><br> 観音会の方でも掃除されてる人もあります。<br><br>その方は、おデキのできてる人があるが、これは結構なんで浄められるんで、ただ楽に浄められるのと、苦しんで浄められるのとあって、これはその人の想念、信仰などによるんであります。<br><br>しかし、汚れも清められなければならぬことになっている。<br><br>この人の霊体の曇りはいかに激しいか判らぬ。<br><br>なぜかというと、何千年の夜の世界にいて、本当の太陽の光に遇わなかったからであります。<br><br>これを清めなければ人類は、近き将来に滅亡しなければならぬと思う。<br><br>しかしこれだけ曇った人類の汚れを浄めるものがあるかというと、他には断じてない。<br><br>あらゆる宗教はたくさんあるけれど、それを掃除し得る宗教はない。<br><br>最近、四十くらいの婦人で病気治しに来られる人あり、その方はいま一番発展している宗教の信者で、その信仰では一番比較的に病気が治るんで信者になったもので、その人は病気で手がきかない。<br><br>そして肩から膿が出ている。<br><br>いままでにあらゆることをした。<br><br>なぜかというと、初めのうちは信仰で治そうと一生懸命やった。<br><br>それで治らず、しかたなく物的療法を始めた。<br><br>すると他の先生は、信仰がありながら医者などへ行くとは怪しからん。<br><br>そんなことするから治らぬといって怒られるそうです。<br><br>で、私は、それはアベコベだ。<br><br>そんなことしたから治らぬのではない。<br><br>治らないからそんなことしたんだというのが本当と言えば、その人いわく、以前はその信仰でそうとう治って、お蔭がいただけたが、近来はさっぱりいただけない。<br><br>どうも不思議だったが、今度は観音会がめっかって、実にこれだと思った。<br><br>そして、いますぐに転向したいが身体がこれでしかたなく、寝ても起きても観音様のことが頭に起る。<br><br>どうも不思議だという。<br><br> で、私は、いままではすべて夜の宗教ですから、夜のうちは月も星も光輝いて力があったが、今度は日が出て、月も星も見えなくなった。<br><br>それで、病気も治らなくなったんだと言ったら喜んでいたのです。<br><br>また、実は自分は内密でここへ来ている。<br><br>もしめっかれば片腕の一本くらいは折られるかもしれないと言う。<br><br>その宗教の所長さんというのは、とても乱暴者で、その信仰の人達はみな酒呑みで、酔っ払ってこのこと聞けばなにをするか判らないと言うのです。<br><br>ところが、観音会では酒を呑まない。<br><br>また、酒など欲しくなくなると言えば、これこそ本当のものだ。<br><br>私のほうでは酒呑みばかりで、いつ乱暴をするか判らぬから安心ができない。<br><br>そういうときにこっちへ来れば安心だと言っていました。<br><br>ところが、昨日来て言うに、昨夜所長は酔っ払って落っこちたとかなんとかで、腕の筋の見えるところまですりむいてウンウン唸ってる。<br><br>治っても手は動くまいと言っている。<br><br>そんな神のお知らせをいただいていながら、ちっとも悟らぬという。<br><br>実にその信仰の人たるや、ふつうの人よりひどいくらいだと言う。<br><br>私も驚いた。<br><br> とにかく、世間で有力な信仰団体がそのありさま、その他は推して知るべしだと思った。<br><br>で、またあなたはどういうわけで手が動かなくなったか判るかと言えば、知らぬと言う。<br><br>で、本当のことを言えば、実はいままで拝んでいた神様は違っていたんだ。<br><br>もしいま気づかなかったなら、良いほうの手も悪くなるべきだった。<br><br>これは、間違った神仏を拝むと一種の罪になる。<br><br>それと、夜ならいいが昼間になったら、かえってそれを拝むために、日に背を向けることになる。<br><br>太陽が出れば、それを拝まなければいけない、と言ったのです。<br><br> その人は、どんどん良くなって一週間くらいになり、昨日など手などスッカリ上がるようになった。<br><br>自分の属してる支部には百人くらい信者がいる。<br><br>自分が治るにつれてみんな不思議に思ってる。<br><br>これが治ったら大いに宣伝しようと思ってる、と言っていました。<br><br> も一つ若い二十五になる婦人で、口から始終唾が出る。<br><br>出すぎるくらいに出る。<br><br>初めは胃と腸が悪く、四年くらいやりさんざんに胃が駄目になった。<br><br>ひとのみち、生長の家にも半年くらいずついた。<br><br>一生懸命やったがちっともよくならぬ。<br><br>日日新聞をみて来たんですが、みると胃も腎臓も膿がある。<br><br>そしてコチコチに凝っている。<br><br>首筋にうんと固まりがある。<br><br>そのくらいの凝りが一週間ここの治療をやれば、どしどし解けて行く。<br><br>ところが、半年も生長の家でやった。<br><br>それが、治ったと言いながら、ちっとも解けた跡はない。<br><br>病気が非常に治る宣伝していても、事実治ってないのをみると、事実は効なしと思われる。<br><br> 古い宗教はともかく、新興宗教はそうとう力があると思っていたんですが、その婦人を見て驚いた。<br><br>してみると新興宗教のほうにも力はない。<br><br>本当に身体を治す力のあるのは、観音会より他にない。<br><br>これは絶対に断定することができる。<br><br>どうしても、光明が強くなれば観音会のみでなく、世間一般が清められる。<br><br>病気にもなろうし、また、社会の暗黒面や罪悪や、間違ったところなどどしどし浮かび上がってくるに違いない。<br><br>この間の大本教の検挙や天理教のような具合です。<br><br>それで本当のものだけが残るわけです。<br><br>しかし、本当のものがいくらあるかということが疑問です。<br><br> そういうわけになっているから、今年から、改めていう必要はありませんが、とにかく観音運動を大々的に拡げていかねば、本当に人類は危険千万と思います。<br><br> 要するに、観音運動は個人の完成で、一人一人の人間をきれいにしていく。<br><br>要するに、曇りやゴミをとっていくというのが、観音会の全生命であります。<br><br>でありますから、個人をきれいにし、健康な肉体、健全な精神の人間をこしらえる。<br><br>これでたくさんなんで、健康な霊体の人間がいろいろな社会のことをやれば、立派な社会になる。<br><br>あえて政治などを云々する必要はない。<br><br> よく、どうして大本教や天理教があんなことになったか聞かれるが、それは簡単なんで、大本ならば、宗教でいながら国防運動や政治運動をしたからで、ちょうど商人が株に手を出して失敗したのと同じわけで、宗教は宗教としての本来の使命がある。<br><br>その使命のことを一生懸命やればよい。<br><br>しかし、その使命を一生懸命やる力がないために、やむを得ず使命以外のことをする。<br><br>ちょうど既成宗教が社会事業するように、要するに、大本など力がないからで、大きなことをやろうと政治などに手を出したんで、ピシャッとやられた。<br><br> 宗教は宗教以外のことをやるべきではない。<br><br>またやられ得べきでない。<br><br>それは神様が許さぬ。<br><br>宗教をやる力がなかったら、やめたほうがいい。<br><br>そういう具合でやってると、いつかは駄目になる。<br><br> 天理教はたくさんな金を取って、脱税などしたが、両方とも宗教の使命を知って立派にやれば世の人も認める。<br><br>間違ったことをしたからやられた。<br><br> それも夜の宗教ですから、以前は力があったけれど、「東方の光」が出たために、太陽の光が出て月や星の力がなくなった。<br><br>それが判らず、なんとか挽回しようという足掻きのために、他のことに手を出し間違ったことをして、為すべからざることをしたんで、当然なことであります。<br><br>それに気がつかなかったのは、本当の精神がなく、そこに不純な精神があったからで、本当に人を救うという観音心によってやれば、なんら間違いはない。<br><br> 今年から大いに宣伝し、また今年から大いに治療士も病気が治る力においてもいっそう強くなり、よく治る。<br><br>これは日がだんだん出て昇るほど光が強くなると同じことであります。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Alvorada do Mundo do Dia</h2>
 <p>Hoje, primeiro dia do ano novo, celebramos nossa primeira cerimônia. Aproveito esta ocasião para dirigir-lhes minhas palavras.</p>
@@ -119,5 +271,48 @@ function toggleLang(lang) {
 <p>A Tenrikyo, por sua vez, arrecadou grandes somas de dinheiro e cometeu evasão fiscal. Se ambas tivessem compreendido sua missão religiosa e a cumprido com retidão, teriam obtido o reconhecimento da sociedade. Foram repreendidas porque agiram de forma equivocada.</p>
 <p>Ambas são religiões da noite. No passado, possuíam força, mas com o surgimento da “Luz do Oriente”, o Sol nasceu, e o poder da Lua e das estrelas se extinguiu. Incapazes de compreender essa transição, em uma tentativa desesperada de recuperar seu poder, elas se aventuraram em áreas alheias à sua missão e cometeram erros graves, fazendo o que não lhes cabia. O resultado foi uma consequência natural. Essa falta de discernimento revela a ausência de um espírito verdadeiro e a presença de uma mentalidade impura. Se tivessem agido com o coração de Kannon (観音), com o genuíno desejo de salvar as pessoas, jamais teriam se desviado.</p>
 <p>A partir deste ano, divulgaremos nossa Obra em larga escala. O poder de cura de nossos praticantes se intensificará ainda mais, e as curas se tornarão mais eficazes e numerosas. É um processo análogo ao do Sol, que, ao se elevar no horizonte, irradia uma luz cada vez mais potente.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 昭和11(1936)年1月1日 今日は元日で、初のお祭りでありまして、これから御挨拶でありますから、ここから御挨拶いたします。<br/><br/>これについて、今年は非常に重大な年まわりでありまして、世界からいうと、一九三六年、日本で申しますと二五九六年で、ユダヤの年号でいいますと、五六九六年で六が三つ並ぶ。<br/><br/>日本の年号と世界の年号、ユダヤの紀元とで、三つ六がつく。<br/><br/>観音会の仕事は五六七で、ミロクでありますから、去年から五年、六年、七年と、これが非常に重大な経綸のできる年で、五六七となり、来年は七年で、これを過ぐると、初めてすばらしい発展をすることになる。<br/><br/>それとともにたいへんに世の中に変わったことが出てくる。<br/><br/>それは、いままでの夜の世界が昼間になるからで、これはしかたがない。<br/><br/>特に今年は三六年で、ミロクで、三六は十八、十八の二倍はまた三十六ですから、ミロクの経綸について、非常に重大な意味があるのであります。<br/><br/> 三五は月で、三五の月へ一つが加わると、三六になるわけであります。<br/><br/>これは、いままでの世界は夜の世界ですから、夜の世界は月の世界で、月の世界へ一つの神様がお出でになるわけで、要するに、十は神、一ははじめる、この一が加わりミロクになる、一つの神様は、やはり観音様になる、一が観音様ということは、いままでにお話しました。<br/><br/> おもしろいのは、東京が、三十五区になったんですが、やはり三十五区は三五で、夜の世界の数になる。<br/><br/>ところが、近々も一つ玉川区という区ができるそうで、観音会が玉川にでき、それから玉川区が一つ増えるということになり、それで三六となった。<br/><br/>ミロクになった。<br/><br/>そして三六で日の世界ですから、要するに、日の世界で昼間の世界になるわけである。<br/><br/>こういう具合にすべてはみな観音様がやっておられる。<br/><br/>また今年は十二支のうち、子の年になるんで、これから初めになるのであります。<br/><br/>十干十二支ということは、いつかお話したように、非常に重大な意味があるんであります。<br/><br/>で、十二支の初めで、十一年ですから、やはり初めになる。<br/><br/>で、去年もお話したが、それは去年の今日ここで発会式を挙げた。<br/><br/>ちょうど今晩が満一周年になる。<br/><br/>その時は経緯を結ぶということをお話しました。<br/><br/>経緯を結んだ年が去年で、十一年で、これからいよいよ始まるんで、一周年というと始めると同じことになる。<br/><br/> みな一（はじ）めになっている。<br/><br/>十一は十一面観音様にもなる。<br/><br/>千手観音様のお冠りは、十一面観音様になっている。<br/><br/>十一面観音様が進むと、千手観音様になる。<br/><br/>ですから、今年は十一面観音様のお働きになる。<br/><br/>十一は統一ですから統一する働きをなさる。<br/><br/> 私は元日の朝、今朝は寝坊するから十時に起してくれと言った。<br/><br/>それで十時に起された。<br/><br/>起きようとすると、十一時に起きろと観音様が言われる。<br/><br/>それで、十一年の一月一日の起きるのが十一時で、この数字はやはり一一、一一、一一と三つ一一になると六つになる。<br/><br/>三つが六つになるからやはり三六になる。<br/><br/> 来年の五月がちょうど（来年の四月晦日（みそか））現界の経綸が終わるんでありますが、それから先はすばらしい進展をする。<br/><br/>今年またまた非常な発展をする。<br/><br/>地方にも信者や支部がたくさんできる。<br/><br/>これは観音様がやっているんですから、だれがどうしようとこうしようと、できるに決まってる。<br/><br/>それについて、いろいろと変わったことが出るはずになっている。<br/><br/>いままでにないことが出る。<br/><br/> それはあえて悪いこととは限らぬ。<br/><br/>夜と昼間と入れ替わるんですから、夜のほうは非常に悪く、昼間のほうは非常に善いことになる。<br/><br/>ところで、だいたい観音運動の主なる目的というものは、世の中の掃除なんであります。<br/><br/>夜の世界は暗の世界で、たくさん溜まった汚れや埃（ほこり）を掃除する。<br/><br/>昼間の太陽の光によって黴菌や、そういう悪いものを照らし、汚いものははっきりし、掃除する。<br/><br/>掃除しなければ世界の進展が止まる。<br/><br/>止まるということは、滅びることになる。<br/><br/> 私はいろいろと毎日事実によって知らされる。<br/><br/>毎日いろんな病人の方がみえますが、病人でなくとも健康診断などで来る人もあり、そういう人達の一皮剥（む）けば、膿と毒で、これを考えるとき恐ろしい感じがする。<br/><br/>若い方できれいな方もあるが、膚をみると本当の血が循環しているんでない。<br/><br/> 観音会の方でも掃除されてる人もあります。<br/><br/>その方は、おデキのできてる人があるが、これは結構なんで浄められるんで、ただ楽に浄められるのと、苦しんで浄められるのとあって、これはその人の想念、信仰などによるんであります。<br/><br/>しかし、汚れも清められなければならぬことになっている。<br/><br/>この人の霊体の曇りはいかに激しいか判らぬ。<br/><br/>なぜかというと、何千年の夜の世界にいて、本当の太陽の光に遇わなかったからであります。<br/><br/>これを清めなければ人類は、近き将来に滅亡しなければならぬと思う。<br/><br/>しかしこれだけ曇った人類の汚れを浄めるものがあるかというと、他には断じてない。<br/><br/>あらゆる宗教はたくさんあるけれど、それを掃除し得る宗教はない。<br/><br/>最近、四十くらいの婦人で病気治しに来られる人あり、その方はいま一番発展している宗教の信者で、その信仰では一番比較的に病気が治るんで信者になったもので、その人は病気で手がきかない。<br/><br/>そして肩から膿が出ている。<br/><br/>いままでにあらゆることをした。<br/><br/>なぜかというと、初めのうちは信仰で治そうと一生懸命やった。<br/><br/>それで治らず、しかたなく物的療法を始めた。<br/><br/>すると他の先生は、信仰がありながら医者などへ行くとは怪しからん。<br/><br/>そんなことするから治らぬといって怒られるそうです。<br/><br/>で、私は、それはアベコベだ。<br/><br/>そんなことしたから治らぬのではない。<br/><br/>治らないからそんなことしたんだというのが本当と言えば、その人いわく、以前はその信仰でそうとう治って、お蔭がいただけたが、近来はさっぱりいただけない。<br/><br/>どうも不思議だったが、今度は観音会がめっかって、実にこれだと思った。<br/><br/>そして、いますぐに転向したいが身体がこれでしかたなく、寝ても起きても観音様のことが頭に起る。<br/><br/>どうも不思議だという。<br/><br/> で、私は、いままではすべて夜の宗教ですから、夜のうちは月も星も光輝いて力があったが、今度は日が出て、月も星も見えなくなった。<br/><br/>それで、病気も治らなくなったんだと言ったら喜んでいたのです。<br/><br/>また、実は自分は内密でここへ来ている。<br/><br/>もしめっかれば片腕の一本くらいは折られるかもしれないと言う。<br/><br/>その宗教の所長さんというのは、とても乱暴者で、その信仰の人達はみな酒呑みで、酔っ払ってこのこと聞けばなにをするか判らないと言うのです。<br/><br/>ところが、観音会では酒を呑まない。<br/><br/>また、酒など欲しくなくなると言えば、これこそ本当のものだ。<br/><br/>私のほうでは酒呑みばかりで、いつ乱暴をするか判らぬから安心ができない。<br/><br/>そういうときにこっちへ来れば安心だと言っていました。<br/><br/>ところが、昨日来て言うに、昨夜所長は酔っ払って落っこちたとかなんとかで、腕の筋の見えるところまですりむいてウンウン唸ってる。<br/><br/>治っても手は動くまいと言っている。<br/><br/>そんな神のお知らせをいただいていながら、ちっとも悟らぬという。<br/><br/>実にその信仰の人たるや、ふつうの人よりひどいくらいだと言う。<br/><br/>私も驚いた。<br/><br/> とにかく、世間で有力な信仰団体がそのありさま、その他は推して知るべしだと思った。<br/><br/>で、またあなたはどういうわけで手が動かなくなったか判るかと言えば、知らぬと言う。<br/><br/>で、本当のことを言えば、実はいままで拝んでいた神様は違っていたんだ。<br/><br/>もしいま気づかなかったなら、良いほうの手も悪くなるべきだった。<br/><br/>これは、間違った神仏を拝むと一種の罪になる。<br/><br/>それと、夜ならいいが昼間になったら、かえってそれを拝むために、日に背を向けることになる。<br/><br/>太陽が出れば、それを拝まなければいけない、と言ったのです。<br/><br/> その人は、どんどん良くなって一週間くらいになり、昨日など手などスッカリ上がるようになった。<br/><br/>自分の属してる支部には百人くらい信者がいる。<br/><br/>自分が治るにつれてみんな不思議に思ってる。<br/><br/>これが治ったら大いに宣伝しようと思ってる、と言っていました。<br/><br/> も一つ若い二十五になる婦人で、口から始終唾が出る。<br/><br/>出すぎるくらいに出る。<br/><br/>初めは胃と腸が悪く、四年くらいやりさんざんに胃が駄目になった。<br/><br/>ひとのみち、生長の家にも半年くらいずついた。<br/><br/>一生懸命やったがちっともよくならぬ。<br/><br/>日日新聞をみて来たんですが、みると胃も腎臓も膿がある。<br/><br/>そしてコチコチに凝っている。<br/><br/>首筋にうんと固まりがある。<br/><br/>そのくらいの凝りが一週間ここの治療をやれば、どしどし解けて行く。<br/><br/>ところが、半年も生長の家でやった。<br/><br/>それが、治ったと言いながら、ちっとも解けた跡はない。<br/><br/>病気が非常に治る宣伝していても、事実治ってないのをみると、事実は効なしと思われる。<br/><br/> 古い宗教はともかく、新興宗教はそうとう力があると思っていたんですが、その婦人を見て驚いた。<br/><br/>してみると新興宗教のほうにも力はない。<br/><br/>本当に身体を治す力のあるのは、観音会より他にない。<br/><br/>これは絶対に断定することができる。<br/><br/>どうしても、光明が強くなれば観音会のみでなく、世間一般が清められる。<br/><br/>病気にもなろうし、また、社会の暗黒面や罪悪や、間違ったところなどどしどし浮かび上がってくるに違いない。<br/><br/>この間の大本教の検挙や天理教のような具合です。<br/><br/>それで本当のものだけが残るわけです。<br/><br/>しかし、本当のものがいくらあるかということが疑問です。<br/><br/> そういうわけになっているから、今年から、改めていう必要はありませんが、とにかく観音運動を大々的に拡げていかねば、本当に人類は危険千万と思います。<br/><br/> 要するに、観音運動は個人の完成で、一人一人の人間をきれいにしていく。<br/><br/>要するに、曇りやゴミをとっていくというのが、観音会の全生命であります。<br/><br/>でありますから、個人をきれいにし、健康な肉体、健全な精神の人間をこしらえる。<br/><br/>これでたくさんなんで、健康な霊体の人間がいろいろな社会のことをやれば、立派な社会になる。<br/><br/>あえて政治などを云々する必要はない。<br/><br/> よく、どうして大本教や天理教があんなことになったか聞かれるが、それは簡単なんで、大本ならば、宗教でいながら国防運動や政治運動をしたからで、ちょうど商人が株に手を出して失敗したのと同じわけで、宗教は宗教としての本来の使命がある。<br/><br/>その使命のことを一生懸命やればよい。<br/><br/>しかし、その使命を一生懸命やる力がないために、やむを得ず使命以外のことをする。<br/><br/>ちょうど既成宗教が社会事業するように、要するに、大本など力がないからで、大きなことをやろうと政治などに手を出したんで、ピシャッとやられた。<br/><br/> 宗教は宗教以外のことをやるべきではない。<br/><br/>またやられ得べきでない。<br/><br/>それは神様が許さぬ。<br/><br/>宗教をやる力がなかったら、やめたほうがいい。<br/><br/>そういう具合でやってると、いつかは駄目になる。<br/><br/> 天理教はたくさんな金を取って、脱税などしたが、両方とも宗教の使命を知って立派にやれば世の人も認める。<br/><br/>間違ったことをしたからやられた。<br/><br/> それも夜の宗教ですから、以前は力があったけれど、「東方の光」が出たために、太陽の光が出て月や星の力がなくなった。<br/><br/>それが判らず、なんとか挽回しようという足掻きのために、他のことに手を出し間違ったことをして、為すべからざることをしたんで、当然なことであります。<br/><br/>それに気がつかなかったのは、本当の精神がなく、そこに不純な精神があったからで、本当に人を救うという観音心によってやれば、なんら間違いはない。<br/><br/> 今年から大いに宣伝し、また今年から大いに治療士も病気が治る力においてもいっそう強くなり、よく治る。<br/><br/>これは日がだんだん出て昇るほど光が強くなると同じことであります。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

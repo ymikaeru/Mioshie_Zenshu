@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>reisi11</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊視日記（11） 五三中教会 茨木よし子 『地上天国』55号、昭和28(1953)年12月25日発行 八月一日 特別御面会にお許しを頂き本部御神前にて礼拝を済まして待っていました。<br><br>明主様お出座迄にまだ時間もあり、五、六名参拝なさっている頃でありました。<br><br>御神前には明主様がお食事をお召上りなされていらっしゃるお姿が拝され、次には明主様が薄いお召物にして静かにお坐りなされるお姿が拝されますとどこからともなく色々な御姿のお観音様が、代る代る明主様の肩や腰をおさすりしていらっしゃる。<br><br>明主様は御満足そうにうつらうつらなされていらっしゃる様が拝されました。<br><br>次にお観音様と入代り天使のような金色の翼の生えた子供達が大勢明主様の周囲に集い来りて可愛らしい手にておさすり申している情景も拝されます。<br><br>場面が変り、多くの観音様や光明如来様がずらりとお並びお出座になられ私達の方を御覧になっていらっしゃるお姿が拝されました。<br><br>場面が又変り裸の玉の様な嬰児が現われ手足を泳ぐ様に動かし、傍には明主様と老年の女の方がその嬰児をあやしていらっしゃる和やかな情景が何時迄も何時迄も目に映りました。<br><br>次には「大神様は私如き者をお選び下さりて大経綸をなさる云々」と鬚のぼうぼう生えている荒男の様な人が書いている様も見えて来ました。<br><br>御神前の一段と低い所には机が並び向合せに男神二人女神二人がお並びになられ薄い横帳のような物を繰広げ微笑まれながら御覧になられていますと、お鬚が黒々と生えお顔丈が桜色、お姿は一見獣の様に全身毛だらけの見るからに荒々しい神様（お眼差はいと柔和に見える）がお出座になられ、じっと御覧になられますと足元にいらっしゃった神々様は一斉に跪きなさり、長い刀を持たれた男神が荒神様の右側にお立ちになっていました。<br><br>お茶碗に何か入れて持って来られるお方があり、その荒神様が一口召されフーッと吹かれますと見る間に白光と化し霧のようになって私達の頭上からこのお部屋一面に放射され、もうもうと薄墨色をなしている邪気を追ってしまい、虎狼等の悪霊が立所に消えてしまう様が見えました。<br><br>次に現在元気にて大いに活躍されています○○氏が病み衰えて黒い着物を着、寝所にて辺りをきょろきょろしていられる様が見えて来、見るもお気の毒な様が見えました。<br><br>次に余り立派でなさそうな神社の全景が見えて来る。<br><br>次には立派な石段の沢山あるお寺から坊さんがお供の人々や花嫁さんをつれて下りて来られる様が見える。<br><br>「大経綸々々々、神の大経綸に云々」と盛んに書いていらっしゃる人を見受けました。<br><br>以上メモ致しています間に御面会御許しの参拝者が御神前にお集りになりました。<br><br> 御神前には向って右側に紫の房（腰紐）を下まで垂らされた男神、左側には赤の房を垂らされた女神がお出ましになられた女神は易を広げられ男神は漆塗の笏を持っていらっしゃいました。<br><br>横手には大きな白狐がおとなしく待っている様が見えて来ました。<br><br>次に十二、三歳位の女児がカトリック信者の服装の母親らしき方に髪の手入をしてもらっている様子、幾組もの花嫁と花婿がずらりと並び明主様のお出ましを待兼ねていられる様子、皆々押すな押すなのへしあいでいっぱいでありました。<br><br>紅い雪洞を飾りつけ、紅い毛氈を敷きつめた綺麗なお座敷が現われ、そこには金欄の着物を着た十歳前後と思われる女の子が三人楽しそうに遊ぶ様が見え、御神前には顎鬚の白い老神が（仙人の様に見える）くねくねと曲った杖の様な物を持ってお立ちになっていられ両側には放射状に男神女神がお並びになっていらっしゃる様が見えて来ました。<br><br>何カ月振りに御面会を許され、黒龍達の弱り萎縮の様には只々驚く許りでありました。<br><br> お祈りが始りますと真中にいらっしゃる観音様は先程の明主様がおあやしなされていました玉のような嬰児をお抱きになられているお姿が拝されました。<br><br>多くの観音様方と入れかわられ白光は益々強烈と化し明生様のお姿が拝され、腹中の光の玉は身体からはみ出て拝されました。<br><br> 御讃歌を奏上致しますと昔人の老人が窶（やつ）れ果てて寝ている様、外は真夏の日差にして寝ている人の家は道路に画し、その周辺は石垣にして小川の水がさらさらと流れている。<br><br>「大神様の声聞けば……」とお書きになっている方も見受けました。<br><br>次には幾段にも引出しのついた戸棚がずらりと並び、その引出しの中には薬品並びにカルテが一杯入っていました。<br><br>噴霧機にて虫けら共を退治する様、見る見る間に死んでしまう。<br><br>次には無数に虫が湧く様が見えて来、次には医師、看護婦達がテーブルを囲み研究している様、手の手術をなし包帯している様等が見えて来ました。<br><br>次には長提灯がぎっしりと並び、自動式に開き蝋燭が一斉に現われ点火されますが外は真昼にして何の効力もない様が見えて来ました。<br><br>次には靖国神社が見えて来その辺には苦しみ喘ぐ様な人々が一杯見えて来ました。<br><br>次には崖からトラックが真逆さまに転覆する様、それに乗車していた二人の人がぴんぴんで起き上ってくる。<br><br>それもその筈その人の胸からは金色の光が放射されている。<br><br>確かにお守様でありましょう。<br><br>御神前には先程の荒神様が見え、その前には肥大なる角力取の様な人がぎりっと縄にて縛られている様が見えてきました。<br><br>次には白いしぶきを巻き上げて滝壷に水が滔々と流れ、水煙をたてて渦を巻く、その中から恐ろしい龍神がでてくると、あちらからもこちらからも（明主様のお出まし下さるお椅子の周囲）集り恐ろしい形相にて待っている様が見えてきました。<br><br>女神が舟にて明主様のお側に送りつけられ手は合掌なされていました。<br><br>高貴な方々中でも僧侶が一杯列を作り明主様のお出ましをお出迎えなされていました。<br><br>中には立派そうな坊さんが暢気そうに食事をされていて間に合わなかった様も見えてきました。<br><br>まもなく明主様がお出座になられ明主様の御後には先程の荒神様が従って出てこられました。<br><br>暫く御垂示を頂く間この神様がずっと明主様の御後にお立ちになっていました。<br><br>荒神様の両側には赤塗りの丸い大きな柱の様な物が立っていました。<br><br>次に御質問に入りますと、明主様の御前には色々様々の薬瓶が運ばれますが明主様の御口から出る光により次々と落ちてしまう。<br><br>最後三つの瓶は時々動揺しますがまだテーブルの上に残っていました。<br><br>某氏のお伺いの際には某氏の左側には女神並びにお爺さんお婆さんが涙を流し有難そうにしていられる様が見え、明主様がお答え下さる時にはその方のすぐ前に明主様が拝されました。<br><br>また某氏の質問の時には背後に大きなライオンが鬚をぴんぴんさせている様が見えました。<br><br>○氏と○氏の談話中両氏の背後には夫々天狗が見張りをして盛んに睨みあっている様、その時の明主様の背後にはメシヤ観音様がお出ましになられ、にっこりにっこりしていらっしゃるお姿を拝しました。<br><br>金龍も笑っていました。<br><br>終には○○の龍神がぱっと口を開けると細い黒い棒を口にかまされてしまい見えなくなりました。<br><br>まもなく明主様の御前には色々の（茶色がかった表装）動物を持参致し広げては明主様にお見せいたしては蔵い、次から次から見る見る間に机上に一杯になってしまいました。<br><br>次に明主様の向って左斜後方に直径一寸位の青い竹が手摺の様に果しのない様な所から一條の長い長い竹が空間にうかび出て見え、その竹を右手で必ず触りながら歩み、帰りにも矢張右の手にて竹に触って元きた方向へ皆々行かれる立派な人がありました。<br><br>以上霊視している間に御垂示が終りました。<br><br> 御浄霊が始りますと、倒れている者、立つ者、泣く者、拝む者、色とりどりの地獄の様が見えてきましたが、見る見る間によくなり明主様の御前に集り礼拝している様が見え出しました。<br><br>明主様の御前には一人の男の人が現われ、名前の列記してある帳面を読み上げていらっしゃるようなところが見えてきました。<br><br> 辺りは白い服装の神々様がお並びになっていました。<br><br>そして明主様の向って左側には何十畳とある大広間の青畳が清潔の時に日光に干す時の様に横に並んでしまい、どうなる事かと思っていますと明主様の御身体から放射されますお光がその畳の間にさっと入ってゆき暫くしますと又元の様に敷き直ってしまいました。<br><br>お光は段々強烈となってきます。<br><br>崖の様な所からは赤い顔をした天狗さんが全部で三十人ばかり出てきて明主様のお言葉を拝聴致しひれふしている様が見えてきました。<br><br>次には大洪水の様が見えて来、巨大な龍神が舞い上り辺りが俄かに薄暗くなる所もありました。<br><br> 明主様のお傍には白髪の小柄なお婆さんがいらっしゃり時々頭髪を両手でおなでになっているお姿が暫く続いて見えました。<br><br>場内は邪気で薄暗くなっていましたが、御浄霊の終り頃には大分明るくなりました。<br><br>明主様の御前にはお姫様が金色の盃を次々に選ばれ金色のカップも見えてきました。<br><br>沢山の御馳走も選ばれ中でも鯛の刺身がとてもよく見えました。<br><br>場面が変り家屋の破壊の様、見る見る間に大都市が水になめつくされてしまう悲惨な光景が見えて来ました。<br><br>御浄霊が終り明主様のお帰り下さった後の御神前では先程お姫様がお運びになった御馳走で神々様はにこにこ笑いながら金色の盃で次々にお飲みになっていらっしゃる様が拝されました。<br><br> rattail（注） 昭和28年8月1日の特別ご面会のときの模様であるらしい。<br><br>『御垂示録』23号。<br><br> 「○氏と○氏の談話中」とあるのは木原理事と松井顧問のことか。<br><br> 〔 御垂示（S28年8月1日） 『御垂示録』23号、昭和28(1953)年8月15日発行〕参照 横帳＝和紙を半分に折り、右端を綴じて使う、文字通り横長の帳簿。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Diário de Visões Espirituais: Relato de uma Audiência Especial</h2>
 <p>No dia primeiro de agosto, tendo recebido a permissão para uma audiência especial, aguardava perante o Altar da Sede Central após concluir minhas orações. Ainda havia tempo até a chegada de Meishu-Sama, e cerca de cinco ou seis pessoas também se encontravam em adoração. Diante do Altar, pude contemplar a figura de Meishu-Sama realizando Sua refeição. Logo após, Ele surgiu novamente, trajado com vestes leves e sentado em serena quietude. Nesse instante, de um lugar incerto, diversas manifestações de Kannon (観音) começaram a aparecer, uma após a outra, a massagear-Lhe os ombros e as costas. Meishu-Sama parecia plenamente satisfeito, repousando num estado de leve sonolência. Em seguida, no lugar das Kannon, uma multidão de crianças com asas douradas, semelhantes a anjos, reuniu-se ao redor de Meishu-Sama, acariciando-O com suas mãos delicadas.</p>
@@ -106,5 +258,48 @@ function toggleLang(lang) {
 <p>A Luz tornava-se cada vez mais forte. De um lugar semelhante a um penhasco, surgiram cerca de trinta tengu de rosto avermelhado, que ouviram as palavras de Meishu-Sama e se prostraram em reverência. Depois, vi uma cena de um grande dilúvio, da qual um gigantesco deus-dragão ascendeu aos céus, fazendo com que a vizinhança fosse tomada por uma súbita penumbra.</p>
 <p>Ao lado de Meishu-Sama, permaneceu por algum tempo uma senhora idosa, de baixa estatura e cabelos brancos, que ocasionalmente Lhe afagava a cabeça com ambas as mãos. O ambiente, que estava obscurecido pela energia maligna, tornou-se consideravelmente mais claro ao final do Johrei. Diante de Meishu-Sama, uma princesa escolhia sucessivamente cálices dourados; vi também taças de ouro. Foram selecionados muitos manjares, entre os quais se destacava um sashimi de pargo, de aparência esplêndida. A cena mudou para a destruição de edifícios; uma cena trágica na qual uma grande metrópole era varrida pelas águas em um piscar de olhos.</p>
 <p>Após o término do Johrei e a retirada de Meishu-Sama, vi, diante do Altar, os deuses se banqueteando com os manjares trazidos pela princesa. Sorrindo alegremente, eles bebiam sucessivamente em cálices de ouro.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊視日記（11） 五三中教会 茨木よし子 『地上天国』55号、昭和28(1953)年12月25日発行 八月一日 特別御面会にお許しを頂き本部御神前にて礼拝を済まして待っていました。<br/><br/>明主様お出座迄にまだ時間もあり、五、六名参拝なさっている頃でありました。<br/><br/>御神前には明主様がお食事をお召上りなされていらっしゃるお姿が拝され、次には明主様が薄いお召物にして静かにお坐りなされるお姿が拝されますとどこからともなく色々な御姿のお観音様が、代る代る明主様の肩や腰をおさすりしていらっしゃる。<br/><br/>明主様は御満足そうにうつらうつらなされていらっしゃる様が拝されました。<br/><br/>次にお観音様と入代り天使のような金色の翼の生えた子供達が大勢明主様の周囲に集い来りて可愛らしい手にておさすり申している情景も拝されます。<br/><br/>場面が変り、多くの観音様や光明如来様がずらりとお並びお出座になられ私達の方を御覧になっていらっしゃるお姿が拝されました。<br/><br/>場面が又変り裸の玉の様な嬰児が現われ手足を泳ぐ様に動かし、傍には明主様と老年の女の方がその嬰児をあやしていらっしゃる和やかな情景が何時迄も何時迄も目に映りました。<br/><br/>次には「大神様は私如き者をお選び下さりて大経綸をなさる云々」と鬚のぼうぼう生えている荒男の様な人が書いている様も見えて来ました。<br/><br/>御神前の一段と低い所には机が並び向合せに男神二人女神二人がお並びになられ薄い横帳のような物を繰広げ微笑まれながら御覧になられていますと、お鬚が黒々と生えお顔丈が桜色、お姿は一見獣の様に全身毛だらけの見るからに荒々しい神様（お眼差はいと柔和に見える）がお出座になられ、じっと御覧になられますと足元にいらっしゃった神々様は一斉に跪きなさり、長い刀を持たれた男神が荒神様の右側にお立ちになっていました。<br/><br/>お茶碗に何か入れて持って来られるお方があり、その荒神様が一口召されフーッと吹かれますと見る間に白光と化し霧のようになって私達の頭上からこのお部屋一面に放射され、もうもうと薄墨色をなしている邪気を追ってしまい、虎狼等の悪霊が立所に消えてしまう様が見えました。<br/><br/>次に現在元気にて大いに活躍されています○○氏が病み衰えて黒い着物を着、寝所にて辺りをきょろきょろしていられる様が見えて来、見るもお気の毒な様が見えました。<br/><br/>次に余り立派でなさそうな神社の全景が見えて来る。<br/><br/>次には立派な石段の沢山あるお寺から坊さんがお供の人々や花嫁さんをつれて下りて来られる様が見える。<br/><br/>「大経綸々々々、神の大経綸に云々」と盛んに書いていらっしゃる人を見受けました。<br/><br/>以上メモ致しています間に御面会御許しの参拝者が御神前にお集りになりました。<br/><br/> 御神前には向って右側に紫の房（腰紐）を下まで垂らされた男神、左側には赤の房を垂らされた女神がお出ましになられた女神は易を広げられ男神は漆塗の笏を持っていらっしゃいました。<br/><br/>横手には大きな白狐がおとなしく待っている様が見えて来ました。<br/><br/>次に十二、三歳位の女児がカトリック信者の服装の母親らしき方に髪の手入をしてもらっている様子、幾組もの花嫁と花婿がずらりと並び明主様のお出ましを待兼ねていられる様子、皆々押すな押すなのへしあいでいっぱいでありました。<br/><br/>紅い雪洞を飾りつけ、紅い毛氈を敷きつめた綺麗なお座敷が現われ、そこには金欄の着物を着た十歳前後と思われる女の子が三人楽しそうに遊ぶ様が見え、御神前には顎鬚の白い老神が（仙人の様に見える）くねくねと曲った杖の様な物を持ってお立ちになっていられ両側には放射状に男神女神がお並びになっていらっしゃる様が見えて来ました。<br/><br/>何カ月振りに御面会を許され、黒龍達の弱り萎縮の様には只々驚く許りでありました。<br/><br/> お祈りが始りますと真中にいらっしゃる観音様は先程の明主様がおあやしなされていました玉のような嬰児をお抱きになられているお姿が拝されました。<br/><br/>多くの観音様方と入れかわられ白光は益々強烈と化し明生様のお姿が拝され、腹中の光の玉は身体からはみ出て拝されました。<br/><br/> 御讃歌を奏上致しますと昔人の老人が窶（やつ）れ果てて寝ている様、外は真夏の日差にして寝ている人の家は道路に画し、その周辺は石垣にして小川の水がさらさらと流れている。<br/><br/>「大神様の声聞けば……」とお書きになっている方も見受けました。<br/><br/>次には幾段にも引出しのついた戸棚がずらりと並び、その引出しの中には薬品並びにカルテが一杯入っていました。<br/><br/>噴霧機にて虫けら共を退治する様、見る見る間に死んでしまう。<br/><br/>次には無数に虫が湧く様が見えて来、次には医師、看護婦達がテーブルを囲み研究している様、手の手術をなし包帯している様等が見えて来ました。<br/><br/>次には長提灯がぎっしりと並び、自動式に開き蝋燭が一斉に現われ点火されますが外は真昼にして何の効力もない様が見えて来ました。<br/><br/>次には靖国神社が見えて来その辺には苦しみ喘ぐ様な人々が一杯見えて来ました。<br/><br/>次には崖からトラックが真逆さまに転覆する様、それに乗車していた二人の人がぴんぴんで起き上ってくる。<br/><br/>それもその筈その人の胸からは金色の光が放射されている。<br/><br/>確かにお守様でありましょう。<br/><br/>御神前には先程の荒神様が見え、その前には肥大なる角力取の様な人がぎりっと縄にて縛られている様が見えてきました。<br/><br/>次には白いしぶきを巻き上げて滝壷に水が滔々と流れ、水煙をたてて渦を巻く、その中から恐ろしい龍神がでてくると、あちらからもこちらからも（明主様のお出まし下さるお椅子の周囲）集り恐ろしい形相にて待っている様が見えてきました。<br/><br/>女神が舟にて明主様のお側に送りつけられ手は合掌なされていました。<br/><br/>高貴な方々中でも僧侶が一杯列を作り明主様のお出ましをお出迎えなされていました。<br/><br/>中には立派そうな坊さんが暢気そうに食事をされていて間に合わなかった様も見えてきました。<br/><br/>まもなく明主様がお出座になられ明主様の御後には先程の荒神様が従って出てこられました。<br/><br/>暫く御垂示を頂く間この神様がずっと明主様の御後にお立ちになっていました。<br/><br/>荒神様の両側には赤塗りの丸い大きな柱の様な物が立っていました。<br/><br/>次に御質問に入りますと、明主様の御前には色々様々の薬瓶が運ばれますが明主様の御口から出る光により次々と落ちてしまう。<br/><br/>最後三つの瓶は時々動揺しますがまだテーブルの上に残っていました。<br/><br/>某氏のお伺いの際には某氏の左側には女神並びにお爺さんお婆さんが涙を流し有難そうにしていられる様が見え、明主様がお答え下さる時にはその方のすぐ前に明主様が拝されました。<br/><br/>また某氏の質問の時には背後に大きなライオンが鬚をぴんぴんさせている様が見えました。<br/><br/>○氏と○氏の談話中両氏の背後には夫々天狗が見張りをして盛んに睨みあっている様、その時の明主様の背後にはメシヤ観音様がお出ましになられ、にっこりにっこりしていらっしゃるお姿を拝しました。<br/><br/>金龍も笑っていました。<br/><br/>終には○○の龍神がぱっと口を開けると細い黒い棒を口にかまされてしまい見えなくなりました。<br/><br/>まもなく明主様の御前には色々の（茶色がかった表装）動物を持参致し広げては明主様にお見せいたしては蔵い、次から次から見る見る間に机上に一杯になってしまいました。<br/><br/>次に明主様の向って左斜後方に直径一寸位の青い竹が手摺の様に果しのない様な所から一條の長い長い竹が空間にうかび出て見え、その竹を右手で必ず触りながら歩み、帰りにも矢張右の手にて竹に触って元きた方向へ皆々行かれる立派な人がありました。<br/><br/>以上霊視している間に御垂示が終りました。<br/><br/> 御浄霊が始りますと、倒れている者、立つ者、泣く者、拝む者、色とりどりの地獄の様が見えてきましたが、見る見る間によくなり明主様の御前に集り礼拝している様が見え出しました。<br/><br/>明主様の御前には一人の男の人が現われ、名前の列記してある帳面を読み上げていらっしゃるようなところが見えてきました。<br/><br/> 辺りは白い服装の神々様がお並びになっていました。<br/><br/>そして明主様の向って左側には何十畳とある大広間の青畳が清潔の時に日光に干す時の様に横に並んでしまい、どうなる事かと思っていますと明主様の御身体から放射されますお光がその畳の間にさっと入ってゆき暫くしますと又元の様に敷き直ってしまいました。<br/><br/>お光は段々強烈となってきます。<br/><br/>崖の様な所からは赤い顔をした天狗さんが全部で三十人ばかり出てきて明主様のお言葉を拝聴致しひれふしている様が見えてきました。<br/><br/>次には大洪水の様が見えて来、巨大な龍神が舞い上り辺りが俄かに薄暗くなる所もありました。<br/><br/> 明主様のお傍には白髪の小柄なお婆さんがいらっしゃり時々頭髪を両手でおなでになっているお姿が暫く続いて見えました。<br/><br/>場内は邪気で薄暗くなっていましたが、御浄霊の終り頃には大分明るくなりました。<br/><br/>明主様の御前にはお姫様が金色の盃を次々に選ばれ金色のカップも見えてきました。<br/><br/>沢山の御馳走も選ばれ中でも鯛の刺身がとてもよく見えました。<br/><br/>場面が変り家屋の破壊の様、見る見る間に大都市が水になめつくされてしまう悲惨な光景が見えて来ました。<br/><br/>御浄霊が終り明主様のお帰り下さった後の御神前では先程お姫様がお運びになった御馳走で神々様はにこにこ笑いながら金色の盃で次々にお飲みになっていらっしゃる様が拝されました。<br/><br/> rattail（注） 昭和28年8月1日の特別ご面会のときの模様であるらしい。<br/><br/>『御垂示録』23号。<br/><br/> 「○氏と○氏の談話中」とあるのは木原理事と松井顧問のことか。<br/><br/> 〔 御垂示（S28年8月1日） 『御垂示録』23号、昭和28(1953)年8月15日発行〕参照 横帳＝和紙を半分に折り、右端を綴じて使う、文字通り横長の帳簿。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

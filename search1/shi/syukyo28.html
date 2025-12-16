@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>syukyo28</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教の新店と老舖 『光』3号、昭和24(1949)年3月30日発行 つらつら世間を見る時、街の小売商店に二種あり、それは新店と老舗（しにせ）とである、人の知るごとく新店は新店で今後大いに発展せんとする気構えから、精気溌剌たるものがあるが、いかんせんいまだ信用が薄い、というのは客からみれば商品はどの程度優良であるが、値段も適当であるかどうかという事を心配するから自然試しに買うかあるいは間に合せ程度の買物でしかあるまい、ところが老舗となると客としては頭から絶対の信用をおく、何町の何店の何の品なら決して間違いはない、なまじ新店で不安心な思いして買物をするより安心して買えるから少々遠方でもそこへ行って買うし、また纏（まとま）ったものはなおさら買うという訳で、これは全く永年売り込んだ暖簾（のれん）のおかげである、従って新店の方は血の出るような勉強をして、老舗へ買いに行く客を幾分でも自分の方へ引きつけなければならないというのが実情で、これは誰も知っているところで、今更事新しく言う必要もない。<br><br> ところがこれと同じような事が宗教にもあるからおもしろい、御承知のごとく宗教の新店と来ては小売商人ところではない、頭から迷信邪教、インチキ宗教というように決められてしまうので実にああ無情という外はない、なるほどおっしゃる通りの新宗教も沢山あろうがまれには真物（ほんもの）のある事も知って貰いたい、それについてこういう事も考えなくてはならない、すなわち老舗であるあらゆる宗教も一番最初は新店であった事に間違いはない、それが段々年数が経って今日のごとき老舗となったのであるから、今日の新店といえども勉強して値も相当で品物も確実でありさえすれば、いつかは老舗になる訳である、ゆえに今日出来たての新店といえども全部インチキ邪教であるとするのは今述べたような点からみてたしかに間違っている。<br><br> 以上述べた理由によって批判の立場にある人々は新宗教を充分検討して、事実白か黒かの判断を下ししかる後筆をとるのが本当の態度ではないかと思うのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>As Religiões Novas e as Tradicionais</h2>
 <p>Ao contemplar atentamente a sociedade, percebo que no comércio há duas espécies de estabelecimentos: as lojas novas e as tradicionais. Como é de conhecimento geral, as lojas novas, impulsionadas pelo anseio de prosperar, irradiam um vigor contagiante. Contudo, carecem ainda de credibilidade, pois o cliente, naturalmente, questiona-se sobre a excelência dos produtos e a justeza dos preços. Por conseguinte, suas compras tendem a ser meramente experimentais ou para suprir uma necessidade imediata.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>O que torna essa analogia fascinante, todavia, é sua perfeita aplicação ao universo da religião. Como sabem, quando se trata de uma religião nova, a situação é muito mais severa do que a de um simples comerciante. De antemão, ela é rotulada como superstição, heresia ou estelionato espiritual, uma realidade verdadeiramente desoladora. Decerto, muitas novas religiões podem se enquadrar nessas descrições, mas é imperativo que se saiba que, entre elas, existem raras e autênticas joias.</p>
 <p>Nesse sentido, impõe-se uma reflexão: todas as religiões hoje consagradas como tradicionais foram, em sua origem, “estabelecimentos novos”. Foi somente com o transcorrer dos anos que elas se consolidaram e alcançaram o status de que hoje desfrutam. Da mesma forma, uma religião recém-fundada, desde que se dedique com afinco, ofereça ensinamentos de valor e demonstre sua veracidade, poderá um dia tornar-se tradicional. Portanto, julgar indiscriminadamente todas as novas religiões como fraudulentas ou heréticas é, à luz do que foi exposto, um equívoco manifesto.</p>
 <p>Pelas razões apresentadas, creio que a postura correta para aqueles que se colocam na posição de críticos seria examinar profundamente as novas religiões, a fim de discernir a verdade da falsidade. Somente após formarem um juízo fundamentado nos fatos, deveriam eles tomar da pena para se manifestar. A meu ver, esta é a única atitude verdadeiramente íntegra e responsável.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教の新店と老舖 『光』3号、昭和24(1949)年3月30日発行 つらつら世間を見る時、街の小売商店に二種あり、それは新店と老舗（しにせ）とである、人の知るごとく新店は新店で今後大いに発展せんとする気構えから、精気溌剌たるものがあるが、いかんせんいまだ信用が薄い、というのは客からみれば商品はどの程度優良であるが、値段も適当であるかどうかという事を心配するから自然試しに買うかあるいは間に合せ程度の買物でしかあるまい、ところが老舗となると客としては頭から絶対の信用をおく、何町の何店の何の品なら決して間違いはない、なまじ新店で不安心な思いして買物をするより安心して買えるから少々遠方でもそこへ行って買うし、また纏（まとま）ったものはなおさら買うという訳で、これは全く永年売り込んだ暖簾（のれん）のおかげである、従って新店の方は血の出るような勉強をして、老舗へ買いに行く客を幾分でも自分の方へ引きつけなければならないというのが実情で、これは誰も知っているところで、今更事新しく言う必要もない。<br/><br/> ところがこれと同じような事が宗教にもあるからおもしろい、御承知のごとく宗教の新店と来ては小売商人ところではない、頭から迷信邪教、インチキ宗教というように決められてしまうので実にああ無情という外はない、なるほどおっしゃる通りの新宗教も沢山あろうがまれには真物（ほんもの）のある事も知って貰いたい、それについてこういう事も考えなくてはならない、すなわち老舗であるあらゆる宗教も一番最初は新店であった事に間違いはない、それが段々年数が経って今日のごとき老舗となったのであるから、今日の新店といえども勉強して値も相当で品物も確実でありさえすれば、いつかは老舗になる訳である、ゆえに今日出来たての新店といえども全部インチキ邪教であるとするのは今述べたような点からみてたしかに間違っている。<br/><br/> 以上述べた理由によって批判の立場にある人々は新宗教を充分検討して、事実白か黒かの判断を下ししかる後筆をとるのが本当の態度ではないかと思うのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s270625</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年6月25日） 『御教え集』11号、昭和27(1952)年7月15日発行 昭和二十七年六月二十五日 【御教え】 今日、美術館はみんな見られたんでしょう。<br><br>だんだん整ってきたから、最初よりも良いつもりです。<br><br>この間、博物館長の浅野侯爵が来て見て、よくこんなに良いものを蒐められた、と言って驚いてました。<br><br>道具屋なんかも、あんまり良いものが多過ぎると言って――もったいないと言ってましたが、しかしそのくらいでなくては値打ちがない。<br><br>まあ、道具屋から借りたものもあるし――借金もだいぶあるから、みんなこっちのものばかりじゃないんですが、とにかくこれほどの美術館は絶対にないです。<br><br> この間「理研映画」の人が撮影に来ましたが、いずれ――フランスのカンヌという所で文化コンクールですか――毎年でしょう――あるそうですが、それにぜひ映画にして出したいという話なんで、これは今までにないんだそうです。<br><br>以前博物館で写したそうですが、あそこは仏教美術は豊富にありますから、それを写して、あと他の美術品を写そうとしても、あんまり適当したものがないので、中途で止めちゃったそうです。<br><br>しかしここなら大丈夫だという自信があるので、ぜひやらせてくれと言っている。<br><br>これは非常におもしろいです。<br><br>先の『羅生門』ですね――これは イタリアのヴェニスかどこかで、やはり映画コンクールで写して一等になったんです。<br><br>それで評判になった。<br><br>で、ああいう具合に世界的に評判になった。<br><br>この美術館も、カンヌのコンクールで一等になるかどうか分からないが、そこは映画ですから、いろいろ文化的なもので世界的の評判にでもなったら、それはすばらしいものです。<br><br>外国の人も見に来るでしょうし、日本人も今さらのように見に来ますからね。<br><br>『羅生門』でもそうでしたよ。<br><br>われわれが最初見みた時には、たいしたものとは思わなかったが、ああいう評判になってから見直してみて、今度見るとたいへん良くなるんです。<br><br>そんなような具合で、よほど希望があるわけです。<br><br>そのくらいの価値はあるわけなんです。<br><br>この庭から、桜の咲いた時、「さつき」の咲いた時、紅葉の時なんかを、庭園の方を写して、それから美術館の方の建築から設備、まあ美術品というような具合にやると、文化映画としての長さくらいはできますからね。<br><br>で、こういう映画は今までにないです。<br><br>だから、外国に出したら非常に受けるだろうと思ってます。<br><br>今、向こうも世界的に美術館ばやりですからね。<br><br>特に日本の美術品というのに非常に憧れているんですから、それを紹介したら、まず人気を拍することは間違いないと思います。<br><br>そうするとメシヤ教というものが、宗教的でなく、そういった面から、とにかく世界中に知れるということは、確かです。<br><br>なかなか、神様がうまくやりますから、そういうふうになるだろうと思ってます。<br><br> 今月の三十日、一日――三十日が新聞記者だとか、無論外国の新聞社もありますが、作家、芸能人――そういう階級の人を招待して見せようと思っている。<br><br>一日の方は著名人です。<br><br>そういった偉方を招待しようと思ってます。<br><br>外国の新聞にも載せるでしょうが、しゃべるのを翻訳するより、原稿を書いてくれという。<br><br>それを訳した方が非常に楽だからというので、今原稿を書いたんです――しゃべるようにね。<br><br>それを今読ませます。<br><br> （御論文「美術館建設の意義」）【栄光 一六四号】 いつも言うことですが、メシヤ教が宗教的に活動を始めたのは二十二年の八月ですから、三、四、五、六、七と、今年の八月で満五年になるわけです。<br><br>この間も、フランスの大きな雑誌で、『パリ・マッチ』の主筆が来て、いろんなことを聞いたんです。<br><br>今どのくらいの信者があるかと言うので、まあ三十万以上あるだろう、と。<br><br>いつ始めたかと言うから、五年前。<br><br>その始めた時はどのくらいの信者かと言うから、数百人くらいだろうと言うと、どうも信じられないようで、びっくりしたようでした。<br><br>だからいかに発展の速やかだということは分かります。<br><br>いったいその根本はなにかというと、病気が治ることです。<br><br>こう（御浄霊）やって病気が治るということです。<br><br>だから私の弟子はキリストくらいの奇蹟のできるのは、なんでもないと言うと、カトリックなんかが非常に根強い――キリストを信じている。<br><br>するとキリストよりか以上とすると、いったいどういう神様か。<br><br>キリスト以上の神様は、カトリックではないとしている。<br><br>と言うから、私はキリストは天の父ということを言っているではないか。<br><br>すなわち天の父という神様はキリストより上じゃないか。<br><br>などと、そんな話がありました。<br><br>それで美術館を見せてやりましたがね。<br><br>なにか言うと、奇蹟だと言うんです。<br><br>本当の値打ちは、外人ですから――それに、あんまり美術の研究が深くないようですから、解らないらしいですが、見た目が立派ですから、良いと思っているのでしょうが、こんなものがたくさん蒐まったということは奇蹟だと言っていました。<br><br> そんなわけで、奇蹟づくめです。<br><br>この美術館、神仙郷から熱海ですね。<br><br>いろいろ――五年間の仕事にしては驚異だろうと思います。<br><br>ここに来た時には、昭和十九年の五月でしたが、その時には最初神山荘です――あそこを買ってましたが、当時十六万円でした。<br><br>ところが私の懐には六万円しかない。<br><br>十万円どうしても足りない。<br><br>で、その話をしたところが、その時分に坂井さんがよく来られる時分で、じゃなんとかやったらできないこともありますまい、と言うので――その時は宗教的じゃないですから、病気の治った人が、宗教信者みたいに数百人というほどもないくらいですが、百人か二百人あったんです。<br><br>その人がみんな金を出して、十万円か十一万円出した。<br><br>それでやっと買えたんです。<br><br>それから二、三カ月して熱海にも良い家があるというので、私は行ってみたが非常に気に入ったんです。<br><br>今の東山荘です。<br><br>その時に値段が分からなくて――それも坂井さんといっしょに行ったんですが、帰りに私は三十万円くらいなら買おうと、そんな話をして、それから聞いたところが七十万と言うんです。<br><br>それはとても駄目だから諦める他しようがない、と言っているうちに、渋井さんに話したところ、一つできるだけやってみましょうと、それで三十万円くらいお金を持ってきたんです。<br><br>とにかく、じゃ買う方針でやってみようとやっているうちに、だんだん集まってきて、それからそうとう足りなかったが、また渋井さんが足りない分を持ってきて、どうやら七十万の金ができて買えたんです。<br><br>それほどその時分にはピーピーしていたわけです。<br><br>ふつうでは少し大胆すぎるんですが、そこがやはり神様を後ろ楯にしてますから、神様がなんとかしてくれるだろう、というわけでやったんです。<br><br>それに最初そういう経験があったんです。<br><br>今の東京の宝山荘ですね。<br><br>あの時にも、あの辺を探して歩いて、あそこが非常に気に入ったんです。<br><br>聞いてみるとその時分に十万円です。<br><br>よし、じゃ買おうと――買おうと言っても、こっちは五千円しかなかった。<br><br>こっちは買うつもりになって、それで歌まで書いたんです。<br><br>その時分には随分――むしろ無茶をやったんです。<br><br>その時分に信者なんてない。<br><br>わずか十人か二十人病気が治って信者みたいな人があったんです。<br><br>おまけに払うのも、きざんで払ったんです。<br><br>最初私の懐の五千円と、五千円借りて一万円にして、それで売る人も苦しいので――毎日借金で取られて苦しいので、一万円くれたら越すから、と言うので、一万円やって越してもらって、いろいろ苦労して三、四万円やった時に、あそこが競売になった。<br><br>今でも裁判してますが、五島慶太という人に取られたんですよ。<br><br>競売で取られたと思っていたところが、弁護士に聞いてみたところが、決定するには一週間だ。<br><br>一週間前になんとかすればつながると言うんです。<br><br>七日いっぱいに駄目になるんです。<br><br>それで七日の日に弁護士が日を忘れて気がつかなかった。<br><br>それで七日の日に申立書を書いて、裁判所にある、なにかのポストに入れたのが夜の十一時です。<br><br>あと一時間遅かったら駄目です。<br><br>まあ九分九厘ですね。<br><br>それでやっとつながったんです。<br><br>それであそこを土台にして基礎を作ったんです。<br><br>そのたいへんな役目をしたんです。<br><br>その役目をしたのも、わずか一週間の違いでなったんです。<br><br>実に、神様のすることはハラハラすることがあったんです。<br><br>近来はそういうことはないが、最初のうちは、そういうことがちょいちょいありました。<br><br>ですから随分いろいろ障害を乗り越えてきたんです。<br><br>熱海に来てからも、脱税問題とか、なんだかんだいろいろありましたが、なにしろ邪神との闘いですから、邪神はひっくり返そうとしてやるんですが、それは神様の方は――邪神は九分九厘で、神様は一厘ですから、一厘の違いですから、一厘で始終ひっくり返してます。<br><br>大本教のお筆先におもしろいのがあります。<br><br>「今度の仕組は九分九厘と一厘の闘いであるぞよ」なんてね。<br><br>まったくそうです。<br><br> とにかくそんな貧弱であったのが、今日美術館から、これは世界に誇るべきくらいのものができたということは、わずか数年の間にできたんですから、一大奇蹟と言って良いでしょう。<br><br>この美術館を造るにも、みんな知っているでしょうが、去年の今ごろは、まだまだ――あそこをかっぽじって、石を割ったりいろいろなことをしていた。<br><br>とにかく美術館の敷地だけ作っておこうというのでやっていたんです。<br><br>十月ごろになると、フッと気がついて、これはここに美術館を一日も早く建てたいですから――これはこの間新聞にも出してあった通り、そういった計画を始めて、それから私が図面とか、中の間取りというようなものを書いたんですが、夜一時間くらい二晩でできちゃったんです。<br><br>さもなければ設計なんか商売人にやらせるつもりだったが、そんな必要ないので、それからすぐに建築屋の方に任したわけです。<br><br>ところが、しかし金はやっぱりいくらもなかったですから、それこそ余裕なんかというのは少しもないです。<br><br>そこに美術館なんて建てるというと、最初は一千万円以上かかるというような設計でした。<br><br>で、阿部さんに相談し、いろんな事情を調べてみると、どうやらできないことはないというような話なんで、私もやはりそういう時は神様に乗っちゃいますから、神様がなんとかするというので、とにかく始めようというので、始めるとちょうどいるだけの金が集まってきて、ちっとも金の心配なくできたわけです。<br><br>まあ皆さんのお骨折りも大いに役立たしていますが、しかし神様は余裕と言うものは決して与えない。<br><br>困らせない代わりに、余裕というのは与えない。<br><br>実に不思議です。<br><br> しかしとにかくそんなようで、すべて美術品なんかが入るのも、奇蹟的に割合安く入るんです。<br><br>で、こっちの懐具合をちゃんと神様が見てやられるとみえて、こういう良いものが蒐まったのは、不思議だ、不思議だと言ってます。<br><br>そんなようなわけで、この美術館というものは世界にないはずなんですよ。<br><br>そういうような神様が御守護をする人は他にないから、かないっこないですね。<br><br>それで神様の経綸というものは、いつも言う通り型で行くんです。<br><br>こういった美術館ができると、これがだんだん広がって、世界的に美術がさかんになるわけです。<br><br>だから、もう現にだいぶ美術思想が、なんだかんだ盛りあがってきました。<br><br>で、しかも外国との美術による交通です。<br><br>日本の美術が――昨日の新聞にも、なんでもフランスに四十点か行くことになってますが、あっちの美術品もこっちに来る。<br><br>それからアメリカで日本の美術の展覧会があることになってます。<br><br>この間アメリカのロサンゼルスで支那陶器の展覧会があったんですが、その時に日本から十五点か出したんです。<br><br>しかし、その点においては日本とちょっと違います。<br><br>どこの家にはなにがあるか、どこの美術館にはなにがあるかとか調べてあって、ちゃんと注文してくる。<br><br>ちゃんと調べてある。<br><br>そのうちの十五点やった。<br><br>ところがイギリスとかアメリカのものも随分出たんですが、やはり日本の十五点が一番だったそうです。<br><br>で、あっちの雑誌のトップに日本の美術品が出ているんです。<br><br>それから批評なんかも、三分の二は日本のが出ていたそうです。<br><br>で、一品一品鑑賞するそうです。<br><br>フランス、ドイツ、イギリス、アメリカ、イタリア――その辺の支那陶器なんです。<br><br>調べてみて、やはり日本が一番なんです。<br><br>断然群を抜いてます。<br><br>で、日本でありながら支那陶器まで世界一ということは、おもしろいんですが、これは理由があるんです。<br><br>というのは、日本の支那陶器は伝世〔でんせい〕といって、昔から伝わっているんです。<br><br>大体藤原時代あたりから入ってますから――その前にもいくらか入ってます。<br><br>唐のものなんかは奈良朝時代にも入ってきてます。<br><br>ところが他で買ったのは、支那から買ったんです。<br><br>支那から買ったということは、みんな土中物といって土に埋まっていた。<br><br>日本のは土に埋まらないのが昔から伝わってきたんです。<br><br>だから同じ支那物でも、日本のものと西洋にあるものは違います。<br><br>土に生けるのとは、ぜんぜん艶が違います。<br><br>伝世といって、昔から日本に伝わったものはきれいなんです。<br><br>そこで支那陶器でも、今言った通り日本はすばらしいものです。<br><br>そんなような具合ですから、日本美術というのは、ほとんど西洋にはなかったので、ここにある支那陶器の――大英博物館は支那陶器で一番としてますが、全体から言ってもここの美術館の支那陶器の方が、それよりか上です。<br><br>二、三負けているのもありますが、全体から見てここの方が上です。<br><br>ですから、これだけの美術館の――支那陶器は一部ですが、それでいて大英博物館に勝っているということは、神様の仕事ということが良く分かるんです。<br><br>時間が来ましたから、そのくらいにしておきます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Milagre do Museu de Arte e a Providência Divina</h2>
 <p>Creio que hoje todos puderam visitar o Museu de Arte. Ele vem sendo aprimorado paulatinamente e, a meu ver, está em melhores condições do que no início. Recentemente, o Marquês Asano, diretor do Museu Nacional, esteve aqui e manifestou seu espanto, dizendo: “É impressionante que tenha conseguido reunir tantas obras de tamanha qualidade”. Até mesmo os antiquários comentam que a quantidade de peças excelentes é excessiva – quase um desperdício, dizem eles. Todavia, se não fosse assim, o museu não teria o seu devido valor. É verdade que algumas obras foram tomadas por empréstimo de antiquários, e ainda temos dívidas consideráveis, de modo que nem tudo nos pertence. Ainda assim, posso afirmar que não existe, em absoluto, um museu como este.</p>
@@ -109,5 +261,48 @@ function toggleLang(lang) {
 <p>É curioso que o Japão, mesmo não sendo a China, possua a melhor coleção de cerâmica chinesa do mundo. Há uma razão para isso. As peças no Japão são o que chamamos de <em>densei</em> (伝世), ou seja, foram transmitidas através das gerações desde a antiguidade. A maioria delas chegou ao país por volta do Período Fujiwara, e algumas até antes, como as da Dinastia Tang, que datam do Período Nara. Em contraste, as peças adquiridas por outros países vieram diretamente da China, sendo, em sua maioria, objetos escavados, que permaneceram enterrados por séculos. As peças do Japão, por outro lado, foram preservadas ao ar livre. Portanto, embora sejam todas chinesas, há uma diferença fundamental entre as que se encontram no Japão e as que estão no Ocidente. O brilho de uma peça preservada é completamente diferente do de uma que foi enterrada. As peças <em>densei</em> (伝世), transmitidas ao longo da história japonesa, são de uma beleza singular. É por isso que, como mencionei, a coleção de cerâmica chinesa do Japão é tão magnífica.</p>
 <p>Considerando que a arte japonesa era praticamente desconhecida no Ocidente, e que mesmo o Museu Britânico, famoso por sua coleção de cerâmica chinesa, é superado em qualidade geral pela coleção do nosso museu – embora possa haver duas ou três peças superiores lá –, fica evidente que este é um trabalho de Deus. A cerâmica chinesa é apenas uma parte do nosso acervo, mas o fato de superarmos até mesmo o Museu Britânico nesse quesito revela claramente a magnitude da Obra Divina.</p>
 <p>Como o tempo se esgotou, encerrarei por aqui.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年6月25日） 『御教え集』11号、昭和27(1952)年7月15日発行 昭和二十七年六月二十五日 【御教え】 今日、美術館はみんな見られたんでしょう。<br/><br/>だんだん整ってきたから、最初よりも良いつもりです。<br/><br/>この間、博物館長の浅野侯爵が来て見て、よくこんなに良いものを蒐められた、と言って驚いてました。<br/><br/>道具屋なんかも、あんまり良いものが多過ぎると言って――もったいないと言ってましたが、しかしそのくらいでなくては値打ちがない。<br/><br/>まあ、道具屋から借りたものもあるし――借金もだいぶあるから、みんなこっちのものばかりじゃないんですが、とにかくこれほどの美術館は絶対にないです。<br/><br/> この間「理研映画」の人が撮影に来ましたが、いずれ――フランスのカンヌという所で文化コンクールですか――毎年でしょう――あるそうですが、それにぜひ映画にして出したいという話なんで、これは今までにないんだそうです。<br/><br/>以前博物館で写したそうですが、あそこは仏教美術は豊富にありますから、それを写して、あと他の美術品を写そうとしても、あんまり適当したものがないので、中途で止めちゃったそうです。<br/><br/>しかしここなら大丈夫だという自信があるので、ぜひやらせてくれと言っている。<br/><br/>これは非常におもしろいです。<br/><br/>先の『羅生門』ですね――これは イタリアのヴェニスかどこかで、やはり映画コンクールで写して一等になったんです。<br/><br/>それで評判になった。<br/><br/>で、ああいう具合に世界的に評判になった。<br/><br/>この美術館も、カンヌのコンクールで一等になるかどうか分からないが、そこは映画ですから、いろいろ文化的なもので世界的の評判にでもなったら、それはすばらしいものです。<br/><br/>外国の人も見に来るでしょうし、日本人も今さらのように見に来ますからね。<br/><br/>『羅生門』でもそうでしたよ。<br/><br/>われわれが最初見みた時には、たいしたものとは思わなかったが、ああいう評判になってから見直してみて、今度見るとたいへん良くなるんです。<br/><br/>そんなような具合で、よほど希望があるわけです。<br/><br/>そのくらいの価値はあるわけなんです。<br/><br/>この庭から、桜の咲いた時、「さつき」の咲いた時、紅葉の時なんかを、庭園の方を写して、それから美術館の方の建築から設備、まあ美術品というような具合にやると、文化映画としての長さくらいはできますからね。<br/><br/>で、こういう映画は今までにないです。<br/><br/>だから、外国に出したら非常に受けるだろうと思ってます。<br/><br/>今、向こうも世界的に美術館ばやりですからね。<br/><br/>特に日本の美術品というのに非常に憧れているんですから、それを紹介したら、まず人気を拍することは間違いないと思います。<br/><br/>そうするとメシヤ教というものが、宗教的でなく、そういった面から、とにかく世界中に知れるということは、確かです。<br/><br/>なかなか、神様がうまくやりますから、そういうふうになるだろうと思ってます。<br/><br/> 今月の三十日、一日――三十日が新聞記者だとか、無論外国の新聞社もありますが、作家、芸能人――そういう階級の人を招待して見せようと思っている。<br/><br/>一日の方は著名人です。<br/><br/>そういった偉方を招待しようと思ってます。<br/><br/>外国の新聞にも載せるでしょうが、しゃべるのを翻訳するより、原稿を書いてくれという。<br/><br/>それを訳した方が非常に楽だからというので、今原稿を書いたんです――しゃべるようにね。<br/><br/>それを今読ませます。<br/><br/> （御論文「美術館建設の意義」）【栄光 一六四号】 いつも言うことですが、メシヤ教が宗教的に活動を始めたのは二十二年の八月ですから、三、四、五、六、七と、今年の八月で満五年になるわけです。<br/><br/>この間も、フランスの大きな雑誌で、『パリ・マッチ』の主筆が来て、いろんなことを聞いたんです。<br/><br/>今どのくらいの信者があるかと言うので、まあ三十万以上あるだろう、と。<br/><br/>いつ始めたかと言うから、五年前。<br/><br/>その始めた時はどのくらいの信者かと言うから、数百人くらいだろうと言うと、どうも信じられないようで、びっくりしたようでした。<br/><br/>だからいかに発展の速やかだということは分かります。<br/><br/>いったいその根本はなにかというと、病気が治ることです。<br/><br/>こう（御浄霊）やって病気が治るということです。<br/><br/>だから私の弟子はキリストくらいの奇蹟のできるのは、なんでもないと言うと、カトリックなんかが非常に根強い――キリストを信じている。<br/><br/>するとキリストよりか以上とすると、いったいどういう神様か。<br/><br/>キリスト以上の神様は、カトリックではないとしている。<br/><br/>と言うから、私はキリストは天の父ということを言っているではないか。<br/><br/>すなわち天の父という神様はキリストより上じゃないか。<br/><br/>などと、そんな話がありました。<br/><br/>それで美術館を見せてやりましたがね。<br/><br/>なにか言うと、奇蹟だと言うんです。<br/><br/>本当の値打ちは、外人ですから――それに、あんまり美術の研究が深くないようですから、解らないらしいですが、見た目が立派ですから、良いと思っているのでしょうが、こんなものがたくさん蒐まったということは奇蹟だと言っていました。<br/><br/> そんなわけで、奇蹟づくめです。<br/><br/>この美術館、神仙郷から熱海ですね。<br/><br/>いろいろ――五年間の仕事にしては驚異だろうと思います。<br/><br/>ここに来た時には、昭和十九年の五月でしたが、その時には最初神山荘です――あそこを買ってましたが、当時十六万円でした。<br/><br/>ところが私の懐には六万円しかない。<br/><br/>十万円どうしても足りない。<br/><br/>で、その話をしたところが、その時分に坂井さんがよく来られる時分で、じゃなんとかやったらできないこともありますまい、と言うので――その時は宗教的じゃないですから、病気の治った人が、宗教信者みたいに数百人というほどもないくらいですが、百人か二百人あったんです。<br/><br/>その人がみんな金を出して、十万円か十一万円出した。<br/><br/>それでやっと買えたんです。<br/><br/>それから二、三カ月して熱海にも良い家があるというので、私は行ってみたが非常に気に入ったんです。<br/><br/>今の東山荘です。<br/><br/>その時に値段が分からなくて――それも坂井さんといっしょに行ったんですが、帰りに私は三十万円くらいなら買おうと、そんな話をして、それから聞いたところが七十万と言うんです。<br/><br/>それはとても駄目だから諦める他しようがない、と言っているうちに、渋井さんに話したところ、一つできるだけやってみましょうと、それで三十万円くらいお金を持ってきたんです。<br/><br/>とにかく、じゃ買う方針でやってみようとやっているうちに、だんだん集まってきて、それからそうとう足りなかったが、また渋井さんが足りない分を持ってきて、どうやら七十万の金ができて買えたんです。<br/><br/>それほどその時分にはピーピーしていたわけです。<br/><br/>ふつうでは少し大胆すぎるんですが、そこがやはり神様を後ろ楯にしてますから、神様がなんとかしてくれるだろう、というわけでやったんです。<br/><br/>それに最初そういう経験があったんです。<br/><br/>今の東京の宝山荘ですね。<br/><br/>あの時にも、あの辺を探して歩いて、あそこが非常に気に入ったんです。<br/><br/>聞いてみるとその時分に十万円です。<br/><br/>よし、じゃ買おうと――買おうと言っても、こっちは五千円しかなかった。<br/><br/>こっちは買うつもりになって、それで歌まで書いたんです。<br/><br/>その時分には随分――むしろ無茶をやったんです。<br/><br/>その時分に信者なんてない。<br/><br/>わずか十人か二十人病気が治って信者みたいな人があったんです。<br/><br/>おまけに払うのも、きざんで払ったんです。<br/><br/>最初私の懐の五千円と、五千円借りて一万円にして、それで売る人も苦しいので――毎日借金で取られて苦しいので、一万円くれたら越すから、と言うので、一万円やって越してもらって、いろいろ苦労して三、四万円やった時に、あそこが競売になった。<br/><br/>今でも裁判してますが、五島慶太という人に取られたんですよ。<br/><br/>競売で取られたと思っていたところが、弁護士に聞いてみたところが、決定するには一週間だ。<br/><br/>一週間前になんとかすればつながると言うんです。<br/><br/>七日いっぱいに駄目になるんです。<br/><br/>それで七日の日に弁護士が日を忘れて気がつかなかった。<br/><br/>それで七日の日に申立書を書いて、裁判所にある、なにかのポストに入れたのが夜の十一時です。<br/><br/>あと一時間遅かったら駄目です。<br/><br/>まあ九分九厘ですね。<br/><br/>それでやっとつながったんです。<br/><br/>それであそこを土台にして基礎を作ったんです。<br/><br/>そのたいへんな役目をしたんです。<br/><br/>その役目をしたのも、わずか一週間の違いでなったんです。<br/><br/>実に、神様のすることはハラハラすることがあったんです。<br/><br/>近来はそういうことはないが、最初のうちは、そういうことがちょいちょいありました。<br/><br/>ですから随分いろいろ障害を乗り越えてきたんです。<br/><br/>熱海に来てからも、脱税問題とか、なんだかんだいろいろありましたが、なにしろ邪神との闘いですから、邪神はひっくり返そうとしてやるんですが、それは神様の方は――邪神は九分九厘で、神様は一厘ですから、一厘の違いですから、一厘で始終ひっくり返してます。<br/><br/>大本教のお筆先におもしろいのがあります。<br/><br/>「今度の仕組は九分九厘と一厘の闘いであるぞよ」なんてね。<br/><br/>まったくそうです。<br/><br/> とにかくそんな貧弱であったのが、今日美術館から、これは世界に誇るべきくらいのものができたということは、わずか数年の間にできたんですから、一大奇蹟と言って良いでしょう。<br/><br/>この美術館を造るにも、みんな知っているでしょうが、去年の今ごろは、まだまだ――あそこをかっぽじって、石を割ったりいろいろなことをしていた。<br/><br/>とにかく美術館の敷地だけ作っておこうというのでやっていたんです。<br/><br/>十月ごろになると、フッと気がついて、これはここに美術館を一日も早く建てたいですから――これはこの間新聞にも出してあった通り、そういった計画を始めて、それから私が図面とか、中の間取りというようなものを書いたんですが、夜一時間くらい二晩でできちゃったんです。<br/><br/>さもなければ設計なんか商売人にやらせるつもりだったが、そんな必要ないので、それからすぐに建築屋の方に任したわけです。<br/><br/>ところが、しかし金はやっぱりいくらもなかったですから、それこそ余裕なんかというのは少しもないです。<br/><br/>そこに美術館なんて建てるというと、最初は一千万円以上かかるというような設計でした。<br/><br/>で、阿部さんに相談し、いろんな事情を調べてみると、どうやらできないことはないというような話なんで、私もやはりそういう時は神様に乗っちゃいますから、神様がなんとかするというので、とにかく始めようというので、始めるとちょうどいるだけの金が集まってきて、ちっとも金の心配なくできたわけです。<br/><br/>まあ皆さんのお骨折りも大いに役立たしていますが、しかし神様は余裕と言うものは決して与えない。<br/><br/>困らせない代わりに、余裕というのは与えない。<br/><br/>実に不思議です。<br/><br/> しかしとにかくそんなようで、すべて美術品なんかが入るのも、奇蹟的に割合安く入るんです。<br/><br/>で、こっちの懐具合をちゃんと神様が見てやられるとみえて、こういう良いものが蒐まったのは、不思議だ、不思議だと言ってます。<br/><br/>そんなようなわけで、この美術館というものは世界にないはずなんですよ。<br/><br/>そういうような神様が御守護をする人は他にないから、かないっこないですね。<br/><br/>それで神様の経綸というものは、いつも言う通り型で行くんです。<br/><br/>こういった美術館ができると、これがだんだん広がって、世界的に美術がさかんになるわけです。<br/><br/>だから、もう現にだいぶ美術思想が、なんだかんだ盛りあがってきました。<br/><br/>で、しかも外国との美術による交通です。<br/><br/>日本の美術が――昨日の新聞にも、なんでもフランスに四十点か行くことになってますが、あっちの美術品もこっちに来る。<br/><br/>それからアメリカで日本の美術の展覧会があることになってます。<br/><br/>この間アメリカのロサンゼルスで支那陶器の展覧会があったんですが、その時に日本から十五点か出したんです。<br/><br/>しかし、その点においては日本とちょっと違います。<br/><br/>どこの家にはなにがあるか、どこの美術館にはなにがあるかとか調べてあって、ちゃんと注文してくる。<br/><br/>ちゃんと調べてある。<br/><br/>そのうちの十五点やった。<br/><br/>ところがイギリスとかアメリカのものも随分出たんですが、やはり日本の十五点が一番だったそうです。<br/><br/>で、あっちの雑誌のトップに日本の美術品が出ているんです。<br/><br/>それから批評なんかも、三分の二は日本のが出ていたそうです。<br/><br/>で、一品一品鑑賞するそうです。<br/><br/>フランス、ドイツ、イギリス、アメリカ、イタリア――その辺の支那陶器なんです。<br/><br/>調べてみて、やはり日本が一番なんです。<br/><br/>断然群を抜いてます。<br/><br/>で、日本でありながら支那陶器まで世界一ということは、おもしろいんですが、これは理由があるんです。<br/><br/>というのは、日本の支那陶器は伝世〔でんせい〕といって、昔から伝わっているんです。<br/><br/>大体藤原時代あたりから入ってますから――その前にもいくらか入ってます。<br/><br/>唐のものなんかは奈良朝時代にも入ってきてます。<br/><br/>ところが他で買ったのは、支那から買ったんです。<br/><br/>支那から買ったということは、みんな土中物といって土に埋まっていた。<br/><br/>日本のは土に埋まらないのが昔から伝わってきたんです。<br/><br/>だから同じ支那物でも、日本のものと西洋にあるものは違います。<br/><br/>土に生けるのとは、ぜんぜん艶が違います。<br/><br/>伝世といって、昔から日本に伝わったものはきれいなんです。<br/><br/>そこで支那陶器でも、今言った通り日本はすばらしいものです。<br/><br/>そんなような具合ですから、日本美術というのは、ほとんど西洋にはなかったので、ここにある支那陶器の――大英博物館は支那陶器で一番としてますが、全体から言ってもここの美術館の支那陶器の方が、それよりか上です。<br/><br/>二、三負けているのもありますが、全体から見てここの方が上です。<br/><br/>ですから、これだけの美術館の――支那陶器は一部ですが、それでいて大英博物館に勝っているということは、神様の仕事ということが良く分かるんです。<br/><br/>時間が来ましたから、そのくらいにしておきます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

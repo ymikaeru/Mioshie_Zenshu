@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ohoini1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 大いに神書を読むべし 『栄光』80号、昭和25(1950)年11月29日発行 今まで、本教の宣伝方法としては、浄霊と刊行物の二つによって行われて来た事は知る通りであるが、これからは今一つ座談会、講演会等を、各地に開いて宣伝するのである、これはもちろん耳からの宣伝で、今までの病気治しと目の宣伝の外に、今度から耳の宣伝が加わる訳だ、このように三位一体的方法によれば、大いに効果の挙がる事は、期待し得るであろう。<br><br> もちろん、耳の宣伝とは言葉によって本教に関する一切を知らせ、いかに本教が優れた宗教であるかを伝えるのである、そうして相手に対し、解らせるためには、こちらも信仰的智識が豊富であらねばならない、何しろ聞く者はなるほど救世教というものは実に立派なものだ、いい信仰だ、自分も是非入信したいという心を起させなければならない、そういう場合よく自分は喋舌（しゃべ）るのが下手だ、どうも巧く喋舌れないなどというが、これは間違っている、というのはいくらうまく喋舌ったところで、相手の心は動くものではない、いつもいう通り人を動かすには誠である、こちらの誠が先方の魂に触れる、つまり魂を揺り動かす、それだけである、喋舌る事のうまいまずいは二義的である。<br><br> 以上のように熱と誠で人を動かすとしても、それには充分理解が必要である、とすればこちらも自己の智識を磨く事で、何よりも出来るだけ御神書を読む事である、また質問を受ける場合が大いにあるから、それに対し一々明確な答弁が与えられなければ、相手は納得しないに決まっている、従ってどんなに難しい事でも相手が承知するだけの解答を与えなくてはならない、そうして特に注意すべきは、よく苦し紛れに嘘の答弁をする人がある、相手が激しく斬り込んでくると、心にもない一時逃れをするがこれは絶対いけない、仮にも神の信徒として嘘を吐くなどは許されない、知らない事は知らないと正直に言えばいいのである、ところが知らないというと相手が軽蔑しやしないかと思って知ってる振りをしたがるものだが、これが最もいけない、そうすると反って逆効果になる、というのは、知らない事は知らないというと、先方はこの先生は正直な人だから信用が出来ると思う事になる、いくら偉い人でも何でも知っているなんて人は恐らくない、だから知らない事があっても決して恥にはならないのである。<br><br> それから私に質問する場合、御神書の中にチャンとかいてある事柄がよくあるが、これらは平素全く御神書を読むのを怠っているからである、だから出来るだけ御神書を読む事で、読めば読む程信仰が深くなり、魂が磨けるのである、御神書の拝読を疎かにするものは力が段々減るものである、信仰が徹底すればする程貪（むさぼ）るように、読みたくなるもので、繰返し繰返し肚に入るまで読むのがよいのである、もちろん読めば読む程御神意がハッキリ判るものである。<br><br> これについて、ついでに今一つ言いたい事がある、それは浄霊の場合、病原が判らないのに、判ったような顔をしたがる、これは最もいけない、そういう人に限って思うように治らないと必ず霊的だと言って逃げる、本当からいえば病原が霊的か体的かなどは、非常に判り難いものであるが、人間は元来霊体一致だから、浄霊の場合差別はないのである。<br><br>というのは、霊が治れば体が治り、体が治れば霊が治るからである、ところが浄霊者は浄霊でスラスラ治れば普通の浄化と思うが、治らないと霊的と思いやすいが、これは大変な間違いである、ちょうどお医者が治りが悪い病気だと結核性にするのと同様である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Imperiosa Leitura dos Escritos Divinos</h2>
 <p>Até o presente momento, a difusão dos ensinamentos de nossa Igreja alicerçava-se em dois pilares: a prática do Johrei e nossas publicações. A partir de agora, contudo, acrescentaremos uma terceira vertente, que consistirá na realização de palestras e encontros para intercâmbio de experiências nos mais diversos locais. Trata-se, evidentemente, da difusão por meio da audição, que se somará à salvação pelas mãos e à instrução pela visão, proporcionada pelos textos escritos. Com essa abordagem trina, é lícito esperar que os resultados se amplifiquem sobremaneira.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Nesse sentido, devo fazer uma advertência especial: há quem, sentindo-se pressionado, recorra a respostas falsas para se esquivar de uma situação difícil. Isso é absolutamente inaceitável. Como devotos de Deus, a mentira é um ato imperdoável. Se não souber a resposta, basta admiti-lo com honestidade. Muitos temem que, ao confessar seu desconhecimento, possam ser menosprezados, e por isso fingem saber. Essa é a pior atitude a se tomar, pois gera o efeito contrário. Ao dizer “não sei”, a pessoa perceberá a sua honestidade e pensará: “Este orientador é digno de confiança”. Ninguém, por mais proeminente que seja, detém o conhecimento sobre todas as coisas. Portanto, não há vergonha alguma em não saber.</p>
 <p>Ademais, ocorre com frequência que me fazem perguntas cujas respostas se encontram claramente nos Escritos Divinos. Isso evidencia uma negligência na leitura por parte de quem pergunta. Insisto, pois: leiam os Escritos Divinos tanto quanto possível. Quanto mais leem, mais profunda se torna a fé e mais purificada, a alma. Aqueles que negligenciam essa prática veem sua força espiritual diminuir gradualmente. À medida que a fé se aprofunda, surge um anseio de lê-los vorazmente; é preciso lê-los repetidas vezes, até que os ensinamentos se internalizem por completo. Naturalmente, quanto mais se lê, com mais clareza se compreende a Vontade Divina.</p>
 <p>Aproveitando o ensejo, gostaria de abordar mais um ponto. No que tange à prática do Johrei, há ministrantes que, sem compreender a causa da doença, fingem tê-la decifrado. Essa é uma atitude sumamente prejudicial. São justamente essas pessoas que, quando a melhora não ocorre como o esperado, invariavelmente se esquivam, atribuindo o problema a uma causa espiritual. Na realidade, é extremamente difícil discernir se a origem de um mal é espiritual ou material. Contudo, como o ser humano é, em sua essência, uno de espírito e matéria, não há distinção na aplicação do Johrei, pois, ao se curar o espírito, cura-se o corpo, e ao se curar o corpo, cura-se o espírito. Ocorre que os ministrantes tendem a considerar uma purificação comum quando a recuperação é rápida, mas, diante de dificuldades, precipitam-se em julgá-la de ordem espiritual. Este é um erro gravíssimo, que se assemelha ao diagnóstico de um médico que, perante uma enfermidade de difícil tratamento, a classifica apressadamente como de natureza tuberculosa.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 大いに神書を読むべし 『栄光』80号、昭和25(1950)年11月29日発行 今まで、本教の宣伝方法としては、浄霊と刊行物の二つによって行われて来た事は知る通りであるが、これからは今一つ座談会、講演会等を、各地に開いて宣伝するのである、これはもちろん耳からの宣伝で、今までの病気治しと目の宣伝の外に、今度から耳の宣伝が加わる訳だ、このように三位一体的方法によれば、大いに効果の挙がる事は、期待し得るであろう。<br/><br/> もちろん、耳の宣伝とは言葉によって本教に関する一切を知らせ、いかに本教が優れた宗教であるかを伝えるのである、そうして相手に対し、解らせるためには、こちらも信仰的智識が豊富であらねばならない、何しろ聞く者はなるほど救世教というものは実に立派なものだ、いい信仰だ、自分も是非入信したいという心を起させなければならない、そういう場合よく自分は喋舌（しゃべ）るのが下手だ、どうも巧く喋舌れないなどというが、これは間違っている、というのはいくらうまく喋舌ったところで、相手の心は動くものではない、いつもいう通り人を動かすには誠である、こちらの誠が先方の魂に触れる、つまり魂を揺り動かす、それだけである、喋舌る事のうまいまずいは二義的である。<br/><br/> 以上のように熱と誠で人を動かすとしても、それには充分理解が必要である、とすればこちらも自己の智識を磨く事で、何よりも出来るだけ御神書を読む事である、また質問を受ける場合が大いにあるから、それに対し一々明確な答弁が与えられなければ、相手は納得しないに決まっている、従ってどんなに難しい事でも相手が承知するだけの解答を与えなくてはならない、そうして特に注意すべきは、よく苦し紛れに嘘の答弁をする人がある、相手が激しく斬り込んでくると、心にもない一時逃れをするがこれは絶対いけない、仮にも神の信徒として嘘を吐くなどは許されない、知らない事は知らないと正直に言えばいいのである、ところが知らないというと相手が軽蔑しやしないかと思って知ってる振りをしたがるものだが、これが最もいけない、そうすると反って逆効果になる、というのは、知らない事は知らないというと、先方はこの先生は正直な人だから信用が出来ると思う事になる、いくら偉い人でも何でも知っているなんて人は恐らくない、だから知らない事があっても決して恥にはならないのである。<br/><br/> それから私に質問する場合、御神書の中にチャンとかいてある事柄がよくあるが、これらは平素全く御神書を読むのを怠っているからである、だから出来るだけ御神書を読む事で、読めば読む程信仰が深くなり、魂が磨けるのである、御神書の拝読を疎かにするものは力が段々減るものである、信仰が徹底すればする程貪（むさぼ）るように、読みたくなるもので、繰返し繰返し肚に入るまで読むのがよいのである、もちろん読めば読む程御神意がハッキリ判るものである。<br/><br/> これについて、ついでに今一つ言いたい事がある、それは浄霊の場合、病原が判らないのに、判ったような顔をしたがる、これは最もいけない、そういう人に限って思うように治らないと必ず霊的だと言って逃げる、本当からいえば病原が霊的か体的かなどは、非常に判り難いものであるが、人間は元来霊体一致だから、浄霊の場合差別はないのである。<br/><br/>というのは、霊が治れば体が治り、体が治れば霊が治るからである、ところが浄霊者は浄霊でスラスラ治れば普通の浄化と思うが、治らないと霊的と思いやすいが、これは大変な間違いである、ちょうどお医者が治りが悪い病気だと結核性にするのと同様である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

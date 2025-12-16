@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>haikek04</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 肺結核 ・病気と霊一 『明日の医術 第三編』昭和18(1943)年10月23日発行 医学上、結核は黴菌の伝染に因る事は何人も疑を挿（はさ）まぬまでに鉄則となり、常識となっている事である。<br><br>しかるに私のいう所は、結核は黴菌による感染ではなく誤れる医療と、今ここに説かんとする霊的原因の二つによるという事である。<br><br> そうして、結核発病について、ある特異な現象のある事に気付かなければならない。<br><br>それは何かというと、例えば一家庭内において、子女の一人が結核によって死亡するとする。<br><br>間もなく、その兄弟姉妹の誰かが結核に罹り、又死亡する――という具合に、次々罹病し死亡する。<br><br>又夫婦の一方が結核の為死亡すると、暫くして残った一方が罹病し死亡する――これらをみれば、いずれも感染としか思えないのである。<br><br>しかるに、それを裏書するかのように、彼のコッホが結核菌を発見したのであるから、感染という理論が組立てられたのも無理はないと思うのである。<br><br> しかるに私は、右のごとき次々発生する結核の原因は、霊にある事を発見したのである。<br><br>そうして私が言う霊的作用とは左のごときものである。<br><br>即ち結核によって死亡した霊が霊界に往き霊界人となり、霊界の生活が始まるが、その際孤独に堪えない為、生前親しかった兄弟姉妹友人、夫や妻等を自分の方へ呼ぼうとするのであって、その目的の為に憑依するのである。<br><br>しかるにその場合、霊界人となっても病気は暫くの間以前のまま存続しているものであるから、憑依する以上結核症状となるのは勿論である。<br><br>かようにして、多くの者が次々現界から霊界へ転移するという事は全く恐るべきものである。<br><br>そうして死霊が憑依する場合、人間が元気旺盛であっては憑依し難いものであるが、心身共に疲労又は衰弱するにおいて、憑依し易くなるものである。<br><br>医学において心身過労し、抵抗力薄弱になると発病するというのは、実はこれらの原因による事もあるのである。<br><br>従って、最初単なる感冒位であったものが拗（こじ）れたる結果、相当衰弱した時憑依するものである。<br><br> 右の様な説は信じ難いであろうが、確乎（かっこ）たる事実である事を私は明言するのである。<br><br>それについての最も好適例をかいてみよう。<br><br> 私は先年、私の妻が突然発熱、咳嗽、血痰等の肺患三期位の症状を起したのである。<br><br>早速私が治療したが、頗（すこぶ）る効果が薄い。<br><br>二、三日経ても症状は一進一退である。<br><br>そこで、これは霊的ではないかと想ったので、憑依霊の有無を査（しら）べてみた所、果してそうであった。<br><br>そうしてその憑依霊は、一年程前私が扱った青年の結核患者であって、ついに死亡したのであるが、その青年は父親と二人暮しで、長い病気の為、金銭を費い尽し、赤貧洗うがごとき状態であったから、死後の追善供養などほとんど行わなかったのである。<br><br>従って、霊は霊界において孤独不遇であるから、私によって祀って貰いたい希望で、私の妻に憑依したのである――という事が判った。<br><br>そこで私は、準備もあるから明晩祀ってやる故、それまでこの肉体が苦しむから放れて待っておれ――と言った所、快く承諾し離脱したのである。<br><br>離脱するや、妻はケロリとなし、何ら平常と変りない状態となったので、私もあまりはっきりしているのに驚いたのである。<br><br>右の霊は、今でも私の家に祀ってある。<br><br> 今一つの例として面白いのがあった。<br><br>それはある花柳界の中年の婦人で、相当長い間咳嗽に悩まされ、肺結核の疑もあるといわれたので困って居った。<br><br>私は頼まれてその家へ行きまず患者に対したところ、霊的原因らしく思われたので霊査法を行ったのである。<br><br>すると突然横に倒れ、手足を縮め狐そのままの形状をするのである。<br><br>そこで私は査問を開始したところ、果して狐霊の憑依であった。<br><br>狐霊の語った要領は次のごとくである。<br><br>即ち「自分は伏見の熊鷹稲荷の眷族であって、憑依の目的は、遊んで楽をして美食が出来るからだ」というのである。<br><br>私は「この婦人より以前に憑いていたのは何人か」と訊（き）いたところ、矢張り某花柳界の若い婦人で、医者は肋膜炎といい、相当長期間病んでついに死んだとの事である。<br><br>私は狐霊の悪行為を咎（とが）め速かに改心して去らなければ、刑罰を加える事を申渡したので、狐霊は三拝九拝して去ったのである。<br><br>去ると共に患者は夢から醒めた様な風で、病気は拭（ぬぐ）うがごとく治癒したのである。<br><br>その時、私は熟々（つくづく）思った事は、万物の霊長などと威張っている人間が、狐霊などに自由に飜弄（ほんろう）され、病苦に悩み、ついに生命まで奪われるというに至っては、あまりにも情ないではないか――と。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdade sobre a Tuberculose e a Ação dos Espíritos</h2>
 <p>Segundo o postulado médico, a tuberculose é causada pela transmissão de um bacilo, o que se tornou um dogma tão irrefutável que já integra o senso comum. Contudo, o que afirmo é que sua origem não reside na infecção bacteriana, mas em duas outras causas: os tratamentos médicos equivocados e o fator espiritual que passarei a elucidar.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Houve outro caso, igualmente interessante. Tratava-se de certa senhora de meia-idade, ligada ao mundo das artes e do entretenimento, que sofria há muito tempo de uma tosse persistente, o que a afligia com a suspeita de tuberculose. Atendendo a um pedido, dirigi-me à sua residência. Ao me deparar com a paciente, senti que a causa era espiritual e, por isso, procedi à investigação. Subitamente, ela tombou de lado e contorceu-se, encolhendo os membros e assumindo a forma exata de uma raposa.</p>
 <p>Iniciei, então, o interrogatório, e de fato, tratava-se de um espírito de raposa acoplado. Em seu relato, a essência do que o espírito disse foi o seguinte: "Sou um familiar do Santuário Kumataka Inari, de Fushimi. Meu propósito ao me acoplar é simplesmente desfrutar de uma vida ociosa, com fartura de boa comida". Perguntei-lhe a quem havia se acoplado antes daquela senhora. Ele respondeu que fora a uma jovem, também do mesmo meio, que adoeceu por um longo período e acabou morrendo do que os médicos diagnosticaram como pleurisia. Repreendi-o severamente por sua má conduta e o intimei a se arrepender e partir de imediato, sob pena de sofrer um castigo exemplar. Diante disso, o espírito prostrou-se em reverência e partiu. Assim que ele se foi, a paciente, como se despertasse de um sonho, viu sua doença desaparecer como se tivesse sido varrida para longe.</p>
 <p>Naquele momento, refleti profundamente sobre quão deplorável é que o ser humano, que se envaidece com o título de "coroa da Criação", seja manipulado a bel-prazer por um simples espírito de raposa, a ponto de sofrer com doenças e até mesmo perder a vida. Não é algo profundamente lastimável?</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 肺結核 ・病気と霊一 『明日の医術 第三編』昭和18(1943)年10月23日発行 医学上、結核は黴菌の伝染に因る事は何人も疑を挿（はさ）まぬまでに鉄則となり、常識となっている事である。<br/><br/>しかるに私のいう所は、結核は黴菌による感染ではなく誤れる医療と、今ここに説かんとする霊的原因の二つによるという事である。<br/><br/> そうして、結核発病について、ある特異な現象のある事に気付かなければならない。<br/><br/>それは何かというと、例えば一家庭内において、子女の一人が結核によって死亡するとする。<br/><br/>間もなく、その兄弟姉妹の誰かが結核に罹り、又死亡する――という具合に、次々罹病し死亡する。<br/><br/>又夫婦の一方が結核の為死亡すると、暫くして残った一方が罹病し死亡する――これらをみれば、いずれも感染としか思えないのである。<br/><br/>しかるに、それを裏書するかのように、彼のコッホが結核菌を発見したのであるから、感染という理論が組立てられたのも無理はないと思うのである。<br/><br/> しかるに私は、右のごとき次々発生する結核の原因は、霊にある事を発見したのである。<br/><br/>そうして私が言う霊的作用とは左のごときものである。<br/><br/>即ち結核によって死亡した霊が霊界に往き霊界人となり、霊界の生活が始まるが、その際孤独に堪えない為、生前親しかった兄弟姉妹友人、夫や妻等を自分の方へ呼ぼうとするのであって、その目的の為に憑依するのである。<br/><br/>しかるにその場合、霊界人となっても病気は暫くの間以前のまま存続しているものであるから、憑依する以上結核症状となるのは勿論である。<br/><br/>かようにして、多くの者が次々現界から霊界へ転移するという事は全く恐るべきものである。<br/><br/>そうして死霊が憑依する場合、人間が元気旺盛であっては憑依し難いものであるが、心身共に疲労又は衰弱するにおいて、憑依し易くなるものである。<br/><br/>医学において心身過労し、抵抗力薄弱になると発病するというのは、実はこれらの原因による事もあるのである。<br/><br/>従って、最初単なる感冒位であったものが拗（こじ）れたる結果、相当衰弱した時憑依するものである。<br/><br/> 右の様な説は信じ難いであろうが、確乎（かっこ）たる事実である事を私は明言するのである。<br/><br/>それについての最も好適例をかいてみよう。<br/><br/> 私は先年、私の妻が突然発熱、咳嗽、血痰等の肺患三期位の症状を起したのである。<br/><br/>早速私が治療したが、頗（すこぶ）る効果が薄い。<br/><br/>二、三日経ても症状は一進一退である。<br/><br/>そこで、これは霊的ではないかと想ったので、憑依霊の有無を査（しら）べてみた所、果してそうであった。<br/><br/>そうしてその憑依霊は、一年程前私が扱った青年の結核患者であって、ついに死亡したのであるが、その青年は父親と二人暮しで、長い病気の為、金銭を費い尽し、赤貧洗うがごとき状態であったから、死後の追善供養などほとんど行わなかったのである。<br/><br/>従って、霊は霊界において孤独不遇であるから、私によって祀って貰いたい希望で、私の妻に憑依したのである――という事が判った。<br/><br/>そこで私は、準備もあるから明晩祀ってやる故、それまでこの肉体が苦しむから放れて待っておれ――と言った所、快く承諾し離脱したのである。<br/><br/>離脱するや、妻はケロリとなし、何ら平常と変りない状態となったので、私もあまりはっきりしているのに驚いたのである。<br/><br/>右の霊は、今でも私の家に祀ってある。<br/><br/> 今一つの例として面白いのがあった。<br/><br/>それはある花柳界の中年の婦人で、相当長い間咳嗽に悩まされ、肺結核の疑もあるといわれたので困って居った。<br/><br/>私は頼まれてその家へ行きまず患者に対したところ、霊的原因らしく思われたので霊査法を行ったのである。<br/><br/>すると突然横に倒れ、手足を縮め狐そのままの形状をするのである。<br/><br/>そこで私は査問を開始したところ、果して狐霊の憑依であった。<br/><br/>狐霊の語った要領は次のごとくである。<br/><br/>即ち「自分は伏見の熊鷹稲荷の眷族であって、憑依の目的は、遊んで楽をして美食が出来るからだ」というのである。<br/><br/>私は「この婦人より以前に憑いていたのは何人か」と訊（き）いたところ、矢張り某花柳界の若い婦人で、医者は肋膜炎といい、相当長期間病んでついに死んだとの事である。<br/><br/>私は狐霊の悪行為を咎（とが）め速かに改心して去らなければ、刑罰を加える事を申渡したので、狐霊は三拝九拝して去ったのである。<br/><br/>去ると共に患者は夢から醒めた様な風で、病気は拭（ぬぐ）うがごとく治癒したのである。<br/><br/>その時、私は熟々（つくづく）思った事は、万物の霊長などと威張っている人間が、狐霊などに自由に飜弄（ほんろう）され、病苦に悩み、ついに生命まで奪われるというに至っては、あまりにも情ないではないか――と。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

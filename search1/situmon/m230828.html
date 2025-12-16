@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>M230828</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S23年8月28日） 『御光話録（補）』発行年月日不明、推定昭和26年頃。<br><br> 昭和二十三年八月二十八日 ――御浄化を軽くすませていただくため、御軸に祝詞を奏上する場合「五六七大御神」と「幽世大御神」といずれを申し上げるべきでしょうか。<br><br> 御軸には「五六七大御神」が本当です。<br><br>ただ憑霊の病人の場合だけ「幽世大神」です。<br><br> 御軸にはいつも「五六七大御神」です。<br><br>幽世大神はいまは他の神がやっておられますから。<br><br> ――幽世大御神と幽世大神とどちらがよろしゅうございましょうか。<br><br> 御は尊称ですから大神でも大御神でも同じですが、幽世大神でいいです。<br><br>「五六七」のときは御を入れ大御神がよい。<br><br>御を入れるのは五六七大御神と天照大御神のお二人だけでよろしい。<br><br> ――弟子の御浄めしている重病人の住所姓名病状などを毎朝定時にお観音様に言霊で奏上し、御守護をお願いしてもよろしいでしょうか。<br><br> これは勿論で一種の遠隔的意味になる。<br><br>その場合あまりくどくどしく言わずにあっさり言うほうがよい。<br><br>すべて三度までよいのです。<br><br>だいたい神様はくどいことが嫌いで、くどいことが好きなのは邪神です。<br><br>だから祝詞も三度でよい。<br><br>もし三度以上あげるのなら間をおいてからがよい。<br><br> ――龍神系の婦人は結婚せぬほうがよろしいとのお言葉でしたが、龍神系か否かはどういう点で判断いたしたらよろしいでしょうか。<br><br> 結婚の話が出て順調に進めば龍神ではない。<br><br>龍神ならいっぽうが病気になったり、男が死んだりする。<br><br>また結婚しても女のほうが男を嫌うんです。<br><br>ちょっと見たところでは判りませんね。<br><br>故障が起ったら無理をしてはいけません。<br><br>ろくな結果は起きません。<br><br>龍神の婦人はどっちかと言うと美人に多いのです。<br><br>だからごく美人でなければ安心なわけです。<br><br>龍女は一般に妊娠しにくいですね。<br><br> ――憑依している龍神が浮かぶことはありましょうか。<br><br> 少ないです。<br><br>まれですね。<br><br>よく浮いてきてしゃべるのは狐です。<br><br>男の人が龍神系か否かは判ります。<br><br>こうやってみんなを見ていてもよく判ります。<br><br>それから水を非常に飲みたがるのです。<br><br> ――日の系統の者に龍神になったものはありましょうか。<br><br> それはないでしょう。<br><br> ――お道に関し我の強いのは龍神系でしょうか。<br><br> ええ、龍神、天狗は我が強いです。<br><br>今度本にも書いたのですが苦しみというのは我と執着があるからであって、これは本当ではない。<br><br>我とは主観のことで、自分の思っていることが正しいと思うことです。<br><br>だからつまり主観をすてて客観的に、自分を離れて自分を見ることが大切です。<br><br>理屈をつけるのは我です。<br><br>……自分で自分の間違いが判らないのは、それは智慧がないからです。<br><br>だから智慧を磨かねばいけない。<br><br>……信仰の標準は智慧と誠です。<br><br>自分のしていることがいいか悪いかも判らなくては駄目です。<br><br>仏教でも智慧証覚と言い、キリスト教でも智慧の木の実という。<br><br>智慧のない人は無駄をやっては失敗するんです。<br><br> ――智慧は神様から教えていただけるものと考えてよろしいでしょうか。<br><br> そうです。<br><br>ところが自分の我があるとそれをふさいでしまっていただけないのです。<br><br>ですから素直になることです。<br><br>世間には自分より偉い人の言葉はよく聞くが、下の人の言うことは聞かないという人が多いがそれが我なんです。<br><br>下の人の言うことを聞くことが雅量です。<br><br>私でも部下の人の言う通りにしてやる。<br><br>傍で見ると「大先生はなぜあんなことを聞いてやるのだろう」と思われるほどですが、それだから人々は喜んで働くのです。<br><br>きっと失敗するようなことを「どうでしょうか？」と言ってくると、私は「よい」と答える。<br><br>そうするとその人は失敗する。<br><br>ところが失敗して初めてその人は悟るんです。<br><br>智慧と誠とあとは常識です。<br><br>で、本当のことは常識に合っており合理的です。<br><br> ――「果報は寝て待て」とのありがたいお言葉をいただいておりますが、難関にぶつかったときいかに考えたらよいでしょうか。<br><br>（イ）最善の努力が払われなかったか。<br><br>（ロ）神様が止め給うたのか。<br><br>（ハ）邪神が邪魔しているのか。<br><br>（ニ）時期でないのか。<br><br> 「果報は寝て待て」とは寝て待つほどにゆったりすることです。<br><br>果報を追いかけてはいけない、来るのを待つということです。<br><br>この（イ）から（ニ）まではみんな合ってますが、最善の努力とはどの程度か分からない。<br><br>これは智慧です。<br><br>だから智慧の足らなかったことが多いのです。<br><br> ――例えば弟子の教導所が不振であるというふうなことは…… 私だって昔はそうだったんです。<br><br>いくら待ってもお客さんが来ない。<br><br>いろいろ考えたが一番は時機が来ないこと、それから誠、智慧が足らないことなどいろいろあります。<br><br>これは自分で悟ることです。<br><br>私は人にあまり言わずほおっておく。<br><br>それでその人は本当に悟るんです。<br><br>……邪神の邪魔は始終あります。<br><br>それは隙があるから邪神が打ち込んでくるんです。<br><br>その他あるいはなにか原因……罪があるからです。<br><br>人に騙されたとよく言うがそれはその人に騙されるだけの資格があるからです。<br><br>だから人を怨まず自分のことをよく考え反省することです。<br><br>いま世の中には強盗や不良が多いが、それは人民全部が腐っているからです。<br><br>物が腐ればウジが湧くのと同様です。<br><br>みんなが正しい心になれば悪い気分が起らなくなる。<br><br>いっさいは相応の理であって、すべて相応するのです。<br><br>いままではいっぽうばかり見て批判していた。<br><br>共産主義者は自分が怠けていて食えないくせに社会が悪いから食えないなどという。<br><br>一生懸命やって、食えないとか困ることなんかはないんです。<br><br>いつの世でも中には他人が成功するとその頭を抑えることばかりする人もあります。<br><br> ――腐った世のため正しい人まで苦しんでいるのはなぜでしょうか。<br><br> いやそれは正しくないのです。<br><br>本当に正しい人は苦しむことなどないのです。<br><br>本にも書いたように、悪人が改心して死ぬとき、二度と悪いことはすまいとの想念のため、悪いことをしない人間に生まれかわる。<br><br>世の中の正しい人にはこういう人が多いのです。<br><br>もしある人が本当に誠の人であるなら御守護によりそう困るものではないのです。<br><br>私もそうだが、古くからこの道をやっている人は物資なんか余るくらいです。<br><br> ――一人で同時に二人の異性を想うことは許されることでしょうか。<br><br>行為には表わさないで…… 想うことはしかたがない。<br><br>むしろこれは多く思うほどよい、愛が多い証拠だから。<br><br>私だって百人やそこらいますよ。<br><br>想うだけなら想ってもいいですよ。<br><br>行為に現わさねば罪にはならない。<br><br>私だって美人を見ればちょっと変な気にもなりますよ。<br><br> ――念の働きは罪にならないでしょうか。<br><br> 念とは祈念することであり美人を想うという想うこととは違うのです。<br><br>念と想いは違います。<br><br>念とは人間が神様に向かって念願し祈念することであり、人間が人間に対して念願や祈念することなんかない。<br><br>よく念を入れて考えたほうがよい…… ――愛し得ない夫婦が今後とも生活を続けることはたいへんな苦痛ですが、この苦しみを除けるよう神様のお許しをいただけましょうか。<br><br> たいへんな苦痛ですが、どうしてこれを解決するかということは人間にはできない、神様にお任せしたらよい。<br><br>そういうところは神様は実に気がきいてますよ。<br><br>ただね、夫婦は産土神が結合せられたのであって、人為的にやったのではないということだけは信じなければいけない。<br><br>無理に人間が結合したのは離れさせられるのです。<br><br>夫婦のうちいっぽうが反対する場合があるが、それはその反対により身魂が磨かれるのです。<br><br>そしていっぽうがいよいよ信仰を強め、霊的に高まるほど他のいっぽうはやがてそれについてくるか、あるいは離れてしまうかいずれかになります。<br><br>離れた場合、信仰のあるほうは霊的な高さがだいたい同じくらいの人とまた結ばれたりするんです。<br><br>国の場合も、周囲に敵があるとその国は発展するのです。<br><br>ヨーロッパの文化が発達したのも原因はそれです。<br><br>東洋にはそんなことがなくお互いに遠く離れていたりしたので、ノンキにしておられた。<br><br>従って文化の発展も遅れたのです。<br><br> ――神代時代は男女間の愛情の表現は自由であり、また一人で幾人もの異性を愛することもできたようですが、民主主義の今日このようなことは許されないことでしょうか。<br><br> これは少し虫がよすぎる。<br><br>人間の愛情はそんな簡単なものではない。<br><br>愛し合えない者は気の毒だが、しかしこれも神様が結んだのだから……なにごとも神様にお任せして霊的に向上することが幸福の原因なのです。<br><br> ――流産の子は何月くらいから祀ったらよろしいでしょう。<br><br>また石鹸や歯ブラシは世間並に朝夕使ってもよろしいでしょうか。<br><br> 胎児は五カ月から人間の部に入る。<br><br>だから祀らねばならないが、その方法は大人のような葬式はいりません。<br><br>よく胎児をアルコール漬にするが、霊はこれを非常に嫌うものです。<br><br>よく死んだ赤ん坊の霊が来て母の肩へとまることがありますが、そうすると急に肩が重くなったりします。<br><br>石鹸なんか大いに使ってよろしい。<br><br>歯ブラシは朝だけでいいでしょう。<br><br>また歯ブラシのため歯が悪くなることはない。<br><br>みんな薬のためです。<br><br>歯を磨くとき、歯よりむしろ肉を磨いたほうがよろしい。<br><br>歯ぐきから血が出たりすると歯がしまってきます。<br><br>劇しい歯痛は膿が骨に孔をあけるからで、そのときの膿はほとんど薬です。<br><br>ほかの場合でも劇痛は薬毒と思って差し支えない。<br><br>私の子供は生まれたときから薬を服ませないので痛みなんかほとんどないですね。<br><br>鬼歯というのは膿の固まり……毒結があるため歯が曲がって成長するのです。<br><br>治ります。<br><br>歯磨粉も薬の強いのはいけない。<br><br>以前坂井のほうで作っていたでしょう、あれがいいですよ。<br><br> ――肺結核の空洞とはどんな原因でできるのでしょうか。<br><br>また死霊憑依の肺結核の治療過程は…… 空洞というが私は合点が行かない。<br><br>私は医者ではないし解剖してみたくもないからはっきりしたことは言えないが、おそらく毒の固まりだと見ている。<br><br>肺病で死んだ体を解剖するとき、毒素が収縮して固まり空洞になるのでしょう。<br><br>……肺結核の場合体中どこからでも痰や咳が出る。<br><br>殊に頭と股です。<br><br>以前股だけやって肺病が治ったことがあります。<br><br>これは体のあらゆる部分の毒は溶けるといったん肺に入り痰になって外へ出るからで、肺はちょうどゴミダメのようなものです。<br><br>医者はこんなことが判らないのです。<br><br>肺結核なんかみんな医者が製造するのです。<br><br>だから大病院の近くは死亡率が高いですね。<br><br>なんだって物が停滞していてそこに湿気と温度があれば黴菌は湧くんです。<br><br>だから肺病はまったく自家発生です。<br><br>死霊が憑いて間もないのはすぐ出ます。<br><br>先に私の奥さんに肺病の霊が憑き、突然肺病三期の症状を呈した。<br><br>で、さっそく調べたら一年前に死んだ鈴木某で「祀ってやるから離れろ」と言ったところ、すぐけろりと治ってしまったことがありました。<br><br>肺病が重くなり衰弱すると憑くので、兄弟の霊も憑きやすいです。<br><br>それはなぜかというと重病で血が薄くなるとそれだけ霊も薄くなるので死霊なんかが憑きやすくなるのです。<br><br>死霊だと判ったら「いま訊ねるから首で返事をしろ」と言って、「あんたは死んだ人ですか」「男ですか」「年は若いか（老人か）」「肺病で死んだか」などそうして調べたらよい。<br><br>その場合患者は正座させておく。<br><br>あらかじめ観音様に「ただいまから調べますから御守護をお願いいたします」とお願いし、患者に祝詞を上げてから調べるのです。<br><br>また供養するにしても仏をただ祀るだけではだめで、女中に仏壇へ食物を上げさせても仏は食べられない。<br><br>やはり当事者が心をこめて祀ることです。<br><br> ――リウマチは霊的でしょうか、また十一年来の慢性固結性リウマチはいかがでしょうか。<br><br> 両方ありますが割に霊的のが多い。<br><br>霊的のは蛇が食いつくのです。<br><br>「竜魔口」のことです。<br><br>痛んでいるのならよく治りますが、医者だと板をあてて固めてしまうから棒のようになる。<br><br>それをまたマッサージなんかするのです。<br><br>手術して筋を切ったり膿を出したりするが、そんな手術をしてないのならひどいのも治ります。<br><br>かなり固まったのは長くかかるから辛抱強くすることです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Esclarecimentos Divinos de Agosto de 1948</h2>
 <p><strong>Pergunta:</strong> Para que o processo de purificação transcorra de forma mais amena, ao entoarmos a oração diante do Eixo Sagrado, qual divindade devemos invocar: "Miroku Oomikami" ou "Kakuriyo Oomikami"?</p>
@@ -128,5 +280,48 @@ function toggleLang(lang) {
 <p><strong>Meishu-Sama:</strong> Falam em "cavidades", mas é um conceito que não me convence. Não sou médico e não tenho interesse em realizar autópsias, então não posso afirmar com certeza, mas interpreto que se trata de nódulos de toxinas. Quando se autopsia o corpo de alguém que faleceu de tuberculose, as toxinas provavelmente se contraem, endurecem e formam o que parece uma cavidade. Na tuberculose, o catarro e a tosse podem se originar de qualquer parte do corpo, especialmente da cabeça e da virilha. Certa vez, curei um caso de tuberculose tratando apenas a região da virilha. Isso ocorre porque as toxinas de todas as partes do corpo, ao se dissolverem, confluem para os pulmões, transformam-se em catarro e são expelidas. Os pulmões funcionam como um depósito de resíduos. Os médicos desconhecem esse mecanismo. A tuberculose é, em grande parte, fabricada pelos próprios médicos. Por isso, a taxa de mortalidade nas proximidades de grandes hospitais é elevada. Qualquer substância estagnada, sob condições de umidade e temperatura, gerará germes. Portanto, a tuberculose é, em sua totalidade, uma doença de geração espontânea. Quando o encosto de um espírito de morto é recente, ele se afasta rapidamente. Certa vez, um espírito de tuberculoso encostou em minha esposa, que subitamente manifestou os sintomas de tuberculose em terceiro grau. Investiguei imediatamente e descobri que se tratava de um senhor chamado Suzuki, falecido um ano antes. Assim que lhe disse: "Vou cultuá-lo, então se afaste", ela se recuperou instantaneamente. O encosto ocorre quando a tuberculose se agrava e o paciente enfraquece. Espíritos de parentes, como irmãos, também podem se encostar com facilidade. Isso acontece porque, com a doença grave, o sangue se torna mais rarefeito, e, consequentemente, o corpo espiritual também se enfraquece, tornando-se suscetível à possessão por espíritos de mortos. Se suspeitar de um encosto, faça o paciente sentar-se em seiza e diga: "Vou fazer algumas perguntas, responda com a cabeça". Então, questione: "Você é uma pessoa falecida?", "É homem?", "Era jovem (ou idoso)?", "Morreu de tuberculose?". Antes de iniciar, peça proteção a Kannon (観音), dizendo: "Irei agora investigar, peço sua proteção", e entoe a Oração para o paciente. Para o culto, não basta apenas ofertar alimentos no oratório; se for a empregada a fazê-lo, o espírito não conseguirá se alimentar. É preciso que o responsável pelo culto o faça de coração.</p>
 <p><strong>Pergunta:</strong> O reumatismo tem origem espiritual? E o que dizer de um caso de reumatismo crônico anquilosante com onze anos de duração?</p>
 <p><strong>Meishu-Sama:</strong> Existem as duas causas, mas a origem espiritual é relativamente comum. Nesses casos, trata-se do ataque de um espírito de serpente. Quando há dor, a cura é bastante provável. A medicina, contudo, imobiliza a articulação com talas, tornando-a rígida como uma barra de ferro, e ainda aplicam massagens sobre isso. Realizam cirurgias para cortar tendões ou drenar pus. Se o paciente não passou por tais intervenções, mesmo casos graves podem ser curados. Articulações muito enrijecidas exigem um tratamento longo, portanto, é preciso perseverança.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S23年8月28日） 『御光話録（補）』発行年月日不明、推定昭和26年頃。<br/><br/> 昭和二十三年八月二十八日 ――御浄化を軽くすませていただくため、御軸に祝詞を奏上する場合「五六七大御神」と「幽世大御神」といずれを申し上げるべきでしょうか。<br/><br/> 御軸には「五六七大御神」が本当です。<br/><br/>ただ憑霊の病人の場合だけ「幽世大神」です。<br/><br/> 御軸にはいつも「五六七大御神」です。<br/><br/>幽世大神はいまは他の神がやっておられますから。<br/><br/> ――幽世大御神と幽世大神とどちらがよろしゅうございましょうか。<br/><br/> 御は尊称ですから大神でも大御神でも同じですが、幽世大神でいいです。<br/><br/>「五六七」のときは御を入れ大御神がよい。<br/><br/>御を入れるのは五六七大御神と天照大御神のお二人だけでよろしい。<br/><br/> ――弟子の御浄めしている重病人の住所姓名病状などを毎朝定時にお観音様に言霊で奏上し、御守護をお願いしてもよろしいでしょうか。<br/><br/> これは勿論で一種の遠隔的意味になる。<br/><br/>その場合あまりくどくどしく言わずにあっさり言うほうがよい。<br/><br/>すべて三度までよいのです。<br/><br/>だいたい神様はくどいことが嫌いで、くどいことが好きなのは邪神です。<br/><br/>だから祝詞も三度でよい。<br/><br/>もし三度以上あげるのなら間をおいてからがよい。<br/><br/> ――龍神系の婦人は結婚せぬほうがよろしいとのお言葉でしたが、龍神系か否かはどういう点で判断いたしたらよろしいでしょうか。<br/><br/> 結婚の話が出て順調に進めば龍神ではない。<br/><br/>龍神ならいっぽうが病気になったり、男が死んだりする。<br/><br/>また結婚しても女のほうが男を嫌うんです。<br/><br/>ちょっと見たところでは判りませんね。<br/><br/>故障が起ったら無理をしてはいけません。<br/><br/>ろくな結果は起きません。<br/><br/>龍神の婦人はどっちかと言うと美人に多いのです。<br/><br/>だからごく美人でなければ安心なわけです。<br/><br/>龍女は一般に妊娠しにくいですね。<br/><br/> ――憑依している龍神が浮かぶことはありましょうか。<br/><br/> 少ないです。<br/><br/>まれですね。<br/><br/>よく浮いてきてしゃべるのは狐です。<br/><br/>男の人が龍神系か否かは判ります。<br/><br/>こうやってみんなを見ていてもよく判ります。<br/><br/>それから水を非常に飲みたがるのです。<br/><br/> ――日の系統の者に龍神になったものはありましょうか。<br/><br/> それはないでしょう。<br/><br/> ――お道に関し我の強いのは龍神系でしょうか。<br/><br/> ええ、龍神、天狗は我が強いです。<br/><br/>今度本にも書いたのですが苦しみというのは我と執着があるからであって、これは本当ではない。<br/><br/>我とは主観のことで、自分の思っていることが正しいと思うことです。<br/><br/>だからつまり主観をすてて客観的に、自分を離れて自分を見ることが大切です。<br/><br/>理屈をつけるのは我です。<br/><br/>……自分で自分の間違いが判らないのは、それは智慧がないからです。<br/><br/>だから智慧を磨かねばいけない。<br/><br/>……信仰の標準は智慧と誠です。<br/><br/>自分のしていることがいいか悪いかも判らなくては駄目です。<br/><br/>仏教でも智慧証覚と言い、キリスト教でも智慧の木の実という。<br/><br/>智慧のない人は無駄をやっては失敗するんです。<br/><br/> ――智慧は神様から教えていただけるものと考えてよろしいでしょうか。<br/><br/> そうです。<br/><br/>ところが自分の我があるとそれをふさいでしまっていただけないのです。<br/><br/>ですから素直になることです。<br/><br/>世間には自分より偉い人の言葉はよく聞くが、下の人の言うことは聞かないという人が多いがそれが我なんです。<br/><br/>下の人の言うことを聞くことが雅量です。<br/><br/>私でも部下の人の言う通りにしてやる。<br/><br/>傍で見ると「大先生はなぜあんなことを聞いてやるのだろう」と思われるほどですが、それだから人々は喜んで働くのです。<br/><br/>きっと失敗するようなことを「どうでしょうか？」と言ってくると、私は「よい」と答える。<br/><br/>そうするとその人は失敗する。<br/><br/>ところが失敗して初めてその人は悟るんです。<br/><br/>智慧と誠とあとは常識です。<br/><br/>で、本当のことは常識に合っており合理的です。<br/><br/> ――「果報は寝て待て」とのありがたいお言葉をいただいておりますが、難関にぶつかったときいかに考えたらよいでしょうか。<br/><br/>（イ）最善の努力が払われなかったか。<br/><br/>（ロ）神様が止め給うたのか。<br/><br/>（ハ）邪神が邪魔しているのか。<br/><br/>（ニ）時期でないのか。<br/><br/> 「果報は寝て待て」とは寝て待つほどにゆったりすることです。<br/><br/>果報を追いかけてはいけない、来るのを待つということです。<br/><br/>この（イ）から（ニ）まではみんな合ってますが、最善の努力とはどの程度か分からない。<br/><br/>これは智慧です。<br/><br/>だから智慧の足らなかったことが多いのです。<br/><br/> ――例えば弟子の教導所が不振であるというふうなことは…… 私だって昔はそうだったんです。<br/><br/>いくら待ってもお客さんが来ない。<br/><br/>いろいろ考えたが一番は時機が来ないこと、それから誠、智慧が足らないことなどいろいろあります。<br/><br/>これは自分で悟ることです。<br/><br/>私は人にあまり言わずほおっておく。<br/><br/>それでその人は本当に悟るんです。<br/><br/>……邪神の邪魔は始終あります。<br/><br/>それは隙があるから邪神が打ち込んでくるんです。<br/><br/>その他あるいはなにか原因……罪があるからです。<br/><br/>人に騙されたとよく言うがそれはその人に騙されるだけの資格があるからです。<br/><br/>だから人を怨まず自分のことをよく考え反省することです。<br/><br/>いま世の中には強盗や不良が多いが、それは人民全部が腐っているからです。<br/><br/>物が腐ればウジが湧くのと同様です。<br/><br/>みんなが正しい心になれば悪い気分が起らなくなる。<br/><br/>いっさいは相応の理であって、すべて相応するのです。<br/><br/>いままではいっぽうばかり見て批判していた。<br/><br/>共産主義者は自分が怠けていて食えないくせに社会が悪いから食えないなどという。<br/><br/>一生懸命やって、食えないとか困ることなんかはないんです。<br/><br/>いつの世でも中には他人が成功するとその頭を抑えることばかりする人もあります。<br/><br/> ――腐った世のため正しい人まで苦しんでいるのはなぜでしょうか。<br/><br/> いやそれは正しくないのです。<br/><br/>本当に正しい人は苦しむことなどないのです。<br/><br/>本にも書いたように、悪人が改心して死ぬとき、二度と悪いことはすまいとの想念のため、悪いことをしない人間に生まれかわる。<br/><br/>世の中の正しい人にはこういう人が多いのです。<br/><br/>もしある人が本当に誠の人であるなら御守護によりそう困るものではないのです。<br/><br/>私もそうだが、古くからこの道をやっている人は物資なんか余るくらいです。<br/><br/> ――一人で同時に二人の異性を想うことは許されることでしょうか。<br/><br/>行為には表わさないで…… 想うことはしかたがない。<br/><br/>むしろこれは多く思うほどよい、愛が多い証拠だから。<br/><br/>私だって百人やそこらいますよ。<br/><br/>想うだけなら想ってもいいですよ。<br/><br/>行為に現わさねば罪にはならない。<br/><br/>私だって美人を見ればちょっと変な気にもなりますよ。<br/><br/> ――念の働きは罪にならないでしょうか。<br/><br/> 念とは祈念することであり美人を想うという想うこととは違うのです。<br/><br/>念と想いは違います。<br/><br/>念とは人間が神様に向かって念願し祈念することであり、人間が人間に対して念願や祈念することなんかない。<br/><br/>よく念を入れて考えたほうがよい…… ――愛し得ない夫婦が今後とも生活を続けることはたいへんな苦痛ですが、この苦しみを除けるよう神様のお許しをいただけましょうか。<br/><br/> たいへんな苦痛ですが、どうしてこれを解決するかということは人間にはできない、神様にお任せしたらよい。<br/><br/>そういうところは神様は実に気がきいてますよ。<br/><br/>ただね、夫婦は産土神が結合せられたのであって、人為的にやったのではないということだけは信じなければいけない。<br/><br/>無理に人間が結合したのは離れさせられるのです。<br/><br/>夫婦のうちいっぽうが反対する場合があるが、それはその反対により身魂が磨かれるのです。<br/><br/>そしていっぽうがいよいよ信仰を強め、霊的に高まるほど他のいっぽうはやがてそれについてくるか、あるいは離れてしまうかいずれかになります。<br/><br/>離れた場合、信仰のあるほうは霊的な高さがだいたい同じくらいの人とまた結ばれたりするんです。<br/><br/>国の場合も、周囲に敵があるとその国は発展するのです。<br/><br/>ヨーロッパの文化が発達したのも原因はそれです。<br/><br/>東洋にはそんなことがなくお互いに遠く離れていたりしたので、ノンキにしておられた。<br/><br/>従って文化の発展も遅れたのです。<br/><br/> ――神代時代は男女間の愛情の表現は自由であり、また一人で幾人もの異性を愛することもできたようですが、民主主義の今日このようなことは許されないことでしょうか。<br/><br/> これは少し虫がよすぎる。<br/><br/>人間の愛情はそんな簡単なものではない。<br/><br/>愛し合えない者は気の毒だが、しかしこれも神様が結んだのだから……なにごとも神様にお任せして霊的に向上することが幸福の原因なのです。<br/><br/> ――流産の子は何月くらいから祀ったらよろしいでしょう。<br/><br/>また石鹸や歯ブラシは世間並に朝夕使ってもよろしいでしょうか。<br/><br/> 胎児は五カ月から人間の部に入る。<br/><br/>だから祀らねばならないが、その方法は大人のような葬式はいりません。<br/><br/>よく胎児をアルコール漬にするが、霊はこれを非常に嫌うものです。<br/><br/>よく死んだ赤ん坊の霊が来て母の肩へとまることがありますが、そうすると急に肩が重くなったりします。<br/><br/>石鹸なんか大いに使ってよろしい。<br/><br/>歯ブラシは朝だけでいいでしょう。<br/><br/>また歯ブラシのため歯が悪くなることはない。<br/><br/>みんな薬のためです。<br/><br/>歯を磨くとき、歯よりむしろ肉を磨いたほうがよろしい。<br/><br/>歯ぐきから血が出たりすると歯がしまってきます。<br/><br/>劇しい歯痛は膿が骨に孔をあけるからで、そのときの膿はほとんど薬です。<br/><br/>ほかの場合でも劇痛は薬毒と思って差し支えない。<br/><br/>私の子供は生まれたときから薬を服ませないので痛みなんかほとんどないですね。<br/><br/>鬼歯というのは膿の固まり……毒結があるため歯が曲がって成長するのです。<br/><br/>治ります。<br/><br/>歯磨粉も薬の強いのはいけない。<br/><br/>以前坂井のほうで作っていたでしょう、あれがいいですよ。<br/><br/> ――肺結核の空洞とはどんな原因でできるのでしょうか。<br/><br/>また死霊憑依の肺結核の治療過程は…… 空洞というが私は合点が行かない。<br/><br/>私は医者ではないし解剖してみたくもないからはっきりしたことは言えないが、おそらく毒の固まりだと見ている。<br/><br/>肺病で死んだ体を解剖するとき、毒素が収縮して固まり空洞になるのでしょう。<br/><br/>……肺結核の場合体中どこからでも痰や咳が出る。<br/><br/>殊に頭と股です。<br/><br/>以前股だけやって肺病が治ったことがあります。<br/><br/>これは体のあらゆる部分の毒は溶けるといったん肺に入り痰になって外へ出るからで、肺はちょうどゴミダメのようなものです。<br/><br/>医者はこんなことが判らないのです。<br/><br/>肺結核なんかみんな医者が製造するのです。<br/><br/>だから大病院の近くは死亡率が高いですね。<br/><br/>なんだって物が停滞していてそこに湿気と温度があれば黴菌は湧くんです。<br/><br/>だから肺病はまったく自家発生です。<br/><br/>死霊が憑いて間もないのはすぐ出ます。<br/><br/>先に私の奥さんに肺病の霊が憑き、突然肺病三期の症状を呈した。<br/><br/>で、さっそく調べたら一年前に死んだ鈴木某で「祀ってやるから離れろ」と言ったところ、すぐけろりと治ってしまったことがありました。<br/><br/>肺病が重くなり衰弱すると憑くので、兄弟の霊も憑きやすいです。<br/><br/>それはなぜかというと重病で血が薄くなるとそれだけ霊も薄くなるので死霊なんかが憑きやすくなるのです。<br/><br/>死霊だと判ったら「いま訊ねるから首で返事をしろ」と言って、「あんたは死んだ人ですか」「男ですか」「年は若いか（老人か）」「肺病で死んだか」などそうして調べたらよい。<br/><br/>その場合患者は正座させておく。<br/><br/>あらかじめ観音様に「ただいまから調べますから御守護をお願いいたします」とお願いし、患者に祝詞を上げてから調べるのです。<br/><br/>また供養するにしても仏をただ祀るだけではだめで、女中に仏壇へ食物を上げさせても仏は食べられない。<br/><br/>やはり当事者が心をこめて祀ることです。<br/><br/> ――リウマチは霊的でしょうか、また十一年来の慢性固結性リウマチはいかがでしょうか。<br/><br/> 両方ありますが割に霊的のが多い。<br/><br/>霊的のは蛇が食いつくのです。<br/><br/>「竜魔口」のことです。<br/><br/>痛んでいるのならよく治りますが、医者だと板をあてて固めてしまうから棒のようになる。<br/><br/>それをまたマッサージなんかするのです。<br/><br/>手術して筋を切ったり膿を出したりするが、そんな手術をしてないのならひどいのも治ります。<br/><br/>かなり固まったのは長くかかるから辛抱強くすることです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

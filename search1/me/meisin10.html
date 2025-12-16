@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>meisin10</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 迷信非迷信 『栄光』258号、昭和29(1954)年4月26日発行 標題のごとき迷信、非迷信について、私は是非一度は言わねばならない重要な事があるので、ここにかいたのである。<br><br>それは何かというと、私は随分長い間現代医学と農業について鋭い批判のメスを揮って来たが、それは前者の医学が病気を作り、悪化させ、生命をも脅（おびや）かすものであるという事と、後者の肥料によって地力を弱め、虫害、倒伏、不作等の原因を作るというこの二つを二大迷信として、極力啓蒙宣伝に努めて来たが、それに気付くどころか現在政府はじめ学者、専門家等は益々援助奨励している事である。<br><br>しかもこれは日本のみではなく、世界共通の文化的理念となっている今日、これを分らせる事は難事中の難事である。<br><br> そのような中へ、私の説たるやこれまでの常識から言っても余りに飛躍しすぎているので、到底理解は困難である。<br><br>何しろこの問題に関しては、国家的最重要事である以上、年々巨額の国帑（こくど）を支出し、多数の大学、専門学校等を設立、生徒を養成すると共に、大仕掛な設備、研究機関等、至れり尽くせりの方法を講じており、世界各国の文化水準より後れじと大童（おおわらわ）になっている現在、それを私は根本的迷信であり、有害無益な存在として警告を与えていると共に、事実を以って立証しているのであるから、当事者としては反対は出来ず、といって今直に取上げる事も事情が許さないというのが現状であろう。<br><br> これを分りやすくいえば昔の切支丹（キリシタン）バテレンと同様、今日の文化がいまだ低級であるため気が付かず、既成科学を唯一無上のものとしている。<br><br>という訳でおかしな言い方かも知れないが、私は科学封建として、この丁髷（ちょんまげ）思想をして、第二の文明開化の風に吹飛さねばならない事を痛感するのである。<br><br>もっともこの事は洋の東西を問わず、昔から時代を超越した新発見、新宗教等発生の場合、一度は必ずと言いたい程当時の有識者から誤解の洗礼を受けるのが御定（おさだま）りとなっており、これが先駆者の悩みと言ってよかろう。<br><br>故に私といえども予期はしていたが、それがため時を遅らす事が遺憾と思っている。<br><br>そうしてよく考えて貰いたい事は、もし私の説が異端であり、迷信であるとしたら、そのような文化の反逆行為は許すべからざるものとして、断乎弾圧し抹殺すべきであるが、それは恐らく不可能であるどころか、反って薮蛇となるおそれがあろう。<br><br>何となればこの私の説の信奉者は日に月に増えつつある現状をみれば、そこに動かすべからざる根拠があるからである。<br><br> 察するに当事者は私の説が余りに桁外れで容易に信じられないが、そうかといって理論上からは反駁（はんぱく）の余地なく、事実の立証はいかんともなし難いので、一種のジレンマに陥り、静観の止むを得ないのであろう。<br><br>もしそうだとすれば、この考え方こそ実に無責任もはなはだしく事なかれ主義の姑息（こそく）的態度としか思えない。<br><br>何しろ国際競争劇甚（げきじん）な今日、これほど人類に対する超文化的救いの偉業はないのであるから、これこそ日本の誇りとして大々的世界に向って推奨すべきであり、しかも我が国現在の行詰りを打開するに最も有力なものである以上、一日も早く取上げ調査研究に取掛るべきであろう。<br><br>その結果私の言にいささかでも誤りがあるとしたら、断乎制圧を加えるもよし、もし真実であり、確かに世界にも国家社会にもプラスであるとしたら、速かに援助すべきが至当であろう。<br><br>それと共に既成文化の誤謬も発見されるに違いないから、是正すればいい訳である。<br><br>ところが当事者は呑気（のんき）千万にも、本教を以って世間並の新宗教と同一視し、何ら積極的態度に出ないのは、怠慢が進取的情熱の足りないためか、理解に苦しむのである。<br><br>故に私は言う、何よりも大乗的見地に立って白か黒か、迷信か非迷信かを速かに決定する事であって、これが根本である。<br><br>そうして私がこの事を急に言い出したのは、外（ほか）でもない、近来アメリカのジャーナリストが私を訪問し、私の説を聞きたがり、私の事業を研究する人達が、漸次増えつつある事実であって、このまま進むとしたら、近き将来アメリカの識者間に相当問題となるのは予想されるからで、その時になって肝腎な御膝元の日本の識者が茫然自失するような事があっては、一種の国辱でもあろうから、今の内に警告する次第である。<br><br> これは私の臆測ではない。<br><br>目下有力な米国のジャーナリストで、重要な責務のため数年前から日本に在住している某氏の言によれば、最近日本の外務当局や有力な幾人かのジャーナリストに、私の事業が世界平和建設に大なる貢献の価値ありとして推奨したところ、ほとんど歯牙（しが）にもかけない態度には唖然としたとの事である。<br><br>これでも分るごとく、米人間には、漸次私と私の事業に注目を払うようになりつつある事は、喜びに堪えないのである。<br><br> (注) 国帑（こくど）、国庫の財貨。<br><br>国財。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Superstição e Verdade</h2>
 <p>Sinto-me no dever de dissertar sobre a questão da superstição e da verdade, pois há um ponto de suma importância que necessita ser esclarecido de uma vez por todas. Há um tempo considerável que venho empunhando o bisturi de uma crítica incisiva contra a medicina e a agricultura modernas. Faço-o por denunciar que a primeira, em vez de curar, gera e agrava doenças, chegando a ceifar vidas, enquanto a segunda, por meio de seus fertilizantes, enfraquece a força vital da terra, tornando-se causa de pragas, acamamento de culturas e colheitas fracas. Venho me esforçando ao máximo para proclamar e esclarecer que estas são as duas grandes superstições de nossa era. Contudo, longe de se darem conta disso, o governo, os acadêmicos e os especialistas lhes oferecem cada vez mais apoio e incentivo. E como esta não é uma realidade restrita ao Japão, mas um ideal cultural compartilhado em todo o mundo, fazer-se compreender a respeito é um dos maiores desafios imagináveis.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Se, ao final desse processo, for encontrado o menor erro em minhas palavras, que me apliquem as mais severas sanções. Mas, se forem a expressão da verdade e trouxerem um benefício inegável para o mundo, para a nação e para a sociedade, o justo seria que recebessem pronto auxílio. Com toda certeza, os equívocos da cultura estabelecida também viriam à tona, e bastaria então corrigi-los. No entanto, as autoridades, em sua espantosa passividade, tratam nossa Igreja como apenas mais uma nova religião, sem adotar qualquer medida proativa. É difícil compreender se tal inércia se deve à letargia ou à carência de um espírito empreendedor.</p>
 <p>O que exorto, portanto, é que, acima de tudo, adotem uma perspectiva ampla e decidam rapidamente se o que apresento é verdadeiro ou falso, se é verdade ou superstição. Este é o ponto fundamental. A razão pela qual abordo este assunto com tamanha urgência é o fato de, recentemente, jornalistas americanos terem começado a me visitar, ávidos por ouvir minhas teorias e estudar minha obra. Essa tendência vem crescendo de forma gradual, e é previsível que, em um futuro próximo, o assunto se torne um tema de considerável relevância entre os intelectuais dos Estados Unidos. Quando isso ocorrer, seria uma espécie de vergonha nacional se os intelectuais do Japão, o berço de tudo isso, fossem apanhados perplexos e alheios. Por isso, faço este alerta desde já.</p>
 <p>E isto não é mera conjectura. Segundo me relatou um proeminente jornalista americano que reside no Japão há vários anos em virtude de uma importante missão, ele recentemente recomendou minha obra a autoridades do Ministério das Relações Exteriores e a outros influentes jornalistas japoneses, ressaltando seu grande valor para a construção da paz mundial. Para sua estupefação, a atitude deles foi de total indiferença. Como se pode ver por este relato, os americanos estão gradualmente voltando sua atenção para mim e para minha obra, o que para mim é motivo de imensa alegria.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 迷信非迷信 『栄光』258号、昭和29(1954)年4月26日発行 標題のごとき迷信、非迷信について、私は是非一度は言わねばならない重要な事があるので、ここにかいたのである。<br/><br/>それは何かというと、私は随分長い間現代医学と農業について鋭い批判のメスを揮って来たが、それは前者の医学が病気を作り、悪化させ、生命をも脅（おびや）かすものであるという事と、後者の肥料によって地力を弱め、虫害、倒伏、不作等の原因を作るというこの二つを二大迷信として、極力啓蒙宣伝に努めて来たが、それに気付くどころか現在政府はじめ学者、専門家等は益々援助奨励している事である。<br/><br/>しかもこれは日本のみではなく、世界共通の文化的理念となっている今日、これを分らせる事は難事中の難事である。<br/><br/> そのような中へ、私の説たるやこれまでの常識から言っても余りに飛躍しすぎているので、到底理解は困難である。<br/><br/>何しろこの問題に関しては、国家的最重要事である以上、年々巨額の国帑（こくど）を支出し、多数の大学、専門学校等を設立、生徒を養成すると共に、大仕掛な設備、研究機関等、至れり尽くせりの方法を講じており、世界各国の文化水準より後れじと大童（おおわらわ）になっている現在、それを私は根本的迷信であり、有害無益な存在として警告を与えていると共に、事実を以って立証しているのであるから、当事者としては反対は出来ず、といって今直に取上げる事も事情が許さないというのが現状であろう。<br/><br/> これを分りやすくいえば昔の切支丹（キリシタン）バテレンと同様、今日の文化がいまだ低級であるため気が付かず、既成科学を唯一無上のものとしている。<br/><br/>という訳でおかしな言い方かも知れないが、私は科学封建として、この丁髷（ちょんまげ）思想をして、第二の文明開化の風に吹飛さねばならない事を痛感するのである。<br/><br/>もっともこの事は洋の東西を問わず、昔から時代を超越した新発見、新宗教等発生の場合、一度は必ずと言いたい程当時の有識者から誤解の洗礼を受けるのが御定（おさだま）りとなっており、これが先駆者の悩みと言ってよかろう。<br/><br/>故に私といえども予期はしていたが、それがため時を遅らす事が遺憾と思っている。<br/><br/>そうしてよく考えて貰いたい事は、もし私の説が異端であり、迷信であるとしたら、そのような文化の反逆行為は許すべからざるものとして、断乎弾圧し抹殺すべきであるが、それは恐らく不可能であるどころか、反って薮蛇となるおそれがあろう。<br/><br/>何となればこの私の説の信奉者は日に月に増えつつある現状をみれば、そこに動かすべからざる根拠があるからである。<br/><br/> 察するに当事者は私の説が余りに桁外れで容易に信じられないが、そうかといって理論上からは反駁（はんぱく）の余地なく、事実の立証はいかんともなし難いので、一種のジレンマに陥り、静観の止むを得ないのであろう。<br/><br/>もしそうだとすれば、この考え方こそ実に無責任もはなはだしく事なかれ主義の姑息（こそく）的態度としか思えない。<br/><br/>何しろ国際競争劇甚（げきじん）な今日、これほど人類に対する超文化的救いの偉業はないのであるから、これこそ日本の誇りとして大々的世界に向って推奨すべきであり、しかも我が国現在の行詰りを打開するに最も有力なものである以上、一日も早く取上げ調査研究に取掛るべきであろう。<br/><br/>その結果私の言にいささかでも誤りがあるとしたら、断乎制圧を加えるもよし、もし真実であり、確かに世界にも国家社会にもプラスであるとしたら、速かに援助すべきが至当であろう。<br/><br/>それと共に既成文化の誤謬も発見されるに違いないから、是正すればいい訳である。<br/><br/>ところが当事者は呑気（のんき）千万にも、本教を以って世間並の新宗教と同一視し、何ら積極的態度に出ないのは、怠慢が進取的情熱の足りないためか、理解に苦しむのである。<br/><br/>故に私は言う、何よりも大乗的見地に立って白か黒か、迷信か非迷信かを速かに決定する事であって、これが根本である。<br/><br/>そうして私がこの事を急に言い出したのは、外（ほか）でもない、近来アメリカのジャーナリストが私を訪問し、私の説を聞きたがり、私の事業を研究する人達が、漸次増えつつある事実であって、このまま進むとしたら、近き将来アメリカの識者間に相当問題となるのは予想されるからで、その時になって肝腎な御膝元の日本の識者が茫然自失するような事があっては、一種の国辱でもあろうから、今の内に警告する次第である。<br/><br/> これは私の臆測ではない。<br/><br/>目下有力な米国のジャーナリストで、重要な責務のため数年前から日本に在住している某氏の言によれば、最近日本の外務当局や有力な幾人かのジャーナリストに、私の事業が世界平和建設に大なる貢献の価値ありとして推奨したところ、ほとんど歯牙（しが）にもかけない態度には唖然としたとの事である。<br/><br/>これでも分るごとく、米人間には、漸次私と私の事業に注目を払うようになりつつある事は、喜びに堪えないのである。<br/><br/> (注) 国帑（こくど）、国庫の財貨。<br/><br/>国財。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

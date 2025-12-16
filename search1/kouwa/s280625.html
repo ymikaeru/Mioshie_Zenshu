@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s280625</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年6月25日） 『御教え集』23号、昭和28(1953)年7月15日発行 昭和二十八年六月二十五日 いつも奇蹟はありますが、最近のお蔭話の中に「奇蹟中の奇蹟」というのがありました。<br><br>それは、六つになる子供ですが、ふつう医学上では、小便が出ないのは八時間以上は危険だとなっているのですが、六日間出なかったのです。<br><br>それで命は取り止めました。<br><br>ところが睾丸と陰茎が、膿がひどく出るために根本から取れてぶら下がって、なにもなくなってしまったのです。<br><br>だからそこから腸が出ないかと心配したくらいです。<br><br>その跡が握り拳ぐらいあったのです。<br><br>それがわずかの間に元通りに生えたのです。<br><br>その批評をつけたお蔭話を今読ませます。<br><br>これは『毎日新聞』に話して出したいと思います。<br><br>また出す値打ちがあります。<br><br>しかしまた宗教宣伝になるから出さないかもしれませんが、出さなければ出さないで新聞社の連中だけに分からせるだけでもよいです。<br><br>それから、これは駄目でしょうが、岡田道一さんに医師会に発表できるかどうか聞いてみようと思います。<br><br>そうすればそうとうな幹部のお医者さんが見ますから、それだけでも効果があると思います。<br><br> （御論文「超奇蹟」）【栄光 二一八号】 今読んだとおりで、驚くべき奇蹟です。<br><br>今までにもいろいろな奇蹟はありましたが、こんなすばらしいのは初めてです。<br><br> 御伺い 五月十五日に行ってまいりまして本人の陰部を見てまいりましたが、陰茎は一寸五分くらい、睾丸は小さな盃くらいで三分の二くらい下がっております。<br><br>まことにありがとうございました。<br><br> それから私は前から言おうと思ってはいましたが、これで気がついたので言います。<br><br>重病の場合でもう治る見込みがないという時に「どんなになっても、まだそんな失望するにあたらないから、しっかりしていろ」と言って慰めますが、これは本当言うといけません。<br><br>やはり生の執着が御守護の邪魔をするのです。<br><br>治すのは、正守護神が神様の方から力をいただいて、自分がお取り次ぎして治すのですが、その場合に生の執着があると、正守護神の思うとおりにならないのです。<br><br>本人や周囲の者の執着心が邪魔するので、治る場合も治らないということも大いにあります。<br><br>ですからこれからは、もう駄目だと思ったら、早く本人に諦めさせるのです。<br><br>「これはもう駄目だ、死ぬ覚悟をしなさい」と言った方が、かえって助かるのです。<br><br> このことは私も経験がありますが、私は二十八の時にチフスをし、自分でもとても助かるとは思えないので遺言をしたのです。<br><br>それは前の家内の時で、当時小間物屋だったが、「自分はもう駄目だから、自分が死んだら商売は誰々に任して、こういうようにしろ」と言ったくらいですから、ぜんぜん生の執着が取れたのです。<br><br>それで知っている人の兄が医学博士で、病院が近くにあるのでそこに頼んだのです。<br><br>そうするとその医者が来て診た結果、これは入院しても助かる見込みはない。<br><br>助かる見込みのない者をみすみす入れるということは、病院の信用を落とすからお断りすると断られたのです。<br><br>ところがそのころの私の家は狭くて、起居する部屋は二部屋しかないので、もしもの時に大勢人が来ても狭いから、死んでもよいから入院させてくれと、院長の弟が友達だったからその方から頼んで、やっとはいったのです。<br><br>それでその当時は自動車はなくて人力車でしたが、人力車にも乗れなかったので、担架に乗って担いでもらって行ったのです。<br><br>そして寝ながら町を歩いている人を見て、これで人を見るのも見おさめだと思ったのです。<br><br>そうしたら夢とも現（うつつ）ともなく墓場が見えてしようがなかったのです。<br><br>それで自分は駄目だとよけい思われました。<br><br>しかしどうやら息はつながっているのです。<br><br>そうして非常に強い薬で、この薬が効かなければもう駄目だと言われたが、それをのまされるとその苦しいの苦しくないの、実に苦しかったです。<br><br>それでも死なずにいました。<br><br>そこで係の医者が、最初の見立ては肺炎だというのですが、その医者は肺炎とは思えない、チフスと思うから試験してみようというので、発泡薬というのでツユを取るのですが、ツユを取って顕微鏡で見たら、確かにチフスだということで、チフスの手当てをしなければならないということになったのです。<br><br>チフスは絶対流動物であって、チフスには薬はないのです。<br><br>それから絶対流動物で、だんだんよくなって治ったのです。<br><br>そういうようで、生の執着を取ったことがよかったのです。<br><br> それには本人が肝腎なのです。<br><br>本人に「あなたはもう駄目だから諦めなさい」と言い渡した方がよいです。<br><br>それから本人ばかりでなく、親や周囲の近親者も大事なのです。<br><br>近親者の執着の霊が邪魔します。<br><br>ですから霊の邪魔というのが非常に重大なのです。<br><br>それはそれとして、家の中に非常に反対している者がある場合に、反対している者は「もしか治ると自分が恥をかいたりするから、どうしても治らないように」と一生懸命に思うその霊がまた非常に邪魔をするのです。<br><br>そこで、執着はなんにでもいけませんが、執着はどこまでも逆効果になるということを心得ておかなければいけません。<br><br>これは病気ばかりでなく、他のことにもあります。<br><br>よく、金が欲しい金が欲しいと思いますが、その金の執着がある間は、金ははいらないのです。<br><br>その執着が邪魔するのです。<br><br>まして信仰にはいっていればなおさらです。<br><br>そういうことは忘れて、どうでもよいと思うようになるとはいってくるので、実に皮肉なものです。<br><br>ですからあの人に信仰のことを分からせよう分からせようと思っていると相手は分からないのです。<br><br>勝手にしろ、それだけの御守護があれば分かるし、さもなければ駄目だから、と忘れてしまうのです。<br><br>そうすると先方で信仰にはいりたいと頼みに来ます。<br><br>ですから良いことでも執着は邪魔するのです。<br><br>ある程度骨折って、あと思うとおりゆかない時は、ほったらかしておくのです。<br><br>そうするとあんがいよいものです。<br><br> それからこの前の時に「結核は浄霊するだけは毒が減ってゆくから、病気が治りつつあるのに悪化する」ということについて話しましたが、それは衰弱のためです。<br><br>ということは食欲が減るためです。<br><br>再浄化の時にはよくあります。<br><br>再浄化の時には、長くのんだ薬毒が咳になり痰になり、また熱が出る。<br><br>そうすると咳で夜も眠られないとか、非常にセキ込んで体力を非常に消耗します。<br><br>それから熱というものが、やはり体力をもっとも消耗するものです。<br><br>そのために薬毒はだんだん取れつつあるにかかわらず、衰弱を増してくるのです。<br><br>それを補うには食事より他にありません。<br><br>その食欲を出すには、一番に肩を柔らかくするのです。<br><br>これは結核ばかりでなく、なんの病気でもそうです。<br><br>胃が悪い人でもそうです。<br><br>肩を柔らかくすると非常に食欲が増します。<br><br>ですから胃病の人は胃をやるより肩をやる方が効果があります。<br><br>前に言ったことがありますが、健康診断は肩で分かります。<br><br>肩が柔らかい人は健康です。<br><br>病人で助かる病人と助からない病人は、肩が柔らかい人は随分悪くても助ります。<br><br>それから肩の固い人はそれほどでなくても駄目になってしまいます。<br><br>健康上一番重要なのは肩の固い柔らかいということです。<br><br> それからもう一つおもしろいことは、成功者の人の肩は必ず柔らかいのです。<br><br>私は以前そうとう偉い人を時々治療しましたが、成功した人は肩が柔らかいです。<br><br>今でも覚えているのは、近ごろの特需で軍器製造をやっている、前の三菱重工業の社長で、今ふたたびそういう地位になっている郷古潔（ごうこきよし）という人の肩は非常に柔らかくて、固い所は少しもありません。<br><br>それからこの間大臣になった田子一民という人の肩も柔らかいです。<br><br>それから大分県の人で前の内務大臣の後藤文夫という人も肩が柔らかいです。<br><br>その他にもまだいますが、最近社会に出た人だけを例にあげたのです。<br><br>そういうようで、成功する人は肩が柔らかいのです。<br><br>なぜかというと、肩が柔らかい人は非常に精力が続くのです。<br><br>だからどこまでも突進して行くから成功するのです。<br><br>それでたいていな人は、そうとうにやっても途中で挫けるのです。<br><br>いい加減な所で妥協してしまうのです。<br><br>欲が制限されるのです。<br><br>それだから中途半端になってしまうのです。<br><br>それは肩の原因が大いにあるのです。<br><br>だから子供などの肩を柔らかくしてやるということが、子供が社会に出て出世するとか、あるいは学校の成績がよいということになります。<br><br> これからは病気についても、一切は肩を柔らかくするという主義でやらなければいけません。<br><br>これは私は前から知っていますが、どうも今まではいい加減にしていたのです。<br><br>それで最近、私は薬毒がたくさんあるので方々を浄霊しているうちに、肩が非常に固くて骨みたいな物があります。<br><br>それを去年あたりから肩を中心にして浄霊していたら、近ごろは柔らかくなって、食欲が倍くらいになって、体の具合が非常によいのです。<br><br>それで前から知りながら、今さらのように気づいたので話をするのです。<br><br>人の肩もそうですが、自分の肩も固い人は自分でやればよいです。<br><br>それから私はいつかここにいる三尋木さんをやったことがあるが、柔らかいよい肩です。<br><br>ですから事実において健康です。<br><br>それから肩の柔らかい人はみんな太ってます。<br><br>それは食欲が増えるからして太るわけです。<br><br>そういうようで、まず肩を柔らかくすると、すべてにおいてよいです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Milagre da Regeneração e o Desapego</h2>
 <p>Embora milagres sejam uma constante em nossa Obra, recebi recentemente um relato que pode ser considerado “o milagre dos milagres”. Trata-se do caso de uma criança de seis anos que, contrariando o conhecimento médico segundo o qual a retenção urinária superior a oito horas já representa um grave risco, permaneceu seis dias sem urinar. E, ainda assim, sobreviveu.</p>
@@ -111,5 +263,48 @@ function toggleLang(lang) {
 <p>Por que isso acontece? A flexibilidade dos ombros confere uma extraordinária reserva de energia, permitindo que a pessoa avance sem esmorecer até alcançar seus objetivos. A maioria das pessoas, ao contrário, desanima no meio do caminho e se contenta com soluções parciais, limitando suas próprias ambições. A rigidez nos ombros é uma das principais causas desse padrão. Portanto, cuidar para que os ombros de uma criança sejam sempre flexíveis é fundamental para seu futuro sucesso, seja na vida profissional ou nos estudos.</p>
 <p>Doravante, em todos os casos de doença, devemos adotar como princípio a flexibilização dos ombros. Embora eu já soubesse disso há muito tempo, confesso que não dava a devida importância. Recentemente, ao realizar Johrei em diversas partes do meu corpo para eliminar as muitas toxinas que acumulei, percebi que meus ombros estavam extremamente enrijecidos, como se fossem de osso. Desde o ano passado, passei a concentrar o Johrei nessa região e, nos últimos tempos, eles se tornaram notavelmente mais macios. Com isso, meu apetite duplicou e minha condição física melhorou sobremaneira. É por ter redescoberto essa verdade de forma tão vívida que a compartilho com vocês hoje.</p>
 <p>As pessoas com ombros rígidos podem aplicar esse princípio a si mesmas. Certa vez, tive a oportunidade de ministrar Johrei no senhor Mihiragui (三尋木さん), que aqui se encontra, e seus ombros são um exemplo de maciez e flexibilidade; por isso, ele goza de excelente saúde. Pessoas com ombros flexíveis tendem a ser mais corpulentas, pois o aumento do apetite favorece o ganho de peso. Em suma, flexibilizar os ombros é benéfico para absolutamente tudo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年6月25日） 『御教え集』23号、昭和28(1953)年7月15日発行 昭和二十八年六月二十五日 いつも奇蹟はありますが、最近のお蔭話の中に「奇蹟中の奇蹟」というのがありました。<br/><br/>それは、六つになる子供ですが、ふつう医学上では、小便が出ないのは八時間以上は危険だとなっているのですが、六日間出なかったのです。<br/><br/>それで命は取り止めました。<br/><br/>ところが睾丸と陰茎が、膿がひどく出るために根本から取れてぶら下がって、なにもなくなってしまったのです。<br/><br/>だからそこから腸が出ないかと心配したくらいです。<br/><br/>その跡が握り拳ぐらいあったのです。<br/><br/>それがわずかの間に元通りに生えたのです。<br/><br/>その批評をつけたお蔭話を今読ませます。<br/><br/>これは『毎日新聞』に話して出したいと思います。<br/><br/>また出す値打ちがあります。<br/><br/>しかしまた宗教宣伝になるから出さないかもしれませんが、出さなければ出さないで新聞社の連中だけに分からせるだけでもよいです。<br/><br/>それから、これは駄目でしょうが、岡田道一さんに医師会に発表できるかどうか聞いてみようと思います。<br/><br/>そうすればそうとうな幹部のお医者さんが見ますから、それだけでも効果があると思います。<br/><br/> （御論文「超奇蹟」）【栄光 二一八号】 今読んだとおりで、驚くべき奇蹟です。<br/><br/>今までにもいろいろな奇蹟はありましたが、こんなすばらしいのは初めてです。<br/><br/> 御伺い 五月十五日に行ってまいりまして本人の陰部を見てまいりましたが、陰茎は一寸五分くらい、睾丸は小さな盃くらいで三分の二くらい下がっております。<br/><br/>まことにありがとうございました。<br/><br/> それから私は前から言おうと思ってはいましたが、これで気がついたので言います。<br/><br/>重病の場合でもう治る見込みがないという時に「どんなになっても、まだそんな失望するにあたらないから、しっかりしていろ」と言って慰めますが、これは本当言うといけません。<br/><br/>やはり生の執着が御守護の邪魔をするのです。<br/><br/>治すのは、正守護神が神様の方から力をいただいて、自分がお取り次ぎして治すのですが、その場合に生の執着があると、正守護神の思うとおりにならないのです。<br/><br/>本人や周囲の者の執着心が邪魔するので、治る場合も治らないということも大いにあります。<br/><br/>ですからこれからは、もう駄目だと思ったら、早く本人に諦めさせるのです。<br/><br/>「これはもう駄目だ、死ぬ覚悟をしなさい」と言った方が、かえって助かるのです。<br/><br/> このことは私も経験がありますが、私は二十八の時にチフスをし、自分でもとても助かるとは思えないので遺言をしたのです。<br/><br/>それは前の家内の時で、当時小間物屋だったが、「自分はもう駄目だから、自分が死んだら商売は誰々に任して、こういうようにしろ」と言ったくらいですから、ぜんぜん生の執着が取れたのです。<br/><br/>それで知っている人の兄が医学博士で、病院が近くにあるのでそこに頼んだのです。<br/><br/>そうするとその医者が来て診た結果、これは入院しても助かる見込みはない。<br/><br/>助かる見込みのない者をみすみす入れるということは、病院の信用を落とすからお断りすると断られたのです。<br/><br/>ところがそのころの私の家は狭くて、起居する部屋は二部屋しかないので、もしもの時に大勢人が来ても狭いから、死んでもよいから入院させてくれと、院長の弟が友達だったからその方から頼んで、やっとはいったのです。<br/><br/>それでその当時は自動車はなくて人力車でしたが、人力車にも乗れなかったので、担架に乗って担いでもらって行ったのです。<br/><br/>そして寝ながら町を歩いている人を見て、これで人を見るのも見おさめだと思ったのです。<br/><br/>そうしたら夢とも現（うつつ）ともなく墓場が見えてしようがなかったのです。<br/><br/>それで自分は駄目だとよけい思われました。<br/><br/>しかしどうやら息はつながっているのです。<br/><br/>そうして非常に強い薬で、この薬が効かなければもう駄目だと言われたが、それをのまされるとその苦しいの苦しくないの、実に苦しかったです。<br/><br/>それでも死なずにいました。<br/><br/>そこで係の医者が、最初の見立ては肺炎だというのですが、その医者は肺炎とは思えない、チフスと思うから試験してみようというので、発泡薬というのでツユを取るのですが、ツユを取って顕微鏡で見たら、確かにチフスだということで、チフスの手当てをしなければならないということになったのです。<br/><br/>チフスは絶対流動物であって、チフスには薬はないのです。<br/><br/>それから絶対流動物で、だんだんよくなって治ったのです。<br/><br/>そういうようで、生の執着を取ったことがよかったのです。<br/><br/> それには本人が肝腎なのです。<br/><br/>本人に「あなたはもう駄目だから諦めなさい」と言い渡した方がよいです。<br/><br/>それから本人ばかりでなく、親や周囲の近親者も大事なのです。<br/><br/>近親者の執着の霊が邪魔します。<br/><br/>ですから霊の邪魔というのが非常に重大なのです。<br/><br/>それはそれとして、家の中に非常に反対している者がある場合に、反対している者は「もしか治ると自分が恥をかいたりするから、どうしても治らないように」と一生懸命に思うその霊がまた非常に邪魔をするのです。<br/><br/>そこで、執着はなんにでもいけませんが、執着はどこまでも逆効果になるということを心得ておかなければいけません。<br/><br/>これは病気ばかりでなく、他のことにもあります。<br/><br/>よく、金が欲しい金が欲しいと思いますが、その金の執着がある間は、金ははいらないのです。<br/><br/>その執着が邪魔するのです。<br/><br/>まして信仰にはいっていればなおさらです。<br/><br/>そういうことは忘れて、どうでもよいと思うようになるとはいってくるので、実に皮肉なものです。<br/><br/>ですからあの人に信仰のことを分からせよう分からせようと思っていると相手は分からないのです。<br/><br/>勝手にしろ、それだけの御守護があれば分かるし、さもなければ駄目だから、と忘れてしまうのです。<br/><br/>そうすると先方で信仰にはいりたいと頼みに来ます。<br/><br/>ですから良いことでも執着は邪魔するのです。<br/><br/>ある程度骨折って、あと思うとおりゆかない時は、ほったらかしておくのです。<br/><br/>そうするとあんがいよいものです。<br/><br/> それからこの前の時に「結核は浄霊するだけは毒が減ってゆくから、病気が治りつつあるのに悪化する」ということについて話しましたが、それは衰弱のためです。<br/><br/>ということは食欲が減るためです。<br/><br/>再浄化の時にはよくあります。<br/><br/>再浄化の時には、長くのんだ薬毒が咳になり痰になり、また熱が出る。<br/><br/>そうすると咳で夜も眠られないとか、非常にセキ込んで体力を非常に消耗します。<br/><br/>それから熱というものが、やはり体力をもっとも消耗するものです。<br/><br/>そのために薬毒はだんだん取れつつあるにかかわらず、衰弱を増してくるのです。<br/><br/>それを補うには食事より他にありません。<br/><br/>その食欲を出すには、一番に肩を柔らかくするのです。<br/><br/>これは結核ばかりでなく、なんの病気でもそうです。<br/><br/>胃が悪い人でもそうです。<br/><br/>肩を柔らかくすると非常に食欲が増します。<br/><br/>ですから胃病の人は胃をやるより肩をやる方が効果があります。<br/><br/>前に言ったことがありますが、健康診断は肩で分かります。<br/><br/>肩が柔らかい人は健康です。<br/><br/>病人で助かる病人と助からない病人は、肩が柔らかい人は随分悪くても助ります。<br/><br/>それから肩の固い人はそれほどでなくても駄目になってしまいます。<br/><br/>健康上一番重要なのは肩の固い柔らかいということです。<br/><br/> それからもう一つおもしろいことは、成功者の人の肩は必ず柔らかいのです。<br/><br/>私は以前そうとう偉い人を時々治療しましたが、成功した人は肩が柔らかいです。<br/><br/>今でも覚えているのは、近ごろの特需で軍器製造をやっている、前の三菱重工業の社長で、今ふたたびそういう地位になっている郷古潔（ごうこきよし）という人の肩は非常に柔らかくて、固い所は少しもありません。<br/><br/>それからこの間大臣になった田子一民という人の肩も柔らかいです。<br/><br/>それから大分県の人で前の内務大臣の後藤文夫という人も肩が柔らかいです。<br/><br/>その他にもまだいますが、最近社会に出た人だけを例にあげたのです。<br/><br/>そういうようで、成功する人は肩が柔らかいのです。<br/><br/>なぜかというと、肩が柔らかい人は非常に精力が続くのです。<br/><br/>だからどこまでも突進して行くから成功するのです。<br/><br/>それでたいていな人は、そうとうにやっても途中で挫けるのです。<br/><br/>いい加減な所で妥協してしまうのです。<br/><br/>欲が制限されるのです。<br/><br/>それだから中途半端になってしまうのです。<br/><br/>それは肩の原因が大いにあるのです。<br/><br/>だから子供などの肩を柔らかくしてやるということが、子供が社会に出て出世するとか、あるいは学校の成績がよいということになります。<br/><br/> これからは病気についても、一切は肩を柔らかくするという主義でやらなければいけません。<br/><br/>これは私は前から知っていますが、どうも今まではいい加減にしていたのです。<br/><br/>それで最近、私は薬毒がたくさんあるので方々を浄霊しているうちに、肩が非常に固くて骨みたいな物があります。<br/><br/>それを去年あたりから肩を中心にして浄霊していたら、近ごろは柔らかくなって、食欲が倍くらいになって、体の具合が非常によいのです。<br/><br/>それで前から知りながら、今さらのように気づいたので話をするのです。<br/><br/>人の肩もそうですが、自分の肩も固い人は自分でやればよいです。<br/><br/>それから私はいつかここにいる三尋木さんをやったことがあるが、柔らかいよい肩です。<br/><br/>ですから事実において健康です。<br/><br/>それから肩の柔らかい人はみんな太ってます。<br/><br/>それは食欲が増えるからして太るわけです。<br/><br/>そういうようで、まず肩を柔らかくすると、すべてにおいてよいです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sun138</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光138号) 『栄光』138号、昭和27(1952)年1月9日発行 世の中の奴はみんな馬鹿ッ正直で、食うや食わずで苦しんでいやがるのに、俺の方は人の目を巧く誤魔化すので、賄賂の金はシコタマ入り、美味しいものは喰い放題女は選り取り放題、酒は飲み放題というんだから、何と俺達は利口者じゃないか。<br><br>エッヘン、アヽいい気持だ。<br><br>愉快愉快といっていると、変な人間がドヤドヤと入り込んで来て、君ちょっと取調べたい事があるから、署まで来てくれ給えで、ダー × × 僕は人間を廃業したいね。<br><br>廃業してどうするんだ。<br><br>知れた事よ、コンど狐に生れ替って、馬鹿野郎共をコン限り躍らせ、正（しょう）一位稲荷大明神に祀られ拝まれて、栄耀栄華の仕放題さ。<br><br>コンな旨い話は、コンりんざい、ありっこねーよと威張っているから、コン畜生のコンコン狐め、コン棒でブン殴ってコンジョッ骨を叩き直してやるぞ × × 二十世紀の猿飛佐助を知っているか、ソラあれだよ、徳田以下ワンサワンサ × × 旗本退屈男じゃない、政党退屈男がアッチでもコッチでも、コクリコクリ居睡り、昼寝、鼻糞ホジリ、碁、将棋、麻雀、ワイ本、議論、屁理屈、愚痴、泣言、借金の言い訳等々が日課とは、イヤハヤ、御気の毒でも何でもないよ
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Retratos da Insensatez Humana</h2>
 <p>Enquanto a multidão de tolos honestos labuta arduamente, mal tendo o que comer, há aqueles que se vangloriam de sua própria astúcia. Eu, por outro lado, sou mestre em ludibriar os outros; as propinas afluem em abundância, permitindo-me desfrutar dos melhores manjares, escolher as mulheres que desejo e beber sem quaisquer restrições. Ah, como sou sagaz! Que sensação magnífica, que deleite! Contudo, em meio a essa euforia, eis que, de repente, alguns homens irrompem no local e declaram: “Temos um assunto a investigar. Queira nos acompanhar até a delegacia”. E assim, sua glória se desfaz em um instante.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>“Ah, quisera eu renunciar à minha humanidade”, pensa um certo indivíduo. E para quê? O plano é claro: na próxima vida, reencarnar como uma astuta raposa. Assim, poderei manipular à vontade essa legião de imbecis, fazendo-os dançar conforme a minha música. Serei consagrado e venerado como uma grande divindade, desfrutando de glória e prosperidade ilimitadas. “Por certo, não há plano mais vantajoso que este!”, proclama ele, cheio de si. Oh, raposa ardilosa, animal traiçoeiro! Sua natureza perversa merece ser corrigida a golpes de bastão, até que se endireite!</p>
 <p>× × ×</p>
 <p>Conhecem os ágeis ninjas do século XX, os modernos Sarutobi Sasuke? Pois olhem para aquelas figuras e seus séquitos, que se multiplicam por toda parte. Não me refiro aos nobres guerreiros de outrora, entediados pela paz, mas sim aos políticos entediados de hoje. Por toda parte, eles cochilam em seus assentos, entregam-se a sestas, ocupam-se em palitar o nariz, dedicam-se a jogos de Go, Shogi ou Mahjong e folheiam publicações indecorosas. Sua rotina consiste em debates fúteis, sofismas, queixumes, lamentos e na elaboração de desculpas para suas dívidas. Eis o dia a dia de tais homens. Francamente, não há por que sentir compaixão alguma por eles.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光138号) 『栄光』138号、昭和27(1952)年1月9日発行 世の中の奴はみんな馬鹿ッ正直で、食うや食わずで苦しんでいやがるのに、俺の方は人の目を巧く誤魔化すので、賄賂の金はシコタマ入り、美味しいものは喰い放題女は選り取り放題、酒は飲み放題というんだから、何と俺達は利口者じゃないか。<br/><br/>エッヘン、アヽいい気持だ。<br/><br/>愉快愉快といっていると、変な人間がドヤドヤと入り込んで来て、君ちょっと取調べたい事があるから、署まで来てくれ給えで、ダー × × 僕は人間を廃業したいね。<br/><br/>廃業してどうするんだ。<br/><br/>知れた事よ、コンど狐に生れ替って、馬鹿野郎共をコン限り躍らせ、正（しょう）一位稲荷大明神に祀られ拝まれて、栄耀栄華の仕放題さ。<br/><br/>コンな旨い話は、コンりんざい、ありっこねーよと威張っているから、コン畜生のコンコン狐め、コン棒でブン殴ってコンジョッ骨を叩き直してやるぞ × × 二十世紀の猿飛佐助を知っているか、ソラあれだよ、徳田以下ワンサワンサ × × 旗本退屈男じゃない、政党退屈男がアッチでもコッチでも、コクリコクリ居睡り、昼寝、鼻糞ホジリ、碁、将棋、麻雀、ワイ本、議論、屁理屈、愚痴、泣言、借金の言い訳等々が日課とは、イヤハヤ、御気の毒でも何でもないよ</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

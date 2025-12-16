@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>igaku62</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学は迷信か 『栄光』235号、昭和28(1953)年11月18日発行 医学は迷信か否かについての最も分り易い説明をしてみよう。<br><br>それは何かというと、外国はともかく我国の現在における治病法と名の付くことごとくは、誰も知るごとく医療と医療以外の多くの民間療法で祈祷（きとう）、禁厭（まじない）、信仰療法等々あるが、これらを総計したら恐らく数においては医師以上であろう。<br><br>しかもそれぞれ相当の繁昌を見せている点から考えても、今後増えるとも減る事はあるまい。<br><br>としたらこれは何を物語っているかを考えるべきであろう。<br><br> これについて有りのまま言ってみれば、医学は世人が思う程進歩していないのである。<br><br>もし本当に進歩しているとしたら、大衆は何を好んで国家も有識者も口を揃（そろ）えて礼讃し奨励している医学を捨ててまで、疑惑の雲に包まれている非医学的療法に走るかという事実である。<br><br>言うまでもなく一般人は病気に罹（かか）るや例外なく早速医師にかかる。<br><br>しかし簡単に治る場合もあるが、中には何程金をかけ、医師も熱心に治療しても思うように治らないのみか悪化する一方で、ついには治る見込はないとして、医師も匙（さじ）を抛（な）げざるを得ない事になる。<br><br>こうなると患者も助かりたい一心で、あらゆる療法を探し求めるのは当然であろう。<br><br>人間として余程大切なものはないからである。<br><br>ところがこの際周囲の者達は口を揃えて言う事は、これ程進歩した医学がありながら、世間からとやかく言われている新宗教などに命を委（まか）すのは迷信に違いないといって、常識論を振翳（ふりかざ）し、極力止めさせようとするのが御定法（ごじょうほう）である。<br><br>ところが肝腎な病人はそんな事は百も承知であるから応じないのが当然で、このような経緯はお蔭話中にも沢山見らるる通りである。<br><br> これを要するに、問題の鍵は医療で完全に病を治しさえすればいいので、それ以外何もないはずである。<br><br>ところが医療では何としても治らないからこそ窮余の結果他の療法を求めざるを得ないのであるから、むしろ同情すべきである。<br><br>ところがこんなハッキリしている事を棚へ上げて信仰療法を非難し妨害するのであるから、強（し）いて事実に目を蔽（おお）っているとしか思えない。<br><br>そうでなければ医学迷信の虜（とりこ）となっているため、盲目となりきっているとしか考えようがないのである。<br><br>また医師とても御自分が匙を抛げた病人を、吾々の手で助かるとしたら、大いに感謝してもいいと思うのである。<br><br>そのような事実に対し、医療を何程信用せよと太鼓を叩いても無駄であり、どうしても本当に治る方に赴（おもむ）くのは致し方あるまい。<br><br>つまり医療が余りに拙劣であるからで、医療で完全に治りさえすれば、黙っていても非医者などに赴く患者は一人もあるまい。<br><br>こんな簡単な道理が分らずとやかく言うのは、その人達の頭脳を疑いたくなるのである。<br><br> 以上のごとくこれ程進歩した時代の一面に辻褄（つじつま）の合わないような事も中々少なくないので、それが社会全般に被害を与えているのであるから、全く盲聾（もうろう）の世の中である。<br><br>ところが右は常識論であるが、これに対して我救世教の浄霊医術である。<br><br>信者はよく知っているが、まだ知らない人のために一言いうが、医療は前記のごとく無力どころか、それ以上のマイナス的存在である事の認識が出来さえすれば病気の心配からは解放され、真の安心立命を得らるるのである。<br><br>次に世人の気の付かない今一つの驚くべき事実がある。<br><br>それは無薬療法すなわち信仰や民間療法で治るのは、その療法の効果よりも、病気を増悪させていた医薬を中止したからである。<br><br>という訳で皮肉な言い方かも知れないが、信仰療法や民間療法が繁昌するのは結果からいって、医学のお蔭といってもいいであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Medicina seria uma Superstição?</h2>
 <p>Permitam-me oferecer a mais clara elucidação sobre a questão de ser a medicina uma superstição. Em nosso país, para além dos tratamentos convencionais, proliferam incontáveis terapias populares, como as de natureza espiritual, as preces e outras práticas de cura pela fé. O número de praticantes dessas artes talvez supere o de médicos. Ademais, considerando a notável prosperidade de que desfrutam, é improvável que venham a diminuir; pelo contrário, tendem a se multiplicar. Sendo assim, cumpre-nos refletir sobre o que tal fenômeno revela.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Ademais, até mesmo os médicos deveriam demonstrar imensa gratidão quando um paciente por eles desenganado é salvo por nossas mãos. Diante de tais fatos, é inútil apregoar a confiança na medicina; as pessoas inevitavelmente buscarão o caminho que leva à cura real. Em outras palavras, isso ocorre devido à flagrante ineficácia do tratamento médico. Se ele curasse por completo, pode-se ter certeza de que nem um único paciente procuraria, por conta própria, os que não são médicos. Causa-me espanto que não compreendam uma lógica tão elementar e insistam em suas críticas, o que me leva a questionar a capacidade de raciocínio de tais indivíduos.</p>
 <p>Como exposto, nesta era que se proclama tão avançada, não são raras as contradições desta natureza, as quais infligem grande prejuízo a toda a sociedade. Vivemos, de fato, em um mundo de cegos e surdos. O que apresentei até aqui se baseia no senso comum. Em contrapartida, temos a arte de cura da nossa Sekaikyuseikyou: o Johrei. Nossos membros já o conhecem bem, mas, para aqueles que ainda o desconhecem, esclareço: basta que compreendam que a medicina não é apenas impotente, como descrevi, mas representa uma força negativa, para que se vejam livres da aflição das doenças e alcancem a verdadeira paz de espírito e a segurança em seu destino.</p>
 <p>Há, ainda, um outro fato surpreendente que passa despercebido à maioria das pessoas. A cura obtida por meio de terapias sem medicamentos — como as de base religiosa ou popular — não se deve tanto à eficácia desses métodos em si, mas principalmente à suspensão dos remédios que estavam, na verdade, agravando a doença. Por essa razão, e embora possa soar irônico, pode-se afirmar que a prosperidade das terapias de fé e das práticas populares é, em última análise, uma cortesia da própria medicina.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学は迷信か 『栄光』235号、昭和28(1953)年11月18日発行 医学は迷信か否かについての最も分り易い説明をしてみよう。<br/><br/>それは何かというと、外国はともかく我国の現在における治病法と名の付くことごとくは、誰も知るごとく医療と医療以外の多くの民間療法で祈祷（きとう）、禁厭（まじない）、信仰療法等々あるが、これらを総計したら恐らく数においては医師以上であろう。<br/><br/>しかもそれぞれ相当の繁昌を見せている点から考えても、今後増えるとも減る事はあるまい。<br/><br/>としたらこれは何を物語っているかを考えるべきであろう。<br/><br/> これについて有りのまま言ってみれば、医学は世人が思う程進歩していないのである。<br/><br/>もし本当に進歩しているとしたら、大衆は何を好んで国家も有識者も口を揃（そろ）えて礼讃し奨励している医学を捨ててまで、疑惑の雲に包まれている非医学的療法に走るかという事実である。<br/><br/>言うまでもなく一般人は病気に罹（かか）るや例外なく早速医師にかかる。<br/><br/>しかし簡単に治る場合もあるが、中には何程金をかけ、医師も熱心に治療しても思うように治らないのみか悪化する一方で、ついには治る見込はないとして、医師も匙（さじ）を抛（な）げざるを得ない事になる。<br/><br/>こうなると患者も助かりたい一心で、あらゆる療法を探し求めるのは当然であろう。<br/><br/>人間として余程大切なものはないからである。<br/><br/>ところがこの際周囲の者達は口を揃えて言う事は、これ程進歩した医学がありながら、世間からとやかく言われている新宗教などに命を委（まか）すのは迷信に違いないといって、常識論を振翳（ふりかざ）し、極力止めさせようとするのが御定法（ごじょうほう）である。<br/><br/>ところが肝腎な病人はそんな事は百も承知であるから応じないのが当然で、このような経緯はお蔭話中にも沢山見らるる通りである。<br/><br/> これを要するに、問題の鍵は医療で完全に病を治しさえすればいいので、それ以外何もないはずである。<br/><br/>ところが医療では何としても治らないからこそ窮余の結果他の療法を求めざるを得ないのであるから、むしろ同情すべきである。<br/><br/>ところがこんなハッキリしている事を棚へ上げて信仰療法を非難し妨害するのであるから、強（し）いて事実に目を蔽（おお）っているとしか思えない。<br/><br/>そうでなければ医学迷信の虜（とりこ）となっているため、盲目となりきっているとしか考えようがないのである。<br/><br/>また医師とても御自分が匙を抛げた病人を、吾々の手で助かるとしたら、大いに感謝してもいいと思うのである。<br/><br/>そのような事実に対し、医療を何程信用せよと太鼓を叩いても無駄であり、どうしても本当に治る方に赴（おもむ）くのは致し方あるまい。<br/><br/>つまり医療が余りに拙劣であるからで、医療で完全に治りさえすれば、黙っていても非医者などに赴く患者は一人もあるまい。<br/><br/>こんな簡単な道理が分らずとやかく言うのは、その人達の頭脳を疑いたくなるのである。<br/><br/> 以上のごとくこれ程進歩した時代の一面に辻褄（つじつま）の合わないような事も中々少なくないので、それが社会全般に被害を与えているのであるから、全く盲聾（もうろう）の世の中である。<br/><br/>ところが右は常識論であるが、これに対して我救世教の浄霊医術である。<br/><br/>信者はよく知っているが、まだ知らない人のために一言いうが、医療は前記のごとく無力どころか、それ以上のマイナス的存在である事の認識が出来さえすれば病気の心配からは解放され、真の安心立命を得らるるのである。<br/><br/>次に世人の気の付かない今一つの驚くべき事実がある。<br/><br/>それは無薬療法すなわち信仰や民間療法で治るのは、その療法の効果よりも、病気を増悪させていた医薬を中止したからである。<br/><br/>という訳で皮肉な言い方かも知れないが、信仰療法や民間療法が繁昌するのは結果からいって、医学のお蔭といってもいいであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

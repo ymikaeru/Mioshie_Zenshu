@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>mesiya3</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： メシヤ会館現場事務所へ椎野氏を訪ねて 本部 清見藤夫 『栄光』242号、昭和29(1954)年1月6日発行 遥かに見下す伊豆の山々そして大島、初島の絶景に数千年、数万年も前より仕組まれたここ瑞雲郷地上天国の一角に、着々とその建設が進捗しているメシヤ会館！！そして本年秋には完成さるべく、今は殆んどその外容を現わし、完成の現には如何に雄大華麗な建物となるや、好奇の目を瞠っているのは全信徒、否全国の人達の気持でありましょう。<br><br> このメシヤ会館完成の秋を前にして、記者はその現場責任者である椎野浅五郎氏を訪れ、感想その他を尋ねてみた。<br><br> 記者 本日は御忙しいところを誠に申訳ありませんが、本年度の本教の事業で、信者が一番期待している事はメシヤ会館の完成だと考えますので、その実際に現場の方を担当しておられる椎野さんに色々と御伺いしたいと思います。<br><br> 今までこうした仕事を色々とおやりになり、沢山の職人さんを御使いになった事と思いますが、メシヤ会館の御奉仕者の方々と比べて何か異なった点を一つどうぞ。<br><br> 椎野 今までの職人は給料を払って雇った人達ばかりで、信仰者と違って仕事上の不正とか、あるいはちょっと目を離すとさぼって仕事をしないとか、いわゆる仕事を第一とし、自分を第二とするという点がなく、かつ俺は仕事をしてやっているという考えですから、その為の色々の気苦労は大変なものでした。<br><br> しかるにメシヤ会館建設御奉仕者の人達は、この御建設の霊的意義等よく御存じで、そこに大きな人類救済という使命を担った一人であるという自覚の下に仕事をしているので、そこに一段の事業の如く、仕事をしてやっているというのでなく、仕事をさせて頂いて、そして徳を積ませて頂くという考え方であり、又実際にこの御奉仕により色々と御蔭をいただいておられるので、気分的に非常になごやかで仕事の責任者として仕事上は私の言った通りにしてくれるので非常に安心感があります。<br><br>もっとも殆んど全部の人が全く素人であり奉仕期間が短い為に能率が玄人の様に上らないのはやむを得ない事ですが、しかし各人で十二分の能率を発揮して頂いている点“信仰者ならでは”と誠に有難いと思います。<br><br> 記者 この御建築はコルビュージュエ式との御言葉がありましたが一般建築学者のこの建築に対する考え方はどんなものでしょうか。<br><br> 椎野 現在まで建築学界ではこのコルビュージュエ式というのは日本にその建物はありませんが、これに似通ったので佐藤式（ＳＡＴＯ）という建築はありました。<br><br>しかし今度の明主様の御建築はコルビュージュエ式というよりも、それを採入れた岡田式建築物という名称をつけた方が適当ではないかという学者の考え方であると思います。<br><br>だから全然独創的建築であると言う事が出来ると思います。<br><br> 記者 完成は今年秋という御言葉があったように記憶致しておりますが……。<br><br> 椎野 明主様の御言葉では十月より使用するとの事でありますので、私と致しましては、五月までに大体完成しなければならぬと思っております。<br><br>そして一カ月点検期間を設け、残りの四カ月で色々と不備な点を直して行きたいと考えております。<br><br> 記者 ではメシヤ会館の規模について一般の専門的見地から一つどうぞ。<br><br> 椎野 メシヤ会館は世界に未だ試みられた事のない宗教的建築物であり、法話する講堂でありますが、今までの講堂として使用するだけではなく、あるいは劇場又は映画館と使用出来、在来の劇場、映画館と比較して規模の点から言えば、終戦後の建築物としては最高です。<br><br>そして一階の座席数から言えば、戦前戦後の新旧建築物を入れても日本一ですね。<br><br>勿論ギャラリー（ホールの鉄骨スパン）においては一番です。<br><br> 記者 色々な設備の点からは如何ですか。<br><br> 椎野 建物内の電気設備（舞台等）としてはベストテンに入るでしょう。<br><br>その他排気管とか、暖房装置その他は一般建物、劇場並に出来ています。<br><br>それから外容から言えば、一階の建物で仕上りが高さ四十一尺であるというのは古今未曾有ですね。<br><br> 記者 これまで建築されるについて色々と御苦心なさったと思いますが、その苦心談を一つ……。<br><br> 椎野 一番苦労したのは基礎工事ですね。<br><br>何しろ山を切開いて、そして地盤の余り固くない所にこれだけの壮大な建物を建造するのですから、余程しっかりした基礎を作っていなければいけませんので、周到なる計算の下に行いました。<br><br>これが直営工事であったからこそ出来ていたので、もし請負工事であったとすれば到底不可能な事であり、かつ明主様の御守護は勿論、奉仕者の皆様の熱誠溢るる誠の賜物だと思います。<br><br> 記者 ここで一つ一般建築技術者及びあなた自身として、明主様に特に感心させられた点について、何か一つ……。<br><br> 椎野 特に感心させられた点と言えば色々ありますが、あの舞台の高さに対して三十五尺の天井を造られたという事は、一般建築家より言えば全く素人の明主様がおやりになったという事は、それが技術的にピタリと当っていたという事は感心させられましたね。<br><br>そして技術的に天井のアールが音響に即応している点でこれは私が明主様に「ここはどういうように」と御伺いしたところ、即座にこれこれと仰言って、しかもそれが計算上ピタリと当っているんです。<br><br>大体この音響にピタリ合う室内を作る音響計算は一番難かしい、大切な事で、私達専門家が二カ月位計算してやっと出し、しかも中々合わないのに、一言の下に即決即答で御答えになり、それがちゃんと合っているんですから驚きました。<br><br>今日本の建築界で最高と言われる小野博士、その他の博士が吃驚しております。<br><br> それからオーケストラボックスをセリ台にする事も私達がちょっと考えつかぬ事ですね。<br><br>ああそうそうこういう事がありました。<br><br>円柱の寸法を御伺いした時も即座に二尺八寸と仰言り、しかも後で計算してみると、この建築物では、強度計算構造上最底線でピタリ当っていて、少しも無駄がないのです。<br><br>全く驚きました。<br><br>その他は金をかければどんなにでも出来る所ですからね。<br><br>全く即決即答の偉大さに驚きました。<br><br> 記者 やはり明主様はあらゆる事の一番根本となるところはちゃんと御存じなんですね。<br><br> よく吾々は建築面のそういう細かい所までは御存じないだろうと考えがちでありますが、本当に申訳ない事であると思いますね。<br><br>そういう御話を伺っても明主様が救世主であり、メシヤであると思わしていただきます。<br><br>それで私達が行う総ての事もちゃんと御存じであり、明主様に面して常に自分自身の想念、行動を正させて頂かねばならないと思います。<br><br> その外にまだ何か……。<br><br> 椎野 一段の宗教的建築物、例えばキリスト教会等の様に、街中に建築するのはやさしいことですが、メシヤ会館の様に山の頂上を切開いて、これ程のものを建築した例は、東洋建築史にありませんね。<br><br>これが出来上れば現世のパラダイスとして、あるいば眼下に見える一大パノラマの雄大さは世界の注目を引く事でしょう。<br><br>その御仕事の責任者として御使い頂いている私は本当に幸福者であると思います。<br><br> 記者 では最後に今年の椎野さんの御考えを……。<br><br> 椎野 この御建設は私がやるのではなくて、明主様の御指導のままにやれせて頂くのですから、少しでも明主様の御心に添わして頂きたいと念願致します。<br><br> 記者 色々と有益な御話を伺いまして有難うございました。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Concretização do Protótipo do Paraíso Terrestre: Uma conversa sobre a construção do Salão Messiânico</h2>
 <p>Em Zuiunkyo (瑞雲郷), um recanto do Paraíso Terrestre de onde se descortina uma vista sublime das montanhas de Izu, bem como das ilhas de Oshima e Hatsushima — um local predestinado há milênios para este propósito —, erguem-se, em ritmo constante, as obras do Salão Messiânico. Com sua conclusão prevista para o outono deste ano, o edifício já revela grande parte de sua imponente estrutura externa. Suscita, assim, a mais viva curiosidade e admiração não apenas entre os fiéis, mas em toda a nação, que anseia por contemplar a magnificência e o esplendor que em breve se manifestarão.</p>
@@ -115,5 +267,48 @@ function toggleLang(lang) {
 <p>Repórter: Para encerrar, qual é o seu pensamento para este ano?</p>
 <p>Sr. Shiino: Esta construção não é algo que eu realizo por mim mesmo. Eu apenas a executo sob a orientação direta de Meishu-Sama. Meu único anseio é poder corresponder, ainda que minimamente, à Sua Vontade.</p>
 <p>Repórter: Muito obrigado por compartilhar conosco tantas reflexões valiosas.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： メシヤ会館現場事務所へ椎野氏を訪ねて 本部 清見藤夫 『栄光』242号、昭和29(1954)年1月6日発行 遥かに見下す伊豆の山々そして大島、初島の絶景に数千年、数万年も前より仕組まれたここ瑞雲郷地上天国の一角に、着々とその建設が進捗しているメシヤ会館！！そして本年秋には完成さるべく、今は殆んどその外容を現わし、完成の現には如何に雄大華麗な建物となるや、好奇の目を瞠っているのは全信徒、否全国の人達の気持でありましょう。<br/><br/> このメシヤ会館完成の秋を前にして、記者はその現場責任者である椎野浅五郎氏を訪れ、感想その他を尋ねてみた。<br/><br/> 記者 本日は御忙しいところを誠に申訳ありませんが、本年度の本教の事業で、信者が一番期待している事はメシヤ会館の完成だと考えますので、その実際に現場の方を担当しておられる椎野さんに色々と御伺いしたいと思います。<br/><br/> 今までこうした仕事を色々とおやりになり、沢山の職人さんを御使いになった事と思いますが、メシヤ会館の御奉仕者の方々と比べて何か異なった点を一つどうぞ。<br/><br/> 椎野 今までの職人は給料を払って雇った人達ばかりで、信仰者と違って仕事上の不正とか、あるいはちょっと目を離すとさぼって仕事をしないとか、いわゆる仕事を第一とし、自分を第二とするという点がなく、かつ俺は仕事をしてやっているという考えですから、その為の色々の気苦労は大変なものでした。<br/><br/> しかるにメシヤ会館建設御奉仕者の人達は、この御建設の霊的意義等よく御存じで、そこに大きな人類救済という使命を担った一人であるという自覚の下に仕事をしているので、そこに一段の事業の如く、仕事をしてやっているというのでなく、仕事をさせて頂いて、そして徳を積ませて頂くという考え方であり、又実際にこの御奉仕により色々と御蔭をいただいておられるので、気分的に非常になごやかで仕事の責任者として仕事上は私の言った通りにしてくれるので非常に安心感があります。<br/><br/>もっとも殆んど全部の人が全く素人であり奉仕期間が短い為に能率が玄人の様に上らないのはやむを得ない事ですが、しかし各人で十二分の能率を発揮して頂いている点“信仰者ならでは”と誠に有難いと思います。<br/><br/> 記者 この御建築はコルビュージュエ式との御言葉がありましたが一般建築学者のこの建築に対する考え方はどんなものでしょうか。<br/><br/> 椎野 現在まで建築学界ではこのコルビュージュエ式というのは日本にその建物はありませんが、これに似通ったので佐藤式（ＳＡＴＯ）という建築はありました。<br/><br/>しかし今度の明主様の御建築はコルビュージュエ式というよりも、それを採入れた岡田式建築物という名称をつけた方が適当ではないかという学者の考え方であると思います。<br/><br/>だから全然独創的建築であると言う事が出来ると思います。<br/><br/> 記者 完成は今年秋という御言葉があったように記憶致しておりますが……。<br/><br/> 椎野 明主様の御言葉では十月より使用するとの事でありますので、私と致しましては、五月までに大体完成しなければならぬと思っております。<br/><br/>そして一カ月点検期間を設け、残りの四カ月で色々と不備な点を直して行きたいと考えております。<br/><br/> 記者 ではメシヤ会館の規模について一般の専門的見地から一つどうぞ。<br/><br/> 椎野 メシヤ会館は世界に未だ試みられた事のない宗教的建築物であり、法話する講堂でありますが、今までの講堂として使用するだけではなく、あるいは劇場又は映画館と使用出来、在来の劇場、映画館と比較して規模の点から言えば、終戦後の建築物としては最高です。<br/><br/>そして一階の座席数から言えば、戦前戦後の新旧建築物を入れても日本一ですね。<br/><br/>勿論ギャラリー（ホールの鉄骨スパン）においては一番です。<br/><br/> 記者 色々な設備の点からは如何ですか。<br/><br/> 椎野 建物内の電気設備（舞台等）としてはベストテンに入るでしょう。<br/><br/>その他排気管とか、暖房装置その他は一般建物、劇場並に出来ています。<br/><br/>それから外容から言えば、一階の建物で仕上りが高さ四十一尺であるというのは古今未曾有ですね。<br/><br/> 記者 これまで建築されるについて色々と御苦心なさったと思いますが、その苦心談を一つ……。<br/><br/> 椎野 一番苦労したのは基礎工事ですね。<br/><br/>何しろ山を切開いて、そして地盤の余り固くない所にこれだけの壮大な建物を建造するのですから、余程しっかりした基礎を作っていなければいけませんので、周到なる計算の下に行いました。<br/><br/>これが直営工事であったからこそ出来ていたので、もし請負工事であったとすれば到底不可能な事であり、かつ明主様の御守護は勿論、奉仕者の皆様の熱誠溢るる誠の賜物だと思います。<br/><br/> 記者 ここで一つ一般建築技術者及びあなた自身として、明主様に特に感心させられた点について、何か一つ……。<br/><br/> 椎野 特に感心させられた点と言えば色々ありますが、あの舞台の高さに対して三十五尺の天井を造られたという事は、一般建築家より言えば全く素人の明主様がおやりになったという事は、それが技術的にピタリと当っていたという事は感心させられましたね。<br/><br/>そして技術的に天井のアールが音響に即応している点でこれは私が明主様に「ここはどういうように」と御伺いしたところ、即座にこれこれと仰言って、しかもそれが計算上ピタリと当っているんです。<br/><br/>大体この音響にピタリ合う室内を作る音響計算は一番難かしい、大切な事で、私達専門家が二カ月位計算してやっと出し、しかも中々合わないのに、一言の下に即決即答で御答えになり、それがちゃんと合っているんですから驚きました。<br/><br/>今日本の建築界で最高と言われる小野博士、その他の博士が吃驚しております。<br/><br/> それからオーケストラボックスをセリ台にする事も私達がちょっと考えつかぬ事ですね。<br/><br/>ああそうそうこういう事がありました。<br/><br/>円柱の寸法を御伺いした時も即座に二尺八寸と仰言り、しかも後で計算してみると、この建築物では、強度計算構造上最底線でピタリ当っていて、少しも無駄がないのです。<br/><br/>全く驚きました。<br/><br/>その他は金をかければどんなにでも出来る所ですからね。<br/><br/>全く即決即答の偉大さに驚きました。<br/><br/> 記者 やはり明主様はあらゆる事の一番根本となるところはちゃんと御存じなんですね。<br/><br/> よく吾々は建築面のそういう細かい所までは御存じないだろうと考えがちでありますが、本当に申訳ない事であると思いますね。<br/><br/>そういう御話を伺っても明主様が救世主であり、メシヤであると思わしていただきます。<br/><br/>それで私達が行う総ての事もちゃんと御存じであり、明主様に面して常に自分自身の想念、行動を正させて頂かねばならないと思います。<br/><br/> その外にまだ何か……。<br/><br/> 椎野 一段の宗教的建築物、例えばキリスト教会等の様に、街中に建築するのはやさしいことですが、メシヤ会館の様に山の頂上を切開いて、これ程のものを建築した例は、東洋建築史にありませんね。<br/><br/>これが出来上れば現世のパラダイスとして、あるいば眼下に見える一大パノラマの雄大さは世界の注目を引く事でしょう。<br/><br/>その御仕事の責任者として御使い頂いている私は本当に幸福者であると思います。<br/><br/> 記者 では最後に今年の椎野さんの御考えを……。<br/><br/> 椎野 この御建設は私がやるのではなくて、明主様の御指導のままにやれせて頂くのですから、少しでも明主様の御心に添わして頂きたいと念願致します。<br/><br/> 記者 色々と有益な御話を伺いまして有難うございました。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

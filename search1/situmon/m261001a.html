@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>M261001A</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御垂示 （S26年10月1日） 『御垂示録』3号、昭和26(1951)年11月25日発行 昭和二十六年十月一日 「浄霊のことにつきましてお伺い申し上げます。<br><br>前には、御開示いただきまして一人対一人というのが原則でございましたが――」 あのときはね。<br><br> 「浄化が非常に激しいのをいただきました時分に、何人もでやっておりますのは――」 時が進むので――年中一つではない。<br><br>時が進むに従って違います。<br><br>そのときに合ったやり方でやると良い。<br><br>そんなに窮屈にきめなくてもよいです。<br><br>臨機応変で良い。<br><br> 「高熱の浄化の末期にシャックリが起こりますと、医学でも二、三日しかもたないことになっておりますが、私が体験させていただきましたのは、十日間もちました。<br><br>どういう関係でなりますのでございましょうか」 霊的と両方ありますがね。<br><br> 「諦めるべきでございましょうか」 そんなことはありません。<br><br>たいしたことはない。<br><br> 「長いときは二時間くらいなっておりました」 どこをやっている。<br><br> 「頭から延髄にかけてやっております」 延髄ですね。<br><br>それから横隔膜です。<br><br> 「亡くなるときは、十日間シャックリが出て、手のソバカスが取れ、顔は金時のようになりました。<br><br>八月、日本脳炎のとき、熱が下がらず脈がピクピクし、帯状に白い汗が二時間ほど出て、それから良くなりました」 ここ（延髄）を見るんですね。<br><br> 「熱が低いときに脈が多過ぎるのでございます」 衰弱です。<br><br> 「シャックリをいたしましたのは三人目で、みんな結果が良くないようでございます」 今までは浄霊の効き方が弱かったが、もうこれからはそんなことはないからね。<br><br>それですから、力を入れるなと言うんです。<br><br>原因は薬毒ですよ。<br><br> 「本日の蜂がさしたということでございますが、蜂の毒というのは、何日かすると消えてしまうものでございましょうか」 五分です。<br><br>私がやったら二分です。<br><br>あなた方がやっても十分くらいです。<br><br>簡単なものです。<br><br>じきに消えちゃいます。<br><br>アブでしょう。<br><br>アブのほうがずっと毒がひどい。<br><br>蜂とは較べものにならない。<br><br>だけどしばらくして赤くなったでしょう。<br><br>あれは溶けて出ようというんです。<br><br>それに点眼薬をやったが、あれが悪い。<br><br>出ようというのを止めたからね。<br><br>うっちゃらかしておくとメヤニになって出て治る。<br><br> 「大本教のときですか、アブは教祖様、蜂は聖師様の使いだと聞いたことがございますが」 そんなことはないでしょう。<br><br>でたらめです。<br><br>天理教なんかは、返答しないから扁桃腺になる。<br><br>と、ずいぶん変なことを言いますよ。<br><br> 「個人の名前のことでございますが、名前を変えるにも時期があるというのは、どういうようなことでございましょうか」 私は、先に頼まれて変えようとするときに、どうしても出ないことがあるんです。<br><br>そういうのは時期が早いのです。<br><br>時期というのは、その人の曇りの多寡（たか）です。<br><br>多い少ないです。<br><br>運命の転換ですからね。<br><br>しかし、変えようということはだいぶ時期が来ている。<br><br>名前を変えてもらって、かえって悪いことがありますからね。<br><br>この間、何先生に変えてもらったというのが死んだ。<br><br>とても悪い名前なんです。<br><br>知らないんですが、それはいけない。<br><br>確信がなくてはいけない。<br><br>仙太郎なんかとしてはいけない。<br><br>私が変えてやるということは神様に止められてますが。<br><br>選（よ）り取りということは構わない。<br><br>その場合、自分でいくつも書いてきたら選択はしてあげる。<br><br> 「今まで、責任のあることなので、信者さんにも言いませんでしたが、中にはいろいろな方面から聞き、気にする方がありますが、どういうふうにいたしましたらよろしいでしょうか。<br><br>名前の変え方も分かりませんし、そのままでよろしいでしょうか」 そのままで良いです。<br><br>資格者になれば、位ができる――仏教で言えば覚者となるので、それだけのお蔭をいただいている。<br><br>一般の信者はそこまでいっていないので、修業してそこまでいかなければならない。<br><br>名前というのは、軽々しく変えては、本当はいけないですね。<br><br>かえって、変えて悪くなる人があります。<br><br>よくありますからね。<br><br>山田耕作が病気しているんですが、草冠をつけたから、私は嫌なことをするなと思っていた。<br><br>あれから間もなくですからね。<br><br>悪いですね。<br><br>耕すと書いて草が生えたらどうにもならない。<br><br>田んぼを耕作するにも、草が生えたらどうにもならない。<br><br>姓名判断なんか知らないですからね。<br><br>姓名判断では、熊崎健翁という、翁（おきな）という字をつけているが、悪いですね。<br><br>活動ができないですね。<br><br>隠居でもするようになる。<br><br> 「ある信者でございますが、昨年の四月三日から、今年は四月四日からいま時分まで、竃（かまど）の付近とか鶏小屋の付近を通りますと、必ずお線香の匂いがするそうでございますが――」 霊界がそうなっている。<br><br>霊界でお線香を焚いている。<br><br>というのは、そこに死人がいる。<br><br>死霊がいるんです。<br><br>よほど鼻が敏感なんですね。<br><br> 名前について、この間もある人に話したが、名前が良すぎて悪いことが多いです。<br><br> つまり、名前というのは、その人の霊に相応するんです。<br><br>名前が良すぎては、かえって合わない。<br><br>例えてみれば「天」の字を書くと、きっと駄目になる。<br><br>「天」というのは非常に位があるんです。<br><br>天皇なんか「天」だが、普通人が「天」の字をつけると良すぎるわけですね。<br><br>隔りがない。<br><br>われわれは地上でやっているのだからね。<br><br>天上界でやっているのではない。<br><br>「天」の字はきっと悪くなる。<br><br> それから「大」の字が悪いですね。<br><br>「大」の字は非常に位がある。<br><br>「大」は一人と書く。<br><br>神御一人（かみごいちにん）とかね。<br><br>主神、天皇、首脳者とか、上の位の者につける。<br><br>普通人民にはつけない。<br><br>かえって、出世する人で名前の悪い、つまらない――値打ちのないものがありますが、それはその人の御魂に合っているから、それで良いわけですね。<br><br> 「石田朝子というのは――」 いずれ変えたほうがよいですね。<br><br>「石田」というのは「ア」行ですからね。<br><br>「朝」は「ア」です。<br><br>すると「ア」行は火になりますから、上が火なら下は水にならなければならない。<br><br>「石田」は火ですからね。<br><br>とにかくあまり良くないですね。<br><br>名前をつけるのに、だいたいあらかじめ知っておく必要があるね。<br><br>「ア」行は天ですから、下は地になる。<br><br>地というのは水に関係したものを入れるんですね。<br><br> いまの「イ」というのは「人」という字です。<br><br>この「イ」を人偏と言いますね。<br><br>これ「ノ」が天になり、これ「ヽ」が地になる。<br><br>半分になる。<br><br>言霊（ことたま）の魂返（たまがえ）しですぐ分かる。<br><br>「岡田」というと、「ダ」――「ア」ですね。<br><br>これが全部を支配する「オ」ではない。<br><br>「茂吉」は「ミ」になりますから、「岡田茂吉」というのは、魂返しで「アミ」になる。<br><br>「中島」というのは、一番頭は「ア」でしょう「キセ」というのは「ケ」になる。<br><br>それを知っておかなければね。<br><br>そういうふうになっている人は、やっぱり違いますよ。<br><br>人間が利口だとか、出世するとかね。<br><br>それから「マミムメモ」の音が入っているのは、物質に困らない。<br><br>それで「巳」の年――「巳」というのは蛇ですからね。<br><br>これは非常に物質的です。<br><br>それから、いつも言う通り「サシスセソ」の音が入っている人は、自分の意思を通そうというんです。<br><br>それから、名前に「マミムメモ」が入っているのは女性的なんです。<br><br>それから、苗字も離れ離れになっていては駄目です。<br><br>それから、読んでスラスラとしているんですね。<br><br>小学校時分に、谷山龍飛というずいぶんおもしろいのがありましたが、死んじゃいました。<br><br> 「下に「一」の字がついたのはいけないでしょうか」 そんなことはありません。<br><br> 私がつける名前はちゃんと意味があります。<br><br>熱海は瑞雲郷というでしょう。<br><br>「瑞」は「水」です。<br><br>月の水で、熱海は「月の都」ですからね。<br><br>あっちは、神仙郷――日光殿と言う、火と水になっている。<br><br>やはり相応しなければならない。<br><br> 「因縁というのは、宿命的なものと、運命的なものとありますが――」 それは本に書いてあります。<br><br>根本は宿命です。<br><br>それが運命を起こしますね。<br><br>それは第二の意味になる。<br><br>因縁という言葉は良くできていますね。<br><br> 「信者さんで、石の観音さんを雨ざらしにしておりますが、屋敷内に祀るのはいかががでございましょうか」 本当じゃないですね。<br><br>観音さんを石で作るのはいけない。<br><br>知らないからですね。<br><br>そうかと言って、石で作れば安置の場所は外よりない。<br><br>部屋に飾るようなわけにはいかない。<br><br>相応しない。<br><br>蓑笠（みのかさ）着て中に入るようなものです。<br><br>壊すわけにはいかないし、そのままで良いです。<br><br> 「信者のお母さんで、癇（かん）の虫を切るといいますが、その方法を覚え、というのは癇の虫の強い子供に『浄』という字を三回書き、大光明如来様に、この子の癇の虫を取っていただきたい、とお願いすると、関節とか指から白い筋が出てまいります。<br><br>そうして、虫の強い子がピタリと治ってしまいます。<br><br>最近は、子供が来て、忙しいので後でやってあげようという言葉だけで、どんどん出ていってしまいます」 おもしろいですね。<br><br>人間の指から白い毛のようなものが出てくるのはあります。<br><br>やっぱり虫でしょうね。<br><br>文字の働きというのもあるんです。<br><br>先に文字で治す先生がいた。<br><br>「痛み止まる」とか書いてね。<br><br>そうすると、いくらか良くなる。<br><br>私だって御守りに「光」と書くでしょう。<br><br>文字の働きです。<br><br>文字が働くというのは立派なものですね。<br><br>文字を書くと虫が出るというのは、あり得ることです。<br><br>子供なんか特によくあります。<br><br>それはまるっきり迷信とか、そういうものじゃない。<br><br>立派なものがある。<br><br>しかし面倒臭いですね。<br><br>浄霊のほうが簡単で良いです。<br><br> 「霊の物質化ではないでしょうか」 霊の物質化ではないでしょうね。<br><br>しかし、出る人はあります。<br><br>浄霊すると良く出ます。<br><br> 「大人は出ませんのでございますが」 大人でも出るのがありますよ。<br><br>つまんで出す人がある。<br><br> 「毒素の一種でございましょうか」 やはり虫ですね。<br><br>毒素から生まれる虫ですね。<br><br> 「酒飲みは腹中の霊が、というように御教えいただいておりますが、副霊というのは、どういうことになるのでございましょうか」 副守護神で飲むのもあるし、お客様でも飲むのもあるし、副霊で飲むのもあります。<br><br>副守護神のほうはなかなか根強い。<br><br>いつかおじいさんで、酒飲みの霊が憑かり「どうもわしは飲みたくてね。<br><br>あの時分は酒を買えねぇんでね」と言うんです。<br><br> 「子供が死の予言のようなことを自分自身で言いまして『死んでどうするんだ』と聞きますと『天国に行くんだ』『帰れないよ』と言うと『生まれ変わるよ。<br><br>どこに生まれ変わろうかな』と言うのでございます。<br><br>その前に『靴を買ってあげよう』と言うと『僕いらない』と申します。<br><br>それは誰が言わせているのでございましょうか」 正守護神です。<br><br> 「浄化が強く、浄霊をしてもおさまらないので、脈もなくなるし、顔色もなくなってしかたがないので、余ってあります光明如来様を病人の上に拡げましたところが治りました」 お祀りしてない――余分の御神体なら良いですよ。<br><br>しかし、それは浄霊する人の霊力が弱いんです。<br><br>拡げなくても巻いたままお腹の上にのせても良いです。<br><br>お願いしてね。<br><br>いまの――力を入れないやり方だと、そんなことをしなくても治るわけですがね。<br><br> 「お産のとき使ったお腹帯ですが、長く使った関係上だいぶ汚れておりますので洗濯させていただいてよろしいでしょうか。<br><br>あとはいかがいたしたらよろしいでしょうか」 洗濯してもよいです。<br><br>あとはしまっておけば良い。<br><br>この次お産があったとき使うと良い。<br><br>お三方にのせて、また使わせていただきますから、どうぞお願い申し上げますと言って使えばよい。<br><br> 「伊都能売神（いづのめのかみ）は観世音となり、観音は大日如来となると、御教えいただいておりますが、信仰雑話に大日如来は天照大神とございます。<br><br>また、長男が伊都能売神、長女が天照大神――とございますが――」 そうです。<br><br>伊都能売神が天照大神を御守護しているわけですね。<br><br>つまり、伊都能売神の中に火の働きが入っているわけです。<br><br>伊都能売神というと、火と水になる。<br><br>火のほうが天照大神になるというわけですね。<br><br>水のほうは月読尊（つきよみのみこと）になるわけです。<br><br> いまは天照大神がたくさんありますがね。<br><br>踊る神様も天照大神で、爾光尊も天照大神ですね。<br><br>あれは狐が憑かるんですね。<br><br>それで「この方は天照大神だ」と言うんです。<br><br>それでみんないっぱい食っちゃう。<br><br>日本人をありがたがらせるのには一番ですからね。<br><br>天照大神というのは、利用価値が一番あるんです。<br><br>いまはどうも、天照大神というのは安っぽいですね。<br><br>いまはめちゃめちゃですよ。<br><br>天照大神が憑かったら、決して天照大神だといいませんよ。<br><br>絶対にね。<br><br> 「熱が低いのに脈が高いのはいかなるわけでしょうか」 そうですね。<br><br>それは別に必要はないが、こういうわけですね。<br><br>熱というのは、心臓が忙しく働いて――ポンプが頻繁になるわけです。<br><br>そうすると、頻繁というものの、熱の冷め方が遅いといいますかね。<br><br>溶け方が悪いんだな。<br><br>そこで、実際心臓が早くなって熱を出すということは、熱が必要だからです。<br><br>というのは、早く出しちゃおうというんです。<br><br>溶けが悪いんでしょうね。<br><br>そういうわけです。<br><br> 「肺病で脈は大して早くなく、呼吸が早いというのがありますが――」 肺の収縮が弱っているんです。<br><br>つまり半分しか吸収できないんです。<br><br>というのは、毒が肺に固まって肺の活動力が侵害されるんです。<br><br> 「以前に伊弉諾尊は人類の祖とお聞きしましたが――」 そんなことはありません。<br><br>人類の祖というのは、ずっと先です。<br><br>伊弉諾尊はずっと進化してからです。<br><br>しかし神道によっては、そう言いますがね。<br><br>ああいうことも、私は必要だけ書いてある。<br><br>人類学者とか考古学者のようにそう古いことを言ったところでしょうがないですからね。<br><br>だいたい必要なだけで、それだけしか書かない。<br><br>それより、現実の問題ですね。<br><br>どういう苦しみをしているかで、これが肝腎です。<br><br>あんまり古代史なんか説かないようにする。<br><br>結局、一種の道楽になってしまう。<br><br> 「新しく御神体御奉斎の場合に、祝詞、善言讃詞、御讃歌を奏げ、その他に奉斎祝詞というのは余分でしょうか」 神道じゃないからね。<br><br>神道はどうしても祝詞を奏げなければならないが、そんな必要はないですね。<br><br>奏げて悪いことはないですから、奏げたい人は奏げるとよい。<br><br>奏げたくない――ということはないだろうが、必要からいうと、奏げなくても良いんです。<br><br>お祀りして朝晩拝むというところで充分ですからね。<br><br> 「仏壇に善言讃詞を奏げますのはいかががでしょうか」 それは神様と同じになるじゃないか。<br><br>だから神様に対して御無礼になる。<br><br>そこに違いがなければならない。<br><br>お祭りのときだけはそうして良いが、普段にやってはいけないと言ってあるでしょう。<br><br>神様のほうは平等じゃないんですね。<br><br>非常に階級をつけるんです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Orientações sobre a Prática da Fé</h2>
 <p>Gostaria de fazer uma pergunta sobre o Johrei. Outrora, o preceito que nos foi revelado era o de ministrá-lo individualmente, de pessoa para pessoa, mas...</p>
@@ -162,5 +314,48 @@ function toggleLang(lang) {
 <p>Nossa fé não é o xintoísmo. No xintoísmo, o Norito é imprescindível, mas para nós não há tal necessidade. Não há mal em entoá-lo, se assim o desejarem, mas não é obrigatório. As orações da manhã e da noite são plenamente suficientes.</p>
 <p>Seria apropriado entoar a Oração Zengensanshi diante do altar budista dos antepassados?</p>
 <p>Não, pois isso seria colocar os antepassados no mesmo patamar de Deus, o que constitui um desrespeito para com Ele. É preciso haver uma distinção clara. Em ocasiões especiais, como cerimônias memoriais, é permitido, mas, como já orientei, não deve ser uma prática diária. No Mundo Divino, a hierarquia é extremamente rigorosa; não se trata de um plano de igualdade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御垂示 （S26年10月1日） 『御垂示録』3号、昭和26(1951)年11月25日発行 昭和二十六年十月一日 「浄霊のことにつきましてお伺い申し上げます。<br/><br/>前には、御開示いただきまして一人対一人というのが原則でございましたが――」 あのときはね。<br/><br/> 「浄化が非常に激しいのをいただきました時分に、何人もでやっておりますのは――」 時が進むので――年中一つではない。<br/><br/>時が進むに従って違います。<br/><br/>そのときに合ったやり方でやると良い。<br/><br/>そんなに窮屈にきめなくてもよいです。<br/><br/>臨機応変で良い。<br/><br/> 「高熱の浄化の末期にシャックリが起こりますと、医学でも二、三日しかもたないことになっておりますが、私が体験させていただきましたのは、十日間もちました。<br/><br/>どういう関係でなりますのでございましょうか」 霊的と両方ありますがね。<br/><br/> 「諦めるべきでございましょうか」 そんなことはありません。<br/><br/>たいしたことはない。<br/><br/> 「長いときは二時間くらいなっておりました」 どこをやっている。<br/><br/> 「頭から延髄にかけてやっております」 延髄ですね。<br/><br/>それから横隔膜です。<br/><br/> 「亡くなるときは、十日間シャックリが出て、手のソバカスが取れ、顔は金時のようになりました。<br/><br/>八月、日本脳炎のとき、熱が下がらず脈がピクピクし、帯状に白い汗が二時間ほど出て、それから良くなりました」 ここ（延髄）を見るんですね。<br/><br/> 「熱が低いときに脈が多過ぎるのでございます」 衰弱です。<br/><br/> 「シャックリをいたしましたのは三人目で、みんな結果が良くないようでございます」 今までは浄霊の効き方が弱かったが、もうこれからはそんなことはないからね。<br/><br/>それですから、力を入れるなと言うんです。<br/><br/>原因は薬毒ですよ。<br/><br/> 「本日の蜂がさしたということでございますが、蜂の毒というのは、何日かすると消えてしまうものでございましょうか」 五分です。<br/><br/>私がやったら二分です。<br/><br/>あなた方がやっても十分くらいです。<br/><br/>簡単なものです。<br/><br/>じきに消えちゃいます。<br/><br/>アブでしょう。<br/><br/>アブのほうがずっと毒がひどい。<br/><br/>蜂とは較べものにならない。<br/><br/>だけどしばらくして赤くなったでしょう。<br/><br/>あれは溶けて出ようというんです。<br/><br/>それに点眼薬をやったが、あれが悪い。<br/><br/>出ようというのを止めたからね。<br/><br/>うっちゃらかしておくとメヤニになって出て治る。<br/><br/> 「大本教のときですか、アブは教祖様、蜂は聖師様の使いだと聞いたことがございますが」 そんなことはないでしょう。<br/><br/>でたらめです。<br/><br/>天理教なんかは、返答しないから扁桃腺になる。<br/><br/>と、ずいぶん変なことを言いますよ。<br/><br/> 「個人の名前のことでございますが、名前を変えるにも時期があるというのは、どういうようなことでございましょうか」 私は、先に頼まれて変えようとするときに、どうしても出ないことがあるんです。<br/><br/>そういうのは時期が早いのです。<br/><br/>時期というのは、その人の曇りの多寡（たか）です。<br/><br/>多い少ないです。<br/><br/>運命の転換ですからね。<br/><br/>しかし、変えようということはだいぶ時期が来ている。<br/><br/>名前を変えてもらって、かえって悪いことがありますからね。<br/><br/>この間、何先生に変えてもらったというのが死んだ。<br/><br/>とても悪い名前なんです。<br/><br/>知らないんですが、それはいけない。<br/><br/>確信がなくてはいけない。<br/><br/>仙太郎なんかとしてはいけない。<br/><br/>私が変えてやるということは神様に止められてますが。<br/><br/>選（よ）り取りということは構わない。<br/><br/>その場合、自分でいくつも書いてきたら選択はしてあげる。<br/><br/> 「今まで、責任のあることなので、信者さんにも言いませんでしたが、中にはいろいろな方面から聞き、気にする方がありますが、どういうふうにいたしましたらよろしいでしょうか。<br/><br/>名前の変え方も分かりませんし、そのままでよろしいでしょうか」 そのままで良いです。<br/><br/>資格者になれば、位ができる――仏教で言えば覚者となるので、それだけのお蔭をいただいている。<br/><br/>一般の信者はそこまでいっていないので、修業してそこまでいかなければならない。<br/><br/>名前というのは、軽々しく変えては、本当はいけないですね。<br/><br/>かえって、変えて悪くなる人があります。<br/><br/>よくありますからね。<br/><br/>山田耕作が病気しているんですが、草冠をつけたから、私は嫌なことをするなと思っていた。<br/><br/>あれから間もなくですからね。<br/><br/>悪いですね。<br/><br/>耕すと書いて草が生えたらどうにもならない。<br/><br/>田んぼを耕作するにも、草が生えたらどうにもならない。<br/><br/>姓名判断なんか知らないですからね。<br/><br/>姓名判断では、熊崎健翁という、翁（おきな）という字をつけているが、悪いですね。<br/><br/>活動ができないですね。<br/><br/>隠居でもするようになる。<br/><br/> 「ある信者でございますが、昨年の四月三日から、今年は四月四日からいま時分まで、竃（かまど）の付近とか鶏小屋の付近を通りますと、必ずお線香の匂いがするそうでございますが――」 霊界がそうなっている。<br/><br/>霊界でお線香を焚いている。<br/><br/>というのは、そこに死人がいる。<br/><br/>死霊がいるんです。<br/><br/>よほど鼻が敏感なんですね。<br/><br/> 名前について、この間もある人に話したが、名前が良すぎて悪いことが多いです。<br/><br/> つまり、名前というのは、その人の霊に相応するんです。<br/><br/>名前が良すぎては、かえって合わない。<br/><br/>例えてみれば「天」の字を書くと、きっと駄目になる。<br/><br/>「天」というのは非常に位があるんです。<br/><br/>天皇なんか「天」だが、普通人が「天」の字をつけると良すぎるわけですね。<br/><br/>隔りがない。<br/><br/>われわれは地上でやっているのだからね。<br/><br/>天上界でやっているのではない。<br/><br/>「天」の字はきっと悪くなる。<br/><br/> それから「大」の字が悪いですね。<br/><br/>「大」の字は非常に位がある。<br/><br/>「大」は一人と書く。<br/><br/>神御一人（かみごいちにん）とかね。<br/><br/>主神、天皇、首脳者とか、上の位の者につける。<br/><br/>普通人民にはつけない。<br/><br/>かえって、出世する人で名前の悪い、つまらない――値打ちのないものがありますが、それはその人の御魂に合っているから、それで良いわけですね。<br/><br/> 「石田朝子というのは――」 いずれ変えたほうがよいですね。<br/><br/>「石田」というのは「ア」行ですからね。<br/><br/>「朝」は「ア」です。<br/><br/>すると「ア」行は火になりますから、上が火なら下は水にならなければならない。<br/><br/>「石田」は火ですからね。<br/><br/>とにかくあまり良くないですね。<br/><br/>名前をつけるのに、だいたいあらかじめ知っておく必要があるね。<br/><br/>「ア」行は天ですから、下は地になる。<br/><br/>地というのは水に関係したものを入れるんですね。<br/><br/> いまの「イ」というのは「人」という字です。<br/><br/>この「イ」を人偏と言いますね。<br/><br/>これ「ノ」が天になり、これ「ヽ」が地になる。<br/><br/>半分になる。<br/><br/>言霊（ことたま）の魂返（たまがえ）しですぐ分かる。<br/><br/>「岡田」というと、「ダ」――「ア」ですね。<br/><br/>これが全部を支配する「オ」ではない。<br/><br/>「茂吉」は「ミ」になりますから、「岡田茂吉」というのは、魂返しで「アミ」になる。<br/><br/>「中島」というのは、一番頭は「ア」でしょう「キセ」というのは「ケ」になる。<br/><br/>それを知っておかなければね。<br/><br/>そういうふうになっている人は、やっぱり違いますよ。<br/><br/>人間が利口だとか、出世するとかね。<br/><br/>それから「マミムメモ」の音が入っているのは、物質に困らない。<br/><br/>それで「巳」の年――「巳」というのは蛇ですからね。<br/><br/>これは非常に物質的です。<br/><br/>それから、いつも言う通り「サシスセソ」の音が入っている人は、自分の意思を通そうというんです。<br/><br/>それから、名前に「マミムメモ」が入っているのは女性的なんです。<br/><br/>それから、苗字も離れ離れになっていては駄目です。<br/><br/>それから、読んでスラスラとしているんですね。<br/><br/>小学校時分に、谷山龍飛というずいぶんおもしろいのがありましたが、死んじゃいました。<br/><br/> 「下に「一」の字がついたのはいけないでしょうか」 そんなことはありません。<br/><br/> 私がつける名前はちゃんと意味があります。<br/><br/>熱海は瑞雲郷というでしょう。<br/><br/>「瑞」は「水」です。<br/><br/>月の水で、熱海は「月の都」ですからね。<br/><br/>あっちは、神仙郷――日光殿と言う、火と水になっている。<br/><br/>やはり相応しなければならない。<br/><br/> 「因縁というのは、宿命的なものと、運命的なものとありますが――」 それは本に書いてあります。<br/><br/>根本は宿命です。<br/><br/>それが運命を起こしますね。<br/><br/>それは第二の意味になる。<br/><br/>因縁という言葉は良くできていますね。<br/><br/> 「信者さんで、石の観音さんを雨ざらしにしておりますが、屋敷内に祀るのはいかががでございましょうか」 本当じゃないですね。<br/><br/>観音さんを石で作るのはいけない。<br/><br/>知らないからですね。<br/><br/>そうかと言って、石で作れば安置の場所は外よりない。<br/><br/>部屋に飾るようなわけにはいかない。<br/><br/>相応しない。<br/><br/>蓑笠（みのかさ）着て中に入るようなものです。<br/><br/>壊すわけにはいかないし、そのままで良いです。<br/><br/> 「信者のお母さんで、癇（かん）の虫を切るといいますが、その方法を覚え、というのは癇の虫の強い子供に『浄』という字を三回書き、大光明如来様に、この子の癇の虫を取っていただきたい、とお願いすると、関節とか指から白い筋が出てまいります。<br/><br/>そうして、虫の強い子がピタリと治ってしまいます。<br/><br/>最近は、子供が来て、忙しいので後でやってあげようという言葉だけで、どんどん出ていってしまいます」 おもしろいですね。<br/><br/>人間の指から白い毛のようなものが出てくるのはあります。<br/><br/>やっぱり虫でしょうね。<br/><br/>文字の働きというのもあるんです。<br/><br/>先に文字で治す先生がいた。<br/><br/>「痛み止まる」とか書いてね。<br/><br/>そうすると、いくらか良くなる。<br/><br/>私だって御守りに「光」と書くでしょう。<br/><br/>文字の働きです。<br/><br/>文字が働くというのは立派なものですね。<br/><br/>文字を書くと虫が出るというのは、あり得ることです。<br/><br/>子供なんか特によくあります。<br/><br/>それはまるっきり迷信とか、そういうものじゃない。<br/><br/>立派なものがある。<br/><br/>しかし面倒臭いですね。<br/><br/>浄霊のほうが簡単で良いです。<br/><br/> 「霊の物質化ではないでしょうか」 霊の物質化ではないでしょうね。<br/><br/>しかし、出る人はあります。<br/><br/>浄霊すると良く出ます。<br/><br/> 「大人は出ませんのでございますが」 大人でも出るのがありますよ。<br/><br/>つまんで出す人がある。<br/><br/> 「毒素の一種でございましょうか」 やはり虫ですね。<br/><br/>毒素から生まれる虫ですね。<br/><br/> 「酒飲みは腹中の霊が、というように御教えいただいておりますが、副霊というのは、どういうことになるのでございましょうか」 副守護神で飲むのもあるし、お客様でも飲むのもあるし、副霊で飲むのもあります。<br/><br/>副守護神のほうはなかなか根強い。<br/><br/>いつかおじいさんで、酒飲みの霊が憑かり「どうもわしは飲みたくてね。<br/><br/>あの時分は酒を買えねぇんでね」と言うんです。<br/><br/> 「子供が死の予言のようなことを自分自身で言いまして『死んでどうするんだ』と聞きますと『天国に行くんだ』『帰れないよ』と言うと『生まれ変わるよ。<br/><br/>どこに生まれ変わろうかな』と言うのでございます。<br/><br/>その前に『靴を買ってあげよう』と言うと『僕いらない』と申します。<br/><br/>それは誰が言わせているのでございましょうか」 正守護神です。<br/><br/> 「浄化が強く、浄霊をしてもおさまらないので、脈もなくなるし、顔色もなくなってしかたがないので、余ってあります光明如来様を病人の上に拡げましたところが治りました」 お祀りしてない――余分の御神体なら良いですよ。<br/><br/>しかし、それは浄霊する人の霊力が弱いんです。<br/><br/>拡げなくても巻いたままお腹の上にのせても良いです。<br/><br/>お願いしてね。<br/><br/>いまの――力を入れないやり方だと、そんなことをしなくても治るわけですがね。<br/><br/> 「お産のとき使ったお腹帯ですが、長く使った関係上だいぶ汚れておりますので洗濯させていただいてよろしいでしょうか。<br/><br/>あとはいかがいたしたらよろしいでしょうか」 洗濯してもよいです。<br/><br/>あとはしまっておけば良い。<br/><br/>この次お産があったとき使うと良い。<br/><br/>お三方にのせて、また使わせていただきますから、どうぞお願い申し上げますと言って使えばよい。<br/><br/> 「伊都能売神（いづのめのかみ）は観世音となり、観音は大日如来となると、御教えいただいておりますが、信仰雑話に大日如来は天照大神とございます。<br/><br/>また、長男が伊都能売神、長女が天照大神――とございますが――」 そうです。<br/><br/>伊都能売神が天照大神を御守護しているわけですね。<br/><br/>つまり、伊都能売神の中に火の働きが入っているわけです。<br/><br/>伊都能売神というと、火と水になる。<br/><br/>火のほうが天照大神になるというわけですね。<br/><br/>水のほうは月読尊（つきよみのみこと）になるわけです。<br/><br/> いまは天照大神がたくさんありますがね。<br/><br/>踊る神様も天照大神で、爾光尊も天照大神ですね。<br/><br/>あれは狐が憑かるんですね。<br/><br/>それで「この方は天照大神だ」と言うんです。<br/><br/>それでみんないっぱい食っちゃう。<br/><br/>日本人をありがたがらせるのには一番ですからね。<br/><br/>天照大神というのは、利用価値が一番あるんです。<br/><br/>いまはどうも、天照大神というのは安っぽいですね。<br/><br/>いまはめちゃめちゃですよ。<br/><br/>天照大神が憑かったら、決して天照大神だといいませんよ。<br/><br/>絶対にね。<br/><br/> 「熱が低いのに脈が高いのはいかなるわけでしょうか」 そうですね。<br/><br/>それは別に必要はないが、こういうわけですね。<br/><br/>熱というのは、心臓が忙しく働いて――ポンプが頻繁になるわけです。<br/><br/>そうすると、頻繁というものの、熱の冷め方が遅いといいますかね。<br/><br/>溶け方が悪いんだな。<br/><br/>そこで、実際心臓が早くなって熱を出すということは、熱が必要だからです。<br/><br/>というのは、早く出しちゃおうというんです。<br/><br/>溶けが悪いんでしょうね。<br/><br/>そういうわけです。<br/><br/> 「肺病で脈は大して早くなく、呼吸が早いというのがありますが――」 肺の収縮が弱っているんです。<br/><br/>つまり半分しか吸収できないんです。<br/><br/>というのは、毒が肺に固まって肺の活動力が侵害されるんです。<br/><br/> 「以前に伊弉諾尊は人類の祖とお聞きしましたが――」 そんなことはありません。<br/><br/>人類の祖というのは、ずっと先です。<br/><br/>伊弉諾尊はずっと進化してからです。<br/><br/>しかし神道によっては、そう言いますがね。<br/><br/>ああいうことも、私は必要だけ書いてある。<br/><br/>人類学者とか考古学者のようにそう古いことを言ったところでしょうがないですからね。<br/><br/>だいたい必要なだけで、それだけしか書かない。<br/><br/>それより、現実の問題ですね。<br/><br/>どういう苦しみをしているかで、これが肝腎です。<br/><br/>あんまり古代史なんか説かないようにする。<br/><br/>結局、一種の道楽になってしまう。<br/><br/> 「新しく御神体御奉斎の場合に、祝詞、善言讃詞、御讃歌を奏げ、その他に奉斎祝詞というのは余分でしょうか」 神道じゃないからね。<br/><br/>神道はどうしても祝詞を奏げなければならないが、そんな必要はないですね。<br/><br/>奏げて悪いことはないですから、奏げたい人は奏げるとよい。<br/><br/>奏げたくない――ということはないだろうが、必要からいうと、奏げなくても良いんです。<br/><br/>お祀りして朝晩拝むというところで充分ですからね。<br/><br/> 「仏壇に善言讃詞を奏げますのはいかががでしょうか」 それは神様と同じになるじゃないか。<br/><br/>だから神様に対して御無礼になる。<br/><br/>そこに違いがなければならない。<br/><br/>お祭りのときだけはそうして良いが、普段にやってはいけないと言ってあるでしょう。<br/><br/>神様のほうは平等じゃないんですね。<br/><br/>非常に階級をつけるんです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

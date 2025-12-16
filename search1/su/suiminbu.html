@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>suiminbu</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,61 +241,55 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 睡眠不足 『結核の正体』昭和18(1943)年11月23日発行 睡眠不足が結核の原因となるという事は、なんら意味をなさない解釈である事を述べてみよう。<br><br>なぜ医学は右のごとく誤ったかという事を想像してみるに過労と同一の考えによるのであろう。<br><br>すなわち再三述べたごとく、人体は運動によって浄化熱が発生するものであるから、睡眠という安静時より、覚醒時の活動時間が長い程、より浄化作用が発生しやすいのは当然である。<br><br>この意味において、医学の説は逆である事を知るであろう。<br><br> この例として最も適切な事がある。<br><br>それは花柳界における人達である。<br><br>この社会の人には結核が最も少ないという事を、医家はよくいうのである。<br><br>しかるに、あらゆる階級中、この社会の人達ほど睡眠不足である事は恐らく他にないであろう。<br><br>これらによってみても、睡眠不足が結核の原因にならない訳が知らるるのである。<br><br> また結核の多いといわるる学生についてみるに学生は割合、夜の勉学と早朝通学のためとによって確かに睡眠は不足している。<br><br>かつ運動も強烈であるから、両々（りょうりょう）相まって浄化作用が発生しやすく、そのために微熱をみるので、医学は睡眠不足と過労が結核の原因であるとするに至ったと思うのである。<br><br> また一般に朝は無熱または低熱で、午後に到ると必ず多少の昂騰（こうとう）をするが、これは右の理によるのである。<br><br>しかるに稀には朝高く午後に低い場合もあるが、それは下熱剤のために狂うからで、かくのごときのごとき場合下熱剤をやめれば、再び正当な状態に立戻るものである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Equívoco sobre a Privação de Sono como Causa da Tuberculose</h2>
 <p>Desejo expor por que a interpretação de que a privação de sono causa a tuberculose é inteiramente desprovida de sentido. Ao conjecturarmos as razões que levaram a medicina a cometer tal equívoco, é provável que a sua lógica seja a mesma aplicada ao excesso de trabalho. Com efeito, conforme tenho afirmado reiteradamente, o corpo humano gera um calor purificador por meio da atividade física. Portanto, é natural que, quanto mais longo o período de vigília e atividade em comparação ao repouso do sono, mais propenso o organismo estará a manifestar a ação purificadora. Nesse sentido, compreende-se que o postulado da medicina é, na verdade, o oposto da realidade.</p>
 <p>Para ilustrar este ponto, existe um exemplo sobremodo apropriado: o das pessoas que atuam no universo do entretenimento noturno. É fato notório, e frequentemente mencionado pelos próprios médicos, que a incidência de tuberculose entre os integrantes dessa classe é a mais baixa de todas. Contudo, dentre todas as classes sociais, talvez não haja outra cujos membros sofram de uma privação de sono tão acentuada. Este exemplo, por si só, já demonstra por que a falta de sono não pode ser a causa da tuberculose.</p>
 <p>Ademais, ao analisarmos o caso dos estudantes, entre os quais a tuberculose é tida como frequente, constatamos que eles de fato têm sono insuficiente. Isso se deve tanto aos estudos noturnos quanto à necessidade de se deslocarem para a escola nas primeiras horas da manhã. Some-se a isso a prática de exercícios intensos. A combinação desses dois fatores — a privação de sono e o esforço físico — potencializa a manifestação da ação purificadora, que se apresenta como uma febre baixa e persistente. É justamente essa febre que, a meu ver, levou a medicina à conclusão equivocada de que a falta de sono e o excesso de trabalho seriam as causas da tuberculose.</p>
 <p>De modo geral, observa-se que pela manhã o paciente apresenta febre baixa ou inexistente, a qual invariavelmente se eleva ao longo da tarde. Tal fenômeno decorre precisamente do princípio que acabo de expor. Todavia, em raras ocasiões, o padrão se inverte, com a febre sendo mais alta pela manhã. Isso ocorre unicamente porque o quadro é desregulado pelo uso de antitérmicos. Nesses casos, ao se suspender a medicação, o corpo retoma seu estado natural de purificação.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 睡眠不足 『結核の正体』昭和18(1943)年11月23日発行 睡眠不足が結核の原因となるという事は、なんら意味をなさない解釈である事を述べてみよう。<br/><br/>なぜ医学は右のごとく誤ったかという事を想像してみるに過労と同一の考えによるのであろう。<br/><br/>すなわち再三述べたごとく、人体は運動によって浄化熱が発生するものであるから、睡眠という安静時より、覚醒時の活動時間が長い程、より浄化作用が発生しやすいのは当然である。<br/><br/>この意味において、医学の説は逆である事を知るであろう。<br/><br/> この例として最も適切な事がある。<br/><br/>それは花柳界における人達である。<br/><br/>この社会の人には結核が最も少ないという事を、医家はよくいうのである。<br/><br/>しかるに、あらゆる階級中、この社会の人達ほど睡眠不足である事は恐らく他にないであろう。<br/><br/>これらによってみても、睡眠不足が結核の原因にならない訳が知らるるのである。<br/><br/> また結核の多いといわるる学生についてみるに学生は割合、夜の勉学と早朝通学のためとによって確かに睡眠は不足している。<br/><br/>かつ運動も強烈であるから、両々（りょうりょう）相まって浄化作用が発生しやすく、そのために微熱をみるので、医学は睡眠不足と過労が結核の原因であるとするに至ったと思うのである。<br/><br/> また一般に朝は無熱または低熱で、午後に到ると必ず多少の昂騰（こうとう）をするが、これは右の理によるのである。<br/><br/>しかるに稀には朝高く午後に低い場合もあるが、それは下熱剤のために狂うからで、かくのごときのごとき場合下熱剤をやめれば、再び正当な状態に立戻るものである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

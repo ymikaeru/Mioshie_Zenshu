@@ -1,129 +1,281 @@
 ﻿<html>
-
 <head>
-    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-    <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR" />
-    <title>qgurenno</title>
-    <link href="../../../style4.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body bgcolor="#EFFFE6">
-    <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
-        <input name="hint" type="hidden" value="ひらがな" />
-        <input name="index" type="hidden" value="" />
-        <input name="config" type="hidden" value="" />
-        <div align="right">
-            <table border="0" cellpadding="0" cellspacing="0" width="90%">
-                <tr>
-                    <td>
-                        <p align="right">
-                            <font face="ＭＳ ゴシック" size="2"><strong>――</strong></font>
-                            <font face="HG正楷書体-PRO" size="2"><strong> 岡田自観師の論文集 ――</strong>　</font>
-                            <font face="ＭＳ ゴシック" size="2"><strong>御教え検索</strong>：</font>
-                        </p>
-                    </td>
-                    <td align="center" bgcolor="#EFFFE6" width="150">
-                        <font size="2"><input name="query" size="25" type="text" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6">
-                        <font size="2"><input type="submit" value="検索" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6" width="35"><a href="../../../../cgi/msearch.cgi">
-                            <font size="2">help</font>
-                        </a></td>
-                </tr>
-            </table>
-        </div>
-    </form>
-    <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
-        <input name="hint" type="hidden" value="ひらがな" />
-        <input name="index" type="hidden" value="shiryo" />
-        <input name="config" type="hidden" value="" />
-        <div align="right">
-            <table border="0" cellpadding="0" cellspacing="0" width="90%">
-                <tr>
-                    <td>
-                        <p align="right">
-                            <font face="ＭＳ ゴシック" size="2"><strong>　　　お か げ 話　　　　　　　資料検索</strong>：</font>
-                        </p>
-                    </td>
-                    <td align="center" bgcolor="#EFFFE6" width="150">
-                        <font size="2"><input name="query" size="25" type="text" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6">
-                        <font size="2"><input type="submit" value="検索" /></font>
-                    </td>
-                    <td width="35">　</td>
-                </tr>
-            </table>
-        </div>
-    </form>
-    <blockquote>
-        
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
+<title>qgurenno</title>
+<link href="../../../style4.css" rel="stylesheet" type="text/css"/>
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
+<form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
+<input name="hint" type="hidden" value="ひらがな"/>
+<input name="index" type="hidden" value=""/>
+<input name="config" type="hidden" value=""/>
+<div align="right">
+<table border="0" cellpadding="0" cellspacing="0" width="90%">
+<tr>
+<td>
+<p align="right">
+<font face="ＭＳ ゴシック" size="2"><strong>――</strong></font>
+<font face="HG正楷書体-PRO" size="2"><strong> 岡田自観師の論文集 ――</strong>　</font>
+<font face="ＭＳ ゴシック" size="2"><strong>御教え検索</strong>：</font>
+</p>
+</td>
+<td align="center" bgcolor="#EFFFE6" width="150">
+<font size="2"><input name="query" size="25" type="text"/></font>
+</td>
+<td bgcolor="#EFFFE6">
+<font size="2"><input type="submit" value="検索"/></font>
+</td>
+<td bgcolor="#EFFFE6" width="35"><a href="../../../../cgi/msearch.cgi">
+<font size="2">help</font>
+</a></td>
+</tr>
+</table>
+</div>
+</form>
+<form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
+<input name="hint" type="hidden" value="ひらがな"/>
+<input name="index" type="hidden" value="shiryo"/>
+<input name="config" type="hidden" value=""/>
+<div align="right">
+<table border="0" cellpadding="0" cellspacing="0" width="90%">
+<tr>
+<td>
+<p align="right">
+<font face="ＭＳ ゴシック" size="2"><strong>　　　お か げ 話　　　　　　　資料検索</strong>：</font>
+</p>
+</td>
+<td align="center" bgcolor="#EFFFE6" width="150">
+<font size="2"><input name="query" size="25" type="text"/></font>
+</td>
+<td bgcolor="#EFFFE6">
+<font size="2"><input type="submit" value="検索"/></font>
+</td>
+<td width="35">　</td>
+</tr>
+</table>
+</div>
+</form>
+<blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 紅蓮の直中より救はる 『地上天国』5号、昭和24(1949)年6月25日発行 自観叢書第4篇『奇蹟物語』昭和24(1949)年10月5日 静岡県 日本五六七教本部 山本啓子 ここに述べますこよなくも尊い体験談は、かつて無神論者であった私の、その浅はかな常識や愚かしい理屈が一瞬にして崩れ去られた日の実録であります。<br><br> 誤れる思想がいかに惨憺たる悲劇をもたらすかと言う事は、終戦五年目の今日に至ってなお私共の心に痛ましき迄に刻みついておりますが、なかんずく戦争中における恐怖と嫌悪の情は今なお生々しく脳裏に蘇って参ります。<br><br>それは四年前の今日三月九日のあの東京大空襲の日のことでありました。<br><br>幾十幾百の焼夷弾の落下に汚穢混乱の真中なる下町一帯は他愛なく一瞬にして燃え拡がり、遂には向いの家も隣家にも猛然と火の手は延びて参りました。<br><br>危機を知って私は大急ぎで御床間の御掛軸をはずし、御著書（明日の医術）を手にして家族七人と共にどこにか避難すべく外に出て驚愕してしまいました。<br><br>外は火災にともなって起る猛烈な竜巻が塵埃を吹きとばし、焔を巻き上げ巻き上げ憤怒に燃えていきり立っているのです。<br><br>人々はまどい泣き叫び、しかも抗しきれぬ烈風にあおられるまにまにどこへともなく拉し去られるよう歩き行くのです。<br><br>そうした炎の乱舞の中で私達は家を出て一町も行かぬ内に母と姉とを見失い、残る者は父と妹弟私の四人、私達は大声で母を姉を呼び叫んでみましたが、突風の吹き荒びは人間の無能をせせら笑って執着の一瞬だにとどまるを許してはくれませんでした。<br><br> 吹きとばされぬよう、四人はしっかりと腕を組んで漸く区役所の四ツ角に来ました時、行途一面火の海ではたと追いつめられました。<br><br>慌てて振り返れば、ああ紅蓮の炎は不気味な舌なめずりをして迫って来るではありませんか。<br><br>左の道筋からも、右の道筋からも、死の恐怖に漂わされほとんど魂を喪失した人々が口々に何かわめきながら逃げまどって来るのです。<br><br>万事休す。<br><br>しかしその時突如「前に進め」と私の心の絶体絶命的にその命のまま躊躇する三人を励まして炎々と燃え狂う中を遮二無二突き進みました。<br><br>熱火に頬はほてり、喉はしきりと渇きます。<br><br>それはほとんど無我夢中でありました。<br><br> その時です。<br><br>およそ液体という液体の存在を許さぬはずの焔のさ中に突如として爽やかなそれはちょうど狭霧にも似た冷水が降りそそぎ出しました、アア何という奇蹟でしょう。<br><br>そしてその奇蹟の狭霧は私達四人の体を包み包み遂に炎の墜道より逃れさせてくれました。<br><br>オオその時の私の感激炎のただ中にあることさえ忘れて、私は半ば恍惚として走っておりました。<br><br>第一の危機を逃れてやがて二町も走ったでしようか、その時既に猛り狂った火の手は八方に拡がり既に行くことも帰ることも出来ない窮地に陥入ってしまいました。<br><br> そんな焦熱地獄の中に落ちて私は初めて吾が命の既に吾がものならざることを知りました。<br><br>神への冒涜者共への苛責なき罰責は激烈な竜巻と成り、阿鼻叫喚を尻目に一呑みにしてしまうぞと迫って来るのです。<br><br>しかしどうした事か、私の心は不思議に何の悶えもありませんでした。<br><br>その時父が近くの校舎に避難しようと申しました。<br><br>この学校は二百名余の防備兵のいる避難校でありましたが、私達は奇しくもこの地下室に導かれて、信じられぬ程物静かな一夜をすごすことが出来ました。<br><br> 暁を待って地下室より出た私達は思わずアッと声を立てました。<br><br>オオあたりは見渡す限りの焼野原なのです。<br><br>兵隊さん達の必死の防備はさしもの猛火よりかろうじて逃れてここにたった一つ全形を留めてやけ残っていたのです。<br><br>道には折重なり折重なり累々たる焼死者の山を築き上げ、みるものをして目を掩わしむる悲惨極りなき光景でありました。<br><br>何たる奇蹟何たる御守護、私は一言も発し得ず五体はただ限りもなくこみ上げる感激の涙に、わなわなと震えて「観音様、観音様」と御名を呼び続けました。<br><br>その朝は不気味なオレンジ色の太陽がまるで呪の瞳のようにのそりのそりと昇りました。<br><br>風は依然として烈しくやきつくように熱く、燃え残りはぶすぶすとくすぶっております。<br><br> 妙に鼻につく焼跡の死臭に吐気を感じながら私達は家を出た時離れ離れになった母と姉を必死になって探し求めました。<br><br>四人は各々手分けをしてあちこちと足の続く限り、黒焦の人の間を縫っては声をからしてよび歩きましたが、どこにもそれらしき姿を見出すことは出来ませんでした。<br><br>二日二晩尋ねあぐみ探し疲れて遂に最後の望をかけて神奈川の伯母の家にたどり着きましたが、そこにも姿はなく最早やこの世では再び逢う事が出来ないと思うと精も根もつき果てて歎き合いました。<br><br> それなのにしかも数日後、ある思いがけぬ所に母親の生存を知った時の私達の喜びは正に言語に絶するものがありました。<br><br>母達はあの大火災の中でも最も凄惨を極めたという平野町へ吹きさらわれ、絶体絶命の境地に彷いながら幾多の奇蹟に遭遇し、かろうじてこの世に生を許されたのであります。<br><br>恐怖の一夜を過し暁の薄明りにみたその場の光景は焦熱地獄さながら、将に十重二十重の焼死人の中にぼつねんと二つの命がうごめいていたのです。<br><br>ホッとした瞬間名状しがたい緊張から解放されて母はヒリヒリとした痛みを両手に感じました。<br><br>みれば両手は非道い火傷のためにある指は真赤に焼ただれ、ある指は痛々しく引きつり、左手の薬指と小指は崩れてべったりくっついてしまっているのです。<br><br>母は大急ぎで交互に手を振って一心に御浄霊を致しました。<br><br>半月後私達一家が再び懐しい夕げの膳についた時当時の恐怖と感激に目をうるませて語る母の指は何の痕跡もなく美しく揃っておりました。<br><br> 追憶をたどって語る者、聞く者は互に生死の境を彷徨して再び蘇らせて頂いたそれぞれの生命を祝福しひたすら神の御前に感謝の祈りを捧げました。<br><br>しかし私はもう一つの奇蹟を申さねばなりません。<br><br>それは罹災後一カ月も経たある日、農林省の某官吏の方より焼跡に皮鞄が落ちていたことを知らせて下さったのです。<br><br>その鞄とはレザー製でかねて父が空襲に備えて預金帳、火災保険証書、その他重要書類を入れてあったもので、当日母が持ち出したものの、いつの間にかどこにか落してしまいました。<br><br> お互の生命を浸す歓び合う事のみであった当時において、皮カバンのことなど誰の念頭にもなかったのであります。<br><br>あまつさえ家をやき人をやき果てはガラス金属をさえ飴のようにドロドロに溶かしてしまったあの大火災に、レザーのカバンが焼けもせず、しかもあの混雑の中より無事に手元に届けられたのであります。<br><br>夢よりもなお奇なる思いでした。<br><br> 私は今静かにあの日を思う時、あの生々しい地獄絵巻の中にうごめいていた私が果して今の平和な私なのであろうかと、自ら信じられぬ程なのであります。<br><br>当時入信後日浅く、半ば嘲笑していた私がその日をして目の前に寛大無限なるしかも絶対厳正なる観世音の御心にふれ、御前にただただおそれひれ伏したのでありました。<br><br>今日新聞にラジオに特異なる存在として賛否交々、果ては心なき人の口さがない中傷に合うとしても、この団体にある一人一人が観音の絶対力をこの世において、如実に体験された幸福者であってみれば、いかなる風波に遭遇しようとも、ますますその信念は確固として無限の発展をとぐることは否みがたきところでありましょう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content">
-            <h2>Resgatada do Inferno Carmesim</h2>
-            <p><em>Publicado na revista "Paraíso Terrestre", edição nº 5, em 25 de junho de 1949.</em>
-                <em>Da Coleção Jikan, Volume 4, "Relatos de Milagres", 5 de outubro de 1949.</em>
-                <em>Sede Central da Igreja no Japão, Província de Shizuoka</em>
-                <em>Keiko Yamamoto</em>
-            </p>
-            <p>O sublime relato que apresento a seguir é o registro verídico do dia em que meu ceticismo, outrora
+<h2>Resgatada do Inferno Carmesim</h2>
+<p><em>Publicado na revista "Paraíso Terrestre", edição nº 5, em 25 de junho de 1949.</em>
+<em>Da Coleção Jikan, Volume 4, "Relatos de Milagres", 5 de outubro de 1949.</em>
+<em>Sede Central da Igreja no Japão, Província de Shizuoka</em>
+<em>Keiko Yamamoto</em>
+</p>
+<p>O sublime relato que apresento a seguir é o registro verídico do dia em que meu ceticismo, outrora
                 inabalável, e toda a minha lógica presunçosa de ateia se desvaneceram em um instante.</p>
-            <p>A dimensão da tragédia que ideologias equivocadas podem gerar permanece dolorosamente gravada em nossos
+<p>A dimensão da tragédia que ideologias equivocadas podem gerar permanece dolorosamente gravada em nossos
                 corações, mesmo hoje, quase cinco anos após o fim da guerra. Dentre essas memórias, o pavor e a aversão
                 daquele período ressurgem com uma clareza pungente. Refiro-me ao dia 9 de março de quatro anos atrás,
                 data do Grande Bombardeio de Tóquio. Sob a queda de centenas de bombas incendiárias, a área central da
                 cidade, com toda a sua vulnerabilidade, foi instantaneamente consumida pelas chamas. Em pouco tempo, o
                 fogo avançava com fúria sobre a casa vizinha e a que ficava à nossa frente.</p>
-            <p>Ciente do perigo iminente, retirei apressadamente o pergaminho sagrado do altar e, com o livro “Ashita no
+<p>Ciente do perigo iminente, retirei apressadamente o pergaminho sagrado do altar e, com o livro “Ashita no
                 Ijutsu” em mãos, saí com minha família de sete pessoas em busca de refúgio. O que encontramos, porém,
                 foi estarrecedor. Um violento redemoinho, gerado pelo próprio incêndio, soprava detritos e erguia
                 turbilhões de fogo com uma ira ensandecida. Em meio ao caos, pessoas corriam em desespero, gritando,
@@ -131,28 +283,28 @@ function toggleLang(lang) {
                 casa quando perdemos minha mãe e minha irmã de vista. Restamos meu pai, minha irmã mais nova, meu irmão
                 e eu. Gritamos por elas em plenos pulmões, mas o uivo do vento zombava de nossa impotência, não nos
                 permitindo sequer um instante para procurá-las.</p>
-            <p>Para não sermos dispersados pela ventania, nós quatro entrelaçamos os braços e, com muito custo, chegamos
+<p>Para não sermos dispersados pela ventania, nós quatro entrelaçamos os braços e, com muito custo, chegamos
                 ao cruzamento próximo à subprefeitura. Foi então que nos vimos encurralados: à nossa frente, um mar de
                 fogo intransponível. Ao olharmos para trás, vimos as chamas carmesins avançando sobre nós, como se
                 lambessem os lábios em antecipação sinistra. Das ruas à esquerda e à direita, multidões em pânico, com
                 as almas quase perdidas pelo terror da morte, corriam aos gritos.</p>
-            <p>Tudo parecia perdido. Contudo, nesse momento de desespero absoluto, uma voz ressoou em minha mente:
+<p>Tudo parecia perdido. Contudo, nesse momento de desespero absoluto, uma voz ressoou em minha mente:
                 "Avancem!". Seguindo essa ordem, encorajei os outros três, que hesitavam, e mergulhamos sem pensar duas
                 vezes no meio do fogo que ardia furiosamente. O calor abrasador queimava meu rosto, e a garganta secava
                 incessantemente. Estávamos em um estado de quase transe.</p>
-            <p>Foi nesse instante que o inacreditável aconteceu. Em meio a um inferno de chamas onde a existência de
+<p>Foi nesse instante que o inacreditável aconteceu. Em meio a um inferno de chamas onde a existência de
                 qualquer líquido seria impossível, uma névoa fresca e revigorante, semelhante a um sereno, começou a
                 cair sobre nós. Ah, que milagre indescritível! Essa bruma milagrosa envolveu nossos quatro corpos,
                 guiando-nos para fora daquele túnel de fogo. A gratidão que senti foi tamanha que, esquecendo-me de que
                 ainda estava cercada por labaredas, eu corria em estado de puro êxtase.</p>
-            <p>Após escaparmos da primeira armadilha, corremos por talvez duzentos metros, apenas para nos vermos
+<p>Após escaparmos da primeira armadilha, corremos por talvez duzentos metros, apenas para nos vermos
                 novamente encurralados, sem ter para onde ir ou voltar. Foi nesse inferno de calor abrasador que
                 compreendi, pela primeira vez, que minha vida já não me pertencia. O furacão de fogo parecia um castigo
                 implacável, prestes a engolir sem piedade os que profanavam o nome de Deus. Ainda assim, por algum
                 motivo, meu coração permanecia estranhamente sereno. Foi quando meu pai sugeriu que nos abrigássemos na
                 escola próxima, um refúgio guardado por mais de duzentos soldados. Providencialmente, fomos conduzidos
                 ao porão do edifício, onde passamos uma noite de uma tranquilidade inacreditável.</p>
-            <p>Ao sairmos do porão com os primeiros raios da alvorada, a cena que se descortinou nos deixou sem
+<p>Ao sairmos do porão com os primeiros raios da alvorada, a cena que se descortinou nos deixou sem
                 palavras. Diante de nós, um campo de cinzas se estendia até onde a vista alcançava. Os esforços heroicos
                 dos soldados haviam conseguido, a duras penas, proteger aquele único edifício da fúria do incêndio. As
                 ruas estavam repletas de corpos carbonizados, empilhados uns sobre os outros, formando uma paisagem de
@@ -161,13 +313,13 @@ function toggleLang(lang) {
                 gratidão que transbordava, e eu apenas repetia: “Kannon (観音)-Sama, Kannon (観音)-Sama”. Naquela manhã, um
                 sol de uma estranha cor alaranjada subiu lentamente no céu, como um olho amaldiçoado. O vento continuava
                 forte, quente e cortante, enquanto os escombros ainda fumegavam.</p>
-            <p>Enquanto o odor nauseabundo da morte impregnava o ar, começamos a busca desesperada por minha mãe e minha
+<p>Enquanto o odor nauseabundo da morte impregnava o ar, começamos a busca desesperada por minha mãe e minha
                 irmã. Dividimo-nos e percorremos as ruínas até onde nossas pernas aguentavam, gritando seus nomes por
                 entre os corpos enegrecidos, mas não encontramos qualquer sinal delas. Após dois dias e duas noites de
                 uma procura exaustiva e infrutífera, depositamos nossa última esperança na casa de minha tia, em
                 Kanagawa. Contudo, elas também não estavam lá. A certeza de que jamais as veríamos novamente neste mundo
                 nos prostrou em um lamento profundo, exaurindo todas as nossas forças.</p>
-            <p>Imagine, portanto, nossa alegria, absolutamente indescritível, quando, dias depois, soubemos por uma
+<p>Imagine, portanto, nossa alegria, absolutamente indescritível, quando, dias depois, soubemos por uma
                 fonte inesperada que minha mãe estava viva. Elas haviam sido arrastadas para o bairro de Hirano, um dos
                 locais mais devastados pelo incêndio, e, após vivenciarem inúmeros milagres em uma situação de extremo
                 perigo, tiveram suas vidas poupadas. Ao amanhecer daquela noite de terror, a cena ao redor era a própria
@@ -178,10 +330,10 @@ function toggleLang(lang) {
                 alternando as mãos. Meio mês depois, quando nossa família se reuniu novamente para o jantar, os dedos de
                 minha mãe, enquanto ela narrava com os olhos marejados os horrores e as graças daquele dia, estavam
                 perfeitos, sem qualquer vestígio daquelas feridas.</p>
-            <p>Ao recordarmos esses eventos, tanto quem narrava quanto quem ouvia, bendizíamos as vidas que nos foram
+<p>Ao recordarmos esses eventos, tanto quem narrava quanto quem ouvia, bendizíamos as vidas que nos foram
                 restituídas após vagarmos pela fronteira entre a vida e a morte. Em uníssono, elevávamos nossas preces
                 em profunda gratidão a Deus.</p>
-            <p>Contudo, preciso relatar mais um milagre. Cerca de um mês após a tragédia, um funcionário do Ministério
+<p>Contudo, preciso relatar mais um milagre. Cerca de um mês após a tragédia, um funcionário do Ministério
                 da Agricultura e Florestas nos informou ter encontrado uma valise de couro nas ruínas. Era a mesma
                 valise em que meu pai, prevendo os bombardeios, guardara documentos essenciais, como cadernetas de
                 poupança e apólices de seguro. Minha mãe a carregava no dia do incêndio, mas a perdera em meio à
@@ -189,18 +341,60 @@ function toggleLang(lang) {
                 daquela valise. É extraordinário pensar que, naquele incêndio colossal que derreteu vidro e metal como
                 se fossem cera, uma bolsa de couro não apenas sobreviveu intacta, como também nos foi devolvida em meio
                 a todo aquele caos. A realidade superava a mais fantástica das fantasias.</p>
-            <p>Hoje, ao refletir serenamente sobre aqueles acontecimentos, custa-me acreditar que a pessoa que se
+<p>Hoje, ao refletir serenamente sobre aqueles acontecimentos, custa-me acreditar que a pessoa que se
                 debatia naquele cenário infernal seja a mesma que vive em paz nos dias de hoje. Na época, eu era uma
                 iniciante na fé e, confesso, mantinha uma postura cética e até zombeteira. Naquele dia, porém, fui
                 confrontada pela misericórdia infinita e, ao mesmo tempo, pela retidão absoluta de Kannon (観音), e não
                 pude fazer outra coisa senão prostrar-me em reverência e temor.</p>
-            <p>Atualmente, nossa Obra é mencionada em jornais e no rádio com opiniões que se dividem entre o louvor e a
+<p>Atualmente, nossa Obra é mencionada em jornais e no rádio com opiniões que se dividem entre o louvor e a
                 crítica, chegando a ser alvo da calúnia de pessoas levianas. Todavia, cada membro desta organização é
                 alguém que foi abençoado por vivenciar, de forma concreta e neste mundo, o poder absoluto de Kannon
                 (観音). Portanto, é indubitável que, independentemente das tempestades que enfrentarmos, nossa fé se
                 tornará cada vez mais sólida, e nosso desenvolvimento, ilimitado.</p>
-        </div>
-    </blockquote>
-</body>
+</div>
+</blockquote>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 紅蓮の直中より救はる 『地上天国』5号、昭和24(1949)年6月25日発行 自観叢書第4篇『奇蹟物語』昭和24(1949)年10月5日 静岡県 日本五六七教本部 山本啓子 ここに述べますこよなくも尊い体験談は、かつて無神論者であった私の、その浅はかな常識や愚かしい理屈が一瞬にして崩れ去られた日の実録であります。<br/><br/> 誤れる思想がいかに惨憺たる悲劇をもたらすかと言う事は、終戦五年目の今日に至ってなお私共の心に痛ましき迄に刻みついておりますが、なかんずく戦争中における恐怖と嫌悪の情は今なお生々しく脳裏に蘇って参ります。<br/><br/>それは四年前の今日三月九日のあの東京大空襲の日のことでありました。<br/><br/>幾十幾百の焼夷弾の落下に汚穢混乱の真中なる下町一帯は他愛なく一瞬にして燃え拡がり、遂には向いの家も隣家にも猛然と火の手は延びて参りました。<br/><br/>危機を知って私は大急ぎで御床間の御掛軸をはずし、御著書（明日の医術）を手にして家族七人と共にどこにか避難すべく外に出て驚愕してしまいました。<br/><br/>外は火災にともなって起る猛烈な竜巻が塵埃を吹きとばし、焔を巻き上げ巻き上げ憤怒に燃えていきり立っているのです。<br/><br/>人々はまどい泣き叫び、しかも抗しきれぬ烈風にあおられるまにまにどこへともなく拉し去られるよう歩き行くのです。<br/><br/>そうした炎の乱舞の中で私達は家を出て一町も行かぬ内に母と姉とを見失い、残る者は父と妹弟私の四人、私達は大声で母を姉を呼び叫んでみましたが、突風の吹き荒びは人間の無能をせせら笑って執着の一瞬だにとどまるを許してはくれませんでした。<br/><br/> 吹きとばされぬよう、四人はしっかりと腕を組んで漸く区役所の四ツ角に来ました時、行途一面火の海ではたと追いつめられました。<br/><br/>慌てて振り返れば、ああ紅蓮の炎は不気味な舌なめずりをして迫って来るではありませんか。<br/><br/>左の道筋からも、右の道筋からも、死の恐怖に漂わされほとんど魂を喪失した人々が口々に何かわめきながら逃げまどって来るのです。<br/><br/>万事休す。<br/><br/>しかしその時突如「前に進め」と私の心の絶体絶命的にその命のまま躊躇する三人を励まして炎々と燃え狂う中を遮二無二突き進みました。<br/><br/>熱火に頬はほてり、喉はしきりと渇きます。<br/><br/>それはほとんど無我夢中でありました。<br/><br/> その時です。<br/><br/>およそ液体という液体の存在を許さぬはずの焔のさ中に突如として爽やかなそれはちょうど狭霧にも似た冷水が降りそそぎ出しました、アア何という奇蹟でしょう。<br/><br/>そしてその奇蹟の狭霧は私達四人の体を包み包み遂に炎の墜道より逃れさせてくれました。<br/><br/>オオその時の私の感激炎のただ中にあることさえ忘れて、私は半ば恍惚として走っておりました。<br/><br/>第一の危機を逃れてやがて二町も走ったでしようか、その時既に猛り狂った火の手は八方に拡がり既に行くことも帰ることも出来ない窮地に陥入ってしまいました。<br/><br/> そんな焦熱地獄の中に落ちて私は初めて吾が命の既に吾がものならざることを知りました。<br/><br/>神への冒涜者共への苛責なき罰責は激烈な竜巻と成り、阿鼻叫喚を尻目に一呑みにしてしまうぞと迫って来るのです。<br/><br/>しかしどうした事か、私の心は不思議に何の悶えもありませんでした。<br/><br/>その時父が近くの校舎に避難しようと申しました。<br/><br/>この学校は二百名余の防備兵のいる避難校でありましたが、私達は奇しくもこの地下室に導かれて、信じられぬ程物静かな一夜をすごすことが出来ました。<br/><br/> 暁を待って地下室より出た私達は思わずアッと声を立てました。<br/><br/>オオあたりは見渡す限りの焼野原なのです。<br/><br/>兵隊さん達の必死の防備はさしもの猛火よりかろうじて逃れてここにたった一つ全形を留めてやけ残っていたのです。<br/><br/>道には折重なり折重なり累々たる焼死者の山を築き上げ、みるものをして目を掩わしむる悲惨極りなき光景でありました。<br/><br/>何たる奇蹟何たる御守護、私は一言も発し得ず五体はただ限りもなくこみ上げる感激の涙に、わなわなと震えて「観音様、観音様」と御名を呼び続けました。<br/><br/>その朝は不気味なオレンジ色の太陽がまるで呪の瞳のようにのそりのそりと昇りました。<br/><br/>風は依然として烈しくやきつくように熱く、燃え残りはぶすぶすとくすぶっております。<br/><br/> 妙に鼻につく焼跡の死臭に吐気を感じながら私達は家を出た時離れ離れになった母と姉を必死になって探し求めました。<br/><br/>四人は各々手分けをしてあちこちと足の続く限り、黒焦の人の間を縫っては声をからしてよび歩きましたが、どこにもそれらしき姿を見出すことは出来ませんでした。<br/><br/>二日二晩尋ねあぐみ探し疲れて遂に最後の望をかけて神奈川の伯母の家にたどり着きましたが、そこにも姿はなく最早やこの世では再び逢う事が出来ないと思うと精も根もつき果てて歎き合いました。<br/><br/> それなのにしかも数日後、ある思いがけぬ所に母親の生存を知った時の私達の喜びは正に言語に絶するものがありました。<br/><br/>母達はあの大火災の中でも最も凄惨を極めたという平野町へ吹きさらわれ、絶体絶命の境地に彷いながら幾多の奇蹟に遭遇し、かろうじてこの世に生を許されたのであります。<br/><br/>恐怖の一夜を過し暁の薄明りにみたその場の光景は焦熱地獄さながら、将に十重二十重の焼死人の中にぼつねんと二つの命がうごめいていたのです。<br/><br/>ホッとした瞬間名状しがたい緊張から解放されて母はヒリヒリとした痛みを両手に感じました。<br/><br/>みれば両手は非道い火傷のためにある指は真赤に焼ただれ、ある指は痛々しく引きつり、左手の薬指と小指は崩れてべったりくっついてしまっているのです。<br/><br/>母は大急ぎで交互に手を振って一心に御浄霊を致しました。<br/><br/>半月後私達一家が再び懐しい夕げの膳についた時当時の恐怖と感激に目をうるませて語る母の指は何の痕跡もなく美しく揃っておりました。<br/><br/> 追憶をたどって語る者、聞く者は互に生死の境を彷徨して再び蘇らせて頂いたそれぞれの生命を祝福しひたすら神の御前に感謝の祈りを捧げました。<br/><br/>しかし私はもう一つの奇蹟を申さねばなりません。<br/><br/>それは罹災後一カ月も経たある日、農林省の某官吏の方より焼跡に皮鞄が落ちていたことを知らせて下さったのです。<br/><br/>その鞄とはレザー製でかねて父が空襲に備えて預金帳、火災保険証書、その他重要書類を入れてあったもので、当日母が持ち出したものの、いつの間にかどこにか落してしまいました。<br/><br/> お互の生命を浸す歓び合う事のみであった当時において、皮カバンのことなど誰の念頭にもなかったのであります。<br/><br/>あまつさえ家をやき人をやき果てはガラス金属をさえ飴のようにドロドロに溶かしてしまったあの大火災に、レザーのカバンが焼けもせず、しかもあの混雑の中より無事に手元に届けられたのであります。<br/><br/>夢よりもなお奇なる思いでした。<br/><br/> 私は今静かにあの日を思う時、あの生々しい地獄絵巻の中にうごめいていた私が果して今の平和な私なのであろうかと、自ら信じられぬ程なのであります。<br/><br/>当時入信後日浅く、半ば嘲笑していた私がその日をして目の前に寛大無限なるしかも絶対厳正なる観世音の御心にふれ、御前にただただおそれひれ伏したのでありました。<br/><br/>今日新聞にラジオに特異なる存在として賛否交々、果ては心なき人の口さがない中傷に合うとしても、この団体にある一人一人が観音の絶対力をこの世において、如実に体験された幸福者であってみれば、いかなる風波に遭遇しようとも、ますますその信念は確固として無限の発展をとぐることは否みがたきところでありましょう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
 
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>M261211</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御教え （S26年12月11日） 『御教え集』5号、昭和27(1952)年1月15日発行 昭和二十六年十二月十一日 （お伺）入信以前に子宮癌を手術し、入信後（九月一日）お伺い申し上げまして、御守護をいただきその後順調にまいりましたところ、二月末より出血多く、十二月初め御不浄にて拳大の毒血の固まりが二個出て、出血多く、御不浄内で倒れました。<br><br>一時は危険状態でありましたが、御浄霊にて御守護いただき小康を得、出血は止まりました。<br><br>現在は食欲は軽く一膳くらいのお粥を食べるくらいで、全身だるく特に手足がだるく、気力は衰え、手術いたしました患部に拳大の固まりが残っており、痛みはございません。<br><br>御浄霊はどこをさせていただきましたら、よろしゅうございましょうか。<br><br> 〔御垂示〕 これはたいへん結構ですね。<br><br>この固まりというのは子宮癌ですね――癌であったかもしれないですね。<br><br>お医者は、開けてみてそこを取らずに、そっとしておいてあるかもしれないが、これは――子宮癌というのはほとんど血の固まりですから、これはそれでしょう。<br><br>だから結構です。<br><br>食欲がないのは、熱があるためですよ。<br><br>だから、そう長くは続かないです。<br><br>それで、大体そういった固まりが取れると、そこがきれいになるからして、平均浄化が起ったんですね。<br><br>だから、首とか肩とか背中とか――そういう所から熱が出るんですから、そこを調べて、そこの熱が冷めれば――冷めます、たいしたことはない。<br><br> 「時々、記憶が、ぼっとしたようになります。<br><br>」 貧血のためです。<br><br>血の固まりが取れると、脱落したようになる。<br><br>貧血したようになります。<br><br>ここ（頸部淋巴腺）を見てご覧なさい。<br><br>ここから熱が出ているかもしれない。<br><br>非常に結構なものですからね。<br><br> （お伺）神取八郎（五十二歳）昭和二十三年ごろから、夜眠られず寝床を三カ所も変える状態で、医師より脳梅毒と言われ、いろいろと医療を受け、熱心に御嶽教を信仰しておりましたが、だんだん悪化してまいりました。<br><br>御浄霊をいただくようになり、良い方に向かいましたので、主人は昭和二十四年二月入信させていただきましたが、申し訳ないことに三月末ごろ突然、御守り様の「光」と「ヽ」とを鋏で切り離してしまいました。<br><br>その後、病状悪化し、現在では食物を丸飲みにし、こちらから持って行かねば、食事を要求せず、一日中寝て、口の中で独り言を言っております。<br><br>小便は自分で気がつかずにしてしまいます。<br><br>なお二十五、六年前に家の蔵の中に三升笊（さんじょうざる）を伏せたほどの青大将がいたのを殺して、近所の人に薬にするようにと与えたことがございます。<br><br>主人の父親は五、六年前に縊死しております。<br><br>私の前夫はある女行者と恋仲となり劇薬自殺を遂げております。<br><br>この時、前夫のみ死に、女行者は生き残りました。<br><br>右は霊的関係でございましょうか。<br><br>なお、御神体を御奉斎させていただきますよう準備中でございます。<br><br> 〔御垂示〕 どうして、こんなことしたのかね。<br><br>霊憑りだな。<br><br>随分厄介だね。<br><br>光明如来様をお祀りするように準備していると言うんだから結構ですが、一日も早くお祀りする。<br><br>それから主人はやっぱり霊が憑っているんですがね。<br><br>鋏で――やっぱり霊にやられたんですね。<br><br>丸飲み――青大将ですね。<br><br>無論、この青大将は祖霊ですがね。<br><br>三升笊――随分大きいんだな。<br><br>青大将の霊を救ってやるんだから、光明如来様を祀ったら、その部屋に寝るんだね。<br><br>あとは別にたいしたことはない。<br><br>それですね。<br><br>そうしてできるだけ御神書を読むようにして、気長にやっていればだんだん良くなります。<br><br>なにしろ、殺されると非常に怨みますから、しつこいですよ――霊の働きがね。<br><br>だから、簡単にいかないですね。<br><br>気長にやるよりしかたがないですね。<br><br>そして、少しでも暇があったら、一人でも多く人助けをする。<br><br>その徳によって治りが早くなるというわけですね。<br><br> （お伺）満四歳の女児、昨年七月疫痢の際、上乳歯が三本根本から折れました。<br><br>それより上唇が腫れ、本年九月ごろより、折れた歯の上方より外側に向かって尖った歯が見え、かなり肉を破っております。<br><br>毎朝上唇より膿が出ており、現在もう一本出かかっており、また奥歯下側二本目が内側に倒れ、新しい歯が外側に向かって出ております。<br><br>上乳歯三本とも歯根が残っております。<br><br>御浄霊は毎日続けております。<br><br>薬毒のためでございましょうか。<br><br>前世の因縁に因るのでございましょうか。<br><br>また自然に歯根が抜けましょうか。<br><br>両親は四年前入信。<br><br>御神体、御屏風観音様は御奉斎させていただいております。<br><br> 〔御垂示〕 これは、単に薬毒ばかりではないですね。<br><br>一種の罪ですね。<br><br>これは歯医者に行って抜いてもらった方が良いですよ。<br><br>早いです。<br><br>それはかまいませんよ。<br><br>歯を抜くとか入れ歯するとかいうのは、別に悪いことはない。<br><br>けれども、こういう歯が――口の中が順調にいかないということは、やはり原因があるんだからね。<br><br>だから、早く信仰に入っていればそんなことはないが、今となっちゃ歯医者の御厄介になるよりないから、そうした方が良いですね。<br><br> 「四つですが、麻酔などいたしますが。<br><br>」 かまいませんよ。<br><br>ここ（歯部）だけやるんですからね。<br><br>そんなことはなんでもない。<br><br>歯の注射はしばらくすると、歯に出ちゃうから別に心配することはない。<br><br>それから、麻痺の注射はあまり害にはならないですよ。<br><br>ふつうの薬毒と違って一時的だからね。<br><br> （お伺）昨年一月入信の者でございます。<br><br>銃猟が趣味で、毎年冬の山野を歩くのを楽しみといたしております。<br><br>十二月一日、三連発の猟銃の回転が悪いので、実弾（散発三百発入り）をこめて、安全装置をして、「いろり」の側で調べておりましたが、銃口を上にして一、二回下に突いてみましたが、具合が悪いので、銃口に左の手をあて力を入れて下に突きました瞬間、弾が爆発して手の平をつらぬき、屋根裏をぶち抜き、飛び散りました。<br><br>傷は手の平に一寸、手の甲は二寸ほど砕けて口を開けて、白い筋のようなものが飛び出し、勿論骨は砕けたものと思われます。<br><br>御浄霊をいただきまして経過は良くさせていただいております。<br><br>今後の御浄霊につき御垂示のほどお願い申し上げます。<br><br> 〔御垂示〕 これは驚いたな。<br><br>信仰に入っていて、そんな殺生するなんてとんでもない。<br><br>だから、神様のお気づけですよ。<br><br>まあ、なんですね――こういう狩猟するのは、信仰止（や）めてやるか、信仰に入っている以上は、絶対にやっちゃいけないですね。<br><br>やっぱり、こういう殺生すると、必ず祟って、ろくなことはないですよ。<br><br>これは、止めろという神様がされたことだから、非常に結構ですよ。<br><br>良くお礼を言って良い。<br><br>それで、これを止めないと、今度はもういっそうひどいのになります。<br><br>これでもか、これでもかとなりますよ。<br><br>これで止めて、良くお詫びして、これからできるだけ人を助けるんですね。<br><br>そうして、その鳥を殺生した罪を、それによって償ってもらう。<br><br>そうするのが一番良いです。<br><br>それから、御浄霊は自分でやっても良いですから、あとは良くお詫びするんだ。<br><br>これからはもうしない。<br><br>そういうことは絶対にしないということをお誓いするんです。<br><br>それが根本ですよ、そうしないと、またなにかありますよ、だから非常に結構です。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Esclarecimentos Divinos sobre a Fé e a Purificação</h2>
 <p><strong>Pergunta:</strong> Uma senhora que, antes de ingressar na fé, passou por uma cirurgia de câncer de útero, recebeu grande proteção divina após sua dedicação em primeiro de setembro. Seu quadro evoluía favoravelmente, contudo, a partir do final de fevereiro, passou a ter intensas hemorragias. No início de dezembro, no banheiro, expeliu dois coágulos de sangue tóxico do tamanho de um punho e desmaiou devido à grande perda de sangue. Embora tenha chegado a um estado crítico, foi amparada pelo Johrei, recuperou-se parcialmente e a hemorragia cessou. Atualmente, seu apetite é escasso, conseguindo comer apenas uma pequena tigela de mingau de arroz. Sente o corpo todo indisposto, especialmente os braços e as pernas, e sua vitalidade está diminuída. Na região da cirurgia, permanece um nódulo do tamanho de um punho, indolor. Em que locais seria mais apropriado ministrar-lhe Johrei?</p>
@@ -104,5 +256,48 @@ function toggleLang(lang) {
 <p>Não há problema. A aplicação é apenas local (na região do dente). Não há com o que se preocupar. A anestesia odontológica, após algum tempo, é eliminada pelo próprio dente, portanto, não há motivo para apreensão. A injeção de anestésico não é muito prejudicial; seu efeito é temporário, diferentemente do yakudoku comum.</p>
 <p><strong>Pergunta:</strong> Sou membro desde janeiro do ano passado. Tenho a caça com arma de fogo como passatempo e, todos os anos, sinto grande prazer em percorrer os campos e montanhas durante o inverno. No dia primeiro de dezembro, o mecanismo de rotação de minha espingarda de três tiros não estava funcionando bem. Carreguei-a com um cartucho de caça com trezentos projéteis e, com a trava de segurança acionada, comecei a examiná-la junto à lareira. Com o cano virado para cima, bati com a coronha no chão uma ou duas vezes, mas como o problema persistia, apoiei a mão esquerda sobre a boca do cano e forcei-a para baixo. Nesse instante, a arma disparou. A bala atravessou minha mão, perfurou o forro do telhado e os projéteis se espalharam. A ferida na palma da mão é extensa, e no dorso, abriu-se um rombo ainda maior, de onde saíam tecidos brancos semelhantes a tendões. Creio que os ossos foram estilhaçados. Tenho recebido Johrei e minha recuperação progride bem. Gostaria de receber uma orientação sobre como proceder com o Johrei daqui para frente.</p>
 <p><strong>Orientação de Meishu-Sama:</strong> Que espanto! É inconcebível que alguém que já ingressou na fé se dedique a uma prática como a de tirar vidas. Portanto, o que lhe aconteceu foi uma advertência de Deus. Ou a pessoa abandona a fé para poder caçar ou, uma vez dentro da fé, deve abandonar essa prática por completo. O ato de tirar a vida de seres vivos invariavelmente atrai retribuição espiritual, e dele nada de bom pode resultar. O ocorrido foi a maneira que Deus encontrou para lhe dizer que pare; por isso, é algo extremamente positivo. Você deve agradecer profundamente. Se não parar agora, da próxima vez, o aviso será ainda mais severo. As advertências se tornarão cada vez mais duras. Abandone essa prática, peça sinceras desculpas a Deus e, de agora em diante, dedique-se a salvar o maior número de pessoas possível. Por meio dessa virtude, você poderá expiar a mácula de ter tirado a vida de aves. É o melhor a fazer. Quanto ao Johrei, pode ministrá-lo em si mesmo, mas o fundamental é se desculpar e fazer o juramento de que jamais voltará a cometer tal ato. Essa é a base de tudo. Caso contrário, outra coisa lhe acontecerá. Sendo assim, o que houve foi, de fato, muito positivo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御教え （S26年12月11日） 『御教え集』5号、昭和27(1952)年1月15日発行 昭和二十六年十二月十一日 （お伺）入信以前に子宮癌を手術し、入信後（九月一日）お伺い申し上げまして、御守護をいただきその後順調にまいりましたところ、二月末より出血多く、十二月初め御不浄にて拳大の毒血の固まりが二個出て、出血多く、御不浄内で倒れました。<br/><br/>一時は危険状態でありましたが、御浄霊にて御守護いただき小康を得、出血は止まりました。<br/><br/>現在は食欲は軽く一膳くらいのお粥を食べるくらいで、全身だるく特に手足がだるく、気力は衰え、手術いたしました患部に拳大の固まりが残っており、痛みはございません。<br/><br/>御浄霊はどこをさせていただきましたら、よろしゅうございましょうか。<br/><br/> 〔御垂示〕 これはたいへん結構ですね。<br/><br/>この固まりというのは子宮癌ですね――癌であったかもしれないですね。<br/><br/>お医者は、開けてみてそこを取らずに、そっとしておいてあるかもしれないが、これは――子宮癌というのはほとんど血の固まりですから、これはそれでしょう。<br/><br/>だから結構です。<br/><br/>食欲がないのは、熱があるためですよ。<br/><br/>だから、そう長くは続かないです。<br/><br/>それで、大体そういった固まりが取れると、そこがきれいになるからして、平均浄化が起ったんですね。<br/><br/>だから、首とか肩とか背中とか――そういう所から熱が出るんですから、そこを調べて、そこの熱が冷めれば――冷めます、たいしたことはない。<br/><br/> 「時々、記憶が、ぼっとしたようになります。<br/><br/>」 貧血のためです。<br/><br/>血の固まりが取れると、脱落したようになる。<br/><br/>貧血したようになります。<br/><br/>ここ（頸部淋巴腺）を見てご覧なさい。<br/><br/>ここから熱が出ているかもしれない。<br/><br/>非常に結構なものですからね。<br/><br/> （お伺）神取八郎（五十二歳）昭和二十三年ごろから、夜眠られず寝床を三カ所も変える状態で、医師より脳梅毒と言われ、いろいろと医療を受け、熱心に御嶽教を信仰しておりましたが、だんだん悪化してまいりました。<br/><br/>御浄霊をいただくようになり、良い方に向かいましたので、主人は昭和二十四年二月入信させていただきましたが、申し訳ないことに三月末ごろ突然、御守り様の「光」と「ヽ」とを鋏で切り離してしまいました。<br/><br/>その後、病状悪化し、現在では食物を丸飲みにし、こちらから持って行かねば、食事を要求せず、一日中寝て、口の中で独り言を言っております。<br/><br/>小便は自分で気がつかずにしてしまいます。<br/><br/>なお二十五、六年前に家の蔵の中に三升笊（さんじょうざる）を伏せたほどの青大将がいたのを殺して、近所の人に薬にするようにと与えたことがございます。<br/><br/>主人の父親は五、六年前に縊死しております。<br/><br/>私の前夫はある女行者と恋仲となり劇薬自殺を遂げております。<br/><br/>この時、前夫のみ死に、女行者は生き残りました。<br/><br/>右は霊的関係でございましょうか。<br/><br/>なお、御神体を御奉斎させていただきますよう準備中でございます。<br/><br/> 〔御垂示〕 どうして、こんなことしたのかね。<br/><br/>霊憑りだな。<br/><br/>随分厄介だね。<br/><br/>光明如来様をお祀りするように準備していると言うんだから結構ですが、一日も早くお祀りする。<br/><br/>それから主人はやっぱり霊が憑っているんですがね。<br/><br/>鋏で――やっぱり霊にやられたんですね。<br/><br/>丸飲み――青大将ですね。<br/><br/>無論、この青大将は祖霊ですがね。<br/><br/>三升笊――随分大きいんだな。<br/><br/>青大将の霊を救ってやるんだから、光明如来様を祀ったら、その部屋に寝るんだね。<br/><br/>あとは別にたいしたことはない。<br/><br/>それですね。<br/><br/>そうしてできるだけ御神書を読むようにして、気長にやっていればだんだん良くなります。<br/><br/>なにしろ、殺されると非常に怨みますから、しつこいですよ――霊の働きがね。<br/><br/>だから、簡単にいかないですね。<br/><br/>気長にやるよりしかたがないですね。<br/><br/>そして、少しでも暇があったら、一人でも多く人助けをする。<br/><br/>その徳によって治りが早くなるというわけですね。<br/><br/> （お伺）満四歳の女児、昨年七月疫痢の際、上乳歯が三本根本から折れました。<br/><br/>それより上唇が腫れ、本年九月ごろより、折れた歯の上方より外側に向かって尖った歯が見え、かなり肉を破っております。<br/><br/>毎朝上唇より膿が出ており、現在もう一本出かかっており、また奥歯下側二本目が内側に倒れ、新しい歯が外側に向かって出ております。<br/><br/>上乳歯三本とも歯根が残っております。<br/><br/>御浄霊は毎日続けております。<br/><br/>薬毒のためでございましょうか。<br/><br/>前世の因縁に因るのでございましょうか。<br/><br/>また自然に歯根が抜けましょうか。<br/><br/>両親は四年前入信。<br/><br/>御神体、御屏風観音様は御奉斎させていただいております。<br/><br/> 〔御垂示〕 これは、単に薬毒ばかりではないですね。<br/><br/>一種の罪ですね。<br/><br/>これは歯医者に行って抜いてもらった方が良いですよ。<br/><br/>早いです。<br/><br/>それはかまいませんよ。<br/><br/>歯を抜くとか入れ歯するとかいうのは、別に悪いことはない。<br/><br/>けれども、こういう歯が――口の中が順調にいかないということは、やはり原因があるんだからね。<br/><br/>だから、早く信仰に入っていればそんなことはないが、今となっちゃ歯医者の御厄介になるよりないから、そうした方が良いですね。<br/><br/> 「四つですが、麻酔などいたしますが。<br/><br/>」 かまいませんよ。<br/><br/>ここ（歯部）だけやるんですからね。<br/><br/>そんなことはなんでもない。<br/><br/>歯の注射はしばらくすると、歯に出ちゃうから別に心配することはない。<br/><br/>それから、麻痺の注射はあまり害にはならないですよ。<br/><br/>ふつうの薬毒と違って一時的だからね。<br/><br/> （お伺）昨年一月入信の者でございます。<br/><br/>銃猟が趣味で、毎年冬の山野を歩くのを楽しみといたしております。<br/><br/>十二月一日、三連発の猟銃の回転が悪いので、実弾（散発三百発入り）をこめて、安全装置をして、「いろり」の側で調べておりましたが、銃口を上にして一、二回下に突いてみましたが、具合が悪いので、銃口に左の手をあて力を入れて下に突きました瞬間、弾が爆発して手の平をつらぬき、屋根裏をぶち抜き、飛び散りました。<br/><br/>傷は手の平に一寸、手の甲は二寸ほど砕けて口を開けて、白い筋のようなものが飛び出し、勿論骨は砕けたものと思われます。<br/><br/>御浄霊をいただきまして経過は良くさせていただいております。<br/><br/>今後の御浄霊につき御垂示のほどお願い申し上げます。<br/><br/> 〔御垂示〕 これは驚いたな。<br/><br/>信仰に入っていて、そんな殺生するなんてとんでもない。<br/><br/>だから、神様のお気づけですよ。<br/><br/>まあ、なんですね――こういう狩猟するのは、信仰止（や）めてやるか、信仰に入っている以上は、絶対にやっちゃいけないですね。<br/><br/>やっぱり、こういう殺生すると、必ず祟って、ろくなことはないですよ。<br/><br/>これは、止めろという神様がされたことだから、非常に結構ですよ。<br/><br/>良くお礼を言って良い。<br/><br/>それで、これを止めないと、今度はもういっそうひどいのになります。<br/><br/>これでもか、これでもかとなりますよ。<br/><br/>これで止めて、良くお詫びして、これからできるだけ人を助けるんですね。<br/><br/>そうして、その鳥を殺生した罪を、それによって償ってもらう。<br/><br/>そうするのが一番良いです。<br/><br/>それから、御浄霊は自分でやっても良いですから、あとは良くお詫びするんだ。<br/><br/>これからはもうしない。<br/><br/>そういうことは絶対にしないということをお誓いするんです。<br/><br/>それが根本ですよ、そうしないと、またなにかありますよ、だから非常に結構です。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

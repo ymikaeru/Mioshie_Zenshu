@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>syukyo30</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教の観方 『救世』60号、昭和25(1950)年4月29日発行 世人が宗教を観る場合、はなはだ正鵠（せいこく）を得ていない事に気がつく、それは宗教なるものの地位である、というのは宗教は他の何ものよりも最高に位するものであるからである、ゆえに哲学も、道徳も、科学も宗教からみれば以下の存在であるのはもちろんである、ところがそれを知らないため宗教哲学などという言葉があるが、これは宗教を哲学的に解釈しようとするもので全く逆である、形而上（けいじじょう）のものを形而下（けいじか）の理論で解こうとするのである、何となれば宗教は神が造ったものであり、哲学は人が造ったものであるからである、また、宗教と道徳とも異（ちが）う、もちろん道徳も人が造ったもので、ただ哲学と異うところは、哲学は科学的、西洋的であるに反し、道徳は心理的、東洋的のものである、また科学は哲学や道徳に比べて一層形而下的で、宗教と隔たる点の最も著るしい事はいうまでもない。<br><br> 以上によってみても、現代有識者の宗教観がいかに当を得ていないかが判るであろう、しかし右を今一層徹底してみるとこういう事になる、元来哲学とは、人間の創造的理論の組み立てによって今日に到ったものであるから、宗教と較べる時その価値は自ら明らかである、究極するところ壁にブツかってどうにもならなくなる、その証拠には哲学は研究すればする程迷路に落込み、懐疑は懐疑を生み、到底結論は得られない結果、厭世的になりやすく、極端なのは自殺によって解決しようとするものさえあるくらいで、これは誰も知るところであろう。<br><br> 次に、道徳であるが、これは今日まで相当人類社会に貢献したのはもちろんであるが、これとても有能者の頭脳から生まれた、一種の戒律的人心を改善するものであるから、人間の魂を根本的に揺り動かす事は出来ないのみならず、昔の日本なればイザ知らず、今日のごとく一切が西洋文化に支配されている以上、道徳という東洋的なものでは、最早今日の人間を納得さす事は出来得ない、何よりも道徳の影は漸次薄れつつあるにみて明らかである。<br><br> 次は、唯物科学であるが、これは吾らが常に批判しつつあるところで、今更言う必要はないが、とにかく、現在文化といえば、科学そのものとしているくらいで、文化の進歩とは科学の進歩と観ている現状である、ところが、科学の進歩によって人類の幸福はいかに増大されたかは疑問である、むしろ正比例的に不幸の増大をさえ思わしむる事実である、今日恐るべき原爆戦争の脅威に晒されている世界人類を見れば多言を要しないであろう。<br><br> ここにおいて、一体、全人類は一部の例外を除き、何を望んでいるであろうかを検討してみる時、言うまでもなく幸福そのものである、科学の進歩発達も、人類の幸福を目的としたものに外ならないが、悲しいかな、事実はその逆でさえある、とすればその根本を探究する事こそ今日の急務であらねばならないのである。<br><br> さきに述べたごとく、哲学でも道徳でも科学でも解決の力がないとすれば宗教以外に何があるであろうか、この点、識者においても気のつかない事はなかろうが、事実宗教といえば現在までの既成宗教を標準としている以上既成宗教によって右の条件を解決出来ようとは思えないのである、従って人類の幸福などは、いつの日に達成さるべきか見当さえつかないのであろう、何となれば実に暗澹（あんたん）たる世相である。<br><br> しかるに、以上のごとく諦め切ってしまった世界へ出現したのが吾らの超宗教的一大救済力である、恐らく何人（なんぴと）も夢想だもしなかったもので、容易に受入れ難いではあろうが、しかし事実を否定する事は出来ない、何よりも一たび本教の真相を知るにおいては盲目者が開眼の喜びに遇ったごとく豁然（かつぜん）として覚醒するのでその喜びの報告は、本教刊行物に満載されているのが何よりの証拠である、ゆえに真の幸福を得んとする人達よ、まず試みに本教に触れてみる事である、いかに美味なる食物でも説明を聞き、眼でみるだけでは判るはずない、まず口へ入れて味わうべきで、味わってみて始めて判るのである、恐らく今まで味わった事のない醍醐味に何人といえども満足せずには置かないであろう。<br><br> (注) 形而上（けいじじょう）、形をもっていないもの。<br><br>哲学で、時間・空間の形式を制約とする感性を介した経験によっては認識できないもの。<br><br>超自然的、理念的なもの。<br><br> 形而下（けいじか）、形をそなえるもの。<br><br>自然一般の現象。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Perspectiva Correta sobre a Religião</h2>
 <p>Observo que, ao analisarem a religião, as pessoas frequentemente não apreendem seu ponto fulcral: a posição que ela ocupa. A religião se situa no plano mais elevado, acima de todas as outras esferas do saber. Portanto, é natural que a filosofia, a moral e a ciência se encontrem em um patamar inferior quando vistas sob sua ótica.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Conforme exposto anteriormente, se nem a filosofia, nem a moral, nem a ciência detêm o poder de solucionar essa questão, o que nos resta senão a religião? É provável que mesmo os mais eruditos já tenham se dado conta deste fato. Contudo, ao pensarem em religião, eles tomam como padrão as crenças já estabelecidas e, por isso, não acreditam que elas possam oferecer uma solução. Consequentemente, para eles, a conquista da felicidade humana parece uma meta inatingível, sem data prevista para se concretizar. O panorama mundial é, de fato, desolador.</p>
 <p>É justamente nesse mundo imerso em resignação que surge a nossa grandiosa força salvadora, que transcende as religiões. Provavelmente, é algo que ninguém jamais ousou sonhar e que, a princípio, pode ser de difícil aceitação. Todavia, os fatos não podem ser negados. No momento em que alguém conhece a verdade sobre este Ensinamento, desperta subitamente, como um cego que experimenta a alegria de voltar a enxergar. Os relatos dessa alegria, que preenchem nossas publicações, são a maior prova disso.</p>
 <p>Portanto, àqueles que buscam a felicidade verdadeira, deixo um convite: experimentem, primeiramente, entrar em contato com nossa fé. Por mais delicioso que seja um manjar, seu sabor não pode ser compreendido apenas por meio de descrições ou pela observação. É preciso levá-lo à boca e saboreá-lo. Somente ao prová-lo é que se compreende seu verdadeiro valor. Tenho a certeza de que, ao experimentarem este sabor sublime e inédito, todos, sem exceção, se sentirão plenamente satisfeitos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教の観方 『救世』60号、昭和25(1950)年4月29日発行 世人が宗教を観る場合、はなはだ正鵠（せいこく）を得ていない事に気がつく、それは宗教なるものの地位である、というのは宗教は他の何ものよりも最高に位するものであるからである、ゆえに哲学も、道徳も、科学も宗教からみれば以下の存在であるのはもちろんである、ところがそれを知らないため宗教哲学などという言葉があるが、これは宗教を哲学的に解釈しようとするもので全く逆である、形而上（けいじじょう）のものを形而下（けいじか）の理論で解こうとするのである、何となれば宗教は神が造ったものであり、哲学は人が造ったものであるからである、また、宗教と道徳とも異（ちが）う、もちろん道徳も人が造ったもので、ただ哲学と異うところは、哲学は科学的、西洋的であるに反し、道徳は心理的、東洋的のものである、また科学は哲学や道徳に比べて一層形而下的で、宗教と隔たる点の最も著るしい事はいうまでもない。<br/><br/> 以上によってみても、現代有識者の宗教観がいかに当を得ていないかが判るであろう、しかし右を今一層徹底してみるとこういう事になる、元来哲学とは、人間の創造的理論の組み立てによって今日に到ったものであるから、宗教と較べる時その価値は自ら明らかである、究極するところ壁にブツかってどうにもならなくなる、その証拠には哲学は研究すればする程迷路に落込み、懐疑は懐疑を生み、到底結論は得られない結果、厭世的になりやすく、極端なのは自殺によって解決しようとするものさえあるくらいで、これは誰も知るところであろう。<br/><br/> 次に、道徳であるが、これは今日まで相当人類社会に貢献したのはもちろんであるが、これとても有能者の頭脳から生まれた、一種の戒律的人心を改善するものであるから、人間の魂を根本的に揺り動かす事は出来ないのみならず、昔の日本なればイザ知らず、今日のごとく一切が西洋文化に支配されている以上、道徳という東洋的なものでは、最早今日の人間を納得さす事は出来得ない、何よりも道徳の影は漸次薄れつつあるにみて明らかである。<br/><br/> 次は、唯物科学であるが、これは吾らが常に批判しつつあるところで、今更言う必要はないが、とにかく、現在文化といえば、科学そのものとしているくらいで、文化の進歩とは科学の進歩と観ている現状である、ところが、科学の進歩によって人類の幸福はいかに増大されたかは疑問である、むしろ正比例的に不幸の増大をさえ思わしむる事実である、今日恐るべき原爆戦争の脅威に晒されている世界人類を見れば多言を要しないであろう。<br/><br/> ここにおいて、一体、全人類は一部の例外を除き、何を望んでいるであろうかを検討してみる時、言うまでもなく幸福そのものである、科学の進歩発達も、人類の幸福を目的としたものに外ならないが、悲しいかな、事実はその逆でさえある、とすればその根本を探究する事こそ今日の急務であらねばならないのである。<br/><br/> さきに述べたごとく、哲学でも道徳でも科学でも解決の力がないとすれば宗教以外に何があるであろうか、この点、識者においても気のつかない事はなかろうが、事実宗教といえば現在までの既成宗教を標準としている以上既成宗教によって右の条件を解決出来ようとは思えないのである、従って人類の幸福などは、いつの日に達成さるべきか見当さえつかないのであろう、何となれば実に暗澹（あんたん）たる世相である。<br/><br/> しかるに、以上のごとく諦め切ってしまった世界へ出現したのが吾らの超宗教的一大救済力である、恐らく何人（なんぴと）も夢想だもしなかったもので、容易に受入れ難いではあろうが、しかし事実を否定する事は出来ない、何よりも一たび本教の真相を知るにおいては盲目者が開眼の喜びに遇ったごとく豁然（かつぜん）として覚醒するのでその喜びの報告は、本教刊行物に満載されているのが何よりの証拠である、ゆえに真の幸福を得んとする人達よ、まず試みに本教に触れてみる事である、いかに美味なる食物でも説明を聞き、眼でみるだけでは判るはずない、まず口へ入れて味わうべきで、味わってみて始めて判るのである、恐らく今まで味わった事のない醍醐味に何人といえども満足せずには置かないであろう。<br/><br/> (注) 形而上（けいじじょう）、形をもっていないもの。<br/><br/>哲学で、時間・空間の形式を制約とする感性を介した経験によっては認識できないもの。<br/><br/>超自然的、理念的なもの。<br/><br/> 形而下（けいじか）、形をそなえるもの。<br/><br/>自然一般の現象。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

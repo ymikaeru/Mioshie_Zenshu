@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kekkak29</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核なんか何でもない 阿呆文学 『栄光』90号、昭和26(1951)年2月7日発行 今最も喧（やかま）しく言われている結核問題を、訳なく解決する方法を教えて上げよう。<br><br>しかしこの方法たるや実に奇想天外で、人間共が聞いたら吃驚（びっくり）仰天するに違いない、余ッ程腹帯を締めてかかるんだね。<br><br> 前口上はこのくらいにしておいて、いよいよ本文に取掛るが、まず最初一発の原子爆弾を投げつけよう。<br><br>それは結核を無くす方法とは、出来るだけ風邪を引くんだ、ドーダ、驚いたろう、ところがだ、これが真理なんだから、文句は言えないよ。<br><br>そこで本当に真理か真理でないかをお目に掛けるが、何よりもアレ程お偉方が一生懸命になって、ドエライ金を費って、ヤッサモッサ骨折っても結核はチョットも減らないばかりか、来る年も来る年も結核問題の出ない事はないじゃないか、もし今までのやり方が理屈に合っているとしたら、結核患者は段々減って、療養所にはペンペン草が生え、片ッ端から売物に出なきゃならないはずじゃ御座らぬか、ところがおよそアベコベで、療養所が足りない、ベッドが足りないとブツブツ言っている有様だ、よほどこれだけでも気の利いた人間なら、もうお気が付きそうなものだが余ッ程唯物科学嬢に首ッタケだと見えて、相も変らずなんだから、はなはだ失礼かも知れないが、何とマア、頭の悪いお方ばかりと言いたいよ。<br><br> 風邪こそ体の大掃除 すると御偉方は仰言（おっしゃ）るだろう。<br><br>「何だッ！風邪を引くのがいいだなんて、こいつ飛んでもない事をぬかしやがる。<br><br>昔から風邪は万病の基と言って、風邪を引くのは結核の初まりなんだによってそんな理屈をいう奴は怪しからん」と目の玉をムクに違いない。<br><br>しかしこっちも負けないよ、まずお訊きするが「一体風邪とは何の原因ですか」と訊くと、グーの音も出ず、頭掻き掻き、「実はソノー風邪という病は、まだ判っていないんだよ」と言い訳なさるに決っているよ。<br><br>するとこっちでも、へン、風邪なんかのケチな病ナンザー、トウの昔から、チャーンと判っているんだから、今までも、チクチク知らせてやったが、馬の耳へ念仏で、相変らずの唐変木（とうへんぼく）なんだから、仕方なしに怒られるのを承知で教えてやるんだから、有難いと思って菓子折の一つも届けて貰わなくちゃとは言わないよ。<br><br>ただ解ればそれでいいんだから、と言ってさてこれから種明しに取掛ろう。<br><br> 昔から、自惚（うぬぼ）れと瘡気（かさけ）のない奴はないと巧い事をぬかした奴がいた、こいつ仲々隅へおけん奴だよ、なぜって、全くその通りなんだ、だが瘡気はチト失礼な言い方だよ、本当は瘡気じゃない、いろんな毒なんだ、その毒とは、作物に打（ぶ）っかける肥料の毒や、薬に含まれている余毒、オット、ドッコイ、食い物には毒はないから安心さ、ところが始末の悪い事には、そんな毒が身体中方々へ固まるんだ、肩や首が凝ったり、頭が痛かったり、重かったりするのはそれなんだ、だがそれでは仕事が出来ないから、その毒を身体の外へ押出してしまうように、チャンと神様が人間を御造りになったんだから大したもんだろう。<br><br>そこで神様はまず熱というものを出して、毒を溶かし液体になさる、それが、青痰や、水ッ鼻や、盗汗（ねあせ）や腹下し、真ッ赤な小便なんだから、出る程いいに決っている。<br><br>それで身体の掃除が出来るんだから、何と巧く出来ているでは御座らぬか、この掃除が風邪という奴なんだから、風邪を引く程掃除が出来て血が奇麗になり、健康になるんだから、風邪程結構なものはない訳じゃないか、ところが人間様も余ッ程血の廻（めぐ）りが悪いと見えて、そんな簡単な理屈が判らないどころか反ってアベコベに考えてしまったんだから、厄介だ、せっかく神様が、イヤ御自身様の体の方で清潔法を始めようとすると、コリャ大変だと、それを停めようとしたり、平常から掃除が初まらないよう、色々な工夫をする、つまり毒を出さないようにするんだから、トンチンカンも呆れ返えるの蟇蛙（がまがえる）だよ、こんな間違った事を、長い間いいと思ってやって来たんだから万物の霊長様もいよいよもって馬鹿野郎、オットこれは失礼、哀れ憫然（びんぜん）の代物だよ、ところがそれどころじゃない。<br><br>せっかく掃除が始まると、それを止めようとして薬を使う、薬には毒が含まれているから、マァー毒を追加するようなものだ、そこで益々毒が増えるから御自分のお腹の虫が承知しない、こう毒が溜ったんじゃ苦しくてやり切れないからと、一遍に大掃除を始めてやれという、これが肺炎という奴なんだから、何よりこの病気と来ると、痰がウント出るから判るだろう、今までチビチビ毒を出していれば、楽に掃除が出来るのを、一々停めるのでウンと溜った奴が一遍に出るんだから、つまり借金を月賦で返せば楽なのを、払わずに延ばしておいた報いで、元利一度に返すんだから骨が折れるはずだよ、ところが困る事には肺炎という元利一遍に返す力のない人は、仕方がないからチビチビ気長に返すんだ、これがすなわち結核という代物なんだ、どうだ、相判ったか。<br><br> 今一つ、モット吃驚（びっくり）する事があるから、よく目のクリ玉をヒンムイて見てみなさい。<br><br>まず初め、風邪という清潔法が始まるとなると、何しろ身体中に固まった毒が、今言ったように熱で溶けた痰、鼻汁、汗などの液は肺を目掛けて集って来る。<br><br>ところが問題はその時だ、まずお医者さんに診てもらうと、先生は聴診器を胸に当てて、額に八の字を寄せて難しい顔をする。<br><br>それはゼイゼイが聞えるからだ。<br><br>コリャ怪しいとレントゲン写真を撮ると、雲が写るので、これは結核の初期かも知れないと思い、絶対安静、服薬、注射、湿布などあの手この手でせっかく出ようとして肺に集った毒液を、出ないように固めにかかる、それでお誂え通りに固まると、これでいよいよ本格的結核になりましたと仰言（おっしゃ）る。<br><br> 結核は人間が作った？ サァー、ここのところをよく考えてみて貰いたい、放っておけば痰は鼻水、汗なんかになって出てしまい、ピンピン達者になるところを、アベコベにするんだから、可哀想なのは病人だよ、だから最初肺には毒液が一時的停っているだけで、肺は何ともないんだが、お医者さんは痰の塊は、肺の中に生まれたように錯覚する。<br><br>ちょうど、東京駅を出発した名古屋行の汽車が、一時熱海へ停ったのを、熱海が出発駅と間違えるようなものだ、しか名古屋へ行かないように熱海で停めてしまうんだから、何と変テコでは御座らぬか、つまり毒液を肺の中へ固めてしまうのが、いいと思うんだからヤリ切れない、しかも固まった痰が古くなるから虫が湧く、それが結核菌という奴さ、何しろ不潔物に体温というちょうどよい温度と来ているから虫が湧くのは当り前だよ、そこでまたまた診（み）ると、肺の中には固まりがあり、菌があるのでこれでいよいよ第三期の症状で御座ると宣告する、何よりもお医者さんは、病気を固めると仰言（おっしゃ）るじゃないか、してみれば結核は人間が作り上げた事になろう。<br><br>これでは減るどころが、益々増えるというのが、何よりの証拠では御座らぬか。<br><br> どうだ、驚いたろう、しかしこんな事をいうと、どんなに怒られるか判らないが、拙者も悪気でいうのじゃない、人を助けたい一念なんだから御容赦御容赦。<br><br> 今に拙者の説が大発見として世界中大騒ぎをされる時が来るから、その時になって御膝元の日本人が、ああそんな事は知らなかったでは見ッともないから、今の内に知らしてあげるんだ、これを読んで変な説だなどと、鼻の先で笑わずに、一生懸命研究してみなさい、とマァーザットこういう訳なんで御座るよ。<br><br> (注) 憫然（びんぜん）かわいそうなさま。<br><br>あわれむべきさま。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Solução Desconcertante para a Tuberculose</h2>
 <p>Revelarei agora um método capaz de solucionar, sem qualquer dificuldade, o problema da tuberculose, tão ruidosamente debatido em nossos dias. Contudo, tal método é, em verdade, tão extraordinário e surpreendente que, ao ouvi-lo, os homens certamente ficarão estupefatos. Portanto, é preciso que preparem o espírito para o que se segue.</p>
@@ -115,5 +267,48 @@ function toggleLang(lang) {
 <p>Em suma, eles acreditam que solidificar o líquido tóxico dentro dos pulmões é o tratamento correto, o que é desesperador. Ademais, esse catarro solidificado envelhece e apodrece, e nele proliferam vermes — o que chamam de bacilo da tuberculose. Ora, é natural que micro-organismos surjam em matéria impura, mantida na temperatura ideal do corpo. Ao examinarem novamente, os médicos encontram uma massa sólida e a presença de bacilos, e então declaram solenemente: "Este é um quadro de terceiro estágio". Afinal, os próprios médicos não afirmam que seu objetivo é "solidificar" a doença? Se assim é, a tuberculose é, de fato, uma criação humana. Esta é a prova irrefutável de que, em vez de diminuir, ela só tende a aumentar.</p>
 <p>E então? Ficaram chocados, não? Sei que, ao dizer tais coisas, serei alvo de grande fúria, mas não o faço por malícia. Sou movido unicamente pelo desejo de salvar as pessoas, e por isso peço sua indulgência.</p>
 <p>Chegará o dia em que esta minha teoria será aclamada no mundo inteiro como uma grande descoberta, causando um enorme alvoroço. Quando esse momento chegar, seria vergonhoso que vocês, meus conterrâneos japoneses, dissessem: "Ah, eu não sabia de nada disso". É para evitar tal situação que lhes revelo tudo agora. Não leiam estas palavras e as desprezem com um sorriso de escárnio, como se fossem uma teoria excêntrica. Em vez disso, peço que as estudem com a máxima seriedade. Em suma, esta é a verdade dos fatos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核なんか何でもない 阿呆文学 『栄光』90号、昭和26(1951)年2月7日発行 今最も喧（やかま）しく言われている結核問題を、訳なく解決する方法を教えて上げよう。<br/><br/>しかしこの方法たるや実に奇想天外で、人間共が聞いたら吃驚（びっくり）仰天するに違いない、余ッ程腹帯を締めてかかるんだね。<br/><br/> 前口上はこのくらいにしておいて、いよいよ本文に取掛るが、まず最初一発の原子爆弾を投げつけよう。<br/><br/>それは結核を無くす方法とは、出来るだけ風邪を引くんだ、ドーダ、驚いたろう、ところがだ、これが真理なんだから、文句は言えないよ。<br/><br/>そこで本当に真理か真理でないかをお目に掛けるが、何よりもアレ程お偉方が一生懸命になって、ドエライ金を費って、ヤッサモッサ骨折っても結核はチョットも減らないばかりか、来る年も来る年も結核問題の出ない事はないじゃないか、もし今までのやり方が理屈に合っているとしたら、結核患者は段々減って、療養所にはペンペン草が生え、片ッ端から売物に出なきゃならないはずじゃ御座らぬか、ところがおよそアベコベで、療養所が足りない、ベッドが足りないとブツブツ言っている有様だ、よほどこれだけでも気の利いた人間なら、もうお気が付きそうなものだが余ッ程唯物科学嬢に首ッタケだと見えて、相も変らずなんだから、はなはだ失礼かも知れないが、何とマア、頭の悪いお方ばかりと言いたいよ。<br/><br/> 風邪こそ体の大掃除 すると御偉方は仰言（おっしゃ）るだろう。<br/><br/>「何だッ！風邪を引くのがいいだなんて、こいつ飛んでもない事をぬかしやがる。<br/><br/>昔から風邪は万病の基と言って、風邪を引くのは結核の初まりなんだによってそんな理屈をいう奴は怪しからん」と目の玉をムクに違いない。<br/><br/>しかしこっちも負けないよ、まずお訊きするが「一体風邪とは何の原因ですか」と訊くと、グーの音も出ず、頭掻き掻き、「実はソノー風邪という病は、まだ判っていないんだよ」と言い訳なさるに決っているよ。<br/><br/>するとこっちでも、へン、風邪なんかのケチな病ナンザー、トウの昔から、チャーンと判っているんだから、今までも、チクチク知らせてやったが、馬の耳へ念仏で、相変らずの唐変木（とうへんぼく）なんだから、仕方なしに怒られるのを承知で教えてやるんだから、有難いと思って菓子折の一つも届けて貰わなくちゃとは言わないよ。<br/><br/>ただ解ればそれでいいんだから、と言ってさてこれから種明しに取掛ろう。<br/><br/> 昔から、自惚（うぬぼ）れと瘡気（かさけ）のない奴はないと巧い事をぬかした奴がいた、こいつ仲々隅へおけん奴だよ、なぜって、全くその通りなんだ、だが瘡気はチト失礼な言い方だよ、本当は瘡気じゃない、いろんな毒なんだ、その毒とは、作物に打（ぶ）っかける肥料の毒や、薬に含まれている余毒、オット、ドッコイ、食い物には毒はないから安心さ、ところが始末の悪い事には、そんな毒が身体中方々へ固まるんだ、肩や首が凝ったり、頭が痛かったり、重かったりするのはそれなんだ、だがそれでは仕事が出来ないから、その毒を身体の外へ押出してしまうように、チャンと神様が人間を御造りになったんだから大したもんだろう。<br/><br/>そこで神様はまず熱というものを出して、毒を溶かし液体になさる、それが、青痰や、水ッ鼻や、盗汗（ねあせ）や腹下し、真ッ赤な小便なんだから、出る程いいに決っている。<br/><br/>それで身体の掃除が出来るんだから、何と巧く出来ているでは御座らぬか、この掃除が風邪という奴なんだから、風邪を引く程掃除が出来て血が奇麗になり、健康になるんだから、風邪程結構なものはない訳じゃないか、ところが人間様も余ッ程血の廻（めぐ）りが悪いと見えて、そんな簡単な理屈が判らないどころか反ってアベコベに考えてしまったんだから、厄介だ、せっかく神様が、イヤ御自身様の体の方で清潔法を始めようとすると、コリャ大変だと、それを停めようとしたり、平常から掃除が初まらないよう、色々な工夫をする、つまり毒を出さないようにするんだから、トンチンカンも呆れ返えるの蟇蛙（がまがえる）だよ、こんな間違った事を、長い間いいと思ってやって来たんだから万物の霊長様もいよいよもって馬鹿野郎、オットこれは失礼、哀れ憫然（びんぜん）の代物だよ、ところがそれどころじゃない。<br/><br/>せっかく掃除が始まると、それを止めようとして薬を使う、薬には毒が含まれているから、マァー毒を追加するようなものだ、そこで益々毒が増えるから御自分のお腹の虫が承知しない、こう毒が溜ったんじゃ苦しくてやり切れないからと、一遍に大掃除を始めてやれという、これが肺炎という奴なんだから、何よりこの病気と来ると、痰がウント出るから判るだろう、今までチビチビ毒を出していれば、楽に掃除が出来るのを、一々停めるのでウンと溜った奴が一遍に出るんだから、つまり借金を月賦で返せば楽なのを、払わずに延ばしておいた報いで、元利一度に返すんだから骨が折れるはずだよ、ところが困る事には肺炎という元利一遍に返す力のない人は、仕方がないからチビチビ気長に返すんだ、これがすなわち結核という代物なんだ、どうだ、相判ったか。<br/><br/> 今一つ、モット吃驚（びっくり）する事があるから、よく目のクリ玉をヒンムイて見てみなさい。<br/><br/>まず初め、風邪という清潔法が始まるとなると、何しろ身体中に固まった毒が、今言ったように熱で溶けた痰、鼻汁、汗などの液は肺を目掛けて集って来る。<br/><br/>ところが問題はその時だ、まずお医者さんに診てもらうと、先生は聴診器を胸に当てて、額に八の字を寄せて難しい顔をする。<br/><br/>それはゼイゼイが聞えるからだ。<br/><br/>コリャ怪しいとレントゲン写真を撮ると、雲が写るので、これは結核の初期かも知れないと思い、絶対安静、服薬、注射、湿布などあの手この手でせっかく出ようとして肺に集った毒液を、出ないように固めにかかる、それでお誂え通りに固まると、これでいよいよ本格的結核になりましたと仰言（おっしゃ）る。<br/><br/> 結核は人間が作った？ サァー、ここのところをよく考えてみて貰いたい、放っておけば痰は鼻水、汗なんかになって出てしまい、ピンピン達者になるところを、アベコベにするんだから、可哀想なのは病人だよ、だから最初肺には毒液が一時的停っているだけで、肺は何ともないんだが、お医者さんは痰の塊は、肺の中に生まれたように錯覚する。<br/><br/>ちょうど、東京駅を出発した名古屋行の汽車が、一時熱海へ停ったのを、熱海が出発駅と間違えるようなものだ、しか名古屋へ行かないように熱海で停めてしまうんだから、何と変テコでは御座らぬか、つまり毒液を肺の中へ固めてしまうのが、いいと思うんだからヤリ切れない、しかも固まった痰が古くなるから虫が湧く、それが結核菌という奴さ、何しろ不潔物に体温というちょうどよい温度と来ているから虫が湧くのは当り前だよ、そこでまたまた診（み）ると、肺の中には固まりがあり、菌があるのでこれでいよいよ第三期の症状で御座ると宣告する、何よりもお医者さんは、病気を固めると仰言（おっしゃ）るじゃないか、してみれば結核は人間が作り上げた事になろう。<br/><br/>これでは減るどころが、益々増えるというのが、何よりの証拠では御座らぬか。<br/><br/> どうだ、驚いたろう、しかしこんな事をいうと、どんなに怒られるか判らないが、拙者も悪気でいうのじゃない、人を助けたい一念なんだから御容赦御容赦。<br/><br/> 今に拙者の説が大発見として世界中大騒ぎをされる時が来るから、その時になって御膝元の日本人が、ああそんな事は知らなかったでは見ッともないから、今の内に知らしてあげるんだ、これを読んで変な説だなどと、鼻の先で笑わずに、一生懸命研究してみなさい、とマァーザットこういう訳なんで御座るよ。<br/><br/> (注) 憫然（びんぜん）かわいそうなさま。<br/><br/>あわれむべきさま。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

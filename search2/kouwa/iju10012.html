@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>iju10012</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇 （十） ２ 012-032 妊娠中 012 胎教 世間でよく申します胎教について御教示を御願い申し上げます。<br><br> 胎内にいる時の赤ン坊を教育する。<br><br>善い事を聞くと、赤ン坊は、心がその影響で善い人間になる。<br><br>偉い人や美人の写真など、母が見る事をする。<br><br>これは確かにある。<br><br>非常にいい事で、偉い人の書や絵など始終みると胎教になる。<br><br>（信仰雑話を読むとよい）（S23.11.18） 013 胎児の意志想念と胎教 胎児が母体にある間意志想念が働いているものでしょうか。<br><br> 意志想念は働いているともいえるし、働いていないといった方が事実に合う。<br><br>何となれば、胎児の意志による表現が何もない。<br><br>そうかといって全然そうでもない。<br><br>胎教といって、母が良い事を聞くと胎児にいい影響を与える。<br><br>綺麗な顔など見てると影響するという。<br><br>寧ろ親の想念が胎児に影響する訳である。<br><br>もし胎児に意志想念なしとすれば、影響は受けぬ訳である。<br><br>しかしないといってもいい。<br><br> 014 子の容貌の親との相似（胎教） 子供の性質並びに容貌が父親に似る者と母親に似る者と、また、いずれにも似ざる場合について御質ね致します。<br><br> その時によっていろいろある。<br><br>父が母の妊娠中家にいると割に父に似ている。<br><br>父不在で母が始終見る人の顔に似る。<br><br>それで美人の側にいるとか、神書を読むとかすると、その影響を受ける。<br><br>それで胎教は意味がある。<br><br> 015 胎動止る 会員、二十四、五歳の婦人、妊娠五ケ月頃胎動の停止したるに気付き医師の診断を乞いしところ、既に死亡して腐敗しおるため手術を要する旨申し渡されましたが、手術を嫌い御浄霊を受け約十日にして胎動あり再び診断を願いしところ「死んではいなかったな」との返答あり。<br><br>この症状は一時的仮死の状態とでも申すのでしょうか。<br><br>もしそうだと致しますれば、それはいかなる原因によるものでしょうか。<br><br> 心配するか、胃が縮小して食欲が少くなる時子供の栄養まで出来ぬ。<br><br>こういうのが衰弱する。<br><br>（S24.12. 3） 016 胎動の悪寒（死霊） 三十五歳の初妊娠婦、現在八ケ月、胎動を感ずる都度地の底に引込まれるような感じと共に悪寒を覚えますが、いかなる訳でありましょうか。<br><br> 死霊が憑くと背中が寒い。<br><br>生霊は暖かい。<br><br>霊的因縁で、お腹の子供に関係がある。<br><br>即ち胎児に死霊が連絡するのである。<br><br>祝詞や御讃歌を奏げてやれば治る。<br><br> 先妻の死後三ケ月目に後妻に入ったとしたら、先妻の霊であろう。<br><br>妻の死後は一ケ年は結婚を我慢しなくてはいけない。<br><br>（S23.12. 2） 017 妊娠六ケ月・腹膨れず（胎児死亡） 会員、三十歳前後の婦人、現在妊娠六ケ月なれど腹部膨満せざるため医診を受けしところ、三ケ月目位にて死亡しおる旨申し聞かされ、手術を迫られましたが、本人は何等苦痛なきため手術を不安に思い、御浄霊の続行を希望致しおりますが、もし死亡致しおると致しましても、御浄霊により排出されましょうか。<br><br>なお、この婦人は二児あり、流産一回致しおります。<br><br> 本当に死んでるものとすれば浄霊で出る。<br><br>古血が溜ってこういう事もある。<br><br>浄霊すれば悪いものは出る。<br><br>（S24.12. 3） 018 五ケ月の嬰児の状態（霊） 五ケ月以後の流産児の霊と、四ケ月以前の霊の状態―― 五ケ月になると完全に人間の形となる。<br><br>（S24. 8. 9） 019 堕胎 現代行われている産児制限の今後の社会に及ぼす影響はいかがでしょうか。<br><br>また、一回でも堕胎を行った人は入信して救われますでしょうか。<br><br>御伺い申し上げます。<br><br> 堕胎しても入信して救われる。<br><br>堕胎は一種の殺人である。<br><br>誰かを救えばその罪は消える。<br><br>（S *. 7. 8） 020 悪阻 悪阻の霊的原因について―― 体的である。<br><br>臍と心窩部の毒。<br><br>胃の拡がる度に出す――。<br><br>（S24.10.26） 021 悪阻の原因 私の妻（三十三歳）は妊娠五ケ月目でありますが、妊娠と同時に悪阻になり、爾来四ケ月苦しみ、御浄霊を行いますと二時間位は楽になりますが、ちょっと仕事をするとまた苦しくなります。<br><br>いかなる原因でしょう。<br><br> みぞおちと臍の間に毒があり、子宮の膨脹によって排除、嘔吐する。<br><br>これが悪阻である。<br><br>普通は、簡単に治る。<br><br>簡単にやり、腎臓もよくやる。<br><br> 022 悪阻の浄霊個所 悪阻の全く無い人と極くひどい人がありますが、いかがな訳で御座居ますか。<br><br>御伺い申し上げます。<br><br> 腹部に毒素があり、子宮が拡がると毒が邪魔だから嘔吐で出す。<br><br>元は腎臓で、患部と共に浄めると割合い簡単である。<br><br> 023 子癇の原因 子癇は霊的で御座いましょうか。<br><br>御伺い申し上げます。<br><br> 怨みの霊である。<br><br>（生む事を妨害する怨み。<br><br>産後は血が少いため霊が憑り易い）（S24. 2.21） 024 妊娠と浮腫・子癇 先日御守護御願いいたしました大畑ひな、八月二十七日出産予定で一ケ月程以前より全身的に浮腫し、御浄霊させて戴いておりますが、だんだんひどくなり、起居にも苦痛を感じております。<br><br>また、二、三日前より脱腸の御浄化を戴き、特に足部の浮腫がひどく、御浄霊させて戴くとかえって苦痛が激しくなります。<br><br>このままにて無事出産出来るか、家族の者は非常に案じております。<br><br>何卒御守護御願い申し上げます。<br><br> 子癇について 一、これは簡単である。<br><br>腎臓だけよくやれば二、三度で大抵治る。<br><br>霊力が足りないのであろう。<br><br>子癇が起れば霊を浄霊する。<br><br>（S24. 7.29） 025 子癇より手足震う 本年四十一歳の女、十六年前、出産の時子癇を患い、同時に腎臓を病み、医療にて治りたるも、六年前より左手が震え始め、更に一昨年夏、俗に言う「ヨウキアタリ」を患い、その後両手足震え、日と共にその度を増し、寝ている時、読書、歌を作っている時等は全然震えませんが、手足は自由にならず、文字を書くことも出来ません。<br><br>相談をし始めると急に両手足共震え出します。<br><br>本人及び同家の人々は一生懸命に観音様に御すがりして、あるいは霊的に関係があるのではと屏風観音様を御祭りしております。<br><br>いかなる原因によるものでしょうか。<br><br>また、全治するものでしょうか。<br><br>御浄霊は主にどの辺をすればよいでしょうか。<br><br> 注射でよくそういう事がある。<br><br>霊的としてもそういう事はない。<br><br>恐らく注射の中毒であろう。<br><br>浄霊で治る。<br><br>頸部の横が元である。<br><br>（S24. 7. 3） 026 妊娠中の無感覚排便 妊娠九ケ月の女性（二十四歳）、二度目の出産ですが、便通が意識なしに出てしまいます。<br><br>医者は胎児の頭で大腸をおさえていると申します。<br><br>出産せぬと治らぬとの事、そうでしょうか。<br><br> これは合っている。<br><br>しかしこうなるという事は間違っている所があるからである。<br><br>括約筋が伸縮しないのである。<br><br> 肛門から奥を浄霊すると治る。<br><br> 027 妊娠中の発咳・肺門苦し 本年二十七歳の女子、妊娠八ケ月頃より咳、痰、寝汗等ひどく、産後も以前と同様の浄化を戴いております。<br><br>一ケ月過ぎても咳をする度に排出されます。<br><br>咳の出ない時は肺門が苦しいようです。<br><br>いかなる訳でしょうか。<br><br>御浄霊法を御教示願います。<br><br> 毒が固まっていて浄化している。<br><br>頭の毒が溶けて咳になる。<br><br>首の周り、肩も多い。<br><br> 急所を発見してすると治る。<br><br>よく心得ていればよい。<br><br>（S24.11. 8） 028 妊娠時の好き嫌い 妊娠致しますと急に今まで嫌いだった食物や煙草などが好きになりそれがその後ずっと続く人があり、また出産後もとへ返る人も御座いますが、これはいかなる訳でございましょうか。<br><br>お教えを賜りたく、御願い申し上げます。<br><br> 子宮が大きくなり胃を圧迫するので、胃が変る。<br><br>悪阻と同じ理屈で、胃の下の方と上の方に塊がある。<br><br>それが胃の方々を圧迫する。<br><br>それで胃が種々になる。<br><br>多くは嫌いなものが出来るのが多い。<br><br> 子供の前の世の好き嫌いが親に影響する事もある。<br><br>食べ習わすと好きになる事もある。<br><br>（S24. 9.22） 029 妊娠して酒・煙草を欲す ある婦人、妊娠すると決って煙草やお酒がのみたくなる―― 宿った赤ン坊が生まれ更ったものである場合、前の世の嗜好を親を通じて表わすのである。<br><br>それで特種の物が好きになったり嫌いになったりする。<br><br> また、生れたては爺、婆の顔になってるが、日と共に子供の顔となるもので、これも前世の死んだ時の顔が出るのである。<br><br> 030 腹帯をする日 戌（いぬ）の日に腹帯すると安産するという事を言われますが、何か意味がありましょうか。<br><br>信徒としては十八日、二十三日の方がよいと思われますがいかなるものでしょうか。<br><br>お尋ね致します。<br><br> 迷信である。<br><br>犬は沢山生むからアヤかる訳である。<br><br> 十八日、二十三日がよい。<br><br>（S25. 5. 7） 031 腹帯の注意 妊娠五ケ月目になりますと腹帯をさせますが、腹帯はした方が良いのですかしない方が良いのですか。<br><br>また、受胎児の関係はいかがなものでしょうか。<br><br> 西洋ではしない。<br><br>子は小さく育った方が出よい。<br><br>また、働きよい関係もある。<br><br>但し、あまり固くすると流産するから注意すべきである。<br><br>各自、自由にせよ。<br><br> 子供を大きくしない方がお産が軽いからというので締める。<br><br>これは必要はない。<br><br>日本人だけで、外国はない。<br><br> お腹にある毒だけの圧迫で沢山だが、お腹に毒の塊のある人は寧ろ悪い。<br><br>反って早産する。<br><br>軽く締める方がよい。<br><br>（S24. 9.13） 032 岩田帯 妊婦の結ぶ腹帯を岩田帯と申しますが、この名前はどこから出たので御座いますか。<br><br> やはり何か意味はあろうが、命や運命に必要ないから知る要はない。<br><br> やはり岩の言霊で、やはり硬くしっかりする所から岩田帯と名付けたのであろう。<br><br>帯はしっかり締めても構わぬ。<br><br> 綿では具合が悪いので布にする。<br><br> （腹が落ちるから働き難いので、田舎の人は臨月まで働くから、作業のしよいようにという点もあろう）（S23.12. 3）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Arte da Medicina (X) – Durante a Gestação</h2>
 <h3>012 Educação Pré-natal</h3>
@@ -155,5 +307,48 @@ function toggleLang(lang) {
 <h3>032 A Faixa Iwata-obi</h3>
 <p>A faixa de gestante é chamada de Iwata-obi. Qual a origem desse nome?</p>
 <p>Embora deva haver algum significado, conhecê-lo não é essencial para a vida ou o destino. Provavelmente, o nome Iwata-obi (岩田帯) deriva do ideograma de "iwa" (岩), que significa "rocha", transmitindo a ideia de firmeza e solidez. A faixa pode ser amarrada firmemente. O algodão não é adequado, por isso se utiliza tecido. É possível que seu uso também esteja relacionado ao fato de que, com a "queda" da barriga, o trabalho se torna mais difícil, e para as mulheres do campo, que trabalham até o último mês de gestação, a faixa facilitaria as tarefas.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇 （十） ２ 012-032 妊娠中 012 胎教 世間でよく申します胎教について御教示を御願い申し上げます。<br/><br/> 胎内にいる時の赤ン坊を教育する。<br/><br/>善い事を聞くと、赤ン坊は、心がその影響で善い人間になる。<br/><br/>偉い人や美人の写真など、母が見る事をする。<br/><br/>これは確かにある。<br/><br/>非常にいい事で、偉い人の書や絵など始終みると胎教になる。<br/><br/>（信仰雑話を読むとよい）（S23.11.18） 013 胎児の意志想念と胎教 胎児が母体にある間意志想念が働いているものでしょうか。<br/><br/> 意志想念は働いているともいえるし、働いていないといった方が事実に合う。<br/><br/>何となれば、胎児の意志による表現が何もない。<br/><br/>そうかといって全然そうでもない。<br/><br/>胎教といって、母が良い事を聞くと胎児にいい影響を与える。<br/><br/>綺麗な顔など見てると影響するという。<br/><br/>寧ろ親の想念が胎児に影響する訳である。<br/><br/>もし胎児に意志想念なしとすれば、影響は受けぬ訳である。<br/><br/>しかしないといってもいい。<br/><br/> 014 子の容貌の親との相似（胎教） 子供の性質並びに容貌が父親に似る者と母親に似る者と、また、いずれにも似ざる場合について御質ね致します。<br/><br/> その時によっていろいろある。<br/><br/>父が母の妊娠中家にいると割に父に似ている。<br/><br/>父不在で母が始終見る人の顔に似る。<br/><br/>それで美人の側にいるとか、神書を読むとかすると、その影響を受ける。<br/><br/>それで胎教は意味がある。<br/><br/> 015 胎動止る 会員、二十四、五歳の婦人、妊娠五ケ月頃胎動の停止したるに気付き医師の診断を乞いしところ、既に死亡して腐敗しおるため手術を要する旨申し渡されましたが、手術を嫌い御浄霊を受け約十日にして胎動あり再び診断を願いしところ「死んではいなかったな」との返答あり。<br/><br/>この症状は一時的仮死の状態とでも申すのでしょうか。<br/><br/>もしそうだと致しますれば、それはいかなる原因によるものでしょうか。<br/><br/> 心配するか、胃が縮小して食欲が少くなる時子供の栄養まで出来ぬ。<br/><br/>こういうのが衰弱する。<br/><br/>（S24.12. 3） 016 胎動の悪寒（死霊） 三十五歳の初妊娠婦、現在八ケ月、胎動を感ずる都度地の底に引込まれるような感じと共に悪寒を覚えますが、いかなる訳でありましょうか。<br/><br/> 死霊が憑くと背中が寒い。<br/><br/>生霊は暖かい。<br/><br/>霊的因縁で、お腹の子供に関係がある。<br/><br/>即ち胎児に死霊が連絡するのである。<br/><br/>祝詞や御讃歌を奏げてやれば治る。<br/><br/> 先妻の死後三ケ月目に後妻に入ったとしたら、先妻の霊であろう。<br/><br/>妻の死後は一ケ年は結婚を我慢しなくてはいけない。<br/><br/>（S23.12. 2） 017 妊娠六ケ月・腹膨れず（胎児死亡） 会員、三十歳前後の婦人、現在妊娠六ケ月なれど腹部膨満せざるため医診を受けしところ、三ケ月目位にて死亡しおる旨申し聞かされ、手術を迫られましたが、本人は何等苦痛なきため手術を不安に思い、御浄霊の続行を希望致しおりますが、もし死亡致しおると致しましても、御浄霊により排出されましょうか。<br/><br/>なお、この婦人は二児あり、流産一回致しおります。<br/><br/> 本当に死んでるものとすれば浄霊で出る。<br/><br/>古血が溜ってこういう事もある。<br/><br/>浄霊すれば悪いものは出る。<br/><br/>（S24.12. 3） 018 五ケ月の嬰児の状態（霊） 五ケ月以後の流産児の霊と、四ケ月以前の霊の状態―― 五ケ月になると完全に人間の形となる。<br/><br/>（S24. 8. 9） 019 堕胎 現代行われている産児制限の今後の社会に及ぼす影響はいかがでしょうか。<br/><br/>また、一回でも堕胎を行った人は入信して救われますでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> 堕胎しても入信して救われる。<br/><br/>堕胎は一種の殺人である。<br/><br/>誰かを救えばその罪は消える。<br/><br/>（S *. 7. 8） 020 悪阻 悪阻の霊的原因について―― 体的である。<br/><br/>臍と心窩部の毒。<br/><br/>胃の拡がる度に出す――。<br/><br/>（S24.10.26） 021 悪阻の原因 私の妻（三十三歳）は妊娠五ケ月目でありますが、妊娠と同時に悪阻になり、爾来四ケ月苦しみ、御浄霊を行いますと二時間位は楽になりますが、ちょっと仕事をするとまた苦しくなります。<br/><br/>いかなる原因でしょう。<br/><br/> みぞおちと臍の間に毒があり、子宮の膨脹によって排除、嘔吐する。<br/><br/>これが悪阻である。<br/><br/>普通は、簡単に治る。<br/><br/>簡単にやり、腎臓もよくやる。<br/><br/> 022 悪阻の浄霊個所 悪阻の全く無い人と極くひどい人がありますが、いかがな訳で御座居ますか。<br/><br/>御伺い申し上げます。<br/><br/> 腹部に毒素があり、子宮が拡がると毒が邪魔だから嘔吐で出す。<br/><br/>元は腎臓で、患部と共に浄めると割合い簡単である。<br/><br/> 023 子癇の原因 子癇は霊的で御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 怨みの霊である。<br/><br/>（生む事を妨害する怨み。<br/><br/>産後は血が少いため霊が憑り易い）（S24. 2.21） 024 妊娠と浮腫・子癇 先日御守護御願いいたしました大畑ひな、八月二十七日出産予定で一ケ月程以前より全身的に浮腫し、御浄霊させて戴いておりますが、だんだんひどくなり、起居にも苦痛を感じております。<br/><br/>また、二、三日前より脱腸の御浄化を戴き、特に足部の浮腫がひどく、御浄霊させて戴くとかえって苦痛が激しくなります。<br/><br/>このままにて無事出産出来るか、家族の者は非常に案じております。<br/><br/>何卒御守護御願い申し上げます。<br/><br/> 子癇について 一、これは簡単である。<br/><br/>腎臓だけよくやれば二、三度で大抵治る。<br/><br/>霊力が足りないのであろう。<br/><br/>子癇が起れば霊を浄霊する。<br/><br/>（S24. 7.29） 025 子癇より手足震う 本年四十一歳の女、十六年前、出産の時子癇を患い、同時に腎臓を病み、医療にて治りたるも、六年前より左手が震え始め、更に一昨年夏、俗に言う「ヨウキアタリ」を患い、その後両手足震え、日と共にその度を増し、寝ている時、読書、歌を作っている時等は全然震えませんが、手足は自由にならず、文字を書くことも出来ません。<br/><br/>相談をし始めると急に両手足共震え出します。<br/><br/>本人及び同家の人々は一生懸命に観音様に御すがりして、あるいは霊的に関係があるのではと屏風観音様を御祭りしております。<br/><br/>いかなる原因によるものでしょうか。<br/><br/>また、全治するものでしょうか。<br/><br/>御浄霊は主にどの辺をすればよいでしょうか。<br/><br/> 注射でよくそういう事がある。<br/><br/>霊的としてもそういう事はない。<br/><br/>恐らく注射の中毒であろう。<br/><br/>浄霊で治る。<br/><br/>頸部の横が元である。<br/><br/>（S24. 7. 3） 026 妊娠中の無感覚排便 妊娠九ケ月の女性（二十四歳）、二度目の出産ですが、便通が意識なしに出てしまいます。<br/><br/>医者は胎児の頭で大腸をおさえていると申します。<br/><br/>出産せぬと治らぬとの事、そうでしょうか。<br/><br/> これは合っている。<br/><br/>しかしこうなるという事は間違っている所があるからである。<br/><br/>括約筋が伸縮しないのである。<br/><br/> 肛門から奥を浄霊すると治る。<br/><br/> 027 妊娠中の発咳・肺門苦し 本年二十七歳の女子、妊娠八ケ月頃より咳、痰、寝汗等ひどく、産後も以前と同様の浄化を戴いております。<br/><br/>一ケ月過ぎても咳をする度に排出されます。<br/><br/>咳の出ない時は肺門が苦しいようです。<br/><br/>いかなる訳でしょうか。<br/><br/>御浄霊法を御教示願います。<br/><br/> 毒が固まっていて浄化している。<br/><br/>頭の毒が溶けて咳になる。<br/><br/>首の周り、肩も多い。<br/><br/> 急所を発見してすると治る。<br/><br/>よく心得ていればよい。<br/><br/>（S24.11. 8） 028 妊娠時の好き嫌い 妊娠致しますと急に今まで嫌いだった食物や煙草などが好きになりそれがその後ずっと続く人があり、また出産後もとへ返る人も御座いますが、これはいかなる訳でございましょうか。<br/><br/>お教えを賜りたく、御願い申し上げます。<br/><br/> 子宮が大きくなり胃を圧迫するので、胃が変る。<br/><br/>悪阻と同じ理屈で、胃の下の方と上の方に塊がある。<br/><br/>それが胃の方々を圧迫する。<br/><br/>それで胃が種々になる。<br/><br/>多くは嫌いなものが出来るのが多い。<br/><br/> 子供の前の世の好き嫌いが親に影響する事もある。<br/><br/>食べ習わすと好きになる事もある。<br/><br/>（S24. 9.22） 029 妊娠して酒・煙草を欲す ある婦人、妊娠すると決って煙草やお酒がのみたくなる―― 宿った赤ン坊が生まれ更ったものである場合、前の世の嗜好を親を通じて表わすのである。<br/><br/>それで特種の物が好きになったり嫌いになったりする。<br/><br/> また、生れたては爺、婆の顔になってるが、日と共に子供の顔となるもので、これも前世の死んだ時の顔が出るのである。<br/><br/> 030 腹帯をする日 戌（いぬ）の日に腹帯すると安産するという事を言われますが、何か意味がありましょうか。<br/><br/>信徒としては十八日、二十三日の方がよいと思われますがいかなるものでしょうか。<br/><br/>お尋ね致します。<br/><br/> 迷信である。<br/><br/>犬は沢山生むからアヤかる訳である。<br/><br/> 十八日、二十三日がよい。<br/><br/>（S25. 5. 7） 031 腹帯の注意 妊娠五ケ月目になりますと腹帯をさせますが、腹帯はした方が良いのですかしない方が良いのですか。<br/><br/>また、受胎児の関係はいかがなものでしょうか。<br/><br/> 西洋ではしない。<br/><br/>子は小さく育った方が出よい。<br/><br/>また、働きよい関係もある。<br/><br/>但し、あまり固くすると流産するから注意すべきである。<br/><br/>各自、自由にせよ。<br/><br/> 子供を大きくしない方がお産が軽いからというので締める。<br/><br/>これは必要はない。<br/><br/>日本人だけで、外国はない。<br/><br/> お腹にある毒だけの圧迫で沢山だが、お腹に毒の塊のある人は寧ろ悪い。<br/><br/>反って早産する。<br/><br/>軽く締める方がよい。<br/><br/>（S24. 9.13） 032 岩田帯 妊婦の結ぶ腹帯を岩田帯と申しますが、この名前はどこから出たので御座いますか。<br/><br/> やはり何か意味はあろうが、命や運命に必要ないから知る要はない。<br/><br/> やはり岩の言霊で、やはり硬くしっかりする所から岩田帯と名付けたのであろう。<br/><br/>帯はしっかり締めても構わぬ。<br/><br/> 綿では具合が悪いので布にする。<br/><br/> （腹が落ちるから働き難いので、田舎の人は臨月まで働くから、作業のしよいようにという点もあろう）（S23.12. 3）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

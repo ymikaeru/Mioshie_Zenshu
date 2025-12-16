@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>minzo001</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 民族、国土、迷信篇 １ 001-015 民族と系統 001 民族の優劣 気候風土に影響ありとしても民族に優劣を定め給いしはいかなる神の御意志によるもので御座居ましょうか。<br><br> 民族のみではなくあらゆるものに優劣は造られている。<br><br>神様が人間を使い世界経綸をする上に種々な人間がなくてはいけない。<br><br>偉い人が沢山出来ても困る。<br><br>労働するのやしないのや、いい具合に神様は調節してある。<br><br> 指導者は極く少数で、一国に数人で沢山である。<br><br>これはあらゆるものがそうなっている。<br><br>植物でも雑草は数が沢山あるが、良い植物ほど少ない。<br><br>綺麗な花の咲くものは少ない。<br><br>鉱物でも金は一番少なく、これは装飾に使うもので、貨幣に使うのは間違いである。<br><br>鉄は一番沢山産出するし、一番沢山使う。<br><br>金は五六七の世になると非常に装飾に使う。<br><br>このように、良い物ほど少ない。<br><br>民族にも優劣がある。<br><br>戦争中には日本の優秀性を大いに強調した。<br><br>（S23.12.22） 002 東洋人と西洋人の霊的相違、（猶太人） 東洋人は霊主体従及び西洋人は体主霊従と先日お伺い致しましたが、浄霊を致す場合、西洋人は体を先に霊を後に浄霊をした方がお光が強く透って良いものでしょうか。<br><br>お伺い申し上げます。<br><br> そんな事はない。<br><br>西洋人とても霊主体従である。<br><br>ただ東洋人とは霊主体従の具合が違うのである。<br><br>東洋人は霊六体四とすれば、西洋は霊五体五となる。<br><br>東洋人の方が霊が強く行く。<br><br> その他にも意味はあるが、人種的偏見のように思われるから、悉しく言えない。<br><br> 猶太人 猶太は無神主義、唯物主義である。<br><br>優れた民族である。<br><br>（S23.10.19） 003 日本人と西洋人声量の違い 日本人と西洋人とは声量が随分違いますが、いかなるわけでしょうか。<br><br> 日本は木の国で、日本人は木即ち火の性質である。<br><br>木は霊で、即ち霊的である。<br><br>西洋人は体的で、水と石である。<br><br> 日本人は鳥であり、西洋人は獣である。<br><br>洋人は吠え、日本人は歌う。<br><br>それで細くなる。<br><br>（S25. 2. 7） rattail（注） 〔 日本は木の国 『栄光』203号、昭和28(1953)年4月8日発行〕 004 趣味、色彩の霊関係 人間の趣味（魚釣り、花道、碁、将棋）等は霊的原因でありますか。<br><br>また、人間各々種々の色彩を好みますが、その好き嫌いは霊的原因でありましょうか。<br><br>御伺い申し上げます。<br><br> 霊的である。<br><br>（すべて副守護神の関係である）魚釣りはあまりやらない方がよい。<br><br>狩猟もあまりやると祟る。<br><br>娯楽としては華道などは結構である。<br><br>必ず人間の部屋には花を活けなくてはいけない。<br><br>（部屋が天国になる。<br><br>私はどんな部屋でも活ける）花は邪神が嫌う。<br><br>邪神は美を嫌う。<br><br>出来るだけどこでも綺麗にする必要がある。<br><br>碁、将棋は天職に影響せぬ程度ならよい。<br><br>その（趣味）程度の範囲ならいい。<br><br>（私も信仰してから随分将棋をやった） 好き嫌いは霊的原因がある。<br><br>（共産主義は赤色を好む。<br><br>サタンは赤である） あっさりしたのと、くどいのを好むのとあり、フランスなど薄色を好む。<br><br>中国など強烈な色彩を好む。<br><br>（赤、青）（近代人は原色を好む）アメリカも原色を好む。<br><br>（原始的なもの） 日本人はくすんだのを好む。<br><br>寂びた色で、渋いという事は外国にない。<br><br>シブ好みは日本の特色で、宗教なども日本が一番多い。<br><br>（S24. 7.25） 005 性格の遺伝 性格の遺伝という事はあり得る事でしょうか。<br><br>性格の遺伝は霊統と密接不離のものでしょうか。<br><br>民族によっても性格の差がありますように感じられますが、これはやはり単に霊統というのみではなく、環境（例えば気候、食物）等がそういう性格を作るものでしょうか。<br><br> 右、御教示御願い申し上げます。<br><br> 性格の遺伝はある。<br><br>祖父の性格は孫に似るという。<br><br>霊統とは密接な関係がある。<br><br>好戦的なのは支那、朝鮮、軍閥などはそうである。<br><br>環境、気候風土等大いにある。<br><br>印度人は菜食と牛乳だから抵抗力がなくなる。<br><br>無抵抗的である。<br><br>印度の今日の運命の根源はこれである。<br><br>これが一番影響している。<br><br>魚屋と八百屋をみても分る。<br><br>（S24. 7. 3） 006 空似の前世、美醜 他人の空似と前世の関係について。<br><br>また、双生児が普通の兄弟姉妹よりよく似ている理由。<br><br>また、心が美しくても不美人であったり、その反対であったりする場合の理由を御教えの程御願い申し上げます。<br><br> 他人の空似といっても民族関係、系統関係など影響する。<br><br>日本には三民族と霊的地位によって顔形がそのようになる。<br><br>前世に兄弟などの近い関係の事もある。<br><br> 形と霊とは種々で、前世男が女に、女が男になる事がある。<br><br>霊的に種々訳がある。<br><br>前世醜い顔の霊は美人に生れようとする想念が働くと綺麗になる。<br><br>霊界で思い込むと霊界で段々そうなる。<br><br>美人が美を利用して幾人もの男を翻弄するとか愛されたりして罪を作る。<br><br>即ち美の悪用で、これらが現世で醜となるのがある。<br><br>その罪を作ると反対の結果となる。<br><br> 遺伝はあるに決っている。<br><br>メンデルの法則から出た。<br><br> 朝顔でも、赤い花の種なら赤い花が咲く。<br><br>青い花の種なら青い花が咲く。<br><br>人間でも、その人の持ってる性格は伝わるのは当り前である。<br><br>白人が色の白いのも一種の遺伝である。<br><br>遺伝は一代おきである。<br><br>（S24. 7. 1） 007 血液型と毒素の関係 現代医学の説による血液型と毒素との関係及び浄霊による変化をお伺い致します。<br><br> 血液型は民族関係である。<br><br>支那、朝鮮、日本、アイヌ（コーカサス民族）とある。<br><br>支那の中にも支那本土と蒙古族と違う。<br><br>こういうのが血液型に出ている。<br><br>毒素との関係はない。<br><br> 祖先で薬をのんだ人は毒素が多い。<br><br>浄霊によれば毒素は減る。<br><br>濃毒も浄霊すると白くなり、透明となる。<br><br>それで痛みがなくなる。<br><br>毒素が溶けて出ようとするのが痛みである。<br><br>浄霊すると排出すべき膿が薄くなり、力がなくなり、痛みはなくなる訳である。<br><br>（S24. 5.25） rattail（注） 〔 御光話（S25年 2月） 『御光話録』18号、昭和25(1950)年4月23日発行〕 ――医学で言う血液型と毒素との関係、御浄霊による毒素の変化につきお伺いいたします。<br><br> 『血液型ってのは民族に関係があるんです。<br><br>日本民族にも霊的にいろんな系統があって、その違いが血液型に出てるんですよ。<br><br>毒素との関係はないと言っていい。<br><br>ま、あまりないですね。<br><br>毒素ってのは元はほとんど薬ですからね。<br><br>祖先が薬を多く服んでれば毒素も多いんです。<br><br>だから血液型とはたいして関係ありませんね。<br><br> この浄霊をすると毒素は減りますよ。<br><br>おもしろいのは先に耳から膿が出る人をやったことがあって、それは中耳炎の患者でしたがね。<br><br>最初は黄色い膿が出てたんですが、浄霊するうちにだんだん白くなり、透明の水のようになりましたよ。<br><br>あれで見ても毒素が減るってことがよく判りますね。<br><br>浄霊すると濃い毒素も薄くなるから、そこで痛みがなくなるんですよ。<br><br>毒素が熱によって溶けてどっかから出ようとして腫れるんですが、そのとき毒素が神経を圧して刺激するから痛いんで、膿が薄くなると圧す力がなくなって痛みがとれるんですよ。<br><br>』 008 大和民族 大和民族について―― 大和民族は比較的新しい民族で、絶対戦争をしない。<br><br>極端な平和愛好的民族であった。<br><br>そのため数千年前武力で征服された。<br><br>この霊統には、古来軍人、武将になるものは極めて稀で、もしありとしても、いずれも皆芸術に親しんだ。<br><br>この民族は芸術的に優れており、有名な芸術家に多い。<br><br>光明皇后、応神天皇、義経、聖徳太子、尾形光琳、西行法師等、その他有名な芸術家悉く大和民族の霊統である。<br><br>日本人は今後平和文化によって世界を楽します使命がある。<br><br>そのため神から徹底的に戦争を止めさせられた。<br><br>今迄はヤクザ民族で、喧嘩によって己の縄張りを拡げる事に専念した。<br><br> 本当に深い美術、これは日本美術より外にない。<br><br>音楽なども日本のは静的なるに反して、西洋のは動的で、何となく士気を鼓舞される。<br><br>声楽なども、日本のは歌うが、西洋のは吠える。<br><br>または楽器に声を合す。<br><br> 庭園などは、西洋のは幾何学的花壇が主で、天然の風景を比較的採り入れようとしない。<br><br>岩の味わいなどは殆ど分らぬ。<br><br> 日本美術では建築なども出来るだけ自然をとり入れる。<br><br>また、用材も日本にはあらゆる種類のものがある。<br><br> 009 信徒の霊統 我々の霊統を大先生より御調べして戴けますでしょうか。<br><br> 判っている。<br><br>教団信者になる人は本当に大和民族であって、極端な平和民族である。<br><br>それが素盞嗚尊や神武天皇に征服されたのである。<br><br>それは極端な戦争嫌いである。<br><br>自分で分る。<br><br> 私などは博物館に行っても、武器に関するものは見ない。<br><br>刀剣美術は素通りする。<br><br> 民族は混霊はせぬが、随分混血はしている。<br><br>（S24. 6.27） 010 聖徳太子の御霊統 聖徳太子の御霊統についてお伺い致します。<br><br> 聖徳太子は観音の生れ代りで、観音様は色々と生れて来られた。<br><br>応神天皇、光明皇后等。<br><br> 徳川家康は大国主命の生れ代りで、腹の底に根本的悪い所があった。<br><br>歴史をみると、目的のためには手段を選ばなかったようで、随分残酷な事をしている。<br><br>日光の宮を東照宮と称したのは、西は天子、自分は東を照すと云う意味だったのである。<br><br> 011 日本精神未顕 日本精神は未だ現れていないとのお話でございましたが、これは日本の正神が未だ現れていないという意味に解しても宜しいでしょうか。<br><br> この意味でよい。<br><br>これから本当の日本精神が表われる。<br><br>（S24. 6. 3） 012 イスラエル民族と日本人 イスラエル民族と純正日本人との関係（純日本人－天孫民族－イスラエル民族と存じますが）―― いろんな説があるが、私の解釈は違う。<br><br>イスラエル民族はユダヤで、純正日本人とは関係はない。<br><br>猶太の本元は素盞嗚尊で、朝鮮民族である。<br><br>素盞嗚尊が世界を放浪して、今でいうユダヤのエルサレムへ住居して、朝鮮民族とヨーロッパ人との混血児（民族）が出来た。<br><br>これがイスラエルの祖先である。<br><br>十二人の子を生んだが、これが十二の流れである。<br><br>その中の一種族は二千年前（イエス昇天後間もなく）東の方面へ行って帰らぬ。<br><br>それは支那の後漢時代（北方へ住む進歩的民族。<br><br>勢力扶植せんとしたが支那は進歩的でない）日本の九州へ渡来して天孫民族となった。<br><br>日本民族はコーカサス方面から来た。<br><br>今のアイヌ族と、出雲朝－朝鮮民族は最初出雲へ来た。<br><br>その後、越後、越中方面から信濃、茨城方面へ相当入った。<br><br>それから右の天孫民族である。<br><br>純正の日本民族は、弥生族で、これらが混血しているのである。<br><br>（S24. 1. 7） 013 瓊々杵尊と日本民族 皇孫瓊々杵尊と日本民族について―― 瓊々杵尊については今言えない訳がある。<br><br>日本民族は日本、朝鮮、支那の三人種が混血したものである。<br><br>本来の日本民族は絶対闘争しない。<br><br>大和民族が征服されてから戦いが起った。<br><br> 日本の歴史は戦争の歴史である。<br><br>しかしながら、他民族が入ったために、仏教等の文化が日本へ入ったので、これがやはり神の経綸である。<br><br> 014 日本と天孫民族 天孫民族について――。<br><br>また、天孫民族種が一番最初に神様によって造られたのでしょうか。<br><br> 天孫民族は支那の漢族で、瓊々杵尊とは漢の英雄である。<br><br>これは確実な事はいえぬが、猶太ではないかと思う。<br><br>というのは、イスラエルの十二種族の中、一種族だけが東方へ行ったきり帰らぬという事で、それは支那へ行った。<br><br>そして支那で何かしようとしたが、支那では国が栄えていて、事を挙げる事が出来なかった。<br><br>それで日本へ来たものと思う。<br><br> もう一つ、ユダヤ民族は放浪癖があり、一個所に固定しない。<br><br>それでその支那へ渡ったものの中の一族が九州へ渡り、鵜茅葺不合尊となり、神倭磐余彦命となった。<br><br>当時山にいたんで、誰言うとなく天孫民族といった。<br><br>富士山に住んでいたという説があるが、これは本当ではないと思う。<br><br> 天孫民族は二千数百年前のものである。<br><br> 神が一番最初に人間を造られた時は、何万年か何十万年前か分らぬが、木の葉の着物を着ていた時は随分古い事である。<br><br> 素盞嗚尊が日本へ渡来し日本を征服した。<br><br>それをまた神武天皇が征服した。<br><br>そして今日迄日本を支配した。<br><br> 要するに、朝鮮系と支那系が日本を征服したので、原住の大和民族は下積みとなり、埋もれてしまった。<br><br>本当の日本人は被支配者となった。<br><br> 素盞嗚尊は神須佐王、速須佐王、武速須佐王と三代続き、それから大国主命となった。<br><br> 日本歴史は朝鮮支那両民族の天下の奪り合いで、大抵の戦いはこの両民族の争いが多い。<br><br>であるから、日本には人民の歴史はない。<br><br>これは外国とは大いに違う。<br><br>外国では人民の歴史が多い。<br><br>日本だけは支配者の歴史である。<br><br>これからが人民の歴史になる。<br><br> 徳川家康は大国主命の霊系の直系である。<br><br>天皇は多く神武天皇の霊系である。<br><br>南北朝もそれで、南朝が素盞嗚尊、北朝が天孫の系統で、これは寧ろ歴史に歴然としている。<br><br> 天理教の御筆先にも「日本の真の柱は唐人や」と書いてある。<br><br>大本教でも支那の盤古大神（支那民族の先祖）が渡来して、日本の天皇になったと言っている。<br><br> 瓊々杵尊と神武天皇の間には意外な事がある。<br><br> 015 天孫民族 天孫民族は支那の漢族で、瓊々杵尊とは漢の英雄である。<br><br>これは確実な事はいえぬが、猶太ではないかと思う。<br><br>（S23. 6.28）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>001 A Superioridade e a Inferioridade entre os Povos</h2>
 <p>Ainda que se considerem as influências do clima e da terra, por qual desígnio divino foi estabelecida a superioridade e a inferioridade entre os povos?</p>
@@ -161,5 +313,48 @@ function toggleLang(lang) {
 <p>Entre Ninigi-no-Mikoto e o Imperador Jimmu, há um fato surpreendente.</p>
 <h2>015 O Povo Tenson</h2>
 <p>O povo Tenson era da etnia Han, da China, e Ninigi-no-Mikoto foi um herói chinês. Embora não se possa afirmar com certeza, creio que ele era judeu.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 民族、国土、迷信篇 １ 001-015 民族と系統 001 民族の優劣 気候風土に影響ありとしても民族に優劣を定め給いしはいかなる神の御意志によるもので御座居ましょうか。<br/><br/> 民族のみではなくあらゆるものに優劣は造られている。<br/><br/>神様が人間を使い世界経綸をする上に種々な人間がなくてはいけない。<br/><br/>偉い人が沢山出来ても困る。<br/><br/>労働するのやしないのや、いい具合に神様は調節してある。<br/><br/> 指導者は極く少数で、一国に数人で沢山である。<br/><br/>これはあらゆるものがそうなっている。<br/><br/>植物でも雑草は数が沢山あるが、良い植物ほど少ない。<br/><br/>綺麗な花の咲くものは少ない。<br/><br/>鉱物でも金は一番少なく、これは装飾に使うもので、貨幣に使うのは間違いである。<br/><br/>鉄は一番沢山産出するし、一番沢山使う。<br/><br/>金は五六七の世になると非常に装飾に使う。<br/><br/>このように、良い物ほど少ない。<br/><br/>民族にも優劣がある。<br/><br/>戦争中には日本の優秀性を大いに強調した。<br/><br/>（S23.12.22） 002 東洋人と西洋人の霊的相違、（猶太人） 東洋人は霊主体従及び西洋人は体主霊従と先日お伺い致しましたが、浄霊を致す場合、西洋人は体を先に霊を後に浄霊をした方がお光が強く透って良いものでしょうか。<br/><br/>お伺い申し上げます。<br/><br/> そんな事はない。<br/><br/>西洋人とても霊主体従である。<br/><br/>ただ東洋人とは霊主体従の具合が違うのである。<br/><br/>東洋人は霊六体四とすれば、西洋は霊五体五となる。<br/><br/>東洋人の方が霊が強く行く。<br/><br/> その他にも意味はあるが、人種的偏見のように思われるから、悉しく言えない。<br/><br/> 猶太人 猶太は無神主義、唯物主義である。<br/><br/>優れた民族である。<br/><br/>（S23.10.19） 003 日本人と西洋人声量の違い 日本人と西洋人とは声量が随分違いますが、いかなるわけでしょうか。<br/><br/> 日本は木の国で、日本人は木即ち火の性質である。<br/><br/>木は霊で、即ち霊的である。<br/><br/>西洋人は体的で、水と石である。<br/><br/> 日本人は鳥であり、西洋人は獣である。<br/><br/>洋人は吠え、日本人は歌う。<br/><br/>それで細くなる。<br/><br/>（S25. 2. 7） rattail（注） 〔 日本は木の国 『栄光』203号、昭和28(1953)年4月8日発行〕 004 趣味、色彩の霊関係 人間の趣味（魚釣り、花道、碁、将棋）等は霊的原因でありますか。<br/><br/>また、人間各々種々の色彩を好みますが、その好き嫌いは霊的原因でありましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 霊的である。<br/><br/>（すべて副守護神の関係である）魚釣りはあまりやらない方がよい。<br/><br/>狩猟もあまりやると祟る。<br/><br/>娯楽としては華道などは結構である。<br/><br/>必ず人間の部屋には花を活けなくてはいけない。<br/><br/>（部屋が天国になる。<br/><br/>私はどんな部屋でも活ける）花は邪神が嫌う。<br/><br/>邪神は美を嫌う。<br/><br/>出来るだけどこでも綺麗にする必要がある。<br/><br/>碁、将棋は天職に影響せぬ程度ならよい。<br/><br/>その（趣味）程度の範囲ならいい。<br/><br/>（私も信仰してから随分将棋をやった） 好き嫌いは霊的原因がある。<br/><br/>（共産主義は赤色を好む。<br/><br/>サタンは赤である） あっさりしたのと、くどいのを好むのとあり、フランスなど薄色を好む。<br/><br/>中国など強烈な色彩を好む。<br/><br/>（赤、青）（近代人は原色を好む）アメリカも原色を好む。<br/><br/>（原始的なもの） 日本人はくすんだのを好む。<br/><br/>寂びた色で、渋いという事は外国にない。<br/><br/>シブ好みは日本の特色で、宗教なども日本が一番多い。<br/><br/>（S24. 7.25） 005 性格の遺伝 性格の遺伝という事はあり得る事でしょうか。<br/><br/>性格の遺伝は霊統と密接不離のものでしょうか。<br/><br/>民族によっても性格の差がありますように感じられますが、これはやはり単に霊統というのみではなく、環境（例えば気候、食物）等がそういう性格を作るものでしょうか。<br/><br/> 右、御教示御願い申し上げます。<br/><br/> 性格の遺伝はある。<br/><br/>祖父の性格は孫に似るという。<br/><br/>霊統とは密接な関係がある。<br/><br/>好戦的なのは支那、朝鮮、軍閥などはそうである。<br/><br/>環境、気候風土等大いにある。<br/><br/>印度人は菜食と牛乳だから抵抗力がなくなる。<br/><br/>無抵抗的である。<br/><br/>印度の今日の運命の根源はこれである。<br/><br/>これが一番影響している。<br/><br/>魚屋と八百屋をみても分る。<br/><br/>（S24. 7. 3） 006 空似の前世、美醜 他人の空似と前世の関係について。<br/><br/>また、双生児が普通の兄弟姉妹よりよく似ている理由。<br/><br/>また、心が美しくても不美人であったり、その反対であったりする場合の理由を御教えの程御願い申し上げます。<br/><br/> 他人の空似といっても民族関係、系統関係など影響する。<br/><br/>日本には三民族と霊的地位によって顔形がそのようになる。<br/><br/>前世に兄弟などの近い関係の事もある。<br/><br/> 形と霊とは種々で、前世男が女に、女が男になる事がある。<br/><br/>霊的に種々訳がある。<br/><br/>前世醜い顔の霊は美人に生れようとする想念が働くと綺麗になる。<br/><br/>霊界で思い込むと霊界で段々そうなる。<br/><br/>美人が美を利用して幾人もの男を翻弄するとか愛されたりして罪を作る。<br/><br/>即ち美の悪用で、これらが現世で醜となるのがある。<br/><br/>その罪を作ると反対の結果となる。<br/><br/> 遺伝はあるに決っている。<br/><br/>メンデルの法則から出た。<br/><br/> 朝顔でも、赤い花の種なら赤い花が咲く。<br/><br/>青い花の種なら青い花が咲く。<br/><br/>人間でも、その人の持ってる性格は伝わるのは当り前である。<br/><br/>白人が色の白いのも一種の遺伝である。<br/><br/>遺伝は一代おきである。<br/><br/>（S24. 7. 1） 007 血液型と毒素の関係 現代医学の説による血液型と毒素との関係及び浄霊による変化をお伺い致します。<br/><br/> 血液型は民族関係である。<br/><br/>支那、朝鮮、日本、アイヌ（コーカサス民族）とある。<br/><br/>支那の中にも支那本土と蒙古族と違う。<br/><br/>こういうのが血液型に出ている。<br/><br/>毒素との関係はない。<br/><br/> 祖先で薬をのんだ人は毒素が多い。<br/><br/>浄霊によれば毒素は減る。<br/><br/>濃毒も浄霊すると白くなり、透明となる。<br/><br/>それで痛みがなくなる。<br/><br/>毒素が溶けて出ようとするのが痛みである。<br/><br/>浄霊すると排出すべき膿が薄くなり、力がなくなり、痛みはなくなる訳である。<br/><br/>（S24. 5.25） rattail（注） 〔 御光話（S25年 2月） 『御光話録』18号、昭和25(1950)年4月23日発行〕 ――医学で言う血液型と毒素との関係、御浄霊による毒素の変化につきお伺いいたします。<br/><br/> 『血液型ってのは民族に関係があるんです。<br/><br/>日本民族にも霊的にいろんな系統があって、その違いが血液型に出てるんですよ。<br/><br/>毒素との関係はないと言っていい。<br/><br/>ま、あまりないですね。<br/><br/>毒素ってのは元はほとんど薬ですからね。<br/><br/>祖先が薬を多く服んでれば毒素も多いんです。<br/><br/>だから血液型とはたいして関係ありませんね。<br/><br/> この浄霊をすると毒素は減りますよ。<br/><br/>おもしろいのは先に耳から膿が出る人をやったことがあって、それは中耳炎の患者でしたがね。<br/><br/>最初は黄色い膿が出てたんですが、浄霊するうちにだんだん白くなり、透明の水のようになりましたよ。<br/><br/>あれで見ても毒素が減るってことがよく判りますね。<br/><br/>浄霊すると濃い毒素も薄くなるから、そこで痛みがなくなるんですよ。<br/><br/>毒素が熱によって溶けてどっかから出ようとして腫れるんですが、そのとき毒素が神経を圧して刺激するから痛いんで、膿が薄くなると圧す力がなくなって痛みがとれるんですよ。<br/><br/>』 008 大和民族 大和民族について―― 大和民族は比較的新しい民族で、絶対戦争をしない。<br/><br/>極端な平和愛好的民族であった。<br/><br/>そのため数千年前武力で征服された。<br/><br/>この霊統には、古来軍人、武将になるものは極めて稀で、もしありとしても、いずれも皆芸術に親しんだ。<br/><br/>この民族は芸術的に優れており、有名な芸術家に多い。<br/><br/>光明皇后、応神天皇、義経、聖徳太子、尾形光琳、西行法師等、その他有名な芸術家悉く大和民族の霊統である。<br/><br/>日本人は今後平和文化によって世界を楽します使命がある。<br/><br/>そのため神から徹底的に戦争を止めさせられた。<br/><br/>今迄はヤクザ民族で、喧嘩によって己の縄張りを拡げる事に専念した。<br/><br/> 本当に深い美術、これは日本美術より外にない。<br/><br/>音楽なども日本のは静的なるに反して、西洋のは動的で、何となく士気を鼓舞される。<br/><br/>声楽なども、日本のは歌うが、西洋のは吠える。<br/><br/>または楽器に声を合す。<br/><br/> 庭園などは、西洋のは幾何学的花壇が主で、天然の風景を比較的採り入れようとしない。<br/><br/>岩の味わいなどは殆ど分らぬ。<br/><br/> 日本美術では建築なども出来るだけ自然をとり入れる。<br/><br/>また、用材も日本にはあらゆる種類のものがある。<br/><br/> 009 信徒の霊統 我々の霊統を大先生より御調べして戴けますでしょうか。<br/><br/> 判っている。<br/><br/>教団信者になる人は本当に大和民族であって、極端な平和民族である。<br/><br/>それが素盞嗚尊や神武天皇に征服されたのである。<br/><br/>それは極端な戦争嫌いである。<br/><br/>自分で分る。<br/><br/> 私などは博物館に行っても、武器に関するものは見ない。<br/><br/>刀剣美術は素通りする。<br/><br/> 民族は混霊はせぬが、随分混血はしている。<br/><br/>（S24. 6.27） 010 聖徳太子の御霊統 聖徳太子の御霊統についてお伺い致します。<br/><br/> 聖徳太子は観音の生れ代りで、観音様は色々と生れて来られた。<br/><br/>応神天皇、光明皇后等。<br/><br/> 徳川家康は大国主命の生れ代りで、腹の底に根本的悪い所があった。<br/><br/>歴史をみると、目的のためには手段を選ばなかったようで、随分残酷な事をしている。<br/><br/>日光の宮を東照宮と称したのは、西は天子、自分は東を照すと云う意味だったのである。<br/><br/> 011 日本精神未顕 日本精神は未だ現れていないとのお話でございましたが、これは日本の正神が未だ現れていないという意味に解しても宜しいでしょうか。<br/><br/> この意味でよい。<br/><br/>これから本当の日本精神が表われる。<br/><br/>（S24. 6. 3） 012 イスラエル民族と日本人 イスラエル民族と純正日本人との関係（純日本人－天孫民族－イスラエル民族と存じますが）―― いろんな説があるが、私の解釈は違う。<br/><br/>イスラエル民族はユダヤで、純正日本人とは関係はない。<br/><br/>猶太の本元は素盞嗚尊で、朝鮮民族である。<br/><br/>素盞嗚尊が世界を放浪して、今でいうユダヤのエルサレムへ住居して、朝鮮民族とヨーロッパ人との混血児（民族）が出来た。<br/><br/>これがイスラエルの祖先である。<br/><br/>十二人の子を生んだが、これが十二の流れである。<br/><br/>その中の一種族は二千年前（イエス昇天後間もなく）東の方面へ行って帰らぬ。<br/><br/>それは支那の後漢時代（北方へ住む進歩的民族。<br/><br/>勢力扶植せんとしたが支那は進歩的でない）日本の九州へ渡来して天孫民族となった。<br/><br/>日本民族はコーカサス方面から来た。<br/><br/>今のアイヌ族と、出雲朝－朝鮮民族は最初出雲へ来た。<br/><br/>その後、越後、越中方面から信濃、茨城方面へ相当入った。<br/><br/>それから右の天孫民族である。<br/><br/>純正の日本民族は、弥生族で、これらが混血しているのである。<br/><br/>（S24. 1. 7） 013 瓊々杵尊と日本民族 皇孫瓊々杵尊と日本民族について―― 瓊々杵尊については今言えない訳がある。<br/><br/>日本民族は日本、朝鮮、支那の三人種が混血したものである。<br/><br/>本来の日本民族は絶対闘争しない。<br/><br/>大和民族が征服されてから戦いが起った。<br/><br/> 日本の歴史は戦争の歴史である。<br/><br/>しかしながら、他民族が入ったために、仏教等の文化が日本へ入ったので、これがやはり神の経綸である。<br/><br/> 014 日本と天孫民族 天孫民族について――。<br/><br/>また、天孫民族種が一番最初に神様によって造られたのでしょうか。<br/><br/> 天孫民族は支那の漢族で、瓊々杵尊とは漢の英雄である。<br/><br/>これは確実な事はいえぬが、猶太ではないかと思う。<br/><br/>というのは、イスラエルの十二種族の中、一種族だけが東方へ行ったきり帰らぬという事で、それは支那へ行った。<br/><br/>そして支那で何かしようとしたが、支那では国が栄えていて、事を挙げる事が出来なかった。<br/><br/>それで日本へ来たものと思う。<br/><br/> もう一つ、ユダヤ民族は放浪癖があり、一個所に固定しない。<br/><br/>それでその支那へ渡ったものの中の一族が九州へ渡り、鵜茅葺不合尊となり、神倭磐余彦命となった。<br/><br/>当時山にいたんで、誰言うとなく天孫民族といった。<br/><br/>富士山に住んでいたという説があるが、これは本当ではないと思う。<br/><br/> 天孫民族は二千数百年前のものである。<br/><br/> 神が一番最初に人間を造られた時は、何万年か何十万年前か分らぬが、木の葉の着物を着ていた時は随分古い事である。<br/><br/> 素盞嗚尊が日本へ渡来し日本を征服した。<br/><br/>それをまた神武天皇が征服した。<br/><br/>そして今日迄日本を支配した。<br/><br/> 要するに、朝鮮系と支那系が日本を征服したので、原住の大和民族は下積みとなり、埋もれてしまった。<br/><br/>本当の日本人は被支配者となった。<br/><br/> 素盞嗚尊は神須佐王、速須佐王、武速須佐王と三代続き、それから大国主命となった。<br/><br/> 日本歴史は朝鮮支那両民族の天下の奪り合いで、大抵の戦いはこの両民族の争いが多い。<br/><br/>であるから、日本には人民の歴史はない。<br/><br/>これは外国とは大いに違う。<br/><br/>外国では人民の歴史が多い。<br/><br/>日本だけは支配者の歴史である。<br/><br/>これからが人民の歴史になる。<br/><br/> 徳川家康は大国主命の霊系の直系である。<br/><br/>天皇は多く神武天皇の霊系である。<br/><br/>南北朝もそれで、南朝が素盞嗚尊、北朝が天孫の系統で、これは寧ろ歴史に歴然としている。<br/><br/> 天理教の御筆先にも「日本の真の柱は唐人や」と書いてある。<br/><br/>大本教でも支那の盤古大神（支那民族の先祖）が渡来して、日本の天皇になったと言っている。<br/><br/> 瓊々杵尊と神武天皇の間には意外な事がある。<br/><br/> 015 天孫民族 天孫民族は支那の漢族で、瓊々杵尊とは漢の英雄である。<br/><br/>これは確実な事はいえぬが、猶太ではないかと思う。<br/><br/>（S23. 6.28）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

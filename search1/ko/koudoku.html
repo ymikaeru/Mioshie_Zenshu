@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>koudoku</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 抗毒素とは何乎 未発表、昭和11(1936)年5月11日執筆 西洋医学における各種病原は、黴菌という事になっている。<br><br>そうして黴菌の侵入によって病気発生となり、それが治癒されるのは、その血液に抗毒素なる一種の殺菌作用が発生するという解釈である。<br><br> しからば、その抗毒素とは一体何であるか。<br><br>この点医学では未だ発見されていないのである。<br><br>それは、新たに抗毒素なる一種の原素が自然発生するように思うが、決してそうではないのである。<br><br> 又、医学では種々の病気に対し免疫という事を言うが、これも抗毒素と同じ意味である。<br><br> 前述のごとく、抗毒素なる原素が無いとすれば、それはいかなる理由であるか、その説明に当ってまず順序として、病気発生から説いてみる。<br><br>まず病菌が血液又は組織に侵入し、猛烈な勢で繁殖しつつ、ある程度に至ってその勢は漸次衰退する事実である。<br><br>それが病気軽快であるのは勿論である。<br><br> しからば、何故に菌が繁殖するのかと言えば、それは菌を養育すべき栄養即ち、解り易く言えば、血液中に菌の食物が豊富に在るからである。<br><br>菌の食物とは何か、それは血液中に在る不純物である。<br><br>血液以外の存在物である。<br><br> ここで、血液の本体を明かにしてみよう。<br><br>元来血液なるものは、血液そのものであって、絶対に他の何物もないのが真の血液である。<br><br>そうして、純正血液の保有者は、決して病には罹らないのである。<br><br>故に、真の健康者とは即純正血液の保有者である。<br><br> しかしながら、人間が社会生活をなすにおいて、血液の純正を保つ事はなかなか困難である。<br><br>どうしてもある程度濁らない訳にはゆかないのである。<br><br>故に、造化神はこの濁り即ち血液以外の不純物を排除し、絶えず血液の純正を保つべき作用を人間に与えてあるのである。<br><br>その工作の一種であるのが各種の病菌である。<br><br>というよりも黴菌の発生すべき自然装置である。<br><br> 右のごとき、黴菌自然発生の装置とはいかなるものであるか。<br><br>それは清潔な所には発生せず、より不潔程発生する事である。<br><br>何となれば、黴菌なるものは一個の掃除夫とも言うべき役目のもので、清潔には掃除夫の必要がないが、不潔であればこそその必要がある訳である。<br><br>しかし、ここに面白いのはその掃除夫は他から傭って来るのではない。<br><br>相応の理によって不潔そのものが生むのである。<br><br>そうして自分を生んだ不潔物を、それから生れた掃除夫が掃除をするという事は、いかに巧妙な方法であるかに、感歎せずにはおられないのである。<br><br> この理は人間に対する場合、広義に解釈しなければならない。<br><br>それは不浄血液の人間が、社会に増加すると同じ程度において黴菌も発生するという事実である。<br><br>かように森羅万象は、必要があって存在し、発生し、必要だけの活動を為し、必要量の繁殖をするのが法則である。<br><br>ただ人間の眼に、その必要不必要の真相が映り得ないだけのものである。<br><br> これ故に、人間の健康を阻害する、血液内の不純物を除去する掃除夫として、黴菌なるものが発生し存在するのである。<br><br>しかるにこの掃除夫が不純物を掃除する方法としては、その不純物を食する事である。<br><br>食しつつ生殖作用を営んでは繁殖してゆく。<br><br>そうしてその食物が欠乏するに従って漸次餓死してゆくのである。<br><br>この場合血液は絶えず循環しているから血液全部に伝播するのは勿論である。<br><br>そうして、病菌餓死と共に血液は純化されるからその病気は治癒するのであるから、宛（あた）かも抗毒素なるものが醸成されて治癒したごとく見えるのである。<br><br> 黴菌に種類があるのは、不純物に種類がある事も面白いのである。<br><br> この理によってみれば、黴菌そのものは、人間が健康を持続する為の血液浄化の役目を果す重要なる存在であって、もし黴菌の発生がなかったら、幾千幾万年の後には、人類は滅亡するであろう事は想像されるのである。<br><br>故に黴菌が人体を犯さないまでに予防し得たとして、果して人間の健康はどうなるであろうかを説いてみよう。<br><br> 血液の掃除夫である黴菌を近づけない事に成功したとすればその結果は益々血液の汚濁である。<br><br>それが自然浄化によって不純物の残渣（ざんさ）が作られ、一種の毒素となって頸部から肺尖部へ溜結する。<br><br>それが進んで肺結核となるのである。<br><br>又、不純血液が浄化されない毒血のままで脳を犯すそれが脳溢血である。<br><br>近来、肺結核、脳溢血、近眼、その他病患者激増の真因は、この原因による事も多いのである。<br><br> 最近当局の調査によれば、警視庁管内だけで急性伝染病に因る死亡者が一ケ年約五千人で、年々減少の傾向があるのに対し、慢性伝染病たる結核に因る死亡者は一万三千人、それも増加の傾向で、急性伝染病の方は届出通りの数であり、結核の方は届出よりも実際の方が多いに違いないという事である。<br><br>これは全く右の私の説を裏書しているのである。<br><br>即ち、古人の伝染病を予防し得るとするも、その結果千人の結核患者を作っているという訳である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdadeira Natureza da Antitoxina</h2>
 <p>Segundo a medicina ocidental, a origem das diversas enfermidades reside nos germes. Acredita-se que a invasão desses micro-organismos desencadeia a doença, e que a cura ocorre quando no sangue se desenvolve uma substância com ação bactericida, denominada antitoxina.</p>
@@ -106,5 +258,48 @@ function toggleLang(lang) {
 <p>Sob esta ótica, os germes em si são uma presença fundamental, cumprindo o papel de purificar o sangue para que o ser humano possa manter sua saúde. Caso a proliferação de germes não ocorresse, é de se imaginar que, após milhares e milhares de anos, a humanidade estaria fadada à extinção. Sendo assim, o que aconteceria com a saúde humana se conseguíssemos prevenir que os germes invadissem o corpo?</p>
 <p>Se lograrmos êxito em impedir a aproximação dos germes, os faxineiros do sangue, o resultado será uma contaminação sanguínea cada vez maior. Pela purificação natural, os resíduos das impurezas formarão uma espécie de toxina, que se acumulará desde a região do pescoço até os ápices pulmonares, evoluindo para a tuberculose. Por outro lado, o sangue impuro que não passa pelo processo de purificação, permanecendo como sangue tóxico, pode atingir o cérebro, causando a hemorragia cerebral. O verdadeiro motivo do drástico aumento, em tempos recentes, de pacientes com tuberculose, hemorragia cerebral, miopia e outras enfermidades reside, em grande parte, nesta causa.</p>
 <p>Uma pesquisa recente conduzida pelas autoridades revela que, apenas na jurisdição do Departamento de Polícia Metropolitana, o número de mortes anuais por doenças infecciosas agudas é de aproximadamente cinco mil, com tendência de queda. Em contrapartida, o número de óbitos por tuberculose, uma doença infecciosa crônica, chega a treze mil e apresenta tendência de aumento. Ressalta-se ainda que os números das doenças agudas correspondem aos registros oficiais, enquanto os da tuberculose são, sem dúvida, muito maiores na realidade. Estes dados corroboram integralmente a tese que aqui apresento. Em outras palavras, ao passo que se logrou prevenir as doenças infecciosas, acabou-se, como consequência, por criar milhares de novos pacientes com tuberculose.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 抗毒素とは何乎 未発表、昭和11(1936)年5月11日執筆 西洋医学における各種病原は、黴菌という事になっている。<br/><br/>そうして黴菌の侵入によって病気発生となり、それが治癒されるのは、その血液に抗毒素なる一種の殺菌作用が発生するという解釈である。<br/><br/> しからば、その抗毒素とは一体何であるか。<br/><br/>この点医学では未だ発見されていないのである。<br/><br/>それは、新たに抗毒素なる一種の原素が自然発生するように思うが、決してそうではないのである。<br/><br/> 又、医学では種々の病気に対し免疫という事を言うが、これも抗毒素と同じ意味である。<br/><br/> 前述のごとく、抗毒素なる原素が無いとすれば、それはいかなる理由であるか、その説明に当ってまず順序として、病気発生から説いてみる。<br/><br/>まず病菌が血液又は組織に侵入し、猛烈な勢で繁殖しつつ、ある程度に至ってその勢は漸次衰退する事実である。<br/><br/>それが病気軽快であるのは勿論である。<br/><br/> しからば、何故に菌が繁殖するのかと言えば、それは菌を養育すべき栄養即ち、解り易く言えば、血液中に菌の食物が豊富に在るからである。<br/><br/>菌の食物とは何か、それは血液中に在る不純物である。<br/><br/>血液以外の存在物である。<br/><br/> ここで、血液の本体を明かにしてみよう。<br/><br/>元来血液なるものは、血液そのものであって、絶対に他の何物もないのが真の血液である。<br/><br/>そうして、純正血液の保有者は、決して病には罹らないのである。<br/><br/>故に、真の健康者とは即純正血液の保有者である。<br/><br/> しかしながら、人間が社会生活をなすにおいて、血液の純正を保つ事はなかなか困難である。<br/><br/>どうしてもある程度濁らない訳にはゆかないのである。<br/><br/>故に、造化神はこの濁り即ち血液以外の不純物を排除し、絶えず血液の純正を保つべき作用を人間に与えてあるのである。<br/><br/>その工作の一種であるのが各種の病菌である。<br/><br/>というよりも黴菌の発生すべき自然装置である。<br/><br/> 右のごとき、黴菌自然発生の装置とはいかなるものであるか。<br/><br/>それは清潔な所には発生せず、より不潔程発生する事である。<br/><br/>何となれば、黴菌なるものは一個の掃除夫とも言うべき役目のもので、清潔には掃除夫の必要がないが、不潔であればこそその必要がある訳である。<br/><br/>しかし、ここに面白いのはその掃除夫は他から傭って来るのではない。<br/><br/>相応の理によって不潔そのものが生むのである。<br/><br/>そうして自分を生んだ不潔物を、それから生れた掃除夫が掃除をするという事は、いかに巧妙な方法であるかに、感歎せずにはおられないのである。<br/><br/> この理は人間に対する場合、広義に解釈しなければならない。<br/><br/>それは不浄血液の人間が、社会に増加すると同じ程度において黴菌も発生するという事実である。<br/><br/>かように森羅万象は、必要があって存在し、発生し、必要だけの活動を為し、必要量の繁殖をするのが法則である。<br/><br/>ただ人間の眼に、その必要不必要の真相が映り得ないだけのものである。<br/><br/> これ故に、人間の健康を阻害する、血液内の不純物を除去する掃除夫として、黴菌なるものが発生し存在するのである。<br/><br/>しかるにこの掃除夫が不純物を掃除する方法としては、その不純物を食する事である。<br/><br/>食しつつ生殖作用を営んでは繁殖してゆく。<br/><br/>そうしてその食物が欠乏するに従って漸次餓死してゆくのである。<br/><br/>この場合血液は絶えず循環しているから血液全部に伝播するのは勿論である。<br/><br/>そうして、病菌餓死と共に血液は純化されるからその病気は治癒するのであるから、宛（あた）かも抗毒素なるものが醸成されて治癒したごとく見えるのである。<br/><br/> 黴菌に種類があるのは、不純物に種類がある事も面白いのである。<br/><br/> この理によってみれば、黴菌そのものは、人間が健康を持続する為の血液浄化の役目を果す重要なる存在であって、もし黴菌の発生がなかったら、幾千幾万年の後には、人類は滅亡するであろう事は想像されるのである。<br/><br/>故に黴菌が人体を犯さないまでに予防し得たとして、果して人間の健康はどうなるであろうかを説いてみよう。<br/><br/> 血液の掃除夫である黴菌を近づけない事に成功したとすればその結果は益々血液の汚濁である。<br/><br/>それが自然浄化によって不純物の残渣（ざんさ）が作られ、一種の毒素となって頸部から肺尖部へ溜結する。<br/><br/>それが進んで肺結核となるのである。<br/><br/>又、不純血液が浄化されない毒血のままで脳を犯すそれが脳溢血である。<br/><br/>近来、肺結核、脳溢血、近眼、その他病患者激増の真因は、この原因による事も多いのである。<br/><br/> 最近当局の調査によれば、警視庁管内だけで急性伝染病に因る死亡者が一ケ年約五千人で、年々減少の傾向があるのに対し、慢性伝染病たる結核に因る死亡者は一万三千人、それも増加の傾向で、急性伝染病の方は届出通りの数であり、結核の方は届出よりも実際の方が多いに違いないという事である。<br/><br/>これは全く右の私の説を裏書しているのである。<br/><br/>即ち、古人の伝染病を予防し得るとするも、その結果千人の結核患者を作っているという訳である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

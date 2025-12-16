@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>rei31055</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊学篇 三 諸霊解説（一） ５ 055-076 流産 055 嬰児霊の憑依症状（流動物のみ摂る） ある家の三歳の長男、現在流動物以外の物を食べると吐出してしまいます。<br><br>家庭は血族結婚も続き、相当の悪事もやってるようです。<br><br>何か霊的の関係でしょうか。<br><br> 血族結婚は差支えない。<br><br> 赤ン坊の霊が憑いてるので、流動物以外食べられぬのは赤ン坊通りになっている。<br><br> 死産をして祀られなかったり、不純な子を産んで殺したりなどすると、祀られぬから居所がない。<br><br>そういうのは子供に憑り易い。<br><br>憑ると赤ン坊と同じようになる。<br><br> 濃く強く憑るのと、あっさり憑るのとあるが、これは強く憑ってるようである。<br><br> 056 四ケ月流産児と背寒（祀り） 妊娠四ケ月で流産（本年六月上旬）した漁師の妻（三十二、三歳）、翌日から四十度以上の発熱となり、時々下るのですが、特に夜中の三時頃になると急激に熱が上り、背筋に悪寒が甚しく、食欲もありません。<br><br>今迄に二回浄霊をさせて頂きましたが、私は死児の霊が憑いているのではないかと思いますが、この場合、霊を慰めるにはいかにしたらよいでしょうか。<br><br>この人は流産後胎児の死体を家族にも知らせず、お墓の傍に埋めたまま戒名も付けず、供養も致しません。<br><br> 普通は五ケ月から祀るのだが、子供によっては三ケ月からいろいろな知らせをするのがある。<br><br>これもそうである。<br><br>早速お寺へ頼んで戒名をつけてもらい、簡単に仏壇に祀ってやる。<br><br>墓の側へ埋めたとすればそれでよい。<br><br>ただ、祀ってやらなかったから居所がなかったのである。<br><br>背筋が寒いのは死霊に決っている。<br><br> 057 小児的な婦 (ﾏﾏ) 人 私の弟、十八歳より神経衰弱になり、ただ今三十歳ですが、未だよくなりません。<br><br>私は二十一年に御光を戴き、それ以来御浄霊はしておりますが、以前に動物のように出歩いていたのは治りました。<br><br>しかるにまた本年六月中頃より、また外へ出歩くようになり、やる事なす事が子供のようであります。<br><br>しかし今度は夜分はよく眠るようですが、いかがなものでしょうか。<br><br>今後どういうようにしたらよくなるでありましょうか。<br><br>御教え願います。<br><br> 子供の霊が憑いている。<br><br>それで年は十八でも馬鹿みたいである。<br><br>名の付けようがないので神経衰弱にした。<br><br>普通になるのは難しいが、ある程度よくなる。<br><br>御神書を読ますのがいい。<br><br>（S24. 7.15） 058 智能低く霊見える児（転生の幼児霊） 十三歳の女子、生後一週間目に大病で医師に見放され、不動尊行者に頼み、生命は助かりましたが、発育が遅く、現在でも身長は七、八歳の子供位です。<br><br>言葉ははっきり致しませんが、記憶力はあります。<br><br>智能程度は低く四、五歳位です。<br><br>行者の話によれば、本人には幽霊が見えるそうです。<br><br>また、一度母がその子供を背負って一週間程前に死亡した人の家の前を通った時、その子供が「オバケ」と絶叫して母の背にしがみついたそうです。<br><br>この子供は不浄の場所を嫌い、葬式やお産のところに連れて行くと必ず帰ってから四十度位の熱を出して苦しむそうです。<br><br>このような時行者か祈祷師に頼み、川に塩と米を少量流すと不思議に熱は下り、平常に復するそうです。<br><br>また、行者の話によれば、この子供の口が自由に動かないのは神様が止めているからで、神様が御許しになるまでは決して良くならないとの事、また、この子供の事について、行者が祈り始めると五色の僧衣を着た僧侶が行者の眼前に浮ぶそうです。<br><br>いかなる訳でしょうか。<br><br> 四、五歳位の幼児の死者を、近親者を査べればある。<br><br>供養を怠ったなどで憑いたのである。<br><br> この子には霊が見えたのである。<br><br> 憑いてる子供の霊は、その前の世で神主とか、坊さんとかの職業のものが生れ代ったのである。<br><br>あるいは行者のようであって、その性格が残っている。<br><br>それが死後霊界へ行って、龍神となって、四、五歳位の幼児に生れ代ったものの霊である。<br><br> 塩や米を好むのは、龍神に関係があるからである。<br><br>霊が人間の口利けぬのは多分に龍神の性能が残っている。<br><br> 五色の僧衣――これである。<br><br> 059 寝小便・無月経・発育不全の女 二十四年九月入信した岡部郷子（十六歳）と申す女学生で御座いますが、母親と義兄も入信致しております。<br><br>現在、寝小便並びに幼児の時より心臓弁膜症で、少し運動をすると動悸激しく、全身発育不全にて、月経も御座いませんが、コシケが毎日下りております。<br><br>家庭にて毎日御浄霊を頂いておりますが、あまり効果が現れないようで御座います。<br><br>また、兄（二十九歳）は精神病にて、三年前より家でブラブラしており、姉（義兄の嫁、三十一歳）は気管支喘息にて十五年前より悪く、今日迄御浄霊を頂き、最近は起きれるようになり、兄も少しはよくなりつつあります。<br><br>なお二年前、祈祷師にみて貰いました所、南無阿弥陀仏と書いた軸物（三代前より伝はった品）を焼いてしまったからだとの事で御座いますが、何か霊的な意味が御座いましょうか。<br><br>お伺い申し上げます。<br><br> 理由なく焼くと、怒って祟る事がある。<br><br>ひどい祟りはない。<br><br>赤ン坊の霊が憑っている。<br><br>その状態が出て、心臓が悪くて死んだもので、大抵父なし子などで、いわくある死児で、祭られず居所がないのである。<br><br> 寝小便、無月経、発育不全等はその状態である。<br><br> 五、六年やれば一人前になろう。<br><br>だんだん浄まってゆく。<br><br> 十五年も経ってるから固まっている。<br><br>薬も入ってるが治る。<br><br>（S25. 4.21） 060 火弄り・裸を好む少年（親の心配の解決） 十八歳の男、三歳の時より病弱、発育も遅れ、足立ちも遅く、頭が悪く、小学校も行けず、十七歳の中頃より着物、パンツ等全然身にまとう事を嫌がり、火なぶりが好きにて、釜端にかがみ込んだりして、主に家の中で遊んでおります。<br><br>いかなる因縁でしょうか。<br><br> 赤ン坊の霊が憑っているのが一番多い。<br><br>次は動物霊である。<br><br>前頭部の奥を浄霊せよ。<br><br> 子供と同じように智能が低い。<br><br> 親が信仰を深くして人を助ける。<br><br>親の曇りがとれると、親が心配する材料がとれる。<br><br> また、光明如来様の御部屋へ寝かすようにする。<br><br> 普通になるのは判らぬが、どうやら一人前にはなる。<br><br> 061 左肩張る（赤子） 私の妻は教修をいただきまして以来五年間、引続き左肩が張ってとれません。<br><br>祝詞を奏上致しますととれますが、一時間程しますとまたもどります。<br><br>いかなるわけでございましょうか。<br><br> 赤ン坊がブラ下っているような症状である。<br><br>子供の霊は肩へブラ下っている。<br><br> 祝詞を奏げると離れるのである。<br><br>（S24. 5） 062 双子の一人背痛 娘富美子（十七歳）、双子に生れ、一歳の時一人は死亡致しました。<br><br>ただ今夜尿症にて、昨年十一月私が入信させて戴きました。<br><br>その時娘の背中が大変に痛みました。<br><br>昨年十一月より私が一生懸命御浄霊させて頂いておりますが、未だはっきりした事が分りません。<br><br>なお死亡致しました双子の一人の位牌は祀ってございません。<br><br>何卒宜敷く御守護御願い申し上げます。<br><br> その赤ン坊が憑いてるかもしれない。<br><br> 祀ってやるとよい。<br><br>（S25. 2.18） 063 引付けて片言 本年八歳の女子、昨年の九月初旬、引付けを起し、それより口が利けず、本年の九月五日より三回の御浄霊を受けてより毎日一回づつの引付けあり、四日目には一日に四回の引付け、その翌日よりお父ちゃんと申すようになり、一日に二十回位その言葉を繰返しております。<br><br>医者は小児麻痺と診察致しておりますが、このままの御浄霊で宜しゅう御座いましょうか。<br><br> 赤ン坊の霊である。<br><br>（S24. 9.13） 064 手伝いは出来る低智能の子 十一歳になる女の子、家事の手伝いは非常によく致しますが、学問は自分の名前すら思うように書けないので御座居ますが、いかなるわけで御座いましょう。<br><br> 霊が憑っている。<br><br>大抵赤ン坊の霊が憑ってる場合が多い。<br><br>智能が赤ン坊程度で、発育しない。<br><br> 気長に前頭部、延髄をすればだんだんよくなる。<br><br>（S24.11.19） 065 毎定時に幼児のごとくなる娘 十八歳の未入信の娘で御座いますが、昼間は普通人と変りない勤務を致しておりますが、毎夜一時頃になりますと起き上り、精神病状態になるので御座います。<br><br>この状態は一年位前から起ったのだと申します。<br><br>毎晩必ず母親だけを起し、幼児の駄々ッ子といったような状態で、どんどん近所で迷惑する程音をたてたり、訳のわからぬことを言って母親を責めたりして、三時間位続けるそうで御座いますが、朝になりますとまた普通になって出勤するとのことで御座います。<br><br>職場では珠算が優秀だとの事で御座います。<br><br>十四歳の時あるところで轢死体を見て、それ以来棺桶を見ますと背中に水をかけられたような寒気を感じ、憂鬱症になったと申します。<br><br>父親はチフスで数年前に死亡し、先祖には思い当ることも無いとのことで御座います。<br><br>いかなる原因で御座いましょうか。<br><br>御伺い申し上げます。<br><br> 一時頃に死んだ霊である。<br><br>赤ン坊の霊が憑る。<br><br>母親に覚えがある筈である。<br><br>音立てて赤ン坊の状態を表わす。<br><br> お寺で戒名付けてもらい祀るといい。<br><br>（S24.10. 2） 066 泣き続け唾液出す婦人 今年二十五歳になる洋服商の娘、二年前より悲しい悲しいと言って毎日泣くようになり、頭が重くて気分が悪いと言って、遂に床につき、現在では、蒲団をスッポリ被って、いつも左の人差指を口に入れて温和しく寝ております。<br><br>半月程前から御浄霊をしておりますが、御浄霊二回目から顔を蒲団の外に出すようになりました。<br><br>近頃は御浄霊の際「ハッハッ……」と笑い出し、また多量の唾液を出しております。<br><br>本人は元はおとなしい娘で、両親は死去し、叔父夫婦が同居しております。<br><br>家族の話に依ると、以前に外国船で飼っていた黒猫を貰って来ましたが、四、五年前ヒヨコを盗ったと言うので、叔父がこの黒猫の首に縄をつけて殺した事があり、「その黒猫の霊が怨んでいるが、叔父は強い頑固な人なので娘に憑っている」と言う事であります。<br><br>私は出来る事なら救ってあげたいと思いますが、いかにしたらよいでしょうか。<br><br>御教え願います。<br><br>因みに、この猫は英語は判ったと言う事であります。<br><br> 猫の霊ではなく、赤ン坊で祀られていない霊である。<br><br>多量の唾液など出すのはそうである。<br><br>猫の霊とすると、こういう状態ではない。<br><br>寺へ頼み、戒名をつけてもらって祀るとよい。<br><br>（S24. 5.15） 067 赤児の霊（小児麻痺症） 私の叔父に半次郎という者があります。<br><br>子供が七人あり、その次女（十五歳）が小児麻痺に似た状態になっております。<br><br>人の言葉はよく聞けますが発言が三歳位の子供よりおろかです。<br><br>父の話によると、私の家の先祖に半次郎と言う者があり、その者がある時に行方不明になっているようです。<br><br>叔父はその名を受継いでおります。<br><br>現在の半次郎は先祖半次郎の霊を祭っておりますが観音様の事は大変嫌っており、御浄霊は受けません。<br><br>いかにしましたら行方不明の先祖及び子供が救われますでしょうか。<br><br>お教え下さい。<br><br> 半次郎の霊とは関係ない。<br><br>行方不明になったのは祀ってやればよい。<br><br>子供の霊が憑っている。<br><br>死産、早産、流産など、祀られていない霊が居所がなくて人間の身体へ憑いてくる。<br><br>すると子供そのままの状態が写る。<br><br>査べてみて、それを祀ってやる。<br><br>光明如来様をお祭りすると、その光によって、迷った霊やいろいろの霊が霊界で救われてゆく。<br><br>それが大きい効果がある。<br><br>（S24.10.27） 068 産後腹部膨満（人工流産の婦人） 会員菅野あさ（二十八歳）、出産後三ケ月腹部膨張、臨月程の大きさにて、起きていると呼吸困難になって来ます。<br><br>殆ど付き切りで腎臓部及び腹部の御浄霊をさせて頂いておりますが、一進一退にてはかばかしくないのでございます。<br><br>一度人工流産（三ケ月）をした事がありますが、霊的のものでございましょうか。<br><br> 腎臓を充分にすれば治る。<br><br> 霊的と両方あり、霊的とすれば赤ン坊の霊がお腹へ載っている。<br><br>霊で成長するのである。<br><br>人工流産は殺人である。<br><br>三ケ月でも祀ってやるといい。<br><br>大抵五ケ月以上だが、三ケ月でも祀るのがいい。<br><br>（祟るのがある）（S25. 5. 3） 069 赤ン坊霊憑依 山腰登（十九歳）は、七月十六日野球見物に行き、日光の直射を受けて帰宅後発熱三十八、九度位を上下し、御浄霊を致しますと二、三時間は少し下りますが、また熱が昇り、食事は進まず、次第に衰弱します。<br><br>前頭部が非常に痛み、後の方は熱もありません。<br><br>御浄霊を続けておりましたところ、八月二日頃より睡気がして譫語を言うようになり、八月四日より意識が、不明確となりました。<br><br>この間両親は祝詞を奏上し一生懸命でしたが、心配の余り最初三時間、次は五時間程冷やしたり、医師を呼んで葡萄糖を二十本ばかり注射致しました。<br><br>それ以来譫語の中に「赤ン坊が上に乗っているから、重いから早く除けてくれ」と叫び、また赤ン坊の事を何や彼やと申します。<br><br>この家は両親も本人も入信しており、七月十八日には光明如来様をお迎えしております。<br><br>右の原因及びいかにしたら御救い戴けましょうか。<br><br>御教え願います。<br><br> 赤ン坊で迷っているのがいるのである。<br><br>流産、早産、死産等で祀らぬのがあり、祀ってもらいたいのである。<br><br>五ケ月以上のものは全部祀らなくてはいけない。<br><br>戒名を作って祀ってやると簡単に治る。<br><br>（S24. 8. 8） 070 引付けから発音不如意 私の信者に四歳の頃発病して、当初は時々引付け、次第に回数を増すに従い頭を悪くし、言葉も自由に発音が出来ず、現在では発音不能になりました。<br><br>先般来御浄霊を十回程受けましたが未だよくなりません。<br><br>霊的でしょうか。<br><br>または御浄霊の方法を御教え願います。<br><br> 霊的である。<br><br>赤ン坊の霊である。<br><br>口が利けぬなら死産か流産の霊である。<br><br>祀ってやるとよい。<br><br> 度々霊が憑ると頭が悪くなる。<br><br>（S24. 8.28） 071 寝時震える（死産児あり） 三年前に入信した女（二十七歳）、夜床につくと間もなく体中が大きく震えて来て中々止まりません。<br><br>以前に子宮を手術した事もあり、また四人の子供を死産し、腹膜に悩んだ事があります。<br><br>右の原因と浄霊法を御伺い致します。<br><br> 死んだ子の霊である。<br><br>子供の中の一人か、誰か祀らないのではないか。<br><br>霊が迷っているから、居所がなく、人間に憑きやすい。<br><br>寝てから、死の直前の形を表わすのは死霊で、今にも死ぬような気持になるものである。<br><br> 流産したり死産したりしたのは必ず祀らなくてはいけない。<br><br>（S24. 5. 4） 072 胃の背部肩に圧迫・体揺れる 私事、本年八月三日夜十時頃出先にて突然胃の背部より肩にかけて締め付けられるような圧迫感が起り、体が前後左右に振れ始め、自己以外の苦しみの声が出ました。<br><br>十五分位続きまして明方五時頃まで断続的に起りました。<br><br>御浄霊を頂きますと止りました。<br><br>それ以来少し無理をしたり深く考え事などした場合体が非常に疲れ易くなります。<br><br>このようなとき、前額部首筋より肩胸部腹部など前面より御浄霊を頂きますと体が前後左右に振れ、呼吸困難となります。<br><br>天津祝詞を奏げて頂きますとすぐ止りますが、天津祝詞が終りますと再び起り、一通り御浄霊が済みますと非常にさっぱりして、楽になります。<br><br>ただ今のところ月二、三回右のようになります。<br><br>右はいかなるわけでございましょうか。<br><br>御教示御願い申し上げます。<br><br> 前からやると反っていけない。<br><br>後からやる。<br><br>赤ン坊の霊がかぶさるようである。<br><br>流産、死産等で祀らぬ者が、兄弟とか身内の関係にそういう霊があるかを査べる。<br><br>（S24.10.19） 073 肩張る―流産児 私の左肩の張るのにつきまして一ケ月程前御伺い致しましたところ、流産せしことなきやとの御言葉を戴き、兄弟など親族を調べましたところ、故人になりました母親が七ケ月で男児を流産したことがございました。<br><br>また、以前に日蓮宗を信仰したことがあります。<br><br>狐霊に何か関係が御座居ましょうか。<br><br>御伺い申し上げます。<br><br> それであろう。<br><br>祀ってやった方がよい。<br><br>（S24. 8.29） 074 流産児霊による病気 四十五歳の女、三年前より医学的に病名不明にて床に着き、現在に至るも体の自由は全くきかず、半年前より御浄霊をさせて戴いております。<br><br>最初は頭痛、腎臓、腹膜部に非常に苦痛を伴い、数度鼻血、肛門より出血、その都度苦痛は和らぎ、現在では体的に殆ど苦痛なく、時々肩、胸部、足部に苦痛を訴え、御浄霊を致しますとすぐに取れます。<br><br>右胸部は盛上り、胸骨はふわふわと柔く、腹部は非常に膨らみ、その膨らみが胸部へ込み上げてまいります。<br><br>十年程前に盲腸を手術、その所が円く膨れておりますが、御浄霊を致しますとすぐに平常状態になります。<br><br>熱は平熱で、脈は百、食欲は普通でございます。<br><br>最初から御浄霊を致しますとお光が見え、数度全身の震へが激しくなったことが御座います。<br><br>一週間程前より御浄霊を致しますと掌、前頭部、お守様等より神様が見える、神様が見えると申しておりますが、口の利き方はまるで子供と同じで御座います。<br><br>いかなる訳でございましょうか。<br><br> 脈が多過ぎる。<br><br>流産した子が憑いてる。<br><br>戒名を付け、簡単な葬式して位牌を作り、祀ってやればいい。<br><br>手術の際の毒が胸部へ込み上げてくる。<br><br>一日も早く祀る。<br><br>（S24. 7.29） 075 夜泣きの子 本年三歳の子供、毎晩一時間位続けて夜泣きを致しますが、御浄霊をさせて頂きますと二十分位にて泣きやみます。<br><br>その子供の姉兄三名は七ケ月位にて次々と死産致しております。<br><br>夜泣きはそのためで御座いましょうか。<br><br> そのためである。<br><br>五ケ月以上の流産児は祀らなくてはいけない。<br><br>（S25. 3. 3） 076 脚気より眼吊上げ首座らぬ小児 高橋幸子（七ケ月）、生後四ケ月位してより緑便十日位続き、心配のため、医師の診断を受けたところ、乳児脚気と言われ十日位で良くなりましたが、その後六月十日頃突然一日中朝から泣き通し、夕方になりましたら目を吊り上げ、以来毎日十回以上も吊り上げるようになり一週間泣き通し、十日程で目の方は大分良くなりましたが、それからは首がぐらぐらして坐らず、医師は診断の結果脳性小児麻痺と言われました。<br><br>色々手当を致しましたが全然効果なく、一昨日より浄霊を始めました。<br><br>現在一日に数回目を吊り上げ、智恵も普通の幼児より相当遅れております。<br><br>右はいかなる原因でございましょうか。<br><br>御教示御願い申し上げます。<br><br> 緑便は結構である。<br><br>乳児脚気どころでない。<br><br>首がグラグラするのは早産か流産で祀らない霊が迷って憑くのである。<br><br>よく査べて祀ってやるとよい。<br><br>（S24. 9. 9）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Explicação sobre os Diversos Espíritos (Parte 1) - Aborto e Natimorto</h2>
 <p><strong>055 Sintomas da possessão por espírito infantil (ingestão apenas de líquidos)</strong></p>
@@ -165,5 +317,48 @@ function toggleLang(lang) {
 <p><strong>076 Criança com beribéri, olhos revirados e pescoço sem firmeza</strong></p>
 <p><em>Pergunta:</em> Sachiko Takahashi, de sete meses, por volta dos quatro meses de idade, teve fezes esverdeadas por cerca de dez dias. Preocupados, levamo-la a um médico que a diagnosticou com beribéri infantil. Ela melhorou em dez dias, mas, por volta de 10 de junho, subitamente, começou a chorar o dia todo, da manhã à noite. Ao entardecer, seus olhos reviraram. Desde então, isso passou a acontecer mais de dez vezes por dia, e ela chorou incessantemente por uma semana. Após dez dias, os olhos melhoraram bastante, mas seu pescoço ficou mole e sem firmeza. O médico diagnosticou paralisia cerebral infantil. Tentamos vários tratamentos, sem qualquer efeito. Anteontem, começamos o Johrei. Atualmente, ela ainda revira os olhos várias vezes ao dia, e sua inteligência está consideravelmente atrasada em comparação com a de outras crianças de sua idade. Qual seria a causa?</p>
 <p><em>Meishu-Sama:</em> As fezes esverdeadas são um bom sinal. O problema é muito mais sério que beribéri infantil. O pescoço sem firmeza indica a possessão por um espírito perdido de uma criança prematura ou abortada que não está sendo reverenciada. Investiguem bem e reverenciem esse espírito. (9 de setembro de 1949)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊学篇 三 諸霊解説（一） ５ 055-076 流産 055 嬰児霊の憑依症状（流動物のみ摂る） ある家の三歳の長男、現在流動物以外の物を食べると吐出してしまいます。<br/><br/>家庭は血族結婚も続き、相当の悪事もやってるようです。<br/><br/>何か霊的の関係でしょうか。<br/><br/> 血族結婚は差支えない。<br/><br/> 赤ン坊の霊が憑いてるので、流動物以外食べられぬのは赤ン坊通りになっている。<br/><br/> 死産をして祀られなかったり、不純な子を産んで殺したりなどすると、祀られぬから居所がない。<br/><br/>そういうのは子供に憑り易い。<br/><br/>憑ると赤ン坊と同じようになる。<br/><br/> 濃く強く憑るのと、あっさり憑るのとあるが、これは強く憑ってるようである。<br/><br/> 056 四ケ月流産児と背寒（祀り） 妊娠四ケ月で流産（本年六月上旬）した漁師の妻（三十二、三歳）、翌日から四十度以上の発熱となり、時々下るのですが、特に夜中の三時頃になると急激に熱が上り、背筋に悪寒が甚しく、食欲もありません。<br/><br/>今迄に二回浄霊をさせて頂きましたが、私は死児の霊が憑いているのではないかと思いますが、この場合、霊を慰めるにはいかにしたらよいでしょうか。<br/><br/>この人は流産後胎児の死体を家族にも知らせず、お墓の傍に埋めたまま戒名も付けず、供養も致しません。<br/><br/> 普通は五ケ月から祀るのだが、子供によっては三ケ月からいろいろな知らせをするのがある。<br/><br/>これもそうである。<br/><br/>早速お寺へ頼んで戒名をつけてもらい、簡単に仏壇に祀ってやる。<br/><br/>墓の側へ埋めたとすればそれでよい。<br/><br/>ただ、祀ってやらなかったから居所がなかったのである。<br/><br/>背筋が寒いのは死霊に決っている。<br/><br/> 057 小児的な婦 (ﾏﾏ) 人 私の弟、十八歳より神経衰弱になり、ただ今三十歳ですが、未だよくなりません。<br/><br/>私は二十一年に御光を戴き、それ以来御浄霊はしておりますが、以前に動物のように出歩いていたのは治りました。<br/><br/>しかるにまた本年六月中頃より、また外へ出歩くようになり、やる事なす事が子供のようであります。<br/><br/>しかし今度は夜分はよく眠るようですが、いかがなものでしょうか。<br/><br/>今後どういうようにしたらよくなるでありましょうか。<br/><br/>御教え願います。<br/><br/> 子供の霊が憑いている。<br/><br/>それで年は十八でも馬鹿みたいである。<br/><br/>名の付けようがないので神経衰弱にした。<br/><br/>普通になるのは難しいが、ある程度よくなる。<br/><br/>御神書を読ますのがいい。<br/><br/>（S24. 7.15） 058 智能低く霊見える児（転生の幼児霊） 十三歳の女子、生後一週間目に大病で医師に見放され、不動尊行者に頼み、生命は助かりましたが、発育が遅く、現在でも身長は七、八歳の子供位です。<br/><br/>言葉ははっきり致しませんが、記憶力はあります。<br/><br/>智能程度は低く四、五歳位です。<br/><br/>行者の話によれば、本人には幽霊が見えるそうです。<br/><br/>また、一度母がその子供を背負って一週間程前に死亡した人の家の前を通った時、その子供が「オバケ」と絶叫して母の背にしがみついたそうです。<br/><br/>この子供は不浄の場所を嫌い、葬式やお産のところに連れて行くと必ず帰ってから四十度位の熱を出して苦しむそうです。<br/><br/>このような時行者か祈祷師に頼み、川に塩と米を少量流すと不思議に熱は下り、平常に復するそうです。<br/><br/>また、行者の話によれば、この子供の口が自由に動かないのは神様が止めているからで、神様が御許しになるまでは決して良くならないとの事、また、この子供の事について、行者が祈り始めると五色の僧衣を着た僧侶が行者の眼前に浮ぶそうです。<br/><br/>いかなる訳でしょうか。<br/><br/> 四、五歳位の幼児の死者を、近親者を査べればある。<br/><br/>供養を怠ったなどで憑いたのである。<br/><br/> この子には霊が見えたのである。<br/><br/> 憑いてる子供の霊は、その前の世で神主とか、坊さんとかの職業のものが生れ代ったのである。<br/><br/>あるいは行者のようであって、その性格が残っている。<br/><br/>それが死後霊界へ行って、龍神となって、四、五歳位の幼児に生れ代ったものの霊である。<br/><br/> 塩や米を好むのは、龍神に関係があるからである。<br/><br/>霊が人間の口利けぬのは多分に龍神の性能が残っている。<br/><br/> 五色の僧衣――これである。<br/><br/> 059 寝小便・無月経・発育不全の女 二十四年九月入信した岡部郷子（十六歳）と申す女学生で御座いますが、母親と義兄も入信致しております。<br/><br/>現在、寝小便並びに幼児の時より心臓弁膜症で、少し運動をすると動悸激しく、全身発育不全にて、月経も御座いませんが、コシケが毎日下りております。<br/><br/>家庭にて毎日御浄霊を頂いておりますが、あまり効果が現れないようで御座います。<br/><br/>また、兄（二十九歳）は精神病にて、三年前より家でブラブラしており、姉（義兄の嫁、三十一歳）は気管支喘息にて十五年前より悪く、今日迄御浄霊を頂き、最近は起きれるようになり、兄も少しはよくなりつつあります。<br/><br/>なお二年前、祈祷師にみて貰いました所、南無阿弥陀仏と書いた軸物（三代前より伝はった品）を焼いてしまったからだとの事で御座いますが、何か霊的な意味が御座いましょうか。<br/><br/>お伺い申し上げます。<br/><br/> 理由なく焼くと、怒って祟る事がある。<br/><br/>ひどい祟りはない。<br/><br/>赤ン坊の霊が憑っている。<br/><br/>その状態が出て、心臓が悪くて死んだもので、大抵父なし子などで、いわくある死児で、祭られず居所がないのである。<br/><br/> 寝小便、無月経、発育不全等はその状態である。<br/><br/> 五、六年やれば一人前になろう。<br/><br/>だんだん浄まってゆく。<br/><br/> 十五年も経ってるから固まっている。<br/><br/>薬も入ってるが治る。<br/><br/>（S25. 4.21） 060 火弄り・裸を好む少年（親の心配の解決） 十八歳の男、三歳の時より病弱、発育も遅れ、足立ちも遅く、頭が悪く、小学校も行けず、十七歳の中頃より着物、パンツ等全然身にまとう事を嫌がり、火なぶりが好きにて、釜端にかがみ込んだりして、主に家の中で遊んでおります。<br/><br/>いかなる因縁でしょうか。<br/><br/> 赤ン坊の霊が憑っているのが一番多い。<br/><br/>次は動物霊である。<br/><br/>前頭部の奥を浄霊せよ。<br/><br/> 子供と同じように智能が低い。<br/><br/> 親が信仰を深くして人を助ける。<br/><br/>親の曇りがとれると、親が心配する材料がとれる。<br/><br/> また、光明如来様の御部屋へ寝かすようにする。<br/><br/> 普通になるのは判らぬが、どうやら一人前にはなる。<br/><br/> 061 左肩張る（赤子） 私の妻は教修をいただきまして以来五年間、引続き左肩が張ってとれません。<br/><br/>祝詞を奏上致しますととれますが、一時間程しますとまたもどります。<br/><br/>いかなるわけでございましょうか。<br/><br/> 赤ン坊がブラ下っているような症状である。<br/><br/>子供の霊は肩へブラ下っている。<br/><br/> 祝詞を奏げると離れるのである。<br/><br/>（S24. 5） 062 双子の一人背痛 娘富美子（十七歳）、双子に生れ、一歳の時一人は死亡致しました。<br/><br/>ただ今夜尿症にて、昨年十一月私が入信させて戴きました。<br/><br/>その時娘の背中が大変に痛みました。<br/><br/>昨年十一月より私が一生懸命御浄霊させて頂いておりますが、未だはっきりした事が分りません。<br/><br/>なお死亡致しました双子の一人の位牌は祀ってございません。<br/><br/>何卒宜敷く御守護御願い申し上げます。<br/><br/> その赤ン坊が憑いてるかもしれない。<br/><br/> 祀ってやるとよい。<br/><br/>（S25. 2.18） 063 引付けて片言 本年八歳の女子、昨年の九月初旬、引付けを起し、それより口が利けず、本年の九月五日より三回の御浄霊を受けてより毎日一回づつの引付けあり、四日目には一日に四回の引付け、その翌日よりお父ちゃんと申すようになり、一日に二十回位その言葉を繰返しております。<br/><br/>医者は小児麻痺と診察致しておりますが、このままの御浄霊で宜しゅう御座いましょうか。<br/><br/> 赤ン坊の霊である。<br/><br/>（S24. 9.13） 064 手伝いは出来る低智能の子 十一歳になる女の子、家事の手伝いは非常によく致しますが、学問は自分の名前すら思うように書けないので御座居ますが、いかなるわけで御座いましょう。<br/><br/> 霊が憑っている。<br/><br/>大抵赤ン坊の霊が憑ってる場合が多い。<br/><br/>智能が赤ン坊程度で、発育しない。<br/><br/> 気長に前頭部、延髄をすればだんだんよくなる。<br/><br/>（S24.11.19） 065 毎定時に幼児のごとくなる娘 十八歳の未入信の娘で御座いますが、昼間は普通人と変りない勤務を致しておりますが、毎夜一時頃になりますと起き上り、精神病状態になるので御座います。<br/><br/>この状態は一年位前から起ったのだと申します。<br/><br/>毎晩必ず母親だけを起し、幼児の駄々ッ子といったような状態で、どんどん近所で迷惑する程音をたてたり、訳のわからぬことを言って母親を責めたりして、三時間位続けるそうで御座いますが、朝になりますとまた普通になって出勤するとのことで御座います。<br/><br/>職場では珠算が優秀だとの事で御座います。<br/><br/>十四歳の時あるところで轢死体を見て、それ以来棺桶を見ますと背中に水をかけられたような寒気を感じ、憂鬱症になったと申します。<br/><br/>父親はチフスで数年前に死亡し、先祖には思い当ることも無いとのことで御座います。<br/><br/>いかなる原因で御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 一時頃に死んだ霊である。<br/><br/>赤ン坊の霊が憑る。<br/><br/>母親に覚えがある筈である。<br/><br/>音立てて赤ン坊の状態を表わす。<br/><br/> お寺で戒名付けてもらい祀るといい。<br/><br/>（S24.10. 2） 066 泣き続け唾液出す婦人 今年二十五歳になる洋服商の娘、二年前より悲しい悲しいと言って毎日泣くようになり、頭が重くて気分が悪いと言って、遂に床につき、現在では、蒲団をスッポリ被って、いつも左の人差指を口に入れて温和しく寝ております。<br/><br/>半月程前から御浄霊をしておりますが、御浄霊二回目から顔を蒲団の外に出すようになりました。<br/><br/>近頃は御浄霊の際「ハッハッ……」と笑い出し、また多量の唾液を出しております。<br/><br/>本人は元はおとなしい娘で、両親は死去し、叔父夫婦が同居しております。<br/><br/>家族の話に依ると、以前に外国船で飼っていた黒猫を貰って来ましたが、四、五年前ヒヨコを盗ったと言うので、叔父がこの黒猫の首に縄をつけて殺した事があり、「その黒猫の霊が怨んでいるが、叔父は強い頑固な人なので娘に憑っている」と言う事であります。<br/><br/>私は出来る事なら救ってあげたいと思いますが、いかにしたらよいでしょうか。<br/><br/>御教え願います。<br/><br/>因みに、この猫は英語は判ったと言う事であります。<br/><br/> 猫の霊ではなく、赤ン坊で祀られていない霊である。<br/><br/>多量の唾液など出すのはそうである。<br/><br/>猫の霊とすると、こういう状態ではない。<br/><br/>寺へ頼み、戒名をつけてもらって祀るとよい。<br/><br/>（S24. 5.15） 067 赤児の霊（小児麻痺症） 私の叔父に半次郎という者があります。<br/><br/>子供が七人あり、その次女（十五歳）が小児麻痺に似た状態になっております。<br/><br/>人の言葉はよく聞けますが発言が三歳位の子供よりおろかです。<br/><br/>父の話によると、私の家の先祖に半次郎と言う者があり、その者がある時に行方不明になっているようです。<br/><br/>叔父はその名を受継いでおります。<br/><br/>現在の半次郎は先祖半次郎の霊を祭っておりますが観音様の事は大変嫌っており、御浄霊は受けません。<br/><br/>いかにしましたら行方不明の先祖及び子供が救われますでしょうか。<br/><br/>お教え下さい。<br/><br/> 半次郎の霊とは関係ない。<br/><br/>行方不明になったのは祀ってやればよい。<br/><br/>子供の霊が憑っている。<br/><br/>死産、早産、流産など、祀られていない霊が居所がなくて人間の身体へ憑いてくる。<br/><br/>すると子供そのままの状態が写る。<br/><br/>査べてみて、それを祀ってやる。<br/><br/>光明如来様をお祭りすると、その光によって、迷った霊やいろいろの霊が霊界で救われてゆく。<br/><br/>それが大きい効果がある。<br/><br/>（S24.10.27） 068 産後腹部膨満（人工流産の婦人） 会員菅野あさ（二十八歳）、出産後三ケ月腹部膨張、臨月程の大きさにて、起きていると呼吸困難になって来ます。<br/><br/>殆ど付き切りで腎臓部及び腹部の御浄霊をさせて頂いておりますが、一進一退にてはかばかしくないのでございます。<br/><br/>一度人工流産（三ケ月）をした事がありますが、霊的のものでございましょうか。<br/><br/> 腎臓を充分にすれば治る。<br/><br/> 霊的と両方あり、霊的とすれば赤ン坊の霊がお腹へ載っている。<br/><br/>霊で成長するのである。<br/><br/>人工流産は殺人である。<br/><br/>三ケ月でも祀ってやるといい。<br/><br/>大抵五ケ月以上だが、三ケ月でも祀るのがいい。<br/><br/>（祟るのがある）（S25. 5. 3） 069 赤ン坊霊憑依 山腰登（十九歳）は、七月十六日野球見物に行き、日光の直射を受けて帰宅後発熱三十八、九度位を上下し、御浄霊を致しますと二、三時間は少し下りますが、また熱が昇り、食事は進まず、次第に衰弱します。<br/><br/>前頭部が非常に痛み、後の方は熱もありません。<br/><br/>御浄霊を続けておりましたところ、八月二日頃より睡気がして譫語を言うようになり、八月四日より意識が、不明確となりました。<br/><br/>この間両親は祝詞を奏上し一生懸命でしたが、心配の余り最初三時間、次は五時間程冷やしたり、医師を呼んで葡萄糖を二十本ばかり注射致しました。<br/><br/>それ以来譫語の中に「赤ン坊が上に乗っているから、重いから早く除けてくれ」と叫び、また赤ン坊の事を何や彼やと申します。<br/><br/>この家は両親も本人も入信しており、七月十八日には光明如来様をお迎えしております。<br/><br/>右の原因及びいかにしたら御救い戴けましょうか。<br/><br/>御教え願います。<br/><br/> 赤ン坊で迷っているのがいるのである。<br/><br/>流産、早産、死産等で祀らぬのがあり、祀ってもらいたいのである。<br/><br/>五ケ月以上のものは全部祀らなくてはいけない。<br/><br/>戒名を作って祀ってやると簡単に治る。<br/><br/>（S24. 8. 8） 070 引付けから発音不如意 私の信者に四歳の頃発病して、当初は時々引付け、次第に回数を増すに従い頭を悪くし、言葉も自由に発音が出来ず、現在では発音不能になりました。<br/><br/>先般来御浄霊を十回程受けましたが未だよくなりません。<br/><br/>霊的でしょうか。<br/><br/>または御浄霊の方法を御教え願います。<br/><br/> 霊的である。<br/><br/>赤ン坊の霊である。<br/><br/>口が利けぬなら死産か流産の霊である。<br/><br/>祀ってやるとよい。<br/><br/> 度々霊が憑ると頭が悪くなる。<br/><br/>（S24. 8.28） 071 寝時震える（死産児あり） 三年前に入信した女（二十七歳）、夜床につくと間もなく体中が大きく震えて来て中々止まりません。<br/><br/>以前に子宮を手術した事もあり、また四人の子供を死産し、腹膜に悩んだ事があります。<br/><br/>右の原因と浄霊法を御伺い致します。<br/><br/> 死んだ子の霊である。<br/><br/>子供の中の一人か、誰か祀らないのではないか。<br/><br/>霊が迷っているから、居所がなく、人間に憑きやすい。<br/><br/>寝てから、死の直前の形を表わすのは死霊で、今にも死ぬような気持になるものである。<br/><br/> 流産したり死産したりしたのは必ず祀らなくてはいけない。<br/><br/>（S24. 5. 4） 072 胃の背部肩に圧迫・体揺れる 私事、本年八月三日夜十時頃出先にて突然胃の背部より肩にかけて締め付けられるような圧迫感が起り、体が前後左右に振れ始め、自己以外の苦しみの声が出ました。<br/><br/>十五分位続きまして明方五時頃まで断続的に起りました。<br/><br/>御浄霊を頂きますと止りました。<br/><br/>それ以来少し無理をしたり深く考え事などした場合体が非常に疲れ易くなります。<br/><br/>このようなとき、前額部首筋より肩胸部腹部など前面より御浄霊を頂きますと体が前後左右に振れ、呼吸困難となります。<br/><br/>天津祝詞を奏げて頂きますとすぐ止りますが、天津祝詞が終りますと再び起り、一通り御浄霊が済みますと非常にさっぱりして、楽になります。<br/><br/>ただ今のところ月二、三回右のようになります。<br/><br/>右はいかなるわけでございましょうか。<br/><br/>御教示御願い申し上げます。<br/><br/> 前からやると反っていけない。<br/><br/>後からやる。<br/><br/>赤ン坊の霊がかぶさるようである。<br/><br/>流産、死産等で祀らぬ者が、兄弟とか身内の関係にそういう霊があるかを査べる。<br/><br/>（S24.10.19） 073 肩張る―流産児 私の左肩の張るのにつきまして一ケ月程前御伺い致しましたところ、流産せしことなきやとの御言葉を戴き、兄弟など親族を調べましたところ、故人になりました母親が七ケ月で男児を流産したことがございました。<br/><br/>また、以前に日蓮宗を信仰したことがあります。<br/><br/>狐霊に何か関係が御座居ましょうか。<br/><br/>御伺い申し上げます。<br/><br/> それであろう。<br/><br/>祀ってやった方がよい。<br/><br/>（S24. 8.29） 074 流産児霊による病気 四十五歳の女、三年前より医学的に病名不明にて床に着き、現在に至るも体の自由は全くきかず、半年前より御浄霊をさせて戴いております。<br/><br/>最初は頭痛、腎臓、腹膜部に非常に苦痛を伴い、数度鼻血、肛門より出血、その都度苦痛は和らぎ、現在では体的に殆ど苦痛なく、時々肩、胸部、足部に苦痛を訴え、御浄霊を致しますとすぐに取れます。<br/><br/>右胸部は盛上り、胸骨はふわふわと柔く、腹部は非常に膨らみ、その膨らみが胸部へ込み上げてまいります。<br/><br/>十年程前に盲腸を手術、その所が円く膨れておりますが、御浄霊を致しますとすぐに平常状態になります。<br/><br/>熱は平熱で、脈は百、食欲は普通でございます。<br/><br/>最初から御浄霊を致しますとお光が見え、数度全身の震へが激しくなったことが御座います。<br/><br/>一週間程前より御浄霊を致しますと掌、前頭部、お守様等より神様が見える、神様が見えると申しておりますが、口の利き方はまるで子供と同じで御座います。<br/><br/>いかなる訳でございましょうか。<br/><br/> 脈が多過ぎる。<br/><br/>流産した子が憑いてる。<br/><br/>戒名を付け、簡単な葬式して位牌を作り、祀ってやればいい。<br/><br/>手術の際の毒が胸部へ込み上げてくる。<br/><br/>一日も早く祀る。<br/><br/>（S24. 7.29） 075 夜泣きの子 本年三歳の子供、毎晩一時間位続けて夜泣きを致しますが、御浄霊をさせて頂きますと二十分位にて泣きやみます。<br/><br/>その子供の姉兄三名は七ケ月位にて次々と死産致しております。<br/><br/>夜泣きはそのためで御座いましょうか。<br/><br/> そのためである。<br/><br/>五ケ月以上の流産児は祀らなくてはいけない。<br/><br/>（S25. 3. 3） 076 脚気より眼吊上げ首座らぬ小児 高橋幸子（七ケ月）、生後四ケ月位してより緑便十日位続き、心配のため、医師の診断を受けたところ、乳児脚気と言われ十日位で良くなりましたが、その後六月十日頃突然一日中朝から泣き通し、夕方になりましたら目を吊り上げ、以来毎日十回以上も吊り上げるようになり一週間泣き通し、十日程で目の方は大分良くなりましたが、それからは首がぐらぐらして坐らず、医師は診断の結果脳性小児麻痺と言われました。<br/><br/>色々手当を致しましたが全然効果なく、一昨日より浄霊を始めました。<br/><br/>現在一日に数回目を吊り上げ、智恵も普通の幼児より相当遅れております。<br/><br/>右はいかなる原因でございましょうか。<br/><br/>御教示御願い申し上げます。<br/><br/> 緑便は結構である。<br/><br/>乳児脚気どころでない。<br/><br/>首がグラグラするのは早産か流産で祀らない霊が迷って憑くのである。<br/><br/>よく査べて祀ってやるとよい。<br/><br/>（S24. 9. 9）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

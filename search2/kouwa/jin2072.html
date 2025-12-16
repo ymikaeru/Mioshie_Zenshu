@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jin2072</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人事篇 第二篇 ５ 072-096 人相 072 人相と運命 「人相と宿命」について何か関係があるでしょうか。<br><br>御教示御願い申し上げます。<br><br> 人相はその人の運勢や使命などが出ている。<br><br>で、人相で宿命が当る事がある。<br><br>人相が変るのは、運命の方も変る。<br><br> 善い事してるか、悪い事をしているかというのは人相ですぐに出る。<br><br>善い事をしていると晴々している。<br><br>変な事をしているとキョトキョトしたり、目付が晴々しない。<br><br> 画相などはよく当る。<br><br>疣などでも分るし、耳、眼、鼻等でも。<br><br>顔は代表であるから表われる。<br><br>（S24.11. 7） rattail（注） 〔 妙智の鍵（光明分会４月号） 、昭和24(1949)年4月21日発行〕 ――人相、手相と人間の運命となにか関係がございましょうか。<br><br> 『たいした関係はない。<br><br>』 〔 御垂示（S26年9月8日） 『御垂示録』2号、昭和26(1951)年10月10日発行〕 「人相、手相は人の話を聞いても、良く当たることがありますが――」 『当たります。<br><br>しかし全部は当たらない。<br><br>当たる率が多いのです。<br><br>』 「変わるそうですが、簡単に変わるものでしょうか」 『しかし、今日、明日、変わるのではない。<br><br>だんだん変わってきます。<br><br>』 「信仰を持っていると良いように変わるものでしょうか」 『信仰に入ると良いほうに変わるんです。<br><br>手相を見てもはずれちゃいます。<br><br>以前、石龍（せきりゅう）師に見てもらったがぜんぜん反対です。<br><br>反対に解釈すると、実に良かったということになる。<br><br>』 073 顔形違う訳 同じ兄弟姉妹でも、それぞれ顔や形、あるいは気持にまで相違のありますのを霊的に御教示下さい。<br><br> あらゆるものは変化するように出来てる。<br><br>神様はそのように造ってある。<br><br>これでよい。<br><br>変化がなくてはいけない。<br><br>二十億の人間全部顔が違う。<br><br>（S24. 9.13） 074 良姓名、良家相と努力 姓名や家相のよい人と、そういう事は全く知らずに真面目に働いている人とは、どちらが神様の御加護を頂けるものでしょうか。<br><br> まじめに働いている人の方が御守護頂く。<br><br> いくら家相がよくても、自分だけのもので他の人のために働かぬのでは役に立たぬ。<br><br>故に両方良い方がよいが、どちらかというと努力である。<br><br> 075 霊と指紋 霊と指紋の関係について御説明下さい。<br><br> 霊的には指紋に限らず、人間は全身すべてが特徴のあるもので、指紋も一つ一つ皆それぞれ個性がある。<br><br>研究すればいろんな意味があるに違いない。<br><br>皆流紋は救世主という説もあったがこれはそうではない。<br><br>流れているのは水、纒っているのは火の働きという事は出来る。<br><br>拇指も人差指も各々使命が違う。<br><br>とにかく霊的に関係のある事は事実である。<br><br>要するにこの世に生れたその人の印しである。<br><br>ホクロ、疣、耳の形、位置など運命に関係がある。<br><br>眉毛と眼の間のホクロは親の財産を潰す。<br><br>口辺一寸以内のホクロは食うに困らぬという。<br><br>口辺、鼻柱にホクロのある者は必ず陰部にホクロあり、男は女難、女は男難ありとしてある。<br><br>（S24.12.28） 076 人相手相 人相、手相と人間の運命と何か関係が御座いましょうか。<br><br>御伺い申し上げます。<br><br> 今話した通りで、関係がある。<br><br>すべて相応の理により決っている。<br><br>画相もよく当る。<br><br>（S23.12. 1） 077 眉間のほくろ（天庭） 仏像の眉間の「ほくろ」には何か意味があるので御座いましょうか。<br><br> 右御教示御願い申し上げます。<br><br> 人間の中の一番肝腎なのは天庭で、顔の真中である。<br><br>神の霊線はここから通ずる。<br><br>それを表わすためである。<br><br>（S24. 6.23） 078 額央のホクロ 上額の中央、鼻柱の上部にホクロのある人がありますが、このような人を今日迄見まするに、何か霊的にわけがありそうに思われますが、御伺い申し上げます。<br><br> 霊的に訳がある。<br><br>白毫―で――。<br><br> 前の世で非常に徳を施したとか、神格を得たとか、仏の位になったとかいう事であろう。<br><br>（しかし幸福は）ホクロは非常に意味がある。<br><br> 目と眉毛の間のホクロは、必ず親の財産を減らすとか、潰すという。<br><br> 涙嚢辺―目尻辺のを泣ボクロといい、憂え事が多い。<br><br> 口の辺にあるのは、食うに困らぬとか、運がいいとかいう。<br><br> 鼻柱などにあるのは、陰部に必ずホクロがある。<br><br>女難の相などという。<br><br>二号の女などに多い。<br><br>これも相当意味があるようである。<br><br>（S24. 1.24） 079 ホクロの増大と増加 顔面にあるホクロが自然と多くなって来ます。<br><br>浄霊により解消するのでしょうか。<br><br>また期間はどの位かかるのでしょうか。<br><br> ホクロは大きくなる事はあるが、多くなる事はない。<br><br>目の下のホクロは泣ボクロといって良くない。<br><br>鼻から下のが可としてある。<br><br>口の周りは多い方がよい。<br><br>（S *.12.15） 080 ホクロと運勢 ホクロについて世間でいろいろ申しますが、この存在、位置は人間の運勢と関係があるのでしょうか。<br><br> 関係は非常にある。<br><br>口の廻りは一番いい。<br><br>きっと運がいい。<br><br>着ボクロもある。<br><br> 口辺のホクロ、特に女は運がいい。<br><br>首のホクロもいい。<br><br> 眉毛と眼の間のホクロは必ず親の財産を減らすか潰す。<br><br>（S24. 5.25） 081 ホクロ多い程可なり 「ホクロ」「ソバカス」「クスベ」はどのように違うので御座居ましょうか。<br><br>特に眼の下、口のまわり等に「ホクロ」「クスベ」のありますのは、意味があるように申しますが、霊的にいかなる意味があるのでございましょうか。<br><br>お伺い申し上げます。<br><br> 口辺のホクロは非常に良い。<br><br>運がいい。<br><br>女でも境遇のいい女など皆ホクロがある。<br><br>生活に困ってる女にはホクロがない。<br><br> 目の下の涙道は一番わるい。<br><br>鼻柱附近のホクロは男難や女難がある。<br><br>眉毛と目の間にあるホクロは親の財産を潰す。<br><br>目から上のホクロは、宗教的因縁があるという。<br><br>ホクロは人間の運命に関係がある。<br><br> ソバカスの女は美人が多い。<br><br>一種の毒素である。<br><br> ホクロは多いほどよい。<br><br>腕にホクロがあると、腕を使う仕事をする。<br><br>（S24. 5. 2） rattail（注） 〔 妙智の鍵（光明分会８月号） 、昭和24(1949)年8月1日発行〕 082 疣 疣は、画相というのがあって意味がある。<br><br>（先天、後天とある）治る疣は、その人の罪もあり、運命的の事もある。<br><br>生れつきの疣も決ったものがある。<br><br> ほくろも大変（役してる）。<br><br>口の端にあるのはきっと運がいい。<br><br>頸の周りのを着ボクロという。<br><br>これらは運のいいのは事実である。<br><br> 前の世に徳を積んだ（しるしである）。<br><br>それに善果を与える印ともいうべきである。<br><br>（S *. 8. 7） 083 「つむじ」の巻き方 「ツムジ」の右巻と左巻の霊的意味、また運命との関係――。<br><br> 運命には関係ないが、霊的には関係がある。<br><br>右巻は女、左巻は男であるから、女の分子の多分にあるものは右巻、男の分子の多分にあるものは左巻である。<br><br> 前の世の関係で、前の世のそれが、現世に表われる（S24. 7.11） 084 つむじ（明主様御臍と耳） 「つむじ」が一つある人と二つある人とあり、また横の方にある人が御座いますが、人間の性質と特に何か関係が御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> 私もはっきり知らないが、つむじ曲りというから素直じゃない。<br><br>臍でも変なのがある。<br><br>人間の身体は無意味じゃないから、研究すればきっと何かある。<br><br>私は皮肉が好きだが、私の臍はちょっと横にある。<br><br>女の美人は臍がよい。<br><br>臍に魅力がある。<br><br>ホクロ、疣、鼻の形、すべて運命に関係がある。<br><br> 私は若い時から、耳がよいと賞められた。<br><br>（S23.12. 1） rattail（注） 〔 御垂示（S27年5月1日） 『御垂示録』9号、昭和27(1952)年5月15日発行〕 「つむじが二つあるのは霊的関係がございましょうか」 『無論あるでしょうね。<br><br>よくつむじ曲りと言ってね。<br><br>やっぱり、頭の一つの中心になっているんでしょうね。<br><br>』 「馬や牛は、それによって値段が高くなったりいたします。<br><br>二つあるのは、人を構わずに殺すそうでございます」 『不思議ですね。<br><br>やっぱり二つあるというのは理由があるんでしょうね。<br><br>いずれ、必要ならば分かるでしょうが、大して必要がありそうもないから、気にしないでも良いですね。<br><br>それが別に悪いというわけじゃないんだからね。<br><br>』 「今までは障りがありましても、これからはお光をいただき心配はいりませんわけで――」 『無論そうです。<br><br>霊ですからね。<br><br>』 085 つむじの位置 頭の「つむじ」の位置と数は、何か意味が御座いましょうか。<br><br>御伺い申し上げます。<br><br> 頭の中心は臍と同じような意味である。<br><br>臍は絶対的中心でない。<br><br>曲っている。<br><br>私など一寸位曲っている。<br><br>人の真似が嫌いである。<br><br>それで医学を発見した。<br><br> つむじ曲りなどは、脱線的な所がある。<br><br>二つあるのもあるが、一つが本当である。<br><br>（S24. 7.21） 086 つむじの複数、二人が一つになる場合あり 曲ったり二つある人がよくある。<br><br>人間が生れる場合、滅多にないが二人が一人に生れる事がある。<br><br>この時は二つつむじの場合がある。<br><br> 非常に仲がよいとか、親子で、特に親しい男女関係で、非常に親しい、一つになりたいと思う時（双方の希望で）一つになる。<br><br>（S *. 8. 7） 087 つむじと性格 ぞくにつむじまがりと申しますが、つむじの位置と人間の性質と関係が御座いますでしょうか。<br><br> 真中にある方が素直かもしれない。<br><br>私は、臍が曲っているが、そんな性質はない。<br><br> 不明である。<br><br>大した気にする事はない。<br><br>（S24. 3. 4） 088 つむじの意義―三人分の頭の働 人間の頭のツムジが二つまたは三つもある人がありますが、霊的に特に意味があるのでしょうか。<br><br> ない事もないが、大した意味でもない。<br><br>一人で二人も三人もの働きをする訳であるから、三人兄弟として、二人死ぬ時、三人分の頭の働きをするような意味になる。<br><br>（S24） 089 つむじ（前世の印） 私は頭の上にツムジが二つあり、右前頭部生際の毛が上外方に流れ、ツムジ様に思われます。<br><br>私の長男は、私の入信二年後、生れてすぐ死亡、三年後に生れた次男の頭のツムジと生際が同様です。<br><br>また私の姉が嫁入先で、私の入信満七ケ月後生んだ長男もまた同様です。<br><br>この三人同様ツムジ型の因縁を御垂示下さい。<br><br> 因縁であろうが、知っても仕様がない。<br><br>前の世の一つの印しである。<br><br> 頭は祖先である。<br><br>祖先の生れ更ってくるのであるから、二人分を一人でやるとか、いろいろな意味がある。<br><br>（S24. 9. 7） 090 耳と幸福 耳の形状は幸、不幸にも関係するといわれていますが、何か意味がありましょうか。<br><br> 無論幸、不幸に関係がある。<br><br>耳だけではなく、口でも目でも鼻でもそうである。<br><br>耳は特徴があるから一番形が判り易い。<br><br>研究すると運命に関係がある。<br><br>耳たぼの大きいのは金持になるといわれている。<br><br>私は大きいので大いに金持になるといわれたが借金で苦しんだ。<br><br>しかし今は公的だが金は入る。<br><br>仏像なども輪を垂れているが、耳朶の垂れてるのがいいとみえる。<br><br> 091 百握り 私も家内も二人共右手が百握りですが、どう言う宿命がありますか。<br><br>お尋ね致します。<br><br> 手相学上良い。<br><br>（S24） 092 指紋と運勢 指紋と運勢とは関係がありますか。<br><br>過日無指紋の人が二名（これは母子）愛媛県下で発見されました。<br><br>かような事象はいかなる訳でしょうか。<br><br> 指紋と運勢は関係がある。<br><br>（指紋のみでなく、人間の身体全部に表われる） （無指紋は河童の生れ更りである）（S24. 6.25） rattail（注） 〔 御開示集（天国之友） 、昭和24(1949)年9月10日発行〕 ――指紋のない人はいかがなものでしょうか。<br><br> 『霊的原因です。<br><br>河童の生まれ変わりでしょう。<br><br>河童には指紋がありません。<br><br>河童はよく人間になり、人間も河童になります。<br><br>河童の感情は人間そっくりです。<br><br>人間に近いのです。<br><br>』 093 肩下に一毛生じある夫婦 私も家内も右手の肩より二寸位下った所に、一寸五分位の毛が一本生えており、私のは黒、家内のは白色で霊的に何か関係がありましょうか。<br><br> 前の世の紀念が出てるのである。<br><br>自惚れるといけないから、前世はこういう者だという事を知らせてあるのかもしれぬ。<br><br> 094 左利と性格 生れ付き右ききと左ききと御座いますが、これはその人の性格に関係あるものでしょうか。<br><br> 性格とは関係はない。<br><br>（S24. 5.23） 095 二重瞼 一重瞼と二重瞼の人がありますが、霊的に関係が御座居ましょうか。<br><br>御教を賜りたく御願い申し上げます。<br><br> 霊的にはない。<br><br> 二重瞼は、皮膚が柔く、伸び易いのではないか。<br><br>（S24. 5.22） 096 眉間の青筋 子供の時、眼と眼の間に青筋があると癇癪持と言っておりますが、いかがなものでしょうか。<br><br> この通りである。<br><br>見ただけでそうである。<br><br>普通の人でも癇癪を起すと青筋たてる。<br><br>嬉しい時は顔に喜びが溢れる。<br><br>本能的のものである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Assuntos Humanos – Parte II: A Fisionomia</h2>
 <p><strong>72. Fisionomia e Destino</strong></p>
@@ -196,5 +348,48 @@ function toggleLang(lang) {
 <p><strong>96. A Veia Azulada entre as Sobrancelhas</strong></p>
 <p><em>Costuma-se dizer que uma criança com uma veia azulada aparente entre os olhos é irritadiça. Isso é verdade?</em></p>
 <p>É exatamente como se diz. A simples observação confirma. Mesmo em pessoas comuns, quando se irritam, a veia salta. Quando estão felizes, a alegria transborda no rosto. É uma reação instintiva.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人事篇 第二篇 ５ 072-096 人相 072 人相と運命 「人相と宿命」について何か関係があるでしょうか。<br/><br/>御教示御願い申し上げます。<br/><br/> 人相はその人の運勢や使命などが出ている。<br/><br/>で、人相で宿命が当る事がある。<br/><br/>人相が変るのは、運命の方も変る。<br/><br/> 善い事してるか、悪い事をしているかというのは人相ですぐに出る。<br/><br/>善い事をしていると晴々している。<br/><br/>変な事をしているとキョトキョトしたり、目付が晴々しない。<br/><br/> 画相などはよく当る。<br/><br/>疣などでも分るし、耳、眼、鼻等でも。<br/><br/>顔は代表であるから表われる。<br/><br/>（S24.11. 7） rattail（注） 〔 妙智の鍵（光明分会４月号） 、昭和24(1949)年4月21日発行〕 ――人相、手相と人間の運命となにか関係がございましょうか。<br/><br/> 『たいした関係はない。<br/><br/>』 〔 御垂示（S26年9月8日） 『御垂示録』2号、昭和26(1951)年10月10日発行〕 「人相、手相は人の話を聞いても、良く当たることがありますが――」 『当たります。<br/><br/>しかし全部は当たらない。<br/><br/>当たる率が多いのです。<br/><br/>』 「変わるそうですが、簡単に変わるものでしょうか」 『しかし、今日、明日、変わるのではない。<br/><br/>だんだん変わってきます。<br/><br/>』 「信仰を持っていると良いように変わるものでしょうか」 『信仰に入ると良いほうに変わるんです。<br/><br/>手相を見てもはずれちゃいます。<br/><br/>以前、石龍（せきりゅう）師に見てもらったがぜんぜん反対です。<br/><br/>反対に解釈すると、実に良かったということになる。<br/><br/>』 073 顔形違う訳 同じ兄弟姉妹でも、それぞれ顔や形、あるいは気持にまで相違のありますのを霊的に御教示下さい。<br/><br/> あらゆるものは変化するように出来てる。<br/><br/>神様はそのように造ってある。<br/><br/>これでよい。<br/><br/>変化がなくてはいけない。<br/><br/>二十億の人間全部顔が違う。<br/><br/>（S24. 9.13） 074 良姓名、良家相と努力 姓名や家相のよい人と、そういう事は全く知らずに真面目に働いている人とは、どちらが神様の御加護を頂けるものでしょうか。<br/><br/> まじめに働いている人の方が御守護頂く。<br/><br/> いくら家相がよくても、自分だけのもので他の人のために働かぬのでは役に立たぬ。<br/><br/>故に両方良い方がよいが、どちらかというと努力である。<br/><br/> 075 霊と指紋 霊と指紋の関係について御説明下さい。<br/><br/> 霊的には指紋に限らず、人間は全身すべてが特徴のあるもので、指紋も一つ一つ皆それぞれ個性がある。<br/><br/>研究すればいろんな意味があるに違いない。<br/><br/>皆流紋は救世主という説もあったがこれはそうではない。<br/><br/>流れているのは水、纒っているのは火の働きという事は出来る。<br/><br/>拇指も人差指も各々使命が違う。<br/><br/>とにかく霊的に関係のある事は事実である。<br/><br/>要するにこの世に生れたその人の印しである。<br/><br/>ホクロ、疣、耳の形、位置など運命に関係がある。<br/><br/>眉毛と眼の間のホクロは親の財産を潰す。<br/><br/>口辺一寸以内のホクロは食うに困らぬという。<br/><br/>口辺、鼻柱にホクロのある者は必ず陰部にホクロあり、男は女難、女は男難ありとしてある。<br/><br/>（S24.12.28） 076 人相手相 人相、手相と人間の運命と何か関係が御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 今話した通りで、関係がある。<br/><br/>すべて相応の理により決っている。<br/><br/>画相もよく当る。<br/><br/>（S23.12. 1） 077 眉間のほくろ（天庭） 仏像の眉間の「ほくろ」には何か意味があるので御座いましょうか。<br/><br/> 右御教示御願い申し上げます。<br/><br/> 人間の中の一番肝腎なのは天庭で、顔の真中である。<br/><br/>神の霊線はここから通ずる。<br/><br/>それを表わすためである。<br/><br/>（S24. 6.23） 078 額央のホクロ 上額の中央、鼻柱の上部にホクロのある人がありますが、このような人を今日迄見まするに、何か霊的にわけがありそうに思われますが、御伺い申し上げます。<br/><br/> 霊的に訳がある。<br/><br/>白毫―で――。<br/><br/> 前の世で非常に徳を施したとか、神格を得たとか、仏の位になったとかいう事であろう。<br/><br/>（しかし幸福は）ホクロは非常に意味がある。<br/><br/> 目と眉毛の間のホクロは、必ず親の財産を減らすとか、潰すという。<br/><br/> 涙嚢辺―目尻辺のを泣ボクロといい、憂え事が多い。<br/><br/> 口の辺にあるのは、食うに困らぬとか、運がいいとかいう。<br/><br/> 鼻柱などにあるのは、陰部に必ずホクロがある。<br/><br/>女難の相などという。<br/><br/>二号の女などに多い。<br/><br/>これも相当意味があるようである。<br/><br/>（S24. 1.24） 079 ホクロの増大と増加 顔面にあるホクロが自然と多くなって来ます。<br/><br/>浄霊により解消するのでしょうか。<br/><br/>また期間はどの位かかるのでしょうか。<br/><br/> ホクロは大きくなる事はあるが、多くなる事はない。<br/><br/>目の下のホクロは泣ボクロといって良くない。<br/><br/>鼻から下のが可としてある。<br/><br/>口の周りは多い方がよい。<br/><br/>（S *.12.15） 080 ホクロと運勢 ホクロについて世間でいろいろ申しますが、この存在、位置は人間の運勢と関係があるのでしょうか。<br/><br/> 関係は非常にある。<br/><br/>口の廻りは一番いい。<br/><br/>きっと運がいい。<br/><br/>着ボクロもある。<br/><br/> 口辺のホクロ、特に女は運がいい。<br/><br/>首のホクロもいい。<br/><br/> 眉毛と眼の間のホクロは必ず親の財産を減らすか潰す。<br/><br/>（S24. 5.25） 081 ホクロ多い程可なり 「ホクロ」「ソバカス」「クスベ」はどのように違うので御座居ましょうか。<br/><br/>特に眼の下、口のまわり等に「ホクロ」「クスベ」のありますのは、意味があるように申しますが、霊的にいかなる意味があるのでございましょうか。<br/><br/>お伺い申し上げます。<br/><br/> 口辺のホクロは非常に良い。<br/><br/>運がいい。<br/><br/>女でも境遇のいい女など皆ホクロがある。<br/><br/>生活に困ってる女にはホクロがない。<br/><br/> 目の下の涙道は一番わるい。<br/><br/>鼻柱附近のホクロは男難や女難がある。<br/><br/>眉毛と目の間にあるホクロは親の財産を潰す。<br/><br/>目から上のホクロは、宗教的因縁があるという。<br/><br/>ホクロは人間の運命に関係がある。<br/><br/> ソバカスの女は美人が多い。<br/><br/>一種の毒素である。<br/><br/> ホクロは多いほどよい。<br/><br/>腕にホクロがあると、腕を使う仕事をする。<br/><br/>（S24. 5. 2） rattail（注） 〔 妙智の鍵（光明分会８月号） 、昭和24(1949)年8月1日発行〕 082 疣 疣は、画相というのがあって意味がある。<br/><br/>（先天、後天とある）治る疣は、その人の罪もあり、運命的の事もある。<br/><br/>生れつきの疣も決ったものがある。<br/><br/> ほくろも大変（役してる）。<br/><br/>口の端にあるのはきっと運がいい。<br/><br/>頸の周りのを着ボクロという。<br/><br/>これらは運のいいのは事実である。<br/><br/> 前の世に徳を積んだ（しるしである）。<br/><br/>それに善果を与える印ともいうべきである。<br/><br/>（S *. 8. 7） 083 「つむじ」の巻き方 「ツムジ」の右巻と左巻の霊的意味、また運命との関係――。<br/><br/> 運命には関係ないが、霊的には関係がある。<br/><br/>右巻は女、左巻は男であるから、女の分子の多分にあるものは右巻、男の分子の多分にあるものは左巻である。<br/><br/> 前の世の関係で、前の世のそれが、現世に表われる（S24. 7.11） 084 つむじ（明主様御臍と耳） 「つむじ」が一つある人と二つある人とあり、また横の方にある人が御座いますが、人間の性質と特に何か関係が御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> 私もはっきり知らないが、つむじ曲りというから素直じゃない。<br/><br/>臍でも変なのがある。<br/><br/>人間の身体は無意味じゃないから、研究すればきっと何かある。<br/><br/>私は皮肉が好きだが、私の臍はちょっと横にある。<br/><br/>女の美人は臍がよい。<br/><br/>臍に魅力がある。<br/><br/>ホクロ、疣、鼻の形、すべて運命に関係がある。<br/><br/> 私は若い時から、耳がよいと賞められた。<br/><br/>（S23.12. 1） rattail（注） 〔 御垂示（S27年5月1日） 『御垂示録』9号、昭和27(1952)年5月15日発行〕 「つむじが二つあるのは霊的関係がございましょうか」 『無論あるでしょうね。<br/><br/>よくつむじ曲りと言ってね。<br/><br/>やっぱり、頭の一つの中心になっているんでしょうね。<br/><br/>』 「馬や牛は、それによって値段が高くなったりいたします。<br/><br/>二つあるのは、人を構わずに殺すそうでございます」 『不思議ですね。<br/><br/>やっぱり二つあるというのは理由があるんでしょうね。<br/><br/>いずれ、必要ならば分かるでしょうが、大して必要がありそうもないから、気にしないでも良いですね。<br/><br/>それが別に悪いというわけじゃないんだからね。<br/><br/>』 「今までは障りがありましても、これからはお光をいただき心配はいりませんわけで――」 『無論そうです。<br/><br/>霊ですからね。<br/><br/>』 085 つむじの位置 頭の「つむじ」の位置と数は、何か意味が御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 頭の中心は臍と同じような意味である。<br/><br/>臍は絶対的中心でない。<br/><br/>曲っている。<br/><br/>私など一寸位曲っている。<br/><br/>人の真似が嫌いである。<br/><br/>それで医学を発見した。<br/><br/> つむじ曲りなどは、脱線的な所がある。<br/><br/>二つあるのもあるが、一つが本当である。<br/><br/>（S24. 7.21） 086 つむじの複数、二人が一つになる場合あり 曲ったり二つある人がよくある。<br/><br/>人間が生れる場合、滅多にないが二人が一人に生れる事がある。<br/><br/>この時は二つつむじの場合がある。<br/><br/> 非常に仲がよいとか、親子で、特に親しい男女関係で、非常に親しい、一つになりたいと思う時（双方の希望で）一つになる。<br/><br/>（S *. 8. 7） 087 つむじと性格 ぞくにつむじまがりと申しますが、つむじの位置と人間の性質と関係が御座いますでしょうか。<br/><br/> 真中にある方が素直かもしれない。<br/><br/>私は、臍が曲っているが、そんな性質はない。<br/><br/> 不明である。<br/><br/>大した気にする事はない。<br/><br/>（S24. 3. 4） 088 つむじの意義―三人分の頭の働 人間の頭のツムジが二つまたは三つもある人がありますが、霊的に特に意味があるのでしょうか。<br/><br/> ない事もないが、大した意味でもない。<br/><br/>一人で二人も三人もの働きをする訳であるから、三人兄弟として、二人死ぬ時、三人分の頭の働きをするような意味になる。<br/><br/>（S24） 089 つむじ（前世の印） 私は頭の上にツムジが二つあり、右前頭部生際の毛が上外方に流れ、ツムジ様に思われます。<br/><br/>私の長男は、私の入信二年後、生れてすぐ死亡、三年後に生れた次男の頭のツムジと生際が同様です。<br/><br/>また私の姉が嫁入先で、私の入信満七ケ月後生んだ長男もまた同様です。<br/><br/>この三人同様ツムジ型の因縁を御垂示下さい。<br/><br/> 因縁であろうが、知っても仕様がない。<br/><br/>前の世の一つの印しである。<br/><br/> 頭は祖先である。<br/><br/>祖先の生れ更ってくるのであるから、二人分を一人でやるとか、いろいろな意味がある。<br/><br/>（S24. 9. 7） 090 耳と幸福 耳の形状は幸、不幸にも関係するといわれていますが、何か意味がありましょうか。<br/><br/> 無論幸、不幸に関係がある。<br/><br/>耳だけではなく、口でも目でも鼻でもそうである。<br/><br/>耳は特徴があるから一番形が判り易い。<br/><br/>研究すると運命に関係がある。<br/><br/>耳たぼの大きいのは金持になるといわれている。<br/><br/>私は大きいので大いに金持になるといわれたが借金で苦しんだ。<br/><br/>しかし今は公的だが金は入る。<br/><br/>仏像なども輪を垂れているが、耳朶の垂れてるのがいいとみえる。<br/><br/> 091 百握り 私も家内も二人共右手が百握りですが、どう言う宿命がありますか。<br/><br/>お尋ね致します。<br/><br/> 手相学上良い。<br/><br/>（S24） 092 指紋と運勢 指紋と運勢とは関係がありますか。<br/><br/>過日無指紋の人が二名（これは母子）愛媛県下で発見されました。<br/><br/>かような事象はいかなる訳でしょうか。<br/><br/> 指紋と運勢は関係がある。<br/><br/>（指紋のみでなく、人間の身体全部に表われる） （無指紋は河童の生れ更りである）（S24. 6.25） rattail（注） 〔 御開示集（天国之友） 、昭和24(1949)年9月10日発行〕 ――指紋のない人はいかがなものでしょうか。<br/><br/> 『霊的原因です。<br/><br/>河童の生まれ変わりでしょう。<br/><br/>河童には指紋がありません。<br/><br/>河童はよく人間になり、人間も河童になります。<br/><br/>河童の感情は人間そっくりです。<br/><br/>人間に近いのです。<br/><br/>』 093 肩下に一毛生じある夫婦 私も家内も右手の肩より二寸位下った所に、一寸五分位の毛が一本生えており、私のは黒、家内のは白色で霊的に何か関係がありましょうか。<br/><br/> 前の世の紀念が出てるのである。<br/><br/>自惚れるといけないから、前世はこういう者だという事を知らせてあるのかもしれぬ。<br/><br/> 094 左利と性格 生れ付き右ききと左ききと御座いますが、これはその人の性格に関係あるものでしょうか。<br/><br/> 性格とは関係はない。<br/><br/>（S24. 5.23） 095 二重瞼 一重瞼と二重瞼の人がありますが、霊的に関係が御座居ましょうか。<br/><br/>御教を賜りたく御願い申し上げます。<br/><br/> 霊的にはない。<br/><br/> 二重瞼は、皮膚が柔く、伸び易いのではないか。<br/><br/>（S24. 5.22） 096 眉間の青筋 子供の時、眼と眼の間に青筋があると癇癪持と言っておりますが、いかがなものでしょうか。<br/><br/> この通りである。<br/><br/>見ただけでそうである。<br/><br/>普通の人でも癇癪を起すと青筋たてる。<br/><br/>嬉しい時は顔に喜びが溢れる。<br/><br/>本能的のものである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

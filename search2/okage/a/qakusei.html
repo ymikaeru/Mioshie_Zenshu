@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qakusei</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help ―― お か げ 話 ―― 資料検索 ： 悪性腎臓病を全快（治）さして戴いて 『栄光』172号、昭和27(1952)年9月3日発行 『アメリカを救う』昭和28(1953)年1月1日発行 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 岩手県 東光中教会 赤井輝子（33） 昨年（昭和二十六年）のお正月釜石に参りました時、顔がむくみまして腎臓病と名前を付けられました。<br><br>それで二月まで病院通いを致しておりましたが、食事も美味しくほんのちょっと顔が腫れた程度でありました。<br><br>お医者様が「蛋白が沢山尿に出る」と言って心配しました。<br><br>そこで近所の人に聞いて、救世教の花巻支部にお伺い致しましたら「蛋白が多く出るのは結構だ」と阿部（勇）先生に聞かされ、又菊地（雅）様にも「本当にいいんですよ」と言われましたが、医者から見れば反対なので信ずる事が出来ませんでしたが三日通いました。<br><br>ところが「蛋白が非常に多くなった」と医者に言われ、ついに三月入院致しました。<br><br>すると喰べたくてたまらないのに食事を制限されまして流動食のみです。<br><br>牛乳三合に重湯三合と番茶、薬が一日の食事でした。<br><br>果物も甘い物も全然許してくれません。<br><br>毎日毎日蛋白の有無を調べられるので、かくれて食べることも出来ませんでした。<br><br>主人も私もすっかり医者を信用して、医者の言う通りにすれば良くなるとのみ考えてのんびりしていたのです。<br><br>その食餌法を四十日続けましたら、肥っていた私も日増に痩せまして目眩がして一間も歩けなくなりました。<br><br>とても駄目ですので医者に頼んでスープだけを許して頂き、皆さんに笑われる位ガブガブ飲みました。<br><br>すると四月二十二日、「現在の腎臓病の療法は食べさせて治すという事を他の医者から聞いた」と言って食事を許されましたが、その時は既に胃や腸がすっかり弱って少し食べても吐き出す有様です。<br><br>吐くとちょうど汽車に酔った様に頭痛激しく胸はむかつき、熱はあるし、見る見る顔が今までになくむくんで参ります。<br><br>医者は心配になったのでしょう。<br><br>厚生病院長に頼んで診て貰ったら「尿毒症の一歩手前で食べなければ駄目だ」との話でした。<br><br>そうなるとつい医者もあてにならず、やせてふらふらしながら、四月三十日思い切って退院致しました。<br><br>そうしてもまだ医学から抜け切れず、別の医者に診て貰いました。<br><br>気分が良いのですがその頃よりだんだんお腹が大きくなるばかりでした。<br><br>そうして臨月位になり背中の方まで苦しくなり、遂に五月二十五日第一回腹水をとって貰いました。<br><br>とった後は体が軽くてとても気持が良いようですが、とる度毎に熱が出たり寒気がしたりして気分が良くなかったのです。<br><br>腹水も随分溜るものです。<br><br>全然水分をとらないように御飯におかずだけの食事ですが、十日過ぎると一升五合位とれるのです。<br><br>尿量がほとんどないと言ってもいいほどで、三〇〇ＣＣ位で五カ月も続きました。<br><br>どんな薬をのんでも尿は出ませんでした。<br><br>そうして腹水を十五回もとりましたら医者も首をかしげて心配しておられました。<br><br>主人始め子供達まで非常に暗い生活でした。<br><br>今考えるとあれを称して地獄と言うのだと思います。<br><br>なんの薬をのんでも尿量が無いので本当に絶望し、一人蒲団に顔をかくし泣きました。<br><br>全然起きる事も出来ませんでした。<br><br>が幸い主人も理解があり、妹も一生懸命看護してくれましたので、その点幸福で御座いました。<br><br>時々子供に「いつお母さんが治るの」と顔をのぞかれては、ただただ涙が出て返事に困っておりました。<br><br> 忘れる事の出来ない昭和二十六年六月二十八日世界救世教東光中教会花巻支部の菊地雅子様が心配して、わざわざおいで下さいました。<br><br>その時の有難かった事は筆舌に現わす事が出来ません。<br><br>その頃尿量は二五〇ＣＣ位しか出ませんでした。<br><br>腹水もとっておりました。<br><br>先生と相談の上毎日御浄霊に来て下さる事にして下さったそうで、雨の日風の日もいとわず毎日おいで下さいまして、丸三カ月間自分の子供でも病気しているようにいたわって頂いた事は、一生忘れる事は出来ません。<br><br>御浄霊をして頂きますととても気持良く、時には眠る事さえ何度かありました。<br><br>菊地さんは「大丈夫良くして戴けるから」と慰めて下さいまして、八月二十日に阿部先生の特別のお計いで、床の中で教修をして戴き、有難きお守様を拝受さして頂きました。<br><br>それからは神様以外に人間の病を本当に治して下さる方は無いという気持になり、何事も捨てて一心に寝ても起きても「明主様」「大光明如来様」とお念じ申し上げました。<br><br>十月十五日に御霊紙をお受け致しまして一日三回ずつ頂きました。<br><br>ところが不思議な事には十五日に尿量が四三〇ＣＣに増し、十六日に五〇〇ＣＣ、十七日に八〇〇ＣＣ、十八日に八五〇ＣＣ、十九日に九五〇ＣＣ、二十日には一､二〇〇ＣＣと日増に多くなりました。<br><br>その時は有難さ嬉しさでこみ上げて来る涙をどうする事も出来ませんでした。<br><br>神様有難う御座いますと心の中で申し上げるだけでした。<br><br>早速菊地さん、阿部先生（同居）に妹を走らせ、普通尿量になった事をお知らせ致しました。<br><br>主人始め妹、子供達も大喜びで「お母さん、治った治った」の連発でした。<br><br>お蔭様で最近は食事も進み気分も良いので妹にも郷里福島に帰ってもらい、後は主人に手伝って頂きまして、なんとかお勝手仕事までさせて頂ける程良くして頂きました。<br><br>明主様本当に有難う御座いました。<br><br>一日一日お腹も小さくなり、足のむくみもとれたのでしたが、ちょっと風邪を引いて又尿量が少くなり、足もむくみ、妊娠七カ月位の大きさになりましたが「御浄霊さえ怠らなければ出るようになる」と先生が申され、光明を抱いて御浄霊戴き、又自分でも一日中御浄霊致しておりましたら、二、三日で尿量が増して参りました。<br><br>全く明主様の御力の偉大さをわからずにはおられません。<br><br>今日は三〇〇〇ＣＣもあり、お腹も小さくなってしまいました。<br><br>頭も今までになく清々しい感じが致します。<br><br>私は今何事をするにも「明主様」「大光明如来様」が脳裡から離れません。<br><br>お蔭様にて日増に全快に近づかして頂いております事を、心から御礼申し上げます。<br><br> 嬉しさの余りつたないペンを取りまして、これで全国の方々のどなたか一人にでもわかって頂き、お救い出来ればと思い、御礼を兼ねて書かさして頂きました。<br><br> 明主様誠に有難う御座いました。<br><br> （昭和二十七年七月二十五日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Cura Completa de uma Grave Enfermidade Renal</h2>
 <p><strong>Publicado em: “Glória” nº 172, de 3 de setembro de 1952; “Salvar a América”, de 1 de janeiro de 1953; “Coletânea de Milagres da Sekai Kyuseikyo”, de 10 de setembro de 1953.</strong></p>
@@ -108,5 +263,48 @@ function toggleLang(lang) {
 <p>Movida por imensa alegria, tomei desta humilde pena para, a título de agradecimento, relatar minha experiência, na esperança de que ela possa levar ao menos uma pessoa deste país a compreender e encontrar a salvação.</p>
 <p>Meishu-Sama, muito, muito obrigada.</p>
 <p>(25 de julho de 1952)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help ―― お か げ 話 ―― 資料検索 ： 悪性腎臓病を全快（治）さして戴いて 『栄光』172号、昭和27(1952)年9月3日発行 『アメリカを救う』昭和28(1953)年1月1日発行 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 岩手県 東光中教会 赤井輝子（33） 昨年（昭和二十六年）のお正月釜石に参りました時、顔がむくみまして腎臓病と名前を付けられました。<br/><br/>それで二月まで病院通いを致しておりましたが、食事も美味しくほんのちょっと顔が腫れた程度でありました。<br/><br/>お医者様が「蛋白が沢山尿に出る」と言って心配しました。<br/><br/>そこで近所の人に聞いて、救世教の花巻支部にお伺い致しましたら「蛋白が多く出るのは結構だ」と阿部（勇）先生に聞かされ、又菊地（雅）様にも「本当にいいんですよ」と言われましたが、医者から見れば反対なので信ずる事が出来ませんでしたが三日通いました。<br/><br/>ところが「蛋白が非常に多くなった」と医者に言われ、ついに三月入院致しました。<br/><br/>すると喰べたくてたまらないのに食事を制限されまして流動食のみです。<br/><br/>牛乳三合に重湯三合と番茶、薬が一日の食事でした。<br/><br/>果物も甘い物も全然許してくれません。<br/><br/>毎日毎日蛋白の有無を調べられるので、かくれて食べることも出来ませんでした。<br/><br/>主人も私もすっかり医者を信用して、医者の言う通りにすれば良くなるとのみ考えてのんびりしていたのです。<br/><br/>その食餌法を四十日続けましたら、肥っていた私も日増に痩せまして目眩がして一間も歩けなくなりました。<br/><br/>とても駄目ですので医者に頼んでスープだけを許して頂き、皆さんに笑われる位ガブガブ飲みました。<br/><br/>すると四月二十二日、「現在の腎臓病の療法は食べさせて治すという事を他の医者から聞いた」と言って食事を許されましたが、その時は既に胃や腸がすっかり弱って少し食べても吐き出す有様です。<br/><br/>吐くとちょうど汽車に酔った様に頭痛激しく胸はむかつき、熱はあるし、見る見る顔が今までになくむくんで参ります。<br/><br/>医者は心配になったのでしょう。<br/><br/>厚生病院長に頼んで診て貰ったら「尿毒症の一歩手前で食べなければ駄目だ」との話でした。<br/><br/>そうなるとつい医者もあてにならず、やせてふらふらしながら、四月三十日思い切って退院致しました。<br/><br/>そうしてもまだ医学から抜け切れず、別の医者に診て貰いました。<br/><br/>気分が良いのですがその頃よりだんだんお腹が大きくなるばかりでした。<br/><br/>そうして臨月位になり背中の方まで苦しくなり、遂に五月二十五日第一回腹水をとって貰いました。<br/><br/>とった後は体が軽くてとても気持が良いようですが、とる度毎に熱が出たり寒気がしたりして気分が良くなかったのです。<br/><br/>腹水も随分溜るものです。<br/><br/>全然水分をとらないように御飯におかずだけの食事ですが、十日過ぎると一升五合位とれるのです。<br/><br/>尿量がほとんどないと言ってもいいほどで、三〇〇ＣＣ位で五カ月も続きました。<br/><br/>どんな薬をのんでも尿は出ませんでした。<br/><br/>そうして腹水を十五回もとりましたら医者も首をかしげて心配しておられました。<br/><br/>主人始め子供達まで非常に暗い生活でした。<br/><br/>今考えるとあれを称して地獄と言うのだと思います。<br/><br/>なんの薬をのんでも尿量が無いので本当に絶望し、一人蒲団に顔をかくし泣きました。<br/><br/>全然起きる事も出来ませんでした。<br/><br/>が幸い主人も理解があり、妹も一生懸命看護してくれましたので、その点幸福で御座いました。<br/><br/>時々子供に「いつお母さんが治るの」と顔をのぞかれては、ただただ涙が出て返事に困っておりました。<br/><br/> 忘れる事の出来ない昭和二十六年六月二十八日世界救世教東光中教会花巻支部の菊地雅子様が心配して、わざわざおいで下さいました。<br/><br/>その時の有難かった事は筆舌に現わす事が出来ません。<br/><br/>その頃尿量は二五〇ＣＣ位しか出ませんでした。<br/><br/>腹水もとっておりました。<br/><br/>先生と相談の上毎日御浄霊に来て下さる事にして下さったそうで、雨の日風の日もいとわず毎日おいで下さいまして、丸三カ月間自分の子供でも病気しているようにいたわって頂いた事は、一生忘れる事は出来ません。<br/><br/>御浄霊をして頂きますととても気持良く、時には眠る事さえ何度かありました。<br/><br/>菊地さんは「大丈夫良くして戴けるから」と慰めて下さいまして、八月二十日に阿部先生の特別のお計いで、床の中で教修をして戴き、有難きお守様を拝受さして頂きました。<br/><br/>それからは神様以外に人間の病を本当に治して下さる方は無いという気持になり、何事も捨てて一心に寝ても起きても「明主様」「大光明如来様」とお念じ申し上げました。<br/><br/>十月十五日に御霊紙をお受け致しまして一日三回ずつ頂きました。<br/><br/>ところが不思議な事には十五日に尿量が四三〇ＣＣに増し、十六日に五〇〇ＣＣ、十七日に八〇〇ＣＣ、十八日に八五〇ＣＣ、十九日に九五〇ＣＣ、二十日には一､二〇〇ＣＣと日増に多くなりました。<br/><br/>その時は有難さ嬉しさでこみ上げて来る涙をどうする事も出来ませんでした。<br/><br/>神様有難う御座いますと心の中で申し上げるだけでした。<br/><br/>早速菊地さん、阿部先生（同居）に妹を走らせ、普通尿量になった事をお知らせ致しました。<br/><br/>主人始め妹、子供達も大喜びで「お母さん、治った治った」の連発でした。<br/><br/>お蔭様で最近は食事も進み気分も良いので妹にも郷里福島に帰ってもらい、後は主人に手伝って頂きまして、なんとかお勝手仕事までさせて頂ける程良くして頂きました。<br/><br/>明主様本当に有難う御座いました。<br/><br/>一日一日お腹も小さくなり、足のむくみもとれたのでしたが、ちょっと風邪を引いて又尿量が少くなり、足もむくみ、妊娠七カ月位の大きさになりましたが「御浄霊さえ怠らなければ出るようになる」と先生が申され、光明を抱いて御浄霊戴き、又自分でも一日中御浄霊致しておりましたら、二、三日で尿量が増して参りました。<br/><br/>全く明主様の御力の偉大さをわからずにはおられません。<br/><br/>今日は三〇〇〇ＣＣもあり、お腹も小さくなってしまいました。<br/><br/>頭も今までになく清々しい感じが致します。<br/><br/>私は今何事をするにも「明主様」「大光明如来様」が脳裡から離れません。<br/><br/>お蔭様にて日増に全快に近づかして頂いております事を、心から御礼申し上げます。<br/><br/> 嬉しさの余りつたないペンを取りまして、これで全国の方々のどなたか一人にでもわかって頂き、お救い出来ればと思い、御礼を兼ねて書かさして頂きました。<br/><br/> 明主様誠に有難う御座いました。<br/><br/> （昭和二十七年七月二十五日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

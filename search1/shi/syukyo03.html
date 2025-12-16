@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>syukyo03</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教 教育 政治 『光』24号、昭和24(1949)年8月27日発行 今世の中は誰が見ても、実に社会悪が充満しているといえよう、あちらこちらに忌わしい事が次々起り、人心不安はその極に達している、一体こんなになった世相は、その原因はどこにあるかという事を深く考えてみなくてはなるまい、そうしてその責任は一体どこにあるであろうかという事であるが、いうまでもなく、宗教、教育、政治の三者が負うべきではなかろうか、とすれば、この三者のどこかに一大誤謬が伏在しているかを知る事である、その誤謬をはっきり知る事こそ問題解決の鍵であらねばならない、今それらを、俎上（そじょう）にのせてみよう、まず宗教であるが、キリスト教は別とし、他の既成宗教は時代に懸け離れ過ぎている、仏教にしても、二千六百年以前印度（インド）の民衆を対象として生れたものである以上、いかに釈尊が偉人であっても、その説くところが、深遠であっても、最早今日の時代に間に合うはずがない、もちろん、現代日本の社会においてをやである、その時代の印度人が、真覚を得るため、何万巻という経文に浸り日々、森林の冥想などに耽（ふ）けるという事は、生活のため身動きも出来ない現代人として無理である、既成宗教が今日、墓守以外手も足も出ないという現状は、全く当然の結果と言えよう、彼らが法灯（ほうとう）を維持するだけに汲々（きゅうきゅう）たる有様は、ただ気の毒というより外に言葉はない、彼らが、社会事業によって、存在の唯一の手段とするに至っては、最早宗教の枠から逸脱していると言っても否定は出来まい。<br><br> 次に教育であるが、これがまた、軌道から外れている事はおびただしい、教育の真目的は、立派な人間を作る事である、もちろん、立派な人間とは正義を信条とし、社会の福祉を増進するに努め、文化向上に貢献する人間を作る事こそ、真の教育であるにかかわらず、最高学府を出たものさえ犯罪を犯し社会に害毒を流したりする現状であってみれば、何とかせざるを得ないであろう、しからばこの教育の過誤はどこにあるかといえば全く唯物主義偏重にある事は、吾らが常に口を酸っぱくしているところで、どうしても唯心主義と相共に進まなくては教育の真目的を達成する事は思いもよらないであろう。<br><br> とはいうものの、長い間の誤謬である以上、今直ぐに改革する事は大なる困難が伴うのは吾らもよく知っている、唯心主義とは、霊を認めさせる事で、それは神を認めさせるという事であって、これなくして唯心主義は成立つ訳がない、もちろん、今日までも、それに対し、宗教をもってしているが、見るべき効果はないというのは力ある宗教がなかったからである、そこへ本教が現れたのであって、本教こそは唯心主義を認識させ、科学と宗教を並行させ得るので、それによってこそ、恒久的平和世界が生れ、ここに人類は天国的生活に入る事が可能となるのである、いか程文化が進歩しても、幸福がそれに伴わないとすれば、唯物文化にのみ幻惑されていたその罪によるので、一日も早く人類はここに気付かなければならないのである。<br><br> 次に、政治であるが、これはまたあまりにひどすぎる、ここでは日本のみを対象として論じてみるが、占領治下とは言いながら、あまりに貧困である、政治の方も唯物的政治であるから内容は更にない、その日暮し的で前途の見透しなどつく政治家はほとんどないと言ってもよかろう、これらの原因こそ、魂が曇っているからで、政治家といえども信仰を基礎としなければ到底、良い政治は出来るはずはないのである、といっても、既成宗教ではそれだけの力はないから、どうしても新しい、そうして、力ある新宗教の出るより外に解決の道はないであろう。<br><br> (注) 俎上（そじょう）にのせる、まな板の上に載せる意味から、批評の対象とする事。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Origem da Decadência Social e sua Solução</h2>
 <p>Ao observarmos o mundo atual, é inegável que ele se encontra repleto de males sociais. Incidentes abomináveis eclodem sucessivamente em todos os lugares, e a intranquilidade no coração das pessoas atingiu seu ápice. Diante desse cenário, torna-se imperativo refletir profundamente sobre a origem de tal estado de coisas. Ademais, ao indagarmos sobre a quem recai a responsabilidade, é evidente que ela deve ser atribuída ao tripé formado pela religião, pela educação e pela política. Sendo assim, é preciso compreender que um erro fundamental subjaz em um desses três pilares. Identificar com clareza esse equívoco é, indubitavelmente, a chave para a solução do problema. Proponho-me, pois, a analisar cada um desses campos.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Passemos à educação, que também se desviou drasticamente de seu rumo. O verdadeiro propósito da educação é formar seres humanos íntegros. Indivíduos que, tendo a justiça como seu princípio, se esforcem para promover o bem-estar social e contribuam para a elevação da cultura. Contudo, a realidade atual nos mostra que até mesmo egressos das mais altas instituições de ensino cometem crimes e disseminam males pela sociedade, o que nos compele a tomar uma atitude. Onde reside, então, o erro da educação? Como temos afirmado incansavelmente, ele se encontra na sua ênfase excessiva no materialismo. É impensável que o verdadeiro objetivo da educação seja alcançado sem que ela avance lado a lado com o espiritualismo.</p>
 <p>Todavia, por se tratar de um equívoco de longa data, estamos cientes de que reformá-lo de imediato envolve enormes dificuldades. O espiritualismo consiste em fazer o ser humano reconhecer a existência do espírito e, consequentemente, reconhecer a existência de Deus. Sem esse fundamento, o espiritualismo simplesmente não se sustenta. Até hoje, tentou-se promover essa visão por meio da religião, mas sem resultados notáveis, pois não havia uma religião dotada do poder necessário para tal. Foi nesse contexto que a nossa Igreja surgiu. A nossa Igreja é capaz de levar ao reconhecimento do espiritualismo e de fazer com que a ciência e a religião caminhem em paralelo. Somente por meio dessa união é que um mundo de paz duradoura poderá nascer, permitindo que a humanidade adentre uma vida paradisíaca. Se, apesar de todo o progresso cultural, a felicidade não o acompanha, a causa reside no pecado de a humanidade ter se deixado iludir unicamente pela cultura materialista. É preciso que todos despertem para esta verdade o quanto antes.</p>
 <p>Por fim, abordemos a política, cujo estado é deveras lastimável. Analisando especificamente o caso do Japão, ainda que sob o regime de ocupação, a miséria é excessiva. A política, sendo igualmente materialista, carece de qualquer conteúdo substancial. É uma política imediatista, e pode-se afirmar que quase não existem estadistas com uma visão clara do porvir. A causa de tudo isso reside no fato de a alma dos políticos estar obscurecida por máculas espirituais. Por conseguinte, mesmo os políticos, se não tiverem a fé como alicerce, jamais conseguirão realizar uma boa administração. Contudo, as religiões tradicionais não possuem o poder para tanto. Desse modo, o único caminho para a solução é o surgimento de uma nova e poderosa religião.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教 教育 政治 『光』24号、昭和24(1949)年8月27日発行 今世の中は誰が見ても、実に社会悪が充満しているといえよう、あちらこちらに忌わしい事が次々起り、人心不安はその極に達している、一体こんなになった世相は、その原因はどこにあるかという事を深く考えてみなくてはなるまい、そうしてその責任は一体どこにあるであろうかという事であるが、いうまでもなく、宗教、教育、政治の三者が負うべきではなかろうか、とすれば、この三者のどこかに一大誤謬が伏在しているかを知る事である、その誤謬をはっきり知る事こそ問題解決の鍵であらねばならない、今それらを、俎上（そじょう）にのせてみよう、まず宗教であるが、キリスト教は別とし、他の既成宗教は時代に懸け離れ過ぎている、仏教にしても、二千六百年以前印度（インド）の民衆を対象として生れたものである以上、いかに釈尊が偉人であっても、その説くところが、深遠であっても、最早今日の時代に間に合うはずがない、もちろん、現代日本の社会においてをやである、その時代の印度人が、真覚を得るため、何万巻という経文に浸り日々、森林の冥想などに耽（ふ）けるという事は、生活のため身動きも出来ない現代人として無理である、既成宗教が今日、墓守以外手も足も出ないという現状は、全く当然の結果と言えよう、彼らが法灯（ほうとう）を維持するだけに汲々（きゅうきゅう）たる有様は、ただ気の毒というより外に言葉はない、彼らが、社会事業によって、存在の唯一の手段とするに至っては、最早宗教の枠から逸脱していると言っても否定は出来まい。<br/><br/> 次に教育であるが、これがまた、軌道から外れている事はおびただしい、教育の真目的は、立派な人間を作る事である、もちろん、立派な人間とは正義を信条とし、社会の福祉を増進するに努め、文化向上に貢献する人間を作る事こそ、真の教育であるにかかわらず、最高学府を出たものさえ犯罪を犯し社会に害毒を流したりする現状であってみれば、何とかせざるを得ないであろう、しからばこの教育の過誤はどこにあるかといえば全く唯物主義偏重にある事は、吾らが常に口を酸っぱくしているところで、どうしても唯心主義と相共に進まなくては教育の真目的を達成する事は思いもよらないであろう。<br/><br/> とはいうものの、長い間の誤謬である以上、今直ぐに改革する事は大なる困難が伴うのは吾らもよく知っている、唯心主義とは、霊を認めさせる事で、それは神を認めさせるという事であって、これなくして唯心主義は成立つ訳がない、もちろん、今日までも、それに対し、宗教をもってしているが、見るべき効果はないというのは力ある宗教がなかったからである、そこへ本教が現れたのであって、本教こそは唯心主義を認識させ、科学と宗教を並行させ得るので、それによってこそ、恒久的平和世界が生れ、ここに人類は天国的生活に入る事が可能となるのである、いか程文化が進歩しても、幸福がそれに伴わないとすれば、唯物文化にのみ幻惑されていたその罪によるので、一日も早く人類はここに気付かなければならないのである。<br/><br/> 次に、政治であるが、これはまたあまりにひどすぎる、ここでは日本のみを対象として論じてみるが、占領治下とは言いながら、あまりに貧困である、政治の方も唯物的政治であるから内容は更にない、その日暮し的で前途の見透しなどつく政治家はほとんどないと言ってもよかろう、これらの原因こそ、魂が曇っているからで、政治家といえども信仰を基礎としなければ到底、良い政治は出来るはずはないのである、といっても、既成宗教ではそれだけの力はないから、どうしても新しい、そうして、力ある新宗教の出るより外に解決の道はないであろう。<br/><br/> (注) 俎上（そじょう）にのせる、まな板の上に載せる意味から、批評の対象とする事。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

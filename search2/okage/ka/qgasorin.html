@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qgasorin</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： ガソリンタンク爆発寸前を救わる 『栄光』200号、昭和28(1953)年3月18日発行 兵庫県 実生中教会 中網良介（56） 私達夫婦共、昭和二十七年一月入信致し、昨年九月には御神体も御奉斎致し、一切が救われた喜びと共に、力強く頼るものを身につけたような光明生活を、明主様の御守護の下に、運送店を業としているものでございます。<br><br> この度大変な御守護をかたじけのう致しました。<br><br>曇り多き私共の大浄化を、奇蹟の感激と共に過させて戴きまして有難い事でございます。<br><br> 事件は昨年十二月十日午後九時十五分頃、一日の仕事を終り、御礼のため御神前で善言讃詞を奉唱中、火事だと言う声で驚き外へ出て見ると、私方の運送用トラックのエンジン冷却防止のためかけてあったシートの下より煙が出ておりますので、急いでシートを取り外しますと一面煙に覆われており、発火場所をきわめるべく運転台を開けると同時に火が吹き始め、一瞬運転台が焔に埋もれて仕舞いました。<br><br>愕然と致しましたが、その時同じ信者の窪田氏外数名の近隣の方々が駈けつけて下さいましたので力を得、皆様のバケツリレーで消火に努め、私は明主様の御守護を念じつつ御浄霊を、それこそ夢中で続けました。<br><br>その間運転台横下にあるガソリンタンク（二十ガロン五斗強入）に引火しないか、爆発しないかと、気が気でありませんでした。<br><br>タンクの上に一枚の板が乗せてありましたが、その周囲まで火がついておりましたが、その爆発寸前を御守護により約十五分位で鎮火する事が出来ましたが、その時は既に腰掛は灰塵と化し、計器類は赤く焼け爛れておりました。<br><br>考えて見ますと、発火した自動車は翌朝京都へ運送すべくコールタール塗りたてのドラム缶が満載されてあり、もしタンクに引火爆発すれば導火物ばかりのため燃え放題で、私外数名の命とまでは言わなくても大火傷は免れ得べくもなく、又並んでいるトラック二台リヤカー一台及び一米と離れておらぬ自宅までも寸時にして廃墟と化し、年末を路頭に迷ったであろう事を思うと、よくもあの火がタンクに引火爆発しなかったものだ、御浄霊をしなかったならば、この奇蹟は起り得なかったんだと、明主様への感謝の涙をどうする事も出来ませんでした。<br><br>窪田さんが「おっさんよかったなあ」と共に手を取り合って明主様有難うございましたと御礼申し上げると共に安堵した気持を筆舌に現わせないのが残念でございます。<br><br>このような被災の後に、ああよかったなあと、手を取り合って、大難を小難に振り替えて浄化して下さった事を喜び合える気持は、明主様を信ずる者のみの気持ではないでしょうか。<br><br>こんな時無神論者にああ良かったなあなどと言えば、一喝されるに決っています。<br><br> 火が消えると同時に消防自動車が四台駈けつけて来て、早速原因調査を始めましたが、消防手の方々が皆唖然として、「これは不思議だ、これだけ運転台が燃えてるのにタンクは勿論荷物に火がつかなかったのは実に不思議だ」と驚嘆しておりました。<br><br> 翌日専属の修理工場に相談致しますと、修理費十一万円と日数二週間と言われ、金も困るが、この年末二週間も遊ばす事は非常な打撃で困却しておりましたが、ふと車の購入先のＴ自動車会社へ代りの車を借りに行ったらと御念じしつつ御願いに行きますと、車を貸す事は困るが、会社の専属修理工場を紹介しようとて、そちらへ廻ると、「日数は三日位で、運転台は、ちょっと古いが二万八千円位でしてあげよう」と言われ、私は二度吃驚、大火寸前を救われたばかりか、修理までに御守護戴けるとはと只々感泣の外はありませんでした。<br><br> 明主様有難うございます。<br><br>この上は私の出来る限りの御用を戴き、御高恩の万分の一に御酬いさせて戴く覚悟でございます。<br><br> （窪田氏談） 私は出火の瞬間、尿意を覚え、用便中に中網家の出火を発見（信者の家の出火を、信者の私が発見し得た事も御守護と存じます）火事だ！ 火事だ！ と連呼しつつ現場に駈けつけたのですが、あの際寸分の差、いや寸秒の差でガソリンタンクが爆発していたかも知れませぬ。<br><br>助かる助からぬは全く一厘の差です。<br><br>全く僅か九分九厘の最後の一厘のところで助かるものだ、信仰も中々このところまで、一厘のところまでは凡夫の事ゆえ分り難い事だと思いますが、どこまでも明主様に御縋り申し上げ、本教の御力こそ絶対力だとの信念を厚くし、最後の最後まで信念を固くするより他に救われる道はないと痛感致しました。<br><br> どこまでも明主様の御力、御浄霊の御力に御頼り申し上げます。<br><br> 明主様有難うございました。<br><br> （昭和二十八年一月二十七日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Salvo da iminente explosão do tanque de gasolina</h2>
 <p>Revista Glória, nº 200, 18 de março de 1953</p>
@@ -111,5 +266,48 @@ No exato instante em que o incêndio começou, senti uma súbita necessidade de 
 <p>Confio inteiramente no poder de Meishu-Sama e na força do Johrei.
 Muito obrigado, Meishu-Sama.</p>
 <p>(27 de janeiro de 1953)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： ガソリンタンク爆発寸前を救わる 『栄光』200号、昭和28(1953)年3月18日発行 兵庫県 実生中教会 中網良介（56） 私達夫婦共、昭和二十七年一月入信致し、昨年九月には御神体も御奉斎致し、一切が救われた喜びと共に、力強く頼るものを身につけたような光明生活を、明主様の御守護の下に、運送店を業としているものでございます。<br/><br/> この度大変な御守護をかたじけのう致しました。<br/><br/>曇り多き私共の大浄化を、奇蹟の感激と共に過させて戴きまして有難い事でございます。<br/><br/> 事件は昨年十二月十日午後九時十五分頃、一日の仕事を終り、御礼のため御神前で善言讃詞を奉唱中、火事だと言う声で驚き外へ出て見ると、私方の運送用トラックのエンジン冷却防止のためかけてあったシートの下より煙が出ておりますので、急いでシートを取り外しますと一面煙に覆われており、発火場所をきわめるべく運転台を開けると同時に火が吹き始め、一瞬運転台が焔に埋もれて仕舞いました。<br/><br/>愕然と致しましたが、その時同じ信者の窪田氏外数名の近隣の方々が駈けつけて下さいましたので力を得、皆様のバケツリレーで消火に努め、私は明主様の御守護を念じつつ御浄霊を、それこそ夢中で続けました。<br/><br/>その間運転台横下にあるガソリンタンク（二十ガロン五斗強入）に引火しないか、爆発しないかと、気が気でありませんでした。<br/><br/>タンクの上に一枚の板が乗せてありましたが、その周囲まで火がついておりましたが、その爆発寸前を御守護により約十五分位で鎮火する事が出来ましたが、その時は既に腰掛は灰塵と化し、計器類は赤く焼け爛れておりました。<br/><br/>考えて見ますと、発火した自動車は翌朝京都へ運送すべくコールタール塗りたてのドラム缶が満載されてあり、もしタンクに引火爆発すれば導火物ばかりのため燃え放題で、私外数名の命とまでは言わなくても大火傷は免れ得べくもなく、又並んでいるトラック二台リヤカー一台及び一米と離れておらぬ自宅までも寸時にして廃墟と化し、年末を路頭に迷ったであろう事を思うと、よくもあの火がタンクに引火爆発しなかったものだ、御浄霊をしなかったならば、この奇蹟は起り得なかったんだと、明主様への感謝の涙をどうする事も出来ませんでした。<br/><br/>窪田さんが「おっさんよかったなあ」と共に手を取り合って明主様有難うございましたと御礼申し上げると共に安堵した気持を筆舌に現わせないのが残念でございます。<br/><br/>このような被災の後に、ああよかったなあと、手を取り合って、大難を小難に振り替えて浄化して下さった事を喜び合える気持は、明主様を信ずる者のみの気持ではないでしょうか。<br/><br/>こんな時無神論者にああ良かったなあなどと言えば、一喝されるに決っています。<br/><br/> 火が消えると同時に消防自動車が四台駈けつけて来て、早速原因調査を始めましたが、消防手の方々が皆唖然として、「これは不思議だ、これだけ運転台が燃えてるのにタンクは勿論荷物に火がつかなかったのは実に不思議だ」と驚嘆しておりました。<br/><br/> 翌日専属の修理工場に相談致しますと、修理費十一万円と日数二週間と言われ、金も困るが、この年末二週間も遊ばす事は非常な打撃で困却しておりましたが、ふと車の購入先のＴ自動車会社へ代りの車を借りに行ったらと御念じしつつ御願いに行きますと、車を貸す事は困るが、会社の専属修理工場を紹介しようとて、そちらへ廻ると、「日数は三日位で、運転台は、ちょっと古いが二万八千円位でしてあげよう」と言われ、私は二度吃驚、大火寸前を救われたばかりか、修理までに御守護戴けるとはと只々感泣の外はありませんでした。<br/><br/> 明主様有難うございます。<br/><br/>この上は私の出来る限りの御用を戴き、御高恩の万分の一に御酬いさせて戴く覚悟でございます。<br/><br/> （窪田氏談） 私は出火の瞬間、尿意を覚え、用便中に中網家の出火を発見（信者の家の出火を、信者の私が発見し得た事も御守護と存じます）火事だ！ 火事だ！ と連呼しつつ現場に駈けつけたのですが、あの際寸分の差、いや寸秒の差でガソリンタンクが爆発していたかも知れませぬ。<br/><br/>助かる助からぬは全く一厘の差です。<br/><br/>全く僅か九分九厘の最後の一厘のところで助かるものだ、信仰も中々このところまで、一厘のところまでは凡夫の事ゆえ分り難い事だと思いますが、どこまでも明主様に御縋り申し上げ、本教の御力こそ絶対力だとの信念を厚くし、最後の最後まで信念を固くするより他に救われる道はないと痛感致しました。<br/><br/> どこまでも明主様の御力、御浄霊の御力に御頼り申し上げます。<br/><br/> 明主様有難うございました。<br/><br/> （昭和二十八年一月二十七日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

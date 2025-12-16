@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qgenshi</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 原子放射能による火傷御浄霊によって癒ゆ 『栄光』155号、昭和27(1952)年5月7日発行 佐賀県 光宝大教会 樋渡善右エ門（46） 明主様、申しおくれまして誠に申しわけございません。<br><br>原子爆弾罹災者と致し拙ない筆ながら、謹んで御奉告御礼申し上げさして頂きます。<br><br>御許し下さいませ。<br><br> 私は去る昭和二十年六月十六日、臨時召集により元長崎要塞司令部要員として入隊致したものでございます。<br><br>三週間の基本訓練も無事に過ぎ、七月九日農耕隊として戦友六名と共に、稲佐山開墾地に派遣させられ吾々五名のものは、長崎市を越えて旧砲台の後の畑（原子爆弾破裂中心地より七十米ないし百米離れた地点。<br><br>これは後で知ることが出来ました）の作業に行き一生懸命働き、十時三十分の休憩時、木蔭に腰打ち下し、上衣も脱ぎ捨て、裸で休んでおりましたが、突然敵の飛行機の爆音がして来ますので変だなあと思って、立とうとした瞬間（十時五十五分）シュウシュウと言う奇音と共にそら豆位の黄白い火が夕立雨の降るごとく浴びせられ、その場に打倒され気絶致しました。<br><br>暫くして正気付いて防空壕に這い寄り、戦友と互に見合せると四名の者は、顔から腕、胸、腹、背中と、皮膚がベロリと剥げ嫌な嫌な臭気が鼻をつくのです。<br><br>一人の戦友は無事でありました。<br><br>「これ位なら一週間もすれば治るぞ」と互にはげまし合いながら、歯を食いしばって頑張りました。<br><br> 傷は段々痛み、その苦痛は筆舌には尽くされませんでした。<br><br>「万難を排しても日の暮れない内に宿舎に帰れ」との班長の命令の下に、火の気の少い所をあちらに廻り、こちらに折れて、途中散乱した死体を踏まんばかりに稲佐山に急ぎました。<br><br>やっと宿舎に着いたのが七時半でしたが、この時は相当の熱が出て、全然食事は摂れません。<br><br>段々寒気がして傷はヒリヒリ痛み、外は市中の火事で真赤になっています。<br><br>夜中十二時頃壕の中で軍医が手当にかかられましたが、班長一人分で薬は無くなり、私達三人はそのままで夜明けを待って病院へ行きましたが、段々体も疲れ、歩行も困難でありました。<br><br> 待ちに待って午後二時頃治療して貰い、司令部に帰り、それより医務室にて毎日治療を受けましたが熱は下らず咽喉が痛み、両手はかなわず食事もお粥を戦友に食べさして貰い、空襲時の待避には心身共に悩まされました。<br><br>又治療前の包帯解きは生皮を剥がれる思いで、今当時を偲ぶにつけ、ぞっとする程であります。<br><br>八月十六日の治療時に軍医殿より「もうここには薬が無いから病院へ入院さしてやる」と午後入院致しました。<br><br>しかしここでは一回の診察をして貰うでなく、ただ三回の食事を与えて貰うのみでありました。<br><br>司令部では少しは軽くなっていたようでしたが、又痛み出しますのでした。<br><br>たまり兼ねて包帯をはずしてしまい、不自由な身で水を汲んで膿を洗い手拭で冷しながら、三日間過しました。<br><br>八月十九日午前二時「これから佐賀へ転送だ。<br><br>私物を持って下へ下りよ。<br><br>自動車は待っているから急げ」との命令によって長崎駅まで送られました。<br><br>当日午後七時佐賀陸軍病院に入院致し、三日後初めて鉛筆を執る事が出来、又両手で食事が出来るようになった時は嬉しく感じました。<br><br>治療としては、白い膏薬をつけて貰うのでありました。<br><br>新聞紙上で原子爆弾の威力、猛毒等次々の発表を見て相当の毒素を吸収している事も心配しておりました。<br><br>八月二十九日診察の結果、温泉療養させられました。<br><br>湯屋へ行って初めて鏡に向い自分の体の痩せ方に驚きました。<br><br>毎日午前と午後の二回入湯し、段々快方に向うようでありましたが、どうしても頭が重く、起きる時等急に起きて立てば倒れる事度々でした。<br><br>又人は下痢の多かったようでありましたが、自分は一週間も便秘で困りました。<br><br>三週間にして治癒退院を命ぜられ、帰宅致しましたが、体の衰弱につけ込んでか神経痛が起り、又寒さに向うにつけ傷痕が痛み、やれ注射、鍼灸と長らく通い、又動物の肝臓が白血球を増すに良いという事で、努めて食べましたが、中々なおりません。<br><br>月日は流れて翌年昭和二十一年四、五月ともなれば痕跡は痒くて、晩等血の出るようにかいているのです。<br><br>ある日脇田の東島さんから御道の事を教えられましたが、今まで仏教信念と医学を信じていた私には、どうしても信じきれません。<br><br>たまたま妻もリウマチで悩まされ、鍼灸より帰り道友人より御道の御話を聞いて帰って来ましたので、相談の結果教会に御参りするように御導き頂き、初めに妻が御参り致し色々有難い光明如来様の御話を聞いて来て、御取次を致しました。<br><br>一週間程御浄霊頂く内に段々軽くなったと言い、又木原先生御出張の日取が決まり、このよい機会に教修をと犬塚先生に勧められ、早速教修を御願い致しました。<br><br>段々妻の病気は軽くなりますので、私も後れながら御参り致し、御話を聞かして頂き、大体お道の事がわからして頂きましたが、間もなく農繁期になり、我慢しながら仕事に励みました。<br><br>ちょうど田植の最後の日になり、突然激しい頭痛が起り、仕事に堪えきれない程でありました。<br><br> 翌日は何も彼も打ち捨てて教会に御参り致し、御浄霊を頂きましたら、少し軽くなりましたが、家へ帰ると又痛むのです。<br><br>病気は浄化作用であることを分らして頂き、少々の苦痛は辛抱出来るようになり、教修まで御願い申して入信させて戴きました。<br><br>教修の時木原先生より色々と有難い御話を拝聴し、今までの事が恥ずかしくなりました。<br><br>今までの事を申し上げますと「光明如来様があなたの命を御入用とあって奇蹟的に御助け下さったのでしよう。<br><br>御礼申し上げなさい」とおっしゃった時は、下った頭が上りませんでした。<br><br>又「あなたの病気は、今第二浄化であって、第一浄化が曇、第二が雨でやがて晴れる時が来ますよ」と御話を承り、実に喜び勇み、十日間も御浄霊頂きます内日一日と軽くなり本当に気持良くなり、仕事に精出す事が出来るようになりました。<br><br>それからは夏は少し痒く、冬はスビク程度で左程の浄化もなく過さして頂き、年末頃には元の体格に戻り、昭和二十三年頃よりは何の刺戟も無く、時々風邪を引いたり、ちょっとした腹痛位の御浄化を頂き、入信以来足掛六年、家内中無医薬にて本当に有難く日送りさせて頂いております。<br><br> 明主様、生命の無い私を御救い下さいまして有難うございました。<br><br>厚く厚くお礼申し上げます。<br><br>この上は一日も早く一人でも多く、御導きさせて頂き、地上天国御建設に御奉仕させて頂く覚悟でございます。<br><br> （昭和二十七年五月七日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Queimaduras decorrentes de radiação atômica curadas pelo Johrei</h2>
 <p><em>Publicado na revista “Glória”, nº 155, em 7 de maio de 1952.</em>
@@ -105,5 +260,48 @@ function toggleLang(lang) {
 <p>Desde então, as purificações que tive foram brandas: uma leve coceira no verão e uma pequena sensibilidade no inverno. No final daquele ano, eu já havia recuperado meu porte físico original e, a partir de 1948, não tive mais nenhum sintoma relacionado às queimaduras. Ocasionalmente, recebo purificações como um resfriado ou uma dor de estômago passageira. Já se passaram seis anos desde que ingressei na Fé, e toda a minha família vive sem depender de médicos ou remédios, desfrutando de dias de profunda gratidão.</p>
 <p>Meishu-Sama, muito obrigado por salvar a mim, que já não tinha mais vida. Agradeço-lhe do fundo do meu coração. De agora em diante, minha determinação é a de encaminhar o maior número de pessoas, o mais rápido possível, para servir-Lhe na construção do Paraíso Terrestre.</p>
 <p>(7 de maio de 1952)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 原子放射能による火傷御浄霊によって癒ゆ 『栄光』155号、昭和27(1952)年5月7日発行 佐賀県 光宝大教会 樋渡善右エ門（46） 明主様、申しおくれまして誠に申しわけございません。<br/><br/>原子爆弾罹災者と致し拙ない筆ながら、謹んで御奉告御礼申し上げさして頂きます。<br/><br/>御許し下さいませ。<br/><br/> 私は去る昭和二十年六月十六日、臨時召集により元長崎要塞司令部要員として入隊致したものでございます。<br/><br/>三週間の基本訓練も無事に過ぎ、七月九日農耕隊として戦友六名と共に、稲佐山開墾地に派遣させられ吾々五名のものは、長崎市を越えて旧砲台の後の畑（原子爆弾破裂中心地より七十米ないし百米離れた地点。<br/><br/>これは後で知ることが出来ました）の作業に行き一生懸命働き、十時三十分の休憩時、木蔭に腰打ち下し、上衣も脱ぎ捨て、裸で休んでおりましたが、突然敵の飛行機の爆音がして来ますので変だなあと思って、立とうとした瞬間（十時五十五分）シュウシュウと言う奇音と共にそら豆位の黄白い火が夕立雨の降るごとく浴びせられ、その場に打倒され気絶致しました。<br/><br/>暫くして正気付いて防空壕に這い寄り、戦友と互に見合せると四名の者は、顔から腕、胸、腹、背中と、皮膚がベロリと剥げ嫌な嫌な臭気が鼻をつくのです。<br/><br/>一人の戦友は無事でありました。<br/><br/>「これ位なら一週間もすれば治るぞ」と互にはげまし合いながら、歯を食いしばって頑張りました。<br/><br/> 傷は段々痛み、その苦痛は筆舌には尽くされませんでした。<br/><br/>「万難を排しても日の暮れない内に宿舎に帰れ」との班長の命令の下に、火の気の少い所をあちらに廻り、こちらに折れて、途中散乱した死体を踏まんばかりに稲佐山に急ぎました。<br/><br/>やっと宿舎に着いたのが七時半でしたが、この時は相当の熱が出て、全然食事は摂れません。<br/><br/>段々寒気がして傷はヒリヒリ痛み、外は市中の火事で真赤になっています。<br/><br/>夜中十二時頃壕の中で軍医が手当にかかられましたが、班長一人分で薬は無くなり、私達三人はそのままで夜明けを待って病院へ行きましたが、段々体も疲れ、歩行も困難でありました。<br/><br/> 待ちに待って午後二時頃治療して貰い、司令部に帰り、それより医務室にて毎日治療を受けましたが熱は下らず咽喉が痛み、両手はかなわず食事もお粥を戦友に食べさして貰い、空襲時の待避には心身共に悩まされました。<br/><br/>又治療前の包帯解きは生皮を剥がれる思いで、今当時を偲ぶにつけ、ぞっとする程であります。<br/><br/>八月十六日の治療時に軍医殿より「もうここには薬が無いから病院へ入院さしてやる」と午後入院致しました。<br/><br/>しかしここでは一回の診察をして貰うでなく、ただ三回の食事を与えて貰うのみでありました。<br/><br/>司令部では少しは軽くなっていたようでしたが、又痛み出しますのでした。<br/><br/>たまり兼ねて包帯をはずしてしまい、不自由な身で水を汲んで膿を洗い手拭で冷しながら、三日間過しました。<br/><br/>八月十九日午前二時「これから佐賀へ転送だ。<br/><br/>私物を持って下へ下りよ。<br/><br/>自動車は待っているから急げ」との命令によって長崎駅まで送られました。<br/><br/>当日午後七時佐賀陸軍病院に入院致し、三日後初めて鉛筆を執る事が出来、又両手で食事が出来るようになった時は嬉しく感じました。<br/><br/>治療としては、白い膏薬をつけて貰うのでありました。<br/><br/>新聞紙上で原子爆弾の威力、猛毒等次々の発表を見て相当の毒素を吸収している事も心配しておりました。<br/><br/>八月二十九日診察の結果、温泉療養させられました。<br/><br/>湯屋へ行って初めて鏡に向い自分の体の痩せ方に驚きました。<br/><br/>毎日午前と午後の二回入湯し、段々快方に向うようでありましたが、どうしても頭が重く、起きる時等急に起きて立てば倒れる事度々でした。<br/><br/>又人は下痢の多かったようでありましたが、自分は一週間も便秘で困りました。<br/><br/>三週間にして治癒退院を命ぜられ、帰宅致しましたが、体の衰弱につけ込んでか神経痛が起り、又寒さに向うにつけ傷痕が痛み、やれ注射、鍼灸と長らく通い、又動物の肝臓が白血球を増すに良いという事で、努めて食べましたが、中々なおりません。<br/><br/>月日は流れて翌年昭和二十一年四、五月ともなれば痕跡は痒くて、晩等血の出るようにかいているのです。<br/><br/>ある日脇田の東島さんから御道の事を教えられましたが、今まで仏教信念と医学を信じていた私には、どうしても信じきれません。<br/><br/>たまたま妻もリウマチで悩まされ、鍼灸より帰り道友人より御道の御話を聞いて帰って来ましたので、相談の結果教会に御参りするように御導き頂き、初めに妻が御参り致し色々有難い光明如来様の御話を聞いて来て、御取次を致しました。<br/><br/>一週間程御浄霊頂く内に段々軽くなったと言い、又木原先生御出張の日取が決まり、このよい機会に教修をと犬塚先生に勧められ、早速教修を御願い致しました。<br/><br/>段々妻の病気は軽くなりますので、私も後れながら御参り致し、御話を聞かして頂き、大体お道の事がわからして頂きましたが、間もなく農繁期になり、我慢しながら仕事に励みました。<br/><br/>ちょうど田植の最後の日になり、突然激しい頭痛が起り、仕事に堪えきれない程でありました。<br/><br/> 翌日は何も彼も打ち捨てて教会に御参り致し、御浄霊を頂きましたら、少し軽くなりましたが、家へ帰ると又痛むのです。<br/><br/>病気は浄化作用であることを分らして頂き、少々の苦痛は辛抱出来るようになり、教修まで御願い申して入信させて戴きました。<br/><br/>教修の時木原先生より色々と有難い御話を拝聴し、今までの事が恥ずかしくなりました。<br/><br/>今までの事を申し上げますと「光明如来様があなたの命を御入用とあって奇蹟的に御助け下さったのでしよう。<br/><br/>御礼申し上げなさい」とおっしゃった時は、下った頭が上りませんでした。<br/><br/>又「あなたの病気は、今第二浄化であって、第一浄化が曇、第二が雨でやがて晴れる時が来ますよ」と御話を承り、実に喜び勇み、十日間も御浄霊頂きます内日一日と軽くなり本当に気持良くなり、仕事に精出す事が出来るようになりました。<br/><br/>それからは夏は少し痒く、冬はスビク程度で左程の浄化もなく過さして頂き、年末頃には元の体格に戻り、昭和二十三年頃よりは何の刺戟も無く、時々風邪を引いたり、ちょっとした腹痛位の御浄化を頂き、入信以来足掛六年、家内中無医薬にて本当に有難く日送りさせて頂いております。<br/><br/> 明主様、生命の無い私を御救い下さいまして有難うございました。<br/><br/>厚く厚くお礼申し上げます。<br/><br/>この上は一日も早く一人でも多く、御導きさせて頂き、地上天国御建設に御奉仕させて頂く覚悟でございます。<br/><br/> （昭和二十七年五月七日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

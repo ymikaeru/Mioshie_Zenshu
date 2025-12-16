@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sinkyu1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 新旧文化の交代 『栄光』68号、昭和25(1950)年9月6日発行 そもそも現代文化は、数千年以前の原始時代に比べると、驚くべき進歩発達を遂げ、また遂げつつある事は、今更贅言を要しないところであるが、こうなるまでには人類はいかに苦心努力して来たかは、彼の天災、戦争、病魔等に対し、惨澹たる苦闘を続けつつある人類史がよく物語っている。<br><br> かように、人類が進歩発達を目指して来た裏には、この世界をして恒久平和な万人が、より幸福な世界たらしむべき、意図であったのは言うまでもないが、その理想実現の手段として、何でも彼んでも物質文化さえ進歩発達させればいいとして、唯物科学を唯一のものとし、脇目もふらず進んで来たのである、新発見や新発明が生まれる毎に人類は称讃し、謳歌し、これによって人類の福祉は増進されるとなし、一歩一歩理想に近づきつつあるを想い、幸福の夢を追うて来た事は誰も知るところである。<br><br> しかるに、科学の進歩は、遂に原子核破壊の発見にまで及んだのである。<br><br>この大発見は本当から言えば、大いに祝福すべきにかかわらず、意外も意外、逆に一大恐怖的発見であった。<br><br> 原爆の善悪両面 天国だと思って歩いて来た道は豈（あに）計らんや、実は地獄の道だったのだ。<br><br>一瞬にして幾十万の生霊を奪うという物質が出来てしまったのだ、恐らく歴史上これ程人間の予想と喰違った事件があったであろうか、人類、特に文化民族がこの戦慄を生んだ以上、その脅威から何が何でも逃れなければならないという大問題が起ってしまったとは何たる皮肉ではなかろうか。<br><br>しかしながら退いてよく考えてみると、この物質そのものはいささかも恐るべきものではない、むしろ幸福に役立つべきすばらしい福音だ、恐れるという事は、戦争の道具として使うからであって、平和に使ったとしたら、右のごとく人類にとっての大発見である。<br><br>そうしてこの物質を戦争に使用するその根本は悪であり、平和のそれは善である。<br><br>とすれば、善か悪かによって、仏にもなれば鬼にもなるという訳である。<br><br> この意味において、この物質を駆使する人間が善であれば可い訳だが、それはそう簡単にはゆかない事はもちろんである。<br><br>ゆえに実際上から言って、悪を善に転換する事でこれが宗教の尊き使命である事は言うまでもない。<br><br> 世の終りと天国 そうして、今日までその役目をして来たところの宗教、道徳、教育、法律等もなるほどある程度の功績は挙げ得たが、今もって予期に反し悪の跋扈（ばっこ）によって善は虐（しいた）げられている。<br><br>前述のごとく原子物質が悪に使用されるという憂慮がよくそれを物語っている、ここで別の面から今一層深く考えてみなくてはならない、たとえば、原爆による悪魔的破滅行為がもし許されるとしたら、人類滅亡の運命は当然来るであろう。<br><br>とすれば、森羅万象を造り給い、これ程文化を進歩せられた造物主が黙認され給うはずはあるまいではないか。<br><br> こう説いて来ると、キリストが予言された世の終りとはこれでなくて何であろう、と共にこの事だけの予言としたら人類はただ滅亡を待つにすぎない事になる。<br><br>ところがキリストはまた言った、天国は近づけりと、これだ、この二大予言が世界の将来を示している事は明〔らか〕である、とすれば、世の終りも来ると共に天国も出現するという意味になる。<br><br>しかもこれに付随してキリストの再臨、メシヤの出現をも予言された、そうして今一つ考えなければならない事は、原子の破壊から絶対免れんとすれば前述のごとく悪を善に転化する事である、この力こそメシヤの力でなくて何であろう、ただしかし、善悪の大転換が行われるとしても善化しない悪人も多数あるに違いないから、このような見込みのない者は清算されるより致し方ないであろう、この事をキリストは最後の審判とも言われた。<br><br>これによってこれを見れば、善悪転換、破壊と建設、旧文化と新文化との交代が今将（まさ）に来らんとする直前である事を知るべきである。<br><br> 新文化の構想 そうして、新文化の構想はすでに充分用意されている、これは人間の智慧や力でのそれではない、神が数万年以前から、着々準備され給いつつあった事である、しかもそれは霊的のみではない、物質的事象によっても、私は現実的に視ているのであるから、絶対誤りはない事を保証してはばからないのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Transição para a Nova Cultura</h2>
 <p>É inegável que a cultura moderna, quando comparada à era primitiva de milênios atrás, alcançou e continua a alcançar um progresso assombroso, fato que dispensa maiores comentários. Todavia, a história da humanidade, marcada por uma luta árdua e desoladora contra calamidades naturais, guerras e enfermidades, revela com eloquência o esforço e o sofrimento despendidos para se chegar a este ponto.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>Essa reflexão nos leva à profecia de Cristo sobre o fim do mundo. Que outra coisa poderia ser? Se, contudo, a profecia se limitasse a isso, restaria à humanidade apenas aguardar a sua própria extinção. Cristo, porém, também disse: “O Reino dos Céus está próximo”. Eis o ponto fundamental. É evidente que essas duas grandes profecias indicam o futuro do mundo. Isso significa que, assim como o fim do mundo virá, o Reino dos Céus também surgirá.</p>
 <p>Adicionalmente, foram profetizadas a Segunda Vinda de Cristo e o advento do Messias. Há ainda um outro aspecto a ser considerado: para nos livrarmos em definitivo da ameaça atômica, é imprescindível, como já exposto, converter o mal em bem. E que poder seria este, senão o poder do Messias? Todavia, mesmo que essa grande transição do mal para o bem ocorra, decerto haverá muitos indivíduos malignos que não se converterão. Para esses, que não demonstram qualquer perspectiva de melhora, não haverá outra alternativa senão a sua purificação. A este processo, Cristo denominou Juízo Final. Diante do exposto, devemos compreender que estamos no limiar da grande transição entre o bem e o mal, entre a destruição e a construção, no exato momento da substituição da antiga cultura pela nova.</p>
 <p>A estrutura da nova cultura já se encontra plenamente preparada. Não se trata de algo concebido pela sabedoria ou pelo poder humano; é um plano que Deus vem preparando meticulosamente há dezenas de milhares de anos. E testemunho essa realidade de forma concreta, não apenas no plano espiritual, mas também por meio de fenômenos materiais. Por essa razão, posso garantir, sem qualquer hesitação, que nisso não há o menor equívoco.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 新旧文化の交代 『栄光』68号、昭和25(1950)年9月6日発行 そもそも現代文化は、数千年以前の原始時代に比べると、驚くべき進歩発達を遂げ、また遂げつつある事は、今更贅言を要しないところであるが、こうなるまでには人類はいかに苦心努力して来たかは、彼の天災、戦争、病魔等に対し、惨澹たる苦闘を続けつつある人類史がよく物語っている。<br/><br/> かように、人類が進歩発達を目指して来た裏には、この世界をして恒久平和な万人が、より幸福な世界たらしむべき、意図であったのは言うまでもないが、その理想実現の手段として、何でも彼んでも物質文化さえ進歩発達させればいいとして、唯物科学を唯一のものとし、脇目もふらず進んで来たのである、新発見や新発明が生まれる毎に人類は称讃し、謳歌し、これによって人類の福祉は増進されるとなし、一歩一歩理想に近づきつつあるを想い、幸福の夢を追うて来た事は誰も知るところである。<br/><br/> しかるに、科学の進歩は、遂に原子核破壊の発見にまで及んだのである。<br/><br/>この大発見は本当から言えば、大いに祝福すべきにかかわらず、意外も意外、逆に一大恐怖的発見であった。<br/><br/> 原爆の善悪両面 天国だと思って歩いて来た道は豈（あに）計らんや、実は地獄の道だったのだ。<br/><br/>一瞬にして幾十万の生霊を奪うという物質が出来てしまったのだ、恐らく歴史上これ程人間の予想と喰違った事件があったであろうか、人類、特に文化民族がこの戦慄を生んだ以上、その脅威から何が何でも逃れなければならないという大問題が起ってしまったとは何たる皮肉ではなかろうか。<br/><br/>しかしながら退いてよく考えてみると、この物質そのものはいささかも恐るべきものではない、むしろ幸福に役立つべきすばらしい福音だ、恐れるという事は、戦争の道具として使うからであって、平和に使ったとしたら、右のごとく人類にとっての大発見である。<br/><br/>そうしてこの物質を戦争に使用するその根本は悪であり、平和のそれは善である。<br/><br/>とすれば、善か悪かによって、仏にもなれば鬼にもなるという訳である。<br/><br/> この意味において、この物質を駆使する人間が善であれば可い訳だが、それはそう簡単にはゆかない事はもちろんである。<br/><br/>ゆえに実際上から言って、悪を善に転換する事でこれが宗教の尊き使命である事は言うまでもない。<br/><br/> 世の終りと天国 そうして、今日までその役目をして来たところの宗教、道徳、教育、法律等もなるほどある程度の功績は挙げ得たが、今もって予期に反し悪の跋扈（ばっこ）によって善は虐（しいた）げられている。<br/><br/>前述のごとく原子物質が悪に使用されるという憂慮がよくそれを物語っている、ここで別の面から今一層深く考えてみなくてはならない、たとえば、原爆による悪魔的破滅行為がもし許されるとしたら、人類滅亡の運命は当然来るであろう。<br/><br/>とすれば、森羅万象を造り給い、これ程文化を進歩せられた造物主が黙認され給うはずはあるまいではないか。<br/><br/> こう説いて来ると、キリストが予言された世の終りとはこれでなくて何であろう、と共にこの事だけの予言としたら人類はただ滅亡を待つにすぎない事になる。<br/><br/>ところがキリストはまた言った、天国は近づけりと、これだ、この二大予言が世界の将来を示している事は明〔らか〕である、とすれば、世の終りも来ると共に天国も出現するという意味になる。<br/><br/>しかもこれに付随してキリストの再臨、メシヤの出現をも予言された、そうして今一つ考えなければならない事は、原子の破壊から絶対免れんとすれば前述のごとく悪を善に転化する事である、この力こそメシヤの力でなくて何であろう、ただしかし、善悪の大転換が行われるとしても善化しない悪人も多数あるに違いないから、このような見込みのない者は清算されるより致し方ないであろう、この事をキリストは最後の審判とも言われた。<br/><br/>これによってこれを見れば、善悪転換、破壊と建設、旧文化と新文化との交代が今将（まさ）に来らんとする直前である事を知るべきである。<br/><br/> 新文化の構想 そうして、新文化の構想はすでに充分用意されている、これは人間の智慧や力でのそれではない、神が数万年以前から、着々準備され給いつつあった事である、しかもそれは霊的のみではない、物質的事象によっても、私は現実的に視ているのであるから、絶対誤りはない事を保証してはばからないのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

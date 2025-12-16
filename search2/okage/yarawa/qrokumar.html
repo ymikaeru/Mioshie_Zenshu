@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qrokumar</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 六〇六号の注射中毒で頭脳を犯される 『救世』64号、昭和25(1950)年5月27日発行 福岡県 天国大教会光宝中教会 高瀬とよの（37） 昭和二十三年九月頃より主人の眼が霞み仕事が出来難いと言って近所のお医者に行き六〇六号の注射二十四本、その他の注射を続ける事三カ月、少しも良くならず眼は段々悪くなるばかり左半身は不自由になり、頭はぼんやりして毎日ぶらぶら歩き廻り、一つ所に五分と落付いている事も出来ず、小さい石につまずいては転び一人で起き上る事も出来ず、帯が解けてもそのままぶらぶらと歩き廻り近所の笑われ者になっておりました。<br><br> お医者様に行っても養生の方法はありませんね、と言われ、暗い気持になっておりましたら、岩永様の光明如来様のお力にてどんな病気でも治るという事を聞きましたので、早速主人を連れてお伺い致しました。<br><br> 有難き光明如来様のお話をお聞きして、私ごとき者でも御守様を戴けばお力を戴けるとのお話を聞き、早速教修を戴きました。<br><br>主人は御浄霊を戴きますのに初めの中はじっと坐っていられず、こそこそとしておりましたが、度重なるに従い落付きも出来て参りました。<br><br>三月の寒い日誤って三間ばかりある川の中に転げ落ちましたが、かすり傷一つ受けず畳の上で転んでも立つことの出来ぬ不自由な者が、不思議と川の中で立ち上り救いを呼んでいる所を近所の人に助けて頂きました。<br><br> 光明如来様の御守護を頂き是非主人もお守護を頂戴致したいと念じておりました。<br><br>お蔭様にて四月十日、妹と一緒にお受けする事が出来ました。<br><br>忘れも致しません四月二十四日久留米教会に木原先生のお話をお伺いに参りました所、お忙しい中を特に御浄霊をして下さいましたが、見ている中に、不自由な手が上に上り、信者一同光明如来様のお力の偉大なる事に驚きました。<br><br>足の方も行きには人の二十五分もかかれば行き着く駅迄一時間もかかりましたのに、帰りには三十分位にて帰宅致しました。<br><br>それより二日後には杖もつかず毎日一人で教会に御浄霊に通えるようになり、お蔭様にて立派にお蔭を頂き家内一同感謝申し上げ、暗かった家の中も光明の毎日を暮させて戴くようになりました。<br><br>所が九月頃より再び御浄化を戴き十月の末頃より益々はげしく頭の働きは全くなく、お可笑な事があっても笑を忘れ立腹する事もなく全く魂の抜けた人のごとくボーッとなり、手足の自由もかなわず家の中もいざって廻り、小便がいつでたかも判らず非常に困っておりました。<br><br> 近所の人々も「今後はもう勝さん（私の主人）も助かるまい」と言っていたそうです。<br><br>それが忘れも致しません十一月四日夜、食事にと立ち上り歩こうとしておりますのでどんな具合で歩いて来るだろうかと見ている中に、バッタリ倒れ、柱の角に激しく頭を打付け人事不省になってしまいました。<br><br>驚いてお父さんお父さんと呼びましたが返事をしません。<br><br>お隣りの方に来て戴こうかと思いましたが、嗚呼申訳ない事になってしまったと御神体に向ってお詫びを申し上げ御浄霊をさせて戴いておりました所、次第に意識を取り戻して参りましたのでホッと致しました。<br><br>一時間後に再び御神前にて御浄霊をさせて戴きましたところ初めて気付かせていただきましたのですが、後頭部に柱の跡が長く三寸位腫れ上っております。<br><br>驚いて後頭部を念入りに御浄霊させて戴きその夜は寝らせて戴きました。<br><br>夜明頃より吐気を催し数回色の付いた胃液のような物を吐きました。<br><br> 頭痛が激しく身もだえ致しますので早速教会から出口様に来て戴き数回御浄霊を頂きました。<br><br>お蔭様にて次第に頭がはっきりして参りまして光明如来様のお話を色々尋ねるようになりましたが、不思議な事には一昨年九月の発病から今度柱に頭を打付けて人事不省になったまでの間の事は全く記憶がないと申しているので御座います。<br><br>不自由だった手足も一度にお蔭を頂き三日目には久方振りに入湯も自由にさせて戴き、これで身も魂も清々となりまして喜ばせて頂きました。<br><br>長い間の頭の狂いを薄紙をはぐごとく一日一日とはっきりさせて戴きまして家内一同感謝の喜びの日々を送り迎えさせて頂いております。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Intoxicação cerebral causada por injeções do preparado 606 (Revista Kyusei, nº 64, publicada em 27 de maio de 1950)</h2>
 <p>Toyono Takase (37 anos)
@@ -99,5 +254,48 @@ Igreja Kouhou – Grande Igreja Tengoku – Província de Fukuoka</p>
 <p>Os vizinhos comentavam entre si: “Desta vez, o Sr. Masaru não sobreviverá”. Jamais me esquecerei da noite de 4 de novembro. Meu marido tentou se levantar para o jantar, e, enquanto eu observava como conseguiria caminhar, ele subitamente desabou, batendo a cabeça com violência na quina de um pilar e perdendo os sentidos. Em pânico, comecei a chamá-lo, mas não obtive resposta. Pensei em pedir ajuda aos vizinhos, mas, naquele instante, senti um profundo remorso, como se uma grande falta tivesse sido cometida. Voltei-me para a Imagem Sagrada, pedi perdão e comecei a ministrar Johrei. Gradualmente, ele foi recuperando a consciência, para meu imenso alívio.</p>
 <p>Uma hora depois, ministrei-lhe Johrei novamente diante do altar. Foi então que notei, pela primeira vez, um inchaço de quase dez centímetros na parte de trás de sua cabeça, com o formato exato do pilar. Assustada, concentrei o Johrei naquela região e o deixei repousar. Ao amanhecer, ele sentiu náuseas e vomitou repetidas vezes um líquido colorido, semelhante a suco gástrico. A dor de cabeça era tão intensa que ele se contorcia em agonia. Pedi, então, que o Sr. Deguchi, da igreja, viesse rapidamente, e ele lhe ministrou Johrei diversas vezes. Graças a isso, sua mente foi clareando gradualmente, e ele passou a fazer várias perguntas sobre os Ensinamentos de Meishu-Sama.</p>
 <p>O mais extraordinário, contudo, é que ele afirma não ter absolutamente nenhuma lembrança do período compreendido entre o início da doença, em setembro do ano retrasado, e o momento em que bateu a cabeça no pilar e perdeu a consciência. Seus membros, antes paralisados, recuperaram os movimentos de uma só vez. No terceiro dia, pela primeira vez em muito tempo, pôde tomar banho sozinho, sentindo o corpo e o espírito purificados, o que nos encheu de alegria. O longo transtorno mental que o afligiu está se dissipando dia após dia, como se finas camadas de papel fossem removidas, e toda a nossa família vive em um estado de profunda gratidão e felicidade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 六〇六号の注射中毒で頭脳を犯される 『救世』64号、昭和25(1950)年5月27日発行 福岡県 天国大教会光宝中教会 高瀬とよの（37） 昭和二十三年九月頃より主人の眼が霞み仕事が出来難いと言って近所のお医者に行き六〇六号の注射二十四本、その他の注射を続ける事三カ月、少しも良くならず眼は段々悪くなるばかり左半身は不自由になり、頭はぼんやりして毎日ぶらぶら歩き廻り、一つ所に五分と落付いている事も出来ず、小さい石につまずいては転び一人で起き上る事も出来ず、帯が解けてもそのままぶらぶらと歩き廻り近所の笑われ者になっておりました。<br/><br/> お医者様に行っても養生の方法はありませんね、と言われ、暗い気持になっておりましたら、岩永様の光明如来様のお力にてどんな病気でも治るという事を聞きましたので、早速主人を連れてお伺い致しました。<br/><br/> 有難き光明如来様のお話をお聞きして、私ごとき者でも御守様を戴けばお力を戴けるとのお話を聞き、早速教修を戴きました。<br/><br/>主人は御浄霊を戴きますのに初めの中はじっと坐っていられず、こそこそとしておりましたが、度重なるに従い落付きも出来て参りました。<br/><br/>三月の寒い日誤って三間ばかりある川の中に転げ落ちましたが、かすり傷一つ受けず畳の上で転んでも立つことの出来ぬ不自由な者が、不思議と川の中で立ち上り救いを呼んでいる所を近所の人に助けて頂きました。<br/><br/> 光明如来様の御守護を頂き是非主人もお守護を頂戴致したいと念じておりました。<br/><br/>お蔭様にて四月十日、妹と一緒にお受けする事が出来ました。<br/><br/>忘れも致しません四月二十四日久留米教会に木原先生のお話をお伺いに参りました所、お忙しい中を特に御浄霊をして下さいましたが、見ている中に、不自由な手が上に上り、信者一同光明如来様のお力の偉大なる事に驚きました。<br/><br/>足の方も行きには人の二十五分もかかれば行き着く駅迄一時間もかかりましたのに、帰りには三十分位にて帰宅致しました。<br/><br/>それより二日後には杖もつかず毎日一人で教会に御浄霊に通えるようになり、お蔭様にて立派にお蔭を頂き家内一同感謝申し上げ、暗かった家の中も光明の毎日を暮させて戴くようになりました。<br/><br/>所が九月頃より再び御浄化を戴き十月の末頃より益々はげしく頭の働きは全くなく、お可笑な事があっても笑を忘れ立腹する事もなく全く魂の抜けた人のごとくボーッとなり、手足の自由もかなわず家の中もいざって廻り、小便がいつでたかも判らず非常に困っておりました。<br/><br/> 近所の人々も「今後はもう勝さん（私の主人）も助かるまい」と言っていたそうです。<br/><br/>それが忘れも致しません十一月四日夜、食事にと立ち上り歩こうとしておりますのでどんな具合で歩いて来るだろうかと見ている中に、バッタリ倒れ、柱の角に激しく頭を打付け人事不省になってしまいました。<br/><br/>驚いてお父さんお父さんと呼びましたが返事をしません。<br/><br/>お隣りの方に来て戴こうかと思いましたが、嗚呼申訳ない事になってしまったと御神体に向ってお詫びを申し上げ御浄霊をさせて戴いておりました所、次第に意識を取り戻して参りましたのでホッと致しました。<br/><br/>一時間後に再び御神前にて御浄霊をさせて戴きましたところ初めて気付かせていただきましたのですが、後頭部に柱の跡が長く三寸位腫れ上っております。<br/><br/>驚いて後頭部を念入りに御浄霊させて戴きその夜は寝らせて戴きました。<br/><br/>夜明頃より吐気を催し数回色の付いた胃液のような物を吐きました。<br/><br/> 頭痛が激しく身もだえ致しますので早速教会から出口様に来て戴き数回御浄霊を頂きました。<br/><br/>お蔭様にて次第に頭がはっきりして参りまして光明如来様のお話を色々尋ねるようになりましたが、不思議な事には一昨年九月の発病から今度柱に頭を打付けて人事不省になったまでの間の事は全く記憶がないと申しているので御座います。<br/><br/>不自由だった手足も一度にお蔭を頂き三日目には久方振りに入湯も自由にさせて戴き、これで身も魂も清々となりまして喜ばせて頂きました。<br/><br/>長い間の頭の狂いを薄紙をはぐごとく一日一日とはっきりさせて戴きまして家内一同感謝の喜びの日々を送り迎えさせて頂いております。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

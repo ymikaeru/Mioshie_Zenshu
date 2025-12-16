@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>journal1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ジャーナリストと本教 『栄光』234号、昭和28(1953)年11月11日発行 今度私は救世教奇蹟集を出版するに当っては、まず最初三大新聞に広告を出すべく依頼した。<br><br>ところが読売のみは早速掲載したが、朝日と毎日は三週間を経た今日、いまだ出ないところを見ると広告輻輳（ふくそう）のためではなく、他に理由がなくてはならないと思ったのである。<br><br>もっともこれについては前もって予想はしていた。<br><br>というのは毎日はそうでもなかったが、朝日のみは先頃のアメリカを救うと結核信仰療法の二書とも広告掲載を拒否したからである。<br><br>その際理由を訊（たず）ねたところ係の話では、賛否両論あって決定がつきかねるため、掲載は不可能との返事であったので、今回もあるいはそんな事かも知れないと思っていたところ、今度は毎日も同様なので驚いた次第である。<br><br> これを要するに、私の著書はどれもこれも取挙げ難い程破天荒（はてんこう）のものばかりなので、怖気（おじけ）がつき、触らぬ神に祟（たた）りなし的に引受けないのであろうが、気の小さい話である。<br><br>しかし考えてみるとそれも無理はない。<br><br>何しろ今までに聞いた事も見た事もないような前人未発の驚異的著書で、現在の学者やジャーナリストの頭脳では、到底理解出来ないからである。<br><br>しかしそれであればある程進歩せる説として価値が高い訳である。<br><br>しかも事実の裏付がある以上、空理空論でない事はもちろんで、疑う余地はいささかもないはずである。<br><br>言うまでもなく現在の智識人に理解出来る程度のものとしたら、それは既成学問の枠内であり、ありふれたものに違いないからである。<br><br>これをたとえてみれば彼の西洋におけるコペルニクスやガリレオの地動説にしても、当時の学者はもちろん、支配的勢力をもっていた宗教人等にも理解困難のため、強い反対に遭（あ）い投獄され、生命の危険にまで晒（さら）されたのであるから、先覚者の世に容れられない悩みはいつの時代でも同様であろう。<br><br>早い話が日本においても幕末当時西洋的のものは、何でもかんでも切支丹（キリシタン）バテレンの名の下に、一刀両断禁止された事や、密（ひそ）かに蘭学を学ぼうとした杉田玄白、高野長英等もそうだが、吉田松陰のごとき泰西（たいせい）文化に触れようとしたため、アレ程の迫害を蒙（こうむ）ったにみても、思い半ばにすぎるであろう。<br><br> これについて面白い話がある。<br><br>昔白人探険家がアフリカ内地旅行の際、たまたま蕃人が何か地にあるものを見つけて驚き、悲鳴を上げ逃げたので、早速その場所に近付いてみると、何と一個の時計が落ちていたので、失笑を禁じ得なかったという一挿話をある本で見た事がある。<br><br>これを憶（おも）い出した私は少し誇張かも知れないが、その時計と救世教奇蹟集と相似ているとさえ思った事である。<br><br>というように私の説くところ行うところは、ことごとく現代文化のレベルを遥かに抜いているので、反って始末が悪いのである。<br><br>今一つの事は今日世界何億の人民が神として崇（あが）めているイエス・キリストが行ったと同様の奇蹟を行い得る私の弟子、すでに数十万に及んでおり、なお益々増えつつありという一事など、これだけみても唖然とするであろう。<br><br> さらばといってこれを異端邪説視する事も出来ない。<br><br>確実な立証が伴なうからである。<br><br>そうかといって今直に偉大なる発見として取挙げる事ももちろん出来まい。<br><br>それには大いに勇気を要するからである。<br><br>何しろ何百何千年にも及ぶ伝統、宗教、学説等の綜合智識で出来上った頭脳である以上、急に切替えるのは無理であるからで、どうしても時を待つより致し方あるまい。<br><br>そうかといって安閑としてはおれない理由がある。<br><br>それは驚くべき神示であって、人類は近き将来断崖から転落するごとき危機が迫りつつある事である。<br><br>これを救うべく神の大愛は世界至る所に救いの綱を準備されており、早晩これを握らざるを得ない時が来るのはすでに決定的である。<br><br>ところがこの重大事を知らず、また知らされても信じないジャーナリスト諸君は、いずれは臍（ほぞ）を噛むのは分っているが、それに盲目であるがため、広告を引受けないのであろうが、それだけならいいが、この結果として大多数の不幸な人々が救われる機会を失うのであるからまことに遺憾である。<br><br>それというのも本教の実体を知らず、他の新宗教と同列視しているに外ならないのであるから、本教が他のいかなる宗教とも全然異（ちが）っている認識であって、それには本教を徹底的に調査検討されん事を切に望むのである。<br><br>現に本教が行っている事業たるや、偉大なる新文明の創造であり、その企画の雄大なる何物も追随を許さないものであり、これによって世界人類が救われるとしたら、この際小乗的見方を捨てむしろ本教を支援すべきが本当ではなかろうか。<br><br>しかし総ては時の問題である。<br><br>いずれは一般に解り出し、世界の輿論（よろん）となるとしたら、その時となってはすでに遅しで、全部の新聞紙は慌（あわ）てて取挙げざるを得ない事になろう。<br><br>そうなったら今日のごとき大新聞としての権威を保つなどは一つの笑い話となるであろうが、それにはこの際目を大局的視野に向けられん事である。<br><br>釈迦に説法ではあろうが、新聞の使命は社会の指導的正しい輿論を作る事で、輿論の後を追うようでは無定見の譏（そし）りは免れまい。<br><br> これについて羨しいのは彼のアメリカである。<br><br>同国の有識者始め社会一般の進取的自由主義思想は、今までのものより進歩的であり、人類の福祉にいささかでも役立つものとしたら、躊躇（ちゅうちょ）なく採入れる態度である。<br><br>発見者が学者であろうとなかろうと、商人でも職工でも宗教家でも、そんな事はどうでもいいという大胆率直な見解の広さである。<br><br>同国が二世紀に満たない今日、世界をリードする程の地盤を築き上げたのも故あるかなである。<br><br>私は日本もこれに鑑（かんが）み、一日も早く島国根性を一擲（いってき）し、非は大いに糾弾すると共に、是（ぜ）は大いに擁護するという大乗的見地に立って、新聞としての大使命を発揮される事である。<br><br>そうして結局においてこの救世の大業が完成する暁、日本が人類史上空前の模範国家として、世界から尊敬の的となるのは断言して憚（はばか）らないのである。<br><br>敢（あ）えてジャーナリスト諸君の猛省を促すゆえんである。<br><br> (注) 輻輳（ふくそう）、方々からいろいろな物が一か所に集まること。<br><br>こみあうこと。<br><br> 泰西（たいせい）、西洋諸国。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Imprensa e a Nossa Causa Divina</h2>
 <p>Recentemente, ao decidir publicar a Coletânea de Milagres da Sekaikyuseikyou, solicitei que o anúncio fosse veiculado nos três maiores jornais do país. Contudo, enquanto o Yomiuri prontamente o publicou, o Asahi e o Mainichi, passadas três semanas, ainda não o fizeram. Isto me leva a crer que a razão não reside em um simples acúmulo de anúncios, mas em outro motivo.</p>
@@ -104,5 +256,48 @@ function toggleLang(lang) {
 <p>Sei, contudo, que tudo é uma questão de tempo. Eventualmente, a compreensão se disseminará entre o povo e se consolidará como opinião pública mundial. Quando esse momento chegar, porém, já será tarde demais, e todos os jornais se verão obrigados a cobrir o assunto apressadamente. Nessa altura, a pretensão de manter a autoridade de grande veículo de imprensa se tornará motivo de chacota. O que se faz necessário, portanto, é que adotem desde já uma visão macroscópica dos acontecimentos. Sei que pode soar como "ensinar o padre a rezar", mas a missão precípua de um jornal é formar uma opinião pública correta e orientadora, e não seguir passivamente a reboque dela. Agir de outra forma é se expor à crítica de ser um veículo sem princípios.</p>
 <p>Nesse sentido, a situação dos Estados Unidos é digna de admiração. O pensamento progressista e liberal de seus intelectuais e da sociedade em geral se traduz em uma atitude de acolher, sem hesitação, qualquer iniciativa que possa contribuir, ainda que minimamente, para o bem-estar da humanidade. Possuem uma visão ampla e franca, para a qual não importa se o autor de uma descoberta é um acadêmico, um comerciante, um artesão ou um líder religioso; o que vale é o mérito da ideia. Não é por acaso que, em menos de dois séculos, essa nação construiu a base que hoje a permite liderar o mundo.</p>
 <p>Desejo ardentemente que o Japão aprenda com esse exemplo e se desfaça, o mais rápido possível, de sua mentalidade insular. É preciso que a imprensa adote uma postura magnânima, condenando veementemente o erro, mas defendendo com igual vigor o que é correto, a fim de exercer sua grandiosa missão. Dessa forma, quando a grande Obra da Salvação finalmente se completar, afirmo sem a menor hesitação que o Japão se tornará uma nação modelo, sem precedentes na história, e será o foco da admiração de todo o mundo. É por essa razão que me atrevo a exortar os senhores jornalistas a uma profunda reflexão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ジャーナリストと本教 『栄光』234号、昭和28(1953)年11月11日発行 今度私は救世教奇蹟集を出版するに当っては、まず最初三大新聞に広告を出すべく依頼した。<br/><br/>ところが読売のみは早速掲載したが、朝日と毎日は三週間を経た今日、いまだ出ないところを見ると広告輻輳（ふくそう）のためではなく、他に理由がなくてはならないと思ったのである。<br/><br/>もっともこれについては前もって予想はしていた。<br/><br/>というのは毎日はそうでもなかったが、朝日のみは先頃のアメリカを救うと結核信仰療法の二書とも広告掲載を拒否したからである。<br/><br/>その際理由を訊（たず）ねたところ係の話では、賛否両論あって決定がつきかねるため、掲載は不可能との返事であったので、今回もあるいはそんな事かも知れないと思っていたところ、今度は毎日も同様なので驚いた次第である。<br/><br/> これを要するに、私の著書はどれもこれも取挙げ難い程破天荒（はてんこう）のものばかりなので、怖気（おじけ）がつき、触らぬ神に祟（たた）りなし的に引受けないのであろうが、気の小さい話である。<br/><br/>しかし考えてみるとそれも無理はない。<br/><br/>何しろ今までに聞いた事も見た事もないような前人未発の驚異的著書で、現在の学者やジャーナリストの頭脳では、到底理解出来ないからである。<br/><br/>しかしそれであればある程進歩せる説として価値が高い訳である。<br/><br/>しかも事実の裏付がある以上、空理空論でない事はもちろんで、疑う余地はいささかもないはずである。<br/><br/>言うまでもなく現在の智識人に理解出来る程度のものとしたら、それは既成学問の枠内であり、ありふれたものに違いないからである。<br/><br/>これをたとえてみれば彼の西洋におけるコペルニクスやガリレオの地動説にしても、当時の学者はもちろん、支配的勢力をもっていた宗教人等にも理解困難のため、強い反対に遭（あ）い投獄され、生命の危険にまで晒（さら）されたのであるから、先覚者の世に容れられない悩みはいつの時代でも同様であろう。<br/><br/>早い話が日本においても幕末当時西洋的のものは、何でもかんでも切支丹（キリシタン）バテレンの名の下に、一刀両断禁止された事や、密（ひそ）かに蘭学を学ぼうとした杉田玄白、高野長英等もそうだが、吉田松陰のごとき泰西（たいせい）文化に触れようとしたため、アレ程の迫害を蒙（こうむ）ったにみても、思い半ばにすぎるであろう。<br/><br/> これについて面白い話がある。<br/><br/>昔白人探険家がアフリカ内地旅行の際、たまたま蕃人が何か地にあるものを見つけて驚き、悲鳴を上げ逃げたので、早速その場所に近付いてみると、何と一個の時計が落ちていたので、失笑を禁じ得なかったという一挿話をある本で見た事がある。<br/><br/>これを憶（おも）い出した私は少し誇張かも知れないが、その時計と救世教奇蹟集と相似ているとさえ思った事である。<br/><br/>というように私の説くところ行うところは、ことごとく現代文化のレベルを遥かに抜いているので、反って始末が悪いのである。<br/><br/>今一つの事は今日世界何億の人民が神として崇（あが）めているイエス・キリストが行ったと同様の奇蹟を行い得る私の弟子、すでに数十万に及んでおり、なお益々増えつつありという一事など、これだけみても唖然とするであろう。<br/><br/> さらばといってこれを異端邪説視する事も出来ない。<br/><br/>確実な立証が伴なうからである。<br/><br/>そうかといって今直に偉大なる発見として取挙げる事ももちろん出来まい。<br/><br/>それには大いに勇気を要するからである。<br/><br/>何しろ何百何千年にも及ぶ伝統、宗教、学説等の綜合智識で出来上った頭脳である以上、急に切替えるのは無理であるからで、どうしても時を待つより致し方あるまい。<br/><br/>そうかといって安閑としてはおれない理由がある。<br/><br/>それは驚くべき神示であって、人類は近き将来断崖から転落するごとき危機が迫りつつある事である。<br/><br/>これを救うべく神の大愛は世界至る所に救いの綱を準備されており、早晩これを握らざるを得ない時が来るのはすでに決定的である。<br/><br/>ところがこの重大事を知らず、また知らされても信じないジャーナリスト諸君は、いずれは臍（ほぞ）を噛むのは分っているが、それに盲目であるがため、広告を引受けないのであろうが、それだけならいいが、この結果として大多数の不幸な人々が救われる機会を失うのであるからまことに遺憾である。<br/><br/>それというのも本教の実体を知らず、他の新宗教と同列視しているに外ならないのであるから、本教が他のいかなる宗教とも全然異（ちが）っている認識であって、それには本教を徹底的に調査検討されん事を切に望むのである。<br/><br/>現に本教が行っている事業たるや、偉大なる新文明の創造であり、その企画の雄大なる何物も追随を許さないものであり、これによって世界人類が救われるとしたら、この際小乗的見方を捨てむしろ本教を支援すべきが本当ではなかろうか。<br/><br/>しかし総ては時の問題である。<br/><br/>いずれは一般に解り出し、世界の輿論（よろん）となるとしたら、その時となってはすでに遅しで、全部の新聞紙は慌（あわ）てて取挙げざるを得ない事になろう。<br/><br/>そうなったら今日のごとき大新聞としての権威を保つなどは一つの笑い話となるであろうが、それにはこの際目を大局的視野に向けられん事である。<br/><br/>釈迦に説法ではあろうが、新聞の使命は社会の指導的正しい輿論を作る事で、輿論の後を追うようでは無定見の譏（そし）りは免れまい。<br/><br/> これについて羨しいのは彼のアメリカである。<br/><br/>同国の有識者始め社会一般の進取的自由主義思想は、今までのものより進歩的であり、人類の福祉にいささかでも役立つものとしたら、躊躇（ちゅうちょ）なく採入れる態度である。<br/><br/>発見者が学者であろうとなかろうと、商人でも職工でも宗教家でも、そんな事はどうでもいいという大胆率直な見解の広さである。<br/><br/>同国が二世紀に満たない今日、世界をリードする程の地盤を築き上げたのも故あるかなである。<br/><br/>私は日本もこれに鑑（かんが）み、一日も早く島国根性を一擲（いってき）し、非は大いに糾弾すると共に、是（ぜ）は大いに擁護するという大乗的見地に立って、新聞としての大使命を発揮される事である。<br/><br/>そうして結局においてこの救世の大業が完成する暁、日本が人類史上空前の模範国家として、世界から尊敬の的となるのは断言して憚（はばか）らないのである。<br/><br/>敢（あ）えてジャーナリスト諸君の猛省を促すゆえんである。<br/><br/> (注) 輻輳（ふくそう）、方々からいろいろな物が一か所に集まること。<br/><br/>こみあうこと。<br/><br/> 泰西（たいせい）、西洋諸国。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

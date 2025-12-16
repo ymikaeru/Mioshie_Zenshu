@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qsizen01</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 自然耕作で超過供出する信徒 『栄光』79号、昭和25(1950)年11月22日 自然農法解説・（革）自然農法解説に収録 新潟県 光陽中教会長 小川栄太郎（37） 光陽中教会の会員有志も自然農法体験三年となり、種々の奇蹟的な御守護を頂き、ただただ偉大なる御力に驚嘆しています。<br><br>統計的な御報告は各会員から詳しくして頂くとしまして、不肖会員と共に田植から刈入れまで体験いたしまして、本教自然農法こそ行詰まれる農村を打開する唯一の救いの道であると堅く確信し、この体験に立脚し、今こそ声を大にして、自然農法を一人でも多くの人に知らしめたく、拙文をも顧みず御報告させて頂きます。<br><br> 一信徒、新潟県西蒲原郡大原村、山岸真十郎君は、完納の外に二十俵の超過供出という好成績を挙げ、その外十俵の余裕が出来た位です。<br><br> 山岸君の自然耕作一年目の収穫は村の人達の下位に属していましたが、二年目は中位に属し、三年目の本年は上位になり、村一番の稲作りの名人と競作田を作りましたが、皆稲熱病に犯され、誰一人相手になる者がなくなりました。<br><br>村の農業技術員も山岸君の稲の状態を見て、最も理想的な生育状態であると驚歎しました。<br><br>山岸君は本教教師で御浄霊が忙しく人手不足のため、殆んど藁も使わずに三年目になっているので、初めは気違いあつかいにしていた人々もただ不思議なことだといっています。<br><br> 一信者、新潟県南魚沼郡六日町、山口玲治君は、一年目から耕作面積九反三畝、平年作六十二俵（肥料代三万円）の田より自然栽培で六十六俵の収穫を挙げています（内三反は水害を蒙むる）。<br><br>その外中蒲原郡亀田町、石原特平君及び西蒲原郡吉田町、井塚左武郎君は、反当八、九俵の収穫を挙げています。<br><br>その外にも二、三反ずつ自然耕作者は沢山あり、相当の収穫を挙げています。<br><br>土地肥毒の多寡等があり反当石数は標準になりませんが光陽中教会の体験としましては、 自然耕作 一年目一割減－平年作 二年目 平年作－二割増 三年目 二割増－三割増 （平年作を標準） 右のような結果になり、経済的には、肥料代不要、労力三分の一で一石何鳥にもなり、金詰りも何の苦労なく実に喜んでおります。<br><br> 一信徒、新潟市、渡辺産作君の細君は三年来野菜を自然栽培して市内に売りに行っているのですが、全然何も知らない人が余りにも一般に比較して美味なので、店を開くと瞬く間に売切れ、普通朝八時頃迄に売るのを六時にはもう売り尽して帰宅します。<br><br>今では一般に知れ渡り、リヤカーを引いて行くとお客は待っていて奪うようにして買って行き、それも外の人より高価に売れます。<br><br>稲作は農業協同組合の脇に作っているので、随分村中の注目の的になりましたが、収穫して見ると量もあり、特に品質のよいことで一般は四、五等米ばかりにも拘わらず、渡辺君の米は一、二等米で立会いの検査官も驚き、郡でも一番だといっていました。<br><br>このことは石山尋常小学校の掲示板にも出ました。<br><br>往々にして自然栽培者は供出完納を危ぶまれますが、未完納どころか全部完納又は超過供出をしています。<br><br> 又毎年年中行事の如くやって来る風水害にも被害を受けず、その都度余りの有難さに感泣したことが幾度ありましたことか。<br><br> 次に健康方面にはこれ又素暗しい効果を挙げています。<br><br>本教自然栽培者の健康度の向上は顕著なもので、一見してその顔色で判る程血色はよくなり、どんなに働いても決して疲労しないといっています。<br><br>それに栄養価の高いこと、炊増えすることで、保有米が予定より一、二割ずつ毎年残るのであります。<br><br> 嗚呼！偉なる哉自然農法、実に自然に従う者は栄え、自然に遭う者は亡ぶとか、大自然のままに自然農法を素直に実行すれば、病無く、貧無く従って争も無く信仰を生活の中に生かし、心も経済も共に満ち足りて、世の荒波を外に、安らかに天地と共に富み栄え行くことができるこの喜び、ただただ明主様に感謝感激報恩の念を深くするのみであります。<br><br> 以上ささやかな体験ながら御報告させて頂きました。<br><br> （昭和二十五年十一月二十二日提出）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Membro excede a cota de entrega de arroz por meio da Agricultura Natural</h2>
 <p><strong>Publicado na revista Eikou, nº 79, em 22 de novembro de 1950.</strong>
@@ -108,5 +263,48 @@ Terceiro ano: de um aumento de 20% a 30%.</p>
 <p>Ah, quão grandiosa é a Agricultura Natural! Em verdade, aquele que segue a Natureza prospera, e aquele que a ela se opõe, perece. Ao praticarmos com sinceridade este método, em total consonância com a Grande Natureza, eliminamos a doença, a pobreza e, por conseguinte, o conflito. Podemos, assim, vivificar a fé em nosso cotidiano, alcançando a plenitude espiritual e material. Que alegria é poder prosperar em paz, em união com o Céu e a Terra, resguardados das turbulentas ondas do mundo. Por tudo isso, só nos resta aprofundar nossos sentimentos de gratidão, emoção e desejo de retribuir a Meishu-Sama.</p>
 <p>Este foi o modesto relato de nossas experiências, que submeto à vossa apreciação.</p>
 <p>(Apresentado em 22 de novembro de 1950)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 自然耕作で超過供出する信徒 『栄光』79号、昭和25(1950)年11月22日 自然農法解説・（革）自然農法解説に収録 新潟県 光陽中教会長 小川栄太郎（37） 光陽中教会の会員有志も自然農法体験三年となり、種々の奇蹟的な御守護を頂き、ただただ偉大なる御力に驚嘆しています。<br/><br/>統計的な御報告は各会員から詳しくして頂くとしまして、不肖会員と共に田植から刈入れまで体験いたしまして、本教自然農法こそ行詰まれる農村を打開する唯一の救いの道であると堅く確信し、この体験に立脚し、今こそ声を大にして、自然農法を一人でも多くの人に知らしめたく、拙文をも顧みず御報告させて頂きます。<br/><br/> 一信徒、新潟県西蒲原郡大原村、山岸真十郎君は、完納の外に二十俵の超過供出という好成績を挙げ、その外十俵の余裕が出来た位です。<br/><br/> 山岸君の自然耕作一年目の収穫は村の人達の下位に属していましたが、二年目は中位に属し、三年目の本年は上位になり、村一番の稲作りの名人と競作田を作りましたが、皆稲熱病に犯され、誰一人相手になる者がなくなりました。<br/><br/>村の農業技術員も山岸君の稲の状態を見て、最も理想的な生育状態であると驚歎しました。<br/><br/>山岸君は本教教師で御浄霊が忙しく人手不足のため、殆んど藁も使わずに三年目になっているので、初めは気違いあつかいにしていた人々もただ不思議なことだといっています。<br/><br/> 一信者、新潟県南魚沼郡六日町、山口玲治君は、一年目から耕作面積九反三畝、平年作六十二俵（肥料代三万円）の田より自然栽培で六十六俵の収穫を挙げています（内三反は水害を蒙むる）。<br/><br/>その外中蒲原郡亀田町、石原特平君及び西蒲原郡吉田町、井塚左武郎君は、反当八、九俵の収穫を挙げています。<br/><br/>その外にも二、三反ずつ自然耕作者は沢山あり、相当の収穫を挙げています。<br/><br/>土地肥毒の多寡等があり反当石数は標準になりませんが光陽中教会の体験としましては、 自然耕作 一年目一割減－平年作 二年目 平年作－二割増 三年目 二割増－三割増 （平年作を標準） 右のような結果になり、経済的には、肥料代不要、労力三分の一で一石何鳥にもなり、金詰りも何の苦労なく実に喜んでおります。<br/><br/> 一信徒、新潟市、渡辺産作君の細君は三年来野菜を自然栽培して市内に売りに行っているのですが、全然何も知らない人が余りにも一般に比較して美味なので、店を開くと瞬く間に売切れ、普通朝八時頃迄に売るのを六時にはもう売り尽して帰宅します。<br/><br/>今では一般に知れ渡り、リヤカーを引いて行くとお客は待っていて奪うようにして買って行き、それも外の人より高価に売れます。<br/><br/>稲作は農業協同組合の脇に作っているので、随分村中の注目の的になりましたが、収穫して見ると量もあり、特に品質のよいことで一般は四、五等米ばかりにも拘わらず、渡辺君の米は一、二等米で立会いの検査官も驚き、郡でも一番だといっていました。<br/><br/>このことは石山尋常小学校の掲示板にも出ました。<br/><br/>往々にして自然栽培者は供出完納を危ぶまれますが、未完納どころか全部完納又は超過供出をしています。<br/><br/> 又毎年年中行事の如くやって来る風水害にも被害を受けず、その都度余りの有難さに感泣したことが幾度ありましたことか。<br/><br/> 次に健康方面にはこれ又素暗しい効果を挙げています。<br/><br/>本教自然栽培者の健康度の向上は顕著なもので、一見してその顔色で判る程血色はよくなり、どんなに働いても決して疲労しないといっています。<br/><br/>それに栄養価の高いこと、炊増えすることで、保有米が予定より一、二割ずつ毎年残るのであります。<br/><br/> 嗚呼！偉なる哉自然農法、実に自然に従う者は栄え、自然に遭う者は亡ぶとか、大自然のままに自然農法を素直に実行すれば、病無く、貧無く従って争も無く信仰を生活の中に生かし、心も経済も共に満ち足りて、世の荒波を外に、安らかに天地と共に富み栄え行くことができるこの喜び、ただただ明主様に感謝感激報恩の念を深くするのみであります。<br/><br/> 以上ささやかな体験ながら御報告させて頂きました。<br/><br/> （昭和二十五年十一月二十二日提出）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>M260701</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御垂示 （S26年7月1日） 『御垂示録』6号、昭和27(1952)年1月25日発行 昭和二十六年七月一日 「殺人第一号を出しました。<br><br>義兄の五つの男の子で、頼まれて浄霊しておりましたが、頭が火の玉のように熱く、浄霊しているとすぐ冷めます。<br><br>悪くなったら呼ぶからとのことで帰りましたが、起こしにくる、帰る。<br><br>また起こしにくるというのが重なり、一生懸命やっておりましたが、昨日死にました。<br><br>疫痢の便みたいのが出ておりました」 あくびは。<br><br> 「あんまり出ませんでした」 それは義兄の子供ですか。<br><br>名前は？ 「福島健次」 あなたの子供は。<br><br> 「一人です」 それは、あなたの身代わりだな。<br><br>あなたの命に関わる罪があるんだな。<br><br>それを、引き受けて逝ったんです。<br><br> 「棺に納めるとき、浄霊したところは柔らかく、足だけはしていませんので、固くなっておりました」 子供が死ぬというのは、身代わりが多いです。<br><br>信仰に熱心になるとそういうことがある。<br><br>それで良いわけですがね。<br><br> 「信仰して悪いことはございませんですから」 そうです。<br><br>あなたが浄霊するということは、そういう意味です。<br><br>今になるほどと思うことがありますよ。<br><br> 本当はあなたの子供が死ぬんだが、あなたの子供は一人しかないから助けてくれたんです。<br><br>しかし、これからは信者の中で命をなくすのが、ちょいちょい出ますよ。<br><br>どうしても神様の――だんだん、つまり洗っていくからね。<br><br>どうしても、穢れてるものはしょうがない。<br><br>身代わりとか――いろんな方法でね。<br><br> 「西宮の会社で井戸を掘ったところ、奇妙な石が出て、行者に見てもらいましたところ、祀るようにと言われ、祀っておりましたが、支社の九州中津で井戸を掘りましたところ、西宮に出た石と同じ石が出たそうです。<br><br>それで、夫婦だろうと言うので西宮の石を中津に持って行きましたところ、石が出てから非常に盛んであった本社がだんだんさびれてまいり、どうしたら良いかと相談を受けましたのでございますが、どういたしましたらよろしいでございましょうか」 西宮のほうは、光明如来様はお祀りしてますか？ 「社長室には御額をお掛けして、自宅には光明如来様をお祀りしております」 それはね、やり方が逆になっている。<br><br>分工場に一緒にしているでしょう。<br><br>本社に祀るのが本当です。<br><br>分けて良いけれど、祀るとすれば本社に祀るべきです。<br><br>支店のほうに祀るというのが違う。<br><br>いっそ、別れ別れにするか、本社にするかどっちかですね。<br><br>その土地から出たということは、その土地から離れてはいけない。<br><br>最初、本社から出たのだから、やはり本社に祀るんですね。<br><br>それから支社に出たんですね。<br><br>位の上のものが行くんだからね。<br><br>全て理屈に合っていなければならない。<br><br>行者の間違いです。<br><br>しかしおもしろいですね。<br><br>同じ石とはね。<br><br>なにしろ、本社のを向こうに移すのはいけないですね。<br><br>支社のほうはどっちでもかまわないです。<br><br>西宮の石が、そうしてもらいたいのです。<br><br>たいがい龍神ですからね。<br><br> 「旭という字は九の字になってますが、なにか意味がございますでしょうか」 旭のほうが早いわけだな――日が出るのがね。<br><br>それと日の強さだな。<br><br>あれはね旭日（きょくじつ）というので、最初出たての意味で――霊というわけですね。<br><br>普通の「朝」の日は体だから、説明みたいなもので、旭というのが力があるわけです。<br><br> 「信者さんの子供さんでございますが、夜の二時頃になりますと、強羅（ごうら）のほうに向ってお辞儀をいたしますが、なにか意味がございましょうか」 霊が憑るんです。<br><br>祖霊ですがね。<br><br>ありがたいんでね。<br><br>祖霊としては、私を知っているんですよ。<br><br> 「よく、御神体を普通の御神体の観念で拝んでおりますと、それがために明主様のことを教えてくれるということに――」 そうです。<br><br>祖霊は知ってますからね。<br><br> いまの石だけど、両方本社に祀らなければいけない。<br><br>それが本当です。<br><br>やっぱり夫婦ですよ。<br><br>今まで、親父が妻君のほうに同居していた。<br><br>どういう所に祀っていたんですか。<br><br> 「井戸の側でございます」 名前はつけてあるんですか。<br><br> 「いいえ」 必要はないですね。<br><br>やっぱりね、本社が盛んになれば支社も盛んになる。<br><br>本社が盛んになれば支社はいくつもできるようになる。<br><br>それで、なにかあるとお知らせするでしょう。<br><br>龍神というのは、非常に商売繁盛させる腕があるからね。<br><br>先に名古屋で、非常に繁盛した宿屋で――いまはないが昔あった。<br><br>その宿屋の妻君に会ったが、そこの家は蛇がたくさんいるんだ。<br><br>よく、東京から、西園寺さんがそこに来て泊って――それで、繁盛した。<br><br>ところが、火事で丸焼けになった。<br><br>そうしたら、蛇も一緒に死んだ。<br><br>それで、後から普請してやってもうまくいかなかった。<br><br>まったく蛇がやっていたんですね。<br><br> 「これからは、そういう奇跡はなくなっていくわけでございましょうか」 だんだんなくなっていきます――夜の世界だからね。<br><br>しかし、世界の物質の宝は龍宮の乙姫さんが一時握っていたわけなんです。<br><br> 「その龍神と貝と関係がございましょうか」 昔は貝が貨幣だったからね。<br><br>先に、大本教の時分。<br><br>出口王仁三郎――聖師様と言っていたが――ある晩、遅くなって帰ろうとすると、聖師様が泊って行きなさいと言う。<br><br>二代様の床なんです。<br><br>敷きっぱなしになっていて、寝ろと言うから、私はかまわず寝たんですが、他の人が、一信者のくせに二代様の床に入って寝た。<br><br>寝ろと言われても、お断りするのが本当だ「けしからん」と言っていたが、私は腹の中で知っているからね。<br><br>二代様と言うのは、龍宮の乙姫さんです。<br><br>聖師様は素盞嗚尊です。<br><br>素盞嗚尊の奥さんが、龍宮の乙姫さんです。<br><br>明くる朝聖師様に挨拶にいった。<br><br>「海羸」（ばい）という貝があります。<br><br>生で食うと非常にうまいんです。<br><br>「岡田さん、これは食うとうまいから、食いなさい」と言うので、「海羸」と言うのは、これはたいへんな御神業だなと思ったことがある。<br><br>だから、すべて貨幣に関係したことは、貝の字がついている。<br><br>賣り、買い、と貝の字がついているのは、そういうわけです。<br><br>大本教は、たいへんな御神業の基礎的の意味がある。<br><br>去年、留置場のとき、教祖様に会った。<br><br>「大本教を助けてやってくれ」と言っていた。<br><br>将来、助けてやらなければならない時が来るんです。<br><br> 「蛤（はまぐり）の上に観音様がおられるのがございますが、どんな意味がございましょうか」 観音さんの働きというのはたくさんありますからね。<br><br>蛤というのは物質的な意味がありますからね。<br><br>観音さんは、そういった物質上の働きをなさる。<br><br>そういう意味ですね。<br><br>三十三相の一つですね。<br><br> 「戦災以来仏壇がないのでございますが、仏壇を買うと、だれか死ぬというのですが」 仏壇がないのはいけない。<br><br>あべこべのことが多い――夜の世界だったからね。<br><br> お筆先があって、あれがたいしたものだった。<br><br>『霊界物語』とか。<br><br>今、ああいうのは民主主義と違うからね――根本からね。<br><br>それで、それを宣伝に使うことができない。<br><br>ところが、それを使わなければ生命がない。<br><br>「日本は神国、外国は獣の国であるぞよ」「今に艮（うしとら）の金神（こんじん）が返報返しを致すぞよ」なんてね。<br><br>もう、大本教の御用もすんでるわけです。<br><br>天理教の御用も済んでるし、仏教の御用も、キリスト教の御用もすんでる。<br><br>今までは確かに必要だった。<br><br>だからこれからも必要だとはいかない。<br><br>時に応じて変わっていく。<br><br>今までは治ったようだが、これからは死ぬか、浄霊を受けるか、どっちかです。<br><br>そこまで来ますね。<br><br>だいぶ近づいて来ているからね。<br><br>だから、楽に信者が増えればいいんです。<br><br>楽にどころか、先のほうで「頼みます」と言って来る時期でなければ本当じゃない。<br><br>そういう時期が来るんです。<br><br> 「一軒の家で御神体は、二体様お祀りしてはいけないとの御教えをいただいておりますが、農家で、母屋に兄が住み、離れに弟が住んでおりますが、両方に御神体をお祀りいたしております。<br><br>弟さんのほうは座談会に行かせていただいたりしております」 兄さんのほうは、そこの家を守り、弟さんのほうは宗教的宣伝をすると言うのですから、別々でかまわない。<br><br>かえって別々が本当です。<br><br>片方は農家の家を護って――やはり祖先はいるが、倒れたりするのは嫌がりますから、家を御守護して、弟さんのほうは宣伝を主にするので、別々だから良いんです。<br><br> 「母屋は良い部屋がなく、離れに立派なのができておりますが」 それで良い。<br><br>霊界ではそこが中心になっている。<br><br> 「親兄弟でございますが、門徒宗の和尚さんが簡単な人で、戒名をつけるのが嫌で、つけそこね、そのままでございます」 それはね、それも時期の問題です。<br><br>まだ、仏界がそうとう勢力のある間は、戒名でなければならない。<br><br>ところが、仏界がフラフラなんだから気にすることはない。<br><br>まだそのままですか。<br><br> 「変えました」 それならそれで良い。<br><br>そういった冠婚葬祭のいろいろな形式を作ります。<br><br>どうせ霊界では救われるんですから。<br><br>あなたが働いているということは、救われている。<br><br>改めて、そういった形式は作るからたいしたことはない。<br><br> 「無肥料栽培の、苗代が、無肥のほうと有肥のほうとは、良くかきまわしますが、無肥のほうはなかなか澄みません。<br><br>普通の有肥のほうはすぐに澄むのですが、どういうわけかと聞かれましたのでございますが――」 ちょうど、血液みたいなものでしょう。<br><br>無肥のほうですと軽いわけだからね。<br><br>水そのものは変わりない。<br><br>かりに、土が肥料を食っていると重いです。<br><br>無肥料のほうは軽いから澄むのは遅いわけです。<br><br> 「正しいという字ですが、一を止めると書きますが、なにか――」 一を止めると言って気にする人もあるんです。<br><br>ところがね、つまり、下と上と両方になる。<br><br>下という字と上という字は、両方こうなっている。<br><br>それが正しいと言う。<br><br> 「人間の名前につけると悪いと申しますが」 そんなことはない。<br><br>悪いというよりか、良すぎるんです。<br><br>と言うのは、霊が相応していれば良いが、霊より名前のほうが良すぎるからです。<br><br>調和しないからです。<br><br>だから天という字を書くと、必ず失敗する。<br><br>というのは、良すぎるからです。<br><br>天皇は別ですがね。<br><br>普通の人間は地に住んでいるから、天じゃ高すぎる。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Respostas aos Questionamentos da Fé</h2>
 <p>Venho relatar o primeiro óbito ocorrido sob meus cuidados. Tratava-se do filho de cinco anos do meu cunhado, a quem eu vinha ministrando Johrei a seu pedido. A cabeça do menino ardia como uma bola de fogo, mas, ao ministrar-lhe Johrei, a febre cedia imediatamente. Despedi-me com a recomendação de que me chamassem caso o estado dele piorasse. No entanto, o ciclo de me chamarem de madrugada e eu retornar para casa repetiu-se incessantemente. Apesar de todo o meu empenho, ele faleceu ontem. As fezes que ele evacuava eram semelhantes às de disenteria infecciosa.</p>
@@ -143,5 +295,48 @@ function toggleLang(lang) {
 <p>Algumas pessoas se apegam a essa interpretação de "parar no um". Contudo, a verdadeira essência reside na união dos princípios de "embaixo" e "em cima". A harmonia entre o inferior e o superior é o que constitui o que é correto.</p>
 <p>Dizem que é ruim usar esse ideograma em nomes de pessoas.</p>
 <p>Isso não é verdade. Não se trata de ser ruim; ao contrário, é um nome bom em demasia. O problema reside na correspondência. Se o espírito da pessoa estiver à altura do nome, não há problema. A desarmonia surge quando o nome excede em muito a condição espiritual de quem o porta. O mesmo ocorre com o ideograma para "céu" (天), que, quando usado em nomes, quase sempre resulta em fracasso. É um nome elevado demais. A exceção, naturalmente, é o Imperador. As pessoas comuns habitam a terra; o céu é uma esfera demasiado alta para elas.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御垂示 （S26年7月1日） 『御垂示録』6号、昭和27(1952)年1月25日発行 昭和二十六年七月一日 「殺人第一号を出しました。<br/><br/>義兄の五つの男の子で、頼まれて浄霊しておりましたが、頭が火の玉のように熱く、浄霊しているとすぐ冷めます。<br/><br/>悪くなったら呼ぶからとのことで帰りましたが、起こしにくる、帰る。<br/><br/>また起こしにくるというのが重なり、一生懸命やっておりましたが、昨日死にました。<br/><br/>疫痢の便みたいのが出ておりました」 あくびは。<br/><br/> 「あんまり出ませんでした」 それは義兄の子供ですか。<br/><br/>名前は？ 「福島健次」 あなたの子供は。<br/><br/> 「一人です」 それは、あなたの身代わりだな。<br/><br/>あなたの命に関わる罪があるんだな。<br/><br/>それを、引き受けて逝ったんです。<br/><br/> 「棺に納めるとき、浄霊したところは柔らかく、足だけはしていませんので、固くなっておりました」 子供が死ぬというのは、身代わりが多いです。<br/><br/>信仰に熱心になるとそういうことがある。<br/><br/>それで良いわけですがね。<br/><br/> 「信仰して悪いことはございませんですから」 そうです。<br/><br/>あなたが浄霊するということは、そういう意味です。<br/><br/>今になるほどと思うことがありますよ。<br/><br/> 本当はあなたの子供が死ぬんだが、あなたの子供は一人しかないから助けてくれたんです。<br/><br/>しかし、これからは信者の中で命をなくすのが、ちょいちょい出ますよ。<br/><br/>どうしても神様の――だんだん、つまり洗っていくからね。<br/><br/>どうしても、穢れてるものはしょうがない。<br/><br/>身代わりとか――いろんな方法でね。<br/><br/> 「西宮の会社で井戸を掘ったところ、奇妙な石が出て、行者に見てもらいましたところ、祀るようにと言われ、祀っておりましたが、支社の九州中津で井戸を掘りましたところ、西宮に出た石と同じ石が出たそうです。<br/><br/>それで、夫婦だろうと言うので西宮の石を中津に持って行きましたところ、石が出てから非常に盛んであった本社がだんだんさびれてまいり、どうしたら良いかと相談を受けましたのでございますが、どういたしましたらよろしいでございましょうか」 西宮のほうは、光明如来様はお祀りしてますか？ 「社長室には御額をお掛けして、自宅には光明如来様をお祀りしております」 それはね、やり方が逆になっている。<br/><br/>分工場に一緒にしているでしょう。<br/><br/>本社に祀るのが本当です。<br/><br/>分けて良いけれど、祀るとすれば本社に祀るべきです。<br/><br/>支店のほうに祀るというのが違う。<br/><br/>いっそ、別れ別れにするか、本社にするかどっちかですね。<br/><br/>その土地から出たということは、その土地から離れてはいけない。<br/><br/>最初、本社から出たのだから、やはり本社に祀るんですね。<br/><br/>それから支社に出たんですね。<br/><br/>位の上のものが行くんだからね。<br/><br/>全て理屈に合っていなければならない。<br/><br/>行者の間違いです。<br/><br/>しかしおもしろいですね。<br/><br/>同じ石とはね。<br/><br/>なにしろ、本社のを向こうに移すのはいけないですね。<br/><br/>支社のほうはどっちでもかまわないです。<br/><br/>西宮の石が、そうしてもらいたいのです。<br/><br/>たいがい龍神ですからね。<br/><br/> 「旭という字は九の字になってますが、なにか意味がございますでしょうか」 旭のほうが早いわけだな――日が出るのがね。<br/><br/>それと日の強さだな。<br/><br/>あれはね旭日（きょくじつ）というので、最初出たての意味で――霊というわけですね。<br/><br/>普通の「朝」の日は体だから、説明みたいなもので、旭というのが力があるわけです。<br/><br/> 「信者さんの子供さんでございますが、夜の二時頃になりますと、強羅（ごうら）のほうに向ってお辞儀をいたしますが、なにか意味がございましょうか」 霊が憑るんです。<br/><br/>祖霊ですがね。<br/><br/>ありがたいんでね。<br/><br/>祖霊としては、私を知っているんですよ。<br/><br/> 「よく、御神体を普通の御神体の観念で拝んでおりますと、それがために明主様のことを教えてくれるということに――」 そうです。<br/><br/>祖霊は知ってますからね。<br/><br/> いまの石だけど、両方本社に祀らなければいけない。<br/><br/>それが本当です。<br/><br/>やっぱり夫婦ですよ。<br/><br/>今まで、親父が妻君のほうに同居していた。<br/><br/>どういう所に祀っていたんですか。<br/><br/> 「井戸の側でございます」 名前はつけてあるんですか。<br/><br/> 「いいえ」 必要はないですね。<br/><br/>やっぱりね、本社が盛んになれば支社も盛んになる。<br/><br/>本社が盛んになれば支社はいくつもできるようになる。<br/><br/>それで、なにかあるとお知らせするでしょう。<br/><br/>龍神というのは、非常に商売繁盛させる腕があるからね。<br/><br/>先に名古屋で、非常に繁盛した宿屋で――いまはないが昔あった。<br/><br/>その宿屋の妻君に会ったが、そこの家は蛇がたくさんいるんだ。<br/><br/>よく、東京から、西園寺さんがそこに来て泊って――それで、繁盛した。<br/><br/>ところが、火事で丸焼けになった。<br/><br/>そうしたら、蛇も一緒に死んだ。<br/><br/>それで、後から普請してやってもうまくいかなかった。<br/><br/>まったく蛇がやっていたんですね。<br/><br/> 「これからは、そういう奇跡はなくなっていくわけでございましょうか」 だんだんなくなっていきます――夜の世界だからね。<br/><br/>しかし、世界の物質の宝は龍宮の乙姫さんが一時握っていたわけなんです。<br/><br/> 「その龍神と貝と関係がございましょうか」 昔は貝が貨幣だったからね。<br/><br/>先に、大本教の時分。<br/><br/>出口王仁三郎――聖師様と言っていたが――ある晩、遅くなって帰ろうとすると、聖師様が泊って行きなさいと言う。<br/><br/>二代様の床なんです。<br/><br/>敷きっぱなしになっていて、寝ろと言うから、私はかまわず寝たんですが、他の人が、一信者のくせに二代様の床に入って寝た。<br/><br/>寝ろと言われても、お断りするのが本当だ「けしからん」と言っていたが、私は腹の中で知っているからね。<br/><br/>二代様と言うのは、龍宮の乙姫さんです。<br/><br/>聖師様は素盞嗚尊です。<br/><br/>素盞嗚尊の奥さんが、龍宮の乙姫さんです。<br/><br/>明くる朝聖師様に挨拶にいった。<br/><br/>「海羸」（ばい）という貝があります。<br/><br/>生で食うと非常にうまいんです。<br/><br/>「岡田さん、これは食うとうまいから、食いなさい」と言うので、「海羸」と言うのは、これはたいへんな御神業だなと思ったことがある。<br/><br/>だから、すべて貨幣に関係したことは、貝の字がついている。<br/><br/>賣り、買い、と貝の字がついているのは、そういうわけです。<br/><br/>大本教は、たいへんな御神業の基礎的の意味がある。<br/><br/>去年、留置場のとき、教祖様に会った。<br/><br/>「大本教を助けてやってくれ」と言っていた。<br/><br/>将来、助けてやらなければならない時が来るんです。<br/><br/> 「蛤（はまぐり）の上に観音様がおられるのがございますが、どんな意味がございましょうか」 観音さんの働きというのはたくさんありますからね。<br/><br/>蛤というのは物質的な意味がありますからね。<br/><br/>観音さんは、そういった物質上の働きをなさる。<br/><br/>そういう意味ですね。<br/><br/>三十三相の一つですね。<br/><br/> 「戦災以来仏壇がないのでございますが、仏壇を買うと、だれか死ぬというのですが」 仏壇がないのはいけない。<br/><br/>あべこべのことが多い――夜の世界だったからね。<br/><br/> お筆先があって、あれがたいしたものだった。<br/><br/>『霊界物語』とか。<br/><br/>今、ああいうのは民主主義と違うからね――根本からね。<br/><br/>それで、それを宣伝に使うことができない。<br/><br/>ところが、それを使わなければ生命がない。<br/><br/>「日本は神国、外国は獣の国であるぞよ」「今に艮（うしとら）の金神（こんじん）が返報返しを致すぞよ」なんてね。<br/><br/>もう、大本教の御用もすんでるわけです。<br/><br/>天理教の御用も済んでるし、仏教の御用も、キリスト教の御用もすんでる。<br/><br/>今までは確かに必要だった。<br/><br/>だからこれからも必要だとはいかない。<br/><br/>時に応じて変わっていく。<br/><br/>今までは治ったようだが、これからは死ぬか、浄霊を受けるか、どっちかです。<br/><br/>そこまで来ますね。<br/><br/>だいぶ近づいて来ているからね。<br/><br/>だから、楽に信者が増えればいいんです。<br/><br/>楽にどころか、先のほうで「頼みます」と言って来る時期でなければ本当じゃない。<br/><br/>そういう時期が来るんです。<br/><br/> 「一軒の家で御神体は、二体様お祀りしてはいけないとの御教えをいただいておりますが、農家で、母屋に兄が住み、離れに弟が住んでおりますが、両方に御神体をお祀りいたしております。<br/><br/>弟さんのほうは座談会に行かせていただいたりしております」 兄さんのほうは、そこの家を守り、弟さんのほうは宗教的宣伝をすると言うのですから、別々でかまわない。<br/><br/>かえって別々が本当です。<br/><br/>片方は農家の家を護って――やはり祖先はいるが、倒れたりするのは嫌がりますから、家を御守護して、弟さんのほうは宣伝を主にするので、別々だから良いんです。<br/><br/> 「母屋は良い部屋がなく、離れに立派なのができておりますが」 それで良い。<br/><br/>霊界ではそこが中心になっている。<br/><br/> 「親兄弟でございますが、門徒宗の和尚さんが簡単な人で、戒名をつけるのが嫌で、つけそこね、そのままでございます」 それはね、それも時期の問題です。<br/><br/>まだ、仏界がそうとう勢力のある間は、戒名でなければならない。<br/><br/>ところが、仏界がフラフラなんだから気にすることはない。<br/><br/>まだそのままですか。<br/><br/> 「変えました」 それならそれで良い。<br/><br/>そういった冠婚葬祭のいろいろな形式を作ります。<br/><br/>どうせ霊界では救われるんですから。<br/><br/>あなたが働いているということは、救われている。<br/><br/>改めて、そういった形式は作るからたいしたことはない。<br/><br/> 「無肥料栽培の、苗代が、無肥のほうと有肥のほうとは、良くかきまわしますが、無肥のほうはなかなか澄みません。<br/><br/>普通の有肥のほうはすぐに澄むのですが、どういうわけかと聞かれましたのでございますが――」 ちょうど、血液みたいなものでしょう。<br/><br/>無肥のほうですと軽いわけだからね。<br/><br/>水そのものは変わりない。<br/><br/>かりに、土が肥料を食っていると重いです。<br/><br/>無肥料のほうは軽いから澄むのは遅いわけです。<br/><br/> 「正しいという字ですが、一を止めると書きますが、なにか――」 一を止めると言って気にする人もあるんです。<br/><br/>ところがね、つまり、下と上と両方になる。<br/><br/>下という字と上という字は、両方こうなっている。<br/><br/>それが正しいと言う。<br/><br/> 「人間の名前につけると悪いと申しますが」 そんなことはない。<br/><br/>悪いというよりか、良すぎるんです。<br/><br/>と言うのは、霊が相応していれば良いが、霊より名前のほうが良すぎるからです。<br/><br/>調和しないからです。<br/><br/>だから天という字を書くと、必ず失敗する。<br/><br/>というのは、良すぎるからです。<br/><br/>天皇は別ですがね。<br/><br/>普通の人間は地に住んでいるから、天じゃ高すぎる。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

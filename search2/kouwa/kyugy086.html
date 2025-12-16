@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kyugy086</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 信仰篇（救業、布教） ６ 086-107 布教の道２ 086 親子一世・夫婦二世・主従三世、（現在の夫婦の霊層）、努力の逆効果、無理と焦りの非 親子は一世、夫婦は二世、主従は三世の因縁について―― これは昔封建時代、家来を殿様なり大将のため生命を捨てて働かす目的の下に非常に縁の深いような道徳を造った。<br><br>夫婦は二世というのは本当である。<br><br>親子一世も本当で、厳密にいえば親子も二世である。<br><br> 夫婦にしても、五人も六人も妻のある人もあるが、原則として最初のが本当である。<br><br>因縁により、夫婦であったものは夫婦になる。<br><br> 世が乱れ、邪神が活動するために、本当の夫婦でない事も種々ある。<br><br>男女間の事は非常に神秘である。<br><br>これは大乗で説かぬと分らぬ。<br><br> 霊層界であまり遠いと夫婦になれぬ。<br><br>夫婦同じ霊層界という事は、ミロクの世までは絶無とはいえぬが極く少ない。<br><br>今は大抵高さの相違がある。<br><br>分らぬ妻を、信仰の橋渡しするのは人間でいいが、信仰に入れるのは神様に任すべきで、努力すると反って逆効果になる。<br><br>無理や焦りはいけない。<br><br>（S23夏） rattail（注） 〔 御垂示（ S27年2月**日) 『御垂示録』7号、昭和27(1952)年3月10日発行〕 「仏教では親子は一世、夫婦は二世と申しますが――」 『でたらめです。<br><br>仏教じゃなくて、武士道で言ったんです。<br><br>親子は一世、夫婦は二世、主従は三世――忠義をさせるために、ああいった都合の良い道徳を作ったんです。<br><br>主従は三世で一番深いから親子は一世だから――忠義をしろというんですが、あべこべですよ。<br><br>主従が一番浅いですよ。<br><br>生まれて来て、予期もしないところと主従になるんですからね。<br><br>常識で考えても解りますよ。<br><br>親子は何だが、夫婦はとても強いですからね。<br><br>主従とは違いますよ。<br><br>武家時代の道徳は、そのときの権力者の都合の良いものに作ったんです。<br><br>だから、本当の道徳じゃない。<br><br>人間としての道徳じゃない。<br><br>階級としての道徳ですね。<br><br>間違ったものはいかんと、今廃止になって民主的になったのは――間違ったものが壊れたのは――それで良かったんですね。<br><br>』 087 熱心な入信の勧め 私は昨年八月入信、私が熱心になるにつれ兄肇（二十五歳）は私に物も言わなくなり、毎夜のごとく何物かにおびやかされているようです。<br><br>過日私宅の光明如来様の御霊魂祭にも、どうしても参拝してくれません。<br><br>兄との関係上父親も入信を迷いましたが、この度浄光を戴きます。<br><br>今後いかにすれば兄のひねくれたのが治りましょうか。<br><br> 何にもせぬ方がよい。<br><br>無理に勧めたりすると神を冒涜する事になる。<br><br>奨めても応じないのは罰あたりである。<br><br>（S25. 4. 6） 088 入信希望なき者 私は昭和二十三年一月二十七日入信致しました。<br><br>なお私の妻もその後入信させて頂きましたが、最近は一向に信仰心なく常に病苦に悩まされております。<br><br>私もいつでも御浄霊をさせて頂きたいと考えておりますが、本人が余りにも希望がないため、いかが致しましたらよいでしょうか。<br><br> 希望がなければ放ったらかしておけばよい。<br><br> 押さえつけると神様を冒涜する事になる。<br><br>こういうのは神様に背こうとする霊が憑いている。<br><br>（S24. 8.17） 089 話す程信仰を避ける家族の対処 家族七名中六名迄は入信、微力ながらも御用をつとめさせて頂いておりますが、長女の婿養子（三十一歳）だけがどうしても知らうとせず、協力をしてくれません。<br><br>御利益を知っており、家でも御参りは共にいたしますが、話せば話す程反動的に釣に熱をあげる始末で御座います。<br><br>どうすれば良いでしょうか。<br><br>御教示下さい。<br><br> これも腹中の客がやるのである。<br><br>腹の底が悪い。<br><br>その家の霊界が浄まってくると邪霊は萎縮し、間違った考えはもてなくなる。<br><br>すると同化しなくてはおれなくなり改心する。<br><br>時期の問題で、無理に話したりなどせぬ方がよい。<br><br>話すと邪神がいろいろ思わすから、反って反対に出る。<br><br>（S24. 7.27） 090 どうしても分らぬものの場合、宗旨霊の妨害 十人兄弟で、私は男七人女三人の七男で御座いますが、現在は男四人女一人になりました。<br><br>兄弟皆別に世帯を持ち、長兄を除き大光明如来または光明如来様をそれぞれお迎え致して御利益を戴いておりますが長兄は先祖の霊をお祭り致しております。<br><br>他の四人は両親の霊をそれぞれお祭り致しておりますが、長兄に観音様の有難味を話し色々と勧めておりますがどうしても分りません。<br><br>長兄が観音様の信者になった方が仏は大きく救われるのではないでしょうか。<br><br>それ共現在の状態にて仏の救われるのに変り御座いませんか。<br><br>また仏は兄弟の家を自由に往き来しておりましょうか。<br><br>御伺い申し上げます。<br><br> これは長兄が入信すべきであるが――した方が本当だからよいが、入信は時期があるから、一緒に思うように信仰に入る訳にはゆかぬ点があるから、観音様にお任せして、心配せぬ方がよい。<br><br> ある宗旨を継いでいる場合、その宗旨の神や仏に執着があっては具合がわるいんで、一生懸命改宗しないようにする。<br><br>急に改宗さすのも可哀相なので時を待つがよい。<br><br> また、宗旨の霊界における信徒も、霊的に長兄に憑ったりなどして、改宗させないようにする場合もある。<br><br>そういうのを無理に奨めたりするのはまずい。<br><br>時を待つ態度でいればよい。<br><br> 仏になった親の霊は、兄弟の家を廻っている。<br><br>だから世間で長男さえ祀っていればよいというのは誤りで、子供は全部祀らなくてはいけない。<br><br>これは現界と同様である。<br><br>（S24. 2.10） 091 知識人の救い 心貧しきものは天国に入る事を得んと聖書に御座居ますが、心慢（おご）れるもの即ち知識人と称するもの達に御浄霊による天国到来を知らしめようと致しましても中々理解してくれません。<br><br>これらは最後の審判まで救えない宿命的な御霊なのでしょうか。<br><br>御伺い申し上げます。<br><br> 学者などは救われ難い。<br><br>救われるのと救われぬのと出来る。<br><br>天理教のお筆先に、学者金持後まわしとあるが、後になる。<br><br>（S24. 5.23） 092 豚に真珠 種々な宗教を渉り歩いた方には批判的態度の方が多く、本教の有難いところが分ったように見えても中々入信迄には至りません。<br><br>このようなお方はどんな具合に御導きしたらよろしいでしょうか。<br><br> 放っておけばよい。<br><br>話しても分らないのは霊的の盲である。<br><br>本をよく読ませる。<br><br>それで分らぬ人はまず救われぬ人である。<br><br>目の見えぬ人に見せても無駄である。<br><br>豚に真珠である。<br><br>（S25. 5.27） 093 老人に分りやすい説明法 観音様と阿弥陀様との関係について、火、水あるいは東洋及び西洋の例を言って、観音様の方が阿弥陀様より上だと説いても、阿弥陀様の方が上だと思って中々分りません。<br><br>仏教信徒、特に老人等に分りやすい説明方法をお教え下さい。<br><br> 話で分らぬから、放っておく事。<br><br> （以前、麹町で一軒支部を作った時にもそんな話があった。<br><br>――本願寺は法蔵菩薩を崇めている）（S24. 2.27） rattail（注） 〔 間違い信仰 、自観叢書第9篇『光への道』P.59、昭和24(1949)年12月30日発行〕 094 宣伝するには まず信仰雑話を渡して読ます。<br><br>幸福な世界を造る事、自分の体験を語る――という具合でいい。<br><br> 095 火素と気温、（浄化強化の説き方） 火素の増量につれて浄化力が盛んになる事を分りやすく説明し、一刻も早く多くの人を御導きしたいのですが、どうしたらよいでしょうか。<br><br>またそれが気温等にいかに変化を及ぼすでしょうか。<br><br>御教示願います。<br><br> 火素が増えるといくらか暖かくなる。<br><br> 出版した本を読ます。<br><br>そうすれば分る筈である。<br><br>（S25. 2. 5） 096 入信手引の話 入信する気になっている者から神様の説明を求められますが、いかように御導きしたらよいでしょうか。<br><br> 本を見せればよい。<br><br>（本や新聞はそのためにある）新聞も本も読めぬ人は駄目である。<br><br>（しかし決める事も出来ぬ）（S24. 7.25） 097 神書読めぬ文盲の場合 農村の信者の方は御本や光新聞を拝読する事が少うございます。<br><br>私はその衝に当っておりますが、いかように指導致しましたらよろしゅうございますか。<br><br>御伺い申し上げます。<br><br> 読んで聞かせればよい。<br><br>信仰による智慧が出ぬと救われぬ。<br><br>（S24. 9.29） 098 街頭宣伝の可否 五六七教街頭宣教の可否及び時期を御教示下さい。<br><br>また、街頭宣教可ならば統一された宣教主旨を改めて御示し戴けましょうか。<br><br>あるいは既に御発表の御論説により宣教させて戴いて宜しいでしょうか。<br><br>あわせて御教示御願い申し上げます。<br><br> 街頭宣伝は未だよい。<br><br>光新聞を人に見せる程度である。<br><br>今の所必要はない。<br><br>あまりパッとやると反っていけない。<br><br>それよりか室内宣伝を出来るだけやった方がよい。<br><br>（S24. 8.15） 099 浄霊の感じと救われる時期と因縁 相当に浄化している人に対して浄霊を行う場合、掌に感じがないにも拘らず、別段浄化もしておらない人に行って非常に熱く感ずる事がありますが、いかなる訳でしょうか。<br><br>また、同じ人でも掌に感ずる時と感じない時とありますがどういう訳ですか。<br><br>お伺い致します。<br><br> （逆である。<br><br>手に感じない程浄化する事はない。<br><br>人により種々ある）救われる時期に来てする場合非常にきくから熱が出る。<br><br>恵みが来てるから熱が出る。<br><br>救われる時期の来ぬ人はそうはゆかぬ。<br><br>前世の関係のある場合、助ける因縁があるから強く霊が出るという事もある。<br><br>種々原因があり、端的に言えぬ。<br><br>（S24. 5.15） 100 布教上病人に対する心構え、（病人に関する諸事情） 開拓に当り、まず何と言っても病人を優先的に扱いますが、大乗をどのように使いますか。<br><br> 大乗も小乗もない。<br><br>苦しみ悩む者を救うのが本当である。<br><br> 病人を優先的に救うのは結構である。<br><br>智慧がないといけない。<br><br>病人にも気の向く病人、気の向かぬ病人、感謝のあるのとない病人等いろいろある。<br><br>気の向かぬ病人は警告されてるからと、うまく手放すのがよい。<br><br> 病人は気が向いても家の者が気の向かぬのもある。<br><br> また、妻が病気で夫に二号があり、妻が早く片付いてくれる方がよいと思い、妻は一生懸命に縋るというのもある。<br><br>これはまことに困るんで、夫と二号の霊が来る。<br><br>これは救っても仕様がない。<br><br>こういうのは臨機応変にする。<br><br>妻が良くなるに従い、親父は悪くなる。<br><br> 妻君が治ると親父が喜ぶ。<br><br>宣伝はするが、そのくせ自分は入らぬというのもある。<br><br> 101 離信の人を引っ張る事 教修を受けっ放しでその後連絡を断った人は教導所の方から積極的に引張ってやった方がよろしいでしょうか。<br><br>本人の意志に任せた方がよろしいでしょうか。<br><br> 引っ張ってはいけない。<br><br>いろいろの関係や神様の御都合でそうなっているのがいる。<br><br>順序のため遅れているのである。<br><br>俳優が役でない時に出ると、芝居を壊すようなものである。<br><br> 永遠に救わるべき所であるから、先で頭を下げてくるのが本当である。<br><br> 102 離信多く発展せぬ理 私の分会は福井市が中心になりますので、福井市を重点に分会長以下開拓に努めておりますが思うように発展致しません。<br><br>少数の入信者はありますが、初めは熱心であっても段々遠くなり「古きが消え新しきを生む」事を繰り返し、結局発展致しません。<br><br>いかなる理由でしょうか。<br><br>これは私共の誠の不足からか、または土地の因縁によるのでしょうか。<br><br>先日、分会長は氏神様に参拝祝詞を奏上し、本教発展を祈りましたが、今後はいかにしたらよいでしょうか。<br><br>御教示願い上げます。<br><br> 信者を獲得出来ても離れるのは、一番の原因は土地にある。<br><br>真宗の勢いの強い所で、何百年の歴史を持ち、根強く入っているから、一朝一夕には転換出来ぬ。<br><br>これでいい。<br><br>種を播くのであるから、いつか実る。<br><br>人間の眼には発展せぬ所もある時期へゆくとパッと発展する。<br><br>芽が表われるのである。<br><br>であるから、そういう事は気にせずコツコツやってゆく。<br><br> 神様には順序があって、種を播く所、育てる所、刈り入れる所といろいろある。<br><br>気をもむ必要はない。<br><br>（新聞の妨害の事など、神様に聞くと――。<br><br>神様は絶対力があるとすれば、そういうのをちょっとつまむのは訳はないのに悪口などをやってるのは、発展し過ぎると外に準備が出来ぬからであると――） すべて発展するものと衰えるものとある。<br><br> （昔相場を研究したが、その結果「上げる時はパッと上り、下る時はジリジリ」これは上げ相場で、「ジリジリ上りパッと下る」のは下げ相場である。<br><br>即ち上げる時には勢いがあり、下る時には上げる力がないのである。<br><br>事業でも宗教でも同じ理屈である。<br><br>本教も税金問題で暴騰した訳だ）（S24.11.15） 103 布教気に向かぬ時、（焦り苦しみは反神意） 教修を受けて二ケ年になる教導師で御座いますが、開発に参っております時、一時的に成績が挙らず、自己の気持も余り開発に出る気になれない時は出ないで時期を待っていますが、精神的に種々苦しみます。<br><br>こんな時はやはり開発に努力した方がよろしいでしょうか。<br><br>またその場合いかなる心構えであるべきでしょうか。<br><br>御教示下さい。<br><br> （気の向かぬ時は出ぬ方がよい。<br><br>その人の霊的資格がないから神様が使わぬのである。<br><br>それだけその人に力が出ていない） 焦ったり精神的に苦しむのは御神意に反する。<br><br> 力が出来れば神様が使う。<br><br>それには向上しなくてはならぬ。<br><br>それには一人でも多く浄霊して、霊力をつけ御著書を読む。<br><br>また、質疑する。<br><br>誠で、智慧を磨く。<br><br>向上心は尊いものである。<br><br>（S24. 7.15） 104 布教暇な時 千葉県佐原町の信者原増次郎の家に光明様を御祀りさせて頂き、本人は会社に勤務のかたわら御浄霊させて頂いておりました当時は患者も有り、教修者も出来ましたが、このたび会社を退き、専心御奉仕させて頂きたいと決心して三月二十三日に職を退きました。<br><br>ところがこれと時を同じゅうして患者がピッタリ、一人も来ません。<br><br>不思議に思っているある夜本人並びにその妻が夢を見ました。<br><br> 何か暇なのは、大抵御本を読めという事である。<br><br> 105 布教緒につかず 焦らぬ事。<br><br>未だ未だ信仰へ入れるだけの力がない。<br><br>段々コツを覚える。<br><br>（S *.11.16） 106 なかなか入信せしめ得ず 私は今回（四月九日）大光明如来をお受けさせていただきました。<br><br>その後専念観音様の事を人に話して入信を勧めておりますが、今少しのところで思うにまかせず、はかばかしく入信致しません。<br><br>どう致したら宜しいでしょうか。<br><br> 焦らぬ事である。<br><br>まだまだ信仰へ入れるだけの力がない。<br><br>段々コツを覚える。<br><br> （S24. 5.16） 107 布教効果挙がらず、（治し過ぎ、執拗、強圧的） 私は三年前入信し、布教に協力させて頂いております。<br><br>今日迄入信者も数々お導きさせて頂きましたが、未だ心から喜んで下さる方も御座居ません。<br><br>先生にお伺い致しましたら、それは治し過ぎるからだと申されました。<br><br>なお私は一旦嫁いで離婚、実家へ一度帰り、現在春陽会教導所にてお手伝いさせて頂いております。<br><br>私として現在及び今後いかにしたらよろしいでしょうか。<br><br>お伺い申し上げます。<br><br> 治し過ぎる事は絶対にない。<br><br>治し過ぎる人があれば大先生より上である。<br><br>治し過ぎないのである。<br><br>治れば必ず入信する。<br><br>治らぬのに治ったようにお世辞を言う。<br><br>教師の方に何か間違った点がある。<br><br>教導師でしつっこいのや強圧的なのがある。<br><br>それでいい加減に断るために「よくなった」と言う事がある。<br><br>正直ありのままに言えるようにすべきである。<br><br>あんまり気をもまずお任せする方がよい。<br><br>（S24. 6.28）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Caminho da Difusão 2</h2>
 <h3>086. A relação entre pais e filhos, uma existência; entre cônjuges, duas; entre amo e servo, três. O nível espiritual dos casais na atualidade. O efeito reverso do esforço e o equívoco da coerção e da impaciência.</h3>
@@ -174,5 +326,48 @@ function toggleLang(lang) {
 <h3>107. A difusão não produz resultados (Curar demais, insistência, atitude impositiva)</h3>
 <p>Ingressei na fé há três anos e tenho colaborado com a difusão. Até hoje, já orientei várias pessoas a ingressarem, mas ainda não encontrei ninguém que se sinta verdadeiramente feliz. Ao consultar meu superior, ele me disse que o problema é que eu "curo demais". Além disso, fui casada, me divorciei, voltei para a casa de meus pais e atualmente sirvo no Johrei Center Shunyō-kai. O que devo fazer agora e no futuro?</p>
 <p>É absolutamente impossível "curar demais". Se houvesse alguém capaz disso, seria superior ao Grande Mestre. O problema não é curar demais; é não curar o suficiente. Se a cura ocorre, a pessoa invariavelmente ingressa na fé. O que acontece é que, mesmo sem a cura, você elogia como se ela tivesse ocorrido. Há algum equívoco por parte do instrutor. Existem ministros que são insistentes ou impositivos. Para se livrar deles, a pessoa diz que "melhorou". É preciso criar um ambiente onde as pessoas possam se expressar com honestidade e naturalidade. É melhor não se afligir tanto e entregar tudo a Deus. (28 de junho de 1949)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 信仰篇（救業、布教） ６ 086-107 布教の道２ 086 親子一世・夫婦二世・主従三世、（現在の夫婦の霊層）、努力の逆効果、無理と焦りの非 親子は一世、夫婦は二世、主従は三世の因縁について―― これは昔封建時代、家来を殿様なり大将のため生命を捨てて働かす目的の下に非常に縁の深いような道徳を造った。<br/><br/>夫婦は二世というのは本当である。<br/><br/>親子一世も本当で、厳密にいえば親子も二世である。<br/><br/> 夫婦にしても、五人も六人も妻のある人もあるが、原則として最初のが本当である。<br/><br/>因縁により、夫婦であったものは夫婦になる。<br/><br/> 世が乱れ、邪神が活動するために、本当の夫婦でない事も種々ある。<br/><br/>男女間の事は非常に神秘である。<br/><br/>これは大乗で説かぬと分らぬ。<br/><br/> 霊層界であまり遠いと夫婦になれぬ。<br/><br/>夫婦同じ霊層界という事は、ミロクの世までは絶無とはいえぬが極く少ない。<br/><br/>今は大抵高さの相違がある。<br/><br/>分らぬ妻を、信仰の橋渡しするのは人間でいいが、信仰に入れるのは神様に任すべきで、努力すると反って逆効果になる。<br/><br/>無理や焦りはいけない。<br/><br/>（S23夏） rattail（注） 〔 御垂示（ S27年2月**日) 『御垂示録』7号、昭和27(1952)年3月10日発行〕 「仏教では親子は一世、夫婦は二世と申しますが――」 『でたらめです。<br/><br/>仏教じゃなくて、武士道で言ったんです。<br/><br/>親子は一世、夫婦は二世、主従は三世――忠義をさせるために、ああいった都合の良い道徳を作ったんです。<br/><br/>主従は三世で一番深いから親子は一世だから――忠義をしろというんですが、あべこべですよ。<br/><br/>主従が一番浅いですよ。<br/><br/>生まれて来て、予期もしないところと主従になるんですからね。<br/><br/>常識で考えても解りますよ。<br/><br/>親子は何だが、夫婦はとても強いですからね。<br/><br/>主従とは違いますよ。<br/><br/>武家時代の道徳は、そのときの権力者の都合の良いものに作ったんです。<br/><br/>だから、本当の道徳じゃない。<br/><br/>人間としての道徳じゃない。<br/><br/>階級としての道徳ですね。<br/><br/>間違ったものはいかんと、今廃止になって民主的になったのは――間違ったものが壊れたのは――それで良かったんですね。<br/><br/>』 087 熱心な入信の勧め 私は昨年八月入信、私が熱心になるにつれ兄肇（二十五歳）は私に物も言わなくなり、毎夜のごとく何物かにおびやかされているようです。<br/><br/>過日私宅の光明如来様の御霊魂祭にも、どうしても参拝してくれません。<br/><br/>兄との関係上父親も入信を迷いましたが、この度浄光を戴きます。<br/><br/>今後いかにすれば兄のひねくれたのが治りましょうか。<br/><br/> 何にもせぬ方がよい。<br/><br/>無理に勧めたりすると神を冒涜する事になる。<br/><br/>奨めても応じないのは罰あたりである。<br/><br/>（S25. 4. 6） 088 入信希望なき者 私は昭和二十三年一月二十七日入信致しました。<br/><br/>なお私の妻もその後入信させて頂きましたが、最近は一向に信仰心なく常に病苦に悩まされております。<br/><br/>私もいつでも御浄霊をさせて頂きたいと考えておりますが、本人が余りにも希望がないため、いかが致しましたらよいでしょうか。<br/><br/> 希望がなければ放ったらかしておけばよい。<br/><br/> 押さえつけると神様を冒涜する事になる。<br/><br/>こういうのは神様に背こうとする霊が憑いている。<br/><br/>（S24. 8.17） 089 話す程信仰を避ける家族の対処 家族七名中六名迄は入信、微力ながらも御用をつとめさせて頂いておりますが、長女の婿養子（三十一歳）だけがどうしても知らうとせず、協力をしてくれません。<br/><br/>御利益を知っており、家でも御参りは共にいたしますが、話せば話す程反動的に釣に熱をあげる始末で御座います。<br/><br/>どうすれば良いでしょうか。<br/><br/>御教示下さい。<br/><br/> これも腹中の客がやるのである。<br/><br/>腹の底が悪い。<br/><br/>その家の霊界が浄まってくると邪霊は萎縮し、間違った考えはもてなくなる。<br/><br/>すると同化しなくてはおれなくなり改心する。<br/><br/>時期の問題で、無理に話したりなどせぬ方がよい。<br/><br/>話すと邪神がいろいろ思わすから、反って反対に出る。<br/><br/>（S24. 7.27） 090 どうしても分らぬものの場合、宗旨霊の妨害 十人兄弟で、私は男七人女三人の七男で御座いますが、現在は男四人女一人になりました。<br/><br/>兄弟皆別に世帯を持ち、長兄を除き大光明如来または光明如来様をそれぞれお迎え致して御利益を戴いておりますが長兄は先祖の霊をお祭り致しております。<br/><br/>他の四人は両親の霊をそれぞれお祭り致しておりますが、長兄に観音様の有難味を話し色々と勧めておりますがどうしても分りません。<br/><br/>長兄が観音様の信者になった方が仏は大きく救われるのではないでしょうか。<br/><br/>それ共現在の状態にて仏の救われるのに変り御座いませんか。<br/><br/>また仏は兄弟の家を自由に往き来しておりましょうか。<br/><br/>御伺い申し上げます。<br/><br/> これは長兄が入信すべきであるが――した方が本当だからよいが、入信は時期があるから、一緒に思うように信仰に入る訳にはゆかぬ点があるから、観音様にお任せして、心配せぬ方がよい。<br/><br/> ある宗旨を継いでいる場合、その宗旨の神や仏に執着があっては具合がわるいんで、一生懸命改宗しないようにする。<br/><br/>急に改宗さすのも可哀相なので時を待つがよい。<br/><br/> また、宗旨の霊界における信徒も、霊的に長兄に憑ったりなどして、改宗させないようにする場合もある。<br/><br/>そういうのを無理に奨めたりするのはまずい。<br/><br/>時を待つ態度でいればよい。<br/><br/> 仏になった親の霊は、兄弟の家を廻っている。<br/><br/>だから世間で長男さえ祀っていればよいというのは誤りで、子供は全部祀らなくてはいけない。<br/><br/>これは現界と同様である。<br/><br/>（S24. 2.10） 091 知識人の救い 心貧しきものは天国に入る事を得んと聖書に御座居ますが、心慢（おご）れるもの即ち知識人と称するもの達に御浄霊による天国到来を知らしめようと致しましても中々理解してくれません。<br/><br/>これらは最後の審判まで救えない宿命的な御霊なのでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> 学者などは救われ難い。<br/><br/>救われるのと救われぬのと出来る。<br/><br/>天理教のお筆先に、学者金持後まわしとあるが、後になる。<br/><br/>（S24. 5.23） 092 豚に真珠 種々な宗教を渉り歩いた方には批判的態度の方が多く、本教の有難いところが分ったように見えても中々入信迄には至りません。<br/><br/>このようなお方はどんな具合に御導きしたらよろしいでしょうか。<br/><br/> 放っておけばよい。<br/><br/>話しても分らないのは霊的の盲である。<br/><br/>本をよく読ませる。<br/><br/>それで分らぬ人はまず救われぬ人である。<br/><br/>目の見えぬ人に見せても無駄である。<br/><br/>豚に真珠である。<br/><br/>（S25. 5.27） 093 老人に分りやすい説明法 観音様と阿弥陀様との関係について、火、水あるいは東洋及び西洋の例を言って、観音様の方が阿弥陀様より上だと説いても、阿弥陀様の方が上だと思って中々分りません。<br/><br/>仏教信徒、特に老人等に分りやすい説明方法をお教え下さい。<br/><br/> 話で分らぬから、放っておく事。<br/><br/> （以前、麹町で一軒支部を作った時にもそんな話があった。<br/><br/>――本願寺は法蔵菩薩を崇めている）（S24. 2.27） rattail（注） 〔 間違い信仰 、自観叢書第9篇『光への道』P.59、昭和24(1949)年12月30日発行〕 094 宣伝するには まず信仰雑話を渡して読ます。<br/><br/>幸福な世界を造る事、自分の体験を語る――という具合でいい。<br/><br/> 095 火素と気温、（浄化強化の説き方） 火素の増量につれて浄化力が盛んになる事を分りやすく説明し、一刻も早く多くの人を御導きしたいのですが、どうしたらよいでしょうか。<br/><br/>またそれが気温等にいかに変化を及ぼすでしょうか。<br/><br/>御教示願います。<br/><br/> 火素が増えるといくらか暖かくなる。<br/><br/> 出版した本を読ます。<br/><br/>そうすれば分る筈である。<br/><br/>（S25. 2. 5） 096 入信手引の話 入信する気になっている者から神様の説明を求められますが、いかように御導きしたらよいでしょうか。<br/><br/> 本を見せればよい。<br/><br/>（本や新聞はそのためにある）新聞も本も読めぬ人は駄目である。<br/><br/>（しかし決める事も出来ぬ）（S24. 7.25） 097 神書読めぬ文盲の場合 農村の信者の方は御本や光新聞を拝読する事が少うございます。<br/><br/>私はその衝に当っておりますが、いかように指導致しましたらよろしゅうございますか。<br/><br/>御伺い申し上げます。<br/><br/> 読んで聞かせればよい。<br/><br/>信仰による智慧が出ぬと救われぬ。<br/><br/>（S24. 9.29） 098 街頭宣伝の可否 五六七教街頭宣教の可否及び時期を御教示下さい。<br/><br/>また、街頭宣教可ならば統一された宣教主旨を改めて御示し戴けましょうか。<br/><br/>あるいは既に御発表の御論説により宣教させて戴いて宜しいでしょうか。<br/><br/>あわせて御教示御願い申し上げます。<br/><br/> 街頭宣伝は未だよい。<br/><br/>光新聞を人に見せる程度である。<br/><br/>今の所必要はない。<br/><br/>あまりパッとやると反っていけない。<br/><br/>それよりか室内宣伝を出来るだけやった方がよい。<br/><br/>（S24. 8.15） 099 浄霊の感じと救われる時期と因縁 相当に浄化している人に対して浄霊を行う場合、掌に感じがないにも拘らず、別段浄化もしておらない人に行って非常に熱く感ずる事がありますが、いかなる訳でしょうか。<br/><br/>また、同じ人でも掌に感ずる時と感じない時とありますがどういう訳ですか。<br/><br/>お伺い致します。<br/><br/> （逆である。<br/><br/>手に感じない程浄化する事はない。<br/><br/>人により種々ある）救われる時期に来てする場合非常にきくから熱が出る。<br/><br/>恵みが来てるから熱が出る。<br/><br/>救われる時期の来ぬ人はそうはゆかぬ。<br/><br/>前世の関係のある場合、助ける因縁があるから強く霊が出るという事もある。<br/><br/>種々原因があり、端的に言えぬ。<br/><br/>（S24. 5.15） 100 布教上病人に対する心構え、（病人に関する諸事情） 開拓に当り、まず何と言っても病人を優先的に扱いますが、大乗をどのように使いますか。<br/><br/> 大乗も小乗もない。<br/><br/>苦しみ悩む者を救うのが本当である。<br/><br/> 病人を優先的に救うのは結構である。<br/><br/>智慧がないといけない。<br/><br/>病人にも気の向く病人、気の向かぬ病人、感謝のあるのとない病人等いろいろある。<br/><br/>気の向かぬ病人は警告されてるからと、うまく手放すのがよい。<br/><br/> 病人は気が向いても家の者が気の向かぬのもある。<br/><br/> また、妻が病気で夫に二号があり、妻が早く片付いてくれる方がよいと思い、妻は一生懸命に縋るというのもある。<br/><br/>これはまことに困るんで、夫と二号の霊が来る。<br/><br/>これは救っても仕様がない。<br/><br/>こういうのは臨機応変にする。<br/><br/>妻が良くなるに従い、親父は悪くなる。<br/><br/> 妻君が治ると親父が喜ぶ。<br/><br/>宣伝はするが、そのくせ自分は入らぬというのもある。<br/><br/> 101 離信の人を引っ張る事 教修を受けっ放しでその後連絡を断った人は教導所の方から積極的に引張ってやった方がよろしいでしょうか。<br/><br/>本人の意志に任せた方がよろしいでしょうか。<br/><br/> 引っ張ってはいけない。<br/><br/>いろいろの関係や神様の御都合でそうなっているのがいる。<br/><br/>順序のため遅れているのである。<br/><br/>俳優が役でない時に出ると、芝居を壊すようなものである。<br/><br/> 永遠に救わるべき所であるから、先で頭を下げてくるのが本当である。<br/><br/> 102 離信多く発展せぬ理 私の分会は福井市が中心になりますので、福井市を重点に分会長以下開拓に努めておりますが思うように発展致しません。<br/><br/>少数の入信者はありますが、初めは熱心であっても段々遠くなり「古きが消え新しきを生む」事を繰り返し、結局発展致しません。<br/><br/>いかなる理由でしょうか。<br/><br/>これは私共の誠の不足からか、または土地の因縁によるのでしょうか。<br/><br/>先日、分会長は氏神様に参拝祝詞を奏上し、本教発展を祈りましたが、今後はいかにしたらよいでしょうか。<br/><br/>御教示願い上げます。<br/><br/> 信者を獲得出来ても離れるのは、一番の原因は土地にある。<br/><br/>真宗の勢いの強い所で、何百年の歴史を持ち、根強く入っているから、一朝一夕には転換出来ぬ。<br/><br/>これでいい。<br/><br/>種を播くのであるから、いつか実る。<br/><br/>人間の眼には発展せぬ所もある時期へゆくとパッと発展する。<br/><br/>芽が表われるのである。<br/><br/>であるから、そういう事は気にせずコツコツやってゆく。<br/><br/> 神様には順序があって、種を播く所、育てる所、刈り入れる所といろいろある。<br/><br/>気をもむ必要はない。<br/><br/>（新聞の妨害の事など、神様に聞くと――。<br/><br/>神様は絶対力があるとすれば、そういうのをちょっとつまむのは訳はないのに悪口などをやってるのは、発展し過ぎると外に準備が出来ぬからであると――） すべて発展するものと衰えるものとある。<br/><br/> （昔相場を研究したが、その結果「上げる時はパッと上り、下る時はジリジリ」これは上げ相場で、「ジリジリ上りパッと下る」のは下げ相場である。<br/><br/>即ち上げる時には勢いがあり、下る時には上げる力がないのである。<br/><br/>事業でも宗教でも同じ理屈である。<br/><br/>本教も税金問題で暴騰した訳だ）（S24.11.15） 103 布教気に向かぬ時、（焦り苦しみは反神意） 教修を受けて二ケ年になる教導師で御座いますが、開発に参っております時、一時的に成績が挙らず、自己の気持も余り開発に出る気になれない時は出ないで時期を待っていますが、精神的に種々苦しみます。<br/><br/>こんな時はやはり開発に努力した方がよろしいでしょうか。<br/><br/>またその場合いかなる心構えであるべきでしょうか。<br/><br/>御教示下さい。<br/><br/> （気の向かぬ時は出ぬ方がよい。<br/><br/>その人の霊的資格がないから神様が使わぬのである。<br/><br/>それだけその人に力が出ていない） 焦ったり精神的に苦しむのは御神意に反する。<br/><br/> 力が出来れば神様が使う。<br/><br/>それには向上しなくてはならぬ。<br/><br/>それには一人でも多く浄霊して、霊力をつけ御著書を読む。<br/><br/>また、質疑する。<br/><br/>誠で、智慧を磨く。<br/><br/>向上心は尊いものである。<br/><br/>（S24. 7.15） 104 布教暇な時 千葉県佐原町の信者原増次郎の家に光明様を御祀りさせて頂き、本人は会社に勤務のかたわら御浄霊させて頂いておりました当時は患者も有り、教修者も出来ましたが、このたび会社を退き、専心御奉仕させて頂きたいと決心して三月二十三日に職を退きました。<br/><br/>ところがこれと時を同じゅうして患者がピッタリ、一人も来ません。<br/><br/>不思議に思っているある夜本人並びにその妻が夢を見ました。<br/><br/> 何か暇なのは、大抵御本を読めという事である。<br/><br/> 105 布教緒につかず 焦らぬ事。<br/><br/>未だ未だ信仰へ入れるだけの力がない。<br/><br/>段々コツを覚える。<br/><br/>（S *.11.16） 106 なかなか入信せしめ得ず 私は今回（四月九日）大光明如来をお受けさせていただきました。<br/><br/>その後専念観音様の事を人に話して入信を勧めておりますが、今少しのところで思うにまかせず、はかばかしく入信致しません。<br/><br/>どう致したら宜しいでしょうか。<br/><br/> 焦らぬ事である。<br/><br/>まだまだ信仰へ入れるだけの力がない。<br/><br/>段々コツを覚える。<br/><br/> （S24. 5.16） 107 布教効果挙がらず、（治し過ぎ、執拗、強圧的） 私は三年前入信し、布教に協力させて頂いております。<br/><br/>今日迄入信者も数々お導きさせて頂きましたが、未だ心から喜んで下さる方も御座居ません。<br/><br/>先生にお伺い致しましたら、それは治し過ぎるからだと申されました。<br/><br/>なお私は一旦嫁いで離婚、実家へ一度帰り、現在春陽会教導所にてお手伝いさせて頂いております。<br/><br/>私として現在及び今後いかにしたらよろしいでしょうか。<br/><br/>お伺い申し上げます。<br/><br/> 治し過ぎる事は絶対にない。<br/><br/>治し過ぎる人があれば大先生より上である。<br/><br/>治し過ぎないのである。<br/><br/>治れば必ず入信する。<br/><br/>治らぬのに治ったようにお世辞を言う。<br/><br/>教師の方に何か間違った点がある。<br/><br/>教導師でしつっこいのや強圧的なのがある。<br/><br/>それでいい加減に断るために「よくなった」と言う事がある。<br/><br/>正直ありのままに言えるようにすべきである。<br/><br/>あんまり気をもまずお任せする方がよい。<br/><br/>（S24. 6.28）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

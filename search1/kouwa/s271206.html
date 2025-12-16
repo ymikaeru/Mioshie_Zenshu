@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s271206</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年12月6日） 『御教え集』17号、昭和28(1953)年1月15日発行 昭和二十七年十二月六日 今回アイゼンハウアーが朝鮮を視察して帰ったようですが、しかし知れないようにうまく秘密を守り通して視察したということは、なかなかやり手だと思います。<br><br>この一事でも確かにアイゼンハウアーという人は大いにやるだろうと思います。<br><br>新聞記者の四十何人とかをすっかり隙喰わしたそうですから、なかなかすばしこいのです。<br><br>やっぱり人間はすばしこくなくては駄目です。<br><br>すばしこくといっても、なにも体をすばしこくしなくてもいいのです。<br><br>つまり精神的にすばしこくです。<br><br>体はおちついていてもいいが、要するに敏感でなくては仕事はできません。<br><br>ですから私は非常に素早いのです。<br><br>体も割に素早いですが、仕事とか、物事を見る素早さです。<br><br>そういうことはある程度修行するとできます。<br><br>人のしゃべる言葉とか、なにかすることとかを一つか二つ見て、これはこういうことを言っているから必ずこういう了簡があるに違いない、こういうことをするところを見るときっとこういう癖があるに違いない、と見抜くのです。<br><br>それを早く見ることです。<br><br>それから人の家に行っても、ちょっと見て、ここの主はこういう趣味を持っている、こういう生活だということを見てとるのですが、これは少し注意して見ればわけはありません。<br><br>よく私の所に面会に来る人の、お辞儀の仕方や最初の言い方から見て、これはこういう了簡で来たなと分かるのです。<br><br>その素早さです。<br><br>ですから私が京都や奈良に行きましたが、別にたいして時間はかかりません。<br><br>とても早いのです。<br><br>他の人はみんなまごついてますが、それで分かるのです。<br><br>それを眺めて首をひねるようでは本当は役に立たないのです。<br><br>人間は一目見てできるだけ見てとるというような稽古をしなくてはなりません。<br><br>一つの癖です。<br><br>そうするとある程度、得がいくのです。<br><br>これは男に限らず女でもそうです。<br><br>亭主などをちょっと見て、ああこれは他に女ができたなと分かる。<br><br>帰りが遅いと、ああ今夜はおかしい、変な所に行ったに違いないということを見てとるのです。<br><br>そうしてそれを知ったからといって、どうするということではなく、それでヤキモチ臭く「お前さん遅いじゃないか、このごろ変ですよ」と、そういうことを言ってはいけない。<br><br>かえって皮肉にやるのです。<br><br>そういう時はかえって変な顔をしないで、わざと待遇良くするのです。<br><br>そうすると親父の方でも、かえってくすぐったくなって、これはあんまり心配させたりするのは気の毒だという感じが出るものです。<br><br>それを、まともにヤキモチをやいたり変な挙動をするから、親父も変なことになる。<br><br>「オレが社会に出てやっていて、食うに困らせないでやっているのに、たまにはいいじゃないか、男としていいじゃないか」となる。<br><br>それは、信者さんはそういうことはありませんが、男というのは変なものがあるのです。<br><br>しかし他のことでいろいろありますから、そういうことをとにかく早く見てとるという稽古をすることが肝腎です。<br><br>そういうことのためにどのくらい得をするか分かりません。<br><br>それで今の世の中の人間はみんな嘘をつきますから明からさまにむき出すということはできません。<br><br>神様を知らない以上そういう人間はあります。<br><br>あいつはこう言うから腹の中はこうだろう、ということを見抜かなければなりません。<br><br> これは、「私が神様を拝まぬ理由」という論文ですが、知っている人もありますが、新しい人は知らないから『地上天国』に出そうと思って書いたのです。<br><br> （御論文「私が神様を拝まぬ理由」）【地上天国 四十三号】 昨日の『読売新聞』に「神様は金儲けがお上手」「ヌレ手で粟、税務署も罷り通る」という見出しでデカデカと出ていたのです。<br><br>読んだ人は大勢あるでしょうが、よくみると救世教と立正佼成会の二つですが、立正佼成会の方は付録のようなもので大体は救世教のことです。<br><br>いろいろと作って、虚々実々のことです。<br><br>御守りを今度改正し「浄」という御守りになって、それを取り替えるのに何十万人だから一人いくらとして何億とか書いてありましたが、その書き方がいくらかうらやましそうな、悔しそうな、癪（しゃく）に障るような感じが出てましたが、こっちから言うと大きなお世話だと言いたくなるのです。<br><br>いくらたくさん金がはいろうと新聞社に関係したことではないのです。<br><br>新聞社にはいるべき金をこっちが横取りしたものではないのです。<br><br>日本の新聞にそういった古い低級な観念がまだ残っているのです。<br><br>それは個人の金儲けというのなら、少しはうらやましい気持ちも起るでしょう。<br><br>御自分の月給から比べるとそういうグチが起るのも無理はないのですが、ああいう収入を世の中のために使えば、はいることが結構なのです。<br><br>美術館を造っただけでも大いに感謝しなければならないのです。<br><br>それで今アメリカでは日本美術を非常に狙っているのです。<br><br>ところが日本の方では大体文化財保護委員会で博物館に買わせるのです。<br><br>ところが博物館は今のところそういう物を買う費用は一カ年の予算が二千万円です。<br><br>そうすると、これはというのを三点か五点買えばなくなってしまいます。<br><br> 今読んだとおり、こちらには宗教の開祖が霊界で大いに働くのです。<br><br>買ってくれというのが二、三点申し込みがありますが、こっちの金が続かないからいい加減に引っ張って延ばしているのです。<br><br>とにかく買うという約定だけして手金だけ払っておいたのもあります。<br><br>だからこういうことに金を出しているので、政府でもできないことをしているのです。<br><br>そうかといって民間でもできないのです。<br><br>古い財閥はそういうのに目が利いて買いたい意志は充分にありますが、そういう金を支出するだけの余裕ができてない。<br><br>今は成金がそうとうありますが、そういうことに目が利かないのです。<br><br>だから怖がって買いません。<br><br>そういう人は新画は買います。<br><br>だから新しい画が馬鹿に高くなったのです。<br><br>新しい絵なら贋物も割に少ないし、床の間に掛けて楽しめますが、仏像は床の間にも置けないから、よほど趣味がなくては買えません。<br><br>そういうことが時々あります。<br><br>美術館に出ている敦煌の絵もそうです。<br><br>あれは問題になった絵で、博物館に持っていったところが、博物館では安く値をつけたので、持ち主は手を引いたのです。<br><br>それで、あれこそアメリカに行く寸前だったのです。<br><br>私の所で買わなければアメリカに行くところだったのです。<br><br>道具屋はアメリカと貿易しているので、だからなんでもかんでも先方も買ってくれと言い、こっちも買うということで買ってやったのです。<br><br> そういったように非常に国家のためになることをやっているのですから、新聞とかが収入が多いというのは、知らないからしかたがないようなものですが、実に情けない人たちなのです。<br><br>しかしこれは長いことはなく、いずれは分かります。<br><br>地方新聞などでもそういうような書き方をしているのをまだ時々聞きます。<br><br>北海道の新聞で救世教のことを非常に悪意に書いた新聞を見ましたが、こういうことも、もうよいだろうと思っていてもなかなか出てくるのですから、先方もなかなかしつこいのです。<br><br>その蔭にはみんな邪神がやっているのです。<br><br>それでミロクの世になるまでは、やっぱり邪神は活動します。<br><br>それでいよいよ彼らがギャフンとスッカリまいってしまってからミロクの世になるのですから、その時まではこれはしかたがないのです。<br><br>しかし邪神の方も、霊界がだんだん明るくなるに従って勢いがなくなり、だんだん萎びてきましたが、なにしろ邪神というのはみんな龍です。<br><br>そういうことをやっているのは大体黒龍です。<br><br>共産主義の方は赤龍です。<br><br>それで私の方は金龍です。<br><br>これは龍同士が闘っているのです。<br><br>だからしつこいのです。<br><br>狐なども随分しつこいですが、しかし龍と比べたらまるで違います。<br><br>よく蛇を殺して、尻尾になっても動いてますが、それと同じで龍というのは実にたいへんです。<br><br> それからこれも知っておかなければならないが、紅卍字会（こうまんじかい）というのが今台湾を本部としてやっていますが、しかしこれは天津（てんしん）でそうとうやっていたのですが、中共に追い払われてというよりか、危ないから逃げたのです。<br><br>紅卍字会の方でやられた者がそうとうあるので、命カラガラ逃げたわけです。<br><br>それで台湾で活動しようとすると、蒋介石から嫌われるのです。<br><br>どういうわけかというと、大体蒋介石の方では、幹部の者にクリスチャンがそうとうありますし、宋美齢（そうびれい）がクリスチャンのカンカンですから、そういうようで他の宗教を非常に嫌うのです。<br><br>牧師などもそうとういるようです。<br><br>そのために紅卍字会を敬遠するのです。<br><br>それでやりにくいのです。<br><br>ところが最近「フーチ」で「日本に行って新しい宗教と提携しろ」という神示が出たのでやってきたのですが、それで新宗教の方をみても、これはというものがないので、結局救世教と提携するよりかしようがないということになって、昨日五人ばかり来たので会ったのです。<br><br>それで私は言ってやったのです。<br><br>とにかくまだ時期が早い。<br><br>もう三年以上たたなければ駄目だから、それまではつなぎ程度のものならいいが、積極的のやり方は駄目だからと言ってやりました。<br><br>それはなぜかと言いますと、中国の大掃除を大いにやらなければならないのです。<br><br>それで、よし紅卍字会と提携するとすれば救世教が主で、救世教の支部を中国に置くというのならいいのです。<br><br>今のところ紅卍字会の方では、自分の方の神様の方がすばらしいように思っているから、むしろこっちが紅卍字会を援助してお蔭をいただくというくらいに思っているので、それはたいへんな違いです。<br><br>あれは将来中国を救う宗教ですが、それはこっちの指図によって、こっちの御用をするのがその使命です。<br><br>まだ分からないからしかたがないのですが、中国に地上天国を造り中国を救うとしたら、地上天国を造るについても中国をそうとう掃除しなければならない。<br><br>掃除をするとなると、それによってこっちがやりいいように、また中国に救世教を大いに弘めるためにも、障りがないようにならなければならない。<br><br>それには中共政府がスターリンと縁を切ってやるか、縁を切らなければ没落するか、どっちかというわけです。<br><br>そうすると掃除というのは破壊で、破壊というのは戦争です。<br><br>それで今度アイクが朝鮮に行ったということは、中国を掃除するというその調査です。<br><br>どういう方法でどこから掃除を始めようかというわけです。<br><br>それは満州の爆撃とか沿岸封鎖です。<br><br>前にマッカーサーが立てた案を実行するという時がいよいよ近づいたわけです。<br><br>しかしそうなるとなかなか大きいです。<br><br>よく、そうすれば第三次戦争が起るだろうと言いますが、第三次戦争はまだ先でしょう。<br><br>とにかく中国だけの掃除ということになるのです。<br><br>だからそれがすむのにどうしても三年はかかります。<br><br>それからあっちに紅卍字会を積極的に活動させるというよりほかにしようがないので、そう言ってやったのです。<br><br>そういうわけで神様は将来活動する機関を各国に用意してあるのです。<br><br>ですから仮に日本にしても、救世教ができてこれだけ発展させたということは、この間の戦争でアメリカが日本を民主国家に建直したというそのために信教の自由になって、われわれの方で活動ができるようになったのです。<br><br>ということは、日本をあらかた掃除したからです。<br><br>ですから爆撃とかいろいろなことは日本の大掃除だったのです。<br><br>それで大掃除があらかたできたので、われわれの方も本当に活動ができるというわけです。<br><br>それと同じ意味において、中国も宗教が自由にできるという形にならなければならないのです。<br><br>そうすると今の中共政府ではそういうことにはぜんぜん反対です。<br><br>宗教を許すどころでなく、かえってつぶしてしまうくらいです。<br><br>また中共でなく蒋介石の政府になるとしても、信教の自由になるというような政治にならなければならないのです。<br><br>それで神様はそうするために大いに中国を建直すわけです。<br><br>それからでなければ支那を救うことはできないのです。<br><br>そういうように理詰めでいっても、中国がこのままですむわけはありません。<br><br>そう考えてくると、今度アイクが行って調べたということは、それとちょうど関連するわけです。<br><br>そこに理屈が合っていくわけです。<br><br>ですから来年からがおもしろくなります。<br><br> それからもう一つは、そうなるということは一つの大破壊です。<br><br>そうなると神様の方は建設ですから、来年になると救世教の建設事業が一段と進展します。<br><br>メシヤ会館ができるとか、京都なども来年からボツボツ始めますから、建設になります。<br><br>それで京都という所が、型でいきますと支那になり、七です。<br><br>こっちでは小田原が七になります。<br><br>だから小田原にいずれ紅卍字会のフーチをする所といいますか、小田原に西洋館の事務所のような所がありますから、それを使おうと思います。<br><br>それで日本が五で、朝鮮が六で、支那が七になります。<br><br>箱根、熱海が五、六で、京都は七になります。<br><br>それで京都は土になるから、山がなく平らです。<br><br>それで今度は七の仕事が始まるわけです。<br><br>それで中国の大掃除になるわけです。<br><br>神様のそういう型は大中小といろいろあるのです。<br><br>これは経綸の神秘になってますからその都度話をしますが、実におもしろいものがあります。<br><br>そこでこっちが建設になるほど世界のあらゆる方面が破壊されていくわけです。<br><br>そういう建設と破壊をにらみ合わせていると大体分かります。<br><br> それからこれは話は大いに違いますが、ちょっとおもしろいことです。<br><br>いろんな名人のことですが、今読ませるのは劇界の俳優のことです。<br><br>それからこのあと美術家の名人がなくなったというようなことを続いて書くつもりです。<br><br>今は俳優だけのことを読ませます。<br><br> （御論文「名人の失くなった理由（一）」）【栄光 一九〇号】
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Argúcia na Observação das Pessoas e do Mundo</h2>
 <p>Ao que parece, o presidente Eisenhower retornou de sua recente inspeção à Coreia. O fato de ter conseguido manter a visita em absoluto sigilo, ludibriando mais de quarenta jornalistas, demonstra sua notável competência e argúcia. Essa proeza, por si só, já me leva a crer que ele terá uma gestão de grande envergadura.</p>
@@ -117,5 +269,48 @@ function toggleLang(lang) {
 <p>Os protótipos espirituais de Deus se manifestam em diversas escalas – grande, média e pequena. Trata-se de um mistério do Plano Divino, sobre o qual falarei em outras oportunidades, pois é um assunto fascinante. O fato é que, quanto mais a nossa obra de construção avança, mais a destruição se intensifica em todos os cantos do mundo. Observando essa relação entre construção e destruição, é possível compreender o rumo dos acontecimentos.</p>
 <p>Mudando drasticamente de assunto, gostaria de abordar um tema interessante sobre os grandes mestres de diversas áreas. A seguir, lerei um texto sobre os atores do mundo do teatro. Posteriormente, pretendo escrever sobre o desaparecimento dos grandes mestres no campo das artes plásticas. Por ora, ficaremos com os atores.</p>
 <p><em>(Leitura do artigo “O motivo do desaparecimento dos grandes mestres (I)”) [Eikō, nº 190]</em></p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年12月6日） 『御教え集』17号、昭和28(1953)年1月15日発行 昭和二十七年十二月六日 今回アイゼンハウアーが朝鮮を視察して帰ったようですが、しかし知れないようにうまく秘密を守り通して視察したということは、なかなかやり手だと思います。<br/><br/>この一事でも確かにアイゼンハウアーという人は大いにやるだろうと思います。<br/><br/>新聞記者の四十何人とかをすっかり隙喰わしたそうですから、なかなかすばしこいのです。<br/><br/>やっぱり人間はすばしこくなくては駄目です。<br/><br/>すばしこくといっても、なにも体をすばしこくしなくてもいいのです。<br/><br/>つまり精神的にすばしこくです。<br/><br/>体はおちついていてもいいが、要するに敏感でなくては仕事はできません。<br/><br/>ですから私は非常に素早いのです。<br/><br/>体も割に素早いですが、仕事とか、物事を見る素早さです。<br/><br/>そういうことはある程度修行するとできます。<br/><br/>人のしゃべる言葉とか、なにかすることとかを一つか二つ見て、これはこういうことを言っているから必ずこういう了簡があるに違いない、こういうことをするところを見るときっとこういう癖があるに違いない、と見抜くのです。<br/><br/>それを早く見ることです。<br/><br/>それから人の家に行っても、ちょっと見て、ここの主はこういう趣味を持っている、こういう生活だということを見てとるのですが、これは少し注意して見ればわけはありません。<br/><br/>よく私の所に面会に来る人の、お辞儀の仕方や最初の言い方から見て、これはこういう了簡で来たなと分かるのです。<br/><br/>その素早さです。<br/><br/>ですから私が京都や奈良に行きましたが、別にたいして時間はかかりません。<br/><br/>とても早いのです。<br/><br/>他の人はみんなまごついてますが、それで分かるのです。<br/><br/>それを眺めて首をひねるようでは本当は役に立たないのです。<br/><br/>人間は一目見てできるだけ見てとるというような稽古をしなくてはなりません。<br/><br/>一つの癖です。<br/><br/>そうするとある程度、得がいくのです。<br/><br/>これは男に限らず女でもそうです。<br/><br/>亭主などをちょっと見て、ああこれは他に女ができたなと分かる。<br/><br/>帰りが遅いと、ああ今夜はおかしい、変な所に行ったに違いないということを見てとるのです。<br/><br/>そうしてそれを知ったからといって、どうするということではなく、それでヤキモチ臭く「お前さん遅いじゃないか、このごろ変ですよ」と、そういうことを言ってはいけない。<br/><br/>かえって皮肉にやるのです。<br/><br/>そういう時はかえって変な顔をしないで、わざと待遇良くするのです。<br/><br/>そうすると親父の方でも、かえってくすぐったくなって、これはあんまり心配させたりするのは気の毒だという感じが出るものです。<br/><br/>それを、まともにヤキモチをやいたり変な挙動をするから、親父も変なことになる。<br/><br/>「オレが社会に出てやっていて、食うに困らせないでやっているのに、たまにはいいじゃないか、男としていいじゃないか」となる。<br/><br/>それは、信者さんはそういうことはありませんが、男というのは変なものがあるのです。<br/><br/>しかし他のことでいろいろありますから、そういうことをとにかく早く見てとるという稽古をすることが肝腎です。<br/><br/>そういうことのためにどのくらい得をするか分かりません。<br/><br/>それで今の世の中の人間はみんな嘘をつきますから明からさまにむき出すということはできません。<br/><br/>神様を知らない以上そういう人間はあります。<br/><br/>あいつはこう言うから腹の中はこうだろう、ということを見抜かなければなりません。<br/><br/> これは、「私が神様を拝まぬ理由」という論文ですが、知っている人もありますが、新しい人は知らないから『地上天国』に出そうと思って書いたのです。<br/><br/> （御論文「私が神様を拝まぬ理由」）【地上天国 四十三号】 昨日の『読売新聞』に「神様は金儲けがお上手」「ヌレ手で粟、税務署も罷り通る」という見出しでデカデカと出ていたのです。<br/><br/>読んだ人は大勢あるでしょうが、よくみると救世教と立正佼成会の二つですが、立正佼成会の方は付録のようなもので大体は救世教のことです。<br/><br/>いろいろと作って、虚々実々のことです。<br/><br/>御守りを今度改正し「浄」という御守りになって、それを取り替えるのに何十万人だから一人いくらとして何億とか書いてありましたが、その書き方がいくらかうらやましそうな、悔しそうな、癪（しゃく）に障るような感じが出てましたが、こっちから言うと大きなお世話だと言いたくなるのです。<br/><br/>いくらたくさん金がはいろうと新聞社に関係したことではないのです。<br/><br/>新聞社にはいるべき金をこっちが横取りしたものではないのです。<br/><br/>日本の新聞にそういった古い低級な観念がまだ残っているのです。<br/><br/>それは個人の金儲けというのなら、少しはうらやましい気持ちも起るでしょう。<br/><br/>御自分の月給から比べるとそういうグチが起るのも無理はないのですが、ああいう収入を世の中のために使えば、はいることが結構なのです。<br/><br/>美術館を造っただけでも大いに感謝しなければならないのです。<br/><br/>それで今アメリカでは日本美術を非常に狙っているのです。<br/><br/>ところが日本の方では大体文化財保護委員会で博物館に買わせるのです。<br/><br/>ところが博物館は今のところそういう物を買う費用は一カ年の予算が二千万円です。<br/><br/>そうすると、これはというのを三点か五点買えばなくなってしまいます。<br/><br/> 今読んだとおり、こちらには宗教の開祖が霊界で大いに働くのです。<br/><br/>買ってくれというのが二、三点申し込みがありますが、こっちの金が続かないからいい加減に引っ張って延ばしているのです。<br/><br/>とにかく買うという約定だけして手金だけ払っておいたのもあります。<br/><br/>だからこういうことに金を出しているので、政府でもできないことをしているのです。<br/><br/>そうかといって民間でもできないのです。<br/><br/>古い財閥はそういうのに目が利いて買いたい意志は充分にありますが、そういう金を支出するだけの余裕ができてない。<br/><br/>今は成金がそうとうありますが、そういうことに目が利かないのです。<br/><br/>だから怖がって買いません。<br/><br/>そういう人は新画は買います。<br/><br/>だから新しい画が馬鹿に高くなったのです。<br/><br/>新しい絵なら贋物も割に少ないし、床の間に掛けて楽しめますが、仏像は床の間にも置けないから、よほど趣味がなくては買えません。<br/><br/>そういうことが時々あります。<br/><br/>美術館に出ている敦煌の絵もそうです。<br/><br/>あれは問題になった絵で、博物館に持っていったところが、博物館では安く値をつけたので、持ち主は手を引いたのです。<br/><br/>それで、あれこそアメリカに行く寸前だったのです。<br/><br/>私の所で買わなければアメリカに行くところだったのです。<br/><br/>道具屋はアメリカと貿易しているので、だからなんでもかんでも先方も買ってくれと言い、こっちも買うということで買ってやったのです。<br/><br/> そういったように非常に国家のためになることをやっているのですから、新聞とかが収入が多いというのは、知らないからしかたがないようなものですが、実に情けない人たちなのです。<br/><br/>しかしこれは長いことはなく、いずれは分かります。<br/><br/>地方新聞などでもそういうような書き方をしているのをまだ時々聞きます。<br/><br/>北海道の新聞で救世教のことを非常に悪意に書いた新聞を見ましたが、こういうことも、もうよいだろうと思っていてもなかなか出てくるのですから、先方もなかなかしつこいのです。<br/><br/>その蔭にはみんな邪神がやっているのです。<br/><br/>それでミロクの世になるまでは、やっぱり邪神は活動します。<br/><br/>それでいよいよ彼らがギャフンとスッカリまいってしまってからミロクの世になるのですから、その時まではこれはしかたがないのです。<br/><br/>しかし邪神の方も、霊界がだんだん明るくなるに従って勢いがなくなり、だんだん萎びてきましたが、なにしろ邪神というのはみんな龍です。<br/><br/>そういうことをやっているのは大体黒龍です。<br/><br/>共産主義の方は赤龍です。<br/><br/>それで私の方は金龍です。<br/><br/>これは龍同士が闘っているのです。<br/><br/>だからしつこいのです。<br/><br/>狐なども随分しつこいですが、しかし龍と比べたらまるで違います。<br/><br/>よく蛇を殺して、尻尾になっても動いてますが、それと同じで龍というのは実にたいへんです。<br/><br/> それからこれも知っておかなければならないが、紅卍字会（こうまんじかい）というのが今台湾を本部としてやっていますが、しかしこれは天津（てんしん）でそうとうやっていたのですが、中共に追い払われてというよりか、危ないから逃げたのです。<br/><br/>紅卍字会の方でやられた者がそうとうあるので、命カラガラ逃げたわけです。<br/><br/>それで台湾で活動しようとすると、蒋介石から嫌われるのです。<br/><br/>どういうわけかというと、大体蒋介石の方では、幹部の者にクリスチャンがそうとうありますし、宋美齢（そうびれい）がクリスチャンのカンカンですから、そういうようで他の宗教を非常に嫌うのです。<br/><br/>牧師などもそうとういるようです。<br/><br/>そのために紅卍字会を敬遠するのです。<br/><br/>それでやりにくいのです。<br/><br/>ところが最近「フーチ」で「日本に行って新しい宗教と提携しろ」という神示が出たのでやってきたのですが、それで新宗教の方をみても、これはというものがないので、結局救世教と提携するよりかしようがないということになって、昨日五人ばかり来たので会ったのです。<br/><br/>それで私は言ってやったのです。<br/><br/>とにかくまだ時期が早い。<br/><br/>もう三年以上たたなければ駄目だから、それまではつなぎ程度のものならいいが、積極的のやり方は駄目だからと言ってやりました。<br/><br/>それはなぜかと言いますと、中国の大掃除を大いにやらなければならないのです。<br/><br/>それで、よし紅卍字会と提携するとすれば救世教が主で、救世教の支部を中国に置くというのならいいのです。<br/><br/>今のところ紅卍字会の方では、自分の方の神様の方がすばらしいように思っているから、むしろこっちが紅卍字会を援助してお蔭をいただくというくらいに思っているので、それはたいへんな違いです。<br/><br/>あれは将来中国を救う宗教ですが、それはこっちの指図によって、こっちの御用をするのがその使命です。<br/><br/>まだ分からないからしかたがないのですが、中国に地上天国を造り中国を救うとしたら、地上天国を造るについても中国をそうとう掃除しなければならない。<br/><br/>掃除をするとなると、それによってこっちがやりいいように、また中国に救世教を大いに弘めるためにも、障りがないようにならなければならない。<br/><br/>それには中共政府がスターリンと縁を切ってやるか、縁を切らなければ没落するか、どっちかというわけです。<br/><br/>そうすると掃除というのは破壊で、破壊というのは戦争です。<br/><br/>それで今度アイクが朝鮮に行ったということは、中国を掃除するというその調査です。<br/><br/>どういう方法でどこから掃除を始めようかというわけです。<br/><br/>それは満州の爆撃とか沿岸封鎖です。<br/><br/>前にマッカーサーが立てた案を実行するという時がいよいよ近づいたわけです。<br/><br/>しかしそうなるとなかなか大きいです。<br/><br/>よく、そうすれば第三次戦争が起るだろうと言いますが、第三次戦争はまだ先でしょう。<br/><br/>とにかく中国だけの掃除ということになるのです。<br/><br/>だからそれがすむのにどうしても三年はかかります。<br/><br/>それからあっちに紅卍字会を積極的に活動させるというよりほかにしようがないので、そう言ってやったのです。<br/><br/>そういうわけで神様は将来活動する機関を各国に用意してあるのです。<br/><br/>ですから仮に日本にしても、救世教ができてこれだけ発展させたということは、この間の戦争でアメリカが日本を民主国家に建直したというそのために信教の自由になって、われわれの方で活動ができるようになったのです。<br/><br/>ということは、日本をあらかた掃除したからです。<br/><br/>ですから爆撃とかいろいろなことは日本の大掃除だったのです。<br/><br/>それで大掃除があらかたできたので、われわれの方も本当に活動ができるというわけです。<br/><br/>それと同じ意味において、中国も宗教が自由にできるという形にならなければならないのです。<br/><br/>そうすると今の中共政府ではそういうことにはぜんぜん反対です。<br/><br/>宗教を許すどころでなく、かえってつぶしてしまうくらいです。<br/><br/>また中共でなく蒋介石の政府になるとしても、信教の自由になるというような政治にならなければならないのです。<br/><br/>それで神様はそうするために大いに中国を建直すわけです。<br/><br/>それからでなければ支那を救うことはできないのです。<br/><br/>そういうように理詰めでいっても、中国がこのままですむわけはありません。<br/><br/>そう考えてくると、今度アイクが行って調べたということは、それとちょうど関連するわけです。<br/><br/>そこに理屈が合っていくわけです。<br/><br/>ですから来年からがおもしろくなります。<br/><br/> それからもう一つは、そうなるということは一つの大破壊です。<br/><br/>そうなると神様の方は建設ですから、来年になると救世教の建設事業が一段と進展します。<br/><br/>メシヤ会館ができるとか、京都なども来年からボツボツ始めますから、建設になります。<br/><br/>それで京都という所が、型でいきますと支那になり、七です。<br/><br/>こっちでは小田原が七になります。<br/><br/>だから小田原にいずれ紅卍字会のフーチをする所といいますか、小田原に西洋館の事務所のような所がありますから、それを使おうと思います。<br/><br/>それで日本が五で、朝鮮が六で、支那が七になります。<br/><br/>箱根、熱海が五、六で、京都は七になります。<br/><br/>それで京都は土になるから、山がなく平らです。<br/><br/>それで今度は七の仕事が始まるわけです。<br/><br/>それで中国の大掃除になるわけです。<br/><br/>神様のそういう型は大中小といろいろあるのです。<br/><br/>これは経綸の神秘になってますからその都度話をしますが、実におもしろいものがあります。<br/><br/>そこでこっちが建設になるほど世界のあらゆる方面が破壊されていくわけです。<br/><br/>そういう建設と破壊をにらみ合わせていると大体分かります。<br/><br/> それからこれは話は大いに違いますが、ちょっとおもしろいことです。<br/><br/>いろんな名人のことですが、今読ませるのは劇界の俳優のことです。<br/><br/>それからこのあと美術家の名人がなくなったというようなことを続いて書くつもりです。<br/><br/>今は俳優だけのことを読ませます。<br/><br/> （御論文「名人の失くなった理由（一）」）【栄光 一九〇号】</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

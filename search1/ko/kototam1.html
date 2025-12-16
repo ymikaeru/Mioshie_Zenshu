@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kototam1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 言霊について 未発表、昭和25(1950)年 彼の『聖書』に、「太初（はじめ）に言葉あり、万物これによって作らる」ということがあるが、これは言霊（ことたま）の活動をいったものである。<br><br>それについて言霊の根本義からかいてみるが、言霊はもちろん人間の音声と舌、唇、顎の活動によって構成発射するものであるが、それを発する根本は言葉によって表現せんとする想念であることはいうまでもない。<br><br>想念は意欲の表われである。<br><br>解りやすくいえば人間が何らかの意欲が起るその意欲を言葉に表わすべく想念が活動する。<br><br>もちろん想念の活動には正邪善悪、成不成等の判断力も活動する。<br><br>これを総合したのが智慧である。<br><br>それらを具体化したものが言霊であって、言霊を具体化したものが行動である。<br><br>この理によって、想念、言霊、行為の三段階と思えば間違いはない。<br><br> 右のごとくであるとして想念は幽玄界に属し言霊は言霊（げんれい）界に属し、行為は現象界に属するのである。<br><br>言わば、言霊は幽と物との中間である。<br><br>念と行との媒介者といってもいい。<br><br>これによってみても言霊なるものはいかに重要性があるか判るのである。<br><br> 言霊は傀儡師（くぐつし）と同様、鬼を出すも仏を出すも自由自在である。<br><br>人を怒らすも笑わすも、心配させることも安心させることも悲しませることも喜ばせることも、波瀾を起させるも、和を造ることも失敗するのも成功するのも言霊次第である。<br><br>かような重要な言霊を軽々しく使用するのは、危険この上なしというべきである。<br><br> しかしながら、言霊のみをいかに巧妙に操ったところで、単なる技術でしかない。<br><br>落語、漫才、講釈師と同様である。<br><br>どうしても言霊はその根本に偉力を発揮せしむべき力がなくては、何の意義をなさない。<br><br>しかも力といっても、それに善悪の区別がある。<br><br>すなわち悪の言霊は罪を構成し、善の言霊は、徳を構成する以上、人間は善の言霊を使うべく努力すべきである。<br><br>善の言霊とは、もちろん誠が根本であり、誠は神からであるから、どうしても神を認めなければならない。<br><br>とすれば、信仰者でなければ、真の誠は発揮出来ないから、言霊といえども善的力が現れるはずがないのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Sobre o Kototama</h2>
 <p>Na Bíblia Sagrada, encontramos a passagem: “No princípio era o Verbo, e todas as coisas foram feitas por ele”. Essa afirmação refere-se à atividade do Kototama (言霊), o Verbo-Alma. A esse respeito, discorrerei sobre seu significado fundamental.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>O Kototama assemelha-se a um mestre de marionetes, capaz de manifestar, com total liberdade, tanto espíritos malignos quanto divindades. Provocar a ira ou o riso, instilar a preocupação ou a serenidade, semear a tristeza ou a alegria; suscitar a discórdia ou promover a harmonia; conduzir ao fracasso ou ao sucesso, tudo depende do Kototama. Utilizar de modo leviano um poder de tamanha magnitude é, sem dúvida, de uma periculosidade extrema.</p>
 <p>Todavia, por mais que se manipule o Kototama com destreza, tal habilidade, isoladamente, não passa de mera técnica, semelhante à dos contadores de histórias e comediantes. Para que o Kototama possua real significado, é imprescindível que em sua raiz exista uma força capaz de lhe conferir um poder grandioso. E essa força, por sua vez, distingue-se entre o bem e o mal.</p>
 <p>Com efeito, enquanto as palavras malignas constituem o pecado, as palavras benignas edificam a virtude. Diante disso, o ser humano deve se empenhar para utilizar palavras plenas de bem. A essência da palavra benigna é, inquestionavelmente, a sinceridade, e como a sinceridade provém de Deus, torna-se imperativo reconhecer Sua existência. Sendo assim, somente aquele que possui fé é capaz de manifestar a verdadeira sinceridade. Consequentemente, sem fé, é impossível que a força benéfica do Kototama se manifeste.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 言霊について 未発表、昭和25(1950)年 彼の『聖書』に、「太初（はじめ）に言葉あり、万物これによって作らる」ということがあるが、これは言霊（ことたま）の活動をいったものである。<br/><br/>それについて言霊の根本義からかいてみるが、言霊はもちろん人間の音声と舌、唇、顎の活動によって構成発射するものであるが、それを発する根本は言葉によって表現せんとする想念であることはいうまでもない。<br/><br/>想念は意欲の表われである。<br/><br/>解りやすくいえば人間が何らかの意欲が起るその意欲を言葉に表わすべく想念が活動する。<br/><br/>もちろん想念の活動には正邪善悪、成不成等の判断力も活動する。<br/><br/>これを総合したのが智慧である。<br/><br/>それらを具体化したものが言霊であって、言霊を具体化したものが行動である。<br/><br/>この理によって、想念、言霊、行為の三段階と思えば間違いはない。<br/><br/> 右のごとくであるとして想念は幽玄界に属し言霊は言霊（げんれい）界に属し、行為は現象界に属するのである。<br/><br/>言わば、言霊は幽と物との中間である。<br/><br/>念と行との媒介者といってもいい。<br/><br/>これによってみても言霊なるものはいかに重要性があるか判るのである。<br/><br/> 言霊は傀儡師（くぐつし）と同様、鬼を出すも仏を出すも自由自在である。<br/><br/>人を怒らすも笑わすも、心配させることも安心させることも悲しませることも喜ばせることも、波瀾を起させるも、和を造ることも失敗するのも成功するのも言霊次第である。<br/><br/>かような重要な言霊を軽々しく使用するのは、危険この上なしというべきである。<br/><br/> しかしながら、言霊のみをいかに巧妙に操ったところで、単なる技術でしかない。<br/><br/>落語、漫才、講釈師と同様である。<br/><br/>どうしても言霊はその根本に偉力を発揮せしむべき力がなくては、何の意義をなさない。<br/><br/>しかも力といっても、それに善悪の区別がある。<br/><br/>すなわち悪の言霊は罪を構成し、善の言霊は、徳を構成する以上、人間は善の言霊を使うべく努力すべきである。<br/><br/>善の言霊とは、もちろん誠が根本であり、誠は神からであるから、どうしても神を認めなければならない。<br/><br/>とすれば、信仰者でなければ、真の誠は発揮出来ないから、言霊といえども善的力が現れるはずがないのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

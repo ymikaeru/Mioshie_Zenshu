@@ -1,119 +1,268 @@
 ﻿<html>
-
 <head>
-    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-    <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR" />
-    <title>M260918</title>
-    <link href="../../style4.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body bgcolor="#E9FEDA">
-    <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
-        <input name="hint" type="hidden" value="ひらがな" />
-        <input name="index" type="hidden" value="" />
-        <input name="config" type="hidden" value="" />
-        <div align="right">
-            <table border="0" cellpadding="0" cellspacing="0" width="90%">
-                <tr>
-                    <td>
-                        <p align="right">
-                            <font face="ＭＳ ゴシック" size="2"><strong>――</strong></font>
-                            <font face="HG正楷書体-PRO" size="2"><strong> 岡田自観師の論文集 ――</strong>　</font>
-                            <font face="ＭＳ ゴシック" size="2"><strong>御教え検索</strong>：</font>
-                        </p>
-                    </td>
-                    <td align="center" bgcolor="#EFFFE6" width="150">
-                        <font size="2"><input name="query" size="25" type="text" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6">
-                        <font size="2"><input type="submit" value="検索" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6" width="35"><a href="../../../cgi/msearch.cgi">
-                            <font size="2">help</font>
-                        </a></td>
-                </tr>
-            </table>
-        </div>
-    </form>
-    <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
-        <input name="hint" type="hidden" value="ひらがな" />
-        <input name="index" type="hidden" value="shiryo" />
-        <input name="config" type="hidden" value="" />
-        <div align="right">
-            <table border="0" cellpadding="0" cellspacing="0" width="90%">
-                <tr>
-                    <td>
-                        <p align="right">
-                            <font face="ＭＳ ゴシック" size="2"><strong>　　　　　　　　　　　　　　　資料検索</strong>：</font>
-                        </p>
-                    </td>
-                    <td align="center" bgcolor="#EFFFE6" width="150">
-                        <font size="2"><input name="query" size="25" type="text" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6">
-                        <font size="2"><input type="submit" value="検索" /></font>
-                    </td>
-                    <td width="35">　</td>
-                </tr>
-            </table>
-        </div>
-    </form>
-    <blockquote>
-        
-
-
-
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
+<title>M260918</title>
+<link href="../../style4.css" rel="stylesheet" type="text/css"/>
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
+<form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
+<input name="hint" type="hidden" value="ひらがな"/>
+<input name="index" type="hidden" value=""/>
+<input name="config" type="hidden" value=""/>
+<div align="right">
+<table border="0" cellpadding="0" cellspacing="0" width="90%">
+<tr>
+<td>
+<p align="right">
+<font face="ＭＳ ゴシック" size="2"><strong>――</strong></font>
+<font face="HG正楷書体-PRO" size="2"><strong> 岡田自観師の論文集 ――</strong>　</font>
+<font face="ＭＳ ゴシック" size="2"><strong>御教え検索</strong>：</font>
+</p>
+</td>
+<td align="center" bgcolor="#EFFFE6" width="150">
+<font size="2"><input name="query" size="25" type="text"/></font>
+</td>
+<td bgcolor="#EFFFE6">
+<font size="2"><input type="submit" value="検索"/></font>
+</td>
+<td bgcolor="#EFFFE6" width="35"><a href="../../../cgi/msearch.cgi">
+<font size="2">help</font>
+</a></td>
+</tr>
+</table>
+</div>
+</form>
+<form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
+<input name="hint" type="hidden" value="ひらがな"/>
+<input name="index" type="hidden" value="shiryo"/>
+<input name="config" type="hidden" value=""/>
+<div align="right">
+<table border="0" cellpadding="0" cellspacing="0" width="90%">
+<tr>
+<td>
+<p align="right">
+<font face="ＭＳ ゴシック" size="2"><strong>　　　　　　　　　　　　　　　資料検索</strong>：</font>
+</p>
+</td>
+<td align="center" bgcolor="#EFFFE6" width="150">
+<font size="2"><input name="query" size="25" type="text"/></font>
+</td>
+<td bgcolor="#EFFFE6">
+<font size="2"><input type="submit" value="検索"/></font>
+</td>
+<td width="35">　</td>
+</tr>
+</table>
+</div>
+</form>
+<blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御教え （S26年9月18日） 『御教え集』2号、昭和26(1951)年10月25日発行 昭和二十六年九月十八日 （お伺）未入信、藤田茂（二十六歳）の長女（こまき）と申す一年九カ月の女児でございますが、医師に脳水腫と診断され、最初一カ月半八回に渉って膜より少し上の脊柱から漿液をとり、その後も医師を変えて一週間続けて同じ場所から漿液をとりました。<br><br>勿論なんらの効果もございませんので、今日まで一年間放置しておりましたところ、このたびお道にすがってこられましたので、前頭部から脳天のブヨブヨしている所を中心に脊髄、腎臓部を浄霊させていただいておりますが、浄霊の急所につき御垂示お願い申し上げます。<br><br> 〔御垂示〕 頭がブヨブヨというのは、頭に薄い膿のような――水のようなものが溜まっているんですがね。<br><br>これは前の世で、土左衛門で逆さになって死ぬか、落ちるかして、飲んだ水がだんだん頭に溜まったんですね。<br><br>そうして、頭に溜まると同時に息が絶えちゃう。<br><br>そういうのが生まれたんですね。<br><br>だから別にたいした意味はないのですが、頭の水のある所を浄霊すれば良い。<br><br>そうすると、だんだん霊的に治っていくから解決する、というわけです。<br><br>別に難しい問題じゃない。<br><br>それだけのことです。<br><br> （お伺）私の妻は九月九、十、十一日と毎晩十二時ごろより急に結核的症状を起し、いかに浄霊してもあまり効果なく、夜の明けるとともに平常に戻りました。<br><br>特に十一日のごときは喉頭結核的症状となり、何回も息が止まるかと思ったこともありました。<br><br>その時ふと頭に浮かんだことは「明日の医術」第三篇中に明主様の奥様が、突然結核症状となられ、結局霊的であったとのこと、さっそく夜が明けてから妻を調べてみましたが、なかなか口がきけません。<br><br>奉仕者中に霊媒的素質のある者がおりますので、その者に呼び出してみましたところ、やはり霊的にて、妻の三歳の時、実母が他家に再婚して、その家で喉頭結核で死亡していることが分かりました。<br><br>霊の希望としては、他家に再婚している関係上、妻の実家の祖霊の中に入れぬため、祖霊様にお願いしてほしいとのことでした。<br><br>さっそく紙片に俗名を書き大光明如来様に御守護をお願いし、仏壇に入れてお供えものをし、善言讃詞、御讃歌を奏げて祖霊さんにお願いしましたところ、さっそく御礼に出て、今日ただ今離れると申しました。<br><br>すると家内もケロリとして平常になりました。<br><br>右の場合、霊的と感じたら霊媒などを使って呼び出すことはよろしいことでしょうか。<br><br>また、気がつかずにいた場合はいかなる結果になりましょうか。<br><br>なお当時出る痰は憑依霊の曇りの物質化でしょうか。<br><br>本人のも出るものでしょうか。<br><br> 〔御垂示〕 良かったですね。<br><br>これは霊媒を使ってもかまいません。<br><br>結構です。<br><br>霊媒でも悪いんじゃない。<br><br>良いことができれば結構です。<br><br>この霊が早く救われますからね。<br><br>そうすると、霊媒は良いことをしたことになる。<br><br>ものは使いようですね。<br><br>悪いことに使えば悪いし、良いことに使えば良いんです。<br><br>霊媒がいないで霊的と思った時には「私が言ったことが合っていれば、首を縦に振って、違っていたら横に振ってください」と言う。<br><br>そうすれば、口のきけない霊でも、それだけはできるはずです。<br><br>あなたは女ですか、男ですかと聞く。<br><br>また最近亡くなったのですか、古い時にかと言う。<br><br>またそれなら何年前ですか、と言うと、大体見当がつきます。<br><br> この質問のははっきりしてます。<br><br>肺病で死んだので――祀ってもらいたいとすると、どこに祀ったら良いかと、だんだんやっていると分かる。<br><br>これは幸いに霊媒がいたから良かった。<br><br>病人の当人の状態になるんです。<br><br>痰は憑霊の曇りです。<br><br>だから憑霊も救われますからね。<br><br>しかし、痰はたくさんあるから、少しくらい出てもたいしたことはない。<br><br>その人の痰もいくらか出るがたいしたことはない。<br><br>こういうのはお医者にかかると、分からないからさんざんやられて、霊の方も離れないですね。<br><br>分からせるのが目的ですからね。<br><br>ところが、霊はこれは駄目だ――どうも分からないということが分かると、ある程度離れますが、肉体はもう駄目です。<br><br>その身体を医者が結核の二期とか三期とかになっているから、安静にしなければならない――注射をしなければならないと言う。<br><br>霊が離れても、医者につかまった以上死ぬまでやられる。<br><br>これが恐いですね。<br><br>霊的に救われるとたいしたものです。<br><br>霊が憑ると急激に重症になります。<br><br>霊は死ぬほどの重症ですからね。<br><br>同じ苦しみになる。<br><br>ふだん達者でいても、急に悪くなって、間もなく死ぬというのがあります。<br><br>こういうのが多いです。<br><br> （お伺）私の家は長野県埴科（ハニシナ）郡坂城（サカキ）町でございます。<br><br>村でも芝切りと言われるくらいに古い家で、八幡様を氏神として代々祀られておりましたが、今から四代前のおじい様が、道楽のために田畑を売り、ついに氏神様まで人手に渡してしまいました。<br><br>それから昭和二十三年二月四日に祖母が半身中風となり、今だに治らないのに、また母が十月十五日ごろより腹膜となり、二、三の医師に見てもらっておりますうちに、大光明如来様の御神徳を知り、八月一日よりおすがりいたして、私は入信させていただきました。<br><br>御屏風観音様も御奉斎させていただきました。<br><br>お蔭をもちまして、毎日少なくないながらも排便はありますが、お腹が膨くれて少しも変わりなく苦しんでおります。<br><br>また咽喉元に指先大くらいの固結ができ、どうしても流動物以外は通りません。<br><br>霊的になにかございましょうか。<br><br>御教示お願い申し上げます。<br><br> 〔御垂示〕 半身中風というのはない。<br><br>中風は半身なんですからね。<br><br>これも霊的ですね。<br><br>氏神様を人手に渡したのは悪いですね。<br><br>氏神というのは、ここの先祖――祖先ですからね。<br><br>氏神と産土は違いますね。<br><br>先に書いたが、氏神というのは大祖先ですからね。<br><br>ですから、産土に昇格したんだから縁が切れてますからね。<br><br>良くお詫びして、御先祖様を――仏様はあるんでしょうね。<br><br>ないんですか。<br><br> 「ございます」 宗旨は。<br><br> 「分かりません」 分かりませんじゃしょうがない。<br><br>肝腎なことです。<br><br> 先祖代々の位牌は。<br><br> 「祀ってあります」 お詫びだね。<br><br>今まで間違っていたことを許してもらいたいと、良くお詫びをするんだ。<br><br>そうなったら、どうすることもできないから、良く光明如来様にお願いして、間違ったことを心から悔い改めたから、祖霊さんに承知するようにお願いしたいと言えば――良くお願いすれば、それでいいです。<br><br> 光明如来様は。<br><br> 「まだでございます」 さっそくお祀りして、そうすれば良くなります。<br><br> 「その場合、祖先の位牌にお詫びするのでございましょうか。<br><br>」 そうです。<br><br> 「氏神様の方には」 氏神様の方も勿論です。<br><br> 「人手に渡したのですが、家が本家で、家だけがその中に入ってお祀りしております。<br><br>氏神の仲間に――」 それだけでは他の人と同じだ。<br><br>あなたの家は祖先だから特別だ。<br><br>あなたの方で、その土地を買うようになります。<br><br>手に入るようになります。<br><br>そうなるべきものです。<br><br>急じゃないですが、だんだんにです。<br><br>そういうことは割合肝腎なことですよ。<br><br>氏神には月に一度ずつお参りに行けば良い。<br><br>お産日といって、月に何日とあるでしょう。<br><br>知っているでしょう。<br><br>知らないですか。<br><br>毎年お祭りはありますが、お産日という日が必ずありますから、毎月お参りするんです。<br><br>ふつうの人でも、月に一度ずつお参りするのは結構です。<br><br>私も大森にいる時行ったが、産土神（うぶすながみ）はいろんなことをやってくれているんですからね。<br><br>そのお礼に行くのが本当です。<br><br> （お伺）矢口倫子（八歳）は、母体不健全なために医師より妊娠中絶をするように言われましたが、御浄霊をいただき無事安産いたしました。<br><br>生後一年半ほどいたしました時、種痘を受け、翌日より両耳に御浄化いただき、耳だれが出、その後出なくなった時もありますが、今日までほとんど出続きの状態です。<br><br>現在左の耳はまったく聞こえません。<br><br>また智能的にも二年くらい遅れているように思いますが、体育（鉄棒など）は他の同年生徒よりずば抜けて勝れ、大人をびっくりさせるほどでございます。<br><br>両親は信仰に熱心で、父親は資格申請を先月いたしております。<br><br>右浄化はまったく体的のものでございましょうか。<br><br>また御浄霊の重点はどこをいたしましたら、よろしゅうございましょうか。<br><br> 〔御垂示〕 体育というと――これは、この間の杉村のかな……膿が出るというのは非常に結構です。<br><br>何年間出ても非常に結構です。<br><br>それだけあるんだからね。<br><br>やはり薬毒ですからね。<br><br>薬毒の他に――種痘もですね。<br><br>なにしろ出続きというのは結構ですね。<br><br>左の耳は以前からですか。<br><br>種痘を打ってからですか。<br><br> 「だんだん聞こえなくなりました」 種痘前は。<br><br> 「両親も良く分からなかったそうです」 しかし、種痘で耳がこうなるということはないね。<br><br>やはり、前からそうとう聞こえなかったんですね。<br><br>聞こえないというのは、膿が固まっているんです。<br><br>集まって固まるんです。<br><br>だから、聞こえない方を浄霊するんです。<br><br>淋巴腺の方からやった方がいいですね。<br><br>淋巴腺には肩の方から来て、それは腎臓の方から来ている。<br><br>とにかく淋巴腺が一番肝腎だね。<br><br>それから肩ですね。<br><br>耳ばかりやっていても効果はない。<br><br>淋巴腺から肩へとやる。<br><br>人によっては腎臓から来るのもあるし、中途から来るのもある。<br><br>そうして気長にやれば治ります。<br><br>膿が出ることを恐れてはいけない。<br><br>喜ばなければね。<br><br> （お伺）五十歳くらいの肥満せる婦人、数年前神経痛で注射をしたほかに、特に既往症なし。<br><br>最近全身だるく特に左手指が内側に曲がり、伸びなかったのを御浄霊によりお救いいただき、本人は喜んで入信。<br><br>その後養子にも御守りをいただかせましたので、引き続き家で御浄霊をさせていただいております。<br><br>本人は非常に神経質で、夜分鶏や犬の鳴き声が気になって眠れないそうです。<br><br>私も時々御浄霊にまいり祝詞、善言讃詞を奏げ、御浄霊いたしますと、その都度良く眠ります。<br><br>この婦人は不眠が続くと発作的に痙攣を起し、特に左手頸をかい込むようにして苦悶いたします。<br><br>そのうえ、発作を恐怖して二重に神経を使い、ますます眠れないようでしたが、いろいろとお道の話もいたし、最近はたいへん具合良く眠れるようになり、発作も起らずにおりましたので、時々は教会へも通ってくるように申したところ、その晩に、また、以前よりもっとひどい発作を起しましたが、五分くらいで治り、翌日は一日寝ておりましたが、その後は寝たり起きたりしております。<br><br>現在は全身だるいだけで、食欲もあり、別に異状はありません。<br><br>中風の霊の憑依かと思い質ねてみましたが、本人ならびに主人側の先祖にも中風で死んだ者なく（遠い先祖は判りません）いろいろ質ねましたところ、主人の姉が十二歳でモルヒネ自殺をしている他、本人の郷里方には狂人が二人ばかり出ており、また養子の話によりますと、本人は主人の母（姑）を戦時中そうとう食をつめたので、それを気にしているのではないかと申します（その母は八十四歳で老衰死いたしました）。<br><br>その家には仏壇はありますが、位牌もなく（過去帳のみ）写真が三葉飾ってあるだけです。<br><br>主人は御浄霊に反対はいたしませんし、お道の話も良く理解があります。<br><br>いかなる因縁でございましょうか。<br><br> 〔御垂示〕 霊的と薬毒と両方ですね。<br><br>薬毒というのは注射のためですね。<br><br>これはそうとう長くかかります。<br><br>まあ――気長にやるんですね。<br><br>中風状と同じですがね。<br><br>もし中風とすれば、足もなるが、指だけとすると中風の霊じゃないですね。<br><br>それから眠れないのは、ここです（延髄）。<br><br>たいてい右ですが、必ず固まりがあるから、これを溶かす。<br><br>痙攣は、やはりそのためです。<br><br>頸の毒のためです。<br><br>神経というのは霊ですが、これは副守護神ですね。<br><br> 副守護神というのは、とても神経を起させるものです。<br><br>神経を起させてからかう。<br><br>それが好きなんです。<br><br>だからちょっと聞こえたり、なにかすると、これは病気になるんじゃないか、死ぬんじゃないか、とちょっとでも思うと、どんどんやってくる。<br><br>副守護神がそういうことをするということは、霊にそれだけの曇りがあるからですね。<br><br>中風ではないですね。<br><br>お婆さんでもない。<br><br>もしこの霊が憑ると、食いたくてしょうがない。<br><br>モルヒネをやったのは体が痺れますからね。<br><br>むしろ、霊的というと、副守護神です。<br><br>これは気長にやれば治ります。<br><br>なにも心配いらない。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content">
-            <h2>Elucidações sobre Doenças e Questões Espirituais</h2>
-            <p><strong>Pergunta:</strong> Venho interceder por uma menina de um ano e nove meses, de nome Komaki, filha
+<h2>Elucidações sobre Doenças e Questões Espirituais</h2>
+<p><strong>Pergunta:</strong> Venho interceder por uma menina de um ano e nove meses, de nome Komaki, filha
                 do senhor Shigeru Fujita, que ainda não é membro de nossa Fé. A criança foi diagnosticada pelos médicos
                 com hidrocefalia. Inicialmente, ao longo de um mês e meio, submeteram-na a oito punções para extrair
                 líquido seroso da coluna vertebral. Posteriormente, sob os cuidados de outro médico, o mesmo
@@ -121,20 +270,20 @@ function toggleLang(lang) {
                 situação permaneceu inalterada por um ano. Recentemente, a família recorreu ao nosso caminho. Temos
                 ministrado Johrei com foco na região flácida que vai da fronte ao topo da cabeça, bem como na coluna e
                 nos rins. Solicitamos sua orientação sobre o ponto vital para a ministração do Johrei neste caso.</p>
-            <p><strong>Orientação de Meishu-Sama:</strong> Essa consistência flácida na cabeça se deve a um acúmulo de
+<p><strong>Orientação de Meishu-Sama:</strong> Essa consistência flácida na cabeça se deve a um acúmulo de
                 uma substância aquosa, semelhante a um pus rarefeito. A causa remonta a uma vida anterior, na qual essa
                 alma pereceu por afogamento, possivelmente de cabeça para baixo ou em decorrência de uma queda na água.
                 A água que ingeriu foi se acumulando em sua cabeça no momento em que sua vida se extinguiu. Foi nessas
                 condições que ela renasceu.</p>
-            <p>Portanto, não se trata de algo com um significado particularmente profundo. Basta ministrar Johrei na
+<p>Portanto, não se trata de algo com um significado particularmente profundo. Basta ministrar Johrei na
                 região onde a água está acumulada. Pela via espiritual, a cura se processará gradualmente, e o problema
                 será solucionado. Não é uma questão complexa; resume-se a isso.</p>
-            <p><strong>Pergunta:</strong> Minha esposa, nos dias nove, dez e onze de setembro, sempre por volta da
+<p><strong>Pergunta:</strong> Minha esposa, nos dias nove, dez e onze de setembro, sempre por volta da
                 meia-noite, manifestou subitamente sintomas análogos aos da tuberculose. Por mais que eu lhe ministrasse
                 Johrei, o efeito era mínimo, e ao amanhecer ela retornava à normalidade. No dia onze, em particular, os
                 sintomas assemelhavam-se aos da tuberculose laríngea, e por várias vezes pareceu que sua respiração
                 cessaria a qualquer momento.</p>
-            <p>Nesse instante, recordei-me de uma passagem da terceira parte de “Ashita no Ijutsu”, na qual a esposa de
+<p>Nesse instante, recordei-me de uma passagem da terceira parte de “Ashita no Ijutsu”, na qual a esposa de
                 Meishu-Sama apresentou sintomas súbitos de tuberculose que, ao final, se revelaram de origem espiritual.
                 Assim que o dia clareou, tentei interrogar minha esposa, mas ela mal conseguia falar. Como havia entre
                 nossos assistentes uma pessoa com faculdades mediúnicas, pedi que evocasse o espírito. Confirmou-se a
@@ -142,7 +291,7 @@ function toggleLang(lang) {
                 quando minha esposa tinha três anos, falecera de tuberculose laríngea. O desejo do espírito era ser
                 acolhido junto aos ancestrais da família de minha esposa, pois, por ter se casado em outra casa, não
                 podia se juntar aos antepassados de seu segundo marido.</p>
-            <p>Imediatamente, escrevemos o nome da falecida em um papel, rogamos a proteção de Deus da Grande Luz,
+<p>Imediatamente, escrevemos o nome da falecida em um papel, rogamos a proteção de Deus da Grande Luz,
                 depositamos o papel no oratório budista com oferendas e, por fim, entoamos a Oração Amatsu-Norito e os
                 Salmos, suplicando aos antepassados que a acolhessem. Em resposta, o espírito manifestou-se para
                 agradecer e comunicou que se retiraria naquele exato momento. Ato contínuo, minha esposa recuperou-se
@@ -150,25 +299,25 @@ function toggleLang(lang) {
                 ao se pressentir uma causa espiritual, é apropriado recorrer a médiuns para evocar o espírito? E qual
                 teria sido o desfecho se não tivéssemos percebido a verdadeira causa? Ademais, a expectoração que ela
                 apresentava era a materialização das máculas do espírito obsessor ou pertencia ao organismo dela?</p>
-            <p><strong>Orientação de Meishu-Sama:</strong> Foi uma excelente resolução. Não há inconveniente algum em
+<p><strong>Orientação de Meishu-Sama:</strong> Foi uma excelente resolução. Não há inconveniente algum em
                 utilizar um médium; é perfeitamente aceitável. A mediunidade em si não é má. Se for empregada para o
                 bem, torna-se uma ferramenta valiosa, pois permite que o espírito seja salvo mais rapidamente. Nesse
                 caso, o médium praticou uma boa ação. Tudo depende da finalidade com que se utiliza algo: para o mal,
                 torna-se mau; para o bem, torna-se bom.</p>
-            <p>Na ausência de um médium, se suspeitar de uma causa espiritual, você pode dizer ao espírito: “Se o que
+<p>Na ausência de um médium, se suspeitar de uma causa espiritual, você pode dizer ao espírito: “Se o que
                 estou dizendo estiver correto, acene com a cabeça; se estiver errado, mova-a para os lados”. Mesmo um
                 espírito que não consegue falar será capaz de se comunicar dessa forma. Pergunte: “Você é homem ou
                 mulher?”. Depois: “Faleceu recentemente ou há muito tempo?”. E ainda: “Há quantos anos?”. Assim, é
                 possível obter uma noção geral da situação.</p>
-            <p>O caso em questão é bastante claro. O espírito morreu de tuberculose e desejava ser assentado. Ao
+<p>O caso em questão é bastante claro. O espírito morreu de tuberculose e desejava ser assentado. Ao
                 prosseguir com as perguntas, como “Onde você gostaria de ser assentado?”, a verdade se revela
                 gradualmente. Felizmente, a presença do médium facilitou o processo. O doente passa a manifestar o
                 estado do próprio espírito obsessor.</p>
-            <p>A expectoração é a materialização das máculas do espírito obsessor. Com isso, ele também é salvo.
+<p>A expectoração é a materialização das máculas do espírito obsessor. Com isso, ele também é salvo.
                 Contudo, como a quantidade de secreção é grande, a eliminação de uma pequena parte não representa uma
                 mudança substancial. Uma parcela da expectoração da própria pessoa também pode ser expelida, mas em
                 quantidade insignificante.</p>
-            <p>Se recorressem a um médico, o resultado seria desastroso, pois, por ignorar a causa, ele submeteria a
+<p>Se recorressem a um médico, o resultado seria desastroso, pois, por ignorar a causa, ele submeteria a
                 paciente a tratamentos inúteis e agressivos. O espírito, por sua vez, não se afastaria, já que seu
                 objetivo é justamente fazer-se notar. Todavia, quando o espírito percebe que seus esforços são em vão e
                 que não será compreendido, ele pode se afastar até certo ponto. A essa altura, porém, o corpo físico já
@@ -176,15 +325,15 @@ function toggleLang(lang) {
                 prescreverá repouso absoluto e injeções. Mesmo que o espírito se afaste, uma vez sob os cuidados
                 médicos, ela será tratada até a morte. Eis o grande perigo. A salvação pela via espiritual é algo
                 extraordinário.</p>
-            <p>Quando um espírito se manifesta, os sintomas se tornam graves de maneira abrupta, pois ele revive o
+<p>Quando um espírito se manifesta, os sintomas se tornam graves de maneira abrupta, pois ele revive o
                 sofrimento atroz de sua própria morte. A pessoa passa a sentir a mesma agonia. Há muitos casos de
                 indivíduos que, embora gozem de boa saúde, adoecem subitamente e falecem em pouco tempo.</p>
-            <p><strong>Pergunta:</strong> Minha família reside na cidade de Sakaki, distrito de Hanishina, na província
+<p><strong>Pergunta:</strong> Minha família reside na cidade de Sakaki, distrito de Hanishina, na província
                 de Nagano. Somos de uma linhagem muito antiga na aldeia. De geração em geração, reverenciávamos
                 Hachiman-Sama como a divindade tutelar de nossa linhagem. Contudo, há quatro gerações, meu bisavô,
                 devido à sua vida dissoluta, vendeu os campos e as plantações da família e, por fim, entregou até mesmo
                 o santuário de nossa divindade a outras pessoas.</p>
-            <p>Em consequência disso, em 4 de fevereiro de 1948, minha avó sofreu um derrame cerebral e até hoje não se
+<p>Em consequência disso, em 4 de fevereiro de 1948, minha avó sofreu um derrame cerebral e até hoje não se
                 recuperou. Como se não bastasse, por volta de 15 de outubro, minha mãe foi diagnosticada com peritonite.
                 Após consultar alguns médicos, tomamos conhecimento da virtude divina de Deus da Grande Luz e, desde 1º
                 de agosto, passamos a nos apegar a Ele, e eu recebi a permissão para ingressar na Fé. Também consagramos
@@ -192,13 +341,13 @@ function toggleLang(lang) {
                 em pouca quantidade, mas seu abdômen continua inchado e ela sofre com dores. Além disso, formou-se em
                 sua garganta um nódulo do tamanho da ponta de um dedo, que a impede de ingerir qualquer coisa que não
                 seja líquida. Haveria alguma interferência de ordem espiritual? Pedimos sua orientação.</p>
-            <p><strong>Orientação de Meishu-Sama:</strong> Não existe "derrame de meio corpo". O derrame já afeta um
+<p><strong>Orientação de Meishu-Sama:</strong> Não existe "derrame de meio corpo". O derrame já afeta um
                 lado do corpo. O caso também é de natureza espiritual. Vender o santuário da divindade tutelar da
                 linhagem foi um erro gravíssimo. Essa divindade é o grande ancestral da família, a sua origem. É preciso
                 distinguir a divindade tutelar da linhagem, o <em>ujigami</em>, da divindade protetora da terra natal, o
                 <em>ubusuna</em>. O <em>ujigami</em>, como já escrevi anteriormente, é o grande ancestral. Quando ele é
                 elevado à condição de <em>ubusuna</em>, o vínculo se encerra.</p>
-            <p>É imperativo que se desculpem com a mais profunda sinceridade. Vocês possuem um altar para os
+<p>É imperativo que se desculpem com a mais profunda sinceridade. Vocês possuem um altar para os
                 antepassados, correto?
                 — Sim, possuímos.
                 — Qual é a sua religião?
@@ -222,13 +371,13 @@ function toggleLang(lang) {
                 direta, tem uma responsabilidade especial. Com o tempo, surgirá a oportunidade para que sua família
                 readquira aquela terra. É algo que deverá acontecer. Não será de imediato, mas ocorrerá gradualmente.
                 Assuntos como este são de suma importância.</p>
-            <p>Visitem o santuário da divindade tutelar uma vez por mês. Deve haver um dia específico no mês dedicado a
+<p>Visitem o santuário da divindade tutelar uma vez por mês. Deve haver um dia específico no mês dedicado a
                 ela, o dia do seu nascimento espiritual. Vocês devem saber qual é. Não sabem? Embora haja o festival
                 anual, sempre existe essa data mensal para as preces. É muito bom que as pessoas, em geral, visitem o
                 santuário de sua terra natal uma vez ao mês. Quando eu morava em Omori, também o fazia. A divindade
                 protetora da terra natal, o <em>ubusuna-gami</em>, realiza muitas coisas por nós, e visitá-la é a forma
                 correta de agradecer.</p>
-            <p><strong>Pergunta:</strong> Tomoko Yaguchi, de oito anos, nasceu de uma gestação delicada. A mãe, por seu
+<p><strong>Pergunta:</strong> Tomoko Yaguchi, de oito anos, nasceu de uma gestação delicada. A mãe, por seu
                 estado de saúde precário, foi aconselhada pelos médicos a interromper a gravidez. Contudo, graças ao
                 Johrei, teve um parto tranquilo e seguro. Com cerca de um ano e meio, a menina recebeu a vacina contra a
                 varíola. No dia seguinte, iniciou-se um processo de purificação, com secreção purulenta em ambos os
@@ -239,31 +388,31 @@ function toggleLang(lang) {
                 adultos. Seus pais são muito devotos, e o pai solicitou sua qualificação como assistente no mês passado.
                 Gostaríamos de saber se esta purificação é de natureza puramente física e em que pontos devemos
                 concentrar o Johrei.</p>
-            <p><strong>Orientação de Meishu-Sama:</strong> Em relação às atividades físicas... isso me recorda o caso
+<p><strong>Orientação de Meishu-Sama:</strong> Em relação às atividades físicas... isso me recorda o caso
                 recente do Sugimura. A secreção de pus é algo excelente. Mesmo que dure vários anos, é um processo muito
                 benéfico, pois indica a quantidade de impurezas que precisam ser expelidas. Trata-se de toxinas
                 medicamentosas, o <em>yakudoku</em>. Além das toxinas, há o efeito da própria vacina. De qualquer forma,
                 a continuidade da secreção é um ótimo sinal.</p>
-            <p>A perda de audição no ouvido esquerdo ocorreu antes ou depois da vacina?
+<p>A perda de audição no ouvido esquerdo ocorreu antes ou depois da vacina?
                 — A audição foi diminuindo gradualmente.
                 — E antes da vacina?
                 — Os pais não souberam dizer ao certo.
                 — No entanto, não é comum que a vacina contra varíola cause este tipo de problema auditivo.
                 Provavelmente, a audição dela já era bastante deficiente antes. A surdez é causada pelo pus que se
                 solidifica, que se aglomera e endurece.</p>
-            <p>Portanto, deve-se ministrar Johrei no lado que não ouve. É mais eficaz começar pelos gânglios linfáticos,
+<p>Portanto, deve-se ministrar Johrei no lado que não ouve. É mais eficaz começar pelos gânglios linfáticos,
                 que recebem toxinas vindas dos ombros, as quais, por sua vez, se originam nos rins. De todo modo, os
                 gânglios linfáticos são o ponto mais crucial, seguido pelos ombros. Ministrar Johrei apenas no ouvido
                 não surtirá efeito. O caminho correto é dos gânglios para os ombros. Em alguns casos, as toxinas vêm
                 diretamente dos rins; em outros, de pontos intermediários. Com perseverança, a cura será alcançada. Não
                 se deve temer a saída do pus; ao contrário, é motivo de alegria.</p>
-            <p><strong>Pergunta:</strong> Trata-se de uma senhora de aproximadamente cinquenta anos, de constituição
+<p><strong>Pergunta:</strong> Trata-se de uma senhora de aproximadamente cinquenta anos, de constituição
                 robusta. Não possui histórico de doenças relevantes, à exceção de uma neuralgia tratada com injeções há
                 alguns anos. Recentemente, sentia um cansaço generalizado, e os dedos de sua mão esquerda se contraíam
                 para dentro, sem que ela conseguisse esticá-los. Ela foi salva pelo Johrei e, muito feliz, ingressou na
                 Fé. Posteriormente, seu filho adotivo também recebeu a Medalha Sagrada, e continuamos a ministrar-lhe
                 Johrei em casa.</p>
-            <p>Ela é extremamente nervosa e afirma que o canto dos galos e o latido dos cães durante a noite a impedem
+<p>Ela é extremamente nervosa e afirma que o canto dos galos e o latido dos cães durante a noite a impedem
                 de dormir. Quando vou à sua casa e, após entoar a Oração e os Salmos, ministro-lhe Johrei, ela sempre
                 dorme profundamente. Quando a insônia persiste, ela sofre convulsões, durante as quais se contorce em
                 agonia, agarrando o pulso esquerdo. O pavor de ter novas crises a torna duplamente nervosa, agravando
@@ -273,7 +422,7 @@ function toggleLang(lang) {
                 durado apenas cerca de cinco minutos. No dia seguinte, permaneceu de cama e, desde então, alterna entre
                 períodos de repouso e atividade. Atualmente, queixa-se apenas de um cansaço generalizado, tem bom
                 apetite e não apresenta outras anormalidades.</p>
-            <p>Suspeitei da influência de um espírito que morreu de derrame, mas, ao investigar, descobri que nem na
+<p>Suspeitei da influência de um espírito que morreu de derrame, mas, ao investigar, descobri que nem na
                 família dela nem na do marido há registros de tal falecimento, embora não se saiba sobre os antepassados
                 mais remotos. Aprofundando a investigação, soube que a irmã de seu marido cometeu suicídio com morfina
                 aos doze anos e que, na família de origem da paciente, houve dois casos de insanidade. Além disso,
@@ -282,24 +431,66 @@ function toggleLang(lang) {
                 possui um oratório budista, mas não há tabletes ancestrais, apenas o livro de registros da família e
                 três fotografias. O marido não se opõe ao Johrei e compreende bem os nossos ensinamentos. Qual seria a
                 causa espiritual de seu sofrimento?</p>
-            <p><strong>Orientação de Meishu-Sama:</strong> Neste caso, concorrem tanto fatores espirituais quanto a
+<p><strong>Orientação de Meishu-Sama:</strong> Neste caso, concorrem tanto fatores espirituais quanto a
                 intoxicação medicamentosa. As toxinas provêm das injeções que ela tomou. A recuperação levará um tempo
                 considerável, portanto, é preciso ter paciência. Os sintomas se assemelham aos de um derrame, mas, se
                 afetam apenas os dedos, não se trata de um espírito que morreu dessa forma.</p>
-            <p>A insônia origina-se aqui (apontando para o bulbo raquidiano). Geralmente do lado direito, há sempre um
+<p>A insônia origina-se aqui (apontando para o bulbo raquidiano). Geralmente do lado direito, há sempre um
                 acúmulo de toxinas que precisa ser dissolvido. As convulsões também são consequência das toxinas no
                 pescoço.</p>
-            <p>O nervosismo é de natureza espiritual; é obra do espírito guardião secundário. Apraz-lhes provocar
+<p>O nervosismo é de natureza espiritual; é obra do espírito guardião secundário. Apraz-lhes provocar
                 nervosismo e atormentar a pessoa. É o seu deleite. Assim, ao menor ruído ou sensação estranha, se a
                 pessoa pensa, ainda que de relance, “Será que vou ficar doente? Será que vou morrer?”, eles intensificam
                 essa sugestão. O fato de o espírito guardião secundário agir dessa forma indica que ele próprio possui
                 máculas.</p>
-            <p>Não se trata de um espírito que morreu de derrame, tampouco do espírito da sogra. Se fosse este último a
+<p>Não se trata de um espírito que morreu de derrame, tampouco do espírito da sogra. Se fosse este último a
                 se manifestar, ela sentiria uma fome insaciável. O espírito que cometeu suicídio por morfina causaria
                 dormência no corpo. Portanto, a principal causa espiritual é o espírito guardião secundário.</p>
-            <p>Com perseverança no Johrei, ela será curada. Não há motivo para preocupação.</p>
-        </div>
-    </blockquote>
-</body>
+<p>Com perseverança no Johrei, ela será curada. Não há motivo para preocupação.</p>
+</div>
+</blockquote>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御教え （S26年9月18日） 『御教え集』2号、昭和26(1951)年10月25日発行 昭和二十六年九月十八日 （お伺）未入信、藤田茂（二十六歳）の長女（こまき）と申す一年九カ月の女児でございますが、医師に脳水腫と診断され、最初一カ月半八回に渉って膜より少し上の脊柱から漿液をとり、その後も医師を変えて一週間続けて同じ場所から漿液をとりました。<br/><br/>勿論なんらの効果もございませんので、今日まで一年間放置しておりましたところ、このたびお道にすがってこられましたので、前頭部から脳天のブヨブヨしている所を中心に脊髄、腎臓部を浄霊させていただいておりますが、浄霊の急所につき御垂示お願い申し上げます。<br/><br/> 〔御垂示〕 頭がブヨブヨというのは、頭に薄い膿のような――水のようなものが溜まっているんですがね。<br/><br/>これは前の世で、土左衛門で逆さになって死ぬか、落ちるかして、飲んだ水がだんだん頭に溜まったんですね。<br/><br/>そうして、頭に溜まると同時に息が絶えちゃう。<br/><br/>そういうのが生まれたんですね。<br/><br/>だから別にたいした意味はないのですが、頭の水のある所を浄霊すれば良い。<br/><br/>そうすると、だんだん霊的に治っていくから解決する、というわけです。<br/><br/>別に難しい問題じゃない。<br/><br/>それだけのことです。<br/><br/> （お伺）私の妻は九月九、十、十一日と毎晩十二時ごろより急に結核的症状を起し、いかに浄霊してもあまり効果なく、夜の明けるとともに平常に戻りました。<br/><br/>特に十一日のごときは喉頭結核的症状となり、何回も息が止まるかと思ったこともありました。<br/><br/>その時ふと頭に浮かんだことは「明日の医術」第三篇中に明主様の奥様が、突然結核症状となられ、結局霊的であったとのこと、さっそく夜が明けてから妻を調べてみましたが、なかなか口がきけません。<br/><br/>奉仕者中に霊媒的素質のある者がおりますので、その者に呼び出してみましたところ、やはり霊的にて、妻の三歳の時、実母が他家に再婚して、その家で喉頭結核で死亡していることが分かりました。<br/><br/>霊の希望としては、他家に再婚している関係上、妻の実家の祖霊の中に入れぬため、祖霊様にお願いしてほしいとのことでした。<br/><br/>さっそく紙片に俗名を書き大光明如来様に御守護をお願いし、仏壇に入れてお供えものをし、善言讃詞、御讃歌を奏げて祖霊さんにお願いしましたところ、さっそく御礼に出て、今日ただ今離れると申しました。<br/><br/>すると家内もケロリとして平常になりました。<br/><br/>右の場合、霊的と感じたら霊媒などを使って呼び出すことはよろしいことでしょうか。<br/><br/>また、気がつかずにいた場合はいかなる結果になりましょうか。<br/><br/>なお当時出る痰は憑依霊の曇りの物質化でしょうか。<br/><br/>本人のも出るものでしょうか。<br/><br/> 〔御垂示〕 良かったですね。<br/><br/>これは霊媒を使ってもかまいません。<br/><br/>結構です。<br/><br/>霊媒でも悪いんじゃない。<br/><br/>良いことができれば結構です。<br/><br/>この霊が早く救われますからね。<br/><br/>そうすると、霊媒は良いことをしたことになる。<br/><br/>ものは使いようですね。<br/><br/>悪いことに使えば悪いし、良いことに使えば良いんです。<br/><br/>霊媒がいないで霊的と思った時には「私が言ったことが合っていれば、首を縦に振って、違っていたら横に振ってください」と言う。<br/><br/>そうすれば、口のきけない霊でも、それだけはできるはずです。<br/><br/>あなたは女ですか、男ですかと聞く。<br/><br/>また最近亡くなったのですか、古い時にかと言う。<br/><br/>またそれなら何年前ですか、と言うと、大体見当がつきます。<br/><br/> この質問のははっきりしてます。<br/><br/>肺病で死んだので――祀ってもらいたいとすると、どこに祀ったら良いかと、だんだんやっていると分かる。<br/><br/>これは幸いに霊媒がいたから良かった。<br/><br/>病人の当人の状態になるんです。<br/><br/>痰は憑霊の曇りです。<br/><br/>だから憑霊も救われますからね。<br/><br/>しかし、痰はたくさんあるから、少しくらい出てもたいしたことはない。<br/><br/>その人の痰もいくらか出るがたいしたことはない。<br/><br/>こういうのはお医者にかかると、分からないからさんざんやられて、霊の方も離れないですね。<br/><br/>分からせるのが目的ですからね。<br/><br/>ところが、霊はこれは駄目だ――どうも分からないということが分かると、ある程度離れますが、肉体はもう駄目です。<br/><br/>その身体を医者が結核の二期とか三期とかになっているから、安静にしなければならない――注射をしなければならないと言う。<br/><br/>霊が離れても、医者につかまった以上死ぬまでやられる。<br/><br/>これが恐いですね。<br/><br/>霊的に救われるとたいしたものです。<br/><br/>霊が憑ると急激に重症になります。<br/><br/>霊は死ぬほどの重症ですからね。<br/><br/>同じ苦しみになる。<br/><br/>ふだん達者でいても、急に悪くなって、間もなく死ぬというのがあります。<br/><br/>こういうのが多いです。<br/><br/> （お伺）私の家は長野県埴科（ハニシナ）郡坂城（サカキ）町でございます。<br/><br/>村でも芝切りと言われるくらいに古い家で、八幡様を氏神として代々祀られておりましたが、今から四代前のおじい様が、道楽のために田畑を売り、ついに氏神様まで人手に渡してしまいました。<br/><br/>それから昭和二十三年二月四日に祖母が半身中風となり、今だに治らないのに、また母が十月十五日ごろより腹膜となり、二、三の医師に見てもらっておりますうちに、大光明如来様の御神徳を知り、八月一日よりおすがりいたして、私は入信させていただきました。<br/><br/>御屏風観音様も御奉斎させていただきました。<br/><br/>お蔭をもちまして、毎日少なくないながらも排便はありますが、お腹が膨くれて少しも変わりなく苦しんでおります。<br/><br/>また咽喉元に指先大くらいの固結ができ、どうしても流動物以外は通りません。<br/><br/>霊的になにかございましょうか。<br/><br/>御教示お願い申し上げます。<br/><br/> 〔御垂示〕 半身中風というのはない。<br/><br/>中風は半身なんですからね。<br/><br/>これも霊的ですね。<br/><br/>氏神様を人手に渡したのは悪いですね。<br/><br/>氏神というのは、ここの先祖――祖先ですからね。<br/><br/>氏神と産土は違いますね。<br/><br/>先に書いたが、氏神というのは大祖先ですからね。<br/><br/>ですから、産土に昇格したんだから縁が切れてますからね。<br/><br/>良くお詫びして、御先祖様を――仏様はあるんでしょうね。<br/><br/>ないんですか。<br/><br/> 「ございます」 宗旨は。<br/><br/> 「分かりません」 分かりませんじゃしょうがない。<br/><br/>肝腎なことです。<br/><br/> 先祖代々の位牌は。<br/><br/> 「祀ってあります」 お詫びだね。<br/><br/>今まで間違っていたことを許してもらいたいと、良くお詫びをするんだ。<br/><br/>そうなったら、どうすることもできないから、良く光明如来様にお願いして、間違ったことを心から悔い改めたから、祖霊さんに承知するようにお願いしたいと言えば――良くお願いすれば、それでいいです。<br/><br/> 光明如来様は。<br/><br/> 「まだでございます」 さっそくお祀りして、そうすれば良くなります。<br/><br/> 「その場合、祖先の位牌にお詫びするのでございましょうか。<br/><br/>」 そうです。<br/><br/> 「氏神様の方には」 氏神様の方も勿論です。<br/><br/> 「人手に渡したのですが、家が本家で、家だけがその中に入ってお祀りしております。<br/><br/>氏神の仲間に――」 それだけでは他の人と同じだ。<br/><br/>あなたの家は祖先だから特別だ。<br/><br/>あなたの方で、その土地を買うようになります。<br/><br/>手に入るようになります。<br/><br/>そうなるべきものです。<br/><br/>急じゃないですが、だんだんにです。<br/><br/>そういうことは割合肝腎なことですよ。<br/><br/>氏神には月に一度ずつお参りに行けば良い。<br/><br/>お産日といって、月に何日とあるでしょう。<br/><br/>知っているでしょう。<br/><br/>知らないですか。<br/><br/>毎年お祭りはありますが、お産日という日が必ずありますから、毎月お参りするんです。<br/><br/>ふつうの人でも、月に一度ずつお参りするのは結構です。<br/><br/>私も大森にいる時行ったが、産土神（うぶすながみ）はいろんなことをやってくれているんですからね。<br/><br/>そのお礼に行くのが本当です。<br/><br/> （お伺）矢口倫子（八歳）は、母体不健全なために医師より妊娠中絶をするように言われましたが、御浄霊をいただき無事安産いたしました。<br/><br/>生後一年半ほどいたしました時、種痘を受け、翌日より両耳に御浄化いただき、耳だれが出、その後出なくなった時もありますが、今日までほとんど出続きの状態です。<br/><br/>現在左の耳はまったく聞こえません。<br/><br/>また智能的にも二年くらい遅れているように思いますが、体育（鉄棒など）は他の同年生徒よりずば抜けて勝れ、大人をびっくりさせるほどでございます。<br/><br/>両親は信仰に熱心で、父親は資格申請を先月いたしております。<br/><br/>右浄化はまったく体的のものでございましょうか。<br/><br/>また御浄霊の重点はどこをいたしましたら、よろしゅうございましょうか。<br/><br/> 〔御垂示〕 体育というと――これは、この間の杉村のかな……膿が出るというのは非常に結構です。<br/><br/>何年間出ても非常に結構です。<br/><br/>それだけあるんだからね。<br/><br/>やはり薬毒ですからね。<br/><br/>薬毒の他に――種痘もですね。<br/><br/>なにしろ出続きというのは結構ですね。<br/><br/>左の耳は以前からですか。<br/><br/>種痘を打ってからですか。<br/><br/> 「だんだん聞こえなくなりました」 種痘前は。<br/><br/> 「両親も良く分からなかったそうです」 しかし、種痘で耳がこうなるということはないね。<br/><br/>やはり、前からそうとう聞こえなかったんですね。<br/><br/>聞こえないというのは、膿が固まっているんです。<br/><br/>集まって固まるんです。<br/><br/>だから、聞こえない方を浄霊するんです。<br/><br/>淋巴腺の方からやった方がいいですね。<br/><br/>淋巴腺には肩の方から来て、それは腎臓の方から来ている。<br/><br/>とにかく淋巴腺が一番肝腎だね。<br/><br/>それから肩ですね。<br/><br/>耳ばかりやっていても効果はない。<br/><br/>淋巴腺から肩へとやる。<br/><br/>人によっては腎臓から来るのもあるし、中途から来るのもある。<br/><br/>そうして気長にやれば治ります。<br/><br/>膿が出ることを恐れてはいけない。<br/><br/>喜ばなければね。<br/><br/> （お伺）五十歳くらいの肥満せる婦人、数年前神経痛で注射をしたほかに、特に既往症なし。<br/><br/>最近全身だるく特に左手指が内側に曲がり、伸びなかったのを御浄霊によりお救いいただき、本人は喜んで入信。<br/><br/>その後養子にも御守りをいただかせましたので、引き続き家で御浄霊をさせていただいております。<br/><br/>本人は非常に神経質で、夜分鶏や犬の鳴き声が気になって眠れないそうです。<br/><br/>私も時々御浄霊にまいり祝詞、善言讃詞を奏げ、御浄霊いたしますと、その都度良く眠ります。<br/><br/>この婦人は不眠が続くと発作的に痙攣を起し、特に左手頸をかい込むようにして苦悶いたします。<br/><br/>そのうえ、発作を恐怖して二重に神経を使い、ますます眠れないようでしたが、いろいろとお道の話もいたし、最近はたいへん具合良く眠れるようになり、発作も起らずにおりましたので、時々は教会へも通ってくるように申したところ、その晩に、また、以前よりもっとひどい発作を起しましたが、五分くらいで治り、翌日は一日寝ておりましたが、その後は寝たり起きたりしております。<br/><br/>現在は全身だるいだけで、食欲もあり、別に異状はありません。<br/><br/>中風の霊の憑依かと思い質ねてみましたが、本人ならびに主人側の先祖にも中風で死んだ者なく（遠い先祖は判りません）いろいろ質ねましたところ、主人の姉が十二歳でモルヒネ自殺をしている他、本人の郷里方には狂人が二人ばかり出ており、また養子の話によりますと、本人は主人の母（姑）を戦時中そうとう食をつめたので、それを気にしているのではないかと申します（その母は八十四歳で老衰死いたしました）。<br/><br/>その家には仏壇はありますが、位牌もなく（過去帳のみ）写真が三葉飾ってあるだけです。<br/><br/>主人は御浄霊に反対はいたしませんし、お道の話も良く理解があります。<br/><br/>いかなる因縁でございましょうか。<br/><br/> 〔御垂示〕 霊的と薬毒と両方ですね。<br/><br/>薬毒というのは注射のためですね。<br/><br/>これはそうとう長くかかります。<br/><br/>まあ――気長にやるんですね。<br/><br/>中風状と同じですがね。<br/><br/>もし中風とすれば、足もなるが、指だけとすると中風の霊じゃないですね。<br/><br/>それから眠れないのは、ここです（延髄）。<br/><br/>たいてい右ですが、必ず固まりがあるから、これを溶かす。<br/><br/>痙攣は、やはりそのためです。<br/><br/>頸の毒のためです。<br/><br/>神経というのは霊ですが、これは副守護神ですね。<br/><br/> 副守護神というのは、とても神経を起させるものです。<br/><br/>神経を起させてからかう。<br/><br/>それが好きなんです。<br/><br/>だからちょっと聞こえたり、なにかすると、これは病気になるんじゃないか、死ぬんじゃないか、とちょっとでも思うと、どんどんやってくる。<br/><br/>副守護神がそういうことをするということは、霊にそれだけの曇りがあるからですね。<br/><br/>中風ではないですね。<br/><br/>お婆さんでもない。<br/><br/>もしこの霊が憑ると、食いたくてしょうがない。<br/><br/>モルヒネをやったのは体が痺れますからね。<br/><br/>むしろ、霊的というと、副守護神です。<br/><br/>これは気長にやれば治ります。<br/><br/>なにも心配いらない。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
 
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

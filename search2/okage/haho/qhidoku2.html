@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qhidoku2</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 肥毒の恐ろしさ 『栄光』245号、昭和29(1954)年1月27日発行 静岡県 愛進中教会農事担当者 増田耕一（33） 明主様より肥毒の恐ろしさについて御教えいただきまして、皆様にもその害毒を話しておりながらこの度程ハッキリその恐ろしさを見せつけられた事はありません。<br><br> 昨年暮、信者の多々良武夫氏が自然栽培一年目（品種白菊）の玄米と有肥栽培の玄米の標本を作られ、教会へ持って来られました。<br><br> 自然栽培の玄米は丸々として粒張りがあり実に力強い感を受けるに対し、有肥玄米は細長く弱々しい結核患者を思わせる様で、自然米と有肥米の対照がよく分り、いい標本として皆様にも説明して驚かれたものでした。<br><br>ところが今年になってからいつか忘れて事務室の片隅に置忘れられてしまいました。<br><br> 最近になって事務室の机や畳の上に時折穀象虫を見受ける様になりました。<br><br>最初の内は別に気にも止めませんでしたが毎日数が増えて来ますので「穀類のないはずの事務室にどうして穀象虫が出るのだろうか」と漸く不審を抱く様になりました。<br><br>それから数日後、フト気付いて「そうだ昨年米の見本を置いたからもしや」と思い早速棚の隅に忘れられていた二つの標本函を探し出しました。<br><br> 二つの函が重ねられてそのままになっており、上が自然米、下が有肥米でセロファン張りの自然米の函は何の異常もなく昨年見たのと同じでした。<br><br>ところが下の有肥米の函を見てハッとしました。<br><br>函の上面に張られたセロファンは真黒に見えました。<br><br>よく見ればこの僅か十糎足らずの函の中に幾十の穀象虫が右往左往してうごめいております。<br><br>昨年見たスマートな有肥玄米の姿はあのグロテスクな穀象虫に化けてしまったとしか思えません。<br><br>密閉したセロファンの各所に、穴をあけ、三匹、五匹と這い出しております。<br><br>そして手といわず畳といわずたちまち穀象虫は散開してゆきます。<br><br>その姿はあたかも自分の使命を完うして引揚げてゆく勇姿に見えて私もこの時だけは、無気味な穀象虫に対し「御苦労様でした」と呼びかけたい気持でした。<br><br>実に惨憺たる有様にて、ほとんど八〇％以上が見事な防空壕が掘られ、トンネルが貫通し、中にはほとんど空ろになって紙より薄い外郭のみを残した妙技には感歎させられます。<br><br>殆んど満足な粒はなく、虫糞にまみれて精白された様な有肥玄米の姿に比して一方自然玄米は昨年と少しも変らぬ瑞々しさ、肥料によってかくまで違うものだろうかと慄然と致しました。<br><br> その後試みに穀象虫を数匹ずつ何回か自然玄米の中へ入れて見ましたが、何時か姿を消してしまいます。<br><br>穀象虫に言わせたら「こんな自然玄米は真平だ、肥毒気のない米に用はない」と言うに違いありません。<br><br> この事実を見るにつけ、自然米の腹もちのよい事も頷け、保存のきく事も証明される訳です。<br><br>又近年農作物に病虫害の多発する事も肥料の種類の増加に比例するとの御教えもよく分らせて頂けました。<br><br>なおあの穀象虫が米粒の芯から自然発生して中身を食べながら大きくなる事も、まだ穴のあいてない米粒をすかして見ると中に白線が出来ていて、穀象虫の幼虫の姿が不透明な影となって見られます。<br><br>こうした事からも汚れた所に黴菌が自然発生する事も自明の理であります。<br><br> 自然栽培を実施している方達も異口同音に、虫が湧かなくなったと申しております。<br><br>数年前より麦の自然栽培を実施している相馬茂雄氏は「今年はカマス（藁で織った袋）の中へじかに麦を入れておいたがほとんど虫は湧かない」と言われております。<br><br> ちなみにこの標本の玄米一勺の目方は自然が四匁、有肥が二匁二分で（昭和二十八年十月十八日計量）自然百に対し有肥は五十五％となり、一升の重量は、自然四百匁に対し有肥は二百二十匁という驚くべき結果となり、従って日常の食事の約半分が栄養分のない、反って人体に有害な肥毒分とも考えられ、今更ながら有肥米の恐ろしさに戦慄を禁じ得ません。<br><br>近年増加した医診に言う「千人に一人」とか「万人に一人」という奇病の発生も、日常無関心に食べる米や野菜に含まれた肥料の毒がその要因とも考えられ、日頃御教え頂いております明主様の御言葉が他に求む由もない絶対の真理の顕彰であられる事が殊更に胸に迫り感涙がこみ上げます。<br><br> 今後「自然農法普及会」の発展に伴ない、既成農法の誇る手中の玉、肥料こそ、実は農作物の生産と尊い人命を刻々蝕んでゆく悪魔の玉である事が白日下に晒され、肥料万能に盲信、陶酔する近代農業の大革命が行われ、この地上に恐るべき肥毒の消滅する日も遠くない事を確信して、拙稿を結ばせて頂きます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Horror do Veneno dos Adubos (Trecho da Coletânea de Artigos do Mestre Jikan Okada)</h2>
 <p>Relato de Koichi Masuda (33 anos)
@@ -108,5 +263,48 @@ Responsável Agrícola da Igreja Aishin-Chukyo, Província de Shizuoka
 <p>A título de complemento, uma medição realizada em 18 de outubro de 1953 revelou um dado assombroso. Para um mesmo volume, o arroz integral da Agricultura Natural apresentou um peso significativamente maior que o do arroz adubado, cuja massa correspondia a apenas 55% da do arroz natural. Extrapolando esse resultado, chegamos à conclusão de que, no cultivo com adubos, quase metade da constituição do grão não corresponde a nutrientes, mas sim ao veneno dos adubos, nocivo ao corpo humano. Diante dessa constatação, não consigo conter um novo calafrio ao pensar no horror que representa o arroz adubado.</p>
 <p>Pode-se inferir, portanto, que a causa do surgimento de doenças raras – que, segundo a medicina, acometem "uma em mil" ou "uma em dez mil" pessoas – reside no veneno contido nos adubos presentes no arroz e nos vegetais que consumimos diariamente de forma displicente. Sinto uma profunda emoção e as lágrimas me vêm aos olhos ao perceber, com renovada clareza, que as palavras de Meishu-Sama, que temos o privilégio de receber, são a manifestação da Verdade absoluta, que não pode ser encontrada em nenhum outro lugar.</p>
 <p>Com a futura expansão da Agricultura Natural, o pilar fundamental da agricultura convencional – o adubo – será finalmente desmascarado à luz do dia como o artifício demoníaco que, na verdade, corrói a produção agrícola e ceifa preciosas vidas humanas. Estou convicto de que se aproxima uma grande revolução na agricultura moderna, que hoje se embriaga na fé cega da onipotência dos fertilizantes. O dia em que o terrível veneno dos adubos será erradicado da face da Terra não está distante, e é com esta certeza que encerro este modesto artigo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 肥毒の恐ろしさ 『栄光』245号、昭和29(1954)年1月27日発行 静岡県 愛進中教会農事担当者 増田耕一（33） 明主様より肥毒の恐ろしさについて御教えいただきまして、皆様にもその害毒を話しておりながらこの度程ハッキリその恐ろしさを見せつけられた事はありません。<br/><br/> 昨年暮、信者の多々良武夫氏が自然栽培一年目（品種白菊）の玄米と有肥栽培の玄米の標本を作られ、教会へ持って来られました。<br/><br/> 自然栽培の玄米は丸々として粒張りがあり実に力強い感を受けるに対し、有肥玄米は細長く弱々しい結核患者を思わせる様で、自然米と有肥米の対照がよく分り、いい標本として皆様にも説明して驚かれたものでした。<br/><br/>ところが今年になってからいつか忘れて事務室の片隅に置忘れられてしまいました。<br/><br/> 最近になって事務室の机や畳の上に時折穀象虫を見受ける様になりました。<br/><br/>最初の内は別に気にも止めませんでしたが毎日数が増えて来ますので「穀類のないはずの事務室にどうして穀象虫が出るのだろうか」と漸く不審を抱く様になりました。<br/><br/>それから数日後、フト気付いて「そうだ昨年米の見本を置いたからもしや」と思い早速棚の隅に忘れられていた二つの標本函を探し出しました。<br/><br/> 二つの函が重ねられてそのままになっており、上が自然米、下が有肥米でセロファン張りの自然米の函は何の異常もなく昨年見たのと同じでした。<br/><br/>ところが下の有肥米の函を見てハッとしました。<br/><br/>函の上面に張られたセロファンは真黒に見えました。<br/><br/>よく見ればこの僅か十糎足らずの函の中に幾十の穀象虫が右往左往してうごめいております。<br/><br/>昨年見たスマートな有肥玄米の姿はあのグロテスクな穀象虫に化けてしまったとしか思えません。<br/><br/>密閉したセロファンの各所に、穴をあけ、三匹、五匹と這い出しております。<br/><br/>そして手といわず畳といわずたちまち穀象虫は散開してゆきます。<br/><br/>その姿はあたかも自分の使命を完うして引揚げてゆく勇姿に見えて私もこの時だけは、無気味な穀象虫に対し「御苦労様でした」と呼びかけたい気持でした。<br/><br/>実に惨憺たる有様にて、ほとんど八〇％以上が見事な防空壕が掘られ、トンネルが貫通し、中にはほとんど空ろになって紙より薄い外郭のみを残した妙技には感歎させられます。<br/><br/>殆んど満足な粒はなく、虫糞にまみれて精白された様な有肥玄米の姿に比して一方自然玄米は昨年と少しも変らぬ瑞々しさ、肥料によってかくまで違うものだろうかと慄然と致しました。<br/><br/> その後試みに穀象虫を数匹ずつ何回か自然玄米の中へ入れて見ましたが、何時か姿を消してしまいます。<br/><br/>穀象虫に言わせたら「こんな自然玄米は真平だ、肥毒気のない米に用はない」と言うに違いありません。<br/><br/> この事実を見るにつけ、自然米の腹もちのよい事も頷け、保存のきく事も証明される訳です。<br/><br/>又近年農作物に病虫害の多発する事も肥料の種類の増加に比例するとの御教えもよく分らせて頂けました。<br/><br/>なおあの穀象虫が米粒の芯から自然発生して中身を食べながら大きくなる事も、まだ穴のあいてない米粒をすかして見ると中に白線が出来ていて、穀象虫の幼虫の姿が不透明な影となって見られます。<br/><br/>こうした事からも汚れた所に黴菌が自然発生する事も自明の理であります。<br/><br/> 自然栽培を実施している方達も異口同音に、虫が湧かなくなったと申しております。<br/><br/>数年前より麦の自然栽培を実施している相馬茂雄氏は「今年はカマス（藁で織った袋）の中へじかに麦を入れておいたがほとんど虫は湧かない」と言われております。<br/><br/> ちなみにこの標本の玄米一勺の目方は自然が四匁、有肥が二匁二分で（昭和二十八年十月十八日計量）自然百に対し有肥は五十五％となり、一升の重量は、自然四百匁に対し有肥は二百二十匁という驚くべき結果となり、従って日常の食事の約半分が栄養分のない、反って人体に有害な肥毒分とも考えられ、今更ながら有肥米の恐ろしさに戦慄を禁じ得ません。<br/><br/>近年増加した医診に言う「千人に一人」とか「万人に一人」という奇病の発生も、日常無関心に食べる米や野菜に含まれた肥料の毒がその要因とも考えられ、日頃御教え頂いております明主様の御言葉が他に求む由もない絶対の真理の顕彰であられる事が殊更に胸に迫り感涙がこみ上げます。<br/><br/> 今後「自然農法普及会」の発展に伴ない、既成農法の誇る手中の玉、肥料こそ、実は農作物の生産と尊い人命を刻々蝕んでゆく悪魔の玉である事が白日下に晒され、肥料万能に盲信、陶酔する近代農業の大革命が行われ、この地上に恐るべき肥毒の消滅する日も遠くない事を確信して、拙稿を結ばせて頂きます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

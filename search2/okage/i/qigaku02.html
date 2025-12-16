@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qigaku02</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 医学で解決出来ぬランドリー氏病 （極悪性小児麻痺） 『栄光』170号、昭和27(1952)年8月20日発行 『アメリカを救う』昭和28(1953)年1月1日発行 山口県 明輪中教会 幸島賢一（32） 忘れもしない本年四月十二日の朝、前夜まで何の前触れも無く元気だった次女順子（満二歳三カ月）が、中々起きませんので、常日頃からよくふざける次女の性質上又かと放って置きましたところ、本人が「母ちゃん起きられんわね」といいますので妻が行って見ますと、両足をぶらぶらしてもがいております。<br><br>余りの変り方に「これは大変医者だ」と近所の掛りつけの医者に診せましたところ、首を斜げて「これは大変です、自分の手では責任が持てないから整形外科に」との事で慌てて整形外科医に見せましたところ、初めの医者と同じ事を言うので全く眼先が真暗になり、最後の頼みと、以前から商売上のお得意であった小児科専門のＴ医博に相談しましたところ、Ｔ医博は私を診察室の側の別室に招き、部厚い医学の書物を開いて深刻な溜息と共に「幸島さん今の世の中にはまだまだ医者で解決出来ない病気が相当ありますが、貴方の子供さんはランドリー氏病という小児麻痺の中でも性質の悪い重症で、医学上原因も、確かな治療も無く、ほとんどが死の転機を見るという事になっております。<br><br>しかし万一の奇蹟も無い訳でも無く、又新薬も次々と出ておりますから、この際私も全力を尽してやって見ます。<br><br>だが生きるも死ぬるも一つの運と思って私に任せて戴きたい」との言葉に暗闇に突落されたような気になりながら、さりとて外に術もなくその言に従い入院して一家付添いで寝ずの看病をし、Ｔ医博も又あらゆる新薬を用いて治療しましたがその効なく、二日目には早くも両腕の自由を失い、三日目にはロから誕を出して呼吸は逼迫し、Ｔ医の態度もただ事ではありません。<br><br>「医学でも解明出来ない不治の病に取憑かれた事がこの子の悲しい宿命なのだ」と腹の中では諦め妻にも覚悟の程を申し渡しました。<br><br>とは言うものの病床に横たわる愛しい順子の顔を見れば、何とか救ってやりたいと思案はしますが施しようも無く、茫然としておりますところへ同業者の安森の奥さんが来て、「こうなれば神様にお縋りするより外はありません。<br><br>私は石槌大権現さんを信仰しておりますが中々よく言うことが当ります。<br><br>明日ぜひ行ってその先生に見て貰ったら」との親切な言葉と子供への愛情にひかれて翌日御参りしてその先生という人の話を聞きましたが、どうも要領を得ない話で腑に落ちぬところがあるのです。<br><br>病院に帰って見れば子供はいよいよ脳を冒され始めたらしく、歯ぎしりをし虫の息で、もうこれまでかと思う程でした。<br><br>この時私の頭にサッと閃いたものがあるのです。<br><br>実は商売の取引先で小倉市の山彦という陶器問屋の番頭さんで竹谷さんというお道の信者さんが前々から商用で来られる度に救世教の話をしておられました。<br><br>私も師範学校時代、軍隊生活時代に「信仰と人間」という事には、かなりの関心を持ってはおりましたし、ある程度宗教の本等読んだり聞いたりしておりましたが、どうも竹谷さんの言われる事が全幅的に賛成も出来ず余り取り上げておりませんでした。<br><br>しかし危篤の順子を眼前に見てあらゆるものから見放された私としては、「溺れる者は藁をも掴む」のたとえの通り、早速竹谷さんに連絡しましたところ、出張中との事に落胆しましたが、更に勇を鼓し吾身に鞭打って竹谷さんから話を聞いていた植田さんを通じ、彦島支部の村前先生に連絡を取って戴きましたところ、御親切にも早速その晩病院まで来て御浄霊をして戴きました。<br><br>「必ず御守護が戴かれます。<br><br>だがこのままでは薬毒が入りますからよくありません」との御言葉にちょっとためらいましたが、「どうせ医者の方から見放された病気だ、同じ死ぬなら家で死なした方がこの子も喜ぶだろう。<br><br>御浄霊とかで治るか治らないか判らないが、まあ一つお縋りして見よう」と妻にも決心させ、近親の猛烈な反対（特に妻の妹の主人が外科医です）とＴ医の再三の熱心な引止めも押切り、翌十七日退院（発病六日目）十八日に幡生の中教会にお参りさせて戴き、鬼頭先生のお話を聞いて御浄霊して戴き「大丈夫治りますよ」との判然とした御言葉に、実のところ六分の希望と四分の不信を抱きながら毎日村前先生の御慈悲に溢れた御道の話と御浄霊を戴きました。<br><br>四月二十日頃大浄化が起り、泡を吹いて呼吸困難となりましたが、慌てて驚く家中の者に「これは御浄霊による大浄化だ」と言い聞かせ、一心に明主様にお縋りしましたところ不思議にも治まり、その晩からはよく眠るようになり、二、三日後には食欲も少しずつ出て参りました。<br><br>「もう大丈夫です」との村前先生の御言葉に力を得、四月二十八日妻鶴子に御守様を戴かせて貰い、更に私も五月八日に入信させて戴き、御浄霊を続けておりましたところ段々食欲も増し、涎は止り、泡も自然と治まって発病後一カ月目には両肩が、四十日目には両手が、五十日目からは両肢が少しずつ動き出し、二カ月目を過ぎた今日では、もう指先と足先に力が入ればいいという段階にまでならせて戴き、近所の人も皆吃驚しておられます。<br><br>二、三日前にＴ医と妻鶴子が偶然に会う機会があったのですがＴ医も順子の容態を見て大変驚いて「なぜこんなに治ったのでしょう。<br><br>全く奇蹟ですね。<br><br>お灸かマッサージでこんなに治ったのですか」「いいえ別に」「とにかく不思議ですね。<br><br>これは医学上の研究問題です。<br><br>学界に発表したいですから。<br><br>時々来て見せるだけで良いですから」と話をされたそうです。<br><br>又妻の妹の主人のＹ外科医も先に申し上げた通り退院大反対論者で、当時私と大議論をした程でしたが、最近ではこの厳然とした事実の前に「奇蹟だ、奇蹟だ」と不思議がり、「救世教の医学の本をとにかく一度見せて下さい」とまで申しておりますので、村前先生に御願いして置きました。<br><br>更に天理教の長年の信者であった母も、この事以後は御道の話を聞いて大変熱心になり、ただ今乳癌の御浄化を戴いておりますが、中教会支部にも御参りさせて戴き御浄霊も戴いておりますので、必ず御神徳戴けることと確信致しております。<br><br>こうして暗雲低迷の私の家も、明主様の御光燦然として希望と喜びに満ち溢れ、商売の方も又今までの無理を是正して狭く貧しいながらも楽しい家として、安心立命の日々を送らせて戴いております。<br><br>この上は一家共々に益々明主様の御教通り精進致しまして、地上天国建設の御神業の万分の一をも輔翼し奉り、もって御高徳に御報いする所存で御座います。<br><br> 明主様有難う御座いました。<br><br>今後共益々御守護を賜わりますよう謹んで御願い申し上げます。<br><br> （昭和二十七年七月十五日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Doença de Landry, Incurável pela Medicina (Poliomielite Infantil de Extrema Malignidade)</h2>
 <p><strong>Publicado na Coletânea “A Salvação da América” em 1º de janeiro de 1953, e na Revista Eikou nº 170, em 20 de agosto de 1952</strong></p>
@@ -111,5 +266,48 @@ function toggleLang(lang) {
 <p>De agora em diante, toda a minha família se devotará ainda mais aos ensinamentos de Meishu-Sama, com o firme propósito de auxiliar, ainda que minimamente, na Obra Divina de construção do Paraíso Terrestre e, assim, retribuir a imensa graça recebida.</p>
 <p>Muito obrigado, Meishu-Sama. Humildemente, rogo que continue a nos conceder Sua infinita proteção.</p>
 <p>(15 de julho de 1952)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 医学で解決出来ぬランドリー氏病 （極悪性小児麻痺） 『栄光』170号、昭和27(1952)年8月20日発行 『アメリカを救う』昭和28(1953)年1月1日発行 山口県 明輪中教会 幸島賢一（32） 忘れもしない本年四月十二日の朝、前夜まで何の前触れも無く元気だった次女順子（満二歳三カ月）が、中々起きませんので、常日頃からよくふざける次女の性質上又かと放って置きましたところ、本人が「母ちゃん起きられんわね」といいますので妻が行って見ますと、両足をぶらぶらしてもがいております。<br/><br/>余りの変り方に「これは大変医者だ」と近所の掛りつけの医者に診せましたところ、首を斜げて「これは大変です、自分の手では責任が持てないから整形外科に」との事で慌てて整形外科医に見せましたところ、初めの医者と同じ事を言うので全く眼先が真暗になり、最後の頼みと、以前から商売上のお得意であった小児科専門のＴ医博に相談しましたところ、Ｔ医博は私を診察室の側の別室に招き、部厚い医学の書物を開いて深刻な溜息と共に「幸島さん今の世の中にはまだまだ医者で解決出来ない病気が相当ありますが、貴方の子供さんはランドリー氏病という小児麻痺の中でも性質の悪い重症で、医学上原因も、確かな治療も無く、ほとんどが死の転機を見るという事になっております。<br/><br/>しかし万一の奇蹟も無い訳でも無く、又新薬も次々と出ておりますから、この際私も全力を尽してやって見ます。<br/><br/>だが生きるも死ぬるも一つの運と思って私に任せて戴きたい」との言葉に暗闇に突落されたような気になりながら、さりとて外に術もなくその言に従い入院して一家付添いで寝ずの看病をし、Ｔ医博も又あらゆる新薬を用いて治療しましたがその効なく、二日目には早くも両腕の自由を失い、三日目にはロから誕を出して呼吸は逼迫し、Ｔ医の態度もただ事ではありません。<br/><br/>「医学でも解明出来ない不治の病に取憑かれた事がこの子の悲しい宿命なのだ」と腹の中では諦め妻にも覚悟の程を申し渡しました。<br/><br/>とは言うものの病床に横たわる愛しい順子の顔を見れば、何とか救ってやりたいと思案はしますが施しようも無く、茫然としておりますところへ同業者の安森の奥さんが来て、「こうなれば神様にお縋りするより外はありません。<br/><br/>私は石槌大権現さんを信仰しておりますが中々よく言うことが当ります。<br/><br/>明日ぜひ行ってその先生に見て貰ったら」との親切な言葉と子供への愛情にひかれて翌日御参りしてその先生という人の話を聞きましたが、どうも要領を得ない話で腑に落ちぬところがあるのです。<br/><br/>病院に帰って見れば子供はいよいよ脳を冒され始めたらしく、歯ぎしりをし虫の息で、もうこれまでかと思う程でした。<br/><br/>この時私の頭にサッと閃いたものがあるのです。<br/><br/>実は商売の取引先で小倉市の山彦という陶器問屋の番頭さんで竹谷さんというお道の信者さんが前々から商用で来られる度に救世教の話をしておられました。<br/><br/>私も師範学校時代、軍隊生活時代に「信仰と人間」という事には、かなりの関心を持ってはおりましたし、ある程度宗教の本等読んだり聞いたりしておりましたが、どうも竹谷さんの言われる事が全幅的に賛成も出来ず余り取り上げておりませんでした。<br/><br/>しかし危篤の順子を眼前に見てあらゆるものから見放された私としては、「溺れる者は藁をも掴む」のたとえの通り、早速竹谷さんに連絡しましたところ、出張中との事に落胆しましたが、更に勇を鼓し吾身に鞭打って竹谷さんから話を聞いていた植田さんを通じ、彦島支部の村前先生に連絡を取って戴きましたところ、御親切にも早速その晩病院まで来て御浄霊をして戴きました。<br/><br/>「必ず御守護が戴かれます。<br/><br/>だがこのままでは薬毒が入りますからよくありません」との御言葉にちょっとためらいましたが、「どうせ医者の方から見放された病気だ、同じ死ぬなら家で死なした方がこの子も喜ぶだろう。<br/><br/>御浄霊とかで治るか治らないか判らないが、まあ一つお縋りして見よう」と妻にも決心させ、近親の猛烈な反対（特に妻の妹の主人が外科医です）とＴ医の再三の熱心な引止めも押切り、翌十七日退院（発病六日目）十八日に幡生の中教会にお参りさせて戴き、鬼頭先生のお話を聞いて御浄霊して戴き「大丈夫治りますよ」との判然とした御言葉に、実のところ六分の希望と四分の不信を抱きながら毎日村前先生の御慈悲に溢れた御道の話と御浄霊を戴きました。<br/><br/>四月二十日頃大浄化が起り、泡を吹いて呼吸困難となりましたが、慌てて驚く家中の者に「これは御浄霊による大浄化だ」と言い聞かせ、一心に明主様にお縋りしましたところ不思議にも治まり、その晩からはよく眠るようになり、二、三日後には食欲も少しずつ出て参りました。<br/><br/>「もう大丈夫です」との村前先生の御言葉に力を得、四月二十八日妻鶴子に御守様を戴かせて貰い、更に私も五月八日に入信させて戴き、御浄霊を続けておりましたところ段々食欲も増し、涎は止り、泡も自然と治まって発病後一カ月目には両肩が、四十日目には両手が、五十日目からは両肢が少しずつ動き出し、二カ月目を過ぎた今日では、もう指先と足先に力が入ればいいという段階にまでならせて戴き、近所の人も皆吃驚しておられます。<br/><br/>二、三日前にＴ医と妻鶴子が偶然に会う機会があったのですがＴ医も順子の容態を見て大変驚いて「なぜこんなに治ったのでしょう。<br/><br/>全く奇蹟ですね。<br/><br/>お灸かマッサージでこんなに治ったのですか」「いいえ別に」「とにかく不思議ですね。<br/><br/>これは医学上の研究問題です。<br/><br/>学界に発表したいですから。<br/><br/>時々来て見せるだけで良いですから」と話をされたそうです。<br/><br/>又妻の妹の主人のＹ外科医も先に申し上げた通り退院大反対論者で、当時私と大議論をした程でしたが、最近ではこの厳然とした事実の前に「奇蹟だ、奇蹟だ」と不思議がり、「救世教の医学の本をとにかく一度見せて下さい」とまで申しておりますので、村前先生に御願いして置きました。<br/><br/>更に天理教の長年の信者であった母も、この事以後は御道の話を聞いて大変熱心になり、ただ今乳癌の御浄化を戴いておりますが、中教会支部にも御参りさせて戴き御浄霊も戴いておりますので、必ず御神徳戴けることと確信致しております。<br/><br/>こうして暗雲低迷の私の家も、明主様の御光燦然として希望と喜びに満ち溢れ、商売の方も又今までの無理を是正して狭く貧しいながらも楽しい家として、安心立命の日々を送らせて戴いております。<br/><br/>この上は一家共々に益々明主様の御教通り精進致しまして、地上天国建設の御神業の万分の一をも輔翼し奉り、もって御高徳に御報いする所存で御座います。<br/><br/> 明主様有難う御座いました。<br/><br/>今後共益々御守護を賜わりますよう謹んで御願い申し上げます。<br/><br/> （昭和二十七年七月十五日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

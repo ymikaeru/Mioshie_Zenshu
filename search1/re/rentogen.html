@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>rentogen</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,61 +241,55 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： レントゲン写真 『結核の正体』昭和18(1943)年11月23日発行 医診においては、結核を知る方法として、レントゲン写真の撮影を重要視しているが、これについてもはなはだしい誤謬である事を指摘してみよう。<br><br> レントゲン写真に顕われたる胸部の雲翳（うんえい）の有無によって、医家は結核非結核の断定を下すが、一体この雲翳なるものはいかなるものであるかという事であるが、もちろんあってはならないものには相違ない。<br><br>しかしながら、雲翳だけによって、必ずしも肺臓内における結核の病巣とはいえないのである。<br><br>何となれば写真は平面的に写るものであるからである。<br><br>私が多くの経験上雲翳のほとんどは肺臓内ではなく肺臓外、すなわち胸部及び背部の皮下肋骨付近にある毒素の溜結のそれである。<br><br>ゆえに、もし肺臓内に毒素溜結があるものとすれば、必ず呼吸に異状がなければならないはずである。<br><br>その理由は、毒素溜結の容積だけ、肺臓全体の容積が減殺されるからである。<br><br> しかしながら、レントゲン写真撮影において、正面からではなく、側面からも部分部分に撮影し、正面写真と照合する場合、肺臓内も適確に知り得るので、かような方法を医学も特殊の場合行うのであるが、普通特に集団的に多数者に、右のごとき方法を行う事は到底不可能であるから、実際上正面だけの撮影で満足するの余儀ない訳である。<br><br>右のごとくであるから、実験上肺臓内に毒素溜結ある者は、少なくとも結核第三期以上でなければならないはずであるから、早期診断時の場合、右のごとき重症性すなわち肺臓内の異常者は一人もないといって差支えないのである。<br><br>従って今日行われているごとき平面写真の雲翳のみをもって肺臓内に疾患ありと見なし、直ちに結核と断定する事は余りにも軽率であろう。<br><br> これについて、今一つ見逃し難い事は、肺臓外の雲翳が、第二浄化作用すなわち発熱によって溶解し、液体となった毒素は肺臓内に浸潤し、喀痰となって排泄せられ、浄化が完全に行われ、雲翳は消滅するのである。<br><br>しかるにこの場合医学は肺浸潤として、結核の初期のごとく誤解し、その扱いをするので、患者は精神的にも肉体的にも元気消耗し、食欲不振等によって漸次衰弱し、ついに真の結核となるという例も少なくない事を私は知っている。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdadeira Natureza da Tuberculose</h2>
 <p>Na prática médica, a radiografia é considerada um método primordial para o diagnóstico da tuberculose, mas desejo aqui apontar o notório equívoco que essa abordagem representa. Os médicos baseiam seu veredito de tuberculoso ou não tuberculoso na presença ou ausência de uma sombra nebulosa na região torácica, revelada pela imagem radiográfica. A questão fundamental reside, pois, na natureza dessa sombra. Indubitavelmente, trata-se de algo anômalo, que não deveria estar ali. Contudo, a simples presença dessa opacidade não constitui prova conclusiva de uma lesão tuberculosa intrapulmonar. Isso ocorre porque a radiografia projeta uma imagem bidimensional.</p>
 <p>Na realidade, minha vasta experiência demonstra que a maioria dessas sombras não se origina no interior dos pulmões, mas sim externamente a eles, correspondendo a condensações de toxinas localizadas sob a pele, na região das costelas, tanto no tórax quanto nas costas. Por conseguinte, se de fato houvesse um acúmulo de toxinas no interior do pulmão, seria imperativo que a respiração do indivíduo apresentasse alguma anormalidade. A razão para tal é que o volume ocupado por essa condensação de toxinas reduziria a capacidade pulmonar total.</p>
 <p>Todavia, é possível obter uma imagem precisa do interior dos pulmões realizando radiografias seccionadas a partir da lateral do corpo e comparando-as com a imagem frontal. A medicina, de fato, recorre a esse método em circunstâncias especiais. Contudo, sua aplicação em larga escala, como em exames coletivos, é logisticamente inviável, e, por essa razão, na prática, os médicos se veem forçados a se contentar apenas com a radiografia frontal. Considerando essa realidade, a experiência demonstra que um indivíduo com acúmulos de toxinas efetivamente no interior dos pulmões estaria, no mínimo, no terceiro estágio da tuberculose. Logo, nos diagnósticos precoces, pode-se afirmar com segurança que praticamente não há pacientes com tal gravidade, ou seja, com anomalias intrapulmonares. Portanto, considerar a mera presença de uma sombra na imagem bidimensional como prova de uma enfermidade pulmonar e, a partir disso, diagnosticar imediatamente a tuberculose, é uma atitude de extrema precipitação.</p>
 <p>Ademais, há outro ponto crucial que não pode ser negligenciado. A sombra externa, correspondente à toxina, dissolve-se por meio do segundo processo de purificação, a febre. Uma vez liquefeitas, essas toxinas infiltram-se nos pulmões para serem expelidas sob a forma de escarro. Com a purificação completa, a sombra desaparece. No entanto, a medicina interpreta erroneamente esse fenômeno como uma infiltração pulmonar, um suposto sintoma inicial da tuberculose. Em consequência desse diagnóstico equivocado, o tratamento aplicado leva o paciente a um esgotamento tanto espiritual quanto físico. A perda de apetite e outros fatores debilitantes o enfraquecem gradualmente, e conheço inúmeros casos em que essa sucessão de erros acaba por manifestar a verdadeira tuberculose.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： レントゲン写真 『結核の正体』昭和18(1943)年11月23日発行 医診においては、結核を知る方法として、レントゲン写真の撮影を重要視しているが、これについてもはなはだしい誤謬である事を指摘してみよう。<br/><br/> レントゲン写真に顕われたる胸部の雲翳（うんえい）の有無によって、医家は結核非結核の断定を下すが、一体この雲翳なるものはいかなるものであるかという事であるが、もちろんあってはならないものには相違ない。<br/><br/>しかしながら、雲翳だけによって、必ずしも肺臓内における結核の病巣とはいえないのである。<br/><br/>何となれば写真は平面的に写るものであるからである。<br/><br/>私が多くの経験上雲翳のほとんどは肺臓内ではなく肺臓外、すなわち胸部及び背部の皮下肋骨付近にある毒素の溜結のそれである。<br/><br/>ゆえに、もし肺臓内に毒素溜結があるものとすれば、必ず呼吸に異状がなければならないはずである。<br/><br/>その理由は、毒素溜結の容積だけ、肺臓全体の容積が減殺されるからである。<br/><br/> しかしながら、レントゲン写真撮影において、正面からではなく、側面からも部分部分に撮影し、正面写真と照合する場合、肺臓内も適確に知り得るので、かような方法を医学も特殊の場合行うのであるが、普通特に集団的に多数者に、右のごとき方法を行う事は到底不可能であるから、実際上正面だけの撮影で満足するの余儀ない訳である。<br/><br/>右のごとくであるから、実験上肺臓内に毒素溜結ある者は、少なくとも結核第三期以上でなければならないはずであるから、早期診断時の場合、右のごとき重症性すなわち肺臓内の異常者は一人もないといって差支えないのである。<br/><br/>従って今日行われているごとき平面写真の雲翳のみをもって肺臓内に疾患ありと見なし、直ちに結核と断定する事は余りにも軽率であろう。<br/><br/> これについて、今一つ見逃し難い事は、肺臓外の雲翳が、第二浄化作用すなわち発熱によって溶解し、液体となった毒素は肺臓内に浸潤し、喀痰となって排泄せられ、浄化が完全に行われ、雲翳は消滅するのである。<br/><br/>しかるにこの場合医学は肺浸潤として、結核の初期のごとく誤解し、その扱いをするので、患者は精神的にも肉体的にも元気消耗し、食欲不振等によって漸次衰弱し、ついに真の結核となるという例も少なくない事を私は知っている。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

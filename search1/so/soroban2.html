@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>soroban2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 算盤を無視するな 『光』26号、昭和24(1949)年9月10日発行 私は、日本の政治家に最も欠けているものは経済知識であろう、経済知識といっても、詮じ詰めれば算盤（そろばん）である、ところがひとり政治のみではない、人間万事算盤を忘れては何事も成功は不可能である、といって金銭に関係した事だけが算盤ではない、いかなる問題でも利害得失を明確に知り得るには打算を外れては駄目である。<br><br> 今日民主主義政治の理論は、より多数の民意を反映する事は判り切った話であるが、それは投票の数によるのでこの数を獲得する目安は算盤による外はない、算盤を無視するところに発展も成功もあり得ない。<br><br> 最も好い例は今次の大戦である、この敗戦の原因は種々あるであろうが、その中の最大原因としては算盤を無視した事にある、それは算盤上からみれば最初から戦争をしない事であるが、しかし過って一旦戦火を交えたとしたら出来るだけ早い中に戦争をやめるべきであった、その機を逸し戦争を継続すればする程、益々算盤に合わない事になるのは、当時を振返ってみればあまりにも明らかである。<br><br> 算盤はひとり今の時勢ばかりではない、昔といえどもいささかも変らない、かの頼朝が天下に覇を称するに至ったのは、金堀〔売〕吉次という有名な金鉱発見に妙を得た男があって、それを起用し、黄金を集めた事が有力な原因である、秀吉も同様で、彼が佐渡の金山から採集した金は、莫大なものがあった、彼が聚楽第（じゅらくだい）を建設し、当時の諸大名を招宴した際、土産として門から玄関までの相当長い路の両側へ金銀の小石を播き詰め、それを持てるだけ自由に持帰らせたという有名な話は、いかに金銀を保有していたかが判るのである、また家康にしてもそうである、彼が徳川三百年の政権を維持し得たという事も佐渡の金山のためである、しかも全国的に探鉱せしめんと、探鉱の名人大久保伊賀〔石見〕守を起用し、伊豆大仁の金山を発見させた事も有名な話である、ところが佐渡の方は年を経るに従い鉱脈衰え、幕末頃に至っては採集高著減したため、経済的破綻の危機を生じ、旗本御家人の末端にまで扶持の支給が杜絶え勝となり、生活難に陥らしめた結果が幕府倒壊の因となった事は争えない事実である。<br><br> 私は宗教家であるから、経済には無頓着であるように誰しも思うであろうが、なかなかそうではない、算盤をとる事は決して人後に落ちないつもりである、というのは以前実業家であったためもあろうが、実を言えば昔の宗教家のように、粗衣粗食茅屋に住んでいたのでは、現代人を救う事は出来ない、時代が違っている、土地も建造物も相応しなくてはならない、また地上天国の模型を造るにも莫大な額を要する、という訳で、資金力が教線発展の基本となる事ももちろんである、この例として今日の宗教界で最も認められている宗教は天理教を第一としなければなるまい、同教の強味は、昔から資金獲得に最も重点を置いている事で、これは知らぬ者はあるまい。<br><br> 以上種々の例によってみても、大は国家の政治から小は個人の事業に到るまで、算盤を疎かにしては、決してうまくゆくはずはないのである、これについて想出されるのは彼の米国である、同国の有力な政治家はほとんど実業界出身が占めている、大統領トルーマン氏にしても二十年以前は小間物雑貨商人であったことは有名な話である、また有力軍人でさえ実業家出身が相当あるという事であるから米国の今日あるは、全く指導階級が算盤に堪能なる実業家出身である事が最大原因であろう。<br><br> 右に引換え、日本の指導者を一瞥してみれば、そのほとんどは大学を出るや直に役人となり、役人生活を長く続け鰻上りに地位を得た者が大部分であるから、社会の内面など御存じないばかりか、算盤などは全然関心を持たない、全く坊ちゃんか殿様である、何よりの証拠は官営事業をみればよく判る、国鉄にしろ、民間の電鉄会社が今日五朱ぐらいの配当を続けているにかかわらず、毎年国鉄が数百億の赤字を出しているという事や、煙草専売にしろ、まずい煙草を驚くべき暴利で売りつけているという事等である、全く俗にいう士族の商法以外の何物でもないといってよかろう、ゆえにこの点に鑑（かんが）み、今後の政治家としては大いに実業家出身を歓迎すべきで、再建日本の主要条件としてはこの方針以外にないという事を警告したいのである。<br><br> (注) 金売吉次（かねうりきちじ）、奥州藤原氏の全盛期，奥州の黄金を京で売って長者となったという伝説的人物。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Relevância do Cálculo</h2>
 <p>Creio que a maior carência dos políticos japoneses reside no conhecimento econômico. Conhecimento que, em sua essência, se resume ao princípio do cálculo. Contudo, tal princípio não se restringe à política. Em todos os assuntos humanos, negligenciar o cálculo torna o sucesso impossível. E não me refiro apenas a questões financeiras; qualquer problema exige uma análise criteriosa de perdas e ganhos para que se possa discernir com clareza seus prós e contras.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>Em contrapartida, basta um breve olhar sobre os líderes japoneses. Quase todos, ao se formarem na universidade, ingressaram diretamente na burocracia, onde permaneceram por longos anos, desfrutando de uma ascensão vertiginosa em suas carreiras. Consequentemente, não apenas desconhecem as realidades da sociedade, como também nutrem total desinteresse pelo cálculo. São verdadeiros príncipes ou fidalgos. A maior prova disso se encontra nas estatais. Enquanto as companhias ferroviárias privadas conseguem pagar dividendos de aproximadamente 5% aos seus acionistas, a estatal Japan National Railways acumula déficits de dezenas de bilhões de ienes anualmente. O monopólio do tabaco, por sua vez, comercializa cigarros de péssima qualidade a preços escorchantes. Isso nada mais é do que o que se conhece popularmente como "comércio de fidalgo".</p>
 <p>Diante desse quadro, é imperativo que, de agora em diante, a participação de empresários na política seja amplamente incentivada. Desejo advertir que não há outro caminho para a reconstrução do Japão senão a adoção dessa diretriz como condição essencial.</p>
 <p>(Nota) Kaneuri Kichiji (金売吉次) é uma figura lendária do período de auge do clã Fujiwara de Oshu, que teria se tornado um homem abastado ao vender em Kyoto o ouro proveniente do norte do Japão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 算盤を無視するな 『光』26号、昭和24(1949)年9月10日発行 私は、日本の政治家に最も欠けているものは経済知識であろう、経済知識といっても、詮じ詰めれば算盤（そろばん）である、ところがひとり政治のみではない、人間万事算盤を忘れては何事も成功は不可能である、といって金銭に関係した事だけが算盤ではない、いかなる問題でも利害得失を明確に知り得るには打算を外れては駄目である。<br/><br/> 今日民主主義政治の理論は、より多数の民意を反映する事は判り切った話であるが、それは投票の数によるのでこの数を獲得する目安は算盤による外はない、算盤を無視するところに発展も成功もあり得ない。<br/><br/> 最も好い例は今次の大戦である、この敗戦の原因は種々あるであろうが、その中の最大原因としては算盤を無視した事にある、それは算盤上からみれば最初から戦争をしない事であるが、しかし過って一旦戦火を交えたとしたら出来るだけ早い中に戦争をやめるべきであった、その機を逸し戦争を継続すればする程、益々算盤に合わない事になるのは、当時を振返ってみればあまりにも明らかである。<br/><br/> 算盤はひとり今の時勢ばかりではない、昔といえどもいささかも変らない、かの頼朝が天下に覇を称するに至ったのは、金堀〔売〕吉次という有名な金鉱発見に妙を得た男があって、それを起用し、黄金を集めた事が有力な原因である、秀吉も同様で、彼が佐渡の金山から採集した金は、莫大なものがあった、彼が聚楽第（じゅらくだい）を建設し、当時の諸大名を招宴した際、土産として門から玄関までの相当長い路の両側へ金銀の小石を播き詰め、それを持てるだけ自由に持帰らせたという有名な話は、いかに金銀を保有していたかが判るのである、また家康にしてもそうである、彼が徳川三百年の政権を維持し得たという事も佐渡の金山のためである、しかも全国的に探鉱せしめんと、探鉱の名人大久保伊賀〔石見〕守を起用し、伊豆大仁の金山を発見させた事も有名な話である、ところが佐渡の方は年を経るに従い鉱脈衰え、幕末頃に至っては採集高著減したため、経済的破綻の危機を生じ、旗本御家人の末端にまで扶持の支給が杜絶え勝となり、生活難に陥らしめた結果が幕府倒壊の因となった事は争えない事実である。<br/><br/> 私は宗教家であるから、経済には無頓着であるように誰しも思うであろうが、なかなかそうではない、算盤をとる事は決して人後に落ちないつもりである、というのは以前実業家であったためもあろうが、実を言えば昔の宗教家のように、粗衣粗食茅屋に住んでいたのでは、現代人を救う事は出来ない、時代が違っている、土地も建造物も相応しなくてはならない、また地上天国の模型を造るにも莫大な額を要する、という訳で、資金力が教線発展の基本となる事ももちろんである、この例として今日の宗教界で最も認められている宗教は天理教を第一としなければなるまい、同教の強味は、昔から資金獲得に最も重点を置いている事で、これは知らぬ者はあるまい。<br/><br/> 以上種々の例によってみても、大は国家の政治から小は個人の事業に到るまで、算盤を疎かにしては、決してうまくゆくはずはないのである、これについて想出されるのは彼の米国である、同国の有力な政治家はほとんど実業界出身が占めている、大統領トルーマン氏にしても二十年以前は小間物雑貨商人であったことは有名な話である、また有力軍人でさえ実業家出身が相当あるという事であるから米国の今日あるは、全く指導階級が算盤に堪能なる実業家出身である事が最大原因であろう。<br/><br/> 右に引換え、日本の指導者を一瞥してみれば、そのほとんどは大学を出るや直に役人となり、役人生活を長く続け鰻上りに地位を得た者が大部分であるから、社会の内面など御存じないばかりか、算盤などは全然関心を持たない、全く坊ちゃんか殿様である、何よりの証拠は官営事業をみればよく判る、国鉄にしろ、民間の電鉄会社が今日五朱ぐらいの配当を続けているにかかわらず、毎年国鉄が数百億の赤字を出しているという事や、煙草専売にしろ、まずい煙草を驚くべき暴利で売りつけているという事等である、全く俗にいう士族の商法以外の何物でもないといってよかろう、ゆえにこの点に鑑（かんが）み、今後の政治家としては大いに実業家出身を歓迎すべきで、再建日本の主要条件としてはこの方針以外にないという事を警告したいのである。<br/><br/> (注) 金売吉次（かねうりきちじ）、奥州藤原氏の全盛期，奥州の黄金を京で売って長者となったという伝説的人物。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>miroku1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 弥勒三会 未発表『文明の創造』昭和27（1952）年執筆 仏教においては、昔から弥勒三会（みろくさんえ）の言葉があるが、この事は今日まで神秘の幕に閉ざされ、全然判からなかったのであるから、今度私はこれを明らかにしてみようと思う。<br><br>そもそも弥勒三会とは、読んで字のごとく三身の弥勒が、一度に会われる意味であって、三身の弥勒とは言うまでもなく釈迦、阿弥陀、観音である。<br><br>そうして釈迦は報身（ほうしん）の弥勒であり、阿弥陀は法身（ほっしん）の弥勒であり、観音は応身（おうしん）の弥勒となっている。<br><br>また釈迦は地の弥勒であり、阿弥陀は月の弥勒であり、観音は日の弥勒である。<br><br> たびたび言う通り、右の三聖者は本当の順序からいえば日月地、火水土のそれであり、五六七でもあるので、この数を合わせると十八になる。<br><br>この十八の数について、大本教のお筆先にこう書いてある。<br><br>「今までは天が六、中界が六、地が六でありたものが、天から一厘の御魂が地に降りられたので、天は五となり、地は七となりたのであるぞよ」と。<br><br>しかしこの意味は最も深奥なる神の経綸であって、この一厘の御魂こそポチであり、麻爾（まに）の玉であり、如意宝珠であり、これによって五六七（ミロク）の御世が生まれるのである。<br><br>また三六九をミロクとも言われるが、このことは最後の天国編に詳説するつもりであるから略すが、とにかく十八の数こそ、最も重要なるものであって、これを文字によって解釈してみると、十は経緯の棒の結んだ形であり、また神の表徴でもあり、完全の形でもある。<br><br>また八は開く形であり、無数の意味でもあって、昔から仏教においても、十八の数を良く用いている。<br><br>浅草の観音堂も、善光寺も十八間四面であり、毎月の参詣日も十八日であり、十八を倍にすれば三十六でミロクである。<br><br>除夜の鐘は百八つ打ち、数珠（じゅず）の数も百八個あり、百八煩悩などとも言われるが、この場合の百は十が十で百となるので、これらを見てもことごとくミロクの意味が含まれている。<br><br> ここで伊都能売（いづのめ）の意味を解釈してみるが、伊都能売とは数で言えば五と三である。<br><br>すなわち五はイヅ、火で、三はミで水であるから、カミ、神であり、また火と水、イヅとミヅでありイヅノメ、伊都能売である。<br><br>そうして火と水の密合が光であるから、文字もそうなっている。<br><br>すなわち光の文字は、火の字の真中へ横棒を一本入れてある。<br><br>横棒は水であるから、実によくできている。<br><br>これによってみても、文字は神様が造られたことが分かるであろう。<br><br>ところが光だけでは火と水であるから、二つの力で、今一つの力である地が加わらなければならない。<br><br>という訳で光が肉体を透るとすると、肉体は土であるから三位一体の力が出る。<br><br>浄霊もこの意味を考えれば良く分かるはずである。<br><br> 話は戻るが、さきに述べたところの、釈迦、阿弥陀はインド人種といったが、これはただ観音との対照のためであって、根本から言えば、やはり日本の神で、ただ霊体だけ渡られたのである。<br><br>その霊とはすなわち釈迦は稚姫君命（わかひめぎみのみこと）であり、阿弥陀は神素盞嗚尊（かんすさのおのみこと）である。<br><br>従ってそれまでのインドにおける大自在天を主としていた民族こそ、真正のインド人種であることも知らねばならない。<br><br> 次に面白いことを書いてみるが、観音は仏教から生まれたのであるから、仏教は生みの親であり、その仏教の開祖である釈迦は、親の親ということになる。<br><br>するとその釈迦を生んだ伊都能売神は、つまりまた親で先祖という訳になる。<br><br>そうしてその神が観世音となるのだから、この点から見ても仏とは神の化身であることが分かるであろう。<br><br>そうして釈迦は地であるから生みの働きをするし、阿弥陀は月であり女であるから、やはり観音の母といってもいい。<br><br>つまり地も月も日を生む意味になるという訳で、宇宙の実相もそうである。<br><br>また古くからの伝説にある中国の聖王母であるが、聖王母は月の神の化身であって、その庭にある桃の木から、三千年目に一度桃の実がなり、これを貴重な宝として、天の大神様に献上するということや、インドの伝説にある三千年目に転輪菩薩が生まれ、その菩薩が現れるや万民は救われ、この世は天国楽土となるという意味も、今度のことの予言といってもよかろう。<br><br>そうして右の転輪菩薩とは観音の別の御名、転輪王のことであろうし、また天理教の親様である天理王の尊も、右に関連がないとは言えないと思うのである。<br><br>また阿弥陀は月光菩薩とも言われ、観音は大日如来でもあって、つまり両尊者は月と日で、夫婦という意味にもなる。<br><br>このことは日本の各地の仏閣によく表れている。<br><br>すなわち観音の祀ってあるところ必ず大仏があるが、大仏は阿弥陀であるからである。<br><br>そうして観音は堂宇の中に祀られてお姿は小さく、大仏は外に鎮座されて大きいのは、観音は日本内地の仏であり、阿弥陀は外地の仏というわけであろう。<br><br>また観世音は黄金の一寸八分の本体が本当であり、阿弥陀は鍍金（ときん）物、または金箔の木像で、大きいのを良いとされているにみても、すべては分かるであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Revelação do Encontro Tríplice de Miroku</h2>
 <p>No budismo, há muito se menciona o termo Miroku San'e (弥勒三会). Contudo, seu significado permaneceu envolto em um véu de mistério, sendo até hoje incompreendido. Desejo, pois, desvelar seu verdadeiro sentido. A expressão Miroku San'e, tal como os ideogramas sugerem, significa o encontro simultâneo das três manifestações de Miroku. E quem seriam essas três manifestações? Ninguém menos que Shaka, Amida e Kannon. Shaka representa o Corpo da Retribuição de Miroku e está associado à Terra; Amida, o Corpo do Dharma de Miroku, associado à Lua; e Kannon, o Corpo da Manifestação de Miroku, associado ao Sol.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Neste ponto, permitam-me elucidar o significado de Izunome (伊都能売). Em termos numéricos, Izunome corresponde a cinco (Izu) e três (Me). Cinco é <em>Izu</em>, o Fogo, e três é <em>Mi</em>, a Água. Juntos, formam <em>Ka-Mi</em>, ou seja, Deus. Da mesma forma, a união do Fogo (<em>Hi</em>) e da Água (<em>Mizu</em>) origina a palavra <em>Izunome</em>. A fusão harmoniosa entre Fogo e Água gera a Luz, e o próprio ideograma reflete essa verdade. O ideograma de Luz (光) é formado pelo radical de Fogo (火) atravessado por um traço horizontal, que simboliza a Água. É, de fato, uma representação perfeita, o que nos leva a compreender que os ideogramas foram criados por Deus. Todavia, a Luz por si só é composta por Fogo e Água, ou seja, duas forças. Para que seu poder se manifeste plenamente, é necessária a adição de uma terceira força: a Terra. Assim, quando a Luz atravessa o corpo humano, que é constituído de Terra, emerge o poder da Santíssima Trindade. O Johrei, quando compreendido sob essa ótica, revela sua profunda lógica.</p>
 <p>Retomando o fio da exposição, afirmei anteriormente que Shaka e Amida eram de origem indiana, mas o fiz apenas para estabelecer um contraste com Kannon. Na realidade fundamental, ambos são divindades japonesas cujos espíritos se transladaram para a Índia. O espírito de Shaka é Wakahimegimi no Mikoto (稚姫君命), e o de Amida é Kan-Susanoo no Mikoto (神素盞嗚尊). Portanto, é preciso saber que o povo que habitava a Índia até então, devotado principalmente a Mahadeva, é que constitui a autêntica etnia indiana.</p>
 <p>Permitam-me agora expor um raciocínio fascinante. Kannon nasceu do budismo, o que faz deste sua genitora. Shaka, o fundador do budismo, seria, portanto, o progenitor de sua mãe. Por sua vez, a divindade que deu origem a Shaka, Izunome (伊都能売), seria também sua ancestral. E sendo essa mesma divindade aquela que se manifesta como Kannon, compreende-se que os Budas são, na verdade, encarnações de Deuses. Shaka, sendo da Terra, exerce a função de gerar; Amida, sendo da Lua e de natureza feminina, pode ser considerada a mãe de Kannon. Desse modo, tanto a Terra quanto a Lua dão à luz o Sol, o que espelha a própria realidade do Universo. Essa dinâmica encontra eco em antigas lendas, como a da Soberana Mãe do Ocidente, na China, uma divindade lunar cujo pessegueiro em seu jardim frutifica uma vez a cada três mil anos, sendo seus frutos ofertados como um tesouro precioso ao Deus Supremo do Céu. De modo similar, uma lenda indiana narra o nascimento do Bodisatva Chakravartin a cada três mil anos, cuja aparição traria a salvação a toda a humanidade e transformaria o mundo em um paraíso de deleite. Ambas as lendas podem ser vistas como profecias dos acontecimentos atuais. O referido Bodisatva Chakravartin é, provavelmente, outro nome de Kannon, também conhecida como o Rei que Gira a Roda do Dharma. Acredito que a fundadora da Tenrikyo, Tenri-O-no-Mikoto, também não esteja desassociada desse contexto. Além disso, Amida é conhecido como o Bodisatva da Luz Lunar, e Kannon é a manifestação de Dainichi Nyorai, o Buda da Luz Solar. Assim, as duas divindades representam a Lua e o Sol, simbolizando uma união matrimonial. Tal relação se manifesta claramente nos templos budistas por todo o Japão. Onde quer que Kannon seja reverenciada, há invariavelmente um Grande Buda (Daibutsu), que é a representação de Amida. O fato de Kannon ser cultuada em estátuas menores, dentro de salões, enquanto o Grande Buda se impõe em tamanho e ao ar livre, indica que Kannon é uma divindade do interior do Japão, ao passo que Amida provém de terras estrangeiras. Ademais, a verdadeira essência de Kannon se manifesta em uma estátua de ouro maciço de 1,8 <em>sun</em> (aproximadamente 5,45 cm), enquanto Amida é representado por estátuas de madeira folheada a ouro ou douradas, cujo valor reside na grandiosidade. Tudo isso, quando analisado em conjunto, torna a verdade manifesta.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 弥勒三会 未発表『文明の創造』昭和27（1952）年執筆 仏教においては、昔から弥勒三会（みろくさんえ）の言葉があるが、この事は今日まで神秘の幕に閉ざされ、全然判からなかったのであるから、今度私はこれを明らかにしてみようと思う。<br/><br/>そもそも弥勒三会とは、読んで字のごとく三身の弥勒が、一度に会われる意味であって、三身の弥勒とは言うまでもなく釈迦、阿弥陀、観音である。<br/><br/>そうして釈迦は報身（ほうしん）の弥勒であり、阿弥陀は法身（ほっしん）の弥勒であり、観音は応身（おうしん）の弥勒となっている。<br/><br/>また釈迦は地の弥勒であり、阿弥陀は月の弥勒であり、観音は日の弥勒である。<br/><br/> たびたび言う通り、右の三聖者は本当の順序からいえば日月地、火水土のそれであり、五六七でもあるので、この数を合わせると十八になる。<br/><br/>この十八の数について、大本教のお筆先にこう書いてある。<br/><br/>「今までは天が六、中界が六、地が六でありたものが、天から一厘の御魂が地に降りられたので、天は五となり、地は七となりたのであるぞよ」と。<br/><br/>しかしこの意味は最も深奥なる神の経綸であって、この一厘の御魂こそポチであり、麻爾（まに）の玉であり、如意宝珠であり、これによって五六七（ミロク）の御世が生まれるのである。<br/><br/>また三六九をミロクとも言われるが、このことは最後の天国編に詳説するつもりであるから略すが、とにかく十八の数こそ、最も重要なるものであって、これを文字によって解釈してみると、十は経緯の棒の結んだ形であり、また神の表徴でもあり、完全の形でもある。<br/><br/>また八は開く形であり、無数の意味でもあって、昔から仏教においても、十八の数を良く用いている。<br/><br/>浅草の観音堂も、善光寺も十八間四面であり、毎月の参詣日も十八日であり、十八を倍にすれば三十六でミロクである。<br/><br/>除夜の鐘は百八つ打ち、数珠（じゅず）の数も百八個あり、百八煩悩などとも言われるが、この場合の百は十が十で百となるので、これらを見てもことごとくミロクの意味が含まれている。<br/><br/> ここで伊都能売（いづのめ）の意味を解釈してみるが、伊都能売とは数で言えば五と三である。<br/><br/>すなわち五はイヅ、火で、三はミで水であるから、カミ、神であり、また火と水、イヅとミヅでありイヅノメ、伊都能売である。<br/><br/>そうして火と水の密合が光であるから、文字もそうなっている。<br/><br/>すなわち光の文字は、火の字の真中へ横棒を一本入れてある。<br/><br/>横棒は水であるから、実によくできている。<br/><br/>これによってみても、文字は神様が造られたことが分かるであろう。<br/><br/>ところが光だけでは火と水であるから、二つの力で、今一つの力である地が加わらなければならない。<br/><br/>という訳で光が肉体を透るとすると、肉体は土であるから三位一体の力が出る。<br/><br/>浄霊もこの意味を考えれば良く分かるはずである。<br/><br/> 話は戻るが、さきに述べたところの、釈迦、阿弥陀はインド人種といったが、これはただ観音との対照のためであって、根本から言えば、やはり日本の神で、ただ霊体だけ渡られたのである。<br/><br/>その霊とはすなわち釈迦は稚姫君命（わかひめぎみのみこと）であり、阿弥陀は神素盞嗚尊（かんすさのおのみこと）である。<br/><br/>従ってそれまでのインドにおける大自在天を主としていた民族こそ、真正のインド人種であることも知らねばならない。<br/><br/> 次に面白いことを書いてみるが、観音は仏教から生まれたのであるから、仏教は生みの親であり、その仏教の開祖である釈迦は、親の親ということになる。<br/><br/>するとその釈迦を生んだ伊都能売神は、つまりまた親で先祖という訳になる。<br/><br/>そうしてその神が観世音となるのだから、この点から見ても仏とは神の化身であることが分かるであろう。<br/><br/>そうして釈迦は地であるから生みの働きをするし、阿弥陀は月であり女であるから、やはり観音の母といってもいい。<br/><br/>つまり地も月も日を生む意味になるという訳で、宇宙の実相もそうである。<br/><br/>また古くからの伝説にある中国の聖王母であるが、聖王母は月の神の化身であって、その庭にある桃の木から、三千年目に一度桃の実がなり、これを貴重な宝として、天の大神様に献上するということや、インドの伝説にある三千年目に転輪菩薩が生まれ、その菩薩が現れるや万民は救われ、この世は天国楽土となるという意味も、今度のことの予言といってもよかろう。<br/><br/>そうして右の転輪菩薩とは観音の別の御名、転輪王のことであろうし、また天理教の親様である天理王の尊も、右に関連がないとは言えないと思うのである。<br/><br/>また阿弥陀は月光菩薩とも言われ、観音は大日如来でもあって、つまり両尊者は月と日で、夫婦という意味にもなる。<br/><br/>このことは日本の各地の仏閣によく表れている。<br/><br/>すなわち観音の祀ってあるところ必ず大仏があるが、大仏は阿弥陀であるからである。<br/><br/>そうして観音は堂宇の中に祀られてお姿は小さく、大仏は外に鎮座されて大きいのは、観音は日本内地の仏であり、阿弥陀は外地の仏というわけであろう。<br/><br/>また観世音は黄金の一寸八分の本体が本当であり、阿弥陀は鍍金（ときん）物、または金箔の木像で、大きいのを良いとされているにみても、すべては分かるであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

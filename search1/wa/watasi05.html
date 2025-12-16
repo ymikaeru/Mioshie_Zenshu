@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>watasi05</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 私とサタンとの闘争史 未発表、昭和27(1952)年執筆 私が御神業開始以来、これまで数え切れない程悪との闘争をして来た。<br><br>というのは、何しろ邪神界にとっては、私程恐ろしい者はないので、何とかして私を亡ぼそうとして心を砕いている。<br><br>というのは私がもっている神力である。<br><br>彼らは長い間神はこの世にないものと思わせ、散々人類を瞞し、堕落させ、善悪の差別さえ分らない程にしてしまい、最後には世界全体を掌握しようとしているのであるから大変な話である。<br><br>ところが今日まではサタンの思い通りに進んで来たので、ついに現在のごとき暗黒無明の世界となったのである。<br><br>そんな訳で彼らが安心しきっている中へ、私という大きな光が現れたのであるから、邪神界にとっては空前の大事件である。<br><br>そこで彼らは私をして何とか葬ってしまおうと思い、執拗にあの手この手で攻めいるのである。<br><br>とはいうものの私の方には、最高の神様が守っている以上、その都度悪の攻撃はある程度で止まり、難を免れるという例は絶えずあるので、本当を言えば私は始終悪魔に取巻かれているような気がしていて、一日として心から安心される日はないのである。<br><br>しかしこれはこういう意味でもある。<br><br>つまり神様の経綸はこの世界が九分九厘まで邪神に占領され、後一厘という瀬戸際で一厘の御霊（みたま）が現れ、悪の世を引っくり返し、善の世界にするのである。<br><br> この事について面白い話がある。<br><br>私が大本教信者であった頃、この一厘の意味を知ったのである。<br><br>それについては大本教教祖出口直子刀自の有名な御筆先の中にこういう一節がある。<br><br>「この世は九分九厘というところまで悪の自由になりておりて、今一息というところで一厘の御霊が現れて、建替え、建直しを致すぞよ」というのと、今一つは、「悪の世を善の世に振り替えて松の世、ミロクの世と致すぞよ」というのもあって、この一厘の御霊については、信者間でも常に疑問の的とされていた。<br><br>もちろん私もハッキリ分らなかったが、こういう事があった。<br><br>それはある日、大本教信者の中で私の信者みたいになっていた人が、古銭を持って来て差上げたいという。<br><br>よく見ると天宝〔保〕銭一個と、明治四年の銀貨と、年号は忘れたが一厘銭一個であった。<br><br>私は判じ物みたいだと思ったが、ふと見て驚いたのは、教祖は天宝〔保〕生まれであり、また当時の教主出口王仁三郎師は明治四年生まれであったので、一厘銭こそ私の御魂である事に気がついたと共に、全く神様が御知らせになったに違いないと分ったのである。<br><br>それから月を経、年を経るに従い、実際的にも色々な奇蹟が表われ、いよいよ確信を得たのである。<br><br>それはそれとして、今私は現在に到るまでの善悪争闘史をかいてみようと思うのである。<br><br> これは昭和七年春の話で、この事は『自観叢書』にもかいてあるからザッとかくが、当時大本教部内で私は注目の的になり、異端者扱いをされ、排斥の火の手が上った事がある。<br><br>一時は私の問題で教団内は喧々囂々（けんけんごうごう）たる騒ぎの頃、当時共産党から転向した一青年信者があった。<br><br>彼は物凄い形相の男で、共産党のメンバー中、相当恐れられた人物との事であつたが、この男は私を大本教の平和をみだす怪しからん人間と思い、ある日短刀を持って場合により私の命を奪おうとして談判に来た。<br><br>これを霊的にみると、サタンの赤い辰、すなわち赤龍が憑いて来たので、私は見破ると共に奇蹟が起って助かったが、ともあれこれが受難の最初であった。<br><br>その後私の腕を折ろうとした奴があった。<br><br>気合術といって柔道の一層烈しいような術で、この術の猛者（もさ）が来たのである。<br><br>これもまた奇蹟で難を免れたが、その後も私は執拗に狙われたが、無事に済んだのは全く厚い御守護であった。<br><br>そんなこんなでついに私排斥の猛運動まで起ったので、私はついに大本を脱退したのであった。<br><br>しかしこれが幸いとなり、同教弾圧事件の際も累を免れたのである。<br><br> それから昭和十一年夏であった。<br><br>私は埼玉県大宮警察へ呼ばれ、一晩留置されて拷問攻めに遭ったのである。<br><br>間もなく玉川警察署へ十一日間留置され、厳重に取調べられたが、何にも罪がなかったので釈放はされたが、彼らの面目上からか今後信仰も治療も相成らぬと言い渡され、失業者となってしまったので、とうとう一年三ケ月浪人生活をする事となった。<br><br>それから色々な運動をして、漸く宗教は相成らぬが治療だけなら許すという事になったので、漸く愁眉（しゅうび）を開き、開業する事となったのである。<br><br>何しろ一年以上も徒食していた事とて、その間の生活は随分苦しかったのである。<br><br>その時が十二年の十月であったが、それから三年間治療一方で進んだが、随分繁昌し弟子も多く出来たので、その時の弟子が今日教団の幹部の人達である。<br><br>ところがまたしても十五年の暮、医師法違反の疑いで三日間玉川署へ留置され、厳しい取調べを受けたが、この時限り私は廃業したのである。<br><br>というのは相当弟子も出来たので、生活に困らない見込がついたからでもあった。<br><br>それから三年後十九年春箱根へ、同年秋熱海へ移住する事となったが、困る事には大宮警察での拷問によって虚偽の調書を取られ、それが警視庁へ廻ったので、当局は岡田という奴怪しからん奴だと、ブラックリストへ載せられたのである。<br><br>従ってその後は行く先々の警察へ通知が行くので、その土地の警察からは始終睨まれ、警戒されたので、毎日毎日不愉快な日を送ったものである。<br><br>というのは私はその当時民間療法専門ではあったが、治った人達は私を神様のように慕うので、警察はあいつ隠れて宗教宣伝をしているに違いないと思うと共に、以前不敬問題を起した大本教の残党であるから、秘密に大本教再建を目的としているだろう、との疑いがあったからでもある。<br><br>そんな訳で警察の者なども時々調べに来たり、また真向いの家にコッソリ出張して、塀の隙から出入の人達を調べて署へ報告するというように嫌な事が随分あったものである。<br><br> それから間もなく終戦となり、信教の自由ともなったので、二十二年八月法人となり、漸く大腕振って歩けるようになったのである。<br><br>すると翌二十三年秋早くも脱税問題が起り、新聞に書かれ、パッと世間へ知れわたると共に、高額の税金を課せられ手痛い日に遭わされた。<br><br>それもどうやら片付いたのでヤレヤレと思い、漸く一昨二十五年春メシヤ教と改称するや、またしてもこの年五月今度は贈収賄問題始め色々なややこしい問題のため、私はじめ部下七、八人警察や刑務所へブチ込まれ、短いので二十数日、長いのは四、五十日間牢獄生活をさせられたのは、みんな知っているから記かないが、右のごとく私と邪神との闘争史は随分頁数が増えたのである。<br><br> そうして一番閉口する事は、彼らサタンは官憲を利用する事である。<br><br>『聖書』にもある通りサタンは赤い辰、すなわち赤龍であって、この眷族が大部分の役人に憑依し、私を苦しめるのだからたまったものではない。<br><br>何しろ先方は生殺与奪の権を握っておるので、悪人をやっつけるための武器を善人に対して利用するのだから善人こそ災難である。<br><br>衆知の通り教団としても大規模な事業をしている以上、目の届かぬ点もあり、大抵な事は人に任せきりなので、手抜かりもあるであろう。<br><br>といっても意識的に社会へ害毒を流すような事は絶対あり得ないのであるから、大目に見てもいいと思うのである。<br><br>ところが今日の役人は重箱の隅の塵をとがめるようであるから、こんな世の中としたら、何もしないで暮すのが一番賢明と思うが、私などは神様から大任を荷（にな）わせられているので、そういう訳にはゆかないので、これも運命と諦めているのである。<br><br> ここで一言いいたい事は、本教がいかに多くの悩める人々を救い、国のためになっているかは、少し目のある人なら分らないはずはあるまいと思うが、そのような肝腎な事には目を覆うて見ないらしく、ただ無暗に憎悪の念に駆られて困らすような気がするが、これをよく考えてみると最初にかいたごとく、私を恐るるサタンの計画であるので、止むを得ないと思っている。<br><br>しかしながらこんな事も今少しの辛抱と思って、いずれは私の仕事が分り、大いに国家から表彰される日の来る事を待つとしよう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A História da Minha Luta contra Satã</h2>
 <p>Desde o início da Obra Divina, tenho travado inúmeras batalhas contra o mal. Isso se deve ao fato de que, para o Mundo dos Espíritos Malignos, não há ninguém mais temível do que eu; eles, portanto, empregam todos os seus esforços para me aniquilar. A causa de tal temor reside no poder divino que possuo. Por eras, esses espíritos ludibriaram a humanidade, fazendo-a crer que Deus não existia neste mundo. Corromperam-na a tal ponto que a distinção entre o bem e o mal se tornou obscura, e agora, em seu ápice, intentam dominar o mundo por completo.</p>
@@ -106,5 +258,48 @@ function toggleLang(lang) {
 <p>Pouco tempo depois, com o fim da guerra e a instauração da liberdade religiosa, pudemos finalmente nos constituir como pessoa jurídica em agosto de 1947, e passei a poder caminhar de cabeça erguida. No entanto, já no outono de 1948, surgiu um caso de suposta evasão fiscal. A questão foi amplamente divulgada pelos jornais, tornando-se pública e resultando na imposição de uma multa exorbitante, o que me causou um grande revés. Quando esse problema foi finalmente resolvido, senti um enorme alívio. Na primavera de 1950, mal havíamos mudado o nome da nossa organização para Sekai Meshiya Kyo, e um novo golpe se abateu sobre nós. Em maio daquele mesmo ano, acusações de suborno, entre outras questões complexas, levaram a mim e a sete ou oito de meus subordinados à prisão. Fomos encarcerados em delegacias e presídios por períodos que variaram de pouco mais de vinte a cinquenta dias. Como todos conhecem bem esse episódio, não me aprofundarei nele. Fica claro, portanto, que a história da minha luta contra os espíritos malignos já preencheu muitas páginas.</p>
 <p>O que mais me exaspera, contudo, é a forma como Satã se utiliza das autoridades constituídas. Conforme está escrito na Bíblia, Satã é o dragão vermelho, e seus sequazes possuem a maioria dos funcionários públicos para me atormentar. Eles detêm o poder de vida e de morte e, lamentavelmente, utilizam as ferramentas destinadas a punir os malfeitores contra uma pessoa de bem, o que, para esta, é uma verdadeira calamidade. Como é de conhecimento geral, nossa Igreja realiza projetos de grande envergadura, e é natural que eu não consiga supervisionar todos os detalhes, delegando muitas tarefas. Assim, é possível que ocorram falhas. No entanto, jamais cometeríamos, de forma consciente, qualquer ato que pudesse envenenar a sociedade, e creio que, por isso, mereceríamos um tratamento mais benevolente. As autoridades de hoje, porém, agem como quem busca um grão de poeira no canto de uma caixa de laca. Em um mundo assim, o mais prudente talvez fosse viver sem nada realizar. Mas, tendo recebido de Deus uma grandiosa missão, não posso me dar a esse luxo. Aceito, pois, essa condição como parte do meu destino.</p>
 <p>Gostaria de fazer aqui uma ressalva. Qualquer pessoa com o mínimo de discernimento é capaz de ver o quanto nossa Igreja tem salvado inúmeros sofredores e contribuído para o bem da nação. Parece, todavia, que fecham os olhos para esse fato crucial, deixando-se levar por um ódio cego com o intuito de nos prejudicar. Ao refletir sobre isso, compreendo que tudo faz parte do plano de Satã, que me teme, conforme expliquei no início. Portanto, não há o que fazer. Ainda assim, creio que essa fase de provações está perto do fim. Aguardarei o dia em que minha obra será finalmente compreendida e amplamente reconhecida pelo país.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 私とサタンとの闘争史 未発表、昭和27(1952)年執筆 私が御神業開始以来、これまで数え切れない程悪との闘争をして来た。<br/><br/>というのは、何しろ邪神界にとっては、私程恐ろしい者はないので、何とかして私を亡ぼそうとして心を砕いている。<br/><br/>というのは私がもっている神力である。<br/><br/>彼らは長い間神はこの世にないものと思わせ、散々人類を瞞し、堕落させ、善悪の差別さえ分らない程にしてしまい、最後には世界全体を掌握しようとしているのであるから大変な話である。<br/><br/>ところが今日まではサタンの思い通りに進んで来たので、ついに現在のごとき暗黒無明の世界となったのである。<br/><br/>そんな訳で彼らが安心しきっている中へ、私という大きな光が現れたのであるから、邪神界にとっては空前の大事件である。<br/><br/>そこで彼らは私をして何とか葬ってしまおうと思い、執拗にあの手この手で攻めいるのである。<br/><br/>とはいうものの私の方には、最高の神様が守っている以上、その都度悪の攻撃はある程度で止まり、難を免れるという例は絶えずあるので、本当を言えば私は始終悪魔に取巻かれているような気がしていて、一日として心から安心される日はないのである。<br/><br/>しかしこれはこういう意味でもある。<br/><br/>つまり神様の経綸はこの世界が九分九厘まで邪神に占領され、後一厘という瀬戸際で一厘の御霊（みたま）が現れ、悪の世を引っくり返し、善の世界にするのである。<br/><br/> この事について面白い話がある。<br/><br/>私が大本教信者であった頃、この一厘の意味を知ったのである。<br/><br/>それについては大本教教祖出口直子刀自の有名な御筆先の中にこういう一節がある。<br/><br/>「この世は九分九厘というところまで悪の自由になりておりて、今一息というところで一厘の御霊が現れて、建替え、建直しを致すぞよ」というのと、今一つは、「悪の世を善の世に振り替えて松の世、ミロクの世と致すぞよ」というのもあって、この一厘の御霊については、信者間でも常に疑問の的とされていた。<br/><br/>もちろん私もハッキリ分らなかったが、こういう事があった。<br/><br/>それはある日、大本教信者の中で私の信者みたいになっていた人が、古銭を持って来て差上げたいという。<br/><br/>よく見ると天宝〔保〕銭一個と、明治四年の銀貨と、年号は忘れたが一厘銭一個であった。<br/><br/>私は判じ物みたいだと思ったが、ふと見て驚いたのは、教祖は天宝〔保〕生まれであり、また当時の教主出口王仁三郎師は明治四年生まれであったので、一厘銭こそ私の御魂である事に気がついたと共に、全く神様が御知らせになったに違いないと分ったのである。<br/><br/>それから月を経、年を経るに従い、実際的にも色々な奇蹟が表われ、いよいよ確信を得たのである。<br/><br/>それはそれとして、今私は現在に到るまでの善悪争闘史をかいてみようと思うのである。<br/><br/> これは昭和七年春の話で、この事は『自観叢書』にもかいてあるからザッとかくが、当時大本教部内で私は注目の的になり、異端者扱いをされ、排斥の火の手が上った事がある。<br/><br/>一時は私の問題で教団内は喧々囂々（けんけんごうごう）たる騒ぎの頃、当時共産党から転向した一青年信者があった。<br/><br/>彼は物凄い形相の男で、共産党のメンバー中、相当恐れられた人物との事であつたが、この男は私を大本教の平和をみだす怪しからん人間と思い、ある日短刀を持って場合により私の命を奪おうとして談判に来た。<br/><br/>これを霊的にみると、サタンの赤い辰、すなわち赤龍が憑いて来たので、私は見破ると共に奇蹟が起って助かったが、ともあれこれが受難の最初であった。<br/><br/>その後私の腕を折ろうとした奴があった。<br/><br/>気合術といって柔道の一層烈しいような術で、この術の猛者（もさ）が来たのである。<br/><br/>これもまた奇蹟で難を免れたが、その後も私は執拗に狙われたが、無事に済んだのは全く厚い御守護であった。<br/><br/>そんなこんなでついに私排斥の猛運動まで起ったので、私はついに大本を脱退したのであった。<br/><br/>しかしこれが幸いとなり、同教弾圧事件の際も累を免れたのである。<br/><br/> それから昭和十一年夏であった。<br/><br/>私は埼玉県大宮警察へ呼ばれ、一晩留置されて拷問攻めに遭ったのである。<br/><br/>間もなく玉川警察署へ十一日間留置され、厳重に取調べられたが、何にも罪がなかったので釈放はされたが、彼らの面目上からか今後信仰も治療も相成らぬと言い渡され、失業者となってしまったので、とうとう一年三ケ月浪人生活をする事となった。<br/><br/>それから色々な運動をして、漸く宗教は相成らぬが治療だけなら許すという事になったので、漸く愁眉（しゅうび）を開き、開業する事となったのである。<br/><br/>何しろ一年以上も徒食していた事とて、その間の生活は随分苦しかったのである。<br/><br/>その時が十二年の十月であったが、それから三年間治療一方で進んだが、随分繁昌し弟子も多く出来たので、その時の弟子が今日教団の幹部の人達である。<br/><br/>ところがまたしても十五年の暮、医師法違反の疑いで三日間玉川署へ留置され、厳しい取調べを受けたが、この時限り私は廃業したのである。<br/><br/>というのは相当弟子も出来たので、生活に困らない見込がついたからでもあった。<br/><br/>それから三年後十九年春箱根へ、同年秋熱海へ移住する事となったが、困る事には大宮警察での拷問によって虚偽の調書を取られ、それが警視庁へ廻ったので、当局は岡田という奴怪しからん奴だと、ブラックリストへ載せられたのである。<br/><br/>従ってその後は行く先々の警察へ通知が行くので、その土地の警察からは始終睨まれ、警戒されたので、毎日毎日不愉快な日を送ったものである。<br/><br/>というのは私はその当時民間療法専門ではあったが、治った人達は私を神様のように慕うので、警察はあいつ隠れて宗教宣伝をしているに違いないと思うと共に、以前不敬問題を起した大本教の残党であるから、秘密に大本教再建を目的としているだろう、との疑いがあったからでもある。<br/><br/>そんな訳で警察の者なども時々調べに来たり、また真向いの家にコッソリ出張して、塀の隙から出入の人達を調べて署へ報告するというように嫌な事が随分あったものである。<br/><br/> それから間もなく終戦となり、信教の自由ともなったので、二十二年八月法人となり、漸く大腕振って歩けるようになったのである。<br/><br/>すると翌二十三年秋早くも脱税問題が起り、新聞に書かれ、パッと世間へ知れわたると共に、高額の税金を課せられ手痛い日に遭わされた。<br/><br/>それもどうやら片付いたのでヤレヤレと思い、漸く一昨二十五年春メシヤ教と改称するや、またしてもこの年五月今度は贈収賄問題始め色々なややこしい問題のため、私はじめ部下七、八人警察や刑務所へブチ込まれ、短いので二十数日、長いのは四、五十日間牢獄生活をさせられたのは、みんな知っているから記かないが、右のごとく私と邪神との闘争史は随分頁数が増えたのである。<br/><br/> そうして一番閉口する事は、彼らサタンは官憲を利用する事である。<br/><br/>『聖書』にもある通りサタンは赤い辰、すなわち赤龍であって、この眷族が大部分の役人に憑依し、私を苦しめるのだからたまったものではない。<br/><br/>何しろ先方は生殺与奪の権を握っておるので、悪人をやっつけるための武器を善人に対して利用するのだから善人こそ災難である。<br/><br/>衆知の通り教団としても大規模な事業をしている以上、目の届かぬ点もあり、大抵な事は人に任せきりなので、手抜かりもあるであろう。<br/><br/>といっても意識的に社会へ害毒を流すような事は絶対あり得ないのであるから、大目に見てもいいと思うのである。<br/><br/>ところが今日の役人は重箱の隅の塵をとがめるようであるから、こんな世の中としたら、何もしないで暮すのが一番賢明と思うが、私などは神様から大任を荷（にな）わせられているので、そういう訳にはゆかないので、これも運命と諦めているのである。<br/><br/> ここで一言いいたい事は、本教がいかに多くの悩める人々を救い、国のためになっているかは、少し目のある人なら分らないはずはあるまいと思うが、そのような肝腎な事には目を覆うて見ないらしく、ただ無暗に憎悪の念に駆られて困らすような気がするが、これをよく考えてみると最初にかいたごとく、私を恐るるサタンの計画であるので、止むを得ないと思っている。<br/><br/>しかしながらこんな事も今少しの辛抱と思って、いずれは私の仕事が分り、大いに国家から表彰される日の来る事を待つとしよう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

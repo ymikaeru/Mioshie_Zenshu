@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>daikomy2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 大光明世界の建設 序論 『病貧争絶無の世界を造る観音運動とは何？』昭和10(1935)年9月15日発行 昔から、聖者として、大宗教を弘められたのは、何といっても、釈迦、基督（キリスト）、マホメットの三者に指を屈する。<br><br>しかし、その中で、マホメットは回々（フイフイ）教を起し、中央亜細亜を中心として、数億の信者を有して居るが、吾々日本人には、ほとんど関係が無いから、ここでは、述べない事にして、ともかく吾々日本人に、密接の関係ある宗教を、検討すると共に、何故に観音運動なるものが、又観音会なるものが、創成されたかという理由を、天下に発表するのである。<br><br> 我日本においては、現在、神道十三派、仏教十三宗五十六派、基督教二十余派あり、その他、新興宗教類似宗教等、無数にあるが、何と言っても、仏教がその主体をなして居り神道では、天理教が頭角を現わし、基督教は割合振わない状勢である。<br><br> 古来、三千年間、聖者賢哲が雲のごとく輩出して、道を説き、愛を唱え、慈悲を諭し、善を勧め以て不幸の無い世界、即ち人類の理想たる、地上天国、五六七の世、甘露台の世、義農の世等を建設すべく、いかに努力した事であろうか、しかるに、未だ以て、実現しないのみか、反って、前途いよいよ遠きを想わしむる現状は、何が故であろう、視よ、苦悩の叫びは到るところに充ち、強国は、強者はその権力を増大して、益々自己本能の満足を得んとし、弱国は、弱者は、いよいよ困憊（こんばい）窮乏（きゅうぼう）のドン底に沈綸（ちんりん）し、一人の満足者あれば、一万人の絶望者があるという惨状である。<br><br> 国際間における、軍備競争を、経済難を、政治の行詰りを、思想の混乱を、会議外交の失敗を、生活難を観るがいい、そこに見出すものは、絶望と溜息と、自暴自棄とである。<br><br>暗黒そのままの世界である。<br><br> この様な、光の無い世界に在って、宗教は一体、何をして居るのであろうか、各宗の開祖等が予言と使命を下した理想世界は一体いつになったら来るのか多くの聖者達が発行した手形の決済はいかなるのか、もう全部が不渡になるではないか、嗚呼（ああ）、人類よ『お前達はどこへ行くのだ』？ 以上述べた事は、誰も知っている事である。<br><br>宗教家も、為政家も、操觚者（そうこしゃ）も、インテリも知り抜いている。<br><br>しかし、知って居ても、どうする事も出来ないだけなのだ。<br><br> それは、何が故か、案が無いからだ。<br><br>指導者が無いからだ、力がないからなのである。<br><br>もしも、その案を持った指導者が、そして、想像も付かない力を有（も）った人間が、現われたとすれば、一体いかなる事であろう、その力の持主を、仮に超人と言って置く。<br><br> この超人が、昭和十年一月元旦から、人類救済事業を創めたのだ、それでは、その超人の揮う力とは、一体何であるか、それこそ、観世音の力なのだ、これを約（ちぢ）めて観音力と言うのだ、この超人が、これから行わんとする、事業の概略について、超人から聞いたままを、項を分けて、記いてみよう。<br><br> 断っておくが、これから記く事は、主に前人未開の説が多く、まことに突飛（とっぴ）とさえ思われる事が多々あるので、これを読んでも、直ちに信ずる事はむずかしいであろう、故に、些（いささ）かなりとも疑う人があったら、実地を見るより仕様がない。<br><br>実は、この本を書く位、難しい事はないので、実地を書けば信じられ難いし、信じいい位に書けば、実際とは違って来る、ちょうど、徳川時代の人間に、飛行機とラジオの説明をするような、否、それよりも、困難であるからだ。<br><br> （注）操觚者（そうこしゃ）、觚は文字を書く方形の札。<br><br>これから、文筆に従事する人を指す。<br><br>文筆家・編集者・記者など。<br><br>操觚家。<br><br>ジャーナリスト。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Missão do Movimento Kannon</h2>
 <p>Ao longo da história, os grandes fundadores de religiões que se destacaram foram, incontestavelmente, Sidarta, Cristo e Maomé. Destes, Maomé, ao instituir o islamismo, conquistou centenas de milhões de fiéis, principalmente na Ásia Central; todavia, por sua pouca relevância para o povo japonês, não será objeto de nossa análise. Dedicar-nos-emos, portanto, a examinar as religiões que possuem íntima conexão com nossa nação, ao mesmo tempo em que exporemos ao mundo os motivos que levaram à fundação do Movimento de Kannon e da Associação Kannon.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>E se, porventura, surgisse um líder que detivesse tal plano e possuísse um poder sequer imaginável? O que aconteceria? Chamemos, provisoriamente, o detentor dessa força de Super-homem.</p>
 <p>Este Super-homem iniciou Sua obra de salvação da humanidade no primeiro dia do ano de 1935. Qual é, então, a natureza do poder que Ele empunha? Trata-se, precisamente, do poder de Kannon (観世音). Abreviadamente, denomina-se Poder de Kannon. A seguir, descreverei, em tópicos e tal como ouvi do próprio Super-homem, as linhas gerais da obra que Ele está prestes a realizar.</p>
 <p>Devo advertir, de antemão, que os escritos a seguir contêm, em sua maioria, preceitos jamais desbravados por outrem, e muitas de suas passagens poderão parecer verdadeiramente excêntricas. Por essa razão, será difícil para o leitor acreditar de imediato no que lerá. Assim, àqueles que nutrirem a menor dúvida, não haverá outro recurso senão o de constatar os fatos com os próprios olhos. Na verdade, poucas tarefas são tão difíceis quanto a de escrever este livro. Se descrevo a realidade tal como ela é, torno-me alvo da incredulidade; se a atenúo para que seja crível, afasto-me da verdade. A situação assemelha-se à de tentar explicar um avião ou um rádio a um indivíduo da era Tokugawa — não, é uma tarefa ainda mais árdua.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 大光明世界の建設 序論 『病貧争絶無の世界を造る観音運動とは何？』昭和10(1935)年9月15日発行 昔から、聖者として、大宗教を弘められたのは、何といっても、釈迦、基督（キリスト）、マホメットの三者に指を屈する。<br/><br/>しかし、その中で、マホメットは回々（フイフイ）教を起し、中央亜細亜を中心として、数億の信者を有して居るが、吾々日本人には、ほとんど関係が無いから、ここでは、述べない事にして、ともかく吾々日本人に、密接の関係ある宗教を、検討すると共に、何故に観音運動なるものが、又観音会なるものが、創成されたかという理由を、天下に発表するのである。<br/><br/> 我日本においては、現在、神道十三派、仏教十三宗五十六派、基督教二十余派あり、その他、新興宗教類似宗教等、無数にあるが、何と言っても、仏教がその主体をなして居り神道では、天理教が頭角を現わし、基督教は割合振わない状勢である。<br/><br/> 古来、三千年間、聖者賢哲が雲のごとく輩出して、道を説き、愛を唱え、慈悲を諭し、善を勧め以て不幸の無い世界、即ち人類の理想たる、地上天国、五六七の世、甘露台の世、義農の世等を建設すべく、いかに努力した事であろうか、しかるに、未だ以て、実現しないのみか、反って、前途いよいよ遠きを想わしむる現状は、何が故であろう、視よ、苦悩の叫びは到るところに充ち、強国は、強者はその権力を増大して、益々自己本能の満足を得んとし、弱国は、弱者は、いよいよ困憊（こんばい）窮乏（きゅうぼう）のドン底に沈綸（ちんりん）し、一人の満足者あれば、一万人の絶望者があるという惨状である。<br/><br/> 国際間における、軍備競争を、経済難を、政治の行詰りを、思想の混乱を、会議外交の失敗を、生活難を観るがいい、そこに見出すものは、絶望と溜息と、自暴自棄とである。<br/><br/>暗黒そのままの世界である。<br/><br/> この様な、光の無い世界に在って、宗教は一体、何をして居るのであろうか、各宗の開祖等が予言と使命を下した理想世界は一体いつになったら来るのか多くの聖者達が発行した手形の決済はいかなるのか、もう全部が不渡になるではないか、嗚呼（ああ）、人類よ『お前達はどこへ行くのだ』？ 以上述べた事は、誰も知っている事である。<br/><br/>宗教家も、為政家も、操觚者（そうこしゃ）も、インテリも知り抜いている。<br/><br/>しかし、知って居ても、どうする事も出来ないだけなのだ。<br/><br/> それは、何が故か、案が無いからだ。<br/><br/>指導者が無いからだ、力がないからなのである。<br/><br/>もしも、その案を持った指導者が、そして、想像も付かない力を有（も）った人間が、現われたとすれば、一体いかなる事であろう、その力の持主を、仮に超人と言って置く。<br/><br/> この超人が、昭和十年一月元旦から、人類救済事業を創めたのだ、それでは、その超人の揮う力とは、一体何であるか、それこそ、観世音の力なのだ、これを約（ちぢ）めて観音力と言うのだ、この超人が、これから行わんとする、事業の概略について、超人から聞いたままを、項を分けて、記いてみよう。<br/><br/> 断っておくが、これから記く事は、主に前人未開の説が多く、まことに突飛（とっぴ）とさえ思われる事が多々あるので、これを読んでも、直ちに信ずる事はむずかしいであろう、故に、些（いささ）かなりとも疑う人があったら、実地を見るより仕様がない。<br/><br/>実は、この本を書く位、難しい事はないので、実地を書けば信じられ難いし、信じいい位に書けば、実際とは違って来る、ちょうど、徳川時代の人間に、飛行機とラジオの説明をするような、否、それよりも、困難であるからだ。<br/><br/> （注）操觚者（そうこしゃ）、觚は文字を書く方形の札。<br/><br/>これから、文筆に従事する人を指す。<br/><br/>文筆家・編集者・記者など。<br/><br/>操觚家。<br/><br/>ジャーナリスト。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -2,7 +2,7 @@
 import json
 import os
 import re
-from pathlib import Path
+from bs4 import BeautifulSoup, Tag, NavigableString
 
 # Config
 INDEX_FILE = 'Data/advanced_search_index.json'
@@ -39,25 +39,23 @@ def get_japanese_content(index_item, translations):
 
 def format_japanese_text(text):
     if not text: return ""
-    
-    # Aggressively strip trailing HTML tags that might break the wrapper
-    # Remove </div>, </body>, </html> from the end
+    # Simple formatting: plain text to basic HTML paragraphs if needed
+    # But usually the source content is already somewhat formatted or just plain text.
+    # We will wrap it in a div.
+    # Replace newlines with <br> for simple display
     cleaned = re.sub(r'(</div>|</body>|</html>)+\s*$', '', text, flags=re.IGNORECASE).strip()
-    
-    # Simple splitting for readability
     if '\n' in cleaned:
         return cleaned.replace('\n', '<br>')
     else:
         return cleaned.replace('。', '。<br><br>')
 
 def resolve_path(url):
-    # Try multiple convenient locations
     possibilities = [
         url,
         os.path.join('sasshi', url),
         os.path.join('search1', url),
         os.path.join('filetop', url),
-        os.path.join('search1/situmon', url), # Added based on audit log
+        os.path.join('search1/situmon', url),
         os.path.join('search1/shi', url)
     ]
     for p in possibilities:
@@ -65,113 +63,217 @@ def resolve_path(url):
             return p
     return None
 
-def inject_toggle(html_path, jp_content):
+def inject_bilingual_features(html_path, jp_content):
     try:
         with open(html_path, 'r', encoding='utf-8', errors='ignore') as f:
-            content = f.read()
-    except FileNotFoundError:
-        print(f"  [MISSING] {html_path}")
+            soup = BeautifulSoup(f, 'html.parser')
+    except Exception as e:
+        print(f"  [ERROR] Reading {html_path}: {e}")
         return False
 
-    # Check for marker
-    if '<!-- LANGUAGE TOGGLE INJECTED start -->' in content:
-        # Already injected. 
-        # Check if content is actually empty or broken?
-        # User asked to "review all". Re-injecting is safer to ensure latest logic.
-        # But we must remove the old block first to avoid duplication.
-        content = re.sub(r'<!-- LANGUAGE TOGGLE INJECTED start -->.*?<!-- LANGUAGE TOGGLE INJECTED end -->\s*', '', content, flags=re.DOTALL)
-        # Also clean up the hidden jp-content if it was outside the block (v1 script had it inside?)
-        # v1 script had: injection = ... <div id="jp-content">...</div> ...
-        # So removing the block removes the content.
-        # BUT wait, the ID "jp-content" might duplicate if not careful.
-        # The regex above removes the whole block.
-        # print("  [UPDATE] Re-injecting...")
+    # 1. CLEANUP: Remove old injected elements
+    print(f"    Cleaning {html_path}...")
+    # Remove all toggle bars
+    for el in soup.find_all(class_='lang-toggle-bar'):
+        el.decompose()
     
-    # Target insertion point: Before <div class="translated-content">
-    # If not found, try <blockquote>
-    # If not found, try <div id="content"> (some generic ones)
+    # Remove all jp-content divs (could be multiple if script ran multiple times)
+    for el in soup.find_all(id='jp-content'):
+        el.decompose()
+        
+    # Remove old scripts containing toggleLang
+    # checking all script tags is safer
+    scripts = soup.find_all('script')
+    for s in scripts:
+        if s.string and 'function toggleLang' in s.string:
+            s.decompose()
     
-    target_pattern = r'(<div class="translated-content">)'
-    if not re.search(target_pattern, content):
-        target_pattern = r'(<blockquote>)'
-        if not re.search(target_pattern, content):
-            # Fallback for pages that might use <div id="main"> or similar
-            target_pattern = r'(<div id="main">|<body>)'
-            # But putting it at body start might be ugly.
-            # Let's stick to translated-content or blockquote for safety, 
-            # or try to find Portuguese header?
-            # Audit said 101 files missing. They almost certainly have "blockquote" or similar.
-            pass
+    # Remove potential "LANGUAGE TOGGLE INJECTED" comments? 
+    # (Checking comments is harder but toggle bars usually catch the visual part)
 
-    if not re.search(target_pattern, content):
-        print(f"  [SKIP] No target div/blockquote found in {html_path}")
-        return False
 
-    # Create Injection Block
-    # We embed the JP content in a hidden div
-    safe_jp = format_japanese_text(jp_content)
+    # 2. IDENTIFY CONTENT CONTAINER
+    # Priority: #pt-content -> .content-wrapper -> body
+    content_container = soup.find(id='pt-content')
     
-    # Updated Toggle Logic to be robust against nesting
-    # We use specific IDs and try not to break layout
-    
-    injection = f"""
-<!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
+    if not content_container:
+        # We need to create it and move content inside.
+        # Strategy: Find the main content wrapper or body, and assume everything 
+        # that ISN'T a script/style/nav is content.
+        
+        main_wrapper = soup.find(class_='content-wrapper') or soup.find(id='main') or soup.body
+        
+        if not main_wrapper:
+            print("  [SKIP] No body tag found.")
+            return False
+            
+        # Create new pt-content div
+        new_pt_div = soup.new_tag('div', id='pt-content')
+        
+        # Move children of main_wrapper into new_pt_div
+        # Be careful not to break iteration by modifying list while iterating
+        children_to_move = []
+        for child in main_wrapper.contents:
+             # Skip our own injected stuff if it wasn't cleaned properly (safety)
+            if isinstance(child, Tag) and child.get('id') == 'jp-content': continue
+            children_to_move.append(child)
+            
+        for child in children_to_move:
+            new_pt_div.append(child)
+            
+        main_wrapper.append(new_pt_div)
+        content_container = new_pt_div
 
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    {safe_jp}
-</div>
+    # Ensure container style allows side-by-side
+    # We will control layout via a parent class or inline style manipulation in JS
+    
+    # 3. PREPARE JAPANESE CONTENT
+    jp_div = soup.new_tag('div', id='jp-content')
+    jp_div['style'] = 'display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'
+    
+    # We already formatted text as string, parse it to soup nodes? 
+    # Or just set innerHTML equivalent.
+    formatted_jp = format_japanese_text(jp_content)
+    # Parse as HTML fragments to be safe
+    jp_soup = BeautifulSoup(formatted_jp, 'html.parser')
+    jp_div.append(jp_soup)
+    
+    # Insert jp_div AFTER pt_content
+    content_container.insert_after(jp_div)
 
-<script>
-function toggleLang(lang) {{
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {{
-        let el = document.querySelector(s);
-        if (el) {{
-            ptContent = el;
-            break;
-        }}
-    }}
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
+    # 4. INJECT CSS & JS
+    head = soup.head
+    if not head:
+        head = soup.new_tag('head')
+        soup.html.insert(0, head)
 
-    if (!ptContent && !jpContent) return;
+    style_tag = soup.new_tag('style')
+    style_tag.string = """
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    """
+    if head:
+        head.append(style_tag)
 
-    if (lang === 'jp') {{
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) {{ btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }}
-        if (btnJp) {{ btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }}
-    }} else {{
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) {{ btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }}
-        if (btnJp) {{ btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }}
-    }}
-}}
-</script>
-<!-- LANGUAGE TOGGLE INJECTED end -->
-"""
+    # 5. INJECT TOGGLE BAR
+    toggle_bar = soup.new_tag('div', attrs={'class': 'lang-toggle-bar'})
     
-    # Inject
-    # We replace the target start tag with "Injection + Target Start Tag"
-    # This places the toggle bar ABOVE the content.
-    new_content = re.sub(target_pattern, injection + r'\1', content, count=1)
+    btns = [
+        ('btn-pt', 'Português', "toggleLang('pt')"),
+        ('btn-jp', 'Original (JP)', "toggleLang('jp')"),
+        ('btn-compare', 'Comparar', "toggleLang('compare')")
+    ]
     
+    for bib, text, action in btns:
+        b = soup.new_tag('button', id=bib, attrs={'class': 'lang-btn', 'onclick': action})
+        b.string = text
+        if bib == 'btn-pt': b['class'] = 'lang-btn active'
+        toggle_bar.append(b)
+
+    # Insert toggle bar at the start of body
+    if soup.body:
+        soup.body.insert(0, toggle_bar)
+
+    # 6. INJECT SCRIPT
+    script_tag = soup.new_tag('script')
+    script_tag.string = """
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    """
+    if soup.body:
+        soup.body.append(script_tag)
+
+    # Save
     with open(html_path, 'w', encoding='utf-8') as f:
-        f.write(new_content)
+        f.write(str(soup))
     
     return True
 
@@ -180,32 +282,36 @@ def main():
     translations = load_translations()
     
     count = 0
+    MAX_ITEMS = 5000 # Safety limit
     
-    print("Starting Injection Process...")
+    # Filter for items that have a URL (static file) AND Japanese content available
+    targets = []
     
     for item in index:
         url = item.get('url')
-        if not url or not url.endswith('.html'): continue
+        if not url: continue
         
-        # skip if no translation available to save time finding path
-        # But we need path to verify existence. 
-        # Actually checking translation first is faster than IO.
-        jp_text = get_japanese_content(item, translations)
-        if not jp_text:
+        # Resolve full path
+        path = resolve_path(url)
+        if not path:
+            print(f"Skipping {url} (Not found)")
             continue
+            
+        jp = get_japanese_content(item, translations)
+        if not jp:
+            continue
+            
+        targets.append((path, jp))
 
-        local_path = resolve_path(url)
-        if not local_path:
-            # print(f"  [NOT FOUND] {url}")
-            continue
-        
-        # Inject
-        if inject_toggle(local_path, jp_text):
+    print(f"Found {len(targets)} static pages to inject.")
+    
+    # Process
+    for path, jp in targets[:MAX_ITEMS]:
+        print(f"Injecting {path}...")
+        if inject_bilingual_features(path, jp):
             count += 1
-            if count % 100 == 0:
-                print(f"Processed {count} files...")
-        
-    print(f"Finished. Successfully injected {count} files.")
+            
+    print(f"Done. Injected {count} pages.")
 
 if __name__ == "__main__":
     main()

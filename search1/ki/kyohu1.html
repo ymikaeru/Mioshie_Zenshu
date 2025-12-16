@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kyohu1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -53,56 +254,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 資料検索 ： 恐怖時代 『明日の医術 第三編』昭和18(1943)年10月23日発行 夜の世界の唯物的医学の療法が、固める事を唯一の目的としたという事と、昼の世界に近づくに従って、右の医学的方法が逆効果にならざるを得ないという原理は、今まで詳説した事によって読者は充分理解されたであろう。<br><br>しからば、今後時日の進むに従って、個人は固より国家社会全般にわたって、いかなる変化が起るであろうかを、私は想像してかいてみよう。<br><br>それについて最も緊要な事は、夜の世界がいつ頃終るかという事であるが、これは私の推測によれば、ここ数年を出でないであろうと思うのである。<br><br>勿論、夜の世界が済むと同時に昼の世界に転移する事は言うまでもない。<br><br>しからば、夜と昼との転換期に際しては当然未だ曾（かつ）て人類の経験にない破局的な一大変異が起る事も予想に難からないのである。<br><br>私はその時の状態及びその前後の状態を予想してみるのである。<br><br>そうしてもしこの時の状態が、私の想像通りであるとすれば、人々は第二のノアの洪水として驚倒するであろう。<br><br>しかしながら以上のごとき想像を絶する一大変異は果して来るであろうかという事であるが、読者よ驚くなかれ、その萌芽はすでに表われ始めている。<br><br>しかも急テンポを以て、最後の日に向って進みつつあるという事である。<br><br> 又、一面昼の世界が接近しつゝあるという事は、勿論火素が増量する事であり、火素が増量するという事は、浄化力が旺盛になるという事であり、浄化力が旺盛になるという事は人間霊体における曇の溶解作用が強烈になる事であり、それは勿論肉体に反映し、病気発生の因となる事である。<br><br>近来、日本において病気の激増せる事実は驚くべき程で、何人も見聞するところであろう。<br><br>そうしてこの事実に対し、私は確実なる論拠を示そうと思うのである。<br><br>それは彼の健康保険であって、一般的にみて集団的単位の被保険者即ち各大工場等におけるそれであるが、その収支の方面はいかんというに、そのほとんどが最近赤字になってきたのである。<br><br>しかもそれが月々悪化の傾向を辿りつゝあるという事で、今日保険料の値上げが議題に上っているそうである。<br><br>これらによってみても近来における病者の激増は、最早疑いない事実とみていゝであろう。<br><br> 以上のごとき病者の激増は、今後益々顕著になるべき事は勿論であり、その結果として、夜昼の転換期に接近するに従って、恐らく日本国民のほとんどが病者たらざるはなしという、戦慄すべき危機到来は、もはや免れ得ないであろう。<br><br>そうしてその病状を想像してみるに、急激な大浄化作用であるから高熱、咳嗽、喀痰、食欲皆無、頭痛、頭脳混惑（こんわく）というごとき症状が大部分であり、しかもそれが、前例のない猛烈と執拗（しつよう）さであろう。<br><br> 故に、医診においても全然診断を下す事は不可能であり、発病するや死の転機の速かなる事驚くべき程で、しかも医療を加える程致死を速めるばかりであろう。<br><br>従って、病者の激増と死亡率のあまりにも多数に騰（のぼ）る為、人々は恐怖戦慄に襲われ、ついには政府も策の施しようがなく、混迷為（な）す所を知らざる事態に立到るであろう。<br><br>その惨憺（さんたん）たる状態は到底筆紙に尽すどころではなく、戦争や空襲の比ではないであろう。<br><br> 基督（キリスト）のいった「火の洗礼」とは、私の考察によれば、来るべき霊界の浄化作用で、火素によるのであるから火の洗礼といえよう。<br><br> そうして現在としての病者は、浄化が局部的であるから、たとえ誤診誤療といえども、急速に死にまでは到らないが、それは未だ夜の世界の水素的原素がある程度残存しているからである。<br><br> そうして前述のごとき恐怖時代に際して、本医術がいかに偉大なる光輝を発するであろうかという事である。<br><br>何となれば、その時いかなる病者といえども、本医術によらなければ、生命を完（まっと）うし得られないからである。<br><br>それについて、今日最も適確なる一証を挙げる事が出来る。<br><br>それは本療法の効果が年一年、否月々顕著になりつつあるという事実である。<br><br>これは実地治療に従事する者は、常に驚歎しているところである。<br><br>例えば一昨年、三十回で治癒したものが、昨年は十五回で治癒し、本年は五六回で同様の効果があるというごときそれである。<br><br>それは霊界転換に順応する方法であるからである。<br><br>しかるに、医学等は逆である以上、右と正比例的に益々治癒困難となる事で、これは医療の専門家は、日々の実験によって肯れるはずである。<br><br> 非常な時代には、非常な対策的方法が表われる事は、人類史が明白に物語っている。<br><br>しかしながら、今日までの非常時代といえども、来るべきそれに比ぶべくもない事は勿論であり、実に空前の大非常時代というべきであろう。<br><br>この意味において、右の大非常時時代を乗り越すべき準備を一日も早く為しおくべきであって、自己自身のみではない、その時及びその時までに一人でも多く、わが同胞をして東越させるべく指示を与えなければならないのである。<br><br>それは勿論、本医術を修得なしおく事であると、思うのである。<br><br> 右の一文を読んだ人は、あるいは脅迫的言辞を連ね、以て本医術修得者を増加する目的にすると想うかもしれないが、そういう人は、縁なき衆生でしかない事を言うに止めておこう。<br><br> そうして私は、さきに述べたごとく、多数の日本人、病者に限らず、健康者をも診査するにおいて、いつも慄然とするのである。<br><br>それはいかなる人といえども、各局部に溜結せる毒素のあまりにも夥（おびただ）しい事である。<br><br>その際いつも想像する事は、この人達がもし一挙に全体的浄化作用が発生するとしたら、到底生命は保てまいという事である。<br><br>それ程今日の日本人は毒素が多いのである。<br><br>これらは勿論、何世紀に渉って浄化作用発生するや、その都度、極力これを防圧〔遏〕（ぼうあつ）し、固めに固めた結果である事は勿論である。<br><br> そうして大転換期に際会するや、いかに多くの病者が、本医術の治療を求めんが為治療所に殺到し、又は本医術修得者に向って救を求むるであろうかを想うのである。<br><br>何となれば、その時の霊界における浄化力は最も旺盛でむしろ絶対的ともいうべきものであるから、本療法を受けるや、その治癒の速かなる事もまた顕著でいかに多くの同胞が救われるであろうかは、贅言（ぜいげん）を要しない所である。<br><br> しかしながら、曇の比較的少い人達は、浄化作用に対抗なし得るから、本治療を受けざるもこの危機を脱し得る事は勿論である。<br><br> ここで再び断わっておきたい事は、右は私が最悪の場面を想像してかいたのであって、決して予言ではない事である。<br><br>私としては右の想像が的中せざる事を念願してやまないものである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Era do Pavor</h2>
 <p>O leitor já terá compreendido plenamente, por meio das explanações detalhadas que apresentei até aqui, o princípio segundo o qual a medicina materialista do Mundo da Noite tinha como único objetivo a solidificação, bem como a razão pela qual esse método se torna, inevitavelmente, contraproducente à medida que nos aproximamos do Mundo do Dia. Nesse sentido, buscarei descrever, por meio de uma prospecção, as transformações que ocorrerão tanto no âmbito individual quanto em toda a sociedade, à medida que o tempo avança.</p>
@@ -122,5 +274,48 @@ function toggleLang(lang) {
 <p>Imagino, pois, quantas pessoas doentes, ao chegar a grande transição, acorrerão aos nossos centros terapêuticos ou suplicarão auxílio aos nossos praticantes. Naquele tempo, o Poder de Purificação no Mundo Espiritual atingirá seu ápice, tornando-se praticamente absoluto. Por essa razão, ao receberem nosso tratamento, a rapidez da cura será igualmente notável. Não é preciso dizer quantos de nossos semelhantes serão salvos.</p>
 <p>Contudo, as pessoas com relativamente poucas máculas terão condições de resistir ao processo purificador e, naturalmente, poderão superar essa crise mesmo sem receber nosso tratamento.</p>
 <p>Gostaria de reiterar que o que descrevi acima é um cenário hipotético, concebido a partir da imaginação do pior quadro possível, e não se trata, de modo algum, de uma profecia. Anseio, do fundo do coração, que essa minha prospecção não se concretize.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 資料検索 ： 恐怖時代 『明日の医術 第三編』昭和18(1943)年10月23日発行 夜の世界の唯物的医学の療法が、固める事を唯一の目的としたという事と、昼の世界に近づくに従って、右の医学的方法が逆効果にならざるを得ないという原理は、今まで詳説した事によって読者は充分理解されたであろう。<br/><br/>しからば、今後時日の進むに従って、個人は固より国家社会全般にわたって、いかなる変化が起るであろうかを、私は想像してかいてみよう。<br/><br/>それについて最も緊要な事は、夜の世界がいつ頃終るかという事であるが、これは私の推測によれば、ここ数年を出でないであろうと思うのである。<br/><br/>勿論、夜の世界が済むと同時に昼の世界に転移する事は言うまでもない。<br/><br/>しからば、夜と昼との転換期に際しては当然未だ曾（かつ）て人類の経験にない破局的な一大変異が起る事も予想に難からないのである。<br/><br/>私はその時の状態及びその前後の状態を予想してみるのである。<br/><br/>そうしてもしこの時の状態が、私の想像通りであるとすれば、人々は第二のノアの洪水として驚倒するであろう。<br/><br/>しかしながら以上のごとき想像を絶する一大変異は果して来るであろうかという事であるが、読者よ驚くなかれ、その萌芽はすでに表われ始めている。<br/><br/>しかも急テンポを以て、最後の日に向って進みつつあるという事である。<br/><br/> 又、一面昼の世界が接近しつゝあるという事は、勿論火素が増量する事であり、火素が増量するという事は、浄化力が旺盛になるという事であり、浄化力が旺盛になるという事は人間霊体における曇の溶解作用が強烈になる事であり、それは勿論肉体に反映し、病気発生の因となる事である。<br/><br/>近来、日本において病気の激増せる事実は驚くべき程で、何人も見聞するところであろう。<br/><br/>そうしてこの事実に対し、私は確実なる論拠を示そうと思うのである。<br/><br/>それは彼の健康保険であって、一般的にみて集団的単位の被保険者即ち各大工場等におけるそれであるが、その収支の方面はいかんというに、そのほとんどが最近赤字になってきたのである。<br/><br/>しかもそれが月々悪化の傾向を辿りつゝあるという事で、今日保険料の値上げが議題に上っているそうである。<br/><br/>これらによってみても近来における病者の激増は、最早疑いない事実とみていゝであろう。<br/><br/> 以上のごとき病者の激増は、今後益々顕著になるべき事は勿論であり、その結果として、夜昼の転換期に接近するに従って、恐らく日本国民のほとんどが病者たらざるはなしという、戦慄すべき危機到来は、もはや免れ得ないであろう。<br/><br/>そうしてその病状を想像してみるに、急激な大浄化作用であるから高熱、咳嗽、喀痰、食欲皆無、頭痛、頭脳混惑（こんわく）というごとき症状が大部分であり、しかもそれが、前例のない猛烈と執拗（しつよう）さであろう。<br/><br/> 故に、医診においても全然診断を下す事は不可能であり、発病するや死の転機の速かなる事驚くべき程で、しかも医療を加える程致死を速めるばかりであろう。<br/><br/>従って、病者の激増と死亡率のあまりにも多数に騰（のぼ）る為、人々は恐怖戦慄に襲われ、ついには政府も策の施しようがなく、混迷為（な）す所を知らざる事態に立到るであろう。<br/><br/>その惨憺（さんたん）たる状態は到底筆紙に尽すどころではなく、戦争や空襲の比ではないであろう。<br/><br/> 基督（キリスト）のいった「火の洗礼」とは、私の考察によれば、来るべき霊界の浄化作用で、火素によるのであるから火の洗礼といえよう。<br/><br/> そうして現在としての病者は、浄化が局部的であるから、たとえ誤診誤療といえども、急速に死にまでは到らないが、それは未だ夜の世界の水素的原素がある程度残存しているからである。<br/><br/> そうして前述のごとき恐怖時代に際して、本医術がいかに偉大なる光輝を発するであろうかという事である。<br/><br/>何となれば、その時いかなる病者といえども、本医術によらなければ、生命を完（まっと）うし得られないからである。<br/><br/>それについて、今日最も適確なる一証を挙げる事が出来る。<br/><br/>それは本療法の効果が年一年、否月々顕著になりつつあるという事実である。<br/><br/>これは実地治療に従事する者は、常に驚歎しているところである。<br/><br/>例えば一昨年、三十回で治癒したものが、昨年は十五回で治癒し、本年は五六回で同様の効果があるというごときそれである。<br/><br/>それは霊界転換に順応する方法であるからである。<br/><br/>しかるに、医学等は逆である以上、右と正比例的に益々治癒困難となる事で、これは医療の専門家は、日々の実験によって肯れるはずである。<br/><br/> 非常な時代には、非常な対策的方法が表われる事は、人類史が明白に物語っている。<br/><br/>しかしながら、今日までの非常時代といえども、来るべきそれに比ぶべくもない事は勿論であり、実に空前の大非常時代というべきであろう。<br/><br/>この意味において、右の大非常時時代を乗り越すべき準備を一日も早く為しおくべきであって、自己自身のみではない、その時及びその時までに一人でも多く、わが同胞をして東越させるべく指示を与えなければならないのである。<br/><br/>それは勿論、本医術を修得なしおく事であると、思うのである。<br/><br/> 右の一文を読んだ人は、あるいは脅迫的言辞を連ね、以て本医術修得者を増加する目的にすると想うかもしれないが、そういう人は、縁なき衆生でしかない事を言うに止めておこう。<br/><br/> そうして私は、さきに述べたごとく、多数の日本人、病者に限らず、健康者をも診査するにおいて、いつも慄然とするのである。<br/><br/>それはいかなる人といえども、各局部に溜結せる毒素のあまりにも夥（おびただ）しい事である。<br/><br/>その際いつも想像する事は、この人達がもし一挙に全体的浄化作用が発生するとしたら、到底生命は保てまいという事である。<br/><br/>それ程今日の日本人は毒素が多いのである。<br/><br/>これらは勿論、何世紀に渉って浄化作用発生するや、その都度、極力これを防圧〔遏〕（ぼうあつ）し、固めに固めた結果である事は勿論である。<br/><br/> そうして大転換期に際会するや、いかに多くの病者が、本医術の治療を求めんが為治療所に殺到し、又は本医術修得者に向って救を求むるであろうかを想うのである。<br/><br/>何となれば、その時の霊界における浄化力は最も旺盛でむしろ絶対的ともいうべきものであるから、本療法を受けるや、その治癒の速かなる事もまた顕著でいかに多くの同胞が救われるであろうかは、贅言（ぜいげん）を要しない所である。<br/><br/> しかしながら、曇の比較的少い人達は、浄化作用に対抗なし得るから、本治療を受けざるもこの危機を脱し得る事は勿論である。<br/><br/> ここで再び断わっておきたい事は、右は私が最悪の場面を想像してかいたのであって、決して予言ではない事である。<br/><br/>私としては右の想像が的中せざる事を念願してやまないものである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

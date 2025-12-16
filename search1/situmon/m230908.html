@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>M230908</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S23年9月8日） 『御光話録（補）』発行年月日不明、推定昭和26年頃。<br><br> 昭和二十三年九月八日（水） ――先月二十八日○○○○子を御浄めいたしましたところ、先祖の霊が三人現われ「お前達は信仰が足らない」「だれが一番足らないか？」「ほとんど全部足らない、みんなを呼べ」と申し「お前達は神を信じない。<br><br>頭を下げても心では信じていない」とて一家の信仰のないことを述べておりました。<br><br>狐霊を使って話をしているらしく、この信仰により救われたい様子に思われました。<br><br> ええ、それはその通りです。<br><br>救ってもらいたいのです。<br><br> ――翌日同人が私の教導所へまいりましたので御浄めいたしますと泣き出しましたが、じきに治り私と一緒に御軸に善言讃詞をお上げし「夜叉龍神も……」のところへきますと男の声になり「国と国との……仁慈の御胸に抱かれん」のところはものすごく大きな声になり「大光明如来守り給へ……」のところも大きくなりました。<br><br>そして気持ちよくなり便所へ行くと言って二、三歩踏み出したら倒れて霊が出まして「私はここの家へたびたび来る○○というものだ。<br><br>先生もよく知っているはずだ」「自分はこの人を連れて行かねば仕事に差し支える。<br><br>もともとこの人が好きだった」そこで「悪いことだから止めるように」と申しますと「悪いことは百も承知だ」「それでは自分はこれを連れて死ぬ」と言うので「それはいけない」と申しますと「僕の負けか」と言って足のほうから出て行きました。<br><br>この○○という男は生きているかどうかと思い、それとなく下宿を調べますと元気で学校へ通っておりました。<br><br> ほー生霊がついたんですね。<br><br>……信仰の線に入るということは神にお任せすることです。<br><br>人間的な考えもいいが、それもある程度までです。<br><br>一般に神に任せるという気になる人が少ない。<br><br>心配事などあると私は「神様にお任せしろ」と言うのです。<br><br>神にお任せする気になれば信仰の門に入った証拠であり、それで安心立命を得られるのです。<br><br>またお任せすればうまく行くのです。<br><br>神様としても「俺をそんなに信頼するのならよくしてやろう」と思われる。<br><br>昔から「仏の心は凡夫の心、凡夫の心は仏の心」と言われるように、神様だってある程度は人間と同じです。<br><br>形だけの信仰はいけない。<br><br>つまりさ、一人でも多くの人を救えばいいんです。<br><br>いよいよ最後の時に来ている。<br><br>できるだけ人を救わなければいけない。<br><br> ――御浄霊のとき、自然心の中で念じたくなりますが、なんと念じたらよろしいでしょうか。<br><br> 憑霊の場合は「幽世大神守り給へ幸倍賜へ」であり、その他の場合は念じたくなったら抑えたほうがよい。<br><br>相手の霊が非常に強いときは「国常立大（御）神守り給へ幸倍賜へ」と念じ絶体絶命のときは「大先生、御守護をお願い申し上げます」と言えばよい。<br><br>そういうときは私が神の代理になるのです。<br><br>いろいろ心配事のあるときは「大光明如来守り給へ幸倍賜へ」 でよい。<br><br>憑霊の場合も人霊は「幽世大神」動物霊なら動物は光を怖れるから「大光明如来」に分ければなおよい。<br><br> ――富士山麓で無肥料栽培をする方法はどうすればよろしいでしょうか。<br><br> これはね、特別に方法を変えなくてもいいんです。<br><br>関東はほとんど全部富士の火山灰地です。<br><br>作物には火山灰中の硫黄が悪いが、古くなると硫黄は抜けてしまうからかまわない。<br><br>灰だと土が固まらないからなおさらいいです。<br><br>この火山灰の固まったのが凝灰岩です。<br><br>無肥料は特に土を固まらせないことです。<br><br>無肥料でやればとてもよくできる。<br><br>増産になります。<br><br>ある人が無肥料でやったら親父は怒り村民も嘲笑していた。<br><br>で、本人一生懸命お願いしたところ他の人のは腐ったり虫がついたりしたが、その人のだけ助かったと言って礼に来てました。<br><br> ――山形の山地方では胡瓜（きゅうり）、茄子（なす）などを栽培すると不幸が起るのですが…… そんなことはない。<br><br>まあぜんぜんでたらめではないが、これからは大丈夫です。<br><br>霊界が昼になると違ってくる。<br><br>……肥料をやると駄目になるのもそのためです。<br><br>そこに気がつかないから相変わらず肥料をやっているのです。<br><br> ――やはり最初は減収でしょうか。<br><br> 種子や土も肥料を食っているから二、三年駄目です。<br><br>最初の年は収穫が三分の二、次の年は三分の一、次も三分の一、次あたりからよくなる。<br><br>無肥料でやると米なんか重いのです。<br><br>一俵で二、三升は重くピカピカ光っています。<br><br>そして炊いてもコワメシのようです。<br><br>……一番いけないのは硫安とか窒素とかの化学肥料が米から人間の体内に入る、これがどれくらい人体に害を与えているか判らないのです。<br><br>野菜もそうです。<br><br>家庭菜園で素人がクソなんかまくが、かえって結果が悪い。<br><br>肥料をやると花落ちがし実にならず、また虫がつきやすい。<br><br>私のところの枝豆は虫のつくのなんか一粒もない。<br><br>軟らかくて香りがよくうまいですよ。<br><br>倍くらいできますよ。<br><br>鎌倉の私の親戚のが胡瓜を無肥料でやったところ一本から百いくつとでき、食べられなくて困ったそうです。<br><br> ――山形地方ではふつうのように米を炊いても赤飯ができてしまうことがあり、そういうときは不幸なことが起りますがいかなるわけでしょうか。<br><br> これは難問題だね。<br><br>不幸が起るとは迷信でしょう。<br><br>ともかくいままでの人は始終悪いことが起ってますからね。<br><br>ごはんが赤くなるのは肥料の関係でしょう。<br><br> ――宮中賢所（かしこどころ）に昔からあるものの裏にヘブライ語で「我は有て在るもの也」と書かれてあるそうですが、なにかこの裏には偉大な歴史が秘められているのでしょうか。<br><br> ほーおもしろいですね、初めて聞きました。<br><br>偉大なというほどでもないが、あることが秘められているでしょう。<br><br>だいたい皇室の先祖はユダヤに関係がある、が、あまりはっきり言わないほうがいいでしょう。<br><br>皇室は十六の菊の紋ですが、ユダヤの都の四つの門の中の「開かずの門」の上にはやはり十六の菊の紋が刻まれてあり、その門はキリストの再臨まで開けてはならぬと伝えられてます。<br><br> ――大本の『霊界物語』に「国常立尊はヨハネ也」とありますが…… 国常立尊がヨハネではなくヨハネの働きをするのです。<br><br>「靴の紐を解くにも値せず」と言ってキリストもヨハネも謙遜し合っている。<br><br>ヨハネは霊的には火でキリストは水です。<br><br> ――ヨハネが水の洗礼をいたしましたのはなぜでしょうか。<br><br> ヨハネもキリストも水ですが霊的には火です。<br><br>言霊ではヨは横、水で、ハは火、ネは根本、だいたいは水で水の中の火です。<br><br>……『聖書』は旧新約ともに本当のことは書かれてない。<br><br>ある程度までは本当だがその先はまだ発表の時ではない。<br><br> 仏教でもそうですが、遠慮なく仏教を批判したら問題にならない。<br><br>旧約のモーゼも偉いが逃げるとき海を干して渡ったとあるのなんか嘘です。<br><br> ――キリストは本当は日本へ逃げて来たとの説もありますが。<br><br> ええ青森のほうへ逃げて来たというのですが一学者が唱えただけです。<br><br> ――時所位とはどういう関係でしょうか。<br><br> この三つがその人の値打ちにぴったり合うことが本当だがいままでは間違っていた。<br><br>大本のお筆先に「世は逆さまになりたるから……」とある。<br><br>最近特権階級がおっこちたが、おっこちて初めて所を得たのです。<br><br>これからは身魂相応になる。<br><br>またいままでは尊敬すべき人が下におり、軽蔑すべき人が上であって、これは霊的に時所位を得ていなかったのです。<br><br>霊位の低い人はこの道に入れない。<br><br>話しても判らないのはそういう人で、これはあきらめたほうがいい。<br><br> ――家の敷地、庭の一部が昔墓地であった所はいかに祀ったらよろしいでしょうか。<br><br> 古いのならかまわないが、新しい墓地だと迷っているのもある。<br><br>しかし光明如来様をお祀りすればよい。<br><br>昔は墓地の跡はよく盛り場にしたものです。<br><br> ――横浜で戦災で焼けた氏神の跡を盛り場にしたところ火事がよく起きます。<br><br> 神社の場合はいけません。<br><br> ――よく「金神の障り」と申しますが金神とはどんな神でしょうか。<br><br> これは動物霊で「艮（うしとら）の金神」はその最高です。<br><br>金は火、銀は水です。<br><br> ――千葉のほうに「ロクサン様」というのがありますが…… あれは少しは理もあるが問題にならない。<br><br>光明如来様を祀ればそんなのは屁にもならない。<br><br>障られたら産土神にお詣りしたらよい。<br><br> ――アイヌ族はなぜ滅亡状態になったのでしょうか、また霊統はなんでしょうか、お道をすすめたいと存じますがいかがでございましょうか。<br><br> この道をすすめるのは結構です。<br><br>アイヌ人はコーカサス人で北方から日本に入って来たのです。<br><br>その他南方（出雲地方、越前越後）からは朝鮮系、九州からは天孫民族すなわち支那系が入ったが、これら朝鮮系、支那系に圧迫されたため、アイヌは滅びているのです。<br><br>だから日本を征服されたのも日本人ではない。<br><br>これからは時所位が変わり日本人が勃興するのです。<br><br>日本民族は戦争を絶対嫌う人種です。<br><br> ――川魚、兎、鶏などを殺して生業にしておりますが、これらをいかに祀るべきでしょうか。<br><br> 年一回盆なんかに白木の長方形のものを作り「諸魚鳥之霊」と書き祭壇に祀り（宮にすればなおよいが）彼らの「エサ」食物を上げ言葉で「あんた方は人間のためいいことをしてくれた」と礼を述べ「今日はお祀りをしてあんた方を慰めるから」と言って祝詞（幽世大神）を上げたらよい。<br><br>お盆は地獄の霊を慰める日だからお盆がいい。<br><br>殊にお盆の最後の日に祀ってやればいいでしょう。<br><br> ――生まれつき親指の皮膚がつれて親指が充分伸びない子供（生後半歳）がおりますがいかがでしょうか。<br><br> それは畜生道へ堕ちた霊です。<br><br>御浄めで治るかどうかちょっと判りませんね。<br><br>霊が人間化すれば治るはずです。<br><br>兎唇は幼児の間なら治ります。<br><br> ――自分がお取り次ぎした講習生との霊線の関係はいかがでしょうか。<br><br> 太くなったり細くなったりしてます。<br><br>手足ですら自分ではどうにもならないことがあるのだから。<br><br>……ときには弟子のほうが身魂が高いこともあり、先生から離れたほうがよいこともある。<br><br>親子の関係で言えば弟子を生んだことになる。<br><br>だからいつまでも親のところにいたのでは大きくならない。<br><br>渋井は中島の弟子だったが、渋井が独立するときいろいろ心配する人があったが「心配する必要はない。<br><br>なにか意味があるのだから」と私は言ったのですが、現在はあんなになった。<br><br>勿論一度は師弟の因縁で結ばれたのです。<br><br>以前大阪でやってる先生とその弟子の仲が悪くなりついに別になって独立した。<br><br>そのとき私に「自分は先生に背いたことを悪いと思う」と言うので「いや支部が一つふえたのだから結局いいのだ」と言った。<br><br>そして別れるとき「これからはもう喧嘩せずに仲よくしろ」と言ったんですが、その人は離れてからも喧嘩していた。<br><br>後にその先生が来たので訊くと「あれは大先生が喧嘩してもよいとおっしゃったから」と言ったそうですが、私は喧嘩しろとは言わない。<br><br>……喧嘩が悪いとも言えないし、またいつも喧嘩していいとも言えない。<br><br>もう分かれたんだからこれからは先生は弟子を賞め、弟子は先生を賞めお互いに「ほめっこ」するように……と話したのです。<br><br>ワサビやカラシがいいからってあればかり食っちゃいられない。<br><br>そういうものは場合によってわずかに利用すればよいのです。<br><br>喧嘩だってこれと同じことです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Diálogos sobre a Fé, o Mundo Espiritual e a Vida Cotidiana</h2>
 <p>8 de setembro de 1948 (quarta-feira)</p>
@@ -140,5 +292,48 @@ function toggleLang(lang) {
 <p><strong>Meishu-Sama:</strong> Esse vínculo ora se fortalece, ora se enfraquece. Assim como nem sempre temos controle sobre nossos próprios braços e pernas, o mesmo ocorre com essa relação. Por vezes, o discípulo possui um nível espiritual mais elevado, e pode ser melhor para ele se afastar do mestre. Em termos de relação familiar, é como dar à luz um filho. Se ele permanecer para sempre sob a asa dos pais, não poderá crescer. O Sr. Shibui era discípulo do Sr. Nakajima. Quando Shibui decidiu se tornar independente, muitas pessoas se preocuparam, mas eu disse: “Não há motivo para preocupação. Há um significado por trás disso”. E vejam o resultado que ele alcançou. É claro que, por um tempo, eles estiveram unidos por um elo de mestre e discípulo.</p>
 <p>Certa vez, em Osaka, um ministro e seu discípulo se desentenderam e acabaram se separando, com o discípulo estabelecendo seu próprio grupo. Ele veio a mim e disse: “Sinto-me culpado por ter me voltado contra meu mestre”. Eu lhe respondi: “Não se preocupe. No fim, o resultado foi bom, pois agora temos mais uma unidade da Igreja”. Ao se despedirem, eu lhes disse: “De agora em diante, vivam em harmonia, sem mais conflitos”. Contudo, mesmo após a separação, eles continuaram a brigar. Mais tarde, quando o mestre veio me visitar, soube que o discípulo andava dizendo: “Foi o Grande Mestre quem disse que não havia problema em brigar”. Eu jamais diria para brigarem.</p>
 <p>Não se pode dizer que o conflito seja inteiramente mau, nem que seja sempre aceitável. Eu lhes disse: “Agora que estão separados, o mestre deve elogiar o discípulo, e o discípulo deve elogiar o mestre. Pratiquem o elogio mútuo”. A pimenta e a mostarda são boas, mas ninguém consegue se alimentar apenas delas. São condimentos para serem usados com moderação, conforme a ocasião. O mesmo se aplica aos conflitos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S23年9月8日） 『御光話録（補）』発行年月日不明、推定昭和26年頃。<br/><br/> 昭和二十三年九月八日（水） ――先月二十八日○○○○子を御浄めいたしましたところ、先祖の霊が三人現われ「お前達は信仰が足らない」「だれが一番足らないか？」「ほとんど全部足らない、みんなを呼べ」と申し「お前達は神を信じない。<br/><br/>頭を下げても心では信じていない」とて一家の信仰のないことを述べておりました。<br/><br/>狐霊を使って話をしているらしく、この信仰により救われたい様子に思われました。<br/><br/> ええ、それはその通りです。<br/><br/>救ってもらいたいのです。<br/><br/> ――翌日同人が私の教導所へまいりましたので御浄めいたしますと泣き出しましたが、じきに治り私と一緒に御軸に善言讃詞をお上げし「夜叉龍神も……」のところへきますと男の声になり「国と国との……仁慈の御胸に抱かれん」のところはものすごく大きな声になり「大光明如来守り給へ……」のところも大きくなりました。<br/><br/>そして気持ちよくなり便所へ行くと言って二、三歩踏み出したら倒れて霊が出まして「私はここの家へたびたび来る○○というものだ。<br/><br/>先生もよく知っているはずだ」「自分はこの人を連れて行かねば仕事に差し支える。<br/><br/>もともとこの人が好きだった」そこで「悪いことだから止めるように」と申しますと「悪いことは百も承知だ」「それでは自分はこれを連れて死ぬ」と言うので「それはいけない」と申しますと「僕の負けか」と言って足のほうから出て行きました。<br/><br/>この○○という男は生きているかどうかと思い、それとなく下宿を調べますと元気で学校へ通っておりました。<br/><br/> ほー生霊がついたんですね。<br/><br/>……信仰の線に入るということは神にお任せすることです。<br/><br/>人間的な考えもいいが、それもある程度までです。<br/><br/>一般に神に任せるという気になる人が少ない。<br/><br/>心配事などあると私は「神様にお任せしろ」と言うのです。<br/><br/>神にお任せする気になれば信仰の門に入った証拠であり、それで安心立命を得られるのです。<br/><br/>またお任せすればうまく行くのです。<br/><br/>神様としても「俺をそんなに信頼するのならよくしてやろう」と思われる。<br/><br/>昔から「仏の心は凡夫の心、凡夫の心は仏の心」と言われるように、神様だってある程度は人間と同じです。<br/><br/>形だけの信仰はいけない。<br/><br/>つまりさ、一人でも多くの人を救えばいいんです。<br/><br/>いよいよ最後の時に来ている。<br/><br/>できるだけ人を救わなければいけない。<br/><br/> ――御浄霊のとき、自然心の中で念じたくなりますが、なんと念じたらよろしいでしょうか。<br/><br/> 憑霊の場合は「幽世大神守り給へ幸倍賜へ」であり、その他の場合は念じたくなったら抑えたほうがよい。<br/><br/>相手の霊が非常に強いときは「国常立大（御）神守り給へ幸倍賜へ」と念じ絶体絶命のときは「大先生、御守護をお願い申し上げます」と言えばよい。<br/><br/>そういうときは私が神の代理になるのです。<br/><br/>いろいろ心配事のあるときは「大光明如来守り給へ幸倍賜へ」 でよい。<br/><br/>憑霊の場合も人霊は「幽世大神」動物霊なら動物は光を怖れるから「大光明如来」に分ければなおよい。<br/><br/> ――富士山麓で無肥料栽培をする方法はどうすればよろしいでしょうか。<br/><br/> これはね、特別に方法を変えなくてもいいんです。<br/><br/>関東はほとんど全部富士の火山灰地です。<br/><br/>作物には火山灰中の硫黄が悪いが、古くなると硫黄は抜けてしまうからかまわない。<br/><br/>灰だと土が固まらないからなおさらいいです。<br/><br/>この火山灰の固まったのが凝灰岩です。<br/><br/>無肥料は特に土を固まらせないことです。<br/><br/>無肥料でやればとてもよくできる。<br/><br/>増産になります。<br/><br/>ある人が無肥料でやったら親父は怒り村民も嘲笑していた。<br/><br/>で、本人一生懸命お願いしたところ他の人のは腐ったり虫がついたりしたが、その人のだけ助かったと言って礼に来てました。<br/><br/> ――山形の山地方では胡瓜（きゅうり）、茄子（なす）などを栽培すると不幸が起るのですが…… そんなことはない。<br/><br/>まあぜんぜんでたらめではないが、これからは大丈夫です。<br/><br/>霊界が昼になると違ってくる。<br/><br/>……肥料をやると駄目になるのもそのためです。<br/><br/>そこに気がつかないから相変わらず肥料をやっているのです。<br/><br/> ――やはり最初は減収でしょうか。<br/><br/> 種子や土も肥料を食っているから二、三年駄目です。<br/><br/>最初の年は収穫が三分の二、次の年は三分の一、次も三分の一、次あたりからよくなる。<br/><br/>無肥料でやると米なんか重いのです。<br/><br/>一俵で二、三升は重くピカピカ光っています。<br/><br/>そして炊いてもコワメシのようです。<br/><br/>……一番いけないのは硫安とか窒素とかの化学肥料が米から人間の体内に入る、これがどれくらい人体に害を与えているか判らないのです。<br/><br/>野菜もそうです。<br/><br/>家庭菜園で素人がクソなんかまくが、かえって結果が悪い。<br/><br/>肥料をやると花落ちがし実にならず、また虫がつきやすい。<br/><br/>私のところの枝豆は虫のつくのなんか一粒もない。<br/><br/>軟らかくて香りがよくうまいですよ。<br/><br/>倍くらいできますよ。<br/><br/>鎌倉の私の親戚のが胡瓜を無肥料でやったところ一本から百いくつとでき、食べられなくて困ったそうです。<br/><br/> ――山形地方ではふつうのように米を炊いても赤飯ができてしまうことがあり、そういうときは不幸なことが起りますがいかなるわけでしょうか。<br/><br/> これは難問題だね。<br/><br/>不幸が起るとは迷信でしょう。<br/><br/>ともかくいままでの人は始終悪いことが起ってますからね。<br/><br/>ごはんが赤くなるのは肥料の関係でしょう。<br/><br/> ――宮中賢所（かしこどころ）に昔からあるものの裏にヘブライ語で「我は有て在るもの也」と書かれてあるそうですが、なにかこの裏には偉大な歴史が秘められているのでしょうか。<br/><br/> ほーおもしろいですね、初めて聞きました。<br/><br/>偉大なというほどでもないが、あることが秘められているでしょう。<br/><br/>だいたい皇室の先祖はユダヤに関係がある、が、あまりはっきり言わないほうがいいでしょう。<br/><br/>皇室は十六の菊の紋ですが、ユダヤの都の四つの門の中の「開かずの門」の上にはやはり十六の菊の紋が刻まれてあり、その門はキリストの再臨まで開けてはならぬと伝えられてます。<br/><br/> ――大本の『霊界物語』に「国常立尊はヨハネ也」とありますが…… 国常立尊がヨハネではなくヨハネの働きをするのです。<br/><br/>「靴の紐を解くにも値せず」と言ってキリストもヨハネも謙遜し合っている。<br/><br/>ヨハネは霊的には火でキリストは水です。<br/><br/> ――ヨハネが水の洗礼をいたしましたのはなぜでしょうか。<br/><br/> ヨハネもキリストも水ですが霊的には火です。<br/><br/>言霊ではヨは横、水で、ハは火、ネは根本、だいたいは水で水の中の火です。<br/><br/>……『聖書』は旧新約ともに本当のことは書かれてない。<br/><br/>ある程度までは本当だがその先はまだ発表の時ではない。<br/><br/> 仏教でもそうですが、遠慮なく仏教を批判したら問題にならない。<br/><br/>旧約のモーゼも偉いが逃げるとき海を干して渡ったとあるのなんか嘘です。<br/><br/> ――キリストは本当は日本へ逃げて来たとの説もありますが。<br/><br/> ええ青森のほうへ逃げて来たというのですが一学者が唱えただけです。<br/><br/> ――時所位とはどういう関係でしょうか。<br/><br/> この三つがその人の値打ちにぴったり合うことが本当だがいままでは間違っていた。<br/><br/>大本のお筆先に「世は逆さまになりたるから……」とある。<br/><br/>最近特権階級がおっこちたが、おっこちて初めて所を得たのです。<br/><br/>これからは身魂相応になる。<br/><br/>またいままでは尊敬すべき人が下におり、軽蔑すべき人が上であって、これは霊的に時所位を得ていなかったのです。<br/><br/>霊位の低い人はこの道に入れない。<br/><br/>話しても判らないのはそういう人で、これはあきらめたほうがいい。<br/><br/> ――家の敷地、庭の一部が昔墓地であった所はいかに祀ったらよろしいでしょうか。<br/><br/> 古いのならかまわないが、新しい墓地だと迷っているのもある。<br/><br/>しかし光明如来様をお祀りすればよい。<br/><br/>昔は墓地の跡はよく盛り場にしたものです。<br/><br/> ――横浜で戦災で焼けた氏神の跡を盛り場にしたところ火事がよく起きます。<br/><br/> 神社の場合はいけません。<br/><br/> ――よく「金神の障り」と申しますが金神とはどんな神でしょうか。<br/><br/> これは動物霊で「艮（うしとら）の金神」はその最高です。<br/><br/>金は火、銀は水です。<br/><br/> ――千葉のほうに「ロクサン様」というのがありますが…… あれは少しは理もあるが問題にならない。<br/><br/>光明如来様を祀ればそんなのは屁にもならない。<br/><br/>障られたら産土神にお詣りしたらよい。<br/><br/> ――アイヌ族はなぜ滅亡状態になったのでしょうか、また霊統はなんでしょうか、お道をすすめたいと存じますがいかがでございましょうか。<br/><br/> この道をすすめるのは結構です。<br/><br/>アイヌ人はコーカサス人で北方から日本に入って来たのです。<br/><br/>その他南方（出雲地方、越前越後）からは朝鮮系、九州からは天孫民族すなわち支那系が入ったが、これら朝鮮系、支那系に圧迫されたため、アイヌは滅びているのです。<br/><br/>だから日本を征服されたのも日本人ではない。<br/><br/>これからは時所位が変わり日本人が勃興するのです。<br/><br/>日本民族は戦争を絶対嫌う人種です。<br/><br/> ――川魚、兎、鶏などを殺して生業にしておりますが、これらをいかに祀るべきでしょうか。<br/><br/> 年一回盆なんかに白木の長方形のものを作り「諸魚鳥之霊」と書き祭壇に祀り（宮にすればなおよいが）彼らの「エサ」食物を上げ言葉で「あんた方は人間のためいいことをしてくれた」と礼を述べ「今日はお祀りをしてあんた方を慰めるから」と言って祝詞（幽世大神）を上げたらよい。<br/><br/>お盆は地獄の霊を慰める日だからお盆がいい。<br/><br/>殊にお盆の最後の日に祀ってやればいいでしょう。<br/><br/> ――生まれつき親指の皮膚がつれて親指が充分伸びない子供（生後半歳）がおりますがいかがでしょうか。<br/><br/> それは畜生道へ堕ちた霊です。<br/><br/>御浄めで治るかどうかちょっと判りませんね。<br/><br/>霊が人間化すれば治るはずです。<br/><br/>兎唇は幼児の間なら治ります。<br/><br/> ――自分がお取り次ぎした講習生との霊線の関係はいかがでしょうか。<br/><br/> 太くなったり細くなったりしてます。<br/><br/>手足ですら自分ではどうにもならないことがあるのだから。<br/><br/>……ときには弟子のほうが身魂が高いこともあり、先生から離れたほうがよいこともある。<br/><br/>親子の関係で言えば弟子を生んだことになる。<br/><br/>だからいつまでも親のところにいたのでは大きくならない。<br/><br/>渋井は中島の弟子だったが、渋井が独立するときいろいろ心配する人があったが「心配する必要はない。<br/><br/>なにか意味があるのだから」と私は言ったのですが、現在はあんなになった。<br/><br/>勿論一度は師弟の因縁で結ばれたのです。<br/><br/>以前大阪でやってる先生とその弟子の仲が悪くなりついに別になって独立した。<br/><br/>そのとき私に「自分は先生に背いたことを悪いと思う」と言うので「いや支部が一つふえたのだから結局いいのだ」と言った。<br/><br/>そして別れるとき「これからはもう喧嘩せずに仲よくしろ」と言ったんですが、その人は離れてからも喧嘩していた。<br/><br/>後にその先生が来たので訊くと「あれは大先生が喧嘩してもよいとおっしゃったから」と言ったそうですが、私は喧嘩しろとは言わない。<br/><br/>……喧嘩が悪いとも言えないし、またいつも喧嘩していいとも言えない。<br/><br/>もう分かれたんだからこれからは先生は弟子を賞め、弟子は先生を賞めお互いに「ほめっこ」するように……と話したのです。<br/><br/>ワサビやカラシがいいからってあればかり食っちゃいられない。<br/><br/>そういうものは場合によってわずかに利用すればよいのです。<br/><br/>喧嘩だってこれと同じことです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

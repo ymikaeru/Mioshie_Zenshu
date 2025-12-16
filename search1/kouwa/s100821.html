@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s100821</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 昭和10(1935)年8月21日 いろいろ御神徳談がありまして、たいへんおもしろく聞いたんですが、いままでの宗教はそうとう奇蹟や御神徳はあった。<br><br>あったからしてそうとうの発展をしたんであります。<br><br>ところが、その教祖とか開祖とかいうものが、在世中はそうとうの奇蹟や神徳があったんであります。<br><br>その後また教祖が亡くなったりなどすると、だんだん御神徳が薄くなってくる。<br><br>そうして終になくなるというような形をとってきた。<br><br> どの宗教を見ても開教当時が一番御神徳があった。<br><br>ところが観音会は反対なんであります。<br><br> いままでの宗教は月の救いで、その形体をとって進みますが、だんだん進むに従って反対の形をとる。<br><br>在来いう、西から東へ向かっていった。<br><br> 今度は東から西のほうへ照らしてゆくんで反対になる。<br><br>従ってこれが観音力、観音会の御神徳が、反対に大きくなるわけで、まだまだ時期が進めば大きくなるので、これだけの御神徳で驚いていては、先でまごつくことになる。<br><br>いまに病気など即座に治ることになるから、そのつもりでないと、あわてるようなことが起るといけません。<br><br> ところで、こういうことをよく言います。<br><br>これは仏教に多いんでありますが、現当利益は低級宗教だという。<br><br>真理化運動の友松円許などさかんにそういうことを言う。<br><br>要するに低級信仰……ちょっと聞くとなるほどと思えますが、一歩入って考えてみると、かえって反対であります。<br><br> なんとなれば、指導階級すなわち社会の上層に立っている人達こそ、非常にいろいろな現当利益が欲しい人ばかりです。<br><br>なんとなれば、地位や名誉や金などおそろしく現当利益が欲しいから上流に立っている。<br><br>そして、現当利益に重きをおかぬ人は下流に立っている。<br><br> で、観音様の信仰は、徹頭徹尾現当利益を主としている。<br><br> どんな偉い人でも、死んでからの御利益がありがたい。<br><br>現世では不幸だと言って、それをありがたがっている人はない。<br><br>もし、現当利益の欲しくない人に金をやったとすれば、涙流して喜ぶでしょう。<br><br> 未来のありがたいことを説く宗教も、金がなかったらその宣伝もできない。<br><br>既成宗教の仏教などは現当利益は低級と言うが、私が考えるには、それは現当利益がやれぬ。<br><br>与えたくとも与えられないから、やむを得ずそう言うのです。<br><br>あの人達は病気とか貧乏とか言われるような、そういうものに超越して安心する。<br><br>それが宗教の価値だと説いている。<br><br>どんなに宗教に徹底しても、病気に悩み苦しむのを超越する人は、一人か二人くらいしかないでしょう。<br><br>私自身でも病気に超越できない。<br><br>金はたんまり入ったほうがいい。<br><br>そのほうが仕事ができ、人を救うことができるが、金がなかったら今日資本主義の社会に立って行けぬ。<br><br>魔法使いでもできない。<br><br>今日の法律に触れ、規則に違反してもやれる人はないが、法律に触れぬ範囲において入用な金がなくてはできない。<br><br>いくら聖者でも法律は曲げられず、金なくして仕事できぬ。<br><br> それゆえ現当利益こそ、人を救う唯一の道であり、現当利益を与えられぬ神仏なら、なんで未来が救えるもんでない。<br><br>未来が救えれば現在も救えるわけになる。<br><br>また現在が救えれば未来も救える。<br><br> ですから、そういうようなことを言ってる人こそ、実に低級きわまると思う。<br><br>私はいまに低級宗教だという人にみな金を上げるが、それを断ったらそれは偉い人であります。<br><br>私は松岡洋右氏は偉いと思ったが、今度満鉄の総裁になったんでオヤオヤと思った。<br><br>天下の形勢をみて満鉄総裁を唯々諾々と頂戴した。<br><br>あの人は特別偉い人ですが、その人でさえああいう地位、名誉には属する。<br><br>いくら低級だといばっても、丸いもの見せれば問題ないわけであります。<br><br> しばらく時事問題をしませんが、だいぶ内外とも変わってきました。<br><br>観音運動は全世界を救わなければならぬのですから、あらゆる知識と、今後の動きを知っとく必要があると思います。<br><br> まず日本におけることで、ご存じの通り、つい最近永田総監が、ああいう遭難に遇って亡くなりました。<br><br>これは非常にやかましく新聞の記事なども書いている。<br><br>陸軍省で発表された以外の記事は載せないように思われる。<br><br>いま記事が書けないので、差し支えのないことだけ話すが、これだけのことは知っておかなくてはならない。<br><br> いま日本の政治的に動いてるのは、現状維持派と改革派とが、両方動いていることだけを知ってる必要がある。<br><br>で、永田総監は現状維持派の人であります。<br><br>真崎とか秦憲兵司令官、荒木大将、武藤大将などは改革派に属するんであります。<br><br>それだけ知っておけばいいと思います。<br><br> 現状維持派のほうは、まず巨頭としては西園寺公望公で、なんといっても、日本の議会政治制の立役者として大功労のあった人で、西園寺としては、政党政治を歪められてるため、解消されることは非常な苦痛で、両三年以来の日本の政界および社会の空気であります。<br><br>その空気は政党政治を解消しようという空気で、西園寺公はこれで苦しみ、なんとか元の政党政治に戻さなければならぬということの表われが、この間の陸軍の大更迭になったわけです。<br><br>話はそこくらいにして、後は察していただくくらいよりしようがないのであります。<br><br> も一つは日本の国策として、政党政治派と改革派の目的は、当然行き詰まってる。<br><br>かのソビエトロシアの政策から話さなければ判らんが、満州とシベリアの国境へ始終チョッカイを出して、日本を強圧する気がある。<br><br>それを軍部は腹立てて抗議を起すとやめる。<br><br>日本と交戦しようとしてはやめる。<br><br>実に不可解なことです。<br><br>ところが、観音様から知らされたところによると、ロシアは戦う意志はないので、日本を牽制するんで、満州国へ絶えず眼を向けさす牽制策で、ロシアはどこに目標があるかというと、インドで、も一つは満州に目標がある。<br><br>ロシアの政策は、中部支那をだんだん共産化して行って、いま四川省をほとんど共産化しているが、新疆（しんきょう）省もいまなろうとしている。<br><br>露骨にやっている。<br><br>新聞に出てるところでは、中部支那を赤化しインドのほうへ出ようとする政策をやり、満州を包囲しようとする政策と、いまどっちかも定まっていない。<br><br>そのときの形勢によってどっちかそうする。<br><br>すると、満州を包囲されてからあわててはたいへんと、軍部はそれを知ってるから、満州を包囲されるその前に、北支へ手を延べなければならぬと、最近だいぶそれをやっている。<br><br>また、その成績を挙げているようであり、また蒋介石はそれを知ったため、中部支那を共産化されては分裂するから、蒋介石自身が半年ばかりも留守にして、共産軍の食い止め運動をやっている。<br><br>どうしても支那を共産化されたら、亡国のほかはないから食い止めなければならぬ。<br><br>それにはどうしても、日本の力によらなければならぬ。<br><br>そういうわけのために、やむを得ざるために、日支提携しようとする。<br><br>いいチャンスと、それにより日本は手を延ばそう。<br><br> で、日本としてはどうしても、今後大アジア主義をモットーとして進まなければならない。<br><br> 国家にはだいたい目標がなかったら退歩する。<br><br>それで絶えず、政治家はその目標を立てなければならぬ。<br><br> イタリアと今度〔の〕エチオピアとの戦いは、そのためらしい。<br><br>日本もちょうど川の中から大海へ乗り出すというときで、どうしても乗りきって彼岸へ達するか、じっとしていればまた川へ戻ってしまう。<br><br>しかし国是としては進まなければならぬ。<br><br>進むとすると、どうしても満州蒙古のほうへ出なければならぬ。<br><br> これからは日本を開発するには、満州だけでは足りない。<br><br>蒙古方面を開発しなければならぬ。<br><br>蒙古辺りは羊毛、綿布など有利なる品が豊富に出る。<br><br>外蒙はロシアが自由にしているから、日本の目標は外〔内〕蒙へ入る。<br><br> ロシアがしようとしているからしかたない。<br><br>いまするか、準備ができてからするかが問題で、日本が準備するうちに、ロシアの軍備も進む。<br><br>日本はあらゆることをしなくてはならぬが、ロシアは軍備専門にやってるから、日本が五年かかることも、ロシアでは一年でできてしまう。<br><br>日本が遅れるほどロシアは完成して行くから、どうしても早く戦わなければならぬというのが改革派の意見で、それにはなんとしても金で、その金を得るために、大胆な政策を持っているが、しなかった。<br><br>日本の特権階級などはこれを怖れてるから、どこまでも現状維持派の力によって制えなければならぬ。<br><br> そういう二つの動きがあることを知っておれば、今後の動きに対してよくわかる。<br><br>それ以上の話はできないのであります。<br><br> 外国は非常に最近変わってきた。<br><br>新聞によると、ムッソリーニはどうしてもエチオピアを征服するらしい。<br><br>どうしても連盟や英国辺りが食い止めさせようと、いろいろやれどガンとして動かず、ビクともしないから、もうエチオピアとの戦いは免れないというよりしかたはない。<br><br>ところで、イタリアはいままで二回も負けている。<br><br>今度こそ勝たなければ、ファッショの運命にかかわるからムッソリーニは生命にかけても勝たなければならない。<br><br>いままで軍備のためには三十億フランも使っている。<br><br>これはたいへんな金に違いない。<br><br>今度戦ったら東アフリカのツァナ湖を占領するに違いない。<br><br>ツァナ湖は綿花、砂糖などの栽培地方面へやる水の水源地になっている。<br><br>その利益を保護すべく、どうしてもそこを奪らなければならぬ。<br><br>そうさせぬように英国は邪魔しなければならぬ。<br><br>イタリアはそれを奪らなければならぬ。<br><br>熱帯地へ行くと水が米のようなもので、水がなかったら生きていられないくらいで、どうしてもこれを押さえなければならぬ。<br><br> これが英伊の大問題で、今日の新聞によると、英国が経済封鎖をしたそうで、昨日の新聞ではエチオピアへ軍器を売ることを考慮した。<br><br>日本もだいぶ援助したい意向らしい。<br><br> イタリアの意気が割に強いのは、フランスとの密約があるらしいので、殊によると英国イタリアと戦うかもしれない。<br><br>戦わぬとは言いきれない状態となった。<br><br>そうするとフランスは、イタリアへ加担しなければならぬ。<br><br>すると英へはドイツが加担するというが、そういうことはないでしょう。<br><br>まず英仏伊の対立で、英国は米国に助けを藉（か）ろうとしている。<br><br>米国はこれはたいへんと中立法案を出している。<br><br>絶対武器は売らぬ、禁止国へ舟で来ることもできないことにした。<br><br>英国の利益も荒らされ、英国の面目に対しても黙っておれない。<br><br>英国は外交によって避けようとしている。<br><br>どうしても外交戦では駄目とすれば、戈（ほこ）を交えなければならない。<br><br>いまヨーロッパでは、「山雨正に至らんとして風楼に満つ」というような急危機が迫っている。<br><br> これは日本にとって非常に有利なことで、対支政策を始めてるところなんで、なおさら結構であります。<br><br> イタリア、フランス、英国というような国の戦い、それはすべて国際的利害が錯綜しているのであるから、ロシアが加担せんか、ドイツは黙っておれぬから、結局世界戦争にまで進展しようとも限らぬ。<br><br>実に国際的にデリケートなものを学んでいるのであります。<br><br> こういうことにも、われわれとしては大いに関心を持たねばならぬ。<br><br>観音運動は病貧争をなくすんだと言って、暢気に仙人然として超然としていてはいかない。<br><br>日本人として、それは神の意志が奈辺にあるか、日本がだんだん形体的に世界統一して行くと、観音運動は霊的に統一して行って、結局観音様が現われて救わるることになる。<br><br> 世界の悩みは、立派なものを生むための悩みで、偉大なものを建設するための破壊ともなる。<br><br>やはり主神の大経綸の表われというふうに見なければならぬものであります。<br><br> ここは観音会の仮本部になっていますが、本部が最近めっかって、そのほうへだんだん具体的に進みつつありますが、遠からず本部はできることになってると思われる。<br><br>ほとんど理想的な一点の申し分ない地形といい、広さといい、すべて観音様が用意なすってある所と判ります。<br><br>これは具体的に発表することはできませんが、ほのかにお知らせしておきますが、これからだんだん発展する。<br><br>そして一年経てば、人もここへ入れなくなり、いろいろの仕事が出てくるから、時節によってだんだんいろんなことを観音様からやらされますから、本部のできるということも当然な話であります。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Aumento da Graça Divina e a Conjuntura Mundial</h2>
 <p>Recentemente, ouvi com grande interesse diversos relatos sobre a Graça Divina. As religiões do passado manifestaram, de fato, consideráveis milagres e virtudes divinas, e foi graças a eles que lograram expandir-se. Contudo, observamos um padrão recorrente: enquanto seus fundadores e patriarcas estavam em vida, a manifestação de milagres e do poder divino era abundante. Após seu falecimento, essa graça gradualmente se esvaía, até finalmente desaparecer por completo.</p>
@@ -116,5 +268,48 @@ function toggleLang(lang) {
 <p>Nós também devemos ter grande interesse por esses assuntos. O movimento de Kannon, que visa eliminar a doença, a pobreza e o conflito, não pode se dar ao luxo de permanecer alheio, como eremitas em uma montanha. Como japoneses, devemos discernir qual é a Vontade Divina. À medida que o Japão avança na unificação material do mundo, o movimento de Kannon promoverá a unificação espiritual. No final, Kannon-Sama se manifestará e a salvação será concretizada.</p>
 <p>As tribulações do mundo são as dores do parto para o nascimento de algo grandioso; são a destruição necessária para a construção de algo sublime. Devemos enxergar tudo isso como uma manifestação do grandioso Plano Divino do Deus Supremo.</p>
 <p>Este local serve como sede provisória da Kannonkai. Recentemente, encontramos o local para a sede definitiva, e os planos para sua construção estão avançando. Acredito que, em breve, ela será uma realidade. É um lugar ideal, impecável em sua topografia e extensão — um local que, sem dúvida, foi preparado por Kannon-Sama. Embora ainda não possa fazer um anúncio oficial, deixo esta breve notícia. A partir de agora, nosso crescimento se acelerará. Dentro de um ano, este espaço já não comportará a todos, e muitas novas frentes de trabalho surgirão. Conforme a hora chegar, Kannon-Sama nos confiará diferentes missões. A construção da sede definitiva é, portanto, um desdobramento natural.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 昭和10(1935)年8月21日 いろいろ御神徳談がありまして、たいへんおもしろく聞いたんですが、いままでの宗教はそうとう奇蹟や御神徳はあった。<br/><br/>あったからしてそうとうの発展をしたんであります。<br/><br/>ところが、その教祖とか開祖とかいうものが、在世中はそうとうの奇蹟や神徳があったんであります。<br/><br/>その後また教祖が亡くなったりなどすると、だんだん御神徳が薄くなってくる。<br/><br/>そうして終になくなるというような形をとってきた。<br/><br/> どの宗教を見ても開教当時が一番御神徳があった。<br/><br/>ところが観音会は反対なんであります。<br/><br/> いままでの宗教は月の救いで、その形体をとって進みますが、だんだん進むに従って反対の形をとる。<br/><br/>在来いう、西から東へ向かっていった。<br/><br/> 今度は東から西のほうへ照らしてゆくんで反対になる。<br/><br/>従ってこれが観音力、観音会の御神徳が、反対に大きくなるわけで、まだまだ時期が進めば大きくなるので、これだけの御神徳で驚いていては、先でまごつくことになる。<br/><br/>いまに病気など即座に治ることになるから、そのつもりでないと、あわてるようなことが起るといけません。<br/><br/> ところで、こういうことをよく言います。<br/><br/>これは仏教に多いんでありますが、現当利益は低級宗教だという。<br/><br/>真理化運動の友松円許などさかんにそういうことを言う。<br/><br/>要するに低級信仰……ちょっと聞くとなるほどと思えますが、一歩入って考えてみると、かえって反対であります。<br/><br/> なんとなれば、指導階級すなわち社会の上層に立っている人達こそ、非常にいろいろな現当利益が欲しい人ばかりです。<br/><br/>なんとなれば、地位や名誉や金などおそろしく現当利益が欲しいから上流に立っている。<br/><br/>そして、現当利益に重きをおかぬ人は下流に立っている。<br/><br/> で、観音様の信仰は、徹頭徹尾現当利益を主としている。<br/><br/> どんな偉い人でも、死んでからの御利益がありがたい。<br/><br/>現世では不幸だと言って、それをありがたがっている人はない。<br/><br/>もし、現当利益の欲しくない人に金をやったとすれば、涙流して喜ぶでしょう。<br/><br/> 未来のありがたいことを説く宗教も、金がなかったらその宣伝もできない。<br/><br/>既成宗教の仏教などは現当利益は低級と言うが、私が考えるには、それは現当利益がやれぬ。<br/><br/>与えたくとも与えられないから、やむを得ずそう言うのです。<br/><br/>あの人達は病気とか貧乏とか言われるような、そういうものに超越して安心する。<br/><br/>それが宗教の価値だと説いている。<br/><br/>どんなに宗教に徹底しても、病気に悩み苦しむのを超越する人は、一人か二人くらいしかないでしょう。<br/><br/>私自身でも病気に超越できない。<br/><br/>金はたんまり入ったほうがいい。<br/><br/>そのほうが仕事ができ、人を救うことができるが、金がなかったら今日資本主義の社会に立って行けぬ。<br/><br/>魔法使いでもできない。<br/><br/>今日の法律に触れ、規則に違反してもやれる人はないが、法律に触れぬ範囲において入用な金がなくてはできない。<br/><br/>いくら聖者でも法律は曲げられず、金なくして仕事できぬ。<br/><br/> それゆえ現当利益こそ、人を救う唯一の道であり、現当利益を与えられぬ神仏なら、なんで未来が救えるもんでない。<br/><br/>未来が救えれば現在も救えるわけになる。<br/><br/>また現在が救えれば未来も救える。<br/><br/> ですから、そういうようなことを言ってる人こそ、実に低級きわまると思う。<br/><br/>私はいまに低級宗教だという人にみな金を上げるが、それを断ったらそれは偉い人であります。<br/><br/>私は松岡洋右氏は偉いと思ったが、今度満鉄の総裁になったんでオヤオヤと思った。<br/><br/>天下の形勢をみて満鉄総裁を唯々諾々と頂戴した。<br/><br/>あの人は特別偉い人ですが、その人でさえああいう地位、名誉には属する。<br/><br/>いくら低級だといばっても、丸いもの見せれば問題ないわけであります。<br/><br/> しばらく時事問題をしませんが、だいぶ内外とも変わってきました。<br/><br/>観音運動は全世界を救わなければならぬのですから、あらゆる知識と、今後の動きを知っとく必要があると思います。<br/><br/> まず日本におけることで、ご存じの通り、つい最近永田総監が、ああいう遭難に遇って亡くなりました。<br/><br/>これは非常にやかましく新聞の記事なども書いている。<br/><br/>陸軍省で発表された以外の記事は載せないように思われる。<br/><br/>いま記事が書けないので、差し支えのないことだけ話すが、これだけのことは知っておかなくてはならない。<br/><br/> いま日本の政治的に動いてるのは、現状維持派と改革派とが、両方動いていることだけを知ってる必要がある。<br/><br/>で、永田総監は現状維持派の人であります。<br/><br/>真崎とか秦憲兵司令官、荒木大将、武藤大将などは改革派に属するんであります。<br/><br/>それだけ知っておけばいいと思います。<br/><br/> 現状維持派のほうは、まず巨頭としては西園寺公望公で、なんといっても、日本の議会政治制の立役者として大功労のあった人で、西園寺としては、政党政治を歪められてるため、解消されることは非常な苦痛で、両三年以来の日本の政界および社会の空気であります。<br/><br/>その空気は政党政治を解消しようという空気で、西園寺公はこれで苦しみ、なんとか元の政党政治に戻さなければならぬということの表われが、この間の陸軍の大更迭になったわけです。<br/><br/>話はそこくらいにして、後は察していただくくらいよりしようがないのであります。<br/><br/> も一つは日本の国策として、政党政治派と改革派の目的は、当然行き詰まってる。<br/><br/>かのソビエトロシアの政策から話さなければ判らんが、満州とシベリアの国境へ始終チョッカイを出して、日本を強圧する気がある。<br/><br/>それを軍部は腹立てて抗議を起すとやめる。<br/><br/>日本と交戦しようとしてはやめる。<br/><br/>実に不可解なことです。<br/><br/>ところが、観音様から知らされたところによると、ロシアは戦う意志はないので、日本を牽制するんで、満州国へ絶えず眼を向けさす牽制策で、ロシアはどこに目標があるかというと、インドで、も一つは満州に目標がある。<br/><br/>ロシアの政策は、中部支那をだんだん共産化して行って、いま四川省をほとんど共産化しているが、新疆（しんきょう）省もいまなろうとしている。<br/><br/>露骨にやっている。<br/><br/>新聞に出てるところでは、中部支那を赤化しインドのほうへ出ようとする政策をやり、満州を包囲しようとする政策と、いまどっちかも定まっていない。<br/><br/>そのときの形勢によってどっちかそうする。<br/><br/>すると、満州を包囲されてからあわててはたいへんと、軍部はそれを知ってるから、満州を包囲されるその前に、北支へ手を延べなければならぬと、最近だいぶそれをやっている。<br/><br/>また、その成績を挙げているようであり、また蒋介石はそれを知ったため、中部支那を共産化されては分裂するから、蒋介石自身が半年ばかりも留守にして、共産軍の食い止め運動をやっている。<br/><br/>どうしても支那を共産化されたら、亡国のほかはないから食い止めなければならぬ。<br/><br/>それにはどうしても、日本の力によらなければならぬ。<br/><br/>そういうわけのために、やむを得ざるために、日支提携しようとする。<br/><br/>いいチャンスと、それにより日本は手を延ばそう。<br/><br/> で、日本としてはどうしても、今後大アジア主義をモットーとして進まなければならない。<br/><br/> 国家にはだいたい目標がなかったら退歩する。<br/><br/>それで絶えず、政治家はその目標を立てなければならぬ。<br/><br/> イタリアと今度〔の〕エチオピアとの戦いは、そのためらしい。<br/><br/>日本もちょうど川の中から大海へ乗り出すというときで、どうしても乗りきって彼岸へ達するか、じっとしていればまた川へ戻ってしまう。<br/><br/>しかし国是としては進まなければならぬ。<br/><br/>進むとすると、どうしても満州蒙古のほうへ出なければならぬ。<br/><br/> これからは日本を開発するには、満州だけでは足りない。<br/><br/>蒙古方面を開発しなければならぬ。<br/><br/>蒙古辺りは羊毛、綿布など有利なる品が豊富に出る。<br/><br/>外蒙はロシアが自由にしているから、日本の目標は外〔内〕蒙へ入る。<br/><br/> ロシアがしようとしているからしかたない。<br/><br/>いまするか、準備ができてからするかが問題で、日本が準備するうちに、ロシアの軍備も進む。<br/><br/>日本はあらゆることをしなくてはならぬが、ロシアは軍備専門にやってるから、日本が五年かかることも、ロシアでは一年でできてしまう。<br/><br/>日本が遅れるほどロシアは完成して行くから、どうしても早く戦わなければならぬというのが改革派の意見で、それにはなんとしても金で、その金を得るために、大胆な政策を持っているが、しなかった。<br/><br/>日本の特権階級などはこれを怖れてるから、どこまでも現状維持派の力によって制えなければならぬ。<br/><br/> そういう二つの動きがあることを知っておれば、今後の動きに対してよくわかる。<br/><br/>それ以上の話はできないのであります。<br/><br/> 外国は非常に最近変わってきた。<br/><br/>新聞によると、ムッソリーニはどうしてもエチオピアを征服するらしい。<br/><br/>どうしても連盟や英国辺りが食い止めさせようと、いろいろやれどガンとして動かず、ビクともしないから、もうエチオピアとの戦いは免れないというよりしかたはない。<br/><br/>ところで、イタリアはいままで二回も負けている。<br/><br/>今度こそ勝たなければ、ファッショの運命にかかわるからムッソリーニは生命にかけても勝たなければならない。<br/><br/>いままで軍備のためには三十億フランも使っている。<br/><br/>これはたいへんな金に違いない。<br/><br/>今度戦ったら東アフリカのツァナ湖を占領するに違いない。<br/><br/>ツァナ湖は綿花、砂糖などの栽培地方面へやる水の水源地になっている。<br/><br/>その利益を保護すべく、どうしてもそこを奪らなければならぬ。<br/><br/>そうさせぬように英国は邪魔しなければならぬ。<br/><br/>イタリアはそれを奪らなければならぬ。<br/><br/>熱帯地へ行くと水が米のようなもので、水がなかったら生きていられないくらいで、どうしてもこれを押さえなければならぬ。<br/><br/> これが英伊の大問題で、今日の新聞によると、英国が経済封鎖をしたそうで、昨日の新聞ではエチオピアへ軍器を売ることを考慮した。<br/><br/>日本もだいぶ援助したい意向らしい。<br/><br/> イタリアの意気が割に強いのは、フランスとの密約があるらしいので、殊によると英国イタリアと戦うかもしれない。<br/><br/>戦わぬとは言いきれない状態となった。<br/><br/>そうするとフランスは、イタリアへ加担しなければならぬ。<br/><br/>すると英へはドイツが加担するというが、そういうことはないでしょう。<br/><br/>まず英仏伊の対立で、英国は米国に助けを藉（か）ろうとしている。<br/><br/>米国はこれはたいへんと中立法案を出している。<br/><br/>絶対武器は売らぬ、禁止国へ舟で来ることもできないことにした。<br/><br/>英国の利益も荒らされ、英国の面目に対しても黙っておれない。<br/><br/>英国は外交によって避けようとしている。<br/><br/>どうしても外交戦では駄目とすれば、戈（ほこ）を交えなければならない。<br/><br/>いまヨーロッパでは、「山雨正に至らんとして風楼に満つ」というような急危機が迫っている。<br/><br/> これは日本にとって非常に有利なことで、対支政策を始めてるところなんで、なおさら結構であります。<br/><br/> イタリア、フランス、英国というような国の戦い、それはすべて国際的利害が錯綜しているのであるから、ロシアが加担せんか、ドイツは黙っておれぬから、結局世界戦争にまで進展しようとも限らぬ。<br/><br/>実に国際的にデリケートなものを学んでいるのであります。<br/><br/> こういうことにも、われわれとしては大いに関心を持たねばならぬ。<br/><br/>観音運動は病貧争をなくすんだと言って、暢気に仙人然として超然としていてはいかない。<br/><br/>日本人として、それは神の意志が奈辺にあるか、日本がだんだん形体的に世界統一して行くと、観音運動は霊的に統一して行って、結局観音様が現われて救わるることになる。<br/><br/> 世界の悩みは、立派なものを生むための悩みで、偉大なものを建設するための破壊ともなる。<br/><br/>やはり主神の大経綸の表われというふうに見なければならぬものであります。<br/><br/> ここは観音会の仮本部になっていますが、本部が最近めっかって、そのほうへだんだん具体的に進みつつありますが、遠からず本部はできることになってると思われる。<br/><br/>ほとんど理想的な一点の申し分ない地形といい、広さといい、すべて観音様が用意なすってある所と判ります。<br/><br/>これは具体的に発表することはできませんが、ほのかにお知らせしておきますが、これからだんだん発展する。<br/><br/>そして一年経てば、人もここへ入れなくなり、いろいろの仕事が出てくるから、時節によってだんだんいろんなことを観音様からやらされますから、本部のできるということも当然な話であります。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

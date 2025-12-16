@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sonen078</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 想念言霊篇 ５ 078-088 文字 078 御文字の働き（恵水、春光） 最近光明如来の御書体のある床の間に、煙のような文字で「ポカポカ」と出るのを数人が見えると申します。<br><br>いかなる現象で御座いましょう。<br><br> これは御字が活動する。<br><br> 神秘なもので、簡単に説明出来ない。<br><br>いずれ「神秘の扉」というのが出るから、それに書く。<br><br> これは字が働くのである。<br><br>先に坂井の家で、水がいくら掘っても出ないので、「恵水」と書いた字をやった。<br><br>すると間もなく近くへ水道が来て、困らぬようになった。<br><br>また「春光」という字を掛けておくと冬でも暖かいので、ストーブの代用になるとよく言ったものである。<br><br>字からそれだけの力が出るのである。<br><br>（S24. 7.27） 079 字の働き（簡単な字） 字も霊的に意味があると伺っておりますが、近頃漢字制限をやっておりますがいかがなもので御座いましょうか。<br><br> 字は制限してよい。<br><br>ややこしい字は働きがない。<br><br>簡単な字ほどよい。<br><br>霊的に意味のあるのは言霊である。<br><br>次は画数、奇数偶数は陰陽になっている。<br><br>（S *. 2. 4） rattail（注） 〔 御光話（S23年11月 8日） 『御光話録』1号、昭和23(1948)年12月8日発行〕に掲載 080 言語・文字の起源、言霊の発祥、平仮名と片仮名 言語、文字の起源について御垂示願います。<br><br> 言霊は初めからある。<br><br>人間が神様から造られたと同時にある。<br><br>それに意味をつけたり作ったり、人間が工夫した。<br><br>これも神様がやられた。<br><br>文字はその後に生れた。<br><br>最初は象形文字である。<br><br>絵のように表わした。<br><br> 片仮名が一番古い。<br><br>神代文字はローマ字と似ている。<br><br>日本の文字は古くない。<br><br>ヨーロッパが古い。<br><br>文化もそうで、ピラミッドなど五千年前である。<br><br>日本のは新しい。<br><br>一番古い時代は、竹の皮とか石や大きい木の葉へ泥で書いたり、小刀で傷つけたりして書いた。<br><br>そういう化石が出る。<br><br>文化は、日本は割合い新しい。<br><br>木の直径が三尺位のが石になっており、年輪も見えている。<br><br> 葉の化石とか動物の骨の化石などもよくある。<br><br>菊の葉の化石もある。<br><br>これらは五、六千年も経っている。<br><br> 平仮名は新しい。<br><br>漢字は支那で出来た。<br><br> 私は七千年前まで、神憑りで知った。<br><br>それからは出ない。<br><br>六千年前から大変動があった。<br><br>それからまた新たに文化が造られた。<br><br> 081 神代文字とローマ字 日本の神代文字について御説明下さい。<br><br> 神代文字は日本独特のものではない。<br><br>ヨーロッパから来たものと思う。<br><br>ローマ字に似ている。<br><br>日本歴史以前、インドもヨーロッパも日本へ来た。<br><br>神代文字はそれであろう。<br><br>（S23. 1.13） rattail（注） 〔 御光話（S24年 7月13日） 『御光話録』13号、昭和24(1949)年10月21日発行〕に掲載 082 神代文字の研究 古代文化研究のため神代文字を学びたいと思いますが、果して神代文字は古代に存在したものでしょうか。<br><br>また、存在していたとすれば価値あるものでしょうか。<br><br> 存在していた。<br><br>どの位古いものかはっきり分らぬ。<br><br>少くとも神武以前である。<br><br>酒井勝軍という研究家がある。<br><br>暇があったら研究してよいが信者には暇がない。<br><br>研究しても大した価値はない。<br><br>（S25. 5.16） 083 平仮名と片仮名 平仮名と片仮名とでは霊的に何か御座いましょうか。<br><br>あればその意義をお教え下さい。<br><br> 平仮名、アイウエオ―は霊、いろは―は体である。<br><br>すべて霊体になる。<br><br>画と書では、書が霊になる。<br><br>（S23） 084 「アイウエオ」と「いろは」 「アイウエオ」の五十音と「いろは」の四十八文字とでは、霊的にいかなる相違が御座いますか。<br><br> アイウエオの方が古い。<br><br>先に出来た。<br><br>いろは―はズーッと後である。<br><br> いろは―はアイウエオを、漢字を略して書きいいように作った。<br><br>弘法大師が作ったという。<br><br> 英語でもそうで、両方ある。<br><br>（S23） 085 いろは―について 五十音の発音の配列について「ア行」「カ行」等の行とアカサタナ、イキシチニ等の列との組合せの意味及びイロハ順の配列の意味について御説明を御願い致します。<br><br> いろは―は大した意味はない。<br><br>言いよいように並べたもの。<br><br>意味にのるよう、歌にして覚えやすくした。<br><br>言霊はスラスラ淀まぬのがよい。<br><br> 黒岩涙香が懸賞募集した事があった。<br><br>「とめなきさとは明放れみよひむかしの……」等があった。<br><br> 弘法が作ったという。<br><br> 086 いろは歌の作者とローマ字 いろは歌の作者について御教示御願い申し上げます。<br><br> 片仮名は古い。<br><br>片仮名と漢字の両方からとっていろはを作った。<br><br> 片仮名は神武天皇前後で、神代文字はローマ字と同じようで、そう古いものではない。<br><br>ローマ字の古いものだと思う。<br><br> 天孫民族はすでに猶太教であった。<br><br>それまで備わっていなかった文字がローマ字に完成した。<br><br> それでローマ字といったものと思う。<br><br> 087 昭和の意義 昭和の御代は次々と大問題が起きていますが、この「昭和」の字の意味もしくは何か因縁がありましたならばお教え下さいませ。<br><br> 大いにある。<br><br>非常に神秘で、ここでは言えない。<br><br>日の召により○（わ）す。<br><br> 昭和の年号は意味があって、その意味の通り世の中がなるのである。<br><br>信仰が進んで来ると分る。<br><br> rattail（注） 〔 御講話（S28年1月1日） 『御教え集』18号、昭和28(1953)年2月15日発行〕 『昭和というこの年号の文字につながる二十ということに、大いに意味があるのです。<br><br>昭和の 「昭」という文字は日偏に召すという字ですが、「召す」というのは神道の方でいう「しろしめす」ということです。<br><br>「統一」とか「治める」という意味です。<br><br> よく「天照大御神がこの土をしろしめし給う」ということがあります。<br><br>それから「和」というのは、大和という意味ですが、「和」というのはやはり「世界」と いう大きなことの形です。<br><br>ですから「日がしろしめす世界」ということです。<br><br>そうするとその日というのは太陽です。<br><br>日という字は、〇にヽですが、この象形文 字です。<br><br>ですから日がしろしめす順序、段階として霊体が結ばれるというのが昭和二十年です。<br><br>』 088 旭の意義 旭という字と朝日という字の意味の違いを御伺い申し上げます。<br><br> 朝日は、朝の日の字のままの意である。<br><br> 旭は九に日、特に輝く感じ。<br><br>上ったばかりで輝く状態である。<br><br> 旭は今の世界、日は一で、十になるから、九の世界へ日が昇るという訳である。<br><br>であるから今の状態である。<br><br> rattauil（注） 〔 御垂示（S26年7月1日） 『御垂示録』6号、昭和27(1952)年1月25日発行〕 旭という字は九の字になってますが、なにか意味がございますでしょうか 『旭のほうが早いわけだな――日が出るのがね。<br><br>それと日の強さだな。<br><br>あれはね旭日（きょくじつ）というので、最初出たての意味で――霊というわけですね。<br><br>普通の「朝」の日は体だから、説明みたいなもので、旭というのが力があるわけです。<br><br>』
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Pensamento, a Força da Palavra e a Palavra Escrita</h2>
 <p><strong>078. A força da palavra caligrafada (Keisui, Shunkō)</strong></p>
@@ -139,5 +291,48 @@ function toggleLang(lang) {
 <p>Nota: Do Ensinamento de 1º de julho de 1951, publicado na Coletânea de Ensinamentos (Gosuiiroku) nº 6, edição de 25 de janeiro de 1952.
 Pergunta: “O ideograma para ‘Asahi’ (旭) contém o numeral nove. Haveria algum significado nisso?”
 Resposta: “O ‘Asahi’ (旭) representa um momento anterior, o do nascer do sol, e também sua força. Sendo ‘Kyokujitsu’ (Sol Nascente), refere-se ao momento inicial, ou seja, à dimensão espiritual. O ‘Asahi’ (朝日) comum corresponde à dimensão material, sendo mais descritivo. Portanto, é o ‘Asahi’ (旭) que possui maior força.”</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 想念言霊篇 ５ 078-088 文字 078 御文字の働き（恵水、春光） 最近光明如来の御書体のある床の間に、煙のような文字で「ポカポカ」と出るのを数人が見えると申します。<br/><br/>いかなる現象で御座いましょう。<br/><br/> これは御字が活動する。<br/><br/> 神秘なもので、簡単に説明出来ない。<br/><br/>いずれ「神秘の扉」というのが出るから、それに書く。<br/><br/> これは字が働くのである。<br/><br/>先に坂井の家で、水がいくら掘っても出ないので、「恵水」と書いた字をやった。<br/><br/>すると間もなく近くへ水道が来て、困らぬようになった。<br/><br/>また「春光」という字を掛けておくと冬でも暖かいので、ストーブの代用になるとよく言ったものである。<br/><br/>字からそれだけの力が出るのである。<br/><br/>（S24. 7.27） 079 字の働き（簡単な字） 字も霊的に意味があると伺っておりますが、近頃漢字制限をやっておりますがいかがなもので御座いましょうか。<br/><br/> 字は制限してよい。<br/><br/>ややこしい字は働きがない。<br/><br/>簡単な字ほどよい。<br/><br/>霊的に意味のあるのは言霊である。<br/><br/>次は画数、奇数偶数は陰陽になっている。<br/><br/>（S *. 2. 4） rattail（注） 〔 御光話（S23年11月 8日） 『御光話録』1号、昭和23(1948)年12月8日発行〕に掲載 080 言語・文字の起源、言霊の発祥、平仮名と片仮名 言語、文字の起源について御垂示願います。<br/><br/> 言霊は初めからある。<br/><br/>人間が神様から造られたと同時にある。<br/><br/>それに意味をつけたり作ったり、人間が工夫した。<br/><br/>これも神様がやられた。<br/><br/>文字はその後に生れた。<br/><br/>最初は象形文字である。<br/><br/>絵のように表わした。<br/><br/> 片仮名が一番古い。<br/><br/>神代文字はローマ字と似ている。<br/><br/>日本の文字は古くない。<br/><br/>ヨーロッパが古い。<br/><br/>文化もそうで、ピラミッドなど五千年前である。<br/><br/>日本のは新しい。<br/><br/>一番古い時代は、竹の皮とか石や大きい木の葉へ泥で書いたり、小刀で傷つけたりして書いた。<br/><br/>そういう化石が出る。<br/><br/>文化は、日本は割合い新しい。<br/><br/>木の直径が三尺位のが石になっており、年輪も見えている。<br/><br/> 葉の化石とか動物の骨の化石などもよくある。<br/><br/>菊の葉の化石もある。<br/><br/>これらは五、六千年も経っている。<br/><br/> 平仮名は新しい。<br/><br/>漢字は支那で出来た。<br/><br/> 私は七千年前まで、神憑りで知った。<br/><br/>それからは出ない。<br/><br/>六千年前から大変動があった。<br/><br/>それからまた新たに文化が造られた。<br/><br/> 081 神代文字とローマ字 日本の神代文字について御説明下さい。<br/><br/> 神代文字は日本独特のものではない。<br/><br/>ヨーロッパから来たものと思う。<br/><br/>ローマ字に似ている。<br/><br/>日本歴史以前、インドもヨーロッパも日本へ来た。<br/><br/>神代文字はそれであろう。<br/><br/>（S23. 1.13） rattail（注） 〔 御光話（S24年 7月13日） 『御光話録』13号、昭和24(1949)年10月21日発行〕に掲載 082 神代文字の研究 古代文化研究のため神代文字を学びたいと思いますが、果して神代文字は古代に存在したものでしょうか。<br/><br/>また、存在していたとすれば価値あるものでしょうか。<br/><br/> 存在していた。<br/><br/>どの位古いものかはっきり分らぬ。<br/><br/>少くとも神武以前である。<br/><br/>酒井勝軍という研究家がある。<br/><br/>暇があったら研究してよいが信者には暇がない。<br/><br/>研究しても大した価値はない。<br/><br/>（S25. 5.16） 083 平仮名と片仮名 平仮名と片仮名とでは霊的に何か御座いましょうか。<br/><br/>あればその意義をお教え下さい。<br/><br/> 平仮名、アイウエオ―は霊、いろは―は体である。<br/><br/>すべて霊体になる。<br/><br/>画と書では、書が霊になる。<br/><br/>（S23） 084 「アイウエオ」と「いろは」 「アイウエオ」の五十音と「いろは」の四十八文字とでは、霊的にいかなる相違が御座いますか。<br/><br/> アイウエオの方が古い。<br/><br/>先に出来た。<br/><br/>いろは―はズーッと後である。<br/><br/> いろは―はアイウエオを、漢字を略して書きいいように作った。<br/><br/>弘法大師が作ったという。<br/><br/> 英語でもそうで、両方ある。<br/><br/>（S23） 085 いろは―について 五十音の発音の配列について「ア行」「カ行」等の行とアカサタナ、イキシチニ等の列との組合せの意味及びイロハ順の配列の意味について御説明を御願い致します。<br/><br/> いろは―は大した意味はない。<br/><br/>言いよいように並べたもの。<br/><br/>意味にのるよう、歌にして覚えやすくした。<br/><br/>言霊はスラスラ淀まぬのがよい。<br/><br/> 黒岩涙香が懸賞募集した事があった。<br/><br/>「とめなきさとは明放れみよひむかしの……」等があった。<br/><br/> 弘法が作ったという。<br/><br/> 086 いろは歌の作者とローマ字 いろは歌の作者について御教示御願い申し上げます。<br/><br/> 片仮名は古い。<br/><br/>片仮名と漢字の両方からとっていろはを作った。<br/><br/> 片仮名は神武天皇前後で、神代文字はローマ字と同じようで、そう古いものではない。<br/><br/>ローマ字の古いものだと思う。<br/><br/> 天孫民族はすでに猶太教であった。<br/><br/>それまで備わっていなかった文字がローマ字に完成した。<br/><br/> それでローマ字といったものと思う。<br/><br/> 087 昭和の意義 昭和の御代は次々と大問題が起きていますが、この「昭和」の字の意味もしくは何か因縁がありましたならばお教え下さいませ。<br/><br/> 大いにある。<br/><br/>非常に神秘で、ここでは言えない。<br/><br/>日の召により○（わ）す。<br/><br/> 昭和の年号は意味があって、その意味の通り世の中がなるのである。<br/><br/>信仰が進んで来ると分る。<br/><br/> rattail（注） 〔 御講話（S28年1月1日） 『御教え集』18号、昭和28(1953)年2月15日発行〕 『昭和というこの年号の文字につながる二十ということに、大いに意味があるのです。<br/><br/>昭和の 「昭」という文字は日偏に召すという字ですが、「召す」というのは神道の方でいう「しろしめす」ということです。<br/><br/>「統一」とか「治める」という意味です。<br/><br/> よく「天照大御神がこの土をしろしめし給う」ということがあります。<br/><br/>それから「和」というのは、大和という意味ですが、「和」というのはやはり「世界」と いう大きなことの形です。<br/><br/>ですから「日がしろしめす世界」ということです。<br/><br/>そうするとその日というのは太陽です。<br/><br/>日という字は、〇にヽですが、この象形文 字です。<br/><br/>ですから日がしろしめす順序、段階として霊体が結ばれるというのが昭和二十年です。<br/><br/>』 088 旭の意義 旭という字と朝日という字の意味の違いを御伺い申し上げます。<br/><br/> 朝日は、朝の日の字のままの意である。<br/><br/> 旭は九に日、特に輝く感じ。<br/><br/>上ったばかりで輝く状態である。<br/><br/> 旭は今の世界、日は一で、十になるから、九の世界へ日が昇るという訳である。<br/><br/>であるから今の状態である。<br/><br/> rattauil（注） 〔 御垂示（S26年7月1日） 『御垂示録』6号、昭和27(1952)年1月25日発行〕 旭という字は九の字になってますが、なにか意味がございますでしょうか 『旭のほうが早いわけだな――日が出るのがね。<br/><br/>それと日の強さだな。<br/><br/>あれはね旭日（きょくじつ）というので、最初出たての意味で――霊というわけですね。<br/><br/>普通の「朝」の日は体だから、説明みたいなもので、旭というのが力があるわけです。<br/><br/>』</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

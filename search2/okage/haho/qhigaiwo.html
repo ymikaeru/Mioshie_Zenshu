@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qhigaiwo</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 肥害を語る 自観叢書第2篇『無肥料栽培法』昭和24(1949)年7月1日発行 三重県 日本五六七教三光会 教導師 後藤周平（34） 極端な無神論者だった私がこの観音力によって種々の病気の癒されてゆく事実を幾多体験し、それに力を得て無肥料耕作を試みました。<br><br>その事実を御報告申し上げます。<br><br> まず稲は昨年が最初で播種の折には既に苗代には下肥が施してありました。<br><br> それは十坪の苗代に十荷（一荷十五貫入）程の下肥で非常に懸念いたしましたが、しかしいかんとする事も出来ず、除草を例年より二回多く行ったのみで全く予想外の増収を得ました。<br><br>当地方の田地は中位（普通田）で反当り六俵も穫れれば余程の好成績なのでありますが見事七俵三斗強の収穫を得ました。<br><br> さきに申し上げたように苗には既に下肥を含んでいた上に人手不足で何等特別の骨折りもなく一塊の堆肥も与えてなかったのですが実施一回にして右のような御利益を頂きました。<br><br> ここで申添えたい事はこの中の二反が前年は干魃で一粒も穫れなかったのですが、昨年は他の田に比して断然収量の多かった事実であります。<br><br>これを見てもいかに施肥が有害であるかを如実に見せつけられました。<br><br> この好適例として同じく昨年の茄子の変化を申し上げます。<br><br>彼岸過ぎに播いた茄子の苗が至極順調に成育し、七月上旬には南瓜大のものが作付面積四坪のところから四貫余りも穫れ、普通二貫程度の穫れ高に比較して非常な成績だったのですが、半信半疑だった老父がいつのまにか下肥を施してしまいました。<br><br> 僅かばかりでしたがそれまで水々しかった茄子の茎は次々に立枯れし、漸く結実してもそれは普通程度又はそれ以下になってしまいました。<br><br>二度迄の尊い体験に今年は寸分疑う事なく麦作を無肥料栽培しております。<br><br> 堆肥がないので生藁を反当り百貫余と土肥（土と塵を混合したもの）を一反に付き約三百二十貫入れました。<br><br>試みに播種後四月目（一番中耕）に根の成長を他家の有肥のものと比較いたしましたが無肥料のもの一尺、有肥のもの四寸というかけはなれた事実をみました。<br><br> かねて教えられた通り茎の長さはその反対に無肥料二尺五寸、有肥料三尺という状態でありますが穂の一粒が絶対増収を物語っております。<br><br> 以上私の体験は甚だ浅く何らの御参考にもなりませんが有肥の余りにも恐ろしい事実と無肥料麦の経過を御報告申し上げました。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Relato sobre os Danos dos Fertilizantes</h2>
 <p><strong>Coletânea de Artigos de Jikan Okada – Volume 2: “O Método de Cultivo sem Fertilizantes” – Publicado em 1º de julho de 1949</strong></p>
@@ -98,5 +253,48 @@ function toggleLang(lang) {
 <p>Como um exemplo eloquente desse princípio, gostaria de relatar a transformação ocorrida com meu cultivo de berinjelas no mesmo período. As mudas, plantadas após o equinócio, desenvolveram-se de forma primorosa. No início de julho, a colheita em uma área de apenas quatro <em>tsubo</em> já superava quatro <em>kan</em>, com frutos do tamanho de abóboras – um resultado extraordinário se comparado à produção habitual de cerca de dois <em>kan</em>. Contudo, meu pai, ainda cético, aplicou sorrateiramente um pouco de adubo de dejetos humanos. Embora a quantidade fosse ínfima, os caules das berinjelas, até então viçosos e repletos de seiva, começaram a murchar e a morrer sequencialmente. Os poucos frutos que ainda vingaram eram de qualidade mediana ou até mesmo inferior à habitual.</p>
 <p>Fortalecido por essas duas preciosas experiências, neste ano dedico-me ao cultivo de trigo pelo método natural, sem qualquer resquício de dúvida. Na ausência de composto, utilizei palha crua, na proporção de pouco mais de cem <em>kan</em> por <em>tan</em>, e um preparado de terra e pó, com cerca de trezentos e vinte <em>kan</em> por <em>tan</em>. Quatro meses após a semeadura, por ocasião da primeira capina, realizei uma comparação do desenvolvimento radicular com o de um cultivo vizinho que utilizava adubos. Constatei um fato surpreendente: as raízes do cultivo natural atingiam um <em>shaku</em> de comprimento, ao passo que as do cultivo fertilizado mediam apenas quatro <em>sun</em>. Tal como nos foi ensinado, a situação dos caules era inversa, com o cultivo natural medindo dois <em>shaku</em> e cinco <em>sun</em> e o fertilizado, três <em>shaku</em>. No entanto, a robustez de cada grão nas espigas do trigo natural é um prenúncio inequívoco de um aumento absoluto na colheita.</p>
 <p>Sei que minha experiência ainda é incipiente e talvez não sirva como grande referência. Ainda assim, senti o dever de relatar tanto os fatos assustadores sobre o uso de adubos quanto o progresso promissor do meu cultivo de trigo sem fertilizantes.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 肥害を語る 自観叢書第2篇『無肥料栽培法』昭和24(1949)年7月1日発行 三重県 日本五六七教三光会 教導師 後藤周平（34） 極端な無神論者だった私がこの観音力によって種々の病気の癒されてゆく事実を幾多体験し、それに力を得て無肥料耕作を試みました。<br/><br/>その事実を御報告申し上げます。<br/><br/> まず稲は昨年が最初で播種の折には既に苗代には下肥が施してありました。<br/><br/> それは十坪の苗代に十荷（一荷十五貫入）程の下肥で非常に懸念いたしましたが、しかしいかんとする事も出来ず、除草を例年より二回多く行ったのみで全く予想外の増収を得ました。<br/><br/>当地方の田地は中位（普通田）で反当り六俵も穫れれば余程の好成績なのでありますが見事七俵三斗強の収穫を得ました。<br/><br/> さきに申し上げたように苗には既に下肥を含んでいた上に人手不足で何等特別の骨折りもなく一塊の堆肥も与えてなかったのですが実施一回にして右のような御利益を頂きました。<br/><br/> ここで申添えたい事はこの中の二反が前年は干魃で一粒も穫れなかったのですが、昨年は他の田に比して断然収量の多かった事実であります。<br/><br/>これを見てもいかに施肥が有害であるかを如実に見せつけられました。<br/><br/> この好適例として同じく昨年の茄子の変化を申し上げます。<br/><br/>彼岸過ぎに播いた茄子の苗が至極順調に成育し、七月上旬には南瓜大のものが作付面積四坪のところから四貫余りも穫れ、普通二貫程度の穫れ高に比較して非常な成績だったのですが、半信半疑だった老父がいつのまにか下肥を施してしまいました。<br/><br/> 僅かばかりでしたがそれまで水々しかった茄子の茎は次々に立枯れし、漸く結実してもそれは普通程度又はそれ以下になってしまいました。<br/><br/>二度迄の尊い体験に今年は寸分疑う事なく麦作を無肥料栽培しております。<br/><br/> 堆肥がないので生藁を反当り百貫余と土肥（土と塵を混合したもの）を一反に付き約三百二十貫入れました。<br/><br/>試みに播種後四月目（一番中耕）に根の成長を他家の有肥のものと比較いたしましたが無肥料のもの一尺、有肥のもの四寸というかけはなれた事実をみました。<br/><br/> かねて教えられた通り茎の長さはその反対に無肥料二尺五寸、有肥料三尺という状態でありますが穂の一粒が絶対増収を物語っております。<br/><br/> 以上私の体験は甚だ浅く何らの御参考にもなりませんが有肥の余りにも恐ろしい事実と無肥料麦の経過を御報告申し上げました。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

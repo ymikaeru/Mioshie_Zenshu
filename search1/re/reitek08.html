@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>reitek08</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊的病気の種々相 ・病気と霊九 『明日の医術 第三編』昭和18(1943)年10月23日発行 霊的病気について重（おも）なるものは右に説いたが右以外にも種々あるのである。<br><br> 死霊が憑依する場合、私の多くの経験によれば、成人者と健康者は憑き難いのである。<br><br>故に、小児及び衰弱者に限って憑依するのでまことに始末が悪いのである。<br><br>そうして最も恐るべきは、小児が衰弱の結果、いかなる食餌を摂るといえども、咸（ことごと）く嘔吐する症状がある。<br><br>これは死霊が憑依したので、かようになったのは治癒は困難でそのほとんどが斃（たお）れるのである。<br><br>面白い事には、かような症状になった日又は死亡の日は、祖霊の命日に中（あた）る事がよくあるのでその祖霊が憑依した事が推定さるるのである。<br><br> 次に、霊的憑依の病気で珍らしいもの二三を記いてみよう。<br><br>その一は、四十歳位の男子で、一日に一回か、二日に一回位、突如として全身が硬直するのである。<br><br>その時はちょうど石地蔵のごとく、全身のいかなる個所も全然不動であって、眼も口も開っ放しというのである。<br><br>これらも死霊の死の刹那が表われるのである。<br><br>二は、十五六歳の男子、十二三の頃、突如発熱、痙攣を起し、顔面変化が起ったのである。<br><br>その症状は、一見六七十歳の老人の通りの顔で、しかも苦悶の形相物凄く、視るに堪えないのである。<br><br>故に患者は、外出は固より人に顔を合すさえ避けているのである。<br><br>これらも勿論老人の死の刹那、苦悶したその形相である。<br><br>三は十歳位の小児、これは、生来の症状で、両手両足を縛られたごとき形をなし、苦悶に堪えない相貌をしている。<br><br>これは全く手足を縛られたまま惨死したものと想う。<br><br> 右に説いた例は、いずれも死霊の憑依であるが、右の外に生霊の憑依という事もある。<br><br>これらも相当禍（わざわ）いするのであるが、著るしい病気症状はないから説く必要はないと思う。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Diversos Aspectos das Enfermidades de Origem Espiritual</h2>
 <p>As principais enfermidades de origem espiritual já foram por mim elucidadas, contudo, existem inúmeras outras variações além das que foram apresentadas.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>O segundo caso é o de um jovem de quinze ou dezesseis anos que, por volta dos doze anos, foi subitamente acometido por febre e convulsões, as quais resultaram em uma drástica alteração de sua fisionomia. Seu rosto adquiriu a aparência do de um idoso de sessenta ou setenta anos, com uma expressão de agonia tão terrível que se tornava insuportável fitá-lo. Por essa razão, o paciente evitava não apenas sair de casa, mas o simples contato visual com outras pessoas. Trata-se, evidentemente, da cristalização da fisionomia de um ancião em seu estertor, no exato instante de sua agonia.</p>
 <p>O terceiro exemplo é o de uma criança de aproximadamente dez anos, que apresentava uma condição congênita. Seu corpo permanecia constantemente em uma postura que simulava ter os pés e as mãos amarrados, e seu semblante exibia uma expressão de sofrimento intolerável. Acredito que tal quadro seja o reflexo de um espírito que teve uma morte trágica enquanto se encontrava imobilizado dessa maneira.</p>
 <p>Os casos que acabo de relatar são todos exemplos de possessão por espíritos de mortos. Todavia, existe também o fenômeno da possessão por espíritos de pessoas vivas. Embora estes possam causar consideráveis infortúnios, eles não costumam manifestar sintomas de doenças tão evidentes, razão pela qual não vejo necessidade de me aprofundar no assunto neste momento.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊的病気の種々相 ・病気と霊九 『明日の医術 第三編』昭和18(1943)年10月23日発行 霊的病気について重（おも）なるものは右に説いたが右以外にも種々あるのである。<br/><br/> 死霊が憑依する場合、私の多くの経験によれば、成人者と健康者は憑き難いのである。<br/><br/>故に、小児及び衰弱者に限って憑依するのでまことに始末が悪いのである。<br/><br/>そうして最も恐るべきは、小児が衰弱の結果、いかなる食餌を摂るといえども、咸（ことごと）く嘔吐する症状がある。<br/><br/>これは死霊が憑依したので、かようになったのは治癒は困難でそのほとんどが斃（たお）れるのである。<br/><br/>面白い事には、かような症状になった日又は死亡の日は、祖霊の命日に中（あた）る事がよくあるのでその祖霊が憑依した事が推定さるるのである。<br/><br/> 次に、霊的憑依の病気で珍らしいもの二三を記いてみよう。<br/><br/>その一は、四十歳位の男子で、一日に一回か、二日に一回位、突如として全身が硬直するのである。<br/><br/>その時はちょうど石地蔵のごとく、全身のいかなる個所も全然不動であって、眼も口も開っ放しというのである。<br/><br/>これらも死霊の死の刹那が表われるのである。<br/><br/>二は、十五六歳の男子、十二三の頃、突如発熱、痙攣を起し、顔面変化が起ったのである。<br/><br/>その症状は、一見六七十歳の老人の通りの顔で、しかも苦悶の形相物凄く、視るに堪えないのである。<br/><br/>故に患者は、外出は固より人に顔を合すさえ避けているのである。<br/><br/>これらも勿論老人の死の刹那、苦悶したその形相である。<br/><br/>三は十歳位の小児、これは、生来の症状で、両手両足を縛られたごとき形をなし、苦悶に堪えない相貌をしている。<br/><br/>これは全く手足を縛られたまま惨死したものと想う。<br/><br/> 右に説いた例は、いずれも死霊の憑依であるが、右の外に生霊の憑依という事もある。<br/><br/>これらも相当禍（わざわ）いするのであるが、著るしい病気症状はないから説く必要はないと思う。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

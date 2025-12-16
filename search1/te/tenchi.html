@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>tenchi</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 天地創造記 『世界救世教早わかり』昭和25(1950)年11月20日発行 ここで、地球の出来た頃からの事をかいてみるが、そもそも造物主という得体の知れない不思議な親方が、宇宙の中間に頑張っていたらしい。<br><br>そこでどういう積りか知れないが、その親方は日月星辰や、地球なんていう妙な物を拵えたんだ。<br><br>それで最初の内は、地球も出来立てのホヤホヤであったから、泥海のようにブヨブヨしていたんだ。<br><br>それが段々固まるにつれて、土と水と分れ分れになったのが、今日の陸と海なんだ。<br><br>ところで陸の方はまだ軟かいので、親方はこれじゃ駄目だと、恐龍とかマンモスとかいう、恐ろしく大（で）っかい怪物のような生物を造って、そいつらに陸地の上をドタリドタリ駈けさせて、そうして固めさせたというんだから、いかに大仕掛な土木工事であったかは、虫ケラ同然の人間なんかには想像もつくまい。<br><br>それでいい加減固まった頃、お前らはもう用はないと言ってお払い箱にされた。<br><br>これが自然淘汰というものなんだ。<br><br>今でも方々から恐龍の骨や、マンモスの骨が見つかるんだから決して嘘ではない。<br><br>そうしておいて親方はまたいろんなものを作った。<br><br>虫ケラや鳥や恐ろしい猛獣や、気味の悪い大蛇はもとより、木や草、石や金などを拵えて、すっかり仕度が出来上ったんで、最後に人間共を作ったという事なんだ。<br><br> その時分だから、人間も裸で生れて来たには違いないが、何しろ人間は毛が生えてないから、寒くて仕方がない。<br><br>そこで初めは木の葉や草の葉で、着物らしいものを作って間に合していたが、段々利巧になって麻や木綿で着物を拵えたり、家を建てたりするようになったが、猛獣や大蛇が沢山いて、始終人間を喰い殺しに来るので、危なくて仕方がない。<br><br>そこで人間も色々な武器を作って戦ったんだ。<br><br>こんな訳で武器も巧妙になるというように、人間も大分小賢しくなったのはもちろんだ。<br><br>それでやっと恐ろしい獣物共を大方退治してしまったんだ。<br><br>これも自然淘汰という奴だよ、これでヤレ安心と思うと左にあらず、今度は人間の中に欲張り野郎が出来て、大きな土地を欲しがったり、色々な物を取りたがったり、女を手に入れようとしたりして遂々（とうとう）人間同志の闘いが初まったんだから、人間くらい浅間しい代物はあるまい。<br><br>それでどいつもこいつも勝とう勝とうとして、人殺し機械を段々進歩さして、遂々原子爆弾という一ぺんに何百万の人間をやっつけてしまうという飛んでもない代物が出来てしまったんで、世界中の人間共は、度胆を抜かれて、目を白黒しているのが今の有様だ。<br><br> ところが、親方はこれでもうよしと思ったらしい。<br><br>何しろ人間共の命の取り合いは、もうこのくらいで止めないと危ないと仰（おお）せられた。<br><br>なぜなれば、これ以上進歩すると、せっかくこれまでに出来た世界は元の木阿弥（もくあみ）になるからだ。<br><br>もうこのくらい立派になった世界だから、いよいよ儂（わし）が最初から計画しておいたミロクの世を拵えてやろう。<br><br>そこでまた親方は声を秘めてこうも言われた。<br><br>実は今まで戦争が必要だから放っておいたんだよ。<br><br>それは戦争をさせなければ文化の進歩は、早く出来なかったからだよ、ところがもう戦争は必要がなくなったから、絶対廃止にしたんだ。<br><br>これもヤッパリ戦争の自然淘汰なんだと仰言るんだから、何と有難いでは御座らぬか。<br><br> 親方はまたこう仰言る。<br><br>戦争を淘汰したからいよいよこれから地上天国、ミロクの世の建造に取り掛かるんだよ、これは今まで儂（わし）は色々なものを用意していたが、ようやく揃ったんで、今度メシヤの親父に命令したんだよ、だからこれを知った善人共はみんな嬉しがって、手の舞い足の踏みどころがないだろう。<br><br>それをみるのが儂はどんなに楽しいか分らないのだよ、昔キリストや釈迦にも、こういう世の中が来る事をちょっと言わしておいたから、人間共は判っているはずだ。<br><br>判らなかったり、本当にしなかったりした奴は、了見方が悪いからで、今更悔んで泣きついたとておっつかないよ、と仰言るだろう、万事はメシヤの親父に委してあるからよく親父から聞いて、その通りにすれば、倖せな世の中になる事請合だよ、どうだ相判ったか。<br><br>と仰言って雲に乗り、天に向かってお帰りになったんで御座る。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Gênese do Mundo e a Vontade Divina</h2>
 <p>Permitam-me relatar os eventos desde a formação da Terra. Primeiramente, existia, ao que parece, um Supremo Criador, uma figura misteriosa e insondável, que se firmava no centro do Universo. Movido por desígnios que nos escapam, Ele deu forma a criações singulares como o Sol, a Lua, os astros e este orbe que chamamos de Terra. Em seus primórdios, recém-criada, a Terra era uma massa tenra e disforme, semelhante a um mar de lodo. Com o passar do tempo, à medida que se solidificava, essa massa se dividiu em terra e água, originando os continentes e oceanos que conhecemos.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Diante desse cenário, o Supremo Criador parece ter julgado ser o momento de intervir. Ele decretou que o extermínio mútuo entre os homens deveria cessar, pois, caso contrário, o mundo que com tanto esmero edificara estaria fadado a retornar ao nada. Sua Vontade foi expressa nestes termos: “O mundo já alcançou um nível de desenvolvimento notável. Chegou, portanto, a hora de Eu concretizar o plano que delineei desde o princípio: a construção da Era de Miroku”. E, em tom confidencial, acrescentou: “Em verdade, Eu permiti a existência das guerras porque elas eram necessárias. Sem os conflitos, o progresso da civilização não teria ocorrido com a mesma celeridade. Agora, contudo, as guerras perderam sua utilidade, e por isso Eu as aboli de forma absoluta. Saibam que isto também representa a seleção natural aplicada à própria guerra”. Não são estas palavras motivo de imensa gratidão?</p>
 <p>O Grande Mestre prosseguiu, declarando: “Uma vez que a guerra foi extinta por meio da seleção natural, darei início à construção do Paraíso Terrestre, a Era de Miroku. Para este fim, venho preparando diversos elementos, que finalmente se encontram prontos. A ordem para a execução desta obra já foi por Mim transmitida ao Messias. Aqueles de coração puro que tomarem conhecimento deste desígnio transbordarão de alegria, a ponto de não se conterem em danças e celebrações. A visão de sua felicidade Me trará um contentamento indescritível. No passado, Eu permiti que Cristo e Shakyamuni anunciassem brevemente a vinda desta nova era, de modo que a humanidade deveria estar ciente. Aqueles que não compreenderam ou descreram de tal promessa o fizeram por terem uma mente distorcida. Agora, de nada adiantará se arrependerem ou suplicarem em lágrimas, pois o tempo para isso já passou. Eu confiei todos os assuntos ao Messias. Portanto, escutem-no com atenção e sigam seus ensinamentos à risca. Garanto-lhes que, agindo assim, alcançarão um mundo de plena felicidade. Compreenderam?”.</p>
 <p>Tendo proferido estas palavras, Ele ascendeu aos Céus sobre uma nuvem e partiu.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 天地創造記 『世界救世教早わかり』昭和25(1950)年11月20日発行 ここで、地球の出来た頃からの事をかいてみるが、そもそも造物主という得体の知れない不思議な親方が、宇宙の中間に頑張っていたらしい。<br/><br/>そこでどういう積りか知れないが、その親方は日月星辰や、地球なんていう妙な物を拵えたんだ。<br/><br/>それで最初の内は、地球も出来立てのホヤホヤであったから、泥海のようにブヨブヨしていたんだ。<br/><br/>それが段々固まるにつれて、土と水と分れ分れになったのが、今日の陸と海なんだ。<br/><br/>ところで陸の方はまだ軟かいので、親方はこれじゃ駄目だと、恐龍とかマンモスとかいう、恐ろしく大（で）っかい怪物のような生物を造って、そいつらに陸地の上をドタリドタリ駈けさせて、そうして固めさせたというんだから、いかに大仕掛な土木工事であったかは、虫ケラ同然の人間なんかには想像もつくまい。<br/><br/>それでいい加減固まった頃、お前らはもう用はないと言ってお払い箱にされた。<br/><br/>これが自然淘汰というものなんだ。<br/><br/>今でも方々から恐龍の骨や、マンモスの骨が見つかるんだから決して嘘ではない。<br/><br/>そうしておいて親方はまたいろんなものを作った。<br/><br/>虫ケラや鳥や恐ろしい猛獣や、気味の悪い大蛇はもとより、木や草、石や金などを拵えて、すっかり仕度が出来上ったんで、最後に人間共を作ったという事なんだ。<br/><br/> その時分だから、人間も裸で生れて来たには違いないが、何しろ人間は毛が生えてないから、寒くて仕方がない。<br/><br/>そこで初めは木の葉や草の葉で、着物らしいものを作って間に合していたが、段々利巧になって麻や木綿で着物を拵えたり、家を建てたりするようになったが、猛獣や大蛇が沢山いて、始終人間を喰い殺しに来るので、危なくて仕方がない。<br/><br/>そこで人間も色々な武器を作って戦ったんだ。<br/><br/>こんな訳で武器も巧妙になるというように、人間も大分小賢しくなったのはもちろんだ。<br/><br/>それでやっと恐ろしい獣物共を大方退治してしまったんだ。<br/><br/>これも自然淘汰という奴だよ、これでヤレ安心と思うと左にあらず、今度は人間の中に欲張り野郎が出来て、大きな土地を欲しがったり、色々な物を取りたがったり、女を手に入れようとしたりして遂々（とうとう）人間同志の闘いが初まったんだから、人間くらい浅間しい代物はあるまい。<br/><br/>それでどいつもこいつも勝とう勝とうとして、人殺し機械を段々進歩さして、遂々原子爆弾という一ぺんに何百万の人間をやっつけてしまうという飛んでもない代物が出来てしまったんで、世界中の人間共は、度胆を抜かれて、目を白黒しているのが今の有様だ。<br/><br/> ところが、親方はこれでもうよしと思ったらしい。<br/><br/>何しろ人間共の命の取り合いは、もうこのくらいで止めないと危ないと仰（おお）せられた。<br/><br/>なぜなれば、これ以上進歩すると、せっかくこれまでに出来た世界は元の木阿弥（もくあみ）になるからだ。<br/><br/>もうこのくらい立派になった世界だから、いよいよ儂（わし）が最初から計画しておいたミロクの世を拵えてやろう。<br/><br/>そこでまた親方は声を秘めてこうも言われた。<br/><br/>実は今まで戦争が必要だから放っておいたんだよ。<br/><br/>それは戦争をさせなければ文化の進歩は、早く出来なかったからだよ、ところがもう戦争は必要がなくなったから、絶対廃止にしたんだ。<br/><br/>これもヤッパリ戦争の自然淘汰なんだと仰言るんだから、何と有難いでは御座らぬか。<br/><br/> 親方はまたこう仰言る。<br/><br/>戦争を淘汰したからいよいよこれから地上天国、ミロクの世の建造に取り掛かるんだよ、これは今まで儂（わし）は色々なものを用意していたが、ようやく揃ったんで、今度メシヤの親父に命令したんだよ、だからこれを知った善人共はみんな嬉しがって、手の舞い足の踏みどころがないだろう。<br/><br/>それをみるのが儂はどんなに楽しいか分らないのだよ、昔キリストや釈迦にも、こういう世の中が来る事をちょっと言わしておいたから、人間共は判っているはずだ。<br/><br/>判らなかったり、本当にしなかったりした奴は、了見方が悪いからで、今更悔んで泣きついたとておっつかないよ、と仰言るだろう、万事はメシヤの親父に委してあるからよく親父から聞いて、その通りにすれば、倖せな世の中になる事請合だよ、どうだ相判ったか。<br/><br/>と仰言って雲に乗り、天に向かってお帰りになったんで御座る。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

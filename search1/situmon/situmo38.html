@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>situmo38</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 教えの光 『地上天国』37号、昭和27(1952)年6月25日発行 （お伺） 岩橋徳子（三十六歳）。<br><br>昭和二十年九月ごろ、肋膜炎、血の道、子宮病、発病三カ年間医療を続けましたが効果なく、昭和二十二年御浄霊により御守護をいただき、同年入信させていただきました。<br><br>大光明如来様、御屏風観音様、ともに御奉斎させていただき、日々人類救済、お導き、御奉仕に微力ながらお手伝いさせていただいております。<br><br> 昭和二十四年腹膜の御浄化も一カ月で楽にさせていただき、二十七年一月になって、息切れ、発熱、咳痰激しく、床につくようになり、現在は立ったりいたしますと咳痰が特に激しく、背中が重だるく鈍痛があり、左半身が特に浄化いたし、延髄、胸部、子宮に熱があり、胸部は左右両側とも押すと痛みを感じます。<br><br>鼠蹊部、子宮付近を御浄霊いただくと、首肩が凝ってまいります。<br><br>最近になって腹部の御浄霊をいただきますと、丸い玉ようの物が二ツ三ツ上下に動き、水泡のごとくブツブツと鳴ってどこかに隠れて分からなくなります。<br><br>月経は四月より止まり、衰弱は増してまいりましたが、食事はお茶碗に軽く二杯程度一日三度いただきます。<br><br> 主人は養子で当家の後を継ぎましたが、昭和二十年六月戦死、養父は病死、養母は昭和十一年六月倉の軒下で縊死を遂げております。<br><br>男の子供は三歳にて昭和十八年三月死亡いたし、主人と一緒に葬ってあります。<br><br>なお同居しておりました主人の生家の母が、私宅で昨年死亡、御位牌も祀っておりますが、生前私方の畑で蛇を殺したことがある由でございます。<br><br>井戸は家の中にあり、かつて下水の水溜め（深さ八尺くらい）を埋めましたが、御浄化中蛇とナメクジの夢を二度見たことがございます。<br><br> 現在娘二人（ともに入信）と三人暮らしにて、売り食い生活の状態で、いままで三人交互に御浄化をいただいておりましたが、私が今回の御浄化をいただきましてからは、娘二人とも元気でございます。<br><br>このことなどと霊的関係がございましょうか、御浄霊は熱のある所をしていただいておりますが、一進一退でございます。<br><br> 御浄霊の箇所を御教示のほどお願い申し上げます。<br><br> （御垂示） この人のいろいろな病気は、全部薬毒の浄化である。<br><br>霊的も少しはあるが、それは気にするほどのものではない。<br><br>熱のある所を浄霊すればいいのであるが、施術者は力が入りすぎるように思うから、できるだけ力を抜くことである。<br><br> （お伺） 日高正光（長男、昭和二十五年十一月二十三日生）の浄化につきお伺いいたします。<br><br> 生後約一年半になりますが、現在五、六カ月くらいの大きさで、頸がグラグラいたし、後頭部に大豆粒くらいのものが二、三個、両脇下に梅干くらいのグリグリがあり、両手指は胸の辺りに固く握り締めて開こうといたしません。<br><br>脚も横に開こうとせず、左脚はたいてい膝から半分くらいの角度で曲げていて、未だ坐ることも寝返りもできません。<br><br>生後四十日ごろより全身に疥癬の御浄化をいただきつつ現在まで続いています。<br><br>当初は比較的に肥えていましたが、昨年の夏ごろより笑顔を見せませず成育も停まったようでございます。<br><br>現在は顔以外のところはまだブツブツがあり、特に手指は悪臭強く、両足は甲底とも腫脹し、ところどころ排膿いたしております。<br><br>歯は上下各四本ずつ生えていますが、米の粉を練った乳代用のほかは食物を与えても歯を強く食いしばってぜんぜん食べません。<br><br>生歯後現在まで酷く歯ギシリをいたします。<br><br>出産の際、つねづね気やすい助産婦で任せてくれと言っておりましたが、アッという間に注射を一本いたしました。<br><br>不注意に任せて注射を為したことを知り、誠に申し訳なく伏してお詫びをいたしております。<br><br> なお両親とも再婚。<br><br>前関係は生別。<br><br>父親は十四、五年海軍生活にて直接殺人はいたしておりませんが、二、三度陸海戦闘に従って部下も十数名戦病死いたしました。<br><br>内地でスッポンと鰻を道楽に捕ったことがあり、また戦地で鼠を数百匹生け捕らせて虐めたことがあります。<br><br>父親の叔父は昔の教職中三十二歳にて謡と舞をなしながら死亡したそうですが、後息子が一人あって何年かに一回墓参する程度で、母親の兄は今次戦死いたしております。<br><br>畏くも出張所のお許しをいただいており、双方の実家には御屏風観音様を奉斎いたしております、なお本部別院などに参拝の前後と拝受品をいただく前後には、たしかに浄化を強くいただきます。<br><br> 謹んでお伺いいたします。<br><br> （御垂示） この子供は薬毒と霊的と両方である。<br><br>身体を触って熱のある所を、浄霊すればいいが、治るにしても、数年以上かかるから、そのつもりになさい。<br><br>また大いに信仰を励んで人助けをすれば、それだけ早く治る。<br><br> （お伺） 私は二十歳のころより、尿が近くなって一日の中に十数回あるようになりました。<br><br>軍隊に入ってからは、淋病だと言われて三回入院、六〇六号や漢方薬、淋病に関する薬剤を多量使用いたしておりました。<br><br>おそらく注射だけでも何百本でございましょう。<br><br>それからは少し良くなったように思いましたが、なんだか首が締めつけられるような気がしまして、不快でなりませんでした。<br><br>それが入信いたしまして約二カ月後には完全に治っておりました。<br><br>私は以前軍隊のとき支那で牛の首を日本刀で切り落としたことがありましたので、その牛の霊のためではないかと想像してもいました。<br><br>ところが今年の正月より、膀胱および尿道付近に不快を感ずるようになり、特に労働時には尿道に激痛を感じます。<br><br>そして左の腰がときどき痛みます。<br><br>現在はときどき教師の方に御浄霊をいただいておりますが、御浄化は漸次増してくるように思われます。<br><br>御浄化の激しいときは、尿道にむずかゆみをひどく感じ、仕事もできかねます。<br><br>部屋に座っていて動かなければ非常に楽でございます。<br><br>私の御浄化は淋病の薬毒の御浄化だと思っておりますが、苦痛は永続的で日々不快な生活に悩まされておりますので、このような苦悩から一時も早く脱出したいものと念願のあまり、御浄霊の急所など御垂示いただきたく存じます。<br><br>なおこのほかに四年前腰骨カリエスだと医診されましたが、これは放任いたしておりましたら、なにごともなく治りました。<br><br>また十九歳ごろ蓄膿症にて鼻の手術もいたしております。<br><br>二十三歳のとき胃下垂、二十八歳のとき痔の手術もやっております。<br><br>また左脇、腰に大きな腫れものが出たことがありましたが、そのときは吸い出し薬を使用いたしました。<br><br> （御垂示） この人は医薬の被害者である。<br><br>今後もいろいろ苦痛が起るから、そのつもりで苦痛のある所を浄霊すれば、わずかずつでも薬毒が減るので、それだけ治ってゆくのである。<br><br>しかしずいぶん薬毒が多いから、よほど長くかかる覚悟をしなさい。<br><br>牛の霊は関係がない。<br><br> （お伺） 昭和二十四年十二月二十六日入信、植野照江（十五歳）。<br><br>私の長女でございますが、植野家を継ぐことになっております。<br><br>二十五年五月修学旅行中、京都の宿において朝六時ごろ手足が動かなくなり、五分間くらい引きつけ、冷たくなったことがございます。<br><br>京都の東本願寺に弟の骨が分骨してあるからその関係かと考えておりましたが、その後なんともありませんので忘れておりましたが、約一カ年前よりどうかすると目をつむり、半年前ごろよりは目をつむるときは手を曲げたまま下にぴくぴく痙攣させ、最近はそれが烈しくなるときがありますので不思議に思っておりましたところ、本年三月突然盲腸付近の御浄化をいただき、また四月中旬午前五時半ごろ寝衣を着換えようとしたとき、手足は硬直、引きつけ、口はきけず涎を出しながら苦しんでおりました。<br><br> 御浄霊をさせていただくこと十五分くらいで気がつきましたが、記憶が完全にもどるまでには四十五分くらいを要しました。<br><br> その後二十八日午前五時半ごろ、前と同じように倒れました。<br><br>御浄霊十分くらいで気がつき、完全に意識がもどるのに十五分くらいかかりました。<br><br> 大光明如来様、御屏風観音様は御奉斎させていただいております。<br><br>また位牌は井丸家（主人方）植野家（私の里方）津江家（私の実母方）とをお祀りしております。<br><br> 四月下旬、仏壇の主人の位牌の後ろでツバメが死んでおりました。<br><br> 私（井丸キクエ）の母は三十二年前肺結核、弟は三十一年前脳膜炎、父は八年前喉頭結核、姉は八年前敗血症、主人は四年前結核、主人の母は二十八年前脳病で死亡しており、主人の伯父は二十八年前鉄道自殺しております。<br><br> 私の実家は継母が一人おり、このお道が解らず出入りをしませんが、長女は実家の後継人になっております。<br><br> また主人のほうも継母で長く別居いたしておりましたが、主人が死亡する一年前より一緒に暮らすようになりましたが、主人の死後なにかにつけ、私たち親子（私、長女、長男）を邪魔者視し、現在また別居いたしております。<br><br> 長女の癲癇的発作はこれらに関係しているのでございましょうか。<br><br> また現在住んでおりますところに主人の墓を作りたいと思うのでございますが、故郷から骨を持ってきても良いのでございましょうか。<br><br> 現在は都合上、仮に自然石で墓としております。<br><br>なにとぞ御垂示のほどお願い申し上げます。<br><br> （御垂示） これは中風で死んだ霊の憑依であるから、よく調べてみれば、何年か前の近親者にあるはずである。<br><br>もし祀ってなければ祀ってやるし、そうでなければ罪が多いために、霊界で救われていない霊である。<br><br>またこの家は罪穢が非常に多いから信仰を深く多くの人を救い、徳を積むことで、それによって子供の病気も治るとともに一家幸福になるのである。<br><br>墓は自然石ではいけないから、ふつうの墓にしなさい。<br><br> （お伺） 主人は一昨年七月に入信いたし、続いて私は八月に入信させていただきました。<br><br>昨年二月、光明如来様、御屏風観音様を御奉斎させていただいています。<br><br> 入信前、子宮にただれがある由にて塗布薬を十回ほど注入いたしました。<br><br>一昨年十一月子宮癌と診断を受け、それ以後右医療を受けず、ずっと今日まで御浄霊をいただいています。<br><br> 診断を受けて後（御浄霊いただきはじめてより）十カ月目より腰部に痛みを覚え、だんだん痛みはきつくなり、七カ月間激痛に苦しんでいます。<br><br>昨年十一月より御浄化中なれど御里へ布教に出させていただいています。<br><br> 布教にまいりその翌日、お蔭をいただき十回ばかり親指大の血塊が出ました。<br><br>下りものは癌と診断されます前よりいたしています。<br><br>一時は悪臭がございましたが、ただいまではありません。<br><br>また一回一尺くらい連なったヌラが出ました。<br><br>前夫は医者をしていまして、七カ年前、出血性黄疸にて死亡いたしました。<br><br>前夫の子を八人出産時、病院にて洗浄消毒を百四、五十回しています。<br><br>なお四カ月目に二人の子供を下ろしています。<br><br>そうとう酷い痛みですが、霊的の関係がございましょうか、また御浄霊の箇所を御垂示お願い申し上げます。<br><br> （御垂示） これは霊的でもなく癌でもない。<br><br>ことごとく薬毒のためであって長くはかかるが、必ず治るから安心しなさい。<br><br>浄霊箇所は苦痛の所だけでよろしい。<br><br> （お伺） 本年三月二十二日入信させていただきました。<br><br>高須英一、五十八歳。<br><br> 昨年五月二十九日木材伐採中、左脚首骨折いたしまして入院、手術により接骨いたしまして、二月十五日退院。<br><br>その後通院加療中お道のありがたいことを知らせていただき、入信と同時に通院停止、御浄霊をお願いしていましたが、労災補償のため保健所より検診を求められ、レントゲン患部撮影いたしましたところ、接着面が約半分（五分くらい）ズレておりました。<br><br>通院中は二分くらいズレておりました。<br><br>医師は再度手術をすすめますが、本人は医療とは手をきり、神様におすがりいたしております。<br><br> 御浄霊により元の位置に接着していただけましょうか。<br><br>固着するまではこの足を動かしてはいけないのでございましょうか、謹んでお伺い申し上げます。<br><br> （御垂示） 浄霊で治るとともに動かしても差し支えない。<br><br> （お伺） 私は脳溢血で倒れ、御教えのお道で救われ、昨年入信さしていただき、御屏風観音様奉斎さしていただいておりますが、今年生まれた孫が先天的な極度の内［足飛］症（両足）で大きくなっても歩行ができないほどです。<br><br>この子供の上（五歳）も生まれながらに腰（大転子関節）が脱臼しておりました。<br><br> こうして二人の孫が二人とも生まれながらに足ばかり不具になって生まれるということは、なにか霊的に関係あるものでございましょうか。<br><br> 私の家は近所ではたいへん古い家で八代目くらいです。<br><br>二代目の先祖の弟は心中（水死）して無理死しており、六代目の長男は馬より落ち急死（二十九歳）その後三代引き続き長男が二十九歳で若死にしています。<br><br>あまり不幸が続きますので、以前お伺いを立ててみますと、いつも「家の屋敷に昔の松平家の姫の墓がある。<br><br>その姫様のおすがりだ」と言われますが、右のようなことともなにか関係がございましょうか。<br><br>そして孫の内［足飛］病は御浄霊を続けさしていただいてお救いいただけましょうか。<br><br>浄霊の急所を御教示いただきとうございます。<br><br> （御垂示） 姫の霊とは関係がない。<br><br>これは祖霊の一人が、だれかの腰を殴打して死んだ霊の怨念が原因である。<br><br>浄霊は尾てい骨を中心にすれば、長くはかかるが必ず治る。<br><br>ただし力は入れないようにしなさい。<br><br> （お伺） 私の妻、但馬良子（二十七歳）。<br><br>昭和二十二年より精神異常を来し、昭和二十三年二月より御浄霊をいただき、二十四年八月ごろより正常となり、私は昭和二十三年三月、本人は二十四年八月に入信。<br><br>二十三年六月光明如来様、二十五年御屏風観音様を御奉斎、以後なんら変わるところなく感謝のうちに今日に至りましたが、本年四月末ごろより胸、下腹に痛みを感じ御浄霊にて楽にしていただきましたが、その後、物を考えるに考えがまとまらず、支部月例祭（五月十一日）の夜、帰宅後家にて御浄霊中腕がだるくなり、それが治ると胸につき上げ、それも治ると大きくアクビをなし、翌日は顔色に血色を見ましたが、しだいに青味を帯び、現在は家の光明如来様にお参りするも大儀がります（お参りするときは祝詞、御讃歌も一緒に奏上します）。<br><br>悪いときは物を問うも即答できず、暫時考えても自己の考えがまとまらず、御浄霊は主に前頭部を中心にしておりますが、なにとぞこの原因および浄霊の箇所について御垂示のほどお願い申し上げます。<br><br> （御垂示） 死霊が憑っているので浄霊の急所は首のまわり、特に延髄部、淋巴腺部に固結があるから、そこの所と、前頭部を気長にやれば治る。<br><br> （お伺） 私は昭和二十一年十月中旬より、鳥取県大山国立公園地区内にて、標高三百五十メートル内外、傾斜度十二、三度程度の位置に住居いたしておりますが、耕地として開畑一町ほど所有しておるのでございます。<br><br>土質は（通称大山黒ぼこ）火山灰にて黒色を帯び、強度の酸性を含み（含有酸度○、五～○、五五程度）播種いたしましても、堆肥ならびに金肥を施肥せざれば芽が一寸ほど青々と出ましても、その中に芽が黄色に変わり、枯死してしまいます。<br><br>右のようなしだいですから、反当たり三、四百貫の堆肥と金肥二千円程度を施しましても、古畑は開墾後五カ年ほどになりますが、実収反当たり三俵くらいしかできません。<br><br>勿論酸性土壌改良として石灰または「タンカル」など反当たり二、三十貫を撒布いたしておるのであります。<br><br>開畑前は年輪三十年生くらいの松樹が一面に繁茂しておりましたので、落葉などは五、六寸くらいでございましたものであります。<br><br> つきましては「地上天国」を拝読してみますると、無肥料栽培のすばらしき成績を御発表になっておられましたので、以上の畑地に適用できますか否かお伺い申し上げます。<br><br> なお同地には元製材したため、鋸屑がたくさん山積みになっておりますので、この鋸屑を肥料としてはいかがなものでございましょうか。<br><br>また施肥の方法を御教示くださいませ。<br><br> （御垂示） 貴方は栄光をまだ読んでいないのですか。<br><br>酸性土壌は金肥のためであり、鋸屑などは肥料にはならず、かえって悪い。<br><br>土そのものが肥料であることは、栄光にいくども書いてあるからよく読みなさい。<br><br> （お伺） 昨年八月から支部にしていただきました、私の住居の庭の紅梅は、入信前までは毎年二月ごろ咲き初めるのが例でありました。<br><br>ところが一昨年は十二月二十四日に見ますと一輪咲いていました。<br><br>昨年も同じく二十四日に見ますと、二輪咲いていました。<br><br>両年とも、二十二日に見ましたときには一輪も咲いていなかったのをみれば、御生誕祭日に咲いたものと思われます。<br><br>これについて御教えをお願い申し上げます。<br><br> （御垂示） 無論生誕を祝うためである。<br><br>それは梅の花は神秘で、御神業と非常に関係があるので、神様がさせたのである。<br><br>というのは、梅の花は花の先がけで、五弁だから火であり兄の花姫であり、観音であり、五大州の形であるからで、まだいろいろ意味があるが、なにしろ結構なことである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Sobre as Purificações e as Influências Espirituais</h2>
 <p><strong>Consulta</strong></p>
@@ -157,5 +309,48 @@ function toggleLang(lang) {
 <p>A ameixeira que tenho no jardim da minha casa, que desde o ano passado serve como Sede Regional, costumava florescer por volta de fevereiro, antes de eu ingressar na fé. Contudo, no antepenúltimo ano, ao observá-la no dia 24 de dezembro, vi que uma flor havia desabrochado. No ano passado, na mesma data, havia duas flores. Em ambos os anos, ao inspecioná-la no dia 22, não havia flor alguma, o que me leva a crer que elas desabrocharam no dia do Natalício de Meishu-Sama. Gostaria de receber um ensinamento a este respeito.</p>
 <p><strong>Orientação</strong></p>
 <p>Indubitavelmente, as flores desabrocham para celebrar o Natalício. A flor de ameixeira possui um profundo mistério e uma íntima relação com a Obra Divina; foi Deus quem a fez florescer. Isso porque a ameixeira é a precursora de todas as flores. Suas cinco pétalas representam o fogo, a princesa das flores mais velha, Kannon (観音) e a forma dos cinco continentes. Existem ainda muitos outros significados, mas, de qualquer forma, é um acontecimento deveras auspicioso.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 教えの光 『地上天国』37号、昭和27(1952)年6月25日発行 （お伺） 岩橋徳子（三十六歳）。<br/><br/>昭和二十年九月ごろ、肋膜炎、血の道、子宮病、発病三カ年間医療を続けましたが効果なく、昭和二十二年御浄霊により御守護をいただき、同年入信させていただきました。<br/><br/>大光明如来様、御屏風観音様、ともに御奉斎させていただき、日々人類救済、お導き、御奉仕に微力ながらお手伝いさせていただいております。<br/><br/> 昭和二十四年腹膜の御浄化も一カ月で楽にさせていただき、二十七年一月になって、息切れ、発熱、咳痰激しく、床につくようになり、現在は立ったりいたしますと咳痰が特に激しく、背中が重だるく鈍痛があり、左半身が特に浄化いたし、延髄、胸部、子宮に熱があり、胸部は左右両側とも押すと痛みを感じます。<br/><br/>鼠蹊部、子宮付近を御浄霊いただくと、首肩が凝ってまいります。<br/><br/>最近になって腹部の御浄霊をいただきますと、丸い玉ようの物が二ツ三ツ上下に動き、水泡のごとくブツブツと鳴ってどこかに隠れて分からなくなります。<br/><br/>月経は四月より止まり、衰弱は増してまいりましたが、食事はお茶碗に軽く二杯程度一日三度いただきます。<br/><br/> 主人は養子で当家の後を継ぎましたが、昭和二十年六月戦死、養父は病死、養母は昭和十一年六月倉の軒下で縊死を遂げております。<br/><br/>男の子供は三歳にて昭和十八年三月死亡いたし、主人と一緒に葬ってあります。<br/><br/>なお同居しておりました主人の生家の母が、私宅で昨年死亡、御位牌も祀っておりますが、生前私方の畑で蛇を殺したことがある由でございます。<br/><br/>井戸は家の中にあり、かつて下水の水溜め（深さ八尺くらい）を埋めましたが、御浄化中蛇とナメクジの夢を二度見たことがございます。<br/><br/> 現在娘二人（ともに入信）と三人暮らしにて、売り食い生活の状態で、いままで三人交互に御浄化をいただいておりましたが、私が今回の御浄化をいただきましてからは、娘二人とも元気でございます。<br/><br/>このことなどと霊的関係がございましょうか、御浄霊は熱のある所をしていただいておりますが、一進一退でございます。<br/><br/> 御浄霊の箇所を御教示のほどお願い申し上げます。<br/><br/> （御垂示） この人のいろいろな病気は、全部薬毒の浄化である。<br/><br/>霊的も少しはあるが、それは気にするほどのものではない。<br/><br/>熱のある所を浄霊すればいいのであるが、施術者は力が入りすぎるように思うから、できるだけ力を抜くことである。<br/><br/> （お伺） 日高正光（長男、昭和二十五年十一月二十三日生）の浄化につきお伺いいたします。<br/><br/> 生後約一年半になりますが、現在五、六カ月くらいの大きさで、頸がグラグラいたし、後頭部に大豆粒くらいのものが二、三個、両脇下に梅干くらいのグリグリがあり、両手指は胸の辺りに固く握り締めて開こうといたしません。<br/><br/>脚も横に開こうとせず、左脚はたいてい膝から半分くらいの角度で曲げていて、未だ坐ることも寝返りもできません。<br/><br/>生後四十日ごろより全身に疥癬の御浄化をいただきつつ現在まで続いています。<br/><br/>当初は比較的に肥えていましたが、昨年の夏ごろより笑顔を見せませず成育も停まったようでございます。<br/><br/>現在は顔以外のところはまだブツブツがあり、特に手指は悪臭強く、両足は甲底とも腫脹し、ところどころ排膿いたしております。<br/><br/>歯は上下各四本ずつ生えていますが、米の粉を練った乳代用のほかは食物を与えても歯を強く食いしばってぜんぜん食べません。<br/><br/>生歯後現在まで酷く歯ギシリをいたします。<br/><br/>出産の際、つねづね気やすい助産婦で任せてくれと言っておりましたが、アッという間に注射を一本いたしました。<br/><br/>不注意に任せて注射を為したことを知り、誠に申し訳なく伏してお詫びをいたしております。<br/><br/> なお両親とも再婚。<br/><br/>前関係は生別。<br/><br/>父親は十四、五年海軍生活にて直接殺人はいたしておりませんが、二、三度陸海戦闘に従って部下も十数名戦病死いたしました。<br/><br/>内地でスッポンと鰻を道楽に捕ったことがあり、また戦地で鼠を数百匹生け捕らせて虐めたことがあります。<br/><br/>父親の叔父は昔の教職中三十二歳にて謡と舞をなしながら死亡したそうですが、後息子が一人あって何年かに一回墓参する程度で、母親の兄は今次戦死いたしております。<br/><br/>畏くも出張所のお許しをいただいており、双方の実家には御屏風観音様を奉斎いたしております、なお本部別院などに参拝の前後と拝受品をいただく前後には、たしかに浄化を強くいただきます。<br/><br/> 謹んでお伺いいたします。<br/><br/> （御垂示） この子供は薬毒と霊的と両方である。<br/><br/>身体を触って熱のある所を、浄霊すればいいが、治るにしても、数年以上かかるから、そのつもりになさい。<br/><br/>また大いに信仰を励んで人助けをすれば、それだけ早く治る。<br/><br/> （お伺） 私は二十歳のころより、尿が近くなって一日の中に十数回あるようになりました。<br/><br/>軍隊に入ってからは、淋病だと言われて三回入院、六〇六号や漢方薬、淋病に関する薬剤を多量使用いたしておりました。<br/><br/>おそらく注射だけでも何百本でございましょう。<br/><br/>それからは少し良くなったように思いましたが、なんだか首が締めつけられるような気がしまして、不快でなりませんでした。<br/><br/>それが入信いたしまして約二カ月後には完全に治っておりました。<br/><br/>私は以前軍隊のとき支那で牛の首を日本刀で切り落としたことがありましたので、その牛の霊のためではないかと想像してもいました。<br/><br/>ところが今年の正月より、膀胱および尿道付近に不快を感ずるようになり、特に労働時には尿道に激痛を感じます。<br/><br/>そして左の腰がときどき痛みます。<br/><br/>現在はときどき教師の方に御浄霊をいただいておりますが、御浄化は漸次増してくるように思われます。<br/><br/>御浄化の激しいときは、尿道にむずかゆみをひどく感じ、仕事もできかねます。<br/><br/>部屋に座っていて動かなければ非常に楽でございます。<br/><br/>私の御浄化は淋病の薬毒の御浄化だと思っておりますが、苦痛は永続的で日々不快な生活に悩まされておりますので、このような苦悩から一時も早く脱出したいものと念願のあまり、御浄霊の急所など御垂示いただきたく存じます。<br/><br/>なおこのほかに四年前腰骨カリエスだと医診されましたが、これは放任いたしておりましたら、なにごともなく治りました。<br/><br/>また十九歳ごろ蓄膿症にて鼻の手術もいたしております。<br/><br/>二十三歳のとき胃下垂、二十八歳のとき痔の手術もやっております。<br/><br/>また左脇、腰に大きな腫れものが出たことがありましたが、そのときは吸い出し薬を使用いたしました。<br/><br/> （御垂示） この人は医薬の被害者である。<br/><br/>今後もいろいろ苦痛が起るから、そのつもりで苦痛のある所を浄霊すれば、わずかずつでも薬毒が減るので、それだけ治ってゆくのである。<br/><br/>しかしずいぶん薬毒が多いから、よほど長くかかる覚悟をしなさい。<br/><br/>牛の霊は関係がない。<br/><br/> （お伺） 昭和二十四年十二月二十六日入信、植野照江（十五歳）。<br/><br/>私の長女でございますが、植野家を継ぐことになっております。<br/><br/>二十五年五月修学旅行中、京都の宿において朝六時ごろ手足が動かなくなり、五分間くらい引きつけ、冷たくなったことがございます。<br/><br/>京都の東本願寺に弟の骨が分骨してあるからその関係かと考えておりましたが、その後なんともありませんので忘れておりましたが、約一カ年前よりどうかすると目をつむり、半年前ごろよりは目をつむるときは手を曲げたまま下にぴくぴく痙攣させ、最近はそれが烈しくなるときがありますので不思議に思っておりましたところ、本年三月突然盲腸付近の御浄化をいただき、また四月中旬午前五時半ごろ寝衣を着換えようとしたとき、手足は硬直、引きつけ、口はきけず涎を出しながら苦しんでおりました。<br/><br/> 御浄霊をさせていただくこと十五分くらいで気がつきましたが、記憶が完全にもどるまでには四十五分くらいを要しました。<br/><br/> その後二十八日午前五時半ごろ、前と同じように倒れました。<br/><br/>御浄霊十分くらいで気がつき、完全に意識がもどるのに十五分くらいかかりました。<br/><br/> 大光明如来様、御屏風観音様は御奉斎させていただいております。<br/><br/>また位牌は井丸家（主人方）植野家（私の里方）津江家（私の実母方）とをお祀りしております。<br/><br/> 四月下旬、仏壇の主人の位牌の後ろでツバメが死んでおりました。<br/><br/> 私（井丸キクエ）の母は三十二年前肺結核、弟は三十一年前脳膜炎、父は八年前喉頭結核、姉は八年前敗血症、主人は四年前結核、主人の母は二十八年前脳病で死亡しており、主人の伯父は二十八年前鉄道自殺しております。<br/><br/> 私の実家は継母が一人おり、このお道が解らず出入りをしませんが、長女は実家の後継人になっております。<br/><br/> また主人のほうも継母で長く別居いたしておりましたが、主人が死亡する一年前より一緒に暮らすようになりましたが、主人の死後なにかにつけ、私たち親子（私、長女、長男）を邪魔者視し、現在また別居いたしております。<br/><br/> 長女の癲癇的発作はこれらに関係しているのでございましょうか。<br/><br/> また現在住んでおりますところに主人の墓を作りたいと思うのでございますが、故郷から骨を持ってきても良いのでございましょうか。<br/><br/> 現在は都合上、仮に自然石で墓としております。<br/><br/>なにとぞ御垂示のほどお願い申し上げます。<br/><br/> （御垂示） これは中風で死んだ霊の憑依であるから、よく調べてみれば、何年か前の近親者にあるはずである。<br/><br/>もし祀ってなければ祀ってやるし、そうでなければ罪が多いために、霊界で救われていない霊である。<br/><br/>またこの家は罪穢が非常に多いから信仰を深く多くの人を救い、徳を積むことで、それによって子供の病気も治るとともに一家幸福になるのである。<br/><br/>墓は自然石ではいけないから、ふつうの墓にしなさい。<br/><br/> （お伺） 主人は一昨年七月に入信いたし、続いて私は八月に入信させていただきました。<br/><br/>昨年二月、光明如来様、御屏風観音様を御奉斎させていただいています。<br/><br/> 入信前、子宮にただれがある由にて塗布薬を十回ほど注入いたしました。<br/><br/>一昨年十一月子宮癌と診断を受け、それ以後右医療を受けず、ずっと今日まで御浄霊をいただいています。<br/><br/> 診断を受けて後（御浄霊いただきはじめてより）十カ月目より腰部に痛みを覚え、だんだん痛みはきつくなり、七カ月間激痛に苦しんでいます。<br/><br/>昨年十一月より御浄化中なれど御里へ布教に出させていただいています。<br/><br/> 布教にまいりその翌日、お蔭をいただき十回ばかり親指大の血塊が出ました。<br/><br/>下りものは癌と診断されます前よりいたしています。<br/><br/>一時は悪臭がございましたが、ただいまではありません。<br/><br/>また一回一尺くらい連なったヌラが出ました。<br/><br/>前夫は医者をしていまして、七カ年前、出血性黄疸にて死亡いたしました。<br/><br/>前夫の子を八人出産時、病院にて洗浄消毒を百四、五十回しています。<br/><br/>なお四カ月目に二人の子供を下ろしています。<br/><br/>そうとう酷い痛みですが、霊的の関係がございましょうか、また御浄霊の箇所を御垂示お願い申し上げます。<br/><br/> （御垂示） これは霊的でもなく癌でもない。<br/><br/>ことごとく薬毒のためであって長くはかかるが、必ず治るから安心しなさい。<br/><br/>浄霊箇所は苦痛の所だけでよろしい。<br/><br/> （お伺） 本年三月二十二日入信させていただきました。<br/><br/>高須英一、五十八歳。<br/><br/> 昨年五月二十九日木材伐採中、左脚首骨折いたしまして入院、手術により接骨いたしまして、二月十五日退院。<br/><br/>その後通院加療中お道のありがたいことを知らせていただき、入信と同時に通院停止、御浄霊をお願いしていましたが、労災補償のため保健所より検診を求められ、レントゲン患部撮影いたしましたところ、接着面が約半分（五分くらい）ズレておりました。<br/><br/>通院中は二分くらいズレておりました。<br/><br/>医師は再度手術をすすめますが、本人は医療とは手をきり、神様におすがりいたしております。<br/><br/> 御浄霊により元の位置に接着していただけましょうか。<br/><br/>固着するまではこの足を動かしてはいけないのでございましょうか、謹んでお伺い申し上げます。<br/><br/> （御垂示） 浄霊で治るとともに動かしても差し支えない。<br/><br/> （お伺） 私は脳溢血で倒れ、御教えのお道で救われ、昨年入信さしていただき、御屏風観音様奉斎さしていただいておりますが、今年生まれた孫が先天的な極度の内［足飛］症（両足）で大きくなっても歩行ができないほどです。<br/><br/>この子供の上（五歳）も生まれながらに腰（大転子関節）が脱臼しておりました。<br/><br/> こうして二人の孫が二人とも生まれながらに足ばかり不具になって生まれるということは、なにか霊的に関係あるものでございましょうか。<br/><br/> 私の家は近所ではたいへん古い家で八代目くらいです。<br/><br/>二代目の先祖の弟は心中（水死）して無理死しており、六代目の長男は馬より落ち急死（二十九歳）その後三代引き続き長男が二十九歳で若死にしています。<br/><br/>あまり不幸が続きますので、以前お伺いを立ててみますと、いつも「家の屋敷に昔の松平家の姫の墓がある。<br/><br/>その姫様のおすがりだ」と言われますが、右のようなことともなにか関係がございましょうか。<br/><br/>そして孫の内［足飛］病は御浄霊を続けさしていただいてお救いいただけましょうか。<br/><br/>浄霊の急所を御教示いただきとうございます。<br/><br/> （御垂示） 姫の霊とは関係がない。<br/><br/>これは祖霊の一人が、だれかの腰を殴打して死んだ霊の怨念が原因である。<br/><br/>浄霊は尾てい骨を中心にすれば、長くはかかるが必ず治る。<br/><br/>ただし力は入れないようにしなさい。<br/><br/> （お伺） 私の妻、但馬良子（二十七歳）。<br/><br/>昭和二十二年より精神異常を来し、昭和二十三年二月より御浄霊をいただき、二十四年八月ごろより正常となり、私は昭和二十三年三月、本人は二十四年八月に入信。<br/><br/>二十三年六月光明如来様、二十五年御屏風観音様を御奉斎、以後なんら変わるところなく感謝のうちに今日に至りましたが、本年四月末ごろより胸、下腹に痛みを感じ御浄霊にて楽にしていただきましたが、その後、物を考えるに考えがまとまらず、支部月例祭（五月十一日）の夜、帰宅後家にて御浄霊中腕がだるくなり、それが治ると胸につき上げ、それも治ると大きくアクビをなし、翌日は顔色に血色を見ましたが、しだいに青味を帯び、現在は家の光明如来様にお参りするも大儀がります（お参りするときは祝詞、御讃歌も一緒に奏上します）。<br/><br/>悪いときは物を問うも即答できず、暫時考えても自己の考えがまとまらず、御浄霊は主に前頭部を中心にしておりますが、なにとぞこの原因および浄霊の箇所について御垂示のほどお願い申し上げます。<br/><br/> （御垂示） 死霊が憑っているので浄霊の急所は首のまわり、特に延髄部、淋巴腺部に固結があるから、そこの所と、前頭部を気長にやれば治る。<br/><br/> （お伺） 私は昭和二十一年十月中旬より、鳥取県大山国立公園地区内にて、標高三百五十メートル内外、傾斜度十二、三度程度の位置に住居いたしておりますが、耕地として開畑一町ほど所有しておるのでございます。<br/><br/>土質は（通称大山黒ぼこ）火山灰にて黒色を帯び、強度の酸性を含み（含有酸度○、五～○、五五程度）播種いたしましても、堆肥ならびに金肥を施肥せざれば芽が一寸ほど青々と出ましても、その中に芽が黄色に変わり、枯死してしまいます。<br/><br/>右のようなしだいですから、反当たり三、四百貫の堆肥と金肥二千円程度を施しましても、古畑は開墾後五カ年ほどになりますが、実収反当たり三俵くらいしかできません。<br/><br/>勿論酸性土壌改良として石灰または「タンカル」など反当たり二、三十貫を撒布いたしておるのであります。<br/><br/>開畑前は年輪三十年生くらいの松樹が一面に繁茂しておりましたので、落葉などは五、六寸くらいでございましたものであります。<br/><br/> つきましては「地上天国」を拝読してみますると、無肥料栽培のすばらしき成績を御発表になっておられましたので、以上の畑地に適用できますか否かお伺い申し上げます。<br/><br/> なお同地には元製材したため、鋸屑がたくさん山積みになっておりますので、この鋸屑を肥料としてはいかがなものでございましょうか。<br/><br/>また施肥の方法を御教示くださいませ。<br/><br/> （御垂示） 貴方は栄光をまだ読んでいないのですか。<br/><br/>酸性土壌は金肥のためであり、鋸屑などは肥料にはならず、かえって悪い。<br/><br/>土そのものが肥料であることは、栄光にいくども書いてあるからよく読みなさい。<br/><br/> （お伺） 昨年八月から支部にしていただきました、私の住居の庭の紅梅は、入信前までは毎年二月ごろ咲き初めるのが例でありました。<br/><br/>ところが一昨年は十二月二十四日に見ますと一輪咲いていました。<br/><br/>昨年も同じく二十四日に見ますと、二輪咲いていました。<br/><br/>両年とも、二十二日に見ましたときには一輪も咲いていなかったのをみれば、御生誕祭日に咲いたものと思われます。<br/><br/>これについて御教えをお願い申し上げます。<br/><br/> （御垂示） 無論生誕を祝うためである。<br/><br/>それは梅の花は神秘で、御神業と非常に関係があるので、神様がさせたのである。<br/><br/>というのは、梅の花は花の先がけで、五弁だから火であり兄の花姫であり、観音であり、五大州の形であるからで、まだいろいろ意味があるが、なにしろ結構なことである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

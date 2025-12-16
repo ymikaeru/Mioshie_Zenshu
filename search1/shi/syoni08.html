@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>syoni08</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 小児麻痺 ・病気と霊四 『明日の医術 第三編』昭和18(1943)年10月23日発行 この病気は、真症の小児麻痺と擬似小児麻痺とあるが、医学ではその区別を知らず混同しているのである。<br><br> 真症小児麻痺は、その原因は霊的であってそのほとんどは脳溢血で斃（たお）れた死霊が憑依するのである。<br><br>従って、その症状は脳溢血的症状であって、言語不能、涎（よだれ）を垂らし、半身不随等である。<br><br>それは今まで学校の成績もよく、何ら異常のない健康児が、突然高熱と痙攣を起し右のごとき症状となるのであって、実に悲惨にして恐るべき疾患である。<br><br>そうしてなぜ死霊が憑依するやというに、脳溢血のごときは、発病するやにわかに霊界人となるので、その霊としては死の覚悟がない故、霊そのものの想念は生きているつもりなのである。<br><br>しかるに肉体がないから、無意識に肉体を求めるのであるが、その場合他人に憑依する事は天則上出来得ないのである。<br><br>何となれば、人間は家族友人等すべて近親者間には霊線なるものの繋がりがあるからである。<br><br>勿論夫婦の霊線は最も太く、次に親子・兄弟・親類・友人等、縁の薄くなる程細くなるものである。<br><br>この理によって、死霊が憑依せんとする場合、霊線を伝わるのである。<br><br>しかるに、成人者より小児の方が憑依し易い為小児に憑依する――それが小児麻痺であるから、これらも唯物医学ではどうにも判りようがない訳である。<br><br>そうして多くは、祖父母が孫に憑る事が多く、親の霊が子に憑る事は稀にはあるが滅多にないのである。<br><br>すべて霊の憑依も遺伝も一代おきである。<br><br>一代おきに遺伝するという事は、医学でも認めているようである。<br><br>殊に癩病はそれが著るしいという事である。<br><br>又人間の性格においても、両親に似るよりも祖父母に似る事の方が多いのも周知の事実である。<br><br> 次に、擬似小児麻痺とは、脳溢血的症状はなく、手とか足とか、身体の一部に故障のある症状である。<br><br>これらは単なる局部的毒素溜結の為であって、簡単に治癒するものであるが、医家はこれらを真の小児麻痺と誤解し、難病扱いになし、手術やギブス等の療法を行うが、大抵は反って悪化させて不具者にする事が多いのである。<br><br>それについて一例を挙げてみよう。<br><br> 私が以前扱った患者に、片方の足の裏、拇指（おやぶね）辺が着けないで、外側と踵（かかと）だけ着いて歩くという七八歳位の少年があった。<br><br>それを医師が診て小児麻痺となし、外側の筋が長過ぎ、内側踵の骨が足りないというので、外側の筋を切り詰め、内側の踵に脛の骨を切り取って着け足したのである。<br><br>それから数年を経ても依然として跛（びっこ）であるので、私のところへ来たのである。<br><br>私が診査すると、足の裏拇指辺に毒素溜結があるがら、拇指を着くと非常に痛むのである。<br><br>その為、内側を浮して歩いたので、医師はその発見が出来なかったので、見当違いの手術をしたのであった。<br><br>故に私は拇指辺の毒素溜結を溶解除去した所、普通と同様に足が着けるようになった。<br><br>しかるに、踵に足した骨が邪魔をして、歩行が完全とはいかないから、私は奨めて、右の足し骨を除去し元通りにすべく、右の医師に再手術を依嘱したのでその結果、今度は完全に歩行出来得るようになって、今日は普通人と異ならないのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdade sobre a Poliomielite</h2>
 <p>Esta enfermidade se manifesta em duas formas: a poliomielite verdadeira e a poliomielite aparente. A medicina, contudo, por desconhecer tal distinção, acaba por confundi-las.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Certa vez, tratei de um menino de sete ou oito anos que andava apoiando-se apenas na parte externa e no calcanhar de um dos pés, pois não conseguia firmar o dedão no chão. O médico que o atendeu diagnosticou o caso como poliomielite, supondo que o tendão externo era longo demais e que faltava osso na parte interna do calcanhar. Com base nesse parecer, realizou uma cirurgia para encurtar o tendão e enxertar um fragmento do osso da canela no calcanhar.</p>
 <p>Passados alguns anos, o menino continuava a mancar e, por isso, procurou-me. Ao examiná-lo, constatei que havia um acúmulo de toxinas na região do dedão. Era essa a causa da dor intensa que sentia ao tentar apoiar o pé por completo. Por esse motivo, ele caminhava com a parte interna do pé levantada, fato que o médico não foi capaz de perceber, o que o levou a realizar uma cirurgia equivocada.</p>
 <p>Procedi, então, à dissolução e remoção desse acúmulo de toxinas, e o menino passou a conseguir apoiar o pé no chão normalmente. Entretanto, o osso enxertado no calcanhar agora se tornara um obstáculo, impedindo que sua caminhada fosse perfeita. Aconselhei-o, portanto, a retornar ao mesmo médico e solicitar uma nova cirurgia para remover o enxerto e restaurar a forma original do pé. O procedimento foi realizado e, como resultado, o menino recuperou a capacidade de andar com perfeição, não se distinguindo hoje em nada de uma pessoa comum.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 小児麻痺 ・病気と霊四 『明日の医術 第三編』昭和18(1943)年10月23日発行 この病気は、真症の小児麻痺と擬似小児麻痺とあるが、医学ではその区別を知らず混同しているのである。<br/><br/> 真症小児麻痺は、その原因は霊的であってそのほとんどは脳溢血で斃（たお）れた死霊が憑依するのである。<br/><br/>従って、その症状は脳溢血的症状であって、言語不能、涎（よだれ）を垂らし、半身不随等である。<br/><br/>それは今まで学校の成績もよく、何ら異常のない健康児が、突然高熱と痙攣を起し右のごとき症状となるのであって、実に悲惨にして恐るべき疾患である。<br/><br/>そうしてなぜ死霊が憑依するやというに、脳溢血のごときは、発病するやにわかに霊界人となるので、その霊としては死の覚悟がない故、霊そのものの想念は生きているつもりなのである。<br/><br/>しかるに肉体がないから、無意識に肉体を求めるのであるが、その場合他人に憑依する事は天則上出来得ないのである。<br/><br/>何となれば、人間は家族友人等すべて近親者間には霊線なるものの繋がりがあるからである。<br/><br/>勿論夫婦の霊線は最も太く、次に親子・兄弟・親類・友人等、縁の薄くなる程細くなるものである。<br/><br/>この理によって、死霊が憑依せんとする場合、霊線を伝わるのである。<br/><br/>しかるに、成人者より小児の方が憑依し易い為小児に憑依する――それが小児麻痺であるから、これらも唯物医学ではどうにも判りようがない訳である。<br/><br/>そうして多くは、祖父母が孫に憑る事が多く、親の霊が子に憑る事は稀にはあるが滅多にないのである。<br/><br/>すべて霊の憑依も遺伝も一代おきである。<br/><br/>一代おきに遺伝するという事は、医学でも認めているようである。<br/><br/>殊に癩病はそれが著るしいという事である。<br/><br/>又人間の性格においても、両親に似るよりも祖父母に似る事の方が多いのも周知の事実である。<br/><br/> 次に、擬似小児麻痺とは、脳溢血的症状はなく、手とか足とか、身体の一部に故障のある症状である。<br/><br/>これらは単なる局部的毒素溜結の為であって、簡単に治癒するものであるが、医家はこれらを真の小児麻痺と誤解し、難病扱いになし、手術やギブス等の療法を行うが、大抵は反って悪化させて不具者にする事が多いのである。<br/><br/>それについて一例を挙げてみよう。<br/><br/> 私が以前扱った患者に、片方の足の裏、拇指（おやぶね）辺が着けないで、外側と踵（かかと）だけ着いて歩くという七八歳位の少年があった。<br/><br/>それを医師が診て小児麻痺となし、外側の筋が長過ぎ、内側踵の骨が足りないというので、外側の筋を切り詰め、内側の踵に脛の骨を切り取って着け足したのである。<br/><br/>それから数年を経ても依然として跛（びっこ）であるので、私のところへ来たのである。<br/><br/>私が診査すると、足の裏拇指辺に毒素溜結があるがら、拇指を着くと非常に痛むのである。<br/><br/>その為、内側を浮して歩いたので、医師はその発見が出来なかったので、見当違いの手術をしたのであった。<br/><br/>故に私は拇指辺の毒素溜結を溶解除去した所、普通と同様に足が着けるようになった。<br/><br/>しかるに、踵に足した骨が邪魔をして、歩行が完全とはいかないから、私は奨めて、右の足し骨を除去し元通りにすべく、右の医師に再手術を依嘱したのでその結果、今度は完全に歩行出来得るようになって、今日は普通人と異ならないのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

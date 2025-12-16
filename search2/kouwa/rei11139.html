@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>rei11139</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊学篇 一 霊的病気（一） ８ 139-159 霊体両因４ 139 生後泣き続けて唖 当年三十九歳の女、生後六カ月迄は病気と思われる位非常に泣き続けました所、七カ月より全然泣かなくなり、驚き医師の診断を受けしところ、唖故治癒不能との事にて現在に至っております。<br><br>発音はどの音も出ますが、言葉になりません。<br><br>頭は良く、物覚えもよいのですが、右は本当の唖で御座居ましょうか。<br><br>御浄霊により話が出来、聞えるようになりましょうか。<br><br>右、御教示御願い申し上げます。<br><br> 耳が聞えないために言葉が出ない。<br><br>まず聞えるようにしなくてはいけない。<br><br>霊的と体的と両方ある。<br><br>頭の中心から前頭にかけて固まっている。<br><br>霊的には木龍が憑ったのであろう。<br><br>（S25. 5.23） 140 赤ン坊の霊（骨なし症状） 当年四歳になる男児、首がぐにゃぐにゃで、ものが言えず歩けもせず。<br><br>這いも座りもしません。<br><br>いかなる訳でしょう。<br><br>いかにすれば治りますか。<br><br> 注射か、赤ン坊の霊である。<br><br> 141 高熱・足腰起たぬ幼児（長男） 今年十一歳の男の子、昭和十五年五月発病、当時二歳、四十二度位の高熱が続き、医者は小児麻痺らしいと云われただけで、病名もはっきりせず、その後種々手当をしましたが効果なく、現在まで足腰が起たず、最近入信させていただいております。<br><br>右の因縁関係をお教え下さい。<br><br> 霊的体的両方に考えられるが、これは霊的らしい。<br><br>祖先に高所から落ちたりなどで足腰起たず死んだ霊――。<br><br>あるいは――、注射のため腰の起たぬ場合もよくある。<br><br>どっちだか、とにかく腰を気長に浄霊すれば治る。<br><br>（S24. 4.28） 142 発育せぬ小児 二歳の男子、生れて以来半年経っても少しも発育せず、虫封じをやる人（漢方医者）の治療を受けました所、脳と気管支が悪いと云われましたが、一年位経っても変化なく、現在は半年位御浄霊を戴きましたがこれも変化ありません。<br><br>最近は両親も一生懸命に御縋りしています。<br><br>右の原因と浄霊法を御伺い申し上げます。<br><br> 霊的と体的とある。<br><br> 体的原因としては、生れて間もなく少し沢山注射すると二、三年発育が止まる。<br><br> 霊的原因は赤ン坊の霊、死産とか流産をした霊で、その霊の状態になる。<br><br>これは非常に長く掛かるが治る。<br><br> 前頭部の熱である。<br><br>寧ろ何でもない。<br><br> 身体全体、腎臓部、前頭部を浄霊する。<br><br>（S24） 143 幼児の喀痰、座力なし、発育不良 三歳の男児、生まれつき弱く、今なお座る事も出来ません。<br><br>昨年十一月より御浄霊を受け、本人の父が入信、本年三月光明如来様を祭らせて頂きました。<br><br>現在では握る力は付きましたが、毎日咽喉がゼイゼイし、風邪を引き易く、咳がたえず出ています。<br><br>妻は後妻で、その子供が三人共生後間もなく死亡、叔母は卒中にて死亡、いかなる病気でしょうか。<br><br> 生まれてすぐ注射すると発育が止まる。<br><br>注射したんでなければ、妊娠中に薬を飲んだんだが――。<br><br> 死産とか流産（五ケ月以上）した赤子の霊の憑いた場合こういう事がある。<br><br> 浄霊を気長にすれば治る。<br><br> グニャグニャしているのは龍神である。<br><br> 座る力のないのは腰骨に毒がある。<br><br> ゼイゼイいうのは、親の薬毒か、あるいは赤ン坊の時、母体の汚露を飲む。<br><br>肺中に痰が溜るとゼイゼイいう。<br><br>その場合、背中に熱い所がある。<br><br>また、死んだ三児のどれかが憑る事あり。<br><br>肺で死んだ霊がつくとその通りになる。<br><br> 144 百日咳より憑霊 死霊は始終憑りたがっている。<br><br>衰弱を狙って憑った。<br><br> 百日咳の毒が腹部と背部に残っている。<br><br>（汚露）の残部がある。<br><br>（S24. 7. 9） 145 時間泣きの嬰児 生後四ケ月の男児、数日前より毎日午後六時頃になりますと大声で泣き、三十分位泣き続けます。<br><br>いかなる訳でございましょうか。<br><br>御教示お願い申し上げます。<br><br> いろいろある。<br><br>霊的である。<br><br>体的の場合とある。<br><br>祝詞を奏げる。<br><br>そして泣き止めば霊である。<br><br>でなければ、どこか痛い所か何かある。<br><br>（S24.11.28） 146 尿道の奇形、早産流産 大橋かよ子（六歳）、小便がチビチビ出続き、浄霊は半月位続けておりますが今日に至るも変化ありません。<br><br>全快致しますでしょうか。<br><br>また、食事を致します時に赤ちゃんのようにチュウチュウと御飯を吸込みます。<br><br>いかなる因縁でしょうか、お尋ね致します。<br><br>なお、妹定子（二歳）、生後二十日頃より右眼横に豆粒大の赤い血豆様の物が出来ました。<br><br>医者に診てもらったのですが治らないとの事です。<br><br>浄霊にて全快の見込みがあるでしょうか。<br><br>また、霊的に因縁がありますか、お教え下さい。<br><br> 尿道が細いのであろう。<br><br>尿道の奇形である。<br><br>霊的関係もあろう。<br><br>赤ン坊の霊で、早産か流産の霊である。<br><br>即ち普通の人間に完成していない霊で、乳を呑むようにチューチュー吸う。<br><br>査べて心当りの者あれば祀る。<br><br>赤いツブツブは毒血の塊である。<br><br>浄霊で早く治る。<br><br>（S24.11. 7） 147 四肢使えぬ幼児 生後一年四ケ月になる女の子、千鶴子と申しますが、生来手足がフラフラにて立つ事も歩く事も出来ませんが、これは霊的でしょうか。<br><br>この浄霊法を御教示下さい。<br><br> 生後すぐ注射したのはこういう事がよくある。<br><br>でなければ霊的で、龍神の生れ更りである。<br><br>蛇の性能が大分残っている。<br><br> 割合い治りいい。<br><br>浄霊して、祝詞を奏げてやる。<br><br>（S24.11. 7） 148 疣、ほくろ、痣 謹んで御伺い申し上げます。<br><br>疣、ほくろ、痣は霊的で御座いましょうか。<br><br>また、御浄霊法を御伺い申し上げます。<br><br> 霊的で、疣は先天的と後天的とあり。<br><br>ほくろは前の世の徴し。<br><br>痣は全部霊的で、後天的痣は内出血である。<br><br>（S24. 9.16） rattail（注） 〔 御光話（S23年11月18日） 『御光話録』1号、昭和23(1948)年12月8日発行〕 ――アザ、イボ、ホクロなどはなぜできるのでしょうか。<br><br> 『アザには黒と赤の二種類ありますが、黒は怨みの霊で、それが霊に染みついて霊界の浄化でも取りきれないうちに生まれた場合です。<br><br>例えば肩を切られて死んだ場合、その怨みが向こうの肩へ行くんです。<br><br>赤のアザのほうは自分が斬られたり槍で突かれたりした場合、やはり霊界で不浄化のまま再生したのですよ。<br><br>ほくろは運命のしるしです。<br><br>口のはたのほくろは「食いぼくろ」と言って食うに困らない。<br><br>私は二つありますよ。<br><br>首すじのは「着ぼくろ」と言って着物に困らず、目の縁のは「泣きぼくろ」と言いますね。<br><br>いぼもとれるのと、とれないのとあります。<br><br>やはりその人の運命のしるしですね。<br><br>』 149 蕁麻疹とカレー 遠藤哲三（十三歳）、六年前カレーを食べ蕁麻疹となり、医師にもかけずそのままにしたところ、全身鳥肌となり、痒みのため夜も泣き通す現状で、手足は鶏のごとく、爪は鶏そっくりで、その子が坐った跡はフケで真白くなります。<br><br>これは治るものでしょうか。<br><br> よく蕁麻疹というが、カルシュウムを服んだり注射したりするものは必ず出来る。<br><br> カレーのため鶏のようになるというのは、カレーの鳥が人間の霊で、よほど執着の強い霊とみえる。<br><br>珍しい事である。<br><br>しかし、治るには治る。<br><br>（S24. 3.20） 150 蕁麻疹より紫斑病 喘息から蕁麻疹が出、その後手足に紫斑病が出て、入浴の時ヒリヒリし、浄化致します。<br><br>右の原因―― 薬毒である。<br><br> 紫斑病は医学で恐いようにいうが、毒血が皮膚面へ出る。<br><br> 蕁麻疹はカルシュウムである。<br><br>霊的にいうと動物霊。<br><br>体的にいうと皮膚が硬い。<br><br>毒が皮下にあってノビがわるい。<br><br> 151 紫茶色のシミ 私の叔父、三年前より地獄の印と云われる一銭銅貨位の紫茶色のしみが沢山出ておりますが、どう云う訳でございましょうか。<br><br> 斑点がはっきりして――、血の中に毒があるのが出てくる。<br><br>薬毒である。<br><br>血の中の異物には違いない。<br><br>霊的の怨み等の罪による事もある。<br><br>（丸い――霊的）（S23. 7.18） 152 シャックリ 私の主人がシャックリが出て、浄霊しても止りません。<br><br>何か霊的の原因が御座居ましょうか。<br><br>お伺い致します。<br><br> 横隔膜か前頭部か延髄かを浄霊すれば治る。<br><br>それで治らねば鳥の霊である。<br><br>鳥の霊の場合は長い。<br><br>その場合は咽喉の辺から浄霊する。<br><br>（S24. 5.28） 153 シャックリの原因 シャックリの原因について御教示の程を御願い申し上げます。<br><br> 横隔膜に原因がある。<br><br>食道とは関係がある。<br><br> 延髄をやると大抵治る。<br><br>でなければ横隔膜、胃の噴門をやる。<br><br> 霊的のシャックリは七面鳥などである。<br><br>（S24. 2. 8） 154 シャックリの原因 シャックリはいかなる原因で御座いましょうか。<br><br>霊的に意味が御座いましょうか。<br><br>御伺い申し上げます。<br><br> 横隔膜の真中あたりに原因がある。<br><br>延髄部を浄める。<br><br>または前頭部（または後頭部）または胃の辺を浄めれば治る。<br><br> 先に七面鳥の霊が憑り、シャックリが連続的に起った。<br><br>（男であった）鳥のように喉を鳴らす。<br><br>（S23.11.21） 155 鳥霊によるシャックリ 私が現在浄霊している女の人（三十六歳にて未だ入信しておりません）は浄霊を始めかけるとシャックリをやり出し、長く続けてると一層ひどく、五分間に百五十回もやります。<br><br>その時はとても苦しく、息が切れそうです。<br><br>霊的関係のものでしょうか。<br><br>どこを浄霊したら良いでしょうか。<br><br>御伺い致します。<br><br> 霊的には鳥の霊で、七面鳥などの種類である。<br><br>七面鳥はシャックリするものである。<br><br> 喉からの中心線、特に胃部、横隔膜近所、背中と、気長にやる。<br><br>（S25. 5. 5） 156 シャックリの霊原因 シャックリの霊的原因について―― 胃の噴門から横隔膜へ寄った所に原因がある。<br><br>食物の消化の関係や刺戟などで起る。<br><br> 癖になるものである。<br><br>頭を浄霊して治る。<br><br>霊的は七面鳥の霊で、猛烈に大きく、喉が動く。<br><br>これは生命に係わる場合がある。<br><br>（S24. 4. 3） 157 白痴の霊原因 白痴は霊的にいかなる原因でしょうか。<br><br> 霊的と体的とある。<br><br>霊的に多いのは子供の霊が憑る。<br><br>年をとっては憑らぬが、多いのは十歳以下で、十五歳位までは憑る。<br><br> 例えば二、三歳の霊が憑ると智能は二、三歳で続くのである。<br><br>白痴は赤ン坊とか子供の状態になる。<br><br>それで智能の発育が止る。<br><br>子供の中に浄霊すると救われるか萎縮する。<br><br>萎縮すれば肉体はその影響を受けなくなる。<br><br>小児麻痺の場合もそうである。<br><br>子供の霊または卒中で変死の霊は頭悪くなる。<br><br>脳溢血などで死んだのは頭が悪いと同時に身体に故障が起る。<br><br>若田部は二歳位の霊、小便などし、全く子供の状態であった。<br><br>（S23.10.13） 158 クレチン病 クレチン病（俗に一寸法師）の霊的関係を御伺い申し上げます。<br><br> 人間の背の伸びる機能は脳髄にある。<br><br>そういう機能が欠けているのである。<br><br> 霊的には、高所から落ち、頭をブッつけて死んだ。<br><br>そしてそこだけ欠陥が出来ている。<br><br>それが浄化されぬうちに生まれてくるので、その欠陥が残っているためである。<br><br>また、頭を切られて死んだため、脳の発育機関が壊されて死に、それが治らぬうちに生まれたものである。<br><br> 一寸法師ではないが、子供など発育の悪いのは、赤ン坊の霊の場合と龍神の憑ったのがある。<br><br>龍神の方は足だけがグニャグニャしている。<br><br>また生まれて間もなく注射を沢山打ったためと、この三原因がある。<br><br> 159 一寸法師 背丈は二、三尺しかないので御座いますが、相貌は普通人と変らないような一寸法師を時折見受けますが、これは霊的にどのような訳があるので御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> 医学上と霊的と両方ある。<br><br>脳下垂体といって、背の伸びる液体があり、これが足らぬと伸びないというが、これは根拠がある。<br><br> 霊的では、前の世で拷問されるとか、牢獄で身体を縛られたりなどして虐殺された霊である。<br><br>腰や首を叩いて不具にするとか、足を切られるとかで、完全にゆかぬのが新しく足が出来るというような場合もある。<br><br>それは体的にも新規に出来る場合がある。<br><br> 先におデキのため男根を切断した男があったが、そのうちに伸びて、結婚して子が出来たのがあった。<br><br>（S24. 7.12）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de Teses do Reverendo Jikan Okada – Pesquisa de Ensinamentos: Pesquisa de Materiais de Auxílio: Volume de Estudos Espirituais – Parte 1 – Enfermidades de Causa Espiritual (I)</h2>
 <h3>139. Mudez precedida por choro contínuo após o nascimento</h3>
@@ -170,5 +322,48 @@ function toggleLang(lang) {
 <p><strong>Pergunta:</strong> Ocasionalmente, vemos pessoas com nanismo, que medem apenas de sessenta a noventa centímetros, mas cujas feições são como as de uma pessoa comum. Qual seria a explicação espiritual para essa condição? Rogo a Vossa Reverendíssima que me ensine.</p>
 <p><strong>Meishu-Sama:</strong> Existem causas médicas e espirituais. A medicina aponta para a hipófise, que produz um líquido responsável pelo crescimento. A deficiência desse líquido impediria o desenvolvimento, e essa teoria tem fundamento.</p>
 <p>Do ponto de vista espiritual, trata-se de um espírito que, em vida anterior, foi torturado ou assassinado de forma brutal em uma prisão, tendo o corpo amarrado. Pode ter sido alguém que teve a lombar ou o pescoço golpeado até se tornar aleijado, ou que teve as pernas cortadas. Em alguns casos, um membro que estava incompleto pode se regenerar. Isso também pode ocorrer fisicamente. Certa vez, houve o caso de um homem que teve o pênis amputado devido a um tumor, mas com o tempo o órgão se regenerou, e ele pôde se casar e ter filhos. (12.07.1949)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊学篇 一 霊的病気（一） ８ 139-159 霊体両因４ 139 生後泣き続けて唖 当年三十九歳の女、生後六カ月迄は病気と思われる位非常に泣き続けました所、七カ月より全然泣かなくなり、驚き医師の診断を受けしところ、唖故治癒不能との事にて現在に至っております。<br/><br/>発音はどの音も出ますが、言葉になりません。<br/><br/>頭は良く、物覚えもよいのですが、右は本当の唖で御座居ましょうか。<br/><br/>御浄霊により話が出来、聞えるようになりましょうか。<br/><br/>右、御教示御願い申し上げます。<br/><br/> 耳が聞えないために言葉が出ない。<br/><br/>まず聞えるようにしなくてはいけない。<br/><br/>霊的と体的と両方ある。<br/><br/>頭の中心から前頭にかけて固まっている。<br/><br/>霊的には木龍が憑ったのであろう。<br/><br/>（S25. 5.23） 140 赤ン坊の霊（骨なし症状） 当年四歳になる男児、首がぐにゃぐにゃで、ものが言えず歩けもせず。<br/><br/>這いも座りもしません。<br/><br/>いかなる訳でしょう。<br/><br/>いかにすれば治りますか。<br/><br/> 注射か、赤ン坊の霊である。<br/><br/> 141 高熱・足腰起たぬ幼児（長男） 今年十一歳の男の子、昭和十五年五月発病、当時二歳、四十二度位の高熱が続き、医者は小児麻痺らしいと云われただけで、病名もはっきりせず、その後種々手当をしましたが効果なく、現在まで足腰が起たず、最近入信させていただいております。<br/><br/>右の因縁関係をお教え下さい。<br/><br/> 霊的体的両方に考えられるが、これは霊的らしい。<br/><br/>祖先に高所から落ちたりなどで足腰起たず死んだ霊――。<br/><br/>あるいは――、注射のため腰の起たぬ場合もよくある。<br/><br/>どっちだか、とにかく腰を気長に浄霊すれば治る。<br/><br/>（S24. 4.28） 142 発育せぬ小児 二歳の男子、生れて以来半年経っても少しも発育せず、虫封じをやる人（漢方医者）の治療を受けました所、脳と気管支が悪いと云われましたが、一年位経っても変化なく、現在は半年位御浄霊を戴きましたがこれも変化ありません。<br/><br/>最近は両親も一生懸命に御縋りしています。<br/><br/>右の原因と浄霊法を御伺い申し上げます。<br/><br/> 霊的と体的とある。<br/><br/> 体的原因としては、生れて間もなく少し沢山注射すると二、三年発育が止まる。<br/><br/> 霊的原因は赤ン坊の霊、死産とか流産をした霊で、その霊の状態になる。<br/><br/>これは非常に長く掛かるが治る。<br/><br/> 前頭部の熱である。<br/><br/>寧ろ何でもない。<br/><br/> 身体全体、腎臓部、前頭部を浄霊する。<br/><br/>（S24） 143 幼児の喀痰、座力なし、発育不良 三歳の男児、生まれつき弱く、今なお座る事も出来ません。<br/><br/>昨年十一月より御浄霊を受け、本人の父が入信、本年三月光明如来様を祭らせて頂きました。<br/><br/>現在では握る力は付きましたが、毎日咽喉がゼイゼイし、風邪を引き易く、咳がたえず出ています。<br/><br/>妻は後妻で、その子供が三人共生後間もなく死亡、叔母は卒中にて死亡、いかなる病気でしょうか。<br/><br/> 生まれてすぐ注射すると発育が止まる。<br/><br/>注射したんでなければ、妊娠中に薬を飲んだんだが――。<br/><br/> 死産とか流産（五ケ月以上）した赤子の霊の憑いた場合こういう事がある。<br/><br/> 浄霊を気長にすれば治る。<br/><br/> グニャグニャしているのは龍神である。<br/><br/> 座る力のないのは腰骨に毒がある。<br/><br/> ゼイゼイいうのは、親の薬毒か、あるいは赤ン坊の時、母体の汚露を飲む。<br/><br/>肺中に痰が溜るとゼイゼイいう。<br/><br/>その場合、背中に熱い所がある。<br/><br/>また、死んだ三児のどれかが憑る事あり。<br/><br/>肺で死んだ霊がつくとその通りになる。<br/><br/> 144 百日咳より憑霊 死霊は始終憑りたがっている。<br/><br/>衰弱を狙って憑った。<br/><br/> 百日咳の毒が腹部と背部に残っている。<br/><br/>（汚露）の残部がある。<br/><br/>（S24. 7. 9） 145 時間泣きの嬰児 生後四ケ月の男児、数日前より毎日午後六時頃になりますと大声で泣き、三十分位泣き続けます。<br/><br/>いかなる訳でございましょうか。<br/><br/>御教示お願い申し上げます。<br/><br/> いろいろある。<br/><br/>霊的である。<br/><br/>体的の場合とある。<br/><br/>祝詞を奏げる。<br/><br/>そして泣き止めば霊である。<br/><br/>でなければ、どこか痛い所か何かある。<br/><br/>（S24.11.28） 146 尿道の奇形、早産流産 大橋かよ子（六歳）、小便がチビチビ出続き、浄霊は半月位続けておりますが今日に至るも変化ありません。<br/><br/>全快致しますでしょうか。<br/><br/>また、食事を致します時に赤ちゃんのようにチュウチュウと御飯を吸込みます。<br/><br/>いかなる因縁でしょうか、お尋ね致します。<br/><br/>なお、妹定子（二歳）、生後二十日頃より右眼横に豆粒大の赤い血豆様の物が出来ました。<br/><br/>医者に診てもらったのですが治らないとの事です。<br/><br/>浄霊にて全快の見込みがあるでしょうか。<br/><br/>また、霊的に因縁がありますか、お教え下さい。<br/><br/> 尿道が細いのであろう。<br/><br/>尿道の奇形である。<br/><br/>霊的関係もあろう。<br/><br/>赤ン坊の霊で、早産か流産の霊である。<br/><br/>即ち普通の人間に完成していない霊で、乳を呑むようにチューチュー吸う。<br/><br/>査べて心当りの者あれば祀る。<br/><br/>赤いツブツブは毒血の塊である。<br/><br/>浄霊で早く治る。<br/><br/>（S24.11. 7） 147 四肢使えぬ幼児 生後一年四ケ月になる女の子、千鶴子と申しますが、生来手足がフラフラにて立つ事も歩く事も出来ませんが、これは霊的でしょうか。<br/><br/>この浄霊法を御教示下さい。<br/><br/> 生後すぐ注射したのはこういう事がよくある。<br/><br/>でなければ霊的で、龍神の生れ更りである。<br/><br/>蛇の性能が大分残っている。<br/><br/> 割合い治りいい。<br/><br/>浄霊して、祝詞を奏げてやる。<br/><br/>（S24.11. 7） 148 疣、ほくろ、痣 謹んで御伺い申し上げます。<br/><br/>疣、ほくろ、痣は霊的で御座いましょうか。<br/><br/>また、御浄霊法を御伺い申し上げます。<br/><br/> 霊的で、疣は先天的と後天的とあり。<br/><br/>ほくろは前の世の徴し。<br/><br/>痣は全部霊的で、後天的痣は内出血である。<br/><br/>（S24. 9.16） rattail（注） 〔 御光話（S23年11月18日） 『御光話録』1号、昭和23(1948)年12月8日発行〕 ――アザ、イボ、ホクロなどはなぜできるのでしょうか。<br/><br/> 『アザには黒と赤の二種類ありますが、黒は怨みの霊で、それが霊に染みついて霊界の浄化でも取りきれないうちに生まれた場合です。<br/><br/>例えば肩を切られて死んだ場合、その怨みが向こうの肩へ行くんです。<br/><br/>赤のアザのほうは自分が斬られたり槍で突かれたりした場合、やはり霊界で不浄化のまま再生したのですよ。<br/><br/>ほくろは運命のしるしです。<br/><br/>口のはたのほくろは「食いぼくろ」と言って食うに困らない。<br/><br/>私は二つありますよ。<br/><br/>首すじのは「着ぼくろ」と言って着物に困らず、目の縁のは「泣きぼくろ」と言いますね。<br/><br/>いぼもとれるのと、とれないのとあります。<br/><br/>やはりその人の運命のしるしですね。<br/><br/>』 149 蕁麻疹とカレー 遠藤哲三（十三歳）、六年前カレーを食べ蕁麻疹となり、医師にもかけずそのままにしたところ、全身鳥肌となり、痒みのため夜も泣き通す現状で、手足は鶏のごとく、爪は鶏そっくりで、その子が坐った跡はフケで真白くなります。<br/><br/>これは治るものでしょうか。<br/><br/> よく蕁麻疹というが、カルシュウムを服んだり注射したりするものは必ず出来る。<br/><br/> カレーのため鶏のようになるというのは、カレーの鳥が人間の霊で、よほど執着の強い霊とみえる。<br/><br/>珍しい事である。<br/><br/>しかし、治るには治る。<br/><br/>（S24. 3.20） 150 蕁麻疹より紫斑病 喘息から蕁麻疹が出、その後手足に紫斑病が出て、入浴の時ヒリヒリし、浄化致します。<br/><br/>右の原因―― 薬毒である。<br/><br/> 紫斑病は医学で恐いようにいうが、毒血が皮膚面へ出る。<br/><br/> 蕁麻疹はカルシュウムである。<br/><br/>霊的にいうと動物霊。<br/><br/>体的にいうと皮膚が硬い。<br/><br/>毒が皮下にあってノビがわるい。<br/><br/> 151 紫茶色のシミ 私の叔父、三年前より地獄の印と云われる一銭銅貨位の紫茶色のしみが沢山出ておりますが、どう云う訳でございましょうか。<br/><br/> 斑点がはっきりして――、血の中に毒があるのが出てくる。<br/><br/>薬毒である。<br/><br/>血の中の異物には違いない。<br/><br/>霊的の怨み等の罪による事もある。<br/><br/>（丸い――霊的）（S23. 7.18） 152 シャックリ 私の主人がシャックリが出て、浄霊しても止りません。<br/><br/>何か霊的の原因が御座居ましょうか。<br/><br/>お伺い致します。<br/><br/> 横隔膜か前頭部か延髄かを浄霊すれば治る。<br/><br/>それで治らねば鳥の霊である。<br/><br/>鳥の霊の場合は長い。<br/><br/>その場合は咽喉の辺から浄霊する。<br/><br/>（S24. 5.28） 153 シャックリの原因 シャックリの原因について御教示の程を御願い申し上げます。<br/><br/> 横隔膜に原因がある。<br/><br/>食道とは関係がある。<br/><br/> 延髄をやると大抵治る。<br/><br/>でなければ横隔膜、胃の噴門をやる。<br/><br/> 霊的のシャックリは七面鳥などである。<br/><br/>（S24. 2. 8） 154 シャックリの原因 シャックリはいかなる原因で御座いましょうか。<br/><br/>霊的に意味が御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 横隔膜の真中あたりに原因がある。<br/><br/>延髄部を浄める。<br/><br/>または前頭部（または後頭部）または胃の辺を浄めれば治る。<br/><br/> 先に七面鳥の霊が憑り、シャックリが連続的に起った。<br/><br/>（男であった）鳥のように喉を鳴らす。<br/><br/>（S23.11.21） 155 鳥霊によるシャックリ 私が現在浄霊している女の人（三十六歳にて未だ入信しておりません）は浄霊を始めかけるとシャックリをやり出し、長く続けてると一層ひどく、五分間に百五十回もやります。<br/><br/>その時はとても苦しく、息が切れそうです。<br/><br/>霊的関係のものでしょうか。<br/><br/>どこを浄霊したら良いでしょうか。<br/><br/>御伺い致します。<br/><br/> 霊的には鳥の霊で、七面鳥などの種類である。<br/><br/>七面鳥はシャックリするものである。<br/><br/> 喉からの中心線、特に胃部、横隔膜近所、背中と、気長にやる。<br/><br/>（S25. 5. 5） 156 シャックリの霊原因 シャックリの霊的原因について―― 胃の噴門から横隔膜へ寄った所に原因がある。<br/><br/>食物の消化の関係や刺戟などで起る。<br/><br/> 癖になるものである。<br/><br/>頭を浄霊して治る。<br/><br/>霊的は七面鳥の霊で、猛烈に大きく、喉が動く。<br/><br/>これは生命に係わる場合がある。<br/><br/>（S24. 4. 3） 157 白痴の霊原因 白痴は霊的にいかなる原因でしょうか。<br/><br/> 霊的と体的とある。<br/><br/>霊的に多いのは子供の霊が憑る。<br/><br/>年をとっては憑らぬが、多いのは十歳以下で、十五歳位までは憑る。<br/><br/> 例えば二、三歳の霊が憑ると智能は二、三歳で続くのである。<br/><br/>白痴は赤ン坊とか子供の状態になる。<br/><br/>それで智能の発育が止る。<br/><br/>子供の中に浄霊すると救われるか萎縮する。<br/><br/>萎縮すれば肉体はその影響を受けなくなる。<br/><br/>小児麻痺の場合もそうである。<br/><br/>子供の霊または卒中で変死の霊は頭悪くなる。<br/><br/>脳溢血などで死んだのは頭が悪いと同時に身体に故障が起る。<br/><br/>若田部は二歳位の霊、小便などし、全く子供の状態であった。<br/><br/>（S23.10.13） 158 クレチン病 クレチン病（俗に一寸法師）の霊的関係を御伺い申し上げます。<br/><br/> 人間の背の伸びる機能は脳髄にある。<br/><br/>そういう機能が欠けているのである。<br/><br/> 霊的には、高所から落ち、頭をブッつけて死んだ。<br/><br/>そしてそこだけ欠陥が出来ている。<br/><br/>それが浄化されぬうちに生まれてくるので、その欠陥が残っているためである。<br/><br/>また、頭を切られて死んだため、脳の発育機関が壊されて死に、それが治らぬうちに生まれたものである。<br/><br/> 一寸法師ではないが、子供など発育の悪いのは、赤ン坊の霊の場合と龍神の憑ったのがある。<br/><br/>龍神の方は足だけがグニャグニャしている。<br/><br/>また生まれて間もなく注射を沢山打ったためと、この三原因がある。<br/><br/> 159 一寸法師 背丈は二、三尺しかないので御座いますが、相貌は普通人と変らないような一寸法師を時折見受けますが、これは霊的にどのような訳があるので御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> 医学上と霊的と両方ある。<br/><br/>脳下垂体といって、背の伸びる液体があり、これが足らぬと伸びないというが、これは根拠がある。<br/><br/> 霊的では、前の世で拷問されるとか、牢獄で身体を縛られたりなどして虐殺された霊である。<br/><br/>腰や首を叩いて不具にするとか、足を切られるとかで、完全にゆかぬのが新しく足が出来るというような場合もある。<br/><br/>それは体的にも新規に出来る場合がある。<br/><br/> 先におデキのため男根を切断した男があったが、そのうちに伸びて、結婚して子が出来たのがあった。<br/><br/>（S24. 7.12）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

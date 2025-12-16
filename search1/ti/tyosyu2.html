@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>tyosyu2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 超宗教 (再録) 自観叢書12編『自観説話集』昭和25(1950)年1月30日発行 原文『地上天国』6号、昭和24(1949)年7月20日発行 本教のモットーとする、病貧争絶無の世界、地上天国建設などという事は、まず大抵の人は痴人の夢としか受取れないであろう。<br><br>なる程キリストは、「天国は近づけり」といったが、天国を造るとは言わなかった。<br><br>釈尊は、「仏滅後弥勒の世が出現する」とは言ったが、それは五十六億七千万年後という箆棒（べらぼう）に長い年月後を言ったが、弥勒の世は目前に迫っているとは言わなかった。<br><br>猶太（ユダヤ）教徒がメシヤ降臨を祈願してはいるがそれはいつだか判らない。<br><br>印度（インド）における古来からの伝説、転輪菩薩の出現も、天理教の甘露台の世も、日蓮の唱えた義農の世も、大本教祖の唱えた松の世も、時をはっきりさせなかったという事を深く考えてみなければならない。<br><br>以上のいずれの予言をとってみても、立派に役立っては来たが、さらばといって実行の宣言も、実現の企画もなかったという事は、時期尚早のためと解すべきであろう。<br><br>そうして、それら各宗祖によって説かれたり、実践された事が基礎となって、今日あるがごとき各派の宗教となった事は誰もが見る通りである。<br><br> もちろん全世界の各民族や国家に適合すべく、教義の建前、形式、方法等各宗祖が創成し、弘通（ぐつう）させたのであって、その時代、地域、民族、伝統、習慣等に必要当はまるべき手段方法等を、主神の意図の下に行わしめ給うた事は言うまでもない。<br><br>それによって私〔和〕の精神を養い、今日のごとき絢爛たる文化の発展もあり得たのである。<br><br>もし世界各国に、仮に宗教が生れなかったとしたら、悪魔の横行は、その度を知らず、世界はすでに破壊滅亡していたかも知れないのである。<br><br>それこれを考える時、今日まで輩出した宗祖聖者等の功績は、いかに高く評価されても決して過ぎる事はないであろう。<br><br> 前述のごとく、既存の宗教の力が、世界の滅亡を喰い止め得たとしても、今日、及び今日以後の世界に対し、引き続き役立つかは疑問と言わねばならない。<br><br>何となれば、現在世界を見る時、いかに地獄的苦悩に喘ぎつつあるかで、これを喰い止め、天国的状態にまで引上げるには、既存宗教の力では困難である事は、現在を救うにさえ力足りない有様は、それをよく物語っている。<br><br>事実今日の輝かしい文化の恩恵に浴し得るものとしては、限られたる一部の民族でしかない。<br><br>そうして右の原因としては余りに和の精神に乏しく、あまりに闘争に耽り過ぎる事である。<br><br> 以上のごとく現在の世界を観察する時、どうしてもこれら無明暗黒を解消すべき、一大光明が表われなくてはならない時期と、心ある者は期待せずにはおられない。<br><br>すなわち超宗教的救いの力である。<br><br> 吾らはこの意味において、超宗教としての任を負わされたものとの自覚によって、着々実行をもって驚異すべき成果を挙げつつあるのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Advento da Salvação Suprarreligiosa</h2>
 <p>A construção de um mundo isento de doença, pobreza e conflito — o Paraíso Terrestre, que constitui o lema de nossa fé — é uma proposta que a maioria das pessoas certamente consideraria um devaneio de insensatos. De fato, Cristo afirmou: “O Reino dos Céus está próximo”, mas não declarou que o edificaria. Buda Shakyamuni predisse que “após a extinção do budismo, o mundo de Maitreya surgirá”, porém, referiu-se a um futuro assombrosamente remoto, de cinco bilhões, seiscentos e setenta milhões de anos, sem jamais insinuar que essa nova era estivesse iminente. Os seguidores do judaísmo anseiam pela vinda do Messias, mas ignoram quando ocorrerá. É fundamental ponderar a fundo sobre o fato de que nem a antiga lenda indiana sobre o advento do Bodhisattva Tenrin, nem o mundo do Kanrodai da Tenrikyo, nem a era de Gino preconizada por Nichiren, nem o mundo de Matsu proclamado pela fundadora da Oomoto, determinaram com clareza o tempo de sua concretização.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Contudo, embora a força das religiões preexistentes tenha sido capaz de impedir a completa aniquilação do mundo, é forçoso questionar se elas ainda possuem a capacidade de servir ao mundo de hoje e do futuro. Afinal, ao observarmos a realidade atual, percebemos a que ponto a humanidade agoniza em sofrimentos infernais. A dificuldade que as religiões existentes enfrentariam para deter esse processo e elevar a humanidade a uma condição paradisíaca é manifesta, pois sua impotência para salvar sequer o presente já demonstra isso eloquentemente. Na realidade, os que podem usufruir das benesses da brilhante cultura de nossos dias são apenas uma parcela limitada da humanidade. A causa para tal cenário reside na profunda carência do espírito de harmonia e na excessiva inclinação para os conflitos.</p>
 <p>Ao se observar o mundo contemporâneo sob essa ótica, os homens de discernimento não podem deixar de anelar pela chegada do tempo em que uma Grande Luz deverá surgir para dissipar essa era de trevas e ignorância. Trata-se, em suma, do poder de uma salvação suprarreligiosa.</p>
 <p>É nesse sentido que nós, cientes da missão que nos foi confiada como uma força suprarreligiosa, estamos, passo a passo, por meio da prática, alcançando resultados verdadeiramente surpreendentes.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 超宗教 (再録) 自観叢書12編『自観説話集』昭和25(1950)年1月30日発行 原文『地上天国』6号、昭和24(1949)年7月20日発行 本教のモットーとする、病貧争絶無の世界、地上天国建設などという事は、まず大抵の人は痴人の夢としか受取れないであろう。<br/><br/>なる程キリストは、「天国は近づけり」といったが、天国を造るとは言わなかった。<br/><br/>釈尊は、「仏滅後弥勒の世が出現する」とは言ったが、それは五十六億七千万年後という箆棒（べらぼう）に長い年月後を言ったが、弥勒の世は目前に迫っているとは言わなかった。<br/><br/>猶太（ユダヤ）教徒がメシヤ降臨を祈願してはいるがそれはいつだか判らない。<br/><br/>印度（インド）における古来からの伝説、転輪菩薩の出現も、天理教の甘露台の世も、日蓮の唱えた義農の世も、大本教祖の唱えた松の世も、時をはっきりさせなかったという事を深く考えてみなければならない。<br/><br/>以上のいずれの予言をとってみても、立派に役立っては来たが、さらばといって実行の宣言も、実現の企画もなかったという事は、時期尚早のためと解すべきであろう。<br/><br/>そうして、それら各宗祖によって説かれたり、実践された事が基礎となって、今日あるがごとき各派の宗教となった事は誰もが見る通りである。<br/><br/> もちろん全世界の各民族や国家に適合すべく、教義の建前、形式、方法等各宗祖が創成し、弘通（ぐつう）させたのであって、その時代、地域、民族、伝統、習慣等に必要当はまるべき手段方法等を、主神の意図の下に行わしめ給うた事は言うまでもない。<br/><br/>それによって私〔和〕の精神を養い、今日のごとき絢爛たる文化の発展もあり得たのである。<br/><br/>もし世界各国に、仮に宗教が生れなかったとしたら、悪魔の横行は、その度を知らず、世界はすでに破壊滅亡していたかも知れないのである。<br/><br/>それこれを考える時、今日まで輩出した宗祖聖者等の功績は、いかに高く評価されても決して過ぎる事はないであろう。<br/><br/> 前述のごとく、既存の宗教の力が、世界の滅亡を喰い止め得たとしても、今日、及び今日以後の世界に対し、引き続き役立つかは疑問と言わねばならない。<br/><br/>何となれば、現在世界を見る時、いかに地獄的苦悩に喘ぎつつあるかで、これを喰い止め、天国的状態にまで引上げるには、既存宗教の力では困難である事は、現在を救うにさえ力足りない有様は、それをよく物語っている。<br/><br/>事実今日の輝かしい文化の恩恵に浴し得るものとしては、限られたる一部の民族でしかない。<br/><br/>そうして右の原因としては余りに和の精神に乏しく、あまりに闘争に耽り過ぎる事である。<br/><br/> 以上のごとく現在の世界を観察する時、どうしてもこれら無明暗黒を解消すべき、一大光明が表われなくてはならない時期と、心ある者は期待せずにはおられない。<br/><br/>すなわち超宗教的救いの力である。<br/><br/> 吾らはこの意味において、超宗教としての任を負わされたものとの自覚によって、着々実行をもって驚異すべき成果を挙げつつあるのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

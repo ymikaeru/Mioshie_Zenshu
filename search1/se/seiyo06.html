@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>seiyo06</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 西洋医学の野蛮性 未発表、昭和11(1936)年5月10日執筆 西洋医学は実に野蛮極まるものであると私は思うのである。<br><br>何となれば治療の場合、患者に対し非常なる苦痛を与えるのである。<br><br>勿論それは故意からではない、治療上止むを得ない善意からである事はよく判ってはいるが、その事実を検討するにおいて、確かに野蛮の一言に尽きるのである。<br><br> 近来、外科医術は進歩したとの誇りを吾々はよく聞かされる。<br><br>しかし、その度毎に失笑を禁じ得ないのである。<br><br>何となれば、メスを以て肉を切り、筋を断ち、血を流し、患者に苦痛を与え、多額の費用と相当の日数を要させるのである。<br><br>しかも、偶々（たまたま）好結果を得たとしても、一生涯不具にも等しい瘡痕をありありと残すと共に、他の疾患を起し易くなるのである。<br><br>しかも、反対に不幸な結果を見る事さえすくなくない事は、誰もがよく知る通りである。<br><br>それは手術前に万一の場合を顧慮して、異議を言わないという証書をとるにみても明かであろう。<br><br> しかしながら医家はいうであろう。<br><br>重患の場合手術をしなければ生命に関するので、第二善の方法として止むを得ないのであると。<br><br>それも吾々は諒知している。<br><br>勿論それも妥当である事は間違いないが、ただ吾人の言わんとする所は、医学の進歩とは、 一、治療上絶対に苦痛を与えない事。<br><br> 二、不具的瘡痕を残さない事。<br><br> 三、万一と称する不結果の無い事。<br><br> これである。<br><br>この三つの一つでも解決が出来たら、それは確かに医学の進歩と言ってもよいのである。<br><br> しかるに、今日言うところの医学上の進歩とは何か、それは切開の方法が巧妙になったとか、麻酔法が進歩したというような事であるが、それらは実に末梢的であって、根本的に何ら触れて居ない事は、前述の説明のごとくである。<br><br>かくのごとき末梢的進歩に、当事者と世人も幻惑され陶酔しつつ真の進歩の意味を知らない、文化人なるものもまた哀れむべしと言うべきである。<br><br> これを正しく批判するにおいて、科学を基本とする西洋医学での研究は、その努力に対する成果の余りに微々たる事である。<br><br>しからば、それはどうすればいいかと言えば、まず一旦現代医学の研究を揚棄する事である。<br><br>そうして、その根本的誤謬と新しい出発点の発見である。<br><br>そうして、そこからの再出発でなくてはならない。<br><br>そうでない限り、依然として現在のごとき末梢的進歩に自己陶酔している限り、人類が病苦からの解放は、絶対不可能である事を断言して、この文を終る事とする。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Barbárie da Medicina Ocidental</h2>
 <p>Considero a medicina ocidental um método de tratamento extremamente bárbaro. A razão para tal afirmação reside no fato de que, durante seus procedimentos, ela inflige um sofrimento atroz ao paciente. Evidentemente, compreendo que essa dor não é causada de forma deliberada, mas sim como uma consequência inevitável de atos bem-intencionados. Ao analisar a realidade dos fatos, contudo, a conclusão inelutável é que tudo se resume em uma única palavra: barbárie.</p>
@@ -101,5 +253,48 @@ Terceiro: não haver a possibilidade de resultados mal sucedidos.</p>
 <p>Se ao menos um desses três pontos fosse solucionado, já poderíamos, com toda a certeza, falar em um genuíno avanço da medicina.</p>
 <p>No entanto, o que se entende por progresso médico na atualidade? Apenas que as técnicas de incisão se tornaram mais hábeis ou que os métodos de anestesia evoluíram. Tais avanços, como explicado anteriormente, são meramente superficiais e não tocam na raiz do problema. É de se lamentar que tanto os profissionais da área quanto o público em geral, incluindo os chamados intelectuais, permaneçam iludidos e inebriados por esses progressos periféricos, ignorando o verdadeiro significado da evolução.</p>
 <p>Ao analisarmos a questão com justeza, percebemos que os resultados obtidos pela pesquisa da medicina ocidental, fundamentada na ciência materialista, são irrisórios em comparação ao esforço empreendido. Sendo assim, qual seria a solução? Em primeiro lugar, é preciso abolir por completo a linha de pesquisa da medicina atual. Em seguida, deve-se identificar seu erro fundamental e descobrir um novo ponto de partida. Somente a partir desse recomeço será possível avançar. Do contrário, enquanto a medicina permanecer em um estado de autocomplacência com seus progressos superficiais, a libertação da humanidade do sofrimento causado pelas doenças será absolutamente impossível. Com esta categórica afirmação, encerro minhas palavras.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 西洋医学の野蛮性 未発表、昭和11(1936)年5月10日執筆 西洋医学は実に野蛮極まるものであると私は思うのである。<br/><br/>何となれば治療の場合、患者に対し非常なる苦痛を与えるのである。<br/><br/>勿論それは故意からではない、治療上止むを得ない善意からである事はよく判ってはいるが、その事実を検討するにおいて、確かに野蛮の一言に尽きるのである。<br/><br/> 近来、外科医術は進歩したとの誇りを吾々はよく聞かされる。<br/><br/>しかし、その度毎に失笑を禁じ得ないのである。<br/><br/>何となれば、メスを以て肉を切り、筋を断ち、血を流し、患者に苦痛を与え、多額の費用と相当の日数を要させるのである。<br/><br/>しかも、偶々（たまたま）好結果を得たとしても、一生涯不具にも等しい瘡痕をありありと残すと共に、他の疾患を起し易くなるのである。<br/><br/>しかも、反対に不幸な結果を見る事さえすくなくない事は、誰もがよく知る通りである。<br/><br/>それは手術前に万一の場合を顧慮して、異議を言わないという証書をとるにみても明かであろう。<br/><br/> しかしながら医家はいうであろう。<br/><br/>重患の場合手術をしなければ生命に関するので、第二善の方法として止むを得ないのであると。<br/><br/>それも吾々は諒知している。<br/><br/>勿論それも妥当である事は間違いないが、ただ吾人の言わんとする所は、医学の進歩とは、 一、治療上絶対に苦痛を与えない事。<br/><br/> 二、不具的瘡痕を残さない事。<br/><br/> 三、万一と称する不結果の無い事。<br/><br/> これである。<br/><br/>この三つの一つでも解決が出来たら、それは確かに医学の進歩と言ってもよいのである。<br/><br/> しかるに、今日言うところの医学上の進歩とは何か、それは切開の方法が巧妙になったとか、麻酔法が進歩したというような事であるが、それらは実に末梢的であって、根本的に何ら触れて居ない事は、前述の説明のごとくである。<br/><br/>かくのごとき末梢的進歩に、当事者と世人も幻惑され陶酔しつつ真の進歩の意味を知らない、文化人なるものもまた哀れむべしと言うべきである。<br/><br/> これを正しく批判するにおいて、科学を基本とする西洋医学での研究は、その努力に対する成果の余りに微々たる事である。<br/><br/>しからば、それはどうすればいいかと言えば、まず一旦現代医学の研究を揚棄する事である。<br/><br/>そうして、その根本的誤謬と新しい出発点の発見である。<br/><br/>そうして、そこからの再出発でなくてはならない。<br/><br/>そうでない限り、依然として現在のごとき末梢的進歩に自己陶酔している限り、人類が病苦からの解放は、絶対不可能である事を断言して、この文を終る事とする。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

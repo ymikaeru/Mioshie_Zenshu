@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>okage08</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： おかげばなし批判 事実が示す浄霊の優越性 『救世』54号、昭和25(1950)年3月18日発行 盲目から光明へ 難症が快癒し感激 岩手県 愛和中教会 菊地フミ（25） 私は八歳の年から二十四歳迄目を病み一人歩きの出来ない人間となりました。<br><br>勿論入院致し手術も眼球注射も致したつもりですが、すればする程見えなくなって行くのでした。<br><br>私は見えない眼も一生懸命に医師に通ったならきっと見えるようにして戴ける事と信じていました。<br><br>またそれが医者の仕事だと思ったのに事実はそれと反対でその悔しさはたまらない思いでした。<br><br> ある時病院通いの途中バスの中で見知らぬ人に「あなたは目が悪いのですね」と尋ねられ、私は「はい」と答えますと、「病院へ行って前より悪くなりませんか」と笑いながら言うのです。<br><br>「通えば通う程だんだん見えなくなるのに気が付きませんか。<br><br>それ以上通えば全然見えなくなりますよ、見えなくなったら藤根に光明如来様の教導所がありますからそこへお出でなさい。<br><br>そこは眼に見えない神即ち光明如来様の御力に依りあなたのような方や医者が治せぬ難病を殆ど全快させて下さる所ですよ、是非行って御覧なさい」と親切に教えて下さいました。<br><br>またその時は恐ろしくて何もいう事が出来ませんでした。<br><br> 見ず知らずの人の親切にうっかり乗ってどこかへ連れて行かれてはと思いそれが怖ろしかったのです。<br><br>私はそのまま気にも止めず、病院通いをせっせと続けましたところがその方のお言葉通りついに目が見えなくなってしまいました。<br><br> 私はあの時の事を今更のように思い出し教えられた教導所へ妹に手を引かれて行きました。<br><br>早速先生にお願いして浄霊をして戴きました。<br><br> 「一週間位続けて御覧なさい」とおっしゃられましたが、一週間どころか丁度三日目より一人でふらふらながら歩けるようになりました私は、先生のおっしゃるままに光明如来様にお縋りしました。<br><br>先生のお話に依りますとお守様を戴けばいかなる悩みもどんな病気でも短期間で治ってしまいます。<br><br>急性肺炎、盲腸の手後れ、日本脳炎又は馬の脳炎これらの病気なら一週間位で治ってしまいます。<br><br>百発百中心配無用、しかも教修うければあなたにもそれが出来るのです。<br><br>相手の患部に向い手を振るだけで良いのです。<br><br>先方の身体の曇りを浄霊に依って浄めますと相手の苦しみは取れまして絶対に再発する事は有りませんと聞かされ早速お守り様を戴きました。<br><br>その後一人歩きも自由に出来るようになり余りの有難さに光明如来様迄お迎え、御祭りをさせて戴いております。<br><br>その後私は横手愛和会教導所へ感謝の御奉仕をさせて戴いておりますが、その間医者で治らぬ重病人の実地にあまりにも多く治って行くのを見て驚歎のほかありません。<br><br>そればかりか、自分は十七年間悩み苦しみ続けて来たこの目が見えるようになった事をいかにして否定出来ましょうか。<br><br>事実の現われない理論を私は無論インチキ迷信と言いたくなります。<br><br> 理論を信じて事実を否定する人以外の皆様に光明如来様の御力に救われて喜ぶ人々の余りにも多い事を御紹介致しますと共に、事実を信じて一日も早く悩みから救われたい皆々様にぜひ眼に見えない神、即ち光明如来様の信徒になられるようおすすめ致します。<br><br> この実例は、現代医学の無効果を示すばかりか反って治療すればする程、悪化するという事実で、これは何を物語るものであろうか、吾々は決して医学に怨恨がある訳でもないから医学を非難するのは実に辛く、医学を賞める方がどんなに気持がいいか知れないと思う、しかし、事実は飽くまで枉（ま）げる事は出来ない、世には医学による被害者がいかに多いか判らない程であろう、しかるにこの真相を知らず、医学を無上のものと心得専心する者や、犠牲になる患者等を見る時、涙なきを得ないのである。<br><br> とはいうものの、吾らは、難症が快癒し感謝感激の報告をみる毎に、右と反対の涙を制える事は出来ないのである。<br><br> ＊ ＊ ＊ 咳止めで悪化す 塗布薬にも薬毒はある 岡山県 神光中教会 西崎清子（46） 昨年一月十一日長女文子（七歳）が風邪を引き発熱とひどい咳で早速医者にかかり毎日注射をしてもらいましたが咳は止らず、百日咳のようにはげしくせきますので夜も眠られず困っておりました。<br><br>余り治らないものですから薬局へ行って薬をもとめ服ませましたが、少しもききめがなく朝夕湿布をして何カ月も首に包帯を巻いておりました。<br><br>夜は子供の咳で共に眠られず病弱な私は共泣きしておりましたところへ、三月末に名古屋から船橋先生が来岡され光明如来様の有難いお話を承り御浄霊をして頂きました。<br><br>それから一週間位は咳をしては痰を出し毎日洗面器に半分位も吐きました。<br><br>あまりよく吐くので心配しましたが、二週間目からずっと減って三週間位経った頃には二銭銅貨位しか出なくなり、一カ月後には完全に出なくなり全快致しました。<br><br>船橋先生の申されますには「咳を止めようとして薬を服ませるから何カ月経っても治らないのだ、咳は痰を出す為のポンプ作用であるのだから痰を全部吐いてしまったら咳は自然に止るのだ」と教えて下さいました。<br><br>成程そうであったかと感心致しました。<br><br>なお次の子供も小さい時から吹出物が出来て五十日位医者へ通いましたが、ちっとも治らぬので放っておきましたら耳の中迄もオデキが出ました。<br><br>船橋先生はこれは「赤チン」をつける結果だと申されましたので、以来傷をしても紙を御飯粒で張って浄霊をしておきますと一週間もたてば跡方もなくきれいに光ってしまいます。<br><br> 丁度御浄霊を受けるようになってから一カ年になりますが、あれだけよく出ていたオデキが一つもなく治ってしまったのには近所の人達も驚いております。<br><br> 又これは病気ではありませんが、義弟（夫の弟）が満州で召集されシベリヤへ行き以来消息がない為親族一同死んだものと諦めておりましたが、何の通知もなく昨年の今月今夜ヒョッコリ帰宅しまして一同嬉し泣きに泣きました。<br><br>何分弟には二人の子供（十歳と七歳）がありまして、弟が死亡したら兄である私の夫が面倒を見ねばなりませんので、夫の喜びも大変でした。<br><br>これはひとえに光明如来様の御守護と一同感謝致しております。<br><br> 満一カ年を迎えまして数々の御利益を得ました事を厚く御礼申上げます。<br><br> これは、船橋先生の言のごとく、咳が治らなかったのは、咳を薬で止めようとしたからで逆療法であった、何よりも多量に痰が出てから全治したにみて明らかである、この理を知らない世人は一生懸命咳を止ようとするのであるから、一生懸命病気を治さないようにする訳である、ゆえに咳止め薬が無くなったら、咳の病は何分の一に減るかは確である、愚かなる者よ汝の名は現代人なりと言いたいくらいである。<br><br> また、子供の吹出物が出来、五十日医療を受けたが治らない、船橋先生は、赤チンのためといい、それをやめ紙を飯粒で、貼っただけで間もなく全治した、これによってみても、薬毒は塗布薬でも何でも同様という事を知るであろう。<br><br> ＊ ＊ ＊ 自然放置で治療 古血の集溜が発病のもと 三重県 三光中教会 伊藤しま（55） 二十四年という長い年月の間、眼を患い一時は失明して自殺まで決意した私が光明如来様の尊い御利益によって更生、再び明るく楽しい余生を迎えることが出来ました事を御報告させて頂くと共に、明主様始め諸先生方に厚く厚く御礼申上げます。<br><br> 大正十二年長女しづ子（現在二十七歳）を出産後俗に言う血の道でぶらぶらしておりましたが、翌十三年の五月中頃より眼やにと涙が出て仕方がありませんので医者に診せたところ、トラホームとかで毎日洗眼を怠らないようにとのことでございました。<br><br>素直に毎日通院致しました。<br><br>しかし眼は一向に楽にならず反って充血し痒痛すらも感ずるようになりました。<br><br>それでも外に良き方法もなかったため、こうしていればいつかはよくなるだろうと淡い望みで半年、一年、三年、五年、こうしていつの間にやら二十四年間も辛抱してしまいました。<br><br>一進一退の病状が私に微かな希望をもたせてここまでひっぱられて来たのでしたが、いずれにしても随分気の長い話でございます。<br><br>一口に二十四年と言いますと何でもないようですが、当時の赤ン坊が立派に養子を迎えるようになるまでですから自分ながら呆れる位でございます。<br><br>草芽時や草枯時が特にひどくその頃には注射をかかさずうっていたのでございます。<br><br>よく眼は心の窓と言いますが実際眼の見えない程悲しい事はございません。<br><br>何かをみてでしょう、楽しく嬉しそうに話している家族や近所の人達の話声を耳にする時の苦しみとあせりは全く経験した者でなくては判りません。<br><br>昭和十九年の暮より翌年始めにかけて私もその地獄苦を味いました。<br><br>自殺を思ったのもこの頃でございます。<br><br>こうしている内にいつしかこれはもう一生治るまい、とうとうこんな諦めを抱くようになっておりました。<br><br>ちょうどこの時分（二十一年八月七日）尾張よりはるばる後藤先生がお出でになり初めて光明如来様の御利益あらたかな事を教えられたのでございます。<br><br>浄霊（当時は治療）をして頂くようになりましてから涙がとめどなく出て反って悪くなったかに見えましたが、明主様の御霊徳と先生の御教えにより浄化作用の有難さを懇々と訓され自分の過去を振返ってみたのでございます。<br><br>二十四年間という長い年月を今から考えれば夢にも等しい望みをもって医療を続け、その結果が全快とは全くかけ離れた失明一歩手前いや失明をもしたのでございます。<br><br>その間に溜ったところの毒素は意識するとせないに拘わらず犯せし罪穢、それらを思う時始めて飜然と悟り得たのでございます。<br><br> 早速九月に夫に御光をさずけて頂き浄霊を続けて受けていたのでございます。<br><br>するとどうでしょう、あれ程頑固だった痛みも薄らぎ目やにも少くなってきました。<br><br>御利益が頂けたその時の私の嬉しさは生涯を通じて忘れる事が出来ません。<br><br>光明如来様の御利益を文字通り眼の辺りにみせつけられじっとしていることが出来ず、十二月には長女が翌年三月には次女が六月には私がと次々教修を頂いたのでございます。<br><br>もうその頃では目やにのみほんの僅か出るだけで平生と変りなきまでの眼にして頂きました。<br><br>実に二十数年間の薄暗い、じめじめした眼も心もからりと晴天にして頂いたのです。<br><br>僅々十カ月で驚異的な御利益御恵の偉大さ、ただ御礼の辞もなき次第でございます。<br><br> 二十三年一月には光明如来様を奉斎させて頂き、同じ苦しみに喘ぐ人々病苦に悩む方々へ御恵の万分の一なりともとひたすらに御用の一端を努力させて頂いております。<br><br>本当に有難うございました。<br><br> この患者の病歴を説明してみるとこうである、最初眼の発病は産後眼を使ったためである、それは産後古血が全部出切れない中に、神経を使うと、その個所へは必ず古血が集溜するものである、この患者もそうで、眼底に集血したのでその浄化発生によって、涙や目脂（めやに）となって排泄されようとしたところその時の医師がトラホームと錯覚して薬毒を注入したのでそれがため、漸次悪化したのである、忌憚なくいえば、自然に放置しておけば治るべきものを、誤れる医学が失明にまで追い込んだ訳である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Superioridade do Jyorei Demonstrada pelos Fatos</h2>
 <p><strong>De cego a vidente: a gratidão pela cura de uma doença complexa</strong>
@@ -125,5 +277,48 @@ function toggleLang(lang) {
 <p>Em setembro, meu marido recebeu a Medalha da Luz Divina e passou a me ministrar Jyorei continuamente. E então, um milagre: a dor, antes tão obstinada, começou a abrandar, e a secreção diminuiu. A alegria que senti naquele momento é algo que jamais esquecerei em toda a minha vida. Testemunhando com meus próprios olhos o poder de Deus Komyō Nyorai, não pude ficar inerte. Em dezembro, minha filha mais velha recebeu a Medalha; em março do ano seguinte, a mais nova; e em junho, foi a minha vez. Nessa altura, restava apenas uma secreção mínima, e minha visão havia retornado a um estado praticamente normal. Mais de duas décadas de escuridão e umidade, tanto nos olhos quanto na alma, foram dissipadas, dando lugar a um céu límpido e radiante. Em meros dez meses, recebi esta graça extraordinária. Não há palavras que possam expressar minha gratidão.</p>
 <p>Em janeiro de 1948, tive a permissão de entronizar a imagem de Deus Komyō Nyorai em meu lar e, desde então, dedico-me a servir, buscando levar ao menos uma parcela ínfima desta mesma graça àqueles que gemem sob o mesmo sofrimento e às pessoas que padecem com doenças. Muito, muito obrigada.</p>
 <p>A explicação para o histórico desta paciente é a seguinte: a doença ocular teve início devido ao esforço visual no período pós-parto. Após o nascimento de um filho, parte do sangue antigo permanece no corpo da mulher. Se, nesse período, ela utiliza excessivamente os nervos de uma determinada região, esse sangue estagnado ali se concentra. No caso desta fiel, o sangue acumulou-se no fundo de seus olhos. O processo de purificação natural do corpo tentou expelir essa impureza através de lágrimas e secreção, mas o médico da época diagnosticou erroneamente o quadro como tracoma e injetou yakudoku. Isso foi o que agravou gradualmente sua condição. Falando sem rodeios, se a doença tivesse sido deixada à sua evolução natural, ela teria se curado. Foi um erro médico que a conduziu à beira da cegueira.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： おかげばなし批判 事実が示す浄霊の優越性 『救世』54号、昭和25(1950)年3月18日発行 盲目から光明へ 難症が快癒し感激 岩手県 愛和中教会 菊地フミ（25） 私は八歳の年から二十四歳迄目を病み一人歩きの出来ない人間となりました。<br/><br/>勿論入院致し手術も眼球注射も致したつもりですが、すればする程見えなくなって行くのでした。<br/><br/>私は見えない眼も一生懸命に医師に通ったならきっと見えるようにして戴ける事と信じていました。<br/><br/>またそれが医者の仕事だと思ったのに事実はそれと反対でその悔しさはたまらない思いでした。<br/><br/> ある時病院通いの途中バスの中で見知らぬ人に「あなたは目が悪いのですね」と尋ねられ、私は「はい」と答えますと、「病院へ行って前より悪くなりませんか」と笑いながら言うのです。<br/><br/>「通えば通う程だんだん見えなくなるのに気が付きませんか。<br/><br/>それ以上通えば全然見えなくなりますよ、見えなくなったら藤根に光明如来様の教導所がありますからそこへお出でなさい。<br/><br/>そこは眼に見えない神即ち光明如来様の御力に依りあなたのような方や医者が治せぬ難病を殆ど全快させて下さる所ですよ、是非行って御覧なさい」と親切に教えて下さいました。<br/><br/>またその時は恐ろしくて何もいう事が出来ませんでした。<br/><br/> 見ず知らずの人の親切にうっかり乗ってどこかへ連れて行かれてはと思いそれが怖ろしかったのです。<br/><br/>私はそのまま気にも止めず、病院通いをせっせと続けましたところがその方のお言葉通りついに目が見えなくなってしまいました。<br/><br/> 私はあの時の事を今更のように思い出し教えられた教導所へ妹に手を引かれて行きました。<br/><br/>早速先生にお願いして浄霊をして戴きました。<br/><br/> 「一週間位続けて御覧なさい」とおっしゃられましたが、一週間どころか丁度三日目より一人でふらふらながら歩けるようになりました私は、先生のおっしゃるままに光明如来様にお縋りしました。<br/><br/>先生のお話に依りますとお守様を戴けばいかなる悩みもどんな病気でも短期間で治ってしまいます。<br/><br/>急性肺炎、盲腸の手後れ、日本脳炎又は馬の脳炎これらの病気なら一週間位で治ってしまいます。<br/><br/>百発百中心配無用、しかも教修うければあなたにもそれが出来るのです。<br/><br/>相手の患部に向い手を振るだけで良いのです。<br/><br/>先方の身体の曇りを浄霊に依って浄めますと相手の苦しみは取れまして絶対に再発する事は有りませんと聞かされ早速お守り様を戴きました。<br/><br/>その後一人歩きも自由に出来るようになり余りの有難さに光明如来様迄お迎え、御祭りをさせて戴いております。<br/><br/>その後私は横手愛和会教導所へ感謝の御奉仕をさせて戴いておりますが、その間医者で治らぬ重病人の実地にあまりにも多く治って行くのを見て驚歎のほかありません。<br/><br/>そればかりか、自分は十七年間悩み苦しみ続けて来たこの目が見えるようになった事をいかにして否定出来ましょうか。<br/><br/>事実の現われない理論を私は無論インチキ迷信と言いたくなります。<br/><br/> 理論を信じて事実を否定する人以外の皆様に光明如来様の御力に救われて喜ぶ人々の余りにも多い事を御紹介致しますと共に、事実を信じて一日も早く悩みから救われたい皆々様にぜひ眼に見えない神、即ち光明如来様の信徒になられるようおすすめ致します。<br/><br/> この実例は、現代医学の無効果を示すばかりか反って治療すればする程、悪化するという事実で、これは何を物語るものであろうか、吾々は決して医学に怨恨がある訳でもないから医学を非難するのは実に辛く、医学を賞める方がどんなに気持がいいか知れないと思う、しかし、事実は飽くまで枉（ま）げる事は出来ない、世には医学による被害者がいかに多いか判らない程であろう、しかるにこの真相を知らず、医学を無上のものと心得専心する者や、犠牲になる患者等を見る時、涙なきを得ないのである。<br/><br/> とはいうものの、吾らは、難症が快癒し感謝感激の報告をみる毎に、右と反対の涙を制える事は出来ないのである。<br/><br/> ＊ ＊ ＊ 咳止めで悪化す 塗布薬にも薬毒はある 岡山県 神光中教会 西崎清子（46） 昨年一月十一日長女文子（七歳）が風邪を引き発熱とひどい咳で早速医者にかかり毎日注射をしてもらいましたが咳は止らず、百日咳のようにはげしくせきますので夜も眠られず困っておりました。<br/><br/>余り治らないものですから薬局へ行って薬をもとめ服ませましたが、少しもききめがなく朝夕湿布をして何カ月も首に包帯を巻いておりました。<br/><br/>夜は子供の咳で共に眠られず病弱な私は共泣きしておりましたところへ、三月末に名古屋から船橋先生が来岡され光明如来様の有難いお話を承り御浄霊をして頂きました。<br/><br/>それから一週間位は咳をしては痰を出し毎日洗面器に半分位も吐きました。<br/><br/>あまりよく吐くので心配しましたが、二週間目からずっと減って三週間位経った頃には二銭銅貨位しか出なくなり、一カ月後には完全に出なくなり全快致しました。<br/><br/>船橋先生の申されますには「咳を止めようとして薬を服ませるから何カ月経っても治らないのだ、咳は痰を出す為のポンプ作用であるのだから痰を全部吐いてしまったら咳は自然に止るのだ」と教えて下さいました。<br/><br/>成程そうであったかと感心致しました。<br/><br/>なお次の子供も小さい時から吹出物が出来て五十日位医者へ通いましたが、ちっとも治らぬので放っておきましたら耳の中迄もオデキが出ました。<br/><br/>船橋先生はこれは「赤チン」をつける結果だと申されましたので、以来傷をしても紙を御飯粒で張って浄霊をしておきますと一週間もたてば跡方もなくきれいに光ってしまいます。<br/><br/> 丁度御浄霊を受けるようになってから一カ年になりますが、あれだけよく出ていたオデキが一つもなく治ってしまったのには近所の人達も驚いております。<br/><br/> 又これは病気ではありませんが、義弟（夫の弟）が満州で召集されシベリヤへ行き以来消息がない為親族一同死んだものと諦めておりましたが、何の通知もなく昨年の今月今夜ヒョッコリ帰宅しまして一同嬉し泣きに泣きました。<br/><br/>何分弟には二人の子供（十歳と七歳）がありまして、弟が死亡したら兄である私の夫が面倒を見ねばなりませんので、夫の喜びも大変でした。<br/><br/>これはひとえに光明如来様の御守護と一同感謝致しております。<br/><br/> 満一カ年を迎えまして数々の御利益を得ました事を厚く御礼申上げます。<br/><br/> これは、船橋先生の言のごとく、咳が治らなかったのは、咳を薬で止めようとしたからで逆療法であった、何よりも多量に痰が出てから全治したにみて明らかである、この理を知らない世人は一生懸命咳を止ようとするのであるから、一生懸命病気を治さないようにする訳である、ゆえに咳止め薬が無くなったら、咳の病は何分の一に減るかは確である、愚かなる者よ汝の名は現代人なりと言いたいくらいである。<br/><br/> また、子供の吹出物が出来、五十日医療を受けたが治らない、船橋先生は、赤チンのためといい、それをやめ紙を飯粒で、貼っただけで間もなく全治した、これによってみても、薬毒は塗布薬でも何でも同様という事を知るであろう。<br/><br/> ＊ ＊ ＊ 自然放置で治療 古血の集溜が発病のもと 三重県 三光中教会 伊藤しま（55） 二十四年という長い年月の間、眼を患い一時は失明して自殺まで決意した私が光明如来様の尊い御利益によって更生、再び明るく楽しい余生を迎えることが出来ました事を御報告させて頂くと共に、明主様始め諸先生方に厚く厚く御礼申上げます。<br/><br/> 大正十二年長女しづ子（現在二十七歳）を出産後俗に言う血の道でぶらぶらしておりましたが、翌十三年の五月中頃より眼やにと涙が出て仕方がありませんので医者に診せたところ、トラホームとかで毎日洗眼を怠らないようにとのことでございました。<br/><br/>素直に毎日通院致しました。<br/><br/>しかし眼は一向に楽にならず反って充血し痒痛すらも感ずるようになりました。<br/><br/>それでも外に良き方法もなかったため、こうしていればいつかはよくなるだろうと淡い望みで半年、一年、三年、五年、こうしていつの間にやら二十四年間も辛抱してしまいました。<br/><br/>一進一退の病状が私に微かな希望をもたせてここまでひっぱられて来たのでしたが、いずれにしても随分気の長い話でございます。<br/><br/>一口に二十四年と言いますと何でもないようですが、当時の赤ン坊が立派に養子を迎えるようになるまでですから自分ながら呆れる位でございます。<br/><br/>草芽時や草枯時が特にひどくその頃には注射をかかさずうっていたのでございます。<br/><br/>よく眼は心の窓と言いますが実際眼の見えない程悲しい事はございません。<br/><br/>何かをみてでしょう、楽しく嬉しそうに話している家族や近所の人達の話声を耳にする時の苦しみとあせりは全く経験した者でなくては判りません。<br/><br/>昭和十九年の暮より翌年始めにかけて私もその地獄苦を味いました。<br/><br/>自殺を思ったのもこの頃でございます。<br/><br/>こうしている内にいつしかこれはもう一生治るまい、とうとうこんな諦めを抱くようになっておりました。<br/><br/>ちょうどこの時分（二十一年八月七日）尾張よりはるばる後藤先生がお出でになり初めて光明如来様の御利益あらたかな事を教えられたのでございます。<br/><br/>浄霊（当時は治療）をして頂くようになりましてから涙がとめどなく出て反って悪くなったかに見えましたが、明主様の御霊徳と先生の御教えにより浄化作用の有難さを懇々と訓され自分の過去を振返ってみたのでございます。<br/><br/>二十四年間という長い年月を今から考えれば夢にも等しい望みをもって医療を続け、その結果が全快とは全くかけ離れた失明一歩手前いや失明をもしたのでございます。<br/><br/>その間に溜ったところの毒素は意識するとせないに拘わらず犯せし罪穢、それらを思う時始めて飜然と悟り得たのでございます。<br/><br/> 早速九月に夫に御光をさずけて頂き浄霊を続けて受けていたのでございます。<br/><br/>するとどうでしょう、あれ程頑固だった痛みも薄らぎ目やにも少くなってきました。<br/><br/>御利益が頂けたその時の私の嬉しさは生涯を通じて忘れる事が出来ません。<br/><br/>光明如来様の御利益を文字通り眼の辺りにみせつけられじっとしていることが出来ず、十二月には長女が翌年三月には次女が六月には私がと次々教修を頂いたのでございます。<br/><br/>もうその頃では目やにのみほんの僅か出るだけで平生と変りなきまでの眼にして頂きました。<br/><br/>実に二十数年間の薄暗い、じめじめした眼も心もからりと晴天にして頂いたのです。<br/><br/>僅々十カ月で驚異的な御利益御恵の偉大さ、ただ御礼の辞もなき次第でございます。<br/><br/> 二十三年一月には光明如来様を奉斎させて頂き、同じ苦しみに喘ぐ人々病苦に悩む方々へ御恵の万分の一なりともとひたすらに御用の一端を努力させて頂いております。<br/><br/>本当に有難うございました。<br/><br/> この患者の病歴を説明してみるとこうである、最初眼の発病は産後眼を使ったためである、それは産後古血が全部出切れない中に、神経を使うと、その個所へは必ず古血が集溜するものである、この患者もそうで、眼底に集血したのでその浄化発生によって、涙や目脂（めやに）となって排泄されようとしたところその時の医師がトラホームと錯覚して薬毒を注入したのでそれがため、漸次悪化したのである、忌憚なくいえば、自然に放置しておけば治るべきものを、誤れる医学が失明にまで追い込んだ訳である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

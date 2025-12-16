@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>gairo155</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教概観篇 ７ 155-162 一般宗教事項 155 廃仏立神の理由 明治時代に神と仏を分けて御祭りするようになりましたが、これはどういう訳で御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> 天皇政治になったためである。<br><br>徳川時代には仏を祀った。<br><br>維新になると天皇系統は神道であるから、宗教も政治もそういう意味にした。<br><br>霊的関係がある。<br><br>（S24.10.11） 156 釣鐘の起源 堂宇にある釣鐘はいかなる意味が御座いましょうか。<br><br> 時を知らす必要から出来た。<br><br>西洋でも鐘を鳴らした。<br><br> 形は一番よく鳴る方法で作った。<br><br>（S24. 5.21） 157 守り本尊 人間に守り本尊があると云われておりますが、これについて―― 文珠なら文珠を懐へ入れて、守り本尊にすれば、それが弱いが守る事にはなる。<br><br>生れながらにして守り本尊がある訳ではない。<br><br>（S24.11. 9） 158 守り本尊 時折、自分の守り本尊が千手観音または普賢菩薩だとか云う事を聞きますが、どう云う事でありましょうか。<br><br>御伺い申し上げます。<br><br> いい加減なものである。<br><br>この信仰に入れば、光明如来様が守り本尊である。<br><br>（S23.11.15） 159 不動のお守 自動車には不動様のお守はまずい。<br><br>必ず不動の名のごとく事故がある。<br><br>（S23. 6.27） 160 三すくみ なめくじ、ひき蛙、蛇はどういう風に五六七に当嵌るので御座いますか。<br><br>なお、魚類にも五六七がありましたら御開示下さいませ。<br><br> 三すくみといって五六七になる。<br><br>日本は蛇、朝鮮はなめくじ、支那が蛙である。<br><br>時間のある時話をする。<br><br>（S24.10. 3） 161 三すくみと五六七 先日「蛇、なめくじ、蛙は三すくみといって、ミロクになる」との御言葉でございましたが、これはどのような意味でしょうか。<br><br> 蛇――日本――五、なめくじ――朝鮮――六、蛙――支那――七、というように拵えたものらしい。<br><br> これが直接ミロクに関係するのでない。<br><br>直接の関係ではない。<br><br>派生的にその理屈になる訳である。<br><br>（S23. 7.13） 162 ピラミッドの意味と八尋殿 古代エジプトでは、ピラミッドを作り、死者を葬ったと聞きますが、これはいかなる意味でしょうか。<br><br>また、ピラミッドはヒラミツトノで、太陽の光の満つ殿で、古事記の八尋殿と同意で、日本にもあるという説を聞いた事がありますが、右につき―― 古代からエジプトでは太陽を崇拝した。<br><br>ピラミッドに祀ったのは皆王様である。<br><br>ピラミッドの三角形は宇宙の型。<br><br> 見真実 途中ではすべてが分からぬ 八尋殿というのは、御殿が八ツあったのでそういう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Assuntos Religiosos Gerais</h2>
 <p><strong>155. A razão para a abolição do budismo e a ascensão do xintoísmo</strong></p>
@@ -117,5 +269,48 @@ function toggleLang(lang) {
 <p>Desde a Antiguidade, os egípcios reverenciavam o Sol. Aqueles que eram consagrados nas pirâmides eram invariavelmente os reis. A forma triangular da pirâmide, por sua vez, representa o modelo do Universo.</p>
 <p>No caminho para a percepção da verdade, é impossível compreender tudo de uma só vez.</p>
 <p>Quanto ao termo Yahirodono (八尋殿), ele recebe esse nome simplesmente por se tratar de um complexo de oito palácios.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教概観篇 ７ 155-162 一般宗教事項 155 廃仏立神の理由 明治時代に神と仏を分けて御祭りするようになりましたが、これはどういう訳で御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> 天皇政治になったためである。<br/><br/>徳川時代には仏を祀った。<br/><br/>維新になると天皇系統は神道であるから、宗教も政治もそういう意味にした。<br/><br/>霊的関係がある。<br/><br/>（S24.10.11） 156 釣鐘の起源 堂宇にある釣鐘はいかなる意味が御座いましょうか。<br/><br/> 時を知らす必要から出来た。<br/><br/>西洋でも鐘を鳴らした。<br/><br/> 形は一番よく鳴る方法で作った。<br/><br/>（S24. 5.21） 157 守り本尊 人間に守り本尊があると云われておりますが、これについて―― 文珠なら文珠を懐へ入れて、守り本尊にすれば、それが弱いが守る事にはなる。<br/><br/>生れながらにして守り本尊がある訳ではない。<br/><br/>（S24.11. 9） 158 守り本尊 時折、自分の守り本尊が千手観音または普賢菩薩だとか云う事を聞きますが、どう云う事でありましょうか。<br/><br/>御伺い申し上げます。<br/><br/> いい加減なものである。<br/><br/>この信仰に入れば、光明如来様が守り本尊である。<br/><br/>（S23.11.15） 159 不動のお守 自動車には不動様のお守はまずい。<br/><br/>必ず不動の名のごとく事故がある。<br/><br/>（S23. 6.27） 160 三すくみ なめくじ、ひき蛙、蛇はどういう風に五六七に当嵌るので御座いますか。<br/><br/>なお、魚類にも五六七がありましたら御開示下さいませ。<br/><br/> 三すくみといって五六七になる。<br/><br/>日本は蛇、朝鮮はなめくじ、支那が蛙である。<br/><br/>時間のある時話をする。<br/><br/>（S24.10. 3） 161 三すくみと五六七 先日「蛇、なめくじ、蛙は三すくみといって、ミロクになる」との御言葉でございましたが、これはどのような意味でしょうか。<br/><br/> 蛇――日本――五、なめくじ――朝鮮――六、蛙――支那――七、というように拵えたものらしい。<br/><br/> これが直接ミロクに関係するのでない。<br/><br/>直接の関係ではない。<br/><br/>派生的にその理屈になる訳である。<br/><br/>（S23. 7.13） 162 ピラミッドの意味と八尋殿 古代エジプトでは、ピラミッドを作り、死者を葬ったと聞きますが、これはいかなる意味でしょうか。<br/><br/>また、ピラミッドはヒラミツトノで、太陽の光の満つ殿で、古事記の八尋殿と同意で、日本にもあるという説を聞いた事がありますが、右につき―― 古代からエジプトでは太陽を崇拝した。<br/><br/>ピラミッドに祀ったのは皆王様である。<br/><br/>ピラミッドの三角形は宇宙の型。<br/><br/> 見真実 途中ではすべてが分からぬ 八尋殿というのは、御殿が八ツあったのでそういう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

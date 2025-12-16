@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ganbyo08</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 癌病 ・霊的病気 未発表『文明の創造』昭和27(1952)年執筆 霊的病気 これからいよいよ霊的病気についてかいてみるが、霊的病気とはすなわち憑霊による病気であって、憑霊といっても多種多様な症状であるから、その一々について、順次かいてみよう。<br><br> 癌病 癌の病として、最も多くしかも難症であるのは、何と言っても胃癌であろう。<br><br>さきには薬毒による擬似胃癌を詳説したから、これから真症胃癌の原因である憑霊の事をかくのであるが、この霊はほとんど蛇の霊である。<br><br>蛇がその人の前世の時かまたは祖霊に殺されたために、その怨霊が恨みを返さんがため憑って苦しめるのであって、この症状は主に腹部全体に亘り、形は小さいが蛇のごとく、ある時は丸く、ある時はクネり長くなり、ちょうど泳ぐように移動するのである。<br><br>その際激痛、不快感、食欲不振等もあり、注意すればその位置も判るのである。<br><br>何しろ霊であるから、切開しても診断の時は確かにあったはずのものが、見付からないのは、見えざる蛇霊であるから移動しても分らないからである。<br><br>元来蛇なるものの性格は、非常に執着が強いもので、右のごとく今世までも追及し、復讐するのである。<br><br>しかしこの癌は割合治り易いものであるが、同じ蛇霊でも非常に悪性なのがある。<br><br>これこそ最初人間が前々世における執着の罪によって、畜生界に墜ち、蛇となって再生するのである。<br><br>ところがその蛇が生きてる間に、多くの種々の生物を呑むため、その生物の怨霊が凝って蛇の腹中に宿ったまま、今度は人間に再生するのである。<br><br>従って、その生物の集団怨霊が、復讐的に苦しめようとする。<br><br>その苦しみが人間に移写するのであるから、実に厄介なものである。<br><br>そうしてこの症状は中年期までは余り発生しないが、その頃から以後になると、猛威を呈し始める。<br><br>最初は食欲不振、痛み、不快感等であるが、進むに従って、触れれば判る程の固結が一個ないし数個出来、嘔吐するようになる。<br><br>一層進むと胃中にヌラが発生し、漸次増えてゆき、ついには胃の中全部にヌラが充満する。<br><br>そうなると全然食欲がなくなるから仕方なしに指を突っ込み、無理に吐くようにすると若干吐いてヌラの減っただけ、胃に空虚が出来るから、流動食が入るのである。<br><br>そんな訳で漸次食事不能となって、衰弱死に至るのである。<br><br>このヌラというのは右の怨霊の物質化であるから、ヌラの多いのは多く呑んだ訳である。<br><br>これにみてもヌラを吐く症状は、真症胃癌と思えば間違いない。<br><br>しかし稀には胃癌でなくて、ヌラを吐く場合もあるが、このヌラはすこぶる稀薄であるから、よく分る。<br><br>まず濃いヌラを吐く症状が真症胃癌と思えば間違いないのである。<br><br> 次は直腸癌であるが、これは直腸部に癌が発生し移動性ではなく、固定的である。<br><br>直腸は糞便通過の管であるから、便の通過が妨げられるので、医療は手術によって癌を切り取るので、糞便の通り道がなくなるから、腹部の横の方に人工肛門を造るが、これ程始末の悪いものはない。<br><br>何しろ開けっ放しであるから、糞便が溜るだけは、その穴へ絶えず出て来るので、赤子のように始終オシメを当てねばならず、動作によっては腸がハミ出る危険があるので、その辛さは並大抵ではない。<br><br>大体の人は死んだ方がましだと歎声を漏らすが、稀にはどうやら泣き泣き相当生きてる人もある。<br><br>この原因は前世時代、人の罪穢の浄化を妨げる行為、つまり罪人から賄賂を取って許したり軽くしたりする行為の罪や、欲のため人に醜行を行わしたり見逃したりした罪等である。<br><br> 次に割合多いものに子宮癌があるが、この原因は、前生期または今生（こんじょう）期における堕胎の罪であって、つまり闇から闇に流された水児の怨霊が子宮へ憑依するのである。<br><br>稀には膣癌というのがあるが、これは不道徳な男女関係による罪である。<br><br>次は喉頭癌であるが、これは前生期または今生期において鳥屋などが、沢山の鶏の首を絞め殺した怨霊がほとんどである。<br><br>また舌癌は前世時代舌によって作った罪であって、舌のために人に迷惑や苦しみを与えた恨みの怨霊の罪であるが、この外にちょっと気が付かない罪がある。<br><br>それは誤った学説や、悪思想や、邪教の宣伝等で、多くの人を誤らせ社会に害毒を流すような罪で、これは多数の人に被害を与えるから、割合重い罪となるのである。<br><br> 次に頬癌、痔癌等もあるが、これらは滅多にない病気で、頬癌は人の頬を殴打し、損傷を与えた怨みの罪、痔癌は肛門に損傷を与えた怨みの罪等である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>As Enfermidades de Natureza Espiritual</h2>
 <p>A partir de agora, abordarei as enfermidades de natureza espiritual. Tais enfermidades são, em essência, aquelas causadas pela possessão de espíritos. Como a possessão espiritual se manifesta em uma vasta gama de sintomas, passarei a descrever, de forma sequencial, cada uma de suas particularidades.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Outra manifestação relativamente comum é o câncer de útero. Sua origem reside no pecado do aborto, cometido na existência atual ou em uma vida pregressa. O espírito vingativo da criança, que foi descartada das trevas para as trevas, se aloja no útero. Mais raramente, pode ocorrer o câncer de vagina, decorrente de pecados relacionados a condutas imorais entre homens e mulheres.</p>
 <p>Temos também o câncer de laringe, cuja causa, na maioria das vezes, são os espíritos vingativos de inúmeras galinhas que tiveram seus pescoços torcidos por um avicultor na vida atual ou passada. O câncer de língua, por sua vez, origina-se de pecados cometidos por meio da palavra em uma existência anterior; é a vingança de espíritos que sofreram ou foram prejudicados pelo mau uso da língua. Além destes, há um pecado que muitas vezes passa despercebido: a disseminação de teorias acadêmicas equivocadas, ideologias nefastas ou a propaganda de falsas religiões. Tais atos iludem um grande número de pessoas e envenenam a sociedade, constituindo um pecado de considerável gravidade, dado o vasto alcance de seus danos.</p>
 <p>Por fim, existem ainda o câncer de face e o de hemorroidas, embora sejam enfermidades raras. O primeiro decorre do pecado de golpear o rosto de alguém, causando-lhe dano, enquanto o segundo se origina da ofensa de ferir o ânus de outrem.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 癌病 ・霊的病気 未発表『文明の創造』昭和27(1952)年執筆 霊的病気 これからいよいよ霊的病気についてかいてみるが、霊的病気とはすなわち憑霊による病気であって、憑霊といっても多種多様な症状であるから、その一々について、順次かいてみよう。<br/><br/> 癌病 癌の病として、最も多くしかも難症であるのは、何と言っても胃癌であろう。<br/><br/>さきには薬毒による擬似胃癌を詳説したから、これから真症胃癌の原因である憑霊の事をかくのであるが、この霊はほとんど蛇の霊である。<br/><br/>蛇がその人の前世の時かまたは祖霊に殺されたために、その怨霊が恨みを返さんがため憑って苦しめるのであって、この症状は主に腹部全体に亘り、形は小さいが蛇のごとく、ある時は丸く、ある時はクネり長くなり、ちょうど泳ぐように移動するのである。<br/><br/>その際激痛、不快感、食欲不振等もあり、注意すればその位置も判るのである。<br/><br/>何しろ霊であるから、切開しても診断の時は確かにあったはずのものが、見付からないのは、見えざる蛇霊であるから移動しても分らないからである。<br/><br/>元来蛇なるものの性格は、非常に執着が強いもので、右のごとく今世までも追及し、復讐するのである。<br/><br/>しかしこの癌は割合治り易いものであるが、同じ蛇霊でも非常に悪性なのがある。<br/><br/>これこそ最初人間が前々世における執着の罪によって、畜生界に墜ち、蛇となって再生するのである。<br/><br/>ところがその蛇が生きてる間に、多くの種々の生物を呑むため、その生物の怨霊が凝って蛇の腹中に宿ったまま、今度は人間に再生するのである。<br/><br/>従って、その生物の集団怨霊が、復讐的に苦しめようとする。<br/><br/>その苦しみが人間に移写するのであるから、実に厄介なものである。<br/><br/>そうしてこの症状は中年期までは余り発生しないが、その頃から以後になると、猛威を呈し始める。<br/><br/>最初は食欲不振、痛み、不快感等であるが、進むに従って、触れれば判る程の固結が一個ないし数個出来、嘔吐するようになる。<br/><br/>一層進むと胃中にヌラが発生し、漸次増えてゆき、ついには胃の中全部にヌラが充満する。<br/><br/>そうなると全然食欲がなくなるから仕方なしに指を突っ込み、無理に吐くようにすると若干吐いてヌラの減っただけ、胃に空虚が出来るから、流動食が入るのである。<br/><br/>そんな訳で漸次食事不能となって、衰弱死に至るのである。<br/><br/>このヌラというのは右の怨霊の物質化であるから、ヌラの多いのは多く呑んだ訳である。<br/><br/>これにみてもヌラを吐く症状は、真症胃癌と思えば間違いない。<br/><br/>しかし稀には胃癌でなくて、ヌラを吐く場合もあるが、このヌラはすこぶる稀薄であるから、よく分る。<br/><br/>まず濃いヌラを吐く症状が真症胃癌と思えば間違いないのである。<br/><br/> 次は直腸癌であるが、これは直腸部に癌が発生し移動性ではなく、固定的である。<br/><br/>直腸は糞便通過の管であるから、便の通過が妨げられるので、医療は手術によって癌を切り取るので、糞便の通り道がなくなるから、腹部の横の方に人工肛門を造るが、これ程始末の悪いものはない。<br/><br/>何しろ開けっ放しであるから、糞便が溜るだけは、その穴へ絶えず出て来るので、赤子のように始終オシメを当てねばならず、動作によっては腸がハミ出る危険があるので、その辛さは並大抵ではない。<br/><br/>大体の人は死んだ方がましだと歎声を漏らすが、稀にはどうやら泣き泣き相当生きてる人もある。<br/><br/>この原因は前世時代、人の罪穢の浄化を妨げる行為、つまり罪人から賄賂を取って許したり軽くしたりする行為の罪や、欲のため人に醜行を行わしたり見逃したりした罪等である。<br/><br/> 次に割合多いものに子宮癌があるが、この原因は、前生期または今生（こんじょう）期における堕胎の罪であって、つまり闇から闇に流された水児の怨霊が子宮へ憑依するのである。<br/><br/>稀には膣癌というのがあるが、これは不道徳な男女関係による罪である。<br/><br/>次は喉頭癌であるが、これは前生期または今生期において鳥屋などが、沢山の鶏の首を絞め殺した怨霊がほとんどである。<br/><br/>また舌癌は前世時代舌によって作った罪であって、舌のために人に迷惑や苦しみを与えた恨みの怨霊の罪であるが、この外にちょっと気が付かない罪がある。<br/><br/>それは誤った学説や、悪思想や、邪教の宣伝等で、多くの人を誤らせ社会に害毒を流すような罪で、これは多数の人に被害を与えるから、割合重い罪となるのである。<br/><br/> 次に頬癌、痔癌等もあるが、これらは滅多にない病気で、頬癌は人の頬を殴打し、損傷を与えた怨みの罪、痔癌は肛門に損傷を与えた怨みの罪等である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

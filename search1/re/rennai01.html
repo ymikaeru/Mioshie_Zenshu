@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>rennai01</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 恋愛哲学 『光』46号、昭和25(1950)年1月21日発行 人間生活の中で、この恋愛くらい厄介な解決困難の問題はあるまい、一言にしていえば恋愛は人生の花であると共にまた茨（いばら）でもある、恋愛に対し至上主義という者もあるが、不道徳の原因ともされている、しかしながら吾らからいえば至上主義でもあり、また不道徳の場合もあるというのが本当であろう、今恋愛について吾らの見解を述べてみよう。<br><br> そもそも恋愛なるものは、神が人間に与えた最大なる恩恵でもあり、実に耽美しても耽美し尽せない魅惑的のものでもある、そうして恋愛が高潮の結果生命を放棄する事さえ何とも思わなくなる程の危険物でもある、それがため小説でも劇でも、恋愛が含まなければ成立ち得ないといってもいい、もしこの世に恋愛がないとすれば、人生は冷たい冬の枯野のようなものとなろう。<br><br> ところが事実を見る時、恋愛による幸福よりも恋愛に因る不幸の方が多い例である、人間同志の醜い争いも、どうする事も出来ない苦悩も、運命の破滅も、情死殺傷等の忌わしい事件も、ことごとくといいたい程恋愛が原因である、実に恐るべきものといってもよいのである。<br><br> とすれば恋愛は一体どう扱うべきが本当であるかを信仰上からかいてみよう。<br><br> それは大して難しい問題ではない、はなはだ簡単である、と言えば不思議に思うであろうが、実は一言にしていえば、叡智と勇気と真の愛である、まず男女間に恋愛関係が成立するとする、と同時に決して主観に捉われてはならない、飽くまでも客観的に視る事である。<br><br> それにはまず何よりも結果を見極めるべきで、それは双方共前途の幸不幸を考える、例えば結婚が最後の目的であるとすれば幸福を作り、善であり、結婚の意志がなくただ一時的衝動に駆られての享楽本意とすれば、少なくとも女性の方は不幸となるから悪である。<br><br> しかし当事者はいうであろう、恋愛をするのに善とか悪とか、結果はいかなるなどと考える事は出来ない、ただ愛するだけだ、どうにもならない愛の衝動あるのみだ――と決めるであろうが、これが言わば盲目的恋愛でつまり恋愛に呑まれてしまったのである、まず男子の場合とすれば繊弱（かよわ）い一女性に呑まれたのでいわば女性に負けたのである、ゆえにかような弱虫は男子の資格はない、到底出世などはむずかしい人間である、吾らの言いたいのはこの点でどうしても恋愛を呑んでしまわなくてはいけない、そうすれば決して間違など起るはずはない、また女性としてもそういう男子こそ尊敬に値すべきで反って愛は深くなり満足する物である、ゆえに吾らの恋愛観は、恋愛は決して悪いものではない、全く人生の花であるが、ただ前述のごとく恋愛に支配されない事で恋愛を支配する事が出来れば決して間違はないのである。<br><br> 恋愛哲学ざっと以上の通りである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Filosofia do Amor</h2>
 <p>Dentre as questões da vida humana, talvez nenhuma seja tão complexa e de difícil solução quanto o amor. Em uma só palavra, ele é, ao mesmo tempo, a flor e o espinho da existência. Há quem o defenda como um princípio supremo; outros, contudo, apontam-no como a causa da imoralidade. De nossa perspectiva, a verdade é que o amor pode ser tanto uma coisa quanto outra, a depender das circunstâncias. Gostaria, portanto, de expor nossa visão sobre o tema.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Para tanto, o passo fundamental é discernir as consequências futuras, ponderando sobre a felicidade e a infelicidade que o relacionamento poderá trazer a ambos. Se o matrimônio for o objetivo final, por exemplo, tal união gerará felicidade e, portanto, representa o bem. Se, contudo, a relação for motivada unicamente pelo prazer momentâneo, impulsionada por um desejo fugaz e sem a intenção de casamento, ela se torna um mal, pois resultará, no mínimo, na infelicidade da mulher.</p>
 <p>Os envolvidos, todavia, certamente argumentarão: “No amor, não há espaço para pensar em bem ou mal, nem em consequências. Apenas amamos. Existe somente o impulso irresistível do amor”. Tal postura, entretanto, caracteriza o que se pode chamar de amor cego, no qual a pessoa é completamente dominada pelo sentimento. No caso do homem, ser subjugado dessa forma por uma mulher, ainda que delicada, equivale a uma derrota. Um homem tão fraco não possui as qualidades da masculinidade e dificilmente alcançará sucesso na vida. O ponto que desejamos enfatizar é precisamente este: é fundamental dominar o amor, em vez de ser dominado por ele. Agindo assim, jamais se cometerá um erro. Ademais, uma mulher sentirá profundo respeito por um homem com tal domínio, e seu amor por ele se tornará ainda mais profundo e satisfatório. Portanto, nossa concepção é que o amor, em si, não é algo mau; ele é, de fato, a flor da existência. O segredo reside, como mencionado, em não se deixar governar por ele. Se o indivíduo for capaz de governar seus próprios sentimentos amorosos, jamais trilhará o caminho do erro.</p>
 <p>Eis, em linhas gerais, nossa filosofia sobre o amor.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 恋愛哲学 『光』46号、昭和25(1950)年1月21日発行 人間生活の中で、この恋愛くらい厄介な解決困難の問題はあるまい、一言にしていえば恋愛は人生の花であると共にまた茨（いばら）でもある、恋愛に対し至上主義という者もあるが、不道徳の原因ともされている、しかしながら吾らからいえば至上主義でもあり、また不道徳の場合もあるというのが本当であろう、今恋愛について吾らの見解を述べてみよう。<br/><br/> そもそも恋愛なるものは、神が人間に与えた最大なる恩恵でもあり、実に耽美しても耽美し尽せない魅惑的のものでもある、そうして恋愛が高潮の結果生命を放棄する事さえ何とも思わなくなる程の危険物でもある、それがため小説でも劇でも、恋愛が含まなければ成立ち得ないといってもいい、もしこの世に恋愛がないとすれば、人生は冷たい冬の枯野のようなものとなろう。<br/><br/> ところが事実を見る時、恋愛による幸福よりも恋愛に因る不幸の方が多い例である、人間同志の醜い争いも、どうする事も出来ない苦悩も、運命の破滅も、情死殺傷等の忌わしい事件も、ことごとくといいたい程恋愛が原因である、実に恐るべきものといってもよいのである。<br/><br/> とすれば恋愛は一体どう扱うべきが本当であるかを信仰上からかいてみよう。<br/><br/> それは大して難しい問題ではない、はなはだ簡単である、と言えば不思議に思うであろうが、実は一言にしていえば、叡智と勇気と真の愛である、まず男女間に恋愛関係が成立するとする、と同時に決して主観に捉われてはならない、飽くまでも客観的に視る事である。<br/><br/> それにはまず何よりも結果を見極めるべきで、それは双方共前途の幸不幸を考える、例えば結婚が最後の目的であるとすれば幸福を作り、善であり、結婚の意志がなくただ一時的衝動に駆られての享楽本意とすれば、少なくとも女性の方は不幸となるから悪である。<br/><br/> しかし当事者はいうであろう、恋愛をするのに善とか悪とか、結果はいかなるなどと考える事は出来ない、ただ愛するだけだ、どうにもならない愛の衝動あるのみだ――と決めるであろうが、これが言わば盲目的恋愛でつまり恋愛に呑まれてしまったのである、まず男子の場合とすれば繊弱（かよわ）い一女性に呑まれたのでいわば女性に負けたのである、ゆえにかような弱虫は男子の資格はない、到底出世などはむずかしい人間である、吾らの言いたいのはこの点でどうしても恋愛を呑んでしまわなくてはいけない、そうすれば決して間違など起るはずはない、また女性としてもそういう男子こそ尊敬に値すべきで反って愛は深くなり満足する物である、ゆえに吾らの恋愛観は、恋愛は決して悪いものではない、全く人生の花であるが、ただ前述のごとく恋愛に支配されない事で恋愛を支配する事が出来れば決して間違はないのである。<br/><br/> 恋愛哲学ざっと以上の通りである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

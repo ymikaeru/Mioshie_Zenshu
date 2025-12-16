@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qkannon2</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 観音光の作物 『地上天国』1号、昭和23(1948)年12月1日発行 自観叢書第2篇『無肥料栽培法』昭和24(1949)年7月1日発行 愛知県 日本五六七教春陽会 近澤ぬい 報 （一） 愛知県 日本五六七教春陽会 天木ぜん 今年当地では馬鈴薯がほとんど腐り農家は悲鳴を上げていましたが、私の家は全然腐らずしかも収穫も他家よりずっと多く観音様の御利益を眼前に戴きました。<br><br>昨年も今年も麦、芋、野菜は申すに及ばず農業に依る収穫は人よりずっと多く心より喜んでいます。<br><br> 息子が耕作地には絶えず浄霊をしています。<br><br>田舎者で無学なもので心に思っている嬉しさを其の十分の一も文筆で表し得ないのを残念に存じますが、ただただ「有難い」「有難う御座居ました」とだけ申上げるより他にこの喜びを申上げる言葉を知りません。<br><br> （二） 愛知県 日本五六七教春陽会 山本チエ 住所の一隅に在る約七十五坪の山田の耕作、この度その御利益の一事を申上げさせて戴きます。<br><br> 私の耕作地は山に包まれ周囲はおおく稲でその最中に特別早稲の植付をいたし、八月五、六日頃には穂も出てその上この辺は雀の巣と言う程雀も多く、私の家では早稲の事とて昨年迄は鐘や太鼓で雀おどしを毎日やっていても被害がとても多う御座居ましたが、今年無肥料にて「モミ」より浄霊を施し、田の四隅に立札を立て「米は人の食べるもの雀の食べないもの」と書き浄霊したところ、毎年来る雀も一羽も来ないので御座居ます。<br><br> 過日この辺りを村会議員や農業関係の幹部達が、この立札を見て大笑いをしました。<br><br>他の田の人達は今なお雀おどしに大童ですが、私の田だけはその必要も無く今ではこの立札を見て笑った人達も観音様の妙智力にびっくりしております。<br><br>その他、野菜物等も虫も付かず意外に収穫も多く家内中が喜んでおります。<br><br> 私は観音様の有難い事を余り喋舌続けますので村人や隣村の人迄も観音婆で通っております。<br><br>本当に有難くて忘れる事が出来ません。<br><br>厚く御礼申上げます。<br><br> （三） 愛知県 日本五六七教春陽会 手島寛一（35） 五六七会教導師として日々喜びに浸らして頂いています。<br><br>日頃一般会員に収穫も観音力を発揮すれば御利益も大いに貰えるからと説いていても自身で経験しなければ言行一致せずと、三畝の畑で試みました。<br><br>一畝は種子を浄霊して無肥料で種子蒔後耕地も浄霊、一畝は化学肥料一点張り、一畝は浄霊無しで無肥料と三つに区分。<br><br>その結果いかんと好奇心的な気持でおったところ、小豆種各五勺、収穫（一）浄霊の入った無肥料耕作一升（二）化学肥料一点張り七合（三）無肥料で浄霊無しは四合、麦は（一）種八合で一斗四合（二）種八合で八升（三）種八合で四升、（一）虫害無し（二）虫害甚大（三）虫害僅少の結果を見ました。<br><br> 平均（一）は収穫四、五倍（二）三、五倍（三）は二倍見当になりました。<br><br> ずぶの素人の私でさえ観音様に御願いしてやらして頂いてさえこれだけの収穫、農業本職の方が目覚むればより以上の収穫御利益のある事を確信致しました。<br><br> 右は収穫御利益の一部分ですがありのまま御報告させて戴きます。<br><br> （四） 愛知県 日本五六七教春陽会 籾山芳平 今般西瓜の収穫の御利益を頂いたこの喜びの一端を御報告させて頂きます。<br><br> 初め西瓜の種子を蒔くべき予定ではありませんでしたが、虫の付いた種子を畑の一隅に捨てて置きましたらそれが芽生え半信半疑のままに浄霊をしていましたら一本の蔓に十五、六個もなり、順調に虫も付かずに収穫しました。<br><br> 捨てた虫付いた種子より思わぬ御利益を頂き家内中揃って心よりしみじみと喜びに浸りました。<br><br>誠にありがとう御座居ました。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>As Culturas sob a Luz de Kannon</h2>
 <p><strong>Relato da Sra. Nui Kinzawa</strong>
@@ -133,5 +288,48 @@ Província de Aichi</p>
 <p>Gostaria de relatar um fragmento da alegria que senti ao receber, recentemente, a Divina Graça por meio da colheita de melancias.</p>
 <p>Inicialmente, eu não tinha a intenção de plantar sementes de melancia. Acontece que eu havia descartado em um canto do campo algumas sementes infestadas por pragas. Para minha surpresa, elas germinaram. Ainda que com certa desconfiança, comecei a ministrar-lhes Johrei.</p>
 <p>Como resultado, uma única rama produziu quinze ou dezesseis frutos, os quais colhemos em perfeitas condições, sem qualquer dano causado por insetos. Receber uma graça tão inesperada a partir de sementes que haviam sido descartadas por estarem infestadas, mergulhou toda a nossa família em uma profunda e sentida alegria. Nosso sincero agradecimento.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 観音光の作物 『地上天国』1号、昭和23(1948)年12月1日発行 自観叢書第2篇『無肥料栽培法』昭和24(1949)年7月1日発行 愛知県 日本五六七教春陽会 近澤ぬい 報 （一） 愛知県 日本五六七教春陽会 天木ぜん 今年当地では馬鈴薯がほとんど腐り農家は悲鳴を上げていましたが、私の家は全然腐らずしかも収穫も他家よりずっと多く観音様の御利益を眼前に戴きました。<br/><br/>昨年も今年も麦、芋、野菜は申すに及ばず農業に依る収穫は人よりずっと多く心より喜んでいます。<br/><br/> 息子が耕作地には絶えず浄霊をしています。<br/><br/>田舎者で無学なもので心に思っている嬉しさを其の十分の一も文筆で表し得ないのを残念に存じますが、ただただ「有難い」「有難う御座居ました」とだけ申上げるより他にこの喜びを申上げる言葉を知りません。<br/><br/> （二） 愛知県 日本五六七教春陽会 山本チエ 住所の一隅に在る約七十五坪の山田の耕作、この度その御利益の一事を申上げさせて戴きます。<br/><br/> 私の耕作地は山に包まれ周囲はおおく稲でその最中に特別早稲の植付をいたし、八月五、六日頃には穂も出てその上この辺は雀の巣と言う程雀も多く、私の家では早稲の事とて昨年迄は鐘や太鼓で雀おどしを毎日やっていても被害がとても多う御座居ましたが、今年無肥料にて「モミ」より浄霊を施し、田の四隅に立札を立て「米は人の食べるもの雀の食べないもの」と書き浄霊したところ、毎年来る雀も一羽も来ないので御座居ます。<br/><br/> 過日この辺りを村会議員や農業関係の幹部達が、この立札を見て大笑いをしました。<br/><br/>他の田の人達は今なお雀おどしに大童ですが、私の田だけはその必要も無く今ではこの立札を見て笑った人達も観音様の妙智力にびっくりしております。<br/><br/>その他、野菜物等も虫も付かず意外に収穫も多く家内中が喜んでおります。<br/><br/> 私は観音様の有難い事を余り喋舌続けますので村人や隣村の人迄も観音婆で通っております。<br/><br/>本当に有難くて忘れる事が出来ません。<br/><br/>厚く御礼申上げます。<br/><br/> （三） 愛知県 日本五六七教春陽会 手島寛一（35） 五六七会教導師として日々喜びに浸らして頂いています。<br/><br/>日頃一般会員に収穫も観音力を発揮すれば御利益も大いに貰えるからと説いていても自身で経験しなければ言行一致せずと、三畝の畑で試みました。<br/><br/>一畝は種子を浄霊して無肥料で種子蒔後耕地も浄霊、一畝は化学肥料一点張り、一畝は浄霊無しで無肥料と三つに区分。<br/><br/>その結果いかんと好奇心的な気持でおったところ、小豆種各五勺、収穫（一）浄霊の入った無肥料耕作一升（二）化学肥料一点張り七合（三）無肥料で浄霊無しは四合、麦は（一）種八合で一斗四合（二）種八合で八升（三）種八合で四升、（一）虫害無し（二）虫害甚大（三）虫害僅少の結果を見ました。<br/><br/> 平均（一）は収穫四、五倍（二）三、五倍（三）は二倍見当になりました。<br/><br/> ずぶの素人の私でさえ観音様に御願いしてやらして頂いてさえこれだけの収穫、農業本職の方が目覚むればより以上の収穫御利益のある事を確信致しました。<br/><br/> 右は収穫御利益の一部分ですがありのまま御報告させて戴きます。<br/><br/> （四） 愛知県 日本五六七教春陽会 籾山芳平 今般西瓜の収穫の御利益を頂いたこの喜びの一端を御報告させて頂きます。<br/><br/> 初め西瓜の種子を蒔くべき予定ではありませんでしたが、虫の付いた種子を畑の一隅に捨てて置きましたらそれが芽生え半信半疑のままに浄霊をしていましたら一本の蔓に十五、六個もなり、順調に虫も付かずに収穫しました。<br/><br/> 捨てた虫付いた種子より思わぬ御利益を頂き家内中揃って心よりしみじみと喜びに浸りました。<br/><br/>誠にありがとう御座居ました。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

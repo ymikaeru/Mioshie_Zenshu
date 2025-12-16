@@ -4,8 +4,410 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>tohono2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,59 +442,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ﻿<br>tohono2<br>――<br>岡田自観師の論文集 ――　<br>御教え検索：<br>help<br>資料検索：<br>東方の光<br>『栄光』182号、昭和27(1952)年11月12日発行<br>今から約二千年前くらいと思うが、ヨーロッパの一隅から東方の光という言葉が生まれ、段々拡がって今日は世界中知らぬ者はない程であるが、今日までこの言葉の意味が本当に分らなかったため、今なお謎のままになっているのであるが、私はこれについて真の意味を知らせようと思うのである。<br>では東方の光とは何かというと、結論からいえば実は私に対する予言であったのである。これを知ったなら驚かぬ者はないであろうし、第三者としては直に信ずる事は出来まいから、ここに確実な例証を挙げて説き明してみるのである。それにはまず私の生まれた場所と、それからの移動経路である。私の生まれたのは改正前の東京市浅草区橋場町という貧民窟であった。この場所について説明してみるとこうである。日本という国は言うまでもなく地球の極東に当り、かつ日本の東の都は東京であり、東京の東は浅草であり、浅草の東は前記の橋場町であるが、橋場から東は隅田川になっているから、全くここは東のドン仕舞で、世界全体からみても最東端である。ここでオギャーと生まれた私は、八歳の時橋場から西に当る千束町という町に移り、小学校を終えた頃日本橋区浪花町へ移り、次に京橋区築地町へ、当時の荏原（えばら）区大井町へ、同大森へ、麹町区平河町へ、今の宝山荘のある玉川へ、次で大いに飛んで箱根、熱海へ移ったが、今度は京都へというように十回移動したが、右の内麹町を除いては九回共西へ移転している。もちろん今後も西へ西へと移って、いずれは中国からついにはヨーロッバ辺まで行くのはもちろんである。<br>ここで今までの日本におけるあらゆる文化を検討してみると、そのことごとくは西に生まれ東に向かって移行発展したものである。宗教上では仏教、キリスト教始め、日本に発生した神道、仏教の各宗各派も、ことごとく西に生まれ東漸（とうぜん）したものであって、ただ日蓮宗だけが東から生まれた唯一の宗教である。というのはこれには深い理由がある。それはどういう訳かというと、そもそも仏教本来の意義は、いつも言うごとく夜の世界であった期間中の救いであって、つまり月の神の守護であったのである。ところが時節到来昼の世界に転換する事になるについては、一切は霊界が先であるから、霊界においてはすでに七百年前に、黎明の第一歩に入ったのである。<br>そのために生まれたのが彼の日蓮上人であって、彼が一通りの修行が終るや、一念発起いよいよ法華経弘通に当らんとして不退転の決意を固めるや、まず故郷である安房に赴き、海に近い清澄山に登って、今や太陽の昇らんとするその刹那、東天に向かって南無妙法蓮華経の称号を声高らかに唱えたのである。そうしてその時を契機としていよいよ法華経を振り翳（かざ）し、天下に対（むか）って呶号（どごう）し、法華（ほっけ）の功徳を口を極めて礼讃したのであった。それからあらゆる法難と闘い、ついに今日のごとき揺るがざる一派を樹立した事績は、襟を正さしむるものがある。上人のこの偉業こそ実は東方の光の最初の一石であったので、これを霊的にみるとそれまで闇の世界であった霊界の東端、今や太陽の昇らんとする直前、微かな一閃光であったともいえる。もちろん人間の眼には映らないが、大経綸の一歩として重要なる神事であった事はもちろんである。それから六百数十年を経た昭和六年六月十五日黎明を期し、私は三十数人の供を従え、安房の乾坤山（けんこんざん）日本寺の山頂に登って、東天に向かい祝詞を奏上すると共に神秘なある事が行われた。それはまだ発表する事は出来ないが、この行事こそ夜が昼になる境目としての経綸であった。面白い事には、清澄山は右の乾坤山の東方指呼（しこ）の内にあり、全く姉妹山である。また寺の名が日本寺というのも、右の神秘を暗示している訳である。<br>右は仏教に関する因縁をかいたのであるが、その他としては、儒教、道徳、支那学、漢方医学等々、日本最初の文化はことごとく支那朝鮮から渡来したもので、近代に至って西洋文化が輸入されたごとく、日本文化のほとんどは西から東漸したものであった。というように初めから東に生まれたものは、日蓮宗以外全然なかったのである。またここで考えなければならない事は、右のごとく西に発生した文化によって、平和幸福な理想世界が出来たとすれば何をか言わんやであるが、現実は全然その逆でさえある。なるほど今日唯物的には立派な文明世界にはなったが、肝腎な人間の幸福は全然得られないばかりか、将来とても得られそうもないと思うのは何人も同様であろう。それがため現在の人間は心の底には何ら希望もなく、その日暮しの内にも、何かしら不安がコビリ付いているので、心の底には希望の光を求めて止まないのが、大多数の共通した観念であり、この欲求の中心こそ実に東方の光であったのである。<br>右のごとく私は文化の根本が逆の移動であった事をかいたが、真理は大自然の実相を見ればよく分る。すなわち日月は東から生まれて西に向かって運行する事である。これが真理である以上、東方に生まれた物こそ永遠なる真そのものであるから、これを信じ行う人にして真の幸福を得られるのは断言して誤りないのである。これを一言にしていえば、今日まで西から東へ押寄せた濁水を、一挙に清めて西へ押返えし、澄み切った水晶世界を造らんとするのである。<br>(注)<br>東漸（とうぜん）、勢力が東の方へ次第に伝わり広まること。
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Luz do Oriente</h2>
 <p>Há aproximadamente dois milênios, em um rincão da Europa, surgiu a expressão ‘Luz do Oriente’. Com o tempo, ela se difundiu de tal forma que hoje não há quem a desconheça. Todavia, seu verdadeiro significado permaneceu incompreendido, mantendo-se como um enigma até os dias de hoje. É sobre esse genuíno sentido que pretendo agora dissertar.</p>
@@ -107,5 +457,48 @@ function toggleLang(lang) {
 <p>O que expus até aqui refere-se à conexão com o Budismo. No entanto, o mesmo padrão se aplica a outras áreas: o Confucionismo, a moral, os estudos clássicos chineses, a medicina tradicional, enfim, toda a cultura primordial do Japão proveio da China e da Coreia. Da mesma forma que a cultura ocidental foi importada nos tempos modernos, a quase totalidade da cultura japonesa expandiu-se do oeste para o leste. Desse modo, com a já citada exceção do Budismo de Nichiren, nada jamais teve sua origem no leste.</p>
 <p>Neste ponto, cumpre fazer uma reflexão importante. Se a cultura que fluiu do Ocidente para o Oriente houvesse sido capaz de construir um mundo ideal, pacífico e feliz, não haveria mais nada a ser dito. A realidade, contudo, é diametralmente oposta. É verdade que alcançamos um notável grau de civilização material, mas a felicidade humana, que é o mais importante, não apenas se tornou inatingível, como também parece uma quimera para o futuro. Creio que todos partilham dessa percepção. Por essa razão, o ser humano contemporâneo vive sem esperança no fundo da alma, e mesmo em seu cotidiano, uma ansiedade persistente o assola. No âmago de seu ser, ele anseia incessantemente por uma luz de esperança. Essa percepção é comum à grande maioria, e o epicentro desse anseio era, de fato, a Luz do Oriente.</p>
 <p>Como descrevi, o movimento fundamental da cultura seguiu até hoje um curso invertido. A verdade, porém, pode ser claramente compreendida ao observarmos a realidade da Grande Natureza: o Sol e a Lua nascem no leste e se movem em direção ao oeste. Sendo esta a verdade, aquilo que nasce no Oriente é a própria Verdade eterna. Posso, portanto, afirmar sem margem de erro que aqueles que crerem nisso e o praticarem alcançarão a felicidade genuína. Em uma única frase: trata-se de purificar, de uma só vez, as águas turvas que jorraram do Ocidente para o Oriente, impelindo-as de volta à sua origem, para assim criar um mundo límpido e cristalino.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>﻿<br/>tohono2<br/>――<br/>岡田自観師の論文集 ――　<br/>御教え検索：<br/>help<br/>資料検索：<br/>東方の光<br/>『栄光』182号、昭和27(1952)年11月12日発行<br/>今から約二千年前くらいと思うが、ヨーロッパの一隅から東方の光という言葉が生まれ、段々拡がって今日は世界中知らぬ者はない程であるが、今日までこの言葉の意味が本当に分らなかったため、今なお謎のままになっているのであるが、私はこれについて真の意味を知らせようと思うのである。<br/>では東方の光とは何かというと、結論からいえば実は私に対する予言であったのである。これを知ったなら驚かぬ者はないであろうし、第三者としては直に信ずる事は出来まいから、ここに確実な例証を挙げて説き明してみるのである。それにはまず私の生まれた場所と、それからの移動経路である。私の生まれたのは改正前の東京市浅草区橋場町という貧民窟であった。この場所について説明してみるとこうである。日本という国は言うまでもなく地球の極東に当り、かつ日本の東の都は東京であり、東京の東は浅草であり、浅草の東は前記の橋場町であるが、橋場から東は隅田川になっているから、全くここは東のドン仕舞で、世界全体からみても最東端である。ここでオギャーと生まれた私は、八歳の時橋場から西に当る千束町という町に移り、小学校を終えた頃日本橋区浪花町へ移り、次に京橋区築地町へ、当時の荏原（えばら）区大井町へ、同大森へ、麹町区平河町へ、今の宝山荘のある玉川へ、次で大いに飛んで箱根、熱海へ移ったが、今度は京都へというように十回移動したが、右の内麹町を除いては九回共西へ移転している。もちろん今後も西へ西へと移って、いずれは中国からついにはヨーロッバ辺まで行くのはもちろんである。<br/>ここで今までの日本におけるあらゆる文化を検討してみると、そのことごとくは西に生まれ東に向かって移行発展したものである。宗教上では仏教、キリスト教始め、日本に発生した神道、仏教の各宗各派も、ことごとく西に生まれ東漸（とうぜん）したものであって、ただ日蓮宗だけが東から生まれた唯一の宗教である。というのはこれには深い理由がある。それはどういう訳かというと、そもそも仏教本来の意義は、いつも言うごとく夜の世界であった期間中の救いであって、つまり月の神の守護であったのである。ところが時節到来昼の世界に転換する事になるについては、一切は霊界が先であるから、霊界においてはすでに七百年前に、黎明の第一歩に入ったのである。<br/>そのために生まれたのが彼の日蓮上人であって、彼が一通りの修行が終るや、一念発起いよいよ法華経弘通に当らんとして不退転の決意を固めるや、まず故郷である安房に赴き、海に近い清澄山に登って、今や太陽の昇らんとするその刹那、東天に向かって南無妙法蓮華経の称号を声高らかに唱えたのである。そうしてその時を契機としていよいよ法華経を振り翳（かざ）し、天下に対（むか）って呶号（どごう）し、法華（ほっけ）の功徳を口を極めて礼讃したのであった。それからあらゆる法難と闘い、ついに今日のごとき揺るがざる一派を樹立した事績は、襟を正さしむるものがある。上人のこの偉業こそ実は東方の光の最初の一石であったので、これを霊的にみるとそれまで闇の世界であった霊界の東端、今や太陽の昇らんとする直前、微かな一閃光であったともいえる。もちろん人間の眼には映らないが、大経綸の一歩として重要なる神事であった事はもちろんである。それから六百数十年を経た昭和六年六月十五日黎明を期し、私は三十数人の供を従え、安房の乾坤山（けんこんざん）日本寺の山頂に登って、東天に向かい祝詞を奏上すると共に神秘なある事が行われた。それはまだ発表する事は出来ないが、この行事こそ夜が昼になる境目としての経綸であった。面白い事には、清澄山は右の乾坤山の東方指呼（しこ）の内にあり、全く姉妹山である。また寺の名が日本寺というのも、右の神秘を暗示している訳である。<br/>右は仏教に関する因縁をかいたのであるが、その他としては、儒教、道徳、支那学、漢方医学等々、日本最初の文化はことごとく支那朝鮮から渡来したもので、近代に至って西洋文化が輸入されたごとく、日本文化のほとんどは西から東漸したものであった。というように初めから東に生まれたものは、日蓮宗以外全然なかったのである。またここで考えなければならない事は、右のごとく西に発生した文化によって、平和幸福な理想世界が出来たとすれば何をか言わんやであるが、現実は全然その逆でさえある。なるほど今日唯物的には立派な文明世界にはなったが、肝腎な人間の幸福は全然得られないばかりか、将来とても得られそうもないと思うのは何人も同様であろう。それがため現在の人間は心の底には何ら希望もなく、その日暮しの内にも、何かしら不安がコビリ付いているので、心の底には希望の光を求めて止まないのが、大多数の共通した観念であり、この欲求の中心こそ実に東方の光であったのである。<br/>右のごとく私は文化の根本が逆の移動であった事をかいたが、真理は大自然の実相を見ればよく分る。すなわち日月は東から生まれて西に向かって運行する事である。これが真理である以上、東方に生まれた物こそ永遠なる真そのものであるから、これを信じ行う人にして真の幸福を得られるのは断言して誤りないのである。これを一言にしていえば、今日まで西から東へ押寄せた濁水を、一挙に清めて西へ押返えし、澄み切った水晶世界を造らんとするのである。<br/>(注)<br/>東漸（とうぜん）、勢力が東の方へ次第に伝わり広まること。</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

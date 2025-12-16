@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s290326</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 春季大祭御講話 （S29年3月26日） 『御教え集』32号、昭和29(1954)年4月15日発行 昭和二十九年三月二十六日（４日目） 最近霊界が非常に変わってきたために、いろいろな霊があわてだしたと言いますか、非常に変動を起こしてきたのです。<br><br>いろいろな霊が救われたいことと、それから救世教の仕事をしたいと（もっとも仕事ということが救われる意味にはなりますが）因縁の人を通じて、そういう救いの願いやら、罪を赦されたいやらの、そういうことが時々あるのです。<br><br>その中で非常におもしろいことがあったので、その記録を読ませようと思います。<br><br>この神懸りの人は娘さんで、二人ばかりあって、それから審神者（さにわしゃ）は別の人です。<br><br>審神というのは調べるのです。<br><br> （御報告） ここにある「明主」というのは無論私ですが、私の代理をする者もそうとうあるのです。<br><br>その代理の一番の大番頭という、そういう霊です。<br><br>それから今の天理教の中山ミキさんですが、これはあの当時話をしましたが、留置場にいる時にああいう人たちを呼んでいろいろ話を聞いて、そのとき救われたそのお礼を言ったわけです。<br><br> これについて四、五日前にチョットおもしろいことがあったのです。<br><br>それは私の仕事をしている、ごく近くの信者の若い妻君ですが、去年頭が少し変だったのです。<br><br>それを治してやって、まだ頸のまわりにだいぶ毒があるので、時々やっているのです。<br><br>四、五日前に来て、これからやろうとすると、涙をポロポロこぼして非常に泣くのです。<br><br>もっとも、前からある程度は分かっていたのです。<br><br>というのは、キリストが憑るのです。<br><br>その時にもやっぱりキリストが憑って、私が質問しても、こみ上げて泣くのでしゃべれない。<br><br>しばらく待っていたくらいです。<br><br>そうするとやっとしゃべれて、自分は長い間非常に苦しんでいたと言うのです。<br><br>それが私によって救われて非常に嬉しいというわけです。<br><br>それはなにかと言いますと、磔（はりつけ）になったのがまだすっかり治りきらなかったのです。<br><br>それで随分苦しんでいたのです。<br><br>それが浄霊によってすっかり治った、その感謝です。<br><br>それからもう一つは、“ようやく天の父に会うことができた、それが非常に嬉しい”という、その両方の嬉しさで、つまり嬉し泣きです。<br><br>そのようなことがあったのです。<br><br>それで聞いてみますと、近ごろその女の部屋に、キリストが磔になった姿の霊が時々見えるのだそうです。<br><br>それからその時の話に、ヨハネは一、二カ月前から時々憑ったようです。<br><br>それで詳しく聞こうと思ったが、私は忙しかったので、いずれそういう点も聞いてみようと思ってます。<br><br>この人はさっきの霊憑りの人とはぜんぜん違う人です。<br><br>キリストが自分の感謝の気持ちを早く知らしたいために、その婦人に憑ったわけです。<br><br> ここで知っておかなければならないことは、偉い神様は決して現界で偉い人には憑らないのです。<br><br>人からごく注目されないような、なんでもないような人に、かえって偉い神様は憑るのです。<br><br>これはあべこべです。<br><br>現界的に偉い人と思っていると案外違います。<br><br>またどんなつまらない人でも決して馬鹿にできません。<br><br>どんな偉い神様が憑っているか分からないです。<br><br>かえって逆です。<br><br>大本教祖なども紙屑屋のお婆さんです。<br><br>赤貧洗うがごとしで、見る影もない、ごく貧乏なお婆さんだったのです。<br><br>それがとにかくあんな立派なことをされたのです。<br><br>国常立尊（くにとこたちのみこと）というすばらしい神様が憑られたのです。<br><br>それから出口王仁三郎先生も百姓の息子です。<br><br>そういうわけで、その点をよほど心得ているべきです。<br><br> それからこの婦人も去年あたり頭が悪いときに狐が随分憑ったのです。<br><br>狐も見えますし、私が浄霊した時も狐がいたのです。<br><br>それで怖がっていたのです。<br><br>今度なども狐が時々憑っていたのです。<br><br>ヨハネやキリストが憑ったことも、狐に瞞されると思って、恐れをなして私に知らせたのです。<br><br>ところがその点も心得ておかなければならないことは、善い神様ほどかえって狐を使うのです。<br><br>というのは、ふつうの人間に神様が憑ろうと思っても憑れないし、しゃべらせようと思ってもしゃべれないのです。<br><br>それで狐に命令して狐にしゃべらせるのです。<br><br>そうして本人のしゃべり具合によって、これなら大丈夫だという時立派な神様がお憑りになることがあるのです。<br><br>だから狐だからといって悪い意味に解釈して馬鹿にすることはできないです。<br><br>祖霊などもよく狐を使うのです。<br><br>狐は非常に人間に憑りやすくてしゃべりやすいのです。<br><br>そのために祖霊が直接憑ってしゃべれない時は狐にやらせることがあります。<br><br>だから、よしんば狐が憑っていても、どんな立派な人間か、神様か分からないから、そのつもりでこっちは、軽蔑しないでまじめにやった方がよいです。<br><br>よく狐のやつといって、それを押さえつけようとか、離そうとするのですが、それは悪いです。<br><br>前にも私は書いたことがありますが、いばって出てきたり、いたずらすることがあります。<br><br>また立派な神様を装ってきますが、そういう時は瞞されるのです。<br><br>狐は“オレは何神様だ”とか言うから、“ああそうですか。<br><br>御苦労様です”と言っておくのです。<br><br>そうしているうちに必ず化けの皮をはぎます。<br><br>狐を押さえつけようとしたりすると、かえって狐が怒っていろんないたずらをするのです。<br><br>そうして正体を現わすのもかえって暇がかかります。<br><br>そういう点なども、素直にするということは、なにごとにもよいということが分かります。<br><br>だから“狐、こいつ瞞しやがるな”といって警戒心を起こす、それが神様の方ではいけないのです。<br><br>瞞されているとかえって暴露して、狐の方で頭をかいて謝るということになります。<br><br> 今の話は霊界の宗教家の主だった人たちの話ですが、一方芸術家の方は、昔からの名人や美術を愛好した人の霊が、救世教の美術館に品物を納めたいというので非常に骨折っているのです。<br><br>一品でも美術館に納めると、霊界の地位が上がるのです。<br><br>地獄……と言っても、あんまりひどい地獄の霊はそういうことができないが、上層にいる霊はそういうことができるからそうすると、八衢（やちまた）に上がれるし、八衢にも上中下があるが、上段には行けるのです。<br><br>また八衢にいた霊は天国の下の段に上がれるという具合で、その手柄によって大いに救われるのです。<br><br>それからまた救われた霊の近親者も段階が上がりますから、そういうわけで、いまは霊界で、良い物をこっちに納めようとして競争でやっているのです。<br><br>その現われとして、私が欲しいと思うような物はいつか入ってくるのです。<br><br>とうてい売りそうもない物を、ヒョッと売るのです。<br><br>しかも非常に安く手に入るのです。<br><br>よく道具屋もびっくりしているのです。<br><br>“そんな値段で先が売ることはない”ということがよくあります。<br><br>とにかくああいう美術品が集まるのも、ほとんど奇蹟によって集まってくるわけです。<br><br>そういうようなわけで、おもしろいと言えば、随分おもしろいわけで、まあ楽です。<br><br>ただ思えばよいのです。<br><br>ああ欲しいなと思えば、いつか入ってくるというわけです。<br><br>これが如意の働きというのです。<br><br>如意宝珠（にょいほうしゅ）とか、よく禅宗の坊さんが如意というものを持ってますが、あれもそういう意味なのです。<br><br>それで、禅宗の大僧正があれを持って“かつ”ということを言いますが、あれは、これ（如意）によって言うことを聞かせるという意味なのです。<br><br>如意輪観音というのもそういうわけです。<br><br>私は今如意輪観音の働きをしているわけです。<br><br> 来月九日から箱根美術館主催の浮世絵展覧会をやりますが、これは「肉筆浮世絵名作展」というのです。<br><br>この肉筆の展覧会というのは初めてなのです。<br><br>浮世絵展は今までほうぼうで何十回とやりましたが、みんな版画なのです。<br><br>肉筆展というのは今回が初めてなのです。<br><br>その肉筆が数十幅出ますが、それはみんな一級品ばかりです。<br><br>今日本では私の所が一番だそうです。<br><br>それらも霊の働きが根本です。<br><br>というのは、八十何幅という肉筆ばかりを買ったのですが、非常に安いのです。<br><br>これは有名な以前の成金ですが、その人はよほど前に亡くなったのです。<br><br>その霊が、どうか救世教の美術館に出してもらいたいというので働いたわけです。<br><br>働くとどうするかというと、そこの子孫、現在持っている人が金に困るようにするのです。<br><br>霊界の祖霊が損をかけるとか、あるいは大いに金を使わせるとかして貧乏にするわけです。<br><br>そうすればいやでも売りますから、つまりそういうようなやり方が主なやり方なのです。<br><br>そのためにどうしても売らないわけにはゆかないというわけで、手放すわけです。<br><br>しかしそうすると、祖先とも言われるものが子孫を貧乏にするというのは随分ひどいと思うでしょうが、しかしそれがためにその後に大きなお蔭をいただいて、たいへんに結構になり、幸福になるわけです。<br><br>いま金に困るのは一時的ですから、やっぱり祖霊はそういうことを知ってます。<br><br>深い考えでやるわけです。<br><br>結構なわけです。<br><br>どんな良い物でも物質はしれたものです。<br><br>形ある宝を失って、無限の形なき宝をいただくわけですから、非常によいわけです。<br><br>功徳をするわけです。<br><br>そういうようなわけで、とてもすばらしい美術品が入ってくるのです。<br><br>熱海の美術館ができるようになると、みんな驚くだろうと思います。<br><br>それで、こっちに入ってくる品物はたいてい半分値以下で入ってきます。<br><br>道具屋は年中“不思議だ不思議だ”と言ってますが、まったくそうみえます。<br><br>“お売りになったらよいでしょう”とか、“今このくらいなら売れるから買いたい”とか、よく言いますが、そういうわけで道具屋の腹の中では、オレたちよりずっと金儲けがうまいと思っているらしいです。<br><br>ですからよく笑うことがありますが、“僕が道具屋になったら随分儲けるが、君たちは下手だな”と言うのです。<br><br> それからメシヤ会館ですが、これはだいたい秋に落成して開館式をやる予定だったのですが、どうも神様の方では、それではいけないのです。<br><br>来年の、三十年三月三日ということが分かったのです。<br><br>今年の二十九年という数字が一番悪いのです。<br><br>その意味はどういうわけかというと、今までのミロクは五六七です。<br><br>五が日で、六が月で、七が土ということになってますが、それは基本的の意味で、つまり宇宙の順序です。<br><br>いつも言うとおり、これからは、「熱海は現界の型だ、熱海の地上天国は現界的の型だ」ということを言ってますが、現界のミロクの数字は三六九なのです。<br><br>そうすると今までとは数字の意味が、いわば具体的になるわけです。<br><br>現実化するわけです。<br><br>そのために三、三、三と、三十年三月三日ということになるわけです。<br><br>それで無論それまでには水晶殿もできます。<br><br>それから美術館の方はその次になる予定です。<br><br>もっともそうするとすべてがゆっくりと全部できるのです。<br><br>やっぱり、間に合わせようと思って少しでも急ぐと、どうもそれだけできが悪いわけです。<br><br>そういう点などは、やはり神様はうまいです。<br><br>今までに二度延びましたが、いつまでに間に合わせなければならないといって無理をする傾向があるので、いい加減なところに行って延ばすのです、そうするとゆっくりとていねいにするというわけです。<br><br>ところが、最初から延ばさないで、きざんで延ばすというところに、やはり神様の深いところがあるのです。<br><br>私も時々行ってみますが、みなさんも見られたでしょう。<br><br>会館の様式は、私は二、三年前から毎月『国際建築』という雑誌をとってますが、それには世界的に新しい建築をみんな紹介してあるのです。<br><br>そうするとメシヤ会館のようなああいう上品な感じの良い建築は、外国にはほとんどないです。<br><br>あれは、おそらく世界的の建築と思ってます。<br><br> 建築で一番肝腎なことは、ああいう大建築は外郭です。<br><br>中はだれでもできるのですが、外郭の様式、デザイン、これがもっとも肝腎なのです。<br><br>今までのいろいろの大きな建築を見ても、どうも高さとか幅とか奥行とか、外部の様式というものに感心なものはあんまりないです。<br><br>私は前にローマのステーションが一番よくできたと言いましたが、実際に見た人はみんなそう言ってます。<br><br>“今度ヨーロッパをまわってきたが、イタリアのローマのステーションが一番良かった”と言ってます。<br><br>と言ったところで外郭の様式が奇抜なのです。<br><br>駅ですから、品が良いとかそういうことはないので、非常に奇抜で、スカッとしていて気持ちがよいのです。<br><br>これらが今までできたコルビュジエ式のうちで一番のものでしょう。<br><br>例のコルビュジエ自身が監督した、国際会館ですが、これはあんまり感心しないです。<br><br>あまりに単純すぎるのです。<br><br>少なくとも建築としての感覚は失敗です。<br><br>そこに至ってはメシヤ会館の建築は、つまりコルビュジエ式を宗教的に扱ったわけですが、だいたいコルビュジエ式というのは宗教的には無理なので、どこまでも実用的の建築です。<br><br>それを私がただコルビュジエの新しい感覚をとって宗教的の荘厳みを現わす、という最初からの計画でした。<br><br>ところがついこの間見たところが、私の思う通りにできあがったので、私は非常に喜んでます。<br><br>一番難しいのは高さと幅との調和です。<br><br>それとまっすぐな柱形です。<br><br>直線です。<br><br>その柱形の幅とか深さという点が非常に難しい所なのです。<br><br>それがちょうどよいところにゆかなければいけないわけです。<br><br>それがちょうど私の思う通りに成功したわけです。<br><br>そうしてあれで一番の見所は横です。<br><br>横の広い面積を白壁にして窓をつけないのです。<br><br>あれはどうしてもあそこに窓をつけたがる所なのです。<br><br>ですからよく“あそこに窓をつけろ、つけろ”と言いますが、私は窓をつけないで、白色の広い場面を出したわけですが、あれがミソと言いますか、ヤマと言いますか、そういったものです。<br><br>あれを白壁にしたために、前面の直線の縦縞の柱が生きるのです。<br><br>そしてあれから一段落として白壁と、これが全体的に建築を非常におもしろくするわけです。<br><br>部分部分はこれからやりますが、部分部分でもそうとうおもしろくできるわけです。<br><br>こういう話をすると時間がかかりますから、いずれゆっくりとします。<br><br> それから自然栽培について、農林省の役人の、中堅どころの十数人が、今度「自然農法研究会」というのを作ったのです。<br><br>その趣意書をみましたが、来月の二日に発会式をするとか言ってました。<br><br>その趣意善が非常によくできてますから、今読ませます。<br><br> （御論文「自然農法の一大朗報」「趣意書」） 【栄光 二五六号】 この人たちも今後できるだけの活動はされるでしょうが、それよりか、今後農民にこれを知らせる場合に、なにしろ今までとは反対の意味ですから、容易に信じ難いのです。<br><br>信じられないけれども、農林省でこういう会ができたということは、“これはそうとう信頼のできるものに違いない”という、そういう印象を与えることになり、それが非常なプラスだと思うのです。<br><br>無論神様がうまくやるのですから、このくらいのことはあたりまえですが、しかし割合に早くこういう会ができたということは、大いに喜んでよいと思うのです。<br><br>今やっている地上天国の建設と、それから自然栽培と、これだけが世の中に知れたとしたら、たいへんな大きなことです。<br><br>それとともに、一番難しいのは医学迷信の打破です。<br><br>それに対しても、なるほど救世教の言うことはたいしたものだ、そうしてみると医学の方も“あれは本当に違いない”というような一つの結果を生み出す動機となりますから、そんなこんなで、両方が分かるということが大いによいと思います。<br><br>しかもこの二つは手っ取り早く分かることです。<br><br>現に目に見えてつかめるようなことなのだから。<br><br>私の方で一番の狙い所は医学ですから、医学を分からせる上において、大きな働きをするわけです。<br><br>というようなわけで、神様のやり方は実に人間の予想以上の巧妙なやり方だと感心させられるのです。<br><br>この一つだけでも世の中に分かったら、“救世教というのはふつうの宗教ではない、日本に初めてできたたいへんな救いだ”ということが分かるわけです。<br><br>新年早々言ったとおり「今年から表面的になる、いよいよ本舞台に上る」ということが、こういうことによっても、やはり着々と実現しつつあるわけです。<br><br>これからは、時のたつに従って、それは想像もつかないほど発展する時期になってゆくわけです。<br><br>いつも言うことですが、だんだん張り合いがあるわけです。<br><br>なにごともそうですが、“あいつはどうも変だ”とか、“あいつはどうも信用ができない”ということと、“あれは立派なものだ、大いに信用してよい”という、その気持ちだけでまるっきり違います。<br><br>以前は救世教というと“迷信くさくて、新宗教でいい加減なことを言って、現当利益なんて言って金集めをしている”という、そういった変な感じを持たれたのです。<br><br>ところが近ごろはそれがだいぶ消えてきて、救世教というと“あれはよい、なかなかたいしたものらしい”というような社会的の観念がだいぶ出てきつつあるようにみえるのです。<br><br>これも結構であるとともに、もう一息いま言ったような具合に世の中に知れると、今度はもう“救世教でなくてはならない、あれこそ本当の、今までにない大きな救いだ”ということになるわけです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>As Transformações do Mundo Espiritual e seus Reflexos no Plano Terreno</h2>
 <p>O Mundo Espiritual tem passado por transformações notáveis nos últimos tempos, o que tem gerado uma grande efervescência entre os espíritos. Muitos deles manifestam um anseio profundo por sua salvação e pelo desejo de servir à Obra Divina da Sekaikyuseikyou, buscando, por intermédio de pessoas com as quais possuem laços espirituais, expressar seus rogos por auxílio e pelo perdão de suas máculas. Dentre esses fenômenos, ocorreu um caso de particular interesse, cujo registro solicitei que fosse lido a todos. O médium em questão é uma jovem — havendo, na verdade, duas delas — e a análise da comunicação é realizada por outra pessoa, o <em>saniwa</em>, cuja função é justamente a de averiguar a natureza do espírito comunicante.</p>
@@ -115,5 +267,48 @@ function toggleLang(lang) {
 <p>A construção do Paraíso Terrestre e a Agricultura Natural — se apenas esses dois pilares de nossa Obra se tornarem conhecidos pelo mundo, o impacto será imenso. Contudo, a tarefa mais difícil é a quebra da superstição na medicina. O sucesso nessas outras frentes servirá como um catalisador, levando as pessoas a pensarem: “Se o que a Sekaikyuseikyou diz sobre isso é verdade, talvez o que ensinam sobre a medicina também seja”. Ademais, essas duas frentes — a construção e a agricultura — são de fácil comprovação, pois seus resultados são visíveis e tangíveis. Meu alvo principal é a medicina, e esses avanços serão um poderoso auxílio para que ela seja compreendida. Assim, sou levado a admirar os desígnios de Deus, cuja engenhosidade supera em muito a imaginação humana.</p>
 <p>Se o mundo compreender ao menos um desses aspectos, perceberá que a Sekaikyuseikyou não é uma religião comum, mas uma salvação de magnitude inédita no Japão. Conforme anunciei no início do ano, “a partir de agora, a Obra se tornará visível e subiremos ao palco principal”. Esses acontecimentos demonstram que essa profecia está se concretizando passo a passo. A partir de agora, entraremos em uma era de desenvolvimento cuja velocidade e alcance fogem à imaginação. Como sempre digo, o trabalho se torna cada vez mais estimulante.</p>
 <p>Antes, a Sekaikyuseikyou era vista com desconfiança: “aquilo é estranho”, “não é confiável”, “uma nova religião supersticiosa que arrecada dinheiro prometendo benefícios imediatos”. Essa imagem, porém, está se dissipando. Começa a surgir na sociedade uma percepção de que “aquilo é bom, parece ser algo notável”. Essa mudança de mentalidade, por si só, faz toda a diferença. Isso já é motivo de alegria. Contudo, com mais um impulso, como os que acabo de mencionar, a opinião pública mudará por completo, e todos dirão: “A salvação está na Sekaikyuseikyou. Ela é a verdadeira e grandiosa salvação que jamais existiu”.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 春季大祭御講話 （S29年3月26日） 『御教え集』32号、昭和29(1954)年4月15日発行 昭和二十九年三月二十六日（４日目） 最近霊界が非常に変わってきたために、いろいろな霊があわてだしたと言いますか、非常に変動を起こしてきたのです。<br/><br/>いろいろな霊が救われたいことと、それから救世教の仕事をしたいと（もっとも仕事ということが救われる意味にはなりますが）因縁の人を通じて、そういう救いの願いやら、罪を赦されたいやらの、そういうことが時々あるのです。<br/><br/>その中で非常におもしろいことがあったので、その記録を読ませようと思います。<br/><br/>この神懸りの人は娘さんで、二人ばかりあって、それから審神者（さにわしゃ）は別の人です。<br/><br/>審神というのは調べるのです。<br/><br/> （御報告） ここにある「明主」というのは無論私ですが、私の代理をする者もそうとうあるのです。<br/><br/>その代理の一番の大番頭という、そういう霊です。<br/><br/>それから今の天理教の中山ミキさんですが、これはあの当時話をしましたが、留置場にいる時にああいう人たちを呼んでいろいろ話を聞いて、そのとき救われたそのお礼を言ったわけです。<br/><br/> これについて四、五日前にチョットおもしろいことがあったのです。<br/><br/>それは私の仕事をしている、ごく近くの信者の若い妻君ですが、去年頭が少し変だったのです。<br/><br/>それを治してやって、まだ頸のまわりにだいぶ毒があるので、時々やっているのです。<br/><br/>四、五日前に来て、これからやろうとすると、涙をポロポロこぼして非常に泣くのです。<br/><br/>もっとも、前からある程度は分かっていたのです。<br/><br/>というのは、キリストが憑るのです。<br/><br/>その時にもやっぱりキリストが憑って、私が質問しても、こみ上げて泣くのでしゃべれない。<br/><br/>しばらく待っていたくらいです。<br/><br/>そうするとやっとしゃべれて、自分は長い間非常に苦しんでいたと言うのです。<br/><br/>それが私によって救われて非常に嬉しいというわけです。<br/><br/>それはなにかと言いますと、磔（はりつけ）になったのがまだすっかり治りきらなかったのです。<br/><br/>それで随分苦しんでいたのです。<br/><br/>それが浄霊によってすっかり治った、その感謝です。<br/><br/>それからもう一つは、“ようやく天の父に会うことができた、それが非常に嬉しい”という、その両方の嬉しさで、つまり嬉し泣きです。<br/><br/>そのようなことがあったのです。<br/><br/>それで聞いてみますと、近ごろその女の部屋に、キリストが磔になった姿の霊が時々見えるのだそうです。<br/><br/>それからその時の話に、ヨハネは一、二カ月前から時々憑ったようです。<br/><br/>それで詳しく聞こうと思ったが、私は忙しかったので、いずれそういう点も聞いてみようと思ってます。<br/><br/>この人はさっきの霊憑りの人とはぜんぜん違う人です。<br/><br/>キリストが自分の感謝の気持ちを早く知らしたいために、その婦人に憑ったわけです。<br/><br/> ここで知っておかなければならないことは、偉い神様は決して現界で偉い人には憑らないのです。<br/><br/>人からごく注目されないような、なんでもないような人に、かえって偉い神様は憑るのです。<br/><br/>これはあべこべです。<br/><br/>現界的に偉い人と思っていると案外違います。<br/><br/>またどんなつまらない人でも決して馬鹿にできません。<br/><br/>どんな偉い神様が憑っているか分からないです。<br/><br/>かえって逆です。<br/><br/>大本教祖なども紙屑屋のお婆さんです。<br/><br/>赤貧洗うがごとしで、見る影もない、ごく貧乏なお婆さんだったのです。<br/><br/>それがとにかくあんな立派なことをされたのです。<br/><br/>国常立尊（くにとこたちのみこと）というすばらしい神様が憑られたのです。<br/><br/>それから出口王仁三郎先生も百姓の息子です。<br/><br/>そういうわけで、その点をよほど心得ているべきです。<br/><br/> それからこの婦人も去年あたり頭が悪いときに狐が随分憑ったのです。<br/><br/>狐も見えますし、私が浄霊した時も狐がいたのです。<br/><br/>それで怖がっていたのです。<br/><br/>今度なども狐が時々憑っていたのです。<br/><br/>ヨハネやキリストが憑ったことも、狐に瞞されると思って、恐れをなして私に知らせたのです。<br/><br/>ところがその点も心得ておかなければならないことは、善い神様ほどかえって狐を使うのです。<br/><br/>というのは、ふつうの人間に神様が憑ろうと思っても憑れないし、しゃべらせようと思ってもしゃべれないのです。<br/><br/>それで狐に命令して狐にしゃべらせるのです。<br/><br/>そうして本人のしゃべり具合によって、これなら大丈夫だという時立派な神様がお憑りになることがあるのです。<br/><br/>だから狐だからといって悪い意味に解釈して馬鹿にすることはできないです。<br/><br/>祖霊などもよく狐を使うのです。<br/><br/>狐は非常に人間に憑りやすくてしゃべりやすいのです。<br/><br/>そのために祖霊が直接憑ってしゃべれない時は狐にやらせることがあります。<br/><br/>だから、よしんば狐が憑っていても、どんな立派な人間か、神様か分からないから、そのつもりでこっちは、軽蔑しないでまじめにやった方がよいです。<br/><br/>よく狐のやつといって、それを押さえつけようとか、離そうとするのですが、それは悪いです。<br/><br/>前にも私は書いたことがありますが、いばって出てきたり、いたずらすることがあります。<br/><br/>また立派な神様を装ってきますが、そういう時は瞞されるのです。<br/><br/>狐は“オレは何神様だ”とか言うから、“ああそうですか。<br/><br/>御苦労様です”と言っておくのです。<br/><br/>そうしているうちに必ず化けの皮をはぎます。<br/><br/>狐を押さえつけようとしたりすると、かえって狐が怒っていろんないたずらをするのです。<br/><br/>そうして正体を現わすのもかえって暇がかかります。<br/><br/>そういう点なども、素直にするということは、なにごとにもよいということが分かります。<br/><br/>だから“狐、こいつ瞞しやがるな”といって警戒心を起こす、それが神様の方ではいけないのです。<br/><br/>瞞されているとかえって暴露して、狐の方で頭をかいて謝るということになります。<br/><br/> 今の話は霊界の宗教家の主だった人たちの話ですが、一方芸術家の方は、昔からの名人や美術を愛好した人の霊が、救世教の美術館に品物を納めたいというので非常に骨折っているのです。<br/><br/>一品でも美術館に納めると、霊界の地位が上がるのです。<br/><br/>地獄……と言っても、あんまりひどい地獄の霊はそういうことができないが、上層にいる霊はそういうことができるからそうすると、八衢（やちまた）に上がれるし、八衢にも上中下があるが、上段には行けるのです。<br/><br/>また八衢にいた霊は天国の下の段に上がれるという具合で、その手柄によって大いに救われるのです。<br/><br/>それからまた救われた霊の近親者も段階が上がりますから、そういうわけで、いまは霊界で、良い物をこっちに納めようとして競争でやっているのです。<br/><br/>その現われとして、私が欲しいと思うような物はいつか入ってくるのです。<br/><br/>とうてい売りそうもない物を、ヒョッと売るのです。<br/><br/>しかも非常に安く手に入るのです。<br/><br/>よく道具屋もびっくりしているのです。<br/><br/>“そんな値段で先が売ることはない”ということがよくあります。<br/><br/>とにかくああいう美術品が集まるのも、ほとんど奇蹟によって集まってくるわけです。<br/><br/>そういうようなわけで、おもしろいと言えば、随分おもしろいわけで、まあ楽です。<br/><br/>ただ思えばよいのです。<br/><br/>ああ欲しいなと思えば、いつか入ってくるというわけです。<br/><br/>これが如意の働きというのです。<br/><br/>如意宝珠（にょいほうしゅ）とか、よく禅宗の坊さんが如意というものを持ってますが、あれもそういう意味なのです。<br/><br/>それで、禅宗の大僧正があれを持って“かつ”ということを言いますが、あれは、これ（如意）によって言うことを聞かせるという意味なのです。<br/><br/>如意輪観音というのもそういうわけです。<br/><br/>私は今如意輪観音の働きをしているわけです。<br/><br/> 来月九日から箱根美術館主催の浮世絵展覧会をやりますが、これは「肉筆浮世絵名作展」というのです。<br/><br/>この肉筆の展覧会というのは初めてなのです。<br/><br/>浮世絵展は今までほうぼうで何十回とやりましたが、みんな版画なのです。<br/><br/>肉筆展というのは今回が初めてなのです。<br/><br/>その肉筆が数十幅出ますが、それはみんな一級品ばかりです。<br/><br/>今日本では私の所が一番だそうです。<br/><br/>それらも霊の働きが根本です。<br/><br/>というのは、八十何幅という肉筆ばかりを買ったのですが、非常に安いのです。<br/><br/>これは有名な以前の成金ですが、その人はよほど前に亡くなったのです。<br/><br/>その霊が、どうか救世教の美術館に出してもらいたいというので働いたわけです。<br/><br/>働くとどうするかというと、そこの子孫、現在持っている人が金に困るようにするのです。<br/><br/>霊界の祖霊が損をかけるとか、あるいは大いに金を使わせるとかして貧乏にするわけです。<br/><br/>そうすればいやでも売りますから、つまりそういうようなやり方が主なやり方なのです。<br/><br/>そのためにどうしても売らないわけにはゆかないというわけで、手放すわけです。<br/><br/>しかしそうすると、祖先とも言われるものが子孫を貧乏にするというのは随分ひどいと思うでしょうが、しかしそれがためにその後に大きなお蔭をいただいて、たいへんに結構になり、幸福になるわけです。<br/><br/>いま金に困るのは一時的ですから、やっぱり祖霊はそういうことを知ってます。<br/><br/>深い考えでやるわけです。<br/><br/>結構なわけです。<br/><br/>どんな良い物でも物質はしれたものです。<br/><br/>形ある宝を失って、無限の形なき宝をいただくわけですから、非常によいわけです。<br/><br/>功徳をするわけです。<br/><br/>そういうようなわけで、とてもすばらしい美術品が入ってくるのです。<br/><br/>熱海の美術館ができるようになると、みんな驚くだろうと思います。<br/><br/>それで、こっちに入ってくる品物はたいてい半分値以下で入ってきます。<br/><br/>道具屋は年中“不思議だ不思議だ”と言ってますが、まったくそうみえます。<br/><br/>“お売りになったらよいでしょう”とか、“今このくらいなら売れるから買いたい”とか、よく言いますが、そういうわけで道具屋の腹の中では、オレたちよりずっと金儲けがうまいと思っているらしいです。<br/><br/>ですからよく笑うことがありますが、“僕が道具屋になったら随分儲けるが、君たちは下手だな”と言うのです。<br/><br/> それからメシヤ会館ですが、これはだいたい秋に落成して開館式をやる予定だったのですが、どうも神様の方では、それではいけないのです。<br/><br/>来年の、三十年三月三日ということが分かったのです。<br/><br/>今年の二十九年という数字が一番悪いのです。<br/><br/>その意味はどういうわけかというと、今までのミロクは五六七です。<br/><br/>五が日で、六が月で、七が土ということになってますが、それは基本的の意味で、つまり宇宙の順序です。<br/><br/>いつも言うとおり、これからは、「熱海は現界の型だ、熱海の地上天国は現界的の型だ」ということを言ってますが、現界のミロクの数字は三六九なのです。<br/><br/>そうすると今までとは数字の意味が、いわば具体的になるわけです。<br/><br/>現実化するわけです。<br/><br/>そのために三、三、三と、三十年三月三日ということになるわけです。<br/><br/>それで無論それまでには水晶殿もできます。<br/><br/>それから美術館の方はその次になる予定です。<br/><br/>もっともそうするとすべてがゆっくりと全部できるのです。<br/><br/>やっぱり、間に合わせようと思って少しでも急ぐと、どうもそれだけできが悪いわけです。<br/><br/>そういう点などは、やはり神様はうまいです。<br/><br/>今までに二度延びましたが、いつまでに間に合わせなければならないといって無理をする傾向があるので、いい加減なところに行って延ばすのです、そうするとゆっくりとていねいにするというわけです。<br/><br/>ところが、最初から延ばさないで、きざんで延ばすというところに、やはり神様の深いところがあるのです。<br/><br/>私も時々行ってみますが、みなさんも見られたでしょう。<br/><br/>会館の様式は、私は二、三年前から毎月『国際建築』という雑誌をとってますが、それには世界的に新しい建築をみんな紹介してあるのです。<br/><br/>そうするとメシヤ会館のようなああいう上品な感じの良い建築は、外国にはほとんどないです。<br/><br/>あれは、おそらく世界的の建築と思ってます。<br/><br/> 建築で一番肝腎なことは、ああいう大建築は外郭です。<br/><br/>中はだれでもできるのですが、外郭の様式、デザイン、これがもっとも肝腎なのです。<br/><br/>今までのいろいろの大きな建築を見ても、どうも高さとか幅とか奥行とか、外部の様式というものに感心なものはあんまりないです。<br/><br/>私は前にローマのステーションが一番よくできたと言いましたが、実際に見た人はみんなそう言ってます。<br/><br/>“今度ヨーロッパをまわってきたが、イタリアのローマのステーションが一番良かった”と言ってます。<br/><br/>と言ったところで外郭の様式が奇抜なのです。<br/><br/>駅ですから、品が良いとかそういうことはないので、非常に奇抜で、スカッとしていて気持ちがよいのです。<br/><br/>これらが今までできたコルビュジエ式のうちで一番のものでしょう。<br/><br/>例のコルビュジエ自身が監督した、国際会館ですが、これはあんまり感心しないです。<br/><br/>あまりに単純すぎるのです。<br/><br/>少なくとも建築としての感覚は失敗です。<br/><br/>そこに至ってはメシヤ会館の建築は、つまりコルビュジエ式を宗教的に扱ったわけですが、だいたいコルビュジエ式というのは宗教的には無理なので、どこまでも実用的の建築です。<br/><br/>それを私がただコルビュジエの新しい感覚をとって宗教的の荘厳みを現わす、という最初からの計画でした。<br/><br/>ところがついこの間見たところが、私の思う通りにできあがったので、私は非常に喜んでます。<br/><br/>一番難しいのは高さと幅との調和です。<br/><br/>それとまっすぐな柱形です。<br/><br/>直線です。<br/><br/>その柱形の幅とか深さという点が非常に難しい所なのです。<br/><br/>それがちょうどよいところにゆかなければいけないわけです。<br/><br/>それがちょうど私の思う通りに成功したわけです。<br/><br/>そうしてあれで一番の見所は横です。<br/><br/>横の広い面積を白壁にして窓をつけないのです。<br/><br/>あれはどうしてもあそこに窓をつけたがる所なのです。<br/><br/>ですからよく“あそこに窓をつけろ、つけろ”と言いますが、私は窓をつけないで、白色の広い場面を出したわけですが、あれがミソと言いますか、ヤマと言いますか、そういったものです。<br/><br/>あれを白壁にしたために、前面の直線の縦縞の柱が生きるのです。<br/><br/>そしてあれから一段落として白壁と、これが全体的に建築を非常におもしろくするわけです。<br/><br/>部分部分はこれからやりますが、部分部分でもそうとうおもしろくできるわけです。<br/><br/>こういう話をすると時間がかかりますから、いずれゆっくりとします。<br/><br/> それから自然栽培について、農林省の役人の、中堅どころの十数人が、今度「自然農法研究会」というのを作ったのです。<br/><br/>その趣意書をみましたが、来月の二日に発会式をするとか言ってました。<br/><br/>その趣意善が非常によくできてますから、今読ませます。<br/><br/> （御論文「自然農法の一大朗報」「趣意書」） 【栄光 二五六号】 この人たちも今後できるだけの活動はされるでしょうが、それよりか、今後農民にこれを知らせる場合に、なにしろ今までとは反対の意味ですから、容易に信じ難いのです。<br/><br/>信じられないけれども、農林省でこういう会ができたということは、“これはそうとう信頼のできるものに違いない”という、そういう印象を与えることになり、それが非常なプラスだと思うのです。<br/><br/>無論神様がうまくやるのですから、このくらいのことはあたりまえですが、しかし割合に早くこういう会ができたということは、大いに喜んでよいと思うのです。<br/><br/>今やっている地上天国の建設と、それから自然栽培と、これだけが世の中に知れたとしたら、たいへんな大きなことです。<br/><br/>それとともに、一番難しいのは医学迷信の打破です。<br/><br/>それに対しても、なるほど救世教の言うことはたいしたものだ、そうしてみると医学の方も“あれは本当に違いない”というような一つの結果を生み出す動機となりますから、そんなこんなで、両方が分かるということが大いによいと思います。<br/><br/>しかもこの二つは手っ取り早く分かることです。<br/><br/>現に目に見えてつかめるようなことなのだから。<br/><br/>私の方で一番の狙い所は医学ですから、医学を分からせる上において、大きな働きをするわけです。<br/><br/>というようなわけで、神様のやり方は実に人間の予想以上の巧妙なやり方だと感心させられるのです。<br/><br/>この一つだけでも世の中に分かったら、“救世教というのはふつうの宗教ではない、日本に初めてできたたいへんな救いだ”ということが分かるわけです。<br/><br/>新年早々言ったとおり「今年から表面的になる、いよいよ本舞台に上る」ということが、こういうことによっても、やはり着々と実現しつつあるわけです。<br/><br/>これからは、時のたつに従って、それは想像もつかないほど発展する時期になってゆくわけです。<br/><br/>いつも言うことですが、だんだん張り合いがあるわけです。<br/><br/>なにごともそうですが、“あいつはどうも変だ”とか、“あいつはどうも信用ができない”ということと、“あれは立派なものだ、大いに信用してよい”という、その気持ちだけでまるっきり違います。<br/><br/>以前は救世教というと“迷信くさくて、新宗教でいい加減なことを言って、現当利益なんて言って金集めをしている”という、そういった変な感じを持たれたのです。<br/><br/>ところが近ごろはそれがだいぶ消えてきて、救世教というと“あれはよい、なかなかたいしたものらしい”というような社会的の観念がだいぶ出てきつつあるようにみえるのです。<br/><br/>これも結構であるとともに、もう一息いま言ったような具合に世の中に知れると、今度はもう“救世教でなくてはならない、あれこそ本当の、今までにない大きな救いだ”ということになるわけです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

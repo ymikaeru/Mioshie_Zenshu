@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>tengok03</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 天国建設の順序と悪の追放 未発表『文明の創造』昭和27(1952)年執筆 そもそもこの世界を天国化するについては、一つの根本条件がある。<br><br>それは何かというと、現在大部分の人類が心中深く蔵（かく）されている悪の追放である。<br><br>それについて不可解な事には、一般人の常識からいっても悪を不可とし、悪に触れる事を避けるのはもちろん、倫理、道徳等を作って悪を戒め、教育もこれを主眼としており、宗教においても善を勧め、悪を排斥している。<br><br>その他社会いずれの方面を見ても、親が子を、夫は妻を、妻は夫を、主人は部下の悪を咎（とが）め戒めている。<br><br>法律もまた刑罰をもって悪を犯さぬようにしている等、これ程の努力を払っているにかかわらず、事実世界は善人より悪人の方が多く、厳密に言えば十人中九人までが、大なり小なりの悪人で、善人は一人あるかなしかというのが現実であろう。<br><br> しかしながら単に悪人といっても、それには大中小様々な種類がある。<br><br>例えば一は心からの悪、すなわち意識的に行う悪、すなわち意識的に行う悪、二は知らず識らず無意識に行う悪、三は無智ゆえの悪、四は悪を善と信じて行う悪等である。<br><br>これらについて簡単に説明してみるとこうであろう。<br><br>一は論外で説明の要はないが、二は一番多い一般的のものであり、三は民族的には野蛮人、個人的には白痴、狂人、児童等であるから問題とはならないが、四に至っては悪を善と信じて行う以上正々堂々としてしかも熱烈であるから、その害毒も大きい訳である。<br><br>これについては最後に詳しくかく事として、次に善から見た悪の世界観をかいてみよう。<br><br> 前記のごとく現在の世界を大観すると、全く悪の世界といってもいい程で、何よりも昔から善人が悪人に苦しめられる例は幾らでも聞くが、悪人が善人に苦しめられる話は聞いた事がない。<br><br>このように悪人には味方が多く、善人には味方が少ないので、悪人は法網を潜り、堂々世の中を横行濶歩するに反し、善人は小さくなって戦々兢々としているのが社会の姿である。<br><br>このように弱者である善人は、強者である悪人から常に虐げられ、苦しめられるので、この不合理に反抗して生まれたのが彼の民主主義であるから、これも自然発生のものである。<br><br>ところが日本においては長い間の封建思想のため、弱肉強食社会が続いて来たのであるが、幸いにも外国の力を借りて、今日のごとく民主主義となったので、自然発生と言うよりも、自然の結果といった方がよかろう。<br><br>というようにこの一事だけは、珍らしくも悪に対して善が勝利を得た例である。<br><br>しかし外国と異って日本は今のところ生温い民主主義で、まだまだ色々な面に封建の滓（かす）が残っていると見るのは私ばかりではあるまい。<br><br> ここで悪と文化の関係について書いてみるが、そもそも文化なるものの発生原理はどこにあったかというと、根本は善悪の闘争である。<br><br>それは古（いにし）えの野蛮未開時代からの歴史を見れば分る通り、最初強者が弱者を苦しめ、自由を奪い、掠奪殺人等ほしいままに振舞う結果、弱者にあってはそれを防止せんとして種々の防禦法を考えた。<br><br>武器は固より垣を作り、備えをし、交通を便にする等、集団的にも個人的にも、あらゆる工夫を凝らしたのであって、この事がいかに文化を進めるに役立ったかは言うまでもない。<br><br>それから漸次進んで人智は発達し、文字のごときものも生まれ、集団的契約を結ぶようになった。<br><br>が、今日の国際条約の嚆矢（こうし）であろう。<br><br>なお社会的には悪を制圧するに法や罰則を作り、これが条文化したものが今日の法律であろう。<br><br>ところが現実はそんな生易しい事では、人間から悪を除く事は到底出来なかった。<br><br>むしろ人智の進むにつれて悪の手段が益々巧妙になるばかりである。<br><br>というように人類は原始時代から悪の横行とそれを防止する善との闘争は絶える事なく今日に至ったのである。<br><br>しかしそれによっていかに人智が進み文化が発達したかは知る通りであってそのための犠牲もまた少なくなかったのはまた止むを得ないというべく、とにかく現在までは善悪闘争時代が続いて来たのである。<br><br>ところがそれら善人の悩みを幾分でも緩和すべく、時々現れたのが彼の宗教的偉人で、その教えの建前としては物欲を制限し、諦観思想を本位とし、従順を諭（おし）えると共に、将来に希望をもたせるべく地上天国、ミロクの世等の理想世界実現を予言したのである。<br><br>また一方悪に対しては極力因果の理を説き、速かに悔い改めるべく戒めたのはもちろんで、それがため幾多の苦難に遭い、血の滲むような暴圧に堪えつつ教えを弘通（ぐつう）した事蹟は、涙なくしては読まれないものがある。<br><br>なるほどこれによって相当の効果は挙げたが、しかし大勢はどうする事も出来なかった。<br><br>また反対側である無神主義者の方でも学問を作り、唯物的方法をもって悪による災害を防ごうとして努力した。<br><br>その結果科学は益々進歩し、文化は予期以上の成果を挙げたのである。<br><br>しかるに一方思わざる障碍が生まれたというのは、右のごとく進歩した科学を悪の方でも利用するようになった事である。<br><br> まず戦争を見ても判る通り、兵器は益々進歩すると共に、すべてが大規模になりつつある結果生まれたのが彼の原子爆弾である。<br><br>これこそ全く夢想だもしなかった恐怖の結晶であるから、この発見を知った誰もは、いよいよ戦争終焉（しゅうえん）の時が来たと喜んだのも束の間、これを悪の方でも利用する危険が生じて来たので、不安はむしろ増大したといってもいい。<br><br>とはいうものの結局戦争不可能の時代の接近した事も確かであろう。<br><br>これらを深く考えてみる時結局悪が戦争を作り、悪が戦争を終結させるという奇妙な結果となったのである。<br><br>こう見てくると、善も悪も全く深遠なる神の経綸に外ならなかった事はよく窺われる。<br><br>そうして精神文化の側にある人も、物質文化の側にある人も、心からの悪人は別とし、共に平和幸福なる理想世界を念願しているのは言うまでもないが、ただ問題は果してその実現の可能性がありやという事と、ありとすればその時期である。<br><br>ところがそれらについての何らの見通しもつかないため、人類の悩みは深くなるばかりである。<br><br>そこで心ある者は怪疑の雲に閉ざされつつ、突き当たった壁を見詰めているばかりであるし、中には宗教に求める者、哲学でこの謎を解こうとする者などもあるが、大部分は科学の進歩によってのみ達成するものと信じ努力しているが、これも確実な期待は得られそうもないので、行き詰り状態になっている。<br><br>ところが現実を見れば人類は相変らず病貧争の三大災厄の中に喘ぎ苦しみながら日々を送っている。<br><br>ところがこれら一切の根本を神示によって知り得た私は、あらゆる文化の誤謬を是正すべく解説するのである。<br><br> 前記のごとく悪なるものが、人間の不幸を作るとしたら、神はなぜ悪を作られたかという疑問である。<br><br>しかしこのような不可解極まる難問題は、到底人智では窺い知る由もないから、諦めるより致し方ないとして、宗教は固よりいかなる学問も、今日までこれに触れなかったのであろう。<br><br>しかし何といってもこれが明らかにならない限り、真の文明は成立されるはずはないのである。<br><br>そこでこれからその根本義を開示してみるが、実は現在までの世界においては悪の存在が必要であったので、この事こそ今日までの世界の謎でしかなかったのである。<br><br>そうして悪の中で最も人間の脅威とされていたものは、何といっても生命の問題としての戦争と病気の二大災厄であろう。<br><br>そこでまず戦争からかいてみるが、戦争が多数の人命を奪い、悲惨極まるものであるのは今更言うまでもないが、この災厄から免れようとして、人間はあらん限りの知能を絞り努力を払って来た事によって、思いもつかない文化の発達は促進されたのである。<br><br>見よ勝った国でも負けた国でも、戦争後の目覚ましい発展振りはいかなる国でも例外はあるまい。<br><br>仮にもし最初から戦争がないとしたら、文化は今もって未開のままか、さもなくば僅かの進歩しか見られなかったであろう。<br><br>そのようにして戦争と平和は糾（あざな）える縄のごとくにして、一歩一歩進んで来たのが現在までの文化の推移である。<br><br>これがまた社会事情にも人間の運命にも共通しているところに面白味がある。<br><br>これによってこれをみれば善悪の摩擦相剋（そうこく）こそ、実は進歩の段階である。<br><br> こうみてくると、今日までは悪も大きな役割をして来た訳になる。<br><br>といっても悪の期間は無限ではなく限度がある。<br><br>それは世界の主宰者たる主神の意図であり、哲学的に言えば絶対者とそうして宇宙意思である。<br><br>すなわちキリストが予言された世界の終末であり、そうして次に来るべき時代こそ、人類待望の天国世界であり、病貧争絶無の真善美の世界、ミロクの世等名は異なるが意味は一つで、帰するところ善の勝った世界である。<br><br>このような素晴しい世界を造るとしたら、それ相応の準備が必要である。<br><br>準備とは精神物質共に、右の世界を形成するに足るだけの条件の揃う事である。<br><br>ところが神はその順序として物質面を先にされたのである。<br><br>というのは精神面の方は時を要せず、一挙に引上げられるからで、それに反し物質面の方はそう容易ではない。<br><br>非常に歳月を要すると共に、そのためには何よりも神の実在を無視させる事である。<br><br>これによって人間の想念は自然物質面に向く。<br><br>ここに無神論が生まれたのである。<br><br>ゆえに無神論こそ実は悪を作るための必要な思想であったのである。<br><br>かくして悪が生まれ、漸次勢力を得て善を苦しめ争闘を起し、人類をして苦悩のドン底に陥らしめたので、人間は這上ろうとして足掻（あが）くのはもちろん、発奮努力によって苦境から脱れようとした。<br><br>それが文化発展に拍車を掛けたのであるから、悲惨ではあるが止むを得なかったのである。<br><br> 以上によって善悪についての根本義は大体分ったであろうが、いよいよここに悪追放の時が来たので、それは善悪切替の境目であるから、悪にとっては容易ならぬ事態となったのである。<br><br>右は臆測でも希望でも推理でもない。<br><br>世界経綸の神のプログラムの現れであるから、信ずると信ぜざるとにかかわらず、右は人類の決定的運命であって、悪の輪止（りんどま）りであり、悪が自由にして来た文化は、一転して善の手に帰する事となり、ここに地上天国樹立の段階に入ったのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Edificação do Paraíso e a Expulsão do Mal</h2>
 <p>Para que este mundo se converta no Paraíso, há uma condição fundamental: a expulsão do mal que se aninha profundamente no coração da maior parte da humanidade. O que se torna incompreensível, nesse sentido, é que o próprio senso comum considera o mal inaceitável. Não apenas se evita o contato com ele, como também a ética, a moral e a educação têm por objetivo principal coibi-lo, enquanto a religião promove o bem e repele o mal. Em todos os âmbitos sociais, observamos o mesmo: pais que repreendem a maldade nos filhos, maridos e esposas que se corrigem mutuamente, superiores que admoestam seus subordinados. As leis, por sua vez, empregam a punição para impedir que o mal seja cometido. Apesar de tantos esforços, a realidade é que o mundo abriga mais pessoas más do que boas. A rigor, poderíamos dizer que, de cada dez indivíduos, nove praticam o mal em maior ou menor grau, e a existência de uma única pessoa genuinamente boa já seria uma exceção.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>Como exposto, se é o mal que gera a infelicidade humana, por que Deus o criou? Esta é uma questão de tamanha complexidade que a inteligência humana jamais poderia desvendá-la. Por isso, resignados, tanto a religião quanto os mais diversos campos do saber evitaram tocá-la até hoje. Contudo, enquanto esse mistério não for esclarecido, a verdadeira civilização jamais poderá ser estabelecida. É chegado, pois, o momento de revelar seu significado fundamental: até o presente, a existência do mal era necessária para o mundo. Eis o grande enigma da história. Dentre as manifestações do mal, as que mais ameaçavam a humanidade eram, sem dúvida, a guerra e a doença, por atentarem diretamente contra a vida. Analisemos primeiro a guerra. É notório que ela ceifa inúmeras vidas e acarreta um sofrimento atroz. No entanto, foi precisamente na tentativa de se livrar desse flagelo que o ser humano empregou toda a sua capacidade intelectual e seus maiores esforços, o que promoveu um desenvolvimento cultural inimaginável. Observem como, após um conflito, tanto as nações vencedoras quanto as derrotadas experimentam um progresso notável — não há exceções. Se a guerra jamais tivesse existido, a cultura permaneceria em um estágio primitivo ou teria avançado de forma insignificante. Dessa maneira, guerra e paz se entrelaçaram como os fios de uma corda, impulsionando, passo a passo, a evolução da civilização até os dias de hoje. O fascinante é que essa mesma dinâmica se aplica tanto às circunstâncias sociais quanto ao destino individual. Vemos, assim, que o atrito e o confronto entre o bem e o mal foram, na verdade, os degraus do progresso.</p>
 <p>Depreende-se do exposto que, até hoje, o mal desempenhou um papel de grande relevância. Contudo, seu tempo de atuação não é infinito; há um limite. Isso corresponde ao desígnio do Deus Supremo, o regente do universo — ou, em termos filosóficos, do Absoluto e da Vontade Cósmica. Trata-se do Juízo Final profetizado por Cristo, que dará lugar à era vindoura: o tão aguardado Mundo Celestial, o mundo do Belo, da Verdade e do Bem, isento de doença, pobreza e conflito. É o Mundo de Miroku. Embora os nomes variem, o significado é o mesmo: um mundo onde, finalmente, o bem triunfará. Para edificar um mundo tão sublime, uma preparação à altura é necessária. Essa preparação consiste em reunir todas as condições, tanto espirituais quanto materiais, para sua concretização. Deus, em Sua sabedoria, estabeleceu a ordem de priorizar o aspecto material. A razão para isso é que o lado espiritual pode ser elevado instantaneamente, de uma só vez, ao passo que o desenvolvimento material é um processo árduo e demorado. E para que este último ocorresse, era imprescindível fazer com que a humanidade ignorasse a existência de Deus. Com isso, o pensamento humano se voltou naturalmente para a matéria, dando origem ao ateísmo. Portanto, o ateísmo foi a ideologia necessária para a criação do mal. Foi assim que o mal surgiu e gradualmente ganhou força, oprimindo o bem, gerando conflitos e mergulhando a humanidade no mais profundo sofrimento. Para se reerguer desse abismo, o homem não apenas lutou desesperadamente, como também se empenhou em superar suas adversidades. Esse esforço impulsionou o avanço da cultura. Foi um processo trágico, mas inevitável.</p>
 <p>Com base no que foi explanado, o significado fundamental do bem e do mal deve estar agora compreendido. Finalmente, chegou o momento da expulsão do mal. Encontramo-nos no ponto de transição entre o bem e o mal, o que representa uma conjuntura gravíssima para as forças malignas. O que afirmo não é especulação, desejo ou mera dedução. É a manifestação do programa divino para a condução do mundo. Quer se creia, quer não, este é o destino irrevogável da humanidade. É o fim da linha para o mal. A cultura, que até então esteve sob seu domínio, passará para as mãos do bem, e assim adentramos a era da edificação do Paraíso Terrestre.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 天国建設の順序と悪の追放 未発表『文明の創造』昭和27(1952)年執筆 そもそもこの世界を天国化するについては、一つの根本条件がある。<br/><br/>それは何かというと、現在大部分の人類が心中深く蔵（かく）されている悪の追放である。<br/><br/>それについて不可解な事には、一般人の常識からいっても悪を不可とし、悪に触れる事を避けるのはもちろん、倫理、道徳等を作って悪を戒め、教育もこれを主眼としており、宗教においても善を勧め、悪を排斥している。<br/><br/>その他社会いずれの方面を見ても、親が子を、夫は妻を、妻は夫を、主人は部下の悪を咎（とが）め戒めている。<br/><br/>法律もまた刑罰をもって悪を犯さぬようにしている等、これ程の努力を払っているにかかわらず、事実世界は善人より悪人の方が多く、厳密に言えば十人中九人までが、大なり小なりの悪人で、善人は一人あるかなしかというのが現実であろう。<br/><br/> しかしながら単に悪人といっても、それには大中小様々な種類がある。<br/><br/>例えば一は心からの悪、すなわち意識的に行う悪、すなわち意識的に行う悪、二は知らず識らず無意識に行う悪、三は無智ゆえの悪、四は悪を善と信じて行う悪等である。<br/><br/>これらについて簡単に説明してみるとこうであろう。<br/><br/>一は論外で説明の要はないが、二は一番多い一般的のものであり、三は民族的には野蛮人、個人的には白痴、狂人、児童等であるから問題とはならないが、四に至っては悪を善と信じて行う以上正々堂々としてしかも熱烈であるから、その害毒も大きい訳である。<br/><br/>これについては最後に詳しくかく事として、次に善から見た悪の世界観をかいてみよう。<br/><br/> 前記のごとく現在の世界を大観すると、全く悪の世界といってもいい程で、何よりも昔から善人が悪人に苦しめられる例は幾らでも聞くが、悪人が善人に苦しめられる話は聞いた事がない。<br/><br/>このように悪人には味方が多く、善人には味方が少ないので、悪人は法網を潜り、堂々世の中を横行濶歩するに反し、善人は小さくなって戦々兢々としているのが社会の姿である。<br/><br/>このように弱者である善人は、強者である悪人から常に虐げられ、苦しめられるので、この不合理に反抗して生まれたのが彼の民主主義であるから、これも自然発生のものである。<br/><br/>ところが日本においては長い間の封建思想のため、弱肉強食社会が続いて来たのであるが、幸いにも外国の力を借りて、今日のごとく民主主義となったので、自然発生と言うよりも、自然の結果といった方がよかろう。<br/><br/>というようにこの一事だけは、珍らしくも悪に対して善が勝利を得た例である。<br/><br/>しかし外国と異って日本は今のところ生温い民主主義で、まだまだ色々な面に封建の滓（かす）が残っていると見るのは私ばかりではあるまい。<br/><br/> ここで悪と文化の関係について書いてみるが、そもそも文化なるものの発生原理はどこにあったかというと、根本は善悪の闘争である。<br/><br/>それは古（いにし）えの野蛮未開時代からの歴史を見れば分る通り、最初強者が弱者を苦しめ、自由を奪い、掠奪殺人等ほしいままに振舞う結果、弱者にあってはそれを防止せんとして種々の防禦法を考えた。<br/><br/>武器は固より垣を作り、備えをし、交通を便にする等、集団的にも個人的にも、あらゆる工夫を凝らしたのであって、この事がいかに文化を進めるに役立ったかは言うまでもない。<br/><br/>それから漸次進んで人智は発達し、文字のごときものも生まれ、集団的契約を結ぶようになった。<br/><br/>が、今日の国際条約の嚆矢（こうし）であろう。<br/><br/>なお社会的には悪を制圧するに法や罰則を作り、これが条文化したものが今日の法律であろう。<br/><br/>ところが現実はそんな生易しい事では、人間から悪を除く事は到底出来なかった。<br/><br/>むしろ人智の進むにつれて悪の手段が益々巧妙になるばかりである。<br/><br/>というように人類は原始時代から悪の横行とそれを防止する善との闘争は絶える事なく今日に至ったのである。<br/><br/>しかしそれによっていかに人智が進み文化が発達したかは知る通りであってそのための犠牲もまた少なくなかったのはまた止むを得ないというべく、とにかく現在までは善悪闘争時代が続いて来たのである。<br/><br/>ところがそれら善人の悩みを幾分でも緩和すべく、時々現れたのが彼の宗教的偉人で、その教えの建前としては物欲を制限し、諦観思想を本位とし、従順を諭（おし）えると共に、将来に希望をもたせるべく地上天国、ミロクの世等の理想世界実現を予言したのである。<br/><br/>また一方悪に対しては極力因果の理を説き、速かに悔い改めるべく戒めたのはもちろんで、それがため幾多の苦難に遭い、血の滲むような暴圧に堪えつつ教えを弘通（ぐつう）した事蹟は、涙なくしては読まれないものがある。<br/><br/>なるほどこれによって相当の効果は挙げたが、しかし大勢はどうする事も出来なかった。<br/><br/>また反対側である無神主義者の方でも学問を作り、唯物的方法をもって悪による災害を防ごうとして努力した。<br/><br/>その結果科学は益々進歩し、文化は予期以上の成果を挙げたのである。<br/><br/>しかるに一方思わざる障碍が生まれたというのは、右のごとく進歩した科学を悪の方でも利用するようになった事である。<br/><br/> まず戦争を見ても判る通り、兵器は益々進歩すると共に、すべてが大規模になりつつある結果生まれたのが彼の原子爆弾である。<br/><br/>これこそ全く夢想だもしなかった恐怖の結晶であるから、この発見を知った誰もは、いよいよ戦争終焉（しゅうえん）の時が来たと喜んだのも束の間、これを悪の方でも利用する危険が生じて来たので、不安はむしろ増大したといってもいい。<br/><br/>とはいうものの結局戦争不可能の時代の接近した事も確かであろう。<br/><br/>これらを深く考えてみる時結局悪が戦争を作り、悪が戦争を終結させるという奇妙な結果となったのである。<br/><br/>こう見てくると、善も悪も全く深遠なる神の経綸に外ならなかった事はよく窺われる。<br/><br/>そうして精神文化の側にある人も、物質文化の側にある人も、心からの悪人は別とし、共に平和幸福なる理想世界を念願しているのは言うまでもないが、ただ問題は果してその実現の可能性がありやという事と、ありとすればその時期である。<br/><br/>ところがそれらについての何らの見通しもつかないため、人類の悩みは深くなるばかりである。<br/><br/>そこで心ある者は怪疑の雲に閉ざされつつ、突き当たった壁を見詰めているばかりであるし、中には宗教に求める者、哲学でこの謎を解こうとする者などもあるが、大部分は科学の進歩によってのみ達成するものと信じ努力しているが、これも確実な期待は得られそうもないので、行き詰り状態になっている。<br/><br/>ところが現実を見れば人類は相変らず病貧争の三大災厄の中に喘ぎ苦しみながら日々を送っている。<br/><br/>ところがこれら一切の根本を神示によって知り得た私は、あらゆる文化の誤謬を是正すべく解説するのである。<br/><br/> 前記のごとく悪なるものが、人間の不幸を作るとしたら、神はなぜ悪を作られたかという疑問である。<br/><br/>しかしこのような不可解極まる難問題は、到底人智では窺い知る由もないから、諦めるより致し方ないとして、宗教は固よりいかなる学問も、今日までこれに触れなかったのであろう。<br/><br/>しかし何といってもこれが明らかにならない限り、真の文明は成立されるはずはないのである。<br/><br/>そこでこれからその根本義を開示してみるが、実は現在までの世界においては悪の存在が必要であったので、この事こそ今日までの世界の謎でしかなかったのである。<br/><br/>そうして悪の中で最も人間の脅威とされていたものは、何といっても生命の問題としての戦争と病気の二大災厄であろう。<br/><br/>そこでまず戦争からかいてみるが、戦争が多数の人命を奪い、悲惨極まるものであるのは今更言うまでもないが、この災厄から免れようとして、人間はあらん限りの知能を絞り努力を払って来た事によって、思いもつかない文化の発達は促進されたのである。<br/><br/>見よ勝った国でも負けた国でも、戦争後の目覚ましい発展振りはいかなる国でも例外はあるまい。<br/><br/>仮にもし最初から戦争がないとしたら、文化は今もって未開のままか、さもなくば僅かの進歩しか見られなかったであろう。<br/><br/>そのようにして戦争と平和は糾（あざな）える縄のごとくにして、一歩一歩進んで来たのが現在までの文化の推移である。<br/><br/>これがまた社会事情にも人間の運命にも共通しているところに面白味がある。<br/><br/>これによってこれをみれば善悪の摩擦相剋（そうこく）こそ、実は進歩の段階である。<br/><br/> こうみてくると、今日までは悪も大きな役割をして来た訳になる。<br/><br/>といっても悪の期間は無限ではなく限度がある。<br/><br/>それは世界の主宰者たる主神の意図であり、哲学的に言えば絶対者とそうして宇宙意思である。<br/><br/>すなわちキリストが予言された世界の終末であり、そうして次に来るべき時代こそ、人類待望の天国世界であり、病貧争絶無の真善美の世界、ミロクの世等名は異なるが意味は一つで、帰するところ善の勝った世界である。<br/><br/>このような素晴しい世界を造るとしたら、それ相応の準備が必要である。<br/><br/>準備とは精神物質共に、右の世界を形成するに足るだけの条件の揃う事である。<br/><br/>ところが神はその順序として物質面を先にされたのである。<br/><br/>というのは精神面の方は時を要せず、一挙に引上げられるからで、それに反し物質面の方はそう容易ではない。<br/><br/>非常に歳月を要すると共に、そのためには何よりも神の実在を無視させる事である。<br/><br/>これによって人間の想念は自然物質面に向く。<br/><br/>ここに無神論が生まれたのである。<br/><br/>ゆえに無神論こそ実は悪を作るための必要な思想であったのである。<br/><br/>かくして悪が生まれ、漸次勢力を得て善を苦しめ争闘を起し、人類をして苦悩のドン底に陥らしめたので、人間は這上ろうとして足掻（あが）くのはもちろん、発奮努力によって苦境から脱れようとした。<br/><br/>それが文化発展に拍車を掛けたのであるから、悲惨ではあるが止むを得なかったのである。<br/><br/> 以上によって善悪についての根本義は大体分ったであろうが、いよいよここに悪追放の時が来たので、それは善悪切替の境目であるから、悪にとっては容易ならぬ事態となったのである。<br/><br/>右は臆測でも希望でも推理でもない。<br/><br/>世界経綸の神のプログラムの現れであるから、信ずると信ぜざるとにかかわらず、右は人類の決定的運命であって、悪の輪止（りんどま）りであり、悪が自由にして来た文化は、一転して善の手に帰する事となり、ここに地上天国樹立の段階に入ったのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

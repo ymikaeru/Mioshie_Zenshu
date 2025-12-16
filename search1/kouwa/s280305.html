@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s280305</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年3月5日） 『御教え集』20号、昭和28(1953)年4月15日発行 昭和二十八年三月五日 スターリンが危ないという外電がありましたが、どうせ脳溢血のそうとう重いので、ロレツがまわらないのだから、あるいはもう死んでいるかもしれません。<br><br>脳溢血で一番重いのはロレツがまわらないのです。<br><br>これは重いのです。<br><br>ごく重いのは動く（手が震う）のです。<br><br>しかしこれはめったにありません。<br><br>ふつうはロレツがまわらないのと、意識が不明になるのとです。<br><br>それで右の手足が動かないというのですから、本格的の脳溢血です。<br><br>私はいつかスターリンが死ぬのはそう長くないということは言ってありますが、しかし思ったより早かったです。<br><br>まだもう一、二年は生きると思ってましたが、やはり神様の方では急がれるのです。<br><br>どうせアメリカの方では中共をやっつけるのですが、それにはスターリンがいない方が、アメリカの方はずっと有利なのはあたりまえです。<br><br>とにかくスターリンという人物は傑物でした。<br><br>なにしろ大きさもあるし、非常に危なげがありません。<br><br>そのやり方をみると、考え方がよほど深いのです。<br><br>それに比べると、ヒトラーという人はまったくオッチョコチョイでした。<br><br>それはヒトラーも非常に大胆で偉いところがあるが、考え方が浅かったのです。<br><br>それに比べるとスターリンの方は考え方がずっと深いのです。<br><br>だから戦争も決してしかけるということはしないのです。<br><br>このことは私は前から認めてます。<br><br>決して積極的には出ません。<br><br>悪く言えばずるさがあります。<br><br>それは実にずるいです。<br><br>朝鮮問題にしても、うまく中共を踊らして自分の方は一兵も損じないであれだけの戦をしているということは、その点においてはアメリカもかないません。<br><br>とにかくアメリカは自分の国の兵隊を動かして表面に立ってやるのですからたいへんな損です。<br><br>おまけにソ連の方は非常に近いのですが、アメリカは遠いからして、遠くから兵隊にしろ武器にしろ運ばなければならないから、それはソ連とは比べものにならないほど割が悪いのです。<br><br>そこでアイゼンハウアーは、早く片づけなければたいへんなマイナスだと積極的に出たわけですが、そういうようで、あのやり方の考えの深さはスターリンの方がずっと上です。<br><br> アメリカのやり方でまずかったのは、日本の軍部をあまり恐れ過ぎたのです。<br><br>この見通しができなかったのです。<br><br>それはマッカーサーにも責任がありますが、日本の軍部に対するあれほどまでの恐怖は不必要だったのです。<br><br>必要以上に軍部を恐れたのです。<br><br>敗戦であれほどまでになった後では、なにもできるわけはないから、あれほど極端に恐れなくてもいいのです。<br><br>だからもっと緩和政策をとって、軍部のそうとうの地位の人までは残しておけば良かったのです。<br><br>そうすれば今度の朝鮮問題に対してのやり方にも非常に役立ったのです。<br><br>今になって、大佐階級の軍人を目立たないように引っ張ってます。<br><br>だからいよいよ始まる日になると、向こうに対する強圧手段としても、日本の軍人のいいところの人を、それだけの地位におくということが非常に必要なのです。<br><br>ところがなぜそうしなかったかというのは、ソ連というものに対する見通しがつかなかったのです。<br><br>将来、ソ連は野心を持っているということは知っていたが、中共をこれほどにして、おまけに朝鮮までに手を出させるということは、アメリカとしても予想しなかったのです。<br><br>そこに手ぬかりがあったのです。<br><br>それを予想していたら、日本をあんなにやっつけるわけはないのです。<br><br>そこにトルーマンという人の眼界が小さかったのです。<br><br>どうも、ただ局部のごく小さくしか見えなかったのです。<br><br>そこで朝鮮問題というものもあんなに焦げついてしまって、なんとかしなければならないということになって、アイゼンハウアーが大統領に当選したわけです。<br><br>まあ、国民がそういう点を感じてきたのです。<br><br>ところがスターリンが死んだとすると、あと一時的にはモロトフが首脳者になるということもあるでしょうが、強いところはありますが、それはとてもスターリンのような大きさはありません。<br><br>それからよく話題に上るマレンコフですが、まだ五十二歳ですから若いが、なかなかの切れ者らしいですが、まだとてもスターリンとは格段の違いです。<br><br>そこで当分は合議制でやるだろうと思います。<br><br>そうかといって、今までの方針を変えることはできないから、やはり中共を援助して、当分は現状維持という方針にするでしょうが、そんなことをしているうちに、アメリカの方はだんだん準備します。<br><br>二、三日前の新聞かに、台湾で国民軍の兵隊に上陸作戦の演習を、二週間前からさせているということがありましたが、これが支那本土に上陸する予定なのでしょう。<br><br>それからもう一つは、鉄砲の弾を何千万発とか言ってましたが、価格で二億二千万円というものを日本で引き受けて契約済みになりました。<br><br>そういうようで、アメリカでは着々と準備してます。<br><br>私が「世界夢物語」に書いたとおり、準備にはまず半年ないし一年はかかるだろうと書いておきましたが、早くて半年、ふつうからみれば一年くらいで火蓋を切るのは、まず間違いないでしょう。<br><br>それには、スターリンが死んだということは、アメリカには非常に有利なのです。<br><br>神様はどうしても「夢物語」にあるような順序で、まず最初の目的は中共をめちゃめちゃにして、蒋介石の方を元どおりに立てるというわけですが、その方策を実現する上からいって、スターリンの死ということによって、非常に促進され、楽にいくわけです。<br><br>これはやはり神様の経綸です。<br><br> 日本の政界での、吉田さんの「馬鹿野郎」問題ですが、よほど頭がどうかしていると見えます。<br><br>あれは男らしくありません。<br><br>「まったく間違っていた」と責任を負って辞職すればいいのです。<br><br>そうするとずっと形がいいのです。<br><br>それを今もってしがみついて、なんとかしようというこの態度が、いよいよ恥の上塗りという結果になります。<br><br>これは確かに間違っているどころではなく、あんまり酷過ぎます。<br><br>総理大臣ともいわれる者がああいう言葉を発するということは、少し頭がどうかしたとみるよりありません。<br><br>吉田さんという人は偉いのですが、なんでもかんでも自分のことを押し通そうとするのが欠点です。<br><br>「負けるが勝ち」という戦法を本当に知らないのです。<br><br>また知っていても実行できないのです。<br><br>だからことごとく自分でそういう種をまいているわけです。<br><br>つまり正直過ぎるのです。<br><br>もっと食えない人間にならなければならないのです。<br><br>この点があの人の欠点です。<br><br>前の福永問題とか最近の広川問題でも、ああいうことをしなくても、ちょっとやればフッと治まってしまうのです。<br><br>それを妙なところで意地を張ってしまうので、非常に損をしてます。<br><br>そのために今度の問題も、泥沼に足を突っ込んだように、ぬきさしならぬことになり、結局辞職か解散です。<br><br>それで解散でおどかしてますが、しかし解散したら、一番損なのは自由党です。<br><br>今度総選挙になったら、金がたいへんですから……。<br><br>それであの人の一番惜しいと思うことは、時期ということを知らないのです。<br><br>つまり講和問題でアメリカに行った時が、ちょうど花の盛りなのです。<br><br>あれからだんだん花が散って、もうほとんど凋落（ちょうらく）して、葉まで落ちてきたのだから、もう自分の運命を覚らなければならないのです。<br><br>それを相変わらず花を咲かせようとしているのですが、そこに間違いがある。<br><br>こうなると自由党の頭数は、この間の投票でも分かるとおり、数が足りないのです。<br><br>そうしてみると、もう一日一日凋落しているのです。<br><br>だからここで潔く引き渡すということが、終わりをまっとうするもっともいいことですが、それを今もってしがみついているのは、まず時を知らなさすぎます。<br><br>まるで時局講演のようになりましたが、このくらいにしておきます。<br><br> それから『アメリカを救う』の本も予想どおり非常に良く売れるのです。<br><br>今もって売れているそうです。<br><br>ですからベストセラーになるでしょう。<br><br>この次は『結核信仰療法』を出そうと思ってます。<br><br>これも随分売れるだろうと思います。<br><br>というのは、結核でさんざんお医者にやってもらってなおらないので、なにかほかの良いやり方はないかと思って迷っている人がどのくらいあるか分かりません。<br><br>その人たちの中には、こうなってはなにか神仏を信仰したいと思うような人が随分あるだろうと思います。<br><br>しかしただそれだけではなにを信仰して良いか分からないが、そこに「信仰療法」というのですから、まずこれを読んでから腹を決めようという人がたくさんあるでしょうから、それにピッタリするわけです。<br><br>やはりその時期と、それに合わせる方法がピッタリ合うのでうまくいくのです。<br><br>だから『アメリカを救う』なども時期がごく良かったのです。<br><br>講和後少したって、日本人は劣等感が強く、しかも最近はアメリカ医学を崇拝し、アメリカの薬を非常に欲しがってますから、ちょうど時期が良かったのです。<br><br>それから標題が良いということはみんなが言ってます。<br><br>これはつい読みたくなると言ってます。<br><br>今はみんな、アメリカより日本の方が文化が低い、遅れている、負けている、というような状況です。<br><br>その中で、こっちは、それを救うというのです。<br><br>アメリカよりずっと上になることを言うのですから、アッと思わせるのです。<br><br>もし私が商売をやっているとすれば、うまく人気をとり、金を儲けるのはうまいということになります。<br><br> それから『結核信仰療法』の次に出すのは、『救世教奇蹟集』というのです。<br><br>奇蹟は『栄光』に始終出しているから読んでいるでしょうが、すばらしい奇蹟を世の中の人に知らせたいのです。<br><br>しまっておくのは惜しいのです。<br><br>それを百例選りぬいて、それを裏付けとして、奇蹟の理論と実際の裏付けということで書きます。<br><br>これはまだ少し間がありますが、いずれ出そうと思ってます。<br><br>この標題には「科学への原子爆弾」として、そうして『救世教奇蹟集』とします。<br><br>それについてこの間その「序文」を書いて出しましたが、次のもそう長いものではないのですが、できただけを今読ませます。<br><br> （御論文「一、奇蹟とは何ぞや」「二、霊主体従」） これはいつも言っていますが、ちょっとおもしろいから読ませます。<br><br> （御論文「天国的宗教と地獄的宗教」）【地上天国 四十六号】
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Reflexões sobre o Cenário Político Mundial</h2>
 <p>Recebemos notícias do exterior sobre o estado crítico de Stalin. Trata-se, certamente, de uma hemorragia cerebral bastante grave, a ponto de comprometer-lhe a fala, e não seria surpreendente se ele já tivesse até mesmo falecido. A dificuldade em articular as palavras é, de fato, o sintoma mais severo de uma hemorragia cerebral, seguida pela perda de consciência. Um tremor nas mãos indica um quadro gravíssimo, embora seja raro. Como foi noticiado que o lado direito de seu corpo está paralisado, trata-se de um caso clássico. Eu já havia afirmado há algum tempo que a morte de Stalin não tardaria, mas confesso que ocorreu antes do que eu previa. Imaginava que ele viveria por mais um ou dois anos; contudo, percebe-se que os desígnios de Deus se apressam.</p>
@@ -105,5 +257,48 @@ function toggleLang(lang) {
 <p>(Leitura do artigo "Um: O que é um milagre?" e "Dois: O Espírito é o principal, o corpo é o secundário")</p>
 <p>Agora, algo que sempre menciono, mas que peço que leiam por ser particularmente interessante.</p>
 <p>(Leitura do artigo "Religião Celestial e Religião Infernal")</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年3月5日） 『御教え集』20号、昭和28(1953)年4月15日発行 昭和二十八年三月五日 スターリンが危ないという外電がありましたが、どうせ脳溢血のそうとう重いので、ロレツがまわらないのだから、あるいはもう死んでいるかもしれません。<br/><br/>脳溢血で一番重いのはロレツがまわらないのです。<br/><br/>これは重いのです。<br/><br/>ごく重いのは動く（手が震う）のです。<br/><br/>しかしこれはめったにありません。<br/><br/>ふつうはロレツがまわらないのと、意識が不明になるのとです。<br/><br/>それで右の手足が動かないというのですから、本格的の脳溢血です。<br/><br/>私はいつかスターリンが死ぬのはそう長くないということは言ってありますが、しかし思ったより早かったです。<br/><br/>まだもう一、二年は生きると思ってましたが、やはり神様の方では急がれるのです。<br/><br/>どうせアメリカの方では中共をやっつけるのですが、それにはスターリンがいない方が、アメリカの方はずっと有利なのはあたりまえです。<br/><br/>とにかくスターリンという人物は傑物でした。<br/><br/>なにしろ大きさもあるし、非常に危なげがありません。<br/><br/>そのやり方をみると、考え方がよほど深いのです。<br/><br/>それに比べると、ヒトラーという人はまったくオッチョコチョイでした。<br/><br/>それはヒトラーも非常に大胆で偉いところがあるが、考え方が浅かったのです。<br/><br/>それに比べるとスターリンの方は考え方がずっと深いのです。<br/><br/>だから戦争も決してしかけるということはしないのです。<br/><br/>このことは私は前から認めてます。<br/><br/>決して積極的には出ません。<br/><br/>悪く言えばずるさがあります。<br/><br/>それは実にずるいです。<br/><br/>朝鮮問題にしても、うまく中共を踊らして自分の方は一兵も損じないであれだけの戦をしているということは、その点においてはアメリカもかないません。<br/><br/>とにかくアメリカは自分の国の兵隊を動かして表面に立ってやるのですからたいへんな損です。<br/><br/>おまけにソ連の方は非常に近いのですが、アメリカは遠いからして、遠くから兵隊にしろ武器にしろ運ばなければならないから、それはソ連とは比べものにならないほど割が悪いのです。<br/><br/>そこでアイゼンハウアーは、早く片づけなければたいへんなマイナスだと積極的に出たわけですが、そういうようで、あのやり方の考えの深さはスターリンの方がずっと上です。<br/><br/> アメリカのやり方でまずかったのは、日本の軍部をあまり恐れ過ぎたのです。<br/><br/>この見通しができなかったのです。<br/><br/>それはマッカーサーにも責任がありますが、日本の軍部に対するあれほどまでの恐怖は不必要だったのです。<br/><br/>必要以上に軍部を恐れたのです。<br/><br/>敗戦であれほどまでになった後では、なにもできるわけはないから、あれほど極端に恐れなくてもいいのです。<br/><br/>だからもっと緩和政策をとって、軍部のそうとうの地位の人までは残しておけば良かったのです。<br/><br/>そうすれば今度の朝鮮問題に対してのやり方にも非常に役立ったのです。<br/><br/>今になって、大佐階級の軍人を目立たないように引っ張ってます。<br/><br/>だからいよいよ始まる日になると、向こうに対する強圧手段としても、日本の軍人のいいところの人を、それだけの地位におくということが非常に必要なのです。<br/><br/>ところがなぜそうしなかったかというのは、ソ連というものに対する見通しがつかなかったのです。<br/><br/>将来、ソ連は野心を持っているということは知っていたが、中共をこれほどにして、おまけに朝鮮までに手を出させるということは、アメリカとしても予想しなかったのです。<br/><br/>そこに手ぬかりがあったのです。<br/><br/>それを予想していたら、日本をあんなにやっつけるわけはないのです。<br/><br/>そこにトルーマンという人の眼界が小さかったのです。<br/><br/>どうも、ただ局部のごく小さくしか見えなかったのです。<br/><br/>そこで朝鮮問題というものもあんなに焦げついてしまって、なんとかしなければならないということになって、アイゼンハウアーが大統領に当選したわけです。<br/><br/>まあ、国民がそういう点を感じてきたのです。<br/><br/>ところがスターリンが死んだとすると、あと一時的にはモロトフが首脳者になるということもあるでしょうが、強いところはありますが、それはとてもスターリンのような大きさはありません。<br/><br/>それからよく話題に上るマレンコフですが、まだ五十二歳ですから若いが、なかなかの切れ者らしいですが、まだとてもスターリンとは格段の違いです。<br/><br/>そこで当分は合議制でやるだろうと思います。<br/><br/>そうかといって、今までの方針を変えることはできないから、やはり中共を援助して、当分は現状維持という方針にするでしょうが、そんなことをしているうちに、アメリカの方はだんだん準備します。<br/><br/>二、三日前の新聞かに、台湾で国民軍の兵隊に上陸作戦の演習を、二週間前からさせているということがありましたが、これが支那本土に上陸する予定なのでしょう。<br/><br/>それからもう一つは、鉄砲の弾を何千万発とか言ってましたが、価格で二億二千万円というものを日本で引き受けて契約済みになりました。<br/><br/>そういうようで、アメリカでは着々と準備してます。<br/><br/>私が「世界夢物語」に書いたとおり、準備にはまず半年ないし一年はかかるだろうと書いておきましたが、早くて半年、ふつうからみれば一年くらいで火蓋を切るのは、まず間違いないでしょう。<br/><br/>それには、スターリンが死んだということは、アメリカには非常に有利なのです。<br/><br/>神様はどうしても「夢物語」にあるような順序で、まず最初の目的は中共をめちゃめちゃにして、蒋介石の方を元どおりに立てるというわけですが、その方策を実現する上からいって、スターリンの死ということによって、非常に促進され、楽にいくわけです。<br/><br/>これはやはり神様の経綸です。<br/><br/> 日本の政界での、吉田さんの「馬鹿野郎」問題ですが、よほど頭がどうかしていると見えます。<br/><br/>あれは男らしくありません。<br/><br/>「まったく間違っていた」と責任を負って辞職すればいいのです。<br/><br/>そうするとずっと形がいいのです。<br/><br/>それを今もってしがみついて、なんとかしようというこの態度が、いよいよ恥の上塗りという結果になります。<br/><br/>これは確かに間違っているどころではなく、あんまり酷過ぎます。<br/><br/>総理大臣ともいわれる者がああいう言葉を発するということは、少し頭がどうかしたとみるよりありません。<br/><br/>吉田さんという人は偉いのですが、なんでもかんでも自分のことを押し通そうとするのが欠点です。<br/><br/>「負けるが勝ち」という戦法を本当に知らないのです。<br/><br/>また知っていても実行できないのです。<br/><br/>だからことごとく自分でそういう種をまいているわけです。<br/><br/>つまり正直過ぎるのです。<br/><br/>もっと食えない人間にならなければならないのです。<br/><br/>この点があの人の欠点です。<br/><br/>前の福永問題とか最近の広川問題でも、ああいうことをしなくても、ちょっとやればフッと治まってしまうのです。<br/><br/>それを妙なところで意地を張ってしまうので、非常に損をしてます。<br/><br/>そのために今度の問題も、泥沼に足を突っ込んだように、ぬきさしならぬことになり、結局辞職か解散です。<br/><br/>それで解散でおどかしてますが、しかし解散したら、一番損なのは自由党です。<br/><br/>今度総選挙になったら、金がたいへんですから……。<br/><br/>それであの人の一番惜しいと思うことは、時期ということを知らないのです。<br/><br/>つまり講和問題でアメリカに行った時が、ちょうど花の盛りなのです。<br/><br/>あれからだんだん花が散って、もうほとんど凋落（ちょうらく）して、葉まで落ちてきたのだから、もう自分の運命を覚らなければならないのです。<br/><br/>それを相変わらず花を咲かせようとしているのですが、そこに間違いがある。<br/><br/>こうなると自由党の頭数は、この間の投票でも分かるとおり、数が足りないのです。<br/><br/>そうしてみると、もう一日一日凋落しているのです。<br/><br/>だからここで潔く引き渡すということが、終わりをまっとうするもっともいいことですが、それを今もってしがみついているのは、まず時を知らなさすぎます。<br/><br/>まるで時局講演のようになりましたが、このくらいにしておきます。<br/><br/> それから『アメリカを救う』の本も予想どおり非常に良く売れるのです。<br/><br/>今もって売れているそうです。<br/><br/>ですからベストセラーになるでしょう。<br/><br/>この次は『結核信仰療法』を出そうと思ってます。<br/><br/>これも随分売れるだろうと思います。<br/><br/>というのは、結核でさんざんお医者にやってもらってなおらないので、なにかほかの良いやり方はないかと思って迷っている人がどのくらいあるか分かりません。<br/><br/>その人たちの中には、こうなってはなにか神仏を信仰したいと思うような人が随分あるだろうと思います。<br/><br/>しかしただそれだけではなにを信仰して良いか分からないが、そこに「信仰療法」というのですから、まずこれを読んでから腹を決めようという人がたくさんあるでしょうから、それにピッタリするわけです。<br/><br/>やはりその時期と、それに合わせる方法がピッタリ合うのでうまくいくのです。<br/><br/>だから『アメリカを救う』なども時期がごく良かったのです。<br/><br/>講和後少したって、日本人は劣等感が強く、しかも最近はアメリカ医学を崇拝し、アメリカの薬を非常に欲しがってますから、ちょうど時期が良かったのです。<br/><br/>それから標題が良いということはみんなが言ってます。<br/><br/>これはつい読みたくなると言ってます。<br/><br/>今はみんな、アメリカより日本の方が文化が低い、遅れている、負けている、というような状況です。<br/><br/>その中で、こっちは、それを救うというのです。<br/><br/>アメリカよりずっと上になることを言うのですから、アッと思わせるのです。<br/><br/>もし私が商売をやっているとすれば、うまく人気をとり、金を儲けるのはうまいということになります。<br/><br/> それから『結核信仰療法』の次に出すのは、『救世教奇蹟集』というのです。<br/><br/>奇蹟は『栄光』に始終出しているから読んでいるでしょうが、すばらしい奇蹟を世の中の人に知らせたいのです。<br/><br/>しまっておくのは惜しいのです。<br/><br/>それを百例選りぬいて、それを裏付けとして、奇蹟の理論と実際の裏付けということで書きます。<br/><br/>これはまだ少し間がありますが、いずれ出そうと思ってます。<br/><br/>この標題には「科学への原子爆弾」として、そうして『救世教奇蹟集』とします。<br/><br/>それについてこの間その「序文」を書いて出しましたが、次のもそう長いものではないのですが、できただけを今読ませます。<br/><br/> （御論文「一、奇蹟とは何ぞや」「二、霊主体従」） これはいつも言っていますが、ちょっとおもしろいから読ませます。<br/><br/> （御論文「天国的宗教と地獄的宗教」）【地上天国 四十六号】</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

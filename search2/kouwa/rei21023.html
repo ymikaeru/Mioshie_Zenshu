@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>rei21023</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊学篇 二 霊的現象（一） ２ 023-034 憑霊２ 023 観音様を祭るべきを告ぐる龍神と岩谷堂町 岩手県和賀郡更木村の沢田太利右ヱ門（十九歳）と申す熱心な信者、この度祖父の霊及び前世の因縁ある霊が憑り、岩谷堂町の資産家・中善と申す家の井戸に龍神となっており、この度同家の倉に古くより安置されている百観音様の使命を受け、岩谷堂は日本の扉であり、扉を開くにはまず私及び鎌田師の両人で右観音様に善言讃詞を水の因縁の日に六十回奏上し、そして中善の主人にお道の話をさせて頂けば必ず判る。<br><br>また、町の人々に告げて、右観音様を同町旧城趾に観音様の縁者にて堂宇を建てて祭ればよい。<br><br>この事を知らせに憑った。<br><br>この通りにして頂かねばこの肉体より離れる事が出来ず、遂にはこの肉体がもたないから、早く御参詣して頂きたいと何度も同じ事を繰り返して申しております。<br><br>なお、右観音像は四十年前気仙郡のある家にお祭りしてあったものを、先代が譲り受け、爾来一般には秘密に致し、昨年九月色々暗示があったので初めて御開帳しましたが、平常は参詣を禁じているもので、どうしたら宜しいでしょうか。<br><br>なお、前の所有者の家は癩病で絶えています。<br><br> これは本当である。<br><br>この通りにしていい。<br><br> 岩谷堂は重要な所である。<br><br> 024 岩手開拓と金龍神（龍神憑依して霊示） 先般御教え頂きました岩手県岩谷堂町に関し、その後沢田さんに十三の龍神が次々と憑り、岩手の戸を開くため龍神界の龍神が神様から許されたこの肉体の霊感を通して 開拓地方とその方法を知らせると申し、目下四方八方へ活動致しております。<br><br>去る十六日土沢教導所にて沢田さんの霊眼に金色の龍神が写り、そのお姿は全身桜の花のような模様が金色に輝き、眼や金色の光があり、何とも言い表わしようのない美しさと申しておりました。<br><br>その翌日龍神が憑り、十六日に沢田の霊眼に写ったのは金龍神で、この度当地方に金龍神が来られ釜石、気仙より海岸を一廻りされるにつき、龍神界の龍神がお供をする。<br><br>しかして沢田の肉体を海岸地方へやれ、開く道を教えるからと申しましたが、右の事は真実で御座いましょうか。<br><br>御教えをお願い申し上げます。<br><br>なお、霊が憑ります時は本人は全然自己意識が無く、眼を閉じたまま人払いの後紙に蛇のような字体で書きます。<br><br>全然口は利きません。<br><br>そして常識的で御座います。<br><br> 本当のものである。<br><br>この通りやった方がよい。<br><br>金色の龍は伊都能売神が差図して一遍はやられる。<br><br>（S25. 5. 2） 025 神憑りで語る 治る。<br><br>気長に浄霊する。<br><br>神様と話が出来るのは神様でなく、祖霊と狐などと合併している。<br><br>天津祝詞をよく奏げてやる。<br><br>（やはり）馬頭観音であろう。<br><br>先祖の誰かが信仰していたものである。<br><br> 龍神である。<br><br>祖先の中で龍神になっているのが知らした。<br><br>喜んで礼に来た。<br><br>（S23. 8. 7） 026 観音様の御分身（祖霊） 私（四十四歳）、昨年九月受光、母（六十三歳）、本月八日受光、妻、昨年九月受光、長男（二十二歳）も御光を頂いております。<br><br>本月七日夜八時頃長男が母及び長女を浄霊いたしておりましたところ、突然母が右の手がふるえて仕方がないと言うが早いか両手を合せて頭の上に上げて、息ざしが苦しそうになりました。<br><br>それから直ちに両手を下げて礼拝する形になり、段々畳の上を這いながら仏壇の前に行きますので、長男と私、妻と三人で盛んに浄霊をさせて頂きまして、最後に私が母に向い「あなたはどなたですか」と尋ねますと「お前等は何を信仰している」と言いますので、私もちょっと不安な気持で黙っておりましたが、また一度「仏様ですか、神様ですか」と尋ねますと「俺は神だ」と言うと段々母も己に還り、不思議な顔をして私達を見つめておりましたので、母に聞いて見ましたら、己の傍に観音様が三人いたと言いました。<br><br>その時母は眼が赤くなって泣いた様子が見えました。<br><br>これはいかなる神様で御座いましょうか。<br><br>御伺いいたします。<br><br> 神にも八百万ある。<br><br>観音様も御分霊で、分れて沢山ある場合もあるが、大抵お一人のもので、三人とはおかしい。<br><br>一人でなくてはならぬ。<br><br>観音様にみえたものであろうと思う。<br><br>錯覚であろう。<br><br>大抵祖先である。<br><br> 天国へ出世した霊であり、信仰を勧めるために疑いをもってる人などに見せる場合がある。<br><br>今少し様子をみる。<br><br>外に神様に用があったのかもしれない。<br><br> ただ、悪い事ではない。<br><br>（S24. 2.15） 027 母親の霊ついた病人（守護霊） 先日三十四歳になる女の人を浄霊致しました所、左のような事を言いました。<br><br> 「私はこの子供（三十四歳の女）の母親で、今年八十二歳になりますが、この子が可愛いので何とか長生きさせたいためについております。<br><br>何とかこの子供を御救い下さい」と。<br><br>また次に「私は弘法大師であります。<br><br>この子供の母親は非常に信仰家であるために、なんとかこの子を守りたいために約十二年前に丸い玉をお腹の中に入れました。<br><br>この子も知っている筈だ。<br><br>（女の人に聞きましたら知っていると言いました）」と言いました。<br><br>八十二歳の母親は生きております。<br><br>この場合は生霊でしょうか、狐霊でしょうか。<br><br>また、この場合の浄霊方法を御教え願います。<br><br>なお、弘法大師は現在いかに御働きでしょうか。<br><br>また、丸い玉とはいかなる作用を致しましょうか。<br><br>三十四歳の女の人は時々神憑りになるそうです。<br><br>右、お伺い申し上げます。<br><br> 母親に憑いてる守護霊で、母親の代りをやっている。<br><br> 弘法大師は怪しい。<br><br>代理である。<br><br>昔信仰したためのおかげである。<br><br> 丸い玉は霊である。<br><br>霊というものは始終丸い玉になるものである。<br><br>であるから、弘法の眷族である。<br><br> 山にいると狼などが眷族になって働くものである。<br><br>それだけの守護されているから結構である。<br><br>（S24. 8.15） 028 大日如来と観音様、殿様の霊 従来大日如来様を御本尊として祀ってある家庭で屏風観音様をお迎え申しましたところ、祖霊が出て参りまして、大日如来様と観音様とは同格だと申し、実はその家庭は以前代々家老職を務め、殿様が来られた家柄なので、死後も殿様の霊がその部屋に留っていると申しまして、しかもその部屋は霊界が高いから、家族の者の入ることをも猛烈に反対拒否し、朝一回のお参りだけを許すと申します。<br><br>いかなる訳で御座いましょうか。<br><br>お伺い申し上げます。<br><br> 大日如来は天照大神様、観音様は日の弥勒であるから構わぬ。<br><br>同格でも構わぬ。<br><br> 封建時代は殿様を偉くしようとして種々言う。<br><br>殿様の霊は高い霊界とは言えぬ。<br><br>地獄へ行くのも沢山ある。<br><br>それは殿様を崇め奉ろうという意味から言っている。<br><br>しかしこんな事はない。<br><br>殿様の霊がいれば続けて祀ってもよい。<br><br>その部屋にいるとすれば、部屋全体が仏壇みたいになっている。<br><br>それより、仏壇に戒名をつけて祀った方が仏らしくて、反って喜ぶ。<br><br> ただ、普通の出入りをしてもよい。<br><br>それをいけないというのは嘘である。<br><br> 「大日如来様は軸になっていますが、神霊は宿られているでしょうか。<br><br>」 その家の人の想念による。<br><br>御神体を書く程の人は相当の修行をしており、普通の人とは違う。<br><br>しかしそのために狭くなるなどの場合は大日如来は撤去してよい。<br><br> その人が大日如来より観音様の方が良いと思えば、大日如来は撤去してよい。<br><br>（S23. 8.21） 029 後事頼む神官霊 四十二、三歳の男子（前職歯科医）、疎開して旧神官の家に住むようになってからの事ですが、昨年十一月突然口中や手足がしびれて中風状態になり、爾来夢にも現にも時々神憑りとなり、神官の霊が次のような事を申すそうであります。<br><br>「この御宮（付近に現存しております）を護って貰いたい。<br><br>祭神は鎌倉八幡の別宮にて武内宿弥、仲哀天皇、応神天皇、神功皇后の四柱であり、幣帛は直接宮内省にて受けていた。<br><br>その後氏子等も作り祭事を行なわんとしたが、不幸、自分が死んだので後を頼む」 註＝この御宮は今より三年前に鎌倉より移祀した由。<br><br> そしてこの病人を他の神官が御祓いすると非常に苦しがります。<br><br>また神官の霊も御祓いを近付けてはいかんと言うそうです。<br><br> 右について、 （イ）この病人は未だ御光を戴いておりませんが、いかにしたら救われるでしょうか。<br><br> （ロ）霊が御祓いを嫌うのと病人が苦しがるのは執着のためでありましょうか。<br><br>あるいはまた神様の思召で神官の霊を動かしておられるのでしょうか。<br><br> （ハ）この病人の浄霊法を御伺い致します。<br><br> 神官が希望があって、行く所へ行けないんで、この人を選んで知らした。<br><br>霊の希望の通りしてやるといい。<br><br>霊はお礼をしなければならぬ。<br><br>という事は守護してる事で、事情が許せば希望通りしてやるといい。<br><br> 後を頼むというのは四柱の神格者をお守する事を希望する。<br><br>誰か神官的な人を探して頼むといい。<br><br>それも具合が悪ければ四柱の祭神を自分の家の床の間へ、台の上に安置して、後ろへ光明如来様のお軸をかける。<br><br>その方がよい。<br><br>憑いてる霊が上であるから、下の者からやられる（お払い）と苦しい、気持がわるい。<br><br>上ほど光がある。<br><br>下の霊だと曇りがあるから汚れるので気持がわるい。<br><br>神官が御光を頂かなくてはならぬ。<br><br>ズーッと早く救われる。<br><br> 浄霊は前頭の奥を一番沢山する。<br><br> 030 時宗の霊 六月二十日、増田イトさん（信者）を御浄霊させて戴きましたところ、霊憑りとなりまして、伊達家先祖代々と北條時宗の御位牌をお祀りして下さいと申しました。<br><br>伊達家の方は因縁が分りましたので早速お祀りさせて戴きましたが、北條時宗の方は解りませんのでお祀り致しませんでしたところ、また霊憑りとなりまして「早く早く北條時宗のお位牌を祀って下さい」、「あなたはこの肉体と因縁がありますか」と尋ねましたところ「大先生様がよく御存知です」と申し、お位牌をお祀りしてくれればうんとうんと働きますと強く申します。<br><br>「あなたは本当に北條時宗ですか」と聞きましたところ「そうです」と強く頷きました。<br><br>伊達家の位牌を祀りまして苦しみが大分楽になり、御礼に出て参りましたが、なお時宗を祀って欲しいと申し依然として憑霊状態は治りません。<br><br>（昨年四月頃も霊が浮きまして、時宗々々と申しましたが、そのままで現在に至ったので御座居ます）時宗をお祀りした方が宜敷う御座居ましょうか。<br><br> 本当に時宗の霊である。<br><br>無論早く祀った方がよい。<br><br>霊に、神仏いずれかの希望を聞く。<br><br>（S24. 7. 2） 031 武将の霊界状態を語る霊 私は広島県三原市へ布教に行っております。<br><br>私が現在世話になっている家は私の光明如来様を御祭りしてあり、その家に精神病の娘（二十三歳）があります。<br><br>母親は入信しております。<br><br>ある日以前にその母親が信仰していた阿弥陀様の行者が突然にやって来て、御経を唱えている中に急にその娘に霊が憑り、遂に私と一問一答をやってしまいました。<br><br>以下その大要を申し上げます。<br><br> 問「あなたはこちらへ来れば余計地獄に落ちるのになぜかかって来ましたか」 答「判っております。<br><br>早く地獄から救われたいためです」 問「何年前の御先祖で名は何と言います」 答「この家の三千六百年前の先祖で、名はげどうと言います」 問「その当時の年号、国の状態また日本を治める人の名は……」 答「年号無く、統一している人はありません。<br><br>私は五十人程の部将で、私のようなものがあちこちにおりました。<br><br>その部下を皆殺しにした罪によって部下よりひどい地獄に落ちました。<br><br>どうか私を祀って、南無阿弥陀仏の六字を唱えて欲しい」 私は「あなたは地獄におられるから今霊界で一番偉い神様を御存知ないのである」と種々観音様の事を話しますと、「善言讃詞でいいからぜひ奏げてほしい」と申します故、「大先生にお伺いしてからいいようにしてあげる」と申しますと、「お願いします」と言って帰りました。<br><br> 右は事実御先祖でしょうか。<br><br>また、いかにしたらこの先祖を御救い出来ましょうか。<br><br> なおこの家の娘は私が初めて参りました頃はおとなしかったのですが、最近は釜や鍋をブチ壊す等乱暴をするようになりました。<br><br>娘は三ケ月程浄霊しておりますが捗々しくありません。<br><br>今後いかようにさせて戴いたら御救いさせて貰えるでしょうか。<br><br>御伺い申し上げます。<br><br> これは本当らしい。<br><br>である。<br><br>当時統治者も年号もなかった。<br><br>五十人の部将では最低地獄、根底の国である。<br><br>祝詞を奏げてやる。<br><br> 精神病は浄霊すると暴れる。<br><br>それから治ってくる。<br><br> 右延髄に塊があり圧迫する。<br><br> 天津祝詞だけでいい。<br><br>（S24.10.26） 032 宣教使霊ザビエルの腕につき明主様へ奏上を乞う 松橋美恵に憑依せるドイツ人の宣教師の霊が、三月二十一日、申すには「マリア様より宣教師に御指示があり、左の事につき明主様に御開示をお願い申し上げて戴きたいとの事でした。<br><br>(一)、ザビエルの左腕を主の大神様に御捧げして頂きたい。<br><br>（二）左腕は現界の人には知られていないが長崎の大浦の天主堂にあります。<br><br>(三)、この事が地上天国建設に深い関係があり、明主様に御報告申し上げますと、東方の主の大神様より明主様の御腹中の光の玉へ総ての御伝達があります、と申します。<br><br>この御報告を申し上げるという事はかくのごとき眼に見えざる神様の御経綸が行われる事を現界の人々に知らせ、神の実在、霊界の実在を信じない人々の眼を覚すのが目的でこのような事を知らせるのだそうで、最近このドイツ人の霊は明主様の特別のお許しを頂きました由で、日本語ですらすらと話をいかなる事でも聞くようにと申します。<br><br>憑霊中は身体が熱いそうで、また最近特別なお光を戴き、この肉体を浄めると申し、憑霊状態で夜もあまり休まずに御神前で自分の身体を御浄霊しておりました所、二十八日夜、明主様の御分霊と申す龍神がかかり、明主様の特別な御仁慈により千葉県市川市六反田に住む者（受教中）二名憑依せる龍神を昇天消滅させると申し、種々の動作をしましたが、その御浄霊その他の動作が奇異に感ぜられました。<br><br>この霊が憑依する時には頭が燃えるように熱く、身体は厳粛な感を覚えるそうです。<br><br>その他色々不思議で腑に落ちぬ事もありますが、宣教師の霊は、この肉体には神様の御経綸が行われていると申します。<br><br>今後どう扱ったら宜しいでしょうか。<br><br> 右腕に左腕が一緒だなどいっても誰も承知しないから不可能である。<br><br> 霊は現界の事が判らぬので勝手な事をいうから、いい加減にしておけばいい。<br><br>霊界へ行くと肉体の事を無視する。<br><br> 分霊といっても、伊都能売金龍の家来である。<br><br>も少しこのままにして続けておく。<br><br>だんだん極る所へ決ってハッキリする。<br><br>ある段階へ行く経路であるから、その都度お知らせすればよい。<br><br> 033 外人霊憑依 昨年九月入信の未亡人、右乳に拳大以上の腫脹があり、固く、真中は赤くなっております。<br><br>御浄霊にて排膿もせず小さくなりました。<br><br>以前より憑霊現象は御座いましたが、本月十八日突然霊が浮き、祝詞、善言讃詞をお奏げ致しましたところ、ノーノーと大変嫌います。<br><br>他には口をききませんが、こちらの問いには態度で答えます。<br><br>それによりますと、この肉体に関係ある人によりフィリッピンかジャワで殺されたため帰る事の出来ない米人らしいという事が判明致しました。<br><br>祀って欲しいと申しますので、上位と書き幽世大神様にお願い申し上げ、御神前に祀って差上げました。<br><br>しかし離れてはいないようで御座います。<br><br>なお、本人の申しますには、無我の状態に入る前ピストルの弾が三発胸に射込まれたような感じがしたそうで御座います。<br><br>本人はこの霊の言うような心当りはないそうで御座いますが、どう致しましたら宜敷う御座いましょうか。<br><br> 同家では母、嫂、弟と四人入信致しておりますが、夫をはじめその兄弟四人まで結核で死亡し、現在長兄も臥床中、亡夫との間に出来ました四歳になる男の子は脊髄、三歳の男の子は胸骨の下端がラッパ型に凹んでおり嘔吐がとても激しゅう御座います。<br><br>これについては祖父が、ハワイで宮島の三鬼神を祭っておりましたが、死後祭る人がなくなったため、三鬼神がひとりでに帰って参りまして、男子七人までは殺すと言っているそうで御座います。<br><br>三鬼神と前記の霊及び現在の病気に何か霊的関係が御座いましょうか。<br><br>御伺い申し上げます。<br><br> 三鬼神が何か怨んでいる。<br><br>米人の霊はピストルで殺した人がこの家の祖霊の一人で、三発射ち込まれたのは事実に違いない。<br><br>関係がなければそんな事はない。<br><br> 一人でも多くの人を助ける。<br><br>その徳により霊の曇りが減る。<br><br>光ってくるとどうする事も出来なくなる。<br><br>他の信仰では力が足りぬからこうはゆかぬ。<br><br>（S24. 8.21） 034 バラモン霊憑り 私は現在茨城県下舘で行商を致しておりまして、行商しながら観音様の御話をさせて戴いておりますが、最近出会った事で御座いますが、七十一歳の爺さん（信者では御座いません）、自分の本霊は天帝で副霊は八岐大蛇と狐霊で、龍神は腹に、狐霊は肩にいると申しまして、最近では天からの光が段々薄くなったため副霊が暴れて大変苦しいけれども、自分には抑える力が無くなり、苦しみの余り短刀等突きさして一時鎮静させる事もありまして、そのため狂人にされた事もあるそうで御座いまして、本霊の言葉として、人類の一大危機の迫っている事をおぼろげながら悟っており、それは「ピテレスパラス、シドロトナルヤ、ヨハフケシヅム、シットロットドドド、テデフルワイナ、チチフルワイナ、ピテレスパラス……」と申すそうで御座います。<br><br>それでこの言葉を解明出来る方に逢いたいと申しておりますが、最後の変な言葉は単に狐霊の戯れ言で御座いましょうか。<br><br>それ共何か多少意味のあるもので御座いましょうか。<br><br>御伺い申し上げます。<br><br> バラモン行者の霊であろう。<br><br>行者や信者は日本へ来ている。<br><br> 変な所もあるが、そうでない事もある。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de Teses do Mestre Jikan Okada – Pesquisa de Ensinamentos: Pesquisa de Materiais Auxiliares: Compêndio de Estudos Espirituais – Volume II – Fenômenos Espirituais (Parte 1)</h2>
 <h3>023 - O Deus-Dragão que anuncia a necessidade de consagrar Kannon (観音) e a cidade de Iwayado</h3>
@@ -167,5 +319,48 @@ Resposta: “Não havia nome de era nem um governante que unificasse o país. Eu
 <p>Ele diz que, por meio de seu espírito principal, compreende vagamente a iminência de uma grande crise para a humanidade e profere as seguintes palavras: “Piteresuparasu, shidorotonaruya, yohafukeshizumu, shittorottodododo, tedefuruwaina, chichifuruwaina, piteresuparasu...”. Ele anseia por encontrar alguém que possa decifrar essas palavras. Seria essa estranha frase um mero gracejo do espírito de raposa ou teria algum significado? Rogo por vossos esclarecimentos.</p>
 <p>Trata-se provavelmente do espírito de um asceta brâmane. Muitos ascetas e religiosos vieram para o Japão.</p>
 <p>Ainda que haja aspectos estranhos, pode haver também verdades em suas palavras.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊学篇 二 霊的現象（一） ２ 023-034 憑霊２ 023 観音様を祭るべきを告ぐる龍神と岩谷堂町 岩手県和賀郡更木村の沢田太利右ヱ門（十九歳）と申す熱心な信者、この度祖父の霊及び前世の因縁ある霊が憑り、岩谷堂町の資産家・中善と申す家の井戸に龍神となっており、この度同家の倉に古くより安置されている百観音様の使命を受け、岩谷堂は日本の扉であり、扉を開くにはまず私及び鎌田師の両人で右観音様に善言讃詞を水の因縁の日に六十回奏上し、そして中善の主人にお道の話をさせて頂けば必ず判る。<br/><br/>また、町の人々に告げて、右観音様を同町旧城趾に観音様の縁者にて堂宇を建てて祭ればよい。<br/><br/>この事を知らせに憑った。<br/><br/>この通りにして頂かねばこの肉体より離れる事が出来ず、遂にはこの肉体がもたないから、早く御参詣して頂きたいと何度も同じ事を繰り返して申しております。<br/><br/>なお、右観音像は四十年前気仙郡のある家にお祭りしてあったものを、先代が譲り受け、爾来一般には秘密に致し、昨年九月色々暗示があったので初めて御開帳しましたが、平常は参詣を禁じているもので、どうしたら宜しいでしょうか。<br/><br/>なお、前の所有者の家は癩病で絶えています。<br/><br/> これは本当である。<br/><br/>この通りにしていい。<br/><br/> 岩谷堂は重要な所である。<br/><br/> 024 岩手開拓と金龍神（龍神憑依して霊示） 先般御教え頂きました岩手県岩谷堂町に関し、その後沢田さんに十三の龍神が次々と憑り、岩手の戸を開くため龍神界の龍神が神様から許されたこの肉体の霊感を通して 開拓地方とその方法を知らせると申し、目下四方八方へ活動致しております。<br/><br/>去る十六日土沢教導所にて沢田さんの霊眼に金色の龍神が写り、そのお姿は全身桜の花のような模様が金色に輝き、眼や金色の光があり、何とも言い表わしようのない美しさと申しておりました。<br/><br/>その翌日龍神が憑り、十六日に沢田の霊眼に写ったのは金龍神で、この度当地方に金龍神が来られ釜石、気仙より海岸を一廻りされるにつき、龍神界の龍神がお供をする。<br/><br/>しかして沢田の肉体を海岸地方へやれ、開く道を教えるからと申しましたが、右の事は真実で御座いましょうか。<br/><br/>御教えをお願い申し上げます。<br/><br/>なお、霊が憑ります時は本人は全然自己意識が無く、眼を閉じたまま人払いの後紙に蛇のような字体で書きます。<br/><br/>全然口は利きません。<br/><br/>そして常識的で御座います。<br/><br/> 本当のものである。<br/><br/>この通りやった方がよい。<br/><br/>金色の龍は伊都能売神が差図して一遍はやられる。<br/><br/>（S25. 5. 2） 025 神憑りで語る 治る。<br/><br/>気長に浄霊する。<br/><br/>神様と話が出来るのは神様でなく、祖霊と狐などと合併している。<br/><br/>天津祝詞をよく奏げてやる。<br/><br/>（やはり）馬頭観音であろう。<br/><br/>先祖の誰かが信仰していたものである。<br/><br/> 龍神である。<br/><br/>祖先の中で龍神になっているのが知らした。<br/><br/>喜んで礼に来た。<br/><br/>（S23. 8. 7） 026 観音様の御分身（祖霊） 私（四十四歳）、昨年九月受光、母（六十三歳）、本月八日受光、妻、昨年九月受光、長男（二十二歳）も御光を頂いております。<br/><br/>本月七日夜八時頃長男が母及び長女を浄霊いたしておりましたところ、突然母が右の手がふるえて仕方がないと言うが早いか両手を合せて頭の上に上げて、息ざしが苦しそうになりました。<br/><br/>それから直ちに両手を下げて礼拝する形になり、段々畳の上を這いながら仏壇の前に行きますので、長男と私、妻と三人で盛んに浄霊をさせて頂きまして、最後に私が母に向い「あなたはどなたですか」と尋ねますと「お前等は何を信仰している」と言いますので、私もちょっと不安な気持で黙っておりましたが、また一度「仏様ですか、神様ですか」と尋ねますと「俺は神だ」と言うと段々母も己に還り、不思議な顔をして私達を見つめておりましたので、母に聞いて見ましたら、己の傍に観音様が三人いたと言いました。<br/><br/>その時母は眼が赤くなって泣いた様子が見えました。<br/><br/>これはいかなる神様で御座いましょうか。<br/><br/>御伺いいたします。<br/><br/> 神にも八百万ある。<br/><br/>観音様も御分霊で、分れて沢山ある場合もあるが、大抵お一人のもので、三人とはおかしい。<br/><br/>一人でなくてはならぬ。<br/><br/>観音様にみえたものであろうと思う。<br/><br/>錯覚であろう。<br/><br/>大抵祖先である。<br/><br/> 天国へ出世した霊であり、信仰を勧めるために疑いをもってる人などに見せる場合がある。<br/><br/>今少し様子をみる。<br/><br/>外に神様に用があったのかもしれない。<br/><br/> ただ、悪い事ではない。<br/><br/>（S24. 2.15） 027 母親の霊ついた病人（守護霊） 先日三十四歳になる女の人を浄霊致しました所、左のような事を言いました。<br/><br/> 「私はこの子供（三十四歳の女）の母親で、今年八十二歳になりますが、この子が可愛いので何とか長生きさせたいためについております。<br/><br/>何とかこの子供を御救い下さい」と。<br/><br/>また次に「私は弘法大師であります。<br/><br/>この子供の母親は非常に信仰家であるために、なんとかこの子を守りたいために約十二年前に丸い玉をお腹の中に入れました。<br/><br/>この子も知っている筈だ。<br/><br/>（女の人に聞きましたら知っていると言いました）」と言いました。<br/><br/>八十二歳の母親は生きております。<br/><br/>この場合は生霊でしょうか、狐霊でしょうか。<br/><br/>また、この場合の浄霊方法を御教え願います。<br/><br/>なお、弘法大師は現在いかに御働きでしょうか。<br/><br/>また、丸い玉とはいかなる作用を致しましょうか。<br/><br/>三十四歳の女の人は時々神憑りになるそうです。<br/><br/>右、お伺い申し上げます。<br/><br/> 母親に憑いてる守護霊で、母親の代りをやっている。<br/><br/> 弘法大師は怪しい。<br/><br/>代理である。<br/><br/>昔信仰したためのおかげである。<br/><br/> 丸い玉は霊である。<br/><br/>霊というものは始終丸い玉になるものである。<br/><br/>であるから、弘法の眷族である。<br/><br/> 山にいると狼などが眷族になって働くものである。<br/><br/>それだけの守護されているから結構である。<br/><br/>（S24. 8.15） 028 大日如来と観音様、殿様の霊 従来大日如来様を御本尊として祀ってある家庭で屏風観音様をお迎え申しましたところ、祖霊が出て参りまして、大日如来様と観音様とは同格だと申し、実はその家庭は以前代々家老職を務め、殿様が来られた家柄なので、死後も殿様の霊がその部屋に留っていると申しまして、しかもその部屋は霊界が高いから、家族の者の入ることをも猛烈に反対拒否し、朝一回のお参りだけを許すと申します。<br/><br/>いかなる訳で御座いましょうか。<br/><br/>お伺い申し上げます。<br/><br/> 大日如来は天照大神様、観音様は日の弥勒であるから構わぬ。<br/><br/>同格でも構わぬ。<br/><br/> 封建時代は殿様を偉くしようとして種々言う。<br/><br/>殿様の霊は高い霊界とは言えぬ。<br/><br/>地獄へ行くのも沢山ある。<br/><br/>それは殿様を崇め奉ろうという意味から言っている。<br/><br/>しかしこんな事はない。<br/><br/>殿様の霊がいれば続けて祀ってもよい。<br/><br/>その部屋にいるとすれば、部屋全体が仏壇みたいになっている。<br/><br/>それより、仏壇に戒名をつけて祀った方が仏らしくて、反って喜ぶ。<br/><br/> ただ、普通の出入りをしてもよい。<br/><br/>それをいけないというのは嘘である。<br/><br/> 「大日如来様は軸になっていますが、神霊は宿られているでしょうか。<br/><br/>」 その家の人の想念による。<br/><br/>御神体を書く程の人は相当の修行をしており、普通の人とは違う。<br/><br/>しかしそのために狭くなるなどの場合は大日如来は撤去してよい。<br/><br/> その人が大日如来より観音様の方が良いと思えば、大日如来は撤去してよい。<br/><br/>（S23. 8.21） 029 後事頼む神官霊 四十二、三歳の男子（前職歯科医）、疎開して旧神官の家に住むようになってからの事ですが、昨年十一月突然口中や手足がしびれて中風状態になり、爾来夢にも現にも時々神憑りとなり、神官の霊が次のような事を申すそうであります。<br/><br/>「この御宮（付近に現存しております）を護って貰いたい。<br/><br/>祭神は鎌倉八幡の別宮にて武内宿弥、仲哀天皇、応神天皇、神功皇后の四柱であり、幣帛は直接宮内省にて受けていた。<br/><br/>その後氏子等も作り祭事を行なわんとしたが、不幸、自分が死んだので後を頼む」 註＝この御宮は今より三年前に鎌倉より移祀した由。<br/><br/> そしてこの病人を他の神官が御祓いすると非常に苦しがります。<br/><br/>また神官の霊も御祓いを近付けてはいかんと言うそうです。<br/><br/> 右について、 （イ）この病人は未だ御光を戴いておりませんが、いかにしたら救われるでしょうか。<br/><br/> （ロ）霊が御祓いを嫌うのと病人が苦しがるのは執着のためでありましょうか。<br/><br/>あるいはまた神様の思召で神官の霊を動かしておられるのでしょうか。<br/><br/> （ハ）この病人の浄霊法を御伺い致します。<br/><br/> 神官が希望があって、行く所へ行けないんで、この人を選んで知らした。<br/><br/>霊の希望の通りしてやるといい。<br/><br/>霊はお礼をしなければならぬ。<br/><br/>という事は守護してる事で、事情が許せば希望通りしてやるといい。<br/><br/> 後を頼むというのは四柱の神格者をお守する事を希望する。<br/><br/>誰か神官的な人を探して頼むといい。<br/><br/>それも具合が悪ければ四柱の祭神を自分の家の床の間へ、台の上に安置して、後ろへ光明如来様のお軸をかける。<br/><br/>その方がよい。<br/><br/>憑いてる霊が上であるから、下の者からやられる（お払い）と苦しい、気持がわるい。<br/><br/>上ほど光がある。<br/><br/>下の霊だと曇りがあるから汚れるので気持がわるい。<br/><br/>神官が御光を頂かなくてはならぬ。<br/><br/>ズーッと早く救われる。<br/><br/> 浄霊は前頭の奥を一番沢山する。<br/><br/> 030 時宗の霊 六月二十日、増田イトさん（信者）を御浄霊させて戴きましたところ、霊憑りとなりまして、伊達家先祖代々と北條時宗の御位牌をお祀りして下さいと申しました。<br/><br/>伊達家の方は因縁が分りましたので早速お祀りさせて戴きましたが、北條時宗の方は解りませんのでお祀り致しませんでしたところ、また霊憑りとなりまして「早く早く北條時宗のお位牌を祀って下さい」、「あなたはこの肉体と因縁がありますか」と尋ねましたところ「大先生様がよく御存知です」と申し、お位牌をお祀りしてくれればうんとうんと働きますと強く申します。<br/><br/>「あなたは本当に北條時宗ですか」と聞きましたところ「そうです」と強く頷きました。<br/><br/>伊達家の位牌を祀りまして苦しみが大分楽になり、御礼に出て参りましたが、なお時宗を祀って欲しいと申し依然として憑霊状態は治りません。<br/><br/>（昨年四月頃も霊が浮きまして、時宗々々と申しましたが、そのままで現在に至ったので御座居ます）時宗をお祀りした方が宜敷う御座居ましょうか。<br/><br/> 本当に時宗の霊である。<br/><br/>無論早く祀った方がよい。<br/><br/>霊に、神仏いずれかの希望を聞く。<br/><br/>（S24. 7. 2） 031 武将の霊界状態を語る霊 私は広島県三原市へ布教に行っております。<br/><br/>私が現在世話になっている家は私の光明如来様を御祭りしてあり、その家に精神病の娘（二十三歳）があります。<br/><br/>母親は入信しております。<br/><br/>ある日以前にその母親が信仰していた阿弥陀様の行者が突然にやって来て、御経を唱えている中に急にその娘に霊が憑り、遂に私と一問一答をやってしまいました。<br/><br/>以下その大要を申し上げます。<br/><br/> 問「あなたはこちらへ来れば余計地獄に落ちるのになぜかかって来ましたか」 答「判っております。<br/><br/>早く地獄から救われたいためです」 問「何年前の御先祖で名は何と言います」 答「この家の三千六百年前の先祖で、名はげどうと言います」 問「その当時の年号、国の状態また日本を治める人の名は……」 答「年号無く、統一している人はありません。<br/><br/>私は五十人程の部将で、私のようなものがあちこちにおりました。<br/><br/>その部下を皆殺しにした罪によって部下よりひどい地獄に落ちました。<br/><br/>どうか私を祀って、南無阿弥陀仏の六字を唱えて欲しい」 私は「あなたは地獄におられるから今霊界で一番偉い神様を御存知ないのである」と種々観音様の事を話しますと、「善言讃詞でいいからぜひ奏げてほしい」と申します故、「大先生にお伺いしてからいいようにしてあげる」と申しますと、「お願いします」と言って帰りました。<br/><br/> 右は事実御先祖でしょうか。<br/><br/>また、いかにしたらこの先祖を御救い出来ましょうか。<br/><br/> なおこの家の娘は私が初めて参りました頃はおとなしかったのですが、最近は釜や鍋をブチ壊す等乱暴をするようになりました。<br/><br/>娘は三ケ月程浄霊しておりますが捗々しくありません。<br/><br/>今後いかようにさせて戴いたら御救いさせて貰えるでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> これは本当らしい。<br/><br/>である。<br/><br/>当時統治者も年号もなかった。<br/><br/>五十人の部将では最低地獄、根底の国である。<br/><br/>祝詞を奏げてやる。<br/><br/> 精神病は浄霊すると暴れる。<br/><br/>それから治ってくる。<br/><br/> 右延髄に塊があり圧迫する。<br/><br/> 天津祝詞だけでいい。<br/><br/>（S24.10.26） 032 宣教使霊ザビエルの腕につき明主様へ奏上を乞う 松橋美恵に憑依せるドイツ人の宣教師の霊が、三月二十一日、申すには「マリア様より宣教師に御指示があり、左の事につき明主様に御開示をお願い申し上げて戴きたいとの事でした。<br/><br/>(一)、ザビエルの左腕を主の大神様に御捧げして頂きたい。<br/><br/>（二）左腕は現界の人には知られていないが長崎の大浦の天主堂にあります。<br/><br/>(三)、この事が地上天国建設に深い関係があり、明主様に御報告申し上げますと、東方の主の大神様より明主様の御腹中の光の玉へ総ての御伝達があります、と申します。<br/><br/>この御報告を申し上げるという事はかくのごとき眼に見えざる神様の御経綸が行われる事を現界の人々に知らせ、神の実在、霊界の実在を信じない人々の眼を覚すのが目的でこのような事を知らせるのだそうで、最近このドイツ人の霊は明主様の特別のお許しを頂きました由で、日本語ですらすらと話をいかなる事でも聞くようにと申します。<br/><br/>憑霊中は身体が熱いそうで、また最近特別なお光を戴き、この肉体を浄めると申し、憑霊状態で夜もあまり休まずに御神前で自分の身体を御浄霊しておりました所、二十八日夜、明主様の御分霊と申す龍神がかかり、明主様の特別な御仁慈により千葉県市川市六反田に住む者（受教中）二名憑依せる龍神を昇天消滅させると申し、種々の動作をしましたが、その御浄霊その他の動作が奇異に感ぜられました。<br/><br/>この霊が憑依する時には頭が燃えるように熱く、身体は厳粛な感を覚えるそうです。<br/><br/>その他色々不思議で腑に落ちぬ事もありますが、宣教師の霊は、この肉体には神様の御経綸が行われていると申します。<br/><br/>今後どう扱ったら宜しいでしょうか。<br/><br/> 右腕に左腕が一緒だなどいっても誰も承知しないから不可能である。<br/><br/> 霊は現界の事が判らぬので勝手な事をいうから、いい加減にしておけばいい。<br/><br/>霊界へ行くと肉体の事を無視する。<br/><br/> 分霊といっても、伊都能売金龍の家来である。<br/><br/>も少しこのままにして続けておく。<br/><br/>だんだん極る所へ決ってハッキリする。<br/><br/>ある段階へ行く経路であるから、その都度お知らせすればよい。<br/><br/> 033 外人霊憑依 昨年九月入信の未亡人、右乳に拳大以上の腫脹があり、固く、真中は赤くなっております。<br/><br/>御浄霊にて排膿もせず小さくなりました。<br/><br/>以前より憑霊現象は御座いましたが、本月十八日突然霊が浮き、祝詞、善言讃詞をお奏げ致しましたところ、ノーノーと大変嫌います。<br/><br/>他には口をききませんが、こちらの問いには態度で答えます。<br/><br/>それによりますと、この肉体に関係ある人によりフィリッピンかジャワで殺されたため帰る事の出来ない米人らしいという事が判明致しました。<br/><br/>祀って欲しいと申しますので、上位と書き幽世大神様にお願い申し上げ、御神前に祀って差上げました。<br/><br/>しかし離れてはいないようで御座います。<br/><br/>なお、本人の申しますには、無我の状態に入る前ピストルの弾が三発胸に射込まれたような感じがしたそうで御座います。<br/><br/>本人はこの霊の言うような心当りはないそうで御座いますが、どう致しましたら宜敷う御座いましょうか。<br/><br/> 同家では母、嫂、弟と四人入信致しておりますが、夫をはじめその兄弟四人まで結核で死亡し、現在長兄も臥床中、亡夫との間に出来ました四歳になる男の子は脊髄、三歳の男の子は胸骨の下端がラッパ型に凹んでおり嘔吐がとても激しゅう御座います。<br/><br/>これについては祖父が、ハワイで宮島の三鬼神を祭っておりましたが、死後祭る人がなくなったため、三鬼神がひとりでに帰って参りまして、男子七人までは殺すと言っているそうで御座います。<br/><br/>三鬼神と前記の霊及び現在の病気に何か霊的関係が御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 三鬼神が何か怨んでいる。<br/><br/>米人の霊はピストルで殺した人がこの家の祖霊の一人で、三発射ち込まれたのは事実に違いない。<br/><br/>関係がなければそんな事はない。<br/><br/> 一人でも多くの人を助ける。<br/><br/>その徳により霊の曇りが減る。<br/><br/>光ってくるとどうする事も出来なくなる。<br/><br/>他の信仰では力が足りぬからこうはゆかぬ。<br/><br/>（S24. 8.21） 034 バラモン霊憑り 私は現在茨城県下舘で行商を致しておりまして、行商しながら観音様の御話をさせて戴いておりますが、最近出会った事で御座いますが、七十一歳の爺さん（信者では御座いません）、自分の本霊は天帝で副霊は八岐大蛇と狐霊で、龍神は腹に、狐霊は肩にいると申しまして、最近では天からの光が段々薄くなったため副霊が暴れて大変苦しいけれども、自分には抑える力が無くなり、苦しみの余り短刀等突きさして一時鎮静させる事もありまして、そのため狂人にされた事もあるそうで御座いまして、本霊の言葉として、人類の一大危機の迫っている事をおぼろげながら悟っており、それは「ピテレスパラス、シドロトナルヤ、ヨハフケシヅム、シットロットドドド、テデフルワイナ、チチフルワイナ、ピテレスパラス……」と申すそうで御座います。<br/><br/>それでこの言葉を解明出来る方に逢いたいと申しておりますが、最後の変な言葉は単に狐霊の戯れ言で御座いましょうか。<br/><br/>それ共何か多少意味のあるもので御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> バラモン行者の霊であろう。<br/><br/>行者や信者は日本へ来ている。<br/><br/> 変な所もあるが、そうでない事もある。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>joreiT35</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊日記 槐安生 『地上天国』35号、昭和27(1952)年4月25日発行 某月某日 山がひに訪ふべき家の秋灯みゆ （槐安） 谷川に沿うた村道を、やや勾配の急な坂を上ると、山と山とに囲こまれた、赤松村のＡ部落が見える。<br><br>ホッと息をついて、木の切株に腰を下ろし煙車に火をつけた。<br><br> 日脚の短かい秋の陽は、とうに烏帽子山の後ろに落ち、僅かにその頂上が茜色に染められているだけで、谷川から昇る夕靄が、山と山との間だを縫うように埋めてゆく。<br><br>煙草をくわえ、草疲れた脚を擦すっている間にも、冷えびえとした夕闇は、いつの間にか四辺を黒く染めている。<br><br> 朝日の昇るのが遠く、夕陽の沈むのが早い山峡であった事に気が付き、やや慌て気味に目を上げると、ここから半道というＡ部落に燈が一つ灯った。<br><br>夕闇の中にも一きわ黒々としている鎮守様の森の傍だ。<br><br>ああ、岩田さんの家の灯。<br><br>これから訪ねようとする岩田さんが、まるで私に合図してくれたように思え、切株から重い腰を上げた。<br><br> 寸暇も惜しむ身の私が、岩田さんを訪ねてはるばる赤松村へ来たのには、次のようないきさつがあったからだ。<br><br>二カ月まえに、同信の春山さんが、五十も半ばを越えた、農家の方らしい人を連れて私の家へ来た。<br><br>その人が赤松村で農鍛冶をしている岩田さんであった。<br><br>戦争の末期に、私はそれまで縁もゆかりも無かった赤松村へ、人の勧めで疎開したが、岩田さんも同じ頃、そこへ疎開して行ったのだった。<br><br>猫の額のような狭い寒村でありながら、その村に居る間、お互いに知り逢う事なく過して仕舞ったが、岩田さんは、私の一家がその村で酷い災厄に逢ったので私の名前を知り、今だに村人の炉ばなしに私達の噂さが出るそうである。<br><br>特筆大書するような事件もない平穏無事な山間の小村では、さもありそうな事である。<br><br>だから岩田さんにしてみれば、顔を見た事はないが、何んだか旧知の間柄のような気がしていたそうである。<br><br>岩田さんを連れて来た春山さんは、彼の遠縁に当り、メシヤ教の話から、何かの調子で私の名前が出て、私が救われた奇蹟の数々を聞き、もしや赤松村にいた槐安さんではないか。<br><br>と、村への土産話が出来るつもりで来たのであった。<br><br> 赤松村にいた槐安が、ここにいる槐安と同一の人間である。<br><br>と解り、私の口からメシヤ教の奇蹟が事実である旨を聞くと、それではこの指が治るべーか。<br><br>と岩田さんが頑丈な手を差し出した。<br><br>見ると右手の指三本が、硬直していて曲らない。<br><br>それは昨年、仕事中に指を怪我したので、町の病院へ治療に行ったとき、化膿しないように、と注射をしてくれたそうである。<br><br>その晩、急に熱が出て指の痛みが激しくなり、それ以来、二カ月家業を休んで病院通いした揚句、痛みはとれたが指が三本曲らなくなって仕舞ったのだ。<br><br>私が薬毒の説明をして、その時注射さえしなけれぼ、こんな結果にはならなかったろう。<br><br>と云うと、身に覚えがあるだけに薬毒をすぐ理解してくれた。<br><br> 一時間ほど、一心籠めて浄霊すると、何んとその指が十度位曲げられた。<br><br>本人よりも、むしろこちらが魂まげた奇蹟である。<br><br>この事があって以来、春山さんが浄霊をしに、数回、赤松村へ行った。<br><br>その指は完全とまではゆかないが、仕事に不自由しない迄に曲がるようになった。<br><br>岩田さんは無医村のこの村こそ、メシヤ教で救われる。<br><br>と考え、折にふれて村の人に自分の指がこうなったと見せ、槐安がこのお道で働らいていることや、メシヤ教の奇蹟を説明したそうである。<br><br> 十日ほど前、村長をしている常平さんが、私に長い長い手紙をくれた。<br><br>それは時候見舞から初まって、疎開中の災厄に世話が行届かなかった詫びを書き、このたび岩田さんから仄聞（そくぶん）するに、貴殿が宗教家となられて、世道人心を益するために働らいておられるそうだが、貴殿が疎開した事のある、所以（ゆえん）の地、赤松村にもその福音を伝えて貰らいたい。<br><br>貴殿ほどの人が信ずる宗教なれば、定めし非の打ちどころのない、立派な宗教と期待している。<br><br> 巻紙に毛筆で、一字一画くずさぬ楷書で認めてあり、常平村長の律儀を性格を物語って、余すところがない。<br><br> 手紙を読んでいるうちに、赤松村の風物が忽然として私の胸に蘇がえった。<br><br>そうなると、帰心ならぬ、行きたい心が一筋の矢のようであった。<br><br>村長さんと岩田さんに、すぐ行くと葉書をし、五年ぶりで赤松村を訪れたのであった。<br><br>私が村を引揚げるとき、鎮守の森のはずれに出来た家屋は覚えがあった。<br><br>それが岩田さんの家である。<br><br>と聞いていたので、人に問うまでもなく訪うべき家は解っていたのであった。<br><br> 実のところ、私は今回の赤松村訪問を、神様の御手引、とまで思ったのである。<br><br>それは狭い村にいてさえ知ることのなかった岩田さんを、探しても見出すのに困難な、広い東京で知り、しかも一村の衆望を集めている村長が、福音を伝えて貰いたい。<br><br>と云う丁重な手紙を寄込したし、村人はほとんど旧知の間柄であり、自然農法を普及するには絶好の山村であって、かてて加えて無医村である。<br><br>これ程の好条件の揃った土地は少いであろう。<br><br>と考えると、好機到れり。<br><br>と私が勇躍したのも無理ではあるまい。<br><br>それが、それが、なんだ、おさすりさんか。<br><br>とすげなく一蹴されて、孤影悄然として村を出ようとは。<br><br>好事、魔多し。<br><br>の諺を、はた、と思い知ったのであった。<br><br> 槐安来る。<br><br>の報に、翌日、村長は役場を欠勤し、部落ごとに人を走らせて手の空いている者を呼び集めた。<br><br>私を直接知らない部落からは集らなかったが、それでも二十人程の人が、村長の家へ集った。<br><br> 槐安さんでねえか。<br><br>暫くだのう。<br><br>あれから何年たっただんべえ、家の衆もみんな達者かい。<br><br>東京さ帰えって、えらく残したちうでねえか。<br><br> Ｔ部落の辰やんが、相変らず不精髯の、面いっぱいの大口をあけると、ほんに暫くだったなあ。<br><br>また東京の話でも聴かして貰うべえか。<br><br>東京はさあ、娘ッ子はみんなパンパンで若え衆は強盗だちうが本当かね。<br><br>○部落のみね婆さんの東京批判は、たくまずして鋭い諷刺となっていて、とっさに返えす言葉も出なかった。<br><br>これがきっかけとなって、こんなトボケた挨拶が、いつ果てる止もなく続いたので、常平村長が咳ばらいし、皆んな槐安さんに挨拶が済んだろうから、この辺で槐安さんから、神様の話を聞かして貰らったらどうや。<br><br>と発言した。<br><br> 神様の話って、俺は鍛冶屋の岩田に聞いただが、何んでもメシヤ教ちうもんだそうだが、あれなら俺ら、願い下げにして貰いてえもんだ。<br><br>あれなら、おさすりの事だ。<br><br>馬鹿馬鹿しいおさすりの話なんぞ、聞きたくもねえや、今度村会議員になった、という兼吉がそう云うと、うんだ、うんだ。<br><br>麦や大根も撫ぜていりゃあ、でかくなる、ちう自然耕作なんて馬鹿な話はねえぞ、肥やしくれちゃあいけねえ、草取ちゃあいけねえ、なんでも自然にして置けちうなら、種は一体どうするんだね、ありぁ、人間が蒔くもんで、天から種は降ちゃあこねえやな、あんな馬鹿げた話しぁ、いくら赤松村だって通らねえや、のぉ槐安さん。<br><br> 長老格の茂十爺さんの言葉が終らない内に、彼の声は、みんなの笑い声に消されて仕舞った。<br><br>おさすりさん。<br><br>何んの事やら私には薩張り解らない。<br><br>笑声が治ったのを見て。<br><br>みなの衆は、何かえらく勘違えしてやあ、しねえか、それはみな、ひでぇデマだ。<br><br>まるで出たら目な作り話だべ神様は、兼吉の云うようにメシヤ教だが、おさすりさん。<br><br>なんてえのは今はじめて聞いたし、茂十の云うように、麦やでえこを撫ぜろだの、草を取っちゃ、なんねえ、なんて馬鹿は云わねえぞ。<br><br>俺らの話をひと通り聞いて、その上で、聞きてえ事があれぱ、何んぼでも腑に落ちる迄、聞かすべえ。<br><br>この赤松村全体が良くなる話だから、ちっとの間、聞いて貰いてえ。<br><br> 私もいつの聞にか、土地の言葉になっていた。<br><br>駄目だよ槐安さん。<br><br>おめえは人間が丸い（人がいいの意）から瞞されてんだ。<br><br>おさすりさんのこたあ、みんな村の衆が知っているだ。<br><br>町にその神様がいてよ。<br><br>漁師の親方みてえな面らして威張りけえってよ、病気は治んねえし、大根を撫ぜた連中は、漬物も漬かんねえ騒ぎしたぞ。<br><br>そんな話しぁ止めて、東京の話でも聞かせろよ。<br><br>私がいた部落の長さんが、そう云った。<br><br> そうだ。<br><br>それがいいだ。<br><br>そして帰へりにゃあ、芋の十貫も背負って行かし。<br><br>おめえは戦争んとき巧えことを云ったでねえか。<br><br>疎開者はアメリカと戦争してんじゃねえ、農家の衆と戦争してる、てなあ。<br><br>あの節ッあ、闇だから仕様がなかったんだ。<br><br>今日この赤松村も東京の客さんに芋ぐれえ持たしてやれるぞ。<br><br> 分家の政の言葉にまた皆んながドッと笑らった。<br><br>形勢ことごとく非である。<br><br>村長の顔へ視線を向けると、彼もなんだ、おさすりさんだったか、と云う表情で下をむいている。<br><br> 一体、この善良な人達は、何を誤解し、誤解した事がらを真実。<br><br>と思い込むに至ったのであろうか。<br><br>意気込んで来ただけに、私は泣くになかれない気持ちであった。<br><br>人はこれを邪神の仕業、と云うかも知れない。<br><br>それもあろう。<br><br>また、私の不徳も最大の原因であるかも知れない。<br><br>でも、それでは頷けない複雑なものが、私の胸にわだかまるのであった。<br><br>せめての慰めは、いつに変らぬ、村人の私への好意である。<br><br>今日は宗教の話にふれず、皆の衆と雑談で暮らし、持久戦でゆこう。<br><br>必ず、この村へ信者を作って福音を伝えるぞ。<br><br>と決心した。<br><br> それじゃあ、今日は槐安さんの歓迎会とゆこう。<br><br>村長は女達を指図して、台所から、かねて用意のものを運ばせた。<br><br> 私の甘い希望や意図は、かくして無残にこわれた。<br><br>私一人で、ぼつぼつ浄霊して病人を治し、実際の霊効を見せて仲間を作りやしょう。<br><br>今日のところは気を悪くしないで下さい。<br><br>お守りを戴いたばかりの岩田さんは、そう云って私を慰めた。<br><br> 気永に辛抱づよくゆきましょう。<br><br>私も岩田さんに元気づけたが、それは、どうやら自分自身に云って聞かせた形であった。<br><br> 満五年ぶりに訪れた、懐かしい赤松村のただずまいは、あのとき以来、一草一木の布置も変っていない。<br><br>変ったのは闇売りで儲けた、いわゆる疎開太りになった連中が、農地改革、税金攻勢で、あの時の事は哀れはかなき、槿花（きんか）一朝の夢と化し、元の木阿弥になった事と、工場で自動車の助手をしていた富さんが運転手に出世して、私を見付けると、片手を挙げて手を振り、愛想のつもりか、猫の子一匹いないのに、ブウブウとらっぱを鳴らして見せただけである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Crônicas de um Pioneiro: Relato da Aldeia de Akamatsu</h2>
 <p>Certo dia, em certo mês.</p>
@@ -127,5 +279,48 @@ function toggleLang(lang) {
 <p>— Eu começarei sozinho, pouco a pouco. Aplicarei Johrei, curarei os doentes e, mostrando os resultados concretos, conquistarei seguidores. Por favor, não se aborreça com o que aconteceu hoje.</p>
 <p>— Sejamos pacientes e perseverantes — respondi para encorajá-lo, embora sentisse que, na verdade, dizia aquelas palavras para mim mesmo.</p>
 <p>Ao revisitar a querida aldeia de Akamatsu após cinco longos anos, percebi que sua paisagem permanecia imutável; nem uma folha de grama, nem uma árvore parecia ter mudado de lugar. O que mudara eram as pessoas. Aqueles que haviam enriquecido com o mercado negro durante a evacuação, os chamados “novos-ricos da guerra”, viram sua fortuna se esvair com a reforma agrária e os pesados impostos. Sua prosperidade não passou de um sonho efêmero, e eles retornaram à estaca zero. A outra mudança era o senhor Tomi. Antes ajudante de caminhão em uma fábrica, ele agora se tornara motorista. Ao me avistar, acenou com uma das mãos e, como prova de amizade, buzinou insistentemente, embora não houvesse nem mesmo um filhote de gato na estrada.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊日記 槐安生 『地上天国』35号、昭和27(1952)年4月25日発行 某月某日 山がひに訪ふべき家の秋灯みゆ （槐安） 谷川に沿うた村道を、やや勾配の急な坂を上ると、山と山とに囲こまれた、赤松村のＡ部落が見える。<br/><br/>ホッと息をついて、木の切株に腰を下ろし煙車に火をつけた。<br/><br/> 日脚の短かい秋の陽は、とうに烏帽子山の後ろに落ち、僅かにその頂上が茜色に染められているだけで、谷川から昇る夕靄が、山と山との間だを縫うように埋めてゆく。<br/><br/>煙草をくわえ、草疲れた脚を擦すっている間にも、冷えびえとした夕闇は、いつの間にか四辺を黒く染めている。<br/><br/> 朝日の昇るのが遠く、夕陽の沈むのが早い山峡であった事に気が付き、やや慌て気味に目を上げると、ここから半道というＡ部落に燈が一つ灯った。<br/><br/>夕闇の中にも一きわ黒々としている鎮守様の森の傍だ。<br/><br/>ああ、岩田さんの家の灯。<br/><br/>これから訪ねようとする岩田さんが、まるで私に合図してくれたように思え、切株から重い腰を上げた。<br/><br/> 寸暇も惜しむ身の私が、岩田さんを訪ねてはるばる赤松村へ来たのには、次のようないきさつがあったからだ。<br/><br/>二カ月まえに、同信の春山さんが、五十も半ばを越えた、農家の方らしい人を連れて私の家へ来た。<br/><br/>その人が赤松村で農鍛冶をしている岩田さんであった。<br/><br/>戦争の末期に、私はそれまで縁もゆかりも無かった赤松村へ、人の勧めで疎開したが、岩田さんも同じ頃、そこへ疎開して行ったのだった。<br/><br/>猫の額のような狭い寒村でありながら、その村に居る間、お互いに知り逢う事なく過して仕舞ったが、岩田さんは、私の一家がその村で酷い災厄に逢ったので私の名前を知り、今だに村人の炉ばなしに私達の噂さが出るそうである。<br/><br/>特筆大書するような事件もない平穏無事な山間の小村では、さもありそうな事である。<br/><br/>だから岩田さんにしてみれば、顔を見た事はないが、何んだか旧知の間柄のような気がしていたそうである。<br/><br/>岩田さんを連れて来た春山さんは、彼の遠縁に当り、メシヤ教の話から、何かの調子で私の名前が出て、私が救われた奇蹟の数々を聞き、もしや赤松村にいた槐安さんではないか。<br/><br/>と、村への土産話が出来るつもりで来たのであった。<br/><br/> 赤松村にいた槐安が、ここにいる槐安と同一の人間である。<br/><br/>と解り、私の口からメシヤ教の奇蹟が事実である旨を聞くと、それではこの指が治るべーか。<br/><br/>と岩田さんが頑丈な手を差し出した。<br/><br/>見ると右手の指三本が、硬直していて曲らない。<br/><br/>それは昨年、仕事中に指を怪我したので、町の病院へ治療に行ったとき、化膿しないように、と注射をしてくれたそうである。<br/><br/>その晩、急に熱が出て指の痛みが激しくなり、それ以来、二カ月家業を休んで病院通いした揚句、痛みはとれたが指が三本曲らなくなって仕舞ったのだ。<br/><br/>私が薬毒の説明をして、その時注射さえしなけれぼ、こんな結果にはならなかったろう。<br/><br/>と云うと、身に覚えがあるだけに薬毒をすぐ理解してくれた。<br/><br/> 一時間ほど、一心籠めて浄霊すると、何んとその指が十度位曲げられた。<br/><br/>本人よりも、むしろこちらが魂まげた奇蹟である。<br/><br/>この事があって以来、春山さんが浄霊をしに、数回、赤松村へ行った。<br/><br/>その指は完全とまではゆかないが、仕事に不自由しない迄に曲がるようになった。<br/><br/>岩田さんは無医村のこの村こそ、メシヤ教で救われる。<br/><br/>と考え、折にふれて村の人に自分の指がこうなったと見せ、槐安がこのお道で働らいていることや、メシヤ教の奇蹟を説明したそうである。<br/><br/> 十日ほど前、村長をしている常平さんが、私に長い長い手紙をくれた。<br/><br/>それは時候見舞から初まって、疎開中の災厄に世話が行届かなかった詫びを書き、このたび岩田さんから仄聞（そくぶん）するに、貴殿が宗教家となられて、世道人心を益するために働らいておられるそうだが、貴殿が疎開した事のある、所以（ゆえん）の地、赤松村にもその福音を伝えて貰らいたい。<br/><br/>貴殿ほどの人が信ずる宗教なれば、定めし非の打ちどころのない、立派な宗教と期待している。<br/><br/> 巻紙に毛筆で、一字一画くずさぬ楷書で認めてあり、常平村長の律儀を性格を物語って、余すところがない。<br/><br/> 手紙を読んでいるうちに、赤松村の風物が忽然として私の胸に蘇がえった。<br/><br/>そうなると、帰心ならぬ、行きたい心が一筋の矢のようであった。<br/><br/>村長さんと岩田さんに、すぐ行くと葉書をし、五年ぶりで赤松村を訪れたのであった。<br/><br/>私が村を引揚げるとき、鎮守の森のはずれに出来た家屋は覚えがあった。<br/><br/>それが岩田さんの家である。<br/><br/>と聞いていたので、人に問うまでもなく訪うべき家は解っていたのであった。<br/><br/> 実のところ、私は今回の赤松村訪問を、神様の御手引、とまで思ったのである。<br/><br/>それは狭い村にいてさえ知ることのなかった岩田さんを、探しても見出すのに困難な、広い東京で知り、しかも一村の衆望を集めている村長が、福音を伝えて貰いたい。<br/><br/>と云う丁重な手紙を寄込したし、村人はほとんど旧知の間柄であり、自然農法を普及するには絶好の山村であって、かてて加えて無医村である。<br/><br/>これ程の好条件の揃った土地は少いであろう。<br/><br/>と考えると、好機到れり。<br/><br/>と私が勇躍したのも無理ではあるまい。<br/><br/>それが、それが、なんだ、おさすりさんか。<br/><br/>とすげなく一蹴されて、孤影悄然として村を出ようとは。<br/><br/>好事、魔多し。<br/><br/>の諺を、はた、と思い知ったのであった。<br/><br/> 槐安来る。<br/><br/>の報に、翌日、村長は役場を欠勤し、部落ごとに人を走らせて手の空いている者を呼び集めた。<br/><br/>私を直接知らない部落からは集らなかったが、それでも二十人程の人が、村長の家へ集った。<br/><br/> 槐安さんでねえか。<br/><br/>暫くだのう。<br/><br/>あれから何年たっただんべえ、家の衆もみんな達者かい。<br/><br/>東京さ帰えって、えらく残したちうでねえか。<br/><br/> Ｔ部落の辰やんが、相変らず不精髯の、面いっぱいの大口をあけると、ほんに暫くだったなあ。<br/><br/>また東京の話でも聴かして貰うべえか。<br/><br/>東京はさあ、娘ッ子はみんなパンパンで若え衆は強盗だちうが本当かね。<br/><br/>○部落のみね婆さんの東京批判は、たくまずして鋭い諷刺となっていて、とっさに返えす言葉も出なかった。<br/><br/>これがきっかけとなって、こんなトボケた挨拶が、いつ果てる止もなく続いたので、常平村長が咳ばらいし、皆んな槐安さんに挨拶が済んだろうから、この辺で槐安さんから、神様の話を聞かして貰らったらどうや。<br/><br/>と発言した。<br/><br/> 神様の話って、俺は鍛冶屋の岩田に聞いただが、何んでもメシヤ教ちうもんだそうだが、あれなら俺ら、願い下げにして貰いてえもんだ。<br/><br/>あれなら、おさすりの事だ。<br/><br/>馬鹿馬鹿しいおさすりの話なんぞ、聞きたくもねえや、今度村会議員になった、という兼吉がそう云うと、うんだ、うんだ。<br/><br/>麦や大根も撫ぜていりゃあ、でかくなる、ちう自然耕作なんて馬鹿な話はねえぞ、肥やしくれちゃあいけねえ、草取ちゃあいけねえ、なんでも自然にして置けちうなら、種は一体どうするんだね、ありぁ、人間が蒔くもんで、天から種は降ちゃあこねえやな、あんな馬鹿げた話しぁ、いくら赤松村だって通らねえや、のぉ槐安さん。<br/><br/> 長老格の茂十爺さんの言葉が終らない内に、彼の声は、みんなの笑い声に消されて仕舞った。<br/><br/>おさすりさん。<br/><br/>何んの事やら私には薩張り解らない。<br/><br/>笑声が治ったのを見て。<br/><br/>みなの衆は、何かえらく勘違えしてやあ、しねえか、それはみな、ひでぇデマだ。<br/><br/>まるで出たら目な作り話だべ神様は、兼吉の云うようにメシヤ教だが、おさすりさん。<br/><br/>なんてえのは今はじめて聞いたし、茂十の云うように、麦やでえこを撫ぜろだの、草を取っちゃ、なんねえ、なんて馬鹿は云わねえぞ。<br/><br/>俺らの話をひと通り聞いて、その上で、聞きてえ事があれぱ、何んぼでも腑に落ちる迄、聞かすべえ。<br/><br/>この赤松村全体が良くなる話だから、ちっとの間、聞いて貰いてえ。<br/><br/> 私もいつの聞にか、土地の言葉になっていた。<br/><br/>駄目だよ槐安さん。<br/><br/>おめえは人間が丸い（人がいいの意）から瞞されてんだ。<br/><br/>おさすりさんのこたあ、みんな村の衆が知っているだ。<br/><br/>町にその神様がいてよ。<br/><br/>漁師の親方みてえな面らして威張りけえってよ、病気は治んねえし、大根を撫ぜた連中は、漬物も漬かんねえ騒ぎしたぞ。<br/><br/>そんな話しぁ止めて、東京の話でも聞かせろよ。<br/><br/>私がいた部落の長さんが、そう云った。<br/><br/> そうだ。<br/><br/>それがいいだ。<br/><br/>そして帰へりにゃあ、芋の十貫も背負って行かし。<br/><br/>おめえは戦争んとき巧えことを云ったでねえか。<br/><br/>疎開者はアメリカと戦争してんじゃねえ、農家の衆と戦争してる、てなあ。<br/><br/>あの節ッあ、闇だから仕様がなかったんだ。<br/><br/>今日この赤松村も東京の客さんに芋ぐれえ持たしてやれるぞ。<br/><br/> 分家の政の言葉にまた皆んながドッと笑らった。<br/><br/>形勢ことごとく非である。<br/><br/>村長の顔へ視線を向けると、彼もなんだ、おさすりさんだったか、と云う表情で下をむいている。<br/><br/> 一体、この善良な人達は、何を誤解し、誤解した事がらを真実。<br/><br/>と思い込むに至ったのであろうか。<br/><br/>意気込んで来ただけに、私は泣くになかれない気持ちであった。<br/><br/>人はこれを邪神の仕業、と云うかも知れない。<br/><br/>それもあろう。<br/><br/>また、私の不徳も最大の原因であるかも知れない。<br/><br/>でも、それでは頷けない複雑なものが、私の胸にわだかまるのであった。<br/><br/>せめての慰めは、いつに変らぬ、村人の私への好意である。<br/><br/>今日は宗教の話にふれず、皆の衆と雑談で暮らし、持久戦でゆこう。<br/><br/>必ず、この村へ信者を作って福音を伝えるぞ。<br/><br/>と決心した。<br/><br/> それじゃあ、今日は槐安さんの歓迎会とゆこう。<br/><br/>村長は女達を指図して、台所から、かねて用意のものを運ばせた。<br/><br/> 私の甘い希望や意図は、かくして無残にこわれた。<br/><br/>私一人で、ぼつぼつ浄霊して病人を治し、実際の霊効を見せて仲間を作りやしょう。<br/><br/>今日のところは気を悪くしないで下さい。<br/><br/>お守りを戴いたばかりの岩田さんは、そう云って私を慰めた。<br/><br/> 気永に辛抱づよくゆきましょう。<br/><br/>私も岩田さんに元気づけたが、それは、どうやら自分自身に云って聞かせた形であった。<br/><br/> 満五年ぶりに訪れた、懐かしい赤松村のただずまいは、あのとき以来、一草一木の布置も変っていない。<br/><br/>変ったのは闇売りで儲けた、いわゆる疎開太りになった連中が、農地改革、税金攻勢で、あの時の事は哀れはかなき、槿花（きんか）一朝の夢と化し、元の木阿弥になった事と、工場で自動車の助手をしていた富さんが運転手に出世して、私を見付けると、片手を挙げて手を振り、愛想のつもりか、猫の子一匹いないのに、ブウブウとらっぱを鳴らして見せただけである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

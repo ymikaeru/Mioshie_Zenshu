@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qisiyor3</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 医師より不治と謂われた 重症喘息も斯く癒さる 『栄光』182号、昭和27(1952)年11月12日発行 兵庫県 神和中教会 岡本芳光（30） 顧みますれば昭和二十年八月、命有りし吾が身を喜びながら復員、直ちに国鉄に復職勤務致しましたが、入隊前は無欠勤にて務めし身も軍隊生活の無理が続いた為かよく風邪を引くようになり、風邪を引けば呼吸困難になり、医診を受けましたところ、急性気管支炎との事でした。<br><br>当時は医薬信奉者だった私は一にも医者二にも医者というように、病院通いを始めました。<br><br>最初の内は発作も月一度か二度、さしもの呼吸困難もアドレナリンの注射にてピタリと治まり、アドレナリンが吾が身の特効薬否命の綱のごとくに盲信し発作が起ればアドレナリンと決め込んでおりましたところ発病してより約一年、発作の期間は次第に短縮され、月に三度になり四度になり果は毎週一度は発作を見、病院の門をくぐり、お医者様のお得意となり、私の顔を見ればアドレナリンの注射を打つのみで、診察も頂かずに帰ったものでしたが病状も次第に悪化し、最初半分で良かったアドレナリンも、一本になり一本半になるというように打っても治りません。<br><br>その頃は病名も急性気管支喘息から慢性気管支喘息と変り、勤務も出来ず長期欠勤のやむなき状態に立到りました。<br><br>病気を治したい一念より医者を変えて見れば、ある医者は肺浸潤、又外の一人は喘息だと一蹴され、一人一人診断の異なるに不信を抱きながらも他に方法とて無く、又かかりつけの医師の元に帰り今迄医療を続けておりますのに、病状は悪化するのみにて一向に良くならず、ある日医師に喘息は全治出来るものかを聞きましたところ、医師は暫らく沈黙しておりましたが、私の病状に匙を投げたのでしょうか、さも同情したごとく「実は今の医学では全治する方法は無い、発作の起きた時鎮痛剤か麻痺剤をもって一時抑えるより方法なく、あなたの体力ではこれ以上強い注射も出来ず今のところ最後の手段として頸部を切開し、胸部の神経を切断する外科手術が有るが、これとても確実な方法では無く一時は良いが又再発する」との事、お医者様も正直に言っては下さったものの、それ迄医学を絶対のものと信じ、命の網は医者が握っているもののごとく思っていた私も、この言葉を聞いた時死の宣告を受けたごとく驚きました。<br><br>それからというものは医師にも行けず、命有る以上は何かを求めたく民間療法、苦しき時の神頼みと、お大師様にお縋りもして見ましたが思わしからず、京都、大阪、姫路と良いと言われる灸点屋を次から次へとあさりましたが、熱い思いをしたのみにて効果現われず、一日一日死期の近付くのを待つ身となりましたが、救いの綱はたれさせられたのです。<br><br> 二十一年十一月甥より「手を翳して病気を治す方法が有るが、受けて見ないか」と知らされましたが、信じる事が出来ず、今迄これだけ手当をしても治らない業病が手を翳しただけで治る等と馬鹿げた話だ、そんな事が有るものかと、一度ならず二度迄もはねつけておったのですが、甥の熱心さに心引かれるもの有り、又自然に生を受けてこの世に出て来ている人間の病気に対して、自然に治す方法が有るやも知れないと思われる点も有り、だまされてみようというような気持にて当時日本浄化療法なる講習を受けたのです。<br><br>受講中一度御浄霊を頂きましたら、翌日より発作激しく一週間非常に苦しみましたが、それを最後に爾後一カ年間、喘息のゼとも言わず勤務も元通り出来るようになり、本当にこの療法は当った位の軽い気持にて日を送っていたものです。<br><br>今にして思えば勿体なく冷汗三斗の思いです。<br><br>しかし再浄化の有る事は知らされておりましたが、来る時が来て同年十月より再浄化が始まり、御魂磨きと反省の時期を与えられました。<br><br>私の御浄化はとても激しく喘息でも医師に見離されるだけあって、その苦痛たるや死寸前の姿です。<br><br>咳が出だしますと連続咳込み、呼吸は出来ませず、全身油汗にて寝巻はビッショリとなり口唇の色も紫色に変り、時には痙攣迄起す事も日に二度、三度、今度こそ駄目か今度こそと、幾度か死を覚悟しなければなりませんでした。<br><br>二十二年十月より翌年五月迄は、四六時中発作の連続にて衰弱は加わり、用便も自由に達する事が出来ない状態でしたが、この期間を峠として御浄化戴く度に薄紙を剥ぐがごとく、元気を快復させて頂き、発病してより七年、入信五年数カ月後の現在では発作らしい発作もなくなり、長期欠勤せし故に国鉄も退職致し二十三年十二月よりお道に専念させて頂ける身とならせて頂き、御神恩の程深く深く感謝致しております。<br><br>御浄化中排泄されました毒素（痰）は、重態中は小の洗面器に毎夜一ぱい位、その痰たるや加療中服用せし薬の臭にて、今更ながら薬毒の恐ろしさを知らされました。<br><br>人間の体は膿の固りだと言われるごとく、出る事出る事、今日迄に喀血一回二合位、血痰は常に排泄され、現在に及んでおりますが、かくも重症の不治と言われた喘息も、絶対力なる明主様の御慈悲により癒され、無き命を再び与えられし御神恩に恐懼感激、胸奥より深謝御礼申し上げるのみで御座居ます。<br><br> 明主様誠に有難う御座居ました。<br><br> 重ねて御礼申し上げます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A cura de uma asma severa, considerada incurável pela medicina</h2>
 <p>Revista Eikou, nº 182, 12 de novembro de 1952
@@ -105,5 +260,48 @@ Okamoto Yoshimitsu (30 anos)</p>
 <p>Mesmo assim, uma asma tão severa e tida como incurável foi curada pela absoluta e compassiva força de Meishu-Sama. Sinto-me em um estado de reverente gratidão pela Graça Divina que me devolveu a vida, e do fundo do meu coração, tudo o que posso fazer é expressar meu mais profundo agradecimento.</p>
 <p>Meishu-Sama, muito, muito obrigado.
 Reiteradamente, muito obrigado.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 医師より不治と謂われた 重症喘息も斯く癒さる 『栄光』182号、昭和27(1952)年11月12日発行 兵庫県 神和中教会 岡本芳光（30） 顧みますれば昭和二十年八月、命有りし吾が身を喜びながら復員、直ちに国鉄に復職勤務致しましたが、入隊前は無欠勤にて務めし身も軍隊生活の無理が続いた為かよく風邪を引くようになり、風邪を引けば呼吸困難になり、医診を受けましたところ、急性気管支炎との事でした。<br/><br/>当時は医薬信奉者だった私は一にも医者二にも医者というように、病院通いを始めました。<br/><br/>最初の内は発作も月一度か二度、さしもの呼吸困難もアドレナリンの注射にてピタリと治まり、アドレナリンが吾が身の特効薬否命の綱のごとくに盲信し発作が起ればアドレナリンと決め込んでおりましたところ発病してより約一年、発作の期間は次第に短縮され、月に三度になり四度になり果は毎週一度は発作を見、病院の門をくぐり、お医者様のお得意となり、私の顔を見ればアドレナリンの注射を打つのみで、診察も頂かずに帰ったものでしたが病状も次第に悪化し、最初半分で良かったアドレナリンも、一本になり一本半になるというように打っても治りません。<br/><br/>その頃は病名も急性気管支喘息から慢性気管支喘息と変り、勤務も出来ず長期欠勤のやむなき状態に立到りました。<br/><br/>病気を治したい一念より医者を変えて見れば、ある医者は肺浸潤、又外の一人は喘息だと一蹴され、一人一人診断の異なるに不信を抱きながらも他に方法とて無く、又かかりつけの医師の元に帰り今迄医療を続けておりますのに、病状は悪化するのみにて一向に良くならず、ある日医師に喘息は全治出来るものかを聞きましたところ、医師は暫らく沈黙しておりましたが、私の病状に匙を投げたのでしょうか、さも同情したごとく「実は今の医学では全治する方法は無い、発作の起きた時鎮痛剤か麻痺剤をもって一時抑えるより方法なく、あなたの体力ではこれ以上強い注射も出来ず今のところ最後の手段として頸部を切開し、胸部の神経を切断する外科手術が有るが、これとても確実な方法では無く一時は良いが又再発する」との事、お医者様も正直に言っては下さったものの、それ迄医学を絶対のものと信じ、命の網は医者が握っているもののごとく思っていた私も、この言葉を聞いた時死の宣告を受けたごとく驚きました。<br/><br/>それからというものは医師にも行けず、命有る以上は何かを求めたく民間療法、苦しき時の神頼みと、お大師様にお縋りもして見ましたが思わしからず、京都、大阪、姫路と良いと言われる灸点屋を次から次へとあさりましたが、熱い思いをしたのみにて効果現われず、一日一日死期の近付くのを待つ身となりましたが、救いの綱はたれさせられたのです。<br/><br/> 二十一年十一月甥より「手を翳して病気を治す方法が有るが、受けて見ないか」と知らされましたが、信じる事が出来ず、今迄これだけ手当をしても治らない業病が手を翳しただけで治る等と馬鹿げた話だ、そんな事が有るものかと、一度ならず二度迄もはねつけておったのですが、甥の熱心さに心引かれるもの有り、又自然に生を受けてこの世に出て来ている人間の病気に対して、自然に治す方法が有るやも知れないと思われる点も有り、だまされてみようというような気持にて当時日本浄化療法なる講習を受けたのです。<br/><br/>受講中一度御浄霊を頂きましたら、翌日より発作激しく一週間非常に苦しみましたが、それを最後に爾後一カ年間、喘息のゼとも言わず勤務も元通り出来るようになり、本当にこの療法は当った位の軽い気持にて日を送っていたものです。<br/><br/>今にして思えば勿体なく冷汗三斗の思いです。<br/><br/>しかし再浄化の有る事は知らされておりましたが、来る時が来て同年十月より再浄化が始まり、御魂磨きと反省の時期を与えられました。<br/><br/>私の御浄化はとても激しく喘息でも医師に見離されるだけあって、その苦痛たるや死寸前の姿です。<br/><br/>咳が出だしますと連続咳込み、呼吸は出来ませず、全身油汗にて寝巻はビッショリとなり口唇の色も紫色に変り、時には痙攣迄起す事も日に二度、三度、今度こそ駄目か今度こそと、幾度か死を覚悟しなければなりませんでした。<br/><br/>二十二年十月より翌年五月迄は、四六時中発作の連続にて衰弱は加わり、用便も自由に達する事が出来ない状態でしたが、この期間を峠として御浄化戴く度に薄紙を剥ぐがごとく、元気を快復させて頂き、発病してより七年、入信五年数カ月後の現在では発作らしい発作もなくなり、長期欠勤せし故に国鉄も退職致し二十三年十二月よりお道に専念させて頂ける身とならせて頂き、御神恩の程深く深く感謝致しております。<br/><br/>御浄化中排泄されました毒素（痰）は、重態中は小の洗面器に毎夜一ぱい位、その痰たるや加療中服用せし薬の臭にて、今更ながら薬毒の恐ろしさを知らされました。<br/><br/>人間の体は膿の固りだと言われるごとく、出る事出る事、今日迄に喀血一回二合位、血痰は常に排泄され、現在に及んでおりますが、かくも重症の不治と言われた喘息も、絶対力なる明主様の御慈悲により癒され、無き命を再び与えられし御神恩に恐懼感激、胸奥より深謝御礼申し上げるのみで御座居ます。<br/><br/> 明主様誠に有難う御座居ました。<br/><br/> 重ねて御礼申し上げます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

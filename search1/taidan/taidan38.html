@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>taidan38</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 明主様 新聞関係人に御面会賜る ＜メシヤ会館において＞ 『栄光』284号、昭和29(1954)年11月24日発行 明主様には、六月十五日以来、信者は勿論、一般人の御面会もいっさいお取り止め遊ばされておられましたが、新聞社関係より、御面会いただきたいとの再々の申し込みあったために、十一月九日メシヤ会館（向かって左側御廊下）において御引見賜ることとなった。<br><br> 明主様には、御奥様御同伴、阿部執事随行されて、午後一時半ごろお着き遊ばされ、御着座の後、大草管長より御挨拶あって、御引見となった。<br><br> ただいまのところは長時間の御引見はお許しなく、約五分ほどにて御退座遊ばされたが、その折賜った御言葉を左にお伝えさせていただく。<br><br>（木原記者） 新聞人 私たち、お会いしてお話を伺いたいと思っておりましたのですが、いかがでしょう、今の日本について、なにかお話はございませんか。<br><br> 明主様 たくさんありますが、今は、中途半端ですから、いずれもう少したったら、ゆっくりと話します。<br><br> 新聞人 「アメリカを救う」ですか、アメリカを救済するということについての御構想をうけたまわりたいのですが。<br><br> 明主様 一言いっておきますが、全部メシヤ教信者になれば、アメリカは救われますよ。<br><br> 新聞人 全部がメシヤ教信者にならなければならないんですね……そういうわけですね。<br><br> × × × 明主様のお話はたいへんむずかしいことと思って、記者諸君は紙と鉛筆を用意したら、明主様の御言葉はしごく簡単に、お笑いを含まれながらお話になられたので、ちょっとあっけにとられた模様。<br><br>しかしなにげなくおおせられた中にも真理が含まれていたので、新聞人もそのまま引き下がっていった。<br><br> この日明主様には、御和服姿にてお出ましとなり、大草管長以下本部事務員数名、謹んでお迎え申し上げるうちに、お車にてお着き遊ばされた。<br><br> 大草管長より「明主様の御近況をということで、御写真をとらせていただきたいとのことでございますので、よろしくお願い申し上げます」と御挨拶申し上げるや、明主様には軽く領かれてカメラに向かわれ、しばし新聞人のシャッターをお受けになっておられたが、この日の明主様は、いつになく、お厳しい御様子に拝され、末席の記者も、身内に、なにかしらグッと引き締まるものを感じた。<br><br> しかし「お笑いになってください」との新聞人の言葉にニコリとお笑い遊ばされ、「今日は割合にご機嫌がいいですよ」とおおせられた御言葉に、新聞人にもなんとなく、ホッとした気配が見られ、なにかとお伺い申し上げ、明主様にもいとお気軽に応じられて、明るい談笑が交わされた一時であった。<br><br> 御引見を終わられて、美術館敷地を御一巡の後、碧雲荘に御帰館遊ばされる明主様をお見送りさせていただき、六月十五日以降はじめての一般への、しかも世の一方の頭立った人々へのお出ましとなったこの日は、御経綸上非常なる意義あるものと拝察申し上げ、末席にお許しを賜ったこの日の栄光を、厚く御礼申し上げさせていただいたのであった。<br><br> かくて、とかくの噂も明主様の御元気さの前には、朝日に消える露のごとく、煙散霧消してしまったことであろう。<br><br> なお、この日みえた新聞社は、朝日、毎日、読売の三大新聞を始め、産業経済新聞、東京新聞、中部日本、静岡民報、静岡新聞などの有力新聞、さらに地元熱海の、熱海新聞、伊豆毎日……以上の十社であった。<br><br>またこの日の模様は、十一月十日付の朝日、毎日、静岡、産業経済、熱海、伊豆毎日の各紙に掲載されたことを付記する。<br><br> （写真〔略〕はそのときの模様でありますが、背後よりの写真となりましたことをお詫びいたします）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Meishu-Sama Concede Audiência à Imprensa</h2>
 <p>Embora Meishu-Sama houvesse suspendido por completo as audiências, tanto com membros quanto com o público em geral, desde o dia 15 de junho, Ele teve a bondade de conceder um encontro à imprensa no dia 9 de novembro. Tal decisão, tomada em virtude dos reiterados pedidos provenientes de diversas companhias jornalísticas, culminou em uma audiência no Messhiya Kaikan, no corredor à esquerda de quem adentra o recinto.</p>
@@ -108,5 +260,48 @@ function toggleLang(lang) {
 <p>Cumpre registrar que, entre as dez redações presentes, encontravam-se os três maiores jornais do país — Asahi, Mainichi e Yomiuri —, além de outros veículos de grande prestígio, como o Sangyo Keizai Shimbun, Tokyo Shimbun, Chubu Nippon, Shizuoka Mimpo e Shizuoka Shimbun. A imprensa local de Atami também se fez representar pelo Atami Shimbun e pelo Izu Mainichi. A cobertura do evento foi publicada nas edições do dia 10 de novembro dos jornais Asahi, Mainichi, Shizuoka, Sangyo Keizai, Atami e Izu Mainichi.</p>
 <p>(Publicado na revista <em>Eikou</em>, nº 284, em 24 de novembro de 1954)
 (Nota: A fotografia que acompanha o artigo original foi omitida. Pedimos desculpas por ter sido tirada por trás dos presentes.)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 明主様 新聞関係人に御面会賜る ＜メシヤ会館において＞ 『栄光』284号、昭和29(1954)年11月24日発行 明主様には、六月十五日以来、信者は勿論、一般人の御面会もいっさいお取り止め遊ばされておられましたが、新聞社関係より、御面会いただきたいとの再々の申し込みあったために、十一月九日メシヤ会館（向かって左側御廊下）において御引見賜ることとなった。<br/><br/> 明主様には、御奥様御同伴、阿部執事随行されて、午後一時半ごろお着き遊ばされ、御着座の後、大草管長より御挨拶あって、御引見となった。<br/><br/> ただいまのところは長時間の御引見はお許しなく、約五分ほどにて御退座遊ばされたが、その折賜った御言葉を左にお伝えさせていただく。<br/><br/>（木原記者） 新聞人 私たち、お会いしてお話を伺いたいと思っておりましたのですが、いかがでしょう、今の日本について、なにかお話はございませんか。<br/><br/> 明主様 たくさんありますが、今は、中途半端ですから、いずれもう少したったら、ゆっくりと話します。<br/><br/> 新聞人 「アメリカを救う」ですか、アメリカを救済するということについての御構想をうけたまわりたいのですが。<br/><br/> 明主様 一言いっておきますが、全部メシヤ教信者になれば、アメリカは救われますよ。<br/><br/> 新聞人 全部がメシヤ教信者にならなければならないんですね……そういうわけですね。<br/><br/> × × × 明主様のお話はたいへんむずかしいことと思って、記者諸君は紙と鉛筆を用意したら、明主様の御言葉はしごく簡単に、お笑いを含まれながらお話になられたので、ちょっとあっけにとられた模様。<br/><br/>しかしなにげなくおおせられた中にも真理が含まれていたので、新聞人もそのまま引き下がっていった。<br/><br/> この日明主様には、御和服姿にてお出ましとなり、大草管長以下本部事務員数名、謹んでお迎え申し上げるうちに、お車にてお着き遊ばされた。<br/><br/> 大草管長より「明主様の御近況をということで、御写真をとらせていただきたいとのことでございますので、よろしくお願い申し上げます」と御挨拶申し上げるや、明主様には軽く領かれてカメラに向かわれ、しばし新聞人のシャッターをお受けになっておられたが、この日の明主様は、いつになく、お厳しい御様子に拝され、末席の記者も、身内に、なにかしらグッと引き締まるものを感じた。<br/><br/> しかし「お笑いになってください」との新聞人の言葉にニコリとお笑い遊ばされ、「今日は割合にご機嫌がいいですよ」とおおせられた御言葉に、新聞人にもなんとなく、ホッとした気配が見られ、なにかとお伺い申し上げ、明主様にもいとお気軽に応じられて、明るい談笑が交わされた一時であった。<br/><br/> 御引見を終わられて、美術館敷地を御一巡の後、碧雲荘に御帰館遊ばされる明主様をお見送りさせていただき、六月十五日以降はじめての一般への、しかも世の一方の頭立った人々へのお出ましとなったこの日は、御経綸上非常なる意義あるものと拝察申し上げ、末席にお許しを賜ったこの日の栄光を、厚く御礼申し上げさせていただいたのであった。<br/><br/> かくて、とかくの噂も明主様の御元気さの前には、朝日に消える露のごとく、煙散霧消してしまったことであろう。<br/><br/> なお、この日みえた新聞社は、朝日、毎日、読売の三大新聞を始め、産業経済新聞、東京新聞、中部日本、静岡民報、静岡新聞などの有力新聞、さらに地元熱海の、熱海新聞、伊豆毎日……以上の十社であった。<br/><br/>またこの日の模様は、十一月十日付の朝日、毎日、静岡、産業経済、熱海、伊豆毎日の各紙に掲載されたことを付記する。<br/><br/> （写真〔略〕はそのときの模様でありますが、背後よりの写真となりましたことをお詫びいたします）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

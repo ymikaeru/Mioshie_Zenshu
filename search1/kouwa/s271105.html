@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s271105</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年11月5日） 『御教え集』16号、昭和27(1952)年12月15日発行 昭和二十七年十一月五日 私は昨日上野の博物館に行ってきました。<br><br>八十周年記念で博物館にある品物のうちから名品ばかりを選んで展覧会をしたのです。<br><br>一通り見ましたが、仏教関係の物だけはなかなか良い物があって、とてもかないません。<br><br>なにしろ四十八体仏といって御物の金銅仏です。<br><br>それが四十八体あって、これはたいしたものです。<br><br>これは法隆寺が明治時代に寄付したのです。<br><br>ですからほかでは私の所に一つあるきりです。<br><br>一つありますが、あれは非常に良い物です。<br><br>昨日の四十八体に比べてみると非常に良い。<br><br>最初のかもしれません。<br><br>なにかわけがあるのでしょう。<br><br>それから仏画も、私の所ではかなわない良い物があります。<br><br>それからあとは仏器です。<br><br>仏様のいろんな道具です。<br><br>これは数はたくさんありますが、たいした物はありません。<br><br>屏風も良い物はありません。<br><br>博物館が買う時分は、予算が足りないので思うような物が買えなかった、ということが品物に良く表われている。<br><br>しかし贋物はありません。<br><br>本物は本物ですが、その作者なら作者の傑作でなく、作者が画いたというだけの物で、非常にレベルが低いのです。<br><br>ただ雪舟の山水画は一番良い物ですが、あとはありません。<br><br>墨蹟なども数はあったが、あんまり感心した物はありません。<br><br>つまり買える時分に、国家の方で軍艦や兵器を造る方にうんと金を出して、ああいう方面には冷淡だったのです。<br><br>そんなわけで今もって予算が足りないのです。<br><br>それが良いか悪いか知らないが、われわれの方で買うことができるわけです。<br><br>敦煌の絵も、博物館で買わなかったので、アメリカに売ろうとするのを、その前に私の方に見せてくれたのです。<br><br>私の方で止せばあっちに行ったわけです。<br><br>そういうようで食い止めているわけです。<br><br>そういうようなことは当局の方でも知っているものだから、箱根美術館に対して好意を寄せてます。<br><br> 来年美術館が始まる早々浮世絵展覧会をやりますが、今度の京都の浮世絵展覧会よりも非常に上です。<br><br>それに私の方は肉筆の方を本位にしてますから、その点において世界一といっても良いと思います。<br><br>また不思議に神様は、その作者の一番良い物をチョッチョッと入れてくるのです。<br><br>実に人間業ではないということが分かります。<br><br>来年始まると分かります。<br><br>私も、今まで浮世絵というのはあんまり趣味をもってなかったが、近ごろ実に驚いているくらいです。<br><br> このごろどこの宗教でもみんな病院を作っているのですが、それについて書いてみたのです。<br><br>これなら分かるだろうと思って徹底して書いたつもりです。<br><br> （御論文「宗教と病院」）【栄光 一八一号】 それから注意したいことは、病気がすばらしく治るということをお医者さんが見てびっくりして、どうしてこんなに良く治った、ということを聞かれた場合に、はっきり言わない人があるのです。<br><br>それは、はっきり言うと無論お医者さんの感情を害する心配もありますし、それからなにかしら言い悪いとか、そういうきらいがあるのですが、以前そういう時もあるにはありましたが、今日はよほど違ってますから、そういう場合にははっきりと、メシヤ教の浄霊で治ったということを、できるだけ詳しくありのまま話さなければならない。<br><br>そうしてお医者さんに分からせるのです。<br><br>なるほど信仰で医学以上にこれほどの力がある、これは信仰も馬鹿にできない、考え直さなければならない、という心を起させる方が良いのです。<br><br>本当言うとお医者さんを分からせれば良いのです。<br><br>そうすれば一ぺんにミロクの世ができるのです。<br><br>そうして一般人に分かるのは徹底しないから遅いのです。<br><br>ですからお医者さんに分からせるということは、今言ったようにはっきりと、こっちが言うのは少しも間違いがないのですから、堂々と言った方が良い。<br><br>そうしてあっちでもこっちでも、どうも医学よりかメシヤ教の浄霊の方がずっと治るということを、お医者さん同士が話し合うとか、医学者の間にそういったことが評判になるというようにならなければならないのです。<br><br>ですから今度の『アメリカを救う』という本も、やっぱり医科大学とか大病院にも配るつもりです。<br><br>そうして医学者の方にも続々と分からせるというようにしたいと思います。<br><br>これはあるいはたいへんな問題になるかもしれませんが、人類を救うとしたらそういうことはやむを得ません。<br><br>それを通り越さなければ本当にできあがらないのです。<br><br>そうして間違った医学を是正する、改革するということは、一度はそういう難関を通り越さなければならないのです。<br><br>ですからその覚悟でだんだんやるつもりです。<br><br>ですから今のような場合は思いきって、言いにくいことでも言ってもらいたいと思います。<br><br>それから本当は日本の医学界に向かって爆弾を投げつけたのですが、それよりかむしろ、アメリカから分からせた方がずっと早く効果が大きいのです。<br><br>ちょうどアメリカの病人の多い報告を利用して『アメリカを救う』の本を書いたのです。<br><br>やっぱり神様はそういう遠まわしの手段を取られたわけです。<br><br> それから「東方の光」ということを昔から良く言われてますが、これを徹底的に書いておいたのです。<br><br> （御論文「東方の光」）【栄光 一八二号】 今読んだ通り、安房（あわ）の乾坤山（けんこんざん）日本寺（にほんじ）というお寺ですが、この日本寺は、保田という所にあるのです。<br><br>「ホタ」という言霊は「ホト」ということが転化したものです。<br><br>「ホト」というのは、女の陰部を昔は「ホト」と言ったのです。<br><br>これは『古事記』にあります。<br><br>天からなにか落ちてきて、その女の「ホト」を突いて、それからどうだということがあります。<br><br>そういうような意味で、房州というのは閨房（けいぼう）というわけです。<br><br>その「ホト」から生まれたわけです。<br><br>昼間の世界が生まれたわけです。<br><br>ということは、神様でいうと天照大御神様が生まれたわけです。<br><br>これはおもしろい神秘があるのです。<br><br>そうして私が六月十五日にその神事を行なって十五日の夜帰ってきて、明くる日に下駄屋の職人で海に飛び込んで死んだという話は先にしましたから分かっているでしょうが、それから三日目の、これも話したことがありますが、その当時そうとう有名だった森鳳声（ほうせい）という彫刻師が来て「自分は近ごろしきりに天照大御神の御尊像を彫刻したいと思っている。<br><br>それで自分のような彫刻師がそういう尊い像を作っても差し支えないものか」ということを、私の意見を聞きに来たのです。<br><br>それで私は「それは結構だ、大いにやりなさい」というので、それから彫り出したのです。<br><br>そうして中途で見てくれというので見てやったのですが「背中の模様をどうしたら良いか分からないから見てくれ」と言うので、私が「台を雲にして背中に丸くやれ」と言ったら「それで合う」と言ってました。<br><br>それから「丈はどのくらいか」と言うから、私は「五尺六寸七分の丈が良い」というので、五尺六寸七分にした。<br><br>それで半年くらいかかりましたができあがりました。<br><br>その森鳳声というのは大本教信者なのです。<br><br>それで私が先輩だからそういうことも私の意見を聞いたのです。<br><br>それでできあがって、大本教に献納したいというので、それは結構だと献納したのです。<br><br>その時、東京の和田堀に大本教の東京の別院で紫雲郷別院という、そこに出口先生が来られた時に献納したのです。<br><br>私は行って見ましたが、白布で巻いてあって、もったいなくないようにして床の間に飾ってありました。<br><br>それから間もなく大本教の本部の亀岡に持って行きました。<br><br>私は見なかったが、無論そこの一番良い所に飾ったものに違いありません。<br><br>その時に、紫雲郷別院に等身大の瀬戸物の観音様があったのですが、それがどういうものか一晩で首が欠けて取れたのです。<br><br>誰かがなにかを落としたか、ぶっつけたか実に不思議なのです。<br><br>人によっては随分気にしていたようです。<br><br>私もこれはなにかよほどのことがあるに違いない、ただごとではないと思ったのです。<br><br>というのはこういうわけです。<br><br>そのころ出口先生は、自分は観音の化身だと言って、始終観音様の絵を画いていたりした。<br><br>そうすると、その首が取れたということは、出口先生になにか禍があるに違いないというような意味になりますから、これは変だなと思っていたのです。<br><br>それがちょうど、日本寺に行ったのが六年六月ですから、六年の十二月あたりに献納したのです。<br><br>それから十年の十二月に大本教事件が起ったのです。<br><br>その首が取れたということは、その一つのお知らせになったわけです。<br><br>それからもう一つの神秘は、私以外には知らないのですが、出口先生は月の神様です。<br><br>素盞嗚尊です。<br><br>それで月の神様になります。<br><br>天照大御神を献納したということは、日が出たことだから、月が光を失うということになる。<br><br>そうして、大本教のお筆先に「大本は世界の型であるから、此の中を見て居りたら世界は何うなるという事は分るぞよ」というのがある。<br><br>そうしてみると天照大御神の「日」が現われて、月が光を失うということになるのです。<br><br>そういうことは私以外には分からないのですが、今の論文を書く時に想い出したのです。<br><br>各宗教で病気が治らなくなったということは、昭和六年六月十五日に今の御神事があってから治らなくなったのです。<br><br>私は先に天理教の人にその話をしたところが、ちょうど六年あたりから天理教でも病気が治らなくなったということを言ってました。<br><br>それでしかたがないというので各宗教で病院を作るようになった。<br><br>大体、天理教でも病気治しであれだけになったのですから、天理王（てんりおう）が病気が治らないということは、最初とはまるで違ってきたのです。<br><br>それからひとのみちでも金光教でも、みんな病気治しであれだけになったのです。<br><br>しかしそういう宗教がみんな病院を作ったのです。<br><br>天理教も立派な病院を作るし、ひとのみちでも作るし、この間は立正佼成会も立派な病院を作りました。<br><br>そういうようで、そうとう目立つ宗教としてはメシヤ教だけが病院を作らないのです。<br><br>それは昼になったために、他は全部月の宗教ですから、そこで治らなくなったというわけです。<br><br>はっきりしているのです。<br><br>それに引き換えてこっちはだんだん治り方が良くなるということは、日がだんだん昇って行くから、太陽の光が強くなるからなのです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Arte, Medicina e a Alvorada da Nova Era</h2>
 <p>Ontem, visitei o Museu de Ueno. Celebrava-se o octogésimo aniversário da instituição com uma exposição que reunia exclusivamente obras-primas de seu acervo. Percorri toda a mostra e constatei que os itens relacionados ao budismo, em particular, eram de uma qualidade notável, verdadeiramente insuperável. Refiro-me, sobretudo, ao conjunto de quarenta e oito Budas de bronze dourado, outrora pertencentes ao Tesouro Imperial. É uma coleção magnífica, doada pelo Templo Horyu-ji na Era Meiji. Fora desse conjunto, creio que a única peça similar existente seja a que possuo em meu acervo pessoal, a qual, por sinal, é de qualidade excepcional. Ao compará-la com as quarenta e oito expostas ontem, sua primazia se torna evidente; talvez seja uma das primeiras produzidas, por algum motivo especial. Havia também pinturas budistas superiores às que tenho. Fora isso, porém, o restante do acervo consistia em alfaias budistas — os diversos instrumentos utilizados nos rituais. Embora numerosos, não eram de grande valor. Os biombos, igualmente, não apresentavam peças de grande mérito. Fica evidente que, à época da aquisição dessas obras, o museu dispunha de um orçamento limitado, o que o impediu de adquirir exemplares de maior relevância. Embora sejam autênticas, não representam o apogeu criativo de seus respectivos autores; são, antes, obras de um nível consideravelmente inferior. A única exceção notável era uma paisagem de Sesshu, que de fato era a sua melhor obra. Quanto aos exemplares de caligrafia, ainda que houvesse muitos, nenhum me impressionou particularmente.</p>
@@ -107,5 +259,48 @@ function toggleLang(lang) {
 <p>Há outro mistério, que ninguém além de mim conhece: o mestre Deguchi é uma divindade da Lua, ou seja, Susanoo-no-Mikoto. A dedicação de uma estátua a Amaterasu Ōmikami representou o surgimento do Sol, o que, por sua vez, significa que a Lua perderia sua luz. Isso está de acordo com uma passagem dos escritos sagrados da Ōmoto que diz: “A Ōmoto é o modelo do mundo; observando o que acontece em seu seio, saberão o que acontecerá ao mundo”. Desse modo, com o aparecimento do Sol, representado por Amaterasu Ōmikami, a Lua perdeu seu brilho. Lembrei-me desses fatos, que somente eu conhecia, ao escrever o artigo.</p>
 <p>O fato de as outras religiões terem perdido a capacidade de curar doenças ocorreu precisamente após a cerimônia sagrada de 15 de junho de 1931. Certa vez, comentei isso com um membro da Tenrikyo, e ele confirmou que, por volta daquele ano, a Tenrikyo também deixou de conseguir curar. Foi por essa razão, por não terem alternativa, que as diversas religiões passaram a construir hospitais. A Tenrikyo, por exemplo, cresceu enormemente graças à cura de doenças; portanto, o fato de Tenri-Ō no Mikoto não curar mais representa uma completa inversão de seu propósito original. O mesmo ocorreu com a Hitonomichi e a Konkokyo, que também se expandiram pela cura. No entanto, todas elas acabaram construindo hospitais. A Tenrikyo construiu um hospital magnífico, assim como a Hitonomichi e, mais recentemente, a Rissho Kosei-kai.</p>
 <p>Assim, a única religião proeminente que não constrói hospitais é a Igreja Messiânica. Isso se deve ao fato de que, com a chegada do Dia, as demais, por serem religiões da Lua, perderam sua força curativa. A razão é muito clara. Em contrapartida, em nossa Igreja, o poder de cura aumenta gradualmente, pois o Sol está ascendendo e sua luz se torna cada vez mais intensa.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年11月5日） 『御教え集』16号、昭和27(1952)年12月15日発行 昭和二十七年十一月五日 私は昨日上野の博物館に行ってきました。<br/><br/>八十周年記念で博物館にある品物のうちから名品ばかりを選んで展覧会をしたのです。<br/><br/>一通り見ましたが、仏教関係の物だけはなかなか良い物があって、とてもかないません。<br/><br/>なにしろ四十八体仏といって御物の金銅仏です。<br/><br/>それが四十八体あって、これはたいしたものです。<br/><br/>これは法隆寺が明治時代に寄付したのです。<br/><br/>ですからほかでは私の所に一つあるきりです。<br/><br/>一つありますが、あれは非常に良い物です。<br/><br/>昨日の四十八体に比べてみると非常に良い。<br/><br/>最初のかもしれません。<br/><br/>なにかわけがあるのでしょう。<br/><br/>それから仏画も、私の所ではかなわない良い物があります。<br/><br/>それからあとは仏器です。<br/><br/>仏様のいろんな道具です。<br/><br/>これは数はたくさんありますが、たいした物はありません。<br/><br/>屏風も良い物はありません。<br/><br/>博物館が買う時分は、予算が足りないので思うような物が買えなかった、ということが品物に良く表われている。<br/><br/>しかし贋物はありません。<br/><br/>本物は本物ですが、その作者なら作者の傑作でなく、作者が画いたというだけの物で、非常にレベルが低いのです。<br/><br/>ただ雪舟の山水画は一番良い物ですが、あとはありません。<br/><br/>墨蹟なども数はあったが、あんまり感心した物はありません。<br/><br/>つまり買える時分に、国家の方で軍艦や兵器を造る方にうんと金を出して、ああいう方面には冷淡だったのです。<br/><br/>そんなわけで今もって予算が足りないのです。<br/><br/>それが良いか悪いか知らないが、われわれの方で買うことができるわけです。<br/><br/>敦煌の絵も、博物館で買わなかったので、アメリカに売ろうとするのを、その前に私の方に見せてくれたのです。<br/><br/>私の方で止せばあっちに行ったわけです。<br/><br/>そういうようで食い止めているわけです。<br/><br/>そういうようなことは当局の方でも知っているものだから、箱根美術館に対して好意を寄せてます。<br/><br/> 来年美術館が始まる早々浮世絵展覧会をやりますが、今度の京都の浮世絵展覧会よりも非常に上です。<br/><br/>それに私の方は肉筆の方を本位にしてますから、その点において世界一といっても良いと思います。<br/><br/>また不思議に神様は、その作者の一番良い物をチョッチョッと入れてくるのです。<br/><br/>実に人間業ではないということが分かります。<br/><br/>来年始まると分かります。<br/><br/>私も、今まで浮世絵というのはあんまり趣味をもってなかったが、近ごろ実に驚いているくらいです。<br/><br/> このごろどこの宗教でもみんな病院を作っているのですが、それについて書いてみたのです。<br/><br/>これなら分かるだろうと思って徹底して書いたつもりです。<br/><br/> （御論文「宗教と病院」）【栄光 一八一号】 それから注意したいことは、病気がすばらしく治るということをお医者さんが見てびっくりして、どうしてこんなに良く治った、ということを聞かれた場合に、はっきり言わない人があるのです。<br/><br/>それは、はっきり言うと無論お医者さんの感情を害する心配もありますし、それからなにかしら言い悪いとか、そういうきらいがあるのですが、以前そういう時もあるにはありましたが、今日はよほど違ってますから、そういう場合にははっきりと、メシヤ教の浄霊で治ったということを、できるだけ詳しくありのまま話さなければならない。<br/><br/>そうしてお医者さんに分からせるのです。<br/><br/>なるほど信仰で医学以上にこれほどの力がある、これは信仰も馬鹿にできない、考え直さなければならない、という心を起させる方が良いのです。<br/><br/>本当言うとお医者さんを分からせれば良いのです。<br/><br/>そうすれば一ぺんにミロクの世ができるのです。<br/><br/>そうして一般人に分かるのは徹底しないから遅いのです。<br/><br/>ですからお医者さんに分からせるということは、今言ったようにはっきりと、こっちが言うのは少しも間違いがないのですから、堂々と言った方が良い。<br/><br/>そうしてあっちでもこっちでも、どうも医学よりかメシヤ教の浄霊の方がずっと治るということを、お医者さん同士が話し合うとか、医学者の間にそういったことが評判になるというようにならなければならないのです。<br/><br/>ですから今度の『アメリカを救う』という本も、やっぱり医科大学とか大病院にも配るつもりです。<br/><br/>そうして医学者の方にも続々と分からせるというようにしたいと思います。<br/><br/>これはあるいはたいへんな問題になるかもしれませんが、人類を救うとしたらそういうことはやむを得ません。<br/><br/>それを通り越さなければ本当にできあがらないのです。<br/><br/>そうして間違った医学を是正する、改革するということは、一度はそういう難関を通り越さなければならないのです。<br/><br/>ですからその覚悟でだんだんやるつもりです。<br/><br/>ですから今のような場合は思いきって、言いにくいことでも言ってもらいたいと思います。<br/><br/>それから本当は日本の医学界に向かって爆弾を投げつけたのですが、それよりかむしろ、アメリカから分からせた方がずっと早く効果が大きいのです。<br/><br/>ちょうどアメリカの病人の多い報告を利用して『アメリカを救う』の本を書いたのです。<br/><br/>やっぱり神様はそういう遠まわしの手段を取られたわけです。<br/><br/> それから「東方の光」ということを昔から良く言われてますが、これを徹底的に書いておいたのです。<br/><br/> （御論文「東方の光」）【栄光 一八二号】 今読んだ通り、安房（あわ）の乾坤山（けんこんざん）日本寺（にほんじ）というお寺ですが、この日本寺は、保田という所にあるのです。<br/><br/>「ホタ」という言霊は「ホト」ということが転化したものです。<br/><br/>「ホト」というのは、女の陰部を昔は「ホト」と言ったのです。<br/><br/>これは『古事記』にあります。<br/><br/>天からなにか落ちてきて、その女の「ホト」を突いて、それからどうだということがあります。<br/><br/>そういうような意味で、房州というのは閨房（けいぼう）というわけです。<br/><br/>その「ホト」から生まれたわけです。<br/><br/>昼間の世界が生まれたわけです。<br/><br/>ということは、神様でいうと天照大御神様が生まれたわけです。<br/><br/>これはおもしろい神秘があるのです。<br/><br/>そうして私が六月十五日にその神事を行なって十五日の夜帰ってきて、明くる日に下駄屋の職人で海に飛び込んで死んだという話は先にしましたから分かっているでしょうが、それから三日目の、これも話したことがありますが、その当時そうとう有名だった森鳳声（ほうせい）という彫刻師が来て「自分は近ごろしきりに天照大御神の御尊像を彫刻したいと思っている。<br/><br/>それで自分のような彫刻師がそういう尊い像を作っても差し支えないものか」ということを、私の意見を聞きに来たのです。<br/><br/>それで私は「それは結構だ、大いにやりなさい」というので、それから彫り出したのです。<br/><br/>そうして中途で見てくれというので見てやったのですが「背中の模様をどうしたら良いか分からないから見てくれ」と言うので、私が「台を雲にして背中に丸くやれ」と言ったら「それで合う」と言ってました。<br/><br/>それから「丈はどのくらいか」と言うから、私は「五尺六寸七分の丈が良い」というので、五尺六寸七分にした。<br/><br/>それで半年くらいかかりましたができあがりました。<br/><br/>その森鳳声というのは大本教信者なのです。<br/><br/>それで私が先輩だからそういうことも私の意見を聞いたのです。<br/><br/>それでできあがって、大本教に献納したいというので、それは結構だと献納したのです。<br/><br/>その時、東京の和田堀に大本教の東京の別院で紫雲郷別院という、そこに出口先生が来られた時に献納したのです。<br/><br/>私は行って見ましたが、白布で巻いてあって、もったいなくないようにして床の間に飾ってありました。<br/><br/>それから間もなく大本教の本部の亀岡に持って行きました。<br/><br/>私は見なかったが、無論そこの一番良い所に飾ったものに違いありません。<br/><br/>その時に、紫雲郷別院に等身大の瀬戸物の観音様があったのですが、それがどういうものか一晩で首が欠けて取れたのです。<br/><br/>誰かがなにかを落としたか、ぶっつけたか実に不思議なのです。<br/><br/>人によっては随分気にしていたようです。<br/><br/>私もこれはなにかよほどのことがあるに違いない、ただごとではないと思ったのです。<br/><br/>というのはこういうわけです。<br/><br/>そのころ出口先生は、自分は観音の化身だと言って、始終観音様の絵を画いていたりした。<br/><br/>そうすると、その首が取れたということは、出口先生になにか禍があるに違いないというような意味になりますから、これは変だなと思っていたのです。<br/><br/>それがちょうど、日本寺に行ったのが六年六月ですから、六年の十二月あたりに献納したのです。<br/><br/>それから十年の十二月に大本教事件が起ったのです。<br/><br/>その首が取れたということは、その一つのお知らせになったわけです。<br/><br/>それからもう一つの神秘は、私以外には知らないのですが、出口先生は月の神様です。<br/><br/>素盞嗚尊です。<br/><br/>それで月の神様になります。<br/><br/>天照大御神を献納したということは、日が出たことだから、月が光を失うということになる。<br/><br/>そうして、大本教のお筆先に「大本は世界の型であるから、此の中を見て居りたら世界は何うなるという事は分るぞよ」というのがある。<br/><br/>そうしてみると天照大御神の「日」が現われて、月が光を失うということになるのです。<br/><br/>そういうことは私以外には分からないのですが、今の論文を書く時に想い出したのです。<br/><br/>各宗教で病気が治らなくなったということは、昭和六年六月十五日に今の御神事があってから治らなくなったのです。<br/><br/>私は先に天理教の人にその話をしたところが、ちょうど六年あたりから天理教でも病気が治らなくなったということを言ってました。<br/><br/>それでしかたがないというので各宗教で病院を作るようになった。<br/><br/>大体、天理教でも病気治しであれだけになったのですから、天理王（てんりおう）が病気が治らないということは、最初とはまるで違ってきたのです。<br/><br/>それからひとのみちでも金光教でも、みんな病気治しであれだけになったのです。<br/><br/>しかしそういう宗教がみんな病院を作ったのです。<br/><br/>天理教も立派な病院を作るし、ひとのみちでも作るし、この間は立正佼成会も立派な病院を作りました。<br/><br/>そういうようで、そうとう目立つ宗教としてはメシヤ教だけが病院を作らないのです。<br/><br/>それは昼になったために、他は全部月の宗教ですから、そこで治らなくなったというわけです。<br/><br/>はっきりしているのです。<br/><br/>それに引き換えてこっちはだんだん治り方が良くなるということは、日がだんだん昇って行くから、太陽の光が強くなるからなのです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>nihon33</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 日本文化の特異性 『光』43号、昭和25(1950)年1月1日発行 日本人諸君に対（むか）って大いに言いたい事がある、というのは、日本の国柄と日本人としての特異性である、これが心底まで判ったとしたら決して敗戦や亡国のような悲惨な運命にはならなかったのである、よく自分を知るという言葉があるがそれを推しひろめて自分の国を知らなくてはならない、昔のように鎖国時代ならともかく、現在のごとくすべてが世界的となり国際的となった以上、どうしても自分の国を知る事が肝腎である、すなわち我邦（わがくに）としてはいかなる役割をなすべきか充分知る事である。<br><br> 右のごとく日本の存在理由を認識出来なければ国家の大方針は確立されるはずはないのである、何よりも終戦までの日本を見ればよく分る、それまでは国内的には、軍閥と称する特権階級が絶対権力を揮って少数者の意図の下に勝手放題な政治が行われたのである、それがため一般民衆は権力者に対し、何らの発言権もなく、唯々諾々（いいだくだく）として奴隷化されていた事でこれは今なお記憶に新たなるところである、なるほど明治以来憲法を制定し、代議政体を作り、民意を尊重するかのように見せかけて、実は政権は少数者の手に握られついに無謀な戦争を惹き起したのである、ちょうど羊頭（ようとう）を掲げて狗肉（くにく）を売るのと同様である。<br><br> ここで、日本歴史を省りみてみよう、実にこの国は神武以来内乱の絶間がなかった、政治は全然武力に支配されてしまった、武士道の美名に隠れて個人としては殺人行為の優れたものが勲力を得、戦争の勝利者が時代の覇者たり得たのであった、以上のような暴力的太い線によって引きずられて来たのが、終戦までの日本であった、その太い線が敗戦という一大衝撃にあって、もろくもたち切られたのである、この意味を日本人全体が深く認識しなければ平和国家としての真の国策は生れないのであろう。<br><br> 右に対し重要なる事は日本の再認識である、というのは元来日本という国は吾々が常にいうところの封建的武力国家とはおよそ反対である平和的芸術国家でなくてはならない、それが日本に課せられたる天の使命である、したがって、再建日本という事をよく言うが、ただそれだけでは大した意味がない、文字通りとすれば軍備のなくなった民主的国家というだけである、それももちろん喜ぶべきではあるが実は世界に対し日本の特殊的役割を自覚し全人類の福祉により貢献すべきで、それが新日本としての真の役割である、吾らはその理由を順次かいてみる事にしよう。<br><br> まず何よりも日本国土の風光明媚なる点である、これは恐らく、世界に比を見ないであろう、外客が称讃の声も常に聞く所である、また気候においても春夏秋冬の四季が鮮明であるという事にも大きな意味がある、それは山川草木はもとより風致における絶えざる変化である、この四季については、先年高浜虚子氏が、世界漫遊後の言に徴（ちょう）しても明らかである、氏は「日本程四季のはっきりしている国は世界中どこにもない、俳句は四季を歌うのであるから日本以外の国では本当の俳句は出来ない」との事である、その他、草木、花卉、魚介の類に至るまで日本程種類の豊富な国はないといわれる。<br><br> 特に、日本人の特異性としては手指の器用である、という事は美術工芸に適しているという事で何よりの証拠は前述のごとくほとんど戦国時代の続いた過去をもつ日本が幾多の優れた美術が作られた事で、今においてもその卓越せる技巧に驚歎するのである。<br><br> 大体以上の理由によってみても日本及び日本人がいかなる使命を有するかはよく分るであろう、これを詮じつめれば日本全土を打って世界の公園たらしめ美術に対する撓（たゆ）まぬ努力によって最高標準にまで発達せしめるべきである、すなわち吾らの唱える観光事業と美術工芸の二大国策を樹立し、それに向かって邁進する事である、この結果として全人類に対し思想の向上に資するはもちろん、清新なる娯楽と慰安を与える事である、一言にしていえば高度の文化的芸術国家たらしめる事である。<br><br> 現在、全人類は戦争を恐れ平和をいかに欲求しているかは、今日程痛切なる時代はないと言ってもよかろう、吾々が常にいうごとく戦争の原因は人間に闘争心が多分に残っているからである、もちろん、闘争心とは野蛮思想に胚胎（はいたい）するのであるから、いわば口には文化を唱えながら実は野蛮性の脱皮はいまだしでこの解決の方法こそ人類の眼の向かうところを転換させる事である、その転換の目標こそ芸術であらねばならない、言い換えれば闘争という地獄世界を芸術という天国世界に転換させるのである、要するに恒久平和の実現は、武器の脅威で作るのは一時的でしかない、どうしても根本としては思想の革命である、思想の革命とは宗教と芸術以外決してない事を断言するのである。<br><br> 以上の意味において再建日本といわず再建新日本といいたいのであって、その国策としてはもちろん芸術化国家以外にないのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Missão Singular da Cultura Japonesa</h2>
 <p>Dirijo-me aos meus compatriotas, pois há algo de suma importância que desejo lhes transmitir, algo a respeito da índole nacional do Japão e da singularidade de seu povo. Se tivéssemos compreendido essa verdade em sua essência, jamais teríamos enfrentado um destino tão trágico como a derrota e a ruína da nação. Existe o adágio “conhece-te a ti mesmo”, e, por extensão, afirmo que é imprescindível conhecermos nossa própria pátria. Em uma era de isolamento, como outrora, talvez isso não fosse tão premente. Contudo, no mundo atual, onde tudo se tornou global e interligado, conhecer a fundo o próprio país é uma necessidade primordial. Em outras palavras, devemos ter plena consciência de qual é a missão que nos cabe desempenhar.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Com base nas razões expostas, a missão do Japão e de seu povo torna-se evidente. Consiste em transformar todo o arquipélago em um grande parque para o mundo e, por meio de um esforço incessante, elevar a arte ao seu mais alto padrão. Por conseguinte, devemos estabelecer as duas grandes políticas nacionais que preconizamos: o fomento ao turismo e o desenvolvimento das artes e ofícios. O resultado será contribuir para a elevação do pensamento de toda a humanidade, bem como para lhe oferecer entretenimento e consolo de natureza pura. Em uma palavra: torná-lo uma nação de elevada cultura e arte.</p>
 <p>Atualmente, a humanidade anseia pela paz e teme a guerra com uma intensidade jamais vista. A causa da guerra, como afirmamos constantemente, reside na belicosidade que ainda persiste no ser humano. Essa belicosidade, por sua vez, germina no solo do pensamento bárbaro. As pessoas professam a cultura com os lábios, mas, na realidade, ainda não se despiram de sua barbárie. A solução para tal impasse reside em redirecionar o foco da humanidade, e o alvo para o qual devemos convergir nosso olhar não pode ser outro senão a arte. Em outras palavras, trata-se de transmutar o mundo infernal do conflito no mundo celestial da arte. Em suma, a paz perpétua não se consolida sob a ameaça das armas, pois tal método é apenas temporário. A solução fundamental reside, impreterivelmente, em uma revolução do pensamento. E afirmo categoricamente que tal revolução só pode ser alcançada por meio da religião e da arte.</p>
 <p>É por essa razão que, em vez de falarmos simplesmente na reconstrução do Japão, preferimos nos referir à reconstrução de um novo Japão. E a política nacional para essa nova nação não pode ser outra senão a de sua plena realização como um Estado voltado para a arte.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 日本文化の特異性 『光』43号、昭和25(1950)年1月1日発行 日本人諸君に対（むか）って大いに言いたい事がある、というのは、日本の国柄と日本人としての特異性である、これが心底まで判ったとしたら決して敗戦や亡国のような悲惨な運命にはならなかったのである、よく自分を知るという言葉があるがそれを推しひろめて自分の国を知らなくてはならない、昔のように鎖国時代ならともかく、現在のごとくすべてが世界的となり国際的となった以上、どうしても自分の国を知る事が肝腎である、すなわち我邦（わがくに）としてはいかなる役割をなすべきか充分知る事である。<br/><br/> 右のごとく日本の存在理由を認識出来なければ国家の大方針は確立されるはずはないのである、何よりも終戦までの日本を見ればよく分る、それまでは国内的には、軍閥と称する特権階級が絶対権力を揮って少数者の意図の下に勝手放題な政治が行われたのである、それがため一般民衆は権力者に対し、何らの発言権もなく、唯々諾々（いいだくだく）として奴隷化されていた事でこれは今なお記憶に新たなるところである、なるほど明治以来憲法を制定し、代議政体を作り、民意を尊重するかのように見せかけて、実は政権は少数者の手に握られついに無謀な戦争を惹き起したのである、ちょうど羊頭（ようとう）を掲げて狗肉（くにく）を売るのと同様である。<br/><br/> ここで、日本歴史を省りみてみよう、実にこの国は神武以来内乱の絶間がなかった、政治は全然武力に支配されてしまった、武士道の美名に隠れて個人としては殺人行為の優れたものが勲力を得、戦争の勝利者が時代の覇者たり得たのであった、以上のような暴力的太い線によって引きずられて来たのが、終戦までの日本であった、その太い線が敗戦という一大衝撃にあって、もろくもたち切られたのである、この意味を日本人全体が深く認識しなければ平和国家としての真の国策は生れないのであろう。<br/><br/> 右に対し重要なる事は日本の再認識である、というのは元来日本という国は吾々が常にいうところの封建的武力国家とはおよそ反対である平和的芸術国家でなくてはならない、それが日本に課せられたる天の使命である、したがって、再建日本という事をよく言うが、ただそれだけでは大した意味がない、文字通りとすれば軍備のなくなった民主的国家というだけである、それももちろん喜ぶべきではあるが実は世界に対し日本の特殊的役割を自覚し全人類の福祉により貢献すべきで、それが新日本としての真の役割である、吾らはその理由を順次かいてみる事にしよう。<br/><br/> まず何よりも日本国土の風光明媚なる点である、これは恐らく、世界に比を見ないであろう、外客が称讃の声も常に聞く所である、また気候においても春夏秋冬の四季が鮮明であるという事にも大きな意味がある、それは山川草木はもとより風致における絶えざる変化である、この四季については、先年高浜虚子氏が、世界漫遊後の言に徴（ちょう）しても明らかである、氏は「日本程四季のはっきりしている国は世界中どこにもない、俳句は四季を歌うのであるから日本以外の国では本当の俳句は出来ない」との事である、その他、草木、花卉、魚介の類に至るまで日本程種類の豊富な国はないといわれる。<br/><br/> 特に、日本人の特異性としては手指の器用である、という事は美術工芸に適しているという事で何よりの証拠は前述のごとくほとんど戦国時代の続いた過去をもつ日本が幾多の優れた美術が作られた事で、今においてもその卓越せる技巧に驚歎するのである。<br/><br/> 大体以上の理由によってみても日本及び日本人がいかなる使命を有するかはよく分るであろう、これを詮じつめれば日本全土を打って世界の公園たらしめ美術に対する撓（たゆ）まぬ努力によって最高標準にまで発達せしめるべきである、すなわち吾らの唱える観光事業と美術工芸の二大国策を樹立し、それに向かって邁進する事である、この結果として全人類に対し思想の向上に資するはもちろん、清新なる娯楽と慰安を与える事である、一言にしていえば高度の文化的芸術国家たらしめる事である。<br/><br/> 現在、全人類は戦争を恐れ平和をいかに欲求しているかは、今日程痛切なる時代はないと言ってもよかろう、吾々が常にいうごとく戦争の原因は人間に闘争心が多分に残っているからである、もちろん、闘争心とは野蛮思想に胚胎（はいたい）するのであるから、いわば口には文化を唱えながら実は野蛮性の脱皮はいまだしでこの解決の方法こそ人類の眼の向かうところを転換させる事である、その転換の目標こそ芸術であらねばならない、言い換えれば闘争という地獄世界を芸術という天国世界に転換させるのである、要するに恒久平和の実現は、武器の脅威で作るのは一時的でしかない、どうしても根本としては思想の革命である、思想の革命とは宗教と芸術以外決してない事を断言するのである。<br/><br/> 以上の意味において再建日本といわず再建新日本といいたいのであって、その国策としてはもちろん芸術化国家以外にないのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

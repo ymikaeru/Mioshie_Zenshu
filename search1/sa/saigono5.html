@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>saigono5</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 最後の審判とは 『栄光』110号、昭和26(1951)年6月27日発行 最後の審判とは、キリストによって発せられた言葉であるが、それはいかなる時期に、いかなる形によって表われるかという事で、キリストはそれについて全然言われなかったから、今もって謎とされているのである。<br><br>特に基督（キリスト）者は長い間この謎を解こうとしていたのはもちろんだが、今もって誰も解き得ないようである。<br><br>何となれば、もし解き得る者が出たとしたら、その人はキリストと同じレベルの人か、またはそれ以上の人でなければならないからである。<br><br> ところが今私によって、この真諦（しんたい）を開明する事を得たのであるから、これを知った何人といえども驚異の眼を瞠（みは）らない訳にはゆかないであろう。<br><br>というのは、最後の審判に際し、その衝（しょう）に当るべき使命を神から与えられた私であるから、それは当然であろう。<br><br>そうして審判という文字だけをみると裁きという意味で、神様が裁判されるように想像されたり、閻魔（えんま）様が出現されるように思うであろうが、決してそうではない。<br><br>ではどういう訳かというと、一言にしていえば、世界的大浄化作用の事である。<br><br> 私は以前から霊界においては、今まで夜の世界であったのが、いよいよ昼の世界に転換する時になったという事を説いて来たが、それが如実に現れるのが最後の審判であって、しかも目捷（もくしょう）の間に迫って来ているのである。<br><br>これもかねて知らしてある通り、霊界においては一九三一年六月十五日を境に、徐々として昼に転換しつつあり、最後に到って、決定的大浄化作用が行われるのである。<br><br>もちろんその順序としては神界、幽界、現界というように、三段階になって進みつつあるが、本当の昼間になった時こそ、すなわち光明世界である。<br><br>これについてつい先頃、私は今年の六月十五日から、右の最後の段階である現界が、昼間になる最後の時にいよいよ一歩入るのである。<br><br>そうして今年から十年間に、光明世界すなわち地上天国の基礎が成立つ仕組になっている事を知るべきである。<br><br> 以上は大体をかいたのであるが、黎明（れいめい）から昼間になるまでには、もちろん漸進的ではあるが、確実に一歩一歩変化しつつある事は、信者諸君はよく知っているであろう。<br><br>何となれば霊界が昼間になるにつれて、浄化がドンドン強くなってゆくと共に、浄霊の効果も著しくなり、現に日に月に治り方が早くなる事や、奇蹟の多くなる等である。<br><br>信者諸君が一年前二年前の治り方と、現在と比べてみるとよく分るであろう。<br><br>このように浄化が段々強くなるにつれて、人類社会もそれに伴い、変化も激しくなるのである。<br><br>一切が光明に晒（さら）される以上、相応の理によって、汚れたる者は段々衰えてゆき、清き者は段々栄えてゆくというように、霊界の浄化の程度と同化される訳であるが、実はこれが重大問題である。<br><br>という訳はいよいよという時になると、いくら人間が頑張ってみても、大自然の力には抗する事が出来なくなるからで、善悪は判然と区別され悪は滅び、善は生き残る事となろう。<br><br> 右の理によって、罪穢の沢山ある人程、大浄化に耐える事が出来ず、永久にこの世をおさらばとなるより致し方ないが、それに引換え、善は易々と生き残り得るのであるから、どんな浄化が来ても、耐えられる程の状態に置かれていなければ安心出来ないのである。<br><br>従って最後の審判とは、罪穢の多い人は怖るべきであるが、少ない人はむしろ有難いのである。<br><br>何となれば最後の審判の後に来るもの、それはこの世の天国であって、歓喜の生活者となり得るからである。<br><br> それについて、本教の出現であるが、以上説いたごとく、審判を無事に切り抜け得る人間を、一人でも多く作るのが目的で、これが神の大愛であり、私に課せられた大使命でもある。<br><br>その唯一の方法としての浄霊であるから、浄霊とは独り病気を治すのみではない。<br><br>来るべき審判を無事に切り抜け得る資格者を作るのであるから、この仕事を知ったなら本教がいかに大きな救世的ノアの筥舟（はこぶね）であるかを認識されるであろう、本教の名が救世教と言うのも、右の理由に外ならないのである。<br><br>以上最後の審判の意味は、大体理解されたであろう。<br><br> (注) 衝（しょう）、通路。<br><br>重要な地点。<br><br>重要な立場。<br><br>大切な役目。<br><br> 目睫（もくしょう）、目とまつげ。<br><br>転じて、とても近いところ。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Significado do Juízo Final</h2>
 <p>O Juízo Final é uma expressão proferida por Cristo; contudo, a época e a forma como ele se manifestaria permaneceram um enigma até os nossos dias, pois Cristo nada revelou a esse respeito. Naturalmente, os cristãos há muito tentam decifrar este mistério, mas, ao que parece, ninguém jamais o conseguiu. A razão para tal é que, se alguém o decifrasse, essa pessoa teria de estar no mesmo nível de Cristo, ou até mesmo em um patamar superior.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Embora a transição da aurora para o pleno dia seja gradual, os senhores fiéis sabem bem que ela avança de forma contínua e segura, passo a passo. Isso porque, à medida que o Mundo Espiritual se torna diurno, a purificação se intensifica progressivamente. Com isso, os efeitos do Johrei tornam-se notáveis, as curas se aceleram dia após dia e os milagres se multiplicam. Os senhores fiéis podem constatar essa realidade ao comparar a eficácia das curas de hoje com as de um ou dois anos atrás. À medida que essa purificação se fortalece, a sociedade humana, por sua vez, passa por transformações cada vez mais intensas. Uma vez que tudo é exposto à Luz, pelo princípio da afinidade espiritual, aqueles que são impuros gradualmente declinarão, enquanto os puros prosperarão. Essa assimilação ao grau de purificação do Mundo Espiritual é, na verdade, uma questão da mais alta gravidade.</p>
 <p>Isso se deve ao fato de que, no momento decisivo, por mais que o ser humano se esforce, ser-lhe-á impossível resistir à força da Grande Natureza. O bem e o mal serão claramente distinguidos: o mal perecerá, e o bem sobreviverá. Por esse princípio, as pessoas com grande acúmulo de máculas e pecados não conseguirão suportar a grande purificação e não terão outra alternativa senão despedir-se deste mundo para sempre. Em contrapartida, os bons sobreviverão com facilidade. Portanto, não se pode ter tranquilidade a menos que se esteja em uma condição capaz de suportar qualquer purificação que venha a ocorrer. Nesse sentido, o Juízo Final é temível para os que possuem muitas máculas, mas para os que as têm em pouca quantidade, é, na verdade, uma bênção. Afinal, o que sucede ao Juízo Final é o Paraíso neste mundo, onde poderão viver uma existência de plena alegria.</p>
 <p>É nesse contexto que se insere o advento de nossa Igreja. Conforme expliquei, seu propósito é formar o maior número possível de pessoas capazes de atravessar o Juízo incólumes. Nisto residem o Grande Amor de Deus e a sublime missão que me foi confiada. O Johrei é o único método para tal, e sua atuação não se limita a curar doenças. Seu propósito maior é qualificar as pessoas para que transponham com segurança o Juízo vindouro. Ao compreender esta obra, será possível reconhecer a grandiosidade de nossa Igreja como uma Arca de Noé salvadora. O próprio nome de nossa Igreja, Sekaikyuseikyo — Igreja Messiânica Mundial —, não se deve a outra razão senão esta. Creio que, com o exposto, o significado do Juízo Final foi, em linhas gerais, compreendido.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 最後の審判とは 『栄光』110号、昭和26(1951)年6月27日発行 最後の審判とは、キリストによって発せられた言葉であるが、それはいかなる時期に、いかなる形によって表われるかという事で、キリストはそれについて全然言われなかったから、今もって謎とされているのである。<br/><br/>特に基督（キリスト）者は長い間この謎を解こうとしていたのはもちろんだが、今もって誰も解き得ないようである。<br/><br/>何となれば、もし解き得る者が出たとしたら、その人はキリストと同じレベルの人か、またはそれ以上の人でなければならないからである。<br/><br/> ところが今私によって、この真諦（しんたい）を開明する事を得たのであるから、これを知った何人といえども驚異の眼を瞠（みは）らない訳にはゆかないであろう。<br/><br/>というのは、最後の審判に際し、その衝（しょう）に当るべき使命を神から与えられた私であるから、それは当然であろう。<br/><br/>そうして審判という文字だけをみると裁きという意味で、神様が裁判されるように想像されたり、閻魔（えんま）様が出現されるように思うであろうが、決してそうではない。<br/><br/>ではどういう訳かというと、一言にしていえば、世界的大浄化作用の事である。<br/><br/> 私は以前から霊界においては、今まで夜の世界であったのが、いよいよ昼の世界に転換する時になったという事を説いて来たが、それが如実に現れるのが最後の審判であって、しかも目捷（もくしょう）の間に迫って来ているのである。<br/><br/>これもかねて知らしてある通り、霊界においては一九三一年六月十五日を境に、徐々として昼に転換しつつあり、最後に到って、決定的大浄化作用が行われるのである。<br/><br/>もちろんその順序としては神界、幽界、現界というように、三段階になって進みつつあるが、本当の昼間になった時こそ、すなわち光明世界である。<br/><br/>これについてつい先頃、私は今年の六月十五日から、右の最後の段階である現界が、昼間になる最後の時にいよいよ一歩入るのである。<br/><br/>そうして今年から十年間に、光明世界すなわち地上天国の基礎が成立つ仕組になっている事を知るべきである。<br/><br/> 以上は大体をかいたのであるが、黎明（れいめい）から昼間になるまでには、もちろん漸進的ではあるが、確実に一歩一歩変化しつつある事は、信者諸君はよく知っているであろう。<br/><br/>何となれば霊界が昼間になるにつれて、浄化がドンドン強くなってゆくと共に、浄霊の効果も著しくなり、現に日に月に治り方が早くなる事や、奇蹟の多くなる等である。<br/><br/>信者諸君が一年前二年前の治り方と、現在と比べてみるとよく分るであろう。<br/><br/>このように浄化が段々強くなるにつれて、人類社会もそれに伴い、変化も激しくなるのである。<br/><br/>一切が光明に晒（さら）される以上、相応の理によって、汚れたる者は段々衰えてゆき、清き者は段々栄えてゆくというように、霊界の浄化の程度と同化される訳であるが、実はこれが重大問題である。<br/><br/>という訳はいよいよという時になると、いくら人間が頑張ってみても、大自然の力には抗する事が出来なくなるからで、善悪は判然と区別され悪は滅び、善は生き残る事となろう。<br/><br/> 右の理によって、罪穢の沢山ある人程、大浄化に耐える事が出来ず、永久にこの世をおさらばとなるより致し方ないが、それに引換え、善は易々と生き残り得るのであるから、どんな浄化が来ても、耐えられる程の状態に置かれていなければ安心出来ないのである。<br/><br/>従って最後の審判とは、罪穢の多い人は怖るべきであるが、少ない人はむしろ有難いのである。<br/><br/>何となれば最後の審判の後に来るもの、それはこの世の天国であって、歓喜の生活者となり得るからである。<br/><br/> それについて、本教の出現であるが、以上説いたごとく、審判を無事に切り抜け得る人間を、一人でも多く作るのが目的で、これが神の大愛であり、私に課せられた大使命でもある。<br/><br/>その唯一の方法としての浄霊であるから、浄霊とは独り病気を治すのみではない。<br/><br/>来るべき審判を無事に切り抜け得る資格者を作るのであるから、この仕事を知ったなら本教がいかに大きな救世的ノアの筥舟（はこぶね）であるかを認識されるであろう、本教の名が救世教と言うのも、右の理由に外ならないのである。<br/><br/>以上最後の審判の意味は、大体理解されたであろう。<br/><br/> (注) 衝（しょう）、通路。<br/><br/>重要な地点。<br/><br/>重要な立場。<br/><br/>大切な役目。<br/><br/> 目睫（もくしょう）、目とまつげ。<br/><br/>転じて、とても近いところ。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

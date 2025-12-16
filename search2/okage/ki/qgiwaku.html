@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qgiwaku</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 疑惑の道開ける 追いつめられ救はれる 『救世』53号、昭和25(1950)年3月11日発行 愛媛県 陽光中教会 村上好美（27） この世の中を幸福に暮したいのは誰しも望むところであります。<br><br>私は私自身の愚かさを初めて知って恥しく想います。<br><br>だがしかし未だに自分自身の愚かさを知らざるものが少くは無いと推察致します。<br><br>そこでここに私達家族四人が御蔭を頂いて幸福の道へ歩まさせて頂いております体験の有りのままを記します。<br><br> さて五月一日夜、私は大洲町の「あけぼの」喫茶店にてカキとエビを友達と一緒に久し振りに大変おいしく食しました。<br><br>私は常に身体が健康でないため、食べた後で心配をしない事もなかったのですけれど、その店を出る時は元気で出ました。<br><br>それから次に二粁程帰るか帰らないうちに私は頭から冷水をかぶる想いがしたと思うと一、二分も経たない内に物凄くさし込んで来ました。<br><br>どうしても駄目なので、その時一緒に帰途中の友人が背をさすって親切にしてくれた甲斐もなく、痛みは増すばかりでした。<br><br>そこへ四、五人の青年が通り掛って直ぐに村医の家に苦しみながら運ばれました。<br><br>そうして注射を一本打ってもらい大分吾に返り、下剤薬を手にしてやっと自宅へ辿り着きました。<br><br>そうして早速この下剤を服用したけれど一滴も下剤の役目を果さず、それどころか考えても身の縮まる想いのする痛みが身に迫って参るばかり、それより十四日間、夜昼を問わず苦しみました。<br><br> この苦しみは体験しないと判らぬいうにいえない程です。<br><br>この間優しい村医に往診に来て貰いました。<br><br>又その都度「肝臓だから百日間痛み通しても死なないから元気を出せ」と力付けて頂きましたが、私はその痛みよりはむしろ死ぬ方がよほど楽だと思いました。<br><br> それから丁度十四日目に二本注射を打って貰いました。<br><br>その折どうしてか今までになく四時間もすやすやと寝入りました。<br><br>その時は私は知らないけれども母達は電報まで打って大騒ぎをしたらしく、目がさめると、またもや悪魔が攻めて来そうになりました。<br><br>そうしてその時母が力ある声で私に話掛けました。<br><br>「お前は親として責任を持たなければならぬ、もしお前がこの世から去るという事は親の子に対する責任が果されない事になる。<br><br>何んとしても命だけは取り止めなければならぬ。<br><br>それで光明如来様にお助けを頂け」と一心に勧めましたが、私はその時は医者も薬もすでに手が届かなくなっているのだから何かにすがらなくてはならない故、直ちにその道にすがるのが当然なのにそれでもそんな素直な気持にはなれませんでした。<br><br>そのような迷信に迷うまいと固く心に誓っていたからです。<br><br> それからいよいよ益々注射をしついに金も使い果し、増すものは悪魔の責苦のみで一人淋しく目を瞑り空想に耽っておりました。<br><br>その時目に浮んだのは私の村の橋本さんのお宅で大松先生が手を振っておられる姿でした。<br><br> しかしながらこの科学の発達した世にあのような事で絶対に科学に勝てる筈はないと疑っておりましたが、余りにも強い母の心に溶かされて疑いつつも隣村である新谷村の松徳さんの御宅にお願し早速来て頂いたのが松徳金吉先生で御歳十七歳でした。<br><br>先生が到着された際は私は烈しく痛み苦しんでいました。<br><br>早速訳の解らないままに手を振って貰いました。<br><br>すると不思議にも十分間もするかしないうちに薄紙をめくるように少しずつ痛みは逃げ出しました。<br><br>その時私は別世界へでも行っているような気がして全く生れて初めて驚きました。<br><br>又次に驚いた事には松徳先生の御家での御祭に招待されその御祭の朝、またも苦しみましたけれども大松先生の御参上を聞きリヤカーに乗って訪れました。<br><br> そうしてその席上で早速大松先生が光明如来様の御前にて手を振られました。<br><br>そうすると今まで苦しんでいた私が五分も経たないうちにすっかり楽になってしまいました。<br><br>そこで先生が仰言るには「身体に悪いから御飯を食べなさい」と言われました。<br><br>私はすっかり驚きました。<br><br>驚くはずです。<br><br>今までリンゴの汁を飲んですら苦しんでいたのに、ましてや御飯となると驚いたのは無理もありません。<br><br>そこで先生は御飯を持っていらっしゃいました。<br><br>そうしてまた仰言るには「光明如来様のおさがりだから絶対に大丈夫だよ」といわれました。<br><br>でもそれを見ると見るからに恐ろしい天婦羅、カマボコ、豆類でした。<br><br>けれども命令だと思って食べました。<br><br>この時は十八日間見た事もない御飯、本当に二十七年間初めて御飯の有難さがしみじみと身にしみました。<br><br>それからというものは一杯の御飯が咽喉を越すようになって参りました。<br><br>またこれと同時に小川先生に私のような者が先生自身に御浄霊を賜わり何ともこれに換るべき御礼が出来ない程有難く思いました。<br><br> 次に五月二十七日一時頃急に下痢の模様があるので便所へ行ったところ、真黒な菌毒が流れ出ました。<br><br>それからは又一層と調子良くなり今では病気以前よりもずっと健康になりました。<br><br> このような事で全く私は自分自身が自分の身体だけでなく幸福の道を殺していました。<br><br>反省して見るからに全く馬鹿男でした。<br><br>現在では御光もお受けしてなお一層家庭的にも社交的にも希望に満ち、はつ剌と一歩一歩強く歩んでおります、故に私は及ばずながらも陽光中教会の一員として加えて頂き諸先生の御指導の下に一生懸命に御恩奉謝の念をもってより良き日本を再建する為に光明如来様にお仕えさせて頂きつつあります。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Despertar da Dúvida e a Salvação no Limite</h2>
 <p><em>Publicado na revista "Kyusei", nº 53, em 11 de março de 1950</em>
@@ -101,5 +256,48 @@ function toggleLang(lang) {
 <p>Assim que cheguei, o Ministro Omatsu postou-se diante do altar de Komyo Nyorai-Sama e começou a mover as mãos em minha direção. E, em menos de cinco minutos, eu, que até aquele momento me debatia em sofrimento, senti um alívio completo. Em seguida, o ministro disse: “Faz mal ao corpo não se alimentar. Coma um pouco”. Fiquei absolutamente perplexo. E com razão! Se até mesmo o suco de uma maçã me causava dor, era natural que a ideia de comer arroz me parecesse assustadora. O ministro então me trouxe uma porção de arroz e disse: “Esta é uma oferenda de Komyo Nyorai-Sama. Pode comer, não lhe fará mal algum”. Contudo, ao olhar o prato, vi alimentos que me pareciam aterradores: tempura, kamaboko e legumes. Ainda assim, encarei como uma ordem e comi. Naquele momento, diante daquele arroz que eu não via há dezoito dias, senti, pela primeira vez em meus vinte e sete anos de vida, uma profunda e sincera gratidão por uma simples refeição. A partir de então, voltei a ser capaz de engolir uma tigela de arroz. Simultaneamente, sentia uma gratidão imensurável por ter recebido Johrei do próprio Ministro Ogawa, um sentimento para o qual não encontro palavras de agradecimento à altura.</p>
 <p>Posteriormente, no dia 27 de maio, por volta da uma da tarde, senti uma súbita necessidade de ir ao banheiro, onde eliminei uma grande quantidade de toxinas de coloração enegrecida. Após esse episódio, minha condição melhorou ainda mais, e hoje desfruto de uma saúde muito superior à que tinha antes de adoecer.</p>
 <p>Diante de tudo isso, compreendi que eu mesmo estava destruindo não apenas meu corpo, mas também meu próprio caminho para a felicidade. Refletindo sobre o passado, reconheço a minha grande tolice. Atualmente, tendo recebido o Ohikari (御光), sinto-me ainda mais pleno de esperança, tanto na vida familiar quanto na social, e caminho com passos firmes e vigorosos. Por essa razão, embora me sinta indigno, fui acolhido como membro da Igreja Yoko-chu e, sob a orientação dos ministros, com um profundo sentimento de gratidão por esta graça, dedico-me a servir a Komyo Nyorai-Sama com o objetivo de colaborar na reconstrução de um Japão melhor.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 疑惑の道開ける 追いつめられ救はれる 『救世』53号、昭和25(1950)年3月11日発行 愛媛県 陽光中教会 村上好美（27） この世の中を幸福に暮したいのは誰しも望むところであります。<br/><br/>私は私自身の愚かさを初めて知って恥しく想います。<br/><br/>だがしかし未だに自分自身の愚かさを知らざるものが少くは無いと推察致します。<br/><br/>そこでここに私達家族四人が御蔭を頂いて幸福の道へ歩まさせて頂いております体験の有りのままを記します。<br/><br/> さて五月一日夜、私は大洲町の「あけぼの」喫茶店にてカキとエビを友達と一緒に久し振りに大変おいしく食しました。<br/><br/>私は常に身体が健康でないため、食べた後で心配をしない事もなかったのですけれど、その店を出る時は元気で出ました。<br/><br/>それから次に二粁程帰るか帰らないうちに私は頭から冷水をかぶる想いがしたと思うと一、二分も経たない内に物凄くさし込んで来ました。<br/><br/>どうしても駄目なので、その時一緒に帰途中の友人が背をさすって親切にしてくれた甲斐もなく、痛みは増すばかりでした。<br/><br/>そこへ四、五人の青年が通り掛って直ぐに村医の家に苦しみながら運ばれました。<br/><br/>そうして注射を一本打ってもらい大分吾に返り、下剤薬を手にしてやっと自宅へ辿り着きました。<br/><br/>そうして早速この下剤を服用したけれど一滴も下剤の役目を果さず、それどころか考えても身の縮まる想いのする痛みが身に迫って参るばかり、それより十四日間、夜昼を問わず苦しみました。<br/><br/> この苦しみは体験しないと判らぬいうにいえない程です。<br/><br/>この間優しい村医に往診に来て貰いました。<br/><br/>又その都度「肝臓だから百日間痛み通しても死なないから元気を出せ」と力付けて頂きましたが、私はその痛みよりはむしろ死ぬ方がよほど楽だと思いました。<br/><br/> それから丁度十四日目に二本注射を打って貰いました。<br/><br/>その折どうしてか今までになく四時間もすやすやと寝入りました。<br/><br/>その時は私は知らないけれども母達は電報まで打って大騒ぎをしたらしく、目がさめると、またもや悪魔が攻めて来そうになりました。<br/><br/>そうしてその時母が力ある声で私に話掛けました。<br/><br/>「お前は親として責任を持たなければならぬ、もしお前がこの世から去るという事は親の子に対する責任が果されない事になる。<br/><br/>何んとしても命だけは取り止めなければならぬ。<br/><br/>それで光明如来様にお助けを頂け」と一心に勧めましたが、私はその時は医者も薬もすでに手が届かなくなっているのだから何かにすがらなくてはならない故、直ちにその道にすがるのが当然なのにそれでもそんな素直な気持にはなれませんでした。<br/><br/>そのような迷信に迷うまいと固く心に誓っていたからです。<br/><br/> それからいよいよ益々注射をしついに金も使い果し、増すものは悪魔の責苦のみで一人淋しく目を瞑り空想に耽っておりました。<br/><br/>その時目に浮んだのは私の村の橋本さんのお宅で大松先生が手を振っておられる姿でした。<br/><br/> しかしながらこの科学の発達した世にあのような事で絶対に科学に勝てる筈はないと疑っておりましたが、余りにも強い母の心に溶かされて疑いつつも隣村である新谷村の松徳さんの御宅にお願し早速来て頂いたのが松徳金吉先生で御歳十七歳でした。<br/><br/>先生が到着された際は私は烈しく痛み苦しんでいました。<br/><br/>早速訳の解らないままに手を振って貰いました。<br/><br/>すると不思議にも十分間もするかしないうちに薄紙をめくるように少しずつ痛みは逃げ出しました。<br/><br/>その時私は別世界へでも行っているような気がして全く生れて初めて驚きました。<br/><br/>又次に驚いた事には松徳先生の御家での御祭に招待されその御祭の朝、またも苦しみましたけれども大松先生の御参上を聞きリヤカーに乗って訪れました。<br/><br/> そうしてその席上で早速大松先生が光明如来様の御前にて手を振られました。<br/><br/>そうすると今まで苦しんでいた私が五分も経たないうちにすっかり楽になってしまいました。<br/><br/>そこで先生が仰言るには「身体に悪いから御飯を食べなさい」と言われました。<br/><br/>私はすっかり驚きました。<br/><br/>驚くはずです。<br/><br/>今までリンゴの汁を飲んですら苦しんでいたのに、ましてや御飯となると驚いたのは無理もありません。<br/><br/>そこで先生は御飯を持っていらっしゃいました。<br/><br/>そうしてまた仰言るには「光明如来様のおさがりだから絶対に大丈夫だよ」といわれました。<br/><br/>でもそれを見ると見るからに恐ろしい天婦羅、カマボコ、豆類でした。<br/><br/>けれども命令だと思って食べました。<br/><br/>この時は十八日間見た事もない御飯、本当に二十七年間初めて御飯の有難さがしみじみと身にしみました。<br/><br/>それからというものは一杯の御飯が咽喉を越すようになって参りました。<br/><br/>またこれと同時に小川先生に私のような者が先生自身に御浄霊を賜わり何ともこれに換るべき御礼が出来ない程有難く思いました。<br/><br/> 次に五月二十七日一時頃急に下痢の模様があるので便所へ行ったところ、真黒な菌毒が流れ出ました。<br/><br/>それからは又一層と調子良くなり今では病気以前よりもずっと健康になりました。<br/><br/> このような事で全く私は自分自身が自分の身体だけでなく幸福の道を殺していました。<br/><br/>反省して見るからに全く馬鹿男でした。<br/><br/>現在では御光もお受けしてなお一層家庭的にも社交的にも希望に満ち、はつ剌と一歩一歩強く歩んでおります、故に私は及ばずながらも陽光中教会の一員として加えて頂き諸先生の御指導の下に一生懸命に御恩奉謝の念をもってより良き日本を再建する為に光明如来様にお仕えさせて頂きつつあります。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>saij2001</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 祭事篇 第二篇 １ 001-006 観音様 001 御開眼御像の祭り方 光明如来様の前に大黒様と木像の観音様をお祀り致したいと思いますが、位置並に御祀りする方法について御教え下さい。<br><br> 台をして、観音様の方を高くする。<br><br>（S24. 1. 7） 002 開眼の観音像、仏壇への祭り方 御開眼して戴いた観音様を仏壇に御祀りして差支ないでしょうか、またその場合屏風観音様と両方を御祀りする時、その祀り方をいかにしたらよいでしょうか、御伺い申し上げます。<br><br> 屏風を一番上に、次が開眼の御像を置く。<br><br>（S24. 9.28） 003 損傷ある観音像 観音様の御像がよく災難の身替りに立たれ御姿の御手や御足等が損じておらるるものを御祭りしている人が、御屏風観音様を御祭りされた場合この御像はどう致したら宜敷う御座いましょうか。<br><br>御伺い申し上げます。<br><br> 損じている所を治すといい。<br><br>損じている所は非常にイヤがられる。<br><br> 焼物の観音様は困る。<br><br>それは、木彫の観音様にお移り願いますと、お願いするとよい。<br><br>（S24. 7.12） 004 木彫観音様礼拝 礼拝の仕方について （イ）御神体の直前に御開眼を頂いた木彫の観音様をお祀り致しておりますがこれは宜しいでしょうか。<br><br> （ロ）もし宜しいのでしたら礼拝の際御神体を拝する事によりこの観音様にも一緒に敬意を表わしている、との考えから特に観音像には礼拝しておりませんが宜しいものでしょうか。<br><br> （ハ）ただこの場合大黒様には礼拝して観音像には礼拝しない事がちょっと感じますがどうでしょうか。<br><br> （イ）光明如来様おかけしてその前に安置して差支えない。<br><br> （ロ）それでよい。<br><br>一緒に礼拝する意味になる。<br><br> （ハ）構わない。<br><br>光明如来様も木彫の観音様も同じものであるが大黒様は別である。<br><br> rattail（注） 〔 御光話（S24年 6月13日） 『御光話録』12号、昭和24(1949)年9月21日発行〕掲載 005 観音堂へ祭る観音像へ御開眼 家の近くに金無垢の馬頭観音様の御像をお祭りした堂があり、先祖より代々私の家で奉仕しておりましたが、以前その御像が盗難に逢い、今は阿弥陀様のお姿を御祭りしてありますので、今度観音様の御像に開眼して戴き御祭り致したいと思いますが、どのような観音様を御祭り致したら宜敷いでしょうか。<br><br>御教示願います。<br><br> 心掛けていればすぐに来る。<br><br>無理に探す要はない。<br><br>しかし観音様は光明如来様になっているし、阿弥陀様も帰るし、恐らく祀る要はない。<br><br>また来ないであろう。<br><br>（S24. 6. 6） 006 焼物の入霊 酒乱の夫治癒す――。<br><br> 床に狸の木彫像ありき、その処置いかにすべきや。<br><br> 狸像は床の間の上にのせておけばよい。<br><br>あるいはそうすると狸は苦しいかもしれぬがそういう場合は、また変った事が起るだろうから、そしたら外へ祭ればよい。<br><br> 私は焼物には霊を入れぬ事にしている。<br><br>全然入らぬ事はないが非常に入り難くあまり効果的でない。<br><br>故に観音様の焼物は撤去してもよし。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Compilação dos Tratados do Mestre Okada Jikanshi — Rituais e Cerimônias, Volume II, Parte 1 (001-006): A Divindade Kannon</h2>
 <p><strong>001 A Disposição Correta para as Imagens Sagradas</strong></p>
@@ -115,5 +267,48 @@ function toggleLang(lang) {
 <p>Após a cura do alcoolismo de um marido, surge a questão sobre como proceder com uma estátua de madeira de um <em>tanuki</em> que se encontrava na alcova da casa.</p>
 <p>A imagem do <em>tanuki</em> pode permanecer sobre a alcova. Todavia, caso o espírito que a habita se sinta aflito nessa posição, fenômenos incomuns poderão ocorrer. Se isso acontecer, o mais prudente será entronizá-la do lado de fora da residência.</p>
 <p>Quanto a objetos de cerâmica, adotei como princípio não realizar a impregnação de espíritos. Embora não seja absolutamente impossível, o processo é extremamente difícil e de pouca eficácia. Por essa razão, as imagens da divindade Kannon (観音) feitas de cerâmica podem ser devidamente removidas.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 祭事篇 第二篇 １ 001-006 観音様 001 御開眼御像の祭り方 光明如来様の前に大黒様と木像の観音様をお祀り致したいと思いますが、位置並に御祀りする方法について御教え下さい。<br/><br/> 台をして、観音様の方を高くする。<br/><br/>（S24. 1. 7） 002 開眼の観音像、仏壇への祭り方 御開眼して戴いた観音様を仏壇に御祀りして差支ないでしょうか、またその場合屏風観音様と両方を御祀りする時、その祀り方をいかにしたらよいでしょうか、御伺い申し上げます。<br/><br/> 屏風を一番上に、次が開眼の御像を置く。<br/><br/>（S24. 9.28） 003 損傷ある観音像 観音様の御像がよく災難の身替りに立たれ御姿の御手や御足等が損じておらるるものを御祭りしている人が、御屏風観音様を御祭りされた場合この御像はどう致したら宜敷う御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 損じている所を治すといい。<br/><br/>損じている所は非常にイヤがられる。<br/><br/> 焼物の観音様は困る。<br/><br/>それは、木彫の観音様にお移り願いますと、お願いするとよい。<br/><br/>（S24. 7.12） 004 木彫観音様礼拝 礼拝の仕方について （イ）御神体の直前に御開眼を頂いた木彫の観音様をお祀り致しておりますがこれは宜しいでしょうか。<br/><br/> （ロ）もし宜しいのでしたら礼拝の際御神体を拝する事によりこの観音様にも一緒に敬意を表わしている、との考えから特に観音像には礼拝しておりませんが宜しいものでしょうか。<br/><br/> （ハ）ただこの場合大黒様には礼拝して観音像には礼拝しない事がちょっと感じますがどうでしょうか。<br/><br/> （イ）光明如来様おかけしてその前に安置して差支えない。<br/><br/> （ロ）それでよい。<br/><br/>一緒に礼拝する意味になる。<br/><br/> （ハ）構わない。<br/><br/>光明如来様も木彫の観音様も同じものであるが大黒様は別である。<br/><br/> rattail（注） 〔 御光話（S24年 6月13日） 『御光話録』12号、昭和24(1949)年9月21日発行〕掲載 005 観音堂へ祭る観音像へ御開眼 家の近くに金無垢の馬頭観音様の御像をお祭りした堂があり、先祖より代々私の家で奉仕しておりましたが、以前その御像が盗難に逢い、今は阿弥陀様のお姿を御祭りしてありますので、今度観音様の御像に開眼して戴き御祭り致したいと思いますが、どのような観音様を御祭り致したら宜敷いでしょうか。<br/><br/>御教示願います。<br/><br/> 心掛けていればすぐに来る。<br/><br/>無理に探す要はない。<br/><br/>しかし観音様は光明如来様になっているし、阿弥陀様も帰るし、恐らく祀る要はない。<br/><br/>また来ないであろう。<br/><br/>（S24. 6. 6） 006 焼物の入霊 酒乱の夫治癒す――。<br/><br/> 床に狸の木彫像ありき、その処置いかにすべきや。<br/><br/> 狸像は床の間の上にのせておけばよい。<br/><br/>あるいはそうすると狸は苦しいかもしれぬがそういう場合は、また変った事が起るだろうから、そしたら外へ祭ればよい。<br/><br/> 私は焼物には霊を入れぬ事にしている。<br/><br/>全然入らぬ事はないが非常に入り難くあまり効果的でない。<br/><br/>故に観音様の焼物は撤去してもよし。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

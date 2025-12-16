@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>mukisit2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 無機質界 未発表『文明の創造』昭和27(1952)年執筆 ここで、いよいよ細菌発生の原理とその順序をかいてみるが、そもそも細菌という有機物は、現在最も進歩した原〔電〕子顕微鏡でも、六万倍までしか見えないとされており、これが現在までの限度ではあるが、無論極点ではない。<br><br>いずれの日か顕微鏡の発達は、超微生物までをも捕捉出来るようになる事は予想されるが、問題はただその時期である。<br><br>まず現在の程度から推しても、ずっと先の事と見ねばなるまい。<br><br> そうして科学の現在であるが、唯物的に見れば最早その極点にまで達しており、次の世界であるところの無機質界の一歩手前まで来ていて、大きな壁に突き当っているという状態にあるという事だ。<br><br>従ってその壁を突き破ってしまえばいいのであるが、実はそれが容易ではない。<br><br>ところがたとえ壁を突き破り得てもその先が問題である。<br><br>というのはその先こそ唯物科学では到底捕捉する事の出来ない、言わば無に等しい世界であるからである。<br><br> それについては、彼の湯川博士の中間子論であるが、もちろん同博士は、理論物理学専攻の学者であるから、最初理論によって中間子の存在を発表したところ、たまたま他の学者が宇宙線を写真に撮影しようとした際、中間子である幾つかの素粒子が乾板（かんぱん）に印影されたので、ここに博士の理論は、実験的に確認された訳である。<br><br>つまり実験物理学によって裏付けされたので、ノーベル賞獲得となったので、これは普（あまね）く知られている通りである。<br><br>ところが私の唱える説も理論神霊学であると共に、この応用によって素晴らしい治病の効果を挙げているのであるから、実験神霊学としての立派な裏付けも完成しているのである。<br><br>としたら科学的に言ってもいかに大なる発見であるかが分るであろう。<br><br> これを一層判り易く言えば、唯物科学の到達し得たところの極致点が、現在の原子科学であるとしたら、その次の存在であるところの世界、すなわち私の唱える無機質界が明らかにされたのであるから、科学上から言っても実に画期的一大進歩と言えよう。<br><br>そうしてこの世界こそさきに述べたごとく、科学と神霊との繋りの存在であって、今ここに説くところのこの文は、つまり科学界と神霊界との中間にある空白を充填した訳である。<br><br>実にこの空白こそ今日まで科学者も、哲学者も、宗教家も知らんとして知り得なかったところの、神秘的謎の世界であったのである。<br><br>もちろん以前から知識人の誰もが心の奥深く内在していたところの、真理探求の的そのものが、いよいよここに暴かれたのであって、長い間の理想の夢が実現されたのである。<br><br>しかし文化の進歩は、いつの日かはこの神秘境にまで到達されなければならない事は、誰も予想していたに違いないが、多くの人達は無論科学の進歩によるとしか想っていなかった事も肯けるが、意外にもその予想は裏切られ、私という宗教家によって発見されたのである。<br><br>けれども単に捉えただけでは何らの意味もなさないが、要はそれを活用し、普く人類の福祉に役立たせてこそ、初めて大なる意義を生ずるのであるが、この事も期待に外れず、病患の九十パーセント以上は完全に治癒されると共に、人間寿齢の延長までも可能となったのである。<br><br> 以上のごとく、この大発見によって、人類に与える恩恵は、到底言葉や文字で表わす事は出来得まい。<br><br>従ってこの事が世界人類に普く知れ渡った暁、現代文明は一大転換を捲き起し、人類史上空前の一新紀元を画（かく）する事となろう。<br><br>ここに到っては最早科学も宗教もない、否、科学でもあり、宗教でもあり、いまだ人類の経験にも、想像にも無かったところの、真の文明時代出現となるのであろう事は、断言して憚らないのである。<br><br>さていよいよ無機質界と物質界との関係に移るとしよう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Elo entre a Ciência e o Mundo Espiritual</h2>
 <p>Neste ponto, passarei a elucidar o princípio e a ordem da geração das bactérias. Primeiramente, é preciso considerar que a matéria orgânica conhecida como bactéria, mesmo com os mais avançados microscópios eletrônicos, só pode ser observada com uma ampliação de até sessenta mil vezes. Embora este seja o limite da tecnologia atual, de modo algum representa o ponto máximo do que é possível conhecer.</p>
@@ -105,5 +257,48 @@ function toggleLang(lang) {
 <p>Diante do exposto, os benefícios que esta grandiosa descoberta proporciona à humanidade são impossíveis de serem expressos em palavras ou na escrita. Quando este conhecimento se difundir por todo o mundo, a civilização contemporânea passará por uma grande transformação, marcando o início de uma nova era sem precedentes na história da humanidade.</p>
 <p>Nesse ponto, não haverá mais distinção entre ciência e religião; ou antes, será ao mesmo tempo ciência e religião, dando origem a uma era de verdadeira civilização, algo que a humanidade jamais experienciou ou sequer imaginou. Ouso afirmar isto sem qualquer hesitação.</p>
 <p>Passemos, agora, à relação entre o mundo inorgânico e o mundo material.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 無機質界 未発表『文明の創造』昭和27(1952)年執筆 ここで、いよいよ細菌発生の原理とその順序をかいてみるが、そもそも細菌という有機物は、現在最も進歩した原〔電〕子顕微鏡でも、六万倍までしか見えないとされており、これが現在までの限度ではあるが、無論極点ではない。<br/><br/>いずれの日か顕微鏡の発達は、超微生物までをも捕捉出来るようになる事は予想されるが、問題はただその時期である。<br/><br/>まず現在の程度から推しても、ずっと先の事と見ねばなるまい。<br/><br/> そうして科学の現在であるが、唯物的に見れば最早その極点にまで達しており、次の世界であるところの無機質界の一歩手前まで来ていて、大きな壁に突き当っているという状態にあるという事だ。<br/><br/>従ってその壁を突き破ってしまえばいいのであるが、実はそれが容易ではない。<br/><br/>ところがたとえ壁を突き破り得てもその先が問題である。<br/><br/>というのはその先こそ唯物科学では到底捕捉する事の出来ない、言わば無に等しい世界であるからである。<br/><br/> それについては、彼の湯川博士の中間子論であるが、もちろん同博士は、理論物理学専攻の学者であるから、最初理論によって中間子の存在を発表したところ、たまたま他の学者が宇宙線を写真に撮影しようとした際、中間子である幾つかの素粒子が乾板（かんぱん）に印影されたので、ここに博士の理論は、実験的に確認された訳である。<br/><br/>つまり実験物理学によって裏付けされたので、ノーベル賞獲得となったので、これは普（あまね）く知られている通りである。<br/><br/>ところが私の唱える説も理論神霊学であると共に、この応用によって素晴らしい治病の効果を挙げているのであるから、実験神霊学としての立派な裏付けも完成しているのである。<br/><br/>としたら科学的に言ってもいかに大なる発見であるかが分るであろう。<br/><br/> これを一層判り易く言えば、唯物科学の到達し得たところの極致点が、現在の原子科学であるとしたら、その次の存在であるところの世界、すなわち私の唱える無機質界が明らかにされたのであるから、科学上から言っても実に画期的一大進歩と言えよう。<br/><br/>そうしてこの世界こそさきに述べたごとく、科学と神霊との繋りの存在であって、今ここに説くところのこの文は、つまり科学界と神霊界との中間にある空白を充填した訳である。<br/><br/>実にこの空白こそ今日まで科学者も、哲学者も、宗教家も知らんとして知り得なかったところの、神秘的謎の世界であったのである。<br/><br/>もちろん以前から知識人の誰もが心の奥深く内在していたところの、真理探求の的そのものが、いよいよここに暴かれたのであって、長い間の理想の夢が実現されたのである。<br/><br/>しかし文化の進歩は、いつの日かはこの神秘境にまで到達されなければならない事は、誰も予想していたに違いないが、多くの人達は無論科学の進歩によるとしか想っていなかった事も肯けるが、意外にもその予想は裏切られ、私という宗教家によって発見されたのである。<br/><br/>けれども単に捉えただけでは何らの意味もなさないが、要はそれを活用し、普く人類の福祉に役立たせてこそ、初めて大なる意義を生ずるのであるが、この事も期待に外れず、病患の九十パーセント以上は完全に治癒されると共に、人間寿齢の延長までも可能となったのである。<br/><br/> 以上のごとく、この大発見によって、人類に与える恩恵は、到底言葉や文字で表わす事は出来得まい。<br/><br/>従ってこの事が世界人類に普く知れ渡った暁、現代文明は一大転換を捲き起し、人類史上空前の一新紀元を画（かく）する事となろう。<br/><br/>ここに到っては最早科学も宗教もない、否、科学でもあり、宗教でもあり、いまだ人類の経験にも、想像にも無かったところの、真の文明時代出現となるのであろう事は、断言して憚らないのである。<br/><br/>さていよいよ無機質界と物質界との関係に移るとしよう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

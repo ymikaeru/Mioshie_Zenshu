@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s290412a</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 関西 巡教 御講話 （S29年4月12日） 『御教え集』33号、昭和29(1954)年5月15日発行 昭和二十九年四月十二日（奈良県公会堂において） 時間がないため言いたいことを全部話すのは無理なような感じがするので、ごく要点だけをお話ししましょう。<br><br> 今世界中で一番問題にされているのは、みんな知っているとおり水素爆弾です。<br><br>水素爆弾というものも、無論神様がやられているのですが、いったいどういうわけでああいう恐ろしい気味の悪いものをこしらえられたかということについて、ザッとお話ししたいと思います。<br><br>宗教のお話は、科学のもっとも先端のことをお話しするのですから、随分矛盾した話ですが、そういうふうに思うのは、いかに世の中が科学一点張りかということが分かるのです。<br><br>本当を言えば、神様のやられることが最先端なので、科学の方が後をついてゆくというのが本当なのです。<br><br>先端を神様が言っているということを知らせる人も、お話しする人もないから、今まで分からなかったというわけです。<br><br>それについて気のついたのは、最近アメリカの方で、私の著書をだいぶ調べて、その中で、無論『アメリカを救う』なども調べているそうですが、それから私の書いたものの中に「原爆恐るるに足らず」というのがありましたが、それに注目して、アメリカの人から“たいへんなことを言っている、救世教の実体を一度調査するように”との依頼を、日本に支社のある英字雑誌で『アジア・シーン』というのがあります。<br><br>そこにアメリカの本社から通知があって、ぜひ私に会っていろいろ聞きたいと言うので、十五日に『アジア・シーン』の記者と面会することになりました。<br><br>それで私は気がついたのですが、一番知りたいと思うことは水素爆弾のことです。<br><br>というのは、あれほど恐ろしいものはないです。<br><br>あれが出たのは神様の御意志、というよりも人類に対する働きです。<br><br>それはどういう意味かということなのです。<br><br>私が書いたのは「原爆恐るるに足らず」ですが、その時は水素爆弾は出てなかったのです。<br><br>現に原子爆弾のときには、信者さんでそれに遭ってお蔭をいただいた人があるのですから、その実際の報告によって充分証明ができるから出したのです。<br><br>ところが水素爆弾はたいへんな違いです。<br><br>水素爆弾は原爆の何倍とか、いろいろな発表がありました。<br><br>何十倍、何百倍とか、二千倍というのもありましたが、本当はまだ分からないようです。<br><br>この間のビキニでの水爆実験の結果、学者も意外だと言うくらいですから、科学者が予想以上だと言うのですから、正確なところはまだ分かってないのです。<br><br>けれども、ともかく恐ろしい、大きな、想像もつかないくらいの威力を発揮するということは確認されたのです。<br><br>するといったい人類はどうしたらよいだろうということを考えてみると、それに対し、四月一日にアイゼンハウアーは“水素爆弾は恐るるに足らない、ただその使用目的のいかんによって恐ろしいか恐ろしくないかが決まる”と言ってましたが、まったくそのとおりです。<br><br>つまり水素爆弾そのものは、人類を殺す目的とか、あらゆるものを破壊する目的というように、戦争のために使うと恐ろしいものですが、そうでなければなんでもないのです。<br><br>むしろ人類の幸福のために使うと、これはたいへん結構なものになるのです。<br><br>そうすると、使用者の意志いかんによるのです。<br><br>使用者の意志で、水素爆弾を破壊のために用いるというのは戦争ですが、その根本を一口に言うと悪です。<br><br>人間を殺しても、破壊しても、自分たちの目的、欲望を達成すればよいという目的ですから悪です。<br><br>人間からそういう悪を全部なくすることはできませんが、つまりそういう悪をある程度に制限するということが根本問題です。<br><br>水素爆弾のために世界中が今しきりに唱えている“強国同士が共同管理する”とか“条約を締結する”とか言っているが、あれは膏薬張りです。<br><br>結局、うまく成功したところで、ある時期の問題とか、ある程度という、一つの限度がありますから、本当に解決したのでなくて、安心することは絶対にできないのです。<br><br>それより絶対安心できるというのは人間の心の問題です。<br><br>魂の問題です。<br><br>そうすると、根本である魂をどう解決するかというと、宗教より他にないのです。<br><br>だから水素爆弾が重要になればなるほど、宗教というものが人類から要求されなければならないことになるのです。<br><br>しかしそれに考えを起こさないのです。<br><br>宗教ナンテものは駄目だと、これは科学の産物であるからして、相談より他にしようがないということになっているのです。<br><br>ところがそう思われるということは、今までの宗教に悪を制御する力のある宗教はなかったのです。<br><br>本当を言うと宗教ではなかったのです。<br><br>いや、宗教はそれだけの力がなかったのです。<br><br>そこで他の新しいものが出なければ駄目だとなると、つまり宗教以上のものです。<br><br>超宗教というと、それはいったいなにかと言うと、みなさんが知っているとおり救世教です。<br><br>救世教より他にないのです。<br><br>そこで神様は人間の魂の改造、その仕事を遂行させるというのが救世教であり、それを世界中の全人類に分からせるのが、あなた方信者の役目になるわけです。<br><br>水素爆弾と聞くと、自分たちは縁のないように思われますが、ところが今言ったようなわけで、大いに必要なので、これからです。<br><br>そのことを十五日に来た人に話をするつもりです。<br><br>それはアメリカの政府に通じますから、無論あっちのなにかの機関に、それを通じて少なくとも政府首脳部に伝達されるには違いないのです。<br><br>結局において、思うことを言えば、まずアメリカの首脳部が救世教信者になるということが根本問題です。<br><br>そうなります。<br><br>時の問題です。<br><br>それより他に世界が救われ、人類が安心するところまでゆきません。<br><br>もしそうでなかったら、結局原子爆弾戦争になりますから。<br><br>なにしろアメリカではドンドン生産を増やすというのです。<br><br>つい最近の外電では、アイゼンハウアーの声明によって、水素爆弾の生産をドシドシ増やすということが出てました。<br><br>そうすると結局ソ連の方も負けずにやってますから、どっちかが諦めるよりないです。<br><br>ところが、アメリカの方は防御的目的であり、ソ連の方は積極的世界制覇の目的ですから、根本はソ連にあるのです。<br><br>共産党の首脳部が“そんなことはいけない、止そう”と、つまり自己の利益のためには、なにものも犠牲にするという悪を思い止まる、なくするとも言えないから押さえる、押さえるだけの善の力がわけばよいのです。<br><br>ですから、この水素爆弾の大問題も、結局一握りの共産党首脳者の解散にあるのです。<br><br>それは神様のほうもチャンと知ってます。<br><br>知っていると言うよりか、水素爆弾を作ったのはやはり神様です。<br><br>神様の方に科学の係があるのです。<br><br>係というとおかしいですが、そういう神様です。<br><br>それで水素爆弾というものは必要なのです。<br><br>ミロクの世にするにはどうしても一つの重要な道具です。<br><br>結局において善い方に使うに違いないのですが、それまでにやっぱり、今言う、人間の魂の改造上必要なのです。<br><br> そういうふうに見ますと、少なくとも救世教信者としてはいささかも驚くに足らないのです。<br><br>結局において非常に結構だ、それがあるために世界がこんなに良くなったということになります。<br><br>これをたとえて言うと、日本の広島と長崎に原子爆弾が放たれて、一ぺんに日本が降伏して平和になったのですが、もしあの原子爆弾がなかったら、まだ戦争が続いたに違いないです。<br><br>日本は、降伏ナンテとんでもないとどこまでも戦ったでしょう。<br><br>今は笑い話ですが、知っているとおり、竹ヤリの稽古までやったのですから。<br><br>しかしあまりに原爆の威力が恐ろしいので、これは駄目だということになったのです。<br><br>あのときに天皇陛下が阿南陸相を呼んで、“お前、勝つ見込みがあるか”と言うと“ありません”“それでは止したらよいではないか”と言うと“止すこともできません”と言ったのです。<br><br>その時の軍部の情勢を正直に表わした言葉です。<br><br>その結果翌日いよいよ降伏ということが決まったときに、阿南陸相は腹を切って死にました。<br><br>その言責から生きてはいられなかったのです。<br><br>それで日本人は今もって広島、長崎の原子爆弾を怨んでますが、実は広島、長崎の原子爆弾で日本の都市はみんな助かったのです。<br><br>そうでないと、みんな潰されてしまいます。<br><br>ですから水素爆弾も、放たれた後は、それがためにこんなに良くなったということになるのは必ず間違いないです。<br><br>さっき私が言ったように、近ごろアメリカのジャーナリスト、知識階級がだいぶ救世教を問題にするようになって、私の所に訪ねて来るのがだんだん増えてきたのです。<br><br>美術研究家とか新聞記者ですが（最初は美術研究のために来たのですが、近ごろは宗教の方も増えてきて、だいぶ宗教的の質問もあります）そういうわけで、信者ではないが、ファンというものが増えてきてます。<br><br>今にあっちの知識階級の注目の焦点になるというように認めてくるのです。<br><br>そこでいずれは、民間外交と言いますか（政府の厄介にならないで、民間外交というような）、一つの機関というようなものになるような形勢があるのです。<br><br>いや、もう現にいっているのです。<br><br>いつものグリリ夫妻などが“外務省などはしようがない、だから、つまり民間でしっかりしてもらって、それを通じていろんなことを話した方がよいように思っている”と言ってます。<br><br>実現性が難しいかもしれないですが、そうとうアメリカの有識者と話し合いができる時代が来るということは確かです。<br><br>そうすると、いつも言うとおり、アメリカが緯の文化、日本が経の文化の代表者で、それを結ぶということがいよいよ実現の段階に入ってゆくわけです。<br><br>救世教のバッジにあるとおり、経と緯が結んでいると、経が日本で緯がアメリカ、真ん中の丸い赤は、昼間の世界とも言うし、日の本日本とも言えるわけです。<br><br>真ん中が黄色くなってますが、あれは本当は金です。<br><br>あれが救世教になるわけです。<br><br>金というものは、そういったような非常に意味があるのです。<br><br>これはいずれ話しますが、そういうような具合で、つまり救世教の象徴です。<br><br>あれがそういう使命を表わしているのです。<br><br> ところで、もう一つ話したいことは（これはぜひお話ししなければならないし、非常におもしろいことです）、信者なら分かりますし信じられるが、信者でない人は、おそろしく手前ミソのように思われるのです。<br><br>なぜかというと、今度私が奈良に来るについて、奈良の各山の龍神さん、神社、仏閣の、尊、何の神様、何の如来といぅ、神、仏の霊たちと、それから守護の龍神と、龍神になっている神様、そういう方々は非常に喜んで、今日は霊界では歓迎しているのです。<br><br>これはいずれ『地上天国』にも出ますが、さっき天候でチャンと挨拶したのです。<br><br>雨が降ってたのが止んできたのです。<br><br>ちょうど奈良に来るときに日が照ってきたのです。<br><br>あれは挨拶です。<br><br>今日は雨が降るに決まった日ですが、龍神さんの歓迎の意を大いに表明するには天候よりしようがないので、“ああ、やったな”と思ったのです。<br><br>近ごろあらゆる神、仏が非常に喜んで、キリスト、マホメット、釈迦、ヨハネといろいろな神様が出てきます。<br><br>ここに来るちょっと前にもいつもの婦人に、マリアとキリストが出ましたが、実に喜んで、口から出る言葉のあらゆる讃詞を呈しているのです。<br><br>実にその喜びの情というものが溢れているのです。<br><br>他のあらゆる神、仏も、みんなそういうふうです。<br><br>とにかくみんな、私が出るのを何百年何千年前から待っていたのです。<br><br>だから奈良の各地の龍神が喜んで、私がここに来るときに御挨拶に伺うと言ってましたが、なにしろ霊ですから始末が悪いのです。<br><br>私に感じるだけで形がないのですから。<br><br>けれども間違いないということは分かるのです。<br><br>そういうわけで、これから救世教は目覚ましいものがあるのです。<br><br>そうするとあなた方も忙しくなりますから、いつも言っているとおり、大いにフンドシをしめなければならないと思ってます。<br><br>そういうようなわけで、霊界はだいたいほとんどミロクの世になったのですから、これから現界に写ってゆくわけです。<br><br>その中でおもしろいのはマレンコフです。<br><br>さっきの話に関係があるというより根本ですが、マレンコフ、モロトフというああいう連中も、自分が今まで間違ったことが分かったと言っています（これは生霊です。<br><br>生霊と死霊と両方ありますが、生霊の方は自由に呼ぶことができるのです）。<br><br>私が静岡の留置所にいるときにだいぶ呼びました。<br><br>その時スターリンを呼びましたが、スターリンはどうしても駄目です。<br><br>他の人は“そうなります”とか“時期を待ちます”とか言ってましたが、スターリンはガンとして駄目でした。<br><br>スターリンは最低地獄に落ちて何千年もいなければならないのです。<br><br>結局そこまでゆくと改心しますが、一番遅いでしょう。<br><br>というのは執着が強いですから。<br><br>そういうわけで、世界が、悪を制御するだけの善の力が増えるという、そういう魂の人間が増えますから、そこでさすがのスターリンも“駄目だ”と言って改心するのはしますが、一番ドンジリになります。<br><br>いよいよ本当の地上天国、ミロクの世の圏内に入るわけです。<br><br>これは事実がこれからドンドン現われますから、いよいよ本舞台になったわけです。<br><br>それからこれはおもしろい話ですが、「東方の光」ということになってます。<br><br>結局人を救うには、人ばかりでなく霊にしろ一切を救うには、まず光です。<br><br>いろんな霊というものは光を求めてくるのです。<br><br>御光をいただきたいと言って求めてくるのです。<br><br>光で救われるのです。<br><br>キリストでさえ今まで随分苦しんだのです。<br><br>キリストが憑ると首を曲げるのですが、十字架の絵にあるように、首を曲げるのです。<br><br>それはその時になにかで縛られたか、あるいは死んで下に落ちて、その上になにか物がのったとかしたものです。<br><br>つらいそうです。<br><br>そして十字架の磔（はりつけ）になったときの痛みはほとんど取れたが、まだ首が曲がっているのは、少しあるようです。<br><br>最初はだいぶ痛かったようですが、それも取れて、キリストが非常にありがたがっているのです。<br><br>マリアとしても、自分の息子ですから、伜（せがれ）が助けられたというので、非常に喜んでいます。<br><br> 時間がなくなりましたから、このくらいにしておきますが、今お話ししたのはあんまり大きな話ですから、よほど信仰がしっかりしていないと信じられないです。<br><br>信仰のない人が聞いたら馬鹿馬鹿しくて鼻の先で笑うかもしれませんが、本当なのです。<br><br>あなた方はそうでもないでしょうが。<br><br>これからそれが形に現われてきますから、それをある程度まででも信じさせるのがたいへんです。<br><br>今まで何億という人類が拝んできたキリスト、釈迦を私が助けたというのですから、“そんな人間が現われることはない、頭がどうかしている”と言うかもしれません。<br><br>あなた方はふだんから知っているでしょうが、それを“これだ”という所までゆけば、魂がすっかり固まったのですから、そうするとそれによってその人の力が強くなるのです。<br><br>それこそ私の代理として立派に力をふるい、仕事ができるわけです。<br><br>だから今言ったことをよく心に入れて大いにやってください。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Bomba de Hidrogênio e a Salvação da Humanidade</h2>
 <p>Dado o tempo exíguo de que dispomos, sinto ser impraticável abordar a totalidade dos temas que gostaria. Por conseguinte, ater-me-ei aos pontos mais essenciais.</p>
@@ -111,5 +263,48 @@ function toggleLang(lang) {
 <p>Diante de tudo isso, a Sekaikyuseikyou está prestes a vivenciar um desenvolvimento notável. Os senhores também terão muito trabalho e, como sempre digo, precisarão se preparar com afinco. O Mundo Espiritual já se tornou, em sua maior parte, o Mundo de Miroku, e, a partir de agora, essa realidade se refletirá no mundo material. Um fato interessante, relacionado ao que falei anteriormente, ou melhor, que está na raiz da questão, diz respeito a Malenkov. Ele, assim como Molotov e seus companheiros, já reconheceu seus erros passados. Isso me foi comunicado por seu espírito vivo. Existem tanto os espíritos vivos quanto os espíritos dos mortos, e os primeiros podem ser evocados livremente. Eu evoquei muitos deles quando estive detido em Shizuoka. Na época, tentei chamar Stalin, mas sem sucesso. Outros diziam “assim será” ou “aguardaremos o momento certo”, mas Stalin foi inflexível. Ele caiu no mais profundo inferno, onde deverá permanecer por milhares de anos. Eventualmente, ele se arrependerá, mas será o último a fazê-lo, pois seu apego é extremamente forte. Contudo, o mundo verá um aumento do poder do bem, capaz de subjugar o mal; o número de pessoas com a alma transformada crescerá. Diante disso, até mesmo Stalin acabará por reconhecer sua derrota e se arrepender, mas será o último da fila. Estamos, finalmente, adentrando a esfera do verdadeiro Paraíso Terrestre, o Mundo de Miroku. Os fatos comprovarão isso de forma cada vez mais evidente. O grande espetáculo começou.</p>
 <p>E, para concluir com uma história interessante, tudo se resume à “Luz do Oriente”. Para salvar as pessoas — e não apenas elas, mas também os espíritos e toda a Criação —, o elemento primordial é a Luz. Os mais diversos espíritos vêm em busca de Luz. Eles se aproximam suplicando para recebê-la, pois é pela Luz que são salvos. O próprio Cristo sofreu terrivelmente até agora. Quando ele se manifesta, inclina a cabeça, tal como nas imagens da crucificação. Isso se deve a algo que o prendeu ou a algum objeto que caiu sobre ele após sua morte. Foi uma experiência muito dolorosa. A dor da crucificação fora quase toda sanada, mas a inclinação do pescoço, embora atenuada, ainda persistia. Inicialmente, era muito penoso, mas agora também essa dor foi aliviada, e Cristo expressa uma gratidão imensa. Maria, como sua mãe, também se alegra profundamente por ver seu filho salvo.</p>
 <p>O tempo se esgotou, então encerrarei por aqui. O que acabo de lhes expor é de uma magnitude tão vasta que, sem uma fé verdadeiramente sólida, torna-se difícil de acreditar. Uma pessoa sem fé que ouvisse estas palavras provavelmente riria com desdém, achando-as um disparate. No entanto, a verdade é esta. Imagino que os senhores não pensem assim. A grande dificuldade será fazer com que as pessoas acreditem, ainda que em parte, à medida que os fatos se manifestarem. Afinal, estou dizendo que salvei Cristo e Shakyamuni, seres venerados por bilhões de pessoas ao longo da história. É possível que digam: “Nunca existiu um homem assim, ele deve ter perdido o juízo”. Mas os senhores, que já me conhecem, sabem a verdade. Quando alcançarem esse nível de convicção, suas almas estarão plenamente consolidadas, e, com isso, seu próprio poder se tornará imenso. Então, poderão atuar magnificamente como meus representantes, manifestando grande força e realizando a Obra Divina. Peço que guardem bem estas palavras em seus corações e se dediquem com fervor à sua missão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 関西 巡教 御講話 （S29年4月12日） 『御教え集』33号、昭和29(1954)年5月15日発行 昭和二十九年四月十二日（奈良県公会堂において） 時間がないため言いたいことを全部話すのは無理なような感じがするので、ごく要点だけをお話ししましょう。<br/><br/> 今世界中で一番問題にされているのは、みんな知っているとおり水素爆弾です。<br/><br/>水素爆弾というものも、無論神様がやられているのですが、いったいどういうわけでああいう恐ろしい気味の悪いものをこしらえられたかということについて、ザッとお話ししたいと思います。<br/><br/>宗教のお話は、科学のもっとも先端のことをお話しするのですから、随分矛盾した話ですが、そういうふうに思うのは、いかに世の中が科学一点張りかということが分かるのです。<br/><br/>本当を言えば、神様のやられることが最先端なので、科学の方が後をついてゆくというのが本当なのです。<br/><br/>先端を神様が言っているということを知らせる人も、お話しする人もないから、今まで分からなかったというわけです。<br/><br/>それについて気のついたのは、最近アメリカの方で、私の著書をだいぶ調べて、その中で、無論『アメリカを救う』なども調べているそうですが、それから私の書いたものの中に「原爆恐るるに足らず」というのがありましたが、それに注目して、アメリカの人から“たいへんなことを言っている、救世教の実体を一度調査するように”との依頼を、日本に支社のある英字雑誌で『アジア・シーン』というのがあります。<br/><br/>そこにアメリカの本社から通知があって、ぜひ私に会っていろいろ聞きたいと言うので、十五日に『アジア・シーン』の記者と面会することになりました。<br/><br/>それで私は気がついたのですが、一番知りたいと思うことは水素爆弾のことです。<br/><br/>というのは、あれほど恐ろしいものはないです。<br/><br/>あれが出たのは神様の御意志、というよりも人類に対する働きです。<br/><br/>それはどういう意味かということなのです。<br/><br/>私が書いたのは「原爆恐るるに足らず」ですが、その時は水素爆弾は出てなかったのです。<br/><br/>現に原子爆弾のときには、信者さんでそれに遭ってお蔭をいただいた人があるのですから、その実際の報告によって充分証明ができるから出したのです。<br/><br/>ところが水素爆弾はたいへんな違いです。<br/><br/>水素爆弾は原爆の何倍とか、いろいろな発表がありました。<br/><br/>何十倍、何百倍とか、二千倍というのもありましたが、本当はまだ分からないようです。<br/><br/>この間のビキニでの水爆実験の結果、学者も意外だと言うくらいですから、科学者が予想以上だと言うのですから、正確なところはまだ分かってないのです。<br/><br/>けれども、ともかく恐ろしい、大きな、想像もつかないくらいの威力を発揮するということは確認されたのです。<br/><br/>するといったい人類はどうしたらよいだろうということを考えてみると、それに対し、四月一日にアイゼンハウアーは“水素爆弾は恐るるに足らない、ただその使用目的のいかんによって恐ろしいか恐ろしくないかが決まる”と言ってましたが、まったくそのとおりです。<br/><br/>つまり水素爆弾そのものは、人類を殺す目的とか、あらゆるものを破壊する目的というように、戦争のために使うと恐ろしいものですが、そうでなければなんでもないのです。<br/><br/>むしろ人類の幸福のために使うと、これはたいへん結構なものになるのです。<br/><br/>そうすると、使用者の意志いかんによるのです。<br/><br/>使用者の意志で、水素爆弾を破壊のために用いるというのは戦争ですが、その根本を一口に言うと悪です。<br/><br/>人間を殺しても、破壊しても、自分たちの目的、欲望を達成すればよいという目的ですから悪です。<br/><br/>人間からそういう悪を全部なくすることはできませんが、つまりそういう悪をある程度に制限するということが根本問題です。<br/><br/>水素爆弾のために世界中が今しきりに唱えている“強国同士が共同管理する”とか“条約を締結する”とか言っているが、あれは膏薬張りです。<br/><br/>結局、うまく成功したところで、ある時期の問題とか、ある程度という、一つの限度がありますから、本当に解決したのでなくて、安心することは絶対にできないのです。<br/><br/>それより絶対安心できるというのは人間の心の問題です。<br/><br/>魂の問題です。<br/><br/>そうすると、根本である魂をどう解決するかというと、宗教より他にないのです。<br/><br/>だから水素爆弾が重要になればなるほど、宗教というものが人類から要求されなければならないことになるのです。<br/><br/>しかしそれに考えを起こさないのです。<br/><br/>宗教ナンテものは駄目だと、これは科学の産物であるからして、相談より他にしようがないということになっているのです。<br/><br/>ところがそう思われるということは、今までの宗教に悪を制御する力のある宗教はなかったのです。<br/><br/>本当を言うと宗教ではなかったのです。<br/><br/>いや、宗教はそれだけの力がなかったのです。<br/><br/>そこで他の新しいものが出なければ駄目だとなると、つまり宗教以上のものです。<br/><br/>超宗教というと、それはいったいなにかと言うと、みなさんが知っているとおり救世教です。<br/><br/>救世教より他にないのです。<br/><br/>そこで神様は人間の魂の改造、その仕事を遂行させるというのが救世教であり、それを世界中の全人類に分からせるのが、あなた方信者の役目になるわけです。<br/><br/>水素爆弾と聞くと、自分たちは縁のないように思われますが、ところが今言ったようなわけで、大いに必要なので、これからです。<br/><br/>そのことを十五日に来た人に話をするつもりです。<br/><br/>それはアメリカの政府に通じますから、無論あっちのなにかの機関に、それを通じて少なくとも政府首脳部に伝達されるには違いないのです。<br/><br/>結局において、思うことを言えば、まずアメリカの首脳部が救世教信者になるということが根本問題です。<br/><br/>そうなります。<br/><br/>時の問題です。<br/><br/>それより他に世界が救われ、人類が安心するところまでゆきません。<br/><br/>もしそうでなかったら、結局原子爆弾戦争になりますから。<br/><br/>なにしろアメリカではドンドン生産を増やすというのです。<br/><br/>つい最近の外電では、アイゼンハウアーの声明によって、水素爆弾の生産をドシドシ増やすということが出てました。<br/><br/>そうすると結局ソ連の方も負けずにやってますから、どっちかが諦めるよりないです。<br/><br/>ところが、アメリカの方は防御的目的であり、ソ連の方は積極的世界制覇の目的ですから、根本はソ連にあるのです。<br/><br/>共産党の首脳部が“そんなことはいけない、止そう”と、つまり自己の利益のためには、なにものも犠牲にするという悪を思い止まる、なくするとも言えないから押さえる、押さえるだけの善の力がわけばよいのです。<br/><br/>ですから、この水素爆弾の大問題も、結局一握りの共産党首脳者の解散にあるのです。<br/><br/>それは神様のほうもチャンと知ってます。<br/><br/>知っていると言うよりか、水素爆弾を作ったのはやはり神様です。<br/><br/>神様の方に科学の係があるのです。<br/><br/>係というとおかしいですが、そういう神様です。<br/><br/>それで水素爆弾というものは必要なのです。<br/><br/>ミロクの世にするにはどうしても一つの重要な道具です。<br/><br/>結局において善い方に使うに違いないのですが、それまでにやっぱり、今言う、人間の魂の改造上必要なのです。<br/><br/> そういうふうに見ますと、少なくとも救世教信者としてはいささかも驚くに足らないのです。<br/><br/>結局において非常に結構だ、それがあるために世界がこんなに良くなったということになります。<br/><br/>これをたとえて言うと、日本の広島と長崎に原子爆弾が放たれて、一ぺんに日本が降伏して平和になったのですが、もしあの原子爆弾がなかったら、まだ戦争が続いたに違いないです。<br/><br/>日本は、降伏ナンテとんでもないとどこまでも戦ったでしょう。<br/><br/>今は笑い話ですが、知っているとおり、竹ヤリの稽古までやったのですから。<br/><br/>しかしあまりに原爆の威力が恐ろしいので、これは駄目だということになったのです。<br/><br/>あのときに天皇陛下が阿南陸相を呼んで、“お前、勝つ見込みがあるか”と言うと“ありません”“それでは止したらよいではないか”と言うと“止すこともできません”と言ったのです。<br/><br/>その時の軍部の情勢を正直に表わした言葉です。<br/><br/>その結果翌日いよいよ降伏ということが決まったときに、阿南陸相は腹を切って死にました。<br/><br/>その言責から生きてはいられなかったのです。<br/><br/>それで日本人は今もって広島、長崎の原子爆弾を怨んでますが、実は広島、長崎の原子爆弾で日本の都市はみんな助かったのです。<br/><br/>そうでないと、みんな潰されてしまいます。<br/><br/>ですから水素爆弾も、放たれた後は、それがためにこんなに良くなったということになるのは必ず間違いないです。<br/><br/>さっき私が言ったように、近ごろアメリカのジャーナリスト、知識階級がだいぶ救世教を問題にするようになって、私の所に訪ねて来るのがだんだん増えてきたのです。<br/><br/>美術研究家とか新聞記者ですが（最初は美術研究のために来たのですが、近ごろは宗教の方も増えてきて、だいぶ宗教的の質問もあります）そういうわけで、信者ではないが、ファンというものが増えてきてます。<br/><br/>今にあっちの知識階級の注目の焦点になるというように認めてくるのです。<br/><br/>そこでいずれは、民間外交と言いますか（政府の厄介にならないで、民間外交というような）、一つの機関というようなものになるような形勢があるのです。<br/><br/>いや、もう現にいっているのです。<br/><br/>いつものグリリ夫妻などが“外務省などはしようがない、だから、つまり民間でしっかりしてもらって、それを通じていろんなことを話した方がよいように思っている”と言ってます。<br/><br/>実現性が難しいかもしれないですが、そうとうアメリカの有識者と話し合いができる時代が来るということは確かです。<br/><br/>そうすると、いつも言うとおり、アメリカが緯の文化、日本が経の文化の代表者で、それを結ぶということがいよいよ実現の段階に入ってゆくわけです。<br/><br/>救世教のバッジにあるとおり、経と緯が結んでいると、経が日本で緯がアメリカ、真ん中の丸い赤は、昼間の世界とも言うし、日の本日本とも言えるわけです。<br/><br/>真ん中が黄色くなってますが、あれは本当は金です。<br/><br/>あれが救世教になるわけです。<br/><br/>金というものは、そういったような非常に意味があるのです。<br/><br/>これはいずれ話しますが、そういうような具合で、つまり救世教の象徴です。<br/><br/>あれがそういう使命を表わしているのです。<br/><br/> ところで、もう一つ話したいことは（これはぜひお話ししなければならないし、非常におもしろいことです）、信者なら分かりますし信じられるが、信者でない人は、おそろしく手前ミソのように思われるのです。<br/><br/>なぜかというと、今度私が奈良に来るについて、奈良の各山の龍神さん、神社、仏閣の、尊、何の神様、何の如来といぅ、神、仏の霊たちと、それから守護の龍神と、龍神になっている神様、そういう方々は非常に喜んで、今日は霊界では歓迎しているのです。<br/><br/>これはいずれ『地上天国』にも出ますが、さっき天候でチャンと挨拶したのです。<br/><br/>雨が降ってたのが止んできたのです。<br/><br/>ちょうど奈良に来るときに日が照ってきたのです。<br/><br/>あれは挨拶です。<br/><br/>今日は雨が降るに決まった日ですが、龍神さんの歓迎の意を大いに表明するには天候よりしようがないので、“ああ、やったな”と思ったのです。<br/><br/>近ごろあらゆる神、仏が非常に喜んで、キリスト、マホメット、釈迦、ヨハネといろいろな神様が出てきます。<br/><br/>ここに来るちょっと前にもいつもの婦人に、マリアとキリストが出ましたが、実に喜んで、口から出る言葉のあらゆる讃詞を呈しているのです。<br/><br/>実にその喜びの情というものが溢れているのです。<br/><br/>他のあらゆる神、仏も、みんなそういうふうです。<br/><br/>とにかくみんな、私が出るのを何百年何千年前から待っていたのです。<br/><br/>だから奈良の各地の龍神が喜んで、私がここに来るときに御挨拶に伺うと言ってましたが、なにしろ霊ですから始末が悪いのです。<br/><br/>私に感じるだけで形がないのですから。<br/><br/>けれども間違いないということは分かるのです。<br/><br/>そういうわけで、これから救世教は目覚ましいものがあるのです。<br/><br/>そうするとあなた方も忙しくなりますから、いつも言っているとおり、大いにフンドシをしめなければならないと思ってます。<br/><br/>そういうようなわけで、霊界はだいたいほとんどミロクの世になったのですから、これから現界に写ってゆくわけです。<br/><br/>その中でおもしろいのはマレンコフです。<br/><br/>さっきの話に関係があるというより根本ですが、マレンコフ、モロトフというああいう連中も、自分が今まで間違ったことが分かったと言っています（これは生霊です。<br/><br/>生霊と死霊と両方ありますが、生霊の方は自由に呼ぶことができるのです）。<br/><br/>私が静岡の留置所にいるときにだいぶ呼びました。<br/><br/>その時スターリンを呼びましたが、スターリンはどうしても駄目です。<br/><br/>他の人は“そうなります”とか“時期を待ちます”とか言ってましたが、スターリンはガンとして駄目でした。<br/><br/>スターリンは最低地獄に落ちて何千年もいなければならないのです。<br/><br/>結局そこまでゆくと改心しますが、一番遅いでしょう。<br/><br/>というのは執着が強いですから。<br/><br/>そういうわけで、世界が、悪を制御するだけの善の力が増えるという、そういう魂の人間が増えますから、そこでさすがのスターリンも“駄目だ”と言って改心するのはしますが、一番ドンジリになります。<br/><br/>いよいよ本当の地上天国、ミロクの世の圏内に入るわけです。<br/><br/>これは事実がこれからドンドン現われますから、いよいよ本舞台になったわけです。<br/><br/>それからこれはおもしろい話ですが、「東方の光」ということになってます。<br/><br/>結局人を救うには、人ばかりでなく霊にしろ一切を救うには、まず光です。<br/><br/>いろんな霊というものは光を求めてくるのです。<br/><br/>御光をいただきたいと言って求めてくるのです。<br/><br/>光で救われるのです。<br/><br/>キリストでさえ今まで随分苦しんだのです。<br/><br/>キリストが憑ると首を曲げるのですが、十字架の絵にあるように、首を曲げるのです。<br/><br/>それはその時になにかで縛られたか、あるいは死んで下に落ちて、その上になにか物がのったとかしたものです。<br/><br/>つらいそうです。<br/><br/>そして十字架の磔（はりつけ）になったときの痛みはほとんど取れたが、まだ首が曲がっているのは、少しあるようです。<br/><br/>最初はだいぶ痛かったようですが、それも取れて、キリストが非常にありがたがっているのです。<br/><br/>マリアとしても、自分の息子ですから、伜（せがれ）が助けられたというので、非常に喜んでいます。<br/><br/> 時間がなくなりましたから、このくらいにしておきますが、今お話ししたのはあんまり大きな話ですから、よほど信仰がしっかりしていないと信じられないです。<br/><br/>信仰のない人が聞いたら馬鹿馬鹿しくて鼻の先で笑うかもしれませんが、本当なのです。<br/><br/>あなた方はそうでもないでしょうが。<br/><br/>これからそれが形に現われてきますから、それをある程度まででも信じさせるのがたいへんです。<br/><br/>今まで何億という人類が拝んできたキリスト、釈迦を私が助けたというのですから、“そんな人間が現われることはない、頭がどうかしている”と言うかもしれません。<br/><br/>あなた方はふだんから知っているでしょうが、それを“これだ”という所までゆけば、魂がすっかり固まったのですから、そうするとそれによってその人の力が強くなるのです。<br/><br/>それこそ私の代理として立派に力をふるい、仕事ができるわけです。<br/><br/>だから今言ったことをよく心に入れて大いにやってください。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

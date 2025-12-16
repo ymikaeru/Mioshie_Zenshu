@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hasi02</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,61 +239,55 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： はしがき 自観叢書第9篇『光への道』P.2、昭和24(1949)年12月30日発行 これは私の自舒伝である。<br><br>最初わが半生の記と名づけたのであるが「光への道」の方が感じがいいのでそう名づけたのである。<br><br>私の前半生は洵（まこと）に平凡で世間ありふれた経歴で、おもしろくないから書かない事にしたのである。<br><br>それが三十八歳の時私は運命の一大転換に逢着した。<br><br>それからが波瀾万丈の生活が始まったのである。<br><br>ある時は高山へ登りある時は谷底へ転落したというような経路を経つつ、あらゆる人生の苦悩を嘗（な）め尽して来たのである。<br><br>とはいうものの三十八歳は私の第二の誕生でもあった。<br><br>それからは予期しなかった信仰生活に入り、初めて私に課せられたる天の使命を知ったのである。<br><br>宗教人となってから苦悩の大きい代り、また実に欣喜雀躍する程の喜びもあり、全く文字通り悲喜交々（こもごも）の人生を経て来た訳である。<br><br>もちろん神幽現三界にわたり神仏の存在、生と死の本義や、過現未にわたる世界の動向、人生の意義等々、何人も窺知（きち）し得なかったところの彼の釈尊が七十二歳にして到達し得たところのいわゆる見真実の域にまで達したのである。<br><br>この喜びはいかばかりであったであろう。<br><br>ちょうど達磨が面壁九年八月十五夜の満月を仰いで悟道に徹したという歓喜に勝るとも劣らないと思ったのである。<br><br> 由来一宗の開祖たる人は、昔から非常に奇蹟に富んだ事は普（あまね）く人の知るところであるが私も同様幽玄にして神秘極まる奇蹟の生活を続けつつ今日に至っている。<br><br>今一つ特に言いたい事は、文献等による今日までの宗祖開祖に比し、私というもののすべてが余程変っている。<br><br>その中の著しい点は、私の生活態度は凡人と少しも変った所がない事で、これは人からもよく言われるのである。<br><br>そのように私は常に常識をモットーとし、奇矯な言動は極力嫌うためでもあろう。<br><br>また私ほど多角性のものもないと思う。<br><br>私は宗教家でありながら、政治、経済、芸術、教育、美術等々ほとんど人生百般のものに、趣味と関心をもっていないものはないと言ってもよかろう。<br><br>この事は実に多幸とも思っている。<br><br>これは私として常に神に感謝しているところである。<br><br> 以上のごとき、私がたどって来た奇蹟に富める活歴史をこれから書こうとするのであるが出来るだけ興味に富めるものを主として記事を進めるつもりである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Caminho para a Luz</h2>
 <p>Este livro é minha autobiografia. Inicialmente, intitulei-o "Crônicas da Primeira Metade de Minha Vida", mas por considerar "O Caminho para a Luz" uma expressão mais inspiradora, optei por este último. A primeira metade de minha existência foi, em verdade, tão trivial e comum que decidi não a relatar, por julgá-la desprovida de interesse. Foi aos trinta e oito anos, contudo, que me deparei com uma grande reviravolta em meu destino. A partir de então, iniciou-se uma vida de inúmeras vicissitudes. Percorrendo uma trajetória que ora me elevava aos cumes das montanhas, ora me precipitava ao fundo dos vales, experimentei em sua totalidade as mais diversas aflições da vida humana.</p>
 <p>Todavia, aquela idade marcou também o meu segundo nascimento. A partir de então, adentrei uma vida de fé que jamais previra e, pela primeira vez, tomei conhecimento da missão celestial que me fora confiada. Desde que me tornei um homem de religião, em contrapartida às grandes provações, vivenciei também alegrias tão intensas que me faziam exultar. Foi, literalmente, uma existência tecida com fios de júbilo e de tristeza. Nesse percurso, logrei alcançar o que se denomina o estado de "visão da verdade", o mesmo patamar que o nobre Shakyamuni atingiu aos setenta e dois anos de idade. Pude, assim, perscrutar realidades que ninguém antes havia sido capaz de vislumbrar, abrangendo os três planos — Divino, Espiritual e Material. Compreendi a existência de Deus e dos seres iluminados, a essência fundamental da vida e da morte, o rumo do mundo através do passado, do presente e do futuro, e o próprio sentido da existência humana. Quão imensurável não terá sido essa alegria! Acredito que meu júbilo não foi inferior, e talvez até tenha superado, o êxtase de Bodhidharma quando, após nove anos de meditação diante de uma parede, contemplou a lua cheia na décima quinta noite do oitavo mês e atingiu a iluminação plena.</p>
 <p>É do conhecimento de todos que os fundadores de escolas religiosas, desde a antiguidade, foram protagonistas de inúmeros milagres. De modo semelhante, minha vida até o presente momento tem sido uma contínua sucessão de milagres de natureza profunda e extremamente mística. Há, ademais, um ponto que desejo ressaltar: em comparação com os fundadores e patriarcas conhecidos até hoje por meio da literatura, percebo que minha natureza é, em muitos aspectos, singular. O traço mais notável dessa singularidade é que meu modo de vida em nada difere do de uma pessoa comum, fato este frequentemente apontado por terceiros. Talvez isso se deva ao fato de eu sempre pautar minha conduta pelo bom senso, repudiando veementemente atitudes e palavras excêntricas. Creio também não haver quem possua uma natureza tão multifacetada quanto a minha. Apesar de ser um líder religioso, posso afirmar que não há praticamente nenhum dos múltiplos campos da atividade humana — como a política, a economia, a arte, a educação e as belas-artes — pelo qual eu não nutra interesse e apreço. Considero essa característica uma verdadeira bênção, e é por ela que sou constantemente grato a Deus.</p>
 <p>É, portanto, essa história viva, repleta de milagres, que trilhei e descrevi até aqui, que me proponho a relatar nas páginas seguintes. Meu propósito é conduzir a narrativa priorizando os eventos de maior interesse para o leitor.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： はしがき 自観叢書第9篇『光への道』P.2、昭和24(1949)年12月30日発行 これは私の自舒伝である。<br/><br/>最初わが半生の記と名づけたのであるが「光への道」の方が感じがいいのでそう名づけたのである。<br/><br/>私の前半生は洵（まこと）に平凡で世間ありふれた経歴で、おもしろくないから書かない事にしたのである。<br/><br/>それが三十八歳の時私は運命の一大転換に逢着した。<br/><br/>それからが波瀾万丈の生活が始まったのである。<br/><br/>ある時は高山へ登りある時は谷底へ転落したというような経路を経つつ、あらゆる人生の苦悩を嘗（な）め尽して来たのである。<br/><br/>とはいうものの三十八歳は私の第二の誕生でもあった。<br/><br/>それからは予期しなかった信仰生活に入り、初めて私に課せられたる天の使命を知ったのである。<br/><br/>宗教人となってから苦悩の大きい代り、また実に欣喜雀躍する程の喜びもあり、全く文字通り悲喜交々（こもごも）の人生を経て来た訳である。<br/><br/>もちろん神幽現三界にわたり神仏の存在、生と死の本義や、過現未にわたる世界の動向、人生の意義等々、何人も窺知（きち）し得なかったところの彼の釈尊が七十二歳にして到達し得たところのいわゆる見真実の域にまで達したのである。<br/><br/>この喜びはいかばかりであったであろう。<br/><br/>ちょうど達磨が面壁九年八月十五夜の満月を仰いで悟道に徹したという歓喜に勝るとも劣らないと思ったのである。<br/><br/> 由来一宗の開祖たる人は、昔から非常に奇蹟に富んだ事は普（あまね）く人の知るところであるが私も同様幽玄にして神秘極まる奇蹟の生活を続けつつ今日に至っている。<br/><br/>今一つ特に言いたい事は、文献等による今日までの宗祖開祖に比し、私というもののすべてが余程変っている。<br/><br/>その中の著しい点は、私の生活態度は凡人と少しも変った所がない事で、これは人からもよく言われるのである。<br/><br/>そのように私は常に常識をモットーとし、奇矯な言動は極力嫌うためでもあろう。<br/><br/>また私ほど多角性のものもないと思う。<br/><br/>私は宗教家でありながら、政治、経済、芸術、教育、美術等々ほとんど人生百般のものに、趣味と関心をもっていないものはないと言ってもよかろう。<br/><br/>この事は実に多幸とも思っている。<br/><br/>これは私として常に神に感謝しているところである。<br/><br/> 以上のごとき、私がたどって来た奇蹟に富める活歴史をこれから書こうとするのであるが出来るだけ興味に富めるものを主として記事を進めるつもりである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>honsi2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 本紙再刊に就て 『栄光』66号、昭和25(1950)年8月23日発行 本紙は、去る六月三日発行の六十五号までで休刊の止むなきに至ったのは御承知の通りである、それと同時に五月八日本紙編輯（へんしゅう）主任井上茂登吉氏は、脱税問題の容疑で静岡県検察庁へ収容され、次で同月二十九日私も同様の運命に遭ったのである、しかしながら私も井上も法に触れるような事は全然なく、全く当局の調査不充分のためであった事はもちろんで、いずれは吾々の公明なる真相の判る時の来るのは言うまでもない、昔から宗教に法難はつきものとは言いながら、時々こういう事があるのは、吾々が不徳の致すところでもあろうが、また吾々の心魂を磨かせ給う神の深き恩恵に外ならないとも信ずるのである、由来、使命の大きい者程苦難も大きいと言われているにみても、また何をか言わんやである。<br><br> 私は二十二日間収容の上六月十九日出所したのであるが、それから一週間目に朝鮮問題が勃発したのである、今は朝鮮という一区域に限られてはいるが、どちらも米ソの二大勢力の冷たい戦争が熱の戦争になった前奏曲といえよう、これも無論世界的大浄化の最初の表われであって、最後の審判の予告篇ともいえよう、かような状勢を見るにつけても、吾らの救世的活動舞台は刻一刻と近寄りつつある事を意識せずにはおれないのである。<br><br> 今日の新聞紙に、彼のインボデン少佐の事が載っているが、これは非常に面白い観方と思う、少佐いわく「いかなる国家といえども、善か悪かのどちらかであって、中立国というものはあり得ない、従ってこの際どちらか決めるべきだ」との言であるが、まことに痛快極まる言である、しかし私はひとり国家のみではなく、社会全般にわたって何事にもいえると思う、もちろん宗教といえどもそれに漏れるはずはない、ただ宗教の異（ちが）うところは、善と想って行っている事が、往々結果において悪になる場合もある。<br><br>この点宗教人たる者大いに戒心すべき点であろう、また法においてもそうである、ちょうど私が今回の容疑で取調べを受けた際、私は思った。<br><br>善を作るための法律も行過ぎると、反って悪になってしまう事実である。<br><br> また本紙も、従来の救世を栄光と改題し、益々精進、神の御目的たる救世済民の実を挙ぐべく、邁進の決意を固めたのである。<br><br> ここで申したい事は、大抵の信徒諸君は最早御存知であろうが、今回の事件を機とし、本教全般に亘り、機構を改革した事である、まず私は今まで救世教教主としての地位を退き、今後は布教にのみ専念する事となったのである、これも御神意に因る事はもちろんで、人間の考えでは到底判り得ない事は、いつも時の進むに従って深き御経綸からであった事を悟るので、これは常に経験するところである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Uma Nova Etapa sob a Vontade Divina</h2>
 <p>Conforme é de vosso conhecimento, nosso periódico foi forçado a suspender sua publicação após a edição de número sessenta e cinco, lançada em três de junho. Simultaneamente a isso, em oito de maio, o editor-chefe, Sr. Motokichi Inoue, foi detido pela Promotoria de Justiça da província de Shizuoka, sob a suspeita de evasão fiscal. No dia vinte e nove do mesmo mês, eu também enfrentei destino semelhante. Contudo, tanto o Sr. Inoue quanto eu jamais infringimos a lei de forma alguma; a situação decorreu unicamente de uma investigação insuficiente por parte das autoridades. É indubitável que, com o tempo, a verdade límpida a nosso respeito virá à tona. Embora se diga desde a antiguidade que as perseguições são inerentes às religiões, o fato de ocorrências como esta se manifestarem periodicamente pode ser atribuído à nossa falta de virtude. Todavia, creio firmemente que se trata, acima de tudo, de uma profunda graça divina, concedida para polir nossa alma e nosso espírito. Diante do adágio que afirma que "quanto maior a missão, maiores as provações", que mais haveria a dizer?</p>
@@ -95,5 +247,48 @@ function toggleLang(lang) {
 <p>Os jornais de hoje trazem um artigo sobre o Major Imboden, cuja perspectiva considero extremamente interessante. Segundo o major: “Nenhuma nação pode eximir-se de ser boa ou má; a neutralidade é uma impossibilidade. Portanto, é imperativo que cada país defina sua posição”. Trata-se de uma afirmação de uma clareza revigorante. Contudo, acredito que esse princípio não se aplica somente às nações, mas se estende a todos os âmbitos da sociedade. A religião, naturalmente, não constitui exceção. A particularidade da religião, no entanto, reside no fato de que atos praticados com a mais pura intenção de fazer o bem podem, por vezes, resultar no mal. Este é um ponto sobre o qual os religiosos devem exercer a máxima vigilância. O mesmo se aplica à esfera da lei. Durante o interrogatório a que fui submetido recentemente, refleti sobre este fato: as leis, criadas com o propósito de gerar o bem, quando aplicadas em excesso, acabam por converter-se em um mal.</p>
 <p>Nesse sentido, nosso periódico, até então intitulado "Kyusei" (Salvação), passará a se chamar "Eikou" (Glória). Com esta mudança, fortalecemos nossa determinação de avançar com afinco ainda maior, a fim de concretizar o objetivo de Deus: a salvação da humanidade.</p>
 <p>Aproveito a oportunidade para comunicar algo que, creio, a maioria dos fiéis já tem conhecimento: valendo-nos dos recentes acontecimentos como um ensejo, promovemos uma reforma na estrutura geral de nossa Igreja. Primeiramente, renunciei à minha posição como Líder Espiritual (Kyoshu) da Sekaikyuseikyou e, doravante, devotar-me-ei exclusivamente à difusão dos Ensinamentos. Esta decisão, como é natural, decorre da Vontade Divina. Aquilo que a mente humana é incapaz de compreender em um dado momento, com o passar do tempo, invariavelmente se revela como parte do profundo Plano Divino. Esta é uma verdade que a experiência constantemente me ensina.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 本紙再刊に就て 『栄光』66号、昭和25(1950)年8月23日発行 本紙は、去る六月三日発行の六十五号までで休刊の止むなきに至ったのは御承知の通りである、それと同時に五月八日本紙編輯（へんしゅう）主任井上茂登吉氏は、脱税問題の容疑で静岡県検察庁へ収容され、次で同月二十九日私も同様の運命に遭ったのである、しかしながら私も井上も法に触れるような事は全然なく、全く当局の調査不充分のためであった事はもちろんで、いずれは吾々の公明なる真相の判る時の来るのは言うまでもない、昔から宗教に法難はつきものとは言いながら、時々こういう事があるのは、吾々が不徳の致すところでもあろうが、また吾々の心魂を磨かせ給う神の深き恩恵に外ならないとも信ずるのである、由来、使命の大きい者程苦難も大きいと言われているにみても、また何をか言わんやである。<br/><br/> 私は二十二日間収容の上六月十九日出所したのであるが、それから一週間目に朝鮮問題が勃発したのである、今は朝鮮という一区域に限られてはいるが、どちらも米ソの二大勢力の冷たい戦争が熱の戦争になった前奏曲といえよう、これも無論世界的大浄化の最初の表われであって、最後の審判の予告篇ともいえよう、かような状勢を見るにつけても、吾らの救世的活動舞台は刻一刻と近寄りつつある事を意識せずにはおれないのである。<br/><br/> 今日の新聞紙に、彼のインボデン少佐の事が載っているが、これは非常に面白い観方と思う、少佐いわく「いかなる国家といえども、善か悪かのどちらかであって、中立国というものはあり得ない、従ってこの際どちらか決めるべきだ」との言であるが、まことに痛快極まる言である、しかし私はひとり国家のみではなく、社会全般にわたって何事にもいえると思う、もちろん宗教といえどもそれに漏れるはずはない、ただ宗教の異（ちが）うところは、善と想って行っている事が、往々結果において悪になる場合もある。<br/><br/>この点宗教人たる者大いに戒心すべき点であろう、また法においてもそうである、ちょうど私が今回の容疑で取調べを受けた際、私は思った。<br/><br/>善を作るための法律も行過ぎると、反って悪になってしまう事実である。<br/><br/> また本紙も、従来の救世を栄光と改題し、益々精進、神の御目的たる救世済民の実を挙ぐべく、邁進の決意を固めたのである。<br/><br/> ここで申したい事は、大抵の信徒諸君は最早御存知であろうが、今回の事件を機とし、本教全般に亘り、機構を改革した事である、まず私は今まで救世教教主としての地位を退き、今後は布教にのみ専念する事となったのである、これも御神意に因る事はもちろんで、人間の考えでは到底判り得ない事は、いつも時の進むに従って深き御経綸からであった事を悟るので、これは常に経験するところである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

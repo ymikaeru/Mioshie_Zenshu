@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>susin108</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 主神篇 ８ 108-122 御力 108 神力、金剛力、観音力 神力（金剛力）観音力について―― この力の根元は同じ事であるが、その時の表わし方によって違う。<br><br>例えば観音力は仏界のある間の力で、月の力であり、仏の表わし方であるから弱い。<br><br> 神力は五六七の力とは違う。<br><br>最も強い力で、今迄発揮された事がなく、陰から間接的に発揮されていた。<br><br>観音力に対し神力は日の力である。<br><br>日の光は月の六十倍というから、その位力の違いがある。<br><br>（金剛力は、強い力という事） 109 妙智力、金剛力、絶対力、自然力 妙智力、金剛力、絶対力、大自然力のお力について御説明をお願い申し上げます。<br><br> 妙智力は観音力、観音の御力。<br><br> 金剛力は国常立尊の神の力。<br><br>（強い力） 絶対力は主神の力、至聖先天。<br><br> 大自然力は自然界全部へ遍満された力である。<br><br>（S24. 5.23） 110 金剛力と絶対力 金剛力とは、どういう事でありますか。<br><br> 金は最高を表わし剛はつよい事で、金剛力とは、高級の神が具えてる極めて強い力、即ち最も強い力、即ち絶対力である。<br><br>（S23） 111 観音力と神力 観音力と神力について―― 観音力は仏の最高の力、神力はそれよりもっと上である。<br><br> 112 如意の珠とは（未顕の魂） 如意の珠と麻邇の珠はどういうもので御座いましょうか。<br><br>御伺い申し上げます。<br><br> 同じもので、絶対力ある魂という事。<br><br>今迄世の中に出なかった。<br><br>今度大先生がなされる訳である。<br><br> 113 麻邇の力と玉――如意 麻邇の力、麻邇の玉について御説明お願い致します。<br><br> 麻邇は神道、仏教で如意宝珠の事。<br><br>完全無欠の魂――丸い玉。<br><br> どんな偉人でも丸い玉はない。<br><br>真ン丸でなく、角がある。<br><br> 力は完全の魂から発する絶対力である。<br><br>如意の珠――何でも思うようになる。<br><br>神道で五百津美須麻琉の玉という。<br><br> 114 如意宝珠の体 霊体一致の法則よりすれば、「霊」としての観音様の如意の宝珠の「体」があることと存じますが、いかがでしょうか。<br><br>右、お伺い申し上げます。<br><br> 体はない。<br><br>如意の玉は光の玉で、自由自在の玉である。<br><br>（S24. 5.23） 115 麻邇と如意の玉（光の玉）、争奪戦とお返上 麻邇の玉と如意の宝珠の意味―― 同じものである。<br><br>神道では麻邇の珠、仏教では如意宝珠という。<br><br>一名五百津美須麻琉の玉ともいう。<br><br>大先生のお腹にある。<br><br>その光が噴出したのが霊写真に出た。<br><br>字を書いたものを懐へ入れるとおかげがある。<br><br> 御手から文字へ光が入って行く。<br><br>すると霊線によって大先生と繋っている。<br><br>その光によって奇蹟がある。<br><br> この玉は神様が皆欲しがり、争奪戦をした。<br><br>そして最後に龍宮の乙姫が奪った。<br><br>龍が玉を持っているのはそれである。<br><br> 今度乙姫がそれをお返しした。<br><br>即ち今から約二十年前、昭和五年五月五日（午の年午の月午の日午の時）写真をお撮りになった。<br><br>（S23） 116 麻邇の玉（三位一体の力） 麻邇の玉は、完全無欠の魂、観音様の霊になる。<br><br>玉は魂で、立派にいうため宝珠という。<br><br>五六七の三位一体の力を発揮出来る玉で、世の中を本当に救うには、麻邇の身魂の力でなくては救えない。<br><br>（S23. 6.23） 117 如意宝珠、美須麻琉の言霊義と如意の働き 麻邇の玉、如意宝珠について―― 一番力のある玉である。<br><br>絶対力ある魂、麻邇（まに）、完全無欠、神様の魂という訳である。<br><br>禅宗坊主の如意は、それを形どったものである。<br><br> 大先生のおやりになってる事は如意の働きである。<br><br> 観音様は如意の玉を持っておられたのであるが、本当に発揮する事は出来なかった。<br><br>それは、夜の世界で、水素多く、玉が包まれていたから充分に力が出なかった。<br><br> 一名五百津美須麻琉珠ともいうが、美須麻琉とは、三つの澄んだ玉という事である。<br><br> 故に五三、いづのめの魂という事である。<br><br> 118 麻邇の力（霊体一致の力） 『大神のマニの力に依らざれば曲津神には勝たん術なし』と仰せられて御座いますが、麻邇の力と申し上げるは、どう云う御力で御座いましょうか。<br><br> マニの玉とは、完全無欠の魂という事。<br><br>これは神道の言葉で、仏語では如意の宝珠という。<br><br>また五百津美須麻琉の玉ともいう。<br><br>五百津は五で、美須麻琉は三で、いづのめの玉（魂）となる。<br><br>如意は、意のままにする力で、如意輪などというのは、如意の力を揮うお働きをなさる観音という事になる。<br><br> これは日月地三位一体の力であり、霊体一致の力、自由になる力でもある。<br><br> 119 麻邇の力（絶対力） マニの力に依らざれば曲津神には勝たん術なし、との御歌に御座いますマニの力はどう言う御力で御座いましょうか。<br><br> 絶対力、仏教でいう如意宝珠。<br><br>今迄マニの力が世に出なかった。<br><br>今度観音教団で初めて発揮される。<br><br> 120 麻邇の玉――如意宝珠 麻邇の玉とは―― 麻邇の玉は仏教では如意宝珠という。<br><br>観音を如意輪観音というが、意のごとくなること。<br><br>神道で五百津美須麻琉の玉ともいうが、要するに観音様の身魂という事である。<br><br> 121 麻邇と如意 観音様の御具えます麻邇の玉と如意の宝珠とは同じもので御座いましょうか。<br><br>御伺い致します。<br><br> 同じものである。<br><br>神道では麻邇玉といい、仏教では如意宝珠という。<br><br>神道でまた、五百津美須麻琉玉ともいう。<br><br>神名、仏名の相違である。<br><br>（S24. 6.27） 122 麻邇の玉、如意宝珠と釈基 麻邇の玉、如意の宝珠について御教示の程を御願い申し上げます。<br><br> （玉は魂、今迄世の中に出た事のない力で、明主様の御腹にある。<br><br>キリストでも釈迦でも力がなかった）（S23.12. 8）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Poder</h2>
 <p><strong>108. Poder Divino, Poder Adamantino e Poder de Kannon</strong></p>
@@ -154,5 +306,48 @@ O Poder da Grande Natureza é a força que permeia toda a Criação.
 <p>Gostaríamos de receber seus ensinamentos sobre a Joia Mani e a Joia Sagrada Nyoi.</p>
 <p>(A joia é a alma. Trata-se de um poder que jamais se manifestou no mundo até agora e que reside no ventre de Meishu-Sama. Nem Cristo nem Sakyamuni possuíam tal poder).
 (8 de dezembro de 1948)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 主神篇 ８ 108-122 御力 108 神力、金剛力、観音力 神力（金剛力）観音力について―― この力の根元は同じ事であるが、その時の表わし方によって違う。<br/><br/>例えば観音力は仏界のある間の力で、月の力であり、仏の表わし方であるから弱い。<br/><br/> 神力は五六七の力とは違う。<br/><br/>最も強い力で、今迄発揮された事がなく、陰から間接的に発揮されていた。<br/><br/>観音力に対し神力は日の力である。<br/><br/>日の光は月の六十倍というから、その位力の違いがある。<br/><br/>（金剛力は、強い力という事） 109 妙智力、金剛力、絶対力、自然力 妙智力、金剛力、絶対力、大自然力のお力について御説明をお願い申し上げます。<br/><br/> 妙智力は観音力、観音の御力。<br/><br/> 金剛力は国常立尊の神の力。<br/><br/>（強い力） 絶対力は主神の力、至聖先天。<br/><br/> 大自然力は自然界全部へ遍満された力である。<br/><br/>（S24. 5.23） 110 金剛力と絶対力 金剛力とは、どういう事でありますか。<br/><br/> 金は最高を表わし剛はつよい事で、金剛力とは、高級の神が具えてる極めて強い力、即ち最も強い力、即ち絶対力である。<br/><br/>（S23） 111 観音力と神力 観音力と神力について―― 観音力は仏の最高の力、神力はそれよりもっと上である。<br/><br/> 112 如意の珠とは（未顕の魂） 如意の珠と麻邇の珠はどういうもので御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 同じもので、絶対力ある魂という事。<br/><br/>今迄世の中に出なかった。<br/><br/>今度大先生がなされる訳である。<br/><br/> 113 麻邇の力と玉――如意 麻邇の力、麻邇の玉について御説明お願い致します。<br/><br/> 麻邇は神道、仏教で如意宝珠の事。<br/><br/>完全無欠の魂――丸い玉。<br/><br/> どんな偉人でも丸い玉はない。<br/><br/>真ン丸でなく、角がある。<br/><br/> 力は完全の魂から発する絶対力である。<br/><br/>如意の珠――何でも思うようになる。<br/><br/>神道で五百津美須麻琉の玉という。<br/><br/> 114 如意宝珠の体 霊体一致の法則よりすれば、「霊」としての観音様の如意の宝珠の「体」があることと存じますが、いかがでしょうか。<br/><br/>右、お伺い申し上げます。<br/><br/> 体はない。<br/><br/>如意の玉は光の玉で、自由自在の玉である。<br/><br/>（S24. 5.23） 115 麻邇と如意の玉（光の玉）、争奪戦とお返上 麻邇の玉と如意の宝珠の意味―― 同じものである。<br/><br/>神道では麻邇の珠、仏教では如意宝珠という。<br/><br/>一名五百津美須麻琉の玉ともいう。<br/><br/>大先生のお腹にある。<br/><br/>その光が噴出したのが霊写真に出た。<br/><br/>字を書いたものを懐へ入れるとおかげがある。<br/><br/> 御手から文字へ光が入って行く。<br/><br/>すると霊線によって大先生と繋っている。<br/><br/>その光によって奇蹟がある。<br/><br/> この玉は神様が皆欲しがり、争奪戦をした。<br/><br/>そして最後に龍宮の乙姫が奪った。<br/><br/>龍が玉を持っているのはそれである。<br/><br/> 今度乙姫がそれをお返しした。<br/><br/>即ち今から約二十年前、昭和五年五月五日（午の年午の月午の日午の時）写真をお撮りになった。<br/><br/>（S23） 116 麻邇の玉（三位一体の力） 麻邇の玉は、完全無欠の魂、観音様の霊になる。<br/><br/>玉は魂で、立派にいうため宝珠という。<br/><br/>五六七の三位一体の力を発揮出来る玉で、世の中を本当に救うには、麻邇の身魂の力でなくては救えない。<br/><br/>（S23. 6.23） 117 如意宝珠、美須麻琉の言霊義と如意の働き 麻邇の玉、如意宝珠について―― 一番力のある玉である。<br/><br/>絶対力ある魂、麻邇（まに）、完全無欠、神様の魂という訳である。<br/><br/>禅宗坊主の如意は、それを形どったものである。<br/><br/> 大先生のおやりになってる事は如意の働きである。<br/><br/> 観音様は如意の玉を持っておられたのであるが、本当に発揮する事は出来なかった。<br/><br/>それは、夜の世界で、水素多く、玉が包まれていたから充分に力が出なかった。<br/><br/> 一名五百津美須麻琉珠ともいうが、美須麻琉とは、三つの澄んだ玉という事である。<br/><br/> 故に五三、いづのめの魂という事である。<br/><br/> 118 麻邇の力（霊体一致の力） 『大神のマニの力に依らざれば曲津神には勝たん術なし』と仰せられて御座いますが、麻邇の力と申し上げるは、どう云う御力で御座いましょうか。<br/><br/> マニの玉とは、完全無欠の魂という事。<br/><br/>これは神道の言葉で、仏語では如意の宝珠という。<br/><br/>また五百津美須麻琉の玉ともいう。<br/><br/>五百津は五で、美須麻琉は三で、いづのめの玉（魂）となる。<br/><br/>如意は、意のままにする力で、如意輪などというのは、如意の力を揮うお働きをなさる観音という事になる。<br/><br/> これは日月地三位一体の力であり、霊体一致の力、自由になる力でもある。<br/><br/> 119 麻邇の力（絶対力） マニの力に依らざれば曲津神には勝たん術なし、との御歌に御座いますマニの力はどう言う御力で御座いましょうか。<br/><br/> 絶対力、仏教でいう如意宝珠。<br/><br/>今迄マニの力が世に出なかった。<br/><br/>今度観音教団で初めて発揮される。<br/><br/> 120 麻邇の玉――如意宝珠 麻邇の玉とは―― 麻邇の玉は仏教では如意宝珠という。<br/><br/>観音を如意輪観音というが、意のごとくなること。<br/><br/>神道で五百津美須麻琉の玉ともいうが、要するに観音様の身魂という事である。<br/><br/> 121 麻邇と如意 観音様の御具えます麻邇の玉と如意の宝珠とは同じもので御座いましょうか。<br/><br/>御伺い致します。<br/><br/> 同じものである。<br/><br/>神道では麻邇玉といい、仏教では如意宝珠という。<br/><br/>神道でまた、五百津美須麻琉玉ともいう。<br/><br/>神名、仏名の相違である。<br/><br/>（S24. 6.27） 122 麻邇の玉、如意宝珠と釈基 麻邇の玉、如意の宝珠について御教示の程を御願い申し上げます。<br/><br/> （玉は魂、今迄世の中に出た事のない力で、明主様の御腹にある。<br/><br/>キリストでも釈迦でも力がなかった）（S23.12. 8）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qigaku04</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 医学迷信の犠牲者光明の道に救わる 『栄光』208号、昭和28(1953)年5月13日発行 東京都 照明中教会 森 三重子（25） 明主様、謹みて感謝の御報告をさせて戴きます。<br><br>昭和二十二年八月連日のうだる様な著さに倦怠感はいよいよ強く、まさか結核と診断され様とは夢想だにせず、医師の門を叩いて初診を求めたところ、すぐ勤めを止めて安静療養生活に入る様にと申し渡された時の驚きと悲しみは今もって忘れる事が出来ません。<br><br>以来二十五年四月までの約二年半の通院療養生活は医師の言う通りの安静を第一とし、栄養、注射、薬剤等の固め療法に専心、又、複雑な作業療法等によって漸く医師より全治したと申し渡されて喜んだものの、日常生活は少しも無理がきかず、睡眠時間は八時間以上厳守、疲労感の一歩手前で仕事の手を休めて安静を、又健康診断をいつもうけるようにと、風邪は絶対にひかない様に等の注意に全く身動きも出来ない窮屈な生活でございました。<br><br>再発の危険性に常に戦き、まるで毀れ物でも扱う様に始終心は不安で、少しも思い切って働く事が出来ず、どんどん思う存分働いている人がとても羨ましくてなりませんでした。<br><br>従って恢復したのだと言う、そこに真の溢るる喜悦は無く、心の中には何か一抹の淋しい影が去りませんでした。<br><br>それ程にビクビクし大切にしておりました体も衰弱療法で一時固めの現代医学では、そのまま長続きするはずがなく、普通の家事労働にさえも耐えられず到頭昨年四月再発、その当時はあれ程医師の言う通り実行していたのに、何故再発したのであろうか？ まるで廃人同様の我が身を思うとつくづく情なく絶望のどん底に突落された我が身の運命の苛酷を嘆いて病床に呻吟しておりました。<br><br>再発の事とて再び医学に頼っても完全治癒するとは到底考えられず、今直ぐにでも素晴しい新薬でも発見されない限りとても再起不可能なのだと思いますと自分の肉体的苦痛にも増して、親姉妹等に与える苦悩に胸は張り裂けんばかり、自らこの生命を絶って早くサッパリしたいと何度思ったか知れませんでした。<br><br>しかし神の深い御意志によって生かされているのだと思いますと、それは罪悪であり、最大の罪を犯す事はとても恐ろしく誘惑と戦いながら一人悩み続けていたのでございました。<br><br>療養所にでも入れば規則正しい療養生活と、同病愛に浸って少しでも精神的苦痛が和げられるであろうと思い、両親に相談お願いしておりましたところへ突然大草管長様のお嬢様より『栄光』新聞数部戴いたのでございます。<br><br>ちょうど八月二日でした。<br><br>ああ神は罪深き私をも未だ見捨て給わず、この身に御光の御手を差伸べられ給うたのでございます。<br><br>しかしその当時は誠に申訳ない事でございますが、キリスト教以外の宗教は総て迷信邪教であると全然頭から馬鹿にし、その様な宗教にいささかでも心引かれる事は悪魔の誘惑に負ける事であり、又手を触れる事さえキリストに対し深い罪を犯す恐ろしい事と信じておりましたので、お送り下さった『栄光』新聞にも目もくれず、一週間程放りっぱなしで見向きも致しませんでした。<br><br>それにも拘らず、神はどこまでも未だ私を見捨て給いませんでした。<br><br>ある日何かしら不思議な力に導かれる様にして『栄光』新聞を手に取りました。<br><br>読んで行く内に明主様が信じられない事を信じようとするのは自己欺瞞であり、病気を治して戴く時にも疑うだけ疑ってもよい、信じなくても奇蹟を見せて下さる、という様な数々の御言葉に対し、こんな虫のいい宗教があるはずがない。<br><br>又その様な偉大な力を持った神様はキリスト以外出来ないと信じておりましたので、到底信じられず所謂新興宗教らしい事を言うと思うだけでした。<br><br>お蔭話はいずれも奇蹟ばかりで、万人が万人戴けるものとは思われませんでした。<br><br>しかし千人に一人か二人位しか戴けそうもないお蔭話に私ももしも千人の中の一人に数えられたならと言う、一線の頼りない望みをかけ始めていたところへ、再び大草管長様より堀内会長先生を御紹介下さったのでございました。<br><br>早速会長先生が夜わざわざおいで下さいまして現代医学の誤謬、救世教の真髄等細かにお話し下さいまして、自分が今まで信奉して居た現代医学に疑いを持ち始め、救世教医学の理論に一つ一つ頷けるものを感じたのでした。<br><br>会長先生御自身十年間もの腸結核がこのお道により完全に癒されたその信じられない程のお元気なお姿を目のあたり見せられ、素晴しいお力にただただ驚くばかりでした。<br><br>先生よりいとも簡単に「すぐよくなりますよ、お任せなさい。<br><br>」との自信を持ったそのお言葉には余り簡単過ぎて信じられませんでした。<br><br>早速に初めて（八月下旬）お浄霊をいただきましたところ、今まで寝たっ切りで入浴すら思う様に出来ずフラフラで、一寸でも起きていられなかった程の体でしたのに、急に体に力が出て来、その晩は九時頃まで起きていても平気で、翌朝も爽やかな気持で起きられ動ける事が出来ましたのには、お浄霊の効果がこんなにも早く現われたのかしらと余りの奇蹟に今まで新興宗教なんて、と言って馬鹿にしておりました誤りを心より考えさせられました。<br><br>ただただ嬉しくその時の喜悦は何時までも忘れる事が出来ません。<br><br>二回、三回とお浄霊をしていただきます度に身の廻りの事は楽々と出来る様になり、急速度に元気になって行く私を見ては家族の者達はそれは気分的なものが大いに働いているのだ、といって一笑に付し、相手にしないのでございます。<br><br>しかし私はどうしても気分的と簡単に片付けられず、たしかに体的に変化を感じ、お道の偉大さに驚嘆するばかり、私のお縋りすべき神様はこのお道以外無いと信じ九月中旬、母と共に入信させていただいたのでございました。<br><br>十月初め会長先生と一緒に初めて箱根御参拝、僅か離床一カ月で箱根まで何の疲労感もなく、元気一杯行かせていただく事の出来る体にさせていただきました事は、余りの身の変化に夢の様でございました。<br><br>現代医学でしたらレントゲンや体温、検痰等により半年がかりで作業療法を行ったり、又全治したと言いながら再発したりする事を思います時、救われた喜びを一入深く感ずるばかりでございます。<br><br>御守護によりまして去年暮と新年の熱海御参拝も無事にさせていただきまして明主様誠に有難うございました。<br><br>第一回の御浄霊以来五カ月後の今日まで一度も床につく程の苦痛もなく御浄化させていただき、教会に上り、お手伝をさせていただいております。<br><br>十月下旬お屏風観音様御奉斎させて戴きましたところ、早速祖霊の救われました喜びを夢にて知らされ、それにより現界と共に霊界をもお救いいただけるお道の探さをしみじみと感じさせられました。<br><br>又、その夢により、死後も霊魂不滅を確信出来、祖先に対しては生前と同じ様に尽くすべき事をはっきりと分らせていただきました。<br><br>又信者の方達総てが結核患者に対しても普通人とは逆にいささかも区別したり、恐れたりしないで親しく接して下さる事に、過去において常にその様な精神的苦痛を味わっておりました私にとっては実に嬉しく感じました。<br><br>何年振りかで心も晴々と希望に燃えた新年を迎えさせて戴きました事を心より感謝申し上げる次第でございます。<br><br>「病気は浄化作用なり」という真理を体得させて下さいました上は、今後いかなる大浄化にも決して迷う事なくひたすら尊いお道発展の為に邁進致したいと念願致しております。<br><br>明主様今後共罪深き身の誠に畏れ多い事でございますが、何卒お役に立たせて戴きます様心よりお願い申し上げます。<br><br> （昭和二十八年一月十七日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Vítima da Superstição Médica, Salva pelo Caminho da Luz</h2>
 <p><strong>Jornal Glória, nº 208, publicado em 13 de maio de 1953</strong>
@@ -111,5 +266,48 @@ function toggleLang(lang) {
 <p>Após tantos anos, pude receber o Ano Novo com o coração leve e ardendo em esperança, pelo que expresso minha mais sincera gratidão.</p>
 <p>Agora que me foi permitido assimilar a verdade de que “a doença é um processo de purificação”, desejo firmemente, daqui por diante, jamais vacilar diante de qualquer grande purificação que venha a ocorrer. Anseio por devotar-me de corpo e alma ao avanço deste sagrado Caminho. Meishu-Sama, embora eu me sinta indigna de tal graça, sendo um ser repleto de máculas, rogo do fundo do meu coração que me permita ser útil em Sua Obra.</p>
 <p>(17 de janeiro de 1953)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 医学迷信の犠牲者光明の道に救わる 『栄光』208号、昭和28(1953)年5月13日発行 東京都 照明中教会 森 三重子（25） 明主様、謹みて感謝の御報告をさせて戴きます。<br/><br/>昭和二十二年八月連日のうだる様な著さに倦怠感はいよいよ強く、まさか結核と診断され様とは夢想だにせず、医師の門を叩いて初診を求めたところ、すぐ勤めを止めて安静療養生活に入る様にと申し渡された時の驚きと悲しみは今もって忘れる事が出来ません。<br/><br/>以来二十五年四月までの約二年半の通院療養生活は医師の言う通りの安静を第一とし、栄養、注射、薬剤等の固め療法に専心、又、複雑な作業療法等によって漸く医師より全治したと申し渡されて喜んだものの、日常生活は少しも無理がきかず、睡眠時間は八時間以上厳守、疲労感の一歩手前で仕事の手を休めて安静を、又健康診断をいつもうけるようにと、風邪は絶対にひかない様に等の注意に全く身動きも出来ない窮屈な生活でございました。<br/><br/>再発の危険性に常に戦き、まるで毀れ物でも扱う様に始終心は不安で、少しも思い切って働く事が出来ず、どんどん思う存分働いている人がとても羨ましくてなりませんでした。<br/><br/>従って恢復したのだと言う、そこに真の溢るる喜悦は無く、心の中には何か一抹の淋しい影が去りませんでした。<br/><br/>それ程にビクビクし大切にしておりました体も衰弱療法で一時固めの現代医学では、そのまま長続きするはずがなく、普通の家事労働にさえも耐えられず到頭昨年四月再発、その当時はあれ程医師の言う通り実行していたのに、何故再発したのであろうか？ まるで廃人同様の我が身を思うとつくづく情なく絶望のどん底に突落された我が身の運命の苛酷を嘆いて病床に呻吟しておりました。<br/><br/>再発の事とて再び医学に頼っても完全治癒するとは到底考えられず、今直ぐにでも素晴しい新薬でも発見されない限りとても再起不可能なのだと思いますと自分の肉体的苦痛にも増して、親姉妹等に与える苦悩に胸は張り裂けんばかり、自らこの生命を絶って早くサッパリしたいと何度思ったか知れませんでした。<br/><br/>しかし神の深い御意志によって生かされているのだと思いますと、それは罪悪であり、最大の罪を犯す事はとても恐ろしく誘惑と戦いながら一人悩み続けていたのでございました。<br/><br/>療養所にでも入れば規則正しい療養生活と、同病愛に浸って少しでも精神的苦痛が和げられるであろうと思い、両親に相談お願いしておりましたところへ突然大草管長様のお嬢様より『栄光』新聞数部戴いたのでございます。<br/><br/>ちょうど八月二日でした。<br/><br/>ああ神は罪深き私をも未だ見捨て給わず、この身に御光の御手を差伸べられ給うたのでございます。<br/><br/>しかしその当時は誠に申訳ない事でございますが、キリスト教以外の宗教は総て迷信邪教であると全然頭から馬鹿にし、その様な宗教にいささかでも心引かれる事は悪魔の誘惑に負ける事であり、又手を触れる事さえキリストに対し深い罪を犯す恐ろしい事と信じておりましたので、お送り下さった『栄光』新聞にも目もくれず、一週間程放りっぱなしで見向きも致しませんでした。<br/><br/>それにも拘らず、神はどこまでも未だ私を見捨て給いませんでした。<br/><br/>ある日何かしら不思議な力に導かれる様にして『栄光』新聞を手に取りました。<br/><br/>読んで行く内に明主様が信じられない事を信じようとするのは自己欺瞞であり、病気を治して戴く時にも疑うだけ疑ってもよい、信じなくても奇蹟を見せて下さる、という様な数々の御言葉に対し、こんな虫のいい宗教があるはずがない。<br/><br/>又その様な偉大な力を持った神様はキリスト以外出来ないと信じておりましたので、到底信じられず所謂新興宗教らしい事を言うと思うだけでした。<br/><br/>お蔭話はいずれも奇蹟ばかりで、万人が万人戴けるものとは思われませんでした。<br/><br/>しかし千人に一人か二人位しか戴けそうもないお蔭話に私ももしも千人の中の一人に数えられたならと言う、一線の頼りない望みをかけ始めていたところへ、再び大草管長様より堀内会長先生を御紹介下さったのでございました。<br/><br/>早速会長先生が夜わざわざおいで下さいまして現代医学の誤謬、救世教の真髄等細かにお話し下さいまして、自分が今まで信奉して居た現代医学に疑いを持ち始め、救世教医学の理論に一つ一つ頷けるものを感じたのでした。<br/><br/>会長先生御自身十年間もの腸結核がこのお道により完全に癒されたその信じられない程のお元気なお姿を目のあたり見せられ、素晴しいお力にただただ驚くばかりでした。<br/><br/>先生よりいとも簡単に「すぐよくなりますよ、お任せなさい。<br/><br/>」との自信を持ったそのお言葉には余り簡単過ぎて信じられませんでした。<br/><br/>早速に初めて（八月下旬）お浄霊をいただきましたところ、今まで寝たっ切りで入浴すら思う様に出来ずフラフラで、一寸でも起きていられなかった程の体でしたのに、急に体に力が出て来、その晩は九時頃まで起きていても平気で、翌朝も爽やかな気持で起きられ動ける事が出来ましたのには、お浄霊の効果がこんなにも早く現われたのかしらと余りの奇蹟に今まで新興宗教なんて、と言って馬鹿にしておりました誤りを心より考えさせられました。<br/><br/>ただただ嬉しくその時の喜悦は何時までも忘れる事が出来ません。<br/><br/>二回、三回とお浄霊をしていただきます度に身の廻りの事は楽々と出来る様になり、急速度に元気になって行く私を見ては家族の者達はそれは気分的なものが大いに働いているのだ、といって一笑に付し、相手にしないのでございます。<br/><br/>しかし私はどうしても気分的と簡単に片付けられず、たしかに体的に変化を感じ、お道の偉大さに驚嘆するばかり、私のお縋りすべき神様はこのお道以外無いと信じ九月中旬、母と共に入信させていただいたのでございました。<br/><br/>十月初め会長先生と一緒に初めて箱根御参拝、僅か離床一カ月で箱根まで何の疲労感もなく、元気一杯行かせていただく事の出来る体にさせていただきました事は、余りの身の変化に夢の様でございました。<br/><br/>現代医学でしたらレントゲンや体温、検痰等により半年がかりで作業療法を行ったり、又全治したと言いながら再発したりする事を思います時、救われた喜びを一入深く感ずるばかりでございます。<br/><br/>御守護によりまして去年暮と新年の熱海御参拝も無事にさせていただきまして明主様誠に有難うございました。<br/><br/>第一回の御浄霊以来五カ月後の今日まで一度も床につく程の苦痛もなく御浄化させていただき、教会に上り、お手伝をさせていただいております。<br/><br/>十月下旬お屏風観音様御奉斎させて戴きましたところ、早速祖霊の救われました喜びを夢にて知らされ、それにより現界と共に霊界をもお救いいただけるお道の探さをしみじみと感じさせられました。<br/><br/>又、その夢により、死後も霊魂不滅を確信出来、祖先に対しては生前と同じ様に尽くすべき事をはっきりと分らせていただきました。<br/><br/>又信者の方達総てが結核患者に対しても普通人とは逆にいささかも区別したり、恐れたりしないで親しく接して下さる事に、過去において常にその様な精神的苦痛を味わっておりました私にとっては実に嬉しく感じました。<br/><br/>何年振りかで心も晴々と希望に燃えた新年を迎えさせて戴きました事を心より感謝申し上げる次第でございます。<br/><br/>「病気は浄化作用なり」という真理を体得させて下さいました上は、今後いかなる大浄化にも決して迷う事なくひたすら尊いお道発展の為に邁進致したいと念願致しております。<br/><br/>明主様今後共罪深き身の誠に畏れ多い事でございますが、何卒お役に立たせて戴きます様心よりお願い申し上げます。<br/><br/> （昭和二十八年一月十七日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

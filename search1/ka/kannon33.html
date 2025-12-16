@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kannon33</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 観音力療病は何故治る乎 『新日本医術書』昭和11(1936)年2月17日執筆 古来、病気の原因については、宗教上からも医学上からも種々論議されて、今以て尽くる所がないのである。<br><br>宗教ではほとんどが罪穢説であり、医学では大体黴菌説である。<br><br>しかし、医学の黴菌説は、実際から言って疑問の余地が大いに在るのである。<br><br>何となれば、官民協力し、あれ程撲滅に努力しつつある彼の肺結核にしろ、所期の成績を挙げ得ないという事は、病原その物は黴菌以外にあるからである。<br><br>しかし、未だ発見されていないばかりである。<br><br>故に、いか程厳重な消毒を行うといえども、罹病する者は罹病し、別段、黴菌に介意しなくとも、罹病しないものはしないという例は、何を暗示しているのであろうか。<br><br>又、流行性風邪は、ほとんど全部の人間が侵されていると言ってよい位で、この場合いかにマスクをかけ、含嗽（うがい）を厳重にする者といえども、斉（ひと）しく罹病する所を見れば、黴菌罹病論は、病原の一部的説明ではあるが、断じて病原の全体を掴んだとは言えないのである。<br><br> それに引換え、宗教の罪穢説は、病原の本体を喝破したるもので、吾人といえどもこれに一点の異議は無いのである。<br><br>しかるとせば問題は、その罪穢をいかに払拭し、解消するかと言う事であって、これに依て肺結核の撲滅も、その他の伝染病もあらゆる病気の根絶も可能である事は理論と経験によって断言し得るのである。<br><br> しからば、その罪穢を解消する方法としては、いかなるものでありや、と言えば、ただ一つより有り得ないので、それは、神の御赦しのみである。<br><br>しかし、一口に神と言うが、神にも八百万あって、それぞれの役目を、分担管掌（かんしょう）され給うのである。<br><br>そうして、罪穢を赦し給う権能を有（も）ち給う神は、天地間、ただ一柱より在さないのである。<br><br>それは、宇宙の支配者たる主の神にして、その主の神の表現神で被在（あらせ）らるるのが、畏くも天照皇大神（あまてらすすめおおみかみ）様で被在らるるのである。<br><br> 天照皇大神様は、独一真神にして、最尊最貴の御神格に被在らるるを以て、直接、人間への御救いの業は不可能の御事が神律なのである。<br><br>何となれば、人民とは余りに隔絶し給うが故である。<br><br>畏多き例にはあれど、一天万乗の天皇が、御親（おんみずか）ら人民に対して玉手を染め給うの、不可能の御事と等しいのである。<br><br>これにおいてか、洽（あまね）く、世界万民を救わせ給う御心の現れとして、救いの執行者を遣（つか）わされ給うたのである。<br><br>それが観音、阿弥陀、釈迦、基督（キリスト）、マホメット、その他の各聖者達である。<br><br> しかるに、それら聖者達が、今日まで主神より委任される場合、その時代とその地方とによって限定された事であって、それは主神の御意図であるから、止むを得なかった事である。<br><br> ここで吾々は、現代を凝視する必要がある。<br><br>それは、一切の機構が世界的となった事である。<br><br>しかるに釈迦も、基督も、マホメットも、あらゆる聖者の出現した時代は、未だ一切が世界的までには、到達していなかった事である。<br><br>故に、彼らの教や努力は、いかに価値があったとしても、それは、地方的であり、暫定的でもあった事は、止むを得なかったのである。<br><br>故に元々、地方的、暫定的必要から生れた宗教であるとしたら、今日のごとき、世界的の時代を救うとしても、それは不可能である。<br><br>力が足りないからである。<br><br>恰（あたか）も、一国の必要によりて生れた政治形体を、全世界に行うとしても、出来得ないと同じ訳である。<br><br>例えば、皇道は露西亜（ロシア）人には解せまい。<br><br>フヮ〔ァ〕ッショは、亜米利加（アメリカ）には適すまい。<br><br>共産主義は日本には行い得ないようなものである。<br><br> この事に着眼の出来る人は、物象を真に観透す能力者である。<br><br>それ故に、一切が世界的にまでなった今日の時代としては、どうしても世界的救済力と、その宗教が発生されなければならない事である。<br><br>ただしかし、その時と所とが残された問題なのである。<br><br> ここでまず、その時から検討してみよう。<br><br>世界的救済がタッタ今出現したとして、時期は早過ぎるであろうか、という事である。<br><br>それに対して、否、と言う人は有るまい。<br><br>なぜなれば、現実としての世界人類の苦悩の喘ぎは、最早一日も忽（ゆるが）せには出来ない現状である。<br><br>今にして世界的救済が生れなければ、人類の前途はどうなりゆくであろう。<br><br>あらゆる不健康な人間と不健全な精神と宗教の無力と思想の混乱を見るがいい。<br><br>又、欧羅巴（ヨーロッパ）と亜細亜（アジア）の動向を認識するがいい。<br><br>それは、有史以来類例の無い凄惨時代に向いつつあるではないか。<br><br>実に、これこそいわゆる世界終末の姿ではなかろうか。<br><br>そうして、それを喰止める力、その力の存在はどこにも見当らないのである。<br><br>これらによってみるも、最早世界的宗教が発生し、世界的救済が行われなければならないところの、時の条件は充分に具（そなわ）っていると見るのが至当である。<br><br>実に最早遅疑を許さないまでに、時は迫っているのである。<br><br> 次に、所は、どこであろうか。<br><br>これは即座に日本国であると言えよう。<br><br>それは、古典や聖者の予言を藉（か）りなくとも明かである。<br><br>何となれば、東洋の精神文化と西洋の物質文化とを余す所なく吸収し、咀嚼（そしゃく）し、万世一系の天皇によって良く統治され、しかも、国際正義を遵守（じゅんしゅ）し、常に平和と道義の為、努力を続けている国、それは日本を措いて他には類型が無い事である。<br><br>この点から観ても、所は日本である事に何人も異議は無いであろう。<br><br> 故に、時は今、所は日本国に、世界的救済と宗教が生れたとしても何ら不思議は無いはずである。<br><br>しかして今や顕現すべき大宗教と人類救済の委任者は、一体無形の神であろうか、否仏であろうか、又は、有形な人であろうか、という事である。<br><br> 無形の神や、偶像的仏体では、この大事業は到底成し得るはずがない。<br><br>何となれば、今日までの救済はそれであったが為に、ついに今日のごとき地獄的世相を実現して、どうする事も出来ない現状ではないか。<br><br>故に、真の救済力を発揮するには、人としての機関でなければ到底出来得ない事は勿論である。<br><br>そうして、その機関として選まれたのが、不肖（ふしょう）、仁斎の肉体である事である。<br><br>私は自称救世主の言葉は嫌であるが、右のごとく説明するより致方がないのである。<br><br> この意味によって、世界人類を不幸と苦悩の檻から、解放させる時が来たのである。<br><br>随って、悪魔の意図から出たところの不正堕落や、暗黒思想、極端に歪められた宗教、狂い切った人間の行為等、それら一切の罪悪の根原を打ち断り、本然（ほんねん）の正しさに還さなければならない。<br><br>と共に過去数千年間滞積の罪穢によって、最早動く事の出来ない万般の行詰りの原因である、一切の汚濁を根本から浄めてあらゆる不幸を除去しなければならないのである。<br><br> かくのごとく、救済を要する人類の数限りない苦悩の中で、何と言っても病苦からの解放こそ、最重要なる救いは他には無いであろう事である。<br><br>それが即ち、観音力療病法となって、まず現われたのであるから、他のいかなる療法も、較べる事の出来ない程の効果と力があるのは当然である。<br><br> 罪穢を赦し給う権能を行使さるる御仏こそ、実に慈悲の権化とも言うべき大聖観世音菩薩である。<br><br>そうして、その救世的活動を仁斎の肉体を通して行わせられるのであるから、真の病原である罪穢の払拭されてしまう理由は、まことに瞭（あきら）かな事である。<br><br>その為にこそ、仁斎の肉体から不断に放射する霊光であって、それによって一切の曇は解消されてしまうのである。<br><br> （昭和十一年二月十七日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Razão da Cura pela Terapia do Poder de Kannon</h2>
 <p>Desde a mais remota antiguidade, a causa das doenças tem sido objeto de inúmeros debates, tanto no campo religioso quanto no âmbito da medicina, e até hoje o tema não se esgotou. As religiões, em sua maioria, atribuem a origem das enfermidades à teoria das máculas e pecados, enquanto a medicina se fundamenta, de modo geral, na teoria dos germes.</p>
@@ -106,5 +258,48 @@ function toggleLang(lang) {
 <p>Dentre todos os inumeráveis sofrimentos humanos que clamam por salvação, não há auxílio mais premente do que a libertação do flagelo das doenças. Foi justamente essa forma de salvação que se manifestou primeiramente como a Terapia do Poder de Kannon. É natural, portanto, que sua eficácia e seu poder sejam incomparáveis aos de qualquer outra terapia.</p>
 <p>O ser búdico que exerce a autoridade de perdoar as máculas e pecados é, em verdade, a Grande Santa Kannon Bodhisattva, a própria personificação da misericórdia. E, como suas atividades salvíficas são realizadas através do corpo de Jinsai, a razão pela qual as máculas e pecados — a verdadeira causa das doenças — são purificados é de uma clareza meridiana. Isso ocorre graças à Luz Espiritual que irradia incessantemente do corpo de Jinsai, por meio da qual todas as nuvens de impureza se dissolvem.</p>
 <p>(17 de fevereiro de 1936)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 観音力療病は何故治る乎 『新日本医術書』昭和11(1936)年2月17日執筆 古来、病気の原因については、宗教上からも医学上からも種々論議されて、今以て尽くる所がないのである。<br/><br/>宗教ではほとんどが罪穢説であり、医学では大体黴菌説である。<br/><br/>しかし、医学の黴菌説は、実際から言って疑問の余地が大いに在るのである。<br/><br/>何となれば、官民協力し、あれ程撲滅に努力しつつある彼の肺結核にしろ、所期の成績を挙げ得ないという事は、病原その物は黴菌以外にあるからである。<br/><br/>しかし、未だ発見されていないばかりである。<br/><br/>故に、いか程厳重な消毒を行うといえども、罹病する者は罹病し、別段、黴菌に介意しなくとも、罹病しないものはしないという例は、何を暗示しているのであろうか。<br/><br/>又、流行性風邪は、ほとんど全部の人間が侵されていると言ってよい位で、この場合いかにマスクをかけ、含嗽（うがい）を厳重にする者といえども、斉（ひと）しく罹病する所を見れば、黴菌罹病論は、病原の一部的説明ではあるが、断じて病原の全体を掴んだとは言えないのである。<br/><br/> それに引換え、宗教の罪穢説は、病原の本体を喝破したるもので、吾人といえどもこれに一点の異議は無いのである。<br/><br/>しかるとせば問題は、その罪穢をいかに払拭し、解消するかと言う事であって、これに依て肺結核の撲滅も、その他の伝染病もあらゆる病気の根絶も可能である事は理論と経験によって断言し得るのである。<br/><br/> しからば、その罪穢を解消する方法としては、いかなるものでありや、と言えば、ただ一つより有り得ないので、それは、神の御赦しのみである。<br/><br/>しかし、一口に神と言うが、神にも八百万あって、それぞれの役目を、分担管掌（かんしょう）され給うのである。<br/><br/>そうして、罪穢を赦し給う権能を有（も）ち給う神は、天地間、ただ一柱より在さないのである。<br/><br/>それは、宇宙の支配者たる主の神にして、その主の神の表現神で被在（あらせ）らるるのが、畏くも天照皇大神（あまてらすすめおおみかみ）様で被在らるるのである。<br/><br/> 天照皇大神様は、独一真神にして、最尊最貴の御神格に被在らるるを以て、直接、人間への御救いの業は不可能の御事が神律なのである。<br/><br/>何となれば、人民とは余りに隔絶し給うが故である。<br/><br/>畏多き例にはあれど、一天万乗の天皇が、御親（おんみずか）ら人民に対して玉手を染め給うの、不可能の御事と等しいのである。<br/><br/>これにおいてか、洽（あまね）く、世界万民を救わせ給う御心の現れとして、救いの執行者を遣（つか）わされ給うたのである。<br/><br/>それが観音、阿弥陀、釈迦、基督（キリスト）、マホメット、その他の各聖者達である。<br/><br/> しかるに、それら聖者達が、今日まで主神より委任される場合、その時代とその地方とによって限定された事であって、それは主神の御意図であるから、止むを得なかった事である。<br/><br/> ここで吾々は、現代を凝視する必要がある。<br/><br/>それは、一切の機構が世界的となった事である。<br/><br/>しかるに釈迦も、基督も、マホメットも、あらゆる聖者の出現した時代は、未だ一切が世界的までには、到達していなかった事である。<br/><br/>故に、彼らの教や努力は、いかに価値があったとしても、それは、地方的であり、暫定的でもあった事は、止むを得なかったのである。<br/><br/>故に元々、地方的、暫定的必要から生れた宗教であるとしたら、今日のごとき、世界的の時代を救うとしても、それは不可能である。<br/><br/>力が足りないからである。<br/><br/>恰（あたか）も、一国の必要によりて生れた政治形体を、全世界に行うとしても、出来得ないと同じ訳である。<br/><br/>例えば、皇道は露西亜（ロシア）人には解せまい。<br/><br/>フヮ〔ァ〕ッショは、亜米利加（アメリカ）には適すまい。<br/><br/>共産主義は日本には行い得ないようなものである。<br/><br/> この事に着眼の出来る人は、物象を真に観透す能力者である。<br/><br/>それ故に、一切が世界的にまでなった今日の時代としては、どうしても世界的救済力と、その宗教が発生されなければならない事である。<br/><br/>ただしかし、その時と所とが残された問題なのである。<br/><br/> ここでまず、その時から検討してみよう。<br/><br/>世界的救済がタッタ今出現したとして、時期は早過ぎるであろうか、という事である。<br/><br/>それに対して、否、と言う人は有るまい。<br/><br/>なぜなれば、現実としての世界人類の苦悩の喘ぎは、最早一日も忽（ゆるが）せには出来ない現状である。<br/><br/>今にして世界的救済が生れなければ、人類の前途はどうなりゆくであろう。<br/><br/>あらゆる不健康な人間と不健全な精神と宗教の無力と思想の混乱を見るがいい。<br/><br/>又、欧羅巴（ヨーロッパ）と亜細亜（アジア）の動向を認識するがいい。<br/><br/>それは、有史以来類例の無い凄惨時代に向いつつあるではないか。<br/><br/>実に、これこそいわゆる世界終末の姿ではなかろうか。<br/><br/>そうして、それを喰止める力、その力の存在はどこにも見当らないのである。<br/><br/>これらによってみるも、最早世界的宗教が発生し、世界的救済が行われなければならないところの、時の条件は充分に具（そなわ）っていると見るのが至当である。<br/><br/>実に最早遅疑を許さないまでに、時は迫っているのである。<br/><br/> 次に、所は、どこであろうか。<br/><br/>これは即座に日本国であると言えよう。<br/><br/>それは、古典や聖者の予言を藉（か）りなくとも明かである。<br/><br/>何となれば、東洋の精神文化と西洋の物質文化とを余す所なく吸収し、咀嚼（そしゃく）し、万世一系の天皇によって良く統治され、しかも、国際正義を遵守（じゅんしゅ）し、常に平和と道義の為、努力を続けている国、それは日本を措いて他には類型が無い事である。<br/><br/>この点から観ても、所は日本である事に何人も異議は無いであろう。<br/><br/> 故に、時は今、所は日本国に、世界的救済と宗教が生れたとしても何ら不思議は無いはずである。<br/><br/>しかして今や顕現すべき大宗教と人類救済の委任者は、一体無形の神であろうか、否仏であろうか、又は、有形な人であろうか、という事である。<br/><br/> 無形の神や、偶像的仏体では、この大事業は到底成し得るはずがない。<br/><br/>何となれば、今日までの救済はそれであったが為に、ついに今日のごとき地獄的世相を実現して、どうする事も出来ない現状ではないか。<br/><br/>故に、真の救済力を発揮するには、人としての機関でなければ到底出来得ない事は勿論である。<br/><br/>そうして、その機関として選まれたのが、不肖（ふしょう）、仁斎の肉体である事である。<br/><br/>私は自称救世主の言葉は嫌であるが、右のごとく説明するより致方がないのである。<br/><br/> この意味によって、世界人類を不幸と苦悩の檻から、解放させる時が来たのである。<br/><br/>随って、悪魔の意図から出たところの不正堕落や、暗黒思想、極端に歪められた宗教、狂い切った人間の行為等、それら一切の罪悪の根原を打ち断り、本然（ほんねん）の正しさに還さなければならない。<br/><br/>と共に過去数千年間滞積の罪穢によって、最早動く事の出来ない万般の行詰りの原因である、一切の汚濁を根本から浄めてあらゆる不幸を除去しなければならないのである。<br/><br/> かくのごとく、救済を要する人類の数限りない苦悩の中で、何と言っても病苦からの解放こそ、最重要なる救いは他には無いであろう事である。<br/><br/>それが即ち、観音力療病法となって、まず現われたのであるから、他のいかなる療法も、較べる事の出来ない程の効果と力があるのは当然である。<br/><br/> 罪穢を赦し給う権能を行使さるる御仏こそ、実に慈悲の権化とも言うべき大聖観世音菩薩である。<br/><br/>そうして、その救世的活動を仁斎の肉体を通して行わせられるのであるから、真の病原である罪穢の払拭されてしまう理由は、まことに瞭（あきら）かな事である。<br/><br/>その為にこそ、仁斎の肉体から不断に放射する霊光であって、それによって一切の曇は解消されてしまうのである。<br/><br/> （昭和十一年二月十七日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

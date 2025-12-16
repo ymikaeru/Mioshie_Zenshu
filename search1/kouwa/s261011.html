@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s261011</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年10月11日） 『御教え集』3号、昭和26(1951)年11月25日発行 昭和二十六年十月十一日 お蔭話で、良く御霊紙を貼って、だいぶお蔭を戴いていると言う報告がありますが、浄霊で治りますけれども、御霊紙は、また特種の――特別の力があるんです。<br><br>昔はよく拵えて別けてやったものです。<br><br>例えば瘍疔なんかできますが、御霊紙を貼っただけでも――その時分は御霊膏と言ってましたが、膏薬の膏ですが、瘍疔なんかは直に治るんです。<br><br>実に簡単にね。<br><br>それから「おひねり」と言う一々小さい字を書いたものを作ったが、今度は御霊紙を拵えましたから、今日から分けるつもりです。<br><br>それは、もちろん「オデキ」とか腫物とか、そう言うものに貼って良いし、それからお腹の中――体内の病気の時、それを小さく切って、あるいはちぎってでも良いが、それを水で飲むと、非常におかげがありますからね。<br><br>それがあると気強いですね。<br><br>それを続けてやりたかったが、以前は非常にやかましくて、口に入れるものとかは、《我々は消毒とかそう言う事をしないから》危険だという。<br><br>こっちは何でもないが、他の宗教で、護符だとかを水で飲ませるとかやったが、あれをやかましく言われたから、私の方もつまらない事で引っかかるからよしたんです。<br><br>今日はその時分と全然違いますからね。<br><br>最近気が付いたものですから、そう言う風にした訳で、今度は大いに利用した方が良いと思います。<br><br> （御論文「 大宅壮一という人 」のあとの御教）【栄光新聞 一二九号】 これはちょっとお笑い草に書いた。<br><br>大宅壮一という人が、日々新聞に三日間続けて――まあ悪口ですね――書いてあった。<br><br>この人は昔から、私を親の仇のように思って、よくやるんですが、それについて少しばかり書いた。<br><br>今度の新聞に出そうと思う。<br><br>いろいろとメシヤ教を邪魔するんですね。<br><br>ところがご本人ではないんです。<br><br>つまり邪神ですね。<br><br>邪神界では、私というのが出たので怖がって、何とかしてやっつけなければならないというので、あらゆる計画をして努力しているんです。<br><br>こう言うのは邪神の中のインテリですね。<br><br>それが憑いてゆすぶるんです。<br><br>お前、こういう風に書け、岡田と言うのはけしからん。<br><br>こうだ。<br><br>こうしなければいけないといって、しきりにその人の心を動かす。<br><br>そういう事は、邪神の少し力のあるのにあったら一溜りもないんですからね。<br><br>二ヶ月ばかり前に書いたのを名誉毀損の訴えをしたが、それ以来、「栄光」新聞も配っている。<br><br>それも、読んだか読まないんだか分からないが、なにしろ恐ろしくて読めないんですね。<br><br>邪神は、あれを読まれるのが怖いので、読ませないようにする。<br><br>しかし、妻君だとか読みますから、段々心が動くのと、新聞が家にあると、新聞から光が出ますから、その家が段々明るくなりますから、それに反抗的に余計こっちに妨害しようというんです。<br><br>今度の現れもそうです。<br><br>しかし、結局段々改心して頭を下げるか、結局お陀仏になって、あの世に行くか、どっちかです。<br><br> 裁判官、検事、警察官等にも、半年程前から「栄光」新聞をやってますが、これも例の邪神が抑えて放さないから、まだまだ改心するどころではない。<br><br>ますます悪を逞しくしている。<br><br>なにしろ、邪神の方では大変なんですからね。<br><br>そう言う事を今書いているが、これは非常に面白い記事ですが、この次あたりにね。<br><br>邪神のどんな奴でも私の側に寄れませんからね。<br><br>そこで、私の周囲の者にですね。<br><br>これはちょいちょいやるが、それも長くは憑けない。<br><br>大抵数分くらいですね。<br><br>何時間も憑けない。<br><br>これは良く判るので――何か、お祭りがあるとか、重要な人と面会する時、私に腹を立たせようというんです。<br><br>自分には分からないんですが、邪神がやるんです。<br><br>それ以上は憑けないんです。<br><br>それから、信者の人でも、ちゃんと信仰の固まった人にはどうする事も出来ないから、新しくやって来る人とかを邪魔しようとして、あの手この手でやるんです。<br><br>だから、信仰に入ろうという人が入らなかったり、来る人が来なかったりするんです。<br><br>昔は、邪神の方も大分強かったが、この頃は年々弱っている。<br><br>だから信者も増えていくんですがね。<br><br> 戦争も同じ事です。<br><br>今アメリカとソ連が戦争してますが、あれと同じです。<br><br> そう言う訳で、邪神が一番目をつけるのが官憲、役人と新聞ですね。<br><br>これは、邪神の頭目が皆そうです。<br><br>頭目が憑って――なにしろ、今社会で権力を持っているのは役人と新聞ですね。<br><br>これが一番の権力を持っている。<br><br>これの勢力を、頭目は始終狙っている。<br><br>そうして、メシヤ教をやっつけようやっつけようと狙っている。<br><br>しかし今日は民主主義政治になっているので、めちゃくちゃなことは出来ない。<br><br>しかし去年の事件のように拷問のような事をやったんですね。<br><br>けれども、それが現在の状態ですからね。<br><br>勝ったり負けたりしているうちに、段々神様の方が勝って行くんです。<br><br>つまり、神様と悪魔の闘いですね。<br><br>私は神の総大将になっている。<br><br>また、悪の総大将がありますからね。<br><br>これは以前から始終狙っている。<br><br>そのやり口を始終見ていると、面白いものです。<br><br>この頃は大分神様が勝っちゃったんでね。<br><br>悪魔の方で教団を狙って、随分入り込んできました――昨年の事件を契機として――邪神の方はほとんど今は逃げちゃったり窒息したりした。<br><br>そんな訳で、大分楽になりました。<br><br>結局、こっちが全部勝っちゃったのが五六七の世なんです。<br><br>もう一息というところですね。<br><br>まだ、邪神の方の小童がやっているのがね――先にもそれだけの力があるんですね。<br><br>それで、邪神が本当に悪い事を思わせるのは、そう怖くはないが善の仮面を被るのは怖いんですね。<br><br>新宗教は全部インチキだ。<br><br>戦後の社会に乗じてうまくだまして――金をもうけてやっている。<br><br>その親玉がメシヤ教で、その親玉が岡田茂吉だ。<br><br>と、邪神が思わせるんです。<br><br>それで、そうかな――と思ってやるんです。<br><br>大宅壮一というのは、新宗教というのは、敵みたいに思って書いてますが、かわいそうなものですね。<br><br>いずれ地獄の苦しみをしなければならないがね。<br><br> （御論文「 経と緯 」のあとの御教） これは今まで書いたり言った通りした事ばかりですが、これは「文明の創造」の宗教編に入れるものですから、それで読んだ訳なんです。<br><br>ただ、急所というべきは、人間は全て平凡に見える人が偉いんです。<br><br>普通偉いというと、変わった風ですが、それにごまかされるんですよ。<br><br>ですから、宗教家で、何かと言うと、いやに普通の人とは変わった格好をしますがね、頭の毛を長くしたり、ひげをうんと生やしたりしますが、あれは本当に偉くはないんです。<br><br>ですから、それを頭に置いておくと間違いないですね。<br><br>ですから、私に初めて会った人は、よく皆んな驚くんです。<br><br>教主とか何んとか――教祖様なんて、生神様然としているが、私は全然そんな事はないからね。<br><br>びっくりして――分からない人も、好感を持つんです。<br><br>そんなような具合で、要するに、どっちか――経とか、緯とか。<br><br>右とか、左とかに偏らないとすると、どうしても平凡になっちゃうんですね。<br><br>だから、仕事の出来る人とか――結果の良い人は、どこが悪いか分からないようで、あたりが極く良いんです。<br><br>ところが世の中は知らないから、変わった人が偉いように思われる心理状態のために、偉く見せようという人は、変わった事を工夫してやりますが、一つの間違いですが、それを言いたいためにこれを書いたんです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Poder do Papel Sagrado e a Luta Espiritual</h2>
 <p>Tenho recebido diversos relatos de graças alcançadas que mencionam os bons resultados obtidos com a aplicação do Papel Sagrado (<em>Goreishi</em> - 御霊紙). Embora o Johrei promova a cura, o Papel Sagrado possui um poder especial, de natureza distinta. Antigamente, costumávamos prepará-lo e distribuí-lo com frequência. Naquela época, era chamado de <em>Goreiko</em> (御霊膏), utilizando o ideograma de "pomada", e curava prontamente furúnculos e abcessos. De fato, com notável simplicidade. Criávamos também os chamados <em>ohineri</em>, papéis com pequenas inscrições. Agora, voltamos a produzir o <em>Goreishi</em>, e pretendemos distribuí-lo a partir de hoje.</p>
@@ -109,5 +261,48 @@ function toggleLang(lang) {
 <p>O ponto crucial, entretanto, é que as pessoas verdadeiramente notáveis são aquelas que aparentam ser perfeitamente comuns. Geralmente, a sociedade associa a grandeza a um comportamento excêntrico, mas isso é um engano. Observamos líderes religiosos que, para se destacarem, adotam aparências peculiares, como deixar os cabelos compridos ou ostentar longas barbas. Saibam que esses não são os verdadeiramente grandiosos. Se mantiverem isso em mente, não cometerão equívocos.</p>
 <p>Aqueles que me encontram pela primeira vez costumam ficar surpresos. Esperam que o líder de uma igreja, o fundador, se porte como um deus vivo, mas minha atitude é completamente desprovida de tal afetação. Essa naturalidade os surpreende e, mesmo aqueles que não me compreendem de imediato, acabam por nutrir uma impressão favorável.</p>
 <p>Em essência, quando uma pessoa não pende para nenhum extremo — seja o vertical ou o horizontal, a direita ou a esquerda —, ela se torna, inevitavelmente, alguém comum. As pessoas realmente capazes, que produzem bons resultados, parecem não ter defeitos e são extremamente agradáveis em seu convívio. O mundo, todavia, desconhece essa verdade. Em virtude de uma predisposição psicológica que enxerga grandeza na excentricidade, muitos se esforçam para parecer diferentes, elaborando artifícios para se destacar. Escrevi este artigo justamente para apontar esse equívoco fundamental.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年10月11日） 『御教え集』3号、昭和26(1951)年11月25日発行 昭和二十六年十月十一日 お蔭話で、良く御霊紙を貼って、だいぶお蔭を戴いていると言う報告がありますが、浄霊で治りますけれども、御霊紙は、また特種の――特別の力があるんです。<br/><br/>昔はよく拵えて別けてやったものです。<br/><br/>例えば瘍疔なんかできますが、御霊紙を貼っただけでも――その時分は御霊膏と言ってましたが、膏薬の膏ですが、瘍疔なんかは直に治るんです。<br/><br/>実に簡単にね。<br/><br/>それから「おひねり」と言う一々小さい字を書いたものを作ったが、今度は御霊紙を拵えましたから、今日から分けるつもりです。<br/><br/>それは、もちろん「オデキ」とか腫物とか、そう言うものに貼って良いし、それからお腹の中――体内の病気の時、それを小さく切って、あるいはちぎってでも良いが、それを水で飲むと、非常におかげがありますからね。<br/><br/>それがあると気強いですね。<br/><br/>それを続けてやりたかったが、以前は非常にやかましくて、口に入れるものとかは、《我々は消毒とかそう言う事をしないから》危険だという。<br/><br/>こっちは何でもないが、他の宗教で、護符だとかを水で飲ませるとかやったが、あれをやかましく言われたから、私の方もつまらない事で引っかかるからよしたんです。<br/><br/>今日はその時分と全然違いますからね。<br/><br/>最近気が付いたものですから、そう言う風にした訳で、今度は大いに利用した方が良いと思います。<br/><br/> （御論文「 大宅壮一という人 」のあとの御教）【栄光新聞 一二九号】 これはちょっとお笑い草に書いた。<br/><br/>大宅壮一という人が、日々新聞に三日間続けて――まあ悪口ですね――書いてあった。<br/><br/>この人は昔から、私を親の仇のように思って、よくやるんですが、それについて少しばかり書いた。<br/><br/>今度の新聞に出そうと思う。<br/><br/>いろいろとメシヤ教を邪魔するんですね。<br/><br/>ところがご本人ではないんです。<br/><br/>つまり邪神ですね。<br/><br/>邪神界では、私というのが出たので怖がって、何とかしてやっつけなければならないというので、あらゆる計画をして努力しているんです。<br/><br/>こう言うのは邪神の中のインテリですね。<br/><br/>それが憑いてゆすぶるんです。<br/><br/>お前、こういう風に書け、岡田と言うのはけしからん。<br/><br/>こうだ。<br/><br/>こうしなければいけないといって、しきりにその人の心を動かす。<br/><br/>そういう事は、邪神の少し力のあるのにあったら一溜りもないんですからね。<br/><br/>二ヶ月ばかり前に書いたのを名誉毀損の訴えをしたが、それ以来、「栄光」新聞も配っている。<br/><br/>それも、読んだか読まないんだか分からないが、なにしろ恐ろしくて読めないんですね。<br/><br/>邪神は、あれを読まれるのが怖いので、読ませないようにする。<br/><br/>しかし、妻君だとか読みますから、段々心が動くのと、新聞が家にあると、新聞から光が出ますから、その家が段々明るくなりますから、それに反抗的に余計こっちに妨害しようというんです。<br/><br/>今度の現れもそうです。<br/><br/>しかし、結局段々改心して頭を下げるか、結局お陀仏になって、あの世に行くか、どっちかです。<br/><br/> 裁判官、検事、警察官等にも、半年程前から「栄光」新聞をやってますが、これも例の邪神が抑えて放さないから、まだまだ改心するどころではない。<br/><br/>ますます悪を逞しくしている。<br/><br/>なにしろ、邪神の方では大変なんですからね。<br/><br/>そう言う事を今書いているが、これは非常に面白い記事ですが、この次あたりにね。<br/><br/>邪神のどんな奴でも私の側に寄れませんからね。<br/><br/>そこで、私の周囲の者にですね。<br/><br/>これはちょいちょいやるが、それも長くは憑けない。<br/><br/>大抵数分くらいですね。<br/><br/>何時間も憑けない。<br/><br/>これは良く判るので――何か、お祭りがあるとか、重要な人と面会する時、私に腹を立たせようというんです。<br/><br/>自分には分からないんですが、邪神がやるんです。<br/><br/>それ以上は憑けないんです。<br/><br/>それから、信者の人でも、ちゃんと信仰の固まった人にはどうする事も出来ないから、新しくやって来る人とかを邪魔しようとして、あの手この手でやるんです。<br/><br/>だから、信仰に入ろうという人が入らなかったり、来る人が来なかったりするんです。<br/><br/>昔は、邪神の方も大分強かったが、この頃は年々弱っている。<br/><br/>だから信者も増えていくんですがね。<br/><br/> 戦争も同じ事です。<br/><br/>今アメリカとソ連が戦争してますが、あれと同じです。<br/><br/> そう言う訳で、邪神が一番目をつけるのが官憲、役人と新聞ですね。<br/><br/>これは、邪神の頭目が皆そうです。<br/><br/>頭目が憑って――なにしろ、今社会で権力を持っているのは役人と新聞ですね。<br/><br/>これが一番の権力を持っている。<br/><br/>これの勢力を、頭目は始終狙っている。<br/><br/>そうして、メシヤ教をやっつけようやっつけようと狙っている。<br/><br/>しかし今日は民主主義政治になっているので、めちゃくちゃなことは出来ない。<br/><br/>しかし去年の事件のように拷問のような事をやったんですね。<br/><br/>けれども、それが現在の状態ですからね。<br/><br/>勝ったり負けたりしているうちに、段々神様の方が勝って行くんです。<br/><br/>つまり、神様と悪魔の闘いですね。<br/><br/>私は神の総大将になっている。<br/><br/>また、悪の総大将がありますからね。<br/><br/>これは以前から始終狙っている。<br/><br/>そのやり口を始終見ていると、面白いものです。<br/><br/>この頃は大分神様が勝っちゃったんでね。<br/><br/>悪魔の方で教団を狙って、随分入り込んできました――昨年の事件を契機として――邪神の方はほとんど今は逃げちゃったり窒息したりした。<br/><br/>そんな訳で、大分楽になりました。<br/><br/>結局、こっちが全部勝っちゃったのが五六七の世なんです。<br/><br/>もう一息というところですね。<br/><br/>まだ、邪神の方の小童がやっているのがね――先にもそれだけの力があるんですね。<br/><br/>それで、邪神が本当に悪い事を思わせるのは、そう怖くはないが善の仮面を被るのは怖いんですね。<br/><br/>新宗教は全部インチキだ。<br/><br/>戦後の社会に乗じてうまくだまして――金をもうけてやっている。<br/><br/>その親玉がメシヤ教で、その親玉が岡田茂吉だ。<br/><br/>と、邪神が思わせるんです。<br/><br/>それで、そうかな――と思ってやるんです。<br/><br/>大宅壮一というのは、新宗教というのは、敵みたいに思って書いてますが、かわいそうなものですね。<br/><br/>いずれ地獄の苦しみをしなければならないがね。<br/><br/> （御論文「 経と緯 」のあとの御教） これは今まで書いたり言った通りした事ばかりですが、これは「文明の創造」の宗教編に入れるものですから、それで読んだ訳なんです。<br/><br/>ただ、急所というべきは、人間は全て平凡に見える人が偉いんです。<br/><br/>普通偉いというと、変わった風ですが、それにごまかされるんですよ。<br/><br/>ですから、宗教家で、何かと言うと、いやに普通の人とは変わった格好をしますがね、頭の毛を長くしたり、ひげをうんと生やしたりしますが、あれは本当に偉くはないんです。<br/><br/>ですから、それを頭に置いておくと間違いないですね。<br/><br/>ですから、私に初めて会った人は、よく皆んな驚くんです。<br/><br/>教主とか何んとか――教祖様なんて、生神様然としているが、私は全然そんな事はないからね。<br/><br/>びっくりして――分からない人も、好感を持つんです。<br/><br/>そんなような具合で、要するに、どっちか――経とか、緯とか。<br/><br/>右とか、左とかに偏らないとすると、どうしても平凡になっちゃうんですね。<br/><br/>だから、仕事の出来る人とか――結果の良い人は、どこが悪いか分からないようで、あたりが極く良いんです。<br/><br/>ところが世の中は知らないから、変わった人が偉いように思われる心理状態のために、偉く見せようという人は、変わった事を工夫してやりますが、一つの間違いですが、それを言いたいためにこれを書いたんです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

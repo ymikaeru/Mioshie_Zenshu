@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>aru07</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ある婦人の話 自観叢書第9篇『光への道』P.38、昭和24(1949)年12月30日発行 この婦人は当時二十五、六歳くらいの人妻であったが実に不思議な病気で、サンザ医療を尽したが治らない。<br><br>その原因はといえば、結婚後三年間に二人の子供を産み、その後間もなく自分はジフテリヤに罹り注射を受けたところ、薬が強過ぎたためか一週間くらい人事不省に陥った。<br><br>それから一年に数回入院し、入院と入院の期間は主治医の診療を受けていたが徐々として悪化し、最早どうにもならなくなったので私の所へ来たので、見ると瞑目しながら蚊の鳴くような声で口をきくのである。<br><br>いわく、「眼を開けているのが何よりつらく、頭痛、食欲不振、歩行困難、不眠等で、全身疲労倦怠感著しく、ようやく生きているに過ぎない」という状態である。<br><br>治療をすると盛んにゲップをする。<br><br>霊を入れる個所から必ずゲップが連続的に出る。<br><br>しかもそのゲップは非常に臭い。<br><br>遂には肛門ではなく陰部からゲップが出る。<br><br>放庇と同じで、盛んに出るのでその臭気に堪えなかったのである。<br><br>そうしてなかなか効果が現われず、一進一退をたどる中、衰弱その極に達し、いよいよ断末魔が来た。<br><br>医師の診察を受けると、もはや数日の生命だとの宣告である。<br><br> ところが、実に書きづらい事だが、こういう事があった。<br><br>その夫というのが某省官吏で課長級である。<br><br>妻が死ぬと決るや、早速モーニングを誂えた。<br><br>妻が質（たず）ねると彼は、「お前はもう直ぐに死ぬのだから葬式の時の礼服が要るから註文した」というので、私はそれを聞いて何たる冷たい人間かと驚いたのである。<br><br>その刺戟が私をして助けたい熱意が強くなったためか、数日を経て僅かながらも好転しかけ、一ケ月くらい経て生命の危険がないまでに恢復した。<br><br>ところが夫たる彼は私を怨み出した。<br><br>そのため邪魔をする事おびただしい。<br><br>二、三日おきにその家へ治療に行ったのだが、随分よくなったかと思って行ってみると案外悪いので、きくと夫人は、「先生に良くして戴いても、夫は私の気持の悪くなるような事ばかりくどくどしくいうので、こんなに悪くなってしまう」と言うので、私もその都度憤慨に堪えなかったのである。<br><br>こういう事も聞いた。<br><br> 「お前が先に○○教を勧められた時にそれへ入らなかったため、岡田に助けられてしまった。<br><br>お前が死ねば、財産はみんな俺のものになったのに残念で堪らない」と言うのである。<br><br>というのは、彼は某大学出で養子に来たので、かなりの財産は妻君の名義になっていたからである。<br><br>それを聞いた私は、「世の中にはヒドい奴もあるものだ」と憤った事が幾度あったか知れない。<br><br> そうこうする中、漸次快方に向かい、日常の仕事も出来るようになったが、天網恢々疎にして漏らさずというが、その夫は腹膜炎に罹った。<br><br>もちろん医療一方でやったが漸次悪化して、ついに親戚が私の所へ来て是非助けて貰いたいと懇願するので、私も嫌で堪らない心を制えてその家に行き治療二十分くらいした時、彼は仰向けになっていたが、「先生もうよしましょう」といいながらクルリと横を向いてしまった。<br><br>私は呆れて憤怒の心を制えながらその家を辞去したところ、翌日夫人が来て非常に謝ったが、私はどんな事があっても二度と治療はしないと言って断ったのである。<br><br>それから医療一方で一進一退しつつ漸次悪化し、数ケ月後死亡したのである。<br><br>初め夫人を私が手にかけた頃は夫は健康であったに係わらず、数年後反対の結果になったという事は、不思議ではないが不思議とも思えるのである。<br><br>右夫人は未亡人として今日二児を養育しつつすこぶる健康な生活を送っている。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Relato de Certa Senhora</h2>
 <p>Relato aqui o caso de uma senhora casada, que na época contava com vinte e cinco ou vinte e seis anos de idade. Acometida por uma enfermidade verdadeiramente misteriosa, esgotara todos os recursos da medicina, sem obter a cura. Quanto à origem de seu mal, soube que, nos três anos que se seguiram ao seu casamento, ela dera à luz dois filhos. Pouco tempo depois, contraiu difteria e, ao receber uma injeção, talvez pela potência do medicamento, permaneceu inconsciente por cerca de uma semana.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Enquanto isso, a senhora prosseguia em sua recuperação gradual, a ponto de conseguir reassumir suas tarefas cotidianas. Diz o adágio, contudo, que a malha da Lei Divina é vasta, mas nada lhe escapa. Seu marido foi acometido de peritonite. Ele se valeu exclusivamente de recursos médicos, mas seu estado se deteriorava progressivamente. Por fim, seus parentes me procuraram, suplicando que eu o salvasse a qualquer custo. Contendo a imensa relutância que sentia, dirigi-me à sua residência. Após cerca de vinte minutos de tratamento, enquanto ele jazia de costas, disse: "Mestre, já é o suficiente", e virou-se bruscamente de lado.</p>
 <p>Atônito, controlei a fúria que me subia à alma e retirei-me. No dia seguinte, a esposa veio se desculpar profusamente, mas recusei, afirmando que, sob nenhuma hipótese, voltaria a tratá-lo. A partir de então, contando apenas com a medicina, sua condição oscilou entre melhoras e pioras, deteriorando-se gradualmente até que, meses depois, ele veio a falecer. É um fato que pode parecer estranho, embora não o seja: quando comecei a cuidar da esposa, o marido era saudável; alguns anos mais tarde, o resultado se inverteu por completo.</p>
 <p>Atualmente, aquela senhora vive como viúva, criando seus dois filhos e desfrutando de uma vida plena e saudável.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ある婦人の話 自観叢書第9篇『光への道』P.38、昭和24(1949)年12月30日発行 この婦人は当時二十五、六歳くらいの人妻であったが実に不思議な病気で、サンザ医療を尽したが治らない。<br/><br/>その原因はといえば、結婚後三年間に二人の子供を産み、その後間もなく自分はジフテリヤに罹り注射を受けたところ、薬が強過ぎたためか一週間くらい人事不省に陥った。<br/><br/>それから一年に数回入院し、入院と入院の期間は主治医の診療を受けていたが徐々として悪化し、最早どうにもならなくなったので私の所へ来たので、見ると瞑目しながら蚊の鳴くような声で口をきくのである。<br/><br/>いわく、「眼を開けているのが何よりつらく、頭痛、食欲不振、歩行困難、不眠等で、全身疲労倦怠感著しく、ようやく生きているに過ぎない」という状態である。<br/><br/>治療をすると盛んにゲップをする。<br/><br/>霊を入れる個所から必ずゲップが連続的に出る。<br/><br/>しかもそのゲップは非常に臭い。<br/><br/>遂には肛門ではなく陰部からゲップが出る。<br/><br/>放庇と同じで、盛んに出るのでその臭気に堪えなかったのである。<br/><br/>そうしてなかなか効果が現われず、一進一退をたどる中、衰弱その極に達し、いよいよ断末魔が来た。<br/><br/>医師の診察を受けると、もはや数日の生命だとの宣告である。<br/><br/> ところが、実に書きづらい事だが、こういう事があった。<br/><br/>その夫というのが某省官吏で課長級である。<br/><br/>妻が死ぬと決るや、早速モーニングを誂えた。<br/><br/>妻が質（たず）ねると彼は、「お前はもう直ぐに死ぬのだから葬式の時の礼服が要るから註文した」というので、私はそれを聞いて何たる冷たい人間かと驚いたのである。<br/><br/>その刺戟が私をして助けたい熱意が強くなったためか、数日を経て僅かながらも好転しかけ、一ケ月くらい経て生命の危険がないまでに恢復した。<br/><br/>ところが夫たる彼は私を怨み出した。<br/><br/>そのため邪魔をする事おびただしい。<br/><br/>二、三日おきにその家へ治療に行ったのだが、随分よくなったかと思って行ってみると案外悪いので、きくと夫人は、「先生に良くして戴いても、夫は私の気持の悪くなるような事ばかりくどくどしくいうので、こんなに悪くなってしまう」と言うので、私もその都度憤慨に堪えなかったのである。<br/><br/>こういう事も聞いた。<br/><br/> 「お前が先に○○教を勧められた時にそれへ入らなかったため、岡田に助けられてしまった。<br/><br/>お前が死ねば、財産はみんな俺のものになったのに残念で堪らない」と言うのである。<br/><br/>というのは、彼は某大学出で養子に来たので、かなりの財産は妻君の名義になっていたからである。<br/><br/>それを聞いた私は、「世の中にはヒドい奴もあるものだ」と憤った事が幾度あったか知れない。<br/><br/> そうこうする中、漸次快方に向かい、日常の仕事も出来るようになったが、天網恢々疎にして漏らさずというが、その夫は腹膜炎に罹った。<br/><br/>もちろん医療一方でやったが漸次悪化して、ついに親戚が私の所へ来て是非助けて貰いたいと懇願するので、私も嫌で堪らない心を制えてその家に行き治療二十分くらいした時、彼は仰向けになっていたが、「先生もうよしましょう」といいながらクルリと横を向いてしまった。<br/><br/>私は呆れて憤怒の心を制えながらその家を辞去したところ、翌日夫人が来て非常に謝ったが、私はどんな事があっても二度と治療はしないと言って断ったのである。<br/><br/>それから医療一方で一進一退しつつ漸次悪化し、数ケ月後死亡したのである。<br/><br/>初め夫人を私が手にかけた頃は夫は健康であったに係わらず、数年後反対の結果になったという事は、不思議ではないが不思議とも思えるのである。<br/><br/>右夫人は未亡人として今日二児を養育しつつすこぶる健康な生活を送っている。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

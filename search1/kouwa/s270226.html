@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s270226</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年2月26日） 『御教え集』7号、昭和27(1952)年3月20日発行 昭和二十七年二月二十六日 【御教え】 『結核信仰療法』の、この前の次を読ませます。<br><br> （御論文「黴菌の発生」のあとの御教え） これは、以前私は黴菌というのは、たいしたものだと言いましたが、その説明です。<br><br>黴菌というのは結果なんだから、結果の――黴菌が染（うつ）るとか染らないとか、大騒ぎをやっているのが医学なんですからね。<br><br>今の説は、黴菌はどこからどうやって発生する、ということを説明したんです。<br><br>浄霊ですね。<br><br>こうやると、ここ（掌）から霊光が放射されますが、これは光の霊なんです。<br><br>ですから、ピカピカ目に見える光は、光の体なんです。<br><br>で、光の霊は今言うように、目に見えないが、光の体より強いんです。<br><br>光の体だけなら、レントゲンとか電気とかでやれば治るわけなんですがね。<br><br>光の霊と体は、反対の働きをする。<br><br>霊の方は毒素を溶かすんです。<br><br>体の方は固めるんです。<br><br>ですから、レントゲンとか太陽灯は、光の体ですから、毒素を固めるんです。<br><br>レントゲンなんかかけると、豆粒のようにコチコチに固まるんですね。<br><br>霊の方は溶かすんです。<br><br>それで、これ（浄霊）でやると、霊が行って、霊の曇りを溶かすんですね。<br><br>溶かすと黴菌が発生しなくなるんです。<br><br>霊の曇りというのが黴菌の因ですからね。<br><br>ですから、こう（浄霊）やることは、黴菌を殺すことでなくて、黴菌の発生源をなくすることです。<br><br>ですから、その点だけでもすばらしい進歩をしているわけですね。<br><br>ところが、医学の方では、薬毒で、むしろその曇りを増やすようにしているものですね。<br><br>薬毒の曇りというのは、薬を作って、薬から黴菌を発生するようにして――黴菌は医学が作っているんですね。<br><br>そうして、その黴菌を殺そうとして一生懸命やっているんですから、おそらく、愚と言うか無智と言うか、たとえようもないですね。<br><br>そういうことも説明して、いずれ目を覚まさせるんですがね。<br><br>そこで、病気をなくす――病気を治すということは、今言う曇りを取ることよりない。<br><br>曇りを取るには、霊の光を放射するよりないんだからね。<br><br>それをまず解らせるのが一番ですね。<br><br>そうすれば、医学と浄霊と、比較が根本的に違うんですね。<br><br>根本的に違うというより、こっちの方は、病気の根本を治す。<br><br>先の方は病気の根本でなくて、結果ですね。<br><br>現われたものですね。<br><br>ちょうど、同じ理屈ですよ――今、不幸な者ができると、それを社会事業――いろんな救貧事業、慈善事業、養老院、孤児院だ、なんだかんだいろんな、保険とか――健康保険とか、災害保険とか、いろいろありますが――そうしてやってますが、ちょうど医学と同じです。<br><br>あれは黴菌になったのを殺しているんです。<br><br>不幸な人間ができるということが因なんだから、すなわち霊の曇りですね。<br><br>それを取れば良いんだ。<br><br>それに気がつかないのと、気がついていても不可能なんですね。<br><br>だから、メシヤ教というのは、すべての因を解決しているんだから、因を解決すれば、病貧争絶無の世界ができるんだから、理屈はそう難しいことはないんです。<br><br>今の、社会事業と宗教事業のは、今度の新聞に出しましたがね。<br><br>この前に読んだですね。<br><br>だから、浄霊については、まだ信者に入らない人に対する説明ですね。<br><br>今言ったように説明してやれば、大体解ると思いますがね。<br><br> それから、今再軍備問題が非常にやかましい。<br><br>それについてちょっと書いてみたんですがね。<br><br> （御論文「再軍備に就て」） これはちょっとおもしろい言い方なんですけれどもね。<br><br> （御論文「ジャーナリストには言論の自由なし」） これはまだちょっと書き足りないですが、非常にためになることだから、良く聞いて。<br><br> （御論文「神様が発展の調節」）【栄光 一四七号】 一昨日ですか、今度アメリカから帰ってきた人で、この人はサンフランシスコの講和記念の美術展覧会――あの仕事の中心になっていた人ですがね。<br><br>あっちでいろいろの世話をやいて、品物なんかを選んだり、送ったりすることをやって――繭山（まゆやま）という人ですが、これは支那陶器では第一人者で、半分くらい骨董屋的なことをして、あとそういったような貿易をしている。<br><br>ですからほとんど、あっちの美術館なんかにある日本品は、その人が預かっているんです。<br><br>それから、アメリカの人にいろんな説明なんかをいろいろやったんですが、この人も今度こっちの美術館の支那陶器を大いに手伝うことになってますが、その人の話と――あっちの美術館のカタログとか、そういう物をたくさん持ってきて、私は一通り見ましたけれども、感心する物がないですね。<br><br>ほとんど、日本品なんてのは贋物ばかりと言っても良いですね。<br><br>本当の物はないんです。<br><br>随分ひどいです。<br><br>で、アメリカの人も最近になって、非常に変わってきたです。<br><br>以前はアメリカ人なんて言うと、ケバケバしい、ただパッとしていれば良いと、それに贋物を作って随分送ったんですが、最近随分変わってきて、サンフランシスコなんかでも、一カ月の会期で二十万人から来たんですからね。<br><br>そんなわけで、大いに開発されて、だいぶ評判が高くなったわけですね。<br><br>そんなわけだから、非常に日本美術に憧れて、ぜひ今年もやってくれと言うんで、いよいよ日本でもやるようですがね。<br><br>サンフランシスコに出したのなんか博物館で見ましたが、一級品はほとんどないんです。<br><br>二級品、三級品ですね。<br><br>それでも、向こうではたいへんな騒ぎだそうですからね。<br><br>それから、支那の絵なんかも、写真で見ましたが、これも古いのはほとんどないですね。<br><br>みんな現代画ですね。<br><br>康煕（こうき）、乾隆（けんりゅう）――二百年以前くらいからのですね。<br><br>どうしても、支那の絵というと宋元ですから七、八百年前ですから、それはないですね。<br><br>良いあんばいに、それは日本にはたくさんあるんですからね。<br><br>今度の美術館も――なにしろ狭いからたくさんは出せないが、出せるだけ出しますがね。<br><br>東洋美術としては、支那の陶器と銅器ですね。<br><br>これは良い物がある。<br><br>やっぱり美術館の一番良いのは、ニューヨークの州の美術館ですがね。<br><br>これは、良いというよりか、広くいろいろ揃っているんですね。<br><br>その次がボストン、ワシントン――それが主なものですね。<br><br>ボストンは日本の絵画が多いですね。<br><br>これは四、五十年前に岡倉天心という人が、顧問になって、日本から入れました。<br><br>たいした物は行ってないですね。<br><br>大体版画ですね――浮世絵ですね。<br><br>その時分は、日本の古い物なんかを――いくらか手加減したのと、その時分はあんまり売り物がなかったためですね。<br><br>それで、日本の品物でアメリカにある一番良いのは、ボストンの美術館にある。<br><br>藤原〔鎌倉〕時代にできた平治物語という巻物です。<br><br>三巻です。<br><br>これは良い物ですが、三巻のうち一巻がアメリカに行った。<br><br>富田幸次郎という有名な人ですが、この人があっちに頼まれて、今から三十年前――その当時十四万五千で売ったんですね。<br><br>随分たいしたものですね。<br><br>それを非常に大事にしているんです。<br><br>美術館の部屋の真ん中の所に棚を作って――よく、博物館なんかの巻物のようにして――ふだんは布を被せておく。<br><br>なぜかと言うと、光線が当たると、いくらか色が悪くなる。<br><br>退色するという懸念でね。<br><br>見たいと言うと、看守が一々来てまくって見せる。<br><br>見たらまたかける。<br><br>そのくらい大切にしているんですね。<br><br>それが日本の美術としては、アメリカでは最高の物ですね。<br><br>ところがそういうような物は、日本には――そうたくさんはないが、そうとうあるんです。<br><br>すなわちそれよりもっと良いんで、伴大納言という人の〔を〕画いた絵巻物があるんですがね。<br><br>それよりもさらに良いのには、天平時代にできた因果経という、上に絵が画いてあり、下にお経が画いてある。<br><br>これは巻物では一番良い物なんです。<br><br>二百三十行とかいう行があるのですが、あんまり高いので分割したんです。<br><br>分割して百五十四行ずつに分割して、あとは二十、三十、十行ずつくらいに分けたんです。<br><br>天平時代ですから、千二百年前です。<br><br>千二百年前に画いた絵が、今画いたようにはっきりしてます。<br><br>緑青なんかはっきりして、不思議なものです。<br><br>そのくらい日本の美術品というのは、アメリカで貴重にしているという話をしただけですがね。<br><br>時間がないから、話はそのくらいにしておきます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Gênese dos Micróbios e a Verdadeira Cura</h2>
 <p>Darei continuidade à leitura do texto "Terapia da Tuberculose pela Fé".</p>
@@ -119,5 +271,48 @@ function toggleLang(lang) {
 <p>Contudo, o Japão possui um número considerável de obras de calibre semelhante ou até superior, embora não sejam abundantes. Exemplo disso é o rolo de pintura que retrata a história de Ban Dainagon, uma obra de qualidade ainda maior. E, superando até mesmo essa, temos o "Inga-kyo", do período Tenpyo, um sutra ilustrado com pinturas na parte superior e o texto sagrado na inferior. Dentre todos os rolos de pintura, este é o mais sublime. Originalmente, continha cerca de duzentas e trinta linhas de texto, mas, devido ao seu imenso valor, foi dividido em fragmentos: um de cento e cinquenta e quatro linhas e outros menores, com vinte, trinta ou dez linhas cada.</p>
 <p>Estamos falando do período Tenpyo, há mil e duzentos anos. E, no entanto, as pinturas conservam uma nitidez espantosa, como se tivessem sido feitas hoje. O pigmento verde-azulado, por exemplo, permanece vívido. É algo verdadeiramente prodigioso.</p>
 <p>Eu mencionei tudo isso apenas para ilustrar o quão preciosas são as obras de arte japonesas, mesmo aquelas que são tão valorizadas nos Estados Unidos. Como nosso tempo é limitado, encerrarei minhas palavras por aqui.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年2月26日） 『御教え集』7号、昭和27(1952)年3月20日発行 昭和二十七年二月二十六日 【御教え】 『結核信仰療法』の、この前の次を読ませます。<br/><br/> （御論文「黴菌の発生」のあとの御教え） これは、以前私は黴菌というのは、たいしたものだと言いましたが、その説明です。<br/><br/>黴菌というのは結果なんだから、結果の――黴菌が染（うつ）るとか染らないとか、大騒ぎをやっているのが医学なんですからね。<br/><br/>今の説は、黴菌はどこからどうやって発生する、ということを説明したんです。<br/><br/>浄霊ですね。<br/><br/>こうやると、ここ（掌）から霊光が放射されますが、これは光の霊なんです。<br/><br/>ですから、ピカピカ目に見える光は、光の体なんです。<br/><br/>で、光の霊は今言うように、目に見えないが、光の体より強いんです。<br/><br/>光の体だけなら、レントゲンとか電気とかでやれば治るわけなんですがね。<br/><br/>光の霊と体は、反対の働きをする。<br/><br/>霊の方は毒素を溶かすんです。<br/><br/>体の方は固めるんです。<br/><br/>ですから、レントゲンとか太陽灯は、光の体ですから、毒素を固めるんです。<br/><br/>レントゲンなんかかけると、豆粒のようにコチコチに固まるんですね。<br/><br/>霊の方は溶かすんです。<br/><br/>それで、これ（浄霊）でやると、霊が行って、霊の曇りを溶かすんですね。<br/><br/>溶かすと黴菌が発生しなくなるんです。<br/><br/>霊の曇りというのが黴菌の因ですからね。<br/><br/>ですから、こう（浄霊）やることは、黴菌を殺すことでなくて、黴菌の発生源をなくすることです。<br/><br/>ですから、その点だけでもすばらしい進歩をしているわけですね。<br/><br/>ところが、医学の方では、薬毒で、むしろその曇りを増やすようにしているものですね。<br/><br/>薬毒の曇りというのは、薬を作って、薬から黴菌を発生するようにして――黴菌は医学が作っているんですね。<br/><br/>そうして、その黴菌を殺そうとして一生懸命やっているんですから、おそらく、愚と言うか無智と言うか、たとえようもないですね。<br/><br/>そういうことも説明して、いずれ目を覚まさせるんですがね。<br/><br/>そこで、病気をなくす――病気を治すということは、今言う曇りを取ることよりない。<br/><br/>曇りを取るには、霊の光を放射するよりないんだからね。<br/><br/>それをまず解らせるのが一番ですね。<br/><br/>そうすれば、医学と浄霊と、比較が根本的に違うんですね。<br/><br/>根本的に違うというより、こっちの方は、病気の根本を治す。<br/><br/>先の方は病気の根本でなくて、結果ですね。<br/><br/>現われたものですね。<br/><br/>ちょうど、同じ理屈ですよ――今、不幸な者ができると、それを社会事業――いろんな救貧事業、慈善事業、養老院、孤児院だ、なんだかんだいろんな、保険とか――健康保険とか、災害保険とか、いろいろありますが――そうしてやってますが、ちょうど医学と同じです。<br/><br/>あれは黴菌になったのを殺しているんです。<br/><br/>不幸な人間ができるということが因なんだから、すなわち霊の曇りですね。<br/><br/>それを取れば良いんだ。<br/><br/>それに気がつかないのと、気がついていても不可能なんですね。<br/><br/>だから、メシヤ教というのは、すべての因を解決しているんだから、因を解決すれば、病貧争絶無の世界ができるんだから、理屈はそう難しいことはないんです。<br/><br/>今の、社会事業と宗教事業のは、今度の新聞に出しましたがね。<br/><br/>この前に読んだですね。<br/><br/>だから、浄霊については、まだ信者に入らない人に対する説明ですね。<br/><br/>今言ったように説明してやれば、大体解ると思いますがね。<br/><br/> それから、今再軍備問題が非常にやかましい。<br/><br/>それについてちょっと書いてみたんですがね。<br/><br/> （御論文「再軍備に就て」） これはちょっとおもしろい言い方なんですけれどもね。<br/><br/> （御論文「ジャーナリストには言論の自由なし」） これはまだちょっと書き足りないですが、非常にためになることだから、良く聞いて。<br/><br/> （御論文「神様が発展の調節」）【栄光 一四七号】 一昨日ですか、今度アメリカから帰ってきた人で、この人はサンフランシスコの講和記念の美術展覧会――あの仕事の中心になっていた人ですがね。<br/><br/>あっちでいろいろの世話をやいて、品物なんかを選んだり、送ったりすることをやって――繭山（まゆやま）という人ですが、これは支那陶器では第一人者で、半分くらい骨董屋的なことをして、あとそういったような貿易をしている。<br/><br/>ですからほとんど、あっちの美術館なんかにある日本品は、その人が預かっているんです。<br/><br/>それから、アメリカの人にいろんな説明なんかをいろいろやったんですが、この人も今度こっちの美術館の支那陶器を大いに手伝うことになってますが、その人の話と――あっちの美術館のカタログとか、そういう物をたくさん持ってきて、私は一通り見ましたけれども、感心する物がないですね。<br/><br/>ほとんど、日本品なんてのは贋物ばかりと言っても良いですね。<br/><br/>本当の物はないんです。<br/><br/>随分ひどいです。<br/><br/>で、アメリカの人も最近になって、非常に変わってきたです。<br/><br/>以前はアメリカ人なんて言うと、ケバケバしい、ただパッとしていれば良いと、それに贋物を作って随分送ったんですが、最近随分変わってきて、サンフランシスコなんかでも、一カ月の会期で二十万人から来たんですからね。<br/><br/>そんなわけで、大いに開発されて、だいぶ評判が高くなったわけですね。<br/><br/>そんなわけだから、非常に日本美術に憧れて、ぜひ今年もやってくれと言うんで、いよいよ日本でもやるようですがね。<br/><br/>サンフランシスコに出したのなんか博物館で見ましたが、一級品はほとんどないんです。<br/><br/>二級品、三級品ですね。<br/><br/>それでも、向こうではたいへんな騒ぎだそうですからね。<br/><br/>それから、支那の絵なんかも、写真で見ましたが、これも古いのはほとんどないですね。<br/><br/>みんな現代画ですね。<br/><br/>康煕（こうき）、乾隆（けんりゅう）――二百年以前くらいからのですね。<br/><br/>どうしても、支那の絵というと宋元ですから七、八百年前ですから、それはないですね。<br/><br/>良いあんばいに、それは日本にはたくさんあるんですからね。<br/><br/>今度の美術館も――なにしろ狭いからたくさんは出せないが、出せるだけ出しますがね。<br/><br/>東洋美術としては、支那の陶器と銅器ですね。<br/><br/>これは良い物がある。<br/><br/>やっぱり美術館の一番良いのは、ニューヨークの州の美術館ですがね。<br/><br/>これは、良いというよりか、広くいろいろ揃っているんですね。<br/><br/>その次がボストン、ワシントン――それが主なものですね。<br/><br/>ボストンは日本の絵画が多いですね。<br/><br/>これは四、五十年前に岡倉天心という人が、顧問になって、日本から入れました。<br/><br/>たいした物は行ってないですね。<br/><br/>大体版画ですね――浮世絵ですね。<br/><br/>その時分は、日本の古い物なんかを――いくらか手加減したのと、その時分はあんまり売り物がなかったためですね。<br/><br/>それで、日本の品物でアメリカにある一番良いのは、ボストンの美術館にある。<br/><br/>藤原〔鎌倉〕時代にできた平治物語という巻物です。<br/><br/>三巻です。<br/><br/>これは良い物ですが、三巻のうち一巻がアメリカに行った。<br/><br/>富田幸次郎という有名な人ですが、この人があっちに頼まれて、今から三十年前――その当時十四万五千で売ったんですね。<br/><br/>随分たいしたものですね。<br/><br/>それを非常に大事にしているんです。<br/><br/>美術館の部屋の真ん中の所に棚を作って――よく、博物館なんかの巻物のようにして――ふだんは布を被せておく。<br/><br/>なぜかと言うと、光線が当たると、いくらか色が悪くなる。<br/><br/>退色するという懸念でね。<br/><br/>見たいと言うと、看守が一々来てまくって見せる。<br/><br/>見たらまたかける。<br/><br/>そのくらい大切にしているんですね。<br/><br/>それが日本の美術としては、アメリカでは最高の物ですね。<br/><br/>ところがそういうような物は、日本には――そうたくさんはないが、そうとうあるんです。<br/><br/>すなわちそれよりもっと良いんで、伴大納言という人の〔を〕画いた絵巻物があるんですがね。<br/><br/>それよりもさらに良いのには、天平時代にできた因果経という、上に絵が画いてあり、下にお経が画いてある。<br/><br/>これは巻物では一番良い物なんです。<br/><br/>二百三十行とかいう行があるのですが、あんまり高いので分割したんです。<br/><br/>分割して百五十四行ずつに分割して、あとは二十、三十、十行ずつくらいに分けたんです。<br/><br/>天平時代ですから、千二百年前です。<br/><br/>千二百年前に画いた絵が、今画いたようにはっきりしてます。<br/><br/>緑青なんかはっきりして、不思議なものです。<br/><br/>そのくらい日本の美術品というのは、アメリカで貴重にしているという話をしただけですがね。<br/><br/>時間がないから、話はそのくらいにしておきます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

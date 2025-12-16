@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kyugy108</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 信仰篇（救業、布教） ７ 108-124 布教の道３ 108 家族連れの布教に戒告 去る一月二十二日、夫婦にて子供を連れ布教に行き、帰りに生後一年八カ月の子供が発熱し、電車中にて御浄霊をさせて頂きながら参りました。<br><br>子供は非常にむづかりましたが、空家の話がありましたので出掛けたついでにと見て参り、途中にてヒキツケ、顔面が黒々となり、直に道路に下して大先生に御守護を念じつつ御浄霊させて頂き、竹内先生へ早速連絡致し、支部を通じて御守護のお願いを申し上げました。<br><br>お蔭にて八時頃意識回復、帰宅致す事が出来ました。<br><br>その後軽い痙攣があり、翌二十三日支部長先生のお出でを頂いて御浄霊を頂きました。<br><br>まだ「とと」（魚のこと）「アーチャン」だけしか言えない子供が、前額部へ御浄霊を行いますと「痛い痛い、いや」と言って逃げます。<br><br>一日に尿は三回、下痢は二回位でございましたが、昨日あたりから大分回数も増えて参りました。<br><br>御守護を頂きだんだん良くして頂いておりますが、何か霊的のように思われますが、何卒宜敷く御守護の程お願い申し上げます。<br><br> 布教は一人で行くべきものである。<br><br>祖霊が怒って戒めたものである。<br><br>妻や子供を連れるのは御用がついでになる。<br><br>用向きが主になる。<br><br>（S24. 1.28） 109 教修に御神体のお供 初めての土地へ出張の教修の場合、御書体あるいは御姿の光明如来様の御軸の御供をして行って、教修が終りまた外して御供して帰って来ることは、御無礼にならないでしょうか。<br><br> 持っていくのは嘘である。<br><br>大抵はその土地の信者が（教修生をよぶので）お軸の掛けてある所へ集まる。<br><br>御神体は持運びするのはいけない。<br><br>お掛けしてある所へ集まるのが本当だ。<br><br>（S24. 6.19） 110 霊憑者連れ歩く事 三年前に入信いたしまして、私の家にいる婦人ですが、最近、霊が度々憑依するようになりまして、私の先祖も観音様に救われ、有難いと御礼に出て参りました。<br><br>他家へ光明如来様の御祭りに一緒に連れて行きますと、その家の先祖、無縁、今まで祭ってある神様などが憑依して、観音様を主にするようにと、その家の人達の間違いを言ったり致しますが、この後、連れて歩いて差支えないものでしょうか。<br><br>御伺い申し上げます。<br><br> 何か訳がある。<br><br>必ず何か役に立つ事があろう。<br><br>（S24. 9. 5） 111 霊憑りと正しい信仰 熱心な信者で、その人に憑霊現象が御座いますが、その場合殆ど死霊が御光を頼って参り、御浄霊を戴きたいとか遺家族の人達に早く御光を戴くよう、また御観音様に御縋りするようにという事を頼んでおりますが、そのような憑霊現象の起るという事は正しい事なのでしょうか。<br><br>また、余り感心出来ぬ事なのでしょうか。<br><br>なお、その場合、その場に居合せた人達が霊の実在を目の辺りに見せられ、信仰に熱心になる傾向が御座います。<br><br>神憑り信仰は正しい信仰でないと伺っておりますが、霊憑りなども正しいものではないのでしょうか。<br><br>身魂が曇っているために霊憑りになるものでしょうか。<br><br>特に霊媒能力のあるという先天的な人が御座いますのでしょうか、お伺い申し上げます。<br><br> 霊憑りは正しい信仰でないという事はない。<br><br>霊の言う事が正しければ正しい。<br><br>祖霊が善い事をしたいためにするのは正しい意味であるからよい。<br><br> 112 布教上新土地の気風を知る法 新しい土地へ布教に行く場合、その土地の気風を早く知る方法として、いかなる方法が御座居ましょうか。<br><br> 知る要はない。<br><br>神様がついておられるから、その土地へ行けばその土地に合うような行動がとれる。<br><br>それで判る位である。<br><br> その場面により臨機応変にやるようにする。<br><br>（S24. 6.29） 113 開け難い地方、清濁と邪神の妨害 土地によって曇りの多少があり、観音教の普及もやり易いところとやり難いところがあるのでしょうか。<br><br>なお、発展しにくい場所にて開業することになりますのは本人の罪穢の多少によるのでしょうか。<br><br> 解釈が違う。<br><br>土地によりいろいろある。<br><br>きれいな所、汚い所があり、汚い所は邪神の力が強く、邪魔がある。<br><br>そういう所へは強い人が選ばれて行くのであるから、反って名誉である。<br><br>楽な所へ行く人は力の弱い人である。<br><br>故に反って骨の折れる所がいい。<br><br> それとても時期であるから、どんな困難な所も、時期さえ来ればうまくゆくのであるから、焦らず待つ事である。<br><br>（S24.11.19） 114 地名良い所を布教に選ぶ事、土地は神が選ぶ 御道発展のため地名の良い所を選んでその方向に力を注ぐ事は良いのでありますか。<br><br>右、御教示御願い申し上げます。<br><br> 地名の悪い所をやった方がよい。<br><br>なるべく悪い所へ悪い所へ進めた方がよい。<br><br>これは浄めるものであって、汚い所ほど浄める要がある。<br><br>良い地名の所が楽とは限らぬ。<br><br>良い所は反って邪神が握ってるのがある。<br><br>東京などはいい字だが一番邪神の巣窟で、濁っている。<br><br> 日、木――水の働きで――。<br><br> 選ぶのは人間が選ぶんでない、神様が選ぶ。<br><br>自分が選ぶのは神の御心に対し僣越である。<br><br>これは神様に任す。<br><br>そこを開く要があればその人がそこへ行かなくてはならぬようになる。<br><br> 115 危険な地方へ教会設置 熱心な信徒ですが、今度教導所を新たに建てるべく準備中ですが、新年の御面会に大先生から東京方面は危いとの御言葉で御座いましたがいかがで御座いましょうか。<br><br>現在建っている家は工場と事務所、住宅のみで非常に狭く、教導所に使用しては不可能で御座います。<br><br>御教示賜りたく御願い申し上げます。<br><br>なお、場所は東京都両国で御座います。<br><br> 考えなくていい。<br><br>やりやすい所をやってればいい。<br><br>（S24. 1.28） 116 地名や姓名と布教の関係 その地方の地名や布教者の姓名が布教発展に影響がありましょうか。<br><br> ないとはいえぬが、あまり気にする要はない。<br><br> 117 人によって発展する地方 布教に関してある地方では出来ない人が他の土地に行くと非常に発展する教導師があります。<br><br>これは土地と人に何か因縁があるのでしょうか。<br><br>お伺い致します。<br><br> 因縁があるのである。<br><br>時所位を得るのもこういう事もある。<br><br>日本には霊統が三つあって、この土地の一番多い系統の宗家のようになっている。<br><br>反対があるのは霊統が違う。<br><br> また、神様の順序があり、それを無視して執着するのはいけない。<br><br>（S24. 6. 8） 118 布教中のみの便秘 私は半年前より岡山県和気郡片上町の方へ布教に従事しておりますが、二ケ月前より、便通が岡山の方では四、五日通じず、私宅へ帰ると毎日お通じがありますが、何か訳がありましょうか。<br><br>お尋ね致します。<br><br> 良い方へ解釈すべきである。<br><br>反って御守護である。<br><br>正守護神がやっている。<br><br>私など便秘しようとしている。<br><br>（S24. 6. 7） 119 観音様の協力願う事 五六七教に入信まで備後国馬乗山観音様の御守護を頂いておりました。<br><br>今度備後地方の本教信者と共に前記観音様に御協力を願いに御詣りを致したいと思いますが、良い事でございましょうか。<br><br>御伺い申し上げます。<br><br> 悪くもないが無駄である。<br><br>本家が判ったのであるから、出店は不用である。<br><br>（S24.10.28） 120 氏神に協力願う事 本教の布教に参り、そこの氏神に協力を求めに行くと、非常に都合好く開けるように聞く事がありますが、いかがなものでしょうか。<br><br>また、その場合祝詞、善言讃詞といずれをお奏げすべきでしょうか。<br><br>御伺い申し上げます。<br><br> 産土神にお願いするのも結構だが、祝詞や善言讃詞を奏げる程ではない。<br><br>奏げれば天津祝詞である。<br><br>（S24.10.28） 121 布教と氏神参拝 氏神についてお伺い申し上げます。<br><br>永年住んでいた甲地から乙地へ転住した場合には甲乙どちらの土地の氏神に参拝するのがよろしいのですか。<br><br>御伺い申し上げます。<br><br>因みに大氏神は甲地乙地とも同一で御座います。<br><br> 氏神はその土地だけの管轄である。<br><br>人間社会と同じで、常識的にやれ。<br><br>（S25. 5.27） 122 布教上産土神への挨拶 新しい土地に伝道に参りました場合、その土地の氏神様には御挨拶すべきでしょうか。<br><br>もしすべき場合は単に儀礼的にすれば宜しいでしょうか。<br><br>あるいは御守護を御願いすべきでしょうか。<br><br>右、御願い申し上げます。<br><br> 御守護願えばよい。<br><br>非常に離れているとか、天気の悪い場合ならよい。<br><br>それほど重大でない。<br><br>やらないよりいい位の程度である。<br><br>（S24. 7. 3） rattail（注） 〔 御光話（S24年 7月 3日） 『御光話録』13号、昭和24(1949)年10月21日発行〕に掲載 123 日蓮信者の導き 日蓮宗狂信者をこの御教えに導きますにはいかが致しましたらよろしゅう御座いますか。<br><br>御伺い申し上げます。<br><br> 時節を待った方がよい。<br><br>ちょっと話してみて、耳を傾けるようなら話してもよい。<br><br>（S23） 124 他力本願宗と本教 仏教の他力本願を信仰する人は、本教に入信し現世の御利益を得る事は未来において救済されざるごとく考えていられるため、目の前に御利益を拝しながらも右の点を懸念される人が随分あります。<br><br>布教に当りましていかに説明したら宜敷いでしょうか。<br><br>御教示下さい。<br><br> 他力本願の人は反って分る訳である。<br><br>寧ろ自力の方が分り難い。<br><br>現当利益を与える力がないために利益は低級のような理論を作った。<br><br>他宗教には力がない。<br><br>神仏に意気地がないのである。<br><br>（S24. 6. 8）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Caminho da Difusão 3</h2>
 <p><strong>108. Advertência sobre realizar a difusão com a família</strong></p>
@@ -146,5 +298,48 @@ Ademais, existe uma ordem estabelecida por Deus, e não se deve ignorá-la por a
 <p><strong>124. A fé no poder de outrem e nossa religião</strong></p>
 <p>As pessoas que professam a fé budista baseada no poder de outrem creem que obter graças nesta vida as impedirá de alcançar a salvação no futuro. Por essa razão, mesmo testemunhando graças evidentes, muitos hesitam em ingressar em nossa fé por tal receio. Ao difundir os Ensinamentos, qual seria a melhor forma de lhes explicar essa questão?</p>
 <p>Pessoas que creem no poder de outrem deveriam, pelo contrário, compreender mais facilmente nossos Ensinamentos. Na verdade, são os adeptos da fé no poder próprio que têm mais dificuldade. Foi a incapacidade de conceder graças no mundo material que levou outras religiões a elaborarem a teoria de que tais benefícios são de ordem inferior. As outras religiões não possuem força. É uma questão de falta de poder por parte de seus deuses e budas.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 信仰篇（救業、布教） ７ 108-124 布教の道３ 108 家族連れの布教に戒告 去る一月二十二日、夫婦にて子供を連れ布教に行き、帰りに生後一年八カ月の子供が発熱し、電車中にて御浄霊をさせて頂きながら参りました。<br/><br/>子供は非常にむづかりましたが、空家の話がありましたので出掛けたついでにと見て参り、途中にてヒキツケ、顔面が黒々となり、直に道路に下して大先生に御守護を念じつつ御浄霊させて頂き、竹内先生へ早速連絡致し、支部を通じて御守護のお願いを申し上げました。<br/><br/>お蔭にて八時頃意識回復、帰宅致す事が出来ました。<br/><br/>その後軽い痙攣があり、翌二十三日支部長先生のお出でを頂いて御浄霊を頂きました。<br/><br/>まだ「とと」（魚のこと）「アーチャン」だけしか言えない子供が、前額部へ御浄霊を行いますと「痛い痛い、いや」と言って逃げます。<br/><br/>一日に尿は三回、下痢は二回位でございましたが、昨日あたりから大分回数も増えて参りました。<br/><br/>御守護を頂きだんだん良くして頂いておりますが、何か霊的のように思われますが、何卒宜敷く御守護の程お願い申し上げます。<br/><br/> 布教は一人で行くべきものである。<br/><br/>祖霊が怒って戒めたものである。<br/><br/>妻や子供を連れるのは御用がついでになる。<br/><br/>用向きが主になる。<br/><br/>（S24. 1.28） 109 教修に御神体のお供 初めての土地へ出張の教修の場合、御書体あるいは御姿の光明如来様の御軸の御供をして行って、教修が終りまた外して御供して帰って来ることは、御無礼にならないでしょうか。<br/><br/> 持っていくのは嘘である。<br/><br/>大抵はその土地の信者が（教修生をよぶので）お軸の掛けてある所へ集まる。<br/><br/>御神体は持運びするのはいけない。<br/><br/>お掛けしてある所へ集まるのが本当だ。<br/><br/>（S24. 6.19） 110 霊憑者連れ歩く事 三年前に入信いたしまして、私の家にいる婦人ですが、最近、霊が度々憑依するようになりまして、私の先祖も観音様に救われ、有難いと御礼に出て参りました。<br/><br/>他家へ光明如来様の御祭りに一緒に連れて行きますと、その家の先祖、無縁、今まで祭ってある神様などが憑依して、観音様を主にするようにと、その家の人達の間違いを言ったり致しますが、この後、連れて歩いて差支えないものでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> 何か訳がある。<br/><br/>必ず何か役に立つ事があろう。<br/><br/>（S24. 9. 5） 111 霊憑りと正しい信仰 熱心な信者で、その人に憑霊現象が御座いますが、その場合殆ど死霊が御光を頼って参り、御浄霊を戴きたいとか遺家族の人達に早く御光を戴くよう、また御観音様に御縋りするようにという事を頼んでおりますが、そのような憑霊現象の起るという事は正しい事なのでしょうか。<br/><br/>また、余り感心出来ぬ事なのでしょうか。<br/><br/>なお、その場合、その場に居合せた人達が霊の実在を目の辺りに見せられ、信仰に熱心になる傾向が御座います。<br/><br/>神憑り信仰は正しい信仰でないと伺っておりますが、霊憑りなども正しいものではないのでしょうか。<br/><br/>身魂が曇っているために霊憑りになるものでしょうか。<br/><br/>特に霊媒能力のあるという先天的な人が御座いますのでしょうか、お伺い申し上げます。<br/><br/> 霊憑りは正しい信仰でないという事はない。<br/><br/>霊の言う事が正しければ正しい。<br/><br/>祖霊が善い事をしたいためにするのは正しい意味であるからよい。<br/><br/> 112 布教上新土地の気風を知る法 新しい土地へ布教に行く場合、その土地の気風を早く知る方法として、いかなる方法が御座居ましょうか。<br/><br/> 知る要はない。<br/><br/>神様がついておられるから、その土地へ行けばその土地に合うような行動がとれる。<br/><br/>それで判る位である。<br/><br/> その場面により臨機応変にやるようにする。<br/><br/>（S24. 6.29） 113 開け難い地方、清濁と邪神の妨害 土地によって曇りの多少があり、観音教の普及もやり易いところとやり難いところがあるのでしょうか。<br/><br/>なお、発展しにくい場所にて開業することになりますのは本人の罪穢の多少によるのでしょうか。<br/><br/> 解釈が違う。<br/><br/>土地によりいろいろある。<br/><br/>きれいな所、汚い所があり、汚い所は邪神の力が強く、邪魔がある。<br/><br/>そういう所へは強い人が選ばれて行くのであるから、反って名誉である。<br/><br/>楽な所へ行く人は力の弱い人である。<br/><br/>故に反って骨の折れる所がいい。<br/><br/> それとても時期であるから、どんな困難な所も、時期さえ来ればうまくゆくのであるから、焦らず待つ事である。<br/><br/>（S24.11.19） 114 地名良い所を布教に選ぶ事、土地は神が選ぶ 御道発展のため地名の良い所を選んでその方向に力を注ぐ事は良いのでありますか。<br/><br/>右、御教示御願い申し上げます。<br/><br/> 地名の悪い所をやった方がよい。<br/><br/>なるべく悪い所へ悪い所へ進めた方がよい。<br/><br/>これは浄めるものであって、汚い所ほど浄める要がある。<br/><br/>良い地名の所が楽とは限らぬ。<br/><br/>良い所は反って邪神が握ってるのがある。<br/><br/>東京などはいい字だが一番邪神の巣窟で、濁っている。<br/><br/> 日、木――水の働きで――。<br/><br/> 選ぶのは人間が選ぶんでない、神様が選ぶ。<br/><br/>自分が選ぶのは神の御心に対し僣越である。<br/><br/>これは神様に任す。<br/><br/>そこを開く要があればその人がそこへ行かなくてはならぬようになる。<br/><br/> 115 危険な地方へ教会設置 熱心な信徒ですが、今度教導所を新たに建てるべく準備中ですが、新年の御面会に大先生から東京方面は危いとの御言葉で御座いましたがいかがで御座いましょうか。<br/><br/>現在建っている家は工場と事務所、住宅のみで非常に狭く、教導所に使用しては不可能で御座います。<br/><br/>御教示賜りたく御願い申し上げます。<br/><br/>なお、場所は東京都両国で御座います。<br/><br/> 考えなくていい。<br/><br/>やりやすい所をやってればいい。<br/><br/>（S24. 1.28） 116 地名や姓名と布教の関係 その地方の地名や布教者の姓名が布教発展に影響がありましょうか。<br/><br/> ないとはいえぬが、あまり気にする要はない。<br/><br/> 117 人によって発展する地方 布教に関してある地方では出来ない人が他の土地に行くと非常に発展する教導師があります。<br/><br/>これは土地と人に何か因縁があるのでしょうか。<br/><br/>お伺い致します。<br/><br/> 因縁があるのである。<br/><br/>時所位を得るのもこういう事もある。<br/><br/>日本には霊統が三つあって、この土地の一番多い系統の宗家のようになっている。<br/><br/>反対があるのは霊統が違う。<br/><br/> また、神様の順序があり、それを無視して執着するのはいけない。<br/><br/>（S24. 6. 8） 118 布教中のみの便秘 私は半年前より岡山県和気郡片上町の方へ布教に従事しておりますが、二ケ月前より、便通が岡山の方では四、五日通じず、私宅へ帰ると毎日お通じがありますが、何か訳がありましょうか。<br/><br/>お尋ね致します。<br/><br/> 良い方へ解釈すべきである。<br/><br/>反って御守護である。<br/><br/>正守護神がやっている。<br/><br/>私など便秘しようとしている。<br/><br/>（S24. 6. 7） 119 観音様の協力願う事 五六七教に入信まで備後国馬乗山観音様の御守護を頂いておりました。<br/><br/>今度備後地方の本教信者と共に前記観音様に御協力を願いに御詣りを致したいと思いますが、良い事でございましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 悪くもないが無駄である。<br/><br/>本家が判ったのであるから、出店は不用である。<br/><br/>（S24.10.28） 120 氏神に協力願う事 本教の布教に参り、そこの氏神に協力を求めに行くと、非常に都合好く開けるように聞く事がありますが、いかがなものでしょうか。<br/><br/>また、その場合祝詞、善言讃詞といずれをお奏げすべきでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> 産土神にお願いするのも結構だが、祝詞や善言讃詞を奏げる程ではない。<br/><br/>奏げれば天津祝詞である。<br/><br/>（S24.10.28） 121 布教と氏神参拝 氏神についてお伺い申し上げます。<br/><br/>永年住んでいた甲地から乙地へ転住した場合には甲乙どちらの土地の氏神に参拝するのがよろしいのですか。<br/><br/>御伺い申し上げます。<br/><br/>因みに大氏神は甲地乙地とも同一で御座います。<br/><br/> 氏神はその土地だけの管轄である。<br/><br/>人間社会と同じで、常識的にやれ。<br/><br/>（S25. 5.27） 122 布教上産土神への挨拶 新しい土地に伝道に参りました場合、その土地の氏神様には御挨拶すべきでしょうか。<br/><br/>もしすべき場合は単に儀礼的にすれば宜しいでしょうか。<br/><br/>あるいは御守護を御願いすべきでしょうか。<br/><br/>右、御願い申し上げます。<br/><br/> 御守護願えばよい。<br/><br/>非常に離れているとか、天気の悪い場合ならよい。<br/><br/>それほど重大でない。<br/><br/>やらないよりいい位の程度である。<br/><br/>（S24. 7. 3） rattail（注） 〔 御光話（S24年 7月 3日） 『御光話録』13号、昭和24(1949)年10月21日発行〕に掲載 123 日蓮信者の導き 日蓮宗狂信者をこの御教えに導きますにはいかが致しましたらよろしゅう御座いますか。<br/><br/>御伺い申し上げます。<br/><br/> 時節を待った方がよい。<br/><br/>ちょっと話してみて、耳を傾けるようなら話してもよい。<br/><br/>（S23） 124 他力本願宗と本教 仏教の他力本願を信仰する人は、本教に入信し現世の御利益を得る事は未来において救済されざるごとく考えていられるため、目の前に御利益を拝しながらも右の点を懸念される人が随分あります。<br/><br/>布教に当りましていかに説明したら宜敷いでしょうか。<br/><br/>御教示下さい。<br/><br/> 他力本願の人は反って分る訳である。<br/><br/>寧ろ自力の方が分り難い。<br/><br/>現当利益を与える力がないために利益は低級のような理論を作った。<br/><br/>他宗教には力がない。<br/><br/>神仏に意気地がないのである。<br/><br/>（S24. 6. 8）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

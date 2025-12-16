@@ -4,8 +4,410 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>situmo06</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,59 +442,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ﻿<br>situmo06<br>――<br>岡田自観師の論文集 ――　<br>御教え検索：<br>help<br>資料検索：<br>妙智之光<br>『地上天国』5号、昭和24(1949)年6月25日発行<br>【問】観音様は三十三相と言いますが、従来の日本の神仏、例えば八幡菩薩も金比羅権現も、その他八百万神や諸善諸仏も三十三相に化現されるんでしょうか。<br>【答】そんなことはない。三十三相に化するのは観音様だけで、救いのために相手によって応身される。これが観音様のお働きで、私がいつもやっていることで、信者の人もそういうようにしなければいけない。それには自分の個性を滅却して、先方を主にするよう心掛くべきである。これが応身の働きで、そのため化現され、それが三十三相である。観音様は三十三相というが御本体は聖観音で蓮華を持っておられるお姿である。蓮の花は仏法を表象し、仏法をもって救われるという意を表わしている。禽獣虫魚にまで化するというが、これはぜんぜんないこともない。神様の霊は虫などに憑依することもある。<br>【問】物事が順調に行かぬ場合は浄化でしょうか。なにかのわけがあるのでしょうか。<br>【答】物事が順調に行かぬ場合は浄化のための場合もあり、時節が来ぬのに焦るからでもある。果物がまだ熟さぬうちに取って食うようなものである。<br>その他罪穢があるとそれに相当した邪霊が憑こうとするがこれとても一種の浄化の現われである。しかし誠の心を持てば速く浄化がすみ、善い心掛けと良い行いをすれば運勢が開けるようにこの世はできている。<br>【問】霊子は人間生活にいかなる関係があるでしょうか。<br>【答】これは言うまでもなく霊子がなかったら、あらゆる生物は死滅する。科学的に言うと電子、原子、霊子の順に微粒子になってゆく。勿論、霊子は最極微粒子である。音は霊子の体で粒子が大きいから、音の運動は遅いのである。<br>【問】浄霊が比較的忙しくない場合は、一時的に他の職業と兼ねてもよいのでしょうか。<br>【答】これは臨機応変であるが、本当は他の職を求めるのはよくない。神様のほうにもいろんな事情があって遅速があるのである。<br>私は最初のころよく「散花結実」という言葉を用いたがそういう場合もある。これは花が散って実が実るということで、多くの場合一時さかんになるが花が散る時が来ると暇になるのであるが、実ができるのは時間がかかる。人間は焦りたがるが、閑なのは一時的現象で決して長く続くものではない。なにごとも始めからパッとするのはいけない。実が実るように始めは小さく徐々に大きくなるのが本当である。<br>また発展をしない理由は、なにか神様のお気に入らぬことがあるわけもあるから、よくその心と行いを考えてみるべきである。<br>【問】お葬式に参列の後で用足しをしたり、お墓参りをしてはいけないという理由。<br>【答】お葬式とか、婚礼とかは人生の重大な儀式であるから、参列したらそのまま帰るのが死者に対する礼節である。よく死汚れと言って死者のそばへ寄ると汚れると言うがこれはたいした意味はない。<br>礼節は大事なことで浄霊に行くにも、用足しを先にすると効果が薄い。これは主客転倒であるからである。神社参拝も同様でお詣りは先にする。それから用を足すのが本当である。<br>【問】心霊学者、修養団体（報恩会、奉誠会、霊友会）などの指導者の霊視能力は憑霊のためでしょうか。<br>【答】すべて霊視力は憑霊のためで、そのほとんどは狐霊である。狐が憑ると霊が見えたり声が聞こえるのである。精神病者は右の能力が顕著である、故に普通人がそうなることは危険である。しかし特殊の場合、一時的見える場合は差し支えない。始終見えるのはよくない。精神病者がよく空間をみつめているが、これは医学では幻覚と言い、聴えるのを幻聴と言う。正守護神が視せる場合があり、その際狐を使うこともある。<br>【問】催眠術の原理。<br>【答】こちらの霊で向こうの霊を負かす方法である。であるから自分の霊より以下の霊なら術がかかるが、自分より以上の霊の者にはかからない。催眠術にかかるのはたいてい女に多い。それは女の霊は男に負けるからだ。<br>いずれにしてもこれは副霊の作用で、邪道であるからやらないほうがよい。<br>【問】浄霊のとき手をどのくらい離したのが一番霊気が強いでしょうか。<br>【答】かなり遠くとも霊気は強い。二、三間は離れてもよいが、あまり遠いと中心を外れるおそれがあるから、二、三尺くらいが一番いい所で中心がよく合うのである。<br>【問】雷はいかなる現象ですか。<br>【答】雷は霊界の曇りを焼き払うのである。これに伴う雨風はその上、水で洗って風で吹き払う浄めの業である。また他の理由もある。菅原道真が霊界へ行って火龍となり、彼を陥れた讒者（ざんしゃ）を雷火によって悩ました有名な話があるが、こういうことはそうとう偉い人でなくてはできぬことである。<br>【問】墓碑建立につきて常識的に留意すべき事項。例えば方向、形状、盛土の高さ、石の種類、植樹の可否などにつき。<br>【答】方向はどちらでもよい。その土地の地形によればよいが、本当から言うと北の隅で南向きが一番よい。<br>形状はふつうの形でよい。自然石はいけない。形状は石畳の造る形でよい。盛土の高さはちょうど拝みよい高さがよい。すなわち一尺五寸くらいである。石の種類は白い色ほどよい。黒っぽいのは不可である。ごく上等の墓は白大理石を用いる。植樹は墓に植えるような常磐木（ときわぎ）ならよい。あまり高くなるのは不可である。すなわち槙、モチ、カナメで特にシキミがよい。
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A manifestação em trinta e três aparências é exclusiva de Kannon ou aplica-se a outras divindades japonesas?</h2>
 <p>Não, de modo algum. Apenas Kannon (観音) se manifesta nas trinta e três aparências, adaptando Sua forma conforme a pessoa, com o propósito da salvação. Esta é a sagrada atuação de Kannon (観音), e é precisamente o que pratico constantemente. Os fiéis, por sua vez, devem proceder da mesma maneira. Para tanto, é imperativo aniquilar a própria individualidade, esforçando-se para colocar o próximo em primeiro plano. Essa é a essência da adaptação da forma. É por essa razão que as manifestações ocorrem, totalizando as trinta e três aparências.</p>
@@ -125,5 +475,48 @@ function toggleLang(lang) {
 <p>Quanto ao formato, o modelo convencional é adequado. Deve-se evitar o uso de pedras em seu estado natural. A estrutura pode seguir o padrão dos pisos de pedra. A altura do monte de terra deve ser confortável para quem presta reverência, ou seja, cerca de quarenta e cinco centímetros.</p>
 <p>Em relação ao tipo de pedra, quanto mais clara, melhor. As de tonalidade escura não são apropriadas. Os túmulos de qualidade superior utilizam mármore branco.</p>
 <p>O plantio de árvores é permitido, desde que sejam espécies perenes, apropriadas para cemitérios. Deve-se evitar árvores que cresçam demasiadamente. As espécies indicadas são maki, mochi e kaname, sendo o shikimi especialmente recomendado.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>﻿<br/>situmo06<br/>――<br/>岡田自観師の論文集 ――　<br/>御教え検索：<br/>help<br/>資料検索：<br/>妙智之光<br/>『地上天国』5号、昭和24(1949)年6月25日発行<br/>【問】観音様は三十三相と言いますが、従来の日本の神仏、例えば八幡菩薩も金比羅権現も、その他八百万神や諸善諸仏も三十三相に化現されるんでしょうか。<br/>【答】そんなことはない。三十三相に化するのは観音様だけで、救いのために相手によって応身される。これが観音様のお働きで、私がいつもやっていることで、信者の人もそういうようにしなければいけない。それには自分の個性を滅却して、先方を主にするよう心掛くべきである。これが応身の働きで、そのため化現され、それが三十三相である。観音様は三十三相というが御本体は聖観音で蓮華を持っておられるお姿である。蓮の花は仏法を表象し、仏法をもって救われるという意を表わしている。禽獣虫魚にまで化するというが、これはぜんぜんないこともない。神様の霊は虫などに憑依することもある。<br/>【問】物事が順調に行かぬ場合は浄化でしょうか。なにかのわけがあるのでしょうか。<br/>【答】物事が順調に行かぬ場合は浄化のための場合もあり、時節が来ぬのに焦るからでもある。果物がまだ熟さぬうちに取って食うようなものである。<br/>その他罪穢があるとそれに相当した邪霊が憑こうとするがこれとても一種の浄化の現われである。しかし誠の心を持てば速く浄化がすみ、善い心掛けと良い行いをすれば運勢が開けるようにこの世はできている。<br/>【問】霊子は人間生活にいかなる関係があるでしょうか。<br/>【答】これは言うまでもなく霊子がなかったら、あらゆる生物は死滅する。科学的に言うと電子、原子、霊子の順に微粒子になってゆく。勿論、霊子は最極微粒子である。音は霊子の体で粒子が大きいから、音の運動は遅いのである。<br/>【問】浄霊が比較的忙しくない場合は、一時的に他の職業と兼ねてもよいのでしょうか。<br/>【答】これは臨機応変であるが、本当は他の職を求めるのはよくない。神様のほうにもいろんな事情があって遅速があるのである。<br/>私は最初のころよく「散花結実」という言葉を用いたがそういう場合もある。これは花が散って実が実るということで、多くの場合一時さかんになるが花が散る時が来ると暇になるのであるが、実ができるのは時間がかかる。人間は焦りたがるが、閑なのは一時的現象で決して長く続くものではない。なにごとも始めからパッとするのはいけない。実が実るように始めは小さく徐々に大きくなるのが本当である。<br/>また発展をしない理由は、なにか神様のお気に入らぬことがあるわけもあるから、よくその心と行いを考えてみるべきである。<br/>【問】お葬式に参列の後で用足しをしたり、お墓参りをしてはいけないという理由。<br/>【答】お葬式とか、婚礼とかは人生の重大な儀式であるから、参列したらそのまま帰るのが死者に対する礼節である。よく死汚れと言って死者のそばへ寄ると汚れると言うがこれはたいした意味はない。<br/>礼節は大事なことで浄霊に行くにも、用足しを先にすると効果が薄い。これは主客転倒であるからである。神社参拝も同様でお詣りは先にする。それから用を足すのが本当である。<br/>【問】心霊学者、修養団体（報恩会、奉誠会、霊友会）などの指導者の霊視能力は憑霊のためでしょうか。<br/>【答】すべて霊視力は憑霊のためで、そのほとんどは狐霊である。狐が憑ると霊が見えたり声が聞こえるのである。精神病者は右の能力が顕著である、故に普通人がそうなることは危険である。しかし特殊の場合、一時的見える場合は差し支えない。始終見えるのはよくない。精神病者がよく空間をみつめているが、これは医学では幻覚と言い、聴えるのを幻聴と言う。正守護神が視せる場合があり、その際狐を使うこともある。<br/>【問】催眠術の原理。<br/>【答】こちらの霊で向こうの霊を負かす方法である。であるから自分の霊より以下の霊なら術がかかるが、自分より以上の霊の者にはかからない。催眠術にかかるのはたいてい女に多い。それは女の霊は男に負けるからだ。<br/>いずれにしてもこれは副霊の作用で、邪道であるからやらないほうがよい。<br/>【問】浄霊のとき手をどのくらい離したのが一番霊気が強いでしょうか。<br/>【答】かなり遠くとも霊気は強い。二、三間は離れてもよいが、あまり遠いと中心を外れるおそれがあるから、二、三尺くらいが一番いい所で中心がよく合うのである。<br/>【問】雷はいかなる現象ですか。<br/>【答】雷は霊界の曇りを焼き払うのである。これに伴う雨風はその上、水で洗って風で吹き払う浄めの業である。また他の理由もある。菅原道真が霊界へ行って火龍となり、彼を陥れた讒者（ざんしゃ）を雷火によって悩ました有名な話があるが、こういうことはそうとう偉い人でなくてはできぬことである。<br/>【問】墓碑建立につきて常識的に留意すべき事項。例えば方向、形状、盛土の高さ、石の種類、植樹の可否などにつき。<br/>【答】方向はどちらでもよい。その土地の地形によればよいが、本当から言うと北の隅で南向きが一番よい。<br/>形状はふつうの形でよい。自然石はいけない。形状は石畳の造る形でよい。盛土の高さはちょうど拝みよい高さがよい。すなわち一尺五寸くらいである。石の種類は白い色ほどよい。黒っぽいのは不可である。ごく上等の墓は白大理石を用いる。植樹は墓に植えるような常磐木（ときわぎ）ならよい。あまり高くなるのは不可である。すなわち槙、モチ、カナメで特にシキミがよい。</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

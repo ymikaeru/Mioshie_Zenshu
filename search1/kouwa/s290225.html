@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s290225</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S29年2月25日） 『御教え集』31号、昭和29(1954)年3月15日発行 昭和二十九年二月二十五日 最近ハワイ教会の落成式について、あっちの新聞に出ていたのですが、よく書いてあります。<br><br>『ハワイ報知』というのです。<br><br>それを読ませます。<br><br> （『ハワイ報知』二月十五日付掲載「世界メシヤ教布哇教会落成式」）【栄光 二五二号】 写真も載ってますから見たい人は後で見てください。<br><br> それに最近さらに隣の地所も少し手に入れたようですが、着々というよりか驚異的に発展しつつあるのです。<br><br> それから二、三日前に来た手紙に、ロサンゼルスでもだいぶお蔭が著しいので、ジリジリ発展しつつあります。<br><br>特にそのお蔭が、日本よりか多いのです。<br><br>たとえてみれば病気が非常に治りがよいのと、治り方が早いのです。<br><br>そして再発がほとんどないのです。<br><br>だから発展し出したら、とうてい日本どころではないと思うのです。<br><br>非常に急速に大きくなるだろうと思います。<br><br>それはどういうわけかというと、原因があるのです。<br><br>日本の病気は非常に――しかし医者からみれば浄霊の方はばかに早いですが――長引くとか、再浄化が起こるとか、三度も四度も起こる人があります。<br><br>それはどういうわけかというと、漢方薬のためです。<br><br>漢方薬の量が多いために、それを排除するのに非常に手間がかかるのです。<br><br>ところがハワイやアメリカの方は漢方薬がないので、全部西洋の薬ですから、薬毒の量が非常に少ないのです。<br><br>そこで取れやすいのです。<br><br>それは、十何年とかいうのが三回か五回の浄霊でたいてい治ってしまうのです。<br><br>そして治ったきりで、あと丈夫でドンドン働けるのです。<br><br>それは薬毒の量の原因です。<br><br>だから、よく結核には再浄化が多いのですが、これは薬の量が多いためです。<br><br>結核は最初はふつうの病気と逆ですが、最初は西洋の薬でさんざんやったがどうしても治らない、そこでたいてい漢方薬をやるのです。<br><br>これは西洋と漢方と両方の薬ですから、非常に量が多いのです。<br><br>それで、結核の再浄化というのがあるのです。<br><br>そういうわけで、確か一度書いたと思いますが、近年“日本人の寿命が延びた”ということを言われてますが、これもそのためなのです。<br><br>近年になってだんだん漢方薬をのまなくなって、西洋の薬になったからして、そこで量が少ないから寿命が延びるというわけです。<br><br>ですから病気で死ぬということはないので、衰弱で死ぬのです。<br><br>病気のための衰弱ですから、病気のためとも言えますが、直接は衰弱で死ぬのです。<br><br>衰弱で死ぬということは、長引くから衰弱するのですから、長引くということは薬の量が多いからです。<br><br>そこで漢方薬というのは、ある点においては西洋の薬よりか恐ろしいです。<br><br>チビチビというやつは毒は少なくても、やっぱり非常に大きな量になるからして、浄化で排泄する場合にも暇がかかるから衰弱を増すのです。<br><br>それから西洋の方は勝負が早いから、治るとなるのも早いわけです。<br><br>それから致命的になることが少ないです。<br><br>そのために寿命が延びたというわけです。<br><br>それから結核の死亡率が減ったということも薬の関係ですが、ところが昨日の新聞にも出てましたが、癌とか脳出血というのが非常に多くなった、それで結核が去年まで三位だったのが、今度は六位になったというようなことが書いてありました。<br><br>これらも、その薬の関係です。<br><br>薬、すなわち今の抗生物質というのは副作用が割合少なく起こるというのです。<br><br>その代わり結核の増加率は少しも減らないで、ますます増えるのです。<br><br>ただ死ぬのを延ばすだけのもので、病気が治るのではないのです。<br><br>病気が治るということと、死ぬのが延びるというのとは、似て非なりで、違うのです。<br><br>病気が治るということは、ピンピンしてしまうということですが、ピンピンしないで、ただグズグズ生きているというわけです。<br><br>そこでハワイやアメリカの方が治りがよいわけです。<br><br>そういうことは思いもつかない意外なことなので、そういうことを知っていると、これからアメリカの方のお蔭話を見てもすぐ分かります。<br><br> 今世間の問題は汚職問題ですが、これがだんだん拡がって、今朝のラジオでも、だいぶまた拡がって、他の汽船会社の方にも火がついてゆき、それから大野伴睦（おおのばんぼく）なども引っ張られそうなことを書いてありましたが、どこまでゆくか分からないほどです。<br><br>だいぶ浄化が強くなったためもあるのです。<br><br>それで、こういう問題もすべて浄化作用なのです。<br><br>病気は肉体的、こういうのは社会的、国家的です。<br><br>この間汚職問題について書きましたが、これを別の面から見たのを書いてみました。<br><br> （御論文「疑獄も浄化作用なり」）【栄光 二五二号】 いつも病気について医学の間違いを書いてますが、今までよりごく強めて、かなり際どいところまで書きました。<br><br>これで急所は言い尽くしたつもりです。<br><br> （御論文「私は告白する」） それから薬について、ちょっと気がつかないのですが、いったい薬というものは、どういうものだということをはっきり書いてみました。<br><br> （御論文「薬剤は科学？」）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Purificação no Indivíduo e na Sociedade</h2>
 <p>Recentemente, foi publicado um artigo bastante elogioso sobre a cerimônia de inauguração da Igreja do Havaí em um jornal local, o <em>Hawaii Hochi</em>. Solicitarei que façam a leitura para os senhores. A matéria inclui fotografias, que os interessados poderão apreciar posteriormente.</p>
@@ -104,5 +256,48 @@ function toggleLang(lang) {
 <p>(Artigo: “Eu Confesso”)</p>
 <p>Por fim, redigi um texto que esclarece a verdadeira natureza dos medicamentos, um aspecto que muitas vezes passa despercebido.</p>
 <p>(Artigo: “Os Fármacos São Científicos?”)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S29年2月25日） 『御教え集』31号、昭和29(1954)年3月15日発行 昭和二十九年二月二十五日 最近ハワイ教会の落成式について、あっちの新聞に出ていたのですが、よく書いてあります。<br/><br/>『ハワイ報知』というのです。<br/><br/>それを読ませます。<br/><br/> （『ハワイ報知』二月十五日付掲載「世界メシヤ教布哇教会落成式」）【栄光 二五二号】 写真も載ってますから見たい人は後で見てください。<br/><br/> それに最近さらに隣の地所も少し手に入れたようですが、着々というよりか驚異的に発展しつつあるのです。<br/><br/> それから二、三日前に来た手紙に、ロサンゼルスでもだいぶお蔭が著しいので、ジリジリ発展しつつあります。<br/><br/>特にそのお蔭が、日本よりか多いのです。<br/><br/>たとえてみれば病気が非常に治りがよいのと、治り方が早いのです。<br/><br/>そして再発がほとんどないのです。<br/><br/>だから発展し出したら、とうてい日本どころではないと思うのです。<br/><br/>非常に急速に大きくなるだろうと思います。<br/><br/>それはどういうわけかというと、原因があるのです。<br/><br/>日本の病気は非常に――しかし医者からみれば浄霊の方はばかに早いですが――長引くとか、再浄化が起こるとか、三度も四度も起こる人があります。<br/><br/>それはどういうわけかというと、漢方薬のためです。<br/><br/>漢方薬の量が多いために、それを排除するのに非常に手間がかかるのです。<br/><br/>ところがハワイやアメリカの方は漢方薬がないので、全部西洋の薬ですから、薬毒の量が非常に少ないのです。<br/><br/>そこで取れやすいのです。<br/><br/>それは、十何年とかいうのが三回か五回の浄霊でたいてい治ってしまうのです。<br/><br/>そして治ったきりで、あと丈夫でドンドン働けるのです。<br/><br/>それは薬毒の量の原因です。<br/><br/>だから、よく結核には再浄化が多いのですが、これは薬の量が多いためです。<br/><br/>結核は最初はふつうの病気と逆ですが、最初は西洋の薬でさんざんやったがどうしても治らない、そこでたいてい漢方薬をやるのです。<br/><br/>これは西洋と漢方と両方の薬ですから、非常に量が多いのです。<br/><br/>それで、結核の再浄化というのがあるのです。<br/><br/>そういうわけで、確か一度書いたと思いますが、近年“日本人の寿命が延びた”ということを言われてますが、これもそのためなのです。<br/><br/>近年になってだんだん漢方薬をのまなくなって、西洋の薬になったからして、そこで量が少ないから寿命が延びるというわけです。<br/><br/>ですから病気で死ぬということはないので、衰弱で死ぬのです。<br/><br/>病気のための衰弱ですから、病気のためとも言えますが、直接は衰弱で死ぬのです。<br/><br/>衰弱で死ぬということは、長引くから衰弱するのですから、長引くということは薬の量が多いからです。<br/><br/>そこで漢方薬というのは、ある点においては西洋の薬よりか恐ろしいです。<br/><br/>チビチビというやつは毒は少なくても、やっぱり非常に大きな量になるからして、浄化で排泄する場合にも暇がかかるから衰弱を増すのです。<br/><br/>それから西洋の方は勝負が早いから、治るとなるのも早いわけです。<br/><br/>それから致命的になることが少ないです。<br/><br/>そのために寿命が延びたというわけです。<br/><br/>それから結核の死亡率が減ったということも薬の関係ですが、ところが昨日の新聞にも出てましたが、癌とか脳出血というのが非常に多くなった、それで結核が去年まで三位だったのが、今度は六位になったというようなことが書いてありました。<br/><br/>これらも、その薬の関係です。<br/><br/>薬、すなわち今の抗生物質というのは副作用が割合少なく起こるというのです。<br/><br/>その代わり結核の増加率は少しも減らないで、ますます増えるのです。<br/><br/>ただ死ぬのを延ばすだけのもので、病気が治るのではないのです。<br/><br/>病気が治るということと、死ぬのが延びるというのとは、似て非なりで、違うのです。<br/><br/>病気が治るということは、ピンピンしてしまうということですが、ピンピンしないで、ただグズグズ生きているというわけです。<br/><br/>そこでハワイやアメリカの方が治りがよいわけです。<br/><br/>そういうことは思いもつかない意外なことなので、そういうことを知っていると、これからアメリカの方のお蔭話を見てもすぐ分かります。<br/><br/> 今世間の問題は汚職問題ですが、これがだんだん拡がって、今朝のラジオでも、だいぶまた拡がって、他の汽船会社の方にも火がついてゆき、それから大野伴睦（おおのばんぼく）なども引っ張られそうなことを書いてありましたが、どこまでゆくか分からないほどです。<br/><br/>だいぶ浄化が強くなったためもあるのです。<br/><br/>それで、こういう問題もすべて浄化作用なのです。<br/><br/>病気は肉体的、こういうのは社会的、国家的です。<br/><br/>この間汚職問題について書きましたが、これを別の面から見たのを書いてみました。<br/><br/> （御論文「疑獄も浄化作用なり」）【栄光 二五二号】 いつも病気について医学の間違いを書いてますが、今までよりごく強めて、かなり際どいところまで書きました。<br/><br/>これで急所は言い尽くしたつもりです。<br/><br/> （御論文「私は告白する」） それから薬について、ちょっと気がつかないのですが、いったい薬というものは、どういうものだということをはっきり書いてみました。<br/><br/> （御論文「薬剤は科学？」）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

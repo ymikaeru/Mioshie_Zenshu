@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>watasi25</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 私は芸術家を優遇する 『栄光』253号、昭和29(1954)年3月24日発行 私は絵描きを始め美術工芸家など、ともかく美術に関係ある人や芸能人などを大いに歓迎し、出来るだけ面接するようにしている。<br><br>それに引替え社会的にどんなに偉い人でも、余り会いたくないのである。<br><br>というのは別段私のわがままからではない。<br><br>つまり意味がないように思われ、気が向かないからである。<br><br>以前なども当時の現役国務大臣であった某氏が、二度も会いたいといって、一度などは私が強羅（ごうら）にいた時、宮ノ下まで来て面会を求めたが、それでも会いたくないので、円満に断った事がある。<br><br>という訳で自分で気が進まないのをどうする事も出来ないからである。<br><br>それについてはこういう訳もある。<br><br> それは私は若い頃から劇をはじめ、色々な興行物が好きなので随分見たし近頃は信者も知る通り、暇がない関係と好きでもあるため一晩置きに映画を観る事にしている。<br><br>その都度思う事は、その劇の作者、監督、俳優や、それらに付随する人達が、職業上からではあるが、それぞれ熱心に共同して、面白い作品を作り、大いに娯（たの）しませてくれるので有難いと思うし、またラジオも同様である。<br><br>それからまた新古の優れた美術品を見る時、その作者の苦心努力によって楽しませてくれるので、これも有難いと自ら感謝が湧く。<br><br>特に図抜けた名人の作品などは、心を打たれ、頭の下る思いがする。<br><br>もちろんこういう人は二人とかけ替えがないので余計尊いと思うのである。<br><br> そこへゆくと政治家や実業家、学者等にも偉い人は沢山あるが、そういう人から特に有難いと思うプラス的なものには出会わさない。<br><br>またこの人でなくてはならないと思う程の人物も見当らない。<br><br>代りは何人でもあるような気がする。<br><br>しかもそういう人に限って、外国は知らないが日本では宗教が嫌いな人が多い。<br><br>宗教を嫌うというのは少くとも心からの善人とは思えない。<br><br>なるほど善い事はしているだろうが、それは自己の打算からであるから、尊敬の念は起らない。<br><br>という訳で同じ善人であっても神を知る人の善なら本当の善であるから喜んで面会もし、交際も続けたくなるのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Minha Predileção pelos Artistas</h2>
 <p>Sinto-me imensamente propenso a acolher pintores, artesãos e, de modo geral, todos os que se dedicam às artes e ao entretenimento. Procuro, na medida do possível, conceder-lhes uma audiência. Em contrapartida, por mais elevada que seja sua posição social, sinto pouca inclinação para me encontrar com outras personalidades.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Existe uma razão para tal preferência. Desde a juventude, sempre apreciei o teatro e as diversas formas de espetáculo, tendo assistido a um grande número deles. Atualmente, como sabem meus seguidores, seja pela falta de tempo, seja por meu apreço, adotei o costume de assistir a um filme noite sim, noite não. Em cada uma dessas ocasiões, sou tomado por um sentimento de gratidão. Penso no autor da obra, no diretor, nos atores e em todos os que, com esmero profissional, colaboram para criar trabalhos tão fascinantes e que nos proporcionam imenso deleite. O mesmo se aplica ao rádio. De modo semelhante, ao contemplar obras de arte, antigas ou modernas, uma gratidão espontânea brota em meu coração pelo prazer que o esforço e a dedicação do artista me proporcionam. As criações de mestres excepcionais, em particular, tocam profundamente a alma e me infundem um sentimento de reverência. Considero essas pessoas verdadeiramente insubstituíveis, o que as torna ainda mais preciosas aos meus olhos.</p>
 <p>Ao voltar o olhar para os políticos, empresários e acadêmicos, embora existam entre eles muitas figuras notáveis, não encontro essa mesma inspiração positiva que desperta a gratidão. Tampouco vislumbro personalidades que se revelem a tal ponto indispensáveis. Tenho a impressão de que poderiam ser substituídos por inúmeros outros. Ademais, ao menos no Japão, pois desconheço a realidade estrangeira, é comum que pessoas desse meio nutram aversão pela religião. Ora, quem rejeita a religião dificilmente pode ser considerado uma pessoa de genuína bondade. É provável que pratiquem boas ações, contudo, se o fazem por mero cálculo e interesse próprio, não são capazes de inspirar em nós um sentimento de respeito.</p>
 <p>Nesse sentido, um homem bom que conhece a Deus manifesta a verdadeira bondade. É com pessoas assim que sinto alegria em me encontrar e desejo manter um relacionamento.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 私は芸術家を優遇する 『栄光』253号、昭和29(1954)年3月24日発行 私は絵描きを始め美術工芸家など、ともかく美術に関係ある人や芸能人などを大いに歓迎し、出来るだけ面接するようにしている。<br/><br/>それに引替え社会的にどんなに偉い人でも、余り会いたくないのである。<br/><br/>というのは別段私のわがままからではない。<br/><br/>つまり意味がないように思われ、気が向かないからである。<br/><br/>以前なども当時の現役国務大臣であった某氏が、二度も会いたいといって、一度などは私が強羅（ごうら）にいた時、宮ノ下まで来て面会を求めたが、それでも会いたくないので、円満に断った事がある。<br/><br/>という訳で自分で気が進まないのをどうする事も出来ないからである。<br/><br/>それについてはこういう訳もある。<br/><br/> それは私は若い頃から劇をはじめ、色々な興行物が好きなので随分見たし近頃は信者も知る通り、暇がない関係と好きでもあるため一晩置きに映画を観る事にしている。<br/><br/>その都度思う事は、その劇の作者、監督、俳優や、それらに付随する人達が、職業上からではあるが、それぞれ熱心に共同して、面白い作品を作り、大いに娯（たの）しませてくれるので有難いと思うし、またラジオも同様である。<br/><br/>それからまた新古の優れた美術品を見る時、その作者の苦心努力によって楽しませてくれるので、これも有難いと自ら感謝が湧く。<br/><br/>特に図抜けた名人の作品などは、心を打たれ、頭の下る思いがする。<br/><br/>もちろんこういう人は二人とかけ替えがないので余計尊いと思うのである。<br/><br/> そこへゆくと政治家や実業家、学者等にも偉い人は沢山あるが、そういう人から特に有難いと思うプラス的なものには出会わさない。<br/><br/>またこの人でなくてはならないと思う程の人物も見当らない。<br/><br/>代りは何人でもあるような気がする。<br/><br/>しかもそういう人に限って、外国は知らないが日本では宗教が嫌いな人が多い。<br/><br/>宗教を嫌うというのは少くとも心からの善人とは思えない。<br/><br/>なるほど善い事はしているだろうが、それは自己の打算からであるから、尊敬の念は起らない。<br/><br/>という訳で同じ善人であっても神を知る人の善なら本当の善であるから喜んで面会もし、交際も続けたくなるのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

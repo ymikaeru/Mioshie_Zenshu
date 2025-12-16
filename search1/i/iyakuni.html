@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>iyakuni</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医薬に反対せず 足利にまた本教中傷事件 『光』31号、昭和24(1949)年10月15日発行 足利市在本教信者の報告によれば大光明教会会長深町孝之亮氏は去る九月六日足利市において本教誹謗の講演を行ったことについて本教では直ちに左のごとき右反駁の印刷物を関係方面に送付、これが誤解のないよう注意を喚起した。<br><br> ◇ ◇ 昭和二十四年九月六日、足利市緑町の新井菊次郎方に同地大光明教会信者三十余名を招集し、会長深町孝之亮氏より左のごとき講演をしたのである。<br><br> 「日本観音教団においては薬剤は不可とするに対し、わが教会はそのような事を言わない、従って右観音教団は医療妨害である理由をもって健康保健所に訴え、保健所を動かし、結局同教団を解散させる計画で、今後日本全国にわたって、逐次この運動を拡充するつもりである」 という事を弁じた事である。<br><br> しかるに、医療及び薬剤については本年三月一日及び四月二十日本教発行の雑誌『地上天国』二号、三号の二回にわたって左のごとき注意書を掲載してある。<br><br> 信徒諸氏に告ぐ 「本教信徒の中に浄霊の場合医師にかかる事、薬を飲む事、注射をする事等について否定するごとき言葉ありやにて、本教の主旨を履きちがえ、社会の誤解を受ける事は、本教を傷つける結果となる事はもちろんで、この点充分注意され、決して医薬に反対するごとき事なきよう注意されたしとの大先生の思召しを、ここに御伝えする次第である」 右のごとく、本教団が医薬について、いかに周到の注意を払ってあるかは、右記事によっても明らかである、しかるに深町氏は全然虚構の言を発し、本教団を傷つけ、自己の教線拡充に資せんとする行為は断じて許すべからざるものがある。<br><br> したがって、今後もし医薬否定の言を発するものありとすればそれは本教の真の信者ではなく、他教の信者もしくは贋信者たる事を認識されたいのである。<br><br> ここに、事実を披瀝（ひれき）し、御注意を乞う次第である。<br><br> 宗教法人日本観音教団本部 神奈川県大船町山之内瓜ケ谷九七二 電話 鎌倉 一八二五 宗教法人日本五六七教会本部 小田原市緑町四ノ五九八 電話 小田原 四五三
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Esclarecimento Acerca de Falsas Acusações em Ashikaga</h2>
 <p>Recebemos o relato de um de nossos fiéis da cidade de Ashikaga, informando que, no dia 6 de setembro último, o senhor Fukamachi Kōnosuke, presidente da Igreja Daikomyō, proferiu uma palestra com o intuito de difamar nossa fé. Diante desse ocorrido, nossa Igreja providenciou o envio imediato da refutação que se segue, em formato impresso, aos setores pertinentes, visando a dirimir quaisquer mal-entendidos.</p>
@@ -106,5 +258,48 @@ Telefone: Kamakura 1825</p>
 <p><strong>Sede Central da Organização Religiosa Igreja Miroku (五六七) do Japão</strong>
 Odawara-shi, Midori-chō 4-598
 Telefone: Odawara 453</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医薬に反対せず 足利にまた本教中傷事件 『光』31号、昭和24(1949)年10月15日発行 足利市在本教信者の報告によれば大光明教会会長深町孝之亮氏は去る九月六日足利市において本教誹謗の講演を行ったことについて本教では直ちに左のごとき右反駁の印刷物を関係方面に送付、これが誤解のないよう注意を喚起した。<br/><br/> ◇ ◇ 昭和二十四年九月六日、足利市緑町の新井菊次郎方に同地大光明教会信者三十余名を招集し、会長深町孝之亮氏より左のごとき講演をしたのである。<br/><br/> 「日本観音教団においては薬剤は不可とするに対し、わが教会はそのような事を言わない、従って右観音教団は医療妨害である理由をもって健康保健所に訴え、保健所を動かし、結局同教団を解散させる計画で、今後日本全国にわたって、逐次この運動を拡充するつもりである」 という事を弁じた事である。<br/><br/> しかるに、医療及び薬剤については本年三月一日及び四月二十日本教発行の雑誌『地上天国』二号、三号の二回にわたって左のごとき注意書を掲載してある。<br/><br/> 信徒諸氏に告ぐ 「本教信徒の中に浄霊の場合医師にかかる事、薬を飲む事、注射をする事等について否定するごとき言葉ありやにて、本教の主旨を履きちがえ、社会の誤解を受ける事は、本教を傷つける結果となる事はもちろんで、この点充分注意され、決して医薬に反対するごとき事なきよう注意されたしとの大先生の思召しを、ここに御伝えする次第である」 右のごとく、本教団が医薬について、いかに周到の注意を払ってあるかは、右記事によっても明らかである、しかるに深町氏は全然虚構の言を発し、本教団を傷つけ、自己の教線拡充に資せんとする行為は断じて許すべからざるものがある。<br/><br/> したがって、今後もし医薬否定の言を発するものありとすればそれは本教の真の信者ではなく、他教の信者もしくは贋信者たる事を認識されたいのである。<br/><br/> ここに、事実を披瀝（ひれき）し、御注意を乞う次第である。<br/><br/> 宗教法人日本観音教団本部 神奈川県大船町山之内瓜ケ谷九七二 電話 鎌倉 一八二五 宗教法人日本五六七教会本部 小田原市緑町四ノ五九八 電話 小田原 四五三</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

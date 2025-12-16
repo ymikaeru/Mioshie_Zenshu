@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>manbyo</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 十二、万病一元論 『日本医術講義録』第１篇、昭和10(1935)年執筆 病気の原因は、霊体の曇りであり、曇りの原因は罪穢であるという事は、各項において述べた通りであるが、今一つ、ここに、科学的に電子説を藉（か）りて述べる事にする。<br><br>あらゆる物質は、陰電子と陽電子、即ちミクルトンとエレクトンとの両電子の運動によって原子が生れ、その原子の集合体が分子であり、それが物質の原素であるという所までは、科学に依って明らかになったのであるが、この病気の元素も同一の理に依って説明が出来るのである。<br><br>某ドクトルが、万病はすべて梅毒が原因であるという説を称えているが、これらも一理あるのである。<br><br> そもそも、病気一切は、霊の方面から言えば、曇であり、体の方面から言えば膿である。<br><br>今、霊の方面より述べんに、電子説が称（とな）える陽電子エレクトン一個へ対し、陰電子ミクルトンが八つの数を以て、非常な速度で、左進右退しつつ廻転しておるというのであるが、それは、全く事実であって、あらゆる森羅万象は、結成の場合の活動は左進右退であり、解体のそれは右進左退である。<br><br>この理を以て、光のリズムは左進右退にして、暗黒のそれは右進左退である。<br><br>善は左進右退にして、悪は右進左退である。<br><br>太陽の光は、熱にして左進右退であり、月光は冷にして、右進左退である。<br><br>故に、森羅万象は左進右退と右進左退との、交互錯綜に依って明暗熱冷、陽陰、火水、男女、その他、あらゆる形体が結成と解体、創造と破壊を繰返されつつ、進化しつつあるのである。<br><br> ここに、霊体の一部に、曇が生ずるとする。<br><br>霊体全部は左進右退に係わらず、曇の部分は右進左退のリズムに変化するのである。<br><br>即ち、右進左退は破壊であり、暗黒であるから、その部分は潰滅運動を起すのである。<br><br>言い換えれば、一部分が潰（つい）えの道程を辿（たど）り始めるのである。<br><br>それが、全身的に拡充されたる暁が死である。<br><br>故に、曇が部分的の時に、霊光に照らされれば、容易に潰滅して、健康は恢復するのである。<br><br>この曇にも、濃淡、種別、形状の、千差万別あるは勿論である。<br><br>ちょうど、大空に漂う雲の変化と、ある意味において、同じ点もあるのである。<br><br> 次に、体的方面を説かんに、曇の物質化は膿である。<br><br>この膿は、ちょうど、物質を形成する電子でもあるが、ただ違うのは、電子は左進右退によって、無から有を生ずるに反し、これは、有を無に変ぜしむるのである。<br><br>人体を構成している物質は有である。<br><br>その筋肉臓器骨等を無に還元するところの右進左退の破壊作用が行われるのである。<br><br>即ち、膿その物は、肉体を潰溶すべき性能の物質である。<br><br>それは、霊体の曇の右進左退に追随するのであるから、病気治癒の原則は、霊体の曇の解消より外には、断じて無いのである。<br><br>序（ついで）にいわんに、曇の根元は、度々言う通り、罪穢であるから、その罪穢なるものは悪であり、悪は、右進左退のリズムであるから、相応の理によって、終局において、そのままのリズムが、病気となって現わるるのである。<br><br> 故に、膿にも、各種の段階があって、稀薄にして、弱勢なる物は普通の膿であるが、それが濃度を益（ま）す場合、結核であり、一層濃度を増し、頑固性になった物が癌である。<br><br>しかし、これは、別の方面から言わなければ徹底しないのである。<br><br>即ち、膿の弱勢という事は、肉体の方の活力の強い為であり、膿の強性となるのは、肉体の活力が衰えている訳になる。<br><br>この理を以て、最初、弱性であった膿も、永い病気の裡（うち）に、肉体の衰弱を来し、ついに強性に変化するという事が少くないのである。<br><br>この理を、医家は知らざるが故、腫物の発生するやその産物を散らさんと、氷で冷し、又は、散らす性能の薬剤塗布を行うのである。<br><br>しかるに、これが恐るべき誤法にして、折角、自然に腫れて、膿汁が排出すれば、容易に治癒すべき腫物を、この誤法の結果、腫るる機会を失うを以て、その膿汁は、他の方面を求めて腫るるのである。<br><br>かくのごとくなれば、その腫物は、大抵の場合、数ケ所に現わるるのである。<br><br>しかるに、この際は、患者は、相当の衰弱状態になるを以て、膿汁を出す程に腫るる勢なく、荏苒（じんぜん）日を経るに従い、漸次、衰弱の度を増し、生命を失うまでに到るのである。<br><br> かくのごとく薬剤のいかに恐るべきかを説いたのである。<br><br>故に人間の肉体内に絶対薬剤を入れざれば、血液は純潔なるを以て頗る健康を保持さるるのである。<br><br>私の説を聴いて覚醒し薬剤から全く離れたる人が時日の経るに従い年々健康を増進する事実は例外がないといっても宜（よ）いのである。<br><br>百の理論よりも一の事実にしかず。<br><br>国民の保健上到底黙視する事は出来ないのである。<br><br>もし統計が作られるならば、結核よりも伝染病よりも、この薬剤中毒の為にたおれる者の数の方が幾層倍多い事であろう事は私は断言し得らるるのである。<br><br> （注）荏苒（じんぜん）、歳月が移り行くままに、何もしないでいるさま。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Teoria da Origem Única de Todas as Doenças</h2>
 <p>Conforme já elucidei em diversas ocasiões, a causa fundamental das doenças reside na mácula do corpo espiritual, a qual, por sua vez, origina-se dos pecados e impurezas. Neste ensejo, contudo, valer-me-ei da teoria dos elétrons para apresentar uma explanação científica sobre o tema. A ciência já esclareceu que toda a matéria se origina do movimento de elétrons negativos (<em>mikuruton</em>) e positivos (<em>erekuton</em>), cuja atividade dá origem aos átomos; estes, por sua vez, agrupam-se para formar as moléculas, que são os elementos constitutivos da matéria. Pois bem, o elemento primordial da doença pode ser explicado exatamente por este mesmo princípio. A propósito, a teoria postulada por certo médico, de que todas as enfermidades derivam da sífilis, não deixa de conter um fundo de verdade.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Passemos agora à análise do aspecto físico. A materialização da mácula é o pus. Este pus assemelha-se aos elétrons que formam a matéria, mas com uma diferença crucial: enquanto os elétrons criam o “ser” a partir do “não ser” por meio do movimento de avanço pela esquerda, o pus transforma o “ser” em “não ser”. O corpo humano é constituído por matéria, ou seja, “ser”. O pus, por sua vez, exerce uma ação destrutiva de avanço pela direita, que reduz os músculos, órgãos e ossos ao “não ser”. Em suma, o pus é uma substância com a propriedade de dissolver o corpo físico, e sua ação acompanha o movimento destrutivo da mácula espiritual. Disso decorre que o princípio fundamental da cura reside, inquestionavelmente, na eliminação da mácula do corpo espiritual. Não há outra via. Ademais, como venho repetindo, a raiz da mácula são os pecados e impurezas. Sendo estes a essência do mal, e possuindo o mal o ritmo de avanço pela direita, pela lei da afinidade espiritual, esse mesmo ritmo acaba por se manifestar no corpo como doença.</p>
 <p>O pus, portanto, apresenta diferentes graduações. Em seu estado diluído e de baixa virulência, é o pus comum. Quando se torna mais concentrado, manifesta-se como tuberculose. E, em sua forma mais densa e resistente, converte-se em câncer. Contudo, para uma compreensão plena, é preciso analisar a questão sob outra ótica. A baixa virulência do pus indica que a vitalidade do corpo é grande, ao passo que sua alta virulência revela um enfraquecimento dessa mesma vitalidade. Por este princípio, não é raro que um pus inicialmente fraco se transforme em um agente poderoso no decorrer de uma longa enfermidade que debilita o organismo. É por desconhecerem esta lei que os médicos, ao se depararem com o surgimento de um tumor, tentam dispersar seu conteúdo com gelo ou com a aplicação de fármacos de ação dispersante. Trata-se, todavia, de um erro terrível. Um tumor que, por via natural, se desenvolveria até expelir o pus e proporcionar uma cura fácil, perde a oportunidade de fazê-lo devido a esse procedimento equivocado. Como resultado, o pus busca outra saída, e os tumores reaparecem, geralmente em múltiplos locais. Nessa fase, o paciente já se encontra consideravelmente debilitado, e os tumores não possuem força suficiente para se desenvolver e expelir o conteúdo purulento. Com o passar do tempo, o estado do enfermo agrava-se progressivamente, levando-o, por fim, à morte.</p>
 <p>O exposto demonstra o quão temíveis são os medicamentos. Com efeito, quando o corpo humano se mantém livre de fármacos, o sangue permanece puro, garantindo uma saúde notável. As pessoas que, despertas por minhas palavras, abandonam por completo o uso de medicamentos, invariavelmente veem sua saúde aprimorar-se ano após ano. Pode-se dizer que não há exceções a essa regra. Um único fato vale mais que cem teorias. Pelo bem da saúde de toda a nação, é impossível que eu permaneça em silêncio diante de tal realidade. Atrevo-me a afirmar que, se estatísticas precisas fossem compiladas, revelariam que o número de pessoas que sucumbem ao envenenamento por medicamentos é muitas vezes superior ao das vítimas de tuberculose e outras doenças infecciosas.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 十二、万病一元論 『日本医術講義録』第１篇、昭和10(1935)年執筆 病気の原因は、霊体の曇りであり、曇りの原因は罪穢であるという事は、各項において述べた通りであるが、今一つ、ここに、科学的に電子説を藉（か）りて述べる事にする。<br/><br/>あらゆる物質は、陰電子と陽電子、即ちミクルトンとエレクトンとの両電子の運動によって原子が生れ、その原子の集合体が分子であり、それが物質の原素であるという所までは、科学に依って明らかになったのであるが、この病気の元素も同一の理に依って説明が出来るのである。<br/><br/>某ドクトルが、万病はすべて梅毒が原因であるという説を称えているが、これらも一理あるのである。<br/><br/> そもそも、病気一切は、霊の方面から言えば、曇であり、体の方面から言えば膿である。<br/><br/>今、霊の方面より述べんに、電子説が称（とな）える陽電子エレクトン一個へ対し、陰電子ミクルトンが八つの数を以て、非常な速度で、左進右退しつつ廻転しておるというのであるが、それは、全く事実であって、あらゆる森羅万象は、結成の場合の活動は左進右退であり、解体のそれは右進左退である。<br/><br/>この理を以て、光のリズムは左進右退にして、暗黒のそれは右進左退である。<br/><br/>善は左進右退にして、悪は右進左退である。<br/><br/>太陽の光は、熱にして左進右退であり、月光は冷にして、右進左退である。<br/><br/>故に、森羅万象は左進右退と右進左退との、交互錯綜に依って明暗熱冷、陽陰、火水、男女、その他、あらゆる形体が結成と解体、創造と破壊を繰返されつつ、進化しつつあるのである。<br/><br/> ここに、霊体の一部に、曇が生ずるとする。<br/><br/>霊体全部は左進右退に係わらず、曇の部分は右進左退のリズムに変化するのである。<br/><br/>即ち、右進左退は破壊であり、暗黒であるから、その部分は潰滅運動を起すのである。<br/><br/>言い換えれば、一部分が潰（つい）えの道程を辿（たど）り始めるのである。<br/><br/>それが、全身的に拡充されたる暁が死である。<br/><br/>故に、曇が部分的の時に、霊光に照らされれば、容易に潰滅して、健康は恢復するのである。<br/><br/>この曇にも、濃淡、種別、形状の、千差万別あるは勿論である。<br/><br/>ちょうど、大空に漂う雲の変化と、ある意味において、同じ点もあるのである。<br/><br/> 次に、体的方面を説かんに、曇の物質化は膿である。<br/><br/>この膿は、ちょうど、物質を形成する電子でもあるが、ただ違うのは、電子は左進右退によって、無から有を生ずるに反し、これは、有を無に変ぜしむるのである。<br/><br/>人体を構成している物質は有である。<br/><br/>その筋肉臓器骨等を無に還元するところの右進左退の破壊作用が行われるのである。<br/><br/>即ち、膿その物は、肉体を潰溶すべき性能の物質である。<br/><br/>それは、霊体の曇の右進左退に追随するのであるから、病気治癒の原則は、霊体の曇の解消より外には、断じて無いのである。<br/><br/>序（ついで）にいわんに、曇の根元は、度々言う通り、罪穢であるから、その罪穢なるものは悪であり、悪は、右進左退のリズムであるから、相応の理によって、終局において、そのままのリズムが、病気となって現わるるのである。<br/><br/> 故に、膿にも、各種の段階があって、稀薄にして、弱勢なる物は普通の膿であるが、それが濃度を益（ま）す場合、結核であり、一層濃度を増し、頑固性になった物が癌である。<br/><br/>しかし、これは、別の方面から言わなければ徹底しないのである。<br/><br/>即ち、膿の弱勢という事は、肉体の方の活力の強い為であり、膿の強性となるのは、肉体の活力が衰えている訳になる。<br/><br/>この理を以て、最初、弱性であった膿も、永い病気の裡（うち）に、肉体の衰弱を来し、ついに強性に変化するという事が少くないのである。<br/><br/>この理を、医家は知らざるが故、腫物の発生するやその産物を散らさんと、氷で冷し、又は、散らす性能の薬剤塗布を行うのである。<br/><br/>しかるに、これが恐るべき誤法にして、折角、自然に腫れて、膿汁が排出すれば、容易に治癒すべき腫物を、この誤法の結果、腫るる機会を失うを以て、その膿汁は、他の方面を求めて腫るるのである。<br/><br/>かくのごとくなれば、その腫物は、大抵の場合、数ケ所に現わるるのである。<br/><br/>しかるに、この際は、患者は、相当の衰弱状態になるを以て、膿汁を出す程に腫るる勢なく、荏苒（じんぜん）日を経るに従い、漸次、衰弱の度を増し、生命を失うまでに到るのである。<br/><br/> かくのごとく薬剤のいかに恐るべきかを説いたのである。<br/><br/>故に人間の肉体内に絶対薬剤を入れざれば、血液は純潔なるを以て頗る健康を保持さるるのである。<br/><br/>私の説を聴いて覚醒し薬剤から全く離れたる人が時日の経るに従い年々健康を増進する事実は例外がないといっても宜（よ）いのである。<br/><br/>百の理論よりも一の事実にしかず。<br/><br/>国民の保健上到底黙視する事は出来ないのである。<br/><br/>もし統計が作られるならば、結核よりも伝染病よりも、この薬剤中毒の為にたおれる者の数の方が幾層倍多い事であろう事は私は断言し得らるるのである。<br/><br/> （注）荏苒（じんぜん）、歳月が移り行くままに、何もしないでいるさま。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

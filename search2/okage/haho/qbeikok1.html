@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qbeikok1</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 米国通信 『栄光』159号、昭和27(1952)年6月4日発行 立松文二 早や若葉の候となりましたが、先生を始め御信者の皆々様には、お元気の事と存じます。<br><br>その後の経過に就き御報告申し上げます。<br><br> （一）御守護によりまして、去る四月二十九日退院致す事が出来ました。<br><br> （二）六月一日サウスペンドを立ち、六月下旬迄には帰国の予定でございます。<br><br> （三）ただ今、再度ハロルド・ロビンス氏を御浄霊に通っております。<br><br> レントゲンに写ったお守様のお光 （一）二月五日夜より発熱と激痛を覚え、二月十三日ノートルダームの医療所に入院、左急性肋膜の診断にて二月十八日サウスペンドの聖ヨゼフ病院へ移り、ここで二回胸水を多量に除られました後、三月十日、効外のヘルスウィンというサナトリウムへ移されました。<br><br>ノートルダーム医療所にては、三時間置きに与えられたテラマイシンをひそかに捨て去り、聖ヨゼフ病院にては週三回与えられるはずの、ストレプトマイシンの注射を断りました事は前回御報告致しました。<br><br>同時に三度胸水の溜る事を予期しまして、何卒三度目は胸水を除られませぬよう御守護をお祈り致しました。<br><br>ヘルスウィンにてレントゲン写真を撮るからと看護婦が迎えに参りました時、不図この度に限って御守をパジャマの左の上ポケットへお入れしましたが、レントゲン室へ参りましたところ、従来と異り上着をとらず、胸をはだければよいとの事で、結局御守を身におっつけたまま写真を撮られました。<br><br>翌日老人のドクターが、レントゲン写真と胸水を除る手術具を持って室へ入って参りました。<br><br>写真を見ますと左胸全体が上から下迄、そぎ取られたように消えておりハッキリ写っております右胸にも小さい丸いしみが点々と飛んでおります。<br><br>ハハァー御守を左のポケットにお入れしていたためだなと思い「なぜ左胸全体が消えておるのですか？」と老人ドクターに訊ねたところ「これは君の左胸に胸水が充満しておる故で、もし胸水が無ければ、右胸部のようにハッキリと出るはずなのです」と答えて、頻りに太い注射針をいじくり廻しております。<br><br>又々胸へ針を突込まれるかこれ又御神意なら致し方ないと半ば締めたところへ、思い掛けず看護婦が紙切れを差し出しました。<br><br>「これへ署名して下さい」と言う。<br><br>それでは御守護現われたらと思いまして「患者がこれに署名せねば一切手術は出来ない訳ですね」「そうです」「では私は胸水を除られたくないから署名しません」驚いたのは看護婦です。<br><br>何かの用事で丁度室を出たドクターの後をあたふたと追って行きました。<br><br>ドクターはつかつかと室へ入って来ると私の上に覆い被さるようにして「なぜ君は手術を拒むのです？ それじゃ君を治す事が出来んじゃないか、何か理由があるのですか？ あったら簡単に言ってごらん」私「実は私は謂わばクリスチャン・サイエンスにちょっと似たある宗教団体に属しておるのです。<br><br>我々の立場からは霊的療法のみを是としますので、医学を肯定出来ないのです」「フームそれで？」「一切の病気を霊と肉の浄化作用、寧ろ感謝すべき神の恩恵と見なすのです」「その宗教はアメリカにも信者を持っていますか？」「ノー」「日本に発生したものですか？」「そうです。<br><br>しかしてその霊療法によって、日本では既に数十万の重症者が癒されています」（ドクターこれにはほとんど耳を貸さずに）「名は何と言うのですか？」「世界メシヤ教です」「入院していながら君は医学を信じないという訳ですね？」「そうです。<br><br>だから直ちに退院させて頂きたいのです」（この時は未だ呼吸は変調で、顔色は悪く、かつげっそり痩せておりました）「いや、そうはいかない、院長に相談せねば」（手帳を取り出してかきつつ）「名は世界メシヤ教、病気を全て霊と肉の浄化作用と見傲す。<br><br>そうだね？」「しかりドクター」「待ち給え、院長と相談して来るから」老ドクターは焦々したせわしない足取りで室を出て行きました。<br><br> ヘルスウィンの大サナトリウムにて ヘルスウィンはベッド二百近くを有し、あらゆる医療施設及び映写室、図書室、講堂等、娯楽施設の完備した堂々たる大サナトリウムです。<br><br>入院患者は全て各自の症状に応じて十二クラスに分けられ、各クラス毎にしてよい事としていけない事の項目が定まっております。<br><br>患者は入院するや診断が決定する迄クラス一に属し、絶対安静を命ぜられ、病室専属の目と鼻の先のトイレットに行く事すら許されません（もっとも小生は始めからトイレットを使いました）。<br><br>クラス四位迄は院内の廊下を歩く事も許されず、看護婦の押す手押し車にのせられます。<br><br>又全患者は日に三度（午前午後二度の睡眠時間と夜寝る前）睡眠薬と、日に一度通便用の油を服まされます。<br><br>現代医学の立場を是とすれば、将に至れり尽せりの観があります。<br><br>私はそれらの薬や油は勿論断りました。<br><br>やがて私は診断決定不能という訳で、試験病室という部門へ移されました。<br><br>クラスは第二であります。<br><br>二週間程して院長ドクター・カスターの回診がありました。<br><br>彼は笑みを含んだ顔で「君が信仰上の立場から、一切の医療を拒絶している事は聞いたが、やはり法津にも定めてあるように、患者は一応医師の言に従って貰わないと困る。<br><br>ついては治癒の為にも君の病状を決定するためにも、是非君の胸水を除らせて貰いたい」と言いますので「胸水は針で無理に除らずとも、自然排泄という事も考えられると思いますが……結構です。<br><br>ドクターただその前にも一度レントゲンを撮って頂けますか？」「よろしい、君が望むなら直ちに今日撮らせよう」と言う訳で再びレントゲンを撮られました。<br><br>御守護の意味が悟れたような気がしましたので、今回は上半身裸になって撮られました。<br><br> 浄霊によってメキメキ快復 歩行禁止のクラス二に属してはおりましたが、毎日狭い室内で色々と運動しました。<br><br>ヘルスウィンヘ入りまして、一カ月程の中に浄霊によりましてメキメキと快復、呼吸変調もほとんど治り、顔も太く、血色もよくなり、体重も増えました。<br><br>ところがどうした訳か、その後ドクター・カスターは水を除らせろとも言わず、姿もさっぱり現わしません。<br><br>向いの室の患者達も「一体院長はどうしたのだ、一度位お目に掛りたいものだ」等とブツブツ言う始末です。<br><br>レントゲン写真判定の為のドクター達の会議もおわったと看護婦に聞いて以来、二度程二回目に撮ったレントゲン写真を見せて頂きたいと申し込んだのですが、「ノー」の答すら得られません。<br><br>その中にある日ぶらりと聖ヨゼフ病院のドクター・サンダーソン（胸水を除った医師）が個人的に訪れまして彼「どうです工合は？」私「はぁお蔭様で？ 大変快くなりました」彼は「どれどれ」と小生の体を打診しまして「ウム大変よくなったね、よかった」と満足気な顔で帰って行きました。<br><br>果して左胸に胸水が充満しておる患者を打診して「大変快くなった」等いう言葉が出ましょうか？ ドクター・サンダーソンが正しいかヘルスウィンのドクター達が正しいか、いずれか？ という事になります。<br><br> ヘルスウィンのドクター達が二週間の間隔を置いて撮られた二枚のレントゲン写真を見比べた時、胸水の自然排泄という事実、ないし霊療法の効果を認めるか、さもなくば最初のレントゲン写真によって誤診を犯したという事実をみとめるかのジレンマに逢着した事は明らかであります。<br><br>というのも最初の左胸部の消失は明らかに御守の御光の故であり、従って二回目に上半身裸体で撮られた写真に、左胸部が再現している事は十中八九推測されるからであります。<br><br>現に当時左胸部に胸水が充満しているという自覚症状は全然ございませんでしたし、ドクター・サンダーソンの打診の際の打音を聞きましたところ、左右の音に殆んど相違はございませんでした。<br><br>最早誰が見ても常人と変らぬ私は、依然クラス二の絶対安静患者です。<br><br>止むなくドクター・カスターへ手紙をかきました。<br><br> ドクターにメシヤ教の病気観を書送る メシヤ教の病気観、当院へ来て以来全く医療も受けず、安静にもしていなかったに拘らず、見舞人も驚く程恢復した事実、又一度目の写真の左胸部消失を胸水の故とするなら二度目の写真は明らかに我々の霊的療法の効力を物語っている。<br><br>一に自分の信仰が病院生活と両立しない事、二に右の事実からもお分りのごとく、自分には自己治療が可能な事、この二つの理由により可及的速かに私の退院について御考慮下されれば幸いであるという趣旨のものであります。<br><br>看護婦に届けて貰ったのですが全然返事がありません。<br><br>一応五月初旬頃迄に退院させて頂けますよう御守護をお願いしたので御座いましたが、一切執着は不可ぬ。<br><br>逆の結果を招くという明主様の御教えも御座います故、退院の事は努めて念頭を去らしめていましたので、御神書と英文学関係の読書に明け暮れる気楽な日々を送らせて頂けました。<br><br> 四月二十二日やっと彼の回診が行われました。<br><br>私の室へ入って参りましたドクター・カスターは、前回に示した大病院の院長らしい余裕と落着はどこへやら、何となくそわそわした態度でジロリと私を睨み「君の手紙は読んで、君の信仰の問題については、ノートルダームの校医ドクター・イーガンと、ファーザー・ムーア（卒業学部長）に話しておいた。<br><br>退院するのは君の勝手だが私はそれに就て一切責任を負わぬ」と言い切るや、レントゲンの事には一言も触れずにさっさと室を出て行きました。<br><br>二日後ファーザー・ムーアとドクター・イーガンがやって来ましてドクター・イーガン「君は一切医療を拒絶しているそうだが、かくては私は校医として君の健康を保証出来ぬ故、たとえ君が退院しても大学へ復帰する事を許す事は出来ぬ」ファーザー・ムーア「書類によれば君はカトリック教徒となっておるのに、事実は既にそうでなかったと言う事は最も遺憾な事である」こと、ここに至る詮方なしと「大変申訳ない事です。<br><br>では私はスカラシップを辞退して日本へ帰る事にしましょう」両人「それがよかろう」という訳で、四月二十九日キャッシュマン夫人の車にて退院致しました。<br><br>病院の使用人達は終始非常に親切にして呉れまして、殊にマコーランド氏という、患者と医師との間の意志疏通、患者の娯楽、教養関係の仕事等を任とする四十位の紳士は何くれと好意を示しまして「とにかく私は貴君の信仰に非常に興味と関心を持っている。<br><br>もし英文のパンフレットでもあったら退院後是非送って下さい」と申します。<br><br>このような大病院の主要な勤め人の中にメシヤ教への同情者を見出すとは面白い事だと感じました。<br><br> 帰国を決意す （二）このような次第でございまして、九分通り成功かと思われました、御布教の為の滞米延期も不可能となりました。<br><br>シカゴのＳＶＤ（小生にスカラシップをくれる事になっていたカトリックの会）のファーザーヘスカラシップの辞退を申し込みましたら、それは残念だという丁寧な返事を頂きました。<br><br>五月一ぱいをもって学期が終りますので、六月一日頃当地を立たねばならない事になっております。<br><br>曇り多き不束者にて、充分御役に立ちませず、誠にただただ申し訳なく存じております。<br><br> ハロルド・ロビンス氏を御浄霊する （三）五月二日ロビンス氏宅を久し振りにて訪問しました。<br><br>ハロルドは丁度留守にて、六十三になる母親のみがおりました。<br><br>彼女は「ハロルドは最近左眼に痛みを訴えている。<br><br>もし実際視神経が無いなら痛みを感ずるはずがない。<br><br>あなたの手紙にあったように、ドクターの言う事は明らかに間違っていると思う」と申します。<br><br>中々話のよく分る人だと思いました。<br><br>五月三日より毎日ハロルドの御浄霊に通っております。<br><br>御浄霊を再開するや、再び両眼共に充血し始め、始終涙で潤うようになりました。<br><br>万事明主様御教え通り、力を抜き延髄中間を主に御浄霊しておりますが、 （イ）御浄霊開始（昨年十二月二十三日）以来もとは一八〇ポンド台あり、医師より重すぎて健康上面白くないと言われていた体重が、ただ今は一六〇ポンド台となり、体が全体に軽く感じると申します。<br><br> （ロ）以前は毎日午前二時喘息で眼覚め、以後朝迄寝つかれぬのを常としておりましたのが、最近は毎夜八時間以上眠れるようになり、昨日今日は朝夜二回の恒例の喘息が、全然出なかったと喜んでおりました。<br><br> （ハ）時々町で彼を見掛けますが、以前は、両眼を虚空へ向け石のごとく凝然と立ちつくすハロルドの姿は陰惨そのものでしたが、御浄霊開始以来心にも体にも、ゆったりとした、ゆとりが現われ、極く軽く背後の壁に寄り掛って鉛筆を売っております彼の姿からは、確かにずっと明るいものを感じます。<br><br>人相もよくなりました。<br><br>神様の御慈愛の深さをハロルドの姿の変化からも強く、感銘させて頂きました。<br><br>出立真際迄御浄霊を続けまして、母親及び当人が望みますならば、御守をお下げ渡しさせて頂こうかと考えております。<br><br>なお御論文飜訳は文を改めつつ連日タイプしております。<br><br> アメリカの病気状況及び医療状態等につきましての統計的な資料も御守護によりまして続々と集りましたので、いずれまとまった形で御報告させて頂きたいと存じております。<br><br>御道は最初の抵抗を破り、一定の段階へ達すれば、後は破竹の勢いで広まるのではないかと存じます。<br><br>アメリカ本土に教会ないし支部が置かれ、先生の言われるごとくジリジリと進めば割に短期間で御発展疑いなしと感じました。<br><br> 右誠に粗雑ながら、最後の御報告に代えさせて頂きます。<br><br>明主様数々の御守護の程実に宴に有難うございました。<br><br>充分御使命を果し得ませんでした事につきましては、伏してお詫び申し上げます。<br><br>岡田龍道先生を始め御信者皆様にお会い出来るを楽しみにしております。<br><br> 一九五二年五月八日記 （註）本文は和光中教会高円寺支部長岡田龍道氏に宛て書かれたものであります。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Correspondência dos Estados Unidos</h2>
 <p>Publicado na edição nº 159 da revista Glória, em 4 de junho de 1952
@@ -130,5 +285,48 @@ Tatsumatsu Bunji</p>
 <p>Embora este relato seja deveras singelo, peço que o aceite como meu último relatório. Agradeço do fundo do coração a Meishu-Sama por Suas inúmeras Proteções Divinas. Prostro-me em penitência por não ter conseguido cumprir plenamente minha missão. Anseio pelo dia em que poderei reencontrar o reverendo Okada Ryudo e todos os membros da Igreja.</p>
 <p>8 de maio de 1952</p>
 <p>(Nota) Esta carta foi originalmente endereçada ao Sr. Okada Ryudo, responsável pelo Johrei Center de Koenji, da Igreja Wako Naka.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 米国通信 『栄光』159号、昭和27(1952)年6月4日発行 立松文二 早や若葉の候となりましたが、先生を始め御信者の皆々様には、お元気の事と存じます。<br/><br/>その後の経過に就き御報告申し上げます。<br/><br/> （一）御守護によりまして、去る四月二十九日退院致す事が出来ました。<br/><br/> （二）六月一日サウスペンドを立ち、六月下旬迄には帰国の予定でございます。<br/><br/> （三）ただ今、再度ハロルド・ロビンス氏を御浄霊に通っております。<br/><br/> レントゲンに写ったお守様のお光 （一）二月五日夜より発熱と激痛を覚え、二月十三日ノートルダームの医療所に入院、左急性肋膜の診断にて二月十八日サウスペンドの聖ヨゼフ病院へ移り、ここで二回胸水を多量に除られました後、三月十日、効外のヘルスウィンというサナトリウムへ移されました。<br/><br/>ノートルダーム医療所にては、三時間置きに与えられたテラマイシンをひそかに捨て去り、聖ヨゼフ病院にては週三回与えられるはずの、ストレプトマイシンの注射を断りました事は前回御報告致しました。<br/><br/>同時に三度胸水の溜る事を予期しまして、何卒三度目は胸水を除られませぬよう御守護をお祈り致しました。<br/><br/>ヘルスウィンにてレントゲン写真を撮るからと看護婦が迎えに参りました時、不図この度に限って御守をパジャマの左の上ポケットへお入れしましたが、レントゲン室へ参りましたところ、従来と異り上着をとらず、胸をはだければよいとの事で、結局御守を身におっつけたまま写真を撮られました。<br/><br/>翌日老人のドクターが、レントゲン写真と胸水を除る手術具を持って室へ入って参りました。<br/><br/>写真を見ますと左胸全体が上から下迄、そぎ取られたように消えておりハッキリ写っております右胸にも小さい丸いしみが点々と飛んでおります。<br/><br/>ハハァー御守を左のポケットにお入れしていたためだなと思い「なぜ左胸全体が消えておるのですか？」と老人ドクターに訊ねたところ「これは君の左胸に胸水が充満しておる故で、もし胸水が無ければ、右胸部のようにハッキリと出るはずなのです」と答えて、頻りに太い注射針をいじくり廻しております。<br/><br/>又々胸へ針を突込まれるかこれ又御神意なら致し方ないと半ば締めたところへ、思い掛けず看護婦が紙切れを差し出しました。<br/><br/>「これへ署名して下さい」と言う。<br/><br/>それでは御守護現われたらと思いまして「患者がこれに署名せねば一切手術は出来ない訳ですね」「そうです」「では私は胸水を除られたくないから署名しません」驚いたのは看護婦です。<br/><br/>何かの用事で丁度室を出たドクターの後をあたふたと追って行きました。<br/><br/>ドクターはつかつかと室へ入って来ると私の上に覆い被さるようにして「なぜ君は手術を拒むのです？ それじゃ君を治す事が出来んじゃないか、何か理由があるのですか？ あったら簡単に言ってごらん」私「実は私は謂わばクリスチャン・サイエンスにちょっと似たある宗教団体に属しておるのです。<br/><br/>我々の立場からは霊的療法のみを是としますので、医学を肯定出来ないのです」「フームそれで？」「一切の病気を霊と肉の浄化作用、寧ろ感謝すべき神の恩恵と見なすのです」「その宗教はアメリカにも信者を持っていますか？」「ノー」「日本に発生したものですか？」「そうです。<br/><br/>しかしてその霊療法によって、日本では既に数十万の重症者が癒されています」（ドクターこれにはほとんど耳を貸さずに）「名は何と言うのですか？」「世界メシヤ教です」「入院していながら君は医学を信じないという訳ですね？」「そうです。<br/><br/>だから直ちに退院させて頂きたいのです」（この時は未だ呼吸は変調で、顔色は悪く、かつげっそり痩せておりました）「いや、そうはいかない、院長に相談せねば」（手帳を取り出してかきつつ）「名は世界メシヤ教、病気を全て霊と肉の浄化作用と見傲す。<br/><br/>そうだね？」「しかりドクター」「待ち給え、院長と相談して来るから」老ドクターは焦々したせわしない足取りで室を出て行きました。<br/><br/> ヘルスウィンの大サナトリウムにて ヘルスウィンはベッド二百近くを有し、あらゆる医療施設及び映写室、図書室、講堂等、娯楽施設の完備した堂々たる大サナトリウムです。<br/><br/>入院患者は全て各自の症状に応じて十二クラスに分けられ、各クラス毎にしてよい事としていけない事の項目が定まっております。<br/><br/>患者は入院するや診断が決定する迄クラス一に属し、絶対安静を命ぜられ、病室専属の目と鼻の先のトイレットに行く事すら許されません（もっとも小生は始めからトイレットを使いました）。<br/><br/>クラス四位迄は院内の廊下を歩く事も許されず、看護婦の押す手押し車にのせられます。<br/><br/>又全患者は日に三度（午前午後二度の睡眠時間と夜寝る前）睡眠薬と、日に一度通便用の油を服まされます。<br/><br/>現代医学の立場を是とすれば、将に至れり尽せりの観があります。<br/><br/>私はそれらの薬や油は勿論断りました。<br/><br/>やがて私は診断決定不能という訳で、試験病室という部門へ移されました。<br/><br/>クラスは第二であります。<br/><br/>二週間程して院長ドクター・カスターの回診がありました。<br/><br/>彼は笑みを含んだ顔で「君が信仰上の立場から、一切の医療を拒絶している事は聞いたが、やはり法津にも定めてあるように、患者は一応医師の言に従って貰わないと困る。<br/><br/>ついては治癒の為にも君の病状を決定するためにも、是非君の胸水を除らせて貰いたい」と言いますので「胸水は針で無理に除らずとも、自然排泄という事も考えられると思いますが……結構です。<br/><br/>ドクターただその前にも一度レントゲンを撮って頂けますか？」「よろしい、君が望むなら直ちに今日撮らせよう」と言う訳で再びレントゲンを撮られました。<br/><br/>御守護の意味が悟れたような気がしましたので、今回は上半身裸になって撮られました。<br/><br/> 浄霊によってメキメキ快復 歩行禁止のクラス二に属してはおりましたが、毎日狭い室内で色々と運動しました。<br/><br/>ヘルスウィンヘ入りまして、一カ月程の中に浄霊によりましてメキメキと快復、呼吸変調もほとんど治り、顔も太く、血色もよくなり、体重も増えました。<br/><br/>ところがどうした訳か、その後ドクター・カスターは水を除らせろとも言わず、姿もさっぱり現わしません。<br/><br/>向いの室の患者達も「一体院長はどうしたのだ、一度位お目に掛りたいものだ」等とブツブツ言う始末です。<br/><br/>レントゲン写真判定の為のドクター達の会議もおわったと看護婦に聞いて以来、二度程二回目に撮ったレントゲン写真を見せて頂きたいと申し込んだのですが、「ノー」の答すら得られません。<br/><br/>その中にある日ぶらりと聖ヨゼフ病院のドクター・サンダーソン（胸水を除った医師）が個人的に訪れまして彼「どうです工合は？」私「はぁお蔭様で？ 大変快くなりました」彼は「どれどれ」と小生の体を打診しまして「ウム大変よくなったね、よかった」と満足気な顔で帰って行きました。<br/><br/>果して左胸に胸水が充満しておる患者を打診して「大変快くなった」等いう言葉が出ましょうか？ ドクター・サンダーソンが正しいかヘルスウィンのドクター達が正しいか、いずれか？ という事になります。<br/><br/> ヘルスウィンのドクター達が二週間の間隔を置いて撮られた二枚のレントゲン写真を見比べた時、胸水の自然排泄という事実、ないし霊療法の効果を認めるか、さもなくば最初のレントゲン写真によって誤診を犯したという事実をみとめるかのジレンマに逢着した事は明らかであります。<br/><br/>というのも最初の左胸部の消失は明らかに御守の御光の故であり、従って二回目に上半身裸体で撮られた写真に、左胸部が再現している事は十中八九推測されるからであります。<br/><br/>現に当時左胸部に胸水が充満しているという自覚症状は全然ございませんでしたし、ドクター・サンダーソンの打診の際の打音を聞きましたところ、左右の音に殆んど相違はございませんでした。<br/><br/>最早誰が見ても常人と変らぬ私は、依然クラス二の絶対安静患者です。<br/><br/>止むなくドクター・カスターへ手紙をかきました。<br/><br/> ドクターにメシヤ教の病気観を書送る メシヤ教の病気観、当院へ来て以来全く医療も受けず、安静にもしていなかったに拘らず、見舞人も驚く程恢復した事実、又一度目の写真の左胸部消失を胸水の故とするなら二度目の写真は明らかに我々の霊的療法の効力を物語っている。<br/><br/>一に自分の信仰が病院生活と両立しない事、二に右の事実からもお分りのごとく、自分には自己治療が可能な事、この二つの理由により可及的速かに私の退院について御考慮下されれば幸いであるという趣旨のものであります。<br/><br/>看護婦に届けて貰ったのですが全然返事がありません。<br/><br/>一応五月初旬頃迄に退院させて頂けますよう御守護をお願いしたので御座いましたが、一切執着は不可ぬ。<br/><br/>逆の結果を招くという明主様の御教えも御座います故、退院の事は努めて念頭を去らしめていましたので、御神書と英文学関係の読書に明け暮れる気楽な日々を送らせて頂けました。<br/><br/> 四月二十二日やっと彼の回診が行われました。<br/><br/>私の室へ入って参りましたドクター・カスターは、前回に示した大病院の院長らしい余裕と落着はどこへやら、何となくそわそわした態度でジロリと私を睨み「君の手紙は読んで、君の信仰の問題については、ノートルダームの校医ドクター・イーガンと、ファーザー・ムーア（卒業学部長）に話しておいた。<br/><br/>退院するのは君の勝手だが私はそれに就て一切責任を負わぬ」と言い切るや、レントゲンの事には一言も触れずにさっさと室を出て行きました。<br/><br/>二日後ファーザー・ムーアとドクター・イーガンがやって来ましてドクター・イーガン「君は一切医療を拒絶しているそうだが、かくては私は校医として君の健康を保証出来ぬ故、たとえ君が退院しても大学へ復帰する事を許す事は出来ぬ」ファーザー・ムーア「書類によれば君はカトリック教徒となっておるのに、事実は既にそうでなかったと言う事は最も遺憾な事である」こと、ここに至る詮方なしと「大変申訳ない事です。<br/><br/>では私はスカラシップを辞退して日本へ帰る事にしましょう」両人「それがよかろう」という訳で、四月二十九日キャッシュマン夫人の車にて退院致しました。<br/><br/>病院の使用人達は終始非常に親切にして呉れまして、殊にマコーランド氏という、患者と医師との間の意志疏通、患者の娯楽、教養関係の仕事等を任とする四十位の紳士は何くれと好意を示しまして「とにかく私は貴君の信仰に非常に興味と関心を持っている。<br/><br/>もし英文のパンフレットでもあったら退院後是非送って下さい」と申します。<br/><br/>このような大病院の主要な勤め人の中にメシヤ教への同情者を見出すとは面白い事だと感じました。<br/><br/> 帰国を決意す （二）このような次第でございまして、九分通り成功かと思われました、御布教の為の滞米延期も不可能となりました。<br/><br/>シカゴのＳＶＤ（小生にスカラシップをくれる事になっていたカトリックの会）のファーザーヘスカラシップの辞退を申し込みましたら、それは残念だという丁寧な返事を頂きました。<br/><br/>五月一ぱいをもって学期が終りますので、六月一日頃当地を立たねばならない事になっております。<br/><br/>曇り多き不束者にて、充分御役に立ちませず、誠にただただ申し訳なく存じております。<br/><br/> ハロルド・ロビンス氏を御浄霊する （三）五月二日ロビンス氏宅を久し振りにて訪問しました。<br/><br/>ハロルドは丁度留守にて、六十三になる母親のみがおりました。<br/><br/>彼女は「ハロルドは最近左眼に痛みを訴えている。<br/><br/>もし実際視神経が無いなら痛みを感ずるはずがない。<br/><br/>あなたの手紙にあったように、ドクターの言う事は明らかに間違っていると思う」と申します。<br/><br/>中々話のよく分る人だと思いました。<br/><br/>五月三日より毎日ハロルドの御浄霊に通っております。<br/><br/>御浄霊を再開するや、再び両眼共に充血し始め、始終涙で潤うようになりました。<br/><br/>万事明主様御教え通り、力を抜き延髄中間を主に御浄霊しておりますが、 （イ）御浄霊開始（昨年十二月二十三日）以来もとは一八〇ポンド台あり、医師より重すぎて健康上面白くないと言われていた体重が、ただ今は一六〇ポンド台となり、体が全体に軽く感じると申します。<br/><br/> （ロ）以前は毎日午前二時喘息で眼覚め、以後朝迄寝つかれぬのを常としておりましたのが、最近は毎夜八時間以上眠れるようになり、昨日今日は朝夜二回の恒例の喘息が、全然出なかったと喜んでおりました。<br/><br/> （ハ）時々町で彼を見掛けますが、以前は、両眼を虚空へ向け石のごとく凝然と立ちつくすハロルドの姿は陰惨そのものでしたが、御浄霊開始以来心にも体にも、ゆったりとした、ゆとりが現われ、極く軽く背後の壁に寄り掛って鉛筆を売っております彼の姿からは、確かにずっと明るいものを感じます。<br/><br/>人相もよくなりました。<br/><br/>神様の御慈愛の深さをハロルドの姿の変化からも強く、感銘させて頂きました。<br/><br/>出立真際迄御浄霊を続けまして、母親及び当人が望みますならば、御守をお下げ渡しさせて頂こうかと考えております。<br/><br/>なお御論文飜訳は文を改めつつ連日タイプしております。<br/><br/> アメリカの病気状況及び医療状態等につきましての統計的な資料も御守護によりまして続々と集りましたので、いずれまとまった形で御報告させて頂きたいと存じております。<br/><br/>御道は最初の抵抗を破り、一定の段階へ達すれば、後は破竹の勢いで広まるのではないかと存じます。<br/><br/>アメリカ本土に教会ないし支部が置かれ、先生の言われるごとくジリジリと進めば割に短期間で御発展疑いなしと感じました。<br/><br/> 右誠に粗雑ながら、最後の御報告に代えさせて頂きます。<br/><br/>明主様数々の御守護の程実に宴に有難うございました。<br/><br/>充分御使命を果し得ませんでした事につきましては、伏してお詫び申し上げます。<br/><br/>岡田龍道先生を始め御信者皆様にお会い出来るを楽しみにしております。<br/><br/> 一九五二年五月八日記 （註）本文は和光中教会高円寺支部長岡田龍道氏に宛て書かれたものであります。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

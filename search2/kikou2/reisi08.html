@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>reisi08</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊視日記 （八） 五三中教会 茨木よし子 『地上天国』52号、昭和28(1953)年9月25日発行 ○月○○日 信者の某氏の家の屏風観音様のお勤めにお参りさせて頂きました。<br><br>この家は長らく伏見稲荷の信仰をされ祭壇が設けてありました。<br><br>真中の大きな鏡には大きな龍神が口をあけ憑依していました。<br><br>小さい鏡にも龍神がいました。<br><br>その前の陶器の狐にも狐霊が憑依していて絶えず見張をしているようでありました。<br><br>お勤めが終り「神人の業」の御論文を拝聴いたしていますと、稲荷の祭壇のところから大きくて凄い狐（神格を得ているように思われました）がこちらを向き盛んに聞いている様な態が見えてきました。<br><br>その形相は実に恐ろしく今にもくってかかりそうな、血相をかえた有様でした次に「私が神様をおがまぬ理由」の御論文を拝聴していますと神霊放射能がまばゆい位放射され、前の祭壇に並んでいた二匹の狐が首をかしげていましたが、さっと首を縮め、吃驚している様が見えました。<br><br>鏡の前にいた大きな龍神が赤い口をあけて、ぎろっとこちらを見ていましたが、何か一尺位の茶色をした棒のようなものを口にくわえると涙をぼろぼろ出していました。<br><br>すると、どこからともなく何万といいましょうか数限りない狐の眷族共が押し集って来たのが見え出しました。<br><br>首の長い龍神共が頭をぬっと出し出し聞いている様も見えました。<br><br>お話が終り、一列浄霊が始りますと先程の龍神が口をあけ目をぎょろぎょろさせながら、辺りを見ていました。<br><br>狐の眷族共は何か指図でも聞いていますのか皆々よく注意を集中しているようでした。<br><br>暫くして何も見えなくなり静かになりました。<br><br>浄霊の終り頃鏡に憑依していた真中の龍神が又又首を振りますと沢山の狐の眷族共が集って来るのが見えました。<br><br>皆々おとなしそうな恰好にして私達の方を見ていたようでした。<br><br>一列浄霊をされますと、施術者の掌から巾三糎位終りのあたりは巾十五糎位に拡り放射線になって御光が放射されますのが見え、ちょっと想念がそれますと神霊放射能がそれてしまうことも勉強させていただきました。<br><br> ○月○日 信者の家の例祭に参拝いたしましてお仏壇のお勤めの時「大神業」の御讃歌を奏上いたしていますと、大きな恐ろしい黒鬼が現われ口は耳までさけ、虎の皮の様なふんどしをしめ、何か詰問でもしているような恰好でありました。<br><br>その前には女の人が、しょげている様が見えて来ました。<br><br> 四月五日 信者さんの家の例祭にお参りしていますと、御神前の真中には明主様の和服姿でお出まし下さっている様が拝せました。<br><br>そして明主様の御背後には太陽が光々とさし昇っている様が拝されました。<br><br>明主様の御膝元あたりには色とりどりの龍神がお参りしている様が見えて来ました。<br><br>その龍神共は信者さんの背後の辺りから出ていったようでした。<br><br> 四月十一日 午後八時頃、支部の大黒天神の御祭に参拝いたし、御神前に祝詞を奏上いたしますと、大きな紅い蝦が目に映り、それがカサカサはい鰭をぴんぴん動かし、今にもはね出しそうな様が見えました。<br><br>さっと場面がかわり紋付姿にて沢山の人々が参拝していられる様が見えて来、その中でも○○○○と○の姿が一番よく目に映り、こちらを向き何かしている様が見えました。<br><br>あたりは真赤の毛氈を敷きつめた美しいお雛祭の様が見えました。<br><br>広い庭には桜花は満開であり小娘が袂〔？〕の着物に袴姿にて、ほうきで花弁を掃き寄せている様も見えて来ました。<br><br>暫くしていますと静かな海面が現われて白光の太陽が海面からやや離れて昇り、綺麗なさざ波にぴかぴかと光が映り動いている様は何ともいえない感じがいたしました。<br><br>そのずっと手前には、のどかな平野に牛が遊んでいる様が見えました。<br><br>「大経綸」の御讃歌を奏上していますと、大光明如来様が峻厳たる御姿にてお出ましになられました。<br><br>直径二尺位もある大きな釜が三つも四つも積み重ねられその中に老婦人が押え込まれ随分残酷な様が見受けられました。<br><br>大光明如来様の両側には黒鬼と青鬼が鉄棒を持ってじっと見張をしている様が見え、口は真赤にして耳元迄さけている様でした。<br><br>家におります私の母が羽織姿にてお参りしている様も見えて来ました。<br><br>御神前には多くの公卿さん達が涙を流し跪いてお参りの様が見えて来ました。<br><br>大光明如来様は細い長い銀色に光る棒をお待ちになり何かお指図をされている様な様が拝されました。<br><br>大黒様のお祭の時には、大黒様が槌を振っていらっしゃいますと、大きな黒い化物がやって来て盛んにとろうとろうとする。<br><br>大黒様はいやいやをなさり御手にてその化物を押しのけられますが又やって来る。<br><br>嵐の様に眷族共がやって来て大黒様は大活躍の様でありました。<br><br>お勤めが終り某氏が明主様京都御西下の時の御話をされていますと真暗の中から手の白爪は一寸位も伸びた黒い大きな化物が、もがき苦しみ出て来かけましたが、御神前に待期していらっしゃった神様の御家来らしき方が、つかつかと出て来られ防いでくださる様が何回も見えました。<br><br>某氏の背後頭上には金色に光る目を、ぎろぎろさせ、緑色のやや濃い背にして腹の白い大きな龍神が口から晃々と白光を出している様が見えて来ました。<br><br>常によく見える女神の御姿も見えて来ました。<br><br>御神前では大光明如来様がじっと私達の様子を御覧下さっている様も拝されました。<br><br>ずっと高いところには明主様の御姿が拝され目もまばゆいばかりの白光が極細かく細かく波打って放射されています御姿を拝しますと、薬毒の多い私にはとてもまばゆく拝されました。<br><br>某氏の前には白と黒色の大きな牛が二匹坐りじっとお話を聞いているかの様に見えました。<br><br>次に「新宗教とは何か」の御論文を拝聴していますと、見る見る間に沢山の霊が集って来ました。<br><br>中には動物もやって来ました。<br><br>その沢山いる真中にきらきら光る巾三尺位の長い白い道が現われました。<br><br>それは天から地に続く光の道のようでありました。<br><br>その道に上る者は極めてわずかで数える位でありました。<br><br>中には考えつつ上って行く人もあったようでした。<br><br>その道の果しは、花咲き美しい小鳥は歌う見るからに楽しそうなところでありまして、私の魂も身体からすっと抜けて、そこへと行ってしまうような感じがいたしました。<br><br> 四月十二日 家の例祭にてお勤めを始めますと御神前には美しい橋が現われ、その橋には立派な彫刻がしてありました。<br><br>その橋を三人組の神様方（男神女神入りまざり）が次々にお渡りになられる後姿が拝されました。<br><br>大光明如来様がお出まし下さって、その両側には今晩も鬼が出て傍で番でもしているようでした。<br><br>春季大祭の御詠々お奏げいたしていますと、美しい日本刺繍がしてあるような壁につつまれた部屋が現われ、その中には一人の小じんまりした婦人が出て来られ、そこへ沢山の子供が集って来て、したっている様がみえて来ました。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Diário de Visões Espirituais (VIII)</h2>
 <p><strong>Relato da Sra. Yoshiko Ibaraki, Igreja de Itami</strong></p>
@@ -117,5 +269,48 @@ function toggleLang(lang) {
 <p><strong>Data: 12 de abril</strong></p>
 <p>Ao iniciar a cerimônia mensal em minha casa, diante do Altar, manifestou-se uma belíssima ponte, adornada com magníficas esculturas. Pude contemplar as silhuetas de grupos de três divindades — compostos por deuses e deusas — que a atravessavam sucessivamente. Daikomyo Nyorai-sama surgiu e, nesta noite também, os demônios apareceram, postando-se ao lado como se estivessem de guarda.</p>
 <p>Enquanto recitávamos os poemas do Grande Culto da Primavera, surgiu a visão de um aposento circundado por paredes que se assemelhavam a primorosos bordados japoneses. Dentro dele, apareceu uma senhora de feições delicadas, em torno da qual se reuniram muitas crianças, que demonstravam grande afeição por ela.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊視日記 （八） 五三中教会 茨木よし子 『地上天国』52号、昭和28(1953)年9月25日発行 ○月○○日 信者の某氏の家の屏風観音様のお勤めにお参りさせて頂きました。<br/><br/>この家は長らく伏見稲荷の信仰をされ祭壇が設けてありました。<br/><br/>真中の大きな鏡には大きな龍神が口をあけ憑依していました。<br/><br/>小さい鏡にも龍神がいました。<br/><br/>その前の陶器の狐にも狐霊が憑依していて絶えず見張をしているようでありました。<br/><br/>お勤めが終り「神人の業」の御論文を拝聴いたしていますと、稲荷の祭壇のところから大きくて凄い狐（神格を得ているように思われました）がこちらを向き盛んに聞いている様な態が見えてきました。<br/><br/>その形相は実に恐ろしく今にもくってかかりそうな、血相をかえた有様でした次に「私が神様をおがまぬ理由」の御論文を拝聴していますと神霊放射能がまばゆい位放射され、前の祭壇に並んでいた二匹の狐が首をかしげていましたが、さっと首を縮め、吃驚している様が見えました。<br/><br/>鏡の前にいた大きな龍神が赤い口をあけて、ぎろっとこちらを見ていましたが、何か一尺位の茶色をした棒のようなものを口にくわえると涙をぼろぼろ出していました。<br/><br/>すると、どこからともなく何万といいましょうか数限りない狐の眷族共が押し集って来たのが見え出しました。<br/><br/>首の長い龍神共が頭をぬっと出し出し聞いている様も見えました。<br/><br/>お話が終り、一列浄霊が始りますと先程の龍神が口をあけ目をぎょろぎょろさせながら、辺りを見ていました。<br/><br/>狐の眷族共は何か指図でも聞いていますのか皆々よく注意を集中しているようでした。<br/><br/>暫くして何も見えなくなり静かになりました。<br/><br/>浄霊の終り頃鏡に憑依していた真中の龍神が又又首を振りますと沢山の狐の眷族共が集って来るのが見えました。<br/><br/>皆々おとなしそうな恰好にして私達の方を見ていたようでした。<br/><br/>一列浄霊をされますと、施術者の掌から巾三糎位終りのあたりは巾十五糎位に拡り放射線になって御光が放射されますのが見え、ちょっと想念がそれますと神霊放射能がそれてしまうことも勉強させていただきました。<br/><br/> ○月○日 信者の家の例祭に参拝いたしましてお仏壇のお勤めの時「大神業」の御讃歌を奏上いたしていますと、大きな恐ろしい黒鬼が現われ口は耳までさけ、虎の皮の様なふんどしをしめ、何か詰問でもしているような恰好でありました。<br/><br/>その前には女の人が、しょげている様が見えて来ました。<br/><br/> 四月五日 信者さんの家の例祭にお参りしていますと、御神前の真中には明主様の和服姿でお出まし下さっている様が拝せました。<br/><br/>そして明主様の御背後には太陽が光々とさし昇っている様が拝されました。<br/><br/>明主様の御膝元あたりには色とりどりの龍神がお参りしている様が見えて来ました。<br/><br/>その龍神共は信者さんの背後の辺りから出ていったようでした。<br/><br/> 四月十一日 午後八時頃、支部の大黒天神の御祭に参拝いたし、御神前に祝詞を奏上いたしますと、大きな紅い蝦が目に映り、それがカサカサはい鰭をぴんぴん動かし、今にもはね出しそうな様が見えました。<br/><br/>さっと場面がかわり紋付姿にて沢山の人々が参拝していられる様が見えて来、その中でも○○○○と○の姿が一番よく目に映り、こちらを向き何かしている様が見えました。<br/><br/>あたりは真赤の毛氈を敷きつめた美しいお雛祭の様が見えました。<br/><br/>広い庭には桜花は満開であり小娘が袂〔？〕の着物に袴姿にて、ほうきで花弁を掃き寄せている様も見えて来ました。<br/><br/>暫くしていますと静かな海面が現われて白光の太陽が海面からやや離れて昇り、綺麗なさざ波にぴかぴかと光が映り動いている様は何ともいえない感じがいたしました。<br/><br/>そのずっと手前には、のどかな平野に牛が遊んでいる様が見えました。<br/><br/>「大経綸」の御讃歌を奏上していますと、大光明如来様が峻厳たる御姿にてお出ましになられました。<br/><br/>直径二尺位もある大きな釜が三つも四つも積み重ねられその中に老婦人が押え込まれ随分残酷な様が見受けられました。<br/><br/>大光明如来様の両側には黒鬼と青鬼が鉄棒を持ってじっと見張をしている様が見え、口は真赤にして耳元迄さけている様でした。<br/><br/>家におります私の母が羽織姿にてお参りしている様も見えて来ました。<br/><br/>御神前には多くの公卿さん達が涙を流し跪いてお参りの様が見えて来ました。<br/><br/>大光明如来様は細い長い銀色に光る棒をお待ちになり何かお指図をされている様な様が拝されました。<br/><br/>大黒様のお祭の時には、大黒様が槌を振っていらっしゃいますと、大きな黒い化物がやって来て盛んにとろうとろうとする。<br/><br/>大黒様はいやいやをなさり御手にてその化物を押しのけられますが又やって来る。<br/><br/>嵐の様に眷族共がやって来て大黒様は大活躍の様でありました。<br/><br/>お勤めが終り某氏が明主様京都御西下の時の御話をされていますと真暗の中から手の白爪は一寸位も伸びた黒い大きな化物が、もがき苦しみ出て来かけましたが、御神前に待期していらっしゃった神様の御家来らしき方が、つかつかと出て来られ防いでくださる様が何回も見えました。<br/><br/>某氏の背後頭上には金色に光る目を、ぎろぎろさせ、緑色のやや濃い背にして腹の白い大きな龍神が口から晃々と白光を出している様が見えて来ました。<br/><br/>常によく見える女神の御姿も見えて来ました。<br/><br/>御神前では大光明如来様がじっと私達の様子を御覧下さっている様も拝されました。<br/><br/>ずっと高いところには明主様の御姿が拝され目もまばゆいばかりの白光が極細かく細かく波打って放射されています御姿を拝しますと、薬毒の多い私にはとてもまばゆく拝されました。<br/><br/>某氏の前には白と黒色の大きな牛が二匹坐りじっとお話を聞いているかの様に見えました。<br/><br/>次に「新宗教とは何か」の御論文を拝聴していますと、見る見る間に沢山の霊が集って来ました。<br/><br/>中には動物もやって来ました。<br/><br/>その沢山いる真中にきらきら光る巾三尺位の長い白い道が現われました。<br/><br/>それは天から地に続く光の道のようでありました。<br/><br/>その道に上る者は極めてわずかで数える位でありました。<br/><br/>中には考えつつ上って行く人もあったようでした。<br/><br/>その道の果しは、花咲き美しい小鳥は歌う見るからに楽しそうなところでありまして、私の魂も身体からすっと抜けて、そこへと行ってしまうような感じがいたしました。<br/><br/> 四月十二日 家の例祭にてお勤めを始めますと御神前には美しい橋が現われ、その橋には立派な彫刻がしてありました。<br/><br/>その橋を三人組の神様方（男神女神入りまざり）が次々にお渡りになられる後姿が拝されました。<br/><br/>大光明如来様がお出まし下さって、その両側には今晩も鬼が出て傍で番でもしているようでした。<br/><br/>春季大祭の御詠々お奏げいたしていますと、美しい日本刺繍がしてあるような壁につつまれた部屋が現われ、その中には一人の小じんまりした婦人が出て来られ、そこへ沢山の子供が集って来て、したっている様がみえて来ました。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

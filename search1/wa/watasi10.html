@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>watasi10</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 私の健康法 自観叢書10編『神示の健康法』昭和25(1950)年4月20日発行 『光』43号、昭和25(1950)年1月1日発行の論文を掲載 最後に私の健康法をかいてみるが、私は本年西洋流に数えて六十七歳になるが、矍鑠（かくしゃく）として壮者を凌ぐものがある。<br><br>目下開拓している山に始終登るが、若い者の方が脚が弱いのでいつも私の方で加減するのである。<br><br>よく明主様おくたびれになったでしょうと言われるが、正直に言うと草臥（くたび）れていないので返事に困る事がある。<br><br>夜寝るのはまず二時半か三時、朝は七時から七時半までの間に起床する。<br><br>まず四時間か四時間半くらいの睡眠である。<br><br>仕事はといえばこれは側近者はよく知っているが、十人分くらいの仕事はするので若い者は後がつけないので困っているようであるが、これは致し方がないと我慢して貰っている。<br><br> 右は私の養生法のためもあるが私の養生法は現代人のそれとはおよそ反対であるからそれを多くの人に知らして参考に供したいのである。<br><br> まず現代医学の養生法といえば第一無理をしない事、睡眠をよくする事、栄養を十分に摂る事、食物はよく噛む事、あまり頭を使わない事等々であるが、私はおよそ逆である。<br><br> 私の養生法の第一は無理をする事である。<br><br>というのは人間は無理をするだけ健康が増すのである。<br><br>しかし私はあまり無理をすると苦しいからある程度の調節はとる。<br><br>睡眠は年齢によって差別はあるが私くらいの年では四、五時間がちょうどいいのである。<br><br>食物については面白い事には私はいつも栄養が多過ぎる事を心配するのである。<br><br>というのは多くの信者からの献納の食物が勿体ない程沢山あるので、出来るだけ少しずつでも信者の誠を食べるようにしているためもあってまず美食家といってよかろう。<br><br>それを調節するために朝食後は必ず相当量の薩摩芋を食う。<br><br>また就寝前は茶漬をよく食い汁粉を一杯は欠かしたことがない。<br><br>そうして食物にも陰陽があって、陰に傾いても陽に傾いてもよくない。<br><br>もちろん陰とは野菜で陽とは魚や肉である。<br><br>これを偏らないように加減する。<br><br>朝は陰七分陽三分、昼は陰陽半々、夜は陽七分陰三分の割合を守っている。<br><br>香の物にも陰陽がある。<br><br>陰とは青菜類、陽とは大根蕪のごとき白色のもので、これらも半々にしている。<br><br>そうしてあまりよく噛まない半噛みくらいである。<br><br>よく噛むと胃が弱るからである。<br><br>また私は食休みという事をしない。<br><br>飯を食うとすぐに起って活動する。<br><br>これは胃の強健法である。<br><br>私が胃病を治したのはこの方法で効を奏したからである。<br><br>そうして決して量は決めない。<br><br>私の食餌法の原則は「食べ度い時に食べたいものを食べ度いだけ食う」のである。<br><br>しかし実際生活上そのような我儘（わがまま）は出来ないからしかるべくやっているのである。<br><br> ここでちょっと意外に思う事がある、というのはなるべく頭を使う方がよいので、これは一種の健康法で頭脳を使う人は長命である。<br><br>しかし心配のため頭脳を使うのはこれはいけない。<br><br>面白く愉快に使うのでなくてはいけない。<br><br>この点にも信仰の価値を見出せる。<br><br>それは心配事のある場合神様にお任せするという気持になるのでこれで心配の大半は減る、つまり神様に分担してもらうのである。<br><br>至極横着な話であるがこういう横着は反って神様はお喜びになるのである。<br><br> 私は昔から一日の中必ず一回は外出する。<br><br>雨が降ろうが風が吹こうが欠かした事がない。<br><br>そうして出来るだけ歩くのである。<br><br>これは老いて益々健康などという人にそういう事をよく聞くのである。<br><br>また酒は猪口に三杯くらい、ビールはコップに一杯、煙草は普通程度である。<br><br> 以上が私の健康法である。<br><br>もちろん黴菌などには無関心である。<br><br>ゆえに一般人には反って不養生に見えるが実はこれが真の養生法である。<br><br>何よりも右の方法を実行すれば誰でも健康になる事請合である。<br><br>青白いインテリ型などには決してならないから安心して実行する事をお奨めするのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Meu Método para a Saúde</h2>
 <p>A seguir, descreverei o meu método para a saúde. Conto, este ano, sessenta e sete anos de idade, segundo a maneira ocidental, e gozo de uma robustez que supera a de muitos jovens. Costumo subir com frequência a montanha que estamos atualmente desbravando, e são os jovens que têm as pernas mais fracas; por essa razão, sou sempre eu quem precisa moderar o passo para acompanhá-los. Muitos me perguntam se não me sinto fatigado, mas, para ser franco, a verdade é que não me canso, o que por vezes me deixa sem saber como responder.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Neste ponto, apresento uma ideia que pode parecer surpreendente: é preferível usar a mente o máximo possível. Trata-se de uma forma de promover a saúde, pois as pessoas que exercitam o cérebro tendem a viver mais. Contudo, não se deve usar a mente para alimentar preocupações; isso é prejudicial. É imperativo que seu uso seja prazeroso e estimulante. E é aqui que se revela o valor da fé. Diante de um problema, desenvolvemos o sentimento de entregá-lo a Deus. Com isso, a maior parte da preocupação se dissipa; em outras palavras, compartilhamos o fardo com Ele. Pode parecer uma atitude de extrema conveniência, mas é precisamente esse tipo de confiança que agrada a Deus.</p>
 <p>Desde muito tempo, tenho por hábito sair de casa ao menos uma vez por dia. Faça chuva ou faça vento, jamais deixei de cumprir essa rotina. E, ao sair, caminho o máximo que posso. Aliás, é comum ouvir relatos semelhantes de pessoas que se mantêm cada vez mais saudáveis com o avançar da idade. Quanto a bebidas, meu consumo se limita a cerca de três pequenas taças de saquê ou um copo de cerveja. O tabaco, consumo-o com moderação.</p>
 <p>Eis, em resumo, o meu método para a saúde. Desnecessário dizer que sou indiferente a coisas como germes e bactérias. Por essa razão, para o leigo, meu estilo de vida pode parecer uma afronta à saúde, mas, na realidade, esta é a verdadeira forma de cultivá-la. Acima de tudo, garanto que qualquer pessoa que seguir estas práticas alcançará a saúde. Podem adotá-las com tranquilidade, pois lhes asseguro que jamais se tornarão do tipo intelectual, pálido e frágil.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 私の健康法 自観叢書10編『神示の健康法』昭和25(1950)年4月20日発行 『光』43号、昭和25(1950)年1月1日発行の論文を掲載 最後に私の健康法をかいてみるが、私は本年西洋流に数えて六十七歳になるが、矍鑠（かくしゃく）として壮者を凌ぐものがある。<br/><br/>目下開拓している山に始終登るが、若い者の方が脚が弱いのでいつも私の方で加減するのである。<br/><br/>よく明主様おくたびれになったでしょうと言われるが、正直に言うと草臥（くたび）れていないので返事に困る事がある。<br/><br/>夜寝るのはまず二時半か三時、朝は七時から七時半までの間に起床する。<br/><br/>まず四時間か四時間半くらいの睡眠である。<br/><br/>仕事はといえばこれは側近者はよく知っているが、十人分くらいの仕事はするので若い者は後がつけないので困っているようであるが、これは致し方がないと我慢して貰っている。<br/><br/> 右は私の養生法のためもあるが私の養生法は現代人のそれとはおよそ反対であるからそれを多くの人に知らして参考に供したいのである。<br/><br/> まず現代医学の養生法といえば第一無理をしない事、睡眠をよくする事、栄養を十分に摂る事、食物はよく噛む事、あまり頭を使わない事等々であるが、私はおよそ逆である。<br/><br/> 私の養生法の第一は無理をする事である。<br/><br/>というのは人間は無理をするだけ健康が増すのである。<br/><br/>しかし私はあまり無理をすると苦しいからある程度の調節はとる。<br/><br/>睡眠は年齢によって差別はあるが私くらいの年では四、五時間がちょうどいいのである。<br/><br/>食物については面白い事には私はいつも栄養が多過ぎる事を心配するのである。<br/><br/>というのは多くの信者からの献納の食物が勿体ない程沢山あるので、出来るだけ少しずつでも信者の誠を食べるようにしているためもあってまず美食家といってよかろう。<br/><br/>それを調節するために朝食後は必ず相当量の薩摩芋を食う。<br/><br/>また就寝前は茶漬をよく食い汁粉を一杯は欠かしたことがない。<br/><br/>そうして食物にも陰陽があって、陰に傾いても陽に傾いてもよくない。<br/><br/>もちろん陰とは野菜で陽とは魚や肉である。<br/><br/>これを偏らないように加減する。<br/><br/>朝は陰七分陽三分、昼は陰陽半々、夜は陽七分陰三分の割合を守っている。<br/><br/>香の物にも陰陽がある。<br/><br/>陰とは青菜類、陽とは大根蕪のごとき白色のもので、これらも半々にしている。<br/><br/>そうしてあまりよく噛まない半噛みくらいである。<br/><br/>よく噛むと胃が弱るからである。<br/><br/>また私は食休みという事をしない。<br/><br/>飯を食うとすぐに起って活動する。<br/><br/>これは胃の強健法である。<br/><br/>私が胃病を治したのはこの方法で効を奏したからである。<br/><br/>そうして決して量は決めない。<br/><br/>私の食餌法の原則は「食べ度い時に食べたいものを食べ度いだけ食う」のである。<br/><br/>しかし実際生活上そのような我儘（わがまま）は出来ないからしかるべくやっているのである。<br/><br/> ここでちょっと意外に思う事がある、というのはなるべく頭を使う方がよいので、これは一種の健康法で頭脳を使う人は長命である。<br/><br/>しかし心配のため頭脳を使うのはこれはいけない。<br/><br/>面白く愉快に使うのでなくてはいけない。<br/><br/>この点にも信仰の価値を見出せる。<br/><br/>それは心配事のある場合神様にお任せするという気持になるのでこれで心配の大半は減る、つまり神様に分担してもらうのである。<br/><br/>至極横着な話であるがこういう横着は反って神様はお喜びになるのである。<br/><br/> 私は昔から一日の中必ず一回は外出する。<br/><br/>雨が降ろうが風が吹こうが欠かした事がない。<br/><br/>そうして出来るだけ歩くのである。<br/><br/>これは老いて益々健康などという人にそういう事をよく聞くのである。<br/><br/>また酒は猪口に三杯くらい、ビールはコップに一杯、煙草は普通程度である。<br/><br/> 以上が私の健康法である。<br/><br/>もちろん黴菌などには無関心である。<br/><br/>ゆえに一般人には反って不養生に見えるが実はこれが真の養生法である。<br/><br/>何よりも右の方法を実行すれば誰でも健康になる事請合である。<br/><br/>青白いインテリ型などには決してならないから安心して実行する事をお奨めするのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

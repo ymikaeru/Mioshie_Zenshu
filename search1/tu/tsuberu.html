@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>tsuberu</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ツベルクリンの注射 『結核の正体』昭和18(1943)年11月23日発行 ツベルクリン注射の結果、陽性及び陰性の症状を呈するのはいかなる理由であるかを説いてみよう。<br><br> 前項に述べたごとく、人体は不断に浄化作用が行われつつあるものであるから、たまたま急激に異物または毒物等が注入された場合、その局部に速かに浄化作用が発生する。<br><br>それがため、その部に紅潮または腫脹を呈するのである。<br><br>たとえていえば蚊に食われ、毒虫や蜂に刺された場合、腫脹を呈するのと同様の理である。<br><br>これは毒素を急速に解消せんがため、血液が集溜するのである。<br><br>これによってみても、血液自体に解毒作用のある事を知るであろう。<br><br>右に引換え陰性者とは、血液の解毒力微弱のために腫脹しないのである。<br><br>いわば血液に活動力がないからである。<br><br>しかるに二回三回にわたってツベルクリン注射を行う時、はじめて陽性に転化するのであるが、これは異物である注射液が二倍三倍にも増す訳であるから、解毒作用微弱の血液といえども、解毒力自体が二倍三倍に増すという結果によって陽性者となるのである。<br><br> 右のごとくであるにみて、陽性陰性の反応とは、異物注入に対する浄化力の強弱の表われに過ぎないのであるから、ツベルクリン注射なるものは、結核とはなんら関係がない事となるに拘わらず、結核を知る唯一の方法とする医学の解釈は不可解と思うのである。<br><br>ゆえに、私は多くの資材や労力をかけ、なんらの意味なきツベルクリン注射を行うという事のいかに徒労であるかを嘆かすにはおれないのである。<br><br> また、ツベルクリン注射について、医学的理論に不可解極まる点のある事を指摘してみよう。<br><br>それは結核生菌に既に侵され〔て〕いるために、抗毒素が発生しておるから腫脹するというのであるが、これはむしろ逆的解釈である。<br><br>何となれば右のごとく抗毒素なるものは、生菌に対し、それを防禦するために発生する所の元素である以上死菌に対しては抗毒素発生の必要がないからである。<br><br> 今一つの注目すべき事は、それは医学で言うごとく、結核生菌が侵入したために、抗毒素が発生するものとすれば人間が生れて初めで蜂に刺された場合、はなはだしく腫脹するのはいかなる訳であろうか、これを医学の理論に従えば、既に蜂に刺されて、蜂毒に対する抗毒素が発生保有しているからという訳になろう。<br><br>洵（まこと）におかしな話である。<br><br> また、日本人が南京虫（なんきんむし）に刺された場合必ず腫脹する。<br><br>しかるに支那人においてはなんらの反応がないのである。<br><br>それは幼児時代から刺されているため、抗毒素が大いに発生しているためである事はもちろんである。<br><br>また原野に発生するブヨに刺された場合、最初ははなはだしく腫脹するが、度々刺され慣れるに及べば、ついに腫脹しなくなる。<br><br>これは私の体験である。<br><br> ゆえに、右のごとき幾多の事実によってみるも抗毒素が発生すればする程反応はなくなり、反対にいまだ毒に対し処女である場合、著しい反応がある事である。<br><br>従って、医学における解釈は事実と逆である事は、もはや疑いないであろう。<br><br>ゆえに、結論はこういう事になろう。<br><br>すなわち陰性とは、既に菌に犯され、抗毒素発生のため、反応腫脹の起こらない訳であり、陽性とはいまだ菌に犯されず処女体であるから、猛烈に抗毒素が発生し腫脹するという訳である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Equívoco da Reação à Tuberculina</h2>
 <p>Elucidarei, a seguir, os motivos pelos quais a injeção de tuberculina resulta em reações positivas e negativas.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Vejamos outro caso: quando os japoneses são picados por percevejos, o local invariavelmente incha. Já os chineses não apresentam qualquer reação. Isso se deve, evidentemente, ao fato de que, por serem picados desde a tenra infância, desenvolveram uma grande quantidade de antitoxinas. O mesmo ocorre com as picadas dos borrachudos que se encontram em campos e matas. No início, elas provocam um inchaço considerável, mas, à medida que a pessoa se acostuma a ser picada, o inchaço acaba por não mais ocorrer. Falo por experiência própria.</p>
 <p>Portanto, os inúmeros fatos supracitados demonstram que, quanto maior a produção de antitoxinas, menor é a reação. Por outro lado, quando o organismo ainda é, por assim dizer, "virgem" em relação à toxina, a reação se manifesta de forma acentuada. Sendo assim, já não resta dúvida de que a interpretação da medicina é o exato oposto da realidade.</p>
 <p>A conclusão, portanto, é a seguinte: a reação negativa significa que o indivíduo já foi contaminado pela bactéria e, por possuir antitoxinas, não apresenta inchaço. A reação positiva, por sua vez, indica que o organismo, por ser um "corpo virgem" ainda não contaminado, reage com veemência, produzindo uma grande quantidade de antitoxinas e, consequentemente, provocando o inchaço.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ツベルクリンの注射 『結核の正体』昭和18(1943)年11月23日発行 ツベルクリン注射の結果、陽性及び陰性の症状を呈するのはいかなる理由であるかを説いてみよう。<br/><br/> 前項に述べたごとく、人体は不断に浄化作用が行われつつあるものであるから、たまたま急激に異物または毒物等が注入された場合、その局部に速かに浄化作用が発生する。<br/><br/>それがため、その部に紅潮または腫脹を呈するのである。<br/><br/>たとえていえば蚊に食われ、毒虫や蜂に刺された場合、腫脹を呈するのと同様の理である。<br/><br/>これは毒素を急速に解消せんがため、血液が集溜するのである。<br/><br/>これによってみても、血液自体に解毒作用のある事を知るであろう。<br/><br/>右に引換え陰性者とは、血液の解毒力微弱のために腫脹しないのである。<br/><br/>いわば血液に活動力がないからである。<br/><br/>しかるに二回三回にわたってツベルクリン注射を行う時、はじめて陽性に転化するのであるが、これは異物である注射液が二倍三倍にも増す訳であるから、解毒作用微弱の血液といえども、解毒力自体が二倍三倍に増すという結果によって陽性者となるのである。<br/><br/> 右のごとくであるにみて、陽性陰性の反応とは、異物注入に対する浄化力の強弱の表われに過ぎないのであるから、ツベルクリン注射なるものは、結核とはなんら関係がない事となるに拘わらず、結核を知る唯一の方法とする医学の解釈は不可解と思うのである。<br/><br/>ゆえに、私は多くの資材や労力をかけ、なんらの意味なきツベルクリン注射を行うという事のいかに徒労であるかを嘆かすにはおれないのである。<br/><br/> また、ツベルクリン注射について、医学的理論に不可解極まる点のある事を指摘してみよう。<br/><br/>それは結核生菌に既に侵され〔て〕いるために、抗毒素が発生しておるから腫脹するというのであるが、これはむしろ逆的解釈である。<br/><br/>何となれば右のごとく抗毒素なるものは、生菌に対し、それを防禦するために発生する所の元素である以上死菌に対しては抗毒素発生の必要がないからである。<br/><br/> 今一つの注目すべき事は、それは医学で言うごとく、結核生菌が侵入したために、抗毒素が発生するものとすれば人間が生れて初めで蜂に刺された場合、はなはだしく腫脹するのはいかなる訳であろうか、これを医学の理論に従えば、既に蜂に刺されて、蜂毒に対する抗毒素が発生保有しているからという訳になろう。<br/><br/>洵（まこと）におかしな話である。<br/><br/> また、日本人が南京虫（なんきんむし）に刺された場合必ず腫脹する。<br/><br/>しかるに支那人においてはなんらの反応がないのである。<br/><br/>それは幼児時代から刺されているため、抗毒素が大いに発生しているためである事はもちろんである。<br/><br/>また原野に発生するブヨに刺された場合、最初ははなはだしく腫脹するが、度々刺され慣れるに及べば、ついに腫脹しなくなる。<br/><br/>これは私の体験である。<br/><br/> ゆえに、右のごとき幾多の事実によってみるも抗毒素が発生すればする程反応はなくなり、反対にいまだ毒に対し処女である場合、著しい反応がある事である。<br/><br/>従って、医学における解釈は事実と逆である事は、もはや疑いないであろう。<br/><br/>ゆえに、結論はこういう事になろう。<br/><br/>すなわち陰性とは、既に菌に犯され、抗毒素発生のため、反応腫脹の起こらない訳であり、陽性とはいまだ菌に犯されず処女体であるから、猛烈に抗毒素が発生し腫脹するという訳である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kyugy035</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 信仰篇（救業、布教） ３ 035-055 御報恩 035 御報恩の仕方、（金銭の御用） 神への感謝報恩は物質のみでは本当でないと思われます。<br><br>精神的の行ないまたは御奉仕等、いかにあるべきでしょうか。<br><br> 物質を提供する事はすでに精神が出来てる訳である。<br><br>上げたくないのに強制的に上げるのは、浄財にならぬ。<br><br>それは金に汚れがあり、光がなく、永遠の生命はない。<br><br>感謝報恩の場合、無理してはいけない。<br><br>本来の使命逸脱せぬ事。<br><br> 036 金銭問題で退く信徒への対処 一般の人で観音様の有難いことを多少知りつつも、いざ金銭物質のことになると「ハタ」と行き止る人―― これも「有難い、じっとしてはいられぬ」と言って上げるのが当り前である。<br><br> 義理の考えで上げるのは観音様は喜ばれぬ。<br><br>上げない人は、そのまま何とも思わぬのがいい。<br><br>いずれは大いに御用したがる時もある。<br><br>アッさり言えばよい。<br><br> 037 教会への義務怠る者の処置 御道の先生方の中には、その所属する団体に対する義務を忘れて、自分の周囲を充実する事が御道の事だ――との錯覚に陥り、会費及び献金等の御取次や上納を故意に怠る人があります。<br><br>なお自己の過誤を糊塗せんがため、他の人と相謀って同様の空気を醸成しようとさえ企てる人もあります。<br><br>かかる団体の徳義を破り、順序を乱すがごとき行為に対しましては、どのような処置をとるべきでしょうか。<br><br>右、御教示御願い申し上げます。<br><br> 神様が処置をとる。<br><br>誰も処置をとらなくてよい。<br><br>（S24.10. 3） 038 入信後熱意なくなる信徒 自分から非常に進んで教修を戴いた信徒が、入信後急に熱気がなくなる人がありますが、いかなる理由で御座いますか。<br><br>御尋ね致します。<br><br> 暫く経つと急に熱が出て、一生懸命になる人もある。<br><br> 039 御手伝い出来兼ねる信徒 御手伝いすると良いとは知りつつ、金銭物質、ヒマが要るためそれが出来ない、言わば執着のある人―― 執着とのみは言えない。<br><br>その人によって御手伝いする時期があり、時期の来ぬうちは神様が止める場合がある。<br><br> 表面だけみて判断は出来ぬ。<br><br>神様にお任せして時期を待つ事である。<br><br> 040 御用にお仕えせぬ人 長男も御光を戴いておりますが、始めのうちはよく解って会員を勧めておりましたが、現在は少しも話を聞こうとせず、お参りも致しません。<br><br>救いの手伝いをしようとも致しません。<br><br>どうしたら一生懸命観音様のお手伝いをするでしょうか。<br><br>母として悩んでおります。<br><br> 時が来ぬ時はそういう事は誰もあるが、時節が来るまで放ったらかしておく。<br><br>神様に都合があるから一時停める。<br><br>一生懸命ではいけない。<br><br>線に外れてはいけない。<br><br>時を待つのである。<br><br>（S23.11.27） 041 御奉仕不振に悩む者への導き、入信を自惚れる誤り 資格者は自分の罪が深いから尊い御道のお手伝いさせて頂くと考える事と、自分は神より選ばれた人間だと幾分高く評価する考えと、どちらが正しいのでしょうか。<br><br>資格者が熱心にお手伝いさせて頂きたいと存じながら、最初の希望のごとく御手伝いの上に良い結果が生じない場合、自身の不徳及び不適任と思い、かつ経済的な面からも元の職業に返るのが正しいのではないかと迷っている人がある場合、どうお話しすべきでしょうか。<br><br> どっちも正しいが、罪の深い浅いはない。<br><br>因縁である。<br><br> 神から選ばれた人間として高く評価する要はない。<br><br>系統である。<br><br>働きあり、手柄を立てて仕合せになるのである。<br><br> 信者になっただけで自惚れるのは大間違いだ。<br><br> こういう人は決心が足りない。<br><br>信仰が浅い。<br><br>生命がけでもお任せしてやろう――というようなら食うに困らぬ。<br><br> こういう人は寧ろ元の職業に返った方がよい。<br><br>行詰って、それからにした方がよい。<br><br> 決意次第 霊的ではない。<br><br>要は人を救う事で、その決心をすれば神様はそうするようにして下され、働けるようになる。<br><br> 神の目的たる人助けをするという固い決意があれば、御守護ですべてうまく行く。<br><br>役に立つ事である。<br><br> 042 近親すべて反対・信仰続けるには 私は戦時中現在の夫永井正夫（二十五歳）との間の恋愛問題で悩んでいる頃、本教の教えを承り救われた者でございます。<br><br>その後私が入信してお手伝いを致したいと思うにつれ、母や弟が反対を始め、私が本教にて活動するのを妨害するため、その頃はあまり気乗りのしなかった前記永井との間の話を急速に進め、結婚しました。<br><br>そして夫はただ今は肺浸潤で病んでおり、私が熱心に勧めても浄霊を受けようとせず、また義母も反対で理解してくれません。<br><br>元々義母は私達の結婚に反対でしたが、実家の母の熱心に負けて永井（三男）がその母を押切って結婚したような理由で、未だ私を入籍もしてくれません。<br><br>最近私は実家に戻っておりますが、家の者に隠れて御用をさせて頂いております。<br><br>このように実家も婚家先の家族の者も皆反対の中で、私は信仰を続けたいと念願しておりますが、今後どのようにしたら皆の者が分ってくれるでしょうか。<br><br>またどのようにしたら御救いが戴けるで御座いましょうか。<br><br> 急には分らぬ。<br><br>出来れば教導所へでも入って避けている。<br><br>そしてお手伝いする。<br><br>その方が早く分ってくる。<br><br>（S24.11.27） 043 物言えぬ訳 今迄は思う事を言えたのに関わらず、最近はそれが言えず、何か抑えられた感があります。<br><br>霊的には何かありましょうか。<br><br> 思う事が言えなくともよい。<br><br>神様の方で止めてある。<br><br>時が経つと前よりズーッと言えるようになる。<br><br>（S24. 7.27） 044 御用の捗らぬ悩み 色々と観音様の有難きお話を伺い、御利益も頂き、本年の二月に入信させて頂きました。<br><br>私は独身であり、御手伝いをさせて頂き易い身でありながら、どうしても積極的に御用させて頂けないのが自分ながら情なく思っております。<br><br>いかなる訳で御座いましょうか。<br><br>また、今後いかにして御用させて頂いたら宜しゅう御座いますか。<br><br>御伺い申し上げます。<br><br> 未だ御用をさして戴く時期が来ぬのである。<br><br>（S24.10. 9） 045 信仰の焦り 私はただ今郵政省の勤め人ですが、役所の事務の多忙と、それに兼務の方もありますので、大先生の御仕事の御手伝いが思うように出来ないのですが、いかなる訳でしょうか。<br><br>何か御用が出来ないような霊的の原因がありますでしょうか。<br><br>御伺い申し上げます。<br><br> 時期が来ぬためである。<br><br>すべて信仰は焦りはいけない。<br><br>（S24.12. 5） 046 不具者等の御奉仕 御道に入信して、更に御弟子になりたいと熱望している人が、不具者であったりあるいいは普通程度の知能がなかったり致します場合、いかが致したら宜しいでございましょうか。<br><br>右、御教示御願い申し上げます。<br><br> 不具者であっても舌が良い働きをするから良くなる。<br><br>（S *.11.23） 047 不徹底な信仰はやめよ（僧の言に従う信徒） 三月頃までは数多くの御利益を受けて喜んでいた人で御座います。<br><br>親戚の反対によりて止めておりましたところ、村の浄土真宗の僧侶が月に四回位読経に参りまして、御書体をはずしてしまえと申しました故、やむなくはずし、三宝の上に置いてありました。<br><br>この頃僧侶は川に流してしまえと申すそうで御座います。<br><br>本人は今まで多くの御利益をうけていてそんな勿体ない事は出来ないとは申しますが、僧侶の言う事は案外よく聞くもので、私も自分が御導きした人でもありますので、いかにすればよいでしょうか。<br><br>お教え下さい。<br><br> 罰あたりだから勝手にさせよ。<br><br>中途で止めると反って覚りが遅れる。<br><br>僧侶の言う事を聞くなど曖昧な信仰はやめた方がよい。<br><br>この信仰をするか滅びるかどっちかという時期が今に来る。<br><br>（S24. 9. 7） 048 反信仰心の湧起と頭の痺れ、（積徳と副霊の邪魔） 頭が痺れ、些細な事でもいつまでも気にかかります。<br><br>絶えず神様に近づこうとする反面、常にこれを妨げようとする別の心が動き、光明如来様が恐くてたまらぬ事があります。<br><br>時としては教会へ行くのが大儀となり、先生が憎くてたまらぬ事があると申します。<br><br>（浄霊を続け現在相当量の鼻汁が出ております）右は単なる浄化ですか。<br><br>邪霊の妨害でしょうか。<br><br> これこそ霊である。<br><br>鼻汁は両方。<br><br> 副霊がいて邪魔する。<br><br>神様に近づこうとするのが本守護神。<br><br> 副守の力が相当強くなる場合がある。<br><br>よく徳を積むと副守が弱る。<br><br>そうするとそういう事はなくなる。<br><br> 049 信仰不徹底稲荷に犯さる 父は中風で御浄霊を戴き、私と弟の二人入信してますが、父が発狂状態になり、夜一時頃から三時頃迄暴れ、不眠の状態です。<br><br>五年前より町内の白笹稲荷を預かっており、父が白笹稲荷の御神体を指して狐が出入していると申しました。<br><br>この二、三日の状態がよくなって参ったと同時に、長女が朝突然ひきつけ、注射を一本打ってしまいましたが、教導所に連絡して御浄霊を頂き、大分楽になりましたが、その夜一時頃猛烈なひきつけを起して死亡、その後、父がまた暴れ出しております。<br><br>子供の死後、白笹稲荷を一応町内へ返したのですが、これで稲荷がなおさら怒っているかとも思ってますが、今後いかようにしたらよろしいでしょうか。<br><br> 信仰が徹底していないため、そのスキに稲荷にやられたものである。<br><br>徹底すれば、狐などにやられる事もなく、祀りかえる要もない。<br><br>出来るだけ神書を読んで徹底し、父には祝詞を奏げてやる。<br><br> 050 入信後の苦しみや迷い、（決心）、迷いは信念を強める、迷わすもの 光明如来様を御祭りして病気がよくなったり、種々の災害から奇蹟的に救われたといって非常に喜んでいる人もあり、また光明如来様を御祭りしてから家族の者が次々と色々な浄化の起る家がありますが、いかなる理由でしょうか。<br><br>御伺い申し上げます。<br><br> その家の罪の多少による。<br><br>例えば汚れた袋はきれいにしてから良い物を入れて下さる。<br><br>大きい使命のある人程苦しみは大きい。<br><br>よく磨かなくては使えないからである。<br><br> 私の苦しんだ時よく思った、信仰は単純な自分の気持で決められないと。<br><br>決心すれば苦しみはなくなる。<br><br>病気でも生を諦めると助かる。<br><br>迷う中は苦しみが続く。<br><br>迷わすのは邪神で、信仰をやめさせようとする。<br><br> 迷う事はしかし信念を強める。<br><br>故に疑うのも大いによい。<br><br>治療時代、ある男、途中で来なくなった。<br><br>聞いてみると死んだら阿弥陀の側へ行けないと言う。<br><br>絶対に信じたらいかなる宗教に入るも自由である。<br><br>（S24. 8.10） 051 使命と苦しみ、（迷いと苦しみ）、迷い・苦しみは徹底せよ 罪の多少による。<br><br>容れ物の掃除をする。<br><br>大使命があるほど大苦があると神様は言われる。<br><br>故に使命の大なるほど苦しみは大きい。<br><br>よく磨かなくては役に立たぬのである。<br><br>私などそうである。<br><br> 信仰は単純な人間の理屈で考えるのが一番危い。<br><br>迷っているうちは苦しみが来る。<br><br>迷いがなくなると苦しみは来ない。<br><br>迷うのは心にスキがあり、そこで邪神がゆさぶる。<br><br>絶対動かなくなると苦しみはなくなる。<br><br>病気の場合でも、生きたいと思う病人は死ぬ。<br><br>諦めるのは助かる。<br><br>迷うのは固まっていない。<br><br>しかし大いに迷っていい。<br><br>迷い抜いて固まる。<br><br> 前に麹町へ支部を出した時、風呂屋で足の悪い娘で、もう一息でよくなる所でやめた。<br><br>査べると、これがよくなると阿弥陀信仰をやめなくてはならぬ。<br><br>娘一人殺しても止められぬという人もあった。<br><br>夫婦と同じで、女に欠陥があれば、他の女と接しても疑う。<br><br> 迷うのも疑うのもウンとする。<br><br>中途半端で入るのは面白くない。<br><br>本当に使命と因縁があれば――。<br><br> 052 女は男の六十分の一か 夫婦は霊体であり合せ鏡であると伺っておりますが、これと女は男の六十分の一であると言う事との関係をどのように考えたら宜しゅうございましょうか。<br><br> こんな事はない。<br><br>これは月と太陽の光だけを説明した学問上の分析の結果であって、それがそのまま人間にあてはまる訳ではない。<br><br>（S24.11.14） 053 薬に浄霊 私の家は医業で生計を立てていますが、薬調合の時、薬品に御浄霊して患者に与うる場合の効果はいかがでしょうか。<br><br> これは全然意味をなさない。<br><br>丁度泥棒が警官の服を着て入り込むようなものである。<br><br>反って浄霊すると余計いけないかもしれない。<br><br> 054 午睡の功罪 夏季の午睡の功罪―― こういう小さい考えはいけない。<br><br>（S24. 8. 9） 055 観音様の髭 この教団に入信する方に、観音様は髭がないからと言われて皆落してしまいますが、どういう訳で髭がいけないのでしょうか。<br><br> その人の勝手である。<br><br>私が言った事はない。<br><br>観音様は男で女である。<br><br>どっちでもよい。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Gratidão a Deus</h2>
 <p><strong>035 A maneira de expressar gratidão (O servir por meio de donativos)</strong></p>
@@ -158,5 +310,48 @@ Podem duvidar e questionar à vontade. Não há proveito em aderir à fé de for
 <p><strong>055 A barba de Kannon</strong></p>
 <p><em>Pergunta:</em> As pessoas que ingressam nesta organização costumam raspar a barba, afirmando que Kannon (観音) não a possui. Por que a barba não é permitida?</p>
 <p><em>Resposta:</em> Isso é uma decisão de cada um. Eu jamais disse algo a esse respeito. Kannon (観音) é, ao mesmo tempo, homem e mulher. Portanto, tanto faz.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 信仰篇（救業、布教） ３ 035-055 御報恩 035 御報恩の仕方、（金銭の御用） 神への感謝報恩は物質のみでは本当でないと思われます。<br/><br/>精神的の行ないまたは御奉仕等、いかにあるべきでしょうか。<br/><br/> 物質を提供する事はすでに精神が出来てる訳である。<br/><br/>上げたくないのに強制的に上げるのは、浄財にならぬ。<br/><br/>それは金に汚れがあり、光がなく、永遠の生命はない。<br/><br/>感謝報恩の場合、無理してはいけない。<br/><br/>本来の使命逸脱せぬ事。<br/><br/> 036 金銭問題で退く信徒への対処 一般の人で観音様の有難いことを多少知りつつも、いざ金銭物質のことになると「ハタ」と行き止る人―― これも「有難い、じっとしてはいられぬ」と言って上げるのが当り前である。<br/><br/> 義理の考えで上げるのは観音様は喜ばれぬ。<br/><br/>上げない人は、そのまま何とも思わぬのがいい。<br/><br/>いずれは大いに御用したがる時もある。<br/><br/>アッさり言えばよい。<br/><br/> 037 教会への義務怠る者の処置 御道の先生方の中には、その所属する団体に対する義務を忘れて、自分の周囲を充実する事が御道の事だ――との錯覚に陥り、会費及び献金等の御取次や上納を故意に怠る人があります。<br/><br/>なお自己の過誤を糊塗せんがため、他の人と相謀って同様の空気を醸成しようとさえ企てる人もあります。<br/><br/>かかる団体の徳義を破り、順序を乱すがごとき行為に対しましては、どのような処置をとるべきでしょうか。<br/><br/>右、御教示御願い申し上げます。<br/><br/> 神様が処置をとる。<br/><br/>誰も処置をとらなくてよい。<br/><br/>（S24.10. 3） 038 入信後熱意なくなる信徒 自分から非常に進んで教修を戴いた信徒が、入信後急に熱気がなくなる人がありますが、いかなる理由で御座いますか。<br/><br/>御尋ね致します。<br/><br/> 暫く経つと急に熱が出て、一生懸命になる人もある。<br/><br/> 039 御手伝い出来兼ねる信徒 御手伝いすると良いとは知りつつ、金銭物質、ヒマが要るためそれが出来ない、言わば執着のある人―― 執着とのみは言えない。<br/><br/>その人によって御手伝いする時期があり、時期の来ぬうちは神様が止める場合がある。<br/><br/> 表面だけみて判断は出来ぬ。<br/><br/>神様にお任せして時期を待つ事である。<br/><br/> 040 御用にお仕えせぬ人 長男も御光を戴いておりますが、始めのうちはよく解って会員を勧めておりましたが、現在は少しも話を聞こうとせず、お参りも致しません。<br/><br/>救いの手伝いをしようとも致しません。<br/><br/>どうしたら一生懸命観音様のお手伝いをするでしょうか。<br/><br/>母として悩んでおります。<br/><br/> 時が来ぬ時はそういう事は誰もあるが、時節が来るまで放ったらかしておく。<br/><br/>神様に都合があるから一時停める。<br/><br/>一生懸命ではいけない。<br/><br/>線に外れてはいけない。<br/><br/>時を待つのである。<br/><br/>（S23.11.27） 041 御奉仕不振に悩む者への導き、入信を自惚れる誤り 資格者は自分の罪が深いから尊い御道のお手伝いさせて頂くと考える事と、自分は神より選ばれた人間だと幾分高く評価する考えと、どちらが正しいのでしょうか。<br/><br/>資格者が熱心にお手伝いさせて頂きたいと存じながら、最初の希望のごとく御手伝いの上に良い結果が生じない場合、自身の不徳及び不適任と思い、かつ経済的な面からも元の職業に返るのが正しいのではないかと迷っている人がある場合、どうお話しすべきでしょうか。<br/><br/> どっちも正しいが、罪の深い浅いはない。<br/><br/>因縁である。<br/><br/> 神から選ばれた人間として高く評価する要はない。<br/><br/>系統である。<br/><br/>働きあり、手柄を立てて仕合せになるのである。<br/><br/> 信者になっただけで自惚れるのは大間違いだ。<br/><br/> こういう人は決心が足りない。<br/><br/>信仰が浅い。<br/><br/>生命がけでもお任せしてやろう――というようなら食うに困らぬ。<br/><br/> こういう人は寧ろ元の職業に返った方がよい。<br/><br/>行詰って、それからにした方がよい。<br/><br/> 決意次第 霊的ではない。<br/><br/>要は人を救う事で、その決心をすれば神様はそうするようにして下され、働けるようになる。<br/><br/> 神の目的たる人助けをするという固い決意があれば、御守護ですべてうまく行く。<br/><br/>役に立つ事である。<br/><br/> 042 近親すべて反対・信仰続けるには 私は戦時中現在の夫永井正夫（二十五歳）との間の恋愛問題で悩んでいる頃、本教の教えを承り救われた者でございます。<br/><br/>その後私が入信してお手伝いを致したいと思うにつれ、母や弟が反対を始め、私が本教にて活動するのを妨害するため、その頃はあまり気乗りのしなかった前記永井との間の話を急速に進め、結婚しました。<br/><br/>そして夫はただ今は肺浸潤で病んでおり、私が熱心に勧めても浄霊を受けようとせず、また義母も反対で理解してくれません。<br/><br/>元々義母は私達の結婚に反対でしたが、実家の母の熱心に負けて永井（三男）がその母を押切って結婚したような理由で、未だ私を入籍もしてくれません。<br/><br/>最近私は実家に戻っておりますが、家の者に隠れて御用をさせて頂いております。<br/><br/>このように実家も婚家先の家族の者も皆反対の中で、私は信仰を続けたいと念願しておりますが、今後どのようにしたら皆の者が分ってくれるでしょうか。<br/><br/>またどのようにしたら御救いが戴けるで御座いましょうか。<br/><br/> 急には分らぬ。<br/><br/>出来れば教導所へでも入って避けている。<br/><br/>そしてお手伝いする。<br/><br/>その方が早く分ってくる。<br/><br/>（S24.11.27） 043 物言えぬ訳 今迄は思う事を言えたのに関わらず、最近はそれが言えず、何か抑えられた感があります。<br/><br/>霊的には何かありましょうか。<br/><br/> 思う事が言えなくともよい。<br/><br/>神様の方で止めてある。<br/><br/>時が経つと前よりズーッと言えるようになる。<br/><br/>（S24. 7.27） 044 御用の捗らぬ悩み 色々と観音様の有難きお話を伺い、御利益も頂き、本年の二月に入信させて頂きました。<br/><br/>私は独身であり、御手伝いをさせて頂き易い身でありながら、どうしても積極的に御用させて頂けないのが自分ながら情なく思っております。<br/><br/>いかなる訳で御座いましょうか。<br/><br/>また、今後いかにして御用させて頂いたら宜しゅう御座いますか。<br/><br/>御伺い申し上げます。<br/><br/> 未だ御用をさして戴く時期が来ぬのである。<br/><br/>（S24.10. 9） 045 信仰の焦り 私はただ今郵政省の勤め人ですが、役所の事務の多忙と、それに兼務の方もありますので、大先生の御仕事の御手伝いが思うように出来ないのですが、いかなる訳でしょうか。<br/><br/>何か御用が出来ないような霊的の原因がありますでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> 時期が来ぬためである。<br/><br/>すべて信仰は焦りはいけない。<br/><br/>（S24.12. 5） 046 不具者等の御奉仕 御道に入信して、更に御弟子になりたいと熱望している人が、不具者であったりあるいいは普通程度の知能がなかったり致します場合、いかが致したら宜しいでございましょうか。<br/><br/>右、御教示御願い申し上げます。<br/><br/> 不具者であっても舌が良い働きをするから良くなる。<br/><br/>（S *.11.23） 047 不徹底な信仰はやめよ（僧の言に従う信徒） 三月頃までは数多くの御利益を受けて喜んでいた人で御座います。<br/><br/>親戚の反対によりて止めておりましたところ、村の浄土真宗の僧侶が月に四回位読経に参りまして、御書体をはずしてしまえと申しました故、やむなくはずし、三宝の上に置いてありました。<br/><br/>この頃僧侶は川に流してしまえと申すそうで御座います。<br/><br/>本人は今まで多くの御利益をうけていてそんな勿体ない事は出来ないとは申しますが、僧侶の言う事は案外よく聞くもので、私も自分が御導きした人でもありますので、いかにすればよいでしょうか。<br/><br/>お教え下さい。<br/><br/> 罰あたりだから勝手にさせよ。<br/><br/>中途で止めると反って覚りが遅れる。<br/><br/>僧侶の言う事を聞くなど曖昧な信仰はやめた方がよい。<br/><br/>この信仰をするか滅びるかどっちかという時期が今に来る。<br/><br/>（S24. 9. 7） 048 反信仰心の湧起と頭の痺れ、（積徳と副霊の邪魔） 頭が痺れ、些細な事でもいつまでも気にかかります。<br/><br/>絶えず神様に近づこうとする反面、常にこれを妨げようとする別の心が動き、光明如来様が恐くてたまらぬ事があります。<br/><br/>時としては教会へ行くのが大儀となり、先生が憎くてたまらぬ事があると申します。<br/><br/>（浄霊を続け現在相当量の鼻汁が出ております）右は単なる浄化ですか。<br/><br/>邪霊の妨害でしょうか。<br/><br/> これこそ霊である。<br/><br/>鼻汁は両方。<br/><br/> 副霊がいて邪魔する。<br/><br/>神様に近づこうとするのが本守護神。<br/><br/> 副守の力が相当強くなる場合がある。<br/><br/>よく徳を積むと副守が弱る。<br/><br/>そうするとそういう事はなくなる。<br/><br/> 049 信仰不徹底稲荷に犯さる 父は中風で御浄霊を戴き、私と弟の二人入信してますが、父が発狂状態になり、夜一時頃から三時頃迄暴れ、不眠の状態です。<br/><br/>五年前より町内の白笹稲荷を預かっており、父が白笹稲荷の御神体を指して狐が出入していると申しました。<br/><br/>この二、三日の状態がよくなって参ったと同時に、長女が朝突然ひきつけ、注射を一本打ってしまいましたが、教導所に連絡して御浄霊を頂き、大分楽になりましたが、その夜一時頃猛烈なひきつけを起して死亡、その後、父がまた暴れ出しております。<br/><br/>子供の死後、白笹稲荷を一応町内へ返したのですが、これで稲荷がなおさら怒っているかとも思ってますが、今後いかようにしたらよろしいでしょうか。<br/><br/> 信仰が徹底していないため、そのスキに稲荷にやられたものである。<br/><br/>徹底すれば、狐などにやられる事もなく、祀りかえる要もない。<br/><br/>出来るだけ神書を読んで徹底し、父には祝詞を奏げてやる。<br/><br/> 050 入信後の苦しみや迷い、（決心）、迷いは信念を強める、迷わすもの 光明如来様を御祭りして病気がよくなったり、種々の災害から奇蹟的に救われたといって非常に喜んでいる人もあり、また光明如来様を御祭りしてから家族の者が次々と色々な浄化の起る家がありますが、いかなる理由でしょうか。<br/><br/>御伺い申し上げます。<br/><br/> その家の罪の多少による。<br/><br/>例えば汚れた袋はきれいにしてから良い物を入れて下さる。<br/><br/>大きい使命のある人程苦しみは大きい。<br/><br/>よく磨かなくては使えないからである。<br/><br/> 私の苦しんだ時よく思った、信仰は単純な自分の気持で決められないと。<br/><br/>決心すれば苦しみはなくなる。<br/><br/>病気でも生を諦めると助かる。<br/><br/>迷う中は苦しみが続く。<br/><br/>迷わすのは邪神で、信仰をやめさせようとする。<br/><br/> 迷う事はしかし信念を強める。<br/><br/>故に疑うのも大いによい。<br/><br/>治療時代、ある男、途中で来なくなった。<br/><br/>聞いてみると死んだら阿弥陀の側へ行けないと言う。<br/><br/>絶対に信じたらいかなる宗教に入るも自由である。<br/><br/>（S24. 8.10） 051 使命と苦しみ、（迷いと苦しみ）、迷い・苦しみは徹底せよ 罪の多少による。<br/><br/>容れ物の掃除をする。<br/><br/>大使命があるほど大苦があると神様は言われる。<br/><br/>故に使命の大なるほど苦しみは大きい。<br/><br/>よく磨かなくては役に立たぬのである。<br/><br/>私などそうである。<br/><br/> 信仰は単純な人間の理屈で考えるのが一番危い。<br/><br/>迷っているうちは苦しみが来る。<br/><br/>迷いがなくなると苦しみは来ない。<br/><br/>迷うのは心にスキがあり、そこで邪神がゆさぶる。<br/><br/>絶対動かなくなると苦しみはなくなる。<br/><br/>病気の場合でも、生きたいと思う病人は死ぬ。<br/><br/>諦めるのは助かる。<br/><br/>迷うのは固まっていない。<br/><br/>しかし大いに迷っていい。<br/><br/>迷い抜いて固まる。<br/><br/> 前に麹町へ支部を出した時、風呂屋で足の悪い娘で、もう一息でよくなる所でやめた。<br/><br/>査べると、これがよくなると阿弥陀信仰をやめなくてはならぬ。<br/><br/>娘一人殺しても止められぬという人もあった。<br/><br/>夫婦と同じで、女に欠陥があれば、他の女と接しても疑う。<br/><br/> 迷うのも疑うのもウンとする。<br/><br/>中途半端で入るのは面白くない。<br/><br/>本当に使命と因縁があれば――。<br/><br/> 052 女は男の六十分の一か 夫婦は霊体であり合せ鏡であると伺っておりますが、これと女は男の六十分の一であると言う事との関係をどのように考えたら宜しゅうございましょうか。<br/><br/> こんな事はない。<br/><br/>これは月と太陽の光だけを説明した学問上の分析の結果であって、それがそのまま人間にあてはまる訳ではない。<br/><br/>（S24.11.14） 053 薬に浄霊 私の家は医業で生計を立てていますが、薬調合の時、薬品に御浄霊して患者に与うる場合の効果はいかがでしょうか。<br/><br/> これは全然意味をなさない。<br/><br/>丁度泥棒が警官の服を着て入り込むようなものである。<br/><br/>反って浄霊すると余計いけないかもしれない。<br/><br/> 054 午睡の功罪 夏季の午睡の功罪―― こういう小さい考えはいけない。<br/><br/>（S24. 8. 9） 055 観音様の髭 この教団に入信する方に、観音様は髭がないからと言われて皆落してしまいますが、どういう訳で髭がいけないのでしょうか。<br/><br/> その人の勝手である。<br/><br/>私が言った事はない。<br/><br/>観音様は男で女である。<br/><br/>どっちでもよい。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

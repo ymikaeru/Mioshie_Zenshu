@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jumyoga</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,61 +241,55 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寿命が延びた理由 『栄光』234号、昭和28(1953)年11月11日発行 近来人間の寿命が延びたといって、この原因を医学の進歩としているが、これは大変な誤りである事をかいてみよう。<br><br>それは何かというと、漢方薬と西洋薬との関係にある。<br><br>すなわちこれまでの日本人が短命であったのは漢方薬使用のためであって、誰も知る通り漢方薬なるものは量を非常に多くのまなければ効かないとされているからである。<br><br>ところが近来に至って漢方薬はほとんど影を没し、普通薬といえば洋薬を指すようになった。<br><br>何しろ洋薬は毒分としては漢薬と大差はないが、量が非常に少いため害も少く、これが寿命の延びた理由の一つであって、歴史的にみても分る通り、日本においても上代は普通百歳以上であったものが、紀元千百二十八年雄略天皇頃、支那（シナ）文化と共に漢方薬も渡来し、その頃から病人らしい病人が出来ると共に、漸次（ぜんじ）寿齢も短くなったのである。<br><br> 今一つの理由は近来薬学の進歩によって、浄化停止のための薬毒の力が強くなった割に、副作用の現われ方が延びたからである。<br><br>そのため浄化と浄化停止との摩擦が余程緩和された事と、今一つは最近の薬の成分が今までとは全然異（ちが）った、すなわち抗生物質の発見で、これが大いに効いた訳である。<br><br>というのは医師も経験者もよく知っている通り、何程効く薬でも一つものを長く続けていると免疫性になり、漸次効かなくなる。<br><br>そこで薬を変えると一時よく効くのと同様であって、抗生薬を続けるとしたらいずれは元の木阿弥（もくあみ）となるのはもちろんである。<br><br>というように薬効なるものはある限度があるから、治っても安心は出来ない。<br><br>つまり根治とはならないからである。<br><br>何よりも今日病気をもちながら、どうかこうか働いている人が非常に多くなった事実である。<br><br>それは前記のごとく病の一時抑えが、今までよりも期間が延長したためで、これを進歩と錯覚したのである。<br><br>従って若くして老人のような消極的健康者が増え、元気溌剌たる人間が段々減るのである。<br><br>この例として近来の英、仏等の民族がそうである。<br><br>ところがこの理を知らない我国の当局は、矢鱈（やたら）に医学衛生を奨励し、無理をするな、大切にせよ等と注意を怠らないのは、健康が低下したからである事は、これで分るであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdadeira Razão para o Prolongamento da Vida</h2>
 <p>Embora se atribua o recente prolongamento da vida humana ao progresso da medicina, é preciso esclarecer que se trata de um grave equívoco. O cerne da questão encontra-se na relação entre a medicina oriental e a medicina ocidental. Em outras palavras, a brevidade da vida dos japoneses até então devia-se ao uso da medicina oriental, a qual, como é de conhecimento geral, exige a ingestão de grandes quantidades de fármacos para surtir algum efeito.</p>
 <p>Contudo, em tempos recentes, a medicina oriental praticamente desapareceu do cenário, e o termo "remédio" passou a designar quase exclusivamente os medicamentos ocidentais. Embora a toxicidade destes não seja substancialmente diferente da dos orientais, a quantidade administrada é ínfima, e, consequentemente, o dano ao organismo também é menor. Nisto reside uma das razões para o aumento da longevidade. Uma análise histórica corrobora esta tese: nos tempos antigos, era comum que os japoneses ultrapassassem os cem anos de idade. No entanto, por volta do ano 1128 da era cristã, durante o reinado do Imperador Yuryaku, a medicina oriental chegou ao Japão juntamente com a cultura chinesa. A partir de então, começaram a surgir pessoas verdadeiramente enfermas, e a expectativa de vida decresceu gradualmente.</p>
 <p>Um segundo motivo está associado ao avanço da farmacologia. A potência dos medicamentos para suprimir o processo de purificação aumentou, ao passo que a manifestação de seus efeitos colaterais tornou-se mais tardia. Em consequência, o atrito entre a purificação e a sua supressão foi consideravelmente atenuado. Ademais, a composição dos fármacos modernos é radicalmente distinta da dos antigos, destacando-se a descoberta dos antibióticos, que tiveram um impacto notável. Como bem sabem os médicos e aqueles com experiência no assunto, o uso contínuo de um mesmo medicamento, por mais eficaz que seja, leva ao desenvolvimento de resistência, fazendo com que sua eficácia diminua gradualmente. A eficácia temporária observada ao se trocar de remédio segue o mesmo princípio. Portanto, é evidente que a insistência no uso de antibióticos acabará por nos levar de volta ao ponto de partida. Dessa forma, a ação dos medicamentos possui um limite, razão pela qual não se pode ter tranquilidade, mesmo após uma aparente melhora. Em suma, não se trata de uma cura fundamental.</p>
 <p>Acima de tudo, é um fato incontestável o expressivo aumento do número de pessoas que, embora doentes, conseguem, de alguma forma, continuar trabalhando. Isso ocorre porque a supressão temporária da doença, como mencionado, prolongou-se em comparação ao passado, o que foi erroneamente interpretado como um avanço. Consequentemente, vemos crescer o número de indivíduos com uma saúde passiva, que, mesmo jovens, assemelham-se a idosos em sua disposição, enquanto o número de pessoas plenas de vigor e vitalidade diminui progressivamente. Um exemplo disso pode ser observado nos povos de nações como a Inglaterra e a França em tempos recentes. No entanto, as autoridades de nosso país, ignorando este princípio, promovem indiscriminadamente a medicina e a higiene, e não cessam de advertir a população com frases como "não se esforce demais" ou "cuide-se bem". Fica claro, portanto, que tais exortações são um reflexo direto do declínio da saúde geral da nação.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寿命が延びた理由 『栄光』234号、昭和28(1953)年11月11日発行 近来人間の寿命が延びたといって、この原因を医学の進歩としているが、これは大変な誤りである事をかいてみよう。<br/><br/>それは何かというと、漢方薬と西洋薬との関係にある。<br/><br/>すなわちこれまでの日本人が短命であったのは漢方薬使用のためであって、誰も知る通り漢方薬なるものは量を非常に多くのまなければ効かないとされているからである。<br/><br/>ところが近来に至って漢方薬はほとんど影を没し、普通薬といえば洋薬を指すようになった。<br/><br/>何しろ洋薬は毒分としては漢薬と大差はないが、量が非常に少いため害も少く、これが寿命の延びた理由の一つであって、歴史的にみても分る通り、日本においても上代は普通百歳以上であったものが、紀元千百二十八年雄略天皇頃、支那（シナ）文化と共に漢方薬も渡来し、その頃から病人らしい病人が出来ると共に、漸次（ぜんじ）寿齢も短くなったのである。<br/><br/> 今一つの理由は近来薬学の進歩によって、浄化停止のための薬毒の力が強くなった割に、副作用の現われ方が延びたからである。<br/><br/>そのため浄化と浄化停止との摩擦が余程緩和された事と、今一つは最近の薬の成分が今までとは全然異（ちが）った、すなわち抗生物質の発見で、これが大いに効いた訳である。<br/><br/>というのは医師も経験者もよく知っている通り、何程効く薬でも一つものを長く続けていると免疫性になり、漸次効かなくなる。<br/><br/>そこで薬を変えると一時よく効くのと同様であって、抗生薬を続けるとしたらいずれは元の木阿弥（もくあみ）となるのはもちろんである。<br/><br/>というように薬効なるものはある限度があるから、治っても安心は出来ない。<br/><br/>つまり根治とはならないからである。<br/><br/>何よりも今日病気をもちながら、どうかこうか働いている人が非常に多くなった事実である。<br/><br/>それは前記のごとく病の一時抑えが、今までよりも期間が延長したためで、これを進歩と錯覚したのである。<br/><br/>従って若くして老人のような消極的健康者が増え、元気溌剌たる人間が段々減るのである。<br/><br/>この例として近来の英、仏等の民族がそうである。<br/><br/>ところがこの理を知らない我国の当局は、矢鱈（やたら）に医学衛生を奨励し、無理をするな、大切にせよ等と注意を怠らないのは、健康が低下したからである事は、これで分るであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

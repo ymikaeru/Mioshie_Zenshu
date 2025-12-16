@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>gentori1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 現当利益 『光』9号、昭和24(1949)年5月14日発行 今日宗教を論ずる宗教学者輩の多くが決っていう言葉に、現当利益を目的とする信仰は低級信仰であると言うのである、現当利益など問題にせず、いわゆる高遠な理論を並べたむしろ実生活にかけ離れたるもの程権威ある宗教理論のように説かれている事は、吾々から見ればはなはだしい謬論（びゅうろん）で忌憚（きたん）なく言えば単なる理論の遊戯としか思われないのである、考えてもみるがいい、そもそも宗教の使命は何であるか、言うまでもなく天下万民の苦悩を救い、この土をして安養楽土たらしむるという――それ以外に何があるであろうか。<br><br> そうしてまず一般人を客観する時健康が欲しい、財物が欲しいという欲求は、貴賎貧富の別なく、精神病者でない限りそれを願わぬ者は一人もあるまい、もしありとすればそれは何程希求しても実現の可能性がないため諦めてしまった人か、または自己をより偉く見せようとするえせ学者の類でしかあるまい、そうとすれば右のごとき諦めや自己欺瞞はどうして生まれたかを検討してみるが、事実今日までの宗教信者が神仏に帰依しすべてを抛（なげう）って許す限りの財物を捧げこれ以上やりようのない程熱烈な信仰を続けるにかかわらず、どうしても思うようにゆかない、もっとも相当の利益はあるにはあるが、病気にも罹るし死人も出来るし、貧困からも免れ得ないというのが現実である、そこで結局信仰をやめるか諦めるかの二途の中一途を選ばなければならない羽目になるが、そのほとんどは思い切って信仰から離れる事も出来ない、何となればともかくも信仰によってある程度の利益もあり、苦境に対する諦めも無信仰者であるよりも勝っているからである、これが苦境に喘ぎながらも信仰を続けている人の偽らざる心情であろう。<br><br>そして盲信者は別としてインテリ層のある種に属する人を見る時、彼らは信仰なるものも神仏なるものも、それ程の利益を与えらるべきものではない、ただ精神的に淡い安心感が得らるるだけで、一種の観念に過ぎないと思っているらしい、ところがおかしな事にはこの種の人は宗教の立教者開祖等の言行や文献を無上絶対なものとなし迎合的な讃辞を織込みながら、そのくせ思い上ったような批判の筆を揮うのである、もちろん彼らは霊的叡智の持合せなどはないからどこまでも唯物的批判で、自己の名声を落さないよう顧慮しながら洵（まこと）に上滑りな書き方で到底読む者の肺臓を貫く力などはないのである。<br><br> 吾らはこれらの人を見る時憐愍〔憫〕の情を禁じ得ないと共に、しみじみ自己の幸福感に酔わざるを得ないのである、何となれば吾らは入信以来欲するがままの健康を得、財物にも恵まれ、あらゆる面における現当利益はまことに裕かであるからである、だがしかしこれらの境地は世の中の人は経験がないから信ずる事は至難であろう、そこで現当利益による吾ら幸福者を目して迷信というのであるが実は彼ら自身こそ一種の迷信者と言わざるを得ない、彼らが僅かに利益の半面である精神的諦めだけを唯一のものとして、十年一日のごとく病貧争の枠から脱却し得られないのである、ゆえに吾と彼との人生観も世界観もはなはだしい食違いのあるのは、むしろ当然である、これにおいて一言にして言えばいかなる立派な理論を称えても、理論だけでは病気は治らない、貧乏神も離れない、争いも絶えないというのであるから、これではどうみても救われたとは言われない、嗚呼、彼ら頑迷者の蒙（もう）を啓き、真の法悦を味得させる日は果していつの日か待ち遠い限りである。<br><br> (注) 謬論（びゅうろん）、誤った議論。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Essência dos Benefícios Imediatos na Fé</h2>
 <p>Muitos dos eruditos que hoje dissertam sobre religião insistem em afirmar que a fé cujo objetivo são os benefícios imediatos constitui uma crença de ordem inferior. Suas teses costumam enaltecer teorias excelsas e abstratas, e quanto mais distantes da vida cotidiana, mais parecem revestidas de autoridade. Do nosso ponto de vista, contudo, tal argumento é uma falácia colossal; para sermos francos, não passa de um mero exercício intelectual.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Contudo, para aqueles que jamais vivenciaram tal estado de graça, acreditar nisso é uma tarefa árdua. Por essa razão, acusam-nos, os que fomos agraciados, de sermos supersticiosos. Na verdade, eles próprios são cativos de uma superstição: a de que o único benefício possível é a resignação espiritual, o que os mantém perpetuamente aprisionados ao ciclo da doença, da pobreza e do conflito. É natural, portanto, que nossas visões de mundo e de vida sejam tão drasticamente distintas.</p>
 <p>Em suma, por mais esplêndida que seja a teoria, a teoria por si só não cura doenças, não afasta o espírito da pobreza, nem põe fim aos conflitos. De forma alguma, isso pode ser chamado de salvação.</p>
 <p>Oh, quão ansiosamente aguardamos o dia em que a ignorância desses obstinados será dissipada e eles poderão enfim experimentar a autêntica alegria espiritual.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 現当利益 『光』9号、昭和24(1949)年5月14日発行 今日宗教を論ずる宗教学者輩の多くが決っていう言葉に、現当利益を目的とする信仰は低級信仰であると言うのである、現当利益など問題にせず、いわゆる高遠な理論を並べたむしろ実生活にかけ離れたるもの程権威ある宗教理論のように説かれている事は、吾々から見ればはなはだしい謬論（びゅうろん）で忌憚（きたん）なく言えば単なる理論の遊戯としか思われないのである、考えてもみるがいい、そもそも宗教の使命は何であるか、言うまでもなく天下万民の苦悩を救い、この土をして安養楽土たらしむるという――それ以外に何があるであろうか。<br/><br/> そうしてまず一般人を客観する時健康が欲しい、財物が欲しいという欲求は、貴賎貧富の別なく、精神病者でない限りそれを願わぬ者は一人もあるまい、もしありとすればそれは何程希求しても実現の可能性がないため諦めてしまった人か、または自己をより偉く見せようとするえせ学者の類でしかあるまい、そうとすれば右のごとき諦めや自己欺瞞はどうして生まれたかを検討してみるが、事実今日までの宗教信者が神仏に帰依しすべてを抛（なげう）って許す限りの財物を捧げこれ以上やりようのない程熱烈な信仰を続けるにかかわらず、どうしても思うようにゆかない、もっとも相当の利益はあるにはあるが、病気にも罹るし死人も出来るし、貧困からも免れ得ないというのが現実である、そこで結局信仰をやめるか諦めるかの二途の中一途を選ばなければならない羽目になるが、そのほとんどは思い切って信仰から離れる事も出来ない、何となればともかくも信仰によってある程度の利益もあり、苦境に対する諦めも無信仰者であるよりも勝っているからである、これが苦境に喘ぎながらも信仰を続けている人の偽らざる心情であろう。<br/><br/>そして盲信者は別としてインテリ層のある種に属する人を見る時、彼らは信仰なるものも神仏なるものも、それ程の利益を与えらるべきものではない、ただ精神的に淡い安心感が得らるるだけで、一種の観念に過ぎないと思っているらしい、ところがおかしな事にはこの種の人は宗教の立教者開祖等の言行や文献を無上絶対なものとなし迎合的な讃辞を織込みながら、そのくせ思い上ったような批判の筆を揮うのである、もちろん彼らは霊的叡智の持合せなどはないからどこまでも唯物的批判で、自己の名声を落さないよう顧慮しながら洵（まこと）に上滑りな書き方で到底読む者の肺臓を貫く力などはないのである。<br/><br/> 吾らはこれらの人を見る時憐愍〔憫〕の情を禁じ得ないと共に、しみじみ自己の幸福感に酔わざるを得ないのである、何となれば吾らは入信以来欲するがままの健康を得、財物にも恵まれ、あらゆる面における現当利益はまことに裕かであるからである、だがしかしこれらの境地は世の中の人は経験がないから信ずる事は至難であろう、そこで現当利益による吾ら幸福者を目して迷信というのであるが実は彼ら自身こそ一種の迷信者と言わざるを得ない、彼らが僅かに利益の半面である精神的諦めだけを唯一のものとして、十年一日のごとく病貧争の枠から脱却し得られないのである、ゆえに吾と彼との人生観も世界観もはなはだしい食違いのあるのは、むしろ当然である、これにおいて一言にして言えばいかなる立派な理論を称えても、理論だけでは病気は治らない、貧乏神も離れない、争いも絶えないというのであるから、これではどうみても救われたとは言われない、嗚呼、彼ら頑迷者の蒙（もう）を啓き、真の法悦を味得させる日は果していつの日か待ち遠い限りである。<br/><br/> (注) 謬論（びゅうろん）、誤った議論。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

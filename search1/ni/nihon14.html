@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>nihon14</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 日本人種の霊的考察（中） 『地上天国』23号、昭和26(1951)年4月25日発行 そこでいよいよ神武天皇の御代となり、四隣の平定に取り掛ろうとしたが、当時各地に蟠踞（ばんきょ）していた土匪（どひ）の豪族共が、仲々の勢力を張っていたので、天皇の軍に対し反抗的態度に出てたのはもちろんである。<br><br>彼の歴史上にある八十梟帥（やそたける）、長髄彦（ながすねひこ）、川上梟帥（かわかみたける）、熊襲（くまそ）等の群族がそれである。<br><br>しかし天皇の方は武器やその他が進歩していた以上、大方征服されてしまい、若干は天皇に帰伏した者もあったが、逃避して下積になって今日に至った者もある。<br><br> こうみてくると、日本の民族は四種に分ける事が出来よう。<br><br>すなわち天照天皇を擁立していた純粋の大和民族と、瓊瓊杵尊（ににぎのみこと）系統の天孫民族と、素盞嗚尊（すさのをのみこと）系統の出雲族と、そうして右の土匪であるが、この土匪の系統こそコーカサス地方から蒙古、満州を経て、北鮮から青森付近に上陸したもので、漸次本土深く侵入し、ついに近畿地方にまで及んだのである。<br><br>それより西方には侵入した形跡はないらしい。<br><br>今日各地に発掘される石器、土器の類も、右のごとく大和民族と土匪との大体二種類である。<br><br>進歩している方は弥生式土器といい、もちろん大和民族である。<br><br> 以上のごとく、日本の主権を握るようになったのが天孫系統であって、それが終戦まで続いて来たのである。<br><br>しかしその長い期間中といえども、時々純大和民族の系統も生まれて来た。<br><br>彼の仁徳天皇、光明皇后、光明天皇等はそれである。<br><br>ところが、長い間素盞嗚尊系統が大権を復活しようとして、あらゆる手段を続けて来た事である。<br><br>例えば南北朝の争いにしろ、この時は北朝が天孫系であって、南朝が出雲系であった。<br><br>このように両系統の執拗な争いが、日本歴史として織り込まれて来たのであるから、その根本を知らない限り、歴史の真相は把握出来ないのはもちろんである。<br><br>そうしてその最後の表われが徳川幕府の政策であってみれば、真の目的なるものは言わずと知れた、天皇の大権を還元するにあったのである。<br><br>しかし家康の深謀遠慮は早急を避け、出来るだけ長年月に渉（わた）って、漸次的に目的を達しようとした。<br><br>それは人民を刺戟する事を出来るだけ避け、長い期間に天皇の存在を薄れるべき方針を採ったのである。<br><br>この点家康流の智謀がよく窺われるので、何よりも幕末最後に到って、皇室費を極度に減らし、ついに十万石という少額を分与するまでになったにみても明らかである。<br><br>徳川八百万石に対し、十万石とはほとんど問題にならない額であるばかりか、それもついには杜絶（とだ）え勝となったらしい。<br><br>というのは、当時京都御在住の明治天皇が、六、七歳の頃の事、召上る御菓子に不自由をされたので、近くの菓子屋「虎屋」の主人が見兼ねて、御不自由なきよう取計らったという事で、その忠誠を深く嘉（よみ）せられた明治天皇は、東京に居を遷（うつ）され給うや、早速「虎屋」の主人を呼び、永久に宮内省御用を仰せつけられたという話がある。<br><br> また当時の公家方も、生活に窮して種々の内職をされたのも事実で、いかに窮されたかが察せられるのである。<br><br>しかし徳川氏のみを責める事も出来ない訳がある。<br><br>というのは最後に至って、流石（さすが）栄華を誇った将軍家も、終（つい）に財政難に陥り、譜代大名に対する石高の支給はようやく困難となって来たので、それら多くの大名は、極度に窮迫し、町方の豪商や金持から借金の止むなきに至ったのである。<br><br>彼の有名な大阪の淀屋辰五郎とか、鴻池善右衛門等はその中の尤（ゆう）たるもので、今日鴻池家にある十数戸に及ぶ土蔵には、その時の大名の抵当流れになった珍什（ちんじゅう）名器はおびただしくあるとの話である。<br><br>それらによって旗本はもとより、足軽、下部の末輩に到るまで、疲弊困憊（ひへいこんばい）、内職等によって、僅かに露命を繋いでいた事で、「武士は食わねど高楊枝」などという言葉は、その時の空気をよく表わしている。<br><br> 結局、徳川氏没落の理由は、今日の国家と同様、財政難が主因であった事は、争うべからざる事実である。<br><br>なぜそうまでになったかというと、徳川家唯一の財源たる黄金産出の激減である。<br><br>というのは将軍家唯一の金庫であった、佐渡金山の掘り尽された事である。<br><br>これについては独り徳川氏ばかりではない。<br><br>昔から天下を取った武人は、例外なく黄金に目を付けた。<br><br>彼の源頼朝にしても、当時金鉱探求の名人である金掘〔売〕吉次という男を、初め義経の家来であったのを、頼朝は強行手段によって自分の配下になし、大いに黄金を探させたという事である。<br><br>次は彼の豊臣秀吉で、秀吉がいかに黄金蒐集に腐心したかは有名な話である。<br><br>その次の徳川家康に到っては、いかに黄金万能的に力を注いだかはもちろんで、当時探鉱の名人であった大久保石見守を重用し、全国的探鉱をなさしめたところ、新しく発見したのが、彼の伊豆大仁（おおひと）の金山であった。<br><br>当時はすこぶる優良で多くの黄金を産出し、佐渡の金山と相まって産金高は余程の巨額に達したらしい。<br><br>その表われとして彼の日光東照官が、三代家光公の大計画によって出来たという事は、当時における幕府の財政が、いかに豊かであったかを物語るもので、また徳川氏が最も経済に重きをおいたかは、勘定奉行を特に優遇した事によってみても判るのである。<br><br> ところが前述のごとく末期に到るに従い、大仁金山も、佐渡金山も、共に産額著減したので、流石の幕府財政もようやく逼迫（ひっぱく）の兆候著しく、この事が幕府瓦解の根本原因となったのは間違いないのである。<br><br>なるほど当時勤王の志士は輩出し薩長土の有力分子の決起にもよるが、王政維新の大業が案外早く実現されたという事も、右のごとき財政難が大いに原因したのであろう。<br><br> 右のごとき経路によって、いよいよ天下は一変し天皇は事実上の主権者となられ、憲法は制定され、全般に渉（わた）って一大改革が行われ、ここに強固な君主制国家が成立した事は、今更言う必要はないが、しかも彼の日清、日露の二大戦役を経て、国威はいよいよあがり、一等国の列に加わり、当時の日本は客観的には万代不易の天皇制国家となったのである。<br><br> ここで、いよいよ霊界の推移を説かねばならない。<br><br>素盞嗚尊（すさのをのみこと）の遠大な意図を蔵（かく）して、大権復活の目的を達成しようとしたその手段である。<br><br>それは神武天皇以後種々の計画を進めて来た事によって、追々露骨になって来た。<br><br>それが現界的には藤原氏頃からであったが、すなわち天孫系と出雲系との主権の争奪である。<br><br>例えば道鏡と和気清麻呂、清盛と重盛、時平と道真、尊氏と正成等の事蹟がこれを物語っている。<br><br>そうしてついに徳川氏に及んで、いよいよ露骨となって来た。<br><br>これはさきに述べたから略すが、ここで何人も気の付かない興味ある事があるからそれをかいてみよう。<br><br> 出雲系は徳川期に到るまで、約二千余年に及んでも、なお目的を達せられなかったので、これまでの武力を放棄し、ここに百八十度の転換をした。<br><br>それは宗教による事である。<br><br>すなわち神道としては天理教、大本教、金光教、妙霊教、黒住教であり、仏教としては日蓮宗にその手段を求めたのである。<br><br> 右の中、最も顕著な成績を挙げたものは、彼の天理教である。<br><br>同教教祖のかいた御筆先及び御神楽歌をみれば、右の意図がよく表われている。<br><br>それによると日本の天皇は支那系であるという事が主となって、頗（すこぶ）る露骨にかいてある。<br><br>その中にこういう御神楽歌がある。<br><br>「高山の真の柱は唐人（からびと）や、これが第一神の立腹」とかいてある。<br><br>言うまでもなく高山の真の柱とはもちろん天皇の事で、天皇は唐人すなわち支那人であって、神の立腹とはすなわち素盞嗚尊であろう。<br><br>また他の歌には、政府における全般の官吏も支那系であるというのである。<br><br>私は先年この事について最近大阪を中心として急速に発展して来た天理本道（ほんみち）の開祖である大西愛治部氏の著書を見た事がある。<br><br>同書にはもちろん右に関したもののみを開祖の御筆先から抜萃（ばっすい）したもので、これを露骨に発表したので、相当問題になり、その罪により四年の禁固になった事は、新聞によって大抵の人は知っているであろう。<br><br> また、大本教においても、御筆先に右と同様の意味があったので、不敬に問われて大正十年大弾圧を受けたが、昭和十年再び右に関連した事と、他に行動による不敬問題もあったので、衆知のごとくついに致命的打撃を受けたのである。<br><br>しかし天理教の方は、右の御筆先を全然奥深く秘めて、別に骨抜き的教義を作ったので、今日のごとき大をなしたのであるから、全く主脳者の賢明には、私は大いに感心したのである。<br><br> その他金光、妙霊、黒住教などは、目立つ程の事もないから略すが、ただ日蓮宗だけは相当問題にされた。<br><br>もちろん一部の人達ではあろうが過激な分子があって、その当時軍の内部深く喰入り、ついに彼の五・一五事件や、二・二六事件を起す計画に参与したのはもちろんである。<br><br>特に二・二六事件を霊的にみれば、仲々面白い事があるが、これはいまだ時期ではないから、いずれ発表するつもりである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Perspectiva Espiritual sobre a História do Povo Japonês</h2>
 <p>Com o advento do reinado do Imperador Jimmu, iniciou-se a magna tarefa de pacificar as quatro direções do país. Contudo, os clãs autóctones que se encontravam entrincheirados em diversas regiões, detentores de considerável poder, naturalmente se opuseram às forças imperiais. Referimo-nos aos grupos que a história registra como Yaso Takeru (八十梟帥), Nagasunehiko (長髄彦), Kawakami Takeru (川上梟帥) e Kumaso (熊襲). Todavia, como as forças do Imperador dispunham de armamentos e de uma organização mais avançada, a maioria desses clãs foi subjugada. Enquanto alguns se renderam à autoridade imperial, outros, ao fugirem, foram relegados a uma condição de subalternidade que perdura até os dias de hoje.</p>
@@ -105,5 +257,48 @@ function toggleLang(lang) {
 <p>Dentre esses movimentos, o que obteve o sucesso mais notável foi a Tenrikyo. Ao analisarmos os escritos da fundadora, o <em>Ofudesaki</em>, e os cânticos sagrados, o <em>Mikagura-uta</em>, essa intenção se revela com clareza. A ideia central, expressa de forma bastante explícita, é a de que o Imperador do Japão é de linhagem chinesa. Um dos cânticos do <em>Mikagura-uta</em> diz o seguinte: "O verdadeiro pilar da alta montanha é um chinês, e este é o primeiro motivo da ira de Deus". Escusado será dizer que "o verdadeiro pilar da alta montanha" se refere ao Imperador, que seria um "chinês", e a "ira de Deus" seria, evidentemente, a de Susanoo-no-Mikoto. Outro cântico afirma que todos os oficiais do governo também são de ascendência chinesa. Anos atrás, tive a oportunidade de ler uma obra de Aijiro Onishi, fundador da Tenri Honmichi, uma organização que se expandiu rapidamente a partir de Osaka. O livro, que compilava e publicava abertamente trechos do <em>Ofudesaki</em> com esse teor, gerou considerável controvérsia e, por esse crime, seu autor foi condenado a quatro anos de prisão, fato que a maioria das pessoas deve conhecer através dos jornais da época.</p>
 <p>A Omoto-kyo, de igual modo, possuía em seus escritos sagrados um significado semelhante, o que levou à sua severa repressão em 1921. Em 1935, um novo incidente, relacionado não apenas a essa questão, mas também a outros atos considerados de lesa-majestade, resultou no golpe fatal que, como todos sabem, a desmantelou. A Tenrikyo, por outro lado, ocultou por completo esses escritos em seus recessos mais profundos e, em seu lugar, elaborou uma doutrina desprovida de sua essência original, o que lhe permitiu alcançar a grandiosidade que ostenta hoje. Devo dizer que a sagacidade de sua liderança me causa grande admiração.</p>
 <p>Quanto às outras religiões, como a Konkokyo, a Myoreikyo e a Kurozumikyo, não apresentaram manifestações de maior destaque, de modo que as omitirei. Apenas o Budismo Nichiren se tornou um foco de considerável atenção. Naturalmente, tratava-se de uma facção minoritária, mas seus elementos radicais se infiltraram profundamente nas forças armadas da época, participando, como é sabido, do planejamento de eventos como o Incidente de 15 de Maio e o Incidente de 26 de Fevereiro. A análise espiritual do Incidente de 26 de Fevereiro, em particular, revela aspectos de grande interesse, mas, por não ser ainda o momento oportuno, pretendo abordá-los em uma futura publicação.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 日本人種の霊的考察（中） 『地上天国』23号、昭和26(1951)年4月25日発行 そこでいよいよ神武天皇の御代となり、四隣の平定に取り掛ろうとしたが、当時各地に蟠踞（ばんきょ）していた土匪（どひ）の豪族共が、仲々の勢力を張っていたので、天皇の軍に対し反抗的態度に出てたのはもちろんである。<br/><br/>彼の歴史上にある八十梟帥（やそたける）、長髄彦（ながすねひこ）、川上梟帥（かわかみたける）、熊襲（くまそ）等の群族がそれである。<br/><br/>しかし天皇の方は武器やその他が進歩していた以上、大方征服されてしまい、若干は天皇に帰伏した者もあったが、逃避して下積になって今日に至った者もある。<br/><br/> こうみてくると、日本の民族は四種に分ける事が出来よう。<br/><br/>すなわち天照天皇を擁立していた純粋の大和民族と、瓊瓊杵尊（ににぎのみこと）系統の天孫民族と、素盞嗚尊（すさのをのみこと）系統の出雲族と、そうして右の土匪であるが、この土匪の系統こそコーカサス地方から蒙古、満州を経て、北鮮から青森付近に上陸したもので、漸次本土深く侵入し、ついに近畿地方にまで及んだのである。<br/><br/>それより西方には侵入した形跡はないらしい。<br/><br/>今日各地に発掘される石器、土器の類も、右のごとく大和民族と土匪との大体二種類である。<br/><br/>進歩している方は弥生式土器といい、もちろん大和民族である。<br/><br/> 以上のごとく、日本の主権を握るようになったのが天孫系統であって、それが終戦まで続いて来たのである。<br/><br/>しかしその長い期間中といえども、時々純大和民族の系統も生まれて来た。<br/><br/>彼の仁徳天皇、光明皇后、光明天皇等はそれである。<br/><br/>ところが、長い間素盞嗚尊系統が大権を復活しようとして、あらゆる手段を続けて来た事である。<br/><br/>例えば南北朝の争いにしろ、この時は北朝が天孫系であって、南朝が出雲系であった。<br/><br/>このように両系統の執拗な争いが、日本歴史として織り込まれて来たのであるから、その根本を知らない限り、歴史の真相は把握出来ないのはもちろんである。<br/><br/>そうしてその最後の表われが徳川幕府の政策であってみれば、真の目的なるものは言わずと知れた、天皇の大権を還元するにあったのである。<br/><br/>しかし家康の深謀遠慮は早急を避け、出来るだけ長年月に渉（わた）って、漸次的に目的を達しようとした。<br/><br/>それは人民を刺戟する事を出来るだけ避け、長い期間に天皇の存在を薄れるべき方針を採ったのである。<br/><br/>この点家康流の智謀がよく窺われるので、何よりも幕末最後に到って、皇室費を極度に減らし、ついに十万石という少額を分与するまでになったにみても明らかである。<br/><br/>徳川八百万石に対し、十万石とはほとんど問題にならない額であるばかりか、それもついには杜絶（とだ）え勝となったらしい。<br/><br/>というのは、当時京都御在住の明治天皇が、六、七歳の頃の事、召上る御菓子に不自由をされたので、近くの菓子屋「虎屋」の主人が見兼ねて、御不自由なきよう取計らったという事で、その忠誠を深く嘉（よみ）せられた明治天皇は、東京に居を遷（うつ）され給うや、早速「虎屋」の主人を呼び、永久に宮内省御用を仰せつけられたという話がある。<br/><br/> また当時の公家方も、生活に窮して種々の内職をされたのも事実で、いかに窮されたかが察せられるのである。<br/><br/>しかし徳川氏のみを責める事も出来ない訳がある。<br/><br/>というのは最後に至って、流石（さすが）栄華を誇った将軍家も、終（つい）に財政難に陥り、譜代大名に対する石高の支給はようやく困難となって来たので、それら多くの大名は、極度に窮迫し、町方の豪商や金持から借金の止むなきに至ったのである。<br/><br/>彼の有名な大阪の淀屋辰五郎とか、鴻池善右衛門等はその中の尤（ゆう）たるもので、今日鴻池家にある十数戸に及ぶ土蔵には、その時の大名の抵当流れになった珍什（ちんじゅう）名器はおびただしくあるとの話である。<br/><br/>それらによって旗本はもとより、足軽、下部の末輩に到るまで、疲弊困憊（ひへいこんばい）、内職等によって、僅かに露命を繋いでいた事で、「武士は食わねど高楊枝」などという言葉は、その時の空気をよく表わしている。<br/><br/> 結局、徳川氏没落の理由は、今日の国家と同様、財政難が主因であった事は、争うべからざる事実である。<br/><br/>なぜそうまでになったかというと、徳川家唯一の財源たる黄金産出の激減である。<br/><br/>というのは将軍家唯一の金庫であった、佐渡金山の掘り尽された事である。<br/><br/>これについては独り徳川氏ばかりではない。<br/><br/>昔から天下を取った武人は、例外なく黄金に目を付けた。<br/><br/>彼の源頼朝にしても、当時金鉱探求の名人である金掘〔売〕吉次という男を、初め義経の家来であったのを、頼朝は強行手段によって自分の配下になし、大いに黄金を探させたという事である。<br/><br/>次は彼の豊臣秀吉で、秀吉がいかに黄金蒐集に腐心したかは有名な話である。<br/><br/>その次の徳川家康に到っては、いかに黄金万能的に力を注いだかはもちろんで、当時探鉱の名人であった大久保石見守を重用し、全国的探鉱をなさしめたところ、新しく発見したのが、彼の伊豆大仁（おおひと）の金山であった。<br/><br/>当時はすこぶる優良で多くの黄金を産出し、佐渡の金山と相まって産金高は余程の巨額に達したらしい。<br/><br/>その表われとして彼の日光東照官が、三代家光公の大計画によって出来たという事は、当時における幕府の財政が、いかに豊かであったかを物語るもので、また徳川氏が最も経済に重きをおいたかは、勘定奉行を特に優遇した事によってみても判るのである。<br/><br/> ところが前述のごとく末期に到るに従い、大仁金山も、佐渡金山も、共に産額著減したので、流石の幕府財政もようやく逼迫（ひっぱく）の兆候著しく、この事が幕府瓦解の根本原因となったのは間違いないのである。<br/><br/>なるほど当時勤王の志士は輩出し薩長土の有力分子の決起にもよるが、王政維新の大業が案外早く実現されたという事も、右のごとき財政難が大いに原因したのであろう。<br/><br/> 右のごとき経路によって、いよいよ天下は一変し天皇は事実上の主権者となられ、憲法は制定され、全般に渉（わた）って一大改革が行われ、ここに強固な君主制国家が成立した事は、今更言う必要はないが、しかも彼の日清、日露の二大戦役を経て、国威はいよいよあがり、一等国の列に加わり、当時の日本は客観的には万代不易の天皇制国家となったのである。<br/><br/> ここで、いよいよ霊界の推移を説かねばならない。<br/><br/>素盞嗚尊（すさのをのみこと）の遠大な意図を蔵（かく）して、大権復活の目的を達成しようとしたその手段である。<br/><br/>それは神武天皇以後種々の計画を進めて来た事によって、追々露骨になって来た。<br/><br/>それが現界的には藤原氏頃からであったが、すなわち天孫系と出雲系との主権の争奪である。<br/><br/>例えば道鏡と和気清麻呂、清盛と重盛、時平と道真、尊氏と正成等の事蹟がこれを物語っている。<br/><br/>そうしてついに徳川氏に及んで、いよいよ露骨となって来た。<br/><br/>これはさきに述べたから略すが、ここで何人も気の付かない興味ある事があるからそれをかいてみよう。<br/><br/> 出雲系は徳川期に到るまで、約二千余年に及んでも、なお目的を達せられなかったので、これまでの武力を放棄し、ここに百八十度の転換をした。<br/><br/>それは宗教による事である。<br/><br/>すなわち神道としては天理教、大本教、金光教、妙霊教、黒住教であり、仏教としては日蓮宗にその手段を求めたのである。<br/><br/> 右の中、最も顕著な成績を挙げたものは、彼の天理教である。<br/><br/>同教教祖のかいた御筆先及び御神楽歌をみれば、右の意図がよく表われている。<br/><br/>それによると日本の天皇は支那系であるという事が主となって、頗（すこぶ）る露骨にかいてある。<br/><br/>その中にこういう御神楽歌がある。<br/><br/>「高山の真の柱は唐人（からびと）や、これが第一神の立腹」とかいてある。<br/><br/>言うまでもなく高山の真の柱とはもちろん天皇の事で、天皇は唐人すなわち支那人であって、神の立腹とはすなわち素盞嗚尊であろう。<br/><br/>また他の歌には、政府における全般の官吏も支那系であるというのである。<br/><br/>私は先年この事について最近大阪を中心として急速に発展して来た天理本道（ほんみち）の開祖である大西愛治部氏の著書を見た事がある。<br/><br/>同書にはもちろん右に関したもののみを開祖の御筆先から抜萃（ばっすい）したもので、これを露骨に発表したので、相当問題になり、その罪により四年の禁固になった事は、新聞によって大抵の人は知っているであろう。<br/><br/> また、大本教においても、御筆先に右と同様の意味があったので、不敬に問われて大正十年大弾圧を受けたが、昭和十年再び右に関連した事と、他に行動による不敬問題もあったので、衆知のごとくついに致命的打撃を受けたのである。<br/><br/>しかし天理教の方は、右の御筆先を全然奥深く秘めて、別に骨抜き的教義を作ったので、今日のごとき大をなしたのであるから、全く主脳者の賢明には、私は大いに感心したのである。<br/><br/> その他金光、妙霊、黒住教などは、目立つ程の事もないから略すが、ただ日蓮宗だけは相当問題にされた。<br/><br/>もちろん一部の人達ではあろうが過激な分子があって、その当時軍の内部深く喰入り、ついに彼の五・一五事件や、二・二六事件を起す計画に参与したのはもちろんである。<br/><br/>特に二・二六事件を霊的にみれば、仲々面白い事があるが、これはいまだ時期ではないから、いずれ発表するつもりである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

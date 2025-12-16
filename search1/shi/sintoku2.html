@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sintoku2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神徳斯くの如く験かなり 『栄光』221号、昭和28(1953)年8月12日発行 『世界救世教奇蹟集、昭和29年版新稿』昭和29(1954)年2月10日発行 本教の信仰は昔からあるあらゆるそれとは大いに異（ちが）っている。<br><br>というのは既成宗教においては、神と人との関係が余りハッキリしていないのである。<br><br>といっても彼（か）のキリスト教始め数ある宗教の中には、なるほど熱烈な信仰を捧げる時、驚くべき奇蹟が現われ、神意が明らかに感得される例もすくなくはないので、そのためにこそ何百何千年にわたって、多くの人達に魂の糧を与えて来たのである。<br><br>しかも今日大を成してる宗教程そうであるのは言うまでもない。<br><br> ところが本教においては、神と人との結び付きが余りにもハッキリしている。<br><br>何しろ現在のごとく紀元末ともいうべき地獄世界を救うとしたら、既成宗教以上の超宗教的力をもっていなくてはならないはずである。<br><br>従ってこの救世の力を発揮する基本条件としては、神と人との関係が非常にハッキリしていなければならない訳である。<br><br>なるほど難病が救われ、無い命が恵まれた以上、無限の感謝が湧くのは当然であって、それを具体的に表わしてこそ、神は第二の恵を与えられるのである。<br><br> そうしてそれに酬（むく）ゆると共に、恵まれた命は何がためかという事を考えてみるべきである。<br><br>もちろん御神業の御役に立てんがための神意である。<br><br>これについては先日も神様の事は、一切理屈に合わなければいけない。<br><br>理屈に外れるから再浄化が起ったり、命まで失くすのである。<br><br>それに引替え戴いた命は最早自分のものではない、神様の御手（みて）にある以上、救世のため力限りベストを尽くす。<br><br>そうしたなら再浄化などは消し飛んでしまうので、反対に歓喜幸福な境遇になるのは、絶対間違いないのである。<br><br> 従って不幸になるのも幸福になるのも、自分の心掛次第で、この点一分一厘も違いないのである。<br><br>それは左の御蔭話がよく表わしているから、読んだ人はなるほどと思うであろう。<br><br> 再浄化による喉頭結核を救われて 島根県仁多郡八川村 隆光中教会 為石貞良（31） 明主様の御救いにより九死に一生を頂きました御礼を申し上げます。<br><br>私はかつて年少の頃特に健康に恵まれ、十八歳の春、満蒙開拓青少年義勇軍に加わり、昭和二十年八月の終戦まで元気に軍務に従事し、同年十一月復員、翌年三月親のすすめに従ってさる農家へ婿養子として縁付いたものであります。<br><br>生来の健康のおかげで日々農業に精出し、つらい中にも又楽しい日を過ごし夫婦の仲にも二人の女児を恵まれ何一つ不自由のない生活を送っておりました。<br><br>ところが二十四年五月の農繁期頃より体に異常を感ずる様になりましたが、養子の事とて無理に無理を重ねていましたが、我慢しきれず医師の診察を受けましたところ「風邪がこじれたのだから大した事はない」との事でしたが、病状は益々悪くなる一方で、某病院にての珍斬の結果は「肺結核二期」との事で、それは二十四年十二月の事でありました。<br><br>ああ、難難辛苦の果ての復員後の幸福も束の間、業病中の業病、肺病に侵されようとは……その時医師いわく「あなたの病気は大分進行しているから治るかどうかは判らないが、現代医学は非常に進歩しているから、あらゆる療法を試みたらあるいは治るかもしれない。<br><br>云々」と誠に頼りない言葉でありました。<br><br>そして数日後是非と入院をすすめられましたが、その日の帰途大愛の御手は私如き者にもさしのべられたのであります。<br><br>それは車中にてフト実兄がこのお道の事を聞かしてくれたのであります。<br><br>私は早速途中下車して木次町の島先生を訪ねました。<br><br>先生より種々のお話を承り又御神書等も拝見さして頂き、なぜかその時心に深く打たれるものがあり、長年求めていたものに今こそ掴ったという様な感が致しました。<br><br>早速御浄霊をお願いしましたら、先生は私の頭に向って手を翳しておられるのです。<br><br>こんな事をして病気が治るものかと思いましたが、黙って御浄霊を頂く内に、やがて全身の御浄霊を終る頃には何とも言えないよい気持が致し一時でも疑った事が恥ずかしくなり、そして心から一日も早く健康にして頂けます様にと御祈り致しました。<br><br>先生がおっしゃるには「あなたの病気は必ず治ります！」とはっきり申されました。<br><br>その時の嬉しさは今なお忘れる事は出来ません。<br><br>この日を境に私のすべては一変し出しました。<br><br>先ず何よりも心に大きな希望が湧き、医学その他の療法はすべて捨てて御浄霊一すじにお縋り申し上げたのであります。<br><br>毎日雨の日も雪の日も五里の道を汽車で通いました。<br><br>はじめは反対であった舅達も私が次第に快くなってゆくのを見て少しずつ信ずる様になりましたが、肝腎要の医学の誤謬、薬毒の恐ろしさという事が分らず度々注射をすすめるのにはホトホト困りました。<br><br>翌年二月五日待ちに待ったお守様を拝受致しましたが、この日の感激は一生忘れる事は出来ません。<br><br>その後健康状態もどんどん良くなって行き、私の信仰熱もいやが上にも高まって行き、入信四日目にはもう、二女美千代の急性肺炎を救わせて頂き、いよいよお道に絶対的信念を持つ様になりました。<br><br>それから二、三カ月続けて御参りして御浄霊頂く内に病気症状はどこへか消えてしまいすっかり元気になり、時あたかも農家は田植の準備で多忙となり、まだ重作業は早すざるとは思いましたが、村でも大百姓であり、家でも一番働かなくてはならぬ体であり、又養子というひけ目もあり、無理と知りつつも毎日鋤鍬を持って働きました。<br><br>幸いにも御守護により無事田植を終りホッと一息ついた頃より再び咳と痰が猛烈に出始め、剰え喉頭が痛み、声はかすれ、熱も三十八、九度以上もあり、食欲は衰え、あの忌わしき病の床に再び就く様になりました。<br><br>それを見た舅達はそれ見た事かと早速医者にかかる様に勧めましたが、私は医療は絶対断り、ただ一人自分で自分を御浄霊しておりましたが、病勢は徐々に進行し本格的な喉頭結核となってしまいました。<br><br>私はつくづく吾が身の不運を思い暗憺の涙にくれました。<br><br>それは実兄が二年前シベリヤより帰り間もなく胸を煩い、あらゆる医療の甲斐もなく喉頭結核で亡くなっていますので、絶望感は余計に強かったわけであります。<br><br>そして最愛の妻子を残してこの壊死んでゆくのではないかと不吉な予感が次から次へと湧いて来るのでした。<br><br> この悲観のどん底に喘いでいた私に、あたかも雲を破って輝く太陽の光の如くに、頭に閃いたものがあります。<br><br>「そうだッ、自分は己に命のないところを、明主様によって御救いを頂きながら、何ら御神業の御手伝いをするでもなく、ただ一途に自己の為に汗して働いて、これがどうして御神意に添い奉り、大変の御守護を頂く事が出来ようや？ ああ、悪うございました、明主様どうぞお許し下さいませ。<br><br>今度こそは凡てをなげうち一意専心御報恩をさせて頂きます。<br><br>今一度御救い下さいませ」とハラハラと両額伝う涙を拭いもせず、東の方を向い、明主様に心からお詫びとお誓いを申し上げた私でございました。<br><br>「そうだ一切を捨てて救世の大御業に馳せ参じよう」と四年有半にわたり住みなれたこの家、この財産すべてを捨てよう。<br><br>それにもまして断腸の思いがするなれど、最愛の妻子との愛着の絆も断ち切ろう。<br><br>そして未だこのお道を知らない我が郷土の人々を救おう。<br><br>小乗愛を捨て、大乗道に生きようと決心しました時は、さしも心の曇りも晴れ晴れと、さわやかな、全く生まれ変った様な光明に全身が包まれるのをまざまざと感じました。<br><br> その夜妻に一切の覚悟を話し了解を求めましたが、いかに病気を治す為とはいえ二人の子供まで生ました仲を簡単に別れられましょうや。<br><br>「そんな事を言わないでもう一度思い直して下さい」と声涙共に繰返し繰返し申しましたが、一旦神にお誓い申し上げた決心は固より変るはずはありません。<br><br>義父は農協へ勤めておりましたが全くの無神論者で、今更何をか頼まんやとその翌朝実家へ静養に行かして頂く様お願いして歩くのも漸くの体を休み休み実家に辿り着きました。<br><br>兄に一切を話し了解を求めましたが中々承諾はしてくれませんでしたが、病気の為なら致し方ないと一切を許してくれました。<br><br>その後浄化は厳しくなり兄は心配しましたが、私は「このお道で必ず救われるから」と話し、かつ又信じ四、五日静養の後、再び島先生を訪れ私の決心を申し上げ、再浄化についてお伺い申し上げましたところ先生は藷々と「肺結核の様な命に関わる病気を御浄霊で治して頂いたのは御神業にお使いになられる為に神様が新しい生命を下さったのだから、現在の如き浄化が来るのも貴方のあの後の信仰状態では当り前の事です。<br><br>しかしそこ迄よく決心して来られましたね。<br><br>ただこの上は一心にお縋り申し上げましょう。<br><br>神様はキットキットお許し下さいますよ！」と力強くおっしゃって下さいました。<br><br>以後出張所で朝夕島先生より御浄霊頂き五日に一度支部へお参りし御浄霊を受けました。<br><br>御守護により一日一日と元気になり、さしもの喉頭の痛みの声喋れも全く快くなり、一カ月半後には自転車で病人の所へ御浄霊に廻れる様にもなり、実に思いがけなくも早く御蔭を頂き、本当に本当に、明主様有難うございました。<br><br>当時私は御恩返しに布教さして頂きたい気持に矢も楯もたまらず、体の元気は未だ未だ本当ではありませんでしたが、先生に「自分と同じ様に世間には病苦に呻吟している者が沢山あると思います。<br><br>それらの人々を一人でも多く、一日も早くお救いさして頂きたいと思います」と申し上げましたところ「それは大変結構です。<br><br>あなたが誠をもってお道に専心御奉仕すれば休もキットよくなられ、必ず多くの人をお導き出来るでしよう」と奥様共々心から喜んで下さいました。<br><br>私は早速御神前にて御奉仕をお誓い申し上げ、御守護を御願い申し上げました。<br><br>昭和二十五年八月七日大望抱き単身布教の壮途に上りました。<br><br>そこは出雲の最も奥地に当る中国山脈の中央の山村でした。<br><br>爾来御浄化を戴きつつも御守護の下微力ながら毎月三名五名と入信者も作らして頂き次第次第に発展し、遂に本年一月には有難くも、明主様より隆光中教会八川支部責任者のお許しを賜わりましたが、この時の感激は生涯忘れる事が出来ません。<br><br>それより二カ月後は又々大変な御神徳を頂きました。<br><br>それは夢の間も忘れる事の出来なかった三年前生別した最愛の妻子と再び一緒にして頂けた事でございます。<br><br>私は神様の大愛の限りも知らぬ深さ大いさに、後から後から止めどもなく溢れ出る涙をどうする事も出来ませんでした。<br><br>心中ある思いは「明主様有難うございます」の一語でありました。<br><br> 省みますれば昭和二十四年不治の難病にとりつかれ、二十五年二月入信、一時御恵み頂きつつも感謝報恩を忘れ私事に従事した為六月再浄化を頂き、かてて加えて骨肉の妻子と生別れ、生ける屍の身が絶対力の御加護により百人が百人、千人が千人、必ずダメになる喉頭結核を癒され、御神業従事のお許しまで賜わり、今年一月には支部長の光栄をかたじけのうし三月妻子と再会し、夫婦共に地上天国建設の御用をさして頂く今日を賜わりました事は、ひとえに明主様の御聖恩の賜物と、衷心感謝感涙の外はございません。<br><br> 明主様本当に有難うございました。<br><br>厚く厚く御礼申し上げます。<br><br> （昭和二十八年六月二十五日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Manifestação do Poder Divino</h2>
 <p>A fé professada em nossa Igreja difere substancialmente de todas as crenças que a precederam. Isso se deve ao fato de que, nas religiões estabelecidas, a relação entre Deus e o ser humano não se apresenta com a devida clareza. Certamente, não são poucos os exemplos, no Cristianismo e em outras inúmeras religiões, de milagres surpreendentes que se manifestam quando uma fé fervorosa é dedicada, permitindo que a Vontade Divina seja claramente percebida. Foi precisamente por essa razão que, ao longo de centenas e milhares de anos, elas puderam oferecer o pão espiritual a tantas almas. E não é preciso dizer que assim o é com as religiões que hoje alcançaram grande expressão.</p>
@@ -119,5 +271,48 @@ function toggleLang(lang) {
 <p>Dois meses depois, recebi outra imensa graça divina. Pude reencontrar minha amada esposa e filhas, das quais me separara havia três anos e de quem jamais me esquecera, nem mesmo em sonhos. Diante da profundeza e da imensidão do Grande Amor de Deus, não pude conter as lágrimas que brotavam incessantemente. Em meu coração, havia apenas uma palavra: "Meishu-Sama, muito obrigado".</p>
 <p>Recordando minha trajetória, em 1949, fui acometido por uma doença incurável; em fevereiro de 1950, ingressei na fé; após receber uma cura temporária, esquecendo-me da gratidão e da retribuição, dediquei-me a assuntos pessoais, o que me levou a uma repurificação em junho; some-se a isso a separação de minha própria carne e sangue, minha esposa e filhas; e eu, que era um cadáver ambulante, por meio da proteção do poder absoluto, fui curado da tuberculose laríngea, uma doença que ceifa a vida de cem em cem, de mil em mil pessoas. Tive a permissão de servir à Obra Divina; em janeiro deste ano, recebi a honra de ser nomeado dirigente de Ramo; e em março, reencontrei minha família. O fato de hoje poder servir, ao lado de minha esposa, à construção do Paraíso Terrestre é exclusivamente um presente da sagrada graça de Meishu-Sama, pelo qual não tenho palavras senão de profunda gratidão e lágrimas de emoção.</p>
 <p>Meishu-Sama, muito, muito obrigado. Expresso minha mais profunda gratidão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神徳斯くの如く験かなり 『栄光』221号、昭和28(1953)年8月12日発行 『世界救世教奇蹟集、昭和29年版新稿』昭和29(1954)年2月10日発行 本教の信仰は昔からあるあらゆるそれとは大いに異（ちが）っている。<br/><br/>というのは既成宗教においては、神と人との関係が余りハッキリしていないのである。<br/><br/>といっても彼（か）のキリスト教始め数ある宗教の中には、なるほど熱烈な信仰を捧げる時、驚くべき奇蹟が現われ、神意が明らかに感得される例もすくなくはないので、そのためにこそ何百何千年にわたって、多くの人達に魂の糧を与えて来たのである。<br/><br/>しかも今日大を成してる宗教程そうであるのは言うまでもない。<br/><br/> ところが本教においては、神と人との結び付きが余りにもハッキリしている。<br/><br/>何しろ現在のごとく紀元末ともいうべき地獄世界を救うとしたら、既成宗教以上の超宗教的力をもっていなくてはならないはずである。<br/><br/>従ってこの救世の力を発揮する基本条件としては、神と人との関係が非常にハッキリしていなければならない訳である。<br/><br/>なるほど難病が救われ、無い命が恵まれた以上、無限の感謝が湧くのは当然であって、それを具体的に表わしてこそ、神は第二の恵を与えられるのである。<br/><br/> そうしてそれに酬（むく）ゆると共に、恵まれた命は何がためかという事を考えてみるべきである。<br/><br/>もちろん御神業の御役に立てんがための神意である。<br/><br/>これについては先日も神様の事は、一切理屈に合わなければいけない。<br/><br/>理屈に外れるから再浄化が起ったり、命まで失くすのである。<br/><br/>それに引替え戴いた命は最早自分のものではない、神様の御手（みて）にある以上、救世のため力限りベストを尽くす。<br/><br/>そうしたなら再浄化などは消し飛んでしまうので、反対に歓喜幸福な境遇になるのは、絶対間違いないのである。<br/><br/> 従って不幸になるのも幸福になるのも、自分の心掛次第で、この点一分一厘も違いないのである。<br/><br/>それは左の御蔭話がよく表わしているから、読んだ人はなるほどと思うであろう。<br/><br/> 再浄化による喉頭結核を救われて 島根県仁多郡八川村 隆光中教会 為石貞良（31） 明主様の御救いにより九死に一生を頂きました御礼を申し上げます。<br/><br/>私はかつて年少の頃特に健康に恵まれ、十八歳の春、満蒙開拓青少年義勇軍に加わり、昭和二十年八月の終戦まで元気に軍務に従事し、同年十一月復員、翌年三月親のすすめに従ってさる農家へ婿養子として縁付いたものであります。<br/><br/>生来の健康のおかげで日々農業に精出し、つらい中にも又楽しい日を過ごし夫婦の仲にも二人の女児を恵まれ何一つ不自由のない生活を送っておりました。<br/><br/>ところが二十四年五月の農繁期頃より体に異常を感ずる様になりましたが、養子の事とて無理に無理を重ねていましたが、我慢しきれず医師の診察を受けましたところ「風邪がこじれたのだから大した事はない」との事でしたが、病状は益々悪くなる一方で、某病院にての珍斬の結果は「肺結核二期」との事で、それは二十四年十二月の事でありました。<br/><br/>ああ、難難辛苦の果ての復員後の幸福も束の間、業病中の業病、肺病に侵されようとは……その時医師いわく「あなたの病気は大分進行しているから治るかどうかは判らないが、現代医学は非常に進歩しているから、あらゆる療法を試みたらあるいは治るかもしれない。<br/><br/>云々」と誠に頼りない言葉でありました。<br/><br/>そして数日後是非と入院をすすめられましたが、その日の帰途大愛の御手は私如き者にもさしのべられたのであります。<br/><br/>それは車中にてフト実兄がこのお道の事を聞かしてくれたのであります。<br/><br/>私は早速途中下車して木次町の島先生を訪ねました。<br/><br/>先生より種々のお話を承り又御神書等も拝見さして頂き、なぜかその時心に深く打たれるものがあり、長年求めていたものに今こそ掴ったという様な感が致しました。<br/><br/>早速御浄霊をお願いしましたら、先生は私の頭に向って手を翳しておられるのです。<br/><br/>こんな事をして病気が治るものかと思いましたが、黙って御浄霊を頂く内に、やがて全身の御浄霊を終る頃には何とも言えないよい気持が致し一時でも疑った事が恥ずかしくなり、そして心から一日も早く健康にして頂けます様にと御祈り致しました。<br/><br/>先生がおっしゃるには「あなたの病気は必ず治ります！」とはっきり申されました。<br/><br/>その時の嬉しさは今なお忘れる事は出来ません。<br/><br/>この日を境に私のすべては一変し出しました。<br/><br/>先ず何よりも心に大きな希望が湧き、医学その他の療法はすべて捨てて御浄霊一すじにお縋り申し上げたのであります。<br/><br/>毎日雨の日も雪の日も五里の道を汽車で通いました。<br/><br/>はじめは反対であった舅達も私が次第に快くなってゆくのを見て少しずつ信ずる様になりましたが、肝腎要の医学の誤謬、薬毒の恐ろしさという事が分らず度々注射をすすめるのにはホトホト困りました。<br/><br/>翌年二月五日待ちに待ったお守様を拝受致しましたが、この日の感激は一生忘れる事は出来ません。<br/><br/>その後健康状態もどんどん良くなって行き、私の信仰熱もいやが上にも高まって行き、入信四日目にはもう、二女美千代の急性肺炎を救わせて頂き、いよいよお道に絶対的信念を持つ様になりました。<br/><br/>それから二、三カ月続けて御参りして御浄霊頂く内に病気症状はどこへか消えてしまいすっかり元気になり、時あたかも農家は田植の準備で多忙となり、まだ重作業は早すざるとは思いましたが、村でも大百姓であり、家でも一番働かなくてはならぬ体であり、又養子というひけ目もあり、無理と知りつつも毎日鋤鍬を持って働きました。<br/><br/>幸いにも御守護により無事田植を終りホッと一息ついた頃より再び咳と痰が猛烈に出始め、剰え喉頭が痛み、声はかすれ、熱も三十八、九度以上もあり、食欲は衰え、あの忌わしき病の床に再び就く様になりました。<br/><br/>それを見た舅達はそれ見た事かと早速医者にかかる様に勧めましたが、私は医療は絶対断り、ただ一人自分で自分を御浄霊しておりましたが、病勢は徐々に進行し本格的な喉頭結核となってしまいました。<br/><br/>私はつくづく吾が身の不運を思い暗憺の涙にくれました。<br/><br/>それは実兄が二年前シベリヤより帰り間もなく胸を煩い、あらゆる医療の甲斐もなく喉頭結核で亡くなっていますので、絶望感は余計に強かったわけであります。<br/><br/>そして最愛の妻子を残してこの壊死んでゆくのではないかと不吉な予感が次から次へと湧いて来るのでした。<br/><br/> この悲観のどん底に喘いでいた私に、あたかも雲を破って輝く太陽の光の如くに、頭に閃いたものがあります。<br/><br/>「そうだッ、自分は己に命のないところを、明主様によって御救いを頂きながら、何ら御神業の御手伝いをするでもなく、ただ一途に自己の為に汗して働いて、これがどうして御神意に添い奉り、大変の御守護を頂く事が出来ようや？ ああ、悪うございました、明主様どうぞお許し下さいませ。<br/><br/>今度こそは凡てをなげうち一意専心御報恩をさせて頂きます。<br/><br/>今一度御救い下さいませ」とハラハラと両額伝う涙を拭いもせず、東の方を向い、明主様に心からお詫びとお誓いを申し上げた私でございました。<br/><br/>「そうだ一切を捨てて救世の大御業に馳せ参じよう」と四年有半にわたり住みなれたこの家、この財産すべてを捨てよう。<br/><br/>それにもまして断腸の思いがするなれど、最愛の妻子との愛着の絆も断ち切ろう。<br/><br/>そして未だこのお道を知らない我が郷土の人々を救おう。<br/><br/>小乗愛を捨て、大乗道に生きようと決心しました時は、さしも心の曇りも晴れ晴れと、さわやかな、全く生まれ変った様な光明に全身が包まれるのをまざまざと感じました。<br/><br/> その夜妻に一切の覚悟を話し了解を求めましたが、いかに病気を治す為とはいえ二人の子供まで生ました仲を簡単に別れられましょうや。<br/><br/>「そんな事を言わないでもう一度思い直して下さい」と声涙共に繰返し繰返し申しましたが、一旦神にお誓い申し上げた決心は固より変るはずはありません。<br/><br/>義父は農協へ勤めておりましたが全くの無神論者で、今更何をか頼まんやとその翌朝実家へ静養に行かして頂く様お願いして歩くのも漸くの体を休み休み実家に辿り着きました。<br/><br/>兄に一切を話し了解を求めましたが中々承諾はしてくれませんでしたが、病気の為なら致し方ないと一切を許してくれました。<br/><br/>その後浄化は厳しくなり兄は心配しましたが、私は「このお道で必ず救われるから」と話し、かつ又信じ四、五日静養の後、再び島先生を訪れ私の決心を申し上げ、再浄化についてお伺い申し上げましたところ先生は藷々と「肺結核の様な命に関わる病気を御浄霊で治して頂いたのは御神業にお使いになられる為に神様が新しい生命を下さったのだから、現在の如き浄化が来るのも貴方のあの後の信仰状態では当り前の事です。<br/><br/>しかしそこ迄よく決心して来られましたね。<br/><br/>ただこの上は一心にお縋り申し上げましょう。<br/><br/>神様はキットキットお許し下さいますよ！」と力強くおっしゃって下さいました。<br/><br/>以後出張所で朝夕島先生より御浄霊頂き五日に一度支部へお参りし御浄霊を受けました。<br/><br/>御守護により一日一日と元気になり、さしもの喉頭の痛みの声喋れも全く快くなり、一カ月半後には自転車で病人の所へ御浄霊に廻れる様にもなり、実に思いがけなくも早く御蔭を頂き、本当に本当に、明主様有難うございました。<br/><br/>当時私は御恩返しに布教さして頂きたい気持に矢も楯もたまらず、体の元気は未だ未だ本当ではありませんでしたが、先生に「自分と同じ様に世間には病苦に呻吟している者が沢山あると思います。<br/><br/>それらの人々を一人でも多く、一日も早くお救いさして頂きたいと思います」と申し上げましたところ「それは大変結構です。<br/><br/>あなたが誠をもってお道に専心御奉仕すれば休もキットよくなられ、必ず多くの人をお導き出来るでしよう」と奥様共々心から喜んで下さいました。<br/><br/>私は早速御神前にて御奉仕をお誓い申し上げ、御守護を御願い申し上げました。<br/><br/>昭和二十五年八月七日大望抱き単身布教の壮途に上りました。<br/><br/>そこは出雲の最も奥地に当る中国山脈の中央の山村でした。<br/><br/>爾来御浄化を戴きつつも御守護の下微力ながら毎月三名五名と入信者も作らして頂き次第次第に発展し、遂に本年一月には有難くも、明主様より隆光中教会八川支部責任者のお許しを賜わりましたが、この時の感激は生涯忘れる事が出来ません。<br/><br/>それより二カ月後は又々大変な御神徳を頂きました。<br/><br/>それは夢の間も忘れる事の出来なかった三年前生別した最愛の妻子と再び一緒にして頂けた事でございます。<br/><br/>私は神様の大愛の限りも知らぬ深さ大いさに、後から後から止めどもなく溢れ出る涙をどうする事も出来ませんでした。<br/><br/>心中ある思いは「明主様有難うございます」の一語でありました。<br/><br/> 省みますれば昭和二十四年不治の難病にとりつかれ、二十五年二月入信、一時御恵み頂きつつも感謝報恩を忘れ私事に従事した為六月再浄化を頂き、かてて加えて骨肉の妻子と生別れ、生ける屍の身が絶対力の御加護により百人が百人、千人が千人、必ずダメになる喉頭結核を癒され、御神業従事のお許しまで賜わり、今年一月には支部長の光栄をかたじけのうし三月妻子と再会し、夫婦共に地上天国建設の御用をさして頂く今日を賜わりました事は、ひとえに明主様の御聖恩の賜物と、衷心感謝感涙の外はございません。<br/><br/> 明主様本当に有難うございました。<br/><br/>厚く厚く御礼申し上げます。<br/><br/> （昭和二十八年六月二十五日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

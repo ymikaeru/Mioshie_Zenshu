@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qgonen05</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 五年間の肺病と腎臓病が快癒 『結核の革命的療法』昭和26(1951)年8月15日発行 『結核信仰療法』昭和27(1952)年12月1日発行 埼玉県 更生中教会 大木照子（30） 昭和十九年五月御浄霊を頂いてより今日迄、一日として忘れる事の出来ない今日ある我身を思いますと、感謝感激でいっぱいでございます。<br><br>顧みますれば、五年間の本当に長い間の病床生活でございました。<br><br>希望に燃えて学窓を出たはずの私は間もなく急性腎臓炎によって、一年程塩絶ちをしております中、ある日お風呂に入っているとひどい咳と共に血の塊が出たのでした。<br><br>その時の驚きようといったらありません。<br><br>肺が悪いとの医者の診断に本当にがっかり致しました。<br><br>それからはずっと安静にしておりましたが、痰に血筋の混るのがどうしてもとれません。<br><br>少しよくなったと思っていますと喀血があって、又々安静を続けなければなりませんでした。<br><br>その間最もつらかったのは、胃腸がすっかり悪くなって、御浄霊を頂く前の一年程は流動食のような食事しかとれませんでしたのと肩の凝りでございました。<br><br>肩は大きな石を乗せられたような重さで箸を持つ事も、本を読む事も人様とお話する事も出来ない程で、ありとあらゆる手当を致しましたが一向に良くなりません。<br><br>よく母に「昔聖人が手を触れただけで病人を治したという話のように、私の肩も手を触れただけで拭ったように軽くして下さる御方はないかしら」と言ったものでした。<br><br>しかし夢のような空想が実現したのでございます。<br><br>この上もない偉大なるお力にお縋り出来る時が来たのです。<br><br> 父の知人よりこの有難い光明如来様の事をお聞きして早速お願いして御浄霊を頂きましたところ、何と驚いた事でございましょう。<br><br>たった一度の御浄霊であれ程長年苦しんだ肩がすっかり軽くなったのです。<br><br>それと同時に一年も流動食のような物しか頂いてないお腹に普通の御飯を頂いてみましたが、しかも先生のおっしゃるままに天婦羅を沢山頂いてどうもないのです。<br><br>遂にその晩は休む前にお腹が空いてもう一度お食事を頂いた程でした。<br><br>その時の嬉しさ喜び何と御礼申上げてよいのかわかりません。<br><br>未だにその時の感激は忘れる事が出来ません。<br><br>悩みの種の喀血も御浄霊一週間目に血の塊がポンと一つ出て、それきり今日迄血の色を見た事がありません。<br><br> それからは日に日によくして頂いて、一週間目に外に出られるようになりました。<br><br>長い間の病床生活に呆き呆きしていた私は嬉しくてたまりません。<br><br>外へ出ますと近所の方の評判になってしまいました。<br><br>もう詳しいお話をしなくとも皆様が感激して是非そういう有難いお力にお縋りしたいとおっしゃって随分大勢の方がお救い頂きました。<br><br>それ以来下痢と咳の御浄化を何回か頂きましたが、その都度順調によくして頂いて、一昨年結婚、昨年三月には子供迄授りまして、今では毎日元気に幸せな日を送らせて頂いております。<br><br>本当にあれ程酷かった体をこんなにもよくして下すった明主様の有難い限りない御恩に報ゆべく、この命を続く限り地上天国建設の御役にたたせて頂きたいと願って、微力ながらお尽しさせて頂いております。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Cura de uma Enfermidade Pulmonar e Renal de Cinco Anos</h2>
 <p>Publicado em "A Terapia Revolucionária da Tuberculose", 15 de agosto de 1951
@@ -102,5 +257,48 @@ Igreja Kosei-chu, Província de Saitama</p>
 <p>Quanto à hemoptise, a raiz de minhas aflições, após uma semana recebendo Johrei, expeli um último coágulo de sangue e, desde então, nunca mais vi vestígio algum.</p>
 <p>A partir daquele dia, minha recuperação progrediu visivelmente e, em apenas uma semana, já podia sair de casa. Para mim, que estava exausta de uma longa vida reclusa ao leito, a alegria era imensa. Minha saída à rua causou grande comoção entre os vizinhos. Sem que eu precisasse entrar em detalhes, todos se sentiram tocados e expressaram o desejo de também se ampararem nesse poder sagrado. Por essa via, muitas pessoas receberam a salvação.</p>
 <p>Desde então, passei por diversas purificações, manifestadas por meio de diarreia e tosse, mas, a cada uma delas, minha recuperação foi plena e tranquila. Há dois anos, casei-me e, em março do ano passado, fui abençoada com o nascimento de um filho. Hoje, vivo dias felizes e plenos de saúde. A fim de retribuir a infinita e sagrada graça de Meishu-Sama, que restaurou de forma tão completa um corpo que se encontrava em estado tão grave, desejo, enquanto viver, dedicar-me à nobre Obra de construção do Paraíso Terrestre e, ainda que minhas forças sejam modestas, tenho me empenhado em servir da melhor maneira possível.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 五年間の肺病と腎臓病が快癒 『結核の革命的療法』昭和26(1951)年8月15日発行 『結核信仰療法』昭和27(1952)年12月1日発行 埼玉県 更生中教会 大木照子（30） 昭和十九年五月御浄霊を頂いてより今日迄、一日として忘れる事の出来ない今日ある我身を思いますと、感謝感激でいっぱいでございます。<br/><br/>顧みますれば、五年間の本当に長い間の病床生活でございました。<br/><br/>希望に燃えて学窓を出たはずの私は間もなく急性腎臓炎によって、一年程塩絶ちをしております中、ある日お風呂に入っているとひどい咳と共に血の塊が出たのでした。<br/><br/>その時の驚きようといったらありません。<br/><br/>肺が悪いとの医者の診断に本当にがっかり致しました。<br/><br/>それからはずっと安静にしておりましたが、痰に血筋の混るのがどうしてもとれません。<br/><br/>少しよくなったと思っていますと喀血があって、又々安静を続けなければなりませんでした。<br/><br/>その間最もつらかったのは、胃腸がすっかり悪くなって、御浄霊を頂く前の一年程は流動食のような食事しかとれませんでしたのと肩の凝りでございました。<br/><br/>肩は大きな石を乗せられたような重さで箸を持つ事も、本を読む事も人様とお話する事も出来ない程で、ありとあらゆる手当を致しましたが一向に良くなりません。<br/><br/>よく母に「昔聖人が手を触れただけで病人を治したという話のように、私の肩も手を触れただけで拭ったように軽くして下さる御方はないかしら」と言ったものでした。<br/><br/>しかし夢のような空想が実現したのでございます。<br/><br/>この上もない偉大なるお力にお縋り出来る時が来たのです。<br/><br/> 父の知人よりこの有難い光明如来様の事をお聞きして早速お願いして御浄霊を頂きましたところ、何と驚いた事でございましょう。<br/><br/>たった一度の御浄霊であれ程長年苦しんだ肩がすっかり軽くなったのです。<br/><br/>それと同時に一年も流動食のような物しか頂いてないお腹に普通の御飯を頂いてみましたが、しかも先生のおっしゃるままに天婦羅を沢山頂いてどうもないのです。<br/><br/>遂にその晩は休む前にお腹が空いてもう一度お食事を頂いた程でした。<br/><br/>その時の嬉しさ喜び何と御礼申上げてよいのかわかりません。<br/><br/>未だにその時の感激は忘れる事が出来ません。<br/><br/>悩みの種の喀血も御浄霊一週間目に血の塊がポンと一つ出て、それきり今日迄血の色を見た事がありません。<br/><br/> それからは日に日によくして頂いて、一週間目に外に出られるようになりました。<br/><br/>長い間の病床生活に呆き呆きしていた私は嬉しくてたまりません。<br/><br/>外へ出ますと近所の方の評判になってしまいました。<br/><br/>もう詳しいお話をしなくとも皆様が感激して是非そういう有難いお力にお縋りしたいとおっしゃって随分大勢の方がお救い頂きました。<br/><br/>それ以来下痢と咳の御浄化を何回か頂きましたが、その都度順調によくして頂いて、一昨年結婚、昨年三月には子供迄授りまして、今では毎日元気に幸せな日を送らせて頂いております。<br/><br/>本当にあれ程酷かった体をこんなにもよくして下すった明主様の有難い限りない御恩に報ゆべく、この命を続く限り地上天国建設の御役にたたせて頂きたいと願って、微力ながらお尽しさせて頂いております。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

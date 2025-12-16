@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>bunkai09</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 妙智の鍵 光明分会『会報』２月号、昭和24(1949)年2月25日発行 ――善言讃詞または祝詞によって救われた霊で戒名のない場合、非常に僧侶を嫌うものに対して、戒名をこちらのほうで作らしていただくわけにはいかないでしょうか。<br><br>もしよろしいようでございましたらどのように書いたらよろしいのでございましょうか。<br><br> 霊界には未だ仏界があるから従来通り僧侶にお願いして戒名をつけること。<br><br> ――一人の死んだ場合、剃刀などの刃物類を白紙に包んで枕元に置き、着物を左前に着せ、一膳飯に一本箸を立て、あるいは枕団子を供える風習がありますが、これらを霊的に見ていかなるわけがあるのでございましょうか。<br><br> 刃物類を置くのは昔から魔除けとされており動物霊が憑依するのを防ぐためであるが、むしろそれよりも生きている人間のほうの気休めが多いでしょう。<br><br>着物を左前に着せるのは霊界と現界は逆であるからです。<br><br> 一膳飯に一本箸を立てるのは、死人は「体」がないから一本箸で結構。<br><br>生きているときは霊、体と二本になる。<br><br>一膳飯の理由は霊は一日三粒で足りるから一膳飯を供えればたいへん供養になる。<br><br>枕団子はいかなる貧者といえども供養ができるからお供えをして霊を慰める。<br><br> ――刀剣類の祟りが各地に続出いたしておりますが、この場合刀剣類をいかが処分いたせばよろしいのでございましょうか。<br><br> 剣によって人を殺した場合、殺された霊は多くその刀に憑依する（人に憑依することもある）が、この場合善言讃詞を三回奉誦して幽世大神様にお願いすればよろしい。<br><br> ――分霊と化身について御教えをお願いいたします。<br><br> 分霊は人間にはなく神にのみあり、直系または傍系がある。<br><br>化身は仏である、夜の世界において神が救いを垂れさせ給うのに仏になられる。<br><br> ――和魂（にぎみたま）、奇魂（くしみたま）、荒魂（あらみたま）、幸魂（さちみたま）について御教えをお願い申し上げます。<br><br> 神道の言葉で魂を分けると右の四つになる。<br><br>和魂は人と親和する魂、幸魂は人に幸福を与える魂である。<br><br>荒魂は勇気である。<br><br>奇魂は智意を司る魂である。<br><br>なお、荒和魂は厳（いづ）の魂といい、幸奇魂は瑞（みず）の魂といい、この厳瑞の魂が調和されてイヅノメすなわち真の大和魂となる。<br><br> ――鎌風（なる）または「かまいたち」は霊的にいかなる理由があるものでございましょうか。<br><br> たぶん龍神の祟りでしょう。<br><br> ――幽魂の幽界における姿はいかなるものでございましょうか。<br><br> 人間と同じような姿です。<br><br> ――よく霊が現界のことについて何年何月何日と申しますが、現界に年月日がございますように霊界においても年月日がございましょうか。<br><br> 霊界には年月日はない。<br><br>霊がそう言うのは現界人に解りやすくそう言うのである。<br><br> ――神力、金剛力、観音力について御教えをお願い申し上げます。<br><br> 観音力は仏力であり月の力である。<br><br>神力、金剛力は日の力である。<br><br> ――胎臓界と金剛界について御教えをお願い申し上げます。<br><br> 胎臓界は仏界であり金剛界は神界である。<br><br> ――臍の緒は各地方の習慣にて、埋めたり焼いたりまたは保管し母親の死後一緒に処分したりいたしますが、正しい処分法を御教え賜りたくお願い申し上げます。<br><br> 生年月日と時間まで詳しく書き保存しておき、死とともに一緒に葬るのがよろしい。<br><br> ――人間が霊的に向上するに従って正守護神も向上するものでございましょうか、または交替するものでございましょうか。<br><br> 人間と同じようには向上しません、また交替もしません。<br><br> ――神、幽、現の関係を具体的に御教えをお願い申し上げます。<br><br> 神、幽、現界は神、仏、現界であり、五六七となる。<br><br> ――和歌山県のある信者が熱海へお詣りに参っている留守中、家族が仏前にごはんを三つお供えいたしましたところ、その留守中三日間とも、右の端の一つが消えてなくなりました、なにか霊的に意味がございましょうか。<br><br> 霊化したのでしょう。<br><br>祖霊はそうする力がありますし、また狐霊に頼んでさせる場合もあります。<br><br>祖霊の戒告でしょう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Esclarecimentos sobre o Mundo Espiritual</h2>
 <p><strong>Pergunta:</strong> No caso de um espírito salvo pela Oração Amatsu Norito que não possua nome póstumo e nutra grande aversão por sacerdotes, seria possível que nós mesmos lhe concedêssemos um nome? Se for o caso, como deveríamos proceder?</p>
@@ -121,5 +273,48 @@ function toggleLang(lang) {
 <p><strong>Resposta:</strong> A relação entre o Divino, o Espiritual e o Material corresponde à de Deus, Buda e o Mundo Material, que se traduz na sequência cinco-seis-sete.</p>
 <p><strong>Pergunta:</strong> Enquanto um membro da província de Wakayama se encontrava em peregrinação a Atami, sua família ofereceu três tigelas de arroz ao altar. Durante os três dias de sua ausência, a tigela da extremidade direita desapareceu por completo. Haveria algum significado espiritual nesse ocorrido?</p>
 <p><strong>Resposta:</strong> O arroz deve ter se espiritualizado. Os espíritos ancestrais possuem o poder de fazer isso, ou podem, ainda, solicitar a um espírito de raposa que o faça. Trata-se, provavelmente, de uma advertência dos antepassados.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 妙智の鍵 光明分会『会報』２月号、昭和24(1949)年2月25日発行 ――善言讃詞または祝詞によって救われた霊で戒名のない場合、非常に僧侶を嫌うものに対して、戒名をこちらのほうで作らしていただくわけにはいかないでしょうか。<br/><br/>もしよろしいようでございましたらどのように書いたらよろしいのでございましょうか。<br/><br/> 霊界には未だ仏界があるから従来通り僧侶にお願いして戒名をつけること。<br/><br/> ――一人の死んだ場合、剃刀などの刃物類を白紙に包んで枕元に置き、着物を左前に着せ、一膳飯に一本箸を立て、あるいは枕団子を供える風習がありますが、これらを霊的に見ていかなるわけがあるのでございましょうか。<br/><br/> 刃物類を置くのは昔から魔除けとされており動物霊が憑依するのを防ぐためであるが、むしろそれよりも生きている人間のほうの気休めが多いでしょう。<br/><br/>着物を左前に着せるのは霊界と現界は逆であるからです。<br/><br/> 一膳飯に一本箸を立てるのは、死人は「体」がないから一本箸で結構。<br/><br/>生きているときは霊、体と二本になる。<br/><br/>一膳飯の理由は霊は一日三粒で足りるから一膳飯を供えればたいへん供養になる。<br/><br/>枕団子はいかなる貧者といえども供養ができるからお供えをして霊を慰める。<br/><br/> ――刀剣類の祟りが各地に続出いたしておりますが、この場合刀剣類をいかが処分いたせばよろしいのでございましょうか。<br/><br/> 剣によって人を殺した場合、殺された霊は多くその刀に憑依する（人に憑依することもある）が、この場合善言讃詞を三回奉誦して幽世大神様にお願いすればよろしい。<br/><br/> ――分霊と化身について御教えをお願いいたします。<br/><br/> 分霊は人間にはなく神にのみあり、直系または傍系がある。<br/><br/>化身は仏である、夜の世界において神が救いを垂れさせ給うのに仏になられる。<br/><br/> ――和魂（にぎみたま）、奇魂（くしみたま）、荒魂（あらみたま）、幸魂（さちみたま）について御教えをお願い申し上げます。<br/><br/> 神道の言葉で魂を分けると右の四つになる。<br/><br/>和魂は人と親和する魂、幸魂は人に幸福を与える魂である。<br/><br/>荒魂は勇気である。<br/><br/>奇魂は智意を司る魂である。<br/><br/>なお、荒和魂は厳（いづ）の魂といい、幸奇魂は瑞（みず）の魂といい、この厳瑞の魂が調和されてイヅノメすなわち真の大和魂となる。<br/><br/> ――鎌風（なる）または「かまいたち」は霊的にいかなる理由があるものでございましょうか。<br/><br/> たぶん龍神の祟りでしょう。<br/><br/> ――幽魂の幽界における姿はいかなるものでございましょうか。<br/><br/> 人間と同じような姿です。<br/><br/> ――よく霊が現界のことについて何年何月何日と申しますが、現界に年月日がございますように霊界においても年月日がございましょうか。<br/><br/> 霊界には年月日はない。<br/><br/>霊がそう言うのは現界人に解りやすくそう言うのである。<br/><br/> ――神力、金剛力、観音力について御教えをお願い申し上げます。<br/><br/> 観音力は仏力であり月の力である。<br/><br/>神力、金剛力は日の力である。<br/><br/> ――胎臓界と金剛界について御教えをお願い申し上げます。<br/><br/> 胎臓界は仏界であり金剛界は神界である。<br/><br/> ――臍の緒は各地方の習慣にて、埋めたり焼いたりまたは保管し母親の死後一緒に処分したりいたしますが、正しい処分法を御教え賜りたくお願い申し上げます。<br/><br/> 生年月日と時間まで詳しく書き保存しておき、死とともに一緒に葬るのがよろしい。<br/><br/> ――人間が霊的に向上するに従って正守護神も向上するものでございましょうか、または交替するものでございましょうか。<br/><br/> 人間と同じようには向上しません、また交替もしません。<br/><br/> ――神、幽、現の関係を具体的に御教えをお願い申し上げます。<br/><br/> 神、幽、現界は神、仏、現界であり、五六七となる。<br/><br/> ――和歌山県のある信者が熱海へお詣りに参っている留守中、家族が仏前にごはんを三つお供えいたしましたところ、その留守中三日間とも、右の端の一つが消えてなくなりました、なにか霊的に意味がございましょうか。<br/><br/> 霊化したのでしょう。<br/><br/>祖霊はそうする力がありますし、また狐霊に頼んでさせる場合もあります。<br/><br/>祖霊の戒告でしょう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>iju10107</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇 （十） ８ 107-123 転生・再生 107 双生児は不運 双生児の相互の霊的関係についてお伺い致します。<br><br> 非常に親しくしたものが再生した時双子となる。<br><br>女と女の双児は女と女が親しくしたもので、男と女の場合は情死者である。<br><br>双児は運が悪い方が多い。<br><br>その時代の罪が残っている。<br><br>四ツ子、五ツ子は畜生道へ堕ちたのが生れたもので、その時の習性が残っている。<br><br>（S24） 108 葡萄状妊娠の原因 主人公は蛙の生れ代りである。<br><br>（S24. 8. 6） 109 両性児（卵） 男になった鶏の両性であろう。<br><br>女が済んで男になった。<br><br>お腹に宿ってから、精虫が男女混合した訳である。<br><br>精虫が合併、密着した。<br><br>（S24） 110 一卵性・二卵性双生児 同じ双生児でも一卵性双生児と二卵性双生児とは大変違うように見受けられますが、霊的にどのような差異があるもので御座いましょうか。<br><br>御伺い申し上げます。<br><br> 霊的差異はある。<br><br>一卵性は血統であり、他人と親しいのは生れ代って二卵性となる。<br><br>双生児は情死などしたのが多い。<br><br>（S25. 2.22） 111 情死者の再生（密着） 情死の霊の生れ代りで、抱合い心中は前で密着する。<br><br>離れた心中は蔽いかぶさる型、背中合せもある。<br><br>背中合せは愛が薄い方であるから、どっちかが娑婆に執着があるから、娑婆が恋しいに違いないから、早く生れ易い。<br><br>（S23） 112 双生児の切離し 足は押してみて痛い所があれば単なる毒素である。<br><br>毒素の浄化も足りない。<br><br> 一方が死ぬ時に、足の方は治るが、臍は絶望（だめ）と思う。<br><br>くっついて生れるのもある。<br><br>（S23） 113 卵巣より鬼子現わる 去る五月二十九日、西日本新聞の記事に、「宮崎市吉村町（農業）野中リマ（七十二歳）は、十六日午後同市橘通り伊地知婦人科病院で手術後卵巣から真黒な頭髪と眼球に鬼歯二本を持った長さ七糎、幅四糎の顔をした重さ一貫目の鬼子が現われた。<br><br>手術後経過良好であるが、二十年前にシコリが出来て手術を奨められたが、そのままにしていたもので、この鬼子は二十年間胎内にいたわけである」伊地知医博談「これは人間の出来そこないで、専門語では卵巣奇形腫と言い、卵巣内で未分解細胞が異常分裂をはじめた矢先、更年期の旺盛脂肪間取と相まち、腫れ上って生じたもので、一万人に一人位の珍しいものです」とありました。<br><br>これについて御教示お願い申し上げます。<br><br> これは解釈がちょっと変である。<br><br>無論元妊娠したもので、相当発育したもので、ただ局部的に発育したものである。<br><br> 宿ったものが前世の罪があった。<br><br>その罪のため生れる事が出来なかった。<br><br>そして、そういうものだけが発育したのである。<br><br> 二十年間胎内にいたのは事実である。<br><br>（S24. 6. 2） 114 前置胎盤、奇形児、（熱愛の猫生む事あり） 前置胎盤について御説明をお願い申します。<br><br> これはよく大出血の原因になるなどというが、浄霊をすれば何の心配もない。<br><br>逆さ児でも浄霊によって訳なく治る。<br><br>故に前置胎盤といっても大したことでなく、子供は無事に生れる。<br><br> 葡萄状鬼胎というのがあるが、これは母親が動物から人間に転生したためで、動物時代の習性即ち沢山子供を孕む癖が残っている訳である。<br><br>双子などもそうである。<br><br>奇形児などは怨みを受けた霊が奇形として生れ代ってる場合もある。<br><br> また、猫を非常に可愛がる人があるが、これは間違っている。<br><br>猫が人間の子としての扱いを受ける事になるので、猫が非常に慕い、その人の子として生れる事もある。<br><br>それは子のように可愛がる故に、子のような関係になってしまうのである。<br><br>要するに何事でも度を越すといけないのである。<br><br>（S23） 115 複数児出産 最近私の地方で双生児が沢山生れましたが、霊的に何か原因がありましょうか。<br><br>また、男と男、女と女、男と女と云うように性が一致する場合と異なる場合とあります。<br><br>また、外国には六人も七人も子供の生れた例があります。<br><br>いかなる原因によりましょうか。<br><br> 動物再生の人はその習性が残っている。<br><br>大抵犬が多い。<br><br>（S24.11.26） 116 双生児（男女） 親戚の者に男子と女子の双生児が生れましたが、このような場合何か祖先に因縁があるのでございましょうか。<br><br>また、他の霊的関係によるものでございましょうか。<br><br> 二子、三ツ子、四ツ子などは四足に生れたものが人間に生れてくる時、動物霊の時の性能が残っている。<br><br>多産性が残っている。<br><br>も一つは心中とか、非常に愛し合ったものが死ぬとかいったものが、その想念がどこまでも続いているためである。<br><br>離れられないような愛の執着と、現世への執着である。<br><br> 117 双生児 双生児の霊的関係について―― 双生児は男女関係が多いが、殆ど心中もので、その他極く親しい親友等もある。<br><br> 三ツ子、四ツ子は違う。<br><br>前世動物時の習性である。<br><br>人間として一人生むのが本当である。<br><br>（S24. 2. 4） 118 多生児 双子、時には三ツ子、四ツ子等が生れますのはいかなる因縁によるので御座いましょうか。<br><br>右、御教示御願い申し上げます。<br><br> （動物の習性が残っている）（S23.10.18） 119 獣面の生児 榛原郡五和村のある寺の住職の妻が、二月初旬に、お産は軽く済んだそうで御座いますが、生れた子供は人間でなく獣でもなく、上半身に黒い毛が生えて熊の形で、口は耳元まで裂けております。<br><br>目は一つで顔の中心にありまして、下半身は人間の形で御座いました。<br><br>助産婦は驚き、その母親はなおさらびっくり致し、乳も呑ませずにおりましたそうで御座います。<br><br>そのためか子供は短時日にて死亡致しました様子で御座います。<br><br>これは何の再生で御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> 熊であろう。<br><br>霊界で浄化される場合、下の方から浄化されるものであるから、下半身が人間になり、未だ浄化される部分が残っている。<br><br>早く人間に生れたい（執着の）ために上半身が残った。<br><br>（完全でないうちに生れた）この家の祖先である。<br><br>人間に憑依したり、人間に生れたりする場合、上が人間になる。<br><br>（S24. 2.21） 120 葡萄子 妊娠による葡萄子とはどうして出来るものですか。<br><br>霊的の意味をお教え下さい。<br><br> 葡萄状鬼胎――これは前世に動物だったものが転生した時、前の世の動物性が残っているためである。<br><br> 動物の中、葡萄のように繋がって生れるものがあるが、それである。<br><br> 121 葡萄状鬼胎の原因 葡萄状鬼胎は霊的関係が御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> 動物から人間に転生したものである。<br><br>蛙だと思う。<br><br>蟇蛙の卵のようなものである。<br><br> （S24. 3. 1） 122 葡萄状鬼胎 葡萄状鬼胎とは体的の疾患でございましょうか。<br><br> 蛙の分子が残っている。<br><br>（S24. 7. 9） 123 葡萄状球菌 医学でいうところの「葡萄状球菌」について―― 黴菌が繋がっているから葡萄状球菌という。<br><br>（S24. 8.19）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de Teses de Jikan Okada – Pesquisa nos Ensinamentos: Ajuda. Pesquisa de Materiais: Arte Médica (X) 8 107-123 Renascimento e Reencarnação</h2>
 <h2>107 Gêmeos são desafortunados</h2>
@@ -141,5 +293,48 @@ function toggleLang(lang) {
 <h2>123 Estafilococo</h2>
 <p>Sobre o que a medicina denomina "estafilococo"...</p>
 <p>Como os micro-organismos se agrupam em formato de cacho de uva, recebem o nome de estafilococo. (S24. 8. 19)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇 （十） ８ 107-123 転生・再生 107 双生児は不運 双生児の相互の霊的関係についてお伺い致します。<br/><br/> 非常に親しくしたものが再生した時双子となる。<br/><br/>女と女の双児は女と女が親しくしたもので、男と女の場合は情死者である。<br/><br/>双児は運が悪い方が多い。<br/><br/>その時代の罪が残っている。<br/><br/>四ツ子、五ツ子は畜生道へ堕ちたのが生れたもので、その時の習性が残っている。<br/><br/>（S24） 108 葡萄状妊娠の原因 主人公は蛙の生れ代りである。<br/><br/>（S24. 8. 6） 109 両性児（卵） 男になった鶏の両性であろう。<br/><br/>女が済んで男になった。<br/><br/>お腹に宿ってから、精虫が男女混合した訳である。<br/><br/>精虫が合併、密着した。<br/><br/>（S24） 110 一卵性・二卵性双生児 同じ双生児でも一卵性双生児と二卵性双生児とは大変違うように見受けられますが、霊的にどのような差異があるもので御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 霊的差異はある。<br/><br/>一卵性は血統であり、他人と親しいのは生れ代って二卵性となる。<br/><br/>双生児は情死などしたのが多い。<br/><br/>（S25. 2.22） 111 情死者の再生（密着） 情死の霊の生れ代りで、抱合い心中は前で密着する。<br/><br/>離れた心中は蔽いかぶさる型、背中合せもある。<br/><br/>背中合せは愛が薄い方であるから、どっちかが娑婆に執着があるから、娑婆が恋しいに違いないから、早く生れ易い。<br/><br/>（S23） 112 双生児の切離し 足は押してみて痛い所があれば単なる毒素である。<br/><br/>毒素の浄化も足りない。<br/><br/> 一方が死ぬ時に、足の方は治るが、臍は絶望（だめ）と思う。<br/><br/>くっついて生れるのもある。<br/><br/>（S23） 113 卵巣より鬼子現わる 去る五月二十九日、西日本新聞の記事に、「宮崎市吉村町（農業）野中リマ（七十二歳）は、十六日午後同市橘通り伊地知婦人科病院で手術後卵巣から真黒な頭髪と眼球に鬼歯二本を持った長さ七糎、幅四糎の顔をした重さ一貫目の鬼子が現われた。<br/><br/>手術後経過良好であるが、二十年前にシコリが出来て手術を奨められたが、そのままにしていたもので、この鬼子は二十年間胎内にいたわけである」伊地知医博談「これは人間の出来そこないで、専門語では卵巣奇形腫と言い、卵巣内で未分解細胞が異常分裂をはじめた矢先、更年期の旺盛脂肪間取と相まち、腫れ上って生じたもので、一万人に一人位の珍しいものです」とありました。<br/><br/>これについて御教示お願い申し上げます。<br/><br/> これは解釈がちょっと変である。<br/><br/>無論元妊娠したもので、相当発育したもので、ただ局部的に発育したものである。<br/><br/> 宿ったものが前世の罪があった。<br/><br/>その罪のため生れる事が出来なかった。<br/><br/>そして、そういうものだけが発育したのである。<br/><br/> 二十年間胎内にいたのは事実である。<br/><br/>（S24. 6. 2） 114 前置胎盤、奇形児、（熱愛の猫生む事あり） 前置胎盤について御説明をお願い申します。<br/><br/> これはよく大出血の原因になるなどというが、浄霊をすれば何の心配もない。<br/><br/>逆さ児でも浄霊によって訳なく治る。<br/><br/>故に前置胎盤といっても大したことでなく、子供は無事に生れる。<br/><br/> 葡萄状鬼胎というのがあるが、これは母親が動物から人間に転生したためで、動物時代の習性即ち沢山子供を孕む癖が残っている訳である。<br/><br/>双子などもそうである。<br/><br/>奇形児などは怨みを受けた霊が奇形として生れ代ってる場合もある。<br/><br/> また、猫を非常に可愛がる人があるが、これは間違っている。<br/><br/>猫が人間の子としての扱いを受ける事になるので、猫が非常に慕い、その人の子として生れる事もある。<br/><br/>それは子のように可愛がる故に、子のような関係になってしまうのである。<br/><br/>要するに何事でも度を越すといけないのである。<br/><br/>（S23） 115 複数児出産 最近私の地方で双生児が沢山生れましたが、霊的に何か原因がありましょうか。<br/><br/>また、男と男、女と女、男と女と云うように性が一致する場合と異なる場合とあります。<br/><br/>また、外国には六人も七人も子供の生れた例があります。<br/><br/>いかなる原因によりましょうか。<br/><br/> 動物再生の人はその習性が残っている。<br/><br/>大抵犬が多い。<br/><br/>（S24.11.26） 116 双生児（男女） 親戚の者に男子と女子の双生児が生れましたが、このような場合何か祖先に因縁があるのでございましょうか。<br/><br/>また、他の霊的関係によるものでございましょうか。<br/><br/> 二子、三ツ子、四ツ子などは四足に生れたものが人間に生れてくる時、動物霊の時の性能が残っている。<br/><br/>多産性が残っている。<br/><br/>も一つは心中とか、非常に愛し合ったものが死ぬとかいったものが、その想念がどこまでも続いているためである。<br/><br/>離れられないような愛の執着と、現世への執着である。<br/><br/> 117 双生児 双生児の霊的関係について―― 双生児は男女関係が多いが、殆ど心中もので、その他極く親しい親友等もある。<br/><br/> 三ツ子、四ツ子は違う。<br/><br/>前世動物時の習性である。<br/><br/>人間として一人生むのが本当である。<br/><br/>（S24. 2. 4） 118 多生児 双子、時には三ツ子、四ツ子等が生れますのはいかなる因縁によるので御座いましょうか。<br/><br/>右、御教示御願い申し上げます。<br/><br/> （動物の習性が残っている）（S23.10.18） 119 獣面の生児 榛原郡五和村のある寺の住職の妻が、二月初旬に、お産は軽く済んだそうで御座いますが、生れた子供は人間でなく獣でもなく、上半身に黒い毛が生えて熊の形で、口は耳元まで裂けております。<br/><br/>目は一つで顔の中心にありまして、下半身は人間の形で御座いました。<br/><br/>助産婦は驚き、その母親はなおさらびっくり致し、乳も呑ませずにおりましたそうで御座います。<br/><br/>そのためか子供は短時日にて死亡致しました様子で御座います。<br/><br/>これは何の再生で御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> 熊であろう。<br/><br/>霊界で浄化される場合、下の方から浄化されるものであるから、下半身が人間になり、未だ浄化される部分が残っている。<br/><br/>早く人間に生れたい（執着の）ために上半身が残った。<br/><br/>（完全でないうちに生れた）この家の祖先である。<br/><br/>人間に憑依したり、人間に生れたりする場合、上が人間になる。<br/><br/>（S24. 2.21） 120 葡萄子 妊娠による葡萄子とはどうして出来るものですか。<br/><br/>霊的の意味をお教え下さい。<br/><br/> 葡萄状鬼胎――これは前世に動物だったものが転生した時、前の世の動物性が残っているためである。<br/><br/> 動物の中、葡萄のように繋がって生れるものがあるが、それである。<br/><br/> 121 葡萄状鬼胎の原因 葡萄状鬼胎は霊的関係が御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> 動物から人間に転生したものである。<br/><br/>蛙だと思う。<br/><br/>蟇蛙の卵のようなものである。<br/><br/> （S24. 3. 1） 122 葡萄状鬼胎 葡萄状鬼胎とは体的の疾患でございましょうか。<br/><br/> 蛙の分子が残っている。<br/><br/>（S24. 7. 9） 123 葡萄状球菌 医学でいうところの「葡萄状球菌」について―― 黴菌が繋がっているから葡萄状球菌という。<br/><br/>（S24. 8.19）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

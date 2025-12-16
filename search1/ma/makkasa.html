@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>makkasa</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： マッカーサー元帥 『栄光』102号、昭和26(1951)年5月2日発行 ダグラス・マッカーサー元帥、今回の解任については、各新聞挙（こぞ）ってその論評をかいたが、どれをみても肝腎な事が抜けているから、私はかかない訳にはゆかないので、ここにかく事にした。<br><br> これは今更言うまでもないが、マ元帥帰国に際し、元帥を敬慕の余り、歓送に集い寄る日本人の心情は、誰もが同じであろう。<br><br>恐らく今までにこのように国民挙って、心から敬愛した人は日本人中にさえ例をみないであろう。<br><br>全く、不思議な人である。<br><br>私としても嘗（かつ）てない気持が湧き起った。<br><br>それは今回の元帥解任の報を聴くや驚くと共に、目頭（めがしら）が熱くなるのを、どうする事も出来なかった。<br><br>今までにこんな例はない。<br><br>丸で親兄弟か、教えの師にでも別れるような、心（うら）寂しい感がしたのである。<br><br> ところで、この不思議な感情は、何がゆえに湧くのであろうかを考えてみた。<br><br>これが是非私の言いたい点である。<br><br>すなわち元帥程の大きな愛と、正義感の強い人は滅多にないからである。<br><br>しかも身は軍人でありながら、その優しさと奥床しさは、人を魅了せずにはおかない。<br><br>言わば古武士のごとき床しさもあれば、英雄ぶるような臭味は少しもなく、いかにも自由平等的である。<br><br>こう並べ立てればキリがないが、そういういい面は何が原因かというと、全く信仰から生まれた正義感の表われであろう。<br><br>というのは元帥は熱烈なクリスチャンである事で、時々出すメッセージの中にも、神という文字がよくそれを物語っている。<br><br> そんな訳で、元帥が日本にもうおらないと思うと、何かしら心寂しいものに襲われる。<br><br>頼るものがなくなったような寂しさだ。<br><br>というのは元帥の正を踏んで恐れずという、アノ固い正義感からであろう。<br><br>みなアメリカの利益のみを考えないで、日本を敗戦国と見なさない人類愛的、公平な扱い振りであるからである。<br><br>終戦後日本へ上陸された第一声の中にも、その事をよくうたわれていた。<br><br> ここで、ひるがえって考えてみると、日本の政治家である。<br><br>相当偉い人もあるにはあるが、何よりも一番欠けている点は、宗教心と正義感と公平とであろう。<br><br>特に公平が見られない。<br><br>どうも国民の利害よりも、自党の利害を先にする嫌いがある。<br><br>というのは政策の善いとか悪いとかは二の次で、反対党の言う事は是非善悪を問わず、何でもかんでも反対するという狭量さである。<br><br>これが現在最も政界の弊害であると思う。<br><br>だから元帥の遺された業績を紀〔記〕念として、この際日本の政治家も、断乎自覚されん事を望むや切なりで、あえて苦言を提する次第である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Propósito da Demissão do General MacArthur</h2>
 <p>Embora todos os jornais tenham publicado artigos sobre a recente demissão do General Douglas MacArthur, notei em todos eles a ausência de um ponto fundamental. Por esse motivo, senti-me na obrigação de discorrer sobre o assunto.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Por essa razão, o pensamento de que o General não está mais no Japão me assalta com uma sensação de desamparo. Essa melancolia provém, decerto, de seu inabalável senso de justiça, que o fazia trilhar o caminho do que é reto sem jamais temer. Sua conduta era humanitária e imparcial, pois ele não considerava apenas os interesses dos Estados Unidos nem tratava o Japão como uma nação simplesmente derrotada. Isso ficou bem claro em seu primeiro pronunciamento ao desembarcar no país após o fim da guerra.</p>
 <p>Em contrapartida, quando voltamos nosso olhar para os políticos japoneses, a realidade é outra. Embora existam entre eles homens de considerável mérito, o que mais lhes falta é, acima de tudo, espírito religioso, senso de justiça e imparcialidade. A imparcialidade, em particular, é raramente vista. Percebe-se uma inclinação para priorizar os interesses de seus próprios partidos em detrimento do bem-estar da nação. O mérito de uma política torna-se secundário diante de uma mesquinhez que os leva a se oporem a qualquer proposta da oposição, sem sequer avaliar se é boa ou má. Considero este o maior mal que aflige o nosso mundo político atualmente.</p>
 <p>Portanto, em memória do legado deixado pelo General, desejo ardentemente que os políticos do Japão despertem para uma firme autoconsciência. É por isso que ouso apresentar esta severa advertência.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： マッカーサー元帥 『栄光』102号、昭和26(1951)年5月2日発行 ダグラス・マッカーサー元帥、今回の解任については、各新聞挙（こぞ）ってその論評をかいたが、どれをみても肝腎な事が抜けているから、私はかかない訳にはゆかないので、ここにかく事にした。<br/><br/> これは今更言うまでもないが、マ元帥帰国に際し、元帥を敬慕の余り、歓送に集い寄る日本人の心情は、誰もが同じであろう。<br/><br/>恐らく今までにこのように国民挙って、心から敬愛した人は日本人中にさえ例をみないであろう。<br/><br/>全く、不思議な人である。<br/><br/>私としても嘗（かつ）てない気持が湧き起った。<br/><br/>それは今回の元帥解任の報を聴くや驚くと共に、目頭（めがしら）が熱くなるのを、どうする事も出来なかった。<br/><br/>今までにこんな例はない。<br/><br/>丸で親兄弟か、教えの師にでも別れるような、心（うら）寂しい感がしたのである。<br/><br/> ところで、この不思議な感情は、何がゆえに湧くのであろうかを考えてみた。<br/><br/>これが是非私の言いたい点である。<br/><br/>すなわち元帥程の大きな愛と、正義感の強い人は滅多にないからである。<br/><br/>しかも身は軍人でありながら、その優しさと奥床しさは、人を魅了せずにはおかない。<br/><br/>言わば古武士のごとき床しさもあれば、英雄ぶるような臭味は少しもなく、いかにも自由平等的である。<br/><br/>こう並べ立てればキリがないが、そういういい面は何が原因かというと、全く信仰から生まれた正義感の表われであろう。<br/><br/>というのは元帥は熱烈なクリスチャンである事で、時々出すメッセージの中にも、神という文字がよくそれを物語っている。<br/><br/> そんな訳で、元帥が日本にもうおらないと思うと、何かしら心寂しいものに襲われる。<br/><br/>頼るものがなくなったような寂しさだ。<br/><br/>というのは元帥の正を踏んで恐れずという、アノ固い正義感からであろう。<br/><br/>みなアメリカの利益のみを考えないで、日本を敗戦国と見なさない人類愛的、公平な扱い振りであるからである。<br/><br/>終戦後日本へ上陸された第一声の中にも、その事をよくうたわれていた。<br/><br/> ここで、ひるがえって考えてみると、日本の政治家である。<br/><br/>相当偉い人もあるにはあるが、何よりも一番欠けている点は、宗教心と正義感と公平とであろう。<br/><br/>特に公平が見られない。<br/><br/>どうも国民の利害よりも、自党の利害を先にする嫌いがある。<br/><br/>というのは政策の善いとか悪いとかは二の次で、反対党の言う事は是非善悪を問わず、何でもかんでも反対するという狭量さである。<br/><br/>これが現在最も政界の弊害であると思う。<br/><br/>だから元帥の遺された業績を紀〔記〕念として、この際日本の政治家も、断乎自覚されん事を望むや切なりで、あえて苦言を提する次第である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

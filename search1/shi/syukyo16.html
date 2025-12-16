@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>syukyo16</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教と自由 『光』45号、昭和25(1950)年1月14日発行 今日までの宗教をみると、宗教にはほとんど自由がないといってもいい、その多くは厳重なる戒律に縛られて身動きも出来ないくらいで、これが宗教本来の姿と思われて来た、そういうのを深く検討してみると全く信仰地獄の観がある。<br><br> そういう宗教に限って何をすべからずとか、何をすれば神様の御怒りに触れるとか罰が当るとかいう戒律づくめで、自由なゆとりのある生活など見る事が出来ない、そんな訳で神に対する観念は敬愛とか親しみなどはほとんどなく、ただ恐れ戦（おのの）いているばかりだ、そればかりではない、病気も貧乏も家庭不和も、年中付纒（つきまと）って放〔離〕れない、それらの苦悩に対しその教師はきっとこういう、「貴方の家には先祖から罪障が多い、苦しむのはそのためであるから一生懸命罪障消滅をしなければいけないが、貴方はいまだ信仰が足りないから苦しみが絶えないのだ」とこういうのである、中にはあまり苦しみがなくならないので信仰地獄から抜けようとすると、決って言う事には「貴方がこの信仰をやめれば、一家は必ず死に絶える」と脅すので抜ける事も出来ず、現状で我慢出来ず進退きわまるという人をよく見るのである。<br><br> 信仰の目的は、天国的歓喜の生活者となるのであるに関わらず、右のごとき、およそ反対な結果であるという事は何のためであるかというと、そういう低級宗教を長く続けていると、肝腎な智慧は鈍化し理性を失い、善悪正邪の判別など出来なくなるのである、そうしてこういう人と唯物主義者とを比べる時、結論としてどちらも安心立命など得られない事は、百年河清を待つに等しいと言ってもいい。<br><br> 以上の意味において吾らは唯物主義者を救わなければならないと共に、地獄的信仰者をも救わなければならない事を痛感するのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Religião e Liberdade</h2>
 <p>Ao observarmos as religiões até os dias de hoje, podemos afirmar que, em sua maioria, elas carecem de liberdade. Muitas se encontram atadas por preceitos rigorosos a ponto de lhes tolher os movimentos, e essa condição veio a ser considerada a forma autêntica da religiosidade. Contudo, ao examinarmos tal situação com profundidade, percebemos que ela se assemelha a um verdadeiro inferno da fé.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Há casos em que o fiel, não vendo alívio para seus padecimentos, tenta escapar desse inferno da fé. Nesse momento, é invariavelmente ameaçado com as palavras: “Se abandonar esta fé, toda a sua família certamente perecerá”. Amedrontado, ele se vê incapaz de partir, mas tampouco consegue suportar a situação em que se encontra. É comum encontrarmos pessoas presas a esse dilema paralisante.</p>
 <p>Embora o propósito da fé seja conduzir o ser humano a uma vida de júbilo paradisíaco, por que, então, observamos um resultado diametralmente oposto, como o descrito acima? A razão é que a prática prolongada de uma religião de nível inferior embota a sabedoria essencial, anula a razão e incapacita o indivíduo de discernir o bem do mal, o certo do errado. Ao compararmos uma pessoa nesse estado com um materialista, a conclusão é que, para ambos, a conquista da verdadeira paz de espírito e da serenidade é uma espera tão vã quanto aguardar que o Rio Amarelo se torne límpido.</p>
 <p>Pelas razões supracitadas, sentimos profundamente a necessidade de salvar não apenas os materialistas, mas também aqueles que se encontram aprisionados em uma fé infernal.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教と自由 『光』45号、昭和25(1950)年1月14日発行 今日までの宗教をみると、宗教にはほとんど自由がないといってもいい、その多くは厳重なる戒律に縛られて身動きも出来ないくらいで、これが宗教本来の姿と思われて来た、そういうのを深く検討してみると全く信仰地獄の観がある。<br/><br/> そういう宗教に限って何をすべからずとか、何をすれば神様の御怒りに触れるとか罰が当るとかいう戒律づくめで、自由なゆとりのある生活など見る事が出来ない、そんな訳で神に対する観念は敬愛とか親しみなどはほとんどなく、ただ恐れ戦（おのの）いているばかりだ、そればかりではない、病気も貧乏も家庭不和も、年中付纒（つきまと）って放〔離〕れない、それらの苦悩に対しその教師はきっとこういう、「貴方の家には先祖から罪障が多い、苦しむのはそのためであるから一生懸命罪障消滅をしなければいけないが、貴方はいまだ信仰が足りないから苦しみが絶えないのだ」とこういうのである、中にはあまり苦しみがなくならないので信仰地獄から抜けようとすると、決って言う事には「貴方がこの信仰をやめれば、一家は必ず死に絶える」と脅すので抜ける事も出来ず、現状で我慢出来ず進退きわまるという人をよく見るのである。<br/><br/> 信仰の目的は、天国的歓喜の生活者となるのであるに関わらず、右のごとき、およそ反対な結果であるという事は何のためであるかというと、そういう低級宗教を長く続けていると、肝腎な智慧は鈍化し理性を失い、善悪正邪の判別など出来なくなるのである、そうしてこういう人と唯物主義者とを比べる時、結論としてどちらも安心立命など得られない事は、百年河清を待つに等しいと言ってもいい。<br/><br/> 以上の意味において吾らは唯物主義者を救わなければならないと共に、地獄的信仰者をも救わなければならない事を痛感するのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

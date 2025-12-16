@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qrinsan</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 林産物の御利益 ――素人で三十八俵の炭焼に成功―― 自観叢書第4篇『奇蹟物語』昭和24(1949)年10月5日発行 大分県 日本五六七教帰一会 小野九十九（52） 私が昭和二十二年十二月入信させて頂きまして以来、ほんとうに讃えても讃えきれない御守護を頂いています数々の中、林産物における御守護の一端ではございますが、私の頂きました事実を御報告させて頂きたいと存じます。<br><br>まず製炭でございますが私方の炭釜は奥行八尺横巾九尺でございます。<br><br>炭木の長さ大五尺五寸小四尺で生木所要量（普通樫雑木）四百二十－四百三十貫となっています。<br><br>今年早々自家用炭も不足しましたので二、三杯でも焼いたらと言う事で、久方振りに釜に行ってみますと十年前焼いてそのままなものですから釜も相当痛んでいました。<br><br>やっと修理を終りましたがどう考えても、私も余り炭焼きには自信なく、ましてや古釜のことではありますしとは思いましたが、いつも本部の大西先生又小鱗分会長先生から素直に手を振りなさいのお言葉に所要の木を釜にくべるや釜口から素直に浄霊致しましたところ、普通古釜はなかなか点火が悪いのですがわけなく点火致しました。<br><br>又私が炭釜に行っていると村の炭焼小五郎と言われる熟練者が来まして、これでせめて二十俵製品が出れば大変だと申していました（製炭は冷釜の際二杯焼いての結果を何俵と申します）。<br><br>ところが何とおどろくではありませんか、三十八俵と言う製品を出しました。<br><br>続いて余りにも御利益が大きいものですから二、三杯やきましたが、いずれも一釜に四、五俵は多く製炭できます。<br><br>私も素人にしてこんなに多くの製品の出来たのには全く何と申上げてよいやら余りにも御守護に感激致しています。<br><br>最初三十八俵は早速私方農業協同組合に出荷させて頂きました。<br><br>全国製炭に従事されている皆様、熟練者がやられたならば、もっともっと素晴しい結果が出る事を確信致します。<br><br>製品の多い事又品質においても絶対なること、この業に全然素人である私でございますが確信をもって御報告致す訳でございます。<br><br> 次に椎茸栽培について御報告させて頂きます。<br><br>まず私方の原木は昭和二十一年三月十五日伐倒しの物でございまして同年二十日椎茸組合より配給のコマ（椎茸菌培養の長さ一寸位の小さな杭木）を原木四－五尺に成木したものに浄霊しては埋木（植付）致しました。<br><br>そして普通なら山谷で水浸しを行いますがこれをやめ、昭和二十二年一月杉林の中に入木（コマを埋木したもの）致しました。<br><br>そして時折その付近に行けば浄霊を致していましたところ、昨年秋製品だけでも普通多くて五百匁程度のところ、その三倍の一貫五百匁（乾燥出来上り）と言う実に素暗しいものでございました。<br><br>私はここで強く申上げたいことは原木を水浸しせず大いに手数も省け、品質量において普通栽培を断然超越した観音様の御利益に益々感謝感激致しています。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Graça Divina nos Produtos Florestais — O Sucesso de um Leigo na Produção de Trinta e Oito Fardos de Carvão</h2>
 <p><strong>Coletânea Jikan, Volume 4, ‘Relatos de Milagres’, publicado em 5 de outubro de 1949</strong>
@@ -101,5 +256,48 @@ function toggleLang(lang) {
 <p>As toras de madeira que utilizei foram cortadas em 15 de março de 1946. No dia 20 do mesmo mês, recebi da cooperativa de produtores os <em>koma</em> (pequenas cavilhas de madeira inoculadas com o micélio do shiitake, medindo cerca de um <em>sun</em> de comprimento). Após ministrar Johrei nas toras, que tinham entre quatro e cinco <em>shaku</em>, procedi à inoculação, inserindo os <em>koma</em> na madeira. O procedimento convencional exigiria que as toras fossem imersas em água em algum vale na montanha; contudo, optei por omitir essa etapa. Em vez disso, em janeiro de 1947, posicionei as toras já inoculadas em meio a um bosque de cedros.</p>
 <p>Sempre que visitava as proximidades, eu ministrava Johrei às toras. No outono passado, a colheita superou todas as expectativas: enquanto uma produção normal renderia, no máximo, quinhentos <em>monme</em> de cogumelos secos, obtive o triplo dessa quantidade, alcançando um total de mil e quinhentos <em>monme</em>.</p>
 <p>Gostaria de ressaltar veementemente que, ao dispensar a etapa de imersão das toras, não apenas economizei um esforço considerável, mas também obtive uma colheita que, em qualidade e volume, transcendeu de forma absoluta os métodos convencionais de cultivo. Minha gratidão e comoção pela graça de Kannon (観音) são cada vez mais profundas.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 林産物の御利益 ――素人で三十八俵の炭焼に成功―― 自観叢書第4篇『奇蹟物語』昭和24(1949)年10月5日発行 大分県 日本五六七教帰一会 小野九十九（52） 私が昭和二十二年十二月入信させて頂きまして以来、ほんとうに讃えても讃えきれない御守護を頂いています数々の中、林産物における御守護の一端ではございますが、私の頂きました事実を御報告させて頂きたいと存じます。<br/><br/>まず製炭でございますが私方の炭釜は奥行八尺横巾九尺でございます。<br/><br/>炭木の長さ大五尺五寸小四尺で生木所要量（普通樫雑木）四百二十－四百三十貫となっています。<br/><br/>今年早々自家用炭も不足しましたので二、三杯でも焼いたらと言う事で、久方振りに釜に行ってみますと十年前焼いてそのままなものですから釜も相当痛んでいました。<br/><br/>やっと修理を終りましたがどう考えても、私も余り炭焼きには自信なく、ましてや古釜のことではありますしとは思いましたが、いつも本部の大西先生又小鱗分会長先生から素直に手を振りなさいのお言葉に所要の木を釜にくべるや釜口から素直に浄霊致しましたところ、普通古釜はなかなか点火が悪いのですがわけなく点火致しました。<br/><br/>又私が炭釜に行っていると村の炭焼小五郎と言われる熟練者が来まして、これでせめて二十俵製品が出れば大変だと申していました（製炭は冷釜の際二杯焼いての結果を何俵と申します）。<br/><br/>ところが何とおどろくではありませんか、三十八俵と言う製品を出しました。<br/><br/>続いて余りにも御利益が大きいものですから二、三杯やきましたが、いずれも一釜に四、五俵は多く製炭できます。<br/><br/>私も素人にしてこんなに多くの製品の出来たのには全く何と申上げてよいやら余りにも御守護に感激致しています。<br/><br/>最初三十八俵は早速私方農業協同組合に出荷させて頂きました。<br/><br/>全国製炭に従事されている皆様、熟練者がやられたならば、もっともっと素晴しい結果が出る事を確信致します。<br/><br/>製品の多い事又品質においても絶対なること、この業に全然素人である私でございますが確信をもって御報告致す訳でございます。<br/><br/> 次に椎茸栽培について御報告させて頂きます。<br/><br/>まず私方の原木は昭和二十一年三月十五日伐倒しの物でございまして同年二十日椎茸組合より配給のコマ（椎茸菌培養の長さ一寸位の小さな杭木）を原木四－五尺に成木したものに浄霊しては埋木（植付）致しました。<br/><br/>そして普通なら山谷で水浸しを行いますがこれをやめ、昭和二十二年一月杉林の中に入木（コマを埋木したもの）致しました。<br/><br/>そして時折その付近に行けば浄霊を致していましたところ、昨年秋製品だけでも普通多くて五百匁程度のところ、その三倍の一貫五百匁（乾燥出来上り）と言う実に素暗しいものでございました。<br/><br/>私はここで強く申上げたいことは原木を水浸しせず大いに手数も省け、品質量において普通栽培を断然超越した観音様の御利益に益々感謝感激致しています。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

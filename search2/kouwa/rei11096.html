@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>rei11096</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊学篇 一 霊的病気（一） ６ 096-116 霊体両因２ 096 黒底翳の霊、眼球流るる事 七十六歳の男、四年前より目が見えなく、医者は黒底翳との事です。<br><br>霊的因縁か御教示下さい。<br><br> 霊的の場合は蛇である。<br><br>蛇を祀ると治る。<br><br>浄霊で治る。<br><br> 薬で固めたのは治り難い。<br><br> 目、頭、首、肩、腎臓を浄霊する。<br><br> 黒底翳は毒血であり、青白底翳は膿である。<br><br>赤目――目から離れると白い膿になる。<br><br> 目は溶ける事がある。<br><br>目を蒸した所、膿が集中し、裏から押出されて瞳が飛出し、落ちそうになった。<br><br>確かに流れる事がある。<br><br> 097 底翳の原因 底翳の霊的原因について御説明をお願い申し上げます。<br><br> 普通、体的原因が多い。<br><br>頭の毒が眼の裏へ固まる。<br><br> たまには霊的もある。<br><br>蛇である。<br><br>蛇の霊が憑くと見えなくなる。<br><br> 浄霊だけで治る。<br><br>薬を用いたのは手間がかかる。<br><br>何にもしてなければ、それだけ早く治る。<br><br>（S24. 1.22） 098 視力異常（青龍） 谷川みさ子（二十二歳）と云う娘は八歳の頃より電柱や樹木等一本の物が二本のように見え、またその一本は現物通りですが、他の一方は光のように写って見えるそうです。<br><br>また、大光明の御軸の左右に白く同じ文字が見えたり、家の内でも外でも昼夜の別なく緑色の火の玉（直径一寸位）が見える由、右はいかなるもので御座いますか。<br><br> 二本に見えるのは眼の異常である。<br><br>私は今でも二つに見える。<br><br>それで片方ずつで見る。<br><br>左眼が上っており、右眼は上下に動く。<br><br>御文字のかく見える人は沢山ある。<br><br> 青い龍神で、神格を得たのは光がある。<br><br> 099 失明の眼に影像見ゆ 本年二十九歳の婦人、八年前妊娠中発熱のため解熱注射を一本致しましたところ、間もなく失明致し、昨年九月入信、熱心に御浄霊を続けさせて戴いております。<br><br>入信当時は本人の眼前に真黒い顔の影像が現われては消えして半年間位続き、その後段々影像は白い顔となりましたが、目の周りのみは真黒で御座いました。<br><br>その後目の周囲まで白く変りましたが、片方の眼は星が入っているように見え、現在では、その片眼だけが時々現われ、暫くすると青い糸のようなものが現われ、その片眼は消えてしまいます。<br><br>未だ本人の眼は変化が御座いませんが、益々御道のため精進させて戴いております。<br><br>父も入信致し、御屏風観音様は本年三月お祭りさせて戴きました。<br><br>本人の眼に映る影像はいかなるもので御座いましょうか。<br><br>また御浄霊によりこの失明をよくして戴けますで御座いましょうか。<br><br>御伺い申し上げます。<br><br> 薬毒である。<br><br>薬毒は治るには治るが、眼は固まり易いので時間がかかる。<br><br> 影像は死霊か生霊かどっちかである。<br><br> いろいろ変化はあるが、治るには治る。<br><br>後と前頭部をする。<br><br>（S24.11.21） 100 霊体因による失明（死霊） 昭和二十二年十二月入信の私の妹（十八歳）、二十四年三月七日朝突然に盲となり、私が留守のため医師に診察だけを受けましたが、白内障と診断され、その後私が長い間おりませんでしたので、母親より御浄霊を戴いておりましたところ、頭痛と下痢の御浄化を戴き、それ以来週に一度だけ明るい感じのする状態になりました。<br><br>二十四年十月三日私が帰宅、三回程御浄霊致しましたところ、十月七日一度だけはっきりと瞬間的に見る事が出来ました。<br><br>その後は一日おきに明るく感じるようになり、十一月上旬以来月に一、二度位私が御浄霊させて戴きましたところ、御守護を戴きまして現在は薄いカーテンが懸っているような感じ位明るくなり、たまには電灯の明るさ、太陽の光が薄く白く見えるようになりました。<br><br>身体は発病以来不自由の状態になり、一人にて歩行不可能となり、腰が抜けたような状態となっております。<br><br>何か霊的の原因でもあるので御座居ましょうか。<br><br>御守護御願い申し上げます。<br><br> 霊的と体的と両方である。<br><br>霊が憑った。<br><br>霊が治してもらいたいのである。<br><br> 段々快くなる。<br><br>（S25. 2.28） 101 霊的と薬毒に因る不眠 本年五十八歳の女、四、五年前より第三種の健康状態でしたが、昨年あたりより回虫と軽い咳のためたまたま臥床する身となり、本年九月頃より本格的に床につき、十月中旬より浄霊致しております。<br><br>病源は左脛部を始め左肺尖部で、浄霊後二週間余りで平熱になり、食欲も出て参りましたが、 突然三十九度以上の高熱が出て十日余り続きました。<br><br>一週間前から高熱は下りましたが、現在三十七度から八度程度で高熱の御浄化の後のような予期した程の結果が得られておりません。<br><br>夜は一時から三時頃迄睡眠出来ません。<br><br>御浄霊前は薬を浴びるように用い、特に鎮静剤は毎日のように服用していました。<br><br>家庭は非常に複雑で、霊的関係もあるように思われます。<br><br>主人は三人の妻を亡くし、現在は四人目の妻に当ります。<br><br>一番目の夫人は舅姑が気に入らず家出、厭世自殺をしております。<br><br>二番目の夫人は結婚後六、七年で結核にて死亡、三番目の夫人は結婚後十年余りで関節炎のため死亡、四番目の夫人は右記の状態です。<br><br>仏壇には過去帳のみで位牌はありません。<br><br>一番目の夫人は無縁状態です。<br><br>右、霊的関係がありますでしょうか。<br><br>御教示御願い申し上げます。<br><br> 霊的と薬毒と両方である。<br><br>一番目の夫人――。<br><br> 浄霊と光明如来様にお願いする。<br><br>（S24.12. 8） 102 星眼は霊的か（罪） 未入信の婦人、眼の御浄化（星眼）をいただき、また背に赤い二、三十の斑点が出来ておりました。<br><br>一回の御浄霊でその斑点はなくなりましたが、黒眼が半分以上白くなって段々見えなくなりました。<br><br>この星眼は霊的なもので御座いましょうか。<br><br>御伺い申し上げます。<br><br> 薬によって固まったのが溶けて来たのである。<br><br>ある程度拡がると目脂で出てくる。<br><br> 星眼は、霊的の罪の事もある。<br><br>（S24.10. 1） 103 角膜炎 私は三、四歳の頃から右眼を病みまして見えなくなり、角膜炎との事で父はあらゆる療法に手を尽してくれましたが効果は御座いませんでした。<br><br>昭和十三年末頃に真宗で祈祷して戴きますと、前世の業だと云われ、善徳を積めと教えられまして、以後真宗、生長の家の教えで一生懸命御奉仕致しましたが、何の変りも御座いません。<br><br>本年一月二十五日入信致し、三月八日御神体並びに御屏風観音様をお祭りさせて頂き、一心に精進致しておりますが、何等変化御座いません。<br><br>なお、昭和十一年の徴兵検査の時、色盲と云われましたが今日まで不便を感じた事は御座いません。<br><br>これは霊的関係で御座いましょうか。<br><br>それとも前世における罪による不治のもので御座いましょうか。<br><br>御教えをお願い申し上げます。<br><br> 霊的でもあり罪でもありあらゆる療法のためでもある。<br><br>放任しておいても治る。<br><br>一生懸命信仰し、人助けすれば早く治る。<br><br>（S25. 5.21） 104 漁師に多い赤眼の原因 蛇を殺す事によりまして特に眼病を患うとの御教えを承って御座いますが、名古屋地方におきましては漁村に俗に云う「赤眼」他種々の眼病が多いようで御座居ますが、魚と眼病とは何か霊的な関係があるもので御座いましょうか。<br><br> 霊的もあるが体的が多い。<br><br>波がキラキラするのを始終漁師は見るが、これは眼に悪い。<br><br>光の刺戟で、眼へ毒素が集（よ）ってくるために眼が悪くなる。<br><br>（S25. 2. 2） 105 失明して諸獣見ゆ 今年七十八歳の老母、昨年十月緑内障のため手術を致しましたが、遂に両眼共に失明致しました。<br><br>今年二月頃より畠や田圃に寝かされるような錯覚を起し、また時には人と対談中牛や馬や色々な獣類が沢山集って来て、その獣類が全部片眼がつぶれており、皆ニコニコして傍へ寄って来る等と申しておりましたが、先頃臭剥（しゅうぼつ）剤を服用致しましたところ幾らか落着きまして、すべてが錯覚と云う事が本人にも判るようになりましたが、底翳で失明致しました場合、こうした現象の現れる事が御座いましょうか。<br><br>また、底翳とは関係なしに霊的なもので御座いましょうか。<br><br>また薬毒によるもので御座いましょうか。<br><br>御伺い申し上げます。<br><br> 手術のためである。<br><br> 悲観したりなどするとその隙に霊が悪戯する。<br><br>薬毒は原因にはなっている。<br><br>臭剥剤によって悪くする。<br><br>七十八になって眼が悪くなるなど霊的とは言えぬ。<br><br>一旦は快くなるが、反動で悪くなる。<br><br> 手術によっては治る。<br><br>（S24. 3.22） rattail（注） 臭剥（しゅうぼつ）、臭化カリウムを土台にしてつくる鎮痙剤・鎮静剤として使用したらしい 106 うなされる原因 うなされる事は、不自然な寝様でなる事もあるようで御座いますが、他に何か霊的のものもあるようで御座いますが、いかなる原因で御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> （霊的である。<br><br>）寝る位置にもよる。<br><br>仰向で、胸に手を当てるとうなされる。<br><br>左下にしてもうなされ易い。<br><br>（心臓が下になり、霊稀薄になり、霊が憑り易い。<br><br>）霊の障りがなければ、そんな事はない。<br><br>（S24. 2.21） 107 睡眠時の開眼 ある信者の子供（十三歳）、眠っているのに目が開（あ）いていまして、目のところで指を左右に動かしますと、目もついて動くので御座います。<br><br>本人は何も知らずに眠っております。<br><br>霊的で御座いましょうか。<br><br>御伺い申し上げます。<br><br> 薄目に開いているなどあるが、額の皮膚が強（こわ）いのである。<br><br> 霊的と体的両方ある。<br><br>目の上に毒があると吊られて圧迫され、動きが悪い訳である。<br><br> それにまた、副霊が二つ憑いている。<br><br>一つは寝ると出るし、一つは体に残っている。<br><br>（S24.10.11） 108 目開けて眠る 目を開（あ）けて眠るのはいかなる理由で御座いましょうか。<br><br>また、これは霊的で御座いましょうか。<br><br> いくらか締りのわるい人がある。<br><br>霊的体的とあるが、大抵は体的で、目の皮に毒か何か塊があって硬化しているためである。<br><br>浄霊で治る。<br><br>（S24. 8.25） 109 睡眠時目開く 眠っていても目を開いている人が御座居ますが、いかなる理由で御座居ましょうか。<br><br>御伺い申し上げます。<br><br> 動物の再生または前生動物の場合もある。<br><br>虫の場合もある。<br><br>（S24. 5.12） 110 顔面神経痛 ただ今迄何事も無くおりましたが、風呂に入り温まりますと左眼の周りと頭半分が非常に痛くなり、お岩様のような顔になったかと思うようで御座いましたが、湯から上ると何ともなく、また温まるとまた痛みます。<br><br>夜分上向きに休みますと痛むと申しますが、顔には何の異常も御座いません。<br><br>霊的で御座いましょうか。<br><br> 顔面神経痛というのであろう。<br><br> 霊的であったら、祝詞を奏げてやる。<br><br>（S24. 9. 9） 111 顔面浮腫と紫色・浄霊で増す 当年四十四歳の寡婦、数ケ月浄霊するも顔はむくみと紫色が増大、浄霊中がたがた震える事もあります。<br><br>いかなる訳ですか。<br><br>いかにすれば治りますか。<br><br> 漢方薬中毒であろう。<br><br>腎臓をよくすると小便で出る。<br><br>それに霊も憑っているであろう。<br><br> 112 首に瘤あり、青大将部屋に入る 私が二ケ月以前より御浄霊している婦人、肩が凝り、握り拳程の瘤が首にあるためか働く事が出来ません。<br><br>御浄霊を始めてから御飯も通るようになりましたが、衰弱するばかりであります。<br><br>この人は後妻に行き、二年目に子供が生れ、四、五日でその子供は死亡致しました。<br><br>その子供が生れて三日目に部屋に四、五尺の青大将が出て来たのが始まりで、よく出るようになり、また今年は特別多く出て参りました。<br><br>蛇がよく出る理由及び病気と蛇とに霊的な関係がありましょうか。<br><br>また、今後いかにしたらこの人は救われましょうか。<br><br> 青大将は祖先である。<br><br>救われたいんで度々出る。<br><br>首にあるのは淋巴腺が腫れてる。<br><br>衰弱は微熱のためである。<br><br>早く入信して光明如来様をお祭りし、そして出ないようにせよと言い聞かす。<br><br>（S24.10.20） 113 喉頭結核と蛇の祟り 私は三年前に肺結核でおりましたところを御観音様にお救い頂き、その後松田教会の助手として日々感謝にて働かせて頂いておりました。<br><br>昨年十二月より結核と腹膜炎の浄化を頂き、一月中頃より喉頭結核になり、二月始めには、一時重体になりましたが御守護を頂き、日増しに快方に向い、最近では食事も二膳から二膳半位、三度ずつ戴けるようになりました。<br><br>御守護まことに有難う存じます。<br><br>最近は主として喉頭結核の御浄化にて声が少ししか出ません。<br><br>たまには喉が痛みます。<br><br>私の祖母は大正十二年の震災で腹を打って死亡、母は腸結核、長兄が喉頭結核、三人目の兄が肺結核でそれぞれ死亡致しております。<br><br>なお、長兄が山で殺した蛇が祟っていたようでしたが、西山明神として祀りさせて頂きましたが、未だ甕の水が汚れますと喉が痛みます。<br><br>言葉が前後致しましたが、家では明主様御写真、光明如来様及び屏風観音様も祀らせて戴きました。<br><br>何卒もう一度御用に立たせて頂きたく、宜しく御守護御願い申し上げます。<br><br> 喉頭結核は薬の滲みたものが出てくる。<br><br>顎下部に薬の毒結がある。<br><br> 蛇も祟っている。<br><br>（S25. 3.28） 114 吃りと唖の霊的原因 唖者や吃（ども）りは霊的の原因が御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> 霊的原因、体的原因と両方ある。<br><br>霊的は、死ぬ時発声器官に障害を起したとか、首吊って死んだ霊とか、喉へ槍を突いて死んだのがそのまま生れ更ったものである。<br><br> どもりは大抵体的で、霊的もない事もない。<br><br>舌と頭と繋っている筋に毒が固まっている。<br><br>頭辺に熱い所がある。<br><br>（S23.12.21） 115 吃音 私は小学校の五年の頃より吃音（きつおん）なのですが、どうすれば治るでしょうか。<br><br> 霊的と体的とあるが、信仰次第で治る。<br><br>光明如来様にお願いするとよい。<br><br>（S25. 1.25） 116 吃音の原因と浄霊個所 吃音は舌を動かす筋の毒障碍である。<br><br>頭から来る。<br><br>熱のある所をすればよい。<br><br>（S23. 8.21）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de Artigos de Jikan Okada – Pesquisa de Ensinamentos: Pesquisa de Materiais de Auxílio: Estudo Espiritual – Volume I – Doenças Espirituais (1)</h2>
 <h2>096 – O espírito causador do glaucoma e o desprendimento do globo ocular</h2>
@@ -167,5 +319,48 @@ function toggleLang(lang) {
 <p><strong>Meishu-Sama:</strong> Existem causas espirituais e físicas, mas a cura depende da sua fé. Ore à Imagem de Komyo Nyorai. (25 de janeiro de 1950)</p>
 <h2>116 – A causa da gagueira e os pontos de Johrei</h2>
 <p><strong>Meishu-Sama:</strong> A gagueira é uma obstrução causada por toxinas no músculo que movimenta a língua. A origem está na cabeça. Basta ministrar Johrei no ponto onde houver febre. (21 de agosto de 1948)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊学篇 一 霊的病気（一） ６ 096-116 霊体両因２ 096 黒底翳の霊、眼球流るる事 七十六歳の男、四年前より目が見えなく、医者は黒底翳との事です。<br/><br/>霊的因縁か御教示下さい。<br/><br/> 霊的の場合は蛇である。<br/><br/>蛇を祀ると治る。<br/><br/>浄霊で治る。<br/><br/> 薬で固めたのは治り難い。<br/><br/> 目、頭、首、肩、腎臓を浄霊する。<br/><br/> 黒底翳は毒血であり、青白底翳は膿である。<br/><br/>赤目――目から離れると白い膿になる。<br/><br/> 目は溶ける事がある。<br/><br/>目を蒸した所、膿が集中し、裏から押出されて瞳が飛出し、落ちそうになった。<br/><br/>確かに流れる事がある。<br/><br/> 097 底翳の原因 底翳の霊的原因について御説明をお願い申し上げます。<br/><br/> 普通、体的原因が多い。<br/><br/>頭の毒が眼の裏へ固まる。<br/><br/> たまには霊的もある。<br/><br/>蛇である。<br/><br/>蛇の霊が憑くと見えなくなる。<br/><br/> 浄霊だけで治る。<br/><br/>薬を用いたのは手間がかかる。<br/><br/>何にもしてなければ、それだけ早く治る。<br/><br/>（S24. 1.22） 098 視力異常（青龍） 谷川みさ子（二十二歳）と云う娘は八歳の頃より電柱や樹木等一本の物が二本のように見え、またその一本は現物通りですが、他の一方は光のように写って見えるそうです。<br/><br/>また、大光明の御軸の左右に白く同じ文字が見えたり、家の内でも外でも昼夜の別なく緑色の火の玉（直径一寸位）が見える由、右はいかなるもので御座いますか。<br/><br/> 二本に見えるのは眼の異常である。<br/><br/>私は今でも二つに見える。<br/><br/>それで片方ずつで見る。<br/><br/>左眼が上っており、右眼は上下に動く。<br/><br/>御文字のかく見える人は沢山ある。<br/><br/> 青い龍神で、神格を得たのは光がある。<br/><br/> 099 失明の眼に影像見ゆ 本年二十九歳の婦人、八年前妊娠中発熱のため解熱注射を一本致しましたところ、間もなく失明致し、昨年九月入信、熱心に御浄霊を続けさせて戴いております。<br/><br/>入信当時は本人の眼前に真黒い顔の影像が現われては消えして半年間位続き、その後段々影像は白い顔となりましたが、目の周りのみは真黒で御座いました。<br/><br/>その後目の周囲まで白く変りましたが、片方の眼は星が入っているように見え、現在では、その片眼だけが時々現われ、暫くすると青い糸のようなものが現われ、その片眼は消えてしまいます。<br/><br/>未だ本人の眼は変化が御座いませんが、益々御道のため精進させて戴いております。<br/><br/>父も入信致し、御屏風観音様は本年三月お祭りさせて戴きました。<br/><br/>本人の眼に映る影像はいかなるもので御座いましょうか。<br/><br/>また御浄霊によりこの失明をよくして戴けますで御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 薬毒である。<br/><br/>薬毒は治るには治るが、眼は固まり易いので時間がかかる。<br/><br/> 影像は死霊か生霊かどっちかである。<br/><br/> いろいろ変化はあるが、治るには治る。<br/><br/>後と前頭部をする。<br/><br/>（S24.11.21） 100 霊体因による失明（死霊） 昭和二十二年十二月入信の私の妹（十八歳）、二十四年三月七日朝突然に盲となり、私が留守のため医師に診察だけを受けましたが、白内障と診断され、その後私が長い間おりませんでしたので、母親より御浄霊を戴いておりましたところ、頭痛と下痢の御浄化を戴き、それ以来週に一度だけ明るい感じのする状態になりました。<br/><br/>二十四年十月三日私が帰宅、三回程御浄霊致しましたところ、十月七日一度だけはっきりと瞬間的に見る事が出来ました。<br/><br/>その後は一日おきに明るく感じるようになり、十一月上旬以来月に一、二度位私が御浄霊させて戴きましたところ、御守護を戴きまして現在は薄いカーテンが懸っているような感じ位明るくなり、たまには電灯の明るさ、太陽の光が薄く白く見えるようになりました。<br/><br/>身体は発病以来不自由の状態になり、一人にて歩行不可能となり、腰が抜けたような状態となっております。<br/><br/>何か霊的の原因でもあるので御座居ましょうか。<br/><br/>御守護御願い申し上げます。<br/><br/> 霊的と体的と両方である。<br/><br/>霊が憑った。<br/><br/>霊が治してもらいたいのである。<br/><br/> 段々快くなる。<br/><br/>（S25. 2.28） 101 霊的と薬毒に因る不眠 本年五十八歳の女、四、五年前より第三種の健康状態でしたが、昨年あたりより回虫と軽い咳のためたまたま臥床する身となり、本年九月頃より本格的に床につき、十月中旬より浄霊致しております。<br/><br/>病源は左脛部を始め左肺尖部で、浄霊後二週間余りで平熱になり、食欲も出て参りましたが、 突然三十九度以上の高熱が出て十日余り続きました。<br/><br/>一週間前から高熱は下りましたが、現在三十七度から八度程度で高熱の御浄化の後のような予期した程の結果が得られておりません。<br/><br/>夜は一時から三時頃迄睡眠出来ません。<br/><br/>御浄霊前は薬を浴びるように用い、特に鎮静剤は毎日のように服用していました。<br/><br/>家庭は非常に複雑で、霊的関係もあるように思われます。<br/><br/>主人は三人の妻を亡くし、現在は四人目の妻に当ります。<br/><br/>一番目の夫人は舅姑が気に入らず家出、厭世自殺をしております。<br/><br/>二番目の夫人は結婚後六、七年で結核にて死亡、三番目の夫人は結婚後十年余りで関節炎のため死亡、四番目の夫人は右記の状態です。<br/><br/>仏壇には過去帳のみで位牌はありません。<br/><br/>一番目の夫人は無縁状態です。<br/><br/>右、霊的関係がありますでしょうか。<br/><br/>御教示御願い申し上げます。<br/><br/> 霊的と薬毒と両方である。<br/><br/>一番目の夫人――。<br/><br/> 浄霊と光明如来様にお願いする。<br/><br/>（S24.12. 8） 102 星眼は霊的か（罪） 未入信の婦人、眼の御浄化（星眼）をいただき、また背に赤い二、三十の斑点が出来ておりました。<br/><br/>一回の御浄霊でその斑点はなくなりましたが、黒眼が半分以上白くなって段々見えなくなりました。<br/><br/>この星眼は霊的なもので御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 薬によって固まったのが溶けて来たのである。<br/><br/>ある程度拡がると目脂で出てくる。<br/><br/> 星眼は、霊的の罪の事もある。<br/><br/>（S24.10. 1） 103 角膜炎 私は三、四歳の頃から右眼を病みまして見えなくなり、角膜炎との事で父はあらゆる療法に手を尽してくれましたが効果は御座いませんでした。<br/><br/>昭和十三年末頃に真宗で祈祷して戴きますと、前世の業だと云われ、善徳を積めと教えられまして、以後真宗、生長の家の教えで一生懸命御奉仕致しましたが、何の変りも御座いません。<br/><br/>本年一月二十五日入信致し、三月八日御神体並びに御屏風観音様をお祭りさせて頂き、一心に精進致しておりますが、何等変化御座いません。<br/><br/>なお、昭和十一年の徴兵検査の時、色盲と云われましたが今日まで不便を感じた事は御座いません。<br/><br/>これは霊的関係で御座いましょうか。<br/><br/>それとも前世における罪による不治のもので御座いましょうか。<br/><br/>御教えをお願い申し上げます。<br/><br/> 霊的でもあり罪でもありあらゆる療法のためでもある。<br/><br/>放任しておいても治る。<br/><br/>一生懸命信仰し、人助けすれば早く治る。<br/><br/>（S25. 5.21） 104 漁師に多い赤眼の原因 蛇を殺す事によりまして特に眼病を患うとの御教えを承って御座いますが、名古屋地方におきましては漁村に俗に云う「赤眼」他種々の眼病が多いようで御座居ますが、魚と眼病とは何か霊的な関係があるもので御座いましょうか。<br/><br/> 霊的もあるが体的が多い。<br/><br/>波がキラキラするのを始終漁師は見るが、これは眼に悪い。<br/><br/>光の刺戟で、眼へ毒素が集（よ）ってくるために眼が悪くなる。<br/><br/>（S25. 2. 2） 105 失明して諸獣見ゆ 今年七十八歳の老母、昨年十月緑内障のため手術を致しましたが、遂に両眼共に失明致しました。<br/><br/>今年二月頃より畠や田圃に寝かされるような錯覚を起し、また時には人と対談中牛や馬や色々な獣類が沢山集って来て、その獣類が全部片眼がつぶれており、皆ニコニコして傍へ寄って来る等と申しておりましたが、先頃臭剥（しゅうぼつ）剤を服用致しましたところ幾らか落着きまして、すべてが錯覚と云う事が本人にも判るようになりましたが、底翳で失明致しました場合、こうした現象の現れる事が御座いましょうか。<br/><br/>また、底翳とは関係なしに霊的なもので御座いましょうか。<br/><br/>また薬毒によるもので御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 手術のためである。<br/><br/> 悲観したりなどするとその隙に霊が悪戯する。<br/><br/>薬毒は原因にはなっている。<br/><br/>臭剥剤によって悪くする。<br/><br/>七十八になって眼が悪くなるなど霊的とは言えぬ。<br/><br/>一旦は快くなるが、反動で悪くなる。<br/><br/> 手術によっては治る。<br/><br/>（S24. 3.22） rattail（注） 臭剥（しゅうぼつ）、臭化カリウムを土台にしてつくる鎮痙剤・鎮静剤として使用したらしい 106 うなされる原因 うなされる事は、不自然な寝様でなる事もあるようで御座いますが、他に何か霊的のものもあるようで御座いますが、いかなる原因で御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> （霊的である。<br/><br/>）寝る位置にもよる。<br/><br/>仰向で、胸に手を当てるとうなされる。<br/><br/>左下にしてもうなされ易い。<br/><br/>（心臓が下になり、霊稀薄になり、霊が憑り易い。<br/><br/>）霊の障りがなければ、そんな事はない。<br/><br/>（S24. 2.21） 107 睡眠時の開眼 ある信者の子供（十三歳）、眠っているのに目が開（あ）いていまして、目のところで指を左右に動かしますと、目もついて動くので御座います。<br/><br/>本人は何も知らずに眠っております。<br/><br/>霊的で御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 薄目に開いているなどあるが、額の皮膚が強（こわ）いのである。<br/><br/> 霊的と体的両方ある。<br/><br/>目の上に毒があると吊られて圧迫され、動きが悪い訳である。<br/><br/> それにまた、副霊が二つ憑いている。<br/><br/>一つは寝ると出るし、一つは体に残っている。<br/><br/>（S24.10.11） 108 目開けて眠る 目を開（あ）けて眠るのはいかなる理由で御座いましょうか。<br/><br/>また、これは霊的で御座いましょうか。<br/><br/> いくらか締りのわるい人がある。<br/><br/>霊的体的とあるが、大抵は体的で、目の皮に毒か何か塊があって硬化しているためである。<br/><br/>浄霊で治る。<br/><br/>（S24. 8.25） 109 睡眠時目開く 眠っていても目を開いている人が御座居ますが、いかなる理由で御座居ましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 動物の再生または前生動物の場合もある。<br/><br/>虫の場合もある。<br/><br/>（S24. 5.12） 110 顔面神経痛 ただ今迄何事も無くおりましたが、風呂に入り温まりますと左眼の周りと頭半分が非常に痛くなり、お岩様のような顔になったかと思うようで御座いましたが、湯から上ると何ともなく、また温まるとまた痛みます。<br/><br/>夜分上向きに休みますと痛むと申しますが、顔には何の異常も御座いません。<br/><br/>霊的で御座いましょうか。<br/><br/> 顔面神経痛というのであろう。<br/><br/> 霊的であったら、祝詞を奏げてやる。<br/><br/>（S24. 9. 9） 111 顔面浮腫と紫色・浄霊で増す 当年四十四歳の寡婦、数ケ月浄霊するも顔はむくみと紫色が増大、浄霊中がたがた震える事もあります。<br/><br/>いかなる訳ですか。<br/><br/>いかにすれば治りますか。<br/><br/> 漢方薬中毒であろう。<br/><br/>腎臓をよくすると小便で出る。<br/><br/>それに霊も憑っているであろう。<br/><br/> 112 首に瘤あり、青大将部屋に入る 私が二ケ月以前より御浄霊している婦人、肩が凝り、握り拳程の瘤が首にあるためか働く事が出来ません。<br/><br/>御浄霊を始めてから御飯も通るようになりましたが、衰弱するばかりであります。<br/><br/>この人は後妻に行き、二年目に子供が生れ、四、五日でその子供は死亡致しました。<br/><br/>その子供が生れて三日目に部屋に四、五尺の青大将が出て来たのが始まりで、よく出るようになり、また今年は特別多く出て参りました。<br/><br/>蛇がよく出る理由及び病気と蛇とに霊的な関係がありましょうか。<br/><br/>また、今後いかにしたらこの人は救われましょうか。<br/><br/> 青大将は祖先である。<br/><br/>救われたいんで度々出る。<br/><br/>首にあるのは淋巴腺が腫れてる。<br/><br/>衰弱は微熱のためである。<br/><br/>早く入信して光明如来様をお祭りし、そして出ないようにせよと言い聞かす。<br/><br/>（S24.10.20） 113 喉頭結核と蛇の祟り 私は三年前に肺結核でおりましたところを御観音様にお救い頂き、その後松田教会の助手として日々感謝にて働かせて頂いておりました。<br/><br/>昨年十二月より結核と腹膜炎の浄化を頂き、一月中頃より喉頭結核になり、二月始めには、一時重体になりましたが御守護を頂き、日増しに快方に向い、最近では食事も二膳から二膳半位、三度ずつ戴けるようになりました。<br/><br/>御守護まことに有難う存じます。<br/><br/>最近は主として喉頭結核の御浄化にて声が少ししか出ません。<br/><br/>たまには喉が痛みます。<br/><br/>私の祖母は大正十二年の震災で腹を打って死亡、母は腸結核、長兄が喉頭結核、三人目の兄が肺結核でそれぞれ死亡致しております。<br/><br/>なお、長兄が山で殺した蛇が祟っていたようでしたが、西山明神として祀りさせて頂きましたが、未だ甕の水が汚れますと喉が痛みます。<br/><br/>言葉が前後致しましたが、家では明主様御写真、光明如来様及び屏風観音様も祀らせて戴きました。<br/><br/>何卒もう一度御用に立たせて頂きたく、宜しく御守護御願い申し上げます。<br/><br/> 喉頭結核は薬の滲みたものが出てくる。<br/><br/>顎下部に薬の毒結がある。<br/><br/> 蛇も祟っている。<br/><br/>（S25. 3.28） 114 吃りと唖の霊的原因 唖者や吃（ども）りは霊的の原因が御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> 霊的原因、体的原因と両方ある。<br/><br/>霊的は、死ぬ時発声器官に障害を起したとか、首吊って死んだ霊とか、喉へ槍を突いて死んだのがそのまま生れ更ったものである。<br/><br/> どもりは大抵体的で、霊的もない事もない。<br/><br/>舌と頭と繋っている筋に毒が固まっている。<br/><br/>頭辺に熱い所がある。<br/><br/>（S23.12.21） 115 吃音 私は小学校の五年の頃より吃音（きつおん）なのですが、どうすれば治るでしょうか。<br/><br/> 霊的と体的とあるが、信仰次第で治る。<br/><br/>光明如来様にお願いするとよい。<br/><br/>（S25. 1.25） 116 吃音の原因と浄霊個所 吃音は舌を動かす筋の毒障碍である。<br/><br/>頭から来る。<br/><br/>熱のある所をすればよい。<br/><br/>（S23. 8.21）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

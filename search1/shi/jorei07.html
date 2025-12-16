@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jorei07</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊治病 未発表『医学革命の書』昭和28(1953)年執筆 病気は体的症状であり、その本原は霊にある以上、霊を治さなければ病気は治らないのは、前項までに大体説いたが、これについてなお詳しくかいてみよう。<br><br> それはまず、霊と体との根本であるが、人間なるものは既に述べたごとく、霊体は結合一致していると共に、万物の法則としては霊が主で体が従となっている。<br><br>卑近な例だが人間の五体が動くのは、体が勝手に動くのではない。<br><br>霊の命によって動くのである。<br><br>としたら霊が主人公であり、体は従属者である。<br><br>従って病気の場合、最初霊に発生し体に映るのであるから、体のみを治そうとしても、一時的で根本ではないから、もちろん霊を治してこそ根治となるのである。<br><br>ところが科学は唯物理念である以上、いかに進歩したといっても治らないのは当然である。<br><br>度々言った通り医療は一時的、外部的治癒でしかないので、必ず再発するのは、この理を知ればよく分るであろう。<br><br> 右のごとく病気は、最初霊に発生するというその経路をかいてみるが、それには薬毒の作用である。<br><br>薬毒が体内に入るや一旦血液中に混入されて濁血となる。<br><br>この濁血が多量の場合は全身的に拡がるが、少ない場合はそれだけ局部的に集まる。<br><br>そうして濁血は霊体一致の法則によって霊に写ってそれだけ霊を曇らすのである。<br><br>ところが人体なるものは不断に浄化作用が行われている以上、濁血を浄血にする浄化活動が絶えず行われている。<br><br>そうして濁血が腐敗し変化したものである。<br><br>これが霊主体従の法則によって、霊の曇りが減っただけは、体に映って濁血及び膿は減る事になる。<br><br>この過程が病気である事はすでに説いた通りである。<br><br> この理は天然現象にみても分る通り、地上の霊界に汚穢が溜れば、低気圧が発生し、風で吹き払い、雨水で洗い、天日で乾かすと共に、消滅するという作用が自然発生する。<br><br>これが天地間の浄化作用である。<br><br>従って人間の病気でも霊の浄化が発生し、体に映るや発熱によって毒素を溶解し、種々の排泄物にして体外へ出すのである。<br><br>この理によって汚物は出れば出る程、人体は清浄化し健康となるのであるから、浄化作用を援（たす）ける事こそ、真の治療法である。<br><br>しかるに何たる事か、それを逆に解し、汚物を出さないで元通り固めようとする。<br><br>というのは既記のごとく浄化に伴う苦痛を病と称し、マイナス的危険作用と解したのであるから、まことに驚くべき迷盲であった。<br><br>この考え方が医学を生んだのであるから、これに目醒めない限り、人類は病の悩みからいつになっても解放されないのである。<br><br>では次に浄霊の原理をかいてみよう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Origem Espiritual das Doenças e o Equívoco da Medicina</h2>
 <p>Conforme explanei nos tópicos anteriores, a doença consiste em um sintoma físico cuja origem primordial reside no espírito. Por conseguinte, a cura real torna-se inatingível sem que se trate o espírito. Aprofundemos, agora, este princípio fundamental.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Este princípio pode ser observado nos próprios fenômenos da natureza. Quando impurezas se acumulam no Mundo Espiritual terreno, formam-se áreas de baixa pressão. A natureza, então, age para purificar o ambiente: o vento varre as impurezas, a chuva as lava e o sol as seca e as extingue. Este é o processo de purificação do Céu e da Terra. De modo análogo, no ser humano, ocorre a purificação do espírito. Ao se refletir no corpo, ela se manifesta através da febre, que dissolve as toxinas, e de diversas formas de excreção, que as expelem para fora do organismo. Portanto, quanto maior a eliminação dessas impurezas, mais purificado e saudável o corpo se torna. A verdadeira terapêutica consiste, pois, em auxiliar este processo purificador.</p>
 <p>É espantoso, contudo, que a medicina interprete este fenômeno de maneira diametralmente oposta. Em vez de favorecer a eliminação das impurezas, ela busca suprimi-la, solidificando-as novamente no interior do corpo. Isto ocorre porque, como já mencionado, o sofrimento que acompanha a purificação foi erroneamente classificado como “doença” e entendido como uma reação perigosa e negativa. Trata-se de uma ofuscação da verdade verdadeiramente assombrosa. Foi essa mentalidade que deu origem à medicina como a conhecemos. Enquanto a humanidade não despertar para este fato, jamais se libertará do flagelo das enfermidades.</p>
 <p>A seguir, passarei a explanar sobre o princípio do Johrei.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊治病 未発表『医学革命の書』昭和28(1953)年執筆 病気は体的症状であり、その本原は霊にある以上、霊を治さなければ病気は治らないのは、前項までに大体説いたが、これについてなお詳しくかいてみよう。<br/><br/> それはまず、霊と体との根本であるが、人間なるものは既に述べたごとく、霊体は結合一致していると共に、万物の法則としては霊が主で体が従となっている。<br/><br/>卑近な例だが人間の五体が動くのは、体が勝手に動くのではない。<br/><br/>霊の命によって動くのである。<br/><br/>としたら霊が主人公であり、体は従属者である。<br/><br/>従って病気の場合、最初霊に発生し体に映るのであるから、体のみを治そうとしても、一時的で根本ではないから、もちろん霊を治してこそ根治となるのである。<br/><br/>ところが科学は唯物理念である以上、いかに進歩したといっても治らないのは当然である。<br/><br/>度々言った通り医療は一時的、外部的治癒でしかないので、必ず再発するのは、この理を知ればよく分るであろう。<br/><br/> 右のごとく病気は、最初霊に発生するというその経路をかいてみるが、それには薬毒の作用である。<br/><br/>薬毒が体内に入るや一旦血液中に混入されて濁血となる。<br/><br/>この濁血が多量の場合は全身的に拡がるが、少ない場合はそれだけ局部的に集まる。<br/><br/>そうして濁血は霊体一致の法則によって霊に写ってそれだけ霊を曇らすのである。<br/><br/>ところが人体なるものは不断に浄化作用が行われている以上、濁血を浄血にする浄化活動が絶えず行われている。<br/><br/>そうして濁血が腐敗し変化したものである。<br/><br/>これが霊主体従の法則によって、霊の曇りが減っただけは、体に映って濁血及び膿は減る事になる。<br/><br/>この過程が病気である事はすでに説いた通りである。<br/><br/> この理は天然現象にみても分る通り、地上の霊界に汚穢が溜れば、低気圧が発生し、風で吹き払い、雨水で洗い、天日で乾かすと共に、消滅するという作用が自然発生する。<br/><br/>これが天地間の浄化作用である。<br/><br/>従って人間の病気でも霊の浄化が発生し、体に映るや発熱によって毒素を溶解し、種々の排泄物にして体外へ出すのである。<br/><br/>この理によって汚物は出れば出る程、人体は清浄化し健康となるのであるから、浄化作用を援（たす）ける事こそ、真の治療法である。<br/><br/>しかるに何たる事か、それを逆に解し、汚物を出さないで元通り固めようとする。<br/><br/>というのは既記のごとく浄化に伴う苦痛を病と称し、マイナス的危険作用と解したのであるから、まことに驚くべき迷盲であった。<br/><br/>この考え方が医学を生んだのであるから、これに目醒めない限り、人類は病の悩みからいつになっても解放されないのである。<br/><br/>では次に浄霊の原理をかいてみよう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

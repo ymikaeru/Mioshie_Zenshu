@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sizen09</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 自然農法の一大朗報 『栄光』256号、昭和29(1954)年4月14日発行 本農法について数年前から実地調査研究されていた、農林省食糧業務第二課長山川達雄氏が主唱者となり、今回八名の共鳴者諸君によって左のごとき自然農法研究会が結成されたのであるから、国家のため慶賀の至りである。<br><br>何しろ同省は農業界の本山ともいうべくこの方面の専門家がこれだけ認識されたという事だけでも、本農法がようやく軌道に乗ったと言うべきである。<br><br>従って今後の進展は期して待つべきものがあろう。<br><br>これによって普及会会員諸氏にしても、百万の味方を得た感があると思う。<br><br> 農林省自然農法研究会趣意書 現代日本農業は、政府・学者・技術者及び農民等の懸命なる努力にもかかわらず、正に危機に直面している。<br><br> このときに当って肥料代不要、農薬代不要、労力節減かつ風水害・冷害・かんばつ・病虫害等の被害軽微にしてしかも年々増収となり五カ年にして五割以上増収という画期的農法が出現し、すでに全国各地の農家において着々とその実効を挙げつつあり、新聞・雑誌・ラジオ等でも報道され問題となっているが、学者や技術者は到底あり得べからざることとして研究することなく、政府も又これをとりあげるに至っていないのであります。<br><br> 一方において自然農法普及会は、この全国的組織をもって各都道府県に地方本部をおき、大々的にその普及に進出し、今や実施農家は数万の多きに達しているといわれるのであります。<br><br> ここにおいて我々農林省に勤務する者、拱手（きょうしゅ）傍観するに忍びず実地について調査の結果、理論はともかく、増収となることが厳然たる事実であることを知ったのであります。<br><br> 我々はかかる事実の存するところ必ずや合理性のある何物かが存在することを確信するものであります。<br><br>かかる観点から農林省内においてこの農法に関心を持つ者相図り、自然農法とはいかなるものであるかをあらゆる角度より研究する必要のあることを痛感し、本会を結成した次第であります。<br><br> 右の趣旨に御賛成下され志を同じゅうする者は速かに本会に入会し、相共に研究せられんことをおすすめ致します。<br><br> 昭和二十九年三月 農林省職員有志自然農法研究会発起人一同 各 位 会 則 （名称及び事務所の所在地） 第一条 この会は農林省職員有志自然農法研究会と称し、事務所を農林省内におく。<br><br> （目的） 第二条 この会は自然農法をあらゆる角度より調査研究し、あわせてその調査研究の結果を発表するをもって目的とする。<br><br> （会員） 第三条 この会には農林省職員は誰でも随時入会することができる。<br><br>入会の際金五十円を納付するものとする。<br><br> （役員） 第四条 この会に次の役員をおく。<br><br> 委 員 長 一 名 副委員長 二 名 常任委員 二 名 委 員 若干名 第五条 委員長・副委員長・常任委員及び委員は会員中より互選し、その任期は一カ年とする。<br><br>但し再選を妨げない。<br><br>委員長は会務を統括し、副委員長は委員長を補佐し、常任委員は庶務及び会計を掌り、委員は各局におき相互の連絡に当り会務の運営を図る。<br><br> （顧問） 第六条 顧問は委員会の決議に基き学識経験者の中より推薦することが出来る。<br><br> （事業） 第七条 この会は第二条の目的を達成するため次の事業を行う。<br><br> 一、自然農法の原理の研究 二、自然農法の効果の研究 三、自然農法実施方法の技術的研究 四、自然農法実施農家の現地調査研究 五、自然農法の実地試験委託研究 六、自然農法以外の農法との比較研究 七、自然農法に関する座談会の開催 八、自然農法に関する資料の蒐集 九、その他自然農法と関連のある諸問題の研究 十、機関誌の発行 （月例研究会） 第八条 この会は毎月一回適当な日を定めて月例研究会を開く。<br><br>但し委員長が必要と認めたとき、又は会員五名以上の要求があったときは臨時研究会を開くことができる。<br><br> （会計） 第九条 この会の経費は会費及び寄付金によって賄う。<br><br>但し会費は委員長が必要と認めたとき、過半数の同意を得て徴収するものとする。<br><br> 第十条 この会の会計年度は四月一日に始まり翌年三月三一日に終る。<br><br> （総会） 第十一条 この会は毎年三月総会を開き、その際役員の改選を行う。<br><br>委員長が必要と認めたときは臨時に総会を開くことができる。<br><br> 第十二条 定期総会においては委員長は会務を報告し、常任委員は決算報告をしなければならない。<br><br> （会則の改正） 第十三条 この会則を改廃するには会員三分の二以上の同意を要する。<br><br> 付帯決議事項 一、役員は発起人において責任者を推薦し本人及び会員の同意を得て決定するものとする。<br><br> 二、顧問は委員長決定後委員会にて決議の上推薦するものとする。<br><br> 三、月例研究会は毎月第二火曜の午後五時より開くものとする。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Uma Notícia Alvissareira para a Agricultura Natural</h2>
 <p>O senhor Tatsuo Yamakawa, Chefe da Segunda Divisão de Assuntos Alimentícios do Ministério da Agricultura e Florestas, que há vários anos vinha investigando e pesquisando em campo a nossa Agricultura Natural, tornou-se o principal proponente e, juntamente com oito outros entusiastas, fundou a associação de estudos descrita a seguir. Trata-se de um acontecimento de suma importância e motivo de grande celebração para o futuro de nossa nação.</p>
@@ -148,5 +300,48 @@ Artigo 13º: A alteração ou revogação deste estatuto exigirá a aprovação 
 <li>Os consultores serão indicados após deliberação do comitê diretivo, uma vez que o Presidente tenha sido eleito.</li>
 <li>As reuniões mensais de estudo serão realizadas na segunda terça-feira de cada mês, a partir das 17h.</li>
 </ol></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 自然農法の一大朗報 『栄光』256号、昭和29(1954)年4月14日発行 本農法について数年前から実地調査研究されていた、農林省食糧業務第二課長山川達雄氏が主唱者となり、今回八名の共鳴者諸君によって左のごとき自然農法研究会が結成されたのであるから、国家のため慶賀の至りである。<br/><br/>何しろ同省は農業界の本山ともいうべくこの方面の専門家がこれだけ認識されたという事だけでも、本農法がようやく軌道に乗ったと言うべきである。<br/><br/>従って今後の進展は期して待つべきものがあろう。<br/><br/>これによって普及会会員諸氏にしても、百万の味方を得た感があると思う。<br/><br/> 農林省自然農法研究会趣意書 現代日本農業は、政府・学者・技術者及び農民等の懸命なる努力にもかかわらず、正に危機に直面している。<br/><br/> このときに当って肥料代不要、農薬代不要、労力節減かつ風水害・冷害・かんばつ・病虫害等の被害軽微にしてしかも年々増収となり五カ年にして五割以上増収という画期的農法が出現し、すでに全国各地の農家において着々とその実効を挙げつつあり、新聞・雑誌・ラジオ等でも報道され問題となっているが、学者や技術者は到底あり得べからざることとして研究することなく、政府も又これをとりあげるに至っていないのであります。<br/><br/> 一方において自然農法普及会は、この全国的組織をもって各都道府県に地方本部をおき、大々的にその普及に進出し、今や実施農家は数万の多きに達しているといわれるのであります。<br/><br/> ここにおいて我々農林省に勤務する者、拱手（きょうしゅ）傍観するに忍びず実地について調査の結果、理論はともかく、増収となることが厳然たる事実であることを知ったのであります。<br/><br/> 我々はかかる事実の存するところ必ずや合理性のある何物かが存在することを確信するものであります。<br/><br/>かかる観点から農林省内においてこの農法に関心を持つ者相図り、自然農法とはいかなるものであるかをあらゆる角度より研究する必要のあることを痛感し、本会を結成した次第であります。<br/><br/> 右の趣旨に御賛成下され志を同じゅうする者は速かに本会に入会し、相共に研究せられんことをおすすめ致します。<br/><br/> 昭和二十九年三月 農林省職員有志自然農法研究会発起人一同 各 位 会 則 （名称及び事務所の所在地） 第一条 この会は農林省職員有志自然農法研究会と称し、事務所を農林省内におく。<br/><br/> （目的） 第二条 この会は自然農法をあらゆる角度より調査研究し、あわせてその調査研究の結果を発表するをもって目的とする。<br/><br/> （会員） 第三条 この会には農林省職員は誰でも随時入会することができる。<br/><br/>入会の際金五十円を納付するものとする。<br/><br/> （役員） 第四条 この会に次の役員をおく。<br/><br/> 委 員 長 一 名 副委員長 二 名 常任委員 二 名 委 員 若干名 第五条 委員長・副委員長・常任委員及び委員は会員中より互選し、その任期は一カ年とする。<br/><br/>但し再選を妨げない。<br/><br/>委員長は会務を統括し、副委員長は委員長を補佐し、常任委員は庶務及び会計を掌り、委員は各局におき相互の連絡に当り会務の運営を図る。<br/><br/> （顧問） 第六条 顧問は委員会の決議に基き学識経験者の中より推薦することが出来る。<br/><br/> （事業） 第七条 この会は第二条の目的を達成するため次の事業を行う。<br/><br/> 一、自然農法の原理の研究 二、自然農法の効果の研究 三、自然農法実施方法の技術的研究 四、自然農法実施農家の現地調査研究 五、自然農法の実地試験委託研究 六、自然農法以外の農法との比較研究 七、自然農法に関する座談会の開催 八、自然農法に関する資料の蒐集 九、その他自然農法と関連のある諸問題の研究 十、機関誌の発行 （月例研究会） 第八条 この会は毎月一回適当な日を定めて月例研究会を開く。<br/><br/>但し委員長が必要と認めたとき、又は会員五名以上の要求があったときは臨時研究会を開くことができる。<br/><br/> （会計） 第九条 この会の経費は会費及び寄付金によって賄う。<br/><br/>但し会費は委員長が必要と認めたとき、過半数の同意を得て徴収するものとする。<br/><br/> 第十条 この会の会計年度は四月一日に始まり翌年三月三一日に終る。<br/><br/> （総会） 第十一条 この会は毎年三月総会を開き、その際役員の改選を行う。<br/><br/>委員長が必要と認めたときは臨時に総会を開くことができる。<br/><br/> 第十二条 定期総会においては委員長は会務を報告し、常任委員は決算報告をしなければならない。<br/><br/> （会則の改正） 第十三条 この会則を改廃するには会員三分の二以上の同意を要する。<br/><br/> 付帯決議事項 一、役員は発起人において責任者を推薦し本人及び会員の同意を得て決定するものとする。<br/><br/> 二、顧問は委員長決定後委員会にて決議の上推薦するものとする。<br/><br/> 三、月例研究会は毎月第二火曜の午後五時より開くものとする。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

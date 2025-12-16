@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s290316</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S29年3月16日） 『御教え集』32号、昭和29(1954)年4月15日発行 昭和二十九年三月十六日 最近、二重橋事件で目が見えなくなった○○という十一になる女の子が、清水という博士が手術して見えるようになったといって、新聞にデカデカと書いてありますが、あれは本当のことが分かるとなんでもないのです。<br><br>あれは頭を打ったので内出血になって、その血が視神経の側に固まったわけです。<br><br>だからこれはウッチャラかしておけば、膿になって、一年かせいぜい二年ぐらいの間に目脂になって出てしまって、それですっかり治るのです。<br><br>眼球は別になんでもないのです。<br><br>ただそれだけのものです。<br><br>それを脳や頭蓋骨に穴をあけて出血の固まりを取ったのですが、そんな手数をかける必要はなにもないのです。<br><br>浄霊なら上から出血を溶かしてしまいますから、これはずっと早く、一週間か十日で治ってしまうものです。<br><br>ウッチャラかしておいても、子供だから早いので一年とみればよいです。<br><br>それをたいへんな医学の進歩で、功名なように大騒ぎをやるのですから、われわれからみると実に馬鹿馬鹿しい話です。<br><br> それについて、“今の医学というのは、科学ではない、本当の科学というのはこういうものだ”ということを書いてみました。<br><br> （御論文「私は宗教科学者だ」） 【栄光 二五五号】 自然農法も予定どおり各方面にだいぶ行きわたりつつあります。<br><br>それについて昨日聞いた話では、最近農林省の役人の中に自然農法研究会というのができたそうです。<br><br>まだ十数人ぐらいだそうですが、これは非常によいことだと思ってます。<br><br>なんと言っても農林省が本元ですから、この中にそういう固まりができて拡がって行き、理解されるとしたら、これは一番肝腎な根城ですから、その根城を占領してしまうのだから、たちまち全国的に拡がると思います。<br><br>しかしまだ、会員の人は幹部ではないらしいです。<br><br>だから上の方はそうとう頑強だろうから、それまでそうとう時間はかかると思いますが、結局において一番の農民が分かってきて、そうして実際の耕作者が増え、実際の成績を上げてゆけば、これは否応ないのです。<br><br>そこにもっていって、農林省の中にそういう固まりができてきたら、これは国民と下の役人が、上の偉い人のケツを叩きますから、これはどうしてもユッタリと椅子に腰掛けていられないことになります。<br><br>どうしても立たなければならないことになります。<br><br> 世の中が民主主義になったことは非常に結構ですが、あべこべなことがよくあるのです。<br><br>これはジャーナリストを見ても分かります。<br><br>自然農法は地方の新聞にはよく出てます。<br><br>この間も、九州の主な都市で展示会をやって、その土地の栽培者が見本を展示し、それを説明し、いろいろ宣伝をしたのは非常によかったのですが、その土地の新聞はほとんど出してます。<br><br>一番ふるっているのは福岡の『夕刊フクニチ』で、これは別に頼んだわけではないが、先方で大々的に、約一頁近くの記事を出して見出しに“肥料こそ農作物の敵”とかと出てました。<br><br>熊本あたりもなかなか盛んでした。<br><br>九州一円は大いに動くだろうと思ってます。<br><br>そういうようなわけで、九州に限らず他の地方も、地方新聞はみんなよく出してます。<br><br>以前みたいに「ひやかし」ということなく、まじめに、よく書くというよりも正直に書いてます。<br><br>これはたいへんよいです。<br><br>ところが大都会の新聞は一言も出さないのです。<br><br>これが今言ったとおり、農民や地方新聞がケツを叩くので、最後に大都会の新聞はやっと立つのでしょう。<br><br>ところが新聞は、大衆の木鐸（ぼくたく）で、世論を喚起するとか、というものですが、目下はそうではなくて、少なくとも私のやっている仕事においては指導される地位になったのです。<br><br>それでいろいろ指導されながら、動くのに暇がかかるというわけです。<br><br>モウロク親父みたいなものです。<br><br>半分中気になったようなもので、腰を曲げたり足を動かすのが億劫なのでしょう。<br><br>そう言えば怒るでしょうが、怒るなら、神経があるのだから結構です。<br><br> アメリカあたりの新聞はそうではないらしいです。<br><br>批判などがなかなか早いです。<br><br>たしかに国民をリードしていることがよく分かります。<br><br>どうも日本の新聞は記事がだんだん遅くなってきたのです。<br><br>日本の新聞も前にはそうでなかったです。<br><br>識者の間にもそうとう新聞に対する、そういったしつけしていることを聞きます。<br><br>いまラジオで日曜の夜新聞論調というのをやってますが、痛快なことがあります。<br><br>それで日本の新聞は品がよくなりすぎてしまったのです。<br><br>実におとなしいです。<br><br>批判なども、善いとか悪いと断定することはないので、たいていどっちつかずな、非常に無事な書き方になってます。<br><br>だから新聞論調というのはおもしろくないです。<br><br>ラジオで新聞論調をやってますが、どの新聞も同じことを書いてます。<br><br>特色はなくなってます。<br><br>というのは、新聞界に人物がなくなってきたのです。<br><br>以前には新聞界に人物があって、それが新聞界の特色だったのです。<br><br>今はそれがなくなったのです。<br><br>という一番の原因は、株式会社になったためです。<br><br>営利事業ですから、営利事業ならば、他のことに騒いでよけいな手数やなにかがかかることは損ですから、算盤上合わないから、株式会社になった以上はやはり利益を上げなければならないし、配当を上げなければならないというわけで、なるべく損のゆくようなことはしないで、よく行って儲かるという……そうばかりではありませんが、それもそうとうあるのではないかと思うのです。<br><br>ですから救世教のこともいろいろ知っているのです。<br><br>たしかに“薬は毒だ。<br><br>無肥料でなければいけない”ということは知っているのです。<br><br>朝日新聞などは随分いろいろ調査したようですから……。<br><br>そういうようで知っているが、そういうことを言って肥料会社を刺激したり、売薬会社を刺激することは、つまり新聞営業としては、むしろ損はいっても得はゆかないから、そういうようなわけで、無事にすましているというわけではないかと思うのです。<br><br>それでしかたなしに私が特集号百万部を作って、戸別に農村に売るよりしようがないのです。<br><br>本当はこうしなくて、新聞が公平にやるとすれば、私の方でそういった本を書いて新聞広告をすれば一番早いのです。<br><br>手数がかからなくてよいのです。<br><br>ところが新聞は救世教の広告は引き受けないというのです。<br><br>それは美術関係のことは喜んで引き受けますが、農業に関したこと、医学に関したことは引き受けない……のではなくて、引き受けられないのです。<br><br>そういう方面からの救世教に対しての非常に強力ななにかがあるわけなのです。<br><br>それは新聞営業から言えば不利ですから、引き受けないのは当然かもしれないです。<br><br>しかし世界人類、国家的見地から言えば、はなはだ間違っていると言ってよいです。<br><br>そういうわけだから、私がいろんな肝腎な良いこと、世の中のためになることをするのに、新聞を利用することができなくなったのです。<br><br>馬鹿な話です。<br><br>それで、どうせ良いことをするなら、今までありふれたことではみんなやっているから、それではあたりまえのことです。<br><br>それで人がびっくりするような、目を見張るようなことこそ、今までにない文化の進歩ですが、それを新聞がとめてしまうのです。<br><br>ですからこのことを本当に考えたら、実に日本の新聞というのは、その点において不思議な存在です。<br><br>ですから新聞は、報道機関だから報道するだけとしたら、官報や小説、雑誌と同じものになります。<br><br>新聞はその国民の知識を開発させ、文化の発展に役立たせるというのが生命ですから、新聞は、はなはだ情けないことになったわけです。<br><br>それで、しようがないから、実際戸別訪問するよりないということになったのです。<br><br>新聞のたくさんある国が、世の中の人に良いことを知らせるのに一軒一軒訪ねて行かなければならないという、実に文明国として信じられないような状態です。<br><br>しかしそうかといって、新聞が目が覚めるまで待っていた日には、日本は、去年のような凶作が続いたら国家はたいへんだから、しようがないから新聞は当にしないで、こっちがじかにやらなければならないというわけなのです。<br><br>でも幸い、予期以上に新聞は売れます。<br><br>そうして日本全国的に農民が自然栽培によって大いに増産になって、そうすると大問題になりますから、それから都会の新聞などがあわてて目を白黒することになるでしょうから、実に悲喜劇です。<br><br>見物だろうと思ってます。<br><br>しかしこれは先方が悪いのですから、どうもやむを得ないです。<br><br> それから昨日、いつも言うグリリ夫人が連れてきた、アメリカの文化事業といったような機関があって、そこから日本の文化財の研究に来たのです。<br><br>何十人か来たらしいですが、その中の一人なのです。<br><br>婦人ですが、やっぱりなかなか頭の良い人で、さすがに見方が急所に来ているのです。<br><br>というのは、日本の美術は今までアメリカで知っているのは徳川末期までです。<br><br>もっとも浮世絵などでも徳川末期までですが、明治以来の文化というのは、アメリカではぜんぜん知らないのです。<br><br>明治以後にもそうとう良い物ができているに違いない、それを研究しろ、という意味で派遺されているのです。<br><br>二年の予定だそうです。<br><br>それで明治以後の美術とすると、とにかく元は絵だから、明治以後の日本で一番偉い絵描き、第一人者はだれだ、それは栖鳳だというわけで、栖鳳を研究しろという方針でやり始めると、作品がまとまっている所はなかなかないのです。<br><br>栖鳳を持っている人で二幅か三幅しかないのです。<br><br>それで私の所に栖鳳が一番あるということを知ったので来たわけです。<br><br>これは前からそういう話があってきたのです。<br><br>それで、ついてきた人は栖鳳の息子ですが、息子といっても、外国に長く行っていて英語はペラペラですから、絵の説明と、話をし合うのに非常によいです。<br><br>ごく適当な人です。<br><br>そういうわけで、私の所で三分の二（箱根にもありますから）ぐらい見せました。<br><br>それで、あんまり多いのでびっくりしてました。<br><br>特に栖鳳の息子は、今まで随分ほうぼうに行ったそうですが、必ず偽物が混っていると言うのです。<br><br>まずふつう三割は偽物だと言うのです。<br><br>ところがここに来て見ると、偽物が一つもない、全部本物だ、実に珍しいと言ってました。<br><br>そういうわけで、向こうの目的としては非常によかったのです。<br><br>栖鳳を研究するとしたら、私の所に来るよりないでしょう。<br><br>私は栖鳳が一番好きでしたから、約十年ぐらい前から栖鳳の良い物ばかり蒐めました。<br><br>栖鳳でもやっぱり悪い物も少しはありますから、そういうのは、はねのけて、ごく良い物ばかり選ったわけです。<br><br>それも以前だからあったわけで、今日ではほとんどないです。<br><br>浮動しているものは世の中になくなったわけです。<br><br>そういうわけで、非常に喜んでました。<br><br>また箱根にあるのも見なければならないから、来月箱根に来るように言ってやりました。<br><br>これについて考えてみると、アメリカがそういうものに対して実に熱心であるとともに、昨日来た婦人は実に熱心です。<br><br>私なども、あんまり熱心なのでびっくりしました。<br><br>それをもってみても、アメリカが日本の文化財に対して、いかに関心を持っているかということが分かります。<br><br>話を聞いてみると、いまアメリカでは日本の美術ということに非常に注目を引いてきたのです。<br><br>だから日本熱というような傾向が出てきたのです。<br><br>だからこれから大いに私の方の仕事をやってもらいたいと……これは具体的の話ではないが、だいたい先方の意向からみると、アメリカで日本文化を世界的に引き上げて、文化運動とか文化連盟というような機関を作って、大いに活動したい。<br><br>それには日本で救世教を本部にする、中心にするというような考えがあるらしいのです。<br><br>ですから、そうなるだろうと思ってます。<br><br>それについては、いろいろ会議をするとか各国の人が集まるとか、泊まって食事をする設備も欲しいと言ってましたから、熱海の美術館はそういう設備もするからということを言いました。<br><br>ですから今度の熱海の美術館は、各国の専門家やそういった希望の人たちが一年に一回とか、半年に一回というように来て、各国に美術館を造るとか、あるいはその国の特長のある美術品を交換する……と言っても貸し借りして、世界的に美術思想を大いに涵養（かんよう）するという、そういう機関、つまりユネスコ的の文化財方面というような機関、そういうものができるだろうと思ってます。<br><br>それで熱海の美術館を本部にするというようなことにして、そうなるとたいへんな大きな事業になります。<br><br>無論神様が世界に地上天国を造る、その一つの準備になるわけだから、無論できるに違いないですが、そういうふうになってきたということは、よほどおもしろくなってきたと言えます。<br><br> また、来月の一日から三越で古九谷焼の展覧会をやり、私の方でもいくらか出します。<br><br>それが十一日まであって、九日から「肉筆浮世絵名作展」があります。<br><br>今まで肉筆の浮世絵というのは人があんまり見たことがないですが、それはあんまり見せるような所がないからです。<br><br>ですから浮世絵展というと版画です。<br><br>ところが今度初めて肉筆の浮世絵展ができるのですから、大いに人気を呼ぶだろうと思います。<br><br>というのは、版画を外国に持って行かれて、日本の浮世絵というものは世界的の地位になったわけです。<br><br>そこで浮世絵というものは、版画のものだというように思われていたのです。<br><br>特に日本が遅ればせに外国の刺激を受けて、日本人もそう思っていたのです。<br><br>もっともそれもわけがあるのです。<br><br>つまり版画の方はたくさんできたことと、庶民階級に散らばって、たくさんあるというについて、手にも入りやすいし、目にも触れやすいということ、しかし肉筆の方はまず大名とか金持ちとか、都会などでも庶民階級よりか、いくらか懐の温かい連中が持っていて、床の間にかけて大切にしていたのです。<br><br>そこでそれを集めるのもたいへんだし、見る機会もあんまりない。<br><br>ところが終戦後そういう物がだいぶ出てきたのです。<br><br>ちょうど私は、版画というものはあんまり興味がないのと、どうしても肉筆に限ると前から思っていたので、割合に安く、かえって版画より安かったのです。<br><br>ですから私はできるだけ蒐めたのです。<br><br>考えてみても、版画というのは版で刷ったのですが、ふつう一種類二百枚とされてます。<br><br>それで肉筆というのは一種類一枚で、それも念を入れて画いたものです。<br><br>大きさも大きいし、立派な絵の具も使ってあるし、力を入れて画いたのですからたいへんなものです。<br><br>しかしその方うが安いというのですから、そんなばかなことはないと思って、私はドンドン買ったのです。<br><br>ですから日本中に数はいくらもない肉筆を、安くたちまち集まったわけです。<br><br>それで今度肉筆名作展というものをできるわけです。<br><br>これは東京と大阪と福岡で順繰りにやるような話ですが、随分評判になるだろうと思ってます。<br><br>ですからいずれ肉筆浮世絵展というのはアメリカあたりでも見たがるだろうと思ってます。<br><br>いずれそうなるだろうと思います。<br><br> それからもう一つ注目すべきは、今までデパートの展覧会というとお寺でした。<br><br>法隆寺だとか興福寺だとか、いろんなお寺展覧会ですが、これはほとんど廃（すた）ったわけです。<br><br>というのは、あれは一般人にはおもしろくないのです。<br><br>阿弥陀様、観音様といっても、どこでもたいした違いはないので、ただ珍しいだけで、二、三度見ればたくさんです。<br><br>ところがこういったようなものは、いつ見ても分かりますし、誰が見てもおもしろいですから、これからはまた、ひとしきりこういった美術館の美術展というようなものが、大いにはやるだろうと思います。<br><br>そうなると私の方の美術館より他に本当にやることはできないです。<br><br>というのは、個人的にはたいてい出尽くしました。<br><br>ごくすばらしい特級品だけを持っているので、そういうのは手放すことも出品もできないのです。<br><br>そこにもっていって税金を怖がってます。<br><br>ですから出しても、名前も出せないようなわけです。<br><br>ところがこっちの美術館の方は大いばりに出せますし、品物も豊富にあります。<br><br>と言っても私の所だけです。<br><br>他の美術館は二、三回やれるだけぐらいなものです。<br><br>それも油絵ぐらいなものです。<br><br>東京では根津美術館ぐらいです。<br><br>長尾美術館はだいぶ品物を減らしました。<br><br>大倉集古館は駄目ですし、それからまた他の美術館は油絵ばかりですから、これはさんざん見尽くしたし、油絵はやはり一般には向かないです。<br><br>結局私の方が独り占めというような形に、自然になってきたわけです。<br><br>私の方は今デパートの展覧会をやっても、一々違ったものを十何回はやれます。<br><br>だから大いに美術思想を養うという意味において、非常によいと思います。<br><br>いくらか救世教の宣伝にもなるわけです。<br><br>それともう一つは、新宗教というのは社会的に軽蔑されている、この観念に大いに役立つと思ってます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Avanço da Obra Divina e a Missão da Arte</h2>
 <p>Recentemente, o caso de uma menina de onze anos que perdera a visão no incidente da ponte Nijubashi foi noticiado com grande alarde pela imprensa, pois um médico chamado Shimizu a teria operado, restituindo-lhe a capacidade de enxergar. Contudo, para quem compreende a verdade, o caso é de uma simplicidade manifesta. A causa da cegueira foi um traumatismo craniano que provocou uma hemorragia interna; o sangue, ao coagular, comprimiu o nervo óptico. Se o caso fosse deixado à sua evolução natural, o coágulo se liquefaria, transformando-se em pus, e seria expelido naturalmente como secreção ocular no transcorrer de um ou, no máximo, dois anos, resultando na cura completa. O globo ocular em si não sofrera dano algum. Era apenas isso. Em vez de aguardar, perfuraram-lhe o cérebro e o crânio para remover o coágulo, mas um procedimento de tal magnitude era de todo desnecessário. O Johrei, por sua vez, teria dissolvido o coágulo de cima para baixo, promovendo a cura de forma muito mais célere, em uma semana ou dez dias. Mesmo sem intervenção, por se tratar de uma criança, a recuperação teria levado aproximadamente um ano. Portanto, sob nossa ótica, é verdadeiramente irrisório que se promova tal alvoroço em torno do que proclamam ser um grande avanço da medicina.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>Ao refletir sobre o episódio, constato não apenas o grande entusiasmo dos americanos pelo assunto, mas também o fervor da pesquisadora que nos visitou ontem, que chegou a me surpreender. Isso demonstra o profundo interesse que o patrimônio cultural japonês desperta nos Estados Unidos. Segundo me disseram, a arte japonesa tem atraído enorme atenção no país, gerando uma espécie de "febre japonesa". Eles desejam que eu colabore intensamente com seus projetos. Embora a conversa não tenha sido conclusiva, a intenção deles parece ser a de promover a cultura japonesa em escala mundial a partir dos Estados Unidos, criando um movimento ou uma federação cultural e estabelecendo a Sekaikyuseikyou como sua sede e centro de operações no Japão. Acredito que isso se concretizará. Mencionaram a necessidade de instalações para conferências, hospedagem e alimentação para os participantes de diversos países. Informei-lhes que o Museu de Atami contemplará essas facilidades. Com isso, ele se tornará uma instituição de caráter internacional, um organismo nos moldes da UNESCO, porém voltado ao patrimônio cultural. Especialistas do mundo todo poderão se reunir periodicamente para planejar a construção de museus em seus países, fomentar o intercâmbio de obras de arte representativas de cada cultura e, assim, cultivar em escala global a apreciação artística. O Museu de Atami será a sede desse movimento. Será um empreendimento de vastas proporções, e sem dúvida uma das etapas preparatórias para a construção do Paraíso Terrestre no mundo, idealizada por Deus. É certo que se realizará, e o fato de as coisas estarem se encaminhando nessa direção indica que estamos adentrando uma fase verdadeiramente fascinante.</p>
 <p>Ademais, a partir do primeiro dia do próximo mês, a loja de departamentos Mitsukoshi realizará uma exposição de cerâmicas Ko-Kutani, para a qual também emprestarei algumas peças. O evento vai até o dia onze e, a partir do dia nove, teremos a "Exposição de Obras-Primas de Ukiyo-e em Pintura Original". O público em geral viu poucas pinturas originais de ukiyo-e, pois raramente há locais para exibi-las. As exposições de ukiyo-e são, em sua maioria, de gravuras. Por ser a primeira vez que se realiza uma mostra exclusivamente com pinturas, acredito que atrairá grande interesse. Foram as gravuras, levadas ao exterior, que conferiram ao ukiyo-e seu prestígio mundial. Por isso, consolidou-se a ideia de que ukiyo-e se resumia a gravuras. Os próprios japoneses, tardiamente influenciados pelos estrangeiros, passaram a pensar assim. Há uma razão para isso: as gravuras eram produzidas em grande quantidade e se disseminaram entre as classes populares, sendo, portanto, fáceis de adquirir e de ver. Já as pinturas originais pertenciam aos senhores feudais e aos ricos, que as guardavam preciosamente nos <em>tokonoma</em> de suas residências. Eram difíceis de colecionar e as oportunidades de vê-las eram raras. Após a guerra, porém, muitas dessas obras vieram a mercado. Como eu nunca tive grande interesse por gravuras, preferindo desde sempre as pinturas originais, pude adquiri-las a preços surpreendentemente baixos, por vezes inferiores aos das gravuras. Ciente do absurdo dessa situação – pois as gravuras são impressas em edições de geralmente duzentas cópias, enquanto as pinturas são peças únicas, executadas com esmero, em formatos maiores e com pigmentos de alta qualidade –, comprei-as sem hesitar. Assim, em pouco tempo e a baixo custo, reuni um vasto acervo de pinturas originais, raras em todo o Japão. É por isso que podemos agora realizar esta exposição de obras-primas. Há planos de levá-la a Tóquio, Osaka e Fukuoka, e prevejo que será um grande sucesso. Acredito que, futuramente, haverá interesse em apresentá-la também nos Estados Unidos.</p>
 <p>Outro ponto digno de nota é que, até agora, as exposições em lojas de departamento eram predominantemente de acervos de templos, como Horyu-ji e Kofuku-ji. Essa prática caiu em desuso, pois não desperta o interesse do grande público. Imagens de Amida ou Kannon, com poucas variações entre si, só atraem pela raridade, e depois de vistas algumas vezes, perdem a novidade. A arte que apresentamos, por outro lado, é sempre interessante para todos, em qualquer ocasião. Por isso, creio que as exposições de arte de museus como o nosso se tornarão muito populares. E, na verdade, somente o nosso museu tem condições de realizá-las. As coleções particulares já foram, em sua maioria, exploradas. Os colecionadores possuem apenas algumas poucas peças de primeiríssima linha, das quais não se desfazem e que não emprestam para exposições. Além disso, temem a fiscalização tributária e, por isso, não podem sequer exibir seus nomes. Nosso museu, ao contrário, pode expor suas obras com orgulho e possui um acervo vastíssimo. E digo isso apenas do nosso museu. Outros museus teriam acervo para realizar duas ou três mostras, no máximo, e geralmente de pintura a óleo. Em Tóquio, há o Museu Nezu. O Museu Nagao teve seu acervo consideravelmente reduzido. O Okura Shukokan está fora de questão. Os demais se dedicam quase exclusivamente à pintura a óleo, da qual o público já se cansou e que, de modo geral, não tem grande apelo popular. Naturalmente, essa conjuntura resultou em uma espécie de monopólio para nossa instituição. Atualmente, temos capacidade para realizar mais de dez exposições diferentes em lojas de departamento, cada uma com um acervo inédito. Isso é excelente para cultivar a apreciação artística e, ao mesmo tempo, serve como divulgação para a Sekaikyuseikyou. E, por fim, creio que essa atuação contribuirá enormemente para dissipar o desprestígio social que recai sobre as novas religiões.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S29年3月16日） 『御教え集』32号、昭和29(1954)年4月15日発行 昭和二十九年三月十六日 最近、二重橋事件で目が見えなくなった○○という十一になる女の子が、清水という博士が手術して見えるようになったといって、新聞にデカデカと書いてありますが、あれは本当のことが分かるとなんでもないのです。<br/><br/>あれは頭を打ったので内出血になって、その血が視神経の側に固まったわけです。<br/><br/>だからこれはウッチャラかしておけば、膿になって、一年かせいぜい二年ぐらいの間に目脂になって出てしまって、それですっかり治るのです。<br/><br/>眼球は別になんでもないのです。<br/><br/>ただそれだけのものです。<br/><br/>それを脳や頭蓋骨に穴をあけて出血の固まりを取ったのですが、そんな手数をかける必要はなにもないのです。<br/><br/>浄霊なら上から出血を溶かしてしまいますから、これはずっと早く、一週間か十日で治ってしまうものです。<br/><br/>ウッチャラかしておいても、子供だから早いので一年とみればよいです。<br/><br/>それをたいへんな医学の進歩で、功名なように大騒ぎをやるのですから、われわれからみると実に馬鹿馬鹿しい話です。<br/><br/> それについて、“今の医学というのは、科学ではない、本当の科学というのはこういうものだ”ということを書いてみました。<br/><br/> （御論文「私は宗教科学者だ」） 【栄光 二五五号】 自然農法も予定どおり各方面にだいぶ行きわたりつつあります。<br/><br/>それについて昨日聞いた話では、最近農林省の役人の中に自然農法研究会というのができたそうです。<br/><br/>まだ十数人ぐらいだそうですが、これは非常によいことだと思ってます。<br/><br/>なんと言っても農林省が本元ですから、この中にそういう固まりができて拡がって行き、理解されるとしたら、これは一番肝腎な根城ですから、その根城を占領してしまうのだから、たちまち全国的に拡がると思います。<br/><br/>しかしまだ、会員の人は幹部ではないらしいです。<br/><br/>だから上の方はそうとう頑強だろうから、それまでそうとう時間はかかると思いますが、結局において一番の農民が分かってきて、そうして実際の耕作者が増え、実際の成績を上げてゆけば、これは否応ないのです。<br/><br/>そこにもっていって、農林省の中にそういう固まりができてきたら、これは国民と下の役人が、上の偉い人のケツを叩きますから、これはどうしてもユッタリと椅子に腰掛けていられないことになります。<br/><br/>どうしても立たなければならないことになります。<br/><br/> 世の中が民主主義になったことは非常に結構ですが、あべこべなことがよくあるのです。<br/><br/>これはジャーナリストを見ても分かります。<br/><br/>自然農法は地方の新聞にはよく出てます。<br/><br/>この間も、九州の主な都市で展示会をやって、その土地の栽培者が見本を展示し、それを説明し、いろいろ宣伝をしたのは非常によかったのですが、その土地の新聞はほとんど出してます。<br/><br/>一番ふるっているのは福岡の『夕刊フクニチ』で、これは別に頼んだわけではないが、先方で大々的に、約一頁近くの記事を出して見出しに“肥料こそ農作物の敵”とかと出てました。<br/><br/>熊本あたりもなかなか盛んでした。<br/><br/>九州一円は大いに動くだろうと思ってます。<br/><br/>そういうようなわけで、九州に限らず他の地方も、地方新聞はみんなよく出してます。<br/><br/>以前みたいに「ひやかし」ということなく、まじめに、よく書くというよりも正直に書いてます。<br/><br/>これはたいへんよいです。<br/><br/>ところが大都会の新聞は一言も出さないのです。<br/><br/>これが今言ったとおり、農民や地方新聞がケツを叩くので、最後に大都会の新聞はやっと立つのでしょう。<br/><br/>ところが新聞は、大衆の木鐸（ぼくたく）で、世論を喚起するとか、というものですが、目下はそうではなくて、少なくとも私のやっている仕事においては指導される地位になったのです。<br/><br/>それでいろいろ指導されながら、動くのに暇がかかるというわけです。<br/><br/>モウロク親父みたいなものです。<br/><br/>半分中気になったようなもので、腰を曲げたり足を動かすのが億劫なのでしょう。<br/><br/>そう言えば怒るでしょうが、怒るなら、神経があるのだから結構です。<br/><br/> アメリカあたりの新聞はそうではないらしいです。<br/><br/>批判などがなかなか早いです。<br/><br/>たしかに国民をリードしていることがよく分かります。<br/><br/>どうも日本の新聞は記事がだんだん遅くなってきたのです。<br/><br/>日本の新聞も前にはそうでなかったです。<br/><br/>識者の間にもそうとう新聞に対する、そういったしつけしていることを聞きます。<br/><br/>いまラジオで日曜の夜新聞論調というのをやってますが、痛快なことがあります。<br/><br/>それで日本の新聞は品がよくなりすぎてしまったのです。<br/><br/>実におとなしいです。<br/><br/>批判なども、善いとか悪いと断定することはないので、たいていどっちつかずな、非常に無事な書き方になってます。<br/><br/>だから新聞論調というのはおもしろくないです。<br/><br/>ラジオで新聞論調をやってますが、どの新聞も同じことを書いてます。<br/><br/>特色はなくなってます。<br/><br/>というのは、新聞界に人物がなくなってきたのです。<br/><br/>以前には新聞界に人物があって、それが新聞界の特色だったのです。<br/><br/>今はそれがなくなったのです。<br/><br/>という一番の原因は、株式会社になったためです。<br/><br/>営利事業ですから、営利事業ならば、他のことに騒いでよけいな手数やなにかがかかることは損ですから、算盤上合わないから、株式会社になった以上はやはり利益を上げなければならないし、配当を上げなければならないというわけで、なるべく損のゆくようなことはしないで、よく行って儲かるという……そうばかりではありませんが、それもそうとうあるのではないかと思うのです。<br/><br/>ですから救世教のこともいろいろ知っているのです。<br/><br/>たしかに“薬は毒だ。<br/><br/>無肥料でなければいけない”ということは知っているのです。<br/><br/>朝日新聞などは随分いろいろ調査したようですから……。<br/><br/>そういうようで知っているが、そういうことを言って肥料会社を刺激したり、売薬会社を刺激することは、つまり新聞営業としては、むしろ損はいっても得はゆかないから、そういうようなわけで、無事にすましているというわけではないかと思うのです。<br/><br/>それでしかたなしに私が特集号百万部を作って、戸別に農村に売るよりしようがないのです。<br/><br/>本当はこうしなくて、新聞が公平にやるとすれば、私の方でそういった本を書いて新聞広告をすれば一番早いのです。<br/><br/>手数がかからなくてよいのです。<br/><br/>ところが新聞は救世教の広告は引き受けないというのです。<br/><br/>それは美術関係のことは喜んで引き受けますが、農業に関したこと、医学に関したことは引き受けない……のではなくて、引き受けられないのです。<br/><br/>そういう方面からの救世教に対しての非常に強力ななにかがあるわけなのです。<br/><br/>それは新聞営業から言えば不利ですから、引き受けないのは当然かもしれないです。<br/><br/>しかし世界人類、国家的見地から言えば、はなはだ間違っていると言ってよいです。<br/><br/>そういうわけだから、私がいろんな肝腎な良いこと、世の中のためになることをするのに、新聞を利用することができなくなったのです。<br/><br/>馬鹿な話です。<br/><br/>それで、どうせ良いことをするなら、今までありふれたことではみんなやっているから、それではあたりまえのことです。<br/><br/>それで人がびっくりするような、目を見張るようなことこそ、今までにない文化の進歩ですが、それを新聞がとめてしまうのです。<br/><br/>ですからこのことを本当に考えたら、実に日本の新聞というのは、その点において不思議な存在です。<br/><br/>ですから新聞は、報道機関だから報道するだけとしたら、官報や小説、雑誌と同じものになります。<br/><br/>新聞はその国民の知識を開発させ、文化の発展に役立たせるというのが生命ですから、新聞は、はなはだ情けないことになったわけです。<br/><br/>それで、しようがないから、実際戸別訪問するよりないということになったのです。<br/><br/>新聞のたくさんある国が、世の中の人に良いことを知らせるのに一軒一軒訪ねて行かなければならないという、実に文明国として信じられないような状態です。<br/><br/>しかしそうかといって、新聞が目が覚めるまで待っていた日には、日本は、去年のような凶作が続いたら国家はたいへんだから、しようがないから新聞は当にしないで、こっちがじかにやらなければならないというわけなのです。<br/><br/>でも幸い、予期以上に新聞は売れます。<br/><br/>そうして日本全国的に農民が自然栽培によって大いに増産になって、そうすると大問題になりますから、それから都会の新聞などがあわてて目を白黒することになるでしょうから、実に悲喜劇です。<br/><br/>見物だろうと思ってます。<br/><br/>しかしこれは先方が悪いのですから、どうもやむを得ないです。<br/><br/> それから昨日、いつも言うグリリ夫人が連れてきた、アメリカの文化事業といったような機関があって、そこから日本の文化財の研究に来たのです。<br/><br/>何十人か来たらしいですが、その中の一人なのです。<br/><br/>婦人ですが、やっぱりなかなか頭の良い人で、さすがに見方が急所に来ているのです。<br/><br/>というのは、日本の美術は今までアメリカで知っているのは徳川末期までです。<br/><br/>もっとも浮世絵などでも徳川末期までですが、明治以来の文化というのは、アメリカではぜんぜん知らないのです。<br/><br/>明治以後にもそうとう良い物ができているに違いない、それを研究しろ、という意味で派遺されているのです。<br/><br/>二年の予定だそうです。<br/><br/>それで明治以後の美術とすると、とにかく元は絵だから、明治以後の日本で一番偉い絵描き、第一人者はだれだ、それは栖鳳だというわけで、栖鳳を研究しろという方針でやり始めると、作品がまとまっている所はなかなかないのです。<br/><br/>栖鳳を持っている人で二幅か三幅しかないのです。<br/><br/>それで私の所に栖鳳が一番あるということを知ったので来たわけです。<br/><br/>これは前からそういう話があってきたのです。<br/><br/>それで、ついてきた人は栖鳳の息子ですが、息子といっても、外国に長く行っていて英語はペラペラですから、絵の説明と、話をし合うのに非常によいです。<br/><br/>ごく適当な人です。<br/><br/>そういうわけで、私の所で三分の二（箱根にもありますから）ぐらい見せました。<br/><br/>それで、あんまり多いのでびっくりしてました。<br/><br/>特に栖鳳の息子は、今まで随分ほうぼうに行ったそうですが、必ず偽物が混っていると言うのです。<br/><br/>まずふつう三割は偽物だと言うのです。<br/><br/>ところがここに来て見ると、偽物が一つもない、全部本物だ、実に珍しいと言ってました。<br/><br/>そういうわけで、向こうの目的としては非常によかったのです。<br/><br/>栖鳳を研究するとしたら、私の所に来るよりないでしょう。<br/><br/>私は栖鳳が一番好きでしたから、約十年ぐらい前から栖鳳の良い物ばかり蒐めました。<br/><br/>栖鳳でもやっぱり悪い物も少しはありますから、そういうのは、はねのけて、ごく良い物ばかり選ったわけです。<br/><br/>それも以前だからあったわけで、今日ではほとんどないです。<br/><br/>浮動しているものは世の中になくなったわけです。<br/><br/>そういうわけで、非常に喜んでました。<br/><br/>また箱根にあるのも見なければならないから、来月箱根に来るように言ってやりました。<br/><br/>これについて考えてみると、アメリカがそういうものに対して実に熱心であるとともに、昨日来た婦人は実に熱心です。<br/><br/>私なども、あんまり熱心なのでびっくりしました。<br/><br/>それをもってみても、アメリカが日本の文化財に対して、いかに関心を持っているかということが分かります。<br/><br/>話を聞いてみると、いまアメリカでは日本の美術ということに非常に注目を引いてきたのです。<br/><br/>だから日本熱というような傾向が出てきたのです。<br/><br/>だからこれから大いに私の方の仕事をやってもらいたいと……これは具体的の話ではないが、だいたい先方の意向からみると、アメリカで日本文化を世界的に引き上げて、文化運動とか文化連盟というような機関を作って、大いに活動したい。<br/><br/>それには日本で救世教を本部にする、中心にするというような考えがあるらしいのです。<br/><br/>ですから、そうなるだろうと思ってます。<br/><br/>それについては、いろいろ会議をするとか各国の人が集まるとか、泊まって食事をする設備も欲しいと言ってましたから、熱海の美術館はそういう設備もするからということを言いました。<br/><br/>ですから今度の熱海の美術館は、各国の専門家やそういった希望の人たちが一年に一回とか、半年に一回というように来て、各国に美術館を造るとか、あるいはその国の特長のある美術品を交換する……と言っても貸し借りして、世界的に美術思想を大いに涵養（かんよう）するという、そういう機関、つまりユネスコ的の文化財方面というような機関、そういうものができるだろうと思ってます。<br/><br/>それで熱海の美術館を本部にするというようなことにして、そうなるとたいへんな大きな事業になります。<br/><br/>無論神様が世界に地上天国を造る、その一つの準備になるわけだから、無論できるに違いないですが、そういうふうになってきたということは、よほどおもしろくなってきたと言えます。<br/><br/> また、来月の一日から三越で古九谷焼の展覧会をやり、私の方でもいくらか出します。<br/><br/>それが十一日まであって、九日から「肉筆浮世絵名作展」があります。<br/><br/>今まで肉筆の浮世絵というのは人があんまり見たことがないですが、それはあんまり見せるような所がないからです。<br/><br/>ですから浮世絵展というと版画です。<br/><br/>ところが今度初めて肉筆の浮世絵展ができるのですから、大いに人気を呼ぶだろうと思います。<br/><br/>というのは、版画を外国に持って行かれて、日本の浮世絵というものは世界的の地位になったわけです。<br/><br/>そこで浮世絵というものは、版画のものだというように思われていたのです。<br/><br/>特に日本が遅ればせに外国の刺激を受けて、日本人もそう思っていたのです。<br/><br/>もっともそれもわけがあるのです。<br/><br/>つまり版画の方はたくさんできたことと、庶民階級に散らばって、たくさんあるというについて、手にも入りやすいし、目にも触れやすいということ、しかし肉筆の方はまず大名とか金持ちとか、都会などでも庶民階級よりか、いくらか懐の温かい連中が持っていて、床の間にかけて大切にしていたのです。<br/><br/>そこでそれを集めるのもたいへんだし、見る機会もあんまりない。<br/><br/>ところが終戦後そういう物がだいぶ出てきたのです。<br/><br/>ちょうど私は、版画というものはあんまり興味がないのと、どうしても肉筆に限ると前から思っていたので、割合に安く、かえって版画より安かったのです。<br/><br/>ですから私はできるだけ蒐めたのです。<br/><br/>考えてみても、版画というのは版で刷ったのですが、ふつう一種類二百枚とされてます。<br/><br/>それで肉筆というのは一種類一枚で、それも念を入れて画いたものです。<br/><br/>大きさも大きいし、立派な絵の具も使ってあるし、力を入れて画いたのですからたいへんなものです。<br/><br/>しかしその方うが安いというのですから、そんなばかなことはないと思って、私はドンドン買ったのです。<br/><br/>ですから日本中に数はいくらもない肉筆を、安くたちまち集まったわけです。<br/><br/>それで今度肉筆名作展というものをできるわけです。<br/><br/>これは東京と大阪と福岡で順繰りにやるような話ですが、随分評判になるだろうと思ってます。<br/><br/>ですからいずれ肉筆浮世絵展というのはアメリカあたりでも見たがるだろうと思ってます。<br/><br/>いずれそうなるだろうと思います。<br/><br/> それからもう一つ注目すべきは、今までデパートの展覧会というとお寺でした。<br/><br/>法隆寺だとか興福寺だとか、いろんなお寺展覧会ですが、これはほとんど廃（すた）ったわけです。<br/><br/>というのは、あれは一般人にはおもしろくないのです。<br/><br/>阿弥陀様、観音様といっても、どこでもたいした違いはないので、ただ珍しいだけで、二、三度見ればたくさんです。<br/><br/>ところがこういったようなものは、いつ見ても分かりますし、誰が見てもおもしろいですから、これからはまた、ひとしきりこういった美術館の美術展というようなものが、大いにはやるだろうと思います。<br/><br/>そうなると私の方の美術館より他に本当にやることはできないです。<br/><br/>というのは、個人的にはたいてい出尽くしました。<br/><br/>ごくすばらしい特級品だけを持っているので、そういうのは手放すことも出品もできないのです。<br/><br/>そこにもっていって税金を怖がってます。<br/><br/>ですから出しても、名前も出せないようなわけです。<br/><br/>ところがこっちの美術館の方は大いばりに出せますし、品物も豊富にあります。<br/><br/>と言っても私の所だけです。<br/><br/>他の美術館は二、三回やれるだけぐらいなものです。<br/><br/>それも油絵ぐらいなものです。<br/><br/>東京では根津美術館ぐらいです。<br/><br/>長尾美術館はだいぶ品物を減らしました。<br/><br/>大倉集古館は駄目ですし、それからまた他の美術館は油絵ばかりですから、これはさんざん見尽くしたし、油絵はやはり一般には向かないです。<br/><br/>結局私の方が独り占めというような形に、自然になってきたわけです。<br/><br/>私の方は今デパートの展覧会をやっても、一々違ったものを十何回はやれます。<br/><br/>だから大いに美術思想を養うという意味において、非常によいと思います。<br/><br/>いくらか救世教の宣伝にもなるわけです。<br/><br/>それともう一つは、新宗教というのは社会的に軽蔑されている、この観念に大いに役立つと思ってます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

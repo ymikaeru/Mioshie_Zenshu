@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kujumetu</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 苦集滅道道法礼節 『栄光』102号、昭和26(1951)年5月2日発行 右の題目は、もちろん仏語（ぶつご）であるが、この意味は現在においてもよく当はまるから、それを解説してみよう。<br><br>苦集滅道（くじゅうめつどう）とは読んで字のごとく、苦が集まる、すなわち苦しみが多いと道が失われるという、人間誰しも苦しみが余り多いと自暴自棄になるばかりか背に腹は変えられない式で、道に外れる事をするようになるものである、よくいわれる事だが、泥棒にも二種類あって、本当にズルイ奴と、貧に迫って悪いと知りつつも、苦し紛れにやる者とがある。<br><br>また闇の女でもそんな事をせずともよいのに、好んでする者と、切羽（せっぱ）詰（つま）って嫌々やるものとの二種があるのも同じである。<br><br> この弱点を利用して宣伝するのが、彼の共産主義である。<br><br>従って政治の理想としては、困る者、苦しむ者を作らないようにする、それが犯罪を減らし、社会の秩序を保つ上に、最も根本方策である。<br><br>恒産あれば恒心ありという言葉も、よくそれを表わしている。<br><br>本教の理想である病貧争を無くすという事も、それ以外の何物でもない、としたら何よりもまず健康が原（もと）であるから、健康人を増やす事こそ問題解決の鍵である。<br><br> 次の道法礼節であるがこの事も現代によく当はまっている、道法とはいうまでもなく道であり法であって、道とは道理に叶う事で、道理に外れるために人間同士の悶着（もんちゃく）や、家庭の不和、社会秩序の紊乱（びんらん）となるのである、法とは人間が作った法律のみではなく、神の律法もあってこれは目には見えないが、絶対犯す事が出来ない、人間諸々（もろもろ）の災は、ことごとく神の律法を犯すための刑罰である事を知らねばならない、実はこの刑罰こそ人間の法律よりも恐ろしいと共に、絶対免れる事は出来ないのである。<br><br>もちろん、死刑もあるのであって、それが災害による死、病死等すべて神律を犯したための刑罰死である。<br><br>そうしてあらゆる物にも法がある。<br><br>すなわち法とは一切の規準であり、秩序である。<br><br>判り易く言えば、人間の為（な）すべき事、考うべき事はチャンと決っておって、例えば政治家は政治家、教育家は教育家、宗教家は宗教家、芸術家は芸術家、官吏でも、商人でも、医者でも、男でも、女でも、いかなる人間でも、為すべき事、為すべからざる事は、一定の法則があり、それを守る事によって順調にゆき、栄えるのである。<br><br>昔から法（のり）を越えるなというのもその意味である。<br><br> 次の礼節、であるが、これこそ現代人には最も適切な言葉である、特にこの点昔の人よりも大いに低下している、私は日々多くの人に会うが、真に礼節を弁（わきま）えているものは十人に一人もないといってよかろう、しかし何と言っても信者諸君は一般人とは区別がつく程よいには良いが、ただ信者同士接触の場合、まだ物足りない点が見えるので、今一層向上して貰いたいのである。<br><br> しかし現在のような煩雑（はんざつ）な社会生活では、思う通りの礼儀は行われないから、ある程度は致し方がないとしても、注意すべきは民主主義の履き違いから、若い人達には、上、中、下、無差別式の考え方の者がよくあるが、これは困ったものである。<br><br>なるほど昔のような士農工商的の差別主義も間違っているが、今のような悪平等的行過ぎも間違っている。<br><br>特に遺憾でならないのは学校教育のやり方である。<br><br>余りに自由主義のため、放縦に流れ、師弟の差別さえないのをよく見受けるが、この点教師たる人も大いに考慮の余地があろう。<br><br>もちろん昔の軍隊式も困るが今のズンダラでも困るのである、要は偏（かたよ）らないでよく程を守り、中性が肝腎で、教育の方針もここにもってゆかなければならない事は言うまでもない、礼節という意味はそれであって、既に古人が喝破（かっぱ）しているのであるから、現代人としてもそれに愧（は）じないようにすべきである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Sofrimento, a Lei Divina e a Conduta Humana</h2>
 <p>Embora o título acima seja um termo de origem budista, seu significado reveste-se de grande pertinência em nossos dias; portanto, proponho-me a elucidá-lo. <em>Kujūmetsudō</em> (苦集滅道), conforme os ideogramas sugerem, expressa a ideia de que, quando o sofrimento se acumula, o Caminho se perde. De fato, qualquer ser humano, ao ser assolado por um sofrimento excessivo, não apenas se torna presa do desespero, mas, impelido pela necessidade, acaba por praticar atos que se desviam da retidão.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Passemos, por fim, à <em>reisetsu</em> (礼節), que abrange a etiqueta e o respeito. Eis uma palavra da mais alta relevância para o homem moderno, especialmente porque houve um notável declínio nesse aspecto em comparação com as gerações passadas. Em meu convívio diário com inúmeras pessoas, posso afirmar que talvez nem uma em cada dez demonstra verdadeira compreensão da etiqueta. Nossos fiéis, felizmente, se destacam positivamente quando comparados à população em geral; todavia, ainda percebo pontos que carecem de aprimoramento em suas interações mútuas, razão pela qual gostaria que se empenhassem ainda mais em seu aperfeiçoamento.</p>
 <p>É certo que, na complexa e agitada vida social de nossos tempos, nem sempre se consegue praticar a etiqueta com perfeição, e, até certo ponto, isso é inevitável. O que, no entanto, merece atenção especial é a interpretação equivocada da democracia, que tem levado muitos jovens a adotar uma mentalidade que prega a abolição indiscriminada das hierarquias. Sem dúvida, o sistema discriminatório de classes do passado era um erro, mas o excesso de um igualitarismo nocivo, como o que vemos hoje, também o é.</p>
 <p>Particularmente lamentável, nesse aspecto, é a orientação do nosso sistema educacional. O liberalismo excessivo tem descambado para a licenciosidade, e não raro testemunhamos a ausência de distinção entre mestre e discípulo. Aqueles que exercem o magistério fariam bem em refletir profundamente sobre essa questão. Certamente, a disciplina militarista do passado era indesejável, mas a atual displicência também é prejudicial. O essencial é não pender para os extremos, mantendo sempre a moderação; o caminho do meio é fundamental. É desnecessário dizer que a educação deve visar a esse ponto de equilíbrio. O conceito de <em>reisetsu</em> encerra precisamente essa sabedoria, já proclamada pelos antigos. Cabe a nós, homens modernos, viver de modo a não nos envergonharmos diante dela.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 苦集滅道道法礼節 『栄光』102号、昭和26(1951)年5月2日発行 右の題目は、もちろん仏語（ぶつご）であるが、この意味は現在においてもよく当はまるから、それを解説してみよう。<br/><br/>苦集滅道（くじゅうめつどう）とは読んで字のごとく、苦が集まる、すなわち苦しみが多いと道が失われるという、人間誰しも苦しみが余り多いと自暴自棄になるばかりか背に腹は変えられない式で、道に外れる事をするようになるものである、よくいわれる事だが、泥棒にも二種類あって、本当にズルイ奴と、貧に迫って悪いと知りつつも、苦し紛れにやる者とがある。<br/><br/>また闇の女でもそんな事をせずともよいのに、好んでする者と、切羽（せっぱ）詰（つま）って嫌々やるものとの二種があるのも同じである。<br/><br/> この弱点を利用して宣伝するのが、彼の共産主義である。<br/><br/>従って政治の理想としては、困る者、苦しむ者を作らないようにする、それが犯罪を減らし、社会の秩序を保つ上に、最も根本方策である。<br/><br/>恒産あれば恒心ありという言葉も、よくそれを表わしている。<br/><br/>本教の理想である病貧争を無くすという事も、それ以外の何物でもない、としたら何よりもまず健康が原（もと）であるから、健康人を増やす事こそ問題解決の鍵である。<br/><br/> 次の道法礼節であるがこの事も現代によく当はまっている、道法とはいうまでもなく道であり法であって、道とは道理に叶う事で、道理に外れるために人間同士の悶着（もんちゃく）や、家庭の不和、社会秩序の紊乱（びんらん）となるのである、法とは人間が作った法律のみではなく、神の律法もあってこれは目には見えないが、絶対犯す事が出来ない、人間諸々（もろもろ）の災は、ことごとく神の律法を犯すための刑罰である事を知らねばならない、実はこの刑罰こそ人間の法律よりも恐ろしいと共に、絶対免れる事は出来ないのである。<br/><br/>もちろん、死刑もあるのであって、それが災害による死、病死等すべて神律を犯したための刑罰死である。<br/><br/>そうしてあらゆる物にも法がある。<br/><br/>すなわち法とは一切の規準であり、秩序である。<br/><br/>判り易く言えば、人間の為（な）すべき事、考うべき事はチャンと決っておって、例えば政治家は政治家、教育家は教育家、宗教家は宗教家、芸術家は芸術家、官吏でも、商人でも、医者でも、男でも、女でも、いかなる人間でも、為すべき事、為すべからざる事は、一定の法則があり、それを守る事によって順調にゆき、栄えるのである。<br/><br/>昔から法（のり）を越えるなというのもその意味である。<br/><br/> 次の礼節、であるが、これこそ現代人には最も適切な言葉である、特にこの点昔の人よりも大いに低下している、私は日々多くの人に会うが、真に礼節を弁（わきま）えているものは十人に一人もないといってよかろう、しかし何と言っても信者諸君は一般人とは区別がつく程よいには良いが、ただ信者同士接触の場合、まだ物足りない点が見えるので、今一層向上して貰いたいのである。<br/><br/> しかし現在のような煩雑（はんざつ）な社会生活では、思う通りの礼儀は行われないから、ある程度は致し方がないとしても、注意すべきは民主主義の履き違いから、若い人達には、上、中、下、無差別式の考え方の者がよくあるが、これは困ったものである。<br/><br/>なるほど昔のような士農工商的の差別主義も間違っているが、今のような悪平等的行過ぎも間違っている。<br/><br/>特に遺憾でならないのは学校教育のやり方である。<br/><br/>余りに自由主義のため、放縦に流れ、師弟の差別さえないのをよく見受けるが、この点教師たる人も大いに考慮の余地があろう。<br/><br/>もちろん昔の軍隊式も困るが今のズンダラでも困るのである、要は偏（かたよ）らないでよく程を守り、中性が肝腎で、教育の方針もここにもってゆかなければならない事は言うまでもない、礼節という意味はそれであって、既に古人が喝破（かっぱ）しているのであるから、現代人としてもそれに愧（は）じないようにすべきである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

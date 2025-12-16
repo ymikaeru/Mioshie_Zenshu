@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>gedatsu</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,61 +241,55 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 解脱 『地上天国』20号、昭和26(1951)年1月25日発行 よく昔から、解脱（げだつ）という事をきくが、この言葉は簡単に善し悪しを決める事は出来ない。<br><br>世間普通の解釈による解脱とは迷いを去り、悟りをひらくとか、執着をとるとか、諦めをよくするとかいう意味であって、これは無論仏教から出たのであるが、しかし何となく逃避的隠遁的響きがあり、これは東洋人特有の思想であろう。<br><br> ところで、実際からいうと、余り悟りがひらけ過ぎると、活動力が鈍るのが通例である。<br><br>もちろん競争意欲などはなくなり、民族にしても、印度（インド）のごとく衰亡する事になる。<br><br>ゆえに人間は迷う事によって生きる力が出るのである、と言って迷いすぎるのもこれまた危険がある。<br><br>また諦める事も活動力が鈍るきらいがある、といって余り諦めないと男女関係などは悲劇を生む事にもなる。<br><br>だからあんまり解脱してしまうのも面白くない。<br><br>ついには世の中が馬鹿馬鹿しくなり、孤独的になったり、生ける屍となったりしてしまう。<br><br> 以上の諸々（もろもろ）を考えてみると、何でも行き過ぎがいけない。<br><br>ツマリ程を知る事である。<br><br>全く世の中は難しくもあり、面白くもあり、苦しくもあり、楽しくもあるというのが実相である。<br><br>結局苦楽一如（くらくいちにょ）の文字通りが人間のあるがままの姿である。<br><br>しかしこれだけの話では結論がつかないから、私は結論をつけてみよう。<br><br> いわく人間は諦めるべき時には諦め、諦めない方がいい事は諦めないようにする。<br><br>迷う場合は無理に決めようとするからで、決断がつかない内は、時期が来ないのだから、時期を待てばいいのである。<br><br>要は地〔時〕所位に応じ、事情によって最善の方法を見出だす事である。<br><br>しかしそうするには叡智が要る。<br><br>叡智とは正しい判断力を生む智慧であって、それは魂に曇りがない程よく出る。<br><br>ゆえに魂の曇りをなくする事が根本で、それがすなわち誠である。<br><br>誠とは信仰から生まれるものであって、この理を知って実行が出来れば、大悟徹底した人というべきである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Libertação</h2>
 <p>Desde a antiguidade, ouvimos falar em libertação, mas não é uma palavra cujo valor possa ser julgado de maneira simplista. Na interpretação corriqueira, que evidentemente provém do Budismo, a libertação significa dissipar as ilusões, alcançar a iluminação, abandonar os apegos ou cultivar a resignação. Contudo, o termo carrega uma ressonância de escapismo e reclusão, um pensamento que se poderia considerar característico dos povos orientais.</p>
 <p>A realidade, no entanto, nos mostra que um excesso de iluminação tende a embotar a força vital do indivíduo. O desejo de competir naturalmente desaparece e, em escala nacional, pode levar à decadência de um povo, como ocorreu com a Índia. Portanto, é por meio das ilusões que o ser humano extrai a força para viver; embora iludir-se em demasia também acarrete perigos. Da mesma forma, a resignação tem a propensão de diminuir o dinamismo, ao passo que sua ausência completa pode gerar tragédias, especialmente nas relações humanas. Por essa razão, uma libertação levada ao extremo perde a sua graça, fazendo com que o mundo pareça absurdo e a pessoa se torne solitária, convertendo-se em um cadáver ambulante.</p>
 <p>Ao ponderarmos sobre essas questões, percebemos que todo excesso é prejudicial. O essencial é conhecer a justa medida. A verdadeira face do mundo é, de fato, um amálgama de dificuldades e encantos, de sofrimentos e alegrias. Afinal, o princípio de que sofrimento e alegria são uma só unidade retrata a essência da condição humana. Todavia, essa constatação por si só não constitui uma conclusão. Permitam-me, portanto, apresentá-la.</p>
 <p>O ser humano deve resignar-se quando for o momento de fazê-lo e perseverar quando a resignação não for o melhor caminho. A hesitação surge da tentativa de forçar uma decisão; enquanto a clareza não se manifesta, significa que o tempo oportuno ainda não chegou, bastando, portanto, aguardá-lo. O ponto crucial é discernir o melhor caminho de acordo com o tempo, o lugar e a posição, adaptando-se às circunstâncias. Para tanto, contudo, é necessária a Sabedoria Divina. A Sabedoria Divina é o discernimento que gera o juízo correto, e ela se manifesta na medida em que a alma se encontra livre de máculas. Logo, o ponto fundamental é purificar a alma, e isso é, em essência, a Sinceridade. Essa Sinceridade, por sua vez, nasce da fé. Aquele que compreende este princípio e consegue colocá-lo em prática pode ser considerado uma pessoa que atingiu a iluminação plena e completa.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 解脱 『地上天国』20号、昭和26(1951)年1月25日発行 よく昔から、解脱（げだつ）という事をきくが、この言葉は簡単に善し悪しを決める事は出来ない。<br/><br/>世間普通の解釈による解脱とは迷いを去り、悟りをひらくとか、執着をとるとか、諦めをよくするとかいう意味であって、これは無論仏教から出たのであるが、しかし何となく逃避的隠遁的響きがあり、これは東洋人特有の思想であろう。<br/><br/> ところで、実際からいうと、余り悟りがひらけ過ぎると、活動力が鈍るのが通例である。<br/><br/>もちろん競争意欲などはなくなり、民族にしても、印度（インド）のごとく衰亡する事になる。<br/><br/>ゆえに人間は迷う事によって生きる力が出るのである、と言って迷いすぎるのもこれまた危険がある。<br/><br/>また諦める事も活動力が鈍るきらいがある、といって余り諦めないと男女関係などは悲劇を生む事にもなる。<br/><br/>だからあんまり解脱してしまうのも面白くない。<br/><br/>ついには世の中が馬鹿馬鹿しくなり、孤独的になったり、生ける屍となったりしてしまう。<br/><br/> 以上の諸々（もろもろ）を考えてみると、何でも行き過ぎがいけない。<br/><br/>ツマリ程を知る事である。<br/><br/>全く世の中は難しくもあり、面白くもあり、苦しくもあり、楽しくもあるというのが実相である。<br/><br/>結局苦楽一如（くらくいちにょ）の文字通りが人間のあるがままの姿である。<br/><br/>しかしこれだけの話では結論がつかないから、私は結論をつけてみよう。<br/><br/> いわく人間は諦めるべき時には諦め、諦めない方がいい事は諦めないようにする。<br/><br/>迷う場合は無理に決めようとするからで、決断がつかない内は、時期が来ないのだから、時期を待てばいいのである。<br/><br/>要は地〔時〕所位に応じ、事情によって最善の方法を見出だす事である。<br/><br/>しかしそうするには叡智が要る。<br/><br/>叡智とは正しい判断力を生む智慧であって、それは魂に曇りがない程よく出る。<br/><br/>ゆえに魂の曇りをなくする事が根本で、それがすなわち誠である。<br/><br/>誠とは信仰から生まれるものであって、この理を知って実行が出来れば、大悟徹底した人というべきである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

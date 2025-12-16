@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>iju10033</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇 （十） ３ 033-047 出産 033 産前後の心得 産前産後につきまして注意致すべきことを承りたく存じ上げます。<br><br>特に食事、入浴期、御浄霊等いかが致すべきでしょうか。<br><br>お伺い申し上げます。<br><br> 産前の注意する事はない。<br><br>ただ上へ手を挙げると流産する事がある。<br><br>転ぶと胞衣（えな）が首へ巻きつくという。<br><br>転落などすると流産や早産の憂いがある。<br><br> 食事や仕事などは普通でよい。<br><br>あまり大切にすると、育ち過ぎて出ぬ事がある。<br><br>反って働く程軽い。<br><br> 産後古血の出きらぬうちは活動は不可である。<br><br>子宮を氷冷するのは大変わるい。<br><br>古血が出るだけ出なくてはいけない。<br><br>一週間前何かすると古血が寄る。<br><br>歩くと足へ、起つと腰へ、眼を使うと眼へ――これらが痼疾となって恐ろしい。<br><br>心配すると頭へ来る。<br><br> 一週間過ぎれば便所へ行く位はよい。<br><br> 三、四週間は身体をかばいながら動かす。<br><br>出血と運動を睨み合してやればよい。<br><br>出血が出切ればよい。<br><br> 本当にふだん通りになるには七十五日かかる。<br><br> 一番いけないのは一週間、次は三週間、三十五日過ぎると大体何してもよい。<br><br> 夫婦関係も三十五日以内はいけない。<br><br> 食物は差支えない。<br><br>三週間経てば入浴してよい。<br><br>梅干も食欲など減らねばよい。<br><br> 産後間もなくの食は普通の軽い物がよい。<br><br>あまりしつっこいのはモタれるからまずい。<br><br> 腹帯は小さく生んで大きく育てるので、これは適度にする。<br><br>強くやると流産する。<br><br>中位にやればよい。<br><br>（S *.11.23） 034 御神前での産 光明如来様を御奉斎させて戴き、尊い御守護の下歓喜に満ちた日々を送らせて戴いております。<br><br>妻の分娩する日が近づいております。<br><br>しかし私の家には光明如来様をお祭りしてある部屋と玄関の部屋と二間あります。<br><br>玄関部屋で分娩する事も出来ず、勿体ない事ですが止むなく光明如来様の御部屋で分娩する外ないのですが、差支えないでしょうか。<br><br>御伺い申し上げます。<br><br> 結構である。<br><br>お産などは出来るだけ光明如来様の御前がいい。<br><br>御無礼とか勿体ないなどという事はない。<br><br>昔からよく言うが、こんな事を言うのは立派な神様ではない。<br><br>神様に力がないので、勿体なく見せかけるためのお守人の策略である。<br><br> 人は神と共にあり、神に離れるのは反って危い。<br><br>こういう間違いは今迄に沢山ある。<br><br>（S24.11.15） 035 引き潮出産難産か 昔の人の言うのに、引き潮の時に生まれた子供は寿命が短いと言われ、また親の体が弱く割合い難産と言われます。<br><br>いかなる訳で御座いましょうか。<br><br>御伺い申し上げます。<br><br> 少しはあるが、あるというのはその人の罪の軽重による。<br><br>逆の事になる。<br><br> 人助けにより逆の運命に直る。<br><br>神は大慈大悲で、よい方へして下さる。<br><br>（S24. 7.28） 036 暴風・雷鳴時の出産・死亡 暴風、雷鳴時における出産または死亡は何か意味のあるものでしょうか。<br><br> 少しはあるが、大した事はない。<br><br> 大きい事にブツかるのは、それに相応した理由がある。<br><br>神経質の産婦などはその衝動に影響する。<br><br> 037 過早期破水 主人の浄霊を受けていましたある信者、妊娠八ケ月にて羊水が降りたと申し、大変心配しておりましたが、臨月にならないうちに羊水が下ってしまうのはどんな場合に起り、またこの時の処理はいかにすればよいでしょうか。<br><br> 羊水が降りればすぐ生れる訳である。<br><br>ただ漏れる場合があるから、ないとはいえぬ。<br><br>また、羊水でなく尿が降りる場合もある。<br><br>必ずしも尿は尿道だけからのみ出るとはいえぬ。<br><br>外に苦痛など無ければ気にする要はない。<br><br> 放屁なども、尻の穴からのみではなく、女の前の方から放屁するのがあるし、口からするのもある。<br><br>これらは音がしない。<br><br>（S23） 038 帝王切開 帝王切開の手術は比較的安全だが、癖になる。<br><br>切らなくては出なくなる。<br><br>即ちこれは腹部切開手術である。<br><br>（S23. 7. 2か） 039 死・早産の霊原因、死者に鞭打つ 死産及び月足らずで生れるのはいかなる因縁があるのでございましょうか。<br><br> まだ信仰に入っていない訳である。<br><br>霊的と体的と両方ある。<br><br>その人の身に罪が非常にあると、神様から宝を頂く故、毒血（曇り）のある場合、それを除る手段として死産や流産する場合がある。<br><br>また、子を恵まれるだけの状態になっていない。<br><br>物質的に子が出来る工作をするから出来るが、その資格のない場合流れたりなどする。<br><br>また、前生の罪のためまとまって生れる迄になっていぬ場合、中途で駄目になる。<br><br> 不純な男女関係で出来る場合、その祖霊で生れたがり、遮二無二自分の子孫に生れようとして、どの腹でも生れんとする場合、これは風紀に関係するから――。<br><br> 私の先妻はどうしても子供が産めず、四度共駄目であった。<br><br>最初は流産、次は非常に大事にし育ち過ぎ、十一ケ月になり、大きすぎて出られぬ。<br><br>三日間陣痛し、今度は母体に影響するというので子を殺して出した。<br><br>次は大いに乱暴したりして流産した。<br><br>次は中位にしたらチブスとなり、腹中で死んだ。<br><br>真黒になっていた。<br><br>出してから死んだ。<br><br>よくよく子供は許されぬと思った。<br><br>宗教的に考えると訳があったが言えない。<br><br> 死者を悪くいうのは非常にいけない。<br><br>ある三十七、八歳の女を悪く言った。<br><br>その時、奥様が腹痛み、いきなり「駄目だ」と言われた。<br><br>死にもしないのにおかしい。<br><br>「誰か」というと口が利けぬ。<br><br>首を振る事によって返事させた。<br><br>悪くいうと霊界で苦しいから、それを言わないでくれと、それを頼みに来た。<br><br> 悪くいうと向上の妨げとなる。<br><br>特に大先生に言われると響きが大きい。<br><br> なるべく言わん方がよい。<br><br> 040 悪阻と不妊・流産の原因 妊娠三ケ月後悪阻で苦しんでおります。<br><br>浄霊致しましてもなお苦しみます。<br><br>殊に胃の部が苦しいと申します。<br><br>余り苦しいので医者でおろしましたらけろりと治りました。<br><br>これは毒素の関係でしょうか、霊的でしょうか。<br><br> 毒素の関係で、じき治るのだが、急所が外れていたのでしょう。<br><br>悪阻はみぞおちと胃の間の毒で、これは子宮が拡がるにその毒素が邪魔になるのである。<br><br>人によっては尿毒が溜る事がある。<br><br>腎臓をよく浄霊する要がある。<br><br> 流産の原因は子宮の周りに毒のある時、子宮が拡がる場合毒素のためつかえて拡がらず、やむなく下に向う。<br><br>これが流産の原因である。<br><br> 前屈・後屈があるが、子宮の前面か後面に毒がある。<br><br>多くは後屈で、腹部の毒のため後ろに押される。<br><br>前屈は後部の毒が前へ押す。<br><br> 医師が手術で毒を除るのは一時的で、前より余計に溜る事になるから何にもならぬ。<br><br>また、子宮発育不全、これは子宮の周りに毒があり、それで発育しないのである。<br><br>また膣と子宮の位置の違う場合、子供が出来ない。<br><br> 041 流産の原因 謹みて御伺い申し上げます。<br><br>私は三回も続けて流産をいたしましたが、いかなる訳で御座いましょうか。<br><br> 流産の原因で一番多いのは、子宮周囲に毒が固まっている。<br><br> 後屈は腹に毒があって、後方に押されているもので、これが多い。<br><br>前屈というのは、背中（尾てい骨の方）に毒がある。<br><br>これは少ない。<br><br> 因は腎臓であるから、これを浄霊すると治る。<br><br>子宮の周りに毒があると、妊娠して子宮が大きくなるとそれ以上は拡がらぬ。<br><br>そのため中の子は大きくなれず、やむなく外へ出るより外ない。<br><br> そういう人は腹が必ず固い。<br><br>宿ったものが浄化不充分で生れ代る場合、生れると不幸だからというので先祖が出す事がある。<br><br>悪阻の原因は臍から心窩の間に毒がある。<br><br>子宮に妨害になるから出す。<br><br>浄霊すると治る。<br><br> 医学では、梅毒が原因というが、苦痛のあるのは梅毒でない。<br><br>梅毒は無痛である。<br><br>（S24. 1. 6） 042 流産に由る頭痛 流産をしますと頭が割れるように痛む人がありますが、いかなる訳で頭へ来るのでしょうか。<br><br>御教示を御願い申し上げます。<br><br> 流産する時頭の血も混って出る。<br><br>急激な脳貧血で、これこそ浄霊で治る。<br><br> 腹膜と腎臓の毒で子宮が圧迫されるのが流産の原因である。<br><br>（S24. 8. 8） 043 死産・流産の原因 死産、流産には霊的に特殊な意味がある事でございましょうか。<br><br>御教示御願い申し上げます。<br><br> 霊的に意味はあるが、普通は体的の方が多い。<br><br>一番原因で多いのは、腹に塊があり、流産する。<br><br>よく脂肪が厚くなると妊娠しても生れぬという。<br><br>これは腹膜の毒である。<br><br>この毒のため子宮が横へ拡がらぬ。<br><br>それで下へ降りてくる。<br><br>悪阻は子宮の上の方に毒があり、子宮が拡がるにつれそれを突上げる。<br><br>臍と鳩尾の間を浄霊する。<br><br> 流産、死産は生霊の場合もあり、怨みの霊が憑いて生ませまいとする。<br><br>死産は大抵薬毒で、そこへ寄って来て発育しない。<br><br>大抵は医療で、都会に多い。<br><br>（S23.12.28） 044 死産の原因、（医学の事を言う事） この頃、新聞で死産が多いように出ておりますが、どういう訳でしょうか。<br><br>お尋ね致します。<br><br> 薬毒に因る。<br><br>妊娠中、普段薬を服むと死産し易い。<br><br>薬は身体を弱らす。<br><br>死産の原因は身体が弱るからで、薬は全部毒であるから自殺行為になる。<br><br> 医学の間違いは言わぬよう注意した人があるが、教団のためを思えばそうかもしれぬが、救いのためには止むを得ぬ。<br><br> 045 死産（産婦引付け） 二十五歳の女、お産するや、赤子は半分出て、産婦はヒキツケ状態になり、子供は薄黒くなって死亡しました。<br><br>何か霊に関係がありますか。<br><br> 産道が狭く、つかえるため圧死したのである。<br><br>大きく育ち過ぎる場合もある。<br><br> 赤ん坊は頭が出れば後は出る事になっている。<br><br>そういう子供の出来るのは――。<br><br>子供が動物霊の再生で、動物の形体が残っているため腰部辺が大きかったものだと思う。<br><br>黒くなったのは圧死したのである。<br><br>（S24. 1. 7） 046 妊娠良好でも死産する理由 母体に異状なく日数も充分なのに死産するのはいかなる訳でしょうか。<br><br>御教示願います。<br><br> 母体に種々の原因がある。<br><br>一番多いのは薬毒のためで、妊娠する前に服むと非常に弱る。<br><br>薬によって女の美などよほど減る。<br><br>身体が弱ったために子供も弱く、ちょっとした事にも子供が死ぬ。<br><br> また、産道が小さく、窒息する場合がある。<br><br>（S *. 7. 8） 047 死産分娩 当年二十六歳、教修生の妻、体は非常に健康で、本月出産、胎児も臨月まで異常なく、体重も一貫二百匁あったそうです。<br><br>しかし産婆の言うには、出産三日前に死んでいるとの事、切断分娩致しました。<br><br>昨年もやはり一貫二百匁ある死産分娩致しております。<br><br>これは何か霊的のものでございましょうか。<br><br>（この主人の父親は四年前に即死しております）なお、医師は今後を恐れ、避妊手術を奨めますが、どういたしたらよろしいでしょうか。<br><br>右、御教示御願い申し上げます。<br><br> こんな理屈はない。<br><br>もっと悉（くわ）しく質ねよ。<br><br>（S25. 5.23）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Arte da Cura (Décima Parte) 3</h2>
 <h3>033 Orientações para os Períodos Pré-natal e Pós-parto</h3>
@@ -154,5 +306,48 @@ function toggleLang(lang) {
 <h3>047 Parto de Natimorto</h3>
 <p><strong>Pergunta:</strong> A esposa de um membro em formação, de vinte e seis anos, goza de excelente saúde. Este mês, ela deu à luz, e o feto, que se desenvolveu sem anormalidades até o fim da gestação, pesava cerca de quatro quilos e meio. Contudo, a parteira afirmou que o bebê já estava morto há três dias, e o parto foi realizado por embriotomia. No ano passado, ela também teve um natimorto com o mesmo peso. Haveria alguma causa espiritual? (O pai do marido faleceu de morte súbita há quatro anos). Ademais, o médico, temendo futuras complicações, recomendou uma cirurgia de esterilização. O que devemos fazer?</p>
 <p><strong>Resposta:</strong> Isso é um disparate. Apurem os fatos minuciosamente.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇 （十） ３ 033-047 出産 033 産前後の心得 産前産後につきまして注意致すべきことを承りたく存じ上げます。<br/><br/>特に食事、入浴期、御浄霊等いかが致すべきでしょうか。<br/><br/>お伺い申し上げます。<br/><br/> 産前の注意する事はない。<br/><br/>ただ上へ手を挙げると流産する事がある。<br/><br/>転ぶと胞衣（えな）が首へ巻きつくという。<br/><br/>転落などすると流産や早産の憂いがある。<br/><br/> 食事や仕事などは普通でよい。<br/><br/>あまり大切にすると、育ち過ぎて出ぬ事がある。<br/><br/>反って働く程軽い。<br/><br/> 産後古血の出きらぬうちは活動は不可である。<br/><br/>子宮を氷冷するのは大変わるい。<br/><br/>古血が出るだけ出なくてはいけない。<br/><br/>一週間前何かすると古血が寄る。<br/><br/>歩くと足へ、起つと腰へ、眼を使うと眼へ――これらが痼疾となって恐ろしい。<br/><br/>心配すると頭へ来る。<br/><br/> 一週間過ぎれば便所へ行く位はよい。<br/><br/> 三、四週間は身体をかばいながら動かす。<br/><br/>出血と運動を睨み合してやればよい。<br/><br/>出血が出切ればよい。<br/><br/> 本当にふだん通りになるには七十五日かかる。<br/><br/> 一番いけないのは一週間、次は三週間、三十五日過ぎると大体何してもよい。<br/><br/> 夫婦関係も三十五日以内はいけない。<br/><br/> 食物は差支えない。<br/><br/>三週間経てば入浴してよい。<br/><br/>梅干も食欲など減らねばよい。<br/><br/> 産後間もなくの食は普通の軽い物がよい。<br/><br/>あまりしつっこいのはモタれるからまずい。<br/><br/> 腹帯は小さく生んで大きく育てるので、これは適度にする。<br/><br/>強くやると流産する。<br/><br/>中位にやればよい。<br/><br/>（S *.11.23） 034 御神前での産 光明如来様を御奉斎させて戴き、尊い御守護の下歓喜に満ちた日々を送らせて戴いております。<br/><br/>妻の分娩する日が近づいております。<br/><br/>しかし私の家には光明如来様をお祭りしてある部屋と玄関の部屋と二間あります。<br/><br/>玄関部屋で分娩する事も出来ず、勿体ない事ですが止むなく光明如来様の御部屋で分娩する外ないのですが、差支えないでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> 結構である。<br/><br/>お産などは出来るだけ光明如来様の御前がいい。<br/><br/>御無礼とか勿体ないなどという事はない。<br/><br/>昔からよく言うが、こんな事を言うのは立派な神様ではない。<br/><br/>神様に力がないので、勿体なく見せかけるためのお守人の策略である。<br/><br/> 人は神と共にあり、神に離れるのは反って危い。<br/><br/>こういう間違いは今迄に沢山ある。<br/><br/>（S24.11.15） 035 引き潮出産難産か 昔の人の言うのに、引き潮の時に生まれた子供は寿命が短いと言われ、また親の体が弱く割合い難産と言われます。<br/><br/>いかなる訳で御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 少しはあるが、あるというのはその人の罪の軽重による。<br/><br/>逆の事になる。<br/><br/> 人助けにより逆の運命に直る。<br/><br/>神は大慈大悲で、よい方へして下さる。<br/><br/>（S24. 7.28） 036 暴風・雷鳴時の出産・死亡 暴風、雷鳴時における出産または死亡は何か意味のあるものでしょうか。<br/><br/> 少しはあるが、大した事はない。<br/><br/> 大きい事にブツかるのは、それに相応した理由がある。<br/><br/>神経質の産婦などはその衝動に影響する。<br/><br/> 037 過早期破水 主人の浄霊を受けていましたある信者、妊娠八ケ月にて羊水が降りたと申し、大変心配しておりましたが、臨月にならないうちに羊水が下ってしまうのはどんな場合に起り、またこの時の処理はいかにすればよいでしょうか。<br/><br/> 羊水が降りればすぐ生れる訳である。<br/><br/>ただ漏れる場合があるから、ないとはいえぬ。<br/><br/>また、羊水でなく尿が降りる場合もある。<br/><br/>必ずしも尿は尿道だけからのみ出るとはいえぬ。<br/><br/>外に苦痛など無ければ気にする要はない。<br/><br/> 放屁なども、尻の穴からのみではなく、女の前の方から放屁するのがあるし、口からするのもある。<br/><br/>これらは音がしない。<br/><br/>（S23） 038 帝王切開 帝王切開の手術は比較的安全だが、癖になる。<br/><br/>切らなくては出なくなる。<br/><br/>即ちこれは腹部切開手術である。<br/><br/>（S23. 7. 2か） 039 死・早産の霊原因、死者に鞭打つ 死産及び月足らずで生れるのはいかなる因縁があるのでございましょうか。<br/><br/> まだ信仰に入っていない訳である。<br/><br/>霊的と体的と両方ある。<br/><br/>その人の身に罪が非常にあると、神様から宝を頂く故、毒血（曇り）のある場合、それを除る手段として死産や流産する場合がある。<br/><br/>また、子を恵まれるだけの状態になっていない。<br/><br/>物質的に子が出来る工作をするから出来るが、その資格のない場合流れたりなどする。<br/><br/>また、前生の罪のためまとまって生れる迄になっていぬ場合、中途で駄目になる。<br/><br/> 不純な男女関係で出来る場合、その祖霊で生れたがり、遮二無二自分の子孫に生れようとして、どの腹でも生れんとする場合、これは風紀に関係するから――。<br/><br/> 私の先妻はどうしても子供が産めず、四度共駄目であった。<br/><br/>最初は流産、次は非常に大事にし育ち過ぎ、十一ケ月になり、大きすぎて出られぬ。<br/><br/>三日間陣痛し、今度は母体に影響するというので子を殺して出した。<br/><br/>次は大いに乱暴したりして流産した。<br/><br/>次は中位にしたらチブスとなり、腹中で死んだ。<br/><br/>真黒になっていた。<br/><br/>出してから死んだ。<br/><br/>よくよく子供は許されぬと思った。<br/><br/>宗教的に考えると訳があったが言えない。<br/><br/> 死者を悪くいうのは非常にいけない。<br/><br/>ある三十七、八歳の女を悪く言った。<br/><br/>その時、奥様が腹痛み、いきなり「駄目だ」と言われた。<br/><br/>死にもしないのにおかしい。<br/><br/>「誰か」というと口が利けぬ。<br/><br/>首を振る事によって返事させた。<br/><br/>悪くいうと霊界で苦しいから、それを言わないでくれと、それを頼みに来た。<br/><br/> 悪くいうと向上の妨げとなる。<br/><br/>特に大先生に言われると響きが大きい。<br/><br/> なるべく言わん方がよい。<br/><br/> 040 悪阻と不妊・流産の原因 妊娠三ケ月後悪阻で苦しんでおります。<br/><br/>浄霊致しましてもなお苦しみます。<br/><br/>殊に胃の部が苦しいと申します。<br/><br/>余り苦しいので医者でおろしましたらけろりと治りました。<br/><br/>これは毒素の関係でしょうか、霊的でしょうか。<br/><br/> 毒素の関係で、じき治るのだが、急所が外れていたのでしょう。<br/><br/>悪阻はみぞおちと胃の間の毒で、これは子宮が拡がるにその毒素が邪魔になるのである。<br/><br/>人によっては尿毒が溜る事がある。<br/><br/>腎臓をよく浄霊する要がある。<br/><br/> 流産の原因は子宮の周りに毒のある時、子宮が拡がる場合毒素のためつかえて拡がらず、やむなく下に向う。<br/><br/>これが流産の原因である。<br/><br/> 前屈・後屈があるが、子宮の前面か後面に毒がある。<br/><br/>多くは後屈で、腹部の毒のため後ろに押される。<br/><br/>前屈は後部の毒が前へ押す。<br/><br/> 医師が手術で毒を除るのは一時的で、前より余計に溜る事になるから何にもならぬ。<br/><br/>また、子宮発育不全、これは子宮の周りに毒があり、それで発育しないのである。<br/><br/>また膣と子宮の位置の違う場合、子供が出来ない。<br/><br/> 041 流産の原因 謹みて御伺い申し上げます。<br/><br/>私は三回も続けて流産をいたしましたが、いかなる訳で御座いましょうか。<br/><br/> 流産の原因で一番多いのは、子宮周囲に毒が固まっている。<br/><br/> 後屈は腹に毒があって、後方に押されているもので、これが多い。<br/><br/>前屈というのは、背中（尾てい骨の方）に毒がある。<br/><br/>これは少ない。<br/><br/> 因は腎臓であるから、これを浄霊すると治る。<br/><br/>子宮の周りに毒があると、妊娠して子宮が大きくなるとそれ以上は拡がらぬ。<br/><br/>そのため中の子は大きくなれず、やむなく外へ出るより外ない。<br/><br/> そういう人は腹が必ず固い。<br/><br/>宿ったものが浄化不充分で生れ代る場合、生れると不幸だからというので先祖が出す事がある。<br/><br/>悪阻の原因は臍から心窩の間に毒がある。<br/><br/>子宮に妨害になるから出す。<br/><br/>浄霊すると治る。<br/><br/> 医学では、梅毒が原因というが、苦痛のあるのは梅毒でない。<br/><br/>梅毒は無痛である。<br/><br/>（S24. 1. 6） 042 流産に由る頭痛 流産をしますと頭が割れるように痛む人がありますが、いかなる訳で頭へ来るのでしょうか。<br/><br/>御教示を御願い申し上げます。<br/><br/> 流産する時頭の血も混って出る。<br/><br/>急激な脳貧血で、これこそ浄霊で治る。<br/><br/> 腹膜と腎臓の毒で子宮が圧迫されるのが流産の原因である。<br/><br/>（S24. 8. 8） 043 死産・流産の原因 死産、流産には霊的に特殊な意味がある事でございましょうか。<br/><br/>御教示御願い申し上げます。<br/><br/> 霊的に意味はあるが、普通は体的の方が多い。<br/><br/>一番原因で多いのは、腹に塊があり、流産する。<br/><br/>よく脂肪が厚くなると妊娠しても生れぬという。<br/><br/>これは腹膜の毒である。<br/><br/>この毒のため子宮が横へ拡がらぬ。<br/><br/>それで下へ降りてくる。<br/><br/>悪阻は子宮の上の方に毒があり、子宮が拡がるにつれそれを突上げる。<br/><br/>臍と鳩尾の間を浄霊する。<br/><br/> 流産、死産は生霊の場合もあり、怨みの霊が憑いて生ませまいとする。<br/><br/>死産は大抵薬毒で、そこへ寄って来て発育しない。<br/><br/>大抵は医療で、都会に多い。<br/><br/>（S23.12.28） 044 死産の原因、（医学の事を言う事） この頃、新聞で死産が多いように出ておりますが、どういう訳でしょうか。<br/><br/>お尋ね致します。<br/><br/> 薬毒に因る。<br/><br/>妊娠中、普段薬を服むと死産し易い。<br/><br/>薬は身体を弱らす。<br/><br/>死産の原因は身体が弱るからで、薬は全部毒であるから自殺行為になる。<br/><br/> 医学の間違いは言わぬよう注意した人があるが、教団のためを思えばそうかもしれぬが、救いのためには止むを得ぬ。<br/><br/> 045 死産（産婦引付け） 二十五歳の女、お産するや、赤子は半分出て、産婦はヒキツケ状態になり、子供は薄黒くなって死亡しました。<br/><br/>何か霊に関係がありますか。<br/><br/> 産道が狭く、つかえるため圧死したのである。<br/><br/>大きく育ち過ぎる場合もある。<br/><br/> 赤ん坊は頭が出れば後は出る事になっている。<br/><br/>そういう子供の出来るのは――。<br/><br/>子供が動物霊の再生で、動物の形体が残っているため腰部辺が大きかったものだと思う。<br/><br/>黒くなったのは圧死したのである。<br/><br/>（S24. 1. 7） 046 妊娠良好でも死産する理由 母体に異状なく日数も充分なのに死産するのはいかなる訳でしょうか。<br/><br/>御教示願います。<br/><br/> 母体に種々の原因がある。<br/><br/>一番多いのは薬毒のためで、妊娠する前に服むと非常に弱る。<br/><br/>薬によって女の美などよほど減る。<br/><br/>身体が弱ったために子供も弱く、ちょっとした事にも子供が死ぬ。<br/><br/> また、産道が小さく、窒息する場合がある。<br/><br/>（S *. 7. 8） 047 死産分娩 当年二十六歳、教修生の妻、体は非常に健康で、本月出産、胎児も臨月まで異常なく、体重も一貫二百匁あったそうです。<br/><br/>しかし産婆の言うには、出産三日前に死んでいるとの事、切断分娩致しました。<br/><br/>昨年もやはり一貫二百匁ある死産分娩致しております。<br/><br/>これは何か霊的のものでございましょうか。<br/><br/>（この主人の父親は四年前に即死しております）なお、医師は今後を恐れ、避妊手術を奨めますが、どういたしたらよろしいでしょうか。<br/><br/>右、御教示御願い申し上げます。<br/><br/> こんな理屈はない。<br/><br/>もっと悉（くわ）しく質ねよ。<br/><br/>（S25. 5.23）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

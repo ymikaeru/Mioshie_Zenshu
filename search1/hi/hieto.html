@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hieto</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 冷えと便秘 『天国の福音』昭和22(1947)年2月5日発行 冷えの原因は局部的発熱による悪寒または局部的毒結による血液不循環のためである。<br><br>多くは腰、下腹部、脚部、足の甲及び指先等で、特に婦人に多いが、これらは毒結を解除すれば下熱及血液が循環するから簡単に治癒するのである。<br><br> 便秘は非常に多い症状で、かつ長期にわたって苦しむが、この原因は腹膜部に毒結があり、それが直腸を圧迫する。<br><br>そのため糞便が直腸管を通過し難いためで、これらも毒結溶解によって容易に治癒するのである。<br><br> そうして便秘症の人は常に下剤を服用して辛くも目的を達するが、この方法は非常に不可である。<br><br>何となればこれが習慣となり、便秘は漸次悪化し、下剤服用によらざれば排便が困難となるからである。<br><br>しかもそれが長年月にわたるに従い、増悪しついには下剤の量を多くするか、または異なる下剤によらなければならない事になる。<br><br>しかも下剤の薬毒が累積し、種々の病原となるのである。<br><br>元来人体は上から食物を入れ下から糞便が出るのは自然であって造物主はその様に造られたのである。<br><br>故にいかなる人間といえども食餌を入れる以上、糞便は排泄するに決っている。<br><br>ただ人により一日一回もあれば、二日に一回もあり、一週間に一回の人もある。<br><br>それでいいのである。<br><br>しかるに医学においては便秘は健康に害あるごとく誤認し、毎日便通がなければならぬように宣伝するので、一般人は便秘を恐れるあまり、便秘すれば神経的に不快を感ずるので、下剤使用となるのである。<br><br>しかるに下剤によって排便する以上、排便機能は退化するから便秘する。<br><br>便秘するから下剤を使用するという悪循環となり、ついに下剤なしでは生きてゆかれないようになるのである。<br><br>よく発熱時便通を付ければ下熱するといい下剤を用いるが、これらも反って治癒妨害となり全治を鈍らす結果となる。<br><br>またある種の病気は反対に下剤によって高熱に導く事さえある。<br><br> 便秘がなんら懸念すべきでない事の実例を示してみよう。<br><br>私が以前胃癌の患者を取扱った際、便秘二十八日間に及んだが病気にはなんら影響が無かった。<br><br>それは全治し数年後農業に従事し、健康である事の報告があったにみても明らかである。<br><br>また私が扱った患者の中で、二ケ月間の人と六ケ月間便秘の経験を持った人の談によれば、いずれも便秘による何等の影響もなかったとの事である。<br><br>その後某婦人雑誌に掲載されてあった実例に、二ケ年の便秘でこれもそのための異常のない事が書かれてあった。<br><br> また医学においては、便秘を放任しておくと自家中毒なるものを発生するというがこれらも誤謬である。<br><br>この説は多分、便毒が血液中にでも混入するように想像したのであろうが、この様な事はあり得べからざる事で事実は宿便は時日を経るに従い、増々硬化するだけの事であるから悪影響などはないのである。<br><br> 次に乳幼児に対する浣腸で、これは恐るべきである。<br><br>嬰児の中から浣腸する結果、一種の浣腸中毒となり、浣腸によらざれば排便不能となる例がよくある。<br><br>その結果として、三、四歳頃になると、少し便が溜ると腹部膨満し苦しむので、止むなく浣腸して一時的緩和を計るのであるが結局は死にまで到るのはいうまでもない。<br><br>これによってみても、浣腸などの不自然極まる人為的方法は、断然廃めるべきである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Esclarecimentos sobre o Frio e a Prisão de Ventre</h2>
 <p>A sensação de frio decorre de calafrios provocados por febres localizadas ou da má circulação sanguínea causada por nódulos de toxinas em pontos específicos do corpo. Manifesta-se frequentemente na região lombar, no baixo-ventre, nas pernas, no dorso dos pés e na ponta dos dedos, acometendo em especial as mulheres. Contudo, ao se dissolverem tais nódulos de toxinas, a febre cede e a circulação sanguínea é restabelecida, o que possibilita uma pronta cura.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Permitam-me apresentar alguns exemplos concretos que demonstram por que a prisão de ventre não deve ser motivo de qualquer apreensão. Certa vez, tratei de um paciente com câncer de estômago que permaneceu vinte e oito dias sem evacuar, sem que isso afetasse em nada o curso de sua enfermidade. Anos após sua cura completa, recebi notícias de que ele trabalhava na agricultura, gozando de plena saúde, o que comprova o que afirmo. Entre outros pacientes que tratei, recordo-me do relato de uma pessoa que passou dois meses sem evacuar e de outra que experimentou um período de seis meses. Ambas afirmaram não ter sofrido qualquer consequência adversa em função disso. Posteriormente, li em uma revista feminina o relato de um caso de constipação que durou dois anos, e o artigo também mencionava a ausência de quaisquer anormalidades decorrentes desse quadro.</p>
 <p>A medicina postula, ademais, que negligenciar a prisão de ventre levaria à ocorrência da chamada autointoxicação. Esta também é uma teoria falaciosa. Seus defensores provavelmente imaginam que as toxinas fecais poderiam, de alguma forma, misturar-se à corrente sanguínea, mas tal coisa é absolutamente impossível. Na realidade, as fezes retidas apenas se tornam progressivamente mais endurecidas com o passar do tempo, não havendo, portanto, qualquer efeito adverso.</p>
 <p>Por fim, abordemos o uso de enemas em bebês e crianças pequenas, uma prática verdadeiramente temível. A aplicação de enemas desde a tenra idade pode levar a uma espécie de dependência, tornando a criança incapaz de evacuar por vias naturais. Como resultado, por volta dos três ou quatro anos, o menor acúmulo de fezes já provoca uma distensão abdominal dolorosa, e a única alternativa para um alívio temporário passa a ser, mais uma vez, o enema. Nem é preciso dizer que, invariavelmente, tal caminho conduz à morte. Este exemplo demonstra que métodos artificiais e de todo antinaturais, como o enema, devem ser categoricamente abolidos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 冷えと便秘 『天国の福音』昭和22(1947)年2月5日発行 冷えの原因は局部的発熱による悪寒または局部的毒結による血液不循環のためである。<br/><br/>多くは腰、下腹部、脚部、足の甲及び指先等で、特に婦人に多いが、これらは毒結を解除すれば下熱及血液が循環するから簡単に治癒するのである。<br/><br/> 便秘は非常に多い症状で、かつ長期にわたって苦しむが、この原因は腹膜部に毒結があり、それが直腸を圧迫する。<br/><br/>そのため糞便が直腸管を通過し難いためで、これらも毒結溶解によって容易に治癒するのである。<br/><br/> そうして便秘症の人は常に下剤を服用して辛くも目的を達するが、この方法は非常に不可である。<br/><br/>何となればこれが習慣となり、便秘は漸次悪化し、下剤服用によらざれば排便が困難となるからである。<br/><br/>しかもそれが長年月にわたるに従い、増悪しついには下剤の量を多くするか、または異なる下剤によらなければならない事になる。<br/><br/>しかも下剤の薬毒が累積し、種々の病原となるのである。<br/><br/>元来人体は上から食物を入れ下から糞便が出るのは自然であって造物主はその様に造られたのである。<br/><br/>故にいかなる人間といえども食餌を入れる以上、糞便は排泄するに決っている。<br/><br/>ただ人により一日一回もあれば、二日に一回もあり、一週間に一回の人もある。<br/><br/>それでいいのである。<br/><br/>しかるに医学においては便秘は健康に害あるごとく誤認し、毎日便通がなければならぬように宣伝するので、一般人は便秘を恐れるあまり、便秘すれば神経的に不快を感ずるので、下剤使用となるのである。<br/><br/>しかるに下剤によって排便する以上、排便機能は退化するから便秘する。<br/><br/>便秘するから下剤を使用するという悪循環となり、ついに下剤なしでは生きてゆかれないようになるのである。<br/><br/>よく発熱時便通を付ければ下熱するといい下剤を用いるが、これらも反って治癒妨害となり全治を鈍らす結果となる。<br/><br/>またある種の病気は反対に下剤によって高熱に導く事さえある。<br/><br/> 便秘がなんら懸念すべきでない事の実例を示してみよう。<br/><br/>私が以前胃癌の患者を取扱った際、便秘二十八日間に及んだが病気にはなんら影響が無かった。<br/><br/>それは全治し数年後農業に従事し、健康である事の報告があったにみても明らかである。<br/><br/>また私が扱った患者の中で、二ケ月間の人と六ケ月間便秘の経験を持った人の談によれば、いずれも便秘による何等の影響もなかったとの事である。<br/><br/>その後某婦人雑誌に掲載されてあった実例に、二ケ年の便秘でこれもそのための異常のない事が書かれてあった。<br/><br/> また医学においては、便秘を放任しておくと自家中毒なるものを発生するというがこれらも誤謬である。<br/><br/>この説は多分、便毒が血液中にでも混入するように想像したのであろうが、この様な事はあり得べからざる事で事実は宿便は時日を経るに従い、増々硬化するだけの事であるから悪影響などはないのである。<br/><br/> 次に乳幼児に対する浣腸で、これは恐るべきである。<br/><br/>嬰児の中から浣腸する結果、一種の浣腸中毒となり、浣腸によらざれば排便不能となる例がよくある。<br/><br/>その結果として、三、四歳頃になると、少し便が溜ると腹部膨満し苦しむので、止むなく浣腸して一時的緩和を計るのであるが結局は死にまで到るのはいうまでもない。<br/><br/>これによってみても、浣腸などの不自然極まる人為的方法は、断然廃めるべきである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

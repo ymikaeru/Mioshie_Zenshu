@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>isino0</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医師の資格 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 医師の資格に就て、茲に見逃す事の出来ない一大欠陥のある事を私は指摘したいのである。<br><br>それは当局が医師の資格を附与する場合現在迄の機構に於ては、学歴、経験、論文の三者による事でこれは遍く人の知る処であるが、実はそれだけでは、最も緊要なる点を逸してゐると思ふのである。<br><br>それは如何なる点であるかといふと病気治療の技能試験である。<br><br>即ち各種の病気に対してより速かに、より良く治癒せしめ得る技能そのものを第一条件とする事である。<br><br>如何に学歴や経験、論文等が優秀であるとしても、実際に病気を治癒せしめ得る技能手腕がなければ、医師としての資格に欠けてゐるといへよう。<br><br> 再三述べた如く、医学そのものの使命は、病気を治し健康を増進せしむる以外の何物でもないのである。<br><br>勿論、学歴も経験も論文も必要ではあらうが畢竟治病目的の為の基礎条件であつて、治病の方法そのものでない事は勿論である。<br><br>例へていへば茲に一個の飛行機を製作するとする。<br><br>其場合、如何に機械や構造の説明が学理的であつても、実際に飛ばなければ意味をなさないのと同様である。<br><br> 此意味に於て、右に述べた如く治病技能の優劣によつて医師の資格を定むべきであつて学歴、経験、論文は、附随条件とすべきが至当ではないかと思ふのである。<br><br>斯くする事によつて、はじめて治病医学は真の進歩を遂げるであらう。<br><br>そうして私はその方法として正規の学歴と経験と論文の三者によつて先づ学士の称号を得させ尚進んで博士の資格を得んとするには、前述の如く治病技能の厳密なる試験を経、その優越を確認する事によつて附与すべきであると思ふのである。<br><br> 次に、今一つ私は言ひたい事がある。<br><br>それは病者が治癒、不治癒に拘はらず、同一の費額を払はなければならないといふ事であるがこれは不合理であらう。<br><br>いふまでもなく医療の価値を定める場合、全治又はその遅速、不全治又は悪化等の価値の差別は大いにあるが実際上適確なる計算は困難であるから、私は現在としては左の如き方法による事は如何かと思ふのである。<br><br>参考までに書いてみよう。<br><br> 一、病気全治の場合、現在の診療費の倍額となし、不治の場合、現在診療費の半額とする事。<br><br> 二、初診の時、予め全治日数を定め、その期間、現在診療費の倍額とし、右の日数を越える場合、現在診療費の半額に下げる事。<br><br> 三、初診の場合、予め全治迄の日数費額を決定し、その全額を支払はしめ、万一予期に反する場合、半額を返却する事。<br><br>而して此方法は、患者の貧富によつて増減する事もよいであらう。<br><br>又等級による事も一方法であらう。<br><br> 私は、支那人が医療を受ける場合、初診の際、此病気は幾何で治るかと訊くそうである。<br><br>之に対し嗤ふ日本人があるが、私は或意味に於て寧ろ進歩的であり、合理的であると思ふのである。<br><br>何となれば、此方法は患者自身の経済的実情に合致すると共に、医家としても、技能の優劣が公正に酬ひられるからである。<br><br> 右の如き私の案を実行するとすれば、其効果として何よりも顕著である事は、医学が真に治る進歩をするといふ事である。<br><br>然し乍ら之等の案に対して、医家は尊厳を傷つけらるる如き感がするかもしれない。<br><br> 然しそれは外形だけの事であつて、寧ろ私の案を実行する事によつて、内容的尊厳即ち心からなる敬意を払はるるであらう。<br><br> 何となれば患者自身としては、一日も早く疾患から遁れる事であり、痛苦が解消する事であり、健康が恢復する事であり、それ以外に何物もないのであるからそれが解決されるとしたら、自（おのずか）ら感謝と敬意が湧き、他の何事をも介意しないであらう。<br><br> 徳川時代名医と称せられたる医家は、難病を治療し、それによつて名声を博したといふ事を聞いてゐるが、之等は私の提唱する理論と合致してゐるのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Sobre a Qualificação Médica</h2>
 <p>No que concerne à qualificação médica, desejo apontar uma falha de suma importância que não pode ser negligenciada. Atualmente, o mecanismo pelo qual as autoridades concedem a licença para o exercício da medicina baseia-se, como é de amplo conhecimento, em três pilares: formação acadêmica, experiência e publicações. Todavia, creio que tal sistema omite o ponto mais crucial. E que ponto seria este? Refiro-me ao exame da habilidade prática no tratamento das enfermidades. Ou seja, a perícia em promover a cura das mais diversas enfermidades, da forma mais rápida e eficaz possível, deveria constituir o requisito primordial. Por mais notáveis que sejam a formação, a experiência ou as publicações de um profissional, se ele carece da destreza necessária para, de fato, curar os doentes, pode-se dizer que não possui a qualificação essencial de um médico.</p>
@@ -110,5 +262,48 @@ function toggleLang(lang) {
 <p>No entanto, essa é uma percepção meramente superficial. Pelo contrário, a implementação de minhas sugestões lhes conferiria uma dignidade substancial, ou seja, o respeito que brota do fundo do coração.</p>
 <p>Isto porque, para o paciente, o único anseio é ver-se livre da enfermidade o mais rápido possível, ter seus sofrimentos aplacados e sua saúde restabelecida. Não há nada além disso. Uma vez que esse objetivo seja alcançado, a gratidão e o respeito surgirão espontaneamente, e nenhuma outra consideração terá importância.</p>
 <p>Consta que os médicos do Período Tokugawa, aclamados como mestres em sua arte, conquistaram renome justamente por curarem doenças consideradas difíceis. Tais exemplos históricos corroboram a teoria que aqui defendo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医師の資格 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 医師の資格に就て、茲に見逃す事の出来ない一大欠陥のある事を私は指摘したいのである。<br/><br/>それは当局が医師の資格を附与する場合現在迄の機構に於ては、学歴、経験、論文の三者による事でこれは遍く人の知る処であるが、実はそれだけでは、最も緊要なる点を逸してゐると思ふのである。<br/><br/>それは如何なる点であるかといふと病気治療の技能試験である。<br/><br/>即ち各種の病気に対してより速かに、より良く治癒せしめ得る技能そのものを第一条件とする事である。<br/><br/>如何に学歴や経験、論文等が優秀であるとしても、実際に病気を治癒せしめ得る技能手腕がなければ、医師としての資格に欠けてゐるといへよう。<br/><br/> 再三述べた如く、医学そのものの使命は、病気を治し健康を増進せしむる以外の何物でもないのである。<br/><br/>勿論、学歴も経験も論文も必要ではあらうが畢竟治病目的の為の基礎条件であつて、治病の方法そのものでない事は勿論である。<br/><br/>例へていへば茲に一個の飛行機を製作するとする。<br/><br/>其場合、如何に機械や構造の説明が学理的であつても、実際に飛ばなければ意味をなさないのと同様である。<br/><br/> 此意味に於て、右に述べた如く治病技能の優劣によつて医師の資格を定むべきであつて学歴、経験、論文は、附随条件とすべきが至当ではないかと思ふのである。<br/><br/>斯くする事によつて、はじめて治病医学は真の進歩を遂げるであらう。<br/><br/>そうして私はその方法として正規の学歴と経験と論文の三者によつて先づ学士の称号を得させ尚進んで博士の資格を得んとするには、前述の如く治病技能の厳密なる試験を経、その優越を確認する事によつて附与すべきであると思ふのである。<br/><br/> 次に、今一つ私は言ひたい事がある。<br/><br/>それは病者が治癒、不治癒に拘はらず、同一の費額を払はなければならないといふ事であるがこれは不合理であらう。<br/><br/>いふまでもなく医療の価値を定める場合、全治又はその遅速、不全治又は悪化等の価値の差別は大いにあるが実際上適確なる計算は困難であるから、私は現在としては左の如き方法による事は如何かと思ふのである。<br/><br/>参考までに書いてみよう。<br/><br/> 一、病気全治の場合、現在の診療費の倍額となし、不治の場合、現在診療費の半額とする事。<br/><br/> 二、初診の時、予め全治日数を定め、その期間、現在診療費の倍額とし、右の日数を越える場合、現在診療費の半額に下げる事。<br/><br/> 三、初診の場合、予め全治迄の日数費額を決定し、その全額を支払はしめ、万一予期に反する場合、半額を返却する事。<br/><br/>而して此方法は、患者の貧富によつて増減する事もよいであらう。<br/><br/>又等級による事も一方法であらう。<br/><br/> 私は、支那人が医療を受ける場合、初診の際、此病気は幾何で治るかと訊くそうである。<br/><br/>之に対し嗤ふ日本人があるが、私は或意味に於て寧ろ進歩的であり、合理的であると思ふのである。<br/><br/>何となれば、此方法は患者自身の経済的実情に合致すると共に、医家としても、技能の優劣が公正に酬ひられるからである。<br/><br/> 右の如き私の案を実行するとすれば、其効果として何よりも顕著である事は、医学が真に治る進歩をするといふ事である。<br/><br/>然し乍ら之等の案に対して、医家は尊厳を傷つけらるる如き感がするかもしれない。<br/><br/> 然しそれは外形だけの事であつて、寧ろ私の案を実行する事によつて、内容的尊厳即ち心からなる敬意を払はるるであらう。<br/><br/> 何となれば患者自身としては、一日も早く疾患から遁れる事であり、痛苦が解消する事であり、健康が恢復する事であり、それ以外に何物もないのであるからそれが解決されるとしたら、自（おのずか）ら感謝と敬意が湧き、他の何事をも介意しないであらう。<br/><br/> 徳川時代名医と称せられたる医家は、難病を治療し、それによつて名声を博したといふ事を聞いてゐるが、之等は私の提唱する理論と合致してゐるのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

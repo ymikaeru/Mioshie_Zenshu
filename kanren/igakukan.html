@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>igakukan</title>
 <link href="../style2.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <p align="center">
 <font face="HG正楷書体-PRO" size="2">--- Coletânea de Ensaios do Mestre Jikan Okada ---</font>
 <font size="1">関連出版物<br/>
@@ -13,52 +214,6 @@
 </p>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ――― 岡 田 自 観 師 の 論 文 集 ―― 関連出版物 医学関係御論文集 写真はありません 医学関係御論文集 編集者 不明 発 刊日不明 推定、昭和２９・３０年頃 この『医学関係御論文集』は、光、救世、栄光の各紙と地上天国に掲載された医学関係の御論文249編と『文明の創造』から８編『医学革命の書』から８編の計265編の御論文が収録されています。<br><br> この御論文集に収録されている『文明の創造』と『医学革命の書』は『岡田茂吉全集』に収録されているものとは編集が違います。<br><br> これはまだ未確認ですが、『文明の創造』のほうは『御教え集』中に「文明の創造の論文」として朗読されたものが収録されているようです。<br><br> 『医学革命の書』のほうもその傾向はありますが、すべてではないようです。<br><br> 収 録 御 論 文 無信仰と有信仰 光 2 岡田道一先生に物申す 救世61 アメリカを救う〃結核〃 栄光180 治るんだ 3 バーナードショウ長命の秘訣、菜食主義 栄光78 宗教と病院 181 宗教と医学 6 私と病気 80 健康は一切なり 182 宗教からみた産制問題 7 生野菜 81 注意 182 自然無視の文化 9 浄霊法変る 84 黴菌人間 183 健康による天国化 光号外 誰でも太れる法 86 爆弾を抱いている現代人 184 寸 言 光号外 薬毒 88 医療とは 185 神示の医学「浄霊の原理」 光号外 結核亡国論 91 医学断片集（22）神経とは 185 此事実を何とみる 光 11 子供を健康にするには 95 医学療法と信仰療法 186 産制開庫の別の観方 11 文化の迷蒙 96 医学は科学？ 186 宗教は奇蹟なり 11 免疫と抵抗力 103 善意の罪悪 187 悲劇を滅する 12 宗教なるが故に 104 医学断片集（23）手当 187 栄養の喜劇 13 現代医学論 105 本教信者の幸福 188 天国化と健康問題 14 蓬莱島 106 名人の失くなった理由（１） 190 細菌恐るべき乎 15 毒結五十年 107 医学断片集（24）鉄剤 190 亡国的産制論 16 病気礼讃の弁 112 名人の失（なった理由（２） 191 お蔭話を読んで 16 医者は果して無章任か 114 現代医学を嗤う 191 之を何と見る 17 対症療法の可否 114 医学断片集（25）体質 191 真理の具現 18 黴菌は有難いもの 115 名人の失くなった理由（３） 192 方法論と結果論 19 此事実を考えて見よ 115 医学断片集（26）医師の無責任という言葉 192 坊ちゃんを作る健康法 20 医師の医学迷信 117 風邪引結構 193 寸 評 身体をこわす 20 三大迷信とは何か 119 スポーツマンの早死の理由 193 寝 冷 20 無題（赤痢に関する御論文） 119 医学断片集（27）効果の言葉 193 疫 痢 20 微熱というもの 120 大恐怖時代来らん 194 内臓の三位一体と浄霊 21 現代医学進歩の窮極 121 医学断片集（28） 194 菊五郎丈の死 21 浄霊の発明的価値 123 理窟ならぬ理窟 195 大三災と小三災 22 医学の考え方 123 医学断片集（29）欠伸 195 神霊医学は民主的医学なり 22 結核と馬車馬 124 薬が効かなくなった 196 意外な話 23 御蔭話から何を得る 125 若しもこの世界から悪がなくなったら 197 産制の愚 23 自分で病気を知る法 125 恐るべき農村結核 199 寸評 名医故入沢博士 23 医師は本教の協力者 126 病気が治ればいい 200 ホルモン 23 今の医学 128 児童の歯牙に就いて 200 疥癬の原因 23 医学の革命 129 野蛮なる文明 201 寸 評 徽菌は根絶出来るか 24 BCG問題 130 先駆者の悩み 202 結核新薬に就て 24 食欲と頭脳 135 心臓の手術 203 自家中毒 24 九分九厘と一厘 138 結核信仰療法に就いて 204 寸 評 美人になる法 25 医学と浄霊 142 麻疹なんか何でもない 205 或質屋の話 26 罪の因は薬 142 恐るべき漢方薬 207 眼を洗う 26 手術は野蛮 143 医学断片集（30）逆栄養 207 薬剤亡国論、薬毒怖るべし 26 神霊医学断片集（１）浄霊の急所 145 病人氾濫の布哇 211 軽視出来ない事実 27 体内の入浴 147 近頃の世相 214 日本脳炎は果して蚊の媒介か？ 30 医学断片集（２）闘病という言葉 147 べートーヴェン 214 造物主に反抗する医学 30 医学談片集（３）医学の盲点 148 迷信時代 221 ワクチン禍の実例 31 科学封建 149 超科学 222 寄生虫問題 33 医学断片集（４）神経の所為 149 日本の危機 224 医薬断片集 或る未亡人の話 33 結核新薬を嗤う 150 医学が私の説を採入始めた？ 224 輪 血 33 医学断片集（５）赤痢 150 神と硝子玉 225 正しい治療 33 御蔭話を読んで 151 毒塊人間 226 食はず嫌い 34 医学断片集（６） 151 医学封建 227 医薬談片集 或眼科医の話 34 医療誤点の種々相 152 薬剤に科学性はない 227 或看護婦長の話 34 医学断片集（７）信用ある医師 152 結核患者現在四百万人 227 ヒロポン中毒 36 世界的丁髷時代 155 本教発展の主因 228 おかげ話から何を掴んだか 36 医学断片集（８）薬毒皆無になれば百歳以上生きる 155 分っていて分らない 228 空前の難問題 37 医学断片集（９）便秘の誤解 156 超 愚 229 医学談片集 病は内から外ヘ 37 浄化の言葉 157 詐欺時代 231 人形医学 37 医学断片集（10）体温計 158 三日間で博士が出来る 232 人体は綜合体である 38 癌病に就て 158 寿命が延びた理由 234 科学迷信 38 世界的迷信としての現代医学 159 医学は迷信か 235 煙草と医学 40 医学断片集（11）歯の痛み 159 新聞の売薬広告 236 夜の終り近づけり汝等悔改めよ 42 医学断片集（12）脂肪肥り 160 浄霊医術の実験 239 私の健康法 43 結核半減記念祝いに就て 161 薬が効かなくなった 239 憐むべき現代人 44 現代医学に対する哲学的考察 161 浄霊は科学療法なり（１） 243 低能児は治る 45 医学断片集（13）治療という言葉 161 浄霊は科学療法なり（２） 247 自殺者の無責任 45 赤痢流行に就て 162 薬剤は科学？ 254 結核予防は不可能か、神医学を信ぜよ 46 医学断片集（14）神経という言葉 162 私は宗教科学者だ 255 某医博との対談 47 伝染病恐るるに足らず 164 医学者に警告する 257 今の流行インフルヱンザ 救世48 医学断片集（15）発育の遅れる児童 165 医学に望む 地天 2 冷えるという事 48 薬屋さんには御気の毒 165 神霊放射能時代 4 霊的には無解決「脳外科療法に革命」に就て 49 医学断片集（16）眼にゴミが入る 166 乳幼児の健康 4 医者の遁辞 49 医学断片集（17）頭の病気 167 日本人と精神病 8 輸血 49 医学断片集（18）赤痢菌 168 学理の魔術 10 辛いものを避ける 49 医学断片集（19） 169 医学談片集 変な話 10 抵抗力 50 医学関係者に警告する 171 事実は雄弁なり 11 消化に就て 50 医学の罪悪観 172 結核ナンセンス 12 幼児の食物に就て 51 ○ヽの文化 173 沢村田之助他 13 病気は果して恐しいか 53 悪の追放 173 医学の革命 13 医師が電療に反対する 53 薬毒の恐怖 173 現代医学で病気は治るか 15 麻疹とその手当 55 医学断片集（20）塵芥溜には虫が湧く 173 行者の病気治し 15 病気とは排毒作用 57 医学断片集（21）薬と名の付くものは全部麻薬なり 174 医学の盲点と自然良能力 16 絶対的健康診断 58 菜食のよき例 174 病原と浄霊の原理 26 平均浄化に就て 59 米国に於ける驚くべき病者の氾濫 175 真文明とは何ぞや 27 痔に就て 60 医学断片集 176 薬が不幸を作る 44 薬効短見論 61 アメリカを救う〃病気とは何ぞや〃 179 私という者（一） 47 文明の創造 序 文 御教え集13号 梗 概 御教え集13号 天国建設の順序と悪の追放 〔天国建設と悪の追放〕 御教え集12号 九分九厘と一厘 御教え集13号 病気と寿命〔健康と寿命〕 御教え集13号 種 痘 御教え集 3号 癌の病〔癌？〕 御教え集15号 救い主と贖罪主 御教え集14号 医学革命の書 序 文 御教え集18.23号 医学は迷信なり 御教え集18号 健康の自由主義 御教え集25号 真の医術 未確認 病気と苦痛 未確認 医学迷信 未確認 恐るべき科学迷信 御教え集33号 医学の発見に就て 未確認
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de Ensaios do Mestre Okada Jikanshi</h2>
 <p><strong>Publicações Relacionadas: Coletânea de Ensaios sobre Medicina</strong></p>
@@ -2200,5 +2355,48 @@ Sobre a Descoberta da Medicina - Não confirmado</p></div></blockquote>
 </center>
 </div>
 <p>　</p>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>――― 岡 田 自 観 師 の 論 文 集 ―― 関連出版物 医学関係御論文集 写真はありません 医学関係御論文集 編集者 不明 発 刊日不明 推定、昭和２９・３０年頃 この『医学関係御論文集』は、光、救世、栄光の各紙と地上天国に掲載された医学関係の御論文249編と『文明の創造』から８編『医学革命の書』から８編の計265編の御論文が収録されています。<br/><br/> この御論文集に収録されている『文明の創造』と『医学革命の書』は『岡田茂吉全集』に収録されているものとは編集が違います。<br/><br/> これはまだ未確認ですが、『文明の創造』のほうは『御教え集』中に「文明の創造の論文」として朗読されたものが収録されているようです。<br/><br/> 『医学革命の書』のほうもその傾向はありますが、すべてではないようです。<br/><br/> 収 録 御 論 文 無信仰と有信仰 光 2 岡田道一先生に物申す 救世61 アメリカを救う〃結核〃 栄光180 治るんだ 3 バーナードショウ長命の秘訣、菜食主義 栄光78 宗教と病院 181 宗教と医学 6 私と病気 80 健康は一切なり 182 宗教からみた産制問題 7 生野菜 81 注意 182 自然無視の文化 9 浄霊法変る 84 黴菌人間 183 健康による天国化 光号外 誰でも太れる法 86 爆弾を抱いている現代人 184 寸 言 光号外 薬毒 88 医療とは 185 神示の医学「浄霊の原理」 光号外 結核亡国論 91 医学断片集（22）神経とは 185 此事実を何とみる 光 11 子供を健康にするには 95 医学療法と信仰療法 186 産制開庫の別の観方 11 文化の迷蒙 96 医学は科学？ 186 宗教は奇蹟なり 11 免疫と抵抗力 103 善意の罪悪 187 悲劇を滅する 12 宗教なるが故に 104 医学断片集（23）手当 187 栄養の喜劇 13 現代医学論 105 本教信者の幸福 188 天国化と健康問題 14 蓬莱島 106 名人の失くなった理由（１） 190 細菌恐るべき乎 15 毒結五十年 107 医学断片集（24）鉄剤 190 亡国的産制論 16 病気礼讃の弁 112 名人の失（なった理由（２） 191 お蔭話を読んで 16 医者は果して無章任か 114 現代医学を嗤う 191 之を何と見る 17 対症療法の可否 114 医学断片集（25）体質 191 真理の具現 18 黴菌は有難いもの 115 名人の失くなった理由（３） 192 方法論と結果論 19 此事実を考えて見よ 115 医学断片集（26）医師の無責任という言葉 192 坊ちゃんを作る健康法 20 医師の医学迷信 117 風邪引結構 193 寸 評 身体をこわす 20 三大迷信とは何か 119 スポーツマンの早死の理由 193 寝 冷 20 無題（赤痢に関する御論文） 119 医学断片集（27）効果の言葉 193 疫 痢 20 微熱というもの 120 大恐怖時代来らん 194 内臓の三位一体と浄霊 21 現代医学進歩の窮極 121 医学断片集（28） 194 菊五郎丈の死 21 浄霊の発明的価値 123 理窟ならぬ理窟 195 大三災と小三災 22 医学の考え方 123 医学断片集（29）欠伸 195 神霊医学は民主的医学なり 22 結核と馬車馬 124 薬が効かなくなった 196 意外な話 23 御蔭話から何を得る 125 若しもこの世界から悪がなくなったら 197 産制の愚 23 自分で病気を知る法 125 恐るべき農村結核 199 寸評 名医故入沢博士 23 医師は本教の協力者 126 病気が治ればいい 200 ホルモン 23 今の医学 128 児童の歯牙に就いて 200 疥癬の原因 23 医学の革命 129 野蛮なる文明 201 寸 評 徽菌は根絶出来るか 24 BCG問題 130 先駆者の悩み 202 結核新薬に就て 24 食欲と頭脳 135 心臓の手術 203 自家中毒 24 九分九厘と一厘 138 結核信仰療法に就いて 204 寸 評 美人になる法 25 医学と浄霊 142 麻疹なんか何でもない 205 或質屋の話 26 罪の因は薬 142 恐るべき漢方薬 207 眼を洗う 26 手術は野蛮 143 医学断片集（30）逆栄養 207 薬剤亡国論、薬毒怖るべし 26 神霊医学断片集（１）浄霊の急所 145 病人氾濫の布哇 211 軽視出来ない事実 27 体内の入浴 147 近頃の世相 214 日本脳炎は果して蚊の媒介か？ 30 医学断片集（２）闘病という言葉 147 べートーヴェン 214 造物主に反抗する医学 30 医学談片集（３）医学の盲点 148 迷信時代 221 ワクチン禍の実例 31 科学封建 149 超科学 222 寄生虫問題 33 医学断片集（４）神経の所為 149 日本の危機 224 医薬断片集 或る未亡人の話 33 結核新薬を嗤う 150 医学が私の説を採入始めた？ 224 輪 血 33 医学断片集（５）赤痢 150 神と硝子玉 225 正しい治療 33 御蔭話を読んで 151 毒塊人間 226 食はず嫌い 34 医学断片集（６） 151 医学封建 227 医薬談片集 或眼科医の話 34 医療誤点の種々相 152 薬剤に科学性はない 227 或看護婦長の話 34 医学断片集（７）信用ある医師 152 結核患者現在四百万人 227 ヒロポン中毒 36 世界的丁髷時代 155 本教発展の主因 228 おかげ話から何を掴んだか 36 医学断片集（８）薬毒皆無になれば百歳以上生きる 155 分っていて分らない 228 空前の難問題 37 医学断片集（９）便秘の誤解 156 超 愚 229 医学談片集 病は内から外ヘ 37 浄化の言葉 157 詐欺時代 231 人形医学 37 医学断片集（10）体温計 158 三日間で博士が出来る 232 人体は綜合体である 38 癌病に就て 158 寿命が延びた理由 234 科学迷信 38 世界的迷信としての現代医学 159 医学は迷信か 235 煙草と医学 40 医学断片集（11）歯の痛み 159 新聞の売薬広告 236 夜の終り近づけり汝等悔改めよ 42 医学断片集（12）脂肪肥り 160 浄霊医術の実験 239 私の健康法 43 結核半減記念祝いに就て 161 薬が効かなくなった 239 憐むべき現代人 44 現代医学に対する哲学的考察 161 浄霊は科学療法なり（１） 243 低能児は治る 45 医学断片集（13）治療という言葉 161 浄霊は科学療法なり（２） 247 自殺者の無責任 45 赤痢流行に就て 162 薬剤は科学？ 254 結核予防は不可能か、神医学を信ぜよ 46 医学断片集（14）神経という言葉 162 私は宗教科学者だ 255 某医博との対談 47 伝染病恐るるに足らず 164 医学者に警告する 257 今の流行インフルヱンザ 救世48 医学断片集（15）発育の遅れる児童 165 医学に望む 地天 2 冷えるという事 48 薬屋さんには御気の毒 165 神霊放射能時代 4 霊的には無解決「脳外科療法に革命」に就て 49 医学断片集（16）眼にゴミが入る 166 乳幼児の健康 4 医者の遁辞 49 医学断片集（17）頭の病気 167 日本人と精神病 8 輸血 49 医学断片集（18）赤痢菌 168 学理の魔術 10 辛いものを避ける 49 医学断片集（19） 169 医学談片集 変な話 10 抵抗力 50 医学関係者に警告する 171 事実は雄弁なり 11 消化に就て 50 医学の罪悪観 172 結核ナンセンス 12 幼児の食物に就て 51 ○ヽの文化 173 沢村田之助他 13 病気は果して恐しいか 53 悪の追放 173 医学の革命 13 医師が電療に反対する 53 薬毒の恐怖 173 現代医学で病気は治るか 15 麻疹とその手当 55 医学断片集（20）塵芥溜には虫が湧く 173 行者の病気治し 15 病気とは排毒作用 57 医学断片集（21）薬と名の付くものは全部麻薬なり 174 医学の盲点と自然良能力 16 絶対的健康診断 58 菜食のよき例 174 病原と浄霊の原理 26 平均浄化に就て 59 米国に於ける驚くべき病者の氾濫 175 真文明とは何ぞや 27 痔に就て 60 医学断片集 176 薬が不幸を作る 44 薬効短見論 61 アメリカを救う〃病気とは何ぞや〃 179 私という者（一） 47 文明の創造 序 文 御教え集13号 梗 概 御教え集13号 天国建設の順序と悪の追放 〔天国建設と悪の追放〕 御教え集12号 九分九厘と一厘 御教え集13号 病気と寿命〔健康と寿命〕 御教え集13号 種 痘 御教え集 3号 癌の病〔癌？〕 御教え集15号 救い主と贖罪主 御教え集14号 医学革命の書 序 文 御教え集18.23号 医学は迷信なり 御教え集18号 健康の自由主義 御教え集25号 真の医術 未確認 病気と苦痛 未確認 医学迷信 未確認 恐るべき科学迷信 御教え集33号 医学の発見に就て 未確認</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

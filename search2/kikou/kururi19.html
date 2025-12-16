@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kururi19</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 明主様がお使いになる人 瓢箪 『地上天国』66号、昭和30(1954)年1月15日発行 以前よく「教祖がどんなに偉くとも、有為の材の輔弼（ほひつ）がなかったら今日の成功はあり得なかったろうし、これ程驚異の大業を成就される筈はない」と言う人があった。<br><br>こういう極めて皮相な見方をしている人は世間には未だあるようである。<br><br>ところが実際はまるで正反対な程異なるのである。<br><br> 少なくとも本教が今日社会の表面に確固たる地歩を占むる以前の最も困難の時代においては、悉く死の運命にあった病人を生かしてお使いになりつつ、この世紀の大業の基礎をお固めになったというのが本当だろうと思うのであって、そこに神人の御業たるの価値を見出すのである。<br><br> 勿論、信徒の質は現在全く一変しており、幹部の人物も幾変化して今日に至ったが、もし明主様の神智の御指示が在さなかったら、既に教団は潰滅したであろうと思う出来事も随分あったのである。<br><br>近来、本教としての最も大きい打戟としては二十三年の税問題と二十五年の法難事件であったといえようが、その事件の遠因は、実に明主様が疥癬の御浄化で約二年間御静養遊ばされ、一切の教務も経営も我々に一任遊ばされ、我々のみの活動によって運営した期間に胚胎したのである。<br><br> 明主様は長い間邪神と戦われ、あらゆる迫害や妨害を踏越えて今日の大を致されたが、その間の邪神の巧妙残忍執拗極まる策謀は到底人智を似ては看破出来るものではなかった。<br><br>大御光の非常に強まらせ給うた今日では邪神の妨害もよほど無力化したが、かつては絶えずその妨害への応接に悩まされ、日夜寸刻の油断なく邪神の策動に備えつつも、信仰者の善人的素質は悪心の洞察力に乏しく容易に悪計に乗ぜられる我々は、明主様から御覧になれば危険極まる小羊であったに違いないと思う。<br><br>その井戸の縁の茶碗式我々をお使いになってお仕事をお進め遊ばす御煩わしさはいかばかりに在したか、拝察するだに身の縮む思いがするのである。<br><br>そして邪神のいかなる深謀奇策も神鏡に照らすごとく御看破遊ばす明主様の御眼力あったればこそ、初めて本教の存続と栄えがあった事を痛感するのである。<br><br> 大森時代から今日まで、役員や信徒は随分変化して、最初からの信徒は現在数えるほどにも残っていない。<br><br>その間、社会のあらゆる階層の人が御高徳を慕ってお訪ねし、信徒は常に増減を繰返し今日に至ったのであるが、最初の頃の信徒は極めて少数で、しかもカード階級に近い下層階級に多く拡がった。<br><br>そのため明主様の御出費をかけるような信徒もあった位だし、幹部級の者さえほとんど明主様の御脛をかじっていた有様で、経済的には実にお楽ではなくほとんど赤字の月が多かった。<br><br>その頃「空財布よくも揃って入信し」という笑冠句をお詠みになったが、これは当時を知る我々にば実にゾッとするほど腸に響く御句である。<br><br>そして御仕事と時期の変化と共に次第に中層階級へ殖え、上流階級にも及び、幾度か信徒の質は向上して行きつつ社会の表面に出られ現在に至ったのである。<br><br> そして以前から信徒の代表者には必ず中流階級の人をお選びになったが、明主様は特に中層階級に御救業の拡まる事をお望みになりお力をお入れになったかに拝察された。<br><br>それは恐らく、中流階級こそ上流、下流を支えて社会の中枢をなし大勢を動かすに力あるものであって、革新的御仕事を遊ばすためには最も効果的有力なるものであるからであろう。<br><br> なお明主様はあらゆる種類の人をそれぞれ最適の時所位をお与えになり、その特色を最大に生かしてお使いになって来た。<br><br>そして最も枢要なるポストには時節に応じて最適格の人物をお据えになったのは勿論であるが、概して智略縦横型とか傑物型に見ゆる人物よりはむしろ平凡にして着実な人物をお選びになるよう拝察された。<br><br>我々も注意深い間違いのない人間になるようよく御教え給わったものであるが、それについて私は一講談を引例して御教え給わった事を覚えている。<br><br>それは、昔ある偉い剣術家が三人の息子の中から後継者を選定すべく試験をした。<br><br>その試験問題というのば道場に一個の衝立を置き、いかなる方法でもよいこれを越えて向う側へ立ってみよというのであった。<br><br>すると長男は気合諸共跳躍して見事に飛越えた。<br><br>次男は衝立の前に台を持って来て向う側を査べてみた上で同様飛越した。<br><br>三男は何等武芸らしいものを示さず、衝立の横から廻って向う側へ行った。<br><br>その結果合格者として家督を相続さしたのは三男であったというのである。<br><br>父の求めた資格とは自己の武芸に頼らず、優技も示さぬ細心の注意力を持った武芸者であったのである。<br><br>要するに枢要の地位には分別の不足が最も危険であり、深慮が肝要である事を強調されたものであろう。<br><br> 又、明主様の御仕事においては、最も重要なるポストが誰の目にも信じられぬ程極めて花々しからぬ所にある事がある。<br><br>そして又こういう事もある。<br><br>我々がみてもコンマ以下の厄介な人間をどうして大事にお使いになっているのか疑念を抱かざるを得ぬ事がある。<br><br>中には、明主様のお手数かけるばかりで怪しからん奴だ、よろしくお取替え遊ばすよう、一部の人々が御進言した事もあったが、豈（あに）計らんやそういう人間が御神業上驚くべき重大なる意義をもち、大きい御用をしている事を知って、人間の目の小さなる、御神業に関しては盲目である事を泌々覚るのである。<br><br> このように特に重要なる御用はむしろ人々の注目を引かぬような一見低能的人物をお使いになる事がよくあるのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>As Pessoas Utilizadas por Meishu-Sama</h2>
 <p>Outrora, era comum ouvir-se dizer: "Por mais grandioso que seja o Fundador, o sucesso de hoje não teria sido possível sem o auxílio de assessores competentes, nem seria concebível que uma Obra tão extraordinária fosse consumada". Aparentemente, ainda existem no mundo pessoas que sustentam essa visão extremamente superficial. Contudo, a realidade é tão distinta que se revela diametralmente oposta.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Ademais, Meishu-Sama sempre utilizou os mais diversos tipos de pessoas, concedendo a cada uma o tempo, o lugar e a posição mais adequados, de modo a extrair o máximo de suas características peculiares. Naturalmente, para os postos de maior importância, Ele designava as pessoas mais qualificadas para cada momento. Contudo, em geral, observei que Ele parecia preferir indivíduos de aparência comum, porém firmes e constantes, em detrimento daqueles vistos como brilhantes estrategistas ou de personalidades extraordinárias. Ele frequentemente nos ensinava a sermos cuidadosos para não cometer erros e, a esse respeito, recordo-me de uma história que me contou para nos instruir. Antigamente, um grande mestre de esgrima decidiu testar seus três filhos para escolher seu sucessor. O teste consistia em atravessar um biombo colocado no meio do dojo, por qualquer método que julgassem apropriado. O filho mais velho, com um vibrante grito de energia, saltou e transpôs o obstáculo com maestria. O segundo filho trouxe um pequeno banco, inspecionou o outro lado e, então, saltou de forma semelhante. Já o terceiro filho, sem demonstrar qualquer habilidade marcial, simplesmente contornou o biombo e passou para o outro lado. O resultado foi que o terceiro filho foi aprovado e herdou a liderança da família. A qualificação que o pai buscava era a de um guerreiro que, sem depender de sua própria destreza nem fazer exibições de técnica, possuísse uma atenção meticulosa. Com isso, Meishu-Sama certamente desejava enfatizar que, em posições cruciais, a falta de discernimento é o maior perigo, e a ponderação profunda é absolutamente essencial.</p>
 <p>Na Obra de Meishu-Sama, acontece também de os postos mais cruciais estarem em posições de pouco ou nenhum destaque, de uma forma que ninguém acreditaria. Ocorre ainda outra situação: por vezes, sentimo-nos compelidos a questionar por que Ele utiliza com tanto esmero indivíduos que, a nosso ver, são problemáticos e aparentemente insignificantes. Houve casos em que alguns chegaram a sugerir que Meishu-Sama substituísse tais pessoas, a quem julgavam apenas causar-Lhe transtornos. Contudo, para nossa surpresa, descobríamos mais tarde que justamente esses indivíduos possuíam um significado surpreendentemente profundo para a Obra Divina e desempenhavam uma missão de grande importância. É nesses momentos que compreendemos o quão míope é a visão humana e que, no que tange à Obra Divina, somos verdadeiramente cegos.</p>
 <p>Assim, é comum que as missões de especial relevância sejam confiadas a pessoas que não atraem a atenção, indivíduos que, à primeira vista, parecem até mesmo ser de pouca capacidade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 明主様がお使いになる人 瓢箪 『地上天国』66号、昭和30(1954)年1月15日発行 以前よく「教祖がどんなに偉くとも、有為の材の輔弼（ほひつ）がなかったら今日の成功はあり得なかったろうし、これ程驚異の大業を成就される筈はない」と言う人があった。<br/><br/>こういう極めて皮相な見方をしている人は世間には未だあるようである。<br/><br/>ところが実際はまるで正反対な程異なるのである。<br/><br/> 少なくとも本教が今日社会の表面に確固たる地歩を占むる以前の最も困難の時代においては、悉く死の運命にあった病人を生かしてお使いになりつつ、この世紀の大業の基礎をお固めになったというのが本当だろうと思うのであって、そこに神人の御業たるの価値を見出すのである。<br/><br/> 勿論、信徒の質は現在全く一変しており、幹部の人物も幾変化して今日に至ったが、もし明主様の神智の御指示が在さなかったら、既に教団は潰滅したであろうと思う出来事も随分あったのである。<br/><br/>近来、本教としての最も大きい打戟としては二十三年の税問題と二十五年の法難事件であったといえようが、その事件の遠因は、実に明主様が疥癬の御浄化で約二年間御静養遊ばされ、一切の教務も経営も我々に一任遊ばされ、我々のみの活動によって運営した期間に胚胎したのである。<br/><br/> 明主様は長い間邪神と戦われ、あらゆる迫害や妨害を踏越えて今日の大を致されたが、その間の邪神の巧妙残忍執拗極まる策謀は到底人智を似ては看破出来るものではなかった。<br/><br/>大御光の非常に強まらせ給うた今日では邪神の妨害もよほど無力化したが、かつては絶えずその妨害への応接に悩まされ、日夜寸刻の油断なく邪神の策動に備えつつも、信仰者の善人的素質は悪心の洞察力に乏しく容易に悪計に乗ぜられる我々は、明主様から御覧になれば危険極まる小羊であったに違いないと思う。<br/><br/>その井戸の縁の茶碗式我々をお使いになってお仕事をお進め遊ばす御煩わしさはいかばかりに在したか、拝察するだに身の縮む思いがするのである。<br/><br/>そして邪神のいかなる深謀奇策も神鏡に照らすごとく御看破遊ばす明主様の御眼力あったればこそ、初めて本教の存続と栄えがあった事を痛感するのである。<br/><br/> 大森時代から今日まで、役員や信徒は随分変化して、最初からの信徒は現在数えるほどにも残っていない。<br/><br/>その間、社会のあらゆる階層の人が御高徳を慕ってお訪ねし、信徒は常に増減を繰返し今日に至ったのであるが、最初の頃の信徒は極めて少数で、しかもカード階級に近い下層階級に多く拡がった。<br/><br/>そのため明主様の御出費をかけるような信徒もあった位だし、幹部級の者さえほとんど明主様の御脛をかじっていた有様で、経済的には実にお楽ではなくほとんど赤字の月が多かった。<br/><br/>その頃「空財布よくも揃って入信し」という笑冠句をお詠みになったが、これは当時を知る我々にば実にゾッとするほど腸に響く御句である。<br/><br/>そして御仕事と時期の変化と共に次第に中層階級へ殖え、上流階級にも及び、幾度か信徒の質は向上して行きつつ社会の表面に出られ現在に至ったのである。<br/><br/> そして以前から信徒の代表者には必ず中流階級の人をお選びになったが、明主様は特に中層階級に御救業の拡まる事をお望みになりお力をお入れになったかに拝察された。<br/><br/>それは恐らく、中流階級こそ上流、下流を支えて社会の中枢をなし大勢を動かすに力あるものであって、革新的御仕事を遊ばすためには最も効果的有力なるものであるからであろう。<br/><br/> なお明主様はあらゆる種類の人をそれぞれ最適の時所位をお与えになり、その特色を最大に生かしてお使いになって来た。<br/><br/>そして最も枢要なるポストには時節に応じて最適格の人物をお据えになったのは勿論であるが、概して智略縦横型とか傑物型に見ゆる人物よりはむしろ平凡にして着実な人物をお選びになるよう拝察された。<br/><br/>我々も注意深い間違いのない人間になるようよく御教え給わったものであるが、それについて私は一講談を引例して御教え給わった事を覚えている。<br/><br/>それは、昔ある偉い剣術家が三人の息子の中から後継者を選定すべく試験をした。<br/><br/>その試験問題というのば道場に一個の衝立を置き、いかなる方法でもよいこれを越えて向う側へ立ってみよというのであった。<br/><br/>すると長男は気合諸共跳躍して見事に飛越えた。<br/><br/>次男は衝立の前に台を持って来て向う側を査べてみた上で同様飛越した。<br/><br/>三男は何等武芸らしいものを示さず、衝立の横から廻って向う側へ行った。<br/><br/>その結果合格者として家督を相続さしたのは三男であったというのである。<br/><br/>父の求めた資格とは自己の武芸に頼らず、優技も示さぬ細心の注意力を持った武芸者であったのである。<br/><br/>要するに枢要の地位には分別の不足が最も危険であり、深慮が肝要である事を強調されたものであろう。<br/><br/> 又、明主様の御仕事においては、最も重要なるポストが誰の目にも信じられぬ程極めて花々しからぬ所にある事がある。<br/><br/>そして又こういう事もある。<br/><br/>我々がみてもコンマ以下の厄介な人間をどうして大事にお使いになっているのか疑念を抱かざるを得ぬ事がある。<br/><br/>中には、明主様のお手数かけるばかりで怪しからん奴だ、よろしくお取替え遊ばすよう、一部の人々が御進言した事もあったが、豈（あに）計らんやそういう人間が御神業上驚くべき重大なる意義をもち、大きい御用をしている事を知って、人間の目の小さなる、御神業に関しては盲目である事を泌々覚るのである。<br/><br/> このように特に重要なる御用はむしろ人々の注目を引かぬような一見低能的人物をお使いになる事がよくあるのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

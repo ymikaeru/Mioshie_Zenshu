@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>situmo23</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神智の光 『地上天国』19号、昭和25(1950)年12月25日発行 （お伺） 芸術観の真諦につき御開示をお願い申し上げます。<br><br> （御垂示） これは今年の春の光新聞か地上天国に詳しく書いてあるから見れば判る。<br><br>要するに芸術家の使命は、芸術によって人の品性を向上させ、よりよき社会たらしむることである。<br><br> （お伺） 出世観音様につき御教えをお願い申し上げます。<br><br> （御垂示） これは出世光明如来の間違いであろう。<br><br>なんとなれば、観音の御名は、化身仏となって蔭で救いをなされた時の期間であって、一歩世の中にお出になった最初の御名は、光明如来と申し上げるのである。<br><br> （お伺） 古いお寺の由来記などによりますと、ときどき観世音菩薩の御尊像が、仏教渡来以前においてすでに祀られているようなことがありますが、日本において、仏教とは独立して、古代に観音信仰があったのでございましょうか。<br><br>それとも観音信仰はあくまでもインド、中国における仏教の信仰とともにではあったが、日本へは仏教渡来以前に観音様の御尊像だけが招来され、宗教としての形式とまではゆかないまでも、単なる土俗の信仰対象であったのが、仏教渡来と同時にそれに包含されたものと解すべきでありましょうか。<br><br>お伺い申し上げます。<br><br> （御垂示） 勿論仏教の渡来した欽明天皇より数百年以前に渡来したものであるが、それはただ仏像だけであったのが、右の欽明天皇の御代にたくさんの経文とともに、公式に渡来したものである。<br><br>日本にある最も古い観音像は、インドでできた金銅仏であって、次はビルマ、支那、朝鮮という順序で製作されたものである。<br><br>ところがこれを見分けるのに、簡単な見方がある。<br><br>それはインドのはお顔の割合がすこぶる大きいが、時代の下るに従ってだんだん小さくなり、朝鮮製になるとお顔が小さく長身である。<br><br>その代表作としては、かの法隆寺にある百済観音である。<br><br>またお顔の大きいのは童子のごとく、日本で一番古い推古仏のごときは最もよく表われている。<br><br>そうして右は彫像のことであるが、絵画のほうはよほど違うようである。<br><br> （お伺） 九州の炭坑は日本の諸工業の原動力となっており、また外来文明は九州から輸入されたと聞いており、さらに神代とされている時代のことを考えますとき、九州開発はどのような意義を持つものでしょうか。<br><br> （御垂示） 九州とは一名筑紫の島と言い、古い時代は一番文化の発達した所である。<br><br>筑紫とは数なら九に相当する、すなわち七で成り、八で八方に広がり、数が増え九に到って発達の極に逢する意味である。<br><br>また一番最初拓け始めたのは薩摩の国で、薩摩から九州が拓け、九州から日本が拓けたのである。<br><br>薩摩の島津の○＋の紋所も、日の丸の国旗が、初めてできたのも、深い神秘があるのである。<br><br> （お伺） 今迄頂戴いたしました御教えの中には、スポーツに関したことはほとんどございませんが、今日の生活においてはスポーツは無視することは不可能でありますが、右に関して本教信徒としての心構えなどにつき御教えをお願い申し上げます。<br><br> （御垂示） 以前私の書いたもののどこかに、スポーツについて詳しく書いてあるから見れば判るから、ここでは簡単に書くが、人間には競争意識と、闘争意識がある以上、悪に向かえば戦争となるので、これを善に向かわしむるためにスポーツは非常に必要なものである。<br><br>これは言うまでもなく、大衆が楽しみながら決して被害者は出ないからである。<br><br>従って、ミロクの世になれば、いまよりもズッとさかんになるのは当然である。<br><br> （お伺） 毎朝、御神前に御神饌の膳部をお供えするとき、ちょうど神様が召し上がるように、神様のほうに向けてお供えするものでしょうか。<br><br>それとも人間のほうに向けてお供えするものでしょうか。<br><br> （御垂示） これは本当から言えば、貴男の言う通りだが、実は人間の考えとは違う。<br><br>それは饌供（せんぐ）の食物は神様が召し上がるのではない。<br><br>神様が霊気を入れてくださるのである。<br><br>だから人間が差し上げる想念は、神様に御霊気を入れていただきたいという意味である。<br><br>しかし神様によっては召し上がる場合もあるが、それは神様の階級によるので、その場合でもごく少々召し上がるだけで、大部分は霊気を入れてくださるのである。<br><br>故にお下がりの品物は、一人でも多く頂戴すれば、霊が浄まるのである。<br><br> （お伺） 人の性質と、運命との間には関連があるように思われますが、先天的、後天的に亘って性質のよってくるところを御教示ください。<br><br> （御垂示） これは簡単には話せない。<br><br>なぜなれば、いろいろの原因が総合されて一つの性格を形づくるからである。<br><br>例えば前世の因縁、環境、血統などであるが、その中の前世の因縁は信仰雑話に詳しく書いてあるから読めば判るが、環境の善し悪しも右の原因が大いにある。<br><br>また血統は祖先以来、上中下に宿命的に決まっているもので、それが性格にも影響するというわけで、細かに話せばきりがないのである。<br><br> （お伺） 御屏風観音様を仏壇に御奉斎いたしました場合、いままでの阿弥陀様はどう処置いたしましたらよろしいでしょうか。<br><br> （御垂示） 阿弥陀様はお軸かお像かで違うから、それを今一度書いて出しなさい。<br><br> （お伺） 砂、粘土、腐食三種の割合によりまして、土地に種類がございますが、これが非常に偏っております場合、これを客土などにより改良すべきでございましょうか。<br><br> （御垂示） これはちょっと判らない点がある。<br><br>腐食というのはおかしい。<br><br>土地が腐食などするはずがないからである。<br><br>たぶん堆肥のことであると思うが、そうとして客土など入れる必要はない。<br><br>入念に耕せばよろしい。<br><br>特に粘土と砂と混ぜると結構である。<br><br> （お伺） 酸性土壌は肥料過剰のためと思っておりますが、開拓当初より酸性土壌となっている場合がございますが、その原因はいかがでございましょうか。<br><br> （御垂示） そんなはずはない。<br><br>なにかの間違いであろう。<br><br>ただ山間などで鉱物が雨水などのために流れて土へ浸み込む場合がある。<br><br>そのためであろう。<br><br> （お伺） 自然農法において、田の裏作に麦を作りますとき、稲と違い、よほど困難を感じますが、いかなる理由でございましょうか。<br><br> （御垂示） 困難とはどういう困難であるか、詳しく書いて出しなさい。<br><br> （お伺） 幽世大神は国常立尊で、数十年前に幽世の主宰を大国主命に委ねられたと地上天国で拝読いたしたのですが、国常立尊と大国主命との関係を御教えください。<br><br> （御垂示） これは御神書の古いのに出ているから、よく読みなさい。<br><br> （お伺） 過般、一般新聞の「科学の声」の欄に、肺癌は長らくの愛煙家に多いとの記事がありましたが、これは煙草の「ニコチン」の影響が多いのでしょうか。<br><br> （御垂示） これは誤りである。<br><br>煙草に関係はない。<br><br>真症は霊的と、肉食の毒素のため、疑似癌は薬毒と尿毒のためである。<br><br> （お伺） 九月十三日ごろから約一カ月に亘り、妻が産褥（さんじょく）の大浄化をいたし苦しみましたが、「妻の実家の祖霊の供養をすれば良い」との御教示を実行いたしましたところ、たちまち快方に向かい、最後の日のお祭りがすむと嘘のように良くなりました。<br><br>これを機会にいままでこの教えの良いことを充分識っていながら、世評を気にして入信しなかった実家の人々を入信させたいと思いますが、まだ時機が早いでしょうか。<br><br>またこのような状態にある親戚がたくさんあるのですが、今後このように親戚の諸霊に頼られた場合、一々祀ってやるべきでしょうか。<br><br>また霊界と現界の救いの順序をいかにしたらよいか御教示願います。<br><br> （御垂示） 親戚知人へ対してできるだけ、御神書や、新聞雑誌を読ませるようにし、時節を待てば、必ず次々救われるものである。<br><br>と言うのは救われた霊が、霊界で働くのは勿論、救われた霊を親戚の祖霊は知って、早く自分は救われたいと子孫に働きかけるから、どうしても入信することとなる。<br><br>これが根本で、本教の発展するのもそういうわけである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Orientações sobre a Fé e a Vida</h2>
 <p><strong>Pergunta:</strong> Solicito a Vossa explanação sobre a genuína essência da arte.</p>
@@ -121,5 +273,48 @@ function toggleLang(lang) {
 <p><strong>Resposta:</strong> Isso é um equívoco. Não há relação com o tabaco. O câncer verdadeiro tem causa espiritual e é provocado pelas toxinas advindas do consumo de carne. O pseudocâncer, por sua vez, é causado por toxinas de medicamentos e toxinas da urina.</p>
 <p><strong>Pergunta:</strong> Por volta de 13 de setembro, minha esposa sofreu por cerca de um mês com uma intensa purificação puerperal. Ao seguir a orientação de realizar cultos aos antepassados da família dela, ela começou a melhorar rapidamente e, ao término do último ofício, sua recuperação foi surpreendente, como se nada tivesse acontecido. Gostaria de aproveitar esta oportunidade para incentivar a família de minha esposa a ingressar na fé, pois, embora reconheçam os benefícios de nossos Ensinamentos, hesitam por se preocuparem com a opinião alheia. Seria ainda prematuro? Tenho muitos outros parentes em situação semelhante. Futuramente, caso os espíritos de outros familiares me peçam auxílio, devo cultuá-los um a um? Peço também uma orientação sobre a ordem a ser seguida na salvação do Mundo Espiritual e do Mundo Material.</p>
 <p><strong>Resposta:</strong> Recomendo que, na medida do possível, compartilhe os Ensinamentos e as publicações da Igreja com seus parentes e conhecidos. Aguarde o momento oportuno, e certamente, um após o outro, eles serão salvos. Isso ocorre porque os espíritos que foram salvos atuam no Mundo Espiritual. Ademais, os espíritos ancestrais de seus parentes, ao tomarem conhecimento da salvação alcançada, desejarão ardentemente ser salvos também e influenciarão seus descendentes. Dessa forma, a adesão à fé se torna inevitável. Este é o princípio fundamental, e é por essa razão que nossa Obra Divina se expande.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神智の光 『地上天国』19号、昭和25(1950)年12月25日発行 （お伺） 芸術観の真諦につき御開示をお願い申し上げます。<br/><br/> （御垂示） これは今年の春の光新聞か地上天国に詳しく書いてあるから見れば判る。<br/><br/>要するに芸術家の使命は、芸術によって人の品性を向上させ、よりよき社会たらしむることである。<br/><br/> （お伺） 出世観音様につき御教えをお願い申し上げます。<br/><br/> （御垂示） これは出世光明如来の間違いであろう。<br/><br/>なんとなれば、観音の御名は、化身仏となって蔭で救いをなされた時の期間であって、一歩世の中にお出になった最初の御名は、光明如来と申し上げるのである。<br/><br/> （お伺） 古いお寺の由来記などによりますと、ときどき観世音菩薩の御尊像が、仏教渡来以前においてすでに祀られているようなことがありますが、日本において、仏教とは独立して、古代に観音信仰があったのでございましょうか。<br/><br/>それとも観音信仰はあくまでもインド、中国における仏教の信仰とともにではあったが、日本へは仏教渡来以前に観音様の御尊像だけが招来され、宗教としての形式とまではゆかないまでも、単なる土俗の信仰対象であったのが、仏教渡来と同時にそれに包含されたものと解すべきでありましょうか。<br/><br/>お伺い申し上げます。<br/><br/> （御垂示） 勿論仏教の渡来した欽明天皇より数百年以前に渡来したものであるが、それはただ仏像だけであったのが、右の欽明天皇の御代にたくさんの経文とともに、公式に渡来したものである。<br/><br/>日本にある最も古い観音像は、インドでできた金銅仏であって、次はビルマ、支那、朝鮮という順序で製作されたものである。<br/><br/>ところがこれを見分けるのに、簡単な見方がある。<br/><br/>それはインドのはお顔の割合がすこぶる大きいが、時代の下るに従ってだんだん小さくなり、朝鮮製になるとお顔が小さく長身である。<br/><br/>その代表作としては、かの法隆寺にある百済観音である。<br/><br/>またお顔の大きいのは童子のごとく、日本で一番古い推古仏のごときは最もよく表われている。<br/><br/>そうして右は彫像のことであるが、絵画のほうはよほど違うようである。<br/><br/> （お伺） 九州の炭坑は日本の諸工業の原動力となっており、また外来文明は九州から輸入されたと聞いており、さらに神代とされている時代のことを考えますとき、九州開発はどのような意義を持つものでしょうか。<br/><br/> （御垂示） 九州とは一名筑紫の島と言い、古い時代は一番文化の発達した所である。<br/><br/>筑紫とは数なら九に相当する、すなわち七で成り、八で八方に広がり、数が増え九に到って発達の極に逢する意味である。<br/><br/>また一番最初拓け始めたのは薩摩の国で、薩摩から九州が拓け、九州から日本が拓けたのである。<br/><br/>薩摩の島津の○＋の紋所も、日の丸の国旗が、初めてできたのも、深い神秘があるのである。<br/><br/> （お伺） 今迄頂戴いたしました御教えの中には、スポーツに関したことはほとんどございませんが、今日の生活においてはスポーツは無視することは不可能でありますが、右に関して本教信徒としての心構えなどにつき御教えをお願い申し上げます。<br/><br/> （御垂示） 以前私の書いたもののどこかに、スポーツについて詳しく書いてあるから見れば判るから、ここでは簡単に書くが、人間には競争意識と、闘争意識がある以上、悪に向かえば戦争となるので、これを善に向かわしむるためにスポーツは非常に必要なものである。<br/><br/>これは言うまでもなく、大衆が楽しみながら決して被害者は出ないからである。<br/><br/>従って、ミロクの世になれば、いまよりもズッとさかんになるのは当然である。<br/><br/> （お伺） 毎朝、御神前に御神饌の膳部をお供えするとき、ちょうど神様が召し上がるように、神様のほうに向けてお供えするものでしょうか。<br/><br/>それとも人間のほうに向けてお供えするものでしょうか。<br/><br/> （御垂示） これは本当から言えば、貴男の言う通りだが、実は人間の考えとは違う。<br/><br/>それは饌供（せんぐ）の食物は神様が召し上がるのではない。<br/><br/>神様が霊気を入れてくださるのである。<br/><br/>だから人間が差し上げる想念は、神様に御霊気を入れていただきたいという意味である。<br/><br/>しかし神様によっては召し上がる場合もあるが、それは神様の階級によるので、その場合でもごく少々召し上がるだけで、大部分は霊気を入れてくださるのである。<br/><br/>故にお下がりの品物は、一人でも多く頂戴すれば、霊が浄まるのである。<br/><br/> （お伺） 人の性質と、運命との間には関連があるように思われますが、先天的、後天的に亘って性質のよってくるところを御教示ください。<br/><br/> （御垂示） これは簡単には話せない。<br/><br/>なぜなれば、いろいろの原因が総合されて一つの性格を形づくるからである。<br/><br/>例えば前世の因縁、環境、血統などであるが、その中の前世の因縁は信仰雑話に詳しく書いてあるから読めば判るが、環境の善し悪しも右の原因が大いにある。<br/><br/>また血統は祖先以来、上中下に宿命的に決まっているもので、それが性格にも影響するというわけで、細かに話せばきりがないのである。<br/><br/> （お伺） 御屏風観音様を仏壇に御奉斎いたしました場合、いままでの阿弥陀様はどう処置いたしましたらよろしいでしょうか。<br/><br/> （御垂示） 阿弥陀様はお軸かお像かで違うから、それを今一度書いて出しなさい。<br/><br/> （お伺） 砂、粘土、腐食三種の割合によりまして、土地に種類がございますが、これが非常に偏っております場合、これを客土などにより改良すべきでございましょうか。<br/><br/> （御垂示） これはちょっと判らない点がある。<br/><br/>腐食というのはおかしい。<br/><br/>土地が腐食などするはずがないからである。<br/><br/>たぶん堆肥のことであると思うが、そうとして客土など入れる必要はない。<br/><br/>入念に耕せばよろしい。<br/><br/>特に粘土と砂と混ぜると結構である。<br/><br/> （お伺） 酸性土壌は肥料過剰のためと思っておりますが、開拓当初より酸性土壌となっている場合がございますが、その原因はいかがでございましょうか。<br/><br/> （御垂示） そんなはずはない。<br/><br/>なにかの間違いであろう。<br/><br/>ただ山間などで鉱物が雨水などのために流れて土へ浸み込む場合がある。<br/><br/>そのためであろう。<br/><br/> （お伺） 自然農法において、田の裏作に麦を作りますとき、稲と違い、よほど困難を感じますが、いかなる理由でございましょうか。<br/><br/> （御垂示） 困難とはどういう困難であるか、詳しく書いて出しなさい。<br/><br/> （お伺） 幽世大神は国常立尊で、数十年前に幽世の主宰を大国主命に委ねられたと地上天国で拝読いたしたのですが、国常立尊と大国主命との関係を御教えください。<br/><br/> （御垂示） これは御神書の古いのに出ているから、よく読みなさい。<br/><br/> （お伺） 過般、一般新聞の「科学の声」の欄に、肺癌は長らくの愛煙家に多いとの記事がありましたが、これは煙草の「ニコチン」の影響が多いのでしょうか。<br/><br/> （御垂示） これは誤りである。<br/><br/>煙草に関係はない。<br/><br/>真症は霊的と、肉食の毒素のため、疑似癌は薬毒と尿毒のためである。<br/><br/> （お伺） 九月十三日ごろから約一カ月に亘り、妻が産褥（さんじょく）の大浄化をいたし苦しみましたが、「妻の実家の祖霊の供養をすれば良い」との御教示を実行いたしましたところ、たちまち快方に向かい、最後の日のお祭りがすむと嘘のように良くなりました。<br/><br/>これを機会にいままでこの教えの良いことを充分識っていながら、世評を気にして入信しなかった実家の人々を入信させたいと思いますが、まだ時機が早いでしょうか。<br/><br/>またこのような状態にある親戚がたくさんあるのですが、今後このように親戚の諸霊に頼られた場合、一々祀ってやるべきでしょうか。<br/><br/>また霊界と現界の救いの順序をいかにしたらよいか御教示願います。<br/><br/> （御垂示） 親戚知人へ対してできるだけ、御神書や、新聞雑誌を読ませるようにし、時節を待てば、必ず次々救われるものである。<br/><br/>と言うのは救われた霊が、霊界で働くのは勿論、救われた霊を親戚の祖霊は知って、早く自分は救われたいと子孫に働きかけるから、どうしても入信することとなる。<br/><br/>これが根本で、本教の発展するのもそういうわけである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

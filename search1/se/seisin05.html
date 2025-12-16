@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>seisin05</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 精神病 『天国の福音』昭和22(1947)年2月5日発行 精神病は全くの霊的病患であるが、ただ発病の動機は、肉体的毒素の誘引による事がそのほとんどである。<br><br>まず原因から説いてみるが例外なくこの病気は不眠の持続からである。<br><br>不眠の原因は内的と外的との二種あってまず内的より説くが、それは頭脳の血液不足のためで、既説のごとく毒結による頚部周囲の血管圧迫のための脳貧血である。<br><br>そうして被圧迫の血管は、右側延髄部に、次いで左右いずれかの頚部淋巴腺及び頭脳全体の毒素の影響であり、外的とは精神的打撃すなわち心配事である。<br><br>しかしこれとても内的原因による脳貧血の影響ももちろんあるのである。<br><br> ここで血液について説明するが、血液そのものは物質であるが、これを霊的に観る時、活力の源泉である霊細胞で、いわば霊の物質化が血液である。<br><br>従って純血であれば霊細胞は濃度であり、貧血または濁血は霊細胞も稀薄である。<br><br>元来憑依霊なるものは、霊細胞が稀薄でなければ憑依出来ないもので、稀薄の程度に比例する。<br><br>判りやすくいえば霊細胞が充実し十の場合は絶対に憑依は出来ない。<br><br>それが九となれば一だけ憑依出来得、八となり七となり五となり四となれば、憑依霊は六を占領する。<br><br>すなわち本霊四憑依霊六となるから憑依霊の方が勝ち人霊が負ける結果憑依霊の意のままとなる。<br><br>それが精神病である。<br><br>そうして精神病の場合は狐霊の憑依がほとんどで、稀には狸霊もある。<br><br>昔から狐憑きというのは、これを指したものである。<br><br> ここで狐霊の性格を知る必要がある。<br><br>本来狐霊の性格はちょっと人間には解し難い程の特異性がある。<br><br>それはいかなる訳かというと、狐霊は実によく喋舌（しゃべ）り、連続的で決して中絶はない。<br><br>かつ速度も著しい、よくある種の婦人などが昂奮の結果威猛高（いたけだか）になり相手の口を開かせず喋舌り続ける場合がある事を経験するであろう。<br><br>しかも論旨は辻棲（つじつま）が合わない。<br><br>これは狐霊が人間の口を借りて喋舌るのである。<br><br>その揚句本人は何を喋舌ったか分からないという事がよくある。<br><br>それと同じように物の考えも連続的で果しがなく、それからそれへと考える、これが睡眠を妨げ不眠の唯一の原因となるのである。<br><br>精神病者がよく出鱈目（でたらめ）な事を喋舌りつづけるのはそういう訳であり、また医学上でいう幻聴、幻覚なる症状も、狐霊の性能が表われるからである。<br><br> 精神病は、本医術によれば必ず全治する。<br><br>それはまず不眠の原因である圧迫毒素を溶解し濁血を浄血化し頭脳への送血が多量になるため、ここに霊細胞は充実し、狐霊は移動し、萎縮し離脱する。<br><br>この実例を次に書いてみよう。<br><br> 二十五歳の婦人、産後半ケ年位経過、ある事情により精神的打撃の結果、相当重症の精神病となった。<br><br>日夜喋舌り続け、断えず自殺を計ったりするので、男子三人で警戒した。<br><br>治療によって漸次意識を恢復した。<br><br>それは狐霊が頭脳から移動したからで、狐霊は肩から胸の辺に下降し絶えず喋舌り続けている。<br><br>私は時々「今どこで何を言っているか」と訊くと「今左の胸の辺でかくかくの事を喋舌っています」という。<br><br>もちろんこの頃は自分の意識を取戻し、狐霊を支配するまでになっていたからである。<br><br>狐霊の言う事は馬鹿馬鹿しい事ばかりである。<br><br>一例を挙げればこういう事があった。<br><br>大分快方に向かい狐霊が腹部にいる頃である。<br><br>ある日映画を観せるべく映画館に入った。<br><br>その時、「今何を喋舌っているか」と訊くと「映画なんか詰らねえや、音楽は聞えるけれども、肚に居ちゃ何も見えやしねえ」と言うので、私も噴き出したのである。<br><br>その様な具合で、腹部から最後には肛門付近に下り、ついに離脱したのである。<br><br>もちろん下降するに従って、喋舌る言葉も漸次小さくなり、終り頃は極微かで聞とれぬ位だとの事である。<br><br>この患者は全快後五、六年間は幾分違う事が時々あったが、その後なんらの異状もなく二十数年を経た今日、普通の人といささかも異ならないのである。<br><br> 次は石川某という三十五、六歳の男子、これは精神病になりかけの症状で、この男が飯を食おうとすると、耳元で「その飯には毒が入っているから食うと死ぬぞ」と言われるので、驚いてやめ、家を飛出し、蕎麦（そば）屋へ入り、蕎麦を食おうとすると、また耳元で同様の事をいう。<br><br>また寿司屋へ入るとまた言われるという。<br><br>その他夜寝ようとすると、往来を二、三人の人が通り、その人達が「石川は怪しからん奴だから、今夜殺してしまおう」という声が聞えるので恐ろしくて寝れないというのである。<br><br>これに対し私は「それはみんな狐霊の悪戯（いたずら）である。<br><br>人のいないのに話声が聞える時は狐霊が言うのだと思い決して信じてはならない」と懇々説いたので彼は翻然（ほんぜん）と目覚め全快したのである。<br><br> 次に二十五、六歳の自動車の運転手で、この男の特異症としては屋根に上り、駆廻っては瓦をめくり往来の人に抛（な）げつけるのである。<br><br>それが治療によって意識を快復した頃、種々訊いてみた。<br><br>彼いわく「屋根へ昇る時も、屋根を駆る時も足の裏が吸着して少しの危険も感じない。<br><br>故に人間の登れないような所も不思議に登れる」との事である。<br><br>全く狐霊の蹠（あし）の裏の作用によるのである。<br><br>故に動物や虫類がいかなる場所も昇ったり這ったりするのは蹠の吸着作用、すなわち真空になるからだという事を知ったのである。<br><br> 次に十七歳の女学生の精神病を扱った事がある。<br><br>これは非常に暴れ、ある時は裸体となって乱暴する。<br><br>その際三人位の男子でなくては制えられない程の力である。<br><br>また大いに威張り母親を叱りつける事がある。<br><br>しかるにこの原因は左のごときものである事が判った。<br><br>すなわち娘の父は数年前没し、現在は母親のみであった。<br><br>その母親は、数ケ月前ある宗派神道の信者となったので、祖霊を祀り替え、仏壇や位牌を処分した。<br><br>それがため父の死霊が立腹したのが動機となった。<br><br>ところが父の未だ生きている頃その家は仙台から東京へ移転したが、元の邸宅を売却し邸内に古くから祀ってあった稲荷をそのまま残したので、買主は稲荷の祠（ほこら）を処分してしまったため、その狐霊が立腹し上京した父に憑依し、父は精神病となりついに死亡した。<br><br>その様な訳で父親の霊と稲荷の霊との二つが娘に憑依したのであった。<br><br>故に発作時父親の霊は母親を叱り、狐霊は常軌を失わせるといったような具合であったが、私の治療によって全快し、その後結婚し、今日は二児の母となり、なんら普通人と異ならないのである。<br><br> 右のごとく古くからある稲荷を処分した事によって精神病になる場合が非常に多いのである。<br><br>今一つおもしろい例をかいてみよう。<br><br>これは、二十幾歳の青年で、大方治癒した頃私の家で使用した。<br><br>いつも庭の仕事などやらしていたが、私の命令に対し狐霊が邪魔するのである。<br><br>例えばある場所の草を全部刈れと命令し、暫くして行ってみると一部だけが残っている。<br><br>私は「なぜ全部刈らないか」と訊くと、「先生が『そこだけ残せ』と言われました」という。<br><br>私は「そんな筈はない。<br><br>それでは『一部残せ』と言った時、私の姿が見えたか」と訊くと「見えないで、声だけ聞えました」と言うので、私は「それは狐が私の声色（こわいろ）を使うのだから、以後注意せよ」と言ったが、直に忘れて右のような事がしばしばあった。<br><br>また精神病者が常に空間を見詰めるが、狐霊が憑依すると、霊が見えるのである。<br><br>また何物かと問答をしている事がよくあるが、これは狐霊の話声が聞えそれと応答するのである。<br><br>狐霊は人の声を真似る事が巧妙で、驚かしたり脅迫したりする。<br><br>たとえば「今お前を殺しに来るから逃げろ」というので、患者急遽飛出したり、「地震や火事が起こるから遁（に）げろ」といったり、また「人を殴れ」といい、はなはだしきは殺人をさせる事さえある。<br><br>この様に狐霊が自由自在に人間を翻弄（ほんろう）するのであるから堪らない。<br><br>また狐霊が患者に憑依しながら外部の狐霊と応答したり、多数の狐霊が次々入れ替り憑依する事もある。<br><br>そうしてなぜ狐霊が人間に憑依するかというに、人間を騙す事に興味を感ずると共に、人間を誑（たぶら）かす事が巧妙になる程狐仲間では巾（はば）が利くのである。<br><br>かような事はあまり不思議で読者は信じられないであろうが、いささかの誤りも虚偽もない厳然（げんぜん）たる事実である。<br><br> そうして本病といえども根本原因は萎縮腎であるから、腎臓部の治療を充分行うべきである。<br><br>狐霊の憑依する個所は前額部中央すなわち眉と眉との中央部一、二寸奥であるから、その辺に霊の放射を行うべきである。<br><br>また霊の種類とその場合によって憑依局所の異なる事がある。<br><br>すなわち狸霊は精神病の場合のみ頭部であるが、普通は胸部及び腹部の左側であり、龍神は腹部が多く人霊はおもに頭部である。<br><br>しかしながら霊は伸縮自在であるから、人霊などは全身に拡充する場合と、縮小して一局部にいる場合とがある。<br><br>これらは経験の積む程判り得るのである。<br><br> ここに注意すべき事がある。<br><br>それは普通人にして幾分か頭脳の平衡を欠く人がある。<br><br>この種の人は日本人中恐らく八、九十％程度に及ぶであろう。<br><br>しかも指導階級である政治家、宗教家、教育家、事業家、芸術家等各界の名士にして少なからずあるから驚くべきである。<br><br>それはいかなる訳かというと、前述のごとく頭脳の霊細胞が稀薄になる場合、一ないし四までを憑依霊に占有される結果である。<br><br>すなわち脳の霊細砲の濃薄によって憑霊も伸縮するので、平常は真似目（まじめ）にして人格的行動の時もあるかと思えば、この人がと思うような行為のあるのは右の理によるのである。<br><br>故に人格者や善行者がフトした事から過ちを犯す場合があるがそれは憑依霊に負けるからである。<br><br>また平常真面目な人でも飲酒によって人格転換したり、不良児童、不良青年等の発生ももちろん憑依霊によるのである。<br><br>ドイツウーファの有名な映画「ジーキル博士とハイド」などは憑霊現象をよく描いておりおもしろいと思った。<br><br> 何々主義などと唱え、奇矯な言動を為す者のごときは、邪神界からの伝流によって行動するので、これは邪神が自己の野望を遂げんとする意図からである。<br><br>従ってこういう人の主義思想を深く検討する時、必ず辻棲の合わぬ点を発覚し得るのである。<br><br>最も表われている特異性としては、人類愛がなく闘争と破壊を好み自己の利益を本意とし、他人の不利は顧みないという非協調的であり冷酷である。<br><br>おもしろい事にはこの種の人に肺病が多い。<br><br>それは肺患による貧血が憑霊しやすからしむるからである。<br><br>しかしながらこういう思想者といえども、文化進展にある役目を受持っている訳であるから、結局世界経綸に対する神意の一部であると想うのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdadeira Causa das Enfermidades Mentais</h2>
 <p>A enfermidade mental é uma aflição de natureza puramente espiritual; todavia, o que desencadeia seu surgimento é, na maioria dos casos, o estímulo provocado por toxinas de ordem física. Comecemos por analisar sua causa fundamental, que, sem exceção, reside na persistência da insônia.</p>
@@ -107,5 +259,48 @@ function toggleLang(lang) {
 <p>Mesmo nesta enfermidade, a causa fundamental reside na atrofia renal. Portanto, o tratamento deve se concentrar intensamente na região dos rins. O ponto de possessão do espírito de raposa localiza-se no centro da testa, entre as sobrancelhas, a uma profundidade de alguns centímetros. É para essa área que a energia espiritual deve ser irradiada. A localização da possessão varia conforme o tipo de espírito. Espíritos de tanuki, nos casos de enfermidade mental, também se alojam na cabeça, mas comumente se instalam no lado esquerdo do tórax ou do abdômen. Dragões Divinos ocupam majoritariamente o abdômen, e espíritos humanos, principalmente a cabeça. Contudo, como os espíritos podem se expandir e se contrair livremente, um espírito humano pode tanto preencher o corpo inteiro como se recolher em uma única localidade. Tais distinções tornam-se claras com o acúmulo de experiência.</p>
 <p>É preciso atentar para um ponto importante. Existem muitas pessoas, consideradas normais, que demonstram certo desequilíbrio mental. Estimo que essa condição atinja de oitenta a noventa por cento da população japonesa. O mais alarmante é que essa característica não é rara entre as classes de liderança: políticos, religiosos, educadores, empresários, artistas e outras personalidades de destaque em diversas áreas. Isso ocorre porque, como mencionado, quando as células espirituais do cérebro se rarefazem, o espírito obsessor pode ocupar o espaço de um a quatro, em uma escala de dez. A densidade das células espirituais varia, e com ela, a influência do obsessor. É por essa razão que uma mesma pessoa pode, em um momento, agir com integridade e nobreza e, em outro, exibir um comportamento surpreendentemente inadequado, que não se esperaria dela. Quando indivíduos de caráter ou que praticam o bem cometem um erro súbito, é porque foram subjugados pelo espírito obsessor. Da mesma forma, a transformação da personalidade pelo álcool e a origem da delinquência juvenil também se devem à influência desses espíritos. O famoso filme alemão da UFA, "O Médico e o Monstro" (<em>Dr. Jekyll and Mr. Hyde</em>), retrata com maestria este fenômeno da possessão espiritual.</p>
 <p>Aqueles que promovem toda sorte de "ismos" e se comportam de maneira excêntrica agem sob a influência de emanações do Mundo dos Espíritos Malignos. Isso ocorre porque tais espíritos buscam realizar suas próprias ambições por meio deles. Ao se examinar profundamente a ideologia dessas pessoas, invariavelmente se descobrirão pontos incoerentes. Sua principal peculiaridade é a ausência de amor pela humanidade, o gosto pelo conflito e pela destruição, a busca exclusiva pelo benefício próprio e a indiferença pelo prejuízo alheio, resultando em uma postura cruel e refratária à cooperação. Um fato curioso é que muitos desses indivíduos sofrem de tuberculose. A anemia decorrente da doença pulmonar os torna mais suscetíveis à possessão. Todavia, mesmo esses pensadores desempenham um papel no avanço da cultura. Sendo assim, creio que, em última análise, eles também fazem parte da Vontade Divina dentro do Plano Divino para o mundo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 精神病 『天国の福音』昭和22(1947)年2月5日発行 精神病は全くの霊的病患であるが、ただ発病の動機は、肉体的毒素の誘引による事がそのほとんどである。<br/><br/>まず原因から説いてみるが例外なくこの病気は不眠の持続からである。<br/><br/>不眠の原因は内的と外的との二種あってまず内的より説くが、それは頭脳の血液不足のためで、既説のごとく毒結による頚部周囲の血管圧迫のための脳貧血である。<br/><br/>そうして被圧迫の血管は、右側延髄部に、次いで左右いずれかの頚部淋巴腺及び頭脳全体の毒素の影響であり、外的とは精神的打撃すなわち心配事である。<br/><br/>しかしこれとても内的原因による脳貧血の影響ももちろんあるのである。<br/><br/> ここで血液について説明するが、血液そのものは物質であるが、これを霊的に観る時、活力の源泉である霊細胞で、いわば霊の物質化が血液である。<br/><br/>従って純血であれば霊細胞は濃度であり、貧血または濁血は霊細胞も稀薄である。<br/><br/>元来憑依霊なるものは、霊細胞が稀薄でなければ憑依出来ないもので、稀薄の程度に比例する。<br/><br/>判りやすくいえば霊細胞が充実し十の場合は絶対に憑依は出来ない。<br/><br/>それが九となれば一だけ憑依出来得、八となり七となり五となり四となれば、憑依霊は六を占領する。<br/><br/>すなわち本霊四憑依霊六となるから憑依霊の方が勝ち人霊が負ける結果憑依霊の意のままとなる。<br/><br/>それが精神病である。<br/><br/>そうして精神病の場合は狐霊の憑依がほとんどで、稀には狸霊もある。<br/><br/>昔から狐憑きというのは、これを指したものである。<br/><br/> ここで狐霊の性格を知る必要がある。<br/><br/>本来狐霊の性格はちょっと人間には解し難い程の特異性がある。<br/><br/>それはいかなる訳かというと、狐霊は実によく喋舌（しゃべ）り、連続的で決して中絶はない。<br/><br/>かつ速度も著しい、よくある種の婦人などが昂奮の結果威猛高（いたけだか）になり相手の口を開かせず喋舌り続ける場合がある事を経験するであろう。<br/><br/>しかも論旨は辻棲（つじつま）が合わない。<br/><br/>これは狐霊が人間の口を借りて喋舌るのである。<br/><br/>その揚句本人は何を喋舌ったか分からないという事がよくある。<br/><br/>それと同じように物の考えも連続的で果しがなく、それからそれへと考える、これが睡眠を妨げ不眠の唯一の原因となるのである。<br/><br/>精神病者がよく出鱈目（でたらめ）な事を喋舌りつづけるのはそういう訳であり、また医学上でいう幻聴、幻覚なる症状も、狐霊の性能が表われるからである。<br/><br/> 精神病は、本医術によれば必ず全治する。<br/><br/>それはまず不眠の原因である圧迫毒素を溶解し濁血を浄血化し頭脳への送血が多量になるため、ここに霊細胞は充実し、狐霊は移動し、萎縮し離脱する。<br/><br/>この実例を次に書いてみよう。<br/><br/> 二十五歳の婦人、産後半ケ年位経過、ある事情により精神的打撃の結果、相当重症の精神病となった。<br/><br/>日夜喋舌り続け、断えず自殺を計ったりするので、男子三人で警戒した。<br/><br/>治療によって漸次意識を恢復した。<br/><br/>それは狐霊が頭脳から移動したからで、狐霊は肩から胸の辺に下降し絶えず喋舌り続けている。<br/><br/>私は時々「今どこで何を言っているか」と訊くと「今左の胸の辺でかくかくの事を喋舌っています」という。<br/><br/>もちろんこの頃は自分の意識を取戻し、狐霊を支配するまでになっていたからである。<br/><br/>狐霊の言う事は馬鹿馬鹿しい事ばかりである。<br/><br/>一例を挙げればこういう事があった。<br/><br/>大分快方に向かい狐霊が腹部にいる頃である。<br/><br/>ある日映画を観せるべく映画館に入った。<br/><br/>その時、「今何を喋舌っているか」と訊くと「映画なんか詰らねえや、音楽は聞えるけれども、肚に居ちゃ何も見えやしねえ」と言うので、私も噴き出したのである。<br/><br/>その様な具合で、腹部から最後には肛門付近に下り、ついに離脱したのである。<br/><br/>もちろん下降するに従って、喋舌る言葉も漸次小さくなり、終り頃は極微かで聞とれぬ位だとの事である。<br/><br/>この患者は全快後五、六年間は幾分違う事が時々あったが、その後なんらの異状もなく二十数年を経た今日、普通の人といささかも異ならないのである。<br/><br/> 次は石川某という三十五、六歳の男子、これは精神病になりかけの症状で、この男が飯を食おうとすると、耳元で「その飯には毒が入っているから食うと死ぬぞ」と言われるので、驚いてやめ、家を飛出し、蕎麦（そば）屋へ入り、蕎麦を食おうとすると、また耳元で同様の事をいう。<br/><br/>また寿司屋へ入るとまた言われるという。<br/><br/>その他夜寝ようとすると、往来を二、三人の人が通り、その人達が「石川は怪しからん奴だから、今夜殺してしまおう」という声が聞えるので恐ろしくて寝れないというのである。<br/><br/>これに対し私は「それはみんな狐霊の悪戯（いたずら）である。<br/><br/>人のいないのに話声が聞える時は狐霊が言うのだと思い決して信じてはならない」と懇々説いたので彼は翻然（ほんぜん）と目覚め全快したのである。<br/><br/> 次に二十五、六歳の自動車の運転手で、この男の特異症としては屋根に上り、駆廻っては瓦をめくり往来の人に抛（な）げつけるのである。<br/><br/>それが治療によって意識を快復した頃、種々訊いてみた。<br/><br/>彼いわく「屋根へ昇る時も、屋根を駆る時も足の裏が吸着して少しの危険も感じない。<br/><br/>故に人間の登れないような所も不思議に登れる」との事である。<br/><br/>全く狐霊の蹠（あし）の裏の作用によるのである。<br/><br/>故に動物や虫類がいかなる場所も昇ったり這ったりするのは蹠の吸着作用、すなわち真空になるからだという事を知ったのである。<br/><br/> 次に十七歳の女学生の精神病を扱った事がある。<br/><br/>これは非常に暴れ、ある時は裸体となって乱暴する。<br/><br/>その際三人位の男子でなくては制えられない程の力である。<br/><br/>また大いに威張り母親を叱りつける事がある。<br/><br/>しかるにこの原因は左のごときものである事が判った。<br/><br/>すなわち娘の父は数年前没し、現在は母親のみであった。<br/><br/>その母親は、数ケ月前ある宗派神道の信者となったので、祖霊を祀り替え、仏壇や位牌を処分した。<br/><br/>それがため父の死霊が立腹したのが動機となった。<br/><br/>ところが父の未だ生きている頃その家は仙台から東京へ移転したが、元の邸宅を売却し邸内に古くから祀ってあった稲荷をそのまま残したので、買主は稲荷の祠（ほこら）を処分してしまったため、その狐霊が立腹し上京した父に憑依し、父は精神病となりついに死亡した。<br/><br/>その様な訳で父親の霊と稲荷の霊との二つが娘に憑依したのであった。<br/><br/>故に発作時父親の霊は母親を叱り、狐霊は常軌を失わせるといったような具合であったが、私の治療によって全快し、その後結婚し、今日は二児の母となり、なんら普通人と異ならないのである。<br/><br/> 右のごとく古くからある稲荷を処分した事によって精神病になる場合が非常に多いのである。<br/><br/>今一つおもしろい例をかいてみよう。<br/><br/>これは、二十幾歳の青年で、大方治癒した頃私の家で使用した。<br/><br/>いつも庭の仕事などやらしていたが、私の命令に対し狐霊が邪魔するのである。<br/><br/>例えばある場所の草を全部刈れと命令し、暫くして行ってみると一部だけが残っている。<br/><br/>私は「なぜ全部刈らないか」と訊くと、「先生が『そこだけ残せ』と言われました」という。<br/><br/>私は「そんな筈はない。<br/><br/>それでは『一部残せ』と言った時、私の姿が見えたか」と訊くと「見えないで、声だけ聞えました」と言うので、私は「それは狐が私の声色（こわいろ）を使うのだから、以後注意せよ」と言ったが、直に忘れて右のような事がしばしばあった。<br/><br/>また精神病者が常に空間を見詰めるが、狐霊が憑依すると、霊が見えるのである。<br/><br/>また何物かと問答をしている事がよくあるが、これは狐霊の話声が聞えそれと応答するのである。<br/><br/>狐霊は人の声を真似る事が巧妙で、驚かしたり脅迫したりする。<br/><br/>たとえば「今お前を殺しに来るから逃げろ」というので、患者急遽飛出したり、「地震や火事が起こるから遁（に）げろ」といったり、また「人を殴れ」といい、はなはだしきは殺人をさせる事さえある。<br/><br/>この様に狐霊が自由自在に人間を翻弄（ほんろう）するのであるから堪らない。<br/><br/>また狐霊が患者に憑依しながら外部の狐霊と応答したり、多数の狐霊が次々入れ替り憑依する事もある。<br/><br/>そうしてなぜ狐霊が人間に憑依するかというに、人間を騙す事に興味を感ずると共に、人間を誑（たぶら）かす事が巧妙になる程狐仲間では巾（はば）が利くのである。<br/><br/>かような事はあまり不思議で読者は信じられないであろうが、いささかの誤りも虚偽もない厳然（げんぜん）たる事実である。<br/><br/> そうして本病といえども根本原因は萎縮腎であるから、腎臓部の治療を充分行うべきである。<br/><br/>狐霊の憑依する個所は前額部中央すなわち眉と眉との中央部一、二寸奥であるから、その辺に霊の放射を行うべきである。<br/><br/>また霊の種類とその場合によって憑依局所の異なる事がある。<br/><br/>すなわち狸霊は精神病の場合のみ頭部であるが、普通は胸部及び腹部の左側であり、龍神は腹部が多く人霊はおもに頭部である。<br/><br/>しかしながら霊は伸縮自在であるから、人霊などは全身に拡充する場合と、縮小して一局部にいる場合とがある。<br/><br/>これらは経験の積む程判り得るのである。<br/><br/> ここに注意すべき事がある。<br/><br/>それは普通人にして幾分か頭脳の平衡を欠く人がある。<br/><br/>この種の人は日本人中恐らく八、九十％程度に及ぶであろう。<br/><br/>しかも指導階級である政治家、宗教家、教育家、事業家、芸術家等各界の名士にして少なからずあるから驚くべきである。<br/><br/>それはいかなる訳かというと、前述のごとく頭脳の霊細胞が稀薄になる場合、一ないし四までを憑依霊に占有される結果である。<br/><br/>すなわち脳の霊細砲の濃薄によって憑霊も伸縮するので、平常は真似目（まじめ）にして人格的行動の時もあるかと思えば、この人がと思うような行為のあるのは右の理によるのである。<br/><br/>故に人格者や善行者がフトした事から過ちを犯す場合があるがそれは憑依霊に負けるからである。<br/><br/>また平常真面目な人でも飲酒によって人格転換したり、不良児童、不良青年等の発生ももちろん憑依霊によるのである。<br/><br/>ドイツウーファの有名な映画「ジーキル博士とハイド」などは憑霊現象をよく描いておりおもしろいと思った。<br/><br/> 何々主義などと唱え、奇矯な言動を為す者のごときは、邪神界からの伝流によって行動するので、これは邪神が自己の野望を遂げんとする意図からである。<br/><br/>従ってこういう人の主義思想を深く検討する時、必ず辻棲の合わぬ点を発覚し得るのである。<br/><br/>最も表われている特異性としては、人類愛がなく闘争と破壊を好み自己の利益を本意とし、他人の不利は顧みないという非協調的であり冷酷である。<br/><br/>おもしろい事にはこの種の人に肺病が多い。<br/><br/>それは肺患による貧血が憑霊しやすからしむるからである。<br/><br/>しかしながらこういう思想者といえども、文化進展にある役目を受持っている訳であるから、結局世界経綸に対する神意の一部であると想うのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

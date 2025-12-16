@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>honryo03</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 本療法と貯蓄 『明日の医術 第一編』昭和18(1943)年10月5日発行 今日、大東亜戦争を勝ち抜く為の銃後人の御奉公として最も力を注がねばならない事は何といっても貯蓄であろう。<br><br>そうして貯蓄をするには予算生活を立てなくてはならない事も勿論である。<br><br>しかしながら、実際問題として、他のいかなる項目も努力次第で予算通りか、又はそれ以上に喰い止め得る事も敢（あえ）て不可能ではないが、独り医療費のみはいかに努力するといえども、予算通りにゆかない事のあるのは誰もが経験する所であろう。<br><br>せっかく永い間、あらゆる苦心努力をして多少の余裕が出来喜んでいると、突如として家庭の誰かが病魔に襲われるとする。<br><br>直ちに医療を受ける。<br><br>捗々（はかばか）しく治らない。<br><br>やれ手術だ入院だという事になるとすると、その費額は貯蓄しただけでは間に合わない。<br><br>アベコベに借金をしなければならないというような事になる。<br><br>こういうような例は決して珍らしい事ではないのである。<br><br> 右のごとき事例を考える時、今日確固たる予算生活は全く不可能であろう。<br><br>幸い半年か一年、医療費を予算以内で喰い止め得たとしても二年三年になるに及んで、十中八九までは前述のごとき予算突破の大違算に遭い、失望落胆しない時が来ないと、誰が言い得るであろう。<br><br>それは他なし、今日の日本人の体位が低下し、あまりに罹病し易いと共に、あまりに医療の効果がないという――その二つの原因である事は、まことに瞭（あきら）かな事実である。<br><br> 右の意味において、本治療のいかに偉大であるかという事である。<br><br>修得者が一人でも家庭内にあり、全家族が、この日本医術による健康法と病気の原理を知るにおいて、滅多に罹病しない程の健康体となり、たまたま罹病するといえども仕事を休まないで、容易に速かに治癒するのであるから、一銭の医療費も要しない訳で、その利益の莫大なる事は量り知れないであろう。<br><br>しかも、常に安心を得つつ生活なし得るという事も、金銭に換え難い幸福であろう。<br><br>従って、私は断言するのである。<br><br>本医術を知らないで予算生活を樹てるという事は、一種の投機的行為でしかないという事である。<br><br> 故に、この意味においても、本療法こそは、今日の時局に対し、国家に稗〔裨〕益する所、いかに甚大であるかは、読者の想像を乞いたいのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Saúde e Estabilidade Financeira</h2>
 <p>Nos dias de hoje, em que lutamos para triunfar na Grande Guerra da Ásia Oriental, o mais importante serviço que a população pode prestar na retaguarda é, inegavelmente, a prática da poupança. Para tanto, é evidentemente necessário estabelecer um planejamento orçamentário. Contudo, na prática, embora seja possível, com esforço, manter a maioria das despesas dentro do previsto ou até reduzi-las, há um item que foge a essa regra: os gastos com saúde, como todos porventura já experienciaram.</p>
@@ -95,5 +247,48 @@ function toggleLang(lang) {
 <p>Ao considerarmos tais exemplos, percebemos que manter um orçamento familiar sólido nos dias de hoje é uma tarefa praticamente impossível. Mesmo que, por sorte, uma família consiga manter os gastos médicos dentro do planejado por seis meses ou um ano, quem poderia garantir que, ao longo de dois ou três anos, ela não enfrentará, com uma probabilidade de oito ou nove em dez, um revés que destruirá todas as suas previsões, levando-a ao desânimo e à decepção? Isso se deve a duas razões manifestas: a fragilidade da constituição física do povo japonês na atualidade, que o torna excessivamente propenso a enfermidades, e a notória ineficácia dos tratamentos médicos convencionais.</p>
 <p>É nesse contexto que se revela a grandiosidade de nossa terapia. Basta que haja um único praticante em um lar e que toda a família compreenda os princípios de saúde e da doença segundo esta arte médica japonesa, para que todos alcancem um estado de saúde tão robusto que raramente adoeçam. Se, porventura, alguém vier a adoecer, a cura é obtida de forma rápida e fácil, sem a necessidade de interromper o trabalho. Dessa forma, elimina-se por completo a necessidade de despesas médicas, e o benefício resultante é, pois, imensurável. Ademais, a possibilidade de viver com uma constante paz de espírito representa uma felicidade que não pode ser mensurada em valores monetários. Portanto, ouso afirmar: tentar estabelecer um planejamento orçamentário sem o conhecimento desta arte médica não passa de um ato de pura especulação.</p>
 <p>Por conseguinte, também sob esta ótica, deixo à imaginação do leitor a imensa magnitude da contribuição que nossa terapia oferece à nação, especialmente na atual conjuntura.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 本療法と貯蓄 『明日の医術 第一編』昭和18(1943)年10月5日発行 今日、大東亜戦争を勝ち抜く為の銃後人の御奉公として最も力を注がねばならない事は何といっても貯蓄であろう。<br/><br/>そうして貯蓄をするには予算生活を立てなくてはならない事も勿論である。<br/><br/>しかしながら、実際問題として、他のいかなる項目も努力次第で予算通りか、又はそれ以上に喰い止め得る事も敢（あえ）て不可能ではないが、独り医療費のみはいかに努力するといえども、予算通りにゆかない事のあるのは誰もが経験する所であろう。<br/><br/>せっかく永い間、あらゆる苦心努力をして多少の余裕が出来喜んでいると、突如として家庭の誰かが病魔に襲われるとする。<br/><br/>直ちに医療を受ける。<br/><br/>捗々（はかばか）しく治らない。<br/><br/>やれ手術だ入院だという事になるとすると、その費額は貯蓄しただけでは間に合わない。<br/><br/>アベコベに借金をしなければならないというような事になる。<br/><br/>こういうような例は決して珍らしい事ではないのである。<br/><br/> 右のごとき事例を考える時、今日確固たる予算生活は全く不可能であろう。<br/><br/>幸い半年か一年、医療費を予算以内で喰い止め得たとしても二年三年になるに及んで、十中八九までは前述のごとき予算突破の大違算に遭い、失望落胆しない時が来ないと、誰が言い得るであろう。<br/><br/>それは他なし、今日の日本人の体位が低下し、あまりに罹病し易いと共に、あまりに医療の効果がないという――その二つの原因である事は、まことに瞭（あきら）かな事実である。<br/><br/> 右の意味において、本治療のいかに偉大であるかという事である。<br/><br/>修得者が一人でも家庭内にあり、全家族が、この日本医術による健康法と病気の原理を知るにおいて、滅多に罹病しない程の健康体となり、たまたま罹病するといえども仕事を休まないで、容易に速かに治癒するのであるから、一銭の医療費も要しない訳で、その利益の莫大なる事は量り知れないであろう。<br/><br/>しかも、常に安心を得つつ生活なし得るという事も、金銭に換え難い幸福であろう。<br/><br/>従って、私は断言するのである。<br/><br/>本医術を知らないで予算生活を樹てるという事は、一種の投機的行為でしかないという事である。<br/><br/> 故に、この意味においても、本療法こそは、今日の時局に対し、国家に稗〔裨〕益する所、いかに甚大であるかは、読者の想像を乞いたいのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

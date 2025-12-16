@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>meishi</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 随想 名刺 『栄光』269号、昭和29(1954)年8月11日発行 ―― 神の扉を敲（たた）いて病い癒され ―― ―― 神あるを識って真理を覚り ―― ―― 神を信じて心はじめて安らかなり ―― 私は名刺の裏面に、こう書き入れた。<br><br>日常、用いられている名刺というものは、住所姓名はもとより、携わる職業まで書かれていて、まことに有効適切、便利な形式である。<br><br>容姿、風貌は本人がそれを曝らしている。<br><br>名刺を見、当人を見ればその人の輪郭はほば了解できるが、分らないのは、その人の心の裡にあるものであろう。<br><br>もしも、その人の心までが名刺に現わされる、としたならば、名刺の持つ役割は、錦上、更に花を添えるにちがいない。<br><br> 私たちは神様を信じ、神様の恩寵に生き、神の栄光をいささかでも顕わすことを念願して、名刺にも『世界救世教』と誌してあるが、教職者以外の、一般の方の名刺に、その人のもつ宗教が誌してあるのを見たことがない。<br><br>自分が信じている宗教、宗旨まで、他人に知らせる必要を認めないからでもあろうが、名刺の主が、信仰者か、無信仰者であるか、それだけでも判れば、一枚の名刺は、その人の心まで写しだす役目をして面白いと思う。<br><br> ある会社の重役は、自分は宗教を信じていないが、会社で金銭の出納を扱う者は、なに宗でもいいから、宗教を信じている者でなければ採用しない。<br><br>と私に語ったことがある。<br><br> 神を信じるほどの人ならば安心して金銭のことが委ねられるからであるが、信仰の有無が、採用に当っての一つの標準になるとしたならば、名刺にもそれを誌して、心のうちがわまで披瀝しておくのも、あながち、無駄ごととも言い切れないようである。<br><br> 神の扉を敲（たた）いて病い癒され、神あるを識って真理を覚り、神を信じて心はじめて安らかなり。<br><br> 名刺の裏に書いたこの三行の言葉は、私の心まで写しだして見せる自己紹介であり、そして、又、神の栄光をいささかでも顕わさん。<br><br>とする願いを含み、神様への感謝の心を、そのまま表白したものでもある。<br><br> 名刺の裏面を利用して、こうしたことを試すのは、奇矯な行いと眉をひそめる人があるかも知れないが、こうするまでには、次のような紆余曲折をたどっている。<br><br> 浄霊によって病いを癒され、神の実在を知って救世教に入信してみると、私たちの周囲に、いかに病人が多いかに改めて眼をみはらされた。<br><br>道を歩いていても乗物の中でも病人ばかりが眼に付く。<br><br>気の毒に……と思う心は、そのまま救いの道に手引きをしよう。<br><br>とする行為に発展する。<br><br>医薬依存の迷夢から醒まし、メシヤ教の浄霊の素晴しさを知らせるために、手引きになる文章を謄写版で刷って渡し、話しかけた事もあった。<br><br>自分が救われた喜びを、他の人々にも及ぼしたい。<br><br>という一念からである。<br><br>外出するたびごとに、そうした刷り物を携える煩らわしさから、これに代えて、もっと簡単にメシヤ教を説明し、浄霊をうけさせる方法はあるまいか？。<br><br>独善に陥らず、誰にも分る短い言葉。<br><br>一言でメシヤ教の全部をいい現わす言葉。<br><br>既存の宗教になく、メシヤ教だけにある力を表現し、メシヤ教が最高尊貴である事をいい現わす言葉。<br><br>……思案に思案を重ねた揚句、得たものが三行の短句であった。<br><br> これを名刺の余白に誌せば、携行に便、そしてその上、自己の信ずる神の道を説明し、自己の心境さえ打ち出していて余すところがない。<br><br>……こうした計画の上に書かれた章句である。<br><br>神という尊い字に始まる一句ごとの独立性も、あらかじめ計算したものであるが、この順序は牢固として代え難い。<br><br> メシヤ教の門を叩いて浄霊をうけ、病い、全く癒えて神の御在すを識り、偽理を真理と見誤っていたために不幸に沈湎（ちんめん）していた自己を発見し、真理の光に照らされて、そこに初めて幸福の道あるを悟り、最高の神を信じて妄執を捨て去り、平穏な生活に浸り得た喜びの順序は、メシヤ教の信者として例外のない直線コースであるからだ。<br><br> 神の扉を敲（たた）いて病い癒され、神あるを識って真理を覚り、神を信じて心はじめて安らかなり。<br><br> 名刺の裏に、一枚々々丹念に書き入れながら、メシヤ教という、最高最貴の、お道の信者となれた自分を、つくづく仕合せ者である。<br><br>と思った。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Profissão de Fé no Verso de um Cartão</h2>
 <p><em>Ao bater à porta de Deus, a doença é curada.</em>
@@ -107,5 +259,48 @@ function toggleLang(lang) {
 <p>Isso porque ela descreve a trajetória retilínea e universal de todo membro de nossa Igreja: primeiro, bate-se à porta da Fé, recebe-se Johrei e, com a doença completamente curada, reconhece-se a existência de Deus. Em seguida, descobre-se o próprio eu, que antes se afundava na infelicidade por confundir a falsidade com a Verdade. Iluminado pela luz da Verdade, compreende-se que somente nela reside o caminho para a felicidade. Por fim, ao crer no Deus Altíssimo, abandonam-se os apegos e as obsessões, alcançando a alegria de uma vida serena.</p>
 <p>Ao bater à porta de Deus, a doença é curada. Ao conhecer Sua existência, desperto para a Verdade. Ao crer em Deus, meu coração encontra, enfim, a paz.</p>
 <p>Enquanto inscrevo, com esmero, estas palavras em cada um de meus cartões, reflito profundamente sobre quão afortunado sou por ter me tornado um fiel deste Caminho, o mais elevado e nobre de todos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 随想 名刺 『栄光』269号、昭和29(1954)年8月11日発行 ―― 神の扉を敲（たた）いて病い癒され ―― ―― 神あるを識って真理を覚り ―― ―― 神を信じて心はじめて安らかなり ―― 私は名刺の裏面に、こう書き入れた。<br/><br/>日常、用いられている名刺というものは、住所姓名はもとより、携わる職業まで書かれていて、まことに有効適切、便利な形式である。<br/><br/>容姿、風貌は本人がそれを曝らしている。<br/><br/>名刺を見、当人を見ればその人の輪郭はほば了解できるが、分らないのは、その人の心の裡にあるものであろう。<br/><br/>もしも、その人の心までが名刺に現わされる、としたならば、名刺の持つ役割は、錦上、更に花を添えるにちがいない。<br/><br/> 私たちは神様を信じ、神様の恩寵に生き、神の栄光をいささかでも顕わすことを念願して、名刺にも『世界救世教』と誌してあるが、教職者以外の、一般の方の名刺に、その人のもつ宗教が誌してあるのを見たことがない。<br/><br/>自分が信じている宗教、宗旨まで、他人に知らせる必要を認めないからでもあろうが、名刺の主が、信仰者か、無信仰者であるか、それだけでも判れば、一枚の名刺は、その人の心まで写しだす役目をして面白いと思う。<br/><br/> ある会社の重役は、自分は宗教を信じていないが、会社で金銭の出納を扱う者は、なに宗でもいいから、宗教を信じている者でなければ採用しない。<br/><br/>と私に語ったことがある。<br/><br/> 神を信じるほどの人ならば安心して金銭のことが委ねられるからであるが、信仰の有無が、採用に当っての一つの標準になるとしたならば、名刺にもそれを誌して、心のうちがわまで披瀝しておくのも、あながち、無駄ごととも言い切れないようである。<br/><br/> 神の扉を敲（たた）いて病い癒され、神あるを識って真理を覚り、神を信じて心はじめて安らかなり。<br/><br/> 名刺の裏に書いたこの三行の言葉は、私の心まで写しだして見せる自己紹介であり、そして、又、神の栄光をいささかでも顕わさん。<br/><br/>とする願いを含み、神様への感謝の心を、そのまま表白したものでもある。<br/><br/> 名刺の裏面を利用して、こうしたことを試すのは、奇矯な行いと眉をひそめる人があるかも知れないが、こうするまでには、次のような紆余曲折をたどっている。<br/><br/> 浄霊によって病いを癒され、神の実在を知って救世教に入信してみると、私たちの周囲に、いかに病人が多いかに改めて眼をみはらされた。<br/><br/>道を歩いていても乗物の中でも病人ばかりが眼に付く。<br/><br/>気の毒に……と思う心は、そのまま救いの道に手引きをしよう。<br/><br/>とする行為に発展する。<br/><br/>医薬依存の迷夢から醒まし、メシヤ教の浄霊の素晴しさを知らせるために、手引きになる文章を謄写版で刷って渡し、話しかけた事もあった。<br/><br/>自分が救われた喜びを、他の人々にも及ぼしたい。<br/><br/>という一念からである。<br/><br/>外出するたびごとに、そうした刷り物を携える煩らわしさから、これに代えて、もっと簡単にメシヤ教を説明し、浄霊をうけさせる方法はあるまいか？。<br/><br/>独善に陥らず、誰にも分る短い言葉。<br/><br/>一言でメシヤ教の全部をいい現わす言葉。<br/><br/>既存の宗教になく、メシヤ教だけにある力を表現し、メシヤ教が最高尊貴である事をいい現わす言葉。<br/><br/>……思案に思案を重ねた揚句、得たものが三行の短句であった。<br/><br/> これを名刺の余白に誌せば、携行に便、そしてその上、自己の信ずる神の道を説明し、自己の心境さえ打ち出していて余すところがない。<br/><br/>……こうした計画の上に書かれた章句である。<br/><br/>神という尊い字に始まる一句ごとの独立性も、あらかじめ計算したものであるが、この順序は牢固として代え難い。<br/><br/> メシヤ教の門を叩いて浄霊をうけ、病い、全く癒えて神の御在すを識り、偽理を真理と見誤っていたために不幸に沈湎（ちんめん）していた自己を発見し、真理の光に照らされて、そこに初めて幸福の道あるを悟り、最高の神を信じて妄執を捨て去り、平穏な生活に浸り得た喜びの順序は、メシヤ教の信者として例外のない直線コースであるからだ。<br/><br/> 神の扉を敲（たた）いて病い癒され、神あるを識って真理を覚り、神を信じて心はじめて安らかなり。<br/><br/> 名刺の裏に、一枚々々丹念に書き入れながら、メシヤ教という、最高最貴の、お道の信者となれた自分を、つくづく仕合せ者である。<br/><br/>と思った。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

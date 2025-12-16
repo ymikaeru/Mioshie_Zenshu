@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>reis4035</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊祀篇 第四篇 ３ 035-053 埋葬 035 死者の葬法（遺品の同葬） 形見分の法。<br><br> 信徒で亡くなられた人の葬う方法と順序等を御教示願います。<br><br> 今迄通りでよい。<br><br> ―遺品の同葬― 本当はいいが、執着が残ってるから棺へ入れてやるのはいいが、何でも入れてやると、国家全体からいうと浪費になる。<br><br>貴重品など国家の損失になる。<br><br> 女などよく箪笥の側にいる。<br><br>形見分けなど考え物で、特に執着の強いものなど、振袖火事などあり得べき事である。<br><br> しかし、遺品は人に着せた方が有用である。<br><br>祝詞奏げて、浄霊して浄める。<br><br>すると執着が薄くなるからいい。<br><br>（S24. 6. 7） 036 火葬と土葬の良否 火葬と土葬が人間生活の幸、不幸に関係があるものでしょうか。<br><br>御教え下さい。<br><br> 都会などでは火葬もやむを得ぬが、霊もそれを知っているから差支えない。<br><br> 土葬に別に関係はない。<br><br>ただ霊界へ行って、間違った事は気にする。<br><br>（S24. 2.26） 037 火葬と土葬 町長現職当時、火葬場設置発起人が竣工と同時に死にました。<br><br>何か因縁がありますでしょうか。<br><br>また火葬は悪いでしょうか。<br><br>土埋の方がよいでしょうか。<br><br>御教え下さい。<br><br> 死んだのは関係はない。<br><br> 本当は土葬がいいが、都会地では不合理であるなど、時代で火葬もやむを得ぬ。<br><br>（S24. 1. 6） 038 実家に納骨した妻 謹みて、御伺い申し上げます。<br><br>分家した者が、その妻が死亡致しましたが、何分新家の事とて石塔も立たず、妻の実家の墓に納骨致しました。<br><br>その後、後妻を迎えましたが、先妻の子（男子二十才位にて肺結核にて死亡）との仲も良く過ぎていましたが、それから家庭内の経済状態と健康状態が悪くなって参りました。<br><br>墓相学上からも悪いと言われますが、一人息子の死亡と言い、主人の喘息と言い、何か霊的な因縁がありましょうか。<br><br>御教示下さいませ。<br><br>御願い申し上げます。<br><br> よくない。<br><br>結婚した家の墓でなくてはいけない。<br><br>道に外れている。<br><br>先妻の墓へ納骨したのがいけない。<br><br>やり直して婚家先の墓へ移さなくてはいけない。<br><br>法や道に外れてはいけない。<br><br>墓相の問題はもっと小さい。<br><br>これが根本である。<br><br> 039 分家の遺骨 分家に出た者の遺骨を本家の墓に入れる事は霊的に見ていかがでしょうか。<br><br> よくない。<br><br>分家は分家で独立している。<br><br>やむを得ぬ理由があればよい。<br><br>（S24.10.19） 040 母方へ子を葬った場合 信者さんの妹で、四年前死亡し母方の寺に土葬してありますが、差支えはないでしょうか。<br><br> これは本当は嘘で、父方へ祀るのが本当であるが、三、四年も経って何でもないのだからそれでよろしい。<br><br>霊によっては満足しないのがある。<br><br>何事もなければ、それで霊も満足している訳だ。<br><br> 041 遺骸反対の郷里へ納めず 本月初旬私の二女が亡くなりましたので、四十九日を過ぎましたら郷里の墓地へ遺骸を納めなければと思いますが、郷里の者はあまりこの尊い御力を信じられませず、むしろ反対をしておりますため、遺骸は現在の住所にて当分お祭りしてもよろしいでしょうか。<br><br>本人は御浄霊を喜んで霊界に往きましたので、反対する郷里へ、日の浅い中に納める事はどうかと思っておりますが、御指示御願い申し上げます。<br><br> 不可解である。<br><br>しかるべくやった方がよい。<br><br>霊へ障るから当分これでよかろう。<br><br> 今に判るもんだ。<br><br>（S25. 4.16） 042 他地に葬った遺骨の同葬 墓地が狭いために父の遺骸を他に土葬してありましたが、今回「カラ塔」を作り、先祖代々の墓地に遺骨を納めたいと思いますが、どうでしょうか。<br><br> 結構である。<br><br>出来ればそうした方がよい。<br><br>しかし無理にそうする要はない。<br><br>新しい仏なら移した方がよい。<br><br>それも厳格な意味でなく、出来たらやるという風でよい。<br><br> 043 死者の納棺と墓石 そのまま納棺するのが本当である。<br><br>折るのはいけない。<br><br> 前に田舎のある婆さんで、一つ夢を三度位見た。<br><br>鉄道で死んだ者がしきりに頭を下げる。<br><br>近所で聞いてみると、この間死んだ人と判り、何か霊が言いたい事があるのであろうと寺へ行って掘出した。<br><br>箱へ入れるのにアベコベになってる意味の事を霊が言った。<br><br>それは首を千切られたので、首が胴へ着いてない。<br><br>足の方へ着いている。<br><br>それをちゃんと治してやった。<br><br>死んでも体の形が順調でないと気にする。<br><br>暫くの間は非常にそういう事を気にする。<br><br> 墓相といってやかましくいうが、これはある。<br><br>自然石は墓相の形になっていない。<br><br>黒石は嫌う。<br><br>黒は地獄、悪魔に相応する。<br><br>天国は白になる。<br><br>それで白い着物を着せて入棺さす。<br><br> 骨を蔵っておくのは非常に悪い。<br><br>一日も早く納骨しなくてはならぬ。<br><br>骨をしまっておくのは必ず病気になる。<br><br>決る事が決らぬと霊も手続上行く所へ行けぬ。<br><br>（S23） 044 骨の埋葬につき（納骨の順序） 人間は死後自然に還元すべきもの故、火葬にして埋葬する場合、コンクリートで固めた「かろうと」の中へ入れる事は、永久にそのままの形が残りますので、骨は土の中へ直接埋めた方が自然に逆わなくて良いのではないでしょうかと人に聞かれましたが、いかがなもので御座いましょうか。<br><br>御教示賜わりたく存じます。<br><br> 大した違いない。<br><br>どちらでもよい。<br><br>骨は仲々消滅しないものである。<br><br>骨を順序よく入れてやる要がある。<br><br>頭と足を一緒にするような事はいけない。<br><br> エジプトの古墳には随分古いのがある。<br><br>六、七千年のがある。<br><br>掘ると死ぬため恐れて掘らぬ。<br><br>こういうのは今以て霊がいる。<br><br>（S24. 2. 9） 045 脚を別に埋める 兵庫県多紀郡日置村八上と言うところの永穂一雄さんが、腰から右臀部にかけて、昨年六月頃より痛み毎日悩んでおられます。<br><br>腰が前へ曲らず、その上右足が、膝を右の方へ拡げないと坐れないので御座います。<br><br>御浄霊をお受けになって、少しは良いと申されております。<br><br> ある日、この方の奥様から聞いたので御座いますが、（その家は両養子です）その家の義母が右足を患い、原因は足指の小さい腫物からだんだん大きく腫れてそれが膿み、膝から下の筋肉が全部腐って爛れて無くなってしまい、骨だけになったそうで御座います。<br><br>膝から上は普通のままだったとの事で御座います。<br><br>現われた膝から下の骨は、この浮世の風に当って脆くもポロリと二、三日中に、自然に痛むこともなくとれてしまいましたので、墓地の横の方に埋めました。<br><br>その後義母は、時を経て他の病気で昨年六月に死亡し、死体は村の共同墓地に埋めました。<br><br> この義母が死んでから痛みを感ずるようになったとの事で御座いますが、足と身体と別々の場所に骨を埋めたのでいけないのかも知れないと思って、足の骨を埋めたところを探しても見つからないそうで御座います。<br><br>何か霊的に関係が御座いましょうか。<br><br>御伺い申し上げます。<br><br>（義母の霊は現在位牌を作って祀っています） 別々に埋めるのを霊が嫌がるのである。<br><br>霊によっては非常に潔癖になり、振かえって気になる事があると、行く所へ行かない。<br><br>何にも後腐れないようにするのが一番いい。<br><br>義母さんの霊らしい。<br><br>浄霊で治る。<br><br>（S24.10. 1） 046 埋骨を切る 私の実家では一代法華になっておりましたので、神社仏閣墓所をおがませないので、二十余年無縁になっておりましたので、市の経営の玉墓地をもとめたので、そこへお骨を持って来てくれとたのまれましたので、掘り返しましたら、土葬のため骨が大きなため、骨がかめにはいらないので父がノコギリで切りました。<br><br>いかにしておわびを致したらよいですか。<br><br> 大した罪にはならぬ。<br><br>火葬にすると、焼くとよい。<br><br>悪意でやった事ではない。<br><br>理由があればよい。<br><br>（S23.10.28） 047 骨掘り出して死亡 会員の主人、本年六月シベリヤより復員、三十七才隣人の死亡せし折、墓地掘りをし、その翌日より急に腰が痛み、浄霊を致しましたが四日間にして死亡しました。<br><br>霊的でしょうか。<br><br>またその主人の母十数年前に死亡、三年前父死亡、共に寺に保管してありますがこれと関係ありましょうか。<br><br>保管中の骨はどのように処理すれば良いでしょうか。<br><br> 骨を永く置くのは極く悪い。<br><br>早く処理してもらいたい、焼くか埋めるかしてもらいたいのである。<br><br>霊は気にする。<br><br>繋りがあるからすっかり処理せぬと霊界で行く所へなかなか行けない。<br><br>綺麗に始末すれば、執着がなくなるから早く行ける。<br><br>思い残す事のないのが一番いい訳である。<br><br>早く埋めてもらいたいため病気にするのである。<br><br> 霊によって怒り易いのとそうでないのとある。<br><br>よく墓地へ行っただけで病気になる事がある。<br><br>以前ある所の妻君で、お寺参りに行くと霊の憑く人があったが、浄霊するとすぐにとれた。<br><br>（S23.10.15） 048 埋骨せぬ事 本年七月十三日、大光明を御祭りして以来、御浄化を戴いておりますが、今月十三日朝九時頃、突然私の右頬に冷たい手がふれるような気が致しましたら、急に舌がもつれて発音がわからなくなり、右肩と右頬が非常に痛み出し、また両手両足も重く熱っぽくて、水以外は何も欲しくありません。<br><br> 昭和十九年九月十三日に子供を亡くして、その骨を埋めずにありますが、これと関係がありますか。<br><br>御伺い致します。<br><br> 骨を埋めないと霊は非常に嫌がる。<br><br>早速埋めなくてはいけない。<br><br>そのためではないかと思う。<br><br>骨を埋めないと、霊は霊界で行く所へ行けない。<br><br>自分の死骸なども片づいていないとそれに引っ張られる。<br><br>骨などいくらか霊線が残っている。<br><br>骨とっておく人があるが大抵病気になる。<br><br>風葬など間違っている。<br><br>間違った事して始末すると、その罪を霊界で着て苦しむ訳である。<br><br>（S23.11.15） 049 骨寺にあり 左記事項御伺い申し上げます。<br><br> 一、四十四才の男、色盲ですが御浄霊はいかなる箇所を主に致したら宜敷いでしょうか。<br><br> 二、戦時中に死亡した父親の骨が、まだお寺に預けてありますので、母親の墓へ一緒に埋めたいと思いますが、どうで御座いましょうか。<br><br> 骨を埋めないと霊は非常にイヤがる。<br><br>（S24.10.26） 050 未納骨や死体解剖 亡夫と息子の遺骨を数年間納骨せず、お寺へ預けたままになっておりますが、霊的に障りになるものでしょうか。<br><br> 障りになる。<br><br>霊が怒る。<br><br>霊は非常に几帳面である。<br><br>執着は一番いけない。<br><br>一日でも早く埋めなくてはいけない。<br><br> 霊は非常に嫌がる。<br><br>霊は執着が一番いけない。<br><br>執着に関係する事は一番いけない。<br><br>骨は一日も早く埋める。<br><br> 解剖のごときは非常にいけない。<br><br>本人の希望するのは構わぬ。<br><br>（またバラバラになって死んだ時でも、人間の元通りの形にして棺に納めなくてはいけない。<br><br>） 器官の活動が判るので、医者は生体解剖をしたがる。<br><br>（S24. 2.14） 051 納骨埋葬せぬ事と解剖 霊は非常に嫌がる。<br><br>霊は執着が一番いけない。<br><br>執着に関係する事は一番いけない。<br><br> 骨は一日も早く埋める。<br><br> 解剖のごときは非常にいけない。<br><br>本人の希望するのは構わぬ。<br><br>機関の活動が判るので、生体解剖を医者はしたがる。<br><br>（S24. 2.14） 052 赤ン坊アルコール漬 先年流産致しました際、医師はその胎児を学術上の参考品として、アルコール漬にして病院に保管しております。<br><br>入信後、それが気になってなりません。<br><br>これはいかに致したらよろしゅう御座いましょうか。<br><br>御伺い申し上げます。<br><br> 赤ン坊はそうでない。<br><br>相当年をとって、物が判ったのは気にする。<br><br>（S24.10. 1） 053 アルコール漬 医科大学や病院等にありますアルコール漬の嬰児や、切り取った身体の部分等漬けてありますが、これらの霊は霊界でいかなる状態になっておりましょうか。<br><br>御教示御願い申し上げます。<br><br> 非常に嫌がる。<br><br>ある時期まで霊も心得ているから諦めるが、嫌がる。<br><br>（S25. 5.15） rattail（注） 〔 御光話（S23年 8月28日） 『御光話録（補）』発行年月日不明、推定昭和26年〕 『よく胎児をアルコール漬にするが、霊はこれを非常に嫌うものです。<br><br>』
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de Teses do Reverendo Okada Jikanshi</h2>
 <h2>Volume sobre o Culto aos Antepassados, Tomo IV, Parte 3, 035-053 – Sepultamento</h2>
@@ -170,5 +322,48 @@ function toggleLang(lang) {
 <p>Nota
 [Palestra de Meishu-Sama (28 de agosto de 1948), do "Registro de Palestras (Suplemento)", data de publicação desconhecida, estimada em 1951]
 "É comum que fetos sejam conservados em álcool, mas saibam que os espíritos abominam essa prática."</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊祀篇 第四篇 ３ 035-053 埋葬 035 死者の葬法（遺品の同葬） 形見分の法。<br/><br/> 信徒で亡くなられた人の葬う方法と順序等を御教示願います。<br/><br/> 今迄通りでよい。<br/><br/> ―遺品の同葬― 本当はいいが、執着が残ってるから棺へ入れてやるのはいいが、何でも入れてやると、国家全体からいうと浪費になる。<br/><br/>貴重品など国家の損失になる。<br/><br/> 女などよく箪笥の側にいる。<br/><br/>形見分けなど考え物で、特に執着の強いものなど、振袖火事などあり得べき事である。<br/><br/> しかし、遺品は人に着せた方が有用である。<br/><br/>祝詞奏げて、浄霊して浄める。<br/><br/>すると執着が薄くなるからいい。<br/><br/>（S24. 6. 7） 036 火葬と土葬の良否 火葬と土葬が人間生活の幸、不幸に関係があるものでしょうか。<br/><br/>御教え下さい。<br/><br/> 都会などでは火葬もやむを得ぬが、霊もそれを知っているから差支えない。<br/><br/> 土葬に別に関係はない。<br/><br/>ただ霊界へ行って、間違った事は気にする。<br/><br/>（S24. 2.26） 037 火葬と土葬 町長現職当時、火葬場設置発起人が竣工と同時に死にました。<br/><br/>何か因縁がありますでしょうか。<br/><br/>また火葬は悪いでしょうか。<br/><br/>土埋の方がよいでしょうか。<br/><br/>御教え下さい。<br/><br/> 死んだのは関係はない。<br/><br/> 本当は土葬がいいが、都会地では不合理であるなど、時代で火葬もやむを得ぬ。<br/><br/>（S24. 1. 6） 038 実家に納骨した妻 謹みて、御伺い申し上げます。<br/><br/>分家した者が、その妻が死亡致しましたが、何分新家の事とて石塔も立たず、妻の実家の墓に納骨致しました。<br/><br/>その後、後妻を迎えましたが、先妻の子（男子二十才位にて肺結核にて死亡）との仲も良く過ぎていましたが、それから家庭内の経済状態と健康状態が悪くなって参りました。<br/><br/>墓相学上からも悪いと言われますが、一人息子の死亡と言い、主人の喘息と言い、何か霊的な因縁がありましょうか。<br/><br/>御教示下さいませ。<br/><br/>御願い申し上げます。<br/><br/> よくない。<br/><br/>結婚した家の墓でなくてはいけない。<br/><br/>道に外れている。<br/><br/>先妻の墓へ納骨したのがいけない。<br/><br/>やり直して婚家先の墓へ移さなくてはいけない。<br/><br/>法や道に外れてはいけない。<br/><br/>墓相の問題はもっと小さい。<br/><br/>これが根本である。<br/><br/> 039 分家の遺骨 分家に出た者の遺骨を本家の墓に入れる事は霊的に見ていかがでしょうか。<br/><br/> よくない。<br/><br/>分家は分家で独立している。<br/><br/>やむを得ぬ理由があればよい。<br/><br/>（S24.10.19） 040 母方へ子を葬った場合 信者さんの妹で、四年前死亡し母方の寺に土葬してありますが、差支えはないでしょうか。<br/><br/> これは本当は嘘で、父方へ祀るのが本当であるが、三、四年も経って何でもないのだからそれでよろしい。<br/><br/>霊によっては満足しないのがある。<br/><br/>何事もなければ、それで霊も満足している訳だ。<br/><br/> 041 遺骸反対の郷里へ納めず 本月初旬私の二女が亡くなりましたので、四十九日を過ぎましたら郷里の墓地へ遺骸を納めなければと思いますが、郷里の者はあまりこの尊い御力を信じられませず、むしろ反対をしておりますため、遺骸は現在の住所にて当分お祭りしてもよろしいでしょうか。<br/><br/>本人は御浄霊を喜んで霊界に往きましたので、反対する郷里へ、日の浅い中に納める事はどうかと思っておりますが、御指示御願い申し上げます。<br/><br/> 不可解である。<br/><br/>しかるべくやった方がよい。<br/><br/>霊へ障るから当分これでよかろう。<br/><br/> 今に判るもんだ。<br/><br/>（S25. 4.16） 042 他地に葬った遺骨の同葬 墓地が狭いために父の遺骸を他に土葬してありましたが、今回「カラ塔」を作り、先祖代々の墓地に遺骨を納めたいと思いますが、どうでしょうか。<br/><br/> 結構である。<br/><br/>出来ればそうした方がよい。<br/><br/>しかし無理にそうする要はない。<br/><br/>新しい仏なら移した方がよい。<br/><br/>それも厳格な意味でなく、出来たらやるという風でよい。<br/><br/> 043 死者の納棺と墓石 そのまま納棺するのが本当である。<br/><br/>折るのはいけない。<br/><br/> 前に田舎のある婆さんで、一つ夢を三度位見た。<br/><br/>鉄道で死んだ者がしきりに頭を下げる。<br/><br/>近所で聞いてみると、この間死んだ人と判り、何か霊が言いたい事があるのであろうと寺へ行って掘出した。<br/><br/>箱へ入れるのにアベコベになってる意味の事を霊が言った。<br/><br/>それは首を千切られたので、首が胴へ着いてない。<br/><br/>足の方へ着いている。<br/><br/>それをちゃんと治してやった。<br/><br/>死んでも体の形が順調でないと気にする。<br/><br/>暫くの間は非常にそういう事を気にする。<br/><br/> 墓相といってやかましくいうが、これはある。<br/><br/>自然石は墓相の形になっていない。<br/><br/>黒石は嫌う。<br/><br/>黒は地獄、悪魔に相応する。<br/><br/>天国は白になる。<br/><br/>それで白い着物を着せて入棺さす。<br/><br/> 骨を蔵っておくのは非常に悪い。<br/><br/>一日も早く納骨しなくてはならぬ。<br/><br/>骨をしまっておくのは必ず病気になる。<br/><br/>決る事が決らぬと霊も手続上行く所へ行けぬ。<br/><br/>（S23） 044 骨の埋葬につき（納骨の順序） 人間は死後自然に還元すべきもの故、火葬にして埋葬する場合、コンクリートで固めた「かろうと」の中へ入れる事は、永久にそのままの形が残りますので、骨は土の中へ直接埋めた方が自然に逆わなくて良いのではないでしょうかと人に聞かれましたが、いかがなもので御座いましょうか。<br/><br/>御教示賜わりたく存じます。<br/><br/> 大した違いない。<br/><br/>どちらでもよい。<br/><br/>骨は仲々消滅しないものである。<br/><br/>骨を順序よく入れてやる要がある。<br/><br/>頭と足を一緒にするような事はいけない。<br/><br/> エジプトの古墳には随分古いのがある。<br/><br/>六、七千年のがある。<br/><br/>掘ると死ぬため恐れて掘らぬ。<br/><br/>こういうのは今以て霊がいる。<br/><br/>（S24. 2. 9） 045 脚を別に埋める 兵庫県多紀郡日置村八上と言うところの永穂一雄さんが、腰から右臀部にかけて、昨年六月頃より痛み毎日悩んでおられます。<br/><br/>腰が前へ曲らず、その上右足が、膝を右の方へ拡げないと坐れないので御座います。<br/><br/>御浄霊をお受けになって、少しは良いと申されております。<br/><br/> ある日、この方の奥様から聞いたので御座いますが、（その家は両養子です）その家の義母が右足を患い、原因は足指の小さい腫物からだんだん大きく腫れてそれが膿み、膝から下の筋肉が全部腐って爛れて無くなってしまい、骨だけになったそうで御座います。<br/><br/>膝から上は普通のままだったとの事で御座います。<br/><br/>現われた膝から下の骨は、この浮世の風に当って脆くもポロリと二、三日中に、自然に痛むこともなくとれてしまいましたので、墓地の横の方に埋めました。<br/><br/>その後義母は、時を経て他の病気で昨年六月に死亡し、死体は村の共同墓地に埋めました。<br/><br/> この義母が死んでから痛みを感ずるようになったとの事で御座いますが、足と身体と別々の場所に骨を埋めたのでいけないのかも知れないと思って、足の骨を埋めたところを探しても見つからないそうで御座います。<br/><br/>何か霊的に関係が御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/>（義母の霊は現在位牌を作って祀っています） 別々に埋めるのを霊が嫌がるのである。<br/><br/>霊によっては非常に潔癖になり、振かえって気になる事があると、行く所へ行かない。<br/><br/>何にも後腐れないようにするのが一番いい。<br/><br/>義母さんの霊らしい。<br/><br/>浄霊で治る。<br/><br/>（S24.10. 1） 046 埋骨を切る 私の実家では一代法華になっておりましたので、神社仏閣墓所をおがませないので、二十余年無縁になっておりましたので、市の経営の玉墓地をもとめたので、そこへお骨を持って来てくれとたのまれましたので、掘り返しましたら、土葬のため骨が大きなため、骨がかめにはいらないので父がノコギリで切りました。<br/><br/>いかにしておわびを致したらよいですか。<br/><br/> 大した罪にはならぬ。<br/><br/>火葬にすると、焼くとよい。<br/><br/>悪意でやった事ではない。<br/><br/>理由があればよい。<br/><br/>（S23.10.28） 047 骨掘り出して死亡 会員の主人、本年六月シベリヤより復員、三十七才隣人の死亡せし折、墓地掘りをし、その翌日より急に腰が痛み、浄霊を致しましたが四日間にして死亡しました。<br/><br/>霊的でしょうか。<br/><br/>またその主人の母十数年前に死亡、三年前父死亡、共に寺に保管してありますがこれと関係ありましょうか。<br/><br/>保管中の骨はどのように処理すれば良いでしょうか。<br/><br/> 骨を永く置くのは極く悪い。<br/><br/>早く処理してもらいたい、焼くか埋めるかしてもらいたいのである。<br/><br/>霊は気にする。<br/><br/>繋りがあるからすっかり処理せぬと霊界で行く所へなかなか行けない。<br/><br/>綺麗に始末すれば、執着がなくなるから早く行ける。<br/><br/>思い残す事のないのが一番いい訳である。<br/><br/>早く埋めてもらいたいため病気にするのである。<br/><br/> 霊によって怒り易いのとそうでないのとある。<br/><br/>よく墓地へ行っただけで病気になる事がある。<br/><br/>以前ある所の妻君で、お寺参りに行くと霊の憑く人があったが、浄霊するとすぐにとれた。<br/><br/>（S23.10.15） 048 埋骨せぬ事 本年七月十三日、大光明を御祭りして以来、御浄化を戴いておりますが、今月十三日朝九時頃、突然私の右頬に冷たい手がふれるような気が致しましたら、急に舌がもつれて発音がわからなくなり、右肩と右頬が非常に痛み出し、また両手両足も重く熱っぽくて、水以外は何も欲しくありません。<br/><br/> 昭和十九年九月十三日に子供を亡くして、その骨を埋めずにありますが、これと関係がありますか。<br/><br/>御伺い致します。<br/><br/> 骨を埋めないと霊は非常に嫌がる。<br/><br/>早速埋めなくてはいけない。<br/><br/>そのためではないかと思う。<br/><br/>骨を埋めないと、霊は霊界で行く所へ行けない。<br/><br/>自分の死骸なども片づいていないとそれに引っ張られる。<br/><br/>骨などいくらか霊線が残っている。<br/><br/>骨とっておく人があるが大抵病気になる。<br/><br/>風葬など間違っている。<br/><br/>間違った事して始末すると、その罪を霊界で着て苦しむ訳である。<br/><br/>（S23.11.15） 049 骨寺にあり 左記事項御伺い申し上げます。<br/><br/> 一、四十四才の男、色盲ですが御浄霊はいかなる箇所を主に致したら宜敷いでしょうか。<br/><br/> 二、戦時中に死亡した父親の骨が、まだお寺に預けてありますので、母親の墓へ一緒に埋めたいと思いますが、どうで御座いましょうか。<br/><br/> 骨を埋めないと霊は非常にイヤがる。<br/><br/>（S24.10.26） 050 未納骨や死体解剖 亡夫と息子の遺骨を数年間納骨せず、お寺へ預けたままになっておりますが、霊的に障りになるものでしょうか。<br/><br/> 障りになる。<br/><br/>霊が怒る。<br/><br/>霊は非常に几帳面である。<br/><br/>執着は一番いけない。<br/><br/>一日でも早く埋めなくてはいけない。<br/><br/> 霊は非常に嫌がる。<br/><br/>霊は執着が一番いけない。<br/><br/>執着に関係する事は一番いけない。<br/><br/>骨は一日も早く埋める。<br/><br/> 解剖のごときは非常にいけない。<br/><br/>本人の希望するのは構わぬ。<br/><br/>（またバラバラになって死んだ時でも、人間の元通りの形にして棺に納めなくてはいけない。<br/><br/>） 器官の活動が判るので、医者は生体解剖をしたがる。<br/><br/>（S24. 2.14） 051 納骨埋葬せぬ事と解剖 霊は非常に嫌がる。<br/><br/>霊は執着が一番いけない。<br/><br/>執着に関係する事は一番いけない。<br/><br/> 骨は一日も早く埋める。<br/><br/> 解剖のごときは非常にいけない。<br/><br/>本人の希望するのは構わぬ。<br/><br/>機関の活動が判るので、生体解剖を医者はしたがる。<br/><br/>（S24. 2.14） 052 赤ン坊アルコール漬 先年流産致しました際、医師はその胎児を学術上の参考品として、アルコール漬にして病院に保管しております。<br/><br/>入信後、それが気になってなりません。<br/><br/>これはいかに致したらよろしゅう御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 赤ン坊はそうでない。<br/><br/>相当年をとって、物が判ったのは気にする。<br/><br/>（S24.10. 1） 053 アルコール漬 医科大学や病院等にありますアルコール漬の嬰児や、切り取った身体の部分等漬けてありますが、これらの霊は霊界でいかなる状態になっておりましょうか。<br/><br/>御教示御願い申し上げます。<br/><br/> 非常に嫌がる。<br/><br/>ある時期まで霊も心得ているから諦めるが、嫌がる。<br/><br/>（S25. 5.15） rattail（注） 〔 御光話（S23年 8月28日） 『御光話録（補）』発行年月日不明、推定昭和26年〕 『よく胎児をアルコール漬にするが、霊はこれを非常に嫌うものです。<br/><br/>』</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

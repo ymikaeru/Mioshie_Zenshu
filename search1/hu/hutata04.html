@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hutata04</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 再び借金を論ず 『救世』50号、昭和25(1950)年2月18日発行 私は先頃借金是か非かという論文を本欄に載せたが、いまだ言い足りない点があるから再び書くのである、というのは現在の世の中を見ると、借金のために善い結果よりも悪い結果の方が多い事実である、そうして近頃のごとく自殺者の多い事は今まで見ない程で、しかもその原因の大方は借金のためとされている、もちろん青年男女の自殺や情死はほとんど痴情が原因であるが、中年以上のもの特に相当社会的に知られている人なども、ほとんどは借金が原因とされている。<br><br> この間米国から来日した名は忘れたが某有力者の談話中にこういう一節があった、「日本の実業界を視察して一番驚いたのは余りに借金の多い事である」と、これにみても判る通り現今は猫も杓子（しゃくし）も借金のない者はほとんどあるまい、なるほど戦争であの通り叩きつけられた揚句であるから復興するにも無一文では不可能で、借金によらなければならない事は判るが、多くは必要以上の借金をする、それがいけないのだ、大体日本人はどうも虚栄が多過ぎ見栄坊である、この点も原因中の主なるものであろう、この見栄坊が祟って少し調子が良いと思い切って拡張する、じっくり落着いて考える事をしない、勝ちて兜の緒を締める格言などは忘れてしまう、もちろん理外の理などという事も知らない、ただ理屈と算盤に合い儲かりさえすればいいという、いわば刹那主義的で、大胆を通り越して無謀に突進する癖がある、要するに実業家でありながら、やる事は乗るか外（そ）るかの投機である、ところが世の中はそんな甘いものではない、およそ計画通りにゆかないのが常道である、というのは目紛（めまぐる）しい程変る世の中とて、最初の見込とは予想外に違うものである、何よりも今日の金詰りがそれで、今困っている人は、最初の計画当時と余りに違う現在に驚いているに違いない、衆知の通り、今日数多くの工場の閉鎖、不渡手形の激増、労銀の遅払、滞貨の漸増、取引の不円滑等々はもとより、一時景気の好かった高利貸ですら、最近は気息奄々（きそくえんえん）として倒産する者さえあるにみても、いかに金融逼迫のはなはだしいかが判るのである、右のごとき事実によっても最初の世の中の激しい変り方を算盤に入れないからである。<br><br> 以上のごとくであるから今日の金詰りを緩和し、現在の難境を切抜ける唯一の方法は、従来の頭脳を切替える事である、すなわち借金をしない、無理をしない、焦らない事の三箇条であって、何よりも前途を低く見る事である、言うまでもなく、出来るだけ緊縮方針で放漫にならないよう戒める事で、それより外に適確な道はあり得ないのである。<br><br> 今一つ大いに注意したい事がある、由来日本人くらい他力本願の強い国民はあるまい、これが最もいけない、見よ、少し大きな事業になると政府の援助を求めたり、補助金を貰いたがったりするかと思えば銀行から借りなければ事業は出来ないように思う、大会社などは少し好い時は配当を多くし、社内保留が少ないため無暗に社債を発行したがる、今日現に大きな問題としている外資導入のごときもそれである、ところがこの外資導入に対し、米の資本家が遅疑逡巡（ちぎしゅんじゅん）しているのは何がためであるかを考えてみるべきで、全く日本の経済界が堅実味に乏しいからである、したがって、日本が外資の必要がないという状態になれば、米国の方から進んで金利は安くてもいいから、金を使って貰いたいと言って来るに決っている、その機微な点に気がつかなければならないのである。<br><br> 最後に言いたい事は、今後日本の経済はどういう進路をとるかという事である、言うまでもなくデフレ時代に入るのだから、緊縮方針を守り、堅実の上にも堅実で行かなければ乗り切る事は困難である、また別の話だが、農家にしても近来一時の農村景気はどこへやら、今は非常に窮迫している事実である、これらも農民の経済知識の不足からでもあるが、為政者の無能なため前途の見通しが着かず、今日ある事に警告を怠ったからで、政治家にも一半の罪ありというべきである。<br><br> 右によっても明らかなごとく、すべての事業は、借金政略で最初から大きくやる事がいけないのである、どこまでも堅実に小さく始めるべきで、どこまでも自力本位である、したがって他力を蔑視し彼の「天は自ら助くるものを助く」という事を信条とし、焦らず撓（たゆ）まずコツコツ主義で努力を重ねるとすれば必ず予想外な好結果を得らるるもので、これは私の生きた経験から得たものであるから間違はないのである。<br><br> 右は私が長い間借金で苦しんだ体験の結晶で、借金皆済後、一生涯借金をしない事を心に誓って今日に至ったのである、果せるかな、それ以来予想外の好成績を挙げている、第一借金がないと心は常に明朗であるから頭脳も良く、思わぬ良い考えが浮ぶものである、よく「笑う門には福来る」とか「憂えは憂えを生み、愚痴は愚痴をよぶ」などと言うが、全くその通りで、心が裕かであれば物質的にも豊かになるのは当然である、本教が世間から非常に経済上恵まれている事を実際より高く買われているのは、借金をしないからで、支払渋滞などがないためもある。<br><br> 以上のごとく長々と借金の非なる点をかいたが、これを要するに、全然借金をするなというのではない、根本は自力本位で借金は最少限度に止める事、この二箇条を守るだけである、そうすれば焦りも無理も必要がないから、一切は順調に進み、楽々成功する事は太鼓判を捺すのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Novas Considerações sobre o Endividamento</h2>
 <p>Há pouco tempo, publiquei nesta coluna um artigo que questionava a legitimidade do endividamento. Contudo, por sentir que ainda restam pontos a serem aprofundados, volto a abordar o tema. Ao observarmos a sociedade atual, é um fato incontestável que as dívidas geram consequências muito mais nefastas do que benéficas. Jamais se viu um número tão alarmante de suicídios como nos dias de hoje, e a causa precípua, em grande parte dos casos, é o fardo financeiro. Evidentemente, entre os jovens, as desilusões amorosas costumam ser o estopim, mas para os indivíduos de meia-idade ou mais, sobretudo aqueles com certa notoriedade social, o endividamento figura quase invariavelmente como o motivo principal.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Como fica evidente pelo que foi exposto, é um erro iniciar qualquer empreendimento em grande escala, com uma estratégia fundamentada em dívidas. Deve-se, invariavelmente, começar de forma modesta e sólida, tendo a autossuficiência como princípio. Portanto, é preciso desprezar a dependência de terceiros e adotar como lema o preceito de que “o Céu ajuda quem a si mesmo se ajuda”. Se, sem pressa e sem desânimo, acumularmos esforços trabalhando diligentemente, passo a passo, obteremos, com certeza, resultados que superam as expectativas. Afirmo isso com a convicção de quem o aprendeu por experiência própria; não há erro nisso.</p>
 <p>O que aqui exponho é a cristalização de uma longa e sofrida experiência com dívidas. Após quitar a última delas, fiz a mim mesmo o voto solene de jamais contrair outro empréstimo, e mantenho essa promessa até hoje. Com efeito, desde então, tenho colhido resultados inesperadamente positivos. Primeiramente, sem dívidas, o espírito se mantém sempre sereno; a mente, por sua vez, torna-se mais lúcida, permitindo o surgimento de ideias inspiradas. Bem dizem os provérbios: “A sorte entra pela porta onde há sorrisos” e “A preocupação gera mais preocupação, e a queixa atrai mais queixas”. É a mais pura verdade. É natural que a abundância no coração se reflita na abundância material. A razão pela qual nossa Igreja é percebida pelo público como sendo muito mais abençoada financeiramente do que de fato é, reside no fato de não possuirmos dívidas e, por conseguinte, não termos atrasos em nossos pagamentos.</p>
 <p>Após discorrer longamente sobre os aspectos negativos do endividamento, quero, em suma, esclarecer que não se trata de uma proibição absoluta do empréstimo. O essencial é ater-se a dois princípios: o princípio fundamental é a autossuficiência, e o endividamento deve ser mantido no mínimo estritamente necessário. Se observarem estas duas regras, não haverá necessidade de precipitação nem de excessos. Assim, tudo transcorrerá de forma harmoniosa, e posso lhes garantir que o sucesso virá com serenidade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 再び借金を論ず 『救世』50号、昭和25(1950)年2月18日発行 私は先頃借金是か非かという論文を本欄に載せたが、いまだ言い足りない点があるから再び書くのである、というのは現在の世の中を見ると、借金のために善い結果よりも悪い結果の方が多い事実である、そうして近頃のごとく自殺者の多い事は今まで見ない程で、しかもその原因の大方は借金のためとされている、もちろん青年男女の自殺や情死はほとんど痴情が原因であるが、中年以上のもの特に相当社会的に知られている人なども、ほとんどは借金が原因とされている。<br/><br/> この間米国から来日した名は忘れたが某有力者の談話中にこういう一節があった、「日本の実業界を視察して一番驚いたのは余りに借金の多い事である」と、これにみても判る通り現今は猫も杓子（しゃくし）も借金のない者はほとんどあるまい、なるほど戦争であの通り叩きつけられた揚句であるから復興するにも無一文では不可能で、借金によらなければならない事は判るが、多くは必要以上の借金をする、それがいけないのだ、大体日本人はどうも虚栄が多過ぎ見栄坊である、この点も原因中の主なるものであろう、この見栄坊が祟って少し調子が良いと思い切って拡張する、じっくり落着いて考える事をしない、勝ちて兜の緒を締める格言などは忘れてしまう、もちろん理外の理などという事も知らない、ただ理屈と算盤に合い儲かりさえすればいいという、いわば刹那主義的で、大胆を通り越して無謀に突進する癖がある、要するに実業家でありながら、やる事は乗るか外（そ）るかの投機である、ところが世の中はそんな甘いものではない、およそ計画通りにゆかないのが常道である、というのは目紛（めまぐる）しい程変る世の中とて、最初の見込とは予想外に違うものである、何よりも今日の金詰りがそれで、今困っている人は、最初の計画当時と余りに違う現在に驚いているに違いない、衆知の通り、今日数多くの工場の閉鎖、不渡手形の激増、労銀の遅払、滞貨の漸増、取引の不円滑等々はもとより、一時景気の好かった高利貸ですら、最近は気息奄々（きそくえんえん）として倒産する者さえあるにみても、いかに金融逼迫のはなはだしいかが判るのである、右のごとき事実によっても最初の世の中の激しい変り方を算盤に入れないからである。<br/><br/> 以上のごとくであるから今日の金詰りを緩和し、現在の難境を切抜ける唯一の方法は、従来の頭脳を切替える事である、すなわち借金をしない、無理をしない、焦らない事の三箇条であって、何よりも前途を低く見る事である、言うまでもなく、出来るだけ緊縮方針で放漫にならないよう戒める事で、それより外に適確な道はあり得ないのである。<br/><br/> 今一つ大いに注意したい事がある、由来日本人くらい他力本願の強い国民はあるまい、これが最もいけない、見よ、少し大きな事業になると政府の援助を求めたり、補助金を貰いたがったりするかと思えば銀行から借りなければ事業は出来ないように思う、大会社などは少し好い時は配当を多くし、社内保留が少ないため無暗に社債を発行したがる、今日現に大きな問題としている外資導入のごときもそれである、ところがこの外資導入に対し、米の資本家が遅疑逡巡（ちぎしゅんじゅん）しているのは何がためであるかを考えてみるべきで、全く日本の経済界が堅実味に乏しいからである、したがって、日本が外資の必要がないという状態になれば、米国の方から進んで金利は安くてもいいから、金を使って貰いたいと言って来るに決っている、その機微な点に気がつかなければならないのである。<br/><br/> 最後に言いたい事は、今後日本の経済はどういう進路をとるかという事である、言うまでもなくデフレ時代に入るのだから、緊縮方針を守り、堅実の上にも堅実で行かなければ乗り切る事は困難である、また別の話だが、農家にしても近来一時の農村景気はどこへやら、今は非常に窮迫している事実である、これらも農民の経済知識の不足からでもあるが、為政者の無能なため前途の見通しが着かず、今日ある事に警告を怠ったからで、政治家にも一半の罪ありというべきである。<br/><br/> 右によっても明らかなごとく、すべての事業は、借金政略で最初から大きくやる事がいけないのである、どこまでも堅実に小さく始めるべきで、どこまでも自力本位である、したがって他力を蔑視し彼の「天は自ら助くるものを助く」という事を信条とし、焦らず撓（たゆ）まずコツコツ主義で努力を重ねるとすれば必ず予想外な好結果を得らるるもので、これは私の生きた経験から得たものであるから間違はないのである。<br/><br/> 右は私が長い間借金で苦しんだ体験の結晶で、借金皆済後、一生涯借金をしない事を心に誓って今日に至ったのである、果せるかな、それ以来予想外の好成績を挙げている、第一借金がないと心は常に明朗であるから頭脳も良く、思わぬ良い考えが浮ぶものである、よく「笑う門には福来る」とか「憂えは憂えを生み、愚痴は愚痴をよぶ」などと言うが、全くその通りで、心が裕かであれば物質的にも豊かになるのは当然である、本教が世間から非常に経済上恵まれている事を実際より高く買われているのは、借金をしないからで、支払渋滞などがないためもある。<br/><br/> 以上のごとく長々と借金の非なる点をかいたが、これを要するに、全然借金をするなというのではない、根本は自力本位で借金は最少限度に止める事、この二箇条を守るだけである、そうすれば焦りも無理も必要がないから、一切は順調に進み、楽々成功する事は太鼓判を捺すのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

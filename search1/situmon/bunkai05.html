@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>bunkai05</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 妙智の鍵 光明分会『会報』創刊号、昭和24(1949)年1月23日発行 ――戦災にて焼失したため新しく位牌を作る場合、従来は別々にしてあった夫婦の位牌を一枚に並べて書いてもよろしいのでございましょうか。<br><br> もし後妻のあった場合はいかがいたせばよろしいのでございましょうか。<br><br>また兄弟姉妹の場合数名分一枚にしてよろしいのでございましょうか。<br><br> 夫婦は一枚でよろしい。<br><br>後妻の場合は別の位牌を作り先妻の位牌の前に独立して祀る。<br><br>兄弟姉妹は順序を正しく書き、一枚の位牌でよろしい。<br><br> ――墓地の移転のため改葬する場合、何代または何年くらい前までの祖霊を一基にまとめてよろしいのでございましょうか。<br><br>なおこの場合のお祭りの仕方と墓石の処分は、いかがいたせばよろしいのでございましょうか。<br><br> 面識ある人は一基ずつ、面識のない人はひとまとめにしてよろしい。<br><br>墓石は場所がいっぱいになればひとまとめにしてよろしい。<br><br> ――人間が死んだ場合、本、副、正の三守護神は霊界ではどうなるのでございましょうか。<br><br> 本守護神は現界と同じ働きをする。<br><br>ただ肉体がないのみである。<br><br>正守護神は必要がなくなるから他の役をする。<br><br>また生まれ変わる場合もある。<br><br> 副守護神はしばらく霊界にいて浄化するに従い離れてまた生まれ変わる。<br><br>地獄におちた霊は全部、中有界の霊はほとんど副守護神がついている。<br><br> ――神社神道の信者が亡くなった場合、それぞれ俗名にて○○命とついておりますが、その家庭がこのお道に入信した場合そのままでお祭りしてもよろしいものでございましょうか。<br><br> ただいまのところでは○○命○○彦○○姫などでよろしい。<br><br> ――仏教の家庭が二、三代前から宗派神道に改宗し、今回さらにこのお道に入信した場合、祖霊の祀り方はいかがいたすのが正しいのでございましょうか。<br><br> 改宗すれば祖霊が怒るからそのままにしておき、改宗した人だけ神道にて祭ればよろしい。<br><br> ――日本では結婚の場合霊界で産土神が両者をお結びになるとお伺いいたしておりますが、西洋においても産土神に相応するお方があるのでございましょうか。<br><br> 西洋では産土神に相当する神がないようです。<br><br> ――いわゆる神無月には本当に各神々様が出雲にお集まりになるのでございましょうか。<br><br> 出雲にお集まりになるのでなく出雲より祖国朝鮮へお帰りになるのです。<br><br>出雲は素盞嗚尊がお祭りしてあり、その系統の神々様が出雲の日御碕（ひのみさき）からお帰りになるので、出雲地方の人々には関係がありますが他の地方の人々には関係がないようです。<br><br> ――御嶽教の火祭りなどにおいて火渡りや熱湯を浴びたりいたしますが、熱くならないのはいかなるわけでございましょうか。<br><br> 修練の結果そうなるようです。<br><br> ――法身弥勒、報身弥勒、応身弥勒とございますが法身、報身、応身のお働きの区別を御垂示ください。<br><br> 法身は法なり。<br><br>法とは規則（神仏の道＝天地の法則）を説き阿弥陀……。<br><br>報身は押し上げる救い。<br><br>救いには二つあり、一つは上より救い上げ一つは下より押し上げる救い。<br><br>釈迦は地の弥勒であるから上へ押し上げる。<br><br>観音は応身で相手の人に応じてこれを救われる。<br><br>すなわち臨機応変の働きをなさる。<br><br> ――神社の社殿に朱塗りのがございますが、特殊のいわれがございましょうか。<br><br> 古い神社は白木造り、新しい神社または人霊をお祭りしてある神社は朱塗り。<br><br>仏教の影響を受けたもののようです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Esclarecimentos sobre Rituais e o Mundo Espiritual</h2>
 <p><strong>Pergunta:</strong> No caso de ser necessário confeccionar novas tabuletas ancestrais, por terem sido as originais destruídas em incêndios de guerra, seria permissível unificar em uma só placa os nomes do marido e da esposa, que tradicionalmente eram mantidos em separado? E como proceder quando houve uma segunda esposa? Ademais, no que tange a irmãos, é correto inscrever vários nomes em uma única tabuleta?</p>
@@ -112,5 +264,48 @@ function toggleLang(lang) {
 <p><strong>Resposta:</strong> O Corpo da Lei é a própria Lei. A Lei consiste nas regras — o Caminho de Deus e Buda, as leis do Céu e da Terra — expostas por Amida... O Corpo da Retribuição representa a salvação que eleva a partir de baixo. Existem duas formas de salvação: uma que resgata por cima e outra que impulsiona por baixo. Sendo Shaka o Miroku da Terra, sua salvação consiste em elevar. Kannon (観音), por sua vez, é o Corpo da Manifestação, que salva cada ser de acordo com suas necessidades específicas. Em outras palavras, sua atuação é adaptável a cada circunstância.</p>
 <p><strong>Pergunta:</strong> Alguns santuários xintoístas são laqueados em vermelhão. Haveria algum significado especial para essa prática?</p>
 <p><strong>Resposta:</strong> Os santuários mais antigos são construídos em madeira natural, sem pintura. Já os mais recentes, ou aqueles que consagram espíritos humanos, costumam ser pintados de vermelhão, o que parece ser uma influência do budismo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 妙智の鍵 光明分会『会報』創刊号、昭和24(1949)年1月23日発行 ――戦災にて焼失したため新しく位牌を作る場合、従来は別々にしてあった夫婦の位牌を一枚に並べて書いてもよろしいのでございましょうか。<br/><br/> もし後妻のあった場合はいかがいたせばよろしいのでございましょうか。<br/><br/>また兄弟姉妹の場合数名分一枚にしてよろしいのでございましょうか。<br/><br/> 夫婦は一枚でよろしい。<br/><br/>後妻の場合は別の位牌を作り先妻の位牌の前に独立して祀る。<br/><br/>兄弟姉妹は順序を正しく書き、一枚の位牌でよろしい。<br/><br/> ――墓地の移転のため改葬する場合、何代または何年くらい前までの祖霊を一基にまとめてよろしいのでございましょうか。<br/><br/>なおこの場合のお祭りの仕方と墓石の処分は、いかがいたせばよろしいのでございましょうか。<br/><br/> 面識ある人は一基ずつ、面識のない人はひとまとめにしてよろしい。<br/><br/>墓石は場所がいっぱいになればひとまとめにしてよろしい。<br/><br/> ――人間が死んだ場合、本、副、正の三守護神は霊界ではどうなるのでございましょうか。<br/><br/> 本守護神は現界と同じ働きをする。<br/><br/>ただ肉体がないのみである。<br/><br/>正守護神は必要がなくなるから他の役をする。<br/><br/>また生まれ変わる場合もある。<br/><br/> 副守護神はしばらく霊界にいて浄化するに従い離れてまた生まれ変わる。<br/><br/>地獄におちた霊は全部、中有界の霊はほとんど副守護神がついている。<br/><br/> ――神社神道の信者が亡くなった場合、それぞれ俗名にて○○命とついておりますが、その家庭がこのお道に入信した場合そのままでお祭りしてもよろしいものでございましょうか。<br/><br/> ただいまのところでは○○命○○彦○○姫などでよろしい。<br/><br/> ――仏教の家庭が二、三代前から宗派神道に改宗し、今回さらにこのお道に入信した場合、祖霊の祀り方はいかがいたすのが正しいのでございましょうか。<br/><br/> 改宗すれば祖霊が怒るからそのままにしておき、改宗した人だけ神道にて祭ればよろしい。<br/><br/> ――日本では結婚の場合霊界で産土神が両者をお結びになるとお伺いいたしておりますが、西洋においても産土神に相応するお方があるのでございましょうか。<br/><br/> 西洋では産土神に相当する神がないようです。<br/><br/> ――いわゆる神無月には本当に各神々様が出雲にお集まりになるのでございましょうか。<br/><br/> 出雲にお集まりになるのでなく出雲より祖国朝鮮へお帰りになるのです。<br/><br/>出雲は素盞嗚尊がお祭りしてあり、その系統の神々様が出雲の日御碕（ひのみさき）からお帰りになるので、出雲地方の人々には関係がありますが他の地方の人々には関係がないようです。<br/><br/> ――御嶽教の火祭りなどにおいて火渡りや熱湯を浴びたりいたしますが、熱くならないのはいかなるわけでございましょうか。<br/><br/> 修練の結果そうなるようです。<br/><br/> ――法身弥勒、報身弥勒、応身弥勒とございますが法身、報身、応身のお働きの区別を御垂示ください。<br/><br/> 法身は法なり。<br/><br/>法とは規則（神仏の道＝天地の法則）を説き阿弥陀……。<br/><br/>報身は押し上げる救い。<br/><br/>救いには二つあり、一つは上より救い上げ一つは下より押し上げる救い。<br/><br/>釈迦は地の弥勒であるから上へ押し上げる。<br/><br/>観音は応身で相手の人に応じてこれを救われる。<br/><br/>すなわち臨機応変の働きをなさる。<br/><br/> ――神社の社殿に朱塗りのがございますが、特殊のいわれがございましょうか。<br/><br/> 古い神社は白木造り、新しい神社または人霊をお祭りしてある神社は朱塗り。<br/><br/>仏教の影響を受けたもののようです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

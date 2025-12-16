@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s281205</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年12月5日） 『御教え集』29号、昭和29(1954)年1月15日発行 昭和二十八年十二月五日 この間ちょっと話しましたが、『ニホン・タイムズ』という外字新聞の記者が、箱根美術館を見た感想を翻訳した記事を読ませます。<br><br>日本人とは見方が違うところがおもしろいです。<br><br>この中に出ているルーヴルというのはフランスの有名な美術館で、ヴァチカンというのはイタリアにあるものですが、この美術館は有名なものです。<br><br> （昭和二十八年十一月三十日付『ニホン・タイムズ』紙掲載の記事）【栄光 二三九号】 この間この人と会った後で、この時の通訳をした信者で浮世絵を扱っている人が、こういうことを言っていたと話してました。<br><br>その外人は美術評論家というような地位なのですが、ヨーロッパからすべての美術館を見たけれども、この箱根の美術館というものは、中は人工的の美＝室内の美術が並んでいるし、外は石とか木とか苔とかいう天然の美を人工で造った美で、さらに遠くを見ると山や海やいろいろな天然の美があり、つまり三段になっている。<br><br>こういう所は世界にないということと、熱海にもいずれ美術館やいろいろできるとすれば、日本を東と西に分けて、西は京都、奈良にすべての美術＝文化的の重要な物があって、それを外人が来て見る。<br><br>それから東は、結局箱根、熱海がいよいよ完成した暁はそれを見なければならない、というようなことになるだろうと言っていたそうです。<br><br>そういう見方は、外人は非常に慧眼（けいがん）です。<br><br>というのは一度で急所を見てしまうのです。<br><br>ところが日本の新聞記者などもいろいろ来ましたが、そこまで見る人はないらしいのです。<br><br>もしそこまで見たとすれば記事に書かなければならないが、記事に書いた人はないです。<br><br>というのは日本人は視野が狭いのです。<br><br>大局的に見ないのです。<br><br>というのは、大きな見地から見ればすばらしいものだということが分かるのですが、ただ、おかしいことを考えて“宗教でこんな物をこしらえるのなら大いに儲かるのだろう”とか、“岡田という奴はなかなか金儲けがうまいのだろう”と変なところに考えを持って行くきらいがあるのです。<br><br>日本人はどうもそういう欠点が非常にあります。<br><br>これはわれわれの方のことばかりでなく、政治家にしても、いろんな政策は、国民の利害ということを見ないで、自分の政党のみで、これは自由党が元に戻った方がよいとか、自由党が元に戻らない方がよいとか、改進党が政策は是々主義でゆくとか、社会党が右とか左とか、小さな自己の政党の利害だけを考えて、実に小さいのです。<br><br>それでアメリカとソ連は根本的にどういう考えだ、というようなことにあまり干渉を持たないのです。<br><br>特にいろんな色があるのです。<br><br>それで自分の色で、白紙にならないのです。<br><br>白いのは太陽ですが、彼らはいろんな色ですから、自分の色と違うものはみんないけないと非難するのです。<br><br>ですから反対党の言うことは、どんな良いことでも、どんなに合っていることでも、全部いけないのです。<br><br>それで自党の言うことはなんでも良いという、心の狭さです。<br><br> それが今のこっちの美術館を批評する外人の見方は、アメリカあたりの政治家の見方、批判と同様、実に世界的で、公平に見てます。<br><br>それで私がいつも一番感心するアメリカの見方は、他の国は全部中共を承認しようとしてます。<br><br>英国などが特にそうですが、英国は情けない国になってしまったと思います。<br><br>自国の利害のみを考えているのです。<br><br>ところがアメリカは承認しないということは、中共は暴力をもって今の地位を確保したのですから、弱肉強食で、強い者勝ちということになる。<br><br>それを許したら世界の平和は維持できない。<br><br>それを維持するとしたら、暴力や非合理的なやり方は許さないという正義感です。<br><br>それをアメリカはガンとして守っているというところに、アメリカの偉大なところがあるのです。<br><br>ところが日本人の中に第二の中共たらんとする社会党左派があるのですが、これに至っては論外です。<br><br>それを国民の中に支持するのがあるのですが、日本で一番足りないのは正義感です。<br><br>これは米の不足よりもっと足りないのです。<br><br>アメリカがとにかく国が栄えてうまくゆくのは、これは正義をもって進んでゆくところに神様の御守護があるのです。<br><br>私も昔から正義を維持するために、随分戦ってきたわけです。<br><br>その代わり不利なこともあります。<br><br>裁判とかいろんなことも、正義を守らんがために強くやられることも始終ありましたが、しかしやはり神様というのは正義で、正義をなくしたら神様というものとは縁が離れてしまうわけです。<br><br>ですから自分の考え方、自分の行いというものは、正義に合うかどうかということです。<br><br>しかして正義についてもいろんな考え方があるのです。<br><br>たとえてみれば日本の太平洋戦争にしても、敵を殺して土地を占領するということが正義だと思ったが、これがたいへんに間違った正義で、時代に都合のよい正義で、そんな正義はないのです。<br><br>その間違った点は見方が小さいためです。<br><br>だからどうしても本当の正義というものは、世界人類全体が幸福になるというのが間違いない正義ですから、そこにさえ目をつけていればよいわけです。<br><br>この結果はどうなるか、こうした結果は日本人だけが都合がよいとか、自分の一族だけの利益でなくて、国全体、世界全体の幸福の増進に合っていれば、これは本当の正義です。<br><br>そこで救世教というのは世界全体を地上天国にし、世界全体の幸福を目標にしているから、これが本当の正義というわけです。<br><br> それから私の光について、今度九つになる子供が実によく見たのです。<br><br>それでかえって子供だけに無心ですから、神様は子供を使ったわけです。<br><br>これはたいへん参考になりますし、早く知った方がよいと思いますから読ませます。<br><br> （御論文「私の光に就いて」お蔭話「御光の霊視能力を戴いて」）【栄光 二三七号】 それから私の文章……書くものについて書いてみました。<br><br> （御論文「私の文章とその他」） 【栄光 二三八号】 今読んだような具合で、どっちかというと、私は遊びながら仕事をしているようなものです。<br><br>苦しみながらしている気はしないのです。<br><br>道楽みたいなものです。<br><br>観音様の中に「遊行観音」というのがありますが、ちょうどそういうようなものです。<br><br>それで、そういうようにやっているとうまく行くのです。<br><br>それでいろいろ苦しんだり、気がいかないことをやっているとうまくゆかないのです。<br><br>この点が今までの世の中の人と反対です。<br><br>これは信者の人でも同じわけです。<br><br>だからいやいややったり、苦しんでやったりした時にはロクなことはないです。<br><br>病人の所に頼まれて行く場合にも、楽しみながら行く時は、きっと治りが良いし、治るから行くわけで、またそうだから良いわけです。<br><br>だから楽に行けばゆくほど発展するのです。<br><br>ここが今までの世の中と違うわけです。<br><br>ところがどうも人間という奴はいろんな癖がついて、どうも苦しむのを平気で、それをあたりまえのように思っているのです。<br><br>私も始終そういうことがありますが、どうも思うようにゆかない、うまくゆかないというときには、“オレは苦しんでやっていた”ということに気がつくのです。<br><br>それでそれをほうり出して、他のことをやるということがあります。<br><br>それからまた時節というものがたいへんなもので、たとえうまくゆくことでも、良い計画でも、時節が早いとやっぱり思うようにゆかないのです。<br><br>それはやることが悪いのでなくて、時節が来ないのです。<br><br>そこを見通すだけの智慧証覚がなくてはならないのです。<br><br> それからまた順序ですが、これがまた実にたいへんなものです。<br><br>うまくゆかなければならない、こうならなければならないのがどこかつかえている、うまくゆかないのですが、そういう時によく考えてみると順序が違っている場合があります。<br><br>それで順序を良くするとスラスラとゆくのです。<br><br>ですからそういうようなことを早く発見するということが智慧証覚です。<br><br>この智慧証覚というものがまたたいへんな意味――というよりか、物事に影響するのです。<br><br>それで智慧証覚があると気がつくのです。<br><br>一番分かりやすい話が、浄霊してどうもうまく治らない、おかしいなと思うと、見当が違うとか順序が違うとかいろいろあります。<br><br>それで順序というものは、やはり理屈に合うことです。<br><br>合理的なものです。<br><br>だからその病人なら病人が、まだいろいろ反対者があったり、その人の想念がおそろしく食い違ったりするときにはうまくゆかないのです。<br><br>そのうまくゆかないというところにまた一つの理由があるのです。<br><br>それは、その病人がなにも分からないうちは疑いもし、反対もし、物は試しだぐらいにやるのですが、それはそれで神様から許されます。<br><br>それはあたりまえです。<br><br>ところがそうとうに話を聞いたり、御神書を読んだり、中には信仰に入ったりする人がありますが、入っていながら、それに合ってゆかない想念でやってもらうと、その時は治りが悪いのです。<br><br>うまくゆかないのです。<br><br>そういうことに対してチャンと合理的の理屈があるのです。<br><br>だからかえって疑ぐっていた人が馬鹿に治り、それからそうとうに信じている人で治りが悪いということがありますが、それはそういうわけです。<br><br>ぜんぜん知らない人はいくら疑ぐっても、それはあたりまえのことで許されるのです。<br><br>理屈に合っているのです。<br><br>ところがそうとう事実を見せられながら、なお疑ぐっている人は思うようにゆかないのです。<br><br>そういうことをよく考えてみると、チャンと理屈に合っているわけです。<br><br>その合っている理屈を早く発見し、早く知るということが智慧証覚です。<br><br>心の鏡に写るわけです。<br><br>ですから鏡が曇ると写りが悪いから、始終鏡を磨いているとよく写るから、早く発見するということになるのです。<br><br>ここに信仰の、案外軽く見ていることで、実は非常に重要な点があります。<br><br>このことについては、仏教で、お釈迦さんが言ってますが、「智慧」ということをよく言います。<br><br>これはそのことです。<br><br>それでその智慧がある程度まで働いたのが覚者と言うのです。<br><br>それで大覚者というと一番偉いのです。<br><br>それで、お釈迦さんが言ったのに“証覚を得れば菩薩にする――「証覚者」が「菩薩」であり、「大覚者」が「如来」である”ということを言っているのは、やはり覚りということは智慧です。<br><br>ですからいろいろとなにか気がつき発見の早い人があるが、それは覚者なのだから、覚者というものは心の曇りが少ないわけです。<br><br>そこでその曇りを少なく、心の鏡がきれいに澄んでいるというためには、御神書をたくさん読むということが一番よいわけです。<br><br>ですから御神書を読んでも、前にはよく分からなかったのが、その次に読んだら、あるいはしばらくたってから読むと、“これだ”“こんな良いことがある”“こんなはっきりしているのにどうして自分は分からなかったか”ということがあるが、前に読んだときには曇っていたからです。<br><br>だからだんだん曇りが除れてゆくにつれて、だんだん分かりが良くなるということは、そういうわけです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Perspectiva da Justiça e a Sabedoria Divina</h2>
 <p>Recentemente, mencionei brevemente este assunto, e hoje gostaria de compartilhar com vocês a tradução de um artigo. Trata-se das impressões de um jornalista do <em>The Nihon Times</em>, um periódico em língua estrangeira, após sua visita ao Museu de Arte de Hakone. O que o torna particularmente interessante é a sua perspectiva, tão distinta daquela dos japoneses. O texto menciona o Louvre, o célebre museu francês, e o Vaticano, na Itália, ambos de renome mundial.</p>
@@ -108,5 +260,48 @@ function toggleLang(lang) {
 <p>Por exemplo, se o doente ainda enfrenta forte oposição ou se seus próprios pensamentos estão em profundo desalinho, o tratamento não surtirá o efeito desejado. E essa dificuldade, por sua vez, tem uma razão de ser. No início, quando o enfermo nada sabe, é natural que duvide, se oponha ou aceite o tratamento apenas como uma experiência. Deus permite essa postura, pois é compreensível. Contudo, quando a pessoa já ouviu explanações, leu os Ensinamentos e até mesmo ingressou na fé, mas recebe Johrei com uma mente que não condiz com esses princípios, a cura se torna lenta e difícil. Para cada situação, existe uma lógica espiritual perfeitamente racional. É por isso que, por vezes, uma pessoa que duvidava se cura de forma surpreendente, enquanto um fiel de longa data apresenta uma melhora lenta. Uma pessoa totalmente leiga tem sua dúvida perdoada, pois é o estado natural e lógico. Já aquele que, mesmo tendo testemunhado os fatos, persiste na dúvida, não alcançará os resultados esperados.</p>
 <p>Ao refletir sobre esses pontos, percebemos que tudo obedece a uma lógica impecável. A sabedoria e a percepção espiritual consistem justamente na capacidade de descobrir e compreender essa lógica com rapidez. Ela se reflete no espelho da alma. Se o espelho está embaçado, a imagem será turva. Portanto, se o polirmos constantemente, a imagem se tornará nítida, permitindo uma rápida compreensão.</p>
 <p>Este é um ponto crucial na fé, embora muitas vezes subestimado. O budismo, por meio de Buda, discorre extensamente sobre o que chama de "sabedoria", que é precisamente isto. Aquele que manifesta tal sabedoria em certo grau é considerado um iluminado. Quem a domina plenamente é um grande iluminado. Os ensinamentos de Buda afirmam que "quem alcança a percepção se torna um Bodhisattva, e um grande iluminado, um Tathagata", o que revela que a essência da iluminação é a própria sabedoria. Pessoas que demonstram grande intuição e rapidez em suas descobertas são iluminadas, pois o espelho de sua alma possui poucas nuvens. Para reduzir essa opacidade e manter o espelho da alma límpido e cristalino, a melhor prática é a leitura assídua dos Ensinamentos Divinos. É comum que, ao reler um Ensinamento, algo que antes não fazia sentido se revele com clareza. Nesses momentos, pensamos: "É isto! Que verdade maravilhosa! Como não pude compreender algo tão claro antes?". A razão é que, na leitura anterior, nosso espelho estava embaçado. É por essa razão que, à medida que a névoa se dissipa, a compreensão se aprofunda.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年12月5日） 『御教え集』29号、昭和29(1954)年1月15日発行 昭和二十八年十二月五日 この間ちょっと話しましたが、『ニホン・タイムズ』という外字新聞の記者が、箱根美術館を見た感想を翻訳した記事を読ませます。<br/><br/>日本人とは見方が違うところがおもしろいです。<br/><br/>この中に出ているルーヴルというのはフランスの有名な美術館で、ヴァチカンというのはイタリアにあるものですが、この美術館は有名なものです。<br/><br/> （昭和二十八年十一月三十日付『ニホン・タイムズ』紙掲載の記事）【栄光 二三九号】 この間この人と会った後で、この時の通訳をした信者で浮世絵を扱っている人が、こういうことを言っていたと話してました。<br/><br/>その外人は美術評論家というような地位なのですが、ヨーロッパからすべての美術館を見たけれども、この箱根の美術館というものは、中は人工的の美＝室内の美術が並んでいるし、外は石とか木とか苔とかいう天然の美を人工で造った美で、さらに遠くを見ると山や海やいろいろな天然の美があり、つまり三段になっている。<br/><br/>こういう所は世界にないということと、熱海にもいずれ美術館やいろいろできるとすれば、日本を東と西に分けて、西は京都、奈良にすべての美術＝文化的の重要な物があって、それを外人が来て見る。<br/><br/>それから東は、結局箱根、熱海がいよいよ完成した暁はそれを見なければならない、というようなことになるだろうと言っていたそうです。<br/><br/>そういう見方は、外人は非常に慧眼（けいがん）です。<br/><br/>というのは一度で急所を見てしまうのです。<br/><br/>ところが日本の新聞記者などもいろいろ来ましたが、そこまで見る人はないらしいのです。<br/><br/>もしそこまで見たとすれば記事に書かなければならないが、記事に書いた人はないです。<br/><br/>というのは日本人は視野が狭いのです。<br/><br/>大局的に見ないのです。<br/><br/>というのは、大きな見地から見ればすばらしいものだということが分かるのですが、ただ、おかしいことを考えて“宗教でこんな物をこしらえるのなら大いに儲かるのだろう”とか、“岡田という奴はなかなか金儲けがうまいのだろう”と変なところに考えを持って行くきらいがあるのです。<br/><br/>日本人はどうもそういう欠点が非常にあります。<br/><br/>これはわれわれの方のことばかりでなく、政治家にしても、いろんな政策は、国民の利害ということを見ないで、自分の政党のみで、これは自由党が元に戻った方がよいとか、自由党が元に戻らない方がよいとか、改進党が政策は是々主義でゆくとか、社会党が右とか左とか、小さな自己の政党の利害だけを考えて、実に小さいのです。<br/><br/>それでアメリカとソ連は根本的にどういう考えだ、というようなことにあまり干渉を持たないのです。<br/><br/>特にいろんな色があるのです。<br/><br/>それで自分の色で、白紙にならないのです。<br/><br/>白いのは太陽ですが、彼らはいろんな色ですから、自分の色と違うものはみんないけないと非難するのです。<br/><br/>ですから反対党の言うことは、どんな良いことでも、どんなに合っていることでも、全部いけないのです。<br/><br/>それで自党の言うことはなんでも良いという、心の狭さです。<br/><br/> それが今のこっちの美術館を批評する外人の見方は、アメリカあたりの政治家の見方、批判と同様、実に世界的で、公平に見てます。<br/><br/>それで私がいつも一番感心するアメリカの見方は、他の国は全部中共を承認しようとしてます。<br/><br/>英国などが特にそうですが、英国は情けない国になってしまったと思います。<br/><br/>自国の利害のみを考えているのです。<br/><br/>ところがアメリカは承認しないということは、中共は暴力をもって今の地位を確保したのですから、弱肉強食で、強い者勝ちということになる。<br/><br/>それを許したら世界の平和は維持できない。<br/><br/>それを維持するとしたら、暴力や非合理的なやり方は許さないという正義感です。<br/><br/>それをアメリカはガンとして守っているというところに、アメリカの偉大なところがあるのです。<br/><br/>ところが日本人の中に第二の中共たらんとする社会党左派があるのですが、これに至っては論外です。<br/><br/>それを国民の中に支持するのがあるのですが、日本で一番足りないのは正義感です。<br/><br/>これは米の不足よりもっと足りないのです。<br/><br/>アメリカがとにかく国が栄えてうまくゆくのは、これは正義をもって進んでゆくところに神様の御守護があるのです。<br/><br/>私も昔から正義を維持するために、随分戦ってきたわけです。<br/><br/>その代わり不利なこともあります。<br/><br/>裁判とかいろんなことも、正義を守らんがために強くやられることも始終ありましたが、しかしやはり神様というのは正義で、正義をなくしたら神様というものとは縁が離れてしまうわけです。<br/><br/>ですから自分の考え方、自分の行いというものは、正義に合うかどうかということです。<br/><br/>しかして正義についてもいろんな考え方があるのです。<br/><br/>たとえてみれば日本の太平洋戦争にしても、敵を殺して土地を占領するということが正義だと思ったが、これがたいへんに間違った正義で、時代に都合のよい正義で、そんな正義はないのです。<br/><br/>その間違った点は見方が小さいためです。<br/><br/>だからどうしても本当の正義というものは、世界人類全体が幸福になるというのが間違いない正義ですから、そこにさえ目をつけていればよいわけです。<br/><br/>この結果はどうなるか、こうした結果は日本人だけが都合がよいとか、自分の一族だけの利益でなくて、国全体、世界全体の幸福の増進に合っていれば、これは本当の正義です。<br/><br/>そこで救世教というのは世界全体を地上天国にし、世界全体の幸福を目標にしているから、これが本当の正義というわけです。<br/><br/> それから私の光について、今度九つになる子供が実によく見たのです。<br/><br/>それでかえって子供だけに無心ですから、神様は子供を使ったわけです。<br/><br/>これはたいへん参考になりますし、早く知った方がよいと思いますから読ませます。<br/><br/> （御論文「私の光に就いて」お蔭話「御光の霊視能力を戴いて」）【栄光 二三七号】 それから私の文章……書くものについて書いてみました。<br/><br/> （御論文「私の文章とその他」） 【栄光 二三八号】 今読んだような具合で、どっちかというと、私は遊びながら仕事をしているようなものです。<br/><br/>苦しみながらしている気はしないのです。<br/><br/>道楽みたいなものです。<br/><br/>観音様の中に「遊行観音」というのがありますが、ちょうどそういうようなものです。<br/><br/>それで、そういうようにやっているとうまく行くのです。<br/><br/>それでいろいろ苦しんだり、気がいかないことをやっているとうまくゆかないのです。<br/><br/>この点が今までの世の中の人と反対です。<br/><br/>これは信者の人でも同じわけです。<br/><br/>だからいやいややったり、苦しんでやったりした時にはロクなことはないです。<br/><br/>病人の所に頼まれて行く場合にも、楽しみながら行く時は、きっと治りが良いし、治るから行くわけで、またそうだから良いわけです。<br/><br/>だから楽に行けばゆくほど発展するのです。<br/><br/>ここが今までの世の中と違うわけです。<br/><br/>ところがどうも人間という奴はいろんな癖がついて、どうも苦しむのを平気で、それをあたりまえのように思っているのです。<br/><br/>私も始終そういうことがありますが、どうも思うようにゆかない、うまくゆかないというときには、“オレは苦しんでやっていた”ということに気がつくのです。<br/><br/>それでそれをほうり出して、他のことをやるということがあります。<br/><br/>それからまた時節というものがたいへんなもので、たとえうまくゆくことでも、良い計画でも、時節が早いとやっぱり思うようにゆかないのです。<br/><br/>それはやることが悪いのでなくて、時節が来ないのです。<br/><br/>そこを見通すだけの智慧証覚がなくてはならないのです。<br/><br/> それからまた順序ですが、これがまた実にたいへんなものです。<br/><br/>うまくゆかなければならない、こうならなければならないのがどこかつかえている、うまくゆかないのですが、そういう時によく考えてみると順序が違っている場合があります。<br/><br/>それで順序を良くするとスラスラとゆくのです。<br/><br/>ですからそういうようなことを早く発見するということが智慧証覚です。<br/><br/>この智慧証覚というものがまたたいへんな意味――というよりか、物事に影響するのです。<br/><br/>それで智慧証覚があると気がつくのです。<br/><br/>一番分かりやすい話が、浄霊してどうもうまく治らない、おかしいなと思うと、見当が違うとか順序が違うとかいろいろあります。<br/><br/>それで順序というものは、やはり理屈に合うことです。<br/><br/>合理的なものです。<br/><br/>だからその病人なら病人が、まだいろいろ反対者があったり、その人の想念がおそろしく食い違ったりするときにはうまくゆかないのです。<br/><br/>そのうまくゆかないというところにまた一つの理由があるのです。<br/><br/>それは、その病人がなにも分からないうちは疑いもし、反対もし、物は試しだぐらいにやるのですが、それはそれで神様から許されます。<br/><br/>それはあたりまえです。<br/><br/>ところがそうとうに話を聞いたり、御神書を読んだり、中には信仰に入ったりする人がありますが、入っていながら、それに合ってゆかない想念でやってもらうと、その時は治りが悪いのです。<br/><br/>うまくゆかないのです。<br/><br/>そういうことに対してチャンと合理的の理屈があるのです。<br/><br/>だからかえって疑ぐっていた人が馬鹿に治り、それからそうとうに信じている人で治りが悪いということがありますが、それはそういうわけです。<br/><br/>ぜんぜん知らない人はいくら疑ぐっても、それはあたりまえのことで許されるのです。<br/><br/>理屈に合っているのです。<br/><br/>ところがそうとう事実を見せられながら、なお疑ぐっている人は思うようにゆかないのです。<br/><br/>そういうことをよく考えてみると、チャンと理屈に合っているわけです。<br/><br/>その合っている理屈を早く発見し、早く知るということが智慧証覚です。<br/><br/>心の鏡に写るわけです。<br/><br/>ですから鏡が曇ると写りが悪いから、始終鏡を磨いているとよく写るから、早く発見するということになるのです。<br/><br/>ここに信仰の、案外軽く見ていることで、実は非常に重要な点があります。<br/><br/>このことについては、仏教で、お釈迦さんが言ってますが、「智慧」ということをよく言います。<br/><br/>これはそのことです。<br/><br/>それでその智慧がある程度まで働いたのが覚者と言うのです。<br/><br/>それで大覚者というと一番偉いのです。<br/><br/>それで、お釈迦さんが言ったのに“証覚を得れば菩薩にする――「証覚者」が「菩薩」であり、「大覚者」が「如来」である”ということを言っているのは、やはり覚りということは智慧です。<br/><br/>ですからいろいろとなにか気がつき発見の早い人があるが、それは覚者なのだから、覚者というものは心の曇りが少ないわけです。<br/><br/>そこでその曇りを少なく、心の鏡がきれいに澄んでいるというためには、御神書をたくさん読むということが一番よいわけです。<br/><br/>ですから御神書を読んでも、前にはよく分からなかったのが、その次に読んだら、あるいはしばらくたってから読むと、“これだ”“こんな良いことがある”“こんなはっきりしているのにどうして自分は分からなかったか”ということがあるが、前に読んだときには曇っていたからです。<br/><br/>だからだんだん曇りが除れてゆくにつれて、だんだん分かりが良くなるということは、そういうわけです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

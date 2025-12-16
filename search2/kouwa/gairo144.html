@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>gairo144</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教概観篇 ６ 144-154 マホメット教、紅卍会、天理教 144 マホメットの神名 マホメットも釈尊、弥陀のごとく日本の神様の化身として活躍したのでしょうか。<br><br>そして御神名は何神様ですか。<br><br>お伺い申し上げます。<br><br> そうでない。<br><br>国々にいろんな名で表われる。<br><br>日本にも外国にも表われる場合がある。<br><br> （S24. 7. 3） 145 大宗教家は東から出づ 昔から大宗教家は大体アジア州またはヨーロッパ州の東部より出ているようで御座いますが、何か理由が御座いますか。<br><br>御伺い申し上げます。<br><br> 東は霊で、西は体であり、宗教は霊が本位であるから東へ出る。<br><br>日本の宗教は皆西から出ている。<br><br>文化は西から起り東漸した。<br><br>本当の東は極東である。<br><br>インドなどもアジアからみれば西である。<br><br>キリストも東洋からみて西である。<br><br>東洋に近い所から出た。<br><br>（S24.９.５） 146 日本神道教祖の女性 仏教、キリスト教等諸外国の宗教の教祖は概ね男子であり、日本の神道は教祖あるいは古い神様にも女神が多いようで御座いますが、これには何か意味があったもので御座いましょうか。<br><br>御伺い申し上げます。<br><br> 事実である。<br><br>日本の最高神は終戦前は天照大神という事になっている。<br><br>女というのはおかしい。<br><br>女だけで子を生む訳はない。<br><br>夫神がある筈で、そこに大きな疑念が起きなかった。<br><br>ここに謎がある。<br><br>所が立派に夫神があった。<br><br>素盞嗚尊に征められ夫神が危うかった時、皇后のみは許すというので夫神は逃げられ、隠れられた。<br><br>その点非常に秘密にした。<br><br>複雑した話があるが未だ発表は出来ぬ。<br><br>見真実になると分る。<br><br>弥勒の世になると全部見真実になる。<br><br>根本的に秘密はなくなる。<br><br>今迄の日本は皆秘密になった。<br><br>これも神の経綸である。<br><br> 女教祖は日本の神道では天理教、大本教位であろう。<br><br> 天理教では月日様というが、これは日月様というべきである。<br><br>中山ミキもミは女、キは男で、女が上になっている。<br><br>これは月の系統のためである。<br><br>（S24. 8.11） 147 紅卍教 紅卍教について、 一、その霊統は何でしょうか。<br><br> 二、その本尊とする至聖先天老祖とは何でしょうか。<br><br> 三、「扶 （フーチ）の術」とはどんな霊の働きでしょうか。<br><br> 一、今から三、四十年前、済南の在に百姓のような人から始め、丁字型の棒を両方で持ってやった。<br><br>これは古い時代からあった。<br><br>道教の信者か何かで、ひとりでに動き出した。<br><br>それが道院となり、始まった。<br><br>そして、救済事業などをするために紅卍会を作った。<br><br> 釈迦、キリスト、観音、弥勒、孔子、マホメットのごとき、大宗教家などが老祖の命によって書く。<br><br> 至聖先天老祖はキリスト教でいうエホバ、日本でいう国常立尊である。<br><br>（S24. 5.23） rattail（注） 〔 御光話（S24年 5月23日） ）『御光話録』10号、昭和24(1949)年7月10日発行〕 ――紅卍字（こうまんじ）教の霊統、至聖先天老祖、扶 （フーチ）の術などについて御教示をお願い申し上げます。<br><br> 紅卍字教っていうのはいまから三、四十年前に、支那の済南の在方（ざいかた）に百姓みたいのがあって…… 支那って所では、ごく古い昔から丁の形をした棒を使い、それを人間が両方から持っていると、この先が自動的に動くんです。<br><br>「ミコ」っていう字は丁に人を二つ書いて、「巫」と書くでしょう。<br><br>これが古い時代にもあったんです。<br><br> それを三、四十年前に道教の信者がやったところ、棒が独りでに動いて字を書いたんですが、それからだんだん道院というのができ、やがて社会事業を始めて紅卍字会になったんですよ。<br><br>道院が霊で社会事業が体ですね。<br><br> で、ここでは四角い浅いお盆みたいなものに銀の砂をしいて、それを机の上に置き、その机の両側に人が棒を持って立つと、自動的に砂の上に字を書くんです。<br><br>これは神様が棒を持って書くんですよ。<br><br>両方の人が相談し合って書くって言ったって、そういうことはできないんで、持っているほうはほとんど動かずに、先だけが動くんですからね。<br><br>その前に、お経を上げるとかいろいろ儀式をやって、それからこれを始めるんです。<br><br>そして正面に神様の坐る席をこしらえ、香なんかを焚くんです。<br><br> で、これはその至聖先天老祖が書かれるんです。<br><br>これを直接書くのは、釈迦、キリスト、観音、弥勒、孔子、マホメット、舎利弗（しゃりほつ）っていうような偉い人や大宗教家が、この老祖様の言いつけで書くわけです。<br><br>傍に立っててそこに出た文字を書きとめる係りがあるんですが、そりゃあ、とても早いもんだそうです。<br><br>そのときは、「観世音菩薩、老祖の命により何々の教えを伝う」とか「釈迦如来、経文の誤りを訂正す」とか出てきて「どのお経のどこを訂正しろ」と言うんです。<br><br>また、キリストだと「老祖の命により今日イエス汝らに教う」というふうにいろいろ出てくるんです。<br><br>それから棒に筆がつけてあれば、絵を書いたり字を書いたりするんですよ。<br><br> 先に、「岡田茂吉」と書いて「浄」と書かれたのをもらったことがありましたがね、いま、私がやってる仕事は浄霊のように、みんな「浄」の仕事ですからね、あれは二十年ほど前ですが、もうちゃんとそのときには決まっていたわけですね。<br><br> この至聖先天老祖っていうのはエホバですね、日本でいえば国常立尊になるんです。<br><br>つまり最高の神様ですね。<br><br>……いまに紅卍字会と連絡するようになるはずですがね、ある時期がくるとこの扶 に出てくるんですよ。<br><br>まあ、来年か再来年でしょうかね。<br><br> 〔 御講話（S27年12月15日） ）『御教え集』17号、昭和28(1953)年1月15日発行〕 〔 年頭の辞(昭和28年) 『栄光』189号、昭和28(1953)年1月1日発行〕 148 紅卍会と西蔵政府 世界紅卍会の本部は西蔵のラッサに有ると聞いておりますが、同じくラッサに有る所の西蔵政府とは同体のものでしょうか、異体のものでしょうか。<br><br>御伺い致します。<br><br> 天津か北京か西蔵は支部のようなものである。<br><br>無論同体の筈はない。<br><br>（S24. 8.25） 149 紅卍会の動き 中共軍の活発な動きに伴う現在、支那紅卍会の動きにつきお伺い致します。<br><br> 知らない。<br><br>紅卍会は戦争の場合、赤十字のような役をする。<br><br>死骸を片付け、葬る事をする。<br><br>敵味方はない。<br><br>両方の死骸を片付けていると思う。<br><br>教えは道院でやっている。<br><br>社会的活動は紅卍会でやっている。<br><br> 150 転輪菩薩と天理教、（大将軍と若姫君尊） 「天理王の尊は転輪菩薩にて聖観音の化身とぞ思う」の御歌のごとく、聖観音の化身のお働きである天理教のような既成宗教が、今日邪教的になっているのは何が原因でございましょうか。<br><br> 邪教とは言えない。<br><br>天理王尊は十柱あって、総称して天理王という。<br><br>転輪菩薩は印度の神である。<br><br> 十柱の中に天照大神、国常立尊等も入っている。<br><br> 三千年目に優曇華の花が咲く時、転輪菩薩が出現するという伝説が印度にある。<br><br> 中山ミキは初稚姫尊の生れ更りで、初め大将軍が憑られた。<br><br>大将軍は乱暴な神で、その償いに善事をしようとされた。<br><br> 中山ミキは月の系統になるから、月の働きで、暗の間はよかったが、昭和六年以降は病気も治らなくなった。<br><br>それで人間的に教えを作った。<br><br> お筆先、御神楽歌は、神が懸って書かれたものである。<br><br> 天理教はこれから骨が折れようが、神様が何とかされるだろう。<br><br>（S23.11.22） 151 天理王尊 天理教も昔は転輪教と言い、天輪王（天輪菩薩という）と言った。<br><br>暫く経ってから天理王にした。<br><br> これは印度に表われ、三千年前生れた。<br><br>汚れた世を浄化して善い世を造るという伝説があり――。<br><br>（S23. 6.13） 152 霊友会について 最近流行しております霊友会について御説明下さい。<br><br> 死んだ人を供養する。<br><br>死んだ人の霊は祀るほどいいとしている。<br><br>それもいいが、遂には祖霊の仏壇を片付けたりなどするが、これは本当のやり方ではない。<br><br>であるから長くすると不仕合せが起る。<br><br> 売薬のようなもので、宣伝した時は一時発展する。<br><br>生長の家の谷口氏は追放にかかっているが、これらはすべて新陳代謝している。<br><br>生長の家など幹部の入替えが激しい。<br><br>モラロジーなど盛んであるが、一時的である。<br><br>天理、金光位が現在力がある方であろう。<br><br>（S23.11. 2） 153 金光教について 金光教とはいかなる宗教でしょうか。<br><br>今後もこの宗教を続けてよいでしょうか。<br><br> 金光教は神道でも割合にいい方である。<br><br>いずれは本教へ入ってくる。<br><br>天地金の神を祀っており、非常に消極的で、積極性がない。<br><br>教祖は朝から晩まで座ったきりだという。<br><br>花柳界や俳優に信者が多い。<br><br>穏かで搾取しない。<br><br> 先に金光教信者を治してやった事があるが、治ったら金光教の神様に礼をしていた。<br><br>行ってみると、金光教の神の御利益で治す人を与えられたと言っていた。<br><br> 「天理、金光、黒住、妙霊先走り、艮（とどめ）に艮（うしとら）の金神表われて……」とある。<br><br> （S24. 1.25） 154 新興宗教の踊る理由 新興宗教、日蓮宗、生気術等において踊ったり運動したりするのは催眠術にかかるためでしょうか。<br><br> 催眠術でない。<br><br>霊が憑る。<br><br>踊る宗教なども霊が憑る。<br><br>日蓮宗は狐が寄ってくる。<br><br>法華経の中、観音経は狐は嫌う。<br><br>日蓮宗の行者など霊が憑り口をきくと口がきれたと言い、赤飯焚いて祝う。<br><br>それを長く続けると精神病になる。<br><br>故に日蓮宗は大抵狂人になる。<br><br>（S23.11. 3）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Panorama das Religiões (O Islamismo, a Koomankai e a Tenrikyo)</h2>
 <p><strong>144 O Nome Divino de Maomé</strong></p>
@@ -150,5 +302,48 @@ function toggleLang(lang) {
 <p><strong>154 A Razão da Dança nas Novas Religiões</strong></p>
 <p>O fato de novas religiões, bem como a seita Nichiren e certas práticas de vitalidade, incorporarem danças e movimentos corporais seria uma forma de induzir ao hipnotismo?</p>
 <p>Não se trata de hipnotismo, mas de possessão espiritual. Nas religiões que dançam, são espíritos que se apossam dos praticantes. A seita Nichiren, por sua vez, atrai espíritos de raposa. Dentro do Sutra de Lótus, o Sutra de Kannon é detestado pelas raposas. Quando um praticante da seita Nichiren é possuído por um espírito e começa a falar, eles celebram com arroz festivo, acreditando que a boca da pessoa "se abriu" para o divino. Se isso continuar por muito tempo, a pessoa desenvolve uma doença mental. Por essa razão, a maioria dos seguidores da seita Nichiren acaba enlouquecendo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教概観篇 ６ 144-154 マホメット教、紅卍会、天理教 144 マホメットの神名 マホメットも釈尊、弥陀のごとく日本の神様の化身として活躍したのでしょうか。<br/><br/>そして御神名は何神様ですか。<br/><br/>お伺い申し上げます。<br/><br/> そうでない。<br/><br/>国々にいろんな名で表われる。<br/><br/>日本にも外国にも表われる場合がある。<br/><br/> （S24. 7. 3） 145 大宗教家は東から出づ 昔から大宗教家は大体アジア州またはヨーロッパ州の東部より出ているようで御座いますが、何か理由が御座いますか。<br/><br/>御伺い申し上げます。<br/><br/> 東は霊で、西は体であり、宗教は霊が本位であるから東へ出る。<br/><br/>日本の宗教は皆西から出ている。<br/><br/>文化は西から起り東漸した。<br/><br/>本当の東は極東である。<br/><br/>インドなどもアジアからみれば西である。<br/><br/>キリストも東洋からみて西である。<br/><br/>東洋に近い所から出た。<br/><br/>（S24.９.５） 146 日本神道教祖の女性 仏教、キリスト教等諸外国の宗教の教祖は概ね男子であり、日本の神道は教祖あるいは古い神様にも女神が多いようで御座いますが、これには何か意味があったもので御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 事実である。<br/><br/>日本の最高神は終戦前は天照大神という事になっている。<br/><br/>女というのはおかしい。<br/><br/>女だけで子を生む訳はない。<br/><br/>夫神がある筈で、そこに大きな疑念が起きなかった。<br/><br/>ここに謎がある。<br/><br/>所が立派に夫神があった。<br/><br/>素盞嗚尊に征められ夫神が危うかった時、皇后のみは許すというので夫神は逃げられ、隠れられた。<br/><br/>その点非常に秘密にした。<br/><br/>複雑した話があるが未だ発表は出来ぬ。<br/><br/>見真実になると分る。<br/><br/>弥勒の世になると全部見真実になる。<br/><br/>根本的に秘密はなくなる。<br/><br/>今迄の日本は皆秘密になった。<br/><br/>これも神の経綸である。<br/><br/> 女教祖は日本の神道では天理教、大本教位であろう。<br/><br/> 天理教では月日様というが、これは日月様というべきである。<br/><br/>中山ミキもミは女、キは男で、女が上になっている。<br/><br/>これは月の系統のためである。<br/><br/>（S24. 8.11） 147 紅卍教 紅卍教について、 一、その霊統は何でしょうか。<br/><br/> 二、その本尊とする至聖先天老祖とは何でしょうか。<br/><br/> 三、「扶 （フーチ）の術」とはどんな霊の働きでしょうか。<br/><br/> 一、今から三、四十年前、済南の在に百姓のような人から始め、丁字型の棒を両方で持ってやった。<br/><br/>これは古い時代からあった。<br/><br/>道教の信者か何かで、ひとりでに動き出した。<br/><br/>それが道院となり、始まった。<br/><br/>そして、救済事業などをするために紅卍会を作った。<br/><br/> 釈迦、キリスト、観音、弥勒、孔子、マホメットのごとき、大宗教家などが老祖の命によって書く。<br/><br/> 至聖先天老祖はキリスト教でいうエホバ、日本でいう国常立尊である。<br/><br/>（S24. 5.23） rattail（注） 〔 御光話（S24年 5月23日） ）『御光話録』10号、昭和24(1949)年7月10日発行〕 ――紅卍字（こうまんじ）教の霊統、至聖先天老祖、扶 （フーチ）の術などについて御教示をお願い申し上げます。<br/><br/> 紅卍字教っていうのはいまから三、四十年前に、支那の済南の在方（ざいかた）に百姓みたいのがあって…… 支那って所では、ごく古い昔から丁の形をした棒を使い、それを人間が両方から持っていると、この先が自動的に動くんです。<br/><br/>「ミコ」っていう字は丁に人を二つ書いて、「巫」と書くでしょう。<br/><br/>これが古い時代にもあったんです。<br/><br/> それを三、四十年前に道教の信者がやったところ、棒が独りでに動いて字を書いたんですが、それからだんだん道院というのができ、やがて社会事業を始めて紅卍字会になったんですよ。<br/><br/>道院が霊で社会事業が体ですね。<br/><br/> で、ここでは四角い浅いお盆みたいなものに銀の砂をしいて、それを机の上に置き、その机の両側に人が棒を持って立つと、自動的に砂の上に字を書くんです。<br/><br/>これは神様が棒を持って書くんですよ。<br/><br/>両方の人が相談し合って書くって言ったって、そういうことはできないんで、持っているほうはほとんど動かずに、先だけが動くんですからね。<br/><br/>その前に、お経を上げるとかいろいろ儀式をやって、それからこれを始めるんです。<br/><br/>そして正面に神様の坐る席をこしらえ、香なんかを焚くんです。<br/><br/> で、これはその至聖先天老祖が書かれるんです。<br/><br/>これを直接書くのは、釈迦、キリスト、観音、弥勒、孔子、マホメット、舎利弗（しゃりほつ）っていうような偉い人や大宗教家が、この老祖様の言いつけで書くわけです。<br/><br/>傍に立っててそこに出た文字を書きとめる係りがあるんですが、そりゃあ、とても早いもんだそうです。<br/><br/>そのときは、「観世音菩薩、老祖の命により何々の教えを伝う」とか「釈迦如来、経文の誤りを訂正す」とか出てきて「どのお経のどこを訂正しろ」と言うんです。<br/><br/>また、キリストだと「老祖の命により今日イエス汝らに教う」というふうにいろいろ出てくるんです。<br/><br/>それから棒に筆がつけてあれば、絵を書いたり字を書いたりするんですよ。<br/><br/> 先に、「岡田茂吉」と書いて「浄」と書かれたのをもらったことがありましたがね、いま、私がやってる仕事は浄霊のように、みんな「浄」の仕事ですからね、あれは二十年ほど前ですが、もうちゃんとそのときには決まっていたわけですね。<br/><br/> この至聖先天老祖っていうのはエホバですね、日本でいえば国常立尊になるんです。<br/><br/>つまり最高の神様ですね。<br/><br/>……いまに紅卍字会と連絡するようになるはずですがね、ある時期がくるとこの扶 に出てくるんですよ。<br/><br/>まあ、来年か再来年でしょうかね。<br/><br/> 〔 御講話（S27年12月15日） ）『御教え集』17号、昭和28(1953)年1月15日発行〕 〔 年頭の辞(昭和28年) 『栄光』189号、昭和28(1953)年1月1日発行〕 148 紅卍会と西蔵政府 世界紅卍会の本部は西蔵のラッサに有ると聞いておりますが、同じくラッサに有る所の西蔵政府とは同体のものでしょうか、異体のものでしょうか。<br/><br/>御伺い致します。<br/><br/> 天津か北京か西蔵は支部のようなものである。<br/><br/>無論同体の筈はない。<br/><br/>（S24. 8.25） 149 紅卍会の動き 中共軍の活発な動きに伴う現在、支那紅卍会の動きにつきお伺い致します。<br/><br/> 知らない。<br/><br/>紅卍会は戦争の場合、赤十字のような役をする。<br/><br/>死骸を片付け、葬る事をする。<br/><br/>敵味方はない。<br/><br/>両方の死骸を片付けていると思う。<br/><br/>教えは道院でやっている。<br/><br/>社会的活動は紅卍会でやっている。<br/><br/> 150 転輪菩薩と天理教、（大将軍と若姫君尊） 「天理王の尊は転輪菩薩にて聖観音の化身とぞ思う」の御歌のごとく、聖観音の化身のお働きである天理教のような既成宗教が、今日邪教的になっているのは何が原因でございましょうか。<br/><br/> 邪教とは言えない。<br/><br/>天理王尊は十柱あって、総称して天理王という。<br/><br/>転輪菩薩は印度の神である。<br/><br/> 十柱の中に天照大神、国常立尊等も入っている。<br/><br/> 三千年目に優曇華の花が咲く時、転輪菩薩が出現するという伝説が印度にある。<br/><br/> 中山ミキは初稚姫尊の生れ更りで、初め大将軍が憑られた。<br/><br/>大将軍は乱暴な神で、その償いに善事をしようとされた。<br/><br/> 中山ミキは月の系統になるから、月の働きで、暗の間はよかったが、昭和六年以降は病気も治らなくなった。<br/><br/>それで人間的に教えを作った。<br/><br/> お筆先、御神楽歌は、神が懸って書かれたものである。<br/><br/> 天理教はこれから骨が折れようが、神様が何とかされるだろう。<br/><br/>（S23.11.22） 151 天理王尊 天理教も昔は転輪教と言い、天輪王（天輪菩薩という）と言った。<br/><br/>暫く経ってから天理王にした。<br/><br/> これは印度に表われ、三千年前生れた。<br/><br/>汚れた世を浄化して善い世を造るという伝説があり――。<br/><br/>（S23. 6.13） 152 霊友会について 最近流行しております霊友会について御説明下さい。<br/><br/> 死んだ人を供養する。<br/><br/>死んだ人の霊は祀るほどいいとしている。<br/><br/>それもいいが、遂には祖霊の仏壇を片付けたりなどするが、これは本当のやり方ではない。<br/><br/>であるから長くすると不仕合せが起る。<br/><br/> 売薬のようなもので、宣伝した時は一時発展する。<br/><br/>生長の家の谷口氏は追放にかかっているが、これらはすべて新陳代謝している。<br/><br/>生長の家など幹部の入替えが激しい。<br/><br/>モラロジーなど盛んであるが、一時的である。<br/><br/>天理、金光位が現在力がある方であろう。<br/><br/>（S23.11. 2） 153 金光教について 金光教とはいかなる宗教でしょうか。<br/><br/>今後もこの宗教を続けてよいでしょうか。<br/><br/> 金光教は神道でも割合にいい方である。<br/><br/>いずれは本教へ入ってくる。<br/><br/>天地金の神を祀っており、非常に消極的で、積極性がない。<br/><br/>教祖は朝から晩まで座ったきりだという。<br/><br/>花柳界や俳優に信者が多い。<br/><br/>穏かで搾取しない。<br/><br/> 先に金光教信者を治してやった事があるが、治ったら金光教の神様に礼をしていた。<br/><br/>行ってみると、金光教の神の御利益で治す人を与えられたと言っていた。<br/><br/> 「天理、金光、黒住、妙霊先走り、艮（とどめ）に艮（うしとら）の金神表われて……」とある。<br/><br/> （S24. 1.25） 154 新興宗教の踊る理由 新興宗教、日蓮宗、生気術等において踊ったり運動したりするのは催眠術にかかるためでしょうか。<br/><br/> 催眠術でない。<br/><br/>霊が憑る。<br/><br/>踊る宗教なども霊が憑る。<br/><br/>日蓮宗は狐が寄ってくる。<br/><br/>法華経の中、観音経は狐は嫌う。<br/><br/>日蓮宗の行者など霊が憑り口をきくと口がきれたと言い、赤飯焚いて祝う。<br/><br/>それを長く続けると精神病になる。<br/><br/>故に日蓮宗は大抵狂人になる。<br/><br/>（S23.11. 3）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

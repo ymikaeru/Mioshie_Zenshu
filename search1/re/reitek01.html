@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>reitek01</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊的医術 『明日の医術 第三編』昭和18(1943)年10月23日発行 私は種々の方面から「昼の世界とは霊主体従の世界である」という事を説いたのである。<br><br>この意味を人体に当嵌（は）める時、病気の根源である毒素とは、肉体に集溜している物質を指すのであるが、この場合、霊体はいかなる状態であるかというに、肉体の毒素のある部分は、霊体の方にはその部に曇があるのである。<br><br> この意味において、肉体の毒素を解消せんとするには、肉体のみの毒素を排除するといえども、それは一時的であって、時を経て再び毒素は発生するのである。<br><br>何となれば、それは霊主体従の法則によるからである。<br><br>故に、根本的毒素の排除方法はどうしても霊体の曇を解消しなければならないので、これが治病の目的を完全に達する正しい方法である。<br><br> しかるに、今日までのあらゆる療法は肉体を対象となし、肉体のみの毒素を排除又は固める事を以て唯一の方法としているから一時的であって根本的治癒ではない事は勿論で、何よりも再発の言葉がそれを物語っているのである。<br><br>右のごとく毒素排除の方法として、医学においては二つの方法しかないのである。<br><br>一は固め療法、一は手術によって毒素を除去しようとする。<br><br>又民間療法においては、電気又は光線療法等によって固めるか、あるいは灸によって火傷（やけど）させて膿を集溜排除せしむる等の方法である。<br><br> しかるに、本療法においては、霊体の曇を解消するのを根本とする。<br><br>その方法としては、施術者の手指から、火素が主である一種の霊波を放射させるのである。<br><br>その霊波を私は仮に神秘線と名付けておこう。<br><br>そうしてこの神秘線なる光線は何人といえどもある程度の量を有しているのである。<br><br>というよりも、その光線はこの地球上の空間否霊界に無限に遍満しているのである。<br><br> ここで、知っておかねばならない事は、右のように霊波によって曇を解消するという治病法は、なぜ今日まで誰もが発見なし得なかったかというに、それはさきに述べた通り夜の世界であったが為である。<br><br>即ち、夜の世界は暗であって、光としては月光の程度であるから、治病力即ち曇を解消すべき程の神秘線を得る事は不可能であったからである。<br><br>勿論、全然無い訳ではなかった。<br><br>その例として一部の宗教家、行者等が治病法を行い、ある程度の効果はあったので、その宗教や教組をして相当の名を成さしめた事は、世人のよく知る所である。<br><br>しかしながら、月光では水素が主であるから、治病力はある種の病気に限られ、又ある期間だけの効果に過ぎなかったのである。<br><br>それは月光は水素的冷性であるから固め療法となるからである。<br><br> しかるに、この日本医術においては火素が主であるから、いかなる毒結も溶解するので偉効を奏する訳である。<br><br>故に、私の治病法発見の根本動機としては、夜の世界が昼の世界に転換せんとする事を知り得た事と、昼の世界は火素の分子が増量するので、その火素を人体に集中透過さすにおいて、強力なる治病光線が生れ、患部に放射せしむるにおいて偉大なる治病効果を現わすという事の二つに外ならないのである。<br><br> ここで、断わっておきたい事は、かような事は宗教的に思われ易いという事であって、昔からキリストや一宗の開祖等が行った事に類似しているのであるが、私は飽くまで宗教化されないようにしたいのである。<br><br>何となれば宗教的に行う場合、必ず社会から迷信視せられるからである。<br><br>それは今日まで、幾多の人々が迷信邪教に煩（わずら）わされ不幸に陥った例があまりにも多いと共に、当局においても、その弊害を防止すべく厳重な取締を執っている事である。<br><br>又神仏基その他あらゆる宗教の信者が病患に悩まされつゝも、宗教的分子がいささかにてもある場合受療に躊躇（ちゅうちょ）するという点もあろうからである。<br><br> 又宗教とすれば、さきに説いたごとく、信仰という自力観念の援助によって、治病効果を挙げるという事になるから、実は治病力が薄弱であるという事を告白する訳である。<br><br>この事は医学においてもある程度ある事は否めない。<br><br>例えば医学博士の称号とか、大学教授、大病院の院長、その専門の権威、上流階級の主治医等の故を以て、患者は受療以前に相当の崇敬と信頼の観念をもつべきは勿論であるから、その観念の力がある程度の効果を加える事は当然であって、宗教に対する信仰的観念と共通の点がないとはいえないであろう。<br><br> しかるに、私の医術においては、右のごとき観念の援助は更に要らないのであるから、宗教化するという必要がないのみか、前述のごとき幾多の不利があるのである。<br><br>故に私は飽くまで科学を以て自認し、科学として世に問わんとするのである。<br><br>即ち未来の科学、最尖端科学として、日本人によって創始せる世界的医術たらしめん事を期するものである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Os Fundamentos da Terapêutica Espiritual</h2>
 <p>Tenho explanado, sob diversas perspectivas, que o Mundo do Dia se rege pelo princípio da primazia do espírito sobre a matéria. Ao aplicarmos esse conceito ao corpo humano, compreendemos que as toxinas, a causa fundamental das doenças, são substâncias acumuladas no corpo físico. Nesse caso, qual seria a condição do corpo espiritual? Onde quer que existam toxinas no corpo físico, há uma mácula correspondente no corpo espiritual.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Gostaria de esclarecer, neste momento, que tais práticas podem ser facilmente associadas à religião, pois se assemelham aos atos realizados por Cristo e por fundadores de diversas seitas no passado. No entanto, desejo, a todo custo, evitar que sejam rotuladas como religiosas. A razão é que, ao serem conduzidas em um contexto religioso, elas inevitavelmente seriam vistas pela sociedade como mera superstição. Isso se deve não apenas aos inúmeros casos de pessoas que sofreram e caíram em desgraça por se envolverem com crenças supersticiosas e religiões malignas, mas também ao fato de as próprias autoridades exercerem um controle rigoroso para prevenir tais males. Ademais, é provável que fiéis de todas as religiões, sejam xintoístas, budistas ou cristãs, ao se verem afligidos por doenças, hesitem em receber um tratamento que contenha o menor componente religioso.</p>
 <p>Ademais, classificar este método como religioso implicaria, conforme expliquei, que seus efeitos curativos dependem do auxílio da fé, um conceito de "força própria" do paciente. Isso seria, na prática, uma confissão de que o poder de cura intrínseco é fraco. É inegável que algo semelhante ocorre, em certa medida, no campo da medicina. Títulos como "Doutor em Medicina", "Professor Universitário", "Diretor de um grande hospital", ou o status de "autoridade em sua especialidade" e "médico da alta sociedade", naturalmente inspiram no paciente um considerável sentimento de reverência e confiança antes mesmo de iniciar o tratamento. A força proveniente dessa convicção, por certo, adiciona um grau de eficácia ao processo, o que demonstra haver um ponto em comum com a fé devotada à religião.</p>
 <p>Nesta minha arte médica, todavia, o auxílio de tais convicções é absolutamente desnecessário. Por essa razão, não apenas inexiste a necessidade de conferir-lhe um caráter religioso, como tal atitude acarretaria as inúmeras desvantagens já mencionadas. Portanto, insisto em afirmá-la como ciência e é como ciência que pretendo apresentá-la ao mundo. Trata-se, em suma, da ciência do futuro, a ciência mais avançada, e almejo que se torne uma arte médica de alcance mundial, inaugurada por um japonês.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊的医術 『明日の医術 第三編』昭和18(1943)年10月23日発行 私は種々の方面から「昼の世界とは霊主体従の世界である」という事を説いたのである。<br/><br/>この意味を人体に当嵌（は）める時、病気の根源である毒素とは、肉体に集溜している物質を指すのであるが、この場合、霊体はいかなる状態であるかというに、肉体の毒素のある部分は、霊体の方にはその部に曇があるのである。<br/><br/> この意味において、肉体の毒素を解消せんとするには、肉体のみの毒素を排除するといえども、それは一時的であって、時を経て再び毒素は発生するのである。<br/><br/>何となれば、それは霊主体従の法則によるからである。<br/><br/>故に、根本的毒素の排除方法はどうしても霊体の曇を解消しなければならないので、これが治病の目的を完全に達する正しい方法である。<br/><br/> しかるに、今日までのあらゆる療法は肉体を対象となし、肉体のみの毒素を排除又は固める事を以て唯一の方法としているから一時的であって根本的治癒ではない事は勿論で、何よりも再発の言葉がそれを物語っているのである。<br/><br/>右のごとく毒素排除の方法として、医学においては二つの方法しかないのである。<br/><br/>一は固め療法、一は手術によって毒素を除去しようとする。<br/><br/>又民間療法においては、電気又は光線療法等によって固めるか、あるいは灸によって火傷（やけど）させて膿を集溜排除せしむる等の方法である。<br/><br/> しかるに、本療法においては、霊体の曇を解消するのを根本とする。<br/><br/>その方法としては、施術者の手指から、火素が主である一種の霊波を放射させるのである。<br/><br/>その霊波を私は仮に神秘線と名付けておこう。<br/><br/>そうしてこの神秘線なる光線は何人といえどもある程度の量を有しているのである。<br/><br/>というよりも、その光線はこの地球上の空間否霊界に無限に遍満しているのである。<br/><br/> ここで、知っておかねばならない事は、右のように霊波によって曇を解消するという治病法は、なぜ今日まで誰もが発見なし得なかったかというに、それはさきに述べた通り夜の世界であったが為である。<br/><br/>即ち、夜の世界は暗であって、光としては月光の程度であるから、治病力即ち曇を解消すべき程の神秘線を得る事は不可能であったからである。<br/><br/>勿論、全然無い訳ではなかった。<br/><br/>その例として一部の宗教家、行者等が治病法を行い、ある程度の効果はあったので、その宗教や教組をして相当の名を成さしめた事は、世人のよく知る所である。<br/><br/>しかしながら、月光では水素が主であるから、治病力はある種の病気に限られ、又ある期間だけの効果に過ぎなかったのである。<br/><br/>それは月光は水素的冷性であるから固め療法となるからである。<br/><br/> しかるに、この日本医術においては火素が主であるから、いかなる毒結も溶解するので偉効を奏する訳である。<br/><br/>故に、私の治病法発見の根本動機としては、夜の世界が昼の世界に転換せんとする事を知り得た事と、昼の世界は火素の分子が増量するので、その火素を人体に集中透過さすにおいて、強力なる治病光線が生れ、患部に放射せしむるにおいて偉大なる治病効果を現わすという事の二つに外ならないのである。<br/><br/> ここで、断わっておきたい事は、かような事は宗教的に思われ易いという事であって、昔からキリストや一宗の開祖等が行った事に類似しているのであるが、私は飽くまで宗教化されないようにしたいのである。<br/><br/>何となれば宗教的に行う場合、必ず社会から迷信視せられるからである。<br/><br/>それは今日まで、幾多の人々が迷信邪教に煩（わずら）わされ不幸に陥った例があまりにも多いと共に、当局においても、その弊害を防止すべく厳重な取締を執っている事である。<br/><br/>又神仏基その他あらゆる宗教の信者が病患に悩まされつゝも、宗教的分子がいささかにてもある場合受療に躊躇（ちゅうちょ）するという点もあろうからである。<br/><br/> 又宗教とすれば、さきに説いたごとく、信仰という自力観念の援助によって、治病効果を挙げるという事になるから、実は治病力が薄弱であるという事を告白する訳である。<br/><br/>この事は医学においてもある程度ある事は否めない。<br/><br/>例えば医学博士の称号とか、大学教授、大病院の院長、その専門の権威、上流階級の主治医等の故を以て、患者は受療以前に相当の崇敬と信頼の観念をもつべきは勿論であるから、その観念の力がある程度の効果を加える事は当然であって、宗教に対する信仰的観念と共通の点がないとはいえないであろう。<br/><br/> しかるに、私の医術においては、右のごとき観念の援助は更に要らないのであるから、宗教化するという必要がないのみか、前述のごとき幾多の不利があるのである。<br/><br/>故に私は飽くまで科学を以て自認し、科学として世に問わんとするのである。<br/><br/>即ち未来の科学、最尖端科学として、日本人によって創始せる世界的医術たらしめん事を期するものである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

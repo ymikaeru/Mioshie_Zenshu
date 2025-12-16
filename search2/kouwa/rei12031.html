@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>rei12031</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊学篇 一 霊的病気（二） ３ 031-041 下体 031 排尿減量―兄弟霊 安斉和美（二十二歳）、三年前ネフローゼにかかり、種々手当を致しましたが思わしくなく、今年六月頃より御浄霊させて頂き、現在では大分良くなって参りましたが全身のむくみが中々取れず、また塩分を摂りますと目に見えてむくみが強く、また身体が冷えると尿量が半減致し、腰から下の方を大変寒がります。<br><br>御浄霊法を御教授願います。<br><br>また、病人の兄も同病で一年前死亡致しておりますが、霊的に何かの関係が御座いましょうか。<br><br>お伺い申し上げます。<br><br> 兄弟の霊は一番憑き易い。<br><br> 腎臓外部に毒が固まっているため腎臓の活動が弱っているんで、膀胱へ小便を送るのが弱っている。<br><br>腎臓を主にしてする。<br><br>塩分を急にやらなくても少しずつ摂ってやる。<br><br>（S24.11. 8） 032 血と泡の下痢する児（老婆霊） 四歳の男子、一ケ月前に突然下痢を三日続け、以前死んだ老婆のような姿をし、次に痙攣を起しましたが御守護を頂き全快致しましたが、すぐ続いて下の子（三歳）が突然下痢を三日続け、次に痙攣を起し死亡致しました。<br><br>その死亡の時にも外の二人の子が次々霊憑りのような異常な行動を致しました。<br><br>ところが昨夜よりまた前の四歳の子が再び、殆ど血と泡のみの下痢を始めました。<br><br>これはやはりその老婆の霊と考えて宜しいでしょうか。<br><br>（今度この霊を御祀り致しました） 祀らなかったのが原因である。<br><br>症状は疫痢である。<br><br>前頭と腹と背をする。<br><br> 霊が憑れば祝詞奏げて大丈夫である。<br><br>（S25. 5. 3） 033 下痢続き痩せる小児（龍） 私の子供（次男二歳）は生後三ケ月位で次の子供を妊娠したためか乳も少なくなり、人工乳で育てて来ました。<br><br>食欲は普通ですが下痢ばかりして骨と皮ばかりに痩せています。<br><br>最近一ケ月位程毎夜十二時頃より朝迄に水を一升位飲みます。<br><br>また、夜寝ると時々後頭部へ五つ位グリグリの球のようなものが出来、朝になるとなくなります。<br><br>霊的のように思われますがいかがでしょうか。<br><br>また、いかように致したら救われましょうか。<br><br>御教示を御願い申し上げます。<br><br> 龍神の生れ代りか、憑ってるかである。<br><br>人工乳で差支えない。<br><br>下痢するのは毒がある訳である。<br><br>いくらやせても子供は割合い間違いない。<br><br>（S24.10.26） 034 移動■（しこり）の便秘 四十四、五歳の婦人、下腹部に拳大の固いシコリあり、無痛なるも圧すると少しの痛みあり、浄霊の都度右左及びその大きさも大小に移動し便秘致します。<br><br>右は霊的のものと考えて差支え御座居ませんか。<br><br>なお特殊な御浄霊個所が御座居ましょうか。<br><br> 亡くなった亭主の霊かもしれない。<br><br>（S23.10.22） 035 上昇する下腹の塊 神経痛の患者で、左下腹部に固い塊があり、その塊が一日に二、三回胸へ向って上って来て熱を持ち苦しみますが、この塊は何でございましょうか。<br><br>右、御教示の程を御願い致します。<br><br> 大抵蛇の霊である。<br><br>塊へ向って浄霊すると動く。<br><br> 移動する所をやる。<br><br>根よくやっているうちに治る。<br><br>あまり長くはかからぬ。<br><br> 上昇の場合吐くのは胃へ霊が行った時で、前頭へ霊が行く時も吐く。<br><br> （丸く痛いのは蛇がトグロを巻いている）（S24.10. 8） 036 腹部塊と地の神 六十三歳のおばあさん、現在腹膜炎にて就寝中で御座いますが、腹部に大きさが拳程の塊があります。<br><br>御浄霊させて頂いておりますと動いて位置が変ります。<br><br>この御宅では去る四月十五日、ある物見に見て貰って地の神様の位置を変えました。<br><br>その前は極く小さな塊であったので御座いますが、その後塊も大きくなり病気も悪化したと云っておりますが、この事につきまして何か関係が御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> 地の神はない事もないが（どうという意味はない。<br><br>）動くという事は霊だが――。<br><br>気長にやれば治る。<br><br>（S24. 8.11） 037 疥癬薄紫に腫脹、腰力なく起たず（毒死） 男（二十五歳）、女（四歳）の入信疥癬患者、男は手首が腫れ、薄紫に変っており、熱も無く、化膿の様子もなく、痛みも大して無いようですが、腫れがひどく使うことが全然出来ません。<br><br>最近は一段と悪化の状態。<br><br>女は昨年八月頃迄何等異常なく歩く事が出来ましたが、現在は腰がきかず、立つことも出来ません。<br><br>御浄霊の効果が少しも現われて参りません。<br><br>どうしたら宜しいでしょうか。<br><br> 薄紫に変って腫れてるのは結構である。<br><br>腫れるだけ腫れて治る。<br><br>浄霊を幾度もすれば早く腫れて排膿する。<br><br> 女の方は霊である。<br><br>出来るだけ祝詞を奏げてやり、頭と腎臓をよくやってやる。<br><br> 足も頭の浄霊によって治る事がある。<br><br>死ぬ時に、毒死が多いが、自殺などで身体が痺れて動かなくなって死んだ霊である。<br><br> 038 座骨神経痛と殺生霊 今年三十八歳の男子で、昨年九月より座骨神経痛で右足をひどく病み、現在右足を動かすと腰骨が一緒に動き、丁度叩きのめされたような腰をして痩せております。<br><br>筋がひどく引攣（つ）り、すっかり伸ばすことが出来ず、松葉杖にてやっと歩行する有様です。<br><br>御浄霊はまだ四回より致しておりません。<br><br>他聞すれば、商売でないのに二、三年前に馬、牛、犬、猫等を殺し、肉を闇売りしたそうです。<br><br>それで最近夜中に家の中の梁（はり）の辺と思う辺に時計のセコンドのような早い音が高く、はっきり聞え、本人もそれが気になり、悪い事をした祟りではないかと思い、また十六歳の時より山の木を数知れず切ったと申します。<br><br>どのように致しましたなら宜しいでしょうか。<br><br>御教示お願い致します。<br><br> これこそ早く入信して、光明如来様をお祭りし、お願いすると、殺生した霊は救われ、反ってために働くようになる。<br><br>（S24. 9. 8） 039 両手足の震え（霊） 長女、当年三十歳で、十九歳頃より両手が震え始めまして、二十一歳頃より両手両足が共に震えて歩行困難となり、筋が攣るようになりました。<br><br>二十三年四月に当観音様へ入信致しまして、毎日御浄霊をさせて頂いて、今日この頃では少し良好になり、気分は大分よくなりましたが、倒れるようで未だ歩行は充分ではありません。<br><br>霊的病気と思いますがいかなるものですか。<br><br>また、全快致しますか。<br><br>いかなる浄霊をすればよろしいですか。<br><br>御伺い申し上げます。<br><br> 霊的である。<br><br>一年一年良くなるから気長に浄霊する。<br><br> 頸筋の後ろ、前頭部、後は腎臓である。<br><br>（S24） 040 発作的片足不自由・擬似小児麻痺 本年二歳の女の児、先月半ば頃より突然片脚が不自由になり、所々診査致しましたところ別状なく、不思議に思い親に尋ねましたらば、その児の姉が四歳にて小児麻痺にて死亡致せし由、その霊の憑依と思われますが、御浄霊のみにて宜しいで御座居ましょうか。<br><br> 亡くなった児の霊であろう。<br><br> 腎臓、腰、足の裏等を浄霊する。<br><br>擬似小児麻痺である。<br><br>（S24. 2. 2） 041 膝関節炎で引攣る（祖霊） 本年八歳になります娘で御座いますが、三歳の時に麻疹になりました時左の股が腫れまして注射を一日二本位の割で多数致し、遂に切開し、その際多量の膿が出まして、その後一年を経た頃から左足膝関節の痛みを覚へ、関節の裏側が引き攣ってある程度足が曲ったまま伸ばす事が出来ず、次第にビッコが目立つようになりました。<br><br>その後指圧及びオケツ療法等を致しましたが、二十三年に娘の父母が入信致し、御浄霊によってだんだん状態がよくなって参り、八ケ月以内には一度患部の関節の裏側が紫に膨れ上り今にも出膿するように見えましたが、出膿もせずそのまま引っ込んで固まってしまいました。<br><br>それ以来今日迄一年半の間殆ど毎日、主に両親が御浄霊させて頂いておりますが、症状は変らず、痛みは御座いませんが最近になりまして目立ってまた引き攣りがひどくなりました。<br><br>因みに娘の母親の父は十九年前に左足膝関節リュウマチで、娘の症状とは逆に足が曲らないで伸びて固まったまま胃癌で三月七日に死亡致し、娘の父親が入信致しました日は丁度その祖父の十七年忌の日で御座いました。<br><br>また、この娘の足が急に悪くなり始めましたのは八月の七日であり、その後御浄霊を初めて頂きましたのは九月の七日で御座いました。<br><br>このように祖父の死亡致しました七の日と色々の事が関連しているので御座いますが、この娘の症状は霊的のもので御座いましょうか。<br><br>または毒素によるもので御座いましょうか。<br><br>お伺い申し上げます。<br><br>なお、この家は御神体をお祀りさせて頂いており、先日娘の母親は実家に参りまして、実家のお位牌を残らずお祀り致して参りました。<br><br> 注射の薬毒が固まった。<br><br>そこへ霊が憑ったのである。<br><br>祖父の霊が救われたいので、自分がやってる事を知らしたいためそうしたのである。<br><br>足の裏を浄霊する事が肝要である。<br><br>後は人助けする事。<br><br>それによって救われる。<br><br>（S25. 5. 2）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Doenças Espirituais (Dois)</h2>
 <p><strong>031 – Redução do Volume Urinário – Espírito de Irmão</strong></p>
@@ -125,5 +277,48 @@ function toggleLang(lang) {
 <p><strong>041 – Artrite no Joelho com Contratura (Espírito de Ancestral)</strong></p>
 <p>Minha filha, hoje com oito anos, contraiu sarampo aos três. Na ocasião, seu quadril esquerdo inchou, e ela recebeu inúmeras injeções, cerca de duas por dia. Por fim, foi necessário fazer uma incisão cirúrgica, da qual drenou uma grande quantidade de pus. Um ano depois, ela começou a sentir dor na articulação do joelho esquerdo, e a parte de trás do joelho se contraiu, deixando a perna permanentemente dobrada até certo ponto, sem que ela conseguisse esticá-la, o que a fez mancar de forma cada vez mais acentuada. Tentamos tratamentos como shiatsu e ventosaterapia, sem sucesso. Em 1948, seus pais ingressaram na Fé, e, com o Johrei, sua condição melhorou gradualmente. Em oito meses, a parte de trás do joelho inchou, ficou arroxeada e parecia prestes a supurar, mas o pus não saiu; o inchaço regrediu e endureceu. Desde então, por um ano e meio, os pais têm ministrado Johrei quase todos os dias, mas o sintoma permanece inalterado. Embora não sinta dor, recentemente a contratura piorou visivelmente. Vale mencionar que o pai da mãe da menina faleceu há dezenove anos de reumatismo no joelho esquerdo, com um sintoma oposto ao da neta: sua perna ficou rígida e esticada, e ele veio a falecer de câncer de estômago no dia 7 de março. O dia em que o pai da menina ingressou na Fé coincidiu exatamente com o 17º aniversário de falecimento desse avô. Além disso, a piora súbita na perna da menina ocorreu no dia 7 de agosto, e ela recebeu Johrei pela primeira vez no dia 7 de setembro. Visto que tantos eventos estão relacionados ao dia 7, data da morte do avô, o problema da menina seria de natureza espiritual ou causado por toxinas? Rogo por seu esclarecimento. Ressalto que a família possui o Altar de Deus consagrado e que, recentemente, a mãe da menina foi à sua casa de origem e assentou todos os tabletes memoriais de seus antepassados.</p>
 <p>As toxinas medicamentosas das injeções se solidificaram, e sobre essa condição, o espírito encostou. O espírito do avô deseja ser salvo e agiu dessa maneira para que percebessem sua presença e seu sofrimento. É fundamental ministrar Johrei na sola do pé. Além disso, a prática de salvar o próximo é essencial. Por meio dela, a salvação será alcançada.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊学篇 一 霊的病気（二） ３ 031-041 下体 031 排尿減量―兄弟霊 安斉和美（二十二歳）、三年前ネフローゼにかかり、種々手当を致しましたが思わしくなく、今年六月頃より御浄霊させて頂き、現在では大分良くなって参りましたが全身のむくみが中々取れず、また塩分を摂りますと目に見えてむくみが強く、また身体が冷えると尿量が半減致し、腰から下の方を大変寒がります。<br/><br/>御浄霊法を御教授願います。<br/><br/>また、病人の兄も同病で一年前死亡致しておりますが、霊的に何かの関係が御座いましょうか。<br/><br/>お伺い申し上げます。<br/><br/> 兄弟の霊は一番憑き易い。<br/><br/> 腎臓外部に毒が固まっているため腎臓の活動が弱っているんで、膀胱へ小便を送るのが弱っている。<br/><br/>腎臓を主にしてする。<br/><br/>塩分を急にやらなくても少しずつ摂ってやる。<br/><br/>（S24.11. 8） 032 血と泡の下痢する児（老婆霊） 四歳の男子、一ケ月前に突然下痢を三日続け、以前死んだ老婆のような姿をし、次に痙攣を起しましたが御守護を頂き全快致しましたが、すぐ続いて下の子（三歳）が突然下痢を三日続け、次に痙攣を起し死亡致しました。<br/><br/>その死亡の時にも外の二人の子が次々霊憑りのような異常な行動を致しました。<br/><br/>ところが昨夜よりまた前の四歳の子が再び、殆ど血と泡のみの下痢を始めました。<br/><br/>これはやはりその老婆の霊と考えて宜しいでしょうか。<br/><br/>（今度この霊を御祀り致しました） 祀らなかったのが原因である。<br/><br/>症状は疫痢である。<br/><br/>前頭と腹と背をする。<br/><br/> 霊が憑れば祝詞奏げて大丈夫である。<br/><br/>（S25. 5. 3） 033 下痢続き痩せる小児（龍） 私の子供（次男二歳）は生後三ケ月位で次の子供を妊娠したためか乳も少なくなり、人工乳で育てて来ました。<br/><br/>食欲は普通ですが下痢ばかりして骨と皮ばかりに痩せています。<br/><br/>最近一ケ月位程毎夜十二時頃より朝迄に水を一升位飲みます。<br/><br/>また、夜寝ると時々後頭部へ五つ位グリグリの球のようなものが出来、朝になるとなくなります。<br/><br/>霊的のように思われますがいかがでしょうか。<br/><br/>また、いかように致したら救われましょうか。<br/><br/>御教示を御願い申し上げます。<br/><br/> 龍神の生れ代りか、憑ってるかである。<br/><br/>人工乳で差支えない。<br/><br/>下痢するのは毒がある訳である。<br/><br/>いくらやせても子供は割合い間違いない。<br/><br/>（S24.10.26） 034 移動■（しこり）の便秘 四十四、五歳の婦人、下腹部に拳大の固いシコリあり、無痛なるも圧すると少しの痛みあり、浄霊の都度右左及びその大きさも大小に移動し便秘致します。<br/><br/>右は霊的のものと考えて差支え御座居ませんか。<br/><br/>なお特殊な御浄霊個所が御座居ましょうか。<br/><br/> 亡くなった亭主の霊かもしれない。<br/><br/>（S23.10.22） 035 上昇する下腹の塊 神経痛の患者で、左下腹部に固い塊があり、その塊が一日に二、三回胸へ向って上って来て熱を持ち苦しみますが、この塊は何でございましょうか。<br/><br/>右、御教示の程を御願い致します。<br/><br/> 大抵蛇の霊である。<br/><br/>塊へ向って浄霊すると動く。<br/><br/> 移動する所をやる。<br/><br/>根よくやっているうちに治る。<br/><br/>あまり長くはかからぬ。<br/><br/> 上昇の場合吐くのは胃へ霊が行った時で、前頭へ霊が行く時も吐く。<br/><br/> （丸く痛いのは蛇がトグロを巻いている）（S24.10. 8） 036 腹部塊と地の神 六十三歳のおばあさん、現在腹膜炎にて就寝中で御座いますが、腹部に大きさが拳程の塊があります。<br/><br/>御浄霊させて頂いておりますと動いて位置が変ります。<br/><br/>この御宅では去る四月十五日、ある物見に見て貰って地の神様の位置を変えました。<br/><br/>その前は極く小さな塊であったので御座いますが、その後塊も大きくなり病気も悪化したと云っておりますが、この事につきまして何か関係が御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> 地の神はない事もないが（どうという意味はない。<br/><br/>）動くという事は霊だが――。<br/><br/>気長にやれば治る。<br/><br/>（S24. 8.11） 037 疥癬薄紫に腫脹、腰力なく起たず（毒死） 男（二十五歳）、女（四歳）の入信疥癬患者、男は手首が腫れ、薄紫に変っており、熱も無く、化膿の様子もなく、痛みも大して無いようですが、腫れがひどく使うことが全然出来ません。<br/><br/>最近は一段と悪化の状態。<br/><br/>女は昨年八月頃迄何等異常なく歩く事が出来ましたが、現在は腰がきかず、立つことも出来ません。<br/><br/>御浄霊の効果が少しも現われて参りません。<br/><br/>どうしたら宜しいでしょうか。<br/><br/> 薄紫に変って腫れてるのは結構である。<br/><br/>腫れるだけ腫れて治る。<br/><br/>浄霊を幾度もすれば早く腫れて排膿する。<br/><br/> 女の方は霊である。<br/><br/>出来るだけ祝詞を奏げてやり、頭と腎臓をよくやってやる。<br/><br/> 足も頭の浄霊によって治る事がある。<br/><br/>死ぬ時に、毒死が多いが、自殺などで身体が痺れて動かなくなって死んだ霊である。<br/><br/> 038 座骨神経痛と殺生霊 今年三十八歳の男子で、昨年九月より座骨神経痛で右足をひどく病み、現在右足を動かすと腰骨が一緒に動き、丁度叩きのめされたような腰をして痩せております。<br/><br/>筋がひどく引攣（つ）り、すっかり伸ばすことが出来ず、松葉杖にてやっと歩行する有様です。<br/><br/>御浄霊はまだ四回より致しておりません。<br/><br/>他聞すれば、商売でないのに二、三年前に馬、牛、犬、猫等を殺し、肉を闇売りしたそうです。<br/><br/>それで最近夜中に家の中の梁（はり）の辺と思う辺に時計のセコンドのような早い音が高く、はっきり聞え、本人もそれが気になり、悪い事をした祟りではないかと思い、また十六歳の時より山の木を数知れず切ったと申します。<br/><br/>どのように致しましたなら宜しいでしょうか。<br/><br/>御教示お願い致します。<br/><br/> これこそ早く入信して、光明如来様をお祭りし、お願いすると、殺生した霊は救われ、反ってために働くようになる。<br/><br/>（S24. 9. 8） 039 両手足の震え（霊） 長女、当年三十歳で、十九歳頃より両手が震え始めまして、二十一歳頃より両手両足が共に震えて歩行困難となり、筋が攣るようになりました。<br/><br/>二十三年四月に当観音様へ入信致しまして、毎日御浄霊をさせて頂いて、今日この頃では少し良好になり、気分は大分よくなりましたが、倒れるようで未だ歩行は充分ではありません。<br/><br/>霊的病気と思いますがいかなるものですか。<br/><br/>また、全快致しますか。<br/><br/>いかなる浄霊をすればよろしいですか。<br/><br/>御伺い申し上げます。<br/><br/> 霊的である。<br/><br/>一年一年良くなるから気長に浄霊する。<br/><br/> 頸筋の後ろ、前頭部、後は腎臓である。<br/><br/>（S24） 040 発作的片足不自由・擬似小児麻痺 本年二歳の女の児、先月半ば頃より突然片脚が不自由になり、所々診査致しましたところ別状なく、不思議に思い親に尋ねましたらば、その児の姉が四歳にて小児麻痺にて死亡致せし由、その霊の憑依と思われますが、御浄霊のみにて宜しいで御座居ましょうか。<br/><br/> 亡くなった児の霊であろう。<br/><br/> 腎臓、腰、足の裏等を浄霊する。<br/><br/>擬似小児麻痺である。<br/><br/>（S24. 2. 2） 041 膝関節炎で引攣る（祖霊） 本年八歳になります娘で御座いますが、三歳の時に麻疹になりました時左の股が腫れまして注射を一日二本位の割で多数致し、遂に切開し、その際多量の膿が出まして、その後一年を経た頃から左足膝関節の痛みを覚へ、関節の裏側が引き攣ってある程度足が曲ったまま伸ばす事が出来ず、次第にビッコが目立つようになりました。<br/><br/>その後指圧及びオケツ療法等を致しましたが、二十三年に娘の父母が入信致し、御浄霊によってだんだん状態がよくなって参り、八ケ月以内には一度患部の関節の裏側が紫に膨れ上り今にも出膿するように見えましたが、出膿もせずそのまま引っ込んで固まってしまいました。<br/><br/>それ以来今日迄一年半の間殆ど毎日、主に両親が御浄霊させて頂いておりますが、症状は変らず、痛みは御座いませんが最近になりまして目立ってまた引き攣りがひどくなりました。<br/><br/>因みに娘の母親の父は十九年前に左足膝関節リュウマチで、娘の症状とは逆に足が曲らないで伸びて固まったまま胃癌で三月七日に死亡致し、娘の父親が入信致しました日は丁度その祖父の十七年忌の日で御座いました。<br/><br/>また、この娘の足が急に悪くなり始めましたのは八月の七日であり、その後御浄霊を初めて頂きましたのは九月の七日で御座いました。<br/><br/>このように祖父の死亡致しました七の日と色々の事が関連しているので御座いますが、この娘の症状は霊的のもので御座いましょうか。<br/><br/>または毒素によるもので御座いましょうか。<br/><br/>お伺い申し上げます。<br/><br/>なお、この家は御神体をお祀りさせて頂いており、先日娘の母親は実家に参りまして、実家のお位牌を残らずお祀り致して参りました。<br/><br/> 注射の薬毒が固まった。<br/><br/>そこへ霊が憑ったのである。<br/><br/>祖父の霊が救われたいので、自分がやってる事を知らしたいためそうしたのである。<br/><br/>足の裏を浄霊する事が肝要である。<br/><br/>後は人助けする事。<br/><br/>それによって救われる。<br/><br/>（S25. 5. 2）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

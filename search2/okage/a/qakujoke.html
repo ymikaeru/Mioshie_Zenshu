@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qakujoke</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help ―― お か げ 話 ―― 資料検索 ： 悪条件の田畑で此御蔭 『栄光』81号、昭和25(1950)年12月6日発行 愛知県 五六七大教会神光中教会 鵜飼楓一 日々の御利益に感謝し、あわせて自然栽培法の近況を御報告し御礼申上げます。<br><br> おもえば子供の頃より冷たき家庭に育ち、八カ年の軍隊生活、又ビルマ戦線にて九死に一生を得て帰還しましたが、健康はすぐれず療養しておりました。<br><br>約半年後に健康が恢復したので縁あって結婚しました。<br><br>ところが家庭の不和から離縁し前途に希望を失い、悲観のどん底に墜ちつつも、戦線のあの苦悩に耐え忍ぶ力を得て、その日その日を送る内、弟の熱烈なる勧めにより、しぶしぶ名古屋の瀧先生よりお守を頂いたのです。<br><br> 入信して一番心を引かれた事は、自然栽培法の件でした。<br><br>思い起せばビルマの戦線で敗戦後、食糧は自給自足の為現地にて農耕をやった時、不思議な点に疑問を抱いていたのです。<br><br>その疑問を解いて下さった時の私の喜びは到底筆舌には表わし得ないのです。<br><br>それは現地ビルマ人の農耕法と私達の農耕法の相違であります。<br><br> 私達は内地と同じく除草に施肥、手入等手落ちなくやっているのにビルマ人は極く簡単な栽培法であるのに収穫は上成績である。<br><br>しかるに私達兵隊の農場は問題にならぬ不作で、ほとんど裏成り同様の失敗続きで、少しも実収がありませんでした。<br><br>これ程努力するのにどうしてこんな結果だろうと、私はビルマ人の畑地を度々視に行ったのですが更に解決し得なかったのです。<br><br>入信の際先生より救世教の自然栽培法のお話を聞きましてぴっくり致しました。<br><br> 私は復員後ビルマで見た事、研究した事を内地でやってみようと色々考えて、入信前に実施したのです。<br><br>それは残り種などを素畑にバラ蒔き試作しておりました。<br><br>それが本当に不思議な位良く出来るのです。<br><br>近所の人達はどうして作ったのかなどと尋ねられるので、これはビルマ式で作ったのだよと言って説明しておりました。<br><br>前述のごとき事情で二月入信させて頂き、『地上天国』創刊号を拝読して、更に疑問は解かれたのであります。<br><br>私の嬉しさはいかばかりか御察し下さい。<br><br> 早速実行に移すべく、三月の薩摩芋の苗床より始め、馬鈴薯、玉葱、キャベツ、トマト、稲作、里芋等の自然栽培法を始めたのです。<br><br>中でもトマトは味の良い事は有肥のそれと比較にならず、妹は自然耕作の物を食べてからは、有肥のを食べなかった程でした。<br><br>又里芋の収穫は親芋より子芋が素晴らしく大きかった上に、非常に美味であるのです。<br><br>しかしながら反対である父親も食する時は、ニヤニヤ笑いながら、自然栽培法の悪口を言うのです。<br><br>それは「無肥料で作物が採れるはずはない。<br><br>そんな馬鹿な事があるものか、取れても少しだ、肥料は作物の食べ物だ、お前も飯を食べずには仕事は出来まい。<br><br>今年は今までの肥料気が残っていたから収穫があったのだ」と罵るのみであります。<br><br>その上「困ったものだ、信仰気狂だ、たぼけている。<br><br>だから嫁の来てがない」と言われるのです。<br><br>私は一生懸命に判って貰いたいと神に念じつつ実収と味覚を見せても判って貰えないばかりか、私のお詣りに行く事まで邪魔をするようになりました。<br><br>このような父の無理解の為稲作は非常に困惑致しました。<br><br>勿論苗代を作る田は全部施肥してありました。<br><br>仕方なく昨年麦の自然栽培の試作田として、父より許された悪田（毎年旱害で無収穫の多い田）を整理致し、苗代を作りました。<br><br>ここへ植えた稲は現在出穂期になっておりますが、自分乍ら好成績に驚いております。<br><br>近所の人もこれが自然栽培か、嘘だろうと言われる程で、中には内緒で肥料を入れたと疑う人もあり、近在の話題の種になっております。<br><br>私も非常に嬉しくこの分では収穫期には皆驚くのではないかと想像されます。<br><br> 野菜類は昨年より少しずつ試作致しましたが、本年は一番収穫の少い坂畑に父の反対を押切って実施致しました。<br><br>その中で妹達に自然栽培の良い事を知ってもらえた、キャベツの御利益を御報告させて頂ます。<br><br>種は買った物で御浄霊して蒔きました所、発芽したのは僅か三十本足らずでした。<br><br>それを前記の畑に移植して浄霊を度々やりましたが、虫害で度々枯れそうになりましたが、最後にあった虫害ではほとんど駄目になり諦めました。<br><br>それから十日位忘れている内に入梅となり、他家のキャベツは雨の為結球したのが割れ水が入って腐るのに、もう駄目だと思っていた私のキャベツが見事に結球しているので、私は思わず東の空を仰いで明主様に感謝の祈りを捧げました。<br><br>まず先生宅の大光明如来様へお供えし、それから隣家と弟宅へ自然栽培法にて収穫したのだと言って、試食して貰いましたが、風味がよく味は大変おいしいと喜ばれました。<br><br> それ以来、母も妹も自然栽培の良い事を喜び、協力してくれるようになりました。<br><br>無理解な父は相変らず施肥をせねばと叫び続けております。<br><br>一日も早く、世の人の一人も多く、自然栽培法の有利なる事に目覚められん事を祈って止みません。<br><br> 明主様の御霊徳に感謝し厚く御礼申上げますと共に、諸先生の陰に陽に御指導下さった事を感謝して筆を置きます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Esta Graça em Campos e Arrozais sob Condições Adversas</h2>
 <p><em>Publicado na revista Eikou, nº 81, em 6 de dezembro de 1950</em>
@@ -104,5 +259,48 @@ function toggleLang(lang) {
 <p>Passados cerca de dez dias, durante os quais eu já havia me esquecido delas, teve início a estação chuvosa. Enquanto os repolhos de outras lavouras, já formados, rachavam com o excesso de chuva e apodreciam, os meus, que eu julgara perdidos, haviam se desenvolvido em cabeças perfeitas e viçosas. Involuntariamente, meus olhos se voltaram ao céu, a Leste, e elevei uma oração de gratidão a Meishu-Sama. Primeiramente, ofereci um exemplar no altar do Lar de Luz do ministro. Depois, levei outros aos vizinhos e à casa de meu irmão para que provassem, explicando que haviam sido colhidos pelo método da Agricultura Natural. Sua textura e seu sabor foram muito elogiados; todos se alegraram com o quão deliciosos eram.</p>
 <p>Desde então, tanto minha mãe quanto minhas irmãs se rejubilaram com os benefícios da Agricultura Natural e passaram a cooperar comigo. Meu pai, contudo, permanece irredutível em sua incompreensão, insistindo na necessidade dos adubos. Oro fervorosamente para que, o mais breve possível, o maior número de pessoas desperte para as vantagens superlativas da Agricultura Natural.</p>
 <p>Expresso minha mais profunda gratidão pela Vossa Virtude Divina, Meishu-Sama. Agradeço, igualmente, a todos os ministros pela orientação que me concederam, tanto de forma visível quanto invisível. Encerro aqui este relato.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help ―― お か げ 話 ―― 資料検索 ： 悪条件の田畑で此御蔭 『栄光』81号、昭和25(1950)年12月6日発行 愛知県 五六七大教会神光中教会 鵜飼楓一 日々の御利益に感謝し、あわせて自然栽培法の近況を御報告し御礼申上げます。<br/><br/> おもえば子供の頃より冷たき家庭に育ち、八カ年の軍隊生活、又ビルマ戦線にて九死に一生を得て帰還しましたが、健康はすぐれず療養しておりました。<br/><br/>約半年後に健康が恢復したので縁あって結婚しました。<br/><br/>ところが家庭の不和から離縁し前途に希望を失い、悲観のどん底に墜ちつつも、戦線のあの苦悩に耐え忍ぶ力を得て、その日その日を送る内、弟の熱烈なる勧めにより、しぶしぶ名古屋の瀧先生よりお守を頂いたのです。<br/><br/> 入信して一番心を引かれた事は、自然栽培法の件でした。<br/><br/>思い起せばビルマの戦線で敗戦後、食糧は自給自足の為現地にて農耕をやった時、不思議な点に疑問を抱いていたのです。<br/><br/>その疑問を解いて下さった時の私の喜びは到底筆舌には表わし得ないのです。<br/><br/>それは現地ビルマ人の農耕法と私達の農耕法の相違であります。<br/><br/> 私達は内地と同じく除草に施肥、手入等手落ちなくやっているのにビルマ人は極く簡単な栽培法であるのに収穫は上成績である。<br/><br/>しかるに私達兵隊の農場は問題にならぬ不作で、ほとんど裏成り同様の失敗続きで、少しも実収がありませんでした。<br/><br/>これ程努力するのにどうしてこんな結果だろうと、私はビルマ人の畑地を度々視に行ったのですが更に解決し得なかったのです。<br/><br/>入信の際先生より救世教の自然栽培法のお話を聞きましてぴっくり致しました。<br/><br/> 私は復員後ビルマで見た事、研究した事を内地でやってみようと色々考えて、入信前に実施したのです。<br/><br/>それは残り種などを素畑にバラ蒔き試作しておりました。<br/><br/>それが本当に不思議な位良く出来るのです。<br/><br/>近所の人達はどうして作ったのかなどと尋ねられるので、これはビルマ式で作ったのだよと言って説明しておりました。<br/><br/>前述のごとき事情で二月入信させて頂き、『地上天国』創刊号を拝読して、更に疑問は解かれたのであります。<br/><br/>私の嬉しさはいかばかりか御察し下さい。<br/><br/> 早速実行に移すべく、三月の薩摩芋の苗床より始め、馬鈴薯、玉葱、キャベツ、トマト、稲作、里芋等の自然栽培法を始めたのです。<br/><br/>中でもトマトは味の良い事は有肥のそれと比較にならず、妹は自然耕作の物を食べてからは、有肥のを食べなかった程でした。<br/><br/>又里芋の収穫は親芋より子芋が素晴らしく大きかった上に、非常に美味であるのです。<br/><br/>しかしながら反対である父親も食する時は、ニヤニヤ笑いながら、自然栽培法の悪口を言うのです。<br/><br/>それは「無肥料で作物が採れるはずはない。<br/><br/>そんな馬鹿な事があるものか、取れても少しだ、肥料は作物の食べ物だ、お前も飯を食べずには仕事は出来まい。<br/><br/>今年は今までの肥料気が残っていたから収穫があったのだ」と罵るのみであります。<br/><br/>その上「困ったものだ、信仰気狂だ、たぼけている。<br/><br/>だから嫁の来てがない」と言われるのです。<br/><br/>私は一生懸命に判って貰いたいと神に念じつつ実収と味覚を見せても判って貰えないばかりか、私のお詣りに行く事まで邪魔をするようになりました。<br/><br/>このような父の無理解の為稲作は非常に困惑致しました。<br/><br/>勿論苗代を作る田は全部施肥してありました。<br/><br/>仕方なく昨年麦の自然栽培の試作田として、父より許された悪田（毎年旱害で無収穫の多い田）を整理致し、苗代を作りました。<br/><br/>ここへ植えた稲は現在出穂期になっておりますが、自分乍ら好成績に驚いております。<br/><br/>近所の人もこれが自然栽培か、嘘だろうと言われる程で、中には内緒で肥料を入れたと疑う人もあり、近在の話題の種になっております。<br/><br/>私も非常に嬉しくこの分では収穫期には皆驚くのではないかと想像されます。<br/><br/> 野菜類は昨年より少しずつ試作致しましたが、本年は一番収穫の少い坂畑に父の反対を押切って実施致しました。<br/><br/>その中で妹達に自然栽培の良い事を知ってもらえた、キャベツの御利益を御報告させて頂ます。<br/><br/>種は買った物で御浄霊して蒔きました所、発芽したのは僅か三十本足らずでした。<br/><br/>それを前記の畑に移植して浄霊を度々やりましたが、虫害で度々枯れそうになりましたが、最後にあった虫害ではほとんど駄目になり諦めました。<br/><br/>それから十日位忘れている内に入梅となり、他家のキャベツは雨の為結球したのが割れ水が入って腐るのに、もう駄目だと思っていた私のキャベツが見事に結球しているので、私は思わず東の空を仰いで明主様に感謝の祈りを捧げました。<br/><br/>まず先生宅の大光明如来様へお供えし、それから隣家と弟宅へ自然栽培法にて収穫したのだと言って、試食して貰いましたが、風味がよく味は大変おいしいと喜ばれました。<br/><br/> それ以来、母も妹も自然栽培の良い事を喜び、協力してくれるようになりました。<br/><br/>無理解な父は相変らず施肥をせねばと叫び続けております。<br/><br/>一日も早く、世の人の一人も多く、自然栽培法の有利なる事に目覚められん事を祈って止みません。<br/><br/> 明主様の御霊徳に感謝し厚く御礼申上げますと共に、諸先生の陰に陽に御指導下さった事を感謝して筆を置きます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

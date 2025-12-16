@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>aku10</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 悪の追放 『栄光』173号、昭和27(1952)年9月10日発行 現在の世の中は、まだ文化の進歩が遅れているためではあろうが、どうも識者なるものは実に馬鹿馬鹿しい事に骨を折っている。<br><br>それは何かというと、ヤレ共産主義とか、社会主義とか、資本主義とか、何々主義などといって、色々な主義を作り、一生懸命になっているが、帰するところ団栗（どんぐり）の背比べにすぎないのである。<br><br>昔から主義なるものは現れては消え、現れては消えているだけの事である。<br><br>これは何がゆえかというと、ちょうど今日の結核新薬とよく似ている。<br><br>やれストマイ、パス、テラマイシン、クロロマイセチンなどといって、ヤイヤイ騒がれているかと思うと、今度はヒドラジドなどという新薬が出来ると共に、最初はドエライ宣伝で、これで結核問題は今にも解決出来そうに思わせられたが、最近は余程怪しくなって来たようだ、このように嬉しがらせたり、失望さしたり、同じような事を繰返しているのが文化的というものであるとしたら、実に馬鹿馬鹿しい話で、迷わせられる人間こそいい面の皮である。<br><br>話は戻るが政治屋などもその通りで、何々主義、何々政策などといって、映画館の看板じゃないが、客呼びに骨を折っているが、肝腎な中身はどうも空ッポーのように思われる。<br><br>だから本当をいうと、主義主張などという御題目は二の次で、要はそれを扱う人間様の了見次第で、つまり善か悪かである。<br><br>たとえば今みんなが怖れている共産主義にしても理論は結構だが、暴力や破壊手段などを用いたり、自分達の仲間だけがよければ、社会全体の不安など余り気にとめないという利己主義が悪いのである。<br><br>また資本主義にしてもそうだ、資本家ばかりが懐を肥し、贅沢三昧な暮しをしながら、使用人や労働者は物価高で、喰うや喰わずになっていても、見向きもしないやり方が悪いのである。<br><br>また社会主義にしても至極公平なようだが、実はこのくらい不公平なものはない。<br><br>それは偉い人間も偉くない人間も、働く者も、怠ける者も、家畜動物のように一列一体の扱い方であるからで、それがため社会の進歩は阻止され、天理に外れるから悪いのである。<br><br> ここで総選挙も近づいたから、これについても少しかいてみるが、悪がなくて誠実の人は、世間からも信用されるから、候補に出ても三当二落などという馬鹿気た金を費わずに済むはずだから、偉い人が出そうなもんだが、今日のようではそういう人は出られないから引込んでいる。<br><br>その反対に誠実などは二の次で、大いに札ビラを切る人程出られる率が高いようであるが、無論こういう人は名誉欲の亡者か、何か腹に一物ある人に違いないから、立派な議員とはならないに決っている。<br><br>日本の議員のレベルの低いのは、原因はこの点にあると私は思っている。<br><br> また重ねて言いたい事は、新薬については信者はよく知っているが、どんなに良い薬が出来たといっても、病気の治らない事は太鼓判を捺しても間違いない。<br><br>元来薬で病気はいささかも治るはずはない。<br><br>なぜなれば薬は全部毒であるからで、毒を服んで身体が健康になるなどは、石が流れて木の葉が沈むである。<br><br>つまり薬という毒で、一時病気を圧（おさ）え苦痛を緩和させるだけの事で、その結果薬毒が病気を作り、年中鼬鼠（いたち）ゴッコをしながら、人間は段々弱まってしまうのである。<br><br>今日のように病人の多い事実がよくそれを証明している。<br><br>従ってそんな箆棒（べらぼう）な医学や、恐ろしい薬を何とか知らせたいと思って、吾々は身を砕いて一生懸命になっているのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Expulsão do Mal</h2>
 <p>O mundo atual, talvez por seu lento progresso cultural, apresenta um cenário em que os supostos eruditos despendem seus esforços em questões verdadeiramente tolas. Refiro-me às diversas correntes de pensamento — comunismo, socialismo, capitalismo e tantos outros “ismos” — em torno das quais se digladiam com tamanho fervor. Em última análise, contudo, tal debate não passa de uma vã comparação entre coisas de igual pequenez. Ao longo da história, inúmeras ideologias surgiram e desapareceram, repetindo incessantemente o mesmo ciclo.</p>
@@ -96,5 +248,48 @@ function toggleLang(lang) {
 <p>Aproximando-se as eleições gerais, aproveito para tecer alguns comentários a esse respeito. Um homem íntegro e honesto, por gozar da confiança pública, deveria poder se candidatar sem precisar despender as fortunas absurdas que hoje se exigem para uma campanha vitoriosa. Em tese, seria de se esperar que pessoas notáveis se apresentassem, mas, na conjuntura atual, elas se retraem por não poderem competir. Em contrapartida, aqueles para quem a integridade é secundária e que não hesitam em esbanjar dinheiro parecem ter maiores chances de sucesso. Tais indivíduos, como é de se supor, são dominados pela ânsia de prestígio ou movidos por segundas intenções e, certamente, jamais se tornarão parlamentares exemplares. Creio que a causa fundamental do baixo nível dos legisladores no Japão reside precisamente neste ponto.</p>
 <p>Ademais, gostaria de reiterar algo que os membros já conhecem bem a respeito dos novos medicamentos: por mais extraordinária que pareça ser uma nova descoberta, posso afiançar com absoluta certeza que ela não curará a doença. Fundamentalmente, é impossível que um remédio cure, por um motivo muito simples: todos os medicamentos são venenos. Esperar que o corpo se torne saudável pela ingestão de veneno é um disparate tão grande quanto esperar que as pedras flutuem e as folhas afundem.</p>
 <p>O que o veneno chamado remédio faz é apenas suprimir temporariamente a doença e aliviar o sofrimento. Como resultado, o <em>yakudoku</em> (薬毒), ou toxina medicamentosa, acaba por gerar novas enfermidades, e o ser humano, preso a este círculo vicioso, enfraquece progressivamente. O altíssimo número de doentes na atualidade é a prova cabal desta realidade. É por isso que nós, cientes da insensatez dessa medicina e dos perigos desses fármacos terríveis, nos dedicamos de corpo e alma, com o máximo empenho, a alertar o maior número possível de pessoas.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 悪の追放 『栄光』173号、昭和27(1952)年9月10日発行 現在の世の中は、まだ文化の進歩が遅れているためではあろうが、どうも識者なるものは実に馬鹿馬鹿しい事に骨を折っている。<br/><br/>それは何かというと、ヤレ共産主義とか、社会主義とか、資本主義とか、何々主義などといって、色々な主義を作り、一生懸命になっているが、帰するところ団栗（どんぐり）の背比べにすぎないのである。<br/><br/>昔から主義なるものは現れては消え、現れては消えているだけの事である。<br/><br/>これは何がゆえかというと、ちょうど今日の結核新薬とよく似ている。<br/><br/>やれストマイ、パス、テラマイシン、クロロマイセチンなどといって、ヤイヤイ騒がれているかと思うと、今度はヒドラジドなどという新薬が出来ると共に、最初はドエライ宣伝で、これで結核問題は今にも解決出来そうに思わせられたが、最近は余程怪しくなって来たようだ、このように嬉しがらせたり、失望さしたり、同じような事を繰返しているのが文化的というものであるとしたら、実に馬鹿馬鹿しい話で、迷わせられる人間こそいい面の皮である。<br/><br/>話は戻るが政治屋などもその通りで、何々主義、何々政策などといって、映画館の看板じゃないが、客呼びに骨を折っているが、肝腎な中身はどうも空ッポーのように思われる。<br/><br/>だから本当をいうと、主義主張などという御題目は二の次で、要はそれを扱う人間様の了見次第で、つまり善か悪かである。<br/><br/>たとえば今みんなが怖れている共産主義にしても理論は結構だが、暴力や破壊手段などを用いたり、自分達の仲間だけがよければ、社会全体の不安など余り気にとめないという利己主義が悪いのである。<br/><br/>また資本主義にしてもそうだ、資本家ばかりが懐を肥し、贅沢三昧な暮しをしながら、使用人や労働者は物価高で、喰うや喰わずになっていても、見向きもしないやり方が悪いのである。<br/><br/>また社会主義にしても至極公平なようだが、実はこのくらい不公平なものはない。<br/><br/>それは偉い人間も偉くない人間も、働く者も、怠ける者も、家畜動物のように一列一体の扱い方であるからで、それがため社会の進歩は阻止され、天理に外れるから悪いのである。<br/><br/> ここで総選挙も近づいたから、これについても少しかいてみるが、悪がなくて誠実の人は、世間からも信用されるから、候補に出ても三当二落などという馬鹿気た金を費わずに済むはずだから、偉い人が出そうなもんだが、今日のようではそういう人は出られないから引込んでいる。<br/><br/>その反対に誠実などは二の次で、大いに札ビラを切る人程出られる率が高いようであるが、無論こういう人は名誉欲の亡者か、何か腹に一物ある人に違いないから、立派な議員とはならないに決っている。<br/><br/>日本の議員のレベルの低いのは、原因はこの点にあると私は思っている。<br/><br/> また重ねて言いたい事は、新薬については信者はよく知っているが、どんなに良い薬が出来たといっても、病気の治らない事は太鼓判を捺しても間違いない。<br/><br/>元来薬で病気はいささかも治るはずはない。<br/><br/>なぜなれば薬は全部毒であるからで、毒を服んで身体が健康になるなどは、石が流れて木の葉が沈むである。<br/><br/>つまり薬という毒で、一時病気を圧（おさ）え苦痛を緩和させるだけの事で、その結果薬毒が病気を作り、年中鼬鼠（いたち）ゴッコをしながら、人間は段々弱まってしまうのである。<br/><br/>今日のように病人の多い事実がよくそれを証明している。<br/><br/>従ってそんな箆棒（べらぼう）な医学や、恐ろしい薬を何とか知らせたいと思って、吾々は身を砕いて一生懸命になっているのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

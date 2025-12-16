@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>densen01</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 伝染病 『アメリカを救う』P.53、昭和28(1953)年1月1日発行 伝染病は近来米国では非常に減ったとされているが、日本では今もって相当猖獗（しょうけつ）している現状で、これもついでだからかいてみるが、まず伝染病菌である。<br><br>これについては何人（なんぴと）も夢想だも出来なかった程の私の新発見であって、恐らく容易に信じられないであろう。<br><br>しかし再三かいたごとく、薬毒によって濁った血液に対しては、必ず浄化が発生する。<br><br>これが自然の摂理である。<br><br>という訳で伝染病に対しても、神は巧妙な方法を造られた。<br><br>それは人間中最もはなはだしい濁血者の血液中に、最初微生虫が発生する。<br><br>すなわち伝染病菌である。<br><br>この菌が次の濁血者の血液中に、何らかの物質を介して伝染する。<br><br>つまり菌が血管中に食い入るのである。<br><br>そうして血液中にある濁りの微粒子を蚕食（さんしょく）しつつ殖えていく。<br><br>というのは血液中の濁りは菌の食物となるからで、それを食尽せば浄血となって治るのである。<br><br>従って伝染病菌なるものは、全く人間の血を浄める役目として神が造られたもので、言わば血液の掃除夫である。<br><br>それを運ぶのが彼（か）の蝿であるから、この虫も人間にとっては大きな役目をしている訳で、余り憎めないのである。<br><br>右の理によって、伝染病を人類から絶滅するとしたら、濁血者を作らない事で、これが根本である。<br><br>しかしそれは急速には不可能であるから、現在としてはまず伝染病発生の場合、患者を安静にし、自然のままにして置けばほとんどは治癒するものであるから、左程恐怖するには当らない。<br><br>ゆえに軽症者は右の理を心得て適当に扱えばいいし、重症者は本教の浄霊を受ければ一人の間違もなく全治するから、これ程安心な方法はあるまい。<br><br>それは伝染病程猛烈な浄化作用はないからで、浄霊によれば実によく治る。<br><br>そうして現在日本では赤痢、チフス、日本脳炎が主なるもので、医療は浄化を妨げるから成績は悪いが、右なおさらのごとく自然療法なれば、十中八、九は全治間違いないと共に、浄霊によればなおさらよく治る次第である。<br><br>何よりも本教信者で伝染病に罹る者も偶（たま）にはあるが、今日まで一人の不幸者も出ないにみて明らかである。<br><br>しかも赤痢などは予後非常に頭脳が良くなり、頭痛、頭重などの持病はほとんど消えてしまうのである。<br><br>その訳はこの病気は頭脳の毒血が下痢になって出るものであり、また日本脳炎の原因は背部から肩へかけての固結毒素が浄化で溶け、後頭部から前頭部へ抜け、目や鼻から多量の膿血となって排泄され治るのであるから、予後は病気前より頭脳明晰となり、学童などは成績一変するくらいで、恐れられている不具者などには絶対ならないのである。<br><br>またチフスは大抵二、三回の浄霊で全治するから説明の要はあるまい。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Missão Purificadora das Doenças Infecciosas</h2>
 <p>Embora se diga que as doenças infecciosas diminuíram consideravelmente nos Estados Unidos em tempos recentes, no Japão, elas ainda grassam com notável intensidade. Aproveitando a oportunidade, discorrerei sobre o tema, principiando pela questão das bactérias causadoras dessas enfermidades. O que revelarei a seguir constitui uma descoberta de minha autoria, de uma magnitude que ninguém jamais poderia sequer sonhar, e, por essa razão, é provável que muitos relutem em aceitá-la.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Diante dessa lógica, a única maneira de erradicar as doenças infecciosas da humanidade seria impedir a formação de sangue impuro. Essa é a solução fundamental. Contudo, como se trata de um objetivo inalcançável a curto prazo, a conduta mais sensata, no presente, é a seguinte: ao surgir um caso de doença infecciosa, deve-se manter o paciente em repouso e permitir que a Natureza siga seu curso. Agindo assim, a maioria dos casos evoluirá para a cura, não havendo motivo para grande temor. Pacientes com sintomas leves podem ser tratados adequadamente com base nesse entendimento, enquanto os casos mais graves, ao receberem o Johrei de nossa Igreja, alcançarão a cura completa, sem uma única exceção. Dificilmente haverá um método que ofereça tamanha segurança.</p>
 <p>A eficácia do Johrei se deve ao fato de não existir processo de purificação mais intenso que o de uma doença infecciosa, o que a torna extraordinariamente responsiva a ele. Atualmente, no Japão, as enfermidades predominantes são a disenteria, a febre tifoide e a encefalite japonesa. Os tratamentos médicos, por obstruírem a purificação, apresentam resultados insatisfatórios. Em contrapartida, por meio da terapia natural, de oito a nove em cada dez pacientes se recuperam plenamente, e com o Johrei, a eficácia é ainda maior. Prova irrefutável disso é que, embora ocasionalmente algum membro de nossa Igreja contraia uma dessas doenças, até hoje não tivemos um único desfecho infeliz.</p>
 <p>Ademais, após a recuperação de uma disenteria, a capacidade intelectual melhora notavelmente, e males crônicos como dores de cabeça e sensação de peso na mente desaparecem quase por completo. A razão é que essa doença expele, através da diarreia, as toxinas acumuladas no cérebro. No caso da encefalite japonesa, as toxinas solidificadas na região das costas e dos ombros se liquefazem pela purificação, deslocam-se pela nuca até a parte frontal da cabeça e são expelidas sob a forma de grande quantidade de pus e sangue pelos olhos e pelo nariz, resultando na cura. Consequentemente, a mente se torna mais clara e lúcida que antes da doença, a ponto de o desempenho escolar de uma criança mudar drasticamente. A temida sequela da incapacidade física jamais ocorre. Por fim, a febre tifoide geralmente se cura com apenas duas ou três sessões de Johrei, o que dispensa maiores explicações.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 伝染病 『アメリカを救う』P.53、昭和28(1953)年1月1日発行 伝染病は近来米国では非常に減ったとされているが、日本では今もって相当猖獗（しょうけつ）している現状で、これもついでだからかいてみるが、まず伝染病菌である。<br/><br/>これについては何人（なんぴと）も夢想だも出来なかった程の私の新発見であって、恐らく容易に信じられないであろう。<br/><br/>しかし再三かいたごとく、薬毒によって濁った血液に対しては、必ず浄化が発生する。<br/><br/>これが自然の摂理である。<br/><br/>という訳で伝染病に対しても、神は巧妙な方法を造られた。<br/><br/>それは人間中最もはなはだしい濁血者の血液中に、最初微生虫が発生する。<br/><br/>すなわち伝染病菌である。<br/><br/>この菌が次の濁血者の血液中に、何らかの物質を介して伝染する。<br/><br/>つまり菌が血管中に食い入るのである。<br/><br/>そうして血液中にある濁りの微粒子を蚕食（さんしょく）しつつ殖えていく。<br/><br/>というのは血液中の濁りは菌の食物となるからで、それを食尽せば浄血となって治るのである。<br/><br/>従って伝染病菌なるものは、全く人間の血を浄める役目として神が造られたもので、言わば血液の掃除夫である。<br/><br/>それを運ぶのが彼（か）の蝿であるから、この虫も人間にとっては大きな役目をしている訳で、余り憎めないのである。<br/><br/>右の理によって、伝染病を人類から絶滅するとしたら、濁血者を作らない事で、これが根本である。<br/><br/>しかしそれは急速には不可能であるから、現在としてはまず伝染病発生の場合、患者を安静にし、自然のままにして置けばほとんどは治癒するものであるから、左程恐怖するには当らない。<br/><br/>ゆえに軽症者は右の理を心得て適当に扱えばいいし、重症者は本教の浄霊を受ければ一人の間違もなく全治するから、これ程安心な方法はあるまい。<br/><br/>それは伝染病程猛烈な浄化作用はないからで、浄霊によれば実によく治る。<br/><br/>そうして現在日本では赤痢、チフス、日本脳炎が主なるもので、医療は浄化を妨げるから成績は悪いが、右なおさらのごとく自然療法なれば、十中八、九は全治間違いないと共に、浄霊によればなおさらよく治る次第である。<br/><br/>何よりも本教信者で伝染病に罹る者も偶（たま）にはあるが、今日まで一人の不幸者も出ないにみて明らかである。<br/><br/>しかも赤痢などは予後非常に頭脳が良くなり、頭痛、頭重などの持病はほとんど消えてしまうのである。<br/><br/>その訳はこの病気は頭脳の毒血が下痢になって出るものであり、また日本脳炎の原因は背部から肩へかけての固結毒素が浄化で溶け、後頭部から前頭部へ抜け、目や鼻から多量の膿血となって排泄され治るのであるから、予後は病気前より頭脳明晰となり、学童などは成績一変するくらいで、恐れられている不具者などには絶対ならないのである。<br/><br/>またチフスは大抵二、三回の浄霊で全治するから説明の要はあるまい。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

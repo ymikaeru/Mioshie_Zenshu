@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>satori</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 「覚り」と「反省」 本部 阿部晴三 『栄光』270号、昭和29(1954)年8月18日発行 我々が何か仕事をして、その結果が良く行かず失敗に終った場合に、よく「反省してみる」という言葉を使うのでありますが、そのような場合、明主様は「覚る」のであると仰せられるのであります。<br><br> この二つの言葉は至極簡単でありまして、その間にさ程の差異がないように思われますが、よく考えてみますと実は大変な相違が存するのであります。<br><br>即ち精神的にこれを分析してみますと、「反省」という言葉は消極的であり、退歩的でありますが、「覚り」ということは積極的であり、前進的であると思うのであります。<br><br>前者におきましては、その根底に「あのために失敗した」とか、「あんなことを為さなければよかった」とか、「あんなときには、こうすればよかった」とかいうようなある執着を含んだ悔悟的の精神状態によって生ずる言霊であり、これをさらに煎じ詰むれば、「我」ということに到達するのではないかと思うのであります。<br><br> ところが「覚り」におきましては、そのことによって「かくかくと分らせて頂いた」「事の真相はかくあるものだ」という意味から出発する言霊であります。<br><br>積極的に一歩前進したことになり、非常に胸襟が開けた明るい気持になるのでありますから、更にこれは、「素直にする」という事に繋がると思うのであります。<br><br>一方は地獄的苦しみの境地とすれば、他方は天国的救いの境地と申しても宜しいと思います。<br><br> 信仰の妙諦は我を出さないことと、素直にすることであるとの御教えより申せば、この二つの言葉の間には甚だしい相違があるのでありまして、明主様の仰せらるる通り、「反省」でなくして「覚り」でなくてはならぬのであります。<br><br> 由来、人間意欲の中で最も魅力を持つものは、神秘を探り当てようとすることでありましょう。<br><br>熱心に信仰をするということも、神秘を探究するがためでありまして、一つの神秘を探り当つれば次の神秘を求め、更に次の神秘をというふうに、知れば知る程、益々その奥を求め極めんとするのであります。<br><br>そして「覚り」得たとき、換言すれば事物の真相を知悉し得たとき、即ち神秘の探究に通ずるのでありまして、そこに信仰の魅力を感じ、妙味を覚えるというものであります。<br><br>本教が驚異的大発展を遂げつつあるに引き替え、既成宗教が不振なのはこの神秘に対する解明が出来ないからであります。<br><br>「反省」はあっても、「覚り」がないからであります。<br><br> 按ずるに、今までは夜の世界でありまして、事物の考え方はすべて仏教より出発しており、仏教にいわゆる反省とか、悟道とか申しておりましたのは、その根本におきまして、現界を苦の世界とし厭世的に諦めるより仕方がないという事に基づき、結局この世の苦を排除して天国的世界を作る力が、生まれなかったに因るものと言わなければなりますまい。<br><br> ところがいよいよ時期到来し、昼の世界に転換し一切を解明する御力を振わせらるる、明主様の下にある我々信者としては、「覚り」によって救っていただかねばならぬと思うのであります。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Realização e a Reflexão</h2>
 <p>Quando nos empenhamos em alguma tarefa cujo resultado se mostra insatisfatório e culmina em fracasso, é comum recorrermos à expressão “vamos refletir a respeito”. Todavia, Meishu-Sama nos ensina que, em tais circunstâncias, o que ocorre é um “despertar para a compreensão”.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Desde tempos imemoriais, talvez o anseio mais cativante da vontade humana seja o de desvendar o mistério. A prática fervorosa da fé também se destina a essa busca. Ao desvendar um mistério, o ser humano anseia pelo próximo e, em seguida, por outro, de modo que, quanto mais conhece, mais se aprofunda em sua procura pela verdade última. O momento em que se “desperta para a compreensão” — em outras palavras, quando se logra conhecer a fundo a verdade das coisas — corresponde à elucidação de um mistério. É nesse ponto que se sente o fascínio da fé e se experimenta sua profunda beleza. A razão pela qual nossa Igreja experimenta um desenvolvimento extraordinário, em contraste com a estagnação das religiões preexistentes, é que estas são incapazes de decifrar esses mistérios. Elas possuem a “reflexão”, mas lhes falta o “despertar para a compreensão”.</p>
 <p>Refletindo sobre a história, até o presente momento, vivíamos no Mundo da Noite, onde a maneira de pensar sobre todas as coisas partia do budismo. Os conceitos budistas de reflexão e de caminho para a iluminação tinham como fundamento a concepção do mundo material como um lugar de sofrimento, do qual só restava a resignação e o abandono. Por essa razão, não poderia nascer dali a força necessária para eliminar o sofrimento deste mundo e construir uma realidade paradisíaca.</p>
 <p>Contudo, o tempo finalmente chegou. Com a transição para o Mundo do Dia, nós, fiéis que estamos sob a orientação de Meishu-Sama — Aquele que manifesta o poder de elucidar todas as coisas —, devemos buscar nossa salvação por meio do “despertar para a compreensão”.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 「覚り」と「反省」 本部 阿部晴三 『栄光』270号、昭和29(1954)年8月18日発行 我々が何か仕事をして、その結果が良く行かず失敗に終った場合に、よく「反省してみる」という言葉を使うのでありますが、そのような場合、明主様は「覚る」のであると仰せられるのであります。<br/><br/> この二つの言葉は至極簡単でありまして、その間にさ程の差異がないように思われますが、よく考えてみますと実は大変な相違が存するのであります。<br/><br/>即ち精神的にこれを分析してみますと、「反省」という言葉は消極的であり、退歩的でありますが、「覚り」ということは積極的であり、前進的であると思うのであります。<br/><br/>前者におきましては、その根底に「あのために失敗した」とか、「あんなことを為さなければよかった」とか、「あんなときには、こうすればよかった」とかいうようなある執着を含んだ悔悟的の精神状態によって生ずる言霊であり、これをさらに煎じ詰むれば、「我」ということに到達するのではないかと思うのであります。<br/><br/> ところが「覚り」におきましては、そのことによって「かくかくと分らせて頂いた」「事の真相はかくあるものだ」という意味から出発する言霊であります。<br/><br/>積極的に一歩前進したことになり、非常に胸襟が開けた明るい気持になるのでありますから、更にこれは、「素直にする」という事に繋がると思うのであります。<br/><br/>一方は地獄的苦しみの境地とすれば、他方は天国的救いの境地と申しても宜しいと思います。<br/><br/> 信仰の妙諦は我を出さないことと、素直にすることであるとの御教えより申せば、この二つの言葉の間には甚だしい相違があるのでありまして、明主様の仰せらるる通り、「反省」でなくして「覚り」でなくてはならぬのであります。<br/><br/> 由来、人間意欲の中で最も魅力を持つものは、神秘を探り当てようとすることでありましょう。<br/><br/>熱心に信仰をするということも、神秘を探究するがためでありまして、一つの神秘を探り当つれば次の神秘を求め、更に次の神秘をというふうに、知れば知る程、益々その奥を求め極めんとするのであります。<br/><br/>そして「覚り」得たとき、換言すれば事物の真相を知悉し得たとき、即ち神秘の探究に通ずるのでありまして、そこに信仰の魅力を感じ、妙味を覚えるというものであります。<br/><br/>本教が驚異的大発展を遂げつつあるに引き替え、既成宗教が不振なのはこの神秘に対する解明が出来ないからであります。<br/><br/>「反省」はあっても、「覚り」がないからであります。<br/><br/> 按ずるに、今までは夜の世界でありまして、事物の考え方はすべて仏教より出発しており、仏教にいわゆる反省とか、悟道とか申しておりましたのは、その根本におきまして、現界を苦の世界とし厭世的に諦めるより仕方がないという事に基づき、結局この世の苦を排除して天国的世界を作る力が、生まれなかったに因るものと言わなければなりますまい。<br/><br/> ところがいよいよ時期到来し、昼の世界に転換し一切を解明する御力を振わせらるる、明主様の下にある我々信者としては、「覚り」によって救っていただかねばならぬと思うのであります。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

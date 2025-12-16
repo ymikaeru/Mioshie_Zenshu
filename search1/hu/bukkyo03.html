@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>bukkyo03</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 仏教の起源 未発表『文明の創造』昭和27(1952)年執筆 観世音菩薩の御本尊は、伊都能売神（いづのめのかみ）である事は、以前から私は度々知らしてあるところであるが、これについて分らねばならない事は、元来仏身なるものの根本である。<br><br>単に仏といっても実は二通りあって、本来の仏身と神の化身との両方ある。<br><br>そうして本来仏とは約二千六百年以前、釈尊の時から生れたものであって、その頃までは今日のインドは、当時月氏（げっし）国とも言われたので、同国においては余程以前から彼のバラモン教が隆盛を極めていたのであって、このバラモン教なるものは、教義のようなものは更になく、ただ肉体的難行苦行によって、宇宙の真理をつかもうとしたのである。<br><br>今日でも絵画彫刻等に残っている羅漢（らかん）などは、その苦行の姿であって、この姿を見ても分るごとく、樹上に登って鳥の巣のごときものをこしらえ、それに何年も静坐をした。<br><br>当時の高僧鳥栖禅師などもそうであり、また掌の上に塔の模型のごときものを載せたまま、何年もジットしていたりする等いずれも一種異様な形をしながら、合掌坐禅をしており、一々見る者をして、奇異の感に打たれるのである。<br><br>酷いのになると、板の上に沢山の釘を打ちつけ、その上で坐禅を組むので、釘の尖で臀部に穴が穿き、出血と共にその苦痛は名状すべからざるものがあろう。<br><br>しかしこの我慢が修行なのであるから、到底今日では想像も出来ないのである。<br><br> 彼の達磨大師にしても、面壁九年という長い歳月坐禅のまま壁に対（むか）って、瞑想を続けていたのであるから、その苦行は並大抵ではあるまい。<br><br>ここでちょっと達磨についての説であるが、右のインドの達磨大師とは別に今から千二、三百年前、支那にも同名異人の達磨が現れたので、これがよく混同され易いようである。<br><br>支那の達磨は聖徳太子の時代日本へも渡来し、太子に面謁（めんえつ）されたという相当確かな記録を、私は見た事がある。<br><br> 話は戻るが、バラモンの行者達は、なぜそれ程の難行苦行をするかというに、これについてはその頃多くの求道者達は、競って宇宙の真理を知ろうとして、その方法を難行苦行に求めたのである。<br><br>ちょうど今日学問の修業によって、博士号や、名誉、地位を得ようとするようなものであろう。<br><br>そうして達磨についての今一つの面白い話は、彼は面壁九年目のある夜、フト満月を仰ぎ見た時、月光が胸の奥深く照らすと思う一刹那（せつな）、豁然（かつぜん）として大悟徹底したので、その喜びは絶頂に達したという事で、それからの達磨は見真実のごとくに いかなる難問にも明答を与え、当時抜群の行者として、多くの者の尊信を集めたという伝説がある。<br><br> そうして当時のインドにおいては、日本でいう天照大御神と同様、人民の最も畏敬の中心となっていたのは彼の大自在天神であった。<br><br>その外大広目天、帝釈天等々、色々な御名があるが、これは日蓮宗の曼陀羅（まんだら）に大体出ているから見れば分るが、とにかくバラモン教が圧倒的に社会を風靡していた事は間違いない。<br><br>ところがその頃突如として現れたのが、言うまでもなく釈迦牟尼如来であった。<br><br>この経緯は後に書くがともかく皇太子であられた悉達（しった）太子が、修行終って大覚者となり出山したのである。<br><br>太子は幽現界の真相を会得し、燃ゆるがごとき大慈悲心をもって、一切衆生を済度せんとする本願を立てた。<br><br>そうしてその手段としてまず天下に開示されたのが、経文を読む事によって覚りを得るという方法で、これを大衆に向って大いに説諭されたのだから、当時の社会に一大センセーションを捲き起したのはもちろんである。<br><br>何しろ当時バラモン式難行苦行を、唯一無二のものとしていた事とて、喜んだのも無理はない。<br><br>何しろこれに代るべきものとしての読経という安易な修行であるから、ここに大衆は釈尊の徳を慕い、日に月に仏門に帰依する者続出するので、ついに釈尊をしてインドの救世主のごとく信奉の的となったのは無理もない。<br><br>そのような訳で、ついに全インドを仏法化してしまったので、これが仏教の起源である。<br><br>それからのインドは、さしものバラモンの勢力も、漸次萎靡（いび）不振となったのはもちろんであるが、といって全然消滅した訳でなく、今日も一部にはなお残っており、同宗行者は、仲々の奇跡を現しているという事で、英国の学者中にも、研究のためインドに渡り熱心に研究する者もあるとみえ、私は先年その記録を読んだ事があるが、素晴しい奇跡の数々が、掲載されていた事を今でも憶えている。<br><br> (注) 悉達（しった） 「悉達多」の略。<br><br>目的を達したという意。<br><br>釈迦の出家以前の名。<br><br>誕生したとき、一切の吉祥瑞相をそなえていたことからこの名がつけられた。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>As Origens do Budismo</h2>
 <p>Conforme já anunciei reiteradas vezes, a divindade primordial cultuada como Kannon (観音) é, em sua essência, Izunome-no-Kami (伊都能売神). Para compreender essa verdade, é imprescindível discernir a natureza fundamental do que se denomina “corpo búdico”. Com efeito, embora o termo “Buda” seja empregado de forma genérica, existem duas categorias distintas: os Budas de essência original e aqueles que são manifestações de Deuses. Os Budas originais surgiram há cerca de 2.600 anos, com Shakyamuni. Até então, na Índia, nação que na época também era conhecida como Gesshi (月氏), o Bramanismo florescia em seu apogeu. Esta corrente religiosa não se baseava em um corpo doutrinário formal; seu método consistia em buscar a verdade universal por meio de rigorosas e extenuantes práticas de austeridade física.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>A partir de então, embora a outrora poderosa influência do Bramanismo tenha naturalmente entrado em declínio gradual, é importante frisar que ele não desapareceu por completo. Até os dias de hoje, remanescentes dessa tradição persistem em algumas regiões. Há relatos de que seus adeptos ainda realizam notáveis milagres, despertando o interesse de estudiosos ocidentais. Anos atrás, tive a oportunidade de ler um desses estudos, elaborado por pesquisadores britânicos que se dedicaram a investigá-los na Índia, e recordo-me vividamente dos extraordinários feitos que ali eram descritos.</p>
 <hr/>
 <p>(Nota) 悉達 (Shitta): Forma abreviada de "Siddhartha". Significa "aquele que atingiu seu objetivo". Foi o nome de Shakyamuni antes de sua renúncia à vida principesca, outorgado a ele em seu nascimento por apresentar todos os sinais de um ser auspicioso.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 仏教の起源 未発表『文明の創造』昭和27(1952)年執筆 観世音菩薩の御本尊は、伊都能売神（いづのめのかみ）である事は、以前から私は度々知らしてあるところであるが、これについて分らねばならない事は、元来仏身なるものの根本である。<br/><br/>単に仏といっても実は二通りあって、本来の仏身と神の化身との両方ある。<br/><br/>そうして本来仏とは約二千六百年以前、釈尊の時から生れたものであって、その頃までは今日のインドは、当時月氏（げっし）国とも言われたので、同国においては余程以前から彼のバラモン教が隆盛を極めていたのであって、このバラモン教なるものは、教義のようなものは更になく、ただ肉体的難行苦行によって、宇宙の真理をつかもうとしたのである。<br/><br/>今日でも絵画彫刻等に残っている羅漢（らかん）などは、その苦行の姿であって、この姿を見ても分るごとく、樹上に登って鳥の巣のごときものをこしらえ、それに何年も静坐をした。<br/><br/>当時の高僧鳥栖禅師などもそうであり、また掌の上に塔の模型のごときものを載せたまま、何年もジットしていたりする等いずれも一種異様な形をしながら、合掌坐禅をしており、一々見る者をして、奇異の感に打たれるのである。<br/><br/>酷いのになると、板の上に沢山の釘を打ちつけ、その上で坐禅を組むので、釘の尖で臀部に穴が穿き、出血と共にその苦痛は名状すべからざるものがあろう。<br/><br/>しかしこの我慢が修行なのであるから、到底今日では想像も出来ないのである。<br/><br/> 彼の達磨大師にしても、面壁九年という長い歳月坐禅のまま壁に対（むか）って、瞑想を続けていたのであるから、その苦行は並大抵ではあるまい。<br/><br/>ここでちょっと達磨についての説であるが、右のインドの達磨大師とは別に今から千二、三百年前、支那にも同名異人の達磨が現れたので、これがよく混同され易いようである。<br/><br/>支那の達磨は聖徳太子の時代日本へも渡来し、太子に面謁（めんえつ）されたという相当確かな記録を、私は見た事がある。<br/><br/> 話は戻るが、バラモンの行者達は、なぜそれ程の難行苦行をするかというに、これについてはその頃多くの求道者達は、競って宇宙の真理を知ろうとして、その方法を難行苦行に求めたのである。<br/><br/>ちょうど今日学問の修業によって、博士号や、名誉、地位を得ようとするようなものであろう。<br/><br/>そうして達磨についての今一つの面白い話は、彼は面壁九年目のある夜、フト満月を仰ぎ見た時、月光が胸の奥深く照らすと思う一刹那（せつな）、豁然（かつぜん）として大悟徹底したので、その喜びは絶頂に達したという事で、それからの達磨は見真実のごとくに いかなる難問にも明答を与え、当時抜群の行者として、多くの者の尊信を集めたという伝説がある。<br/><br/> そうして当時のインドにおいては、日本でいう天照大御神と同様、人民の最も畏敬の中心となっていたのは彼の大自在天神であった。<br/><br/>その外大広目天、帝釈天等々、色々な御名があるが、これは日蓮宗の曼陀羅（まんだら）に大体出ているから見れば分るが、とにかくバラモン教が圧倒的に社会を風靡していた事は間違いない。<br/><br/>ところがその頃突如として現れたのが、言うまでもなく釈迦牟尼如来であった。<br/><br/>この経緯は後に書くがともかく皇太子であられた悉達（しった）太子が、修行終って大覚者となり出山したのである。<br/><br/>太子は幽現界の真相を会得し、燃ゆるがごとき大慈悲心をもって、一切衆生を済度せんとする本願を立てた。<br/><br/>そうしてその手段としてまず天下に開示されたのが、経文を読む事によって覚りを得るという方法で、これを大衆に向って大いに説諭されたのだから、当時の社会に一大センセーションを捲き起したのはもちろんである。<br/><br/>何しろ当時バラモン式難行苦行を、唯一無二のものとしていた事とて、喜んだのも無理はない。<br/><br/>何しろこれに代るべきものとしての読経という安易な修行であるから、ここに大衆は釈尊の徳を慕い、日に月に仏門に帰依する者続出するので、ついに釈尊をしてインドの救世主のごとく信奉の的となったのは無理もない。<br/><br/>そのような訳で、ついに全インドを仏法化してしまったので、これが仏教の起源である。<br/><br/>それからのインドは、さしものバラモンの勢力も、漸次萎靡（いび）不振となったのはもちろんであるが、といって全然消滅した訳でなく、今日も一部にはなお残っており、同宗行者は、仲々の奇跡を現しているという事で、英国の学者中にも、研究のためインドに渡り熱心に研究する者もあるとみえ、私は先年その記録を読んだ事があるが、素晴しい奇跡の数々が、掲載されていた事を今でも憶えている。<br/><br/> (注) 悉達（しった） 「悉達多」の略。<br/><br/>目的を達したという意。<br/><br/>釈迦の出家以前の名。<br/><br/>誕生したとき、一切の吉祥瑞相をそなえていたことからこの名がつけられた。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

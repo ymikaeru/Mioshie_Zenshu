@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>reis3084</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊祀篇 第三篇 ７ 084-097 処分２ 084 中風で不眠、蛇殺し指黒化す（龍神掛軸の処分法） 信者の宮越松江さんの主人（六十四歳）は、昨年一月頃から全身が震え、中風のように涎を流し頭も重苦しく、医師に梅毒と診断されサルバルサン五本を注射致しました。<br><br>暫く医師の治療を受けておりましたが、何の変化も御座いませんので御浄霊を頂きましたところ、二十日程で健康になりましたので会社に出勤致しました。<br><br>所が三日目の夕方から前と同じ状態になりまして、現在迄御浄霊を続けておりますが変化がなく、最近は不眠と尾抵骨付近の疼痛がはげしいので堪えられない程の苦しみで御座います。<br><br> 実は以前神経痛を患った時、蛇を飼い瓶に入れておきましたところ、死にましたので竹に刺して軒端に置きましたところ見えなくなってしまいましたが、それから松江さんの両指が真黒になりました。<br><br>行者が龍神の祟だと申しますので、一幅の龍神のお軸をお祀りしたそうで御座います。<br><br>指は痛くは御座いませんが依然として黒くなっております。<br><br>最近本人は布圃に龍神が乗ってくるように感じ、妻の帯などを見ても蛇に見え恐ろしがります。<br><br>一度龍神のお祀りを致しましたらその晩だけはゆっくり休めたそうで御座います。<br><br>龍神のお軸を嫌い処分したいと申しておりますが、どう致しましたら宜しゅう御座いましょうか。<br><br> 二月に御屏風観音様をお祀りさせて頂きましたが、光明如来様は未だお祀り致して御座いません。<br><br>主人の中風の病気と龍神と何か関係が御座いましょうか。<br><br>お伺い申し上げます。<br><br> 中風である。<br><br>蛇の霊もある。<br><br>しかも大龍神である。<br><br>サルバルサンは何か故障を起す。<br><br> 光明如来様を信仰しているうちに治る。<br><br>掛軸は処分した方がよい。<br><br> お三宝か何かに載せて光明如来様の前へ二、三ケ月置く。<br><br>そしてお礼を言い、祝詞を奏げ処分する。<br><br>（S25. 5. 2） 085 稲荷、龍神、お札の処分と病気 ある婦人の信者（四十八才）は、昨年九月末、疎開先より東京の本宅に引揚と同時に快活な気性だったのが急に陰鬱になり、判断力も極めて不充分となり、御浄霊を続けておりますが多少楽になったものの余り変化ありません。<br><br>その本宅には、引揚の一ケ月前から光明如来様を奉斎してあります。<br><br> 所でその引揚の二、三日前に疎開先の家で神棚の御札を処分してしまいました。<br><br>また、上京後四日目に仏壇にお祀りしてあった御仏体の中、観音様以外のものを処分しましたが、手続きはちゃんとして霊界にお帰り願ってから焼却致しました。<br><br>その後、神棚に残っていた御札の大部分を近くの神社にお移し申したことも御座います。<br><br> 所が先日の御話に「以前からその家にお祀りしてあった御神体、御仏体は、光明如来様をお祀りしても一、二年は処分せずにそのままにしておく方がよい」との御言葉がありましたので、昨年処分したことが大変気になっております。<br><br> 既に処分した御札や御仏体を再びお祀りすべきでしょうか。<br><br> 稲荷、龍神は急に処分してはいけないと私は言った。<br><br>他のお札は手続さえすればすぐ処分してよい。<br><br>狐、龍神などは執着が強いからである。<br><br>（S24. 4.13） 086 稲荷やお札の処分について 稲荷には祖先から祀った稲荷と、豊川、伏見など途中でお札を受けて祀る稲荷と二つある。<br><br> よく「御守護神を頂く」というてお札をもらうが、そのお札に狐が憑いてくる。<br><br>つまり派遣された稲荷である。<br><br>こういう稲荷は元へ返せる。<br><br> 狐には役が着いている。<br><br>言霊で断わって帰ってもらう。<br><br>祖先からのは祖先が稲荷になっているのがあるので、これは処分出来ぬ。<br><br>祖先が青大将や稲荷になって守護しているからお礼を言い、事情をいって帰ってもらう。<br><br> ○○不動尊などはやはり不動尊の眷族で鳥が多い。<br><br>これは処分してもよい。<br><br>不動明王とて観音様の家来で、元はいいが今は堕落した。<br><br>（S23. 6.27） 087 稲荷処分の法 稲荷を部屋の内に祭る事はよろしくないように伺っておりますが、今迄部屋の内に祭ってあった稲荷を庭に祭らせて頂く場合の方法を御教示願い申し上げます。<br><br> 稲荷はやたらに祀りかえてはいけない。<br><br>怒ってアダする事がある。<br><br>祖先からあった稲荷は大祖先が稲荷になって守護しているのであるから、部屋の中でいいが、中途の祖先が祀ったものは処理した方が宜しい。<br><br>その場合、お供物を上げて今日迄の御守護の礼をいって、今度観音様をお祭りする事となったからお帰り願いたいと口でいうだけでよい。<br><br>祝詞は天津祝詞を奏げればよい。<br><br> 088 メチールで失明、稲荷の祀り 三代前の家人が菩提寺より戴きし妙見様の木像を、昨春某行者の言に従いて寺に預け後、当主はメチール禍にて失明致しました。<br><br> なお当家には昭和六年に行者より貰いし稲荷を屋内の高き棚に祀ってあります。<br><br>失明と霊的の関係があるでしょうか。<br><br> これはメチールのためである。<br><br>メチールは放置しておけば失明したようなのも治る。<br><br> 稲荷は庭へ祀り、二、三年経って処分する。<br><br>祖先からあった稲荷は別で、祖霊が狐になって守護している事がある。<br><br>（S23.10.25） 089 稲荷処分後の不幸 ある信者の家庭で、二年前に御神体をお祭りすると同時に稲荷を処分致したところ、その後不幸や争がつづく由、どうしましょうか。<br><br> 一、二年はそのままにしておくべきである。<br><br>神様でも一ぺんにおことわりするのは道に外れる。<br><br>再びよんでおわびする。<br><br>祀り方を簡単にし、よくおわびするとよい。<br><br>（S24. 4. 2） 090 妙見菩薩と最上狐 南無開運北辰妙見大菩薩とはどんな仏様ですか。<br><br>また南無最上狐大菩薩、この稲荷様はどんな方ですか。<br><br> これは狐を祭ってこのような名をつけたものであろう。<br><br>妙見菩薩とは印度にある。<br><br>その名をつけたもので大して意味はない。<br><br> 最上狐大菩薩、これは狐の力のある奴であろう。<br><br>こういういかがわしいものからは、だんだん縁を切るようにした方がよい。<br><br>しかし余り急に縁を切るとアダをするからその点考えるべきである。<br><br> 091 豊川の札等の整理 一信者の家で祖父の代にお祀り致しました名前不明のお稲荷さんが御座いますが、この度そのお宮の中に豊川稲荷のお札と、お犬さんやその他色々のお礼を整理する意味で、深く考えずに一緒にお祀りしたそうで御座います。<br><br>その後無雑作にそのようにする事の間違いを知らされ、また狐と犬の仲の悪い事も聞きその事が気になっておりますがどう処置致しましたら宜しゅう御座居ましょうか。<br><br>お伺い申し上げます。<br><br> 一まとめにして、元のお住居へお帰り願う。<br><br>食物を上げ、祝詞を奏げ、後は焼く。<br><br>（S25. 5. 2） 092 足痛と稲荷処分 ある信者の家庭で、以前に祖父が足が痛みました折、日蓮宗でみてもらいましたところ、狐の祟りと言う事でお祀り致しておりましたところ、その後報恩会に入会しましたところ、そんなものは処分するようにと言われ人に譲りました。<br><br>その後その孫夫婦が足が痛んで困っております。<br><br>譲りましたお稲荷さんを貰い返す方が宜敷いでしょうか。<br><br> 狐が怒ったためか、あるいは偶然に足の痛む浄化が起ったとも考えらるる故決められぬが、稲荷はムヤミに処分すると祟る場合がある。<br><br>今少し詳しい事情を述べよ。<br><br> 093 多位牌と陶器狐の処分 陶器の狐の沢山あるのは、光明如来様をお祭りして暫くしてから処分する。<br><br>御奉斎した時にするよりは、お祭りして後暫く経ってからがいい。<br><br>お光が行渡って狐も判り易くなるからである。<br><br> 位牌の沢山あって困る時は、祖霊に事情を話して処分すればよい。<br><br>（S23） 094 買入地稲荷祠の処分 新に工場を買入れたのですが、その敷地内に七、八年前より田地主が稲荷をお祀り致してありますが、特別に祭礼のようなものは致さなかったようです。<br><br>この度工場の方へ大光明如来様をお祀りさせて頂きますにつきましては、この稲荷の御処分はどう致したら宜しいでしょうか。<br><br>御伺い申し上げます。<br><br> そのままにしておいて二、三年経って処分する。<br><br>（S24.10. 3） 095 古い稲荷と犬社の処分 本年二月初め御奉斎、入信しておりますが、以前より稲荷と犬（祖先が苦しめた犬を行者の言で地の神として祀ってある）を裏の空地にお祀りしてあり、処分したいと思いますがどうでしょうか。<br><br> 光明如来様をお迎えして一年経てば処分してよろしい。<br><br> 大体人間の生れ代りであるから、お祀りして、幽世之大神様に再生をお願いする。<br><br> 096 古い稲荷や神体の処分 私の家には五十年前及び十八年前頃より次のようなお宮がありますが、いかに致しましたらよろしゅう御座いましょうか。<br><br> 一、六十七才の父親が家族の病気に際し、当時有名な板橋稲荷様にお伺いしまして、五十年前父の伯父に当る人が頂きました宮。<br><br> 二、昭和七年に病気の折、近所の日蓮様へ御伺い立てをして、次のように三神体をお祭り致しまして現在そのままになっております。<br><br> 妙 妙 正 栄 音 福 大 観 稲 龍 世 荷 玉 音 大 菩 明 薩 神 加 山 家 守 護 神 光明如来様がお祭りしてあれば、食物を上げて今迄の御守護の礼を述べ、お帰り願って焼却すればよい。<br><br>（S24. 8. 9） 097 地神の処分 昔から私の家では地の神（名不明）を祭っておりましたが、最近ほこらがくずれてしまいましたが祭る必要がありますか。<br><br>御伺いします。<br><br> 御神体がなければ祀る要はない。<br><br>空家になっているのだからどんなに処分しても良い。<br><br>（S23.11.27）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de Artigos do Mestre Okada Jikanshi</h2>
 <h2>084 - Paralisia, insônia e o enegrecimento do dedo por matar uma serpente (O método para se desfazer de um pergaminho de divindade dragão)</h2>
@@ -204,5 +356,48 @@ Kazan Ie Shugoshin (Divindade Protetora da Família Kazan)</p>
 <br/>
 </font></p>
 </blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊祀篇 第三篇 ７ 084-097 処分２ 084 中風で不眠、蛇殺し指黒化す（龍神掛軸の処分法） 信者の宮越松江さんの主人（六十四歳）は、昨年一月頃から全身が震え、中風のように涎を流し頭も重苦しく、医師に梅毒と診断されサルバルサン五本を注射致しました。<br/><br/>暫く医師の治療を受けておりましたが、何の変化も御座いませんので御浄霊を頂きましたところ、二十日程で健康になりましたので会社に出勤致しました。<br/><br/>所が三日目の夕方から前と同じ状態になりまして、現在迄御浄霊を続けておりますが変化がなく、最近は不眠と尾抵骨付近の疼痛がはげしいので堪えられない程の苦しみで御座います。<br/><br/> 実は以前神経痛を患った時、蛇を飼い瓶に入れておきましたところ、死にましたので竹に刺して軒端に置きましたところ見えなくなってしまいましたが、それから松江さんの両指が真黒になりました。<br/><br/>行者が龍神の祟だと申しますので、一幅の龍神のお軸をお祀りしたそうで御座います。<br/><br/>指は痛くは御座いませんが依然として黒くなっております。<br/><br/>最近本人は布圃に龍神が乗ってくるように感じ、妻の帯などを見ても蛇に見え恐ろしがります。<br/><br/>一度龍神のお祀りを致しましたらその晩だけはゆっくり休めたそうで御座います。<br/><br/>龍神のお軸を嫌い処分したいと申しておりますが、どう致しましたら宜しゅう御座いましょうか。<br/><br/> 二月に御屏風観音様をお祀りさせて頂きましたが、光明如来様は未だお祀り致して御座いません。<br/><br/>主人の中風の病気と龍神と何か関係が御座いましょうか。<br/><br/>お伺い申し上げます。<br/><br/> 中風である。<br/><br/>蛇の霊もある。<br/><br/>しかも大龍神である。<br/><br/>サルバルサンは何か故障を起す。<br/><br/> 光明如来様を信仰しているうちに治る。<br/><br/>掛軸は処分した方がよい。<br/><br/> お三宝か何かに載せて光明如来様の前へ二、三ケ月置く。<br/><br/>そしてお礼を言い、祝詞を奏げ処分する。<br/><br/>（S25. 5. 2） 085 稲荷、龍神、お札の処分と病気 ある婦人の信者（四十八才）は、昨年九月末、疎開先より東京の本宅に引揚と同時に快活な気性だったのが急に陰鬱になり、判断力も極めて不充分となり、御浄霊を続けておりますが多少楽になったものの余り変化ありません。<br/><br/>その本宅には、引揚の一ケ月前から光明如来様を奉斎してあります。<br/><br/> 所でその引揚の二、三日前に疎開先の家で神棚の御札を処分してしまいました。<br/><br/>また、上京後四日目に仏壇にお祀りしてあった御仏体の中、観音様以外のものを処分しましたが、手続きはちゃんとして霊界にお帰り願ってから焼却致しました。<br/><br/>その後、神棚に残っていた御札の大部分を近くの神社にお移し申したことも御座います。<br/><br/> 所が先日の御話に「以前からその家にお祀りしてあった御神体、御仏体は、光明如来様をお祀りしても一、二年は処分せずにそのままにしておく方がよい」との御言葉がありましたので、昨年処分したことが大変気になっております。<br/><br/> 既に処分した御札や御仏体を再びお祀りすべきでしょうか。<br/><br/> 稲荷、龍神は急に処分してはいけないと私は言った。<br/><br/>他のお札は手続さえすればすぐ処分してよい。<br/><br/>狐、龍神などは執着が強いからである。<br/><br/>（S24. 4.13） 086 稲荷やお札の処分について 稲荷には祖先から祀った稲荷と、豊川、伏見など途中でお札を受けて祀る稲荷と二つある。<br/><br/> よく「御守護神を頂く」というてお札をもらうが、そのお札に狐が憑いてくる。<br/><br/>つまり派遣された稲荷である。<br/><br/>こういう稲荷は元へ返せる。<br/><br/> 狐には役が着いている。<br/><br/>言霊で断わって帰ってもらう。<br/><br/>祖先からのは祖先が稲荷になっているのがあるので、これは処分出来ぬ。<br/><br/>祖先が青大将や稲荷になって守護しているからお礼を言い、事情をいって帰ってもらう。<br/><br/> ○○不動尊などはやはり不動尊の眷族で鳥が多い。<br/><br/>これは処分してもよい。<br/><br/>不動明王とて観音様の家来で、元はいいが今は堕落した。<br/><br/>（S23. 6.27） 087 稲荷処分の法 稲荷を部屋の内に祭る事はよろしくないように伺っておりますが、今迄部屋の内に祭ってあった稲荷を庭に祭らせて頂く場合の方法を御教示願い申し上げます。<br/><br/> 稲荷はやたらに祀りかえてはいけない。<br/><br/>怒ってアダする事がある。<br/><br/>祖先からあった稲荷は大祖先が稲荷になって守護しているのであるから、部屋の中でいいが、中途の祖先が祀ったものは処理した方が宜しい。<br/><br/>その場合、お供物を上げて今日迄の御守護の礼をいって、今度観音様をお祭りする事となったからお帰り願いたいと口でいうだけでよい。<br/><br/>祝詞は天津祝詞を奏げればよい。<br/><br/> 088 メチールで失明、稲荷の祀り 三代前の家人が菩提寺より戴きし妙見様の木像を、昨春某行者の言に従いて寺に預け後、当主はメチール禍にて失明致しました。<br/><br/> なお当家には昭和六年に行者より貰いし稲荷を屋内の高き棚に祀ってあります。<br/><br/>失明と霊的の関係があるでしょうか。<br/><br/> これはメチールのためである。<br/><br/>メチールは放置しておけば失明したようなのも治る。<br/><br/> 稲荷は庭へ祀り、二、三年経って処分する。<br/><br/>祖先からあった稲荷は別で、祖霊が狐になって守護している事がある。<br/><br/>（S23.10.25） 089 稲荷処分後の不幸 ある信者の家庭で、二年前に御神体をお祭りすると同時に稲荷を処分致したところ、その後不幸や争がつづく由、どうしましょうか。<br/><br/> 一、二年はそのままにしておくべきである。<br/><br/>神様でも一ぺんにおことわりするのは道に外れる。<br/><br/>再びよんでおわびする。<br/><br/>祀り方を簡単にし、よくおわびするとよい。<br/><br/>（S24. 4. 2） 090 妙見菩薩と最上狐 南無開運北辰妙見大菩薩とはどんな仏様ですか。<br/><br/>また南無最上狐大菩薩、この稲荷様はどんな方ですか。<br/><br/> これは狐を祭ってこのような名をつけたものであろう。<br/><br/>妙見菩薩とは印度にある。<br/><br/>その名をつけたもので大して意味はない。<br/><br/> 最上狐大菩薩、これは狐の力のある奴であろう。<br/><br/>こういういかがわしいものからは、だんだん縁を切るようにした方がよい。<br/><br/>しかし余り急に縁を切るとアダをするからその点考えるべきである。<br/><br/> 091 豊川の札等の整理 一信者の家で祖父の代にお祀り致しました名前不明のお稲荷さんが御座いますが、この度そのお宮の中に豊川稲荷のお札と、お犬さんやその他色々のお礼を整理する意味で、深く考えずに一緒にお祀りしたそうで御座います。<br/><br/>その後無雑作にそのようにする事の間違いを知らされ、また狐と犬の仲の悪い事も聞きその事が気になっておりますがどう処置致しましたら宜しゅう御座居ましょうか。<br/><br/>お伺い申し上げます。<br/><br/> 一まとめにして、元のお住居へお帰り願う。<br/><br/>食物を上げ、祝詞を奏げ、後は焼く。<br/><br/>（S25. 5. 2） 092 足痛と稲荷処分 ある信者の家庭で、以前に祖父が足が痛みました折、日蓮宗でみてもらいましたところ、狐の祟りと言う事でお祀り致しておりましたところ、その後報恩会に入会しましたところ、そんなものは処分するようにと言われ人に譲りました。<br/><br/>その後その孫夫婦が足が痛んで困っております。<br/><br/>譲りましたお稲荷さんを貰い返す方が宜敷いでしょうか。<br/><br/> 狐が怒ったためか、あるいは偶然に足の痛む浄化が起ったとも考えらるる故決められぬが、稲荷はムヤミに処分すると祟る場合がある。<br/><br/>今少し詳しい事情を述べよ。<br/><br/> 093 多位牌と陶器狐の処分 陶器の狐の沢山あるのは、光明如来様をお祭りして暫くしてから処分する。<br/><br/>御奉斎した時にするよりは、お祭りして後暫く経ってからがいい。<br/><br/>お光が行渡って狐も判り易くなるからである。<br/><br/> 位牌の沢山あって困る時は、祖霊に事情を話して処分すればよい。<br/><br/>（S23） 094 買入地稲荷祠の処分 新に工場を買入れたのですが、その敷地内に七、八年前より田地主が稲荷をお祀り致してありますが、特別に祭礼のようなものは致さなかったようです。<br/><br/>この度工場の方へ大光明如来様をお祀りさせて頂きますにつきましては、この稲荷の御処分はどう致したら宜しいでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> そのままにしておいて二、三年経って処分する。<br/><br/>（S24.10. 3） 095 古い稲荷と犬社の処分 本年二月初め御奉斎、入信しておりますが、以前より稲荷と犬（祖先が苦しめた犬を行者の言で地の神として祀ってある）を裏の空地にお祀りしてあり、処分したいと思いますがどうでしょうか。<br/><br/> 光明如来様をお迎えして一年経てば処分してよろしい。<br/><br/> 大体人間の生れ代りであるから、お祀りして、幽世之大神様に再生をお願いする。<br/><br/> 096 古い稲荷や神体の処分 私の家には五十年前及び十八年前頃より次のようなお宮がありますが、いかに致しましたらよろしゅう御座いましょうか。<br/><br/> 一、六十七才の父親が家族の病気に際し、当時有名な板橋稲荷様にお伺いしまして、五十年前父の伯父に当る人が頂きました宮。<br/><br/> 二、昭和七年に病気の折、近所の日蓮様へ御伺い立てをして、次のように三神体をお祭り致しまして現在そのままになっております。<br/><br/> 妙 妙 正 栄 音 福 大 観 稲 龍 世 荷 玉 音 大 菩 明 薩 神 加 山 家 守 護 神 光明如来様がお祭りしてあれば、食物を上げて今迄の御守護の礼を述べ、お帰り願って焼却すればよい。<br/><br/>（S24. 8. 9） 097 地神の処分 昔から私の家では地の神（名不明）を祭っておりましたが、最近ほこらがくずれてしまいましたが祭る必要がありますか。<br/><br/>御伺いします。<br/><br/> 御神体がなければ祀る要はない。<br/><br/>空家になっているのだからどんなに処分しても良い。<br/><br/>（S23.11.27）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

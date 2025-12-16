@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>tikara</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 力 『栄光』151号、昭和27(1952)年4月9日発行 力について世の中の人は深い事を知らないからここにかいてみるが、これを科学的定義でいうならば、目に見える形ある力程弱く、見えない力程強いという原理である。<br><br>すなわち前者は何馬力とか、何キログラムとかいうように限度があるが、後者に至っては無限である。<br><br>つまり人間の想念と同じで、目には見えないが恐るべき力がある。<br><br>偉い人の力は一人で世界を動かす事さえ出来るのは人の知る通りである。<br><br> 右は人間だけについての説明であるが、これを押し拡げたのが神様の力である。<br><br>これを科学的に説く事も出来る。<br><br>すなわち科学で唱える粒子説がそれで、これによると人間の霊は素粒子であって、神様の霊は微粒子である。<br><br>もちろん神様でも神格が高まる程、微粒子の度は益々高くなりそれと共に稀薄にもなるのである。<br><br>このように力学的にいっても素粒子程力が弱く、微粒子程力が強い事を知るべきである。<br><br> この理によって最高級の神様の事を、神道では幽の幽とか、または幽幻微妙などとも言われるのは全くそれを表現した言葉である。<br><br>この理によって私に与えられている神力は、最高級の神霊であるから、絶対力といってもいいくらいのもので、この力は本当に揮われた者は、昔から一人もなかったのである。<br><br>彼のキリストにしろ、言い難い話だが割合弱かったのは事実がよく示している。<br><br>すなわちキリストの行った奇蹟といっても御自分だけのもので、弟子達にまで分け与える事は出来なかったのである。<br><br>その他の聖者にしても、ことごとく限られた力であった事はその事蹟が示している。<br><br> ここに私の事を少しかいてみるが、私の発揮する力の大きさと強さは、無限絶対と言ってもいいくらいで、現在行使してる力は一部の発揮でしかないがそれでも知り得た人は驚嘆する。<br><br>信者はもちろんだが信者の中でも熱心な人で何分の一くらいしか分かり得ないのである。<br><br>言うまでもなくいずれは本当に発揮する時が来るから、その時は開いた口が塞がらないであろう。<br><br>ゆえに今から腹帯をしっかり締めておく必要がある。<br><br>そうして私が現在現している力だけでさえ病気を治す人間を作り、農業の増産法を教え、神の実在を分からせる奇蹟を現しているばかりか、大規模な地上天国や美術館をも造っているのだがこれらはホンの小手調べで時と共に段々押し拡がりいずれは世界的に天国を造る事になろうから、本当の神力はこれからである。<br><br> そのような訳でもっと詳しく知らせたいが、今言ったところで到底信ずる事は出来ないし、神秘でもあるから、ホンの一部分だけ時に応じ、進むに従い発表するのである。<br><br>これを要約すれば善言讃詞にある通りの世界を造ってゆくのである。<br><br>特に一言いっておきたいのは、最大の争いである国と国との戦争であるが、これも私は時が来れば、一挙に無くす事が出来るだけの力ももっているから、安心して貰いたいのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Princípio do Poder</h2>
 <p>As pessoas, em geral, não compreendem a natureza profunda do poder. Gostaria, portanto, de dissertar sobre o assunto. Sob a ótica de uma definição científica, poderíamos enunciar o seguinte princípio: quanto mais visível e tangível é uma força, mais fraca ela se revela; em contrapartida, quanto mais invisível, mais forte ela é. A primeira, por exemplo, pode ser medida em cavalos-vapor ou quilogramas, possuindo, portanto, um limite. Já a segunda, essa é infinita. O pensamento humano é um exemplo análogo: embora invisível, detém uma força formidável. Como todos sabem, o poder emanado de grandes personalidades é capaz, por si só, de mover o mundo.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Em virtude desse princípio, no Xintoísmo, as divindades de mais alta hierarquia são referidas por termos como <em>yū no yū</em> (幽の幽) ou <em>yūgen bimyō</em> (幽幻微妙), expressões que capturam com exatidão essa realidade. Por essa mesma razão, o poder divino que me foi concedido provém de um espírito divino da mais elevada categoria, podendo ser qualificado como um poder absoluto. Na verdade, jamais existiu alguém, ao longo da história, que tenha verdadeiramente empunhado tal poder. Tomemos o exemplo de Cristo. Embora possa parecer indelicado dizê-lo, os fatos demonstram que seu poder era relativamente limitado. Com efeito, os milagres que realizou se restringiram a si mesmo; ele não foi capaz de partilhá-los com seus discípulos. Da mesma forma, as biografias de outros santos revelam que todos eles possuíam um poder circunscrito.</p>
 <p>Permitam-me tecer alguns comentários sobre mim mesmo. A magnitude e a intensidade do poder que manifesto podem ser descritas como infinitas e absolutas. A força que exerço atualmente é apenas uma fração do seu total, mas, ainda assim, aqueles que a percebem ficam assombrados. Isto se aplica, evidentemente, aos fiéis, mas mesmo entre os mais devotos, apenas uma ínfima parte consegue compreender sua verdadeira dimensão. Desnecessário dizer que chegará o tempo de manifestá-lo em sua plenitude e, nessa ocasião, as pessoas ficarão estarrecidas, de queixo caído. Portanto, é preciso que, desde já, preparem-se e fortaleçam o espírito. Observem que, mesmo com a força que demonstro no presente, estou formando pessoas capazes de curar doenças, ensinando métodos para aumentar a produção agrícola e realizando milagres que comprovam a existência de Deus. Além disso, estou construindo um Paraíso Terrestre em larga escala, bem como museus de arte. Contudo, tudo isso não passa de um ensaio preliminar. Com o tempo, essa obra se expandirá progressivamente, até que edifiquemos o Paraíso em escala mundial. O verdadeiro poder divino, portanto, ainda está por vir.</p>
 <p>Por esses motivos, embora eu deseje revelar mais detalhes, sei que seria impossível acreditarem em minhas palavras neste momento; ademais, trata-se de um mistério. Por essa razão, irei anunciando apenas fragmentos, conforme a ocasião e o progresso dos acontecimentos. Em síntese, o que farei é edificar o mundo exatamente como descrito na oração Zengen Sanji. Gostaria de acrescentar um ponto de especial importância: refiro-me ao maior de todos os conflitos, a guerra entre as nações. Saibam que, quando o momento oportuno chegar, eu também possuo o poder de eliminá-la de uma só vez. Por isso, podem ficar tranquilos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 力 『栄光』151号、昭和27(1952)年4月9日発行 力について世の中の人は深い事を知らないからここにかいてみるが、これを科学的定義でいうならば、目に見える形ある力程弱く、見えない力程強いという原理である。<br/><br/>すなわち前者は何馬力とか、何キログラムとかいうように限度があるが、後者に至っては無限である。<br/><br/>つまり人間の想念と同じで、目には見えないが恐るべき力がある。<br/><br/>偉い人の力は一人で世界を動かす事さえ出来るのは人の知る通りである。<br/><br/> 右は人間だけについての説明であるが、これを押し拡げたのが神様の力である。<br/><br/>これを科学的に説く事も出来る。<br/><br/>すなわち科学で唱える粒子説がそれで、これによると人間の霊は素粒子であって、神様の霊は微粒子である。<br/><br/>もちろん神様でも神格が高まる程、微粒子の度は益々高くなりそれと共に稀薄にもなるのである。<br/><br/>このように力学的にいっても素粒子程力が弱く、微粒子程力が強い事を知るべきである。<br/><br/> この理によって最高級の神様の事を、神道では幽の幽とか、または幽幻微妙などとも言われるのは全くそれを表現した言葉である。<br/><br/>この理によって私に与えられている神力は、最高級の神霊であるから、絶対力といってもいいくらいのもので、この力は本当に揮われた者は、昔から一人もなかったのである。<br/><br/>彼のキリストにしろ、言い難い話だが割合弱かったのは事実がよく示している。<br/><br/>すなわちキリストの行った奇蹟といっても御自分だけのもので、弟子達にまで分け与える事は出来なかったのである。<br/><br/>その他の聖者にしても、ことごとく限られた力であった事はその事蹟が示している。<br/><br/> ここに私の事を少しかいてみるが、私の発揮する力の大きさと強さは、無限絶対と言ってもいいくらいで、現在行使してる力は一部の発揮でしかないがそれでも知り得た人は驚嘆する。<br/><br/>信者はもちろんだが信者の中でも熱心な人で何分の一くらいしか分かり得ないのである。<br/><br/>言うまでもなくいずれは本当に発揮する時が来るから、その時は開いた口が塞がらないであろう。<br/><br/>ゆえに今から腹帯をしっかり締めておく必要がある。<br/><br/>そうして私が現在現している力だけでさえ病気を治す人間を作り、農業の増産法を教え、神の実在を分からせる奇蹟を現しているばかりか、大規模な地上天国や美術館をも造っているのだがこれらはホンの小手調べで時と共に段々押し拡がりいずれは世界的に天国を造る事になろうから、本当の神力はこれからである。<br/><br/> そのような訳でもっと詳しく知らせたいが、今言ったところで到底信ずる事は出来ないし、神秘でもあるから、ホンの一部分だけ時に応じ、進むに従い発表するのである。<br/><br/>これを要約すれば善言讃詞にある通りの世界を造ってゆくのである。<br/><br/>特に一言いっておきたいのは、最大の争いである国と国との戦争であるが、これも私は時が来れば、一挙に無くす事が出来るだけの力ももっているから、安心して貰いたいのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

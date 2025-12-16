@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>syukyo08</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教と医学 『光』6号、昭和24(1949)年4月25日発行 さる三月一日岐阜県高山市において「迷信と宗教」の題目の下に街頭録音があった。<br><br>超えて三日及び五日に名古屋放送局より全国中継を行ったが、この放送の狙いはもちろん本教であった事に間違いはない、また岐阜、愛知及び静岡地方の新聞紙にもしきりに本教団を問題にした記事が出ている。<br><br>そうしてそのいずれもが本教と病気との関係についての批判が主なるもので、医師会と本教との対照記事もあり、本教は医療の非難はしないが、医師会は本教を非難した記事が出ていた、また街頭録音においては攻撃の矢を向けた二人まで医師である事を言明した。<br><br>これらによってみても医師及び医師会方面が運動の中心となって、本教の指弾に大童（おおわらわ）となっている事実を看取（かんしゅ）さるるのである、殊に放送の際のごときは一人の医師は官憲にむかって、極力弾圧を要望していたくらいである。<br><br> 以上のごとく、本教を目ざしてヤッ気となっている事は実に不可解である、万一本教が法規に触れたり、社会に害を与えるような事ありとすれば、医師会方面で働きかけなくとも当局の役目として厳重なる取締りをするはずである、しかるに何がゆえに本教を目の仇（かたき）にするかをつくづく考えてみるにこういう訳ではないかと思う。<br><br>それは一度本教に入るや、難症重症が驚くほど治癒さるるので、その事が医家に一種の恐怖と刺戟を与えるのではないかと想像するより外に考えようがない。<br><br>とすれば全くおかしな話である、医家としても真の目的は病気を治し、人間を健康にするという事が唯一の本意である以上、自己の物である医学で治らないで、他のいかなる方法であっても完全に治癒されたとしたら大いに喜ぶべきではなかろうか、否むしろ進んで本教を衝き、その研究にまで進む事こそ医家としての本分を全うするゆえんではなかろうか、本当からいえば進歩せる現代医学でどうしても治らなかったものが、短時日に治癒されるという方法が生まれたとしたら、それは実に世界の一大驚異であって空前の大問題である、安閑として手をこまねいたりうそぶいたりしている場合ではない、一刻も速くこの革命的療法を検討しなければならないはずであるにかかわらず、今日まで実際を見ながら触れようとはしないばかりか、彼らは一顧だもしない、それどころか中には触れるのを恐れる者さえあるに至っては実に解釈に苦しむのである、吾々をして忌憚なくいわしむれば、薬剤も器械も要せずして大部分の病患は完全に治癒するのであるから、今日全世界の医学者が研究室に閉じ籠り、動物試験や放射線、新薬発覚等に努力している事は、実は徒労に過ぎないとさえ吾らには思えるのである、何となれば病理の発見も療法も理想的なものがすでに成立し実行し、驚異的効果を挙げつつあるにおいてをやである、ゆえに本教の信仰療法がある時期に到って一般に認識されるとしたら、全世界の医学は一大革命を捲き起こさずにはいられないであろう。<br><br> そうして信仰療法の場合一般世人は、精神作用が加わるから治癒さるるとよくいわれるが、これは実は反対である、まずそれを説明してみよう、ここに病気に罹った場合、何人といえども一番最初に医家の診療を受けるのが常識である、科学万能時代の今日、世間からとやかく言われ迷信邪教と目されているものに、最初から病気を治しに行くようなものは恐らく一人もあるまい、病気は医者が治すもの、薬で治るものと昔から根強く信じられている以上医療の場合精神作用による好影響は覿面（てきめん）であるから、病気は速かに快癒されなければならないはずであるにかかわらず、多くの事実は反対ではかばかしく治らない、一進一退の経過をたどりつつ医師や病院を取替えたり、入院や自宅療法を医家の指図通り実行しながらも漸次病勢は悪化し、どうにもこうにもならない事態となるので、やむなく民間療法や信仰療法をあさるというようになる、ところがそれでもなかなか良くならない、病勢は極度にまで悪化し、ついに苦悩のあまり自殺を決意するものさえある、自殺を今日決行しようが明日決行しようかというような断末魔の苦い経験を全快者の思い出話としてよく聞くのである、しかもそれまでに費やした医療費その他は実に莫大に上る事はもちろんで、結局多額の費用の代償として受取ったものは、死の一歩手前の悲惨なる運命に外ならないという訳である。<br><br> 以上のような死の一歩手前まで追詰めたというそもそもの責任は一体誰が負うべきであろうか、何よりもまずこの事を深く考えなければならないとすれば、この責任は当然これまでに悪化さした医家が負うべきものであろう、しかしながら医家として一々その責任を負うとなったら、医業をやめるより外はないという事になる、そこで今一層深く掘下げてみると、実際問題として医家には責任はない事になる、それでは一体誰が負うべきかというと、そこに意外なるあるものがある、そのあるものとは医学という学問である、すなわちその学問に一大欠陥の伏在している事をいまだ知らなかったのである、ゆえにいかに進歩したように思われている医学でも、人類から病患を取除く事は絶対不可能である、それを簡単にいえば、医療のすべては一方に効果があるだけ他の一方には害があるという訳で、専門家も一般人も効果のみをみて害の方に気がつかない、ちょうど秤（はかり）と同様一方が上れば一方が下るという訳である、何よりの証拠は頻繁に新薬や新療法が表われる事実で、その訳は真の決定版が生まれないからである、特に結核に対する特効薬がそうである。<br><br> なお精神作用について今一つ言うべき事がある、さきに述べたごとく、信仰的と思わるる程に一般から信じられている現代医学にかかっても効果がなく、遂に悪化のドン底に追い込まれ、藁（わら）をも掴みたい心境にある時、たまたまなんらかの機会で本教に救いを求めようとする場合、専門家はいう「病気は進歩せる現代医学の外に治るべきものは絶対にない、もしありとすればそれは迷信である」と注意を促す、新聞雑誌やラジオ等でも、当局の言として「罹病の場合一刻も早く医療にかかれ」と言い、それが正しい方法であるとし、迷信邪教に騙されてはならないと警告する、親戚知人や家庭の者は「病気は医者でなくては治らない、何々博士の診療で治らないとすれば全く寿命であるから諦めるより仕方がない」という、しかし誰しも生命は惜しい、その際勧める人があって信仰へ触れようとするが、周囲の者は極力反対する、実にあの手この手で防止手段は至れり尽せりである、しかし患者はどうしても諦められないまま信仰に救いを求めるが最初は誰もが疑心暗鬼で恐るおそるしかも極めて秘密に近寄るのが大多数のやり方である、このような訳で、精神作用からいえば絶対的悪条件であるにかかわらず、驚くべき奇蹟が現われ、さすがの難病も一転して苦痛は軽減し恢復に向かい始め、ついに治癒するのである、この実際的効果に見ても科学療法との優劣は多くを言う必要はあるまい、このように救われる人のいかに多数であるかは、その報告礼状が机上に山を成すに見ても明らかで、いずれもその感謝感激の溢るる心情は涙なくしては読めないのである、その一部を本紙「おかげばなし」として掲載されている。<br><br> また彼らは吾々の方で奇蹟的にいかに病気が治っても理屈に合わないからいけないというが、それは理屈の方が間違っているからで、実際に治る理屈の方が本当の理屈である。<br><br> 以上のごとく長々と論じて来たが、結論として言いたい事は、病気は治ればいいのである、治れば、それが真の医術で、病気が治って健康になれば患者はそれで満足し、それ以上に何を求むるであろう。<br><br> 吾らは以上の意味において、迷信邪教の不快極まる言葉を、ここに返上するのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Uma Reflexão sobre a Ciência Médica</h2>
 <p>Recentemente, em 1º de março, na cidade de Takayama, província de Gifu, foi realizada uma gravação pública sob o tema “Superstição e Religião”. Posteriormente, nos dias 3 e 5, a Rádio de Nagoia a transmitiu para todo o país. O alvo dessa transmissão, inequivocamente, era a nossa Igreja. Ademais, jornais das províncias de Gifu, Aichi e Shizuoka têm publicado, com insistência, artigos que questionam nossa instituição.</p>
@@ -106,5 +258,48 @@ function toggleLang(lang) {
 <p>Nossos críticos, por sua vez, alegam que, ainda que curemos milagrosamente, nosso método é inaceitável por não se conformar à lógica. Isso apenas demonstra que a lógica deles está equivocada. A verdadeira lógica é aquela que corresponde à realidade da cura.</p>
 <p>Após esta longa exposição, a conclusão que desejo apresentar é a seguinte: o que importa, em última análise, é que a doença seja curada. Se a cura é alcançada, essa é a verdadeira arte médica. O paciente, ao recuperar a saúde, sente-se plenamente satisfeito. O que mais poderia ele desejar?</p>
 <p>É por essa razão que devolvemos, a quem de direito, os epítetos odiosos de “superstição” e “doutrina herética”.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教と医学 『光』6号、昭和24(1949)年4月25日発行 さる三月一日岐阜県高山市において「迷信と宗教」の題目の下に街頭録音があった。<br/><br/>超えて三日及び五日に名古屋放送局より全国中継を行ったが、この放送の狙いはもちろん本教であった事に間違いはない、また岐阜、愛知及び静岡地方の新聞紙にもしきりに本教団を問題にした記事が出ている。<br/><br/>そうしてそのいずれもが本教と病気との関係についての批判が主なるもので、医師会と本教との対照記事もあり、本教は医療の非難はしないが、医師会は本教を非難した記事が出ていた、また街頭録音においては攻撃の矢を向けた二人まで医師である事を言明した。<br/><br/>これらによってみても医師及び医師会方面が運動の中心となって、本教の指弾に大童（おおわらわ）となっている事実を看取（かんしゅ）さるるのである、殊に放送の際のごときは一人の医師は官憲にむかって、極力弾圧を要望していたくらいである。<br/><br/> 以上のごとく、本教を目ざしてヤッ気となっている事は実に不可解である、万一本教が法規に触れたり、社会に害を与えるような事ありとすれば、医師会方面で働きかけなくとも当局の役目として厳重なる取締りをするはずである、しかるに何がゆえに本教を目の仇（かたき）にするかをつくづく考えてみるにこういう訳ではないかと思う。<br/><br/>それは一度本教に入るや、難症重症が驚くほど治癒さるるので、その事が医家に一種の恐怖と刺戟を与えるのではないかと想像するより外に考えようがない。<br/><br/>とすれば全くおかしな話である、医家としても真の目的は病気を治し、人間を健康にするという事が唯一の本意である以上、自己の物である医学で治らないで、他のいかなる方法であっても完全に治癒されたとしたら大いに喜ぶべきではなかろうか、否むしろ進んで本教を衝き、その研究にまで進む事こそ医家としての本分を全うするゆえんではなかろうか、本当からいえば進歩せる現代医学でどうしても治らなかったものが、短時日に治癒されるという方法が生まれたとしたら、それは実に世界の一大驚異であって空前の大問題である、安閑として手をこまねいたりうそぶいたりしている場合ではない、一刻も速くこの革命的療法を検討しなければならないはずであるにかかわらず、今日まで実際を見ながら触れようとはしないばかりか、彼らは一顧だもしない、それどころか中には触れるのを恐れる者さえあるに至っては実に解釈に苦しむのである、吾々をして忌憚なくいわしむれば、薬剤も器械も要せずして大部分の病患は完全に治癒するのであるから、今日全世界の医学者が研究室に閉じ籠り、動物試験や放射線、新薬発覚等に努力している事は、実は徒労に過ぎないとさえ吾らには思えるのである、何となれば病理の発見も療法も理想的なものがすでに成立し実行し、驚異的効果を挙げつつあるにおいてをやである、ゆえに本教の信仰療法がある時期に到って一般に認識されるとしたら、全世界の医学は一大革命を捲き起こさずにはいられないであろう。<br/><br/> そうして信仰療法の場合一般世人は、精神作用が加わるから治癒さるるとよくいわれるが、これは実は反対である、まずそれを説明してみよう、ここに病気に罹った場合、何人といえども一番最初に医家の診療を受けるのが常識である、科学万能時代の今日、世間からとやかく言われ迷信邪教と目されているものに、最初から病気を治しに行くようなものは恐らく一人もあるまい、病気は医者が治すもの、薬で治るものと昔から根強く信じられている以上医療の場合精神作用による好影響は覿面（てきめん）であるから、病気は速かに快癒されなければならないはずであるにかかわらず、多くの事実は反対ではかばかしく治らない、一進一退の経過をたどりつつ医師や病院を取替えたり、入院や自宅療法を医家の指図通り実行しながらも漸次病勢は悪化し、どうにもこうにもならない事態となるので、やむなく民間療法や信仰療法をあさるというようになる、ところがそれでもなかなか良くならない、病勢は極度にまで悪化し、ついに苦悩のあまり自殺を決意するものさえある、自殺を今日決行しようが明日決行しようかというような断末魔の苦い経験を全快者の思い出話としてよく聞くのである、しかもそれまでに費やした医療費その他は実に莫大に上る事はもちろんで、結局多額の費用の代償として受取ったものは、死の一歩手前の悲惨なる運命に外ならないという訳である。<br/><br/> 以上のような死の一歩手前まで追詰めたというそもそもの責任は一体誰が負うべきであろうか、何よりもまずこの事を深く考えなければならないとすれば、この責任は当然これまでに悪化さした医家が負うべきものであろう、しかしながら医家として一々その責任を負うとなったら、医業をやめるより外はないという事になる、そこで今一層深く掘下げてみると、実際問題として医家には責任はない事になる、それでは一体誰が負うべきかというと、そこに意外なるあるものがある、そのあるものとは医学という学問である、すなわちその学問に一大欠陥の伏在している事をいまだ知らなかったのである、ゆえにいかに進歩したように思われている医学でも、人類から病患を取除く事は絶対不可能である、それを簡単にいえば、医療のすべては一方に効果があるだけ他の一方には害があるという訳で、専門家も一般人も効果のみをみて害の方に気がつかない、ちょうど秤（はかり）と同様一方が上れば一方が下るという訳である、何よりの証拠は頻繁に新薬や新療法が表われる事実で、その訳は真の決定版が生まれないからである、特に結核に対する特効薬がそうである。<br/><br/> なお精神作用について今一つ言うべき事がある、さきに述べたごとく、信仰的と思わるる程に一般から信じられている現代医学にかかっても効果がなく、遂に悪化のドン底に追い込まれ、藁（わら）をも掴みたい心境にある時、たまたまなんらかの機会で本教に救いを求めようとする場合、専門家はいう「病気は進歩せる現代医学の外に治るべきものは絶対にない、もしありとすればそれは迷信である」と注意を促す、新聞雑誌やラジオ等でも、当局の言として「罹病の場合一刻も早く医療にかかれ」と言い、それが正しい方法であるとし、迷信邪教に騙されてはならないと警告する、親戚知人や家庭の者は「病気は医者でなくては治らない、何々博士の診療で治らないとすれば全く寿命であるから諦めるより仕方がない」という、しかし誰しも生命は惜しい、その際勧める人があって信仰へ触れようとするが、周囲の者は極力反対する、実にあの手この手で防止手段は至れり尽せりである、しかし患者はどうしても諦められないまま信仰に救いを求めるが最初は誰もが疑心暗鬼で恐るおそるしかも極めて秘密に近寄るのが大多数のやり方である、このような訳で、精神作用からいえば絶対的悪条件であるにかかわらず、驚くべき奇蹟が現われ、さすがの難病も一転して苦痛は軽減し恢復に向かい始め、ついに治癒するのである、この実際的効果に見ても科学療法との優劣は多くを言う必要はあるまい、このように救われる人のいかに多数であるかは、その報告礼状が机上に山を成すに見ても明らかで、いずれもその感謝感激の溢るる心情は涙なくしては読めないのである、その一部を本紙「おかげばなし」として掲載されている。<br/><br/> また彼らは吾々の方で奇蹟的にいかに病気が治っても理屈に合わないからいけないというが、それは理屈の方が間違っているからで、実際に治る理屈の方が本当の理屈である。<br/><br/> 以上のごとく長々と論じて来たが、結論として言いたい事は、病気は治ればいいのである、治れば、それが真の医術で、病気が治って健康になれば患者はそれで満足し、それ以上に何を求むるであろう。<br/><br/> 吾らは以上の意味において、迷信邪教の不快極まる言葉を、ここに返上するのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

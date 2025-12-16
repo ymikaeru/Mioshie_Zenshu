@@ -1,17 +1,388 @@
-﻿
-A {text-decoration:none } 
-A:link    {COLOR: #0033cc;}
-A:visited {COLOR: #0066ff;}
-A:active  {COLOR: red; }
-A:hover   {text-decoration:underline;COLOR: #ff9900;}
-
-BODY{
-  scrollbar-face-color:#E6F6D6; /*スクロールバー本体の色*/
-  scrollbar-3dlight-color: #E6F6D6; /*スクロールバーの左側（下）の影*/
-  scrollbar-arrow-color: #e0e8c8; /*矢印の色*/
-  scrollbar-darkshadow-color: #ffffff; /*スクロールバー右側（下）の影*/
+﻿A {
+    text-decoration: none
 }
-BODY, TH, TD { font-family: 'ＭＳ Ｐゴシック,Osaka－等幅'; }
-BODY, TH, TD { line-height: 140%; }
+
+A:link {
+    COLOR: #0033cc;
+}
+
+A:visited {
+    COLOR: #0066ff;
+}
+
+A:active {
+    COLOR: red;
+}
+
+A:hover {
+    text-decoration: underline;
+    COLOR: #ff9900;
+}
+
+BODY {
+    scrollbar-face-color: #E6F6D6;
+    /*スクロールバー本体の色*/
+    scrollbar-3dlight-color: #E6F6D6;
+    /*スクロールバーの左側（下）の影*/
+    scrollbar-arrow-color: #e0e8c8;
+    /*矢印の色*/
+    scrollbar-darkshadow-color: #ffffff;
+    /*スクロールバー右側（下）の影*/
+}
+
+BODY,
+TH,
+TD {
+    font-family: 'ＭＳ Ｐゴシック,Osaka－等幅';
+}
+
+BODY,
+TH,
+TD {
+    line-height: 120%;
+}
+
+P.honbun {
+    text-align: justify;
+}
 
 
+
+/* Modal Styles adapted from Home/Advanced Search */
+/* Modal Styles adapted for Nordic Design (Minimalist, Airy, Functional) */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(30, 40, 45, 0.6);
+    /* Softer, cooler overlay */
+    backdrop-filter: blur(8px);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.modal-overlay.active {
+    display: flex;
+}
+
+.modal-window {
+    width: 95%;
+    height: 60%;
+    max-width: 1400px;
+    /* Wider canvas */
+    background: white;
+    border-radius: 16px;
+    /* Softer corners */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 40px 80px -20px rgba(0, 0, 0, 0.15);
+}
+
+.modal-header {
+    padding: 1.5rem 2.5rem;
+    background: #fff;
+    /* Removed border-bottom for cleaner look, relying on spacing */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#modalTitle {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    /* Lighter weight */
+    font-size: 1.5rem;
+    color: #1a202c;
+    letter-spacing: -0.02em;
+}
+
+.modal-close {
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #a0aec0;
+    transition: color 0.2s, transform 0.2s;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.modal-close:hover {
+    color: #2d3748;
+    background: #f7fafc;
+    transform: rotate(90deg);
+}
+
+.modal-body {
+    padding: 1rem 3rem 3rem 3rem;
+    /* More generous horizontal padding */
+    overflow-y: auto;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.8;
+    /* Airier line height */
+    color: #2d3748;
+}
+
+/* Specific Poem Styling */
+.poem-detail-original {
+    font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+    font-size: 1.5rem;
+    /* Larger for aesthetics */
+    color: #2d3748;
+    margin-bottom: 2rem;
+    line-height: 2;
+}
+
+.poem-detail-reading {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    color: #718096;
+    margin-bottom: 1.5rem;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.poem-detail-translation {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.4rem;
+    /* Match visual weight of JP */
+    font-weight: 300;
+    line-height: 1.6;
+    color: #1a202c;
+    margin-bottom: 2rem;
+}
+
+.poem-meta-block {
+    margin-top: 2.5rem;
+    padding-top: 2rem;
+    border-top: 1px solid #edf2f7;
+    /* Very subtle divider */
+}
+
+.poem-meta-title {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #a0aec0;
+    /* Muted label */
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.poem-list-item {
+    cursor: pointer;
+    padding: 15px;
+    border-bottom: 1px solid #edf2f7;
+    transition: all 0.2s ease;
+    border-radius: 8px;
+}
+
+.poem-list-item:hover {
+    background: #f7fafc;
+    transform: translateX(4px);
+    /* Nordic subtle motion */
+}
+
+.poem-number {
+    font-weight: 600;
+    color: #718096;
+    /* Subtle number */
+    margin-right: 12px;
+}
+
+/* Split View for Modal */
+.modal-split-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    /* Generous gap */
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .modal-split-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .modal-body {
+        padding: 1.5rem;
+    }
+}
+
+.modal-col-left {
+    padding-right: 30px;
+    /* Removed border-right for cleaner look */
+}
+
+.modal-col-right {
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 50px;
+    /* Align visually with JP text start (skipping the label for alignment if needed, or just padding) */
+}
+
+/* Adjustments for labels inside columns */
+.modal-col-left .poem-meta-title,
+.modal-col-right .poem-meta-title {
+    color: #cbd5e0;
+    /* Even softer for internal column labels */
+    margin-bottom: 1.5rem;
+}
+
+/* ============================================
+   NEW: Home-Style Modal Layout for Yama to Mizu
+   ============================================ */
+.poem-modal-content {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.poem-badge {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    color: #718096;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.poem-original-large {
+    font-family: "Yu Mincho", "Hiragino Mincho ProN", "Noto Serif JP", serif;
+    font-size: 2rem;
+    color: #2E5C8A;
+    line-height: 1.6;
+    margin-bottom: 0.8rem;
+    font-weight: 400;
+}
+
+.poem-reading-romaji {
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    color: #a0aec0;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+}
+
+.poem-pt-title {
+    font-size: 1rem;
+    color: #4a5568;
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+}
+
+.poem-translation-featured {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #1a202c;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Info Cards (Kigo, Kototama) */
+.poem-info-card {
+    text-align: left;
+    border-left: 3px solid #48bb78;
+    padding: 0.8rem 1rem;
+    margin: 0.8rem 0;
+    background: #f7fafc;
+    border-radius: 0 6px 6px 0;
+}
+
+.poem-info-card .card-header {
+    font-size: 0.7rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #38a169;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+
+.poem-info-card .card-content {
+    font-size: 0.9rem;
+    color: #2d3748;
+    line-height: 1.5;
+}
+
+.kototama-card {
+    border-left-color: #48bb78;
+}
+
+.kototama-card .card-header {
+    color: #38a169;
+}
+
+/* Deepening Section */
+.poem-deepening-section {
+    margin-top: 1rem;
+    padding: 1.2rem;
+    background: linear-gradient(135deg, #f0f7ff 0%, #e6f0fa 100%);
+    border-radius: 8px;
+    text-align: left;
+}
+
+.poem-deepening-section .deepening-header {
+    font-size: 0.7rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #3182ce;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.poem-deepening-section .deepening-content {
+    font-size: 0.85rem;
+    color: #2d3748;
+    line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .poem-original-large {
+        font-size: 1.5rem;
+    }
+
+    .poem-translation-featured {
+        font-size: 1rem;
+    }
+
+    .poem-modal-content {
+        padding: 0 10px;
+    }
+}

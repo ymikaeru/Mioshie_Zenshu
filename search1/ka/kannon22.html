@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kannon22</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 観音信仰 『地上天国』3号、昭和24(1949)年4月20日発行 人間生活において何事もそうであるが、特に観音信仰においては円転滑脱自由無碍でなくてはいけない。<br><br>円転とは丸い玉が転がるという意味であるから、角があっては玉が転がらない。<br><br>世間よくあの人は苦労人だから角が除れてるというが全くその通りである。<br><br>ところが世の中には角どころではない、金平糖のような人間がいる。<br><br>こういうのは転がるどころか、角が突っかかってどうにもならない。<br><br>そうかと思うと自分で型を作ってその中へ入り込み苦しむ人もある。<br><br>それも自分だけならまだいいが、他人までもその型の中へ押込んで苦しませるのをいいと思う人があるが、これらは小乗的信仰によくある型で、いわゆる封建的でもある。<br><br>こういうやり方は信仰の上ばかりではない、社会生活においてもカビ臭くて、鼻もちがならない。<br><br> そうして自由無碍という事は型や枠を造らない、戒律もない、天空海かつ〔闊〕の自由で、無碍もそういう意味である。<br><br>ただ自由といってもわがまま主義ではない、人の自由も尊重する事はもちろんである。<br><br> 観音信仰は大乗信仰であるから、戒律信仰とはよほど違う点がある。<br><br>しかし戒律信仰は、戒律が厳しいから仲々守れない、止むなくつい上面だけ守って蔭では息つきをやるという事になる。<br><br>つまり裏表が出来る訳でそこに破たんを生ずる。<br><br>と共に虚偽が生れるから悪になる。<br><br>この理によって小乗信仰の人は表面が善で、内面は悪になるのである。<br><br>それに引換え大乗信仰は人間の自由を尊重するからいつも気持が楽で、明朗で裏表などの必要がない。<br><br>従って、虚偽も生れないという訳で、これが本当の観音信仰であり、有難いところである。<br><br> また小乗信仰の人は不知不識（しらずしらず）虚偽に陥るから衒（てら）いたがる、偉くみせたがる、これが臭気芬々（ふんぷん）たる味噌になってはなはだ醜いのである。<br><br>そればかりか反って逆効果となり、偉く見えなくなるものである。<br><br>小人というのはこういう型の人である。<br><br> またこういう事がある。<br><br>私は普請をする時にはいつも職方と意見が異（ちが）う。<br><br>どういう訳がというと、職方はただ立派に見せようとするので、それが一種の嫌味になるから私は直させる。<br><br>人間も右と同様で偉く見せないようにする人はすべてが謙遜となり、奥床しく見えるから、そういう人は心から尊敬されるようになる。<br><br>ゆえに観音信者は心から尊敬される人にならなければならないのである。<br><br> (注) 天空海かつ〔闊〕（てんくうかいかつ）人の度量が、空や海のように大きいこと。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Essência da Fé em Kannon</h2>
 <p>Em todos os aspectos da vida humana, e com especial ênfase na fé em Kannon (観音), é fundamental cultivar uma atitude de flexibilidade e liberdade irrestrita. O termo japonês <em>enten</em> descreve uma esfera que rola suavemente, o que nos ensina uma lição: para que uma esfera role, ela não pode ter arestas. É comum ouvirmos no Japão que uma pessoa experimentada pelas dificuldades da vida teve suas arestas aparadas, e essa é uma grande verdade.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Os praticantes da fé de cunho restrito, por caírem inconscientemente na falsidade, desenvolvem uma ânsia por ostentação e por parecerem importantes. Essa atitude, todavia, exala um odor fétido e resulta em uma figura grotesca. Ademais, o efeito é reverso: em vez de engrandecê-los, apenas os diminui. É precisamente a essa categoria de indivíduos que chamamos de pessoas mesquinhas.</p>
 <p>Permitam-me compartilhar uma experiência pessoal. Durante a construção de edifícios, frequentemente discordo da opinião dos artesãos. O motivo é que eles se empenham em criar algo que pareça suntuoso, mas essa busca por suntuosidade muitas vezes resulta em mera afetação, algo que me desagrada e que peço para ser corrigido.</p>
 <p>O mesmo princípio se aplica aos seres humanos. Aqueles que não se esforçam para parecer grandiosos revelam uma humildade natural e um recato profundo, qualidades que inspiram genuína reverência. Portanto, o seguidor de Kannon (観音) deve aspirar a ser uma pessoa digna da mais sincera admiração.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 観音信仰 『地上天国』3号、昭和24(1949)年4月20日発行 人間生活において何事もそうであるが、特に観音信仰においては円転滑脱自由無碍でなくてはいけない。<br/><br/>円転とは丸い玉が転がるという意味であるから、角があっては玉が転がらない。<br/><br/>世間よくあの人は苦労人だから角が除れてるというが全くその通りである。<br/><br/>ところが世の中には角どころではない、金平糖のような人間がいる。<br/><br/>こういうのは転がるどころか、角が突っかかってどうにもならない。<br/><br/>そうかと思うと自分で型を作ってその中へ入り込み苦しむ人もある。<br/><br/>それも自分だけならまだいいが、他人までもその型の中へ押込んで苦しませるのをいいと思う人があるが、これらは小乗的信仰によくある型で、いわゆる封建的でもある。<br/><br/>こういうやり方は信仰の上ばかりではない、社会生活においてもカビ臭くて、鼻もちがならない。<br/><br/> そうして自由無碍という事は型や枠を造らない、戒律もない、天空海かつ〔闊〕の自由で、無碍もそういう意味である。<br/><br/>ただ自由といってもわがまま主義ではない、人の自由も尊重する事はもちろんである。<br/><br/> 観音信仰は大乗信仰であるから、戒律信仰とはよほど違う点がある。<br/><br/>しかし戒律信仰は、戒律が厳しいから仲々守れない、止むなくつい上面だけ守って蔭では息つきをやるという事になる。<br/><br/>つまり裏表が出来る訳でそこに破たんを生ずる。<br/><br/>と共に虚偽が生れるから悪になる。<br/><br/>この理によって小乗信仰の人は表面が善で、内面は悪になるのである。<br/><br/>それに引換え大乗信仰は人間の自由を尊重するからいつも気持が楽で、明朗で裏表などの必要がない。<br/><br/>従って、虚偽も生れないという訳で、これが本当の観音信仰であり、有難いところである。<br/><br/> また小乗信仰の人は不知不識（しらずしらず）虚偽に陥るから衒（てら）いたがる、偉くみせたがる、これが臭気芬々（ふんぷん）たる味噌になってはなはだ醜いのである。<br/><br/>そればかりか反って逆効果となり、偉く見えなくなるものである。<br/><br/>小人というのはこういう型の人である。<br/><br/> またこういう事がある。<br/><br/>私は普請をする時にはいつも職方と意見が異（ちが）う。<br/><br/>どういう訳がというと、職方はただ立派に見せようとするので、それが一種の嫌味になるから私は直させる。<br/><br/>人間も右と同様で偉く見せないようにする人はすべてが謙遜となり、奥床しく見えるから、そういう人は心から尊敬されるようになる。<br/><br/>ゆえに観音信者は心から尊敬される人にならなければならないのである。<br/><br/> (注) 天空海かつ〔闊〕（てんくうかいかつ）人の度量が、空や海のように大きいこと。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

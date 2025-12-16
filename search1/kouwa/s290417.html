@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s290417</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S29年4月17日） 『御教え集』33号、昭和29(1954)年5月15日発行 昭和二十九年四月十七日 あなた方は見られたでしょうが、三越の浮世絵展は予想外の盛況で、たいてい一万二、三千から、多いときは一万八千ぐらいです。<br><br>それでああいった催し物で今度の浮世絵展は三越始まって以来初めてだそうです。<br><br>とても見られないです。<br><br>よくもあれだけの良い物があんなに数多く集まったものだということを一番感心しているのですが、ところがあれだけ集まるのに正味としたら半年でしょう。<br><br>半年でバタバタと集まって、値段も割合安いのです。<br><br>版画よりも安いのです。<br><br>実際おもしろいものです。<br><br>というのは、版画の方は世界的に知れ渡っています。<br><br>ところが肉筆の方はあんまり知らなかったのです。<br><br>いつも言うとおり、あれは外国から発見されて日本人がまねしたという形です。<br><br>外国が発見したのは、浮世絵というのは版画からです。<br><br>外人はよく知っているから尊んだわけです。<br><br>肉筆というのはあんまり世の中に出なかったから、明治時代に外人が来朝しても見る機会がなかった。<br><br>それで版画が浮世絵と思ってしまったわけです。<br><br>そこがこっちの狙いどころです。<br><br>私は、版画より肉筆の方がずっと値打ちがあるのですから、それが安いということは、とんでもない話だというわけで、できるだけ買えという考えで買ったわけです。<br><br>このごろはほとんどなくなってしまってます。<br><br>たまに持ってきてもまるで駄目で、買うような物はないのです。<br><br>肉筆の“これは”と思うような物はみんなこっちに入っているわけです。<br><br>それだからしてかえって肉筆の方を見ないからして珍しくもあるし、実際値打ちもあるわけです。<br><br>そこでよけい驚いたわけです。<br><br>毎日新聞でも三越でも、非常なもので、期待以上なので驚いているそうです。<br><br> あれでこっちの一番プラスになる点は“箱根美術館は救世教がやっているのだ。<br><br>どうもこれだけのことをするところを見ると、なかなか、ふつう新宗教ナンテ言って馬鹿にできない。<br><br>とにかくこれだけのことをするのだから、よほど内容がしっかりしたものでなければならない。<br><br>これは大いに見直す必要がある”というような印象を与えるだろうと思います。<br><br>その点において、とにかく新宗教の中で傑出したものだという信用を高める点においては、大いに効果があると思うのです。<br><br>あんまり混むので、みんな見られないものですから、有料にした方が見良いという要求が随分あるのです。<br><br>それは分かりきった話ですが、あれはただ、あんな立派な物をたくさん見せるということが、いかに社会のために良いことをしているかということになりますから、今後はどうか知りませんが、最初は人のやらないような、世の中のために良いことをするというわけで“ただでこんな結構な物を見せてくれる、ありがたい”という、そういうことが社会的に非常に良い影響を与えると思います。<br><br>それで、わずかの間にそういったことができるということは、無論神様が自由自在にやっているのですから、人間業ではないのです。<br><br>第一、人間業とすればアンナ良い物がそう無造作に集まるものではないです。<br><br>あれはなかなか集まる物ではないのです。<br><br>それがおもしろいように集まってしまうのです。<br><br>あれらはなにかというと、無論、作者なり持ち主なりが、つまり救世教の御用をして、御用をしたために自分が救われるというのが根本なのですから、霊界でそういう霊が大いに活動する、そのためにトントン拍子に集まったというわけです。<br><br>そういうようなわけで、霊界においてもだんだん、救世教というものが霊界の霊に知れてきたのです。<br><br>だからドンドン集まってきているのです。<br><br>この間も読んだとおり、京都の方の婦人は三十三歳で未亡人だそうです。<br><br>それから熱海の婦人もそのくらいの人ですが、今は主にこの人たちに憑ってます。<br><br>それからふつう霊視は茨木という婦人ですが、これもなかなかおもしろいです。<br><br>今度のお祭りを霊視したのなにかも、なかなか正確で、信用するにたるものです。<br><br>今度の『栄光』に出ます。<br><br>つまりお祭りの時の霊界の模様が実に細かに書いてあります。<br><br>それから十二になる子供が夢で毎日順序立って知らしてくれるのですが、これも実にすばらしいものです。<br><br>夢のは世界的で、世界にもそういった霊的状態は、私は今まで記録でも見たことがありませんが、おそらくないでしょう。<br><br>あれは実に神秘です。<br><br>最近の霊界の一部を今日読ませようと思います。<br><br>これでだいたい霊界の今の状態が見当がつくわけです。<br><br> （御報告） これは一つ一つ解説するとおもしろいのですが、主なものだけを言います。<br><br> 狛犬（こまいぬ） 狛犬というのは、よく神社仏閣の前に両方に主従みたいにありますが、あれは「天犬（あまいぬ）」「狛犬」と言って、天と地になっているわけです。<br><br>男、女――陰、陽というわけです。<br><br>あれは霊界では門番というわけです。<br><br>それが立派にこういった御用をしているのです。<br><br>それで自分の状態を知らせたわけです。<br><br> 日蓮 日蓮は以前も言ったとおり、畜生道に落ちて狐の親玉になったわけです。<br><br>ですから日蓮宗の信者は全部狐が憑くのです。<br><br>それを私が日蓮上人を狐から救って人間にしたわけです。<br><br>それで狐と言ったところでみんな人間なのです。<br><br>人間が畜生道に落ちて狐になるのです。<br><br>龍神は執着によって龍神になるし、狐は人を瞞す、嘘をつくという、それをたくさんやると狐になるのです。<br><br> それからまたふたたび人間に還元するのですが、しかしそれはそうとうの苦しみや信仰上の関係でなかったら、容易には復活しないのです。<br><br>日蓮上人は私がよほど前に箱根で救ってあげました。<br><br>それから留置所にいるときもやっぱり御礼に来て、それからいっそう良くなって、いま救世教のために働いているわけです。<br><br>そこで今言っていたとおり“全部狐を救ってもらいたい”ということは人間にしてもらいたいというわけです。<br><br>これがみんな人間になると、日蓮宗というのは崩れてしまうのです。<br><br>今まであれまで盛んになったということは、狐がやったのです。<br><br>ドコドンドンと叩きますが、ああいう浮かれるようなことは狐が大好きなのです。<br><br>一種の浮かれたようになって太鼓を叩きながら歩いていますが、あれは狐がおもしろくて嬉しくてしようがないのです。<br><br>人間のほうは狐の入れ物で、やっているのは狐がやっているのです。<br><br>そう言うとはなはだ形無しになってしまうが、もうこうなったら早く分かったほうがよいわけです。<br><br> 今宮神社 今宮神社というのは熱海の南西の端の方にある立派なお宮です。<br><br>事代主命というのは大国主命の長男です。<br><br> 良覚 これが非常におもしろいと思います。<br><br>これは苦しみがないのです。<br><br>地獄に落ちてないのです。<br><br>極楽です。<br><br>というのは、このくらい、それこそ清浄な罪のないという人は珍しいです。<br><br>それで“子らと鳥と風と遊ばん”というこれが、良覚の面目躍如としてます。<br><br>生きている時がそうで、始終子供と遊んで、他愛なく日を送っているのです。<br><br>しかしなかなか学問も熱心にやってますし、歌とか詩とか、そういうこともなかなかたいしたものです。<br><br>それで書は私は好きですから、よく良寛の書を見るのですが、良寛の書の一番の特色は、実に邪念がないのです。<br><br>野心もなにもなく、本当にあるがままの、そのときの自分がそっくり出ているのです。<br><br>だから見ていて実に微笑ましいような、気持ちが良いです。<br><br>書というのはその人の人格を一番表現しているわけです。<br><br>書を見ればその人がだいたい分かるわけです。<br><br>書で一番好きなのは良寛と一休です。<br><br>一休のは実に、なんと言いますか、正直ありのままです。<br><br>私は一休の書で真偽を確かめるのは、下手なら一休と思えばよい、上手なら偽物と思ってよいと言うのです。<br><br>一休は上手に書こうと思わないのです。<br><br>沢庵などは上手に書こうと思うのです。<br><br>上手に書こうと思わないところに一休の良さがあるのです。<br><br>これは私でもかなわないです。<br><br>私でも上手に書こうと思うから、それが出てます。<br><br>一休より私が、上手く書こうと思っているから、それは上手く書けてますが、一休は上手に書こうと思わないから、その点はかなわないです。<br><br>そういうわけで、今の良寛のそれは実によく出ていると思います。<br><br> 川崎大師 本当は弘法大師を祀ってあるのですが、こういうのはみんな弘法大師の代理なのです。<br><br>それで、川崎に長くいると川崎大師という一つの固定した名前になってしまうわけです。<br><br> 金毛九尾 金毛九尾はたいへんなものですから、これが改心したということは非常な良いことなので、ミロクの世のもっとも有力な原因になるわけです。<br><br>有力な働きになるわけです。<br><br>金毛九尾というのはすべて女に憑っていて、男を堕落させるのが専門です。<br><br>それで眷族（けんぞく）が何億といるのです。<br><br>その中にいろいろな階級があって、汚職事件などは金毛九尾の働きなどがなかなかあるのです。<br><br>あの人たちがごちそうになったり賄賂をとったりするが、ごちそうと言っても、食うだけではたいしたごちそうではないので、やっぱり芸者を買わしたり、そういうのがもっとも魅力があるのです。<br><br>しかしそれも、金毛九尾の狐がただ堕落させるばかりでなく、一方非常に役には立っているわけです。<br><br>やっぱり神様が使っている、こしらえているわけです。<br><br>というのは、ああいう活動があるために男が働くのです。<br><br>あれがないと男はあんまり働かないです。<br><br>ただ食ってゆけばよいというだけのものになります。<br><br>女の魅力というのはたいへんなものです。<br><br>男がみんな夢中で働くのは、みんな女のためです。<br><br>男の活動力の源泉です。<br><br>だからなかなか難しいので、それは活動力の源泉になるし、罪の源泉にもなるのです。<br><br>そこのところをうまくして、あんまりたくさん悪いことをしないようにお灸を据えるのですが、それが今度の汚職事件です。<br><br>だからすべて善悪ともにみんな必要があってあるのだからして、大乗的に見れば「正邪一如」「善悪不二」になるわけです。<br><br>そのどっちも善悪であり、それから悪はいけないというような、そういういろいろな真理を覚る、それが本当なのです。<br><br>それで今はだいぶそういう方面の巨頭が改心しつつありますから、これがいまに現界に写ってくると、それは実に結構なことになるのです。<br><br> それから、スターリンも最近では改心しかけたのです。<br><br>悪いことが分かってきたのです。<br><br>というのは、昼間になりますと地獄の暗い所まで光が射してくるのです。<br><br>そうすると執着とかいろんな悪い面のそういうものが薄くなってくるわけです。<br><br>そうすると分かってくる、救われるということになるわけです。<br><br>それが、霊界の救われる状態がよく現われているのです。<br><br> それから龍神というものは東洋ばかりのように思われますが、これはそうではなくて世界中にいるのです。<br><br>ただ東洋に一番多いのです。<br><br>特に支那、日本です。<br><br>インドとかあっちのほうは少ないです。<br><br>そのうちで一番多いのは日本で、次が支那、朝鮮となります。<br><br>ところがこれは西洋の龍神のことが出たので読ませます。<br><br> （御報告） まだいろんな霊が次から次から出てきます。<br><br>昔からの著名な霊ですが、順次これから発表します。<br><br> それから今一番問題なのは水素爆弾です。<br><br>これについて二、三日前に、『アジア・シーン』という雑誌で（アメリカに本社があって東京に支社があるのです）、これは日本の文化をアメリカに紹介する、またアメリカの方では日本の文化を研究する、それから両方で文化的知識を交換するというような雑誌で、この間見たがなかなか立派な堂々としたものです。<br><br>日本ではちょっと見られないくらいの立派さのものです。<br><br>そこの記者が、アメリカから、私の著書の『アメリカを救う』と「原爆恐るるに足らず」ということについて調査の目的で来たのです。<br><br>それにラジオ東京の記者も二人一緒に来て、いろんな質問や話をしました。<br><br>それについて原子爆弾の質問もあったからして、その答えをしたわけですが、それはこういうわけなのです。<br><br>「原爆恐るるに足らず」ということは、あの広島、長崎にやった原子爆弾は、お蔭話にいろいろあったとおり、傷でも治る、それから霊的に逃れることもできるのです。<br><br>そこで“恐るるに足らず”と書いたが、今度の水素爆弾は違うのです。<br><br>これは逃れる道はないのです。<br><br>前の原子爆弾の方ですと、何メートルか下に防空豪を作り、あるいは鉛の板なら遮断ができるのですから、鉛の家を作ってその中にいれば原子爆弾の被害を受けないのです。<br><br>ところが水素爆弾はそうではないのです。<br><br>なにしろ何百倍というのですから。<br><br>ビキニ環礁のあれが六百倍とか言われてます。<br><br>ところが今でさえそうであって、まだ進んでいますから、先々どんなことになるか分からないです。<br><br>あれだと地面が掘れるわけです。<br><br>小さな山は吹っ飛んでしまうわけです。<br><br>そういう恐ろしい物です。<br><br>これは科学的方法では絶対に逃れる方法はないのです。<br><br>それからまた、今国際連合で国際会議で協定をするというようなことをしきりにやってますが、これとても、そんな条約というのは、いよいよ戦争になったらなんにもならないです。<br><br>戦争のために作るのが、平和のときだけ間に合って、戦争の時には間に合わないということになります。<br><br>結局水素爆弾は、今までの人類にあるあらゆる方法をもってしても免れることはできない、という結論に達するわけです。<br><br>しかしそんな気味の悪い恐ろしい物は、なんとかしなければならない、根本的に防ぐ方法はないかということです。<br><br>この間の湯川博士の談話をみても“根本的に逃れる方法はない”ということを言われてますが、そのとおりです。<br><br>ところが私から言うとなんでもないです。<br><br>いとやすいものです。<br><br>そうすると不思議に思うでしょうが、それは根本的の点です。<br><br>それはどこにあるかというと、これも今月の一日にアイゼンハウアーが発表しましたが、“水素爆弾そのものは少しも恐るるものではないが、ただその使用目的によって恐るるものになる”という、これはよく言い表わしてます。<br><br>使用目的が、戦争のために使用するから恐ろしい物になるので、これを平和のために使えばなんでもないのです。<br><br>ナンデ戦争のために使うかというと、武力をもって世界を己のものにしようという、つまり自己の欲望です。<br><br>欲望というのは心、魂です。<br><br>ですからそれを戦争をしないように、戦争は止すという、そんな欲望を制限するというそれだけでよいのです。<br><br>ではその欲望を抱いているのは誰だというと、これは知らるるとおりソ連です。<br><br>共産主義の首謀者です。<br><br>ソ連の人民ではないので、何人かの者です。<br><br>一握りの共産主義の采配をふっている首脳部です。<br><br>その人たちの魂をちょっと引っ繰り返せばよいのです。<br><br>しかしその魂を引っ繰り返すということはちょっと難しいようですが、これはなんでもないのです。<br><br>というのは霊がみな、金毛九尾でさえ改心するのですから、神様の光を放射すればよいのです。<br><br>しかしただその光を放射する段取りをつけるのがちょっと困難です。<br><br>そこで私は記者に言ったのですが、“一番手っ取り早いことは、アメリカの大統領が私の御守りをかける、それでよいのだ”と言ったところが、変な顔をしてました。<br><br>それはどういうわけだというと、今仮にマレンコフとかモロトフという人たちがああして活動している目標はアメリカですが、それでアメリカの国としての魂は大統領にあるのですから、彼らは“アイゼンハウアー”“アイゼンハウアー”ということは始終思ってます。<br><br>そうするとアイゼンハウアーのほうでも“マレンコフ”“モロトフ”ということは始終思ってます。<br><br>これは霊界では両方の霊が霊界で闘っているのです。<br><br>そこでアイゼンハウアーが御守りをかけると、マレンコフの霊が始終来るのですが、そこで御守りの光を受けるから、マレンコフの方はだんだん魂の曇りが取れてきます。<br><br>そうすると“戦争してもつまらない、オレは今まで考え方が間違っていた”ということになるわけです。<br><br>ですから間接射撃です。<br><br>霊的水素爆弾を間接射撃によってやっつけるという理屈になります。<br><br>これが一番手っ取り早いです。<br><br>ところがアイゼンハウアーに御守りをかけさせることがなかなかできないのです。<br><br>しかしそれは神様がそういう順序をつけますから、今すぐということにはならないが、いずれはそういうことになるに違いないのです。<br><br>しかしそれもそう長いことはないのです。<br><br>というのは、霊界の方がだんだん明るくなりますし、それとアメリカは非常に分かりが早いですから。<br><br>ですから非常に興味ある問題です。<br><br> それについてちょっと書いてみました。<br><br> （御論文「恐るべき科学迷信」）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Sincronicidade entre o Mundo Espiritual e o Mundo Material</h2>
 <p>Talvez os senhores tenham tido a oportunidade de constatar o sucesso retumbante da exposição de Ukiyo-e na loja de departamentos Mitsukoshi. A afluência de público superou todas as expectativas, variando entre doze e dezoito mil visitantes diários. Segundo a própria Mitsukoshi, foi um evento sem precedentes em sua história, a ponto de mal se conseguir apreciar as obras. O que mais me impressiona é como foi possível reunir um acervo tão vasto e de tamanha qualidade em tão pouco tempo – na prática, em meros seis meses.</p>
@@ -124,5 +276,48 @@ function toggleLang(lang) {
 <p>Trata-se, em suma, de um bombardeio indireto. Utilizaremos uma bomba de hidrogênio espiritual para neutralizar a ameaça. É o método mais rápido e eficaz. É evidente que persuadir o presidente americano a utilizar o Sagrado Ponto de Luz é um desafio considerável. Contudo, Deus se encarregará de criar as circunstâncias para que isso ocorra. E não levará muito tempo, pois o Mundo Espiritual se ilumina a cada dia, e os americanos são muito receptivos à verdade. É, sem dúvida, um desfecho de grande interesse.</p>
 <p>Escrevi um artigo a esse respeito.</p>
 <p>(Leitura do Ensinamento “A Temível Superstição da Ciência”)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S29年4月17日） 『御教え集』33号、昭和29(1954)年5月15日発行 昭和二十九年四月十七日 あなた方は見られたでしょうが、三越の浮世絵展は予想外の盛況で、たいてい一万二、三千から、多いときは一万八千ぐらいです。<br/><br/>それでああいった催し物で今度の浮世絵展は三越始まって以来初めてだそうです。<br/><br/>とても見られないです。<br/><br/>よくもあれだけの良い物があんなに数多く集まったものだということを一番感心しているのですが、ところがあれだけ集まるのに正味としたら半年でしょう。<br/><br/>半年でバタバタと集まって、値段も割合安いのです。<br/><br/>版画よりも安いのです。<br/><br/>実際おもしろいものです。<br/><br/>というのは、版画の方は世界的に知れ渡っています。<br/><br/>ところが肉筆の方はあんまり知らなかったのです。<br/><br/>いつも言うとおり、あれは外国から発見されて日本人がまねしたという形です。<br/><br/>外国が発見したのは、浮世絵というのは版画からです。<br/><br/>外人はよく知っているから尊んだわけです。<br/><br/>肉筆というのはあんまり世の中に出なかったから、明治時代に外人が来朝しても見る機会がなかった。<br/><br/>それで版画が浮世絵と思ってしまったわけです。<br/><br/>そこがこっちの狙いどころです。<br/><br/>私は、版画より肉筆の方がずっと値打ちがあるのですから、それが安いということは、とんでもない話だというわけで、できるだけ買えという考えで買ったわけです。<br/><br/>このごろはほとんどなくなってしまってます。<br/><br/>たまに持ってきてもまるで駄目で、買うような物はないのです。<br/><br/>肉筆の“これは”と思うような物はみんなこっちに入っているわけです。<br/><br/>それだからしてかえって肉筆の方を見ないからして珍しくもあるし、実際値打ちもあるわけです。<br/><br/>そこでよけい驚いたわけです。<br/><br/>毎日新聞でも三越でも、非常なもので、期待以上なので驚いているそうです。<br/><br/> あれでこっちの一番プラスになる点は“箱根美術館は救世教がやっているのだ。<br/><br/>どうもこれだけのことをするところを見ると、なかなか、ふつう新宗教ナンテ言って馬鹿にできない。<br/><br/>とにかくこれだけのことをするのだから、よほど内容がしっかりしたものでなければならない。<br/><br/>これは大いに見直す必要がある”というような印象を与えるだろうと思います。<br/><br/>その点において、とにかく新宗教の中で傑出したものだという信用を高める点においては、大いに効果があると思うのです。<br/><br/>あんまり混むので、みんな見られないものですから、有料にした方が見良いという要求が随分あるのです。<br/><br/>それは分かりきった話ですが、あれはただ、あんな立派な物をたくさん見せるということが、いかに社会のために良いことをしているかということになりますから、今後はどうか知りませんが、最初は人のやらないような、世の中のために良いことをするというわけで“ただでこんな結構な物を見せてくれる、ありがたい”という、そういうことが社会的に非常に良い影響を与えると思います。<br/><br/>それで、わずかの間にそういったことができるということは、無論神様が自由自在にやっているのですから、人間業ではないのです。<br/><br/>第一、人間業とすればアンナ良い物がそう無造作に集まるものではないです。<br/><br/>あれはなかなか集まる物ではないのです。<br/><br/>それがおもしろいように集まってしまうのです。<br/><br/>あれらはなにかというと、無論、作者なり持ち主なりが、つまり救世教の御用をして、御用をしたために自分が救われるというのが根本なのですから、霊界でそういう霊が大いに活動する、そのためにトントン拍子に集まったというわけです。<br/><br/>そういうようなわけで、霊界においてもだんだん、救世教というものが霊界の霊に知れてきたのです。<br/><br/>だからドンドン集まってきているのです。<br/><br/>この間も読んだとおり、京都の方の婦人は三十三歳で未亡人だそうです。<br/><br/>それから熱海の婦人もそのくらいの人ですが、今は主にこの人たちに憑ってます。<br/><br/>それからふつう霊視は茨木という婦人ですが、これもなかなかおもしろいです。<br/><br/>今度のお祭りを霊視したのなにかも、なかなか正確で、信用するにたるものです。<br/><br/>今度の『栄光』に出ます。<br/><br/>つまりお祭りの時の霊界の模様が実に細かに書いてあります。<br/><br/>それから十二になる子供が夢で毎日順序立って知らしてくれるのですが、これも実にすばらしいものです。<br/><br/>夢のは世界的で、世界にもそういった霊的状態は、私は今まで記録でも見たことがありませんが、おそらくないでしょう。<br/><br/>あれは実に神秘です。<br/><br/>最近の霊界の一部を今日読ませようと思います。<br/><br/>これでだいたい霊界の今の状態が見当がつくわけです。<br/><br/> （御報告） これは一つ一つ解説するとおもしろいのですが、主なものだけを言います。<br/><br/> 狛犬（こまいぬ） 狛犬というのは、よく神社仏閣の前に両方に主従みたいにありますが、あれは「天犬（あまいぬ）」「狛犬」と言って、天と地になっているわけです。<br/><br/>男、女――陰、陽というわけです。<br/><br/>あれは霊界では門番というわけです。<br/><br/>それが立派にこういった御用をしているのです。<br/><br/>それで自分の状態を知らせたわけです。<br/><br/> 日蓮 日蓮は以前も言ったとおり、畜生道に落ちて狐の親玉になったわけです。<br/><br/>ですから日蓮宗の信者は全部狐が憑くのです。<br/><br/>それを私が日蓮上人を狐から救って人間にしたわけです。<br/><br/>それで狐と言ったところでみんな人間なのです。<br/><br/>人間が畜生道に落ちて狐になるのです。<br/><br/>龍神は執着によって龍神になるし、狐は人を瞞す、嘘をつくという、それをたくさんやると狐になるのです。<br/><br/> それからまたふたたび人間に還元するのですが、しかしそれはそうとうの苦しみや信仰上の関係でなかったら、容易には復活しないのです。<br/><br/>日蓮上人は私がよほど前に箱根で救ってあげました。<br/><br/>それから留置所にいるときもやっぱり御礼に来て、それからいっそう良くなって、いま救世教のために働いているわけです。<br/><br/>そこで今言っていたとおり“全部狐を救ってもらいたい”ということは人間にしてもらいたいというわけです。<br/><br/>これがみんな人間になると、日蓮宗というのは崩れてしまうのです。<br/><br/>今まであれまで盛んになったということは、狐がやったのです。<br/><br/>ドコドンドンと叩きますが、ああいう浮かれるようなことは狐が大好きなのです。<br/><br/>一種の浮かれたようになって太鼓を叩きながら歩いていますが、あれは狐がおもしろくて嬉しくてしようがないのです。<br/><br/>人間のほうは狐の入れ物で、やっているのは狐がやっているのです。<br/><br/>そう言うとはなはだ形無しになってしまうが、もうこうなったら早く分かったほうがよいわけです。<br/><br/> 今宮神社 今宮神社というのは熱海の南西の端の方にある立派なお宮です。<br/><br/>事代主命というのは大国主命の長男です。<br/><br/> 良覚 これが非常におもしろいと思います。<br/><br/>これは苦しみがないのです。<br/><br/>地獄に落ちてないのです。<br/><br/>極楽です。<br/><br/>というのは、このくらい、それこそ清浄な罪のないという人は珍しいです。<br/><br/>それで“子らと鳥と風と遊ばん”というこれが、良覚の面目躍如としてます。<br/><br/>生きている時がそうで、始終子供と遊んで、他愛なく日を送っているのです。<br/><br/>しかしなかなか学問も熱心にやってますし、歌とか詩とか、そういうこともなかなかたいしたものです。<br/><br/>それで書は私は好きですから、よく良寛の書を見るのですが、良寛の書の一番の特色は、実に邪念がないのです。<br/><br/>野心もなにもなく、本当にあるがままの、そのときの自分がそっくり出ているのです。<br/><br/>だから見ていて実に微笑ましいような、気持ちが良いです。<br/><br/>書というのはその人の人格を一番表現しているわけです。<br/><br/>書を見ればその人がだいたい分かるわけです。<br/><br/>書で一番好きなのは良寛と一休です。<br/><br/>一休のは実に、なんと言いますか、正直ありのままです。<br/><br/>私は一休の書で真偽を確かめるのは、下手なら一休と思えばよい、上手なら偽物と思ってよいと言うのです。<br/><br/>一休は上手に書こうと思わないのです。<br/><br/>沢庵などは上手に書こうと思うのです。<br/><br/>上手に書こうと思わないところに一休の良さがあるのです。<br/><br/>これは私でもかなわないです。<br/><br/>私でも上手に書こうと思うから、それが出てます。<br/><br/>一休より私が、上手く書こうと思っているから、それは上手く書けてますが、一休は上手に書こうと思わないから、その点はかなわないです。<br/><br/>そういうわけで、今の良寛のそれは実によく出ていると思います。<br/><br/> 川崎大師 本当は弘法大師を祀ってあるのですが、こういうのはみんな弘法大師の代理なのです。<br/><br/>それで、川崎に長くいると川崎大師という一つの固定した名前になってしまうわけです。<br/><br/> 金毛九尾 金毛九尾はたいへんなものですから、これが改心したということは非常な良いことなので、ミロクの世のもっとも有力な原因になるわけです。<br/><br/>有力な働きになるわけです。<br/><br/>金毛九尾というのはすべて女に憑っていて、男を堕落させるのが専門です。<br/><br/>それで眷族（けんぞく）が何億といるのです。<br/><br/>その中にいろいろな階級があって、汚職事件などは金毛九尾の働きなどがなかなかあるのです。<br/><br/>あの人たちがごちそうになったり賄賂をとったりするが、ごちそうと言っても、食うだけではたいしたごちそうではないので、やっぱり芸者を買わしたり、そういうのがもっとも魅力があるのです。<br/><br/>しかしそれも、金毛九尾の狐がただ堕落させるばかりでなく、一方非常に役には立っているわけです。<br/><br/>やっぱり神様が使っている、こしらえているわけです。<br/><br/>というのは、ああいう活動があるために男が働くのです。<br/><br/>あれがないと男はあんまり働かないです。<br/><br/>ただ食ってゆけばよいというだけのものになります。<br/><br/>女の魅力というのはたいへんなものです。<br/><br/>男がみんな夢中で働くのは、みんな女のためです。<br/><br/>男の活動力の源泉です。<br/><br/>だからなかなか難しいので、それは活動力の源泉になるし、罪の源泉にもなるのです。<br/><br/>そこのところをうまくして、あんまりたくさん悪いことをしないようにお灸を据えるのですが、それが今度の汚職事件です。<br/><br/>だからすべて善悪ともにみんな必要があってあるのだからして、大乗的に見れば「正邪一如」「善悪不二」になるわけです。<br/><br/>そのどっちも善悪であり、それから悪はいけないというような、そういういろいろな真理を覚る、それが本当なのです。<br/><br/>それで今はだいぶそういう方面の巨頭が改心しつつありますから、これがいまに現界に写ってくると、それは実に結構なことになるのです。<br/><br/> それから、スターリンも最近では改心しかけたのです。<br/><br/>悪いことが分かってきたのです。<br/><br/>というのは、昼間になりますと地獄の暗い所まで光が射してくるのです。<br/><br/>そうすると執着とかいろんな悪い面のそういうものが薄くなってくるわけです。<br/><br/>そうすると分かってくる、救われるということになるわけです。<br/><br/>それが、霊界の救われる状態がよく現われているのです。<br/><br/> それから龍神というものは東洋ばかりのように思われますが、これはそうではなくて世界中にいるのです。<br/><br/>ただ東洋に一番多いのです。<br/><br/>特に支那、日本です。<br/><br/>インドとかあっちのほうは少ないです。<br/><br/>そのうちで一番多いのは日本で、次が支那、朝鮮となります。<br/><br/>ところがこれは西洋の龍神のことが出たので読ませます。<br/><br/> （御報告） まだいろんな霊が次から次から出てきます。<br/><br/>昔からの著名な霊ですが、順次これから発表します。<br/><br/> それから今一番問題なのは水素爆弾です。<br/><br/>これについて二、三日前に、『アジア・シーン』という雑誌で（アメリカに本社があって東京に支社があるのです）、これは日本の文化をアメリカに紹介する、またアメリカの方では日本の文化を研究する、それから両方で文化的知識を交換するというような雑誌で、この間見たがなかなか立派な堂々としたものです。<br/><br/>日本ではちょっと見られないくらいの立派さのものです。<br/><br/>そこの記者が、アメリカから、私の著書の『アメリカを救う』と「原爆恐るるに足らず」ということについて調査の目的で来たのです。<br/><br/>それにラジオ東京の記者も二人一緒に来て、いろんな質問や話をしました。<br/><br/>それについて原子爆弾の質問もあったからして、その答えをしたわけですが、それはこういうわけなのです。<br/><br/>「原爆恐るるに足らず」ということは、あの広島、長崎にやった原子爆弾は、お蔭話にいろいろあったとおり、傷でも治る、それから霊的に逃れることもできるのです。<br/><br/>そこで“恐るるに足らず”と書いたが、今度の水素爆弾は違うのです。<br/><br/>これは逃れる道はないのです。<br/><br/>前の原子爆弾の方ですと、何メートルか下に防空豪を作り、あるいは鉛の板なら遮断ができるのですから、鉛の家を作ってその中にいれば原子爆弾の被害を受けないのです。<br/><br/>ところが水素爆弾はそうではないのです。<br/><br/>なにしろ何百倍というのですから。<br/><br/>ビキニ環礁のあれが六百倍とか言われてます。<br/><br/>ところが今でさえそうであって、まだ進んでいますから、先々どんなことになるか分からないです。<br/><br/>あれだと地面が掘れるわけです。<br/><br/>小さな山は吹っ飛んでしまうわけです。<br/><br/>そういう恐ろしい物です。<br/><br/>これは科学的方法では絶対に逃れる方法はないのです。<br/><br/>それからまた、今国際連合で国際会議で協定をするというようなことをしきりにやってますが、これとても、そんな条約というのは、いよいよ戦争になったらなんにもならないです。<br/><br/>戦争のために作るのが、平和のときだけ間に合って、戦争の時には間に合わないということになります。<br/><br/>結局水素爆弾は、今までの人類にあるあらゆる方法をもってしても免れることはできない、という結論に達するわけです。<br/><br/>しかしそんな気味の悪い恐ろしい物は、なんとかしなければならない、根本的に防ぐ方法はないかということです。<br/><br/>この間の湯川博士の談話をみても“根本的に逃れる方法はない”ということを言われてますが、そのとおりです。<br/><br/>ところが私から言うとなんでもないです。<br/><br/>いとやすいものです。<br/><br/>そうすると不思議に思うでしょうが、それは根本的の点です。<br/><br/>それはどこにあるかというと、これも今月の一日にアイゼンハウアーが発表しましたが、“水素爆弾そのものは少しも恐るるものではないが、ただその使用目的によって恐るるものになる”という、これはよく言い表わしてます。<br/><br/>使用目的が、戦争のために使用するから恐ろしい物になるので、これを平和のために使えばなんでもないのです。<br/><br/>ナンデ戦争のために使うかというと、武力をもって世界を己のものにしようという、つまり自己の欲望です。<br/><br/>欲望というのは心、魂です。<br/><br/>ですからそれを戦争をしないように、戦争は止すという、そんな欲望を制限するというそれだけでよいのです。<br/><br/>ではその欲望を抱いているのは誰だというと、これは知らるるとおりソ連です。<br/><br/>共産主義の首謀者です。<br/><br/>ソ連の人民ではないので、何人かの者です。<br/><br/>一握りの共産主義の采配をふっている首脳部です。<br/><br/>その人たちの魂をちょっと引っ繰り返せばよいのです。<br/><br/>しかしその魂を引っ繰り返すということはちょっと難しいようですが、これはなんでもないのです。<br/><br/>というのは霊がみな、金毛九尾でさえ改心するのですから、神様の光を放射すればよいのです。<br/><br/>しかしただその光を放射する段取りをつけるのがちょっと困難です。<br/><br/>そこで私は記者に言ったのですが、“一番手っ取り早いことは、アメリカの大統領が私の御守りをかける、それでよいのだ”と言ったところが、変な顔をしてました。<br/><br/>それはどういうわけだというと、今仮にマレンコフとかモロトフという人たちがああして活動している目標はアメリカですが、それでアメリカの国としての魂は大統領にあるのですから、彼らは“アイゼンハウアー”“アイゼンハウアー”ということは始終思ってます。<br/><br/>そうするとアイゼンハウアーのほうでも“マレンコフ”“モロトフ”ということは始終思ってます。<br/><br/>これは霊界では両方の霊が霊界で闘っているのです。<br/><br/>そこでアイゼンハウアーが御守りをかけると、マレンコフの霊が始終来るのですが、そこで御守りの光を受けるから、マレンコフの方はだんだん魂の曇りが取れてきます。<br/><br/>そうすると“戦争してもつまらない、オレは今まで考え方が間違っていた”ということになるわけです。<br/><br/>ですから間接射撃です。<br/><br/>霊的水素爆弾を間接射撃によってやっつけるという理屈になります。<br/><br/>これが一番手っ取り早いです。<br/><br/>ところがアイゼンハウアーに御守りをかけさせることがなかなかできないのです。<br/><br/>しかしそれは神様がそういう順序をつけますから、今すぐということにはならないが、いずれはそういうことになるに違いないのです。<br/><br/>しかしそれもそう長いことはないのです。<br/><br/>というのは、霊界の方がだんだん明るくなりますし、それとアメリカは非常に分かりが早いですから。<br/><br/>ですから非常に興味ある問題です。<br/><br/> それについてちょっと書いてみました。<br/><br/> （御論文「恐るべき科学迷信」）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

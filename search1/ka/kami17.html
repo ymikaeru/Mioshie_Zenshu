@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kami17</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神の審判は文化的である 未発表、昭和25(1950)年9月 今度の事件で私は、四十七日間の拘留を受け、ほとんど毎日のように調査訊問を受け、一つの取調べに実に大変な手数のかかるには、初めての私はただただ驚愕のあまり、むしろ呆然としたのである。<br><br> まず、私と金久平を逮捕するために、八十人の武装警官が動員され数時間にわたり四ケ所の家宅捜索を受けた。<br><br>そして私達の身柄は拘置所へ数人の警官につきそわれ拘引される。<br><br> 四十七日間三度三度食事を給されるはもちろん、看守は付きっきり、どこへ行くにも放れた事はない。<br><br>調査はほとんど毎日行われる。<br><br>時には七、八人でとり調べられ、一つの調書をとるにも一日掛りである。<br><br>検察庁へは度々送られる。<br><br>その手数と国費の費消、時間の消費は大変なものである。<br><br> もし私にこれだけの人員と手数と時間を与えられたとしたら、私は優に百人の善良なる国民を造り得る位の仕事はなし得たであろうと思う。<br><br> 今、新国家再建の重大なる時、実に勿体ない事である。<br><br>しかも私は少なくとも神を信じ、社会のため少しでも善事を行わんとしているものであって、何ら社会に害を及ぼすものでない事を断言してはばからぬ。<br><br>こういう人間を罰するために、これだけの大仕掛の浪費をなさねばならぬ要がどこにあろうか、実に奇異な感で一杯であった。<br><br>しかも一方、法網を潜って大多数国民の苦しみを犠牲にしている大悪人もある。<br><br> 戦後の殺人、強盗、窃盗等の脅威は完全にとられていない。<br><br>これだけの動員力をなぜその方面へ注入されないであろうか。<br><br> 吾々のごとき社会に害毒を流さないものを苦しめるよりは、まずそれらの社会の脅威を除くべきが警察本来の使命ではなかろうか、と私は係官に数回も言ったものである。<br><br> 御垂示によれば、霊界の審判は実に公平であって、三途の川を霊が渡る時、それぞれの罪の多寡に応じて公平に審判（さば）かれて行く、従って一点の誤審も手数も要らぬ訳である。<br><br>こういう形式がもし現界に行われるとしたら、いかに手数が国費が省かれる事であろう。<br><br>しかし、それは夢としか思えない。<br><br> ところが、その夢を神は立派に実現された。<br><br>それは大光明の出現である。<br><br>今日まで調査を充分しなければ罪悪が発見されなかったのは罪悪と暗さが平均していたからである。<br><br>人間の所持する罪悪の暗黒面もなかなか捕捉し難く、その暗黒の表われたる証拠を唯一の手掛りとした。<br><br>しかし、そこに一度光明が出現する時、明るさはいかに隠蔽（いんぺい）せる醜悪もあらわに露呈するであろう。<br><br>隠蔽も湮滅（いんめつ）も火の前には無効である。<br><br>それぞれ所得の罪は何の手数も要せずさばかれて行くのである。<br><br>これこそ、真に文化的の審理である。<br><br> ああ、この光が物質化される発明は出来ないものだろうかと、つくづく感じた事である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Natureza Civilizada do Julgamento Divino</h2>
 <p>Inédito, setembro de 1950</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Segundo os Ensinamentos Divinos, o julgamento no Mundo Espiritual é absolutamente imparcial. Quando os espíritos atravessam o rio da transição, são julgados na exata medida de seus pecados, de forma justa e precisa. Consequentemente, não há a menor possibilidade de erro nem a necessidade de qualquer procedimento complexo. Se um sistema semelhante pudesse ser implementado no Mundo Material, quanta economia de esforço e de recursos públicos seria alcançada! Todavia, isso não parece passar de um sonho.</p>
 <p>No entanto, Deus realizou magnificamente esse sonho. Refiro-me ao advento da Grande Luz. Até hoje, se a maldade não era descoberta sem investigações minuciosas, era porque havia um equilíbrio entre o pecado e as trevas do mundo. A faceta sombria dos pecados que o ser humano carrega era de difícil percepção, e as investigações dependiam unicamente das provas manifestas dessa escuridão. Contudo, uma vez que a Luz se manifesta, seu esplendor expõe abertamente a mais oculta das torpezas. Diante do fogo da Luz Divina, qualquer tentativa de ocultação ou dissimulação se torna inútil. Os pecados de cada um serão julgados sem qualquer esforço ou procedimento. Este, sim, é um julgamento verdadeiramente civilizado.</p>
 <p>Ah, quão profundamente senti o desejo de que fosse possível inventar um meio de materializar esta Luz.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神の審判は文化的である 未発表、昭和25(1950)年9月 今度の事件で私は、四十七日間の拘留を受け、ほとんど毎日のように調査訊問を受け、一つの取調べに実に大変な手数のかかるには、初めての私はただただ驚愕のあまり、むしろ呆然としたのである。<br/><br/> まず、私と金久平を逮捕するために、八十人の武装警官が動員され数時間にわたり四ケ所の家宅捜索を受けた。<br/><br/>そして私達の身柄は拘置所へ数人の警官につきそわれ拘引される。<br/><br/> 四十七日間三度三度食事を給されるはもちろん、看守は付きっきり、どこへ行くにも放れた事はない。<br/><br/>調査はほとんど毎日行われる。<br/><br/>時には七、八人でとり調べられ、一つの調書をとるにも一日掛りである。<br/><br/>検察庁へは度々送られる。<br/><br/>その手数と国費の費消、時間の消費は大変なものである。<br/><br/> もし私にこれだけの人員と手数と時間を与えられたとしたら、私は優に百人の善良なる国民を造り得る位の仕事はなし得たであろうと思う。<br/><br/> 今、新国家再建の重大なる時、実に勿体ない事である。<br/><br/>しかも私は少なくとも神を信じ、社会のため少しでも善事を行わんとしているものであって、何ら社会に害を及ぼすものでない事を断言してはばからぬ。<br/><br/>こういう人間を罰するために、これだけの大仕掛の浪費をなさねばならぬ要がどこにあろうか、実に奇異な感で一杯であった。<br/><br/>しかも一方、法網を潜って大多数国民の苦しみを犠牲にしている大悪人もある。<br/><br/> 戦後の殺人、強盗、窃盗等の脅威は完全にとられていない。<br/><br/>これだけの動員力をなぜその方面へ注入されないであろうか。<br/><br/> 吾々のごとき社会に害毒を流さないものを苦しめるよりは、まずそれらの社会の脅威を除くべきが警察本来の使命ではなかろうか、と私は係官に数回も言ったものである。<br/><br/> 御垂示によれば、霊界の審判は実に公平であって、三途の川を霊が渡る時、それぞれの罪の多寡に応じて公平に審判（さば）かれて行く、従って一点の誤審も手数も要らぬ訳である。<br/><br/>こういう形式がもし現界に行われるとしたら、いかに手数が国費が省かれる事であろう。<br/><br/>しかし、それは夢としか思えない。<br/><br/> ところが、その夢を神は立派に実現された。<br/><br/>それは大光明の出現である。<br/><br/>今日まで調査を充分しなければ罪悪が発見されなかったのは罪悪と暗さが平均していたからである。<br/><br/>人間の所持する罪悪の暗黒面もなかなか捕捉し難く、その暗黒の表われたる証拠を唯一の手掛りとした。<br/><br/>しかし、そこに一度光明が出現する時、明るさはいかに隠蔽（いんぺい）せる醜悪もあらわに露呈するであろう。<br/><br/>隠蔽も湮滅（いんめつ）も火の前には無効である。<br/><br/>それぞれ所得の罪は何の手数も要せずさばかれて行くのである。<br/><br/>これこそ、真に文化的の審理である。<br/><br/> ああ、この光が物質化される発明は出来ないものだろうかと、つくづく感じた事である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>usoto</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 嘘と幸福 未発表、年代不詳 『地上天国』173号、昭和39(1964)年2月1日に没後掲載 私は約三十年前信仰生活に入ったのであるが、それまでの私は、その考え方がまことに不徹底であった。<br><br>というのは、悪いことはすべきものではない、善いことをしなければならない、ということはつねに思ってはいるが、さてそれを実行に移そうとなるとどうも勇気がでない。<br><br>というわけで、善悪ともにはなはだ微温的であった。<br><br>恐らく世間にはこのときの私のような考え方の人が多いであろう。<br><br>ところが信仰がだんだん深まるにつれて霊界と現界との関係はもちろん、神様のご意志というものがはっきり判り、考え方が断然変ってしまったのである。<br><br>それはどういうことかというと、悪いことは想像以上大きな罪になり、善い行いはこれまた想像以上善果を得るということで、ここに心境の一大変化とともに、悪を絶対排斥し、善を極力実行に移すというように方針が変ったのである。<br><br>ところが驚くべしそれからというもの、運勢が不思議にひらけはじめた。<br><br>これなるかなとますます自信が強まり、実行すればするほど、それと交換するかのように良いことがブツかってくる。<br><br>もちろん多数からの信頼も日に深まるというわけで今日におよんだのである。<br><br>これはまったく幸福の哲学でもあろう。<br><br> 以上私自身の体験のみではない。<br><br>世間多くの人を見るにつけ一生懸命努力するにかかわらずどうも思うようにいかない。<br><br>時には躓（つまず）いたり、損をしたり、骨折る割に人から好く思われない、信用もされないというわけで悲観する人がよくあるが、そういう人を仔細（しさい）に観察してみると、かならずどこかに間違いのあることを発見する。<br><br>とくに嘘を平気でつくということが一番悪いのである。<br><br>かような人は、なによりもまず自分自身の心をよく省みることであって、かならず心のそこにその原因を発見するはずである。<br><br>なるほどいままでいかに努力しても思うような結果を得られないのは、確かに自分の罪であることを悟るであろう。<br><br>とくに信仰者は神様から選ばれたのであり、世人の模範たるべく約束されており、なおさら道にはずれることはできない。<br><br>どこまでも俯仰（ふぎょう）天地に愧（は）じないという心境であらねばならないので、そういう人こそ神様から愛されるからご守護も厚く、心はつねに明朗で、悠々として生活を楽しみ、敵を作らず、怨みを買わず、多くの人から尊敬を受けるようになるから幸福者となるのである。<br><br>特に注意すべきは嘘をつくという一事である。<br><br>殊（こと）に日本人の嘘つきということは世界的に知られているが、まったくそのとおりで、つねに嘘をつく人は、それが習性にまでなってしまって、自分はあまり嘘つきとは思っていないようになるものである。<br><br>こういう人は自分の心の標準を高く揚げて、鋭い批判をしてみるといい。<br><br>かならず嘘発見ができるわけである。<br><br>それについてあまり人の気がつかない嘘を書いてみよう。<br><br> それは約束時間を守らないことである。<br><br>おそらく日本人中約束時間を厳守する人は幾人あるであろうか。<br><br>この点外国人の時間厳守の話を聞くたびに私はうらやましく思っている。<br><br>時間を約束して守らないということは人を騙したことになり、立派に嘘を吐（つ）いたことになる。<br><br>嘘ばかりではない。<br><br>相手を怒らせるからこれも罪になる。<br><br>罪の二重奏である。<br><br>ところが日本の社会では時間を守らないことが当然のようになってしまって、これに関心をはらう人はまことに少ないようである。<br><br>昔から嘘つきは泥坊のはじまりという諺（ことわざ）があるが、あるいはそうかもしれない。<br><br>泥坊でないまでもいささかの誤魔化しくらいはやるかもしれないと想われるのである。<br><br> これについて私のことを書いてみるが、私は朝起きるとあらかじめその日のプランをたてる。<br><br>何時から何時まで、何分から何十分まで何の仕事をするというようにきめておく。<br><br>したがって、約束をした人がその時間より後（おく）れるとプランが崩れる。<br><br>時によると滅茶滅茶（めちゃめちゃ）にさえなってしまう。<br><br>それがため三十分の予定の仕事が十分か十五分に切りつめなければならないことになるから、予期の成果が得られない。<br><br>もちろん不快も手伝うからでもある。<br><br>このとき痛切に思うことは、日本人の時間の観念があまりにとぼしいことである。<br><br>したがって、ほんとうに改心するとしたら、一番身近なところすなわち約束時間の厳守で、これが嘘を追放する手始めとなろう。<br><br>私がつねに思うことは、新日本建設の第一歩としては、まず日本人全体が約束時間の厳守からということを言いたいのである。<br><br> こういう話がある。<br><br>昔天下の富豪岩崎弥太郎氏に見込まれその入聟（いりむこ）となり、ついには総理大臣にまで捕なった有名な加藤高明氏は、若い頃三菱北海道支店に在職中、部下の一員がたまたま私信をだすのに三菱の社名入り封筒を使ったのを高明氏がみて戒告を与えた。<br><br>それは私事に社用の封筒を使うのは、たとえ封筒一枚といえども盗みになるといって、それから社員全部に社用の封筒を使うことを禁じた。<br><br>なるほどそれに違いないが、この社用封筒を私事に使うことは今でも世間普通のように思われている。<br><br>これによってみても高明氏の識見が高邁（こうまい）でいささかの間違った行為も許さないことが窺（うかが）われるのである。<br><br> （本稿は、昭和二十四年頃ご執筆になられたご遺稿でありますが、〔昭和三十九年〕二月十日の教祖明主様ご昇天祭に因み、特に二月号へ教主様より発表をお許しいただきました。<br><br>）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Mentira e a Felicidade</h2>
 <p>Ingressei na vida de fé há cerca de trinta anos e, até então, minha forma de pensar era deveras ambígua. Pois, embora eu sempre pensasse que não se deve praticar o mal e que é preciso fazer o bem, quando chegava o momento de colocar isso em prática, de alguma forma me faltava coragem. Dessa forma, minha atitude em relação ao bem e ao mal era extremamente morna. Creio que, no mundo, existam muitas pessoas com uma mentalidade semelhante à que eu possuía naquela época.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>A esse respeito, descreverei minha própria prática. Ao me levantar, traço antecipadamente um plano para o meu dia, definindo o que farei de tal a tal hora, de tal a tal minuto. Portanto, quando alguém com quem tenho um compromisso se atrasa, todo o meu planejamento é desfeito. Em certas ocasiões, chega a se transformar em um completo caos. Isso me obriga a reduzir uma tarefa planejada para trinta minutos a apenas dez ou quinze, o que me impede de alcançar o resultado esperado, em parte, claro, devido ao desconforto que a situação me causa. Nesses momentos, sinto agudamente quão deficiente é a noção de tempo entre os japoneses. Sendo assim, para quem deseja verdadeiramente se corrigir, o ponto de partida mais acessível é a pontualidade. Este seria o passo inicial para banir a mentira de suas vidas. Sempre penso que o primeiro passo para a construção de um novo Japão deveria ser o compromisso de todo o povo com a rigorosa observância dos horários.</p>
 <p>Há uma história a esse respeito. O célebre Kato Takaaki, que conquistou a admiração do grande magnata Iwasaki Yataro, casou-se com sua filha e, por fim, chegou ao posto de Primeiro-Ministro. Certa vez, em sua juventude, enquanto trabalhava na filial da Mitsubishi em Hokkaido, viu um de seus subordinados utilizar um envelope timbrado da empresa para enviar uma carta pessoal e o repreendeu. Ele argumentou que usar um envelope da companhia para fins particulares, ainda que fosse uma única folha, configurava um roubo. A partir de então, proibiu todos os funcionários de fazê-lo. De fato, sua lógica é irrefutável, mas o uso de material de escritório para fins pessoais ainda parece ser uma prática comum nos dias de hoje. Este episódio revela a nobreza de caráter de Kato Takaaki e sua postura intransigente diante do menor desvio de conduta.</p>
 <p>(Este manuscrito, um legado de Meishu-Sama redigido por volta de 1949, teve sua publicação autorizada por Kyoshu-Sama nesta edição de fevereiro, em alusão ao Ofício de Ascensão do Fundador, celebrado em 10 de fevereiro [de 1964].)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 嘘と幸福 未発表、年代不詳 『地上天国』173号、昭和39(1964)年2月1日に没後掲載 私は約三十年前信仰生活に入ったのであるが、それまでの私は、その考え方がまことに不徹底であった。<br/><br/>というのは、悪いことはすべきものではない、善いことをしなければならない、ということはつねに思ってはいるが、さてそれを実行に移そうとなるとどうも勇気がでない。<br/><br/>というわけで、善悪ともにはなはだ微温的であった。<br/><br/>恐らく世間にはこのときの私のような考え方の人が多いであろう。<br/><br/>ところが信仰がだんだん深まるにつれて霊界と現界との関係はもちろん、神様のご意志というものがはっきり判り、考え方が断然変ってしまったのである。<br/><br/>それはどういうことかというと、悪いことは想像以上大きな罪になり、善い行いはこれまた想像以上善果を得るということで、ここに心境の一大変化とともに、悪を絶対排斥し、善を極力実行に移すというように方針が変ったのである。<br/><br/>ところが驚くべしそれからというもの、運勢が不思議にひらけはじめた。<br/><br/>これなるかなとますます自信が強まり、実行すればするほど、それと交換するかのように良いことがブツかってくる。<br/><br/>もちろん多数からの信頼も日に深まるというわけで今日におよんだのである。<br/><br/>これはまったく幸福の哲学でもあろう。<br/><br/> 以上私自身の体験のみではない。<br/><br/>世間多くの人を見るにつけ一生懸命努力するにかかわらずどうも思うようにいかない。<br/><br/>時には躓（つまず）いたり、損をしたり、骨折る割に人から好く思われない、信用もされないというわけで悲観する人がよくあるが、そういう人を仔細（しさい）に観察してみると、かならずどこかに間違いのあることを発見する。<br/><br/>とくに嘘を平気でつくということが一番悪いのである。<br/><br/>かような人は、なによりもまず自分自身の心をよく省みることであって、かならず心のそこにその原因を発見するはずである。<br/><br/>なるほどいままでいかに努力しても思うような結果を得られないのは、確かに自分の罪であることを悟るであろう。<br/><br/>とくに信仰者は神様から選ばれたのであり、世人の模範たるべく約束されており、なおさら道にはずれることはできない。<br/><br/>どこまでも俯仰（ふぎょう）天地に愧（は）じないという心境であらねばならないので、そういう人こそ神様から愛されるからご守護も厚く、心はつねに明朗で、悠々として生活を楽しみ、敵を作らず、怨みを買わず、多くの人から尊敬を受けるようになるから幸福者となるのである。<br/><br/>特に注意すべきは嘘をつくという一事である。<br/><br/>殊（こと）に日本人の嘘つきということは世界的に知られているが、まったくそのとおりで、つねに嘘をつく人は、それが習性にまでなってしまって、自分はあまり嘘つきとは思っていないようになるものである。<br/><br/>こういう人は自分の心の標準を高く揚げて、鋭い批判をしてみるといい。<br/><br/>かならず嘘発見ができるわけである。<br/><br/>それについてあまり人の気がつかない嘘を書いてみよう。<br/><br/> それは約束時間を守らないことである。<br/><br/>おそらく日本人中約束時間を厳守する人は幾人あるであろうか。<br/><br/>この点外国人の時間厳守の話を聞くたびに私はうらやましく思っている。<br/><br/>時間を約束して守らないということは人を騙したことになり、立派に嘘を吐（つ）いたことになる。<br/><br/>嘘ばかりではない。<br/><br/>相手を怒らせるからこれも罪になる。<br/><br/>罪の二重奏である。<br/><br/>ところが日本の社会では時間を守らないことが当然のようになってしまって、これに関心をはらう人はまことに少ないようである。<br/><br/>昔から嘘つきは泥坊のはじまりという諺（ことわざ）があるが、あるいはそうかもしれない。<br/><br/>泥坊でないまでもいささかの誤魔化しくらいはやるかもしれないと想われるのである。<br/><br/> これについて私のことを書いてみるが、私は朝起きるとあらかじめその日のプランをたてる。<br/><br/>何時から何時まで、何分から何十分まで何の仕事をするというようにきめておく。<br/><br/>したがって、約束をした人がその時間より後（おく）れるとプランが崩れる。<br/><br/>時によると滅茶滅茶（めちゃめちゃ）にさえなってしまう。<br/><br/>それがため三十分の予定の仕事が十分か十五分に切りつめなければならないことになるから、予期の成果が得られない。<br/><br/>もちろん不快も手伝うからでもある。<br/><br/>このとき痛切に思うことは、日本人の時間の観念があまりにとぼしいことである。<br/><br/>したがって、ほんとうに改心するとしたら、一番身近なところすなわち約束時間の厳守で、これが嘘を追放する手始めとなろう。<br/><br/>私がつねに思うことは、新日本建設の第一歩としては、まず日本人全体が約束時間の厳守からということを言いたいのである。<br/><br/> こういう話がある。<br/><br/>昔天下の富豪岩崎弥太郎氏に見込まれその入聟（いりむこ）となり、ついには総理大臣にまで捕なった有名な加藤高明氏は、若い頃三菱北海道支店に在職中、部下の一員がたまたま私信をだすのに三菱の社名入り封筒を使ったのを高明氏がみて戒告を与えた。<br/><br/>それは私事に社用の封筒を使うのは、たとえ封筒一枚といえども盗みになるといって、それから社員全部に社用の封筒を使うことを禁じた。<br/><br/>なるほどそれに違いないが、この社用封筒を私事に使うことは今でも世間普通のように思われている。<br/><br/>これによってみても高明氏の識見が高邁（こうまい）でいささかの間違った行為も許さないことが窺（うかが）われるのである。<br/><br/> （本稿は、昭和二十四年頃ご執筆になられたご遺稿でありますが、〔昭和三十九年〕二月十日の教祖明主様ご昇天祭に因み、特に二月号へ教主様より発表をお許しいただきました。<br/><br/>）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

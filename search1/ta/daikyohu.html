@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>daikyohu</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 大恐怖時代来らん 『栄光』194号、昭和28(1953)年2月4日発行 この題を見たら誰しもギョッとするであろう。<br><br>信者はそうでもあるまいが、初めて見た人はそう思うに違いあるまい。<br><br>この事については普段から私はあらゆる面から説いて来たが、その時期が大分近づいたようだから、ここに徹底的にかこうと思うのである。<br><br>もちろん霊界における浄化作用が、日に月に強くなりつつある今日近き将来一般社会も転手古舞（てんてこまい）をするようになるであろうがそれについて私は最近医学革命の書なる著述を記（か）き始めたが、これもその必要を痛感するからである。<br><br> そうして信者はよく知っているであろうが、今日どんな人でもその薬毒の多い事は驚く程で、分れば分る程まことに恐ろしい気がする。<br><br>といっても今日世間を見ると、至極健康そうにセッセと働いている人も沢山あるので、上面（うわつら）からみると、そんな恐ろしい時代が来ようなどとは、到底想像もつかないのである。<br><br>そのような訳で未信者は無論だが、信者でも信仰の新しい人などは首を捻（ひね）って、容易に信じられないであろうが、実をいうと健康そうに見える人程危い訳でそれというのは薬毒が大いにありながら、非常によく固まっているからなのである。<br><br>従っていよいよとなるとむしろこういう人こそ一ペンに浄化が起って、真先に槍玉に上げられる側の人と見ねばなるまい。<br><br> 私は二十数年前から、病気の原因は薬毒である事を唱えて来たが、初めの内は中々信じられない人が大部分であったが、信者になって長くなる程徹底するのである。<br><br>しかしそれも無理はない。<br><br>何しろ先祖代々病（やまい）は医者と薬という合言葉同様になっているくらいだから、一度や二度で掌を返したように分る人は、まずないといってよかろう。<br><br>それでも近頃は大分判り方が早くなって来たようで、それだけこちらを見る眼が異（ちが）って来た訳である。<br><br>しかし前記のごとく浄化が段々強くなる以上、分る人もいよいよ増えるのはもちろんである。<br><br>というのは医療の固め方法が一日増に固らなくなるからで、それに引換え浄霊の方は溶かす方法である以上、逆になるからで、つまり時節が浄霊に味方する訳である。<br><br> そうなると病人は増える一方で、今までにないような種類の病気も多くなり、医師はどうしていいか分らない事になって、二進（にっち）も三進（さっち）もゆかなくなるのは当然である。<br><br>また今までなら直に効いた飲み薬も注射も、全然効かないどころか逆結果となって、医師が手を付けるやたちまち悪化したり、死んだりするというような恐怖時代が来るであろう。<br><br>こうなると政府始め専門家も一般人も医学の真価が分って、医療をボイコットせざるを得なくなるから、これこそ大問題である。<br><br>そこで初めて救世教の説に頭を下げざるを得なくなると共に、アノ時随分変な説と思って悪く言ったが、実に申訳なかったという事になり、ここに初めて目が醒めるのである。<br><br> しかもこうなったら命には代えられないから、インテリもジャーナリストも、束（たば）になって救いを求めて来るのはもちろんだが、そうなったら一どきになる以上、コチラはやり切れない。<br><br>マアー事情の許す限り救ってはやるが、誰も彼もという訳にはゆくまいから、御気の毒だが外れた人は自業自得と諦めて貰うより仕方があるまい。<br><br>大本教の御筆先にこういう一節がある。<br><br>「いよいよとなりてから神に縋（すが）りて来たとて後の祭りであるぞよ。<br><br>普段から神の申す事を上の空で聞いていた人民には、神は構うておられんから、どうしようもないぞよ、俄（にわ）か信心は間に合わんぞよ」という寸鉄殺人的の言葉がある。<br><br>これがちょうど私が今言わんとするところと同じである。<br><br>また御筆先に「今度の立替えはこの世に神が有るか無いかを分けて見せてやるのであるから、神有る事が分りたなら、いかな人民でも往生せずにはいれまいがな」何と痛烈骨を刺す思いがするではないか。<br><br> ここで誰も余り気がつかない事で、かつ他教に関する事だから気が進まないが、何しろ時節が迫って来たのと人類救いのためとしたら、言わない訳にはゆかないから思い切ってかくのである。<br><br>それは何かというと、いよいよ来るべき最後の審判に際しては、宗教は何の役にも立たない事になるのである。<br><br>というのはその宗祖、開祖のほとんどが、最早世を救う力がないどころか、御自分及びその信徒が救われねばならないから、近来私に対して後から後から歎願に来る有様で、これにみてもその辺よく分るであろう。<br><br>なるほどあらゆる宗教は今までの世界が続いているとしたら、それ相応の役には立つが、いよいよ世界大転換という空前の事態となった以上、既成文化は一度は破局的運命とならざるを得ないからである。<br><br>それと共に万教帰一の時となるので、ここに一切の宗教は一団となって、本教を中心に人類救済は固（もと）より、地上天国建設に協力する事になるのである。<br><br> 今一言いわねばならないことがある。<br><br>それは帰するところ本教に背を向けて滅びるか、本教に抱かれて助かるかの、二者いずれかを選ばなければならない事になる以上、今から覚悟すべきである。<br><br>これが今後における全人類の課題でもあろう。<br><br> (注) 寸鉄殺人 「寸鉄、人を殺す」と読む。<br><br>短く鋭い言葉で、他人の痛いところをつくたとえ。<br><br>寸鉄とは手のひらに収まるほどの隠し武器の一つ。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Grande Era de Terror se Aproxima</h2>
 <p>Qualquer pessoa, ao deparar-se com um título como este, certamente se espantará. Embora talvez não seja o caso dos nossos fiéis, aqueles que o leem pela primeira vez decerto reagirão com surpresa. Tenho discorrido sobre este assunto sob os mais diversos prismas, mas, como a sua hora parece aproximar-se a passos largos, pretendo aqui abordá-lo de maneira exaustiva.</p>
@@ -104,5 +256,48 @@ function toggleLang(lang) {
 <p>Há algo mais que preciso dizer, embora me sinta relutante por se tratar de outras religiões e ser um ponto que poucos percebem. Todavia, com a urgência dos tempos e a missão de salvar a humanidade, não posso me calar. No Juízo Final que se aproxima, as religiões, quaisquer que sejam, não terão utilidade alguma. Seus fundadores e patriarcas não apenas perderam o poder de salvar o mundo, como eles próprios e seus seguidores necessitam de salvação. Prova disso é o fato de que, recentemente, eles têm vindo, um após o outro, suplicar por meu auxílio.</p>
 <p>Certamente, enquanto o mundo seguisse seu curso anterior, toda religião cumpria seu papel. Mas, diante de um evento sem precedentes como a Grande Transição Planetária, a cultura estabelecida está fadada a um destino de colapso. Com isso, chegará também o tempo da unificação de todas as doutrinas. Nesse momento, todas as religiões se agruparão, tendo nossa Igreja como centro, para colaborar não apenas na salvação da humanidade, mas na construção do Paraíso Terrestre.</p>
 <p>Por fim, resta-me apenas uma advertência. De agora em diante, todos deverão fazer uma escolha: dar as costas à nossa Igreja e perecer, ou ser acolhido por ela e encontrar a salvação. Não haverá outra alternativa. Esta, a partir de agora, é a questão fundamental que se impõe a toda a humanidade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 大恐怖時代来らん 『栄光』194号、昭和28(1953)年2月4日発行 この題を見たら誰しもギョッとするであろう。<br/><br/>信者はそうでもあるまいが、初めて見た人はそう思うに違いあるまい。<br/><br/>この事については普段から私はあらゆる面から説いて来たが、その時期が大分近づいたようだから、ここに徹底的にかこうと思うのである。<br/><br/>もちろん霊界における浄化作用が、日に月に強くなりつつある今日近き将来一般社会も転手古舞（てんてこまい）をするようになるであろうがそれについて私は最近医学革命の書なる著述を記（か）き始めたが、これもその必要を痛感するからである。<br/><br/> そうして信者はよく知っているであろうが、今日どんな人でもその薬毒の多い事は驚く程で、分れば分る程まことに恐ろしい気がする。<br/><br/>といっても今日世間を見ると、至極健康そうにセッセと働いている人も沢山あるので、上面（うわつら）からみると、そんな恐ろしい時代が来ようなどとは、到底想像もつかないのである。<br/><br/>そのような訳で未信者は無論だが、信者でも信仰の新しい人などは首を捻（ひね）って、容易に信じられないであろうが、実をいうと健康そうに見える人程危い訳でそれというのは薬毒が大いにありながら、非常によく固まっているからなのである。<br/><br/>従っていよいよとなるとむしろこういう人こそ一ペンに浄化が起って、真先に槍玉に上げられる側の人と見ねばなるまい。<br/><br/> 私は二十数年前から、病気の原因は薬毒である事を唱えて来たが、初めの内は中々信じられない人が大部分であったが、信者になって長くなる程徹底するのである。<br/><br/>しかしそれも無理はない。<br/><br/>何しろ先祖代々病（やまい）は医者と薬という合言葉同様になっているくらいだから、一度や二度で掌を返したように分る人は、まずないといってよかろう。<br/><br/>それでも近頃は大分判り方が早くなって来たようで、それだけこちらを見る眼が異（ちが）って来た訳である。<br/><br/>しかし前記のごとく浄化が段々強くなる以上、分る人もいよいよ増えるのはもちろんである。<br/><br/>というのは医療の固め方法が一日増に固らなくなるからで、それに引換え浄霊の方は溶かす方法である以上、逆になるからで、つまり時節が浄霊に味方する訳である。<br/><br/> そうなると病人は増える一方で、今までにないような種類の病気も多くなり、医師はどうしていいか分らない事になって、二進（にっち）も三進（さっち）もゆかなくなるのは当然である。<br/><br/>また今までなら直に効いた飲み薬も注射も、全然効かないどころか逆結果となって、医師が手を付けるやたちまち悪化したり、死んだりするというような恐怖時代が来るであろう。<br/><br/>こうなると政府始め専門家も一般人も医学の真価が分って、医療をボイコットせざるを得なくなるから、これこそ大問題である。<br/><br/>そこで初めて救世教の説に頭を下げざるを得なくなると共に、アノ時随分変な説と思って悪く言ったが、実に申訳なかったという事になり、ここに初めて目が醒めるのである。<br/><br/> しかもこうなったら命には代えられないから、インテリもジャーナリストも、束（たば）になって救いを求めて来るのはもちろんだが、そうなったら一どきになる以上、コチラはやり切れない。<br/><br/>マアー事情の許す限り救ってはやるが、誰も彼もという訳にはゆくまいから、御気の毒だが外れた人は自業自得と諦めて貰うより仕方があるまい。<br/><br/>大本教の御筆先にこういう一節がある。<br/><br/>「いよいよとなりてから神に縋（すが）りて来たとて後の祭りであるぞよ。<br/><br/>普段から神の申す事を上の空で聞いていた人民には、神は構うておられんから、どうしようもないぞよ、俄（にわ）か信心は間に合わんぞよ」という寸鉄殺人的の言葉がある。<br/><br/>これがちょうど私が今言わんとするところと同じである。<br/><br/>また御筆先に「今度の立替えはこの世に神が有るか無いかを分けて見せてやるのであるから、神有る事が分りたなら、いかな人民でも往生せずにはいれまいがな」何と痛烈骨を刺す思いがするではないか。<br/><br/> ここで誰も余り気がつかない事で、かつ他教に関する事だから気が進まないが、何しろ時節が迫って来たのと人類救いのためとしたら、言わない訳にはゆかないから思い切ってかくのである。<br/><br/>それは何かというと、いよいよ来るべき最後の審判に際しては、宗教は何の役にも立たない事になるのである。<br/><br/>というのはその宗祖、開祖のほとんどが、最早世を救う力がないどころか、御自分及びその信徒が救われねばならないから、近来私に対して後から後から歎願に来る有様で、これにみてもその辺よく分るであろう。<br/><br/>なるほどあらゆる宗教は今までの世界が続いているとしたら、それ相応の役には立つが、いよいよ世界大転換という空前の事態となった以上、既成文化は一度は破局的運命とならざるを得ないからである。<br/><br/>それと共に万教帰一の時となるので、ここに一切の宗教は一団となって、本教を中心に人類救済は固（もと）より、地上天国建設に協力する事になるのである。<br/><br/> 今一言いわねばならないことがある。<br/><br/>それは帰するところ本教に背を向けて滅びるか、本教に抱かれて助かるかの、二者いずれかを選ばなければならない事になる以上、今から覚悟すべきである。<br/><br/>これが今後における全人類の課題でもあろう。<br/><br/> (注) 寸鉄殺人 「寸鉄、人を殺す」と読む。<br/><br/>短く鋭い言葉で、他人の痛いところをつくたとえ。<br/><br/>寸鉄とは手のひらに収まるほどの隠し武器の一つ。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

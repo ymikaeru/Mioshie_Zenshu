@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>honbun</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 世界救世教信徒の本分を思いて 神照中教会会長 西岡照男 『地上天国』49号、昭和28(1953)年6月25日発行 「今更信徒の本分等と」と御叱責の向きもございましょうが、誠の至らぬ我が身のお詫びの意味で書かせて戴きます。<br><br> いう迄もなく私達信徒の本分は、明主様に対し奉り感謝報恩の誠を尽すにありますが、その具体的な実践の道においては、大別して左の二つに分けられると存じます。<br><br> 畏れ多いことながら、今仮に本教を、勿体なくもヽ（ス）であらせられる明主様を中心の御軸として回転する車輪にたとえてみますれば、私達信徒の一人々々は、現在その車輪のどこかの一点に配置されているのであります。<br><br>しかして、その車輪におけるその人の時所位の拠点から、一つは内に対して、戴いた御守護に対する御礼の御奉仕を捧げ奉り、今一つは外に対して人類愛による救済の御手伝をさせて戴くことにあります。<br><br>即ち、自己の拠点から対内的と対外的の二つの実践の道が分かれてくるわけであります。<br><br>しかも私達の身魂は、絶えず明主様の御光によって浄められ引上げられるが故に、その拠点の地位もおのずと高められて行くのでありますから、当然この二つの道における使命と責任は増して行くでありましょう。<br><br> そしてこの二つの道を踏むことによって始めて車の回転が始まるのであります。<br><br> では更に進んでこの二つの道について考えて見まするに、対内的な面を霊、対外的な面を体と分けますと、霊主体従の法則に従って対内的な面を主とし対外的な面を従とすべきでありましょう。<br><br>それによって左進右退の回転が始まります。<br><br>もしもこの順序を逆にすれば体主霊従となり、車の回転は右進左退となり破壊に至るわけであります。<br><br>今日迄に、人をお導きしお救いさせて戴くことのみに夢中になって、明主様に対し奉る御礼をおろそかにしたために行詰った例は沢山あります。<br><br> 明主様は感謝の献金のことについては余りお説きにはなりませんが、それは決しておろそかにしてもよいと仰せられる意味ではなく、説かれなくても当然分り切ったこととしておられる故と存じます。<br><br>即ち助けられて御礼をすることは、別に宗教でなくても一般の人間の道として当然のことであり、もしもこの義務を怠る人は、人間どころか獣にも等しきかあるいはそれ以下であることが、御讃歌にもはっきりと御示し給わっているのであります。<br><br>しかしながら、ここに説く迄もなく、この対内的な御礼の御奉仕の面は、メシヤ教御開教以来広く一般信徒に迄徹底して参り、実に嬉しき次第であります。<br><br>即ち第一段階は卒業した訳でありましょう。<br><br> 次に今一つの対外的な人類救済の御手伝の面について考えて見ましょう。<br><br> 去る二月一日の特別御面会においても「明主様のお手伝をすれば幸福になるということは間接的であり、具体的には人を幸福にすることによって自分も幸福になる。<br><br>即ち人を幸福にすることが明主様の御手伝をするということになる」との有難い御言葉を明主様より賜わったのであります。<br><br>とかく極端になり易く、直ぐ一方に偏し勝ちなのは人間の常でありますが、私達は対内的御奉仕のみに熱中の余り、この点をおろそかにしておるのではないでしょうか。<br><br>先にも述べました如く、対内的御礼の御奉仕は別に救世教でなくても当然行うべきことであります。<br><br>箱根の神仙郷、美術館、更に熱海の瑞雲郷、救世会館等と地上天国の模型が次々と建設され、拡大されて行くのは、私達信徒に対する神様の御守護、御恵みが絶大なるが故であって、決して不思議でも何でもありません。<br><br>それなのに例えば、救世会館の献金につきましても、できぬという人はお話になりませんが、予定の献金をさせて戴くので精一杯だとか、あるいはさせて戴いたからもう信徒の本分は尽してしまった等と喜んだり、ほっと一安心したりするとすれば、それは心得違いも甚だしいというべきでありましょう。<br><br>御礼を怠る人を利用信心とすれば、お礼はしても人をお救いしない人は身欲信心と世間から笑われても致し方ない訳であります。<br><br>それでは既成宗教と何ら異るところはないのみか、私達賎しき者に迄も浄霊による治病をお許し下さり、御教により人類救済のための叡智を賜う救世教の特色は空手形に終ってしまうでありましょう。<br><br>第一地上天国の模型は救世会館だけではありません。<br><br>神様の御計画は次々とより大きく立てられているのであります。<br><br>果して私達が信徒をふやさずして、現会員の数だけで世界中に地上天国ができ上がるでありましょうか。<br><br>又布教に専念させて戴ける有資格者におかれましても、対内的御奉仕のみに甘んじていれば、既成信者によって生活に一応の安定を得、それを減らさぬことのみに汲々としている、活力の抜けた既成宗教家と何ら択ぶところはない訳であります。<br><br> 明主様は、勿体なくも世界二十億の人類の遍き救済を日夜お考え下さっておられるのでございますが、私達信徒は果して何人位の救済の御手伝を日夜考えているでしょうか。<br><br>世界の二十億人を現会員に振り当てれば、一人当り平均一、二万人のお救いを日夜考えるべきでありましょう。<br><br>更に会長とか支部長とかになれば、その時所位に応じて一人当り二千万人とか数百万人とかになります。<br><br>勿論将来果して私達が悉くそれだけの御用にお使い戴けるか否かは別問題であります。<br><br>しかしながら、現在そういう想念でいなければ世界救世教の名に相応しないことになりましょう。<br><br>多くの人を救わせて戴きたいと願うのは決して慢心とは違います。<br><br>かえって日本人特有のつまらぬ卑屈感や、僅か数人あるいは数十人ないし数百人を信仰にお導きして大手柄でもしたように自惚れている場合こそ、神様から御覧になれば大変な慢心と申すべきでありましょう。<br><br>今回も明主様より自然栽培について、「それを入信の手段にしようというのは小乗的である。<br><br>日本を早く救うためには、信仰とは別にして一般に速かに普及させねばならぬ」との御教を戴き、今更の如く魂の小さき私達の浅慮を悲しむのであります。<br><br>以前より、「発展するしないは魂の太さによる」又「何事も成功しないのは成功しようという心がないからである」との御教を賜わっております。<br><br>自ら幸福になろうという心もなく、ただ神様の御守護を空頼みするばかりにて、いつになったら自分は幸福になるのだろう等と、おかげ話を読んでは他人の幸福を羨み、自己の薄幸と罪穢の深さを歎いている程愚かなこと、又救世教の信徒らしくないととはありません。<br><br> 箱根に霊界の地上天国は完成し、今や熱海に現界の地上天国が出現しつつある今日、いよいよ神様の現界に御力を振われる時期は到来したのであります。<br><br>そして、私達人類を救済下さるために日夜を分たず大神業にいそしまれ給う明主様の温い御姿を思いますにつけ、私達は、魂の小ささと愛の乏しさを恥じ、感謝の薄さを歎くのであります。<br><br>この故にこそ私達は、御神書の宣伝普及に、御浄霊に、御教の御取次にと、対外的な御神業の御手伝にも今一層の努力を至し、誠を尽すべきでありましょう。<br><br>しかも尊い御仕事を楽しみつつやらせて戴ける点に至ってはこれに勝る幸福はありません。<br><br> 以上、私達信徒の本分を、思うに任せて、悪筆駄弁も顧みず敢えてこの一文を草した次第であります。<br><br>いささか理論的になって心苦しく存じますと共に、信仰の道に励まれる方々には分り切ったことではございますが、一番誠の至らぬ私が、少しなり共神様に覚らせて戴いたことどもを御よみとり下さり、信仰のよすがともして戴ければ嬉しき極みであります。<br><br> （二月一日熱海にて）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>As Duas Vias do Dever Sagrado do Fiel</h2>
 <p>Embora ciente de que alguns possam me repreender por discorrer sobre um tema tão elementar quanto o dever dos fiéis, permito-me escrever estas linhas como um sincero ato de contrição por minhas próprias insuficiências.</p>
@@ -107,5 +259,48 @@ function toggleLang(lang) {
 <p>Hoje, com a conclusão do Paraíso Terrestre do Mundo Espiritual em Hakone e a materialização do Paraíso Terrestre do Mundo Físico em Atami, chegou o momento em que o poder de Deus se manifestará plenamente no mundo material. Ao contemplarmos a figura sublime de Meishu-Sama, que trabalha incessantemente, dia e noite, em Sua sagrada Obra para nos salvar, sentimos vergonha da pequenez de nossa alma e da carência de nosso amor, e lamentamos a superficialidade de nossa gratidão. É precisamente por essa razão que devemos redobrar nossos esforços e devotar ainda mais sinceridade ao auxílio na Obra Divina externa: na divulgação e difusão dos Escritos Divinos, na ministração do Johrei e na transmissão dos Ensinamentos. E que felicidade maior poderia haver do que a de realizar este nobre trabalho com alegria?</p>
 <p>Permiti-me, assim, expor livremente meus pensamentos sobre o dever primordial de nós, fiéis, sem me preocupar com a rusticidade de minha caligrafia ou a pobreza de minha retórica. Lamento se o texto se tornou excessivamente teórico, e estou ciente de que, para aqueles que se dedicam com afinco ao caminho da fé, tudo isso pode parecer evidente. No entanto, se estas reflexões, que a mim, o menos sincero de todos, foi permitido aprender com Deus, puderem ser lidas e servir de algum alento na jornada da fé, sentirei a mais profunda alegria.</p>
 <p>(1º de fevereiro, em Atami)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 世界救世教信徒の本分を思いて 神照中教会会長 西岡照男 『地上天国』49号、昭和28(1953)年6月25日発行 「今更信徒の本分等と」と御叱責の向きもございましょうが、誠の至らぬ我が身のお詫びの意味で書かせて戴きます。<br/><br/> いう迄もなく私達信徒の本分は、明主様に対し奉り感謝報恩の誠を尽すにありますが、その具体的な実践の道においては、大別して左の二つに分けられると存じます。<br/><br/> 畏れ多いことながら、今仮に本教を、勿体なくもヽ（ス）であらせられる明主様を中心の御軸として回転する車輪にたとえてみますれば、私達信徒の一人々々は、現在その車輪のどこかの一点に配置されているのであります。<br/><br/>しかして、その車輪におけるその人の時所位の拠点から、一つは内に対して、戴いた御守護に対する御礼の御奉仕を捧げ奉り、今一つは外に対して人類愛による救済の御手伝をさせて戴くことにあります。<br/><br/>即ち、自己の拠点から対内的と対外的の二つの実践の道が分かれてくるわけであります。<br/><br/>しかも私達の身魂は、絶えず明主様の御光によって浄められ引上げられるが故に、その拠点の地位もおのずと高められて行くのでありますから、当然この二つの道における使命と責任は増して行くでありましょう。<br/><br/> そしてこの二つの道を踏むことによって始めて車の回転が始まるのであります。<br/><br/> では更に進んでこの二つの道について考えて見まするに、対内的な面を霊、対外的な面を体と分けますと、霊主体従の法則に従って対内的な面を主とし対外的な面を従とすべきでありましょう。<br/><br/>それによって左進右退の回転が始まります。<br/><br/>もしもこの順序を逆にすれば体主霊従となり、車の回転は右進左退となり破壊に至るわけであります。<br/><br/>今日迄に、人をお導きしお救いさせて戴くことのみに夢中になって、明主様に対し奉る御礼をおろそかにしたために行詰った例は沢山あります。<br/><br/> 明主様は感謝の献金のことについては余りお説きにはなりませんが、それは決しておろそかにしてもよいと仰せられる意味ではなく、説かれなくても当然分り切ったこととしておられる故と存じます。<br/><br/>即ち助けられて御礼をすることは、別に宗教でなくても一般の人間の道として当然のことであり、もしもこの義務を怠る人は、人間どころか獣にも等しきかあるいはそれ以下であることが、御讃歌にもはっきりと御示し給わっているのであります。<br/><br/>しかしながら、ここに説く迄もなく、この対内的な御礼の御奉仕の面は、メシヤ教御開教以来広く一般信徒に迄徹底して参り、実に嬉しき次第であります。<br/><br/>即ち第一段階は卒業した訳でありましょう。<br/><br/> 次に今一つの対外的な人類救済の御手伝の面について考えて見ましょう。<br/><br/> 去る二月一日の特別御面会においても「明主様のお手伝をすれば幸福になるということは間接的であり、具体的には人を幸福にすることによって自分も幸福になる。<br/><br/>即ち人を幸福にすることが明主様の御手伝をするということになる」との有難い御言葉を明主様より賜わったのであります。<br/><br/>とかく極端になり易く、直ぐ一方に偏し勝ちなのは人間の常でありますが、私達は対内的御奉仕のみに熱中の余り、この点をおろそかにしておるのではないでしょうか。<br/><br/>先にも述べました如く、対内的御礼の御奉仕は別に救世教でなくても当然行うべきことであります。<br/><br/>箱根の神仙郷、美術館、更に熱海の瑞雲郷、救世会館等と地上天国の模型が次々と建設され、拡大されて行くのは、私達信徒に対する神様の御守護、御恵みが絶大なるが故であって、決して不思議でも何でもありません。<br/><br/>それなのに例えば、救世会館の献金につきましても、できぬという人はお話になりませんが、予定の献金をさせて戴くので精一杯だとか、あるいはさせて戴いたからもう信徒の本分は尽してしまった等と喜んだり、ほっと一安心したりするとすれば、それは心得違いも甚だしいというべきでありましょう。<br/><br/>御礼を怠る人を利用信心とすれば、お礼はしても人をお救いしない人は身欲信心と世間から笑われても致し方ない訳であります。<br/><br/>それでは既成宗教と何ら異るところはないのみか、私達賎しき者に迄も浄霊による治病をお許し下さり、御教により人類救済のための叡智を賜う救世教の特色は空手形に終ってしまうでありましょう。<br/><br/>第一地上天国の模型は救世会館だけではありません。<br/><br/>神様の御計画は次々とより大きく立てられているのであります。<br/><br/>果して私達が信徒をふやさずして、現会員の数だけで世界中に地上天国ができ上がるでありましょうか。<br/><br/>又布教に専念させて戴ける有資格者におかれましても、対内的御奉仕のみに甘んじていれば、既成信者によって生活に一応の安定を得、それを減らさぬことのみに汲々としている、活力の抜けた既成宗教家と何ら択ぶところはない訳であります。<br/><br/> 明主様は、勿体なくも世界二十億の人類の遍き救済を日夜お考え下さっておられるのでございますが、私達信徒は果して何人位の救済の御手伝を日夜考えているでしょうか。<br/><br/>世界の二十億人を現会員に振り当てれば、一人当り平均一、二万人のお救いを日夜考えるべきでありましょう。<br/><br/>更に会長とか支部長とかになれば、その時所位に応じて一人当り二千万人とか数百万人とかになります。<br/><br/>勿論将来果して私達が悉くそれだけの御用にお使い戴けるか否かは別問題であります。<br/><br/>しかしながら、現在そういう想念でいなければ世界救世教の名に相応しないことになりましょう。<br/><br/>多くの人を救わせて戴きたいと願うのは決して慢心とは違います。<br/><br/>かえって日本人特有のつまらぬ卑屈感や、僅か数人あるいは数十人ないし数百人を信仰にお導きして大手柄でもしたように自惚れている場合こそ、神様から御覧になれば大変な慢心と申すべきでありましょう。<br/><br/>今回も明主様より自然栽培について、「それを入信の手段にしようというのは小乗的である。<br/><br/>日本を早く救うためには、信仰とは別にして一般に速かに普及させねばならぬ」との御教を戴き、今更の如く魂の小さき私達の浅慮を悲しむのであります。<br/><br/>以前より、「発展するしないは魂の太さによる」又「何事も成功しないのは成功しようという心がないからである」との御教を賜わっております。<br/><br/>自ら幸福になろうという心もなく、ただ神様の御守護を空頼みするばかりにて、いつになったら自分は幸福になるのだろう等と、おかげ話を読んでは他人の幸福を羨み、自己の薄幸と罪穢の深さを歎いている程愚かなこと、又救世教の信徒らしくないととはありません。<br/><br/> 箱根に霊界の地上天国は完成し、今や熱海に現界の地上天国が出現しつつある今日、いよいよ神様の現界に御力を振われる時期は到来したのであります。<br/><br/>そして、私達人類を救済下さるために日夜を分たず大神業にいそしまれ給う明主様の温い御姿を思いますにつけ、私達は、魂の小ささと愛の乏しさを恥じ、感謝の薄さを歎くのであります。<br/><br/>この故にこそ私達は、御神書の宣伝普及に、御浄霊に、御教の御取次にと、対外的な御神業の御手伝にも今一層の努力を至し、誠を尽すべきでありましょう。<br/><br/>しかも尊い御仕事を楽しみつつやらせて戴ける点に至ってはこれに勝る幸福はありません。<br/><br/> 以上、私達信徒の本分を、思うに任せて、悪筆駄弁も顧みず敢えてこの一文を草した次第であります。<br/><br/>いささか理論的になって心苦しく存じますと共に、信仰の道に励まれる方々には分り切ったことではございますが、一番誠の至らぬ私が、少しなり共神様に覚らせて戴いたことどもを御よみとり下さり、信仰のよすがともして戴ければ嬉しき極みであります。<br/><br/> （二月一日熱海にて）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

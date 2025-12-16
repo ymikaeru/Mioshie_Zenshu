@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>M231208</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S23年12月8日） 『御光話録』2号、昭和24(1949)年1月8日発行 十二月八日（水） ――「御浄霊は急所をやれ」とのお言葉でございましたが、急所というような体的な面と信仰の面とはいずれに重点をおくべきでございましょうか。<br><br> これは体的な面に重点をおくべきです。<br><br>というのは霊的に曇りの多い箇所と、体的に毒の多い箇所とは同じだから。<br><br>つまり霊が曇っている所へ邪霊がつくんです。<br><br>だから体的にみたほうが判りいいのです。<br><br>……毒のある所へ邪霊がつくということは御浄霊をすると霊が逃げることがあるが、その場合必ず毒のある所へ行くからよく判ります。<br><br> ――昨年宗教になりましてから、着物も脱がずまた手もふれませんので急所の発見が難しく、殊に最近は以前のような講習もいたしませんので、会員にも急所ということが徹底できないように存ずるのでございますが…… そう、そういう点は非常にあります。<br><br>だから首の周りや肩などには触ってもかまいません。<br><br>この触るということは熱の有無をみるのであって、急所もだいたい上半身が主です。<br><br>で、第一の急所は、耳下腺と頸部淋巴腺、第二は後頭部です。<br><br>患者の額に触ってみて熱いときは、その原因は額の奥か後頭部か耳下腺にあるとみていい。<br><br>だからまず額を御浄霊してみるんです。<br><br>しばらくやってちょっとでも軽くなり熱が下がっていれば額の奥に原因があるとみていい。<br><br>それでも解熱しなければ耳下腺をやってみる。<br><br>まだ駄目なら後頭部、それでも下らないならば肩をやる。<br><br>この順序にやってみれば熱性病は十中八、九いいです。<br><br>こういう箇所に熱が出るために咳や痰が出たり、頭がぼーっとして憂鬱になったりするのです。<br><br>……また手の病気は肩が大切で、中風で手のきかないのも、しもやけも肩をすることです。<br><br>しもやけなんかは手の局部だけやったのでは一時よくなってもまた始まります。<br><br> ――肌を脱がすのはいかがでございましょうか？ 最初から肌を脱がせては変だが馴染みになってからならいいでしょう。<br><br>そこは臨機応変にやったらいいです。<br><br>……それからもう一つ肝腎なことは腎臓から背中にかけてで、肩甲骨の間から背骨の両側に土手のようになっている奴が曲者で、憂鬱症や胃の悪い人はそこに原因がある。<br><br>勿論この源は腎臓であり、また腰や腹の痛い人は腎盂であり、これは腎臓の少し下で、横から圧すとたいていの人は痛むが、ここに熱が出やすいのです。<br><br>腰、腹が痛んで転がるように苦しんでいる人でもここをやればじきに治ります。<br><br> ――盲腸炎や肝臓の悪い場合はいかがでございましょうか？ 無論うしろです。<br><br>背中からやれば治ります。<br><br>下腹の痛む人は腰骨の一寸上の凹んだ所、胃痙攣なんかは肩甲骨の所です。<br><br> ――患者を寝かせて御浄霊してもよろしいでしょうか？ ええ、かまいません。<br><br>病気によっては寝かしてやったらよい。<br><br>寝かしてする場合でも手は五寸から一尺くらい離したらよろしい。<br><br> ――手を離す距離はそれほど気にしなくてもよろしいでしょうか？ それは気にかけなくてよい。<br><br>……仰向きに寝たままで動けない人の背中をする場合は、その患部に手をつっこんでじかにあててやればよい。<br><br>しかしじかにつけてやるのは宗教的でないし、また効果も離してしたほうがいいです。<br><br> ――喘息なんかはいかがでございましょうか？ 喘息は御浄霊すると苦痛が軽くなるから判ります。<br><br>そこが急所です。<br><br> ――観音様、大先生様におすがりするということはいかが考えさせていただけばよろしゅうございましょうか？ 急所に当てるほうが治りやすいのであって、観音様や大先生にすがるということは、悪くはないがそれがあまりしつっこくなると自力になってしまう。<br><br>要は自分は観音様の道具だという想念で御浄霊をすればよいのです。<br><br>霊にも体にもあまり偏らないことが大切であり、治病の一般原則は霊を患者の体に深く入れてやることです。<br><br>例えば胸をやる場合は背中を狙ってやる気持ちで御浄霊をすればよい。<br><br>もう病人自身に治病力があるのだからそれを利用したらよいのです。<br><br> ――世間ではよく弁財天や稲荷などを自分の守護神とする人がありますが、これは信頼できましょうか。<br><br>またこれらの守護神は本副ならびに正守護神とどのような関係にあるのでございましょうか？ これは信頼できます。<br><br>そしてその守護神はお願いをされると御利益を授けないわけにゆかないのです。<br><br>御利益を授けないと本分を尽さぬことになるのです。<br><br>しかしだいたい力がないから邪神に負けてしまいがちです。<br><br>これは正副守護神とは別であって、正守護神に力を増してくれたり、副守護神に命令を下したりはしてくれます。<br><br>だから守護神といっても間接的守護神です。<br><br>○○稲荷では守護神をいただくということをしますが、これはやはり御守りで、結局狐の眷族がつくのです。<br><br>眷族なんかは何万、何十万あるか判りませんから。<br><br>そしてそれがいろいろ言うことを聞いてくれるのです。<br><br>しかしそれも例えば芸者が旦那に会えますようにといったふうな低級な願いを叶えてくれるが、正神系の神様は決してくだらない願い事は叶えません。<br><br>これらの守護神は体に憑いてます。<br><br>まあ居候ですね。<br><br> ――礼節と順序を重んずることがこのお道の精神と存じますが、会員や資格者が簡単にその所属を変えることはいかがいたすべきでしょうか。<br><br> 所属のことは今度はっきりしますが、あの先生は気に入ったからつくとか、あの先生は気に入らないから離れるとかいうことはたいへんな間違いで、神様から見れば怪しからぬ事です。<br><br>私はいままでそういうことを言ってくる人には黙って許していましたが……で、今度は地域的に所属をきめることにしました。<br><br>これは本部と三カ所の分所があり、分所に分会が所属し、分会には支部が所属するのです。<br><br>支部長は教導師であり、教導師は信者を百人以上作った人か、三万円以上献金した人か、または支部長の推薦によることとし、教導所を十以上有するものを分会とし、分会十以上を分所とすることにしました。<br><br>やはり功労のある人が上に行くのが本当ですから。<br><br> ――混血児の御霊はどちらの国籍でしょうか。<br><br> これは父方です。<br><br> ――男女同権と申しますが？ 男女同権と言っても男は霊であり女は体ですから、やはり男のほうが上です。<br><br> ――葬儀の際、帰幽した御霊に上げる祝詞は天津祝詞でしょうか、あるいは善言讃詞でしょうか、または両方上げるべきでしょうか。<br><br> これは両方が本当です。<br><br>が、神道には別にそのための祝詞があるからそれを上げればよい。<br><br>ふつうは式が神式なら式のあとで天津祝詞、仏式ならお経のあとで善言讃詞を上げればよろしい。<br><br>この道の信者が集まったときはみんなで上げるのが本当です。<br><br> ――それは神様に上げるのでしょうか、亡くなった御霊に上げるのでしょうか？ 神様ではなくて亡くなった霊に上げるのです。<br><br> ――歴史によりますと、聖徳太子の御代の仏教芸術や元禄時代の庶民文化のように、今日でも及ばぬほどのすばらしい芸術、文化が発達いたしましたが、なにか特殊の意味のあることでございましょうか。<br><br> これは私も始終不思議に思っているのですよ。<br><br>実にいまの人よりもあまりに巧みなのです。<br><br>いまのものなんか見られたざまではない。<br><br>絵なんかもいまの画家は美術工芸家であって、描くのではなくて色を塗るんです。<br><br>言わば「ぬり絵」です。<br><br>ああいうのは輸出には向くでしょう。<br><br>……西洋の油絵もまたとんでもない横道へ入っている。<br><br>印象派なんかも後期まではよいが、それからの絵かきは主観だけを描いて客観はまるで無視してしまっている。<br><br>だからまるで通用しない貨幣です。<br><br>芸術の目的は実によって人の心を高め、品位を向上させることだが、あれではかえって人の心を堕落させてしまう。<br><br>あんなのは美ではなくて醜です。<br><br>人間を描いたって人間には見えず、まるで化け物です。<br><br>去年『読売新聞』がやった「西洋美術展覧会」の絵の複写を見ましたが、まったく西洋にも絵はなくなりましたね。<br><br>……私が最近手に入れた人形は慶長時代の作ですが、いまの人のなんか足元へも寄れないです。<br><br>昔の仁清の陶器なんか感覚が新しい。<br><br>いまの物のほうがかえって古くさいですね。<br><br>（右のお人形を拝見する） このマゲは慶長時代の結い方で、これは当時の猿楽師の姿です。<br><br>顔なんかも品があって柔らかいし、体つき、手足の姿勢もいいです。<br><br>また支那の周時代は銅器が発達したが、いまから四、五千年も前のものでも実によくできている。<br><br>いまの銅器はイタイハ（？）は名人で、あれなら私も買いますが、これは周の真似をしているのです。<br><br>また「古代裂」（織物のこと）はいまはタツムラリュウヘイ〔龍村平蔵〕が名人ですが、この人のでいいなと思われるのはだいたい正倉院の模倣です。<br><br>いい「きれ〔裂〕」と言えば「古代裂」です。<br><br>その時代のきれでした表装なんかも実にいいですね、進んでいるのですよ、技術も。<br><br>金欄のきれから織り出した具合なんかいまはできません。<br><br>仁清の花瓶を持ってますが、その上のほうが八角で下のほうは円くなっていて、その曲線が直線に変わることもいまは作ることができないのです。<br><br>……音楽だってそうです。<br><br>どうも近代のにはいいのがない。<br><br>ベートーヴェンやバッハなんかも百年以上も前のです。<br><br>いま名曲といわれるものはほとんど百年くらい前のです。<br><br>ドビュッシーなんかどうも興味が持てませんね。<br><br>長唄でも新曲は聞けません。<br><br>『越後獅子』『勧進帳』にしてもほとんど明治初年までですね。<br><br>こういう点がまったく不思議なんですよ。<br><br>この原因としてはただこれだけは言えるでしょう。<br><br>それは種痘のため体が弱り、根気がなくなったことです。<br><br>従っていまの人は昔の人ほどに根気がなく中途で諦めてしまうのです。<br><br>昔の俳優の修業なんかもいまの人にはまねもできない。<br><br>昔は師匠はただ教えるだけではなく、弟子に自分で工夫させたのです。<br><br>いまどきこんなことをしたら、弟子はみな逃げてしまうでしょう。<br><br>『忠臣蔵』の「定九郎」をやったある役者〔中村仲蔵〕も……名前は忘れましたが……いろいろ苦心していたが、ある日飯屋に入っているとにわかに夕立がやって来た。<br><br>ところがそこへ一人の浪人風の男がかけ込んで来た。<br><br>で、それを見た役者が「これだ！」とわかり、さっそくそのかけ込む姿を舞台でやったところたいへんうけたそうです。<br><br>……いまの人にはこんな根気がない。<br><br>実際種痘ができてから名人が出ないんですよ。<br><br>それからまた生活のためにそれぞれの道に苦心するだけのいとまのないこともありますね。<br><br> ――夫婦、親子などの間で、ある人が他の人の犠牲になることがよくありますが、このような「人間関係の犠牲」ということはどのように判断いたすべきでございましょうか。<br><br> ちょっと抽象的で判りにくいが…… ――生活能力もなく頼りにならぬ実に永い間仕えた妻がついに耐えられなくて別れてしまったという場合でございますが…… それはね、その妻に犠牲になるだけの罪があるのです。<br><br>だからある時期まで待つべきです。<br><br>我慢して待っていれば自然に神様が主人と別れるようにしてくれるのです。<br><br>その場合、信仰心があるとその間の苦しみも軽いし、またその時期も早く来るのです。<br><br> ――ある大学生、健康で身体は別に異状はないのですが、つい無意識に人の物を盗み、注意されて初めて気がつきます。<br><br>病院で診断をうけたところ脳に大きな腫れものがあるとのことですが、このお道で救わせていただけましょうか。<br><br> これはわけなく治りますよ。<br><br>医者にかかってはたいへんです。<br><br>頭の内部に「おでき」のできることはよくありますが、外部から御浄霊をすれば目脂や鼻汁になって出ます。<br><br> ――霊的な関係はございましょうか？ 霊が憑いて毒が集まることもありますが、しかしふつうはただ毒が寄るのです。<br><br> ――いままでの偉大な西洋古典音楽などでは、中に偉大な「悲哀」をもっていて、それが人々を感動させるものですが、地上天国になると大きな悲哀はなくなりますゆえ、芸術も明るく朗らかなものばかりになるのでございましょうか。<br><br> これはこの通りで、あくどい刺激はなくなって明朗な脚本になります。<br><br>悲劇なんかは地獄を描いているのですが、こっちも地獄へ堕ちているものだからそれで慰められるのです。<br><br>いままでが封建的な生活だったので圧迫される筋のものを好むのです。<br><br>この点はロシア文学なんか殊にひどく、国民性がよく出ています。<br><br>やはりアメリカが一番明朗です。<br><br>あの『ヴォルガの船歌』にはロシアの帝政時代の希望のない生活がリズムによく出ています。<br><br>ベートーヴェンもほとんど悲痛です。<br><br>耳が悪くなってから名曲ができたと言われますがその通りです。<br><br>ベートーヴェンにはいいところもあるが、私はアメリカのもののほうが好きですね。<br><br> ――「さび」などはいかがでしょうか？ 「さび」と悲哀はまた別です。<br><br>これは日本人だけのものです。<br><br>建築でも木膚（きはだ）を鑑賞するのは日本人だけです。<br><br>支那でも西洋でもみんな色を塗ってしまう、しかし最近はアメリカなんかで一部分判りかけてきましたね。<br><br>……「さび」は「茶の湯」から出たのです。<br><br> ――一、麻邇（まに）の玉、如意の宝珠、二、胎臓界、金剛界、の意味につきお伺い申し上げます。<br><br> 神道では麻邇の玉、仏教では如意の宝珠というので玉とは魂のことで絶対力の意味です。<br><br>これはいままで世に出たことがなかった。<br><br>で、本当のことを言うとおかしいが、これは私のおなかの中に在るのです。<br><br>だから私はいろんなことができるのです。<br><br>人を治すということも、キリストはわずかに十二弟子にしかその力を授けられず、釈迦とても往来で急病にかかってなくなったのですが、これは自分の体すら治すだけの力がなかったからです。<br><br>私はキリストと違って何万人でも「人を治し得る人」を作ることができる。<br><br>この働きが麻邇の玉なのです。<br><br> 胎臓界は「弥勒胎臓」と言って「弥勒」が未だ出現しない時代の仏教で、夜の世界のことです。<br><br>金剛界は昼の世界で、金とは太陽の光のことであり、「弥勒下生」後が金剛界になるのです。<br><br> ――左きき、右ききについてお伺い申し上げます。<br><br> 左は霊で右は体です。<br><br>で、体を使うから右であり右ききが当然です。<br><br>だから釈迦が右手を上にあげているのは反対です。<br><br> ――左ききのほうが細工物など器用だと申しますが？ あれは左甚五郎がそうだったから言うのですよ。<br><br>左ききには霊が裏がえしになっているのもありますよ。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Esclarecimentos sobre a Prática da Fé e a Visão da Arte</h2>
 <p><strong>— Com base em suas palavras, “Ministrem Johrei no ponto vital”, gostaria de saber se a ênfase deve ser dada ao aspecto físico do ponto vital ou ao aspecto da fé.</strong></p>
@@ -143,5 +295,48 @@ function toggleLang(lang) {
 <p>A esquerda representa o espírito, e a direita, o corpo. Como utilizamos o corpo para agir, o natural é ser destro. Nesse sentido, a representação de Buda com a mão direita erguida é o inverso do correto.</p>
 <p><strong>— Dizem que os canhotos são mais habilidosos em trabalhos manuais.</strong></p>
 <p>Isso se diz porque Hidari Jingoro era canhoto. Existem canhotos cujo espírito está invertido.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S23年12月8日） 『御光話録』2号、昭和24(1949)年1月8日発行 十二月八日（水） ――「御浄霊は急所をやれ」とのお言葉でございましたが、急所というような体的な面と信仰の面とはいずれに重点をおくべきでございましょうか。<br/><br/> これは体的な面に重点をおくべきです。<br/><br/>というのは霊的に曇りの多い箇所と、体的に毒の多い箇所とは同じだから。<br/><br/>つまり霊が曇っている所へ邪霊がつくんです。<br/><br/>だから体的にみたほうが判りいいのです。<br/><br/>……毒のある所へ邪霊がつくということは御浄霊をすると霊が逃げることがあるが、その場合必ず毒のある所へ行くからよく判ります。<br/><br/> ――昨年宗教になりましてから、着物も脱がずまた手もふれませんので急所の発見が難しく、殊に最近は以前のような講習もいたしませんので、会員にも急所ということが徹底できないように存ずるのでございますが…… そう、そういう点は非常にあります。<br/><br/>だから首の周りや肩などには触ってもかまいません。<br/><br/>この触るということは熱の有無をみるのであって、急所もだいたい上半身が主です。<br/><br/>で、第一の急所は、耳下腺と頸部淋巴腺、第二は後頭部です。<br/><br/>患者の額に触ってみて熱いときは、その原因は額の奥か後頭部か耳下腺にあるとみていい。<br/><br/>だからまず額を御浄霊してみるんです。<br/><br/>しばらくやってちょっとでも軽くなり熱が下がっていれば額の奥に原因があるとみていい。<br/><br/>それでも解熱しなければ耳下腺をやってみる。<br/><br/>まだ駄目なら後頭部、それでも下らないならば肩をやる。<br/><br/>この順序にやってみれば熱性病は十中八、九いいです。<br/><br/>こういう箇所に熱が出るために咳や痰が出たり、頭がぼーっとして憂鬱になったりするのです。<br/><br/>……また手の病気は肩が大切で、中風で手のきかないのも、しもやけも肩をすることです。<br/><br/>しもやけなんかは手の局部だけやったのでは一時よくなってもまた始まります。<br/><br/> ――肌を脱がすのはいかがでございましょうか？ 最初から肌を脱がせては変だが馴染みになってからならいいでしょう。<br/><br/>そこは臨機応変にやったらいいです。<br/><br/>……それからもう一つ肝腎なことは腎臓から背中にかけてで、肩甲骨の間から背骨の両側に土手のようになっている奴が曲者で、憂鬱症や胃の悪い人はそこに原因がある。<br/><br/>勿論この源は腎臓であり、また腰や腹の痛い人は腎盂であり、これは腎臓の少し下で、横から圧すとたいていの人は痛むが、ここに熱が出やすいのです。<br/><br/>腰、腹が痛んで転がるように苦しんでいる人でもここをやればじきに治ります。<br/><br/> ――盲腸炎や肝臓の悪い場合はいかがでございましょうか？ 無論うしろです。<br/><br/>背中からやれば治ります。<br/><br/>下腹の痛む人は腰骨の一寸上の凹んだ所、胃痙攣なんかは肩甲骨の所です。<br/><br/> ――患者を寝かせて御浄霊してもよろしいでしょうか？ ええ、かまいません。<br/><br/>病気によっては寝かしてやったらよい。<br/><br/>寝かしてする場合でも手は五寸から一尺くらい離したらよろしい。<br/><br/> ――手を離す距離はそれほど気にしなくてもよろしいでしょうか？ それは気にかけなくてよい。<br/><br/>……仰向きに寝たままで動けない人の背中をする場合は、その患部に手をつっこんでじかにあててやればよい。<br/><br/>しかしじかにつけてやるのは宗教的でないし、また効果も離してしたほうがいいです。<br/><br/> ――喘息なんかはいかがでございましょうか？ 喘息は御浄霊すると苦痛が軽くなるから判ります。<br/><br/>そこが急所です。<br/><br/> ――観音様、大先生様におすがりするということはいかが考えさせていただけばよろしゅうございましょうか？ 急所に当てるほうが治りやすいのであって、観音様や大先生にすがるということは、悪くはないがそれがあまりしつっこくなると自力になってしまう。<br/><br/>要は自分は観音様の道具だという想念で御浄霊をすればよいのです。<br/><br/>霊にも体にもあまり偏らないことが大切であり、治病の一般原則は霊を患者の体に深く入れてやることです。<br/><br/>例えば胸をやる場合は背中を狙ってやる気持ちで御浄霊をすればよい。<br/><br/>もう病人自身に治病力があるのだからそれを利用したらよいのです。<br/><br/> ――世間ではよく弁財天や稲荷などを自分の守護神とする人がありますが、これは信頼できましょうか。<br/><br/>またこれらの守護神は本副ならびに正守護神とどのような関係にあるのでございましょうか？ これは信頼できます。<br/><br/>そしてその守護神はお願いをされると御利益を授けないわけにゆかないのです。<br/><br/>御利益を授けないと本分を尽さぬことになるのです。<br/><br/>しかしだいたい力がないから邪神に負けてしまいがちです。<br/><br/>これは正副守護神とは別であって、正守護神に力を増してくれたり、副守護神に命令を下したりはしてくれます。<br/><br/>だから守護神といっても間接的守護神です。<br/><br/>○○稲荷では守護神をいただくということをしますが、これはやはり御守りで、結局狐の眷族がつくのです。<br/><br/>眷族なんかは何万、何十万あるか判りませんから。<br/><br/>そしてそれがいろいろ言うことを聞いてくれるのです。<br/><br/>しかしそれも例えば芸者が旦那に会えますようにといったふうな低級な願いを叶えてくれるが、正神系の神様は決してくだらない願い事は叶えません。<br/><br/>これらの守護神は体に憑いてます。<br/><br/>まあ居候ですね。<br/><br/> ――礼節と順序を重んずることがこのお道の精神と存じますが、会員や資格者が簡単にその所属を変えることはいかがいたすべきでしょうか。<br/><br/> 所属のことは今度はっきりしますが、あの先生は気に入ったからつくとか、あの先生は気に入らないから離れるとかいうことはたいへんな間違いで、神様から見れば怪しからぬ事です。<br/><br/>私はいままでそういうことを言ってくる人には黙って許していましたが……で、今度は地域的に所属をきめることにしました。<br/><br/>これは本部と三カ所の分所があり、分所に分会が所属し、分会には支部が所属するのです。<br/><br/>支部長は教導師であり、教導師は信者を百人以上作った人か、三万円以上献金した人か、または支部長の推薦によることとし、教導所を十以上有するものを分会とし、分会十以上を分所とすることにしました。<br/><br/>やはり功労のある人が上に行くのが本当ですから。<br/><br/> ――混血児の御霊はどちらの国籍でしょうか。<br/><br/> これは父方です。<br/><br/> ――男女同権と申しますが？ 男女同権と言っても男は霊であり女は体ですから、やはり男のほうが上です。<br/><br/> ――葬儀の際、帰幽した御霊に上げる祝詞は天津祝詞でしょうか、あるいは善言讃詞でしょうか、または両方上げるべきでしょうか。<br/><br/> これは両方が本当です。<br/><br/>が、神道には別にそのための祝詞があるからそれを上げればよい。<br/><br/>ふつうは式が神式なら式のあとで天津祝詞、仏式ならお経のあとで善言讃詞を上げればよろしい。<br/><br/>この道の信者が集まったときはみんなで上げるのが本当です。<br/><br/> ――それは神様に上げるのでしょうか、亡くなった御霊に上げるのでしょうか？ 神様ではなくて亡くなった霊に上げるのです。<br/><br/> ――歴史によりますと、聖徳太子の御代の仏教芸術や元禄時代の庶民文化のように、今日でも及ばぬほどのすばらしい芸術、文化が発達いたしましたが、なにか特殊の意味のあることでございましょうか。<br/><br/> これは私も始終不思議に思っているのですよ。<br/><br/>実にいまの人よりもあまりに巧みなのです。<br/><br/>いまのものなんか見られたざまではない。<br/><br/>絵なんかもいまの画家は美術工芸家であって、描くのではなくて色を塗るんです。<br/><br/>言わば「ぬり絵」です。<br/><br/>ああいうのは輸出には向くでしょう。<br/><br/>……西洋の油絵もまたとんでもない横道へ入っている。<br/><br/>印象派なんかも後期まではよいが、それからの絵かきは主観だけを描いて客観はまるで無視してしまっている。<br/><br/>だからまるで通用しない貨幣です。<br/><br/>芸術の目的は実によって人の心を高め、品位を向上させることだが、あれではかえって人の心を堕落させてしまう。<br/><br/>あんなのは美ではなくて醜です。<br/><br/>人間を描いたって人間には見えず、まるで化け物です。<br/><br/>去年『読売新聞』がやった「西洋美術展覧会」の絵の複写を見ましたが、まったく西洋にも絵はなくなりましたね。<br/><br/>……私が最近手に入れた人形は慶長時代の作ですが、いまの人のなんか足元へも寄れないです。<br/><br/>昔の仁清の陶器なんか感覚が新しい。<br/><br/>いまの物のほうがかえって古くさいですね。<br/><br/>（右のお人形を拝見する） このマゲは慶長時代の結い方で、これは当時の猿楽師の姿です。<br/><br/>顔なんかも品があって柔らかいし、体つき、手足の姿勢もいいです。<br/><br/>また支那の周時代は銅器が発達したが、いまから四、五千年も前のものでも実によくできている。<br/><br/>いまの銅器はイタイハ（？）は名人で、あれなら私も買いますが、これは周の真似をしているのです。<br/><br/>また「古代裂」（織物のこと）はいまはタツムラリュウヘイ〔龍村平蔵〕が名人ですが、この人のでいいなと思われるのはだいたい正倉院の模倣です。<br/><br/>いい「きれ〔裂〕」と言えば「古代裂」です。<br/><br/>その時代のきれでした表装なんかも実にいいですね、進んでいるのですよ、技術も。<br/><br/>金欄のきれから織り出した具合なんかいまはできません。<br/><br/>仁清の花瓶を持ってますが、その上のほうが八角で下のほうは円くなっていて、その曲線が直線に変わることもいまは作ることができないのです。<br/><br/>……音楽だってそうです。<br/><br/>どうも近代のにはいいのがない。<br/><br/>ベートーヴェンやバッハなんかも百年以上も前のです。<br/><br/>いま名曲といわれるものはほとんど百年くらい前のです。<br/><br/>ドビュッシーなんかどうも興味が持てませんね。<br/><br/>長唄でも新曲は聞けません。<br/><br/>『越後獅子』『勧進帳』にしてもほとんど明治初年までですね。<br/><br/>こういう点がまったく不思議なんですよ。<br/><br/>この原因としてはただこれだけは言えるでしょう。<br/><br/>それは種痘のため体が弱り、根気がなくなったことです。<br/><br/>従っていまの人は昔の人ほどに根気がなく中途で諦めてしまうのです。<br/><br/>昔の俳優の修業なんかもいまの人にはまねもできない。<br/><br/>昔は師匠はただ教えるだけではなく、弟子に自分で工夫させたのです。<br/><br/>いまどきこんなことをしたら、弟子はみな逃げてしまうでしょう。<br/><br/>『忠臣蔵』の「定九郎」をやったある役者〔中村仲蔵〕も……名前は忘れましたが……いろいろ苦心していたが、ある日飯屋に入っているとにわかに夕立がやって来た。<br/><br/>ところがそこへ一人の浪人風の男がかけ込んで来た。<br/><br/>で、それを見た役者が「これだ！」とわかり、さっそくそのかけ込む姿を舞台でやったところたいへんうけたそうです。<br/><br/>……いまの人にはこんな根気がない。<br/><br/>実際種痘ができてから名人が出ないんですよ。<br/><br/>それからまた生活のためにそれぞれの道に苦心するだけのいとまのないこともありますね。<br/><br/> ――夫婦、親子などの間で、ある人が他の人の犠牲になることがよくありますが、このような「人間関係の犠牲」ということはどのように判断いたすべきでございましょうか。<br/><br/> ちょっと抽象的で判りにくいが…… ――生活能力もなく頼りにならぬ実に永い間仕えた妻がついに耐えられなくて別れてしまったという場合でございますが…… それはね、その妻に犠牲になるだけの罪があるのです。<br/><br/>だからある時期まで待つべきです。<br/><br/>我慢して待っていれば自然に神様が主人と別れるようにしてくれるのです。<br/><br/>その場合、信仰心があるとその間の苦しみも軽いし、またその時期も早く来るのです。<br/><br/> ――ある大学生、健康で身体は別に異状はないのですが、つい無意識に人の物を盗み、注意されて初めて気がつきます。<br/><br/>病院で診断をうけたところ脳に大きな腫れものがあるとのことですが、このお道で救わせていただけましょうか。<br/><br/> これはわけなく治りますよ。<br/><br/>医者にかかってはたいへんです。<br/><br/>頭の内部に「おでき」のできることはよくありますが、外部から御浄霊をすれば目脂や鼻汁になって出ます。<br/><br/> ――霊的な関係はございましょうか？ 霊が憑いて毒が集まることもありますが、しかしふつうはただ毒が寄るのです。<br/><br/> ――いままでの偉大な西洋古典音楽などでは、中に偉大な「悲哀」をもっていて、それが人々を感動させるものですが、地上天国になると大きな悲哀はなくなりますゆえ、芸術も明るく朗らかなものばかりになるのでございましょうか。<br/><br/> これはこの通りで、あくどい刺激はなくなって明朗な脚本になります。<br/><br/>悲劇なんかは地獄を描いているのですが、こっちも地獄へ堕ちているものだからそれで慰められるのです。<br/><br/>いままでが封建的な生活だったので圧迫される筋のものを好むのです。<br/><br/>この点はロシア文学なんか殊にひどく、国民性がよく出ています。<br/><br/>やはりアメリカが一番明朗です。<br/><br/>あの『ヴォルガの船歌』にはロシアの帝政時代の希望のない生活がリズムによく出ています。<br/><br/>ベートーヴェンもほとんど悲痛です。<br/><br/>耳が悪くなってから名曲ができたと言われますがその通りです。<br/><br/>ベートーヴェンにはいいところもあるが、私はアメリカのもののほうが好きですね。<br/><br/> ――「さび」などはいかがでしょうか？ 「さび」と悲哀はまた別です。<br/><br/>これは日本人だけのものです。<br/><br/>建築でも木膚（きはだ）を鑑賞するのは日本人だけです。<br/><br/>支那でも西洋でもみんな色を塗ってしまう、しかし最近はアメリカなんかで一部分判りかけてきましたね。<br/><br/>……「さび」は「茶の湯」から出たのです。<br/><br/> ――一、麻邇（まに）の玉、如意の宝珠、二、胎臓界、金剛界、の意味につきお伺い申し上げます。<br/><br/> 神道では麻邇の玉、仏教では如意の宝珠というので玉とは魂のことで絶対力の意味です。<br/><br/>これはいままで世に出たことがなかった。<br/><br/>で、本当のことを言うとおかしいが、これは私のおなかの中に在るのです。<br/><br/>だから私はいろんなことができるのです。<br/><br/>人を治すということも、キリストはわずかに十二弟子にしかその力を授けられず、釈迦とても往来で急病にかかってなくなったのですが、これは自分の体すら治すだけの力がなかったからです。<br/><br/>私はキリストと違って何万人でも「人を治し得る人」を作ることができる。<br/><br/>この働きが麻邇の玉なのです。<br/><br/> 胎臓界は「弥勒胎臓」と言って「弥勒」が未だ出現しない時代の仏教で、夜の世界のことです。<br/><br/>金剛界は昼の世界で、金とは太陽の光のことであり、「弥勒下生」後が金剛界になるのです。<br/><br/> ――左きき、右ききについてお伺い申し上げます。<br/><br/> 左は霊で右は体です。<br/><br/>で、体を使うから右であり右ききが当然です。<br/><br/>だから釈迦が右手を上にあげているのは反対です。<br/><br/> ――左ききのほうが細工物など器用だと申しますが？ あれは左甚五郎がそうだったから言うのですよ。<br/><br/>左ききには霊が裏がえしになっているのもありますよ。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

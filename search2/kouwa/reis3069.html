@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>reis3069</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊祀篇 第三篇 ６ 069-083 処分１ 069 位牌の処分法 一家に沢山の位牌があり、これを整理した場合、その位牌の正しい処分の方法を御教えの程御願い申し上げます。<br><br> 面識のない祖霊の分は、別に位牌を作り合祀する。<br><br>事情を話して、先祖代々へお移り願う。<br><br>そして焼けばよい。<br><br>（S24. 4.21） rattail（注） 〔 御光話（S23年 4月 8日） 『御光話録（補）』発行年月日不明、推定昭和26年〕 ――仏壇の中のお位牌が多すぎたときはどういたしたらよろしいでしょうか。<br><br> 『原則としては面識のない祖先は先祖代々之霊の中へ入れていい。<br><br>面識のある人のは位牌を作って祀る。<br><br>が、多くなったら古いのから整理したらよい。<br><br>勿論そのときはお祀りをする。<br><br>位牌はいくら小さくてもいい。<br><br>これは大黒様とは違います。<br><br>しかし等級をつけねばいけない。<br><br>例えば子のよりも親のほうを大きくするというふうに。<br><br> 鐘を叩くのは、いまごちそうを上げるという合図です。<br><br>食物を供えると霊界ではちゃんと係がいてね、食物を運搬するんです。<br><br>朝お祀りしても祖霊が来ますよ。<br><br>ちゃんと何百人も来ます。<br><br>そんなに大勢集まってもほんのこれっぽっちの大きさです。<br><br>なにしろ霊は伸縮自在ですからね。<br><br>』 070 古位牌の処置 父死亡の時に拵へた白木の位牌を、この度新しく正式の位牌に取替えさせて頂きました。<br><br>仏様に新しい位牌へお移り下さるように御願い申し上げ、善言讃詞をおあげ致しました。<br><br>それでよろしゅう御座居ますか。<br><br>元の古い位牌の処置と共に御教示頂きとう存じます。<br><br> それでよい。<br><br>元の位牌は焼いてよい。<br><br>（S24. 8.18） 071 不明位牌処置 信者の家庭で御座いますが、この度新しく先祖代々及びその他の位牌をつくり、古いのを整理致したいと存じておりますが、古い位牌の中に弘化頃（1844～1848）のものが繰出しにて五体御座いますが、これは裏面には俗名の名前だけで姓はなく、しかもこれはその家の祖霊でなく、一族のあとが絶えたので、その家の位牌を引取って代々世話して来たものらしいとの事で御座いますが、これはどう致したら宜しいもので御座いましょうか。<br><br>御伺い申し上げます。<br><br> そのままにしておけばよい。<br><br>（S24.12. 1） 072 墓石と位牌の整理 墓地移転のため改葬する場合、何代または何年位前迄の祖霊を一墓に纒めてよろしいので御座いましょうか。<br><br>なおこの場合のお祭りの仕方と墓石の処分は、どう致せばよろしいので御座居ましょうか。<br><br>御教えを御願い申します。<br><br> 位牌の整理は、面識のある人の霊は、その名によって祀る。<br><br>面識のない人は一纒めにして先祖代々の霊でよい。<br><br>また一杯になったとすれば古いのから片づけた方がよい。<br><br>でないと段々殖えて置場がなくなる。<br><br> 墓石の方は一杯になれば古いのから消してゆく。<br><br>あるいは墓石を取替える。<br><br>先祖代々は一つでいい。<br><br>真中へ先祖代々のをおき、余地を残した方がよい。<br><br>（予備として） 古い墓石の処置は川へやるのも嘘で、人の踏まぬ土地へ―墓地の一部へ埋めた方がよい。<br><br>（S23. 8.21） 073 墓と骨の整理 墓は一つにする。<br><br>やむを得ぬ事情があれば差支えない。<br><br> 古いのは差支えないが、骨は持って行っていい。<br><br>新しいのはそのままにする。<br><br>（S23） 074 移住による墓の始末 祖先の墓地を残して、遠方の地に住する場合、その墓の始末、並びに移すにはいかに致したらよろしいでしょうか。<br><br> 墓へ向って言葉で事情をいえば承知する。<br><br>でないと怒る。<br><br>（S24. 9.15） 075 墓石新設と礎石 墓地狭少のため、父の墓石を建てる余地なく、また、祖先の墓石小さきため墓石を整理致し、先祖代々の墓石一基を新たに建立致しますに付、旧墓石を礎石として使用致しましても差支え御座いませんでしょうか。<br><br>お伺い申し上げます。<br><br> 字を彫ったままではいけない。<br><br>字を消してからならよい。<br><br>面識ある人のみは整理しないで、戒名を彫り直す。<br><br>（S24. 1.21） rattail（注） 〔 ご存じですか（実生分会３月号） 、昭和24(1949)年3月1日発行〕掲載 076 墓石不明の場合の整理 古い墓石が多く、どれが祖先のか判りませんのですが、どうすれば良いでしょうか。<br><br> 面識ある者のだけ残して整理すればよい。<br><br>理由を話して断るとよい。<br><br>（S24. 4.28） 077 墓石整理 祖先の墓が沢山あって墓地の余積がなくなりましたので、寄せ墓をしたいと思います。<br><br>どうしたらよいのでしょうか。<br><br>祖先代々之墓として一基にしても差支えありませんか。<br><br>またその場合、古い骨はどうしたらよいでしょうか。<br><br>御尋ね申し上げます。<br><br> 整理してよい。<br><br>面識のある人はその名を墓石の横へ刻む。<br><br>面識のない人の骨は一まとめでよい。<br><br> 078 墓石の整理 農地調整により今般入手致しました土地に古い墓が数基点在しており、戒名の読めるものもあり、読めない程古いのも御座います。<br><br>農耕の都合上一ケ所におまとめ致したいと存じますが、どう致したらよろしゅう御座いますか。<br><br>御教えを御願い申し上げます。<br><br> 一個所へ集めてよい。<br><br>（S24. 7.21） 079 古墓の処置 墓石の建替えに際し、古い墓石はいかに処置したらよいでしょうか。<br><br> 横へ埋める。<br><br>（S24.10. 6） 080 無縁仏塔の処置 よく山間部を開墾致します時、無縁仏のごとき石塔がありますが、このような場合はいかように処理致したらよいでしょうか。<br><br>右御伺い申し上げます。<br><br> 掘りあてるという事は因縁があるからで――。<br><br> 小さくとも三尺位のもの、一坪位の平地へ建ててやり、時々供え物をしてやる。<br><br> 仏壇へ他人の霊を祀る位牌が一つあってもいい。<br><br>諸霊位。<br><br> 081 梵字石碑の処分 今度入信させて戴いた方の庭先に、石に刻んだ左記のごとき碑がございました。<br><br>いかなる意味のもので御座いましょうか。<br><br>なお取除く場合の方法と後の処置に付いて御伺い申し上げます。<br><br> （石碑の様子は次の通りでございます。<br><br>） 梵字である。<br><br>取除かなくてもよい。<br><br>するなら御挨拶してどかすか、お断りして処分する。<br><br>（S24.10. 2） 082 石仏の処理 拝む必要が無くなった石の仏像の御処分はいかが致したらよろしいので御座いましょうか。<br><br> 記念にとっておいたらいい。<br><br>博物館が保存するように、その時代時代の美術を表わしたものであるから、大切にとっておいたらいいだろう。<br><br> 083 不動像仏壇引出しにあり 私の亡父が朝夕御詣りしておりました不動尊の御軸が、四ケ年程仏壇の引出の中に入れてありますが、このままで良いものでしょうか。<br><br> このままでよい。<br><br>光明如来様をお祭りしてあればよい。<br><br>（S23.10.26）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de artigos do Reverendo Jikan Okada — Pesquisa de Ensinamentos: help; Pesquisa de materiais: Ritos Espirituais, Volume III, Seção 6</h2>
 <h3>069 O método para a correta disposição dos ihai</h3>
@@ -179,5 +331,48 @@ function toggleLang(lang) {
 <br/>
 </font></p>
 </blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊祀篇 第三篇 ６ 069-083 処分１ 069 位牌の処分法 一家に沢山の位牌があり、これを整理した場合、その位牌の正しい処分の方法を御教えの程御願い申し上げます。<br/><br/> 面識のない祖霊の分は、別に位牌を作り合祀する。<br/><br/>事情を話して、先祖代々へお移り願う。<br/><br/>そして焼けばよい。<br/><br/>（S24. 4.21） rattail（注） 〔 御光話（S23年 4月 8日） 『御光話録（補）』発行年月日不明、推定昭和26年〕 ――仏壇の中のお位牌が多すぎたときはどういたしたらよろしいでしょうか。<br/><br/> 『原則としては面識のない祖先は先祖代々之霊の中へ入れていい。<br/><br/>面識のある人のは位牌を作って祀る。<br/><br/>が、多くなったら古いのから整理したらよい。<br/><br/>勿論そのときはお祀りをする。<br/><br/>位牌はいくら小さくてもいい。<br/><br/>これは大黒様とは違います。<br/><br/>しかし等級をつけねばいけない。<br/><br/>例えば子のよりも親のほうを大きくするというふうに。<br/><br/> 鐘を叩くのは、いまごちそうを上げるという合図です。<br/><br/>食物を供えると霊界ではちゃんと係がいてね、食物を運搬するんです。<br/><br/>朝お祀りしても祖霊が来ますよ。<br/><br/>ちゃんと何百人も来ます。<br/><br/>そんなに大勢集まってもほんのこれっぽっちの大きさです。<br/><br/>なにしろ霊は伸縮自在ですからね。<br/><br/>』 070 古位牌の処置 父死亡の時に拵へた白木の位牌を、この度新しく正式の位牌に取替えさせて頂きました。<br/><br/>仏様に新しい位牌へお移り下さるように御願い申し上げ、善言讃詞をおあげ致しました。<br/><br/>それでよろしゅう御座居ますか。<br/><br/>元の古い位牌の処置と共に御教示頂きとう存じます。<br/><br/> それでよい。<br/><br/>元の位牌は焼いてよい。<br/><br/>（S24. 8.18） 071 不明位牌処置 信者の家庭で御座いますが、この度新しく先祖代々及びその他の位牌をつくり、古いのを整理致したいと存じておりますが、古い位牌の中に弘化頃（1844～1848）のものが繰出しにて五体御座いますが、これは裏面には俗名の名前だけで姓はなく、しかもこれはその家の祖霊でなく、一族のあとが絶えたので、その家の位牌を引取って代々世話して来たものらしいとの事で御座いますが、これはどう致したら宜しいもので御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> そのままにしておけばよい。<br/><br/>（S24.12. 1） 072 墓石と位牌の整理 墓地移転のため改葬する場合、何代または何年位前迄の祖霊を一墓に纒めてよろしいので御座いましょうか。<br/><br/>なおこの場合のお祭りの仕方と墓石の処分は、どう致せばよろしいので御座居ましょうか。<br/><br/>御教えを御願い申します。<br/><br/> 位牌の整理は、面識のある人の霊は、その名によって祀る。<br/><br/>面識のない人は一纒めにして先祖代々の霊でよい。<br/><br/>また一杯になったとすれば古いのから片づけた方がよい。<br/><br/>でないと段々殖えて置場がなくなる。<br/><br/> 墓石の方は一杯になれば古いのから消してゆく。<br/><br/>あるいは墓石を取替える。<br/><br/>先祖代々は一つでいい。<br/><br/>真中へ先祖代々のをおき、余地を残した方がよい。<br/><br/>（予備として） 古い墓石の処置は川へやるのも嘘で、人の踏まぬ土地へ―墓地の一部へ埋めた方がよい。<br/><br/>（S23. 8.21） 073 墓と骨の整理 墓は一つにする。<br/><br/>やむを得ぬ事情があれば差支えない。<br/><br/> 古いのは差支えないが、骨は持って行っていい。<br/><br/>新しいのはそのままにする。<br/><br/>（S23） 074 移住による墓の始末 祖先の墓地を残して、遠方の地に住する場合、その墓の始末、並びに移すにはいかに致したらよろしいでしょうか。<br/><br/> 墓へ向って言葉で事情をいえば承知する。<br/><br/>でないと怒る。<br/><br/>（S24. 9.15） 075 墓石新設と礎石 墓地狭少のため、父の墓石を建てる余地なく、また、祖先の墓石小さきため墓石を整理致し、先祖代々の墓石一基を新たに建立致しますに付、旧墓石を礎石として使用致しましても差支え御座いませんでしょうか。<br/><br/>お伺い申し上げます。<br/><br/> 字を彫ったままではいけない。<br/><br/>字を消してからならよい。<br/><br/>面識ある人のみは整理しないで、戒名を彫り直す。<br/><br/>（S24. 1.21） rattail（注） 〔 ご存じですか（実生分会３月号） 、昭和24(1949)年3月1日発行〕掲載 076 墓石不明の場合の整理 古い墓石が多く、どれが祖先のか判りませんのですが、どうすれば良いでしょうか。<br/><br/> 面識ある者のだけ残して整理すればよい。<br/><br/>理由を話して断るとよい。<br/><br/>（S24. 4.28） 077 墓石整理 祖先の墓が沢山あって墓地の余積がなくなりましたので、寄せ墓をしたいと思います。<br/><br/>どうしたらよいのでしょうか。<br/><br/>祖先代々之墓として一基にしても差支えありませんか。<br/><br/>またその場合、古い骨はどうしたらよいでしょうか。<br/><br/>御尋ね申し上げます。<br/><br/> 整理してよい。<br/><br/>面識のある人はその名を墓石の横へ刻む。<br/><br/>面識のない人の骨は一まとめでよい。<br/><br/> 078 墓石の整理 農地調整により今般入手致しました土地に古い墓が数基点在しており、戒名の読めるものもあり、読めない程古いのも御座います。<br/><br/>農耕の都合上一ケ所におまとめ致したいと存じますが、どう致したらよろしゅう御座いますか。<br/><br/>御教えを御願い申し上げます。<br/><br/> 一個所へ集めてよい。<br/><br/>（S24. 7.21） 079 古墓の処置 墓石の建替えに際し、古い墓石はいかに処置したらよいでしょうか。<br/><br/> 横へ埋める。<br/><br/>（S24.10. 6） 080 無縁仏塔の処置 よく山間部を開墾致します時、無縁仏のごとき石塔がありますが、このような場合はいかように処理致したらよいでしょうか。<br/><br/>右御伺い申し上げます。<br/><br/> 掘りあてるという事は因縁があるからで――。<br/><br/> 小さくとも三尺位のもの、一坪位の平地へ建ててやり、時々供え物をしてやる。<br/><br/> 仏壇へ他人の霊を祀る位牌が一つあってもいい。<br/><br/>諸霊位。<br/><br/> 081 梵字石碑の処分 今度入信させて戴いた方の庭先に、石に刻んだ左記のごとき碑がございました。<br/><br/>いかなる意味のもので御座いましょうか。<br/><br/>なお取除く場合の方法と後の処置に付いて御伺い申し上げます。<br/><br/> （石碑の様子は次の通りでございます。<br/><br/>） 梵字である。<br/><br/>取除かなくてもよい。<br/><br/>するなら御挨拶してどかすか、お断りして処分する。<br/><br/>（S24.10. 2） 082 石仏の処理 拝む必要が無くなった石の仏像の御処分はいかが致したらよろしいので御座いましょうか。<br/><br/> 記念にとっておいたらいい。<br/><br/>博物館が保存するように、その時代時代の美術を表わしたものであるから、大切にとっておいたらいいだろう。<br/><br/> 083 不動像仏壇引出しにあり 私の亡父が朝夕御詣りしておりました不動尊の御軸が、四ケ年程仏壇の引出の中に入れてありますが、このままで良いものでしょうか。<br/><br/> このままでよい。<br/><br/>光明如来様をお祭りしてあればよい。<br/><br/>（S23.10.26）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kururi15</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 私の思い出 瓢箪 『地上天国』58号、昭和29(1954)年3月25日発行 和 歌 これも、明主様が御神示を御検討遊ばされていた頃の出来事の一つである。<br><br>当時大本教では「神の国」という信徒の機関誌を発行しており、巻頭には出口教主の短歌を毎月掲載していたのであるが、丁度御神示の御口述を終えられた直後の頃の昭和二年二月か三月号の同誌上に、先生が発表されている三十数首の和歌を御覧になられて明主様は驚かれた。<br><br>それは一見殊更変った点も見出せぬ普通の歌ながら、その内面には明主様が神から示された神秘がありやかに秘示され、明主様でなくては誰人がみても分らぬように歌い込まれていたからである。<br><br>それは詠者である出口先生としても神から思い浮かばせらるるままを和歌にされたものであって、明主様のお分りになる神髄な事柄など恐らくは御存知なかったであろう。<br><br>というのは言霊の真髄をお別けになる御方は明主様以外未だ世に現われまさぬからでおる。<br><br>言うまでもなくこれも明主様のために、御神示の裏付として示された奇しびな神業であったのである。<br><br>和歌は誠に神秘な意味のあるものである。<br><br> 本教においては、礼拝の節必ず御讃歌を奉唱して心を高め天国の姿を表わす事になっているが、神様は特に和歌をお好みになり、またお詠みになる由であるが、美しい言霊と調によって人の心を和めつつ神智を恵まい給わるのはいかにも神の御心にふさわしい芸術である。<br><br>また上層天国においても言霊芸術は盛んに行われる由で、最も高級なる芸術である事が分る。<br><br>和歌が日本独特のものであるのも大和民族の霊的地位を示すものであり、日本国本来の使命を語るものでもあろう。<br><br>誠に円満清朗高雅優美な和歌の言霊は、平和的建設者である神のものであり、闘争的破壊者である邪神の低い頭脳にはその内意など全く解する事も出来ぬ。<br><br> 明主様は従来、神秘的な事や重要なる御神業上の御事は多くは御歌によって御垂示給わるように拝されたが、言うに言えぬ深い御神意は和歌が最も表現され易い点もあられようし、時期の関係や、和歌には無知な邪神の妨害に対する御配慮もあられたのではなかろうか。<br><br> 過去において、御歌によって御垂示賜わる事に無関心だったり理解力の薄い人は、大抵本教の真髄に不徹底のまま御救いを離れ、大き御蔭を戴き損ねる人をみたが、吾々は折にふれて賜わる御詠は特に心をひそめ繰返し繰返し拝読して、出来るだけ御神意を理解さして戴くようすべきであると思うのである。<br><br>もっとも明主様の賜わる御垂示は悉く万金に替え難い宝であり、身魂のこの上なき糧ではあるが、御詠は特に至上の美味と芳香をゆたかに恵まれ給うたそれである筈である。<br><br> また和歌は千万言にも尽くし難い意味や、無量の感情を僅かに三十一文字によって最も強く和らかく美的に表現する高度の芸術でもある。<br><br>御歌の理解も吾々の身魂の向上に伴なって深まる訳であろう。<br><br> 神様は高位に在すほど御言葉は簡明の御由である。<br><br>明主様は世のあらゆる事に通ぜられ、どんな大きい事でも深い事でも簡明に表現せられ、どんな困難な問題でもズバリ御一言で即決せられ、真相を明らかにせられる。<br><br> 昔、一を聞いて十を悟る身魂でないと神様の肝腎の御用は出来ぬとよく教えられたものだが、今も明主様は、吾々の遅鈍をお憐れみになり、巾着切のように鋭敏になれと御教え給わるが、十を聞いて十の理解もむつかしい吾々を御覧になれば、定めし虫の蠢きにも等しいものであろう。<br><br> 身魂磨きの要諦は智慧の力を養うにある。<br><br>最高の神智をお揮いになられ、迷信世界を打切り新文明をお造りになる明主様の御仕事にお仕えする吾々は、少くとも簡明な言葉や、いささかな事象によって物の実体を把握したり、表現出来るほどになりたいものである。<br><br>即ち真実を映して悠揚たる歌の心境である。<br><br>この意味においても吾々は御浄霊によって頭脳の薬毒浄化と共に神智の御詠はいつでも思い出せるほどに拝読しておくべきだと思う。<br><br>もし吾々が向上してあるレベルに達するなら、あえて恋愛に限らず、想念だけで言葉を用うる以上に意志の交換が出来るようになる事が信じられる。<br><br>精神文明の大いに発達する昼間の世界の住民のレベルに入るなら誰しもそれほどに進化しうるのも不思議ではない。<br><br>もっともそのような文明世界になれば、物質的にも科学が極微世界の発見によって飛躍的に進歩する結果、掌中に文字をかくだけで、遠隔地との談話交換も出来るようになるとは、いつか明主様からお伺いした事である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Poesia como Veículo da Vontade Divina</h2>
 <p>Este é mais um dos acontecimentos do período em que Meishu-Sama se aprofundava no estudo das Revelações Divinas. Naquela época, a Oomoto-kyo publicava um periódico para seus fiéis intitulado "O País de Deus", cuja primeira página era sempre dedicada a um poema do líder da religião, Onisaburo Deguchi. Por volta de fevereiro ou março de 1927, logo após Meishu-Sama ter concluído a transcrição das revelações que recebera, qual não foi Sua surpresa ao se deparar com cerca de trinta poemas de autoria do mestre Deguchi naquela publicação.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Quanto mais elevado é um deus, mais concisas são suas palavras. Meishu-Sama, que possui entendimento sobre todas as coisas do mundo, expressa os assuntos mais grandiosos e profundos com clareza lapidar. Com uma única e certeira palavra, soluciona de imediato os problemas mais complexos, desvelando a verdade. Antigamente, éramos frequentemente ensinados que, sem uma alma capaz de, "ouvindo um, compreender dez", não seria possível servir a Deus em Sua Obra primordial. Ainda hoje, compadecendo-se de nossa lentidão, Meishu-Sama nos instrui a adquirir uma percepção aguçada. Ao observar nossa dificuldade em compreender dez mesmo depois de ouvir dez, Ele certamente nos vê como o rastejar de um inseto.</p>
 <p>A chave para o aprimoramento espiritual reside no cultivo da sabedoria. Nós, que temos a permissão de servir a Meishu-Sama em Sua Obra de manifestar a mais alta sabedoria divina para pôr fim a um mundo de superstições e construir uma nova civilização, devemos almejar, no mínimo, a capacidade de apreender e expressar a realidade das coisas a partir de palavras simples ou de pequenos acontecimentos. Eis o estado de espírito sereno e altivo que emana da poesia. Nesse sentido, penso que devemos, por meio do Johrei, purificar nosso cérebro do <em>yakudoku</em> e, ao mesmo tempo, ler Seus poemas com tanta devoção que possamos recordá-los a qualquer momento.</p>
 <p>Acredito que, se evoluirmos e atingirmos um determinado nível espiritual, seremos capazes de intercambiar nossas vontades apenas pelo pensamento, com mais eficácia do que pelo uso de palavras, e não apenas em assuntos românticos. Não é de se estranhar que todos possam alcançar tal grau de evolução ao adentrar o nível dos habitantes do vindouro Mundo do Dia, onde a civilização espiritual se desenvolverá plenamente. Nessa era, a ciência material também progredirá de forma exponencial com a descoberta do mundo infinitesimal, a ponto de, como Meishu-Sama certa vez nos confidenciou, ser possível dialogar com pessoas a distância apenas traçando caracteres na palma da mão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 私の思い出 瓢箪 『地上天国』58号、昭和29(1954)年3月25日発行 和 歌 これも、明主様が御神示を御検討遊ばされていた頃の出来事の一つである。<br/><br/>当時大本教では「神の国」という信徒の機関誌を発行しており、巻頭には出口教主の短歌を毎月掲載していたのであるが、丁度御神示の御口述を終えられた直後の頃の昭和二年二月か三月号の同誌上に、先生が発表されている三十数首の和歌を御覧になられて明主様は驚かれた。<br/><br/>それは一見殊更変った点も見出せぬ普通の歌ながら、その内面には明主様が神から示された神秘がありやかに秘示され、明主様でなくては誰人がみても分らぬように歌い込まれていたからである。<br/><br/>それは詠者である出口先生としても神から思い浮かばせらるるままを和歌にされたものであって、明主様のお分りになる神髄な事柄など恐らくは御存知なかったであろう。<br/><br/>というのは言霊の真髄をお別けになる御方は明主様以外未だ世に現われまさぬからでおる。<br/><br/>言うまでもなくこれも明主様のために、御神示の裏付として示された奇しびな神業であったのである。<br/><br/>和歌は誠に神秘な意味のあるものである。<br/><br/> 本教においては、礼拝の節必ず御讃歌を奉唱して心を高め天国の姿を表わす事になっているが、神様は特に和歌をお好みになり、またお詠みになる由であるが、美しい言霊と調によって人の心を和めつつ神智を恵まい給わるのはいかにも神の御心にふさわしい芸術である。<br/><br/>また上層天国においても言霊芸術は盛んに行われる由で、最も高級なる芸術である事が分る。<br/><br/>和歌が日本独特のものであるのも大和民族の霊的地位を示すものであり、日本国本来の使命を語るものでもあろう。<br/><br/>誠に円満清朗高雅優美な和歌の言霊は、平和的建設者である神のものであり、闘争的破壊者である邪神の低い頭脳にはその内意など全く解する事も出来ぬ。<br/><br/> 明主様は従来、神秘的な事や重要なる御神業上の御事は多くは御歌によって御垂示給わるように拝されたが、言うに言えぬ深い御神意は和歌が最も表現され易い点もあられようし、時期の関係や、和歌には無知な邪神の妨害に対する御配慮もあられたのではなかろうか。<br/><br/> 過去において、御歌によって御垂示賜わる事に無関心だったり理解力の薄い人は、大抵本教の真髄に不徹底のまま御救いを離れ、大き御蔭を戴き損ねる人をみたが、吾々は折にふれて賜わる御詠は特に心をひそめ繰返し繰返し拝読して、出来るだけ御神意を理解さして戴くようすべきであると思うのである。<br/><br/>もっとも明主様の賜わる御垂示は悉く万金に替え難い宝であり、身魂のこの上なき糧ではあるが、御詠は特に至上の美味と芳香をゆたかに恵まれ給うたそれである筈である。<br/><br/> また和歌は千万言にも尽くし難い意味や、無量の感情を僅かに三十一文字によって最も強く和らかく美的に表現する高度の芸術でもある。<br/><br/>御歌の理解も吾々の身魂の向上に伴なって深まる訳であろう。<br/><br/> 神様は高位に在すほど御言葉は簡明の御由である。<br/><br/>明主様は世のあらゆる事に通ぜられ、どんな大きい事でも深い事でも簡明に表現せられ、どんな困難な問題でもズバリ御一言で即決せられ、真相を明らかにせられる。<br/><br/> 昔、一を聞いて十を悟る身魂でないと神様の肝腎の御用は出来ぬとよく教えられたものだが、今も明主様は、吾々の遅鈍をお憐れみになり、巾着切のように鋭敏になれと御教え給わるが、十を聞いて十の理解もむつかしい吾々を御覧になれば、定めし虫の蠢きにも等しいものであろう。<br/><br/> 身魂磨きの要諦は智慧の力を養うにある。<br/><br/>最高の神智をお揮いになられ、迷信世界を打切り新文明をお造りになる明主様の御仕事にお仕えする吾々は、少くとも簡明な言葉や、いささかな事象によって物の実体を把握したり、表現出来るほどになりたいものである。<br/><br/>即ち真実を映して悠揚たる歌の心境である。<br/><br/>この意味においても吾々は御浄霊によって頭脳の薬毒浄化と共に神智の御詠はいつでも思い出せるほどに拝読しておくべきだと思う。<br/><br/>もし吾々が向上してあるレベルに達するなら、あえて恋愛に限らず、想念だけで言葉を用うる以上に意志の交換が出来るようになる事が信じられる。<br/><br/>精神文明の大いに発達する昼間の世界の住民のレベルに入るなら誰しもそれほどに進化しうるのも不思議ではない。<br/><br/>もっともそのような文明世界になれば、物質的にも科学が極微世界の発見によって飛躍的に進歩する結果、掌中に文字をかくだけで、遠隔地との談話交換も出来るようになるとは、いつか明主様からお伺いした事である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

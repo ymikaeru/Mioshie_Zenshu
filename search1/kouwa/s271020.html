@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s271020</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 関西巡教御講話 （S27年10月20日） 『御教え集』15号、昭和27(1952)年11月15日発行 昭和二十七年十月二十日 （京都劇場において） 今日は時間が割合にありますから、ゆっくり話ができると思います。<br><br>昨日「浮世絵展覧会」を見ましたが、随分たくさん出てました。<br><br>みなさんも見られたでしょうが、集めた点では驚きました。<br><br>しかしずっと見ますと、やはり私の方で出したものが一番良かったです。<br><br>出したのは四点ですが、有名な「湯女」と、歌麿の「入浴の図」と、それから「南蛮屏風」という外人の風俗を画いたもので小さい屏風です。<br><br>それで先方でも昨日は博物館の浮世絵専門の人で、近藤市太郎という人がすっかり説明してくれました。<br><br>また「京都新聞」の社長、編集長も話してくれましたが、やはり私の方の三点が一番優秀だと言っておりました。<br><br>この種類のうちで一番良いということを非常に褒めていましたが、私の方でああいう品物は別にたいして関心をもたなかったのですが、ちょうど箱根美術館の開館と前後して手に入ったのです。<br><br>なかなか容易に手に入るものではないですが、すこぶる簡単に手に入ったということは、やはり人間業ではありません。<br><br>神様はまことに気が利いていると言いますか、そう思って驚いたくらいです。<br><br>来年は箱根美術館に別館を造ります。<br><br>別館ですからずっと小さいもので、五間に八間という会場です。<br><br>来年の開館早々に浮世絵展覧会をやるつもりです。<br><br>もちろん、数は京都のから言えば何分の一かもしれませんが、品物においては今度の京都以上だと思っております。<br><br>そういうような物がだいぶ手に入りましたし、あるいは手に入らんとしているような状態です。<br><br>とうていちょっと手に入らないような物が、不思議に入ってくるのです。<br><br>実におもしろいものです。<br><br>そんなわけで、来年を楽しみにしてもらいたいと思います。<br><br> 今度こちらに来た目的は知っているでしょうが、嵯峨の土地と、それから最初手に入れた土地のすぐ前に、少し小さいですが手に入ったものがあるのです。<br><br>そういう点について非常に奇蹟があるのです。<br><br>それを話しますと、最初の方は前に話した通り一万八千坪です。<br><br>それに百坪くらいの家が建っているのです。<br><br>その家はなんだかはっきりしなかったのですが、昨日行ってみますと非常に良い家なのです。<br><br>なんだかこしらえかけのような話があったのでどうかと思っていたところが、立派にできあがって人が住んでおりまして、住むとしては別に手を入れなくても良いくらいに完備しております。<br><br>それでたいへん喜んだのですが、来年の春はあそこに住まれる家なので喜んでいるわけなのです。<br><br>あそこは私が少しくらい滞在するのには充分ですが、ただ信者さんが大勢来た時に困るのです。<br><br>どうしても庭にちょっと張るよりしかたがないのです。<br><br>すると、最近五、六日前にすぐその前の所に地所が千数百坪、建坪が二百坪余りの家があるのです。<br><br>それを昨日見たところが、なかなか間数があるのと、どういうわけでできたのか座敷が立派で板張りが多いのです。<br><br>ただそれに畳を敷けば随分大勢の人が入ります。<br><br>ですから信者さんがかなり入って休むこともできるし、寝ることもできるのです。<br><br>実におあつらえ向きの家といったようなものです。<br><br>それが急速に、それこそ三日か五日で決まってしまって、十七日の晩に決まったという電話が京都から来たのです。<br><br>ちょうど、私がこちらに来る前の晩ですから、実に神様のやられることは、一分の隙もないというわけです。<br><br>始終奇蹟には慣れっこになってますが、それでも今度のには、かなり驚かされました。<br><br>昨日見ますと、庭なんかも今は薮のように生い茂ってますが、すっかり手を入れるとなかなか良い庭です。<br><br>家の普請も私は、いい加減値段も安いからバラックくらいのものと思ったところがなかなかそうではないのです。<br><br>そうとう見られる建築です。<br><br>ですから、そこに畳を敷いてちょっとした所を直すくらいで立派に役に立つのです。<br><br>庭なんかも奉仕隊の人たちが生い茂った草を刈るとか広い庭にすれば、実に良い庭になると思います。<br><br>それで来年の四月に来るつもりですが、それまでに草刈りをやってもらえばすっかり見通しがつきます。<br><br>これは京都の教会の方なんかがやってくれると思いますが、まあ、そんなつもりです。<br><br>それで来年の春に来て、五、六日こちらにいて、いろいろ計画を立てようと思っております。<br><br> 大体京都の文化は、良く見ると三段になっています。<br><br>最初は平安朝の平安文化と、それから東山文化すなわち足利時代のものと、桃山文化です。<br><br>ちょうど藤原、足利、豊臣と三段になっています。<br><br>この京都の文化というものはそれであり、それから江戸に移って元禄を中心とした華やかな文化時代が生まれましたが、とにかくそれまではちょうど三段階になっています。<br><br>仏教の方は奈良の方に早くできた文化ですが、そうかといって、今さら新しく仏教文化を採り入れるという必要はありませんが、今の三段階の文化の良い所、特異な所、そういうものを採り入れて、その模放といってはしようがないですが、やはり現代の二十世紀としての感覚によって、その三段階の文化をよく調和させて、現代の人にもすぐに受け入れられるような、古い懐古主義的なものではなくて、そういった懐古的なものを採り入れるとともに、時代感覚にピッタリ合ったようなものを造ろうと思っております。<br><br>理屈だけ言うと結構ですが、ちょっとこれで人間的には難しいわけなのです。<br><br>古いものと新しいものとの調和ずれのないようにピッタリするようなものを造るというのは難しいものです。<br><br>牛車に自動車のエンジンをつけるように難しいものです。<br><br>それを無理なく、かえって良いというようにするのですが、神様がやるのですから卒（そつ）はないと思います。<br><br>つまり今までの宗教などはそうですが、神様というのは芸術的には縁遠いもののように思われていたのです。<br><br>ところが大違いで、とにかく神様は芸術にはもっとも重きを置いているのです。<br><br>ただ今までは世の中で芸術的なものを造りたいと思っても、夜の世界で地獄の世界だから、そういうのをこしらえてもしようがないし、条件が揃わないからこしらえないのです。<br><br>それで最高の神様は時を待たれたのです。<br><br>いよいよ時が来たので神様は本当の御心を発揮されるわけです。<br><br>これからは人間の理想としていたようなものがドンドンできるわけです。<br><br>そんなような意味で、大いに楽しい世の中ができるわけです。<br><br> ところでそういった芸術や美術というものも結構ですが、なによりもかによりも、分かりきったことですが、まず人間の健康が第一です。<br><br>そこで人類から病気を除き、健康人間ばかりの世界にするというのが根本ですから、それを根本にしながら芸術の世界を作っていくわけです。<br><br>今第三次戦争というのを恐れていますが、これは今膏薬張り的に各国が軍備を充実するという一時凌ぎしかできないのです。<br><br>実は根本的に戦争のない世界、戦をするという人を抑えつけるというのでなくて、戦をしようという人をなくすというのが根本です。<br><br>それには健康人間を作るのです。<br><br>つまり戦争したいとか、あるいは自分一人が偉くなって、自分の国が立派になって、他の国は儀牲にしてもしかたがないというのは、精神が病気です。<br><br>健康人間ではないのです。<br><br>健康人間というのは霊体両方が健康になるのです。<br><br>ところがそういった慈悲も情もないという人間は、精神が不健康です。<br><br>精神が病です。<br><br>ですから精神病人です。<br><br>ただ、気違い病院にいるような精神病とは違って、もっと立派な精神病なのです。<br><br>そういう人が間違った思想をもって、社会をぶち壊したり、大勢の人に不安を与えたりすることを好んでやる。<br><br>それを好むというのは、人間性ではなく獣性です。<br><br>仲間同士で喰い合いして、自分が少しでもよいものを喰う考えしかないのです。<br><br>ところが今他民族を虐げても、大勢に不安を与えても、自分だけが良ければという考えは獣と同じことですから、人間性というのは、よほど萎靡しているわけです。<br><br>麻痺しているわけです。<br><br>というのは、やはり精神病です。<br><br>ですから精神病の人類を健康にするということが根本です。<br><br> 私は今『アメリカを救う』という本を書いてますが、もう大体できあがって印刷にかかることになっております。<br><br>アメリカの人に一人でも多く見せるためには、やはりどうしても翻訳しなければならないので、今訳しています。<br><br>そうして英文の本も作ることになっております。<br><br>日本文の方は来月か再来月あたりに新聞広告をなるべくよけいするようにして、日本人が肝腎ですから、日本人にも分からせたいと思っております。<br><br>『アメリカを救う』という本を出すと、アメリカの人たちは、日本の奴やっと講和になって敗戦後ヒョロヒョロしていて、講和になる早々「アメリカを救う」なんて生意気千万だと思うでしょう。<br><br>アメリカで「日本を救う」という本が出るならば、なるほどと思いますが、ヒョロヒョロしている日本が、「アメリカを救う」なんていうのはとんでもない奴だ、生意気千万だ、と思うかもしれません。<br><br>しかしかえってそうする方が興味を引きますから、向こうにも売れるし、読ませるということになると思います。<br><br>大統領始め、有識者、医学関係者には只で配るつもりです。<br><br>そうするわけは、とにかくこちらの信者がアメリカですっかり調べたところ、病人があまりに多くて、しかも年々非常な勢いで増えつつあるのです。<br><br>ここでアメリカの人が気づかないとしたら、アメリカの人は平和を維持するということはできなくなる懸念が大いにあるのです。<br><br>世界人類を救うとしたら、アメリカを救うということが一番効果的です。<br><br>なにしろ今アメリカの文化が世界をリードしているからです。<br><br>アメリカが分かれば世界はみんな分かります。<br><br>特に日本人が一番分かるでしょう。<br><br>なんでもアメリカのまねをするのですから、日本を救うというのは、かえってアメリカを救うことが必要だと思っております。<br><br>つまり日本人の舶来崇拝病というのは、今もってなかなか根強いのです。<br><br>だから日本としては舶来病を救わなければならないのです。<br><br> それについて最近信者の小川菊造という人ですが、バスの方ではなかなか有名な人です。<br><br>その人が今度世界中をまわって歩いたのです。<br><br>バスの研究だとか、いろんな研究に行ったのだと思いますが、ついこの間帰ってきて、その帰朝談を聞いたのですが、外国の現在の状態についていろいろ話してくれました。<br><br>なかなか参考になりおもしろいことがあります。<br><br>そこで一番驚くべきことは、ヨーロッパを見た時に一番感じたのはドイツとイタリアだそうです。<br><br>そのうちで特に目覚ましいのはイタリアだそうです。<br><br>イタリアはムッソリーニを神様みたいに思っているそうです。<br><br>ムッソリーニ崇拝熱というものは、なかなか馬鹿にできない。<br><br>ムッソリーニの家族を国民が随分優遇して、手厚い世話をしているそうです。<br><br>そんなようなわけで、近々ファッショの団体がそうとう持ち上げてくるだろうと言ってました。<br><br>それからドイツではやっぱりナチスは裏面でそうとういろいろな計画をしているそうです。<br><br>でもこれはアメリカから非常に悪いように見られてますから、あまり表面には出せないそうです。<br><br>ドイツでもイタリアでも、なるほどヒトラーやムッソリーニが戦争したのは悪いが、ほかのことは非常に良い。<br><br>だからあの人たちの良い所は学んでそれを採り入れ、大いにやらなければならないという、そこの判断力が非常に正確なのです。<br><br>そこで戦争以外のことは今でも指導者として崇めているということです。<br><br>そうしてドイツで私は驚いたのですが、西ドイツが去年の出超が三億ドルでしたから、とうてい日本などは追いつきません。<br><br>半分に切られた西ドイツだけで三億ドルの黒字を出したという、つまり産業に対する活動力というのはたいへんなものです。<br><br>特に感心したのは、小川菊造さんの話ですが、電車に乗りますと、切符のほかに五円ずつ、ドイツ復興のための費用として国民の方で出しているそうです。<br><br>これを思ってもいかに国民が真剣になって国を思っているか、ということが分かります。<br><br>そんなようなわけで、イタリアには戦前は乞食がたくさんいて憐れみを乞うとかいって、乞食国と言ってましたが、今度行くとそうではなくて、溌剌たる意気に燃えて、将来大いに発展するということが漲っているそうです。<br><br>近代イタリアの事情など新聞なんかを見ても、そういう点は大いにあるのです。<br><br>私はイタリアには大いに関心をもってますが、ついこの春、外国の建築の写真を取り寄せてますが、イタリアのローマのステーションが新築されたのですが、それを見て驚いたのです。<br><br>実に良くできています。<br><br>私がステーションを頼まれればああいった設計をするでしょう。<br><br>ピッタリしているのです。<br><br>それでイタリア侮るべからずという気がしました。<br><br>小川さんも言ってましたが、やはり世界中を見て歩いてローマのステーションが一番良いと言ってました。<br><br>アメリカでもそういう建築はなかったと言ってました。<br><br>これは一度なにかで見られると良いです。<br><br>様式はやはりコルビュジエ式ですが、ステーションとしての役目が理解された様式になっているのです。<br><br>けれども私が熱海に造るメシヤ会館は、コルビュジエ式を宗教的に表現した荘厳味のあるそういった様式にするつもりです。<br><br>コルビュジエ式というのは宗教と反対の様式ですから、実用一方でホテル、官庁という所に適当しているのです。<br><br>ドイツといいイタリアといい、ドイツなど例のヒトラー道路というのがありますが、ヒトラーが第一次戦争後、ドイツが非常に疲弊して失業者がたくさんできた。<br><br>それを第一としてドイツの縦貫道路に失業者を使ってこしらえたのです。<br><br>ヒトラー道路として有名ですが、そこを自動車で走らせると一時間百五十キロメートル出るそうです。<br><br>アメリカでもそういう道路はないそうです。<br><br>そんなような具合でドイツでもイタリアでも、ドイツ魂イタリア魂とかいって国民性が強いのです。<br><br>プライドをもっているのです。<br><br>ところが日本を見るとそれがないのです。<br><br>日本人はなかなか理屈は言ってますが、実に誇りがないのです。<br><br>日本人というのは特にそうです。<br><br>アメリカのここが良い、ドイツのどこが良いといって、外国のまねばかりしてフラフラしているのです。<br><br>しっかりしたものをつかんでいないのです。<br><br>そのために年中社会は安定していない。<br><br>政治にしてもそうです。<br><br>大政党である自由党なども、やはり鳩山だとか青田だとかいって、両方で妥協ができるかと思うとまた崩れるというようにフラフラしている。<br><br>こういうのは恥ずかしいことです。<br><br>アメリカの経済的援助を頼むにしても、まず日本の経済の安定がなければ困るというのですが、自分たちが安定させないのです。<br><br>今日の日本人というのは、まことに信念がないのです。<br><br>そういう点においても今度の『アメリカを救う』という本は、アメリカ人を救うと同時に日本人も救うという一石二鳥の効果があるのです。<br><br>日本人を救うというのは、日本人の考えをです。<br><br>つまりある程度はアメリカ人より偉いということです。<br><br>アメリカの医学をなんだかんだとよく言っているが、日本人のうちでもなかなか馬鹿にならない、アメリカの文化より上のものが生まれたというところを見せて、日本人もなかなか馬鹿にできないという……自尊心ではいけませんが、自信です。<br><br>それに対してそうとうの効果がありはしないかと思うのです。<br><br> それについて私が言いたいことは、日本人は世界で一番偉いのです。<br><br>日本人は一番優秀であるにかかわらず、それを今まで現わさなかったということは、長い間間違った偉い人です。<br><br>要するにその時代時代の権力者が天下をとりたいためにやったのです。<br><br>徳川期になって戦争も、ようやく平和の時代が来たくらいで、それまでは戦争が多かったのです。<br><br>長い間の戦国時代です。<br><br>徳川時代になって平和になったが、自己の主権欲のために自分が長く天下をつかみたいために、続けたいために人民を圧迫したので、人民のうちで偉いのが出ると危険を感じてそれを圧迫してしまうというので、日本人に偉いのが出ないようにして雁字搦（がんじがら）めにして続いてきたのです。<br><br>それが明治になると跡切れしましたが、しかし違った意味の封建制です。<br><br>その封建制から生まれたものが軍閥です。<br><br>軍閥が今度の戦争によって国威を輝かそうという……ヤクザの親分みたいで、縄張りを拡げようと思って、最初はアジアをやろうといううちに逆上（のぼ）せあがって、今度はアメリカをやっつけようということになって、今度ひどくやっつけられたのです。<br><br>あたりまえの話ですが、一時は日本も苦しめられましたが、永久の日本を考えれば非常に良いのです。<br><br>信者の人には言いましたが、日本の将来を考えれば実に結構です。<br><br>そのためにようやく民主主義になって、日本人の偉いことを遠慮なく出せるということになったのです。<br><br>私の口から言うのはおかしいですが、終戦までは宗教的なことはなにもできなかったのです。<br><br>「日本浄化療法」という民間療法でようやく仕事をしていたわけです。<br><br>それが終戦になったために信教の自由が許されるというようなわけで、宗教的な運動もできるようになり、今日のように発展し、『アメリカを救う』という本も出せるようになったということは、要するに日本人の優秀性を思うように発揮できるという日本になったわけです。<br><br>美術館にしてもそうです。<br><br>今は日本人で偉い人はないですが、昔日本人の中にはこういう文化的に優秀な、高い頭の人がいたのだ、また日本人の美的感覚はこれほど勝れていた、ということを外国の人たちに見せたいという意味が多分にあったのです。<br><br>箱根とか熱海という外人の来る所を選んだというのは、私が選んだというのではなくて、神様が選んだのです。<br><br>私はその仕事だけをしたのです。<br><br>日本人の勝れた点が世界的にだんだん現われてくるのです。<br><br>湯川博士もそのうちの小さな一人なのです。<br><br>ですから日本人で外人に負けないような偉い人が出ます。<br><br>そんなようなわけで日本人の自分自身の誇り、あるいは再認識です。<br><br>そんなに俺は偉かったのか、ということを悟るということが大いに必要なのです。<br><br>私はそういう方針で仕事をやっています。<br><br>ですから信者の人もそういう頭をもってください。<br><br> それからこれはみんな知っていることですから今さら言うことはないのですが、病気を癒すことだけは断然世界一だということは分かってますが、なにしろ世界中で一番偉いものだとしているのはキリストです。<br><br>しかし私の弟子はキリストくらいの奇蹟は毎日やっているのです。<br><br>今度のお蔭話に出ますが、八年も眼が見えなかったのが、浄霊二分間で見えるようになったというのです。<br><br>キリストに勝るとも劣らないと思います。<br><br>また二十二年間足が立たなかったのが、二十分の浄霊で翌日は歩けるようになったというのがありましたが、キリストに一つも負けてはいません。<br><br>ですからキリストが何万人何十万人とできてくると、日本はどんなに偉いか分かります。<br><br>桁が違ってきます。<br><br>というのは科学的にいっても分かるのです。<br><br>キリストが治した力というのは月の光です。<br><br>今までいろいろな使い人が奇蹟を現わしたのは月の光です。<br><br>今度私が始めたのは日の光ですから、日の方は月の六十倍の光があります。<br><br>だから今までより六十倍の奇蹟ができるわけです。<br><br>私の弟子がそのくらいの奇蹟ができるのは不思議ではない。<br><br>当然のことです。<br><br>そんなようなわけですから、これから救世教が先達になって、日本人の偉さを世界中に見せるという段取りになっているのです。<br><br>なにもそういう希望でやっているのではないのですが、元々日本人にはそういう優秀さがあるのです。<br><br>それが今まで押しつぶされていたのです。<br><br>だからそうなるのがあたりまえです。<br><br>偉いといっても戦争に勝つ偉さではないのです。<br><br>むしろ戦争を起さないようにする偉さです。<br><br>この偉さは自慢しても思っていても決して苦情は来ません。<br><br>武器の発明の偉さで自慢するのはたいへんな間違いです。<br><br>武器を発明する偉さというのは、世界を戦争で苦しめる……と、それを防ぐためにそういう武器を造るということにおいては結構なものです。<br><br>原子爆弾もそうであれば結構です。<br><br>そうでなく、己の国だけが偉くなろうというのでは、とんでもない偉さです。<br><br>泥坊する偉さより泥坊をつかまえる偉さの方が良いのです。<br><br>平和的の優秀さは、偉ければ偉いほど世界の人たちがありがたがります。<br><br>日本人の優秀性というのは、文化的平和的の優秀性です。<br><br>それを現わすのに一つの価値として私は地上天国を造っているわけです。<br><br> 特に京都という所は、もっともそれに適当した所です。<br><br>箱根、熱海は風景は良いですが、ほかになにもないのです。<br><br>ところが京都は歴史的にすばらしく、いろんな文化的のものが豊富にあるのです。<br><br>地形といい、気候といい、まず良いことが備わっているのです。<br><br>特に京都で良いと思うことは風のないことです。<br><br>これが地上天国を造る上において非常に良いと思います。<br><br>東京とかほかでは、風のために非常に埃がたちますから汚れます。<br><br>ですから風が強く当たらないようにするとかいうことで非常に悪いのです。<br><br>京都などの庭園では砂利を敷いてますが、ほかではできないのです。<br><br>砂利などは飛んでしまいますから、箱根でもコンクリートで道を作ったのですが、あれは実に不趣味です。<br><br>やっぱり小石を敷かなければ本当の味は出ないのです。<br><br>しかしそうしなければしようがないですから、芝の間にコンクリート路みたいなものを造ったのです。<br><br>それから木とか竹とかというのは、ほかのものより良いです。<br><br>木とか竹とかあちらで家をこしらえても京都のものでないと駄目です。<br><br>とにかく、京都のそういった条件というのは、将来のために神様がチャンと備えつけられたのです。<br><br>ですからいろんなことが備わっている。<br><br>京都は山の形といい、松の具合といい、あらゆるものが実に美の都です。<br><br>ですから名前を「平安郷」とつけましたが、平安郷という名前をつけてから良く調べてみると、あそこが平安文化の中心地だそうです。<br><br>あの辺りから生まれたのだそうです。<br><br>聞いてみると藤原時代の絵巻物とかに山などがあるのはあそこの山です。<br><br>あれを画いたのです。<br><br>それから水に月が写っているとか、歌にそういったものがありますが、あれは広沢の池だそうです。<br><br>道路が蔦の細道というのだそうです。<br><br>特に絵巻物などに「蔦の細道」という有名な絵巻物がありますが、それです。<br><br>そんなようなわけで、あそこが平安文化の中心だそうです。<br><br>神様はやはりそこをチャンと選ばれるというのはおもしろいです。<br><br>そういったような意味で平安文化と東山文化、桃山文化というものを良く調和させようと思います。<br><br>しかしガラスやセメントを使わなかったら駄目ですから、そういうものは近代的材料を使いますが、それも無理がなく調和を破らない程度において使います。<br><br>どんなものができるか知りませんが、とにかくアッというようなものができると思っています。<br><br>来年の春あたりからボツボツとりかかるつもりです。<br><br>まだいろいろ話したいこともありますが、そうかといってまとまった話でなく、時間がかかりますし、私もだいぶ顎が疲れましたからこの辺で止めます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Edificação do Paraíso em Quioto e a Missão do Povo Japonês</h2>
 <p>Hoje, disponho de um tempo razoável, o que me permitirá falar com mais calma. Ontem, visitei a “Exposição de Ukiyo-e” e fiquei impressionado com o volume de obras expostas. Muitos de vocês também devem tê-la visto, e a quantidade de peças reunidas é de fato surpreendente. Contudo, ao percorrer toda a mostra, constatei que as obras de minha coleção eram, sem dúvida, as de maior qualidade. Apresentei quatro peças, dentre as quais a célebre “Yuna”, uma obra de Utamaro intitulada “Cena de Banho”, e um pequeno biombo que retrata costumes estrangeiros, conhecido como “Nanban Byobu”. O especialista em ukiyo-e do museu, o senhor Ichitaro Kondo, fez a gentileza de me oferecer uma explicação detalhada, e também tive a oportunidade de conversar com o presidente e o editor-chefe do jornal “Kyoto Shimbun”. Todos foram unânimes em afirmar que as três principais obras da minha coleção eram as mais notáveis da exposição, tecendo efusivos elogios à sua excelência dentro de suas respectivas categorias. Curiosamente, eu mesmo não nutria um interesse particular por esse tipo de artefato, mas eles chegaram a mim em um momento providencial, próximo à inauguração do Museu de Arte de Hakone. A facilidade com que obtive essas peças, normalmente tão raras, demonstra que não se trata de uma obra humana. A providência de Deus é deveras primorosa e solícita, o que não cessa de me maravilhar.</p>
@@ -106,5 +258,48 @@ function toggleLang(lang) {
 <p>Embora seja algo que todos já sabem, nossa capacidade de curar doenças é, indiscutivelmente, a maior do mundo. Cristo é considerado a figura mais proeminente nesse campo, mas meus discípulos realizam milagres do mesmo calibre todos os dias. No próximo relato de graças, ouvirão o caso de uma pessoa que, cega por oito anos, recuperou a visão com apenas dois minutos de Johrei. Acredito que isso se equipara, se não supera, aos feitos de Cristo. Tivemos também o caso de alguém que não conseguia andar há vinte e dois anos e, após vinte minutos de Johrei, caminhou no dia seguinte. Em nada ficamos a dever a Cristo. Quando dezenas ou centenas de milhares de pessoas capazes de realizar tais prodígios surgirem, o mundo compreenderá a magnitude do Japão. A escala é completamente diferente. Isso pode ser explicado cientificamente. O poder com que Cristo curava era a luz da lua; os milagres realizados pelos diversos enviados do passado provinham dessa mesma luz. O poder que eu manifesto, por outro lado, é a luz do sol, que é sessenta vezes mais intensa. Portanto, é natural que possamos realizar milagres sessenta vezes maiores. Não há mistério no fato de meus discípulos conseguirem tais feitos; é uma consequência lógica. Sendo assim, está determinado que a Sekaikyuseikyou assumirá a vanguarda para mostrar a grandiosidade do povo japonês ao mundo. Não que estejamos agindo com essa intenção, mas essa superioridade é inerente aos japoneses; ela apenas esteve suprimida até agora. É natural que ela se manifeste. Mas a grandiosidade a que me refiro não é a de vencer guerras, e sim a de impedir que elas ocorram. Desta grandiosidade podemos nos orgulhar sem que ninguém nos critique. Orgulhar-se da invenção de armas é um erro terrível, pois isso causa sofrimento ao mundo. A única justificativa para criar tais armas seria para impedir a guerra, como no caso da bomba atômica, se esse fosse seu propósito. Mas se o objetivo é apenas engrandecer a própria nação, é uma forma perversa de grandeza. É mais nobre ser o policial que prende o ladrão do que o ladrão habilidoso. Quanto maior for a superioridade pacífica de um povo, mais o mundo inteiro lhe será grato. A superioridade japonesa é de natureza cultural e pacífica, e a construção do Paraíso Terrestre é uma das formas de materializar esse valor.</p>
 <p>Quioto, em particular, é o local mais apropriado para este empreendimento. Hakone e Atami possuem belas paisagens, mas nada além disso. Quioto, por sua vez, tem uma história magnífica e uma riqueza cultural incomparável. Sua topografia, seu clima, tudo contribui para que as condições sejam ideais. Uma das grandes vantagens de Quioto é a ausência de ventos fortes, o que é extremamente favorável para a construção do Paraíso Terrestre, pois evita que a poeira suje o ambiente. Em Tóquio e outros lugares, o vento é um problema sério, exigindo medidas para proteger as construções. Os jardins de Quioto costumam usar cascalho, algo impraticável em outros locais, onde o vento o espalharia. Em Hakone, fomos forçados a pavimentar os caminhos com concreto, o que considero uma solução de mau gosto. O verdadeiro encanto reside nos caminhos de pedras, mas não tivemos outra escolha. Materiais como a madeira e o bambu também são de qualidade superior em Quioto. Mesmo que se construa uma casa em outra região, os melhores materiais vêm daqui. Todas essas condições foram, na verdade, preparadas por Deus para o futuro. A beleza das montanhas, a disposição dos pinheiros, tudo em Quioto faz dela a capital da beleza. Dei ao local o nome de Heian-kyo (Capital da Paz) e, depois de pesquisar, descobri que aquela área foi precisamente o centro da cultura Heian. Foi ali que ela floresceu. Os pergaminhos pintados do Período Fujiwara retratam as montanhas daquela região. As poesias que mencionam a lua refletida na água se referem, ao que parece, ao lago Hirosawa. A estrada local é a famosa Tsuta no Hosomichi (O Estreito Caminho da Hera), imortalizada em célebres pergaminhos. É fascinante observar como Deus, infalivelmente, seleciona o local exato, o centro da cultura Heian. É nesse espírito que pretendo harmonizar as culturas Heian, Higashiyama e Momoyama. Naturalmente, não podemos prescindir de materiais modernos como o vidro e o cimento, mas eles serão utilizados de forma equilibrada, sem quebrar a harmonia do conjunto. Não sei exatamente como será o resultado final, mas estou certo de que será algo que deixará todos maravilhados. Pretendemos iniciar os trabalhos gradualmente a partir da primavera do próximo ano.</p>
 <p>Ainda haveria muito a dizer, mas, para não me estender em assuntos desarticulados e porque minha voz já demonstra certo cansaço, encerrarei por aqui.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 関西巡教御講話 （S27年10月20日） 『御教え集』15号、昭和27(1952)年11月15日発行 昭和二十七年十月二十日 （京都劇場において） 今日は時間が割合にありますから、ゆっくり話ができると思います。<br/><br/>昨日「浮世絵展覧会」を見ましたが、随分たくさん出てました。<br/><br/>みなさんも見られたでしょうが、集めた点では驚きました。<br/><br/>しかしずっと見ますと、やはり私の方で出したものが一番良かったです。<br/><br/>出したのは四点ですが、有名な「湯女」と、歌麿の「入浴の図」と、それから「南蛮屏風」という外人の風俗を画いたもので小さい屏風です。<br/><br/>それで先方でも昨日は博物館の浮世絵専門の人で、近藤市太郎という人がすっかり説明してくれました。<br/><br/>また「京都新聞」の社長、編集長も話してくれましたが、やはり私の方の三点が一番優秀だと言っておりました。<br/><br/>この種類のうちで一番良いということを非常に褒めていましたが、私の方でああいう品物は別にたいして関心をもたなかったのですが、ちょうど箱根美術館の開館と前後して手に入ったのです。<br/><br/>なかなか容易に手に入るものではないですが、すこぶる簡単に手に入ったということは、やはり人間業ではありません。<br/><br/>神様はまことに気が利いていると言いますか、そう思って驚いたくらいです。<br/><br/>来年は箱根美術館に別館を造ります。<br/><br/>別館ですからずっと小さいもので、五間に八間という会場です。<br/><br/>来年の開館早々に浮世絵展覧会をやるつもりです。<br/><br/>もちろん、数は京都のから言えば何分の一かもしれませんが、品物においては今度の京都以上だと思っております。<br/><br/>そういうような物がだいぶ手に入りましたし、あるいは手に入らんとしているような状態です。<br/><br/>とうていちょっと手に入らないような物が、不思議に入ってくるのです。<br/><br/>実におもしろいものです。<br/><br/>そんなわけで、来年を楽しみにしてもらいたいと思います。<br/><br/> 今度こちらに来た目的は知っているでしょうが、嵯峨の土地と、それから最初手に入れた土地のすぐ前に、少し小さいですが手に入ったものがあるのです。<br/><br/>そういう点について非常に奇蹟があるのです。<br/><br/>それを話しますと、最初の方は前に話した通り一万八千坪です。<br/><br/>それに百坪くらいの家が建っているのです。<br/><br/>その家はなんだかはっきりしなかったのですが、昨日行ってみますと非常に良い家なのです。<br/><br/>なんだかこしらえかけのような話があったのでどうかと思っていたところが、立派にできあがって人が住んでおりまして、住むとしては別に手を入れなくても良いくらいに完備しております。<br/><br/>それでたいへん喜んだのですが、来年の春はあそこに住まれる家なので喜んでいるわけなのです。<br/><br/>あそこは私が少しくらい滞在するのには充分ですが、ただ信者さんが大勢来た時に困るのです。<br/><br/>どうしても庭にちょっと張るよりしかたがないのです。<br/><br/>すると、最近五、六日前にすぐその前の所に地所が千数百坪、建坪が二百坪余りの家があるのです。<br/><br/>それを昨日見たところが、なかなか間数があるのと、どういうわけでできたのか座敷が立派で板張りが多いのです。<br/><br/>ただそれに畳を敷けば随分大勢の人が入ります。<br/><br/>ですから信者さんがかなり入って休むこともできるし、寝ることもできるのです。<br/><br/>実におあつらえ向きの家といったようなものです。<br/><br/>それが急速に、それこそ三日か五日で決まってしまって、十七日の晩に決まったという電話が京都から来たのです。<br/><br/>ちょうど、私がこちらに来る前の晩ですから、実に神様のやられることは、一分の隙もないというわけです。<br/><br/>始終奇蹟には慣れっこになってますが、それでも今度のには、かなり驚かされました。<br/><br/>昨日見ますと、庭なんかも今は薮のように生い茂ってますが、すっかり手を入れるとなかなか良い庭です。<br/><br/>家の普請も私は、いい加減値段も安いからバラックくらいのものと思ったところがなかなかそうではないのです。<br/><br/>そうとう見られる建築です。<br/><br/>ですから、そこに畳を敷いてちょっとした所を直すくらいで立派に役に立つのです。<br/><br/>庭なんかも奉仕隊の人たちが生い茂った草を刈るとか広い庭にすれば、実に良い庭になると思います。<br/><br/>それで来年の四月に来るつもりですが、それまでに草刈りをやってもらえばすっかり見通しがつきます。<br/><br/>これは京都の教会の方なんかがやってくれると思いますが、まあ、そんなつもりです。<br/><br/>それで来年の春に来て、五、六日こちらにいて、いろいろ計画を立てようと思っております。<br/><br/> 大体京都の文化は、良く見ると三段になっています。<br/><br/>最初は平安朝の平安文化と、それから東山文化すなわち足利時代のものと、桃山文化です。<br/><br/>ちょうど藤原、足利、豊臣と三段になっています。<br/><br/>この京都の文化というものはそれであり、それから江戸に移って元禄を中心とした華やかな文化時代が生まれましたが、とにかくそれまではちょうど三段階になっています。<br/><br/>仏教の方は奈良の方に早くできた文化ですが、そうかといって、今さら新しく仏教文化を採り入れるという必要はありませんが、今の三段階の文化の良い所、特異な所、そういうものを採り入れて、その模放といってはしようがないですが、やはり現代の二十世紀としての感覚によって、その三段階の文化をよく調和させて、現代の人にもすぐに受け入れられるような、古い懐古主義的なものではなくて、そういった懐古的なものを採り入れるとともに、時代感覚にピッタリ合ったようなものを造ろうと思っております。<br/><br/>理屈だけ言うと結構ですが、ちょっとこれで人間的には難しいわけなのです。<br/><br/>古いものと新しいものとの調和ずれのないようにピッタリするようなものを造るというのは難しいものです。<br/><br/>牛車に自動車のエンジンをつけるように難しいものです。<br/><br/>それを無理なく、かえって良いというようにするのですが、神様がやるのですから卒（そつ）はないと思います。<br/><br/>つまり今までの宗教などはそうですが、神様というのは芸術的には縁遠いもののように思われていたのです。<br/><br/>ところが大違いで、とにかく神様は芸術にはもっとも重きを置いているのです。<br/><br/>ただ今までは世の中で芸術的なものを造りたいと思っても、夜の世界で地獄の世界だから、そういうのをこしらえてもしようがないし、条件が揃わないからこしらえないのです。<br/><br/>それで最高の神様は時を待たれたのです。<br/><br/>いよいよ時が来たので神様は本当の御心を発揮されるわけです。<br/><br/>これからは人間の理想としていたようなものがドンドンできるわけです。<br/><br/>そんなような意味で、大いに楽しい世の中ができるわけです。<br/><br/> ところでそういった芸術や美術というものも結構ですが、なによりもかによりも、分かりきったことですが、まず人間の健康が第一です。<br/><br/>そこで人類から病気を除き、健康人間ばかりの世界にするというのが根本ですから、それを根本にしながら芸術の世界を作っていくわけです。<br/><br/>今第三次戦争というのを恐れていますが、これは今膏薬張り的に各国が軍備を充実するという一時凌ぎしかできないのです。<br/><br/>実は根本的に戦争のない世界、戦をするという人を抑えつけるというのでなくて、戦をしようという人をなくすというのが根本です。<br/><br/>それには健康人間を作るのです。<br/><br/>つまり戦争したいとか、あるいは自分一人が偉くなって、自分の国が立派になって、他の国は儀牲にしてもしかたがないというのは、精神が病気です。<br/><br/>健康人間ではないのです。<br/><br/>健康人間というのは霊体両方が健康になるのです。<br/><br/>ところがそういった慈悲も情もないという人間は、精神が不健康です。<br/><br/>精神が病です。<br/><br/>ですから精神病人です。<br/><br/>ただ、気違い病院にいるような精神病とは違って、もっと立派な精神病なのです。<br/><br/>そういう人が間違った思想をもって、社会をぶち壊したり、大勢の人に不安を与えたりすることを好んでやる。<br/><br/>それを好むというのは、人間性ではなく獣性です。<br/><br/>仲間同士で喰い合いして、自分が少しでもよいものを喰う考えしかないのです。<br/><br/>ところが今他民族を虐げても、大勢に不安を与えても、自分だけが良ければという考えは獣と同じことですから、人間性というのは、よほど萎靡しているわけです。<br/><br/>麻痺しているわけです。<br/><br/>というのは、やはり精神病です。<br/><br/>ですから精神病の人類を健康にするということが根本です。<br/><br/> 私は今『アメリカを救う』という本を書いてますが、もう大体できあがって印刷にかかることになっております。<br/><br/>アメリカの人に一人でも多く見せるためには、やはりどうしても翻訳しなければならないので、今訳しています。<br/><br/>そうして英文の本も作ることになっております。<br/><br/>日本文の方は来月か再来月あたりに新聞広告をなるべくよけいするようにして、日本人が肝腎ですから、日本人にも分からせたいと思っております。<br/><br/>『アメリカを救う』という本を出すと、アメリカの人たちは、日本の奴やっと講和になって敗戦後ヒョロヒョロしていて、講和になる早々「アメリカを救う」なんて生意気千万だと思うでしょう。<br/><br/>アメリカで「日本を救う」という本が出るならば、なるほどと思いますが、ヒョロヒョロしている日本が、「アメリカを救う」なんていうのはとんでもない奴だ、生意気千万だ、と思うかもしれません。<br/><br/>しかしかえってそうする方が興味を引きますから、向こうにも売れるし、読ませるということになると思います。<br/><br/>大統領始め、有識者、医学関係者には只で配るつもりです。<br/><br/>そうするわけは、とにかくこちらの信者がアメリカですっかり調べたところ、病人があまりに多くて、しかも年々非常な勢いで増えつつあるのです。<br/><br/>ここでアメリカの人が気づかないとしたら、アメリカの人は平和を維持するということはできなくなる懸念が大いにあるのです。<br/><br/>世界人類を救うとしたら、アメリカを救うということが一番効果的です。<br/><br/>なにしろ今アメリカの文化が世界をリードしているからです。<br/><br/>アメリカが分かれば世界はみんな分かります。<br/><br/>特に日本人が一番分かるでしょう。<br/><br/>なんでもアメリカのまねをするのですから、日本を救うというのは、かえってアメリカを救うことが必要だと思っております。<br/><br/>つまり日本人の舶来崇拝病というのは、今もってなかなか根強いのです。<br/><br/>だから日本としては舶来病を救わなければならないのです。<br/><br/> それについて最近信者の小川菊造という人ですが、バスの方ではなかなか有名な人です。<br/><br/>その人が今度世界中をまわって歩いたのです。<br/><br/>バスの研究だとか、いろんな研究に行ったのだと思いますが、ついこの間帰ってきて、その帰朝談を聞いたのですが、外国の現在の状態についていろいろ話してくれました。<br/><br/>なかなか参考になりおもしろいことがあります。<br/><br/>そこで一番驚くべきことは、ヨーロッパを見た時に一番感じたのはドイツとイタリアだそうです。<br/><br/>そのうちで特に目覚ましいのはイタリアだそうです。<br/><br/>イタリアはムッソリーニを神様みたいに思っているそうです。<br/><br/>ムッソリーニ崇拝熱というものは、なかなか馬鹿にできない。<br/><br/>ムッソリーニの家族を国民が随分優遇して、手厚い世話をしているそうです。<br/><br/>そんなようなわけで、近々ファッショの団体がそうとう持ち上げてくるだろうと言ってました。<br/><br/>それからドイツではやっぱりナチスは裏面でそうとういろいろな計画をしているそうです。<br/><br/>でもこれはアメリカから非常に悪いように見られてますから、あまり表面には出せないそうです。<br/><br/>ドイツでもイタリアでも、なるほどヒトラーやムッソリーニが戦争したのは悪いが、ほかのことは非常に良い。<br/><br/>だからあの人たちの良い所は学んでそれを採り入れ、大いにやらなければならないという、そこの判断力が非常に正確なのです。<br/><br/>そこで戦争以外のことは今でも指導者として崇めているということです。<br/><br/>そうしてドイツで私は驚いたのですが、西ドイツが去年の出超が三億ドルでしたから、とうてい日本などは追いつきません。<br/><br/>半分に切られた西ドイツだけで三億ドルの黒字を出したという、つまり産業に対する活動力というのはたいへんなものです。<br/><br/>特に感心したのは、小川菊造さんの話ですが、電車に乗りますと、切符のほかに五円ずつ、ドイツ復興のための費用として国民の方で出しているそうです。<br/><br/>これを思ってもいかに国民が真剣になって国を思っているか、ということが分かります。<br/><br/>そんなようなわけで、イタリアには戦前は乞食がたくさんいて憐れみを乞うとかいって、乞食国と言ってましたが、今度行くとそうではなくて、溌剌たる意気に燃えて、将来大いに発展するということが漲っているそうです。<br/><br/>近代イタリアの事情など新聞なんかを見ても、そういう点は大いにあるのです。<br/><br/>私はイタリアには大いに関心をもってますが、ついこの春、外国の建築の写真を取り寄せてますが、イタリアのローマのステーションが新築されたのですが、それを見て驚いたのです。<br/><br/>実に良くできています。<br/><br/>私がステーションを頼まれればああいった設計をするでしょう。<br/><br/>ピッタリしているのです。<br/><br/>それでイタリア侮るべからずという気がしました。<br/><br/>小川さんも言ってましたが、やはり世界中を見て歩いてローマのステーションが一番良いと言ってました。<br/><br/>アメリカでもそういう建築はなかったと言ってました。<br/><br/>これは一度なにかで見られると良いです。<br/><br/>様式はやはりコルビュジエ式ですが、ステーションとしての役目が理解された様式になっているのです。<br/><br/>けれども私が熱海に造るメシヤ会館は、コルビュジエ式を宗教的に表現した荘厳味のあるそういった様式にするつもりです。<br/><br/>コルビュジエ式というのは宗教と反対の様式ですから、実用一方でホテル、官庁という所に適当しているのです。<br/><br/>ドイツといいイタリアといい、ドイツなど例のヒトラー道路というのがありますが、ヒトラーが第一次戦争後、ドイツが非常に疲弊して失業者がたくさんできた。<br/><br/>それを第一としてドイツの縦貫道路に失業者を使ってこしらえたのです。<br/><br/>ヒトラー道路として有名ですが、そこを自動車で走らせると一時間百五十キロメートル出るそうです。<br/><br/>アメリカでもそういう道路はないそうです。<br/><br/>そんなような具合でドイツでもイタリアでも、ドイツ魂イタリア魂とかいって国民性が強いのです。<br/><br/>プライドをもっているのです。<br/><br/>ところが日本を見るとそれがないのです。<br/><br/>日本人はなかなか理屈は言ってますが、実に誇りがないのです。<br/><br/>日本人というのは特にそうです。<br/><br/>アメリカのここが良い、ドイツのどこが良いといって、外国のまねばかりしてフラフラしているのです。<br/><br/>しっかりしたものをつかんでいないのです。<br/><br/>そのために年中社会は安定していない。<br/><br/>政治にしてもそうです。<br/><br/>大政党である自由党なども、やはり鳩山だとか青田だとかいって、両方で妥協ができるかと思うとまた崩れるというようにフラフラしている。<br/><br/>こういうのは恥ずかしいことです。<br/><br/>アメリカの経済的援助を頼むにしても、まず日本の経済の安定がなければ困るというのですが、自分たちが安定させないのです。<br/><br/>今日の日本人というのは、まことに信念がないのです。<br/><br/>そういう点においても今度の『アメリカを救う』という本は、アメリカ人を救うと同時に日本人も救うという一石二鳥の効果があるのです。<br/><br/>日本人を救うというのは、日本人の考えをです。<br/><br/>つまりある程度はアメリカ人より偉いということです。<br/><br/>アメリカの医学をなんだかんだとよく言っているが、日本人のうちでもなかなか馬鹿にならない、アメリカの文化より上のものが生まれたというところを見せて、日本人もなかなか馬鹿にできないという……自尊心ではいけませんが、自信です。<br/><br/>それに対してそうとうの効果がありはしないかと思うのです。<br/><br/> それについて私が言いたいことは、日本人は世界で一番偉いのです。<br/><br/>日本人は一番優秀であるにかかわらず、それを今まで現わさなかったということは、長い間間違った偉い人です。<br/><br/>要するにその時代時代の権力者が天下をとりたいためにやったのです。<br/><br/>徳川期になって戦争も、ようやく平和の時代が来たくらいで、それまでは戦争が多かったのです。<br/><br/>長い間の戦国時代です。<br/><br/>徳川時代になって平和になったが、自己の主権欲のために自分が長く天下をつかみたいために、続けたいために人民を圧迫したので、人民のうちで偉いのが出ると危険を感じてそれを圧迫してしまうというので、日本人に偉いのが出ないようにして雁字搦（がんじがら）めにして続いてきたのです。<br/><br/>それが明治になると跡切れしましたが、しかし違った意味の封建制です。<br/><br/>その封建制から生まれたものが軍閥です。<br/><br/>軍閥が今度の戦争によって国威を輝かそうという……ヤクザの親分みたいで、縄張りを拡げようと思って、最初はアジアをやろうといううちに逆上（のぼ）せあがって、今度はアメリカをやっつけようということになって、今度ひどくやっつけられたのです。<br/><br/>あたりまえの話ですが、一時は日本も苦しめられましたが、永久の日本を考えれば非常に良いのです。<br/><br/>信者の人には言いましたが、日本の将来を考えれば実に結構です。<br/><br/>そのためにようやく民主主義になって、日本人の偉いことを遠慮なく出せるということになったのです。<br/><br/>私の口から言うのはおかしいですが、終戦までは宗教的なことはなにもできなかったのです。<br/><br/>「日本浄化療法」という民間療法でようやく仕事をしていたわけです。<br/><br/>それが終戦になったために信教の自由が許されるというようなわけで、宗教的な運動もできるようになり、今日のように発展し、『アメリカを救う』という本も出せるようになったということは、要するに日本人の優秀性を思うように発揮できるという日本になったわけです。<br/><br/>美術館にしてもそうです。<br/><br/>今は日本人で偉い人はないですが、昔日本人の中にはこういう文化的に優秀な、高い頭の人がいたのだ、また日本人の美的感覚はこれほど勝れていた、ということを外国の人たちに見せたいという意味が多分にあったのです。<br/><br/>箱根とか熱海という外人の来る所を選んだというのは、私が選んだというのではなくて、神様が選んだのです。<br/><br/>私はその仕事だけをしたのです。<br/><br/>日本人の勝れた点が世界的にだんだん現われてくるのです。<br/><br/>湯川博士もそのうちの小さな一人なのです。<br/><br/>ですから日本人で外人に負けないような偉い人が出ます。<br/><br/>そんなようなわけで日本人の自分自身の誇り、あるいは再認識です。<br/><br/>そんなに俺は偉かったのか、ということを悟るということが大いに必要なのです。<br/><br/>私はそういう方針で仕事をやっています。<br/><br/>ですから信者の人もそういう頭をもってください。<br/><br/> それからこれはみんな知っていることですから今さら言うことはないのですが、病気を癒すことだけは断然世界一だということは分かってますが、なにしろ世界中で一番偉いものだとしているのはキリストです。<br/><br/>しかし私の弟子はキリストくらいの奇蹟は毎日やっているのです。<br/><br/>今度のお蔭話に出ますが、八年も眼が見えなかったのが、浄霊二分間で見えるようになったというのです。<br/><br/>キリストに勝るとも劣らないと思います。<br/><br/>また二十二年間足が立たなかったのが、二十分の浄霊で翌日は歩けるようになったというのがありましたが、キリストに一つも負けてはいません。<br/><br/>ですからキリストが何万人何十万人とできてくると、日本はどんなに偉いか分かります。<br/><br/>桁が違ってきます。<br/><br/>というのは科学的にいっても分かるのです。<br/><br/>キリストが治した力というのは月の光です。<br/><br/>今までいろいろな使い人が奇蹟を現わしたのは月の光です。<br/><br/>今度私が始めたのは日の光ですから、日の方は月の六十倍の光があります。<br/><br/>だから今までより六十倍の奇蹟ができるわけです。<br/><br/>私の弟子がそのくらいの奇蹟ができるのは不思議ではない。<br/><br/>当然のことです。<br/><br/>そんなようなわけですから、これから救世教が先達になって、日本人の偉さを世界中に見せるという段取りになっているのです。<br/><br/>なにもそういう希望でやっているのではないのですが、元々日本人にはそういう優秀さがあるのです。<br/><br/>それが今まで押しつぶされていたのです。<br/><br/>だからそうなるのがあたりまえです。<br/><br/>偉いといっても戦争に勝つ偉さではないのです。<br/><br/>むしろ戦争を起さないようにする偉さです。<br/><br/>この偉さは自慢しても思っていても決して苦情は来ません。<br/><br/>武器の発明の偉さで自慢するのはたいへんな間違いです。<br/><br/>武器を発明する偉さというのは、世界を戦争で苦しめる……と、それを防ぐためにそういう武器を造るということにおいては結構なものです。<br/><br/>原子爆弾もそうであれば結構です。<br/><br/>そうでなく、己の国だけが偉くなろうというのでは、とんでもない偉さです。<br/><br/>泥坊する偉さより泥坊をつかまえる偉さの方が良いのです。<br/><br/>平和的の優秀さは、偉ければ偉いほど世界の人たちがありがたがります。<br/><br/>日本人の優秀性というのは、文化的平和的の優秀性です。<br/><br/>それを現わすのに一つの価値として私は地上天国を造っているわけです。<br/><br/> 特に京都という所は、もっともそれに適当した所です。<br/><br/>箱根、熱海は風景は良いですが、ほかになにもないのです。<br/><br/>ところが京都は歴史的にすばらしく、いろんな文化的のものが豊富にあるのです。<br/><br/>地形といい、気候といい、まず良いことが備わっているのです。<br/><br/>特に京都で良いと思うことは風のないことです。<br/><br/>これが地上天国を造る上において非常に良いと思います。<br/><br/>東京とかほかでは、風のために非常に埃がたちますから汚れます。<br/><br/>ですから風が強く当たらないようにするとかいうことで非常に悪いのです。<br/><br/>京都などの庭園では砂利を敷いてますが、ほかではできないのです。<br/><br/>砂利などは飛んでしまいますから、箱根でもコンクリートで道を作ったのですが、あれは実に不趣味です。<br/><br/>やっぱり小石を敷かなければ本当の味は出ないのです。<br/><br/>しかしそうしなければしようがないですから、芝の間にコンクリート路みたいなものを造ったのです。<br/><br/>それから木とか竹とかというのは、ほかのものより良いです。<br/><br/>木とか竹とかあちらで家をこしらえても京都のものでないと駄目です。<br/><br/>とにかく、京都のそういった条件というのは、将来のために神様がチャンと備えつけられたのです。<br/><br/>ですからいろんなことが備わっている。<br/><br/>京都は山の形といい、松の具合といい、あらゆるものが実に美の都です。<br/><br/>ですから名前を「平安郷」とつけましたが、平安郷という名前をつけてから良く調べてみると、あそこが平安文化の中心地だそうです。<br/><br/>あの辺りから生まれたのだそうです。<br/><br/>聞いてみると藤原時代の絵巻物とかに山などがあるのはあそこの山です。<br/><br/>あれを画いたのです。<br/><br/>それから水に月が写っているとか、歌にそういったものがありますが、あれは広沢の池だそうです。<br/><br/>道路が蔦の細道というのだそうです。<br/><br/>特に絵巻物などに「蔦の細道」という有名な絵巻物がありますが、それです。<br/><br/>そんなようなわけで、あそこが平安文化の中心だそうです。<br/><br/>神様はやはりそこをチャンと選ばれるというのはおもしろいです。<br/><br/>そういったような意味で平安文化と東山文化、桃山文化というものを良く調和させようと思います。<br/><br/>しかしガラスやセメントを使わなかったら駄目ですから、そういうものは近代的材料を使いますが、それも無理がなく調和を破らない程度において使います。<br/><br/>どんなものができるか知りませんが、とにかくアッというようなものができると思っています。<br/><br/>来年の春あたりからボツボツとりかかるつもりです。<br/><br/>まだいろいろ話したいこともありますが、そうかといってまとまった話でなく、時間がかかりますし、私もだいぶ顎が疲れましたからこの辺で止めます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

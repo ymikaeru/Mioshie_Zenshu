@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>seisan0</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 生産増加の根本条件 『明日の医術（再版）第二編』昭和18(1943)年10月5日発行 我日本が現在直面しつつあるこの難局に対し最大喫緊（きっきん）事である事は戦力の増強、即ち生産力拡充である事は今更言うまでもなく、官民共に努力の焦点としている事によってみても明かであろう。<br><br>そうしてこの問題に対し、現在行いつつある方策なるものは、私はいささか的外れではないかと思うのである。<br><br>それは何であるかというと、識者の見解によれば生産増加の原動力は、国民一般がこの重大時局に対し認識と熱意が、今一層強化されなければならないとしているようである。<br><br>従って、重点を意志や思想に置いている事である。<br><br>即ち勤王の大義を説き、幕末の志士等の言行を以て亀鑑（きかん）とすべく筆に口に鼓吹しつつあるのであるが、それらも勿論緊要事ではあるが、それよりもなお一層重要なる点に気付かなければならないと思うのである。<br><br> 先般翼賛会のある有力者のラジオ講演によれば『我国民は近来、戦時意識に対し、中だるみがしてはいないかと想う。<br><br>それは生産部面が予期のごとき成果を挙げ得られないという事である』と、しかるに私は、この言葉の奥にはまことに憂慮すべきものを示唆していると思う。<br><br>何となれば現在益々増産しなければならないこの時期において、中だるみなどという事はあり得べきはずはないからである。<br><br>いうまでもなく今日においては最早国民中一人としてこの重大時局を突破するには生産の増加あるのみという事を意識しない者はないはずである。<br><br>銃後も戦場であり、一億全部が戦いつつあるという覚悟をもっていない者はあるまいからである。<br><br>しかるに、その国民の総意が生産に表われないとすれば、それはいずれかに割切れない何かがあるに違いないからであろう。<br><br>しからばそれは何であるか、私は次に書いてみよう。<br><br> 右の原因として、一言にしていえば国民全般が疲れているのである。<br><br>否疲れるのである。<br><br>いかに確固たる意志があり、精神力が旺盛であっても、躯（からだ）がいう事をきかないのである。<br><br>それは体力の限度を超える事は出来得ないからである。<br><br> 即ち十五貫の重量を限度とする人はいかに精神力を揮（ふる）っても二十貫は持ち得ないと同様である。<br><br>この意味において私は、現在の日本国民は精神力が勝ち過ぎ体力がそれに伴わないというのが真相ではないかと思うのである。<br><br>右の意味によって考える時、中だるみという事の原因は体力低下にありという事を物語っているのではあるまいか。<br><br>しかも緊張しなくてはならないというこの際、それは体力の低下が相当寒心すべき程度にあると思うのは杞憂（きゆう）ではあるまい。<br><br>しからば、右のごとき体力の低下はいかなる訳であろうか。<br><br>本医術に照し考うる時あまりにも明白である。<br><br>それは勿論現在の保健衛生が適正でないという事に帰するのである。<br><br>そうしてさきに説いたごとく疲れとは微熱発生の為であり、微熱発生とは保有せる溜結毒素に対し労務特に激烈なる労務によって浄化作用が発生するのである。<br><br>しからば保有毒素とは何か、いうまでもなく予防注射等による薬毒の凝結及び感冒的浄化作用の抑圧による毒素累積の二つが重なる原因である。<br><br>右のごとくである以上、この解決は容易である。<br><br>それは薬剤を廃止する事と感冒に罹るようにする事である。<br><br>単なるこの二つの実行によって国民の体力が増強するという事は何たる簡単な方法ではあるまいか。<br><br>しかるに、右の原理とおよそ反対である今日の保健衛生であるから、いよいよますます体力は低下するのみであろうから政府がいかに怒号焦慮するといえども逆効果にならざるを得ないであろう。<br><br>故に、この根本原理に目覚めない限り、国家の前途はいかになりゆくや、これを思う時、私は晏如（あんじょ）たり得ないのである。<br><br>今一つ重要な事がある。<br><br>それは医学においては結核の重なる原因として過労及び睡眠不足を挙げている。<br><br>従って、この事を信ずるとすれば右の過労と睡眠不足を極力避けなければならない事になるから、それが為の注意の観念が仕事の上にどう作用するかという事を考えてみなくてはならない。<br><br>即ち今一息頑張ればいいという時、又は今一息仕事の時間を延ばそうとする場合、精神的に躊躇（ちゅうちょ）するのは当然であろう。<br><br>故に、右のごとき結果として生産の上に影響する所いかに大なるものがあるかという事である。<br><br>又さきに説いたごとく感染の憂なき結核を感染するとなし工場出勤を禁じたり、早期診断の結果仕事に従事しながら治癒する程度の軽症を重大視して工場から離脱せしむるごとき等いずれも生産力に影響する所鮮少ではないであろう。<br><br> 右に述べたるごとき種々の医学的方策がいかに生産力を阻害し、生産減少の原因となっているかは、けだし量り知れないであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Condição Fundamental para o Aumento da Produção</h2>
 <p>Diante da grave conjuntura que nossa nação, o Japão, atravessa, não é preciso reiterar que a questão de máxima urgência é o fortalecimento de nossa capacidade bélica, ou seja, a expansão do poder produtivo. A própria convergência de esforços, tanto do governo quanto do povo, nesse único ponto, torna tal fato evidente. Contudo, ao analisar as estratégias que vêm sendo implementadas para solucionar esse problema, considero-as um tanto equivocadas.</p>
@@ -103,5 +255,48 @@ function toggleLang(lang) {
 <p>Adicionalmente, há outra questão de suma importância. A medicina atribui à tuberculose causas como o excesso de trabalho e a falta de sono. Consequentemente, ao se acreditar nisso, torna-se necessário evitar ao máximo essas duas condições. É preciso refletir sobre como essa mentalidade de cautela afeta o desempenho no trabalho. No momento decisivo em que um último esforço é necessário, ou quando se precisa estender um pouco mais a jornada, é natural que surja uma hesitação psicológica. O impacto de tal hesitação sobre a produtividade é, portanto, imensurável.</p>
 <p>Ademais, como já elucidei, a tuberculose não é contagiosa. Contudo, por ser tratada como tal, proíbe-se a presença de doentes nas fábricas. Da mesma forma, o diagnóstico precoce faz com que casos leves, que poderiam ser curados enquanto a pessoa continua a trabalhar, sejam vistos com gravidade, resultando no afastamento do trabalhador de suas funções. Todas essas medidas afetam consideravelmente a força produtiva do país.</p>
 <p>O prejuízo que tais diretrizes médicas, em suas diversas formas, causam à capacidade produtiva, tornando-se um fator de redução da mesma, é, decerto, incomensurável.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 生産増加の根本条件 『明日の医術（再版）第二編』昭和18(1943)年10月5日発行 我日本が現在直面しつつあるこの難局に対し最大喫緊（きっきん）事である事は戦力の増強、即ち生産力拡充である事は今更言うまでもなく、官民共に努力の焦点としている事によってみても明かであろう。<br/><br/>そうしてこの問題に対し、現在行いつつある方策なるものは、私はいささか的外れではないかと思うのである。<br/><br/>それは何であるかというと、識者の見解によれば生産増加の原動力は、国民一般がこの重大時局に対し認識と熱意が、今一層強化されなければならないとしているようである。<br/><br/>従って、重点を意志や思想に置いている事である。<br/><br/>即ち勤王の大義を説き、幕末の志士等の言行を以て亀鑑（きかん）とすべく筆に口に鼓吹しつつあるのであるが、それらも勿論緊要事ではあるが、それよりもなお一層重要なる点に気付かなければならないと思うのである。<br/><br/> 先般翼賛会のある有力者のラジオ講演によれば『我国民は近来、戦時意識に対し、中だるみがしてはいないかと想う。<br/><br/>それは生産部面が予期のごとき成果を挙げ得られないという事である』と、しかるに私は、この言葉の奥にはまことに憂慮すべきものを示唆していると思う。<br/><br/>何となれば現在益々増産しなければならないこの時期において、中だるみなどという事はあり得べきはずはないからである。<br/><br/>いうまでもなく今日においては最早国民中一人としてこの重大時局を突破するには生産の増加あるのみという事を意識しない者はないはずである。<br/><br/>銃後も戦場であり、一億全部が戦いつつあるという覚悟をもっていない者はあるまいからである。<br/><br/>しかるに、その国民の総意が生産に表われないとすれば、それはいずれかに割切れない何かがあるに違いないからであろう。<br/><br/>しからばそれは何であるか、私は次に書いてみよう。<br/><br/> 右の原因として、一言にしていえば国民全般が疲れているのである。<br/><br/>否疲れるのである。<br/><br/>いかに確固たる意志があり、精神力が旺盛であっても、躯（からだ）がいう事をきかないのである。<br/><br/>それは体力の限度を超える事は出来得ないからである。<br/><br/> 即ち十五貫の重量を限度とする人はいかに精神力を揮（ふる）っても二十貫は持ち得ないと同様である。<br/><br/>この意味において私は、現在の日本国民は精神力が勝ち過ぎ体力がそれに伴わないというのが真相ではないかと思うのである。<br/><br/>右の意味によって考える時、中だるみという事の原因は体力低下にありという事を物語っているのではあるまいか。<br/><br/>しかも緊張しなくてはならないというこの際、それは体力の低下が相当寒心すべき程度にあると思うのは杞憂（きゆう）ではあるまい。<br/><br/>しからば、右のごとき体力の低下はいかなる訳であろうか。<br/><br/>本医術に照し考うる時あまりにも明白である。<br/><br/>それは勿論現在の保健衛生が適正でないという事に帰するのである。<br/><br/>そうしてさきに説いたごとく疲れとは微熱発生の為であり、微熱発生とは保有せる溜結毒素に対し労務特に激烈なる労務によって浄化作用が発生するのである。<br/><br/>しからば保有毒素とは何か、いうまでもなく予防注射等による薬毒の凝結及び感冒的浄化作用の抑圧による毒素累積の二つが重なる原因である。<br/><br/>右のごとくである以上、この解決は容易である。<br/><br/>それは薬剤を廃止する事と感冒に罹るようにする事である。<br/><br/>単なるこの二つの実行によって国民の体力が増強するという事は何たる簡単な方法ではあるまいか。<br/><br/>しかるに、右の原理とおよそ反対である今日の保健衛生であるから、いよいよますます体力は低下するのみであろうから政府がいかに怒号焦慮するといえども逆効果にならざるを得ないであろう。<br/><br/>故に、この根本原理に目覚めない限り、国家の前途はいかになりゆくや、これを思う時、私は晏如（あんじょ）たり得ないのである。<br/><br/>今一つ重要な事がある。<br/><br/>それは医学においては結核の重なる原因として過労及び睡眠不足を挙げている。<br/><br/>従って、この事を信ずるとすれば右の過労と睡眠不足を極力避けなければならない事になるから、それが為の注意の観念が仕事の上にどう作用するかという事を考えてみなくてはならない。<br/><br/>即ち今一息頑張ればいいという時、又は今一息仕事の時間を延ばそうとする場合、精神的に躊躇（ちゅうちょ）するのは当然であろう。<br/><br/>故に、右のごとき結果として生産の上に影響する所いかに大なるものがあるかという事である。<br/><br/>又さきに説いたごとく感染の憂なき結核を感染するとなし工場出勤を禁じたり、早期診断の結果仕事に従事しながら治癒する程度の軽症を重大視して工場から離脱せしむるごとき等いずれも生産力に影響する所鮮少ではないであろう。<br/><br/> 右に述べたるごとき種々の医学的方策がいかに生産力を阻害し、生産減少の原因となっているかは、けだし量り知れないであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

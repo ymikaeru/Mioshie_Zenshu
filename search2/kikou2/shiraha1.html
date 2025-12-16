@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>shiraha1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 爪木崎燈台 白浜海岸ロケ随行記１ 福地眞之助 『栄光』149号、昭和27(1952)年3月26日発行 映画「大建設」に就て この度、本部において布教、記録の目的から、地上天国建設の記録映画を撮る事となり、その第一期として熱海瑞雲郷がその冒頭を飾る事となり、この歴史的――世界歴史に画線を印すべき記録映画の撮影に理科学研究所教育映画部が当る事となり、二月十六日以降三月五日迄懸命なるロケを続け近日上映の運びになる予定であります。<br><br> 直接この映画の撮影に当られた福井技師は“如何にすれば地上天国建設の、真意義を適確に表現出来るか”という事に腐心され、明主様の御著書と首っ引で慎重に慎重を重ねて書き上げられたという大シナリオに従って、一駒々々美術的芸術写真たらしむべく、芸術家的良心から懸命の努力されました事をここに顕称すると共に、映画拝観時の御参考迄にと存じ、最終最遠の表記ロケの随行記をここに誌す次第であります。<br><br> 皆様と共にこの映画の上映の日を鶴首して待ち、賞讃の拍手を贈りたいと思う。<br><br> 一、爪木崎燈台 「まだかい――遅いね」と独り呟きながら腕時計を覗くともう八時を五、六分過ぎていた。<br><br>温いお茶を御馳走になりながら、咲見町の仮本部の茶の間で今日のロケについて話がはずむ。<br><br> 「福井さん、どうして爪木崎の燈台に目を着けたのですか？」と一番聴きたかった事を早速訊ねる。<br><br> 「いや別にこれと言った理由はないんですが、以前よく下田の港に撮影に行った事がありましたが、その時船から見るととても美しいので何時かは――と思っていたのです。<br><br>ところが今度地上天国の映画を撮る事となり、熱海の近くにこんな美しいところが多いのも決して偶然ではない――何十万年前から神様が今日の為に用意され、明主様がこの世にお出ましになって完成させられる――という事を明示する為、付近の光景も、あちらこちら撮る事になりましたので……もっとも今日のロケが最遠地ですが……」 「なるほど」と却って第三者の福井氏がメシヤ教の事業に理解の深いのに驚く。<br><br> 「ところでこのシナリオはどなたが書かれたのですか？」 「それは私ですが、勝手馴れないので一番苦心しました。<br><br>幹部の先生方に色々と話を伺い、明主様の御著書を拝借してドンドン読み、大方方針がわかったので慎重に書き上げて検閲して戴きました」 私は“明主様の御著書を原にした”と聞いてハタと手を拍ちたい様な衝動を禁じ得なかった。<br><br> 「どうぞ」と言って渡されたシナリオをめくって見る「ああ、今日のロケはこのシナリオのトップですね」 「そうです。<br><br>あとは全部済んで、最初のカットだけ残っているのです」 「燈台とメシヤ教――何か意味深長ですね」“メシヤ教は世界の燈台だ”と独り呟くと、符節を合せる様に 「そうです――そんな意味もあるのです」と語られる。<br><br> 「このシナリオに『カメラ静かにパンアップする』と書いてありますが、これは何んな事ですか」 「これは映画用語でカメラを下から上へ向ける事です――つまりこの場合、こうして最初下の波涛を写しておいて、徐々に上げて燈台を写すのです…」と説明される福井技師の頭の中には最早素晴らしい映像が出来ている様である。<br><br>聞いているだけでも、巌頭に砕ける波しぶき、青い海に白い燈台と眼前に彷彿とする。<br><br> 「揃ったよ」と外で声がする。<br><br> 「では出発だ」 一行九人、五六七号（メシヤ教のトラック）に乗込む。<br><br>その中には紅一点のＨ子さんの姿も見える。<br><br> 八時二十分、準備「Ｏ・Ｋ」「発車」 快いエソジンの響を残して車は一路伊豆半島を南下する。<br><br> 「大丈夫かなあ――この天気で？」と一人が心配そうに空を見上げると、それにつられて皆空を仰ぐ。<br><br> 「おい段々曇ってくるぜ」 と又一人が言う。<br><br>雪雲らしい黒雲が北西の方向から湧き上った。<br><br> 「ナーニ、神様がいい様にして下さるサ」 「そうだそうだ」と言って皆落着いてしまった。<br><br> 「大丈夫ですよ晴れますよ」と助手の鈴木さんはカメラマンの勘を働かせて確言する。<br><br> 車はリアス式海岸沿いの曲折の多い断崖の上を右へ左へとカーブを切りつつ驀進してゆく。<br><br> 伊東の温泉旅館街だなと思う間もなく郊外に出て美しい汀が続く、時計を見るともう二時間は経っている。<br><br> 「今半分位だろうヨ」と米谷運転手は話しながら悠々とスピードアップする。<br><br>悪道路にさしかかると車は上下左右に物凄くバウンドするので一寸油断しようものなら、タンコブの二つ三つ世話なしである。<br><br>私も睡くなったなと思った途端大きいコブを頂戴した。<br><br>勿論お手のものの御浄霊で直ぐ治った。<br><br> 「伊豆七島だ！」と出し抜けに海岸側の一人が指差す。<br><br>「おや、本当だ」とみんな目を丸くして身体を乗りだして眺める。<br><br>「五つだ」「いや六つだ」と詮議しながらも指呼の間に点綴する列島に向って「素晴しい素晴らしい」の連発である。<br><br> 今迄「伊豆七島」といえば、太平洋上遥か彼方にあって、陸岸から見えようとは夢にも思っていなかっただけに蜃気楼かと疑いたくなる位であった。<br><br>一同車を止めて眺望に暫し陶酔する。<br><br> 北の方天城山には雪が降っているのが見える。<br><br>福井技師は私達が小憩している間にも、あちこちと跋渉してロケの位置を観察しておられる。<br><br>「さあ出発だ」と一同車上にうずくまる。<br><br>小雪まじりの寒風が身に沁む。<br><br>誰も弱音は吐かないが「今どこだ今どこだ」と移り替り口にするところを見ると、矢張り大分疲れているのである。<br><br>もう熱海を出て三時間も揉まれているので無理もない。<br><br>誰も来た事のない道なので分れ道に来ると運転手の米谷さんは車を止めて通行人に聞いていたが、その中で滑稽なのはこんなのがあった。<br><br>鍬を担いだ百姓風のじいさんが来たので、 「この道を真直に行けば下田に出るのですか？」と米谷さんが訊いていた。<br><br>すると件の爺さんやおら振向いて「わしは青森から来たんで、知りませんわい」 “青森”ときいて一同顔を見合せて車上でころげまわって大笑いした。<br><br> 朗かな笑いを載せて車は更に南下する。<br><br> 「燈台が見える」という声に俄然元気が出る。<br><br>水平線上東に向って長く突出した岬の突端に白い燈台が立っているのがはっきり見える。<br><br> 「どの位かかるだろう」 「そうだな、四十粁（キロ）位あるだろう」と運ちゃんが言う その中大きい貨物飴が三四艘碇泊している港が見えた。<br><br>下田の港である――下田といえば黒船の歴史、今を去る丁度百年前、鎖国太平の夢を謳歌していた日本人の寝耳にドンと礼砲一発吃驚仰天した奉行所のチョンマゲ連が、おっ取り刀で駿馬に鞭ち、お江戸へお江戸へと駈けたであろうこの街道を今度は逆にメシヤ教のミロク号が、経緯結んだ新進文明と救いの光を世界に向って投げかけんとする目的で馳けつけた――という意味にもなるな――と独り考えて微笑む。<br><br> やがて車は下田の入口から左に折れてとある漁港に迷い込んだ。<br><br>もうここから二十分位と聞いて安心して食事にかかる。<br><br>空はカメラマンの予言の如く晴れて南の空に青空が見え出した。<br><br> トラックはここから薮をかき分ける様にして進み、燈台から五、六百米の地点でストップする。<br><br>各人重い部品を担いで岬の突端まで歩く。<br><br>福井技師は先行してカメラの位置等についてあちらに立ち、こちらに立ちして選んでいる。<br><br>鈴木助手は素早く器械の組立に取掛る。<br><br>私はその間手持無沙汰なので、辺りを歩き廻って天下の絶景を心ゆくまで賞でる。<br><br> 左に大島、正面に伊豆七島、右手遥かに石廊崎の燈台と眺望千里、洋上には大型船が悠々と航行してゆき、水平線の彼方に没してゆく。<br><br>燈台は三十米余の断崖絶壁の上に立ち、高さ十五米もあろうか、人は誰も住んではいない。<br><br>鍵のかかったドアーには「爪木崎燈台」昭和十二年四月一日点燈」と書いてある。<br><br>指を折ってみると十五年にもなるのだ、一つの燈をともし続けて、嵐の夜も霧の夜も暗夜の海上を照して余念なき燈台君に「御苦労さん」と言ってやりたい様な衝動を感じた。<br><br> 考えてみれば、今日のメシヤ教になる迄二十数星霜風雪にさらされ、雷雨に叩かれつつも、救世の炬火をかざして堪えしのばれて来られた明主様の事に思いを致す時、転（うた）た感慨無量なるものがあった。<br><br>大建設の映画の巻頭に出て来るこの燈台が明主様を表徴するにしては余りにも貧弱に過ぎるが、明主様の偉大さの一端を象徴しているといえない事もないと思った。<br><br> 撮影機が取り付けられたらしいので、急いで行って見る。<br><br>そこは燈台から二十米余り離れている断崖の他端で、一歩足を滑らせたら最後転落必至で、下には怒涛渦巻く岩礁が不気味に呻いているという難所である。<br><br> この危険を冒してカメラマンの調整が始まる。<br><br>私達が小型カメラでパチパチやるのとは違って、特にフィルターの加減（色ガラスで色感度を調節する事）明暗等の加減が難かしいらしく、何度もやり直してこれでよしというところで、カメラの廻転の試験である。<br><br>足場が狭いので上体をグッと曲げ、海面から燈台へと、曲線的にパンアップする操作は全く芸術的技術である――大自然という至芸の俳優を前に、如何にしてその雄大な演技をうつし取るか――という事に血眼である。<br><br>福井技師がワインダー（手廻しのフィルム回転器）を持って待ち構えている鈴木助手に本番の合図する。<br><br>グット固唾を呑んでカメラと燈台を交互に見つめる。<br><br>ジィーッと回転する快い響き、静かに左上にパンアップしてストップ「Ｏ・Ｋ」ほっと一息する。<br><br>その間三十秒足らずである。<br><br> 「三十秒の撮影の為に往復八時間トラックにゆられる訳か――大したものだ」と話している中に福井技師は次の地点を探しに急行していた。<br><br>私達もカメラの部品を担いで後に続く。<br><br>口々に「美しかったね、素晴らしかったね、時間がないのが残念だね」と名残り惜みながら燈台を後にする。<br><br> 次の地点はトラックの終点から一寸上った小高い丘陵の松の木蔭だった。<br><br>レンズは岬の白い燈台を中心に伊豆七島を一望の中に収め熱海へとパノラミック（横へ回転する）するというカットの撮影である。<br><br>「ジィーッ」とその間二十秒位であろうか、これで爪木崎のロケを完了した訳である。<br><br>一行トラックの上の人となる。<br><br> （以下次号）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Crônica da Filmagem no Farol de Tsumekizaki</h2>
 <p>Decidiu-se, na Sede Central, a produção de um documentário com o objetivo de propagar a fé e registrar a construção do Paraíso Terrestre. Este filme, intitulado “A Grande Construção”, teria como cena de abertura a paisagem de Zuiunkyō, em Atami. A responsabilidade por esta filmagem, destinada a marcar uma era na história mundial, coube ao Departamento de Filmes Educacionais do Instituto de Pesquisas Físicas e Químicas. As filmagens externas transcorreram com grande empenho de 16 de fevereiro a 5 de março, e a estreia está prevista para breve.</p>
@@ -144,5 +296,48 @@ function toggleLang(lang) {
 <p>— Oito horas de viagem de ida e volta para uma filmagem de trinta segundos. É impressionante — comentei. Enquanto conversávamos, o engenheiro Fukui já se apressava em busca do próximo local. Carregando as peças da câmera, nós o seguimos, comentando uns com os outros: “Foi belíssimo”, “Que maravilha”, “Pena não termos mais tempo”. Assim, com um sentimento de nostalgia, deixamos o farol para trás.</p>
 <p>O local seguinte era um pequeno bosque de pinheiros em uma colina logo acima de onde o caminhão havia parado. A tomada consistia em um movimento panorâmico: começando com o farol branco no centro e as Sete Ilhas de Izu ao fundo, a câmera giraria horizontalmente em direção a Atami. O som do mecanismo soou por talvez vinte segundos, e com isso, a filmagem em Tsumekizaki estava concluída. O grupo embarcou novamente no caminhão.</p>
 <p><em>(Continua na próxima edição)</em></p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 爪木崎燈台 白浜海岸ロケ随行記１ 福地眞之助 『栄光』149号、昭和27(1952)年3月26日発行 映画「大建設」に就て この度、本部において布教、記録の目的から、地上天国建設の記録映画を撮る事となり、その第一期として熱海瑞雲郷がその冒頭を飾る事となり、この歴史的――世界歴史に画線を印すべき記録映画の撮影に理科学研究所教育映画部が当る事となり、二月十六日以降三月五日迄懸命なるロケを続け近日上映の運びになる予定であります。<br/><br/> 直接この映画の撮影に当られた福井技師は“如何にすれば地上天国建設の、真意義を適確に表現出来るか”という事に腐心され、明主様の御著書と首っ引で慎重に慎重を重ねて書き上げられたという大シナリオに従って、一駒々々美術的芸術写真たらしむべく、芸術家的良心から懸命の努力されました事をここに顕称すると共に、映画拝観時の御参考迄にと存じ、最終最遠の表記ロケの随行記をここに誌す次第であります。<br/><br/> 皆様と共にこの映画の上映の日を鶴首して待ち、賞讃の拍手を贈りたいと思う。<br/><br/> 一、爪木崎燈台 「まだかい――遅いね」と独り呟きながら腕時計を覗くともう八時を五、六分過ぎていた。<br/><br/>温いお茶を御馳走になりながら、咲見町の仮本部の茶の間で今日のロケについて話がはずむ。<br/><br/> 「福井さん、どうして爪木崎の燈台に目を着けたのですか？」と一番聴きたかった事を早速訊ねる。<br/><br/> 「いや別にこれと言った理由はないんですが、以前よく下田の港に撮影に行った事がありましたが、その時船から見るととても美しいので何時かは――と思っていたのです。<br/><br/>ところが今度地上天国の映画を撮る事となり、熱海の近くにこんな美しいところが多いのも決して偶然ではない――何十万年前から神様が今日の為に用意され、明主様がこの世にお出ましになって完成させられる――という事を明示する為、付近の光景も、あちらこちら撮る事になりましたので……もっとも今日のロケが最遠地ですが……」 「なるほど」と却って第三者の福井氏がメシヤ教の事業に理解の深いのに驚く。<br/><br/> 「ところでこのシナリオはどなたが書かれたのですか？」 「それは私ですが、勝手馴れないので一番苦心しました。<br/><br/>幹部の先生方に色々と話を伺い、明主様の御著書を拝借してドンドン読み、大方方針がわかったので慎重に書き上げて検閲して戴きました」 私は“明主様の御著書を原にした”と聞いてハタと手を拍ちたい様な衝動を禁じ得なかった。<br/><br/> 「どうぞ」と言って渡されたシナリオをめくって見る「ああ、今日のロケはこのシナリオのトップですね」 「そうです。<br/><br/>あとは全部済んで、最初のカットだけ残っているのです」 「燈台とメシヤ教――何か意味深長ですね」“メシヤ教は世界の燈台だ”と独り呟くと、符節を合せる様に 「そうです――そんな意味もあるのです」と語られる。<br/><br/> 「このシナリオに『カメラ静かにパンアップする』と書いてありますが、これは何んな事ですか」 「これは映画用語でカメラを下から上へ向ける事です――つまりこの場合、こうして最初下の波涛を写しておいて、徐々に上げて燈台を写すのです…」と説明される福井技師の頭の中には最早素晴らしい映像が出来ている様である。<br/><br/>聞いているだけでも、巌頭に砕ける波しぶき、青い海に白い燈台と眼前に彷彿とする。<br/><br/> 「揃ったよ」と外で声がする。<br/><br/> 「では出発だ」 一行九人、五六七号（メシヤ教のトラック）に乗込む。<br/><br/>その中には紅一点のＨ子さんの姿も見える。<br/><br/> 八時二十分、準備「Ｏ・Ｋ」「発車」 快いエソジンの響を残して車は一路伊豆半島を南下する。<br/><br/> 「大丈夫かなあ――この天気で？」と一人が心配そうに空を見上げると、それにつられて皆空を仰ぐ。<br/><br/> 「おい段々曇ってくるぜ」 と又一人が言う。<br/><br/>雪雲らしい黒雲が北西の方向から湧き上った。<br/><br/> 「ナーニ、神様がいい様にして下さるサ」 「そうだそうだ」と言って皆落着いてしまった。<br/><br/> 「大丈夫ですよ晴れますよ」と助手の鈴木さんはカメラマンの勘を働かせて確言する。<br/><br/> 車はリアス式海岸沿いの曲折の多い断崖の上を右へ左へとカーブを切りつつ驀進してゆく。<br/><br/> 伊東の温泉旅館街だなと思う間もなく郊外に出て美しい汀が続く、時計を見るともう二時間は経っている。<br/><br/> 「今半分位だろうヨ」と米谷運転手は話しながら悠々とスピードアップする。<br/><br/>悪道路にさしかかると車は上下左右に物凄くバウンドするので一寸油断しようものなら、タンコブの二つ三つ世話なしである。<br/><br/>私も睡くなったなと思った途端大きいコブを頂戴した。<br/><br/>勿論お手のものの御浄霊で直ぐ治った。<br/><br/> 「伊豆七島だ！」と出し抜けに海岸側の一人が指差す。<br/><br/>「おや、本当だ」とみんな目を丸くして身体を乗りだして眺める。<br/><br/>「五つだ」「いや六つだ」と詮議しながらも指呼の間に点綴する列島に向って「素晴しい素晴らしい」の連発である。<br/><br/> 今迄「伊豆七島」といえば、太平洋上遥か彼方にあって、陸岸から見えようとは夢にも思っていなかっただけに蜃気楼かと疑いたくなる位であった。<br/><br/>一同車を止めて眺望に暫し陶酔する。<br/><br/> 北の方天城山には雪が降っているのが見える。<br/><br/>福井技師は私達が小憩している間にも、あちこちと跋渉してロケの位置を観察しておられる。<br/><br/>「さあ出発だ」と一同車上にうずくまる。<br/><br/>小雪まじりの寒風が身に沁む。<br/><br/>誰も弱音は吐かないが「今どこだ今どこだ」と移り替り口にするところを見ると、矢張り大分疲れているのである。<br/><br/>もう熱海を出て三時間も揉まれているので無理もない。<br/><br/>誰も来た事のない道なので分れ道に来ると運転手の米谷さんは車を止めて通行人に聞いていたが、その中で滑稽なのはこんなのがあった。<br/><br/>鍬を担いだ百姓風のじいさんが来たので、 「この道を真直に行けば下田に出るのですか？」と米谷さんが訊いていた。<br/><br/>すると件の爺さんやおら振向いて「わしは青森から来たんで、知りませんわい」 “青森”ときいて一同顔を見合せて車上でころげまわって大笑いした。<br/><br/> 朗かな笑いを載せて車は更に南下する。<br/><br/> 「燈台が見える」という声に俄然元気が出る。<br/><br/>水平線上東に向って長く突出した岬の突端に白い燈台が立っているのがはっきり見える。<br/><br/> 「どの位かかるだろう」 「そうだな、四十粁（キロ）位あるだろう」と運ちゃんが言う その中大きい貨物飴が三四艘碇泊している港が見えた。<br/><br/>下田の港である――下田といえば黒船の歴史、今を去る丁度百年前、鎖国太平の夢を謳歌していた日本人の寝耳にドンと礼砲一発吃驚仰天した奉行所のチョンマゲ連が、おっ取り刀で駿馬に鞭ち、お江戸へお江戸へと駈けたであろうこの街道を今度は逆にメシヤ教のミロク号が、経緯結んだ新進文明と救いの光を世界に向って投げかけんとする目的で馳けつけた――という意味にもなるな――と独り考えて微笑む。<br/><br/> やがて車は下田の入口から左に折れてとある漁港に迷い込んだ。<br/><br/>もうここから二十分位と聞いて安心して食事にかかる。<br/><br/>空はカメラマンの予言の如く晴れて南の空に青空が見え出した。<br/><br/> トラックはここから薮をかき分ける様にして進み、燈台から五、六百米の地点でストップする。<br/><br/>各人重い部品を担いで岬の突端まで歩く。<br/><br/>福井技師は先行してカメラの位置等についてあちらに立ち、こちらに立ちして選んでいる。<br/><br/>鈴木助手は素早く器械の組立に取掛る。<br/><br/>私はその間手持無沙汰なので、辺りを歩き廻って天下の絶景を心ゆくまで賞でる。<br/><br/> 左に大島、正面に伊豆七島、右手遥かに石廊崎の燈台と眺望千里、洋上には大型船が悠々と航行してゆき、水平線の彼方に没してゆく。<br/><br/>燈台は三十米余の断崖絶壁の上に立ち、高さ十五米もあろうか、人は誰も住んではいない。<br/><br/>鍵のかかったドアーには「爪木崎燈台」昭和十二年四月一日点燈」と書いてある。<br/><br/>指を折ってみると十五年にもなるのだ、一つの燈をともし続けて、嵐の夜も霧の夜も暗夜の海上を照して余念なき燈台君に「御苦労さん」と言ってやりたい様な衝動を感じた。<br/><br/> 考えてみれば、今日のメシヤ教になる迄二十数星霜風雪にさらされ、雷雨に叩かれつつも、救世の炬火をかざして堪えしのばれて来られた明主様の事に思いを致す時、転（うた）た感慨無量なるものがあった。<br/><br/>大建設の映画の巻頭に出て来るこの燈台が明主様を表徴するにしては余りにも貧弱に過ぎるが、明主様の偉大さの一端を象徴しているといえない事もないと思った。<br/><br/> 撮影機が取り付けられたらしいので、急いで行って見る。<br/><br/>そこは燈台から二十米余り離れている断崖の他端で、一歩足を滑らせたら最後転落必至で、下には怒涛渦巻く岩礁が不気味に呻いているという難所である。<br/><br/> この危険を冒してカメラマンの調整が始まる。<br/><br/>私達が小型カメラでパチパチやるのとは違って、特にフィルターの加減（色ガラスで色感度を調節する事）明暗等の加減が難かしいらしく、何度もやり直してこれでよしというところで、カメラの廻転の試験である。<br/><br/>足場が狭いので上体をグッと曲げ、海面から燈台へと、曲線的にパンアップする操作は全く芸術的技術である――大自然という至芸の俳優を前に、如何にしてその雄大な演技をうつし取るか――という事に血眼である。<br/><br/>福井技師がワインダー（手廻しのフィルム回転器）を持って待ち構えている鈴木助手に本番の合図する。<br/><br/>グット固唾を呑んでカメラと燈台を交互に見つめる。<br/><br/>ジィーッと回転する快い響き、静かに左上にパンアップしてストップ「Ｏ・Ｋ」ほっと一息する。<br/><br/>その間三十秒足らずである。<br/><br/> 「三十秒の撮影の為に往復八時間トラックにゆられる訳か――大したものだ」と話している中に福井技師は次の地点を探しに急行していた。<br/><br/>私達もカメラの部品を担いで後に続く。<br/><br/>口々に「美しかったね、素晴らしかったね、時間がないのが残念だね」と名残り惜みながら燈台を後にする。<br/><br/> 次の地点はトラックの終点から一寸上った小高い丘陵の松の木蔭だった。<br/><br/>レンズは岬の白い燈台を中心に伊豆七島を一望の中に収め熱海へとパノラミック（横へ回転する）するというカットの撮影である。<br/><br/>「ジィーッ」とその間二十秒位であろうか、これで爪木崎のロケを完了した訳である。<br/><br/>一行トラックの上の人となる。<br/><br/> （以下次号）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

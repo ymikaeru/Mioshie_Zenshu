@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>okage02</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： おかげ話から何を掴んだか 『光』36号、昭和24(1949)年11月19日発行 本教出版物に載せられた今日までのおかげ話は無慮千数百に上ったであろう、しかも益々増加の傾向にある事によってみても、本教特異の信仰療法がいかに絶大な効果を挙げつつあるかは、事実そのものが証明しているのだから何をか言わんやである、ところがここに見逃すべからざる医療の功罪がある。<br><br> なるほど、現代医学の進歩の恩恵に随喜し、文化民族ことごとくが何らの疑惑なく信頼している事実は知らぬ者はないが、かように文化面の最重要位置に不動の存在である医学に対し、忌憚なき意見を発表する吾らの行為こそ、ほとんど例を見ないといって過言ではなかろう、もちろん吾らといえども現代医学が一般の信ずるごとく的確なる効果を挙げ人間の健康に対して真に役立つとしたら、何を好んで非難の筆を揮うであろうか、しかも現行法規に照らし、ともすれば医療妨害に問わるる危険さえあるにおいてをやである。<br><br> ところが、吾らは神授の医学を基礎とし、実地に当って深く研究を進めれば進める程、医学は邪道に進み入っていることを痛感するのである、したがって医学がいかに努力し研鑚を重ぬるとも、結果からみて何らの進歩もなく百年一日のごとく堂々めぐりしているに過ぎない現実を発見するのである、その何よりの表われとしては現在見るがごとく病者の氾濫と健康状態の不良である、すなわち一方の病気が減れば他の一方に新しい病気が発生するというような現実は常にみるところである。<br><br> 以上のごときは全く医学の根本に一大誤謬が伏在しているからである、しかも吾らはそれを発見したのである、しかるに吾らの神霊療法がいかに実際、効果を挙げつつあるかは生々しい現実としてのおかげ話の報告である、これ以上の実証はあるまい、言うまでもなく体験者自身の筆である以上、一点の疑惑を挿む余地はないからである。<br><br> まずおかげ話中の報告を見て驚くべき事は、発病するや例外なく速やかに医療を受ける、ところが医療を受ければ受ける程漸次悪化する事実である。<br><br>もちろんその場合大病院、名医あらゆる薬剤等生命に関する以上、金銭の負担も時間もその人々の最大限にまで行うにかかわらず、前述のごとく悪化の結果、死の手前まで追詰められてしまうのである、全くこれ以上の重大問題はあるまい。<br><br>右のごとくに医学の理論と結果とはほとんど逆である。<br><br>例えばおかげ話中にあるごとく医家が治るといい、請合うというにかかわらずその結果が余りにも予期に反する事である。<br><br> かくのごとく学理と実際の逆効果は、医家といえども常に経験するところであろう、また大病院においての診断と解剖の結果との相違のはなはだしい事はよく聞くところである、その場合医家はその原因を医学の誤りとは夢にも思わず、反って医学の不進歩のためと解するので、医家は一層医学を進歩させるこそ自己の責務であると解釈するのであるから、吾らから見れば余りの過誤に言うべき言葉を知らないのである、それがため黴菌発見に動物試験に、新薬の発見に光線放射に栄養改善に、その他ありとあらゆる医病力の発見に専念するのである。<br><br>その現れとして医学の分野は益々複雑多岐にわたり、病名も数も増すから科目も増加し、微に入り細にわたって研究され、学説も治病方法も素晴しい進歩を遂げつつあるように見えるので、世人は幻惑され今日のごとく極度に信頼を払うのであるが、肝心の治病に対してはいささかの進歩もなく、ただ一時的苦痛緩和の対症療法が巧妙になったまでである。<br><br> しかもそれを進歩の道程と過信するのであるから、冷静に現代医学を批判する時、全く長歎息の外ないのである、一言にしていえば実際と遊離した学説を実際に当はめようとするのであるから、予期の効果を挙げ得ないのである。<br><br>それがためただ研究のみに耽（ふけ）る結果、モルモットだけならいいが、幾何（いくばく）の人間が犠牲になるか計り知れないものがあろう。<br><br>ゆえに学説と実際との一致こそ正しい医学である、また学理が真理とすれば、予防医学によって寄生虫も結核も伝染病も中風も小児麻痺も漸次解決の道程に入り、今日のごとく続出氾濫するはずがない訳である。<br><br> これを要するに現代医学の誤謬に目覚めるの恩恵に浴せしむべき真の救済である。<br><br> 以上のごとくであるから、神の大愛は世の終末に際し、吾らを駆ってこの是正を遂行せしむべくされ給うたのである、何しろ数十世紀以来続いて来たところの医学であるから、一朝一夕に覚醒させる事は頗（すこぶ）る困難であるが、神の絶対力を信ずる吾らとしては、何ら疑念なく前途の光明に向かって邁進しつつあるのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Uma Análise sobre os Méritos e Deméritos da Prática Médica</h2>
 <p>As publicações de nossa Religião já trouxeram à luz milhares de Relatos de Graça, cujo número continua a crescer incessantemente. Esse fato, por si só, comprova a eficácia extraordinária de nossa Terapia pela Fé, dispensando maiores comentários. Todavia, é nesse ponto que se torna imperativo analisar os méritos e deméritos da medicina.</p>
@@ -104,5 +256,48 @@ function toggleLang(lang) {
 <p>A verdadeira medicina, portanto, é aquela em que teoria e prática estão em perfeita consonância. Se os preceitos acadêmicos fossem verdadeiros, a medicina preventiva já estaria gradualmente solucionando enfermidades como as parasitoses, a tuberculose, as doenças contagiosas, o derrame cerebral e a paralisia infantil, em vez de assistirmos à sua proliferação incessante.</p>
 <p>Em síntese, a verdadeira salvação consiste em despertar para o equívoco da medicina moderna e ser banhado por essa graça.</p>
 <p>Por tudo o que foi exposto, o Grande Amor de Deus, na iminência do Fim da Era, impele-nos a realizar esta correção. Trata-se de uma medicina estabelecida há dezenas de séculos, e, por essa razão, despertar as pessoas de um dia para o outro é uma tarefa sobremaneira difícil. Contudo, nós, que cremos no poder absoluto de Deus, avançamos sem qualquer hesitação em direção à luz do futuro, com plena confiança na jornada que temos pela frente.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： おかげ話から何を掴んだか 『光』36号、昭和24(1949)年11月19日発行 本教出版物に載せられた今日までのおかげ話は無慮千数百に上ったであろう、しかも益々増加の傾向にある事によってみても、本教特異の信仰療法がいかに絶大な効果を挙げつつあるかは、事実そのものが証明しているのだから何をか言わんやである、ところがここに見逃すべからざる医療の功罪がある。<br/><br/> なるほど、現代医学の進歩の恩恵に随喜し、文化民族ことごとくが何らの疑惑なく信頼している事実は知らぬ者はないが、かように文化面の最重要位置に不動の存在である医学に対し、忌憚なき意見を発表する吾らの行為こそ、ほとんど例を見ないといって過言ではなかろう、もちろん吾らといえども現代医学が一般の信ずるごとく的確なる効果を挙げ人間の健康に対して真に役立つとしたら、何を好んで非難の筆を揮うであろうか、しかも現行法規に照らし、ともすれば医療妨害に問わるる危険さえあるにおいてをやである。<br/><br/> ところが、吾らは神授の医学を基礎とし、実地に当って深く研究を進めれば進める程、医学は邪道に進み入っていることを痛感するのである、したがって医学がいかに努力し研鑚を重ぬるとも、結果からみて何らの進歩もなく百年一日のごとく堂々めぐりしているに過ぎない現実を発見するのである、その何よりの表われとしては現在見るがごとく病者の氾濫と健康状態の不良である、すなわち一方の病気が減れば他の一方に新しい病気が発生するというような現実は常にみるところである。<br/><br/> 以上のごときは全く医学の根本に一大誤謬が伏在しているからである、しかも吾らはそれを発見したのである、しかるに吾らの神霊療法がいかに実際、効果を挙げつつあるかは生々しい現実としてのおかげ話の報告である、これ以上の実証はあるまい、言うまでもなく体験者自身の筆である以上、一点の疑惑を挿む余地はないからである。<br/><br/> まずおかげ話中の報告を見て驚くべき事は、発病するや例外なく速やかに医療を受ける、ところが医療を受ければ受ける程漸次悪化する事実である。<br/><br/>もちろんその場合大病院、名医あらゆる薬剤等生命に関する以上、金銭の負担も時間もその人々の最大限にまで行うにかかわらず、前述のごとく悪化の結果、死の手前まで追詰められてしまうのである、全くこれ以上の重大問題はあるまい。<br/><br/>右のごとくに医学の理論と結果とはほとんど逆である。<br/><br/>例えばおかげ話中にあるごとく医家が治るといい、請合うというにかかわらずその結果が余りにも予期に反する事である。<br/><br/> かくのごとく学理と実際の逆効果は、医家といえども常に経験するところであろう、また大病院においての診断と解剖の結果との相違のはなはだしい事はよく聞くところである、その場合医家はその原因を医学の誤りとは夢にも思わず、反って医学の不進歩のためと解するので、医家は一層医学を進歩させるこそ自己の責務であると解釈するのであるから、吾らから見れば余りの過誤に言うべき言葉を知らないのである、それがため黴菌発見に動物試験に、新薬の発見に光線放射に栄養改善に、その他ありとあらゆる医病力の発見に専念するのである。<br/><br/>その現れとして医学の分野は益々複雑多岐にわたり、病名も数も増すから科目も増加し、微に入り細にわたって研究され、学説も治病方法も素晴しい進歩を遂げつつあるように見えるので、世人は幻惑され今日のごとく極度に信頼を払うのであるが、肝心の治病に対してはいささかの進歩もなく、ただ一時的苦痛緩和の対症療法が巧妙になったまでである。<br/><br/> しかもそれを進歩の道程と過信するのであるから、冷静に現代医学を批判する時、全く長歎息の外ないのである、一言にしていえば実際と遊離した学説を実際に当はめようとするのであるから、予期の効果を挙げ得ないのである。<br/><br/>それがためただ研究のみに耽（ふけ）る結果、モルモットだけならいいが、幾何（いくばく）の人間が犠牲になるか計り知れないものがあろう。<br/><br/>ゆえに学説と実際との一致こそ正しい医学である、また学理が真理とすれば、予防医学によって寄生虫も結核も伝染病も中風も小児麻痺も漸次解決の道程に入り、今日のごとく続出氾濫するはずがない訳である。<br/><br/> これを要するに現代医学の誤謬に目覚めるの恩恵に浴せしむべき真の救済である。<br/><br/> 以上のごとくであるから、神の大愛は世の終末に際し、吾らを駆ってこの是正を遂行せしむべくされ給うたのである、何しろ数十世紀以来続いて来たところの医学であるから、一朝一夕に覚醒させる事は頗（すこぶ）る困難であるが、神の絶対力を信ずる吾らとしては、何ら疑念なく前途の光明に向かって邁進しつつあるのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

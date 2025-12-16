@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>situmo20</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 妙智の光 『地上天国』16号、昭和25(1950)年8月15日発行 【問】庭にいも穴を掘ったとき人骨らしきものが出てきました。<br><br>気味悪いので内緒でそれを他の場所に埋めました。<br><br>まだ掘ればそこに骨があると思います。<br><br>いかがいたしたらよろしいでしょうか。<br><br> 【答】すでに掘った骨は清い所へ埋め、垣根でも作って人の踏まぬようにし、祝詞を奏げ幽世の大神様によくお願いしてやるとよい。<br><br>大きな功徳になる。<br><br> 【問】浄の御守り様の「ヽ」の意味について。<br><br> 【答】天から最高の神霊が下った姿が「ヽ」である。<br><br>大本教では一厘の霊と言っている。<br><br> 【問】芸術などする人の人格が高級でない場合が多いのはどういうわけでしょうか。<br><br> 【答】まったくである。<br><br>芸術家で、人格の低い者が割合多い。<br><br>しかし深く考えると無理のない点がある。<br><br>昔のほうがズーッと立派な人が多かったのに引きかえ、今日はそうでないのは、一番の原因は経済問題で、生活に追われると、思うように練って作ることができない。<br><br>それが芸術の堕落となる。<br><br>まだ戦争前は、財閥富豪などが芸術家を擁護したもので、そのころは優れた芸術家が出たのである。<br><br> 【問】行為は人格の現われと考えられるときと、その反対に考えられるときとありますが、どちらが本当でしょうか。<br><br> 【答】人格の表われが本当である。<br><br>反対に考えられるのは、人格と逆であるからで、これは本当ではない。<br><br>しかし世の中には、人格を高潔に見せようと努むる者がたくさんあり、これがかえって偉い人に思われる場合もあるが、これは長くは続かない。<br><br>一番肝腎なことは、小乗と大乗を弁（わきま）えることである。<br><br>小乗的に偉く見えるのは本当でない。<br><br>本当の人格者は、全人類の幸福を念願する。<br><br>世界主義的の人である。<br><br> 【問】霊子と原子について、 （イ）原子記号で酸素は８、水素は１、窒素は７でありますが、酸素、水素、窒素を火水土として考えるとき、五六七の数字と原子記号の８１７の数字とに、なにか関係がありましょうか。<br><br> （ロ）霊子が化学者の手によって発見実証されるとすれば、それは神霊放射能中と存じますが、原子核中よりも発見されましょうか。<br><br> （ハ）原子界の霊の部面が想念界になるとのお説から推理いたしまして「電子の霊――無線」の活用のごとく、原子の霊の活用により、全世界人類が想念による通信ができるようになるときがまいりましょうか。<br><br> 【答】 （イ）関係はあるが、原子記号は絶対のものではない。<br><br>今後まだまだ変わる。<br><br>未発見の原子もたくさんある。<br><br> （ロ）原子核は物質のほうである。<br><br>物質の霊子はまだ荒い。<br><br>原子核の発見はもっと分裂する。<br><br>原子核の中からも霊子を発見する。<br><br>また霊子核の中からも極霊子を発見する。<br><br> （ハ）いまに想念の無線電波時代が来る。<br><br>例えば、空中に字を書くとか話するとかすると、何千里先までも通じたり感じたりする。<br><br>これはいまでも、ある程度はある。<br><br>人心の機微をつかむなどというのはそうで、政治家なども、この人心の機微をつかむことが重要である。<br><br> 【問】御浄霊を施療でやってあげるのはいかにも美しい行為のように思えますが、これは夜の世界における慈悲の考え方であって、正しい意味の救いにはならないものでしょうか。<br><br> 【答】浄霊をして、御礼をもらわぬということは本当ではない。<br><br>しかし特別の理由があればやむを得ないが、その人の身分相応で、少しでも余裕があればお礼を上げるのが本当である。<br><br>浄霊する教師とても無論人間である以上、生活しなければならないからもらうべきである。<br><br>かつて私が浄霊に従事したころ、このことを聞かれたとき、私は答えた。<br><br>浄霊により生命が助けられたのだから、本来ならば全財産の半分くらい上げてもいいわけである。<br><br>この意味で私は手数料しかもらっていない。<br><br>浄霊に対する御礼はまだもらったことはないと。<br><br>また先に弟子で一回一円の料金で浄霊していたころ、五円もらったので規定より多いからと言ってわざわざ返しに行った者がいた。<br><br>これは実に神様を侮辱した行為だと大いに注意したことがあった。<br><br> 【問】私は今年五月二十六日入信させていただきました。<br><br>末の弟が入隊して間もない昭和十九年十一月、突然喀血し医者の療養五年、病は一進一退のところをこのお道によりお救いいただき、御守護のありがたさに感謝のほかございません。<br><br>そのような御利益をいただきながら、父が心臓弁膜症と腎臓萎縮で昭和二十一年七月死去いたしましたためか、兄が感謝がないのみか、かえって反対であります。<br><br>浄霊は勿論一度もいただきませんし、お話を伺おうともいたしません。<br><br>永い間家を離れて暮らしたためか、親弟妹とも溶け合って親しく話すことができず、なんとなく心の底に溝があるように感じられます。<br><br>いかにいたしたらこのお道のことを解っていただけましょうか。<br><br>無理にも御守りをいただくようにしたなればよろしいでしょうか、それとも黙って時期を待つほうがよろしゅうございましょうか。<br><br> 【答】無論時期を待つのがよい。<br><br>決して無理に判らそうとしたり、本人の自由意志を押えつけたりしてはいけない。<br><br>信仰はある程度霊の曇りが除れぬと入れぬものである。<br><br> 浄霊は、特に先方から頼まぬ以上決してすべきではない。<br><br> 【問】私は去る十二日より御書体から無数の光の文字が出るのを判然と見させていただくようになりました。<br><br>その御書体の中で「真善美」の御額が一番お光が強く見えますが、この御額は五年前ある信者がいただいて表装もでき、お祭りするようにまでなって死んでしまいました。<br><br>それをまたある教導師がいただきお祭りする直前死んでしまいましたので、それを私がいただきお祭りしているのです。<br><br>やはり御書体をいただいてお祭りするには、ある程度浄化された者でなければいけないでしょうか。<br><br> 【答】書体の字の意味によって種々になるのである。<br><br>以前ある弟子に「如意」の字の書を与（や）ったところ、落としてなくしてしまった。<br><br>この字はふつうの人には良すぎるためにそうなったので、それ以来、「如意」という書は与えないことにした。<br><br> 「真善美」の書はだれがいただいても差し支えない。<br><br>これをいただいたために死んだのではないので、死ぬべき運命になっていたのが、それをいただいて霊的に救われたものと解すべきである。<br><br> 【問】先夜、家中揃って光明如来様御礼拝の際に、御神前の恵比須様のほうだけが横に首をふっているのを二度はっきり拝んだのです。<br><br>いかなるわけでしょうか（一度目は首を長くのばし二度目はふつうでした）。<br><br> 【答】大黒様は向かって右、すなわち光明如来様の左へ置くのが本当であるから、その位置に直してもらいたいために、見せたものであろう。<br><br> 【問】人類に最も近似すると言われる猿猴類の憑霊はありましょうか。<br><br> 【答】あるにはあるが、ごく少ない。<br><br>猿猴類の生まれ変わりもあるし、憑依もある。<br><br>私が大本を信仰している当時、そういう人があった。<br><br>当時そうとう有名であった来馬琢道という仏教学者があったが、この人の講演中、アメリカなどで大木が切られ倒れるのを見ていると、自分は悲しくなってしかたがないと言っていたので、私はこの人は猿の生まれ変わりだなと思ったことがある。<br><br>天狗の憑霊は男に多く、狐のそれは女に多い。<br><br> 【問】山口県および九州地方の人は、とかく自分の入信を他人にかくす傾向が非常に多うございますが、これは人間性の問題でしょうか、それともまだ発展の時期になっていないためでしょうか。<br><br> 【答】両地方に限らず、どこでもそうで、これは新聞雑誌などで悪く書いたりするから誤解者が多いので、そういう傾向もある時期まではやむを得ないであろう。<br><br>しかしいずれは反対に信仰するのが、名誉となるようになるから、それまで待つことである。<br><br> 【問】主婦之友新年号の本教の記事は、われわれの知っている本当のことを書いてあるので嬉しく思いました。<br><br>霊主体従の意味から、なぜ男子の読む雑誌が分からず、女子の読む雑誌が早く分かったのでしょう。<br><br> 【答】婦人雑誌社としては、宗教のことは女のほうがより読みたがるという商業主義的考えからであろう。<br><br> 男は唯物思想のほうが多く、宗教を迷信的に観たがる癖がある。<br><br> 【問】落綿加工をする際、綿の種などの屑（くず）が多量に出ますが、これを堆肥として耕作するのはよろしいでしょうか。<br><br> 【答】不可である。<br><br>堆肥は自然のいろいろの枯葉がよい。<br><br> 【問】食糧と健康について、 明主様は御朝食後甘藷を、御就寝前にお茶漬かおしるこをお召し上がりの由うけたまわりましたが、これにはどのような効果がありましょうか。<br><br>また病人が野菜を多食いたしますとき、どういう野菜が一番よろしいでしょうか。<br><br> 【答】これは、栄養が多過ぎるのを調節するためである。<br><br>いまの人は栄養過量のため病気になる人のほうがズッと多い。<br><br>副食物のうち、野菜は霊気が強く、肉や魚は体的栄養である。<br><br> 果物がいけないのは下痢しているときだけである。<br><br> 栄養の根本は、好きなものを食うのが一番よいのである。<br><br>野菜は、日本人には日本の野菜がよい。<br><br> 【問】六十三歳、男、ふだんより頭重く他人に会うのを嫌い、背中に常に悪寒を感じます。<br><br>御浄霊四回にて背中は少々温かみを感ずるようになりましたが、頭の重圧感はとれません。<br><br>この家は以前より真言宗でしたが、先代より日蓮宗に替え、日々の拝礼は日蓮宗、法事などは真言宗で行なっております。<br><br>なにか祖霊の警告でしょうか。<br><br> 【答】祖霊の警告もあるし、浄化もある。<br><br> 日蓮宗と真言宗とまぜこぜにすると、祖霊としては両方へ行かなくてはならぬし、中には日蓮宗を嫌がる霊もあるから、真言宗一つにしたほうがよい。<br><br>日蓮宗は一代法華と言われ、一代限りでやめてもよいのである。<br><br> 【問】私は十年以前入院、ひどく尿道が痛み人事不省となったこともあり、終戦後もしばしば悩みつつおりましたところ、最近は御浄霊をいただき心持ちが追々よくなりますので一昨年十月入信、引き続き家族四人とも入信いたし、光明如来様をお迎えいたし、家内一同で御守護をお願いをいたしましたところ、昨年夏ごろからたいへん楽になり、少しは歩けるようになり喜んでおりました。<br><br>本年七月末ごろからまた浄化をいただき、追々尿道の痛みを増し堪えきれないくらいになりました。<br><br>毎日浄霊はかかさず主人（教導師）には、二、三日ごとに教導所の先生にもお願いして浄霊をいただいておりますが、浄化が烈しく毎日泣かんばかりでおります。<br><br>なにか霊的の関係でございましょうか。<br><br>快癒いたしましょうか。<br><br> 【答】霊的ではない。<br><br>元は淋病で、前に使用した薬毒が滲み込んでいて、毒素に変化し少しずつ出てくる。<br><br>それが尿道粘膜を破って出るので、そこへ尿が参みて痛むのである。<br><br>再浄化は何遍も起るが、そのたびに前より良くなり、だんだん治るので、いま少し辛抱すれば必ず治る。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Luz da Sabedoria: Esclarecimentos de Meishu-Sama</h2>
 <p><strong>Pergunta:</strong> Ao cavar uma fossa para armazenar batatas no jardim, encontrei algo que pareciam ser ossos humanos. Sentindo-me perturbado, enterrei-os secretamente em outro lugar. Creio que, se continuar a cavar, encontrarei mais ossos. Como devo proceder?</p>
@@ -130,5 +282,48 @@ function toggleLang(lang) {
 <p><strong>Resposta:</strong> Pode haver um aviso dos antepassados, mas há também um processo de purificação em curso. A mistura da seita Nichiren com a Shingon obriga os espíritos dos antepassados a transitarem entre ambas, e alguns deles podem não ter afinidade com a Nichiren. Seria melhor unificar a prática religiosa na seita Shingon. A Nichiren é conhecida como “Hokke de uma geração”, o que significa que não há problema em abandonar sua prática após uma geração.</p>
 <p><strong>Pergunta:</strong> Há dez anos, fui hospitalizada com dores excruciantes na uretra, chegando a perder a consciência. Após o fim da guerra, continuei a sofrer com crises recorrentes. Recentemente, comecei a receber Johrei e, sentindo uma melhora gradual, ingressei na fé em outubro do ano retrasado. Em seguida, os outros quatro membros da minha família também se tornaram membros, e recebemos a Imagem da Luz Divina em nosso lar. Passamos a rogar juntos pela proteção divina e, no verão do ano passado, senti um grande alívio, podendo até caminhar um pouco, o que me trouxe imensa alegria. Contudo, no final de julho deste ano, uma nova purificação se iniciou, e as dores na uretra se intensificaram a um ponto quase insuportável. Recebo Johrei diariamente de meu marido, que é ministro, e a cada dois ou três dias recorro também ao ministro responsável pela Casa de Johrei. Mesmo assim, a purificação é tão severa que passo os dias à beira das lágrimas. Haveria alguma causa espiritual? Serei curada?</p>
 <p><strong>Resposta:</strong> A causa não é espiritual. A origem do problema é uma gonorreia, e as toxinas dos medicamentos utilizados no passado se infiltraram no organismo, transformaram-se em focos de toxina e agora estão sendo eliminadas gradualmente. A dor ocorre porque essas toxinas rompem a mucosa da uretra ao saírem, e a urina irrita a área afetada. Purificações recorrentes ocorrerão várias vezes, mas a cada uma delas seu estado se tornará melhor que o anterior, e a cura se aproxima progressivamente. Se perseverar mais um pouco, certamente ficará curada.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 妙智の光 『地上天国』16号、昭和25(1950)年8月15日発行 【問】庭にいも穴を掘ったとき人骨らしきものが出てきました。<br/><br/>気味悪いので内緒でそれを他の場所に埋めました。<br/><br/>まだ掘ればそこに骨があると思います。<br/><br/>いかがいたしたらよろしいでしょうか。<br/><br/> 【答】すでに掘った骨は清い所へ埋め、垣根でも作って人の踏まぬようにし、祝詞を奏げ幽世の大神様によくお願いしてやるとよい。<br/><br/>大きな功徳になる。<br/><br/> 【問】浄の御守り様の「ヽ」の意味について。<br/><br/> 【答】天から最高の神霊が下った姿が「ヽ」である。<br/><br/>大本教では一厘の霊と言っている。<br/><br/> 【問】芸術などする人の人格が高級でない場合が多いのはどういうわけでしょうか。<br/><br/> 【答】まったくである。<br/><br/>芸術家で、人格の低い者が割合多い。<br/><br/>しかし深く考えると無理のない点がある。<br/><br/>昔のほうがズーッと立派な人が多かったのに引きかえ、今日はそうでないのは、一番の原因は経済問題で、生活に追われると、思うように練って作ることができない。<br/><br/>それが芸術の堕落となる。<br/><br/>まだ戦争前は、財閥富豪などが芸術家を擁護したもので、そのころは優れた芸術家が出たのである。<br/><br/> 【問】行為は人格の現われと考えられるときと、その反対に考えられるときとありますが、どちらが本当でしょうか。<br/><br/> 【答】人格の表われが本当である。<br/><br/>反対に考えられるのは、人格と逆であるからで、これは本当ではない。<br/><br/>しかし世の中には、人格を高潔に見せようと努むる者がたくさんあり、これがかえって偉い人に思われる場合もあるが、これは長くは続かない。<br/><br/>一番肝腎なことは、小乗と大乗を弁（わきま）えることである。<br/><br/>小乗的に偉く見えるのは本当でない。<br/><br/>本当の人格者は、全人類の幸福を念願する。<br/><br/>世界主義的の人である。<br/><br/> 【問】霊子と原子について、 （イ）原子記号で酸素は８、水素は１、窒素は７でありますが、酸素、水素、窒素を火水土として考えるとき、五六七の数字と原子記号の８１７の数字とに、なにか関係がありましょうか。<br/><br/> （ロ）霊子が化学者の手によって発見実証されるとすれば、それは神霊放射能中と存じますが、原子核中よりも発見されましょうか。<br/><br/> （ハ）原子界の霊の部面が想念界になるとのお説から推理いたしまして「電子の霊――無線」の活用のごとく、原子の霊の活用により、全世界人類が想念による通信ができるようになるときがまいりましょうか。<br/><br/> 【答】 （イ）関係はあるが、原子記号は絶対のものではない。<br/><br/>今後まだまだ変わる。<br/><br/>未発見の原子もたくさんある。<br/><br/> （ロ）原子核は物質のほうである。<br/><br/>物質の霊子はまだ荒い。<br/><br/>原子核の発見はもっと分裂する。<br/><br/>原子核の中からも霊子を発見する。<br/><br/>また霊子核の中からも極霊子を発見する。<br/><br/> （ハ）いまに想念の無線電波時代が来る。<br/><br/>例えば、空中に字を書くとか話するとかすると、何千里先までも通じたり感じたりする。<br/><br/>これはいまでも、ある程度はある。<br/><br/>人心の機微をつかむなどというのはそうで、政治家なども、この人心の機微をつかむことが重要である。<br/><br/> 【問】御浄霊を施療でやってあげるのはいかにも美しい行為のように思えますが、これは夜の世界における慈悲の考え方であって、正しい意味の救いにはならないものでしょうか。<br/><br/> 【答】浄霊をして、御礼をもらわぬということは本当ではない。<br/><br/>しかし特別の理由があればやむを得ないが、その人の身分相応で、少しでも余裕があればお礼を上げるのが本当である。<br/><br/>浄霊する教師とても無論人間である以上、生活しなければならないからもらうべきである。<br/><br/>かつて私が浄霊に従事したころ、このことを聞かれたとき、私は答えた。<br/><br/>浄霊により生命が助けられたのだから、本来ならば全財産の半分くらい上げてもいいわけである。<br/><br/>この意味で私は手数料しかもらっていない。<br/><br/>浄霊に対する御礼はまだもらったことはないと。<br/><br/>また先に弟子で一回一円の料金で浄霊していたころ、五円もらったので規定より多いからと言ってわざわざ返しに行った者がいた。<br/><br/>これは実に神様を侮辱した行為だと大いに注意したことがあった。<br/><br/> 【問】私は今年五月二十六日入信させていただきました。<br/><br/>末の弟が入隊して間もない昭和十九年十一月、突然喀血し医者の療養五年、病は一進一退のところをこのお道によりお救いいただき、御守護のありがたさに感謝のほかございません。<br/><br/>そのような御利益をいただきながら、父が心臓弁膜症と腎臓萎縮で昭和二十一年七月死去いたしましたためか、兄が感謝がないのみか、かえって反対であります。<br/><br/>浄霊は勿論一度もいただきませんし、お話を伺おうともいたしません。<br/><br/>永い間家を離れて暮らしたためか、親弟妹とも溶け合って親しく話すことができず、なんとなく心の底に溝があるように感じられます。<br/><br/>いかにいたしたらこのお道のことを解っていただけましょうか。<br/><br/>無理にも御守りをいただくようにしたなればよろしいでしょうか、それとも黙って時期を待つほうがよろしゅうございましょうか。<br/><br/> 【答】無論時期を待つのがよい。<br/><br/>決して無理に判らそうとしたり、本人の自由意志を押えつけたりしてはいけない。<br/><br/>信仰はある程度霊の曇りが除れぬと入れぬものである。<br/><br/> 浄霊は、特に先方から頼まぬ以上決してすべきではない。<br/><br/> 【問】私は去る十二日より御書体から無数の光の文字が出るのを判然と見させていただくようになりました。<br/><br/>その御書体の中で「真善美」の御額が一番お光が強く見えますが、この御額は五年前ある信者がいただいて表装もでき、お祭りするようにまでなって死んでしまいました。<br/><br/>それをまたある教導師がいただきお祭りする直前死んでしまいましたので、それを私がいただきお祭りしているのです。<br/><br/>やはり御書体をいただいてお祭りするには、ある程度浄化された者でなければいけないでしょうか。<br/><br/> 【答】書体の字の意味によって種々になるのである。<br/><br/>以前ある弟子に「如意」の字の書を与（や）ったところ、落としてなくしてしまった。<br/><br/>この字はふつうの人には良すぎるためにそうなったので、それ以来、「如意」という書は与えないことにした。<br/><br/> 「真善美」の書はだれがいただいても差し支えない。<br/><br/>これをいただいたために死んだのではないので、死ぬべき運命になっていたのが、それをいただいて霊的に救われたものと解すべきである。<br/><br/> 【問】先夜、家中揃って光明如来様御礼拝の際に、御神前の恵比須様のほうだけが横に首をふっているのを二度はっきり拝んだのです。<br/><br/>いかなるわけでしょうか（一度目は首を長くのばし二度目はふつうでした）。<br/><br/> 【答】大黒様は向かって右、すなわち光明如来様の左へ置くのが本当であるから、その位置に直してもらいたいために、見せたものであろう。<br/><br/> 【問】人類に最も近似すると言われる猿猴類の憑霊はありましょうか。<br/><br/> 【答】あるにはあるが、ごく少ない。<br/><br/>猿猴類の生まれ変わりもあるし、憑依もある。<br/><br/>私が大本を信仰している当時、そういう人があった。<br/><br/>当時そうとう有名であった来馬琢道という仏教学者があったが、この人の講演中、アメリカなどで大木が切られ倒れるのを見ていると、自分は悲しくなってしかたがないと言っていたので、私はこの人は猿の生まれ変わりだなと思ったことがある。<br/><br/>天狗の憑霊は男に多く、狐のそれは女に多い。<br/><br/> 【問】山口県および九州地方の人は、とかく自分の入信を他人にかくす傾向が非常に多うございますが、これは人間性の問題でしょうか、それともまだ発展の時期になっていないためでしょうか。<br/><br/> 【答】両地方に限らず、どこでもそうで、これは新聞雑誌などで悪く書いたりするから誤解者が多いので、そういう傾向もある時期まではやむを得ないであろう。<br/><br/>しかしいずれは反対に信仰するのが、名誉となるようになるから、それまで待つことである。<br/><br/> 【問】主婦之友新年号の本教の記事は、われわれの知っている本当のことを書いてあるので嬉しく思いました。<br/><br/>霊主体従の意味から、なぜ男子の読む雑誌が分からず、女子の読む雑誌が早く分かったのでしょう。<br/><br/> 【答】婦人雑誌社としては、宗教のことは女のほうがより読みたがるという商業主義的考えからであろう。<br/><br/> 男は唯物思想のほうが多く、宗教を迷信的に観たがる癖がある。<br/><br/> 【問】落綿加工をする際、綿の種などの屑（くず）が多量に出ますが、これを堆肥として耕作するのはよろしいでしょうか。<br/><br/> 【答】不可である。<br/><br/>堆肥は自然のいろいろの枯葉がよい。<br/><br/> 【問】食糧と健康について、 明主様は御朝食後甘藷を、御就寝前にお茶漬かおしるこをお召し上がりの由うけたまわりましたが、これにはどのような効果がありましょうか。<br/><br/>また病人が野菜を多食いたしますとき、どういう野菜が一番よろしいでしょうか。<br/><br/> 【答】これは、栄養が多過ぎるのを調節するためである。<br/><br/>いまの人は栄養過量のため病気になる人のほうがズッと多い。<br/><br/>副食物のうち、野菜は霊気が強く、肉や魚は体的栄養である。<br/><br/> 果物がいけないのは下痢しているときだけである。<br/><br/> 栄養の根本は、好きなものを食うのが一番よいのである。<br/><br/>野菜は、日本人には日本の野菜がよい。<br/><br/> 【問】六十三歳、男、ふだんより頭重く他人に会うのを嫌い、背中に常に悪寒を感じます。<br/><br/>御浄霊四回にて背中は少々温かみを感ずるようになりましたが、頭の重圧感はとれません。<br/><br/>この家は以前より真言宗でしたが、先代より日蓮宗に替え、日々の拝礼は日蓮宗、法事などは真言宗で行なっております。<br/><br/>なにか祖霊の警告でしょうか。<br/><br/> 【答】祖霊の警告もあるし、浄化もある。<br/><br/> 日蓮宗と真言宗とまぜこぜにすると、祖霊としては両方へ行かなくてはならぬし、中には日蓮宗を嫌がる霊もあるから、真言宗一つにしたほうがよい。<br/><br/>日蓮宗は一代法華と言われ、一代限りでやめてもよいのである。<br/><br/> 【問】私は十年以前入院、ひどく尿道が痛み人事不省となったこともあり、終戦後もしばしば悩みつつおりましたところ、最近は御浄霊をいただき心持ちが追々よくなりますので一昨年十月入信、引き続き家族四人とも入信いたし、光明如来様をお迎えいたし、家内一同で御守護をお願いをいたしましたところ、昨年夏ごろからたいへん楽になり、少しは歩けるようになり喜んでおりました。<br/><br/>本年七月末ごろからまた浄化をいただき、追々尿道の痛みを増し堪えきれないくらいになりました。<br/><br/>毎日浄霊はかかさず主人（教導師）には、二、三日ごとに教導所の先生にもお願いして浄霊をいただいておりますが、浄化が烈しく毎日泣かんばかりでおります。<br/><br/>なにか霊的の関係でございましょうか。<br/><br/>快癒いたしましょうか。<br/><br/> 【答】霊的ではない。<br/><br/>元は淋病で、前に使用した薬毒が滲み込んでいて、毒素に変化し少しずつ出てくる。<br/><br/>それが尿道粘膜を破って出るので、そこへ尿が参みて痛むのである。<br/><br/>再浄化は何遍も起るが、そのたびに前より良くなり、だんだん治るので、いま少し辛抱すれば必ず治る。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

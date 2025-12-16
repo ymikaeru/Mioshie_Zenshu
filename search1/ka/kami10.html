@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kami10</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神と仏 『信仰雑話』P.65、昭和23(1948)年9月5日発行 昔から神仏同根という言葉がある、それについて私は解釈してみよう。<br><br> 釈尊に向って一弟子が「仏法を一言で言い表わされたい」と御質（たず）ねしたところ、釈尊は即座に「仏法を一言にしていえば真如（しんにょ）である」と申された。<br><br>真如とは真如の月、すなわち夜の光明という意味であろう。<br><br>また印度は古い頃は月氏国ともいった。<br><br> ある日釈尊は憂欝に堪えぬ御様子なので、弟子の一人が心配のあまり御質ねした。<br><br>ところが釈尊は「実は儂がこれ程苦心して説いたこの仏法も、いずれは滅する時が来る事が判ったので失望したのである」と申された。<br><br>その後法滅尽経を、次に弥勒出現成就経を説かれたという事である。<br><br>また釈尊が申されるには「吾七十二歳にして見真実となった、故に今日までの経文は完全ではないが、今後説くところの経文こそ真理であって、決して誤りはない」との事で、それから御説きになったのが法華経二十八品で、二十五番目が観音普門品である。<br><br>彼の日蓮上人はこの事を知って、法華経こそ仏法の真髄であるとなし、熱烈なる信念をもって法華経の弘通に当られたという事である。<br><br> 次にこういうおもしろい話がある。<br><br>観世音菩薩の御本体であるが、今日まで菩薩に限り御秘仏として非常に神秘にされていたが、私の研究によれば、菩薩は日本のある神様であって、邪神の迫害を受け、御身に危険が迫ったので、やむなく日本を後に印度に逃避行され、印度の南方の海に近き補陀落迦山（ほだらかさん）という山頂に一堂宇を建てられ、南海大士または観自在菩薩という御名の下に教えを説かれた。<br><br>華厳経に「南方に普陀落と呼ぶ山あり。<br><br>観自在菩薩いませり。<br><br>時を得て善財童子が遊行してその山の頂に上り、菩薩を訪ねて会う事が出来た。<br><br>その地は樹木生い茂り、処々に流泉と湿地があり、その中心のいとも軟かき草地の上の金剛宝座に、観自在菩薩は結跏趺座され、多くの聖者達に恭敬されながら大慈悲経を説諭されて居た」とあり、「その時の侍者として二十八部衆居り、大弁財天、大梵天王、帝釈天王、金色孔雀王、毘舎〔沙〕門天、阿修羅王等の外ナーラーヤナ金剛、ワジラバーニ金剛の兄弟二人（これは仁王尊である）等の諸天である」とあるが、善財童子とは釈尊の事であろう。<br><br> 菩薩が日本人であるという事は、黒髪を肩に垂れさせて居らるる事と、御面は日本人型であり、御本体は一寸八分の黄金仏である点で、日本は黄金の国と昔からいわれている。<br><br>また王冠、首飾り、腕輪等によってみると、高貴な御方であった事が察せられる。<br><br>頭巾や白衣を纏（まと）われて居られるのは逃避の際の御忍び姿と察せられる。<br><br>しかるに釈尊も阿弥陀如来（最初の御名は法蔵菩薩）も頭髪が縮れているのは、印度の御出生であるとおもわれる。<br><br>ちなみに法蔵菩薩は釈尊に対面し「吾西方へ浄土を作るにより、今後御弟子の中、仏になった者から右の浄土へ寄越されたい。<br><br>しからば仏達を寂光の浄土に長く安住させるであろう」と約束された。<br><br>寂光とは寂しき光であるから、月光に照された善地であろう。<br><br>そうして大日如来は天照大御神、釈迦如来は稚姫君尊（わかひめぎみのみこと）という女神であり（釈尊は「吾は変性女子なり」と言われた）、阿弥陀如来は月読尊（つくよみのみこと）であるというように、それぞれ神が仏に化身されて世を救われたのであり、神典にある五男三女は八大龍王となり、釈尊から封じられたという伝説がある。<br><br>これらは神が龍神に変じてミロクの世の来るのを待たれたので、その他それぞれの神々は大方化仏（けぶつ）されたのである。<br><br>以上のごとく神が仏に化身された期間が夜の世界で、昼の世界になると同時に、また元の神格に戻らせ給うのである。<br><br> 仏法の発祥地である印度においては、三億五千万の人口に対し、今日仏教信者は三十数万人でありしかも年々減少の傾向にあるというに到っては、仏滅は印度において如実に表われており、全く釈尊の予言は的中した訳であるから、仏滅後弥勒の世が来る事も的中しなければならない筈であると私は信ずるのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Essência Una de Deuses e Budas</h2>
 <p>Existe, desde tempos remotos, a expressão de que “deuses e budas possuem a mesma raiz”. Permito-me, pois, apresentar a minha interpretação sobre o assunto.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Diversos indícios apontam para a origem japonesa do Bodhisattva. Seus cabelos negros caem sobre os ombros, suas feições são tipicamente japonesas, e sua imagem original é uma estátua de ouro de 1,8 <em>sun</em> (cerca de 5,45 cm), o que se alinha à antiga fama do Japão como a “Terra do Ouro”. Ademais, a coroa, o colar e os braceletes que ostenta sugerem sua linhagem nobre. O capuz e as vestes brancas podem ser interpretados como um disfarce utilizado durante sua fuga. Em contrapartida, tanto Shakyamuni quanto Amida Nyorai (阿弥陀如来) — cujo nome original era Hōzō Bosatsu — são representados com cabelos encarapinhados, o que denota sua procedência indiana. A propósito, Hōzō Bosatsu, ao se encontrar com Shakyamuni, firmou o seguinte pacto: “Estabelecerei uma Terra Pura no Oeste. Peço que, doravante, envieis para lá vossos discípulos que atingirem o estado de Buda. Assim, farei com que os budas residam em paz e por longo tempo na Terra Pura da Luz Serena”. A Luz Serena, ou <em>Jakkō</em>, remete a um lugar aprazível banhado pelo luar.</p>
 <p>Com efeito, os deuses manifestaram-se como budas para salvar o mundo. Dainichi Nyorai (大日如来) é a manifestação de Amaterasu Oomikami; Shaka Nyorai (釈迦如来), da deusa Wakahimegimi no Mikoto (稚姫君尊) — o que corrobora a afirmação de Shakyamuni: “Eu sou uma mulher transfigurada” —; e Amida Nyorai, de Tsukuyomi no Mikoto (月読尊). Existe ainda a lenda de que os cinco filhos e as três filhas mencionados nas escrituras xintoístas tornaram-se os Oito Grandes Reis Dragões, selados por Shakyamuni. Isso significa que os deuses se transformaram em divindades-dragão, aguardando o advento da Era de Miroku. De modo semelhante, as demais divindades, em sua maioria, assumiram formas búdicas transitórias. O período em que os deuses se manifestaram como budas corresponde à Era da Noite. Com o advento da Era do Dia, eles retornam, simultaneamente, à sua condição divina original.</p>
 <p>Na Índia, berço do budismo, de uma população de trezentos e cinquenta milhões de habitantes, os seguidores do budismo hoje somam pouco mais de trezentos mil, um número que, ademais, decresce anualmente. A extinção do budismo em sua terra natal evidencia o irrefutável cumprimento da profecia de Shakyamuni. Sendo assim, creio firmemente que a sua outra profecia — a de que, após a extinção de seus ensinamentos, adviria a Era de Miroku — também haverá de se concretizar.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神と仏 『信仰雑話』P.65、昭和23(1948)年9月5日発行 昔から神仏同根という言葉がある、それについて私は解釈してみよう。<br/><br/> 釈尊に向って一弟子が「仏法を一言で言い表わされたい」と御質（たず）ねしたところ、釈尊は即座に「仏法を一言にしていえば真如（しんにょ）である」と申された。<br/><br/>真如とは真如の月、すなわち夜の光明という意味であろう。<br/><br/>また印度は古い頃は月氏国ともいった。<br/><br/> ある日釈尊は憂欝に堪えぬ御様子なので、弟子の一人が心配のあまり御質ねした。<br/><br/>ところが釈尊は「実は儂がこれ程苦心して説いたこの仏法も、いずれは滅する時が来る事が判ったので失望したのである」と申された。<br/><br/>その後法滅尽経を、次に弥勒出現成就経を説かれたという事である。<br/><br/>また釈尊が申されるには「吾七十二歳にして見真実となった、故に今日までの経文は完全ではないが、今後説くところの経文こそ真理であって、決して誤りはない」との事で、それから御説きになったのが法華経二十八品で、二十五番目が観音普門品である。<br/><br/>彼の日蓮上人はこの事を知って、法華経こそ仏法の真髄であるとなし、熱烈なる信念をもって法華経の弘通に当られたという事である。<br/><br/> 次にこういうおもしろい話がある。<br/><br/>観世音菩薩の御本体であるが、今日まで菩薩に限り御秘仏として非常に神秘にされていたが、私の研究によれば、菩薩は日本のある神様であって、邪神の迫害を受け、御身に危険が迫ったので、やむなく日本を後に印度に逃避行され、印度の南方の海に近き補陀落迦山（ほだらかさん）という山頂に一堂宇を建てられ、南海大士または観自在菩薩という御名の下に教えを説かれた。<br/><br/>華厳経に「南方に普陀落と呼ぶ山あり。<br/><br/>観自在菩薩いませり。<br/><br/>時を得て善財童子が遊行してその山の頂に上り、菩薩を訪ねて会う事が出来た。<br/><br/>その地は樹木生い茂り、処々に流泉と湿地があり、その中心のいとも軟かき草地の上の金剛宝座に、観自在菩薩は結跏趺座され、多くの聖者達に恭敬されながら大慈悲経を説諭されて居た」とあり、「その時の侍者として二十八部衆居り、大弁財天、大梵天王、帝釈天王、金色孔雀王、毘舎〔沙〕門天、阿修羅王等の外ナーラーヤナ金剛、ワジラバーニ金剛の兄弟二人（これは仁王尊である）等の諸天である」とあるが、善財童子とは釈尊の事であろう。<br/><br/> 菩薩が日本人であるという事は、黒髪を肩に垂れさせて居らるる事と、御面は日本人型であり、御本体は一寸八分の黄金仏である点で、日本は黄金の国と昔からいわれている。<br/><br/>また王冠、首飾り、腕輪等によってみると、高貴な御方であった事が察せられる。<br/><br/>頭巾や白衣を纏（まと）われて居られるのは逃避の際の御忍び姿と察せられる。<br/><br/>しかるに釈尊も阿弥陀如来（最初の御名は法蔵菩薩）も頭髪が縮れているのは、印度の御出生であるとおもわれる。<br/><br/>ちなみに法蔵菩薩は釈尊に対面し「吾西方へ浄土を作るにより、今後御弟子の中、仏になった者から右の浄土へ寄越されたい。<br/><br/>しからば仏達を寂光の浄土に長く安住させるであろう」と約束された。<br/><br/>寂光とは寂しき光であるから、月光に照された善地であろう。<br/><br/>そうして大日如来は天照大御神、釈迦如来は稚姫君尊（わかひめぎみのみこと）という女神であり（釈尊は「吾は変性女子なり」と言われた）、阿弥陀如来は月読尊（つくよみのみこと）であるというように、それぞれ神が仏に化身されて世を救われたのであり、神典にある五男三女は八大龍王となり、釈尊から封じられたという伝説がある。<br/><br/>これらは神が龍神に変じてミロクの世の来るのを待たれたので、その他それぞれの神々は大方化仏（けぶつ）されたのである。<br/><br/>以上のごとく神が仏に化身された期間が夜の世界で、昼の世界になると同時に、また元の神格に戻らせ給うのである。<br/><br/> 仏法の発祥地である印度においては、三億五千万の人口に対し、今日仏教信者は三十数万人でありしかも年々減少の傾向にあるというに到っては、仏滅は印度において如実に表われており、全く釈尊の予言は的中した訳であるから、仏滅後弥勒の世が来る事も的中しなければならない筈であると私は信ずるのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

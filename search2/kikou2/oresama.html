@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>oresama</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 俺 様 百地超生 『地上天国』35号、昭和27(1952)年4月25日発行 これは大本信者時代の話だが、 「お筆先なんか 百も承知の俺様だ ただ実行が出来ないだけさ」 これは昔の笑冠句である。<br><br>他にも「お筆先の実行者素裸である。<br><br>但し夏だけハックショイ」というのもあったが、以前、明主様が御かきになった事のある大本時代の奇行の士カンカン先生の例の如く、凡俗がお筆先を直訳的に実行するには現代生活と遊離した異様な生活様式をせねばならなかった。<br><br>この句はお筆先なるものが、厳正に過ぎて万人の行い難きをヒューマニティに皮肉られたものでもあろうし、何事も知り尽したつもりで得々たる人間性の浅薄薄弱な自我的心理の盲点を笑化されたものであろう。<br><br> 私はよく右の最初の句を想い出し、「お筆先」を現在の「御神書」なり「御教」なりに置替えては、自分に実にピッタリしていると切実に思うのである。<br><br>これ程長い間信仰して御教は百も承知のつもりの俺様も、肝腎の実行力においては殆んど零で、ただ御教の智識者にすぎぬ事を発見する時、つくづく情なくなり、全くイヤになってしまう。<br><br>そういう際に、明主様はよく御言葉を賜う。<br><br> 『自分がイヤになったという事は、新しいより良い自分が生れ、古い自分に対する批判力が出たのだから大変結構な事だ。<br><br>人間は誰しも第二の自分を作らねばならぬ』と。<br><br>大いに勇気づけ退嬰をお戒め下さる。<br><br>それは失意すべき事ではなかったのだ。<br><br>全くお蔭である。<br><br>有難い事である。<br><br> 人間は、血気旺んな頃は大いに俺様的自意識を発揮する。<br><br>それで案外調子よく成功すると、世の中を甘く見誤り、俺様の価値を実質以上に過信して、遂には無理をしたり、宿命の枠を越そうとしたりしては大失敗をする。<br><br>ここで大いに自分の無力を知り、誤りに気づけばいいが、執着と情勢に押されて、大いに挽回を焦って益々失敗の溝を深め、遂には滅ぶ者も少くない。<br><br>これは古来人間運命の一定型であり、定石である。<br><br>そうして数々の失敗や苦しみによって流石の俺様もモミクチャにされ、最も小さくなった時初めて自己の真価を知るのであるから、本当の自分を知るのは、なかなか大変な事である。<br><br>そして自分の真価こそ結局は馬鹿の二字に帰するを知って初めて真実を見るのである。<br><br>以前明主様がお褒めになった。<br><br> 「馬鹿野郎よく考えりや俺の事」という句は実にこの悟りの哲理を歌われた不朽の名句である。<br><br> このようにして自己を知り、新しい自己を作りつつ信仰も人間も向上して行くのであって、俺様的臭気の強い程未成品の人格といえるであろう。<br><br>たしかに頭の悪い人程、自我の匂いが強いようであるが、やはり毒素多量の為、自己を見る脳力を塞がれているのであろう。<br><br> 俺様意識は失敗の因をなすとはいえ、一面なかなか大きい働きもするので、あまり悟って無くしてしまったんでは活動力を失う。<br><br>やはりなくてはならぬものなのだ。<br><br>ただそれはどこまでも強い善で、出来るだけ大きくし、恰（あた）かも全く無くなったかの如く見える程溶け込めばいいのである。<br><br> 人間社会を最も不快に騒々しくしていをものに俺様と俺様の衝突がある。<br><br>これも一つの進歩の過程として止むを得ぬ事ともいえようが、人間が大いに自負し、必死にこだわりたがる俺様なるものは幸福の道を阻害している、案外つまらぬものである。<br><br>少くとも黴菌にビクビクしたり、糞尿を有難がっているだけでも、大きい顔は出来ぬ訳である。<br><br> 厄介なのは今の社会の大部分を占むる唯物主義の俺様達だ。<br><br>これは一切が霊と体で成り霊が主であるという平凡な真理を知らず、あえて形体だけしかないとし、しかもそのような非真理を真理に見せかけるべく、貴重な生涯をかけて迷信養成に努力して地獄への道を造っている頑迷な迷信家で、たとえ浄霊の偉力を実際にみせても判らぬ哀れ変質的頭脳である。<br><br>勿論、神は目に見えぬから無いと豪語しているが、善の根本は神であり、悪の根本は悪魔である以上、神を否定するのは善を否定する事になるのだから、彼等は悪人という事になり悪魔的心の持主でないとはいえぬ訳である。<br><br> こういう連中の内には、新宗教を目の仇のように思っているものがあり、迷信打破に偉力を揮っている本教さえ迷信邪教とし、極力パリサイ的迫害の先鋒を勤めたのもこの種族である。<br><br>そしてこのような神を無視した俺様種族が、医学、農業、逆理等の迷信を育成し、収拾もつかぬ悲惨な結果を生んだが、いよいよ始まった文化革命の前駆的爆弾投下即ち、かような危機も易々として一挙に解決出来る、超高度の農学医学の真理の開明と、これを裏付ける破天荒なる実験記録をみたら、如何にコチコチの唯物思想も窒息昏倒し、流石の俺様も一ぺんに影が薄くなるであろう。<br><br>何と物凄い言霊の力である。<br><br> これでもまだ目が醒めぬ連中は、今夏出現する世界最高の美術館を見たら何と言うであろう。<br><br>これこそ紛れもなくすぐ目に見える形ある神業の驚異であるから、まさかこれでも迷信邪教の所産という程の盲目者はないであろう。<br><br>しかもこれが内外讃仰の的となり、海外からも参観者跡を絶たすとなれば、イヤでも応でも眼が醒めて、人間以上の力の主を認めざるを得なくなるであろう。<br><br>そしてこれらはホンの三番叟（さんばそう）で、未だまだ膨大な経綸が次々と形となって表われてくるのだから、その時になって顎を外したり、腰を抜かしたり、フンノビたりする事のないよう、今から用意あってしかるべきである。<br><br> 今迄多年、本教に浴せられた悪評をお聞きになると、明主様はいつも大笑いせられていたが、形に表われねば判らぬ俺様どもの盲目さをお笑いになられたのであろう。<br><br>吾々とても入信して神の御光に照されてみると、今迄相当なもののつもりだった俺様も、実は恐るべき迷信家だったり、人間の形をした毒の塊りだったり、四つ足のサック様だった事が段々ハッキリ判ってくる。<br><br>全く高度の文明人、万物の霊長と誇る人間様なるものも神様から御覧になれば、虫ケラかアミーバに等しい情ないものなんである。<br><br>この下等生物の境涯から脱せしめ、人間並に高め生を楽しましめて下さる為のメシヤの出現であり、文化の革命である。<br><br>人間はただ素直になってこのメシヤの大慈悲にお縋りして、一日も早く幸福人間になるべきだと思う。<br><br> 明主様のお仕事の悉くは、人為の限界を越えた実証を以てこの世に神が在すか在さぬかをはっきり示さるる大神業でもある。<br><br>そして今後この神業が加速度を以て進展し、神の御光が日に月に強く放たれ給うにつれて絶対の力もてすべての物の狂いは釐（ただ）されていくと共に、誤った俺様観念はいよいよ青息吐息、畏縮していくのみで、遂には滅消せざるを得ぬであろう。<br><br>そうして新しい人間として生れ代る時初めて病も貧も争もなくなり、歓喜悦楽の新文明世界は生れるであろう。<br><br>吾等は今こそ御教の声に目ざめ、滅すべき迷信に固まった俺様とは別の神の子として更生し得る魂の種子を培わねばならない。<br><br> 病気を滅せねばならぬ事も、 農業を発展させ、借金をなくし、金詰りを解消せねばならぬ事も、 平和を実現せねばならぬ事も、 思想を善化し、社会悪や犯罪をなくさねばならぬ事も、 百も承知の俺様だ。<br><br> 「ただ実現が出来ないばかりか、益々悪化するばかりで、どうにもならぬだけだ」という外すべない俺様達に、メシヤ教信徒は言うであろう。<br><br> 「そんな事は、朝飯前のメシヤ様だ。<br><br> ただ、君達がまだ麻酔からさめないだけだ。<br><br> しかし、醒めるか滅ぶかという時は、刻々動いているのだ」と。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Ilusão do “Eu” Soberano</h2>
 <p>Esta é uma lembrança dos meus tempos como membro da Oomoto. Havia um antigo e cômico poema que dizia:</p>
@@ -126,5 +278,48 @@ De tudo isso, eu, em minha soberba, já tenho pleno conhecimento.</p>
 <p>“O problema é que não apenas sou incapaz de realizar qualquer uma dessas coisas, como a situação só piora, e não há absolutamente nada que eu possa fazer.”</p>
 <p>A esses “eus” soberanos e impotentes, os membros da Igreja Messiânica responderão:</p>
 <p>“Para o Messias, tudo isso é mais simples que o desjejum. Ocorre que vocês ainda não despertaram da anestesia. Contudo, o tempo para escolher entre despertar ou perecer avança, a cada instante.”</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 俺 様 百地超生 『地上天国』35号、昭和27(1952)年4月25日発行 これは大本信者時代の話だが、 「お筆先なんか 百も承知の俺様だ ただ実行が出来ないだけさ」 これは昔の笑冠句である。<br/><br/>他にも「お筆先の実行者素裸である。<br/><br/>但し夏だけハックショイ」というのもあったが、以前、明主様が御かきになった事のある大本時代の奇行の士カンカン先生の例の如く、凡俗がお筆先を直訳的に実行するには現代生活と遊離した異様な生活様式をせねばならなかった。<br/><br/>この句はお筆先なるものが、厳正に過ぎて万人の行い難きをヒューマニティに皮肉られたものでもあろうし、何事も知り尽したつもりで得々たる人間性の浅薄薄弱な自我的心理の盲点を笑化されたものであろう。<br/><br/> 私はよく右の最初の句を想い出し、「お筆先」を現在の「御神書」なり「御教」なりに置替えては、自分に実にピッタリしていると切実に思うのである。<br/><br/>これ程長い間信仰して御教は百も承知のつもりの俺様も、肝腎の実行力においては殆んど零で、ただ御教の智識者にすぎぬ事を発見する時、つくづく情なくなり、全くイヤになってしまう。<br/><br/>そういう際に、明主様はよく御言葉を賜う。<br/><br/> 『自分がイヤになったという事は、新しいより良い自分が生れ、古い自分に対する批判力が出たのだから大変結構な事だ。<br/><br/>人間は誰しも第二の自分を作らねばならぬ』と。<br/><br/>大いに勇気づけ退嬰をお戒め下さる。<br/><br/>それは失意すべき事ではなかったのだ。<br/><br/>全くお蔭である。<br/><br/>有難い事である。<br/><br/> 人間は、血気旺んな頃は大いに俺様的自意識を発揮する。<br/><br/>それで案外調子よく成功すると、世の中を甘く見誤り、俺様の価値を実質以上に過信して、遂には無理をしたり、宿命の枠を越そうとしたりしては大失敗をする。<br/><br/>ここで大いに自分の無力を知り、誤りに気づけばいいが、執着と情勢に押されて、大いに挽回を焦って益々失敗の溝を深め、遂には滅ぶ者も少くない。<br/><br/>これは古来人間運命の一定型であり、定石である。<br/><br/>そうして数々の失敗や苦しみによって流石の俺様もモミクチャにされ、最も小さくなった時初めて自己の真価を知るのであるから、本当の自分を知るのは、なかなか大変な事である。<br/><br/>そして自分の真価こそ結局は馬鹿の二字に帰するを知って初めて真実を見るのである。<br/><br/>以前明主様がお褒めになった。<br/><br/> 「馬鹿野郎よく考えりや俺の事」という句は実にこの悟りの哲理を歌われた不朽の名句である。<br/><br/> このようにして自己を知り、新しい自己を作りつつ信仰も人間も向上して行くのであって、俺様的臭気の強い程未成品の人格といえるであろう。<br/><br/>たしかに頭の悪い人程、自我の匂いが強いようであるが、やはり毒素多量の為、自己を見る脳力を塞がれているのであろう。<br/><br/> 俺様意識は失敗の因をなすとはいえ、一面なかなか大きい働きもするので、あまり悟って無くしてしまったんでは活動力を失う。<br/><br/>やはりなくてはならぬものなのだ。<br/><br/>ただそれはどこまでも強い善で、出来るだけ大きくし、恰（あた）かも全く無くなったかの如く見える程溶け込めばいいのである。<br/><br/> 人間社会を最も不快に騒々しくしていをものに俺様と俺様の衝突がある。<br/><br/>これも一つの進歩の過程として止むを得ぬ事ともいえようが、人間が大いに自負し、必死にこだわりたがる俺様なるものは幸福の道を阻害している、案外つまらぬものである。<br/><br/>少くとも黴菌にビクビクしたり、糞尿を有難がっているだけでも、大きい顔は出来ぬ訳である。<br/><br/> 厄介なのは今の社会の大部分を占むる唯物主義の俺様達だ。<br/><br/>これは一切が霊と体で成り霊が主であるという平凡な真理を知らず、あえて形体だけしかないとし、しかもそのような非真理を真理に見せかけるべく、貴重な生涯をかけて迷信養成に努力して地獄への道を造っている頑迷な迷信家で、たとえ浄霊の偉力を実際にみせても判らぬ哀れ変質的頭脳である。<br/><br/>勿論、神は目に見えぬから無いと豪語しているが、善の根本は神であり、悪の根本は悪魔である以上、神を否定するのは善を否定する事になるのだから、彼等は悪人という事になり悪魔的心の持主でないとはいえぬ訳である。<br/><br/> こういう連中の内には、新宗教を目の仇のように思っているものがあり、迷信打破に偉力を揮っている本教さえ迷信邪教とし、極力パリサイ的迫害の先鋒を勤めたのもこの種族である。<br/><br/>そしてこのような神を無視した俺様種族が、医学、農業、逆理等の迷信を育成し、収拾もつかぬ悲惨な結果を生んだが、いよいよ始まった文化革命の前駆的爆弾投下即ち、かような危機も易々として一挙に解決出来る、超高度の農学医学の真理の開明と、これを裏付ける破天荒なる実験記録をみたら、如何にコチコチの唯物思想も窒息昏倒し、流石の俺様も一ぺんに影が薄くなるであろう。<br/><br/>何と物凄い言霊の力である。<br/><br/> これでもまだ目が醒めぬ連中は、今夏出現する世界最高の美術館を見たら何と言うであろう。<br/><br/>これこそ紛れもなくすぐ目に見える形ある神業の驚異であるから、まさかこれでも迷信邪教の所産という程の盲目者はないであろう。<br/><br/>しかもこれが内外讃仰の的となり、海外からも参観者跡を絶たすとなれば、イヤでも応でも眼が醒めて、人間以上の力の主を認めざるを得なくなるであろう。<br/><br/>そしてこれらはホンの三番叟（さんばそう）で、未だまだ膨大な経綸が次々と形となって表われてくるのだから、その時になって顎を外したり、腰を抜かしたり、フンノビたりする事のないよう、今から用意あってしかるべきである。<br/><br/> 今迄多年、本教に浴せられた悪評をお聞きになると、明主様はいつも大笑いせられていたが、形に表われねば判らぬ俺様どもの盲目さをお笑いになられたのであろう。<br/><br/>吾々とても入信して神の御光に照されてみると、今迄相当なもののつもりだった俺様も、実は恐るべき迷信家だったり、人間の形をした毒の塊りだったり、四つ足のサック様だった事が段々ハッキリ判ってくる。<br/><br/>全く高度の文明人、万物の霊長と誇る人間様なるものも神様から御覧になれば、虫ケラかアミーバに等しい情ないものなんである。<br/><br/>この下等生物の境涯から脱せしめ、人間並に高め生を楽しましめて下さる為のメシヤの出現であり、文化の革命である。<br/><br/>人間はただ素直になってこのメシヤの大慈悲にお縋りして、一日も早く幸福人間になるべきだと思う。<br/><br/> 明主様のお仕事の悉くは、人為の限界を越えた実証を以てこの世に神が在すか在さぬかをはっきり示さるる大神業でもある。<br/><br/>そして今後この神業が加速度を以て進展し、神の御光が日に月に強く放たれ給うにつれて絶対の力もてすべての物の狂いは釐（ただ）されていくと共に、誤った俺様観念はいよいよ青息吐息、畏縮していくのみで、遂には滅消せざるを得ぬであろう。<br/><br/>そうして新しい人間として生れ代る時初めて病も貧も争もなくなり、歓喜悦楽の新文明世界は生れるであろう。<br/><br/>吾等は今こそ御教の声に目ざめ、滅すべき迷信に固まった俺様とは別の神の子として更生し得る魂の種子を培わねばならない。<br/><br/> 病気を滅せねばならぬ事も、 農業を発展させ、借金をなくし、金詰りを解消せねばならぬ事も、 平和を実現せねばならぬ事も、 思想を善化し、社会悪や犯罪をなくさねばならぬ事も、 百も承知の俺様だ。<br/><br/> 「ただ実現が出来ないばかりか、益々悪化するばかりで、どうにもならぬだけだ」という外すべない俺様達に、メシヤ教信徒は言うであろう。<br/><br/> 「そんな事は、朝飯前のメシヤ様だ。<br/><br/> ただ、君達がまだ麻酔からさめないだけだ。<br/><br/> しかし、醒めるか滅ぶかという時は、刻々動いているのだ」と。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

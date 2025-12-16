@@ -4,58 +4,213 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>dendono1</title>
 <link href="../style1.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <p align="center"><font face="HG正楷書体-PRO" size="2">--- Coletânea de Ensaios do Mestre Jikan Okada ---</font><font size="1">関連出版物<br/>
 </font><font size="2"></font></p>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ――― 岡 田 自 観 師 の 論 文 集 ―― 関連出版物 伝道の手引きⅠ・Ⅱ 不明 伝道の手引き 編纂 中村市郎 教会活動のあらゆる場面において必要とされる項目ごとに、明主様の御教えを分類引用したもの。<br><br>支部長・奉仕者（いわゆる専従者）用のマニュアル。<br><br> 細かな誤植、引用文およびその出展は、このＨＰ形式に改めました。<br><br> Ⅱには目次と本文とに編纂上の大きな紊れがありますが、常識的な判断で目次の修正と参照文献の追加いたしました。<br><br>ご了承ください。<br><br> Ⅰ 信仰の基本 第一章 明主様の御教えについて １ 明主様の御言葉は即ち神の言葉 ２ 明主様の御言葉は厳格に守るべき事 ３ 明主様の御教えは何事でも素直に守るべき事 ４ 神様の厳格さについて ５ 明主様の御言葉を不正確に伝えたので混乱を生じた例 ６ 明主様の御教えの「裏」などと言うものはない事 ７ 人の意見を盲信せず必ず御神書を基準に判断すべき事 ８ 明主様は相当信仰体験を積むまでは間違って居ても注意されなかった事 ９ 身魂（智慧証覚）相応にしか御教えは覚れぬ事 10 明主様の力徳も身魂相応にしかわからぬ事 11 明主様の御神格は時節と共に事実によって表われて来る事 第二章 智慧証覚 一 智慧証覚を磨く事の重要性について 二、智慧証覚を戴く方法について 三、その他 智慧証覚に関連して 四、神智 （明主様の場合） 第三章 神様について 一、在来の神観を批判する 二、神様について 第四章 御昇天について １ 御昇天になられた場合 ２ 御昇天になられた場合 資格者・教会 信仰上の諸問題 第一章 資 格 者 一、御布教に専念させて頂く迄 二、因縁 三、使 命 四、資格者の向上について 五、師弟の因縁 六、会長、支部長のあり方 第二章 教 会 一、教会建設に至る迄 二、教会の指導方針について 三、教団の組織体の一環として 第三章 心得置くべき事 １ 只管、人手の幸福を念願して我身の事は忘るべき事 ２ 人を相手とせす沖を相手とすべき手 ３ 負けて勝つ ４ 神様の御経綸に即応し、コツコツと自分の使命に励むべき事 ５ 天国完成に至る迄の御経綸については時期の来るにつれて少しずつ明される事 ６ 慢心と取違いをせぬ様戒むべき事 ７ 邪神は常に狙っている ８ 自分を審神すべき事 ９ 人を相手にせず、神を相手にすべき事（神の経綸に関連して） 10 慢心取違い――小乗信仰を戒む 11 審く勿れ 12 大乗たれ 13 霊界が明るくなると昔許された間違が許されなくなる事 14 （二九年）立春祭より浄化は一度と激しくなる事 15 終末期の接近と三千世界の大芝居について 16 教師の人の亡くなるのは 第四章 その他信仰上の心得 １ 愛について ２ 想念と言霊の重要性について ３ 最高の美に触れると、幽魂が向上する事 ４ 人間苦労を尊ぶべき事 ５ 貧が根絶せぬのは ６ 家賃を滞らすと反って金が入らなくなる事 ７ 相応の理について ８ 誠を行うとは、何うする事か ９ 嘘をつかぬ事 10 我と執着を取る為の最も手近な方法 11 教師は新知識を吸収すべき事 12 恋するに当って 13 御教えが中々実行出来ない事について 布教上の実際問題 第一章 基本的な注意 １ 神ながらに布教すべき事 ２ （神の取次者として）お話しさせて頂くについて ３ どんな話でも咎めずに聞くべき事 ４ 反対者は解ると割合働きがある事 ５ 素早く人の心を読み取るべき事 ６ 小さき事にも心配るべき事 ７ すばしっこくなれ ８ ご用は能率的にさせて頂くべき事 ９ 急 所 10 真に優れた人は、話に破綻がない事 11 話の仕方、内容、挙措動作について 12 教導の必要から言う、嘘、怒りの言葉、泣言の相槌、お世辞等について 13 楽しませながら教導すべさ事 14 話の芸術 15 日と月 16 失言した時は 17 脅迫信仰 18 他宗教に憎まれざる様布教する事 19 観音行について 20 同情の気持を何の程度行為に表わすべきか 21 遠方に布教開拓に出た場合、最も効果的な方法 22 重症の浄化の時、布教に出掛ける事について 23 （教師は）出産後、御浄霊は何時からさせて頂いてよいか 第二章 発 展 一、基本的な考え方 二、幽魂との関係 三、神の経綸と教線の発展 Ⅱ 御神体について （一） 一、御神体奉斎の意義 二、（御奉斎に当って）想念のあり方について 三、御奉斎させて頂く時期について 四、御奉斎する様御教え頂いた例 （二） 五、月 次 祭 六、祭祀の方式 七、布教所（及び集会所） 八、礼拝・祈り等 （三） 九、御神体を奉斎し替える場合の心得 十、お汚しした時の心得 十一、御祀りしていた信者が亡くなった場合、又は信仰を離れた場合等の、御神体の取扱い方について 十二、千手観音様 十三、そ の 他 浄霊について 第一章 初心者のために １ 親 切 ２ 頼まれたら寝てからても起きて浄霊して上げる事 ３ 浄霊して上げる順序を重んずべき事 ４ 浄霊の急所の発見を信仰上の問題より重んずる事 ５ 病状は軽く言うべきか、重く言うべきか ６ 薬をやめぬ人は御浄霊をせぬ事 ７ 入院患者の御浄霊について ８ 治りそうもない病人はどうすればよいか ９ 家族の中に反対者のある病人は慎重に御世話する事 10 浄化が激しくなったから用心深く病人を御世話する事 11 浄霊で治ったら堂々と医師に言うべき事 12 浄霊してあげても御礼の頂けぬ時は 13 信じる信じないと治り工合の関係 14 御浄霊を頂いても信仰心の起らぬ人はホッタラかしたら良い事 15 善人が助からず悪人が助かる場合のある事 16 御浄霊の神聖さについて 17 浄霊御礼について 18 御守護の祈念 第二章 教師の人の為に １ 御教え通り病人をお世話する事 ２ どの程度に浄霊を頂くべきか ３ 霊的疾患について ４ 浄化の治りにくい主な理由 ５ 信仰が理屈に合わぬ事を分類する ６ 御教えに反した行為の為お咎めを受けている場合 ７ 仏壇の祀り方 ８ 信仰の狂い ９ 信仰の合理性について 10 取次者の霊力の強弱について 11 危険な時は生命の執着を取るべき事 12 再浄化について 13 信徒の死について 奉仕について （一） 一、 人間の使命について 二、浄財と不浄財 三、金銭の御用と罪の清算 四、御奉仕と御守護 五、厳格に考えると 六、御神業を中心に考えると 七、御奉仕につき、人をお導きさせて頂くに当って （二） 八、建設に関連して 九、建設の進展と教線の発展 十、「地上天国」の救業上の役割 十一、地上天国の「型」について 十二、諸施設について
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coleção de Teses do Reverendo Okada Jikan</h2>
 <p><strong>Publicações Correlatas</strong></p>
@@ -711,5 +866,48 @@ XII. Sobre as Diversas Instalações</p></div></blockquote>
 </table>
 </center></div>
 <p>　</p>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>――― 岡 田 自 観 師 の 論 文 集 ―― 関連出版物 伝道の手引きⅠ・Ⅱ 不明 伝道の手引き 編纂 中村市郎 教会活動のあらゆる場面において必要とされる項目ごとに、明主様の御教えを分類引用したもの。<br/><br/>支部長・奉仕者（いわゆる専従者）用のマニュアル。<br/><br/> 細かな誤植、引用文およびその出展は、このＨＰ形式に改めました。<br/><br/> Ⅱには目次と本文とに編纂上の大きな紊れがありますが、常識的な判断で目次の修正と参照文献の追加いたしました。<br/><br/>ご了承ください。<br/><br/> Ⅰ 信仰の基本 第一章 明主様の御教えについて １ 明主様の御言葉は即ち神の言葉 ２ 明主様の御言葉は厳格に守るべき事 ３ 明主様の御教えは何事でも素直に守るべき事 ４ 神様の厳格さについて ５ 明主様の御言葉を不正確に伝えたので混乱を生じた例 ６ 明主様の御教えの「裏」などと言うものはない事 ７ 人の意見を盲信せず必ず御神書を基準に判断すべき事 ８ 明主様は相当信仰体験を積むまでは間違って居ても注意されなかった事 ９ 身魂（智慧証覚）相応にしか御教えは覚れぬ事 10 明主様の力徳も身魂相応にしかわからぬ事 11 明主様の御神格は時節と共に事実によって表われて来る事 第二章 智慧証覚 一 智慧証覚を磨く事の重要性について 二、智慧証覚を戴く方法について 三、その他 智慧証覚に関連して 四、神智 （明主様の場合） 第三章 神様について 一、在来の神観を批判する 二、神様について 第四章 御昇天について １ 御昇天になられた場合 ２ 御昇天になられた場合 資格者・教会 信仰上の諸問題 第一章 資 格 者 一、御布教に専念させて頂く迄 二、因縁 三、使 命 四、資格者の向上について 五、師弟の因縁 六、会長、支部長のあり方 第二章 教 会 一、教会建設に至る迄 二、教会の指導方針について 三、教団の組織体の一環として 第三章 心得置くべき事 １ 只管、人手の幸福を念願して我身の事は忘るべき事 ２ 人を相手とせす沖を相手とすべき手 ３ 負けて勝つ ４ 神様の御経綸に即応し、コツコツと自分の使命に励むべき事 ５ 天国完成に至る迄の御経綸については時期の来るにつれて少しずつ明される事 ６ 慢心と取違いをせぬ様戒むべき事 ７ 邪神は常に狙っている ８ 自分を審神すべき事 ９ 人を相手にせず、神を相手にすべき事（神の経綸に関連して） 10 慢心取違い――小乗信仰を戒む 11 審く勿れ 12 大乗たれ 13 霊界が明るくなると昔許された間違が許されなくなる事 14 （二九年）立春祭より浄化は一度と激しくなる事 15 終末期の接近と三千世界の大芝居について 16 教師の人の亡くなるのは 第四章 その他信仰上の心得 １ 愛について ２ 想念と言霊の重要性について ３ 最高の美に触れると、幽魂が向上する事 ４ 人間苦労を尊ぶべき事 ５ 貧が根絶せぬのは ６ 家賃を滞らすと反って金が入らなくなる事 ７ 相応の理について ８ 誠を行うとは、何うする事か ９ 嘘をつかぬ事 10 我と執着を取る為の最も手近な方法 11 教師は新知識を吸収すべき事 12 恋するに当って 13 御教えが中々実行出来ない事について 布教上の実際問題 第一章 基本的な注意 １ 神ながらに布教すべき事 ２ （神の取次者として）お話しさせて頂くについて ３ どんな話でも咎めずに聞くべき事 ４ 反対者は解ると割合働きがある事 ５ 素早く人の心を読み取るべき事 ６ 小さき事にも心配るべき事 ７ すばしっこくなれ ８ ご用は能率的にさせて頂くべき事 ９ 急 所 10 真に優れた人は、話に破綻がない事 11 話の仕方、内容、挙措動作について 12 教導の必要から言う、嘘、怒りの言葉、泣言の相槌、お世辞等について 13 楽しませながら教導すべさ事 14 話の芸術 15 日と月 16 失言した時は 17 脅迫信仰 18 他宗教に憎まれざる様布教する事 19 観音行について 20 同情の気持を何の程度行為に表わすべきか 21 遠方に布教開拓に出た場合、最も効果的な方法 22 重症の浄化の時、布教に出掛ける事について 23 （教師は）出産後、御浄霊は何時からさせて頂いてよいか 第二章 発 展 一、基本的な考え方 二、幽魂との関係 三、神の経綸と教線の発展 Ⅱ 御神体について （一） 一、御神体奉斎の意義 二、（御奉斎に当って）想念のあり方について 三、御奉斎させて頂く時期について 四、御奉斎する様御教え頂いた例 （二） 五、月 次 祭 六、祭祀の方式 七、布教所（及び集会所） 八、礼拝・祈り等 （三） 九、御神体を奉斎し替える場合の心得 十、お汚しした時の心得 十一、御祀りしていた信者が亡くなった場合、又は信仰を離れた場合等の、御神体の取扱い方について 十二、千手観音様 十三、そ の 他 浄霊について 第一章 初心者のために １ 親 切 ２ 頼まれたら寝てからても起きて浄霊して上げる事 ３ 浄霊して上げる順序を重んずべき事 ４ 浄霊の急所の発見を信仰上の問題より重んずる事 ５ 病状は軽く言うべきか、重く言うべきか ６ 薬をやめぬ人は御浄霊をせぬ事 ７ 入院患者の御浄霊について ８ 治りそうもない病人はどうすればよいか ９ 家族の中に反対者のある病人は慎重に御世話する事 10 浄化が激しくなったから用心深く病人を御世話する事 11 浄霊で治ったら堂々と医師に言うべき事 12 浄霊してあげても御礼の頂けぬ時は 13 信じる信じないと治り工合の関係 14 御浄霊を頂いても信仰心の起らぬ人はホッタラかしたら良い事 15 善人が助からず悪人が助かる場合のある事 16 御浄霊の神聖さについて 17 浄霊御礼について 18 御守護の祈念 第二章 教師の人の為に １ 御教え通り病人をお世話する事 ２ どの程度に浄霊を頂くべきか ３ 霊的疾患について ４ 浄化の治りにくい主な理由 ５ 信仰が理屈に合わぬ事を分類する ６ 御教えに反した行為の為お咎めを受けている場合 ７ 仏壇の祀り方 ８ 信仰の狂い ９ 信仰の合理性について 10 取次者の霊力の強弱について 11 危険な時は生命の執着を取るべき事 12 再浄化について 13 信徒の死について 奉仕について （一） 一、 人間の使命について 二、浄財と不浄財 三、金銭の御用と罪の清算 四、御奉仕と御守護 五、厳格に考えると 六、御神業を中心に考えると 七、御奉仕につき、人をお導きさせて頂くに当って （二） 八、建設に関連して 九、建設の進展と教線の発展 十、「地上天国」の救業上の役割 十一、地上天国の「型」について 十二、諸施設について</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

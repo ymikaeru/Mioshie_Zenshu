@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>M240108</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S24年1月8日） 『御光話録』3号、昭和24(1949)年2月8日発行 昭和二十四年一月八日（土） ――お伺いの仕方について、 （イ）不明の点をお伺いする程度にいたすべきでしょうか。<br><br> （ロ）私どもの卑見を申し述べさせていただくことは差し支えないでしょうか。<br><br>この場合往々失礼に亙る怖れがありますので、言葉を慎しみますとなおさら気持ちを申し上げにくくなりますが、この点いかがでございましょうか。<br><br> （イ）突っ込んで質問してもいいですよ、公開の席上差し支えない程度なら。<br><br>やはり質問したら納得がゆかねばうそで、中途半端ではいけない。<br><br>私はなんでも徹底主義です。<br><br>……（ロ）意見を言ってもかまいませんよ。<br><br>失礼といっても事柄は失礼ではない。<br><br>畏れ多いといっても疑問が解けねばなんにもならない。<br><br>畏れ多いから黙っているというのでは私の意志とも違ってきます。<br><br>言葉もふつうに話しするように言ったらいいのです。<br><br> ――新聞などにて拝見いたしました大先生様や御軸の御写真はいかがいたすべきでしょうか。<br><br> 信者なら切り抜いておいたらいいでしょう。<br><br>大阪のほうでは新聞の写真を切り抜いて飾ったり、拝んだりしてるそうですがね…… ――神様にお供えしてあるものをその場から信者にお分けするのはいかがでしょうか。<br><br> 信者に与えることは結構です。<br><br>しかしお供えしたままではなく一応お下げしてから与えて、これはお供えしたものだと言って上げたらいいでしょう。<br><br>……お供え物もそう長く上げておく必要はありません。<br><br>十分か十五分でもいいし、お供えして拝んでしまったらじきに下げてしまってもいいです。<br><br>仏壇にお供えする場合も同じです。<br><br> ――孟子の性善説、荀子の性悪説は、大先生様の本副守護神の一つの表現でしょうか。<br><br> ええ、まあそうですね。<br><br>が性善が本当です、悪は一時的のものですから。<br><br> ――姓名の呼び方で、例えば私の名前の光彦（てるひこ）を「ミツヒコ」と呼ぶ人もありますが、この場合言霊から言えばどういうふうになりましょうか。<br><br> 「テル」と「ミツ」では違います。<br><br>「テル」のほうが言霊の働きは強い。<br><br>だから強くなりたかったら「テル」、柔しくなりたかったら「ミツ」というふうにしたらいいです。<br><br>どっちでもいいとか、あるいは両方で呼ばれたほうがちょうどよいというのでしたらうっちゃっておいたほうがいいでしょう。<br><br>名前はたくさんあったっていいですよ。<br><br>私もだいぶもってます。<br><br>昔の学者は多いですね、殊に徳川時代の学者は名前のほかに号だとか字だとかたくさんもっていましたね。<br><br> ――性愛と恋愛について、 （一）性教育はもっと徹底して子女に教育すべきかと存じますがいかがでしょうか。<br><br> これは教育しないほうがいいですよ。<br><br>いま世間の人々はいろんなことを言ってますが馬鹿げたことです。<br><br>そんな必要はありません。<br><br>なぜっていままで性教育をしないですんできたのだからいらないでしょう。<br><br>性とは本能の働きです。<br><br>犬や猫は別に性教育をしなくたってちゃんと知ってますからね。<br><br>（笑声）殊に最近は産児制限なんてつまらぬことを言ってますが、こんなことを騒いでいるいまの文化人なんてまったく「憐れなる小羊」です。<br><br>産児制限については今度本に書きます。<br><br> ――（二）性問題を扱う雑誌も多く、また住宅欠乏のため性問題になにかと悩んでいる父兄も多いのですが、これはいかがいたすべきでしょうか。<br><br> ええ、これはありますね、がしかし、性の問題を起すようなちっぽけな家に住んでるというのはその人が悪いんです。<br><br>だからそういうことで悩むのはいい浄化です。<br><br>大いに苦しんだらいい。<br><br> ――子供達がエロ雑誌など読むことはいかがでしょうか。<br><br> 親さえしっかりしていれば大丈夫です。<br><br>霊線が連なっているのですから。<br><br>私のところの子供も勝手に読んでいますよ。<br><br>またエロ雑誌だからって全部悪いのではなく役に立つのもあります。<br><br>私も若いときはずいぶんそんなのも読みましたよ。<br><br>（笑声） ――（三）性欲は神聖視すべきでしょうか、または獣的なものとして卑しむべきでしょうか。<br><br> これは両方です。<br><br>夫婦は神聖ですが、道に外れれば獣で暴行なんか本当の獣です。<br><br>それはどこが違うかと言うと罪を作るところが違うのです。<br><br>……私も中年ごろまではそういう機会がありました。<br><br>私が花柳界を泳いでいるころ、ある役者の細君と交際してましたが、二人の間が変だという噂を聞いたので、私は、その役者がこの噂を聞いたらどんなに苦しむかを考え、これはたいへんな罪になると思ったので、それからは交際しなかったことがありました。<br><br>また、一時は若い娘を使っていたので交際の機会も多かったのですが、若い娘を一時的の享楽の対象にすればその人の一生を不幸にする、これは忍び難いことだ……と思っていたので別に間違いはなかったのですが、これはいまでもありがたいことだったと思ってます。<br><br>人を不幸にするところに罪が発生するんです。<br><br> ――相手が未亡人などの場合はいかがでしょうか。<br><br> 未亡人でも男に妻があればその妻は悲嘆にくれるでしょう。<br><br>……罪を作るとね、その罪の償いのための苦しみが一時的の楽しみの何倍にもなるのです。<br><br>だからそろばんずくでも合わない話です。<br><br> ――（四）性の問題を卑しみ、充分な性的技巧を伴わぬため真の夫婦生活の喜びを味わえずに終わる人もあるように存じますがこの点いかがでしょうか。<br><br> これはやはりその人によりありますよ。<br><br>しかし、公開の席上ではちょっと具合が悪いですね。<br><br>……これの一番の原因は腎臓です。<br><br>不感症なんかもそうです。<br><br>だから腎臓の周りの毒を除くと、眠っていた者が眼が覚めたようになります。<br><br> ――そういう点、性教育はいかがでしょうか。<br><br> それは関係ありません。<br><br>それからまた、子宮の周りの毒素によることもありますが、これも結局は腎臓ですから。<br><br>……子供のできることはあまり性欲には関係ありません。<br><br>だから性欲はあっても子供のない人もあるのです。<br><br> ――（五）再三、流産したり、乳幼児を死亡させたりする人がある半面、子供が欲しくても授からぬ人がありますのは神様のどんなお含みでしょうか。<br><br> これは神様が子供を育てるんですからね。<br><br>神様のほうでは授ける子供をちゃんと決めてある。<br><br>が、人間の肉体が間違ったことをしているために完全にゆかないのです。<br><br>……流産といっても梅毒による流産はめったになくて、だいたいおなかの固いことと薬のためです。<br><br> ――（六）不具の女を知らずに妻に娶（めと）った場合、離婚は差し支えないでしょうか。<br><br> まあ話し合いで納得のうえ離婚することですね。<br><br>自分は不具ということを知らなかったのでしょう？ ――いいえ、これは再婚ですが…… では知っていたんですね。<br><br>それは図々しいや。<br><br>（笑声）まあ話し合って別れることですね。<br><br> ――（七）古今東西、場所または時代により幾人もの妻妾または夫をもつことがふつうだったこともありますが、これは善悪いかにみるべきでしょうか。<br><br> これは悪いですね。<br><br>神様のほうは一夫一婦が本当です。<br><br>支那なんかでは妻妾が多いほうがいいなどと言いましたが、だから支那は栄えないのです。<br><br>しかし近ごろは支那も一夫一婦になってきてますね。<br><br>クリスチャンがそうとういるからでしょう。<br><br> ――社会的に偉いと言われる人でも妾をもつ人がありますが。<br><br> やはり地獄へ行きますよ、偉いとかなんとかは関係ない。<br><br>むしろ偉い人のほうが罪が深いものです。<br><br>……社会的に有名でも罪の深い人がありますよ。<br><br>中でも、間違った教育をしたり、間違った思想を広めることは罪が重い。<br><br>文学者なんかでも間違った思想を広めるのは人間を一人二人殺すのよりももっと罪が重いのです。<br><br> ――（八）結婚して幾年も子供がなく、肉体的にも別に支障のない場合、何歳くらいまでは子供を授かる可能性がありましょうか。<br><br> 四十歳くらいまではいいでしょうね。<br><br>年をとるとともに体が硬化するからうまくゆかない。<br><br> ――（九）夫婦ともに健康の場合、何歳くらいまで子供を授かるものでしょうか。<br><br> 女の人は六十歳くらいまでは妊娠しますね。<br><br>男は七十歳でも立派にできます。<br><br>月経がなくなっても子供のできる人がときにはありますよ。<br><br> ――（十）将来百歳くらいまで長命になるものといたしますれば、男女の結婚年齢はよほど違ってくるかと存じますがこの点いかがでしょうか。<br><br> 無論そうです。<br><br>百歳くらいで結婚してもいいでしょうね。<br><br>（笑声）夫婦の年齢の差もいくらでもいいでしょう。<br><br>百歳で三十歳の女の人と結婚しても。<br><br>（爆笑）去年ブルガリアで百五十六歳の人が十一人目の妻と結婚しようとしたが死んでしまった。<br><br>ところが百二十歳になる一人の婆さんが泣いてその人の死を悲しんだのでよく調べたところ、百五十六で死んだ人はその婆さんの昔の恋人で親の反対かなにかで結婚できなかったのだそうです。<br><br>百二十歳になってもまだ未練があったのですね。<br><br>（笑声）ブルガリア人は世界一の長生きで百歳以上の人が三千人もいるそうです。<br><br> ――（十一）性的問題についてのお伺いは、もっと突っ込んだことも御指示を仰ぎたいと存じますがよろしゅうございましょうか。<br><br> ええいいですよ、いいですけど公開の席上では具合が悪いから秘密室で教えてあげましょう。<br><br>こういう問題についても私は徹底して判ってますからどんな難問でもいいですよ。<br><br> ――（十二）性的不満、欠陥にもとづくヒステリーの御浄霊はいかがいたすべきでしょうか。<br><br> さあ、これだけではちょっと判りませんね。<br><br>いろいろな原因がありますから。<br><br>……こういう性の問題について聞きたい人はたくさんあるんですよ。<br><br>殊に女の人がそうで、恥ずかしがって言わないでいて独りで苦しんでいるのです。<br><br>なにか聞きたいことがあったらそれを書いて封筒に入れて出しなさい。<br><br>私が返事を書いて封筒に入れて返してあげます。<br><br>他の人にはわからないように。<br><br>まあ、ヤミ取引ですね。<br><br>（笑声） ――昼の世界になれば苦しみがなくなるといたしますと、悪因悪果もなくなり、また悪を想い悪を行なうような無智な人は生存を許されなくなるのでしょうか。<br><br>また、昼の世界における地〔時〕所位はなんによって決まるのでしょうか。<br><br> これはね、違うんですよ、悪の知れ方が早くなるのです。<br><br>いままでは悪の知れ方に時間を要したのです。<br><br>悪いことをしても二十年、三十年は暴露しなかったので偉くなるには悪いこともしなければ駄目だということになったのです。<br><br>ところがいまに昼になると悪いことをしてもすぐに知れるようになるのです。<br><br>人間はやはりそろばんずくですからね、人に知れないとなるとちょっと悪いこともするんです。<br><br>が、それができなくなる。<br><br>即障即罰と言って悪いことをするとすぐに罰せられるようになるのです。<br><br>今度の大臣が収賄で挙げられたのも浄化が早くなってきたんですね。<br><br>以前は大臣くらいで食いとめられたのがいまはどこまでも徹底してますからね。<br><br>……地〔時〕所位というのは自然に決まるのです。<br><br>信仰でもそうで、人為的に考えてやるのはいけない。<br><br>結局は人為と自然と半々です。<br><br>「人事を尽して天命を待つ」というのがいいのです。<br><br>人間考えを貫くのはいけないのです。<br><br>例えば「精神一到何事か成らざらん」と言いますが、これはとんでもない間違いです。<br><br>「俺は死ぬもんか、精神力で生きるんだ」などと言うのはだいたい死んでしまうもんです。<br><br>（笑声）反対に生への執着をなくして神仏にすべてお任せするという気持ちになればかえって助かるのです。<br><br>私も病気で危かったときもそうでした。<br><br>生に執着する病人はどうもいけないですね。<br><br> ――いままでの夜の時代のいろいろな人生の苦しみは、ただ夜の世界だから苦しみがあったというばかりではなく、やはり神様の人間に対する試練としての苦しみもあったと考えてよろしいでしょうか。<br><br>さらに昼の世界においても人間を向上せしめ、深み、うるおいをつけるため神の試練としての苦悩、悲哀、……例えば恋愛における失恋の苦しみのように……もなんらかの形で存在するのでしょうか。<br><br> 神の試練ということは本当はないのです。<br><br>人間のほうでそういう理屈をつけたんです。<br><br>神様が人間にいいものを授けようとするとき、容物が汚れているのでまずその容物を掃除してくださる、そのときが苦しみなのです、だからそれが浄化なのです。<br><br>そしてそれがすんできれいになればいいものを神様が与えてくださるのです。<br><br>だからそこで人間は、「あああの苦しみは神の試練だったのだ」というふうに考えるのです。<br><br>……また、失恋の苦悩といっても、恋愛というのが一つの執着なんだから、結局、自分で勝手に執着して苦しんでいるのです。<br><br>（笑声）だから問題ないですね。<br><br> ――人が死亡したとき、北枕にし、かつ枕元に刃物などを置くのはなぜでしょうか。<br><br> これは魔除けで、悪霊が刃物を嫌って近寄らないように置くのです。<br><br>しかしたいしたことはないから置いても置かなくてもどっちでもいいです。<br><br>ただ、刃物によっては……例えば名人の作った刀などは霊が強くついていて力があるから、置くのはいいですね。<br><br>北枕にするのは、北というのは霊気が強いのです。<br><br>磁石が北を向くのもそのためです。<br><br>そして北は霊で南は体だから、死んだ人の霊は北へ行くべきです。<br><br>従って霊が頭から抜けて北へ行くようにという意味で北枕にするのです。<br><br>私は北枕が好きでよくします、が、死んだときするのだからよしなさい、と言われますが、そんならもう死なないから大丈夫だ、と言って笑うんですよ。<br><br>（笑声） ――ある会員、未だよくお道が判らず、不動様の先達の言葉を信じて不動のお軸を床の間の光明如来の御軸と並べてお祀りしておりますがいかがいたすべきでしょうか。<br><br> これはいけません。<br><br>光明如来様はかけないほうがいいです。<br><br>もったいないから判ってくるまで祀らせないほうがいいです。<br><br>決してほかのと一緒にしてはいけません。<br><br>……それから一家の人がみんな揃って光明如来様におすがりする気持ちならいいが、反対が一人、二人でもある場合は祀ってはいけません、光明如来様が汚れますから。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Orientações sobre Diversas Questões</h2>
 <p>―― Sobre a maneira correta de formular perguntas:
@@ -147,5 +299,48 @@ function toggleLang(lang) {
 <p>Isso é um amuleto para afastar espíritos malignos, que supostamente detestam lâminas e não se aproximam. Contudo, não tem grande efeito, então tanto faz colocar ou não. Há exceções: lâminas forjadas por mestres artesãos, como espadas famosas, possuem um forte espírito e grande poder; nesse caso, é benéfico colocá-las. Quanto a voltar a cabeça para o norte, é porque essa direção possui uma forte energia espiritual. É por essa mesma razão que a agulha de uma bússola aponta para o norte. O norte representa o espírito, e o sul, o corpo. Assim, o espírito do falecido deve seguir para o norte. A posição da cabeça visa facilitar essa jornada, permitindo que o espírito saia pela cabeça e siga em direção ao norte. Eu particularmente gosto de dormir com a cabeça para o norte, mas as pessoas me repreendem, dizendo que é a posição dos mortos. Eu então respondo, rindo: "Nesse caso, não há problema, pois não pretendo morrer tão cedo". (risos)</p>
 <p>―― Um de nossos membros, que ainda não compreende bem os Ensinamentos, acredita nas palavras de um guia espiritual da seita Fudô e entronizou um pergaminho dessa divindade ao lado do Pergaminho Sagrado de Komyo Nyorai no tokonoma. Como devemos proceder?</p>
 <p>Isso é inadmissível. É preferível que o Pergaminho de Komyo Nyorai não seja entronizado nessas condições. Por ser algo de valor inestimável, é melhor que a pessoa não o tenha em seu altar até que compreenda seu verdadeiro significado. Jamais deve ser colocado junto a outras imagens. (...) Ademais, o Pergaminho Sagrado de Komyo Nyorai só deve ser entronizado se todos os membros da família se devotarem a ele em uníssono. Se houver uma ou duas pessoas que se oponham, ele não deve ser instalado, pois isso o macularia.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S24年1月8日） 『御光話録』3号、昭和24(1949)年2月8日発行 昭和二十四年一月八日（土） ――お伺いの仕方について、 （イ）不明の点をお伺いする程度にいたすべきでしょうか。<br/><br/> （ロ）私どもの卑見を申し述べさせていただくことは差し支えないでしょうか。<br/><br/>この場合往々失礼に亙る怖れがありますので、言葉を慎しみますとなおさら気持ちを申し上げにくくなりますが、この点いかがでございましょうか。<br/><br/> （イ）突っ込んで質問してもいいですよ、公開の席上差し支えない程度なら。<br/><br/>やはり質問したら納得がゆかねばうそで、中途半端ではいけない。<br/><br/>私はなんでも徹底主義です。<br/><br/>……（ロ）意見を言ってもかまいませんよ。<br/><br/>失礼といっても事柄は失礼ではない。<br/><br/>畏れ多いといっても疑問が解けねばなんにもならない。<br/><br/>畏れ多いから黙っているというのでは私の意志とも違ってきます。<br/><br/>言葉もふつうに話しするように言ったらいいのです。<br/><br/> ――新聞などにて拝見いたしました大先生様や御軸の御写真はいかがいたすべきでしょうか。<br/><br/> 信者なら切り抜いておいたらいいでしょう。<br/><br/>大阪のほうでは新聞の写真を切り抜いて飾ったり、拝んだりしてるそうですがね…… ――神様にお供えしてあるものをその場から信者にお分けするのはいかがでしょうか。<br/><br/> 信者に与えることは結構です。<br/><br/>しかしお供えしたままではなく一応お下げしてから与えて、これはお供えしたものだと言って上げたらいいでしょう。<br/><br/>……お供え物もそう長く上げておく必要はありません。<br/><br/>十分か十五分でもいいし、お供えして拝んでしまったらじきに下げてしまってもいいです。<br/><br/>仏壇にお供えする場合も同じです。<br/><br/> ――孟子の性善説、荀子の性悪説は、大先生様の本副守護神の一つの表現でしょうか。<br/><br/> ええ、まあそうですね。<br/><br/>が性善が本当です、悪は一時的のものですから。<br/><br/> ――姓名の呼び方で、例えば私の名前の光彦（てるひこ）を「ミツヒコ」と呼ぶ人もありますが、この場合言霊から言えばどういうふうになりましょうか。<br/><br/> 「テル」と「ミツ」では違います。<br/><br/>「テル」のほうが言霊の働きは強い。<br/><br/>だから強くなりたかったら「テル」、柔しくなりたかったら「ミツ」というふうにしたらいいです。<br/><br/>どっちでもいいとか、あるいは両方で呼ばれたほうがちょうどよいというのでしたらうっちゃっておいたほうがいいでしょう。<br/><br/>名前はたくさんあったっていいですよ。<br/><br/>私もだいぶもってます。<br/><br/>昔の学者は多いですね、殊に徳川時代の学者は名前のほかに号だとか字だとかたくさんもっていましたね。<br/><br/> ――性愛と恋愛について、 （一）性教育はもっと徹底して子女に教育すべきかと存じますがいかがでしょうか。<br/><br/> これは教育しないほうがいいですよ。<br/><br/>いま世間の人々はいろんなことを言ってますが馬鹿げたことです。<br/><br/>そんな必要はありません。<br/><br/>なぜっていままで性教育をしないですんできたのだからいらないでしょう。<br/><br/>性とは本能の働きです。<br/><br/>犬や猫は別に性教育をしなくたってちゃんと知ってますからね。<br/><br/>（笑声）殊に最近は産児制限なんてつまらぬことを言ってますが、こんなことを騒いでいるいまの文化人なんてまったく「憐れなる小羊」です。<br/><br/>産児制限については今度本に書きます。<br/><br/> ――（二）性問題を扱う雑誌も多く、また住宅欠乏のため性問題になにかと悩んでいる父兄も多いのですが、これはいかがいたすべきでしょうか。<br/><br/> ええ、これはありますね、がしかし、性の問題を起すようなちっぽけな家に住んでるというのはその人が悪いんです。<br/><br/>だからそういうことで悩むのはいい浄化です。<br/><br/>大いに苦しんだらいい。<br/><br/> ――子供達がエロ雑誌など読むことはいかがでしょうか。<br/><br/> 親さえしっかりしていれば大丈夫です。<br/><br/>霊線が連なっているのですから。<br/><br/>私のところの子供も勝手に読んでいますよ。<br/><br/>またエロ雑誌だからって全部悪いのではなく役に立つのもあります。<br/><br/>私も若いときはずいぶんそんなのも読みましたよ。<br/><br/>（笑声） ――（三）性欲は神聖視すべきでしょうか、または獣的なものとして卑しむべきでしょうか。<br/><br/> これは両方です。<br/><br/>夫婦は神聖ですが、道に外れれば獣で暴行なんか本当の獣です。<br/><br/>それはどこが違うかと言うと罪を作るところが違うのです。<br/><br/>……私も中年ごろまではそういう機会がありました。<br/><br/>私が花柳界を泳いでいるころ、ある役者の細君と交際してましたが、二人の間が変だという噂を聞いたので、私は、その役者がこの噂を聞いたらどんなに苦しむかを考え、これはたいへんな罪になると思ったので、それからは交際しなかったことがありました。<br/><br/>また、一時は若い娘を使っていたので交際の機会も多かったのですが、若い娘を一時的の享楽の対象にすればその人の一生を不幸にする、これは忍び難いことだ……と思っていたので別に間違いはなかったのですが、これはいまでもありがたいことだったと思ってます。<br/><br/>人を不幸にするところに罪が発生するんです。<br/><br/> ――相手が未亡人などの場合はいかがでしょうか。<br/><br/> 未亡人でも男に妻があればその妻は悲嘆にくれるでしょう。<br/><br/>……罪を作るとね、その罪の償いのための苦しみが一時的の楽しみの何倍にもなるのです。<br/><br/>だからそろばんずくでも合わない話です。<br/><br/> ――（四）性の問題を卑しみ、充分な性的技巧を伴わぬため真の夫婦生活の喜びを味わえずに終わる人もあるように存じますがこの点いかがでしょうか。<br/><br/> これはやはりその人によりありますよ。<br/><br/>しかし、公開の席上ではちょっと具合が悪いですね。<br/><br/>……これの一番の原因は腎臓です。<br/><br/>不感症なんかもそうです。<br/><br/>だから腎臓の周りの毒を除くと、眠っていた者が眼が覚めたようになります。<br/><br/> ――そういう点、性教育はいかがでしょうか。<br/><br/> それは関係ありません。<br/><br/>それからまた、子宮の周りの毒素によることもありますが、これも結局は腎臓ですから。<br/><br/>……子供のできることはあまり性欲には関係ありません。<br/><br/>だから性欲はあっても子供のない人もあるのです。<br/><br/> ――（五）再三、流産したり、乳幼児を死亡させたりする人がある半面、子供が欲しくても授からぬ人がありますのは神様のどんなお含みでしょうか。<br/><br/> これは神様が子供を育てるんですからね。<br/><br/>神様のほうでは授ける子供をちゃんと決めてある。<br/><br/>が、人間の肉体が間違ったことをしているために完全にゆかないのです。<br/><br/>……流産といっても梅毒による流産はめったになくて、だいたいおなかの固いことと薬のためです。<br/><br/> ――（六）不具の女を知らずに妻に娶（めと）った場合、離婚は差し支えないでしょうか。<br/><br/> まあ話し合いで納得のうえ離婚することですね。<br/><br/>自分は不具ということを知らなかったのでしょう？ ――いいえ、これは再婚ですが…… では知っていたんですね。<br/><br/>それは図々しいや。<br/><br/>（笑声）まあ話し合って別れることですね。<br/><br/> ――（七）古今東西、場所または時代により幾人もの妻妾または夫をもつことがふつうだったこともありますが、これは善悪いかにみるべきでしょうか。<br/><br/> これは悪いですね。<br/><br/>神様のほうは一夫一婦が本当です。<br/><br/>支那なんかでは妻妾が多いほうがいいなどと言いましたが、だから支那は栄えないのです。<br/><br/>しかし近ごろは支那も一夫一婦になってきてますね。<br/><br/>クリスチャンがそうとういるからでしょう。<br/><br/> ――社会的に偉いと言われる人でも妾をもつ人がありますが。<br/><br/> やはり地獄へ行きますよ、偉いとかなんとかは関係ない。<br/><br/>むしろ偉い人のほうが罪が深いものです。<br/><br/>……社会的に有名でも罪の深い人がありますよ。<br/><br/>中でも、間違った教育をしたり、間違った思想を広めることは罪が重い。<br/><br/>文学者なんかでも間違った思想を広めるのは人間を一人二人殺すのよりももっと罪が重いのです。<br/><br/> ――（八）結婚して幾年も子供がなく、肉体的にも別に支障のない場合、何歳くらいまでは子供を授かる可能性がありましょうか。<br/><br/> 四十歳くらいまではいいでしょうね。<br/><br/>年をとるとともに体が硬化するからうまくゆかない。<br/><br/> ――（九）夫婦ともに健康の場合、何歳くらいまで子供を授かるものでしょうか。<br/><br/> 女の人は六十歳くらいまでは妊娠しますね。<br/><br/>男は七十歳でも立派にできます。<br/><br/>月経がなくなっても子供のできる人がときにはありますよ。<br/><br/> ――（十）将来百歳くらいまで長命になるものといたしますれば、男女の結婚年齢はよほど違ってくるかと存じますがこの点いかがでしょうか。<br/><br/> 無論そうです。<br/><br/>百歳くらいで結婚してもいいでしょうね。<br/><br/>（笑声）夫婦の年齢の差もいくらでもいいでしょう。<br/><br/>百歳で三十歳の女の人と結婚しても。<br/><br/>（爆笑）去年ブルガリアで百五十六歳の人が十一人目の妻と結婚しようとしたが死んでしまった。<br/><br/>ところが百二十歳になる一人の婆さんが泣いてその人の死を悲しんだのでよく調べたところ、百五十六で死んだ人はその婆さんの昔の恋人で親の反対かなにかで結婚できなかったのだそうです。<br/><br/>百二十歳になってもまだ未練があったのですね。<br/><br/>（笑声）ブルガリア人は世界一の長生きで百歳以上の人が三千人もいるそうです。<br/><br/> ――（十一）性的問題についてのお伺いは、もっと突っ込んだことも御指示を仰ぎたいと存じますがよろしゅうございましょうか。<br/><br/> ええいいですよ、いいですけど公開の席上では具合が悪いから秘密室で教えてあげましょう。<br/><br/>こういう問題についても私は徹底して判ってますからどんな難問でもいいですよ。<br/><br/> ――（十二）性的不満、欠陥にもとづくヒステリーの御浄霊はいかがいたすべきでしょうか。<br/><br/> さあ、これだけではちょっと判りませんね。<br/><br/>いろいろな原因がありますから。<br/><br/>……こういう性の問題について聞きたい人はたくさんあるんですよ。<br/><br/>殊に女の人がそうで、恥ずかしがって言わないでいて独りで苦しんでいるのです。<br/><br/>なにか聞きたいことがあったらそれを書いて封筒に入れて出しなさい。<br/><br/>私が返事を書いて封筒に入れて返してあげます。<br/><br/>他の人にはわからないように。<br/><br/>まあ、ヤミ取引ですね。<br/><br/>（笑声） ――昼の世界になれば苦しみがなくなるといたしますと、悪因悪果もなくなり、また悪を想い悪を行なうような無智な人は生存を許されなくなるのでしょうか。<br/><br/>また、昼の世界における地〔時〕所位はなんによって決まるのでしょうか。<br/><br/> これはね、違うんですよ、悪の知れ方が早くなるのです。<br/><br/>いままでは悪の知れ方に時間を要したのです。<br/><br/>悪いことをしても二十年、三十年は暴露しなかったので偉くなるには悪いこともしなければ駄目だということになったのです。<br/><br/>ところがいまに昼になると悪いことをしてもすぐに知れるようになるのです。<br/><br/>人間はやはりそろばんずくですからね、人に知れないとなるとちょっと悪いこともするんです。<br/><br/>が、それができなくなる。<br/><br/>即障即罰と言って悪いことをするとすぐに罰せられるようになるのです。<br/><br/>今度の大臣が収賄で挙げられたのも浄化が早くなってきたんですね。<br/><br/>以前は大臣くらいで食いとめられたのがいまはどこまでも徹底してますからね。<br/><br/>……地〔時〕所位というのは自然に決まるのです。<br/><br/>信仰でもそうで、人為的に考えてやるのはいけない。<br/><br/>結局は人為と自然と半々です。<br/><br/>「人事を尽して天命を待つ」というのがいいのです。<br/><br/>人間考えを貫くのはいけないのです。<br/><br/>例えば「精神一到何事か成らざらん」と言いますが、これはとんでもない間違いです。<br/><br/>「俺は死ぬもんか、精神力で生きるんだ」などと言うのはだいたい死んでしまうもんです。<br/><br/>（笑声）反対に生への執着をなくして神仏にすべてお任せするという気持ちになればかえって助かるのです。<br/><br/>私も病気で危かったときもそうでした。<br/><br/>生に執着する病人はどうもいけないですね。<br/><br/> ――いままでの夜の時代のいろいろな人生の苦しみは、ただ夜の世界だから苦しみがあったというばかりではなく、やはり神様の人間に対する試練としての苦しみもあったと考えてよろしいでしょうか。<br/><br/>さらに昼の世界においても人間を向上せしめ、深み、うるおいをつけるため神の試練としての苦悩、悲哀、……例えば恋愛における失恋の苦しみのように……もなんらかの形で存在するのでしょうか。<br/><br/> 神の試練ということは本当はないのです。<br/><br/>人間のほうでそういう理屈をつけたんです。<br/><br/>神様が人間にいいものを授けようとするとき、容物が汚れているのでまずその容物を掃除してくださる、そのときが苦しみなのです、だからそれが浄化なのです。<br/><br/>そしてそれがすんできれいになればいいものを神様が与えてくださるのです。<br/><br/>だからそこで人間は、「あああの苦しみは神の試練だったのだ」というふうに考えるのです。<br/><br/>……また、失恋の苦悩といっても、恋愛というのが一つの執着なんだから、結局、自分で勝手に執着して苦しんでいるのです。<br/><br/>（笑声）だから問題ないですね。<br/><br/> ――人が死亡したとき、北枕にし、かつ枕元に刃物などを置くのはなぜでしょうか。<br/><br/> これは魔除けで、悪霊が刃物を嫌って近寄らないように置くのです。<br/><br/>しかしたいしたことはないから置いても置かなくてもどっちでもいいです。<br/><br/>ただ、刃物によっては……例えば名人の作った刀などは霊が強くついていて力があるから、置くのはいいですね。<br/><br/>北枕にするのは、北というのは霊気が強いのです。<br/><br/>磁石が北を向くのもそのためです。<br/><br/>そして北は霊で南は体だから、死んだ人の霊は北へ行くべきです。<br/><br/>従って霊が頭から抜けて北へ行くようにという意味で北枕にするのです。<br/><br/>私は北枕が好きでよくします、が、死んだときするのだからよしなさい、と言われますが、そんならもう死なないから大丈夫だ、と言って笑うんですよ。<br/><br/>（笑声） ――ある会員、未だよくお道が判らず、不動様の先達の言葉を信じて不動のお軸を床の間の光明如来の御軸と並べてお祀りしておりますがいかがいたすべきでしょうか。<br/><br/> これはいけません。<br/><br/>光明如来様はかけないほうがいいです。<br/><br/>もったいないから判ってくるまで祀らせないほうがいいです。<br/><br/>決してほかのと一緒にしてはいけません。<br/><br/>……それから一家の人がみんな揃って光明如来様におすがりする気持ちならいいが、反対が一人、二人でもある場合は祀ってはいけません、光明如来様が汚れますから。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

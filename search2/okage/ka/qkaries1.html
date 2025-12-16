@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qkaries1</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： カリエスが治る ――現代医学を超えた御力―― 自観叢書第4篇『奇蹟物語』昭和24(1949)年10月5日発行 石川県 日本五六七教金輪会 石崎佐代子（33） 大先生様、洪大無辺なる御守護を頂き感泣措くところを知らず、ただほとばしり湧く感謝感激に震えながら、御守護頂きました次第を申し上げ、ここに深甚の感謝を捧げ厚く御礼申し上げます。<br><br>十九歳の九月、カリエスにかかり日々病弱な身に悩され、暗黒にとざされた日を送り、ついに二十五歳の年に病床に臥す身となりました。<br><br> それより病院（ギプス三回作る）指圧、灸、気合術、整骨とおよそ良いと聞く限りの事はやって見ました。<br><br>何の効めもなく、初めは胸椎カリエスのみでございましたが、頸椎、腰椎もおかされ、全身各部に故障は増すばかり、身体は衰弱し、起る力もなくなりました。<br><br>不治の病とききながらも、どうかして癒したい一念で、出来得る限りの努力もし忍耐もして病と闘いました。<br><br> 気力も二十九歳の秋にはついにうせてしまい、もう回復の見込なしとあきらめました。<br><br>人間にとって病が不治とあきらめる程、悲惨な事がございましょうか？ それより自暴自棄におちいり、来る日も来る日も苦悩と煩悶で、暗黒無明の生活がつづき、余りの苦しさにひそかに死の道を考えた事もしばしばでございました。<br><br> ところが、ある日姉より浄霊の有難い事をきかされましたが、これまで何をしても失敗に終ったので到底信じられず、どうせ今迄の事と変りない無駄な事と気乗りもしませんでしたが、あまり姉が熱心にすすめますので、ともかくやって頂きましたところ、有難いことには苦痛がうすらぎ、すこしずつ身体を起しておれるようになり、何だか林先生より病患の根本原因「病は健康増進の自然生理作用であって、神の一大恩恵である」その他色々と御懇切な御話を承り、これまで一時の間も忘れる事の出来なかった病に対しての不安、恐怖感がなくなり、その日より体をおこしました。<br><br> それより、心は明るく、気持は落着き、食欲は進み、真心から御指導下さる諸先生の御浄霊を頂き、ぐんぐん快方に向いました、病のみでございません。<br><br>身も魂もよみがえり行くこの嬉しさ……何んという有難い御恵みなのでございましょう。<br><br> ただ今は中田先生の御宅に御世話頂き、先生の真心からの御浄霊を頂き、日一日と快方に向い、輝かしい希望にみちた今日となりました。<br><br> 過去を顧みれば本当にこの世の地獄の苦しみ、自他共に認めた「死」以外になかったこの身が、大慈大悲の御手に救われました。<br><br>……この悦び何にたとえようもございません。<br><br>嗚呼あの時の事を思い救われた今を考えますと、涙が止めどもなく流れ、ペンは震えます。<br><br>ただ感激の涙にむせびながら、大光明如来様の御前に額く私です。<br><br> ああ驚異的妙智力……素晴らしい救の力、現代の医学で難病とされていますカリエスが、医学、唯一の治療法としている安静療法を止め、ただ観音妙智力の神霊放射能によって癒され行くとは、カリエスのみでは御ざいません。<br><br>医学で不治とされています病がいと簡単に癒され行くのを確かにこの目で見ました。<br><br>この大きな喜びを通じて全人類が何千年以来要望して止まなかったところ、最大にして最後の目標の「幸福」がこの宗教に入ることによって受けられることを知りました。<br><br> 嗚呼、偉大な宗教の現われた事を讃えずにはおれません。<br><br>大先生の御恵にただただ感涙に咽ぶばかりでございます。<br><br>一日も早く癒の業であらゆる苦悩が根本的に解決され、喜にひたる事の出来ることを一人でも多くの人に伝え、病貧争絶無の世界建設の御手伝いをさせて頂きたいと、私の願いはそれのみでございます。<br><br> 日一日とこの願いは強く燃えて行きます。<br><br>胸中溢るる感謝の万分の一も書き表わすことの出来ませぬのを残念に思いつつペンを終らせて頂きます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Cura da Cárie Óssea – Um Poder que Transcende a Medicina Moderna</h2>
 <p>Da 4ª Coletânea Jikan, “Narrativas de Milagres”, publicada em 5 de outubro de 1949.</p>
@@ -105,5 +260,48 @@ Sayoko Ishizaki (33 anos)</p>
 <p>Ah, que prodigioso o poder da Sabedoria Mística... Que força de salvação maravilhosa! A cárie óssea, considerada pela medicina moderna uma doença de difícil tratamento, para a qual o repouso absoluto é tido como o único método terapêutico, ser curada unicamente pela irradiação espiritual do poder da Sabedoria Mística de Kannon (観音)... E não se trata apenas da cárie óssea. Com meus próprios olhos, testemunhei enfermidades tidas como incuráveis pela medicina serem curadas com extrema simplicidade. Através desta imensa alegria, compreendi que a “Felicidade” — a maior e última meta que toda a humanidade almeja incessantemente há milênios — pode ser alcançada por meio desta religião.</p>
 <p>Ah, é impossível não louvar o advento de uma religião tão grandiosa! Diante da Vossa bênção, Meishu-Sama, restam-me apenas as lágrimas de gratidão. Meu único desejo é poder transmitir ao maior número possível de pessoas que, através da arte da cura, todo o sofrimento pode ser solucionado em sua raiz, permitindo a todos imergir na mais pura alegria. Anseio, assim, por poder servir na construção de um mundo isento de doença, pobreza e conflito.</p>
 <p>Este desejo arde em meu peito com mais força a cada dia que passa. Encerro esta carta, com o pesar de não conseguir expressar em palavras nem uma ínfima parcela da gratidão que transborda em meu coração.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： カリエスが治る ――現代医学を超えた御力―― 自観叢書第4篇『奇蹟物語』昭和24(1949)年10月5日発行 石川県 日本五六七教金輪会 石崎佐代子（33） 大先生様、洪大無辺なる御守護を頂き感泣措くところを知らず、ただほとばしり湧く感謝感激に震えながら、御守護頂きました次第を申し上げ、ここに深甚の感謝を捧げ厚く御礼申し上げます。<br/><br/>十九歳の九月、カリエスにかかり日々病弱な身に悩され、暗黒にとざされた日を送り、ついに二十五歳の年に病床に臥す身となりました。<br/><br/> それより病院（ギプス三回作る）指圧、灸、気合術、整骨とおよそ良いと聞く限りの事はやって見ました。<br/><br/>何の効めもなく、初めは胸椎カリエスのみでございましたが、頸椎、腰椎もおかされ、全身各部に故障は増すばかり、身体は衰弱し、起る力もなくなりました。<br/><br/>不治の病とききながらも、どうかして癒したい一念で、出来得る限りの努力もし忍耐もして病と闘いました。<br/><br/> 気力も二十九歳の秋にはついにうせてしまい、もう回復の見込なしとあきらめました。<br/><br/>人間にとって病が不治とあきらめる程、悲惨な事がございましょうか？ それより自暴自棄におちいり、来る日も来る日も苦悩と煩悶で、暗黒無明の生活がつづき、余りの苦しさにひそかに死の道を考えた事もしばしばでございました。<br/><br/> ところが、ある日姉より浄霊の有難い事をきかされましたが、これまで何をしても失敗に終ったので到底信じられず、どうせ今迄の事と変りない無駄な事と気乗りもしませんでしたが、あまり姉が熱心にすすめますので、ともかくやって頂きましたところ、有難いことには苦痛がうすらぎ、すこしずつ身体を起しておれるようになり、何だか林先生より病患の根本原因「病は健康増進の自然生理作用であって、神の一大恩恵である」その他色々と御懇切な御話を承り、これまで一時の間も忘れる事の出来なかった病に対しての不安、恐怖感がなくなり、その日より体をおこしました。<br/><br/> それより、心は明るく、気持は落着き、食欲は進み、真心から御指導下さる諸先生の御浄霊を頂き、ぐんぐん快方に向いました、病のみでございません。<br/><br/>身も魂もよみがえり行くこの嬉しさ……何んという有難い御恵みなのでございましょう。<br/><br/> ただ今は中田先生の御宅に御世話頂き、先生の真心からの御浄霊を頂き、日一日と快方に向い、輝かしい希望にみちた今日となりました。<br/><br/> 過去を顧みれば本当にこの世の地獄の苦しみ、自他共に認めた「死」以外になかったこの身が、大慈大悲の御手に救われました。<br/><br/>……この悦び何にたとえようもございません。<br/><br/>嗚呼あの時の事を思い救われた今を考えますと、涙が止めどもなく流れ、ペンは震えます。<br/><br/>ただ感激の涙にむせびながら、大光明如来様の御前に額く私です。<br/><br/> ああ驚異的妙智力……素晴らしい救の力、現代の医学で難病とされていますカリエスが、医学、唯一の治療法としている安静療法を止め、ただ観音妙智力の神霊放射能によって癒され行くとは、カリエスのみでは御ざいません。<br/><br/>医学で不治とされています病がいと簡単に癒され行くのを確かにこの目で見ました。<br/><br/>この大きな喜びを通じて全人類が何千年以来要望して止まなかったところ、最大にして最後の目標の「幸福」がこの宗教に入ることによって受けられることを知りました。<br/><br/> 嗚呼、偉大な宗教の現われた事を讃えずにはおれません。<br/><br/>大先生の御恵にただただ感涙に咽ぶばかりでございます。<br/><br/>一日も早く癒の業であらゆる苦悩が根本的に解決され、喜にひたる事の出来ることを一人でも多くの人に伝え、病貧争絶無の世界建設の御手伝いをさせて頂きたいと、私の願いはそれのみでございます。<br/><br/> 日一日とこの願いは強く燃えて行きます。<br/><br/>胸中溢るる感謝の万分の一も書き表わすことの出来ませぬのを残念に思いつつペンを終らせて頂きます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

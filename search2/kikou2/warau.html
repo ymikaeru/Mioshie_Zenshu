@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>warau</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核菌は嗤う 槐安生 『栄光』223号、昭和28(1953)年8月26日発行 明主様が、今春、公刊せられた『結核の信仰療法』の御著述は、療養者の間に反響を呼び、入院中の患者が退院して浄霊をうけに来た。<br><br>との話も度々聴くところである。<br><br>明主様が、その著者を公けにされた目的はこれだけでも充分達せられた訳であるが、表題の『信仰』の文字を見ただけで敬遠したむきも有ったように聞いている。<br><br>これは今までの宗教に病いを治す力が無かったからで、その人たちにしてみれば神仏にも見放された思いでおり、精神的な面はどうであれ、病いは信仰では治らぬ。<br><br>と決めていたからであろう。<br><br> 明主様のご本を一読すれば、不治と目せられている結核が、医薬に依存する限りにおいては不治であっても浄霊によれば必治の病いであって、数十万に及ぶこの種の患者に光明を与え、暗黒の死から歓喜の生へ導びかんとする神のみ心の発露であり、結核、恐るるに足らず。<br><br>の確信を得て歓喜の彼岸に達することが容易であるにもかかわらず、医薬にのみ頼って信仰を拒否する頑迷な無神者には、この真理の書、光明の書さえも無用の書。<br><br>と見誤られたようである。<br><br> 私は思う。<br><br>この様に心の奥底までも病菌に蝕ばまれている人々の迷夢を揺り覚すには、こうした人々が無條件に信頼を寄せている医学者から、医薬に頼るの愚を知らせて貰うことが最も捷径であると。<br><br>私のこの願いは意外にも早く叶えられた。<br><br>というのは、結核信仰療法の御本が発刊されて以来、結核治療の大家たちが口を揃えて薬の効かないことを言い出したからである。<br><br>寛仁大度でお在す神様は、眼前にある坦々たる大道を無視し、好んで茨の道、滅びの道を往く無神者になお救わるべき機会をお与えなさるため、彼等が信奉する専門家の口を藉りて反省させるのであろう。<br><br>神様のコトバを聞き入れない人々が薬が効かない。<br><br>と歎息する専門医家の次のようなコトバをどんな気持で聞くであろうか。<br><br> 結核予防会、結核研究所長である隈部英雄博士は結核治療の限度と題し東京新聞に左の一文を寄せている。<br><br> 『すべてのことがらには限度があるのと同様に、ただ無批判に何んでもかでも、結核は薬さえ注射すれば治るもの、手術をうけさえすれば治るものと考えたら大きな間違いである。<br><br>素人考えで効果のない時期、あるいは病型にやたらに用いたりしていると、いざという時、たとえばどうしても手術をしなければならないような時に、結核菌が薬になれてしまっていて、もうその薬は効かなくなり、手術の結果が悪かったり、手術を断念せぎるを得なくなるような例がしばしばある。<br><br>』と薬の効果の限度そのものより結核治療そのものにすでに限界がある。<br><br>と取れるような発言をしているのである。<br><br> 前東大教授で結核病理学者として令名の高い岡治道博士は朝日新聞で『近ごろでは人間も大分利口になって結核菌をやっつける薬を考え出したが、薬ができたとたんに結核菌のほうでも平気で薬のなかで生きて行けるような生活方法を工夫し出した。<br><br>平気でいるだけでなく薬が来ると余計に繁殖できるような変り方さえ始めたらしい。<br><br>結核菌は人間が何か新らしい薬を考えて彼等を困らせると変異という手でそれに答えて来る。<br><br>人間は次々に新らしい薬を考え出すだろう。<br><br>そのたびに結核菌は新たな変異をやるだろう。<br><br>将来、人間は薬を使うのにひどく骨の折れる時代にめぐり会うことであろう。<br><br>それは人間の知識の所産なのだから止むを得ない結果なのである。<br><br>』 岡博士のコトバは卓見である。<br><br>見方は違っていても薬の効かなくなる時を予見しているからだ。<br><br> 同じく東大教授の秋葉朝一郎博士は、治療薬は進歩したがその反面にこの赤信号、との見出しで東京新聞に談話を発表している。<br><br> 『ストマイを服用することによって患者の痰を調べると判るように、菌が著るしく減り病勢がだんだんと軽快してくる。<br><br>ところが、この様に何億かのうち九十九％以上の感性菌は死滅しても、残るわずかな菌（抵抗菌）は復活して徐々に増殖し始め、それにつれて患者の病勢の軽快はとまってくる。<br><br>すなわち患者に四カ月もつづいて投与すると、ストマイでは六十＝七十％パスで二十％、ヒドラジットやチビオンで四十＝五十％が抵抗株になる。<br><br>将来において、ズルホンアミド剤が効かない赤痢菌が現在拡がっているのと同様に、広く拡がる可能性もある事を警戒されるのである。<br><br>』秋葉博士のこのコトバから引き出される私の考えは、薬は一時押えの役目であって、それを服用することはなお更、病勢を悪化させる。<br><br>即ち薬毒が科学的に立証された。<br><br>との考えである。<br><br> 東大教授で伝研所員を兼ねておられる細谷博士も、菌の抵抗性の増進に戦慄してこう言っている。<br><br>『敵もさるもの、薬剤耐性という作戦とモニリヤ（カビの一種）という危機打者でたい勢を挽回した。<br><br>最近ペニシリン耐性の淋菌による患者が頓に数を増し、かつては十万単位位の投薬で癒ったのに今では何百万単位でも癒らないものがざらであり、化膿症然り、丹毒また然り、ストマイ耐性結核菌に悩む病者も頻発している。<br><br>かてて加えて従来はほとんど意味のなかったモニリヤがすべての抗生物質によって却って発育が助勢されたという特性のために、いろいろの病気を起し名医も治療法なき事を嘆じている。<br><br>人知とバイ菌との対立は、米ソのそれよりも厳しいものがある。<br><br>』と、かねて明主様が教えを垂れておられたとおり、薬が病気を作っているとのお言葉をそのまま裏書し、薬で病気が治らない時期がもはや現在きている、と嘆いているのである。<br><br>次に北里研究所員、水之江公英氏のコトバを紹介して私の総括的な感想を誌したい。<br><br> 水之江氏は『実際に臨床の上では、薬を使い始めたときには驚ろくほどよく効くが、菌が抵抗性を獲得しはじめると、その薬はもはや効かなくなる。<br><br>医者にとっても、患者にとっても大へんな問題である。<br><br>』と、ここでも薬の効かなくなったことを朝日新聞に書いている。<br><br> 以上挙げたように、吾国での権威ある結核病理学者や、経験の深い著名な臨床医家のコトバは、私たち救世教の信者にとっても興味ある話である。<br><br>この人たちの言っている事の総てが、明主様のみ教えの正しさを証明し、究極において医学の誤謬を認める結果になっているからである。<br><br>そうしてこれらの人々は、結核菌のみならず他のバイ菌の抵抗性にも対応していけない。<br><br>と悲鳴をあげて、病気を癒す方途は全然、示していない『信仰で病気が治るなら医者も薬もいらない筈だ。<br><br>』と冷笑している人々がこれら医家のコトバを読めば、冷水三斗―身も心も凍る思いであろう。<br><br> 人間が研究に研究を重ねて到達した科学の所産である特効薬が、逆に菌に変異をもたらせ、薬を無力化させて病人を氾濫させている状態は原子爆弾が発明された為にかえってその偉力に脅えていなければならないのに似ており、まったく、米、ソの対立より以上に身近に感じられる切実な大問題であろう。<br><br> これらの専門家たちは、高度に馴致された結核菌を絶滅すべく、より強力な薬を創製するかも知れないがその苦心に報いられるものは、又々菌の変異であって益々、病状を難症ならしめる事だけは容易に想像されるのである。<br><br>薬に適応して自からの体質を改造してゆく結核菌が、高速度で走る電気機関車である。<br><br>とすれば現在の医学は人間自身の脚力でそれを追っている様なものであって、正しく戯画のそれでしかなく、人間と電気機関車の駆けくらべをしている。<br><br>この諷刺画の前に立たされている結核患者こそ、救いのない運命に泣かなくてはならないのだ。<br><br> 文化といい科学というも病気の因を知らずに果を逐って菌の抵抗性克服に智能を傾むけている。<br><br>現代医学の誤謬を、こうして指摘し、平然としていられるのは、我々救世教信者には、浄霊という強力無比な治病の業を与えられているからに外ならない。<br><br> 専門医家、五氏の発表した、これらのコトバは、結核患者に対して『薬に頼るな』との警告であることは疑いもないが、私は、これらのコトバが医学への晩鐘であり、挽歌の一節のように聞えてならない。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Zombar do Bacilo da Tuberculose</h2>
 <p>A recente publicação da obra de Meishu-Sama, intitulada <em>Terapia da Fé para a Tuberculose</em>, suscitou uma notável repercussão entre os enfermos. Relatos de pacientes que, em meio à sua internação, optam por abandonar o tratamento hospitalar para receber Johrei tornaram-se recorrentes. Ainda que apenas por esse motivo, o propósito de Meishu-Sama ao publicá-la já se pode considerar plenamente atingido. Soube, contudo, que muitos a repeliram ao deparar-se simplesmente com a palavra "fé" no título. Tal atitude se explica pela ineficácia das religiões do passado em curar enfermidades, o que levou essas pessoas a se sentirem desamparadas até mesmo por Deus e a se convencerem, em definitivo, de que, independentemente de qualquer amparo espiritual, a fé é impotente para erradicar a doença.</p>
@@ -113,5 +265,48 @@ function toggleLang(lang) {
 <p>Esses especialistas talvez consigam criar fármacos ainda mais potentes para exterminar os bacilos altamente adaptados, mas é fácil imaginar que seus esforços serão recompensados apenas com novas mutações, tornando o quadro clínico cada vez mais complexo. Se o bacilo da tuberculose, que se adapta aos remédios e reconstrói sua própria constituição, é uma locomotiva elétrica em alta velocidade, a medicina atual assemelha-se a um homem que tenta alcançá-la correndo com as próprias pernas. É, em suma, uma caricatura. O paciente de tuberculose, colocado diante dessa cena farsesca, está condenado a chorar por seu destino sem esperança.</p>
 <p>A chamada cultura e a dita ciência, por desconhecerem a causa primordial das doenças, limitam-se a perseguir seus efeitos, concentrando toda a sua inteligência na superação da resistência dos bacilos. Se nós, membros da Igreja Messiânica Mundial, podemos apontar com serenidade os erros da medicina moderna, é unicamente porque nos foi outorgada a arte do Johrei, um método de cura de poder incomparável.</p>
 <p>As declarações dos cinco especialistas aqui citados são, sem sombra de dúvida, uma advertência aos portadores de tuberculose: "Não confiem nos medicamentos". Contudo, para mim, suas palavras soam como o dobrar dos sinos que anunciam o crepúsculo da medicina; ecoam como um fragmento de uma canção fúnebre.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核菌は嗤う 槐安生 『栄光』223号、昭和28(1953)年8月26日発行 明主様が、今春、公刊せられた『結核の信仰療法』の御著述は、療養者の間に反響を呼び、入院中の患者が退院して浄霊をうけに来た。<br/><br/>との話も度々聴くところである。<br/><br/>明主様が、その著者を公けにされた目的はこれだけでも充分達せられた訳であるが、表題の『信仰』の文字を見ただけで敬遠したむきも有ったように聞いている。<br/><br/>これは今までの宗教に病いを治す力が無かったからで、その人たちにしてみれば神仏にも見放された思いでおり、精神的な面はどうであれ、病いは信仰では治らぬ。<br/><br/>と決めていたからであろう。<br/><br/> 明主様のご本を一読すれば、不治と目せられている結核が、医薬に依存する限りにおいては不治であっても浄霊によれば必治の病いであって、数十万に及ぶこの種の患者に光明を与え、暗黒の死から歓喜の生へ導びかんとする神のみ心の発露であり、結核、恐るるに足らず。<br/><br/>の確信を得て歓喜の彼岸に達することが容易であるにもかかわらず、医薬にのみ頼って信仰を拒否する頑迷な無神者には、この真理の書、光明の書さえも無用の書。<br/><br/>と見誤られたようである。<br/><br/> 私は思う。<br/><br/>この様に心の奥底までも病菌に蝕ばまれている人々の迷夢を揺り覚すには、こうした人々が無條件に信頼を寄せている医学者から、医薬に頼るの愚を知らせて貰うことが最も捷径であると。<br/><br/>私のこの願いは意外にも早く叶えられた。<br/><br/>というのは、結核信仰療法の御本が発刊されて以来、結核治療の大家たちが口を揃えて薬の効かないことを言い出したからである。<br/><br/>寛仁大度でお在す神様は、眼前にある坦々たる大道を無視し、好んで茨の道、滅びの道を往く無神者になお救わるべき機会をお与えなさるため、彼等が信奉する専門家の口を藉りて反省させるのであろう。<br/><br/>神様のコトバを聞き入れない人々が薬が効かない。<br/><br/>と歎息する専門医家の次のようなコトバをどんな気持で聞くであろうか。<br/><br/> 結核予防会、結核研究所長である隈部英雄博士は結核治療の限度と題し東京新聞に左の一文を寄せている。<br/><br/> 『すべてのことがらには限度があるのと同様に、ただ無批判に何んでもかでも、結核は薬さえ注射すれば治るもの、手術をうけさえすれば治るものと考えたら大きな間違いである。<br/><br/>素人考えで効果のない時期、あるいは病型にやたらに用いたりしていると、いざという時、たとえばどうしても手術をしなければならないような時に、結核菌が薬になれてしまっていて、もうその薬は効かなくなり、手術の結果が悪かったり、手術を断念せぎるを得なくなるような例がしばしばある。<br/><br/>』と薬の効果の限度そのものより結核治療そのものにすでに限界がある。<br/><br/>と取れるような発言をしているのである。<br/><br/> 前東大教授で結核病理学者として令名の高い岡治道博士は朝日新聞で『近ごろでは人間も大分利口になって結核菌をやっつける薬を考え出したが、薬ができたとたんに結核菌のほうでも平気で薬のなかで生きて行けるような生活方法を工夫し出した。<br/><br/>平気でいるだけでなく薬が来ると余計に繁殖できるような変り方さえ始めたらしい。<br/><br/>結核菌は人間が何か新らしい薬を考えて彼等を困らせると変異という手でそれに答えて来る。<br/><br/>人間は次々に新らしい薬を考え出すだろう。<br/><br/>そのたびに結核菌は新たな変異をやるだろう。<br/><br/>将来、人間は薬を使うのにひどく骨の折れる時代にめぐり会うことであろう。<br/><br/>それは人間の知識の所産なのだから止むを得ない結果なのである。<br/><br/>』 岡博士のコトバは卓見である。<br/><br/>見方は違っていても薬の効かなくなる時を予見しているからだ。<br/><br/> 同じく東大教授の秋葉朝一郎博士は、治療薬は進歩したがその反面にこの赤信号、との見出しで東京新聞に談話を発表している。<br/><br/> 『ストマイを服用することによって患者の痰を調べると判るように、菌が著るしく減り病勢がだんだんと軽快してくる。<br/><br/>ところが、この様に何億かのうち九十九％以上の感性菌は死滅しても、残るわずかな菌（抵抗菌）は復活して徐々に増殖し始め、それにつれて患者の病勢の軽快はとまってくる。<br/><br/>すなわち患者に四カ月もつづいて投与すると、ストマイでは六十＝七十％パスで二十％、ヒドラジットやチビオンで四十＝五十％が抵抗株になる。<br/><br/>将来において、ズルホンアミド剤が効かない赤痢菌が現在拡がっているのと同様に、広く拡がる可能性もある事を警戒されるのである。<br/><br/>』秋葉博士のこのコトバから引き出される私の考えは、薬は一時押えの役目であって、それを服用することはなお更、病勢を悪化させる。<br/><br/>即ち薬毒が科学的に立証された。<br/><br/>との考えである。<br/><br/> 東大教授で伝研所員を兼ねておられる細谷博士も、菌の抵抗性の増進に戦慄してこう言っている。<br/><br/>『敵もさるもの、薬剤耐性という作戦とモニリヤ（カビの一種）という危機打者でたい勢を挽回した。<br/><br/>最近ペニシリン耐性の淋菌による患者が頓に数を増し、かつては十万単位位の投薬で癒ったのに今では何百万単位でも癒らないものがざらであり、化膿症然り、丹毒また然り、ストマイ耐性結核菌に悩む病者も頻発している。<br/><br/>かてて加えて従来はほとんど意味のなかったモニリヤがすべての抗生物質によって却って発育が助勢されたという特性のために、いろいろの病気を起し名医も治療法なき事を嘆じている。<br/><br/>人知とバイ菌との対立は、米ソのそれよりも厳しいものがある。<br/><br/>』と、かねて明主様が教えを垂れておられたとおり、薬が病気を作っているとのお言葉をそのまま裏書し、薬で病気が治らない時期がもはや現在きている、と嘆いているのである。<br/><br/>次に北里研究所員、水之江公英氏のコトバを紹介して私の総括的な感想を誌したい。<br/><br/> 水之江氏は『実際に臨床の上では、薬を使い始めたときには驚ろくほどよく効くが、菌が抵抗性を獲得しはじめると、その薬はもはや効かなくなる。<br/><br/>医者にとっても、患者にとっても大へんな問題である。<br/><br/>』と、ここでも薬の効かなくなったことを朝日新聞に書いている。<br/><br/> 以上挙げたように、吾国での権威ある結核病理学者や、経験の深い著名な臨床医家のコトバは、私たち救世教の信者にとっても興味ある話である。<br/><br/>この人たちの言っている事の総てが、明主様のみ教えの正しさを証明し、究極において医学の誤謬を認める結果になっているからである。<br/><br/>そうしてこれらの人々は、結核菌のみならず他のバイ菌の抵抗性にも対応していけない。<br/><br/>と悲鳴をあげて、病気を癒す方途は全然、示していない『信仰で病気が治るなら医者も薬もいらない筈だ。<br/><br/>』と冷笑している人々がこれら医家のコトバを読めば、冷水三斗―身も心も凍る思いであろう。<br/><br/> 人間が研究に研究を重ねて到達した科学の所産である特効薬が、逆に菌に変異をもたらせ、薬を無力化させて病人を氾濫させている状態は原子爆弾が発明された為にかえってその偉力に脅えていなければならないのに似ており、まったく、米、ソの対立より以上に身近に感じられる切実な大問題であろう。<br/><br/> これらの専門家たちは、高度に馴致された結核菌を絶滅すべく、より強力な薬を創製するかも知れないがその苦心に報いられるものは、又々菌の変異であって益々、病状を難症ならしめる事だけは容易に想像されるのである。<br/><br/>薬に適応して自からの体質を改造してゆく結核菌が、高速度で走る電気機関車である。<br/><br/>とすれば現在の医学は人間自身の脚力でそれを追っている様なものであって、正しく戯画のそれでしかなく、人間と電気機関車の駆けくらべをしている。<br/><br/>この諷刺画の前に立たされている結核患者こそ、救いのない運命に泣かなくてはならないのだ。<br/><br/> 文化といい科学というも病気の因を知らずに果を逐って菌の抵抗性克服に智能を傾むけている。<br/><br/>現代医学の誤謬を、こうして指摘し、平然としていられるのは、我々救世教信者には、浄霊という強力無比な治病の業を与えられているからに外ならない。<br/><br/> 専門医家、五氏の発表した、これらのコトバは、結核患者に対して『薬に頼るな』との警告であることは疑いもないが、私は、これらのコトバが医学への晩鐘であり、挽歌の一節のように聞えてならない。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

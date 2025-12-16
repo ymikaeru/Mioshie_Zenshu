@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>isyano</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,60 +239,54 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医者の遁辞 『救世』49号、昭和25(1950)年2月11日発行 医師がいくら骨折っても、予期の効果が表われない場合、決って言う言葉は「あなたの病気の治らないのは体質のためである」とか「千人に一人または万人に一人しかない珍しい病気」などというのである、なるほどそういう患者も稀にはあるであろうが、そういう話をあまりに多く聞くので妙な感じがする、どうも巧妙な遁辞でないかとさえ思えるのである。<br><br> 以前こういう事を聞いた事がある、医師が「あなたの病気は私には判らない、従って請合う事も出来ないが、それでよければ診療してみよう」という医師は名医であるそうである、なるほどかような医師こそ正直で良心的であるからである、ところが大抵の医師はなかなか病気が判らないとは言わない、もっともらしい理屈をつけて判ったらしい顔をする、という事はもしありのまんまを言ったらその医師を信用しない事になるから、医業は成立たない以上やむを得ないともいえる、考えてみればお医者さんも難しい職業である、いつもいうごとく誤っている医学であるから、いくら一生懸命やっても思うように治るはずがないから、右のような事になるので一面尊敬されながら、一面怨まれるというのが実情であろう。<br><br> これについて以前某医博の述懐談を聞いた事がある、たとえば今日は某患者の家に行くが、無論悪化しているに違いないから、何と説明したら本人も家族も納得するだろうかと考える、また死亡の場合、いかなる原因によるかという理由を作らなければならない、という事が往々にあるので、これが一番苦労の種であるというので、なるほどと思った訳である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>As Escusas da Medicina</h2>
 <p>Quando, apesar de todos os esforços de um médico, os resultados esperados não se manifestam, é comum que ele recorra a certas justificativas. As mais frequentes são: “A incurabilidade de sua doença deve-se à sua constituição física” ou “Trata-se de uma patologia rara, que acomete uma pessoa em mil, ou mesmo em dez mil”. Decerto, pacientes nessas condições podem existir, embora sejam raros. Contudo, ao ouvir tais justificativas com demasiada frequência, sou tomado por uma estranha sensação, a ponto de me perguntar se não se trata de engenhosas escapatórias.</p>
 <p>Certa vez, ouvi uma história a esse respeito. Um profissional que afirma: “Não compreendo a sua doença e, portanto, não posso garantir a cura. Se, ainda assim, estiver de acordo, posso tentar examiná-lo”, seria considerado um mestre em sua arte. De fato, um profissional assim demonstra honestidade e consciência. Todavia, a maioria dos médicos reluta em admitir seu desconhecimento. Eles preferem apresentar um raciocínio plausível, aparentando ter compreendido o caso. Isso ocorre porque, se falassem com total sinceridade, os pacientes perderiam a confiança, tornando a prática médica insustentável. Sob essa ótica, sua atitude é, de certa forma, inevitável. Ponderando sobre o assunto, percebemos que a medicina é, de fato, uma profissão árdua. Como sempre afirmo, ela está fundamentada em equívocos. Por essa razão, por mais que os médicos se dediquem, é natural que não alcancem os resultados desejados. Essa conjuntura leva à situação na qual eles são, por um lado, reverenciados e, por outro, alvo de ressentimento. Essa é a realidade dos fatos.</p>
 <p>A esse respeito, recordo-me do desabafo de um certo doutor em medicina. Ele confidenciou que, ao se dirigir à casa de um paciente, já imaginava que seu estado teria piorado. Sua principal angústia era pensar em como explicar a situação de modo que tanto o doente quanto seus familiares ficassem convencidos. Ademais, nos casos de falecimento, ele se via frequentemente na obrigação de criar uma justificativa para a causa da morte. Ele afirmava que essa era a sua maior fonte de sofrimento. Ao ouvir seu relato, compreendi perfeitamente a situação.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医者の遁辞 『救世』49号、昭和25(1950)年2月11日発行 医師がいくら骨折っても、予期の効果が表われない場合、決って言う言葉は「あなたの病気の治らないのは体質のためである」とか「千人に一人または万人に一人しかない珍しい病気」などというのである、なるほどそういう患者も稀にはあるであろうが、そういう話をあまりに多く聞くので妙な感じがする、どうも巧妙な遁辞でないかとさえ思えるのである。<br/><br/> 以前こういう事を聞いた事がある、医師が「あなたの病気は私には判らない、従って請合う事も出来ないが、それでよければ診療してみよう」という医師は名医であるそうである、なるほどかような医師こそ正直で良心的であるからである、ところが大抵の医師はなかなか病気が判らないとは言わない、もっともらしい理屈をつけて判ったらしい顔をする、という事はもしありのまんまを言ったらその医師を信用しない事になるから、医業は成立たない以上やむを得ないともいえる、考えてみればお医者さんも難しい職業である、いつもいうごとく誤っている医学であるから、いくら一生懸命やっても思うように治るはずがないから、右のような事になるので一面尊敬されながら、一面怨まれるというのが実情であろう。<br/><br/> これについて以前某医博の述懐談を聞いた事がある、たとえば今日は某患者の家に行くが、無論悪化しているに違いないから、何と説明したら本人も家族も納得するだろうかと考える、また死亡の場合、いかなる原因によるかという理由を作らなければならない、という事が往々にあるので、これが一番苦労の種であるというので、なるほどと思った訳である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

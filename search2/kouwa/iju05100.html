@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>iju05100</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇（五） 四肢、皮膚 疾患、毛髪 ６ 110-118 皮膚疾患２ 100 掻痒の二原因 薬毒の場合と天然痘毒素の場合とある。<br><br>痒いのは天然痘である。<br><br>二、三年で治る。<br><br>（S23.11.16） 101 斑点の掻痒感 昭和二十三年八月教修を戴きました十七歳の女子信徒、昨年十一月頃より胸部及び頸部に黒色の斑点が数ケ所に現われ、本年六月頃より斑点が集合して胸部に拳大となりました。<br><br>その他に小斑点が新たに肩部辺りに現われております。<br><br>斑点は掻痒感を感ぜられます。<br><br>教修を戴く以前に気胸を二十回程行っております。<br><br>その外に薬は余り服用致しておりません。<br><br>右の原因について御教示を御願い致します。<br><br> 大変結構である。<br><br>毒血が寄ってくるのである。<br><br>すごく大きく腫れてくる。<br><br>そしてブヨブヨして破れ、血膿になって出る。<br><br>（S24. 7.19） 102 掻痒苦の少女 十三歳の少女、顔以外の全身の皮膚に小豆大の白い斑点が出て毎夜掻痒苦に悩んでおります。<br><br>普通の疥癬と違うようですが、これはいかがでしょうか。<br><br> これは普通の毒素は然毒であるが、その外に薬毒が混っている。<br><br> 103 疥癬の原理 疥癬は必ず出るものでしょうか。<br><br> 必ず出る。<br><br>ただ薬を服まぬ人は少ない。<br><br>心を包んでるのは人間の霊であり、その霊体の曇りが浄まると肉体の曇り（膿と毒）が押し出される。<br><br>それが疥癬となる。<br><br>（S24. 7.27） 104 疥癬の原因 医者の言によれば、栄養失調患者に疥癬が出ると云われます。<br><br>いかなる訳で御座いましょうか。<br><br>御教示を御願い致します。<br><br> 全然違う。<br><br>疥癬とは天然痘の毒素である。<br><br>天然痘の毒素即ち然毒の出るのを種痘で止める。<br><br>然毒は止めても無くなるものでない。<br><br>防ぎきりにはならぬ。<br><br>種痘で止められているから、勢いがなくなり、チビチビ出るのである。<br><br> 故に、天然痘は急性であり、疥癬は慢性天然痘と思えばよい。<br><br>（S24. 6.25） 105 疥癬の腫脹の浄霊個所 疥癬で右手足が腫れた所の浄霊法（六○六号二十本――）―― 腫れた所と、特に頭を浄霊せよ。<br><br> 106 疥癬の浮腫 疥癬患者の顔面にむくみが来るのは浄霊が足らない故ですか。<br><br>他に原因がありますか。<br><br>お尋ねします。<br><br> 溶けて押し出されるのが普通で、浄霊が足りないためと、する人の力が足りない。<br><br>顔だけでなく体中にゆく人もある。<br><br>硫黄の湯で停めると浮腫（むく）むが、内臓を圧迫するから危険である。<br><br>天然痘の毒である。<br><br>疥癬は慢性天然痘である。<br><br>一旦種痘で停めても出さなくてはいけない。<br><br>（S23.11.27） 107 疥癬で浮腫・排尿半減 本年五十六歳の男子、昭和二十三年一月入信致しております。<br><br>昨年十二月より疥癬の御浄化を頂き昼夜御浄霊を戴いておりますが、むくみが甚しく、一進一退で、尿量も一日一升程度出ておりましたのが最近半減し、その上便秘のため排便に非常な苦痛を伴います。<br><br>胸元は苦しゅう御座いますが、かなり眠られるようで御座います。<br><br>夢をよく見て、とりとめもない寝言を申します。<br><br>食事は一杯ずつ頂いていましたが、最近は重態で御座います。<br><br>なお三十七歳の頃株に手を出し、その返済に七人程の者に二割ばかりの損をかけた事が御座いますので、その恨みではないかとも存じます。<br><br>このような事が何か関係御座いましょうか。<br><br>（七人の中四人は霊界人となっております）なお本人の妻は長年のリュウマチスにて苦しみ、入信二ケ月前より歩行が出来ず、長男も結核の御浄化を頂いておりましたが、最近両人共疥癬を頂き感謝致しております。<br><br>右につき御教えをお願い申し上げます。<br><br> 疥癬は一時浮腫が出る。<br><br>腹の中が溶けて皮膚から出るのが間に合わぬので、無理に出そうとするから苦しい。<br><br>便秘は何でもない。<br><br>夢も結構である。<br><br> 株で損をかけた霊ではなく、普通の浄化である。<br><br>リュウマチは治る。<br><br>膝の裏、臀部の下の所をする。<br><br>（S25. 3.21） 108 疥癬で全身浄化 四年前教修を受けた者、その間御浄霊を致し、一昨年秋より疥癬となり、浄化激しく、特に天候に左右され、その度に神経興奮し、喉の左右に強く圧迫を感じ、心臓は強く打ち、鼻、目、舌に症状あり、平素考える力無き上に、その場合は特に甚しいように思われます。<br><br>寒い時、起床一、二時間後、夕方など変化強く、最近衰弱致すように思われますが、主にどこを御浄霊致しましたならよろしゅう御座いましょうか。<br><br>御教示御願い申し上げます。<br><br> 全身浄化である。<br><br>仕方ない。<br><br>急には治らぬ。<br><br>ひどくなると死ぬかと思う事がある。<br><br>（S24. 9. 3） 109 疥癬 どんな人にでも疥癬は出るのですか。<br><br>もし疥癬が出ない人は、地上天国に残れないのですか。<br><br> 地上天国と疥癬とはピッタリ行かぬ。<br><br>天然痘の毒素であるから、種痘渡来前はなかった。<br><br>疥癬は要するに慢性天然痘であって、借金を徐々に返す訳になる。<br><br> 110 疥癬の痛み 疥癬で針を刺すように痛むのは薬毒ですか。<br><br> 薬毒である。<br><br>洋薬で、痛みは全部薬である。<br><br>（S23.10.27） 111 肘から腕離すと箸持てず 私の妻が昨年七月から中風で十日程寝ておりましたが、右半身がきかなくなり、今の所右肘を体につければ箸を持てますが、肘を離すと人差指と親指が動きません。<br><br>なお、委しいことは口頭にて申し上げます故、御教授御願い申し上げます。<br><br> 疥癬はよく心臓が弱る。<br><br>非常に早く治るのと遅いのとある。<br><br>腕の付け根から肩胛骨をよくすれば治る。<br><br>眠れぬのは延髄によく固結がある。<br><br>気長にする。<br><br>（S24. 2. 9） 112 執拗なる田虫 軍隊に応召中に田虫に罹り、復員後最初股に出たのが年々増して今は全身に出て、毎年夏はひどく、秋から冬に治りますが、家内中感染して困ります。<br><br>毎日のように浄霊を受けておりますが、全治致すものでしょうか。<br><br>なお、若い時に罹った者は二十年以上経たねば治らぬと云う人もあります。<br><br>いかがでしょうか。<br><br> 薬毒の場合と天然痘毒素の場合とある。<br><br>痒いのは天然痘である。<br><br>二、三年で治る。<br><br>（S24. 5.16） 113 田虫の原因 田虫の霊的関係を承ります。<br><br> 一種の虫が湧くのである。<br><br>うつる場合がある。<br><br>それは虫が育つだけの毒があるからである。<br><br>疥癬でもすべて毒の掃除をする。<br><br>本当からいえば虫に御苦労様と言いたい位のものである。<br><br>で、毒があるだけは繁殖してゆく。<br><br>毒は大体血液にあって、それが段々皮膚面へ滲出してくるのである。<br><br>毒が減れば人間は老衰が遅くなる。<br><br>そして寿命が延びる、浄めて早く治るのは、血液中の毒が減るからである。<br><br> 114 水虫 私は三十年来の水虫で弱っております。<br><br>御浄霊を受けてから約一年になりますが、相当ただ今出ております。<br><br>何の毒素でございましょうか。<br><br> 霊的ではない。<br><br> 重い薬が足に行ったものである。<br><br>浄化の起る場合、靴をはくと、空気の流通が悪いため指の股へ寄った毒が出がわるい。<br><br>また、薬をつけて水虫を保存するようなものである。<br><br> 虫は、古い毒へ微生物が発生して、毒を食ってくれるため、早く治る訳である。<br><br> 115 水虫の原因 水虫は昆虫霊の憑依と伺っておりますが、田虫、インキンもやはり昆虫の霊でございましょうか。<br><br>また、なぜ水虫は足に憑依するので御座いましょうか。<br><br>御伺い申し上げます。<br><br> 憑依ではない。<br><br>虫が湧くのである。<br><br>また、重い薬は足へ垂れる。<br><br>水虫は薬毒が溜ったのへ虫が湧く。<br><br>人間、薬を服まなければ（水）虫は起らぬ。<br><br>人造病である。<br><br>田虫もそうである。<br><br>（S24. 5. 1） 116 シラクモの病原 シラクモは霊的なものでしょうか。<br><br>また、浄霊により治るでしょうか。<br><br> 霊的ではない。<br><br>親の薬毒である。<br><br>即ち昔は胎毒と言い、今は遺伝梅毒と言うもので、その分泌物が多い場合、固まってシラクモになる。<br><br> 117 ハタケ・シラクモの浄霊 顔や頭などに出来るハタケやシラクモの原因及び浄霊法をお教え下さい。<br><br> 薬毒が皮膚へ出てくる。<br><br>薬毒はその人の状態で方々から出る。<br><br>毛細管から滲み出して、乾燥する。<br><br>その患部を浄霊すればよい。<br><br>（S24. 5.15） 118 シラクモ薬で拡がる 私の二男（十六歳）が七、八年前から頭にシラクモが出来ましたので、色々薬などをつけ、ありふれた手当をいたしましたが、一向に治らぬのみか、段々手と足に蔓延して、手と足のひらがアカギレのように裂けて、下駄を履くのも困難な程痛んで参りますので、温泉にも行きましたが全然治りません。<br><br>最近に至って浄霊を頂き、ただ今迄約二十日位経ちますが、段々良くなるのが目に見えます。<br><br>誠にありがたく感謝致しております。<br><br>このシラクモまたは田虫の原因について―― 薬をつけたから治らぬ。<br><br>薬を連用していると方々へ拡がってどうにもならなくなる。<br><br>薬の恐ろしい事を悟るべきである。<br><br>シラクモの因は薬毒である。<br><br>（病気である）。<br><br>（S24. 2.15）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>As Duas Causas do Prurido</h2>
 <p>Existem duas causas: o <em>yakudoku</em> e a toxina da varíola. A coceira, em si, provém da toxina da varíola. A cura leva de dois a três anos.</p>
@@ -148,5 +300,48 @@ function toggleLang(lang) {
 <h2>O Shirakumo que se Alastra com o Uso de Medicamentos</h2>
 <p>Meu segundo filho, hoje com dezesseis anos, desenvolveu <em>shirakumo</em> na cabeça há sete ou oito anos. Tentamos diversos medicamentos e tratamentos convencionais, mas a condição não apenas persistiu como se espalhou gradualmente para as mãos e os pés. As palmas das mãos e as solas dos pés se fendem como pele ressecada, tornando doloroso até mesmo o ato de calçar sandálias. Recorremos a tratamentos em águas termais, sem qualquer resultado. Há cerca de vinte dias ele começou a receber Johrei, e a melhora é visível. Estamos imensamente gratos. Qual é a causa desse <em>shirakumo</em>?</p>
 <p>A doença não sarou precisamente porque foram aplicados medicamentos. O uso contínuo de remédios faz com que ela se alastre por toda parte, tornando-se intratável. É imperativo que se compreenda a natureza aterradora dos medicamentos. A causa do <em>shirakumo</em> é o <em>yakudoku</em>, que constitui a própria doença.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇（五） 四肢、皮膚 疾患、毛髪 ６ 110-118 皮膚疾患２ 100 掻痒の二原因 薬毒の場合と天然痘毒素の場合とある。<br/><br/>痒いのは天然痘である。<br/><br/>二、三年で治る。<br/><br/>（S23.11.16） 101 斑点の掻痒感 昭和二十三年八月教修を戴きました十七歳の女子信徒、昨年十一月頃より胸部及び頸部に黒色の斑点が数ケ所に現われ、本年六月頃より斑点が集合して胸部に拳大となりました。<br/><br/>その他に小斑点が新たに肩部辺りに現われております。<br/><br/>斑点は掻痒感を感ぜられます。<br/><br/>教修を戴く以前に気胸を二十回程行っております。<br/><br/>その外に薬は余り服用致しておりません。<br/><br/>右の原因について御教示を御願い致します。<br/><br/> 大変結構である。<br/><br/>毒血が寄ってくるのである。<br/><br/>すごく大きく腫れてくる。<br/><br/>そしてブヨブヨして破れ、血膿になって出る。<br/><br/>（S24. 7.19） 102 掻痒苦の少女 十三歳の少女、顔以外の全身の皮膚に小豆大の白い斑点が出て毎夜掻痒苦に悩んでおります。<br/><br/>普通の疥癬と違うようですが、これはいかがでしょうか。<br/><br/> これは普通の毒素は然毒であるが、その外に薬毒が混っている。<br/><br/> 103 疥癬の原理 疥癬は必ず出るものでしょうか。<br/><br/> 必ず出る。<br/><br/>ただ薬を服まぬ人は少ない。<br/><br/>心を包んでるのは人間の霊であり、その霊体の曇りが浄まると肉体の曇り（膿と毒）が押し出される。<br/><br/>それが疥癬となる。<br/><br/>（S24. 7.27） 104 疥癬の原因 医者の言によれば、栄養失調患者に疥癬が出ると云われます。<br/><br/>いかなる訳で御座いましょうか。<br/><br/>御教示を御願い致します。<br/><br/> 全然違う。<br/><br/>疥癬とは天然痘の毒素である。<br/><br/>天然痘の毒素即ち然毒の出るのを種痘で止める。<br/><br/>然毒は止めても無くなるものでない。<br/><br/>防ぎきりにはならぬ。<br/><br/>種痘で止められているから、勢いがなくなり、チビチビ出るのである。<br/><br/> 故に、天然痘は急性であり、疥癬は慢性天然痘と思えばよい。<br/><br/>（S24. 6.25） 105 疥癬の腫脹の浄霊個所 疥癬で右手足が腫れた所の浄霊法（六○六号二十本――）―― 腫れた所と、特に頭を浄霊せよ。<br/><br/> 106 疥癬の浮腫 疥癬患者の顔面にむくみが来るのは浄霊が足らない故ですか。<br/><br/>他に原因がありますか。<br/><br/>お尋ねします。<br/><br/> 溶けて押し出されるのが普通で、浄霊が足りないためと、する人の力が足りない。<br/><br/>顔だけでなく体中にゆく人もある。<br/><br/>硫黄の湯で停めると浮腫（むく）むが、内臓を圧迫するから危険である。<br/><br/>天然痘の毒である。<br/><br/>疥癬は慢性天然痘である。<br/><br/>一旦種痘で停めても出さなくてはいけない。<br/><br/>（S23.11.27） 107 疥癬で浮腫・排尿半減 本年五十六歳の男子、昭和二十三年一月入信致しております。<br/><br/>昨年十二月より疥癬の御浄化を頂き昼夜御浄霊を戴いておりますが、むくみが甚しく、一進一退で、尿量も一日一升程度出ておりましたのが最近半減し、その上便秘のため排便に非常な苦痛を伴います。<br/><br/>胸元は苦しゅう御座いますが、かなり眠られるようで御座います。<br/><br/>夢をよく見て、とりとめもない寝言を申します。<br/><br/>食事は一杯ずつ頂いていましたが、最近は重態で御座います。<br/><br/>なお三十七歳の頃株に手を出し、その返済に七人程の者に二割ばかりの損をかけた事が御座いますので、その恨みではないかとも存じます。<br/><br/>このような事が何か関係御座いましょうか。<br/><br/>（七人の中四人は霊界人となっております）なお本人の妻は長年のリュウマチスにて苦しみ、入信二ケ月前より歩行が出来ず、長男も結核の御浄化を頂いておりましたが、最近両人共疥癬を頂き感謝致しております。<br/><br/>右につき御教えをお願い申し上げます。<br/><br/> 疥癬は一時浮腫が出る。<br/><br/>腹の中が溶けて皮膚から出るのが間に合わぬので、無理に出そうとするから苦しい。<br/><br/>便秘は何でもない。<br/><br/>夢も結構である。<br/><br/> 株で損をかけた霊ではなく、普通の浄化である。<br/><br/>リュウマチは治る。<br/><br/>膝の裏、臀部の下の所をする。<br/><br/>（S25. 3.21） 108 疥癬で全身浄化 四年前教修を受けた者、その間御浄霊を致し、一昨年秋より疥癬となり、浄化激しく、特に天候に左右され、その度に神経興奮し、喉の左右に強く圧迫を感じ、心臓は強く打ち、鼻、目、舌に症状あり、平素考える力無き上に、その場合は特に甚しいように思われます。<br/><br/>寒い時、起床一、二時間後、夕方など変化強く、最近衰弱致すように思われますが、主にどこを御浄霊致しましたならよろしゅう御座いましょうか。<br/><br/>御教示御願い申し上げます。<br/><br/> 全身浄化である。<br/><br/>仕方ない。<br/><br/>急には治らぬ。<br/><br/>ひどくなると死ぬかと思う事がある。<br/><br/>（S24. 9. 3） 109 疥癬 どんな人にでも疥癬は出るのですか。<br/><br/>もし疥癬が出ない人は、地上天国に残れないのですか。<br/><br/> 地上天国と疥癬とはピッタリ行かぬ。<br/><br/>天然痘の毒素であるから、種痘渡来前はなかった。<br/><br/>疥癬は要するに慢性天然痘であって、借金を徐々に返す訳になる。<br/><br/> 110 疥癬の痛み 疥癬で針を刺すように痛むのは薬毒ですか。<br/><br/> 薬毒である。<br/><br/>洋薬で、痛みは全部薬である。<br/><br/>（S23.10.27） 111 肘から腕離すと箸持てず 私の妻が昨年七月から中風で十日程寝ておりましたが、右半身がきかなくなり、今の所右肘を体につければ箸を持てますが、肘を離すと人差指と親指が動きません。<br/><br/>なお、委しいことは口頭にて申し上げます故、御教授御願い申し上げます。<br/><br/> 疥癬はよく心臓が弱る。<br/><br/>非常に早く治るのと遅いのとある。<br/><br/>腕の付け根から肩胛骨をよくすれば治る。<br/><br/>眠れぬのは延髄によく固結がある。<br/><br/>気長にする。<br/><br/>（S24. 2. 9） 112 執拗なる田虫 軍隊に応召中に田虫に罹り、復員後最初股に出たのが年々増して今は全身に出て、毎年夏はひどく、秋から冬に治りますが、家内中感染して困ります。<br/><br/>毎日のように浄霊を受けておりますが、全治致すものでしょうか。<br/><br/>なお、若い時に罹った者は二十年以上経たねば治らぬと云う人もあります。<br/><br/>いかがでしょうか。<br/><br/> 薬毒の場合と天然痘毒素の場合とある。<br/><br/>痒いのは天然痘である。<br/><br/>二、三年で治る。<br/><br/>（S24. 5.16） 113 田虫の原因 田虫の霊的関係を承ります。<br/><br/> 一種の虫が湧くのである。<br/><br/>うつる場合がある。<br/><br/>それは虫が育つだけの毒があるからである。<br/><br/>疥癬でもすべて毒の掃除をする。<br/><br/>本当からいえば虫に御苦労様と言いたい位のものである。<br/><br/>で、毒があるだけは繁殖してゆく。<br/><br/>毒は大体血液にあって、それが段々皮膚面へ滲出してくるのである。<br/><br/>毒が減れば人間は老衰が遅くなる。<br/><br/>そして寿命が延びる、浄めて早く治るのは、血液中の毒が減るからである。<br/><br/> 114 水虫 私は三十年来の水虫で弱っております。<br/><br/>御浄霊を受けてから約一年になりますが、相当ただ今出ております。<br/><br/>何の毒素でございましょうか。<br/><br/> 霊的ではない。<br/><br/> 重い薬が足に行ったものである。<br/><br/>浄化の起る場合、靴をはくと、空気の流通が悪いため指の股へ寄った毒が出がわるい。<br/><br/>また、薬をつけて水虫を保存するようなものである。<br/><br/> 虫は、古い毒へ微生物が発生して、毒を食ってくれるため、早く治る訳である。<br/><br/> 115 水虫の原因 水虫は昆虫霊の憑依と伺っておりますが、田虫、インキンもやはり昆虫の霊でございましょうか。<br/><br/>また、なぜ水虫は足に憑依するので御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 憑依ではない。<br/><br/>虫が湧くのである。<br/><br/>また、重い薬は足へ垂れる。<br/><br/>水虫は薬毒が溜ったのへ虫が湧く。<br/><br/>人間、薬を服まなければ（水）虫は起らぬ。<br/><br/>人造病である。<br/><br/>田虫もそうである。<br/><br/>（S24. 5. 1） 116 シラクモの病原 シラクモは霊的なものでしょうか。<br/><br/>また、浄霊により治るでしょうか。<br/><br/> 霊的ではない。<br/><br/>親の薬毒である。<br/><br/>即ち昔は胎毒と言い、今は遺伝梅毒と言うもので、その分泌物が多い場合、固まってシラクモになる。<br/><br/> 117 ハタケ・シラクモの浄霊 顔や頭などに出来るハタケやシラクモの原因及び浄霊法をお教え下さい。<br/><br/> 薬毒が皮膚へ出てくる。<br/><br/>薬毒はその人の状態で方々から出る。<br/><br/>毛細管から滲み出して、乾燥する。<br/><br/>その患部を浄霊すればよい。<br/><br/>（S24. 5.15） 118 シラクモ薬で拡がる 私の二男（十六歳）が七、八年前から頭にシラクモが出来ましたので、色々薬などをつけ、ありふれた手当をいたしましたが、一向に治らぬのみか、段々手と足に蔓延して、手と足のひらがアカギレのように裂けて、下駄を履くのも困難な程痛んで参りますので、温泉にも行きましたが全然治りません。<br/><br/>最近に至って浄霊を頂き、ただ今迄約二十日位経ちますが、段々良くなるのが目に見えます。<br/><br/>誠にありがたく感謝致しております。<br/><br/>このシラクモまたは田虫の原因について―― 薬をつけたから治らぬ。<br/><br/>薬を連用していると方々へ拡がってどうにもならなくなる。<br/><br/>薬の恐ろしい事を悟るべきである。<br/><br/>シラクモの因は薬毒である。<br/><br/>（病気である）。<br/><br/>（S24. 2.15）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

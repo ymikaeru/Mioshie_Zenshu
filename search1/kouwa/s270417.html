@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s270417</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年4月17日） 『御教え集』9号、昭和27(1952)年5月15日発行 昭和二十七年四月十七日 【御教え】 ちょっとおもしろいので、今読ませます。<br><br> （御論文「神人合一」）【栄光 一五五号】 ちょうど、今のと繋がっているようなお蔭話しですから。<br><br> （御蔭話「奇蹟以上の奇跡」） それから原子爆弾はこの御守りを懐に入れていると、まず大丈夫ですね。<br><br>そのお蔭話を出せということを言ったところが七つ来たんですよ。<br><br>そのうちの一つだけを今読ませます。<br><br>それと、論文をちょっと添えてあります。<br><br> （御論文「原爆恐るるに足らず」御蔭話「頭上にピカドン、御浄霊で大活躍」【栄光 一五三号】 まだお蔭話が六つあるんですが、これが一番良くできてますから、これ一つだけ読ませたんです。<br><br> それから話は違うけれども、今度ですね――新潟県の佐渡で自然農法の座談会があって、その記事を昨夜読んだのですが、佐渡で三十人くらいで座談会をやったんですが、一人も減収しないで、最初から少しずつ増収になってますね。<br><br>一番良いのは八俵一斗とかです。<br><br>たいてい一、二年。<br><br>三年くらいが多かったですね。<br><br>それで、勿論品質も非常に良くってだいぶ評判になったそうですがね。<br><br>ただおもしろいことは、私の言う通りにやったんです。<br><br>よく方々で自然農法をやっても、今までの習慣や、いろんな事情によって、私の言う通りにやる人は少ないですよね。<br><br>どうも――あまり違うので、信じられないんですね。<br><br>ところが佐渡だけは、私の言う通りやった。<br><br>というのはなにかと言うと、堆肥に重きをおかなかった。<br><br>ですから、水田に藁を細かく切ってそれを混ぜただけなんですね。<br><br>で、中にはいくらか堆肥を水田にやった人もあるけれども、成績が悪いんです。<br><br>で、水田に堆肥をやらないほど成績が良いんです。<br><br>堆肥を水田にやれと、私は書いてありませんよ。<br><br>堆肥は畑に、藁は水田にと書いてありますからね。<br><br>佐渡は今年から、無論堆肥もやらなければ、藁もやらない。<br><br>土だけでやることが、一番成蹟が良いように思われる。<br><br>ということがありましたが、これが本当なんです。<br><br>本当はなにもいらないんです。<br><br>もう一つは、浄霊をしなくても増収になる。<br><br>これも私の言う通りです。<br><br>で、私は――土そのものがたいへんな肥料なんだから、たとえてみれば、藁をやると、藁が肥料になるんでなくて、ただ根を温めるだけだ、ということが書いてありますね。<br><br>だから、ごく寒い所ですね――東北地方のね――そういう所は、温めるのに藁をやる必要がありますがね。<br><br>その他の所はやる必要はないです。<br><br>それから、浄霊は肥毒を消す方法ですから、やれば良いんですが、浄霊しなくても、肥料さえなくなれば良いんです。<br><br>今まで浄霊をあまりしなくても、増収になった。<br><br>今年からは、浄霊すれば、なお一層増収になるだろうから、今年からは浄霊するということがありましたがね。<br><br>そんなわけで、浄霊も肥毒がまったくなくなれば、する必要はないんです。<br><br>薬毒と同じですからね。<br><br>薬の気がまったくなくなれば、浄霊の必要もなしというわけですから、その根本をよく腹の中に入れておくんですね。<br><br>それから畑に堆肥をやるにも、土を固めないとか、あるいは乾かないためにやる。<br><br>肥料じゃないというのですから、これも適宜そういったような意味でやれば良いんです。<br><br>私はひところ注意したんですが、このごろはそうでもないですが、堆肥に肥料があると思って、むやみに堆肥を使ったですね。<br><br> 自然農法は、どこまでも土ですね。<br><br>土そのものを生かすんですからね。<br><br>で、だいぶ各地で解りかけてきたようで、未信者の方でも関心を持って、中には試作を始めた人もあるようですがね。<br><br>まあ、農林大臣の広川さんですね。<br><br>あの人なんか、非常に堆肥をやれというようなことを言ってますがね。<br><br>化学肥料はあまりやらない方が良いということを――だいぶ自然農法の信者になりかかってます。<br><br>今年などはだいぶ信者の方でも解ってきた人が多くなってきたので、非常な成績だろうと思います。<br><br> それから、メシヤ会館ですね。<br><br>これは昨日できたんですが、柱は人造石でやります。<br><br>で、その間を真っ白に塗るんですね。<br><br>それは、できあがったら天然色写真を撮って、世界中に配るわけです。<br><br>建築家も驚きますよ。<br><br>世界にないんだからね。<br><br>ビルディング型とか、劇場的とか、そういう建築はありますがね。<br><br>宗教的なのはないです。<br><br>やっぱりコルビュジエ建築ですがね。<br><br>コルビュジエ建築で宗教的な建築は世界中にないんですからね。<br><br>メシヤ会館がもっとも新しいです。<br><br>それから、建てるとしても、こういうような着想は外人にはないですね。<br><br>それはなぜかと言うと、専門家の画いてきたのがある。<br><br>同じようなものですがね。<br><br>宗教建築というのは三角の屋根になって、柱が何本もある。<br><br>世界的の宗教建築では、有名なパルテノンにあるんですね。<br><br>今、古くなって半分壊れてますがね。<br><br>それから西洋の建築の写真に出てますが、てんで問題にならないですね。<br><br> 御伺い ルネッサンスとかの建築は、こういう宗教建築が骨子になったものでございましょうか。<br><br> あれはややこしい、ちょうど油絵の写生みたいなもので、非常に緻密なものです。<br><br>今は、あれじゃぜんぜん古臭くて、近代感覚は出ない。<br><br>近代的な感覚で荘厳味がなくてはならない。<br><br>私は新しい狙いで荘厳味を出す。<br><br>というのが狙いなんです。<br><br>今までどうも直線味がなかったんです。<br><br>バチカン宮殿とかでしたね。<br><br>馬鹿にとんがってね。<br><br>飛行機の――針のようなね。<br><br>ああいった具合で荘厳味を出したんですね。<br><br>私の方は直線で荘厳味を出したんです。<br><br>これはもう、世界的に驚きますよ。<br><br>随分新しい建築を、始終見てますがね。<br><br>そういうのはぜんぜんないですね。<br><br>入口やなにかも、まわりがこういった色彩が淡白ですから、入口は金ピカにしようと思う。<br><br>ガラスのドアなんかも――メッキですがね―本当の金じゃないが、欄間なんか金でね。<br><br>模様を考えてますがね。<br><br>なかなか難しいですよ。<br><br>下手すると劇場のような浮薄なものになる。<br><br>やっぱりどこまでも宗教的になるから、そこが難しいです。<br><br>中の椅子から、私が細かい所までやるようにしている、商売人に任せるとぜんぜん駄目なんです。<br><br>二、三日前もケースの見本ができたので行ってみたが、それが東京一番のケースを作る会社なんですが、できてきたのを見ると、どうしても明治か大正時代のものなんです。<br><br>ですから、ぜんぜん違った様式にする。<br><br>専門家が、そういった図案とかやるが、手間がかかって金がかかる。<br><br>私の設計はとても安くできる。<br><br>無駄は省いて、それで効果的なんです。<br><br>だからすべて私が独創でやるよりしようがない。<br><br>で、今度の建物で一番難しいのは舞台なんです。<br><br>舞台というのは劇場になる。<br><br>それが神床にもなる。<br><br>神様を拝む所になる。<br><br>そこが踊ったり――演芸の舞台になる。<br><br>その調和が難しい。<br><br>あまりどっちかに偏る――どっちかの色が濃くなってはいけない。<br><br>そこに苦心があるわけですね。<br><br>まだできないけれども、これから考えてね。<br><br>で、椅子だけ二千二百人ばかり入る。<br><br>それから、いろんなことが進まない。<br><br>幕の図案まで私がやるんですからね。<br><br>なぜと言うと、歌舞伎の幕がありますね。<br><br>みんな、まずいこと――どうも、見られないですよ。<br><br>そのくせ安田靫彦先生なんか画いた花ものがあるが、そういった有名な人が画いてあるが、とにかく幕は幕としての、一つの約束があるんです。<br><br>様式がね。<br><br>そういうことを知らないんですね。<br><br>幕も、宗教的であり、そういった――演芸的であり、という、そういうようなものを――二通り作るんです。<br><br>だからあらゆる点において、とにかく世の中の人が驚くようなものができるのは確かですね。<br><br> それから美術館なんかも、だんだん調べた結果、仏教美術だけは、私のは博物館よりか落ちますがね。<br><br>これはしかたがない。<br><br>先は方々のお寺で借りますからね。<br><br>博物館の権威で集められますからね。<br><br>あとのものは全部私の方が勝ってます。<br><br>特に絵画なんかそうですね。<br><br>数段上ですね。<br><br>それから彫刻――仏教以外の彫刻、蒔絵、陶器ですね。<br><br>そういうのはずっと上です。<br><br>できたらたいへんなものですね。<br><br>大体、外人が驚くですよ。<br><br>日本に来る外客が六万人くらいになりますかね。<br><br>まあ、観光外客とすれば、どうしても箱根に行きますからね。<br><br>箱根に来ない観光外客は一人もないでしょう。<br><br>箱根に行った観光外客は美術館を見ないわけにはいかないでしょう。<br><br>これだけはどうしても、世界中に知れ渡るわけです。<br><br>で、英語ができる人で、美術に趣味がある、聞きかじりがあるという人を、心掛けてもらいたいと思う。<br><br>どうしても二、三人はいるだろうと思う。<br><br>外人は非常に良く聞くそうですからね。<br><br>だからぜひ必要なんです。<br><br>方々に頼んでありますがね。<br><br>神様が適当な人を見つけてくれると思いますがね。<br><br>その意味において、六月までに探してもらいたいと思います。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Vislumbres da Nova Era: Agricultura, Arquitetura e Arte</h2>
 <p>Permitam-me apresentar um texto de grande interesse, cuja leitura farei a seguir. Trata-se de um testemunho de graça que se conecta de forma primorosa ao que acabamos de discutir.</p>
@@ -105,5 +257,48 @@ function toggleLang(lang) {
 <p>O ponto de maior complexidade no novo edifício é o palco. Ele precisa evitar a aparência de um palco teatral, ao mesmo tempo que deve funcionar como um altar, um local para reverenciar a Deus. E, nesse mesmo espaço, ocorrerão danças e outras apresentações artísticas. Encontrar o equilíbrio é a grande dificuldade. A concepção não pode pender excessivamente para um lado ou para o outro. É nisso que dedico meus esforços. O projeto ainda não está finalizado, mas estou desenvolvendo as ideias. O salão comportará cerca de dois mil e duzentos assentos. Há ainda muitos detalhes a serem resolvidos. Até o desenho das cortinas está sob minha responsabilidade. O motivo é simples: as cortinas do teatro Kabuki, por exemplo, são, em sua maioria, de mau gosto, difíceis de contemplar. E, mesmo quando são obras de artistas renomados como Yasuda Yukihiko, nota-se um desconhecimento das convenções e da linguagem próprias de uma cortina de palco. Criaremos dois tipos de cortina: uma de caráter religioso e outra para as apresentações artísticas. Tenho a certeza de que, em todos os seus aspectos, será uma obra que assombrará o mundo.</p>
 <p>Por fim, sobre o nosso museu, após um levantamento minucioso, concluí que, apenas no quesito de arte budista, nosso acervo é inferior ao dos museus nacionais. Isso é inevitável, pois eles se valem de sua autoridade para requisitar empréstimos de diversos templos. Em todas as outras categorias, no entanto, nossa coleção é superior. A primazia é especialmente notável na pintura, onde estamos vários degraus acima. O mesmo se aplica à escultura não budista, às artes em laca e à cerâmica. Quando inaugurado, será algo extraordinário. Os estrangeiros, em particular, ficarão maravilhados. O Japão recebe cerca de sessenta mil visitantes estrangeiros por ano. Como turistas, é quase certo que visitem Hakone. Dificilmente um turista virá ao Japão sem passar por Hakone. E, estando em Hakone, será impossível não visitar o nosso museu. Com isso, sua fama se espalhará inevitavelmente pelo mundo.</p>
 <p>Nesse sentido, gostaria de solicitar que estejam atentos à procura de pessoas que dominem o idioma inglês e que tenham interesse e conhecimento, ainda que básico, em artes. Precisaremos de ao menos duas ou três pessoas com esse perfil para atuar como guias, pois os estrangeiros costumam ser muito curiosos e questionadores. Já fiz algumas solicitações, mas confio que Deus encontrará as pessoas mais adequadas. Peço, portanto, que se empenhem em encontrar esses talentos até o mês de junho.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年4月17日） 『御教え集』9号、昭和27(1952)年5月15日発行 昭和二十七年四月十七日 【御教え】 ちょっとおもしろいので、今読ませます。<br/><br/> （御論文「神人合一」）【栄光 一五五号】 ちょうど、今のと繋がっているようなお蔭話しですから。<br/><br/> （御蔭話「奇蹟以上の奇跡」） それから原子爆弾はこの御守りを懐に入れていると、まず大丈夫ですね。<br/><br/>そのお蔭話を出せということを言ったところが七つ来たんですよ。<br/><br/>そのうちの一つだけを今読ませます。<br/><br/>それと、論文をちょっと添えてあります。<br/><br/> （御論文「原爆恐るるに足らず」御蔭話「頭上にピカドン、御浄霊で大活躍」【栄光 一五三号】 まだお蔭話が六つあるんですが、これが一番良くできてますから、これ一つだけ読ませたんです。<br/><br/> それから話は違うけれども、今度ですね――新潟県の佐渡で自然農法の座談会があって、その記事を昨夜読んだのですが、佐渡で三十人くらいで座談会をやったんですが、一人も減収しないで、最初から少しずつ増収になってますね。<br/><br/>一番良いのは八俵一斗とかです。<br/><br/>たいてい一、二年。<br/><br/>三年くらいが多かったですね。<br/><br/>それで、勿論品質も非常に良くってだいぶ評判になったそうですがね。<br/><br/>ただおもしろいことは、私の言う通りにやったんです。<br/><br/>よく方々で自然農法をやっても、今までの習慣や、いろんな事情によって、私の言う通りにやる人は少ないですよね。<br/><br/>どうも――あまり違うので、信じられないんですね。<br/><br/>ところが佐渡だけは、私の言う通りやった。<br/><br/>というのはなにかと言うと、堆肥に重きをおかなかった。<br/><br/>ですから、水田に藁を細かく切ってそれを混ぜただけなんですね。<br/><br/>で、中にはいくらか堆肥を水田にやった人もあるけれども、成績が悪いんです。<br/><br/>で、水田に堆肥をやらないほど成績が良いんです。<br/><br/>堆肥を水田にやれと、私は書いてありませんよ。<br/><br/>堆肥は畑に、藁は水田にと書いてありますからね。<br/><br/>佐渡は今年から、無論堆肥もやらなければ、藁もやらない。<br/><br/>土だけでやることが、一番成蹟が良いように思われる。<br/><br/>ということがありましたが、これが本当なんです。<br/><br/>本当はなにもいらないんです。<br/><br/>もう一つは、浄霊をしなくても増収になる。<br/><br/>これも私の言う通りです。<br/><br/>で、私は――土そのものがたいへんな肥料なんだから、たとえてみれば、藁をやると、藁が肥料になるんでなくて、ただ根を温めるだけだ、ということが書いてありますね。<br/><br/>だから、ごく寒い所ですね――東北地方のね――そういう所は、温めるのに藁をやる必要がありますがね。<br/><br/>その他の所はやる必要はないです。<br/><br/>それから、浄霊は肥毒を消す方法ですから、やれば良いんですが、浄霊しなくても、肥料さえなくなれば良いんです。<br/><br/>今まで浄霊をあまりしなくても、増収になった。<br/><br/>今年からは、浄霊すれば、なお一層増収になるだろうから、今年からは浄霊するということがありましたがね。<br/><br/>そんなわけで、浄霊も肥毒がまったくなくなれば、する必要はないんです。<br/><br/>薬毒と同じですからね。<br/><br/>薬の気がまったくなくなれば、浄霊の必要もなしというわけですから、その根本をよく腹の中に入れておくんですね。<br/><br/>それから畑に堆肥をやるにも、土を固めないとか、あるいは乾かないためにやる。<br/><br/>肥料じゃないというのですから、これも適宜そういったような意味でやれば良いんです。<br/><br/>私はひところ注意したんですが、このごろはそうでもないですが、堆肥に肥料があると思って、むやみに堆肥を使ったですね。<br/><br/> 自然農法は、どこまでも土ですね。<br/><br/>土そのものを生かすんですからね。<br/><br/>で、だいぶ各地で解りかけてきたようで、未信者の方でも関心を持って、中には試作を始めた人もあるようですがね。<br/><br/>まあ、農林大臣の広川さんですね。<br/><br/>あの人なんか、非常に堆肥をやれというようなことを言ってますがね。<br/><br/>化学肥料はあまりやらない方が良いということを――だいぶ自然農法の信者になりかかってます。<br/><br/>今年などはだいぶ信者の方でも解ってきた人が多くなってきたので、非常な成績だろうと思います。<br/><br/> それから、メシヤ会館ですね。<br/><br/>これは昨日できたんですが、柱は人造石でやります。<br/><br/>で、その間を真っ白に塗るんですね。<br/><br/>それは、できあがったら天然色写真を撮って、世界中に配るわけです。<br/><br/>建築家も驚きますよ。<br/><br/>世界にないんだからね。<br/><br/>ビルディング型とか、劇場的とか、そういう建築はありますがね。<br/><br/>宗教的なのはないです。<br/><br/>やっぱりコルビュジエ建築ですがね。<br/><br/>コルビュジエ建築で宗教的な建築は世界中にないんですからね。<br/><br/>メシヤ会館がもっとも新しいです。<br/><br/>それから、建てるとしても、こういうような着想は外人にはないですね。<br/><br/>それはなぜかと言うと、専門家の画いてきたのがある。<br/><br/>同じようなものですがね。<br/><br/>宗教建築というのは三角の屋根になって、柱が何本もある。<br/><br/>世界的の宗教建築では、有名なパルテノンにあるんですね。<br/><br/>今、古くなって半分壊れてますがね。<br/><br/>それから西洋の建築の写真に出てますが、てんで問題にならないですね。<br/><br/> 御伺い ルネッサンスとかの建築は、こういう宗教建築が骨子になったものでございましょうか。<br/><br/> あれはややこしい、ちょうど油絵の写生みたいなもので、非常に緻密なものです。<br/><br/>今は、あれじゃぜんぜん古臭くて、近代感覚は出ない。<br/><br/>近代的な感覚で荘厳味がなくてはならない。<br/><br/>私は新しい狙いで荘厳味を出す。<br/><br/>というのが狙いなんです。<br/><br/>今までどうも直線味がなかったんです。<br/><br/>バチカン宮殿とかでしたね。<br/><br/>馬鹿にとんがってね。<br/><br/>飛行機の――針のようなね。<br/><br/>ああいった具合で荘厳味を出したんですね。<br/><br/>私の方は直線で荘厳味を出したんです。<br/><br/>これはもう、世界的に驚きますよ。<br/><br/>随分新しい建築を、始終見てますがね。<br/><br/>そういうのはぜんぜんないですね。<br/><br/>入口やなにかも、まわりがこういった色彩が淡白ですから、入口は金ピカにしようと思う。<br/><br/>ガラスのドアなんかも――メッキですがね―本当の金じゃないが、欄間なんか金でね。<br/><br/>模様を考えてますがね。<br/><br/>なかなか難しいですよ。<br/><br/>下手すると劇場のような浮薄なものになる。<br/><br/>やっぱりどこまでも宗教的になるから、そこが難しいです。<br/><br/>中の椅子から、私が細かい所までやるようにしている、商売人に任せるとぜんぜん駄目なんです。<br/><br/>二、三日前もケースの見本ができたので行ってみたが、それが東京一番のケースを作る会社なんですが、できてきたのを見ると、どうしても明治か大正時代のものなんです。<br/><br/>ですから、ぜんぜん違った様式にする。<br/><br/>専門家が、そういった図案とかやるが、手間がかかって金がかかる。<br/><br/>私の設計はとても安くできる。<br/><br/>無駄は省いて、それで効果的なんです。<br/><br/>だからすべて私が独創でやるよりしようがない。<br/><br/>で、今度の建物で一番難しいのは舞台なんです。<br/><br/>舞台というのは劇場になる。<br/><br/>それが神床にもなる。<br/><br/>神様を拝む所になる。<br/><br/>そこが踊ったり――演芸の舞台になる。<br/><br/>その調和が難しい。<br/><br/>あまりどっちかに偏る――どっちかの色が濃くなってはいけない。<br/><br/>そこに苦心があるわけですね。<br/><br/>まだできないけれども、これから考えてね。<br/><br/>で、椅子だけ二千二百人ばかり入る。<br/><br/>それから、いろんなことが進まない。<br/><br/>幕の図案まで私がやるんですからね。<br/><br/>なぜと言うと、歌舞伎の幕がありますね。<br/><br/>みんな、まずいこと――どうも、見られないですよ。<br/><br/>そのくせ安田靫彦先生なんか画いた花ものがあるが、そういった有名な人が画いてあるが、とにかく幕は幕としての、一つの約束があるんです。<br/><br/>様式がね。<br/><br/>そういうことを知らないんですね。<br/><br/>幕も、宗教的であり、そういった――演芸的であり、という、そういうようなものを――二通り作るんです。<br/><br/>だからあらゆる点において、とにかく世の中の人が驚くようなものができるのは確かですね。<br/><br/> それから美術館なんかも、だんだん調べた結果、仏教美術だけは、私のは博物館よりか落ちますがね。<br/><br/>これはしかたがない。<br/><br/>先は方々のお寺で借りますからね。<br/><br/>博物館の権威で集められますからね。<br/><br/>あとのものは全部私の方が勝ってます。<br/><br/>特に絵画なんかそうですね。<br/><br/>数段上ですね。<br/><br/>それから彫刻――仏教以外の彫刻、蒔絵、陶器ですね。<br/><br/>そういうのはずっと上です。<br/><br/>できたらたいへんなものですね。<br/><br/>大体、外人が驚くですよ。<br/><br/>日本に来る外客が六万人くらいになりますかね。<br/><br/>まあ、観光外客とすれば、どうしても箱根に行きますからね。<br/><br/>箱根に来ない観光外客は一人もないでしょう。<br/><br/>箱根に行った観光外客は美術館を見ないわけにはいかないでしょう。<br/><br/>これだけはどうしても、世界中に知れ渡るわけです。<br/><br/>で、英語ができる人で、美術に趣味がある、聞きかじりがあるという人を、心掛けてもらいたいと思う。<br/><br/>どうしても二、三人はいるだろうと思う。<br/><br/>外人は非常に良く聞くそうですからね。<br/><br/>だからぜひ必要なんです。<br/><br/>方々に頼んでありますがね。<br/><br/>神様が適当な人を見つけてくれると思いますがね。<br/><br/>その意味において、六月までに探してもらいたいと思います。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

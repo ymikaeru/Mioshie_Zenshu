@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s260918</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年9月18日） 『御教え集』2号、昭和26(1951)年10月25日発行 昭和二十六年九月十八日 浄霊ですが、これからはほとんど振らなくていい。<br><br>こう（振る）やると力が入る。<br><br>力をウンと抜くと、振らない方がいいことになりますからね。<br><br>ちょっと振るくらいですね。<br><br>たいていじっとしている方が力が入らないからね。<br><br>力が入らないと治りが良いから、そうすると良い。<br><br>力を入れないと実に良く治りますからね。<br><br>何倍ですね。<br><br>私は、ちょっとどこかを溶かそうとする時、オヤ、溶けが悪いなと思うと、力を抜くんです。<br><br>そうすると、ずっと溶けてくる。<br><br> それから、今文明の創造は宗教篇を書いているんですが、だんだんだんだん宗教に入り、深い所にいくわけです。<br><br> （御論文「 唯物医学と宗教医学 」のあとの御教え） こういう具合に色々説いていくんですが、興味があって、知らず知らず深い所が分かっていくんです。<br><br>深い所に入っていくと、仲々面白いんです。<br><br>仏教から神様に入り、そう言う関係を説いていく。<br><br>そういった宗教的な色々な事はすっかり分かることになる。<br><br>今までの宗教と言うのは曖昧模糊だったんです。<br><br>それは夜の世界の事を説くものだから仕方がない。<br><br>本当に説いたら、どうしても仕事をする気にならなくなる。<br><br>そこで、うまくぼかして、無理な欲望など抱かせない。<br><br>その為に苦しみが生まれる。<br><br>それを助けるためにお釈迦さんは、ぼかして、全然諦めさせないような、諦めさせるようなことを言った。<br><br>仏滅後五六七の世が来ると言うのは、諦めさせないようにですね。<br><br>そう言う訳だから、後世の学者やそう言う人達は自分流の考えで、いやに七難かくして、非常に神秘な尊いもののようにつくったんですね。<br><br>だから、本当の事が分からないからして、色んな説が出来、色んな宗派が出来た。<br><br>結局迷いをなくするために一生懸命やるのが、迷いを増やしている。<br><br>そうでしょう、肝心な事を説いていなかった。<br><br>又、説いてはいけなかったんですね。<br><br>キリスト教なんか、バイブルなどは良いですが徹底しない。<br><br>「汝何をするな」「汝何をせよ」と言うが、どうしてそれをしてはいけないと言う事を説いていない。<br><br>丸呑みにすれば良いが、そうはいかない。<br><br>段々文化が進歩してくると、理屈をつけるようになる。<br><br>合理性を持ってくる。<br><br>そうすると、あんな宗教と言うのは空みたいな物になる。<br><br>そうすると物質的に進歩した結果、悪の発生になる。<br><br>悪の発生の為に世の中が悪くなる。<br><br>人間が苦しむ。<br><br>だから結局、今までの世の中は不徹底極まる、曖昧模糊としたものです。<br><br>だから、そういうものと諦めるより仕方がない。<br><br>ところが、今度は昼間の世界になるから、はっきり分かってくるからして、迷いがないばかりか人間の思う通りになる。<br><br>何が思う通りになるかと言うと、健康です。<br><br>人間と言うものは病気と言うのはないものだと思えなかった。<br><br>どんなに偉い人でもいつ病気にかかるか分からない。<br><br>これだけは取れない。<br><br>事実偉い人になっても病気で死ぬからね。<br><br>お釈迦さんでも病気で死んだ。<br><br>そうしてみると本当に安心できない。<br><br>ところがメシヤ教では病気の心配がなくなるんですからね。<br><br>私の娘が結婚した婿になるのが、この間会社で健康診断で結核の初期だと言うんです。<br><br>今来てますが、そんなのすぐ治せるから来いと言って、何も心配ない。<br><br>非常に喜んでいる。<br><br>これが世間だと大変だ。<br><br>子供がありますから、染ると大変だと隔離されて、絶対安静で、どんな事になるか分からない。<br><br>ところがこっちは平気ですからね。<br><br>そんなものは風邪ひいたくらいです。<br><br>この安心は今までにないんですからね。<br><br>そこで、ここで五六七の世の一番肝心な根本が出来た訳です、人間が地上天国の資格者になっているんです。<br><br>結局いつも言う通り、病気の心配、戦争がなくなる。<br><br>段々進んでいくと戦争の原因を書きますが、病気と戦争がなくなれば、それで良いんです。<br><br>あとは全て解決する。<br><br>今度の講和会議など、各国が色々――日本もそうですが――色んな国際法だとか、連盟だとか色々作ってます。<br><br>国家も社会組織、経済組織と作りますが、結構なんです。<br><br>良い組織なんです。<br><br>ところが、やる人間がだめなんです。<br><br>だから悪くしてしまう。<br><br>良い人間が法律を運用すれば――法律なんか要らないくらいのものです。<br><br>これを悪い人間が使うと、法律を逃れるとか、引っかかるとかとなる。<br><br>だから、法律と言うものは、かえって悪の働きをする事になる。<br><br>今度の「 新しき暴力 」の 付録 にも書いてあるが、悪を取り締まるご本人が悪をしようというんです。<br><br>だから被告は威張ってますが、警察官なんかビクビクしてます。<br><br>この間の時なんか――弁護人も勇気がないんです。<br><br>勇気がないと言うより――悪いけれど――心の底に確たる物を持っていない。<br><br>だから、おっかなびっくりしながら役人に向かっている。<br><br>だから私は立ってウンと――叱ってやったんです。<br><br>先も気の強い奴だと思ったらしいですがね。<br><br>こっちは正常なんですからね。<br><br>私を調べた警察官ですが、検事から呼ばれて証人になっていたが、嘘っぱちです。<br><br>「あなたが言っているのはほとんど偽証だ」「そんな事ない」「そんな事ないと言っても、全然嘘だ。<br><br>偽証と言う事を取ったら、私の方は何も罪はないじゃないか」馬鹿馬鹿しいと言ったらない「それじゃ水掛け論だから止すが、私が責められて、ひっくり返ったことが二度あるが知っているだろう」「知らない」「もう一人がおぶっていくのを見たでしょう」「いや」「気の毒そうな顔をして見ていただろう」「いやそんな事はない」あさましいものです。<br><br>罪を裁くご本人が、嘘吐いたり、忘れたと言っては問題にならない。<br><br>しまいに「あなたのような人間に話してもしようがないから、あなたが本当になったら話をしよう」と言ってやった。<br><br>何しろ水掛け論をやっているんですからね。<br><br>「私は水掛け論はいやだからこれで止す」と言った。<br><br>裁判長は笑っていました。<br><br>すると検事の先生「裁判長、笑うのは止してもらいたい」と言うんです。<br><br>笑いたくて笑うんじゃない。<br><br>笑わざるを得ないんです。<br><br>だから笑わせる奴が悪いんです。<br><br>と言うのは、知れきった馬鹿馬鹿しい嘘を言うからで、憎むどころじゃない。<br><br>それを通り越している。<br><br>裁判所の神聖を汚すのは先生達です。<br><br>こっちは笑わせられるんですからね。<br><br>馬鹿馬鹿しいものですね。<br><br>ちょうど今までの世の中がそう言う風になってますね。<br><br> 「寸鉄」ですがね。<br><br>結局同じような事を言うような事になるので、「寸鉄」の方は、何か問題があるとか、気がついた時に書くようにして、今までのように、始終無理に書くことは止そうと思う。<br><br>今日はたった一つありますが、そう言うような意味で、あんまり今までのように出来ないかもしれませんが、その積もりで――。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Clareza da Verdade na Nova Era</h2>
 <p>No que tange ao Johrei, daqui em diante, praticamente não será mais necessário agitar a mão. O ato de agitá-la gera uma tensão indesejada. Ao contrário, quando se elimina por completo essa força, torna-se evidente que não agitar a mão é o mais adequado. Talvez um leve movimento, apenas. Em geral, permanecer imóvel é o que melhor evita a tensão, e a ausência dela acelera a recuperação. Portanto, essa é a forma correta de proceder. Sem aplicar força, a cura se manifesta de maneira notável, com uma eficácia muitas vezes superior. Eu mesmo, quando ministro e sinto que a dissolução de alguma toxina está lenta, relaxo deliberadamente. Imediatamente, o processo de purificação avança com muito mais fluidez.</p>
@@ -107,5 +259,48 @@ function toggleLang(lang) {
 <p>É algo deplorável. A própria pessoa encarregada de julgar os crimes mente e alega esquecimento; a situação se torna insustentável. Por fim, eu lhe disse: “Não vale a pena conversar com alguém como o senhor. Quando se tornar uma pessoa honesta, então conversaremos.” De fato, estávamos em um bate-boca sem sentido. “Detesto discussões infrutíferas, por isso encerro o assunto aqui”, afirmei.</p>
 <p>O juiz começou a rir. O promotor então interveio: “Senhor juiz, peço que pare de rir.” Mas ele não ria por querer; era impossível não rir. A culpa era de quem o fazia rir, ao proferir mentiras tão óbvias e tolas que superavam o ódio, beirando o cômico. São os senhores que profanam a santidade deste tribunal. Nós somos apenas forçados a rir. Que situação absurda. O mundo até hoje tem sido exatamente assim.</p>
 <p>Por fim, quanto aos “Suntetsu”. Tenho a impressão de que acabaria por repetir as mesmas ideias. Por isso, decidi não mais me forçar a escrevê-los continuamente, como vinha fazendo. De agora em diante, redigirei um somente quando surgir uma questão relevante ou quando me ocorrer uma inspiração. Hoje, há apenas um. Nesse sentido, talvez a produção não seja tão frequente quanto antes. Peço, portanto, a sua compreensão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年9月18日） 『御教え集』2号、昭和26(1951)年10月25日発行 昭和二十六年九月十八日 浄霊ですが、これからはほとんど振らなくていい。<br/><br/>こう（振る）やると力が入る。<br/><br/>力をウンと抜くと、振らない方がいいことになりますからね。<br/><br/>ちょっと振るくらいですね。<br/><br/>たいていじっとしている方が力が入らないからね。<br/><br/>力が入らないと治りが良いから、そうすると良い。<br/><br/>力を入れないと実に良く治りますからね。<br/><br/>何倍ですね。<br/><br/>私は、ちょっとどこかを溶かそうとする時、オヤ、溶けが悪いなと思うと、力を抜くんです。<br/><br/>そうすると、ずっと溶けてくる。<br/><br/> それから、今文明の創造は宗教篇を書いているんですが、だんだんだんだん宗教に入り、深い所にいくわけです。<br/><br/> （御論文「 唯物医学と宗教医学 」のあとの御教え） こういう具合に色々説いていくんですが、興味があって、知らず知らず深い所が分かっていくんです。<br/><br/>深い所に入っていくと、仲々面白いんです。<br/><br/>仏教から神様に入り、そう言う関係を説いていく。<br/><br/>そういった宗教的な色々な事はすっかり分かることになる。<br/><br/>今までの宗教と言うのは曖昧模糊だったんです。<br/><br/>それは夜の世界の事を説くものだから仕方がない。<br/><br/>本当に説いたら、どうしても仕事をする気にならなくなる。<br/><br/>そこで、うまくぼかして、無理な欲望など抱かせない。<br/><br/>その為に苦しみが生まれる。<br/><br/>それを助けるためにお釈迦さんは、ぼかして、全然諦めさせないような、諦めさせるようなことを言った。<br/><br/>仏滅後五六七の世が来ると言うのは、諦めさせないようにですね。<br/><br/>そう言う訳だから、後世の学者やそう言う人達は自分流の考えで、いやに七難かくして、非常に神秘な尊いもののようにつくったんですね。<br/><br/>だから、本当の事が分からないからして、色んな説が出来、色んな宗派が出来た。<br/><br/>結局迷いをなくするために一生懸命やるのが、迷いを増やしている。<br/><br/>そうでしょう、肝心な事を説いていなかった。<br/><br/>又、説いてはいけなかったんですね。<br/><br/>キリスト教なんか、バイブルなどは良いですが徹底しない。<br/><br/>「汝何をするな」「汝何をせよ」と言うが、どうしてそれをしてはいけないと言う事を説いていない。<br/><br/>丸呑みにすれば良いが、そうはいかない。<br/><br/>段々文化が進歩してくると、理屈をつけるようになる。<br/><br/>合理性を持ってくる。<br/><br/>そうすると、あんな宗教と言うのは空みたいな物になる。<br/><br/>そうすると物質的に進歩した結果、悪の発生になる。<br/><br/>悪の発生の為に世の中が悪くなる。<br/><br/>人間が苦しむ。<br/><br/>だから結局、今までの世の中は不徹底極まる、曖昧模糊としたものです。<br/><br/>だから、そういうものと諦めるより仕方がない。<br/><br/>ところが、今度は昼間の世界になるから、はっきり分かってくるからして、迷いがないばかりか人間の思う通りになる。<br/><br/>何が思う通りになるかと言うと、健康です。<br/><br/>人間と言うものは病気と言うのはないものだと思えなかった。<br/><br/>どんなに偉い人でもいつ病気にかかるか分からない。<br/><br/>これだけは取れない。<br/><br/>事実偉い人になっても病気で死ぬからね。<br/><br/>お釈迦さんでも病気で死んだ。<br/><br/>そうしてみると本当に安心できない。<br/><br/>ところがメシヤ教では病気の心配がなくなるんですからね。<br/><br/>私の娘が結婚した婿になるのが、この間会社で健康診断で結核の初期だと言うんです。<br/><br/>今来てますが、そんなのすぐ治せるから来いと言って、何も心配ない。<br/><br/>非常に喜んでいる。<br/><br/>これが世間だと大変だ。<br/><br/>子供がありますから、染ると大変だと隔離されて、絶対安静で、どんな事になるか分からない。<br/><br/>ところがこっちは平気ですからね。<br/><br/>そんなものは風邪ひいたくらいです。<br/><br/>この安心は今までにないんですからね。<br/><br/>そこで、ここで五六七の世の一番肝心な根本が出来た訳です、人間が地上天国の資格者になっているんです。<br/><br/>結局いつも言う通り、病気の心配、戦争がなくなる。<br/><br/>段々進んでいくと戦争の原因を書きますが、病気と戦争がなくなれば、それで良いんです。<br/><br/>あとは全て解決する。<br/><br/>今度の講和会議など、各国が色々――日本もそうですが――色んな国際法だとか、連盟だとか色々作ってます。<br/><br/>国家も社会組織、経済組織と作りますが、結構なんです。<br/><br/>良い組織なんです。<br/><br/>ところが、やる人間がだめなんです。<br/><br/>だから悪くしてしまう。<br/><br/>良い人間が法律を運用すれば――法律なんか要らないくらいのものです。<br/><br/>これを悪い人間が使うと、法律を逃れるとか、引っかかるとかとなる。<br/><br/>だから、法律と言うものは、かえって悪の働きをする事になる。<br/><br/>今度の「 新しき暴力 」の 付録 にも書いてあるが、悪を取り締まるご本人が悪をしようというんです。<br/><br/>だから被告は威張ってますが、警察官なんかビクビクしてます。<br/><br/>この間の時なんか――弁護人も勇気がないんです。<br/><br/>勇気がないと言うより――悪いけれど――心の底に確たる物を持っていない。<br/><br/>だから、おっかなびっくりしながら役人に向かっている。<br/><br/>だから私は立ってウンと――叱ってやったんです。<br/><br/>先も気の強い奴だと思ったらしいですがね。<br/><br/>こっちは正常なんですからね。<br/><br/>私を調べた警察官ですが、検事から呼ばれて証人になっていたが、嘘っぱちです。<br/><br/>「あなたが言っているのはほとんど偽証だ」「そんな事ない」「そんな事ないと言っても、全然嘘だ。<br/><br/>偽証と言う事を取ったら、私の方は何も罪はないじゃないか」馬鹿馬鹿しいと言ったらない「それじゃ水掛け論だから止すが、私が責められて、ひっくり返ったことが二度あるが知っているだろう」「知らない」「もう一人がおぶっていくのを見たでしょう」「いや」「気の毒そうな顔をして見ていただろう」「いやそんな事はない」あさましいものです。<br/><br/>罪を裁くご本人が、嘘吐いたり、忘れたと言っては問題にならない。<br/><br/>しまいに「あなたのような人間に話してもしようがないから、あなたが本当になったら話をしよう」と言ってやった。<br/><br/>何しろ水掛け論をやっているんですからね。<br/><br/>「私は水掛け論はいやだからこれで止す」と言った。<br/><br/>裁判長は笑っていました。<br/><br/>すると検事の先生「裁判長、笑うのは止してもらいたい」と言うんです。<br/><br/>笑いたくて笑うんじゃない。<br/><br/>笑わざるを得ないんです。<br/><br/>だから笑わせる奴が悪いんです。<br/><br/>と言うのは、知れきった馬鹿馬鹿しい嘘を言うからで、憎むどころじゃない。<br/><br/>それを通り越している。<br/><br/>裁判所の神聖を汚すのは先生達です。<br/><br/>こっちは笑わせられるんですからね。<br/><br/>馬鹿馬鹿しいものですね。<br/><br/>ちょうど今までの世の中がそう言う風になってますね。<br/><br/> 「寸鉄」ですがね。<br/><br/>結局同じような事を言うような事になるので、「寸鉄」の方は、何か問題があるとか、気がついた時に書くようにして、今までのように、始終無理に書くことは止そうと思う。<br/><br/>今日はたった一つありますが、そう言うような意味で、あんまり今までのように出来ないかもしれませんが、その積もりで――。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

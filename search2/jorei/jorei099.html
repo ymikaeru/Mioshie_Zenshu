@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jorei099</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊日記 槐安生 『栄光』99号、昭和26(1951)年4月11日発行 某月某日 Ⅰ町教会の例祭に招かれた、半年も前から、一度来て、信者に何か話をしてくれ、と云われていたが、やっと、その責を果した訳である、月に五、六度、小さな教会からこうした依頼があり、時間の都合がつく限り出席するようにしているが、その都度、その場になって困惑する事は、何を話したらいいか、と云う事である、用意してきた信仰の話も、聴く人の年齢、教養に依って、甲の人には興味があっても、乙の人には面白くない、それ等を考えずに、話しをするのも気の毒な感じがする、教会の人が信者の欲するところを観察して、あらかじめ話の内容を注文してくれたら、と思う、信者からいろいろ質問して貰えば、話の糸口が解けて双方に良いのであるが遠慮してかどうか、質問してくれない、折角行ってその甲斐があったか、どうか後になって気に成るが、あの話を聴いてお守りを戴く気に成った、とか、入信したとか報告されると嬉しくもあり楽しみにもなるのだ。<br><br> 今日は、新らしい信者を二人紹介された、一人は○友会の信者であったが、メシヤ教の信者は、みんな顔色がいいので、こちらが良いと思って入信したと云う、六十位のお爺さん、一人は十五年もの永い間、天道教〔天理教〕を信仰して来たが、明主様の信仰雑話を読んで転信した、と云う中年の奥さん。<br><br>この二人とも入信してすぐそれぞれお蔭を戴いた、と語った、私の話はこの二人の転信が正しかった事を証明する為、○友会、天道教〔天理教〕の教理の批判からメシヤ教の真髄にふれて行った。<br><br> 我が神尊しの余り、他教を悪く云うのは信仰者の態度ではないので、○友会が先祖の供養を主とし、それから出発した信仰であって、悪い事ではなく、天道教〔天理教〕の教義の根本となっている八つの埃、踊る宗教が、これから二つを除いた六つの曇の教義、共に立派なものである、と称揚したので、この二人の方も喜んでくれた。<br><br>メシヤ教の話をするのに、一番理解させ易い、他の宗教との比較が、嫌味なく出来る機会を恵まれた事は、こちらに執っても有難い事であった。<br><br> 他の宗旨を永い間信仰した方が、メシヤ教に転信した生きた実例は、他の方々に深い印象を与えたようである。<br><br>信者になった許りでまだ良く解らない、と云う人もこの実物教育のお蔭で、メシヤ教を再認識したのも大きな収穫であった、これに弾みが付いていろいろな質問が活発に出て、近頃になく楽しい集会が出来たのであった、再来を約して帰える。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de Ensaios do Reverendo Okada Jikanshi — Diário de Johrei (por Kaiansei) – Revista Glória, nº 99, 11 de abril de 1951</h2>
 <p>Certo dia, em certo mês</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Hoje, foram-me apresentados dois novos membros. Um deles, um senhor de aproximadamente sessenta anos, era membro da associação ○tomo, mas, ao observar que todos os messiânicos possuíam um semblante saudável, concluiu que este era o melhor caminho e decidiu ingressar. A outra era uma senhora de meia-idade que, após professar a fé na Tendokyo (天道教) [Tenrikyo] por quinze longos anos, converteu-se depois de ler as Coletâneas de Ensinamentos de Meishu-Sama. Ambos relataram ter recebido graças imediatamente após a sua filiação. Nesse sentido, minha palestra teve como propósito demonstrar a justeza de sua conversão, partindo de uma apreciação crítica das doutrinas da associação ○tomo e da Tendokyo (天道教) [Tenrikyo] para, então, abordar a essência da Igreja Messiânica.</p>
 <p>Não é atitude de um religioso denegrir outras fés por um excesso de zelo pela sua própria. Assim, expliquei que a associação ○tomo se dedica principalmente ao culto aos antepassados, o que não é, de forma alguma, algo negativo. Enalteci também os fundamentos doutrinários da Tendokyo (天道教) [Tenrikyo], conhecidos como os oito pós, bem como os preceitos da "religião dançante", que se baseiam em seis nuvens, subtraindo dois desses elementos, afirmando que ambos são admiráveis. Tais palavras deixaram os dois novos membros visivelmente satisfeitos. Fui abençoado com a rara oportunidade de fazer uma comparação entre a Igreja Messiânica e outras religiões sem qualquer traço de animosidade, o que foi, para mim, motivo de profunda gratidão.</p>
 <p>Os exemplos vivos dessas duas pessoas, que por tanto tempo seguiram outras doutrinas e se converteram à Igreja Messiânica, pareceram causar uma profunda impressão nos demais presentes. Aqueles que, por serem novos na fé, ainda não a compreendiam bem, puderam, graças a esse testemunho concreto, reafirmar suas convicções. Foi, sem dúvida, um fruto valioso. Isso serviu de estopim para que diversas perguntas surgissem ativamente, resultando em uma reunião de uma alegria rara em tempos recentes. Parti, por fim, com a promessa de retornar.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊日記 槐安生 『栄光』99号、昭和26(1951)年4月11日発行 某月某日 Ⅰ町教会の例祭に招かれた、半年も前から、一度来て、信者に何か話をしてくれ、と云われていたが、やっと、その責を果した訳である、月に五、六度、小さな教会からこうした依頼があり、時間の都合がつく限り出席するようにしているが、その都度、その場になって困惑する事は、何を話したらいいか、と云う事である、用意してきた信仰の話も、聴く人の年齢、教養に依って、甲の人には興味があっても、乙の人には面白くない、それ等を考えずに、話しをするのも気の毒な感じがする、教会の人が信者の欲するところを観察して、あらかじめ話の内容を注文してくれたら、と思う、信者からいろいろ質問して貰えば、話の糸口が解けて双方に良いのであるが遠慮してかどうか、質問してくれない、折角行ってその甲斐があったか、どうか後になって気に成るが、あの話を聴いてお守りを戴く気に成った、とか、入信したとか報告されると嬉しくもあり楽しみにもなるのだ。<br/><br/> 今日は、新らしい信者を二人紹介された、一人は○友会の信者であったが、メシヤ教の信者は、みんな顔色がいいので、こちらが良いと思って入信したと云う、六十位のお爺さん、一人は十五年もの永い間、天道教〔天理教〕を信仰して来たが、明主様の信仰雑話を読んで転信した、と云う中年の奥さん。<br/><br/>この二人とも入信してすぐそれぞれお蔭を戴いた、と語った、私の話はこの二人の転信が正しかった事を証明する為、○友会、天道教〔天理教〕の教理の批判からメシヤ教の真髄にふれて行った。<br/><br/> 我が神尊しの余り、他教を悪く云うのは信仰者の態度ではないので、○友会が先祖の供養を主とし、それから出発した信仰であって、悪い事ではなく、天道教〔天理教〕の教義の根本となっている八つの埃、踊る宗教が、これから二つを除いた六つの曇の教義、共に立派なものである、と称揚したので、この二人の方も喜んでくれた。<br/><br/>メシヤ教の話をするのに、一番理解させ易い、他の宗教との比較が、嫌味なく出来る機会を恵まれた事は、こちらに執っても有難い事であった。<br/><br/> 他の宗旨を永い間信仰した方が、メシヤ教に転信した生きた実例は、他の方々に深い印象を与えたようである。<br/><br/>信者になった許りでまだ良く解らない、と云う人もこの実物教育のお蔭で、メシヤ教を再認識したのも大きな収穫であった、これに弾みが付いていろいろな質問が活発に出て、近頃になく楽しい集会が出来たのであった、再来を約して帰える。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

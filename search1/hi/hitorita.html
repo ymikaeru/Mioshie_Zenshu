@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hitorita</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 一人対一人では駄目だ 未発表、年代不詳 昔からキリスト初め、幾多の聖者が現われ、人間救済に奇蹟を顕（あら）わし、大なる功績を残したことは、宗教史上今なお燦（さん）として輝いている。<br><br>しかし、治病に当っては、一人対一人の治病能力を発揮した事実である。<br><br>しかるに右のごとく、一人対一人では多数の病者を救い得ることは不可能である。<br><br>彼のキリストにしても、盲目者を開眼させたり、跛行をたちまち立たせたり、霊的病者に向って鬼を追い出して治したり、素晴しい奇蹟を顕したが、前述のごとく、一人対一人の救いであったから、当時、余り衆目を引がなかったのは止むを得なかったといえよう。<br><br>そうして右のような奇蹟は、本教信徒数万人が日々如実に顕わしつつある事実で、しかも今後時の経つにつれて治病能力者は何万に上るか判らないのである。<br><br>とすれば、漸次多数者が救われることになろうから、将来、世界的大問題となることも予想されるのである。<br><br>右のごとく本教の病療法は素晴しい医学には違いないが、吾らの終局の目的は、天国的理想世界を造るにあるのだから、肉体の健康のみでは本当ではない。<br><br>肉体の健康と共に精神的健康たり得なくてはならない。<br><br> いわゆる、霊肉一致の完全人間を作ることである。<br><br>このような完全人間の増加によって、ここに地上天国は形成されるのである。<br><br>いよいよ、天の時来って、艮（とどめ）の宗教として出現したのが本教であることは、右によってみても肯（うなず）き得るであろう。<br><br>何よりの証拠は、本教に入信するや、ただちに誰もが奇蹟的治病能力を発揮し得る事実にみても明かである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Limitação do Método Individual</h2>
 <p>Desde a antiguidade, inúmeros santos, a começar pelo próprio Cristo, surgiram no mundo, realizaram milagres para a salvação da humanidade e deixaram um legado grandioso, cujos feitos resplandecem com brilho indelével na história das religiões. Contudo, no que tange à cura de doenças, sua atuação se deu por meio da manifestação de uma capacidade curativa individual, de pessoa a pessoa.</p>
@@ -95,5 +247,48 @@ function toggleLang(lang) {
 <p>Todavia, prodígios de natureza semelhante são manifestados diariamente por dezenas de milhares de fiéis de nossa Igreja. Ademais, com o passar do tempo, é impossível prever a quantas dezenas de milhares ascenderá o número de pessoas com essa capacidade de cura. Nesse sentido, um número cada vez maior de pessoas será salvo progressivamente, e é de se prever que tal fato se torne, no futuro, uma questão de relevância mundial.</p>
 <p>Embora o método de cura de nossa Igreja seja, inegavelmente, uma medicina extraordinária, nosso objetivo primordial não se restringe à saúde do corpo, pois apenas a saúde física não representa a totalidade de nosso propósito. É imperativo que a saúde do corpo seja acompanhada pela saúde do espírito. Trata-se, em outras palavras, de formar seres humanos completos, nos quais espírito e matéria estejam em perfeita unidade. É por meio da multiplicação de tais seres humanos que o Paraíso Terrestre será finalmente edificado.</p>
 <p>Finalmente, o tempo celestial chegou, e a religião que surge para a conclusão de tudo é a nossa, uma verdade que os fatos aqui apresentados permitem compreender. A prova irrefutável reside no fato de que, ao ingressarem em nossa Igreja, todos, sem exceção, passam a manifestar imediatamente a capacidade de realizar curas milagrosas.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 一人対一人では駄目だ 未発表、年代不詳 昔からキリスト初め、幾多の聖者が現われ、人間救済に奇蹟を顕（あら）わし、大なる功績を残したことは、宗教史上今なお燦（さん）として輝いている。<br/><br/>しかし、治病に当っては、一人対一人の治病能力を発揮した事実である。<br/><br/>しかるに右のごとく、一人対一人では多数の病者を救い得ることは不可能である。<br/><br/>彼のキリストにしても、盲目者を開眼させたり、跛行をたちまち立たせたり、霊的病者に向って鬼を追い出して治したり、素晴しい奇蹟を顕したが、前述のごとく、一人対一人の救いであったから、当時、余り衆目を引がなかったのは止むを得なかったといえよう。<br/><br/>そうして右のような奇蹟は、本教信徒数万人が日々如実に顕わしつつある事実で、しかも今後時の経つにつれて治病能力者は何万に上るか判らないのである。<br/><br/>とすれば、漸次多数者が救われることになろうから、将来、世界的大問題となることも予想されるのである。<br/><br/>右のごとく本教の病療法は素晴しい医学には違いないが、吾らの終局の目的は、天国的理想世界を造るにあるのだから、肉体の健康のみでは本当ではない。<br/><br/>肉体の健康と共に精神的健康たり得なくてはならない。<br/><br/> いわゆる、霊肉一致の完全人間を作ることである。<br/><br/>このような完全人間の増加によって、ここに地上天国は形成されるのである。<br/><br/>いよいよ、天の時来って、艮（とどめ）の宗教として出現したのが本教であることは、右によってみても肯（うなず）き得るであろう。<br/><br/>何よりの証拠は、本教に入信するや、ただちに誰もが奇蹟的治病能力を発揮し得る事実にみても明かである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

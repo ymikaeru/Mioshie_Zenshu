@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>nikki2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 最近の日記帳から （２） 瓢箪 『栄光』223号、昭和28(1953)年8月26日発行 美術館開館の日、明主様も熱海からおいでになり、所々陳列を御直しになられながら全室を御巡覧になられた。<br><br>その御後に従って私達も拝観さして戴いたが、明主様がじっと御見入りになっていると、その美術品の精が浮出て光を放つように思え、私だけで見る時よりもその真価がズーッとはっきり心に映って来る気がするのも不思議である。<br><br>吾々は明主様から折にふれて御教えいただいたり、昨年度々拝観したおかげで、鑑賞の眼もよほど肥えて来た故でもあろうか、新しく展示されたものには見ていて魂の中心まで射られるような力を感ずるものが数多く確かに去年より優れるとも劣らず、好事家があっとするような逸品や、人々の眼に触れたことのない素晴しいもののみが並べられているのであろう事が分る。<br><br>又昨年は出陳された数も非常に多かったが、今年はかなり成らされており、ゆったりと鑑賞できるし、又美術品も一そう引立って、その価値の尊さが高まっている私は見終ってから何ともいえぬ快感に満たされ、情操が飛躍的に向上された様な感銘を覚えた。<br><br>恐らくは賞めることのない有名な一流美術評論家の某氏が、昨年は幾分の欠点を挙げ得たが今年見た時は一点の非の打所なく、激賞の外すべはなかったとのことであるが、それは当然すぎることと思うのである。<br><br>とにかく、昨年よりはるかに素晴しいというのは誰もが一致した感想である。<br><br> 特に吾々が驚歎に堪えないのは、美術館環境の一大変貌である。<br><br>紅葉亭跡へ渓流に添うて建てられた美しい別館と、本館前から自動車路となり広場となり、渓流にかかる橋の完成は、夢想もしなかった天国美を生んで、全体の趣を一変してしまった。<br><br>それと流をつくる奇巌怪石、それを彩る花弁や紅葉。<br><br>そして一面の苔庭等豪壮幽邃（ゆうすい）味わいつきぬ美を窓にみる待合所、それ等建築の全く新様式の近代美と、自然的庭園美とがこの上なくマッチして、あの広からぬ斜面に得もいえぬ景趣のあらゆる変化をつくり少しも狭隘さがなく陶然たらしめる神技の素晴しさは見る度に味わい深まり讃美尽くるところなく、到底表現の筆をもてぬ程である。<br><br>恐らくはこの環境美に接し美術館を見るどんな人でも、真善美の神の御心にふれて魂の目覚めを覚えずにはおれぬであろう。<br><br> 前日、私は強羅行の電車の中で、最近美術品を御目にかけ始めたという某氏と偶然一緒になり、美術に関する話を種々聞いた。<br><br>その人は「美術品を集める程のどんな人でも贋物をつかまぬ人は一人もない。<br><br>ところが明主様に限って一点の贋物もお採りになっていないのは実に驚いたものですね」と真偽を即座に御鑑定になる御眼力の卓越さにはよほど舌を巻いているらしく、幾度か感歎の声を発していた。<br><br>全くそれは世に例のないことであって、普通一人前の鑑定眼を備える為には、よほど数多くの贋物をつかむものだそうである。<br><br>なお大抵の好事家や専門家の鑑定眼は一ないし数種目に偏るもので、支那陶器なり日本陶器なり、その得意の部門の鑑定には大いに優れているが、他の部門になるとズーッと劣ったり、まるで分らぬ人が多いそうであるが、明主様におかれては、絵画、彫刻、蒔絵、陶器等から、最も困難とされている銅器に至るまで、洋の東西、新古を問わず、どんな種類にでも、優れた鑑賞眼をお持ちになり、しかも大抵は即座になされるのであるからただただ神智と申し上ぐる外はなく、それは箱根美術館を一見すれば誰しも容易に肯ける訳である。<br><br>又今まで箱根美術館を評する記事を読む度に、当然大いに推賞すべき逸品を見落したのではないかと思わるる程の偏頗が感ぜられることがよくあった。<br><br>これによってもすべての部門に渉って透徹せる鑑賞眼をもつ人はやはり容易にないものかといつも思わされるのである。<br><br> その人は又、自分のお届けする美術品が箱根美術館に出品される事に非常な名誉を感じている様であったどんな美術館でも優れた名品は極僅かで、大抵は如何わしいものやいわゆるゴミに近いもの甚だしいのは贋物も混っている場合さえあるが何といってもこの美術館だけは逸品中の逸品でなくては出品されない。<br><br>このように高級な美術館へ、自分の手に入れたものが、出品の所を得るのは何よりの喜びでもある訳である。<br><br>又、明主様が美術品をお集めになるのは国家の為世界の為であって、今迄容易に見る事のできなかった名宝を惜し気もなく常時一般公開せられ、一人も多くの人を楽しませ真の美術館の在り方を示され様となさるそのお気持にも深く感動している。<br><br>その様な感動から、これはと思うものは必ず、第一に明主様に御覧に入れるようにしていると語っていた。<br><br> 箱根美術館は最高品のみが集っているのは勿論神力による驚異の大奇蹟であるが、その奇蹟に動かさるる人々の気持には右のような感動も自ら働いているのであろうと考えたのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Incomparável Beleza do Museu de Hakone</h2>
 <p>No dia da inauguração do museu, Meishu-Sama veio de Atami e percorreu todas as salas, fazendo pessoalmente alguns ajustes na disposição das obras. Tivemos a permissão de acompanhá-lo e, enquanto o observávamos, algo extraordinário acontecia: quando Meishu-Sama fixava seu olhar em uma peça, era como se a verdadeira essência da obra parecia revelar-se, irradiando uma luz própria. É um mistério, mas a presença de Meishu-Sama me permitia perceber o valor intrínseco de cada item com uma clareza muito superior à que eu teria sozinho.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Esse mesmo senhor também expressou o imenso prestígio que sentia por ter obras que ele intermediou expostas no Museu de Hakone. Ele explicou que, enquanto a maioria dos museus possui apenas um número limitado de obras-primas notáveis, convivendo com muitas peças de autenticidade duvidosa, itens de pouco valor e, por vezes, até falsificações, o Museu de Hakone se distingue por acolher unicamente o que há de mais sublime. Assim, para ele, conseguir que uma peça que passou por suas mãos seja digna de ser exposta em um museu de tão alto nível é a maior de todas as alegrias.</p>
 <p>Ele se mostrava também profundamente comovido pela nobreza do propósito de Meishu-Sama ao reunir essas obras: fazê-lo em benefício da nação e do mundo. Ao expor permanentemente tesouros de valor inestimável, antes de difícil acesso, Meishu-Sama proporciona alegria ao maior número possível de pessoas e demonstra qual deve ser a verdadeira missão de um museu. Movido por essa admiração, ele me confidenciou que, sempre que encontra uma obra que considera excepcional, faz questão de apresentá-la primeiramente a Meishu-Sama.</p>
 <p>Refleti, então, que embora a formação do acervo do Museu de Hakone seja, sem dúvida, um grandioso milagre operado pela força Divina, os sentimentos de pessoas assim, tocadas por esse milagre, certamente contribuem de forma espontânea para sua realização.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 最近の日記帳から （２） 瓢箪 『栄光』223号、昭和28(1953)年8月26日発行 美術館開館の日、明主様も熱海からおいでになり、所々陳列を御直しになられながら全室を御巡覧になられた。<br/><br/>その御後に従って私達も拝観さして戴いたが、明主様がじっと御見入りになっていると、その美術品の精が浮出て光を放つように思え、私だけで見る時よりもその真価がズーッとはっきり心に映って来る気がするのも不思議である。<br/><br/>吾々は明主様から折にふれて御教えいただいたり、昨年度々拝観したおかげで、鑑賞の眼もよほど肥えて来た故でもあろうか、新しく展示されたものには見ていて魂の中心まで射られるような力を感ずるものが数多く確かに去年より優れるとも劣らず、好事家があっとするような逸品や、人々の眼に触れたことのない素晴しいもののみが並べられているのであろう事が分る。<br/><br/>又昨年は出陳された数も非常に多かったが、今年はかなり成らされており、ゆったりと鑑賞できるし、又美術品も一そう引立って、その価値の尊さが高まっている私は見終ってから何ともいえぬ快感に満たされ、情操が飛躍的に向上された様な感銘を覚えた。<br/><br/>恐らくは賞めることのない有名な一流美術評論家の某氏が、昨年は幾分の欠点を挙げ得たが今年見た時は一点の非の打所なく、激賞の外すべはなかったとのことであるが、それは当然すぎることと思うのである。<br/><br/>とにかく、昨年よりはるかに素晴しいというのは誰もが一致した感想である。<br/><br/> 特に吾々が驚歎に堪えないのは、美術館環境の一大変貌である。<br/><br/>紅葉亭跡へ渓流に添うて建てられた美しい別館と、本館前から自動車路となり広場となり、渓流にかかる橋の完成は、夢想もしなかった天国美を生んで、全体の趣を一変してしまった。<br/><br/>それと流をつくる奇巌怪石、それを彩る花弁や紅葉。<br/><br/>そして一面の苔庭等豪壮幽邃（ゆうすい）味わいつきぬ美を窓にみる待合所、それ等建築の全く新様式の近代美と、自然的庭園美とがこの上なくマッチして、あの広からぬ斜面に得もいえぬ景趣のあらゆる変化をつくり少しも狭隘さがなく陶然たらしめる神技の素晴しさは見る度に味わい深まり讃美尽くるところなく、到底表現の筆をもてぬ程である。<br/><br/>恐らくはこの環境美に接し美術館を見るどんな人でも、真善美の神の御心にふれて魂の目覚めを覚えずにはおれぬであろう。<br/><br/> 前日、私は強羅行の電車の中で、最近美術品を御目にかけ始めたという某氏と偶然一緒になり、美術に関する話を種々聞いた。<br/><br/>その人は「美術品を集める程のどんな人でも贋物をつかまぬ人は一人もない。<br/><br/>ところが明主様に限って一点の贋物もお採りになっていないのは実に驚いたものですね」と真偽を即座に御鑑定になる御眼力の卓越さにはよほど舌を巻いているらしく、幾度か感歎の声を発していた。<br/><br/>全くそれは世に例のないことであって、普通一人前の鑑定眼を備える為には、よほど数多くの贋物をつかむものだそうである。<br/><br/>なお大抵の好事家や専門家の鑑定眼は一ないし数種目に偏るもので、支那陶器なり日本陶器なり、その得意の部門の鑑定には大いに優れているが、他の部門になるとズーッと劣ったり、まるで分らぬ人が多いそうであるが、明主様におかれては、絵画、彫刻、蒔絵、陶器等から、最も困難とされている銅器に至るまで、洋の東西、新古を問わず、どんな種類にでも、優れた鑑賞眼をお持ちになり、しかも大抵は即座になされるのであるからただただ神智と申し上ぐる外はなく、それは箱根美術館を一見すれば誰しも容易に肯ける訳である。<br/><br/>又今まで箱根美術館を評する記事を読む度に、当然大いに推賞すべき逸品を見落したのではないかと思わるる程の偏頗が感ぜられることがよくあった。<br/><br/>これによってもすべての部門に渉って透徹せる鑑賞眼をもつ人はやはり容易にないものかといつも思わされるのである。<br/><br/> その人は又、自分のお届けする美術品が箱根美術館に出品される事に非常な名誉を感じている様であったどんな美術館でも優れた名品は極僅かで、大抵は如何わしいものやいわゆるゴミに近いもの甚だしいのは贋物も混っている場合さえあるが何といってもこの美術館だけは逸品中の逸品でなくては出品されない。<br/><br/>このように高級な美術館へ、自分の手に入れたものが、出品の所を得るのは何よりの喜びでもある訳である。<br/><br/>又、明主様が美術品をお集めになるのは国家の為世界の為であって、今迄容易に見る事のできなかった名宝を惜し気もなく常時一般公開せられ、一人も多くの人を楽しませ真の美術館の在り方を示され様となさるそのお気持にも深く感動している。<br/><br/>その様な感動から、これはと思うものは必ず、第一に明主様に御覧に入れるようにしていると語っていた。<br/><br/> 箱根美術館は最高品のみが集っているのは勿論神力による驚異の大奇蹟であるが、その奇蹟に動かさるる人々の気持には右のような感動も自ら働いているのであろうと考えたのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

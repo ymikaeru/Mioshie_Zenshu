@@ -4,58 +4,213 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kouwa1</title>
 <link href="../style1.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <p align="center"><font face="HG正楷書体-PRO" size="2">--- Coletânea de Ensaios do Mestre Jikan Okada ---</font><font size="1">関連出版物<br/>
 </font></p>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ――― 岡 田 自 観 師 の 論 文 集 ―― 関連出版物 神智之光 -講話集（補） 写真はありません 神智之光 講話集（補） 発 刊日不明 編集 井上茂登吉 この質疑応答集は明主様の許可のもとに 井上茂登吉氏が まとめられたもので、後日救世教より「講話集（補）」として出版されたようです。<br><br> 質問応答数、約５０００。<br><br> 明主様がお答えになられた部分と、井上先生が取り次がれたような部分とが混在しています。<br><br>未整理であり、大変難解で公開に適さない内容をも含みます。<br><br>せめて「観音講座」を先に拝読の上閲覧されてください。<br><br>また、個人使用以外のコピー・引用はお控えください。<br><br> なお、ＨＰ収録用に項目等に手を加え、整理用ナンバーをつけてあります。<br><br>また、一部、収録時に気のついた部分に rattail（注） をつけてありますが、原本にはありませんのでご了承ください。<br><br> 総 目 次 篇ごとの項目一覧へ 分野別直接本文へ １ 神解明篇 神 、 御神格 、 宇宙 、 太古 、 神秘 、 神史 、 天文・地文 ２ 主神篇 主神・五六七大御神 、 国常立尊 、 伊都能売神 、 兄花木ノ花 、 光明如来 、 観世音 、 五六七 、 御力 、 応身と三身 ３ 万神篇 観音様 、 金龍神 、 神名解 、 諸神仏 、 月系諸神 、 八幡・祓戸 、 龍神・邪神 ４ 明主様篇 御神格 、 御偉徳 、 御事蹟 、 神秘 、 型 、 御光奇象 ５ 霊界篇 三界経緯 、 霊界諸界 、 霊界諸相 、 顕幽１ 、 顕幽２ 、 交流・霊現象 ６ 建設破壊篇 大建設と破壊 、 審判と洗礼 、 転換期１ 、 転換期２ 、 大光明世界 、 昼の文化 ７ 宗教概観篇 救世教 、 仏教１ 、 仏教２ 、 仏教３ 、 キリスト教 、 マホメット教・紅卍会・天理教 、 一般宗教事項 ８ 宗教芸術篇 神と仏 、 仏語仏教真解 、 基・回教 、 大本教・宗教統一 、 節句・祝日 、 芸術１ 、 芸術２ 、 芸術３ ９ 人間本体篇 人の真諦 、 四魂・霊の分類 、 宿命と運命 、 霊統 、 守護神１ 、 守護神２ 10 想念言霊篇 言霊・天の数歌 、 言霊解 、 姓名字 、 想念・行為 、 文字 、 数の神秘 、 厄年 11 民族、国土、迷信篇 民族と系統 、 日本 、 神話 、 伝説 、 迷信 、 年月日 、 行事 、 住居・風習 12 信仰篇（特輯） 大和魂・完成 、 信仰の道（時） 、 智の重要性 、 修行要項 、 発展の道 、 考え方 13 信仰篇（救業、布教） 救業奉仕 、 指導と信徒 、 御報恩・悩み 、 信仰と経済 、 布教の道１ 、 布教の道２ 、 布教の道３ 14 信仰篇 （入信、信仰上の悩み） 入信 、 入信後の浄化 、 信仰上の悩み 、 反対１ 、 反対２ 、 転換 15 浄霊篇（上） 御守１ 、 御守２ 、 御守３ 、 浄霊 、 施行・方法 、 感応 、 異常 16 浄霊篇（下） 浄霊による救済 、 健康診査 、 癌・肉腫 、 急所 、 霊的病気１ 、 霊的病気２ 、 奇象 17 医術篇（一） 脳及び眼疾患 脳溢血 、 脳炎 、 眼疾１ 、 眼疾２ 、 眼疾３ 18 医術篇（二） 上体及び中体 眩暈・顔面 、 耳 、 口・頚部 、 咽喉 、 感冒・肺炎・喘息 、 結核１ 、 結核２ 19 医術篇（三） 中体病理 癌・心臓 、 胃 、 背・肋膜・肝胆 、 カリエス 、 腹部 、 腎・手術 、 固結物 20 医術篇（四） 下体及び婦人・小児病 痔・花柳病 、 婦人病１ 、 婦人病２ 、 婦人病３ 、 小児病 、 血液に関する病 21 医術篇（五） 四肢１ 、 四肢２ 、 四肢３ 、 毛髪 、 皮膚疾患１ 、 皮膚疾患２ 、 皮膚疾患３ 22 医術篇（六） 病気諸症状 熱・痛み 、 咳・息切れ 、 嘔吐・浮腫・麻痺 、 排泄 、 近代病・新病種 23 医術篇（七） 傷害・原子病 、 打撲・骨折 、 奇形 、 シャックリ・咬毒 、 癩 、 中毒 、 寄生虫 24 医術篇（八） 一般療法 、 ギブス・除水 、 誤謬１ 、 誤謬２ 、 誤謬３ 、 誤謬４ 25 医術篇（九） 医術・浄化 、 人体・毒素 、 血液 、 排泄 、 食事 、 保健 、 性・生死 26 医術篇（一〇） 懐妊 、 妊娠中 、 出産 、 産後 、 産後の浄化 、 育児 、 嬰児 、 転生・再生 27 霊学篇 第一篇 霊的病気（一） 精神病１ 、 精神病２ 、 癲癇1 、 癲癇２ 、 霊体両原因病１ 、 ２ 、 ３ 、 ４ 28 霊的病気（二） 上体 、 中体 、 下体 、 中風 、 龍神 、 特殊病 、 遺伝・その他 29 霊的病気（三） 再生１ 、 再生２ 、 前世１ 、 前世２ 、 前世３ 、 転生 、 奇形 、 動物の習性 30 霊的病気（四） 罪１ 、 罪２ 、 祟り１ 、 祟り２ 、 土地の障り 31 霊学篇 第二篇 霊的現象（一） 憑霊１ 、 憑霊２ 、 憑霊３ 、 生霊・死霊 、 特異症状 、 地獄霊 、 物への憑霊 32 霊的現象（二） 霊示 、 霊視 、 心霊現象 、 霊術・呪咀 、 夢１ 、 夢２ 、 夢３ 、 夢４ 、 夢解 33 霊学篇 第三篇 諸霊解説（一） 祖霊 、 戒告１ 、 戒告２ 、 変死・地縛 、 流産 34 諸霊解説（二） 龍神 、 蛇霊 、 樹と龍神 、 井戸 、 水の清濁・仙人 35 諸霊解説（三） 狐霊 、 憑依 、 霊能 、 一般動物霊 、 祟り 、 怪異 、 変質 36 農法篇 自然農法 原理 、 状態 、 農耕法 、 種子 、 技術 、 施肥 、 処理 、 肥毒 、 病虫害 、 花卉果樹 37 奇蹟奇象篇 御神体 、 御浄霊 、 守護神・光 、 仏壇仏像人霊 、 奇象 、 死者新霊 、 龍神 、 動植物 38 祭事篇 第一篇 御奉斎 御神体 、 拝受・損傷 、 御尊影 、 御奉斎 、 他神仏併祀 、 奉斎許否 、 位置場所 、 奉斎後 、 御書体 39 祭事篇 第二篇 諸神仏斎祀 観音様 、 大黒様 、 大黒・恵比須 、 一般祭祀 、 一般祭祀２ 、 処分 40 祭事篇 第三篇 祭式 、 礼拝 、 供物 、 用語・祭具 、 善言讃詞 、 祝詞 、 祭典日 41 霊祀篇 第一篇 御屏風観音様 、 祖霊供養 、 宗教相違 、 各宗特殊 、 家系霊祀 、 家と別祀 42 霊祀篇 第二篇 唱え言 、 祖霊礼拝 、 供養 、 お盆彼岸 、 法式 、 位牌 、 戒名 、 仏壇 43 霊祀篇 第三篇 仏霊 、 地縛・無縁 、 龍神・動物霊 、 狐霊・地の神 、 一般動物霊 、 処分１ 、 処分２ 44 霊祀篇 第四篇 葬祭 、 新霊 、 埋葬 、 分骨 、 死体 、 墓所１ 、 墓所２ 45 人事篇 第一篇 家 、 親子 、 夫婦 、 離別 、 家系 、 恋愛 、 結婚 、 結婚の良否 、 相性 46 人事篇 第二篇 建築 、 家相 、 方角１ 、 方角２ 、 人相 、 暦・易 47 社会人事篇 経済 、 動植物・奇象 、 家相方位 、 曇と災禍 、 家と土地 、 信仰と災難 、 処世 、 人事１ 、 人事２ 48 政治、経済、社会篇 政治経済 、 世界 、 社会 、 土地 、 俗言 、 行事風習 49 学問篇 教育 、 学問思想 、 科学 、 動物 、 人間と動物 、 動物の霊作用 、 植物 50 天文、地文篇 太陽 、 星 、 天体 、 地球 、 地上現象 、 気象１ 、 気象２
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><p>Publicações Relacionadas — A partir da Coletânea de Ensaios do Mestre Okada Jikan</p>
 <h2>A Luz da Sabedoria Divina – Coletânea de Sermões (Complementar)</h2>
@@ -521,5 +676,48 @@ Acesso Direto ao Texto por Categoria</p>
 </table>
 </center></div>
 <p>　</p>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>――― 岡 田 自 観 師 の 論 文 集 ―― 関連出版物 神智之光 -講話集（補） 写真はありません 神智之光 講話集（補） 発 刊日不明 編集 井上茂登吉 この質疑応答集は明主様の許可のもとに 井上茂登吉氏が まとめられたもので、後日救世教より「講話集（補）」として出版されたようです。<br/><br/> 質問応答数、約５０００。<br/><br/> 明主様がお答えになられた部分と、井上先生が取り次がれたような部分とが混在しています。<br/><br/>未整理であり、大変難解で公開に適さない内容をも含みます。<br/><br/>せめて「観音講座」を先に拝読の上閲覧されてください。<br/><br/>また、個人使用以外のコピー・引用はお控えください。<br/><br/> なお、ＨＰ収録用に項目等に手を加え、整理用ナンバーをつけてあります。<br/><br/>また、一部、収録時に気のついた部分に rattail（注） をつけてありますが、原本にはありませんのでご了承ください。<br/><br/> 総 目 次 篇ごとの項目一覧へ 分野別直接本文へ １ 神解明篇 神 、 御神格 、 宇宙 、 太古 、 神秘 、 神史 、 天文・地文 ２ 主神篇 主神・五六七大御神 、 国常立尊 、 伊都能売神 、 兄花木ノ花 、 光明如来 、 観世音 、 五六七 、 御力 、 応身と三身 ３ 万神篇 観音様 、 金龍神 、 神名解 、 諸神仏 、 月系諸神 、 八幡・祓戸 、 龍神・邪神 ４ 明主様篇 御神格 、 御偉徳 、 御事蹟 、 神秘 、 型 、 御光奇象 ５ 霊界篇 三界経緯 、 霊界諸界 、 霊界諸相 、 顕幽１ 、 顕幽２ 、 交流・霊現象 ６ 建設破壊篇 大建設と破壊 、 審判と洗礼 、 転換期１ 、 転換期２ 、 大光明世界 、 昼の文化 ７ 宗教概観篇 救世教 、 仏教１ 、 仏教２ 、 仏教３ 、 キリスト教 、 マホメット教・紅卍会・天理教 、 一般宗教事項 ８ 宗教芸術篇 神と仏 、 仏語仏教真解 、 基・回教 、 大本教・宗教統一 、 節句・祝日 、 芸術１ 、 芸術２ 、 芸術３ ９ 人間本体篇 人の真諦 、 四魂・霊の分類 、 宿命と運命 、 霊統 、 守護神１ 、 守護神２ 10 想念言霊篇 言霊・天の数歌 、 言霊解 、 姓名字 、 想念・行為 、 文字 、 数の神秘 、 厄年 11 民族、国土、迷信篇 民族と系統 、 日本 、 神話 、 伝説 、 迷信 、 年月日 、 行事 、 住居・風習 12 信仰篇（特輯） 大和魂・完成 、 信仰の道（時） 、 智の重要性 、 修行要項 、 発展の道 、 考え方 13 信仰篇（救業、布教） 救業奉仕 、 指導と信徒 、 御報恩・悩み 、 信仰と経済 、 布教の道１ 、 布教の道２ 、 布教の道３ 14 信仰篇 （入信、信仰上の悩み） 入信 、 入信後の浄化 、 信仰上の悩み 、 反対１ 、 反対２ 、 転換 15 浄霊篇（上） 御守１ 、 御守２ 、 御守３ 、 浄霊 、 施行・方法 、 感応 、 異常 16 浄霊篇（下） 浄霊による救済 、 健康診査 、 癌・肉腫 、 急所 、 霊的病気１ 、 霊的病気２ 、 奇象 17 医術篇（一） 脳及び眼疾患 脳溢血 、 脳炎 、 眼疾１ 、 眼疾２ 、 眼疾３ 18 医術篇（二） 上体及び中体 眩暈・顔面 、 耳 、 口・頚部 、 咽喉 、 感冒・肺炎・喘息 、 結核１ 、 結核２ 19 医術篇（三） 中体病理 癌・心臓 、 胃 、 背・肋膜・肝胆 、 カリエス 、 腹部 、 腎・手術 、 固結物 20 医術篇（四） 下体及び婦人・小児病 痔・花柳病 、 婦人病１ 、 婦人病２ 、 婦人病３ 、 小児病 、 血液に関する病 21 医術篇（五） 四肢１ 、 四肢２ 、 四肢３ 、 毛髪 、 皮膚疾患１ 、 皮膚疾患２ 、 皮膚疾患３ 22 医術篇（六） 病気諸症状 熱・痛み 、 咳・息切れ 、 嘔吐・浮腫・麻痺 、 排泄 、 近代病・新病種 23 医術篇（七） 傷害・原子病 、 打撲・骨折 、 奇形 、 シャックリ・咬毒 、 癩 、 中毒 、 寄生虫 24 医術篇（八） 一般療法 、 ギブス・除水 、 誤謬１ 、 誤謬２ 、 誤謬３ 、 誤謬４ 25 医術篇（九） 医術・浄化 、 人体・毒素 、 血液 、 排泄 、 食事 、 保健 、 性・生死 26 医術篇（一〇） 懐妊 、 妊娠中 、 出産 、 産後 、 産後の浄化 、 育児 、 嬰児 、 転生・再生 27 霊学篇 第一篇 霊的病気（一） 精神病１ 、 精神病２ 、 癲癇1 、 癲癇２ 、 霊体両原因病１ 、 ２ 、 ３ 、 ４ 28 霊的病気（二） 上体 、 中体 、 下体 、 中風 、 龍神 、 特殊病 、 遺伝・その他 29 霊的病気（三） 再生１ 、 再生２ 、 前世１ 、 前世２ 、 前世３ 、 転生 、 奇形 、 動物の習性 30 霊的病気（四） 罪１ 、 罪２ 、 祟り１ 、 祟り２ 、 土地の障り 31 霊学篇 第二篇 霊的現象（一） 憑霊１ 、 憑霊２ 、 憑霊３ 、 生霊・死霊 、 特異症状 、 地獄霊 、 物への憑霊 32 霊的現象（二） 霊示 、 霊視 、 心霊現象 、 霊術・呪咀 、 夢１ 、 夢２ 、 夢３ 、 夢４ 、 夢解 33 霊学篇 第三篇 諸霊解説（一） 祖霊 、 戒告１ 、 戒告２ 、 変死・地縛 、 流産 34 諸霊解説（二） 龍神 、 蛇霊 、 樹と龍神 、 井戸 、 水の清濁・仙人 35 諸霊解説（三） 狐霊 、 憑依 、 霊能 、 一般動物霊 、 祟り 、 怪異 、 変質 36 農法篇 自然農法 原理 、 状態 、 農耕法 、 種子 、 技術 、 施肥 、 処理 、 肥毒 、 病虫害 、 花卉果樹 37 奇蹟奇象篇 御神体 、 御浄霊 、 守護神・光 、 仏壇仏像人霊 、 奇象 、 死者新霊 、 龍神 、 動植物 38 祭事篇 第一篇 御奉斎 御神体 、 拝受・損傷 、 御尊影 、 御奉斎 、 他神仏併祀 、 奉斎許否 、 位置場所 、 奉斎後 、 御書体 39 祭事篇 第二篇 諸神仏斎祀 観音様 、 大黒様 、 大黒・恵比須 、 一般祭祀 、 一般祭祀２ 、 処分 40 祭事篇 第三篇 祭式 、 礼拝 、 供物 、 用語・祭具 、 善言讃詞 、 祝詞 、 祭典日 41 霊祀篇 第一篇 御屏風観音様 、 祖霊供養 、 宗教相違 、 各宗特殊 、 家系霊祀 、 家と別祀 42 霊祀篇 第二篇 唱え言 、 祖霊礼拝 、 供養 、 お盆彼岸 、 法式 、 位牌 、 戒名 、 仏壇 43 霊祀篇 第三篇 仏霊 、 地縛・無縁 、 龍神・動物霊 、 狐霊・地の神 、 一般動物霊 、 処分１ 、 処分２ 44 霊祀篇 第四篇 葬祭 、 新霊 、 埋葬 、 分骨 、 死体 、 墓所１ 、 墓所２ 45 人事篇 第一篇 家 、 親子 、 夫婦 、 離別 、 家系 、 恋愛 、 結婚 、 結婚の良否 、 相性 46 人事篇 第二篇 建築 、 家相 、 方角１ 、 方角２ 、 人相 、 暦・易 47 社会人事篇 経済 、 動植物・奇象 、 家相方位 、 曇と災禍 、 家と土地 、 信仰と災難 、 処世 、 人事１ 、 人事２ 48 政治、経済、社会篇 政治経済 、 世界 、 社会 、 土地 、 俗言 、 行事風習 49 学問篇 教育 、 学問思想 、 科学 、 動物 、 人間と動物 、 動物の霊作用 、 植物 50 天文、地文篇 太陽 、 星 、 天体 、 地球 、 地上現象 、 気象１ 、 気象２</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

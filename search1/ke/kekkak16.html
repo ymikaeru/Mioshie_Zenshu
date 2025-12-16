@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kekkak16</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核と神霊科学 ・結核は治る 自観叢書第1篇『結核と神霊療法』P.24、昭和24(1949)年6月25日発行 今日まで世に表われたところの数多い所説は、例外なく宗教と科学は一致し難いものとされていた。<br><br>ところが今私の言わんとするのは、宗教と科学は決して別個のものではなく、同一の線を歩むべきもので、将来ある時期に到れば必ず一致すべき事を信ずるのである。<br><br>しからばその一致点はどこにあるかを解説してみよう。<br><br> 現在の科学を端的に言えば顕微鏡科学といってよい。<br><br>顕微鏡による細菌や微粒子の発見が基礎となって、今日の隆盛をみるに至った事は言うまでもない。<br><br>しかし現在顕微鏡で見得る程度としては普通三千倍から二万倍、最近の電子顕微鏡においては十万倍にも達するそうである。<br><br>いずれは百万倍にも達する事も、そう遠い将来ではあるまい。<br><br> 以上のような顕微鏡科学の驚くべき進歩は何を物語っているのであろうか。<br><br>もちろん神霊と科学の一致点に向かって、進行の度を進めつつある事はもちろんである。<br><br>ここで私はまず、人間生命の問題をとり上げて神霊と科学の実態を解説してみよう。<br><br> そもそも現代医学が進歩を云々しながら、その効果に至っては首肯し難いものがある。<br><br>彼の肺炎が五十年以前一週間を要して治ったものが今も一週間かからなければ治らない事や、いか程研究努力を払っても、結核は今もって謎とされている事や、最も簡単な感冒の病因すらいまだ発見されていないというに至っては、他は推して知るべきであろう。<br><br>これらによってみても、現在医科学の水準は、世人の期待程でない事は余りにも明らかである。<br><br> 現代医学によればあらゆる病原は、ほとんど細菌とされている。<br><br>細菌さえ殺滅すれば病患は解決すべきものとなし、盛んに殺菌研究に専念するのみで、他を顧みようともしないのである。<br><br>これがそもそも一大誤謬である事を私は指摘すると共に、その根源にメスを入れてみよう。<br><br> 以上のごとき殺菌手段はなんら意味をなさないという事は、彼の結核患者が保有している何万何億か知れない細菌を一匹残らず殺滅する事は到底不可能であるからである。<br><br>それは今最も進歩せる服用剤や注射薬を用いるとして結核菌の密集地帯である病竃〔巣〕部まで薬力そのままで浸透し達する筈がない。<br><br>いかに殺菌力ある服用剤といえども胃中に入るや、胃液のために中和され、病竃部に達するまでには、殺菌力は相当減少すべきは常識でも考えらるるのであると同様注射薬にしても一度血管に入るやこれまた殺菌力の中和はもちろんである。<br><br>さらばといって胃液や血液の作用に抵抗し得る程の強力殺菌剤を用うるとすれば、生命に関する程の危険があろう。<br><br>いわゆる角を矯（た）めて牛を殺す事になる。<br><br>この理によって結核に対する殺菌療法は永久に成功しない事は断言してはばからないのである。<br><br>何よりの証左は結核に関する新薬、特効薬が絶えず表われては消え、現われては消え今もって決定版が出ないという事はそれをいかんなく物語っていると言っていい。<br><br> 結核殺菌法の無価値は、前述のごとくであるとすればどうしても別方面に研究の重点を置き替えなければならないに係わらず、今もってそれに目覚めないのはいかなる理由によるのであろうか。<br><br>これは全く細菌医学の余りにも捉われすぎた結果ではあるまいか。<br><br>故に現在医学における結核研究はなんら意味ない徒労以外の何物でもないと言えよう。<br><br> そうして医学が細菌を恐れるという事は、細菌そのものよりも、細菌の繁殖そのものを恐れるのである。<br><br>何となればたとえ細菌が肺胞の粘膜に付着しても、繁殖しなければ病気は発生しないからである。<br><br>これを判りやすくするため結核患者を三種類に分けてみよう。<br><br>すなわち第一は細菌繁殖によって発病増悪するもの、第二は一度病気発生しても知らぬ間に治癒するもの（これが一番多い事は医学も言っている）第三は菌が侵入しても全然発病しないものとである。<br><br>これら三者はいうまでもなく、第一は抵抗力薄弱のためであり、第二は相当の抵抗力があるのである程度で繁殖力を喰止め得る、第三は抵抗力強盛のため、菌は速かに死滅する等で、この事は医家もよく知っている所である。<br><br>これによってみれば第三である、細菌を死菌させる程の抵抗力を有する健康体たらしめればいいのである。<br><br>これが結核問題解決の根本で、これ以外決して問題解決の鍵はないのである。<br><br> 以上は医学においても気のつかない筈はないであろうが、たとえ気がついても第三の健康体にする方法は、今日の医学では至難である。<br><br>ちょうど、弱小国が敵の侵入を恐るるのと同様でそれは敵以上の軍備が充実していれば、なんら恐るるところはないのと同様である。<br><br> 以上のごとく医学が第三健康にする事が不可能であるのはどういう訳かというと、健康そのものの原理がいまだ不明であるからで、顕微鏡科学がそこまで進歩していないためである。<br><br>すなわち今日の科学で知り得る細菌は、実は細菌ではなく巨菌といってもいい位のもので、今日顕微鏡で見えない細菌を濾過性といっているが、この濾過性よりも何百万倍否何千万粒極微なる神霊微粒子の存在が明らかになっていないからで、将来顕微鏡科学が進歩の極に達した時初めてこの神霊微粒子を発見さるるので、ここに到って初めて宗教と科学の一致が如実に実現さるるのである。<br><br>しかるに吾々が日々驚異的効果を挙げつつある神霊療法によれば、第三者的健康法たらしむる事はあえて難事ではなく、現在実際に造られつつある事実である。<br><br>従って吾々には結核などは問題ではないという事は感染の危険が更にないからである。<br><br>故に吾々の手によって日本から結核を追放してしまうという宣言もいささかの誇張もない訳である。<br><br> ここで、神霊微粒子について解説してみるが、この微粒子を説明するには相反す二種の、元素を知る必要がある、すなわち悪と善であり、暗と光であり、水と火であり、凝と解である。<br><br>この凝が毒素であってそれを解の力によって溶解排除させる。<br><br>吾々が常にいうところの火素の活動で、これを浄霊法ともいうのである。<br><br>この浄霊によって濁血者は浄血者となり、浄血者となれば、第三健康者となるのであるから、この原理を知り、実行に表わす事によって人類から病気を完全に除去する事が可能であるにおいて、ここに初めて病なき世界が実現するのである。<br><br> 以上の理によって忌憚（きたん）なく言えば、わが神霊療法の原理は、現代医学の在りどころからは実に千里の先に進んでいると言ってもいい。<br><br>いずれは現代医学も吾々の位置にまで到達する事は予想され得ると共にわが神霊療法は一世紀先の科学といっても決して過言ではない、従って吾々には研究の言葉はない。<br><br>その必要がないからである。<br><br>医療で不可能とされた難病重患が、続々快癒する事実をみて何人も奇蹟というが、実は奇蹟でも何でもなく、治癒すべき原理によって治癒したまでである。<br><br> 本来科学とは一切の真理を探究し、人類の福祉を増進すべき学問であって、いかにもっともらしい理論を説くといえども実効を現わさない限り、それは科学とは言えないであろう。<br><br> 吾々が常に感ずる事は、病者が医家に病原を質問する場合、納得のゆく説明はなし得ないようである。<br><br>吾々が新聞雑誌ラジオ等で病菌に対する質問応答をきくが、そのほとんどは曖昧模糊（あいまいもこ）として、お座なり的で、病者の安心のゆくような、適確な解答は与えられないのである。<br><br>徹頭徹尾消極的で、ただ大事をとれというに過ぎない。<br><br>結局専門家に診てもらえという逃口上で終っている。<br><br>ところが、事実質問者の多くはサンザ専門家にかかって治癒しないから質（き）くのであるから、右の答を聞いて失望しない者は幾人あるであろう。<br><br> 私は前述のごとく、随分突込んで説いたが、決して医学を非難せんがための非難では毫（ごう）もない、止むに止まれぬ人類愛的精神の発露からである以上、大乗的見地に立って観られん事をである。<br><br>私が前人未踏の真を知り得たという事は、実に神が世紀末に当り、人類の健康を復活せしめんがため、私を機関としてその大偉業を遂行せしめ給うのであると信ずるのである。<br><br> 最後に私の説を事実をもって立証するため、浄霊療法による結核全治者の体験報告〔略〕を以下掲載して、参考に供する次第である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Cura da Tuberculose sob a Ótica da Ciência Espiritual</h2>
 <p>Até hoje, as inúmeras teorias apresentadas ao mundo sustentavam, sem exceção, que a religião e a ciência são inconciliáveis. Contudo, o que pretendo expor é que ambas não são de modo algum entidades distintas, mas sim que devem trilhar o mesmo caminho. Creio firmemente que, em um dado momento no futuro, sua unificação será inevitável. Sendo assim, permitam-me elucidar em que ponto se encontra essa convergência.</p>
@@ -110,5 +262,48 @@ function toggleLang(lang) {
 <p>Percebemos, com frequência, que quando os doentes questionam os médicos sobre a causa de suas enfermidades, não obtêm uma explicação satisfatória. Ao acompanharmos debates sobre agentes patogênicos em jornais, revistas ou no rádio, notamos que as respostas são, na sua maioria, vagas, protocolares e incapazes de proporcionar ao paciente a tranquilidade de uma resposta precisa. As orientações são meramente passivas, limitando-se a um “tome cuidado”. No fim, tudo termina com a evasiva: “consulte um especialista”. Ora, a realidade é que muitos dos que perguntam já o fizeram extensivamente e não obtiveram a cura. Quantos, ao ouvirem tal resposta, não se sentem profundamente desapontados?</p>
 <p>Embora minhas palavras anteriores tenham sido incisivas, elas não representam, de modo algum, uma crítica à medicina por mero prazer de criticar. São, na verdade, a expressão de um inevitável sentimento de amor pela humanidade, e espero que sejam compreendidas sob essa perspectiva mais elevada. O fato de eu ter conhecido uma verdade até então inexplorada por qualquer outra pessoa deve-se à minha crença de que Deus, na iminência do fim de uma era, utiliza-me como Seu instrumento para realizar a grandiosa obra de restaurar a saúde da humanidade.</p>
 <p>Por fim, para comprovar minha teoria com fatos, apresento a seguir, para vossa referência, os relatos de experiência de pessoas que obtiveram a cura completa da tuberculose por meio do Johrei.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核と神霊科学 ・結核は治る 自観叢書第1篇『結核と神霊療法』P.24、昭和24(1949)年6月25日発行 今日まで世に表われたところの数多い所説は、例外なく宗教と科学は一致し難いものとされていた。<br/><br/>ところが今私の言わんとするのは、宗教と科学は決して別個のものではなく、同一の線を歩むべきもので、将来ある時期に到れば必ず一致すべき事を信ずるのである。<br/><br/>しからばその一致点はどこにあるかを解説してみよう。<br/><br/> 現在の科学を端的に言えば顕微鏡科学といってよい。<br/><br/>顕微鏡による細菌や微粒子の発見が基礎となって、今日の隆盛をみるに至った事は言うまでもない。<br/><br/>しかし現在顕微鏡で見得る程度としては普通三千倍から二万倍、最近の電子顕微鏡においては十万倍にも達するそうである。<br/><br/>いずれは百万倍にも達する事も、そう遠い将来ではあるまい。<br/><br/> 以上のような顕微鏡科学の驚くべき進歩は何を物語っているのであろうか。<br/><br/>もちろん神霊と科学の一致点に向かって、進行の度を進めつつある事はもちろんである。<br/><br/>ここで私はまず、人間生命の問題をとり上げて神霊と科学の実態を解説してみよう。<br/><br/> そもそも現代医学が進歩を云々しながら、その効果に至っては首肯し難いものがある。<br/><br/>彼の肺炎が五十年以前一週間を要して治ったものが今も一週間かからなければ治らない事や、いか程研究努力を払っても、結核は今もって謎とされている事や、最も簡単な感冒の病因すらいまだ発見されていないというに至っては、他は推して知るべきであろう。<br/><br/>これらによってみても、現在医科学の水準は、世人の期待程でない事は余りにも明らかである。<br/><br/> 現代医学によればあらゆる病原は、ほとんど細菌とされている。<br/><br/>細菌さえ殺滅すれば病患は解決すべきものとなし、盛んに殺菌研究に専念するのみで、他を顧みようともしないのである。<br/><br/>これがそもそも一大誤謬である事を私は指摘すると共に、その根源にメスを入れてみよう。<br/><br/> 以上のごとき殺菌手段はなんら意味をなさないという事は、彼の結核患者が保有している何万何億か知れない細菌を一匹残らず殺滅する事は到底不可能であるからである。<br/><br/>それは今最も進歩せる服用剤や注射薬を用いるとして結核菌の密集地帯である病竃〔巣〕部まで薬力そのままで浸透し達する筈がない。<br/><br/>いかに殺菌力ある服用剤といえども胃中に入るや、胃液のために中和され、病竃部に達するまでには、殺菌力は相当減少すべきは常識でも考えらるるのであると同様注射薬にしても一度血管に入るやこれまた殺菌力の中和はもちろんである。<br/><br/>さらばといって胃液や血液の作用に抵抗し得る程の強力殺菌剤を用うるとすれば、生命に関する程の危険があろう。<br/><br/>いわゆる角を矯（た）めて牛を殺す事になる。<br/><br/>この理によって結核に対する殺菌療法は永久に成功しない事は断言してはばからないのである。<br/><br/>何よりの証左は結核に関する新薬、特効薬が絶えず表われては消え、現われては消え今もって決定版が出ないという事はそれをいかんなく物語っていると言っていい。<br/><br/> 結核殺菌法の無価値は、前述のごとくであるとすればどうしても別方面に研究の重点を置き替えなければならないに係わらず、今もってそれに目覚めないのはいかなる理由によるのであろうか。<br/><br/>これは全く細菌医学の余りにも捉われすぎた結果ではあるまいか。<br/><br/>故に現在医学における結核研究はなんら意味ない徒労以外の何物でもないと言えよう。<br/><br/> そうして医学が細菌を恐れるという事は、細菌そのものよりも、細菌の繁殖そのものを恐れるのである。<br/><br/>何となればたとえ細菌が肺胞の粘膜に付着しても、繁殖しなければ病気は発生しないからである。<br/><br/>これを判りやすくするため結核患者を三種類に分けてみよう。<br/><br/>すなわち第一は細菌繁殖によって発病増悪するもの、第二は一度病気発生しても知らぬ間に治癒するもの（これが一番多い事は医学も言っている）第三は菌が侵入しても全然発病しないものとである。<br/><br/>これら三者はいうまでもなく、第一は抵抗力薄弱のためであり、第二は相当の抵抗力があるのである程度で繁殖力を喰止め得る、第三は抵抗力強盛のため、菌は速かに死滅する等で、この事は医家もよく知っている所である。<br/><br/>これによってみれば第三である、細菌を死菌させる程の抵抗力を有する健康体たらしめればいいのである。<br/><br/>これが結核問題解決の根本で、これ以外決して問題解決の鍵はないのである。<br/><br/> 以上は医学においても気のつかない筈はないであろうが、たとえ気がついても第三の健康体にする方法は、今日の医学では至難である。<br/><br/>ちょうど、弱小国が敵の侵入を恐るるのと同様でそれは敵以上の軍備が充実していれば、なんら恐るるところはないのと同様である。<br/><br/> 以上のごとく医学が第三健康にする事が不可能であるのはどういう訳かというと、健康そのものの原理がいまだ不明であるからで、顕微鏡科学がそこまで進歩していないためである。<br/><br/>すなわち今日の科学で知り得る細菌は、実は細菌ではなく巨菌といってもいい位のもので、今日顕微鏡で見えない細菌を濾過性といっているが、この濾過性よりも何百万倍否何千万粒極微なる神霊微粒子の存在が明らかになっていないからで、将来顕微鏡科学が進歩の極に達した時初めてこの神霊微粒子を発見さるるので、ここに到って初めて宗教と科学の一致が如実に実現さるるのである。<br/><br/>しかるに吾々が日々驚異的効果を挙げつつある神霊療法によれば、第三者的健康法たらしむる事はあえて難事ではなく、現在実際に造られつつある事実である。<br/><br/>従って吾々には結核などは問題ではないという事は感染の危険が更にないからである。<br/><br/>故に吾々の手によって日本から結核を追放してしまうという宣言もいささかの誇張もない訳である。<br/><br/> ここで、神霊微粒子について解説してみるが、この微粒子を説明するには相反す二種の、元素を知る必要がある、すなわち悪と善であり、暗と光であり、水と火であり、凝と解である。<br/><br/>この凝が毒素であってそれを解の力によって溶解排除させる。<br/><br/>吾々が常にいうところの火素の活動で、これを浄霊法ともいうのである。<br/><br/>この浄霊によって濁血者は浄血者となり、浄血者となれば、第三健康者となるのであるから、この原理を知り、実行に表わす事によって人類から病気を完全に除去する事が可能であるにおいて、ここに初めて病なき世界が実現するのである。<br/><br/> 以上の理によって忌憚（きたん）なく言えば、わが神霊療法の原理は、現代医学の在りどころからは実に千里の先に進んでいると言ってもいい。<br/><br/>いずれは現代医学も吾々の位置にまで到達する事は予想され得ると共にわが神霊療法は一世紀先の科学といっても決して過言ではない、従って吾々には研究の言葉はない。<br/><br/>その必要がないからである。<br/><br/>医療で不可能とされた難病重患が、続々快癒する事実をみて何人も奇蹟というが、実は奇蹟でも何でもなく、治癒すべき原理によって治癒したまでである。<br/><br/> 本来科学とは一切の真理を探究し、人類の福祉を増進すべき学問であって、いかにもっともらしい理論を説くといえども実効を現わさない限り、それは科学とは言えないであろう。<br/><br/> 吾々が常に感ずる事は、病者が医家に病原を質問する場合、納得のゆく説明はなし得ないようである。<br/><br/>吾々が新聞雑誌ラジオ等で病菌に対する質問応答をきくが、そのほとんどは曖昧模糊（あいまいもこ）として、お座なり的で、病者の安心のゆくような、適確な解答は与えられないのである。<br/><br/>徹頭徹尾消極的で、ただ大事をとれというに過ぎない。<br/><br/>結局専門家に診てもらえという逃口上で終っている。<br/><br/>ところが、事実質問者の多くはサンザ専門家にかかって治癒しないから質（き）くのであるから、右の答を聞いて失望しない者は幾人あるであろう。<br/><br/> 私は前述のごとく、随分突込んで説いたが、決して医学を非難せんがための非難では毫（ごう）もない、止むに止まれぬ人類愛的精神の発露からである以上、大乗的見地に立って観られん事をである。<br/><br/>私が前人未踏の真を知り得たという事は、実に神が世紀末に当り、人類の健康を復活せしめんがため、私を機関としてその大偉業を遂行せしめ給うのであると信ずるのである。<br/><br/> 最後に私の説を事実をもって立証するため、浄霊療法による結核全治者の体験報告〔略〕を以下掲載して、参考に供する次第である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

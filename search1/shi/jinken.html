@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jinken</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人権蹂躪 『法難手記』昭和25(1950)年10月30日発行 自由民主主義とは、人権を尊重する事から始まるというのは、今更言う必要のない程、明らかな話ではあるが、実際上それが仲々行われていない事を、今度の事件によって、つくづく思われたのである。<br><br>意外なのは役人が人民に対し、平気で行う人権蹂躙的態度である。<br><br>何しろ警察官が人民を拘束し、自由を奪う事など当り前のようになっている。<br><br>全く一種の特権階級と言ってもいい。<br><br>その表われとしてちょっとした聞き込みや、投書、密告、部下の報告等によって、碌々（ろくろく）調べもせず簡単に召喚したり留置したりする。<br><br>留置した場合でも、被告の迷惑などには頓着なく、一回の取調べが一日くらいの拘留で済むような事でも、二日も三日も留置したりする。<br><br>今度の事件なども数人が関連しているという理由で、二十数日から長きは四十日以上も勾留されたのである。<br><br>常識で考えてもまず一、二週間なら充分可能と思う容疑なのに、さきに述べたごとく、毎日毎日一つ事を繰返すのだから長引く訳である。<br><br>これらはどう考えても民主主義ではなく、官主主義である。<br><br> 何しろ、長い間封建制が続いて来た日本であるから、官憲の御代官的観念は、仲々抜け切れないのは、止むを得ないかも知れない。<br><br>また人民も人民で、長い物には巻かれる式で、何事も屈従してしまうのであるから、真の民主日本となるには程遠い感がする。<br><br>彼の米国における役人と人民の関係などを聴くにつけ、実に羨ましい限りで、日本も早くそうなる事を切望して止まないのである。<br><br>なるほど日本の警察も以前からみると「オイッコラッ」式や、「貴様」などもほとんどなくなり、人民に対する態度も余程よくなった点は認め得るが、前述のごとき不必要なまでに、人民の自白を束縛する行き過ぎは、最早止めてもいい時期と思うのである。<br><br> 次に今度私が取調べを受けた時の、被告としての心理状態をかいてみるのも、満更無駄ではあるまい。<br><br>これについてさきに詳しくかいたごとく、調官の訊問に対し、事実記憶にない事は否認するのが当り前だが、それが調官の感情に触れるかのように、取調べは段々強化される、しまいには威嚇したり、焦立ったり、呶号罵言さえ浴びせかけるのであるから、被告の方も感情的になり、言おうと思う事も口に出ないようになる。<br><br>自然取調べはスムースにゆかない、その結果双方共無駄な時間と労力を徒費する事おびただしい。<br><br>私は出所帰宅後健康を取戻すと共に、平常の心理状態になったので、よく考えてみると、その当時の状態がよく判って来た、それはあの時どうして思い切って自己の主張を通さなかったのか、あんな法に引っ掛かりそうな事を、マザマザと言ったのだろうか、しかも事実でない拵え事までしたり、先方のカマ掛け訊問と知りながら是認したり、不利な事を承知で言ったりした事など、自分ながら不思議な心理状態と思うのである。<br><br>従って最後まで真実を頑張り続けたなら、起訴にはならなかったかも知れない事など後から聞くにつけ、後悔もしてみたが、今更どうする訳にもならないので諦めてはいるが、今その時の心理状態を詳しく描写してみよう。<br><br> まず、何よりも留置所へ入れられると同時に環境は一変する。<br><br>部屋といえば小さな窓が上の方に一つ付いているだけで、青空さえ見えない。<br><br>そうして薄暗い三畳くらいの部屋で、朝から晩まで黙念と座っているばかりで、全く生ける屍である。<br><br>天井も壁も荒削りの板張りで、一方だけ大きな牢屋格子の扉がある。<br><br> その扉に着いている鉄の箆棒（べらぼう）に大きな鍵を時々警官が開けるが、カチャリという無気味な音を聞くだけで神経衰弱になりそうだ。<br><br>それも事実罪を犯したなら我慢も出来るが、そうでないとすれば、馬鹿らしくて憂鬱そのものだ。<br><br>私の場合信仰があるから、これも神から身魂磨きをさせられていると思い、我慢も出来るがそれでも仲々辛いもので、経験がないとちょっと判りにくいのである。<br><br>以前読んだロシアの小説にあった生きている自由という言葉を思い出したが、これは全然自由がないという逆の言い方で、まことにその通りだ。<br><br>ただ三畳の部屋だけが、自由の天地で、運動ときたら時々三畳の部屋の中を往ったり来たりするくらいで、まるで檻の中の獣だ。<br><br>この時程自由というものの有難さを知った事はない。<br><br>日に三度ずつ餌を入れられて生命を繋いでいる、ただそれだけだ、話も出来なければ、本も読めない。<br><br>無論煙草も喫めない。<br><br>便所は一定の時間以外行けないのだから、これは獣の方が自由だ。<br><br>人間失格とはこれだと思った。<br><br>こんな訳で食欲は漸次減ってゆく、経験者の話によると十日以上経った頃が一番ひどいといわれる。<br><br>もっとも人にもよるが、普通は二十日以上経つと馴れて来て、漸次楽になるそうだ。<br><br>まず連続十日以上に及ぶと肉体の疲労と相まって、一種の神経衰弱になり、精神力が非常に薄弱になる。<br><br>そうなると調官からどんな事を言われても抗弁する気力などは失い、どうにでもなれという半ば捨鉢気分になってしまう。<br><br>いくら頑張ろうとしても霊肉共にいう事をきかない。<br><br>私が二度も卒倒したのはそんな訳である。<br><br>ついには取調室へ入る時の恐怖はとても大変だ。<br><br>調官の前へ出るのは、何共言えぬ怖しさだ。<br><br>私は平素から精神力の点は、人に負けない自信があったが、ここへ来ると自信なんかいつしか吹っ飛んでしまう。<br><br>ただ訊問を逃れたい、早くここを出たいという観念だけで一杯だ。<br><br>従ってこういう事を言えば罪になるとか、ならないとかそんな事は問題ではない。<br><br>どうせ自分は悪い事をしていないのだから、結局無罪になるのは決っているという、それだけがせめてもの心の置場所で、他の事など一切考える余裕はない。<br><br>これが偽らざる告白である。<br><br> 私は、人権蹂躙にも色々あるが、以上のごとき、当局者のやり方も、一種の人権蹂躙であると思ったのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Violação dos Direitos Humanos e o Autoritarismo Estatal</h2>
 <p>Que a democracia liberal se inicia com o respeito aos direitos humanos é um princípio tão evidente que dispensa maiores digressões. Contudo, o recente incidente pelo qual passei demonstrou-me, de forma inequívoca, o quão distante essa premissa se encontra da realidade prática. O que mais me surpreendeu foi a atitude com que as autoridades, de maneira flagrante, desrespeitam os direitos dos cidadãos.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Nessas circunstâncias, o apetite diminui progressivamente. Segundo relatos de quem já passou por isso, o pior momento costuma ser após o décimo dia. Embora varie de pessoa para pessoa, diz-se que, após vinte dias, o corpo se acostuma e a situação se torna mais suportável. Contudo, quando a detenção se estende por mais de dez dias consecutivos, a fadiga física, somada à tensão, acarreta uma espécie de esgotamento nervoso que mina drasticamente a força espiritual. Nesse estado, perde-se o ânimo para contestar qualquer afirmação do interrogador, e instala-se um sentimento de desespero e resignação, um estado de "que seja o que tiver de ser". Por mais que se tente resistir, tanto o espírito quanto o corpo se recusam a obedecer. Foi por esse motivo que cheguei a desmaiar duas vezes.</p>
 <p>O pavor de entrar na sala de interrogatório torna-se avassalador. Apresentar-se diante do interrogador é uma experiência de um medo indescritível. Sempre me considerei uma pessoa de grande força espiritual e tinha confiança de que não seria superado por ninguém nesse aspecto, mas, naquelas circunstâncias, tal confiança se dissipou sem que eu percebesse. A mente se enche de um único desejo: escapar do interrogatório e sair daquele lugar o mais rápido possível. A questão sobre se uma declaração pode ou não incriminá-lo perde totalmente a relevância. O único refúgio para a consciência é a convicção de que, por não ter feito nada de errado, a inocência prevalecerá no final. Não há espaço mental para ponderar sobre qualquer outra coisa. Esta é a minha mais sincera confissão.</p>
 <p>Existem, certamente, diversas formas de violação dos direitos humanos. Contudo, estou convicto de que os métodos empregados pelas autoridades, tais como os que acabo de relatar, representam uma inequívoca e lamentável modalidade desse desrespeito.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人権蹂躪 『法難手記』昭和25(1950)年10月30日発行 自由民主主義とは、人権を尊重する事から始まるというのは、今更言う必要のない程、明らかな話ではあるが、実際上それが仲々行われていない事を、今度の事件によって、つくづく思われたのである。<br/><br/>意外なのは役人が人民に対し、平気で行う人権蹂躙的態度である。<br/><br/>何しろ警察官が人民を拘束し、自由を奪う事など当り前のようになっている。<br/><br/>全く一種の特権階級と言ってもいい。<br/><br/>その表われとしてちょっとした聞き込みや、投書、密告、部下の報告等によって、碌々（ろくろく）調べもせず簡単に召喚したり留置したりする。<br/><br/>留置した場合でも、被告の迷惑などには頓着なく、一回の取調べが一日くらいの拘留で済むような事でも、二日も三日も留置したりする。<br/><br/>今度の事件なども数人が関連しているという理由で、二十数日から長きは四十日以上も勾留されたのである。<br/><br/>常識で考えてもまず一、二週間なら充分可能と思う容疑なのに、さきに述べたごとく、毎日毎日一つ事を繰返すのだから長引く訳である。<br/><br/>これらはどう考えても民主主義ではなく、官主主義である。<br/><br/> 何しろ、長い間封建制が続いて来た日本であるから、官憲の御代官的観念は、仲々抜け切れないのは、止むを得ないかも知れない。<br/><br/>また人民も人民で、長い物には巻かれる式で、何事も屈従してしまうのであるから、真の民主日本となるには程遠い感がする。<br/><br/>彼の米国における役人と人民の関係などを聴くにつけ、実に羨ましい限りで、日本も早くそうなる事を切望して止まないのである。<br/><br/>なるほど日本の警察も以前からみると「オイッコラッ」式や、「貴様」などもほとんどなくなり、人民に対する態度も余程よくなった点は認め得るが、前述のごとき不必要なまでに、人民の自白を束縛する行き過ぎは、最早止めてもいい時期と思うのである。<br/><br/> 次に今度私が取調べを受けた時の、被告としての心理状態をかいてみるのも、満更無駄ではあるまい。<br/><br/>これについてさきに詳しくかいたごとく、調官の訊問に対し、事実記憶にない事は否認するのが当り前だが、それが調官の感情に触れるかのように、取調べは段々強化される、しまいには威嚇したり、焦立ったり、呶号罵言さえ浴びせかけるのであるから、被告の方も感情的になり、言おうと思う事も口に出ないようになる。<br/><br/>自然取調べはスムースにゆかない、その結果双方共無駄な時間と労力を徒費する事おびただしい。<br/><br/>私は出所帰宅後健康を取戻すと共に、平常の心理状態になったので、よく考えてみると、その当時の状態がよく判って来た、それはあの時どうして思い切って自己の主張を通さなかったのか、あんな法に引っ掛かりそうな事を、マザマザと言ったのだろうか、しかも事実でない拵え事までしたり、先方のカマ掛け訊問と知りながら是認したり、不利な事を承知で言ったりした事など、自分ながら不思議な心理状態と思うのである。<br/><br/>従って最後まで真実を頑張り続けたなら、起訴にはならなかったかも知れない事など後から聞くにつけ、後悔もしてみたが、今更どうする訳にもならないので諦めてはいるが、今その時の心理状態を詳しく描写してみよう。<br/><br/> まず、何よりも留置所へ入れられると同時に環境は一変する。<br/><br/>部屋といえば小さな窓が上の方に一つ付いているだけで、青空さえ見えない。<br/><br/>そうして薄暗い三畳くらいの部屋で、朝から晩まで黙念と座っているばかりで、全く生ける屍である。<br/><br/>天井も壁も荒削りの板張りで、一方だけ大きな牢屋格子の扉がある。<br/><br/> その扉に着いている鉄の箆棒（べらぼう）に大きな鍵を時々警官が開けるが、カチャリという無気味な音を聞くだけで神経衰弱になりそうだ。<br/><br/>それも事実罪を犯したなら我慢も出来るが、そうでないとすれば、馬鹿らしくて憂鬱そのものだ。<br/><br/>私の場合信仰があるから、これも神から身魂磨きをさせられていると思い、我慢も出来るがそれでも仲々辛いもので、経験がないとちょっと判りにくいのである。<br/><br/>以前読んだロシアの小説にあった生きている自由という言葉を思い出したが、これは全然自由がないという逆の言い方で、まことにその通りだ。<br/><br/>ただ三畳の部屋だけが、自由の天地で、運動ときたら時々三畳の部屋の中を往ったり来たりするくらいで、まるで檻の中の獣だ。<br/><br/>この時程自由というものの有難さを知った事はない。<br/><br/>日に三度ずつ餌を入れられて生命を繋いでいる、ただそれだけだ、話も出来なければ、本も読めない。<br/><br/>無論煙草も喫めない。<br/><br/>便所は一定の時間以外行けないのだから、これは獣の方が自由だ。<br/><br/>人間失格とはこれだと思った。<br/><br/>こんな訳で食欲は漸次減ってゆく、経験者の話によると十日以上経った頃が一番ひどいといわれる。<br/><br/>もっとも人にもよるが、普通は二十日以上経つと馴れて来て、漸次楽になるそうだ。<br/><br/>まず連続十日以上に及ぶと肉体の疲労と相まって、一種の神経衰弱になり、精神力が非常に薄弱になる。<br/><br/>そうなると調官からどんな事を言われても抗弁する気力などは失い、どうにでもなれという半ば捨鉢気分になってしまう。<br/><br/>いくら頑張ろうとしても霊肉共にいう事をきかない。<br/><br/>私が二度も卒倒したのはそんな訳である。<br/><br/>ついには取調室へ入る時の恐怖はとても大変だ。<br/><br/>調官の前へ出るのは、何共言えぬ怖しさだ。<br/><br/>私は平素から精神力の点は、人に負けない自信があったが、ここへ来ると自信なんかいつしか吹っ飛んでしまう。<br/><br/>ただ訊問を逃れたい、早くここを出たいという観念だけで一杯だ。<br/><br/>従ってこういう事を言えば罪になるとか、ならないとかそんな事は問題ではない。<br/><br/>どうせ自分は悪い事をしていないのだから、結局無罪になるのは決っているという、それだけがせめてもの心の置場所で、他の事など一切考える余裕はない。<br/><br/>これが偽らざる告白である。<br/><br/> 私は、人権蹂躙にも色々あるが、以上のごとき、当局者のやり方も、一種の人権蹂躙であると思ったのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

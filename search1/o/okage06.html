@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>okage06</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： おかげばなし批判 事実が示す浄霊の優越性 『救世』52号、昭和25(1950)年3月4日発行 幼少の頃の薬毒 頭痛と全身倦怠が治る 岐阜県 大光中教会 上野雅太良 私は幼少の頃より身体が弱くて、肺炎、肋膜等の数々の病気に罹った位でした。<br><br>今より五年前でした。<br><br>毎日頭が痛く、全身非常にだるく物事にあき易くなり、止むなく学校も中途退学して、毎日ぶらぶら遊んでおりました。<br><br>医師の診断では脚気であると言われ、又ある医師よりは肺浸潤に侵されていると言われた時は、前途の希望も失い、自暴自棄となり我が一家は病貧争に満ちた不安なる毎日を送っておりました。<br><br>丁度その頃近所の人達が浄化療法の講習をうけられ、あらゆる病気を治癒される事を知り、母にすすめられ半信半疑で浄霊をうけました。<br><br>その結果どうでしょう。<br><br>あれ程だるかった全身が急に楽になり大喜びで数日お願いいたしましたら以前のような頭痛もだるいのもなくなり、心はすっきり晴れやかとなり、世を呪い、人を怨んだ当時の曇は遠くすぎ去った過去となりました。<br><br>始めて医学なるものの誤りを知り、明主様の偉大なる御霊徳に感泣し昭和二十一年七月郡上郡白鳥町における教修会に渡辺先生より御光を戴きました。<br><br> 以来数々の浄化をいただきましたがその都度、光明如来様の大慈悲の御心に救われました。<br><br>そのうちです一昨年一月、突然急性肺炎となり、四十一、二度の高熱に悩まされ、三日間意識が薄らぎましたが、四、五日の後には大変よくなり、食欲も出来ました。<br><br>一週間目には床上げ全快いたしたのであります。<br><br>今までの方法（医学）で治癒された場合はたとえ平熱になっても、はなはだしく衰弱するのが、今度はほとんど衰弱しなかったのにはびっくりいたしました。<br><br> マムシに喰われた時も、足が倍程にはれて紫色になったのに苦痛も少く、一週間位で治りました。<br><br>鉈で指の筋を切り動かなくなるのかと心配致しましたが、五、六回の浄霊で治癒いたしました。<br><br>その外ありとあらゆる方面に御守護御利益をいただきました。<br><br>この御利益は、私の拙き筆では到底書き表わすことは不可能でありますが、その一端を謹んで御報告させて頂きます。<br><br>今後は御恵の万分の一にも御恩返しさせていただき一層の御守護を御願い申上げます。<br><br> 右は頭痛と全身倦怠、物事に倦（あ）きやすく、学校も中退、ブラブラしていた際、ある医者は脚気ある医師は肺浸潤との診断で自暴自棄的となったのであるが、この原因は幼少の頃、肺炎、肋膜炎等罹病の際薬毒で固めたため、全身的薬毒に対する緩慢な浄化発生のためである、神療法によって簡単に全治したが、神療法を知らなかったら恐らく生命はなかったであろう。<br><br> ＊ ＊ ＊ 短期間に威力示す 無医村に療病力を與う 山形県 木の花中教会 五十嵐松弥（39） 私は幼い頃より体が弱く七歳の時は肺炎、八歳の時は脳病の為め、小学校も一学期休学致し薬毒の為かドモリと成り、世間に出て用件も果せず困まっていました。<br><br>本年三十九歳と成りますが、毎年春秋二回心臓脚気と気管支喘息で、それに永年眼病のため、郷里よりバスで四十分、それに汽車で五十分もかかるある市の眼科医にパスを買って四カ月通院し、又ある医科大学付属病院にそれもパスを求めて四カ月通院しましたが治る様子もありません。<br><br>病名はトラコマ・パンムシという事でした。<br><br>現在医学の発達をいわれており、それに化学的良薬をいろいろ使用しているのに全治せぬとは不思議と思います。<br><br>ビタミンＢ１を毎日二本、三日に一回ビタカンフルを使用したが益々悪くなる。<br><br> 又、注射も一カ月に四、五百回もうち、家計も病気同様となりますので、村医もありますが町の医院に診断していただくつもりで母より二升の米をいただき、雪道を歩きましたが心臓が悪いので人と一緒に歩くことも出来ず、釜谷坂でお昼となりました。<br><br> 宗片先生とは福栄村に公職にある節から知人だったので先生宅でお昼にすることに決心し先生に有りのままの話を致しましたら、世界救世教の有難い御力で治していただいたらとの御話をなされ早速御浄霊をしていただきました。<br><br> 気分も非常に良くなり、医者にも行かず宗片先生宅で御世話様になる事に御願い致しました。<br><br>その晩も又翌日も一日に二回も御浄霊していただき三日二晩でどしどし快方に向い、一時帰宅さしていただきました。<br><br>私も月に四、五回町に用件があるのでその都度、宗片先生に御世話様になり御浄霊していただき余りの有難さに三月十五日教修を受けさせて戴きました。<br><br>以後六カ月間無病で元気で働いております。<br><br> 去る九月二日村の人で二十五歳になる娘が眼病で苦しんでいましたが、私が永年眼病で苦しんでいたので私はありのまま光明如来様の有難い御慈悲で全治したと話しました。<br><br> 近日中宗片先生宅にあがって御話を聞き、又御浄霊を受けるよう申しました。<br><br>とにかく、今晩は娘の眼だけでよいから御浄霊をして戴きたいとの事で、私が御浄霊をしてあげましたところ、翌日になると前より良くなり眼も痛まないとの事でした。<br><br>翌日先生が村に来て下さったので娘の御浄霊をお願いし、私の家で娘と娘の父親と二人御浄霊して戴き、いろいろ光明如来様の御話を聞き喜んで帰りました。<br><br>今では毎晩娘と父、母親三人、私の御浄霊で満足して喜んでいます。<br><br>その事を宗片先生に御話ししましたところ、父親に教修を受けさしてはと仰言ったので私より勧めましたところ父親も喜んで、去る十月十一日先生宅の月並祭を吉日として光明如来様の前でお光を戴きました。<br><br> 私の村は戸数三十戸人口約九百人あります。<br><br>冬は雪で三尺から四尺も積りますので医者には一里半もあり往診料も大金がかかるのを思えば、自宅でも浄霊出来、病気の心配のないのは本当に有難いことです。<br><br>私も娘も父も出来る限り光明如来様又大先生様の御恵の万分の一の奉仕させて頂きたいと日夜念願致しております。<br><br> 右の例をみると、若い時から肺炎、脳病、心臓、脚気、喘息、眼病というのだから実に御念の入った症状である、特に眼病は一番苦しんだようで、病院巡り等現代医学の療法は遺憾なく行ったがことごとく無効であった、これによってみても医学の効果は全然認められないとともに、多額の費用を捨てたという事は気の毒といおうか言葉はない。<br><br> そのような難病が短期日に全治した神療法は逆に何と評すべきや、言葉はない、ここで大きな問題は無医村である、しかるに何人（なんぴと）も本教の信者となれば療病力を与えられるのであるから病気の心配はない事になる。<br><br> ＊ ＊ ＊ 一時は激しい苦痛 やがて浄化で治る 岐阜県 八光中教会 武藤花子（43） 偉大なる御守護の程謹んで御報告申上げます。<br><br> 長男の嫁（現在二十歳）が妊娠の折産脚気を起し、以来産前産後を問わず常々不快の日暮しのため、その間薬に医師に信仰にと救いを求めていたのですがはかばかしくなく、その上腰痛を覚えるようになり段々病状は悪化の一途を辿り寝るにも敷布団を二、三枚重ねてもなお寝巻が背中に重なっている時など翌朝は全然起きられず、午前中は床の中にいる有様でようやく起きても家事一切何事も出来ず、家内中は暗く前途に対する不安は濃く楽しみなき日を繰返し、医師よりは脊椎カリエスの診断を下され懊悩の日々を医薬、灸鍼にと焦りましたが、いずれも気休め程度に過ぎず何等効果なき折柄、昭和二十二年二月未義妹の奨めにより光明如来様のお話を聞き長良の大野先生より御浄霊を受けましたが、こんな事くらいで治るだろうかと疑念を持ちながらそれでも浄霊の都度気分も良くなり楽にもなるので通い続けました。<br><br> 先生は「今まで医薬で固まっていた毒がとけて来るから一時悪くなるかも知れぬがそれを通り越せば楽になるから」と申されたので前途に希望をもって浄霊を受けましたところ一週間程して腰が痛み出し、そのほか体の節々に苦痛を感じたが苦痛が過ぎた頃はとても楽になり、十何年振りで喜びの日を迎えました時の心の中御想像下さいませ。<br><br>直ちに夫婦とも入信して日々感謝の生活にひたり得たのであります。<br><br>ところが丁度その当時の事ですが長男が肋骨カリエスにて入院手術したのです。<br><br>家族十三人で医薬費の要る月ばかり続き前途が暗くその窮乏の中において手術を受けたのですが、経過も良好で退院の喜びを得ましたが、それも束の間で再発の悲しみに閉ざされた折も折とて近所の人に「自分の弟もやはりその病気で再発して遂に死んだ」といわれその通りになるのではないかと不安に襲われましたが過去十何年の体験からしても医薬の無価値を知りつくしていますので、今こそ光明如来様の御力にすがるより外ない事を思い、幸い御光もいただいているのでひたすら浄霊をしましたところ、四日程して今までは痛みを感じなかったのに両脇から背中、腰部にわたって激痛を訴え出し「お父さんやお母さんはかえって悪くしたのだ」といいましたが「浄霊して痛み出したのは治る力があるからだ」と嫌がるのを無理に毎日続け時には上の先生の御浄霊もいただきました。<br><br> その中に不思議にも自然に手術の傷口が開いて来て丁度切開してピンセットで切り口を開いたごとくなり骨までみえ、内側には真赤な肉が見えその傷口からと再発の個所からとはドシドシ膿汁が出て、その膿汁は化膿止めの注射薬の臭いがするではありませんか。<br><br>薬毒の事もこれをもってハッキリ判らせていただきました。<br><br>十日ほど続出した膿が止むと徐々に傷口は閉じて来るではありませんか。<br><br>こんな事はおそらく実際にみたものでなければ事実とは思われない事と存じますが、かような状態が三回ありましてからすっかり快くなったのです。<br><br>財政的困難の折ではありましたが遂に本人にもお守様を受けさせました。<br><br> 長男も本年四月下旬十日間熱海十国峠に勤労奉仕させていただき、今では暗い性質であったのがすっかり明るい人となり、弟妹に対する態度も変りまして偉大なる御修業させていただきました事を心から感謝しております。<br><br>かくして私ども一家には最早医薬の必要もなく日々明るい生活が訪れて参りました。<br><br>この海山の御恩を思う時 観音の 御救ひなくば吾は今 底なき沼に 悩みつづけむ 御恵みに 報ひ奉らでおくべきや 生きし此身の 幸を思へば 明主様の御讃歌の一句一句に涙が涌き出ずる次第です。<br><br> 右のごとく浄霊によって一時激しい苦痛があり、それから本当に治る事がすこぶる多いのは全く浄化の意味が理論と実際と一致している事を知るであろう、次に長男がカリエス発病によって「過去十何年の体験から医薬の無価値を知り尽しています」云々とあるが、薬を知らない者の言として意義重大なものがある、これによってみてもいかに薬害の恐るべきかが判るのである、またカリエスが手術で一旦治ったが再発したのは化膿未熟のまま切開したからでそれがため残存していた膿が浄化を起したからの再発である、浄霊するや自然に手術の傷口が開き多量の膿汁が出て全治したが、その膿汁が注射薬の匂いがしたというにみても、薬毒の混入していた事は明らかである。<br><br> ＊ ＊ ＊ 信用せぬ実例 目が覚め詫びる紋切型 広島県 陽光中教会 榊原 堅（21） 私は十三歳の十月頃ふとした事から足を悪くし、医者から医者へ転々と移り、あるる病院では二年間も入院して大手術を三回、小手術を三回も受けました。<br><br>その七年間の私の生活は、病気のためまったく暗黒そのものの世界でありました。<br><br>最初の骨髄骨膜炎に加えて十五歳の時から関節炎、更に胃病と痔に苦しみ、とうてい筆や言葉では現わせない位の状態でした。<br><br> 今年の五月、母が工場に働きに行きましたら平さんと言う方から『救世』新聞を五、六枚借りてまいりました。<br><br>宗教で病気が治るなら、医者や薬もいらないではないかと言って私はまったく相手にしませんでした。<br><br>それから二、三日後痔の痛みを我慢して布団にもぐっておりますと、平さんが来られ、御浄霊して下さいました。<br><br>すると不思議に体が熱くなり痔の痛みが拭うように取れました。<br><br>その後再び痛み出した時、又いつもの通り生薬を挿しますと猛烈に痛み出し七転八倒の苦しみをしておりますと、平さんが来られ又御浄霊してもらいました。<br><br>再び痛みは嘘のように取れてしまいました。<br><br>それからは毎日御浄霊を戴きました。<br><br>胃の痛みも取れ、関節炎もよくなって今では完全に治して戴きました。<br><br>それでも私は神様の御力によって救われたのだとは思わなかったのです。<br><br>何んと言う愚かな私だったでしょう。<br><br>それでも神様の大いなる御心の御蔭をもって御教修を戴く機会を与えられました。<br><br>教修二日目眼前で不思議な奇蹟を見せられ、最早疑えと言われても疑えない、信ずるなと言われても信ぜざるを得ない気持になりました。<br><br>その外、日々奇蹟の連続で御座居ます。<br><br>日なお浅い私にこうして偉大なる御力を御示し下さるのも、神様の実在を知らして下さいます大御心とただ有難き極みでございます。<br><br> 右は浄霊で効果があっても信用しないという一つの例で、これでみてもいかに唯物医学に心酔していたかが判るのである、そんな不信の想念でも効果があるのだから、観念で治るのではない事を知るであろう、こういう例はあまりに多く、眼が醒めてからお詫びするのは紋切型ともいってもいい。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Superioridade do Johrei Demonstrada pelos Fatos</h2>
 <p><strong>A cura da cefaleia e da fadiga generalizada decorrentes de toxinas medicamentosas (yakudoku) da infância</strong></p>
@@ -148,5 +300,48 @@ function toggleLang(lang) {
 <p>A partir de então, passei a receber Johrei diariamente. As dores de estômago cessaram, a artrite melhorou e hoje estou completamente curado. Apesar de tudo, eu ainda não atribuía minha melhora ao poder de Deus. Que tolo eu fui! Mesmo assim, pela imensa benevolência divina, foi-me concedida a oportunidade de participar do curso de formação. No segundo dia do curso, diante de um milagre que presenciei, minha mente mudou de tal forma que, mesmo que me ordenassem duvidar, eu não conseguiria; mesmo que me proibissem de crer, seria impossível não fazê-lo. Além disso, os milagres têm sido uma constante em meu dia a dia. Sou imensamente grato por Deus me mostrar Seu grandioso poder, mesmo sendo eu um membro de poucos dias, pois compreendo que é Sua forma de me fazer conhecer Sua existência.</p>
 <hr/>
 <p>Este é um exemplo de alguém que, mesmo sentindo os efeitos do Johrei, se recusa a acreditar. Seu caso demonstra o quão profundamente arraigada pode estar a fé cega na medicina materialista. O fato de o Johrei surtir efeito mesmo diante de tamanha incredulidade prova que sua eficácia não depende de sugestionamento ou de qualquer fenômeno mental. Casos como este são extremamente numerosos, e o pedido de desculpas após o despertar da consciência tornou-se, por assim dizer, um padrão recorrente.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： おかげばなし批判 事実が示す浄霊の優越性 『救世』52号、昭和25(1950)年3月4日発行 幼少の頃の薬毒 頭痛と全身倦怠が治る 岐阜県 大光中教会 上野雅太良 私は幼少の頃より身体が弱くて、肺炎、肋膜等の数々の病気に罹った位でした。<br/><br/>今より五年前でした。<br/><br/>毎日頭が痛く、全身非常にだるく物事にあき易くなり、止むなく学校も中途退学して、毎日ぶらぶら遊んでおりました。<br/><br/>医師の診断では脚気であると言われ、又ある医師よりは肺浸潤に侵されていると言われた時は、前途の希望も失い、自暴自棄となり我が一家は病貧争に満ちた不安なる毎日を送っておりました。<br/><br/>丁度その頃近所の人達が浄化療法の講習をうけられ、あらゆる病気を治癒される事を知り、母にすすめられ半信半疑で浄霊をうけました。<br/><br/>その結果どうでしょう。<br/><br/>あれ程だるかった全身が急に楽になり大喜びで数日お願いいたしましたら以前のような頭痛もだるいのもなくなり、心はすっきり晴れやかとなり、世を呪い、人を怨んだ当時の曇は遠くすぎ去った過去となりました。<br/><br/>始めて医学なるものの誤りを知り、明主様の偉大なる御霊徳に感泣し昭和二十一年七月郡上郡白鳥町における教修会に渡辺先生より御光を戴きました。<br/><br/> 以来数々の浄化をいただきましたがその都度、光明如来様の大慈悲の御心に救われました。<br/><br/>そのうちです一昨年一月、突然急性肺炎となり、四十一、二度の高熱に悩まされ、三日間意識が薄らぎましたが、四、五日の後には大変よくなり、食欲も出来ました。<br/><br/>一週間目には床上げ全快いたしたのであります。<br/><br/>今までの方法（医学）で治癒された場合はたとえ平熱になっても、はなはだしく衰弱するのが、今度はほとんど衰弱しなかったのにはびっくりいたしました。<br/><br/> マムシに喰われた時も、足が倍程にはれて紫色になったのに苦痛も少く、一週間位で治りました。<br/><br/>鉈で指の筋を切り動かなくなるのかと心配致しましたが、五、六回の浄霊で治癒いたしました。<br/><br/>その外ありとあらゆる方面に御守護御利益をいただきました。<br/><br/>この御利益は、私の拙き筆では到底書き表わすことは不可能でありますが、その一端を謹んで御報告させて頂きます。<br/><br/>今後は御恵の万分の一にも御恩返しさせていただき一層の御守護を御願い申上げます。<br/><br/> 右は頭痛と全身倦怠、物事に倦（あ）きやすく、学校も中退、ブラブラしていた際、ある医者は脚気ある医師は肺浸潤との診断で自暴自棄的となったのであるが、この原因は幼少の頃、肺炎、肋膜炎等罹病の際薬毒で固めたため、全身的薬毒に対する緩慢な浄化発生のためである、神療法によって簡単に全治したが、神療法を知らなかったら恐らく生命はなかったであろう。<br/><br/> ＊ ＊ ＊ 短期間に威力示す 無医村に療病力を與う 山形県 木の花中教会 五十嵐松弥（39） 私は幼い頃より体が弱く七歳の時は肺炎、八歳の時は脳病の為め、小学校も一学期休学致し薬毒の為かドモリと成り、世間に出て用件も果せず困まっていました。<br/><br/>本年三十九歳と成りますが、毎年春秋二回心臓脚気と気管支喘息で、それに永年眼病のため、郷里よりバスで四十分、それに汽車で五十分もかかるある市の眼科医にパスを買って四カ月通院し、又ある医科大学付属病院にそれもパスを求めて四カ月通院しましたが治る様子もありません。<br/><br/>病名はトラコマ・パンムシという事でした。<br/><br/>現在医学の発達をいわれており、それに化学的良薬をいろいろ使用しているのに全治せぬとは不思議と思います。<br/><br/>ビタミンＢ１を毎日二本、三日に一回ビタカンフルを使用したが益々悪くなる。<br/><br/> 又、注射も一カ月に四、五百回もうち、家計も病気同様となりますので、村医もありますが町の医院に診断していただくつもりで母より二升の米をいただき、雪道を歩きましたが心臓が悪いので人と一緒に歩くことも出来ず、釜谷坂でお昼となりました。<br/><br/> 宗片先生とは福栄村に公職にある節から知人だったので先生宅でお昼にすることに決心し先生に有りのままの話を致しましたら、世界救世教の有難い御力で治していただいたらとの御話をなされ早速御浄霊をしていただきました。<br/><br/> 気分も非常に良くなり、医者にも行かず宗片先生宅で御世話様になる事に御願い致しました。<br/><br/>その晩も又翌日も一日に二回も御浄霊していただき三日二晩でどしどし快方に向い、一時帰宅さしていただきました。<br/><br/>私も月に四、五回町に用件があるのでその都度、宗片先生に御世話様になり御浄霊していただき余りの有難さに三月十五日教修を受けさせて戴きました。<br/><br/>以後六カ月間無病で元気で働いております。<br/><br/> 去る九月二日村の人で二十五歳になる娘が眼病で苦しんでいましたが、私が永年眼病で苦しんでいたので私はありのまま光明如来様の有難い御慈悲で全治したと話しました。<br/><br/> 近日中宗片先生宅にあがって御話を聞き、又御浄霊を受けるよう申しました。<br/><br/>とにかく、今晩は娘の眼だけでよいから御浄霊をして戴きたいとの事で、私が御浄霊をしてあげましたところ、翌日になると前より良くなり眼も痛まないとの事でした。<br/><br/>翌日先生が村に来て下さったので娘の御浄霊をお願いし、私の家で娘と娘の父親と二人御浄霊して戴き、いろいろ光明如来様の御話を聞き喜んで帰りました。<br/><br/>今では毎晩娘と父、母親三人、私の御浄霊で満足して喜んでいます。<br/><br/>その事を宗片先生に御話ししましたところ、父親に教修を受けさしてはと仰言ったので私より勧めましたところ父親も喜んで、去る十月十一日先生宅の月並祭を吉日として光明如来様の前でお光を戴きました。<br/><br/> 私の村は戸数三十戸人口約九百人あります。<br/><br/>冬は雪で三尺から四尺も積りますので医者には一里半もあり往診料も大金がかかるのを思えば、自宅でも浄霊出来、病気の心配のないのは本当に有難いことです。<br/><br/>私も娘も父も出来る限り光明如来様又大先生様の御恵の万分の一の奉仕させて頂きたいと日夜念願致しております。<br/><br/> 右の例をみると、若い時から肺炎、脳病、心臓、脚気、喘息、眼病というのだから実に御念の入った症状である、特に眼病は一番苦しんだようで、病院巡り等現代医学の療法は遺憾なく行ったがことごとく無効であった、これによってみても医学の効果は全然認められないとともに、多額の費用を捨てたという事は気の毒といおうか言葉はない。<br/><br/> そのような難病が短期日に全治した神療法は逆に何と評すべきや、言葉はない、ここで大きな問題は無医村である、しかるに何人（なんぴと）も本教の信者となれば療病力を与えられるのであるから病気の心配はない事になる。<br/><br/> ＊ ＊ ＊ 一時は激しい苦痛 やがて浄化で治る 岐阜県 八光中教会 武藤花子（43） 偉大なる御守護の程謹んで御報告申上げます。<br/><br/> 長男の嫁（現在二十歳）が妊娠の折産脚気を起し、以来産前産後を問わず常々不快の日暮しのため、その間薬に医師に信仰にと救いを求めていたのですがはかばかしくなく、その上腰痛を覚えるようになり段々病状は悪化の一途を辿り寝るにも敷布団を二、三枚重ねてもなお寝巻が背中に重なっている時など翌朝は全然起きられず、午前中は床の中にいる有様でようやく起きても家事一切何事も出来ず、家内中は暗く前途に対する不安は濃く楽しみなき日を繰返し、医師よりは脊椎カリエスの診断を下され懊悩の日々を医薬、灸鍼にと焦りましたが、いずれも気休め程度に過ぎず何等効果なき折柄、昭和二十二年二月未義妹の奨めにより光明如来様のお話を聞き長良の大野先生より御浄霊を受けましたが、こんな事くらいで治るだろうかと疑念を持ちながらそれでも浄霊の都度気分も良くなり楽にもなるので通い続けました。<br/><br/> 先生は「今まで医薬で固まっていた毒がとけて来るから一時悪くなるかも知れぬがそれを通り越せば楽になるから」と申されたので前途に希望をもって浄霊を受けましたところ一週間程して腰が痛み出し、そのほか体の節々に苦痛を感じたが苦痛が過ぎた頃はとても楽になり、十何年振りで喜びの日を迎えました時の心の中御想像下さいませ。<br/><br/>直ちに夫婦とも入信して日々感謝の生活にひたり得たのであります。<br/><br/>ところが丁度その当時の事ですが長男が肋骨カリエスにて入院手術したのです。<br/><br/>家族十三人で医薬費の要る月ばかり続き前途が暗くその窮乏の中において手術を受けたのですが、経過も良好で退院の喜びを得ましたが、それも束の間で再発の悲しみに閉ざされた折も折とて近所の人に「自分の弟もやはりその病気で再発して遂に死んだ」といわれその通りになるのではないかと不安に襲われましたが過去十何年の体験からしても医薬の無価値を知りつくしていますので、今こそ光明如来様の御力にすがるより外ない事を思い、幸い御光もいただいているのでひたすら浄霊をしましたところ、四日程して今までは痛みを感じなかったのに両脇から背中、腰部にわたって激痛を訴え出し「お父さんやお母さんはかえって悪くしたのだ」といいましたが「浄霊して痛み出したのは治る力があるからだ」と嫌がるのを無理に毎日続け時には上の先生の御浄霊もいただきました。<br/><br/> その中に不思議にも自然に手術の傷口が開いて来て丁度切開してピンセットで切り口を開いたごとくなり骨までみえ、内側には真赤な肉が見えその傷口からと再発の個所からとはドシドシ膿汁が出て、その膿汁は化膿止めの注射薬の臭いがするではありませんか。<br/><br/>薬毒の事もこれをもってハッキリ判らせていただきました。<br/><br/>十日ほど続出した膿が止むと徐々に傷口は閉じて来るではありませんか。<br/><br/>こんな事はおそらく実際にみたものでなければ事実とは思われない事と存じますが、かような状態が三回ありましてからすっかり快くなったのです。<br/><br/>財政的困難の折ではありましたが遂に本人にもお守様を受けさせました。<br/><br/> 長男も本年四月下旬十日間熱海十国峠に勤労奉仕させていただき、今では暗い性質であったのがすっかり明るい人となり、弟妹に対する態度も変りまして偉大なる御修業させていただきました事を心から感謝しております。<br/><br/>かくして私ども一家には最早医薬の必要もなく日々明るい生活が訪れて参りました。<br/><br/>この海山の御恩を思う時 観音の 御救ひなくば吾は今 底なき沼に 悩みつづけむ 御恵みに 報ひ奉らでおくべきや 生きし此身の 幸を思へば 明主様の御讃歌の一句一句に涙が涌き出ずる次第です。<br/><br/> 右のごとく浄霊によって一時激しい苦痛があり、それから本当に治る事がすこぶる多いのは全く浄化の意味が理論と実際と一致している事を知るであろう、次に長男がカリエス発病によって「過去十何年の体験から医薬の無価値を知り尽しています」云々とあるが、薬を知らない者の言として意義重大なものがある、これによってみてもいかに薬害の恐るべきかが判るのである、またカリエスが手術で一旦治ったが再発したのは化膿未熟のまま切開したからでそれがため残存していた膿が浄化を起したからの再発である、浄霊するや自然に手術の傷口が開き多量の膿汁が出て全治したが、その膿汁が注射薬の匂いがしたというにみても、薬毒の混入していた事は明らかである。<br/><br/> ＊ ＊ ＊ 信用せぬ実例 目が覚め詫びる紋切型 広島県 陽光中教会 榊原 堅（21） 私は十三歳の十月頃ふとした事から足を悪くし、医者から医者へ転々と移り、あるる病院では二年間も入院して大手術を三回、小手術を三回も受けました。<br/><br/>その七年間の私の生活は、病気のためまったく暗黒そのものの世界でありました。<br/><br/>最初の骨髄骨膜炎に加えて十五歳の時から関節炎、更に胃病と痔に苦しみ、とうてい筆や言葉では現わせない位の状態でした。<br/><br/> 今年の五月、母が工場に働きに行きましたら平さんと言う方から『救世』新聞を五、六枚借りてまいりました。<br/><br/>宗教で病気が治るなら、医者や薬もいらないではないかと言って私はまったく相手にしませんでした。<br/><br/>それから二、三日後痔の痛みを我慢して布団にもぐっておりますと、平さんが来られ、御浄霊して下さいました。<br/><br/>すると不思議に体が熱くなり痔の痛みが拭うように取れました。<br/><br/>その後再び痛み出した時、又いつもの通り生薬を挿しますと猛烈に痛み出し七転八倒の苦しみをしておりますと、平さんが来られ又御浄霊してもらいました。<br/><br/>再び痛みは嘘のように取れてしまいました。<br/><br/>それからは毎日御浄霊を戴きました。<br/><br/>胃の痛みも取れ、関節炎もよくなって今では完全に治して戴きました。<br/><br/>それでも私は神様の御力によって救われたのだとは思わなかったのです。<br/><br/>何んと言う愚かな私だったでしょう。<br/><br/>それでも神様の大いなる御心の御蔭をもって御教修を戴く機会を与えられました。<br/><br/>教修二日目眼前で不思議な奇蹟を見せられ、最早疑えと言われても疑えない、信ずるなと言われても信ぜざるを得ない気持になりました。<br/><br/>その外、日々奇蹟の連続で御座居ます。<br/><br/>日なお浅い私にこうして偉大なる御力を御示し下さるのも、神様の実在を知らして下さいます大御心とただ有難き極みでございます。<br/><br/> 右は浄霊で効果があっても信用しないという一つの例で、これでみてもいかに唯物医学に心酔していたかが判るのである、そんな不信の想念でも効果があるのだから、観念で治るのではない事を知るであろう、こういう例はあまりに多く、眼が醒めてからお詫びするのは紋切型ともいってもいい。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

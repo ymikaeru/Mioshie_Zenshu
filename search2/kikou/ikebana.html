@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ikebana</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 明主様の活花雑感 井上茂登吉 『地上天国』19号、昭和25(1950)年12月25日発行 （この稿は今夏八月寄書されたのであるが、都合上甚だ遅れた次第である） 神徒諸士は、日光殿へ参拝の節、恐らく必ず御神前の床に常に新しい活花を見るであらう。<br><br>しかしこの生命躍動せる活花に魅入らるる如く観賞する人は、あるいは極稀ではあるまいか、もし心を留めて観る人ありとすれば、それが多くは豪放大胆に活けられてはいるが、あの二間の神床によくマッチして、寸分の隙のない神技の冴えに打たれ思わず歎声を発するに違いない。<br><br>ところが実はこれこそ明主様が必す御手づからお活けになられるものである事を知る人は果して幾人あるであらうか。<br><br> 申す迄もなく、この床は普通より大きく、しかも大広間の御神床でもあるから、活けらるる花卉も、よほど大きいものでなくてはならぬし、又華美なものでも適合しないから、その屡々の取材撰択は凡手には極めて至難の業であらう。<br><br>ところが、それは明主様が神苑をそぞろお探しになると屹度適当なものが見付かる。<br><br>それも大して御苦心なさらす、頗る安易に選伐してお出でになるそうで、明主様御自身此事は「造苑の場合と同様、実に神秘である」と仰有っていた事を想出す。<br><br>というのは、折らるべき花でも木でも時も場所もすでにぴったり決っているという一事で、そこに深い神意の有する事が考えられ、選択そのものから、すでに神技である事が判るのである。<br><br> 却説（さて）、これは余談に渉るかも知れぬが周知の如く人類救済のため、日夜寸閑もあられぬ明主様が、吾等の神殿の活花を、御自ら、常に新しくお活けになる。<br><br>その細いお心遣いには、ただただ驚嘆の外ないというよりは、あまりに貴い御事でもある。<br><br>それなのに、気が付いてみれば吾々は御参拝をした時、その活花にも無関心どころか、時によると塵一つにも心を用いていなかった事さえあるので、まことに蛆虫と評されても辭（ことば）なき次第である。<br><br>いつか熱海仮本部の広間入口の扉の引手がとれたまま数ケ月経った頃、これが明主様の御眼に止り、吾々本部員は大変御叱りをいたゞいて、「神の御用に立たんとするものは何事にも気配り心配りが肝腎である」との御教えを賜わった事があるが、吾々はそういう神経を、まるで不具でもあるかのように失ってしまっていた。<br><br>否、誠がないのである。<br><br>という事は信仰をしていない訳になるので、全く情なさに気の遠くなる想いであったのである。<br><br> 私は最近、時々お居間へ伺う時、まず床の活花に眼を引かれ、都度新たな活花芸術の変化を見せて戴くのである。<br><br>時としては拝見した瞬間、ハッとしてその美の力と、高い品位に打たれて、一種神秘な感情にさえ包まれるのである。<br><br>すると明主様はいとも簡単にお教え下さる。<br><br> 「人はよく、これだけの花を活けられるには、よほど御苦心なされたでしょう、というが、私はちっとも骨折ってはいない。<br><br>何事でも骨折って、良いものが出来るものじゃない。<br><br>私は花を活けるんでも、最初からちょうどいい大きさに切って、一気に活けてしまうから、ちっとも時間も手数もかからぬ、捻ったり、いぢったりすると、もう花が死んでしまう。<br><br>つまり呼吸である。<br><br>だから私の活ける花は、いつも生きているのである。<br><br>そしてどこまでも自然に生けなくてはいけない。<br><br>又、床や置物、掛軸花器などに、ピッたり合っていなくてはいけない」……と、これは普通人の頭脳では到底出来得べき事ではないと思った。<br><br>成程、そう承わってよくみれば、活けられた花も葉も茎も色も大きさも、寸毫の過僅なく、その各々が有つ美を、最大限に発揮されて、自然そのものの姿で息吹いており、しかもなお、器物にも床にも置物にも、すべてのものに絶対といっていい程ぴったり調和し、生かし尽されて、そのすっきりと高い品位を漂わして観る者の心に匂い通ってゆくのである。<br><br>私は一輪の花、一つの葉がもつ美がかくまで強力なものであるかを初めて知った。<br><br>そしてそれらの結合によって完成された活花の美が、部屋全体の表情をしっかり握って、美しい雰囲気を作り出しているような感じである。<br><br>芸術の極致とはこれであろう。<br><br>それは単なる美ではない。<br><br>真も善も混然として深く脈打っている。<br><br>これこそ、あらゆるものを生かす、神の芸術でなくて何であろう。<br><br> 私はよくこの部屋に飽かすにお待ちしている．それは無論、天国的環境にもよるが、この活花の美が心を捉えているせいもあろうと思う。<br><br>同行のＳ夫人は．数年間、優れた師について、活花にかなり造詣の深い方であるが、最近に至って「自分の師の作品に低俗見るに堪えないものを感ずるようになった」と言われるにみて「明主様のそれに接するうち知らず識らず、如何に審美眼が高められてゐるかが判る」と言っておられるが、全く共感に堪えぬ所で、明主様はこの分野にも、新しい高度の美を創造せられつつあるを知る。<br><br>向後もまた花による美の世界を無限に開拓さるるであろう事は、想像もつかぬ素晴しい事である。<br><br>しかるに、活花の美しい生命は、瞬時の空間を占めるのみで、次々と失われてゆくのであって、まことに痛惜に堪えぬと思うのは私のみではあるまい。<br><br>もし明主様のこの貴重な御美技をかくも儚なく葬る事なく、永久に保存するを得ば、後世を裨益する如何に大なるかを思うのであるが、その望みを果すは、優秀なる天然色写真による外ないであろう。<br><br>信徒諸士、この意味において是非とも有力なる利器を献じ、世界の美術史のページに、光輝を添えられたいと、至嘱に堪えぬ次第である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Reflexões sobre a Arte Floral de Meishu-Sama</h2>
 <p>Os membros que se dirigem em peregrinação ao Nikko-den decerto se deparam com as flores sempre viçosas dispostas no altar divino. Contudo, quão raros serão aqueles que as contemplam a ponto de se sentirem cativados por sua beleza pulsante? Se porventura alguém as observa com mais atenção, certamente se impressiona com a destreza divina que ali se manifesta. Embora os arranjos sejam muitas vezes magnânimos e audaciosos, harmonizam-se com tamanha perfeição ao espaçoso <em>tokonoma</em> do altar que sua impecável execução nos arranca suspiros de admiração. O que poucos sabem, entretanto, é que todos eles são criados pelas próprias mãos de Meishu-Sama.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Compreendi então que tal feito transcende a capacidade da mente comum. De fato, observando atentamente, nota-se que cada flor, cada folha e cada caule, em sua cor e dimensão, está posicionado sem a menor falha ou excesso, expressando o ápice de sua beleza inerente, pulsando com a própria essência da natureza. Ademais, o conjunto se funde em absoluta sintonia com o vaso, o <em>tokonoma</em> e todos os elementos ao redor, vivificando o espaço com uma nobreza límpida que perfuma a alma de quem o contempla. Foi a primeira vez que percebi quão poderosa pode ser a beleza contida em uma única flor ou em uma simples folha. A beleza do arranjo concluído parece dominar a expressão de todo o ambiente, tecendo uma atmosfera sublime. Eis o que deve ser o zênite da arte. Não se trata de uma beleza meramente estética; nela, a verdade e o bem pulsam de forma indissociável. O que poderia ser, senão a arte de Deus, que a tudo vivifica?</p>
 <p>Costumo aguardar longamente nesses aposentos sem jamais me entediar. Isso se deve, sem dúvida, ao ambiente paradisíaco, mas também à beleza cativante desses arranjos florais. Uma senhora que me acompanhava, pessoa de profundo conhecimento em ikebana, tendo estudado por anos com um mestre renomado, confidenciou-me que, recentemente, passou a sentir que as obras de seu antigo mestre pareciam vulgares e insuportáveis. Ela mesma concluiu que, ao entrar em contato com a arte de Meishu-Sama, seu senso estético fora elevado a um novo patamar, de maneira quase imperceptível. Compartilho plenamente de seu sentimento e reconheço que Meishu-Sama está, também neste campo, a criar um novo e elevado padrão de beleza. É maravilhoso e quase inimaginável pensar no infinito mundo de beleza que Ele ainda desbravará por meio das flores.</p>
 <p>Contudo, a sublime e vibrante beleza destes arranjos florais ocupa o espaço por apenas um instante, desvanecendo-se continuamente. Creio não ser o único a sentir uma profunda consternação diante de tal efemeridade. Se pudéssemos, de alguma forma, perenizar essa primorosa arte de Meishu-Sama, em vez de permitir que se perca tão fugazmente, quão imenso seria o benefício para as gerações futuras! A única via para realizar tal anseio reside na fotografia colorida de alta qualidade. Portanto, rogo encarecidamente aos membros que ofereçam esta valiosa ferramenta, a fim de que possamos acrescentar um brilho imortal às páginas da história da arte mundial.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 明主様の活花雑感 井上茂登吉 『地上天国』19号、昭和25(1950)年12月25日発行 （この稿は今夏八月寄書されたのであるが、都合上甚だ遅れた次第である） 神徒諸士は、日光殿へ参拝の節、恐らく必ず御神前の床に常に新しい活花を見るであらう。<br/><br/>しかしこの生命躍動せる活花に魅入らるる如く観賞する人は、あるいは極稀ではあるまいか、もし心を留めて観る人ありとすれば、それが多くは豪放大胆に活けられてはいるが、あの二間の神床によくマッチして、寸分の隙のない神技の冴えに打たれ思わず歎声を発するに違いない。<br/><br/>ところが実はこれこそ明主様が必す御手づからお活けになられるものである事を知る人は果して幾人あるであらうか。<br/><br/> 申す迄もなく、この床は普通より大きく、しかも大広間の御神床でもあるから、活けらるる花卉も、よほど大きいものでなくてはならぬし、又華美なものでも適合しないから、その屡々の取材撰択は凡手には極めて至難の業であらう。<br/><br/>ところが、それは明主様が神苑をそぞろお探しになると屹度適当なものが見付かる。<br/><br/>それも大して御苦心なさらす、頗る安易に選伐してお出でになるそうで、明主様御自身此事は「造苑の場合と同様、実に神秘である」と仰有っていた事を想出す。<br/><br/>というのは、折らるべき花でも木でも時も場所もすでにぴったり決っているという一事で、そこに深い神意の有する事が考えられ、選択そのものから、すでに神技である事が判るのである。<br/><br/> 却説（さて）、これは余談に渉るかも知れぬが周知の如く人類救済のため、日夜寸閑もあられぬ明主様が、吾等の神殿の活花を、御自ら、常に新しくお活けになる。<br/><br/>その細いお心遣いには、ただただ驚嘆の外ないというよりは、あまりに貴い御事でもある。<br/><br/>それなのに、気が付いてみれば吾々は御参拝をした時、その活花にも無関心どころか、時によると塵一つにも心を用いていなかった事さえあるので、まことに蛆虫と評されても辭（ことば）なき次第である。<br/><br/>いつか熱海仮本部の広間入口の扉の引手がとれたまま数ケ月経った頃、これが明主様の御眼に止り、吾々本部員は大変御叱りをいたゞいて、「神の御用に立たんとするものは何事にも気配り心配りが肝腎である」との御教えを賜わった事があるが、吾々はそういう神経を、まるで不具でもあるかのように失ってしまっていた。<br/><br/>否、誠がないのである。<br/><br/>という事は信仰をしていない訳になるので、全く情なさに気の遠くなる想いであったのである。<br/><br/> 私は最近、時々お居間へ伺う時、まず床の活花に眼を引かれ、都度新たな活花芸術の変化を見せて戴くのである。<br/><br/>時としては拝見した瞬間、ハッとしてその美の力と、高い品位に打たれて、一種神秘な感情にさえ包まれるのである。<br/><br/>すると明主様はいとも簡単にお教え下さる。<br/><br/> 「人はよく、これだけの花を活けられるには、よほど御苦心なされたでしょう、というが、私はちっとも骨折ってはいない。<br/><br/>何事でも骨折って、良いものが出来るものじゃない。<br/><br/>私は花を活けるんでも、最初からちょうどいい大きさに切って、一気に活けてしまうから、ちっとも時間も手数もかからぬ、捻ったり、いぢったりすると、もう花が死んでしまう。<br/><br/>つまり呼吸である。<br/><br/>だから私の活ける花は、いつも生きているのである。<br/><br/>そしてどこまでも自然に生けなくてはいけない。<br/><br/>又、床や置物、掛軸花器などに、ピッたり合っていなくてはいけない」……と、これは普通人の頭脳では到底出来得べき事ではないと思った。<br/><br/>成程、そう承わってよくみれば、活けられた花も葉も茎も色も大きさも、寸毫の過僅なく、その各々が有つ美を、最大限に発揮されて、自然そのものの姿で息吹いており、しかもなお、器物にも床にも置物にも、すべてのものに絶対といっていい程ぴったり調和し、生かし尽されて、そのすっきりと高い品位を漂わして観る者の心に匂い通ってゆくのである。<br/><br/>私は一輪の花、一つの葉がもつ美がかくまで強力なものであるかを初めて知った。<br/><br/>そしてそれらの結合によって完成された活花の美が、部屋全体の表情をしっかり握って、美しい雰囲気を作り出しているような感じである。<br/><br/>芸術の極致とはこれであろう。<br/><br/>それは単なる美ではない。<br/><br/>真も善も混然として深く脈打っている。<br/><br/>これこそ、あらゆるものを生かす、神の芸術でなくて何であろう。<br/><br/> 私はよくこの部屋に飽かすにお待ちしている．それは無論、天国的環境にもよるが、この活花の美が心を捉えているせいもあろうと思う。<br/><br/>同行のＳ夫人は．数年間、優れた師について、活花にかなり造詣の深い方であるが、最近に至って「自分の師の作品に低俗見るに堪えないものを感ずるようになった」と言われるにみて「明主様のそれに接するうち知らず識らず、如何に審美眼が高められてゐるかが判る」と言っておられるが、全く共感に堪えぬ所で、明主様はこの分野にも、新しい高度の美を創造せられつつあるを知る。<br/><br/>向後もまた花による美の世界を無限に開拓さるるであろう事は、想像もつかぬ素晴しい事である。<br/><br/>しかるに、活花の美しい生命は、瞬時の空間を占めるのみで、次々と失われてゆくのであって、まことに痛惜に堪えぬと思うのは私のみではあるまい。<br/><br/>もし明主様のこの貴重な御美技をかくも儚なく葬る事なく、永久に保存するを得ば、後世を裨益する如何に大なるかを思うのであるが、その望みを果すは、優秀なる天然色写真による外ないであろう。<br/><br/>信徒諸士、この意味において是非とも有力なる利器を献じ、世界の美術史のページに、光輝を添えられたいと、至嘱に堪えぬ次第である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

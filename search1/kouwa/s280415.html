@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s280415</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年4月15日） 『御教え集』21号、昭和28(1953)年5月15日発行 昭和二十八年四月十五日 今度五日がかりで京都に行ってきました。<br><br>だいぶ至る所、信者が増えて、なかなか活気があるように見えました。<br><br>京都ではほとんどお寺まわりで、毎日お寺ばかりをグルグルまわっていました。<br><br>それでどこの寺も実に疲弊しきって気の毒なようです。<br><br>まったく仏滅の有様がよく現われてます。<br><br>非常に財政も逼迫（ひっぱく）しているとみえて、お寺にある仏像やいろいろな物を売りたがってます。<br><br>なかなかそうとうな寺でも本尊様を売りたいというのがありました。<br><br>それで二、三日中に持ってくることになってますが、それは掛物です。<br><br>本尊様を売って、あとはどうするかと言ったら、代わりの物を探してますと言ってましたが、非常に便利です。<br><br>まったく仏滅です。<br><br>あっちでも大勢の前で講演をしましたが、私は嵯峨に別院を造るのは、つまりそういった各寺々の仏様の霊を救うためもあるということを言ったのです。<br><br>それで各寺々にある本尊様は無論ですが、いろいろな絵や彫刻に、その仏様の霊が憑るのです。<br><br>無論いろいろ働きますが、働いて、そうして休む時は、その仏像なら仏像に憑るのです。<br><br>ああいう物は非常に意味があるのです。<br><br>みんなはよく大黒様を祀りますが、祀ると大黒様の霊がそれに憑って働くのです。<br><br>それでその仏様なら仏様の霊が憑って、そうして人が拝みますが、拝めば拝むほど、人間のありがたいという想念が仏様の方に行くのですが、それがたくさん行けば行くほど仏様の力、光が増えるのです。<br><br>人間がかまわないで拝みもしないと、仏様はだんだん光が薄くなり、威力が薄くなるのです。<br><br>たくさんの人が拝む仏様は、それだけ力も増えるから御利益も増えるというわけです。<br><br>ですから人によっては、仏像を見て、これはたくさん拝まれた仏様だと言う人がおります。<br><br>どうして分かるのですと言うと、このお顔を拝見すると、どこか違うと言うのです。<br><br>たくさん拝まれた仏様と、拝まれない仏様は、つまり拝まれた仏様はどこか賑やかなのです。<br><br>拝まれない仏様はどこかさみしいというので、実に不思議なものです。<br><br>それから仏様の中でも、なにも霊がないのに、観音様なら観音様として拝みますと、そうすると人間の想念で、お釈迦さんなり阿弥陀さんなり観音様なりのお姿、あるいはそれだけの威力が作られるのです。<br><br>その代わりそれを拝まないと、それがだんだん消えて行くのです。<br><br>それから仏様の御分霊が憑って拝まれたのは、それが拝まれなくなってもなくなりはしないのです。<br><br>それがさみしく残っているのです。<br><br>そこが違います。<br><br>それで京都あたりの仏様はたくさん拝まれているから、どこか賑やかな威力を持っているのです。<br><br>それがだんだん仏滅になるについて、仏様と言っても元々神様の化身ですから、元の神様に帰って救世教のために大いに働こうとしているのです。<br><br>それは多賀夫人のあれが『地上天国』に出てますが、ああいうように働かれようとするのです。<br><br>それにはやはり罪が残ってますから、それがある程度浄まらなければ働けないのです。<br><br>ですからみんな私にすがりついてくるのです。<br><br> ですからそういう仏様が、仏像などでこれから手にはいります。<br><br>そうしてさらに仏教美術館を造ります。<br><br>それについてこっちは、借りたり買ったりした仏様の霊を浄めて働かせるのです。<br><br>とともに、あとは彫刻美術として、あるいは絵画美術として、それを多くの人が見て楽しむというわけです。<br><br>そうするのが本当なのです。<br><br>それで今のように霊のあるうちに方々の展覧会に出すということは、仏様としては情けないのです。<br><br>自分は人から美術的に鑑賞されるつもりは少しもないので、やはり人を助け慈悲を施すというのが仏様の本当の気持ちなのです。<br><br>そこで霊を神様の方に戻して働くというようになれば、あとは本当の美術品ですからかまわないのです。<br><br>私はだんだんそういうようにやるつもりです。<br><br>そうしてその仏様たちが働き出すと、いろんな宗教の信者がみんな救世教の信者になってくるのです。<br><br>南無阿弥陀仏でも南無妙法蓮華経でもそうなります。<br><br>教祖が大いに働き出す以上、救世教信者にならないわけにはゆかなくなります。<br><br>ですからその根本は、その開祖なり教祖を救わなければならないのです。<br><br>それが今度の嵯峨の仕事になるわけです。<br><br>それで、それがすめば無論キリスト教の方もそういうように救って行きます。<br><br>キリスト教の昔からのいろんな偉い牧師も救いますから、これは世界的に働かなければならないのです。<br><br>だからただ信者を増やすといったところで、その根本の中心的のその霊を救うということの、本当の結果が出るわけですから、やはり急所はそこにあるわけです。<br><br>ですからおもしろいものです。<br><br>しかしこういうことは、今まで誰も知らないので、聞いてみて、ああそういうものか、と思うくらいなものです。<br><br>それからおもしろいことには、そういった仏様なら仏様の霊が憑る場合に、作の良いほど良い仏様が憑るのです。<br><br>ですから、ごく作の良いのは、「生きているようだ」と言われるのは本当の霊がはいっているのです。<br><br>これは仏様ばかりでなく動物でもそうです。<br><br>よく左甚五郎の猫が鼠を食ったとか、鳥が飛んで行ったとか、いろいろなことがありますが、やはり良くできたのは、そういう形のとおりの霊が憑くわけです。<br><br>だから救世教では大黒様を祀ってますが、あの大黒様にやはり大黒様の霊が憑るのです。<br><br>そうして働くのです。<br><br>その場合大きいほど働きが大きくなるのです。<br><br>そうかといって、相応の理ですから、そこの床の間や御神体に対して、ちょうど釣り合いのとれた大きさが良いのです。<br><br>あんまり小さいのはお働きがまだ小さいのです。<br><br>それから作の良い物ほど階級の良い大黒様が憑るわけです。<br><br>私は大きいのが良いと言ったので、渋井さんが大きいのを持ってきたことがありました。<br><br>なにしろトラックで何人かで運んだのです。<br><br>もっともその当時は渋井さんの金のはいるのはたいへんなものでしたから、やっぱりそれだけの御利益はあったのです。<br><br>ではオレの所も大きいのを、と言っても、それはいけないのです。<br><br>それはやっぱり相応の理ですから、大き過ぎても困るのです。<br><br>まずちょうど良い範囲において大きいというのが良いのです。<br><br>それから絵や文字もそうです。<br><br>おもしろいのは、龍神が居所がない場合に絵や文字に憑るのです。<br><br>龍という文字には無論憑りますが、そうでなくても、水に関係した文字に憑ります。<br><br>サンズイのついた文字によく憑ります。<br><br>それからどうしてもない場合には、絵や字を書いた作者の名前のサンズイに憑る場合もあります。<br><br>龍神は水さえあればそこにいられますから。<br><br>実に微妙なものです。<br><br>それから人間の名前でも水に関係のある名前の人には龍神が憑りやすいのです。<br><br>やはりその人は水の働きになるからです。<br><br>それは実に微妙なものなのです。<br><br> それから京都はつまりお寺の都会です。<br><br>だから京都という都市自体が非常に疲弊してます。<br><br>今度私は方々まわる時に注意してみると、京都は壁の多い所ですが、実に壁の落ちている所が多いのです。<br><br>それは随分酷いです。<br><br>商家が並んでいる町の中はそうでもないが、商家がない所に行くと、五軒に一軒か十軒に一軒は必ずあります。<br><br>中には板まで破れている所があるが、実に酷いです。<br><br>これはお寺が疲弊しているために影響したのだろうと思います。<br><br>だから京都という所は良い所ですが、さて多くの人を集中するという観光地としての形が備わっていないわけです。<br><br>そこで私は嵯峨を中心にしたあの辺を一大観光地でもあり、地上天国的のものを造ろうと思って考えてます。<br><br>それには非常に大きくなければならないから、今の所は二万坪くらいですから、そういうものを造るにはとうてい狭いのです。<br><br>どうしても十万坪はなければならないのです。<br><br>ですから私は最初に、土地を見つけるについて、五万坪から十万坪の所が良いと言ったが、そんな広い所はなかなか一度にはないし、金もたいへんですから、とりあえず今の所にしたのです。<br><br>二万坪というと随分広いですが、本当の世界的の観光地としたら、少なくとも十万坪はなければならないのです。<br><br>そうなったら、日本に行ったらぜひ京都に行かなければならないということになって、非常なものだと思います。<br><br>そうなると京都という都会もそうとうな所になり、壁の落ちた所はないようになります。<br><br>神様が良いようにやりますから、べつに気をもむことはないが、人間の方から考えてもそうしなければならないし、神様の方から見ても無論そのつもりに違いないです。<br><br> それから新聞やラジオで分かってますが、ソ連は今後どうなるかという問題です。<br><br>いったい朝鮮問題はどうなるか、スターリンの死後のソ連政府はどういう方針で行くかということが、一番大きな問題であり世界中の人が関心を持っていることです。<br><br>それはこれから非常に複雑ないろいろな変化をするのです。<br><br>というのは第一今の休戦問題は、どうやら行くらしいが、そうかといって、それだけではべつに大局の問題の解決にはなりません。<br><br>北朝鮮は、アメリカの方ではいつも言うとおり、南北を合併して元の朝鮮の独立国にしようという計画ですから、そうするとせっかく今まで金や人間の命を犠牲にしてきた中共の目的、仕事に対してぜんぜん無駄になりますから、オイソレとはゆかないのです。<br><br>しかし現にアメリカは、今南の方から北に向かって、平壌（へいじょう）の線まで、北の方に行かなければというようなことを言ってます。<br><br>それを中共の方で承知するわけはないから、これがまたたいへんな問題になってきます。<br><br>次に台湾の蒋介石があのままにはできないのです。<br><br>中共全部を急にどうということはできないが、どうしてもある程度進出しなければ収まりがつかないだろうし、そうすると中共の方でも黙ってはいないから、この二つの問題でもたいへんだろうと思います。<br><br>その次に現に戦っているインドシナでも、ホー・チミン軍が非常な勢いで、仏軍を撤退させるほどの攻撃力が現われてますから、これもまたたいへんなことです。<br><br>というようなことがありますから、なかなか簡単には行かないということと、もう一つの大きなことは、結局だんだんソ連の共産主義というものは蔭が薄くなってくるのです。<br><br>それでスターリンという者は非常な力があるのです。<br><br>悪ではあるが、とにかく力のあるのはたいへんなものです。<br><br>スターリンの死後、スターリンの半分でも仕事ができる者はないのです。<br><br>マレンコフでもモロトフでも知れたものです。<br><br>だからソ連というものはガタガタになってくるのです。<br><br>ソ連がガタガタになるということは、共産主義というものがガタガタになってきます。<br><br>それは救世教団にちゃんと型が出てます。<br><br>知っている人は知っているでしょうが、これはあんまりはっきり言えないことだから、覚るよりしようがありません。<br><br>だから共産主義というものは亡びる段階にはいったとみて良いです。<br><br>そうなると、ではアメリカはどうだというと、アメリカは大いに思いどおりになったから、これから良いだろうと思うかもしれないが、ところが神様の経綸から言うと、アメリカがたいへんなことになるのです。<br><br>あるいはソ連以上に苦しむ時代が来るかもしれない、でなくて、すぐ来るのです。<br><br>それはまだはっきり言えませんが、とにかくアメリカ開国以来ないことがあるのです。<br><br>それで神様の経綸から言うと、アメリカ、ソ連は勿論ですが、すばらしい大変化があるのです。<br><br>これはおいおい話しますが、それがそう長くはないのです。<br><br>今年中に現われると見てます。<br><br>これが破壊と建設、立て替え立て直しというわけで、それがあってから救世教というものが本当に仕事をし、本当に世界的に現われるのです。<br><br>ですから今はその時の準備の仕事をしているわけです。<br><br>これはあんまり詳しくは言えませんから、今日はこのくらいにしておきますが、スターリンの死についてちょっと書いてみました。<br><br> （御論文「英雄の死に就いて」）【栄光 二〇五号】 新宗教についてこの間も話したが、ちょっと書いてみました。<br><br> （御論文「新宗教とは何か」）【栄光 二〇三号】 それからこの間は精神病について話しましたが、今日はおもしろいことを教えます。<br><br>女の病気というと婦人病によるように思うが、そうではないのです。<br><br>仮にヒステリーとか頭痛とか、頭に関係したいろいろな病気ですが、その時の浄霊は、頭や首のまわりも肝腎ですが、そのほかに子宮を中心としてのその辺が非常に関係があるのです。<br><br>ですからその辺を浄霊すると頭がなおるのです。<br><br>そういう場合には女の肝腎な所を浄霊するのです。<br><br>そうすると頭が非常に良くなるのです。<br><br>とにかく女のここ（股間）が因です。<br><br>早く言えば急所ですから、ここに毒があると浄化の熱が出たり、いろいろな溶ける作用が頭に響くのです。<br><br>それについて知っておくべきことは、全部、前の方は前頭部に関係があり、後ろの方は肛門に関係があるのです。<br><br>ですから下痢や赤痢というのは後頭部付近の毒が出るのです。<br><br>それから前頭部の毒は前の方から出るのです。<br><br>コシケなどになったりするのです。<br><br>特にコシケなどは多いのです。<br><br>そこで天地と言いますから、ここ（前頭部）を良くすると下の婦人病が良くなるし、ここ（股間）を良くすると頭が良くなるというように非常に関連してますから、そういうようなことを知ってやると大いに効果がありますから、試してご覧なさい。<br><br>あんまりカカアが言うことを聞かなくて、ヒステリーを起した時にはここをやるのです。<br><br>それで円満になるのは結構です。<br><br>ここもいろいろな意味が非常にあるのです。<br><br>しかし場所が場所だけに、医学の方の婦人科かなにかなら言えますが、もっともこっちは霊的ですから、そう詳しく知る必要はないが、こういうことも知っておかなければならないのです。<br><br>夫婦別れになったり、それから親父が妾をこしらえたり、いろんなことで非常に悲劇ができますが、それは男ばかりをせめることはできないのです。<br><br>というのは、女によってはここの欠陥のために夫に満足させることができないのです。<br><br>またそれが割に多いのです。<br><br>ですから夫ばかりでなく、妻にも罪があるのです。<br><br>それをなおすにも浄霊によるよりしようがないのです。<br><br>私は昔不感症をなおしたことがありますが、これはなおるのです。<br><br>ただ困ることは、「どうですか」と言っても、「お蔭で良くなりました」とは言わないのです。<br><br>しかしそういうのは顔色で分かります。<br><br>ニコニコとしますが、それならもう良いのです。<br><br> それからよく結婚を嫌う娘がありますが、これはここがたいへん関係があるのです。<br><br>それは膣痙攣と医者の方で言いますが、ちょっと触っても飛び上がるほど痛いのがあります。<br><br>そういうのが、私は一生独身でいると言うのです。<br><br>それは本当のことを言いませんから……そういうのも浄霊でなおります。<br><br>それから無毛症といって毛のないのがあります。<br><br>これも皮膚の内部に毒が固まって発毛を邪魔しているので、これもなおります。<br><br>まだいろいろありますが、そう詳しく言わなくても分かると思いますから、これだけにしておきます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Salvação dos Espíritos Búdicos e a Grande Transição Mundial</h2>
 <p>Recentemente, realizei uma viagem de cinco dias a Quioto. Pude constatar que o número de fiéis tem aumentado em diversos locais, o que me transmitiu uma impressão de grande vitalidade. Em Quioto, dediquei-me quase que exclusivamente a visitar templos, percorrendo-os dia após dia. O que observei, todavia, é que todos eles se encontram em um estado de completa exaustão, uma situação verdadeiramente lastimável. A ruína do Budismo manifesta-se ali de forma muito clara. Aparentemente, enfrentam sérias dificuldades financeiras, pois demonstram o desejo de vender suas imagens búdicas e outros artefatos. Houve até mesmo um templo de considerável importância que manifestou a intenção de vender sua imagem principal de adoração. Ficaram de trazê-la dentro de dois ou três dias; trata-se de um pergaminho. Ao indagar sobre o que fariam após a venda, responderam que procuravam um substituto, uma solução bastante cômoda. É, de fato, a ruína do Budismo.</p>
@@ -109,5 +261,48 @@ function toggleLang(lang) {
 <p>É preciso saber que tudo o que ocorre na parte da frente dessa região está relacionado com a parte frontal da cabeça, e o que ocorre na parte de trás, com a região anal. Diarreia e disenteria, por exemplo, são eliminações de toxinas da parte posterior da cabeça. Já as toxinas da parte frontal da cabeça são eliminadas pela frente, manifestando-se como corrimentos, que são particularmente comuns. Assim como falamos em Céu e Terra, há uma profunda conexão: tratar a cabeça melhora os problemas ginecológicos, e tratar a região pélvica melhora a cabeça. Saber disso e aplicar no Johrei produzirá grandes resultados, por isso, experimentem. Se sua esposa estiver intratável e tiver uma crise de histeria, ministrem Johrei nessa região. Será excelente se isso trouxer harmonia ao lar.</p>
 <p>Essa área do corpo possui muitos outros significados. Contudo, pela sua natureza, é um tema que um ginecologista poderia abordar com mais propriedade. Como nossa abordagem é espiritual, não é necessário um conhecimento tão detalhado, mas é importante estarmos cientes dessas questões. Separações, maridos que buscam amantes e outras tragédias familiares podem ocorrer, mas não se pode culpar apenas o homem. A verdade é que, devido a disfunções nessa área, muitas mulheres não conseguem satisfazer seus maridos, e isso é relativamente comum. Portanto, a responsabilidade não é só do marido; a esposa também tem sua parcela. E a única forma de corrigir isso é através do Johrei. Antigamente, cheguei a curar casos de frigidez, é algo que tem cura. A dificuldade é que, quando pergunto: "Como está?", a pessoa não responde: "Graças ao senhor, melhorei". No entanto, a melhora é visível em sua fisionomia; ela sorri, e isso basta para saber que está bem.</p>
 <p>Há também jovens que têm aversão ao casamento, o que está intimamente ligado a problemas nessa região. A medicina chama isso de espasmos vaginais; há casos em que um simples toque causa uma dor lancinante. São essas moças que dizem que permanecerão solteiras por toda a vida, pois não revelam o verdadeiro motivo. Isso também pode ser curado com Johrei. Existe ainda a ausência de pelos pubianos, causada por toxinas solidificadas sob a pele que impedem seu crescimento; isso também tem cura. Há muitos outros exemplos, mas creio que não seja necessário entrar em mais detalhes para que compreendam. Por hoje, é tudo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年4月15日） 『御教え集』21号、昭和28(1953)年5月15日発行 昭和二十八年四月十五日 今度五日がかりで京都に行ってきました。<br/><br/>だいぶ至る所、信者が増えて、なかなか活気があるように見えました。<br/><br/>京都ではほとんどお寺まわりで、毎日お寺ばかりをグルグルまわっていました。<br/><br/>それでどこの寺も実に疲弊しきって気の毒なようです。<br/><br/>まったく仏滅の有様がよく現われてます。<br/><br/>非常に財政も逼迫（ひっぱく）しているとみえて、お寺にある仏像やいろいろな物を売りたがってます。<br/><br/>なかなかそうとうな寺でも本尊様を売りたいというのがありました。<br/><br/>それで二、三日中に持ってくることになってますが、それは掛物です。<br/><br/>本尊様を売って、あとはどうするかと言ったら、代わりの物を探してますと言ってましたが、非常に便利です。<br/><br/>まったく仏滅です。<br/><br/>あっちでも大勢の前で講演をしましたが、私は嵯峨に別院を造るのは、つまりそういった各寺々の仏様の霊を救うためもあるということを言ったのです。<br/><br/>それで各寺々にある本尊様は無論ですが、いろいろな絵や彫刻に、その仏様の霊が憑るのです。<br/><br/>無論いろいろ働きますが、働いて、そうして休む時は、その仏像なら仏像に憑るのです。<br/><br/>ああいう物は非常に意味があるのです。<br/><br/>みんなはよく大黒様を祀りますが、祀ると大黒様の霊がそれに憑って働くのです。<br/><br/>それでその仏様なら仏様の霊が憑って、そうして人が拝みますが、拝めば拝むほど、人間のありがたいという想念が仏様の方に行くのですが、それがたくさん行けば行くほど仏様の力、光が増えるのです。<br/><br/>人間がかまわないで拝みもしないと、仏様はだんだん光が薄くなり、威力が薄くなるのです。<br/><br/>たくさんの人が拝む仏様は、それだけ力も増えるから御利益も増えるというわけです。<br/><br/>ですから人によっては、仏像を見て、これはたくさん拝まれた仏様だと言う人がおります。<br/><br/>どうして分かるのですと言うと、このお顔を拝見すると、どこか違うと言うのです。<br/><br/>たくさん拝まれた仏様と、拝まれない仏様は、つまり拝まれた仏様はどこか賑やかなのです。<br/><br/>拝まれない仏様はどこかさみしいというので、実に不思議なものです。<br/><br/>それから仏様の中でも、なにも霊がないのに、観音様なら観音様として拝みますと、そうすると人間の想念で、お釈迦さんなり阿弥陀さんなり観音様なりのお姿、あるいはそれだけの威力が作られるのです。<br/><br/>その代わりそれを拝まないと、それがだんだん消えて行くのです。<br/><br/>それから仏様の御分霊が憑って拝まれたのは、それが拝まれなくなってもなくなりはしないのです。<br/><br/>それがさみしく残っているのです。<br/><br/>そこが違います。<br/><br/>それで京都あたりの仏様はたくさん拝まれているから、どこか賑やかな威力を持っているのです。<br/><br/>それがだんだん仏滅になるについて、仏様と言っても元々神様の化身ですから、元の神様に帰って救世教のために大いに働こうとしているのです。<br/><br/>それは多賀夫人のあれが『地上天国』に出てますが、ああいうように働かれようとするのです。<br/><br/>それにはやはり罪が残ってますから、それがある程度浄まらなければ働けないのです。<br/><br/>ですからみんな私にすがりついてくるのです。<br/><br/> ですからそういう仏様が、仏像などでこれから手にはいります。<br/><br/>そうしてさらに仏教美術館を造ります。<br/><br/>それについてこっちは、借りたり買ったりした仏様の霊を浄めて働かせるのです。<br/><br/>とともに、あとは彫刻美術として、あるいは絵画美術として、それを多くの人が見て楽しむというわけです。<br/><br/>そうするのが本当なのです。<br/><br/>それで今のように霊のあるうちに方々の展覧会に出すということは、仏様としては情けないのです。<br/><br/>自分は人から美術的に鑑賞されるつもりは少しもないので、やはり人を助け慈悲を施すというのが仏様の本当の気持ちなのです。<br/><br/>そこで霊を神様の方に戻して働くというようになれば、あとは本当の美術品ですからかまわないのです。<br/><br/>私はだんだんそういうようにやるつもりです。<br/><br/>そうしてその仏様たちが働き出すと、いろんな宗教の信者がみんな救世教の信者になってくるのです。<br/><br/>南無阿弥陀仏でも南無妙法蓮華経でもそうなります。<br/><br/>教祖が大いに働き出す以上、救世教信者にならないわけにはゆかなくなります。<br/><br/>ですからその根本は、その開祖なり教祖を救わなければならないのです。<br/><br/>それが今度の嵯峨の仕事になるわけです。<br/><br/>それで、それがすめば無論キリスト教の方もそういうように救って行きます。<br/><br/>キリスト教の昔からのいろんな偉い牧師も救いますから、これは世界的に働かなければならないのです。<br/><br/>だからただ信者を増やすといったところで、その根本の中心的のその霊を救うということの、本当の結果が出るわけですから、やはり急所はそこにあるわけです。<br/><br/>ですからおもしろいものです。<br/><br/>しかしこういうことは、今まで誰も知らないので、聞いてみて、ああそういうものか、と思うくらいなものです。<br/><br/>それからおもしろいことには、そういった仏様なら仏様の霊が憑る場合に、作の良いほど良い仏様が憑るのです。<br/><br/>ですから、ごく作の良いのは、「生きているようだ」と言われるのは本当の霊がはいっているのです。<br/><br/>これは仏様ばかりでなく動物でもそうです。<br/><br/>よく左甚五郎の猫が鼠を食ったとか、鳥が飛んで行ったとか、いろいろなことがありますが、やはり良くできたのは、そういう形のとおりの霊が憑くわけです。<br/><br/>だから救世教では大黒様を祀ってますが、あの大黒様にやはり大黒様の霊が憑るのです。<br/><br/>そうして働くのです。<br/><br/>その場合大きいほど働きが大きくなるのです。<br/><br/>そうかといって、相応の理ですから、そこの床の間や御神体に対して、ちょうど釣り合いのとれた大きさが良いのです。<br/><br/>あんまり小さいのはお働きがまだ小さいのです。<br/><br/>それから作の良い物ほど階級の良い大黒様が憑るわけです。<br/><br/>私は大きいのが良いと言ったので、渋井さんが大きいのを持ってきたことがありました。<br/><br/>なにしろトラックで何人かで運んだのです。<br/><br/>もっともその当時は渋井さんの金のはいるのはたいへんなものでしたから、やっぱりそれだけの御利益はあったのです。<br/><br/>ではオレの所も大きいのを、と言っても、それはいけないのです。<br/><br/>それはやっぱり相応の理ですから、大き過ぎても困るのです。<br/><br/>まずちょうど良い範囲において大きいというのが良いのです。<br/><br/>それから絵や文字もそうです。<br/><br/>おもしろいのは、龍神が居所がない場合に絵や文字に憑るのです。<br/><br/>龍という文字には無論憑りますが、そうでなくても、水に関係した文字に憑ります。<br/><br/>サンズイのついた文字によく憑ります。<br/><br/>それからどうしてもない場合には、絵や字を書いた作者の名前のサンズイに憑る場合もあります。<br/><br/>龍神は水さえあればそこにいられますから。<br/><br/>実に微妙なものです。<br/><br/>それから人間の名前でも水に関係のある名前の人には龍神が憑りやすいのです。<br/><br/>やはりその人は水の働きになるからです。<br/><br/>それは実に微妙なものなのです。<br/><br/> それから京都はつまりお寺の都会です。<br/><br/>だから京都という都市自体が非常に疲弊してます。<br/><br/>今度私は方々まわる時に注意してみると、京都は壁の多い所ですが、実に壁の落ちている所が多いのです。<br/><br/>それは随分酷いです。<br/><br/>商家が並んでいる町の中はそうでもないが、商家がない所に行くと、五軒に一軒か十軒に一軒は必ずあります。<br/><br/>中には板まで破れている所があるが、実に酷いです。<br/><br/>これはお寺が疲弊しているために影響したのだろうと思います。<br/><br/>だから京都という所は良い所ですが、さて多くの人を集中するという観光地としての形が備わっていないわけです。<br/><br/>そこで私は嵯峨を中心にしたあの辺を一大観光地でもあり、地上天国的のものを造ろうと思って考えてます。<br/><br/>それには非常に大きくなければならないから、今の所は二万坪くらいですから、そういうものを造るにはとうてい狭いのです。<br/><br/>どうしても十万坪はなければならないのです。<br/><br/>ですから私は最初に、土地を見つけるについて、五万坪から十万坪の所が良いと言ったが、そんな広い所はなかなか一度にはないし、金もたいへんですから、とりあえず今の所にしたのです。<br/><br/>二万坪というと随分広いですが、本当の世界的の観光地としたら、少なくとも十万坪はなければならないのです。<br/><br/>そうなったら、日本に行ったらぜひ京都に行かなければならないということになって、非常なものだと思います。<br/><br/>そうなると京都という都会もそうとうな所になり、壁の落ちた所はないようになります。<br/><br/>神様が良いようにやりますから、べつに気をもむことはないが、人間の方から考えてもそうしなければならないし、神様の方から見ても無論そのつもりに違いないです。<br/><br/> それから新聞やラジオで分かってますが、ソ連は今後どうなるかという問題です。<br/><br/>いったい朝鮮問題はどうなるか、スターリンの死後のソ連政府はどういう方針で行くかということが、一番大きな問題であり世界中の人が関心を持っていることです。<br/><br/>それはこれから非常に複雑ないろいろな変化をするのです。<br/><br/>というのは第一今の休戦問題は、どうやら行くらしいが、そうかといって、それだけではべつに大局の問題の解決にはなりません。<br/><br/>北朝鮮は、アメリカの方ではいつも言うとおり、南北を合併して元の朝鮮の独立国にしようという計画ですから、そうするとせっかく今まで金や人間の命を犠牲にしてきた中共の目的、仕事に対してぜんぜん無駄になりますから、オイソレとはゆかないのです。<br/><br/>しかし現にアメリカは、今南の方から北に向かって、平壌（へいじょう）の線まで、北の方に行かなければというようなことを言ってます。<br/><br/>それを中共の方で承知するわけはないから、これがまたたいへんな問題になってきます。<br/><br/>次に台湾の蒋介石があのままにはできないのです。<br/><br/>中共全部を急にどうということはできないが、どうしてもある程度進出しなければ収まりがつかないだろうし、そうすると中共の方でも黙ってはいないから、この二つの問題でもたいへんだろうと思います。<br/><br/>その次に現に戦っているインドシナでも、ホー・チミン軍が非常な勢いで、仏軍を撤退させるほどの攻撃力が現われてますから、これもまたたいへんなことです。<br/><br/>というようなことがありますから、なかなか簡単には行かないということと、もう一つの大きなことは、結局だんだんソ連の共産主義というものは蔭が薄くなってくるのです。<br/><br/>それでスターリンという者は非常な力があるのです。<br/><br/>悪ではあるが、とにかく力のあるのはたいへんなものです。<br/><br/>スターリンの死後、スターリンの半分でも仕事ができる者はないのです。<br/><br/>マレンコフでもモロトフでも知れたものです。<br/><br/>だからソ連というものはガタガタになってくるのです。<br/><br/>ソ連がガタガタになるということは、共産主義というものがガタガタになってきます。<br/><br/>それは救世教団にちゃんと型が出てます。<br/><br/>知っている人は知っているでしょうが、これはあんまりはっきり言えないことだから、覚るよりしようがありません。<br/><br/>だから共産主義というものは亡びる段階にはいったとみて良いです。<br/><br/>そうなると、ではアメリカはどうだというと、アメリカは大いに思いどおりになったから、これから良いだろうと思うかもしれないが、ところが神様の経綸から言うと、アメリカがたいへんなことになるのです。<br/><br/>あるいはソ連以上に苦しむ時代が来るかもしれない、でなくて、すぐ来るのです。<br/><br/>それはまだはっきり言えませんが、とにかくアメリカ開国以来ないことがあるのです。<br/><br/>それで神様の経綸から言うと、アメリカ、ソ連は勿論ですが、すばらしい大変化があるのです。<br/><br/>これはおいおい話しますが、それがそう長くはないのです。<br/><br/>今年中に現われると見てます。<br/><br/>これが破壊と建設、立て替え立て直しというわけで、それがあってから救世教というものが本当に仕事をし、本当に世界的に現われるのです。<br/><br/>ですから今はその時の準備の仕事をしているわけです。<br/><br/>これはあんまり詳しくは言えませんから、今日はこのくらいにしておきますが、スターリンの死についてちょっと書いてみました。<br/><br/> （御論文「英雄の死に就いて」）【栄光 二〇五号】 新宗教についてこの間も話したが、ちょっと書いてみました。<br/><br/> （御論文「新宗教とは何か」）【栄光 二〇三号】 それからこの間は精神病について話しましたが、今日はおもしろいことを教えます。<br/><br/>女の病気というと婦人病によるように思うが、そうではないのです。<br/><br/>仮にヒステリーとか頭痛とか、頭に関係したいろいろな病気ですが、その時の浄霊は、頭や首のまわりも肝腎ですが、そのほかに子宮を中心としてのその辺が非常に関係があるのです。<br/><br/>ですからその辺を浄霊すると頭がなおるのです。<br/><br/>そういう場合には女の肝腎な所を浄霊するのです。<br/><br/>そうすると頭が非常に良くなるのです。<br/><br/>とにかく女のここ（股間）が因です。<br/><br/>早く言えば急所ですから、ここに毒があると浄化の熱が出たり、いろいろな溶ける作用が頭に響くのです。<br/><br/>それについて知っておくべきことは、全部、前の方は前頭部に関係があり、後ろの方は肛門に関係があるのです。<br/><br/>ですから下痢や赤痢というのは後頭部付近の毒が出るのです。<br/><br/>それから前頭部の毒は前の方から出るのです。<br/><br/>コシケなどになったりするのです。<br/><br/>特にコシケなどは多いのです。<br/><br/>そこで天地と言いますから、ここ（前頭部）を良くすると下の婦人病が良くなるし、ここ（股間）を良くすると頭が良くなるというように非常に関連してますから、そういうようなことを知ってやると大いに効果がありますから、試してご覧なさい。<br/><br/>あんまりカカアが言うことを聞かなくて、ヒステリーを起した時にはここをやるのです。<br/><br/>それで円満になるのは結構です。<br/><br/>ここもいろいろな意味が非常にあるのです。<br/><br/>しかし場所が場所だけに、医学の方の婦人科かなにかなら言えますが、もっともこっちは霊的ですから、そう詳しく知る必要はないが、こういうことも知っておかなければならないのです。<br/><br/>夫婦別れになったり、それから親父が妾をこしらえたり、いろんなことで非常に悲劇ができますが、それは男ばかりをせめることはできないのです。<br/><br/>というのは、女によってはここの欠陥のために夫に満足させることができないのです。<br/><br/>またそれが割に多いのです。<br/><br/>ですから夫ばかりでなく、妻にも罪があるのです。<br/><br/>それをなおすにも浄霊によるよりしようがないのです。<br/><br/>私は昔不感症をなおしたことがありますが、これはなおるのです。<br/><br/>ただ困ることは、「どうですか」と言っても、「お蔭で良くなりました」とは言わないのです。<br/><br/>しかしそういうのは顔色で分かります。<br/><br/>ニコニコとしますが、それならもう良いのです。<br/><br/> それからよく結婚を嫌う娘がありますが、これはここがたいへん関係があるのです。<br/><br/>それは膣痙攣と医者の方で言いますが、ちょっと触っても飛び上がるほど痛いのがあります。<br/><br/>そういうのが、私は一生独身でいると言うのです。<br/><br/>それは本当のことを言いませんから……そういうのも浄霊でなおります。<br/><br/>それから無毛症といって毛のないのがあります。<br/><br/>これも皮膚の内部に毒が固まって発毛を邪魔しているので、これもなおります。<br/><br/>まだいろいろありますが、そう詳しく言わなくても分かると思いますから、これだけにしておきます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

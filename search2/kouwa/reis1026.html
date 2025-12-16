@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>reis1026</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊祀篇 第一篇 ２ 026-038 祖霊供養 026 祖霊供養最良の道霊衣と正邪の戦 祖霊の供養は、坊さんを招んで拝むのもお寺で拝むのも供養になる。<br><br> 観音様―光明如来様をお祭りする時、祖霊も一緒に祀るのも供養だが、多くの人を助ける。<br><br>これが一番供養である。<br><br>親孝行は死んでからの方が大きい。<br><br>子孫が徳を積むと大きく祖霊は救われる。<br><br>信仰して、神仏を拝むだけでは大した利益はない。<br><br>神仏の目的は一人でも多く救う。<br><br>幸福にする事である。<br><br>宗教行為主義で、行為に表わさなかったら宗教の価値はない。<br><br> 救われた人が感謝する。<br><br>それが来るのが大変なものである。<br><br>円い円光があるが、仏の持っている光を、も一つ多くの人の感謝が集って大きな光となる。<br><br>人間は霊衣を持っており、それが厚くなるほどいい。<br><br>厚くする程仕合せになる。<br><br>不仕合せの時など殆どなくなる。<br><br>霊衣を厚くするには多くの人を幸福を受ける状態に導く。<br><br>すると感謝する、すると光になってくるから霊衣が厚くなる。<br><br>霊衣が厚くなると悪い霊が憑れぬ。<br><br>邪霊が憑るには憑るだけの状態にある。<br><br>特に狐など霊衣に光があれば憑れぬ。<br><br> 邪神と正神との戦は、光の戦いである。<br><br>神は光を発揮しようとされ、邪神は光を遮ろうとする。<br><br>光明如来様は、光の仏様であるから邪霊が恐がる。<br><br>光明如来の文字から光が出る。<br><br>光が出ると全体の霊界が明るくなる故にお掛軸をかけると、どことなく明るくなる。<br><br>掛ってない家に行くと何となく暗い。<br><br>信仰者の作物がよく出来るのは、その田地全体が光となる。<br><br>光には、熱が加わる。<br><br>これは暖い熱とも違う。<br><br>あついのは熱の体である。<br><br>少し温いのは熱の霊である。<br><br> 故に、熱の霊がゆくから、害虫なく作物も育ちよいのである。<br><br> 曇っている所は、虫が沸き易い。<br><br> この信仰は、科学的に説明が出来る。<br><br>（S23） 027 御奉斎と祖霊 二年前腎臓結核でお救い戴きました信者で御座いますが、その後三回も死ぬ程の御浄化をお救い戴いております。<br><br>その間に御屏風観音様をお祀りし、お位牌もととのえました。<br><br>最近また御浄化がはげしく息ぎれ呼吸切迫で身動きも出来ぬようになりました。<br><br>第八問の御質問の老夫婦の例を聞いておりますので、過去帳をしまってあるのではないかと尋ねますと、その瀕死の病人が苦しげに、頭で仏壇の方を示しながらしまってある。<br><br>過去帳を祀ってほしいと申すので御座います。<br><br>早速その過去帳を出しておまいり致しますと、スーッと楽になって間もなく息を引きとりました。<br><br>この過去帳はお位牌を作りました時、おことわりもせずにしまった由で御座いますが、今後いかように取扱いましたら宜しゅう御座いましょうか。<br><br>お伺い申し上げます。<br><br> 光明如来様をお祭りしてないといけない。<br><br>その家の霊界が明るくなれば位牌だけでよい。<br><br>でないと祖霊も迷う。<br><br>（S25. 3.22） 028 祖先救わるる道 特に救わんとせずとも徳積めば救われる。<br><br> （目蓮上人の例） 自分自身より主とした所は他人であり、世界人類で自国さえよくなればよいというこれも間違いである。<br><br> 029 地獄のわが子救うには 私の弟は中学四年の時、学徒通年動員として軍需工場に入りましたが、昭和二十年四月十二日Ｂ29の大空襲に際し、爆弾の破片が腹部に入りたるまま一昼夜苦しみ、遂に死亡致しました。<br><br> 地獄に落ちていると言われるこの霊を救う方法をお教え願います。<br><br> 一生懸命徳を積めば助かる。<br><br>自分の子を救うためには、他人を救うべきで、利他愛が大切である。<br><br>大乗で行く。<br><br> 目蓮尊者。<br><br>（S24. 8.16） 030 法事、年忌の繰延べ 死人が出来ました時に日取を宵取りと申しまして一日前の日から計算致されますがいかなる訳で御座いましょうか。<br><br>また法事年忌等は繰上げはよいが繰延べてはいけないと申し、御祝はその逆を申しますがいかなる訳で御座いましょうか。<br><br> 死人は霊であるから、霊を扱うのであるから、霊は一日前位に脱けるものであるから、それでそんな仕来りをつくったものであろう。<br><br>繰延べは絶対出来ない。<br><br>霊は年忌や法要を待っている。<br><br>決った時にやらぬと規（きま）りが乱れる。<br><br>そして無期延期みたいになってしまう。<br><br>無期延期になると、来年か五、六年後まで待たなくてはならぬ事になる。<br><br>早いのは構わぬ。<br><br>御祝は体の方であるから逆にする。<br><br>しかし逆でなくていい。<br><br>やはり早くていい。<br><br>これは遠慮する気持もあろう。<br><br>（S24. 6.22） 031 変更は断るべきである 私の家では日に三度仏壇に供物を上げておりましたが、ある日お昼を一回だけ抜かしましたところ、その夜半三才の長男が気ちがいのように叫び、いか程あやしても何の効果も御座いませんでした。<br><br>身体にも異常は御座いませんでした。<br><br>仏壇に三度三度の供物が荷になりますが、やはりこれは続けるべきで御座いましょうか。<br><br>御伺い申し上げます。<br><br> これはお断りすればよい。<br><br>だまってしたからで、黙ってやるのは違反であるから気付かしたのである。<br><br>朝だけ一度だけでよい。<br><br>「これから朝だけにする」と、大先生の御命令という事は絶対いけないが（あれは軍隊語であり信仰のそれでない）御注意でとか思召しで一回にすると言って断る。<br><br>（S24. 8.12） 032 長男が祀るべし 私の父母現存、私も父も長男です。<br><br>父方の先祖は、父の弟（五男）が祀り、母方（長兄の子現存）の先祖は私が祀っております。<br><br>私の家内中に浄霊で中々解決せぬ病人続出。<br><br>前記に関係があるものでしょうか。<br><br>いかなる処置をすればよろしいか。<br><br>御伺い致します。<br><br> 長男が祀るのが本当である。<br><br>祀らぬからである。<br><br> 祖先は一軒でもよけい祀るほどよい。<br><br> 033 位牌のみの祀り 入信二ケ月の信者ですが、子供二人を亡くしておりまして、郷里で祖母がお祀りしており、夫婦は都会に出て来て、会社の寮の一室を借りて生活していますが、そのような場合お仏壇なしでお屏風観音様を頂き、お位牌だけでお祀りしても宜敷いでしょうか。<br><br>お位牌は「先祖代々の霊」と子供達二人のは一つにしても宜敷いでしょうか。<br><br>御伺い致します。<br><br> また仏壇を買うとしましたら、おりん、花立、線香立、御掛軸等これまでの仏式の通りにしなければいけないでしょうか。<br><br>お伺い致します。<br><br> 仏壇がなくてはいけない。<br><br>人間と同じ事で野天では住めない。<br><br>（S25. 4.17） 034 他宗霊の祀り総説 仏教の家庭が二、三代前から宗派神道に改宗し、今回更にこのお道に入信した場合、祖霊の祭り方はどう致すのが正しいので御座いましょうか。<br><br>御教えを御願いいたします。<br><br> 神道に改宗しても、祖霊はすぐに改宗するはずがない。<br><br>未だ仏界にいて、その中のいくらかは神道へ入るのもいる。<br><br> 仏壇など改宗すると非常に怒る。<br><br>それで災難やなどが起る。<br><br>であるから改宗しても仏はそのままにしておく。<br><br>自分だけが改宗する外はない。<br><br> 観音様は何派でもよい。<br><br>すべてに共通している。<br><br>これは何教の霊でも喜ぶ。<br><br> 両宗派のある場合は、両方へ別々に屏風様を祀るとよい。<br><br> キリスト教へ入ると、祖先の礼拝をやめるので非常に怒る。<br><br> 神道の人も観音様を拝んでもよいが神社神道は延喜式で祭る。<br><br>大体、産土の神がその御用をする事になる。<br><br> 宗派神道は、教祖が一つの範囲を作って救う。<br><br> 今迄の神社の祭神の神名は本当のものではない。<br><br>代理のようなものであるが、その名前で、その神社のやり方でよい。<br><br> 今迄は仏界でした。<br><br>そして神道は殆ど存在さえ認められなかった。<br><br>今度は仏界が消滅し、神道が確立する。<br><br> キリスト教で死んだ霊は、仏教で祀る要はない。<br><br>霊の希望による。<br><br>俗名○○の霊でよい。<br><br>祖先の中へ入れてよい。<br><br> こういう点は、今はっきり出来ぬ。<br><br>将来世界的になるといいが、今一般的に種々になっている。<br><br>それが宗派に現われる。<br><br>（S23. 8.21） 035 仏滅後の祀り方 現界の仏滅後、祖霊の祀り方について。<br><br> 仏滅になった時に話す。<br><br>（S24. 8. 9） 036 宗旨替えと祖霊への影響 宗旨変えをしました場合、祖先の霊にいかなる影響を及ぼすものでございましょうか。<br><br> 仏教同志では大した事はないが、仏教から神道へ替えるのは大分違う。<br><br>特にキリスト教は余程ちがう。<br><br>軽々しくは出来ない。<br><br>不賛成の祖先が多いから変えてから怒る。<br><br> 以前祖先が怒って娘に憑り、裸になって大暴れしたのがあった。<br><br>治療で治って子供まで出来た。<br><br>これは先祖が大本教を嫌がり、それに狐が憑って母親を意見した。<br><br>故に自分だけがその宗派をするのが間違いない。<br><br> 霊でも生きた人間と同じ事である。<br><br>（S24. 2. 4） 037 仏界霊は神界へ行くか 仏を祭らず神だけ祭る宗教があります。<br><br>そういう家の霊は、死んで直ぐ神界へ行けるのですか。<br><br>またそういう家で死んだ者の霊が憑依した時、どういうように霊を祭ったら宜敷いか。<br><br> 勿論戒名がありません。<br><br> 御教え下さい。<br><br> 仏界で祀られた霊はすぐに神様の所へ来ない。<br><br>何年先になると判らない。<br><br>ひどいのになると仏壇を壊すのがある。<br><br> 以前大本信者でそんなのがあった。<br><br>父親に憑いて精神病に――そしてまた娘に憑いた。<br><br>（私の家におった）（S24. 2.27） 038 仏霊神界への祀替え 仏界の霊は神界へ祀ってもすぐ来ない。<br><br>何年先か判らない。<br><br>あるいは中には怒るのもある。<br><br>（S23）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Culto aos Antepassados</h2>
 <h3>026 - O Caminho Sublime para o Culto aos Antepassados: A Veste Espiritual e a Batalha entre o Bem e o Mal</h3>
@@ -139,5 +291,48 @@ function toggleLang(lang) {
 <p>Os espíritos cultuados no Mundo Búdico não chegam imediatamente ao Plano Divino. Não se sabe quantos anos isso pode levar. Em casos extremos, há espíritos que chegam a destruir o oratório budista. Certa vez, houve um caso assim com um seguidor da Ōmoto. O espírito se apossou do pai, que desenvolveu uma doença mental, e depois se manifestou na filha, que esteve sob meus cuidados.</p>
 <h3>038 - A Transferência do Culto de Espíritos Búdicos para o Mundo Divino</h3>
 <p>Mesmo que o culto a um espírito do Mundo Búdico seja transferido para o Mundo Divino, ele não virá imediatamente. Não se sabe quantos anos isso levará. Alguns espíritos, inclusive, podem se enfurecer.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊祀篇 第一篇 ２ 026-038 祖霊供養 026 祖霊供養最良の道霊衣と正邪の戦 祖霊の供養は、坊さんを招んで拝むのもお寺で拝むのも供養になる。<br/><br/> 観音様―光明如来様をお祭りする時、祖霊も一緒に祀るのも供養だが、多くの人を助ける。<br/><br/>これが一番供養である。<br/><br/>親孝行は死んでからの方が大きい。<br/><br/>子孫が徳を積むと大きく祖霊は救われる。<br/><br/>信仰して、神仏を拝むだけでは大した利益はない。<br/><br/>神仏の目的は一人でも多く救う。<br/><br/>幸福にする事である。<br/><br/>宗教行為主義で、行為に表わさなかったら宗教の価値はない。<br/><br/> 救われた人が感謝する。<br/><br/>それが来るのが大変なものである。<br/><br/>円い円光があるが、仏の持っている光を、も一つ多くの人の感謝が集って大きな光となる。<br/><br/>人間は霊衣を持っており、それが厚くなるほどいい。<br/><br/>厚くする程仕合せになる。<br/><br/>不仕合せの時など殆どなくなる。<br/><br/>霊衣を厚くするには多くの人を幸福を受ける状態に導く。<br/><br/>すると感謝する、すると光になってくるから霊衣が厚くなる。<br/><br/>霊衣が厚くなると悪い霊が憑れぬ。<br/><br/>邪霊が憑るには憑るだけの状態にある。<br/><br/>特に狐など霊衣に光があれば憑れぬ。<br/><br/> 邪神と正神との戦は、光の戦いである。<br/><br/>神は光を発揮しようとされ、邪神は光を遮ろうとする。<br/><br/>光明如来様は、光の仏様であるから邪霊が恐がる。<br/><br/>光明如来の文字から光が出る。<br/><br/>光が出ると全体の霊界が明るくなる故にお掛軸をかけると、どことなく明るくなる。<br/><br/>掛ってない家に行くと何となく暗い。<br/><br/>信仰者の作物がよく出来るのは、その田地全体が光となる。<br/><br/>光には、熱が加わる。<br/><br/>これは暖い熱とも違う。<br/><br/>あついのは熱の体である。<br/><br/>少し温いのは熱の霊である。<br/><br/> 故に、熱の霊がゆくから、害虫なく作物も育ちよいのである。<br/><br/> 曇っている所は、虫が沸き易い。<br/><br/> この信仰は、科学的に説明が出来る。<br/><br/>（S23） 027 御奉斎と祖霊 二年前腎臓結核でお救い戴きました信者で御座いますが、その後三回も死ぬ程の御浄化をお救い戴いております。<br/><br/>その間に御屏風観音様をお祀りし、お位牌もととのえました。<br/><br/>最近また御浄化がはげしく息ぎれ呼吸切迫で身動きも出来ぬようになりました。<br/><br/>第八問の御質問の老夫婦の例を聞いておりますので、過去帳をしまってあるのではないかと尋ねますと、その瀕死の病人が苦しげに、頭で仏壇の方を示しながらしまってある。<br/><br/>過去帳を祀ってほしいと申すので御座います。<br/><br/>早速その過去帳を出しておまいり致しますと、スーッと楽になって間もなく息を引きとりました。<br/><br/>この過去帳はお位牌を作りました時、おことわりもせずにしまった由で御座いますが、今後いかように取扱いましたら宜しゅう御座いましょうか。<br/><br/>お伺い申し上げます。<br/><br/> 光明如来様をお祭りしてないといけない。<br/><br/>その家の霊界が明るくなれば位牌だけでよい。<br/><br/>でないと祖霊も迷う。<br/><br/>（S25. 3.22） 028 祖先救わるる道 特に救わんとせずとも徳積めば救われる。<br/><br/> （目蓮上人の例） 自分自身より主とした所は他人であり、世界人類で自国さえよくなればよいというこれも間違いである。<br/><br/> 029 地獄のわが子救うには 私の弟は中学四年の時、学徒通年動員として軍需工場に入りましたが、昭和二十年四月十二日Ｂ29の大空襲に際し、爆弾の破片が腹部に入りたるまま一昼夜苦しみ、遂に死亡致しました。<br/><br/> 地獄に落ちていると言われるこの霊を救う方法をお教え願います。<br/><br/> 一生懸命徳を積めば助かる。<br/><br/>自分の子を救うためには、他人を救うべきで、利他愛が大切である。<br/><br/>大乗で行く。<br/><br/> 目蓮尊者。<br/><br/>（S24. 8.16） 030 法事、年忌の繰延べ 死人が出来ました時に日取を宵取りと申しまして一日前の日から計算致されますがいかなる訳で御座いましょうか。<br/><br/>また法事年忌等は繰上げはよいが繰延べてはいけないと申し、御祝はその逆を申しますがいかなる訳で御座いましょうか。<br/><br/> 死人は霊であるから、霊を扱うのであるから、霊は一日前位に脱けるものであるから、それでそんな仕来りをつくったものであろう。<br/><br/>繰延べは絶対出来ない。<br/><br/>霊は年忌や法要を待っている。<br/><br/>決った時にやらぬと規（きま）りが乱れる。<br/><br/>そして無期延期みたいになってしまう。<br/><br/>無期延期になると、来年か五、六年後まで待たなくてはならぬ事になる。<br/><br/>早いのは構わぬ。<br/><br/>御祝は体の方であるから逆にする。<br/><br/>しかし逆でなくていい。<br/><br/>やはり早くていい。<br/><br/>これは遠慮する気持もあろう。<br/><br/>（S24. 6.22） 031 変更は断るべきである 私の家では日に三度仏壇に供物を上げておりましたが、ある日お昼を一回だけ抜かしましたところ、その夜半三才の長男が気ちがいのように叫び、いか程あやしても何の効果も御座いませんでした。<br/><br/>身体にも異常は御座いませんでした。<br/><br/>仏壇に三度三度の供物が荷になりますが、やはりこれは続けるべきで御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> これはお断りすればよい。<br/><br/>だまってしたからで、黙ってやるのは違反であるから気付かしたのである。<br/><br/>朝だけ一度だけでよい。<br/><br/>「これから朝だけにする」と、大先生の御命令という事は絶対いけないが（あれは軍隊語であり信仰のそれでない）御注意でとか思召しで一回にすると言って断る。<br/><br/>（S24. 8.12） 032 長男が祀るべし 私の父母現存、私も父も長男です。<br/><br/>父方の先祖は、父の弟（五男）が祀り、母方（長兄の子現存）の先祖は私が祀っております。<br/><br/>私の家内中に浄霊で中々解決せぬ病人続出。<br/><br/>前記に関係があるものでしょうか。<br/><br/>いかなる処置をすればよろしいか。<br/><br/>御伺い致します。<br/><br/> 長男が祀るのが本当である。<br/><br/>祀らぬからである。<br/><br/> 祖先は一軒でもよけい祀るほどよい。<br/><br/> 033 位牌のみの祀り 入信二ケ月の信者ですが、子供二人を亡くしておりまして、郷里で祖母がお祀りしており、夫婦は都会に出て来て、会社の寮の一室を借りて生活していますが、そのような場合お仏壇なしでお屏風観音様を頂き、お位牌だけでお祀りしても宜敷いでしょうか。<br/><br/>お位牌は「先祖代々の霊」と子供達二人のは一つにしても宜敷いでしょうか。<br/><br/>御伺い致します。<br/><br/> また仏壇を買うとしましたら、おりん、花立、線香立、御掛軸等これまでの仏式の通りにしなければいけないでしょうか。<br/><br/>お伺い致します。<br/><br/> 仏壇がなくてはいけない。<br/><br/>人間と同じ事で野天では住めない。<br/><br/>（S25. 4.17） 034 他宗霊の祀り総説 仏教の家庭が二、三代前から宗派神道に改宗し、今回更にこのお道に入信した場合、祖霊の祭り方はどう致すのが正しいので御座いましょうか。<br/><br/>御教えを御願いいたします。<br/><br/> 神道に改宗しても、祖霊はすぐに改宗するはずがない。<br/><br/>未だ仏界にいて、その中のいくらかは神道へ入るのもいる。<br/><br/> 仏壇など改宗すると非常に怒る。<br/><br/>それで災難やなどが起る。<br/><br/>であるから改宗しても仏はそのままにしておく。<br/><br/>自分だけが改宗する外はない。<br/><br/> 観音様は何派でもよい。<br/><br/>すべてに共通している。<br/><br/>これは何教の霊でも喜ぶ。<br/><br/> 両宗派のある場合は、両方へ別々に屏風様を祀るとよい。<br/><br/> キリスト教へ入ると、祖先の礼拝をやめるので非常に怒る。<br/><br/> 神道の人も観音様を拝んでもよいが神社神道は延喜式で祭る。<br/><br/>大体、産土の神がその御用をする事になる。<br/><br/> 宗派神道は、教祖が一つの範囲を作って救う。<br/><br/> 今迄の神社の祭神の神名は本当のものではない。<br/><br/>代理のようなものであるが、その名前で、その神社のやり方でよい。<br/><br/> 今迄は仏界でした。<br/><br/>そして神道は殆ど存在さえ認められなかった。<br/><br/>今度は仏界が消滅し、神道が確立する。<br/><br/> キリスト教で死んだ霊は、仏教で祀る要はない。<br/><br/>霊の希望による。<br/><br/>俗名○○の霊でよい。<br/><br/>祖先の中へ入れてよい。<br/><br/> こういう点は、今はっきり出来ぬ。<br/><br/>将来世界的になるといいが、今一般的に種々になっている。<br/><br/>それが宗派に現われる。<br/><br/>（S23. 8.21） 035 仏滅後の祀り方 現界の仏滅後、祖霊の祀り方について。<br/><br/> 仏滅になった時に話す。<br/><br/>（S24. 8. 9） 036 宗旨替えと祖霊への影響 宗旨変えをしました場合、祖先の霊にいかなる影響を及ぼすものでございましょうか。<br/><br/> 仏教同志では大した事はないが、仏教から神道へ替えるのは大分違う。<br/><br/>特にキリスト教は余程ちがう。<br/><br/>軽々しくは出来ない。<br/><br/>不賛成の祖先が多いから変えてから怒る。<br/><br/> 以前祖先が怒って娘に憑り、裸になって大暴れしたのがあった。<br/><br/>治療で治って子供まで出来た。<br/><br/>これは先祖が大本教を嫌がり、それに狐が憑って母親を意見した。<br/><br/>故に自分だけがその宗派をするのが間違いない。<br/><br/> 霊でも生きた人間と同じ事である。<br/><br/>（S24. 2. 4） 037 仏界霊は神界へ行くか 仏を祭らず神だけ祭る宗教があります。<br/><br/>そういう家の霊は、死んで直ぐ神界へ行けるのですか。<br/><br/>またそういう家で死んだ者の霊が憑依した時、どういうように霊を祭ったら宜敷いか。<br/><br/> 勿論戒名がありません。<br/><br/> 御教え下さい。<br/><br/> 仏界で祀られた霊はすぐに神様の所へ来ない。<br/><br/>何年先になると判らない。<br/><br/>ひどいのになると仏壇を壊すのがある。<br/><br/> 以前大本信者でそんなのがあった。<br/><br/>父親に憑いて精神病に――そしてまた娘に憑いた。<br/><br/>（私の家におった）（S24. 2.27） 038 仏霊神界への祀替え 仏界の霊は神界へ祀ってもすぐ来ない。<br/><br/>何年先か判らない。<br/><br/>あるいは中には怒るのもある。<br/><br/>（S23）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

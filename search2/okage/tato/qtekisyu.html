@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qtekisyu</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 摘出の腎臓結核、脳膜炎で 死の一歩前より救わる 『結核信仰療法』昭和27(1952)年12月1日発行 北海道 旭光中教会 三佐川文子（31） （二十六年三月十六日提出） 謹みて御利益戴きました事を御報告申し上げますと共に御礼申し上げます。<br><br> 私は本年二月入信させて戴いた者でございますが、昭和二十一年六月三十一日結核性急性腎臓炎にかかり、早速入院、切開手術を行い、左腎臓を摘出致しました。<br><br>七月十日退院致しまして、その後、何事もなく暮しておりましたが、二十四年四月長女の産後六カ月目頃より放尿後膀胱が痛み、尿に膿がまじり、気持の悪い毎日を過し、家庭にて漢方薬を服用しておりましたが、四カ月目の二十五年二月、再び市立病院に通院する身となり、服薬注射等を行いましたがはかばかしくなく、同年十二月個人病院に変り、ペニシリン、マイシン等を行うようになり、膀胱の痛みは止り、尿の膿も止りましたが、その時には既に肺門が悪化していると言われ、医師の言われるままに治療を受けておりました。<br><br>丁度その頃長男義郎も中耳炎が再発致しまして、共に病院通いをしており、一家に二人の病人にてその費用も大変なものでした。<br><br>長男は三歳の時麻疹にかかり、その後中耳炎にて国立病院に入院し、その時は大した日数もかからず全治致しました。<br><br>一年半ばかりはよかったのですが、その後風邪を引く度に中耳炎をおこし、膿が出ます。<br><br>注射をすれば一時止りますが、又風邪を引き膿が出、又注射と言う工合でおりました。<br><br>二十五年十二月たまたま風邪を引き、今度は今までになく頭が痛いと言い出し、膿は止まる事なく出ます。<br><br>やはりペニシリン等を行いましたが頭痛は去らず、本年二月初め、私の親戚に当る酒井方に、病院の帰りに立寄りましたところ、救世教の先生が来ておられるから、二階に上って話でも聞くようにすすめられました。<br><br>前にも一度立寄った時、少し聞かされたのですがその時は大して関心をもたずにいました。<br><br>疑ってもいいのだからと勧められ、二階に上りました。<br><br>そうして先生のお話をききましたが、手を翳しただけで病気が治るとは信じられませんでした。<br><br>親戚の者も「まあ一度御浄霊をしてもらったら」と勧めてくれましたので、ものはためしと言う事もあり、先生が「現在、あなたが肺門が痛いとおっしゃるのだから、ちょっと後を向いて見なさい」と言われ、私の背中で三分ばかり手を翳して下さいました時、今まで右肩から肺門の周辺が痛かったのが、痛みが止まりましたのに不思議を感じ、そうして先生が色々と光明如来様の有難いお話をして下さり、そして病気は浄化作用であり、有難い神の恵みであるとおきかせ下さいましたので、その日から私も子供も御浄霊をおねがいするようになりました。<br><br>苦しかった肺門の痛みは三回の御浄霊で取れ、子供の頭痛も三回程で治りました。<br><br>病院に通っておりまして、ペニシリン、マイシン等を行っていた時は濁ってなかった尿も、御浄霊を受けたその日より、又膿が出るようになりました。<br><br>その時も先生は「薬はかためるのだし、御浄霊はとかして出すのだから、少しも心配はありません」と言われ毎日御浄霊を受けておりますうち、日毎に元気づき、今まで重い物も持つ事も出来ず、長女が生れて一度もおんぶした事のないのが、四月に中教会にて御祭がありました折、おんぶしてお祭に行けるようにさせて戴き、長男も毎日元気に学校に通わせて頂く事が出来ました。<br><br>最初私と長男が入信させて戴き、次に夫も入信させて戴き、家には光明如来様も御奉斎させて戴きました。<br><br>七月二十八日には一家揃って海水浴に参りましたが、昨年一昨年に引替えて、一家揃って海水浴にまで行けるまで御利益戴きました事のこの喜びは筆舌には尽されません。<br><br> 明主様有難うございました。<br><br>この上は私も神の僕となり一人でも多くの人にこのお道の有難い事をお話し、地上天国建設のお役に立ちたいと思っております。<br><br>拙なき筆もてここに御報告し御礼申し上げます。<br><br> （二十六年九月一日提出）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Salva da iminência da morte por tuberculose renal e meningite</h2>
 <p>Publicado em "A Terapia da Fé para a Tuberculose", 1º de dezembro de 1952
@@ -103,5 +258,48 @@ Fumiko Misasagawa (31 anos), Igreja Kyokko-Tyu, Hokkaido
 <p>Meishu-Sama, muito obrigada.</p>
 <p>Doravante, desejo me tornar uma serva de Deus, compartilhar a grandiosidade deste sagrado caminho com o maior número possível de pessoas e, assim, ser útil na Obra de construção do Paraíso Terrestre. Com estas linhas singelas, encerro meu relato e reitero minha mais profunda gratidão.</p>
 <p>(Relato enviado em 1º de setembro de 1951)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 摘出の腎臓結核、脳膜炎で 死の一歩前より救わる 『結核信仰療法』昭和27(1952)年12月1日発行 北海道 旭光中教会 三佐川文子（31） （二十六年三月十六日提出） 謹みて御利益戴きました事を御報告申し上げますと共に御礼申し上げます。<br/><br/> 私は本年二月入信させて戴いた者でございますが、昭和二十一年六月三十一日結核性急性腎臓炎にかかり、早速入院、切開手術を行い、左腎臓を摘出致しました。<br/><br/>七月十日退院致しまして、その後、何事もなく暮しておりましたが、二十四年四月長女の産後六カ月目頃より放尿後膀胱が痛み、尿に膿がまじり、気持の悪い毎日を過し、家庭にて漢方薬を服用しておりましたが、四カ月目の二十五年二月、再び市立病院に通院する身となり、服薬注射等を行いましたがはかばかしくなく、同年十二月個人病院に変り、ペニシリン、マイシン等を行うようになり、膀胱の痛みは止り、尿の膿も止りましたが、その時には既に肺門が悪化していると言われ、医師の言われるままに治療を受けておりました。<br/><br/>丁度その頃長男義郎も中耳炎が再発致しまして、共に病院通いをしており、一家に二人の病人にてその費用も大変なものでした。<br/><br/>長男は三歳の時麻疹にかかり、その後中耳炎にて国立病院に入院し、その時は大した日数もかからず全治致しました。<br/><br/>一年半ばかりはよかったのですが、その後風邪を引く度に中耳炎をおこし、膿が出ます。<br/><br/>注射をすれば一時止りますが、又風邪を引き膿が出、又注射と言う工合でおりました。<br/><br/>二十五年十二月たまたま風邪を引き、今度は今までになく頭が痛いと言い出し、膿は止まる事なく出ます。<br/><br/>やはりペニシリン等を行いましたが頭痛は去らず、本年二月初め、私の親戚に当る酒井方に、病院の帰りに立寄りましたところ、救世教の先生が来ておられるから、二階に上って話でも聞くようにすすめられました。<br/><br/>前にも一度立寄った時、少し聞かされたのですがその時は大して関心をもたずにいました。<br/><br/>疑ってもいいのだからと勧められ、二階に上りました。<br/><br/>そうして先生のお話をききましたが、手を翳しただけで病気が治るとは信じられませんでした。<br/><br/>親戚の者も「まあ一度御浄霊をしてもらったら」と勧めてくれましたので、ものはためしと言う事もあり、先生が「現在、あなたが肺門が痛いとおっしゃるのだから、ちょっと後を向いて見なさい」と言われ、私の背中で三分ばかり手を翳して下さいました時、今まで右肩から肺門の周辺が痛かったのが、痛みが止まりましたのに不思議を感じ、そうして先生が色々と光明如来様の有難いお話をして下さり、そして病気は浄化作用であり、有難い神の恵みであるとおきかせ下さいましたので、その日から私も子供も御浄霊をおねがいするようになりました。<br/><br/>苦しかった肺門の痛みは三回の御浄霊で取れ、子供の頭痛も三回程で治りました。<br/><br/>病院に通っておりまして、ペニシリン、マイシン等を行っていた時は濁ってなかった尿も、御浄霊を受けたその日より、又膿が出るようになりました。<br/><br/>その時も先生は「薬はかためるのだし、御浄霊はとかして出すのだから、少しも心配はありません」と言われ毎日御浄霊を受けておりますうち、日毎に元気づき、今まで重い物も持つ事も出来ず、長女が生れて一度もおんぶした事のないのが、四月に中教会にて御祭がありました折、おんぶしてお祭に行けるようにさせて戴き、長男も毎日元気に学校に通わせて頂く事が出来ました。<br/><br/>最初私と長男が入信させて戴き、次に夫も入信させて戴き、家には光明如来様も御奉斎させて戴きました。<br/><br/>七月二十八日には一家揃って海水浴に参りましたが、昨年一昨年に引替えて、一家揃って海水浴にまで行けるまで御利益戴きました事のこの喜びは筆舌には尽されません。<br/><br/> 明主様有難うございました。<br/><br/>この上は私も神の僕となり一人でも多くの人にこのお道の有難い事をお話し、地上天国建設のお役に立ちたいと思っております。<br/><br/>拙なき筆もてここに御報告し御礼申し上げます。<br/><br/> （二十六年九月一日提出）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

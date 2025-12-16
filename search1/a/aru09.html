@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>aru09</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 或記事 『明日の医術 第二編』昭和18(1943)年10月5日発行 次に今一つ付録として 桜沢如一（さくらざわじょいち）氏著、成史書院昭和十六年十月五日発行の、題名「日本を亡ぼすものはたれだ」の中に「西洋医学の現状」という項目があり、なかなか面白いと思うから、ここに抜載（ばっさい）する事にした。<br><br> 十八世紀に旭日昇天の勢を以て発達し、十九世紀末葉にその全盛を極めた西洋医学は、その切支丹伴天連（キリシタンバテレン）的テクニック――即ち顕微鏡とメスと、麻酔剤と血清や光線のごとき薬物、物理療法――を以てすっかり欧米全体の大衆を籠絡（ろうらく）し瞞着（まんちゃく）した。<br><br>開国と同時にこの西洋医学に馳せつけた日本人は、その生来の徹底的没頭を好む精神からこの眩惑すべき医術に深入りする事に人後に落ちなかった。<br><br>それが為には、数千年来の伝統を直ちに放棄し、これを再吟味さえ惜（おし）んだものである。<br><br> しかるに西洋では二十世紀に入るや、すでにこの分析的な西洋医学の功過漸（ようや）く明かとなり殊に欧州大戦において西洋科学文明理想幻滅の悲痛を味い、不安の深淵に沈んだ人々は更に不治病の増加と死亡平均年齢低下の脅威の為に、科学の仮面をつけた医学に対しても信頼を失ってしまった。<br><br>実際のところ私の寡聞（かぶん）の範囲ではあるが、欧州知識階級で、今日なおいわゆる西洋医学を信頼する人々を私はほとんど知らないのである。<br><br>それを裏書する事実を例示する事は最も容易な事である。<br><br>――これはドクトル・アランジー氏の明言せるごとく、西洋文明国における今日の医師は患者の御用聞きであってあるいは繃帯（ほうたい）をしたり、手術をしたりする一種の労働者であるか、あるいは精神病院という実は牢獄兼下宿の番人であるか、あるいは色々な証明書例えば労働不能、糞便検査、死亡証明等――の署名を専門とする一種の代書業者として漸く生活の保証を得ているのである。<br><br>医術を職業にまで低下せしめた医師は一種の社会的寄生虫であるが、その病人への寄生生活も、もう行き詰ってしまった。<br><br> 又一九二九年以来毎年、私は仏国医師会会長が全国中等学校卒業生に一々通信を以って医者となる事を断念する様に諌告（かんこく）しているのを知っている。<br><br>それによれば、仏国はも早医者で充ちている。<br><br>即ち人口千五百人に対し一人の医者がいる。<br><br>この統計的数字的事実は、医者の生活安定を、その恒産によって保証され、医術を以って世に貢献奉仕し、何ら報酬給付を目的としない者でない限り、医家志望は断然中止して欲しい、というのである。<br><br>アランジー氏の言うごとく、実際西洋医学及び医者は名誉を失いその上信用をも失い、遂にパンをさえも失ってしまっているのである。<br><br>非医学、非医者の流行は日を追って進み綜合医学はその先頭に立っているのである。<br><br>これがフランス人のみでなく、欧米全体である事は「西洋医学の新傾向」で了解されよう。<br><br>かくのごとき実際を日本人が、まだ知らないのは一見、はなはだ可笑（おか）しく信じ難い様であるが、それには訳がある。<br><br>即ち日本人はまだ西洋を知らない。<br><br>まだ切支丹伴天連奇術に眩惑されているのである。<br><br>そして明治開国以来七十年一日のごとく、その眩惑的奇術的方法――メス、光線、顕微鏡、麻酔剤、電気、磁気、あるいは新しい薬物等の無限の新手法をのみ求める為にこそ、年々莫大な費用をかけている。<br><br>彼らは一度西洋に渡るや、追々影のうすれて行く西洋医学の研究に没頭して、広々とした西洋の天地を眺める様なことはしない。<br><br>大家になった教授達が派遣される時は、勿論、昔馴じみの畑ばかり見て来る。<br><br> しかし断っておきたい事は私が西洋医学や医者を非難しようとは夢にも思っていない事である。<br><br>彼らはそれを、よし教授にもせよ開業医にもせよ、職業――パンの為に――しているのであるから、余剰価値を搾取（さくしゅ）する人々や、他人のＸを盗む人々が許されている様に、この寛大な娑婆世界では更に非難すべきでない。<br><br>たゞ同じパンを求めるにも、他人の罪悪や病気のおかげでパンを得たり、人類全体を病弱と享楽によって（医薬により自然淘汰機構を害し）破滅の淵に陥入れる様な罪業を積まねばならない人々は、パンの為に海に漁り、山に鳥獣を狩り、生類の生命を断つ様な生業をせねばならない人々よりも、もっと気の毒な籤（くじ）を引いたものだと思うだけである。<br><br>他人の財を盗んで自分を直ぐ罪に晒（さら）さねばならない様な境遇の人々の方がよほど罪は軽小である。<br><br>と思うだけである。<br><br>と云っても、医者に苦しめられる人々を気の毒だなどと云う様な事も夢にも思うべきでない。<br><br>彼らが医者に搾取されるのは（財にもせよ、生命にもせよ）ちょうどベラ棒が泥棒におけるごとき関係を持っている。<br><br>彼らが医者を作るのであるという点から云えば、彼らの罪が重い。<br><br>しかし、彼らが苦しめられるのであるから、その罪はいくらか、償（つぐな）われているとも云えよう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Realidade da Medicina Ocidental</h2>
 <p>A seguir, a título de apêndice, transcrevo um trecho que considero de grande interesse. Trata-se do capítulo “A Realidade da Medicina Ocidental”, extraído do livro “Quem Destruirá o Japão?”, de autoria do Sr. Yukikazu Sakurazawa (桜沢如一), publicado pela editora Seishi Shoin em 5 de outubro de 1941.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>O fato de os japoneses ainda ignorarem tal realidade pode parecer, à primeira vista, extremamente peculiar e inacreditável, mas há uma explicação para isso. Em suma, os japoneses ainda não conhecem o Ocidente. Continuam ofuscados pela prestidigitação dos antigos missionários. E, assim como o fizeram por setenta anos desde a abertura do país na Era Meiji, investem anualmente somas vultosas na busca incessante por esses métodos mágicos e fascinantes — o bisturi, a radiação, o microscópio, os anestésicos, a eletricidade, o magnetismo e uma infinidade de novos medicamentos. Quando viajam ao Ocidente, eles se entregam de corpo e alma à pesquisa de uma medicina ocidental que já perde o seu brilho, sem jamais levantar os olhos para contemplar o vasto horizonte do mundo ocidental. E quando os professores renomados são enviados, naturalmente, inspecionam apenas os campos que lhes são familiares.</p>
 <p>Desejo esclarecer, contudo, que nem em sonho pretendo criticar a medicina ocidental ou os médicos. Seja como professores ou clínicos, eles exercem um ofício — fazem-no pelo pão de cada dia — e, portanto, não devem ser mais condenados do que aqueles que exploram a mais-valia alheia ou os que se apropriam do que não lhes pertence, pois este mundo é de grande tolerância. Apenas penso que, na busca pelo mesmo sustento, aqueles que precisam acumular o carma de levar a humanidade à beira da ruína, lucrando com os pecados e as doenças alheias (e prejudicando o mecanismo de seleção natural com seus medicamentos), tiveram um sorteio mais desafortunado na vida do que aqueles que, para sobreviver, precisam pescar nos mares ou caçar nas montanhas, ceifando a vida de outras criaturas. A meu ver, o delito daqueles que, ao roubarem os bens alheios, expõem-se imediatamente à punição, é consideravelmente menor.</p>
 <p>Ainda assim, não se deve, nem em sonho, pensar em ter pena das pessoas que sofrem nas mãos dos médicos. A relação entre eles e os médicos que os exploram (seja de seus bens, seja de sua vida) é análoga à do tolo com o ladrão. Sob a perspectiva de que são eles que criam os médicos, seu pecado é mais grave. Contudo, como são eles que padecem, pode-se dizer que, através de seu sofrimento, o pecado é, de alguma forma, redimido.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 或記事 『明日の医術 第二編』昭和18(1943)年10月5日発行 次に今一つ付録として 桜沢如一（さくらざわじょいち）氏著、成史書院昭和十六年十月五日発行の、題名「日本を亡ぼすものはたれだ」の中に「西洋医学の現状」という項目があり、なかなか面白いと思うから、ここに抜載（ばっさい）する事にした。<br/><br/> 十八世紀に旭日昇天の勢を以て発達し、十九世紀末葉にその全盛を極めた西洋医学は、その切支丹伴天連（キリシタンバテレン）的テクニック――即ち顕微鏡とメスと、麻酔剤と血清や光線のごとき薬物、物理療法――を以てすっかり欧米全体の大衆を籠絡（ろうらく）し瞞着（まんちゃく）した。<br/><br/>開国と同時にこの西洋医学に馳せつけた日本人は、その生来の徹底的没頭を好む精神からこの眩惑すべき医術に深入りする事に人後に落ちなかった。<br/><br/>それが為には、数千年来の伝統を直ちに放棄し、これを再吟味さえ惜（おし）んだものである。<br/><br/> しかるに西洋では二十世紀に入るや、すでにこの分析的な西洋医学の功過漸（ようや）く明かとなり殊に欧州大戦において西洋科学文明理想幻滅の悲痛を味い、不安の深淵に沈んだ人々は更に不治病の増加と死亡平均年齢低下の脅威の為に、科学の仮面をつけた医学に対しても信頼を失ってしまった。<br/><br/>実際のところ私の寡聞（かぶん）の範囲ではあるが、欧州知識階級で、今日なおいわゆる西洋医学を信頼する人々を私はほとんど知らないのである。<br/><br/>それを裏書する事実を例示する事は最も容易な事である。<br/><br/>――これはドクトル・アランジー氏の明言せるごとく、西洋文明国における今日の医師は患者の御用聞きであってあるいは繃帯（ほうたい）をしたり、手術をしたりする一種の労働者であるか、あるいは精神病院という実は牢獄兼下宿の番人であるか、あるいは色々な証明書例えば労働不能、糞便検査、死亡証明等――の署名を専門とする一種の代書業者として漸く生活の保証を得ているのである。<br/><br/>医術を職業にまで低下せしめた医師は一種の社会的寄生虫であるが、その病人への寄生生活も、もう行き詰ってしまった。<br/><br/> 又一九二九年以来毎年、私は仏国医師会会長が全国中等学校卒業生に一々通信を以って医者となる事を断念する様に諌告（かんこく）しているのを知っている。<br/><br/>それによれば、仏国はも早医者で充ちている。<br/><br/>即ち人口千五百人に対し一人の医者がいる。<br/><br/>この統計的数字的事実は、医者の生活安定を、その恒産によって保証され、医術を以って世に貢献奉仕し、何ら報酬給付を目的としない者でない限り、医家志望は断然中止して欲しい、というのである。<br/><br/>アランジー氏の言うごとく、実際西洋医学及び医者は名誉を失いその上信用をも失い、遂にパンをさえも失ってしまっているのである。<br/><br/>非医学、非医者の流行は日を追って進み綜合医学はその先頭に立っているのである。<br/><br/>これがフランス人のみでなく、欧米全体である事は「西洋医学の新傾向」で了解されよう。<br/><br/>かくのごとき実際を日本人が、まだ知らないのは一見、はなはだ可笑（おか）しく信じ難い様であるが、それには訳がある。<br/><br/>即ち日本人はまだ西洋を知らない。<br/><br/>まだ切支丹伴天連奇術に眩惑されているのである。<br/><br/>そして明治開国以来七十年一日のごとく、その眩惑的奇術的方法――メス、光線、顕微鏡、麻酔剤、電気、磁気、あるいは新しい薬物等の無限の新手法をのみ求める為にこそ、年々莫大な費用をかけている。<br/><br/>彼らは一度西洋に渡るや、追々影のうすれて行く西洋医学の研究に没頭して、広々とした西洋の天地を眺める様なことはしない。<br/><br/>大家になった教授達が派遣される時は、勿論、昔馴じみの畑ばかり見て来る。<br/><br/> しかし断っておきたい事は私が西洋医学や医者を非難しようとは夢にも思っていない事である。<br/><br/>彼らはそれを、よし教授にもせよ開業医にもせよ、職業――パンの為に――しているのであるから、余剰価値を搾取（さくしゅ）する人々や、他人のＸを盗む人々が許されている様に、この寛大な娑婆世界では更に非難すべきでない。<br/><br/>たゞ同じパンを求めるにも、他人の罪悪や病気のおかげでパンを得たり、人類全体を病弱と享楽によって（医薬により自然淘汰機構を害し）破滅の淵に陥入れる様な罪業を積まねばならない人々は、パンの為に海に漁り、山に鳥獣を狩り、生類の生命を断つ様な生業をせねばならない人々よりも、もっと気の毒な籤（くじ）を引いたものだと思うだけである。<br/><br/>他人の財を盗んで自分を直ぐ罪に晒（さら）さねばならない様な境遇の人々の方がよほど罪は軽小である。<br/><br/>と思うだけである。<br/><br/>と云っても、医者に苦しめられる人々を気の毒だなどと云う様な事も夢にも思うべきでない。<br/><br/>彼らが医者に搾取されるのは（財にもせよ、生命にもせよ）ちょうどベラ棒が泥棒におけるごとき関係を持っている。<br/><br/>彼らが医者を作るのであるという点から云えば、彼らの罪が重い。<br/><br/>しかし、彼らが苦しめられるのであるから、その罪はいくらか、償（つぐな）われているとも云えよう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

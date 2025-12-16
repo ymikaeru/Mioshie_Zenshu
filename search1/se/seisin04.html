@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>seisin04</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 精神病 『アメリカを救う』P.55、昭和28(1953)年1月1日発行 この病気の原因は不眠症からであって、不眠が長く続くと危険である。<br><br>まず不眠の原因からかいてみるが、これは前頭部の脳貧血のためであって、初め延髄部に薬毒が固結し、頭部に送血される血管を圧迫するからで、患者の延髄部を見れば必ず固結があるからよく分る。<br><br>何よりも眠れるようになれば、精神病は必ず治癒に向かうものである。<br><br>そうしてこの病気は物質的と精神的との両原因があって、前者は右の通りであるが、後者は霊的、宗教的であるから、そのつもりで読んで貰いたい。<br><br>これは長い間多くの患者を扱った経験によっても、いささかの誤はないのである。<br><br> さきにかいたごとく、人間は見えざる霊と見ゆる体との結合によって成立っており、前頭部が貧血するとその部分へ霊が憑り易くなる。<br><br>そうして霊の物質化が血液であり、血液の霊化が霊であるから、血液が充実していれば、霊も充実しているから霊は憑れないが、貧血すると憑れる事になる。<br><br>例えば血液の完全充実を十とすれば、貧血して九となれば一だけ憑れるし、二となり三となればその量だけ憑れると共に、それだけ活動力も増すのである。<br><br>それが四となり五となるまではまず無事だが、五を越えると危険区域に入る。<br><br>すなわち憑霊は支配的となるから、人間をほしいままに操る事が出来るので、こうなったのが精神病である。<br><br> そうして霊とはもちろん動物霊で、日本では狐、狸、天狗、蛇、犬、猫、牛、馬、鳥類その他であるが、米国でのそれは私はまだ研究はしていないが、大差はないと思う。<br><br>特に日本の精神病は狐霊が最も多く、狸霊がその次くらいである。<br><br>ここで注意すべきは頭脳の貧血状態は決して一定せず、一日の中、否一分間の中でも絶えず動揺増減している。<br><br>しかし普通人は平常二から三くらいであるが、非常に精神的衝撃を受けた場合、咄嗟（とっさ）に五を越す事がある。<br><br>そのため常軌を逸し、普段アレ程温和しい人がどうしてアンナ事をしたのか、という事があるがそれである。<br><br>女性のヒステリーもこの部類である。<br><br>また社会から尊敬を受けている人は、一から二くらいが常態であるが、こういう人でもたまたま思わぬ失言をしたり、失態を演ずる事もあるが、それは何らかの動機によって、一瞬三を越すからである。<br><br> 右によってみても、脱線をしたり犯罪を冒したりするのは、五を越え憑霊の意のままになり、動物的行為をするのである。<br><br>よく犯行後「自分はどうしてアノ時、アンナ気持になったのか」といって後悔する人があるが、それである。<br><br>もちろん自殺者も殺人も同様であるから、人間頭脳の貧血程恐ろしいものはないのである。<br><br>近来米国に精神病が多いのは、全く薬毒の固結が脳の血管を圧迫するからで、薬さえ廃止すればこの病気の無くなるのは当然である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Anemia Cerebral e a Possessão Espiritual</h2>
 <p>A gênese desta enfermidade reside na insônia, e a persistência desta condição por longos períodos representa um grave perigo. Para elucidar as causas da insônia, cumpre explicar que ela se origina de uma anemia cerebral na região frontal. Tal condição, por sua vez, decorre primordialmente da solidificação de toxinas medicinais na medula oblonga, as quais comprimem os vasos sanguíneos que irrigam o cérebro. Uma simples observação na medula oblonga do paciente revelará invariavelmente a presença dessas solidificações. Acima de tudo, se a pessoa conseguir restabelecer o sono, a doença mental certamente entrará em processo de cura.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Indivíduos socialmente respeitados, por sua vez, mantêm-se normalmente entre os níveis um e dois. Contudo, mesmo essas pessoas podem, ocasionalmente, cometer gafes ou deslizes inesperados. Isso ocorre porque, por algum motivo, seu estado espiritual ultrapassa momentaneamente o nível três.</p>
 <p>Depreende-se do que foi dito que os descarrilamentos morais e atos criminosos ocorrem quando o indivíduo ultrapassa o nível cinco e se torna um joguete nas mãos do espírito possessor, passando a manifestar um comportamento animalesco. Isso elucida os casos de criminosos que, após o delito, se arrependem e questionam: “Como pude me sentir daquela forma naquele momento?”. O mesmo princípio se aplica tanto aos suicídios quanto aos homicídios. Fica evidente, portanto, que nada é mais temível do que a anemia no cérebro humano.</p>
 <p>A crescente incidência de doenças mentais nos Estados Unidos em tempos recentes deve-se exclusivamente à solidificação de toxinas medicinais que comprimem os vasos sanguíneos cerebrais. Consequentemente, é natural que, uma vez abolidos os medicamentos, esta enfermidade venha a desaparecer.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 精神病 『アメリカを救う』P.55、昭和28(1953)年1月1日発行 この病気の原因は不眠症からであって、不眠が長く続くと危険である。<br/><br/>まず不眠の原因からかいてみるが、これは前頭部の脳貧血のためであって、初め延髄部に薬毒が固結し、頭部に送血される血管を圧迫するからで、患者の延髄部を見れば必ず固結があるからよく分る。<br/><br/>何よりも眠れるようになれば、精神病は必ず治癒に向かうものである。<br/><br/>そうしてこの病気は物質的と精神的との両原因があって、前者は右の通りであるが、後者は霊的、宗教的であるから、そのつもりで読んで貰いたい。<br/><br/>これは長い間多くの患者を扱った経験によっても、いささかの誤はないのである。<br/><br/> さきにかいたごとく、人間は見えざる霊と見ゆる体との結合によって成立っており、前頭部が貧血するとその部分へ霊が憑り易くなる。<br/><br/>そうして霊の物質化が血液であり、血液の霊化が霊であるから、血液が充実していれば、霊も充実しているから霊は憑れないが、貧血すると憑れる事になる。<br/><br/>例えば血液の完全充実を十とすれば、貧血して九となれば一だけ憑れるし、二となり三となればその量だけ憑れると共に、それだけ活動力も増すのである。<br/><br/>それが四となり五となるまではまず無事だが、五を越えると危険区域に入る。<br/><br/>すなわち憑霊は支配的となるから、人間をほしいままに操る事が出来るので、こうなったのが精神病である。<br/><br/> そうして霊とはもちろん動物霊で、日本では狐、狸、天狗、蛇、犬、猫、牛、馬、鳥類その他であるが、米国でのそれは私はまだ研究はしていないが、大差はないと思う。<br/><br/>特に日本の精神病は狐霊が最も多く、狸霊がその次くらいである。<br/><br/>ここで注意すべきは頭脳の貧血状態は決して一定せず、一日の中、否一分間の中でも絶えず動揺増減している。<br/><br/>しかし普通人は平常二から三くらいであるが、非常に精神的衝撃を受けた場合、咄嗟（とっさ）に五を越す事がある。<br/><br/>そのため常軌を逸し、普段アレ程温和しい人がどうしてアンナ事をしたのか、という事があるがそれである。<br/><br/>女性のヒステリーもこの部類である。<br/><br/>また社会から尊敬を受けている人は、一から二くらいが常態であるが、こういう人でもたまたま思わぬ失言をしたり、失態を演ずる事もあるが、それは何らかの動機によって、一瞬三を越すからである。<br/><br/> 右によってみても、脱線をしたり犯罪を冒したりするのは、五を越え憑霊の意のままになり、動物的行為をするのである。<br/><br/>よく犯行後「自分はどうしてアノ時、アンナ気持になったのか」といって後悔する人があるが、それである。<br/><br/>もちろん自殺者も殺人も同様であるから、人間頭脳の貧血程恐ろしいものはないのである。<br/><br/>近来米国に精神病が多いのは、全く薬毒の固結が脳の血管を圧迫するからで、薬さえ廃止すればこの病気の無くなるのは当然である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

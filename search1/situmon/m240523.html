@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>M240523</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S24年5月23日） 『御光話録』10号、昭和24(1949)年7月10日発行 昭和二十四年五月二十三日 ――刺青を好む人がありますが、これは霊的に意味がありましょうか。<br><br>また、刺青をするのは神への冒涜と存じますがいかがでございましょうか。<br><br> 無論、冒涜になりますね。<br><br>霊的な意味はありませんよ。<br><br>こんなことをするのは未だ野蛮性が残っているんですね。<br><br>北海道のアイヌだとか台湾の生蕃だとかは顔へ刺青してますが、あれはいっそう野蛮ですよ。<br><br>……お灸だって神に対する冒涜ですよ、きれいな皮膚に火傷の跡をつけるんですからね、はなはだしい冒涜ですよ。<br><br> ――五六七をもって「ミロク」と読むことは大先生様が最初でございましょうか。<br><br> いや、これはお釈迦様が最初ですよ。<br><br>釈迦が「五十六億七千万年の後に弥勒になる」と言ったんですからね。<br><br>それからですよ。<br><br> ――大先生様が、五六七を火水土というふうに初めておおせられたのでしょうか。<br><br> いえ、大本教で言ったんですよ。<br><br>私も大本で教わったんです。<br><br>細かい解釈は私がつけたんですがね。<br><br>だから、五六七の数字を火水土としたのは大本で、あとの解釈は私がしたというわけです。<br><br> ――お道に入らせていただいて黴菌や蝿の存在の意義は判らせていただきましたが、蚤、虱（しらみ）などにも同様の意味があると存じてよろしいでしょうか。<br><br> 同様の意味でいいんです。<br><br>蚊だとか蚤だとかはみんな人間の毒血を吸うんですよ。<br><br>刺されたりするとそこに毒血が集まるんです。<br><br>だから本当は結構なんですが、ただ痺いんでね。<br><br>（笑声）私も以前は刺されるとよく赤く腫れましたが、疥癬をしてからなんともなくなりました。<br><br> それから「相応の理」なんで、汚い所には虫や微生物が湧くようにできてるんです。<br><br>これを大きく言うと、泥棒があるって言うのは、人間が汚れた財産や富を持っているから、それをなにかで取らなくちゃいけない、で、泥棒はその取る役目をしてるんです。<br><br>だからむしろ泥棒に感謝すべきです……しかし、こんなことを言うと泥棒を奨励してるみたいで、誤解を招くといけないからあまり言えませんがね。<br><br>（笑声） 悪人がはびこるのは、汚い所に害虫が発生するのと同じです。<br><br>悪人っていうのは人間の形をした害虫ですよ。<br><br>（笑声）きれいな心の人ばかりになれば悪人なんて出ませんよ。<br><br> また、人間には濁った血がたくさんあるんで濁った血を掃除するために呑み込むのが黴菌で、その黴菌を人間につけてくれるのが蝿ですからね。<br><br>蝿はたいへんいい役目をしてるんです。<br><br>だから私は蝿がいくらたかったってなんとも思いませんよ。<br><br>ちっとも気にしませんね。<br><br>うるさいからって追うほうがかえってうるさいですよ。<br><br>（笑声） ――支那に南京虫が多いとか言われますが、これはなぜでしょうか。<br><br> 汚いからですよ、皮膚だとか着てる着物が汚いからですよ。<br><br>だから清潔にするのが本当ですね。<br><br>黴菌がどうとかいう意味でなく、やはり清潔にしなくちゃいけませんよ、気持ちがいいですからね。<br><br>汚くても気にしないって言うのは、それだけ霊的に低いわけですよ。<br><br>無肥料栽培でやって、人糞を扱わず土をきれいにするっていうのは、だからごくいいんですよ。<br><br> ――紅卍字（こうまんじ）教の霊統、至聖先天老祖、扶■（フーチ）の術などについて御教示をお願い申し上げます。<br><br> 紅卍字教っていうのはいまから三、四十年前に、支那の済南の在方（ざいかた）に百姓みたいのがあって…… 支那って所では、ごく古い昔から丁の形をした棒を使い、それを人間が両方から持っていると、この先が自動的に動くんです。<br><br>「ミコ」っていう字は丁に人を二つ書いて、「巫」と書くでしょう。<br><br>これが古い時代にもあったんです。<br><br> それを三、四十年前に道教の信者がやったところ、棒が独りでに動いて字を書いたんですが、それからだんだん道院というのができ、やがて社会事業を始めて紅卍字会になったんですよ。<br><br>道院が霊で社会事業が体ですね。<br><br> で、ここでは四角い浅いお盆みたいなものに銀の砂をしいて、それを机の上に置き、その机の両側に人が棒を持って立つと、自動的に砂の上に字を書くんです。<br><br>これは神様が棒を持って書くんですよ。<br><br>両方の人が相談し合って書くって言ったって、そういうことはできないんで、持っているほうはほとんど動かずに、先だけが動くんですからね。<br><br>その前に、お経を上げるとかいろいろ儀式をやって、それからこれを始めるんです。<br><br>そして正面に神様の坐る席をこしらえ、香なんかを焚くんです。<br><br> で、これはその至聖先天老祖が書かれるんです。<br><br>これを直接書くのは、釈迦、キリスト、観音、弥勒、孔子、マホメット、舎利弗（しゃりほつ）っていうような偉い人や大宗教家が、この老祖様の言いつけで書くわけです。<br><br>傍に立っててそこに出た文字を書きとめる係りがあるんですが、そりゃあ、とても早いもんだそうです。<br><br>そのときは、「観世音菩薩、老祖の命により何々の教えを伝う」とか「釈迦如来、経文の誤りを訂正す」とか出てきて「どのお経のどこを訂正しろ」と言うんです。<br><br>また、キリストだと「老祖の命により今日イエス汝らに教う」というふうにいろいろ出てくるんです。<br><br>それから棒に筆がつけてあれば、絵を書いたり字を書いたりするんですよ。<br><br> 先に、「岡田茂吉」と書いて「浄」と書かれたのをもらったことがありましたがね、いま、私がやってる仕事は浄霊のように、みんな「浄」の仕事ですからね、あれは二十年ほど前ですが、もうちゃんとそのときには決まっていたわけですね。<br><br> この至聖先天老祖っていうのはエホバですね、日本でいえば国常立尊になるんです。<br><br>つまり最高の神様ですね。<br><br>……いまに紅卍字会と連絡するようになるはずですがね、ある時期がくるとこの扶■に出てくるんですよ。<br><br>まあ、来年か再来年でしょうかね。<br><br> ――妊娠四カ月以上で流産した場合はその霊を祀るようにとのお言葉でございましたが、知らずに数年経ってしまっている霊を新たにお祀りいたしますにはいかがいたしたらよろしいでしょうか。<br><br>戒名はやはりお寺で作っていただくべきでしょうか。<br><br> そうです、お寺へ頼んで戒名をつけてもらい、お葬式を簡単にやってもらって、小さい位牌をこしらえて、ふつうの死んだ人と同じように祀ればいいんです。<br><br> ――誤って御軸または小観音様を汚しました場合、いかがいたしたらよろしいでしょうか。<br><br> 汚したって、どういうふうに汚したんですか。<br><br> ――例えば、百合の花の花粉がついたりいたしました場合…… それはね、経師屋に頼んでとってもらえばいいですよ。<br><br>そのときにはお詫びしてね、こういうわけできれいにいたしますから、その間お許し願いたいってお断りしてやればいいです。<br><br> ――長男は必ず家を継ぐべきでしょうか。<br><br> 継がなくてもいいですよ。<br><br>昔、戦国時代に大将が討ち死にした場合、すぐ後釜を据えなければ一軍の士気に影響しましたからね。<br><br>それで長男をすぐに後継ぎにすることに決めてあったんです。<br><br>いまもその習慣が残っているんですから、必ずそうしなければいかんということはありませんよ。<br><br>しかしなにも特別の理由がなければ長男が継ぐのが本当ですね。<br><br>事情があって長男じゃ具合が悪いっていうんならいいですがね。<br><br>それからまた、長男が自分から相続の権利を放棄することもありますからね。<br><br>例えば非常な劇しい恋愛関係があって、どうしても一緒になりたいのに、女のほうが長女で一人娘だったら、女の家のほうでは養子に欲しいですからね。<br><br>そのときに男のほうが養子でもなんでもいいから恋しい女と一緒になりたいっていう場合には、その長男が養子に行って次男が後を継げばいいですよ。<br><br>なにも、どうしても長男が後を継がねばいかん、とこだわる必要はありませんよ。<br><br> ――御浄霊の場合手を離す距離は、霊力の強弱により差があることと存じますがいかがでしょうか。<br><br> そんなことはありませんよ。<br><br>距離はたいてい一尺くらいが適当ですね。<br><br>場合によっては二、三尺でもいいですが、ただ、近いほうが悪い所に届きいいんです。<br><br>あまり離れるとどうしても届きにくいんですね。<br><br>しかしこれは別に制限ありませんよ。<br><br>ふつうは一、二尺ですね。<br><br> ――重病で急を要する場合、一人の人を大勢で御浄霊してもよろしいでしょうか。<br><br> いいですよ。<br><br>それだけの効果はありますよ、ほうぼうから火素が行くんですからね。<br><br> ――「心貧しき者、汝は天国に入る事を得ん」と『聖書』にありますが、心おごれる現代の知識人に、御浄霊による天国到来を説いてもまったく信じようといたしません。<br><br>彼らはついに「最後の審判」までは救われないのでしょうか。<br><br> 知識人の中にも救われるものと、救われないものとあります。<br><br>知識人だからって必ずしも救われないってことはありません。<br><br>天理教では「学者、金持ち後廻し」（笑声）って言うんですが、これは実に至言で、よく言ってありますよ。<br><br>救われるのが遅れる、救われ方が遅くなるんです。<br><br>最後の審判は、救われるか救われないかどっちかで、どっちつかずってことはない、はっきりしてるんですからね。<br><br>どうしても頑固なものは救われないし、素直に頭を下げてくる者は救われるんです。<br><br>だから、どうしても頭を下げないわけには行かないんです。<br><br> ――宗教と科学は一致するとのお言葉でございますが、宗教が科学で理論づけられたときには神の神秘性は失われ唯物的ならざるを得ないと存じますが、いかがでしょうか。<br><br> 本当は、宗教は科学的に説明がつくべきものであって、もうすぐにいろいろ新聞や雑誌に出しますが、科学で説明されて神の神秘性が失われたっていいですよ。<br><br>神秘性が失われたほうがかえってはっきり判っていいでしょう。<br><br>はっきり判らないから神秘性が出てくるんで、はっきりして神秘性がなくなれば迷信なんかもなくなるからいいですよ、いっこうかまやしません。<br><br> この間ラジオで「宗教はなくならなくちゃいかん」って言ってましたが、これは真理ですよ。<br><br>本当の時代になれば宗教はなくなりますよ。<br><br>病人があるから医者がいるのと同様で、悪い人がいるから宗教が必要なんですからね。<br><br>だから、立派な人ばかりになれば宗教はいりませんよ。<br><br> 私は神秘をなくしてるようなもの、神秘を暴いてるようなもんですよ。<br><br>本当はね、科学も宗教も同じもんです。<br><br>ただ、どっちかが先に進むものなんです。<br><br>私のほうは科学よりずっと先に進んでるんです。<br><br>だから、私のほうが科学で、科学が神秘なんです。<br><br>（笑声）…… ――妙智力、金剛力、絶対力、大自然力について御教えください。<br><br> 妙智力ってのは観音力ですね。<br><br>金剛力ってのは国常立尊という神様の力です。<br><br>絶対力はつまり主神の力、至高絶対なものですね。<br><br>それから大自然力ってのは絶対力が自然界全体に遍満した有様ですよ。<br><br> ――漁船の船室に御神体をお祀りしてもよろしいでしょうか。<br><br> お祀りする必要ありませんよ。<br><br>船室の上を歩いたりしてかえって御無礼になるからしないほうがいいんで、みんな御守りをいただけばそれでいいのですよ。<br><br> ――信者が死亡して私どもに葬式を頼んでまいりました場合、いかがいたしたらよろしいでしょうか。<br><br> 断ればいいですよ。<br><br>観音教団はまだ冠婚葬祭の儀式ができてないですからね……まあ、やがてはできますが、それまではお寺に頼めばいいんです。<br><br> ――新仏（あらぼとけ）ができた場合、祖先の寺とは宗旨の違う寺で葬ることはよろしいでしょうか。<br><br> やむを得ない場合はしかたないですけど、できるだけ同じのほうがいいですよ。<br><br>宗旨が違うと霊界に行ってから所属する団体が違ってくるので、霊がまごつくんですよ。<br><br> ――お寺が遠いと墓参にもあまり行けなくなりますが、それでもやはり同じほうがよろしいでしょうか。<br><br> そりゃあ、同じ宗旨がいいですよ。<br><br>お墓参りが遠のいてもしかたないですね。<br><br>墓参は一年に一度か、二年に一遍でもいいですよ。<br><br> ――三十三歳の女性、二年前に腎臓を悪くし以前二回流産したことがございますが、全身がむくみ倦怠感があり、腰が痛んだり張ったりいたします。<br><br>二月御浄霊いたしましたところたいへん好調でしたが、またむくみ始め腰痛が起りました。<br><br>御浄霊により治りましょうか。<br><br> こんなのはなんでもない、きっと治りますよ。<br><br>これは腎臓が悪いんだから自分でも腎臓をやるといいんです。<br><br>後ろに手をまわしてね。<br><br>腎臓が圧迫されて萎縮してて小便の出が悪いんだから腎臓だけすればいい。<br><br>こんなのは一番治りがいいんですよ。<br><br> ――自分で腎臓をいたします場合、手をつけてもよろしいでしょうか。<br><br> いや、離してやればいいですよ。<br><br>こうやってね（お手を後ろにおまわしになられる）。<br><br>私なんか始終やってますよ。<br><br>もし触る場合にはこうすればいいですよ（人差し指と薬指を台にして中指の先で御浄霊する方法をお示しくださる）。<br><br> ――その場合、御光りは指先から出るのでしょうか、あるいは指紋の辺りでしょうか。<br><br> 指紋の辺りですね、こうやってね（再びお示しになられる）。<br><br> ――眼の場合にもそれでよろしいでしょうか。<br><br> いや眼はできないですね。<br><br>眼は頭ですよ。<br><br>眼の病気のとき、眼だけやったんでは駄目ですよ、頭をよくやらなければ、いま言った方法はおできだとか、一カ所が特に痛むとかいう場合ですよ。<br><br>……この腎臓の人は食物はふつうに摂っているんですか。<br><br> ――はい、ふつうの食事をいたしております。<br><br> 結構ですね。<br><br>よく、腎臓の人は塩気の物を食べちゃいかんとか言いますが、あんなことは決してありませんからね。<br><br>で、苦しくない限り働くだけ働いたがいいですよ。<br><br>そのほうが早く治ります。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Esclarecimentos sobre Diversos Assuntos</h2>
 <p><strong>―― Existem pessoas que apreciam tatuagens. Haveria algum significado espiritual nisso? Ademais, considero que tatuar o corpo seja uma profanação a Deus. Qual é a sua opinião?</strong></p>
@@ -153,5 +305,48 @@ function toggleLang(lang) {
 <p>Não, para os olhos não é eficaz. O tratamento para os olhos deve ser feito na cabeça. Tratar apenas os olhos em caso de doença ocular não surtirá efeito; é preciso ministrar Johrei intensamente na cabeça. O método que demonstrei é indicado para furúnculos ou para dores agudas e localizadas. A propósito, essa pessoa está se alimentando normalmente?</p>
 <p><strong>―― Sim, ela faz suas refeições habituais.</strong></p>
 <p>É excelente. A crença de que pacientes renais devem evitar o sal é um completo equívoco. E, desde que não sinta desconforto, ela deve trabalhar o máximo que puder. Isso acelerará sua recuperação.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S24年5月23日） 『御光話録』10号、昭和24(1949)年7月10日発行 昭和二十四年五月二十三日 ――刺青を好む人がありますが、これは霊的に意味がありましょうか。<br/><br/>また、刺青をするのは神への冒涜と存じますがいかがでございましょうか。<br/><br/> 無論、冒涜になりますね。<br/><br/>霊的な意味はありませんよ。<br/><br/>こんなことをするのは未だ野蛮性が残っているんですね。<br/><br/>北海道のアイヌだとか台湾の生蕃だとかは顔へ刺青してますが、あれはいっそう野蛮ですよ。<br/><br/>……お灸だって神に対する冒涜ですよ、きれいな皮膚に火傷の跡をつけるんですからね、はなはだしい冒涜ですよ。<br/><br/> ――五六七をもって「ミロク」と読むことは大先生様が最初でございましょうか。<br/><br/> いや、これはお釈迦様が最初ですよ。<br/><br/>釈迦が「五十六億七千万年の後に弥勒になる」と言ったんですからね。<br/><br/>それからですよ。<br/><br/> ――大先生様が、五六七を火水土というふうに初めておおせられたのでしょうか。<br/><br/> いえ、大本教で言ったんですよ。<br/><br/>私も大本で教わったんです。<br/><br/>細かい解釈は私がつけたんですがね。<br/><br/>だから、五六七の数字を火水土としたのは大本で、あとの解釈は私がしたというわけです。<br/><br/> ――お道に入らせていただいて黴菌や蝿の存在の意義は判らせていただきましたが、蚤、虱（しらみ）などにも同様の意味があると存じてよろしいでしょうか。<br/><br/> 同様の意味でいいんです。<br/><br/>蚊だとか蚤だとかはみんな人間の毒血を吸うんですよ。<br/><br/>刺されたりするとそこに毒血が集まるんです。<br/><br/>だから本当は結構なんですが、ただ痺いんでね。<br/><br/>（笑声）私も以前は刺されるとよく赤く腫れましたが、疥癬をしてからなんともなくなりました。<br/><br/> それから「相応の理」なんで、汚い所には虫や微生物が湧くようにできてるんです。<br/><br/>これを大きく言うと、泥棒があるって言うのは、人間が汚れた財産や富を持っているから、それをなにかで取らなくちゃいけない、で、泥棒はその取る役目をしてるんです。<br/><br/>だからむしろ泥棒に感謝すべきです……しかし、こんなことを言うと泥棒を奨励してるみたいで、誤解を招くといけないからあまり言えませんがね。<br/><br/>（笑声） 悪人がはびこるのは、汚い所に害虫が発生するのと同じです。<br/><br/>悪人っていうのは人間の形をした害虫ですよ。<br/><br/>（笑声）きれいな心の人ばかりになれば悪人なんて出ませんよ。<br/><br/> また、人間には濁った血がたくさんあるんで濁った血を掃除するために呑み込むのが黴菌で、その黴菌を人間につけてくれるのが蝿ですからね。<br/><br/>蝿はたいへんいい役目をしてるんです。<br/><br/>だから私は蝿がいくらたかったってなんとも思いませんよ。<br/><br/>ちっとも気にしませんね。<br/><br/>うるさいからって追うほうがかえってうるさいですよ。<br/><br/>（笑声） ――支那に南京虫が多いとか言われますが、これはなぜでしょうか。<br/><br/> 汚いからですよ、皮膚だとか着てる着物が汚いからですよ。<br/><br/>だから清潔にするのが本当ですね。<br/><br/>黴菌がどうとかいう意味でなく、やはり清潔にしなくちゃいけませんよ、気持ちがいいですからね。<br/><br/>汚くても気にしないって言うのは、それだけ霊的に低いわけですよ。<br/><br/>無肥料栽培でやって、人糞を扱わず土をきれいにするっていうのは、だからごくいいんですよ。<br/><br/> ――紅卍字（こうまんじ）教の霊統、至聖先天老祖、扶■（フーチ）の術などについて御教示をお願い申し上げます。<br/><br/> 紅卍字教っていうのはいまから三、四十年前に、支那の済南の在方（ざいかた）に百姓みたいのがあって…… 支那って所では、ごく古い昔から丁の形をした棒を使い、それを人間が両方から持っていると、この先が自動的に動くんです。<br/><br/>「ミコ」っていう字は丁に人を二つ書いて、「巫」と書くでしょう。<br/><br/>これが古い時代にもあったんです。<br/><br/> それを三、四十年前に道教の信者がやったところ、棒が独りでに動いて字を書いたんですが、それからだんだん道院というのができ、やがて社会事業を始めて紅卍字会になったんですよ。<br/><br/>道院が霊で社会事業が体ですね。<br/><br/> で、ここでは四角い浅いお盆みたいなものに銀の砂をしいて、それを机の上に置き、その机の両側に人が棒を持って立つと、自動的に砂の上に字を書くんです。<br/><br/>これは神様が棒を持って書くんですよ。<br/><br/>両方の人が相談し合って書くって言ったって、そういうことはできないんで、持っているほうはほとんど動かずに、先だけが動くんですからね。<br/><br/>その前に、お経を上げるとかいろいろ儀式をやって、それからこれを始めるんです。<br/><br/>そして正面に神様の坐る席をこしらえ、香なんかを焚くんです。<br/><br/> で、これはその至聖先天老祖が書かれるんです。<br/><br/>これを直接書くのは、釈迦、キリスト、観音、弥勒、孔子、マホメット、舎利弗（しゃりほつ）っていうような偉い人や大宗教家が、この老祖様の言いつけで書くわけです。<br/><br/>傍に立っててそこに出た文字を書きとめる係りがあるんですが、そりゃあ、とても早いもんだそうです。<br/><br/>そのときは、「観世音菩薩、老祖の命により何々の教えを伝う」とか「釈迦如来、経文の誤りを訂正す」とか出てきて「どのお経のどこを訂正しろ」と言うんです。<br/><br/>また、キリストだと「老祖の命により今日イエス汝らに教う」というふうにいろいろ出てくるんです。<br/><br/>それから棒に筆がつけてあれば、絵を書いたり字を書いたりするんですよ。<br/><br/> 先に、「岡田茂吉」と書いて「浄」と書かれたのをもらったことがありましたがね、いま、私がやってる仕事は浄霊のように、みんな「浄」の仕事ですからね、あれは二十年ほど前ですが、もうちゃんとそのときには決まっていたわけですね。<br/><br/> この至聖先天老祖っていうのはエホバですね、日本でいえば国常立尊になるんです。<br/><br/>つまり最高の神様ですね。<br/><br/>……いまに紅卍字会と連絡するようになるはずですがね、ある時期がくるとこの扶■に出てくるんですよ。<br/><br/>まあ、来年か再来年でしょうかね。<br/><br/> ――妊娠四カ月以上で流産した場合はその霊を祀るようにとのお言葉でございましたが、知らずに数年経ってしまっている霊を新たにお祀りいたしますにはいかがいたしたらよろしいでしょうか。<br/><br/>戒名はやはりお寺で作っていただくべきでしょうか。<br/><br/> そうです、お寺へ頼んで戒名をつけてもらい、お葬式を簡単にやってもらって、小さい位牌をこしらえて、ふつうの死んだ人と同じように祀ればいいんです。<br/><br/> ――誤って御軸または小観音様を汚しました場合、いかがいたしたらよろしいでしょうか。<br/><br/> 汚したって、どういうふうに汚したんですか。<br/><br/> ――例えば、百合の花の花粉がついたりいたしました場合…… それはね、経師屋に頼んでとってもらえばいいですよ。<br/><br/>そのときにはお詫びしてね、こういうわけできれいにいたしますから、その間お許し願いたいってお断りしてやればいいです。<br/><br/> ――長男は必ず家を継ぐべきでしょうか。<br/><br/> 継がなくてもいいですよ。<br/><br/>昔、戦国時代に大将が討ち死にした場合、すぐ後釜を据えなければ一軍の士気に影響しましたからね。<br/><br/>それで長男をすぐに後継ぎにすることに決めてあったんです。<br/><br/>いまもその習慣が残っているんですから、必ずそうしなければいかんということはありませんよ。<br/><br/>しかしなにも特別の理由がなければ長男が継ぐのが本当ですね。<br/><br/>事情があって長男じゃ具合が悪いっていうんならいいですがね。<br/><br/>それからまた、長男が自分から相続の権利を放棄することもありますからね。<br/><br/>例えば非常な劇しい恋愛関係があって、どうしても一緒になりたいのに、女のほうが長女で一人娘だったら、女の家のほうでは養子に欲しいですからね。<br/><br/>そのときに男のほうが養子でもなんでもいいから恋しい女と一緒になりたいっていう場合には、その長男が養子に行って次男が後を継げばいいですよ。<br/><br/>なにも、どうしても長男が後を継がねばいかん、とこだわる必要はありませんよ。<br/><br/> ――御浄霊の場合手を離す距離は、霊力の強弱により差があることと存じますがいかがでしょうか。<br/><br/> そんなことはありませんよ。<br/><br/>距離はたいてい一尺くらいが適当ですね。<br/><br/>場合によっては二、三尺でもいいですが、ただ、近いほうが悪い所に届きいいんです。<br/><br/>あまり離れるとどうしても届きにくいんですね。<br/><br/>しかしこれは別に制限ありませんよ。<br/><br/>ふつうは一、二尺ですね。<br/><br/> ――重病で急を要する場合、一人の人を大勢で御浄霊してもよろしいでしょうか。<br/><br/> いいですよ。<br/><br/>それだけの効果はありますよ、ほうぼうから火素が行くんですからね。<br/><br/> ――「心貧しき者、汝は天国に入る事を得ん」と『聖書』にありますが、心おごれる現代の知識人に、御浄霊による天国到来を説いてもまったく信じようといたしません。<br/><br/>彼らはついに「最後の審判」までは救われないのでしょうか。<br/><br/> 知識人の中にも救われるものと、救われないものとあります。<br/><br/>知識人だからって必ずしも救われないってことはありません。<br/><br/>天理教では「学者、金持ち後廻し」（笑声）って言うんですが、これは実に至言で、よく言ってありますよ。<br/><br/>救われるのが遅れる、救われ方が遅くなるんです。<br/><br/>最後の審判は、救われるか救われないかどっちかで、どっちつかずってことはない、はっきりしてるんですからね。<br/><br/>どうしても頑固なものは救われないし、素直に頭を下げてくる者は救われるんです。<br/><br/>だから、どうしても頭を下げないわけには行かないんです。<br/><br/> ――宗教と科学は一致するとのお言葉でございますが、宗教が科学で理論づけられたときには神の神秘性は失われ唯物的ならざるを得ないと存じますが、いかがでしょうか。<br/><br/> 本当は、宗教は科学的に説明がつくべきものであって、もうすぐにいろいろ新聞や雑誌に出しますが、科学で説明されて神の神秘性が失われたっていいですよ。<br/><br/>神秘性が失われたほうがかえってはっきり判っていいでしょう。<br/><br/>はっきり判らないから神秘性が出てくるんで、はっきりして神秘性がなくなれば迷信なんかもなくなるからいいですよ、いっこうかまやしません。<br/><br/> この間ラジオで「宗教はなくならなくちゃいかん」って言ってましたが、これは真理ですよ。<br/><br/>本当の時代になれば宗教はなくなりますよ。<br/><br/>病人があるから医者がいるのと同様で、悪い人がいるから宗教が必要なんですからね。<br/><br/>だから、立派な人ばかりになれば宗教はいりませんよ。<br/><br/> 私は神秘をなくしてるようなもの、神秘を暴いてるようなもんですよ。<br/><br/>本当はね、科学も宗教も同じもんです。<br/><br/>ただ、どっちかが先に進むものなんです。<br/><br/>私のほうは科学よりずっと先に進んでるんです。<br/><br/>だから、私のほうが科学で、科学が神秘なんです。<br/><br/>（笑声）…… ――妙智力、金剛力、絶対力、大自然力について御教えください。<br/><br/> 妙智力ってのは観音力ですね。<br/><br/>金剛力ってのは国常立尊という神様の力です。<br/><br/>絶対力はつまり主神の力、至高絶対なものですね。<br/><br/>それから大自然力ってのは絶対力が自然界全体に遍満した有様ですよ。<br/><br/> ――漁船の船室に御神体をお祀りしてもよろしいでしょうか。<br/><br/> お祀りする必要ありませんよ。<br/><br/>船室の上を歩いたりしてかえって御無礼になるからしないほうがいいんで、みんな御守りをいただけばそれでいいのですよ。<br/><br/> ――信者が死亡して私どもに葬式を頼んでまいりました場合、いかがいたしたらよろしいでしょうか。<br/><br/> 断ればいいですよ。<br/><br/>観音教団はまだ冠婚葬祭の儀式ができてないですからね……まあ、やがてはできますが、それまではお寺に頼めばいいんです。<br/><br/> ――新仏（あらぼとけ）ができた場合、祖先の寺とは宗旨の違う寺で葬ることはよろしいでしょうか。<br/><br/> やむを得ない場合はしかたないですけど、できるだけ同じのほうがいいですよ。<br/><br/>宗旨が違うと霊界に行ってから所属する団体が違ってくるので、霊がまごつくんですよ。<br/><br/> ――お寺が遠いと墓参にもあまり行けなくなりますが、それでもやはり同じほうがよろしいでしょうか。<br/><br/> そりゃあ、同じ宗旨がいいですよ。<br/><br/>お墓参りが遠のいてもしかたないですね。<br/><br/>墓参は一年に一度か、二年に一遍でもいいですよ。<br/><br/> ――三十三歳の女性、二年前に腎臓を悪くし以前二回流産したことがございますが、全身がむくみ倦怠感があり、腰が痛んだり張ったりいたします。<br/><br/>二月御浄霊いたしましたところたいへん好調でしたが、またむくみ始め腰痛が起りました。<br/><br/>御浄霊により治りましょうか。<br/><br/> こんなのはなんでもない、きっと治りますよ。<br/><br/>これは腎臓が悪いんだから自分でも腎臓をやるといいんです。<br/><br/>後ろに手をまわしてね。<br/><br/>腎臓が圧迫されて萎縮してて小便の出が悪いんだから腎臓だけすればいい。<br/><br/>こんなのは一番治りがいいんですよ。<br/><br/> ――自分で腎臓をいたします場合、手をつけてもよろしいでしょうか。<br/><br/> いや、離してやればいいですよ。<br/><br/>こうやってね（お手を後ろにおまわしになられる）。<br/><br/>私なんか始終やってますよ。<br/><br/>もし触る場合にはこうすればいいですよ（人差し指と薬指を台にして中指の先で御浄霊する方法をお示しくださる）。<br/><br/> ――その場合、御光りは指先から出るのでしょうか、あるいは指紋の辺りでしょうか。<br/><br/> 指紋の辺りですね、こうやってね（再びお示しになられる）。<br/><br/> ――眼の場合にもそれでよろしいでしょうか。<br/><br/> いや眼はできないですね。<br/><br/>眼は頭ですよ。<br/><br/>眼の病気のとき、眼だけやったんでは駄目ですよ、頭をよくやらなければ、いま言った方法はおできだとか、一カ所が特に痛むとかいう場合ですよ。<br/><br/>……この腎臓の人は食物はふつうに摂っているんですか。<br/><br/> ――はい、ふつうの食事をいたしております。<br/><br/> 結構ですね。<br/><br/>よく、腎臓の人は塩気の物を食べちゃいかんとか言いますが、あんなことは決してありませんからね。<br/><br/>で、苦しくない限り働くだけ働いたがいいですよ。<br/><br/>そのほうが早く治ります。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

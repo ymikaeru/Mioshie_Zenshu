@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>rei21001</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊学篇 二 霊的現象（一） １ 001-022 憑霊 001 霊と頭脳、高級霊憑依の自覚 その人の霊は既に分っている事でもその人の頭脳にははっきり分らない事が沢山あると思いますが、いかがでしょうか。<br><br>この事は高級な神仏が人間の御姿にお生まれになった場合にも言えるのでしょうか。<br><br> 霊と頭脳とは、同一人間の中にあって、別々ではない。<br><br>前世の事は両者とも分らぬが、信仰のおかげによれば、前生とても分る。<br><br> 高級の霊が自分に憑っている事も判らぬ。<br><br> 002 血液の稀薄 霊の物質化せる血液の稀薄せる時、各種の憑依霊が憑依するとの事でありますが、それはいかようの理由でありますか。<br><br> 霊細胞が稀薄になると、それだけ空いてる訳になる。<br><br>充実してる時を十とし、五だけ充実してれば五だけ空いてる。<br><br>四なら六だけ憑霊が入れる。<br><br>憑霊が六となると精神病になる。<br><br> 003 霊憑依と血液 血が少くなると補充する意味で霊が憑り易い。<br><br>祝詞を出来るだけ奏げる。<br><br>するとまたよくなる。<br><br>（S23.10.16） 004 憑依霊の種々相、（副霊同志争う時の人間の状態） 憑依霊は副霊の働きの強い時に憑依するでしょうか。<br><br>また憑依する霊は先祖に関係あるでしょうか。<br><br> 副霊が憑いている肉体へ別の副霊が憑くべく入ろうとして争う事がある。<br><br>その際、憑依霊同志が戦うので、人間の方はクラクラしたり煩悶状態になるものである。<br><br>そして前住の副霊が後入より弱い時は、後の霊が勝つ事があるが、それは一時的で、長い間にはやはり先住の副霊が勝つのである。<br><br> 先に墓地に接近すると必ず病床に寝る人があったが、これは死霊が憑くのである。<br><br>またある松の下を通ると必ず死にたくなる一所があった。<br><br>これも縊死の死霊がつくのである。<br><br> 狐などは臨時に憑いて人を殺したり悪事をさせたりする事が多いのである。<br><br>そういう事のうまい程、彼等の仲間で巾がきくのである。<br><br> 祖霊は人間に何かを伝える時など大抵は狐に委託するものである。<br><br> rattail（注） 〔 妙智之光（地上天国４号） 、昭和24(1949)年5月25日発行〕に掲載 005 天才絵かき 天才的子供で四歳から盛んに立派な絵を描き、絵さえ描かせていれば気嫌よくしております。<br><br>こうした子供はそのままその才能を伸ばさせても宜しいもので御座いましょうか。<br><br>十で神童云々の諺も御座いますので、あまり早期教育はせぬ方がよいとも存ぜられますが、いかがなもので御座いましょうか。<br><br>御伺い申し上げます。<br><br> 好きなだけやらしてよい。<br><br>絵を描きたくてしようがないので、自分の系統の子に憑いてその子の手を使ってやる。<br><br>描かせてやれば天才的に素晴しくなるのがある。<br><br> 雪舟などもそうで、狩野では一番うまい。<br><br>天才は憑ったり、生れ代ったりしたものである。<br><br>（S25. 1.21） 006 御参拝で感極まる 度々御参詣にあがりますが、今日御神前に座りましたら感極まり涙がとめどなく出ますが、いかなるわけでしょうか。<br><br> この人に霊が憑ってる。<br><br>普通祖霊である。<br><br>その外稲荷―人間が狐になったものである。<br><br>そういうものが非常に喜ぶ。<br><br>長い間求めていたものに出くわした。<br><br>その嬉しくて堪らないものが涙となる。<br><br> 人間が求めるより霊が求める方が強い。<br><br>（S24. 1.15） 007 自意識ある憑霊 最近、患者の憑霊現象は、全然無我になる事無く、霊の言った事した事を皆よく自分で憶えていますが、いかなる訳でしょう。<br><br> 全部は占領せぬ。<br><br>七分まで。<br><br>三分は人間意識がある。<br><br>霊がいくらか弱った訳である。<br><br>（S24. 9. 3） 008 突如歯ガチガチす 私が今度郷里を出発して御面会に上る日の昼頃でした。<br><br>突然歯がガチガチしてとても御参りに上れないかと思いましたが、光明如来様に御祈りして楽にさせて戴きました。<br><br>私の悪因縁はいかにしたら切れるのでしょうか。<br><br>御教え願います。<br><br> 救ってもらいたい霊が憑くので結構である。<br><br>長く続かぬから心配はない。<br><br> 009 祝詞奏上時寒気す 二十五歳の女の人ですが御浄霊によりまして蛇の霊や狐霊が解決したので御座居ますが、善言讃詞をお奏げして禽獣虫魚のところまで奏げますとゾッとする寒気を感じるそうで御座居ます。<br><br>いかなる訳で御座居ましょうか。<br><br>御伺い申し上げます。<br><br> この時霊が身体に憑るのである。<br><br>よく祝詞を奏げる時、ここへ入る前にゾッとする事がある。<br><br>これは祖霊が憑るのである。<br><br>（S24. 6. 2） 010 讃詞奏上・白煙昇り頭髪分れる ある六十七歳の女の信者さんで御座いますが、善言讃詞をお唱え致しますと白い煙が頭から出まして、風がないのに毛が分かれてしまいます。<br><br>これが三晩続いたそうでございます。<br><br>何か霊的に意味が御座いましょうか。<br><br>御伺い申し上げます。<br><br> 意味がある。<br><br>善言讃詞を聞きたいために霊が憑るのである。<br><br>上の方の祖霊である。<br><br> 祖先の中で、昔身分によりそのように髪の毛を分けた人があったものである。<br><br>（S24. 5.12） 011 祝詞奏上時咳止らず（木龍と祝詞言霊） ある入信者（結核）、仏壇の前に座し善言讃詞を奏上致すと必ず咳が引続き出て止まらないそうで、当家は死に絶えた家の後に建築致したもので、本人の父が生前建築、引越して現在に至ったとの事。<br><br>いかなる訳でしょうか。<br><br> 霊が憑っている。<br><br>善言讃詞を聞きたいが、言霊では耳に聞えぬ。<br><br>木龍などは特に聞えぬ。<br><br>しかし人によって聞える。<br><br> 身魂が磨けると、その人の言霊は強いから聞えるのである。<br><br> 012 祝詞奏上時胸圧迫感 朝晩善言讃詞を称え奉る毎に急に胸を押しつけられるように苦しくなり、自分で霊気を送ると忽ち楽になります。<br><br>いかなる訳でしょうか。<br><br>御教示下さい。<br><br> 未だ救われぬ霊が善言讃詞を聞きたいのである。<br><br> 子供の霊が胸へ抱かれてくるのか、あるいは胸が苦しくて死んだ霊である。<br><br>霊界で正守護神が子供を助けたいために伴れて来たものである。<br><br> 013 祝詞で肩重くなる、浄霊で落涙（龍神と祖霊） 一家全部入信致し御神体もお祀りさせて頂き集会所を提供されております熱心な信者の家の妻女で小川和己と申す者で御座いますが、最近霊憑りらしい状態となり、大変体が衰弱して参りました。<br><br>祝詞、善言讃詞を奏上致しますと肩が重くなり、御浄霊致しますと嬉しくて涙がこぼれ、ある時は延髄を御浄霊致しますと左手がしびれ、ある時は前額部が痛くて御浄霊致しますと腹部が痛くなり、腹部を御浄霊すると前額部が痛くなります。<br><br>いかにつらくても集会所で御浄霊を頂こうと出掛けますとその途中でスーッと楽になります。<br><br>また夜半遅くまで眠らずに家の者に集会所でお聞きした明主様の御教えをお話して、夜昼転換も迫っているのにこのような状態でどうする、もっと真剣になるようにと半ば霊憑りのようになって訴え、また特につらい時、仏壇に善言讃詞を奏げてほしいと家の者に頼みそのようにして貰いますと楽になり、また死ぬような気がしてならなくなる時も御座います。<br><br>なお三年前に死亡致しました長女の墓が未だ墓標のままになっております。<br><br>また昨年暮のある朝起きる直前に夢で仏壇より大きな鱗を持った太い松の木のようなものが生え出ているのを二度も見た事が御座いました。<br><br>これはいかなる訳で、またどのようにさせて頂きましたら宜しゅう御座いましょうか。<br><br>お伺い申し上げます。<br><br> これは祖霊と龍神と両方で、何か目的がある。<br><br>早く救われたいのであろう。<br><br>龍神は早く人間に生れ代りたいのである。<br><br> 出来るだけ神様の本や、祝詞を奏げてやるとよい。<br><br>（S25. 5.12） 014 （無 題） 閻魔大王様は必要な時まで蔵っておく。<br><br>出世大神は大国主尊で、国常立尊は現在現界で御活躍になっている。<br><br> 015 教修会開いて浄化 藤井としゑと申す信者（五十一歳、未亡人）、昨年五月十日に本人主催で教修会を開かせて頂きました。<br><br>その夜から御浄化を頂き、七月中頃に床を離れましたが、十一月二十日の夜、震いが来て下腹部が脹り、食欲進まず、その後現在迄一週間に一度か二度位震いが起り、この頃では肋膜の所が痛み、一時呼吸が止る場合もあります。<br><br>御浄霊を一時間位致しますと盗汗が一晩中出ます。<br><br>御浄霊中は痛みが止る場合と激痛の場合と御座います。<br><br>御浄霊は一日二回位させて頂いております。<br><br>娘が肺病と腸結核とで二人死亡しておりますが、娘の病気の所が痛みます。<br><br>何か関係があるもので御座いましょうか。<br><br>お伺い申し上げます。<br><br>なお本人は生家を恋しがり、生家（栗山家）へ帰れば食欲は進み、体の心地も宜しゅう御座います。<br><br>生家も本人宅も御屏風観音様をお祀りさせて頂いております。<br><br> 教修会を開いた事により霊が救われる事を知って、早く救われたくて憑いた。<br><br> 生家へ行きたくて行けないのである。<br><br>（S25. 4.21） 016 布教中は霊的発作せず 一、長い間の霊的御浄化をお救い頂き、この道に御使いさせて頂いて参りました。<br><br>霊的御浄化も一ケ年に一度か二度程度の発作で済み、布教に支障なく過させて頂き、誠に有難く厚く御礼申し上げます。<br><br>本年正月より霊的御浄化が一週間に二回位に強くなり、茨城及び千葉、栃木等の出張先で夜中、霊的発作が頻繁に起き、呼吸逼迫致し、苦しみますが、五分位で良くなります。<br><br> 二、発作が起きますと、非常に水がほしくなります。<br><br>また胃の中に生き物がいるように思われてなりません。<br><br> やはり必要の憑依である。<br><br>（S24. 1.28） 017 教会参拝時息苦し（狐か） 二十歳になる女子（教修生）、カリエスにて毎日御浄霊をいただいておりますが、教導所へ伺うべく仕度をし始めますと息づかいが荒く悪寒が来ます。<br><br>御浄霊を終り帰宅しますとすぐに治ります。<br><br>私の教導所の入口には家主さんの家の稲荷が祀ってございますが、関係がございましょうか。<br><br> 稲荷が嫌がるのかもしれぬ。<br><br>近所へ来られると間違った事が出来ぬ事になる。<br><br>改心しない訳にはゆかなくなるから、浄霊を受けたい場合、人に憑る。<br><br>稲荷は邪魔する。<br><br> しかし、教導所の入口なら邪魔とばかりいえぬ。<br><br>稲荷が浄霊してもらいたいという点もある。<br><br> 018 龍神による難聴 一家全部（五名）教修を頂き、御神体の御軸、御屏風観音様をお祀りさせて頂いております信者の主人（六十五歳）が、最近両耳共に遠くなりました。<br><br>この家で昭和十二年に十年程経つ池を埋めました。<br><br>右の御浄化はその池と何か関係がございましょうか。<br><br> 龍神が助けてもらいたいのである。<br><br>光明如来様に向い、または自分に向って祝詞を奏げる。<br><br>そして早く救われるよう御願いする。<br><br>（S24.12.18） 019 悪寒移動（浄霊中） 三十四歳の女、御浄霊を致しておりますと冷水をかけられたような状態が身体中を転々と動くのですが、話によれば氏神様（明神様）の立木を伐って使ったとの事、なお立木を伐ったのは氏子三十七軒全部なのですが、この女の家が総代になっているとのことです。<br><br>またその祖母は人を呪ったりして苦しめた人なのだそうです。<br><br> 右はいかなる訳で御座いましょうか。<br><br>御伺い申し上げます。<br><br> 立木に憑いた龍神が救われたいため、浄霊するとそこへ憑って来たのである。<br><br> 寒いのは死霊で、動くのは龍神である。<br><br>火龍は熱く、水龍は冷い。<br><br> 悪い意味ではない。<br><br>（S25. 3.18） 020 龍憑依・食欲無くなる 私は一年程前に蛇が左足より腹に入った夢を見ました。<br><br>その当時少し気分が悪かったのですが、それ以来特にお腹が重く、身体中がだるくなり、四ケ月程お医者にかかりましたが貧血だと言うので寝ておりました。<br><br>その後浄霊の御蔭で今は大変よくなり、御蔭様で動けるようになりましたが、今でも時々ひどく身体がだるくなり、食欲がなくなります。<br><br>この時思い切って食事を戴きますとやがて治ってしまいますが、不思議でなりません。<br><br>いかなる理由でありましょうか。<br><br>御伺い致します。<br><br> この宗教で助かりたいためこの人の体へ入り、その人の体を使って働きたいので、この龍神が入信するようにしたものである。<br><br>（S24. 8. 9） 021 浄化後骨なしとなった子（浄霊求む） 二歳の子供、先月末頃脱腸、一日二晩苦しみ、御浄霊でよくなりましたが、それから夜になると毎晩物凄い声で泣き出し、一晩中家人が眠れぬ有様で、一生懸命御浄霊を致しましたら大変よくなりましたが、その御浄化後どうした事か全身骨無になってしまったように首も足もしゃんとしなくなりました。<br><br>これは霊がかかったのでしょうか。<br><br>何卒御教示御願い申し上げます。<br><br> 痛いのである。<br><br> 霊は龍神である。<br><br>治る。<br><br>龍神自体が御浄霊を戴きたい、助かりたいので子に憑った。<br><br> 祝詞と浄霊。<br><br>幽世大神にお願いする。<br><br>（S24. 7.23） 022 怒りっぽく水飲む霊 半身不随で半年程寝ていた祖母が御浄霊によって治して戴けました。<br><br>今迄非常に怒りっぽい性質で、家中が曇っておりましたが、治ってからはとてものんびりした性質になり、家中が明るくなりました。<br><br>所が最近月例祭をして戴くようになったら、その前後二、三日位ですが、また怒り出すようになり、その上水を沢山飲むようになりました。<br><br>霊的でしょうか。<br><br> 龍神で救われないのがいて、祖母さんに、救われたいために憑った。<br><br>浄霊していると治る。<br><br>霊界の時期が切迫しているので、救われたい霊が随分憑ってくる。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Tratado sobre o Estudo do Espírito – Volume II – Fenômenos Espirituais (Primeira Parte)</h2>
 <h2>Possessão Espiritual</h2>
@@ -180,5 +332,48 @@ Ele está com dor. O espírito é um dragão divino. Ele será curado. O própri
 <p>Minha avó, que esteve acamada por seis meses com hemiplegia, foi curada pelo Johrei. Ela sempre teve um temperamento muito irritadiço, o que deixava a atmosfera da casa pesada, mas depois da cura, tornou-se uma pessoa muito serena, e o lar se iluminou. Recentemente, porém, começamos a realizar a cerimônia mensal e, por dois ou três dias antes e depois da cerimônia, ela volta a ficar irritada e, além disso, passou a beber muita água. Seria algo espiritual?</p>
 <p><strong>Resposta:</strong>
 Existe um dragão divino não salvo que, desejando a salvação, acoplou-se à sua avó. Com a ministração do Johrei, ele será curado. Como o tempo no Mundo Espiritual está se esgotando, muitos espíritos que anseiam pela salvação estão se manifestando.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊学篇 二 霊的現象（一） １ 001-022 憑霊 001 霊と頭脳、高級霊憑依の自覚 その人の霊は既に分っている事でもその人の頭脳にははっきり分らない事が沢山あると思いますが、いかがでしょうか。<br/><br/>この事は高級な神仏が人間の御姿にお生まれになった場合にも言えるのでしょうか。<br/><br/> 霊と頭脳とは、同一人間の中にあって、別々ではない。<br/><br/>前世の事は両者とも分らぬが、信仰のおかげによれば、前生とても分る。<br/><br/> 高級の霊が自分に憑っている事も判らぬ。<br/><br/> 002 血液の稀薄 霊の物質化せる血液の稀薄せる時、各種の憑依霊が憑依するとの事でありますが、それはいかようの理由でありますか。<br/><br/> 霊細胞が稀薄になると、それだけ空いてる訳になる。<br/><br/>充実してる時を十とし、五だけ充実してれば五だけ空いてる。<br/><br/>四なら六だけ憑霊が入れる。<br/><br/>憑霊が六となると精神病になる。<br/><br/> 003 霊憑依と血液 血が少くなると補充する意味で霊が憑り易い。<br/><br/>祝詞を出来るだけ奏げる。<br/><br/>するとまたよくなる。<br/><br/>（S23.10.16） 004 憑依霊の種々相、（副霊同志争う時の人間の状態） 憑依霊は副霊の働きの強い時に憑依するでしょうか。<br/><br/>また憑依する霊は先祖に関係あるでしょうか。<br/><br/> 副霊が憑いている肉体へ別の副霊が憑くべく入ろうとして争う事がある。<br/><br/>その際、憑依霊同志が戦うので、人間の方はクラクラしたり煩悶状態になるものである。<br/><br/>そして前住の副霊が後入より弱い時は、後の霊が勝つ事があるが、それは一時的で、長い間にはやはり先住の副霊が勝つのである。<br/><br/> 先に墓地に接近すると必ず病床に寝る人があったが、これは死霊が憑くのである。<br/><br/>またある松の下を通ると必ず死にたくなる一所があった。<br/><br/>これも縊死の死霊がつくのである。<br/><br/> 狐などは臨時に憑いて人を殺したり悪事をさせたりする事が多いのである。<br/><br/>そういう事のうまい程、彼等の仲間で巾がきくのである。<br/><br/> 祖霊は人間に何かを伝える時など大抵は狐に委託するものである。<br/><br/> rattail（注） 〔 妙智之光（地上天国４号） 、昭和24(1949)年5月25日発行〕に掲載 005 天才絵かき 天才的子供で四歳から盛んに立派な絵を描き、絵さえ描かせていれば気嫌よくしております。<br/><br/>こうした子供はそのままその才能を伸ばさせても宜しいもので御座いましょうか。<br/><br/>十で神童云々の諺も御座いますので、あまり早期教育はせぬ方がよいとも存ぜられますが、いかがなもので御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 好きなだけやらしてよい。<br/><br/>絵を描きたくてしようがないので、自分の系統の子に憑いてその子の手を使ってやる。<br/><br/>描かせてやれば天才的に素晴しくなるのがある。<br/><br/> 雪舟などもそうで、狩野では一番うまい。<br/><br/>天才は憑ったり、生れ代ったりしたものである。<br/><br/>（S25. 1.21） 006 御参拝で感極まる 度々御参詣にあがりますが、今日御神前に座りましたら感極まり涙がとめどなく出ますが、いかなるわけでしょうか。<br/><br/> この人に霊が憑ってる。<br/><br/>普通祖霊である。<br/><br/>その外稲荷―人間が狐になったものである。<br/><br/>そういうものが非常に喜ぶ。<br/><br/>長い間求めていたものに出くわした。<br/><br/>その嬉しくて堪らないものが涙となる。<br/><br/> 人間が求めるより霊が求める方が強い。<br/><br/>（S24. 1.15） 007 自意識ある憑霊 最近、患者の憑霊現象は、全然無我になる事無く、霊の言った事した事を皆よく自分で憶えていますが、いかなる訳でしょう。<br/><br/> 全部は占領せぬ。<br/><br/>七分まで。<br/><br/>三分は人間意識がある。<br/><br/>霊がいくらか弱った訳である。<br/><br/>（S24. 9. 3） 008 突如歯ガチガチす 私が今度郷里を出発して御面会に上る日の昼頃でした。<br/><br/>突然歯がガチガチしてとても御参りに上れないかと思いましたが、光明如来様に御祈りして楽にさせて戴きました。<br/><br/>私の悪因縁はいかにしたら切れるのでしょうか。<br/><br/>御教え願います。<br/><br/> 救ってもらいたい霊が憑くので結構である。<br/><br/>長く続かぬから心配はない。<br/><br/> 009 祝詞奏上時寒気す 二十五歳の女の人ですが御浄霊によりまして蛇の霊や狐霊が解決したので御座居ますが、善言讃詞をお奏げして禽獣虫魚のところまで奏げますとゾッとする寒気を感じるそうで御座居ます。<br/><br/>いかなる訳で御座居ましょうか。<br/><br/>御伺い申し上げます。<br/><br/> この時霊が身体に憑るのである。<br/><br/>よく祝詞を奏げる時、ここへ入る前にゾッとする事がある。<br/><br/>これは祖霊が憑るのである。<br/><br/>（S24. 6. 2） 010 讃詞奏上・白煙昇り頭髪分れる ある六十七歳の女の信者さんで御座いますが、善言讃詞をお唱え致しますと白い煙が頭から出まして、風がないのに毛が分かれてしまいます。<br/><br/>これが三晩続いたそうでございます。<br/><br/>何か霊的に意味が御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 意味がある。<br/><br/>善言讃詞を聞きたいために霊が憑るのである。<br/><br/>上の方の祖霊である。<br/><br/> 祖先の中で、昔身分によりそのように髪の毛を分けた人があったものである。<br/><br/>（S24. 5.12） 011 祝詞奏上時咳止らず（木龍と祝詞言霊） ある入信者（結核）、仏壇の前に座し善言讃詞を奏上致すと必ず咳が引続き出て止まらないそうで、当家は死に絶えた家の後に建築致したもので、本人の父が生前建築、引越して現在に至ったとの事。<br/><br/>いかなる訳でしょうか。<br/><br/> 霊が憑っている。<br/><br/>善言讃詞を聞きたいが、言霊では耳に聞えぬ。<br/><br/>木龍などは特に聞えぬ。<br/><br/>しかし人によって聞える。<br/><br/> 身魂が磨けると、その人の言霊は強いから聞えるのである。<br/><br/> 012 祝詞奏上時胸圧迫感 朝晩善言讃詞を称え奉る毎に急に胸を押しつけられるように苦しくなり、自分で霊気を送ると忽ち楽になります。<br/><br/>いかなる訳でしょうか。<br/><br/>御教示下さい。<br/><br/> 未だ救われぬ霊が善言讃詞を聞きたいのである。<br/><br/> 子供の霊が胸へ抱かれてくるのか、あるいは胸が苦しくて死んだ霊である。<br/><br/>霊界で正守護神が子供を助けたいために伴れて来たものである。<br/><br/> 013 祝詞で肩重くなる、浄霊で落涙（龍神と祖霊） 一家全部入信致し御神体もお祀りさせて頂き集会所を提供されております熱心な信者の家の妻女で小川和己と申す者で御座いますが、最近霊憑りらしい状態となり、大変体が衰弱して参りました。<br/><br/>祝詞、善言讃詞を奏上致しますと肩が重くなり、御浄霊致しますと嬉しくて涙がこぼれ、ある時は延髄を御浄霊致しますと左手がしびれ、ある時は前額部が痛くて御浄霊致しますと腹部が痛くなり、腹部を御浄霊すると前額部が痛くなります。<br/><br/>いかにつらくても集会所で御浄霊を頂こうと出掛けますとその途中でスーッと楽になります。<br/><br/>また夜半遅くまで眠らずに家の者に集会所でお聞きした明主様の御教えをお話して、夜昼転換も迫っているのにこのような状態でどうする、もっと真剣になるようにと半ば霊憑りのようになって訴え、また特につらい時、仏壇に善言讃詞を奏げてほしいと家の者に頼みそのようにして貰いますと楽になり、また死ぬような気がしてならなくなる時も御座います。<br/><br/>なお三年前に死亡致しました長女の墓が未だ墓標のままになっております。<br/><br/>また昨年暮のある朝起きる直前に夢で仏壇より大きな鱗を持った太い松の木のようなものが生え出ているのを二度も見た事が御座いました。<br/><br/>これはいかなる訳で、またどのようにさせて頂きましたら宜しゅう御座いましょうか。<br/><br/>お伺い申し上げます。<br/><br/> これは祖霊と龍神と両方で、何か目的がある。<br/><br/>早く救われたいのであろう。<br/><br/>龍神は早く人間に生れ代りたいのである。<br/><br/> 出来るだけ神様の本や、祝詞を奏げてやるとよい。<br/><br/>（S25. 5.12） 014 （無 題） 閻魔大王様は必要な時まで蔵っておく。<br/><br/>出世大神は大国主尊で、国常立尊は現在現界で御活躍になっている。<br/><br/> 015 教修会開いて浄化 藤井としゑと申す信者（五十一歳、未亡人）、昨年五月十日に本人主催で教修会を開かせて頂きました。<br/><br/>その夜から御浄化を頂き、七月中頃に床を離れましたが、十一月二十日の夜、震いが来て下腹部が脹り、食欲進まず、その後現在迄一週間に一度か二度位震いが起り、この頃では肋膜の所が痛み、一時呼吸が止る場合もあります。<br/><br/>御浄霊を一時間位致しますと盗汗が一晩中出ます。<br/><br/>御浄霊中は痛みが止る場合と激痛の場合と御座います。<br/><br/>御浄霊は一日二回位させて頂いております。<br/><br/>娘が肺病と腸結核とで二人死亡しておりますが、娘の病気の所が痛みます。<br/><br/>何か関係があるもので御座いましょうか。<br/><br/>お伺い申し上げます。<br/><br/>なお本人は生家を恋しがり、生家（栗山家）へ帰れば食欲は進み、体の心地も宜しゅう御座います。<br/><br/>生家も本人宅も御屏風観音様をお祀りさせて頂いております。<br/><br/> 教修会を開いた事により霊が救われる事を知って、早く救われたくて憑いた。<br/><br/> 生家へ行きたくて行けないのである。<br/><br/>（S25. 4.21） 016 布教中は霊的発作せず 一、長い間の霊的御浄化をお救い頂き、この道に御使いさせて頂いて参りました。<br/><br/>霊的御浄化も一ケ年に一度か二度程度の発作で済み、布教に支障なく過させて頂き、誠に有難く厚く御礼申し上げます。<br/><br/>本年正月より霊的御浄化が一週間に二回位に強くなり、茨城及び千葉、栃木等の出張先で夜中、霊的発作が頻繁に起き、呼吸逼迫致し、苦しみますが、五分位で良くなります。<br/><br/> 二、発作が起きますと、非常に水がほしくなります。<br/><br/>また胃の中に生き物がいるように思われてなりません。<br/><br/> やはり必要の憑依である。<br/><br/>（S24. 1.28） 017 教会参拝時息苦し（狐か） 二十歳になる女子（教修生）、カリエスにて毎日御浄霊をいただいておりますが、教導所へ伺うべく仕度をし始めますと息づかいが荒く悪寒が来ます。<br/><br/>御浄霊を終り帰宅しますとすぐに治ります。<br/><br/>私の教導所の入口には家主さんの家の稲荷が祀ってございますが、関係がございましょうか。<br/><br/> 稲荷が嫌がるのかもしれぬ。<br/><br/>近所へ来られると間違った事が出来ぬ事になる。<br/><br/>改心しない訳にはゆかなくなるから、浄霊を受けたい場合、人に憑る。<br/><br/>稲荷は邪魔する。<br/><br/> しかし、教導所の入口なら邪魔とばかりいえぬ。<br/><br/>稲荷が浄霊してもらいたいという点もある。<br/><br/> 018 龍神による難聴 一家全部（五名）教修を頂き、御神体の御軸、御屏風観音様をお祀りさせて頂いております信者の主人（六十五歳）が、最近両耳共に遠くなりました。<br/><br/>この家で昭和十二年に十年程経つ池を埋めました。<br/><br/>右の御浄化はその池と何か関係がございましょうか。<br/><br/> 龍神が助けてもらいたいのである。<br/><br/>光明如来様に向い、または自分に向って祝詞を奏げる。<br/><br/>そして早く救われるよう御願いする。<br/><br/>（S24.12.18） 019 悪寒移動（浄霊中） 三十四歳の女、御浄霊を致しておりますと冷水をかけられたような状態が身体中を転々と動くのですが、話によれば氏神様（明神様）の立木を伐って使ったとの事、なお立木を伐ったのは氏子三十七軒全部なのですが、この女の家が総代になっているとのことです。<br/><br/>またその祖母は人を呪ったりして苦しめた人なのだそうです。<br/><br/> 右はいかなる訳で御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 立木に憑いた龍神が救われたいため、浄霊するとそこへ憑って来たのである。<br/><br/> 寒いのは死霊で、動くのは龍神である。<br/><br/>火龍は熱く、水龍は冷い。<br/><br/> 悪い意味ではない。<br/><br/>（S25. 3.18） 020 龍憑依・食欲無くなる 私は一年程前に蛇が左足より腹に入った夢を見ました。<br/><br/>その当時少し気分が悪かったのですが、それ以来特にお腹が重く、身体中がだるくなり、四ケ月程お医者にかかりましたが貧血だと言うので寝ておりました。<br/><br/>その後浄霊の御蔭で今は大変よくなり、御蔭様で動けるようになりましたが、今でも時々ひどく身体がだるくなり、食欲がなくなります。<br/><br/>この時思い切って食事を戴きますとやがて治ってしまいますが、不思議でなりません。<br/><br/>いかなる理由でありましょうか。<br/><br/>御伺い致します。<br/><br/> この宗教で助かりたいためこの人の体へ入り、その人の体を使って働きたいので、この龍神が入信するようにしたものである。<br/><br/>（S24. 8. 9） 021 浄化後骨なしとなった子（浄霊求む） 二歳の子供、先月末頃脱腸、一日二晩苦しみ、御浄霊でよくなりましたが、それから夜になると毎晩物凄い声で泣き出し、一晩中家人が眠れぬ有様で、一生懸命御浄霊を致しましたら大変よくなりましたが、その御浄化後どうした事か全身骨無になってしまったように首も足もしゃんとしなくなりました。<br/><br/>これは霊がかかったのでしょうか。<br/><br/>何卒御教示御願い申し上げます。<br/><br/> 痛いのである。<br/><br/> 霊は龍神である。<br/><br/>治る。<br/><br/>龍神自体が御浄霊を戴きたい、助かりたいので子に憑った。<br/><br/> 祝詞と浄霊。<br/><br/>幽世大神にお願いする。<br/><br/>（S24. 7.23） 022 怒りっぽく水飲む霊 半身不随で半年程寝ていた祖母が御浄霊によって治して戴けました。<br/><br/>今迄非常に怒りっぽい性質で、家中が曇っておりましたが、治ってからはとてものんびりした性質になり、家中が明るくなりました。<br/><br/>所が最近月例祭をして戴くようになったら、その前後二、三日位ですが、また怒り出すようになり、その上水を沢山飲むようになりました。<br/><br/>霊的でしょうか。<br/><br/> 龍神で救われないのがいて、祖母さんに、救われたいために憑った。<br/><br/>浄霊していると治る。<br/><br/>霊界の時期が切迫しているので、救われたい霊が随分憑ってくる。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>akuma</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 悪魔の囁き 未発表、昭和11(1936)年4月19日執筆 悪魔の囁（ささや）き、とは映画の題名のようであるが、これは誰もが体験する事なのである。<br><br>大抵の人が、最初観音信仰に入信した時、それは嘗（かつ）て覚えない程、感激に溢れるものである。<br><br>それは、今まで諸々の信仰に懲りたり、又、何程信仰しても、御利益がなかったり、又は、真理を掴めなかったりして、失望している所へ長い間、求め求めてやまなかった宝玉を、見当（あて）た様なものであるから、その歓びに浸るのも無理はないのである。<br><br> しかるに、ここに恐るべき危機が伏在している。<br><br>それは、悪魔がその人に対し、隙あらば信仰を引落そうと、狙い詰める事である。<br><br> 元来、この娑婆においては、昔から目には見えないが、絶えず、神と悪魔が戦い続けているのである。<br><br>その戦というのは、大にしては国同志であり、次は党派と党派、階級と階級、小にしては個人と個人、今一層小にしては、一個の人間の心の中での、神と悪魔の戦、即ち善悪の争闘である。<br><br>故に、最大の拡がりは国家間の争闘であり、最小の縮まりは、個人の心における争闘である。<br><br> しかるに、この心なるものは今日まで大部分は、悪に属し易かったのである。<br><br>いわば、悪魔の家来が多かったのである。<br><br>しかし、多くの人は悪魔の家来である事を、勿論、意識はしてない。<br><br>何となれば、意識をすれば最早それは悪魔から放れる事になるからである。<br><br> しかしついに、神に救われる人は、この無意識で悪魔の家来になっている人が多いのである。<br><br>それはその人の盲目の眼の開く可能性があるからである。<br><br>それらの人の無意識とは何か、それはその人の善と信じている事が、悪であったり、正神と思って拝んでいる、それが邪神であったり、真理と思っている事が、不真理であったりする事である。<br><br>そうしてそれが、救の光に依って、それら誤謬の正体が、暴露する事である。<br><br> しかし、右は救われる側の人であって、ここに絶対救われない人もある。<br><br>それは勿論、少数ではあろうが、はっきりした意識の下に、悪を行う人がある。<br><br>又、悪を好む人もある。<br><br>この意識的の悪人こそは、滅多に救われないのであって、これは、最後の清算期に滅びてしまう憐むべき人々である。<br><br> ここで又、前へ戻って説明をしよう。<br><br>真の信仰を把握し、過去の誤りに目醒め、感激の喜びに浸っている時、悪魔は己の家来を奪われた痛恨事に、切歯するのである。<br><br>よし再び彼を、己に引戻さずに措くべきやと、その機会を狙いつめる。<br><br>故にこの事に気の付かない人間は、何らかの折に触れて、迷いを生ずる。<br><br>それは多くの場合、親戚知人の親切な忠告や誠しやかな非難の言葉で、その人の心を乱そうとする。<br><br>それは悪魔がその親切な言葉という、仮面を被って、実はその人を引堕す弾丸である。<br><br>そうしてその第一歩として心に間隙を生ぜしめんと努力するのである。<br><br>その際余程確固不動の信念を有しない限り、なる程、それもそうかなと思う。<br><br>その刹那（せつな）の想念こそ、実に悪魔の弾丸による、信仰の一部破綻である。<br><br>この破綻は、たとえば戦争の時、城塞の一角が崩されたようなもので、そこから敵が続々侵入し、遂にその城廓全部を悪魔軍の手に帰する様なものである。<br><br> 心に悪魔軍が侵入したその状態は、こうである。<br><br>それは必ず、信仰を離れさせるべき、いとも巧妙な理屈を作るものである。<br><br>即ちその信仰の欠点を探そうとするので、それが悪魔の囁きである。<br><br>その時は常識で批判すれば、馬鹿々々しいと思うような事を、さも欠点らしく意識させる。<br><br>そうして飽くまでもその信仰を非なるもののように、理屈づけるが、それは実に巧妙極まるものであって、普通人には到底観破出来難いものである。<br><br>そうしてそういう時は、必ず本部へ接近させないよう、本部へ参拝しようとする時は、些（いささ）かの支障にも理由付けて、接近させまいとする。<br><br>それはなぜかというと、悪魔は強い光を非常に恐れるからである。<br><br>悪魔にとって光程恐ろしいものはない。<br><br>光に遇う時、悪魔はその悪魔力が弱るものである。<br><br> 万に一つも、助かる見込のない重患が、観音力によって助けられたとする。<br><br>その時は自分の生命は、観音様から戴いたものであるから、生命を捧げても惜しくないという、熱烈な信仰心が起るもので、又、それを口へ出す人もすくなくないのである。<br><br> それが幾日も経ち、幾月も経つ裡に、不思議な程忘れてしまう人がある。<br><br>実に浮薄、驚くべきである。<br><br>それは、そういう浮薄な人こそ、巧妙な悪魔の術策に陥り易い人で、折角一度、観音様の家来になりながら、惜しくも再び悪魔の虜となるのである。<br><br> そうして信仰を離れた人は、例外が無いと言いたい程不幸に陥ってしまう事実である。<br><br>それを常に余りに多く見せつけられている。<br><br>しかし、そういう人も早い内に気が付いて、再び救を求めて来る人はいいが、偶（まれ）には時機を失してしまう人がある。<br><br>そういう人は、不幸の極、悲惨にも滅びるようになる人さえよく見るので、ちょうど、一旦乗ったノアの方舟から、海中へ墜ちて溺れるようなものである。<br><br> 真に救われた人は、この点能々（よくよく）注意すべきである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Sussurro do Demônio</h2>
 <p>Embora “O Sussurro do Demônio” se assemelhe ao título de um filme, trata-se de uma experiência universal. A maioria das pessoas, ao abraçar a fé em Kannon (観音) pela primeira vez, sente-se transbordar de uma emoção jamais vivenciada. Isto ocorre porque, após se desiludirem com diversas crenças, não obterem graças ou não conseguirem apreender a Verdade, encontram, em meio ao seu desalento, a joia preciosa que por tanto tempo buscaram incessantemente. É natural, portanto, que mergulhem em júbilo.</p>
@@ -103,5 +255,48 @@ function toggleLang(lang) {
 <p>Entretanto, com o passar dos dias e dos meses, alguns acabam, de modo surpreendente, por se esquecer de tudo. É espantosa tamanha inconstância. São justamente essas pessoas inconstantes as que mais facilmente sucumbem às engenhosas artimanhas do demônio. Embora tenham se tornado, por um momento, servas de Kannon-Sama, tornam-se novamente, para nossa lástima, prisioneiras do mal.</p>
 <p>É um fato que as pessoas que abandonam a fé caem, eu diria que quase sem exceção, na infelicidade. Somos testemunhas constantes e numerosas de tais casos. Felizes são aqueles que, percebendo o erro a tempo, voltam a buscar a salvação. Contudo, há os que perdem a oportunidade. Vemos com frequência pessoas assim atingirem o cúmulo do infortúnio e caminharem para uma destruição lastimável. É como se, depois de haver embarcado na Arca de Noé, caíssem ao mar e se afogassem.</p>
 <p>Aqueles que foram verdadeiramente salvos devem atentar-se muito bem a este ponto.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 悪魔の囁き 未発表、昭和11(1936)年4月19日執筆 悪魔の囁（ささや）き、とは映画の題名のようであるが、これは誰もが体験する事なのである。<br/><br/>大抵の人が、最初観音信仰に入信した時、それは嘗（かつ）て覚えない程、感激に溢れるものである。<br/><br/>それは、今まで諸々の信仰に懲りたり、又、何程信仰しても、御利益がなかったり、又は、真理を掴めなかったりして、失望している所へ長い間、求め求めてやまなかった宝玉を、見当（あて）た様なものであるから、その歓びに浸るのも無理はないのである。<br/><br/> しかるに、ここに恐るべき危機が伏在している。<br/><br/>それは、悪魔がその人に対し、隙あらば信仰を引落そうと、狙い詰める事である。<br/><br/> 元来、この娑婆においては、昔から目には見えないが、絶えず、神と悪魔が戦い続けているのである。<br/><br/>その戦というのは、大にしては国同志であり、次は党派と党派、階級と階級、小にしては個人と個人、今一層小にしては、一個の人間の心の中での、神と悪魔の戦、即ち善悪の争闘である。<br/><br/>故に、最大の拡がりは国家間の争闘であり、最小の縮まりは、個人の心における争闘である。<br/><br/> しかるに、この心なるものは今日まで大部分は、悪に属し易かったのである。<br/><br/>いわば、悪魔の家来が多かったのである。<br/><br/>しかし、多くの人は悪魔の家来である事を、勿論、意識はしてない。<br/><br/>何となれば、意識をすれば最早それは悪魔から放れる事になるからである。<br/><br/> しかしついに、神に救われる人は、この無意識で悪魔の家来になっている人が多いのである。<br/><br/>それはその人の盲目の眼の開く可能性があるからである。<br/><br/>それらの人の無意識とは何か、それはその人の善と信じている事が、悪であったり、正神と思って拝んでいる、それが邪神であったり、真理と思っている事が、不真理であったりする事である。<br/><br/>そうしてそれが、救の光に依って、それら誤謬の正体が、暴露する事である。<br/><br/> しかし、右は救われる側の人であって、ここに絶対救われない人もある。<br/><br/>それは勿論、少数ではあろうが、はっきりした意識の下に、悪を行う人がある。<br/><br/>又、悪を好む人もある。<br/><br/>この意識的の悪人こそは、滅多に救われないのであって、これは、最後の清算期に滅びてしまう憐むべき人々である。<br/><br/> ここで又、前へ戻って説明をしよう。<br/><br/>真の信仰を把握し、過去の誤りに目醒め、感激の喜びに浸っている時、悪魔は己の家来を奪われた痛恨事に、切歯するのである。<br/><br/>よし再び彼を、己に引戻さずに措くべきやと、その機会を狙いつめる。<br/><br/>故にこの事に気の付かない人間は、何らかの折に触れて、迷いを生ずる。<br/><br/>それは多くの場合、親戚知人の親切な忠告や誠しやかな非難の言葉で、その人の心を乱そうとする。<br/><br/>それは悪魔がその親切な言葉という、仮面を被って、実はその人を引堕す弾丸である。<br/><br/>そうしてその第一歩として心に間隙を生ぜしめんと努力するのである。<br/><br/>その際余程確固不動の信念を有しない限り、なる程、それもそうかなと思う。<br/><br/>その刹那（せつな）の想念こそ、実に悪魔の弾丸による、信仰の一部破綻である。<br/><br/>この破綻は、たとえば戦争の時、城塞の一角が崩されたようなもので、そこから敵が続々侵入し、遂にその城廓全部を悪魔軍の手に帰する様なものである。<br/><br/> 心に悪魔軍が侵入したその状態は、こうである。<br/><br/>それは必ず、信仰を離れさせるべき、いとも巧妙な理屈を作るものである。<br/><br/>即ちその信仰の欠点を探そうとするので、それが悪魔の囁きである。<br/><br/>その時は常識で批判すれば、馬鹿々々しいと思うような事を、さも欠点らしく意識させる。<br/><br/>そうして飽くまでもその信仰を非なるもののように、理屈づけるが、それは実に巧妙極まるものであって、普通人には到底観破出来難いものである。<br/><br/>そうしてそういう時は、必ず本部へ接近させないよう、本部へ参拝しようとする時は、些（いささ）かの支障にも理由付けて、接近させまいとする。<br/><br/>それはなぜかというと、悪魔は強い光を非常に恐れるからである。<br/><br/>悪魔にとって光程恐ろしいものはない。<br/><br/>光に遇う時、悪魔はその悪魔力が弱るものである。<br/><br/> 万に一つも、助かる見込のない重患が、観音力によって助けられたとする。<br/><br/>その時は自分の生命は、観音様から戴いたものであるから、生命を捧げても惜しくないという、熱烈な信仰心が起るもので、又、それを口へ出す人もすくなくないのである。<br/><br/> それが幾日も経ち、幾月も経つ裡に、不思議な程忘れてしまう人がある。<br/><br/>実に浮薄、驚くべきである。<br/><br/>それは、そういう浮薄な人こそ、巧妙な悪魔の術策に陥り易い人で、折角一度、観音様の家来になりながら、惜しくも再び悪魔の虜となるのである。<br/><br/> そうして信仰を離れた人は、例外が無いと言いたい程不幸に陥ってしまう事実である。<br/><br/>それを常に余りに多く見せつけられている。<br/><br/>しかし、そういう人も早い内に気が付いて、再び救を求めて来る人はいいが、偶（まれ）には時機を失してしまう人がある。<br/><br/>そういう人は、不幸の極、悲惨にも滅びるようになる人さえよく見るので、ちょうど、一旦乗ったノアの方舟から、海中へ墜ちて溺れるようなものである。<br/><br/> 真に救われた人は、この点能々（よくよく）注意すべきである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

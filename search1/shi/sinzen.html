@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sinzen</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 真善美 『地上天国』52号、昭和28(1953)年9月25日発行 吾らの理想とする地上天国とは、真善美完（まった）き世界であるのはいつもいう通りであるが、私はこれを一層掘下げてみようと思う。<br><br>それには順序として真からかいてみるが、真とはもちろん真理の具現であり、真理とは事実そのものであって、一厘の毫差（ごうさ）なく、不純不透明のない正しいあり方を言うのである。<br><br>ところが今日までの文化においては、真理でないものを真理と誤り、真理と扱われて来たのであるから、真理ならざる偽理（ぎり）が余りに多かった事実である。<br><br>にもかかわらずそれに気が付かないというのは、低い学問のためであったのは言うまでもない。<br><br>何よりも現在の実社会を見ればよく分るごとく、ほとんどの人間は生きんがためただアクセクと働いているばかりで、そこに何ら希望もなく生きているだけの事である。<br><br>病の不安、生活難、戦争の脅威の中に蠢（うごめ）いているにかかわらず、口を開けば進歩した文明世界といっているが、厳正に見てほとんどの人間は獣のごとく相争い、啀（いがみ）合い、衝突を事として、不安焦躁の渦巻の中に喘（あえ）いでいる様は地獄絵巻である。<br><br>これこそ前記のごとく偽真理文化の結果である。<br><br>これに対し識者でも気が付かず、文明世界と信じ、讃美しているのであるから哀れなものである。<br><br> 例えば病気にしてもそうだ。<br><br>医学が真理に叶（かな）っていないからこそ、どこを見ても病人はウヨウヨしている。<br><br>ヤレ結核、ヤレ赤痢、日本脳炎、脳溢血、小児麻痺、何々等数え切れない程病気の種類の多い事である。<br><br>しかもこの逃口上としていわく、昔も色々病はあったが医学が進歩していないため発見が出来なかったが、今日は発見が出来るようになったからであるとしている。<br><br>それはそれとして、吾らが希（ねが）うところは病人が減り、健康人が増えればいいので、ただそれだけである。<br><br>見よ現代人の病気を恐れる事はなはだしく、そのため当局も専門家も衛生に注意し、予防に懸命になっているが、滑稽なのは予防注射である。<br><br>これこそ病を治すのではなく、単なる一時抑（おさ）えにすぎないというように医学は一時抑えと根治との区別さえ分らないのである。<br><br>もっとも分っても治病方法を知らないから止むを得ないが、しかも医学は病気は健康を増すための神の摂理などはテンデ分らないから、抑える事のみに専念し、これが進歩であると思っている。<br><br>しかも抑える手段が病原となるなどテンデ分らないので進歩すればする程病気が増えるのは見らるる通りである。<br><br>見よ益々病人が増え、体位が低下しつつある事である。<br><br>そのため疲労や睡眠不足を恐れ、根気なく無理が出来ず、少し過激な運動をするとたちまちヘタバってしまう。<br><br>滑稽なのは健康のための運動奨励である。<br><br>ところが事実はスポーツマンの早死や、米国のスポーツマンが、近頃はニグロ系の選手には到底敵（かな）わない事実であって、これはどうしたものか実に不可解千万ではないか。<br><br>ところが本教が唱える病理を守り、浄霊を受ければ病魔は退散し、真の健康人となるのは事実が示している。<br><br> 次に今度は善についてかいてみるが、善とはもちろん悪の反対である。<br><br>では悪とは何かというと、これこそ唯物思想から発生した無神論が原因であり、善はその反対である有神論からの発生で、これが真理である。<br><br>ところがこの真理である有神論を否定する事が科学の建前であるから、科学が進歩する程悪は益々増えるのみか文化の進歩といえど上面（うわつら）だけの事である。<br><br>というように科学が作る功績も認めるが、科学が作る悪も軽視出来ないのである。<br><br>それに気付かない人間はプラスのみを讃美し、マイナスの方は巧妙な理論を作って指導階級を虜（とりこ）にし、科学によらなければ何事も解決出来ないというように精神的幸福とはおよそかけ離れてしまったのである。<br><br> 次は美であるが、これがまた問題である。<br><br>なるほど文化の発達につれて、美の要素は大いに増し個人的には結構であるが、大衆はそれに預り得ないのである。<br><br>見よ一部の特殊階級のみが美衣、美食、美邸に恵まれ、庶民階級はやっと食っているにすぎない有様であり、美どころではない、腹を充（み）たすだけの食物、寝るだけの住居、往来（ゆきき）するだけの道路、押し合いへし合い、ようやく乗れる交通機関（これは日本だけかも知れない）があるだけである。<br><br> このような訳でせっかく神の大なる恵みである山水草木、花卉（かき）類の自然美は固（もと）より、人間が作った芸術美等も楽しめない社会である。<br><br>というようにこれ程文化が発達しながら、人類全体がその恩恵に浴せないとしたら、現代は全く金持の天国、貧乏人の地獄である。<br><br>この原因こそ文明のどこかに一大欠陥があるからで、その欠陥を是正し公平に幸福が享有（きょうゆう）されてこそ真の文明世界であって、これが我救世教の使命である。<br><br> 以上によって真善美の真の意味は分ったであろうが、要はその実現力である。<br><br>絵にかいた餅や御題目（おだいもく）だけでは何にもならない。<br><br>ところが喜ぶべし、いよいよその夢が現実となって今やこの地上に現われんとするのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Rumo ao Paraíso Terrestre: A Verdade, o Bem e o Belo</h2>
 <p>Conforme sempre afirmo, o Paraíso Terrestre que idealizamos é um mundo pleno da Verdade, do Bem e do Belo. Nesta oportunidade, porém, desejo aprofundar-me em seu significado.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>Passemos ao Belo, que também representa um desafio. É inegável que, com o avanço da civilização, os elementos de beleza se multiplicaram, o que é excelente do ponto de vista individual. As massas, porém, não conseguem desfrutar desses benefícios. Observem como apenas uma classe privilegiada usufrui de belas vestimentas, finas iguarias e suntuosas residências. Enquanto isso, as camadas populares mal conseguem se alimentar. Para elas, o Belo é um luxo distante; dispõem apenas do alimento para saciar a fome, de uma moradia para dormir, de ruas para transitar e de meios de transporte nos quais, aos empurrões, conseguem embarcar (uma realidade talvez restrita ao Japão).</p>
 <p>Por essa razão, vivemos em uma sociedade na qual as pessoas não conseguem apreciar nem a beleza natural das paisagens, das plantas e das flores — dádivas magníficas de Deus —, nem a beleza artística criada pelo ser humano. Se, apesar de todo o desenvolvimento cultural, a humanidade como um todo não pode usufruir de suas benesses, então a era moderna é, na verdade, um paraíso para os ricos e um inferno para os pobres. A causa reside em uma falha fundamental em algum ponto da civilização. Corrigir essa falha para que a felicidade possa ser partilhada com equidade é o que define um mundo verdadeiramente civilizado. Esta é a missão de nossa Sekaikyuseikyou.</p>
 <p>Pelo exposto, creio que o verdadeiro significado da Verdade, do Bem e do Belo foi compreendido. O ponto crucial, no entanto, reside na força para concretizá-los. Promessas vãs e meros discursos de nada servem. Regozijemo-nos, pois esse sonho está finalmente se tornando realidade e prestes a se manifestar sobre a Terra</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 真善美 『地上天国』52号、昭和28(1953)年9月25日発行 吾らの理想とする地上天国とは、真善美完（まった）き世界であるのはいつもいう通りであるが、私はこれを一層掘下げてみようと思う。<br/><br/>それには順序として真からかいてみるが、真とはもちろん真理の具現であり、真理とは事実そのものであって、一厘の毫差（ごうさ）なく、不純不透明のない正しいあり方を言うのである。<br/><br/>ところが今日までの文化においては、真理でないものを真理と誤り、真理と扱われて来たのであるから、真理ならざる偽理（ぎり）が余りに多かった事実である。<br/><br/>にもかかわらずそれに気が付かないというのは、低い学問のためであったのは言うまでもない。<br/><br/>何よりも現在の実社会を見ればよく分るごとく、ほとんどの人間は生きんがためただアクセクと働いているばかりで、そこに何ら希望もなく生きているだけの事である。<br/><br/>病の不安、生活難、戦争の脅威の中に蠢（うごめ）いているにかかわらず、口を開けば進歩した文明世界といっているが、厳正に見てほとんどの人間は獣のごとく相争い、啀（いがみ）合い、衝突を事として、不安焦躁の渦巻の中に喘（あえ）いでいる様は地獄絵巻である。<br/><br/>これこそ前記のごとく偽真理文化の結果である。<br/><br/>これに対し識者でも気が付かず、文明世界と信じ、讃美しているのであるから哀れなものである。<br/><br/> 例えば病気にしてもそうだ。<br/><br/>医学が真理に叶（かな）っていないからこそ、どこを見ても病人はウヨウヨしている。<br/><br/>ヤレ結核、ヤレ赤痢、日本脳炎、脳溢血、小児麻痺、何々等数え切れない程病気の種類の多い事である。<br/><br/>しかもこの逃口上としていわく、昔も色々病はあったが医学が進歩していないため発見が出来なかったが、今日は発見が出来るようになったからであるとしている。<br/><br/>それはそれとして、吾らが希（ねが）うところは病人が減り、健康人が増えればいいので、ただそれだけである。<br/><br/>見よ現代人の病気を恐れる事はなはだしく、そのため当局も専門家も衛生に注意し、予防に懸命になっているが、滑稽なのは予防注射である。<br/><br/>これこそ病を治すのではなく、単なる一時抑（おさ）えにすぎないというように医学は一時抑えと根治との区別さえ分らないのである。<br/><br/>もっとも分っても治病方法を知らないから止むを得ないが、しかも医学は病気は健康を増すための神の摂理などはテンデ分らないから、抑える事のみに専念し、これが進歩であると思っている。<br/><br/>しかも抑える手段が病原となるなどテンデ分らないので進歩すればする程病気が増えるのは見らるる通りである。<br/><br/>見よ益々病人が増え、体位が低下しつつある事である。<br/><br/>そのため疲労や睡眠不足を恐れ、根気なく無理が出来ず、少し過激な運動をするとたちまちヘタバってしまう。<br/><br/>滑稽なのは健康のための運動奨励である。<br/><br/>ところが事実はスポーツマンの早死や、米国のスポーツマンが、近頃はニグロ系の選手には到底敵（かな）わない事実であって、これはどうしたものか実に不可解千万ではないか。<br/><br/>ところが本教が唱える病理を守り、浄霊を受ければ病魔は退散し、真の健康人となるのは事実が示している。<br/><br/> 次に今度は善についてかいてみるが、善とはもちろん悪の反対である。<br/><br/>では悪とは何かというと、これこそ唯物思想から発生した無神論が原因であり、善はその反対である有神論からの発生で、これが真理である。<br/><br/>ところがこの真理である有神論を否定する事が科学の建前であるから、科学が進歩する程悪は益々増えるのみか文化の進歩といえど上面（うわつら）だけの事である。<br/><br/>というように科学が作る功績も認めるが、科学が作る悪も軽視出来ないのである。<br/><br/>それに気付かない人間はプラスのみを讃美し、マイナスの方は巧妙な理論を作って指導階級を虜（とりこ）にし、科学によらなければ何事も解決出来ないというように精神的幸福とはおよそかけ離れてしまったのである。<br/><br/> 次は美であるが、これがまた問題である。<br/><br/>なるほど文化の発達につれて、美の要素は大いに増し個人的には結構であるが、大衆はそれに預り得ないのである。<br/><br/>見よ一部の特殊階級のみが美衣、美食、美邸に恵まれ、庶民階級はやっと食っているにすぎない有様であり、美どころではない、腹を充（み）たすだけの食物、寝るだけの住居、往来（ゆきき）するだけの道路、押し合いへし合い、ようやく乗れる交通機関（これは日本だけかも知れない）があるだけである。<br/><br/> このような訳でせっかく神の大なる恵みである山水草木、花卉（かき）類の自然美は固（もと）より、人間が作った芸術美等も楽しめない社会である。<br/><br/>というようにこれ程文化が発達しながら、人類全体がその恩恵に浴せないとしたら、現代は全く金持の天国、貧乏人の地獄である。<br/><br/>この原因こそ文明のどこかに一大欠陥があるからで、その欠陥を是正し公平に幸福が享有（きょうゆう）されてこそ真の文明世界であって、これが我救世教の使命である。<br/><br/> 以上によって真善美の真の意味は分ったであろうが、要はその実現力である。<br/><br/>絵にかいた餅や御題目（おだいもく）だけでは何にもならない。<br/><br/>ところが喜ぶべし、いよいよその夢が現実となって今やこの地上に現われんとするのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>honnen</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 本然の道 『光明世界』3号、昭和10(1935)年5月21日発行 観音様を信仰すれば、病貧争が無くなるばかりでなしに、未だまだ重大な御蔭があるのであります。<br><br>それは何かと云うと人間としての「真の道」が判るのであります。<br><br> あらゆる階級――あらゆる職業、すべての老若男女は、各々天から定められた「本然（ほんねん）の道」があるのであります。<br><br>例えば、民は君に対し、国家に対し、忠の道があり、子は親に対し孝の道があり、親は子に対する道があり、夫は妻に対し、妻は夫に対し、自ら尽すべき事、行うべき道が、ちゃんと定められてあるのであります。<br><br>そんな判りきった事さえ、今日は判らなくなっている、それが、はっきりと判って来るんであります。<br><br> 判ると共に、強制されたり誨（おし）えられないでも、自然に行う人になるんであります。<br><br>それが、いささかも、克己的でなく、進んで快く、行（や）ってゆけるのであります。<br><br> ここが実に、妙不可思議力であります。<br><br>職業にしても、商人は商人としての、官吏は官吏、軍人は軍人、宗教家は宗教家、芸術家は芸術家としての、それぞれ、天賦の道に適（かな）った行いがある、それさえ行っておれば、失敗もなく苦情もなく、必ず成功もし、栄えもするんであります。<br><br>裁判所や、警察の御厄介になる様な事が、全然起らないのであります。<br><br>折角、大臣になっても、市ヶ谷の別荘へ送られるような事はないのであります。<br><br> そういう事は、大臣は大臣とし、政治家は政治家としての、正しい行（や）り方が、ちゃんと規（きま）っているに関わらず、それを越えてしまうから、苦しむ事が出来るんであります。<br><br>罪を造ったり、争ったり法律に触れたり、借金に苦しんだりするのであります。<br><br> 天から与えられた道、定められてある範囲から、なぜ人間は、脱線するのであるかと言う事を、お話し致しますと、本来人間には、神より与えられたる本霊――即ち善霊と、動物霊たる副霊即ち悪霊と、この両様の霊が、必ず内在しておって、この両者が、絶えず闘争しつつあるのであります。<br><br>随って副霊が勝った場合は、悪の行為として顕れ、本霊が勝った場合は、善の行為となるのであります。<br><br> かように、闘い争っている為に、反ってよく調和がとれて、種々な仕事が、出来て行んであります。<br><br>ちょうど、自動車の運転と同じ様なもので、自動車は、左へも右へも行く故に、いかなる道でも、自由に走れるんであります。<br><br> しかし、いかなる場合でも、本霊が勝って行く事が、原則なんで、人間の本来の道なんであります。<br><br>しかし副霊が勝てば、それが脱線になって悪となり、範囲を越えるから失敗をし、苦しみをする事になるんであります。<br><br>それですから副霊は、悪でありますから、どこまでも人間を脱線させようと、絶えず骨を折っているのであります。<br><br> ところが、観音様の御光を与えられると、副霊は、弱って行く――副霊が弱くなっただけは、本霊が強くなって行きます。<br><br>本霊の判断は、正しい判断でありますから、そこで、何事を行っても巧くゆく、間違いがないのであります。<br><br> 一番面白いのは、お酒の好きな人が、私のところへ度々来られますと、嫌いになるんであります。<br><br>それはなぜかと言えば、酒を呑ませる先生は、副霊でありますから、この副霊が、私の身体から放射する「観音光」の為に力が弱り本霊が勝って来るからで、その本霊は酒が嫌いだから、酒が不味くなってしまうのであります。<br><br> こういう様な訳でありますから、観音様を拝めばどうしても、いい方へ変って行くのであります。<br><br>今日までの世の中は、人間の娯しみの大部分は、悪を娯しむ、――娯しみというものは、どうも悪に属するものが、多かったのであります。<br><br> それがつまり副霊が、勝って居るからであります。<br><br>ところが、本霊が勝って来ると、善を娯しむ、善い事をする事が、とても面白いのであります。<br><br> かく善い事をする面白さを、本当に知った時は、あんなに面白いと思った、悪の娯しみは何とつまらない事であったんだろうと、不思議に思われて、来るのであります。<br><br>こういう様に、悪の娯しみよりも、善の娯しみの方が、何層倍、上だという事が、判った人が、真に救われた人なのであります。<br><br>しかも善の娯しみを、続けれぼ続ける程、そこに、健康と幸福が生れ発展があり、成功があるんであります。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Caminho Original do Ser Humano</h2>
 <p>A fé em Kannon (観音) não se limita a extinguir a doença, a pobreza e o conflito; ela concede uma graça ainda mais sublime: a compreensão do “verdadeiro caminho” do ser humano.</p>
@@ -103,5 +255,48 @@ function toggleLang(lang) {
 <p>Por essa razão, a veneração a Kannon (観音) conduz, invariavelmente, a uma transformação para melhor. Até hoje, a maior parte dos prazeres do mundo consistia em deleitar-se com o mal; o entretenimento, em grande medida, pertencia à esfera maligna.</p>
 <p>Isso ocorria, em suma, porque o espírito secundário era o dominante. Contudo, quando o espírito primordial assume a primazia, a pessoa passa a encontrar prazer no bem. Praticar boas ações torna-se algo verdadeiramente deleitoso.</p>
 <p>No momento em que se conhece genuinamente essa alegria, percebe-se, com espanto, quão insípidos eram os prazeres do mal, antes tidos como tão fascinantes. Aquele que compreende que o regozijo no bem é infinitamente superior ao deleite no mal pode ser considerado uma pessoa verdadeiramente salva. E quanto mais se persevera nessa alegria virtuosa, mais se manifestam a saúde, a felicidade, o desenvolvimento e o sucesso.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 本然の道 『光明世界』3号、昭和10(1935)年5月21日発行 観音様を信仰すれば、病貧争が無くなるばかりでなしに、未だまだ重大な御蔭があるのであります。<br/><br/>それは何かと云うと人間としての「真の道」が判るのであります。<br/><br/> あらゆる階級――あらゆる職業、すべての老若男女は、各々天から定められた「本然（ほんねん）の道」があるのであります。<br/><br/>例えば、民は君に対し、国家に対し、忠の道があり、子は親に対し孝の道があり、親は子に対する道があり、夫は妻に対し、妻は夫に対し、自ら尽すべき事、行うべき道が、ちゃんと定められてあるのであります。<br/><br/>そんな判りきった事さえ、今日は判らなくなっている、それが、はっきりと判って来るんであります。<br/><br/> 判ると共に、強制されたり誨（おし）えられないでも、自然に行う人になるんであります。<br/><br/>それが、いささかも、克己的でなく、進んで快く、行（や）ってゆけるのであります。<br/><br/> ここが実に、妙不可思議力であります。<br/><br/>職業にしても、商人は商人としての、官吏は官吏、軍人は軍人、宗教家は宗教家、芸術家は芸術家としての、それぞれ、天賦の道に適（かな）った行いがある、それさえ行っておれば、失敗もなく苦情もなく、必ず成功もし、栄えもするんであります。<br/><br/>裁判所や、警察の御厄介になる様な事が、全然起らないのであります。<br/><br/>折角、大臣になっても、市ヶ谷の別荘へ送られるような事はないのであります。<br/><br/> そういう事は、大臣は大臣とし、政治家は政治家としての、正しい行（や）り方が、ちゃんと規（きま）っているに関わらず、それを越えてしまうから、苦しむ事が出来るんであります。<br/><br/>罪を造ったり、争ったり法律に触れたり、借金に苦しんだりするのであります。<br/><br/> 天から与えられた道、定められてある範囲から、なぜ人間は、脱線するのであるかと言う事を、お話し致しますと、本来人間には、神より与えられたる本霊――即ち善霊と、動物霊たる副霊即ち悪霊と、この両様の霊が、必ず内在しておって、この両者が、絶えず闘争しつつあるのであります。<br/><br/>随って副霊が勝った場合は、悪の行為として顕れ、本霊が勝った場合は、善の行為となるのであります。<br/><br/> かように、闘い争っている為に、反ってよく調和がとれて、種々な仕事が、出来て行んであります。<br/><br/>ちょうど、自動車の運転と同じ様なもので、自動車は、左へも右へも行く故に、いかなる道でも、自由に走れるんであります。<br/><br/> しかし、いかなる場合でも、本霊が勝って行く事が、原則なんで、人間の本来の道なんであります。<br/><br/>しかし副霊が勝てば、それが脱線になって悪となり、範囲を越えるから失敗をし、苦しみをする事になるんであります。<br/><br/>それですから副霊は、悪でありますから、どこまでも人間を脱線させようと、絶えず骨を折っているのであります。<br/><br/> ところが、観音様の御光を与えられると、副霊は、弱って行く――副霊が弱くなっただけは、本霊が強くなって行きます。<br/><br/>本霊の判断は、正しい判断でありますから、そこで、何事を行っても巧くゆく、間違いがないのであります。<br/><br/> 一番面白いのは、お酒の好きな人が、私のところへ度々来られますと、嫌いになるんであります。<br/><br/>それはなぜかと言えば、酒を呑ませる先生は、副霊でありますから、この副霊が、私の身体から放射する「観音光」の為に力が弱り本霊が勝って来るからで、その本霊は酒が嫌いだから、酒が不味くなってしまうのであります。<br/><br/> こういう様な訳でありますから、観音様を拝めばどうしても、いい方へ変って行くのであります。<br/><br/>今日までの世の中は、人間の娯しみの大部分は、悪を娯しむ、――娯しみというものは、どうも悪に属するものが、多かったのであります。<br/><br/> それがつまり副霊が、勝って居るからであります。<br/><br/>ところが、本霊が勝って来ると、善を娯しむ、善い事をする事が、とても面白いのであります。<br/><br/> かく善い事をする面白さを、本当に知った時は、あんなに面白いと思った、悪の娯しみは何とつまらない事であったんだろうと、不思議に思われて、来るのであります。<br/><br/>こういう様に、悪の娯しみよりも、善の娯しみの方が、何層倍、上だという事が、判った人が、真に救われた人なのであります。<br/><br/>しかも善の娯しみを、続けれぼ続ける程、そこに、健康と幸福が生れ発展があり、成功があるんであります。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

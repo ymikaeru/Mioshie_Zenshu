@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s290207</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S29年2月7日） 『御教え集』31号、昭和29(1954)年3月15日発行 昭和二十九年二月七日 今年の節分について、もう少し詳しく話をしてみます。<br><br>前にも言ったことがありますが、節分というのは、古い時代に国常立尊という神様が、世界を支配していたということになっているのですが、その時分のことだから、世界といったところで全部だかどうだか分かりませんが、まず日本を中心にして、そうとう広範囲に支配していたに違いないのです。<br><br>それで神様といったところで、やはり人間なのです。<br><br>しかしその時分の人間は非常に霊が高かったのです。<br><br>その時分は昼間の世界の終わりぐらいだったのですが、ところが長い時代にだんだん人間が、夜の世界のために穢れに穢れて、霊的にレベルが低くなったわけです。<br><br>それでよく「天神七代、地神五代」ということがありますが、天神時代というのは、天の神様……神道のほうで言うと「天津系」「国津系」あるいは「天津神」「国津神」と言いますが、天系です。<br><br>だいたい日本民族は天系なのです。<br><br>その天系だったころは天照天皇という最後の天皇が支配していたのです。<br><br>それで、これはいつかも言いましたが、天照天皇が日本を逃げて、皇后様だけが残って、それが天照大御神と、こうなっているのですが、それよりか前に国常立尊という神様が支配されていたのです。<br><br>その神様は非常に厳格で、つまり至正至直で、ごく正しいことでないと許さない、というようなことのために――これも神道の方にもありますが――大勢の神様が一致して押し込めたのが節分の晩としてあるのです。<br><br>その押し込めた方の総大将が天若彦という神様で、そうして、もう国常立尊は世の中に出られないようにというので、艮（東北）の方角に押し込めたとなっているのです。<br><br>そうして、艮に押し込めたからして艮の金神というお名前にもなり、艮の金神国常立尊となったのです。<br><br>そうして節分の晩に豆をまきますが、“炒豆に花が咲いたら出てもよい、さもなければ永久に押し込めてしまう”というわけで、それから炒豆をまいたのです。<br><br>それは三千年としてありますが、いよいよ三千年たって、その国常立尊様がふたたびこの世に現われる、その機関としてできたのが大本教です。<br><br>ですから大本教のお筆先に「三千世界一度に開く梅の花、艮の金神の世になりたぞよ。<br><br>梅で開いて松で治める神国の世になりたぞよ。<br><br>日本は神国。<br><br>この世は神がかまわなゆけぬ世であるぞよ」ということを教祖は獅子吼（ししく）したわけです。<br><br>最初大きな声をして怒鳴ったのです。<br><br>それで気違い扱いされて警察に留置されたことがありますが、そういうわけで気違い婆さんにされたわけです。<br><br>それが明治二十五年の一月元日です。<br><br>ですから“梅で開く”というが、海というのは、花は五弁になってます。<br><br>これは五大州を形取ってあるのだそうです。<br><br>ですから“一度に開く梅の花”というのは、世界が一度に開くということなのです。<br><br>ところが今年の節分は、いよいよ艮の金神様が表になる、つまり今まで三千年隠れていたのが表面になるのです。<br><br>それで、大本教を開いたのは、霊界がそうなったのです。<br><br>ところが今度は現界がそうなる。<br><br>ということになったのは、この節分にお知らせがあったのです。<br><br>それはいずれ言いますが、今はまだ言うことはできません。<br><br>一年ぐらいは言うことはできないのです。<br><br>それはやはり梅に関した奇蹟なのです。<br><br>それは私は三、四年前から準備していたことですが、そういうようなわけで、いよいよ表になるということと、それからお筆先に「今度はこの世の閻魔と現われるから」ということがあるのです。<br><br>というのは、御隠退になっているときは、霊界に行かれて閻魔大王になるのです。<br><br>閻魔大王というのは、要するに霊界における審判の……今で言う検事総長とか最高裁判所長というような、そういった……裁きの最高の地位です。<br><br>ところが「この世の閻魔と現われた」というのですからして、今度は現界的の裁きをされるわけです。<br><br>これが審判です。<br><br> これがまたおもしろいのは、立春の日に京都の方の道具屋が閻魔大王の絵を持ってきたのです。<br><br>それで私は“ハハア、神様は、いよいよ国常立尊様が現界の閻魔のお働きをされるということだ”ということを思って買いました。<br><br>それは支那の元時代の絵ですが、閻羅（えんら）王と書いてありますが、支那では閻魔大王のことを閻羅王と言うのです。<br><br>吉田松陰の書いたものにもありますが、「精神一到何事か成らざらん。<br><br>われ王侯を得ずんば、死して閻羅王とならん」ということがありますが、王侯というのは大名のことを言うのです。<br><br>やはり日本でも閻羅王ということを言われたわけです。<br><br>それで、家来が二、三人いましたが、いずれ美術館に出します。<br><br>神様はすべて型で見せますから、その閻羅王の掛物によってお知らせになったわけです。<br><br>そういうようなことがあったのです。<br><br>立春の日には、その掛物は知らなかったのですが、その掛物は午後に来たのです。<br><br>それでこの節分から非常に浄化が強くなるということを言いましたが、やはり合っているわけです。<br><br>そういうようなわけで、今年からまた非常に霊界が明るくなるわけです。<br><br>明るくなると、善の方は非常によいですが、悪の方は反対に非常に苦しいことになります。<br><br>最近いろんな汚職事件が出ましたが、こんなに一度に次々に出るのは、今までに例がないでしょう。<br><br>これもやっぱりその一つの現われというように見られないことはないです。<br><br>そういうようなわけで、鬼門を非常に嫌って、鬼門は怖いように言いふらされたのは、今言った天若彦の方からそういう宣伝をしたわけです。<br><br>それで「福は内、鬼は外」と言いますが、「鬼」というのは、つまり鬼門の金神、艮の金神国常立尊様ということになるからして、実は、一番善い神様、一番立派な神様です。<br><br>それでおもしろいのは、大本教の発祥地の綾部では、豆をまくときには「鬼は内、福は外」と言うのです。<br><br>それはやっぱりその時分から天若彦に対する反対のやり方だったわけです。<br><br>そういうようなわけで、鬼門に越したり、鬼門の方を嫌うということは、人間が正しい人がなかったからです。<br><br>たいてい穢れている人や、肚の本当でない人がそっちに越せば、やはりそういった気を受けるから、浄化が起こるわけです。<br><br>それで浄化というのは災難や苦しみですから、そこで嫌ったというわけです。<br><br>だから本当から言えば、もし方角をかまえば、鬼門に越すのがごくよいのです。<br><br>ただ病気と同じで、一時浄化作用が起こりますから、そこで怖がるのですが、そのために後がよくなるのです。<br><br>ですから他の宗教は、豆まきというと非常にさかんで、むしろ宣伝的にやりますが、救世教は絶対にやらないということは、そういう根本的の理由があるからです。<br><br> 時局についてはしばらく話もしなかったし、一応知っておく必要がありますから書いてみました。<br><br> （御論文「時局雑感」） 【栄光 二四八号】 ジャーナリストに対しては、この間も書きましたが、まだ書き足りないような気がするので、もういっそう突っ込んで書いてみました。<br><br>これも時の問題で、そう長くは続かないと思いますが、しかし言うべきことは言っておかないといけないと思って書きました。<br><br> （御論文「再びジャーナリストの考慮を望む」） 【栄光 二四九号】 二、三日前にアメリカに行っているＡさんから手紙が来ましたが、その中に、アメリカ人が非常に弱っていることが書いてありますが、参考になると思いますから読ませます。<br><br> （「米国画信」六） 【栄光 二四八号】 いつも言うとおり、医学は駄目です。<br><br>一昨日パテー・ニュースを見ましたが、その中にボクシングで黒人の選手とアメリカ人の選手と両方闘ったのですが、アメリカ人の弱いこと、手玉にとられてました。<br><br>ちょうど猫が鼠をオモチャにしているようで、立ち上がればやっつけられ、立ち上がればやっつけられしてました。<br><br>それで黒人のほうは白人より小さいのですが、立ち上がればぶつかるというように三度ともそうで、白人をノック・アウトしてしまいました。<br><br>私はよくボクシングのニュースを見ましたが、一昨日のぐらい馬鹿馬鹿しいのは見たことがないです。<br><br>それで、帰ってからこの手紙を見たので、アメリカ人がいかに弱っているかということが分かったのです。<br><br>ですから今年あたりからアメリカの方が大いに発展するだろうと思いますが、そうしたらいよいよ分かる時期が来ると思います。<br><br>ところがそれを知らないから、日本人はアメリカ崇拝で、化粧品の広告からなんでも“アメリカ、アメリカ”を出してますが、実に馬鹿馬鹿しくて見ていられないです。<br><br>この手紙の中にあるもう一つのおもしろいことは、アメリカ人の信者が三人できたのですが、何病気か非常によく治って、だいぶ働くようなことが書いてありました。<br><br>そういうようなわけで、今の科学文明のポロがこれからだんだん出てくるわけです。<br><br>さっき言ったとおり、艮の金神様がいよいよ働かれますと、そういったことがみんなはっきりしてしまうのです。<br><br>薄暗い所に明かりがさしたようなものです。<br><br>そして、お筆先の中にこういうことがあります。<br><br>「善と悪とを立分ける」――ということは、つまり善人はますますよくなり、悪人はますます悪くなるということで、そういうことがこれから現われてくるのです。<br><br>ですから汚職事件というのはその一つの現われでしょう。<br><br>そうなると病人が増えるのと、浄霊の治り方がよくなるのと両方で、どうしても発展するわけです。<br><br>ですからある時期に行くと――と言っても、もう間近ですが――非常に信者が増えるとともに、世の中に知れてくるというわけです。<br><br>特に地上天国ができるのと、自然農法が知れわたるに従って拍車をかけるわけですから、いよいよおもしろくなります。<br><br> この地上天国についても、アメリカのジャーナリストと言いますか、そういう方面が非常に注目してきたのです。<br><br>その話は、もう少し具体的になってきてから話しますが、こっちが知らないうちに、先方で調査して非常に研究してます。<br><br>それでそのアメリカ人がだいぶ各国の大使などにも知らしているようです。<br><br>これはおもしろいので、こっちでなにも頼みもしないうちに、先方で活動しているのですが、やっぱり神様がよろしく働かせているのでしょう。<br><br>ですから、もう少したつと、その方面がなかなかおもしろくなるという情報が最近よくありますが、だいぶ楽しみになってきたわけです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Manifestação do Deus Primordial e a Nova Era</h2>
 <p>Gostaria de aprofundar um pouco mais o tema do Setsubun (節分) deste ano. Conforme já mencionei, narra-se que, em tempos remotos, uma divindade chamada Kunitokotachi no Mikoto (国常立尊) governava o mundo. Evidentemente, por se tratar de uma era tão antiga, não podemos afirmar se seu domínio abrangia a totalidade do globo, mas é certo que, a partir do Japão, estendia-se por uma vasta área. E, embora fossem chamados de deuses, eram, em essência, seres humanos, porém dotados de uma espiritualidade extremamente elevada. Aquele período correspondia ao crepúsculo do Mundo do Dia. Todavia, com o passar de eras, a humanidade foi gradualmente se maculando sob a influência do Mundo da Noite, o que resultou em um declínio de seu nível espiritual.</p>
@@ -114,5 +266,48 @@ function toggleLang(lang) {
 <p>A partir de agora, as falhas da civilização científica se tornarão cada vez mais evidentes. Como mencionei, quando Ushitora no Konjin iniciar Sua plena atuação, tudo se tornará claro como a luz que incide sobre um aposento escuro. O Ofudesaki nos ensina que haverá a “separação entre o Bem e o Mal”, o que significa que os bons se tornarão ainda melhores, e os maus, piores. Já começamos a testemunhar esse processo. Os escândalos de corrupção são um de seus primeiros sinais.</p>
 <p>Consequentemente, o número de doentes aumentará, mas, em contrapartida, a eficácia do Johrei na cura também se elevará. Ambos os fatores impulsionarão nosso crescimento. Portanto, em um futuro próximo, não apenas teremos um aumento exponencial no número de fiéis, como também nos tornaremos amplamente conhecidos pela sociedade. A construção do Paraíso Terrestre e a difusão da Agricultura Natural servirão como catalisadores para esse avanço, tornando o porvir ainda mais fascinante.</p>
 <p>A propósito do Paraíso Terrestre, os jornalistas americanos, e outros formadores de opinião, têm demonstrado um interesse crescente. Falarei sobre isso com mais detalhes quando a situação se tornar mais concreta, mas, sem que soubéssemos, eles têm investigado e estudado o assunto a fundo. Ao que parece, esses americanos estão divulgando suas descobertas a embaixadores de diversas nações. É um desdobramento notável: sem que tenhamos pedido ou feito qualquer esforço, eles estão agindo por iniciativa própria. Certamente, é Deus quem os está movendo. As informações que recebo indicam que esse campo se tornará muito promissor em breve, o que nos enche de grande expectativa.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S29年2月7日） 『御教え集』31号、昭和29(1954)年3月15日発行 昭和二十九年二月七日 今年の節分について、もう少し詳しく話をしてみます。<br/><br/>前にも言ったことがありますが、節分というのは、古い時代に国常立尊という神様が、世界を支配していたということになっているのですが、その時分のことだから、世界といったところで全部だかどうだか分かりませんが、まず日本を中心にして、そうとう広範囲に支配していたに違いないのです。<br/><br/>それで神様といったところで、やはり人間なのです。<br/><br/>しかしその時分の人間は非常に霊が高かったのです。<br/><br/>その時分は昼間の世界の終わりぐらいだったのですが、ところが長い時代にだんだん人間が、夜の世界のために穢れに穢れて、霊的にレベルが低くなったわけです。<br/><br/>それでよく「天神七代、地神五代」ということがありますが、天神時代というのは、天の神様……神道のほうで言うと「天津系」「国津系」あるいは「天津神」「国津神」と言いますが、天系です。<br/><br/>だいたい日本民族は天系なのです。<br/><br/>その天系だったころは天照天皇という最後の天皇が支配していたのです。<br/><br/>それで、これはいつかも言いましたが、天照天皇が日本を逃げて、皇后様だけが残って、それが天照大御神と、こうなっているのですが、それよりか前に国常立尊という神様が支配されていたのです。<br/><br/>その神様は非常に厳格で、つまり至正至直で、ごく正しいことでないと許さない、というようなことのために――これも神道の方にもありますが――大勢の神様が一致して押し込めたのが節分の晩としてあるのです。<br/><br/>その押し込めた方の総大将が天若彦という神様で、そうして、もう国常立尊は世の中に出られないようにというので、艮（東北）の方角に押し込めたとなっているのです。<br/><br/>そうして、艮に押し込めたからして艮の金神というお名前にもなり、艮の金神国常立尊となったのです。<br/><br/>そうして節分の晩に豆をまきますが、“炒豆に花が咲いたら出てもよい、さもなければ永久に押し込めてしまう”というわけで、それから炒豆をまいたのです。<br/><br/>それは三千年としてありますが、いよいよ三千年たって、その国常立尊様がふたたびこの世に現われる、その機関としてできたのが大本教です。<br/><br/>ですから大本教のお筆先に「三千世界一度に開く梅の花、艮の金神の世になりたぞよ。<br/><br/>梅で開いて松で治める神国の世になりたぞよ。<br/><br/>日本は神国。<br/><br/>この世は神がかまわなゆけぬ世であるぞよ」ということを教祖は獅子吼（ししく）したわけです。<br/><br/>最初大きな声をして怒鳴ったのです。<br/><br/>それで気違い扱いされて警察に留置されたことがありますが、そういうわけで気違い婆さんにされたわけです。<br/><br/>それが明治二十五年の一月元日です。<br/><br/>ですから“梅で開く”というが、海というのは、花は五弁になってます。<br/><br/>これは五大州を形取ってあるのだそうです。<br/><br/>ですから“一度に開く梅の花”というのは、世界が一度に開くということなのです。<br/><br/>ところが今年の節分は、いよいよ艮の金神様が表になる、つまり今まで三千年隠れていたのが表面になるのです。<br/><br/>それで、大本教を開いたのは、霊界がそうなったのです。<br/><br/>ところが今度は現界がそうなる。<br/><br/>ということになったのは、この節分にお知らせがあったのです。<br/><br/>それはいずれ言いますが、今はまだ言うことはできません。<br/><br/>一年ぐらいは言うことはできないのです。<br/><br/>それはやはり梅に関した奇蹟なのです。<br/><br/>それは私は三、四年前から準備していたことですが、そういうようなわけで、いよいよ表になるということと、それからお筆先に「今度はこの世の閻魔と現われるから」ということがあるのです。<br/><br/>というのは、御隠退になっているときは、霊界に行かれて閻魔大王になるのです。<br/><br/>閻魔大王というのは、要するに霊界における審判の……今で言う検事総長とか最高裁判所長というような、そういった……裁きの最高の地位です。<br/><br/>ところが「この世の閻魔と現われた」というのですからして、今度は現界的の裁きをされるわけです。<br/><br/>これが審判です。<br/><br/> これがまたおもしろいのは、立春の日に京都の方の道具屋が閻魔大王の絵を持ってきたのです。<br/><br/>それで私は“ハハア、神様は、いよいよ国常立尊様が現界の閻魔のお働きをされるということだ”ということを思って買いました。<br/><br/>それは支那の元時代の絵ですが、閻羅（えんら）王と書いてありますが、支那では閻魔大王のことを閻羅王と言うのです。<br/><br/>吉田松陰の書いたものにもありますが、「精神一到何事か成らざらん。<br/><br/>われ王侯を得ずんば、死して閻羅王とならん」ということがありますが、王侯というのは大名のことを言うのです。<br/><br/>やはり日本でも閻羅王ということを言われたわけです。<br/><br/>それで、家来が二、三人いましたが、いずれ美術館に出します。<br/><br/>神様はすべて型で見せますから、その閻羅王の掛物によってお知らせになったわけです。<br/><br/>そういうようなことがあったのです。<br/><br/>立春の日には、その掛物は知らなかったのですが、その掛物は午後に来たのです。<br/><br/>それでこの節分から非常に浄化が強くなるということを言いましたが、やはり合っているわけです。<br/><br/>そういうようなわけで、今年からまた非常に霊界が明るくなるわけです。<br/><br/>明るくなると、善の方は非常によいですが、悪の方は反対に非常に苦しいことになります。<br/><br/>最近いろんな汚職事件が出ましたが、こんなに一度に次々に出るのは、今までに例がないでしょう。<br/><br/>これもやっぱりその一つの現われというように見られないことはないです。<br/><br/>そういうようなわけで、鬼門を非常に嫌って、鬼門は怖いように言いふらされたのは、今言った天若彦の方からそういう宣伝をしたわけです。<br/><br/>それで「福は内、鬼は外」と言いますが、「鬼」というのは、つまり鬼門の金神、艮の金神国常立尊様ということになるからして、実は、一番善い神様、一番立派な神様です。<br/><br/>それでおもしろいのは、大本教の発祥地の綾部では、豆をまくときには「鬼は内、福は外」と言うのです。<br/><br/>それはやっぱりその時分から天若彦に対する反対のやり方だったわけです。<br/><br/>そういうようなわけで、鬼門に越したり、鬼門の方を嫌うということは、人間が正しい人がなかったからです。<br/><br/>たいてい穢れている人や、肚の本当でない人がそっちに越せば、やはりそういった気を受けるから、浄化が起こるわけです。<br/><br/>それで浄化というのは災難や苦しみですから、そこで嫌ったというわけです。<br/><br/>だから本当から言えば、もし方角をかまえば、鬼門に越すのがごくよいのです。<br/><br/>ただ病気と同じで、一時浄化作用が起こりますから、そこで怖がるのですが、そのために後がよくなるのです。<br/><br/>ですから他の宗教は、豆まきというと非常にさかんで、むしろ宣伝的にやりますが、救世教は絶対にやらないということは、そういう根本的の理由があるからです。<br/><br/> 時局についてはしばらく話もしなかったし、一応知っておく必要がありますから書いてみました。<br/><br/> （御論文「時局雑感」） 【栄光 二四八号】 ジャーナリストに対しては、この間も書きましたが、まだ書き足りないような気がするので、もういっそう突っ込んで書いてみました。<br/><br/>これも時の問題で、そう長くは続かないと思いますが、しかし言うべきことは言っておかないといけないと思って書きました。<br/><br/> （御論文「再びジャーナリストの考慮を望む」） 【栄光 二四九号】 二、三日前にアメリカに行っているＡさんから手紙が来ましたが、その中に、アメリカ人が非常に弱っていることが書いてありますが、参考になると思いますから読ませます。<br/><br/> （「米国画信」六） 【栄光 二四八号】 いつも言うとおり、医学は駄目です。<br/><br/>一昨日パテー・ニュースを見ましたが、その中にボクシングで黒人の選手とアメリカ人の選手と両方闘ったのですが、アメリカ人の弱いこと、手玉にとられてました。<br/><br/>ちょうど猫が鼠をオモチャにしているようで、立ち上がればやっつけられ、立ち上がればやっつけられしてました。<br/><br/>それで黒人のほうは白人より小さいのですが、立ち上がればぶつかるというように三度ともそうで、白人をノック・アウトしてしまいました。<br/><br/>私はよくボクシングのニュースを見ましたが、一昨日のぐらい馬鹿馬鹿しいのは見たことがないです。<br/><br/>それで、帰ってからこの手紙を見たので、アメリカ人がいかに弱っているかということが分かったのです。<br/><br/>ですから今年あたりからアメリカの方が大いに発展するだろうと思いますが、そうしたらいよいよ分かる時期が来ると思います。<br/><br/>ところがそれを知らないから、日本人はアメリカ崇拝で、化粧品の広告からなんでも“アメリカ、アメリカ”を出してますが、実に馬鹿馬鹿しくて見ていられないです。<br/><br/>この手紙の中にあるもう一つのおもしろいことは、アメリカ人の信者が三人できたのですが、何病気か非常によく治って、だいぶ働くようなことが書いてありました。<br/><br/>そういうようなわけで、今の科学文明のポロがこれからだんだん出てくるわけです。<br/><br/>さっき言ったとおり、艮の金神様がいよいよ働かれますと、そういったことがみんなはっきりしてしまうのです。<br/><br/>薄暗い所に明かりがさしたようなものです。<br/><br/>そして、お筆先の中にこういうことがあります。<br/><br/>「善と悪とを立分ける」――ということは、つまり善人はますますよくなり、悪人はますます悪くなるということで、そういうことがこれから現われてくるのです。<br/><br/>ですから汚職事件というのはその一つの現われでしょう。<br/><br/>そうなると病人が増えるのと、浄霊の治り方がよくなるのと両方で、どうしても発展するわけです。<br/><br/>ですからある時期に行くと――と言っても、もう間近ですが――非常に信者が増えるとともに、世の中に知れてくるというわけです。<br/><br/>特に地上天国ができるのと、自然農法が知れわたるに従って拍車をかけるわけですから、いよいよおもしろくなります。<br/><br/> この地上天国についても、アメリカのジャーナリストと言いますか、そういう方面が非常に注目してきたのです。<br/><br/>その話は、もう少し具体的になってきてから話しますが、こっちが知らないうちに、先方で調査して非常に研究してます。<br/><br/>それでそのアメリカ人がだいぶ各国の大使などにも知らしているようです。<br/><br/>これはおもしろいので、こっちでなにも頼みもしないうちに、先方で活動しているのですが、やっぱり神様がよろしく働かせているのでしょう。<br/><br/>ですから、もう少したつと、その方面がなかなかおもしろくなるという情報が最近よくありますが、だいぶ楽しみになってきたわけです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

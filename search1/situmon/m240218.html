@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>M240218</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S24年2月18日） 『御光話録』4号、昭和24(1949)年<b>月</b>日発行 昭和二十四年二月十八日（金） ――各地にお祀りしてある同一神仏の御分霊の御力には差がありましょうか。<br><br> ええ、差がありますね。<br><br>そこのところの人間しだいで差がつきます。<br><br>同じ神でも例えばお宮が立派か粗末かによってもその御力が違ってきますし、拝む人が多い少ないでも違います。<br><br>また、心から拝む人が多いほど神の威光は強くなるのです。<br><br>お宮の作りも立派なほど神の格が高くなります。<br><br> ――教導所などもやはり立派なほうがよろしいでしょうか。<br><br> 勿論ですね、立派なほどいいです。<br><br> ――御仏壇はいかがでしょうか。<br><br> 仏壇も同様ですが、しかしこれは「相応の理」によって、その家や身分と相応しなければいけないのです。<br><br>大本教のお筆先に「今の人民神の住居を粗末にし、己が住居ばかり立派にして、神の家をないがしろにしているが……」とありますが、実際いまの人はそうですね。<br><br>しかしこれはたいへんな間違いです。<br><br>やはり家や身分に相応するのがいいんです。<br><br>また反対に、チッポケな家に住んでいるくせに仏壇をあまり不相応に立派にしすぎるのもよくないことで、そんなことをするとなにかお知らせがあります。<br><br>以前平塚のほうの人が、大光明如来をお祀りしたんですが、まもなく雨が漏って台無しにしてしまったことがありました。<br><br>これはその家に不相応なので、祀れないようになってしまったのです。<br><br>で、私は他の小さいのと変えてやったことがありました。<br><br>それからもう一つおもしろいのは「鰯の頭も信心から」と言いますが、くだらない石ころでもなんでも一生懸命拝むとそこへ神仏ができるものです。<br><br>拝む人間の想念でできるのです。<br><br>そして人々が拝んでいる間は神仏の姿は出てますが、拝まなくなると間もなく消えてしまうのです。<br><br>そういうのでもある程度の御利益があるので信仰する人もあるんです。<br><br>その反対に想念によって悪魔もできるんです。<br><br>例えば人を苦しめたりするとその人の怨みの想念が集まって悪魔を作ることがあり、その悪魔のために始終恐怖に襲われたりするんです。<br><br>浜口内閣のときの大蔵大臣だった井上準之助という人は暗殺されたんですが、これは当時緊縮政策をやったので人々から怨まれたためやられたんです。<br><br>人の怨みが集って悪霊となり、それが人間に憑き、その人間を操って復讐することもあります。<br><br>そういうときはたいへんな病気になったりしますよ。<br><br>いまは税務署長なんていうのはまったく危いですね。<br><br>……もう一つの例があります。<br><br>三越の専務は不思議なくらい幾人も死んでいるのです。<br><br>というのはあれはデパートの元祖ですが、デパートができたために小売商人がそうとう没落しました。<br><br>その人々の怨みのためにヘンテコになるんですよ。<br><br>三越の専務で日比大助という人があり、なかなか立派な人だったのですが、最後は精神病になって死んでしまいました。<br><br>だから人から怨まれるのはいけないことで、これくらい損なことはないのです。<br><br>英雄の末路が哀れなのもそのためです。<br><br>明治天皇がおかくれになったのもそうで、支那やロシアと戦ったのでその人々の怨みがくるが、それが日本の中心の天皇に集まるのです。<br><br> ――体の成長と本、副霊の成長とは関係ありましょうか。<br><br> 本霊は人間の成長に伴って成長するわけではありません。<br><br>人間のほうが成長するにつれて智慧が出たりするんで現われる働きが違ってくるんです。<br><br>副霊だって、別に子供につくから子供の副霊ということはありません。<br><br> ――子供の悪智慧はいかがでしょうか。<br><br> 小さくても悪智慧はあるんですが、あっても行動には表わせないんです。<br><br>少し大きくなれば表わします。<br><br>スリだのカッパライなどのチンピラなんかはみんなそうですね。<br><br>（笑声） ――不自然に風邪を引くことはいかがでしょうか。<br><br> 不自然に引くということはないですね。<br><br> ――例えば風邪を引きそうで多少熱もあるが無理して入浴するというようなことはいかがでしょうか。<br><br> いいですよ。<br><br>むしろ引くようにしたほうがいいですよ。<br><br>早いほうが軽くすみますが遅れるほど重くなるんです。<br><br>以前の本にも書いたように「風邪引運動」をしたほうがいいですよ。<br><br>私なんかもずいぶんやりましたよ、風邪引くようにね…… ――母乳の出方についてお伺い申し上げます。<br><br> これは知っていたほうがいいですね。<br><br>乳の出が悪いのは胃が小さいときと、乳腺が圧迫されているときと両方あります。<br><br>乳腺が圧迫されていれば凝っていて、押さえると痛みますからすぐわかります。<br><br>十二本ですかね、乳腺は。<br><br>……一番多いのは毒が胃を前後から圧迫している場合ですが、こうなると胃が小さくなって充分食べられないのです。<br><br>赤ん坊があれば一人半分の食物が必要ですが、それが食べられないため乳も足りなくなるのです。<br><br>御浄霊をすれば楽に出ますよ。<br><br> ――母乳は子供が吸う瞬間に血から乳に変わるのだとの説がございますが。<br><br> さあ、そんなことはないでしょう。<br><br>別に赤子が吸わなくても自然に張って出てくることもあるんですから。<br><br>やはり乳となって乳腺の所に溜まるのですよ。<br><br> ――（一）生殖作用は種族保存と快楽との両方を兼ねるものと存じますが、快楽だけを追求することは罪になりましょうか。<br><br> そんなことはありませんよ、快楽だけでいいんです。<br><br>だから大いに楽しんだらいい。<br><br>（笑声）第一子供をこしらえようとしてもできないし、できたらたいへんだと思っててもできてしまうこともあるんです。<br><br>かえってそのほうが多いでしょう。<br><br>（笑声）……食物を食べることもそれと同じでおいしく食べればいいんです。<br><br>それがちゃんと栄養にもなるのです。<br><br>だからにがいものが好きならともかく、好きでもないのに栄養だからといって無理して食べるのは間違いですよ。<br><br> ――（二）夫婦ともに健康でありながら子供のない人がありますがなぜでしょうか。<br><br> これはたいてい子宮の位置が変わっているためですよ。<br><br>例えば前屈とか後屈のようにずれているからです。<br><br> ――ところが、そういう夫婦が離婚して、それぞれ別々に結婚いたしますと子供のできることがございますが…… それはね、言いにくいが、その方法や男のほうの発射する力の強弱、すんだあとの位置の具合などによるのです。<br><br>位置なんかも大事ですよ。<br><br>……教えたほうがいいんだな既婚者には。<br><br>子供のできない人に教えて効果のあったことがありますよ。<br><br>……私はいろんなことについて物知りになっててね……（笑声） ――（三）お道に入る人には龍神が多いとのお言葉でしたが、婦人でもそうでしょうか。<br><br>またもしそうでしたら結婚などはいかがいたすべきでしょうか。<br><br> 婦人の方が多いですよ、龍神系は。<br><br>それでね、龍女は結婚を嫌いますよ。<br><br>しかし恋愛はしますがだいたい精神的な恋愛ですね。<br><br>そういうのは本当の龍女です。<br><br>龍女は結婚しても夫婦生活は不仕合せですね。<br><br>だから結婚はしないほうがいいんです。<br><br>一生独身で暮らす人や結婚してもすぐ主人と別れてしまう人は龍女です。<br><br>そのほか天狗もあります。<br><br>なんとか女史なんて言われるのは天狗ですね。<br><br>（笑声） ――約束婦仲がよすぎて子ができないということを聞きますがいかがでしょうか。<br><br> 子供のあるなしは夫婦仲にはそう関係がないですね。<br><br>仲のよさそうな夫婦でも子供のない人もあれば、しょっちゅう夫婦喧嘩ばかりしていても次々と子供のできる人もありますからね。<br><br>（笑声）そうかと思うと一回暴行されただけで妊娠する人もあるし、だからたいして夫婦仲とは関係ないようですね。<br><br> ――仲がよすぎると機能が傷むために子ができないとも申しますが…… そんなことはない、安心して使いなさい。<br><br>（爆笑）……肺病なんかの場合、医者はよく節制しろというがこれは嘘です。<br><br>なぜなら、そういう気持ちが起るということはしても差し支えないという意味なのです。<br><br>それだけの体力があるからです。<br><br>もし体力がなければそんな気持ちは起きやしませんよ。<br><br>「ひとのみち」では病気になるのはあれが少ないからだといって我慢してさせる場合があります。<br><br>だいぶ前に「ひとのみち」から私の弟子になった人がありましたが、このことのために「ひとのみち」をやめたと言ってました。<br><br> ――（五）精虫と卵子の数についてお伺い申し上げます。<br><br> 精虫はたいへんな数ですね、何億と言われますが、これは本当でしょうね。<br><br>卵子はやはり一つでしょうね。<br><br> ――なぜ精虫のほうがそんなに多いのでしょうか。<br><br> どうして多いかと言ったって、神様がそう作られたんであって、別に私が作ったわけではないから……（爆笑） ――（六）精液を不浄扱いすることは罪になりましょうか。<br><br> そんなことはないでしょう。<br><br>むしろ不浄扱いにしたほうがいいでしょうね、ああいうものは。<br><br> ――（七）中性についてお伺い申し上げます。<br><br> 中性というのは男と女と両方で、これは治りませんね。<br><br>無論霊的です。<br><br>前世に関係があるんですがね。<br><br>医者に行くと、男になりたいか女になりたいかと言われ、希望するほうを残して他を処理してしまうのです。<br><br>そうするとちゃんと男なら男、女なら女になります。<br><br>これは前世で心中なんかしたのが再生した場合になるので、来世までも離れまいという想念のため、今度は離れないどころか一つになってしまうのです。<br><br> ――（八）双子には頭のよいのが多いと聞きますがいかがでしょうか。<br><br> そういうわけもないでしょう。<br><br>たまにはありますが、そういうのが目立つんでしょう。<br><br> ――双子と三ツ子は霊的に違うのでしょうか。<br><br> 三ツ子のほうは動物的ですね。<br><br>双子のほうは恋愛や同性愛のように仲のよかったのが再生するのです。<br><br> ――（九）血族結婚はいかがでしょうか。<br><br> これは差し支えありませんよ。<br><br>しかし、まあ親子や兄弟の間ではよしたほうがいいでしょうね。<br><br>（笑声）……西洋でも血族結婚は差し支えないと言ってますね。<br><br> ――こういう席上でおそれ入りますが、夫婦がやすみます場合、御守り様をかけたままでよろしいでしょうか。<br><br> ええ、かまいません。<br><br> ――自涜ということはいかがでしょうか。<br><br> よいか悪いかは常識で考えたらいいでしょう。<br><br>……ユダヤでは子供に「割礼」というものを施しますが、これは自涜を防ぐためで、だからユダヤ人は頭がいいのだと言われてます。<br><br>あれをすると頭はたしかに悪くなりますね。<br><br> ――学校在学中の人がお道に入り、この歴史的な偉大な意義を覚らせていただくにつれて、 （一）現在の学校教育 （二）いままでの「夜の世界」の学問研究などに対しどのような態度を取るべきかということについて悩む人がございますが、この点いかがいたしたらよろしいでしょうか。<br><br> そのうち私はこういうことについて論文を書くつもりですが、現在までの学校教育も学問も間違っているんです。<br><br>二、三日前もある人と話をしたんですが、その人が、多くの人を使った場合大学教育を受けた人のほうが役に立たない、というので、私は、それはね、大学教育というものは既成の学問であり旧式だ、二十年前に大学を出てもいまはずっと世の中が進んでいる、にもかかわらず二十年前に学んだものを当てはめようとする、だからうまくゆくはずがない。<br><br>ちょうど夏になったのに冬の綿入れを着せようとするのと同じです。<br><br>学問は既成文化にとらわれているし、また理屈に傾きすぎている。<br><br>そんなカビの生えた理屈を現在に当てはめようとするから駄目なんです、と話したんですが、そのとき傍にいた人は中途からいい加減の学問をした人ですが馬鹿に頭がいいんです。<br><br>実際あまり小さいときから学問をするのはいけないんですね。<br><br>いまの学校教育も既成の理屈で固めすぎる。<br><br>だからあまり固めないで社会の発展と調子を合わせなければいけないのです。<br><br> ――現在会員になっております一高の学生ですが、学校を止めてお道のお手伝いをさせていただくべきか、大学まで出てからにするか迷っておりますが…… それはもう学校は止めたほうが利口になるでしょうね。<br><br>学問を学ぶのも高等学校まで行けばもう充分ですよ。<br><br> ――いままでの歴史的な古典などを研究することはいかがでしょうか。<br><br> ええいいですとも、大いにやったらいいです。<br><br>古いものもある程度必要ですからね。<br><br>これから変わるといっても全部変わるのではなく、古いものからいいのを引き抜くんです。<br><br> ――「古きを温（たず）ねて新しきを知る」という態度ならよろしいでしょうか。<br><br> ええ、そうです。<br><br>研究はいいんですよ。<br><br>研究はいいのだがそれに溺れてしまってはいけないんです。<br><br>……いまの政治家の政治が下手なのは腹のある人がないからで、それは、いまの大臣はほとんど大学出、殊に東大です。<br><br>で、だんだん人物が小さくなり、理屈だけは知っているがどうにもならない石頭になってるからです。<br><br>昔の政治家はあまり学問なんかしなかった。<br><br>トルーマンは一九二一年には小間物屋の小売りをやっていたそうですね、デューイのほうは大学を出てますが。<br><br>私も以前は小間物屋をやっていたので大いに意を強うしているんです。<br><br>（笑声） ――仏滅になると仏の力は弱くなるのでしょうか、あるいはまったくなくなるのでしょうか。<br><br> まったくなくなるんですね。<br><br>つまり、仏は月ですから太陽が出れば月の光はなくなって、ただ白くなってしまうのです。<br><br> ――そういたしますといままでの仏は神に帰られるのでしょうか。<br><br> ええそうです。<br><br>阿弥陀は月読命、釈迦は若〔稚〕姫君尊という女の神様です。<br><br>が、今度もまたその神様に帰られるかどうかは判りません。<br><br> ――お弟子を指導させていただく場合、差別と平等はどのようにいたすべきでしょうか。<br><br>例えばずっと以前からお弟子になってもたいした働きのない人と、お弟子になったのは新しくても大いに働きのある人との場合はいかがいたすべきでしょうか。<br><br> これはね、どっちとも決めてはいけないのです。<br><br>働きと古さとどっちに片寄ってもいけない。<br><br>古い人には古い人としての功績があり、骨董ではないが古さの味がある。<br><br>（笑声） そしてどちらを主にするかと言えば、勿論働きを主にすべきです。<br><br>そして臨機応変にちょうどよくやったらいいのです。<br><br>こういうことは世の中の人間は下手でね。<br><br>また学問では駄目ですよ。<br><br>……差別は縦であり平等は横ですからどっちに片寄りすぎてもいけないのです。<br><br>この前、社会党が煙草の配給を男女とも同じにしたが、実際は女より男のほうが喫むのだからこれでは不公平です。<br><br>だから私は「公平は不公平で、不公平が公平だ」というのですよ。<br><br>（笑声） ――左腎部神経痛できた婦人、神経痛は治りましたが、以前からの便秘症には変化がなく最近はかえってひどくなり、恥骨周辺に激痛がときどき起り小用が漏れると申します。<br><br>以前開腹手術をしたことがありその際相当量の全身麻酔を行なっています。<br><br>右便秘の原因を御教示ください。<br><br> これはそのときの薬毒です。<br><br>ちょっと永くかかりますね。<br><br>手術したときの薬毒が下がってくるんだから、その奥へ届くようによく御浄霊してあげることです。<br><br>……便秘の原因はいろいろありますが、小食の人、食物をよく噛む人、直腸が狭い場合、これは毒の固まりがあるためだからそれを溶かせばいい。<br><br>それからまた水分の摂り方が少ないと便秘しますね。<br><br> ――最近山梨地方に真っ赤な火の玉のような流星が現われましたが、いかなる意味でしょうか。<br><br> 流星の大きいのが出たそうですが、これは星が破裂するんです。<br><br>大空には暗星といって見えない星がどれくらいあるか判りません。<br><br>ところがこの暗星が硬化してくると光り出すんです。<br><br>そして硬化が頂点に達すると破裂して、二つになったり、三つになったり、あるいは無数に粉々になったりするのもあります。<br><br> ――人間の数と星の数とは同一でしょうか。<br><br> ええ同じです。<br><br> ――星の中には自分で光を出すのもあるのでしょうか。<br><br> それはありません。<br><br>宇宙で、自分で光を出すのは太陽だけで、星はすべて太陽の光を反射するんです。<br><br> ――左の事柄についてお伺い申し上げます。<br><br> （一）眠りにつくときウナサレる人。<br><br> これは霊が来て押しつけるんです。<br><br>なかなか苦しいんですがね。<br><br> ――（二）若白髪の原因、および見苦しい所に白髪染め使用の可否。<br><br> これは薬毒です。<br><br>私の頭の白いのも薬毒のためです。<br><br>私は若いとき歯が悪くてそうとう薬を使ったんですが、それが頭を使ったため頭へ集まったのです。<br><br>白髪染めは使ってもいいですが、頭についたりすると浄化を起すことがあります。<br><br> ――（三）御浄霊していて死亡した場合、一時発展の妨げになりますが、これはいかがいたすべきでしょうか。<br><br> これはうっちゃらかしておけばいいんです。<br><br>死んだ霊が霊界で働いてくれますから。<br><br>自分が死んだため迷惑をかけたのを取り戻そうとして大いに働いてくれますからね。<br><br> ――（四）満州風邪の流行は浄化が強くなったためでしょうか。<br><br> いろんな風邪がありますからね。<br><br>無論浄化が強くなったことも関係してるでしょう。<br><br> ――三月三日、五月五日のお節句の意味についてお伺い申し上げます。<br><br> 数から言うと五が男、三が女です。<br><br>五は火、三は水ですから、三月三日が女、五月五日は男になったのです。<br><br>だから「伊都能売」は五と三と書いてもいいのです、イヅは火、ミズは水ですから。<br><br>三五というと火が下になるから五三が本当です。<br><br> ――七五三などはいかがでしょうか。<br><br> 七は土ですからこれは嘘ですね。<br><br>七五三ではなく、五六七が本当です。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Esclarecimentos sobre a Fé e os Princípios da Vida</h2>
 <p><strong>Pergunta: Haveria diferença no poder dos espíritos divinos de uma mesma divindade, quando esta é consagrada em diferentes locais?</strong></p>
@@ -179,5 +331,48 @@ function toggleLang(lang) {
 <p>Pela numerologia, o cinco representa o masculino e o três, o feminino. Cinco é fogo, e três é água. Assim, 3 de março se tornou o dia das meninas, e 5 de maio, o dia dos meninos. Por essa razão, "Izunome" pode ser escrito com os ideogramas de cinco e três, pois "izu" é fogo, e "mizu" é água. Se escrevermos três-cinco, o fogo fica embaixo, então a forma correta é cinco-três.</p>
 <p><strong>Pergunta: E o Shichi-Go-San (festival das idades 7, 5 e 3)?</strong></p>
 <p>O sete representa a terra, portanto essa combinação não é correta. O certo não é sete-cinco-três, mas sim cinco-seis-sete.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S24年2月18日） 『御光話録』4号、昭和24(1949)年**月**日発行 昭和二十四年二月十八日（金） ――各地にお祀りしてある同一神仏の御分霊の御力には差がありましょうか。<br/><br/> ええ、差がありますね。<br/><br/>そこのところの人間しだいで差がつきます。<br/><br/>同じ神でも例えばお宮が立派か粗末かによってもその御力が違ってきますし、拝む人が多い少ないでも違います。<br/><br/>また、心から拝む人が多いほど神の威光は強くなるのです。<br/><br/>お宮の作りも立派なほど神の格が高くなります。<br/><br/> ――教導所などもやはり立派なほうがよろしいでしょうか。<br/><br/> 勿論ですね、立派なほどいいです。<br/><br/> ――御仏壇はいかがでしょうか。<br/><br/> 仏壇も同様ですが、しかしこれは「相応の理」によって、その家や身分と相応しなければいけないのです。<br/><br/>大本教のお筆先に「今の人民神の住居を粗末にし、己が住居ばかり立派にして、神の家をないがしろにしているが……」とありますが、実際いまの人はそうですね。<br/><br/>しかしこれはたいへんな間違いです。<br/><br/>やはり家や身分に相応するのがいいんです。<br/><br/>また反対に、チッポケな家に住んでいるくせに仏壇をあまり不相応に立派にしすぎるのもよくないことで、そんなことをするとなにかお知らせがあります。<br/><br/>以前平塚のほうの人が、大光明如来をお祀りしたんですが、まもなく雨が漏って台無しにしてしまったことがありました。<br/><br/>これはその家に不相応なので、祀れないようになってしまったのです。<br/><br/>で、私は他の小さいのと変えてやったことがありました。<br/><br/>それからもう一つおもしろいのは「鰯の頭も信心から」と言いますが、くだらない石ころでもなんでも一生懸命拝むとそこへ神仏ができるものです。<br/><br/>拝む人間の想念でできるのです。<br/><br/>そして人々が拝んでいる間は神仏の姿は出てますが、拝まなくなると間もなく消えてしまうのです。<br/><br/>そういうのでもある程度の御利益があるので信仰する人もあるんです。<br/><br/>その反対に想念によって悪魔もできるんです。<br/><br/>例えば人を苦しめたりするとその人の怨みの想念が集まって悪魔を作ることがあり、その悪魔のために始終恐怖に襲われたりするんです。<br/><br/>浜口内閣のときの大蔵大臣だった井上準之助という人は暗殺されたんですが、これは当時緊縮政策をやったので人々から怨まれたためやられたんです。<br/><br/>人の怨みが集って悪霊となり、それが人間に憑き、その人間を操って復讐することもあります。<br/><br/>そういうときはたいへんな病気になったりしますよ。<br/><br/>いまは税務署長なんていうのはまったく危いですね。<br/><br/>……もう一つの例があります。<br/><br/>三越の専務は不思議なくらい幾人も死んでいるのです。<br/><br/>というのはあれはデパートの元祖ですが、デパートができたために小売商人がそうとう没落しました。<br/><br/>その人々の怨みのためにヘンテコになるんですよ。<br/><br/>三越の専務で日比大助という人があり、なかなか立派な人だったのですが、最後は精神病になって死んでしまいました。<br/><br/>だから人から怨まれるのはいけないことで、これくらい損なことはないのです。<br/><br/>英雄の末路が哀れなのもそのためです。<br/><br/>明治天皇がおかくれになったのもそうで、支那やロシアと戦ったのでその人々の怨みがくるが、それが日本の中心の天皇に集まるのです。<br/><br/> ――体の成長と本、副霊の成長とは関係ありましょうか。<br/><br/> 本霊は人間の成長に伴って成長するわけではありません。<br/><br/>人間のほうが成長するにつれて智慧が出たりするんで現われる働きが違ってくるんです。<br/><br/>副霊だって、別に子供につくから子供の副霊ということはありません。<br/><br/> ――子供の悪智慧はいかがでしょうか。<br/><br/> 小さくても悪智慧はあるんですが、あっても行動には表わせないんです。<br/><br/>少し大きくなれば表わします。<br/><br/>スリだのカッパライなどのチンピラなんかはみんなそうですね。<br/><br/>（笑声） ――不自然に風邪を引くことはいかがでしょうか。<br/><br/> 不自然に引くということはないですね。<br/><br/> ――例えば風邪を引きそうで多少熱もあるが無理して入浴するというようなことはいかがでしょうか。<br/><br/> いいですよ。<br/><br/>むしろ引くようにしたほうがいいですよ。<br/><br/>早いほうが軽くすみますが遅れるほど重くなるんです。<br/><br/>以前の本にも書いたように「風邪引運動」をしたほうがいいですよ。<br/><br/>私なんかもずいぶんやりましたよ、風邪引くようにね…… ――母乳の出方についてお伺い申し上げます。<br/><br/> これは知っていたほうがいいですね。<br/><br/>乳の出が悪いのは胃が小さいときと、乳腺が圧迫されているときと両方あります。<br/><br/>乳腺が圧迫されていれば凝っていて、押さえると痛みますからすぐわかります。<br/><br/>十二本ですかね、乳腺は。<br/><br/>……一番多いのは毒が胃を前後から圧迫している場合ですが、こうなると胃が小さくなって充分食べられないのです。<br/><br/>赤ん坊があれば一人半分の食物が必要ですが、それが食べられないため乳も足りなくなるのです。<br/><br/>御浄霊をすれば楽に出ますよ。<br/><br/> ――母乳は子供が吸う瞬間に血から乳に変わるのだとの説がございますが。<br/><br/> さあ、そんなことはないでしょう。<br/><br/>別に赤子が吸わなくても自然に張って出てくることもあるんですから。<br/><br/>やはり乳となって乳腺の所に溜まるのですよ。<br/><br/> ――（一）生殖作用は種族保存と快楽との両方を兼ねるものと存じますが、快楽だけを追求することは罪になりましょうか。<br/><br/> そんなことはありませんよ、快楽だけでいいんです。<br/><br/>だから大いに楽しんだらいい。<br/><br/>（笑声）第一子供をこしらえようとしてもできないし、できたらたいへんだと思っててもできてしまうこともあるんです。<br/><br/>かえってそのほうが多いでしょう。<br/><br/>（笑声）……食物を食べることもそれと同じでおいしく食べればいいんです。<br/><br/>それがちゃんと栄養にもなるのです。<br/><br/>だからにがいものが好きならともかく、好きでもないのに栄養だからといって無理して食べるのは間違いですよ。<br/><br/> ――（二）夫婦ともに健康でありながら子供のない人がありますがなぜでしょうか。<br/><br/> これはたいてい子宮の位置が変わっているためですよ。<br/><br/>例えば前屈とか後屈のようにずれているからです。<br/><br/> ――ところが、そういう夫婦が離婚して、それぞれ別々に結婚いたしますと子供のできることがございますが…… それはね、言いにくいが、その方法や男のほうの発射する力の強弱、すんだあとの位置の具合などによるのです。<br/><br/>位置なんかも大事ですよ。<br/><br/>……教えたほうがいいんだな既婚者には。<br/><br/>子供のできない人に教えて効果のあったことがありますよ。<br/><br/>……私はいろんなことについて物知りになっててね……（笑声） ――（三）お道に入る人には龍神が多いとのお言葉でしたが、婦人でもそうでしょうか。<br/><br/>またもしそうでしたら結婚などはいかがいたすべきでしょうか。<br/><br/> 婦人の方が多いですよ、龍神系は。<br/><br/>それでね、龍女は結婚を嫌いますよ。<br/><br/>しかし恋愛はしますがだいたい精神的な恋愛ですね。<br/><br/>そういうのは本当の龍女です。<br/><br/>龍女は結婚しても夫婦生活は不仕合せですね。<br/><br/>だから結婚はしないほうがいいんです。<br/><br/>一生独身で暮らす人や結婚してもすぐ主人と別れてしまう人は龍女です。<br/><br/>そのほか天狗もあります。<br/><br/>なんとか女史なんて言われるのは天狗ですね。<br/><br/>（笑声） ――約束婦仲がよすぎて子ができないということを聞きますがいかがでしょうか。<br/><br/> 子供のあるなしは夫婦仲にはそう関係がないですね。<br/><br/>仲のよさそうな夫婦でも子供のない人もあれば、しょっちゅう夫婦喧嘩ばかりしていても次々と子供のできる人もありますからね。<br/><br/>（笑声）そうかと思うと一回暴行されただけで妊娠する人もあるし、だからたいして夫婦仲とは関係ないようですね。<br/><br/> ――仲がよすぎると機能が傷むために子ができないとも申しますが…… そんなことはない、安心して使いなさい。<br/><br/>（爆笑）……肺病なんかの場合、医者はよく節制しろというがこれは嘘です。<br/><br/>なぜなら、そういう気持ちが起るということはしても差し支えないという意味なのです。<br/><br/>それだけの体力があるからです。<br/><br/>もし体力がなければそんな気持ちは起きやしませんよ。<br/><br/>「ひとのみち」では病気になるのはあれが少ないからだといって我慢してさせる場合があります。<br/><br/>だいぶ前に「ひとのみち」から私の弟子になった人がありましたが、このことのために「ひとのみち」をやめたと言ってました。<br/><br/> ――（五）精虫と卵子の数についてお伺い申し上げます。<br/><br/> 精虫はたいへんな数ですね、何億と言われますが、これは本当でしょうね。<br/><br/>卵子はやはり一つでしょうね。<br/><br/> ――なぜ精虫のほうがそんなに多いのでしょうか。<br/><br/> どうして多いかと言ったって、神様がそう作られたんであって、別に私が作ったわけではないから……（爆笑） ――（六）精液を不浄扱いすることは罪になりましょうか。<br/><br/> そんなことはないでしょう。<br/><br/>むしろ不浄扱いにしたほうがいいでしょうね、ああいうものは。<br/><br/> ――（七）中性についてお伺い申し上げます。<br/><br/> 中性というのは男と女と両方で、これは治りませんね。<br/><br/>無論霊的です。<br/><br/>前世に関係があるんですがね。<br/><br/>医者に行くと、男になりたいか女になりたいかと言われ、希望するほうを残して他を処理してしまうのです。<br/><br/>そうするとちゃんと男なら男、女なら女になります。<br/><br/>これは前世で心中なんかしたのが再生した場合になるので、来世までも離れまいという想念のため、今度は離れないどころか一つになってしまうのです。<br/><br/> ――（八）双子には頭のよいのが多いと聞きますがいかがでしょうか。<br/><br/> そういうわけもないでしょう。<br/><br/>たまにはありますが、そういうのが目立つんでしょう。<br/><br/> ――双子と三ツ子は霊的に違うのでしょうか。<br/><br/> 三ツ子のほうは動物的ですね。<br/><br/>双子のほうは恋愛や同性愛のように仲のよかったのが再生するのです。<br/><br/> ――（九）血族結婚はいかがでしょうか。<br/><br/> これは差し支えありませんよ。<br/><br/>しかし、まあ親子や兄弟の間ではよしたほうがいいでしょうね。<br/><br/>（笑声）……西洋でも血族結婚は差し支えないと言ってますね。<br/><br/> ――こういう席上でおそれ入りますが、夫婦がやすみます場合、御守り様をかけたままでよろしいでしょうか。<br/><br/> ええ、かまいません。<br/><br/> ――自涜ということはいかがでしょうか。<br/><br/> よいか悪いかは常識で考えたらいいでしょう。<br/><br/>……ユダヤでは子供に「割礼」というものを施しますが、これは自涜を防ぐためで、だからユダヤ人は頭がいいのだと言われてます。<br/><br/>あれをすると頭はたしかに悪くなりますね。<br/><br/> ――学校在学中の人がお道に入り、この歴史的な偉大な意義を覚らせていただくにつれて、 （一）現在の学校教育 （二）いままでの「夜の世界」の学問研究などに対しどのような態度を取るべきかということについて悩む人がございますが、この点いかがいたしたらよろしいでしょうか。<br/><br/> そのうち私はこういうことについて論文を書くつもりですが、現在までの学校教育も学問も間違っているんです。<br/><br/>二、三日前もある人と話をしたんですが、その人が、多くの人を使った場合大学教育を受けた人のほうが役に立たない、というので、私は、それはね、大学教育というものは既成の学問であり旧式だ、二十年前に大学を出てもいまはずっと世の中が進んでいる、にもかかわらず二十年前に学んだものを当てはめようとする、だからうまくゆくはずがない。<br/><br/>ちょうど夏になったのに冬の綿入れを着せようとするのと同じです。<br/><br/>学問は既成文化にとらわれているし、また理屈に傾きすぎている。<br/><br/>そんなカビの生えた理屈を現在に当てはめようとするから駄目なんです、と話したんですが、そのとき傍にいた人は中途からいい加減の学問をした人ですが馬鹿に頭がいいんです。<br/><br/>実際あまり小さいときから学問をするのはいけないんですね。<br/><br/>いまの学校教育も既成の理屈で固めすぎる。<br/><br/>だからあまり固めないで社会の発展と調子を合わせなければいけないのです。<br/><br/> ――現在会員になっております一高の学生ですが、学校を止めてお道のお手伝いをさせていただくべきか、大学まで出てからにするか迷っておりますが…… それはもう学校は止めたほうが利口になるでしょうね。<br/><br/>学問を学ぶのも高等学校まで行けばもう充分ですよ。<br/><br/> ――いままでの歴史的な古典などを研究することはいかがでしょうか。<br/><br/> ええいいですとも、大いにやったらいいです。<br/><br/>古いものもある程度必要ですからね。<br/><br/>これから変わるといっても全部変わるのではなく、古いものからいいのを引き抜くんです。<br/><br/> ――「古きを温（たず）ねて新しきを知る」という態度ならよろしいでしょうか。<br/><br/> ええ、そうです。<br/><br/>研究はいいんですよ。<br/><br/>研究はいいのだがそれに溺れてしまってはいけないんです。<br/><br/>……いまの政治家の政治が下手なのは腹のある人がないからで、それは、いまの大臣はほとんど大学出、殊に東大です。<br/><br/>で、だんだん人物が小さくなり、理屈だけは知っているがどうにもならない石頭になってるからです。<br/><br/>昔の政治家はあまり学問なんかしなかった。<br/><br/>トルーマンは一九二一年には小間物屋の小売りをやっていたそうですね、デューイのほうは大学を出てますが。<br/><br/>私も以前は小間物屋をやっていたので大いに意を強うしているんです。<br/><br/>（笑声） ――仏滅になると仏の力は弱くなるのでしょうか、あるいはまったくなくなるのでしょうか。<br/><br/> まったくなくなるんですね。<br/><br/>つまり、仏は月ですから太陽が出れば月の光はなくなって、ただ白くなってしまうのです。<br/><br/> ――そういたしますといままでの仏は神に帰られるのでしょうか。<br/><br/> ええそうです。<br/><br/>阿弥陀は月読命、釈迦は若〔稚〕姫君尊という女の神様です。<br/><br/>が、今度もまたその神様に帰られるかどうかは判りません。<br/><br/> ――お弟子を指導させていただく場合、差別と平等はどのようにいたすべきでしょうか。<br/><br/>例えばずっと以前からお弟子になってもたいした働きのない人と、お弟子になったのは新しくても大いに働きのある人との場合はいかがいたすべきでしょうか。<br/><br/> これはね、どっちとも決めてはいけないのです。<br/><br/>働きと古さとどっちに片寄ってもいけない。<br/><br/>古い人には古い人としての功績があり、骨董ではないが古さの味がある。<br/><br/>（笑声） そしてどちらを主にするかと言えば、勿論働きを主にすべきです。<br/><br/>そして臨機応変にちょうどよくやったらいいのです。<br/><br/>こういうことは世の中の人間は下手でね。<br/><br/>また学問では駄目ですよ。<br/><br/>……差別は縦であり平等は横ですからどっちに片寄りすぎてもいけないのです。<br/><br/>この前、社会党が煙草の配給を男女とも同じにしたが、実際は女より男のほうが喫むのだからこれでは不公平です。<br/><br/>だから私は「公平は不公平で、不公平が公平だ」というのですよ。<br/><br/>（笑声） ――左腎部神経痛できた婦人、神経痛は治りましたが、以前からの便秘症には変化がなく最近はかえってひどくなり、恥骨周辺に激痛がときどき起り小用が漏れると申します。<br/><br/>以前開腹手術をしたことがありその際相当量の全身麻酔を行なっています。<br/><br/>右便秘の原因を御教示ください。<br/><br/> これはそのときの薬毒です。<br/><br/>ちょっと永くかかりますね。<br/><br/>手術したときの薬毒が下がってくるんだから、その奥へ届くようによく御浄霊してあげることです。<br/><br/>……便秘の原因はいろいろありますが、小食の人、食物をよく噛む人、直腸が狭い場合、これは毒の固まりがあるためだからそれを溶かせばいい。<br/><br/>それからまた水分の摂り方が少ないと便秘しますね。<br/><br/> ――最近山梨地方に真っ赤な火の玉のような流星が現われましたが、いかなる意味でしょうか。<br/><br/> 流星の大きいのが出たそうですが、これは星が破裂するんです。<br/><br/>大空には暗星といって見えない星がどれくらいあるか判りません。<br/><br/>ところがこの暗星が硬化してくると光り出すんです。<br/><br/>そして硬化が頂点に達すると破裂して、二つになったり、三つになったり、あるいは無数に粉々になったりするのもあります。<br/><br/> ――人間の数と星の数とは同一でしょうか。<br/><br/> ええ同じです。<br/><br/> ――星の中には自分で光を出すのもあるのでしょうか。<br/><br/> それはありません。<br/><br/>宇宙で、自分で光を出すのは太陽だけで、星はすべて太陽の光を反射するんです。<br/><br/> ――左の事柄についてお伺い申し上げます。<br/><br/> （一）眠りにつくときウナサレる人。<br/><br/> これは霊が来て押しつけるんです。<br/><br/>なかなか苦しいんですがね。<br/><br/> ――（二）若白髪の原因、および見苦しい所に白髪染め使用の可否。<br/><br/> これは薬毒です。<br/><br/>私の頭の白いのも薬毒のためです。<br/><br/>私は若いとき歯が悪くてそうとう薬を使ったんですが、それが頭を使ったため頭へ集まったのです。<br/><br/>白髪染めは使ってもいいですが、頭についたりすると浄化を起すことがあります。<br/><br/> ――（三）御浄霊していて死亡した場合、一時発展の妨げになりますが、これはいかがいたすべきでしょうか。<br/><br/> これはうっちゃらかしておけばいいんです。<br/><br/>死んだ霊が霊界で働いてくれますから。<br/><br/>自分が死んだため迷惑をかけたのを取り戻そうとして大いに働いてくれますからね。<br/><br/> ――（四）満州風邪の流行は浄化が強くなったためでしょうか。<br/><br/> いろんな風邪がありますからね。<br/><br/>無論浄化が強くなったことも関係してるでしょう。<br/><br/> ――三月三日、五月五日のお節句の意味についてお伺い申し上げます。<br/><br/> 数から言うと五が男、三が女です。<br/><br/>五は火、三は水ですから、三月三日が女、五月五日は男になったのです。<br/><br/>だから「伊都能売」は五と三と書いてもいいのです、イヅは火、ミズは水ですから。<br/><br/>三五というと火が下になるから五三が本当です。<br/><br/> ――七五三などはいかがでしょうか。<br/><br/> 七は土ですからこれは嘘ですね。<br/><br/>七五三ではなく、五六七が本当です。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

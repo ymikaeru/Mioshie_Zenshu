@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s290306</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S29年3月6日） 『御教え集』32号、昭和29(1954)年4月15日発行 昭和二十九年三月六日 今度、今まで私の書いたものの中から選んで「救世教の聖書」みたいなものを編集するについて、序文を書いてもらいたいというので書いてみましたから読ませます。<br><br> （御論文「 救世教とは何ぞや 序文」） 【栄光 二五三号】 よく“救世教にはまだ教義がない”とか言われるのですが、これは、つまり世間一般の宗教として見るから、その教義というものを考えるのです。<br><br>本当いうと宗教ではないのだから、教義などはいらないわけです。<br><br>だいたい「教義」という言葉がピッタリしてないのです。<br><br>教えではないのですから……。<br><br>教義というものは昔から、ほとんどの宗教にはありますから、随分立派な、よくできた教義がたくさんあります。<br><br>つまり教義というのは、教えの理屈ですから、教えでは人間は救えないです。<br><br> 今度の静岡民報に私のことが続きものになって出始めましたが、あの中にちょっとうまいことがあります。<br><br>“自分は若い時分にキリスト教の聖書研究会で奇蹟について言い争い、どうしても奇蹟が信じられないというので、バイブルから奇蹟の所を全部消した。<br><br>そうして読んでみると、これは宗教書ではなく道徳書の方になった。<br><br>それが分かってみると、さっぱり興味がなくなって止めてしまった”ということがありましたが、それはうまいことだと思います。<br><br>つまり宗教というものは教えだけでは、やはり一つの道徳になるのです。<br><br>そういった道徳以外に、つまり理屈のつかない不思議なものがあるので、それが宗教の根本ですから、その不思議、奇蹟が多いほど宗教としての価値があるわけです。<br><br>そうなると、宗教としての価値というよりか、むしろ宗教ではなくなってしまうわけです。<br><br>ですから教えはいらないわけです。<br><br> ここのところがなかなか難しいですが、ちょうど犯罪者が出ないように法律を作るということです。<br><br>法律を作るということは、“こういう悪いことをすれば、こういう罪になる、こういう刑罰を与えられる”ということで、わずかに秩序を維持してゆくというわけです。<br><br>それから宗教の教えというものは“人間はこうすべきものではない”“こうしなければならない”と、箇条書になっているのが随分あります。<br><br>だいたいその元祖はモーゼの十戒です。<br><br>“何すべし”とか“何すべからず”とか、ということでは、やっぱり、法律のような肉体的刑罰はないが、つまり霊的刑罰、そういうものがあるわけです。<br><br>聖書にある“他の女を、どうしようとか思うということは、すでに姦淫の罪を犯している”というような、一つの霊的刑罰です。<br><br>人間は刑罰によって良いことをする、悪いことをしないというのでは本当のものではないのです。<br><br>ちょうど酒を飲むと毒だから飲まないようにしなければいけないと、一生懸命我慢するというのと同じです。<br><br>ですから、宗教とすればまだ低い所です。<br><br>高い所ではないのです。<br><br>そこで高い宗教というものは、“そうすべからず”とか、そういった刑罰がなく、ただそういうことが嫌なのです。<br><br>酒なら酒を飲みたくなくなるのです。<br><br>それで、そういう変なことはする趣味がなくなってしまうのです。<br><br>悪いことやずるいことをするのは、やっぱり趣味なのです。<br><br>汚職事件などをする人は、ああいうことが好きなのです。<br><br>気持ちの良い、並の手段で金を儲けるというのよりか、暗い所でやるそれがおもしろいのです。<br><br>ということは、つまりその人の魂が本当でない、低いからです。<br><br>魂が低くなければそういうことはしないのです。<br><br>つまり動物的根性が多分にあるから、どうも明るい、人間的感情がごく少ないわけです。<br><br>やっぱり刑罰という檻がなくては危ないのです。<br><br>檻があっても、それを破っているのですから……。<br><br>ですから霊的に言うとずっと低いのです。<br><br>本当に言うと、世の中で言う政治家とか、肩で風を切っている偉い人は、霊的に言うと実に低いのです。<br><br>下等なわけです。<br><br>そういうようなわけで、法律も戒律もなにもなくても悪いことをしない、悪いことに趣味が起こらない、それで良いことをするのがおもしろいという魂になると、それが本当の魂です。<br><br>ですからウッチャラかしておいても悪いことをしないというので、人が見ているから悪いことをしないというのではいけないわけです。<br><br>そういう人間を作るのが救世教の本筋なのです。<br><br>しかし無論いきなりそういう立派な人間になれるわけがないから、教義というものも必要です。<br><br>しかし根本はもっと上の方にあるのだからして、そこで宗教ではないというわけです。<br><br>今までこういう上等なものは出なかったのです。<br><br>ところがそういった上等なものが出たのです。<br><br>だからそういった上等なことを分からせるには、なかなか簡単にはゆかないです。<br><br>“そういう馬鹿なことがあるものか”というわけです。<br><br>つまり浄霊をすると疑っても治るというわけです。<br><br>ところが先は理屈で来ますが、理屈の方が下で、こっちは理屈より上です。<br><br>それで、研究すればよいのですが、今までの理屈で分からなければ“駄目だ”と、今のインテリなどは見るのです。<br><br>実に難しいのですが、しかし本当に分かれば、これはまた理屈よりかもっと良いものだから、これは離せないということになります。<br><br> 次に薬を徹底的に分析してみたのです。<br><br>これは気がつきそうで気のつかない点を書いたのですが、これを読めばどんな人でも“なるほど”と思わないわけにはゆかないと思います。<br><br> （御論文「 薬剤は科学？ 」） 【栄光 二五四号】 そういうような具合で、薬と病とは関係ないわけです。<br><br>薬で病に対し、科学的にどういう理論で治るかということはぜんぜん分からないのです。<br><br>それは、病気というものが分からないのだから、分からないはずです。<br><br>ただ飲んでみてちょっと具合が良いから、これは効くのだ、この薬に限るというように思ってしまっているのです。<br><br>だからたいへん科学的のように見えますが、よく考えてみると、薬というものにはぜんぜん科学性はないのです。<br><br>浄霊はどんなに考えても科学であり、また実際に効果があるのです。<br><br>薬というものは、一時痛みがなくなるとか、一時気持ちが良くなるとかであって、病とは関係ないです。<br><br>それを科学的に病が治ると思っていることは、まったく迷信なので、いわば今の学者というのは実に頭が悪いのです。<br><br>それが本当に分かると、どうしても今の科学文明というものは、根本から立て直さなければならないわけです。<br><br>それを私がやっているのです。<br><br>だから本当に薬が科学的に効果があるものなら、なにかの病気に一つの薬があればそれで決まってしまうものです。<br><br>新しい薬が出るわけがないです。<br><br> それから、ちょうど薬のついでですから言いますが、薬が不幸を生むということも知らなければならないのです。<br><br>薬をのむと血が濁るということはみんな知ってますが、そうすると霊が曇る。<br><br>霊が曇ると霊界の地位が低い所になりますから、どうしても地獄になるわけです。<br><br>だから今の世の中が悪い世の中で、幸福な人はほとんどないです。<br><br>それからそれへと不幸ですが、不幸だということは霊的に霊界における階級が低くなるから、そこで嫌な苦しみや災難が来るわけです。<br><br>その因というのは薬ですから、要するに薬が人類の不幸を作っているわけです。<br><br>薬によって病気を作るどころではなく、病気以外一切の苦悩を薬が作るわけですから、薬というものは実に恐ろしいのです。<br><br>そこで人類から薬というものを、どうしてもなくしなければ良い世界というのはできるわけがないのです。<br><br>仮に汚職事件にしても、ああいうずるい人が出るということは、因の因は薬です。<br><br>そういう人間から薬毒を抜けばよいのですが、抜くことはなかなかできないのです。<br><br> だいたいそういうことをさせるのは動物霊ですが、動物霊は薬のない霊に憑いても働けないから、そういうのには憑かないのです。<br><br>憑くとなると動物霊も改心しなければならないのです。<br><br>だから結局薬毒が犯罪を作っているわけです。<br><br>ところがそれを逆に解して、新聞などでよく、屁のような薬の効き目をデカデカと書いてます。<br><br>それはたとえてみれば、薬の効果が十のものなら、七、八は被い隠して、二か三の効果だけを大いに拡げて出すのです。<br><br>そこで人間はみんな、なるほど薬はよいと思ってドンドンのむ、のむから売れるというので、今新聞を見ても売薬の広告が一番多いです。<br><br>ますます多くなってます。<br><br>また事業としては売薬が一番売れるのです。<br><br>いかに売れるかということは、去年の売上が一番多いのは武田長兵衛で、三十五億で、これが一番です。<br><br>これは薬屋から聞いたのだから間違いないです。<br><br>その次は三共もかなりで、二十億です。<br><br>ですから非常に儲かるのです。<br><br>そのために今薬屋が一番恐ろしいのは救世教なのです。<br><br>またそういうものに恐ろしがられるほど、こっちの力が強いというわけですから、これは大いに喜んでよいわけです。<br><br>プラスでよいわけです。<br><br>悪人が一番いけないのは善人なのです。<br><br>ところが今までの善人は弱かったからたいしたことはなかったが、善人の強い奴が悪人には一番怖いのです。<br><br>悪人から見れば、善人はみんな悪人なのです。<br><br>しかしこれは小の虫を殺して大の虫を助けるのだから、仕方がないのです。<br><br>そういうようなわけで、薬の害というものを知らせるということが一番です。<br><br>それでラジオでこのごろ続いて農業講座が出てますから、私は毎晩聞いてますが、肥料のことを言わないのです。<br><br>一番肝腎な肥料のことを言わないで、他の技術面のことを言ってます。<br><br>そうすると、日本のああいうジャーナリストは、国民の幸福ということよりも、己の幸福ということを上にみているのです。<br><br>実際これでは、日本もよい国になれるわけはないです。<br><br>本当に国民のためになるということは、つまり自分で自分を打ち消しているわけです。<br><br>そこで、これは悪いと思いながらも、その方が金が儲かるし、自分の利益になる、ということをやっているのだからして、実に厄介な世の中です。<br><br>これに対してはアメリカ人などは、本当に世界人類のためになるということは、自分の利益を犠牲にしてもそれをやるという、非常に高い、崇高な思想があります。<br><br>これがアメリカがあれだけの勢力を得、世界をリードするほどの国になった根本理由です。<br><br> 結局問題は薬ですが、では神様はどういうわけで、そんな悪い物を作り人間に服ませるのを許していたかというと、これはまた理由があるのです。<br><br>前になにかで書いたことがありますが、原始時代は人間が非常に健康で、ぜんぜん病気はないのですが、そうすると文化の発達ができないのです。<br><br>どうしても人間の体を弱くしなければならないのです。<br><br>その必要から毒を薬として、薬のように思わして人間にウンと服ましたのです。<br><br>これは神様の経綸なのです。<br><br>人間が健康で、いくら歩いてもくたびれないというのでは、便利な交通機関というものも発達しないし、立派な家も造らないで、つまらない家で“これでたくさんだ”ということになります。<br><br>そこでそういったような意味において、文化を発達させるために人間を弱らせたのです。<br><br>だからこれは必要だったわけです。<br><br>神様の経綸というものは、人間が考えても到底分からないものであって、実に深いものです。<br><br>私が薬や医学の方をこういうように言うが、薬や医学のような間違ったものがあるために、救世教というものが出て発展するのです。<br><br>薬をやれば病人が治るし、医者がやればドンドン健康になるというのでは救世教というのは発展しないし、また現われる必要がないのです。<br><br>そうすると救世教を発展させたものはやっぱり医者や薬なのだから、それを今悪いことを言うということは非常に矛盾してます。<br><br>本当いうと大いに感謝して褒めなければならないのです。<br><br>そういうように考えると、神様の経綸というものは実に深いもので、人間の理屈で簡単に片づけようと思っても駄目なのです。<br><br>善が悪になり、悪が善になり、ということで、そうして世の中がだんだん進歩発達してゆくのです。<br><br>しかしてそれを本当に分かるには、やっぱり見真実でなければ分からないのです。<br><br> それで見真実というものは一番高い所ですから、そこですべてを見下ろすからはっきり分かるのです。<br><br>結局この見真実を分からせるために私がいろいろ説いているのです。<br><br>要するに信仰の目的は早く見真実になることです。<br><br>そうするといろんなことがよく分かります。<br><br>けれども本当に見真実には、それはふつうではなかなかなれないのです。<br><br>だからそれに近寄ればよいのです。<br><br>ところで釈迦やキリストも見真実にはなったが、見真実にも上中下があって、中位の見真実だったのです。<br><br>その先は分からなかったのです。<br><br>またあの時代には分かってはいけなかったので、時期が早すぎたのです。<br><br>しかし今はもう分からなければならないのです。<br><br>本当に地上天国を造るのですから、それには人間の主だった人たちに、ある程度は見真実を分からせなければならないのです。<br><br>ということは救世教の信者ですが、特に幹部の人です。<br><br>こういうよう（ピラミッド）になっていて、その頂点が見真実の境地になって、段々になっているのです。<br><br>この間の論文に説いた科学というのは下なのです。<br><br>それで私が説くことはみんな科学ですが、科学にも上中下があって、現代科学はずっと低いのです。<br><br>そういうようで、段々になっているのですが、深く高くなっているものほど上等です。<br><br>私が説いている科学は上等な科学です。<br><br>そこで下等な科学のことを批判しているわけです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Essência da Salvação e a Visão da Verdade</h2>
 <p>Recentemente, foi-me solicitado que escrevesse o prefácio para uma compilação de meus escritos, uma obra que será como uma escritura sagrada da Sekaikyuseikyou. Atendi ao pedido e gostaria de lhes apresentar o texto que redigi.</p>
@@ -114,5 +266,48 @@ function toggleLang(lang) {
 <p>Para compreender verdadeiramente essa dinâmica, é imprescindível atingir o Kenshinjitsu (見真実). O Kenshinjitsu (見真実) é o estado mais elevado, do qual se pode observar tudo com clareza. Em última análise, tudo o que prego tem como objetivo levar as pessoas a essa compreensão. A finalidade da fé é alcançar o Kenshinjitsu (見真実) o mais rápido possível. Uma vez lá, os mais diversos assuntos se tornam claros.</p>
 <p>Evidentemente, não é fácil atingir o verdadeiro Kenshinjitsu (見真実) por meios comuns. O importante é se aproximar dele. Buda e Cristo também o alcançaram, mas há níveis de Kenshinjitsu (見真実) – superior, médio e inferior –, e o deles era de nível médio. Havia um limite para o que podiam compreender. Além disso, naquela época, não era permitido que soubessem mais; era cedo demais. Agora, porém, o tempo chegou. Estamos verdadeiramente construindo o Paraíso na Terra e, para isso, é necessário que as pessoas-chave, ou seja, os membros da Sekaikyuseikyou, especialmente seus líderes, alcancem um certo grau de Kenshinjitsu (見真実).</p>
 <p>A estrutura é como uma pirâmide, com o ápice representando o estado de Kenshinjitsu (見真実) e os demais níveis se distribuindo abaixo. A ciência, que mencionei em meu artigo anterior, está na base. Tudo o que eu exponho é ciência, mas uma ciência de nível superior, pois também nela existem os graus superior, médio e inferior. A ciência moderna é de um nível muito baixo. O que lhes apresento é uma ciência superior, e é a partir dessa perspectiva que critico a ciência inferior.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S29年3月6日） 『御教え集』32号、昭和29(1954)年4月15日発行 昭和二十九年三月六日 今度、今まで私の書いたものの中から選んで「救世教の聖書」みたいなものを編集するについて、序文を書いてもらいたいというので書いてみましたから読ませます。<br/><br/> （御論文「 救世教とは何ぞや 序文」） 【栄光 二五三号】 よく“救世教にはまだ教義がない”とか言われるのですが、これは、つまり世間一般の宗教として見るから、その教義というものを考えるのです。<br/><br/>本当いうと宗教ではないのだから、教義などはいらないわけです。<br/><br/>だいたい「教義」という言葉がピッタリしてないのです。<br/><br/>教えではないのですから……。<br/><br/>教義というものは昔から、ほとんどの宗教にはありますから、随分立派な、よくできた教義がたくさんあります。<br/><br/>つまり教義というのは、教えの理屈ですから、教えでは人間は救えないです。<br/><br/> 今度の静岡民報に私のことが続きものになって出始めましたが、あの中にちょっとうまいことがあります。<br/><br/>“自分は若い時分にキリスト教の聖書研究会で奇蹟について言い争い、どうしても奇蹟が信じられないというので、バイブルから奇蹟の所を全部消した。<br/><br/>そうして読んでみると、これは宗教書ではなく道徳書の方になった。<br/><br/>それが分かってみると、さっぱり興味がなくなって止めてしまった”ということがありましたが、それはうまいことだと思います。<br/><br/>つまり宗教というものは教えだけでは、やはり一つの道徳になるのです。<br/><br/>そういった道徳以外に、つまり理屈のつかない不思議なものがあるので、それが宗教の根本ですから、その不思議、奇蹟が多いほど宗教としての価値があるわけです。<br/><br/>そうなると、宗教としての価値というよりか、むしろ宗教ではなくなってしまうわけです。<br/><br/>ですから教えはいらないわけです。<br/><br/> ここのところがなかなか難しいですが、ちょうど犯罪者が出ないように法律を作るということです。<br/><br/>法律を作るということは、“こういう悪いことをすれば、こういう罪になる、こういう刑罰を与えられる”ということで、わずかに秩序を維持してゆくというわけです。<br/><br/>それから宗教の教えというものは“人間はこうすべきものではない”“こうしなければならない”と、箇条書になっているのが随分あります。<br/><br/>だいたいその元祖はモーゼの十戒です。<br/><br/>“何すべし”とか“何すべからず”とか、ということでは、やっぱり、法律のような肉体的刑罰はないが、つまり霊的刑罰、そういうものがあるわけです。<br/><br/>聖書にある“他の女を、どうしようとか思うということは、すでに姦淫の罪を犯している”というような、一つの霊的刑罰です。<br/><br/>人間は刑罰によって良いことをする、悪いことをしないというのでは本当のものではないのです。<br/><br/>ちょうど酒を飲むと毒だから飲まないようにしなければいけないと、一生懸命我慢するというのと同じです。<br/><br/>ですから、宗教とすればまだ低い所です。<br/><br/>高い所ではないのです。<br/><br/>そこで高い宗教というものは、“そうすべからず”とか、そういった刑罰がなく、ただそういうことが嫌なのです。<br/><br/>酒なら酒を飲みたくなくなるのです。<br/><br/>それで、そういう変なことはする趣味がなくなってしまうのです。<br/><br/>悪いことやずるいことをするのは、やっぱり趣味なのです。<br/><br/>汚職事件などをする人は、ああいうことが好きなのです。<br/><br/>気持ちの良い、並の手段で金を儲けるというのよりか、暗い所でやるそれがおもしろいのです。<br/><br/>ということは、つまりその人の魂が本当でない、低いからです。<br/><br/>魂が低くなければそういうことはしないのです。<br/><br/>つまり動物的根性が多分にあるから、どうも明るい、人間的感情がごく少ないわけです。<br/><br/>やっぱり刑罰という檻がなくては危ないのです。<br/><br/>檻があっても、それを破っているのですから……。<br/><br/>ですから霊的に言うとずっと低いのです。<br/><br/>本当に言うと、世の中で言う政治家とか、肩で風を切っている偉い人は、霊的に言うと実に低いのです。<br/><br/>下等なわけです。<br/><br/>そういうようなわけで、法律も戒律もなにもなくても悪いことをしない、悪いことに趣味が起こらない、それで良いことをするのがおもしろいという魂になると、それが本当の魂です。<br/><br/>ですからウッチャラかしておいても悪いことをしないというので、人が見ているから悪いことをしないというのではいけないわけです。<br/><br/>そういう人間を作るのが救世教の本筋なのです。<br/><br/>しかし無論いきなりそういう立派な人間になれるわけがないから、教義というものも必要です。<br/><br/>しかし根本はもっと上の方にあるのだからして、そこで宗教ではないというわけです。<br/><br/>今までこういう上等なものは出なかったのです。<br/><br/>ところがそういった上等なものが出たのです。<br/><br/>だからそういった上等なことを分からせるには、なかなか簡単にはゆかないです。<br/><br/>“そういう馬鹿なことがあるものか”というわけです。<br/><br/>つまり浄霊をすると疑っても治るというわけです。<br/><br/>ところが先は理屈で来ますが、理屈の方が下で、こっちは理屈より上です。<br/><br/>それで、研究すればよいのですが、今までの理屈で分からなければ“駄目だ”と、今のインテリなどは見るのです。<br/><br/>実に難しいのですが、しかし本当に分かれば、これはまた理屈よりかもっと良いものだから、これは離せないということになります。<br/><br/> 次に薬を徹底的に分析してみたのです。<br/><br/>これは気がつきそうで気のつかない点を書いたのですが、これを読めばどんな人でも“なるほど”と思わないわけにはゆかないと思います。<br/><br/> （御論文「 薬剤は科学？ 」） 【栄光 二五四号】 そういうような具合で、薬と病とは関係ないわけです。<br/><br/>薬で病に対し、科学的にどういう理論で治るかということはぜんぜん分からないのです。<br/><br/>それは、病気というものが分からないのだから、分からないはずです。<br/><br/>ただ飲んでみてちょっと具合が良いから、これは効くのだ、この薬に限るというように思ってしまっているのです。<br/><br/>だからたいへん科学的のように見えますが、よく考えてみると、薬というものにはぜんぜん科学性はないのです。<br/><br/>浄霊はどんなに考えても科学であり、また実際に効果があるのです。<br/><br/>薬というものは、一時痛みがなくなるとか、一時気持ちが良くなるとかであって、病とは関係ないです。<br/><br/>それを科学的に病が治ると思っていることは、まったく迷信なので、いわば今の学者というのは実に頭が悪いのです。<br/><br/>それが本当に分かると、どうしても今の科学文明というものは、根本から立て直さなければならないわけです。<br/><br/>それを私がやっているのです。<br/><br/>だから本当に薬が科学的に効果があるものなら、なにかの病気に一つの薬があればそれで決まってしまうものです。<br/><br/>新しい薬が出るわけがないです。<br/><br/> それから、ちょうど薬のついでですから言いますが、薬が不幸を生むということも知らなければならないのです。<br/><br/>薬をのむと血が濁るということはみんな知ってますが、そうすると霊が曇る。<br/><br/>霊が曇ると霊界の地位が低い所になりますから、どうしても地獄になるわけです。<br/><br/>だから今の世の中が悪い世の中で、幸福な人はほとんどないです。<br/><br/>それからそれへと不幸ですが、不幸だということは霊的に霊界における階級が低くなるから、そこで嫌な苦しみや災難が来るわけです。<br/><br/>その因というのは薬ですから、要するに薬が人類の不幸を作っているわけです。<br/><br/>薬によって病気を作るどころではなく、病気以外一切の苦悩を薬が作るわけですから、薬というものは実に恐ろしいのです。<br/><br/>そこで人類から薬というものを、どうしてもなくしなければ良い世界というのはできるわけがないのです。<br/><br/>仮に汚職事件にしても、ああいうずるい人が出るということは、因の因は薬です。<br/><br/>そういう人間から薬毒を抜けばよいのですが、抜くことはなかなかできないのです。<br/><br/> だいたいそういうことをさせるのは動物霊ですが、動物霊は薬のない霊に憑いても働けないから、そういうのには憑かないのです。<br/><br/>憑くとなると動物霊も改心しなければならないのです。<br/><br/>だから結局薬毒が犯罪を作っているわけです。<br/><br/>ところがそれを逆に解して、新聞などでよく、屁のような薬の効き目をデカデカと書いてます。<br/><br/>それはたとえてみれば、薬の効果が十のものなら、七、八は被い隠して、二か三の効果だけを大いに拡げて出すのです。<br/><br/>そこで人間はみんな、なるほど薬はよいと思ってドンドンのむ、のむから売れるというので、今新聞を見ても売薬の広告が一番多いです。<br/><br/>ますます多くなってます。<br/><br/>また事業としては売薬が一番売れるのです。<br/><br/>いかに売れるかということは、去年の売上が一番多いのは武田長兵衛で、三十五億で、これが一番です。<br/><br/>これは薬屋から聞いたのだから間違いないです。<br/><br/>その次は三共もかなりで、二十億です。<br/><br/>ですから非常に儲かるのです。<br/><br/>そのために今薬屋が一番恐ろしいのは救世教なのです。<br/><br/>またそういうものに恐ろしがられるほど、こっちの力が強いというわけですから、これは大いに喜んでよいわけです。<br/><br/>プラスでよいわけです。<br/><br/>悪人が一番いけないのは善人なのです。<br/><br/>ところが今までの善人は弱かったからたいしたことはなかったが、善人の強い奴が悪人には一番怖いのです。<br/><br/>悪人から見れば、善人はみんな悪人なのです。<br/><br/>しかしこれは小の虫を殺して大の虫を助けるのだから、仕方がないのです。<br/><br/>そういうようなわけで、薬の害というものを知らせるということが一番です。<br/><br/>それでラジオでこのごろ続いて農業講座が出てますから、私は毎晩聞いてますが、肥料のことを言わないのです。<br/><br/>一番肝腎な肥料のことを言わないで、他の技術面のことを言ってます。<br/><br/>そうすると、日本のああいうジャーナリストは、国民の幸福ということよりも、己の幸福ということを上にみているのです。<br/><br/>実際これでは、日本もよい国になれるわけはないです。<br/><br/>本当に国民のためになるということは、つまり自分で自分を打ち消しているわけです。<br/><br/>そこで、これは悪いと思いながらも、その方が金が儲かるし、自分の利益になる、ということをやっているのだからして、実に厄介な世の中です。<br/><br/>これに対してはアメリカ人などは、本当に世界人類のためになるということは、自分の利益を犠牲にしてもそれをやるという、非常に高い、崇高な思想があります。<br/><br/>これがアメリカがあれだけの勢力を得、世界をリードするほどの国になった根本理由です。<br/><br/> 結局問題は薬ですが、では神様はどういうわけで、そんな悪い物を作り人間に服ませるのを許していたかというと、これはまた理由があるのです。<br/><br/>前になにかで書いたことがありますが、原始時代は人間が非常に健康で、ぜんぜん病気はないのですが、そうすると文化の発達ができないのです。<br/><br/>どうしても人間の体を弱くしなければならないのです。<br/><br/>その必要から毒を薬として、薬のように思わして人間にウンと服ましたのです。<br/><br/>これは神様の経綸なのです。<br/><br/>人間が健康で、いくら歩いてもくたびれないというのでは、便利な交通機関というものも発達しないし、立派な家も造らないで、つまらない家で“これでたくさんだ”ということになります。<br/><br/>そこでそういったような意味において、文化を発達させるために人間を弱らせたのです。<br/><br/>だからこれは必要だったわけです。<br/><br/>神様の経綸というものは、人間が考えても到底分からないものであって、実に深いものです。<br/><br/>私が薬や医学の方をこういうように言うが、薬や医学のような間違ったものがあるために、救世教というものが出て発展するのです。<br/><br/>薬をやれば病人が治るし、医者がやればドンドン健康になるというのでは救世教というのは発展しないし、また現われる必要がないのです。<br/><br/>そうすると救世教を発展させたものはやっぱり医者や薬なのだから、それを今悪いことを言うということは非常に矛盾してます。<br/><br/>本当いうと大いに感謝して褒めなければならないのです。<br/><br/>そういうように考えると、神様の経綸というものは実に深いもので、人間の理屈で簡単に片づけようと思っても駄目なのです。<br/><br/>善が悪になり、悪が善になり、ということで、そうして世の中がだんだん進歩発達してゆくのです。<br/><br/>しかしてそれを本当に分かるには、やっぱり見真実でなければ分からないのです。<br/><br/> それで見真実というものは一番高い所ですから、そこですべてを見下ろすからはっきり分かるのです。<br/><br/>結局この見真実を分からせるために私がいろいろ説いているのです。<br/><br/>要するに信仰の目的は早く見真実になることです。<br/><br/>そうするといろんなことがよく分かります。<br/><br/>けれども本当に見真実には、それはふつうではなかなかなれないのです。<br/><br/>だからそれに近寄ればよいのです。<br/><br/>ところで釈迦やキリストも見真実にはなったが、見真実にも上中下があって、中位の見真実だったのです。<br/><br/>その先は分からなかったのです。<br/><br/>またあの時代には分かってはいけなかったので、時期が早すぎたのです。<br/><br/>しかし今はもう分からなければならないのです。<br/><br/>本当に地上天国を造るのですから、それには人間の主だった人たちに、ある程度は見真実を分からせなければならないのです。<br/><br/>ということは救世教の信者ですが、特に幹部の人です。<br/><br/>こういうよう（ピラミッド）になっていて、その頂点が見真実の境地になって、段々になっているのです。<br/><br/>この間の論文に説いた科学というのは下なのです。<br/><br/>それで私が説くことはみんな科学ですが、科学にも上中下があって、現代科学はずっと低いのです。<br/><br/>そういうようで、段々になっているのですが、深く高くなっているものほど上等です。<br/><br/>私が説いている科学は上等な科学です。<br/><br/>そこで下等な科学のことを批判しているわけです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

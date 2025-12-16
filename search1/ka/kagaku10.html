@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kagaku10</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 科学に預けている生命 未発表、昭和11(1936)年5月15日執筆 西洋医学は科学が生んだものである事は間違ない事実である。<br><br>そうして少くとも、全世界における人類の中、文化的国家のそのほとんどの国民は、この科学所産の医学に全生命を預けている。<br><br> 一体人間の生命なるものは、偶然的に自然発生したものであろうか。<br><br>それとも有意識的に誰かが生産させ、そうして誰かが握っているものであろうか。<br><br>もし偶然的で気紛れのように発生したものであるとすれば、ここに解け難い点がある。<br><br>それは何であるかといえば、いつの時代でもいかなる民族でも、男女の数はおおよそ半々位生れる事である。<br><br>故に偶然的で気紛れであるとすれば、ある時には一方が非常に多くなったり、少くなったりする場合があり相なものであるのに、そうでないというのは、そこに何物かがあるのではないか。<br><br>又、今一つの事実がある。<br><br>それはいかに疫病が流行（はや）っても、又、全然医学の無かった時代でも、死ぬ人より生れる人の方が必ず多いという事である。<br><br> この二つの事実をみても、偶然や気紛れではないという事を信じない訳にはゆかない事である。<br><br> してみれば、誰かが有意識的に計画的に、何らかの目的の為に、まことに巧妙に操作しているものである事は充分肯（うなず）けるはずである。<br><br>しからば、それは一体何者であろうか。<br><br>私達はこの存在を称して神というのである。<br><br>即ち人間の生命は、神の意志によって発生し、又、神の工作のままに存続しているものとみるのである。<br><br> かように、神の御手に在る人間の生命を、人間が作った薬や器械で自由にするという事程、不合理はないであろう事である。<br><br> 又、今一つの意味から言ってみよう。<br><br>それはもし、科学が作った生命であるとしたならば、科学で自由になるから、いかなる病気といえども治るはずであるが、実際は中々そうはゆかない。<br><br>科学で自由に出来るのは、それはロボットでしかあり得ない。<br><br>ロボットは科学が作ったものであるからである。<br><br>故に、科学と生命との関連は、何らあり得ない事は真理である。<br><br>にも拘わらず、文化人と称する人間達は科学の力で、生命の解決をしようと恐ろしい程の努力を続けている。<br><br>そうして、その無効果である事に気が付かない。<br><br>飽くまでもそれに固執し切ってしまって、全然他へ眼を転じようともしない事である。<br><br> これらの余りにも馬鹿々々しい盲目者達の眼を醒す事程、大きな啓蒙は無いであろう。<br><br> しかもなお恐るべき事は、この蒙昧、事を知らないところの一般人は、反って絶大な進歩であると讃歎し、宗教的情操にまで信仰してしまっている事である。<br><br>実に鉛が金に見える色盲者のようにでもある。<br><br> 自分達がいつ脳溢血が起るか判らない病状の不安にありながら、それをどうする事も出来得ないところの医学に頼っている。<br><br>否頼らざるを得ない事になっている。<br><br>自分の子女が結核に侵されていて、いかなる療法をしてみても、治る見込が無いので、日々懊悩（おうのう）を続けつつも、なお転地に療養所に多額の費用を投じて当にならぬ事と知りながら、中止する事も出来ない余儀なさに療病を続けているばかりか、いつ死ぬかも知れないという不安をどうする事も出来ないでいる。<br><br>そればかりではない。<br><br>その病人の結核が家族の者に感染するかも判らないという危険をさえ感じつつも、まさか全然接近しない訳にもゆかないという、苦悩の二重奏さえもある。<br><br>又、児童の腺病質的弱体に二六時中不安を感じながらも、解決し得ない医学に頼らない訳にはゆかないという不安の現状維持から免れる事は出来ないのである。<br><br>これらについて医家はいうのである。<br><br>結核は早期に診療すれば必ず治るのであると。<br><br>しかしこの言を肯定する事は出来ない。<br><br>何となれば、それならば中流以上の子女に結核は無いはずであるが、事実はそうではない、同じように結核に悩まされている。<br><br>その他種々の病苦に因る個人とその家族の悩みはどの位多数に上るか。<br><br>ほとんど想像を絶するものがある。<br><br> 医学が進歩したというにも係わらず、なぜかくも結核やその他の病者の氾濫を抑圧出来得ないかと言う事に、疑念を起さなくてはならないはずであるのに、それがそうでないのは、時期の到らない為かもしれないが困ったものである。<br><br>早晩誰もが気が付き出す事は間違いないであろうが、それまではどこまでも人間の生命を科学で解決しようと努力するに違いない。<br><br> そうしてこの重大事が、あらゆる難問題の根元をなしている事である。<br><br>それは、政治も経済も国防もその他一切は悉（ことごと）く、これに関りがない訳には行かない事である。<br><br>なぜか、それは人間生活における一切の悩みの根元である不幸のその原因は、ほとんど病苦からであると言えるのである。<br><br> 病苦が一家の経済力を殺ぎ、それが生活苦となり、不幸となり、不平となり、思想悪化となるのも事実である。<br><br>二・二六事件の起った根本の根本は、国防費に対する充実観と、一方それが財政を不安ならしむるという観点の相違からであるのも事実である。<br><br> 今日、軍部が必要と認むるだけの国防費を快く供給したとすれば、問題は即座に解決すると思うのである。<br><br>その他農村問題も中商工問題も、勿論円満に解決されるであろう。<br><br>故に、私は飽くまでも強調する。<br><br>国家のあらゆる問題は、国民からの病苦を除く事によって必然解決さるるのであって、この事以上に根本的であるものは無いであろう事を、断言して憚らないのである。<br><br> 又、健康なる身体には健全なる精神が宿るという事も明かである。<br><br>故に、国民一般が健康な肉体と健全精神になるとしたら、罪悪も自殺もいかに激減し、強力国家となるかは想像なし得るのである。<br><br> 再び言う。<br><br>科学で人間の生命を自由にしようとする間は、あらゆる問題の解決は不可能であるという事である。<br><br>故に、科学以外に人間の生命の根元を探究し、そうして解決しなければならない事である。<br><br> 私は生命の根元の探究とその解決に、既に成功している事を発表したいのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Vida Entregue à Ciência</h2>
 <p>É um fato inquestionável que a medicina ocidental é fruto da ciência. Consequentemente, a quase totalidade dos cidadãos das nações culturalmente desenvolvidas em todo o mundo entrega a totalidade de suas vidas a essa mesma medicina, um produto científico.</p>
@@ -109,5 +261,48 @@ function toggleLang(lang) {
 <p>Ademais, é notório que um corpo saudável abriga um espírito sadio. Portanto, se o povo em geral gozasse de um corpo saudável e de um espírito sadio, é fácil imaginar a drástica redução que haveria nos índices de criminalidade e suicídio, e o quão forte a nação se tornaria.</p>
 <p>Reitero: enquanto se persistir na tentativa de dominar a vida humana por meio da ciência, a solução de todos os problemas será impossível. Sendo assim, é imperativo que busquemos a origem da vida para além dos limites da ciência, e que encontremos aí a sua verdadeira solução.</p>
 <p>Eu desejo anunciar que já obtive êxito na busca pela origem da vida e em sua consequente solução.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 科学に預けている生命 未発表、昭和11(1936)年5月15日執筆 西洋医学は科学が生んだものである事は間違ない事実である。<br/><br/>そうして少くとも、全世界における人類の中、文化的国家のそのほとんどの国民は、この科学所産の医学に全生命を預けている。<br/><br/> 一体人間の生命なるものは、偶然的に自然発生したものであろうか。<br/><br/>それとも有意識的に誰かが生産させ、そうして誰かが握っているものであろうか。<br/><br/>もし偶然的で気紛れのように発生したものであるとすれば、ここに解け難い点がある。<br/><br/>それは何であるかといえば、いつの時代でもいかなる民族でも、男女の数はおおよそ半々位生れる事である。<br/><br/>故に偶然的で気紛れであるとすれば、ある時には一方が非常に多くなったり、少くなったりする場合があり相なものであるのに、そうでないというのは、そこに何物かがあるのではないか。<br/><br/>又、今一つの事実がある。<br/><br/>それはいかに疫病が流行（はや）っても、又、全然医学の無かった時代でも、死ぬ人より生れる人の方が必ず多いという事である。<br/><br/> この二つの事実をみても、偶然や気紛れではないという事を信じない訳にはゆかない事である。<br/><br/> してみれば、誰かが有意識的に計画的に、何らかの目的の為に、まことに巧妙に操作しているものである事は充分肯（うなず）けるはずである。<br/><br/>しからば、それは一体何者であろうか。<br/><br/>私達はこの存在を称して神というのである。<br/><br/>即ち人間の生命は、神の意志によって発生し、又、神の工作のままに存続しているものとみるのである。<br/><br/> かように、神の御手に在る人間の生命を、人間が作った薬や器械で自由にするという事程、不合理はないであろう事である。<br/><br/> 又、今一つの意味から言ってみよう。<br/><br/>それはもし、科学が作った生命であるとしたならば、科学で自由になるから、いかなる病気といえども治るはずであるが、実際は中々そうはゆかない。<br/><br/>科学で自由に出来るのは、それはロボットでしかあり得ない。<br/><br/>ロボットは科学が作ったものであるからである。<br/><br/>故に、科学と生命との関連は、何らあり得ない事は真理である。<br/><br/>にも拘わらず、文化人と称する人間達は科学の力で、生命の解決をしようと恐ろしい程の努力を続けている。<br/><br/>そうして、その無効果である事に気が付かない。<br/><br/>飽くまでもそれに固執し切ってしまって、全然他へ眼を転じようともしない事である。<br/><br/> これらの余りにも馬鹿々々しい盲目者達の眼を醒す事程、大きな啓蒙は無いであろう。<br/><br/> しかもなお恐るべき事は、この蒙昧、事を知らないところの一般人は、反って絶大な進歩であると讃歎し、宗教的情操にまで信仰してしまっている事である。<br/><br/>実に鉛が金に見える色盲者のようにでもある。<br/><br/> 自分達がいつ脳溢血が起るか判らない病状の不安にありながら、それをどうする事も出来得ないところの医学に頼っている。<br/><br/>否頼らざるを得ない事になっている。<br/><br/>自分の子女が結核に侵されていて、いかなる療法をしてみても、治る見込が無いので、日々懊悩（おうのう）を続けつつも、なお転地に療養所に多額の費用を投じて当にならぬ事と知りながら、中止する事も出来ない余儀なさに療病を続けているばかりか、いつ死ぬかも知れないという不安をどうする事も出来ないでいる。<br/><br/>そればかりではない。<br/><br/>その病人の結核が家族の者に感染するかも判らないという危険をさえ感じつつも、まさか全然接近しない訳にもゆかないという、苦悩の二重奏さえもある。<br/><br/>又、児童の腺病質的弱体に二六時中不安を感じながらも、解決し得ない医学に頼らない訳にはゆかないという不安の現状維持から免れる事は出来ないのである。<br/><br/>これらについて医家はいうのである。<br/><br/>結核は早期に診療すれば必ず治るのであると。<br/><br/>しかしこの言を肯定する事は出来ない。<br/><br/>何となれば、それならば中流以上の子女に結核は無いはずであるが、事実はそうではない、同じように結核に悩まされている。<br/><br/>その他種々の病苦に因る個人とその家族の悩みはどの位多数に上るか。<br/><br/>ほとんど想像を絶するものがある。<br/><br/> 医学が進歩したというにも係わらず、なぜかくも結核やその他の病者の氾濫を抑圧出来得ないかと言う事に、疑念を起さなくてはならないはずであるのに、それがそうでないのは、時期の到らない為かもしれないが困ったものである。<br/><br/>早晩誰もが気が付き出す事は間違いないであろうが、それまではどこまでも人間の生命を科学で解決しようと努力するに違いない。<br/><br/> そうしてこの重大事が、あらゆる難問題の根元をなしている事である。<br/><br/>それは、政治も経済も国防もその他一切は悉（ことごと）く、これに関りがない訳には行かない事である。<br/><br/>なぜか、それは人間生活における一切の悩みの根元である不幸のその原因は、ほとんど病苦からであると言えるのである。<br/><br/> 病苦が一家の経済力を殺ぎ、それが生活苦となり、不幸となり、不平となり、思想悪化となるのも事実である。<br/><br/>二・二六事件の起った根本の根本は、国防費に対する充実観と、一方それが財政を不安ならしむるという観点の相違からであるのも事実である。<br/><br/> 今日、軍部が必要と認むるだけの国防費を快く供給したとすれば、問題は即座に解決すると思うのである。<br/><br/>その他農村問題も中商工問題も、勿論円満に解決されるであろう。<br/><br/>故に、私は飽くまでも強調する。<br/><br/>国家のあらゆる問題は、国民からの病苦を除く事によって必然解決さるるのであって、この事以上に根本的であるものは無いであろう事を、断言して憚らないのである。<br/><br/> 又、健康なる身体には健全なる精神が宿るという事も明かである。<br/><br/>故に、国民一般が健康な肉体と健全精神になるとしたら、罪悪も自殺もいかに激減し、強力国家となるかは想像なし得るのである。<br/><br/> 再び言う。<br/><br/>科学で人間の生命を自由にしようとする間は、あらゆる問題の解決は不可能であるという事である。<br/><br/>故に、科学以外に人間の生命の根元を探究し、そうして解決しなければならない事である。<br/><br/> 私は生命の根元の探究とその解決に、既に成功している事を発表したいのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

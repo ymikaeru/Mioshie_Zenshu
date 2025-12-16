@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sokudono</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 速度の芸術とピカソに就て 『救世』140号、昭和27(1952)年1月23日発行 そもそも、東西芸術を比較考察してみると、西洋は動的であり、東洋は静的である事がよく分かる。<br><br>たとえば音楽にしろ、西洋は飽くまで動的で速度的であり、聴く者をして勇躍爽快（ゆうやくそうかい）、自からジットしてはおれないようになるが、そこへゆくと東洋の方は、静かに落着いた気持になる。<br><br>舞踊にしてもそうで、日本のそれは踊るよりも、舞うという方で、どこまでも静である。<br><br>それに引き換え西洋の方は動的でその極端になったのが彼のジャズであろう。<br><br> ところが絵画にしてもその通りで、ただ音楽舞踊と本質的に異（ちが）うのは、絵画は動を表現しようとしても、静的手法である以上困難で、そこに無理が生ずる。<br><br>しかし何とかしてそれを破って新しい傾向を作りたいという意欲から生まれたのが今日の洋画であってみれば、これまでのように物体の静止をじっと見たままか、でなければ動いている物でも、画家の方で静的に描写するかで、その観念が真実でないとしてアノ奇怪な絵画が生まれたのであって、その巨匠がピカソという訳である。<br><br> この意味を知って、彼らの絵画を観る時、大体分かるであろう。<br><br>すなわち動いている物体から受ける瞬間の感覚を表現するので、この場合前記のごとく物体の動きを客観する場合と、物体は静止していても、観る画家自体が動く瞬間の感覚との二様である。<br><br>という訳だから観物（みるもの）もこれを正確に観別（みわ）けなければならないがそれが仲々難しい。<br><br>早く言うと相手の動きの速度と、相手の静止を観る画家の動きの速度とである。<br><br>としたらはなはだヤヤッコシイが、いずれにせよ速度の感覚と思えばいい。<br><br>だから顔が重なり合ったり、歪んだり、顔が小さくて身体が馬鹿に大きく釣合いがとれなかったりするのである。<br><br>また幾何学的線の交錯なども、建築物に対する速度の感覚であり、同様取り止めのない色彩の乱舞なども、花畑とか女性の服装などの瞬間的感覚である。<br><br>ゆえにこの事を心得て観れば、ある程度は分からないこともないが、遠慮なく言えば一々描いた時の説明書を付けた方がよいと思う。<br><br>そうでないと観る者はいたずらに頭脳を困惑させられるばかりで、本来楽しみたいから展覧会へ行くので、それが苦しむとしたら大いに考えざるを得ないであろう。<br><br> これだけかけば大体は判ったであろうが、ここで画家に対し、観者としての申し分がある。<br><br>今吾々が画家にむかうや、直ぐに何の絵かが分かってこそ、作者の意図が掴み得られ楽しめるので、それが芸術の生命であらねばならないが、ピカソ的絵は画面にむかうや、作者は一体何を狙ったものか、何を描こうとしたのか、という二十の扉じゃないが、動物か植物か鉱物かを考えなくてはならない。<br><br>それがため苦しい時間を要する。<br><br>これでは芸術ではなく、一種の判じ物でしかあるまい。<br><br>幸いアナ君から御名答の言葉を頂ければいいが、そういう人は恐らく何人もないであろう。<br><br>私などは数枚も観ている内に頭痛を覚えるので、全部を観たらどうなるであろうかと、恐ろしい気がする。<br><br>としたら極端な言い方かも知れないが、見物人は一種の被害者である。<br><br>なるほど画家自身はいい気持になって、主観の押売をするのだが、買わされる見物人こそいい面の皮である。<br><br>哀れなる者よ、汝の名は展覧会の見物人也と言いたいくらいである。<br><br>これというのも、現代美術家の考え方である。<br><br>彼らは客観を無視し、私がいつもいう主観の幽霊となるのを誇りとしている。<br><br>というように以上私は随分思い切ってかいたが、これも私としての個性の押売かも知れないし、押売に対する代償かも知れまい。<br><br> そこで私は絵画に対する私の意見を少し書かして貰うが、一体絵画とは一般美術の基本的なものに違いないが、この重要性をもつものとしたら、端的に美の感覚が感受されるものでなくてはならない。<br><br>すなわち好い作品にむかった場合、心ゆくばかり美に魅惑され陶酔されてこそ、絵画の真価であって優秀なる文化財である。<br><br>としたら展覧会とはこのための存在でなくて何であろう。<br><br>今一つ付け加えたい事は、古今東西を問わず、絵画そのものの存在意義であって、特殊な眼識者のみが鑑賞出来るものであっては本当ではない。<br><br>誰にも楽しめるという普遍性こそ芸術の生命である。<br><br>としたら今の洋画のごとき独りよがり的であってはならない事は言うまでもあるまい。<br><br>ただいたずらなる流行を追うジャズ音楽に堕するとしたら、早晩自滅あるのみであろう。<br><br>もちろん絵画とは眼から摂取する人間の精神的食物であってみれば、不味い物よりも、美味い物を食わすべきで、それが画家としての良心である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Arte da Velocidade e Picasso</h2>
 <p>Ao empreendermos uma análise comparativa entre as artes do Oriente e do Ocidente, torna-se evidente que a primeira é de natureza estática, ao passo que a segunda é essencialmente dinâmica. Na música, por exemplo, a ocidental é invariavelmente dinâmica e veloz, incitando no ouvinte um vigor e uma exaltação que o impedem de permanecer imóvel. Já a oriental, em contrapartida, inspira um estado de serena tranquilidade. O mesmo se aplica à dança. A japonesa se assemelha mais a um “pairar” do que a um “dançar” propriamente dito, mantendo-se sempre no domínio da quietude. Em nítido contraste, a ocidental é dinâmica, e sua manifestação mais extrema é, sem dúvida, o jazz.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Compreendendo essa premissa, torna-se possível decifrar, em certa medida, as obras desses artistas. O que eles buscam expressar é a sensação instantânea captada de um objeto em movimento. Nesse sentido, existem duas abordagens: a primeira ocorre quando se observa o movimento do próprio objeto; a segunda, quando o objeto permanece estático, mas o pintor se move, capturando a sensação momentânea dessa perspectiva. Por essa razão, o observador precisa discernir com precisão qual das duas situações está representada, tarefa que se revela bastante árdua. Em suma, trata-se da velocidade do objeto em movimento ou da velocidade do pintor que observa um objeto estático. Embora a questão pareça excessivamente complexa, basta compreendê-la como a sensação da velocidade. É por isso que vemos rostos sobrepostos ou distorcidos, e corpos desproporcionais, com cabeças pequenas e troncos exageradamente grandes. Da mesma forma, o entrelaçamento de linhas geométricas representa a sensação de velocidade em relação a uma edificação, e a dança caótica de cores indefinidas traduz a impressão momentânea de um campo florido ou do vestuário feminino. Portanto, ao apreciar tais obras com esse conhecimento, é possível compreendê-las até certo ponto. No entanto, para ser franco, creio que seria mais proveitoso se cada quadro viesse acompanhado de um manual explicativo. Sem isso, o espectador apenas submete seu cérebro a uma perplexidade desnecessária. Afinal, vai-se a uma exposição para desfrutar da arte, e não para sofrer com ela, o que nos obriga a uma profunda reflexão sobre o tema.</p>
 <p>Tendo exposto essas considerações, gostaria de apresentar a perspectiva do espectador. Quando nos postamos diante de uma obra de arte, a sua essência reside na capacidade de compreendermos de imediato o que ela representa, permitindo-nos apreender a intenção do autor e, assim, desfrutá-la. Essa deveria ser a alma da arte. Todavia, a pintura picassiana nos confronta com um enigma. Tal como em um jogo de adivinhação, somos forçados a indagar: o que o artista pretendia? O que ele buscou retratar? É um animal, uma planta ou um mineral? Despende-se um tempo angustiante nesse processo. Isso não é arte; é uma espécie de charada. Seria uma sorte se alguém nos soprasse a resposta correta, mas receio que tal pessoa não exista. Eu mesmo, após observar algumas poucas telas, começo a sentir dor de cabeça. Fico a imaginar, apavorado, o que aconteceria se eu as visse todas. Nesse caso, e talvez seja um exagero de minha parte, o espectador se torna uma espécie de vítima. O pintor, por sua vez, deleita-se em sua própria genialidade, impondo sua subjetividade ao público — um verdadeiro estelionato intelectual. E o público, que é forçado a “comprar” essa visão, acaba por fazer um papel ridículo. Chego a ter vontade de exclamar: “Ó, criatura digna de pena, teu nome é visitante de exposição!”. Tudo isso decorre da mentalidade do artista moderno. Ele despreza a objetividade e se orgulha de transformar-se naquilo que sempre chamo de “fantasma da subjetividade”. Sei que escrevi de forma bastante incisiva, mas talvez esta seja também uma maneira de impor minha própria individualidade ou, quem sabe, uma compensação por ter sido alvo de tal imposição.</p>
 <p>Permitam-me, agora, expor brevemente minha opinião sobre a pintura. Acredito que ela seja, sem dúvida, o alicerce de todas as belas-artes. Sendo algo de tamanha importância, é imperativo que ela permita ao observador sentir a beleza de forma direta e imediata. O verdadeiro valor de uma obra de arte se revela quando, diante dela, sentimo-nos completamente cativados e inebriados pela beleza. Uma obra assim é um tesouro cultural de valor inestimável. Sendo esse o caso, qual seria a finalidade de uma exposição, senão a de proporcionar tal experiência? Gostaria de acrescentar mais um ponto, que se refere à própria razão de ser da pintura, independentemente de época ou lugar. Não é correto que a arte seja acessível apenas a um grupo seleto de conhecedores com uma percepção especial. A universalidade, ou seja, a capacidade de ser apreciada por todos, é a alma da arte. Logo, é desnecessário dizer que a pintura ocidental contemporânea não deveria seguir por um caminho tão egocêntrico. Se ela degenerar em um mero modismo, tal como a música jazz, seu declínio e autodestruição serão inevitáveis. Afinal, a pintura é o alimento espiritual que nutrimos através dos olhos. Assim sendo, o pintor, em sã consciência, tem o dever de nos oferecer o que é saboroso, e não o que é desagradável ao paladar.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 速度の芸術とピカソに就て 『救世』140号、昭和27(1952)年1月23日発行 そもそも、東西芸術を比較考察してみると、西洋は動的であり、東洋は静的である事がよく分かる。<br/><br/>たとえば音楽にしろ、西洋は飽くまで動的で速度的であり、聴く者をして勇躍爽快（ゆうやくそうかい）、自からジットしてはおれないようになるが、そこへゆくと東洋の方は、静かに落着いた気持になる。<br/><br/>舞踊にしてもそうで、日本のそれは踊るよりも、舞うという方で、どこまでも静である。<br/><br/>それに引き換え西洋の方は動的でその極端になったのが彼のジャズであろう。<br/><br/> ところが絵画にしてもその通りで、ただ音楽舞踊と本質的に異（ちが）うのは、絵画は動を表現しようとしても、静的手法である以上困難で、そこに無理が生ずる。<br/><br/>しかし何とかしてそれを破って新しい傾向を作りたいという意欲から生まれたのが今日の洋画であってみれば、これまでのように物体の静止をじっと見たままか、でなければ動いている物でも、画家の方で静的に描写するかで、その観念が真実でないとしてアノ奇怪な絵画が生まれたのであって、その巨匠がピカソという訳である。<br/><br/> この意味を知って、彼らの絵画を観る時、大体分かるであろう。<br/><br/>すなわち動いている物体から受ける瞬間の感覚を表現するので、この場合前記のごとく物体の動きを客観する場合と、物体は静止していても、観る画家自体が動く瞬間の感覚との二様である。<br/><br/>という訳だから観物（みるもの）もこれを正確に観別（みわ）けなければならないがそれが仲々難しい。<br/><br/>早く言うと相手の動きの速度と、相手の静止を観る画家の動きの速度とである。<br/><br/>としたらはなはだヤヤッコシイが、いずれにせよ速度の感覚と思えばいい。<br/><br/>だから顔が重なり合ったり、歪んだり、顔が小さくて身体が馬鹿に大きく釣合いがとれなかったりするのである。<br/><br/>また幾何学的線の交錯なども、建築物に対する速度の感覚であり、同様取り止めのない色彩の乱舞なども、花畑とか女性の服装などの瞬間的感覚である。<br/><br/>ゆえにこの事を心得て観れば、ある程度は分からないこともないが、遠慮なく言えば一々描いた時の説明書を付けた方がよいと思う。<br/><br/>そうでないと観る者はいたずらに頭脳を困惑させられるばかりで、本来楽しみたいから展覧会へ行くので、それが苦しむとしたら大いに考えざるを得ないであろう。<br/><br/> これだけかけば大体は判ったであろうが、ここで画家に対し、観者としての申し分がある。<br/><br/>今吾々が画家にむかうや、直ぐに何の絵かが分かってこそ、作者の意図が掴み得られ楽しめるので、それが芸術の生命であらねばならないが、ピカソ的絵は画面にむかうや、作者は一体何を狙ったものか、何を描こうとしたのか、という二十の扉じゃないが、動物か植物か鉱物かを考えなくてはならない。<br/><br/>それがため苦しい時間を要する。<br/><br/>これでは芸術ではなく、一種の判じ物でしかあるまい。<br/><br/>幸いアナ君から御名答の言葉を頂ければいいが、そういう人は恐らく何人もないであろう。<br/><br/>私などは数枚も観ている内に頭痛を覚えるので、全部を観たらどうなるであろうかと、恐ろしい気がする。<br/><br/>としたら極端な言い方かも知れないが、見物人は一種の被害者である。<br/><br/>なるほど画家自身はいい気持になって、主観の押売をするのだが、買わされる見物人こそいい面の皮である。<br/><br/>哀れなる者よ、汝の名は展覧会の見物人也と言いたいくらいである。<br/><br/>これというのも、現代美術家の考え方である。<br/><br/>彼らは客観を無視し、私がいつもいう主観の幽霊となるのを誇りとしている。<br/><br/>というように以上私は随分思い切ってかいたが、これも私としての個性の押売かも知れないし、押売に対する代償かも知れまい。<br/><br/> そこで私は絵画に対する私の意見を少し書かして貰うが、一体絵画とは一般美術の基本的なものに違いないが、この重要性をもつものとしたら、端的に美の感覚が感受されるものでなくてはならない。<br/><br/>すなわち好い作品にむかった場合、心ゆくばかり美に魅惑され陶酔されてこそ、絵画の真価であって優秀なる文化財である。<br/><br/>としたら展覧会とはこのための存在でなくて何であろう。<br/><br/>今一つ付け加えたい事は、古今東西を問わず、絵画そのものの存在意義であって、特殊な眼識者のみが鑑賞出来るものであっては本当ではない。<br/><br/>誰にも楽しめるという普遍性こそ芸術の生命である。<br/><br/>としたら今の洋画のごとき独りよがり的であってはならない事は言うまでもあるまい。<br/><br/>ただいたずらなる流行を追うジャズ音楽に堕するとしたら、早晩自滅あるのみであろう。<br/><br/>もちろん絵画とは眼から摂取する人間の精神的食物であってみれば、不味い物よりも、美味い物を食わすべきで、それが画家としての良心である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

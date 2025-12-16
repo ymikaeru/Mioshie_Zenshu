@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kantou23</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 巻頭言 (地上天国23号) 『地上天国』23号、昭和26(1951)年4月25日発行 朝鮮の動乱も、しばらく燻（くすぶ）っていたところ、最近に至り、俄然火の手が上ろうとする気配が見えて来た。<br><br>何しろ今度燃え始まったら大変な事になろう。<br><br>あるいは世界を焼き尽す劫火（ごうか）となるかも知れないからである。<br><br>外電の報ずるところによるも、満州爆撃は、第三次戦争の口火となるかも知れないと言われている。<br><br>全く中共の腰の強さからみれば、ただ事ではないと思っていた。<br><br>果せるかな、昨今の状勢は、それが如実に現われて来た事が窺（うかが）われる。<br><br>情報によれば、ソ連から百六十万の装備を送るというし、飛行機も種々取混ぜて千三百機（一説には三千機ともいう）を供給するとの事であり、その他艦船二十五万噸（トン）、潜水艦二十隻が出動の準備中との事である。<br><br>しかもまた百二十五万の軍隊は、急速に朝鮮に集結するとも言われている。<br><br>またマ元帥の方も、中共がもし朝鮮を爆撃して来れば、直ちに満州爆撃も自由であるとの、米陸軍本部からの指令が来たとの事であるから、近く両軍の大空中戦が、朝鮮か満州の空で、大々的に始まるのは、最早どうする事も出来ない運命と言えよう。<br><br> これらの状勢を綜合して考える時、日本国民といえども、今までと異（ちが）った観点に立って、事態を見極めなければならないと共に、充分腹帯を締める必要が迫っている。<br><br>火事が大きくなると、いつ何時（なんどき）火の粉が降ってくるかも判らない。<br><br>危機は刻々身近に迫りつつある。<br><br>無防備国家日本も、国力の許す限り、まだ講和は決らないとしても、連合軍の援助に乗出さなければならない事になろう。<br><br>その場合日本としては、軍需工場の最高能力の発揮、基地の提供、国内の警備等に全力を注がねばなるまい。<br><br> また外電によれば、ソ連の方には、原爆四百個が貯（たくわ）えられており、米の方は五百ないし一千個というのだから、いよいよ始まったら、原爆戦争は必死で、どんな悲惨な場面が出現するか、恐らく想像もつくまい。<br><br>そこで吾々日本人にとっても、最悪の場面を考えておく必要があろう。<br><br>何しろ日本は位置からいっても国力から言っても、東亜の最重要点である以上、米ソ両方の争奪戦となるのは想像され得る。<br><br>とすれば飛（と）ばっ散（ち）りどころではない、両軍火花を散らす、戦場とならないとも限らないであろう。<br><br>とすれば朝鮮の二の舞となる危険性もあり、これらを考える時、日本国民としては一大覚悟をしなければなるまい。<br><br> 右は、常識的に感じたままかいたのであるが、吾々宗教家としての観方はまた別である。<br><br>これも余り深くかく事は許されないが、いつもいう通り、最後の世の大浄化作用であって、行くところまで行かない限り治まりはつくまい。<br><br>これこそ聖書のいわゆる火の洗霊でなくて何であろう。<br><br>一言にして言えば、一大破壊が行われるのである。<br><br>それについて自観叢書にある、昭和六年六月十五目の黎明期が、十年後の十六年六月十五日で、この時も一大神秘があったが、本年は二十年目に当るので、六月十五日以後は、いよいよ現界に物質的大変化が起るであろう事も想像され得るのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Iminência da Conflagração Mundial e a Grande Purificação</h2>
 <p>O conflito na Coreia, que por algum tempo permaneceu latente, dá mostras recentes de estar prestes a eclodir com fúria. Caso se inflame de fato, as consequências serão nefastas, podendo converter-se numa conflagração que incinerará o mundo. Conforme noticiam as agências internacionais, o bombardeio da Manchúria é apontado como o possível estopim da Terceira Guerra Mundial. A intransigência da China Comunista já me levava a crer que a situação era grave, e a conjuntura atual confirma essa percepção de maneira inequívoca.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Diante de tal cenário, o povo japonês deve, com urgência, adotar uma nova perspectiva para discernir a gravidade dos fatos e preparar-se para grandes sacrifícios. Quando um incêndio se alastra, é impossível prever quando as centelhas nos atingirão. O perigo se avizinha a cada instante. O Japão, uma nação indefesa, ainda que o tratado de paz não tenha sido firmado, será compelido a auxiliar as forças aliadas na medida de suas capacidades. Nesse caso, caberá ao nosso país empenhar todos os seus esforços na produção máxima de suas indústrias bélicas, na cessão de bases militares e na manutenção da segurança interna.</p>
 <p>Ademais, reportagens internacionais afirmam que a União Soviética possui um arsenal de quatrocentas bombas atômicas, enquanto os Estados Unidos detêm entre quinhentas e mil. Se o conflito de fato se iniciar, a guerra atômica será inevitável, e é impossível sequer imaginar as cenas de tragédia que advirão. Portanto, para nós, japoneses, é imperativo que contemplemos o pior cenário possível. Afinal, por sua localização e importância, o Japão é um ponto estratégico nevrálgico no Leste Asiático, tornando-se, previsivelmente, objeto de disputa entre americanos e soviéticos. Nessa hipótese, não seríamos apenas atingidos por danos colaterais; há o risco de nos tornarmos o próprio campo de batalha onde as duas potências se enfrentarão. Corremos o perigo de repetir o trágico destino da Coreia, e, ao ponderar sobre tais possibilidades, o povo japonês precisa se firmar em uma profunda determinação.</p>
 <p>O que expus até aqui baseia-se em uma análise pautada pelo senso comum. Contudo, nossa perspectiva, como religiosos, é distinta. Embora não me seja permitido aprofundar-me em demasia neste tema, trata-se, como sempre afirmo, da Grande Purificação do final dos tempos, um processo que não cessará até que tenha cumprido por completo o seu curso. O que seria isto, senão o chamado ‘batismo de fogo’ mencionado na Bíblia? Em suma, ocorrerá uma imensa destruição. A esse respeito, consta na coletânea Jikan Sōsho que o ‘período da alvorada’, iniciado em 15 de junho de 1931, foi marcado por um grande mistério dez anos depois, em 15 de junho de 1941. Como este ano completam-se vinte anos daquela data inicial, é plausível supor que, após o próximo 15 de junho, uma extraordinária transformação material finalmente se manifestará no mundo físico.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 巻頭言 (地上天国23号) 『地上天国』23号、昭和26(1951)年4月25日発行 朝鮮の動乱も、しばらく燻（くすぶ）っていたところ、最近に至り、俄然火の手が上ろうとする気配が見えて来た。<br/><br/>何しろ今度燃え始まったら大変な事になろう。<br/><br/>あるいは世界を焼き尽す劫火（ごうか）となるかも知れないからである。<br/><br/>外電の報ずるところによるも、満州爆撃は、第三次戦争の口火となるかも知れないと言われている。<br/><br/>全く中共の腰の強さからみれば、ただ事ではないと思っていた。<br/><br/>果せるかな、昨今の状勢は、それが如実に現われて来た事が窺（うかが）われる。<br/><br/>情報によれば、ソ連から百六十万の装備を送るというし、飛行機も種々取混ぜて千三百機（一説には三千機ともいう）を供給するとの事であり、その他艦船二十五万噸（トン）、潜水艦二十隻が出動の準備中との事である。<br/><br/>しかもまた百二十五万の軍隊は、急速に朝鮮に集結するとも言われている。<br/><br/>またマ元帥の方も、中共がもし朝鮮を爆撃して来れば、直ちに満州爆撃も自由であるとの、米陸軍本部からの指令が来たとの事であるから、近く両軍の大空中戦が、朝鮮か満州の空で、大々的に始まるのは、最早どうする事も出来ない運命と言えよう。<br/><br/> これらの状勢を綜合して考える時、日本国民といえども、今までと異（ちが）った観点に立って、事態を見極めなければならないと共に、充分腹帯を締める必要が迫っている。<br/><br/>火事が大きくなると、いつ何時（なんどき）火の粉が降ってくるかも判らない。<br/><br/>危機は刻々身近に迫りつつある。<br/><br/>無防備国家日本も、国力の許す限り、まだ講和は決らないとしても、連合軍の援助に乗出さなければならない事になろう。<br/><br/>その場合日本としては、軍需工場の最高能力の発揮、基地の提供、国内の警備等に全力を注がねばなるまい。<br/><br/> また外電によれば、ソ連の方には、原爆四百個が貯（たくわ）えられており、米の方は五百ないし一千個というのだから、いよいよ始まったら、原爆戦争は必死で、どんな悲惨な場面が出現するか、恐らく想像もつくまい。<br/><br/>そこで吾々日本人にとっても、最悪の場面を考えておく必要があろう。<br/><br/>何しろ日本は位置からいっても国力から言っても、東亜の最重要点である以上、米ソ両方の争奪戦となるのは想像され得る。<br/><br/>とすれば飛（と）ばっ散（ち）りどころではない、両軍火花を散らす、戦場とならないとも限らないであろう。<br/><br/>とすれば朝鮮の二の舞となる危険性もあり、これらを考える時、日本国民としては一大覚悟をしなければなるまい。<br/><br/> 右は、常識的に感じたままかいたのであるが、吾々宗教家としての観方はまた別である。<br/><br/>これも余り深くかく事は許されないが、いつもいう通り、最後の世の大浄化作用であって、行くところまで行かない限り治まりはつくまい。<br/><br/>これこそ聖書のいわゆる火の洗霊でなくて何であろう。<br/><br/>一言にして言えば、一大破壊が行われるのである。<br/><br/>それについて自観叢書にある、昭和六年六月十五目の黎明期が、十年後の十六年六月十五日で、この時も一大神秘があったが、本年は二十年目に当るので、六月十五日以後は、いよいよ現界に物質的大変化が起るであろう事も想像され得るのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,410 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>situmo33</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,59 +442,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 教えの光 『地上天国』29号、昭和26(1951)年10月25日発行 （お伺） 最近支部所在地の氏神様または一之宮などに参拝いたし、天津祝詞奏上して御協力をお願いいたしますと、支部の月並祭の節、信者または資格者に祭神、ときにはお使いの方が憑依して参拝の御礼に出られます。<br><br>また氏神様でも一之宮様でも邪魔しておられた祭神もあるらしく、いっさいをざんげして協力を誓って帰られることもございます。<br><br> 狐霊などの憑依とはぜんぜん違い、龍神にて威儀正しく出られます。<br><br>なお参拝した付近の神社で残してきた所は「後から参拝に来てくれ」と出られることもあります。<br><br>右様いたしますと必ず御礼に出られますし、中にはもう一度来てほしいと言われる所もございます。<br><br>いかなるわけかと月並祭のたびに出られる兵庫県草山村本郷支部長の本守護霊の大峰山役之行者（えんのぎょうじゃ）が出られたとき聞きましたところ「神格のある神のほうが人間より先じゃ」と申されました。<br><br>中にはたびたび出られて浄霊を受け、天津祝詞を聞き「主神のお許しが出て元の神格に帰れた」と御礼に出られる祭神もございます。<br><br> 明主様より過日いっさい信じてやるようお言葉をいただきましたので、一応信じていろいろ聞いてみますが、簡単にて言葉少なきため、信じて今後も続いて参拝いたしてもよろしいものでしょうか、右謹んでお伺い申し上げます。<br><br> なお今日までに出られた神社は京都にて吉田神社、今宮神社、伏見稲荷、およびほうぼうの稲荷、丹波にて梅田神社の天兒屋根命（あめのこやねのみこと）、大森神社（ミカゲ大神）、大川神社、因幡にて一之宮宇倍神社の建内之宿禰（たけのうちのすくね）（武内の武は違うとのことです。<br><br>建と書いてタケと読むのだそうです）長田神社の誉田別之命（ほんだわけのみこと）、栗谷神社のオニハメノ命、聖神社の天兒屋根命、加露神社の（吉備軍制（きびぐんせい））吉備真備命、伯耆（ほうき）の国にて一之宮の倭文（しとり）神社下照姫（したてるひめ）命、出雲にて朝山八幡の応神天皇、大森神社の事代主命等々、その他各稲荷神社、稲荷は全部邪魔しておりました。<br><br>右に対しよろしく御垂示のほどお願い申し上げます。<br><br> （御垂示） 私は以前から、その土地の産土神社へお参りしたほうがいいと言っているので、それを事実で分からせるために、神様がそうされたのである。<br><br>右はことごとく正しい神様であるから、今後も信じて続けるべきである。<br><br> （お伺） 龍神の憑依しやすき文字はラリルレロと御開示いただいておりますが、狐霊も憑依しやすき文字および行があるように思われますがいかがでございましょうか、お伺い申し上げます。<br><br> （御垂示） 龍神と異って狐霊のほうはあまりないものであると思えばいい。<br><br> （お伺） 本月八日の御開示いただきました「貴いものほど数が少なくなる」とのこと、右は龍神にも当てはまるように思われますが、いかがでございましょうか。<br><br> 金龍も銀龍も御一体だけでございましょうか、それとも金龍、銀龍のうちにも火龍、水龍、土龍とあるものでしょうか、右謹んでお伺い申し上げます。<br><br> （御垂示） 金龍、銀龍は一柱であって、それ以外は下級になるほど増えるのは、先に説いた通りである。<br><br>ただし邪神のほうもその点は同じである。<br><br> （お伺） 一、古事記によれば大国主命には大已貴命（おほなむちのみこと）、葦原色許男命（あしはらしこをのみこと）、八千矛命（やちほこのみこと）、宇都志国玉命（うつしくにたまのみこと）、と五ツの御名がありますが、ある霊の申しますには、大国主命と大已貴命とは違うとのことですが、右はいかがでございましょうか、お伺い申し上げます。<br><br> 二、天象気象現象界などまたは象に人偏をつけて尊像、銅像など申しますが、象の文字の意義を御教示お願い申し上げます。<br><br>なお動物の象となにか関係がございましょうか、お伺い申し上げます。<br><br> 三、古事記による因幡（いなば）の白うさぎはいかなる意味のものでございましょうか、お伺い申し上げます。<br><br> （御垂示） 一、それは違う。<br><br>大已貴命のほうが、大国主命より古い神様で、支那の磐古神王（ぱんこしんわう）系の神様である。<br><br> 二、これは判りきった話である。<br><br>人偏がついているのだから人である。<br><br>獣の象は百獣の王であって、猛獣ではなく至極平和で感じもいいので人間も、それにならえという意味から用いたのであろう。<br><br> 三、これはいろいろな説があるが、古代にできたたとえ話で現実的の意味はないから書く必要はあるまい。<br><br> （お伺） 最近各支部の月並祭後、信者を浄霊中、自然に憑霊現象が起るようになり、なにかといろいろ霊界または霊的のことを勉強させられております。<br><br>よく信者の御先祖が救いを求めて出られたり「位牌を作ってくれ」とか、「位牌の祀り方の傾が違うから直してくれ」と出られますので、できる限りのことはしておりますが、ある先生のお話などを聞くところによれば「あまり親切に霊の救いをすると、いくらでもたよってきて限りないし、そうしたことをしていると物質までみんな０（ゼロ）になる」と言われます。<br><br>私は頼ってくるからにはみんな霊線がつながっているから頼ってくるのであって、むちゃくちゃに頼るわけはないと思います。<br><br>なお霊を救ってやれば必ず感謝の想念はいつかは物質化するものと思われますが、いかがなものでございましょうか。<br><br>右に対し、なにとぞよろしく御教示のほどお願い申し上げます。<br><br> （御垂示） 右のようなある先生には困ったものである。<br><br>○○の一つ覚えのように、融通がきかないのだから。<br><br>こういう先生は、千変万化、自由無碍、応身の教えに外れている。<br><br>この意味によって霊的事象も、人により所により、時によって正邪、善悪いろいろある。<br><br>これを見分けて適当に処理することが、できるようになれば一人前の本教信者である。<br><br> 従って、この人の憑霊は、この人にこの御用があるのだから、なんら心配なくやればいいのである。<br><br>すべて人によりそれぞれ違った御用があるのだから、単なる自己判断で決めるのは最も間違っているから、その点よく心得てもらいたいのである。<br><br>ちょうど芝居に例えればよく判る。<br><br>いろいろな役があるからおもしろい芝居ができるのと同じである。<br><br> （お伺） 本年二月にさかのぼって出雲地方に起きた霊的現象につきお伺い申し上げます。<br><br> 山内地理なる引き揚げ未亡人教師に龍神憑依し、いかに聞いても「出雲地方にて三千年来神と祀られていた者だ」と、「また八岐大蛇（やまたのおろち）の第一の眷族だ」とも言い、八岐大蛇が「後はよろしく頼む」と言って姿を消し、いまはどこにいるやら「そのとき名前は絶対に言うなと言ったから言えぬ」とも言い、また奇稲田姫（くしなだひめ）のお側におった者だとも言いました。<br><br>ついに三月の本部大祭の節「明主様に御面会してから名乗る」と約束して大祭の当日、余興の始まる前「気持ちが悪いから浄霊を頼む」と言うので浄霊いたしますと龍神が憑依し、御面会させてもらった御礼を言い、それより口はきかなくなり、畳に文字を書くようになりました。<br><br>約束通り名前を聞きますと「出雲の朝山八幡に来てくれればわかる」とのこと。<br><br>その後四月にいろいろ調べて米子の四月の月並祭後参拝に行きました。<br><br>そのとき霊視能力者を連れて行きましたところ、祭神は応神天皇になっておりましたが、参拝終わって霊視者に聞いてみますと、われわれが第一鳥居をくぐるときから、神殿正面に衣冠束帯（いかんそくたい）の顎鬚（あごひげ）の長い、上衣は茶色、下袴は白、冠は後ろに長くたれ、袖の上部は紐にてあんであり、少し頭を下げられた老貴人の姿が見え、側に女神で髪はおすべらかしで十二単の御姿が見えたそうです（前に浄霊したときには龍神にて目は野球のボールくらい、角は短くひげは片方一尺五寸くらい、胴全部がもしも見えたら室いっぱいになるような大きさで、私が天帝（額の中央）を浄霊するたびに非常に苦しがり、実にものすごい形相だとのことでした）。<br><br>参拝終わって出雲今市市の山内宅に帰る途中、雨となり、風も出て汽車より降りたときには突風が起り、雨もまじってものすごいふき降りになりました。<br><br>さては龍神が来られたなと思い、さっそく山内宅にて浄霊いたしましたところ、龍神憑依し、今日の参拝の御礼と名前を、涙を流し袖にて顔をかくし、いかにも残念そうに応神天皇と書きました。<br><br>なお、今日まで邪魔をしていたことをわび、今後の協力を誓って帰りました。<br><br>右の応神天皇と龍神との関係をいかに解釈させていただきましたらよろしいでしょうか、御垂示のほどお願い申し上げます。<br><br> 女神は聞きましたるところ、応神天皇のおきさきとのことでした。<br><br> （御垂示） 応神天皇がある執着のため、龍神に堕ちていられたので、救われたいため私に面会を求めたのである。<br><br>それによって人間に救われ、元の応神天皇となったので、知らせることができたのである。<br><br>そのありがたさにより、今後は大いにお手伝いをされるから、いずれ現実に分かるはずである。<br><br> （お伺） 明主様お伺い申し上げます。<br><br>朝食卓に対（むか）い、ふとお茶碗の中を見ますと∩図のごとき型をした金色が、無数に消えては写り、消えては写るのが見えました。<br><br>その後幾日か過ごして、ふと電灯を見ますと、また右と同様なのが無数に見えるのであります。<br><br>このことが二カ月ほど続きました。<br><br>最後に見えなくなる四、五日前よりは、教会で石井先生の御浄霊をさしていただいておりますと、手先に右の物が見えますので、電灯を見ますと周囲が右の光にて見事に美しく、右は教会か自宅よりほかでは見たことがありません。<br><br>右は祖霊のお知らせでありましょうか、お伺い申し上げます。<br><br> （御垂示） それは家の形であって、いずれ結構な家に住めるようになるというお知らせである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Luz do Ensinamento</h2>
 <p><strong>Publicado na revista Paraíso Terrestre nº 29, em 25 de outubro de 1951</strong></p>
@@ -158,5 +508,48 @@ function toggleLang(lang) {
 <p>Gostaria de fazer uma consulta a Meishu-Sama. Certa vez, ao me sentar para o desjejum, olhei para dentro de minha tigela de chá e vi inúmeras formas douradas, semelhantes a um arco (∩), que surgiam e desapareciam incessantemente. Dias depois, ao olhar para uma lâmpada elétrica, vi novamente o mesmo fenômeno em profusão. Isso se repetiu por cerca de dois meses. Nos últimos quatro ou cinco dias antes de o fenômeno cessar, eu via essas formas em minhas mãos enquanto recebia Johrei do Reverendo Ishii, na Igreja. Ao olhar para a lâmpada, via-a magnificamente adornada por essa luz. Só presenciei esse fenômeno na Igreja ou em minha casa. Seria este um aviso de meus antepassados?</p>
 <p><strong>(Esclarecimento Divino)</strong></p>
 <p>Essa forma representa uma casa. É um prenúncio de que, no futuro, você poderá residir em uma esplêndida morada.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 教えの光 『地上天国』29号、昭和26(1951)年10月25日発行 （お伺） 最近支部所在地の氏神様または一之宮などに参拝いたし、天津祝詞奏上して御協力をお願いいたしますと、支部の月並祭の節、信者または資格者に祭神、ときにはお使いの方が憑依して参拝の御礼に出られます。<br/><br/>また氏神様でも一之宮様でも邪魔しておられた祭神もあるらしく、いっさいをざんげして協力を誓って帰られることもございます。<br/><br/> 狐霊などの憑依とはぜんぜん違い、龍神にて威儀正しく出られます。<br/><br/>なお参拝した付近の神社で残してきた所は「後から参拝に来てくれ」と出られることもあります。<br/><br/>右様いたしますと必ず御礼に出られますし、中にはもう一度来てほしいと言われる所もございます。<br/><br/>いかなるわけかと月並祭のたびに出られる兵庫県草山村本郷支部長の本守護霊の大峰山役之行者（えんのぎょうじゃ）が出られたとき聞きましたところ「神格のある神のほうが人間より先じゃ」と申されました。<br/><br/>中にはたびたび出られて浄霊を受け、天津祝詞を聞き「主神のお許しが出て元の神格に帰れた」と御礼に出られる祭神もございます。<br/><br/> 明主様より過日いっさい信じてやるようお言葉をいただきましたので、一応信じていろいろ聞いてみますが、簡単にて言葉少なきため、信じて今後も続いて参拝いたしてもよろしいものでしょうか、右謹んでお伺い申し上げます。<br/><br/> なお今日までに出られた神社は京都にて吉田神社、今宮神社、伏見稲荷、およびほうぼうの稲荷、丹波にて梅田神社の天兒屋根命（あめのこやねのみこと）、大森神社（ミカゲ大神）、大川神社、因幡にて一之宮宇倍神社の建内之宿禰（たけのうちのすくね）（武内の武は違うとのことです。<br/><br/>建と書いてタケと読むのだそうです）長田神社の誉田別之命（ほんだわけのみこと）、栗谷神社のオニハメノ命、聖神社の天兒屋根命、加露神社の（吉備軍制（きびぐんせい））吉備真備命、伯耆（ほうき）の国にて一之宮の倭文（しとり）神社下照姫（したてるひめ）命、出雲にて朝山八幡の応神天皇、大森神社の事代主命等々、その他各稲荷神社、稲荷は全部邪魔しておりました。<br/><br/>右に対しよろしく御垂示のほどお願い申し上げます。<br/><br/> （御垂示） 私は以前から、その土地の産土神社へお参りしたほうがいいと言っているので、それを事実で分からせるために、神様がそうされたのである。<br/><br/>右はことごとく正しい神様であるから、今後も信じて続けるべきである。<br/><br/> （お伺） 龍神の憑依しやすき文字はラリルレロと御開示いただいておりますが、狐霊も憑依しやすき文字および行があるように思われますがいかがでございましょうか、お伺い申し上げます。<br/><br/> （御垂示） 龍神と異って狐霊のほうはあまりないものであると思えばいい。<br/><br/> （お伺） 本月八日の御開示いただきました「貴いものほど数が少なくなる」とのこと、右は龍神にも当てはまるように思われますが、いかがでございましょうか。<br/><br/> 金龍も銀龍も御一体だけでございましょうか、それとも金龍、銀龍のうちにも火龍、水龍、土龍とあるものでしょうか、右謹んでお伺い申し上げます。<br/><br/> （御垂示） 金龍、銀龍は一柱であって、それ以外は下級になるほど増えるのは、先に説いた通りである。<br/><br/>ただし邪神のほうもその点は同じである。<br/><br/> （お伺） 一、古事記によれば大国主命には大已貴命（おほなむちのみこと）、葦原色許男命（あしはらしこをのみこと）、八千矛命（やちほこのみこと）、宇都志国玉命（うつしくにたまのみこと）、と五ツの御名がありますが、ある霊の申しますには、大国主命と大已貴命とは違うとのことですが、右はいかがでございましょうか、お伺い申し上げます。<br/><br/> 二、天象気象現象界などまたは象に人偏をつけて尊像、銅像など申しますが、象の文字の意義を御教示お願い申し上げます。<br/><br/>なお動物の象となにか関係がございましょうか、お伺い申し上げます。<br/><br/> 三、古事記による因幡（いなば）の白うさぎはいかなる意味のものでございましょうか、お伺い申し上げます。<br/><br/> （御垂示） 一、それは違う。<br/><br/>大已貴命のほうが、大国主命より古い神様で、支那の磐古神王（ぱんこしんわう）系の神様である。<br/><br/> 二、これは判りきった話である。<br/><br/>人偏がついているのだから人である。<br/><br/>獣の象は百獣の王であって、猛獣ではなく至極平和で感じもいいので人間も、それにならえという意味から用いたのであろう。<br/><br/> 三、これはいろいろな説があるが、古代にできたたとえ話で現実的の意味はないから書く必要はあるまい。<br/><br/> （お伺） 最近各支部の月並祭後、信者を浄霊中、自然に憑霊現象が起るようになり、なにかといろいろ霊界または霊的のことを勉強させられております。<br/><br/>よく信者の御先祖が救いを求めて出られたり「位牌を作ってくれ」とか、「位牌の祀り方の傾が違うから直してくれ」と出られますので、できる限りのことはしておりますが、ある先生のお話などを聞くところによれば「あまり親切に霊の救いをすると、いくらでもたよってきて限りないし、そうしたことをしていると物質までみんな０（ゼロ）になる」と言われます。<br/><br/>私は頼ってくるからにはみんな霊線がつながっているから頼ってくるのであって、むちゃくちゃに頼るわけはないと思います。<br/><br/>なお霊を救ってやれば必ず感謝の想念はいつかは物質化するものと思われますが、いかがなものでございましょうか。<br/><br/>右に対し、なにとぞよろしく御教示のほどお願い申し上げます。<br/><br/> （御垂示） 右のようなある先生には困ったものである。<br/><br/>○○の一つ覚えのように、融通がきかないのだから。<br/><br/>こういう先生は、千変万化、自由無碍、応身の教えに外れている。<br/><br/>この意味によって霊的事象も、人により所により、時によって正邪、善悪いろいろある。<br/><br/>これを見分けて適当に処理することが、できるようになれば一人前の本教信者である。<br/><br/> 従って、この人の憑霊は、この人にこの御用があるのだから、なんら心配なくやればいいのである。<br/><br/>すべて人によりそれぞれ違った御用があるのだから、単なる自己判断で決めるのは最も間違っているから、その点よく心得てもらいたいのである。<br/><br/>ちょうど芝居に例えればよく判る。<br/><br/>いろいろな役があるからおもしろい芝居ができるのと同じである。<br/><br/> （お伺） 本年二月にさかのぼって出雲地方に起きた霊的現象につきお伺い申し上げます。<br/><br/> 山内地理なる引き揚げ未亡人教師に龍神憑依し、いかに聞いても「出雲地方にて三千年来神と祀られていた者だ」と、「また八岐大蛇（やまたのおろち）の第一の眷族だ」とも言い、八岐大蛇が「後はよろしく頼む」と言って姿を消し、いまはどこにいるやら「そのとき名前は絶対に言うなと言ったから言えぬ」とも言い、また奇稲田姫（くしなだひめ）のお側におった者だとも言いました。<br/><br/>ついに三月の本部大祭の節「明主様に御面会してから名乗る」と約束して大祭の当日、余興の始まる前「気持ちが悪いから浄霊を頼む」と言うので浄霊いたしますと龍神が憑依し、御面会させてもらった御礼を言い、それより口はきかなくなり、畳に文字を書くようになりました。<br/><br/>約束通り名前を聞きますと「出雲の朝山八幡に来てくれればわかる」とのこと。<br/><br/>その後四月にいろいろ調べて米子の四月の月並祭後参拝に行きました。<br/><br/>そのとき霊視能力者を連れて行きましたところ、祭神は応神天皇になっておりましたが、参拝終わって霊視者に聞いてみますと、われわれが第一鳥居をくぐるときから、神殿正面に衣冠束帯（いかんそくたい）の顎鬚（あごひげ）の長い、上衣は茶色、下袴は白、冠は後ろに長くたれ、袖の上部は紐にてあんであり、少し頭を下げられた老貴人の姿が見え、側に女神で髪はおすべらかしで十二単の御姿が見えたそうです（前に浄霊したときには龍神にて目は野球のボールくらい、角は短くひげは片方一尺五寸くらい、胴全部がもしも見えたら室いっぱいになるような大きさで、私が天帝（額の中央）を浄霊するたびに非常に苦しがり、実にものすごい形相だとのことでした）。<br/><br/>参拝終わって出雲今市市の山内宅に帰る途中、雨となり、風も出て汽車より降りたときには突風が起り、雨もまじってものすごいふき降りになりました。<br/><br/>さては龍神が来られたなと思い、さっそく山内宅にて浄霊いたしましたところ、龍神憑依し、今日の参拝の御礼と名前を、涙を流し袖にて顔をかくし、いかにも残念そうに応神天皇と書きました。<br/><br/>なお、今日まで邪魔をしていたことをわび、今後の協力を誓って帰りました。<br/><br/>右の応神天皇と龍神との関係をいかに解釈させていただきましたらよろしいでしょうか、御垂示のほどお願い申し上げます。<br/><br/> 女神は聞きましたるところ、応神天皇のおきさきとのことでした。<br/><br/> （御垂示） 応神天皇がある執着のため、龍神に堕ちていられたので、救われたいため私に面会を求めたのである。<br/><br/>それによって人間に救われ、元の応神天皇となったので、知らせることができたのである。<br/><br/>そのありがたさにより、今後は大いにお手伝いをされるから、いずれ現実に分かるはずである。<br/><br/> （お伺） 明主様お伺い申し上げます。<br/><br/>朝食卓に対（むか）い、ふとお茶碗の中を見ますと∩図のごとき型をした金色が、無数に消えては写り、消えては写るのが見えました。<br/><br/>その後幾日か過ごして、ふと電灯を見ますと、また右と同様なのが無数に見えるのであります。<br/><br/>このことが二カ月ほど続きました。<br/><br/>最後に見えなくなる四、五日前よりは、教会で石井先生の御浄霊をさしていただいておりますと、手先に右の物が見えますので、電灯を見ますと周囲が右の光にて見事に美しく、右は教会か自宅よりほかでは見たことがありません。<br/><br/>右は祖霊のお知らせでありましょうか、お伺い申し上げます。<br/><br/> （御垂示） それは家の形であって、いずれ結構な家に住めるようになるというお知らせである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

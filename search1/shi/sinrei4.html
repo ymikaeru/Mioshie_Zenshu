@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sinrei4</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神霊と科学との力 『栄光』153号、昭和27(1952)年4月23日発行 神霊の力と科学の力とは、どのくらいの異（ちが）いがあるかという事の立証は、左の御蔭話を読めば何人にも分るであろう。<br><br>何しろ本教は現在のごとき地獄世界を、天国世界に転換させるという大目的であるから、いかに素晴しい力をもっているかは、左の一小事だけでも想像がつくであろう。<br><br> 見よ！此の奇蹟瀕死の直腸癌癒ゆ 〔関節リューマチスも治り瀕死の直腸癌患者癒ゆ〕 『アメリカを救う』昭和28(1953)年1月1日発行にも掲載 山口県 大原中教会 木村辰雄（26） 本教に入信致しまして未だ日浅き私が、不肖の身も省みずあえて拙筆を執らせて戴きましたのは、余りにも有難く尊い奇蹟の数々を戴き、自分一人の胸に秘めて置きます事は勿体なく、拙き筆ながら奇蹟の続出とも言うべき私の体験を記述する事によりまして、皆様の御信仰御奉仕の一助ともなりますれば幸と存じました故と、今一つはジャーナリストの科学万能主義と唯物論者の無神論に対して、信仰の醍醐味と、本教の御浄霊が科学に優越せる事実を示し、真の宗教の在り方と、存在の一端でも認識して戴きたい一念からでございます。<br><br> 私が本教の存在を知りましたのは、肋間及び坐骨神経痛、関節リューマチスにて病床一年有余、医者よ、電気よ、鍼よ、灸よ、指圧よ、とありとあらゆる治療をつくしましたが経過ははかばかしくなく、手足は麻痺で紫色に変色致し、記憶力は衰え、眼はかすみ、朝に夕べに激痛高熱の苦しみは、青春の夢も希望も奪い去り、生への意欲すら起らない暗黒の世界に投出され、放心状態に陥りました。<br><br>ただ、苦痛と高熱に耐えかね、注射、指圧、電気治療を日課のごとく繰返していたに過ぎませんでした。<br><br>それは客年二月中旬の事でございました。<br><br>兄嫁の里の母から聞いて参りましたと高本先生がお見えになり、御浄霊の有難いことについてお話し下され、「とにかく一週間程総ての治療を一時中止して御浄霊を受けて御覧なさい。<br><br>きっと治りますよ」とおっしゃって下さいました。<br><br>元来私はマルクスの共鳴者にて、信仰のシの字も嫌いな無神論者で今から考えますと実に恐れ多い事ながら、いか程有難いか知らないが、現代医学の最高技術によってなお根治不能とされているこの病気が、ただ手をかざすだけで治ってたまるものか、これこそ迷信邪教だと、到底信ずる事は出来ず、ただ試してみるのも一理だとばかり御浄霊を受けました。<br><br>やがて三日目の事でございます。<br><br>無神論者の私にも遂に神の実在、奇蹟の実態をまざまざと見せられる時がやって参りました。<br><br>今日まで一年有余、風雨もいとわず毎日往診して下さった医者を無下にことわる事も出来ず「昨今は苦痛も少く大分いいようでございますから、暫く注射も薬もやめてみようと存じますがいかがなものでございましょうか？ 薬注射も量や度が過ぎると反って反応が現われ、手足の麻痺凝結を招くのではありませんでしょうか」と腕曲に往診を辞退すれば「それは素人の浅慮と言うもの、医者のする事に間違いはない。<br><br>悪いようにはせぬから病気は医者に任せなさい」とばかり相変らず往診に見え、注射をしておりましたが、Ａ先生の一念が神に通じましたのか、御光の入りました体内には、科学者たる医者にも犯すべからざるものがありますのか、注射針を差し込めば曲るか折れるかして容易に針が差し込めず、六、七回目にやっと針を差し込んだかと思えば、今度は注射液が流出して効果なく、医者も看護婦も当惑顔、そしてさも不思議そうにある一点を凝視しております。<br><br> そこには高本先生が神様の御軸を掲げるために打たれた釘があるのです。<br><br>その日はそれでお帰りになりましたが、その翌日のこと、雨の中を往診に来て看護婦に注射の用意をさせ、注射液の入った注射器を手に取り、ジーッと考えていましたが、突然「経過良好の由だったね。<br><br>ウーン、今日は注射を打つのはやめた」と言って早急にかえり仕度を始めました。<br><br>それには看護婦始め一同驚きました。<br><br>又帰られるときの挨拶が「御大事に、悪くなりましたらすぐお知らせ下さい。<br><br>早速御伺い致しますからね」と形式的に、そして神様の御軸を掛ける釘が目にとまった途端、「いやいや私を招く程の事はなく元気になられ、歩いて病院まで来られるようになるでしょう。<br><br>いやいやもう二度と医者の御世話になる事はありませんから御安心」とばかりほうほうの体で帰られました。<br><br> 嗚呼！ これが奇蹟でなくて何でありましょう。<br><br>御守護の偉大なるかな、今こそ神の存在と奇蹟の実体をまざまざと見せつけられ、大いなる神様の御恵に家族一同感謝感泣致しました。<br><br> その日その時より、私の頑な心も一変致し、今までは馬耳東風と聞き流していました善言讃詞を唱え、御神書を熟読致す事によりまして、未だかつて持つあたわざりし安心感と、信仰の醍醐味を玩味させて戴き、青春の夢と希望をとり戻し、幸福な楽しい日々の訪れとなりました。<br><br>御浄霊により、紫色に変色していた手足、かすんでいた眼、記憶力の喪失も日々快復致し、一週間目には、これが一年有余も就床していた体かと思われる程の健康体に返り、坐る事も出来なかった関節の屈折も自由となり、一時間の静坐にも、一里の道程も、さしたる苦痛を感ぜず耐え得る程となりました。<br><br>手足の麻痺及び変色、眼のかすみ、記憶力の喪失等はすべて薬毒のためであった事が理解出来ますと共に、薬毒がいかに恐しいものであるかを悟り、今まではそれを有難く頂戴していたかと思うと身震いいたしました。<br><br> 当月二十日の御祭には、母と二人で参拝致し、早速入信させて戴き、地上天国建設のため人類救済の一大御神業に微力ながら日々御協力させて戴いております。<br><br>御浄霊をさせて戴きますと次々と奇蹟が現われ、奇蹟は奇蹟を生み、いよいよ御神業の偉大さを知らされ、益々一層の御報恩の念を厚くさせられます。<br><br> 左にその例を挙げまして、私の体験記の拙筆をとめさせて戴きます。<br><br> ある老婦人は直腸癌にて就床一年有半、食欲もなく青白き顔面には生色なく、名医が高貴薬珍薬をとあらゆる治療を施せど、悪化の一途をたどるのみにて、死を待つのも時の問題という哀れな状態でありました。<br><br>が、高本先生が行かれまして御浄霊二日目には食事も戴け、便所にも歩いて行かれる程になりました。<br><br>一週間目には床上げも炊事もしております。<br><br>私が一週間後に参りました時には医者が 「これは不思議、お腹のかたまりが無くなっている。<br><br>これは癌ではありません。<br><br>不思議な事もあればあるもの、私が医者として癌患者を扱った事も多いが、こんな状態、こんな変化をきたした患者は一人もありません。<br><br>一つ研究のため診察だけでもさせて下さい」と手を合わせ医者が患者に頼み込んでいる珍風景、私は心から「明主様有難うございました」とお礼を述べさせて戴きました。<br><br>「真の医学は神の医学なり」と。<br><br> 明主様、どうも有難うございました。<br><br> （昭和二十七年四月一日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Poder do Espírito Divino e o Poder da Ciência</h2>
 <p>Qual é a real dimensão da diferença entre o poder do Espírito Divino e o poder da ciência? A comprovação de tal disparidade tornar-se-á manifesta a quem quer que leia o relato de graça a seguir. Afinal, nossa Igreja tem por magno objetivo a transmutação do atual mundo infernal em um Paraíso Terrestre. Portanto, a partir de um único e singelo caso como este, será possível vislumbrar a magnificência do poder que possuímos.</p>
@@ -115,5 +267,48 @@ function toggleLang(lang) {
 <p>A verdadeira medicina é a Medicina de Deus.</p>
 <p>Meishu-Sama, muito, muito obrigado.</p>
 <p>(1º de abril de 1952)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神霊と科学との力 『栄光』153号、昭和27(1952)年4月23日発行 神霊の力と科学の力とは、どのくらいの異（ちが）いがあるかという事の立証は、左の御蔭話を読めば何人にも分るであろう。<br/><br/>何しろ本教は現在のごとき地獄世界を、天国世界に転換させるという大目的であるから、いかに素晴しい力をもっているかは、左の一小事だけでも想像がつくであろう。<br/><br/> 見よ！此の奇蹟瀕死の直腸癌癒ゆ 〔関節リューマチスも治り瀕死の直腸癌患者癒ゆ〕 『アメリカを救う』昭和28(1953)年1月1日発行にも掲載 山口県 大原中教会 木村辰雄（26） 本教に入信致しまして未だ日浅き私が、不肖の身も省みずあえて拙筆を執らせて戴きましたのは、余りにも有難く尊い奇蹟の数々を戴き、自分一人の胸に秘めて置きます事は勿体なく、拙き筆ながら奇蹟の続出とも言うべき私の体験を記述する事によりまして、皆様の御信仰御奉仕の一助ともなりますれば幸と存じました故と、今一つはジャーナリストの科学万能主義と唯物論者の無神論に対して、信仰の醍醐味と、本教の御浄霊が科学に優越せる事実を示し、真の宗教の在り方と、存在の一端でも認識して戴きたい一念からでございます。<br/><br/> 私が本教の存在を知りましたのは、肋間及び坐骨神経痛、関節リューマチスにて病床一年有余、医者よ、電気よ、鍼よ、灸よ、指圧よ、とありとあらゆる治療をつくしましたが経過ははかばかしくなく、手足は麻痺で紫色に変色致し、記憶力は衰え、眼はかすみ、朝に夕べに激痛高熱の苦しみは、青春の夢も希望も奪い去り、生への意欲すら起らない暗黒の世界に投出され、放心状態に陥りました。<br/><br/>ただ、苦痛と高熱に耐えかね、注射、指圧、電気治療を日課のごとく繰返していたに過ぎませんでした。<br/><br/>それは客年二月中旬の事でございました。<br/><br/>兄嫁の里の母から聞いて参りましたと高本先生がお見えになり、御浄霊の有難いことについてお話し下され、「とにかく一週間程総ての治療を一時中止して御浄霊を受けて御覧なさい。<br/><br/>きっと治りますよ」とおっしゃって下さいました。<br/><br/>元来私はマルクスの共鳴者にて、信仰のシの字も嫌いな無神論者で今から考えますと実に恐れ多い事ながら、いか程有難いか知らないが、現代医学の最高技術によってなお根治不能とされているこの病気が、ただ手をかざすだけで治ってたまるものか、これこそ迷信邪教だと、到底信ずる事は出来ず、ただ試してみるのも一理だとばかり御浄霊を受けました。<br/><br/>やがて三日目の事でございます。<br/><br/>無神論者の私にも遂に神の実在、奇蹟の実態をまざまざと見せられる時がやって参りました。<br/><br/>今日まで一年有余、風雨もいとわず毎日往診して下さった医者を無下にことわる事も出来ず「昨今は苦痛も少く大分いいようでございますから、暫く注射も薬もやめてみようと存じますがいかがなものでございましょうか？ 薬注射も量や度が過ぎると反って反応が現われ、手足の麻痺凝結を招くのではありませんでしょうか」と腕曲に往診を辞退すれば「それは素人の浅慮と言うもの、医者のする事に間違いはない。<br/><br/>悪いようにはせぬから病気は医者に任せなさい」とばかり相変らず往診に見え、注射をしておりましたが、Ａ先生の一念が神に通じましたのか、御光の入りました体内には、科学者たる医者にも犯すべからざるものがありますのか、注射針を差し込めば曲るか折れるかして容易に針が差し込めず、六、七回目にやっと針を差し込んだかと思えば、今度は注射液が流出して効果なく、医者も看護婦も当惑顔、そしてさも不思議そうにある一点を凝視しております。<br/><br/> そこには高本先生が神様の御軸を掲げるために打たれた釘があるのです。<br/><br/>その日はそれでお帰りになりましたが、その翌日のこと、雨の中を往診に来て看護婦に注射の用意をさせ、注射液の入った注射器を手に取り、ジーッと考えていましたが、突然「経過良好の由だったね。<br/><br/>ウーン、今日は注射を打つのはやめた」と言って早急にかえり仕度を始めました。<br/><br/>それには看護婦始め一同驚きました。<br/><br/>又帰られるときの挨拶が「御大事に、悪くなりましたらすぐお知らせ下さい。<br/><br/>早速御伺い致しますからね」と形式的に、そして神様の御軸を掛ける釘が目にとまった途端、「いやいや私を招く程の事はなく元気になられ、歩いて病院まで来られるようになるでしょう。<br/><br/>いやいやもう二度と医者の御世話になる事はありませんから御安心」とばかりほうほうの体で帰られました。<br/><br/> 嗚呼！ これが奇蹟でなくて何でありましょう。<br/><br/>御守護の偉大なるかな、今こそ神の存在と奇蹟の実体をまざまざと見せつけられ、大いなる神様の御恵に家族一同感謝感泣致しました。<br/><br/> その日その時より、私の頑な心も一変致し、今までは馬耳東風と聞き流していました善言讃詞を唱え、御神書を熟読致す事によりまして、未だかつて持つあたわざりし安心感と、信仰の醍醐味を玩味させて戴き、青春の夢と希望をとり戻し、幸福な楽しい日々の訪れとなりました。<br/><br/>御浄霊により、紫色に変色していた手足、かすんでいた眼、記憶力の喪失も日々快復致し、一週間目には、これが一年有余も就床していた体かと思われる程の健康体に返り、坐る事も出来なかった関節の屈折も自由となり、一時間の静坐にも、一里の道程も、さしたる苦痛を感ぜず耐え得る程となりました。<br/><br/>手足の麻痺及び変色、眼のかすみ、記憶力の喪失等はすべて薬毒のためであった事が理解出来ますと共に、薬毒がいかに恐しいものであるかを悟り、今まではそれを有難く頂戴していたかと思うと身震いいたしました。<br/><br/> 当月二十日の御祭には、母と二人で参拝致し、早速入信させて戴き、地上天国建設のため人類救済の一大御神業に微力ながら日々御協力させて戴いております。<br/><br/>御浄霊をさせて戴きますと次々と奇蹟が現われ、奇蹟は奇蹟を生み、いよいよ御神業の偉大さを知らされ、益々一層の御報恩の念を厚くさせられます。<br/><br/> 左にその例を挙げまして、私の体験記の拙筆をとめさせて戴きます。<br/><br/> ある老婦人は直腸癌にて就床一年有半、食欲もなく青白き顔面には生色なく、名医が高貴薬珍薬をとあらゆる治療を施せど、悪化の一途をたどるのみにて、死を待つのも時の問題という哀れな状態でありました。<br/><br/>が、高本先生が行かれまして御浄霊二日目には食事も戴け、便所にも歩いて行かれる程になりました。<br/><br/>一週間目には床上げも炊事もしております。<br/><br/>私が一週間後に参りました時には医者が 「これは不思議、お腹のかたまりが無くなっている。<br/><br/>これは癌ではありません。<br/><br/>不思議な事もあればあるもの、私が医者として癌患者を扱った事も多いが、こんな状態、こんな変化をきたした患者は一人もありません。<br/><br/>一つ研究のため診察だけでもさせて下さい」と手を合わせ医者が患者に頼み込んでいる珍風景、私は心から「明主様有難うございました」とお礼を述べさせて戴きました。<br/><br/>「真の医学は神の医学なり」と。<br/><br/> 明主様、どうも有難うございました。<br/><br/> （昭和二十七年四月一日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

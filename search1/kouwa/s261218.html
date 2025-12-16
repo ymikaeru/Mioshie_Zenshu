@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s261218</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年12月18日） 『御教え集』5号、昭和27(1952)年1月15日発行 昭和二十六年十二月十八日 今度、結核問題――これについて、今までも「結核の革命的療法」なんて出しましたが、今までは徹底して書かなかったんです。<br><br>何故と言って、徹底して書くと、全然医学と言うものを、まるでこき下ろしてしまうので、何かうるさい問題でも起こると、と加減していた。<br><br>あんまり、間違った事でみんなが苦しんでいるので、そんな事をいっておられない。<br><br>それからもう一つは、良く調べてみると、そういう風に論じても法規には触れないそうですから、そこで今度は、私は思い切って、言いたいだけは書いてますからね。<br><br>これを、出来たら連続的に新聞広告して、各大学の医学部――これは日本中ですよ。<br><br>病院から著名な医者とか――結核に関したね。<br><br>そこに配布しようと思っている。<br><br>まあ、原子爆弾ですね。<br><br>これが本当のものなんです。<br><br>今まではこれまで書けなかった。<br><br>だから今までは――ちょっと靴の裏から掻くような――そういう点があったがね。<br><br>この本の名前は「結核信仰療法」と言うんです。<br><br> （御論文「序文」「医学が結核を作る」「結核は感染しない」） かなり思い切って――これが本当で、先の方が嘘だから、ちっとも恐れる事はない。<br><br>いくらでも証拠をお目にかけますからね。<br><br> これは、医学の犠牲になった人の経路をおかげ話として書いてあるんですが、実に良く書いてある。<br><br>全くこれを読んだら、解るのも解るし、実際涙がこぼれるくらいです。<br><br> （「医学が悲劇を作る」） 中々良く書いてあります。<br><br>もっとも実際ですからね。<br><br>こしらえ事じゃ感動するように書けません。<br><br>今の一人だけ―今の人のを読んだだけでも、普通の頭ならピンと来るんですがね。<br><br> この間ピカソの事について書きましたがね。<br><br>やっぱり、ビックリしたと見えて――私が読んだのではなく、聞いたんですが、最近の中京の中部日本――あの新聞に出ていたが、メシヤ教の美術館の事を書いてあって――ピカソを思い切って、こき下ろしたとか、何とか――そう言う事を書いてあったそうですよ。<br><br>ビックリしたと思いますよ。<br><br>けれども、本当だからしょうがないね。<br><br>では、どうしてあの奇怪な絵がはやると言うんですね。<br><br>はやらした本元はピカソですがね。<br><br>それを考えてみると理屈はあるんです。<br><br>あれはどういうのかと言うと、根本的の理由がある。<br><br>と言うのは、東洋――特に日本ですね。<br><br>芸術上から言って、東洋の方は静ですね。<br><br>西洋は動なんです。<br><br>仮に音楽としても、西洋音楽を聴くと、静かに落ち着いておられないでしょう。<br><br>どうしても踊り出すですね。<br><br>つまり、動の芸術なんですからね。<br><br>日本のはそうならない。<br><br>静かに、ゆったりと落ち着いてくる。<br><br>だから、踊りでも日本のは舞踊ですね。<br><br>舞踊でも、舞ですね。<br><br>西洋のは踊りですからね。<br><br>踊りも、段々西洋の方は動が進んできて、極端になってきたですね。<br><br>今アメリカなんかで、ジャズですが、最近のジャズは実に早いですね。<br><br>テンポがね。<br><br>手足の動かし方が、まるで目にも止まらないくらいです。<br><br>西洋でも十七、八世紀ぐらいの時は、長い箱みたいなものを着けて、着物を長くして、あんまりくっつき合わないで、手を両方――舞うような具合で、実に静かです。<br><br>最近に至っては、極端にまでなったんです。<br><br>徹頭徹尾西洋は動です。<br><br>東洋は静です。<br><br>ところで、絵が今まで――東洋はもちろんですが、西洋の方でも静的だったんですが、段々動的になってきた。<br><br>ピカソなんかも動なんです。<br><br>動くのを画くんです。<br><br>例えて見れば都会のいろんな――交通機関とか、人間の動き方も、見た瞬間を書くんです。<br><br>それから、人間が走る――あるいは汽車や自動車がヒョッと走る、その見た感覚を画くんです。<br><br>それから、物体の方は動くんでなくて、自分が動くんです。<br><br>すると、顔が二つに見えたりする。<br><br>ヒョッと見て、それを書くと横顔と前顔と――それから、半分前向きで、半分横向きと言うのがあります。<br><br>つまり動を画くんです。<br><br>動の速度ですね。<br><br>速度を画く。<br><br>そう思って見れば、やや解るんですがね。<br><br>そうでなかったら、てんでわかりっこない。<br><br>それから、何か物体を画くのも、幾何学的に線ばかり書きますが、あれも、ヒョッと見ますね――そうすると、めちゃくちゃに線ばかりになる。<br><br>それから、いろんな色でも、着物を着たきれいな娘さんでも、ヒョッと見ると、色ばかりが神経に来るから、良い加減な色を書く。<br><br>ですから、理屈はあるんです。<br><br>ただ、その理屈を――見る人間ですね。<br><br>お前たちもそういう風に思え。<br><br>つまり苦痛ですね。<br><br>あれは、苦痛を押し売りするようなものです。<br><br>ご自分はそれで良いが、押し付けられたものは災難です。<br><br>高い入場料払ってね。<br><br>ピカソのそう言うものを、自分だけ――独りよがりして押し付けるんですからね。<br><br>それで、押し付けられているのを、誉める人間が沢山あるんですからね。<br><br>ですから、私のあの評を見るとびっくりして――ひとたまりもない事を言うんですがね。<br><br>そこで見ても、現代人の美術観ですね。<br><br>美術観というものは、非常にまだ幼稚なんですよ。<br><br>そこで、この間もピカソの論に書いてあるんですがね。<br><br>そんな芸術というものは、動くとか動かないとか、いろんな事でなくて、見て楽しめるものですよ。<br><br>見て愉快なものですね。<br><br> こういう押し売り主義は他にもあるんですよ。<br><br>ラジオでもそうです。<br><br>だいぶ押し売りがありますがね。<br><br>何を押し売りするかというと、西洋音楽ですよ。<br><br>西洋音楽の押し売りをやってますがね。<br><br>日本人が、西洋音楽の高い深い、高級な音楽を理解できるというのは、ごく少ないです。<br><br>西洋音楽も良いですよ。<br><br>昔からある名曲なんかは良いですよね。<br><br>しかし、ベートーベン、シューベルトあたりでも、十の種目で、私等が興味を覚えるのは、二つか三つですよ。<br><br>居眠りが出るのが多いですよ。<br><br>それを、大衆が楽しめるのにすれば良いが、放送局でも、官僚的でね。<br><br>西洋音楽でも、ファンに対して教育するような態度です。<br><br>こっちは、何も音楽家になるわけでもないしね。<br><br>日曜の朝なんか、堀内敬三さんですかね、ご丁寧にやってますが、さっぱり面白くないです。<br><br>こっちは、そんな、生まれた――経歴とか――何も興味はないんです。<br><br>楽しめば良いんですからね。<br><br>あれが、やっぱり今言う押し売りですね。<br><br>そこで、民間放送が出ると、あわてて番組を変えてますがね。<br><br>民間放送は興味本位ですからね。<br><br>押し売りの一番親玉がピカソの絵なんでね。<br><br>今度の私の美術館ですね。<br><br>それは、解った人でも解らない人でも、それに魅力を感ずる。<br><br>実に良い、楽しめる、というのを主にしてますからね。<br><br>ですから、出来てから見ると分かりますがね。<br><br>私は、昨日箱根に行って来ましたが、だいぶ出来てきて、予想よりか良く出来てます。<br><br>部屋の光線の取り具合から――完全とは言えませんが、小さいですからね。<br><br>それに金もかけないしね。<br><br>しかし、まず小規模のものとしては成功と思っている。<br><br>だから、出来あがって世の中の人が見たら、相当唖然とするだろうと思います。<br><br>来年の夏までには出来るつもりです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Sobre a Verdade e a Arte Imposta</h2>
 <p>Abordarei, agora, a questão da tuberculose. Embora já tenhamos publicado a obra “O Tratamento Revolucionário da Tuberculose”, até o presente momento, evitei escrever de forma exaustiva sobre o assunto. A razão para tal cautela era que, ao fazê-lo, eu estaria desconstruindo por completo os alicerces da medicina, o que poderia gerar celeumas e problemas indesejáveis. Contudo, o sofrimento das pessoas, imersas em tantos equívocos, é tão grande que não se pode mais silenciar. Ademais, após uma análise mais aprofundada, concluí que dissertar desta forma não infringe qualquer dispositivo legal. Portanto, desta vez, decidi expressar sem reservas tudo o que penso.</p>
@@ -103,5 +255,48 @@ function toggleLang(lang) {
 <p>Esse tipo de imposição, aliás, não se restringe à pintura. Ocorre também no rádio, onde nos tentam impingir a música ocidental. São muito poucos os japoneses capazes de compreender verdadeiramente a profundidade e a sofisticação da música clássica ocidental. Não que ela não tenha seu valor; as grandes obras do passado são excelentes. No entanto, mesmo em compositores como Beethoven ou Schubert, de cada dez peças, talvez duas ou três despertem meu interesse. A maioria me causa sonolência. As emissoras deveriam focar no que o grande público aprecia, mas elas operam com uma mentalidade burocrática, adotando uma postura de “educar” os ouvintes. Ora, ninguém aqui aspira a se tornar um musicista profissional. Aos domingos pela manhã, há um senhor, creio que se chama Keizo Horiuchi, que apresenta um programa com esmero, mas sem o menor interesse. Não temos curiosidade sobre a biografia do compositor; queremos apenas desfrutar da música. Eis aí outro exemplo de imposição. Com o surgimento das emissoras privadas, as estatais agora se apressam em alterar sua programação, pois as novas rádios se orientam pelo entretenimento.</p>
 <p>E o expoente máximo dessa imposição é a pintura de Picasso.</p>
 <p>Meu novo museu seguirá um caminho distinto. O foco será o belo pelo qual todos, entendidos ou não, sintam-se atraídos. Obras que sejam genuinamente boas e prazerosas. Todos compreenderão quando estiver pronto. Estive ontem em Hakone e as obras avançam a bom ritmo, com um resultado ainda melhor do que o esperado. A disposição da luz nos ambientes, entre outros detalhes... Não será perfeito, pois o espaço é pequeno e o orçamento, modesto. Todavia, como um projeto de pequena escala, considero-o um sucesso. Creio que, quando for inaugurado e o público o visitar, muitos ficarão estarrecidos. A previsão é que esteja concluído até o verão do próximo ano.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年12月18日） 『御教え集』5号、昭和27(1952)年1月15日発行 昭和二十六年十二月十八日 今度、結核問題――これについて、今までも「結核の革命的療法」なんて出しましたが、今までは徹底して書かなかったんです。<br/><br/>何故と言って、徹底して書くと、全然医学と言うものを、まるでこき下ろしてしまうので、何かうるさい問題でも起こると、と加減していた。<br/><br/>あんまり、間違った事でみんなが苦しんでいるので、そんな事をいっておられない。<br/><br/>それからもう一つは、良く調べてみると、そういう風に論じても法規には触れないそうですから、そこで今度は、私は思い切って、言いたいだけは書いてますからね。<br/><br/>これを、出来たら連続的に新聞広告して、各大学の医学部――これは日本中ですよ。<br/><br/>病院から著名な医者とか――結核に関したね。<br/><br/>そこに配布しようと思っている。<br/><br/>まあ、原子爆弾ですね。<br/><br/>これが本当のものなんです。<br/><br/>今まではこれまで書けなかった。<br/><br/>だから今までは――ちょっと靴の裏から掻くような――そういう点があったがね。<br/><br/>この本の名前は「結核信仰療法」と言うんです。<br/><br/> （御論文「序文」「医学が結核を作る」「結核は感染しない」） かなり思い切って――これが本当で、先の方が嘘だから、ちっとも恐れる事はない。<br/><br/>いくらでも証拠をお目にかけますからね。<br/><br/> これは、医学の犠牲になった人の経路をおかげ話として書いてあるんですが、実に良く書いてある。<br/><br/>全くこれを読んだら、解るのも解るし、実際涙がこぼれるくらいです。<br/><br/> （「医学が悲劇を作る」） 中々良く書いてあります。<br/><br/>もっとも実際ですからね。<br/><br/>こしらえ事じゃ感動するように書けません。<br/><br/>今の一人だけ―今の人のを読んだだけでも、普通の頭ならピンと来るんですがね。<br/><br/> この間ピカソの事について書きましたがね。<br/><br/>やっぱり、ビックリしたと見えて――私が読んだのではなく、聞いたんですが、最近の中京の中部日本――あの新聞に出ていたが、メシヤ教の美術館の事を書いてあって――ピカソを思い切って、こき下ろしたとか、何とか――そう言う事を書いてあったそうですよ。<br/><br/>ビックリしたと思いますよ。<br/><br/>けれども、本当だからしょうがないね。<br/><br/>では、どうしてあの奇怪な絵がはやると言うんですね。<br/><br/>はやらした本元はピカソですがね。<br/><br/>それを考えてみると理屈はあるんです。<br/><br/>あれはどういうのかと言うと、根本的の理由がある。<br/><br/>と言うのは、東洋――特に日本ですね。<br/><br/>芸術上から言って、東洋の方は静ですね。<br/><br/>西洋は動なんです。<br/><br/>仮に音楽としても、西洋音楽を聴くと、静かに落ち着いておられないでしょう。<br/><br/>どうしても踊り出すですね。<br/><br/>つまり、動の芸術なんですからね。<br/><br/>日本のはそうならない。<br/><br/>静かに、ゆったりと落ち着いてくる。<br/><br/>だから、踊りでも日本のは舞踊ですね。<br/><br/>舞踊でも、舞ですね。<br/><br/>西洋のは踊りですからね。<br/><br/>踊りも、段々西洋の方は動が進んできて、極端になってきたですね。<br/><br/>今アメリカなんかで、ジャズですが、最近のジャズは実に早いですね。<br/><br/>テンポがね。<br/><br/>手足の動かし方が、まるで目にも止まらないくらいです。<br/><br/>西洋でも十七、八世紀ぐらいの時は、長い箱みたいなものを着けて、着物を長くして、あんまりくっつき合わないで、手を両方――舞うような具合で、実に静かです。<br/><br/>最近に至っては、極端にまでなったんです。<br/><br/>徹頭徹尾西洋は動です。<br/><br/>東洋は静です。<br/><br/>ところで、絵が今まで――東洋はもちろんですが、西洋の方でも静的だったんですが、段々動的になってきた。<br/><br/>ピカソなんかも動なんです。<br/><br/>動くのを画くんです。<br/><br/>例えて見れば都会のいろんな――交通機関とか、人間の動き方も、見た瞬間を書くんです。<br/><br/>それから、人間が走る――あるいは汽車や自動車がヒョッと走る、その見た感覚を画くんです。<br/><br/>それから、物体の方は動くんでなくて、自分が動くんです。<br/><br/>すると、顔が二つに見えたりする。<br/><br/>ヒョッと見て、それを書くと横顔と前顔と――それから、半分前向きで、半分横向きと言うのがあります。<br/><br/>つまり動を画くんです。<br/><br/>動の速度ですね。<br/><br/>速度を画く。<br/><br/>そう思って見れば、やや解るんですがね。<br/><br/>そうでなかったら、てんでわかりっこない。<br/><br/>それから、何か物体を画くのも、幾何学的に線ばかり書きますが、あれも、ヒョッと見ますね――そうすると、めちゃくちゃに線ばかりになる。<br/><br/>それから、いろんな色でも、着物を着たきれいな娘さんでも、ヒョッと見ると、色ばかりが神経に来るから、良い加減な色を書く。<br/><br/>ですから、理屈はあるんです。<br/><br/>ただ、その理屈を――見る人間ですね。<br/><br/>お前たちもそういう風に思え。<br/><br/>つまり苦痛ですね。<br/><br/>あれは、苦痛を押し売りするようなものです。<br/><br/>ご自分はそれで良いが、押し付けられたものは災難です。<br/><br/>高い入場料払ってね。<br/><br/>ピカソのそう言うものを、自分だけ――独りよがりして押し付けるんですからね。<br/><br/>それで、押し付けられているのを、誉める人間が沢山あるんですからね。<br/><br/>ですから、私のあの評を見るとびっくりして――ひとたまりもない事を言うんですがね。<br/><br/>そこで見ても、現代人の美術観ですね。<br/><br/>美術観というものは、非常にまだ幼稚なんですよ。<br/><br/>そこで、この間もピカソの論に書いてあるんですがね。<br/><br/>そんな芸術というものは、動くとか動かないとか、いろんな事でなくて、見て楽しめるものですよ。<br/><br/>見て愉快なものですね。<br/><br/> こういう押し売り主義は他にもあるんですよ。<br/><br/>ラジオでもそうです。<br/><br/>だいぶ押し売りがありますがね。<br/><br/>何を押し売りするかというと、西洋音楽ですよ。<br/><br/>西洋音楽の押し売りをやってますがね。<br/><br/>日本人が、西洋音楽の高い深い、高級な音楽を理解できるというのは、ごく少ないです。<br/><br/>西洋音楽も良いですよ。<br/><br/>昔からある名曲なんかは良いですよね。<br/><br/>しかし、ベートーベン、シューベルトあたりでも、十の種目で、私等が興味を覚えるのは、二つか三つですよ。<br/><br/>居眠りが出るのが多いですよ。<br/><br/>それを、大衆が楽しめるのにすれば良いが、放送局でも、官僚的でね。<br/><br/>西洋音楽でも、ファンに対して教育するような態度です。<br/><br/>こっちは、何も音楽家になるわけでもないしね。<br/><br/>日曜の朝なんか、堀内敬三さんですかね、ご丁寧にやってますが、さっぱり面白くないです。<br/><br/>こっちは、そんな、生まれた――経歴とか――何も興味はないんです。<br/><br/>楽しめば良いんですからね。<br/><br/>あれが、やっぱり今言う押し売りですね。<br/><br/>そこで、民間放送が出ると、あわてて番組を変えてますがね。<br/><br/>民間放送は興味本位ですからね。<br/><br/>押し売りの一番親玉がピカソの絵なんでね。<br/><br/>今度の私の美術館ですね。<br/><br/>それは、解った人でも解らない人でも、それに魅力を感ずる。<br/><br/>実に良い、楽しめる、というのを主にしてますからね。<br/><br/>ですから、出来てから見ると分かりますがね。<br/><br/>私は、昨日箱根に行って来ましたが、だいぶ出来てきて、予想よりか良く出来てます。<br/><br/>部屋の光線の取り具合から――完全とは言えませんが、小さいですからね。<br/><br/>それに金もかけないしね。<br/><br/>しかし、まず小規模のものとしては成功と思っている。<br/><br/>だから、出来あがって世の中の人が見たら、相当唖然とするだろうと思います。<br/><br/>来年の夏までには出来るつもりです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

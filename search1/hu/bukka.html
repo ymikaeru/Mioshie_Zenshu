@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>bukka</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 物価高低の見方 未発表、年代不詳 よく物価の高低を質（き）かれることがあるが、これは処世上、仲々馬鹿にならないことで、これを知ると知らざるとは、生活経済に至大の影響を及ぼす以上、大いに関心をもつべきである。<br><br>ところが物価の見透し程実に簡単に判るものはないので、それを書いてみよう。<br><br> まず、万有一切は一の例外なく陰と陽とがある。<br><br>夜あれば昼あり、冬あれば夏あり、朝あれば夕があり、男があれば女がありというように、この陰陽が交錯し、回転しつつあるのは宇宙の実相である。<br><br> この理によって、物価の動きといえどもそれに外れるはずはない。<br><br>よく山高ければ谷深しという言葉があるが、全くその通りである。<br><br>さすがの物価も最近に至って、漸次低落気味を現わし始めたが、しかし、いまだ諸物価は戦前の百倍から二百倍の値を保っている。<br><br>全く箆棒（べらぼう）に高い山が出来たのであるから、谷の深さもごく想像がつくであろう。<br><br>そうして冬の極（ごく）寒い時、何としても裸でも汗が出る夏の暑さを、誰が想像なし得るであろう。<br><br> それと同様、戦前の低物価時代、恐らく先ごろのごとき、二百倍も三百倍もの高価になるとは夢にも思えないであろう。<br><br>とすれば、右と同様、現在の高物価を見ながら、いずれ、百分の一、二百分の一に低落しようとは、これまた夢としか思えないであろう。<br><br>しかしながら、夏の季節から冬の季節になるのは絶対必須である。<br><br>いくら科学が進歩しても、こればかりはどうにもならないとすれば前途は明かである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Uma Perspectiva sobre a Alta e a Baixa dos Preços</h2>
 <p>Frequentemente me indagam acerca das oscilações de preços, um assunto que, de modo algum, pode ser negligenciado na condução da vida. Visto que o conhecimento ou a ignorância a esse respeito exerce influência capital na economia cotidiana, é um tema ao qual todos deveriam dedicar grande atenção. Contudo, poucas coisas são tão simples de se prever quanto as tendências dos preços, e é sobre isso que discorrerei a seguir.</p>
@@ -96,5 +248,48 @@ function toggleLang(lang) {
 <p>Embora os preços tenham, recentemente, começado a esboçar uma gradual tendência de queda, ainda se mantêm em patamares de cem a duzentas vezes superiores aos do período pré-guerra. Formou-se, portanto, uma montanha de altura exorbitante, e a profundidade do vale que se seguirá é facilmente previsível. Afinal, no auge do inverno mais rigoroso, quem consegue sequer conceber o calor do verão, tão intenso a ponto de nos fazer transpirar mesmo despidos?</p>
 <p>De modo análogo, durante a era de preços baixos que antecedeu a guerra, ninguém poderia sequer sonhar que eles atingiriam valores duzentas ou trezentas vezes maiores, como ocorreu recentemente. Sendo assim, ao observarmos os preços exorbitantes da atualidade, a ideia de que eles venham a cair para um centésimo ou um ducentésimo de seu valor parece igualmente um mero sonho.</p>
 <p>Todavia, a transição do verão para o inverno é uma certeza absoluta e inevitável. Por mais que a ciência avance, ela é impotente para alterar tal ciclo. Sendo esta a realidade, o futuro se nos revela com clareza.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 物価高低の見方 未発表、年代不詳 よく物価の高低を質（き）かれることがあるが、これは処世上、仲々馬鹿にならないことで、これを知ると知らざるとは、生活経済に至大の影響を及ぼす以上、大いに関心をもつべきである。<br/><br/>ところが物価の見透し程実に簡単に判るものはないので、それを書いてみよう。<br/><br/> まず、万有一切は一の例外なく陰と陽とがある。<br/><br/>夜あれば昼あり、冬あれば夏あり、朝あれば夕があり、男があれば女がありというように、この陰陽が交錯し、回転しつつあるのは宇宙の実相である。<br/><br/> この理によって、物価の動きといえどもそれに外れるはずはない。<br/><br/>よく山高ければ谷深しという言葉があるが、全くその通りである。<br/><br/>さすがの物価も最近に至って、漸次低落気味を現わし始めたが、しかし、いまだ諸物価は戦前の百倍から二百倍の値を保っている。<br/><br/>全く箆棒（べらぼう）に高い山が出来たのであるから、谷の深さもごく想像がつくであろう。<br/><br/>そうして冬の極（ごく）寒い時、何としても裸でも汗が出る夏の暑さを、誰が想像なし得るであろう。<br/><br/> それと同様、戦前の低物価時代、恐らく先ごろのごとき、二百倍も三百倍もの高価になるとは夢にも思えないであろう。<br/><br/>とすれば、右と同様、現在の高物価を見ながら、いずれ、百分の一、二百分の一に低落しようとは、これまた夢としか思えないであろう。<br/><br/>しかしながら、夏の季節から冬の季節になるのは絶対必須である。<br/><br/>いくら科学が進歩しても、こればかりはどうにもならないとすれば前途は明かである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

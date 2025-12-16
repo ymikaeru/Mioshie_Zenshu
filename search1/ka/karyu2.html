@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>karyu2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 花柳病 『天国の福音』昭和22(1947)年2月5日発行 花柳病は、医学上硬性下疳すなわち梅毒及び軟性下疳と淋病の三種とされている。<br><br>もっとも医学は近来今一種発見され第四種ありとしているが、ここでは三種だけの説明で足りると思う。<br><br> 硬性下疳は医学上スピロヘータなる黴菌によって、不潔な行為から感染するとされている。<br><br>そうして現在進歩したと称する駆黴療法は六百六号の注射及び水銀注射、または水銀軟膏塗擦（とさつ）、沃度（ヨード）剤服用等をおもなるものとしている。<br><br>しかるに既説のごとく六百六号の害毒は、黴毒そのものよりも数倍悪影響を与えるのみならず、効果の一時的である事は医学も認めている通りである。<br><br>また水銀療法による薬毒及び沃度剤の薬毒も、長年月後種々の形となって表われ、生命を失う程の重症の原因となる場合もすくなくないが、これらは進歩せりという医学が、今日まで全然発見され得ないという事は不思議である。<br><br> 医学上諸病の原因として遺伝黴毒を唱えるが、私は反対で黴毒は決して遺伝しない事である。<br><br>将来医学においても私の説を肯定する時が来るであろう事を信ずる。<br><br>また本医術によれば、黴毒は驚くほど容易に根治するのである。<br><br>特に知っておくべき事は黴毒に限り苦痛のない事で、もし痛みまたは痒み等ある場合、その苦痛だけの原因は梅毒ではないと思うべきである。<br><br>この病気は最初疳瘡、次は横痃（よこね）、皮膚の斑点、毛髪脱落、声嗄れ等の症状が順次表われ、最後に到って鼻骨を犯し、言語不明瞭となる事がある。<br><br>軟性下疳は、疳瘡、横痃のみの症状で、それ以上の進行はない。<br><br>苦痛は発熱、痛み等で放任しても自然治癒するが医家は手術を推奨する。<br><br>しかしこれは反って長びくが、本医術においては簡単に全治するのである。<br><br> 淋病は梅毒よりも悪性である。<br><br>何となれば根治する事は不可能であるからである。<br><br>故に淋病治癒とは実際上の治癒ではなく、再発の危険がなくなったという意味である。<br><br>これはいかなる訳かというと、淋菌すなわちゴノコッケンは生物で、有機物であるが、人体の抵抗力が増すに従い、漸次衰弱して無機質すなわち一種の苔のごときものとなる。<br><br>しかるにこの苔は飲酒、運動、発熱、その他の刺戟によって有機物に変化する事があるので、それが再発という訳で、これは概（おおむ）ね短期間に治癒するのである。<br><br>また右の苔が長年月後増殖する人があるが、それがため尿道狭窄を起し、排尿に支障を及ぼす事がある。<br><br>そうして医療は淋病に対し、漏膿時尿道内へ薬液を注入するが、それがため淋菌を深部へ押込む危険があるから注意すべきで、その結果として往々摂護腺炎や睾丸炎等を起し、発熱、痛み等に苦しむのである。<br><br>そうして淋病といえども自然療法が効果あるが、それは水分を出来るだけ多く摂取する事で、これによって尿の排泄が頻繁となり、自然尿道を洗滌する事になり、危険もなく、治癒も速かである。<br><br>特に松葉を煎じ、それを飲むと一層効果がある。<br><br>何となれば松脂の成分が淋菌の巣窟を閉遮し、繁殖を阻止せしむるからである。<br><br>本医術によれば淋病、摂護腺炎、睾丸炎は容易に治癒するのである。<br><br> （注） 疳瘡（かんそう）、性病による陰部の腫れ物。<br><br> 横痃（よこね）、鼠蹊部淋巴腺の腫れ物。<br><br> 摂護腺（せつごせん）、前立腺のこと。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Sobre as Doenças Venéreas</h2>
 <p>Do ponto de vista médico, as doenças venéreas são classificadas em três tipos: o cancro duro, ou sífilis; o cancro mole; e a gonorreia. Embora a medicina moderna tenha identificado recentemente uma quarta modalidade, a explanação a seguir se aterá a estas três, por ser suficiente para o nosso propósito.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>O cancro mole, por sua vez, apresenta como sintomas apenas o cancro e o bubão inguinal, sem evoluir para estágios mais avançados. O sofrimento decorre da febre e da dor, e a doença pode curar-se naturalmente se não houver intervenção. Os médicos, no entanto, recomendam a cirurgia, o que, na realidade, apenas prolonga o processo. Com a nossa arte, a cura completa é obtida de forma simples e rápida.</p>
 <p>A gonorreia é mais maligna que a sífilis, pois a sua erradicação completa é impossível. Portanto, a cura da gonorreia não significa sua eliminação de fato, mas sim o desaparecimento do risco de recidiva. A razão para tal reside no fato de que o gonococo, sendo um organismo vivo, enfraquece gradualmente à medida que a resistência do corpo aumenta, transformando-se em uma substância inorgânica, semelhante a uma espécie de musgo. Esse musgo, todavia, pode reverter à sua forma orgânica mediante estímulos como o consumo de álcool, a prática de exercícios, a febre, entre outros, o que constitui a recidiva. Geralmente, esses episódios são curados em um curto período. Há casos em que esse musgo prolifera ao longo de muitos anos, causando o estreitamento da uretra e, consequentemente, obstruindo a micção.</p>
 <p>O tratamento médico para a gonorreia consiste na injeção de soluções medicamentosas na uretra durante a fase de secreção purulenta. É preciso ter cautela, pois tal procedimento acarreta o risco de empurrar os gonococos para regiões mais profundas, resultando frequentemente em prostatite ou orquite, que causam febre e dores intensas. Mesmo para a gonorreia, a terapia natural é eficaz. O método consiste em ingerir a maior quantidade possível de água. Com isso, a excreção de urina torna-se mais frequente, promovendo uma lavagem natural da uretra, o que acelera a cura sem oferecer riscos. Para um efeito ainda maior, recomenda-se o consumo de um chá preparado com a fervura de folhas de pinheiro. Isso ocorre porque os componentes da resina do pinheiro isolam os focos do gonococo, impedindo sua proliferação. Com a nossa arte de cura, a gonorreia, a prostatite e a orquite são curadas com facilidade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 花柳病 『天国の福音』昭和22(1947)年2月5日発行 花柳病は、医学上硬性下疳すなわち梅毒及び軟性下疳と淋病の三種とされている。<br/><br/>もっとも医学は近来今一種発見され第四種ありとしているが、ここでは三種だけの説明で足りると思う。<br/><br/> 硬性下疳は医学上スピロヘータなる黴菌によって、不潔な行為から感染するとされている。<br/><br/>そうして現在進歩したと称する駆黴療法は六百六号の注射及び水銀注射、または水銀軟膏塗擦（とさつ）、沃度（ヨード）剤服用等をおもなるものとしている。<br/><br/>しかるに既説のごとく六百六号の害毒は、黴毒そのものよりも数倍悪影響を与えるのみならず、効果の一時的である事は医学も認めている通りである。<br/><br/>また水銀療法による薬毒及び沃度剤の薬毒も、長年月後種々の形となって表われ、生命を失う程の重症の原因となる場合もすくなくないが、これらは進歩せりという医学が、今日まで全然発見され得ないという事は不思議である。<br/><br/> 医学上諸病の原因として遺伝黴毒を唱えるが、私は反対で黴毒は決して遺伝しない事である。<br/><br/>将来医学においても私の説を肯定する時が来るであろう事を信ずる。<br/><br/>また本医術によれば、黴毒は驚くほど容易に根治するのである。<br/><br/>特に知っておくべき事は黴毒に限り苦痛のない事で、もし痛みまたは痒み等ある場合、その苦痛だけの原因は梅毒ではないと思うべきである。<br/><br/>この病気は最初疳瘡、次は横痃（よこね）、皮膚の斑点、毛髪脱落、声嗄れ等の症状が順次表われ、最後に到って鼻骨を犯し、言語不明瞭となる事がある。<br/><br/>軟性下疳は、疳瘡、横痃のみの症状で、それ以上の進行はない。<br/><br/>苦痛は発熱、痛み等で放任しても自然治癒するが医家は手術を推奨する。<br/><br/>しかしこれは反って長びくが、本医術においては簡単に全治するのである。<br/><br/> 淋病は梅毒よりも悪性である。<br/><br/>何となれば根治する事は不可能であるからである。<br/><br/>故に淋病治癒とは実際上の治癒ではなく、再発の危険がなくなったという意味である。<br/><br/>これはいかなる訳かというと、淋菌すなわちゴノコッケンは生物で、有機物であるが、人体の抵抗力が増すに従い、漸次衰弱して無機質すなわち一種の苔のごときものとなる。<br/><br/>しかるにこの苔は飲酒、運動、発熱、その他の刺戟によって有機物に変化する事があるので、それが再発という訳で、これは概（おおむ）ね短期間に治癒するのである。<br/><br/>また右の苔が長年月後増殖する人があるが、それがため尿道狭窄を起し、排尿に支障を及ぼす事がある。<br/><br/>そうして医療は淋病に対し、漏膿時尿道内へ薬液を注入するが、それがため淋菌を深部へ押込む危険があるから注意すべきで、その結果として往々摂護腺炎や睾丸炎等を起し、発熱、痛み等に苦しむのである。<br/><br/>そうして淋病といえども自然療法が効果あるが、それは水分を出来るだけ多く摂取する事で、これによって尿の排泄が頻繁となり、自然尿道を洗滌する事になり、危険もなく、治癒も速かである。<br/><br/>特に松葉を煎じ、それを飲むと一層効果がある。<br/><br/>何となれば松脂の成分が淋菌の巣窟を閉遮し、繁殖を阻止せしむるからである。<br/><br/>本医術によれば淋病、摂護腺炎、睾丸炎は容易に治癒するのである。<br/><br/> （注） 疳瘡（かんそう）、性病による陰部の腫れ物。<br/><br/> 横痃（よこね）、鼠蹊部淋巴腺の腫れ物。<br/><br/> 摂護腺（せつごせん）、前立腺のこと。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

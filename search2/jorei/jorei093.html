@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jorei093</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： お浄め日記抄 槐安生 『栄光』93号、昭和26(1951)年2月28日発行 某月某日 金持ち、というものは、案外、不自由、不便なものである、と、つくづく思った、木口さんの場合がそうだ、閑静な屋敷町、広い石塀に囲まれた住宅は、見た目には堂々として立派であるが、生活する上には、不便極まるものである。<br><br> 耳門（じもん）のベルを押して案内を乞う、と、暫く経って女中さんが鍵を開ける、門から庭の敷石を数十歩程で玄関がある、女中さんは勝手口から玄関へ廻わって鍵を開ける、それまでが又数分間費やされる、それから、主人の病室へは、中廊下を右折、左折し、ノックをして、「お入り」の声を聞いてから部屋へ入るのだ、病人は金屏風に囲まれて寝ているので、その枕下へ座る迄には、毎日こうした繁雑な、無駄な時間を費いやす。<br><br>家人が外出するにもこの順序は狂いなく繰り返えされるのだ、これでは刑務所の囚人と実質的に大差がない、しかも有りあまる巨富を擁していながら、なお、蓄財に吸々たる有様においておやだ。<br><br>貧乏人の気易さ、自由さ、奔放さを一度味わしてやりたいものである、信仰という、貴重無比の財産を持つ者と、持たない者の根本的な違いが、現実面に地獄と極楽とをもたらすのだ。<br><br>彼は脳溢血で倒れてから三年目、調子の良い時は布団の上に起きて、廊下のガラス越しに、庭を眺めている事もある。<br><br> ラヂオの株式相場の時間には、長女を指揮して相場を速記させる、そして一日に一度は、株屋の番頭が来て、持株の売買の指図をし決済させる、損をした時はその渋面から、儲かったことは、その喜色から察しられる、難病に苦しみながら、なおその上に金銭への絶ち難い執着、信仰なき者の恐るべき姿には、慄然たらざるを得ない。<br><br> 浄霊は今日で一週間目である、曲らぬ右腕が、三日目には曲るようになり、家人の手を借りずに着物に手が通せた、と喜び、頭が軽くなった、と云って私の行くのを楽しみに待つようになった。<br><br>しかし私は、今日を限り、この家へ来たくないのだ。<br><br>彼の守銭奴的性格は、この近隣に響いており、親戚さえ、余り出入りしないそうである。<br><br>身分は有名な製薬会社の重役、自社の製品のうちには脳溢血の特効薬もあるのだから皮肉である。<br><br>それらの薬も、医師も彼の病気を癒してくれない、絶望した揚句、どこそこの松葉灸がいいと聞き、往診を依頼しよう、としたところへ、私の話を聞き、浄霊を頼みに来たのであった、薬の専門家だが、自分に効かなかった事は、不承無承にも、承認した形だが、薬毒だけは、説いても聞き入れない、職業上の先入観念が、そうさせるのである、一日おきに、眼科医が出張してきて右眼に注射する、一度、眼帯を取り除き、霊気を入れたが、痛みに耐え兼ねて、二度とはやろうとしない。<br><br>癒りたくないのに、無理に癒しては悪い、と考え、それ限り止めて仕舞ったのだ。<br><br>見ている前で注射させる、デリカシイを缺いた態度も私を厭にさせた原因の一つだ、それに私は頗る多忙な生活をしているので、長期間、この人だけに関わっては居られない、神様のお話をし、家族の一人が教修を受けてお守りを戴き、その間隔日位に私が浄霊に来るから、と云ったが、天道教（天理教か？）ではお守りは無償でくれるからいらぬ、と云った、唖然として開いた口がふさがらない、巨富を抱えながら、神棚も仏壇もない、真に人間の財産といえる物は一つも持っていないのだ、私は無信心でと暗に無神論者である事が君達と教養が違う、とばかりに誇示した不遜な態度である。<br><br>そして観音様なら家にもあるよ、と云って箪笥の上を指さした、見ると九谷焼の観音像が飾ってある、置物である装飾品を指して何たる事か、僅々一週間にして軽快に向った業病を楽にして貰いながら、何等感謝の心もなく、教修さえ受けさせようとしない金銭の奴隷、彼の業病も故ある哉である。<br><br>もう一つ不愉快な事は、浄霊中であっても、株の放送が初まると中止させ、株屋の番頭と商談中は、幾時間でも平気で待たせて置く事だ。<br><br>これ以上、ここへ来る事は神への冒涜であり、断わる事こそ大乗的な救いであろう、と思案し、今日限りで浄霊は止めます、考え直して、真実病気を癒して貰いたくなったら、改めて参りましょう、と宣言した、病苦より金銀への比重を重くみ、死後も役立つと思う、金の亡霊よ左様なら、金への妄執重い扉を開いて外へ出た。<br><br> 翌日、お礼に、と胃散一缶持って釆たのには、二度唖然とさせられた。<br><br> （注）耳門（じもん）、くぐり戸。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Relatos de um Diário de Johrei</h2>
 <p>Por Kaiansei
@@ -100,5 +252,48 @@ Publicado na revista <em>Eikou</em>, nº 93, em 28 de fevereiro de 1951</p>
 <p>Havia ainda outro fato desagradável: ele interrompia a ministração do Johrei assim que começava a transmissão da bolsa de valores. E, quando estava em reunião com o gerente da corretora, deixava-me esperando por horas, sem a menor cerimônia. Ponderei que continuar a frequentar aquele lugar seria uma profanação a Deus, e que recusar-me a prosseguir seria, em si, uma forma superior de salvação, a única possível naquele caso. Diante disso, declarei: “A partir de hoje, encerrarei a ministração do Johrei. Caso o senhor reconsidere e desperte um desejo sincero de ser curado, então retornarei”. Adeus, espectro do dinheiro, que valoriza mais o ouro e a prata do que o alívio de seu próprio sofrimento, e que talvez acredite que tais bens lhe serão úteis mesmo após a morte. Ao abrir a pesada porta daquela casa, senti como se estivesse, na verdade, abrindo a porta de sua profunda obsessão por riquezas para poder sair.</p>
 <p>No dia seguinte, para meu segundo assombro, ele me enviou de presente uma lata de sal de frutas, a título de agradecimento.</p>
 <p>Nota: <em>Jimon</em> (耳門) refere-se a um pequeno portão lateral de passagem.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： お浄め日記抄 槐安生 『栄光』93号、昭和26(1951)年2月28日発行 某月某日 金持ち、というものは、案外、不自由、不便なものである、と、つくづく思った、木口さんの場合がそうだ、閑静な屋敷町、広い石塀に囲まれた住宅は、見た目には堂々として立派であるが、生活する上には、不便極まるものである。<br/><br/> 耳門（じもん）のベルを押して案内を乞う、と、暫く経って女中さんが鍵を開ける、門から庭の敷石を数十歩程で玄関がある、女中さんは勝手口から玄関へ廻わって鍵を開ける、それまでが又数分間費やされる、それから、主人の病室へは、中廊下を右折、左折し、ノックをして、「お入り」の声を聞いてから部屋へ入るのだ、病人は金屏風に囲まれて寝ているので、その枕下へ座る迄には、毎日こうした繁雑な、無駄な時間を費いやす。<br/><br/>家人が外出するにもこの順序は狂いなく繰り返えされるのだ、これでは刑務所の囚人と実質的に大差がない、しかも有りあまる巨富を擁していながら、なお、蓄財に吸々たる有様においておやだ。<br/><br/>貧乏人の気易さ、自由さ、奔放さを一度味わしてやりたいものである、信仰という、貴重無比の財産を持つ者と、持たない者の根本的な違いが、現実面に地獄と極楽とをもたらすのだ。<br/><br/>彼は脳溢血で倒れてから三年目、調子の良い時は布団の上に起きて、廊下のガラス越しに、庭を眺めている事もある。<br/><br/> ラヂオの株式相場の時間には、長女を指揮して相場を速記させる、そして一日に一度は、株屋の番頭が来て、持株の売買の指図をし決済させる、損をした時はその渋面から、儲かったことは、その喜色から察しられる、難病に苦しみながら、なおその上に金銭への絶ち難い執着、信仰なき者の恐るべき姿には、慄然たらざるを得ない。<br/><br/> 浄霊は今日で一週間目である、曲らぬ右腕が、三日目には曲るようになり、家人の手を借りずに着物に手が通せた、と喜び、頭が軽くなった、と云って私の行くのを楽しみに待つようになった。<br/><br/>しかし私は、今日を限り、この家へ来たくないのだ。<br/><br/>彼の守銭奴的性格は、この近隣に響いており、親戚さえ、余り出入りしないそうである。<br/><br/>身分は有名な製薬会社の重役、自社の製品のうちには脳溢血の特効薬もあるのだから皮肉である。<br/><br/>それらの薬も、医師も彼の病気を癒してくれない、絶望した揚句、どこそこの松葉灸がいいと聞き、往診を依頼しよう、としたところへ、私の話を聞き、浄霊を頼みに来たのであった、薬の専門家だが、自分に効かなかった事は、不承無承にも、承認した形だが、薬毒だけは、説いても聞き入れない、職業上の先入観念が、そうさせるのである、一日おきに、眼科医が出張してきて右眼に注射する、一度、眼帯を取り除き、霊気を入れたが、痛みに耐え兼ねて、二度とはやろうとしない。<br/><br/>癒りたくないのに、無理に癒しては悪い、と考え、それ限り止めて仕舞ったのだ。<br/><br/>見ている前で注射させる、デリカシイを缺いた態度も私を厭にさせた原因の一つだ、それに私は頗る多忙な生活をしているので、長期間、この人だけに関わっては居られない、神様のお話をし、家族の一人が教修を受けてお守りを戴き、その間隔日位に私が浄霊に来るから、と云ったが、天道教（天理教か？）ではお守りは無償でくれるからいらぬ、と云った、唖然として開いた口がふさがらない、巨富を抱えながら、神棚も仏壇もない、真に人間の財産といえる物は一つも持っていないのだ、私は無信心でと暗に無神論者である事が君達と教養が違う、とばかりに誇示した不遜な態度である。<br/><br/>そして観音様なら家にもあるよ、と云って箪笥の上を指さした、見ると九谷焼の観音像が飾ってある、置物である装飾品を指して何たる事か、僅々一週間にして軽快に向った業病を楽にして貰いながら、何等感謝の心もなく、教修さえ受けさせようとしない金銭の奴隷、彼の業病も故ある哉である。<br/><br/>もう一つ不愉快な事は、浄霊中であっても、株の放送が初まると中止させ、株屋の番頭と商談中は、幾時間でも平気で待たせて置く事だ。<br/><br/>これ以上、ここへ来る事は神への冒涜であり、断わる事こそ大乗的な救いであろう、と思案し、今日限りで浄霊は止めます、考え直して、真実病気を癒して貰いたくなったら、改めて参りましょう、と宣言した、病苦より金銀への比重を重くみ、死後も役立つと思う、金の亡霊よ左様なら、金への妄執重い扉を開いて外へ出た。<br/><br/> 翌日、お礼に、と胃散一缶持って釆たのには、二度唖然とさせられた。<br/><br/> （注）耳門（じもん）、くぐり戸。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

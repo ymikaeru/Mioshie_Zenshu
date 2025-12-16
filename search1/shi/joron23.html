@@ -1,124 +1,273 @@
 ﻿<html>
-
 <head>
-    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-    <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR" />
-    <title>joron23</title>
-    <link href="../../style4.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body bgcolor="#E9FEDA">
-    <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
-        <input name="hint" type="hidden" value="ひらがな" />
-        <input name="index" type="hidden" value="" />
-        <input name="config" type="hidden" value="" />
-        <div align="right">
-            <table border="0" cellpadding="0" cellspacing="0" width="90%">
-                <tr>
-                    <td>
-                        <p align="right">
-                            <font face="ＭＳ ゴシック" size="2"><strong>――</strong></font>
-                            <font face="HG正楷書体-PRO" size="2"><strong> 岡田自観師の論文集 ――</strong>　</font>
-                            <font face="ＭＳ ゴシック" size="2"><strong>御教え検索</strong>：</font>
-                        </p>
-                    </td>
-                    <td align="center" bgcolor="#EFFFE6" width="150">
-                        <font size="2"><input name="query" size="25" type="text" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6">
-                        <font size="2"><input type="submit" value="検索" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6" width="35"><a href="../../../cgi/msearch.cgi">
-                            <font size="2">help</font>
-                        </a></td>
-                </tr>
-            </table>
-        </div>
-    </form>
-    <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
-        <input name="hint" type="hidden" value="ひらがな" />
-        <input name="index" type="hidden" value="shiryo" />
-        <input name="config" type="hidden" value="" />
-        <div align="right">
-            <table border="0" cellpadding="0" cellspacing="0" width="90%">
-                <tr>
-                    <td>
-                        <p align="right">
-                            <font face="ＭＳ ゴシック" size="2"><strong>　　　　　　　　　　　　　　　資料検索</strong>：</font>
-                        </p>
-                    </td>
-                    <td align="center" bgcolor="#EFFFE6" width="150">
-                        <font size="2"><input name="query" size="25" type="text" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6">
-                        <font size="2"><input type="submit" value="検索" /></font>
-                    </td>
-                    <td width="35">　</td>
-                </tr>
-            </table>
-        </div>
-    </form>
-    <blockquote>
-        
-
-
-
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
+<title>joron23</title>
+<link href="../../style4.css" rel="stylesheet" type="text/css"/>
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
+<form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
+<input name="hint" type="hidden" value="ひらがな"/>
+<input name="index" type="hidden" value=""/>
+<input name="config" type="hidden" value=""/>
+<div align="right">
+<table border="0" cellpadding="0" cellspacing="0" width="90%">
+<tr>
+<td>
+<p align="right">
+<font face="ＭＳ ゴシック" size="2"><strong>――</strong></font>
+<font face="HG正楷書体-PRO" size="2"><strong> 岡田自観師の論文集 ――</strong>　</font>
+<font face="ＭＳ ゴシック" size="2"><strong>御教え検索</strong>：</font>
+</p>
+</td>
+<td align="center" bgcolor="#EFFFE6" width="150">
+<font size="2"><input name="query" size="25" type="text"/></font>
+</td>
+<td bgcolor="#EFFFE6">
+<font size="2"><input type="submit" value="検索"/></font>
+</td>
+<td bgcolor="#EFFFE6" width="35"><a href="../../../cgi/msearch.cgi">
+<font size="2">help</font>
+</a></td>
+</tr>
+</table>
+</div>
+</form>
+<form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
+<input name="hint" type="hidden" value="ひらがな"/>
+<input name="index" type="hidden" value="shiryo"/>
+<input name="config" type="hidden" value=""/>
+<div align="right">
+<table border="0" cellpadding="0" cellspacing="0" width="90%">
+<tr>
+<td>
+<p align="right">
+<font face="ＭＳ ゴシック" size="2"><strong>　　　　　　　　　　　　　　　資料検索</strong>：</font>
+</p>
+</td>
+<td align="center" bgcolor="#EFFFE6" width="150">
+<font size="2"><input name="query" size="25" type="text"/></font>
+</td>
+<td bgcolor="#EFFFE6">
+<font size="2"><input type="submit" value="検索"/></font>
+</td>
+<td width="35">　</td>
+</tr>
+</table>
+</div>
+</form>
+<blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 序論 『結核問題ト其解決策』昭和17(1942)年12月13日初版発行 近来、我国策上最も重要問題として扱われているものに結核問題がある。<br><br>この問題の重要性はあまりにも明白であって、今更言を要しないのであるが、私はこの問題に対して、私の研究によって得たる成果を発表し、些かなりとも国策に貢献し得れば、幸この上ないと思うのである。<br><br> 政府においてもこの問題に対し非常なる関心を払い、今回結核対策要項〔綱〕なる案を作り、その道の権威者等をして徹底的撲滅を期せしめ、大東亜戦争の完遂に最も重要なる人的資源の問題を解決し、国家永遠の繁栄を企図すると共に、将に来らんとする八紘為宇（はっこういう）の時、日本が結核国であるというがごとき不名誉は払拭しなければならないという理由もあるであろう。<br><br>従って、その目的遂行には、国民全般の協力は固より、まことに急を要すべき一大問題である。<br><br> しかるに、右の方策なるものは、咸（ことごと）く西洋医学の理論と方法を基礎として成ったところを実行するのであって、現代文化の機構からいえば当然の事で、そこに何ら非難すべき点はないのであり、しかも泰西の文明国が、現代医学によって各々の国の結核を激減さしたごとく見ゆるのであるから、それを範として立案することもまた当然過ぎる事であろう。<br><br> しかるに、私が弐拾年間、西洋医術によらざる独自の方法を以て研究したる結果、その根本原因が意外の点にあるのを発見すると共に全治の方法も免疫の方法をも完成したのであって、これによって結核問題は全く解決し得らるる事の確信を得たのである。<br><br>そうして西洋医術における結核に対する理論が、あまりにも誤謬であり、その結果として、西洋医学によって結核を撲滅せんとするも、何らの効果がないのみか、その方法が実は結核を増加するという逆効果になることを知ったのである。<br><br>故に事実は何物よりも雄弁であるから、向後の我国結核の趨勢を見れば判るであろう。<br><br>即ち予期に反して結核はいよいよ漸増し、ついには政府も専門家も困惑為すところを知らざる時の来る事は、火を睹（み）るよりも燎〔瞭〕（あきら）かである。<br><br> しかるに、私は右の困惑の時を待つまでもなく、現在今、その時が来ている事を覚ゆるのである。<br><br> 畏（おそれ）多くも昭和十四年 皇后陛下におかせられては、結核撲滅の御思召（おんおぼしめし）を以て多額の御内帑（ないど）金を御下賜あらせられた。<br><br>その際官民一致、誓って聖旨に応え奉るべく、結核予防協会なるものを設立し諸般の方策を樹立した事は、未だ記憶に新たなるところであり、その後といえども当事者は勿論奮励努力したはずであるから、その当時より今日は幾分の効果を挙げ得ていなければならない訳である。<br><br>故に万が一その当時よりも今日のほうが不良であるとすれば、それは有難き思召に対し奉り、怠慢か又は施策の誤れるかにある事は申すまでもないのである。<br><br>従ってもしそうであるとすれば、恐懼（きょうく）その責（せめ）を負うべきが至当ではなかろうかと私は思うのである。<br><br> しかしながら、忠良なる日本臣民として、右のごとき過誤や怠慢は決してあり得べきはずはあるまい。<br><br>むしろ粉骨砕身、能（あた）う限りの努力をしたに拘わらず予期のごとき結果を挙げ得なかったというのが事実であろう。<br><br>そうであるとすれば、それは全く西洋医学的施設が、根本的誤謬から出発しているからである事は、言を須（ま）たないであろう。<br><br> そうしてこの小冊子は、拙著『明日の医術』から、結核に関する記述を収録したものである。<br><br>それについて結核問題は人口問題と切離す事の出来ない密接な関係をもっているのであるから併録する事にした。<br><br>又右の『明日の医術』には、人口の動態、結核の趨勢等の統計も掲げてあるが、それは冗長に流れるから省いたのである。<br><br> そうして、最近の統計として昭和十四年までしか発表がないのであるが、同年中における結核死亡者の数は、十五万四千三百七十一名を算し、人口一万人に付二十一人強の割合であり、又十五歳から二十九歳までの青少年死亡者中、結核による者は実に四十五パーセント強という高率に上っている。<br><br>しかしながら結核死亡者に対し、他の病気として死亡届を出す場合が相当多い実情であるから、実際の結核死亡者は右の二倍ないし三倍位に上るであろう事は想像され得るであろう。<br><br>又当局においては、罹病者は死亡の十倍即ち百五十万位と推定しているが、勿論この数字は解〔開〕放性結核患者であろうから、非解放性即ち容疑者は右の数倍に上ることも想像され得るのである。<br><br>しかも現代医学においては、容疑者を健康に復す事よりも、解放性に進める事の方が多いと想うのである。<br><br> 又結核問題は今日始まった問題ではない。<br><br>相当以前から官民共に対策に腐心し、撲滅に努力しつつあるのは周知の事実である。<br><br>故にその対策が適正であるならば、少なくともある程度の効果――即ち食い止め得るか又は幾分にても改善の方向にむかっていなければならないはずである。<br><br>しかるに何ぞや、年を経る毎に益々不良の情勢となり、最早楽観を許さぬまでの事態になったという事は深く顧みなくてはならない訳である。<br><br>それは今日までの対策が全く不適正であったという事である。<br><br>しからば、いかなる点が不適正であるかという事の反省と、その研究こそ、解決の根本でなければならないのである。<br><br> しかるに、右のような事なく、不適正であったその方法を、飽くまで強化拡充しようとするのである。<br><br>――それが今回の結核対策要項〔綱〕なるものであるとすれば、今後時日を経れば経るほど、いよいよ不良の結果を招来する事は予想され得るであろう。<br><br> しかしながら、今回の結核対策要項〔綱〕なるものは今日までの方法とは余程異なるという事を言明している。<br><br>それは、今までは医師だけに任しておけばよいとしていたのを、これからは各個人々々が協力をしなければならないという事である。<br><br>勿論、医療以外のあらゆる方法を講ずるという事である。<br><br>故に、これによってみれば従来の医学的方法が不成績であったという事に、幾分目覚めたという事実を看取し得らるるのである。<br><br> 又明治三十五、六年代における兵役壮丁者の胸膜患者は百人に付二人の割合であったものが、昭和十二年には百人に付二十四人という数字に上っている。<br><br>即ち十二倍という増加振りである。<br><br>明治三十年代と昭和十二年頃との医学の進歩や社会衛生や個人衛生の知識等を比較するにおいて、無論昭和十二年の方が数等発達している事は議論の余地はあるまい。<br><br>この点を以て察（み）るも、医学の進歩に対し疑問を起こさない訳にはゆかないであろう。<br><br>いかに外形的に進歩せるがごとくであっても、現実游離であってはならないのである。<br><br> 黴菌発見や機械や理論がいかに発達するといえども、国民の体位が低下し、人口増加が衰え、結核やあらゆる疾患が氾濫するという事は学理と現実とが一致していない証拠であろう。<br><br>故に、その不一致であるという――その原因の発見こそ、この問題を解決する鍵でなくてはならないのである。<br><br>しかるに、私はその鍵の発見に成功したのであるから、それをこの小冊子によって発表しようと思うのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content">
-            <h2>A Questão da Tuberculose e sua Solução Definitiva</h2>
-            <p>Nos últimos tempos, a questão da tuberculose tem sido tratada como um dos mais graves problemas de
+<h2>A Questão da Tuberculose e sua Solução Definitiva</h2>
+<p>Nos últimos tempos, a questão da tuberculose tem sido tratada como um dos mais graves problemas de
                 interesse nacional. Sua importância é tão manifesta que dispensa maiores digressões. Nesse sentido,
                 sinto-me na obrigação de apresentar os resultados obtidos em minhas pesquisas, na esperança de que, ao
                 fazê-lo, possa contribuir, ainda que modestamente, para o bem da Nação, o que para mim representaria a
                 maior das venturas.</p>
-            <p>O próprio governo devota a esta matéria uma atenção especial, tendo elaborado recentemente um plano de
+<p>O próprio governo devota a esta matéria uma atenção especial, tendo elaborado recentemente um plano de
                 diretrizes para o combate à tuberculose. Com ele, pretende-se mobilizar as maiores autoridades da área a
                 fim de erradicar a doença de forma definitiva. Tal medida visa não apenas solucionar a questão dos
                 recursos humanos, fator crucial para o pleno êxito na Grande Guerra da Ásia Oriental, e assegurar a
@@ -126,12 +275,12 @@ function toggleLang(lang) {
                 único teto — o <em>Hakkō Ichiu</em> (八紘為宇) —, busca-se expurgar a desonra de o Japão ser conhecido como
                 uma nação de tuberculosos. Portanto, a consecução de tal objetivo exige não somente a cooperação de todo
                 o povo, mas também uma ação de caráter urgentíssimo.</p>
-            <p>Contudo, as estratégias propostas baseiam-se integralmente nos postulados e métodos da medicina
+<p>Contudo, as estratégias propostas baseiam-se integralmente nos postulados e métodos da medicina
                 ocidental. Considerando a estrutura da cultura moderna, tal abordagem é natural e não comporta, a
                 princípio, qualquer crítica. Ademais, como as nações civilizadas do Ocidente parecem ter reduzido
                 drasticamente a incidência da tuberculose por meio da medicina moderna, é mais do que esperado que se
                 tome seu exemplo como modelo.</p>
-            <p>Todavia, após vinte anos de pesquisa por um método próprio, desvinculado da medicina ocidental, logrei
+<p>Todavia, após vinte anos de pesquisa por um método próprio, desvinculado da medicina ocidental, logrei
                 descobrir que a causa fundamental da doença reside em um ponto totalmente inesperado. Paralelamente,
                 desenvolvi e aperfeiçoei tanto o método para a cura completa quanto o para a imunização. Com base nisso,
                 adquiri a plena convicção de que o problema da tuberculose pode ser inteiramente solucionado. Descobri
@@ -142,9 +291,9 @@ function toggleLang(lang) {
                 Contrariando todas as expectativas, a doença continuará a recrudescer, até o ponto em que governo e
                 especialistas se verão perplexos, sem saber como agir. Que tal dia chegará é uma certeza mais clara que
                 o fogo que se avista.</p>
-            <p>Entretanto, não é preciso esperar por esse momento de desorientação, pois percebo que ele já se faz
+<p>Entretanto, não é preciso esperar por esse momento de desorientação, pois percebo que ele já se faz
                 presente.</p>
-            <p>Recordo-me, com a mais profunda reverência, que no décimo quarto ano da era Showa [1939], Sua Majestade a
+<p>Recordo-me, com a mais profunda reverência, que no décimo quarto ano da era Showa [1939], Sua Majestade a
                 Imperatriz, em Seu nobre desejo de erradicar a tuberculose, dignou-se a conceder uma vultosa doação de
                 Seus fundos pessoais. Naquela ocasião, o governo e o povo, em uníssono, juraram corresponder à Vontade
                 Imperial, estabelecendo a Associação de Prevenção da Tuberculose e implementando diversas medidas. Desde
@@ -153,16 +302,16 @@ function toggleLang(lang) {
                 a daquela época, é inegável que a causa reside ou na negligência ou em uma política equivocada. Sendo
                 assim, considero que seria justo e necessário que os responsáveis assumissem, com o devido temor, a
                 responsabilidade por essa falha.</p>
-            <p>Contudo, não posso crer que súditos leais do Império do Japão pudessem incorrer em tamanha negligência ou
+<p>Contudo, não posso crer que súditos leais do Império do Japão pudessem incorrer em tamanha negligência ou
                 erro. A verdade, muito provavelmente, é que, apesar de terem se dedicado de corpo e alma, não lograram
                 obter os resultados esperados. Se assim for, torna-se indiscutível que o fracasso se deve ao fato de as
                 medidas de inspiração ocidental partirem de uma premissa fundamentalmente errônea.</p>
-            <p>Este pequeno manual é uma compilação dos trechos referentes à tuberculose extraídos de minha obra ‘Ashita
+<p>Este pequeno manual é uma compilação dos trechos referentes à tuberculose extraídos de minha obra ‘Ashita
                 no Ijutsu’. Decidi incluir também uma análise sobre a questão populacional, uma vez que esta possui uma
                 relação indissociável com o problema da tuberculose. Embora o livro original contenha estatísticas sobre
                 a dinâmica populacional e a evolução da tuberculose, optei por omiti-las aqui para não tornar a leitura
                 prolixa.</p>
-            <p>As estatísticas mais recentes publicadas datam do décimo quarto ano da era Showa [1939]. Naquele ano, o
+<p>As estatísticas mais recentes publicadas datam do décimo quarto ano da era Showa [1939]. Naquele ano, o
                 número de óbitos por tuberculose alcançou 154.371, o que corresponde a uma taxa de mais de 21 mortes
                 para cada dez mil habitantes. Ademais, entre os jovens de 15 a 29 anos, a doença foi responsável por
                 alarmantes 45% do total de mortes. Sabe-se, contudo, que muitos óbitos por tuberculose são registrados
@@ -172,36 +321,78 @@ function toggleLang(lang) {
                 portanto, que o número de casos não abertos, ou seja, de pacientes suspeitos, seja muitas vezes
                 superior. Além disso, creio que a medicina moderna, com seus métodos, contribui mais para que os casos
                 suspeitos evoluam para a forma aberta da doença do que para a sua recuperação.</p>
-            <p>A luta contra a tuberculose, é bom frisar, não começou hoje. Há muito tempo, governo e sociedade vêm se
+<p>A luta contra a tuberculose, é bom frisar, não começou hoje. Há muito tempo, governo e sociedade vêm se
                 empenhando em sua erradicação, fato de conhecimento geral. Se as medidas adotadas até agora fossem
                 corretas, seria de se esperar, no mínimo, algum efeito positivo, como a contenção da doença ou uma
                 melhora gradual no cenário. O que vemos, no entanto, é o oposto: a cada ano, a situação se agrava, tendo
                 atingido um ponto em que o otimismo já não se justifica. Isso demonstra, inequivocamente, que as
                 políticas implementadas até o presente foram de todo inadequadas. A reflexão sobre quais foram os erros
                 e a investigação de suas causas deveriam ser, portanto, o ponto de partida para a solução.</p>
-            <p>Em vez disso, o que se pretende é intensificar e ampliar exatamente os mesmos métodos que se mostraram
+<p>Em vez disso, o que se pretende é intensificar e ampliar exatamente os mesmos métodos que se mostraram
                 ineficazes. Se o novo plano de diretrizes se resume a isso, é previsível que, com o passar do tempo, os
                 resultados sejam ainda mais desastrosos.</p>
-            <p>Afirma-se, todavia, que o novo plano é bastante distinto dos anteriores. A diferença residiria no fato de
+<p>Afirma-se, todavia, que o novo plano é bastante distinto dos anteriores. A diferença residiria no fato de
                 que, enquanto antes a responsabilidade recaía unicamente sobre os médicos, agora se conclama a
                 cooperação de cada indivíduo. Ademais, prevê-se a aplicação de toda sorte de medidas não estritamente
                 médicas. Disso, pode-se inferir um incipiente despertar para a constatação de que os métodos médicos
                 convencionais fracassaram.</p>
-            <p>Observemos outro dado revelador: por volta do trigésimo quinto ano da era Meiji [1902], a incidência de
+<p>Observemos outro dado revelador: por volta do trigésimo quinto ano da era Meiji [1902], a incidência de
                 pleurisia entre os conscritos para o serviço militar era de dois para cada cem homens. No décimo segundo
                 ano da era Showa [1937], esse número saltou para vinte e quatro em cada cem. Trata-se de um aumento de
                 doze vezes. Ninguém há de negar que, em comparação com a era Meiji, os avanços da medicina, da higiene
                 social e dos conhecimentos sobre saúde individual na era Showa são imensamente superiores. Diante de tal
                 fato, como não levantar suspeitas sobre o suposto progresso da medicina? Não importa quão avançada uma
                 ciência pareça em sua aparência exterior; ela não pode se divorciar da realidade.</p>
-            <p>De que valem as descobertas de micro-organismos, o desenvolvimento de equipamentos e o aprimoramento de
+<p>De que valem as descobertas de micro-organismos, o desenvolvimento de equipamentos e o aprimoramento de
                 teorias, se a condição física do povo se deteriora, o crescimento populacional declina e a tuberculose,
                 assim como inúmeras outras doenças, se alastra sem controle? Eis a prova de que a teoria e a prática não
                 estão em consonância. A chave para solucionar este problema reside, portanto, na descoberta da causa
                 dessa dissonância. E como logrei êxito em encontrar essa chave, proponho-me a revelá-la nas páginas
                 deste manual.</p>
-        </div>
-    </blockquote>
-</body>
+</div>
+</blockquote>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 序論 『結核問題ト其解決策』昭和17(1942)年12月13日初版発行 近来、我国策上最も重要問題として扱われているものに結核問題がある。<br/><br/>この問題の重要性はあまりにも明白であって、今更言を要しないのであるが、私はこの問題に対して、私の研究によって得たる成果を発表し、些かなりとも国策に貢献し得れば、幸この上ないと思うのである。<br/><br/> 政府においてもこの問題に対し非常なる関心を払い、今回結核対策要項〔綱〕なる案を作り、その道の権威者等をして徹底的撲滅を期せしめ、大東亜戦争の完遂に最も重要なる人的資源の問題を解決し、国家永遠の繁栄を企図すると共に、将に来らんとする八紘為宇（はっこういう）の時、日本が結核国であるというがごとき不名誉は払拭しなければならないという理由もあるであろう。<br/><br/>従って、その目的遂行には、国民全般の協力は固より、まことに急を要すべき一大問題である。<br/><br/> しかるに、右の方策なるものは、咸（ことごと）く西洋医学の理論と方法を基礎として成ったところを実行するのであって、現代文化の機構からいえば当然の事で、そこに何ら非難すべき点はないのであり、しかも泰西の文明国が、現代医学によって各々の国の結核を激減さしたごとく見ゆるのであるから、それを範として立案することもまた当然過ぎる事であろう。<br/><br/> しかるに、私が弐拾年間、西洋医術によらざる独自の方法を以て研究したる結果、その根本原因が意外の点にあるのを発見すると共に全治の方法も免疫の方法をも完成したのであって、これによって結核問題は全く解決し得らるる事の確信を得たのである。<br/><br/>そうして西洋医術における結核に対する理論が、あまりにも誤謬であり、その結果として、西洋医学によって結核を撲滅せんとするも、何らの効果がないのみか、その方法が実は結核を増加するという逆効果になることを知ったのである。<br/><br/>故に事実は何物よりも雄弁であるから、向後の我国結核の趨勢を見れば判るであろう。<br/><br/>即ち予期に反して結核はいよいよ漸増し、ついには政府も専門家も困惑為すところを知らざる時の来る事は、火を睹（み）るよりも燎〔瞭〕（あきら）かである。<br/><br/> しかるに、私は右の困惑の時を待つまでもなく、現在今、その時が来ている事を覚ゆるのである。<br/><br/> 畏（おそれ）多くも昭和十四年 皇后陛下におかせられては、結核撲滅の御思召（おんおぼしめし）を以て多額の御内帑（ないど）金を御下賜あらせられた。<br/><br/>その際官民一致、誓って聖旨に応え奉るべく、結核予防協会なるものを設立し諸般の方策を樹立した事は、未だ記憶に新たなるところであり、その後といえども当事者は勿論奮励努力したはずであるから、その当時より今日は幾分の効果を挙げ得ていなければならない訳である。<br/><br/>故に万が一その当時よりも今日のほうが不良であるとすれば、それは有難き思召に対し奉り、怠慢か又は施策の誤れるかにある事は申すまでもないのである。<br/><br/>従ってもしそうであるとすれば、恐懼（きょうく）その責（せめ）を負うべきが至当ではなかろうかと私は思うのである。<br/><br/> しかしながら、忠良なる日本臣民として、右のごとき過誤や怠慢は決してあり得べきはずはあるまい。<br/><br/>むしろ粉骨砕身、能（あた）う限りの努力をしたに拘わらず予期のごとき結果を挙げ得なかったというのが事実であろう。<br/><br/>そうであるとすれば、それは全く西洋医学的施設が、根本的誤謬から出発しているからである事は、言を須（ま）たないであろう。<br/><br/> そうしてこの小冊子は、拙著『明日の医術』から、結核に関する記述を収録したものである。<br/><br/>それについて結核問題は人口問題と切離す事の出来ない密接な関係をもっているのであるから併録する事にした。<br/><br/>又右の『明日の医術』には、人口の動態、結核の趨勢等の統計も掲げてあるが、それは冗長に流れるから省いたのである。<br/><br/> そうして、最近の統計として昭和十四年までしか発表がないのであるが、同年中における結核死亡者の数は、十五万四千三百七十一名を算し、人口一万人に付二十一人強の割合であり、又十五歳から二十九歳までの青少年死亡者中、結核による者は実に四十五パーセント強という高率に上っている。<br/><br/>しかしながら結核死亡者に対し、他の病気として死亡届を出す場合が相当多い実情であるから、実際の結核死亡者は右の二倍ないし三倍位に上るであろう事は想像され得るであろう。<br/><br/>又当局においては、罹病者は死亡の十倍即ち百五十万位と推定しているが、勿論この数字は解〔開〕放性結核患者であろうから、非解放性即ち容疑者は右の数倍に上ることも想像され得るのである。<br/><br/>しかも現代医学においては、容疑者を健康に復す事よりも、解放性に進める事の方が多いと想うのである。<br/><br/> 又結核問題は今日始まった問題ではない。<br/><br/>相当以前から官民共に対策に腐心し、撲滅に努力しつつあるのは周知の事実である。<br/><br/>故にその対策が適正であるならば、少なくともある程度の効果――即ち食い止め得るか又は幾分にても改善の方向にむかっていなければならないはずである。<br/><br/>しかるに何ぞや、年を経る毎に益々不良の情勢となり、最早楽観を許さぬまでの事態になったという事は深く顧みなくてはならない訳である。<br/><br/>それは今日までの対策が全く不適正であったという事である。<br/><br/>しからば、いかなる点が不適正であるかという事の反省と、その研究こそ、解決の根本でなければならないのである。<br/><br/> しかるに、右のような事なく、不適正であったその方法を、飽くまで強化拡充しようとするのである。<br/><br/>――それが今回の結核対策要項〔綱〕なるものであるとすれば、今後時日を経れば経るほど、いよいよ不良の結果を招来する事は予想され得るであろう。<br/><br/> しかしながら、今回の結核対策要項〔綱〕なるものは今日までの方法とは余程異なるという事を言明している。<br/><br/>それは、今までは医師だけに任しておけばよいとしていたのを、これからは各個人々々が協力をしなければならないという事である。<br/><br/>勿論、医療以外のあらゆる方法を講ずるという事である。<br/><br/>故に、これによってみれば従来の医学的方法が不成績であったという事に、幾分目覚めたという事実を看取し得らるるのである。<br/><br/> 又明治三十五、六年代における兵役壮丁者の胸膜患者は百人に付二人の割合であったものが、昭和十二年には百人に付二十四人という数字に上っている。<br/><br/>即ち十二倍という増加振りである。<br/><br/>明治三十年代と昭和十二年頃との医学の進歩や社会衛生や個人衛生の知識等を比較するにおいて、無論昭和十二年の方が数等発達している事は議論の余地はあるまい。<br/><br/>この点を以て察（み）るも、医学の進歩に対し疑問を起こさない訳にはゆかないであろう。<br/><br/>いかに外形的に進歩せるがごとくであっても、現実游離であってはならないのである。<br/><br/> 黴菌発見や機械や理論がいかに発達するといえども、国民の体位が低下し、人口増加が衰え、結核やあらゆる疾患が氾濫するという事は学理と現実とが一致していない証拠であろう。<br/><br/>故に、その不一致であるという――その原因の発見こそ、この問題を解決する鍵でなくてはならないのである。<br/><br/>しかるに、私はその鍵の発見に成功したのであるから、それをこの小冊子によって発表しようと思うのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
 
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

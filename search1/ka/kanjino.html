@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kanjino</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 感じの良い人 『栄光』257号、昭和29(1954)年4月21日発行 およそ感じが良いという言葉程、感じの良い響きを与えるものはあるまい。<br><br>ところがよく考えてみると、処世上これが案外重要である事である。<br><br>それは個人の運命は固（もと）より、社会上至大な関係があるのである。<br><br>例えば誰しも感じのいい人に接すると、その人も感じが良くなり、次から次へと拡がってゆくとしたら、心地（ここち）よい社会が出来るのはもちろんである。<br><br>故に忌わしい問題、特に争いは減ると共に犯罪も減るから、精神的天国が生まれる訳である。<br><br>しかもこの事たるや、金は一文も要らず、手数もかからず、その場からでも出来るのであるから、こんな結構な話はあるまい。<br><br>というと至極簡単に思えるが、事実はそんな旨い訳にはゆかないのは誰も知るであろう。<br><br> というのはこれは外形的御体裁（おていさい）では駄目だからで、どうしても心からの誠が沁（し）み出るので、その人の心の持ち方次第である。<br><br>つまり利他愛の精神が根本である。<br><br>これについて私の事を少しかいてみるが、私は若い頃から自分で言うのもおかしいが、どこへ行っても人から憎まれたり、恨まれたりする事は余りない。<br><br>親しまれ慕われる事の方が多いのである。<br><br>そこでその理由を考えてみるとこれだと思う一事がある。<br><br>それは何かというと、私は何事でも自分の利益や自分の満足は後廻しにして、人が満足し喜ぶ事にのみ心を置いている。<br><br>といっても、別段道徳とか信仰上からではなく、自然にそうなる、つまり私の性格であろう。<br><br>換言すれば一種の道楽でもある。<br><br>そんな訳で得な性分だとよく人から言われたものだが、全くそうかも知れない。<br><br>しかも宗教家になってから一層増したのはもちろんである。<br><br>そこで人が病気で苦しんでいるのを見ると、いても立ってもおれない気がして、どうしても治してやりたいと思い、浄霊をしてやると、治って喜ぶそれをみると、それが私に写って嬉しくなる。<br><br>それがため以前は随分問題を起し苦しんだものである。<br><br>というのはもう駄目だと思ったら早く手を引けばよかったものを、本人や家族の者に縋（すが）られるので、つい利害を忘れて夢中になり、遠い所を何回も行って、暇をつぶし、金を使い、その揚句（あげく）不結果になって失望させ、恨まれたり、愚痴られたりした事もよくあったもので、その度毎に俺はもっと薄情にならなければいけないと、自分で自分を責めたものである。<br><br> この私の性格が地上天国や美術館を造る援（たす）けともなったのであるから、こういう性格を神が与えたものであろう。<br><br>例えば、結構な美術品や絶佳な風景を見ると、自分一人楽しむのは張合もないし、気も咎（とが）めるので、一人でも多くの人に見せ、楽しませたいと思う心が湧いて来る。<br><br>という工合で、私は自分だけでなく、人に楽しませ喜ぶのを、自分も楽しみ喜ぶという事が一番満足なのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A virtude de ser uma pessoa agradável</h2>
 <p>Poucas expressões ressoam de forma tão aprazível quanto "uma pessoa agradável". Contudo, ao refletirmos com mais profundidade, percebemos que essa qualidade é, na verdade, de suma importância para a vida em sociedade. Sua influência transcende o destino individual, exercendo um impacto de vastas proporções sobre o coletivo. Com efeito, quando interagimos com alguém de índole afável, sentimo-nos igualmente bem, e se essa sensação se propagasse continuamente, de pessoa para pessoa, a construção de uma sociedade harmoniosa seria uma consequência natural. Por conseguinte, os problemas mais nefastos, em especial os conflitos, diminuiriam, assim como a criminalidade, dando origem a um verdadeiro Paraíso Espiritual. O mais notável é que tal transformação não requer um centavo sequer, tampouco exige esforço, podendo ser iniciada de imediato. Haveria, pois, proposta mais sublime?</p>
@@ -96,5 +248,48 @@ function toggleLang(lang) {
 <p>Assim, ao ver alguém atormentado por uma enfermidade, sou tomado por uma inquietação que me impede de ficar parado. Sinto um desejo incontrolável de curar essa pessoa e, ao ministrar-lhe Johrei, sua alegria ao se recuperar reflete-se em mim, preenchendo-me de felicidade. Contudo, essa mesma disposição já me causou inúmeros problemas e sofrimentos no passado. A razão para isso é que, mesmo quando eu percebia que um caso era irremediável e que o mais sensato seria recuar, eu cedia aos rogos do doente e de seus familiares. Esquecendo-me completamente de minhas próprias conveniências, eu me entregava de corpo e alma à missão. Viajava longas distâncias repetidas vezes, despendendo tempo e dinheiro, para, ao final, deparar-me com um desfecho desfavorável. Em tais ocasiões, além de causar decepção, não raro era alvo de ressentimentos e queixas. A cada experiência dessas, eu me recriminava severamente, pensando: "Preciso aprender a ser mais insensível".</p>
 <p>Visto que essa minha índole também contribuiu para a construção do Paraíso Terrestre e do Museu de Arte, creio que ela me foi concedida por Deus. Por exemplo, quando contemplo uma primorosa obra de arte ou uma paisagem deslumbrante, a ideia de desfrutá-las sozinho me parece vazia e até mesmo me pesa na consciência. Emerge, então, um forte desejo de mostrá-las ao maior número possível de pessoas, para que também possam se deleitar.</p>
 <p>Dessa forma, minha maior satisfação não reside em meu próprio prazer, mas em me alegrar e me deleitar ao ver a alegria e o deleite dos outros.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 感じの良い人 『栄光』257号、昭和29(1954)年4月21日発行 およそ感じが良いという言葉程、感じの良い響きを与えるものはあるまい。<br/><br/>ところがよく考えてみると、処世上これが案外重要である事である。<br/><br/>それは個人の運命は固（もと）より、社会上至大な関係があるのである。<br/><br/>例えば誰しも感じのいい人に接すると、その人も感じが良くなり、次から次へと拡がってゆくとしたら、心地（ここち）よい社会が出来るのはもちろんである。<br/><br/>故に忌わしい問題、特に争いは減ると共に犯罪も減るから、精神的天国が生まれる訳である。<br/><br/>しかもこの事たるや、金は一文も要らず、手数もかからず、その場からでも出来るのであるから、こんな結構な話はあるまい。<br/><br/>というと至極簡単に思えるが、事実はそんな旨い訳にはゆかないのは誰も知るであろう。<br/><br/> というのはこれは外形的御体裁（おていさい）では駄目だからで、どうしても心からの誠が沁（し）み出るので、その人の心の持ち方次第である。<br/><br/>つまり利他愛の精神が根本である。<br/><br/>これについて私の事を少しかいてみるが、私は若い頃から自分で言うのもおかしいが、どこへ行っても人から憎まれたり、恨まれたりする事は余りない。<br/><br/>親しまれ慕われる事の方が多いのである。<br/><br/>そこでその理由を考えてみるとこれだと思う一事がある。<br/><br/>それは何かというと、私は何事でも自分の利益や自分の満足は後廻しにして、人が満足し喜ぶ事にのみ心を置いている。<br/><br/>といっても、別段道徳とか信仰上からではなく、自然にそうなる、つまり私の性格であろう。<br/><br/>換言すれば一種の道楽でもある。<br/><br/>そんな訳で得な性分だとよく人から言われたものだが、全くそうかも知れない。<br/><br/>しかも宗教家になってから一層増したのはもちろんである。<br/><br/>そこで人が病気で苦しんでいるのを見ると、いても立ってもおれない気がして、どうしても治してやりたいと思い、浄霊をしてやると、治って喜ぶそれをみると、それが私に写って嬉しくなる。<br/><br/>それがため以前は随分問題を起し苦しんだものである。<br/><br/>というのはもう駄目だと思ったら早く手を引けばよかったものを、本人や家族の者に縋（すが）られるので、つい利害を忘れて夢中になり、遠い所を何回も行って、暇をつぶし、金を使い、その揚句（あげく）不結果になって失望させ、恨まれたり、愚痴られたりした事もよくあったもので、その度毎に俺はもっと薄情にならなければいけないと、自分で自分を責めたものである。<br/><br/> この私の性格が地上天国や美術館を造る援（たす）けともなったのであるから、こういう性格を神が与えたものであろう。<br/><br/>例えば、結構な美術品や絶佳な風景を見ると、自分一人楽しむのは張合もないし、気も咎（とが）めるので、一人でも多くの人に見せ、楽しませたいと思う心が湧いて来る。<br/><br/>という工合で、私は自分だけでなく、人に楽しませ喜ぶのを、自分も楽しみ喜ぶという事が一番満足なのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

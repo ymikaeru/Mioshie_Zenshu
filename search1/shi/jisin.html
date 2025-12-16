@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jisin</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 地震に就て 『信仰雑話』P.51、昭和23(1948)年9月5日発行 この稿は、昭和二十三年六月二十八日、福井市を中心として大地震があった直後、参考のため地震についての私の所説を書いたものである。<br><br> そもそも、神道の天地創造説によれば、宇宙の初めは水蒸気のような水泡のような物質であったが、創造的活動が開始されると、分裂作用によって、軽きものは天となり、重きものは地となり、天には日月星辰が生まれ、地は泥海のごとき半固体となった。<br><br>天理教でとなえる、いわゆる泥海時代である。<br><br>それが年代を経るに従って、漸次固体化し、植物及び鉱物等が発生し、ついで生物が生まれ、最後に作られたのが人間であって、以来進化を続けつつ現在のごとくなったのである。<br><br> 以上のごとく、泥海が固体になるという事は、大自然の硬化作用によるので、硬化するに従い、地球の容積は減ずる。<br><br>いわゆる地殻の収縮である。<br><br>この地殻の収縮が地震の原因であるから、古い時代程地殻の収縮が大きいため、地震も大きかったのである。<br><br>すなわち、日本について言えば、日本海は地殻の大収縮によって陥没し、海が形成されたものであるから、それ以前は日本と朝鮮とは陸続きであった事は、日本の各地に象の骨が、発見する事によってみても、南方から象が侵入し来たった事は信じ得らるるのであって、その時代に船で渡来する事はもちろん不可能であったからである。<br><br> よく日本に地震が多いのは、火山国であるからという説があるが、これに対して私は異論がある。<br><br>何となれば、火山が地震の原因であるとすれば、地震は山嶽地帯に多く起こるべき筈なるにかかわらず、事実は海に近い所に頻発するのである。<br><br>しからば、なぜ海に近いところに多いかを解説してみよう。<br><br> 元来、日本の国の創成は比較的新しいため硬化が遅れており、古い国ほど硬化が進んでいるから、地殻の収縮が少なく、地震が少ないわけである。<br><br>もちろん、火山による地震もあるが、あまり大きいのはないのである。<br><br> 元来日本の土地は古代においては、今日の三倍ぐらいの大きさであったのが、その三分の二が陥没し、三分の一の大きさになっているのである。<br><br>そうして、日本の地震が日本海の海岸地帯に多い原因は、日本海の陥没運動がいまだ持続しているからで、いわば海岸地帯には絶えず小陥没が起こっており、それが陸地に影響するのである。<br><br>これが地震の原因であるから、震源地は近海の海底であって、この証拠として、関東大震災直後、陸地が一尺以上低下せる所が各地に出現した報告や、越後新潟地方の一部の地盤が年々沈下し、今日の割合をもってすれば、百年後には海中になるという事で、住民は戦々兢々としているという、最近の新聞記事などによってみても明らかである。<br><br>また日本海に面した所は、年々数フィートずつ陸地が縮小するに反し、太平洋岸は年々数フィートずつ拡大しつつあるという。<br><br>この二つの事実について、私は左のような理由によるものと考えるのである。<br><br> 地球は地殻の収縮によって、海底は年々沈下し、深くなりつつあるため、海面も低下する。<br><br>もちろん太平洋岸の海面も低下する結果、それだけ陸地が現われるというわけである。<br><br>元来陸地はほぼ完成に近いが、海底は未完成であり、軟弱性がまだ残存しているため、特に、海底陥没が絶えないのである。<br><br>しかるに、日本海のほうの海岸縮小は、海底低下よりも陥没作用のほうが勝れる事によるためであると共に、太平洋岸の地震のほうが先に起こったためでもある。<br><br> 海面低下について、特に太平洋岸に面する海岸の岩壁をみるとき、よく分かるのである。<br><br>海面から低きは二十フィートぐらいから、高きは百フィートぐらいの岩壁に、元波濤に洗われた痕跡が鮮明にあらわれている。<br><br>また中華民国内の原野から山塩が多く産出するが、これはもと海であったからで、海面低下によって現われた大平野である。<br><br>この理によって、学者のとなえる氷河時代の遺跡というのは、実は波濤の痕跡であって、高山にあるものは噴火による隆起と共に成立したものである。<br><br>誰も知る東京の下町地帯も、もとは海であり、もと浅草で海苔がとれたという事は、その辺まで海であったからである。<br><br> 地震の原因は、地殻の収縮であるという事を述べたが、次のごとき現象もある。<br><br>それは地震発生以前、その範囲内に局部的隆起が起こる事がある。<br><br>すなわち、前兆ともいうべきもので、地殻収縮の場合、地下深く局部的間隙が起こる。<br><br>その間隙に上昇地熱が充填され、膨脹するためである。<br><br>以上のごとくであるから、地震の原因は、海底陥没の波動が陸地に陥没を起こさせるという理を知るべきである。<br><br> 大きな地震の直後、必ず津波が起こるが、これはいかなる訳かというと、海底陥没による凹所へ向かって、海流の充填作用が起こり、勢い余って必要以上に海水が集注するため、氾濫の形に転じ、その氾濫が津波となるのであるから、この津波は短時間にしてもとに復すのである。<br><br> 私は特に学者諸君に向かって注意したいと思う事は、今日まで地震の研究は陸地を主として行なわれて来たようであるが、前述のごとく、その原因が海底にある以上、海底陥没の前駆として、潮流に異変が生ずる訳であるから、今後は沿岸潮流の研究こそ、切に希望するところである。<br><br> 万有硬化について今少しく説明しよう。<br><br>神道の多くは、日本の国は最初に出来た国というが、私はそうは思わない。<br><br>それを解くにあたって鉱物の例を書いてみるが、まず陸地においての硬化作用は、土が硬化して石となり、石が硬化して金属が発生する。<br><br>それが実物によく表れている。<br><br>例えば火山灰が硬化したのが凝灰岩であり、それが硬化して石灰岩となり、石英粗面岩または石英斑岩となり、黄銅鉱または黄鉄鉱が発生し、次に金銀が発生する。<br><br>また粘土が硬化して粘板岩となり、頁岩（けつがん）となり、黒鉛や方鉛鉱、閃亜鉛等が発生し、錫が発生し、銀や金が発生する。<br><br>また赤土が硬化して褐鉄が発生し、硫化鉄、磁鉄等々が発生する。<br><br>また石英から水晶が発生する。<br><br>石炭及び亜炭は、古代樹木が火山灰に埋没され、地熱によって燃焼炭化したものである。<br><br>その他、あらゆる鉱物はその土壌の性質と、地霊の濃淡、気候の変化、年代の長短、その土地の植物の成分が、雨水によって地中に滲透する事等によって、あらゆる種類が発生するのである。<br><br>しかるに、鉱物の最も硬化せるダイヤモンド及び白金の産出がないにみても、日本は、その創成が比較的新しい国である事が分かるのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Considerações sobre os Terremotos</h2>
 <p>Redigi este artigo como material de referência, expondo minhas considerações sobre os terremotos, imediatamente após o grande sismo que teve como epicentro a cidade de Fukui, em 28 de junho de 1948.</p>
@@ -107,5 +259,48 @@ function toggleLang(lang) {
 <p>Gostaria de dirigir uma advertência especial à comunidade acadêmica. Até o presente momento, as pesquisas sismológicas parecem ter se concentrado majoritariamente no estudo dos fenômenos em terra. Contudo, como demonstrei, a causa fundamental reside no leito marinho. Uma vez que anomalias nas correntes oceânicas são um precursor da subsidência submarina, faço um apelo veemente para que, de agora em diante, as investigações se dediquem ao estudo das correntes litorâneas.</p>
 <p>Permitam-me discorrer um pouco mais sobre o princípio do endurecimento universal. Muitas vertentes do xintoísmo defendem que o Japão foi a primeira nação a ser criada, mas não compartilho dessa opinião. Para elucidar meu ponto de vista, usarei o exemplo dos minerais. O processo de endurecimento na crosta terrestre ocorre da seguinte forma: o solo se petrifica, tornando-se rocha, e a rocha, por sua vez, endurece ainda mais, dando origem aos metais. Este processo é claramente observável na natureza. A cinza vulcânica, por exemplo, solidifica-se em tufo, que se converte em calcário e, posteriormente, em rochas como riolito ou pórfiro de quartzo, das quais surgem a calcopirita e a pirita e, finalmente, o ouro e a prata. De maneira análoga, a argila endurece, formando o xisto argiloso e o folhelho, de onde se originam a grafita, a galena e a esfalerita, e, em estágios posteriores, o estanho, a prata e o ouro. O solo vermelho, ao se solidificar, gera a limonita, que evolui para a pirita e a magnetita. O quartzo, por sua vez, cristaliza-se em cristal de rocha. O carvão e a hulha são resultado de árvores ancestrais que, soterradas por cinzas vulcânicas, foram carbonizadas pelo calor geotérmico. Em suma, a imensa variedade de minerais é gerada pela combinação de múltiplos fatores: a natureza do solo, a intensidade da energia espiritual da terra, as variações climáticas, a passagem do tempo e os componentes químicos das plantas que se infiltram no subsolo com a água da chuva.</p>
 <p>Diante de todo o exposto, a ausência de diamantes e platina — os minerais de maior dureza — em nosso território é uma prova incontestável de que o Japão é uma nação de formação geológica relativamente recente.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 地震に就て 『信仰雑話』P.51、昭和23(1948)年9月5日発行 この稿は、昭和二十三年六月二十八日、福井市を中心として大地震があった直後、参考のため地震についての私の所説を書いたものである。<br/><br/> そもそも、神道の天地創造説によれば、宇宙の初めは水蒸気のような水泡のような物質であったが、創造的活動が開始されると、分裂作用によって、軽きものは天となり、重きものは地となり、天には日月星辰が生まれ、地は泥海のごとき半固体となった。<br/><br/>天理教でとなえる、いわゆる泥海時代である。<br/><br/>それが年代を経るに従って、漸次固体化し、植物及び鉱物等が発生し、ついで生物が生まれ、最後に作られたのが人間であって、以来進化を続けつつ現在のごとくなったのである。<br/><br/> 以上のごとく、泥海が固体になるという事は、大自然の硬化作用によるので、硬化するに従い、地球の容積は減ずる。<br/><br/>いわゆる地殻の収縮である。<br/><br/>この地殻の収縮が地震の原因であるから、古い時代程地殻の収縮が大きいため、地震も大きかったのである。<br/><br/>すなわち、日本について言えば、日本海は地殻の大収縮によって陥没し、海が形成されたものであるから、それ以前は日本と朝鮮とは陸続きであった事は、日本の各地に象の骨が、発見する事によってみても、南方から象が侵入し来たった事は信じ得らるるのであって、その時代に船で渡来する事はもちろん不可能であったからである。<br/><br/> よく日本に地震が多いのは、火山国であるからという説があるが、これに対して私は異論がある。<br/><br/>何となれば、火山が地震の原因であるとすれば、地震は山嶽地帯に多く起こるべき筈なるにかかわらず、事実は海に近い所に頻発するのである。<br/><br/>しからば、なぜ海に近いところに多いかを解説してみよう。<br/><br/> 元来、日本の国の創成は比較的新しいため硬化が遅れており、古い国ほど硬化が進んでいるから、地殻の収縮が少なく、地震が少ないわけである。<br/><br/>もちろん、火山による地震もあるが、あまり大きいのはないのである。<br/><br/> 元来日本の土地は古代においては、今日の三倍ぐらいの大きさであったのが、その三分の二が陥没し、三分の一の大きさになっているのである。<br/><br/>そうして、日本の地震が日本海の海岸地帯に多い原因は、日本海の陥没運動がいまだ持続しているからで、いわば海岸地帯には絶えず小陥没が起こっており、それが陸地に影響するのである。<br/><br/>これが地震の原因であるから、震源地は近海の海底であって、この証拠として、関東大震災直後、陸地が一尺以上低下せる所が各地に出現した報告や、越後新潟地方の一部の地盤が年々沈下し、今日の割合をもってすれば、百年後には海中になるという事で、住民は戦々兢々としているという、最近の新聞記事などによってみても明らかである。<br/><br/>また日本海に面した所は、年々数フィートずつ陸地が縮小するに反し、太平洋岸は年々数フィートずつ拡大しつつあるという。<br/><br/>この二つの事実について、私は左のような理由によるものと考えるのである。<br/><br/> 地球は地殻の収縮によって、海底は年々沈下し、深くなりつつあるため、海面も低下する。<br/><br/>もちろん太平洋岸の海面も低下する結果、それだけ陸地が現われるというわけである。<br/><br/>元来陸地はほぼ完成に近いが、海底は未完成であり、軟弱性がまだ残存しているため、特に、海底陥没が絶えないのである。<br/><br/>しかるに、日本海のほうの海岸縮小は、海底低下よりも陥没作用のほうが勝れる事によるためであると共に、太平洋岸の地震のほうが先に起こったためでもある。<br/><br/> 海面低下について、特に太平洋岸に面する海岸の岩壁をみるとき、よく分かるのである。<br/><br/>海面から低きは二十フィートぐらいから、高きは百フィートぐらいの岩壁に、元波濤に洗われた痕跡が鮮明にあらわれている。<br/><br/>また中華民国内の原野から山塩が多く産出するが、これはもと海であったからで、海面低下によって現われた大平野である。<br/><br/>この理によって、学者のとなえる氷河時代の遺跡というのは、実は波濤の痕跡であって、高山にあるものは噴火による隆起と共に成立したものである。<br/><br/>誰も知る東京の下町地帯も、もとは海であり、もと浅草で海苔がとれたという事は、その辺まで海であったからである。<br/><br/> 地震の原因は、地殻の収縮であるという事を述べたが、次のごとき現象もある。<br/><br/>それは地震発生以前、その範囲内に局部的隆起が起こる事がある。<br/><br/>すなわち、前兆ともいうべきもので、地殻収縮の場合、地下深く局部的間隙が起こる。<br/><br/>その間隙に上昇地熱が充填され、膨脹するためである。<br/><br/>以上のごとくであるから、地震の原因は、海底陥没の波動が陸地に陥没を起こさせるという理を知るべきである。<br/><br/> 大きな地震の直後、必ず津波が起こるが、これはいかなる訳かというと、海底陥没による凹所へ向かって、海流の充填作用が起こり、勢い余って必要以上に海水が集注するため、氾濫の形に転じ、その氾濫が津波となるのであるから、この津波は短時間にしてもとに復すのである。<br/><br/> 私は特に学者諸君に向かって注意したいと思う事は、今日まで地震の研究は陸地を主として行なわれて来たようであるが、前述のごとく、その原因が海底にある以上、海底陥没の前駆として、潮流に異変が生ずる訳であるから、今後は沿岸潮流の研究こそ、切に希望するところである。<br/><br/> 万有硬化について今少しく説明しよう。<br/><br/>神道の多くは、日本の国は最初に出来た国というが、私はそうは思わない。<br/><br/>それを解くにあたって鉱物の例を書いてみるが、まず陸地においての硬化作用は、土が硬化して石となり、石が硬化して金属が発生する。<br/><br/>それが実物によく表れている。<br/><br/>例えば火山灰が硬化したのが凝灰岩であり、それが硬化して石灰岩となり、石英粗面岩または石英斑岩となり、黄銅鉱または黄鉄鉱が発生し、次に金銀が発生する。<br/><br/>また粘土が硬化して粘板岩となり、頁岩（けつがん）となり、黒鉛や方鉛鉱、閃亜鉛等が発生し、錫が発生し、銀や金が発生する。<br/><br/>また赤土が硬化して褐鉄が発生し、硫化鉄、磁鉄等々が発生する。<br/><br/>また石英から水晶が発生する。<br/><br/>石炭及び亜炭は、古代樹木が火山灰に埋没され、地熱によって燃焼炭化したものである。<br/><br/>その他、あらゆる鉱物はその土壌の性質と、地霊の濃淡、気候の変化、年代の長短、その土地の植物の成分が、雨水によって地中に滲透する事等によって、あらゆる種類が発生するのである。<br/><br/>しかるに、鉱物の最も硬化せるダイヤモンド及び白金の産出がないにみても、日本は、その創成が比較的新しい国である事が分かるのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

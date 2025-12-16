@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>situmo34</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 教えの光 『地上天国』30号、昭和26(1951)年11月25日発行 （お伺） 謹みてお伺い申し上げます。<br><br>私の家は昔庄屋と称え、そうとう古くから屋敷内に柿の大木がありまして、大人四人にて抱くくらい、幹太く、背丈も高く、一里半くらい遠くから見える大木で、その中間くらいの高い所に、六寸ないし七寸くらいの洞穴があり、その中に水の絶ゆることなく、いかに旱魃（かんばつ）厳しくとも水があり、常に一尺くらいの蛇が二匹棲み、ある神懸りの人が通り合わしたとき「オー、大きな蛇だ」と言ったこともあります。<br><br>言い伝えには「屋敷の地主」だと言っておりました。<br><br> いまから三十五年ほど前に、この柿の木を岐阜から買い手が来て、いよいよ木を伐ることになりました。<br><br>ちょうど二月ごろでしたが、伐ろうとすれば吹雪となり、三日間はどうしても伐れなかったのですが、無理やりに伐り倒したそうでございます。<br><br>この木を切ってから後、二番目の兄は頭が狂い、病院に入ってからも暴れるので、手足を縛っておいたりしましたが、トウトウ狂い死にしました。<br><br>三番目の兄も頭が悪くなり、ある日二階から転落し、頭が割れて死にました。<br><br> 最後に長兄は頭が狂いかけたとき、日蓮宗を信仰しました。<br><br>そのとき、「これは地主の祟りだから祀らねばいかぬ」と言われましたが、真宗の信仰に熱心な母はどうしても承知せず、やむなく大阪在住の私の姉が、遠く大阪より祈念し、拝んでおりましたところ、一カ月ほどで治りました（その兄も五年前、脳溢血で死亡いたしました）。<br><br> 柿の木を買い取った材木屋もだんだん家業は思わしくなく、落ちぶれたそうです。<br><br> 大阪の姉は大和三輪明神の信者であり、私も信仰しておりました。<br><br>「元柿の木にいた『地主』を祀らなければならん」と三輪講（みわこう）の行者（井上先生）を連行し、私宅にて、昭和十七年三月十五日に祀り込み、御霊鎮めの式をいたし、爾来、毎日家内中（私と子供三人）拝んでおりました。<br><br> その後、昭和二十年の一月か二月でした。<br><br>岩松先生と牧野先生が私の家においでになりました。<br><br>これがこの山奥の町に来られた最初でございます。<br><br>そうして尊き恵みにより昭和二十年三月入信、昭和二十四年四月光明如来様、屏風観音様御奉斎、昭和二十四年十月二十日大光明如来様御奉斎、入信以来不肖な私ですが、幾十人かのお導きをさせていただき、もっか教師の資格さえも付与され、実にもったいないことと存じております。<br><br> 大阪の姉夫婦も入信しており、本年五月七日、光明如来様を御奉斎させていただきました。<br><br> 姉夫婦も始め入信しておりましても、三輪様の信仰のほうが熱心でしたが、昨年秋よりだんだん本教に熱心となり、今日までに十五人ほどお導きさせていただきました。<br><br>前に三輪講の行者により地主の神を祀りし宮（大光明如来様の次の部屋）も毎月十五日教会の先生に来ていただき、天津祝詞を奏上、お祭りしておりましたが、その当時、上の先生から「大神様をお祀りしてあるのだから、祀らなくとも良い」と伺いましたので、昨年十月二十八日に良く御挨拶をしお祭りして宮じまいし、当地の氏神様にお預けしました。<br><br> しかし私も地主ということで、なんだか心残りがあり、大阪の姉は凄い反対でした。<br><br>最近また姉よりふたたび祀るよう催促あり、私宅もこのごろいろいろと事情の浄化（特に屋敷の問題）がありますので、いまになって考えるにヤハリ祀るべきではなかろうか、と思われてなりません。<br><br>ふたたび祀るべきでしょうか、それともそのままにしておくべきでしょうか、御垂示お願いいたします。<br><br> 住居の西南に池を造り、松を植えると良いと伺いましたので、本年七月に池のかわりに甕（かめ）を埋め、松をまわりに植えました。<br><br>もし祀るべきでしたら、左記の点につき御教示お願い申し上げます。<br><br> 一、祀るべき位置、および小さき祠（ほこら）でよいでしょうか。<br><br> 二、憑依すべき形はなににすべきでしょうか。<br><br> 三、その後の祭りはいかようにすべきでしょうか。<br><br> （御垂示） これは立派な龍神であって、ぜひ祀らなければいけない。<br><br>祀る位置は前を池にして、二尺ないし三尺くらいの高さに、天然石を積み重ね、その上にお宮（屋根は雨の滲みないよう銅板を張る）を安置し、御神体は檜、剣尖形に造り、何々明神と書けばよろしい。<br><br>大きさはその場所にちょうどいいくらいにする。<br><br>向きは光明如来様のほうへ対うようにする。<br><br>お祭りは毎月、月並祭の後、光明如来様よりも簡単に、お祭りすればいい。<br><br>お供えものは生米、塩、お水、その他魚、野菜、乾物など、見計らって、お献げすればいい。<br><br> お名前は、光明如来様にお願いすると、心に浮かぶからそれでよろしい。<br><br> （お伺） （一）私は県農業協同組合連合会に奉職いたしております。<br><br>この連合会は主として農家の生産する農産物の集荷販売と、これを収穫するに必要な肥料、飼料、農薬、農機具の卸売りを業（なりわい）としていますが、自然栽培に関する明主様の御論文や信者の文献を拝見するにつけ、この職場に勤めるのが苦痛となってまいりました。<br><br>私の行くべき道について御教示をお願い申し上げます。<br><br> （御垂示） 苦痛ならやめたほうがいいが、知らなければやむを得ないとしても、肥料の害を知った以上、一日も早く転業したほうがいいのである。<br><br> （お伺） 終戦後農村の経済機関としての農業会が農業協同組合に改組されましたが、本教の否とする肥料、農薬を扱い、これが収入の大半を占めております。<br><br>将来の運営はいかになりましょうか、お伺い申し上げます。<br><br> （御垂示） 肥料の害が分かるにつれて、機構も変わるのは勿論だが、そうなるまでにはまだそうとうの時を要するであろう。<br><br> （お伺） 温泉に長時間たびたび入湯すると、俗に湯中毒が生じますが、これは浄化を促進する現象でございましょうか、お伺い申し上げます。<br><br> （御垂示） 浄化促進ではない、かえって浄化停止である。<br><br>温泉の湯によっては硫黄分が多い場合、皮膚から浸透して新陳代謝を停止することと、病人などはそれによって浄化作用を極度に停止するので、中毒や人によっては生命までも危うくなることがある。<br><br>特に疥癬のとき、硫黄分の多い温泉に入ると、湿疹を一時停めるので内攻し、死ぬ人がよくあるから注意すべきで、ふつうまず一日二回くらいを限度とすれば間違いはない。<br><br> （お伺） 私は十三年前、円導一心会と称する宗教団体によって仏に帰依し、本年八月本教に入信まで、その説くところの「南無阿弥陀仏」で仏前回向（えこう）、日想観（太陽に向かい合掌瞑目し「南無阿弥陀仏」を十遍唱え、呼気して徐々に開眼し、太陽をみつめるとまばゆくなく、周辺一帯の空に黄金色を拝する）、水想観（日想観と大同小異）をしてまいりましたが、天津祝詞、善言讃詞で日月を拝することは支障ありませんでしょうか、お伺い申し上げます。<br><br> （御垂示） 拝むべき神様の祀ってない場合はそれでもいいが、本教では光明如来様をお祀りしてあるのだから、それを拝んでいればいいのである。<br><br>光明如来様は日と月の両方のお力を具えていられるからである。<br><br>だいたい、太陽を拝むのは原始人の自然崇拝のやり方であるから、今日の文化人としたら相応しないわけである。<br><br>廃（や）めたほうがいい、この人は御神書の読み方が足りないため、本教の本義が分からないからであるから、御神書をできるだけ読んで、身魂を磨くようにしなさい。<br><br> （お伺） 大船駅より見えます所に、露坐（ろざ）の大観音様が鎮座ましましておられますが、これにはなにか意味があるものでございましょうか、お伺い申し上げさせていただきます。<br><br> （御垂示） これは別段意味はない、だいたい観音様はいつも言う通り、青空の下ではいけない。<br><br>家の中へお祀りするのが本当だからで、また大きさもできるだけ小さいほうがいいのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Consultas e Orientações</h2>
 <p>Com a devida vênia, gostaria de apresentar minha consulta. Provenho de uma linhagem que antigamente detinha a posição de chefe de aldeia. Na propriedade de minha família, existe, desde tempos imemoriais, um majestoso caquizeiro, uma árvore de proporções tão notáveis — com um tronco de circunferência tão vasta que seriam necessários quatro homens para abraçá-lo e uma altura que o tornava visível a quilômetros de distância. Em seu tronco, a meia altura, havia uma cavidade de aproximadamente vinte centímetros, onde a água jamais se esgotava, mesmo nas mais severas estiagens. O local era constantemente habitado por duas serpentes de cerca de trinta centímetros. Certa vez, uma pessoa com dons mediúnicos, ao passar por ali, exclamou: “Oh, que serpente imensa!”. Segundo a tradição familiar, tratava-se do espírito guardião da propriedade.</p>
@@ -134,5 +286,48 @@ function toggleLang(lang) {
 <p>Da estação de Ofuna, avista-se uma grande imagem da Kannon (観音), em postura sentada e a céu aberto. Gostaria de saber se há algum significado especial nessa representação.</p>
 <p><strong>Orientação</strong></p>
 <p>Não há nenhum significado particular. Conforme sempre ensino, a imagem de Kannon (観音) não deve permanecer sob o céu aberto. O correto é que seja consagrada no interior de um recinto. Além disso, quanto menor for a imagem, melhor será.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 教えの光 『地上天国』30号、昭和26(1951)年11月25日発行 （お伺） 謹みてお伺い申し上げます。<br/><br/>私の家は昔庄屋と称え、そうとう古くから屋敷内に柿の大木がありまして、大人四人にて抱くくらい、幹太く、背丈も高く、一里半くらい遠くから見える大木で、その中間くらいの高い所に、六寸ないし七寸くらいの洞穴があり、その中に水の絶ゆることなく、いかに旱魃（かんばつ）厳しくとも水があり、常に一尺くらいの蛇が二匹棲み、ある神懸りの人が通り合わしたとき「オー、大きな蛇だ」と言ったこともあります。<br/><br/>言い伝えには「屋敷の地主」だと言っておりました。<br/><br/> いまから三十五年ほど前に、この柿の木を岐阜から買い手が来て、いよいよ木を伐ることになりました。<br/><br/>ちょうど二月ごろでしたが、伐ろうとすれば吹雪となり、三日間はどうしても伐れなかったのですが、無理やりに伐り倒したそうでございます。<br/><br/>この木を切ってから後、二番目の兄は頭が狂い、病院に入ってからも暴れるので、手足を縛っておいたりしましたが、トウトウ狂い死にしました。<br/><br/>三番目の兄も頭が悪くなり、ある日二階から転落し、頭が割れて死にました。<br/><br/> 最後に長兄は頭が狂いかけたとき、日蓮宗を信仰しました。<br/><br/>そのとき、「これは地主の祟りだから祀らねばいかぬ」と言われましたが、真宗の信仰に熱心な母はどうしても承知せず、やむなく大阪在住の私の姉が、遠く大阪より祈念し、拝んでおりましたところ、一カ月ほどで治りました（その兄も五年前、脳溢血で死亡いたしました）。<br/><br/> 柿の木を買い取った材木屋もだんだん家業は思わしくなく、落ちぶれたそうです。<br/><br/> 大阪の姉は大和三輪明神の信者であり、私も信仰しておりました。<br/><br/>「元柿の木にいた『地主』を祀らなければならん」と三輪講（みわこう）の行者（井上先生）を連行し、私宅にて、昭和十七年三月十五日に祀り込み、御霊鎮めの式をいたし、爾来、毎日家内中（私と子供三人）拝んでおりました。<br/><br/> その後、昭和二十年の一月か二月でした。<br/><br/>岩松先生と牧野先生が私の家においでになりました。<br/><br/>これがこの山奥の町に来られた最初でございます。<br/><br/>そうして尊き恵みにより昭和二十年三月入信、昭和二十四年四月光明如来様、屏風観音様御奉斎、昭和二十四年十月二十日大光明如来様御奉斎、入信以来不肖な私ですが、幾十人かのお導きをさせていただき、もっか教師の資格さえも付与され、実にもったいないことと存じております。<br/><br/> 大阪の姉夫婦も入信しており、本年五月七日、光明如来様を御奉斎させていただきました。<br/><br/> 姉夫婦も始め入信しておりましても、三輪様の信仰のほうが熱心でしたが、昨年秋よりだんだん本教に熱心となり、今日までに十五人ほどお導きさせていただきました。<br/><br/>前に三輪講の行者により地主の神を祀りし宮（大光明如来様の次の部屋）も毎月十五日教会の先生に来ていただき、天津祝詞を奏上、お祭りしておりましたが、その当時、上の先生から「大神様をお祀りしてあるのだから、祀らなくとも良い」と伺いましたので、昨年十月二十八日に良く御挨拶をしお祭りして宮じまいし、当地の氏神様にお預けしました。<br/><br/> しかし私も地主ということで、なんだか心残りがあり、大阪の姉は凄い反対でした。<br/><br/>最近また姉よりふたたび祀るよう催促あり、私宅もこのごろいろいろと事情の浄化（特に屋敷の問題）がありますので、いまになって考えるにヤハリ祀るべきではなかろうか、と思われてなりません。<br/><br/>ふたたび祀るべきでしょうか、それともそのままにしておくべきでしょうか、御垂示お願いいたします。<br/><br/> 住居の西南に池を造り、松を植えると良いと伺いましたので、本年七月に池のかわりに甕（かめ）を埋め、松をまわりに植えました。<br/><br/>もし祀るべきでしたら、左記の点につき御教示お願い申し上げます。<br/><br/> 一、祀るべき位置、および小さき祠（ほこら）でよいでしょうか。<br/><br/> 二、憑依すべき形はなににすべきでしょうか。<br/><br/> 三、その後の祭りはいかようにすべきでしょうか。<br/><br/> （御垂示） これは立派な龍神であって、ぜひ祀らなければいけない。<br/><br/>祀る位置は前を池にして、二尺ないし三尺くらいの高さに、天然石を積み重ね、その上にお宮（屋根は雨の滲みないよう銅板を張る）を安置し、御神体は檜、剣尖形に造り、何々明神と書けばよろしい。<br/><br/>大きさはその場所にちょうどいいくらいにする。<br/><br/>向きは光明如来様のほうへ対うようにする。<br/><br/>お祭りは毎月、月並祭の後、光明如来様よりも簡単に、お祭りすればいい。<br/><br/>お供えものは生米、塩、お水、その他魚、野菜、乾物など、見計らって、お献げすればいい。<br/><br/> お名前は、光明如来様にお願いすると、心に浮かぶからそれでよろしい。<br/><br/> （お伺） （一）私は県農業協同組合連合会に奉職いたしております。<br/><br/>この連合会は主として農家の生産する農産物の集荷販売と、これを収穫するに必要な肥料、飼料、農薬、農機具の卸売りを業（なりわい）としていますが、自然栽培に関する明主様の御論文や信者の文献を拝見するにつけ、この職場に勤めるのが苦痛となってまいりました。<br/><br/>私の行くべき道について御教示をお願い申し上げます。<br/><br/> （御垂示） 苦痛ならやめたほうがいいが、知らなければやむを得ないとしても、肥料の害を知った以上、一日も早く転業したほうがいいのである。<br/><br/> （お伺） 終戦後農村の経済機関としての農業会が農業協同組合に改組されましたが、本教の否とする肥料、農薬を扱い、これが収入の大半を占めております。<br/><br/>将来の運営はいかになりましょうか、お伺い申し上げます。<br/><br/> （御垂示） 肥料の害が分かるにつれて、機構も変わるのは勿論だが、そうなるまでにはまだそうとうの時を要するであろう。<br/><br/> （お伺） 温泉に長時間たびたび入湯すると、俗に湯中毒が生じますが、これは浄化を促進する現象でございましょうか、お伺い申し上げます。<br/><br/> （御垂示） 浄化促進ではない、かえって浄化停止である。<br/><br/>温泉の湯によっては硫黄分が多い場合、皮膚から浸透して新陳代謝を停止することと、病人などはそれによって浄化作用を極度に停止するので、中毒や人によっては生命までも危うくなることがある。<br/><br/>特に疥癬のとき、硫黄分の多い温泉に入ると、湿疹を一時停めるので内攻し、死ぬ人がよくあるから注意すべきで、ふつうまず一日二回くらいを限度とすれば間違いはない。<br/><br/> （お伺） 私は十三年前、円導一心会と称する宗教団体によって仏に帰依し、本年八月本教に入信まで、その説くところの「南無阿弥陀仏」で仏前回向（えこう）、日想観（太陽に向かい合掌瞑目し「南無阿弥陀仏」を十遍唱え、呼気して徐々に開眼し、太陽をみつめるとまばゆくなく、周辺一帯の空に黄金色を拝する）、水想観（日想観と大同小異）をしてまいりましたが、天津祝詞、善言讃詞で日月を拝することは支障ありませんでしょうか、お伺い申し上げます。<br/><br/> （御垂示） 拝むべき神様の祀ってない場合はそれでもいいが、本教では光明如来様をお祀りしてあるのだから、それを拝んでいればいいのである。<br/><br/>光明如来様は日と月の両方のお力を具えていられるからである。<br/><br/>だいたい、太陽を拝むのは原始人の自然崇拝のやり方であるから、今日の文化人としたら相応しないわけである。<br/><br/>廃（や）めたほうがいい、この人は御神書の読み方が足りないため、本教の本義が分からないからであるから、御神書をできるだけ読んで、身魂を磨くようにしなさい。<br/><br/> （お伺） 大船駅より見えます所に、露坐（ろざ）の大観音様が鎮座ましましておられますが、これにはなにか意味があるものでございましょうか、お伺い申し上げさせていただきます。<br/><br/> （御垂示） これは別段意味はない、だいたい観音様はいつも言う通り、青空の下ではいけない。<br/><br/>家の中へお祀りするのが本当だからで、また大きさもできるだけ小さいほうがいいのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

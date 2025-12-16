@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s280107</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年1月7日） 『御教え集』18号、昭和28(1953)年2月15日発行 昭和二十八年一月七日 最初にちょっと注意したいことは、浄霊のやり方にどうもまだ力がはいるようなのです。<br><br>その力がはいるというのは「一生懸命」にやるからです。<br><br>この「一生懸命」がいけないのです。<br><br>しかも急病とか患者が苦しんでいる場合には早くなおしてやろうとしてよけいに一生懸命になるから、かえって効かなくなるのです。<br><br>だから患者が苦しんでいる時や、早くなおしてやりたいという時ほど「一生懸命」になってはいけないのです。<br><br>神様のことは反対が多いのですから、できるだけ軽く、まるで人ごとのような気持ちでやることです。<br><br>というのは、光が御守りから手を通って出る場合に、ここ（掌）で一生懸命になると、そこでつかえてしまうのです。<br><br>掌はなんでもなく気がはいらないと、この光がずっと通るのです。<br><br>私は浄霊する場合には「なおしてあげよう、曇りを取ってあげよう」という気持ちはありますが、手の方は「ええい、かわいそうだからやってやろう」というような至極不真面目といえば言えますが、そういう気持ちでやってます。<br><br>またその方がよく効くのです。<br><br>ですからそれを忘れないようにしてやることです。<br><br>まあ、なんでもないことをしているという気持ちです。<br><br>それを忘れないようにしてやることです。<br><br>よく御守護の電報が来ますが、なんでもなくなおるようなことを電報で来るのです。<br><br>というのは、浄霊の効きが悪いからなのです。<br><br>悪いということは力がはいるのです。<br><br>それは長くからやっている人と最近の人との違いさはありますが、大体今言ったような点が一番ですから、ちょっと注意しておきます。<br><br> それからだんだん浄化が強くなるために、信者の人は非常に浄化が強いのですが、これが一般になってくると、それこそたいへんなのです。<br><br>それを世の中の人にできるだけ早く知らせようと思って、今度『アメリカを救う』の本を出しましたが、まだまだあんなことではとても分かるわけにはいかないので、今度書き始めたのは、ごく徹底したもので、これを読んだら分からないはずはないというように徹底して書いてあります。<br><br>以前書いた『明日の医術』その次の『天国の福音』と、書くには書きましたが、なにしろあの当時は今日と違って言論の自由はないし、教団の方もごく微々たるもので、頭から軽蔑してますから、あんまり徹底して書くとかえって反対にとられる憂いもありますから、いい加減にぼかしたりしていたのですが、今日はそういう必要もなくなったから、どこまでも突っ込んで、どこまでも徹底して書きます。<br><br>その「序文」とその次のができましたから今読ませます。<br><br>そうして付録として『栄光』に出ている私が批評を加えたお蔭話が七、八十たまりましたから、それを百例にして付録として添えますから、論文も徹底して、またその実例を読めば、分からないはずはないというわけです。<br><br> （御論文『医学革命の書』「序文」「二、医学は迷信なり」） 次は『地上天国』の論文に書いたものです。<br><br> （御論文「薬が不幸を作る」）【地上天国 四十四号】 今読んだようにあらゆる不幸とか悩みというものの原因は薬なのです。<br><br>ですから薬というものをなくすればミロクの世ができるのです。<br><br>だから薬をなくすことは、つまり一般人が本当のことを分からなければならないのですが、これがたいへんなのです。<br><br>こういうような本を読ませるべくだんだん世界的に運動するわけですが、その結果もし分かってきたら、分かるに従って大問題になるだろうと思います。<br><br>これはおそらく見物だと思います。<br><br>仮に日本としても、「なるほど医学はとんでもない代物だ。<br><br>これは絶対禁止しなければならない。<br><br>薬というものはたいへんな毒だから、これもなくさなければならない」ということになると、それに関係した人は失業しなければならない。<br><br>そうかといって分かった以上はそれを擁護することはできない。<br><br>ではどうすればいいかということになる。<br><br>つまり岡田の説を用いなければならないということになる。<br><br>それでおまけにこれからだんだん浄化が強くなるに従って一般人に浄化が起ってきて、それはあっちもこっちも病人だらけで、片っぱしから人が死ぬという時代になったら、それもなんとかしなければならないというので、ここで政府が非常な問題にぶつかると思います。<br><br>そればかりでなく、今年からだんだんアメリカの方にもそういう宣伝をしますが、しかしその点はアメリカ人の方が分かりが早いですから、アメリカの方でも大問題になるだろうと思います。<br><br>そうするとヨーロッパの方にも響いて行くということになります。<br><br>ですから将来は世界的に医学や薬を廃止する、ぜんぜんなくするというところまで行くに決まってます。<br><br>おそらく今までに例のない問題ですから、たいへんな時代になるだろうと思ってます。<br><br>しかしどうしてもそうしなければ人類を救うということはできないし、また神様は百も承知でやられているのですから、いずれはこっちが勝つに決まってますが、それまでのいろいろなことは見物だろうと思います。<br><br>それもそう長くはないだろうと思います。<br><br>神様はちゃんとそういうように分からせることと、また分からなければならないような情勢にしますから、どんな大きな問題になってもべつに驚くことはありませんが、ただちょっと想像もつかないほどの事態になると思います。<br><br> 今ここに書いているほかのことは、悪の発生ですが、これはキリスト教の方などでは、『旧約聖書』の創世記にある「エデンの園におけるアダムとイブが禁断の木の実を食べた。<br><br>それで禁断の木の実を食べると悪が発生する」と書いてありますが、禁断の木の実というのは薬のことなのです。<br><br>それでその時分は薬をのまなかったために世の中はエデンの園のような楽園だったのです。<br><br>それで禁断の木の実によって悪を発生させて地獄の世にされたのです。<br><br>それによって今日のような物質文化が発達したので、これは神様の経綸であって、それは必要だったのです。<br><br>それで薬のない時代のエデンの園というと、ミロクの世と同じようなもので、まあミロクの世です。<br><br>その時分は文化というものはぜんぜんなかった原始的なミロクの世だったのです。<br><br>しかし今度は悪の発生によってこれだけの文化をつくって、そうしてもうこれだけになれば、あとは必要ない、むしろあとは邪魔になるから、悪をなくすということについては、薬をなくすということです。<br><br>そこで薬をなくすれば病人がなくなり悪もなくなりますから、そこで今度は絢爛たる文化によるミロクの世ができるのです。<br><br>つまりエデンの園ができるのです。<br><br>そういうように考えるとよく分かります。<br><br>それでこれは難しい理屈ではなく、薬で血を濁しますから、血が濁れば霊が曇りますから、霊が曇れば副守護神の力が増すからして、副守護神というやつは悪いことをするのが本来ですから、それで悪いことをさせるというわけです。<br><br>難しいことはないので、簡単に分かります。<br><br>おもしろいことは、私が前に浄霊していた時に狐などが出てきてこういうことを言うのです。<br><br>「せっかくオレが医者にかけて、これだけに悪くしたのに、横から出てきてとうとう助けてしまった。<br><br>随分薬をのまして、やっとこれまでに悪くして、もう一息で命を取るまでになったのを、横から出てきて助けた」と怒るのです。<br><br>ですから彼らは薬で悪くして結局命を取るということをよく知っているのです。<br><br>それは人間はとてもかないません。<br><br>むしろ人間以上です。<br><br>私はむしろ狐から薬毒を教えられたくらいです。<br><br>自分自身でも分かりましたが、医学を狐が利用しているということが分かったわけです。<br><br>そうしてみると狐がその人間を殺そうとする場合には、やはり彼ら恨みの霊というものが、なにか仇を討つという場合に、狐がその人の副守護神に命令されたり、またはそこの祖先が稲荷を信仰したとか、またその人が稲荷を信仰したいという意思を知って、その狐が相手に働きかけるのです。<br><br>そうするとその場合に医者にかけるのです。<br><br>できるだけいい医者にかかって、できるだけいい薬をのむのです。<br><br>むしろかえって大きな病院やいい薬を、ということに狐は働くのです。<br><br>その方が悪くするには効果的なのです。<br><br>大病院というのは、やり方が大胆で思いきってやりますから、悪くするのも思いきって悪くします。<br><br>それで町にいる藪医者というのは、オッカナビックリしながらやります。<br><br>手術でも、あんまりひどい手術はしないというのですから、被害は少ないのです。<br><br>ですから大病院でなおらなくて、町医者でなおったということを聞きますが、つまり藪ほど間違いないというわけです。<br><br>それでまた薬をのませると霊が曇るからして、奴さんはよけい働きよくなるのです。<br><br>つまり医学を利用しているのは、そういう動物霊というわけです。<br><br> そこで悪の世界というものは薬がつくったものです。<br><br>無論今読んだのは、薬が不幸をつくるというのですが、不幸というのは悪のためですから、人間界から悪をとれば不幸というものはなくなってしまいます。<br><br>だから病気で苦しむために不幸になるというので、その病気をつくるのは薬ですから、薬というものはそのくらい恐ろしいのです。<br><br>ところがその薬をいいもののように人間は長い間教育されているので、ちょっとやそっとではなかなか分からないのです。<br><br>救世教信者になれば信じられますが、ふつうの人に言ってもなかなか信じられないので、そこに骨が折れる点があるのです。<br><br>ですから結局薬の害を知らせることが根本なのです。<br><br>結局いろんな面から書きますが、元はと言えば薬毒の害になるのですから、それを分からせるということです。<br><br> 私は昨日から歯が痛くて少し腫れてますが、これは歯の肉に固まりがあって、それが溶けてきたのです。<br><br>この歯の薬の固まりですが、この薬が今年で三十七年になります。<br><br>三十七年たっても、今もってなくならないというのは、固まってしまうのです。<br><br>ですから新しい信者の人などがかなり浄化して出たので、もう薬毒はなくなっただろうと思うと、あに計らんやこれからです。<br><br>二十年も三十年も前にのんだ薬などは、もうなくなっているだろうと思うと、どうしてどうしてなかなかです。<br><br>固まっているからですが、それが順に溶けていくのです。<br><br>ですから一生涯なくなるということはないでしょう。<br><br>私は三十七年前のを毎日浄霊してます。<br><br>それから横腹と背中の間に固まりがありますが、これは肋膜の時の水が残っていたのが固まっているのです。<br><br>それに薬毒もありますが、これはちょうど五十年前のがまだあるのです。<br><br>それは固まってしまうからです。<br><br>それでいつまでたっても取れないのです。<br><br>それで誰でも浄霊によって、やっと溶け始めて出るのですから、たいへんなものです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Essência do Johrei e a Origem dos Males</h2>
 <p>Inicialmente, gostaria de fazer uma advertência sobre a prática do Johrei. Tenho observado que muitos ainda aplicam força ao ministrar, o que decorre de um empenho excessivo em sua execução. É justamente esse “empenho excessivo” que se revela prejudicial. Em casos de doenças súbitas ou quando o enfermo se encontra em grande sofrimento, a ansiedade de proporcionar uma cura rápida intensifica essa tensão, resultando, paradoxalmente, em uma diminuição da eficácia.</p>
@@ -108,5 +260,48 @@ function toggleLang(lang) {
 <p>Quando um espírito de raposa decide matar uma pessoa, ele age, muitas vezes, sob as ordens de um espírito de rancor que busca vingança, ou quando um ancestral da vítima venerava a divindade Inari, ou ainda quando a própria pessoa manifesta interesse por essa crença. A raposa, então, começa a influenciar o indivíduo, e o primeiro passo é induzi-lo a procurar um médico. E ela o guiará ao melhor médico possível, para que lhe sejam prescritos os remédios mais potentes. Surpreendentemente, os grandes hospitais e os medicamentos de renome são as ferramentas preferidas desses espíritos, pois são mais eficazes para agravar a condição do doente. Os grandes hospitais adotam procedimentos mais audaciosos e drásticos, o que potencializa os danos. Em contrapartida, um médico de vilarejo age com mais cautela e receio, evitando procedimentos muito invasivos, o que resulta em menos prejuízos. Por isso, ouvimos casos de pessoas que não obtiveram cura em grandes hospitais, mas a encontraram com um médico interiorano. Quanto menos qualificado o médico, mais seguro o paciente está. Ao fazer com que a pessoa ingira remédios, o espírito dela se nubla, facilitando ainda mais a atuação dessas entidades. Fica claro, portanto, que são os espíritos de animais que se utilizam da medicina.</p>
 <p>O mundo do mal, com efeito, foi construído pelos medicamentos. O artigo que mencionei afirma que “o remédio gera a infelicidade”, e isso ocorre porque a infelicidade é produto do mal. Se eliminarmos o mal do mundo humano, a infelicidade deixará de existir. O sofrimento causado pelas doenças nos torna infelizes, e o que cria a doença são os remédios. Eis a terrível natureza dessas substâncias. O grande problema é que a humanidade foi educada por tanto tempo a acreditar que os remédios são benéficos, que não é fácil fazê-la compreender a verdade. Para os fiéis da nossa Igreja, é algo em que se pode crer, mas para as pessoas comuns, é uma verdade difícil de aceitar. Aí reside a nossa maior dificuldade. Em suma, nossa missão fundamental é esclarecer sobre os malefícios do <em>yakudoku</em>. Embora eu escreva sob diversas perspectivas, a raiz de tudo é o dano causado pelos venenos medicinais. É isso que precisamos fazer o mundo entender.</p>
 <p>Desde ontem, estou com uma dor de dente e um leve inchaço. Trata-se da dissolução de um nódulo de toxinas na minha gengiva. Esse nódulo é formado por medicamentos que tomei há trinta e sete anos. Mesmo após todo esse tempo, ele ainda não desapareceu completamente, pois a toxina se solidifica. Por isso, quando um novo membro passa por uma purificação considerável e pensa que já eliminou todo o <em>yakudoku</em>, mal sabe ele que o processo está apenas começando. Muitos acreditam que os remédios tomados há vinte ou trinta anos já foram expelidos, mas estão redondamente enganados. Eles permanecem no corpo, cristalizados, e se dissolvem gradualmente. É provável que nunca nos livremos completamente deles ao longo da vida. Eu mesmo ministro Johrei diariamente nesse resíduo de trinta e sete anos. Tenho também um nódulo entre a costela e as costas, que é um resquício solidificado de líquido de uma pleurisia, acumulado com veneno medicamentoso. Isso data de exatos cinquenta anos atrás e ainda está aqui, pois se cristalizou. É por essa razão que as toxinas não desaparecem. Somente através do Johrei elas começam, finalmente, a se dissolver e a serem expelidas. É um processo verdadeiramente monumental.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年1月7日） 『御教え集』18号、昭和28(1953)年2月15日発行 昭和二十八年一月七日 最初にちょっと注意したいことは、浄霊のやり方にどうもまだ力がはいるようなのです。<br/><br/>その力がはいるというのは「一生懸命」にやるからです。<br/><br/>この「一生懸命」がいけないのです。<br/><br/>しかも急病とか患者が苦しんでいる場合には早くなおしてやろうとしてよけいに一生懸命になるから、かえって効かなくなるのです。<br/><br/>だから患者が苦しんでいる時や、早くなおしてやりたいという時ほど「一生懸命」になってはいけないのです。<br/><br/>神様のことは反対が多いのですから、できるだけ軽く、まるで人ごとのような気持ちでやることです。<br/><br/>というのは、光が御守りから手を通って出る場合に、ここ（掌）で一生懸命になると、そこでつかえてしまうのです。<br/><br/>掌はなんでもなく気がはいらないと、この光がずっと通るのです。<br/><br/>私は浄霊する場合には「なおしてあげよう、曇りを取ってあげよう」という気持ちはありますが、手の方は「ええい、かわいそうだからやってやろう」というような至極不真面目といえば言えますが、そういう気持ちでやってます。<br/><br/>またその方がよく効くのです。<br/><br/>ですからそれを忘れないようにしてやることです。<br/><br/>まあ、なんでもないことをしているという気持ちです。<br/><br/>それを忘れないようにしてやることです。<br/><br/>よく御守護の電報が来ますが、なんでもなくなおるようなことを電報で来るのです。<br/><br/>というのは、浄霊の効きが悪いからなのです。<br/><br/>悪いということは力がはいるのです。<br/><br/>それは長くからやっている人と最近の人との違いさはありますが、大体今言ったような点が一番ですから、ちょっと注意しておきます。<br/><br/> それからだんだん浄化が強くなるために、信者の人は非常に浄化が強いのですが、これが一般になってくると、それこそたいへんなのです。<br/><br/>それを世の中の人にできるだけ早く知らせようと思って、今度『アメリカを救う』の本を出しましたが、まだまだあんなことではとても分かるわけにはいかないので、今度書き始めたのは、ごく徹底したもので、これを読んだら分からないはずはないというように徹底して書いてあります。<br/><br/>以前書いた『明日の医術』その次の『天国の福音』と、書くには書きましたが、なにしろあの当時は今日と違って言論の自由はないし、教団の方もごく微々たるもので、頭から軽蔑してますから、あんまり徹底して書くとかえって反対にとられる憂いもありますから、いい加減にぼかしたりしていたのですが、今日はそういう必要もなくなったから、どこまでも突っ込んで、どこまでも徹底して書きます。<br/><br/>その「序文」とその次のができましたから今読ませます。<br/><br/>そうして付録として『栄光』に出ている私が批評を加えたお蔭話が七、八十たまりましたから、それを百例にして付録として添えますから、論文も徹底して、またその実例を読めば、分からないはずはないというわけです。<br/><br/> （御論文『医学革命の書』「序文」「二、医学は迷信なり」） 次は『地上天国』の論文に書いたものです。<br/><br/> （御論文「薬が不幸を作る」）【地上天国 四十四号】 今読んだようにあらゆる不幸とか悩みというものの原因は薬なのです。<br/><br/>ですから薬というものをなくすればミロクの世ができるのです。<br/><br/>だから薬をなくすことは、つまり一般人が本当のことを分からなければならないのですが、これがたいへんなのです。<br/><br/>こういうような本を読ませるべくだんだん世界的に運動するわけですが、その結果もし分かってきたら、分かるに従って大問題になるだろうと思います。<br/><br/>これはおそらく見物だと思います。<br/><br/>仮に日本としても、「なるほど医学はとんでもない代物だ。<br/><br/>これは絶対禁止しなければならない。<br/><br/>薬というものはたいへんな毒だから、これもなくさなければならない」ということになると、それに関係した人は失業しなければならない。<br/><br/>そうかといって分かった以上はそれを擁護することはできない。<br/><br/>ではどうすればいいかということになる。<br/><br/>つまり岡田の説を用いなければならないということになる。<br/><br/>それでおまけにこれからだんだん浄化が強くなるに従って一般人に浄化が起ってきて、それはあっちもこっちも病人だらけで、片っぱしから人が死ぬという時代になったら、それもなんとかしなければならないというので、ここで政府が非常な問題にぶつかると思います。<br/><br/>そればかりでなく、今年からだんだんアメリカの方にもそういう宣伝をしますが、しかしその点はアメリカ人の方が分かりが早いですから、アメリカの方でも大問題になるだろうと思います。<br/><br/>そうするとヨーロッパの方にも響いて行くということになります。<br/><br/>ですから将来は世界的に医学や薬を廃止する、ぜんぜんなくするというところまで行くに決まってます。<br/><br/>おそらく今までに例のない問題ですから、たいへんな時代になるだろうと思ってます。<br/><br/>しかしどうしてもそうしなければ人類を救うということはできないし、また神様は百も承知でやられているのですから、いずれはこっちが勝つに決まってますが、それまでのいろいろなことは見物だろうと思います。<br/><br/>それもそう長くはないだろうと思います。<br/><br/>神様はちゃんとそういうように分からせることと、また分からなければならないような情勢にしますから、どんな大きな問題になってもべつに驚くことはありませんが、ただちょっと想像もつかないほどの事態になると思います。<br/><br/> 今ここに書いているほかのことは、悪の発生ですが、これはキリスト教の方などでは、『旧約聖書』の創世記にある「エデンの園におけるアダムとイブが禁断の木の実を食べた。<br/><br/>それで禁断の木の実を食べると悪が発生する」と書いてありますが、禁断の木の実というのは薬のことなのです。<br/><br/>それでその時分は薬をのまなかったために世の中はエデンの園のような楽園だったのです。<br/><br/>それで禁断の木の実によって悪を発生させて地獄の世にされたのです。<br/><br/>それによって今日のような物質文化が発達したので、これは神様の経綸であって、それは必要だったのです。<br/><br/>それで薬のない時代のエデンの園というと、ミロクの世と同じようなもので、まあミロクの世です。<br/><br/>その時分は文化というものはぜんぜんなかった原始的なミロクの世だったのです。<br/><br/>しかし今度は悪の発生によってこれだけの文化をつくって、そうしてもうこれだけになれば、あとは必要ない、むしろあとは邪魔になるから、悪をなくすということについては、薬をなくすということです。<br/><br/>そこで薬をなくすれば病人がなくなり悪もなくなりますから、そこで今度は絢爛たる文化によるミロクの世ができるのです。<br/><br/>つまりエデンの園ができるのです。<br/><br/>そういうように考えるとよく分かります。<br/><br/>それでこれは難しい理屈ではなく、薬で血を濁しますから、血が濁れば霊が曇りますから、霊が曇れば副守護神の力が増すからして、副守護神というやつは悪いことをするのが本来ですから、それで悪いことをさせるというわけです。<br/><br/>難しいことはないので、簡単に分かります。<br/><br/>おもしろいことは、私が前に浄霊していた時に狐などが出てきてこういうことを言うのです。<br/><br/>「せっかくオレが医者にかけて、これだけに悪くしたのに、横から出てきてとうとう助けてしまった。<br/><br/>随分薬をのまして、やっとこれまでに悪くして、もう一息で命を取るまでになったのを、横から出てきて助けた」と怒るのです。<br/><br/>ですから彼らは薬で悪くして結局命を取るということをよく知っているのです。<br/><br/>それは人間はとてもかないません。<br/><br/>むしろ人間以上です。<br/><br/>私はむしろ狐から薬毒を教えられたくらいです。<br/><br/>自分自身でも分かりましたが、医学を狐が利用しているということが分かったわけです。<br/><br/>そうしてみると狐がその人間を殺そうとする場合には、やはり彼ら恨みの霊というものが、なにか仇を討つという場合に、狐がその人の副守護神に命令されたり、またはそこの祖先が稲荷を信仰したとか、またその人が稲荷を信仰したいという意思を知って、その狐が相手に働きかけるのです。<br/><br/>そうするとその場合に医者にかけるのです。<br/><br/>できるだけいい医者にかかって、できるだけいい薬をのむのです。<br/><br/>むしろかえって大きな病院やいい薬を、ということに狐は働くのです。<br/><br/>その方が悪くするには効果的なのです。<br/><br/>大病院というのは、やり方が大胆で思いきってやりますから、悪くするのも思いきって悪くします。<br/><br/>それで町にいる藪医者というのは、オッカナビックリしながらやります。<br/><br/>手術でも、あんまりひどい手術はしないというのですから、被害は少ないのです。<br/><br/>ですから大病院でなおらなくて、町医者でなおったということを聞きますが、つまり藪ほど間違いないというわけです。<br/><br/>それでまた薬をのませると霊が曇るからして、奴さんはよけい働きよくなるのです。<br/><br/>つまり医学を利用しているのは、そういう動物霊というわけです。<br/><br/> そこで悪の世界というものは薬がつくったものです。<br/><br/>無論今読んだのは、薬が不幸をつくるというのですが、不幸というのは悪のためですから、人間界から悪をとれば不幸というものはなくなってしまいます。<br/><br/>だから病気で苦しむために不幸になるというので、その病気をつくるのは薬ですから、薬というものはそのくらい恐ろしいのです。<br/><br/>ところがその薬をいいもののように人間は長い間教育されているので、ちょっとやそっとではなかなか分からないのです。<br/><br/>救世教信者になれば信じられますが、ふつうの人に言ってもなかなか信じられないので、そこに骨が折れる点があるのです。<br/><br/>ですから結局薬の害を知らせることが根本なのです。<br/><br/>結局いろんな面から書きますが、元はと言えば薬毒の害になるのですから、それを分からせるということです。<br/><br/> 私は昨日から歯が痛くて少し腫れてますが、これは歯の肉に固まりがあって、それが溶けてきたのです。<br/><br/>この歯の薬の固まりですが、この薬が今年で三十七年になります。<br/><br/>三十七年たっても、今もってなくならないというのは、固まってしまうのです。<br/><br/>ですから新しい信者の人などがかなり浄化して出たので、もう薬毒はなくなっただろうと思うと、あに計らんやこれからです。<br/><br/>二十年も三十年も前にのんだ薬などは、もうなくなっているだろうと思うと、どうしてどうしてなかなかです。<br/><br/>固まっているからですが、それが順に溶けていくのです。<br/><br/>ですから一生涯なくなるということはないでしょう。<br/><br/>私は三十七年前のを毎日浄霊してます。<br/><br/>それから横腹と背中の間に固まりがありますが、これは肋膜の時の水が残っていたのが固まっているのです。<br/><br/>それに薬毒もありますが、これはちょうど五十年前のがまだあるのです。<br/><br/>それは固まってしまうからです。<br/><br/>それでいつまでたっても取れないのです。<br/><br/>それで誰でも浄霊によって、やっと溶け始めて出るのですから、たいへんなものです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

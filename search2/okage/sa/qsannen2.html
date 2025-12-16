@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qsannen2</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 三年間の療養生活から救わる 自観叢書第1篇『結核と神霊療法』昭和24(1949)年6月25日発行 岐阜県 日本五六七教大光会 教師補 後藤 明（28） 私は幼少時代から跣（はだし）で庭へ下りることすらさせられなかった位温室育ちの人間でありました。<br><br>一つの嚔（クシャミ）でもすぐ隣りのお医者様へというような具合でした。<br><br> 中学五年迄は少しも浄化しない位ですから、今から思うと随分毒が塊っていたのでしょう。<br><br>ところがやがて中学校を終え、上級学校への徹夜の試験勉強のため遂にドット病床に斃れる身となりました。<br><br>四十度を越す高熱、心臓の鼓動の激しさ、今にも息の止まるような苦痛、隣の医師は心臓が悪いと言いました。<br><br>その晩は冷すやら、あれやこれやと大騒動でした。<br><br>翌日他の医者に診ていただくと、何と今度は湿性肋膜炎に早がわりしているではありませんか。<br><br> 鳴呼遂に来るべきものが来た、もう俺は駄目だとあらゆる結核患者が悉く受ける死の宣告を自分もまた同じように宣告され、意気消沈して終いました。<br><br>それからの永い療養生活の間、いかに手をつくすとも衰弱する一方でとうとう棺桶に両足を突っ込み、首だけ出して今はただ死を待つばかりのようでした。<br><br> それからの病状は一進一退の長い長い闘病生活が続きました。<br><br>全く生ける屍とは自分のことでした。<br><br>以来三年間、自分の療養生活は全く忠実無比なる療養道の遵法者で一切の民間療法を片端から実行してゆきました。<br><br> 勿論、医学絶対崇拝者で他の病理上の問題や医者が診断する色々な病状用式までも殆ど覚え込んだ程です。<br><br>そして簡単な医療器具や医薬品など、二十種類を茶箪笥に並べて安心をしていました。<br><br>このようにして徹底的に浄化停止をして終いました。<br><br> それから昭和二十年も明けて一月十八日のことでした。<br><br>鳴呼、思えばその日もたらされた音信が貴き観世音菩薩の最後の救いでした。<br><br>今五六七教教師Ｎ先生（当時は一軍需工場の会社員）からお便りをいただき、そのお話を聞いてから自分は必ず助かる、きっと救われると一日二日と全く首を長くしてお待ちしました。<br><br>二月二十五日その方がわざわざお越しになり、過去一切の観念の全然間違っていることを一晩中夜の明けるのも忘れて諄々諭され、全く心気一転こうすれば治るという確かな信念を得て前途は光明に輝き始め、希望は私の全身に溢れました。<br><br> 私の感激はいかばかりでしたでしょう。<br><br>到底同様になやむ人でなくてはこの気持は知ることは出来ないと思います。<br><br>その翌日からの生活は全く別人のごとく変りました。<br><br>三年間は戸棚の上の物を取るにも肋膜が破れるからと言って絶対手を上げることすらしませんでしたのに、風呂水を汲むやら百姓の鍬を振り上げるやら、極端な私の動作に全く家族の者にも気狂だと笑われました。<br><br> 鳴呼何という不思議なことでしょう。<br><br>こんな事をすれば当然今までの常識で考えれば病気が治るどころか即死してもよいと思われるような無茶苦茶な振舞いでした。<br><br>それなのに日々健康は増進し、見違えるようになりました。<br><br>ああ奇蹟とはこれをいうのでありましょう。<br><br>再びこの世に生きる希望を見出し、歓喜の泣笑いに頬を濡す、又大先生のお書きになった論文を拝読して現界霊界の区別あるを知り、人間最大の苦しみである死の恐怖から脱がれ、人類史創って以来いかなる聖賢君子哲人も説き得なかった人間の使命又神の御恵に全く感涙致しました。<br><br> 早速当日は講習会後御守を頂き、その時今の五六七教管長先生の御講話を拝聴して、勇気百倍家へ帰り当時は治療時代だったのでその実際的効果にとりかかりました。<br><br>それからの毎日は明けても暮れても浄霊に専念、その治病力の偉大さを自ら体験し朝から晩まで、寝食も忘れてやらせて頂きました。<br><br> 続々押し寄せる患者の起死回生の喜び。<br><br>又私の喜びであります。<br><br>それから三カ月目に第一回の講習会を自宅で開かせて頂きました。<br><br>三十数名の御守拝受の歓喜に溢れた顔は、生涯忘れることは出来ません。<br><br>実に人間生命の尊さを初めて知りました。<br><br>それからは毎日の何と早かったことでしょう。<br><br>今月も来月もその翌月も講習に暮れ、遂に終戦の八月十五日が参りました。<br><br>私達一家は挙ってこの貴き人類救済の御仕事であることを知らして頂き、一層の拍車をかけ邁進させて頂ける幸せを頂きました。<br><br> その間、親戚や縁故者の早く足を洗えとまるで犯罪でも犯しているかのような、近所の人々の邪推と罵言に悩み、ある時は何かの陰謀と官憲の圧迫に妨害され、言論機関即ち新聞の救われたる多数の人の事実を隠しやむを得ず寿命がつきて死んだ、極く少数の人を材料としての悪口の誇大宣伝に。<br><br>又最近の雑誌におけるごとく（それは余りにも真相を暴露すると言う記事が真相を伝えてない）あるいは金儲けのために捏ち上げた、小説等々実に試練の連続でした。<br><br> 顧りみれば今は、隔世の感ありである。<br><br>時は移り変り観音様の信者は全国に拡り、十数万にも達し、これら信者全部が全部救われた、喜びの人々である事実がどうして認識されないはずがありましょうか。<br><br> 吾等はこの喜びを未だ御存知なき、日本の皆様に知って頂くべくただ邁進あるのみです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A salvação após três anos de convalescença</h2>
 <p>-- Coletânea de Ensaios do Reverendo Okada Jikan --
@@ -108,5 +263,48 @@ Professor Assistente, Goto Akira (28 anos)</p>
 <p>Durante esse período, enfrentamos uma sucessão de provações. Padecemos com as calúnias e a maledicência da vizinhança, que nos tratava como se fôssemos criminosos, enquanto parentes e conhecidos insistiam para que abandonássemos o caminho. Por vezes, fomos obstruídos pela pressão das autoridades, que suspeitavam de alguma conspiração. Tivemos de lidar com a propaganda difamatória da imprensa, que ocultava os fatos sobre as inúmeras pessoas salvas para, em contrapartida, explorar os raríssimos casos daqueles que, inevitavelmente, faleceram ao término de sua vida. Recentemente, deparamo-nos também com artigos em revistas que, a pretexto de revelar a verdade, a distorcem completamente, além de romances fantasiosos criados com o único intuito de lucro. Foi, em suma, uma contínua sequência de provações.</p>
 <p>Ao olhar para trás, tenho a sensação de que vivemos em outra era. O tempo passou, e os fiéis de Kannon (観音) se espalharam por todo o país, chegando a mais de cem mil pessoas. Como poderia não ser reconhecido o fato de que todos esses fiéis são pessoas que foram salvas e que transbordam de alegria?</p>
 <p>A nós, cabe apenas seguir em frente, com o propósito de levar esta alegria a todos os japoneses que ainda não a conhecem.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 三年間の療養生活から救わる 自観叢書第1篇『結核と神霊療法』昭和24(1949)年6月25日発行 岐阜県 日本五六七教大光会 教師補 後藤 明（28） 私は幼少時代から跣（はだし）で庭へ下りることすらさせられなかった位温室育ちの人間でありました。<br/><br/>一つの嚔（クシャミ）でもすぐ隣りのお医者様へというような具合でした。<br/><br/> 中学五年迄は少しも浄化しない位ですから、今から思うと随分毒が塊っていたのでしょう。<br/><br/>ところがやがて中学校を終え、上級学校への徹夜の試験勉強のため遂にドット病床に斃れる身となりました。<br/><br/>四十度を越す高熱、心臓の鼓動の激しさ、今にも息の止まるような苦痛、隣の医師は心臓が悪いと言いました。<br/><br/>その晩は冷すやら、あれやこれやと大騒動でした。<br/><br/>翌日他の医者に診ていただくと、何と今度は湿性肋膜炎に早がわりしているではありませんか。<br/><br/> 鳴呼遂に来るべきものが来た、もう俺は駄目だとあらゆる結核患者が悉く受ける死の宣告を自分もまた同じように宣告され、意気消沈して終いました。<br/><br/>それからの永い療養生活の間、いかに手をつくすとも衰弱する一方でとうとう棺桶に両足を突っ込み、首だけ出して今はただ死を待つばかりのようでした。<br/><br/> それからの病状は一進一退の長い長い闘病生活が続きました。<br/><br/>全く生ける屍とは自分のことでした。<br/><br/>以来三年間、自分の療養生活は全く忠実無比なる療養道の遵法者で一切の民間療法を片端から実行してゆきました。<br/><br/> 勿論、医学絶対崇拝者で他の病理上の問題や医者が診断する色々な病状用式までも殆ど覚え込んだ程です。<br/><br/>そして簡単な医療器具や医薬品など、二十種類を茶箪笥に並べて安心をしていました。<br/><br/>このようにして徹底的に浄化停止をして終いました。<br/><br/> それから昭和二十年も明けて一月十八日のことでした。<br/><br/>鳴呼、思えばその日もたらされた音信が貴き観世音菩薩の最後の救いでした。<br/><br/>今五六七教教師Ｎ先生（当時は一軍需工場の会社員）からお便りをいただき、そのお話を聞いてから自分は必ず助かる、きっと救われると一日二日と全く首を長くしてお待ちしました。<br/><br/>二月二十五日その方がわざわざお越しになり、過去一切の観念の全然間違っていることを一晩中夜の明けるのも忘れて諄々諭され、全く心気一転こうすれば治るという確かな信念を得て前途は光明に輝き始め、希望は私の全身に溢れました。<br/><br/> 私の感激はいかばかりでしたでしょう。<br/><br/>到底同様になやむ人でなくてはこの気持は知ることは出来ないと思います。<br/><br/>その翌日からの生活は全く別人のごとく変りました。<br/><br/>三年間は戸棚の上の物を取るにも肋膜が破れるからと言って絶対手を上げることすらしませんでしたのに、風呂水を汲むやら百姓の鍬を振り上げるやら、極端な私の動作に全く家族の者にも気狂だと笑われました。<br/><br/> 鳴呼何という不思議なことでしょう。<br/><br/>こんな事をすれば当然今までの常識で考えれば病気が治るどころか即死してもよいと思われるような無茶苦茶な振舞いでした。<br/><br/>それなのに日々健康は増進し、見違えるようになりました。<br/><br/>ああ奇蹟とはこれをいうのでありましょう。<br/><br/>再びこの世に生きる希望を見出し、歓喜の泣笑いに頬を濡す、又大先生のお書きになった論文を拝読して現界霊界の区別あるを知り、人間最大の苦しみである死の恐怖から脱がれ、人類史創って以来いかなる聖賢君子哲人も説き得なかった人間の使命又神の御恵に全く感涙致しました。<br/><br/> 早速当日は講習会後御守を頂き、その時今の五六七教管長先生の御講話を拝聴して、勇気百倍家へ帰り当時は治療時代だったのでその実際的効果にとりかかりました。<br/><br/>それからの毎日は明けても暮れても浄霊に専念、その治病力の偉大さを自ら体験し朝から晩まで、寝食も忘れてやらせて頂きました。<br/><br/> 続々押し寄せる患者の起死回生の喜び。<br/><br/>又私の喜びであります。<br/><br/>それから三カ月目に第一回の講習会を自宅で開かせて頂きました。<br/><br/>三十数名の御守拝受の歓喜に溢れた顔は、生涯忘れることは出来ません。<br/><br/>実に人間生命の尊さを初めて知りました。<br/><br/>それからは毎日の何と早かったことでしょう。<br/><br/>今月も来月もその翌月も講習に暮れ、遂に終戦の八月十五日が参りました。<br/><br/>私達一家は挙ってこの貴き人類救済の御仕事であることを知らして頂き、一層の拍車をかけ邁進させて頂ける幸せを頂きました。<br/><br/> その間、親戚や縁故者の早く足を洗えとまるで犯罪でも犯しているかのような、近所の人々の邪推と罵言に悩み、ある時は何かの陰謀と官憲の圧迫に妨害され、言論機関即ち新聞の救われたる多数の人の事実を隠しやむを得ず寿命がつきて死んだ、極く少数の人を材料としての悪口の誇大宣伝に。<br/><br/>又最近の雑誌におけるごとく（それは余りにも真相を暴露すると言う記事が真相を伝えてない）あるいは金儲けのために捏ち上げた、小説等々実に試練の連続でした。<br/><br/> 顧りみれば今は、隔世の感ありである。<br/><br/>時は移り変り観音様の信者は全国に拡り、十数万にも達し、これら信者全部が全部救われた、喜びの人々である事実がどうして認識されないはずがありましょうか。<br/><br/> 吾等はこの喜びを未だ御存知なき、日本の皆様に知って頂くべくただ邁進あるのみです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

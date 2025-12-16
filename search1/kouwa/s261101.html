@@ -6,8 +6,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s261101</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#e9feda">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#e9feda"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -42,56 +243,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年11月1日） 『御教え集』4号、昭和26(1951)年12月15日発行 昭和二十六年十一月一日 今度京都に行ったのは、大体主な目的は、美術館についていろいろ参考になる点がありますから、それで京都に行った訳ですからね。<br><br>で、京都に大徳寺だとか 東福寺だとか行って見ましたが、多少参考になりましたが、何しろああいう所は、仏教芸術ですからね。<br><br>仏教芸術というより、お寺芸術ですからね。<br><br>お経だとか ね。<br><br>東福寺なんかは、宋時代に偉いお坊さんが書いたお経ですが、これは美術館向きにはならないですね。<br><br>それから東福寺は兆殿司（ちょうでんす）があそこの 寺にいて書いた、兆殿司のものが大部分でしたが、かなり上手いけれども、たいした事はない。<br><br>今度すっかり分かりましたがね。<br><br>それから大徳寺の本尊ですね。<br><br> その宝物を何していたが――真珠庵と言う――そういうものが一番ある寺です。<br><br>末寺ですが、それを見ましたが、たいした物はないですね。<br><br>大徳寺なんか、 ちょっといかがわしいものが多いです。<br><br>やっぱり、本物は傷んだりするから、しまってあるだろうと思う。<br><br>だから出してあるのは、いかがわしいものがチョイ チョイあるんです。<br><br>ちょっと普通に見ては分かりませんがね。<br><br>例えてみれば、巨勢金岡（こせのかなおか）の書いた観音さんがあるが、私の所にもあるが、私の 所のは本物です。<br><br>同じような絵ですが、私の方が古いですからね。<br><br>大徳寺の方は、時代が新しいです。<br><br>同じようには書いてありますが、品格と味がないです。<br><br>そ んなようなものです。<br><br>その他にも二、三ありました。<br><br>それで良いんだろうと思いますね。<br><br>そう、良いものを始終一般に見せると言うのは、傷んだりしますから ね。<br><br>面白い事には。<br><br>本尊ですが――坊さんが、お釈迦さんだと言うんです。<br><br>これは観音さんだと言っても、いいやお釈迦さんだと言う。<br><br>禅宗ですからお釈迦さん は祀らないのが本当です。<br><br>禅宗は達磨ですから反対になるんです。<br><br>達磨と観音さんは祀っても良いんですが、お釈迦さんは祀らないんです。<br><br>あそこは観音さんを 祀ってあるのでなるほどと思いました。<br><br>京都の博物館は、支那陶器のちょっと良いものがありました。<br><br>絵も二、三私が見たいと思うものがありました。<br><br>それから 大阪の博物館も、また行ったんですが、銅器の良いものが出てました。<br><br>館長になっている人が、いろいろ説明してくれましたが、大いに得する所があった訳です ね。<br><br>そんな訳で、大体京都における美術的なものは今度で大体分かった訳です。<br><br>今度私が造る美術館についても、参考にはなりました。<br><br>ところで近頃、古い美術 ですが、非常に世の中の人が関心を持ち始め、流行みたいになって来ましたが――どこに行ってそう言う美術なんて見ても――仮に、京都にしても、仏教的な仏 画だとか、立派なものがありますが、あれじゃ一般人が見ても興味がない訳ですね。<br><br>お釈迦さん、観音さん、文殊菩薩。<br><br>藤原時代だとか、天平だとか言っても、 よほど研究してないと分からないです。<br><br>美的に、ああ美しいなと言うのは、分からないと思います。<br><br>感心しないです。<br><br>ところが日本では、古美術です。<br><br>古美術と 言うと、京都ではお寺ですね。<br><br>ああいう所になっている。<br><br>しかし私が造る美術館はそういう意味ではない。<br><br>京都を歩いても、光琳とか宗達とかほとんどお目にか かる事は出来ないですね。<br><br>京都で盛んに活躍した芸術家ですからね。<br><br>そう言うものはほとんど京都にないせいもあるでしょうが。<br><br>ほとんど見る事が出来ない。<br><br>仏 画以外としては、狩野派ですね。<br><br>探慶、雅信だとかです。<br><br>そう言う人達の絵はあまり価値がない。<br><br>というのは、狩野派の絵というのは、支那人から習ったんです からね。<br><br>支那の宋、元時代のものをお手本として習ったんですから、支那以上のものは出てないんです。<br><br>ところが琳派ですね。<br><br>光琳というのは、もちろん支那に もないし日本独特のものですね。<br><br>こういうものを、大いに見せなければならない。<br><br>それから陶器と言っても博物館にも立派な素晴らしいものがありますが、全部 支那のです。<br><br>日本だって素晴らしいのがあります。<br><br>仁清、乾山と言うのは、それはもう支那に決して負けないようなものですね。<br><br>あとは尾張の瀬戸の系統です ね。<br><br>黄瀬戸とか、織部とか――そういうのでなかなか良いものがある。<br><br> そういった日本で出来た日本美術の良いものは、ほとんど目に触れる事がないですね。<br><br>わずかに東京の博物館にあるだけだそうですね。<br><br>そう言う良いものを、 今度出来た美術館に並べるつもりですがね。<br><br>そう言う良いものは、どこにあるかと言う事は、ほとんど決まっているようなものですね。<br><br>だから、それを上手く聞 き出して、承諾を得れば良い訳です。<br><br>それも上手くやりつつあるから、日本のどこにもないような美術品を並べられると思います。<br><br>随分問題になると思いますが ね。<br><br> 帰りがけに、駅々で信者さんが見送ってましたが、誰も言う事は、今年は自然栽培は、非常に成績が良いというんですね。<br><br>そうとう増収になっていて、非常に 喜んでいましたがね。<br><br>と言うのは、段々肥料が抜けてきますからね。<br><br>どこでしたか、今年で三年目になりますが、反当り二、三俵増えたという事を言ってました が、それでちょうど当たり前ですね。<br><br>三年経てば三割位増えるんですね。<br><br>五年経てば五割位増えるんですね。<br><br>今年の成績が良かったら、大々的に自然栽培の宣伝 をやろうと思う。<br><br>ところが一般の場合は、今年は馬鹿に悪いですね。<br><br>静岡県の何とかという村は、四割の減収で、六割しか取れないんですね。<br><br>その原因はイモチ 病とウンカという事になっている。<br><br>こういう話を聞きましたが――農民は肥料をやり過ぎるから、肥料を少なくしなければならないと言う説が、農民間に出てい るそうですが、それは幾分判った方ですね。<br><br>だから、その方面はこれから大いに面白いと思うんですがね。<br><br> それからもう一つは、ＢＣＧ問題ですね。<br><br>これは大騒ぎをやってますが、それについて非常に良いお蔭話を聞いたので、今度の「栄光」に出して、これを厚生大臣に送ってやろうと思ってますがね。<br><br> （御論文「 ＢＣＧ問題 」の後の御教え）【栄光 一三〇号】 つまり今までは、結核が疑わしいのにＢＣＧをやると、発病しないと言うのですね。<br><br>ところでそれは、疑わしいと言うのは、要するに浄化が起こっているか、 起こりかけているんです。<br><br>それをＢＣＧで固めるから、一年なり半年なり固まり、小康を得ている。<br><br>と言うのは、ＢＣＧは一回ではいけない。<br><br>と言うのは結局、 本当に固まりっこないんですからね。<br><br>いつか溶けるに違いないから、ＢＣＧを打った人は結局いつかは結核患者になってしまいます。<br><br>そんな訳で、今まで固まっ た人も霊界のお浄化が強くなったから、固まらなくなった。<br><br>固まらないで溶けるからです。<br><br>そうなる訳だから、これから色んな固め療法が駄目になってきます。<br><br> 結局薬じゃ駄目だという事になる。<br><br>それからこっちの舞台になる。<br><br>だいぶ近寄りつつある。<br><br> それから、農作物の方で非常に虫がわく。<br><br>毎年増産と言って色んな方法をやっていますが――農地改良だとか、交換分合だとかやっていますが、増えないです ね。<br><br>増えないで、虫害が非常に多くなってきた。<br><br>と言うのは霊界が変わってきたからです。<br><br>霊界が夜の間は浄化力が弱いですから、医療も一時効くんです。<br><br>とこ ろが霊界が段々明るくなるにつれて、そう言った間違った事は、段々駄目になってくる。<br><br>つまり浄化力と言うのは、浄めの力ですね。<br><br>そういう汚れたものは、浄 めの力が弱くなる。<br><br>逆になるので、虫がわくと言うんです。<br><br>きれいなものはますますきれいになり、汚いものはますます汚くなる。<br><br>そう言う訳ですから、時日が 経つに従って、ますます今までのやり方は結果が悪くなるというんで、いずれは気がつかざるを得なくなるんですね。<br><br>ですから我々がやっている事は、その準備 行為みたいなものですね。<br><br>先で、いよいよ目が醒めてから、本当のものを見出すという、その準備のようなものですね。<br><br>けれどもいっぺんに来る訳じゃない。<br><br>少 しずつ来る訳です。<br><br>昨日も、汽車の窓からの話ですが、県の方や農会の方で注目して来たと言う事を言ってました。<br><br>医学の方よりもだいぶ早く分かると思う。<br><br>こ れが分かったら、今まで肥料をやっていたのが、堆肥だけでよいと言うので大問題ですね。<br><br>食糧問題なんか一挙に解決しますからね。<br><br>そうなると医学の方と違っ て早いです。<br><br>それだけ分かっただけでもメシヤ教と言うのは、本当の「救世」だと言うんですよ。<br><br>それで段々そういった時が早くなるんですね。<br><br>すべて、ものは 坂から落ちるようなものですね。<br><br>最初落ち始めは緩慢ですが、勢いがつくと、段々早くなるという、こういう事は分かり出すと早い。<br><br>だから大いに楽しみという 訳ですね。<br><br> それから「文明の創造」の中で、種痘の事が肝腎ですから、種痘の事を精しく書きました。<br><br>今日、注射がこれだけ発達したのは、結局種痘のためなんです。<br><br>こ こにやっただけで、天然痘が逃れられる。<br><br>ありがたいというので、それによって注射と言うのは段々はやるようになったんですね。<br><br>この前も――古い――「明日 の医術」かに書いてますが、今度はあれよりずっと精しく書きましたからね。<br><br>あの時代は危なくてそう深くは書けなかったんですが、今は時代が違ったから、十 分書けるから、良く解ると思います。<br><br> （御論文「 種痘 」のあとの御教） これは以前に一ぺん出した事があるお蔭話です。<br><br>やっぱりこういうのは、みな、専門家に見せるために、ちょうど挿入するのに良いですからね。<br><br>それで入れた訳です。<br><br> あまり、病気の事ばかりだから、少し変わったのを――これを読まない内にさっきの――禅宗とバラモン教の事を言いましたので、それを書いてます。<br><br> （御論文「 仏教にある大乗小乗 」のあとの御教） この大燈国師の有名な看読真詮榜［看経榜］(カンキンポウ)と言う巻物がある。<br><br>後醍醐天皇が非常な信者で、大燈国師に絶対的にしていた。<br><br>で、後醍醐天皇 をお助けしようとして看読真詮榜と言う――随分長い巻物です――後醍醐天皇を助けていただきたいという意味で書いて、仏様にお願いした訳ですね。<br><br>これは有 名なもので大燈国師の看読真詮榜といって大変なものです。<br><br>容易に見せないんですが、特別に見せてくれたんですがね。<br><br>なかなか、書体も力強い書体です。<br><br>見て いると迫力が――まあ、身の引き締まる思いがすると言うが、そんなような具合で、私も感心した。<br><br>これは余談ですが、後醍醐天皇が、ああいった不幸な目に 会って、結局位を捨てなければならないというのは、この影響がある。<br><br>大体、禅はバラモンから来るんです。<br><br>名誉とか、天皇とかいう位は、信仰に徹底すればな くしなければならない。<br><br>取ってしまわなければならない。<br><br>だから、一生懸命になればなるほど、天皇の位にとどまる事が出来なくなる。<br><br>天皇の中で後醍醐天皇な んか一番不幸な人でしょう。<br><br>それは、信仰の影響ですね。<br><br>それに違いないですね。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Discernimento da Verdade na Arte, na Agricultura e na Saúde</h2>
 <p>Minha recente viagem a Quioto teve como principal propósito pesquisar referências para o nosso futuro museu de arte. Visitei templos como o Daitoku-ji e o Tofuku-ji, e embora tenha colhido algumas ideias, deparei-me com uma realidade: a arte ali exposta é, em sua maioria, uma arte budista, ou mais precisamente, uma arte de templo. As obras consistem majoritariamente em sutras, como os que vi no Tofuku-ji, escritos por um eminente monge da dinastia Song. Tais peças, contudo, não se adequam ao perfil de um museu de arte. O acervo do Tofuku-ji era dominado por obras de Chodensu (兆殿司), que viveu e pintou naquele templo. Apesar de sua notável destreza, compreendi nesta visita que suas criações não chegam a ser excepcionais.</p>
@@ -114,5 +266,48 @@ function toggleLang(lang) {
 <p>Como tenho falado muito sobre doenças, mudarei um pouco de assunto. Antes de ler este trecho, eu estava comentando sobre a relação entre o Zen Budismo e o Bramanismo, que é o que está escrito a seguir.</p>
 <p>Existe um famoso pergaminho do mestre Daito Kokushi, chamado Kankin Shinsembo (看読真詮榜). O Imperador Go-Daigo era um devoto fervoroso e tinha uma fé absoluta em Daito Kokushi. Para ajudar o imperador, o mestre escreveu esse longo pergaminho como uma prece a Buda, rogando por sua proteção. Essa obra, o Kankin Shinsembo de Daito Kokushi, é extremamente famosa e valiosa. Raramente é mostrada, mas tive o privilégio especial de vê-la. A caligrafia é vigorosa, e contemplá-la transmite uma força que nos infunde um sentimento de reverência e solenidade. Fiquei muito impressionado.</p>
 <p>Isso me leva a uma digressão. A razão pela qual o Imperador Go-Daigo sofreu aquele destino trágico, tendo de abandonar o trono, está relacionada a essa influência. O Zen se origina do Bramanismo, que prega que, para atingir a fé plena, é preciso renunciar a apegos mundanos como a honra e a posição social — inclusive a de Imperador. Quanto mais devoto se tornava, mais insustentável se tornava sua posição. Dentre todos os imperadores, Go-Daigo foi talvez o mais desafortunado. Isso, sem dúvida, foi uma consequência de sua fé.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年11月1日） 『御教え集』4号、昭和26(1951)年12月15日発行 昭和二十六年十一月一日 今度京都に行ったのは、大体主な目的は、美術館についていろいろ参考になる点がありますから、それで京都に行った訳ですからね。<br/><br/>で、京都に大徳寺だとか 東福寺だとか行って見ましたが、多少参考になりましたが、何しろああいう所は、仏教芸術ですからね。<br/><br/>仏教芸術というより、お寺芸術ですからね。<br/><br/>お経だとか ね。<br/><br/>東福寺なんかは、宋時代に偉いお坊さんが書いたお経ですが、これは美術館向きにはならないですね。<br/><br/>それから東福寺は兆殿司（ちょうでんす）があそこの 寺にいて書いた、兆殿司のものが大部分でしたが、かなり上手いけれども、たいした事はない。<br/><br/>今度すっかり分かりましたがね。<br/><br/>それから大徳寺の本尊ですね。<br/><br/> その宝物を何していたが――真珠庵と言う――そういうものが一番ある寺です。<br/><br/>末寺ですが、それを見ましたが、たいした物はないですね。<br/><br/>大徳寺なんか、 ちょっといかがわしいものが多いです。<br/><br/>やっぱり、本物は傷んだりするから、しまってあるだろうと思う。<br/><br/>だから出してあるのは、いかがわしいものがチョイ チョイあるんです。<br/><br/>ちょっと普通に見ては分かりませんがね。<br/><br/>例えてみれば、巨勢金岡（こせのかなおか）の書いた観音さんがあるが、私の所にもあるが、私の 所のは本物です。<br/><br/>同じような絵ですが、私の方が古いですからね。<br/><br/>大徳寺の方は、時代が新しいです。<br/><br/>同じようには書いてありますが、品格と味がないです。<br/><br/>そ んなようなものです。<br/><br/>その他にも二、三ありました。<br/><br/>それで良いんだろうと思いますね。<br/><br/>そう、良いものを始終一般に見せると言うのは、傷んだりしますから ね。<br/><br/>面白い事には。<br/><br/>本尊ですが――坊さんが、お釈迦さんだと言うんです。<br/><br/>これは観音さんだと言っても、いいやお釈迦さんだと言う。<br/><br/>禅宗ですからお釈迦さん は祀らないのが本当です。<br/><br/>禅宗は達磨ですから反対になるんです。<br/><br/>達磨と観音さんは祀っても良いんですが、お釈迦さんは祀らないんです。<br/><br/>あそこは観音さんを 祀ってあるのでなるほどと思いました。<br/><br/>京都の博物館は、支那陶器のちょっと良いものがありました。<br/><br/>絵も二、三私が見たいと思うものがありました。<br/><br/>それから 大阪の博物館も、また行ったんですが、銅器の良いものが出てました。<br/><br/>館長になっている人が、いろいろ説明してくれましたが、大いに得する所があった訳です ね。<br/><br/>そんな訳で、大体京都における美術的なものは今度で大体分かった訳です。<br/><br/>今度私が造る美術館についても、参考にはなりました。<br/><br/>ところで近頃、古い美術 ですが、非常に世の中の人が関心を持ち始め、流行みたいになって来ましたが――どこに行ってそう言う美術なんて見ても――仮に、京都にしても、仏教的な仏 画だとか、立派なものがありますが、あれじゃ一般人が見ても興味がない訳ですね。<br/><br/>お釈迦さん、観音さん、文殊菩薩。<br/><br/>藤原時代だとか、天平だとか言っても、 よほど研究してないと分からないです。<br/><br/>美的に、ああ美しいなと言うのは、分からないと思います。<br/><br/>感心しないです。<br/><br/>ところが日本では、古美術です。<br/><br/>古美術と 言うと、京都ではお寺ですね。<br/><br/>ああいう所になっている。<br/><br/>しかし私が造る美術館はそういう意味ではない。<br/><br/>京都を歩いても、光琳とか宗達とかほとんどお目にか かる事は出来ないですね。<br/><br/>京都で盛んに活躍した芸術家ですからね。<br/><br/>そう言うものはほとんど京都にないせいもあるでしょうが。<br/><br/>ほとんど見る事が出来ない。<br/><br/>仏 画以外としては、狩野派ですね。<br/><br/>探慶、雅信だとかです。<br/><br/>そう言う人達の絵はあまり価値がない。<br/><br/>というのは、狩野派の絵というのは、支那人から習ったんです からね。<br/><br/>支那の宋、元時代のものをお手本として習ったんですから、支那以上のものは出てないんです。<br/><br/>ところが琳派ですね。<br/><br/>光琳というのは、もちろん支那に もないし日本独特のものですね。<br/><br/>こういうものを、大いに見せなければならない。<br/><br/>それから陶器と言っても博物館にも立派な素晴らしいものがありますが、全部 支那のです。<br/><br/>日本だって素晴らしいのがあります。<br/><br/>仁清、乾山と言うのは、それはもう支那に決して負けないようなものですね。<br/><br/>あとは尾張の瀬戸の系統です ね。<br/><br/>黄瀬戸とか、織部とか――そういうのでなかなか良いものがある。<br/><br/> そういった日本で出来た日本美術の良いものは、ほとんど目に触れる事がないですね。<br/><br/>わずかに東京の博物館にあるだけだそうですね。<br/><br/>そう言う良いものを、 今度出来た美術館に並べるつもりですがね。<br/><br/>そう言う良いものは、どこにあるかと言う事は、ほとんど決まっているようなものですね。<br/><br/>だから、それを上手く聞 き出して、承諾を得れば良い訳です。<br/><br/>それも上手くやりつつあるから、日本のどこにもないような美術品を並べられると思います。<br/><br/>随分問題になると思いますが ね。<br/><br/> 帰りがけに、駅々で信者さんが見送ってましたが、誰も言う事は、今年は自然栽培は、非常に成績が良いというんですね。<br/><br/>そうとう増収になっていて、非常に 喜んでいましたがね。<br/><br/>と言うのは、段々肥料が抜けてきますからね。<br/><br/>どこでしたか、今年で三年目になりますが、反当り二、三俵増えたという事を言ってました が、それでちょうど当たり前ですね。<br/><br/>三年経てば三割位増えるんですね。<br/><br/>五年経てば五割位増えるんですね。<br/><br/>今年の成績が良かったら、大々的に自然栽培の宣伝 をやろうと思う。<br/><br/>ところが一般の場合は、今年は馬鹿に悪いですね。<br/><br/>静岡県の何とかという村は、四割の減収で、六割しか取れないんですね。<br/><br/>その原因はイモチ 病とウンカという事になっている。<br/><br/>こういう話を聞きましたが――農民は肥料をやり過ぎるから、肥料を少なくしなければならないと言う説が、農民間に出てい るそうですが、それは幾分判った方ですね。<br/><br/>だから、その方面はこれから大いに面白いと思うんですがね。<br/><br/> それからもう一つは、ＢＣＧ問題ですね。<br/><br/>これは大騒ぎをやってますが、それについて非常に良いお蔭話を聞いたので、今度の「栄光」に出して、これを厚生大臣に送ってやろうと思ってますがね。<br/><br/> （御論文「 ＢＣＧ問題 」の後の御教え）【栄光 一三〇号】 つまり今までは、結核が疑わしいのにＢＣＧをやると、発病しないと言うのですね。<br/><br/>ところでそれは、疑わしいと言うのは、要するに浄化が起こっているか、 起こりかけているんです。<br/><br/>それをＢＣＧで固めるから、一年なり半年なり固まり、小康を得ている。<br/><br/>と言うのは、ＢＣＧは一回ではいけない。<br/><br/>と言うのは結局、 本当に固まりっこないんですからね。<br/><br/>いつか溶けるに違いないから、ＢＣＧを打った人は結局いつかは結核患者になってしまいます。<br/><br/>そんな訳で、今まで固まっ た人も霊界のお浄化が強くなったから、固まらなくなった。<br/><br/>固まらないで溶けるからです。<br/><br/>そうなる訳だから、これから色んな固め療法が駄目になってきます。<br/><br/> 結局薬じゃ駄目だという事になる。<br/><br/>それからこっちの舞台になる。<br/><br/>だいぶ近寄りつつある。<br/><br/> それから、農作物の方で非常に虫がわく。<br/><br/>毎年増産と言って色んな方法をやっていますが――農地改良だとか、交換分合だとかやっていますが、増えないです ね。<br/><br/>増えないで、虫害が非常に多くなってきた。<br/><br/>と言うのは霊界が変わってきたからです。<br/><br/>霊界が夜の間は浄化力が弱いですから、医療も一時効くんです。<br/><br/>とこ ろが霊界が段々明るくなるにつれて、そう言った間違った事は、段々駄目になってくる。<br/><br/>つまり浄化力と言うのは、浄めの力ですね。<br/><br/>そういう汚れたものは、浄 めの力が弱くなる。<br/><br/>逆になるので、虫がわくと言うんです。<br/><br/>きれいなものはますますきれいになり、汚いものはますます汚くなる。<br/><br/>そう言う訳ですから、時日が 経つに従って、ますます今までのやり方は結果が悪くなるというんで、いずれは気がつかざるを得なくなるんですね。<br/><br/>ですから我々がやっている事は、その準備 行為みたいなものですね。<br/><br/>先で、いよいよ目が醒めてから、本当のものを見出すという、その準備のようなものですね。<br/><br/>けれどもいっぺんに来る訳じゃない。<br/><br/>少 しずつ来る訳です。<br/><br/>昨日も、汽車の窓からの話ですが、県の方や農会の方で注目して来たと言う事を言ってました。<br/><br/>医学の方よりもだいぶ早く分かると思う。<br/><br/>こ れが分かったら、今まで肥料をやっていたのが、堆肥だけでよいと言うので大問題ですね。<br/><br/>食糧問題なんか一挙に解決しますからね。<br/><br/>そうなると医学の方と違っ て早いです。<br/><br/>それだけ分かっただけでもメシヤ教と言うのは、本当の「救世」だと言うんですよ。<br/><br/>それで段々そういった時が早くなるんですね。<br/><br/>すべて、ものは 坂から落ちるようなものですね。<br/><br/>最初落ち始めは緩慢ですが、勢いがつくと、段々早くなるという、こういう事は分かり出すと早い。<br/><br/>だから大いに楽しみという 訳ですね。<br/><br/> それから「文明の創造」の中で、種痘の事が肝腎ですから、種痘の事を精しく書きました。<br/><br/>今日、注射がこれだけ発達したのは、結局種痘のためなんです。<br/><br/>こ こにやっただけで、天然痘が逃れられる。<br/><br/>ありがたいというので、それによって注射と言うのは段々はやるようになったんですね。<br/><br/>この前も――古い――「明日 の医術」かに書いてますが、今度はあれよりずっと精しく書きましたからね。<br/><br/>あの時代は危なくてそう深くは書けなかったんですが、今は時代が違ったから、十 分書けるから、良く解ると思います。<br/><br/> （御論文「 種痘 」のあとの御教） これは以前に一ぺん出した事があるお蔭話です。<br/><br/>やっぱりこういうのは、みな、専門家に見せるために、ちょうど挿入するのに良いですからね。<br/><br/>それで入れた訳です。<br/><br/> あまり、病気の事ばかりだから、少し変わったのを――これを読まない内にさっきの――禅宗とバラモン教の事を言いましたので、それを書いてます。<br/><br/> （御論文「 仏教にある大乗小乗 」のあとの御教） この大燈国師の有名な看読真詮榜［看経榜］(カンキンポウ)と言う巻物がある。<br/><br/>後醍醐天皇が非常な信者で、大燈国師に絶対的にしていた。<br/><br/>で、後醍醐天皇 をお助けしようとして看読真詮榜と言う――随分長い巻物です――後醍醐天皇を助けていただきたいという意味で書いて、仏様にお願いした訳ですね。<br/><br/>これは有 名なもので大燈国師の看読真詮榜といって大変なものです。<br/><br/>容易に見せないんですが、特別に見せてくれたんですがね。<br/><br/>なかなか、書体も力強い書体です。<br/><br/>見て いると迫力が――まあ、身の引き締まる思いがすると言うが、そんなような具合で、私も感心した。<br/><br/>これは余談ですが、後醍醐天皇が、ああいった不幸な目に 会って、結局位を捨てなければならないというのは、この影響がある。<br/><br/>大体、禅はバラモンから来るんです。<br/><br/>名誉とか、天皇とかいう位は、信仰に徹底すればな くしなければならない。<br/><br/>取ってしまわなければならない。<br/><br/>だから、一生懸命になればなるほど、天皇の位にとどまる事が出来なくなる。<br/><br/>天皇の中で後醍醐天皇な んか一番不幸な人でしょう。<br/><br/>それは、信仰の影響ですね。<br/><br/>それに違いないですね。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

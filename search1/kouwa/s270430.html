@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s270430</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 関西巡教御講話 （S27年4月30日） 『御教え集』9号、昭和27(1952)年5月15日発行 昭和二十七年四月三十日 （京都劇場における御講話） 【御教え】 今日は信者の方ばかりだそうですから、そのつもりで話をします。<br><br>今度京都に来たのは、大体二つの目的なんです。<br><br>一つは、奈良の仏教美術――それを視察するためと、それからもう一つは、京都の地上天国を造る候補地――そういう適当な土地があったというので、それを見るため――その二つのためなんです。<br><br>昨日奈良方面に行きました。<br><br>法華寺、薬師寺、東大寺、法隆寺。<br><br>それから奈良の博物館。<br><br>博物館はちょうど白鳳、天平の仏――それに関した展覧会というのを開催していたので、ちょうど良かったんです。<br><br>大体奈良における主なるものを見たので、たいへん得るところがあったんです。<br><br>たいてい、有名な品物は写真で見ておりました。<br><br>国宝の写真帳なんかにたくさんありましたが、今度実物を見まして、とうてい想像もしなかったほど立派なもので、驚いたんです。<br><br>しかも千二、三百年くらい前に、今日でもできないくらい巧みな彫刻なんです。<br><br>これはまったく、美術だけは時代逆行ですね。<br><br>ですから、文化が発達したということは、要するに元気になったというだけですね。<br><br>で、そういった芸術的、道徳的にはかえって逆行したんじゃないかと思うくらいです。<br><br>実にその時代の作者の感覚と、技術の秀れたのには驚いたです。<br><br>特に法隆寺にある品物は、よくもこんな立派なものが集まっていると思うくらいです。<br><br>そのいずれも実に良いです。<br><br>あれを美術館にでも並べたいくらいに思ってますが、しかしあそこに行ってみると、ああいった良いものは――やはり法隆寺としての雰囲気ですね。<br><br>非常に時代的の一つの色ですね。<br><br>古い、寂（さび）た姿ですね。<br><br>そこにああいう古代芸術の立派なものを並べておくということが、実にふさわしいです。<br><br>ですから法隆寺なんか、あのままで火事が起らないように気をつけて、大いに保存してもらいたいというように思ったんです。<br><br>それで、一番驚いたのは薬師寺の観音様ですね。<br><br>あれが実にすばらしいものですね。<br><br>形といい、姿、お顔、もうとうてい今のどんな名人が作っても、あのまねはできないです。<br><br>あれが天平時代にできたということは、どう考えても想像がつかないくらいなものです。<br><br>それから、その他にも驚嘆するようなものがありました。<br><br>これは奈良に近い人ばかりだから行ってみれば判ります。<br><br>そう精しく言う必要はないですから、このくらいにしておきます。<br><br> それで将来京都にも美術館を造りますけれども、そういったような動かすことのできないものはしかたがないが、そうでないものも、そうとうありますから、そういうものを一堂に集めて、日本の仏教美術を外国の人にも紹介したいと思っている。<br><br>それで、つまり美術館を造るという所は、それは美術館ばかりでなしに、地上天国を造るつもりなんです。<br><br>今日見た候補地としては、大体は良いようですが、まだ値段も聞かないようですから、懐具合にピツタリ合わなくちゃ、急にどうということはできませんが、しかし神様がすべて準備されたに違いないですから、具合良く行くと思ってます。<br><br>で、それについて、こういうわけなんです。<br><br>いつも言う通り、箱根の地上天国は五ですね。<br><br>それで山なんです。<br><br>それから熱海が六ですね。<br><br>海です。<br><br>つまり火と水になる。<br><br>今度は七ですね。<br><br>土がなくてはならない。<br><br>それは平らな土地なんですね。<br><br>岩石なんかがない――そういう所の条件は、やはり京都より他にないですね。<br><br>そういう意味で、いつかも話した通り、京都にいずれ造る。<br><br>それは去年京都に初めて来まして、フッと、そういう――まあ、神様のお知らせがあったわけです。<br><br>ちょうど、今度で一年目になるわけですね。<br><br>まあ――そこに一歩前進したわけですね。<br><br>ですから京都は平らな所で、そうして無論環境ですね。<br><br>すべてが条件にあっていると思うんです。<br><br>今日の所は、そういう――大体八十点くらいの条件が合っているようです。<br><br>しかしやはり、いろいろの――広い所に行くと、農地があるとか、あるいは市の土地だとか、いろんな、なにがありますから、これは神様がだんだん良い具合にされるだろうと思ってます。<br><br>そこで、特に京都という所は、ちょうど世界でいうとフランスに当たるんです。<br><br>ですからとにかく、芸術の都ですね。<br><br>そういう意味があるんで、大体今までもそういうふうになってますが、しかしこれから本当に京都を発展させ、わざわざ外国から京都を目当てに見物するくらい――というくらいに、要するに美術都市にしなければならないんです。<br><br>で、京都が日本の美術の中心ということにならなければならない。<br><br>ところが、現在としては、美術の中心は東京になってますが、これは本当ではないですね。<br><br>将来京都になるんです。<br><br>それについては、京都に釣り合ったような地上天国的のものをこしらえなければならないと思う。<br><br>それがメシヤ教のやはり一つの使命になっているんですから、京都は美術都市であり、宗教都市ですね。<br><br>そういうふうになるわけですね。<br><br>そこで京都としてもだんだん認識するようになるだろうと思います。<br><br>今が第一歩として自然に進んで、思うようになって行くに違いないと思ってます。<br><br>今度の目的の話は簡単ですけれども、そのくらいにしておきます。<br><br> いろいろの話をしたいと思うんですが、たいていふだん気のついたことや思ったことは、しゃべったり書いたりしてますから、どうもふだん言わないようなことを話したいと思うんですが、そうたくさんはないわけですね。<br><br>で、そうかといって、ふだん聞いているような話じゃ、せっかく遠くまで出てきて意味がないですから、なるべく珍しい話をしたいと、こう思ってます。<br><br>で、これからお話するのは、今まであまり言わなかったことで、今度の講和ですね。<br><br>一昨日から効力を発生したということになっておりますが、これはたいへん神秘なんです。<br><br>みんなめでたい、めでたいと言って、国中喜んでますが、確かにこれはそれに違いないけれども、しかし誰も分からないようなもっとめでたいことがあるんです。<br><br>これはあるいは、人類始まって以来のめでたいことかもしれませんね。<br><br>というのは、大体今世界は――いつも言う通り、精神文化と物質文化と、離れ離れになって、つまり経の棒と緯の棒が結ばってないですね。<br><br>ところが、緯の棒は――これもお話したことがありますが、物質文化の中心であり、ほとんど世界の物質文化の親玉みたいになっているのは米国なんです。<br><br>今欧州の文明国がありますけれども、とうてい今日は米国のすばらしい物質文化にはかなわないです。<br><br>ところで東洋文化ですね。<br><br>精神文化の東洋文化の方はどうかというと、これもなんと言っても日本ですからね。<br><br>日本こそ精神文化の中心であり、それからして日本はまた美術――この中心でもあるんですね。<br><br>そこで経と緯と結ばなければならない。<br><br>その結ぶ最初の起点ですね。<br><br>はずみが一昨日の講和記念日になるんです。<br><br>で、神様の方ではそういう経綸になっているんです。<br><br>つまり世界が伊都能売になるんですね。<br><br>そこで、つまり十字に結ばるわけですね。<br><br>だから、講和を契機として、日本とアメリカはいっそう仲が良くなるんです。<br><br>非常に密接になる。<br><br>従って文化も、日本の文化がアメリカにますます入って行くんですね。<br><br>それはアメリカでも、日本の特に古代文化なんか認めてますから、そこで日本の美術なんて、そういうものが、まだまだずっとアメリカに染み込んで行くんです。<br><br>それとともにアメリカの文化がもっともっと日本に入ってくるんです。<br><br>それで非常に――夫婦のように密接になるんです。<br><br>そんな第一歩が講和記念日からなんです。<br><br>それで初めて世界が伊都能売の働きになるんです。<br><br>で、バッジですね。<br><br>バッジがそれを現わしているんですよ。<br><br>真ん中の赤が日の丸なんです。<br><br>まわりの黄色がアメリカになるんですよ。<br><br>つまりアメリカに日本が抱かれているんですよ。<br><br>そうして十字に結ばって、真ん中がそういうふうになるわけですね。<br><br>だからして、その意味からいって、このくらいめでたいことはないわけなんです。<br><br>で、世界の文化というものは、そうなってからが本当の文化ができるんです。<br><br>つまり偏らない本当の文化――それができる。<br><br>まあ、すべて神様の御経綸で着々としてやられているんですから、そういう意味でメシヤ教もこれから非常に世の中に表面的に出てきて、つまり発展するわけです。<br><br>その結ぶ仕事というものが、やはりメシヤ教がやるんですから、今まであまりそういう大きなことを言うと、山師みたいに見られますから、なるべくそれは言わないようにしてますが、実際においてそういうような時期になってきたんです。<br><br>そこで最初の結ばる意味から言うと、日本の東と西と、この真ん中が、ちょうど中京になるわけですがね。<br><br>で、緯の方は、日本は細長い国ですから、そう著しくないですが、経の方は長いですから、東と西がはっきりと別れている。<br><br>その中心が中京になる。<br><br>それで一昨日中京の教会に寄り道して一席話したんですが、その意味の話をしたんです。<br><br>それで霊界における経綸を、私が説明したわけですね。<br><br>だからそのつもりでこれからやられれば良いわけですね。<br><br>で、なにごとも時期ですからね。<br><br>こんなに病気が治り、貧乏、争いが解決できる宗教が、もっとどんどん発展しなければならないと、誰でも思うんです。<br><br>私始めそういうふうに思っているんですが、それはやはり時期ですから、だんだんものが育って行くように、一歩一歩進んで行くんです。<br><br>神様の方は、突如としてパッとなるということはないんです。<br><br>それは、大自然の真理にはずれますからね。<br><br>どんなことでも、一歩一歩育って行くんです。<br><br>その代わり確実ですからね。<br><br>時期さえ来れば、ちゃんとその通りになるわけです。<br><br>ですから今度の京都に来た意味なんかも、やはり最初チラッとしたくらいのことが、だんだん一歩一歩具体化してくると、こういうわけなんです。<br><br> それから、昨日おもしろいことがあったんです。<br><br>昨日法隆寺に行った時に、夢殿というんですが、ふつうあまり参詣人に見せないですね。<br><br>今までは一年に一回扉を開いて見せるということになっているそうです。<br><br>昨日は突如として、夢殿が開いていたというわけですね。<br><br>これは非常に不思議なんですね。<br><br>やはり神様の方になにかわけがあるだろうと思って夢殿に行ってみますと、ちゃんと外の扉が開いて、中のお厨子の扉も開いて、そこに観音様の御像があるんです。<br><br>はっきりは判りませんが、少し暗いですからね。<br><br>それと遠くですからね。<br><br>形が、等身大のお観音様です。<br><br>それに札が書いてある。<br><br>「救世観世音」としてある。<br><br>救世観音様とも言いますが、これは昔から文献にないことはないんですが、ただ私はそれに「メシヤ」と仮名をつけたんですね。<br><br>これは私が初めてやったんです。<br><br>ですから、私の方から言えば、救世観音ですね。<br><br>文献にはありますが、そういった観音様の御姿と私は思うんです。<br><br>見たことがないですからね。<br><br>大体文献には大きいのは六観音ですね。<br><br>六つの観音様。<br><br>それから小さいと言いますか、その中に観音が三十三体あります。<br><br>救世観世音というのは、その中には一つもないんです。<br><br>ですからそこに神秘があるわけですね。<br><br>それで私は観音様の所に向かうと、観音様からスーッと霊気が入ってくる。<br><br>実になんとも言えない良い気持ちです。<br><br>そうして涙が流れそうになってきた。<br><br>まあ、長い間待っていたというわけですね。<br><br>それで、やはりそういった――神様の方にも時期があるんです。<br><br>その時期が来るまでは、どうすることもできない。<br><br>それで、今まで法隆寺の夢殿において時を待たれていたんです。<br><br>で、いよいよ時が来て、昨日私が行ったために、これから大いにお働きになりたいんです。<br><br>それで私に懸られたんです。<br><br>ですから、実に時なんです。<br><br>これからまた観音様が大いにお働きになるはずなんです。<br><br>そんなような具合ですからして、一生懸命にやって結構ですけれども、ただ知って、時期の来ないのに、いろいろの心配したりすることは必要ないわけですね。<br><br>時を待つということが一番肝腎なことです。<br><br>そうかといって、ぼんやり時を待っていては――寝ていて果報を待て――式じゃ、これは駄目で、やるだけのことはやる。<br><br>そうしてただ急ったり無理をしないということを心得ていれば良いわけですね。<br><br> そういうわけで、京都の方々のお寺にあるいろんな仏様ですね。<br><br>結局はメシヤ教が現われるのを、みんな待たれたんです。<br><br>それで今度私が来たことについても、いろんな仏様は霊界でたいへんな喜びなんですよ。<br><br>そういうわけですから、その仏様たちが、自分の宗旨の人をだんだん分からせるんですね。<br><br>そういう時期が非常に近寄ってきている。<br><br>この間私は日比谷の公会堂の時の話に、釈迦、キリストは私の弟子に相応するということを言ったわけですが、随分大きなことなんで知らない人は驚きます。<br><br>信者の人は別に驚く人はないんですが、そうすると仏教の方で、法然、親鸞、伝教、日蓮、弘法――ああいう人たちが、私の孫弟子になるわけですね。<br><br>だからいよいよ親父が出てきた。<br><br>これはなんでも働いていろいろ手功〔柄〕をしなければならんということになるんです。<br><br>そういうことについても、これからだんだん京都に地上天国でも造るようになりますと、そういう仏様たちがみんな寄ってきて、大いに私の言う通りに働くようになりますから、そうするとこっちの方も大発展をするということですね。<br><br>だから非常に期待した時期が近寄ったわけです。<br><br> そうしてもう一つのお話は、昨日もお寺をまわってみても、実にお寺が疲弊してますね。<br><br>だからいずれは美術館ができたら、仏教美術を主なるものにしたいと思っているんで、方々のお寺から――本尊様はしかたがないが、本尊様は馬鹿に大きいが、まあ出せる限りのものを一堂に集めて、そうして日本人はもとより、観光外客にも見せるようにして、入場料を取って、収入を多くして、それをお寺に分配するというような方法をとったら、非常に良いと思う。<br><br>そうするとお寺の方でも、修繕とか――随分普請をしかけて手をつけないという所があるようですから、お寺救済にもなると思います。<br><br>メシヤ教は社会事業はしませんが――養老院だとか、そういうことはしませんが、今言ったようなことは一種の社会事業です。<br><br>しかし私のやることは、人のやらないことをしたいと思う。<br><br>他の人ができるようなことは、する必要がないと思います。<br><br>他の者がやれないようなことをやろうと思ってますから、今言ったお寺救済と、それから日本の良いもの、良い古いものを、傷まないように保存する仕事をしなければならんと、そう思っている。<br><br>これは本当は政府がやるべきですが、政府が予算が足りないために思うようにいかないので、その欠陥を補うわけです。<br><br>大体――今度の旅行についてのいろいろなお話はそのくらいのことと思います。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Missão de Quioto e a Nova Era Mundial</h2>
 <p>Tendo em vista que a audiência de hoje é composta exclusivamente por fiéis, conduzirei minha preleção de acordo. Minha vinda a Quioto, desta vez, possui um duplo propósito. O primeiro é apreciar a arte budista de Nara; o segundo, inspecionar um terreno cogitado para a construção do Protótipo do Paraíso Terrestre em Quioto, do qual me informaram haver uma opção adequada.</p>
@@ -109,5 +261,48 @@ function toggleLang(lang) {
 <p>As diversas estátuas de Buda nos templos de Quioto, em última análise, aguardavam o advento da Igreja Messiânica. Minha vinda, desta vez, causou-lhes imensa alegria no Mundo Espiritual. Sendo assim, esses Budas começarão, gradualmente, a despertar as pessoas de suas respectivas religiões. Essa época está muito próxima. Recentemente, em minha palestra no Salão Público de Hibiya, afirmei que Buda Shakyamuni e Jesus Cristo são dignos de serem meus discípulos. Para quem não compreende, é uma declaração assombrosa, embora não surpreenda os nossos fiéis. Seguindo essa lógica, figuras como Honen, Shinran, Dengyo, Nichiren e Kobo tornam-se, por conseguinte, meus discípulos de segunda geração. Significa que o patriarca finalmente surgiu, e agora todos devem trabalhar e contribuir para a Obra. Quando começarmos a construir o Protótipo do Paraíso Terrestre em Quioto, esses Budas se reunirão e atuarão com grande vigor sob minhas ordens, o que resultará em um enorme desenvolvimento para a nossa Igreja. A época tão esperada está, de fato, se aproximando.</p>
 <p>Uma última observação: ao percorrer os templos ontem, constatei que se encontram em um estado de notável esgotamento. Como pretendo que nosso futuro museu tenha como foco principal a arte budista, pensei em propor um método que seria muito benéfico. Poderíamos reunir, dos diversos templos, todas as obras que pudessem ser transportadas — com exceção das imagens principais de adoração, que geralmente são muito grandes — e exibi-las em um único local. A renda obtida com a venda de ingressos, tanto para o público japonês quanto para os turistas estrangeiros, seria distribuída entre os templos. Isso certamente seria um socorro para eles, permitindo-lhes realizar reparos e concluir obras de restauração que, como observei, muitas vezes são iniciadas e depois abandonadas.</p>
 <p>A Igreja Messiânica não se dedica a obras sociais convencionais, como a construção de asilos, mas o que acabo de descrever é uma forma de serviço à sociedade. Contudo, desejo realizar aquilo que os outros não fazem. Não vejo necessidade de fazer o que qualquer um pode fazer. Quero me dedicar ao que os outros não são capazes. Assim, considero que devemos assumir essa tarefa de socorrer os templos e de preservar, protegendo-os de danos, os tesouros antigos e valiosos do Japão. Em verdade, essa seria uma responsabilidade do governo, mas, por falta de orçamento, ele não consegue executá-la como deveria. Nosso trabalho, portanto, viria a suprir essa lacuna. Creio que estas são, em linhas gerais, as considerações que gostaria de compartilhar sobre minha atual viagem.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 関西巡教御講話 （S27年4月30日） 『御教え集』9号、昭和27(1952)年5月15日発行 昭和二十七年四月三十日 （京都劇場における御講話） 【御教え】 今日は信者の方ばかりだそうですから、そのつもりで話をします。<br/><br/>今度京都に来たのは、大体二つの目的なんです。<br/><br/>一つは、奈良の仏教美術――それを視察するためと、それからもう一つは、京都の地上天国を造る候補地――そういう適当な土地があったというので、それを見るため――その二つのためなんです。<br/><br/>昨日奈良方面に行きました。<br/><br/>法華寺、薬師寺、東大寺、法隆寺。<br/><br/>それから奈良の博物館。<br/><br/>博物館はちょうど白鳳、天平の仏――それに関した展覧会というのを開催していたので、ちょうど良かったんです。<br/><br/>大体奈良における主なるものを見たので、たいへん得るところがあったんです。<br/><br/>たいてい、有名な品物は写真で見ておりました。<br/><br/>国宝の写真帳なんかにたくさんありましたが、今度実物を見まして、とうてい想像もしなかったほど立派なもので、驚いたんです。<br/><br/>しかも千二、三百年くらい前に、今日でもできないくらい巧みな彫刻なんです。<br/><br/>これはまったく、美術だけは時代逆行ですね。<br/><br/>ですから、文化が発達したということは、要するに元気になったというだけですね。<br/><br/>で、そういった芸術的、道徳的にはかえって逆行したんじゃないかと思うくらいです。<br/><br/>実にその時代の作者の感覚と、技術の秀れたのには驚いたです。<br/><br/>特に法隆寺にある品物は、よくもこんな立派なものが集まっていると思うくらいです。<br/><br/>そのいずれも実に良いです。<br/><br/>あれを美術館にでも並べたいくらいに思ってますが、しかしあそこに行ってみると、ああいった良いものは――やはり法隆寺としての雰囲気ですね。<br/><br/>非常に時代的の一つの色ですね。<br/><br/>古い、寂（さび）た姿ですね。<br/><br/>そこにああいう古代芸術の立派なものを並べておくということが、実にふさわしいです。<br/><br/>ですから法隆寺なんか、あのままで火事が起らないように気をつけて、大いに保存してもらいたいというように思ったんです。<br/><br/>それで、一番驚いたのは薬師寺の観音様ですね。<br/><br/>あれが実にすばらしいものですね。<br/><br/>形といい、姿、お顔、もうとうてい今のどんな名人が作っても、あのまねはできないです。<br/><br/>あれが天平時代にできたということは、どう考えても想像がつかないくらいなものです。<br/><br/>それから、その他にも驚嘆するようなものがありました。<br/><br/>これは奈良に近い人ばかりだから行ってみれば判ります。<br/><br/>そう精しく言う必要はないですから、このくらいにしておきます。<br/><br/> それで将来京都にも美術館を造りますけれども、そういったような動かすことのできないものはしかたがないが、そうでないものも、そうとうありますから、そういうものを一堂に集めて、日本の仏教美術を外国の人にも紹介したいと思っている。<br/><br/>それで、つまり美術館を造るという所は、それは美術館ばかりでなしに、地上天国を造るつもりなんです。<br/><br/>今日見た候補地としては、大体は良いようですが、まだ値段も聞かないようですから、懐具合にピツタリ合わなくちゃ、急にどうということはできませんが、しかし神様がすべて準備されたに違いないですから、具合良く行くと思ってます。<br/><br/>で、それについて、こういうわけなんです。<br/><br/>いつも言う通り、箱根の地上天国は五ですね。<br/><br/>それで山なんです。<br/><br/>それから熱海が六ですね。<br/><br/>海です。<br/><br/>つまり火と水になる。<br/><br/>今度は七ですね。<br/><br/>土がなくてはならない。<br/><br/>それは平らな土地なんですね。<br/><br/>岩石なんかがない――そういう所の条件は、やはり京都より他にないですね。<br/><br/>そういう意味で、いつかも話した通り、京都にいずれ造る。<br/><br/>それは去年京都に初めて来まして、フッと、そういう――まあ、神様のお知らせがあったわけです。<br/><br/>ちょうど、今度で一年目になるわけですね。<br/><br/>まあ――そこに一歩前進したわけですね。<br/><br/>ですから京都は平らな所で、そうして無論環境ですね。<br/><br/>すべてが条件にあっていると思うんです。<br/><br/>今日の所は、そういう――大体八十点くらいの条件が合っているようです。<br/><br/>しかしやはり、いろいろの――広い所に行くと、農地があるとか、あるいは市の土地だとか、いろんな、なにがありますから、これは神様がだんだん良い具合にされるだろうと思ってます。<br/><br/>そこで、特に京都という所は、ちょうど世界でいうとフランスに当たるんです。<br/><br/>ですからとにかく、芸術の都ですね。<br/><br/>そういう意味があるんで、大体今までもそういうふうになってますが、しかしこれから本当に京都を発展させ、わざわざ外国から京都を目当てに見物するくらい――というくらいに、要するに美術都市にしなければならないんです。<br/><br/>で、京都が日本の美術の中心ということにならなければならない。<br/><br/>ところが、現在としては、美術の中心は東京になってますが、これは本当ではないですね。<br/><br/>将来京都になるんです。<br/><br/>それについては、京都に釣り合ったような地上天国的のものをこしらえなければならないと思う。<br/><br/>それがメシヤ教のやはり一つの使命になっているんですから、京都は美術都市であり、宗教都市ですね。<br/><br/>そういうふうになるわけですね。<br/><br/>そこで京都としてもだんだん認識するようになるだろうと思います。<br/><br/>今が第一歩として自然に進んで、思うようになって行くに違いないと思ってます。<br/><br/>今度の目的の話は簡単ですけれども、そのくらいにしておきます。<br/><br/> いろいろの話をしたいと思うんですが、たいていふだん気のついたことや思ったことは、しゃべったり書いたりしてますから、どうもふだん言わないようなことを話したいと思うんですが、そうたくさんはないわけですね。<br/><br/>で、そうかといって、ふだん聞いているような話じゃ、せっかく遠くまで出てきて意味がないですから、なるべく珍しい話をしたいと、こう思ってます。<br/><br/>で、これからお話するのは、今まであまり言わなかったことで、今度の講和ですね。<br/><br/>一昨日から効力を発生したということになっておりますが、これはたいへん神秘なんです。<br/><br/>みんなめでたい、めでたいと言って、国中喜んでますが、確かにこれはそれに違いないけれども、しかし誰も分からないようなもっとめでたいことがあるんです。<br/><br/>これはあるいは、人類始まって以来のめでたいことかもしれませんね。<br/><br/>というのは、大体今世界は――いつも言う通り、精神文化と物質文化と、離れ離れになって、つまり経の棒と緯の棒が結ばってないですね。<br/><br/>ところが、緯の棒は――これもお話したことがありますが、物質文化の中心であり、ほとんど世界の物質文化の親玉みたいになっているのは米国なんです。<br/><br/>今欧州の文明国がありますけれども、とうてい今日は米国のすばらしい物質文化にはかなわないです。<br/><br/>ところで東洋文化ですね。<br/><br/>精神文化の東洋文化の方はどうかというと、これもなんと言っても日本ですからね。<br/><br/>日本こそ精神文化の中心であり、それからして日本はまた美術――この中心でもあるんですね。<br/><br/>そこで経と緯と結ばなければならない。<br/><br/>その結ぶ最初の起点ですね。<br/><br/>はずみが一昨日の講和記念日になるんです。<br/><br/>で、神様の方ではそういう経綸になっているんです。<br/><br/>つまり世界が伊都能売になるんですね。<br/><br/>そこで、つまり十字に結ばるわけですね。<br/><br/>だから、講和を契機として、日本とアメリカはいっそう仲が良くなるんです。<br/><br/>非常に密接になる。<br/><br/>従って文化も、日本の文化がアメリカにますます入って行くんですね。<br/><br/>それはアメリカでも、日本の特に古代文化なんか認めてますから、そこで日本の美術なんて、そういうものが、まだまだずっとアメリカに染み込んで行くんです。<br/><br/>それとともにアメリカの文化がもっともっと日本に入ってくるんです。<br/><br/>それで非常に――夫婦のように密接になるんです。<br/><br/>そんな第一歩が講和記念日からなんです。<br/><br/>それで初めて世界が伊都能売の働きになるんです。<br/><br/>で、バッジですね。<br/><br/>バッジがそれを現わしているんですよ。<br/><br/>真ん中の赤が日の丸なんです。<br/><br/>まわりの黄色がアメリカになるんですよ。<br/><br/>つまりアメリカに日本が抱かれているんですよ。<br/><br/>そうして十字に結ばって、真ん中がそういうふうになるわけですね。<br/><br/>だからして、その意味からいって、このくらいめでたいことはないわけなんです。<br/><br/>で、世界の文化というものは、そうなってからが本当の文化ができるんです。<br/><br/>つまり偏らない本当の文化――それができる。<br/><br/>まあ、すべて神様の御経綸で着々としてやられているんですから、そういう意味でメシヤ教もこれから非常に世の中に表面的に出てきて、つまり発展するわけです。<br/><br/>その結ぶ仕事というものが、やはりメシヤ教がやるんですから、今まであまりそういう大きなことを言うと、山師みたいに見られますから、なるべくそれは言わないようにしてますが、実際においてそういうような時期になってきたんです。<br/><br/>そこで最初の結ばる意味から言うと、日本の東と西と、この真ん中が、ちょうど中京になるわけですがね。<br/><br/>で、緯の方は、日本は細長い国ですから、そう著しくないですが、経の方は長いですから、東と西がはっきりと別れている。<br/><br/>その中心が中京になる。<br/><br/>それで一昨日中京の教会に寄り道して一席話したんですが、その意味の話をしたんです。<br/><br/>それで霊界における経綸を、私が説明したわけですね。<br/><br/>だからそのつもりでこれからやられれば良いわけですね。<br/><br/>で、なにごとも時期ですからね。<br/><br/>こんなに病気が治り、貧乏、争いが解決できる宗教が、もっとどんどん発展しなければならないと、誰でも思うんです。<br/><br/>私始めそういうふうに思っているんですが、それはやはり時期ですから、だんだんものが育って行くように、一歩一歩進んで行くんです。<br/><br/>神様の方は、突如としてパッとなるということはないんです。<br/><br/>それは、大自然の真理にはずれますからね。<br/><br/>どんなことでも、一歩一歩育って行くんです。<br/><br/>その代わり確実ですからね。<br/><br/>時期さえ来れば、ちゃんとその通りになるわけです。<br/><br/>ですから今度の京都に来た意味なんかも、やはり最初チラッとしたくらいのことが、だんだん一歩一歩具体化してくると、こういうわけなんです。<br/><br/> それから、昨日おもしろいことがあったんです。<br/><br/>昨日法隆寺に行った時に、夢殿というんですが、ふつうあまり参詣人に見せないですね。<br/><br/>今までは一年に一回扉を開いて見せるということになっているそうです。<br/><br/>昨日は突如として、夢殿が開いていたというわけですね。<br/><br/>これは非常に不思議なんですね。<br/><br/>やはり神様の方になにかわけがあるだろうと思って夢殿に行ってみますと、ちゃんと外の扉が開いて、中のお厨子の扉も開いて、そこに観音様の御像があるんです。<br/><br/>はっきりは判りませんが、少し暗いですからね。<br/><br/>それと遠くですからね。<br/><br/>形が、等身大のお観音様です。<br/><br/>それに札が書いてある。<br/><br/>「救世観世音」としてある。<br/><br/>救世観音様とも言いますが、これは昔から文献にないことはないんですが、ただ私はそれに「メシヤ」と仮名をつけたんですね。<br/><br/>これは私が初めてやったんです。<br/><br/>ですから、私の方から言えば、救世観音ですね。<br/><br/>文献にはありますが、そういった観音様の御姿と私は思うんです。<br/><br/>見たことがないですからね。<br/><br/>大体文献には大きいのは六観音ですね。<br/><br/>六つの観音様。<br/><br/>それから小さいと言いますか、その中に観音が三十三体あります。<br/><br/>救世観世音というのは、その中には一つもないんです。<br/><br/>ですからそこに神秘があるわけですね。<br/><br/>それで私は観音様の所に向かうと、観音様からスーッと霊気が入ってくる。<br/><br/>実になんとも言えない良い気持ちです。<br/><br/>そうして涙が流れそうになってきた。<br/><br/>まあ、長い間待っていたというわけですね。<br/><br/>それで、やはりそういった――神様の方にも時期があるんです。<br/><br/>その時期が来るまでは、どうすることもできない。<br/><br/>それで、今まで法隆寺の夢殿において時を待たれていたんです。<br/><br/>で、いよいよ時が来て、昨日私が行ったために、これから大いにお働きになりたいんです。<br/><br/>それで私に懸られたんです。<br/><br/>ですから、実に時なんです。<br/><br/>これからまた観音様が大いにお働きになるはずなんです。<br/><br/>そんなような具合ですからして、一生懸命にやって結構ですけれども、ただ知って、時期の来ないのに、いろいろの心配したりすることは必要ないわけですね。<br/><br/>時を待つということが一番肝腎なことです。<br/><br/>そうかといって、ぼんやり時を待っていては――寝ていて果報を待て――式じゃ、これは駄目で、やるだけのことはやる。<br/><br/>そうしてただ急ったり無理をしないということを心得ていれば良いわけですね。<br/><br/> そういうわけで、京都の方々のお寺にあるいろんな仏様ですね。<br/><br/>結局はメシヤ教が現われるのを、みんな待たれたんです。<br/><br/>それで今度私が来たことについても、いろんな仏様は霊界でたいへんな喜びなんですよ。<br/><br/>そういうわけですから、その仏様たちが、自分の宗旨の人をだんだん分からせるんですね。<br/><br/>そういう時期が非常に近寄ってきている。<br/><br/>この間私は日比谷の公会堂の時の話に、釈迦、キリストは私の弟子に相応するということを言ったわけですが、随分大きなことなんで知らない人は驚きます。<br/><br/>信者の人は別に驚く人はないんですが、そうすると仏教の方で、法然、親鸞、伝教、日蓮、弘法――ああいう人たちが、私の孫弟子になるわけですね。<br/><br/>だからいよいよ親父が出てきた。<br/><br/>これはなんでも働いていろいろ手功〔柄〕をしなければならんということになるんです。<br/><br/>そういうことについても、これからだんだん京都に地上天国でも造るようになりますと、そういう仏様たちがみんな寄ってきて、大いに私の言う通りに働くようになりますから、そうするとこっちの方も大発展をするということですね。<br/><br/>だから非常に期待した時期が近寄ったわけです。<br/><br/> そうしてもう一つのお話は、昨日もお寺をまわってみても、実にお寺が疲弊してますね。<br/><br/>だからいずれは美術館ができたら、仏教美術を主なるものにしたいと思っているんで、方々のお寺から――本尊様はしかたがないが、本尊様は馬鹿に大きいが、まあ出せる限りのものを一堂に集めて、そうして日本人はもとより、観光外客にも見せるようにして、入場料を取って、収入を多くして、それをお寺に分配するというような方法をとったら、非常に良いと思う。<br/><br/>そうするとお寺の方でも、修繕とか――随分普請をしかけて手をつけないという所があるようですから、お寺救済にもなると思います。<br/><br/>メシヤ教は社会事業はしませんが――養老院だとか、そういうことはしませんが、今言ったようなことは一種の社会事業です。<br/><br/>しかし私のやることは、人のやらないことをしたいと思う。<br/><br/>他の人ができるようなことは、する必要がないと思います。<br/><br/>他の者がやれないようなことをやろうと思ってますから、今言ったお寺救済と、それから日本の良いもの、良い古いものを、傷まないように保存する仕事をしなければならんと、そう思っている。<br/><br/>これは本当は政府がやるべきですが、政府が予算が足りないために思うようにいかないので、その欠陥を補うわけです。<br/><br/>大体――今度の旅行についてのいろいろなお話はそのくらいのことと思います。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

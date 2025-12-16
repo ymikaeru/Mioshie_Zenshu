@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s261008</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年10月8日） 『御教え集』3号、昭和26(1951)年11月25日発行 昭和二十六年十月八日 よくお蔭話なんかで、御霊紙を貼るとか、戴くとか言う事があるが、これについて、昔は御霊膏と言うものを使った。<br><br>それはただ白い紙に霊を入れたものですが、非常に――御霊膏と、それから「おひねり」と言うのを作った。<br><br>そうすると、何かの問題があった時、御霊膏と言うと――膏薬みたいなものですが、ちぎって飲んだものです。<br><br>そんなような――飲んだり、口に入れたりするようなものは、要するに消毒――殺菌しなければならないと言うのです。<br><br>それで、問題でも起きたりすると面倒くさいから止めたんです。<br><br>ところが、それを使うと非常に効き目があるんですね。<br><br>瘍や疔なんか出来ると、御霊膏を貼っただけでも治りますからね。<br><br> 信者さんで大分希望がある。<br><br>今御霊紙と言っているのは、お守さんを包んだ紙ですからね。<br><br>それでさえ効き目があるから、本当に霊を入れたのは素晴らしい効き目があるんですよ。<br><br>以前と今日とでは、時勢も違ったし、メシヤ教の信用も丸っきり違っているし、もうそんな事も、何ら問題が起こるとか、何らの疑念もないと思いますから、これからこしらえます。<br><br>大いに使って――もう二、三日したら出来ますから、入用な人は、それを持っていると気強いですよ。<br><br>大体、腫れ物とか痛み、それに貼れば良いんです。<br><br>良い加減な形に切って、縁にご飯粒で良いですが――つけて、それで貼っておくんです。<br><br>はり変えると言う必要はない。<br><br>一度貼ると良い。<br><br>治ると、自然に剥がれます。<br><br>剥がれないのはまだ治る必要があるんですね。<br><br>神様の膏薬だけに旨く出来てます。<br><br>それをちぎって飲んでも良いです。<br><br>それも非常に効果があります。<br><br>この間、ちぎって飲んだところが、直に良くなってビックリしたと言う事があったが、そんな事から気がついたんですが、そう言う訳ですから、家に置いておくとか、あるいは旅行なんかする時とか――と言う時には、これがあると、気強いですからね。<br><br>その宣伝をした訳です。<br><br> 「以前のを持っている者がございますが。<br><br>」 けれども、今の方が良いです。<br><br>あの時分の霊と今の霊とは、私の霊が違いますからね。<br><br>効き目が強くなっている。<br><br> 「地方では、御霊紙を苗代の時、ちぎって入れておりますが、そう言う事もお許し戴けますのでございましょうか。<br><br>」 良いですよ。<br><br>この間の――御霊紙を膿の出る所に貼って、色々なものを焼いたところが、御霊紙だけは燃えない。<br><br>二度焼いたが、二度とも燃えない。<br><br>その人は信仰が眠っていたが、焼けないと言うのを見て、確かに神様はあると言って、これからは一生懸命にやると言うお蔭話が来てました。<br><br> （御論文「 弥勒三会 」のあとの御教） この経と緯について、面白い事がある。<br><br>大本教の教祖さんは、大本教では「五（イズ）の御魂」と言っている。<br><br>出口王仁三郎先生――聖師様と言うのは「三（ミズ）の御魂」と言っている。<br><br>それで、五と三になっている。<br><br>経と緯になっている。<br><br>だから、教祖の時代には厳格で始終きちっと座っている。<br><br>ですからお筆先と言うのは、非常に厳格に書いてある。<br><br>それに引替え聖師様の方は、極端に反対で、始終寝ている。<br><br>「わしは三（ミズ）の御魂で、水は横に流れるから、仕方がない」と言っている。<br><br>聖師様がいる建物があるが、そこに始終布団敷いて、入るとすぐにごろっとなる。<br><br>著述も寝て書くんです。<br><br>それで手入れの時、各部屋に布団敷いて枕があるので、この部屋に女を置いて、大変な事をしたと疑われた。<br><br>そんな訳で、片っ方は経、片っ方は緯で、これを大きくすると東洋文明――経の文明ですね。<br><br>西洋文明――緯の文明となる。<br><br>大本教は、教祖様のやり方で失敗し、聖師様のやり方で失敗して、その間に生まれたのが伊都能売で、私が伊都能売になる。<br><br>釈迦、阿弥陀、観音――これが一緒になった時が弥勒三会になる。<br><br>だから、弥勒三会はもう済んだんです。<br><br>東洋の経で失敗し、緯の西洋文明も失敗した、経は善になり、緯は悪になるんですが、東洋―経は、善で失敗した。<br><br>それで、東洋人は善なんです。<br><br>インドやビルマ人なんかですね。<br><br>支那は緯が入りましたがね。<br><br>純粋の東洋人は実に善なんです。<br><br>西洋文明は、悪の文化です。<br><br>ところが、悪の文化は必要なんです。<br><br>物質文化は、神を否定しなければ発達しないんですからね。<br><br>ですから、今までは西洋文明で良いんです。<br><br>だが、それではどうしてもいけない。<br><br>結ばなければならない。<br><br>中の文明ですね。<br><br>今私が書いている。<br><br>「文明の創造」それが根本なんです。<br><br>今までの文明はどっちかに偏っている。<br><br>つまり、左翼と右翼ですね。<br><br>どっちもいけない。<br><br>左翼にあらず右翼にあらず、左翼であり右翼であり、その中心を結んだそれが本当のものです。<br><br>「文明の創造」はその結んだものですね。<br><br>そこで、本当の善悪が出来るんです。<br><br>それで、経と緯をよく知らなければならない。<br><br>バッチの真中が伊都能売になる。<br><br>伊都能売と言うのは、金属で言うと、金になる。<br><br>ですから観音さんは黄金の一寸八分となっている。<br><br>神様は昔から準備してあるんですからね。<br><br>ですからこの根本を知って、色々なものを見るとよく分かる。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Restauração do Emplastro Espiritual e a Síntese das Civilizações</h2>
 <p>Nos testemunhos de graças, é comum ouvirmos relatos sobre a aplicação ou o recebimento do que hoje chamamos de Papel Sagrado. A esse respeito, cumpre esclarecer que, no passado, utilizávamos um item denominado Emplastro Espiritual. Consistia em um simples papel branco no qual a Luz Divina era imbuída, e sua eficácia era notável. Também confeccionávamos o que se conhecia como “ohineri”.</p>
@@ -107,5 +259,48 @@ function toggleLang(lang) {
 <p>A civilização oriental, Vertical, fracassou. A civilização ocidental, Horizontal, também fracassou. O Vertical se manifesta como Bem, e o Horizontal, como Mal. O Oriente, portanto, fracassou através do Bem. Os povos orientais, como os indianos e birmaneses, são genuinamente bons, embora a China tenha recebido influências do Horizontal. Em sua forma pura, o oriental é a personificação do Bem. A civilização ocidental, por sua vez, é a cultura do Mal. Contudo, essa cultura do Mal era necessária. A civilização material, afinal, não se desenvolve sem negar a existência de Deus. Por isso, até o presente momento, ela cumpriu seu papel.</p>
 <p>Agora, porém, essa polaridade não pode mais persistir. É imperativo que os dois polos se unam. Essa é a civilização do centro, o tema sobre o qual escrevo em “A Criação da Civilização”. As civilizações até hoje penderam para um lado ou para o outro — em termos modernos, para a esquerda ou para a direita. Nenhum dos extremos é o caminho correto. A verdade não reside na esquerda nem na direita, mas em ser simultaneamente de esquerda e de direita, unindo o ponto central que as conecta. “A Criação da Civilização” trata justamente dessa síntese. É a partir dela que o verdadeiro Bem e o verdadeiro Mal podem ser compreendidos.</p>
 <p>Nesse sentido, é fundamental entender os princípios Vertical e Horizontal. O centro do nosso emblema representa Iznome. No plano dos metais, Iznome corresponde ao ouro. Por essa razão, Kannon (観音) é representada por uma estátua de ouro de issun-happun. Deus preparou todas as coisas desde tempos imemoriais. Ao compreender esse fundamento, é possível enxergar com clareza a natureza de todos os fenômenos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年10月8日） 『御教え集』3号、昭和26(1951)年11月25日発行 昭和二十六年十月八日 よくお蔭話なんかで、御霊紙を貼るとか、戴くとか言う事があるが、これについて、昔は御霊膏と言うものを使った。<br/><br/>それはただ白い紙に霊を入れたものですが、非常に――御霊膏と、それから「おひねり」と言うのを作った。<br/><br/>そうすると、何かの問題があった時、御霊膏と言うと――膏薬みたいなものですが、ちぎって飲んだものです。<br/><br/>そんなような――飲んだり、口に入れたりするようなものは、要するに消毒――殺菌しなければならないと言うのです。<br/><br/>それで、問題でも起きたりすると面倒くさいから止めたんです。<br/><br/>ところが、それを使うと非常に効き目があるんですね。<br/><br/>瘍や疔なんか出来ると、御霊膏を貼っただけでも治りますからね。<br/><br/> 信者さんで大分希望がある。<br/><br/>今御霊紙と言っているのは、お守さんを包んだ紙ですからね。<br/><br/>それでさえ効き目があるから、本当に霊を入れたのは素晴らしい効き目があるんですよ。<br/><br/>以前と今日とでは、時勢も違ったし、メシヤ教の信用も丸っきり違っているし、もうそんな事も、何ら問題が起こるとか、何らの疑念もないと思いますから、これからこしらえます。<br/><br/>大いに使って――もう二、三日したら出来ますから、入用な人は、それを持っていると気強いですよ。<br/><br/>大体、腫れ物とか痛み、それに貼れば良いんです。<br/><br/>良い加減な形に切って、縁にご飯粒で良いですが――つけて、それで貼っておくんです。<br/><br/>はり変えると言う必要はない。<br/><br/>一度貼ると良い。<br/><br/>治ると、自然に剥がれます。<br/><br/>剥がれないのはまだ治る必要があるんですね。<br/><br/>神様の膏薬だけに旨く出来てます。<br/><br/>それをちぎって飲んでも良いです。<br/><br/>それも非常に効果があります。<br/><br/>この間、ちぎって飲んだところが、直に良くなってビックリしたと言う事があったが、そんな事から気がついたんですが、そう言う訳ですから、家に置いておくとか、あるいは旅行なんかする時とか――と言う時には、これがあると、気強いですからね。<br/><br/>その宣伝をした訳です。<br/><br/> 「以前のを持っている者がございますが。<br/><br/>」 けれども、今の方が良いです。<br/><br/>あの時分の霊と今の霊とは、私の霊が違いますからね。<br/><br/>効き目が強くなっている。<br/><br/> 「地方では、御霊紙を苗代の時、ちぎって入れておりますが、そう言う事もお許し戴けますのでございましょうか。<br/><br/>」 良いですよ。<br/><br/>この間の――御霊紙を膿の出る所に貼って、色々なものを焼いたところが、御霊紙だけは燃えない。<br/><br/>二度焼いたが、二度とも燃えない。<br/><br/>その人は信仰が眠っていたが、焼けないと言うのを見て、確かに神様はあると言って、これからは一生懸命にやると言うお蔭話が来てました。<br/><br/> （御論文「 弥勒三会 」のあとの御教） この経と緯について、面白い事がある。<br/><br/>大本教の教祖さんは、大本教では「五（イズ）の御魂」と言っている。<br/><br/>出口王仁三郎先生――聖師様と言うのは「三（ミズ）の御魂」と言っている。<br/><br/>それで、五と三になっている。<br/><br/>経と緯になっている。<br/><br/>だから、教祖の時代には厳格で始終きちっと座っている。<br/><br/>ですからお筆先と言うのは、非常に厳格に書いてある。<br/><br/>それに引替え聖師様の方は、極端に反対で、始終寝ている。<br/><br/>「わしは三（ミズ）の御魂で、水は横に流れるから、仕方がない」と言っている。<br/><br/>聖師様がいる建物があるが、そこに始終布団敷いて、入るとすぐにごろっとなる。<br/><br/>著述も寝て書くんです。<br/><br/>それで手入れの時、各部屋に布団敷いて枕があるので、この部屋に女を置いて、大変な事をしたと疑われた。<br/><br/>そんな訳で、片っ方は経、片っ方は緯で、これを大きくすると東洋文明――経の文明ですね。<br/><br/>西洋文明――緯の文明となる。<br/><br/>大本教は、教祖様のやり方で失敗し、聖師様のやり方で失敗して、その間に生まれたのが伊都能売で、私が伊都能売になる。<br/><br/>釈迦、阿弥陀、観音――これが一緒になった時が弥勒三会になる。<br/><br/>だから、弥勒三会はもう済んだんです。<br/><br/>東洋の経で失敗し、緯の西洋文明も失敗した、経は善になり、緯は悪になるんですが、東洋―経は、善で失敗した。<br/><br/>それで、東洋人は善なんです。<br/><br/>インドやビルマ人なんかですね。<br/><br/>支那は緯が入りましたがね。<br/><br/>純粋の東洋人は実に善なんです。<br/><br/>西洋文明は、悪の文化です。<br/><br/>ところが、悪の文化は必要なんです。<br/><br/>物質文化は、神を否定しなければ発達しないんですからね。<br/><br/>ですから、今までは西洋文明で良いんです。<br/><br/>だが、それではどうしてもいけない。<br/><br/>結ばなければならない。<br/><br/>中の文明ですね。<br/><br/>今私が書いている。<br/><br/>「文明の創造」それが根本なんです。<br/><br/>今までの文明はどっちかに偏っている。<br/><br/>つまり、左翼と右翼ですね。<br/><br/>どっちもいけない。<br/><br/>左翼にあらず右翼にあらず、左翼であり右翼であり、その中心を結んだそれが本当のものです。<br/><br/>「文明の創造」はその結んだものですね。<br/><br/>そこで、本当の善悪が出来るんです。<br/><br/>それで、経と緯をよく知らなければならない。<br/><br/>バッチの真中が伊都能売になる。<br/><br/>伊都能売と言うのは、金属で言うと、金になる。<br/><br/>ですから観音さんは黄金の一寸八分となっている。<br/><br/>神様は昔から準備してあるんですからね。<br/><br/>ですからこの根本を知って、色々なものを見るとよく分かる。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

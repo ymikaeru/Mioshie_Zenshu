@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qhaisi08</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 肺浸潤より救わる 『結核の革命的療法』昭和26(1951)年8月15日発行 岡山県 神光中教会 松岡幸太（39） 昭和二十三年四月頃より毎朝痰が出て次第にやせてちょっとした作業にも胸苦しく、変だなと思いながらも会社へ勤めていたが、八月の末あまりに頭が重いので熱を測ってみた所、低い時で三十七度、午後になると三十七度五分という有様なので、医者に診て貰うとレントゲン写真では両肺に雲翳あり、血沈九五－一一五で正に肺結核、直ちに会社を休み療養生活に入った。<br><br>私は二十六歳の頃一度軽い肺浸潤をやった経験があり、医薬の頼りなさもよく知っていたので、赤本で有名な築田先生の抵抗療法を熱心にやった所、二カ月間位で最高三十七度二分程度の微熱状態となり、体も肥えて来ましたが、この微熱がなかなかとれず憂欝な毎日をすごしていました折、二十四年一月、神光中教会の赤木先生より、救世教の事を聞きましたが、何分自分が機械技術者であり、今迄神仏などは人の作った方便であって、精神修養の道具にすぎないという観念が強かったため鼻で笑い、妻が浄霊を受けるようにと勧める時などは今から考えると恥しい事ではありますが、自尊心を傷つけられたようで非常に怒ったものでしたが、赤木先生から御借した光新聞や地上天国を暇にまかせて次々と読んで行く内に、自然に引かれるものがあり、抵抗療法の行きづまりの感もあったのも手伝って、遂に妻を四月に入信させ、御指示の通り食事を菜食とし、毎日赤木先生に来て戴いて、一日三、四回の浄霊を受け、五月八日には自分も入信させていただきました。<br><br>丁度私が入信致した七日目でした。<br><br>突然四十度位発熱し、肛門のへりが拇指の頭ほど腫れ上り非常に痛み出し、歩く事も出来なくなりました。<br><br>この状態が三日間続きましたが、船橋政義先生の御浄霊を受けた所、多量の黒血が出て一時腫れが引きましたが、その後痔瘻となり大便が出る度に腫れ上り、膿が出るまでの三、四時間というものは非常に痛んで動く事も出来ぬ有様です。<br><br>世間では肺病で痔瘻になればもう駄目だと言われているが、先生の御話では痔瘻は肺病には実に有難い浄化で、御祝をせよとの事でしたが信ぜられず「天国の福音」を見せて頂き、又七月には明主様へ御面会に妻が参りました際、明主様より直接に御話を承り、初めて有難い浄化であると信ずるに至りました。<br><br>この痔瘻の痛みは約二カ月間続きましたが、その後は膿のみとなり、未だ出ております。<br><br>痔瘻になると共に熱も引き、八月の炎天下を自転車で走り廻っても微熱も出ず、早速八月二十六日御礼詣りに箱根へ参上、明主様に御面会の上元気に帰宅致しました。<br><br>その後十月には光明如来様の御軸を戴き、十一月には瀧春之助先生以下三十数名の参拝者により、御奉斎の御祭をして戴き、その有難さに感激致し、多少なりとも御恩返しにと地上天国建設のため、御用を努めさして戴いています。<br><br>冬の期間中は毎日一回ぐらい風邪引きの浄化を戴きましたがその度毎に多量の痰が出、一回毎に体の調子がよくなり、世間で言われている風邪は万病の因というのは非常な逆説であり、この言葉自身が多くの病気を作っているのだという事を確信しました。<br><br> 現在では一昨年の八月と昨年の一月及び三月の五六七大祭と三回、明主様に御面会に参上致しましたが、その度毎に御利益を戴き、今さらながら明主様の偉大なる御力に感激致しています。<br><br> 以上私の受けた御利益の経過を述べ御礼の言葉とし、病になやむ人が一日も早く一人でも多く本教より救われる指針ともなれば、私の幸いこの上もございません。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Salvo de uma infiltração pulmonar (Publicado em ‘A Terapia Revolucionária da Tuberculose’)</h2>
 <p><strong>Publicado em 15 de agosto de 1951</strong>
@@ -101,5 +256,48 @@ function toggleLang(lang) {
 <p>Durante o inverno, passei por purificações semelhantes a resfriados quase diariamente. Em cada uma delas, uma grande quantidade de catarro era expelida, e, a cada vez, eu me sentia fisicamente melhor. Isso me levou à convicção de que o ditado popular "o resfriado é a causa de todas as doenças" é um grande paradoxo. Na verdade, a própria crença nessas palavras é o que gera muitas enfermidades.</p>
 <p>Até o presente momento, já tive a permissão de estar na presença de Meishu-Sama por três vezes: em agosto do ano retrasado e nos Grandes Cultos de Miroku em janeiro e março do ano passado. Em cada uma dessas ocasiões, fui agraciado com novas bênçãos, o que renova minha profunda gratidão pelo poder grandioso de Meishu-Sama.</p>
 <p>Relatei aqui o processo das graças que recebi, e faço destas palavras meu mais sincero agradecimento. Se este testemunho puder servir como um norte para que mais pessoas que sofrem com doenças — ainda que seja uma única pessoa, o mais rápido possível — possam ser salvas por meio destes Ensinamentos, não haveria para mim felicidade maior.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 肺浸潤より救わる 『結核の革命的療法』昭和26(1951)年8月15日発行 岡山県 神光中教会 松岡幸太（39） 昭和二十三年四月頃より毎朝痰が出て次第にやせてちょっとした作業にも胸苦しく、変だなと思いながらも会社へ勤めていたが、八月の末あまりに頭が重いので熱を測ってみた所、低い時で三十七度、午後になると三十七度五分という有様なので、医者に診て貰うとレントゲン写真では両肺に雲翳あり、血沈九五－一一五で正に肺結核、直ちに会社を休み療養生活に入った。<br/><br/>私は二十六歳の頃一度軽い肺浸潤をやった経験があり、医薬の頼りなさもよく知っていたので、赤本で有名な築田先生の抵抗療法を熱心にやった所、二カ月間位で最高三十七度二分程度の微熱状態となり、体も肥えて来ましたが、この微熱がなかなかとれず憂欝な毎日をすごしていました折、二十四年一月、神光中教会の赤木先生より、救世教の事を聞きましたが、何分自分が機械技術者であり、今迄神仏などは人の作った方便であって、精神修養の道具にすぎないという観念が強かったため鼻で笑い、妻が浄霊を受けるようにと勧める時などは今から考えると恥しい事ではありますが、自尊心を傷つけられたようで非常に怒ったものでしたが、赤木先生から御借した光新聞や地上天国を暇にまかせて次々と読んで行く内に、自然に引かれるものがあり、抵抗療法の行きづまりの感もあったのも手伝って、遂に妻を四月に入信させ、御指示の通り食事を菜食とし、毎日赤木先生に来て戴いて、一日三、四回の浄霊を受け、五月八日には自分も入信させていただきました。<br/><br/>丁度私が入信致した七日目でした。<br/><br/>突然四十度位発熱し、肛門のへりが拇指の頭ほど腫れ上り非常に痛み出し、歩く事も出来なくなりました。<br/><br/>この状態が三日間続きましたが、船橋政義先生の御浄霊を受けた所、多量の黒血が出て一時腫れが引きましたが、その後痔瘻となり大便が出る度に腫れ上り、膿が出るまでの三、四時間というものは非常に痛んで動く事も出来ぬ有様です。<br/><br/>世間では肺病で痔瘻になればもう駄目だと言われているが、先生の御話では痔瘻は肺病には実に有難い浄化で、御祝をせよとの事でしたが信ぜられず「天国の福音」を見せて頂き、又七月には明主様へ御面会に妻が参りました際、明主様より直接に御話を承り、初めて有難い浄化であると信ずるに至りました。<br/><br/>この痔瘻の痛みは約二カ月間続きましたが、その後は膿のみとなり、未だ出ております。<br/><br/>痔瘻になると共に熱も引き、八月の炎天下を自転車で走り廻っても微熱も出ず、早速八月二十六日御礼詣りに箱根へ参上、明主様に御面会の上元気に帰宅致しました。<br/><br/>その後十月には光明如来様の御軸を戴き、十一月には瀧春之助先生以下三十数名の参拝者により、御奉斎の御祭をして戴き、その有難さに感激致し、多少なりとも御恩返しにと地上天国建設のため、御用を努めさして戴いています。<br/><br/>冬の期間中は毎日一回ぐらい風邪引きの浄化を戴きましたがその度毎に多量の痰が出、一回毎に体の調子がよくなり、世間で言われている風邪は万病の因というのは非常な逆説であり、この言葉自身が多くの病気を作っているのだという事を確信しました。<br/><br/> 現在では一昨年の八月と昨年の一月及び三月の五六七大祭と三回、明主様に御面会に参上致しましたが、その度毎に御利益を戴き、今さらながら明主様の偉大なる御力に感激致しています。<br/><br/> 以上私の受けた御利益の経過を述べ御礼の言葉とし、病になやむ人が一日も早く一人でも多く本教より救われる指針ともなれば、私の幸いこの上もございません。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

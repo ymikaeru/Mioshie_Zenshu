@@ -4,8 +4,410 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>gokinkyo</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,59 +442,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 明主様の御近況 理事 阿部晴三 『栄光』277号、昭和29(1954)年10月6日発行 明主様の御浄化の御経過及び御生活の御模様については、管長様より先般栄光紙上に御発表になられましたので、大綱は御承知のことと存じますが、今回皆様方御集まりの機会に、重ねて私より御話し申し上ぐるのが、適当かと思いまして、ここに述べさせていただきます。<br><br> まず御浄化についてでありますが、去る六月十五日熱海より箱根に御遷り遊ばされましてより、まずまず順調な御経過を辿られていらっしゃいますと申し上げて宜しいと存じます。<br><br>勿論その間には、時には御浄化の強くあらせらるるため、御頭部の方に、あるいは御足の方に、御苦痛のあられたことも屡々であり、その為殆んど御睡眠のなかったこともあり、又、御食事も全く御摂りにならなかったり、全くの流動物だけのことや全くの野菜食のこともありまして、人間的に見ますると心配で御憂慮に絶えなかったのでありますが、一面には御生誕後間もない御方の御生育の御過程を経られる御様子にも拝され、又他面には生活におきましての色々な型とも申し上ぐべき事をなされた御様子でもありました。<br><br>最近は御食欲も漸次御浄化前と近い程度になられまいっております。<br><br> 次に御神業に関することでありますが、御浄化中におきましても一日の御休みもなく、次々に御神苑内に起っておりまする色々の型の御経輪を行わせられました御模様で、これについては、いずれ詳細を皆様に御発表になられると仰せられていらっしゃいますが、中々に深いものがあられる御様子でございます。<br><br> 布教面に関しましても、国内におきまする教線の発展状況、海外においての布教進展の有様を随時お聞き遊ばされ、一般世間の浄化の模様や、信者の御浄霊の効果、お蔭話等についても絶えず御留意遊ばされ、自然栽培に関しましても普及会の動向、雨風や寒暖の気候の変化に伴なう稲作についての深い御関心を寄せられ、ラジオ、新聞等に報道せられたところを随時御聞きになられていらっしゃるのでございます。<br><br> 更に又、美術館に関することにつきましては、まことに微細の点についてまで御留意遊ばされ、如何なる風雨の場合でも、連日必ず御出ましになられ、御一巡せられまして、陳列に関する御指図があるのでございます。<br><br>陳列の前日に、まず観山亭にて一応お調べになり、陳列後も周囲の陳列品との配置関係や順序等、微に入り細に亘って御覧になられ、現在の陳列は総て明主様の御指示によっているのであります。<br><br>又陳列品も信者皆様の御参詣の際拝観出来得らるるよう、その前日に沢山の陳列替をなされるとか又美術品につき、信者さん方が既に見られたるや否や等もお尋ねになった上、なるべく新しいものを陳列なされるようにお考えになっていらっしゃるのでございます。<br><br> 美術館御巡回後は御神苑内を御散策なされるのでありますが、その際御神苑内の百合、ツツジ、萩、紅葉、苔庭等を御覧になられながらも、絶えず「信者さん方の御参詣の際にはどの程度に見られるだろうか」「次の参詣日には満開になるだろうか」とか等々、何時でも御気にかけられ「もっとも状況のよい時に皆さん方が眺められるとよろしいが」と仰せられていらっしゃいます。<br><br>明主様には如何程信者皆様の上を御考え遊ばされていらっしゃいますか、その御言葉を承る度に、お供を致しておりまする一同は、御仁慈の深さにただただ感泣し頭の下るのみでございます。<br><br> さて最後に申し上げたい事は、六月十五日熱海メシヤ会館で申し上げました、明主様の御手の筋でございますが、その後もはっきり現われており、最近は拇指の第一関節にまで筋が現われて参りました。<br><br>六月十五日当時は、第二関節にだけ現われておったのでございました。<br><br>更に最も驚くべきことは、あの白であらせられた御頭髪が段々黒くなられて参った事でありまして、隔日毎にお手入れに参っておりまする理髪をする人が驚いている程でございます。<br><br>恐らく信者皆様も、将来、明主様に御拝顔なされました時にはびっくりなさることと存じます。<br><br> 朝は正確に六時より夜は十時まで規則正しく、箱根にお遷り以来、観山亭のルームで御椅子の御生活を遊ばされ、夜は美術品の御観賞に、時には御神書を、あるいは笑の泉の御著書等を側近の考に繙かせさせられます。<br><br>時間の余裕のない側近者の身霊磨きをさせて戴いているのでございます。<br><br> なお明主様には本年熱海に御遷り遊ばすのに、水晶殿に御入りなさる旨仰せられまして、目下昼夜兼行にて造営を進められていらっしゃるのでございます。<br><br>これは大変な意味深重なものがあると存じ、いよいよ弥勒の御世の近まりつつあるを深く感ぜらるるのであります。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Estado Atual de Meishu-Sama</h2>
 <p><strong>Diretor Seizo Abe</strong>
@@ -106,5 +456,48 @@ function toggleLang(lang) {
 <p>Por fim, gostaria de abordar um tema que mencionei em 15 de junho, no Messhiya Kaikan de Atami: as linhas que surgiram nas mãos de Meishu-Sama. Essas marcas não apenas permanecem claramente visíveis, como também, mais recentemente, uma nova linha se manifestou na primeira articulação de Seu polegar. Recordo que, naquela data, a linha era visível apenas na segunda articulação. O fato mais assombroso, no entanto, é que Seus cabelos, antes brancos, estão gradualmente readquirindo a cor preta. O fenômeno é tão notável que causa espanto até mesmo no barbeiro que O atende em dias alternados. Tenho a certeza de que os senhores também ficarão maravilhados quando, no futuro, tiverem a oportunidade de estar novamente em Sua presença.</p>
 <p>Sua rotina é perfeitamente regular, estendendo-se das seis da manhã às dez da noite. Desde Sua transferência para Hakone, Ele passa Seus dias em uma poltrona em Seus aposentos no Kanzan-tei. As noites são dedicadas à apreciação de obras de arte e, por vezes, Ele solicita a um de Seus assistentes que leia em voz alta trechos dos Escritos Divinos ou de Sua coletânea “Fonte de Alegria”. Dessa maneira, Ele nos proporciona, a nós, Seus assistentes de tempo tão escasso, uma preciosa oportunidade para o aprimoramento de nosso espírito.</p>
 <p>Ademais, Meishu-Sama declarou Sua intenção de se instalar no Suisho-den (水晶殿) quando retornar a Atami ainda este ano. Para tanto, as obras de construção prosseguem em ritmo acelerado, dia e noite. Creio que este acontecimento reveste-se de um significado de extrema profundidade e transcendência, e sinto, com intensa convicção, que a alvorada da Era de Miroku se aproxima a cada dia.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 明主様の御近況 理事 阿部晴三 『栄光』277号、昭和29(1954)年10月6日発行 明主様の御浄化の御経過及び御生活の御模様については、管長様より先般栄光紙上に御発表になられましたので、大綱は御承知のことと存じますが、今回皆様方御集まりの機会に、重ねて私より御話し申し上ぐるのが、適当かと思いまして、ここに述べさせていただきます。<br/><br/> まず御浄化についてでありますが、去る六月十五日熱海より箱根に御遷り遊ばされましてより、まずまず順調な御経過を辿られていらっしゃいますと申し上げて宜しいと存じます。<br/><br/>勿論その間には、時には御浄化の強くあらせらるるため、御頭部の方に、あるいは御足の方に、御苦痛のあられたことも屡々であり、その為殆んど御睡眠のなかったこともあり、又、御食事も全く御摂りにならなかったり、全くの流動物だけのことや全くの野菜食のこともありまして、人間的に見ますると心配で御憂慮に絶えなかったのでありますが、一面には御生誕後間もない御方の御生育の御過程を経られる御様子にも拝され、又他面には生活におきましての色々な型とも申し上ぐべき事をなされた御様子でもありました。<br/><br/>最近は御食欲も漸次御浄化前と近い程度になられまいっております。<br/><br/> 次に御神業に関することでありますが、御浄化中におきましても一日の御休みもなく、次々に御神苑内に起っておりまする色々の型の御経輪を行わせられました御模様で、これについては、いずれ詳細を皆様に御発表になられると仰せられていらっしゃいますが、中々に深いものがあられる御様子でございます。<br/><br/> 布教面に関しましても、国内におきまする教線の発展状況、海外においての布教進展の有様を随時お聞き遊ばされ、一般世間の浄化の模様や、信者の御浄霊の効果、お蔭話等についても絶えず御留意遊ばされ、自然栽培に関しましても普及会の動向、雨風や寒暖の気候の変化に伴なう稲作についての深い御関心を寄せられ、ラジオ、新聞等に報道せられたところを随時御聞きになられていらっしゃるのでございます。<br/><br/> 更に又、美術館に関することにつきましては、まことに微細の点についてまで御留意遊ばされ、如何なる風雨の場合でも、連日必ず御出ましになられ、御一巡せられまして、陳列に関する御指図があるのでございます。<br/><br/>陳列の前日に、まず観山亭にて一応お調べになり、陳列後も周囲の陳列品との配置関係や順序等、微に入り細に亘って御覧になられ、現在の陳列は総て明主様の御指示によっているのであります。<br/><br/>又陳列品も信者皆様の御参詣の際拝観出来得らるるよう、その前日に沢山の陳列替をなされるとか又美術品につき、信者さん方が既に見られたるや否や等もお尋ねになった上、なるべく新しいものを陳列なされるようにお考えになっていらっしゃるのでございます。<br/><br/> 美術館御巡回後は御神苑内を御散策なされるのでありますが、その際御神苑内の百合、ツツジ、萩、紅葉、苔庭等を御覧になられながらも、絶えず「信者さん方の御参詣の際にはどの程度に見られるだろうか」「次の参詣日には満開になるだろうか」とか等々、何時でも御気にかけられ「もっとも状況のよい時に皆さん方が眺められるとよろしいが」と仰せられていらっしゃいます。<br/><br/>明主様には如何程信者皆様の上を御考え遊ばされていらっしゃいますか、その御言葉を承る度に、お供を致しておりまする一同は、御仁慈の深さにただただ感泣し頭の下るのみでございます。<br/><br/> さて最後に申し上げたい事は、六月十五日熱海メシヤ会館で申し上げました、明主様の御手の筋でございますが、その後もはっきり現われており、最近は拇指の第一関節にまで筋が現われて参りました。<br/><br/>六月十五日当時は、第二関節にだけ現われておったのでございました。<br/><br/>更に最も驚くべきことは、あの白であらせられた御頭髪が段々黒くなられて参った事でありまして、隔日毎にお手入れに参っておりまする理髪をする人が驚いている程でございます。<br/><br/>恐らく信者皆様も、将来、明主様に御拝顔なされました時にはびっくりなさることと存じます。<br/><br/> 朝は正確に六時より夜は十時まで規則正しく、箱根にお遷り以来、観山亭のルームで御椅子の御生活を遊ばされ、夜は美術品の御観賞に、時には御神書を、あるいは笑の泉の御著書等を側近の考に繙かせさせられます。<br/><br/>時間の余裕のない側近者の身霊磨きをさせて戴いているのでございます。<br/><br/> なお明主様には本年熱海に御遷り遊ばすのに、水晶殿に御入りなさる旨仰せられまして、目下昼夜兼行にて造営を進められていらっしゃるのでございます。<br/><br/>これは大変な意味深重なものがあると存じ、いよいよ弥勒の御世の近まりつつあるを深く感ぜらるるのであります。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

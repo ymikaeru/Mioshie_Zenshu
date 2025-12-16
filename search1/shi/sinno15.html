@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sinno15</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 真の健康と擬健康 『結核問題と其解決策（再版）』昭和18(1943)年5月5日発行 私はさきに、日本人の全部がほとんど病人であると言った。<br><br>そういう事をいうと、それは間違っている。<br><br>世間いくらも健康で活動している人があるではないかというであろう。<br><br>なるほど外見上だけでいえば、いかにも健康そうに見えるからそう思うのも無理はないが、私はこれに対し、詳細説明してみよう。<br><br> 私の発見した“病気は浄化作用”という、その浄化作用という意味は、言い換えれば、一旦固結したところの毒素に対し、自然的に溶解作用が起るという意味である。<br><br>従って、溶解作用発生以前は、何ら病気症状はないから健康体と同様である訳である。<br><br>即ち、毒素保有者といえども、それが固結していて、いささかの溶解作用の発生がない時は、健康体として自己自身もそう信じているし、且つ無熱で顔色も体格も健康そうであるから、たとえ、医家が健康診断を行うといえども、今日の医学の診断では、浄化発生以前の固結毒素を発見し得られないから、完全健康と誤るのはやむを得ないのである。<br><br>故に、医家の診断において模範的健康とされたものが、間もなく発病して死に至ったというような実例がよくあるのは、右のごとき理によるのである。<br><br> 従って、毒素を保有しながら、浄化未発生の人に対して、私は擬健康というのである。<br><br>しかるに本医術の診断においては、右のごとき擬健康である毒素保有者に対し、保有毒素のことごとくを知り得るのである。<br><br>医学において病気潜伏と称するのは、この保有毒素を想像していうのであろう。<br><br>そうして医学の診断において、血圧計とか、ツベルクリン反応、赤血球の沈降速度、梅毒の血液検査等に表われたる症状を以て、潜伏疾患を予想するのであるが、それに対し、いかなる臓器又はいかなる局所に潜伏病原があるかを適確に知り得ないのであるから、疾患の発生を防止し得ないのは当然である。<br><br>この意味を以てすれば、近来唱うる予防医学などは全く意味をなさないのであって、結局空念仏に過ぎないと私は思うのである。<br><br> 昔から、人は病気の器といい、いつ何時病（や）み患（わずら）いがあるかも知れないと案じ、又釈尊は人間の四苦は生病老死であるとし、病は避け難いものとされているが、それらはいずれも擬健康であるから、いつ浄化作用が発生するか判らないという状態に置かれているからである。<br><br>故に、真の健康者が増加するに従い右のごとき言葉は消滅してしまうであろう。<br><br> 右のごとくであるから、真の健康とは、全然無毒の人間でなければならないのであるが、そういうような完全な健康体は、今日の日本人には恐らく一万人に一人位であろう。<br><br>何となれば、九拾歳以上の長命者は、右のごとき健康者であるからである。<br><br>しかるに本医術によれば無毒者となり得るのであるから、完全健康体となり、九拾歳以上の長寿者となる事は、易々たるものである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdadeira Saúde e a Saúde Aparente</h2>
 <p>Afirmei anteriormente que a totalidade dos japoneses se encontra, em sua maioria, enferma. Diante de tal assertiva, muitos certamente contestarão, argumentando: “Isso é um equívoco. Não vemos por toda a parte inúmeras pessoas saudáveis e ativas?”. De fato, a julgar apenas pelas aparências, é natural que assim pensem, pois muitos parecem gozar de boa saúde. Contudo, permitam-me explicar a questão em seus pormenores.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Nesse sentido, denomino “saúde aparente” a condição daquele que, embora possua toxinas, ainda não manifestou o processo de purificação. A medicina, por sua vez, refere-se a essa condição imaginando a existência de uma “doença latente”. Para prever tal quadro, os médicos se valem de sintomas revelados em exames como a aferição da pressão arterial, o teste de tuberculina, a velocidade de sedimentação dos eritrócitos ou os testes sanguíneos para sífilis. Contudo, são incapazes de determinar com precisão em qual órgão ou localidade a causa da enfermidade se oculta. Naturalmente, a prevenção do seu surgimento torna-se impossível. Sob essa perspectiva, a tão propagada medicina preventiva perde todo o seu significado. A meu ver, não passa, em última análise, de uma prece vazia.</p>
 <p>Desde a antiguidade, repete-se o ditado de que “o ser humano é um receptáculo para a doença”, e vive-se sob o temor de que a enfermidade possa se manifestar a qualquer momento. O próprio Shakyamuni estabeleceu que os quatro sofrimentos humanos são o nascimento, a doença, a velhice e a morte, considerando o adoecimento algo inescapável. Todas essas concepções, entretanto, existem unicamente porque descrevem o estado de saúde aparente, no qual se ignora quando o processo de purificação terá início. Por conseguinte, à medida que aumentar o número de pessoas verdadeiramente saudáveis, tais expressões desaparecerão por completo.</p>
 <p>Diante do exposto, a verdadeira saúde só pode ser alcançada por um ser humano inteiramente livre de toxinas. Um corpo com essa saúde perfeita é, nos dias de hoje, algo que talvez encontremos em apenas uma a cada dez mil pessoas no Japão. Afinal, são justamente as pessoas que ultrapassam os noventa anos de idade as que se enquadram nessa categoria de indivíduos saudáveis. Todavia, por meio desta arte de curar, é possível tornar-se livre de toxinas. Consequentemente, alcançar a saúde perfeita e ultrapassar os noventa anos de vida é uma meta plenamente realizável.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 真の健康と擬健康 『結核問題と其解決策（再版）』昭和18(1943)年5月5日発行 私はさきに、日本人の全部がほとんど病人であると言った。<br/><br/>そういう事をいうと、それは間違っている。<br/><br/>世間いくらも健康で活動している人があるではないかというであろう。<br/><br/>なるほど外見上だけでいえば、いかにも健康そうに見えるからそう思うのも無理はないが、私はこれに対し、詳細説明してみよう。<br/><br/> 私の発見した“病気は浄化作用”という、その浄化作用という意味は、言い換えれば、一旦固結したところの毒素に対し、自然的に溶解作用が起るという意味である。<br/><br/>従って、溶解作用発生以前は、何ら病気症状はないから健康体と同様である訳である。<br/><br/>即ち、毒素保有者といえども、それが固結していて、いささかの溶解作用の発生がない時は、健康体として自己自身もそう信じているし、且つ無熱で顔色も体格も健康そうであるから、たとえ、医家が健康診断を行うといえども、今日の医学の診断では、浄化発生以前の固結毒素を発見し得られないから、完全健康と誤るのはやむを得ないのである。<br/><br/>故に、医家の診断において模範的健康とされたものが、間もなく発病して死に至ったというような実例がよくあるのは、右のごとき理によるのである。<br/><br/> 従って、毒素を保有しながら、浄化未発生の人に対して、私は擬健康というのである。<br/><br/>しかるに本医術の診断においては、右のごとき擬健康である毒素保有者に対し、保有毒素のことごとくを知り得るのである。<br/><br/>医学において病気潜伏と称するのは、この保有毒素を想像していうのであろう。<br/><br/>そうして医学の診断において、血圧計とか、ツベルクリン反応、赤血球の沈降速度、梅毒の血液検査等に表われたる症状を以て、潜伏疾患を予想するのであるが、それに対し、いかなる臓器又はいかなる局所に潜伏病原があるかを適確に知り得ないのであるから、疾患の発生を防止し得ないのは当然である。<br/><br/>この意味を以てすれば、近来唱うる予防医学などは全く意味をなさないのであって、結局空念仏に過ぎないと私は思うのである。<br/><br/> 昔から、人は病気の器といい、いつ何時病（や）み患（わずら）いがあるかも知れないと案じ、又釈尊は人間の四苦は生病老死であるとし、病は避け難いものとされているが、それらはいずれも擬健康であるから、いつ浄化作用が発生するか判らないという状態に置かれているからである。<br/><br/>故に、真の健康者が増加するに従い右のごとき言葉は消滅してしまうであろう。<br/><br/> 右のごとくであるから、真の健康とは、全然無毒の人間でなければならないのであるが、そういうような完全な健康体は、今日の日本人には恐らく一万人に一人位であろう。<br/><br/>何となれば、九拾歳以上の長命者は、右のごとき健康者であるからである。<br/><br/>しかるに本医術によれば無毒者となり得るのであるから、完全健康体となり、九拾歳以上の長寿者となる事は、易々たるものである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

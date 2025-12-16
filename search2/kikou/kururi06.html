@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kururi06</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 クルリ瓢箪 瓢箪 『地上天国』40号、昭和27(1952)年9月25日発行 御画筆の思出 大森時代の最初の頃は、訪う人も少なかったので、短歌や和歌をお詠みになったり、色紙や短冊に御絵をおかきになっていたのをおみかけした。<br><br>私は明主様がそれらをお娯しみになる事によって醸される芸術的雰囲気が堪らなく好きだったし、高く豊かな御情操を探究したい強い魅惑を感じていた。<br><br> その頃、観音様は最も多かったが、天照大神、釈迦、達磨などの神仏もお描きになり、時には墨絵や彩色で山水、雪月花などの簡単な絵もおかきになった。<br><br>しかしながら、言うまでもなく観音としての御救いが明主様の御本願であったし、信徒も又最も喜び望んだので、結局は観音様専一にお描きになる事になり、画箋紙で本格的に絵筆を揮われ、これを表装して御神体とした。<br><br>そして昭和六、七年頃には御画筆も重要な御仕事の一部門になり、折にふれて新しい御姿態を御研鑚になり、様々の下絵もお描きになっていた。<br><br>その頃のお仕事は午後からお始めになり、お絵をお書き始めになるのは大抵十時を過ぎてからであった。<br><br>私は御近くで御霊衣に包まるる快さと毎回変ったお姿の出来る興味もあってお傍に侍るのを楽しみとしていたが、明主様は御傍に誰がいようと決して御画筆の妨げとはされず、お話なされながらでも御描きになった。<br><br>今も御手許に残されかつて本部の神床に御奉斎された事のあるメシヤ観音、五秘佛観音、大弥勒様等の大作もその頃のものである。<br><br>これらをお描きになる時、私も終始緊張してお傍に侍ったが、御書上げになった時は、いつの間にか夜も白々と明け放れていた。<br><br>無限の大愛と幽玄の神秘を御面に湛え給う、偉大なる神の御姿を目のあたり拝する心地して鶏鳴を聞いた感激の一時は、今も忘れられない。<br><br> 右の中メシヤ観音様だけはなぜか落款をお入れにならなかった。<br><br>当時は日の出観音様と申上げていたが、このお姿をお掛けすると必ず陽気が暑くなったのも不思議であった。<br><br>なお大森時代の御画や御書にはすべて暉月の御落款をお入れになっているが、暉月とは日月の意となり観音のお働きを意味されたものと思わるるのである。<br><br> その後、朝寝妨の雅号を明烏阿呆とお改めになってからは御起床も御就寝も次第に早められ、御画筆も必ずラジオをお聴きになりながら運ばれるようになった。<br><br> 次に昭和九年五月、麹町へ御進出、現界の経綸に着手せらるる事となってからは、次第に入信者も殖え、御多忙となったため、御絵姿の外に「大聖観世音」なる文字の御神体をおかきになる事となった。<br><br> 同年十月、奇蹟物語に誌されたごとく、信徒の家たる、赤坂田町、日枝神社の真裏なる、ルリ美粧院の新築の三階をお借りになって画室とされ、平河町から毎日御仕事を終えられてはお通いになり、一切の御面接を絶たれて御筆も筆洗も新しく御描画に没頭せられ、絶後の大作千手観音御尊像を完成せられたのである。<br><br>丁度その頃は国を挙げて非常時を叫び、騒然たる世相であった。<br><br>明主様は、当時 「いまはしき世の悉も千萬里 さかるが如し観音描きつ」 とお詠みになられたが、三界の上に座して、御自らの千手千眼の御霊身を紙の上にお移しになられた時の御心境は特にそうであられた事と拝察する。<br><br>私も 「師のかかす絵の木炭の紙にふるる 音快し夜のしじまに」 と歌い奉ったが、こればお傍に侍る時の得もいえぬ快感と、幽幻な神秘感をほのかに表現したつもりであった。<br><br>そうして十八年後の今日、天国の雛型成った強羅日光殿に、その千手観音様が御奉斎せられたが、今こそ現実に、御歌の御心境そのまま、人類世界のあらゆる忌わしき事を悉く滅せられ、千万里さかる夢と化せしめらるるであろう時もいよいよ近づいた訳であって、今更ながら神慮の高遠を想う次第である。<br><br> 千手観音様を御描上げになってからは、日と共に救わるる者も殖え、人の出入りも盛んとなったし、御姿拝受者もまた多くなったので、御浄霊所たる平河町應神堂の隣家を御借りになり御画室を設けられ、次いで十年四月には元園町に御新居を得られ、自観荘と名づけられ 「ささやかな家を借りしも絵や歌に いそしまんとて今日うつりける」 とお詠みになられた。<br><br> その後十年十月玉川宝山荘へ御移りになられ、教勢増々振ったのも束の間、十一年五月と七月の御法難勃発し、宗教行為も療術行為も禁止されて信徒も四散して収入の道を絶たれ、御画も一時おやめになっていたが、多少希望者もあったし、吾々も財政窮迫の不安に堪えかねた点もあったので、御揮毫をお願し百幅だけおかき下さる事となった。<br><br>そして信仰の対象の意味でなく単なる絵画として頒布するという、主旨をもって観音百幅会を作り、一口百円（分納も可）として予約会員を募集し、窮余の方策としたのはまことに勿体ない事であったが、明主様も御諒察下されて、特に彩色を用いられたりして絵画的趣きのお姿を種々お描き下さったが、法難の大打戟後の事とて、会員獲得も極めて微々たるものに過ぎなかったので、百幅までおかきにならぬうちに自然解消の形とはなった。<br><br>しかし絶えざる官憲の圧迫下にも、地方に分散したお弟子によって徐々に信徒も出来、僅かながらも拝受を希望する者もあり、偶にではあるが小さいお画はお続けになっていた。<br><br>そして十三年療術行為の禁解けて再びお始めになってからは漸く御下付を望むものも殖え、十五年御廃業、前線的御仕事からお離れになり、光明如来の御働きとなられ、救業発展期に入るに及んで新しく光明如来の御尊像も御書き初めになったし、箱根へ御移居になってからは、御書体の光明如来様もお書き始めになる事となり、やがて全国的に教線拡充して行って、御絵に御書体にいよいよ益々お筆をお揮いにならねばならなくなった。<br><br>そのため御画筆も次第に能率的にお使いになるようになり、ついには二晩で十二体もおかきになるまでに高められるに至った。<br><br>線を簡略化せられたのも、一つはそのような御多端に応じられる必要からでもあられたのではあるまいかと思う。<br><br> そして二十一年御浄化の床に入らるる頃には、申込は山積するのみだったによっても、御画筆はお捨てにならねばならぬ事情になっていた。<br><br>又明主様の観音様を拝見するどんな人でも温い魅力と快感をもってて打たれるものがある。<br><br>そして一度床にお掛けすると外せなくなってしまう。<br><br>その頃信仰から離れた人でさえもお観音様だけは外したくないというのは今でもよく聞く事である。<br><br>なおその上に、種々の顕著な奇蹟を表わさるゝが故に、熱望する者は断りきれぬ程ふえるのば当然であった。<br><br> なお、前述のごとく、大森における初期の頃は、よく色紙や短冊に極簡単な御画をおかき下さったし、歌誌の表紙などにも戴いたものである。<br><br>それは全くほほえましい洒脱なものや風刺的なものもあり、何ともいえぬ上品なお絵もあった。<br><br>それは光琳風に最も近い描き方と思うが、もっと簡素な筆で、実に造作なく一気におかきになる。<br><br>それでいて物の真態が充分に表現され、その御構図のよさ、紙幅に対する画の位置と大きさ等と共に名画のもつ感覚の卓越さがあった。<br><br> 当時のもので最も印象に残っているの、は、月と萩二題の墨絵である。<br><br>それは実に清純で上品な御絵であった。<br><br>私はこれを拝見する度に色紙一杯に大きく描かれた月と萩が、生物のように秋気を漂わせ、深い真善美を語っているような感動を受けたものである。<br><br> 色紙や短冊の御絵は、その頃は何の惜気もなくほとんど無償で信徒にお与えになった。<br><br>そのため御手許には一枚も残っていないが、今日になってみれば得難い宝物である。<br><br>特に光明如来様や観音様の御姿は再びお書きにならぬとすれば、恐らく将来は世界の宝物となるであろう。<br><br>それを御礼にもならぬ程の御礼で戴けた人々の多くは、その幸いの偉大さをどれだけ知っていたであろう。<br><br>明主様の御恵はあまりに偉大であるために、その半ばも解せぬのが吾々の常である。<br><br> その後、玉川宝山荘で御受難後の悠々自適の時お描きになった梅と松の絵があった。<br><br>それはそれぞれ半切に彩色を用いて描かれた何ともいえぬボリュウムのある美事なもので、幾度見ても見飽かぬ妙味の深まるものであった。<br><br>これは渋井氏が拝受して家宝とされているが、いずれは公開される時もあるであろう。<br><br> 明主様は古今にない観音の画を完成されたが、それも多くは忙中の御一技に過ぎなかった。<br><br>もし画家として画業専一に進まれたら、やはりその最高峰に至られ、世界を動かされる程の画風を創成されたに違いないと信ずるのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Memórias do Pincel Sagrado de Meishu-Sama</h2>
 <p>Nos primórdios da era de Omori, quando o número de visitantes ainda era reduzido, era comum ver Meishu-Sama dedicando-se à composição de poemas <em>tanka</em> e <em>waka</em> ou à pintura em papéis especiais. Eu apreciava imensamente a atmosfera artística que emanava de seu deleite com essas atividades e sentia-me profundamente fascinado pelo desejo de perscrutar a nobreza e a riqueza de seus sentimentos.</p>
@@ -120,5 +272,48 @@ com o anseio de me dedicar à pintura e à poesia."</p>
 <p>Naquele tempo, Ele oferecia essas pinturas em papéis especiais aos fiéis de forma quase gratuita, sem qualquer apego. Por isso, nenhuma delas permaneceu em Suas mãos, mas hoje seriam tesouros de valor inestimável. Especialmente as imagens de Komyo Nyorai e Kannon, se de fato Ele não voltar a pintá-las, tornar-se-ão, no futuro, tesouros da humanidade. Quantos daqueles que as receberam, por uma gratidão que mal se podia chamar de oferta, teriam tido consciência da magnitude da graça que lhes fora concedida? As graças de Meishu-Sama são tão imensas que, via de regra, nós, seres humanos, não compreendemos nem a metade de seu valor.</p>
 <p>Recordo-me também de duas pinturas, uma de ameixeira e outra de pinheiro, criadas na Hozanso, em Tamagawa, durante o período de serenidade que se seguiu à perseguição. Ambas, coloridas e em formato vertical, eram obras magníficas, de um volume notável, cuja beleza se aprofundava a cada nova contemplação, sem jamais nos cansarmos de admirá-las. O senhor Shibui as recebeu e as guarda como um tesouro de família, mas talvez um dia elas venham a ser expostas ao público.</p>
 <p>Meishu-Sama aperfeiçoou a arte de pintar Kannon de uma forma sem precedentes na história, mas, em grande parte, isso não passava de uma habilidade demonstrada em meio a suas inúmeras ocupações. Tenho a firme convicção de que, se Ele houvesse se dedicado exclusivamente à carreira de pintor, teria igualmente atingido o ápice dessa arte, criando um estilo capaz de comover o mundo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 クルリ瓢箪 瓢箪 『地上天国』40号、昭和27(1952)年9月25日発行 御画筆の思出 大森時代の最初の頃は、訪う人も少なかったので、短歌や和歌をお詠みになったり、色紙や短冊に御絵をおかきになっていたのをおみかけした。<br/><br/>私は明主様がそれらをお娯しみになる事によって醸される芸術的雰囲気が堪らなく好きだったし、高く豊かな御情操を探究したい強い魅惑を感じていた。<br/><br/> その頃、観音様は最も多かったが、天照大神、釈迦、達磨などの神仏もお描きになり、時には墨絵や彩色で山水、雪月花などの簡単な絵もおかきになった。<br/><br/>しかしながら、言うまでもなく観音としての御救いが明主様の御本願であったし、信徒も又最も喜び望んだので、結局は観音様専一にお描きになる事になり、画箋紙で本格的に絵筆を揮われ、これを表装して御神体とした。<br/><br/>そして昭和六、七年頃には御画筆も重要な御仕事の一部門になり、折にふれて新しい御姿態を御研鑚になり、様々の下絵もお描きになっていた。<br/><br/>その頃のお仕事は午後からお始めになり、お絵をお書き始めになるのは大抵十時を過ぎてからであった。<br/><br/>私は御近くで御霊衣に包まるる快さと毎回変ったお姿の出来る興味もあってお傍に侍るのを楽しみとしていたが、明主様は御傍に誰がいようと決して御画筆の妨げとはされず、お話なされながらでも御描きになった。<br/><br/>今も御手許に残されかつて本部の神床に御奉斎された事のあるメシヤ観音、五秘佛観音、大弥勒様等の大作もその頃のものである。<br/><br/>これらをお描きになる時、私も終始緊張してお傍に侍ったが、御書上げになった時は、いつの間にか夜も白々と明け放れていた。<br/><br/>無限の大愛と幽玄の神秘を御面に湛え給う、偉大なる神の御姿を目のあたり拝する心地して鶏鳴を聞いた感激の一時は、今も忘れられない。<br/><br/> 右の中メシヤ観音様だけはなぜか落款をお入れにならなかった。<br/><br/>当時は日の出観音様と申上げていたが、このお姿をお掛けすると必ず陽気が暑くなったのも不思議であった。<br/><br/>なお大森時代の御画や御書にはすべて暉月の御落款をお入れになっているが、暉月とは日月の意となり観音のお働きを意味されたものと思わるるのである。<br/><br/> その後、朝寝妨の雅号を明烏阿呆とお改めになってからは御起床も御就寝も次第に早められ、御画筆も必ずラジオをお聴きになりながら運ばれるようになった。<br/><br/> 次に昭和九年五月、麹町へ御進出、現界の経綸に着手せらるる事となってからは、次第に入信者も殖え、御多忙となったため、御絵姿の外に「大聖観世音」なる文字の御神体をおかきになる事となった。<br/><br/> 同年十月、奇蹟物語に誌されたごとく、信徒の家たる、赤坂田町、日枝神社の真裏なる、ルリ美粧院の新築の三階をお借りになって画室とされ、平河町から毎日御仕事を終えられてはお通いになり、一切の御面接を絶たれて御筆も筆洗も新しく御描画に没頭せられ、絶後の大作千手観音御尊像を完成せられたのである。<br/><br/>丁度その頃は国を挙げて非常時を叫び、騒然たる世相であった。<br/><br/>明主様は、当時 「いまはしき世の悉も千萬里 さかるが如し観音描きつ」 とお詠みになられたが、三界の上に座して、御自らの千手千眼の御霊身を紙の上にお移しになられた時の御心境は特にそうであられた事と拝察する。<br/><br/>私も 「師のかかす絵の木炭の紙にふるる 音快し夜のしじまに」 と歌い奉ったが、こればお傍に侍る時の得もいえぬ快感と、幽幻な神秘感をほのかに表現したつもりであった。<br/><br/>そうして十八年後の今日、天国の雛型成った強羅日光殿に、その千手観音様が御奉斎せられたが、今こそ現実に、御歌の御心境そのまま、人類世界のあらゆる忌わしき事を悉く滅せられ、千万里さかる夢と化せしめらるるであろう時もいよいよ近づいた訳であって、今更ながら神慮の高遠を想う次第である。<br/><br/> 千手観音様を御描上げになってからは、日と共に救わるる者も殖え、人の出入りも盛んとなったし、御姿拝受者もまた多くなったので、御浄霊所たる平河町應神堂の隣家を御借りになり御画室を設けられ、次いで十年四月には元園町に御新居を得られ、自観荘と名づけられ 「ささやかな家を借りしも絵や歌に いそしまんとて今日うつりける」 とお詠みになられた。<br/><br/> その後十年十月玉川宝山荘へ御移りになられ、教勢増々振ったのも束の間、十一年五月と七月の御法難勃発し、宗教行為も療術行為も禁止されて信徒も四散して収入の道を絶たれ、御画も一時おやめになっていたが、多少希望者もあったし、吾々も財政窮迫の不安に堪えかねた点もあったので、御揮毫をお願し百幅だけおかき下さる事となった。<br/><br/>そして信仰の対象の意味でなく単なる絵画として頒布するという、主旨をもって観音百幅会を作り、一口百円（分納も可）として予約会員を募集し、窮余の方策としたのはまことに勿体ない事であったが、明主様も御諒察下されて、特に彩色を用いられたりして絵画的趣きのお姿を種々お描き下さったが、法難の大打戟後の事とて、会員獲得も極めて微々たるものに過ぎなかったので、百幅までおかきにならぬうちに自然解消の形とはなった。<br/><br/>しかし絶えざる官憲の圧迫下にも、地方に分散したお弟子によって徐々に信徒も出来、僅かながらも拝受を希望する者もあり、偶にではあるが小さいお画はお続けになっていた。<br/><br/>そして十三年療術行為の禁解けて再びお始めになってからは漸く御下付を望むものも殖え、十五年御廃業、前線的御仕事からお離れになり、光明如来の御働きとなられ、救業発展期に入るに及んで新しく光明如来の御尊像も御書き初めになったし、箱根へ御移居になってからは、御書体の光明如来様もお書き始めになる事となり、やがて全国的に教線拡充して行って、御絵に御書体にいよいよ益々お筆をお揮いにならねばならなくなった。<br/><br/>そのため御画筆も次第に能率的にお使いになるようになり、ついには二晩で十二体もおかきになるまでに高められるに至った。<br/><br/>線を簡略化せられたのも、一つはそのような御多端に応じられる必要からでもあられたのではあるまいかと思う。<br/><br/> そして二十一年御浄化の床に入らるる頃には、申込は山積するのみだったによっても、御画筆はお捨てにならねばならぬ事情になっていた。<br/><br/>又明主様の観音様を拝見するどんな人でも温い魅力と快感をもってて打たれるものがある。<br/><br/>そして一度床にお掛けすると外せなくなってしまう。<br/><br/>その頃信仰から離れた人でさえもお観音様だけは外したくないというのは今でもよく聞く事である。<br/><br/>なおその上に、種々の顕著な奇蹟を表わさるゝが故に、熱望する者は断りきれぬ程ふえるのば当然であった。<br/><br/> なお、前述のごとく、大森における初期の頃は、よく色紙や短冊に極簡単な御画をおかき下さったし、歌誌の表紙などにも戴いたものである。<br/><br/>それは全くほほえましい洒脱なものや風刺的なものもあり、何ともいえぬ上品なお絵もあった。<br/><br/>それは光琳風に最も近い描き方と思うが、もっと簡素な筆で、実に造作なく一気におかきになる。<br/><br/>それでいて物の真態が充分に表現され、その御構図のよさ、紙幅に対する画の位置と大きさ等と共に名画のもつ感覚の卓越さがあった。<br/><br/> 当時のもので最も印象に残っているの、は、月と萩二題の墨絵である。<br/><br/>それは実に清純で上品な御絵であった。<br/><br/>私はこれを拝見する度に色紙一杯に大きく描かれた月と萩が、生物のように秋気を漂わせ、深い真善美を語っているような感動を受けたものである。<br/><br/> 色紙や短冊の御絵は、その頃は何の惜気もなくほとんど無償で信徒にお与えになった。<br/><br/>そのため御手許には一枚も残っていないが、今日になってみれば得難い宝物である。<br/><br/>特に光明如来様や観音様の御姿は再びお書きにならぬとすれば、恐らく将来は世界の宝物となるであろう。<br/><br/>それを御礼にもならぬ程の御礼で戴けた人々の多くは、その幸いの偉大さをどれだけ知っていたであろう。<br/><br/>明主様の御恵はあまりに偉大であるために、その半ばも解せぬのが吾々の常である。<br/><br/> その後、玉川宝山荘で御受難後の悠々自適の時お描きになった梅と松の絵があった。<br/><br/>それはそれぞれ半切に彩色を用いて描かれた何ともいえぬボリュウムのある美事なもので、幾度見ても見飽かぬ妙味の深まるものであった。<br/><br/>これは渋井氏が拝受して家宝とされているが、いずれは公開される時もあるであろう。<br/><br/> 明主様は古今にない観音の画を完成されたが、それも多くは忙中の御一技に過ぎなかった。<br/><br/>もし画家として画業専一に進まれたら、やはりその最高峰に至られ、世界を動かされる程の画風を創成されたに違いないと信ずるのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

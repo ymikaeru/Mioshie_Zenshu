@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s270705</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年7月5日） 『御教え集』12号、昭和27(1952)年8月15日発行 昭和二十七年七月五日 【御教え】 いつも美術館のお話をしますが、まだ霊的の話をしてないから、今からします。<br><br>神様の根本の目的は、神仙郷の霊界――これが特別に霊界が光っているわけです。<br><br>そこでふつうの人が美術館を観にくるとすると浄められるのです。<br><br>浄められるということは、神様に反対するいろんな霊やなにかはみんな副守護神ですから、その先生の力が強いからその人が神様を信じないように思わせるのです。<br><br>その副守護神の先生を弱らせるのです。<br><br>それが一番なのです。<br><br>弱らせるには、光の中に入ると弱りますから、そこで信仰の話を聞かせたら解るわけです。<br><br>ですから信仰に反対する人をよくみると、解らないわけではない――解っていて解らない。<br><br>腹の底は解っている。<br><br>で、どうも好かない、おもしろくない――というよりか、なんとなくそういう気分がするのです。<br><br>理屈は解っているのです。<br><br>確かにお蔭やなにかを見せられるのですから信じなければならない。<br><br>信じていても入る気がしないというのは、副守護神が邪魔しているのです。<br><br>それを弱らせなければならない。<br><br>それには聖地の土を踏ませるのです。<br><br>そうすると副守護神の先生が弱りますから、神様の方に入るということになる。<br><br>ところで副守護神の先生がのさばっているのは、偉い人たちに多いのです。<br><br>ところが偉い人たちが解るということが一番肝腎なのです。<br><br>ですから偉い人たちがどうしても来なければならないような方法をとる。<br><br>ということが美術館になるわけです。<br><br>だから、この間――三十日、一日にも、なかなかそうとうに名のある人たち――インテリ――そういった人たちが大勢来てました。<br><br>二日で約百人近く来ました。<br><br>こういうことをしなければ、そういう人たちはそれだけの数が来ることは絶対にないです。<br><br>そこで神様はうまいことをやられるのです。<br><br>そうしてそれとともに曇りがいくぶんでも取れますから、つまり頭も良くなるのです。<br><br>今の人たちは――無論病気も多いですが、特に頭が悪いのです。<br><br>頭が悪いということについて、ちょっと書いてみたのです。<br><br>近ごろ非常に事故があるのです。<br><br>これは新聞によく出ていますが、事故の原因というのは、やはり頭が悪いためです。<br><br>それをちょっと書いてみた。<br><br> （御論文「事故の原因」）【栄光 一六五号】 もう一つ薬の害を書いたのです。<br><br> （御論文「救世の警鐘」）【栄光 一六五号】 この間も言った通り、最近『私物語』という本を書き始めたのですが、これは今まで書かなかったようないろんな興味のある話がありますから、それを想い出したまま書いた。<br><br>これは無信仰時代の一節ですが、少し書けたから読ませてみます。<br><br> （御論文「私物語 無信仰時代」） これもちょっとおもしろいものです。<br><br> （御論文「アレヨアレヨ」）【栄光 一六六号】 美術館ができたのが早過ぎるのでみんな驚いているのです。<br><br>まだこんなにできようとは思わないとか、なかなかそう容易にできるものではないのだからと思った、とか――。<br><br>ところが拝見してびっくりして――これは未信者の人に多いのですが、信者の人たちもやっぱりそういうふうに思われるだろうと思います。<br><br>これは私自身が――それほどでもないが、そういうふうに思うのです。<br><br>数えてみると、宗教法人になったのが二十二年の八月ですから、来月でちょうど満五カ年になるわけです。<br><br>それで、法人になった当時は信者とみなしてよい人は千人とはなかった――何百人くらいです。<br><br>それがこういうふうに急速に発展したのです。<br><br>しかもその間に随分いじめられたのです。<br><br>これはみんな知っている通り、翌年の二十三年十一月には脱税問題で、教団に関係したものはみんな家宅捜査され、いろいろな面倒臭いことがたくさんあって、一時は随分困ったのです。<br><br>ようやくその問題も片づきかけた一昨年の五月には、これもみんな知っている通り、静岡の警察や刑務所に引っ張られた事件ですが、これは脱税問題よりかもっと大きな問題で、一時随分打撃を受けました。<br><br>その間に――一昨々年になりますか――夏にＣ・Ⅰ・Ｄが突然やってきて、方々家宅捜査をしたり――隠匿物資、金魂を隠してあるというので、レーダーで観山亭のまわりをやってみたり、根太（ねだ）を上げて、縁の下が怪しいと縁の下を掘ったり――そんなことがあった。<br><br>これは一日か二日だったが、それから新聞はさかんに悪口を言うし、そうとういじめられました。<br><br>だから、そういうことがなければもっと発展したのです。<br><br>もっと早くなっている。<br><br>そんなにいろんなことをされながらも、こんなに早くこういった地上天国の模型ができるし、熱海の方も着々とできつつありますから、その早さはおそらく例がないくらいです。<br><br>だからそれを思ってみても、神様はいかにすばらしい力を振るわれているかということが分かる。<br><br>今も読んだ通り、霊界の方ではドンドン経綸が進んでいるのです。<br><br>これはだんだん現われてくるのです。<br><br>その現われ方がだんだん早さを増してくるわけです。<br><br>増してくるとともに、大きさも増すわけです。<br><br>だからいよいよおもしろくなってくるわけです。<br><br> それからどうせ霊界では邪神と正神の闘いですが、だんだん邪神の方が弱ってくるからして、こっちをいじめるとか、そういう力が弱ってくるからそこでやり良くなるということになる。<br><br>もう――去年、一昨年からみると、現在の社会の見る目が非常に異ってきてます。<br><br>これはみんなそういうことを感じるでしょうが、まあ――新聞にしろ、先には悪いことをおもしろがって書いたのですが、今はまじめにありのままを書くようになった。<br><br>そんなわけで、この間有志やそういう人たちが来ても、大体そういう人たちは喜んで来て、非常に満足して気持ち良く帰った。<br><br>あとのいろんな批評はこれからもチョイチョイあるでしょうが、長与善郎さんなんかも、感想を述べていきました。<br><br>そんなような具合に社会の見る目が異っただけでも、いかに変わったかということが分かる。<br><br>それからこれから外国の方にも、美術館としてだいぶ知れるだろうと思います。<br><br>有名なウォーナー博士――日本の奈良や京都の爆撃を押さえつけた人ですが、あの人が今月半ばか下旬に来ることになってます。<br><br>もう一人アメリカの偉い人が来ることになってますが、あの人たちが見れば、国に帰って大いに宣伝するだろうと思います。<br><br>そんなようなわけで、神様はドンドンそういったふうに腕を振るっているのです。<br><br>そんなような具合ですからして、非常におもしろくはなってきたのです。<br><br> 美術館はできましたが、まわりのいろんなことがいろいろありますから、それがすっかりできたらそうとう――日本に来た世界中の偉い人たちはたいてい来るだろうと思います。<br><br>さっきラジオで聞いたのですが、アメリカの人は夏になるとヨーロッパにみんな旅行に行くことにほとんど決まって、ヨーロッパの方のいろんな宿屋の申し込みが受けきれないそうです。<br><br>まずこの夏使う金の予想は、日本の金にして千八百億というのです。<br><br>ところがまだ東洋の方はとうていそんなわけにはいかないのです。<br><br>東洋といっても、まず日本です。<br><br>そうすると日本のいろいろな設備――道路も無論あるのですが、こういう箱根美術館なら箱根美術館ができるということは、一つの有力なものにもなるということは、確かです。<br><br>ですから国家的意味からもたいへんな働きになるわけです。<br><br>これは、この間の博物館の連中やなにかが、それは大いに認めて非常に讃美してました。<br><br>自分たちもこういうことをやりたいのだが、お役人ではぜんぜん駄目です。<br><br>こういった――個人的にこういうことをやってくれるということは、自分たちもありがたいということをしきりに言ってました。<br><br>そういうようなわけです。<br><br> それから美術について――これはいずれ小冊子にして美術館に来た人たちにやろうと思ってますが、それを書き始めたのです。<br><br>これは品物やなにかについて、一つの予備知識として知っておく必要がある。<br><br>これは書き始めですが、書けただけを読ませます。<br><br> （御論文「東洋美術雑観」）【栄光 一六六号】 越州窯（えつしゅうよう）というのは一番古いのです。<br><br>支那の室に入るとすぐ右側に大きな壷があります。<br><br>あれが越州窯の一番良いのです。<br><br>あれは世界に一つしかありません。<br><br>英国、米国にありますが、もっと小さい物です。<br><br>あれだけの大きさで、あれだけの良い作というのは絶対に世界にないのです。<br><br>あれがつまり青磁の始まりなのです。<br><br> 均窯（きんよう）――これも、真ん中に大きな皿があって、両側に水盤がありますが、このことです。<br><br>二色のはっきりした物を出したのです。<br><br> 梅瓶（ばいびん）――これについては、今博物館で展覧会をしてますが、今月の十日まであります。<br><br>そこに出品の二つが世界一です。<br><br>アメリカのロサンゼルスで支那陶器の展覧会があって、日本から十五点出しましたが、この十五点の中で、この二つが一番良いのです。<br><br> 白定窯（はくていよう）――これも世界にないです。<br><br>真っ白な水指と徳利がありますが、水指の方は、ちょっと形の変わったのは岩崎にありますが、徳利は日本にはないです。<br><br>外国にもないです。<br><br>外国のものが、今度のロサンゼルスの展覧会で何百と出たでしょうが、やはり日本の十五点というのが断然抜いているのです。<br><br>あっちの新聞や雑誌に出たのも、日本のことが三分の二くらい出ていたそうです。<br><br>だからここにある支那陶器だけでも、数はかなわないが、質からいったら英国、米国に勝ってます。<br><br> これを分かって、そうして一つ一つ見るとおもしろいのです。<br><br>まあ来るたびに気長に見ていると、だんだん分かってきます。<br><br> それから、南蛮屏風という信長の時代にできた物ですが、博物館の人が来て、明治三十八年から探しているのですが、どこに行っても所在が分からない。<br><br>ここに来て分かって実にありがたいと嬉しがって褒めてました。<br><br>これと同じ物を細川さんが持っているのです。<br><br>それが日本一とされていたのです。<br><br>去年サンフランシスコの展覧会に出しましたが、よく見ると下書きがチョイチョイあるのです。<br><br>どうもおかしいと思ったら、こちらのが元だというのです。<br><br>これをまねた物に違いない。<br><br>こちらのが本物で、細川さんのがその写しということが分かった。<br><br>私の方のは非常にきれいなのです。<br><br>細川さんのはだいぶやつれている。<br><br>それを聞いて私も非常に嬉しかったのです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Museu de Arte e a Providência Divina</h2>
 <p>Tenho discorrido frequentemente sobre o Museu de Arte, mas ainda não abordei sua dimensão espiritual, o que farei a partir de agora. A finalidade primordial de Deus é manifestar o Mundo Espiritual do Shinsenkyo, um plano que irradia uma luz particularmente intensa. Assim, quando as pessoas visitam o Museu de Arte, elas são purificadas.</p>
@@ -111,5 +263,48 @@ function toggleLang(lang) {
 <p>A cerâmica Hakuteiyō (白定窯) que possuímos também é uma raridade mundial. Refiro-me ao jarro de água e à garrafa de um branco imaculado. Existe um jarro de formato ligeiramente diferente na coleção Iwasaki, mas a garrafa é única no Japão e no exterior. Na exposição de Los Angeles, embora centenas de peças estrangeiras tenham sido exibidas, as quinze obras japonesas se destacaram de forma incontestável. Cerca de dois terços da cobertura da imprensa e das revistas especializadas foram dedicados a elas. Portanto, posso afirmar que, apenas com nossa coleção de cerâmica chinesa, embora inferior em quantidade, superamos em qualidade as coleções do Reino Unido e dos Estados Unidos.</p>
 <p>Com esse conhecimento prévio, a apreciação de cada obra se torna muito mais profunda. Recomendo que, a cada visita, observem as peças com calma e paciência, pois assim, gradualmente, a compreensão se aprofundará.</p>
 <p>Temos também um biombo Nanban, da era de Oda Nobunaga. Um especialista de outro museu que nos visitou comentou que procurava por essa obra desde 1905 e, ao encontrá-la aqui, não conteve sua alegria e admiração. Existe uma peça semelhante em posse da família Hosokawa, que era tida como a mais importante do Japão e que, no ano passado, foi exibida em São Francisco. No entanto, uma análise mais atenta revela a presença de traços do esboço original, o que causou estranheza. Concluiu-se, então, que a nossa obra é a original, e a da família Hosokawa, uma cópia. A nossa está em estado impecável, enquanto a outra se encontra bastante desgastada. Fiquei imensamente feliz ao tomar conhecimento desse fato.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年7月5日） 『御教え集』12号、昭和27(1952)年8月15日発行 昭和二十七年七月五日 【御教え】 いつも美術館のお話をしますが、まだ霊的の話をしてないから、今からします。<br/><br/>神様の根本の目的は、神仙郷の霊界――これが特別に霊界が光っているわけです。<br/><br/>そこでふつうの人が美術館を観にくるとすると浄められるのです。<br/><br/>浄められるということは、神様に反対するいろんな霊やなにかはみんな副守護神ですから、その先生の力が強いからその人が神様を信じないように思わせるのです。<br/><br/>その副守護神の先生を弱らせるのです。<br/><br/>それが一番なのです。<br/><br/>弱らせるには、光の中に入ると弱りますから、そこで信仰の話を聞かせたら解るわけです。<br/><br/>ですから信仰に反対する人をよくみると、解らないわけではない――解っていて解らない。<br/><br/>腹の底は解っている。<br/><br/>で、どうも好かない、おもしろくない――というよりか、なんとなくそういう気分がするのです。<br/><br/>理屈は解っているのです。<br/><br/>確かにお蔭やなにかを見せられるのですから信じなければならない。<br/><br/>信じていても入る気がしないというのは、副守護神が邪魔しているのです。<br/><br/>それを弱らせなければならない。<br/><br/>それには聖地の土を踏ませるのです。<br/><br/>そうすると副守護神の先生が弱りますから、神様の方に入るということになる。<br/><br/>ところで副守護神の先生がのさばっているのは、偉い人たちに多いのです。<br/><br/>ところが偉い人たちが解るということが一番肝腎なのです。<br/><br/>ですから偉い人たちがどうしても来なければならないような方法をとる。<br/><br/>ということが美術館になるわけです。<br/><br/>だから、この間――三十日、一日にも、なかなかそうとうに名のある人たち――インテリ――そういった人たちが大勢来てました。<br/><br/>二日で約百人近く来ました。<br/><br/>こういうことをしなければ、そういう人たちはそれだけの数が来ることは絶対にないです。<br/><br/>そこで神様はうまいことをやられるのです。<br/><br/>そうしてそれとともに曇りがいくぶんでも取れますから、つまり頭も良くなるのです。<br/><br/>今の人たちは――無論病気も多いですが、特に頭が悪いのです。<br/><br/>頭が悪いということについて、ちょっと書いてみたのです。<br/><br/>近ごろ非常に事故があるのです。<br/><br/>これは新聞によく出ていますが、事故の原因というのは、やはり頭が悪いためです。<br/><br/>それをちょっと書いてみた。<br/><br/> （御論文「事故の原因」）【栄光 一六五号】 もう一つ薬の害を書いたのです。<br/><br/> （御論文「救世の警鐘」）【栄光 一六五号】 この間も言った通り、最近『私物語』という本を書き始めたのですが、これは今まで書かなかったようないろんな興味のある話がありますから、それを想い出したまま書いた。<br/><br/>これは無信仰時代の一節ですが、少し書けたから読ませてみます。<br/><br/> （御論文「私物語 無信仰時代」） これもちょっとおもしろいものです。<br/><br/> （御論文「アレヨアレヨ」）【栄光 一六六号】 美術館ができたのが早過ぎるのでみんな驚いているのです。<br/><br/>まだこんなにできようとは思わないとか、なかなかそう容易にできるものではないのだからと思った、とか――。<br/><br/>ところが拝見してびっくりして――これは未信者の人に多いのですが、信者の人たちもやっぱりそういうふうに思われるだろうと思います。<br/><br/>これは私自身が――それほどでもないが、そういうふうに思うのです。<br/><br/>数えてみると、宗教法人になったのが二十二年の八月ですから、来月でちょうど満五カ年になるわけです。<br/><br/>それで、法人になった当時は信者とみなしてよい人は千人とはなかった――何百人くらいです。<br/><br/>それがこういうふうに急速に発展したのです。<br/><br/>しかもその間に随分いじめられたのです。<br/><br/>これはみんな知っている通り、翌年の二十三年十一月には脱税問題で、教団に関係したものはみんな家宅捜査され、いろいろな面倒臭いことがたくさんあって、一時は随分困ったのです。<br/><br/>ようやくその問題も片づきかけた一昨年の五月には、これもみんな知っている通り、静岡の警察や刑務所に引っ張られた事件ですが、これは脱税問題よりかもっと大きな問題で、一時随分打撃を受けました。<br/><br/>その間に――一昨々年になりますか――夏にＣ・Ⅰ・Ｄが突然やってきて、方々家宅捜査をしたり――隠匿物資、金魂を隠してあるというので、レーダーで観山亭のまわりをやってみたり、根太（ねだ）を上げて、縁の下が怪しいと縁の下を掘ったり――そんなことがあった。<br/><br/>これは一日か二日だったが、それから新聞はさかんに悪口を言うし、そうとういじめられました。<br/><br/>だから、そういうことがなければもっと発展したのです。<br/><br/>もっと早くなっている。<br/><br/>そんなにいろんなことをされながらも、こんなに早くこういった地上天国の模型ができるし、熱海の方も着々とできつつありますから、その早さはおそらく例がないくらいです。<br/><br/>だからそれを思ってみても、神様はいかにすばらしい力を振るわれているかということが分かる。<br/><br/>今も読んだ通り、霊界の方ではドンドン経綸が進んでいるのです。<br/><br/>これはだんだん現われてくるのです。<br/><br/>その現われ方がだんだん早さを増してくるわけです。<br/><br/>増してくるとともに、大きさも増すわけです。<br/><br/>だからいよいよおもしろくなってくるわけです。<br/><br/> それからどうせ霊界では邪神と正神の闘いですが、だんだん邪神の方が弱ってくるからして、こっちをいじめるとか、そういう力が弱ってくるからそこでやり良くなるということになる。<br/><br/>もう――去年、一昨年からみると、現在の社会の見る目が非常に異ってきてます。<br/><br/>これはみんなそういうことを感じるでしょうが、まあ――新聞にしろ、先には悪いことをおもしろがって書いたのですが、今はまじめにありのままを書くようになった。<br/><br/>そんなわけで、この間有志やそういう人たちが来ても、大体そういう人たちは喜んで来て、非常に満足して気持ち良く帰った。<br/><br/>あとのいろんな批評はこれからもチョイチョイあるでしょうが、長与善郎さんなんかも、感想を述べていきました。<br/><br/>そんなような具合に社会の見る目が異っただけでも、いかに変わったかということが分かる。<br/><br/>それからこれから外国の方にも、美術館としてだいぶ知れるだろうと思います。<br/><br/>有名なウォーナー博士――日本の奈良や京都の爆撃を押さえつけた人ですが、あの人が今月半ばか下旬に来ることになってます。<br/><br/>もう一人アメリカの偉い人が来ることになってますが、あの人たちが見れば、国に帰って大いに宣伝するだろうと思います。<br/><br/>そんなようなわけで、神様はドンドンそういったふうに腕を振るっているのです。<br/><br/>そんなような具合ですからして、非常におもしろくはなってきたのです。<br/><br/> 美術館はできましたが、まわりのいろんなことがいろいろありますから、それがすっかりできたらそうとう――日本に来た世界中の偉い人たちはたいてい来るだろうと思います。<br/><br/>さっきラジオで聞いたのですが、アメリカの人は夏になるとヨーロッパにみんな旅行に行くことにほとんど決まって、ヨーロッパの方のいろんな宿屋の申し込みが受けきれないそうです。<br/><br/>まずこの夏使う金の予想は、日本の金にして千八百億というのです。<br/><br/>ところがまだ東洋の方はとうていそんなわけにはいかないのです。<br/><br/>東洋といっても、まず日本です。<br/><br/>そうすると日本のいろいろな設備――道路も無論あるのですが、こういう箱根美術館なら箱根美術館ができるということは、一つの有力なものにもなるということは、確かです。<br/><br/>ですから国家的意味からもたいへんな働きになるわけです。<br/><br/>これは、この間の博物館の連中やなにかが、それは大いに認めて非常に讃美してました。<br/><br/>自分たちもこういうことをやりたいのだが、お役人ではぜんぜん駄目です。<br/><br/>こういった――個人的にこういうことをやってくれるということは、自分たちもありがたいということをしきりに言ってました。<br/><br/>そういうようなわけです。<br/><br/> それから美術について――これはいずれ小冊子にして美術館に来た人たちにやろうと思ってますが、それを書き始めたのです。<br/><br/>これは品物やなにかについて、一つの予備知識として知っておく必要がある。<br/><br/>これは書き始めですが、書けただけを読ませます。<br/><br/> （御論文「東洋美術雑観」）【栄光 一六六号】 越州窯（えつしゅうよう）というのは一番古いのです。<br/><br/>支那の室に入るとすぐ右側に大きな壷があります。<br/><br/>あれが越州窯の一番良いのです。<br/><br/>あれは世界に一つしかありません。<br/><br/>英国、米国にありますが、もっと小さい物です。<br/><br/>あれだけの大きさで、あれだけの良い作というのは絶対に世界にないのです。<br/><br/>あれがつまり青磁の始まりなのです。<br/><br/> 均窯（きんよう）――これも、真ん中に大きな皿があって、両側に水盤がありますが、このことです。<br/><br/>二色のはっきりした物を出したのです。<br/><br/> 梅瓶（ばいびん）――これについては、今博物館で展覧会をしてますが、今月の十日まであります。<br/><br/>そこに出品の二つが世界一です。<br/><br/>アメリカのロサンゼルスで支那陶器の展覧会があって、日本から十五点出しましたが、この十五点の中で、この二つが一番良いのです。<br/><br/> 白定窯（はくていよう）――これも世界にないです。<br/><br/>真っ白な水指と徳利がありますが、水指の方は、ちょっと形の変わったのは岩崎にありますが、徳利は日本にはないです。<br/><br/>外国にもないです。<br/><br/>外国のものが、今度のロサンゼルスの展覧会で何百と出たでしょうが、やはり日本の十五点というのが断然抜いているのです。<br/><br/>あっちの新聞や雑誌に出たのも、日本のことが三分の二くらい出ていたそうです。<br/><br/>だからここにある支那陶器だけでも、数はかなわないが、質からいったら英国、米国に勝ってます。<br/><br/> これを分かって、そうして一つ一つ見るとおもしろいのです。<br/><br/>まあ来るたびに気長に見ていると、だんだん分かってきます。<br/><br/> それから、南蛮屏風という信長の時代にできた物ですが、博物館の人が来て、明治三十八年から探しているのですが、どこに行っても所在が分からない。<br/><br/>ここに来て分かって実にありがたいと嬉しがって褒めてました。<br/><br/>これと同じ物を細川さんが持っているのです。<br/><br/>それが日本一とされていたのです。<br/><br/>去年サンフランシスコの展覧会に出しましたが、よく見ると下書きがチョイチョイあるのです。<br/><br/>どうもおかしいと思ったら、こちらのが元だというのです。<br/><br/>これをまねた物に違いない。<br/><br/>こちらのが本物で、細川さんのがその写しということが分かった。<br/><br/>私の方のは非常にきれいなのです。<br/><br/>細川さんのはだいぶやつれている。<br/><br/>それを聞いて私も非常に嬉しかったのです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>
