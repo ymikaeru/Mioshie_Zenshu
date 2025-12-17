@@ -8,6 +8,19 @@ async function initApp() {
         const response = await fetch('yamato_full.json');
         const data = await response.json();
         renderApp(data);
+
+        // Check for deep link after rendering
+        const urlParams = new URLSearchParams(window.location.search);
+        const poemId = urlParams.get('poem');
+        if (poemId) {
+            // Give a slight delay to ensure DOM is ready and lookup is populated
+            setTimeout(() => {
+                const targetPoem = window.poemLookup && window.poemLookup['poem_' + poemId];
+                if (targetPoem) {
+                    openModal(targetPoem);
+                }
+            }, 500);
+        }
     } catch (e) {
         console.error("Failed to load yamato_full.json", e);
         document.getElementById('app').innerHTML = '<p style="color:red; text-align:center;">Erro ao carregar dados. Verifique yamato_full.json</p>';
@@ -129,14 +142,34 @@ function openModal(poem) {
             return;
         }
 
-        document.getElementById('modalTitle').innerText = poem.title;
+        // Update URL
+        const newUrl = window.location.pathname + '?poem=' + poem.number;
+        window.history.pushState({ path: newUrl }, '', newUrl);
+
+        // Header Title and Copy Button
+        const headerTitle = document.getElementById('modalTitle');
+        headerTitle.innerHTML = `
+            ${poem.title}
+             <div style="display:inline-flex; gap:5px; margin-left:10px; vertical-align:middle;">
+                <button class="copy-btn" onclick="copyPoemLink()" title="Copiar Link">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                        <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>
+                    </svg>
+                </button>
+                <button class="copy-btn" onclick="copyPoemContent()" title="Copiar conteúdo">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                       <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+                    </svg>
+                </button>
+            </div>
+        `;
 
         const body = document.getElementById('modalBodyContent');
         body.innerHTML = ''; // basic clear
 
         // Build content matching Home design
         let html = `
-            <div class="poem-modal-content">
+            <div class="poem-modal-content" id="poemContentToCopy">
                 <!-- Header Badge -->
                 <div class="poem-badge">POESIA SAGRADA</div>
                 
@@ -152,6 +185,9 @@ function openModal(poem) {
                 <!-- Portuguese Translation - Italic -->
                 <div class="poem-translation-featured">"${poem.translation || ''}"</div>
         `;
+
+        // Store current poem for copy function
+        window.currentModalPoem = poem;
 
         // Kigo Card
         if (poem.kigo) {
@@ -187,6 +223,37 @@ function openModal(poem) {
 
         body.innerHTML = html;
         modal.classList.add('active');
+
+        // Add copy button style if not present
+        if (!document.getElementById('copy-btn-style')) {
+            const style = document.createElement('style');
+            style.id = 'copy-btn-style';
+            style.innerHTML = `
+                .copy-btn {
+                    background: none;
+                    border: none;
+                    cursor: pointer;
+                    color: #666;
+                    padding: 4px;
+                    border-radius: 4px;
+                    margin-left: 10px;
+                    transition: all 0.2s;
+                    display: inline-flex;
+                    align-items: center;
+                    vertical-align: middle;
+                }
+                .copy-btn:hover {
+                    background-color: #f0f0f0;
+                    color: #2c7744;
+                }
+                .copy-btn.copied {
+                    color: #2c7744;
+                    background-color: #e6f4ea;
+                }
+            `;
+            document.head.appendChild(style);
+        }
+
     } catch (e) {
         console.error("Error in openModal:", e);
         alert("Erro ao abrir o modal. Verifique o console.");
@@ -196,11 +263,66 @@ function openModal(poem) {
 function closeModal() {
     const modal = document.getElementById('contentModal');
     if (modal) modal.classList.remove('active');
+
+    // Reset URL
+    const cleanUrl = window.location.pathname;
+    window.history.pushState({ path: cleanUrl }, '', cleanUrl);
+    window.currentModalPoem = null;
+}
+
+function copyPoemLink() {
+    const url = window.location.href;
+    navigator.clipboard.writeText(url).then(() => {
+        const btns = document.querySelectorAll('.copy-btn');
+        // Assuming first button is link copy based on order
+        const btn = btns[0];
+        if (btn) {
+            const originalHtml = btn.innerHTML;
+            btn.classList.add('copied');
+            btn.innerHTML = `<svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>`;
+            setTimeout(() => {
+                btn.classList.remove('copied');
+                btn.innerHTML = originalHtml;
+            }, 2000);
+        }
+    }).catch(err => console.error('Failed to copy link', err));
+}
+
+function copyPoemContent() {
+    const poem = window.currentModalPoem;
+    if (!poem) return;
+
+    const textToCopy = `
+${poem.title}
+
+${poem.original || ''}
+${poem.reading || ''}
+
+"${poem.translation || ''}"
+`.trim();
+
+    navigator.clipboard.writeText(textToCopy).then(() => {
+        const btns = document.querySelectorAll('.copy-btn');
+        const btn = btns[1]; // Second button is Content Copy
+        if (btn) {
+            const originalHtml = btn.innerHTML;
+            btn.classList.add('copied');
+            btn.innerHTML = `<svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>`;
+            setTimeout(() => {
+                btn.classList.remove('copied');
+                btn.innerHTML = originalHtml;
+            }, 2000);
+        }
+    }).catch(err => {
+        console.error('Failed to copy text: ', err);
+    });
 }
 
 // Ensure global access
 window.openModal = openModal;
 window.closeModal = closeModal;
+window.copyPoemContent = copyPoemContent;
+window.copyPoemLink = copyPoemLink;
 
 // Close on outside click is handled in HTML inline or we add listener here
 document.addEventListener('click', (e) => {
