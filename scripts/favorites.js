@@ -128,11 +128,51 @@ const FavoritesManager = (function () {
             source: article.source || article.publication || '',
             tags: article.tags || [],
             content_snippet: article.content_snippet || '',
+            part_file: article.part_file || '',
             addedAt: new Date().toISOString()
         });
 
         savePublications(publications);
         return true;
+    }
+
+    // Add multiple articles to publication (Single Save)
+    function addMultipleToPublication(pubId, articles) {
+        const publications = getPublications();
+        const pub = publications[pubId];
+
+        if (!pub) {
+            throw new Error('Publication not found');
+        }
+
+        let addedCount = 0;
+        const now = new Date().toISOString();
+
+        articles.forEach(article => {
+            // Check if article already exists
+            const exists = pub.items.some(item => item.id === article.id);
+            if (!exists) {
+                // Add article with required fields
+                pub.items.push({
+                    id: article.id,
+                    title: article.title || 'Sem título',
+                    url: article.url || '',
+                    category: article.category || '',
+                    date: article.date || article.year || '',
+                    source: article.source || article.publication || '',
+                    tags: article.tags || [],
+                    content_snippet: article.content_snippet || '',
+                    part_file: article.part_file || '',
+                    addedAt: now
+                });
+                addedCount++;
+            }
+        });
+
+        if (addedCount > 0) {
+            savePublications(publications);
+        }
+        return addedCount;
     }
 
     // Remove article from publication
@@ -259,6 +299,7 @@ const FavoritesManager = (function () {
         deletePublication,
         getPublication,
         addToPublication,
+        addMultipleToPublication,
         removeFromPublication,
         updatePublicationSettings,
         renamePublication,

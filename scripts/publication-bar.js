@@ -108,6 +108,16 @@ const PublicationBar = (function () {
 
     // Get the base path for links
     function getBasePath() {
+        // Robust way: find the script tag that loaded this or favorites.js
+        const scripts = document.querySelectorAll('script[src*="publication-bar.js"], script[src*="favorites.js"]');
+        if (scripts.length > 0) {
+            const src = scripts[0].src;
+            // Remove the script filename and the 'scripts/' folder to get root
+            // e.g. http://site.com/repo/scripts/publication-bar.js -> http://site.com/repo/
+            return src.replace(/scripts\/[\w-]+\.js(\?.*)?$/, '');
+        }
+
+        // Fallback: relative depth (fragile, but works for local flat files)
         const path = window.location.pathname;
         const depth = (path.match(/\//g) || []).length - 1;
         return depth > 0 ? '../'.repeat(depth) : './';

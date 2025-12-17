@@ -661,6 +661,42 @@
                 padding: 1rem;
             }
         }
+
+        /* Back to Top Button */
+        .btn-scroll-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            width: 45px;
+            height: 45px;
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.25rem;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(20px);
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            z-index: 99;
+        }
+
+        .btn-scroll-top.visible {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        .btn-scroll-top:hover {
+            transform: translateY(-2px);
+            background: #5a4b82;
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+        }
     </style>
 </head>
 
@@ -785,6 +821,11 @@
             </div>
         </div>
     </div>
+    <button class="btn-scroll-top" id="btnScrollTop" title="Voltar ao topo"
+        onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+        ↑
+    </button>
+
     <script src="scripts/favorites.js"></script>
     <script src="scripts/publication-modal.js"></script>
     <script src="scripts/publication-bar.js"></script>
@@ -844,6 +885,16 @@
                 dom.checkUnpublished.addEventListener('change', (e) => {
                     filters.onlyUnpublished = e.target.checked;
                     applyFilters();
+                });
+
+                // Scroll to Top Logic
+                const btnScrollTop = document.getElementById('btnScrollTop');
+                window.addEventListener('scroll', () => {
+                    if (window.scrollY > 300) {
+                        btnScrollTop.classList.add('visible');
+                    } else {
+                        btnScrollTop.classList.remove('visible');
+                    }
                 });
 
                 // Iframe Cleanup: Hide search forms and redundant toggle buttons in modal
@@ -1143,6 +1194,7 @@
                 return true;
             });
 
+            window.currentSearchPage = 1; // Reset pagination
             renderGrid(results);
         }
 
@@ -1150,15 +1202,25 @@
             dom.count.textContent = items.length;
             dom.grid.innerHTML = '';
 
-            // Track current displayed items for bulk add
-            const displayItems = items.slice(0, 100);
+            // Store ALL filtered items for bulk add
+            window.currentFilteredItems = items;
+
+            // Pagination logic
+            const pageSize = 100;
+            const currentPage = window.currentSearchPage || 1;
+            const start = 0;
+            const end = currentPage * pageSize;
+
+            const displayItems = items.slice(start, end);
             window.currentDisplayItems = displayItems;
 
-            // Show/hide "Add All" button
+            // Show/hide "Add All" button - NOW ADDS ALL FILTERED, NOT JUST DISPLAYED
             const btnAddAll = document.getElementById('btnAddAll');
             if (btnAddAll) {
-                btnAddAll.style.display = displayItems.length > 0 ? 'inline-flex' : 'none';
-                btnAddAll.innerHTML = `📚 Adicionar ${displayItems.length} artigos`;
+                btnAddAll.style.display = items.length > 0 ? 'inline-flex' : 'none';
+                btnAddAll.innerHTML = `📚 Adicionar todos (${items.length})`;
+                // Remove old event listener if possible or just override onclick
+                btnAddAll.onclick = addAllFilteredToPublication;
             }
 
             if (items.length === 0) {
@@ -1170,17 +1232,41 @@
                 dom.grid.appendChild(createCard(item));
             });
 
-            if (items.length > 100) {
-                const more = document.createElement('div');
-                more.style.gridColumn = "1 / -1";
-                more.style.textAlign = "center";
-                more.style.padding = "1rem";
-                more.style.color = "#888";
-                more.style.background = "#f5f5f5";
-                more.style.borderRadius = "8px";
-                more.style.margin = "1rem 0";
-                more.textContent = `Mostrando 100 de ${items.length} resultados. Refine sua busca para ver mais.`;
-                dom.grid.appendChild(more);
+            // "Load More" Button
+            if (items.length > end) {
+                const remaining = items.length - end;
+                const moreContainer = document.createElement('div');
+                moreContainer.style.gridColumn = "1 / -1";
+                moreContainer.style.textAlign = "center";
+                moreContainer.style.padding = "2rem";
+
+                const btnMore = document.createElement('button');
+                btnMore.className = 'btn-secondary'; // Reuse existing class if available
+                btnMore.style.padding = "0.75rem 2rem";
+                btnMore.style.fontSize = "1rem";
+                btnMore.style.cursor = "pointer";
+                btnMore.style.background = "#fff";
+                btnMore.style.border = "1px solid #e2e8f0";
+                btnMore.style.borderRadius = "8px";
+                btnMore.style.color = "#6b5b95";
+                btnMore.style.fontWeight = "600";
+                btnMore.textContent = `Carregar mais resultados (${remaining} restantes)`;
+
+                btnMore.onmouseover = () => { btnMore.style.background = "#f0edf5"; btnMore.style.borderColor = "#6b5b95"; };
+                btnMore.onmouseout = () => { btnMore.style.background = "#fff"; btnMore.style.borderColor = "#e2e8f0"; };
+
+                btnMore.onclick = () => {
+                    window.currentSearchPage = currentPage + 1;
+                    // Re-render, preserving current items (actually we just re-render whole grid for simplicity, or append)
+                    // For simplicity in this static site, re-rendering is fast enough. 
+                    // To avoid scroll jump, we might want to append, but let's stick to simple re-render first 
+                    // or better: just append the new items.
+                    // Let's implement append logic effectively by just re-calling renderGrid with increased page.
+                    renderGrid(items);
+                };
+
+                moreContainer.appendChild(btnMore);
+                dom.grid.appendChild(moreContainer);
             }
         }
 
@@ -1234,7 +1320,7 @@
         </div>
         <div class="card-title">${item.title} ${unpubBadge}</div>
         <div class="card-tags-container" style="margin-bottom:0.5rem;">${cardTagsHtml}</div>
-        <div class="card-snippet">${item.content_snippet}</div>
+        <div class="card-snippet">${item.content_snippet.replace(/^#+\s+.*$/gm, '').trim()}</div>
         <div class="card-footer">${pub}</div>
     `;
 
@@ -1454,22 +1540,24 @@
             biContainer.style.display = 'block';
 
             // Load Content if needed
-            if (!currentItem.part_file) {
+            // Load Content if needed
+            const item = window.currentModalItem;
+            if (!item || !item.part_file) {
                 biContainer.innerHTML = '<div style="padding:2rem;">Conteúdo não disponível para este item.</div>';
                 return;
             }
 
-            biContainer.innerHTML = '<div style="padding:2rem;">Carregando conteúdo...</div>';
+            biContainer.innerHTML = '<div style="padding:2rem; text-align:center;"><div class="loading-spinner" style="display:inline-block; border: 2px solid #ccc; border-top-color:#6b5b95; border-radius:50%; width:16px; height:16px; animation: spin 1s linear infinite;"></div> Carregando...</div>';
 
             try {
                 // Fetch if not cached
-                if (!contentCache[currentItem.part_file]) {
-                    const res = await fetch(`Data/${currentItem.part_file}`);
-                    contentCache[currentItem.part_file] = await res.json();
+                if (!contentCache[item.part_file]) {
+                    const res = await fetch(`Data/${item.part_file}`);
+                    contentCache[item.part_file] = await res.json();
                 }
 
                 // Find item
-                const fullItem = contentCache[currentItem.part_file].find(i => i.id === currentItem.id);
+                const fullItem = contentCache[item.part_file].find(i => i.id === item.id);
                 if (fullItem) {
                     renderBilingual(fullItem, mode);
                 } else {
@@ -1479,6 +1567,7 @@
                 console.error(e);
                 biContainer.innerHTML = '<div style="padding:2rem; color:red;">Erro ao carregar conteúdo.</div>';
             }
+
         };
 
         function renderBilingual(item, mode) {
@@ -1605,9 +1694,9 @@
         // Listen for publication updates
         window.addEventListener('publications-updated', updateFavoriteButtons);
 
-        // Add all visible cards to publication
-        window.addAllVisibleToPublication = function () {
-            const items = window.currentDisplayItems || [];
+        // Add all FILTERED cards to publication
+        window.addAllFilteredToPublication = function () {
+            const items = window.currentFilteredItems || [];
             if (items.length === 0) {
                 alert('Nenhum artigo para adicionar.');
                 return;
@@ -1700,36 +1789,50 @@
                 return;
             }
 
-            const items = window.currentDisplayItems || [];
-            const pub = FavoritesManager.createPublication(name);
-            let added = 0;
+            // Show loading state
+            const btn = document.querySelector('button[onclick="bulkCreateAndAdd()"]');
+            const originalText = btn.textContent;
+            btn.textContent = 'Adicionando...';
+            btn.disabled = true;
+            btn.style.opacity = '0.7';
+            btn.style.cursor = 'wait';
 
-            items.forEach(item => {
-                if (FavoritesManager.addToPublication(pub.id, item)) {
-                    added++;
-                }
-            });
+            // Allow UI to update before heavy processing
+            setTimeout(() => {
+                const items = window.currentFilteredItems || [];
+                const pub = FavoritesManager.createPublication(name);
 
-            closeBulkModal();
-            updateFavoriteButtons();
-            alert(`Publicação "${name}" criada com ${added} artigos!`);
+                const added = FavoritesManager.addMultipleToPublication(pub.id, items);
+
+                closeBulkModal();
+                updateFavoriteButtons();
+                alert(`Publicação "${name}" criada com ${added} artigos!`);
+            }, 50);
         };
 
         window.bulkAddToExisting = function (pubId) {
-            const items = window.currentDisplayItems || [];
+            const items = window.currentFilteredItems || [];
             const pub = FavoritesManager.getPublication(pubId);
             if (!pub) return;
 
-            let added = 0;
-            items.forEach(item => {
-                if (FavoritesManager.addToPublication(pubId, item)) {
-                    added++;
-                }
-            });
+            // Show loading state (find the clicked div or overlay it)
+            const modalContent = document.querySelector('#bulkAddModal > div');
+            const originalContent = modalContent.innerHTML;
+            modalContent.innerHTML = `
+                <div style="text-align: center; padding: 2rem;">
+                    <div class="loading-spinner" style="border: 4px solid #f3f3f3; border-top: 4px solid #6b5b95; border-radius: 50%; width: 40px; height: 40px; animation: spin 1s linear infinite; margin: 0 auto 1rem;"></div>
+                    <div style="color: #6b5b95; font-weight: 500;">Adicionando ${items.length} artigos...</div>
+                    <div style="color: #999; font-size: 0.8rem; margin-top: 0.5rem;">Por favor, aguarde.</div>
+                </div>
+            `;
 
-            closeBulkModal();
-            updateFavoriteButtons();
-            alert(`${added} artigos adicionados a "${pub.name}"!`);
+            setTimeout(() => {
+                const added = FavoritesManager.addMultipleToPublication(pubId, items);
+
+                closeBulkModal();
+                updateFavoriteButtons();
+                alert(`${added} artigos adicionados a "${pub.name}"!`);
+            }, 50);
         };
 
         // History Feature Logic

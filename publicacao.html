@@ -388,8 +388,8 @@
 
         .print-preview-content {
             padding: 3rem;
-            max-height: 600px;
-            overflow-y: auto;
+            max-height: none;
+            overflow-y: visible;
         }
 
         /* Preview Styles */
@@ -807,6 +807,42 @@
             color: var(--accent);
             text-decoration: none;
         }
+
+        /* Back to Top Button */
+        .btn-scroll-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            width: 45px;
+            height: 45px;
+            background: var(--accent);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.25rem;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(20px);
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            z-index: 99;
+        }
+
+        .btn-scroll-top.visible {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        .btn-scroll-top:hover {
+            transform: translateY(-2px);
+            background: #5a4b82;
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+        }
     </style>
 </head>
 
@@ -845,7 +881,7 @@
                     + Nova
                 </button>
                 <div class="pub-actions">
-                    <button class="btn btn-secondary" onclick="loadAllContent()">
+                    <button class="btn btn-secondary" onclick="loadAllContent()" style="display: none;">
                         Carregar Conteúdos
                     </button>
                     <button class="btn btn-danger" onclick="deleteCurrentPublication()">
@@ -909,6 +945,16 @@
                 </div>
                 <div class="modal-controls"
                     style="display: flex; align-items: center; gap: 0.5rem; margin-right: 1rem;">
+                    <!-- Bilingual Controls -->
+                    <div class="view-controls" style="display: flex; gap: 5px; margin-right: 15px;">
+                        <button id="btnPortuguese" class="btn-icon-sm active" style="width:auto; padding:0 8px;"
+                            onclick="switchModalView('portuguese')">PT</button>
+                        <button id="btnOriginal" class="btn-icon-sm" style="width:auto; padding:0 8px;"
+                            onclick="switchModalView('original')">JP</button>
+                        <button id="btnBilingual" class="btn-icon-sm" style="width:auto; padding:0 8px;"
+                            onclick="switchModalView('bilingual')">Bi</button>
+                    </div>
+
                     <button class="btn-icon-sm" onclick="changeModalFontSize(-1)" title="Diminuir fonte">A-</button>
                     <span id="modalFontDisplay"
                         style="font-size: 0.8rem; color: var(--text-muted); min-width: 35px; text-align: center;">16px</span>
@@ -920,10 +966,16 @@
                 <div class="modal-content" id="modalContent">
                     Carregando...
                 </div>
+                <div id="bilingualView" style="display: none;"></div>
                 <div class="modal-tags" id="modalTags"></div>
             </div>
         </div>
     </div>
+
+    <button class="btn-scroll-top" id="btnScrollTop" title="Voltar ao topo"
+        onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+        ↑
+    </button>
 
     <script src="scripts/favorites.js"></script>
     <script>
@@ -944,6 +996,16 @@
         // Close modal on ESC
         document.addEventListener('keydown', (e) => {
             if (e.key === 'Escape') closeModal();
+        });
+
+        // Scroll to Top Logic
+        const btnScrollTop = document.getElementById('btnScrollTop');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                btnScrollTop.classList.add('visible');
+            } else {
+                btnScrollTop.classList.remove('visible');
+            }
         });
 
         function loadPublicationList() {
@@ -1064,6 +1126,10 @@
             titleEl.textContent = article.title;
             metaEl.textContent = [article.category, article.date, article.source].filter(Boolean).join(' · ');
             contentEl.innerHTML = '<div class="loading-indicator"><div class="loading-spinner"></div> Carregando conteúdo...</div>';
+
+            // Set state and reset view
+            currentArticle = article;
+            switchModalView('portuguese');
 
             if (article.tags && article.tags.length > 0) {
                 tagsEl.innerHTML = article.tags.map(t => `<span class="modal-tag">${t}</span>`).join('');
@@ -1268,12 +1334,19 @@
                 </div>
 
                 ${pub.items.map((item, i) => {
-                // Use cached full content or snippet
-                let content = fullContentCache[item.id] || item.content_snippet || '<em>Clique em "Carregar Conteúdos" para carregar o texto completo</em>';
+                // Use cached full content or snippet if available, otherwise mark for lazy load
+                let content = fullContentCache[item.id];
+                let isLazy = false;
 
-                // Convert markdown if it looks like markdown and marked is available
-                if (!fullContentCache[item.id] && item.content_snippet && typeof marked !== 'undefined') {
-                    content = marked.parse(item.content_snippet);
+                if (!content) {
+                    if (item.content_snippet) {
+                        // Use snippet as placeholder but trigger lazy load for full
+                        content = typeof marked !== 'undefined' ? marked.parse(item.content_snippet) : item.content_snippet;
+                        isLazy = true;
+                    } else {
+                        content = '<em>Carregando...</em>';
+                        isLazy = true;
+                    }
                 }
 
                 return `
@@ -1284,19 +1357,69 @@
                                 ${[item.date, item.source, item.category].filter(Boolean).join(' · ')}
                             </div>
                         </div>
-                        <div class="print-article-content" style="font-size: ${fontSize}; text-align: ${textAlign};">
+                        <div class="print-article-content ${isLazy ? 'lazy-load' : 'loaded'}" 
+                             data-id="${item.id}"
+                             style="font-size: ${fontSize}; text-align: ${textAlign};">
                             ${content}
                         </div>
                         ${item.tags && item.tags.length > 0 ? `
                             <div class="print-article-tags">
-                                ${item.tags.join(' · ')}
+                                <span style="font-weight:500;">Tags:</span> ${item.tags.join(' · ')}
                             </div>
                         ` : ''}
                     </div>
-                `}).join('')}
-            `;
+                `;
+            }).join('')}
+
+        `;
 
             container.innerHTML = html;
+
+            // Initialize lazy loading
+            setupLazyLoading();
+        }
+
+        // Lazy Loading Logic
+        let observer;
+
+        function setupLazyLoading() {
+            if (observer) observer.disconnect();
+
+            const options = {
+                root: null, // viewport
+                rootMargin: '200px', // load 200px before appearing
+                threshold: 0.1
+            };
+
+            observer = new IntersectionObserver((entries, obs) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const target = entry.target;
+                        const id = target.dataset.id;
+                        if (id) {
+                            // Find item in current publication
+                            const pub = FavoritesManager.getPublication(currentPubId);
+                            const item = pub?.items.find(i => i.id === id);
+
+                            if (item && !fullContentCache[item.id]) {
+                                target.innerHTML = '<div class="loading-indicator"><div class="loading-spinner"></div> Carregando...</div>';
+                                loadFullContent(item).then(content => {
+                                    target.innerHTML = content;
+                                    // Keep observer if we want to support unloading? No, simpler to just load once.
+                                    obs.unobserve(target);
+                                    target.classList.remove('lazy-load');
+                                    target.classList.add('loaded');
+                                });
+                            } else {
+                                // Already cached or no item
+                                obs.unobserve(target);
+                            }
+                        }
+                    }
+                });
+            }, options);
+
+            document.querySelectorAll('.lazy-load').forEach(el => observer.observe(el));
         }
 
         function updateSettings() {
@@ -1307,6 +1430,8 @@
 
             FavoritesManager.updatePublicationSettings(currentPubId, { fontSize, textAlign });
 
+            // Apply directly instead of re-rendering to avoid resetting lazy load state if possible
+            // But re-rendering is safer for consistency. Re-render will re-trigger lazy load which checks cache, so it's fine.
             const pub = FavoritesManager.getPublication(currentPubId);
             if (pub) renderPrintPreview(pub);
         }
@@ -1336,7 +1461,7 @@
             const pub = FavoritesManager.getPublication(currentPubId);
             if (!pub) return;
 
-            if (confirm(`Excluir "${pub.name}"?`)) {
+            if (confirm(`Excluir "${pub.name}" ?`)) {
                 FavoritesManager.deletePublication(currentPubId);
                 loadPublicationList();
             }
