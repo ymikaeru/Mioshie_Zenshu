@@ -43,7 +43,7 @@
                                 bordercolorlight="#E9FEDA" cellpadding="4" cellspacing="0" width="100%">
                                 <tbody>
                                         <tr>
-                                                <td bgcolor="#2c7744" colspan="2">
+                                                <td bgcolor="#39495C" colspan="2">
                                                         <p align="center">
                                                                 <font color="#ffffff" size="2">🔍 Busca</font>
                                                         </p>
@@ -552,6 +552,50 @@
                                 window.top.location.href = 'login.html';
                         }
                 }
+
+                // Inject publication scripts into main frame
+                function injectPublicationScripts(frame) {
+                        if (!frame || !frame.contentDocument) return;
+
+                        const doc = frame.contentDocument;
+
+                        // Skip if already injected
+                        if (doc.querySelector('[data-pub-injected]')) return;
+
+                        // Load favorites.js first
+                        const favScript = doc.createElement('script');
+                        favScript.src = 'scripts/favorites.js';
+                        favScript.dataset.pubInjected = 'true';
+                        doc.head.appendChild(favScript);
+
+                        // Load publication-bar.js
+                        const barScript = doc.createElement('script');
+                        barScript.src = 'scripts/publication-bar.js';
+                        doc.head.appendChild(barScript);
+
+                        // Load publication-global.js
+                        setTimeout(() => {
+                                const globalScript = doc.createElement('script');
+                                globalScript.src = 'scripts/publication-global.js';
+                                doc.head.appendChild(globalScript);
+                        }, 100);
+                }
+
+                // Monitor the main frame for navigation
+                document.addEventListener('DOMContentLoaded', function () {
+                        const mainFrame = window.parent.frames['main'];
+                        if (mainFrame) {
+                                // Initial injection
+                                try { injectPublicationScripts(mainFrame); } catch (e) { }
+
+                                // Re-inject on frame load
+                                if (mainFrame.frameElement) {
+                                        mainFrame.frameElement.addEventListener('load', function () {
+                                                try { injectPublicationScripts(mainFrame); } catch (e) { }
+                                        });
+                                }
+                        }
+                });
         </script>
 
 </body>

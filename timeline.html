@@ -477,7 +477,9 @@
             <span>Biblioteca Sagrada</span>
         </a>
         <nav>
-            <a href="2.html" class="nav-btn">← Voltar</a>
+            <a href="2.html" class="nav-btn"
+                onclick="if(parent.document.querySelector('frameset')) parent.document.querySelector('frameset').cols = '400,*';">←
+                Voltar</a>
         </nav>
     </header>
 
@@ -557,6 +559,11 @@
     </div>
 
     <script>
+        // Auto-maximize frame (hide sidebar)
+        if (parent && parent.document.querySelector('frameset')) {
+            parent.document.querySelector('frameset').cols = '0,*';
+        }
+
         document.addEventListener('DOMContentLoaded', async () => {
             const chartContainer = document.getElementById('timeline-chart');
             const gridContainer = document.getElementById('content-grid');

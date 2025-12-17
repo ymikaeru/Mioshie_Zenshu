@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Busca Avançada - Ensinamentos</title>
+    <link rel="icon" type="image/png" href="favicon.png">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
 
         :root {
-            --primary-color: #2c7744;
-            --primary-light: #e6f4ea;
+            --primary-color: #6b5b95;
+            --primary-light: #f0edf5;
             --bg-color: #f8f9fa;
             --sidebar-bg: #ffffff;
             --card-bg: #ffffff;
@@ -275,6 +276,62 @@
             padding-top: 0.75rem;
         }
 
+        /* Favorite Button */
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 0.5rem;
+        }
+
+        .btn-favorite {
+            background: transparent;
+            border: none;
+            width: 28px;
+            height: 28px;
+            border-radius: 4px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.95rem;
+            transition: all 0.2s;
+            flex-shrink: 0;
+            color: var(--text-muted);
+            opacity: 0.6;
+        }
+
+        .btn-favorite:hover {
+            opacity: 1;
+            color: var(--primary-color);
+        }
+
+        .btn-favorite.active {
+            color: var(--primary-color);
+            opacity: 1;
+        }
+
+        /* Add All Button */
+        .btn-add-all {
+            background: var(--primary-light);
+            color: var(--primary-color);
+            border: 1px solid var(--primary-color);
+            padding: 0.4rem 1rem;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+        }
+
+        .btn-add-all:hover {
+            background: var(--primary-color);
+            color: white;
+        }
+
         .tag-pill {
             background: var(--primary-light);
             color: var(--primary-color);
@@ -344,6 +401,37 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+        }
+
+        .btn-add-pub {
+            width: 40px;
+            height: 40px;
+            border: 1px solid var(--border-color);
+            background: white;
+            border-radius: 8px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-muted);
+            transition: all 0.2s;
+            margin-right: 10px;
+        }
+
+        .btn-add-pub:hover {
+            border-color: #6b5b95;
+            color: #6b5b95;
+            background: #f0edf5;
+        }
+
+        .btn-add-pub.added {
+            background: #6b5b95;
+            border-color: #6b5b95;
+            color: white;
+        }
+
+        .btn-add-pub.added svg {
+            fill: currentColor;
         }
 
         #modalTitle {
@@ -580,7 +668,8 @@
 
     <div class="header">
         <h1>Busca Avançada</h1>
-        <a href="2.html" title="Voltar ao menu principal">
+        <a href="2.html" title="Voltar ao menu principal"
+            onclick="if(parent.document.querySelector('frameset')) parent.document.querySelector('frameset').cols = '400,*';">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"
                 style="vertical-align: middle; margin-right: 4px;">
                 <path fill-rule="evenodd"
@@ -634,11 +723,30 @@
                     <!-- Populated by JS -->
                 </div>
             </div>
+
+            <div class="filter-group">
+                <details open style="margin-top: 1rem; border-top: 1px solid var(--border-color); padding-top: 1rem;">
+                    <summary
+                        style="cursor:pointer; font-weight:600; color:var(--text-color); margin-bottom:0.5rem; outline:none;">
+                        Últimos Artigos Lidos</summary>
+                    <div id="historyList" class="pub-list" style="flex-direction:column; gap:0.5rem;">
+                        <!-- Populated by JS -->
+                        <div style="font-size:0.8rem; color:#999; padding:0.5rem;">Nenhum histórico recente.</div>
+                    </div>
+                    <button onclick="clearHistory()"
+                        style="margin-top:0.75rem; font-size:0.75rem; color:#888; background:none; border:none; text-decoration:underline; cursor:pointer; width:100%; text-align:left; padding:0;">Limpar
+                        Histórico</button>
+                </details>
+            </div>
         </div>
 
         <div class="results-area">
-            <div class="results-info">
-                Encontrados: <span id="count">0</span> resultados
+            <div class="results-info" style="display: flex; justify-content: space-between; align-items: center;">
+                <span>Encontrados: <span id="count">0</span> resultados</span>
+                <button class="btn-add-all" id="btnAddAll" onclick="addAllVisibleToPublication()"
+                    style="display: none;">
+                    📚 Adicionar todos visíveis
+                </button>
             </div>
             <div class="grid" id="resultsGrid">
                 <!-- Cards go here -->
@@ -660,6 +768,12 @@
                         (JP)</button>
                     <button class="btn-view" onclick="switchModalView('bilingual')" id="btnBilingual">Comparar</button>
                 </div>
+                <button class="btn-add-pub" id="modalAddBtn" onclick="event.stopPropagation(); handleModalAddClick();"
+                    title="Adicionar à publicação">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+                    </svg>
+                </button>
                 <button class="modal-close" onclick="closeModal()">×</button>
             </div>
             <div class="modal-body">
@@ -671,8 +785,15 @@
             </div>
         </div>
     </div>
-
+    <script src="scripts/favorites.js"></script>
+    <script src="scripts/publication-modal.js"></script>
+    <script src="scripts/publication-bar.js"></script>
     <script>
+        // Auto-maximize frame (hide sidebar)
+        if (parent && parent.document.querySelector('frameset')) {
+            parent.document.querySelector('frameset').cols = '0,*';
+        }
+
         let searchData = [];
         let categories = new Set();
         let publications = new Set();
@@ -1029,80 +1150,24 @@
             dom.count.textContent = items.length;
             dom.grid.innerHTML = '';
 
+            // Track current displayed items for bulk add
+            const displayItems = items.slice(0, 100);
+            window.currentDisplayItems = displayItems;
+
+            // Show/hide "Add All" button
+            const btnAddAll = document.getElementById('btnAddAll');
+            if (btnAddAll) {
+                btnAddAll.style.display = displayItems.length > 0 ? 'inline-flex' : 'none';
+                btnAddAll.innerHTML = `📚 Adicionar ${displayItems.length} artigos`;
+            }
+
             if (items.length === 0) {
                 dom.grid.innerHTML = '<div style="grid-column: 1/-1; text-align: center; padding: 2rem;">Nenhum resultado encontrado.</div>';
                 return;
             }
 
-            const displayItems = items.slice(0, 100);
-
             displayItems.forEach(item => {
-                const card = document.createElement('div');
-                card.className = 'card';
-                card.onclick = () => openModal(item);
-
-                const year = item.year ? item.year : '-';
-                const pub = item.publication ? item.publication : '';
-                const unpubBadge = item.unpublished ? '<span style="color:red; font-size:0.75rem; border:1px solid red; padding:1px 3px; border-radius:3px;">Não Pub.</span>' : '';
-
-                // Card Tags (First 3) - Prioritize Selected
-                let cardTagsHtml = '';
-                if (item.tags) {
-                    let displayTags = [...item.tags];
-
-                    // If filtering, sort selected tags to front
-                    if (filters.selectedTags.size > 0) {
-                        displayTags.sort((a, b) => {
-                            const aSelected = filters.selectedTags.has(a);
-                            const bSelected = filters.selectedTags.has(b);
-                            return (bSelected === aSelected) ? 0 : aSelected ? -1 : 1;
-                        });
-                    }
-
-                    cardTagsHtml = displayTags.slice(0, 3).map(t => {
-                        const isActive = filters.selectedTags.has(t);
-                        const activeClass = isActive ? 'active' : '';
-                        return `<span class="tag-pill card-tag ${activeClass}" 
-                                      data-tag="${t}"
-                                      style="font-size:0.7rem; padding: 2px 6px; margin-right:3px; cursor:pointer; transition: all 0.2s;"
-                                      title="Clique para filtrar por '${t}'">${t}</span>`;
-                    }).join('');
-                }
-
-                card.innerHTML = `
-            <div class="card-meta">
-                <span>${year}</span>
-                <span>${item.category.toUpperCase()}</span>
-            </div>
-            <div class="card-title">${item.title} ${unpubBadge}</div>
-            <div class="card-tags-container" style="margin-bottom:0.5rem;">${cardTagsHtml}</div>
-            <div class="card-snippet">${item.content_snippet}</div>
-            <div class="card-footer">${pub}</div>
-        `;
-
-                // Add click handlers to tags AFTER card is created
-                card.querySelectorAll('.card-tag').forEach(tagEl => {
-                    tagEl.onclick = (e) => {
-                        e.stopPropagation(); // Prevent card click
-                        const tagName = tagEl.dataset.tag;
-
-                        // Toggle tag in sidebar as well
-                        const sidebarChip = [...document.querySelectorAll('#tagFilters .pub-chip')].find(c => c.textContent.startsWith(tagName));
-                        if (sidebarChip) {
-                            toggleTag(tagName, sidebarChip);
-                        } else {
-                            // Tag not in top 30, manually toggle
-                            if (filters.selectedTags.has(tagName)) {
-                                filters.selectedTags.delete(tagName);
-                            } else {
-                                filters.selectedTags.add(tagName);
-                            }
-                            applyFilters();
-                        }
-                    };
-                });
-
-                dom.grid.appendChild(card);
+                dom.grid.appendChild(createCard(item));
             });
 
             if (items.length > 100) {
@@ -1111,12 +1176,136 @@
                 more.style.textAlign = "center";
                 more.style.padding = "1rem";
                 more.style.color = "#888";
-                more.textContent = `E mais ${items.length - 100} resultados...Refine sua busca.`;
+                more.style.background = "#f5f5f5";
+                more.style.borderRadius = "8px";
+                more.style.margin = "1rem 0";
+                more.textContent = `Mostrando 100 de ${items.length} resultados. Refine sua busca para ver mais.`;
                 dom.grid.appendChild(more);
             }
         }
 
+        function createCard(item) {
+            const card = document.createElement('div');
+            card.className = 'card';
+            card.onclick = () => openModal(item);
+
+            const year = item.year ? item.year : '-';
+            const pub = item.publication ? item.publication : '';
+            const unpubBadge = item.unpublished ? '<span style="color:red; font-size:0.75rem; border:1px solid red; padding:1px 3px; border-radius:3px;">Não Pub.</span>' : '';
+
+            // Card Tags (First 3) - Prioritize Selected
+            let cardTagsHtml = '';
+            if (item.tags) {
+                let displayTags = [...item.tags];
+
+                // If filtering, sort selected tags to front
+                if (filters.selectedTags.size > 0) {
+                    displayTags.sort((a, b) => {
+                        const aSelected = filters.selectedTags.has(a);
+                        const bSelected = filters.selectedTags.has(b);
+                        return (bSelected === aSelected) ? 0 : aSelected ? -1 : 1;
+                    });
+                }
+
+                cardTagsHtml = displayTags.slice(0, 3).map(t => {
+                    const isActive = filters.selectedTags.has(t);
+                    const activeClass = isActive ? 'active' : '';
+                    return `<span class="tag-pill card-tag ${activeClass}" 
+                                  data-tag="${t}"
+                                  style="font-size:0.7rem; padding: 2px 6px; margin-right:3px; cursor:pointer; transition: all 0.2s;"
+                                  title="Clique para filtrar por '${t}'">${t}</span>`;
+                }).join('');
+            }
+
+            card.innerHTML = `
+        <div class="card-header">
+            <div class="card-meta">
+                <span>${year}</span>
+                <span>${item.category.toUpperCase()}</span>
+            </div>
+            <button class="btn-favorite" 
+                    data-item-id="${item.id}"
+                    onclick="handleFavoriteClick(event, searchData.find(x => x.id === '${item.id}'))"
+                    title="Adicionar à publicação">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+                </svg>
+            </button>
+        </div>
+        <div class="card-title">${item.title} ${unpubBadge}</div>
+        <div class="card-tags-container" style="margin-bottom:0.5rem;">${cardTagsHtml}</div>
+        <div class="card-snippet">${item.content_snippet}</div>
+        <div class="card-footer">${pub}</div>
+    `;
+
+            // Update favorite button state with color
+            const favBtn = card.querySelector('.btn-favorite');
+            if (favBtn && typeof FavoritesManager !== 'undefined' && FavoritesManager.isInAnyPublication(item.id)) {
+                const color = FavoritesManager.getArticleColor(item.id) || '#6b5b95';
+                favBtn.classList.add('active');
+                favBtn.innerHTML = `
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+                    </svg>
+                `;
+                favBtn.title = 'Já adicionado a uma publicação';
+                favBtn.style.backgroundColor = color;
+                favBtn.style.borderColor = color;
+                favBtn.style.color = 'white';
+            }
+
+            // Add click handlers to tags
+            card.querySelectorAll('.card-tag').forEach(tagEl => {
+                tagEl.onclick = (e) => {
+                    e.stopPropagation();
+                    const tagName = tagEl.dataset.tag;
+
+                    const sidebarChip = [...document.querySelectorAll('#tagFilters .pub-chip')].find(c => c.textContent.startsWith(tagName));
+                    if (sidebarChip) {
+                        toggleTag(tagName, sidebarChip);
+                    } else {
+                        if (filters.selectedTags.has(tagName)) {
+                            filters.selectedTags.delete(tagName);
+                        } else {
+                            filters.selectedTags.add(tagName);
+                        }
+                        applyFilters();
+                    }
+                };
+            });
+
+            return card;
+        }
+
+        // Global state for modal
+        window.currentModalItem = null;
+
         function openModal(item) {
+            console.log('openModal called with item:', item);
+            window.currentModalItem = item;
+
+            // Add to history
+            if (typeof HistoryManager !== 'undefined') {
+                HistoryManager.add(item);
+            }
+
+            // Update add button state
+            const addBtn = document.getElementById('modalAddBtn');
+            if (addBtn && typeof FavoritesManager !== 'undefined') {
+                if (FavoritesManager.isInAnyPublication(item.id)) {
+                    const color = FavoritesManager.getArticleColor(item.id) || '#6b5b95';
+                    addBtn.classList.add('added');
+                    addBtn.style.backgroundColor = color;
+                    addBtn.style.borderColor = color;
+                    addBtn.title = 'Já adicionado a uma publicação';
+                } else {
+                    addBtn.classList.remove('added');
+                    addBtn.style.backgroundColor = '';
+                    addBtn.style.borderColor = '';
+                    addBtn.title = 'Adicionar à publicação';
+                }
+            }
+
             // Open static URL
             if (item.url) {
                 dom.modalFrame.src = item.url;
@@ -1129,6 +1318,35 @@
                 alert('Conteúdo indisponível (' + item.id + ')');
             }
         }
+
+        function handleModalAddClick() {
+            const item = window.currentModalItem;
+            console.log('handleModalAddClick called', { item, PublicationModal: typeof PublicationModal });
+
+            if (!item) {
+                console.error('No item in window.currentModalItem');
+                // Try fallback if user clicked directly without openModal (should not happen)
+                alert('Nenhum artigo selecionado. Tente abrir o artigo novamente.');
+                return;
+            }
+
+            if (typeof PublicationModal === 'undefined') {
+                console.error('PublicationModal not defined');
+                alert('Erro: Modal de publicação não carregado');
+                return;
+            }
+
+            PublicationModal.open(item, () => {
+                // Update button state after adding
+                const addBtn = document.getElementById('modalAddBtn');
+                if (addBtn) {
+                    addBtn.classList.add('added');
+                    addBtn.title = 'Já adicionado a uma publicação';
+                }
+                updateFavoriteButtons();
+            });
+        }
+
 
         function updateModalSidebar(item) {
             const sidebar = document.getElementById('modalSidebar');
@@ -1182,8 +1400,11 @@
         }
 
         window.closeModal = () => {
+            console.log('closeModal called');
             dom.modal.classList.remove('active');
             dom.modalFrame.src = '';
+            window.currentModalItem = null;
+
             // Clear URL param
             const url = new URL(window.location);
             url.searchParams.delete('id');
@@ -1203,23 +1424,7 @@
         let currentItem = null;
         let currentViewMode = 'portuguese';
 
-        window.openModal = (item) => {
-            currentItem = item;
-            dom.modalTitle.textContent = item.title;
 
-            // Default to Portuguese (Iframe)
-            dom.modalFrame.src = item.url; // Load URL immediately
-            switchModalView('portuguese');
-
-            // Sidebar logic
-            updateModalSidebar(item);
-            dom.modal.classList.add('active');
-
-            // Update URL
-            const url = new URL(window.location);
-            url.searchParams.set('id', item.id);
-            window.history.pushState({ id: item.id }, '', url);
-        };
 
         window.switchModalView = async (mode) => {
             currentViewMode = mode;
@@ -1345,12 +1550,234 @@
             container.appendChild(grid);
         }
 
-        window.closeModal = () => {
-            dom.modal.classList.remove('active');
-            dom.modalFrame.src = '';
+
+
+        // Favorite button click handler
+        window.handleFavoriteClick = (e, item) => {
+            e.stopPropagation(); // Prevent card click
+            PublicationModal.open(item, () => {
+                // Update button state after adding
+                updateFavoriteButtons();
+            });
         };
 
+        // Update all favorite button states
+        function updateFavoriteButtons() {
+            const bookmarkEmpty = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>`;
+            const bookmarkFilled = `<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>`;
+
+            document.querySelectorAll('.btn-favorite').forEach(btn => {
+                const itemId = btn.dataset.itemId;
+                if (itemId && FavoritesManager.isInAnyPublication(itemId)) {
+                    const color = FavoritesManager.getArticleColor(itemId) || '#6b5b95';
+                    btn.classList.add('active');
+                    btn.innerHTML = bookmarkFilled;
+                    btn.title = 'Já adicionado a uma publicação';
+                    btn.style.backgroundColor = color;
+                    btn.style.borderColor = color;
+                    btn.style.color = 'white';
+                } else {
+                    btn.classList.remove('active');
+                    btn.innerHTML = bookmarkEmpty;
+                    btn.title = 'Adicionar à publicação';
+                    btn.style.backgroundColor = '';
+                    btn.style.borderColor = '';
+                    btn.style.color = '';
+                }
+            });
+
+            // Also update modal button if open
+            const modalBtn = document.getElementById('modalAddBtn');
+            if (modalBtn && currentModalItem) {
+                if (FavoritesManager.isInAnyPublication(currentModalItem.id)) {
+                    const color = FavoritesManager.getArticleColor(currentModalItem.id) || '#6b5b95';
+                    modalBtn.classList.add('added');
+                    modalBtn.style.backgroundColor = color;
+                    modalBtn.style.borderColor = color;
+                } else {
+                    modalBtn.classList.remove('added');
+                    modalBtn.style.backgroundColor = '';
+                    modalBtn.style.borderColor = '';
+                }
+            }
+        }
+
+        // Listen for publication updates
+        window.addEventListener('publications-updated', updateFavoriteButtons);
+
+        // Add all visible cards to publication
+        window.addAllVisibleToPublication = function () {
+            const items = window.currentDisplayItems || [];
+            if (items.length === 0) {
+                alert('Nenhum artigo para adicionar.');
+                return;
+            }
+
+            // Open bulk add modal
+            openBulkAddModal(items);
+        };
+
+        // Bulk add modal
+        function openBulkAddModal(items) {
+            const publications = FavoritesManager.getPublications();
+            const pubList = Object.values(publications);
+
+            // Create modal
+            const overlay = document.createElement('div');
+            overlay.className = 'pub-modal-overlay';
+            overlay.id = 'bulkAddModal';
+            overlay.style.cssText = `
+                position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+                background: rgba(0,0,0,0.5); backdrop-filter: blur(4px);
+                display: flex; justify-content: center; align-items: center;
+                z-index: 10000;
+            `;
+
+            overlay.innerHTML = `
+                <div style="background: white; border-radius: 12px; width: 90%; max-width: 450px; padding: 1.5rem; box-shadow: 0 20px 40px rgba(0,0,0,0.2);">
+                    <h3 style="margin: 0 0 1rem 0; font-size: 1.1rem; color: #1a202c;">
+                        📚 Adicionar ${items.length} artigos
+                    </h3>
+                    
+                    <div style="margin-bottom: 1rem;">
+                        <label style="font-size: 0.8rem; color: #718096; display: block; margin-bottom: 0.5rem;">
+                            Criar Nova Publicação:
+                        </label>
+                        <div style="display: flex; gap: 0.5rem;">
+                            <input type="text" id="bulkNewPubName" placeholder="Nome da publicação..." 
+                                   style="flex: 1; padding: 0.75rem; border: 1px solid #e2e8f0; border-radius: 8px; font-size: 0.95rem;">
+                            <button onclick="bulkCreateAndAdd()" 
+                                    style="padding: 0.75rem 1rem; background: #6b5b95; color: white; border: none; border-radius: 8px; cursor: pointer; font-weight: 500;">
+                                Criar
+                            </button>
+                        </div>
+                    </div>
+                    
+                    ${pubList.length > 0 ? `
+                        <div style="margin-bottom: 1rem;">
+                            <label style="font-size: 0.8rem; color: #718096; display: block; margin-bottom: 0.5rem;">
+                                Ou Adicionar a Existente:
+                            </label>
+                            <div style="display: flex; flex-direction: column; gap: 0.5rem; max-height: 200px; overflow-y: auto;">
+                                ${pubList.map(pub => `
+                                    <div onclick="bulkAddToExisting('${pub.id}')" 
+                                         style="padding: 0.75rem 1rem; background: #f7fafc; border: 1px solid #e2e8f0; border-radius: 8px; cursor: pointer; display: flex; justify-content: space-between; align-items: center;">
+                                        <span style="font-weight: 500;">${pub.name}</span>
+                                        <span style="font-size: 0.85rem; color: #718096;">${pub.items.length} artigos</span>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                    ` : ''}
+                    
+                    <div style="text-align: right; padding-top: 0.5rem; border-top: 1px solid #e2e8f0;">
+                        <button onclick="closeBulkModal()" 
+                                style="padding: 0.5rem 1rem; background: #f7fafc; border: 1px solid #e2e8f0; border-radius: 6px; cursor: pointer;">
+                            Cancelar
+                        </button>
+                    </div>
+                </div>
+            `;
+
+            overlay.addEventListener('click', (e) => {
+                if (e.target === overlay) closeBulkModal();
+            });
+
+            document.body.appendChild(overlay);
+            document.getElementById('bulkNewPubName').focus();
+        }
+
+        window.closeBulkModal = function () {
+            const modal = document.getElementById('bulkAddModal');
+            if (modal) modal.remove();
+        };
+
+        window.bulkCreateAndAdd = function () {
+            const input = document.getElementById('bulkNewPubName');
+            const name = input?.value?.trim();
+            if (!name) {
+                input?.focus();
+                return;
+            }
+
+            const items = window.currentDisplayItems || [];
+            const pub = FavoritesManager.createPublication(name);
+            let added = 0;
+
+            items.forEach(item => {
+                if (FavoritesManager.addToPublication(pub.id, item)) {
+                    added++;
+                }
+            });
+
+            closeBulkModal();
+            updateFavoriteButtons();
+            alert(`Publicação "${name}" criada com ${added} artigos!`);
+        };
+
+        window.bulkAddToExisting = function (pubId) {
+            const items = window.currentDisplayItems || [];
+            const pub = FavoritesManager.getPublication(pubId);
+            if (!pub) return;
+
+            let added = 0;
+            items.forEach(item => {
+                if (FavoritesManager.addToPublication(pubId, item)) {
+                    added++;
+                }
+            });
+
+            closeBulkModal();
+            updateFavoriteButtons();
+            alert(`${added} artigos adicionados a "${pub.name}"!`);
+        };
+
+        // History Feature Logic
+        function renderHistory() {
+            const list = document.getElementById('historyList');
+            if (!list || typeof HistoryManager === 'undefined') return;
+
+            const history = HistoryManager.get();
+
+            if (history.length === 0) {
+                list.innerHTML = '<div style="font-size:0.8rem; color:#999; padding:0.5rem;">Nenhum histórico recente.</div>';
+                return;
+            }
+
+            list.innerHTML = history.map(h => `
+                <div class="pub-list-item" onclick="event.preventDefault(); openHistoryItem('${h.id}')" style="padding: 0.5rem; font-size: 0.85rem;">
+                    <span class="pub-list-item-name" style="white-space:nowrap; overflow:hidden; text-overflow:ellipsis;" title="${h.title}">${h.title}</span>
+                </div>
+            `).join('');
+        }
+
+        function openHistoryItem(id) {
+            const item = searchData.find(x => x.id === id);
+            if (item) {
+                openModal(item);
+            } else {
+                alert('Artigo não encontrado.');
+            }
+        }
+
+        window.clearHistory = function () {
+            if (confirm('Limpar histórico de leitura?')) {
+                HistoryManager.clear();
+            }
+        };
+
+        // Listen for history updates
+        window.addEventListener('history-updated', () => {
+            renderHistory();
+        });
+
+        // Initial render
+        document.addEventListener('DOMContentLoaded', () => {
+            setTimeout(renderHistory, 500);
+        });
+
     </script>
+
 </body>
 
 </html>
